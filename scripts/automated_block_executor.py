@@ -109,15 +109,34 @@ class BlockExecutor:
         # Strategic commit at start of block
         self.strategic_commit(f"Starting {self.blocks[block_num]} implementation", block_num)
         
-        # Execute block-specific implementation
-        # This would be handled by the AI agent following the spec
+        # ACTUAL IMPLEMENTATION - Call AI agent to implement the block
         print(f"📋 Executing Block {block_num} tasks...")
         
-        # For now, this is a placeholder - the actual implementation
-        # will be done by the AI agent following the specifications
-        time.sleep(1)  # Simulate work
-        
-        return True
+        try:
+            # Call external AI implementation via subprocess
+            result = subprocess.run([
+                'python', '-c', 
+                f'''
+import sys
+sys.path.append("{self.atlas_dir}")
+from helpers.ai_block_implementer import implement_block
+implement_block({block_num}, "{spec_file}")
+'''
+            ], cwd=self.atlas_dir, capture_output=True, text=True, timeout=3600)
+            
+            if result.returncode == 0:
+                print(f"✅ Block {block_num} implementation completed")
+                return True
+            else:
+                print(f"❌ Block {block_num} implementation failed: {result.stderr}")
+                return False
+                
+        except subprocess.TimeoutExpired:
+            print(f"❌ Block {block_num} implementation timed out")
+            return False
+        except Exception as e:
+            print(f"❌ Block {block_num} implementation error: {e}")
+            return False
     
     def compact_context_and_commit(self, block_num):
         """Compact context and make completion commit"""
