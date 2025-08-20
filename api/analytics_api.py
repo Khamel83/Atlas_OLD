@@ -6,7 +6,7 @@ This module provides API endpoints for the personal analytics dashboard.
 """
 
 from flask import Blueprint, jsonify, request
-from datetime import datetime, timedelta
+from datetime import datetime
 import json
 
 # Create blueprint for analytics API
