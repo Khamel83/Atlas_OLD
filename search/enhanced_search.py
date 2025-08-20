@@ -43,7 +43,7 @@ class EnhancedSearchEngine:
         
         # Update average document length
         total_length = sum(doc['length'] for doc in self.documents.values())
-        self.avg_document_length = total_length / self.document_count
+        self.avg_document_length = total_length / self.document_count if self.document_count > 0 else 0
         
         # Tokenize content
         tokens = self._tokenize(content)
@@ -105,7 +105,7 @@ class EnhancedSearchEngine:
             term_documents = self.index.get(term, [])
             
             # Calculate IDF for this term
-            idf = math.log(self.document_count / len(term_documents)) if term_documents else 0
+            idf = math.log(self.document_count / len(term_documents)) if term_documents and self.document_count > 0 else 0
             
             # Calculate TF-IDF for each document
             for doc_info in term_documents:
@@ -235,8 +235,7 @@ class EnhancedSearchEngine:
         return {
             'document_count': self.document_count,
             'term_count': len(self.index),
-            'avg_document_length': self.avg_document_length,
-            'indexed_documents': list(self.documents.keys())[:10]  # First 10 document IDs
+            'avg_document_length': self.avg_document_length
         }
 
 def main():
