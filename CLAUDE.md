@@ -3,6 +3,9 @@
 ## 🎯 Token Efficiency Priority
 **MAXIMIZE TOKEN EFFICIENCY** - Conserve input/output tokens. Use compact responses, abbreviations, bullet points. Compress documentation when needed without losing critical information.
 
+## ⚙️ Configuration Management Rule
+**ALL USER-CONFIGURABLE VALUES MUST BE IN .ENV** - Never hardcode paths, credentials, API keys, timeouts, or any values that might need adjustment. Always use environment variables with sensible defaults. Update `env.template` for any new configuration options.
+
 ## 🚀 Daily Development Startup
 
 ### **One-Command Startup (ALWAYS USE THIS)**
