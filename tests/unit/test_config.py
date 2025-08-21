@@ -6,12 +6,15 @@ import os
 import unittest
 from unittest.mock import mock_open, patch
 
+import pytest
+
 from helpers.config import load_categories, load_config
 
 
 class TestConfig(unittest.TestCase):
     """Test cases for config module functions."""
 
+    @pytest.mark.unit
     def test_load_categories_success(self):
         """Test successful loading of categories from YAML."""
         mock_yaml_content = """
@@ -31,6 +34,7 @@ class TestConfig(unittest.TestCase):
         self.assertIn("tier_2", categories)
         self.assertEqual(categories["tier_1"], ["Technology", "Science"])
 
+    @pytest.mark.unit
     def test_load_categories_file_not_found(self):
         """Test handling of missing categories file."""
         with patch("builtins.open", side_effect=FileNotFoundError):
@@ -38,6 +42,7 @@ class TestConfig(unittest.TestCase):
 
         self.assertEqual(categories, {})
 
+    @pytest.mark.unit
     def test_load_categories_yaml_error(self):
         """Test handling of invalid YAML content."""
         invalid_yaml = "invalid: yaml: content: ["
@@ -48,6 +53,7 @@ class TestConfig(unittest.TestCase):
 
         self.assertEqual(categories, {})
 
+    @pytest.mark.unit
     def test_load_config_with_env_vars(self):
         """Test config loading with environment variables."""
         test_env_vars = {
@@ -65,6 +71,7 @@ class TestConfig(unittest.TestCase):
         self.assertTrue(config["transcribe_enabled"])
         self.assertEqual(config["log_level"], "DEBUG")
 
+    @pytest.mark.unit
     def test_load_config_defaults(self):
         """Test config loading with default values."""
         # Clear relevant env vars
