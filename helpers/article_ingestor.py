@@ -26,7 +26,7 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify
 from readability import Document
 
-from helpers.article_strategies import ArticleFetcher
+from helpers.article_manager import ArticleManager
 from helpers.base_ingestor import BaseIngestor
 from helpers.dedupe import link_uid
 from helpers.metadata_manager import ContentType
@@ -44,7 +44,7 @@ class ArticleIngestor(BaseIngestor):
     
     def __init__(self, config):
         super().__init__(config, ContentType.ARTICLE, "article_ingestor")
-        self.fetcher = ArticleFetcher(config)
+        self.article_manager = ArticleManager(config)
     
     def process_urls(self, urls: List[str]) -> Dict[str, Any]:
         """Process multiple URLs and capture comprehensive metadata"""
@@ -82,12 +82,29 @@ class ArticleIngestor(BaseIngestor):
         markdown_path = paths.get_path("markdown")
         
         try:
-            # Fetch article using strategy pattern
-            fetch_result = self.fetcher.fetch(url, self.log_path)
+            # Fetch article using unified ArticleManager
+            article_result = self.article_manager.process_article(url, log_path=self.log_path)
             
-            if not fetch_result.success:
-                log_error(self.log_path, f"Failed to fetch article: {fetch_result.error}")
+            if not article_result.success:
+                log_error(self.log_path, f"Failed to fetch article: {article_result.error}")
                 return False
+                
+            # Convert ArticleResult to legacy format for compatibility
+            class FetchResult:
+                def __init__(self, success, content, title, error, metadata):
+                    self.success = success
+                    self.content = content  
+                    self.title = title
+                    self.error = error
+                    self.metadata = metadata
+                    
+            fetch_result = FetchResult(
+                success=article_result.success,
+                content=article_result.content,
+                title=article_result.title,
+                error=article_result.error,
+                metadata=article_result.metadata or {}
+            )
             
             # COMPREHENSIVE METADATA EXTRACTION - Never lose any data!
             comprehensive_metadata = self._extract_all_article_metadata(
