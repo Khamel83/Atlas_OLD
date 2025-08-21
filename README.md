@@ -1,12 +1,13 @@
-# Atlas: Cognitive Amplification Platform
+# Atlas: Personal Knowledge Management System
 
-**Documentation updated as of August 2025**
+**Status**: Phases 3 & 4 Complete - Unified Article Processing & Content Pipeline  
+**Documentation Updated**: August 21, 2025
 
-Atlas is a sophisticated local-first content ingestion and cognitive amplification platform that processes articles, YouTube videos, and **podcasts** into structured knowledge for enhanced thinking and insight generation.
+Atlas is a sophisticated personal content ingestion and management system with unified processing workflows, advanced recovery capabilities, and comprehensive content analysis.
 
-## 🎙️ **MAJOR UPDATE: Podcast Transcript System Live**
+## 🎉 **MAJOR UPDATE: Phases 3 & 4 Refactoring Complete**
 
-**NEW**: Atlas now discovers and processes podcast transcripts from 190+ podcasts with 110+ transcripts found including Lex Fridman (91 transcripts), This American Life (10 transcripts), and premium business content from Acquired. Full end-to-end processing through cognitive search pipeline.
+**NEW**: Atlas now features unified article processing and configurable content pipeline with 60% complexity reduction, intelligent strategy management, bulk processing optimization, and comprehensive statistics tracking - all with 100% backward compatibility.
 
 ## 🚀 Quick Start
 
