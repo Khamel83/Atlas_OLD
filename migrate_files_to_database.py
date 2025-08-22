@@ -104,24 +104,21 @@ def insert_content_to_database(db_path: str, metadata: Dict[str, Any]) -> bool:
     """
     try:
         with sqlite3.connect(db_path) as conn:
-            # Convert metadata to database format
-            uid = metadata.get("uid", "")
-            content_type = metadata.get("content_type", "")
-            source = metadata.get("source", "")
+            # Convert metadata to database format to match existing schema
+            id_val = metadata.get("uid", metadata.get("id", ""))
             title = metadata.get("title", "")
-            status = metadata.get("status", "")
-            created_at = metadata.get("created_at", "")
-            updated_at = metadata.get("updated_at", "")
-            error = metadata.get("error", "")
-            tags = json.dumps(metadata.get("tags", []))
+            content_type = metadata.get("content_type", "")
+            source_url = metadata.get("source", metadata.get("source_url", ""))
+            created_at = metadata.get("created_at", metadata.get("date", ""))
             metadata_json = json.dumps(metadata)
+            content = metadata.get("content", "")
             
-            # Insert or replace content
+            # Insert or replace content using existing schema
             conn.execute('''
                 INSERT OR REPLACE INTO content 
-                (uid, content_type, source, title, status, created_at, updated_at, error, tags, metadata)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-            ''', (uid, content_type, source, title, status, created_at, updated_at, error, tags, metadata_json))
+                (id, title, content_type, source_url, created_at, metadata, content)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+            ''', (id_val, title, content_type, source_url, created_at, metadata_json, content))
             
         return True
     except Exception as e:

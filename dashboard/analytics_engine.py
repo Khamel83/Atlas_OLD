@@ -724,6 +724,19 @@ class AnalyticsEngine:
             lines.append(f"{item['type']}_percentage,{item['percentage']}%,content_distribution")
         
         return "\n".join(lines)
+    
+    def get_consumption_patterns(self, days: int = 30) -> Dict[str, Any]:
+        """
+        Public method to get consumption patterns.
+        
+        Args:
+            days: Number of days to analyze
+            
+        Returns:
+            Dictionary with consumption patterns analysis
+        """
+        cutoff_date = (datetime.now() - timedelta(days=days)).isoformat()
+        return self._analyze_consumption_patterns(cutoff_date)
 
 
 def get_analytics(days: int = 30, config: Dict[str, Any] = None) -> Dict[str, Any]:
