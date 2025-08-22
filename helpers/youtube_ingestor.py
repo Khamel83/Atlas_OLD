@@ -393,6 +393,45 @@ class YouTubeIngestor(BaseIngestor):
         return sorted(list(formats))
 
 
+def process_youtube(url: str, config: Dict[str, Any] = None) -> Dict[str, Any]:
+    """
+    Process individual YouTube URL - Core function for Block 1 validation.
+    
+    Args:
+        url: YouTube video URL
+        config: Configuration dictionary
+        
+    Returns:
+        Dict with processing result
+    """
+    try:
+        config = config or {}
+        ingestor = YouTubeIngestor(config)
+        
+        # Process single video
+        success = ingestor.ingest_single_video(url)
+        
+        if success:
+            return {
+                'success': True,
+                'url': url,
+                'message': 'YouTube video processed successfully'
+            }
+        else:
+            return {
+                'success': False,
+                'url': url,
+                'error': 'YouTube video processing failed'
+            }
+            
+    except Exception as e:
+        return {
+            'success': False,
+            'url': url,
+            'error': str(e)
+        }
+
+
 def ingest_youtube_history(config: dict, input_file: str = "inputs/youtube.txt"):
     ingestor = YouTubeIngestor(config)
     ingestor.ingest_history(input_file)

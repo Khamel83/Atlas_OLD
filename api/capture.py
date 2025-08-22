@@ -318,6 +318,11 @@ def recent_captures_endpoint():
         return jsonify({"error": f"Recent captures error: {str(e)}"}), 500
 
 
+def create_flask_app():
+    """Create Flask app with capture API endpoints"""
+    return app
+
+
 if __name__ == "__main__":
     # Development server
     print("Starting Atlas Capture API...")

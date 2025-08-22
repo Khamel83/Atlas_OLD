@@ -1,6 +1,7 @@
 # helpers/podcast_ingestor.py
 import os
 from datetime import datetime
+from typing import Dict, Any
 
 import feedparser
 import requests
@@ -9,6 +10,7 @@ from helpers.base_ingestor import BaseIngestor
 from helpers.dedupe import link_uid
 from helpers.metadata_manager import ContentType
 from helpers.path_manager import PathType
+from helpers.podcast_space_manager import should_download_audio, check_disk_space_before_download
 from helpers.transcription import transcribe_audio
 from helpers.utils import generate_markdown_summary, log_error, log_info
 
@@ -122,16 +124,26 @@ class PodcastIngestor(BaseIngestor):
         # Save raw RSS entry data for complete preservation
         self.save_raw_data(entry, meta, "rss_entry")
         try:
-            if not os.path.exists(audio_path):
-                log_info(self.log_path, f"Downloading: {title}")
-                with requests.get(audio_url, stream=True, timeout=30) as r:
-                    r.raise_for_status()
-                    with open(audio_path, "wb") as f:
-                        for chunk in r.iter_content(chunk_size=8192):
-                            f.write(chunk)
-                meta.status = "success"
+            # Check if we should download audio based on space management settings
+            download_audio = should_download_audio(title, self.config)
+            
+            if download_audio:
+                # Check disk space before downloading
+                check_disk_space_before_download()
+                
+                if not os.path.exists(audio_path):
+                    log_info(self.log_path, f"Downloading: {title}")
+                    with requests.get(audio_url, stream=True, timeout=30) as r:
+                        r.raise_for_status()
+                        with open(audio_path, "wb") as f:
+                            for chunk in r.iter_content(chunk_size=8192):
+                                f.write(chunk)
+                    meta.status = "success"
+                else:
+                    meta.status = "already_downloaded"
             else:
-                meta.status = "already_downloaded"
+                log_info(self.log_path, f"Skipping audio download for: {title} (transcript-first mode)")
+                meta.status = "transcript_only"
 
             transcript_text = None
             run_transcription = self.config.get("run_transcription", False)
@@ -292,3 +304,42 @@ def ingest_podcasts(config: dict, opml_path: str = "inputs/podcasts.opml"):
         ingestor.process_feed(feed_url)
 
     log_info(ingestor.log_path, "Podcast ingestion complete.")
+
+
+def process_podcast(url: str, config: Dict[str, Any] = None) -> Dict[str, Any]:
+    """
+    Process individual podcast URL - Core function for Block 1 validation.
+    
+    Args:
+        url: Podcast RSS feed URL or episode URL
+        config: Configuration dictionary
+        
+    Returns:
+        Dict with processing result
+    """
+    try:
+        config = config or {}
+        ingestor = PodcastIngestor(config)
+        
+        # Process podcast feed
+        success = ingestor.process_feed(url)
+        
+        if success:
+            return {
+                'success': True,
+                'url': url,
+                'message': 'Podcast processed successfully'
+            }
+        else:
+            return {
+                'success': False,
+                'url': url,
+                'error': 'Podcast processing failed'
+            }
+            
+    except Exception as e:
+        return {
+            'success': False,
+            'url': url,
+            'error': str(e)
+        }

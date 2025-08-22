@@ -75,7 +75,14 @@ def main():
     # Run the requested ingestion types
     if args.all or args.articles:
         logging.info("Starting article ingestion...")
-        fetch_and_save_articles(config)
+        # Get articles from inputs/articles.txt
+        articles_file = "inputs/articles.txt"
+        if os.path.exists(articles_file):
+            with open(articles_file, 'r') as f:
+                urls = [line.strip() for line in f if line.strip()]
+            fetch_and_save_articles(urls, config.get('output_dir', 'output'))
+        else:
+            logging.warning(f"Articles file not found: {articles_file}")
         logging.info("Article ingestion complete.")
 
     if args.all or args.podcasts:

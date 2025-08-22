@@ -432,7 +432,12 @@ class AtlasSearchEngine:
 
         try:
             start_time = time.time()
-            results = self.index.search(query, **search_params)
+            # Extract limit from search_params and pass it directly to search method
+            limit_param = search_params.pop('limit', None)
+            if limit_param is not None:
+                results = self.index.search(query, limit=limit_param, **search_params)
+            else:
+                results = self.index.search(query, **search_params)
             search_time = time.time() - start_time
 
             # Process results

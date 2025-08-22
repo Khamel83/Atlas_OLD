@@ -269,7 +269,10 @@ class ContentExporter:
         # Group content by main content item
         content_groups = self._group_content_by_item(content_data)
 
-        for content_item, segments in content_groups.items():
+        for content_id, group_data in content_groups.items():
+            content_item = group_data["content"]
+            segments = group_data["segments"]
+            
             # Prepare data for template
             template_data = {
                 "content": content_item,
@@ -302,7 +305,9 @@ class ContentExporter:
         formatted_files = []
         content_groups = self._group_content_by_item(content_data)
 
-        for content_item, segments in content_groups.items():
+        for content_id, group_data in content_groups.items():
+            content_item = group_data["content"]
+            segments = group_data["segments"]
             # Create Obsidian-specific formatting
             frontmatter = {
                 "title": content_item.get("title", "Untitled"),
@@ -378,7 +383,9 @@ class ContentExporter:
         # Prepare database entries
         database_entries = []
 
-        for content_item, segments in content_groups.items():
+        for content_id, group_data in content_groups.items():
+            content_item = group_data["content"]
+            segments = group_data["segments"]
             entry = {
                 "Name": content_item.get("title", "Untitled"),
                 "Type": content_item.get("content_type", ""),
@@ -421,7 +428,9 @@ class ContentExporter:
         flashcards = []
         content_groups = self._group_content_by_item(content_data)
 
-        for content_item, segments in content_groups.items():
+        for content_id, group_data in content_groups.items():
+            content_item = group_data["content"]
+            segments = group_data["segments"]
             # Create cards from key insights
             podcast_title = content_item.get("podcast_title", "Unknown Podcast")
             content_title = content_item.get("title", "Unknown Episode")
@@ -483,10 +492,11 @@ class ContentExporter:
         for row in content_data:
             content_id = row.get("id")
             if content_id not in groups:
-                # Store main content item (no separate segments in current schema)
-                groups[row] = (
-                    []
-                )  # Empty segments list since we don't have parsed segments yet
+                # Store main content item with content ID as key
+                groups[content_id] = {
+                    "content": row,
+                    "segments": []  # Empty segments list since we don't have parsed segments yet
+                }
 
         return groups
 

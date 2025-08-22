@@ -34,8 +34,7 @@ def restart_service(service_name):
         os.makedirs(os.path.dirname(log_file), exist_ok=True)
         
         with open(log_file, "a") as f:
-            f.write(f"{datetime.now()}: {service_name} restarted
-")
+            f.write(f"{datetime.now()}: {service_name} restarted\n")
         
         return True
     except subprocess.CalledProcessError as e:
@@ -60,8 +59,7 @@ def restart_all_services():
         results.append((service, result))
     
     # Print summary
-    print("
-" + "=" * 40)
+    print("\n" + "=" * 40)
     print("Restart Summary:")
     print("=" * 40)
     
@@ -73,11 +71,9 @@ def restart_all_services():
             all_success = False
     
     if all_success:
-        print("
-All services restarted successfully!")
+        print("\nAll services restarted successfully!")
     else:
-        print("
-Some services failed to restart.")
+        print("\nSome services failed to restart.")
     
     return all_success
 

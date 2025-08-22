@@ -6,16 +6,48 @@ This module provides RESTful API endpoints for the enhanced search functionality
 """
 
 from flask import Blueprint, jsonify, request
-from search.enhanced_search import EnhancedSearchEngine
-from search.indexing_system import SearchIndexer
+from helpers.enhanced_search import advanced_search
+from helpers.search_engine import SearchEngine
 import json
 
 # Create blueprint for search API
 search_bp = Blueprint('search', __name__, url_prefix='/api/search')
 
-# Global search engine and indexer instances
-search_engine = EnhancedSearchEngine()
-indexer = SearchIndexer()
+# Global search engine instance
+try:
+    search_engine = SearchEngine()
+except Exception as e:
+    search_engine = None
+
+@search_bp.route('/', methods=['GET'])
+@search_bp.route('/search', methods=['GET'])
+def search():
+    """
+    Core search endpoint for Block 9 validation.
+    
+    Query Parameters:
+        q (str): Search query
+        limit (int, optional): Maximum number of results (default: 20)
+        
+    Returns:
+        JSON response with search results
+    """
+    query = request.args.get('q', '')
+    limit = request.args.get('limit', 20, type=int)
+    
+    if not query:
+        return jsonify({'error': 'Query parameter "q" is required'}), 400
+    
+    try:
+        # Use advanced search
+        results = advanced_search(query, limit=limit)
+        return jsonify({
+            'query': query,
+            'results': results,
+            'count': len(results)
+        })
+    except Exception as e:
+        return jsonify({'error': f'Search failed: {str(e)}'}), 500
 
 @search_bp.route('/query', methods=['GET'])
 def search_query():
@@ -36,7 +68,11 @@ def search_query():
         return jsonify({'error': 'Query parameter "q" is required'}), 400
     
     try:
-        results = search_engine.search(query, limit)
+        if search_engine:
+            results = search_engine.search(query, limit)
+        else:
+            results = []
+        
         return jsonify({
             'query': query,
             'results': results,
@@ -326,6 +362,13 @@ def initialize_search_system(documents=None):
         print("Search system initialized with sample documents")
     else:
         print("Search system initialized")
+
+def create_flask_app():
+    """Create Flask app with search API endpoints"""
+    from flask import Flask
+    app = Flask(__name__)
+    app.register_blueprint(search_bp)
+    return app
 
 def main():
     """Example usage"""

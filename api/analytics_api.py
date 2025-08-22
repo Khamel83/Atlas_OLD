@@ -74,15 +74,67 @@ analytics_data = {
     }
 }
 
+@analytics_bp.route('/', methods=['GET'])
+@analytics_bp.route('/analytics', methods=['GET'])
+def get_analytics():
+    """
+    Core analytics endpoint for Block 8 validation.
+    
+    Returns:
+        JSON response with analytics data
+    """
+    from dashboard.analytics_engine import get_analytics as get_real_analytics
+    
+    try:
+        # Get real analytics data
+        days = request.args.get('days', 30, type=int)
+        analytics_data = get_real_analytics(days)
+        return jsonify(analytics_data)
+    except Exception as e:
+        # Fallback to mock data
+        return jsonify({'error': str(e), 'fallback_data': analytics_data})
+
 @analytics_bp.route('/dashboard', methods=['GET'])
 def get_dashboard_data():
     """
-    Get all dashboard data
+    Enhanced dashboard data with real Atlas integration
     
     Returns:
-        JSON response with dashboard data
+        JSON response with comprehensive dashboard data
     """
-    return jsonify(analytics_data)
+    try:
+        from dashboard.analytics_engine import AnalyticsEngine
+        engine = AnalyticsEngine()
+        
+        # Get comprehensive insights
+        days = request.args.get('days', 30, type=int)
+        insights = engine.generate_insights(days)
+        
+        # Add system health
+        health = engine.get_system_health()
+        
+        # Combine with existing mock structure for backwards compatibility
+        enhanced_data = {
+            **analytics_data,  # Keep mock data as fallback
+            'real_insights': insights,
+            'system_health': health,
+            'meta': {
+                'source': 'enhanced_analytics_engine',
+                'timestamp': datetime.now().isoformat(),
+                'period_days': days
+            }
+        }
+        
+        return jsonify(enhanced_data)
+        
+    except Exception as e:
+        # Graceful degradation to mock data
+        return jsonify({
+            **analytics_data,
+            'error': str(e),
+            'fallback': True,
+            'timestamp': datetime.now().isoformat()
+        })
 
 @analytics_bp.route('/metrics/system', methods=['GET'])
 def get_system_metrics():
@@ -223,16 +275,37 @@ def update_user_metrics():
 @analytics_bp.route('/health', methods=['GET'])
 def health_check():
     """
-    Health check endpoint
+    Enhanced health check endpoint with system diagnostics
     
     Returns:
-        JSON response with health status
+        JSON response with comprehensive health status
     """
-    return jsonify({
-        'status': 'healthy',
-        'timestamp': datetime.now().isoformat(),
-        'service': 'analytics-api'
-    })
+    try:
+        from dashboard.analytics_engine import AnalyticsEngine
+        engine = AnalyticsEngine()
+        
+        # Get comprehensive health data
+        health = engine.get_system_health()
+        
+        # Add API-specific health info
+        health['api'] = {
+            'status': 'healthy',
+            'service': 'analytics-api',
+            'endpoints_available': 8,
+            'version': '2.0'
+        }
+        
+        return jsonify(health)
+        
+    except Exception as e:
+        # Fallback health check
+        return jsonify({
+            'status': 'degraded',
+            'timestamp': datetime.now().isoformat(),
+            'service': 'analytics-api',
+            'error': str(e),
+            'fallback': True
+        }), 503
 
 # Error handlers
 @analytics_bp.errorhandler(404)
@@ -272,6 +345,13 @@ def update_metrics_periodically():
     analytics_data['metrics']['content']['articles_success_rate'] = round(random.uniform(95, 99), 1)
     
     print("Metrics updated with simulated data")
+
+def create_flask_app():
+    """Create Flask app with analytics API endpoints"""
+    from flask import Flask
+    app = Flask(__name__)
+    app.register_blueprint(analytics_bp)
+    return app
 
 def main():
     """Example usage"""
