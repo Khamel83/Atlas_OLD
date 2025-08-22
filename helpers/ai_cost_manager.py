@@ -5,6 +5,7 @@ Addresses feedback: AI Feature Dependence & Cost, Graceful degradation
 """
 
 import json
+import os
 import sqlite3
 import time
 import requests
@@ -101,13 +102,18 @@ class AICostManager:
             'skip_ai_features'
         ]
         
+        # Set up logging
+        log_dir = self.config.get('log_directory', 'logs')
+        os.makedirs(log_dir, exist_ok=True)
+        self.log_path = os.path.join(log_dir, 'ai_cost_manager.log')
+        
         # Initialize database
         self._init_cost_database()
         
         # Load current usage
         self.current_usage = self._get_current_usage()
         
-        log_info("AI Cost Manager initialized with budget enforcement")
+        log_info(self.log_path, "AI Cost Manager initialized with budget enforcement")
     
     def _init_cost_database(self):
         """Initialize cost tracking database."""
@@ -176,10 +182,10 @@ class AICostManager:
                 conn.execute('CREATE INDEX IF NOT EXISTS idx_usage_provider ON api_usage(provider)')
                 conn.execute('CREATE INDEX IF NOT EXISTS idx_cache_expires ON ai_response_cache(expires_at)')
                 
-            log_info("AI cost database initialized")
+            log_info(self.log_path, "AI cost database initialized")
             
         except Exception as e:
-            log_error(f"Error initializing cost database: {str(e)}")
+            log_error(self.log_path, f"Error initializing cost database: {str(e)}")
     
     def _get_current_usage(self) -> Dict[str, float]:
         """Get current usage statistics."""
@@ -228,7 +234,7 @@ class AICostManager:
             return usage
             
         except Exception as e:
-            log_error(f"Error getting current usage: {str(e)}")
+            log_error(self.log_path, f"Error getting current usage: {str(e)}")
             return {'daily_cost': 0.0, 'monthly_cost': 0.0, 'hourly_requests': 0, 'total_requests_today': 0}
     
     def check_budget_limits(self, estimated_cost: float = 0.0) -> Dict[str, Any]:
@@ -292,7 +298,7 @@ class AICostManager:
                 budget_check = self.check_budget_limits(estimated_cost)
                 
                 if not budget_check['allowed']:
-                    log_info(f"AI request blocked: {budget_check['reason']}")
+                    log_info(self.log_path, f"AI request blocked: {budget_check['reason']}")
                     
                     # Try fallback strategies
                     fallback_result = self._try_fallback_strategies(
@@ -316,7 +322,7 @@ class AICostManager:
                 cached_result = self._get_cached_response(cache_key)
                 
                 if cached_result:
-                    log_info(f"AI request served from cache: {operation}")
+                    log_info(self.log_path, f"AI request served from cache: {operation}")
                     self._record_cache_hit(operation, estimated_cost)
                     return cached_result
                 
@@ -344,7 +350,7 @@ class AICostManager:
                     return result
                     
                 except Exception as e:
-                    log_error(f"AI request failed for {operation}: {str(e)}")
+                    log_error(self.log_path, f"AI request failed for {operation}: {str(e)}")
                     
                     # Record failed usage
                     response_time = time.time() - start_time

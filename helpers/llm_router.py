@@ -5,6 +5,7 @@ Implements 3-tier routing strategy: Llama → Qwen → Gemini with smart fallbac
 """
 
 import json
+import os
 from dataclasses import dataclass, asdict
 from typing import Any, Dict, List, Optional, Union
 from datetime import datetime
@@ -134,7 +135,12 @@ class LLMRouter:
             'poor_quality', 'context_limit_exceeded'
         }
         
-        log_info(f"LLM Router initialized with {len(self.MODELS)} models")
+        # Set up logging
+        log_dir = self.config.get('log_directory', 'logs')
+        os.makedirs(log_dir, exist_ok=True)
+        self.log_path = os.path.join(log_dir, 'llm_router.log')
+        
+        log_info(self.log_path, f"LLM Router initialized with {len(self.MODELS)} models")
     
     def choose_model(self, spec: TaskSpec) -> str:
         """
@@ -159,7 +165,7 @@ class LLMRouter:
         ]
         
         if not available_models:
-            log_error(f"No model can handle {spec.input_tokens} tokens")
+            log_error(self.log_path, f"No model can handle {spec.input_tokens} tokens")
             return self.MODELS['google/gemini-2.5-flash-lite'].slug  # Largest context
         
         # Very long context requirement

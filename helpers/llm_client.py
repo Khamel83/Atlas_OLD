@@ -61,11 +61,16 @@ class LLMClient:
             'X-Title': 'Atlas Unified AI System'
         }
         
+        # Set up logging
+        log_dir = self.config.get('log_directory', 'logs')
+        os.makedirs(log_dir, exist_ok=True)
+        self.log_path = os.path.join(log_dir, 'llm_client.log')
+        
         # Model pricing cache (updated from /models endpoint)
         self.model_pricing = {}
         self._update_model_pricing()
         
-        log_info(f"LLM Client initialized (Provider: OpenRouter, Models: {len(self.model_pricing)})")
+        log_info(self.log_path, f"LLM Client initialized (Provider: OpenRouter, Models: {len(self.model_pricing)})")
     
     def _update_model_pricing(self):
         """Update model pricing from OpenRouter API."""
@@ -85,10 +90,10 @@ class LLMClient:
                         'updated_at': datetime.now().isoformat()
                     }
                 
-                log_info(f"Updated pricing for {len(self.model_pricing)} models")
+                log_info(self.log_path, f"Updated pricing for {len(self.model_pricing)} models")
             
         except Exception as e:
-            log_error(f"Failed to update model pricing: {str(e)}")
+            log_error(self.log_path, f"Failed to update model pricing: {str(e)}")
             # Use fallback pricing
             self._set_fallback_pricing()
     
