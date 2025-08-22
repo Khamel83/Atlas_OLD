@@ -139,27 +139,64 @@ class AnalyticsEngine:
                         
                         for item in batch:
                             try:
-                                url = item.get('url', '')
+                                # Handle both dict-like objects and ContentMetadata objects
+                                if hasattr(item, 'get'):
+                                    # Dict-like object
+                                    url = item.get('url', '')
+                                else:
+                                    # ContentMetadata object
+                                    url = getattr(item, 'source', '')
                                 
                                 # Skip if already exists (fast lookup)
                                 if url in existing_urls:
                                     continue
                                 
                                 # Enhanced data extraction with fallbacks
-                                content_type = self._normalize_content_type(item.get('content_type', 'unknown'))
-                                title = item.get('title', 'Untitled')[:500]  # Prevent oversized titles
-                                word_count = self._safe_int(item.get('word_count', 0))
-                                tags = item.get('tags', [])
-                                created_at = item.get('created_at', datetime.now().isoformat())
-                                
-                                # Enhanced metadata with Atlas-specific fields
-                                enhanced_metadata = {
-                                    **item,
-                                    'sync_timestamp': datetime.now().isoformat(),
-                                    'source': 'atlas_sync',
-                                    'quality_score': item.get('evaluation', {}).get('overall_score', 0),
-                                    'processing_status': item.get('status', 'unknown')
-                                }
+                                # Handle both dict-like objects and ContentMetadata objects
+                                if hasattr(item, 'get'):
+                                    # Dict-like object
+                                    content_type = self._normalize_content_type(item.get('content_type', 'unknown'))
+                                    title = item.get('title', 'Untitled')[:500]  # Prevent oversized titles
+                                    word_count = self._safe_int(item.get('word_count', 0))
+                                    tags = item.get('tags', [])
+                                    created_at = item.get('created_at', datetime.now().isoformat())
+                                    
+                                    # Enhanced metadata with Atlas-specific fields
+                                    item_dict = item if isinstance(item, dict) else item.to_dict() if hasattr(item, 'to_dict') else dict(item)
+                                    enhanced_metadata = {
+                                        **item_dict,
+                                        'sync_timestamp': datetime.now().isoformat(),
+                                        'source': 'atlas_sync',
+                                        'quality_score': item.get('evaluation', {}).get('overall_score', 0) if 'evaluation' in item else 0,
+                                        'processing_status': item.get('status', 'unknown')
+                                    }
+                                else:
+                                    # ContentMetadata object
+                                    content_type = self._normalize_content_type(getattr(item, 'content_type', 'unknown').value if hasattr(getattr(item, 'content_type', 'unknown'), 'value') else getattr(item, 'content_type', 'unknown'))
+                                    title = getattr(item, 'title', 'Untitled')[:500]  # Prevent oversized titles
+                                    # Extract word count from metadata if available
+                                    word_count = 0
+                                    if hasattr(item, 'type_specific') and item.type_specific:
+                                        word_count = self._safe_int(item.type_specific.get('word_count', 0))
+                                    tags = getattr(item, 'tags', [])
+                                    created_at = getattr(item, 'created_at', datetime.now().isoformat())
+                                    
+                                    # Enhanced metadata with Atlas-specific fields
+                                    enhanced_metadata = {
+                                        'sync_timestamp': datetime.now().isoformat(),
+                                        'source': 'atlas_sync',
+                                        'quality_score': 0,  # No evaluation data in ContentMetadata
+                                        'processing_status': getattr(item, 'status', 'unknown').value if hasattr(getattr(item, 'status', 'unknown'), 'value') else getattr(item, 'status', 'unknown'),
+                                        # Add other ContentMetadata fields
+                                        'uid': getattr(item, 'uid', ''),
+                                        'content_type': getattr(item, 'content_type', 'unknown').value if hasattr(getattr(item, 'content_type', 'unknown'), 'value') else getattr(item, 'content_type', 'unknown'),
+                                        'source_url': getattr(item, 'source', ''),
+                                        'title': getattr(item, 'title', ''),
+                                        'tags': getattr(item, 'tags', []),
+                                        'notes': getattr(item, 'notes', []),
+                                        'fetch_method': getattr(item, 'fetch_method', ''),
+                                        'type_specific': getattr(item, 'type_specific', {}),
+                                    }
                                 
                                 # Insert content analytics
                                 cursor = conn.execute('''
@@ -186,8 +223,8 @@ class AnalyticsEngine:
                                         FROM content_analytics WHERE url = ? LIMIT 1
                                     ''', (created_at, json.dumps({
                                         'sync_batch': i // batch_size + 1,
-                                        'content_length': len(item.get('content', '')),
-                                        'has_evaluation': bool(item.get('evaluation'))
+                                        'content_length': len(getattr(item, 'content_path', '') or ''),
+                                        'has_evaluation': hasattr(item, 'evaluation')
                                     }), url))
                                     
                                     existing_urls.add(url)  # Update our cache
@@ -195,7 +232,12 @@ class AnalyticsEngine:
                                 
                             except Exception as e:
                                 error_count += 1
-                                log_error(self.log_path, f"Error syncing item {item.get('title', 'unknown')}: {str(e)}")
+                                # Handle both dict-like objects and ContentMetadata objects
+                                if hasattr(item, 'get'):
+                                    title = item.get('title', 'unknown')
+                                else:
+                                    title = getattr(item, 'title', 'unknown')
+                                log_error(self.log_path, f"Error syncing item {title}: {str(e)}")
                                 continue
                         
                         conn.execute('COMMIT')

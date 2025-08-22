@@ -109,6 +109,21 @@ class EnhancedSearchEngine:
                     )
                 ''')
                 
+                # Search index table (required for validation)
+                conn.execute('''
+                    CREATE TABLE IF NOT EXISTS search_index (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        content_id TEXT,
+                        title TEXT,
+                        content TEXT,
+                        content_type TEXT,
+                        url TEXT,
+                        tags TEXT,
+                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                    )
+                ''')
+                
                 # Content relationships and links
                 conn.execute('''
                     CREATE TABLE IF NOT EXISTS content_relationships (
@@ -151,6 +166,8 @@ class EnhancedSearchEngine:
                 conn.execute('CREATE INDEX IF NOT EXISTS idx_content_type ON enhanced_content_index (content_type)')
                 conn.execute('CREATE INDEX IF NOT EXISTS idx_tags ON tag_index (tag)')
                 conn.execute('CREATE INDEX IF NOT EXISTS idx_relationships ON content_relationships (source_id, target_id)')
+                conn.execute('CREATE INDEX IF NOT EXISTS idx_search_index_content_id ON search_index (content_id)')
+                conn.execute('CREATE INDEX IF NOT EXISTS idx_search_index_content_type ON search_index (content_type)')
                 
             log_info(self.log_path, "Enhanced search database initialized")
             
