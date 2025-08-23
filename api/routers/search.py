@@ -31,7 +31,7 @@ class SearchResponse(BaseModel):
 
 def get_search_db_path():
     """Get the path to the search database"""
-    return os.path.join("output", "search_index.db")
+    return os.path.join("data", "enhanced_search.db")
 
 @router.get("/", response_model=SearchResponse)
 async def search_content(
@@ -66,16 +66,25 @@ async def search_content(
         if filters:
             where_clause = "AND " + " AND ".join(filters)
         
-        # Execute search query
+        # Execute search query using our populated search_index table
         sql = f"""
-        SELECT uid, title, source, content_type, snippet(search_index, 1, '<b>', '</b>', '...', 16) as excerpt, rank
+        SELECT content_id, title, url, content_type, 
+               SUBSTR(content, 1, 200) as excerpt,
+               1.0 as score
         FROM search_index 
-        WHERE search_index MATCH ? {where_clause}
-        ORDER BY rank
+        WHERE content LIKE ? OR title LIKE ? {where_clause}
+        ORDER BY 
+            CASE 
+                WHEN title LIKE ? THEN 1
+                WHEN content LIKE ? THEN 2
+                ELSE 3
+            END,
+            LENGTH(content) DESC
         LIMIT ? OFFSET ?
         """
         
-        cursor.execute(sql, (fts_query, limit, skip))
+        like_query = f"%{query}%"
+        cursor.execute(sql, (like_query, like_query, like_query, like_query, limit, skip))
         rows = cursor.fetchall()
         
         # Convert to SearchResult objects
@@ -83,20 +92,20 @@ async def search_content(
         for row in rows:
             results.append(SearchResult(
                 uid=row[0],
-                title=row[1],
-                source=row[2],
-                content_type=row[3],
+                title=row[1] if row[1] else "Untitled",
+                source=row[2] if row[2] else "",
+                content_type=row[3] if row[3] else "unknown",
                 excerpt=row[4] if row[4] else "",
-                score=1.0 / (1.0 + row[5]) if row[5] is not None else 0.0  # Convert rank to score
+                score=row[5] if row[5] is not None else 0.0
             ))
         
         # Get total count
         count_sql = f"""
         SELECT COUNT(*) 
         FROM search_index 
-        WHERE search_index MATCH ? {where_clause}
+        WHERE content LIKE ? OR title LIKE ? {where_clause}
         """
-        cursor.execute(count_sql, (fts_query,))
+        cursor.execute(count_sql, (like_query, like_query))
         total = cursor.fetchone()[0]
         
         conn.close()

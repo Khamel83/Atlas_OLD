@@ -10,7 +10,11 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Optional
 
-from helpers.utils import log_info, log_error
+import logging
+
+# Setup logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 class DashboardServer:
@@ -192,7 +196,7 @@ class DashboardServer:
         with open(dashboard_file, 'w') as f:
             f.write(dashboard_html)
         
-        log_info("Created default dashboard template")
+        logger.info("Created default dashboard template")
     
     def get_insights_json(self, days: int = 30) -> str:
         """Get insights as JSON for API endpoints."""
@@ -200,7 +204,7 @@ class DashboardServer:
             insights = self.analytics.generate_insights(days)
             return json.dumps(insights, indent=2)
         except Exception as e:
-            log_error(f"Error getting insights JSON: {str(e)}")
+            logger.error(f"Error getting insights JSON: {str(e)}")
             return json.dumps({"error": str(e)})
     
     def get_dashboard_html(self) -> str:
@@ -213,7 +217,7 @@ class DashboardServer:
             else:
                 return "<html><body><h1>Dashboard template not found</h1></body></html>"
         except Exception as e:
-            log_error(f"Error getting dashboard HTML: {str(e)}")
+            logger.error(f"Error getting dashboard HTML: {str(e)}")
             return f"<html><body><h1>Error: {str(e)}</h1></body></html>"
     
     def start_server(self, threaded: bool = True):
@@ -275,7 +279,7 @@ class DashboardServer:
             with socketserver.TCPServer((self.host, self.port), DashboardHandler) as httpd:
                 httpd.dashboard = self
                 
-                log_info(f"Dashboard server starting on http://{self.host}:{self.port}")
+                logger.info(f"Dashboard server starting on http://{self.host}:{self.port}")
                 print(f"Atlas Dashboard available at: http://{self.host}:{self.port}")
                 print("Press Ctrl+C to stop the server")
                 
@@ -289,7 +293,7 @@ class DashboardServer:
                     httpd.serve_forever()
                     
         except Exception as e:
-            log_error(f"Error starting dashboard server: {str(e)}")
+            logger.error(f"Error starting dashboard server: {str(e)}")
             raise
     
     def stop_server(self, server):
@@ -297,9 +301,9 @@ class DashboardServer:
         try:
             if server:
                 server.shutdown()
-                log_info("Dashboard server stopped")
+                logger.info("Dashboard server stopped")
         except Exception as e:
-            log_error(f"Error stopping server: {str(e)}")
+            logger.error(f"Error stopping server: {str(e)}")
     
     def generate_static_dashboard(self, output_file: str = "dashboard_export.html"):
         """Generate static HTML dashboard."""
@@ -321,11 +325,11 @@ class DashboardServer:
             with open(output_path, 'w') as f:
                 f.write(template)
             
-            log_info(f"Static dashboard generated: {output_path}")
+            logger.info(f"Static dashboard generated: {output_path}")
             return str(output_path)
             
         except Exception as e:
-            log_error(f"Error generating static dashboard: {str(e)}")
+            logger.error(f"Error generating static dashboard: {str(e)}")
             return None
 
 

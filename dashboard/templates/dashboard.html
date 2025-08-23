@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 30px; }
+        .card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .metric { display: inline-block; margin: 10px 20px; text-align: center; }
+        .metric-value { font-size: 2em; font-weight: bold; color: #2196F3; }
+        .metric-label { color: #666; }
+        .chart-placeholder { height: 200px; background: #f0f0f0; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #666; }
+        .content-list { list-style: none; padding: 0; }
+        .content-item { padding: 10px; border-bottom: 1px solid #eee; }
+        .content-title { font-weight: bold; }
+        .content-meta { color: #666; font-size: 0.9em; }
+        .refresh-btn { background: #2196F3; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+        .refresh-btn:hover { background: #1976D2; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Atlas Personal Analytics Dashboard</h1>
+            <p>Content consumption insights and analytics</p>
+            <button class="refresh-btn" onclick="window.location.reload()">Refresh Data</button>
+        </div>
+        
+        <div class="card">
+            <h2>Overview (Last 30 Days)</h2>
+            <div id="overview-metrics">
+                <div class="metric">
+                    <div class="metric-value" id="total-content">-</div>
+                    <div class="metric-label">Total Content</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value" id="total-words">-</div>
+                    <div class="metric-label">Total Words</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value" id="reading-hours">-</div>
+                    <div class="metric-label">Reading Hours</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-value" id="total-events">-</div>
+                    <div class="metric-label">Interactions</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Content Distribution</h2>
+            <div class="chart-placeholder">Content type distribution chart would appear here</div>
+            <div id="distribution-details"></div>
+        </div>
+        
+        <div class="card">
+            <h2>Top Content</h2>
+            <h3>Most Engaged</h3>
+            <ul class="content-list" id="most-engaged"></ul>
+            
+            <h3>Longest Content</h3>
+            <ul class="content-list" id="longest-content"></ul>
+        </div>
+        
+        <div class="card">
+            <h2>Recommendations</h2>
+            <ul id="recommendations"></ul>
+        </div>
+        
+        <div class="card">
+            <h2>System Information</h2>
+            <p><strong>Generated:</strong> <span id="generated-time">-</span></p>
+            <p><strong>Period:</strong> Last 30 days</p>
+            <p><strong>Status:</strong> <span id="system-status">Active</span></p>
+        </div>
+    </div>
+    
+    <script>
+        // Load analytics data
+        fetch('/api/insights')
+            .then(response => response.json())
+            .then(data => {
+                updateDashboard(data);
+            })
+            .catch(error => {
+                console.error('Error loading analytics:', error);
+                document.getElementById('system-status').textContent = 'Error loading data';
+            });
+        
+        function updateDashboard(insights) {
+            const overview = insights.overview || {};
+            
+            // Update overview metrics
+            document.getElementById('total-content').textContent = overview.total_content || 0;
+            document.getElementById('total-words').textContent = (overview.total_words || 0).toLocaleString();
+            document.getElementById('reading-hours').textContent = overview.estimated_reading_hours || 0;
+            document.getElementById('total-events').textContent = overview.total_events || 0;
+            
+            // Update content distribution
+            const distribution = insights.content_distribution?.distribution || [];
+            const distributionDiv = document.getElementById('distribution-details');
+            distributionDiv.innerHTML = distribution.map(item => 
+                `<p><strong>${item.type}:</strong> ${item.count} items (${item.percentage}%)</p>`
+            ).join('');
+            
+            // Update top content
+            const mostEngaged = insights.top_content?.most_engaged || [];
+            const mostEngagedList = document.getElementById('most-engaged');
+            mostEngagedList.innerHTML = mostEngaged.map(item =>
+                `<li class="content-item">
+                    <div class="content-title">${item.title}</div>
+                    <div class="content-meta">${item.type} • ${item.events} interactions</div>
+                </li>`
+            ).join('');
+            
+            const longestContent = insights.top_content?.longest_content || [];
+            const longestList = document.getElementById('longest-content');
+            longestList.innerHTML = longestContent.map(item =>
+                `<li class="content-item">
+                    <div class="content-title">${item.title}</div>
+                    <div class="content-meta">${item.type} • ${item.words.toLocaleString()} words</div>
+                </li>`
+            ).join('');
+            
+            // Update recommendations
+            const recommendations = insights.recommendations || [];
+            const recommendationsList = document.getElementById('recommendations');
+            recommendationsList.innerHTML = recommendations.map(rec =>
+                `<li>${rec}</li>`
+            ).join('');
+            
+            // Update generated time
+            document.getElementById('generated-time').textContent = 
+                new Date(insights.generated_at).toLocaleString();
+        }
+    </script>
+</body>
+</html>

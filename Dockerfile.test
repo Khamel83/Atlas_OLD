@@ -1,0 +1,37 @@
+# Minimal test Dockerfile for Atlas
+FROM python:3.11-slim
+
+# Install minimal dependencies
+RUN apt-get update && apt-get install -y \
+    sqlite3 \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create app user
+RUN useradd --create-home --shell /bin/bash atlas
+USER atlas
+WORKDIR /home/atlas/app
+
+# Install only core Python dependencies
+RUN pip install --user fastapi uvicorn requests psutil
+
+# Copy minimal application code
+COPY --chown=atlas:atlas api/ api/
+COPY --chown=atlas:atlas helpers/ helpers/
+COPY --chown=atlas:atlas dashboard/ dashboard/
+COPY --chown=atlas:atlas search/ search/
+COPY --chown=atlas:atlas atlas_background_service.py .
+COPY --chown=atlas:atlas config/ config/
+
+# Create data directory
+RUN mkdir -p data logs
+
+# Expose port
+EXPOSE 8000
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+    CMD curl -f http://localhost:8000/api/v1/health || exit 1
+
+# Start API server directly
+CMD ["python", "-m", "uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -6,7 +6,7 @@ import sys
 # Add parent directory to Python path for module imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from api.routers import content, search, cognitive, auth
+from api.routers import content, search, cognitive, auth, dashboard
 
 app = FastAPI(
     title="Atlas API",
@@ -28,6 +28,7 @@ app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
 app.include_router(content.router, prefix="/api/v1/content", tags=["content"])
 app.include_router(search.router, prefix="/api/v1/search", tags=["search"])
 app.include_router(cognitive.router, prefix="/api/v1/cognitive", tags=["cognitive"])
+app.include_router(dashboard.router, prefix="/api/v1/dashboard", tags=["dashboard"])
 
 @app.get("/api/v1/health")
 async def health_check():
