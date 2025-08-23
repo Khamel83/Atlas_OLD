@@ -111,14 +111,27 @@ def insert_content_to_database(db_path: str, metadata: Dict[str, Any]) -> bool:
             source_url = metadata.get("source", metadata.get("source_url", ""))
             created_at = metadata.get("created_at", metadata.get("date", ""))
             metadata_json = json.dumps(metadata)
-            content = metadata.get("content", "")
             
-            # Insert or replace content using existing schema
+            # Read actual content from file paths
+            content = metadata.get("content", "")
+            content_path = metadata.get("content_path")
+            if content_path and os.path.exists(content_path):
+                try:
+                    with open(content_path, 'r', encoding='utf-8', errors='ignore') as f:
+                        content = f.read()
+                except Exception as e:
+                    print(f"Error reading content file {content_path}: {e}")
+            
+            # Skip if no meaningful content
+            if not content or len(content.strip()) < 20:
+                return False
+            
+            # Insert or replace content using existing schema (fix schema mismatch)
             conn.execute('''
                 INSERT OR REPLACE INTO content 
-                (id, title, content_type, source_url, created_at, metadata, content)
+                (title, url, content_type, metadata, created_at, updated_at, content)
                 VALUES (?, ?, ?, ?, ?, ?, ?)
-            ''', (id_val, title, content_type, source_url, created_at, metadata_json, content))
+            ''', (title, source_url, content_type, metadata_json, created_at, created_at, content))
             
         return True
     except Exception as e:
@@ -133,8 +146,8 @@ def migrate_files_to_database():
     # Load configuration
     config = load_config()
     
-    # Database path
-    db_path = config.get("database_path", "data/atlas.db")
+    # Database path - use actual location
+    db_path = config.get("database_path", "atlas.db")
     
     # Create database schema
     create_database_schema(db_path)
