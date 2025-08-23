@@ -1,292 +1,235 @@
-# Atlas Docker & OCI Deployment Guide
+# Atlas Production Deployment Guide
 
-## 🎯 Overview
-
-Atlas is now production-ready with comprehensive containerization, Docker deployment, and Oracle Cloud Infrastructure (OCI) support. This guide covers both local Docker deployment and cloud deployment options.
-
-## ✅ What's Ready for Production
-
-### Core Features
-- **✅ Comprehensive Metadata Capture**: All 4 ingestors (podcasts, articles, YouTube, documents) preserve complete metadata
-- **✅ Whisper Tiny Transcription**: Optimized for speed and OCI deployment
-- **✅ Raw Data Preservation**: Never lose any data - complete backup system
-- **✅ Local Processing**: No API dependencies for core functionality
-- **✅ Production Monitoring**: Built-in status tracking and error handling
-
-### Tested Performance
-- **437 articles processed** in current test run
-- **29+ metadata fields** captured per podcast episode
-- **100% capture rate** for descriptions, show notes, tags
-- **Zero data loss** confirmed across all ingestors
-
-## 🚀 Quick Deployment
+## Ubuntu Deployment (OCI VM / Raspberry Pi)
 
 ### Prerequisites
-- Oracle Cloud Infrastructure (OCI) instance
-- Ubuntu 24.04+ (recommended)
-- 4GB+ RAM (for Whisper transcription)
-- 50GB+ storage
-
-### 1. Run Deployment Script
 ```bash
-# Copy deploy script to your OCI instance
-chmod +x deploy_oci.sh
-./deploy_oci.sh
+sudo apt update && sudo apt install python3 python3-pip git sqlite3
+```
+
+### 1. Clone and Setup Atlas
+```bash
+git clone https://github.com/Khamel83/Atlas.git
+cd Atlas
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ### 2. Configure Environment
 ```bash
-# Edit production configuration
-nano /opt/atlas/atlas/.env
-
-# Set your API keys (optional)
-OPENROUTER_API_KEY=your_key_here
-OPENAI_API_KEY=your_key_here
+cp env.template .env
+nano .env
 ```
 
-### 3. Start Production Service
+**Required settings:**
 ```bash
-# Enable and start Atlas service
-sudo systemctl enable atlas-ingestion
-sudo systemctl start atlas-ingestion
+# Your OpenRouter API key for AI processing
+OPENROUTER_API_KEY=your_actual_api_key_here
 
-# Monitor status
-sudo systemctl status atlas-ingestion
-```
-
-## 📊 Production Configuration
-
-### Core Settings (.env)
-```bash
-# Essential Configuration
+# Atlas environment 
+ATLAS_ENV=production
 DATA_DIRECTORY=output
-TRANSCRIBE_ENABLED=true
-RUN_TRANSCRIPTION=true
-TRANSCRIBE_BACKEND=local
-WHISPER_MODEL=tiny
 
-# Performance Optimization
-MAX_CONCURRENT_JOBS=2
-BATCH_SIZE=5
-MEMORY_LIMIT_MB=2048
-
-# Data Preservation
-PRESERVE_RAW_DATA=true
-ENABLE_METADATA_CAPTURE=true
+# Enable AI features
+AI_FEATURES_ENABLED=true
+AI_MODEL=google/gemini-2.0-flash-001
 ```
 
-### Transcription Setup
-- **Model**: Whisper Tiny (37M parameters)
-- **Backend**: Local processing (no API calls)
-- **Performance**: Optimized for OCI ARM instances
-- **Memory**: ~1GB peak usage during transcription
-
-## 🔧 Operations
-
-### Daily Monitoring
+### 3. Start Atlas System
 ```bash
-# Check Atlas status
-./monitor_atlas.sh
+# Check status first
+python3 atlas_status.py
 
-# View processing stats
-find output/articles/metadata -name "*.json" -mtime -1 | wc -l
-find output/podcasts -name "*.json" -mtime -1 | wc -l
+# Start background service (runs 24/7)
+python3 atlas_background_service.py
 
-# Check logs
-journalctl -u atlas-ingestion --since "1 hour ago"
+# Or run manually for testing
+python3 run.py --all
 ```
 
-### Content Processing
+### 4. Start API Server (Optional)
 ```bash
-# Process Instapaper CSV
-python run.py --instapaper-csv inputs/your_export.csv
-
-# Process podcast feeds
-python run.py --podcast-feeds inputs/podcast_urls.txt
-
-# Process YouTube playlists
-python run.py --youtube-playlist "PLAYLIST_ID"
-
-# Process all inputs
-python run.py --all
+# For Mac Mini worker integration
+cd api/
+python3 -m uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
-## 📁 Directory Structure
-
-```
-/opt/atlas/atlas/
-├── output/                 # Processed content
-│   ├── articles/          
-│   │   ├── metadata/      # Rich metadata JSON
-│   │   ├── markdown/      # Processed content
-│   │   └── html/          # Raw HTML backup
-│   ├── podcasts/          # Podcast episodes + transcripts
-│   ├── youtube/           # Video metadata + transcripts
-│   └── documents/         # Document processing
-├── inputs/                # Source content lists
-├── cache/                 # Temporary processing cache
-├── retries/               # Failed items for retry
-└── logs/                  # Processing logs
-```
-
-## 🔍 Metadata Capture Details
-
-### Article Ingestor
-Captures: HTML meta tags, Open Graph, Twitter Cards, Schema.org JSON-LD, Dublin Core, microdata, article content, images, links, language detection
-
-### Podcast Ingestor  
-Captures: RSS data, iTunes metadata, show notes, episode numbers, duration, publication dates, tags, descriptions, custom namespaced fields
-
-### YouTube Ingestor
-Captures: Video metadata, channel info, stream data, transcript info, view counts, keywords, duration, thumbnails, technical details
-
-### Document Ingestor
-Captures: Filesystem metadata, file properties, content preview, format detection, encoding info, processing metadata
-
-## ⚡ Performance Tuning
-
-### OCI Optimization
+### 5. Monitor Status
 ```bash
-# Recommended instance: VM.Standard.A1.Flex
-# 4 OCPUs, 24GB RAM for heavy transcription workloads
-
-# CPU optimization
-MAX_CONCURRENT_JOBS=4    # For 4+ CPU cores
-BATCH_SIZE=10           # For high-memory instances
-
-# Memory optimization  
-MEMORY_LIMIT_MB=4096    # For 8GB+ instances
-WHISPER_MODEL=tiny      # Keep for speed, use 'base' for accuracy
-```
-
-### Storage Management
-```bash
-# Archive old processed content
-tar -czf archive_$(date +%Y%m%d).tar.gz output/
-mv archive_*.tar.gz /backup/
-
-# Clean temporary files
-rm -rf temp/* cache/*
-```
-
-## 🚨 Troubleshooting
-
-### Common Issues
-
-**1. Transcription Failures**
-```bash
-# Check Whisper installation
-python -c "import whisper; print('OK')"
-
-# Verify model loading
-python -c "import whisper; whisper.load_model('tiny')"
-```
-
-**2. Memory Issues**
-```bash
-# Reduce concurrent jobs
-export MAX_CONCURRENT_JOBS=1
-
-# Use smaller Whisper model
-export WHISPER_MODEL=tiny
-```
-
-**3. Storage Full**
-```bash
-# Check disk usage
-df -h output/
-
-# Compress old articles
-find output/articles -name "*.html" -mtime +30 | xargs gzip
-```
-
-### Service Recovery
-```bash
-# Restart Atlas service
-sudo systemctl restart atlas-ingestion
-
-# View detailed logs
-journalctl -u atlas-ingestion -f
-
-# Manual processing
-cd /opt/atlas/atlas
-source atlas_venv/bin/activate
-python run.py --instapaper-csv inputs/export.csv
-```
-
-## 📈 Scaling
-
-### Horizontal Scaling
-- Deploy multiple Atlas instances
-- Partition content by source or date
-- Use shared storage for outputs
-- Coordinate via external job queue
-
-### Vertical Scaling
-- Increase OCI instance size
-- Adjust MAX_CONCURRENT_JOBS
-- Enable larger Whisper models
-- Increase BATCH_SIZE for memory
-
-## 🔐 Security
-
-### Data Protection
-- All processing local (no external API calls for core features)
-- Raw data preserved (never permanently lost)
-- Encrypted storage recommended
-- Regular backups to OCI Object Storage
-
-### API Key Management
-```bash
-# Secure API key storage
-chmod 600 /opt/atlas/atlas/.env
-chown atlas:atlas /opt/atlas/atlas/.env
-
-# Use OCI Vault for production secrets
-```
-
-## 📊 Monitoring & Alerting
-
-### Key Metrics
-- Articles processed per hour
-- Transcription success rate  
-- Disk usage growth
-- Memory utilization during processing
-- Failed item retry counts
-
-### Automated Alerts
-```bash
-# Add to crontab for disk space monitoring
-0 */6 * * * /opt/atlas/atlas/monitor_atlas.sh | grep -E "Error|WARN" && echo "Atlas issues detected"
-```
-
-## 🎯 Production Checklist
-
-- [ ] OCI instance provisioned (4GB+ RAM)
-- [ ] Atlas deployed via `deploy_oci.sh`
-- [ ] Configuration verified (`.env` file)
-- [ ] Transcription tested (`whisper_tiny` model)
-- [ ] Service enabled (`systemctl enable atlas-ingestion`)
-- [ ] Monitoring script configured
-- [ ] Backup strategy implemented
-- [ ] Content sources configured (`inputs/` directory)
-- [ ] Initial processing tested
-- [ ] Performance monitoring enabled
-
-## 📞 Support
-
-### Self-Diagnosis
-```bash
-# Full system check
-./monitor_atlas.sh
-
-# Configuration verification
-python -c "from helpers.config import load_config; c=load_config(); print(f'Transcription: {c.get(\"run_transcription\")}'); print(f'Model: {c.get(\"whisper_model\")}')"
-
-# Test transcription
-python -c "import whisper; whisper.load_model('tiny')"
+python3 atlas_status.py          # Quick status
+python3 atlas_status.py --detailed  # Full report
 ```
 
 ---
 
-**🎯 Your Atlas instance is production-ready with comprehensive metadata capture, optimized transcription, and bulletproof data preservation!**
+## Mac Deployment (Mac Mini Worker)
+
+### Prerequisites
+```bash
+# Install Homebrew if not present
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Install dependencies
+brew install whisper-cpp yt-dlp python3
+```
+
+### 1. Get Atlas Worker Client
+```bash
+# Copy from your Ubuntu Atlas server:
+scp user@your-server:/path/to/Atlas/atlas_controlled_mac_client.py ~/
+scp user@your-server:/path/to/Atlas/mac_mini_setup.sh ~/
+
+# Or download directly from GitHub:
+wget https://raw.githubusercontent.com/Khamel83/Atlas/main/atlas_controlled_mac_client.py
+wget https://raw.githubusercontent.com/Khamel83/Atlas/main/mac_mini_setup.sh
+```
+
+### 2. Install Python Dependencies
+```bash
+pip3 install requests watchdog
+```
+
+### 3. Configure Atlas Connection
+```bash
+export ATLAS_URL=http://your-server-ip:8000
+export ATLAS_API_KEY=optional_key
+export ATLAS_WORKER_ID=mac_mini_main
+```
+
+### 4. Start Worker
+```bash
+python3 atlas_controlled_mac_client.py
+```
+
+**Expected output:**
+```
+🤖 Atlas Worker Client Starting
+🆔 Worker ID: mac_mini_main
+🌐 Atlas URL: http://192.168.1.100:8000
+✅ Worker registered: mac_mini_main
+🔄 Polling Atlas for jobs... (Ctrl+C to stop)
+```
+
+### 5. Auto-Start (Optional)
+Create `~/Library/LaunchAgents/com.atlas.worker.plist`:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.atlas.worker</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/python3</string>
+        <string>/Users/yourusername/atlas_controlled_mac_client.py</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+</dict>
+</plist>
+```
+
+Then:
+```bash
+launchctl load ~/Library/LaunchAgents/com.atlas.worker.plist
+```
+
+---
+
+## How It Works
+
+### Smart Dispatching
+Atlas automatically decides what to process locally vs send to Mac Mini:
+
+```
+YouTube 30min video → Mac Mini (save storage/CPU)
+Article           → Atlas (immediate processing)  
+Podcast 5min      → Atlas (quick transcription)
+Audio file upload → Mac Mini (better transcription)
+```
+
+### Job Flow
+1. **Content arrives** at Atlas (articles, YouTube, podcasts)
+2. **Smart dispatcher** analyzes content type, size, duration
+3. **Decision made**: Process locally OR queue for Mac Mini
+4. **If queued**: Mac Mini polls, downloads, transcribes, reports back
+5. **Atlas processes** all results into searchable knowledge base
+
+### Atlas Independence
+- **Atlas never stops** - continues ingesting content 24/7
+- **Mac Mini optional** - Atlas works fine without it
+- **Jobs queue** - When Mac Mini comes online, processes backlog
+- **Never loses content** - Metadata captured immediately
+
+---
+
+## Troubleshooting
+
+### Ubuntu Issues
+```bash
+# Check Atlas status
+python3 atlas_status.py
+
+# View logs
+tail -f output/logs/*.log
+
+# Check background service
+ps aux | grep atlas
+
+# Restart everything
+pkill -f atlas_background_service
+python3 atlas_background_service.py
+```
+
+### Mac Issues
+```bash
+# Check if worker is registered
+curl http://your-server:8000/api/v1/worker/status
+
+# Test connection
+curl http://your-server:8000/api/v1/health
+
+# Check dependencies
+which whisper
+which yt-dlp
+python3 -c "import requests; print('✅ Requests OK')"
+```
+
+### Common Issues
+- **Atlas not processing**: Check OPENROUTER_API_KEY in .env
+- **Mac Mini not connecting**: Verify ATLAS_URL points to server IP:8000
+- **Jobs not being created**: Check API server is running on port 8000
+- **Transcription failing**: Ensure whisper-cpp and yt-dlp installed on Mac
+
+---
+
+## Quick Start Commands
+
+### Ubuntu Server
+```bash
+cd Atlas && source venv/bin/activate
+python3 atlas_status.py                    # Check status
+python3 atlas_background_service.py        # Start 24/7 processing
+cd api && python3 -m uvicorn main:app --host 0.0.0.0 --port 8000  # Start API
+```
+
+### Mac Worker
+```bash
+export ATLAS_URL=http://your-server:8000
+python3 atlas_controlled_mac_client.py     # Start worker
+```
+
+### Test Integration
+```bash
+# On Ubuntu - create a job manually
+curl -X POST http://localhost:8000/api/v1/worker/jobs \
+  -H "Content-Type: application/json" \
+  -d '{"type": "transcribe_youtube", "data": {"url": "https://youtube.com/watch?v=test", "title": "Test Video"}}'
+
+# Check job queue
+curl http://localhost:8000/api/v1/worker/status
+```
