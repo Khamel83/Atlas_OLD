@@ -100,6 +100,45 @@ Atlas has achieved **PRODUCTION READY** status with full end-to-end integration 
 
 ---
 
+## 🧠 **SMART DISPATCHER SYSTEM COMPLETE** ✅ (Aug 22, 2025)
+
+**Atlas-Controlled Mac Mini Architecture - Intelligent Content Processing**
+
+**🎯 Core Innovation: Smart Content Dispatching**
+Atlas now intelligently decides what to process locally vs. offload to Mac Mini based on content type, size, and processing requirements. **Atlas always captures metadata first** - never loses information.
+
+**🔄 Smart Decision Logic:**
+- **YouTube videos >10min**: "Queue for Mac Mini - save OCI storage & CPU"
+- **Large podcasts >50MB**: "Queue for Mac Mini - heavy transcription" 
+- **Audio files**: "Queue for Mac Mini - better for transcription"
+- **Articles/RSS**: "Process immediately on Atlas - text content"
+- **Small podcasts <10min**: "Process locally - small/medium content"
+
+**📊 Architecture Benefits:**
+- **Never loses content** - Metadata stored immediately on Atlas
+- **Continues without Mac Mini** - Atlas works independently 
+- **Storage optimization** - Heavy media processed on Mac Mini
+- **CPU optimization** - Offload intensive transcription work
+- **Always-on ingestion** - Background service continues regardless
+
+**🚀 Implementation Components:**
+- **SmartDispatcher** (`helpers/smart_dispatcher.py`) - Decision engine with configurable thresholds
+- **Worker System** (`api/routers/worker.py`) - Job queue and Mac Mini communication
+- **Mac Mini Client** (`atlas_controlled_mac_client.py`) - Polls Atlas for jobs, executes transcription
+- **Database Integration** (`helpers/simple_database.py`) - Job tracking and content management
+- **API Integration** - FastAPI endpoints for worker registration and job management
+
+**💡 Key Features:**
+- **Automatic failover** - Mac Mini offline = Atlas continues processing
+- **Priority queuing** - Urgent jobs processed first
+- **Resource awareness** - Decisions based on file size, duration, content type
+- **Progress tracking** - Full visibility into dispatch decisions and job status
+- **Flexible thresholds** - Configurable limits for offloading decisions
+
+Atlas has evolved from content processor to **intelligent content orchestrator** with optional Mac Mini acceleration.
+
+---
+
 ## 🎉 **PHASES 3 & 4 REFACTORING COMPLETE** (Aug 21, 2025)
 
 **Article Processing + Content Pipeline Consolidation Successfully Delivered**
