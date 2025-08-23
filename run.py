@@ -75,15 +75,90 @@ def main():
     # Run the requested ingestion types
     if args.all or args.articles:
         logging.info("Starting article ingestion...")
-        # Get articles from inputs/articles.txt
+        
+        # AUTOMATICALLY process ALL sources - no manual intervention required
+        all_urls = []
+        
+        # 1. Get articles from inputs/articles.txt
         articles_file = "inputs/articles.txt"
         if os.path.exists(articles_file):
             with open(articles_file, 'r') as f:
                 urls = [line.strip() for line in f if line.strip()]
-            fetch_and_save_articles(urls, config.get('output_dir', 'output'))
+                all_urls.extend(urls)
+                logging.info(f"Loaded {len(urls)} URLs from articles.txt")
+        
+        # 2. AUTOMATICALLY process Instapaper CSV
+        instapaper_csv = "inputs/instapaper_export.csv"
+        if os.path.exists(instapaper_csv):
+            import csv
+            csv_urls = []
+            with open(instapaper_csv, 'r') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    url = row.get('URL', '').strip()
+                    if (url.startswith(('http://', 'https://')) and 
+                        not url.startswith('instapaper-private://') and
+                        url not in all_urls):
+                        csv_urls.append(url)
+            all_urls.extend(csv_urls)
+            logging.info(f"Auto-loaded {len(csv_urls)} URLs from instapaper_export.csv")
+        
+        # 3. Process all URLs with full recovery
+        if all_urls:
+            logging.info(f"Processing {len(all_urls)} total URLs with full recovery strategies")
+            fetch_and_save_articles(all_urls, config.get('output_dir', 'output'))
         else:
-            logging.warning(f"Articles file not found: {articles_file}")
+            logging.warning("No URLs found to process")
+            
         logging.info("Article ingestion complete.")
+
+    # 4. AUTOMATICALLY process ALL uploaded files - no manual intervention
+    if args.all or args.articles:
+        logging.info("Starting automatic processing of uploaded files...")
+        
+        # Process saved HTML files
+        saved_html_dir = Path("inputs/saved_html")
+        if saved_html_dir.exists():
+            html_files = list(saved_html_dir.glob("*.html"))
+            if html_files:
+                logging.info(f"Auto-processing {len(html_files)} uploaded HTML files")
+                from helpers.document_ingestor import DocumentIngestor
+                doc_ingestor = DocumentIngestor(config)
+                for html_file in html_files:
+                    try:
+                        doc_ingestor.ingest_document(str(html_file))
+                    except Exception as e:
+                        logging.error(f"Failed to process {html_file.name}: {e}")
+        
+        # Process Docs files  
+        docs_dir = Path("inputs/Docs")
+        if docs_dir.exists():
+            doc_files = list(docs_dir.glob("*.html")) + list(docs_dir.glob("*.pdf"))
+            if doc_files:
+                logging.info(f"Auto-processing {len(doc_files)} uploaded document files")
+                from helpers.document_ingestor import DocumentIngestor
+                doc_ingestor = DocumentIngestor(config)
+                for doc_file in doc_files:
+                    try:
+                        doc_ingestor.ingest_document(str(doc_file))
+                    except Exception as e:
+                        logging.error(f"Failed to process {doc_file.name}: {e}")
+        
+        # Process saved emails
+        saved_emails_dir = Path("inputs/saved_emails")
+        if saved_emails_dir.exists():
+            email_files = list(saved_emails_dir.glob("*"))
+            if email_files:
+                logging.info(f"Auto-processing {len(email_files)} uploaded email files")
+                from helpers.email_ingestor import EmailIngestor
+                email_ingestor = EmailIngestor(config)
+                for email_file in email_files:
+                    try:
+                        email_ingestor.ingest_email(str(email_file))
+                    except Exception as e:
+                        logging.error(f"Failed to process {email_file.name}: {e}")
+        
+        logging.info("Uploaded file processing complete.")
 
     if args.all or args.podcasts:
         logging.info("Starting podcast ingestion...")
