@@ -174,7 +174,8 @@ def fetch_and_save_articles(urls, output_dir):
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)
                 context = browser.new_context()
-                Stealth(context)  # <- apply stealth to the context
+                stealth = Stealth()
+                stealth.apply(context)  # <- apply stealth to the context
 
                 page = context.new_page()
                 page.goto(url, timeout=60000)
