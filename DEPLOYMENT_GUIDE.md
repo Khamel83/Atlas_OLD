@@ -38,27 +38,25 @@ AI_MODEL=google/gemini-2.0-flash-001
 
 ### 3. Start Atlas System
 ```bash
-# Check status first
-python3 atlas_status.py
+# ONE COMMAND STARTUP - starts everything!
+./start_atlas.sh
 
-# Start background service (runs 24/7)
-python3 atlas_background_service.py
-
-# Or run manually for testing
-python3 run.py --all
+# That's it! Atlas will auto-configure and start all services
 ```
 
-### 4. Start API Server (Optional)
-```bash
-# For Mac Mini worker integration
-cd api/
-python3 -m uvicorn main:app --host 0.0.0.0 --port 8000
-```
+**What `start_atlas.sh` does:**
+- ✅ Checks/creates virtual environment
+- ✅ Checks/creates .env configuration  
+- ✅ Starts robust service manager with auto-restart
+- ✅ Starts API server for Mac Mini integration
+- ✅ Starts background content processing
+- ✅ Enables health monitoring with recovery
+- ✅ Shows comprehensive system status
 
-### 5. Monitor Status
+### 4. Monitor Status (Anytime)
 ```bash
-python3 atlas_status.py          # Quick status
-python3 atlas_status.py --detailed  # Full report
+python3 atlas_monitor.py         # Comprehensive system health
+python3 atlas_service_manager.py status  # Detailed service info
 ```
 
 ---
@@ -211,10 +209,9 @@ python3 -c "import requests; print('✅ Requests OK')"
 
 ### Ubuntu Server
 ```bash
-cd Atlas && source venv/bin/activate
-python3 atlas_status.py                    # Check status
-python3 atlas_background_service.py        # Start 24/7 processing
-cd api && python3 -m uvicorn main:app --host 0.0.0.0 --port 8000  # Start API
+cd Atlas
+./start_atlas.sh                           # One command - starts everything!
+python3 atlas_monitor.py                   # Check comprehensive status
 ```
 
 ### Mac Worker
