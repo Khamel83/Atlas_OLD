@@ -37,26 +37,39 @@ AI_MODEL=google/gemini-2.0-flash-001
 ```
 
 ### 3. Start Atlas System
+
+#### Option A: Quick Start (Manual)
 ```bash
 # ONE COMMAND STARTUP - starts everything!
 ./start_atlas.sh
 
 # That's it! Atlas will auto-configure and start all services
+# (Won't auto-start on reboot - you'll need to run this again)
 ```
 
-**What `start_atlas.sh` does:**
-- ✅ Checks/creates virtual environment
-- ✅ Checks/creates .env configuration  
-- ✅ Starts robust service manager with auto-restart
-- ✅ Starts API server for Mac Mini integration
-- ✅ Starts background content processing
-- ✅ Enables health monitoring with recovery
-- ✅ Shows comprehensive system status
+#### Option B: Install Auto-Start (Recommended - PiHole-like)
+```bash
+# Install Atlas like PiHole - runs 24/7 and survives reboots
+./install_atlas_autostart.sh
+
+# That's it! Atlas now starts automatically on boot
+```
+
+**What the installation does:**
+- ✅ Auto-starts on boot (30-second delay for system stability)
+- ✅ Health checks every 5 minutes with auto-restart
+- ✅ Runs 24/7 with automatic failure recovery
+- ✅ Survives reboots and system updates
+- ✅ Simple cron-based reliability (no systemd complexity)
 
 ### 4. Monitor Status (Anytime)
 ```bash
 python3 atlas_monitor.py         # Comprehensive system health
-python3 atlas_service_manager.py status  # Detailed service info
+
+# If installed with auto-start:
+tail -f logs/autostart.log       # Boot startup logs
+tail -f logs/atlas_manager.log   # Service manager logs
+crontab -l | grep atlas          # View autostart entries
 ```
 
 ---
