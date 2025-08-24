@@ -7,6 +7,10 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work. Mode
    - Read `tasks.md`; topologically sort tasks by `depends_on`.
    - Validate `.env` against `.env.template`; fail with missing keys listed.
    - Run `git status` must be clean on `main`. If not, commit/stash before proceeding.
+   - **Preflight hard checks (extended)**
+     - `scripts/preflight.sh` (ensures .env, OpenRouter defaults, budgets, policy).
+     - Refresh index: `CURRENT_TASK_ID=<ID> scripts/update_index.sh`.
+     - Budget check (estimate ok): `python3 scripts/budget_guard.py check --cost <est_cost_usd> --task <ID>`.
 2. **Branch**
    - Create `task/<id>-<slug>` from `main`.
    - Commit message prefix standard: `task(<id>): ...`
@@ -25,6 +29,12 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work. Mode
    - Rebase or merge `main` into branch if needed, resolve conflicts.
    - Merge branch to `main` (no squash; preserve history).
    - Tag optional release `v0.<phase>.<seq>` if the task is a milestone.
+7. **Post-Merge**
+   - Update `tasks.md` status for that task.
+   - If downstream tasks were blocked by this, unblocked tasks can now proceed.
+   - Run `scripts/update_index.sh` and commit refreshed index:
+     - `git add AGENT_INDEX.* && git commit -m "task(<ID>): refresh index" && git push`
+   - Budget log: `python3 scripts/budget_guard.py log --cost <actual_or_est> --task <ID>`.
 7. **Post-Merge**
    - Update `tasks.md` status for that task.
    - If downstream tasks were blocked by this, unblocked tasks can now proceed.
@@ -55,3 +65,46 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work. Mode
 
 ## 7) Success Definition
 - Can a new contributor, given this repo and no extra context, run the system as intended? If not, update docs before marking done.
+<!-- BEGIN: PRE_FLIGHT_HARD_CHECKS_EXTENDED -->
+- `scripts/preflight.sh` must pass (ensures `.env`, OpenRouter defaults, budgets, policy).
+- Refresh index **before** changes: `CURRENT_TASK_ID=<ID> scripts/update_index.sh`.
+- Budget gate (estimate): `python3 scripts/budget_guard.py check --cost <est_cost_usd> --task <ID>`.
+- Then proceed with branch creation and task execution.
+<!-- END: PRE_FLIGHT_HARD_CHECKS_EXTENDED -->
+<!-- BEGIN: POST_MERGE_EXTENDED -->
+- Refresh index and commit:
+  - `scripts/update_index.sh`
+  - `git add AGENT_INDEX.* && git commit -m "task(<ID>): refresh index" && git push`
+- Budget log (actual or estimate): `python3 scripts/budget_guard.py log --cost <actual_or_est> --task <ID>`.
+<!-- END: POST_MERGE_EXTENDED -->
+<!-- BEGIN: TASK_SELECTION_POLICY -->
+### Task Selection Policy (no user prompts)
+- When you are about to ask “what next?”, run:
+  - `python3 scripts/next_task.py pick` → JSON of the highest-priority **unblocked** task(s).
+- For each selected task `<ID>` / `<slug>`:
+  1) `scripts/preflight.sh`
+  2) `CURRENT_TASK_ID=<ID> scripts/update_index.sh`
+  3) Create branch: `git checkout -b task/<ID>-<slug>` from `main`
+  4) Execute steps from `tasks.md`
+  5) Verify gates (tests/lint/integration)
+  6) Append `EXECUTION_LOG.md`
+  7) Merge to `main` (no squash)
+  8) Post-merge index + budget log per the anchored sections
+- If `NO-READY-TASK`: rebuild index; if still none, create `PLAN-NEXT` task with concrete next steps and stop.
+<!-- END: TASK_SELECTION_POLICY -->
+<!-- BEGIN: ID_BASED_ADDRESSING -->
+### ID-based addressing
+- Prefer `fid` from `AGENT_INDEX.json` over filenames.
+- To resolve:
+  - `python3 scripts/resolve_id.py to-path <fid>` → path
+  - `python3 scripts/resolve_id.py to-id <path>` → fid
+- Always update the index before and after tasks to keep IDs accurate.
+<!-- END: ID_BASED_ADDRESSING -->
+<!-- BEGIN: GRACEFUL_FAILURE_POLICY -->
+### Graceful failure policy
+- `ON_ERROR=skip|halt|ask` (default `skip`).
+  - **skip**: If non-blocking, open `FIX-<ID>-<slug>`, log details, continue.
+  - **halt**: Stop immediately on failure; log and exit.
+  - **ask**: Stop and emit: **"come help me please user"**.
+- `STRICT_MODE=true` forces halt on ambiguity; otherwise create a small “clarify” task and continue.
+<!-- END: GRACEFUL_FAILURE_POLICY -->
