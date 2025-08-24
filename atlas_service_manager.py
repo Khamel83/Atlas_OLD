@@ -129,6 +129,8 @@ while True:
         subprocess.run([sys.executable, 'run.py', '--articles'], timeout=300, capture_output=True)
         # Process podcasts every hour  
         subprocess.run([sys.executable, 'run.py', '--podcasts'], timeout=600, capture_output=True)
+        # Process transcripts every hour (unified system)
+        subprocess.run([sys.executable, 'run.py', '--transcripts'], timeout=600, capture_output=True)
         # Sleep for 30 minutes
         time.sleep(1800)
     except Exception as e:
