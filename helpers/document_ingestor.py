@@ -18,6 +18,9 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Tuple
 from urllib.parse import urlparse
 from urllib.request import urlretrieve
+import logging
+
+logger = logging.getLogger(__name__)
 
 import requests
 
@@ -33,7 +36,7 @@ class DocumentIngestor(BaseIngestor):
     """Ingestor for processing documents using AtlasDocumentProcessor."""
 
     def __init__(self, config: Dict[str, Any]):
-        super().__init__(config)
+        super().__init__(config, ContentType.DOCUMENT, "document_ingestor")
 
         # Set attributes after calling super().__init__
         self.content_type = ContentType.DOCUMENT
@@ -68,15 +71,27 @@ class DocumentIngestor(BaseIngestor):
 
     def is_supported_source(self, source: str) -> bool:
         """Check if source is supported (URL or file path)."""
+        logger.info(f"Checking if source is supported: {source}")
         # Check if it's a URL
         parsed = urlparse(source)
+        logger.info(f"Parsed scheme: {parsed.scheme}")
         if parsed.scheme in self.supported_schemes:
+            logger.info(f"Source is a supported URL: {source}")
             return True
 
         # Check if it's a local file path
-        if os.path.isfile(source):
-            return self.document_processor.is_supported_format(source)
+        logger.info(f"Checking file path: {source}")
+        logger.info(f"Absolute path: {os.path.abspath(source)}")
+        logger.info(f"Path exists: {os.path.exists(source)}")
+        is_file = os.path.isfile(source)
+        logger.info(f"Is file: {is_file}")
+        if is_file:
+            logger.info(f"Source is a file: {source}")
+            is_supported = self.document_processor.is_supported_format(source)
+            logger.info(f"Is supported format: {is_supported}")
+            return is_supported
 
+        logger.warning(f"Source is not a supported URL or file: {source}")
         return False
 
     def fetch_content(

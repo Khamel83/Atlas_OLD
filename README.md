@@ -10,6 +10,9 @@ Atlas is a local-first, cost-aware personal knowledge system. This repo is now s
 2. Read `agents.md` for execution lifecycle, branching, and logging.
 3. See `tasks.md` for the current roadmap and Phase 1 task list.
 4. To run a task: follow the “Execution Lifecycle” in `agents.md`.
+- One-time: `scripts/bootstrap.sh`
+- Before tasks: `scripts/preflight.sh`
+- Repo map: see `AGENT_INDEX.md` (rebuilt automatically each task)
 
 ## Project Structure
 - `README.md` — You are here; human-readable summary.

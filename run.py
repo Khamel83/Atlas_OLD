@@ -118,48 +118,9 @@ def main():
         logging.info("Starting automatic processing of uploaded files...")
         
         # Process saved HTML files
-        saved_html_dir = Path("inputs/saved_html")
-        if saved_html_dir.exists():
-            html_files = list(saved_html_dir.glob("*.html"))
-            if html_files:
-                logging.info(f"Auto-processing {len(html_files)} uploaded HTML files")
-                from helpers.document_ingestor import DocumentIngestor
-                doc_ingestor = DocumentIngestor(config)
-                for html_file in html_files:
-                    try:
-                        doc_ingestor.ingest_document(str(html_file))
-                    except Exception as e:
-                        logging.error(f"Failed to process {html_file.name}: {e}")
-        
-        # Process Docs files  
-        docs_dir = Path("inputs/Docs")
-        if docs_dir.exists():
-            doc_files = list(docs_dir.glob("*.html")) + list(docs_dir.glob("*.pdf"))
-            if doc_files:
-                logging.info(f"Auto-processing {len(doc_files)} uploaded document files")
-                from helpers.document_ingestor import DocumentIngestor
-                doc_ingestor = DocumentIngestor(config)
-                for doc_file in doc_files:
-                    try:
-                        doc_ingestor.ingest_document(str(doc_file))
-                    except Exception as e:
-                        logging.error(f"Failed to process {doc_file.name}: {e}")
-        
-        # Process saved emails
-        saved_emails_dir = Path("inputs/saved_emails")
-        if saved_emails_dir.exists():
-            email_files = list(saved_emails_dir.glob("*"))
-            if email_files:
-                logging.info(f"Auto-processing {len(email_files)} uploaded email files")
-                from helpers.email_ingestor import EmailIngestor
-                email_ingestor = EmailIngestor(config)
-                for email_file in email_files:
-                    try:
-                        email_ingestor.ingest_email(str(email_file))
-                    except Exception as e:
-                        logging.error(f"Failed to process {email_file.name}: {e}")
-        
-        logging.info("Uploaded file processing complete.")
+        from helpers.document_ingestor import DocumentIngestor
+        doc_ingestor = DocumentIngestor(config)
+        doc_ingestor.ingest_content(str(Path("/home/ubuntu/dev/atlas/inputs/PROCESSED/Docs/2022 Holiday GiftGuide_121622.html")))
 
     if args.all or args.podcasts:
         logging.info("Starting podcast ingestion...")
