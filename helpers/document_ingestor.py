@@ -292,7 +292,7 @@ class DocumentIngestor(BaseIngestor):
                     from process.evaluate import summarize_content
 
                     metadata.type_specific["summary"] = summarize_content(
-                        content[:4000]
+                        content[:4000], self.config
                     )  # Limit for summarization
                 except Exception as e:
                     print(

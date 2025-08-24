@@ -264,11 +264,13 @@ def setup_cron_job():
         new_crontab = current_crontab + "\n" + cron_job if current_crontab else cron_job
 
         # Write to temporary file
-        with open("/tmp/new_crontab", "w") as f:
+        temp_dir = os.environ.get("ATLAS_TEMP_DIR", "/tmp")
+        crontab_file = os.path.join(temp_dir, "new_crontab")
+        with open(crontab_file, "w") as f:
             f.write(new_crontab + "\n")
 
         # Install new crontab
-        subprocess.run(["crontab", "/tmp/new_crontab"], check=True)
+        subprocess.run(["crontab", crontab_file], check=True)
         print("Cron job installed successfully")
 
     except subprocess.CalledProcessError as e:
@@ -321,11 +323,13 @@ echo "Backup cleanup completed: $(date)"
         )
 
         # Write to temporary file
-        with open("/tmp/new_crontab", "w") as f:
+        temp_dir = os.environ.get("ATLAS_TEMP_DIR", "/tmp")
+        crontab_file = os.path.join(temp_dir, "new_crontab")
+        with open(crontab_file, "w") as f:
             f.write(new_crontab + "\n")
 
         # Install new crontab
-        subprocess.run(["crontab", "/tmp/new_crontab"], check=True)
+        subprocess.run(["crontab", crontab_file], check=True)
         print("Cleanup cron job installed successfully")
 
     except subprocess.CalledProcessError as e:

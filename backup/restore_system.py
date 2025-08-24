@@ -17,6 +17,7 @@ Features:
 """
 
 import os
+from pathlib import Path
 import sys
 import subprocess
 import gzip
@@ -37,7 +38,7 @@ def run_command(cmd, description=""):
 
 def load_encryption_key():
     """Load encryption key from file"""
-    key_path = "/home/ubuntu/dev/atlas/backup/.backup_key"
+    key_path = os.environ.get("ATLAS_BACKUP_KEY_PATH", str(Path(__file__).parent / ".backup_key"))
     
     try:
         with open(key_path, "rb") as key_file:
@@ -60,6 +61,7 @@ This script restores Atlas from backup files, including database and configurati
 """
 
 import os
+from pathlib import Path
 import sys
 import subprocess
 import gzip
@@ -81,7 +83,7 @@ def run_command(cmd, description=""):
 
 def load_encryption_key():
     """Load encryption key from file"""
-    key_path = "/home/ubuntu/dev/atlas/backup/.backup_key"
+    key_path = os.environ.get("ATLAS_BACKUP_KEY_PATH", str(Path(__file__).parent / ".backup_key"))
     
     try:
         with open(key_path, "rb") as key_file:
@@ -179,7 +181,7 @@ def restore_configuration(backup_dir):
     # Restore each configuration file
     for config_file in config_files:
         backup_file = os.path.join(backup_dir, config_file)
-        target_file = os.path.join("/home/ubuntu/dev/atlas", config_file)
+        target_file = os.path.join(os.environ.get("ATLAS_ROOT", str(Path(__file__).resolve().parent.parent)), config_file)
         
         if os.path.exists(backup_file):
             # Create directory if it doesn't exist
@@ -196,7 +198,7 @@ def restore_configuration(backup_dir):
 
 def list_backups():
     """List available backups"""
-    backup_dir = "/home/ubuntu/dev/atlas/backups"
+    backup_dir = os.environ.get("ATLAS_BACKUP_DIR", str(Path(__file__).resolve().parent.parent / "backups"))
     
     if not os.path.exists(backup_dir):
         print("No backups found")
@@ -223,7 +225,7 @@ def select_backup():
     
     print("Available backups:")
     for i, backup in enumerate(backups, 1):
-        mtime = os.path.getmtime(os.path.join("/home/ubuntu/dev/atlas/backups", backup))
+        mtime = os.path.getmtime(os.path.join(backup_dir, backup))
         mtime_str = datetime.fromtimestamp(mtime).strftime("%Y-%m-%d %H:%M:%S")
         print(f"{i}. {backup} ({mtime_str})")
     
@@ -252,7 +254,7 @@ def main():
         if not backup_file:
             return
         
-        backup_file = os.path.join("/home/ubuntu/dev/atlas/backups", backup_file)
+        backup_file = os.path.join(backup_dir, backup_file)
     
     # Verify backup file exists
     if not os.path.exists(backup_file):
@@ -281,7 +283,7 @@ def main():
         return
     
     # Restore configuration
-    if restore_configuration("/home/ubuntu/dev/atlas/backups/latest"):
+    if restore_configuration(os.path.join(backup_dir, "latest")):
         print("Configuration restored successfully")
     else:
         print("Configuration restore failed")
@@ -346,11 +348,12 @@ This script lists available backups and provides a selection interface.
 """
 
 import os
+from pathlib import Path
 from datetime import datetime
 
 def list_backups():
     """List available backups"""
-    backup_dir = "/home/ubuntu/dev/atlas/backups"
+    backup_dir = os.environ.get("ATLAS_BACKUP_DIR", str(Path(__file__).resolve().parent.parent / "backups"))
     
     if not os.path.exists(backup_dir):
         print("No backups found")
@@ -380,7 +383,7 @@ def main():
     
     print("Available backups:")
     for i, backup in enumerate(backups, 1):
-        backup_path = os.path.join("/home/ubuntu/dev/atlas/backups", backup)
+        backup_path = os.path.join(backup_dir, backup)
         mtime = os.path.getmtime(backup_path)
         mtime_str = datetime.fromtimestamp(mtime).strftime("%Y-%m-%d %H:%M:%S")
         size = os.path.getsize(backup_path)

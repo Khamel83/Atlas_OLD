@@ -357,11 +357,13 @@ log_message "Backup cleanup completed"
         )
 
         # Write to temporary file
-        with open("/tmp/new_crontab", "w") as f:
+        temp_dir = os.environ.get("ATLAS_TEMP_DIR", "/tmp")
+        crontab_file = os.path.join(temp_dir, "new_crontab")
+        with open(crontab_file, "w") as f:
             f.write(new_crontab + "\n")
 
         # Install new crontab
-        subprocess.run(["crontab", "/tmp/new_crontab"], check=True)
+        subprocess.run(["crontab", crontab_file], check=True)
         print("OCI cleanup cron job installed successfully")
 
     except subprocess.CalledProcessError as e:

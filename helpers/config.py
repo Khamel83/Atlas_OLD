@@ -1,20 +1,33 @@
+"""Configuration management for Atlas.
+
+Handles loading and validation of configuration from environment variables,
+.env files, and YAML configuration files. Provides unified configuration
+dictionary with proper defaults and validation.
+"""
+
 import os
-from typing import Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import yaml
 from dotenv import load_dotenv
 
-# --- Constants ---
-# The base path is the project root where run.py is executed.
-CONFIG_DIR = os.path.join(os.path.dirname(__file__), "..", "config")
-DOTENV_PATH = os.path.join(CONFIG_DIR, ".env")
-CATEGORIES_PATH = os.path.join(CONFIG_DIR, "categories.yaml")
+# Configuration file paths
+CONFIG_DIR: str = os.path.join(os.path.dirname(__file__), "..", "config")
+DOTENV_PATH: str = os.path.join(CONFIG_DIR, ".env")
+CATEGORIES_PATH: str = os.path.join(CONFIG_DIR, "categories.yaml")
 
 # --- Configuration Loading ---
 
 
-def load_categories() -> dict:
-    """Loads the categories from the YAML file."""
+def load_categories() -> Dict[str, Any]:
+    """Load content categories from YAML configuration file.
+    
+    Returns:
+        Dictionary containing category configuration, empty dict if file missing/invalid
+        
+    Note:
+        Handles FileNotFoundError and YAMLError gracefully with warnings
+    """
     try:
         with open(CATEGORIES_PATH, "r") as f:
             return yaml.safe_load(f)
@@ -30,9 +43,21 @@ def load_categories() -> dict:
         return {}
 
 
-def load_config() -> dict:
-    """
-    Loads all configuration from .env and YAML files into a single dictionary.
+def load_config() -> Dict[str, Any]:
+    """Load complete Atlas configuration from environment and config files.
+    
+    Loads configuration in this order (with later values taking precedence):
+    1. Default values
+    2. config/.env file 
+    3. Project root .env file (for backward compatibility)
+    4. Environment variables
+    5. Categories from YAML
+    
+    Returns:
+        Complete configuration dictionary with all settings
+        
+    Note:
+        Includes validation and smart provider/key detection logic
     """
     # Load environment variables
     # 1) Load config/.env first (primary location)
@@ -234,16 +259,18 @@ def load_config() -> dict:
     return config
 
 
-def get_model_for_task(config: dict, task_type: str = "default") -> Optional[str]:
-    """
-    Get the appropriate model for a specific task type.
+def get_model_for_task(config: Dict[str, Any], task_type: str = "default") -> Optional[str]:
+    """Get the appropriate AI model for a specific task type.
 
     Args:
         config: Configuration dictionary from load_config()
         task_type: Type of task - "premium", "budget", "fallback", "reasoner", or "default"
 
     Returns:
-        str: Model name to use for the task
+        Model name to use for the task, or empty string if not found
+        
+    Note:
+        Handles DeepSeek provider with special reasoner model logic
     """
     if config.get("llm_provider") == "deepseek":
         if task_type == "reasoner":
@@ -267,14 +294,34 @@ def get_model_for_task(config: dict, task_type: str = "default") -> Optional[str
 
 
 def get_config(key: str, default: Optional[str] = None) -> Optional[str]:
-    """
-    Retrieves a configuration value from the environment variables.
-    DEPRECATED: Use load_config() instead.
+    """Retrieve configuration value from environment variables.
+    
+    Args:
+        key: Environment variable key
+        default: Default value if key not found
+        
+    Returns:
+        Configuration value or default
+        
+    Warning:
+        DEPRECATED: Use load_config() instead for new code
     """
     return os.environ.get(key, default)
 
 
 def is_feature_enabled(feature_key: str, default: str = "false") -> bool:
+    """Check if a feature flag is enabled via environment variable.
+    
+    Args:
+        feature_key: Environment variable key for feature flag
+        default: Default value ("true" or "false")
+        
+    Returns:
+        True if feature is enabled, False otherwise
+        
+    Warning:
+        DEPRECATED: Use load_config() and check config dict instead
+    """
     value = get_config(feature_key, default)
     return value is not None and value.lower() == "true"
 

@@ -83,7 +83,8 @@ def check_progress():
 
     print(f"\n📁 Files Created ({len(created_files)}):")
     for file in created_files:
-        if os.path.exists(f"/home/ubuntu/dev/atlas/{file}"):
+        atlas_root = os.environ.get("ATLAS_ROOT", str(Path(__file__).resolve().parent))
+        if os.path.exists(os.path.join(atlas_root, file)):
             print(f"  ✓ {file}")
         else:
             print(f"  ✗ {file} (missing)")

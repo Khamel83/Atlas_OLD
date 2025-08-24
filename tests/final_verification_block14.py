@@ -46,7 +46,8 @@ def verify_grafana_config():
     
     try:
         # Just check that the file exists
-        grafana_file = Path("/home/ubuntu/dev/atlas/monitoring/grafana_config/setup.py")
+        atlas_root = os.environ.get("ATLAS_ROOT", str(Path(__file__).resolve().parent.parent))
+        grafana_file = Path(atlas_root) / "monitoring/grafana_config/setup.py"
         assert grafana_file.exists(), "Grafana config file not found"
         
         print("✅ Grafana Configuration verified successfully!")
@@ -89,7 +90,7 @@ def verify_atlas_metrics_exporter():
     
     try:
         # Just check that the file exists
-        metrics_file = Path("/home/ubuntu/dev/atlas/monitoring/atlas_metrics_exporter.py")
+        metrics_file = Path(atlas_root) / "monitoring/atlas_metrics_exporter.py"
         assert metrics_file.exists(), "Atlas metrics exporter file not found"
         
         print("✅ Atlas Metrics Exporter verified successfully!")

@@ -1,47 +1,96 @@
-from fastapi import APIRouter, HTTPException, Query, Depends
-from pydantic import BaseModel
-from typing import List, Optional
-import os
-import sys
-import sqlite3
+"""Search API router for Atlas content search functionality.
 
+Provides FastAPI endpoints for searching content with support for
+filtering, pagination, and comprehensive error handling.
+"""
+
+import os
+import sqlite3
+import sys
+from typing import Dict, List, Optional
+
+from fastapi import APIRouter, Depends, HTTPException, Query
+from pydantic import BaseModel, Field
+
+# Add parent directory to path for module imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from helpers.metadata_manager import MetadataManager
 from helpers.config import load_config
+from helpers.metadata_manager import MetadataManager
 
 router = APIRouter()
 
-# Dependency to get metadata manager
-def get_metadata_manager():
-    config = load_config()
-    return MetadataManager(config)
+
+def get_metadata_manager() -> MetadataManager:
+    """Dependency injection for MetadataManager.
+    
+    Returns:
+        Configured MetadataManager instance
+        
+    Raises:
+        HTTPException: If manager initialization fails
+    """
+    try:
+        config = load_config()
+        return MetadataManager(config)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to initialize metadata manager: {e}")
+
 
 class SearchResult(BaseModel):
-    uid: str
-    title: str
-    source: str
-    content_type: str
-    excerpt: str
-    score: float
+    """Search result model for API responses."""
+    uid: str = Field(..., description="Unique identifier for the content")
+    title: str = Field(..., description="Content title")
+    source: str = Field(..., description="Content source URL")
+    content_type: str = Field(..., description="Type of content (article, document, etc.)")
+    excerpt: str = Field(..., description="Content excerpt or snippet")
+    score: float = Field(..., ge=0, le=1, description="Relevance score (0-1)")
+
 
 class SearchResponse(BaseModel):
-    results: List[SearchResult]
-    total: int
+    """Search API response model."""
+    results: List[SearchResult] = Field(default_factory=list, description="List of search results")
+    total: int = Field(ge=0, description="Total number of matching results")
+    query: str = Field(..., description="Original search query")
+    processing_time_ms: Optional[float] = Field(None, description="Query processing time in milliseconds")
 
-def get_search_db_path():
-    """Get the path to the search database"""
+def get_search_db_path() -> str:
+    """Get the path to the search database.
+    
+    Returns:
+        Path to the search database file
+    """
     return os.path.join("data", "enhanced_search.db")
 
 @router.get("/", response_model=SearchResponse)
 async def search_content(
-    query: str,
-    skip: int = 0,
-    limit: int = 20,
-    content_type: Optional[str] = None,
+    query: str = Query(..., min_length=1, description="Search query string"),
+    skip: int = Query(0, ge=0, description="Number of results to skip for pagination"),
+    limit: int = Query(20, ge=1, le=100, description="Maximum number of results to return"),
+    content_type: Optional[str] = Query(None, description="Filter by content type"),
     manager: MetadataManager = Depends(get_metadata_manager)
-):
-    """Search content using SQLite full-text search"""
+) -> SearchResponse:
+    """Search content using SQLite full-text search.
+    
+    Performs full-text search across indexed content with support for
+    content type filtering and pagination.
+    
+    Args:
+        query: Search query string (required, minimum 1 character)
+        skip: Number of results to skip (default: 0)
+        limit: Maximum results to return (1-100, default: 20)
+        content_type: Optional content type filter
+        manager: Injected MetadataManager dependency
+        
+    Returns:
+        SearchResponse containing results, total count, query, and timing
+        
+    Raises:
+        HTTPException: If search fails or database is unavailable
+    """
+    import time
+    start_time = time.time()
+    
     try:
         # Check if search database exists
         db_path = get_search_db_path()
@@ -110,7 +159,15 @@ async def search_content(
         
         conn.close()
         
-        return SearchResponse(results=results, total=total)
+        # Calculate processing time
+        processing_time_ms = (time.time() - start_time) * 1000
+        
+        return SearchResponse(
+            results=results, 
+            total=total, 
+            query=query, 
+            processing_time_ms=processing_time_ms
+        )
     except HTTPException:
         raise
     except Exception as e:
@@ -119,8 +176,21 @@ async def search_content(
 @router.post("/index")
 async def index_content(
     manager: MetadataManager = Depends(get_metadata_manager)
-):
-    """Index all content for search"""
+) -> Dict[str, str]:
+    """Index all content for full-text search.
+    
+    Rebuilds the search index from all available content metadata.
+    This operation may take some time for large content collections.
+    
+    Args:
+        manager: Injected MetadataManager dependency
+        
+    Returns:
+        Dictionary with indexing status and count
+        
+    Raises:
+        HTTPException: If indexing fails
+    """
     try:
         # Get all metadata
         all_metadata = manager.get_all_metadata()

@@ -356,7 +356,7 @@ Return only the clean article content in markdown format."""
                     from process.evaluate import summarize_content
 
                     metadata.type_specific["summary"] = summarize_content(
-                        markdown_content[:4000]
+                        markdown_content[:4000], self.config
                     )
                 except Exception as e:
                     print(f"[{self.module_name}] Summary generation failed: {e}")
