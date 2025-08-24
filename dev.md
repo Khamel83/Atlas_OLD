@@ -40,3 +40,26 @@ This document outlines the development philosophy and processes for the Atlas pr
 
 ## North Star: Atlas Mission & Vision
 - When in doubt, choose the path that best advances an Atlas’ mission/vision and shortens time to a durable, low-ops product.
+
+## Secrets & Environment
+- Secrets are loaded via `.env` (auto-sourced in `scripts/preflight.sh`).
+- Only *required* secret to run is an API key. All else is configuration with sensible defaults.
+- Paths and toggles must be environment-driven (no hardcoded paths). Keep `.env.template` authoritative.
+
+## AI Budget & Cost Guard
+- Caps: `$AI_BUDGET_DAILY_USD` (default 1.00), `$AI_BUDGET_MONTHLY_USD` (default 10.00).
+- Gate before tasks: `python3 scripts/budget_guard.py check --cost <est> --task <ID>`
+- Log after tasks: `python3 scripts/budget_guard.py log --cost <actual_or_est> --task <ID>`
+- Goal: stay far below caps; fail early if we’d exceed.
+
+## ID-First File Addressing
+- Agents should **not** parse filenames. Use `fid` from `AGENT_INDEX.json`.
+- Resolve IDs with `scripts/resolve_id.py` and update the index before/after tasks.
+
+## Graceful Degradation
+- If recoverable: skip, open a `FIX-` task, continue.
+- If terminal: stop and say **"come help me please user"**.
+- Keep runs idempotent; always update the index and append to the execution log.
+
+## North Star
+- Decisions prioritize Atlas mission/vision and reduce time to a durable, low-ops product.

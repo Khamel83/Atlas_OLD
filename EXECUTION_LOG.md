@@ -1,9 +1,11 @@
-- Timestamp (UTC): 2025-08-23 23:00:00
-- Task ID: DOC-SEC-LOCK
-- Branch: task/DOC-SEC-LOCK-agents-upserts
-- Commit(s): dbc6a3e2
+
+- Timestamp (UTC): 2025-08-23 23:05:00
+- Task ID: OPS-001
+- Branch: task/OPS-001-next-task-orchestrator
+- Commit(s): 9504139c
 - Artifacts (paths/links):
+  - scripts/next_task.py
+  - scripts/run_next.sh
   - agents.md
-  - scripts/apply_agents_patches.py
 - Result: SUCCESS
-- Notes: Implemented deterministic anchor-based upserts for agents.md, resolving previous issues with file modification.
+- Notes: Implemented the Next Task Orchestrator, including auto-picking and run order, and updated agents.md accordingly.
