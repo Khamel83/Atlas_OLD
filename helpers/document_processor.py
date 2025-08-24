@@ -265,6 +265,8 @@ class AtlasDocumentProcessor:
             "error": None,
         }
 
+        logger.info(f"Processing document: {file_path} with UID: {uid}")
+
         try:
             logger.info(f"Processing document: {file_path}")
 
@@ -337,6 +339,7 @@ class AtlasDocumentProcessor:
                 )
 
             # Partition the document
+            logger.info(f"Partitioning with kwargs: {partition_kwargs}")
             elements = partition(**partition_kwargs) # type: ignore
 
             return elements
