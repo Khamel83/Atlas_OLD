@@ -239,6 +239,14 @@ class AtlasScheduler:
                 schedule="0 12 * * 2",  # Every Tuesday at 12 PM
                 description="Process YouTube videos from inputs/youtube.txt",
             ),
+            AtlasJob(
+                id="daily_transcript_discovery",
+                name="Daily Transcript Discovery & Polling",
+                job_type=JobType.INGESTION,
+                command="python3 daily_transcript_polling.py",
+                schedule="0 4 * * *",  # Every day at 4 AM
+                description="Discover transcript sources and poll for new podcast transcripts using unified TranscriptManager",
+            ),
         ]
 
         for job in default_jobs:

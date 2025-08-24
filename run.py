@@ -32,6 +32,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run the Atlas pipeline")
     parser.add_argument("--articles", action="store_true", help="Run article ingestion")
     parser.add_argument("--podcasts", action="store_true", help="Run podcast ingestion")
+    parser.add_argument("--transcripts", action="store_true", help="Run transcript discovery and polling")
     parser.add_argument("--youtube", action="store_true", help="Run YouTube ingestion")
     parser.add_argument(
         "--instapaper-csv",
@@ -169,6 +170,31 @@ def main():
         logging.info("Starting YouTube ingestion...")
         ingest_youtube_history(config)
         logging.info("YouTube ingestion complete.")
+
+    if args.all or args.transcripts:
+        logging.info("Starting transcript discovery and polling...")
+        try:
+            # Use existing TranscriptManager directly - no separate script needed
+            import sys
+            sys.modules['helpers.utils'] = type(sys)('helpers.utils') 
+            sys.modules['helpers.utils'].log_info = lambda msg: logging.info(msg)
+            sys.modules['helpers.utils'].log_error = lambda msg: logging.error(msg)
+            
+            from helpers.transcript_manager import TranscriptManager
+            tm = TranscriptManager()
+            
+            # Discover and process transcripts
+            transcripts = tm.discover_transcripts('auto', limit=50)
+            processed = 0
+            for transcript in transcripts:
+                result = tm.fetch_transcript(transcript)
+                if result:
+                    processed += 1
+                    
+            logging.info(f"Transcript processing complete: {processed} new transcripts processed")
+        except Exception as e:
+            logging.error(f"Error in transcript processing: {e}")
+            # Don't fail the whole pipeline for transcript errors
 
     if args.instapaper_csv:
         logging.info(f"Processing Instapaper CSV from {args.instapaper_csv}...")

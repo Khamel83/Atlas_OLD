@@ -175,7 +175,7 @@ def fetch_and_save_articles(urls, output_dir):
                 browser = p.chromium.launch(headless=True)
                 context = browser.new_context()
                 stealth = Stealth()
-                stealth.apply(context)  # <- apply stealth to the context
+                stealth.apply_stealth_sync(context)  # <- apply stealth to the context
 
                 page = context.new_page()
                 page.goto(url, timeout=60000)
