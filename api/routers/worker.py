@@ -281,10 +281,12 @@ async def worker_status():
         
         # Get worker counts
         cursor.execute("SELECT COUNT(*) FROM workers WHERE status = 'active'")
-        active_workers = cursor.fetchone()[0] if cursor.fetchone() else 0
+        result = cursor.fetchone()
+        active_workers = result[0] if result else 0
         
         cursor.execute("SELECT COUNT(*) FROM workers")
-        total_workers = cursor.fetchone()[0] if cursor.fetchone() else 0
+        result = cursor.fetchone()
+        total_workers = result[0] if result else 0
         
         # Get job counts
         cursor.execute("SELECT status, COUNT(*) FROM worker_jobs GROUP BY status")
