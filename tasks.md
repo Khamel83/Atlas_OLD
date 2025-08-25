@@ -9,10 +9,10 @@
 ## **BLOCK 1: API ENDPOINT REPAIR** ⚡ (Days 1-2)
 
 ### **B1T1: Audit Cognitive API Failures**
-- [ ] Test all cognitive endpoints: `curl http://localhost:8000/api/v1/cognitive/*`
-- [ ] Document exact 404 errors and missing routes in `reports/api_audit_$(date +%Y%m%d).md`
-- [ ] Map existing cognitive modules to expected endpoints
-- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
+- [x] Test all cognitive endpoints: `curl http://localhost:8000/api/v1/cognitive/*`
+- [x] Document exact 404 errors and missing routes in `reports/api_audit_$(date +%Y%m%d).md`
+- [x] Map existing cognitive modules to expected endpoints
+- [x] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
 - **Success**: Complete endpoint status report with specific error details
 
 ### **B1T2: Connect ProactiveSurfacer to API**
