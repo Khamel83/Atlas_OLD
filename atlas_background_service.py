@@ -51,6 +51,12 @@ class AtlasServiceManager:
             ]
         )
         self.logger = logging.getLogger("AtlasService")
+
+        self.health_logger = logging.getLogger("AtlasServiceHealth")
+        health_handler = logging.FileHandler(self.log_dir / "atlas_service_health.log")
+        health_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+        self.health_logger.addHandler(health_handler)
+        self.health_logger.setLevel(logging.INFO)
         
     def start_api_server(self) -> bool:
         """Start the Atlas API server"""
@@ -311,10 +317,12 @@ class AtlasServiceManager:
                         self._restart_service(service_name)
                 
                 # Periodic health check
-                if datetime.now().minute % 15 == 0:  # Every 15 minutes
+                if datetime.now().minute % 5 == 0:  # Every 5 minutes
                     health = self.health_check()
+                    self.health_logger.info(f"Health Check: {health}")
                     if health["overall_status"] != "healthy":
                         self.logger.warning(f"Health check failed: {health}")
+                        self.health_logger.warning(f"Health check failed: {health}")
                 
                 time.sleep(30)  # Check every 30 seconds
                 
@@ -329,6 +337,7 @@ class AtlasServiceManager:
     
     def _restart_service(self, service_name: str):
         """Restart a specific service"""
+        self.health_logger.warning(f"Attempting to restart service: {service_name}")
         try:
             if service_name == "api_server":
                 self.start_api_server()
@@ -338,6 +347,7 @@ class AtlasServiceManager:
                 self.logger.warning(f"Don't know how to restart service: {service_name}")
         except Exception as e:
             self.logger.error(f"Error restarting {service_name}: {e}")
+            self.health_logger.error(f"Error restarting {service_name}: {e}")
 
 def main():
     """Main entry point"""
