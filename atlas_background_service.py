@@ -39,7 +39,7 @@ class AtlasServiceManager:
         self.running = False
         self.log_dir = Path("logs")
         self.log_dir.mkdir(exist_ok=True)
-        self.pid_file = Path("atlas_service.pid")
+        self.pid_file = self.log_dir / "atlas_service.pid"
         
         # Setup logging
         logging.basicConfig(
