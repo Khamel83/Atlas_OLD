@@ -1,0 +1,20 @@
+# Basking in the Beethoven-like genius of Kanye West Quartz
+
+**Source:** inputs/New Docs/markdown/quartzy.qz.com_1133083_basking-in-the-beethoven-like-genius-of-kanye-west.md
+**Processed:** 2025-08-24T19:49:25.350653
+
+# Basking in the Beethoven-like genius of Kanye West Quartz
+
+**URL:** https://quartzy.qz.com/1133083/basking-in-the-beethoven-like-genius-of-kanye-west/
+**Date:** 2017-12-04 15:54:01
+
+---
+
+# 
+
+Unknown author • Unknown date 
+
+![](https://web-static.archive.org/_static/images/archive.ico)
+
+The Wayback Machine requires your browser to support JavaScript, please email info@archive.org if you have any questions about this. 
+

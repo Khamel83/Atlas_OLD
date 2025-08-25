@@ -36,11 +36,11 @@ class SurfacedContent:
     relevance_score: float
     surface_reason: str
     metadata: Dict[str, Any]
-    surfaced_at: str
+    updated_at: str
     
     def __post_init__(self):
-        if self.surfaced_at is None:
-            self.surfaced_at = datetime.now().isoformat()
+        if self.updated_at is None:
+            self.updated_at = datetime.now().isoformat()
 
 
 @dataclass
@@ -70,25 +70,14 @@ class ProactiveSurfacer:
     - User interaction patterns
     """
     
-    def __init__(self, config: Dict[str, Any] = None):
+    def __init__(self, metadata_manager: MetadataManager):
         """Initialize ProactiveSurfacer."""
-        self.config = config or {}
-        if not config and load_config:
-            self.config = load_config()
-            
-        self.metadata_manager = None
-        
-        # Initialize if metadata manager available
-        if MetadataManager:
-            try:
-                self.metadata_manager = MetadataManager(self.config)
-            except Exception:
-                pass
+        self.metadata_manager = metadata_manager
         
         # Surfacing configuration
-        self.relevance_threshold = self.config.get('relevance_threshold', 0.3)
-        self.max_age_days = self.config.get('max_content_age_days', 365)
-        self.boost_recent = self.config.get('boost_recent_content', True)
+        self.relevance_threshold = self.metadata_manager.config.get('relevance_threshold', 0.3)
+        self.max_age_days = self.metadata_manager.config.get('max_content_age_days', 365)
+        self.boost_recent = self.metadata_manager.config.get('boost_recent_content', True)
         
     def surface_content(self, 
                        context: SurfacingContext,
@@ -121,20 +110,20 @@ class ProactiveSurfacer:
             
             # Score content for relevance
             scored_content = []
-            for item in recent_content:
-                score = self._calculate_relevance_score(item, context)
+            for item in all_content:
+                score = self._calculate_relevance_score(item.to_dict(), context)
                 if score >= self.relevance_threshold:
-                    reason = self._determine_surface_reason(item, context, score)
+                    reason = self._determine_surface_reason(item.to_dict(), context, score)
                     
                     surfaced = SurfacedContent(
-                        uid=item.get('uid', 'unknown'),
-                        title=item.get('title', 'Untitled'),
-                        source=item.get('source', 'Unknown'),
-                        content_type=item.get('content_type', 'unknown'),
+                        uid=item.uid,
+                        title=item.title,
+                        source=item.source,
+                        content_type=item.content_type.value,
                         relevance_score=score,
                         surface_reason=reason,
-                        metadata=item,
-                        surfaced_at=datetime.now().isoformat()
+                        metadata=item.to_dict(),
+                        updated_at=datetime.now().isoformat()
                     )
                     scored_content.append(surfaced)
             
@@ -216,14 +205,14 @@ class ProactiveSurfacer:
                 
                 for item in sampled_items:
                     surfaced = SurfacedContent(
-                        uid=item.get('uid', 'unknown'),
-                        title=item.get('title', 'Untitled'),
-                        source=item.get('source', 'Unknown'),
-                        content_type=item.get('content_type', 'unknown'),
+                        uid=item.uid,
+                        title=item.title,
+                        source=item.source,
+                        content_type=item.content_type.value,
                         relevance_score=0.5,  # Base score for diversity
                         surface_reason=f"Diverse selection from {content_type} content",
-                        metadata=item,
-                        surfaced_at=datetime.now().isoformat()
+                        metadata=item.to_dict(),
+                        updated_at=datetime.now().isoformat()
                     )
                     surfaced_content.append(surfaced)
             
@@ -238,7 +227,7 @@ class ProactiveSurfacer:
     def _get_all_content(self) -> List[Dict[str, Any]]:
         """Get all content items from metadata manager."""
         try:
-            return self.metadata_manager.list_all_content()
+            return self.metadata_manager.get_all_metadata()
         except Exception:
             return []
     
@@ -252,7 +241,7 @@ class ProactiveSurfacer:
         filtered = []
         for item in content_items:
             try:
-                created_at = item.get('created_at', item.get('date', ''))
+                created_at = item.created_at
                 if created_at:
                     content_date = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     if content_date >= cutoff_date:
@@ -273,12 +262,12 @@ class ProactiveSurfacer:
         score = 0.0
         
         # Base score for content type preference
-        if item.get('content_type') in context.content_types:
+        if item.content_type.value in context.content_types:
             score += 0.2
         
         # Topic/title matching
         if context.current_topic:
-            title = item.get('title', '').lower()
+            title = item.title.lower()
             topic_lower = context.current_topic.lower()
             
             if topic_lower in title:
@@ -288,8 +277,8 @@ class ProactiveSurfacer:
         
         # Recent query matching
         if context.recent_queries:
-            title = item.get('title', '').lower()
-            content = item.get('content', '').lower()
+            title = item.title.lower()
+            content = item.content.lower()
             
             for query in context.recent_queries:
                 query_lower = query.lower()
@@ -301,7 +290,7 @@ class ProactiveSurfacer:
         # Recency boost
         if self.boost_recent:
             try:
-                created_at = item.get('created_at', item.get('date', ''))
+                created_at = item.created_at
                 if created_at:
                     content_date = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     days_ago = (datetime.now() - content_date).days
@@ -323,18 +312,18 @@ class ProactiveSurfacer:
         reasons = []
         
         if context.current_topic:
-            title = item.get('title', '').lower()
+            title = item.title.lower()
             if context.current_topic.lower() in title:
                 reasons.append(f"matches topic '{context.current_topic}'")
         
         if context.recent_queries:
             for query in context.recent_queries:
-                if query.lower() in item.get('title', '').lower():
+                if query.lower() in item.title.lower():
                     reasons.append(f"matches recent query '{query}'")
                     break
         
         try:
-            created_at = item.get('created_at', item.get('date', ''))
+            created_at = item.created_at
             if created_at:
                 content_date = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                 days_ago = (datetime.now() - content_date).days
@@ -363,7 +352,7 @@ class ProactiveSurfacer:
                 relevance_score=0.85,
                 surface_reason="matches current topic",
                 metadata={"tags": ["machine learning", "AI", "fundamentals"]},
-                surfaced_at=datetime.now().isoformat()
+                updated_at=datetime.now().isoformat()
             ),
             SurfacedContent(
                 uid="mock_2", 
@@ -373,7 +362,7 @@ class ProactiveSurfacer:
                 relevance_score=0.72,
                 surface_reason="recently added, high relevance",
                 metadata={"tags": ["neural networks", "deep learning"]},
-                surfaced_at=datetime.now().isoformat()
+                updated_at=datetime.now().isoformat()
             ),
             SurfacedContent(
                 uid="mock_3",
@@ -383,7 +372,7 @@ class ProactiveSurfacer:
                 relevance_score=0.68,
                 surface_reason="related to current interests",
                 metadata={"tags": ["AI", "ethics", "society"]},
-                surfaced_at=datetime.now().isoformat()
+                updated_at=datetime.now().isoformat()
             )
         ]
         

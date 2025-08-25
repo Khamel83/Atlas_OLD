@@ -1,0 +1,136 @@
+# Does My Son Know You? - The Ringer
+
+**URL:** https://www.theringer.com/2022/3/3/22956353/fatherhood-cancer-jonathan-tjarks
+**Processed:** 2025-08-24T19:16:22.056154
+
+[Health](/topic/health)[Health](/topic/health)
+
+# Does My Son Know You?
+
+Fatherhood, cancer, and what matters most
+
+![](/_next/image?url=https%3A%2F%2Fwp.theringer.com%2Fwp-content%2Fuploads%2F2022%2F03%2Fwaiting_room_3.jpg&w=3840&q=75&dpl=09e7a6b54bf95782e2fd2ff3189aa6a6246abdf8)
+
+Ringer illustration
+
+[![](/_next/image?url=https%3A%2F%2Fwp.theringer.com%2Fwp-content%2Fuploads%2F2024%2F11%2FHEADSHOT-v4-vox_0014_Jonathan-Tjarks.0.jpeg&w=128&q=75&dpl=09e7a6b54bf95782e2fd2ff3189aa6a6246abdf8)](/creator/jonathan-tjarks)
+
+By [Jonathan Tjarks](/creator/jonathan-tjarks)March 3, 2022, 11:30 am UTC • 12 min
+
+*Editor’s note: On Saturday, Ringer senior staff writer Jonathan Tjarks passed away.*[*You can find information about how to support Jonathan’s family here*](https://www.theringer.com/2022/9/11/23347619/jonathan-tjarks)*.*
+
+---
+
+Waiting for a [PET scan](https://www.mayoclinic.org/tests-procedures/pet-scan/about/pac-20385078#:~:text=A%20positron%20emission%20tomography%20(PET)%20scan%20is%20an%20imaging%20test,normal%20and%20abnormal%20metabolic%20activity.) is pretty boring. The nurse brings you down a long hallway with a bunch of rooms on each side. Each is just big enough to fit a chair and a sink. They all look the same except for the picture on the wall. I’ve seen a pond, a lake, and some mountains.
+
+You walk into the room, sit down, and get injected with dye. Then you have to wait an hour for it to go through your bloodstream. There is absolutely *nothing* to do. The doctors want as little brain activity as possible in order to get a better scan. You put your phone in a locker and there’s no TV. You can’t even bring anything to read. If you are lucky, you get some sleep. Otherwise you are left alone with your thoughts.
+
+I got scanned for the first time last April. [That’s when I found out I had cancer](https://www.theringer.com/2021/5/20/22444532/long-night-of-the-soul). I had been in and out of the hospital for two months. The doctors couldn’t figure out what was wrong because what I had (a Ewing’s-like sarcoma with a BCOR-CCNB3 rearrangement) is so rare. Sarcomas are small tumors found in the bones and connective tissues of the body. They represent [about 1 percent of new cancer cases](http://sarcomahelp.org/articles/sarcoma-statistics.html#:~:text=In%20adults%2C%20sarcomas%20are%20estimated,Sarcoma%20Progress%20Review%20Group%2C%20Jan.) in the United States each year among adults, and BCOR is an even tinier part of that 1 percent. The odds of me getting it were about 25 million to 1. My wife and I ran into a doctor who is friends with her parents. He asked how it felt to get hit by lightning.
+
+Sarcomas are one of the deadliest kinds of cancers. The five-year survival rates for adults with metastatic Ewing’s sarcomas are [between 15 percent and 30 percent](https://www.hopkinsmedicine.org/health/conditions-and-diseases/sarcoma/ewing-sarcoma-in-adults#:~:text=According%20to%20the%20American%20Cancer,15%20percent%20to%2030%20percent.). Metastatic means the tumors have already spread through the body by the time they are diagnosed. There were too many for the doctors to count on my first scan.
+
+Cancer is much easier to treat when it hasn’t spread beyond the primary tumor. You can get chemotherapy and radiation and remove whatever is left with surgery. That’s not an option for me. The doctors don’t even know which tumor was my primary. They will never be able to say that I’m “cancer free,” because there could always be tiny sarcomas lurking somewhere in my body that the scans miss.
+
+That’s what happened after my first chemo regimen, which lasted about six months. All the tumors were gone at the end. There were only a few potential spots they would check on my next scan. But when I came back in two months, a series of new ones had popped up.
+
+There are two main problems. The first is that the chemo has to kill every single cancer cell in my body. Leave even one behind and that one can turn into a million. The second is that the cells that survive become more resistant to the chemo. You can’t use the same type of treatment again and expect the same results. So you have to try a different kind each time they return. One of my doctors compared it to trench warfare in World War I: You build multiple lines of defense so you can keep falling back when the first gets overrun. You just eventually run out of lines.
+
+Being diagnosed with terminal cancer doesn’t happen like it does in the movies. The doctors don’t actually tell you how long you have to live. They can’t predict the future. What they say is: What you have will kill you at some point. We just don’t know when. It could be months. It could be years. It could be longer.
+
+The only real hope they can offer is that someone might find a cure before it’s too late. All they can do for now is keep me alive as long as they can.
+
+That means a lot of chemo and a lot of scans. My current schedule is chemo every three weeks and scans every nine. The whole process of getting scanned takes about an hour and a half. One hour to sit in the tiny waiting room and another half-hour for the actual scan.
+
+Like I said before, it leaves you with a lot of time to think. I usually end up thinking about my son.
+
+---
+
+His name is Jackson. He was born in late March 2020, the week after [Rudy Gobert tested positive for COVID-19](https://www.theringer.com/nba/2020/3/11/21176063/nba-coronavirus-rudy-gobert-utah-jazz-season-suspended). He’s now almost 2, which is a really fun age. We can communicate with him. He learns a new word almost every day.
+
+He’s obsessed with cars. He stomps around the house with a toy car in each hand and rolls them on any surface he can find. He cries when we drive off a busy street and he can no longer see cars driving past. Sometimes he will be in his high chair and just start saying “ooh da cays.”
+
+It makes sense when you think about it. Humans are hard-wired to fear snakes, spiders, and heights. Those things have been killing people since the beginning of time. Cars are still brand-new by comparison. Things that big and that fast *shouldn’t* exist. We are just so used to them that we don’t think about it anymore.
+
+Jackson isn’t used to anything. He sees a car and thinks it’s the coolest thing he has ever seen in his life. One of his favorite phrases is “you see it?” He might say it 10 times a day. You never know what exactly you are supposed to be seeing. But apparently it’s *something.*
+
+Being a dad has been the greatest joy of my life. I was never someone who debated about whether or not to have a family. It’s something that I had wanted ever since I was a kid. I wanted what I didn’t have.
+
+My dad was diagnosed with Parkinson’s disease when I was 6. Most people know Parkinson’s from Muhammad Ali or Michael J. Fox and the shaking they see. But that’s only the beginning. Parkinson’s gradually robs you of your ability to control your body. My dad went from needing a cane to walk to a back brace and then a walker and finally a wheelchair. Things really went south after he had open heart surgery. His body never recovered. He had to take so much medicine that it became hard to talk. He was there but he was no longer *there.*
+
+I was 12. That’s the age when your parents go from authority figures to actual people. That never happened for me and my dad. We never got to know each other. What did he like doing? What were his experiences growing up? What were his goals in life?
+
+And there’s the simpler stuff too. How do you tie a tie? Or grill a burger? Or fix a car?
+
+I had to figure it all out on my own. Now it looks like my son might have to do the same. It was the one thing that I never wanted for him.
+
+---
+
+I remember my dad had a lot of tennis trophies in his office. I never saw him play, but I was told he was good. He was 6-foot-4 and had a big serve. But the trophy he was most proud of was the Courage Award that he got from his fitness club. It was for the toughness he showed in fighting Parkinson’s.
+
+He went to the club all the time before he got sick. It had tennis and racquetball courts, a swimming pool, and an outdoor track. It’s where he made most of his friends.
+
+Everyone was supportive at first. They brought us food, drove him places, and got him in and out of the car. But those visits slowly dried up over time. My dad kept getting sicker and could no longer do the things that had made them friends in the first place. People moved, or had kids, or got busy at work. Even the Christmas cards stopped coming. By the end, the only people who stopped by the house were nurses and health care workers.
+
+My dad died when I was 21. There were a bunch of people at his funeral whom I hadn’t seen in years. They all told me how sorry they were and asked whether there was anything they could do. All I could think was I don’t know any of you. I know *of* you. I’ve heard your names. But I don’t *know* you.
+
+The lie that society tells us is that our friends can be our family. That’s the premise of TV shows like *Friends*, *Seinfeld*, and *How I Met Your Mother*. We can all leave our hometowns behind and have exciting adventures in the big city with people that we meet. And those people will love us and take care of us and be there for us.
+
+But life is more like what happened to the actual actors on *Friends*. Their TV reunion was the first time all six had been together in years. They still cared about each other to a degree, but they had grown apart. They were living in different cities and working different jobs and had a million different things happen to them that they didn’t share as a group. It couldn’t be the same as it was when they were all single and working on the same TV set.
+
+Americans tend to put our careers first and move around the country. That’s what my parents did. My dad was from Nebraska. My mom is from the Philippines. I grew up in Dallas. That’s a long way from their families (although one of my mom’s sisters ended up moving here). My parents tried to form a community where they lived, but they didn’t really have one. Not one that lasted.
+
+---
+
+I was nervous the first time I went to a life group. I’d joined a church the week before and one of the pastors, a guy a few years older than me, invited me. It was a smaller group of people who met at his house every week.
+
+I remember walking up to the door and not knowing what to expect on the other side. There were about a dozen people in the living room talking to each other. I didn’t know any of them besides the pastor—and I barely knew him. I didn’t know what to do, so I did what most people would do: I headed over to the table with snacks.
+
+Eventually the chatter died down and everyone sat in a circle in the living room. They all introduced themselves with an icebreaker. Something about their favorite TV show or their favorite snack. I was thinking, either I’m supposed to say I’m an alcoholic or this is a cult.
+
+But nothing that exciting happened. They sang a few songs and then talked about the Bible for a while. At the end of the meeting, everyone paired off to pray for each other and the pastor asked me what I thought of the group. Then he asked if I would come back. I said I guess, but I wasn’t sure.
+
+That was seven years ago. Some of those strangers from the house that first night are now some of my closest friends. It didn’t happen overnight. It took me a long time to feel comfortable. I usually came after the life group had already started and left as soon as it was over.
+
+But I was seeing the same people every week and I was telling them about my problems and they were telling me about theirs. Do that for long enough and you become friends. You get to know enough people that way and life group goes from being an obligation to something you look forward to.
+
+Making the commitment to come every week is still hard. There are always other things to do. Sometimes you are tired or you had a long day or you just don’t feel like it. It gets even harder once you get married and have kids.
+
+Nor are the people always easy to deal with. You may not have a lot in common. You have to search for things to talk about. You can be vulnerable with people and they don’t always respond how you would expect. And you certainly won’t always agree with them on how they see the world.
+
+The past two years haven’t been easy. Our life group met over Zoom for a while. People ask me whether I have to be more careful because of my condition and the pandemic. But it’s really the opposite. I don’t have the luxury of waiting for life to get back to normal. This might be the only time that I have.
+
+I can’t imagine not being in a life group at this point. Human beings aren’t supposed to go through life as faces in a crowd. It’s like the song from *Cheers*. Sometimes you want to go where everybody knows your name.
+
+Life group is a different kind of insurance. People talk a lot about medical insurance and life insurance when you get sick. But relational insurance is far more important. I didn’t need my dad’s money, but I could have used some of his friends.
+
+---
+
+I wish I could say that getting diagnosed with cancer has brought me closer to God. That my faith is stronger than ever before and that it has comforted me through these tough times. I have read plenty of stories like that. But that’s not really how it has worked for me.
+
+I want to believe in a miracle. There have been people with stage IV sarcomas whose tumors never came back. No one knows why. Some things are still beyond the knowledge of medical science. I asked my doctor if I could be one of those people. He replied, “I am not the one who decides those things.”
+
+I believe in a God who does. But I also know that He has chosen not to heal me. At least not yet. And that hurts.
+
+The only thing I can say is that there was never a promise that it would be any other way. I think about Terrence Clarke sometimes when I start to feel sorry for myself. [He was a Kentucky basketball player who died in a car accident](https://www.espn.com/mens-college-basketball/story/_/id/31313103/former-kentucky-wildcats-guard-terrence-clarke-19-dies-following-car-accident) the same week I was diagnosed with cancer. He was coming from a workout. He would have been drafted in a few months.
+
+There’s a Bible passage from Jesus’s brother that comes to mind: “Now listen, you who say, ‘Today or tomorrow we will go to this or that city, spend a year there, carry on business and make money.’ Why, you do not even know what will happen tomorrow. What is your life? You are a mist that appears for a little while and then vanishes.” (James 4:13-16)
+
+So where does that leave us, the little mists?
+
+There are some things from the Bible that I have been leaning on over the past year:
+
+* “Religion that God our Father accepts as pure and faultless is this. To look after orphans and widows in their distress.” —James 1:27
+* “Learn to do right; seek justice. Defend the oppressed. Take up the cause of the fatherless; plead the case of the widow.” —Isaiah 1:17
+* “You shall not mistreat any widow or fatherless child.” —Exodus 22:22
+
+[There are hundreds of verses like that](https://www.openbible.info/topics/widows_and_orphans). I have already told some of my friends: When I see you in heaven, there’s only one thing I’m going to ask—Were you good to my son and my wife? Were you there for them? Does my son *know* you?
+
+I don’t want Jackson to have the same childhood that I did. I want him to wonder why his dad’s friends always come over and shoot hoops with him. Why they always invite him to their houses. Why there are so many of them at his games. I hope that he gets sick of them.
+
+One thing I have learned from this experience is that you can’t worry about things that you can’t control. I can’t control what will happen to me. I don’t know how long I will be there for my son. All I can do is make the most of the time that I have left. That means investing in other people so they can be there for him.
+
+[![](/_next/image?url=https%3A%2F%2Fwp.theringer.com%2Fwp-content%2Fuploads%2F2024%2F11%2FHEADSHOT-v4-vox_0014_Jonathan-Tjarks.0.jpeg&w=3840&q=75&dpl=09e7a6b54bf95782e2fd2ff3189aa6a6246abdf8)](/creator/jonathan-tjarks)
+
+[Jonathan Tjarks
+
+Jonathan Tjarks](/creator/jonathan-tjarks)Jonathan Tjarks was a staff writer who covered the NBA for The Ringer from the company’s founding until his death in 2022. His original bio read, “Tjarks covers basketball and is a host on ‘The Ringer NBA Show.’ He loves Jesus and Dallas, in that order. Texas Forever.”

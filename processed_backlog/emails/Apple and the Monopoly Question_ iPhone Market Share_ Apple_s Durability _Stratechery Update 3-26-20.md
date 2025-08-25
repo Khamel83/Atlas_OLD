@@ -1,0 +1,140 @@
+# Apple and the Monopoly Question, iPhone Market Share, Apple's Durability (Stratechery Update 3-26-2024)
+
+**From:** Ben Thompson <email@stratechery.com>
+**Date:** Tue, 26 Mar 2024 12:48:28 +0000
+**Source:** inputs/saved_emails/Apple and the Monopoly Question, iPhone Market Share, Apple's Durability (Stratechery Update 3-26-2024)_Tue,_26_Mar_2024_12-48-28_+0000_18e7ace2901b6c01.eml
+**Processed:** 2025-08-24T19:13:06.932186
+
+More on the Apple antitrust case, and the pertinent question of whether or not the iPhone has dominant market share. Then, why the DOJ's theory of the case is fundamentally flawed.
+
+View in browser ( https://stratechery.com/2024/apple-and-the-monopoly-question-iphone-market-share-apples-durability/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FwcGxlLWFuZC10aGUtbW9ub3BvbHktcXVlc3Rpb24taXBob25lLW1hcmtldC1zaGFyZS1hcHBsZXMtZHVyYWJpbGl0eS8iXX0sImV4cCI6MTcxNDA0OTMwOCwiaWF0IjoxNzExNDU3MzA4LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.Ncfo74FlqiUxyaDPh9bv8MpxacNKEKxNWBO8SrHP7X1CfQ7L7XqAoHIu8SOc78xBywQKc_CHX8WNOAoUdV5vtiRIFP5ATVa2nhUYxOlWoqu82sx4oYYBP8zuFA27NxCClYmyaWtxHYpIVhziungUBqR_E_78z_HQ4ZKHIaKoZzXgUR839AdZS-rgbOPHS3nkHRJeQ8ycVHMkKL6oF0BqpdbPeI1QRk81JHknuOsTc0wHdMdvSrYzELT6kq-AyhWiqeA1bnHhq35Pbh2WzVo5Dm_V6hnpr_piHhQgtsIqgSx-n2GK7G2DtFMt5GDzS0eDCoCZoZdiSrmWrrL4Ueo18g )
+
+( https://stratechery.com )
+
+************************************************************************
+Apple and the Monopoly Question, iPhone Market Share, Apple's Durability
+************************************************************************
+
+( https://stratechery.com/2024/apple-and-the-monopoly-question-iphone-market-share-apples-durability/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FwcGxlLWFuZC10aGUtbW9ub3BvbHktcXVlc3Rpb24taXBob25lLW1hcmtldC1zaGFyZS1hcHBsZXMtZHVyYWJpbGl0eS8iXX0sImV4cCI6MTcxNDA0OTMwOCwiaWF0IjoxNzExNDU3MzA4LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.Ncfo74FlqiUxyaDPh9bv8MpxacNKEKxNWBO8SrHP7X1CfQ7L7XqAoHIu8SOc78xBywQKc_CHX8WNOAoUdV5vtiRIFP5ATVa2nhUYxOlWoqu82sx4oYYBP8zuFA27NxCClYmyaWtxHYpIVhziungUBqR_E_78z_HQ4ZKHIaKoZzXgUR839AdZS-rgbOPHS3nkHRJeQ8ycVHMkKL6oF0BqpdbPeI1QRk81JHknuOsTc0wHdMdvSrYzELT6kq-AyhWiqeA1bnHhq35Pbh2WzVo5Dm_V6hnpr_piHhQgtsIqgSx-n2GK7G2DtFMt5GDzS0eDCoCZoZdiSrmWrrL4Ueo18g ) Tuesday, March 26, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+On yesterday’s episode of Sharp Tech ( https://sharptech.fm/member/episode/us-v-apple-specific-allegations-and-broad-implications-the-decisions-that-made-apple-a-target ) Andrew and I discussed the Apple antitrust case.
+
+On to the update:
+
+Apple and the Monopoly Question
+-------------------------------
+
+I didn’t, in yesterday’s Article about United States v. Apple ( https://stratechery.com/2024/united-states-v-apple/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L3VuaXRlZC1zdGF0ZXMtdi1hcHBsZS8iXX0sImV4cCI6MTcxNDA0OTMwOCwiaWF0IjoxNzExNDU3MzA4LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.KaFHRIwcjS03iuDoy4-C8szS2nPSe1zjwNN5Zl5QEtgY8RiVC5MnR-CxTUp_aMnB5WswDgR7mIRj8XDcOuo-D3j1RbRawrd2s6KgaN1T0Aj83KEP102xve-oN_Ag8tmBDakHbMrIX2GoFU1rCs7H8ZM9IaifijzqAUzGHO7XP4VY9gu3ptrhfKUzd-WMK-yAMpoYxA0HMbx_KWnHDm5tyhNF3SxivrinKcX6T5QQ9mXceSU8pqHxjs59Zldzg42vY1QbHqwkZ7FEceufVm9_PZNs1seZfHPYyjKqPD0UfnOn7ej3e3S0qbDhKKLf1r8-ozWlD83ggzF-2iZA09xDQg ) , address the most pertinent question in any antitrust case: does Apple actually have a monopoly? The DOJ’s case includes two relevant markets (according to the DOJ): smartphones and “performance smartphones”. From the filing ( https://www.justice.gov/opa/media/1344546/dl?inline ) :
+
+All smartphones compete against each other in a broad relevant market. But industry participants, including Apple, assess competition among smartphones in narrower markets that are best understood as submarkets of the larger all-smartphone market. Because Apple chooses not to compete to sell new smartphones in the entry-level tier, the most relevant market to assess its conduct is a narrower submarket that excludes this tier. Regardless of how the market is drawn, however, Apple’s conduct is unlawful.
+
+I think this distinction is ridiculous, and am skeptical it will hold up in court; of course lower-end smartphones have lower-performance components and lower-quality materials — they still run Android and are useful for all of the same functions that iPhones are useful for. Moreover, Apple does compete in this space, albeit via used iPhones; the fact that iPhones hold their value so well, though, probably isn’t a point that the DOJ is particularly interested in making. Anyhow, I am, for the rest of this analysis, going to focus on the smartphone market in the U.S. as a whole.
+
+Here is the section of the complaint laying out Apple’s alleged monopoly position:
+
+Apple has monopoly power in the smartphone and performance smartphone markets because it has the power to control prices or exclude competition in each of them. Apple also enjoys substantial and durable market shares in these markets. Moreover, Apple’s market shares likely underestimate Apple’s power because they are protected by significant barriers to entry, network effects, and switching costs. Apple recognizes and exploits these barriers to entry, network effects, and switching costs to protect itself from competition from rival platforms and innovations, products, and services that may diminish consumer reliance on the iPhone. Apple’s power will likely increase over time.
+
+In the U.S. market for performance smartphones, where Apple views itself as competing, Apple estimates its market share exceeds 70 percent. These estimates likely understate Apple’s market share today. For example, Apple’s share among key demographics, including younger audiences and higher-income households, is even larger. Even in the broadest market consisting of all smartphones — including many smartphones that Apple and industry participants do not view as competing with Apple’s iPhones and other higher-end phones — Apple’s share is more than 65 percent by revenue. Similarly, even if consumers choose one phone over another, the vast majority of developers consider iPhones and Android devices as complements because developers must build apps that run on both platforms due to the lack of user multi-homing. In effect, the lack of multi-homing among users necessitates multi-homing among developers. This market reality increases the power that Apple is able to exercise over developers that seek to reach users on smartphones—especially performance smartphones that run sophisticated apps.
+
+I have several notes on this section specifically before getting into the broader question of monopoly:
+
+* Apple can control prices of its own products, sure; I don’t think this is a crime (more on this below). But how do they control prices for the market as a whole, or exclude competition? Apple doesn’t determine who can or cannot sell smartphones.
+* A lot of the DOJ’s case rests on how allegedly difficult it is to switch smartphones; frankly, I think this is very overstated, with the exception of iMessage. As I explained yesterday, though, this isn’t a crime, and Apple cannot be compelled to create iMessage interoperability.
+* The point about developers needing to multi-home is interesting, and touches on one of the challenges of regulating these markets: Android and iOS are obviously a duopoly that often mirror each other’s policies, particularly around app stores. However, Android is not a smartphone competitor: it’s just an operating system; meanwhile, the multi-homing point directly contradicts the switching cost complaint.
+
+That leaves market share.
+
+iPhone Market Share
+-------------------
+
+The Department of Justice previously had a useful overview of antitrust law that was withdrawn by the Obama administration ( https://www.justice.gov/opa/pr/justice-department-withdraws-report-antitrust-monopoly-law ) ; still, I think the segment on market power and monopoly power ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2 ) is helpful, particularly the section laying out the requirment for a dominant market share:
+
+In determining whether a competitor possesses monopoly power in a relevant market, courts typically begin by looking at the firm’s market share. (18) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_18_ ) Although the courts “have not yet identified a precise level at which monopoly power will be inferred,” (19) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_19_ ) they have demanded a dominant market share. Discussions of the requisite market share for monopoly power commonly begin with Judge Hand’s statement in United States v. Aluminum Co. of America that a market share of ninety percent “is enough to constitute a monopoly; it is doubtful whether sixty or sixty-four percent would be enough; and certainly thirty-three per cent is not.” (20) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_20_ ) The Supreme Court quickly endorsed Judge Hand’s approach in American Tobacco Co. v. United States. (21) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_21_ )
+
+Following Alcoa and American Tobacco , courts typically have required a dominant market share before inferring the existence of monopoly power. The Fifth Circuit observed that “monopolization is rarely found when the defendant’s share of the relevant market is below 70%.” (22) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_22_ ) Similarly, the Tenth Circuit noted that to establish “monopoly power, lower courts generally require a minimum market share of between 70% and 80%.” (23) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_23_ ) Likewise, the Third Circuit stated that “a share significantly larger than 55% has been required to establish prima facie market power” (24) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_24_ ) and held that a market share between seventy-five percent and eighty percent of sales is “more than adequate to establish a prima facie case of power.” (25) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_25_ )
+
+It is also important to consider the share levels that have been held insufficient to allow courts to conclude that a defendant possesses monopoly power. The Eleventh Circuit held that a “market share at or less than 50% is inadequate as a matter of law to constitute monopoly power.” (26) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_26_ ) The Seventh Circuit observed that “[f]ifty percent is below any accepted benchmark for inferring monopoly power from market share.” (27) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_27_ ) A treatise agrees, contending that “it would be rare indeed to find that a firm with half of a market could individually control price over any significant period.” (28) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_28_ )
+
+Some courts have stated that it is possible for a defendant to possess monopoly power with a market share of less than fifty percent. (29) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_29_ ) These courts provide for the possibility of establishing monopoly power through non-market-share evidence, such as direct evidence of an ability profitably to raise price or exclude competitors. The Department is not aware, however, of any court that has found that a defendant possessed monopoly power when its market share was less than fifty percent. (30) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_30_ ) Thus, as a practical matter, a market share of greater than fifty percent has been necessary for courts to find the existence of monopoly power. (31) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_31_ )
+
+There are widely varying estimates of the iPhone’s U.S. market share. Counterpoint Research ( https://www.counterpointresearch.com/insights/us-smartphone-market-q4-2023/ ) is at the high end, estimating that Apple’s share ranged from 52% to 64% in 2023 (iPhone sales are highly seasonal):
+
+Counterpoint Research's estimates of US smartphone share ( https://www.counterpointresearch.com/insights/us-smartphone-market-q4-2023/ )
+
+Canalys ( https://www.canalys.com/newsroom/north-american-smartphone-market-Q3-2023 ) put Apple’s market share at 55% in Q3 2023:
+
+Canalys estimates of US smartphone share ( https://www.canalys.com/newsroom/north-american-smartphone-market-Q3-2023 )
+
+Consumer Intelligence Research Partners ( https://cirpapple.substack.com/p/apple-smartphone-market-share-in ) has Apple’s market share considerably lower, although this appears to be measuring the mobile phone market, which I guess is still larger than the smartphone market?
+
+CIRP estimates of US phone market share ( https://cirpapple.substack.com/p/apple-smartphone-market-share-in )
+
+This is borderline, at a minimum; small wonder, then, that the DOJ complaint mentions “revenue share”; I didn’t find reliable numbers here for the U.S. (there are generally more numbers available for global market share), but I would imagine Apple’s revenue share is higher than its unit share — the DOJ says it is 65%. Attorney General Merrick Garland, though, focused on a fuzzier definition of monopoly in his remarks about the lawsuit ( https://www.justice.gov/opa/speech/attorney-general-merrick-b-garland-delivers-remarks-lawsuit-against-apple-monopolizing ) :
+
+The Supreme Court defines monopoly power as “the power to control prices or exclude competition.” As set out in our complaint, Apple has that power in the smartphone market. Now, having monopoly power does not itself violate the antitrust laws. But it does when a firm acquires or maintains monopoly power — not because it has a superior product or superior business acumen — but by engaging in exclusionary conduct. As set out in our complaint, Apple has maintained its power not because of its superiority, but because of its unlawful exclusionary behavior.
+
+This gets to the durability of Apple’s market power.
+
+Apple’s Durability
+------------------
+
+From that DOJ document:
+
+The Second Circuit has defined monopoly power as “the ability ‘(1) to price substantially above the competitive level and (2) to persist in doing so for a significant period without erosion by new entry or expansion.'” (46) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_46_ ) Likewise, other circuit courts have found that firms with dominant market shares lacked monopoly power when their market power was insufficiently durable. (47) ( https://www.justice.gov/archives/atr/competition-and-monopoly-single-firm-conduct-under-section-2-sherman-act-chapter-2#N_47_ )
+
+The filing hones in on this point:
+
+Apple’s high market shares are durable. Over the last decade, Apple increased its share of smartphones sold in the United States most years. Through the same period, Apple collected more than half the revenue for all smartphones sold in the United States.
+
+Apple’s monopoly power in the relevant markets is protected by substantial barriers to entry and expansion. For example, since fewer than ten percent of smartphone purchasers in the United States are buying their first smartphone, there are fewer new customers available for Apple’s rivals. Instead, rivals must encourage existing iPhone users to switch from using an iPhone to using another smartphone when they replace or upgrade their phone. As a result, switching costs — many created or exacerbated by Apple — impose substantial barriers to entry and expansion for rival smartphones. This barrier is increasingly impenetrable. Nearly 90 percent of iPhone owners in the United States replace their iPhone with another iPhone. At least one U.S. carrier estimates that as high as 98 percent of iPhone users on its network replace or upgrade their iPhone in a given quarter by buying another iPhone. The increased switching costs that consumers experience because of Apple’s conduct underpins these exceedingly high retention rates.
+
+This section gets at what is, in my estimation, the biggest flaw in this case: maybe iPhone users just don’t want to switch?
+
+Start off with the fact that Apple isn’t doing anything new here: its products have always been predicated on integration generally, and the only meaningful change in Apple’s policies with regards to 3rd-party apps has been to create the App Store in the first place. The situation would be very different if Apple were locking its platform down after the fact, but that isn’t really what has happened.
+
+Secondly, it’s amusing to hear CEO Tim Cook cite customer satisfaction scores on earnings call after earnings call, but there is a reason for that: customers are very satisfied with their iPhones! Moreover, there is evidence that consumers are willing to switch smartphone providers: they switch from Android-based smartphones to iPhones. There is nothing technically different in terms of going the other way; the obvious takeaway is that customers like iPhones better.
+
+Third, the reality is that Apple does have a monopoly; I wrote on Twitter years ago:
+
+( https://twitter.com/benthompson/status/492473797938003968?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E492473797938003968%7Ctwgr%5Ea3dcc87a957b8a36efd420baed7d480f6daacb09%7Ctwcon%5Es1_&ref_url=http%3A%2F%2Fchrome-headless.local%3A9222%2Fatomic )
+
+I expounded on this point in Everything as a Service ( https://stratechery.com/2019/integration-and-monopoly/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDE5L2ludGVncmF0aW9uLWFuZC1tb25vcG9seS8iXX0sImV4cCI6MTcxNDA0OTMwOCwiaWF0IjoxNzExNDU3MzA4LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.munM4k5pU9EXALaGQyo7_YDCKOBg0WpKXseBihAAvMK-I3OydSZeGPG28s4Rvkz-_wai-bzPZ3c10PTIPaWRvm-M2IvgExiGCPMABhC5W98xs0kZZm20IBQJHt2SKqciVKPLGjBaQp-CelQOgZsXYuRuKjg3Cub7ht6MLLBQ24JDvBV7jJSPa4fK0n2FyV_tTiQWY1LNV6fL6wIj-t121gSamFJREDW8aUgbmtikadVDKUo_E0JYowyGr80jPfSL4NVjUz6mIc59TKfxUzVYukPRta82x2vQWTp1a9-4ak6Z2O4YRu2F24dWY-37dr2SbyZf4prOqZJTEwnMUzYWJg ) :
+
+Apple has arguably perfected the manufacturing model: most of the company’s corporate employees are employed in California in the design and marketing of iconic devices that are created in Chinese factories built and run to Apple’s exacting standards (including a substantial number of employees on site), and then transported all over the world to consumers eager for best-in-class smartphones, tablets, computers, and smartwatches.
+
+What makes this model so effective — and so profitable — is that Apple has differentiated its otherwise commoditizable hardware with software. Software is a completely new type of good in that it is both infinitely differentiable yet infinitely copyable; this means that any piece of software is both completely unique yet has unlimited supply, leading to a theoretical price of $0. However, by combining the differentiable qualities of software with hardware that requires real assets and commodities to manufacture, Apple is able to charge an incredible premium for its products.
+
+The results speak for themselves: this past “down” quarter saw Apple rake in $50.6 billion in revenue and $10.5 billion in profit. Over the last nine years the iPhone alone has generated $600 billion in revenue and nearly $250 billion in gross profit. It is probably the most valuable — the “best”, at least from a business perspective — manufactured product of all time.
+
+That Article was written in 2016; since then Apple has added Pro models that cost substantially more, yet sell in greater numbers than regular iPhones. That is completely counter to the DOJ’s theory of the case, which is that iPhones are artificially expensive because of lock-in!
+
+My contention is that Apple users buy iPhones first-and-foremost because they want to use iOS; Apple has durable market share and pricing power because they are the sole provider of iOS-based devices. Yes, this may seem obvious, but as I explained yesterday, it was not at all obvious that this approach would succeed a decade ago; most observers thought it wouldn’t. Indeed, the DOJ case reads like it was written by one of those early 2010’s pundits certain that Apple would soon fade away precisely because they were trying to sell an integrated product in an inevitably modularized market; instead of accepting that they ( and Professor Christensen ( https://stratechery.com/2013/clayton-christensen-got-wrong/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDEzL2NsYXl0b24tY2hyaXN0ZW5zZW4tZ290LXdyb25nLyJdfSwiZXhwIjoxNzE0MDQ5MzA4LCJpYXQiOjE3MTE0NTczMDgsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.s3TzrafV7cLg0b3A2FqOIviazQTLIibwtgeGH1tGijxrtPGGhFh4tTifbXi5tKutkJaIYXJ0OwqZRfgpAbU8fwHYoGmukMyQN9wX6rm9YFtd56DSugs8nzo9bxUbrjtunk5sy1mytwR1NqM8U_ZyhjOH_WtxRzjNmnx-h6UhihhyEpks7ZdfnbZJnn1ksXlYh0NlUlJPTxaoi0k1v-Me0_Ta_V3So17YcOo2cZ6isFLuSYziOX3Ma2DG3na_OQZInLvCUr6R4Ek92uSsjrQGV6M2mydfGCYYH_dyRaYNGngPwt_hxS0-pprxPgo0Y1D1B8WP-3ufVqiko61R9K5lBQ ) ) were wrong, they insist that customers are being held captive for * checks calendar * over a decade by Apple’s evil scheming to lock them in. It’s an approach that ignores consumer choices and the very real innovation that Apple has undertaken to create and continually update the iPhone for the last 17 years.
+
+At the same time, to reiterate my conclusion from yesterday, the fact that “integration” does in fact mean a “monopoly” (on iOS), which leads to durable pricing power, is precisely why it behooved Apple to not even risk gaining the attention of antitrust regulators in the first place; at a minimum, it is hard to explain why the company can charge so much for so long! Unfortunately, management has been so myopically focused on the self-perceived righteousness of its App Store position that it utterly missed the far greater danger inherent in coming across as a greedy bully. In other words, I think this lawsuit is a mistake, but I also think management bears a not insignificant portion of the blame for it existing in the first place.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcxNDA0OTMwOCwiaWF0IjoxNzExNDU3MzA4LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.XhlxIWQS5PtxbNq709P1JZGSgXIO--ccOhQFxWXWsLkdAoTRAI8EzjTHf_hbpGD0VjFxKZ6WdfQpNf-EIjKeEP9bUcpqMEcZOFWsnNwuDJ8ZQxjTNOPjJT7Ib933jLpPTNr8uVlDZgPb7xXuIZ22ugWHORavB4zNr2GdBRzi5uyACUSIOvoydUb3F5tqOfqa5aiuxG5n4t9sey0CsDmhXs2tj4s9DHCl4IKoPSna2jRNJ5DPyPb5UVloRnFAXWgq3ArR_PdsJ712Oxj_h2cNXxcbcDbsG1D2c6t6Bo6H_OcI-UQDWNfZ-2oC0h-nWu-7WvjBrzZJO_7_kM8HoiitGA%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

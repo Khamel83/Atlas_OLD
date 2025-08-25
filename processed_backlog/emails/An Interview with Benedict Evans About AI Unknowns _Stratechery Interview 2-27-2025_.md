@@ -1,0 +1,465 @@
+# An Interview with Benedict Evans About AI Unknowns (Stratechery Interview 2-27-2025)
+
+**From:** Ben Thompson <email@stratechery.com>
+**Date:** Thu, 27 Feb 2025 10:51:28 +0000
+**Source:** inputs/saved_emails/An Interview with Benedict Evans About AI Unknowns (Stratechery Interview 2-27-2025)_Thu,_27_Feb_2025_10-51-28_+0000_1954708949213f74.eml
+**Processed:** 2025-08-24T19:13:09.180894
+
+An interview with Benedict Evans about AI lessons over the last year, and the many unresolved issues that will impact industry structure going forward.
+
+View in browser ( https://stratechery.com/2025/an-interview-with-benedict-evans-about-ai-unknowns/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2FuLWludGVydmlldy13aXRoLWJlbmVkaWN0LWV2YW5zLWFib3V0LWFpLXVua25vd25zLyJdfSwiZXhwIjoxNzQzMjQ1NDg4LCJpYXQiOjE3NDA2NTM0ODgsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.MtrKx9wt4VoQdjCOOwco0vIzZ1H2qR2uEB34-IpdQApeEh9mHo9PDkyS-f6HW-A0i1X4JhttZZ5RrWdypfvjGNbHawCINgyJ_AdmAqy4t3rOm0l3VIk_YBGgfe_vqE5swtr-Nhhn86WH1Wx5ro01JR6V1npElRnGMNliN_TCuTXxiwvYFNfSorFWswCYHbgxdN4ABgbjUErmWnI0N5Tz7Zfyk1SR5CRowFOwFKCfKzSJDEqBXcSq8mP8El2TYq45eak__XWF03_UxxqrRbsYZdqfndlsJXPskXCtilRLBjKwkkPA0jVDlfXSDWaTXB4RwCpna5gk63zfUwbGoUrOzw )
+
+( https://stratechery.com )
+
+**************************************************
+An Interview with Benedict Evans About AI Unknowns
+**************************************************
+
+( https://stratechery.com/2025/an-interview-with-benedict-evans-about-ai-unknowns/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2FuLWludGVydmlldy13aXRoLWJlbmVkaWN0LWV2YW5zLWFib3V0LWFpLXVua25vd25zLyJdfSwiZXhwIjoxNzQzMjQ1NDg4LCJpYXQiOjE3NDA2NTM0ODgsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.MtrKx9wt4VoQdjCOOwco0vIzZ1H2qR2uEB34-IpdQApeEh9mHo9PDkyS-f6HW-A0i1X4JhttZZ5RrWdypfvjGNbHawCINgyJ_AdmAqy4t3rOm0l3VIk_YBGgfe_vqE5swtr-Nhhn86WH1Wx5ro01JR6V1npElRnGMNliN_TCuTXxiwvYFNfSorFWswCYHbgxdN4ABgbjUErmWnI0N5Tz7Zfyk1SR5CRowFOwFKCfKzSJDEqBXcSq8mP8El2TYq45eak__XWF03_UxxqrRbsYZdqfndlsJXPskXCtilRLBjKwkkPA0jVDlfXSDWaTXB4RwCpna5gk63zfUwbGoUrOzw ) Thursday, February 27, 2025
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+This week’s Stratechery Interview is with *Benedict Evans ( https://www.threads.net/@benedictevans?hl=en )*. Evans is an independent tech analyst based in New York. Evans started his career in investment banking with a focus on the telecom sector, before his first stint as an independent analyst focused on mobile. In 2014 Evans joined Andreessen Horowitz as partner and analyst, before departing in 2020; he is once again an independent analyst and speaker. Evans was an inspiration for me when I started Stratechery, and I was thrilled to talk with him last year ( https://stratechery.com/2024/an-interview-with-benedict-evans-about-regulation-and-ai/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FuLWludGVydmlldy13aXRoLWJlbmVkaWN0LWV2YW5zLWFib3V0LXJlZ3VsYXRpb24tYW5kLWFpLyJdfSwiZXhwIjoxNzQzMjQ1NDg4LCJpYXQiOjE3NDA2NTM0ODgsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.VHXt0Fct7gR4vwZfIr1s8QR1KRO2yn3ldm_lxxuSA6Ff6pfyCxXSXOoyIVy6s-URMS6KKoZ6y8y0oo7HFIxKge4mmlx7R41rsaQHdBEQYmKm8DDhR2ByWy4Nc8MdL1umlbuFwn9w7ceOP4sffOihLTnFHReZvKrutWsLGOrlxY740D8yNLdkVf04tTtyMUEYOHACadXeueuwykRiVGauL-Mv2S62KshlyqIzWTl6ooLPSOLMxPE82k0Gp2-hdG4ggdLMhwLLHsNIWfsbgIm9QMFFjPHFbXq3FOB6qEyuSLFFHCur5jtmn_qqOr88FZV37qYtFQL1TUCe7Kksodd8MQ ) about regulation and AI.
+
+In this interview we discuss everything that has changed in AI since our last conversation, including Deep Research, DeepSeek, and the commoditization of foundation models. We also discuss everything that hasn't changed, including fundamental questions about the long-term capabilities of LLMs, where they will fit in a future tech stack, and what the implications are for content and long-term differentiation.
+
+Evans’ website is located at *ben-evans.com ( https://www.ben-evans.com/ )* , where he both posts long-form *essays ( https://www.ben-evans.com/essays )* and hosts subscriptions for his *newsletter ( https://www.ben-evans.com/newsletter )*. Evans has written about many of the topics we discuss in this Interview; I will link to them as appropriate, but strongly suggest you subscribe.
+
+As a reminder, all Stratechery content, including interviews, is available as a podcast; click the link at the top of this email to add Stratechery to your podcast player.
+
+On to the Interview:
+
+An Interview with Benedict Evans About AI Unknowns
+--------------------------------------------------
+
+This interview is lightly edited for clarity.
+
+*Topics:*
+
+Deep Research ( #deep-research ) | LLM Paradigms ( #paradigm ) | AI UI ( #aiui ) | Commoditization and Differentiation ( #comm-diff ) | China AI ( #china-ai ) | Regulation Revisited ( #regulation )
+Deep Research
+
+*Benedict Evans, welcome back to Stratechery.*
+
+*BE:* Thanks for having me.
+
+*I had to put on the emergency brake and immediately start recording because I had to save this for the pod. I was just telling you I was going back through the last six months of your newsletters, compiling interesting points, things for us to talk about. You observed, "Shouldn't I have been using AI for this?", a real fail on my part.*
+
+*BE:* Yeah, I mean, the second part of my comment was, I think Woody Allen had a joke about doing a speed reading course and reading War and Peace: apparently, it involves Russia.
+
+How much can you compress? But that does actually seem like something that might actually be a good ChatGPT use case, which I've mentioned from time to time is something I sometimes struggle with.
+
+*Well, you wrote about Deep Research a couple of weeks ago ( https://www.ben-evans.com/benedictevans/2025/2/17/the-deep-research-problem ) and you were pretty disappointed in the output. They used a smartphone report as the demo and it's interesting, because the Deep Research case that convinced me ( https://stratechery.com/2025/deep-research-and-knowledge-value/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2RlZXAtcmVzZWFyY2gtYW5kLWtub3dsZWRnZS12YWx1ZS8iXX0sImV4cCI6MTc0MzI0NTQ4OCwiaWF0IjoxNzQwNjUzNDg4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.TKkxP5JywwqVn4pJBl7k_IcWHJGD5-MHeew2Lru9psKRMt9Tf8V8mV7Fxno69-ykVquumL6POQYJVFra0SHS71fySoWP_MeoxEvOM2Whf4L9ckZ18hSeSnEuf87vkhxgeJ-Z4yuVv6TAXSC6ZkXsiv5CAVdl6UWYpL2vWEKbNprzqyaiY58PHkgTO_5yXSRgDP57wmmAlS1MNLgci-ZAJh6-H6j7NQq7mLoZnT6IKMr5Ey5bxRFqQ6Txid9F1tq-Lga-PM3D34sSGTzDHI4jrNkdCrPk9yFyx9jowNMIMXmmmJ8_l_M4tL3qrhyHVtkdi_-rKWC4qMLKhykzTv3tpQ ) was actually interview prep, and the key thing about it was, it was a lot of qualitative information that was helpful, and I wasn't looking for quantitative information. Does that ring true of your experience?*
+
+*BE:* It does, yes. There's a lot of different things one can say about this, and most of what I said was, it's kind of interesting and puzzling rather than just, "It's crap". It's very easy to say, "This is amazing and it changes the world, and it's the fifth industrial revolution", and it's very easy to say, "This is all a bunch of crap and it's the biggest waste of time and money since NFTs, please subscribe to my Substack", and leave it at that. But what I struggle with is, it's actually much more interesting and more complicated.
+
+There's a simple statement which is, "These things are good at things that don't have wrong answers". The quote someone used a couple of years ago was, "They tend to be good at things that computers are bad at and bad at things that computers are good at", they're very bad at precise specific information retrieval, which is what computers begin with. But on the other hand, you can ask them a question like, "What would be a good thing to take on a picnic?", and that's a question that a computer just couldn't answer, that's not a SQL query, and an LLM can answer that.
+
+I think a lot of the product challenge and use case challenge around these things is trying to work out how you translate that into something that you're actually trying to do. You gave the example of interview prep, which is — actually I don't do interviews, but that would be something where, yeah, I can see that would be useful. The funny thing here is that OpenAI, I wasn't testing it myself, I went and looked at OpenAI's own product page ( https://openai.com/index/introducing-deep-research/ ) , this is their test where they're telling me this is what it's for and this is what it's good at, and proceed to show it to doing precise information retrieval, which of course, it can't do. So just for the people who haven't looked into OpenAI's product page, it suggests some use cases, and one of them is, "Make a table of a bunch of countries with smartphone adoption by operating system"", and also stuff like, "Who wants to learn languages".
+
+*The wrong report for the wrong guy.*
+
+*BE:* Yeah. The problem is, as many people may know, I used to be a telecoms analyst, so I looked at this and thought, "Okay, well let me have a look". Problem one is, it used Statista, which is basically an SEO spam house that aggregates other people's data. Saying "Source: Statista" at best is kind of saying "Source: a Google Search", they're not actually telling me what the source is and secondly, StatCounter, which tells you traffic. And I looked at this and I thought — I won't monologue too long, I promise — I looked at this and I thought-
+
+*No, this is great. I completely agree with where you're going.*
+
+*BE:* -there's two questions here. The first is, is this model accurately working out what sources it should use? And then, is it getting the correct data from those sources?
+
+And the question that OpenAI have posed is smartphone adoption. Well, what does that mean exactly? Are you asking me about unit sales? Are you asking about the install base? Are you asking me about usage? Are you asking me about outdoor usage? Because a use case that they propose actually was something like a translation app. Adoption isn't any of those, it might be any of those, depending on context.
+
+ChatGPT has come up with, number one, StatCounter, which is a metric of usage, not the install base and then, it's come up with Statista, which is actually going to Kantar, which I think is doing install base, but I'm not sure, and those two come up with two different numbers, and the number that's in ChatGPT, the Deep Research report, is a third number.
+
+The thing that I thought about this was, you've asked this a probabilistic question, not a deterministic question. You've asked it a "What should I take on a picnic?"-type question, you haven't asked it a precise database-y question where a computer would know the answer. You've asked it to work out what you want, and then you've asked it to work out where to get it from, and then you've asked it to do the database retrieval and actually report what's on those pages. It's kind of done okay at the first two, or it's done what I would expect an intern to do on the first two, and as I wrote, if I had an intern, I would've said, "This is why you wouldn't use either of those two".
+
+*Yeah.*
+
+*BE:* But an intern wouldn't know, and then it's copied the number down wrong, which is where you smack the intern on the back of the head and tell them to go back and do it again. There's a lot of different ways you can talk about this. Are you using these things for precise information retrieval? Are you using them for things that don't really have wrong answers? Are you using them for qual or for quant? Are you using them for brainstorming? How do you work out what your problem is and whether it would be good at that, and how it would map against that?
+
+But at the end of the day, I went and asked it to do a thing and it told me it had done the thing, and it's wrong. In fact, it's worse than that. OpenAI asked it to do the thing and it did the thing, and it was wrong.
+
+*And then put it up as a demo!*
+
+*BE:* There's this really profoundly important thing here, which I had this feeling looking at the new Claude model ( https://www.anthropic.com/news/claude-3-7-sonnet ) today as well, or yesterday, is people talk about these models getting better a lot, but if you've given me a table with 20 entries and some of them are wrong, what do you mean when you say the model's better? Do you mean that all the odd entries are right? Or do you mean that the entries are more likely to be right? Those are very different things. The idea that we would get to these models to the point that they always would be right and you would know that in a way that you would know a database would be right, we have no idea if that's possible. That's a profound scientific question in the field. What do you do with something that can do amazing things but you don't know if it's right?
+
+*Yeah, there's so much in that. I made a list of just three even though eight went through my head. I'm going to pop these to you in response. Number one, on the intern question, and you've made this point about having a hundred interns, the thing that occurs to me is, with an intern, the power of the intern is, you can tell them why they did it wrong. "This is not a reliable source", "What does this number actually mean?", and they have a learning function. One of the challenges with these models is, you can't really teach them. You're dependent on, "Hopefully my feedback gets back into the next training run and it gets better". It's a weird inversion where the way to get more uses of these models is not to teach the models, you have to teach yourself how to use the model and understand its limitations and what it can be good at so that you give it appropriate jobs in the future, which is an interesting flip.*
+
+*BE:* Yeah, there are various ways people describe this. I think, a couple of years ago, I described it as playing Battleship, the game where you put the pegs and you call out your coordinates and you see what happens. Did I hit anything? Okay, try again.
+
+*Yeah.*
+
+*BE:* The analogy I've seen other people use in research, I think, is better. It's the slot machine, it's the prompt slot machine. You pull a handle, you see what happens. Do you get the do three cherries? No? Pull handle again, see what happens. Do you get the three cherries? No? Pull the handle again.
+
+*Your odds might be a lot better, it might be almost all cherries there, but as long as there is a seven or whatever, you can't trust them.*
+
+*BE:* The challenge in Deep Research, of course, is you don't know what the right answer is. It's very useful if you're using it in a thing where you know the right answer.
+
+*You made this point, this tool's the most helpful if you are already an expert because it saves you time and you can identify the errors. But if you're not an expert, it's incredibly dangerous. I wrote about this a couple of weeks ago ( https://stratechery.com/2025/deep-research-and-knowledge-value/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2RlZXAtcmVzZWFyY2gtYW5kLWtub3dsZWRnZS12YWx1ZS8iXX0sImV4cCI6MTc0MzI0NTQ4OCwiaWF0IjoxNzQwNjUzNDg4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.TKkxP5JywwqVn4pJBl7k_IcWHJGD5-MHeew2Lru9psKRMt9Tf8V8mV7Fxno69-ykVquumL6POQYJVFra0SHS71fySoWP_MeoxEvOM2Whf4L9ckZ18hSeSnEuf87vkhxgeJ-Z4yuVv6TAXSC6ZkXsiv5CAVdl6UWYpL2vWEKbNprzqyaiY58PHkgTO_5yXSRgDP57wmmAlS1MNLgci-ZAJh6-H6j7NQq7mLoZnT6IKMr5Ey5bxRFqQ6Txid9F1tq-Lga-PM3D34sSGTzDHI4jrNkdCrPk9yFyx9jowNMIMXmmmJ8_l_M4tL3qrhyHVtkdi_-rKWC4qMLKhykzTv3tpQ ) , I asked for this report on an industry I happen to know a lot about, and Deep Research completely missed a big player because it was a private company, there was no listings about it even though anyone in the field would have known about it. You now have an unknown known, there's something that you think you know, but actually, you don't know. You've been convinced to be more ignorant.*
+
+*BE:* Yeah, listening to you talk, I'm reminded, actually, of one of these very old fallacies from engineers, which is to say, "The users have to learn how it works", which is the thing you see with open source over and over again or, "The users will have to learn". Of course you can say that, but the users won't learn and it's not the user's job to learn how it works. The more that you force people to have to understand how it works, the more you limit the potential adoption of it.
+
+Zooming back a little bit, something that I have in draft at the moment is that, if we think about where we've come in the last whatever it is, two and a bit years since GPT 3.5 launched, at the beginning of 2023, say, you could think there was a cluster of questions that would determine what was going to happen. How much will these scale? How big will the models get? How expensive will it be? What will happen to the error rates? What will reasoning be? Are there barriers to entry? Are there winner-takes-all effects? Is there enough data? You can make a list of a dozen questions, they all kind of link together.
+
+Out of that there's one possible output which is there's one computer that runs the whole world, and the other extreme is it ends up being like databases or indeed like machine learning in which if you were to say today, "How many databases are there?", that's just a meaningless question. What are you talking about?
+
+Since then, none of those questions have really been answered, except for the extent that it seems clear right now that these things are going to be commodities, although still quite expensive commodities. But anyone who's got a billion dollars can have one, you don't need a hundred billion dollars, and there's not a lot of winner-takes-all effect the way there was with smartphones. Anyone who's got $500 million or $100 million dollars, or something, pick a number, can have an outlet, can have a frontier model. But all the other questions, we don't know. We don't know what will happen to the error rate. We don't know how big the models will get or how long the scaling works.
+
+One of the things that kind of came out of that was, there's a path that says, you can just go to ChatGPT and say, "I want to move to Taiwan, how do I do that?", "I need to file my taxes in New York, London, and California, do it for me". And the model can go and read the right websites and ask you for a photograph of your bank statement and just make you the PDF and do it for you.
+
+*Grok is amazing at this ( https://stratechery.com/2025/grok-3-the-nvidia-shortcut-competitive-implications/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2dyb2stMy10aGUtbnZpZGlhLXNob3J0Y3V0LWNvbXBldGl0aXZlLWltcGxpY2F0aW9ucy8iXX0sImV4cCI6MTc0MzI0NTQ4OCwiaWF0IjoxNzQwNjUzNDg4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.rrMgUXUwXEiDvu7RIXGs0KQTbO6eozpAY3mlqXs26-TOLTaRXwQxJtHRuFeHQhWCjpKhHoBkpQSw8ZQ0fdH8LCUnLmTdEtgGjz4g6MxKXtHm4czx6k7SGcMs0NSSt8FNVDXEjAT7nIc2ZNe0J1TjoMlO7YcjHLb-X-JI2mepJB1Horjxh0k5GQ6e4gLrU_rF-T109Qlmb9zszWYEQDNrszSJabTdXresbAuzcK27bqIFnG5WTgp7uqRDhiU4ftSMcZCvQHs0nWK8iR-RPgHQkgtSVjKygblwtzprKPaK_xwbgQNFd9mvDVx4lZnnu2YicKUp-LWwIIeIY0da_GfgLA ) , by the way, that is the use case. I was looking into some estate planning tax stuff. Its level of detail, and this happens to be an area I've been talking to my tax person a lot about, so I have a pretty high confidence in the output, markedly different than previous models. It was the question where I felt, yeah, this is a bigger, better model in some respects.*
+
+*BE:* There's a challenge there, that's one outcome. The other outcome is to say a friend of mine is working on a company that does price comparison and he wants to be able to ingest all of your bills, because the idea is, if he could get all your bills, then he could save you $1,000 from things that you wouldn't bother doing if it was one at a time.
+
+Now, you can just take photographs of your bills or take a screenshot, and he can work out, "Oh, this is a gas bill", he can work out, "Oh, this is a credit card statement". He doesn't have to have an example of every credit card in the country and every gas utility in the country, he can just work out what all the bills are and then he can go to the user, "We think this is what the bill, is it right?", and they can say yes or no. But he's not worried about competition from ChatGPT, he's not worried that OpenAI are going to go build that. That's the path that machine learning took. There are thousands of companies that use machine learning somewhere inside, that's what databases are. How many database companies are there? WordPress is a database company, MasterCard is a database company, what is the meaning? It's a meaningless statement.
+
+That was the question you could ask at the beginning of '23, which is, can the model do the whole thing, or do you have to wrap it in lots of stuff and turn it into product like everything else? And here we are, two-and-a-half years later. We don't know, "Maybe". At the moment, it seems like no, and there's hundreds and hundreds of people creating companies that say, "No, you've got to wrap the LLM in an API call". But we still don't know, to your point, what is Grok's goal?
+
+LLM Paradigms
+
+*Yep. Well, I have a couple follow-up points on that. You said the bit before, and I think it's so striking that OpenAI themselves put a bad report on their website, one that missed the mark on multiple levels, and it does occur to me that what's so interesting about LLMs is they are probabilistic, not deterministic, and yet the actual guts of an LLM is just fairly impressive and complex, but quite straightforward math, matrix multiplication. And it's interesting because you go to deterministic computing running at a CPU, and what's the challenge that a lot of chip makers are having at these smaller and smaller sizes?*
+
+*BE:* They're running in quantum.
+
+*Exactly. It's probabilistic—*
+
+*BE:* It's funny, I thought about that the opposite direction, which is, at the moment, we have Moore's Law, except there's 10 Intels or 15 Intels — we have this torrent of papers. The thing that has happened in the last two years is we have these absolute torrent of papers and this explosion in complexity, $220 billion a data center last year, probably $300 billion this year, and all these analysts having a field day talking about water cooling and gigabit interconnects and all this kind of crap, which Intel, two-and-a-half years ago, nobody who didn't work at Google needed to care anything about it all. No one cares, the database gets faster, it's the bell curve of the low IQ thing. Then the guy at the bottom and the guy at the top says, computers get faster.
+
+*That's exactly right. It's a great use of the meme ( https://knowyourmeme.com/memes/iq-bell-curve-midwit ).*
+
+*BE:* And suddenly, there's this explosion of complexity in the data centers, and we have to know about it. You have to know chips, and there are all these papers. But I did this deck, I do this annual presentation ( https://www.ben-evans.com/presentations ) , and I ended my presentation, the section that talked about scaling, with a quote from the Godfather that says, "If history teaches you anything, it's that you can kill anybody", and I crossed out, "Kill anybody" and said, "Commodity computing tends to get cheap". You've got all of this complexity in the creation of the models and the data center and everything else, and yet, I don't know, I look at Grok and I think, okay, in less than two years, you managed to produce a state-of-the-art model. Is that really, really good or really, really bad?
+
+*That's bearish for model creation.*
+
+*BE:* That is not as positive as you think. Yes, they're a great team, and well done for building a 100,000 GPU cluster, but what this tell us is it's a commodity.
+
+*Well, Grok is the inverse of DeepSeek, which is — you can understand why US AI tech companies weren't spending time on heavy optimizations and driving to these deep efficiencies because from just an opportunity cost perspective, they're able to just buy Nvidia chips and get it to work. So if they got the money, why not? Why waste time? Go straight there.*
+
+*But to go back to the deterministic/probabilistic bit and your example on the OpenAI website, it seems likely that — and you talk about this, I've talked about this, I think we're totally on the same page here, which is when truly revolutionary paradigms come along, the first version that people build is just trying to redo what came before, and that usually ends up being totally wrong. The analogy I always do is advertisements next to content on the Internet. No, actually, we needed to invent the feed first, and suddenly, advertising made a ton of sense. In this case, I think it's possible that the people who create AI are the single most unqualified people in the world to be discovering AI use cases, just because the sort of logic and math and deterministic thinking that undergirds the models is totally counter to the actual use cases that the models are good for, which is probabilistic. And another point I always make is hallucinations is a mean way to say creativity, it's really the same thing.*
+
+*BE:* It is. Well, creativity is also an interesting place that we could take the conversation. But no, it has struck me that every time a model company shows a new model, there's always this urge to go and show you code.
+
+*Yep.*
+
+*BE:* It's good for coding. Which is also funny in the sense that if these models are going to get to the point that — this model means that it can do the whole thing for you and no one will need to write their own software anymore. And look, it's really good at writing code. Wait, which is it? It seems to me, yes, clearly, the two places it has product-market fit are coding and marketing. Coding because it's easy to see the mistakes and marketing because it's easy to see the mistakes, and often, there aren't really any wrong answers, and you need to generate lots of new, random ideas all the time at great scale. Law, on the other hand, every month or so, another lawyer gets himself into terrible trouble by producing something-
+
+*(laughing) Yeah, for citing a case that doesn't exist.*
+
+*BE:* — because it looks like a good precedent. Whereas if you're a marketer, that looks like a good tagline, it is a good tagline.
+
+*Why not?*
+
+*BE:* There's no difference, that's what that means. But yeah, I think you can extend this to the doomers, where it was clear that the people who were thinking this stuff is going to take over the world in the next three months just had no conception of how the world worked outside of their shared group house in the Berkeley Hills. The puzzle and the analogy I always used to give, looking at, going back to talking about use cases, is imagine the first people seeing VisiCalc, the first spreadsheet in the late '70s ( https://en.wikipedia.org/wiki/VisiCalc ).
+
+*Yep.*
+
+*BE:* So if you saw this and you were an accountant, it blew your mind because the line is like you change the interest rate here and all the other numbers on the spreadsheet change.
+
+*Yep. [John] Gruber and I were just talking about this the other day ( https://dithering.passport.online/member/episode/old-men-on-the-porch ) , and you could watch it change!*
+
+*BE:* You say that now and people now are like, "Yes…?", but back then you did spreadsheets on paper with a pencil and so if you're an accountant, you have to have this. Certainly, you can look up the pricing of the Apple II that you needed to run VisiCalc, the full setup with a floppy drive and a printer and a monitor was like 15 grand adjusted for inflation. But if you were a lawyer and you see it, you think, "Well, that's great, my accountant should see this, but that's not what I do all day".
+
+*Yep.*
+
+*BE:* Now, show me a word processor that can do word counts and footnotes and line numbers. That, I will pay for, that solves a problem that I have. And the challenge of the text box and the blinking cursor is either you really know you've got a problem that it solves, which is coding and marketing, or you're the kind of person that's instinctively looking for tools to solve things in their company, which is the bottom-up IT adoption and it's no coding and everything else, but that's a very small portion of the population.
+
+And then it's everybody else who didn't see that they had that problem until an enterprise SaaS company came and showed them that they were spending three hours a week on it and sold them something for 10 grand a seat to fix it. Otherwise, you've got this prompt. What do I do with it?
+
+*I completely agree with you and this is where one of the analogies I've been thinking about is going back to the first — arguably the greatest direct job displacement in IT ( https://stratechery.com/2024/enterprise-philosophy-and-the-first-wave-of-ai/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2VudGVycHJpc2UtcGhpbG9zb3BoeS1hbmQtdGhlLWZpcnN0LXdhdmUtb2YtYWkvIl19LCJleHAiOjE3NDMyNDU0ODgsImlhdCI6MTc0MDY1MzQ4OCwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.Ka0GrfD-yxEGsD8VQ4d8rzQGnKgXkkwagUZcMBfb53qgeHAjtMiAnjd-vdA7lybj8YysxC1foLFJ3FNTS7M3EQb9hYUv8fCw4XCB3DZ5LYYB1g44HvDfwOyZLWgNADSjqjyK0-XHNpamJNhRvr71ACPju8Qgo4-LIzUlFLAyWVeVIvOV570xCRe5BwRQGfuItmanbvw99By_0jtJpRykQAQ69wmqPhJsH3brrhyVh889Kc0BqokHDtLhGsr7DjrXfmcQBPqPuT1s2mufi1Kyq7WY46jSGv3fwmKgCbTOqPEEOFUXQWMO3jm-H8eKqabUwpA8BGwQTN5S7m8utAbdXg ) was actually the first mainframes, where it's just like, "Okay, we don't need an entire backroom of bookkeepers, we don't need an entire backroom of ERP trackers, we can just do it on a computer", and it was like a one-to-one replacement. What's interesting about this is right now, AI is a bottoms-up phenomenon because you need so much agency to go out and find a way to use this, and because the model doesn't learn, you have to learn how to use the model. It's like people wanting to bring PCs to work in the late '70s, and it's like, "What are you trying to do here?".*
+
+*BE:* And if you look at what these people were doing, all the books and magazines at the time were, "You should learn to code. Or at a minimum, you need to buy a database software program". So it wasn't you buy Quicken, it's you buy a database plus software program and you make your own Quicken by yourself.
+
+*That's such a great point, it's the same thing it was with code. That was the thing at the beginning and you can do something yourself, it's an excellent point. But it does make me think that if you're a top-down decision maker, you can, number one, decide that the cost-benefit is worth actually removing an entire category or entire department. And number two, you can tolerate the error rate because you'll do a cost-benefit analysis that says, "Okay, I'm at X percent error rate, this is going to cost me Y amount of money. How does that balance versus this collection of humans who are also going to make X amount of errors and cost me Y amount of money?" And you go in and you just shift people out and that is actually going to be a more meaningful change or where it's going to start. It's going to be less about getting people to fundamentally change how they work and more about, "You know what? We can do it good enough with AI for this whole category of work. Sorry, you guys are laid off".*
+
+*BE:* Yeah, I think it depends. And if you go back and think about how the last waves of automated enterprise software worked, whether it's SaaS or on-prem or whatever, there's two or three things here. So one of them is you don't just replace a whole department with one piece of software.
+
+*No, not now. I'm talking about back in the '70s.*
+
+*BE:* Yeah. But the other part of that is that didn't result in fewer white-collar workers or fewer accountants. Excel didn't result in fewer accountants. I mean, my joke was always that, young people won't believe this, but before Excel, investment bankers worked really long hours. Now they can get their work finished at lunchtime on Fridays and go home to The Hamptons. And of course, that's not what happened.
+
+Well, why is it that that isn't what happened? I think, and it comes back to what I was saying earlier, the base case here is that you work in invoice processing and now you have a new piece of software that's better at resolving failed invoice payments, and that is worth X-hundred thousand dollars a year to your company, and so they come out and they buy this piece of software. Or it's a feature that gets added to their existing software or it plugs into SAP or Salesforce or Oracle or whatever it is, and it's that piece of software and today, the typical big company has 400 or 500 SaaS applications, maybe more. And the HR team, account department has 45 different applications, there's the German tax planning thing, and there's the thing that manages stock options, and there's the thing that manages training for new recruits, and the thing that makes sure that everybody's taking their compliance exam, and the other thing that makes sure everyone's done their compliance exam, and the training thing, and you just keep adding these all up. And they all find value and they all find budget and they all move costs from one place to another and the big company has 400 or 500 other new things.
+
+The base case is that generative AI will be another 400 or 500 of these, and it will replace half of them, and it will double the value of the other half. 250 of them will get killed and 250 of them will get a bunch of new features and there'll be another 250 of them on top, and now you'll have 750 or 1,000 new applications in this company and there will be bits of LLM scattered all the way through them just as there's bits of machine learning scattered all the way through them, just as there's databases scattered all the way through them. It will just be kind of a building block in making software. Does that mean that there's less net employment or does that just mean that a bunch of jobs go away and get replaced by new jobs?
+
+*Oh, yeah, I'm with you. I'm with you on that particular employment question. I just think when it comes to actually — all those people in the backroom who were doing accounting had skills that were very transferable, particularly once Excel came along, I'm with you. But I do wonder if there's some degree of "Why not both?" in this aspect, where all the things you're talking about, for a lot of existing applications, it may just be that LLMs are just a better user interface for accessing databases and deterministic computing. And again, the problem is does it know what it doesn't know and know where to go is an open one.*
+
+*But I suspect, and this probably has some bearing on is there a bubble or what's going to happen, that it's so fundamentally different, and a point you keep coming back to again and again, this type of computing, this being probabilistic computing is just so different that even today, years in, we don't have visibility into the key use cases. If you went to 1996, 1997 and said the entire future of the Internet is the feed, people wouldn't know what you were talking about. Like a BBS forum ( https://en.wikipedia.org/wiki/Bulletin_board_system ) ? No, it's not going to be in chronological order, it's going to be algorithmically ranked, it's going to be personalized to every single person, and that's actually the entire foundation of the consumer Internet is the algorithmic, individualized feed, but no one could imagine it years into the Internet, and I wouldn't be surprised if in 2040 or 2045, there's this explosion in entirely new categories of applications we can't think of, that if we went back to this podcast conversation, it'd be like, "Man, you guys had no idea".*
+
+*BE:* There's two interesting, supposed to be interesting things in this. One of them is, on the one level, yes, you never know what the new thing's going to get used for. And generally, when you get the new thing, you start by fitting it into what you already do, you make the new tool fit your existing work, you print out your email list, and then over time, you change the way you run your business around it and then maybe people will come and unbundle you or compete with you or break your business apart. And every now and then, someone comes and redefines the whole market and changes what it means to say — Uber changes what it means to say taxi, Airbnb changes what it means to say hotel — and depending on where you are and what kind of industry you're in, that might just be that you're using new software now or it might be that your company doesn't exist.
+
+*Right.*
+
+*BE:* This is a much bigger deal if you're in the accounting industry than if you're in the cement industry.
+
+*It's a great thing if you're in the cement industry, data centers need foundations.*
+
+*BE:* Well, if you're in the cement industry, this probably means you're using new software.
+
+*Yep.*
+
+*BE:* If you're in the accounting industry, this changes the whole nature of your industry, so that's one observation.
+
+The second observation would be — yes, you don't know what those changes will be, you don't know how it is, what all the new things it will be, you start by doing what you already know you need to do. And then over time, you realize there's new things you can do with this, which is your point about feeds, and you could say the same thing about the emergence of Instagram and online dating, all the stuff that happened that wasn't obvious at the time.
+
+However, I think there's a completely opposite point, which is equally interesting, about how new this is or how different this is, which is that if you're looking at the Internet in 1995, you kind of knew how fast computers were and how fast they'd be in like five years, and you knew how many people had broadband, and you had a pretty good sense — you could plot a line on a chart of how many people are going to have broadband and how fast, on a three to five-year view and you kind of knew how much PCs cost, and you knew what annual PC sales were, and you could make a guess that, okay, this is going to mean that PC sales quadruple and everyone will go out and buy a PC, which is more or less what happened, and you knew how many middle-class households there were in America, so you kind of knew what the PC market could, in principle, do. The same thing with smartphones, you knew how fast 3G was, you knew how fast 4G was, you knew how fast the chips were.
+
+What I was getting at is, with LLMs, we don't know that. We don't know what that roadmap is for the fundamental technical capabilities of the thing, which is different to anything from the web to flight or cars. We weren't looking at a smartphone and saying, "Well, this is where we are today, but maybe in two or three years, it will be able to unroll and fill the whole wall, or maybe it'll have a year's battery life". You kind of knew what the really basic core physics constraints were, and we don't know that for this stuff.
+
+*Well, especially with this accuracy point. Daniel Gross made this point a few weeks ago too ( https://stratechery.com/2025/an-interview-with-daniel-gross-and-nat-friedman-about-models-margins-and-moats/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2FuLWludGVydmlldy13aXRoLWRhbmllbC1ncm9zcy1hbmQtbmF0LWZyaWVkbWFuLWFib3V0LW1vZGVscy1tYXJnaW5zLWFuZC1tb2F0cy8iXX0sImV4cCI6MTc0MzI0NTQ4OCwiaWF0IjoxNzQwNjUzNDg4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.fSfy-y0QptfTbxU-NCKKwgduJuQIAYMGblzoUO1zRxYVKFOduSB3BR1T1hSIU0I_zX4RIawngv16jJ6NQtQalA2t5tXTgigqzs-zqNJGjOLF7YADoL6Jmb83j02lrMR7QwK_hqCFghaQ_ncztfANi3PmYKm5tqAn3BTj66xJJvMqew_7HrKuCqKNcxyvyPFYZSEr-YgQGC5YHneiY3qhW017LAck3eYTktJpiIFMhGOsOXvb-KgciMrUXzLa2wFV-pSUShMTl0yBIYBNZpNmb70R8552GITen9REadsMmLoqVavw8J4vjeYAiBc6NYlmIe8z1RACH6o9j9JuApRmNg ) , I think it's really profound, that there's just a really stark fundamental difference between 100% accuracy and 99% accuracy.*
+
+*BE:* Well, this is a problem with saying "better" models. What do you mean "better"? Do you mean it was 82 and now it's 83? Or do you mean it was 80 and now it's 100 and it will always be 100? That's a completely different thing.
+
+AI UI
+
+*So you concluded by assuming that models are a commodity ( https://stratechery.com/2025/microsoft-earnings-meta-earnings/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L21pY3Jvc29mdC1lYXJuaW5ncy1tZXRhLWVhcm5pbmdzLyJdfSwiZXhwIjoxNzQzMjQ1NDg4LCJpYXQiOjE3NDA2NTM0ODgsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.Gswp65LViM8BKlB_YzCNAyRXBzslrelIrQYDD4F6X9X0y4XTY4-TenDVjQkL09UbhTP19a9Tuq-ov5gS0gsMl4DDwo_OU110woI5GxV5dLJCLIYdwXm2Rhlk2-RsPTQChjqXVwHcXFGPSAvguSebt95Xeb0EvHiBUtLtyi7IbDiL1V-a2tMetYr8kXnv73dzR9Y0HWHl8goSd2X8PXOoCyu07KaCJcs5E1z2SfpO54UqnNxDvO8SzxnhAuhTTFO_qehf-ICzAthJ6371RZto32VJSSjmEW5FpN1KAkfYtlw1tRcAqEtrUzmFdJqMTVhf_R88p6GZNEd5Ld2XKhEKWg ) , that was an open question, I think it might've been an open question, we were talking about it last year. Now it seems the consensus is that they are. Are you surprised that we've ended up in this position?*
+
+*BE:* Not really, no, because the technology was open, the data was — you can have opinions about where the data came from. What was the Bill Gates line that Steve Jobs accused Bill Gates of ripping him off and Bill said, "You know, Steve, the way I see it is we both had this rich neighbor called Xerox and you broke in and stole the TV and I stole the refrigerator". But yeah, the data is the data, the chip for the chips. Clearly, there's a moat around Nvidia, at least for now, although one can speculate about at what point these models can run on our phones, but the models themselves seem to be a commodity.
+
+Now I think you could hypothesize that this will play out a little bit like microchips, where eventually, there's only one company that can make the best chips just because it's so expensive. But when we've got DeepSeek and everything else pointing in the opposite direction that says no, the model — clearly what's happening is the cost of a model to deliver any given result is collapsing. But in parallel, the maximum that you can possibly get out of a model keeps accelerating upwards, so you've got these curves pushing in opposite directions.
+
+Just picking up on something you said earlier that I wrote down to bring up is one of the framings I have is, does the model sit at the top and run everything else or do you wrap the model underneath as an API call inside traditional software? So is the right response to let ChatGPT talk to Booking.com and Salesforce and the IRS and have it go and talk to these trusted deterministic sources and control them, or do you put it inside a piece of software? Do you put the LLM inside QuickBooks and have QuickBooks and QuickBooks is a piece of deterministic software that understands what LLMs are and frames it and controls it and filters it and manages it and handles the error rate, which is also a point about — you talked earlier about CIOs talking about the cost of the error rate. One way that you manage the cost of the error rate is to say, well, it's wrong 3% of the time, and this is what that's called, the other way to manage it is to wrap it inside traditional software so that that error rate doesn't translate into a 3% cost. It translates into suggestions, and corrections, and filtering.
+
+*My sense is AI LLMs are really compelling at the interface layer in the long run. I think about this not just in the context of chatbots, but to me, generative AI is the key to things ( https://stratechery.com/2024/the-gen-ai-bridge-to-the-future/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L3RoZS1nZW4tYWktYnJpZGdlLXRvLXRoZS1mdXR1cmUvIl19LCJleHAiOjE3NDMyNDU0ODgsImlhdCI6MTc0MDY1MzQ4OCwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.lDNQ2ScgcXaf2X8eQPrzCIIOH1nFhiDoS1eX2wKFrknExtKalzaHCnGoa8EjQ41UmgAJMJZxjlEAm559fFnL0nDkPZJ9Yhe-0TD4x5GQmRIRdklfCv1G3OM_A_8up3DiEWIYV2E9MGYgA5QVvuAp_S9HeAZbappnNeySD2iHYXFZcHMpxpBJV1fpUgiEBTNFg3fjEy8U0pB3m8RSvBkjqoqM-TlPtCF5HyrFknP2O0vJtb_1JEgV2W81UXnIkaVhW2kvPZ3BWJQKerwf_NilfdOUfp0ywrQlr4R2_vN40qFPrAqnUGmU6G7ceaRJ1Z5laflBravX6GWw94vayi5lRg ) like — you've talked about it's a winter here — but AR, when you're walking around, if you have those Orion glasses ( https://stratechery.com/2024/more-on-orion-where-vision-pro-went-wrong-apples-response-and-metas-motivation/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L21vcmUtb24tb3Jpb24td2hlcmUtdmlzaW9uLXByby13ZW50LXdyb25nLWFwcGxlcy1yZXNwb25zZS1hbmQtbWV0YXMtbW90aXZhdGlvbi8iXX0sImV4cCI6MTc0MzI0NTQ4OCwiaWF0IjoxNzQwNjUzNDg4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.sB4cLpFq7Vp-BB76xxy70F-YJAlzpPE12Vwh0UnV98UEid_WDhe0-0OD4lUxwcr6kMh5ChjLR8rqCD8NQty7QxiI8UiaNKUQBa8QeoAwbA17mnh6MVQ2IEvH6QTlKMXzh6Uk5fHAaeEn3UCfJrRKgg3wvVeaywFy1cfZNuZmJpUfJICLYSuNhCD2yNdgM0o1UM5_fnggFBB-ONwSMm47pz8MCdzUp2OWLlrwkqWCDdf_RJxUaBOuVEMVOWLAZTKk5v_UrjiMAHAzFTo5_MvL8_lIjgIqRNig0PHfJH576T6oF2eGI_3tLosiilpG-lRX4vn4vchpWVBNQ7t47us7Xg ) on, you don't want an interface in front of you. What you want is you want an on-demand interface that surfaces exactly what you need in the context that you want it so you can interact with it and get rid of it. That is generative, but it's going down to a database, and I think that that makes more sense in the long run, which I think is, this is the defense for OpenAI, which is they have so much consumer market share, they're not really an API business, unlike Anthropic, and that is going to be the layer that is the most important.*
+
+*BE:* There's certainly a brand story here, and it's sort of notable that OpenAI ( https://openai.com/index/openai-welcomes-cfo-cpo/ ) and Anthropic have both hired ( https://www.anthropic.com/news/mike-krieger-joins-anthropic ) heads of Instagram to run their product. I just think, and I sort of said this a year ago, I feel like they've gone to market ahead of product-market fit. I feel like the prompt looks like a product but isn't, or it's only a product for certain segments, and certain kinds of people, and certain use cases.
+
+*Homework ( https://stratechery.com/2022/ai-homework/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL2FpLWhvbWV3b3JrLyJdfSwiZXhwIjoxNzQzMjQ1NDg4LCJpYXQiOjE3NDA2NTM0ODgsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.HMXBvMdIepIC1Fz4-sPd0Nu8h40laTAeMongZVWcBDTNWBLKg5SOEcWeOZBfyjNJHNLy8qLHwM4iJRmP8E8Zh4OgJrtH8WfGNZd-FqRd0Gjz1zi9-827tbJVJpueLntYw4NxdgVm1eyjTo9zaeXMLtbw79FbEX74rx-FrVhN4ZYGUM-YkEJOA_Ph8mXu3_qpC8dV55Rx8dmJK9bZuhT0A11ImQqizKOeVI-RDvXT4UqBRj5lKrA9Fu2j11h4eAi-LetBqWXhgotJbwmrF_MFup08kGBpnySYwoweKL4L_7iCHI__BbYB1_UU7kuvIpm6e2w1hNGDBD4sQcs0g-phbQ ).*
+
+*BE:* Yeah, maybe. There's going to be those 500 or 1,000 companies that wrap the prompt in something else, or the prompt gets kind of narrowly constrained. So it's a prompt on a screen inside somewhere, inside Salesforce, and the prompt only gets applied to questions within that, as opposed to you turning the computer on, and it's saying, "Hello, what would you like to do today?", one of the ways I think about GUIs is in one sense, the GUI is a way of surfacing what the computer can do, that you don't have to memorize commands. But the other thing is that the GUI is the sort of instantiation of a lot of institutional knowledge about what the user should be doing here, you know?
+
+*That's a great point.*
+
+*BE:* The UI, the point of the GUI is not just that it's surface showing you every feature that software people have built. The point of it, it's always you start from the other end, that the UI is people sitting down and thinking, "Well, what problems do we want to solve here, and what options do we want to give the user? What do we want them to be able to do here?". Okay, they'll build buttons for those things, and then build code behind the buttons, so we have to do that.
+
+Obviously, this is like the Apple approach to software versus the Linux approach to software. Linux approach, you start with the tech and then put buttons on the front. The Apple approach, you start with the buttons and then build the tech behind it. But if you use Salesforce, or SAP, or any piece of enterprise software, the stuff that's on the screen is not there because they've got all these features and they need to put buttons on the screen to let you use the features. Stuff that's on the screen is there because they decided those are the things that you should be able to do right now, and if you just replace that with a prompt, then the user's got no idea what they're supposed to be doing.
+
+*Yep.*
+
+*BE:* Or anyway, the user's got to sit down, and shut their eyes, and get a pencil on paper, and try and make a list of notes that will — it's funny, it's almost like, I'm just old enough to have kind of seen command line only computers but not really used them, and you would have these cardboard overlays that you put onto your keyboard that told you all the keyboard commands so you would know what you could do.
+
+*I had one of those for Photoshop back in the day, but a similar concept. Yeah.*
+
+*BE:* And just kind of think, well, if you go to the people at Dunder Mifflin from The Office and say, "Guess what? We're getting rid of SAP and instead you've just got ChatGPT", and it's connected to SAP behind the scenes, and so now they're just a blinking cursor and just imagine like Fat Keith ( https://theoffice.fandom.com/wiki/Keith_Bishop ) or Dwight ( https://theoffice.fandom.com/wiki/Dwight_Schrute ) sitting on a blank screen with a blinking cursor and they've just got to type what they want to do. I feel like it's the entrepreneur's job and it's a software company's job to work out what the thing should be on the screen, and I absolutely take your point about interface, but I tend to think about that in terms of I can have things that maybe couldn't be database queries. It's my point, I can ask it, "What's a good thing to take on a picnic?".
+
+*It's such a great insight. The bit about part of the UI is to guide the user, that's really, really good.*
+
+Commoditization and Differentiation
+
+*I want to go back one question on the intern bit and one concern, and this has been very clear to me, is something like Deep Research is really, really good for areas I know a lot about, because I can catch the error rates or the errors, I know what's not there and it just saves me a lot of time. I could go around and I could do Google searches and follow links and figure out in a few hours, but if you can get me good enough surface information in 15 minutes, that's wonderful. The question then is, where do the next version, the next experts come from? Where do the next generation of analysts come from?*
+
+*You also wrote an article a couple of weeks ago or a couple of months ago about the death of the link ( https://mailchi.mp/adde0fc5d65e/benedicts-newsletter-1211185?e=44f11efa6d ) and how LLMs just give you the answer, unlike a Google, which there was a two-way relationship. Yes, we're pulling the information from you, but we're also giving you traffic. So there is a payoff here and there is an incentive for you to keep creating stuff. Is it just intrinsic to AIs, whether in the case of analysts or in the case of web pages, where it's a one-time harvest and there's a real paucity in terms of seeding what's next.*
+
+*BE:* I think you're talking about two slightly different things. One of them is getting the data from the Internet. The other is where are the next generation of the people who spend the first three years of their job being paid to learn? If you can just have it and I'm doing that, then what happens? I mean I get the theoretical point there. I'm a little bit skeptical because I feel like haven't we done that 10 times before. I mean, remember when Hollywood agencies, the model was, you started out working in the mail room. I didn't think they have a mail room anymore, somehow they're still Hollywood agents.
+
+*Yeah, good point.*
+
+*BE:* It used to be that you would start out as a grunt in an investment bank typing data in from printed out company reports, and now you just hit three buttons in Bloomberg and there's the data in the spreadsheet and yet somehow it's still, it is my point about investment banking, now Excel can calculate the model for you. Okay, that doesn't mean you have fewer juniors, it means you have more. They might not be, probably be in a different place, so there was an old joke that it used to be that we could send our juniors to the deli and now our juniors are in Delhi, in a different place.
+
+*The other thing building on this too is because of the Internet, there's so much leverage and scale that does come from an analyst. You and I have readers all over the world when it used to be, every bank had its own analyst and every hedge fund and that's all they had. It's like the newspaper columnist, every city had a newspaper columnist, now there's a few columnists that can reach everyone. So it's not that it went away, it was just the power curves, power curve through everything and that'll continue to be the case.*
+
+*BE:* Yeah, it kind of moved, the value moves somewhere else and so the value of simply having built a spreadsheet that tells you what next year's cash flow is probably going to be is now zero. That kind of value of that kind of analysis went to zero.
+
+The thing you mentioned, where I wrote something about the death of the links, this was a column in my newsletter ( https://www.ben-evans.com/newsletter ) , and the thing that I was looking at this was thinking, "Well, okay, I go and take photographs of my fridge and it says make tomato soup", okay. If you are one of the people who is one of the 10 million people who put a tomato soup recipe on the Internet, well sorry, but if your content is sufficiently generic that it can easily be replicated and cloned and synthesized by this stuff you have a problem.
+
+Let me put it another way: it's like before the Internet there was this very constrained amount of content and the Internet is permissionless innovation. It's decentralized and millions of people can put stuff up online and make a little bit of money or get a little bit of attention, a lot of money, a lot of attention depending on what they're doing. But if what you're doing is fundamentally generic and you are making, and the reason you exist, is that publishing is free, and there's an arbitrage between traffic acquisition and advertising, well now those economics have shifted to another place and you don't have a fundamental right to have that traffic any more. Another comparison we could have would be newspapers complaining that classified ads went away. Well, they didn't have some sort of God-given right to have that money. The away it went, sorry, it's gone somewhere else now to somewhere more efficient, and if I want a tomato soup recipe, is it bad that Google will just tell me the tomato soup recipe? Well, if you're in the business of selling, I'm being deliberately and unfairly reductive because it's not just about tomato soup recipes.
+
+*The reality is if all the recipes are in the world are cut in half, we'll be just fine.*
+
+*BE:* Well I suppose what I'm getting at is that the Internet has, the nature of the Internet means that there is an enormous amount of more or less undifferentiated stuff out there that could exist and could get some attention and maybe some money because of the scale of the Internet, and now an enormous amount of that is going to get ingested, synthesized, or just replaced, and maybe it isn't even that it is your tomato soup recipe that's being synthesized. It's just we don't need a hundred thousand tour guides in Barcelona anymore.
+
+It's almost like, well, what would happen if Google never had more than 10 of their links? We kind of effectively know that's kind of true anyway. No one ever goes to the second page, but what I'm kind of circling around is on this sense of what do LLMs do to content, is if your content is that easy to replicate, that people will prefer a system that tells you what is the average of what all the average people would probably say about this, then it probably wasn't worth very much.
+
+*Yep.*
+
+*BE:* What gets more interesting and more unique is what when you are saying something that's different, and maybe this is, we should go and talk about creativity, because creativity is in a sense, is doing something which scores wrong in a machine learning system. You are doing something that's wrong that doesn't match the pattern, but doesn't match the pattern in a good way.
+
+*And so all this push to make the LLMs less error-prone and more accurate is, if you squint, indistinguishable from squashing out, we've got to get Galileo out of the system ( https://en.wikipedia.org/wiki/Galileo_affair ) , he's hallucinating.*
+
+*BE:* So I was thinking about AlphaGo ( https://en.wikipedia.org/wiki/AlphaGo ) here because what AlphaGo does is it plays the game a bunch of times and it has a score every time it plays the game. So I'm simplifying a lot, but basically it tries random moves and see which game rules win and so it's got an internal scoring system to work out what's good. So it can do moves that Go players say are novel and no one's ever done stuff like that before, but it knows that they're both novel and good because it can see that they win.
+
+*Yep.*
+
+*BE:* The problem with an LLM is that the only scoring system it has at the moment is, "Does it match what people have already done?". An LLM is a Mechanical Turk ( https://en.wikipedia.org/wiki/Mechanical_Turk ) , AlphaGo is not a Mechanical Turk. AlphaGo has got a scoring system, whereas your Facebook feed or your TikTok feed or Google search or an LLM is a Mechanical Turk. What it's actually working, the way it works is it aggregates, synthesizes the sum of billions of human interactions.
+
+I think it was a story that the original idea for the plot for the Matrix was that the people would collectively be the compute, which makes much more sense than the people being some kind of battery, which doesn't make any sense, you only need to know anything about physics to think, "Well that doesn't, I don't understand that", but the idea was that all the human brains collectively were the brain that was running the Matrix, which makes much more sense. That's clearly how Google works, that's how Instagram works, that's how TikTok works; they're aggregating what people do and this is what LLMs do. They aggregate what people do and the problem is that they don't have an internal scoring system to say this isn't what people do, but people would like it.
+
+*What do people complain about with the Internet? It's the sense that culture's stuck, it's been stuck for 20, 25 years. That aligns with the Internet because it has this leveling effect.*
+
+*BE:* No, I think that just aligns with getting old.
+
+*(laughing) Yeah, probably, it's a good point.*
+
+*BE:* I think that just get along with getting old and not using TikTok, all culture sucks after you turn 25.
+
+*Okay, very fair point, very fair point.*
+
+China AI
+
+*We're a month on from DeepSeek. How did that change any of your views about this space in general, or is it kind of in the end, you had that quote, you said that "commodity tech goes to marginal cost", that was in your deck last year. You wrote that before DeepSeek, so was it just a confirmation of what you expected?*
+
+*BE:* It's funny. Actually, a friend of mine said this was the most over-commented story he could remember.
+
+*I think so!*
+
+*BE:* And I think what it did was it made lots of things clear. I was trying to come up with a quote that would sound like something that Voltaire would say, that there was a line that Charles Talleyrand said about the Congress of Vienna, said the Congress doesn't advance, it dances. So there's a line here somewhere, what DeepSeek did was it just didn't show anything, it didn't do anything, it showed, so you see what I'm getting at?
+
+*It showed models are commodities.*
+
+*BE:* It showed stuff that we kind of all already knew, which was that the models are basically a commodity in that anyone with clearly not $5 million, but a couple of hundred million can make one, and there's a lot of people with a couple of hundred million now.
+
+Back when Microsoft launched, there were like something between 50 and 75 million PCs on the entire planet. Microsoft was a small company, Microsoft didn't get into the Fortune 100 until after 2000. Today, there's a lot of people in tech. You've got a couple of hundred million dollars, so there's a lot of people can make a model.
+
+It showed us that this old California idea that all China does is copy was wrong and you've got the people talking about distillation, which kind of missed the point. You've got the observation that there is this very concentrated public markets trading Nvidia because how else do you buy AI?
+
+*If you zoom out, if you knew China, you really understood this market, it's not really a surprise.*
+
+*BE:* Yeah, of course. And you knew that there's a Qwen model ( https://huggingface.co/Qwen ) and there was Alibaba and you knew that there was a lot of Nvidia GPUs in China.
+
+*The Qwen model has been quite good and to your point, you wrote about when V3 came out over Christmas, you actually had mentioned DeepSeek months ago and so it was just weird that why was it R1 in this specific moment in time?*
+
+*BE:* It was also funny that R1 wasn't the cheap one. It was the one that came out in December that was the one that they said cost $5 million. The R1 model, they didn't even say what it cost and yes, it wasn't really $5 million, but I mean it was and then it wasn't. But the one that came out that triggered the share price collapse is wasn't the one that they'd said was cheap.
+
+*Yep.*
+
+*BE:* So there was a sort of irrational exuberance, or irrational pessimism around that, which just sort of gives you a sense of how frothy the market is at the moment. But no, DeepSeek of itself, I think someone called it the Sputnik moment ( https://x.com/pmarca/status/1883640142591853011 ) , which is, I mean Sputnik by itself did nothing. It was a beeper, but it showed that America wasn't going to be the only people to do this, but that wasn't quite so obvious back then.
+
+This was like, of course, there's going to be dozens of these things. It showed how stupid the doomers were, among other things, for thinking that somehow you could control how many models there were going to be. It showed how stupid the Biden AI policy was ( https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence ) , of trying the idea that somehow somebody in Washington, DC could decide who was going to have an AI model. It showed how stupid the EU AI thing was ( https://artificialintelligenceact.eu/ ) , which, I think I should probably have checked my math, but as far as I can work out, DeepSeek is three times the threshold for a systemically dangerous model, DeepSeek R1. This is three times the EU threshold for a systemically dangerous model. I'm like, "So if I download, if I buy a gold level Mac Pro, MacBook Pro, and download this, and run it, do I need to get a lawyer in Brussels?" What does this mean?
+
+*I'm talking to a criminal! I can't believe it. Where are you at, as far as chip controls? I just wrote today ( https://stratechery.com/2025/ai-promise-and-chip-precariousness/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2FpLXByb21pc2UtYW5kLWNoaXAtcHJlY2FyaW91c25lc3MvIl19LCJleHAiOjE3NDMyNDU0ODgsImlhdCI6MTc0MDY1MzQ4OCwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.ZG85892F3vuOq51gVod7OpfVEcBk_P7ZCprqGF2HWrrJKh5GM0CSPZxw4oBdvjoAVSuvdKE4djHkRFnipK4FDQobtyLZ5iqCPMfIw_F7ID_B2wLT5jyix96GsGslIg0ZkaKAjOVYsfQ049_ED3khQH4DvxPnnra09EcQERO2cOCw8QrW7WtBcmD3vRXNCdW2_mgQBxWpRmOuXNc_mB-Hybgye6J3Gl3HWR4xhamLR-ZJ_1jhCyF9Thg6CbwjKY5alBNShrR136IAddRycxVmbtzKv9LoT4pQ8Do_cGjiU5n15tRYnGCv_JkSLLwiKPxgF699b-cmam-VWT-H_jm2Vg ) , "I think they need to go away, I don't think people have fully played through the game theory of what this means for Taiwan." DeepSeek is good enough, [Huawei] Ascend chips are good enough, they're not the best, but we're creating a situation where China is self-sufficient and we're dependent on Taiwan, and that's a very dangerous spot to be. We should want China dependent on Taiwan, and we're not going to keep AI to ourselves, anyway.*
+
+*BE:* Oh, there's a bunch of geopolitical questions in here with the US President clearly signaling ( https://apnews.com/article/un-russia-ukraine-war-resolution-trump-zelenskyy-cde221e5850196776525403e788c272c ) an end to the concept of a rules-based society, in which you don't just invade other people, because you can and you want to, and I don't think that's a politically a partisan statement, that's just a factual observation of the theory.
+
+*That's why I'm writing about this, because it's very pertinent.*
+
+*BE:* And does China invade Taiwan, or keep the status quo? That's not a tech analyst question to me. Clearly, it is a geopolitical concern, that the way that the tech industry-
+
+*But it's a tech industry concern.*
+
+*BE:* The way the tech industry resolved is that there's only one company that makes cutting edge chips, and it's under the guns of the Chinese government, and that's not a politically stable situation.
+
+I'm not sure, I don't have a very strong view on chips in general. I mean, we may have talked about this last time we had this conversation, but one of the ways I think about what I choose to write about, is the sort of a Venn diagram of, "What is it that I feel I have a good understanding of, or could get to having a good understanding of", fields where there are important interesting questions where I feel that I could apply some leverage, and answer the questions in a different way, and say stuff that other people aren't saying, for whatever reason. And fields where there are people who are going to pay me to go and fly to their event, or their board meeting, whatever, and talk about it.
+
+*Right. An important intersection.*
+
+*BE:* Or lots of people are going to subscribe to my newsletter, or something that there's going to be some value to this. So I gave up writing about regulation, because it was like, nobody who doesn't actually work for a regulator cares.
+
+*No one cares. It's so true.*
+
+*BE:* It was not a fruitful line of investigation and I feel this way about games. I'm not personally very interested in games, but I feel like I'd have to spend an awful lot of time to get to the point that I knew what was going on. I might not be able to say anything that the people who already understand that space aren't already saying and if I did, no one would care, except games people. And the same thing, in point, applies to chips, right? This is an extremely technical field. Dylan Patel ( https://x.com/dylan522p ) knows a lot about chips, your mate Jay Goldberg ( https://x.com/jaygoldberg ) knows a lot about chips. There's a lot of people who know a lot about chips, and say a lot of stuff about chips, on the one side. On the other side, who's going to pay me to talk about it?
+
+*Yep.*
+
+*BE:* Am I going to be able to say anything different? I don't see anything that those people talk about and think, "No, I feel like there's a fundamentally different way to talk about this stuff".
+
+*Fair enough. It's a very hard question to come down on. I was skating the line on the chip controls for a long time, so I get it.*
+
+*BE:* I look at the whole field, and I'm like, "I'm quite happy for the chip peopleto do this".
+
+*It's a problem. Yeah, it's a chip thing, it's a geopolitical thing ( https://stratechery.com/2020/chips-and-geopolitics/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIwL2NoaXBzLWFuZC1nZW9wb2xpdGljcy8iXX0sImV4cCI6MTc0MzI0NTQ4OCwiaWF0IjoxNzQwNjUzNDg4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.jQ-HvTsClH0hzEuAI59NdsN7JyItX1GjsphU6WOPvLmdtJ1LDKqhUkr9G8pVEhtvOOUK5xt2nCzIbEANnSatywV7mEqVZi5RF0SnCNzq95cHOHleGPpRgs1nJ5LMy8LQW1ChXTART86gK6chcr1DI9akUYvOVFX3Hf6DmVzbzD53zcp7p5PZKmm3p2iM8ZDV51IBorhk7iO1rv9VwTwVHUeaZfsBQm-5_aoRaO9J2HUeAxmB3fSHuDiaShh_fEe4JmwveOg1EVxZPXxtWJgWawE-cNJWpkHez_3FW3R1oLmkcIlFz26XHo0kvj8s2NXTlpQYprzr4IUmDWptDiSMIA ) and it's not clear where it's a tech strategy thing. There's not much the tech companies or the LLM companies can kind of do about it right now. But in the spirit of this, not talking about regulation anymore—*
+
+*BE:* Well, they can all make their own ASICs but then, who makes the ASICs?
+
+*Well, they're the ones that could make Intel viable, but the economics are so powerfully in favor of not doing that. Why would you take that risk? Why would you go through all the work, when TSMC's right there? That's just the core question, there's no market incentive for an alternative, and that's why it kind of comes down to the government to create that incentive.*
+
+Regulation Revisited
+
+*We did spend a lot of time on the regulation bit last time, and actually, that was a great conversation, even though regulation is generally boring. A year on, with DeepSeek coming out with all the AI stuff, with the AI Act looking like a total disaster, I don't think it's even implemented yet, and everyone sort of regrets it.*
+
+*BE:* You've already got people who were involved in it, saying that this is just ridiculously overwrought.
+
+I think there's this moderately more generalist point about regulation, which is that the EU has had a) a come-to-Jesus moment around economics, and b) had a come-to-Jesus moment around geopolitics. Because not everything that Trump says is nonsense, and a statement that there has been a lot of free-riding on US defense spending in the EU, to some extent, in the UK — the UK still has one of the highest defense budgets in Europe.
+
+And part of that is we passed all these laws, and didn't really think about what the economic costs of those might be, and kind of pushed too far and forgot about the other incentives that might be in play. I mean, there's a separate point, which is an awful lot of things in the DMA and the DSA are just kind of a waste of time and effort, and they cost Apple and Google and Meta a lot of money, but don't achieve anything.
+
+*Yup. They deepen their moat, if anything.*
+
+*BE:* Yeah. The AI Act, I think, is different, in that the AI Act, and to some extent, GDPR, just make it tougher and slower and more expensive to build an AI-based company in Europe. If you're not allowed to download DeepSeek, or you've got to hire a lawyer, and pay them 50 grand, or 10 grand or something to work out if you're allowed to and where Meta aren't releasing their models.
+
+*Well, the Apple one is a great example. The whole point of Apple's play here is, "We have unique access to the content on your phone". EU regulations, I can't remember which one, I think it's the DMA, explicitly says, "You cannot leverage your access to data to launch a new product", it is basically tailor-written to say, "What Apple is uniquely capable of providing to the market is disallowed".*
+
+*BE:* Yeah, I think we've probably talked about this last time. I have some sympathy with regulators here, in that you don't want it to get into a situation where, the comparison I would always make is with cars, is nobody thinks that we shouldn't have laws about cars. But then, that's complicated. Teenage boys get drunk and drive too fast. Our tax code encourages low-density development. Maybe we should pedestrianize Amsterdam, we should put airbags and seat belts in the cars, and ban unleaded gas, and so on, and so on, and so on. There's an awful lot of laws about cars that no one, even crazy right-wing people, libertarians in Silicon Valley, actually think we shouldn't have that law anymore. The challenge is that it took 75 years, and we argued about them a lot, and then we understood that there were trade-offs and we understand that if you say you should make a car that can't crash, that's not on the list of options.
+
+*Yup.*
+
+*BE:* Or you have to make gasoline that doesn't burn, that's not on the list of options. And we're not going to wait 75 years to do that with the Internet, we're just not. And so, you are trying to do it a lot faster, you're trying to do it all at the same time, you're trying to do it without having grown up with this stuff, and understanding how all of it works, and in a very different kind of complex geopolitical environment.
+
+So it's not like it's easy, and there's a natural obvious correct answer to all of this. It's very easy to say, Lina Kahn, this FTC perceives a lot of poorly evidenced, badly thought through interventions. But it's also legitimate to say, the answer isn't to just stop, go home, and not have any competition law. So I always take the least popular position, which is to say that both sides are right, and both sides are wrong.
+
+*(laughing) Why not both?*
+
+*BE:* It's a particularly popular position in crypto, and you just by going onto Twitter, and saying that most crypto projects are useless, but not all of them are criminal scams and you get screamed at by both sides.
+
+*I'm with you. We may be alone on this mountain. It's like, look, digital scarcity is fundamentally compelling. In a world of AI, it's even more compelling, and also 99% of this is absolute garbage. It's like, I'm ashamed of even remotely close to it.*
+
+*BE:* Yeah, it is true. I mean, the funny thing we are going back to, we're talking about machine learning and AI, I mean, we're using these terms interchangeably. So we say LLMs, but obviously, MidJourney isn't LLM, and we say AI, or generative AI, or machine learning and I always go back to this quote from Larry Tesler ( https://en.wikipedia.org/wiki/Larry_Tesler ) from 1970. He said, "AI is whatever doesn't work yet", and this, in a sense is, why the term AGI exists, because this was an attempt to separate out—
+
+*The AI brand was captured this year.*
+
+*BE:* Well, AI kind of became image recognition or speech recognition, all these individual point solutions. So AGI was an attempt to say, "No, it's the project to make a person", or to make something equivalent to human intelligence. Now, of course, you have people redefining AGI, so it's pretty clear that OpenAI are going to declare AGI this year, with something that none of us will realistically really think is equivalent to human intelligence.
+
+*Yeah, so now it's ASI.*
+
+*BE:* So then we have ASI, artificial superintelligence. As far as I'm concerned, the calculator I had when I was 10 had superintelligence. They could do math way better than I can, so that was super intelligent. So, do you mean artificial generalized super intelligence, though? There's an awful lot of hand-waving and terminology getting thrown around here, but it's trying to capture something important, which is what we said right back at the beginning, which is, is this just basically just more software? Or is it a sort of step change, and it's as big as computing? Or are we on the path to inventing, and then, you don't understand new form of life, where we're on the path to electricity, or something like that. And we don't know, which is a funny situation to be in with an analyst.
+
+I mean, one of the things I said in something I wrote a couple of weeks ago was, there's this old English joke about the Frenchman who says, "That's all very well in practice, but does it work in theory?", and the reason I mentioned the joke is, you can spend, I feel like I spend too much time worrying about error rates, and the fact that we don't know where this is going to go, and what is AGI? And do we know about AGI, and can we predict this? And meanwhile, there's hundreds of people going out and building companies that sell problems inside HR departments, or inside cement companies, and they're not worrying about whether this is an API call or not. They're just using it as an API call, and going out and building a company, and raising $50 million or $100 million, going out and trying to change the way the legal industry works.
+
+The puzzle I always have writing about this stuff, and I've written relatively little about AI in the last six months, is that it occurred to me that the stuff I'm best at writing about, and thinking about and talking about, is these core product technology company strategy pivot questions like, is Apple versus Android, iOS versus Android versus Blackberry?
+
+*I did have an Apple-owned modem question, do I need to drop it on you, to let you ground yourself on home turf?*
+
+*BE:* Yeah, but those kind of core product questions like, why is it that Google Search ran away from everything else? Why is it that Meta struggles to compete with TikTok? These kind of product level, company positioning level questions are what I find the most interesting, and there are none of those questions in AI.
+
+There are these really philosophical questions about how big all the models get, and what error rates mean, and what do you do with something that might be wrong, which is stuff we've talked about probably too much, for the last 45 minutes. And then you've got 500 SaaS companies, where the story is, "We're going to make it easier to convert COBOL into Java", and I'm like, "Well, that sounds good to me, but I don't fucking know, I'll go and talk to my mate who's done that six times". But there's nothing in the middle, there's no product question in the middle for consumers.
+
+*It's a great summary. I was looking at my output, my Articles ( https://stratechery.com/category/articles/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS9jYXRlZ29yeS9hcnRpY2xlcy8iXX0sImV4cCI6MTc0MzI0NTQ4OCwiaWF0IjoxNzQwNjUzNDg4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.aqlIJsMTWBa7Fst0fAtP7iVmdeRp-jaP_Wt9s-U9FGOp-HmRvv5W3v2nwQZdJwoYnXlUmWJwIoZ_d4wSJzjeqHb8FIS6v6KbCVTOSwB1tnGZIx8ztsGdY5Xth9XRG6wwaw0sOa4DCsKBQj74dvE6IW4WGTiXxzss8O_mPxFzCHodM5rYlSa-0cxIo1k-m497Mey9RSc58VXFZ-XyRQn-j2XGCzZhauULWq3_w6N0fSgO7q3EWdujGrT7D5ysxngkVRD1U-EDWk3rsf2u84plvvdBKHSO_ov-3DUpJ4TLXqQGxYttYVaA7tfFoYlF9XFa29H_7MhFStk90GMcAO3blw ) are all AI these days, because it's the big questions and my Daily Updates ( https://stratechery.com/category/daily-email/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS9jYXRlZ29yeS9kYWlseS1lbWFpbC8iXX0sImV4cCI6MTc0MzI0NTQ4OCwiaWF0IjoxNzQwNjUzNDg4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.iagvR9UokTZdIEXsWP5OYFhXpz9ikpGwx0yjbjOqWEUoTSv9ETdXkB8UZOa--8k5UOA7QmIQgRGbf7Hz1rlsYht2NxINhrQGREcYkB1Q3leAUtXPfx7KqRKgB58eZbeY1ZG6Z7j2aQ5Nb4AULsFoMevyp3GaohII2wnvuYo8lBy9FgqBqDMY7EbXiJq-ajVpjf9LJZWVKxsuuiIMMKDF8PlWZ_wl7rQqI0kmw74Ap03S4qIskj7_dVqesoPKmTEQwirH_HN9jwRhJYdcKmp3ijcuFY2SzhXm2pSLSEPaY20MvZU36sIPVUR82sYDlCoFjvQbQ7KjHhUycT9Bf2iHcQ ) , which are really driven more by the day-to-day news cycle, it's still hardcore business questions, like, "What does this product mean?", "What's the implication of this?", or earnings, things along those lines and it's sort of worked out for me. I think it's worked out well for us, I think it's fun to talk about, it's good to do a podcast about it, so I'm going to take the win.*
+
+*BE:* Sure. I mean, have you ever seen a movie called The Adventures of Baron Munchausen ( https://en.wikipedia.org/wiki/The_Adventures_of_Baron_Munchausen ) ?
+
+*I have not.*
+
+*BE:* Okay, so look it up. You'll gain something from this, anyway. So it's a Terry Gilliam-made fantasy, and I won't spend a lot of time talking about it, but there's a scene where our heroes fall into a volcano and they meet Vulcan, who is played by Oliver Reed, and he is married to Venus, who is a 17-year-old Uma Thurman. Vulcan takes a lump of coal, and crushes it in his hand, and there's a flash of light, and he opens his hand, and there's a diamond the size of an egg and he gives it to Uma Thurman, and says, "For you, a diamond", and she says, "Another diamond", and throws it over the shoulder and there's a pile of them in the corner. I used to think about this when the iPhone 19 comes out, or whatever model or number we're at now, and it's like, "Oh, another diamond".
+
+*Another iPhone, yup.*
+
+*BE:* "Another diamond, crushed from a lump of coal, it flies, it can predict the future. Oh, another diamond". It's the same thing and I posted it ( https://www.threads.net/@benedictevans/post/DGd-PVKvtRE ) when the new Anthropic model came out. It's like, "Oh, another model that can synthesize an approximation of human intelligence very convincingly, boring".
+
+*This is the whole "AI replacing work" point. Humans' capacity to absorb incredible innovations, and then, invent out of whole cloth, completely new needs that someone else needs to fill for them? Completely unmatched. It's an incredible capability that we have.*
+
+*BE:* Yeah, we could do a podcast about LVMH.
+
+*(laughing) Yeah, fascinating, I would actually love to do that, at some point, but hey, we have jobs talking about this. I think we're walking examples of the capacity of humans to create.*
+
+*BE:* Yes, try explaining to your grandmother what you do for a living.
+
+*Incomprehensible. This is super fun, I'm glad we did it. The great thing is, we might have a similar conversation next year that's totally the opposite, and that's sort of your point from the beginning. We don't know, but it's fun to figure out. It was great to catch up.*
+
+*BE:* Absolutely.
+
+*Yeah. I look forward to next time.*
+
+*BE:* Good to see you.
+
+This Daily Update Interview is also available as a podcast. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Daily Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a supporter, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player:
+Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Fstratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Fdithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Asianometry ( https://asianometry.passport.online/member/podcast?url=https%3A%2F%2Fasianometry.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2025
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapp.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTc0MzI0NTQ4OCwiaWF0IjoxNzQwNjUzNDg4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.sgohDyGesHDzVR6xN6PvDEOduAjHFlXJJv7_5WRH3vjH5CfuQ0Mc8kq-JSPXafBYpviAdz2Uxco4U-bSGD_plyqxEgEvyo0Q-9xQ4tgcnvM2sfVQx8IyF8TZi0mOFdAKJ6iuxK-oDgXJfQj1qbHD1q7Kma2zbOuavxLrCE8PUbB689yh0Glu4aTknnZLxH0gQxHnF9aVmPaZkdBTvZuiSq7aOUwsBt5vfFmAddjbIrHHNRwWE7bbLF_LQ7VOmipgKzMgVa9-XZXS4nZH2faF7RwZjKAysK9cGpLTkyZAPUbNE-xETGasA6tgFwGLWodzJjjsO8Jsd2X4TZOd5yV0ag%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2025 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

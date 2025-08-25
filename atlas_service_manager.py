@@ -51,6 +51,7 @@ class AtlasServiceManager:
             ]
         )
         self.logger = logging.getLogger("AtlasService")
+        self.logger.info(f"sys.path: {sys.path}")
 
         self.health_logger = logging.getLogger("AtlasServiceHealth")
         health_handler = logging.FileHandler(self.log_dir / "atlas_service_health.log")
@@ -61,6 +62,7 @@ class AtlasServiceManager:
     def start_api_server(self) -> bool:
         """Start the Atlas API server"""
         try:
+            self.kill_process_on_port(8000)
             # Check if already running
             if self._is_port_in_use(8000):
                 self.logger.info("API server already running on port 8000")
@@ -76,10 +78,11 @@ class AtlasServiceManager:
             ]
             
             process = subprocess.Popen(
-                cmd, 
+                cmd,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
-                cwd=Path(__file__).parent
+                cwd=Path(__file__).parent,
+                preexec_fn=os.setsid
             )
             
             # Give it time to start
@@ -114,7 +117,8 @@ class AtlasServiceManager:
                 scheduler_cmd,
                 cwd=Path(__file__).parent,
                 stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE
+                stderr=subprocess.PIPE,
+                preexec_fn=os.setsid
             )
             
             time.sleep(2)
@@ -142,9 +146,29 @@ class AtlasServiceManager:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             try:
                 s.bind(('localhost', port))
-                return False
+                return False # Port is free
             except socket.error:
-                return True
+                # Port is not free, now check if a server is actually listening
+                try:
+                    s.connect(('localhost', port))
+                    return True # Server is listening
+                except socket.error:
+                    return False # Port is in use, but no server is listening (e.g., TIME_WAIT)
+
+    def kill_process_on_port(self, port: int):
+        """Kill process using a specific port"""
+        for proc in psutil.process_iter(['pid', 'connections']):
+            try:
+                connections = proc.connections() or []
+                for conn in connections:
+                    if conn.laddr.port == port:
+                        self.logger.info(f"Killing process {proc.info['pid']} on port {port}")
+                        proc.kill()
+                        proc.wait(timeout=5)
+                        return True
+            except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.TimeoutExpired):
+                continue
+        return False
     
     def start_all_services(self) -> bool:
         """Start all Atlas services"""
@@ -306,6 +330,7 @@ class AtlasServiceManager:
         self.logger.info("Starting Atlas service monitoring loop")
         
         while self.running:
+            self.logger.info(f"Monitor loop running: {self.running}")
             try:
                 # Check service health
                 status = self.get_service_status()

@@ -1,0 +1,236 @@
+# » The Mailbag Reunion Tour Continues
+
+**Source:** inputs/New Docs/reader/grantland.com_the-triangle_the-mailbag-reunion-tour-continues.html
+**Processed:** 2025-08-24T19:14:15.556344
+
+Before we tackle a few mailbag questions, I need to jack up some shots to get loose. Let’s rip through a few quick Round 1 awards. Stand under the basket and rebound for me, please. Seriously. Go down there. And throw me nice, crisp passes right at my chest. Thanks. Here we go.  
+  
+The Game of Thrones Award for Most Enjoyable Viewing Experience  
+  
+Game 1 of Clips-Spurs featured two all-time Blake dunks; the best-ever CP3-and-Blake-peaking-in-the-same-game performance; Aron Baynes being defiled in so many different ways that everyone in Staples Center kept waiting for the Gimp from Pulp Fiction to climb out of a trunk; a Jamal Crawford heat check; an uncharacteristically tremendous crowd (about 99 percent pro-Clips, which is atypical); and everyone realizing at the same time, “Holy shit, the Clips might be able to make the Finals with seven guys!” In 10 years of owning Clips season tickets, that’s the fourth-best Clips game I’ve ever attended, trailing only Game 7 of Warriors-Clips in 2014, LeBron vs. Peak Dumbleavy in 2009 and the unforgettable 2007 contest when Tim Thomas played 30 minutes without ever crossing either 3-point line.  
+  
+The Joe House/Other Shoe Theory Award for Worst But Most Inevitable Playoff Loss  
+  
+In Game 3 against Golden State, the Pelicans blew a 55-point fourth-quarter lead in less than four minutes (all numbers approximate) in such an unsurprising meltdown that (a) I had to catch a 6:11 a.m. Acela train this morning from Boston to New York, (b) I was lying in my hotel bed at midnight thinking to myself, I could go to sleep right now and I’d get five solid hours, and (c) I stayed awake only because the Warriors AND Monty Williams were involved. Any member of the 400-Hour Club (those who have watched more than 400 hours of League Pass this season) learned by December never to give up on a seemingly insurmountable Pelicans lead or Warriors deficit. This was the perfect storm.  
+  
+The Warriors are playing Draymond Green at center and moving into Totally Frantic mode? Steph is hoisting 3s from the parking lot? Monty looks confused? Giddyup!  
+  
+Additional note for the history nerds out there: For the 2015 Warriors to go down as an all-time team, they need to win the title AND finish 16-4 in the playoffs AND sweep at least two series AND submit a few memorable lay-the-smack-down games along the way AND create three or four iconic moments (like Curry’s game-saving Shoulda-Been-A-Four-Pointer). Game 3 was everything I wanted from them. Great teams come through on the road when they don’t have it. We’ll remember that one.  
+  
+The Josh Smith Award for Biggest Cancer in Round 1  
+  
+Obviously this goes to the polarizing former All-Star from the Mavs-Rockets series who graduated from Oak Hill and changed teams during the season … so, congratulations to Jo— wait, it’s not Josh Smith?  
+  
+The G-Baby Award for Most Depressing Sports Funeral  
+  
+The violent, grisly, emotionally scarring and unexpectedly abrupt death of Playoff Rondo ranks right up there with the end of Furious 7 for me. I loved Playoff Rondo almost as much as I loved National TV Rondo. Those two guys represented everything I love and hate about sports all wrapped into the same perplexing package — the audacity of someone telling us during most regular-season games, Even though you paid to see me, and even though I make eight figures a year, you’re not getting my best tonight, coupled with the brilliance of someone who could say, There are real stakes tonight, so you’re getting my A-game, and by the way, I’m gonna be awesome.  
+  
+I would love to know how my wife handled it if we were to go out for dinner once a week for four weeks, and every time, I wouldn’t say that much and would act weird but make just enough jokes to make the dinner passable … only every time we went out with another couple, I’d be hilarious and gregarious and charismatic and keep telling everyone, “You’re with Double-Date Simmons tonight!!!!!” You know what would happen? She’d dump Double Date Simmons and Regular Season Simmons. Only in sports can you pull off the idea of Playoff Rondo. And now it’s dead. R.I.P.  
+  
+The Comedy Central Not Locking Up John Oliver Award for Biggest Mistake  
+  
+Dallas gambled (AND ruined their bench AND wasted a first-round pick) by flagrantly violating the “You can get away with one head case, just don’t give him someone to hang out with” rule by teaming up Monta Ellis and Rondo. And even worse, they never considered things like, “Should we be worried that Rick Carlisle is a control freak who wants constant ball movement and Rondo loves to dominate the ball and control everything?” and “Should we be worried that Rondo can’t get to the line, can’t make free throws and can’t shoot 3s even though we’re in the pace-and-space/3s-and-free-throws era?” What a quietly devastating trade for them. Now they’re getting swept and have a future built around a winding-it-down Dirk, Chandler Parsons, cap space, Carlisle and Cubes. Yikes. And even worse, this whole thing led to Sad Dirk! I hate Sad Dirk!  
+  
+The Roger Goodell Award for Biggest Hypocrite  
+  
+Me. For everything in the previous paragraph. See, I absolutely LOVED the Rondo trade for Dallas and thought he was a semi-shell of himself in Boston only because he was playing possum. I haven’t misfired like that since … oh, wait, I’m wrong all the time. On the bright side, we finally got to watch an NBA star carry himself in playoff games with the exact same enthusiasm as a divorced dad ringing the doorbell of his ex-wife’s house. And even better, I just won a Roger Goodell Award!  
+  
+The Scott Mitchell Award for Biggest Loser  
+  
+Rondo lost between $30 million and $40 million this summer with that Mavericks fiasco. On the bright side, drunk Lakers fans and drunk Knicks fans everywhere are texting their friends, “Dp you think we csn get Ronddo at a bigf disconyt?”  
+  
+The “Dave? I Woulda Taken a Bullet for You” Award for Most Heartwarming Moment  
+  
+Randy Wittman winning two straight in Toronto while battling the usual stuff that comes with coaching a team that just spent the season underachieving, sucking the life out of its fans and taking the Clogged Toilet offense to new heights. Two days after Wittman submitted one of the funniest Vines ever (saving it for later) and just hours after Grantland’s Andrew Sharp explained the seven ways that Wizards fans should cope with the never-ending Wittman era, the Ex-Bullets owned Game 2 and played their finest two hours under Wittman. Now you have D.C. fans like my buddy House saying, “We could absolutely beat the Hawks in Round 2 even if we get outcoached, as long as we don’t get TOTALLY outcoached.”  
+  
+So you’re tellin’ me there’s a chance.  
+  
+https://www.youtube.com/watch?v=KX5jNnDMfxA.  
+  
+YEAH!!!!!!! WITTMAN!!!!!!!  
+  
+The Last Man on Earth Award for Best New Series That Can’t Be Missed for Any Reason  
+  
+Spurs-Clips is wildly overqualified for Round 1, which is the biggest reason it’s so damned fun — the NBA equivalent of throwing Matthew McConaughey and Woody Harrelson into eight True Detective episodes. Game 1? Unbelievable. Game 2? That one had the intensity, weightiness, electricity and sophistication of an actual Finals game; got derailed by Hack-A-DeAndre and some uncharacteristically horrific Pop/Doc coaching; featured multiple bricks and multiple turnovers and multiple stars coming up short … and yet I absolutely loved being there for it. Sometimes you’re watching a game and you just know that it might become a horrendous, kicking-yourself-for-years defeat for EITHER team. It ended up being the Clippers. We’ll see if it lingers.  
+  
+(Quick aside: I’ve been sharing Clips tickets with my friend Tollin since 2008, when I was about to give them up and he said, “Wait, you can’t give them up. What if they become good?” And then we both laughed for about 20 seconds before I said, “Screw it, one more year.” Anyway, we were walking out after Game 2 and Tollin said, “Spurs-Clippers … it’s just never gonna change with these guys, is it?” In other words, the Spurs continue to be the hammer and the Clippers continue to be the nail.)  
+  
+The Johnny Depp/Tonto Award for Most Glaring Moment That Doubled As a Snapshot for Someone’s Unfortunate Career Decline  
+  
+Deron Williams’s wide-open 16-footer that would have tied Game 2 in Atlanta (and didn’t). I never thought that thing was going in. Not for one second. “CP3 or Deron?” is starting to feel more dated than “Jay Z or Nas?”  
+  
+The Deflategate Award for Dumbest Controversy  
+  
+So Nic Batum has hated Spain for years because of the well-documented Spain-France international basketball rivalry, he jokingly posted a “WE DON’T LOSE TO SPANISH PLAYERS” sign in their locker room … and that became a Shame Police story for two days? I don’t know one person — seriously, not one — who would be offended by that sign. Do I just have the wrong people in my life? Are my friends and family doing a terrible job of protecting society? Should I start taking an outrage booster? Do they sell outrage boosters? Is there a class that can teach me how to make morally superior, out-of-context shame police tweets?  
+  
+The Charlize Theron in Seth MacFarlane’s Wild West Movie Award for Best Unexpected Reminder That Someone Is Still an All-Time Treasure  
+  
+I made a New York City work trip much harder by squeezing a 7 a.m. Thursday flight to Boston into the mix just to watch my underdog Celtics (hopefully) topple LeBron and the Cavs. Didn’t happen. Turns out that it’s a problem when the other team has the three best players in a playoff series, including one of the eight best players of all time.  
+  
+But you know what? How many of these LeBronian playoff eviscerations are left? You know, the ones when he shows up in someone else’s house and breaks windows and plates and tables for two hours as 15,000 to 20,000 exuberant people slowly lose the will to live? Maybe … 15? Does he have 20? I mean, he’s closing in on 44,000 minutes by the end of this postseason. You never know. Getting to see him in Queen of the Chessboard mode — the ultimate power guard, the ultimate mismatch, the ultimate athlete, the ultimate thinker, and of course, the ultimate crybaby who somehow hasn’t committed a foul since he returned to the Cavs (sorry, I had to) — was worth the cross-country flight and the two early alarm blares. Now that they’ve figured out the right people to throw around him (as well as the right style), and now that he’s in the right shape, he’s still the most dangerous basketball player alive. LeBron was, I don’t know, maybe EIGHT PERCENT better two years ago during his Miami apex? Just an amazing experience to watch that dude do his thing as my Boston brethren booed him and yelled insults at him. I loved it. I’m glad I went back.  
+  
+The Theo Ratliff’s Expiring Contract Award for Best Addition to My Summer Trade Machine Routine  
+  
+Hey, everybody, it’s the reeling Raptors! Would Indy trade George Hill and the no. 11 pick for DeMar DeRozan? Would Sacramento pony up Darren Collison, Sauce Castillo and the no. 6 pick for Kyle Lowry? Would Denver take the 20th pick and Terrence Ross for Danilo Gallinari? Would the Lakers flip Julius Randle for DeRozan so they could clear the 4-spot for Kevin Love? What kind of Godfather offer for Andrew Wiggins would Flip Saunders have the pleasure of rejecting? What if the Raptors landed no. 6 and no. 11 in Lowry/DeRozan trades, then offered those picks to Flip — along with Toronto’s juicy pick in the 2016 Nuggets-Knicks-Raptors pick swap (Denver gets first choice, Toronto gets second choice, Knicks get nothing and like it) — for the rights to acquire Maple Jordan? What if Flip countered by saying, “You have to throw in Jonas too”?  
+  
+The Dragon Babies Award for Best Running Subplot  
+  
+Derrick Rose suddenly looking kinda maybe sorta like Derrick Rose again. (Note: I’m obeying all jinxing rules.) Even if they don’t make it past Round 2, he’s reclaimed enough of his trade value that, at the very least, Knicks fans are now petrified that Phil Jackson might flip their top-three pick for Rose in two months. Baby steps. Good time to morph into a mini-mailbag. As always, these are actual questions from actual readers.  
+  
+Q: Derrick Rose carrying the Bulls to the 2015 championship would be the best playoff story in NBA history, right?  
+  
+—Dominic G., Champaign, IL  
+  
+BS: So much for obeying all jinxing rules. Here’s your current top five:  
+  
+1. MJ, Utah, 1998. Greatest player ever caps off the greatest three-year run ever with his greatest feat (beating the Jazz basically by himself in Utah in Game 6) and the greatest thing I’ve ever seen a basketball player do (the iconic layup-steal-jumper sequence). How are we topping that?  
+  
+2. A running-on-fumes Celtics dynasty winning its last title (11 out of 13!) even though (a) player-coach Bill Russell and crunch-time god Sam Jones were retiring after the season, (b) they didn’t have home court in any playoff series, (c) they were heavy Finals dogs against a Lakers team that had Wilt, Elgin AND West, (d) three of their four Finals games were won in the final minute, (e) they won Game 7 on the road partly because a pissed-off Russell had stumbled upon the Lakers’ elaborate postgame plan for a balloon celebration. The greatest winner in sports history going out in the greatest way possible? Come on.  
+  
+3. The 2014 Spurs redeem the worst Finals loss ever while simultaneously murdering the LeBron era in Miami.  
+  
+4. Magic, 1980, Game 6.  
+  
+5. Willis, Game 7, 1970.  
+  
+Here’s what I love about Rose’s story (if it plays out in the best possible way): It’s like a sports movie, right? Local kid wins MVP, signs two huge contracts with the Bulls and Adidas, blows out his knee, comes back, keeps getting hurt, never gives up … and suddenly he’s holding a Finals MVP, crying on the podium and hugging his mom (played by Octavia Spencer) and his brother (played by Anthony Anderson). “Based on a true story: Michael B. Jordan plays Derrick Rose in The Rebound.” That’s definitely a top-four all-time NBA playoff story if it happens. You could also talk me into Matt Damon gaining 25 pounds to play an embattled but dedicated NBA coach who keeps getting railroaded and undercut by his front office, then shoves it in their faces by winning a title in the heartwarming Disney movie Thibs.  
+  
+Q: On various podcasts, you’ve mentioned how home court advantage may no longer exist due to various reasons (StubHub, increasing cost, HDTV is so good). Flash forward to Wednesday night — had the Clips not given away Game 2, home teams would have been 14-2 in the first round. Have fun with that, road teams! Enjoy that SIMMONS STINK! SIMMONS!  
+  
+—Ross, Santa Barbara, CA  
+  
+BS: My defense, only because I hate being wrong: Couldn’t you say that more people than ever are selling their regular-season tickets, then holding on to their playoff seats? Let’s see how Games 3 and 4 play out.  
+  
+Q: The year Tim Duncan made his NBA debut, Seinfeld was still on the air, Bill Clinton was still having “sexual relations” with Monica Lewinsky, The English Patient won the Oscar, Spice Girls had the top-selling album, Google didn’t exist and I didn’t know how to masturbate yet (side note: I’m 30 now). Damn.  
+  
+—Alex V  
+  
+BS: And I was a single bartender writing this column for $300 per week for a website that could only be accessed by people with AOL accounts. On the bright side, I DID know how to masturbate. Wait a second, how the hell did you pull me into Weirdoville? Get me out of here!  
+  
+Q: What would you say the LVP rankings of the playoffs are so far? Rondo is obviously first, then I would say D-Will at two.  
+  
+—Brad, Huntington, WV  
+  
+BS: Yeah, that’s your Bird and Magic of the 2015 LVP so far. It’s a two-man race. Honorable mention: Dame Lillard (even earned a rare TV upbraid from Barkley), Kyle Lowry (is he hurt???), Dirk Nowitzki (for defensive reasons only), Omer Asik (a plus-minus calamity), Masai Ujiri (for freezing at the trade deadline), Kelly Olynyk (could someone tell him the playoffs started?), Lionel Hollins (for not having the balls to just bench Deron), Cleveland’s crowd (did you ever think Miami would have given LeBron a better playoff atmosphere than Cleveland????) and Rondo a second time.  
+  
+Q: In the DFW area, it seems the common view now is that not resigning Josh Hamilton to a huge deal was a GREAT decision. Watching the Angels try to find ANY way to shed his albatross of a contract, we feel good about the decision. Is that how Boston fans feel about Rondo? Are Boston fans glad they “sold high,” or are they waiting to re-sign him after the season?  
+  
+—Wes, Dallas  
+  
+BS: The only four things that would excite Boston fans less than a Rondo return: another 109 inches of snow next winter; the Globe announcing that it had re-signed Dan Shaughnessy for another 15 years; Boston winning the 2024 Summer Olympics bid; and the Red Sox signing Rick Porcello to a four-year, $82.5 million contract extension. (Listening.) Wait, what????  
+  
+Q: Thanks to State Farm we know that every NBA player has a separated-at-birth twin who ends up being an insurance agent. Chris Paul has Cliff, Stephen Curry has Sebastian, John Stockton has Don etc. Who would Rajon Rondo’s twin insurance agent would be?  
+  
+—Matt, New York  
+  
+BS: Definitely Rick Rondo, a name that makes him sound like a porn actor, WWE star or twin insurance agent. Are we sure Rick Rondo wasn’t the guy that Boston sent to Dallas three months ago? Your best case for a Rondo resurgence next season: If Dennis Rodman can average 15 rebounds per game in Chicago and win a ring 12 months after his 1995 Spurs flame-out that reverse-peaked with Rodman taking his sneakers off in a huddle during a key timeout in a key playoff game, I’m pretty sure we can’t write off Rondo yet.  
+  
+Q: Isn’t the “German Rondo” nickname a major insult to Dennis Schroeder now? The small group of real Hawks fans don’t cringe every time he steps up to the line.  
+  
+—Brandon, Winston Salem  
+  
+BS: Tough mailbag for Rondo. Tough times. None of this makes me happy. On the other hand, much like T.J. Lavin, I hate quitters. And Rondo quit on Dallas. He did.  
+  
+Q: I never forgot how you made “Bob Sacre” happen. As your next rename victory, might I suggest Willie Cauley-Stein aka “Bill Stein” from Kentucky? Do it.  
+  
+—Jackson, Vancouver  
+  
+BS: I’d rather get “Tony” going for Anthony Davis. Watch Game 4 of Pels-Warriors and scream out “Toe-neee!” the first time Davis throws down an alley-oop. It feels surprisingly good. “Tony” gives Davis a little extra danger; suddenly he’s the muscle-head who might take his shirt off in the club and try to fight a bouncer.  
+  
+Q: Did you know James Dolan was a disaster expert? Is it just me or is this hilarious???  
+  
+—Dustin, Santa Barbara  
+  
+BS: Everyone reading this column has one week to trump The Other James Dolan is a disaster expert in a new game that we’ll call “Find someone who has the exact same name as a celebrity, but also has a ridiculous job that somehow ties into how ridiculous the celebrity is.” (Cut to thousands of people Googling “Roger Goodell, sewage specialist.”)  
+  
+Q: With the Trail Blazers stunning playoff collapse, the injury to Wes Matthews, and The Assassination of Damian Lillard by the Coward Mike Conley, does LaMarcus Aldridge seriously contemplate leaving this summer? Imagine him and Kawhi in S.A. for the next five years!  
+  
+—Paul C., Los Altos, CA  
+  
+BS: I don’t mean to anger Rip City, but we have to discuss this one. You could make a strong case for Aldridge being in play this summer. It will be Year 10 for him; he needs to win now. He just lost Wesley Matthews, and there’s no looming sign that Portland will ever find that third piece to put that team over the hump. He’s not nearly famous enough for someone who was one of the league’s 10 best players for two straight years. He’s from Dallas and attended the University of Texas, which opens up going-back-home possibilities in San Antonio (Duncan’s replacement?), Dallas (the Mavs’ new franchise guy?) AND Houston (his best chance for a quickie Finals trip).  
+  
+Then again, Houston wouldn’t be his team; it already belongs to Harden. Dallas is heading in the wrong direction and already sent its top-seven-protected pick to Boston next season; I don’t see how that’s a better basketball situation than Portland’s this summer. As for San Antonio … I mean, would YOU want to replace Tim Duncan and spend the rest of your career being compared to him? That answer could go either way, I guess. The good side: Pop, Spurs, Kawhi, infrastructure, first-class fans. The bad side: If it doesn’t go splendidly, you become The Guy Who Screwed It Up After Duncan Left.  
+  
+Which makes me think Orlando (assets + talent + youth + Florida), Boston (assets + youth + role players + President Stevens + great owner/front office) and New York (biggest market, Carmelo, top-three pick, cap space) could be legitimate LaMarcus players here. Four months ago, I would have said it was a 99 percent chance he stayed. Right now, it has to be 50/50. And dropping. If it means something to him to retire in Portland someday, he’ll stay. If not, he’ll leave. But it’s definitely not the best basketball situation for him. And by the way, Lillard is the Blazer getting commercials these days, not Aldridge. If you don’t think that matters to these guys, you’re crazy.  
+  
+Q: Did Nikola Mirotic win this year’s Peja Stojakovic Award for the player with the most obvious body waxing?  
+  
+—Mike, Oklahoma City  
+  
+BS: By a landslide. We canceled the vote. He also won the “NBA Player Who Easily Could Have Appeared On a Mumblecore Movie Poster” award.  
+  
+Q: Are you excited that we finally have a video that proves DelNegroitis exists?  
+  
+—TJ, Richmond, VA  
+  
+BS: I’m giddy, I’m relieved, I’m overwhelmed … I feel like Jonas Salk after he found out that his vaccine worked.  
+  
+[protected-iframe id=”291d02404b72d92eb3a0667cd2934767-60203239-57815212″ info=”https://vine.co/v/ezttEPM33jn/embed/simple” width=”600″ height=”600″ frameborder=”0″]  
+  
+Q: Do you think Tim Duncan has a painting with his soul entrapped in it that he is not allowed to look at?  
+  
+—Michael, Binghamton, NY  
+  
+BS: It can’t be ruled out. Important Duncan note that jumps out when you watch him in person … his left leg does not work. Like, he drags it around as if it were a prosthetic. That thing does NOT work. He does everything off his right leg. Everything. Tim Duncan is amazing. YEAR EIGHTEEN!!!!! Is there any objective NBA fan who wouldn’t have rather had Duncan from 1997 to now instead of Kobe from 1997 to 2015 if the only objectives were “I want to try to win 55-65 games every year and I want to try to win multiple titles”? How can you pass up 18 straight years of Duncan? Only Kareem and Mailman were able to stay that good for that long. Fact: Tim Duncan is older than Brad Stevens. Fact: It doesn’t seem to matter. And no, it still hasn’t been explained to me why Duncan would retire yet. The quality of his game, night to night, hasn’t changed for five solid years. Well, except that he’s playing on one leg.  
+  
+Q: I went and played golf with three friends on Sunday. After we played, we went to a bar to drink beer, eat wings and watch the NBA playoffs. When we got to the bar the Hawks and Nets were playing. On another TV, My 600 Lb Life was on. I was more interested in the struggles of a 600 lb woman than watching another horrible Eastern Conference Playoff Series. I have been watching the NBA Playoffs since 1987 religiously every year but I had zero interest in this game. Can we please start a petition to have the playoffs reseeded by record?  
+  
+—Jeff, Webster, TX  
+  
+BS: Your reseeded first round for 2015: Warriors-Celtics (1/16), Hawks-Bucks (2/15), Rockets-Thunder (3/14), Clippers-Pelicans (4/13), Grizzlies-Wizards (5/12), Spurs-Raptors (6/11), Cavs-Mavs (7/10), Blazers-Bulls (8/9). I mean … that’s an even worse Round 1 than the current one, right? But don’t worry: When I take over as President Hillary’s sports czar in 2017, all American professional sports leagues will be forced to adopt a “You have to finish .500 or better to make the playoffs” rule and we’ll never have to worry about things like the dead-eyed Nets making the playoffs over Westbrook and the Thunder again.  
+  
+Q: Any chance you could work in a Yi Jianlian chair joke into something soon? It’s just so enjoyable for me. Every. Single. Time. And it’s certainly been way too long.  
+  
+—Dustin, Clearfield  
+  
+BS: All footage of Yi posting up the chair has been wiped away from the Internet (probably on orders from the Chinese government), although we still have this rare workout clip of Chairman Yi dominating the Invisible Man …  
+  
+… as well as this lovable picture of Yi sitting on a chair that I’ll drop later in the column for comedic purposes. Hold tight.  
+  
+Q: What are we naming the tanking process for the 2015-16 NBA season now that your illegitimate son, Ben Simmons, is poised to be the top pick? Can we come up with something as good as “Suck for Luck” or “Riggin’ for Wiggins”? What about “Trimmin’ for Simmons” or “The Skid for Bill’s Kid?”  
+  
+—Bryce, Dayton  
+  
+BS: Putting “Lossie for the Aussie” and “Skimmin’ for Simmons” as placeholders until the readers can top it. Stay tuned.  
+  
+Q: I am a big fan … but I lost a chunk of my fandom when you let me down. I just found out that the newly-minted sixth man, Lou Williams had two hot girlfriends at the same time. How did I not get this information from you first? You should be on top on these stuff, mate! C’mon!  
+  
+—Chris, Sydney  
+  
+BS: Get ready to lose an even bigger chunk of fandom — I had no idea that Lou Williams had two girlfriends. Doesn’t this make sense, though? Lou Williams is really two basketball players — there’s the Lou Williams who single-handedly sways games à la Jamal Crawford, and then there’s the Lou Williams who models his game after a poor man’s hybrid of Randy Foye and Dion Waiters and has absolutely no problem going 4-for-18. Maybe each of those guys needed their own lady. Now we need to arrange a quadruple date with Good Lou Williams, Bad Lou Williams, Rajon Rondo and Rick Rondo.  
+  
+Q: When we’re first introduced to Jaime Lannister in Game of Thrones, he’s having sex with his SISTER and then PUSHES A KID OUT OF A WINDOW (intending to kill him). Amazingly, by the end of that season we’re thinking, “Ah, he’s not so bad. Pretty charming, actually.” Now we’re actively rooting for him. Can you think of another instance where a real person or a character did something so despicable, only to later turn babyface?  
+  
+—Trent Smith, Cary  
+  
+BS: It would have to be something really egregious and really unrealistic — like LeBron failing to bring Cleveland a title, then ditching Cleveland in his prime on a live television special so he could team up with Wade and Bosh in Miami, winning two titles for the Heat and making four straight Finals, then heroically returning to Cleveland like nothing ever happened.  
+  
+Q: I have a local NBA ad that’s worse that Isaiah Thomas’ pizza one — what about Bradley Beal for Eastern Motors?  
+  
+—Blake C., Charlottesville, VA  
+  
+BS: Didn’t that fit in with the rest of Bradley Beal’s letdown season, though? He went backward in every way. Earlier this month, I sent Ron Mercer’s career stats to Wizards fans House and Sharp with the sentence, “Bradley Beal is your Ron Mercer.” (Keep in mind, I’m the same guy who once wrote an entire column for his old website in 1998 based around the premise, “Ron Mercer is God’s gift for taking Reggie Lewis away from us.” I LOVED Ron Mercer.) Sharp responded “/gulps /reads Ron mercer stats /blinks repeatedly /stares off into space like Wittman watching this season go down in flames” while House literally disappeared and was never heard from again until the Wiz won two games.  
+  
+Q: On Sunday night, Marten Weiner (aka Mad Men’s Glen Bishop) and Austin Rivers faced off tonight in a primetime showdown to determine which one of them is the most flagrant example of nepotism currently on television. Can we just start calling Rivers “Glen Bishop” right now? After all, they might both be going off the air soon.  
+  
+—Jimmy, Los Angeles  
+  
+BS: I loved everything about this email — especially how Doc Rivers and Matthew Weiner (Mad Men’s creator and showrunner) probably went through the same series of mental steps before casting their sons. I mean, I need someone who’s right around that age and has those types of skills … and I know better than anyone that my son just needs a chance … and I’ll be able to help him get where he needs to go … and also, it will make my wife happy. But for the record, at least Austin Rivers can play solid defense and get through three-minute stretches without killing you. I can’t remember ever saying the words, “Thank God for that Glen Bishop scene.” Marten Weiner makes Robert Iler look like Daniel Day-Lewis.  
+  
+(Hold on, big “but” coming … )  
+  
+BUT I can totally identify with Weiner-Rivers syndrome. You’re always going to overrate your own son. Just this week, my 7-year-old son figured out how to rig NHL 15 to start goalie fights — he plays the Kings’ opponent, repeatedly goes offside and makes runs at Jonathan Quick, and then, when Quick gets upset, he switches controllers and presses the “Y” button until Quick is fighting with the other team’s goalie. It’s the dumbest, most brilliant video-game strategy I have ever witnessed. This is on the heels of him ripping off 25 different WWE finishing moves in three minutes on our hotel bed the morning of WrestleMania 31 for a YouTube video that I can never put up because he’s not wearing a shirt and Internet creeps scare me.  
+  
+Is there a chance my son will be living at home until he’s 40? No question. Did you read the previous paragraph? If I had the chance to do whatever my version of “casting him on my TV show or my NBA team” would be, I’d do it. And no, there’s no better example of Weiner-Rivers syndrome than Charles Dolan and Dr. Jerry Buss. I probably shouldn’t turn things over to my son, but, well, I love him and I want him to do well!  
+  
+Q: Has there ever been a show with a more pointless “Scenes from next week’s episode” than the Mad Men montage at the end of each episode? With gems like “Get me a drink” and “Who’s there?”, I figure next week’s episode could just as well be about making a turkey sandwich or assembling furniture than running an ad agency.  
+  
+—Dave, Greensboro  
+  
+BS: Supposedly Weiner hates giving away anything in “scenes from next week’s episode” montages. You have to love the moxie of someone who zealously protects the secrecy of next week’s episode while also giving away pivotal scenes to his overmatched son. I’m gonna miss Matthew Weiner. Great show. Hold on, this paragraph was pretty pedestrian. We need a comedy infusion.  
+  
+Q: For our senior trip, my high school graduating class went to Disneyland for the day. We entered the park at 7 a.m. and thirty minutes later saw Robin Lopez in line for a ride by himself wearing a Chip n’ Dale Rescue Rangers shirt. (I am still baffled their exists a market for seven foot men who want to wear shirts with Disney characters on them). Being from Arizona we wildly greeted him, as he had absolutely bombed for the Suns two years prior, to which we received the least enthusiastic wave in recorded history. Several hours later we saw a jovial Asian family riding the River Rapids ride with Robin Lopez as the sixth person on the ride. The sheer comedy of a diminutive Asian family and a seven foot NBA player with a red afro sharing the same ride cannot be explained, it seriously might have been the funniest thing I have ever seen. At 10 PM I again saw him completely alone, and again tried to start a conversation with him, which he completely ignored. In case your keeping track, that’s 13 hours at Disneyland, completely by himself, wearing a children’s T-shirt.  
+  
+—Daniel Skelly, Scottsdale  
+  
+BS: I never run I saw (fill in the celebrity) and something funny happened emails in the mailbag, but made an exception here only because (a) you couldn’t make this story up, and (b) from everything I’ve ever heard or read about the Lopez brothers, they’re the real-life version of the Hanson brothers. So I believe this story and it made me laugh. And yup, these are my readers.

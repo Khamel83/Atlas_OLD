@@ -1,0 +1,20 @@
+# Letters of Note: To My Old Master
+
+**Source:** inputs/New Docs/markdown/www.lettersofnote.com_2012_01_to-my-old-master.html.md
+**Processed:** 2025-08-24T19:49:24.428090
+
+# Letters of Note: To My Old Master
+
+**URL:** http://www.lettersofnote.com/2012/01/to-my-old-master.html
+**Date:** 2012-02-15 21:11:19
+
+---
+
+# 
+
+Unknown author • Unknown date 
+
+![](https://web-static.archive.org/_static/images/archive.ico)
+
+The Wayback Machine requires your browser to support JavaScript, please email info@archive.org if you have any questions about this. 
+

@@ -1,0 +1,245 @@
+# Money Stuff: Futures Exchanges Are for Traders
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Thu, 25 Apr 2024 13:07:55 -0400 (EDT)
+**Source:** inputs/saved_emails/Money Stuff Futures Exchanges Are for Traders_Thu,_25_Apr_2024_13-07-55_-0400_(EDT)_18f163a725e6a52c.eml
+**Processed:** 2025-08-24T19:13:08.761045
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        The stylized history of financial exchanges is something like: Once, a dozen or so big brokers met under a tree or whatever to trade their s
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      FMX
+    
+  
+The stylized history of financial exchanges is something like:	Once, a dozen or so big brokers met under a tree or whatever to trade their stuff.	They collectively set some rules for trading the stuff, which evolved into a nonprofit membership organization — an “exchange” — run by the big brokers.	The exchange charged fees to trade, it invested in technology, and it eventually made sense for the exchange to restructure and go public as a for-profit company.	The dozen or so big brokers, who once owned and ran the exchange, don’t anymore: It’s a public company, they’ve sold whatever shares they had in it, it’s just an arm’s-length counterparty now.	They don’t like paying the fees.	They get to talking with each other.	“At the end of the day,” they say, “this exchange is really just us. It’s a venue — now a computer system, not a tree, but still — where the 12 of us get together to trade stuff with each other. Why are we paying these fees to a for-profit exchange? Why don’t we just meet together somewhere else, trade with each other, and save on fees?”	They can’t literally meet under a different tree, since now everything is computerized, but if they talk about this enough eventually an entrepreneur will go and build it for them.We talked a few years ago about Members Exchange, MEMX, which is this story for US stocks. (“‘We think with the right team we could run an exchange at a fraction of the cost of what the incumbents are offering,’ said Virtu Chief Executive Officer Douglas Cifu.”) And here are Bloomberg’s Katherine Doherty and Sridhar Natarajan on FMX, which is this story for interest-rate derivatives:Howard Lutnick is lining up some of Wall Street’s biggest power players for a fresh challenge to the behemoth of futures trading and interest-rate derivatives, CME Group Inc.The chief executive officer of Cantor Fitzgerald got backing from Bank of America Corp., Barclays Plc, Citadel Securities, Citigroup Inc., Goldman Sachs Group Inc., JPMorgan Chase & Co., and Jump Trading as he prepares to launch his new futures exchange. The firms invested $172 million for a 25.75% stake in FMX, which increases as they use the platform. The business is part of BGC Group Inc., a brokerage spun off from Cantor Fitzgerald in 2004 and led by Lutnick. …“When George Clooney bought a tequila company, the tequila was the tequila,” Lutnick said in an interview, comparing the consortium of backers with the movie star. “The day after he bought it, it was worth 10X. My exchange is now worth more.” …Lutnick’s FMX Futures exchange is expected to launch in September, with plans to first list futures linked to the Secured Overnight Financing Rate, or SOFR, a benchmark short-term rate, then Treasury yields. Those futures will compete directly with contracts on CME, which has seen record volumes thanks to uncertainty around future Fed interest-rate decisions, inflation and geopolitical tensions.For the banks and prop traders involved, the appeal is straightforward: (1) lower fees (“The cost of trading on FMX also will be lower than through CME”), (2) as part-owners, the fees partly accrue to them, and (3) bonuses for more trading: “They can keep an additional 10.3% [of FMX ownership] if they help meet certain volume targets.” Getting paid to trade with each other is nicer than paying to do so.
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Private credit
+    
+  
+My basic theory of private credit is that (1) it’s kind of a new thing but (2) it will quickly be absorbed into the old things. It used to be that there were two main types of corporate debt. There were bonds, which were often fixed-rate and unsecured; they were issued by companies to investors (insurance companies, etc.), with big investment banks acting as intermediaries to find the buyers and place the debt. And there were bank loans, which were often floating-rate and secured; they were issued by companies to banks, which made the loans with their own money and held them on their balance sheets.And then over time those markets converged a bit; in particular, “bank loans,” these days, trade in liquid markets and are often owned by non-bank investors. A private equity firm doing a leveraged buyout might borrow from both the bank and bond markets; its investment bank will “underwrite” the bonds (find investors, for a fee) and “syndicate” the loans (find investors, for a fee). The terms are different, for historical reasons, but the processes are similar, and probably a single leveraged finance banker is in charge of both. Now there is a third type of debt, private credit, which is also often secured and floating-rate. What distinguishes it from bank loans is that its investor base (big alternative asset managers) make the loans directly and hold them to maturity: There is no trading market and no bank underwriting. These distinctions have always struck me as a bit unstable, though. If you buy a private loan, what if you want to sell it? I wrote six months ago: “Sometime within the next, like, three years, I am going to be writing about a story like ‘Company X is launching a marketplace to allow private credit lenders to trade loans.’” Also, the basic business of investment banks is introducing companies to people who will provide financing and taking a cut. There are incentives to disintermediate that process, which puts pressure on the investment banks. Private equity firms, for instance, are in the business of finding companies to buy; if you are a company looking to sell, in 2024, you might reasonably call up half a dozen private equity firms and say “can you buy us?” rather than calling an investment bank and saying “can you find us a buyer?” (Or: If you are a company looking to sell, in 2024, a private equity firm might show up with a pitch saying “we’ll buy you for $100 million” before an investment banker shows up with a pitch saying “we think we could achieve a valuation of $100 million in a sale process.”) “Private equity is to some extent a substitute for investment banking,” I wrote last year, and it does seem like private equity (and private credit) managers are on the rise as banks retreat. But private equity funds do create a lot of business for investment bankers, and investment bankers have had a good long run of not letting themselves be disintermediated.Last week, Bloomberg’s Ellen Schneider and Kat Hidalgo wrote about how the banks are undisintermediating themselves:Citigroup Inc. and Goldman Sachs Group Inc. are among Wall Street giants that served as matchmakers on recent transactions between smaller companies looking for loans and private lenders eager to provide financing. Their pitch to direct lenders boils down to this: we can use our vast network of corporate clients to help you find issuers that want financing, and take them through all the paperwork involved in getting a private loan, for a fee.It’s the latest step that big banks have taken to reclaim business their leveraged lending desks have lost. Historically the biggest buyouts would be funded with junk bonds as well as leveraged loans that were arranged by big banks then syndicated to a wide array of investors. Leveraged finance and related businesses generated about a third of Wall Street’s investment banking fees.But private lenders have been taking more of that business, forcing banks to consider other ways to get involved. ...“What we bring is an enormous and deep origination machine, and when the broadly syndicated market doesn’t make sense for certain borrowers we can pivot,” said John McAuley, the head of debt capital markets at Citigroup.Right, if you are a company looking to borrow money, the best user experience is something like “one person, whom we trust, shows up at our office, gives us a menu of borrowing options, lists the pros and cons of each one, and then goes and gets us the one we choose.” Traditionally that person was an investment banker, and she’d show up with a pitchbook on the pros and cons of bonds and bank loans. The current situation is, I guess, that she shows up, does her pitch, leaves, and then you have appointments with six private lenders who offer alternatives. But that seems unstable. In the long run, the best user experience is probably that the investment banker adds another column, for private credit, to her pitchbook.And today Hidalgo writes about the growing trading market for private credit:Blow-out growth in the $1.7 trillion private credit market has come at a cost, namely investors’ inability to exit their holdings in a crunch. Now a market where investors can unload their stakes is taking shape.As many as $15 billion of such portfolio sales are set to close this year, according to a new survey from Ely Place Partners Ltd., which advises sellers of the funds. That’s triple the reported amount of deals closed in each of the previous two years. … On average, the portfolios are being sold at discounted prices of around 85 cents on the dollar, according to the survey.It is still not quite a platform for trading private-credit loans — it’s an informal marketplace for trading limited-partner stakes in private-credit funds — but it’s a move in that direction. “Private credit, but you can trade it at any time” is just a better user experience than “private credit with no liquidity,” so the market will provide it.
+  
+    
+      Trump Media
+    
+  
+I have joked that one bull case for Trump Media & Technology Group Corp. is (1) Donald Trump gets elected president again and (2) he requires anyone who wants to win a US government contract to buy advertising on Truth Social. That’s a business bull case — it would increase Trump Media’s revenue — but you could also have a slightly different, purely stock-based bull case. For instance: (1) Donald Trump gets elected president again and (2) he requires anyone who wants to win a US government contract to buy Trump Media stock. Or he could use it as an instrument of foreign policy: Perhaps countries can get better diplomatic treatment if their sovereign wealth funds buy a ton of Trump Media stock, etc. In either case, that would be good for the stock price, even if the company never has much in the way of revenue.I suppose another, worse version would be: Trump makes it illegal to short Trump Media’s stock? This is less useful because it’s already very hard to short Trump Media’s stock; it’s extremely expensive and risky and there don’t seem to be a ton of fundamental shorts. (You can tell, in part, because the stock trades at 1,300 times revenue.) On the other hand, it might be easier to do: People love a conspiracy theory about short sellers, and Trump Media Chief Executive Officer Devin Nunes is pushing one hard. We talked on Monday about Nunes’ (unconvincing) public claims that naked short sellers were somehow manipulating Trump Media’s stock; he followed up with a letter to four powerful Republican congressmen urging them to launch “a thorough and expeditious investigation” of short selling of the stock, one that would demand records from trading firms and regulators to see if anyone might have shorted Trump Media:Dear Chairmen Jordan, McHenry, Smith, and Comer:I write to inform you of an urgent matter concerning the potential manipulation of the stock of Trump Media & Technology Group Corp. (“TMTG”), which trades on the Nasdaq Stock Exchange under the ticker “DJT.”Since April 2, 2024, DJT has appeared every day on Nasdaq’s “Reg SHO threshold list,” which is indicative of unlawful trading activity. This is particularly troubling given that “naked” short selling often entails sophisticated market participants profiting at the expense of retail investors. Reports indicate that, as of April 3, 2024, DJT was the single most expensive stock to short in U.S. markets by a significant margin, meaning that brokers have a significant financial incentive to lend non-existent shares.Furthermore, data made available to us indicate that just four market participants have been responsible for over 60% of the extraordinary volume of DJT shares traded: Citadel Securities, VIRTU Americas, G1 Execution Services, and Jane Street Capital.Overall, we assess there are strong indications of unlawful manipulation of DJT stock. As such, I respectfully request that you open an investigation of anomalous trading of DJT to determine its extent and purpose, and whether any laws including RICO statutes and tax evasion laws were violated, so that the perpetrators of any illegal activity can be held to account.Will Congress launch an investigation? I mean, on the merits, no; there is not a whisper of evidence that Trump Media’s stock has been manipulated down, and rather a lot of evidence that, you know, it trades a touch rich to current fundamentals. And yet. Short selling is generally a risky endeavor, short selling a meme stock is even riskier, and short selling a politically powerful and vindictive meme stock is surely not worth it. 
+  
+    
+      Should index funds be illegal?
+    
+  
+The basic theory of “should index funds be illegal” is: If big index funds and other diversified investors own much of the stock of all of the public companies, then all of the public companies in some industry will essentially work for the same owners, and they will have lessened incentives to compete with one another. If one airline cuts fares to win market share, that just hurts the other airlines, who have the same owners. Better to keep prices high and act like a monopoly.This theory is quite controversial and susceptible to lots of empirical tests. Here’s a US Federal Reserve Finance and Economics Discussion Series paper titled “Assessing the Common Ownership Hypothesis in the US Banking Industry,” by Serafin Grundl and Jacob Gramlich, about whether it’s true of banks. It isn’t:The U.S. banking industry is well suited to assess the common ownership hypothesis (COH), because thousands of private banks without common ownership (CO) compete with hundreds of public banks with high and increasing levels of CO. This paper assesses the COH in the banking industry using more comprehensive ownership data than previous studies. In simple comparisons of raw deposit rate averages we document that (i) private banks do offer substantially more attractive deposit rates than public banks, but (ii) the deposit rates of public banks are similar in markets without CO where a single public bank competes only with private rivals, and in markets with CO where multiple public banks compete with each other. Panel regressions of deposit rates on the profit weights implied by the COH are generally consistent with the COH if only quarter FEs (without other controls) are included but not if bank-quarter FEs are included. Estimates with bank-quarter FEs are “precise zeros” with 95% CIs suggesting that the threefold rise in CO among public banks between 2005 and 2022 moved their deposit rates by less than a quarter of a basis point in either direction. To assess the COH along non-price dimensions we also estimate the effect of CO on deposit quantities, and find that the estimates are also not consistent with the COH.We talked a couple of weeks ago about how US banking regulators are considering restricting index-fund ownership of banks, but as far as I can tell that is motivated more by anti-wokeness/anti-ESG concerns than it is by antitrust concerns, so I’m not sure this research will affect it. In any case, the Federal Deposit Insurance Corp. board of directors met today and failed to pass new restrictions on index-fund bank ownership.
+  
+    
+      Where are the … oh, right, there.
+    
+  
+Just a good headline from the Financial Times here, “Jefferies boss sells $65mn in stock to buy a customer’s yacht”:Jefferies chief executive Rich Handler has sold $65mn of his stock in the Wall Street investment bank to buy a luxury yacht from longtime client Tilman Fertitta.Handler said on Wednesday that he had sold 1.5mn shares, about 7 per cent of his total holdings in Jefferies, at $43.50 each. This was the first time he has sold shares in the bank other than for charitable or tax purposes.Jefferies said Handler, 62, was using the cash to buy a boat and pay tax obligations. A person familiar with the matter said the boat was a Westport 164ft yacht being purchased from Fertitta, the hospitality billionaire.“My sale of shares today was a gift to myself and my family, and I do not intend to sell any further shares,” Handler said in a statement.There is sort of a norm that executive stock sales are bad, because they are signs of bearishness: If you’re the CEO and you’re selling your company’s stock, people assume you think the stock will go down. And so when executives do sell big chunks of stock, they often try to justify the sales as not being about valuation. The classic justifications have the form “I didn’t want to sell my stock, but I had to” (divorce, tax obligations
+  [1]
+), or else “I didn’t want to sell my stock, but I had a really compelling opportunity to make the world better” (charitable donations, buying Twitter Inc.).But “I didn’t want to sell the stock, but I saw a really cool yacht” is also a pretty good justification? Like I do not think that this reflects much on Handler’s view of Jefferies’ valuation. He wanted a little treat for himself, and there was that yacht.Also I suppose it is good customer service for an investment bank’s CEO to occasionally buy a customer’s yacht from him? You don’t want your investment bankers to be too ostentatiously well-paid — it suggests that they’re overcharging — but if a good customer wants to unload one yacht, you want him to think of you first. “Important people like to deal with important people,” Goldman Sachs Group Inc. tells its bankers: “Are you one?” If you’re buying his yacht, you probably are.
+  
+    
+      Things happen
+    
+  
+BHP Makes $39 Billion Anglo Approach to Create Mining Giant. Anglo Considers Sale of Diamond Unit De Beers. Anglo American Share Price Shows Traders Envisage Sweeter Bid. South African mines minister hits out at BHP’s £31bn bid for Anglo American. Javier Milei Sparks Wild Rally That Makes Peso No. 1 in World. Main Street Banking Model Is Being Squeezed. Nasdaq’s Profit Falls as Shaky Economy Keeps IPO Revival Elusive. How TikTok’s Chinese owner tightened its grip on the app. ByteDance Exploring Scenarios for Selling TikTok Without Algorithm. Business Groups Race to Block FTC’s Ban on Noncompete Agreements. Thames Water Debt Insurer Taps Advisers as Crisis Deepens. McKinsey Under Criminal Investigation Over Opioid-Related Consulting. Hertz Reports $392 Million Loss as It Unwinds Tesla Fleet. Europeans ‘less hard-working’ than Americans, says Norway oil fund boss. The ‘Senior’ Jobs That Require Little or No Experience. Notion’s Productivity Software Gets Used for Relationships, Journaling, Plant-Watering. “‘I love dogs,’ adds Trasen, whose own mutt, Bear, was trained at a juvenile-detention center. ‘I just don’t think they belong in courtrooms.’”If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+      
+    
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+            
+          
+        
+      
+    
+  
+
+
+  
+    
+      
+        
+          
+        
+  [1] This one is a little weird because just having a ton of appreciating stock doesn’t normally incur any tax obligations, but Elon Musk somehow  found a way to do it. 
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckxlg3.62mq/c91d9bea.gif" alt="" border="0" /></a>

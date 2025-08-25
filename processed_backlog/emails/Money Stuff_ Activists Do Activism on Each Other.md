@@ -1,0 +1,269 @@
+# Money Stuff: Activists Do Activism on Each Other
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Wed, 22 Jun 2022 14:11:53 -0400 (EDT)
+**Source:** inputs/saved_emails/Money Stuff Activists Do Activism on Each Other_Wed,_22_Jun_2022_14-11-53_-0400_(EDT)_1818c9dd3dc8ca6f.eml
+**Processed:** 2025-08-24T19:13:10.912673
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        Activist vs. activistTraditionally activist hedge funds are, uh, hedge funds. They are privately managed pools of capital in which the inves
+      
+    
+  
+  
+    
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      Activist vs. activist
+    
+  
+Traditionally activist hedge funds are, uh, hedge funds. They are privately managed pools of capital in which the investors — the limited partners — do not get much in the way of voting rights. If the investors in an activist fund do not approve of its activism, they can (probably, eventually) withdraw their money and invest it somewhere else, but they can’t, like, vote out the hedge fund’s manager and install someone else. Activist hedge funds are not generally themselves susceptible to activism.In theory you could run an activist strategy out of, say, a mutual fund run by a publicly traded asset manager. But then someone might do an activism on you: try to replace you as manager of the fund, mount a hostile takeover of your asset-management firm, whatever. This would be embarrassing for you. On the other hand, if you run a hedge fund, your most important  goal is to continue to  run a hedge fund. One way to do that is by setting up a permanent capital vehicle: Do some sort of offering of some sort of entity whose shareholders can’t just get their money back, so that you have capital to invest even if investors lose faith in you. Often this entails listing the entity publicly and giving it some voting rights. This can be trouble.Nelson Peltz has some activists:A London-listed fund linked to Nelson Peltz’s Trian Fund Management has come under pressure from a group of insurgent investors seeking to shake up its board “to improve governance and restore trust”.Peltz, known for waging campaigns against the management of companies including consumer goods group Unilever and asset manager Janus Henderson, has found himself the target of investors demanding changes at his Trian Investors 1 fund.A committee of investors — made up of asset managers Global Value Fund, Invesco, Janus Henderson Investors UK Limited and hedge fund Pelham Capital — has served notice to convene an extraordinary general meeting of its shareholders.Trian Investors 1 was not exactly supposed to be a permanent capital vehicle but:When Trian Investors 1 was listed in September 2018 it set out to invest into a single publicly listed target, work to improve the business and then exit the investment and return capital to shareholders. This model is similar to that employed by Edward Bramson’s activist vehicle, Sherborne Investors.However, last year, ahead of its AGM, the board of Trian Fund 1 proposed a series of changes to the investment policy that the committee believes would financially benefit the manager. Crucially, these changes would allow it to own multiple investments simultaneously, and instead of returning all capital and profits to shareholders after exiting an investment, the manager could reinvest them.The classic activist move is to demand that corporate managers return capital to shareholders, while the managers say “no we have a long-term plan to enhance shareholder value and would like to use that capital ourselves, trust us.” The applications to fund management are obvious. Also:The participation of the Janus Henderson fund in the activist group puts the US asset manager in a delicate position since Peltz has been pushing for sweeping changes at the company and in February won a seat on its board.Trian is activisting Janus, and Janus is activisting Trian. The future of activist investing might be all the activists activisting each other.
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      DAO governance
+    
+  
+We have talked a lot recently about the mechanics of public-company mergers and acquisitions. One feature of public M&A that is somewhat odd, when you think about it in a certain light, is that mergers are subject to shareholder vote. So in an all-cash acquisition (a big company buying a smaller one, a private equity leveraged buyout, Elon Musk buying Twitter Inc., whatever), the buyer — Elon Musk or a private equity partner or the chief executive officer of the acquiring company — will sign a merger agreement that legally binds the buyer to complete the deal (mostly!), while the seller — the chief executive officer of the target company — will sign a merger agreement that doesn’t legally bind the target company to complete the deal. In the merger agreement, the target company generally agrees to something like “we’ll ask our shareholders to approve this deal, and if they do then we’ll do it. But if they don’t, we won’t.”Most of the time, the shareholders approve the deal, because most of the time the deal is at a premium to the current stock price and shareholders are pretty money-motivated. But this is not a law of nature or anything, and if, for instance, the stock market and the target’s business get a lot stronger in the months between the signing of the merger agreement and the shareholder vote, the shareholders could say “nah we’re happier on our own” and vote down the deal. Which they can just do. They’re not legally bound by the merger agreement; they can always second-guess what their agents — the board and the CEO — decided.Mergers work this way because it is a specific requirement of corporate law; the relevant state corporate laws generally require a shareholder vote to complete a merger. There are a few other corporate decisions that require shareholder votes, but most don’t. You could imagine a world where every corporate decision — hiring a new employee, selling stock to a new investor, borrowing money from a bank, signing a contract with a customer or supplier, changing the color of the logo — was subject to a shareholder vote, but it would be a very unpleasant thing to imagine. How annoying that would be!Or you could imagine a slightly different world where the managers of the company could do all this stuff — hiring and raising money and signing contracts — without consulting the shareholders, but the shareholders always had a free option to reject the managers’ actions. The CEO hires a new chief technology officer, she signs a contract, she starts work, a shareholder says “hey I don’t like this new CTO,” the shareholder submits a shareholder proposal to reject her contract, the proposal passes at the annual meeting, and the CEO has to call the CTO in and say “look, I know we signed a contract saying you’d be the CTO and get a $5 million equity award, but you have to understand that that contract was contingent on shareholder approval, or at least on shareholder non-rejection, and the shareholders have rejected it for somewhat whimsical reasons so now the contract isn’t binding.” This seems like a chaotic and bad way to run a company.A DAO, or a decentralized autonomous organization, is like a corporation except that:	Instead of having annual meetings with highly circumscribed ways for shareholders to submit non-binding proposals to management, the DAO has a continuous Discord chat where shareholders can submit proposals anytime they want, and those proposals can concern core functions of how the company is run, and the shareholder vote on those proposals is at least kind of binding on management.	All the shareholders are really into crypto.And so one thing that happens is that a DAO can enter into a contract, meaning that the managers of its legal entity can sign a contract binding that legal entity to do something, and then someone in the Discord chat can say “nah I don’t like that contract,” and then the Discord chat can vote to reject it, and then … uh … I dunno? I think under traditional legal principles, if the officers of a legal entity sign a contract binding that legal entity to do something, a later vote by a Discord chat to reject the contract doesn’t carry much weight. But I think a lot of people who are really into crypto would disagree.Here’s some DAO stuff:On May 20, Honey Barrel, whose online bio describes them only as a “vanquisher of non-frens,” woke up and chose chaos. They’re a member of Merit Circle DAO, a decentralized autonomous organization worth over $370 million that loans non-fungible tokens to people who play crypto games but can’t afford the buy-in, according to crypto research startup DeepDAO. In a 2,000-word post on the Merit Circle DAO forum, Honey Barrel proclaimed that certain Merit Circle investors weren’t pulling their weight.Their solution? Break the contract with the investor in question, Yield Guild Games, return its money, and show the world that DAOs aren’t to be messed with. In the normal startup world, one angry blog post would have gotten lost in the depths of tech Twitter. But in the DAO world, where anyone who holds a token gets a say in the group’s future, the post lit a fire.The proposal from Honey Barrel—an average, albeit vocal member of the organization—threatens to usher in a new, distinctly investor-unfriendly era in the DAO world. Because if one DAO breaks its legal contract with an investor, what’s to stop others from doing the same? For venture capital firms that have put millions into DAOs—including giants such as Andreessen Horowitz, Union Square Ventures, Sequoia Capital and Paradigm—the ripple effects could be existential.The proposal passed. The DAO voted to kick one Merit Circle investor — Yield Guild Games — out of the DAO. YGG had bought its tokens from Merit Circle Ltd. (the legal entity connected to the DAO) for about $0.03 each; they were trading at about $1 at the time of the proposal. Merit Circle’s management team, who presumably understood that “refund money to investors who aren’t pulling their weight” isn’t really a thing, took this proposal as obliging them “to renegotiate the terms of the financial agreements made between the DAO and Yield Guild Games”; they negotiated an agreement with YGG to buy them out at $0.32, a 10x return on their investment but still well below market value, and got the DAO to approve that. (Here is a useful Twitter thread from Tim Connors.) Merit Circle and YGG put out a rather peeved joint statement:The proposal singled out one early stakeholder on the basis that it had not provided enough value in relation to how many tokens it held. Merit Circle Ltd does not agree with this view. Yield Guild Games added value in many different ways although they were not often called upon to do so. They were also one of the first ones to post their transparency & accountability thread to share and create a dialogue with the community.After taking in the proposal and observing the community’s feedback, Merit Circle Ltd reached out to Yield Guild Games. Yield Guild Games worked with Merit Circle Ltd in the hopes of helping Merit Circle Ltd find a workable solution to appease their community whilst honoring the SAFT that Merit Circle Ltd had signed.We both recognized the arbitrary nature of the MIP-13 proposal and the danger a precedent like this could set for the Merit Circle DAO and the industry as a whole if agreements are not upheld and investors are not respected. The chosen tool was too crude and did not do justice to prior agreements.The divergence between the prior agreement and the DAOs proposal would have likely led to legal action against Merit Circle Ltd. While the legal question is one that could probably be argued at length, both parties agreed it was better to settle. This would spare both parties from a costly, time-consuming, legal process with uncertain outcomes. None of the parties had to settle, but both parties chose the constructive path to help Merit Circle move forward.Everything is legal enough (because they settled), but still unnerving. Contracts with DAOs don’t entirely count, if the DAO can reject them. And DAOs don’t entirely count, if the managers can reject the vote of the DAO by saying “well we signed a contract.”By the way, one is tempted to say, like, “smart contracts on the blockchain can solve this”? Like in a world where the DAO irrevocably issues tokens to investors — or one where the DAO revocably issues the tokens, with revocation explicitly contingent on a token-holder vote or on objective measures of performance or whatever — you don’t have this ambiguity. But in a world where the DAO’s legal entity is doing normal legal-entity stuff, but also vaguely beholden to the vote of the DAO, you kind of get the worst of everything.
+  
+    
+      
+        
+      
+    
+  
+
+
+  
+    
+      Egan-Jones
+    
+  
+Egan-Jones Ratings Co. is a ratings agency that gives credit ratings to debt deals. The way credit ratings generally work is that an issuer comes to the ratings agency and asks for a rating, the agency considers the deal and gives it a rating, and the issuer pays the agency for the rating. This creates some obvious conflicts of interest that are mostly regulated in obvious ways. The US Securities and Exchange Commission rules require, for instance, that the ratings-agency employees who solicit issuers for business, manage their relationships and collect the fees have to be separate from the employees who do the ratings. And there has to be enough process and documentation that the agency can say “we gave this AAA rating because it was justified by the credit, not because they paid us a lot of money.” In practice this separation seems hard, or at least awkward, to enforce. You can’t really have a rating agency where the person giving the rating doesn’t talk to the issuer: You need to talk to the issuer to understand the thing that you are rating. If you talk to the issuer about the deal, and then you say “okay I’m giving you a BBB+ rating,” and the issuer says “that’s ridiculous, it should be A+ at least, I will never use your ratings agency again, kiss those fees goodbye,” you can — arguably you should — reply “that is none of my concern, good day sir,” but that isn’t easy. You do get paid out of those fees, after all.Egan-Jones, and its founder and chief executive officer Sean Egan, got in trouble with the SEC yesterday for an assortment of awkwardnesses. Here’s a good one:On July 11, 2019, Client A engaged EJR to issue a rating for a real estate transaction. Although EJR’s typical turnaround time for that type of rating was approximately five days, on July 23, EJR discovered that the client relationship manager for Client A had failed to submit the ratings request to the ratings group.On July 31, Client A emailed EJR’s client relationship manager to ask about the status of the rating and the reason for the delay. In those emails to EJR, Client A complained that the delay was “beyond ridiculous” and demanded that the rating be issued that day by 5:00 p.m. Client A also threatened to cancel the pending rating request and stop doing business with EJR.Egan — who at the time was EJR’s president and the head of EJR’s ratings group — spoke to the client relationship manager and stated that Client A was an important client for EJR and that he was concerned that EJR could lose Client A’s business.Later on July 31, Egan called Client A and promised that EJR would provide the requested rating later that day. Egan also told Client A that the client relationship manager was being replaced. This was technically not allowed, or at least frowned upon: Egan was meant to be on the ratings side, not the marketing side, so emailing the client about replacing the relationship manager was awkward. On the other hand he’s the CEO and his name is on the door, so when the client was displeased he stepped in. The relationship manager really shouldn’t have sat on the request!But Egan also joined the Ratings Review Committee that rated the deal:At around 4:30 p.m. on July 31, a half hour before Client A’s deadline, EJR convened an RRC by telephone to vote on a proposed rating for Client A. Egan and a senior EJR analyst (“Analyst 1”) were the voting members of the committee, with Analyst 1 serving as the chairperson. The presenting analyst on the committee (the “Presenting Analyst”) recommended a rating of BBB+ for the transaction. However, during the RRC meeting, Analyst 1 requested certain information about the transaction that she believed was essential for determining an accurate rating. Because EJR did not have the information that she sought, Analyst 1 abstained from voting on the proposed rating. Without a majority of voting members in support, the proposed rating was not approved by the RRC.At approximately 5:13 p.m., Client A sent Egan an email stating: “We are passed [sic] 5pm. Where is the rating?”At approximately 5:17 p.m., Egan became the chairperson of the RRC. Analyst 1 was replaced with another EJR analyst (“Analyst 2”) as the second voting member.At 5:21 p.m., Egan and Analyst 2 voted to approve the proposed BBB+ rating, which EJR then issued.Again, frowned upon: The analyst didn’t want to approve the rating because some information was missing, and Egan overruled her and approved the rating anyway. Again, understandable: Egan-Jones had blown the deadline and annoyed a customer, so asking for more information after the deadline would be too awkward. It’s probably fine!The customer didn’t think so:Client A, however, was displeased with the BBB+ rating, and emailed the Presenting Analyst asking why the rating only was BBB+ and noted that EJR had recently rated another, similar transaction for Client A two notches higher. When the Presenting Analyst attempted to explain the reason for the BBB+ rating, Client A replied, “Surely you jest. I recommend you go back and verify your models. You must have missed something.” Client A then forwarded those emails to Egan and asked Egan to call to discuss the rating. .. On August 6 and August 7, 2019, Client A emailed Egan asking him whether there was any “update” on the rating.Around this time, Egan, in his capacity as a member of the prior RRC that had approved the BBB+ rating on July 31, directed the Presenting Analyst to develop a new rating tool in light of Client A’s concerns about the BBB+ rating. On August 12, EJR convened another RRC, with Egan as a voting member and an analyst who had not participated in either of the two prior RRCs as the RRC chair and second voting member (“Analyst 3”). Neither Analyst 1 nor Analyst 2 was invited to serve on this new RRC.The Presenting Analyst again proposed a rating of BBB+. Notwithstanding the Presenting Analyst’s recommendation, and although EJR had received no substantive information from Client A to support a higher rating, Egan and Analyst 3, relying on the new rating tool referenced above, voted to increase the rating one notch to A-.Yeah I mean you shouldn’t do that. But at this point Egan was in the customer-service business, and he had a demanding and aggrieved customer, so the customer got its A- rating. You can tell this as a story about the inherent conflicts of interest involved in an issuer-pays ratings model, but it is not obvious that the fees were the main motivating factor here. Arguably the irate emails from the customer were what did it. Nobody wants to get mean emails, and if a one-notch ratings upgrade is what it takes to stop the mean emails, then that is a small price to pay.There are assorted other violations in the SEC order, and Egan-Jones agreed to pay about $1.8 million of fines and disgorgement without admitting or denying the findings. One that I liked is that, due to an earlier SEC run-in, Egan-Jones is not allowed to rate asset-backed securities or municipal bonds. But the boundary between “asset-backed security” and “complicated debt of a corporate issuer” is a bit fuzzy, so:In late 2016, Client C engaged EJR to rate two tranches of a transaction involving the financing of certain receivables. On January 19, 2017, EJR provided Client C with an indicative rating on the transaction, but at the same time questioned whether the transaction might constitute an ABS. EJR asked Client C to provide it with the transaction documents to evaluate whether the transaction was an ABS.In February and March 2017, EJR issued two more indicative ratings on the transaction. EJR informed Client C at this time that Client C “might be bumping into structured finance if [it] plan[s] to structure with various tranche [sic].”Based on a term sheet and other materials received from Client C, on May 3, 2017, EJR issued the final rating for two tranches of Client C’s transaction in the corporate ratings class, in which EJR was registered as an NRSRO, rather than the ABS class in which EJR’s registration had been revoked. EJR issued those ratings notwithstanding that Client C had not provided the requested transaction documents and the question of whether the transaction was an ABS remained unresolved at that time.Eventually Egan-Jones decided that it was an ABS, “but did not withdraw the May 2017 NRSRO rating. Instead, EJR told Client C that it would need to restructure the transaction as a loan or as a note from an operating company in order to receive an updated NRSRO rating in the corporate ratings class.” (Weirdly, the client agreed.)Similarly, the boundaries between corporate bonds and municipal bonds can be a little vague: Corporations sometimes do projects with or for municipalities, and issue bonds to fund them, and those bonds can be corporate or municipal or somewhere in between. So Egan-Jones rated two “Property Assessed Clean Energy (‘PACE’)” bonds for a corporate client. I don’t know what that is, but then neither did Egan-Jones: “The ratings team that generated the rating was unfamiliar with the PACE program, and conducted general internet research on the bond.” I sympathize. They concluded that it was not a municipal bond; the SEC disagreed. 
+  
+    
+      Twitter Stuff
+    
+  
+We  talked last week about Thoma Bravo’s deal to acquire Anaplan Inc. Thoma Bravo had signed a merger agreement to buy Anaplan for $66 per share, but then the market crashed and Thoma Bravo regretted its choices. So it called Anaplan up and said, in effect, you have to cut the price or we will try to find an excuse to get out of the deal. Anaplan grudgingly agreed to cut the price to $63.75. In exchange, it got:	Considerably more certainty that the deal would close, as Thoma Bravo waived various closing conditions and agreed to a much higher breakup fee; and	The satisfaction of writing a merger proxy statement explaining in great and peevish detail how Thoma Bravo dishonorably demanded a discount on the deal it had agreed to.Would you pay $400 million of shareholder money for the right to vent publicly about your merger partner retrading the deal? I see the appeal. Anyway the deal closed today, at $63.75, so it all worked out.Meanwhile, yesterday Twitter Inc. filed the revised proxy statement for its deal with Elon Musk. Elon Musk signed a merger agreement to buy Twitter for $54.20 per share, but then the market crashed and Musk regretted his choices. So he started tweeting excuses to get out of the deal. Those excuses are  not very  good, and as far as I know the deal is still on and Twitter has not agreed to any sort of price cut. On the other hand Musk keeps talking about those excuses, and Twitter’s stock closed yesterday at $38.91, which is very much not $54.20, so the market certainly thinks that he’ll either get out of the deal or get a lower price.In a better world, Twitter’s revised proxy would be like Anaplan’s, laying out a detailed timeline of Twitter’s negotiations with Musk since signing the merger agreement, and expressing Twitter’s annoyance with Musk’s excuses. But I suppose that is not a good idea for Twitter at this point. Here is more or less all they say about it, from the Questions and Answers section of the revised proxy:Q: What is the current status of the transaction?A: Twitter is committed to completing the transaction on the agreed price and terms as promptly as practicable. Twitter and its representatives, and Mr. Musk and his representatives, are meeting regularly to discuss the transaction and the remaining actions necessary to close the transaction. In connection with these discussions, in accordance with the merger agreement, Twitter is providing Mr. Musk and his representatives with information concerning Twitter. Twitter stands behind the accuracy of its public disclosures, including with respect to its estimates of false and spam accounts, and is providing information to Mr. Musk related to such disclosures.That is not a particularly complete answer to “what is the current status of the transaction,” but I don’t think anyone knows the real answer. 
+  
+    
+      Things happen
+    
+  
+Powell Says Fed Needs Compelling Evidence of Inflation Slowdown to Alter Rate-Rise Path. BlackRock Urges SEC to Change  Climate-Risk Disclosure Plan. Binance.US Eliminates Spot Trading Fees on Bitcoin. Former manager at crypto exchange Huobi accused of illicit trading. Short Sellers Are  Having a Field Day Betting Against Crypto Stocks. Dallas Cowboys Owner Scores on Billion-Dollar Natural-Gas Gambit. Switzerland Imports  Russian Gold for First Time Since War. Lawyers Make Final Arguments in Fraud Case Against Former Theranos President. Hong Kong’s landmark Jumbo floating restaurant sinks at sea. The tiny mites that have sex on our faces have a problem.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter? 
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+  
+
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cgr67v.5xfa/20e7d4e2.gif" alt="" border="0" /></a>

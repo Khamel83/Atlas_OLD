@@ -1,0 +1,209 @@
+# Carolina Herrera vs. Chanel, LVMH Whispers & More Saks Drama
+
+**From:** Lauren Sherman <lauren@puck.news>
+**Date:** Wed, 26 Feb 2025 23:30:27 +0000
+**Source:** inputs/saved_emails/Carolina Herrera vs. Chanel, LVMH Whispers & More Saks Drama_Wed,_26_Feb_2025_23-30-27_+0000_195449909474b7bb.eml
+**Processed:** 2025-08-24T19:13:06.824016
+
+Feb 26, 2025
+
+Line Sheet ( https://puck.news/newsletters/line-sheet/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Hi, and welcome back to Line Sheet. Today is Rachel
+“Rachel@puck.news” Strugatz Day, and as per usual, she’s serving beauty industry intel that literally no one else can gather. This week, she’s got the inside story of how Carolina Herrera’s Good Girl, launched in 2016, unseated Chanel’s Chance as the top-selling fragrance in the world. (Yes, you read that right.) Up top, I deliver the latest on the Saks Global layoffs, plus murmurs of changes on the executive side of the LVMH Fashion Group.
+
+By the time you read this, I’ll be in Milan, maybe even asleep? (I landed just a couple of hours ago from London.) For those who were here, though, the day was jammed with shows (Diesel, Jil Sander, Fendi), and transition is the only word I can muster to summarize them. A few hours after the Jil Sander models walked, parentco OTB announced that Luke and Lucie Meier, the brand’s co-creative directors, are leaving, a turn of events
+that I previewed a few weeks back ( https://puck.news/simone-bellotti-leaves-behind-a-legacy-at-bally/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). It was a “mutual” decision.
+
+For tomorrow’s Inner Circle issue (don’t hesitate to trade up here ( https://puck.news/inner-circle/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )), I’ll be delivering a state of the fashion union of sorts, plus reporting from Prada, Max Mara, and more.
+
+ 
+
+🚨🚨Programming note: Today on The Powers That Be, I’m discussing The White Lotus’s collaboration blitz and NikeSkims with Puck’s number one (only?) wearer of printed camp shirts ( https://pertedego.com/products/le-voyage-shirt?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Peter Hamby. Listen
+here ( https://podcasts.apple.com/us/podcast/white-lotus-collabmania-nikes-woman-problems/id1586269186?i=1000696165554&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and here ( https://open.spotify.com/episode/4ZXjQ2ogqZoVQyfF1tL7UW?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). 
+
+Mentioned in this issue: Puig, Good Girl, Carolina Herrera, Marc Metrick, Saks Global layoffs, Fendi, Pierre-Emmanuel
+Angeloglou, Ramon Ros, LVMH, Dear John letters, Hennessy, Alexandre Arnault, Walmart, Target, PerfumeTok, Paco Rabanne, Gucci, L’Oréal, Coty, and many more…
+
+ 
+
+Three Things You Should Know…
+-------------------------------
+
+* On the Saks layoffs: Industry chatter has finally moved away from the Dear John letter ( https://puck.news/saks-well-pay-you-in-90-not-30-days-vendors-grr-argh/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that Saks Global C.E.O. Marc Metrick sent to brand partners earlier this month concerning its new 90-day receivables policy and stingy 12-month incremental backpay program. Now, Saks Global is on to its next agenda item: Layoffs!
+Yesterday, the company announced the elimination of about 5 percent of its global corporate workforce, or about 150 jobs. I suspect that executives across the newly formed group—which includes Saks Fifth Avenue, Neiman Marcus, and Bergdorf Goodman—saw this coming. At the very least, they should have. With any merger, there are redundancies.
+
+In a town hall meeting on Wednesday afternoon, Metrick addressed a few specific issues. In keeping with these strange times, he said that some people
+from the D.E.I. and E.S.G. teams were being laid off, and that others would have their titles changed. (Metrick insisted that Saks Global would continue to support D.E.I. initiatives like Harlem’s Fashion Row and RaiseFashion, and that the change in titles simply represented a broadened scope of work.) He also addressed the infamous letter, admitting that it obviously would have been better to call each of the 2,000 vendors individually to explain the change, but that would have been entirely
+impractical. (In the end, he might have to call a good percentage of them to make amends anyway.) He also reiterated his side of the argument: It’s challenging to pay within 30 days for a product that might not sell for six months.
+
+Finally, he emphasized that Saks Global is one company, and there would be zero tolerance for old-school Saks versus Neimans versus Bergdorf’s nonsense. Of course, a level of competition among coworkers is healthy and effective. But the public-facing
+team, in particular, needs to show a united front in Milan and Paris in the midst of this letter fiasco. Apparently, Metrick conveyed all of this in a nice way. He doesn’t script his speeches, and employees were generally relieved that he bothered to host the town hall, even if they’re still anxious about all the change.
+
+One more thing on letter-gate: During yet another week spent talking about the Saks situation with pretty much everyone involved, a few key questions emerged.
+First, some stakeholders have wondered why Saks Global can’t pay vendors on time—especially Bergdorf’s and Neimans, they note, who had been managing to do business promptly. But I’ve reminded them that Neiman Marcus Group did go bankrupt during the pandemic, which cleaned their debt slate. Others, meanwhile, have pointed out that the 90-day payout policy is prohibitive for small brands with cash flow and inventory challenges. When brands are really small—or incredibly in
+demand—retailers sometimes set up a prepayment plan, whereby they fork over half of what they owe the designer up-front, months before the merchandise hits the sales floor, to help cover the cost of production.
+
+That last observation is particularly salient for the industry. If Saks Global wants to keep selling emerging designers, I predict they’re going to have to set up one-off deals with many of them, or risk the stores being diminished to nothing but luxury shop-in-shops and
+Torn By Ronny Kobo. In the end, I think we’re going to see far more brands moving to a concession model if they have the negotiating power, and Saks Global bending the rules for cool, in-demand brands that don’t.
+* Who’s my guy?: When is LVMH going to announce a leadership change at the Fashion Group? A potential executive shake-up at Fendi could offer a clue: Over the past weeks, as Fendi prepared for today’s 100th anniversary show, there was speculation
+that C.E.O. Pierre-Emmanuel Angeloglou might be replaced by Ramon Ros, the C.E.O. of Louis Vuitton China. I’ve heard that there is some pushback on the change coming from Paris, but Angeloglou is a rising star, and I assume LVMH has big plans for him regardless of what goes down in coming weeks. Plus, he just did a big ole
+smiley profile in WWD ( https://wwd.com/fashion-news/designer-luxury/fendi-centenary-kicks-off-coed-show-newly-renovated-milan-headquarters-1236980633/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) about today’s co-ed centenary show, which people seemed to really like. (And not just Baguette queen Sarah Jessica Parker, who sat front row.) As for Ros’s prospects, Louis Vuitton is the training ground for LVMH execs, so it’s not far-fetched that
+he’d get an upgrade at some point. The company did not comment on the matter.
+
+Meanwhile, there has been no communication on the whereabouts of Laurent Boillot, the former C.E.O. of Hennessy, who was teed up to take over the wine and spirits division until Alexandre Arnault and finance king Jean-Jacques Guiony were brought in. Their mission, of course, is to ward off potential Trump tariffs, get young people drinking
+again, and then potentially spin off the whole thing ( https://puck.news/lvmhs-liquor-problem-the-san-francisco-retail-apocalypse/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) into a separate entity to entice Middle Eastern sovereign wealth funds that avoid LVMH because alcohol puts it in the vice business. Boillot is incredibly valued, I’m told, so he’s gotta be going somewhere.
+* Could Target’s D.E.I. dump hurt sales?: A loyal
+Line Sheet reader sent me a follow-up to Sarah’s note ( https://puck.news/newsletter_content/madewells-identity-crisis-walmart-jitters-a-farfetch-rebound-3/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) about Walmart’s adjusted guidance and the general malaise at big box retailers as consumers pull back on spending for various reasons. (Mostly economic anxieties.) This person wondered: Could Target’s sales be particularly vulnerable because of their walkback on D.E.I. policies? At
+this point, after all, you’ve probably seen the videos of empty Target stores in Black neighborhoods.
+
+My initial response was that a boycott by a faction of consumers wouldn’t really move the needle. But… perception is powerful, and I am hearing from unbiased sources with firsthand knowledge that blowback from the D.E.I. reversal was not insignificant. We won’t really know until Target and Walmart start posting this quarter’s results, and honestly, we may never know. The
+impact of sentiment on sales, especially at a multinational, is tough to measure.
+
+The Tao of Puig ( https://puck.news/how-carolina-herreras-good-girl-dethroned-chanel/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+*********************************************************************************************************************************************************************************************************************************************************************************
+The Tao of Puig ( https://puck.news/how-carolina-herreras-good-girl-dethroned-chanel/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+*********************************************************************************************************************************************************************************************************************************************************************************
+
+Good Girl, the iconic Carolina Herrera fragrance, recently surpassed Chanel’s Chance as
+the world’s best-selling women’s perfume. An inside look at how Puig, the brand’s Spanish owner, leveraged social media and savvy marketing to dethrone a legend.
+
+Rachel Strugatz ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Rachel Strugatz ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Even within the cutthroat beauty business, there is no subcategory more fiercely
+contested than women’s fragrance. Chanel, Dior, YSL Beauty, and a few others have historically dominated, cycling in and out of the top spots and spending lavishly to establish and defend their positions. Which is why I was shocked to learn that the past year’s bestselling women’s fragrance franchise is not from one of the Big Three, but… Carolina Herrera’s Good Girl, the citrusy-sweet perfume that comes bottled in a mini stiletto heel. 
+
+ 
+
+Incredibly, according to Circana consumer data, Good Girl isn’t just the top perfume brand in the U.S.; it was also the bestselling women’s fragrance in the world last year, supplanting Chanel’s Chance. (Valentino Donna, Dior’s Miss Dior, and Chanel’s Coco Mademoiselle round out the rest of the top five.) Yes, yes, these rankings are estimates, compiled from a number of data points, so take them with a grain of salt. But the dethroning of Chanel,
+long the category leader, is a huge deal.
+
+ 
+
+Carolina Herrera’s momentum may not be surprising to analysts who’ve spent time on TikTok, which has helped propel the brand. But the real credit goes to Puig, the Spanish beauty and fashion conglomerate that acquired Carolina Herrera in 1995, transforming a company best known for its gala wear into one of the world’s biggest sellers of designer fragrances. More
+recently, Puig has been at the forefront of some of beauty’s biggest M&A deals, acquiring a majority stake in Charlotte Tilbury in 2020 and Byredo in 2022. Puig went public last May in the largest European offering of 2024. 
+
+ 
+
+Long before the I.P.O., however, Puig began laying the groundwork for the upmarket consumer strategy that’s now paying dividends. The company spent the past two decades
+reinventing itself from a regional mass market player to compete with LVMH, L’Oréal, and Coty. In 2022, Puig reached 10 percent worldwide market share of “selective fragrances,” a subcategory that includes designer perfumes, more than tripling its market share since 2004. 
+
+ 
+
+At its earnings call tomorrow, Puig is expected to announce that it has surpassed 11 percent market share. “A lot of Puig’s [previous] business was
+in mass market, and mostly in Spain, and they stopped all of this––which was profitable––and decided to focus on fragrance and fashion and nothing else until they commanded 10 percent of market share in fragrance,” said a person with knowledge of their trajectory.
+
+Social
+Media & Sex Appeal
+------------------
+
+Puig has pursued a disruptive marketing strategy, too. In 2008, the company went
+rogue in the best way, launching Paco Rabanne’s 1 Million cologne with a fairly radical brand play. Instead of selling romance or sensuality, like everyone else, the scent told a story about wealth and power––a provocative idea in fragrance marketing at the time. Now, Rabanne drives more than $1 billion in sales.
+
+ 
+
+Good Girl followed a similar trajectory. The original eau de
+parfum, which smells of jasmine and tonka beans, launched in 2016 with the slightly cringey, ultimately catchy tagline “It’s so good to be bad”—which sort of runs counter to what Carolina Herrera, the brand and the person, are known for: beautiful dresses and gowns for rich ladies who lunch and attend galas. “Good Girl runs so far from Carolina’s DNA––which is genius,” an insider said.
+
+ 
+
+At the
+time Good Girl launched, Carolina Herrera de Baez told me the concept was inspired by her mother’s conviction that mystery is one of the most important qualities a woman can have. The scent and packaging—an iconic navy high heel—embodies the notion of Herrera’s idealized customer as both elegant and a little bit naughty. (Model Karlie Kloss has been the face of the fragrance since its inception.)
+
+ 
+
+Marketing spin aside, it was clear early on that Good Girl was destined to be huge. Just seven months after its debut, I reported that the fragrance was on track to double its initial sales projections in its first year and hit around $100 million in revenue. Puig has manufactured Carolina Herrera’s fragrances for 37 years, but it’s only in the past decade that the group has explicitly focused on building the brand’s fragrance franchises. In
+2015, Carolina Herrera’s perfumes were a solid rough $300 million business, still nothing to sneeze at, with the majority of sales coming from outside the U.S. Since then, revenues have multiplied (they’re still $1 billion) and globalized. (Puig and Carolina Herrera declined to comment on sales figures or specific brand rankings.)
+
+ 
+
+Meanwhile, Puig continues to differentiate itself by ignoring its
+competitors. L’Oréal and Coty, for example, hold the majority of designer fragrance licensees, which means they’re at the mercy of the brands who hire them to create, manufacture, and distribute their products. If a brand isn’t happy with their licensor, they can just take their business elsewhere. (Gucci, which has been pretty vocal about its disappointment with Coty, will likely take its beauty line in-house after their deal ends.) As a result, the L’Oréal-Coty rivalry is among the fiercest in
+the industry. Puig has sidestepped that designer licensing arms race: Ninety-five percent of its business comes from its wholly owned brands.
+
+ 
+
+Beyond the strong brand story or clever packaging, however, the success of Good Girl contains a lesson about social media, too. Good Girl is a fixture on TikTok and one of few designer fragrances that get a lot of airtime across PerfumeTok, where perfume collectors show off their
+stashes. Good Girl was recently featured in a video called “Perfumes that make men go crazy” that racked up 1.3 million views. Another, which had 3.3 million views, features Good Girl as a top “sexy” fragrance. “This is the reference point for today’s generation,” said an executive with knowledge of Puig’s business. Or maybe, in a visual medium like TikTok, there’s still nothing sexier than a stiletto-shaped bottle.
+
+ 
+
+What
+Rachel Is Reading…
+--------------------
+
+I’m obsessed with this piece about the writer’s makeup-artist neighbor and was not
+expecting the twist at the end. I recognized the makeup artist instantly, and it was cool to find out that she’s always been this nice. [NYT ( https://www.nytimes.com/2025/02/22/style/the-perfect-girl-next-door.html?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+A roundup of some top beauty podcasts that includes Fat Mascara. I thought Gloss Angeles and
+Eyewitness Beauty should’ve been on there. Both offer great industry insights with very different tones. [NYT ( https://www.nytimes.com/2025/02/22/arts/podcasts-beauty-skin-care.html?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+I predicted this months ago, so I’m not surprised that Alex Cooper and Alix Earle have parted ways. Earle is too big for the network at
+this point. [Variety ( https://variety.com/2025/digital/news/alix-earle-hot-mess-podcast-dropped-alex-cooper-1236320220/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+That’s it from Rachel and me. Very interesting that Suzanne Koller
+styled the Gucci show. (As you may well know, she’s a close collaborator of new-new-new Bottega designer Louise Trotter.)
+
+ 
+
+Until tomorrow,
+
+Lauren 
+
+P.S.: We are using affiliate links because we are a business. We may make a couple bucks off them.
+
+What I'm Hearing ( https://puck.news/newsletters/what-im-hearing/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+An essential, insider-friendly Hollywood tip sheet from Matthew Belloni, who spent 14 years in the trenches at The
+Hollywood Reporter and five before that practicing entertainment law. What I’m Hearing also features veteran Hollywood journalist Kim Masters, as well as a special companion email from Eriq Gardner, focused on entertainment law, and weekly box office analysis from Scott Mendelson.
+
+The Baldoni Black Hole
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Baldoni Black Hole ( https://puck.news/the-blake-lively-justin-baldoni-legal-blast-radius-widens/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ERIQ GARDNER
+
+Elon’s
+Icarus Moment
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Elon Blowback ( https://puck.news/what-swing-voters-think-of-musk-trump-and-the-economy/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PETER HAMBY
+
+Madewell’s Arrested Development
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Madewell’s Arrested Development ( https://puck.news/can-madewells-sell-mom-jeans-to-actual-moms/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SARAH SHAPIRO
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVRJiRg-GefjdM7c13Xmw=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%282%2F26%2F25%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

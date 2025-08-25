@@ -1,0 +1,112 @@
+# Microsoft EOLs Skype, Skype's Founding, Microsoft's Skype Charity (Stratechery Update 3-3-2025)
+
+**From:** Ben Thompson <email@stratechery.com>
+**Date:** Mon, 3 Mar 2025 12:42:27 +0000
+**Source:** inputs/saved_emails/Microsoft EOLs Skype, Skype's Founding, Microsoft's Skype Charity (Stratechery Update 3-3-2025)_Mon,_3_Mar_2025_12-42-27_+0000_1955c07a338d978b.eml
+**Processed:** 2025-08-24T19:13:12.793468
+
+Microsoft is pulling the plug on Skype, a service they never should have acquired and on which they spent way too much time and money; I'm still sad.
+
+View in browser ( https://stratechery.com/2025/microsoft-eols-skype-skypes-founding-microsofts-skype-charity/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L21pY3Jvc29mdC1lb2xzLXNreXBlLXNreXBlcy1mb3VuZGluZy1taWNyb3NvZnRzLXNreXBlLWNoYXJpdHkvIl19LCJleHAiOjE3NDM1OTc3NDcsImlhdCI6MTc0MTAwNTc0NywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.dy4aavT6gFfBwK6OLzlChO29ee21MF3sk6d1fdxuN1-SbvJ3ihP2wFsHznfK7WkStbPdSMNPAkuistE33mqciaBbPkKX_NxTYIv90cofeOmWkb3aFq6hD_yNOEdZ9ulMBweX7FGTyUjcsG5i3Y-_z-qvd3h0VgE9M6xlijQRWevCv7lpUpVyJk55XGNzdYJkEKR9DpSurCINVWHUALN0xP46L-etQjuZbd-ystXBe62SOQyePTKRmsi3VFdq_70GIzTNvcKB7cygkAKrUz0DLpUmpHVHMSWfIE2ruLnfXp38Rsij64yYEVdT6GOctWV3tQ_GOs0dhhY2cSlT0oJUUg )
+
+( https://stratechery.com )
+
+*****************************************************************
+Microsoft EOLs Skype, Skype's Founding, Microsoft's Skype Charity
+*****************************************************************
+
+( https://stratechery.com/2025/microsoft-eols-skype-skypes-founding-microsofts-skype-charity/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L21pY3Jvc29mdC1lb2xzLXNreXBlLXNreXBlcy1mb3VuZGluZy1taWNyb3NvZnRzLXNreXBlLWNoYXJpdHkvIl19LCJleHAiOjE3NDM1OTc3NDcsImlhdCI6MTc0MTAwNTc0NywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.dy4aavT6gFfBwK6OLzlChO29ee21MF3sk6d1fdxuN1-SbvJ3ihP2wFsHznfK7WkStbPdSMNPAkuistE33mqciaBbPkKX_NxTYIv90cofeOmWkb3aFq6hD_yNOEdZ9ulMBweX7FGTyUjcsG5i3Y-_z-qvd3h0VgE9M6xlijQRWevCv7lpUpVyJk55XGNzdYJkEKR9DpSurCINVWHUALN0xP46L-etQjuZbd-ystXBe62SOQyePTKRmsi3VFdq_70GIzTNvcKB7cygkAKrUz0DLpUmpHVHMSWfIE2ruLnfXp38Rsij64yYEVdT6GOctWV3tQ_GOs0dhhY2cSlT0oJUUg ) Monday, March 3, 2025
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+On Thursday's Sharp Tech ( https://sharptech.fm/member/episode/ai-promises-and-chip-precariousness-policy-recommendations-and-a-changing-world-concerns-and-counterpoints ) we discussed AI Promises and Chip Precariousness ( https://sharptech.fm/member/episode/ai-promises-and-chip-precariousness-policy-recommendations-and-a-changing-world-concerns-and-counterpoints ) ; for today, while there is other news to get to, this is my last chance to write about one of my favorite services ever.
+
+On to the Update:
+
+Microsoft EOLs Skype
+--------------------
+
+From the Wall Street Journal ( https://www.wsj.com/tech/microsoft-to-shutter-skype-shift-users-to-teams-eec7d5d3 ) :
+
+In May, Microsoft will shut down Skype, which it bought in 2011 for $8.5 billion in what at the time was the biggest acquisition in the tech titan’s history. It is encouraging Skype users to migrate to its free Teams app, it said Friday.
+
+The demise of Skype isn’t likely to have a big impact, even though in its heyday it was so widely known that its name became a verb, as in “Skype me.” Once a novel technology with millions of users around the globe, Skype has long lost its luster as competing options — including Teams, as well as Zoom, Google Meet and others — gained ground. The service was dominant in the early days of making video calls over the internet and a pioneer in letting people make long-distance calls without phone charges. During a time when calling overseas could be an expensive endeavor, Skype simplified the use of internet calling for the masses…
+
+In a statement on its website, Microsoft said it was retiring Skype “to streamline our free consumer communications offerings so we can more easily adapt to customer needs.” The company said it plans to focus on Teams, which it launched in 2017 as a competitor to Slack. “With Teams, users have access to many of the same core features they use in Skype,” Microsoft said. Other once red-hot technologies have also been put out to pasture. Verizon Communications pulled the plug on AOL Instant Messenger, or AIM as it was known, in 2017.
+
+This is one of those pieces of tech news that for me is deeply personal. I landed in Taiwan on August 16, 2003; Skype launched 13 days later, and I became a user almost immediately. How could I not? The alternative was either sky-high mobile rates or getting a calling card at 7-11 and using the phone booth on the wall outside. To be able to call friends and family from my computer for free was such an incredible win.
+
+Moreover, if you fast forward to 2025, I'm still a user; in April 2004 Skype launched SkypeOut, which let you use Skype to call actual phone numbers, and a year later launched SkypeIn, which let you buy a phone number that rang Skype. While I eventually lost the need for the latter — I finally got a full-time U.S. phone number when iPhones started supporting dual SIMs in 2018 — I still used the former 24 times last year, usually to call some random customer support number with interminable hold times.
+
+And, of course, there was podcasting. The first few years of Exponent ( https://exponent.fm/ ) were recorded on Skype, and a whole host of guest appearances on other shows. That too went away over time, replaced by some combination of Zoom and dedicated podcast hosting services, but I agree with John Gruber ( https://daringfireball.net/linked/2025/02/28/microsoft-skype-eol ) that "if not for Skype, podcasting would’ve been set back several years."
+
+For all these reasons I'm disappointed and a bit miffed and wistful; what I am not is angry, particularly at Microsoft. Indeed, if anything I should be grateful.
+
+Skype's Founding
+----------------
+
+Om Malik wrote on his personal blog ( https://om.co/2025/02/28/skype-is-dead-what-happened/ ) :
+
+Microsoft now talks about Teams being their focus, showing that even today they haven’t realized what made Skype a cultural, consumer force. Microsoft Teams is a terrible product — and I dread using it. In simplest terms, Teams is a perfect encapsulation of a bureaucratic, archaic, and outdated 50-year-old company that is trying to reinvent itself as an AI leader.
+
+More on that another time, but for now, let’s call it what it is. Microsoft bought and effectively killed Skype. I could write a Ph.D. dissertation on this — for now, this is all I have to say. Microsoft didn’t know how to nurture Skype, and its bureaucracy killed one of the most iconic brands of the new century. Skype was the precursor to WhatsApp’s global success…
+
+Skype’s demise is a good lesson in how ineffective middle management can destroy good acquisitions. I have never met a Skype manager on Microsoft’s side who had any imagination. Most were such “drones” that next to them even a red clay brick would come across as a genius work of art.
+
+I am a big fan of Malik, and loved interviewing him last year ( https://stratechery.com/2024/an-interview-with-om-malik-about-techs-history-and-future/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FuLWludGVydmlldy13aXRoLW9tLW1hbGlrLWFib3V0LXRlY2hzLWhpc3RvcnktYW5kLWZ1dHVyZS8iXX0sImV4cCI6MTc0MzU5Nzc0NywiaWF0IjoxNzQxMDA1NzQ3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.fRhsD0Xl7q_i1n0owLqhxZfE5gZinu8IPuyl2BTrBgpkJjxJ3QmfH_sT9NRU5ef_PV9eV5P4kQrw8vAmFN1_olCse0DMRd7uRnEtkvvrDh9WLDv6RvP7CrgRefdI1nZ9mjCUI0VYWSa_Pdt899lvLk-lS4YGYnhO4ICV4ACFFv9trli6BgitULuN53UPwfQqo64QyigHtACx3yMJyEcJ_L1KUWwAVie_OJR2f3OWhyNqCQzc1Zz-jVuqrnGHMwmGpGaGLDCEiigFMDn-WJkPg0m-1qSs0e8cyT6CRraelSqwplFRPEACo4x1N1suk_BXcvb6TAwzXCTea_W8T6FnJw ) , but disagree with his take completely. Microsoft deserves a massive amount of criticism for Skype, but that criticism should be from shareholders, not Skype users. Skype was already dead when Microsoft drastically overpaid for it, and it's only through a massive waste of money that it lasted as long as it did.
+
+To understand why you have to go back to what made Skype such a miracle in the first place, and that story starts in 1999 with the launch of the infamous Napster file-sharing service. Napster combined a centralized service, which kept track of every user and the files they hosted (which, by-and-large, were MP3s), with a peer-to-peer architecture for actually transmitting those files. This made Napster both incredibly easy-to-use and also able to operate efficiently on the limited bandwidth of the time; the centralized server also made Napster liable for all of the piracy that resulted.
+
+Two years later and Napster was taken down by federal court, and one of the alternatives that users turned to was called Kazaa. Kazaa did not have a centralized server; instead there were so-called "supernodes" — Kazaa users with fast computers and always-on broadband connections — who handled indexing, searches, and facilitated peer-to-peer sharing. Kazaa was also sued, but the battle was trickier, given its decentralized nature; still, the founders saw the writing on the wall and sold out in 2002.
+
+What they retained was their idea of peer-to-peer connections facilitated by supernodes: a year later they launched Skype, which was, in many respects, a voice version of Kazaa. Instead of transmitting MP3s, Skype transmitted voice-over-IP and text messages, and eventually video, directly between users. This was affordable and scalable thanks to the use of supernodes, instead of a centralized server. And, as I noted above, it was a miracle to its users, and a disaster for long-distance telephony providers.
+
+Two years after that and Skype was acquired by eBay for $2.6 billion, with the idea of making it easy for sellers and buyers to communicate; yes, I promise you, it sounded as stupid then as it does now. eBay changed CEOs a few years later, and Skype was on the chopping block; in 2009 eBay sold Skype to a consortium of investors for $2.75 billion, who flipped the company to Microsoft in 2011 for a jaw-dropping $8.5 billion. This remains one of the most mystifying transactions I've ever seen: not only did Skype's financials not remotely justify that number, there wasn't a strategic angle either, because the iPhone had launched four years earlier.
+
+Microsoft's Skype Charity
+-------------------------
+
+Everything that made Skype a miracle in 2003 made the service a non-contender in mobile.
+
+* While mobile phones were obviously not supernodes, maintaining the current status of your network introduced a lot of networking and compute overhead.
+* Skype was built to be a PC app, which means it assumed an excess of available performance, unlimited power, and consistent network connections; none of those existed on mobile, which made Skype a terribly-performing app.
+* Skype's primary use-case was peer-to-peer calling, which used a tremendous amount of resources; texting, which was much easier, was always an afterthought, particularly on mobile.
+
+Skype could, in theory, have fixed all of these problems; in reality, not only were they undergoing ownership turmoil at the exact moment all of these fundamental changes to the service needed to be made (the app launched in April 2009), but they also had a perfectly fine desktop business that was still growing. WhatsApp, meanwhile, not only launched first — in February 2009 — but unlike Skype it was text first, and built from the ground up for mobile. It was simply a better service for smartphones in every possible way, and while Skype had a network, WhatsApp used a phone numbers as its ID, letting it get a user's network for free from the Address Book.
+
+It's also worth noting that Skype isn't the only PC-centric communications service that missed the boat: AOL Instant Messenger featured in the launch of the App Store in 2008, but it too was a service architected with PCs in mind, with terrible mobile performance; it too suffered from relying on its username-based network instead of leveraging phone numbers, didn't support group chats, and crashed almost every time you went through the convoluted photo-sharing flow. The U.S. market, meanwhile, had free text messaging; Europe didn't, but the continent’s PC messaging app of choice — MSN Messenger — didn't even have a mobile app until July 2010, by which time WhatsApp dominated the market.
+
+And so, here we are, back at Microsoft. Steve Ballmer didn't just laugh at the iPhone: Microsoft couldn't be bothered to launch a mobile app for their messaging service for two years after the launch of the App Store, and one year after the launch of push notifications. It's as if they didn't even realize that mobile existed, because in the solipsistic view of Redmond ( https://stratechery.com/2013/services-not-devices/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDEzL3NlcnZpY2VzLW5vdC1kZXZpY2VzLyJdfSwiZXhwIjoxNzQzNTk3NzQ3LCJpYXQiOjE3NDEwMDU3NDcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.ue_VO0twpxasfnhLQoLb95TlSYzDvATcl5cXKHUzGCqXRQCfSClKRVq1aELeyyY8fxcd8kM8uC1lr1gyw84cM7vMYudXeQCBL-TD2oSEfMHIO-tSst3PnTtw_RtZoaqfFpQvNgJxRhH6W7qydVUikxG9MhXg1yueIihhtCP7QKYBG2W8YT__wa_NnUkQoUfRYy-J-xCy759z5BrqKeyM_UeODGg0eP9yi1ayu2dC2nJXQldD-bkOzS6ONp16xHwi6SHHVVcztgCX1sJCKeEBHM7UD_ryVyE4lHgZlI4RJlK2GOdukJyyzFQ6glPq4zpzl3s6yMLF225s6cWEUqE4jQ ) anything that wasn't Microsoft didn't matter. That, more than anything, is how they were somehow convinced to spend $8.5 billion for a service that was already doomed (and no, even after typing that a second time, I still don't understand it).
+
+Anyhow, the most prudent thing for Microsoft to do would have been to follow the lead of Verizon and accept defeat; Microsoft being Microsoft meant they somehow waited three years before launching a three-year modernization project to rip out Skype's peer-to-peer underpinnings and centralize it on Azure, while rewriting all of the apps. That meant that Skype wasn't really competitive as a mobile product until 2017, a decade after the iPhone launched. Given that, you understand why I think that users should be grateful the service lasted until 2025!
+
+There were other misadventures along the way; of course Microsoft tried to immediately make you use a Microsoft ID, which caused me endless problems. And, of course, there was the rebranding of Lync, Microsoft's enterprise communications service, to Skype for Business; never mind that Skype for Business had absolutely nothing to do with Skype the consumer service. What is funny/tragic is that Microsoft actually ended up launching Teams (March 2017) before they even finished the Skype rewrite project (June 2017)!
+
+Anyhow, the long and short of it is that Microsoft absolutely deserves criticism, first for buying Skype when it was already doomed, and then for wasting 14 years rewriting it, borrowing its brand, and yes, even trying to shove AI into it. At the same time, this is the opposite situation of, say, Google launching or acquiring a service and shutting it down in a matter of months or years; Microsoft honestly tried way too hard for way too long to make a service that was killed by the iPhone 1 continue to run on the iPhone 16 18 years after its fate was sealed.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player:
+Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Fstratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Fdithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Asianometry ( https://asianometry.passport.online/member/podcast?url=https%3A%2F%2Fasianometry.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2025
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapp.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTc0MzU5Nzc0NywiaWF0IjoxNzQxMDA1NzQ3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.g89JP0bVhcn1Vp98uvHWPrHy56RlsdqL1mssUAgL7SsFYwg_1KqmqEDTPyJOrFCloNLajLcmK-feQ4-bjhhGVcB5tLnqFwsNLO-y5rzaFSq8NqhW4RePGC-I4JUsVXHTGJdQEI5d4LYNVkkrVku_NXL5WqBXDhorLyiYuu0RlAh9xroFE4B9XSlzxJUQvUe33Z7ygtC6AVMfsQ8IPUDa9-P_H_80MfxlJ-RtVh03W5EtYFve6kfrO1ihogEmozRhHeK7aPTebz_YcinaZjtbGtdfGUMiz7mtBH7lg-7Oi53aLZIIMWE3brwyLtgKF_mJx3gmth0lSkYOAkExDCiZXA%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2025 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

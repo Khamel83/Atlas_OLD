@@ -1,0 +1,215 @@
+# =?UTF-8?q?What_I=E2=80=99m_Hearing:_The_Glicked_Asterisk,_=E2=80=98Wolfs?=
+ =?UTF-8?q?=E2=80=99_vs._Apple_&_More_NBCU?=
+
+**From:** Matthew Belloni <matt@puck.news>
+**Date:** Tue, 26 Nov 2024 06:15:27 +0000
+**Source:** inputs/saved_emails/=UTF-8qWhat_I=E2=80=99m_Hearing_The_Glicked_Asterisk,_=E2=80=98Wolfs=
+ =UTF-8q=E2=80=99_vs._Apple_&_More_NBCU=_Tue,_26_Nov_2024_06-15-27_+0000_193671c706e864d5.eml
+**Processed:** 2025-08-24T19:13:13.461020
+
+Welcome back to What I’m Hearing, working like a sucker during Thanksgiving week. Before we start, no, I did not get Bonnie Hammer fired. Some readers asked whether my Thursday reference to Hammer remaining employed as a top NBCUniversal executive despite few discernible job duties led to the next day’s announcement that she was leaving. No. Bonnie was planning to retire on December 31, the end of her two-year deal. My mention simply caused media outlets to call NBCU and ask about her status.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+What I'm Hearing ( https://puck.news/newsletters/what-im-hearing/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to What I’m Hearing, working like a sucker during Thanksgiving week. A short issue tonight, then Eriq Gardner will be here tomorrow with all the legal drama in WIH+, then I’m off Thursday for the holiday and back next Monday.
+
+Before we start, no, I did not get Bonnie Hammer fired. Some readers asked whether my Thursday reference to Hammer remaining employed as a top NBCUniversal executive despite few discernible job duties led to the next day’s announcement that she was leaving. No. Bonnie was planning to retire on December 31, the end of her two-year deal. My mention simply caused media outlets to call NBCU and ask about her status.
+
+Programming note: This week on The Town, Lucas Shaw and I drafted ( https://open.spotify.com/episode/078YgOjb7ME95JVjy1Axim?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) young movie stars, Bill Simmons dissected ( https://open.spotify.com/episode/3Yhv1O6DpTQr1EVhEPO8Hz?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Warner Discovery’s NBA divorce settlement, and Anora star Mikey Madison shared ( https://open.spotify.com/episode/1zU01nfMoUj0RJZ8D2Rjr4?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the
+advice she got from Quentin Tarantino. Subscribe here ( https://open.spotify.com/show/4uXizLZjslhw7nyDPocta2?si=cc85be4b7a564ed8&nd=1&dlsi=09f448eadc044a94&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and here ( https://podcasts.apple.com/gb/podcast/the-town-with-matthew-belloni/id1612131897?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Also, we posted the video from Lauren Sherman’s great “Slaying the Screen” costume designers panel from our Stories of the Season event, presented by Polestar. It’s well worth watching here ( https://puck.news/stories-of-the-season-slaying-the-screen/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Got a news tip or an idea for me? Just reply to this email or message me anonymously on Signal at 310-804-3198.
+
+Discussed in this issue: Brian Roberts, Paul Mescal, Bob Iger, Jon Watts, Donna Langley, Mark Lazarus, Jon M. Chu, Tom Freston, Matt Dentler, Meryl Streep, Doug Liman, George Clooney, Rian Johnson, and… the Drake legal beef.
+
+But first…
+
+Who Won the Week: Nobody, really
+
+It’s too early to crown a winner in Wicked vs. Gladiator (see Scott Mendelson’s column, below). I guess maybe Michael O’Leary, the head of the National Association of Theatre Owners, is a winner because, with Moana 2 being converted from a Disney+ series to a theatrical tentpole, three big-budget studio movies will be putting up huge numbers over the coming long weekend.
+
+Quote of the Week
+
+“The truth is that Apple didn’t cancel the Wolfs sequel, I did, because I no longer trusted them as a creative partner.”
+—Jon Watts, the filmmaker, complaining to the trades after his George Clooney-Brad Pitt movie was pulled from a wide theatrical release and dumped on Apple TV+ in September
+
+Runner-up: “We were selective with who we pursued.”
+—Michael Moses, Universal’s C.M.O., discussing the more than… [checks notes]… 400 brand partners on Wicked
+
+Second runner-up: “I’m Irish, so it’s not on the list of priorities.”
+—Paul Mescal, when asked by Variety how “wild” it felt meeting King Charles at the Gladiator II premiere
+
+$(ad4_title) ( https://ad.doubleclick.net/ddm/trackclk/N1956727.4235865PUCKNEWS/B32797622.408686905;dc_trk_aid=600982162;dc_trk_cid=226429236;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A little more on the ‘Wolfs’ debacle…
+
+Watts is entitled to vent. What Apple did to Wolfs was pretty shitty, and he was engaged to write a sequel. But let’s be honest: Apple was never actually making a Wolfs follow-up after its strategy shifted and the first movie was deemed unreleasable in theaters. At least not under the economics that CAA extracted, where the two stars and Watts collectively were paid around $85 million before a frame of film was shot.
+
+Watts is welcome to jump on the streaming service struggle bus alongside Doug Liman (Amazon’s Road House) and Rian Johnson (Netflix’s Knives Out 3), but at this point, filmmakers are naïve to believe that tech companies are in the moviemaking game for any reason other than to accrue subscribers and engagement on
+their own platforms. They pay lip service to theaters, or use them to lure talent. But when faced with bad economics and worse press, Apple was more than willing to torch its relationship with a hot filmmaker and two major stars. (Watts also claims he was blindsided by the announcement of the supposed sequel, but if you think Apple did a press release ( https://www.apple.com/tv-pr/news/2024/08/apple-original-films-sets-wolfs-sequel-in-advance-of-september-20-limited-theatrical-release-and-september-27-global-streaming-launch-of-new-feature-starring-and-produced-by-superstars-brad-pitt-and-george-clooney/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with a quote from its film head Matt Dentler without getting approval from Watts’ team, you don’t know how film publicity works.)
+
+Regardless, Wolfs did well for Apple TV+, but even its boast—“biggest movie of all time on the service”—comes with caveats: That’s according to Apple’s own global metric from the film’s first week, not any independent, verified source of ratings data. Indeed, Wolfs only made it to No. 4 on Nielsen’s weekly Top 10 streaming film list in the U.S. And even when compared to other Apple Original Films in their first
+six weeks of release, Wolfs was the third-most viewed all time, not first-most, per a source familiar with Nielsen data shared with clients. Spirited, the holiday movie with Ryan Reynolds and Will Ferrell, and Scorsese’s Killers of the Flower Moon, both doubled Wolfs in their first six weeks.
+
+Speaking of Apple TV+...: It’s been more than six months and Ricky Strauss, the former head of marketing, still hasn’t been replaced. Bruce Richmond, its head of production, left in July and also hasn’t been replaced.
+
+Box office over/under (early holiday edition): I took two tough L’s with the overs on Wicked and Gladiator II, but I’m gonna double-down on Moana 2 anyway and take the over on $130 million for the five-day weekend, even though the record for Thanksgiving is $125 million, set by Frozen II in 2019.
+
+Speaking
+of Glicked and wishful thinking…
+
+The Wicked & The Damned ( https://puck.news/wickiator-has-underwhelmed-so-far/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Wicked & The Damned ( https://puck.news/wickiator-has-underwhelmed-so-far/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+It was no #Barbenheimer, but if the moviegoing trends of Thanksgivings past are prologue, Wicked: Part One and Gladiator II will have strong second weekends behind a strategic post-holiday push.
+
+SCOTT MENDELSON ( https://puck.news/author/scott-mendelson/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+SCOTT MENDELSON ( https://puck.news/author/scott-mendelson/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+No, #Wickiator didn’t happen: The head-to-head matchup between Gladiator II and Wicked: Part One did not result in the second coming of #Barbenheimer. There were scant reports of folks seeing both films as a singular event, donning togas and green face paint, nor is there much evidence that either film’s debut benefited the other. Considering the Universal musical and the Paramount action sequel opened slightly below best-case prerelease tracking projections, I’m inclined to argue that they both lost a little money on opening weekend due to… well, one another.
+
+But that’s not to say either opening qualifies as a disappointment. Jon M. Chu’s $145 million fantasy starring Ariana Grande and Cynthia Erivo debuted to $112.5 million in North America, one of the biggest openings ever for a nonsequel
+that’s also not a remake (like The Lion King), a reboot (The Batman), or part of an ongoing cinematic universe (Black Panther). It blew past the previous record holder for a musical adaptation, the Meryl Streep-starring Into the Woods, which opened to $46 million over the Thursday-Sunday Christmas weekend in 2014. Meanwhile, Ridley Scott’s Gladiator II, powered by Denzel, opened with $55 million, slightly below the $60 million–$65 million prerelease tracking. But that’s still relatively high for an R-rated action movie and just below the $56 million and $74 million debuts for the most recent Bad Boys and John Wick films, respectively.
+
+In fact, to the extent that each film cannibalized the other—Wicked: Part One played 72 percent female while Gladiator II skewed 61 percent male—both pictures will likely overcome their openings and keep earning well into the holiday
+season. Even if Moana 2 soars within the same end-of-year frame, history suggests there’s room enough for them all. Moviegoers who chose one biggie over the other will eventually catch up.
+
+The Bond-Gladiator Connection
+
+General moviegoers are usually willing and able to hold off on taking their kids to a popular or anticipated family-friendly movie until the long Thanksgiving holiday. Over the past two decades, the big pre-holiday YA fantasy epic has usually won Thanksgiving weekend, even in years with a well-received Disney tentpole opening. Wicked: Part One, which retreated five days after Disney dated Moana 2, was shrewdly positioned as this season’s pre-Thanksgiving YA fantasy tentpole.
+
+As such, there are plenty of useful comps. In 2013, The Hunger Games: Catching Fire opened with $158 million the week before the holiday, only to earn another $100 million over the following Wednesday-Sunday Thanksgiving frame, even as Frozen expanded into wide release over the holiday, netting $93 million. Both ended up topping
+$400 million in North America.
+
+With strong reviews, encouraging buzz, and possible Oscar season attention, there’s little reason to expect Wicked: Part One will play any worse than a Hunger Games sequel. Past-tense math related to the seasonal Katniss Everdeen, Harry Potter, and Bella Swan adventures suggests a weekend-to-final multiple between 2.7x (the various Hunger Games sequels) and 3.6x (on par with Frozen II and the first Harry Potter film), which would net between $300 million and $400 million domestically. Could it leg out like Barbie and pass $450 million? Sure, especially if the core fans see it multiple times. But even the best multiplier for one of these releases, 3.7x for The Hunger Games: The Ballad of Songbirds and Snakes (from a $45 million debut last year), would give Wicked: Part One just $415 million.
+
+Meanwhile, to paraphrase an old S.A.T. analogy, Wicked is to Harry
+Potter as Gladiator II is to the past several 007 movies. From GoldenEye in 1995 to Spectre in 2015, the James Bond films usually opened a week or two before Thanksgiving. Tomorrow Never Dies debuted just before Christmas in 1997, but whether opening near Thanksgiving or Christmas, Bond’s globetrotting adventures were the de facto holiday season event movie for older, less fantasy-inclined moviegoers.
+
+Spectre ultimately earned nearly three times its $70 million debut, bringing in just over $200 million in 2015. That multiple would translate to around $160 million for Gladiator II. However, Skyfall rode sky-high buzz and earned 3.45x its $88 million debut in 2012 for a $304 million domestic finish—albeit partially because it was a general audience tentpole positioned against fan-skewing fantasy blockbusters The Twilight Saga: Breaking Dawn—Part II and The Hobbit: An Unexpected Journey.
+
+Ridley Scott’s long-awaited sequel to his blockbuster best picture winner boasts solid reviews, plenty of red lion meat for Gladiator die-hards, plus Denzel, who is stalking that third Oscar. In terms of competition, Paramount’s pricey ($250 million, with a co-financer) sword-and-sandals flick is also the only big action movie—all due respect to Sony’s Kraven: The Hunter—until February, when Captain America: Brave New World hits over Presidents’ Day weekend. In other words, the coast is clear. A strong second weekend and holiday corridor seems to be there for the taking.
+
+Box Office Stamina in the 2020s
+
+Also, crowds are pleased. Gladiator II earned a B from CinemaScore and a 4/5 from PostTrak. We’ve seen several recent franchise titles earn good-to-great grosses after strong opening weekends despite lower (in the B range) opening night CinemaScore grades. And even with the backstories, Gladiator II and Wicked: Part One require zero homework for new viewers, which will likely further entice general moviegoers.
+
+$(ad3_title) ( https://ad.doubleclick.net/ddm/trackclk/N1956727.4235865PUCKNEWS/B32797622.409127541;dc_trk_aid=600983029;dc_trk_cid=226429236;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Wicked: Part One’s grosses will also likely be inflated by die-hard fans of the generationally popular Broadway show. But big-deal musicals with catchy songs (The Greatest Showman), major stars (La La Land), and marquee characters (Les Misérables) tend to leg out, regardless. Add to this the fact that, amid the theatrical industry’s slow-roll recovery, post-debut multiples have actually increased compared to the previous decade.
+
+This pattern applies to films both big (Twisters earning $268 million from an $81 million debut) and small (Longlegs, with $74 million from a $22 million launch). Sometimes, audiences are checking out Deadpool & Wolverine (which had a better weekend-to-final gross multiple than Deadpool, Deadpool 2, and Logan) in the second week, or sampling The
+Fall Guy (which earned $93 million from that underwhelming $28 million debut) in theaters long after it debuted on P.V.O.D. The return of the long tail is among the past year’s most promising theatrical trends.
+
+#Barbenheimer, Revisited
+
+Even if Wicked: Part One and Gladiator II could have theoretically opened higher, the positive variables in their favor—including a probable starring role in the awards season—point toward a more-than-respectable final gross for both. If Wicked: Part One earns so much in North America that its thus-far soft overseas grosses ($50 million) prove irrelevant, and if Gladiator II continues to break out overseas while posting respectable domestic grosses, then maybe the #Barbenheimer comparisons will hold more weight.
+
+That phenomenon, after all, wasn’t just the result of memes, media coverage, and the lightning-in-a-bottle circumstance of moviegoers rooting for both Barbie and Oppenheimer. Instead, the yin-and-yang success showed that two huge films could debut concurrently and earn
+best-case-scenario box office. This wasn’t all that new: Two tentpoles opening concurrently while each posting top-tier numbers was almost normal in the 2000s and 2010s.
+
+Monsters University, for example, opened with $82 million in June 2013 alongside World War Z’s $66 million debut. Wall-E opened with $63 million in June 2008 alongside Wanted’s $50 million domestic launch. If the box office is to return to any approximation of a pre-Covid status quo, these sorts of outcomes will need to become commonplace again.
+
+There must be enough audience to sustain more than one tentpole at a given moment, especially since moviegoers tend to show up primarily for films deemed theatrical events. For example, there must be room for both Mission: Impossible—The Final Reckoning and Disney’s live-action Lilo & Stitch to thrive next Memorial Day weekend. The pre-Thanksgiving showdown between Wicked: Part One and
+Gladiator II offered up two very different but equally essential tentpoles that opened about as well as hoped. Perhaps it’s a good sign, at least for exhibitors and distributors, that they did it without becoming a mashed-up pop culture moment.
+
+My Reading List…
+
+Love this helpful context graph re: Drake’s beef with UMG and Spotify for allegedly promoting Kendrick Lamar’s “Not Like Us” at Drake’s expense: “Disputes between artists and their labels aren’t unheard of, but generally relate to royalty payments and contract disagreements, not racketeering or defamation allegations.” [WSJ ( https://www.wsj.com/business/media/drake-vs-kendrick-lamar-turns-from-rap-beef-into-corporate-feud-9b7b00da?mod=media_news_article_pos1&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+More: Here’s Drake’s actual argument: “Streaming
+and licensing is a zero-sum game. Every time a song ‘breaks through,’ it means another artist does not. UMG’s choice to saturate the music market with ‘Not Like Us’ comes at the expense of its other artists, like Drake.” Uh, really? That’s not how music consumption works. Also, I’d be shocked if UMG’s deals with its artists prevented the promotion of songs by other artists. And Spotify’s fiduciary relationship is with UMG, not its individual acts.
+
+The Great Consolidation Era isn’t off to a bangin’ start: The DirecTV-Dish merger collapsed amid a bondholder standoff. [Bloomberg ( https://www.bloomberg.com/news/articles/2024-11-22/directv-to-call-off-dish-takeover-after-bondholders-balk?cmpid=screentime&utm_medium=email&utm_source=newsletter&utm_term=241124&utm_campaign=screentime&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+After legal fees, Disney’s $43.25 million settlement of the pay-disparity
+class action translates to less than $3,000 for each of the 14,000 women at the company since 2015, Eriq Gardner emails. That’s almost enough for a few days at Disney World.
+
+In true Warner Discovery fashion, Max is rolling out in Asia without all that expensive-to-produce local content. [Bloomberg ( https://www.bloomberg.com/news/articles/2024-11-17/warner-bros-launches-max-in-asia-on-strength-of-hollywood-catalog?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+I haven’t read the new Johnny Carson biography that Bill Zehme was working on when he died, but it sounds like quite a ride. [NY Times ( https://www.nytimes.com/2024/11/20/arts/television/johnny-carson.html?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+Amy Nicholson dutifully explores the “MILF Movie” phenomenon. [WaPo ( https://www.washingtonpost.com/entertainment/movies/2024/11/16/babygirl-kidman-may-december-romance-movies/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+Congrats to the publicists who just
+discovered that nontraditional media outlets and “newsfluencers” can be beneficial for their clients. [Semafor ( https://www.semafor.com/article/11/24/2024/get-me-on-rogan-pr-scrambles-to-navigate-new-media?utm_medium=media&utm_campaign=flagshipnumbered1&utm_source=newslettercta&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+I think we’re good with the celebrity look-alike contests, though kudos to Glen Powell’s mom for serving as a judge. [Atlantic ( https://www.theatlantic.com/technology/archive/2024/11/celebrity-look-alike-contest-boom/680742/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+The Feedback
+
+My Thursday analysis of Donna Langley’s ascension at NBCUniversal and the cable TV spinoff plan generated responses about both. Some examples…
+
+“You wrote, ‘If Warner Bros. Discovery or Paramount Global made a similar move, their share price would probably crash.’ I think it’s quite the opposite, regarding WBD at least. Yes, the vast revenue-generating portion would be spun off, but WBD would transfer their massive debt load onto that spinoff, freeing up the future—streaming—for investment. This would have a more substantial positive effect on the stock price versus Comcast. Just the rumor of WBD doing so in mid-July caused the stock to rally 20 percent in one week.” —An executive
+
+[Ed. note: My hypothetical didn’t include the debt.]
+
+“Is it crazy to think Donna is
+a dark horse for Disney C.E.O.? Thinking about this promotion and your note a few weeks ago about her getting lunch with Iger at Toscana.” —Another executive
+
+“Eek. I can’t imagine a worse company [than Alden Global Capital] to emulate. From the get-go, Alden made it clear that when it started to buy newspapers, it really had no interest in being in the news business. It hollowed out newsrooms, sold off buildings so it could make money off real estate instead of newsgathering, and rendered the products they put out all but irrelevant. So, the spiral inevitably continues.
+
+The fact pattern for NBCU is different. Yes, many are declining assets, but they still have considerable value, as you write. And with acquisitions, streaming niches, and a runway for potential mergers, Brian Roberts & Co. may be setting up SpinCo to be a real locomotive for growth rather than the Little Engine That Couldn’t—especially with someone
+of Mark Lazarus’s caliber at the helm. On the surface, he may have one of the more unenviable jobs in the industry, but given the set of low expectations that comes with it, he has the chance to pull off a few surprises. Alden is willingly digging in a graveyard of their making, but the creation of SpinCo is at least a chance for Comcast to tell the Grim Reaper to look elsewhere.” —A publicist and former journalist
+
+“Back when Viacom split, in 2006, Tom Freston was getting the crown jewels in the form of all those hot cable nets, and Les [Moonves] was getting the junk with CBS and the ancillary businesses. Obviously, we saw how that played out (Freston fired, CBS bloomed). And now, nearly 20 years later, Comcast is ditching the cable nets and keeping the broadcast net and Bravo. There’s something about the reverse symmetry of that and the gold/junk assessment that seems interesting.”
+—Another executive
+
+Have a great holiday,
+Matt
+
+Got a question, comment, complaint, or song lyrics for which you’d like to hold space? Email me at Matt@puck.news or call/text me at 310-804-3198.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Maddow’s New Deal ( https://puck.news/comcast-may-be-spinning-off-msnbc-but-rachel-maddow-is-staying/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Maddow’s New Deal ( https://puck.news/comcast-may-be-spinning-off-msnbc-but-rachel-maddow-is-staying/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The latest anxieties engulfing 30 Rock.
+
+DYLAN BYERS
+
+SALT Wars ( https://puck.news/the-gop-reconsiders-its-stance-on-salt/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+SALT Wars ( https://puck.news/the-gop-reconsiders-its-stance-on-salt/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Revealing a looming intraparty G.O.P. battle.
+
+ABBY LIVINGSTON
+
+A $121M Magritte ( https://puck.news/beyond-the-banana-the-rest-of-the-evening-art-auction-results/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A $121M Magritte ( https://puck.news/beyond-the-banana-the-rest-of-the-evening-art-auction-results/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A promising week for New York’s auction circuit.
+
+MARION MANEKER
+
+Closing the Gaetz ( https://puck.news/what-will-matt-gaetz-do-now/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Closing the Gaetz ( https://puck.news/what-will-matt-gaetz-do-now/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Evaluating Matt Gaetz’s post-A.G. options.
+
+TARA PALMERI
+
+Puck ( https://puck.news/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=what_im_hearing&delivery_id=dgT2xgYDAKvRKqrRKgGTZxvvbRtgLV4AUeuq0D8=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F25%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%2811%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

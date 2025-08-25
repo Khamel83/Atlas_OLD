@@ -1,0 +1,291 @@
+# Will Donald Trump Be Impeached? | FiveThirtyEight
+
+**Source:** inputs/New Docs/html/fivethirtyeight.com_features_chance-donald-trump-impeached.html
+**Processed:** 2025-08-24T19:14:03.608333
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-leadr1.jpg?w=575)
+
+
+
+Getty images
+
+After a cacophonous two weeks of political news, a new sound has begun to emerge from Washington: the word “impeachment.” Following the [news](https://www.nytimes.com/2017/05/16/us/politics/james-comey-trump-flynn-russia-investigation.html?_r=0) that President Trump may have tried to bully FBI director James Comey out of investigating Michael Flynn’s ties to Russia, Sen. Angus King of Maine, an independent, [told CNN](http://www.realclearpolitics.com/video/2017/05/16/cnn_wolf_blitzer_are_we_moving_toward_impeachment_of_trump.html) that recent allegations, if true, are already making impeachment hearings more likely. Rep. Al Green, a Democrat from Texas, became the first congressman to [call for Trump’s impeachment](http://www.cnn.com/2017/05/17/politics/al-green-impeachment-call/) from the House floor. And even some Republicans in blue-leaning districts, such as Rep. Carlos Curbelo of Florida, have [begun to entertain impeachment](http://www.nbcnews.com/politics/elections/lawmaker-insists-i-m-first-republican-raise-impeachment-n762031) as a possibility.
+
+This might all seem like a liberal fantasy: No president has ever been booted out of the job, and only Richard Nixon resigned under the pressure of the impeachment process.
+
+But people putting money on the line are taking impeachment seriously. According to the prediction market Betfair, the chance that Trump will fail to serve out his four-year term is [about 50 percent](https://www.betfair.com/exchange/plus/politics/market/1.129133401) (!). There’s even a [20 to 25 percent probability](https://electionbettingodds.com/) (!!) that Trump doesn’t finish out 2017 in office, these bettors reckon.
+
+Are those numbers within the realm of reason? It isn’t easy to forecast Trump’s odds of impeachment, or of his removal from office. There isn’t enough data to build a statistical model of it, in the way we would for an election. But we can say that there are two opposite forces tugging strongly on the impeachment rope:
+
+* On the one side, there’s Trump’s escalating pattern of (alleged) misconduct, which [increasingly reflects behavior](https://www.washingtonpost.com/posteverything/wp/2017/05/10/trump-is-mirroring-nixons-final-days/?utm_term=.094ab8a48f08) that has been used as grounds for impeachment in the past.
+* On the other side, there’s the [intense partisan loyalty of Republicans](https://fivethirtyeight.com/features/even-the-biggest-scandals-cant-kill-party-loyalty/), both among GOP members of Congress and among voters in the states and districts they represent.
+
+So long as these sides are pulling with roughly equal force, Trump isn’t going to be removed from office, which would require a two-thirds majority in the Senate. But if something snaps — if Republicans have reason to think Trump has become a liability even in red states — look out. History suggests Trump could be vulnerable under such circumstances, despite the historical rarity of impeachment. Here’s how to think about the chances.
+
+---
+
+If Trump left office early, he of course wouldn’t be the first president to do so. There are various ways a president’s term can end prematurely. But some of the possibilities apart from impeachment are fairly remote.
+
+Eight presidents died during their terms. While that possibility can’t be ruled out for Trump, the odds of it are relatively low. [Actuarial tables](https://www.ssa.gov/oact/STATS/table4c6.html) show that a 70-year-old American man (Trump’s age) has only about a 10 percent chance of dying over his next four years.1
+
+| YEAR | PRESIDENT | TERM | TIME OF TERM SERVED | REASON |
+| --- | --- | --- | --- | --- |
+| 1841 | Harrison | 1st | 31 days | Natural death |
+| 1850 | Taylor | 1st | 1 year, 4 months | Natural death\* |
+| 1865 | Lincoln | 2nd | 42 days | Assassination |
+| 1881 | Garfield | 1st | 7 months | Assassination |
+| 1901 | McKinley | 2nd | 6 months | Assassination |
+| 1923 | Harding | 1st | 2 years, 5 months | Natural death |
+| 1945 | Roosevelt | 4th | 3 months | Natural death |
+| 1963 | Kennedy | 1st | 2 years, 10 months | Assassination |
+| 1974 | Nixon | 2nd | 1 year, 7 months | Resignation |
+Which presidents failed to serve out their terms?
+
+Trump could also quit the job for reasons other than the pressure of impeachment — deciding he wanted to spend more time at Mar-a-Lago, for instance. But American elected officials have generally held onto their jobs [even when things are going pretty badly](http://www.slate.com/blogs/the_slatest/2013/07/02/virginia_governor_bob_mcdonnell_asked_to_resign_over_growing_scandal.html). Among U.S. governors since 2000, for example, I could find only one case — Alaska’s Sarah Palin in 2009 — of someone who resigned her position early without being in the midst of a major scandal or having another political job (such as an ambassadorship or Cabinet position) already lined up.2
+
+| YEAR | STATE | GOVERNOR | REASON |
+| --- | --- | --- | --- |
+| 2000 | Missouri | Mel Carnahan | Died in office |
+| 2000 | Texas | George W. Bush | Elected president |
+| 2001 | Massachusetts | Paul Cellucci | Diplomatic appointment |
+| 2001 | New Jersey | Christine Todd Whitman | Cabinet appointment |
+| 2001 | Pennsylvania | Tom Ridge | Cabinet appointment |
+| 2001 | Wisconsin | Tommy Thompson | Cabinet appointment |
+| 2003 | California | Gray Davis | Recalled |
+| 2003 | Indiana | Frank O’Bannon | Died in office |
+| 2003 | Utah | Mike Leavitt | Cabinet appointment |
+| 2004 | Connecticut | John G. Rowland | Scandal |
+| 2004 | New Jersey | Jim McGreevey | Scandal |
+| 2005 | Nebraska | Mike Johanns | Cabinet appointment |
+| 2006 | Idaho | Dirk Kempthorne | Cabinet appointment |
+| 2008 | New York | Eliot Spitzer | Scandal |
+| 2009 | Arizona | Janet Napolitano | Cabinet appointment |
+| 2009 | Kansas | Kathleen Sebelius | Cabinet appointment |
+| 2009 | Utah | Jon Huntsman Jr. | Diplomatic appointment |
+| 2009 | Illinois | Rod Blagojevich | Impeached & removed from office |
+| 2009 | Alaska | Sarah Palin | ¯\\_(ã)\_/¯ |
+| 2010 | West Virginia | Joe Manchin | Elected to U.S. Senate |
+| 2015 | Oregon | John Kitzhaber | Scandal |
+| 2017 | New Hampshire | Maggie Hassan | Elected to U.S. Senate\* |
+| 2017 | South Carolina | Nikki Haley | Diplomatic appointment |
+| 2017 | Alabama | Robert Bentley | Scandal |
+Which governors left office early?
+
+There’s also the [prospect](http://www.newyorker.com/magazine/2017/05/08/how-trump-could-get-fired) of [Section 4 of the 25th Amendment](https://www.law.cornell.edu/constitution/amendmentxxv) being invoked against Trump, which would make Vice President Pence the acting president if Trump were “unable to discharge the powers and duties of his office.” But [this isn’t the shortcut that it might seem](https://www.bloomberg.com/view/articles/2017-05-17/no-the-25th-amendment-isn-t-the-way-to-boot-trump). Under the 25th Amendment, Trump could be replaced on an interim basis if both Pence and a majority of Cabinet officers agreed that he were unfit for office. But if Trump disputed the finding, it would require a two-thirds majority of both chambers of Congress to keep Trump from returning to the Oval Office.3
+
+So let’s talk about impeachment. Although if we’re being more precise, impeachment doesn’t remove a president from office; conviction on impeachment charges does. Just to be clear about our terminology:
+
+* **Impeachment** is the sole authority of the House of Representatives and requires a simple majority vote. Presidents Andrew Johnson and Bill Clinton were impeached by the House.
+* The Senate then holds an impeachment trial and essentially acts as the jury, **voting on whether or not to convict the president and remove him from office**; it takes a two-thirds majority (67 of 100 votes) to do so. Neither Johnson nor Clinton was convicted by the Senate, although it [came down to one vote](https://www.senate.gov/artandhistory/history/minute/The_Senate_Votes_on_a_Presidential_Impeachment.htm) in Johnson’s case. The Senate can also vote to bar an impeached president from holding office again.
+
+Although no president has been removed from office, Nixon resigned under the threat of removal, and he [probably would have been removed](http://www.washingtonpost.com/wp-srv/politics/special/watergate/part3.html) in the absence of his resignation.4 So he should probably count as a “victim” of the impeachment process.
+
+Even so, that’s only 1 of 44 previous presidencies — and 1 of 57 previous presidential terms — to end in the president’s termination. Therefore, you might think the chance of Trump being removed from office is very low. But it’s not that simple.
+
+The issue is that among the 44 prior presidents, not all that many were plausible candidates for impeachment and removal; there was never any real basis to impeach Dwight Eisenhower, for instance. Instead, the relevant question is how many presidents were removed from office (or compelled to resign) *out of the share of presidents who engaged in behavior comparable to Trump’s*. If only Trump and Nixon had reached a certain level of “impeachability,” for instance, then the empirical evidence wouldn’t be comforting for Trump; rather, it would suggest that the only president who previously reached that threshold of malfeasance had lost his job.
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-01.jpg?w=575)
+
+Presidents Andrew Johnson and Bill Clinton were impeached by the House.
+
+Getty Images
+
+To provide evidence *against* Trump being removed, the data would instead have to contain examples of presidents who could have been removed from office, but weren’t. For instance, it might be relevant that there were never serious efforts to impeach Ronald Reagan for the Iran-Contra scandal. In fact, the Democratic leadership in Congress [went somewhat out of their way to avoid actions that could lead to impeachment proceedings](http://www.nytimes.com/1993/10/27/us/iran-contra-revisited-fears-of-impeachment.html) against Reagan. Why was that, exactly? One could come up with a variety of plausible theories: that the scandal wasn’t severe enough; that Reagan wasn’t personally involved enough; that Reagan’s popularity insulated him from impeachment; that Reagan enjoyed good relations with Congress at a period of relatively low partisanship, and so forth.
+
+In a perfect world, we’d have data on hundreds of presidents, a few dozen of whom had been impeached. That would let us statistically identify the various factors that made a president more or less likely to survive the process. In the real world, the best we can do is make some educated guesses. Based on the precedents we have available — and our overall knowledge of the American political system — I would expect the following factors to be important in determining a president’s likelihood of removal or resignation:
+
+1. 1. **The seriousness of the alleged offenses**. Does the president’s behavior fall under the constitutional category of “high crimes and misdemeanors?” Have similar behaviors been the basis for impeachment proceedings in the past?
+   2. **The partisanship of pivotal votes in Congress**. How much partisanship is there in Congress? Other things held equal, how likely is the decisive 67th senator to vote to remove a president from his own party?
+   3. **The president’s popularity**. What are the president’s approval ratings? Does the public think he should be impeached? Has there been a “mandate” delivered by midterm elections or special elections? What do his numbers look like in states and congressional districts where members of Congress are on the fence about how to vote?
+   4. **The president’s relationship with Congress.** Does the president generally have good relations with congressional leadership? Is his party’s legislative agenda intact? Does Congress feel as though the balance of power has been upset? Is the president cooperating with investigations into his conduct, or antagonizing Congress instead?
+   5. **Party control of Congress**. Which party controls the House and — less importantly for impeachment purposes — the Senate?
+   6. **The line of succession.** Who would take over for the president? Do leaders of the president’s party regard the replacement as an acceptable — or even preferable — alternative to the president?
+
+Let’s consider each of these factors in Trump’s case.
+
+## **Factor 1****The seriousness of the alleged offenses**
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-02.jpg?w=575)
+
+Nixon resigned under the threat of removal — and he probably would have been removed in the absence of his resignation.
+
+getty images
+
+In 1970, Gerald Ford (then a U.S. representative, and later the president) [said rather cynically](https://en.wikiquote.org/wiki/Impeachment) that “an impeachable offense is whatever a majority of the House of Representatives considers [it] to be at a given moment in history.” While impeachment is undeniably a political process rather than a legal one, Ford’s interpretation is probably too reductionist. Congress has historically used its powers somewhat judiciously and drawn fairly fine distinctions between different grounds for impeachment.
+
+In [1974](http://www.colorado.edu/AmStudies/lewis/1025/articlesNixon.pdf), for instance, the House Judiciary Committee recommended impeachment for Nixon on three charges — obstruction of justice, abuse of power and contempt of Congress. But it [overwhelmingly rejected](https://library.cqpress.com/cqalmanac/document.php?id=cqal74-1223105) recommending impeachment on two other charges related to Nixon’s [bombing of Cambodia](https://news.google.com/newspapers?nid=1301&dat=19740801&id=94NWAAAAIBAJ&sjid=peUDAAAAIBAJ&pg=984,20569) and his [failure to pay taxes](http://www.taxhistory.org/thp/readings.nsf/cf7c9c870b600b9585256df80075b9dd/f8723e3606cd79ec85256ff6006f82c3?OpenDocument). Similarly, in 1998, the House [impeached Clinton on two charges](http://www.washingtonpost.com/wp-srv/politics/special/clinton/stories/impeachvote121198.htm) — perjury and obstruction of justice — but it rejected an abuse of power charge by a 148–285 margin.
+
+It’s perhaps also noteworthy that neither George W. Bush nor Barack Obama was subjected to serious attempts at impeachment despite facing highly partisan opposition in Congress. They might have done lots of things their adversaries disliked, but nothing that House Speakers Nancy Pelosi, John Boehner and Paul Ryan were willing to call a firing offense.
+
+That’s not to say the correlation between the inherent “impeachability” of the president’s conduct and Congress’s likelihood of action has been perfect, by any means. Congress may exaggerate or underplay the severity of charges for partisan reasons — many scholars argue that [Clinton and Johnson’s impeachments were overreaches](https://www.vox.com/mischiefs-of-faction/2017/5/15/15638286/presidential-impeachments-political) of congressional power, for instance. But the underlying facts of the case have mattered to some extent.
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-03.jpg?w=575)
+
+Neither George W. Bush nor Barack Obama was subjected to serious attempts at impeachment despite facing highly partisan opposition in Congress.
+
+Getty images
+
+So what does that mean for Trump? The Constitution provides that, “The president, vice president and all civil officers of the United States, shall be removed from office on impeachment for, and conviction of, treason, bribery, or other high crimes and misdemeanors.” While liberals and anti-Trump Republicans [have sometimes accused Trump of “treason”](https://www.theblaze.com/news/2017/05/11/the-view-hosts-accuse-trump-of-treason-and-the-reason-has-nothing-to-do-with-comey/) for his dealings with Russia, he [almost certainly hasn’t committed treason by the letter of the Constitution](https://www.vox.com/policy-and-politics/2017/5/15/15644246/trump-russia-leak-lavrov-kislyak-treason).5
+
+The good news for Trump ends there, however. While the term “high crimes and misdemeanors” might seem hopelessly vague, it has a [fair amount of legal history](http://www.crf-usa.org/impeachment/high-crimes-and-misdemeanors.html) and is generally regarded as referring to political crimes (“crimes against the state”) as opposed to personal affairs. A [drunk driving conviction might not qualify as a “high crime,”](http://www.businessinsider.com/what-is-impeachment-process-president-congress-constitution-2017-2) for instance. But an action that wasn’t illegal *per se* but reflected an abuse of the president’s office could count as one. That Trump [almost certainly did not commit a criminal offense](https://www.lawfareblog.com/bombshell-initial-thoughts-washington-posts-game-changing-story) in reportedly [disclosing highly classified information to Russia](https://www.washingtonpost.com/world/national-security/trump-revealed-highly-classified-information-to-russian-foreign-minister-and-ambassador/2017/05/15/530c172a-3960-11e7-9e48-c4f199710b69_story.html?utm_term=.55962952ab35) would *not* necessarily protect him from an impeachment charge on those grounds, for example.
+
+But the bigger problem for Trump is probably Comey, in that firing him [might have constituted obstruction of justice](https://www.lawfareblog.com/another-bomb-drops-initial-thoughts-trump-asking-comey-kill-flynn-investigation). Obstruction of justice is about the last accusation that a president wants on his radar if he fears impeachment; it was one of the two charges that the House used to impeach Clinton and one of the three charges that the House Judiciary Committee recommended against Nixon.
+
+One more thing to keep in mind: The Trump presidency is only four months old. Congress has yet not done all that much to investigate his affairs, and special counsel Robert Mueller’s [investigation into Trump’s ties to Russia](https://fivethirtyeight.com/features/this-trump-russia-investigation-could-last-for-years/) was just announced last week — and yet Trump has already gotten himself in quite a lot of trouble. What might seem like [tenuous reasons](https://www.washingtonpost.com/politics/two-plaintiffs-join-suit-against-trump-alleging-breach-of-emoluments-clause/2017/04/17/1d4aaa70-238a-11e7-a1b3-faff0034e2de_story.html?utm_term=.60837c04069f) for impeachment now could could turn out to be just the tip of the iceberg.
+
+*The bottom line:* If Congress is looking for reasons to impeach Trump, it already has some plausible ones — and it will probably wind up with more before long. This factor substantially contributes to the likelihood of Trump being removed from office.
+
+## **Factor 2 The partisanship of pivotal votes in Congress**
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-04.jpg?w=575)
+
+President Trump talks with Republican Rep. Peter King of New York after addressing a joint session of Congress in February.
+
+Getty images
+
+Congress is at a high tide in terms of both partisan polarization and ideological division. FiveThirtyEight’s Trump Score shows that in the House, the average Republican [has sided with Trump 97 percent of the time](https://projects.fivethirtyeight.com/congress-trump-score/) on votes on which the White House has articulated a position; the average Democrat has done so only 15 percent of the time. (The discrepancy has been [nearly as wide in the Senate](https://projects.fivethirtyeight.com/congress-trump-score/).) And according to the [statistical system DW-Nominate](http://voteview.com/political_polarization_2014.htm), the ideological gap between the parties has continued to widen; Democrats have gotten more liberal and ([to an even greater extent](http://themonkeycage.org/2012/05/polarization-is-real-and-asymmetric/)) Republicans have gotten more conservative.
+
+While measures such as DW-Nominate and our Trump Score have their imperfections,6 my colleagues Julia Azari, Perry Bacon Jr. and Harry Enten found that they [historically provided a pretty good guide](https://fivethirtyeight.com/features/even-the-biggest-scandals-cant-kill-party-loyalty/) to impeachment voting patterns. In other words, it’s reasonable to infer that because Congress is highly polarized on almost every other issue, it probably also would be polarized on impeachment and removal votes. This would seem to have three major consequences for Trump:
+
+* It makes impeachment less likely in the near term, because Republicans control the House.
+* It makes impeachment (but *not* Trump’s removal from office) more likely if Democrats take over the House in 2019. Partisanship might compel Democrats to impeach Trump even if the political or legal rationale for doing so is dubious.
+* Most importantly, it makes Trump’s removal from office much less likely, other factors held equal. Even if all 48 Senate Democrats7 voted to remove Trump, they’d also need support from 19 Republicans to get to a two-thirds majority. That would require dipping far into the Republican ranks — well past the few moderates in the Senate — and the decisive 67th vote would have to come from a fairly conservative Republican like Missouri’s Roy Blunt or South Dakota’s John Thune instead. This isn’t going to change much in 2019, even if Democrats have a great midterm election.
+
+At the same time, we shouldn’t conclude that partisanship provides Trump with *absolute* protection against removal from office. As an empirical matter, we don’t have much data on what factor would win out if the case for impeachment were *very* strong (say, if Mueller uncovered that Trump had accepted bribes from Russia) but partisanship were also very high.
+
+There’s also some question as to where partisanship might lead congressional Republicans if they conclude that a Trump presidency isn’t in the best interests of the GOP. Trump hasn’t been a Republican for [all that long](http://www.politifact.com/florida/statements/2015/aug/24/jeb-bush/bush-says-trump-was-democrat-longer-republican-las/), and it isn’t clear how invested he is in the Republican agenda or how competent he is to execute it. Republicans [have a poor track record of standing up to Trump](https://fivethirtyeight.com/features/the-republican-party-may-be-failing/), but during the election campaign, the alternative was either to invite chaos (since Marco Rubio and other candidates [weren’t clicking with voters](https://fivethirtyeight.com/videos/marco-rubio-never-had-a-base/)) or to elect Hillary Clinton. Now their alternative is Pence — or Ryan if Pence were also impeached. A lot of Republican members of Congress might view Pence or Ryan as an upgrade on Trump.
+
+*The bottom line:* Partisanship is the biggest protection that Trump has against impeachment. If you see Republicans start to break with Trump in more substantive ways, such as by launching special committees or holding up his replacement for Comey, he might have more reason for concern. But overall this factor substantially reduces the likelihood of Trump being removed from office.
+
+## **Factor 3 The president’s popularity**
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-10.jpg?w=575)
+
+Patrons at a bar watching the Iran-Contra hearings. Reagan had an approval rating of around 50 percent even after the Iran-Contra scandal was revealed. Democratic efforts to impeach him could easily have wound up backfiring.
+
+Getty images
+
+Members of Congress are loyal to their president, but there’s one thing they usually care about even more: their own re-election. Presidential popularity has a [strong influence on congressional races](http://www.gallup.com/poll/141812/avg-midterm-seat-loss-presidents-below-approval.aspx). Beyond a certain point, a president can become toxic enough that it’s in the interest of members of his own party to abandon him. Nixon, for instance, had an [approval rating in the mid-20s](http://historyinpieces.com/research/nixon-approval-ratings) at the time of his resignation in 1974. Republicans endured a [48-seat loss](http://clerk.house.gov/member_info/electionInfo/1974election.pdf) in the House even after he resigned. But they might have taken an even worse loss if he’d stayed in office. Based on my colleague Harry Enten’s [formula](https://fivethirtyeight.com/features/a-very-early-look-at-the-battle-for-the-house-in-2018/), Republicans would have expected to lose around 60 seats if Nixon were still president, given his approval rating.
+
+By contrast, Reagan had an approval rating of [around 50 percent](http://www.presidency.ucsb.edu/data/popularity.php?pres=40) even after the Iran-Contra scandal was revealed. Democratic efforts to impeach him could easily have wound up backfiring. Twelve years later, Republicans learned this the hard way, losing House seats in the 1998 midterms8 in the midst of their attempt to impeach Clinton, whose approval rating exceeded 60 percent.
+
+Trump’s popularity is in a somewhat awkward middle ground. With an approval rating of about [39 percent](https://projects.fivethirtyeight.com/trump-approval-ratings/), he’s no Clinton or Reagan. But he isn’t late-stage Nixon, either. Trump is not very popular, but he was [never all that popular to begin with](https://elections.huffingtonpost.com/pollster/donald-trump-favorable-rating) and won the Electoral College despite it. It’s not clear that all that many voters have regrets about their decision to vote for Trump, at least not yet. And few polls have asked voters whether they think Trump should be impeached.
+
+At the same time, the [idea](http://nypost.com/2017/03/25/dont-believe-trumps-approval-ratings/) that 39 or 40 percent of the country will never abandon Trump is probably mistaken — or at least, it represents a speculative interpretation of the evidence. The share of voters who say they *strongly* support Trump is only [20 to 25 percent](https://twitter.com/NateSilver538/status/863764064790622208) — and [those numbers have been falling](https://twitter.com/nickgourevitch/status/863023097594748928). Moreover, Trump has lost about one point off his overall approval rating per month. That might not sound like a lot, but if the pattern continued, he’d be in the low-to-mid 30s by the new year and into Nixonian territory by the midterms.
+
+There are a couple of further complications. One issue is that while Trump is fairly unpopular overall, his numbers are holding up better in red states — and red-state senators represent the pivotal votes for Trump’s removal from office. The table below reflects my estimate of Trump’s current approval rating in each state based on recent state-by-state approval-rating polls and the 2016 and 2012 election results.
+
+|  | STATE | APPROVAL RATING | DISAPPROVAL RATING |  |  | STATE | APPROVAL RATING | DISAPPROVAL RATING |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Hawaii | 26% | 68% |  | 26 | Arizona | 42% | 52% |
+| 2 | Vermont | 28 | 66 |  | 27 | Ohio | 42 | 52 |
+| 3 | Calif. | 28 | 66 |  | 28 | Iowa | 42 | 52 |
+| 4 | Maryland | 29 | 65 |  | 29 | Georgia | 42 | 51 |
+| 5 | Mass. | 29 | 65 |  | 30 | Texas | 44 | 49 |
+| 6 | N.Y. | 30 | 64 |  | 31 | S.C. | 45 | 48 |
+| 7 | R.I. | 32 | 61 |  | 32 | Alaska | 46 | 48 |
+| 8 | Illinois | 33 | 61 |  | 33 | Mississippi | 46 | 47 |
+| 9 | Washington | 34 | 60 |  | 34 | Missouri | 47 | 47 |
+| 10 | N.J. | 34 | 60 |  | 35 | Indiana | 47 | 47 |
+| 11 | Conn. | 34 | 60 |  | 36 | Montana | 48 | 46 |
+| 12 | Delaware | 35 | 59 |  | 37 | Louisiana | 48 | 46 |
+| 13 | Oregon | 35 | 58 |  | 38 | Kansas | 48 | 45 |
+| 14 | N.M. | 36 | 57 |  | 39 | Nebraska | 50 | 44 |
+| 15 | Maine | 37 | 56 |  | 40 | Tennessee | 50 | 44 |
+| 16 | Colorado | 38 | 56 |  | 41 | Utah | 50 | 43 |
+| 17 | Virginia | 38 | 56 |  | 42 | Arkansas | 50 | 43 |
+| 18 | Nevada | 39 | 55 |  | 43 | Alabama | 51 | 43 |
+| 19 | Minnesota | 39 | 55 |  | 44 | S.D. | 51 | 43 |
+| 20 | Michigan | 39 | 55 |  | 45 | Kentucky | 51 | 42 |
+| 21 | N.H. | 39 | 55 |  | 46 | N.D. | 53 | 41 |
+| 22 | Wisconsin | 39 | 54 |  | 47 | Idaho | 53 | 41 |
+| 23 | Penn. | 40 | 54 |  | 48 | Oklahoma | 54 | 39 |
+| 24 | Florida | 40 | 54 |  | 49 | W.Va. | 55 | 38 |
+| 25 | N.C. | 41 | 53 |  | 50 | Wyoming | 58 | 35 |
+Estimating approval and disapproval of Trump by state
+
+If voting in the Senate strictly abided by Trump’s popularity, the 67th vote to remove Trump from office would come from Missouri. (Two-thirds of states are bluer than Missouri and one-third are redder.) But in Missouri, I estimate, Trump’s numbers are roughly breakeven, with about 47 percent of Missourians approving of his performance and 47 percent opposed. I wouldn’t expect Missouri’s senators, Blunt and Democrat Claire McCaskill, to be eager to kick Trump out of office under those circumstances.
+
+Another issue is that it might be a leap of faith for Republicans to impeach Trump on the basis of polling data, given that trust in polls is relatively low right now. I have some … [complicated feelings about this](https://fivethirtyeight.com/features/the-real-story-of-2016/). The mainstream media [screwed up its interpretation of polls throughout 2016](https://fivethirtyeight.com/features/can-you-trust-polling-in-the-age-of-trump/), misreporting surveys that showed a [close and competitive Electoral College race](https://fivethirtyeight.com/features/the-electoral-college-blind-spot/) as indicating surefire Clinton victory. At the same time, polls have a real-world margin of error that [exceeds their purported margin of error](https://fivethirtyeight.com/features/the-state-of-the-polls-2016/), and Trump’s numbers are [*slightly* better among people who vote](https://projects.fivethirtyeight.com/trump-approval-ratings/voters/) than they are among the country overall. Congress could wait for unambiguous evidence that the public had turned on Trump, whether in the form of *very* poor polling numbers (say, approval ratings in the low 30s) or inexcusable election results (such as in the upcoming special elections in Montana and Georgia, or in a big Republican loss at the midterms). Until we see one or both of those things, I wouldn’t expect Trump to be under that much pressure of impeachment.
+
+*The bottom line:* For the time being, this factor contributes only modestly to the likelihood of Trump being removed from office. Trump is unpopular, but his numbers are not unsalvageable (several presidents have come back from similar ratings to win a second term). A further deterioration in his popularity would imply that he is unpopular even in red states, however, and would greatly increase the risk to Trump.
+
+## **Factor 4 The president’s relationship with Congress**
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-06.jpg?w=575)
+
+The House impeachment committee that tried President Andrew Johnson after he removed Edwin Stanton from office.
+
+Getty images
+
+This is not a factor that I’d thought a lot about originally. But when you [review the scholarship on impeachment](http://www.newyorker.com/magazine/2017/05/08/how-trump-could-get-fired) and consider the historical evidence, its importance becomes obvious. Impeachment cases have usually involved an element of conflict between the president and the legislative branch.
+
+This is most obvious in the case of Johnson, whose [impeachment](https://www.senate.gov/artandhistory/history/common/briefing/Impeachment_Johnson.htm) was the result of a plain-old turf war with Congress. In 1867, Congress had passed something called the [Tenure of Office Act](https://www.senate.gov/artandhistory/history/resources/pdf/Johnson_TenureofOfficeAct.pdf), which was supposed to prevent the president from firing Cabinet officers without the Senate’s consent. Johnson fired Secretary of War Edwin Stanton anyway in a direct challenge to the act’s legitimacy. The House impeached him as a result. The Tenure of Office Act was later repealed — and in 1926, [posthumously declared unconstitutional](http://caselaw.findlaw.com/us-supreme-court/272/52.html) by the Supreme Court — but it had invited a confrontation with Johnson, and he had obliged.
+
+Contempt of Congress was also one of the [articles of impeachment](http://watergate.info/impeachment/articles-of-impeachment) that the House Judiciary Committee recommended against Nixon after he failed to cooperate with congressional subpoenas during the Watergate investigation. And pissing matches between the president and Congress have been the basis of some near-misses in the impeachment process; there were some [fairly serious attempts to impeach John Tyler](https://constitutioncenter.org/blog/john-tyler-americas-most-unusual-president) over his use of presidential vetoes, for example.
+
+For the time being, Trump has a cordial relationship with Ryan and Senate Majority Leader Mitch McConnell. (Though that [hasn’t always been the case](http://www.breitbart.com/big-government/2017/03/13/exclusive-audio-emerges-of-when-paul-ryan-abandoned-donald-trump-i-am-not-going-to-defend-donald-trump-not-now-not-in-the-future/).) The GOP still has hopes of passing major legislation, including health care and tax-reform bills, and that requires cooperation between the White House and Congress. But one can imagine Trump doing various things to antagonize Congress, from Twitter rants against congressional leadership to refusing to comply with the requests of congressional investigators. Firing Comey — who was confirmed [93-1](https://www.senate.gov/legislative/LIS/roll_call_lists/roll_call_vote_cfm.cfm?congress=113&session=1&vote=00188) by the Senate in 2013 — may also have been a risky move in this respect. From Johnson to Harry Truman — who [drew calls for impeachment](https://en.wikipedia.org/wiki/President_Truman%27s_relief_of_General_Douglas_MacArthur) after [dismissing General Douglas MacArthur in 1951](http://www.history.com/this-day-in-history/congressional-hearings-on-general-macarthur) — high-profile firings have sometimes prompted members of Congress to ask for the president’s head.
+
+*The bottom line:* For the time being, this factor doesn’t contribute much to the likelihood of Trump being removed from office. But Trump’s history of escalating conflict and failing to respect boundaries could antagonize Congress and contribute to the likelihood of impeachment in the future, especially if the GOP’s agenda is in disrepair. History suggests that Congress takes that stuff personally, and it probably should, since the impeachment process is part of the Constitution’s system of checks and balances.
+
+## **Factor 5 Party control of Congress**
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-07.jpg?w=575)
+
+Impeachment proceedings against Johnson, Nixon and Clinton all took place when the opposition party controlled the House. Carl Albert (above) was the speaker of the House while the Watergate scandal was unfolding.
+
+getty images
+
+Impeachment proceedings against Johnson, Nixon and Clinton all took place when the opposition party controlled the House. But is it something close to an ironclad rule that a president won’t be impeached when his party runs the House, or just a statistical pattern from a small sample of data?
+
+Imagine, for example, that by this point next year, almost all Democrats in the House want to impeach Trump, and so do about three dozen Republicans — enough to constitute an overall majority. But Republicans are still in charge of the House, and Ryan and other members of the leadership are firmly opposed to an impeachment vote. Moreover, the House Judiciary Committee — which has traditionally run point on the impeachment process — is opposed.9 Would the pro-impeachment members have any basis to force Ryan’s hand?
+
+The short answer is … maybe, but Ryan and company could make their task a lot harder. I asked [Sarah Binder](https://politicalscience.columbian.gwu.edu/sarah-binder), a professor of political science at George Washington University and a senior fellow in governance studies at the Brookings Institution, about what might happen if a narrow majority of Congress wanted to impeach Trump but the Republican leadership didn’t.
+
+“This is one of those cases where we can outline a set of procedural steps to an impeachment vote, and yet have a hard time actually seeing this happen,” Binder said in an email. Possible routes could include members of Congress raising [questions of privilege](https://fas.org/sgp/crs/misc/98-411.pdf) or filing a [discharge petition](https://www.indivisibleguide.com/resource/legislative-process-101-discharge-petitions/). “But the key is whether the cross-party impeachment majority would really stick together” through numerous procedural votes and barriers thrown up by Ryan, she said. “I think that’s a very steep hurdle.”
+
+One might raise a sophisticated objection here: Sure, control of the House could matter if there were only a narrow majority in favor of impeachment. But what if there were a *large* majority instead — enough that Trump was not only under threat of impeachment but also removal by a two-thirds vote in the Senate? Could Ryan & Co. really resist that kind of pressure?
+
+We’re deep into speculative territory, but it’s worth remembering that legislative voting tactics are complicated. Members of a party tend to stick together, until the wheels come off — and even then the wagon sometimes gets repaired again. Consider, for instance, how the Republicans’ health care bill was initially presumed to be almost certain to pass the House, then was [pulled from the floor in March](https://fivethirtyeight.com/features/how-trump-lost-on-health-care/), and then [was passed this month](https://fivethirtyeight.com/features/the-gop-health-bill-is-still-far-from-law/) as both moderates and the conservative Freedom Caucus returned to the fold.
+
+It’s plausible, in other words, that Ryan and the House Judiciary Committee could keep the impeachment genie in the bottle, even if impeachment would prevail by a fairly clear majority if a vote came to the floor and members were left to their own devices.
+
+Control of the Senate is less important, insofar as the Senate would have to try the impeachment charges whether or not they wanted to. And per the Constitution, the trial would be overseen by Chief Justice of the United States John Roberts rather than by the Senate leadership.
+
+*The bottom line:* A Democratic takeover of the House — perhaps an [even-money proposition](https://www.predictit.org/Market/2704/Which-party-will-control-the-House-after-2018-midterms) — is not quite a prerequisite for Trump’s impeachment and removal, but it would greatly increase the odds. It would also give the Democrats far greater powers to investigate Trump and to subpoena key materials, which could create additional bases for impeachment charges.
+
+## **Factor 6 The line of succession**
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-08.jpg?w=575)
+
+Pence in next in line. Then comes Ryan.
+
+Getty images
+
+In 1868, Republicans in Congress had the power to replace Andrew Johnson, a Democrat who had run with Abraham Lincoln on the National Union ticket, with a Republican president. And there was absolutely nothing Democrats could do about it.
+
+[The circumstances were unusual](https://www.senate.gov/artandhistory/history/common/briefing/Impeachment_Johnson.htm). Johnson had ascended to the presidency after Lincoln’s assassination, and the vice presidency was vacant. Instead, the line of succession10 [would have given the presidency to the Republican Benjamin Wade](https://www.senate.gov/artandhistory/history/common/generic/Featured_Bio_Wade.htm), the president *pro tempore* of the Senate. Republicans had an overwhelming majority in the Senate in the midst of Reconstruction, so they didn’t need any Democratic votes to convict Johnson and replace him with Wade.
+
+Republicans didn’t quite do it; instead the vote was 35-19 in favor of conviction, one short of the number needed. But the prospect of a Wade presidency was [an influential factor in determining senators’ votes](https://learning.blogs.nytimes.com/2012/02/24/feb-24-1868-house-votes-to-impeach-president-andrew-johnson/comment-page-1/), encouraging [Radical Republicans](https://www.britannica.com/topic/Radical-Republican) to vote to convict Johnson (since Wade was a fellow Radical) but discouraging moderates from doing so.
+
+While Johnson may have been an extreme case, it’s reasonable to assume that the identity of the president’s successor is a factor in the impeachment calculus. Pence is [more conservative than Trump](http://www.ontheissues.org/Mike_Pence.htm) and was [widely praised by GOP leaders](http://www.cnn.com/2016/07/15/politics/donald-trump-mike-pence-vp-eactions/) at the time he became Trump’s running mate; he’s also a more predictable politician than Trump and formerly held a leadership position in the Republican-led House. He also has [decent favorability ratings](http://elections.huffingtonpost.com/pollster/mike-pence-favorable-rating), at least for the time being. In short, Republicans have some reasons to prefer Pence to Trump, which could make removing Trump more palatable. (Of course, that’s assuming that Pence [isn’t implicated in any sort of scandal himself](http://www.politico.com/story/2017/05/18/mike-pence-michael-flynn-lobbying-238556).)
+
+*The bottom line:* If the theory is that you shouldn’t hire a well-qualified understudy because he makes your job more vulnerable, then Trump made a mistake in picking Pence as his running mate. Pence isn’t popular with everyone, but he’s likely to be broadly acceptable to Republicans in the House and Senate, and they’re the ones with impeachment votes. Articles like [this one](http://www.politico.com/story/2017/05/17/mike-pence-president-trump-238525), in which Republicans begin to “whisper” about the probability of a President Pence, should be seen as a bearish indicator for Trump.
+
+![](https://fivethirtyeight.com/wp-content/uploads/2017/05/impeachment-silver-09.jpg?w=575)
+
+Trump’s firing of Comey might have constituted obstruction of justice, one of the two charges that the House used to impeach Clinton and one of the three charges that the House Judiciary Committee recommended against Nixon.
+
+getty images
+
+
+
+---
+
+All that work … and I’m still not going to give you a precise number for how likely Trump is to lose his job. That’s because this is a thought experiment and not a mathematical model11. I do think I owe you a range, however. I’m pretty sure I’d sell Trump-leaves-office-early stock (whether because of removal from office or other reasons) at even money (50 percent), and I’m pretty sure I’d buy it at 3-to-1 against (25 percent). I could be convinced by almost any number *within* that range.
+
+The easiest-to-imagine scenario for Trump being removed is if Republicans get clobbered in the midterms after two years of trying to defend Trump, the Republican agenda is in shambles, Democrats begin impeachment proceedings in early 2019, and just enough Republicans decide that Pence (or some fresh face with no ties to the Trump White House) gives them a better shot to avoid total annihilation in 2020.
+
+In some sense, then, the most important indicators of Trump’s impeachment odds are the ones you’d always use to monitor the political environment: presidential [approval ratings](https://projects.fivethirtyeight.com/trump-approval-ratings/), the [generic congressional ballot](http://www.realclearpolitics.com/epolls/other/2018_generic_congressional_vote-6185.html) and (if taken with appropriate grains of salt) [special election results](https://fivethirtyeight.com/features/what-the-special-election-in-georgia-can-and-cant-tell-us-about-the-midterms/). What makes this time a little different is that if Republicans think the ship is sinking, impeachment may give them an opportunity to throw their president overboard first.
+
+**CLARIFICATION (May 22, 1:33 p.m.):** A previous version of this article described imprecisely Rep. Angus King’s comments about Trump’s impeachment prospects. The paragraph has been updated.

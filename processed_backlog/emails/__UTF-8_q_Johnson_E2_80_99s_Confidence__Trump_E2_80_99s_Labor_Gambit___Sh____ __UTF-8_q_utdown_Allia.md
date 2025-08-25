@@ -1,0 +1,190 @@
+# =?UTF-8?q?Johnson=E2=80=99s_Confidence,_Trump=E2=80=99s_Labor_Gambit_&_Sh?=
+ =?UTF-8?q?utdown_Alliances?=
+
+**From:** Leigh Ann Caldwell <leighann@puck.news>
+**Date:** Tue, 11 Mar 2025 01:00:32 +0000
+**Source:** inputs/saved_emails/=UTF-8qJohnson=E2=80=99s_Confidence,_Trump=E2=80=99s_Labor_Gambit_&_Sh=
+ =UTF-8qutdown_Alliances=_Tue,_11_Mar_2025_01-00-32_+0000_19582b7d3dcde57d.eml
+**Processed:** 2025-08-24T19:13:06.724430
+
+Mar 10, 2025
+
+The Best & The Brightest ( https://puck.news/newsletters/the-best-and-the-brightest/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Leigh Ann Caldwell ( https://puck.news/author/leigh-ann-caldwell/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Leigh Ann Caldwell ( https://puck.news/author/leigh-ann-caldwell/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Hello and welcome back to The Best & The Brightest. I’m Leigh Ann
+Caldwell, writing from a nondescript courthouse in Washington, D.C., as I wait to hear if I’m one of the lucky ones chosen to sit on a jury. (My partner Eriq Gardner, Puck’s legal eminence, should hopefully be able to make a call or two to get me out of here…) Alas, with two local courts, the D.C. Circuit federal court, and a relatively small juror pool, Washington residents know that an annual jury summons is as reliable as the cherry blossoms. 
+
+ 
+
+I checked in with sources today, plenty of whom are asking me whether Mike Johnson will have the votes to pass the six-month spending bill in the House tomorrow. Currently, it feels like Johnson (really, Trump) will be able to unite Republicans on the bill. Below, Abby Livingston runs through the numbers. Our partner Bill Cohan also
+offers his assessment on Trump’s bluster about creating a crypto Fort Knox.
+
+ 
+
+But first…
+
+* The
+pro-union Republicans: The Senate easily confirmed former Rep. Lori Chavez-DeRemer to lead the Labor Department—another proofpoint of the evolution of the Republican Party. When Trump tapped Chavez-DeRemer, the daughter of a Teamster, many Republicans paused—not because of any personal scandal, or lack of experience, but rather because she’s a moderate Republican who has legislatively, and publicly, thrown her support behind unions. She walked a fine line in
+her confirmation hearing before the Health, Education, Labor, and Pensions Committee, saying she wouldn’t push unions in states hostile to organizing.
+
+Nearly every Republican voted for her, including Senator Markwayne Mullin, who nearly came to blows with Teamsters president Sean O’Brien during a hearing two years ago. Of course, O’Brien has cozied up to Trump, speaking at the Republican convention last summer. Meanwhile, the president has made inroads
+with union households. 
+
+Josh Hawley, who has been one of the few populist, vocally pro-worker senators in the Republican Party (even when Trump was out of favor), told me in a brief phone chat today that the president deserves a lot of credit for attracting union households. But he warned that if Republicans “don’t get in on the action” and pass pro-labor legislation and a pro-worker tax code in the upcoming tax bill, then the constituency will “go back to the
+Democrats.”
+
+Now that Chavez-DeRemer has been confirmed, she’ll land right in the crosshairs of Elon Musk and DOGE, who are trying to cut her department. Meanwhile, Democrats claim they’re not worried about her and the G.O.P. picking up union households, insisting that their own support for pro-worker policies is universally understood. Of course, they have bigger, existential issues to keep them up at night, including how they’re perceived: as out-of-touch
+elitists, unable to authentically connect with voters, union or not.
+
+Now, a quick word from Bill on Trump’s crypto plans…
+
+William D. Cohan
+William D. Cohan
+
+* Bloods & Crypto Bros:
+Even among the crypto industry’s biggest cheerleaders, there are questions about Donald Trump’s announcement last Thursday that the United States is creating a Strategic Bitcoin Reserve. Is this akin to the strategic gold reserve we have had for generations at Fort Knox, or the Strategic Petroleum Reserve, an emergency supply of crude oil? Is it just another of Trump’s many self-serving business stunts, akin to the launch of his $TRUMP memecoin, from which he’s already made more
+than $300 million; or his SPAC, Trump Media & Technology Group, his stake in which is worth a ridiculous $2.6 billion? Or is there some real substance behind what Trump and David Sacks—the investor, All-In podcaster, alt-right intellectual celebrity, and his newly anointed “crypto czar”—have created with their so-called Digital Asset Stockpile?
+
+At one point, the U.S. owned roughly 400,000 Bitcoin (no one knows the exact number since there hasn’t
+been a proper audit), which it obtained through a variety of means, but mostly via civil or criminal forfeitures in legal proceedings. Over the years, the feds have sold off half of their stash, willy-nilly, for about $360 million. In Thursday’s announcement of the new Bitcoin reserve, Trump called those sales “premature” and a mistake, and he’s not wrong. Today, those sold 200,000 Bitcoins are worth $17 billion, as are the remaining Bitcoins that the United States still holds.
+
+Suffice it
+to say, the Strategic Bitcoin Reserve has generated controversy, like pretty much everything else Trump does these days. “It really is a shame that Trump allowed his presidency to be hijacked by the frauds in the crypto industry,” longtime crypto hater Peter Schiff, the chief economist and global strategist at EuroPac, posted on X after Trump’s announcement. “It really casts a dark shadow on everything else he is trying to accomplish.” He added that the “Bitcoin
+pyramid scheme” would have collapsed this year if not for the crypto industry buying Trump’s goodwill—pouring tens of millions of dollars ( https://www.politico.com/news/2025/01/17/crypto-money-trump-inauguration-00199088?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) into his campaign and inauguration—thus ensuring government intervention to “keep the scheme going for a while longer, to the detriment of investors and the country.”
+
+On Friday, hot on the heels of the
+announcement, Trump invited a bunch of crypto enthusiasts to the White House for a first-ever “summit” to discuss the new Bitcoin reserve and Digital Asset Stockpile. “We feel like pioneers in a way,” Trump told the group. “From this day on, America will follow the rule that every bitcoin[er] knows very well—never sell your bitcoin. That’s a little phrase that they have. I don’t know if that’s right or not. Who the hell knows, right? Who knows? Who knows, but so far, it’s been right, and well,
+let’s keep it that way.”
+Summit attendees, including Bitcoin “maximalists” like Brian Armstrong, the C.E.O. of Coinbase; Michael Saylor, the chairman of MicroStrategy, one of the largest holders of Bitcoin in the world; and the buffoonish ( https://puck.news/why-is-anyone-still-listening-to-cathie-wood/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) money manager Cathie Wood, couldn’t have
+been happier. “Historic day” at the White House, Armstrong posted on X after he left the summit, adding that Coinbase would hire “about 1,000” new employees in the U.S. this year “as a result of this renewed growth”—or what he expects to be “renewed growth”— in the crypto industry. (A month after Trump’s inauguration, the S.E.C. filed to dismiss its lawsuit ( https://www.reuters.com/technology/us-sec-announces-dismissal-civil-enforcement-action-against-coinbase-2025-02-27/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) against Coinbase over whether certain crypto tokens should have been registered as securities.) Schiff, meanwhile, called the crypto summit “a disgrace” and “a national embarrassment.” That the “crypto faction” had “captured” Trump and the White House, he
+said, “will be a blight on whatever legacy Trump leaves and marks a low point for the presidency and the U.S.A.” 
+
+Read more here ( https://puck.news/is-trumps-strategic-bitcoin-reserve-idea-actually-good/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )…
+
+And now, here’s Abby…
+
+Trump’s Unified Theory of House Head-Rolling ( https://puck.news/trump-might-not-need-democrats-votes-to-avoid-a-government-shutdown/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+Trump’s Unified Theory of House Head-Rolling ( https://puck.news/trump-might-not-need-democrats-votes-to-avoid-a-government-shutdown/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+Mike Johnson is betting that Trump can strong-arm nearly every House Republican into
+voting for his spending bill—taking the air out of Democratic hopes to extract some political pain, and turning up the pressure on the Senate.
+
+Abby Livingston ( https://puck.news/author/abby-livingston/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Abby Livingston ( https://puck.news/author/abby-livingston/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+While House Democrats alternatively fret and fantasize about the possibility that they
+could make or break this week’s vote to prevent a government shutdown, cautiously upbeat Republicans are coalescing around the notion that they might not need their colleagues’ support at all. Until recently, the conventional wisdom held that at least some Democrats might need to cross the aisle to offset the usual brinkmanship among House Freedom Caucus types. But with four days remaining until the federal government runs out of money, I’m hearing mostly optimism on the G.O.P. side
+following Donald Trump’s recent all-caps diktat ( https://truthsocial.com/@realDonaldTrump/posts/114128213945115106?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that Republicans vote for Speaker Mike Johnson’s continuing resolution with “NO DISSENT.”
+
+ 
+
+Of course, the mood in Washington during a shutdown week has a tendency to change every few hours. Perhaps
+the Republican whip is undercounting potential defectors from the cause. (Depending on attendance, some days House Republicans can’t afford to lose a single vote if they hope to pass a bill on party lines.) For a time, it was assumed that if the G.O.P. conference could not pass a Republicans-only bill, Democrats might have some leverage to rein in Elon Musk’s efforts to strangle the federal government.
+
+ 
+
+But Trump and Johnson are making a big and risky bet that they can keep their conference in line, just as they did during Johnson’s speaker vote on January 3, and again two weeks ago, when House Republicans narrowly passed their budget framework. The dynamics here are similar: Once again, Thomas Massie is a renegade. But as my partner Leigh Ann Caldwell reported the other week, Trump wields a brutal whipping operation, and isn’t
+afraid to personally berate ( https://puck.news/how-trump-strong-armed-the-gop-budget-win/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) members to bend holdouts to his will. “It shocked us when he was able to get the speaker vote in one [round of voting], and turn it around,” a House Democratic chief of staff told me, espousing the view that Trump has largely subordinated even the Freedom Caucus to his will. 
+
+ 
+
+Trump and Johnson are so confident, in fact, that they’re not even attempting to attract votes from across the aisle, House Dems told me. Democrat Rep. Tom Suozzi confirmed as much Sunday on Face the Nation, in an interview that quickly made the rounds on the Hill. “Right now, I’m a no,” he told CBS’s Margaret Brennan. “I mean, there’s been no outreach on a bipartisan basis.” Suozzi is exactly the kind of Democrat who,
+in a previous era, would be participating in aisle-crossing back-channel talks among friendly members: He’s from a Trumpy Long Island district, and he has a history of defying party leadership. If Johnson isn’t courting Suozzi, the thinking goes, he’s not reaching out to anyone.
+
+Senate
+Math
+------
+
+We’ll see. Assuming the Trump-Johnson theory of House Republicans holds, the operative
+question in the Senate will be whether six or seven Democrats, depending on Rand Paul’s whims, will join with Senate Republicans to override a filibuster and keep the government open. If Suozzi appeared a persuadable Dem for House Republicans, then Michigan freshman Democrat Elissa Slotkin should be his Senate counterpart: She and Trump both won Michigan on the same ballot in 2024. But Slotkin was also a clear “no” on Sunday, when she told Meet the
+Press that “the president has been deciding how to spend the money any way he wants even when we have a budget that both Democrats and Republicans voted on.” She said she would withhold her vote in the absence of assurances that the money would be spent the way Congress intends. “Everyone knows Congress has the power of the purse,” she said.
+
+ 
+
+Still, when it comes to the all-important metric of vibes, many
+Democrats I spoke with on Monday seemed to think a shutdown would be avoided—that, in the end, enough Senate Democrats would back a Republican spending bill to keep the government open, even though it’s hard to see right now where those votes would come from. Their logic is as follows: First, securing a compromise on spending amid a shutdown might actually lead to a worse outcome relative to current spending levels, which were passed when Democrats controlled the White House and Senate.
+And second, what good would a clause attempting to rein in Trump and Musk really do? “He’s already breaking the law,” a senior Democratic Hill aide told me. “What are we gonna do, pass a super law?”
+
+Roads
+Diverge on Capitol Hill
+-----------------------
+
+Regardless of what House Republicans do, it remains unclear whether Democrats are
+backing off their flirtation with a Freedom Caucus–style hostage situation, or merely taking a beat as they assess whether to keep their powder dry for the next political fight. No Democrat is really rooting for a shutdown. Even Appropriations ranking member Senator Patty Murray, a hardline Democrat who sent strong public hints about tying shutdown and debt ceiling negotiations to DOGE’s overreach, is arguing that the best course is to pass a short-term
+spending bill. A Democratic leadership aide has taken to referring to her as the “anti-venom” to DOGE. 
+
+ 
+
+Meanwhile, Democratic sources seemed genuinely divided on whether enough Democrats would join with Republicans to pass the House bill—which presents the question of leverage. If Republicans prevail in the shutdown and subsequent debt-ceiling negotiations, will Democrats have any leverage
+left?
+
+At first glance, their outlook is bleak. The party’s leverage consists of “nothing, only public opinion,” the House Democratic chief told me, summing up the consensus among their peers. “We only have the public to raise enough hell, and litigation, over it.” But that’s really nothing. Indeed, a growing portion of Democratic energies are being focused outside of Washington, where public protests and angry town halls are
+metastasizing in even Trump-friendly districts. Any doubt that Republicans were beginning to feel the heat disappeared when The New York Times reported last week that Trump put a muzzle on Musk, albeit a loose one, in an apparent effort to quell the blowback. “Winds can change directions, but I also think that we need to let the cycle come to us,” a vulnerable House Democrat told me the other day, following that fateful Presidents’ Day recess. “The cycle began to come to us this
+week.”
+
+ 
+
+In the meantime, there are several roads that Capitol Hill Democrats may travel over the coming days. Senate Democrats could filibuster a spending bill and gamble with a national shutdown; Murray could succeed in persuading both parties, and both chambers, to kick the negotiations back to the appropriators; or, enough Senate Democrats could join with Republicans to keep the government open. If that happens,
+Democrats may be left with only one response: making the lives of vulnerable Republicans—the likes of Susan Collins and Thom Tillis and David Valadao—as politically miserable as possible. 
+
+ 
+
+In doing so, however, they’ll have to endure some political pain of their own. The Democratic base is furious, and stands to be only further demoralized if their politicians back
+down from the current fight. At the very least, any Democratic senator who votes for the Republican spending bill will have a moral obligation to take the staff assistants out for a drink, after all holy hell comes down on the office phones.
+
+The Powers That Be ( https://puck.news/podcasts/the-powers-that-be/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Join Emmy Award-winning journalist Peter Hamby, along with the team of expert journalists at Puck, as they let you in on the
+conversations insiders are having across the four corners of power in America: Wall Street, Washington, Silicon Valley, and Hollywood. Presented in partnership with Audacy, new episodes publish daily, Monday through Friday.
+
+Dry Powder ( https://puck.news/newsletters/dry-powder/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Unique and privileged insight into the private conversations taking place inside boardrooms and corner offices up and down
+Wall Street, relayed by best-selling author, journalist, and former M&A senior banker William D. Cohan.
+
+D.C.
+Shutdown Palpitations
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+D.C. Shutdown Palpitations ( https://puck.news/democrats-are-divided-about-the-upcoming-shutdown-crisis/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LEIGH ANN CALDWELL
+
+Bezos’s Poison Pill
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bezos’s Poison Pill ( https://puck.news/how-david-shipley-hit-the-fan/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DYLAN BYERS
+
+A Crypto Fort Knox
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+A Crypto Fort Knox ( https://puck.news/is-trumps-strategic-bitcoin-reserve-idea-actually-good/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+WILLIAM D. COHAN
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences,
+click here ( https://puck.news/unsubscribe/?subscription=the_best_and_the_brightest&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVgrdYEHr39-YQuHM3vEI=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F10%2F25%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%283%2F9%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

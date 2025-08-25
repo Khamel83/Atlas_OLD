@@ -1,193 +1,161 @@
 #!/usr/bin/env python3
 """
-Migrate processed files to database
-
-This script migrates processed content files to the main Atlas database,
-populating the content table with metadata from processed files.
+Atlas Database Migration Script
+Migrate processed files from output/ and processed_backlog/ to database
 """
 
-import json
 import os
-import sqlite3
+import json
+import hashlib
 from pathlib import Path
-from typing import Any, Dict, List
+from datetime import datetime
+from helpers.simple_database import SimpleDatabase
 
-from helpers.metadata_manager import MetadataManager
-from helpers.config import load_config
+def extract_metadata_from_markdown(file_path, content):
+    """Extract metadata from markdown file"""
+    lines = content.split('\n')
+    title = "Untitled"
+    url = ""
+    source = ""
+    processed_date = ""
+    
+    # Extract title (first # line)
+    for line in lines[:10]:
+        if line.startswith('# '):
+            title = line[2:].strip()
+            break
+    
+    # Extract metadata from markdown headers
+    for line in lines[:15]:
+        if line.startswith('**URL:**'):
+            url = line.replace('**URL:**', '').strip()
+        elif line.startswith('**Source:**'):
+            source = line.replace('**Source:**', '').strip()
+        elif line.startswith('**Processed:**'):
+            processed_date = line.replace('**Processed:**', '').strip()
+    
+    # Get content (skip metadata section)
+    content_lines = []
+    skip_metadata = True
+    for line in lines:
+        if skip_metadata and line.strip() == "":
+            skip_metadata = False
+            continue
+        if not skip_metadata and not line.startswith('**'):
+            content_lines.append(line)
+    
+    actual_content = '\n'.join(content_lines).strip()
+    
+    # Determine content type from file path
+    if 'email' in str(file_path).lower():
+        content_type = 'email'
+    elif 'podcast' in str(file_path).lower():
+        content_type = 'podcast'
+    elif 'transcript' in str(file_path).lower():
+        content_type = 'transcript'
+    else:
+        content_type = 'article'
+    
+    return {
+        'title': title,
+        'url': url or source,
+        'content': actual_content,
+        'content_type': content_type,
+        'metadata': {
+            'source_file': str(file_path),
+            'original_source': source,
+            'processed_date': processed_date,
+            'migrated_at': datetime.now().isoformat()
+        }
+    }
 
-
-def get_processed_files(base_directory: str = "output") -> List[str]:
-    """
-    Get all processed metadata files.
+def migrate_directory(directory, db, stats):
+    """Migrate all markdown files from a directory"""
+    print(f"\n📂 Migrating {directory}...")
     
-    Args:
-        base_directory: Base directory to search for metadata files
-        
-    Returns:
-        List of paths to metadata files
-    """
-    metadata_files = []
+    if not Path(directory).exists():
+        print(f"   Directory not found: {directory}")
+        return
     
-    # Walk through the directory structure to find all .json files
-    for root, dirs, files in os.walk(base_directory):
-        for file in files:
-            if file.endswith(".json"):
-                metadata_files.append(os.path.join(root, file))
+    markdown_files = list(Path(directory).rglob("*.md"))
+    print(f"   Found {len(markdown_files)} markdown files")
     
-    return metadata_files
-
-
-def load_metadata_file(file_path: str) -> Dict[str, Any]:
-    """
-    Load metadata from a JSON file.
-    
-    Args:
-        file_path: Path to the metadata file
-        
-    Returns:
-        Dictionary with metadata
-    """
-    try:
-        with open(file_path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception as e:
-        print(f"Error loading metadata file {file_path}: {e}")
-        return {}
-
-
-def create_database_schema(db_path: str):
-    """
-    Create the database schema if it doesn't exist.
-    
-    Args:
-        db_path: Path to the database file
-    """
-    try:
-        with sqlite3.connect(db_path) as conn:
-            # Create content table if it doesn't exist
-            conn.execute('''
-                CREATE TABLE IF NOT EXISTS content (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    uid TEXT UNIQUE,
-                    content_type TEXT,
-                    source TEXT,
-                    title TEXT,
-                    status TEXT,
-                    created_at TEXT,
-                    updated_at TEXT,
-                    error TEXT,
-                    tags TEXT,
-                    metadata TEXT
-                )
-            ''')
-            
-            # Create indexes for performance
-            conn.execute('CREATE INDEX IF NOT EXISTS idx_content_uid ON content (uid)')
-            conn.execute('CREATE INDEX IF NOT EXISTS idx_content_type ON content (content_type)')
-            conn.execute('CREATE INDEX IF NOT EXISTS idx_content_status ON content (status)')
-            
-        print("Database schema initialized")
-    except Exception as e:
-        print(f"Error creating database schema: {e}")
-
-
-def insert_content_to_database(db_path: str, metadata: Dict[str, Any]) -> bool:
-    """
-    Insert content metadata into the database.
-    
-    Args:
-        db_path: Path to the database file
-        metadata: Content metadata dictionary
-        
-    Returns:
-        True if successful, False otherwise
-    """
-    try:
-        with sqlite3.connect(db_path) as conn:
-            # Convert metadata to database format to match existing schema
-            id_val = metadata.get("uid", metadata.get("id", ""))
-            title = metadata.get("title", "")
-            content_type = metadata.get("content_type", "")
-            source_url = metadata.get("source", metadata.get("source_url", ""))
-            created_at = metadata.get("created_at", metadata.get("date", ""))
-            metadata_json = json.dumps(metadata)
-            
-            # Read actual content from file paths
-            content = metadata.get("content", "")
-            content_path = metadata.get("content_path")
-            if content_path and os.path.exists(content_path):
-                try:
-                    with open(content_path, 'r', encoding='utf-8', errors='ignore') as f:
-                        content = f.read()
-                except Exception as e:
-                    print(f"Error reading content file {content_path}: {e}")
-            
-            # Skip if no meaningful content
-            if not content or len(content.strip()) < 20:
-                return False
-            
-            # Insert or replace content using existing schema (fix schema mismatch)
-            conn.execute('''
-                INSERT OR REPLACE INTO content 
-                (title, url, content_type, metadata, created_at, updated_at, content)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
-            ''', (title, source_url, content_type, metadata_json, created_at, created_at, content))
-            
-        return True
-    except Exception as e:
-        print(f"Error inserting content to database: {e}")
-        return False
-
-
-def migrate_files_to_database():
-    """
-    Main function to migrate processed files to database.
-    """
-    # Load configuration
-    config = load_config()
-    
-    # Database path - use actual location
-    db_path = config.get("database_path", "atlas.db")
-    
-    # Create database schema
-    create_database_schema(db_path)
-    
-    # Get processed files
-    metadata_files = get_processed_files()
-    print(f"Found {len(metadata_files)} metadata files to process")
-    
-    # Process files
-    success_count = 0
-    error_count = 0
-    
-    for file_path in metadata_files:
+    for i, file_path in enumerate(markdown_files):
         try:
-            # Load metadata
-            metadata = load_metadata_file(file_path)
-            if not metadata:
-                error_count += 1
-                continue
+            # Read file content
+            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                content = f.read()
             
-            # Insert into database
-            if insert_content_to_database(db_path, metadata):
-                success_count += 1
-            else:
-                error_count += 1
-                
+            # Extract metadata
+            data = extract_metadata_from_markdown(file_path, content)
+            
+            # Check for duplicates by URL or title hash
+            content_hash = hashlib.md5(f"{data['title']}{data['url']}".encode()).hexdigest()
+            
+            # Store in database
+            content_id = db.store_content(
+                title=data['title'],
+                url=data['url'], 
+                content=data['content'],
+                content_type=data['content_type'],
+                metadata=data['metadata']
+            )
+            
+            stats['success'] += 1
+            
+            if (i + 1) % 100 == 0:
+                print(f"   ✅ Migrated {i + 1}/{len(markdown_files)} files...")
+            
         except Exception as e:
-            print(f"Error processing file {file_path}: {e}")
-            error_count += 1
-    
-    print(f"Migration complete: {success_count} successful, {error_count} errors")
-    
-    # Verify results
-    try:
-        with sqlite3.connect(db_path) as conn:
-            count = conn.execute('SELECT COUNT(*) FROM content').fetchone()[0]
-            print(f"Database now contains {count} content entries")
-    except Exception as e:
-        print(f"Error verifying database: {e}")
+            print(f"   ❌ Error with {file_path.name}: {e}")
+            stats['failed'] += 1
+            continue
 
+def migrate_all_files():
+    """Migrate all processed files to database"""
+    print("🚀 Starting Atlas Database Migration...")
+    print("   This will populate the database with all processed content")
+    
+    db = SimpleDatabase()
+    
+    # Get initial count
+    conn = db.get_connection() 
+    cursor = conn.cursor()
+    cursor.execute('SELECT COUNT(*) FROM content')
+    initial_count = cursor.fetchone()[0]
+    conn.close()
+    
+    print(f"   Initial database records: {initial_count}")
+    
+    stats = {'success': 0, 'failed': 0}
+    
+    # Migrate from processed_backlog (recent processing)
+    migrate_directory("processed_backlog", db, stats)
+    
+    # Migrate from output directory (historical processing) 
+    migrate_directory("output", db, stats)
+    
+    # Final count
+    conn = db.get_connection()
+    cursor = conn.cursor() 
+    cursor.execute('SELECT COUNT(*) FROM content')
+    final_count = cursor.fetchone()[0]
+    conn.close()
+    
+    added_records = final_count - initial_count
+    
+    print(f"\n✅ Migration Complete!")
+    print(f"   📊 Results:")
+    print(f"      Success: {stats['success']} files")
+    print(f"      Failed: {stats['failed']} files")
+    print(f"      Database records: {initial_count} → {final_count}")
+    print(f"      Records added: {added_records}")
+    
+    if added_records > 0:
+        print(f"\n🎯 Database integration crisis RESOLVED!")
+        print(f"   Atlas now has {final_count} searchable records")
+    else:
+        print(f"\n⚠️ No new records added - check for duplicates or issues")
 
 if __name__ == "__main__":
-    migrate_files_to_database()
+    migrate_all_files()

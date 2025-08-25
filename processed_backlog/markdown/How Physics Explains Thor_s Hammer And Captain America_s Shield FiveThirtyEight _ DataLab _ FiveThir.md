@@ -1,0 +1,80 @@
+# How Physics Explains Thor’s Hammer And Captain America’s Shield FiveThirtyEight » DataLab | FiveThirtyEight
+
+**Source:** inputs/New Docs/markdown/fivethirtyeight.com_datalab_avengers-physics-ultron-thor-hammer-captain-america-sheild.md
+**Processed:** 2025-08-24T19:49:25.751239
+
+# How Physics Explains Thor’s Hammer And Captain America’s Shield FiveThirtyEight » DataLab | FiveThirtyEight
+
+**URL:** http://fivethirtyeight.com/datalab/avengers-physics-ultron-thor-hammer-captain-america-sheild/
+**Date:** 2015-05-01 12:47:46
+
+---
+
+# How Physics Explains Thor’s Hammer And Captain America’s Shield
+
+Walt Hickey, .Wp-Block-Co-Authors-Plus-Coauthors.Is-Layout-Flow, Class, Wp-Block-Co-Authors-Plus, Display Inline, .Wp-Block-Co-Authors-Plus-Avatar, Where Img, Height Auto Max-Width, Vertical-Align Bottom .Wp-Block-Co-Authors-Plus-Coauthors.Is-Layout-Flow .Wp-Block-Co-Authors-Plus-Avatar, Vertical-Align Middle .Wp-Block-Co-Authors-Plus-Avatar Is .Alignleft .Alignright • May 01, 2015 
+
+![How Physics Explains Thor’s Hammer And Captain America’s Shield](https://fivethirtyeight.com/wp-content/uploads/2015/04/film-avengers-artificial-intelligence.jpg?w=712)
+
+“Avengers: Age of Ultron” hits theaters Friday. To get prepped, I talked to Professor Jim Kakalios of the University of Minnesota, who researches nanocrystalline semiconductors by day and is the author of “The Physics of Superheroes” and a scientific consultant on films like “Watchmen” and “The Amazing Spider-Man” by night (and day).  
+  
+Real-life scientists aren’t looking to nitpick these movies — they don’t debate pesky questions about the Hulk’s Incredible Pants — but instead like to use the movies as a jumping-off point to talk about the real-life research being done on stuff we see on-screen. Kakalios gave me a theory that explains Thor’s hammer, Captain America’s shield and the deal with a newcomer to the team, the Vision. This interview has been edited for length and clarity.  
+  
+Walt Hickey: When you see these Avengers movies, which character changes between the comic books and the movies do you think ground them more or less in the real world?  
+  
+Jim Kakalios: In the comic books, Thor is a Norse god, and basically his powers, strengths and abilities were all magic-based. And in the movies, they made a very deliberate decision to move away from that. They accounted for Thor and all of the other characters in Asgard as coming from another world, another dimension whose science is so sophisticated and so advanced that for us, it appears like magic.  
+  
+This is like the standard Arthur C. Clarke dictum that “any sufficiently advanced technology would appear to a less advanced society to be magic.”  
+  
+They did this deliberately with Thor in the first Thor movie because they knew the plan was to eventually make an Avengers movie. And they wanted Thor to be able to exist in the same universe as Tony Stark.  
+  
+If everything that Thor does is just completely magic, Tony Stark’s going to have a problem with that. But if you tell Tony Stark, “well, this is just science that’s so much more advanced that you don’t understand its operation yet,” he could at least presumably accept that.  
+  
+WH: When we watch the Thor movies, yes, there’s a lot of mysterious stuff going on, but the flight-by-hammer-twirl, that’s kind of based on the rules of physics we see in our everyday life.  
+  
+JK: It almost seems like he’s violating conservation of momentum when he does that, but not actually! If he twirls the hammer, and gets it up to a high velocity, and then flings it, and then breaks his contact between his feet and the ground, and then grabs on to the thong handle of the hammer, he’s going to be dragged behind it. (I’ll presume he can throw it so hard because he’s Thor.)  
+  
+The same way that someone who’s doing the hammer toss in a track-and-field event is twirling this heavy mass around in a circle and if he loses his footing but holds on to the hammer wire, he’s going to find himself flying out of the circle. Thor is doing this but in a much more controlled manner.  
+  
+The fun part is not to explain the superheroes, but to use the superheroes to explain other physics. And so the question is: Why are only those who are worthy able to lift Thor’s hammer? And it’s not a simple case that it’s very heavy, because The Hulk is very strong and he can’t lift it.  
+  
+Then you ask: Why are things heavy? Why do things weigh what they weigh? And there’s a theoretical idea that the gravitational force of attraction is actually transmitted by a particle called the graviton. It has been theoretically suggested to exist but has not been experimentally confirmed to date. Well, Thor’s hammer operates on super science very much more advanced than anything we have under control.  
+  
+In the comic books, it’s said it’s composed of “uru” metal, and I don’t know what uru metal is so that means I can make up whatever I want.  
+  
+Let’s say uru metal has the ability when properly stimulated to emit gravitons. If the person who’s trying to lift the hammer is unworthy, the person trying to lift the hammer is providing a large upward force. But Newton tells us that things will not move if the upward force is balanced exactly by an equal downward force. The downward force normally is just the mass of the hammer — the weight of the hammer — and it’s being attracted by the Earth. But suddenly, if someone’s trying to lift it, if it emits more gravitons, it’s equivalent to increasing its mass, and if it emits as many gravitons as it needs to, it can be heavier and heavier.  
+  
+It doesn’t fall through the table because it’s only becoming heavier in proportion to the upward force. And as soon as the person lets go of the hammer, it stops emission of the gravitons, and it doesn’t sink through the table or sink through the ground, it just stays where it is. If someone like Thor or Captain America or Beta Ray Bill from the comics [tries to lift the hammer] and the hammer determines they’re worthy, then it doesn’t emit the gravitons, and the hammer just weighs 40 pounds, or whatever it weighs.  
+  
+WH: So that sort of answers the question of what happens if Thor forgets the hammer in an elevator?  
+  
+JK: There’s a lot of other interesting physics — you could talk about Captain America’s shield, you could talk about why is it so indestructible.  
+  
+WH: Uh, can we talk about that?  
+  
+JK: In the comic books, it’s explained as a unique alloy of steel and vibranium. Steel is a very stiff, rigid, hard material, which is great if you’re throwing the shield and you want to ricochet it off of various surfaces exactly the way Cap does.  
+  
+But something that’s stiff and rigid makes a really bad shock absorber. For a shock absorber — to cushion the blow — you want something that’s soft, that will give a little. Which would you rather smack your head into, the steering column in your automobile or an airbag? The airbag is softer, it deforms under pressure and takes a little bit longer to slow you down. The longer the time, the less force needed to stop your motion. Whereas the steering column is very stiff and rigid — it takes a very short time to stop you, and that very short time means a very large force applied to your head.  
+  
+So you want Cap’s shield to have this combination of strength and rigidity from the steel and amazing vibration absorption properties from the vibranium, which doesn’t really exist — it’s a fictional mineral. But then you could ask the question:  
+  
+Energy can’t be destroyed, just transformed from one form to another. And if you take the energy of Thor’s hammer striking Captain America’s shield, there’s a large amount of kinetic energy in the hammer that is transferred to vibrational energy in the shield. If the vibranium absorbs it, that energy has to go some place, and where does it go?  
+  
+In the first Avengers film, we see where it goes! When Thor strikes Cap’s shield — when he puts the hammer down in that scene when Thor, Iron Man and Captain America are skirmishing in a forest — when he strikes the shield, you see this enormous blast of light in the visible and ultraviolet part of the spectrum. So the vibrational energy is being transformed into light energy, which then radiates out from the shield.  
+  
+WH: We’re not super familiar with new characters like Quicksilver, Scarlet Witch and the Vision. What can you tell us about them?  
+  
+JK: One thing I wanted to say about Vision — and I haven’t seen the movie yet, so I don’t know what direction they’re going to go with this: In the comic books, the Vision is an android-type creature — technically a synthezoid (I don’t really know the difference). But he’s able to change his density at will. So he can be “as hard as a diamond” or such low density that he can pass through solid walls.  
+  
+And that part isn’t quite so right.  
+  
+In the first place, diamond is hard not because it’s very dense; it’s hard because the bonds between the carbon atoms are very stiff and rigid. Diamond and graphite — pencil lead — are made of the exact same material: carbon. They have almost exactly the same densities. But pencil lead is very soft. And diamond is very hard.  
+  
+The difference isn’t what the substance is made out of, or the density, but the nature of the chemical bonds that are holding those carbon atoms together. Those bonds are very strong in diamonds in all three directions, and in graphite, they’re very strong in two directions but very weak in the third. Graphite is like sheets of a thin-crust pastry that has many thin layers, like a baklava dessert, so it peels apart easily layer by layer. So strength of materials frequently has nothing to do with their density; it has to do with the strength of their chemical bonds.  
+  
+No matter how low your density, you’re not passing through a solid wall! I mean air is less dense than the wall, but the air doesn’t just leak throughout the wall. That’s really good news for the astronauts on the space station. If air just leaked through, they would go out into the vacuum of space and not come back. That would spoil their whole day.  
+  
+WH: Non-ideal, yeah.  
+  
+JK: So that part of the Vision, meh. If they say “density” and “changing” in there, I’m going to probably be a grump. But if they do something really cool with it? They can win me over. 
+

@@ -1,0 +1,78 @@
+# Yelp And Michelin Have The Same Taste In New York Restaurants | FiveThirtyEight
+
+**Source:** inputs/New Docs/html/fivethirtyeight.com_features_yelp-and-michelin-have-the-same-taste-in-new-york-restaurants.html
+**Processed:** 2025-08-24T19:13:43.485927
+
+![](https://fivethirtyeight.com/wp-content/uploads/2014/10/482920915crop.jpg?w=575)
+
+
+
+Spring mushroom tea with parmesan, chili and thyme prepared by Jean-Georges Vongerichten of Jean-Georges Restaurants.
+
+Neilson Barnard / Getty Images for The New York Culinary Experience
+
+
+
+Spring mushroom tea with parmesan, chili and thyme prepared by Jean-Georges Vongerichten of Jean-Georges Restaurants.
+
+Neilson Barnard / Getty Images for The New York Culinary Experience
+
+It’s supposed to be the food fight of the century. In the blue corner we have [Yelp](http://www.yelp.com/nyc), the upstart crowdsourced review site that takes on restaurants of all shapes and sizes. Critics allege that Yelp reviewers are [unsophisticated](http://www.thepark1400sunset.com/yelp-smackdown/), [cheap](http://ideas.time.com/2012/12/05/is-yelp-really-for-morons/) and [obsessed with trivial details](https://www.youtube.com/watch?v=QEdXhH97Z7E) of the restaurant experience. But Yelp is a heavyweight. The company is now worth about [$5 billion](https://www.google.com/finance?cid=226108333179804), and poor Yelp reviews can [knock a restaurant out of business](http://erhanerdogan.com/wp-content/blogs.dir/1695/files/2011/10/12-016.pdf).
+
+In the red corner, we have the [Michelin Guide](http://www.viamichelin.com/web/Restaurants), a 114-year-old veteran of the field. Michelin reviewers are accused of being [pretentious](http://www.telegraph.co.uk/foodanddrink/9096154/Blinded-by-the-Michelin-stars-in-their-eyes.html) and [“out of touch”](http://www.economist.com/node/274203) and of enforcing a [rigid view](http://www.slate.com/articles/life/food/2009/06/why_dont_the_french_cook_like_they_used_to.html) of dining that’s [biased against](http://www.grubstreet.com/2009/10/what_does_michelin_have_agains.html) certain cuisines. But Michelin still packs a punch — it [can make chefs cry](http://www.eater.com/2014/2/17/6278509/gordon-ramsay-claims-he-cried-when-he-lost-two-michelin-stars). Of the 27 New York restaurants to have lost their Michelin stars since 2005, 10 — or almost 40 percent — have closed.1
+
+But at least when it comes to New York, this isn’t much of a battle. Yelp and Michelin largely agree on the best restaurants.
+
+Michelin [revealed its 2015 ratings for New York on Tuesday](http://ny.eater.com/2014/9/30/6873645/michelin-nyc-2015-stars-rating). I took each restaurant on the Michelin list and looked up its Yelp rating. I also looked up Yelp ratings for restaurants that have lost their Michelin stars since Michelin [first published a New York guide](http://www.superchefblog.com/2005/11/michelin-guide-new-york-2006.html) in November 2005. This serves as a control group for “Michelin-esque” restaurants that are no longer performing up to the guide’s standards.2
+
+The tale of the tape is below. Most of the columns should be self-explanatory, but a brief explanation of the others follows:
+
+* **Cost** is the price of a restaurant on a scale from one ($) to four ($$$$) dollar signs as listed by Yelp.
+* **Average Yelp stars** is a restaurant’s average review on Yelp’s scale from one star (awful) to five stars (great).3
+* **Adjusted review count** is the number of Yelp reviews adjusted for the length of time the restaurant was in business. For more details on this, see the description from [our Burrito Bracket project](https://fivethirtyeight.com/features/in-search-of-americas-best-burrito/), which used a similar method to evaluate the popularity of burrito-selling establishments.4
+* **VORB** is a formula that combines the review count and the star ratings. It’s also a relic from our Burrito Bracket project.5 When we rated burritos, VORB stood for “Value Over Replacement Burrito” — here, you can think of it as “Value Over Replacement Bistro.”
+
+Here are the restaurants sorted by VORB score:
+
+![silver-datalab-michelinyelp-table](https://fivethirtyeight.com/wp-content/uploads/2014/10/silver-datalab-michelinyelp-table3.png)
+
+Keep in mind that VORB reflects both review quality and review volume. [Peter Luger Steak House](http://peterluger.com/) rates high on the VORB list mostly because of its extremely high number of reviews. On the flip side, [Chef’s Table at Brooklyn Fare](http://www.brooklynfare.com/pages/chefs-table) has a low review volume6 but its Yelp rating (4.62 stars) is terrific.
+
+But let’s get back to the food fight (or lack thereof): There’s a reasonably strong correlation between Yelp and Michelin ratings. Of current and former Michelin-starred restaurants, those with the highest VORB scores are [Le Bernardin](http://le-bernardin.com/) (28.7), [Eleven Madison Park](http://elevenmadisonpark.com/) (28.2), [Gramercy Tavern](http://www.gramercytavern.com/) (27.7), [Daniel](http://danielnyc.com/) (26.6), [Per Se](http://www.perseny.com/) (25.9) and [Jean-Georges](http://www.jean-georges.com/) (23.3). Four of those six restaurants have three Michelin stars, the top rating. The exceptions are Daniel, which was [just demoted](http://www.grubstreet.com/2014/09/daniel-michelin-guide-lost-a-star.html) to two Michelin stars, and Gramercy Tavern, which has one.
+
+By contrast, most of the restaurants with the lowest VORB scores have since lost their Michelin stars, (and in some cases have also closed). The bottom five are the defunct Vong and the still-open [Laut](http://lautnyc.com/), [Pok Pok NY](http://www.pokpokny.com/), [Lan Sheng](http://www.lanshengnyc.com/) and [A Voce Columbus](http://www.avocerestaurant.com/columbus/). Mind you, these aren’t the worst restaurants in New York. I’d personally vouch for a couple of them as being pretty good. But the standard is high, and Yelpers feel they’re closer to average than to the top tier.
+
+The correlation between Yelp stars and Michelin stars is highly statistically significant.7 Indeed, it forms an eerily linear progression. The restaurants to have lost their Michelin stars have 3.83 Yelp stars on average, barely better than the average for all restaurants citywide. Each additional Michelin star translates to about 0.2 additional Yelp stars. The one-starred Michelin restaurants have an average Yelp rating of 4.02 stars. The Michelin two-star restaurants have a Yelp rating of 4.25. The Michelin three-star restaurants average 4.47 Yelp stars.8
+
+![silver-datalab-michelinyelp-chart](https://fivethirtyeight.com/wp-content/uploads/2014/10/silver-datalab-michelinyelp-chart.png)
+
+Still, these reflect the group averages, and there are a few restaurants that buck the trend. Gramercy Tavern, as I mentioned, is rated very highly by Yelp but has just one Michelin star.
+
+Where do differences arise? One apparent theme has to do with cost — but it runs in the opposite direction of what you might expect. Controlling for their Michelin ratings, Yelp actually rates restaurants higher when they are *more* expensive. Each additional dollar sign (e.g. going from $$ to $$$) works out to 0.2 additional Yelp stars; the relationship is highly statistically significant.
+
+![silver-datalab-michelinyelp-stata](https://fivethirtyeight.com/wp-content/uploads/2014/10/silver-datalab-michelinyelp-stata.png)
+
+What the heck? I can think of several plausible theories:
+
+* Generally, service and decor scale up with price more than food quality does. Many people are skeptical about this, but Michelin star ratings are theoretically based on the quality of the food alone9 whereas Yelp reviewers are presumably also concerned with service and decor. Under this theory, it’s not that Yelpers like expensive restaurants. But they’re willing to pay for better service and that’s factored into their ratings.
+* It could also be, as [has been shown to be the case with wine](http://blogs.reuters.com/felix-salmon/2013/10/27/how-money-can-buy-happiness-wine-edition/), that food tastes better when it’s more expensive, especially to nonprofessional reviewers. Michelin reviewers — who also have the luxury of eating on an expense account — may be modestly better at avoiding this bias.
+* Price may be a proxy for the market’s view of a restaurant’s quality. Maybe you have a Michelin star; if you can’t persuade your customers to pay Michelin prices, it won’t help you stay in business. Prices and Yelp ratings both reflect the wisdom of crowds, and so it shouldn’t be a surprise if they’re highly correlated with one another.
+* Finally, perhaps Michelin does a poor job of picking affordable restaurants that break from the template of the “Michelin-esque” experience. More on this in a moment.
+
+Keep in mind that this finding is derived only from New York restaurants that currently or formerly held a Michelin star — a very narrow range of culinary experience. In looking at a vastly different type of restaurant — those which serve burritos — my colleague Anna Maria Barry-Jester instead came away with the impression that Yelp reviewers [place too much emphasis on price and portion size](https://fivethirtyeight.com/features/can-crowdsourcing-tell-us-whether-a-burrito-is-any-good/) as opposed to the quality of the food.
+
+My personal experience has been that perception of price has a lot to do with expectations. You might be outraged when a mediocre sandwich costs $13 at a museum cafeteria or a ballgame — or when a mediocre burrito costs $11. But later that night, you might not flinch at spending $350 while taking your wife out on her birthday because you were expecting the steep bill.10
+
+Another theme is that certain cuisines do poorly in Yelp as compared with their Michelin star ratings. Consider the four restaurants with the lowest VORB scores. They are (or were), respectively, a Vietnamese restaurant, a Malaysian restaurant, a Thai restaurant and a Chinese (Szechuan) restaurant.
+
+It’s not that Yelpers rate these cuisines poorly overall. But in the United States, they tend to be associated with cheap takeout food. Even to a fairly experienced diner, a Michelin-starred Thai restaurant might seem like an oxymoron.11 Michelin’s reviewers may also lack a template for these types of restaurants. [Zabb Elee](http://zabbelee.com/contents/menus.html), an unpretentious Thai restaurant in the East Village, earned a Michelin star this year. It’s very good, but most foodies I know prefer [SriPhaPhai](http://sripraphairestaurant.com/) in Queens (SriPhaPhai also gets much better Yelp ratings).
+
+Outside of the canonical European cuisines (French, Italian) and [“new American”](http://en.wikipedia.org/wiki/New_American_cuisine) food,12 Michelin seems to struggle. Thai restaurants and Indian restaurants, for example, have often won Michelin stars only to lose them a couple of years later. It’s almost as though Michelin is cycling through representatives of these cuisines at random — putting forth some effort to increase the diversity of its list but not going to great lengths to identify the best examples. To a lesser extent, Michelin may struggle with American food served in a more informal setting or for what lack of a better term might be called “hipster” cuisine. [The Breslin](http://thebreslin.com/), a gastropub in the Ace Hotel, has a Michelin star, but there are dozens of similar restaurants with higher Yelp ratings.
+
+Could Michelin also have a pro-Manhattan bias? In one respect, this might seem self-evident. Almost 80 percent of the Michelin-starred restaurants in the 2015 Guide are in Manhattan while only [40 percent](http://a816-restaurantinspection.nyc.gov/RestaurantInspection/SearchBrowse.do;jsessionid=EE6424405209049F9803E0B33AD0C4C5.tomcat1) of New York’s restaurants are.
+
+One way to test this is to look at whether Michelin-starred restaurants in Brooklyn and Queens13 receive higher Yelp ratings on average. If so, that might indicate that restaurants in the outer boroughs need to do more to receive the same level of recognition from the Michelin Guide.
+
+The evidence is ambiguous. Michelin-starred restaurants14 in Brooklyn and Queens have an average Yelp rating of 4.17, as compared with 3.99 for those in Manhattan. However, the difference is not highly statistically significant and there is no real difference in their VORB scores. This doesn’t mean Michelin is unbiased — it may be that Yelpers have the same biases.
+
+In most respects, the challenge in evaluating restaurants is the same as when looking at any other statistical distribution. It’s easy to identify the outliers — the extraordinary restaurants and the execrable ones. Michelin and Yelp largely agree on those. Distinguishing the very good restaurants from the average ones is more challenging. There may be no substitute for eating your way through them.

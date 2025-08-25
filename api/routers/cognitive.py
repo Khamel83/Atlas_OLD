@@ -6,17 +6,16 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-# Import cognitive engines
-try:
-    from ask.proactive.surfacer import ProactiveSurfacer
-    from ask.temporal.temporal_engine import TemporalEngine
-    from ask.socratic.question_engine import QuestionEngine
-    from ask.recall.recall_engine import RecallEngine
-    from ask.insights.pattern_detector import PatternDetector
-    COGNITIVE_AVAILABLE = True
-except ImportError:
-    COGNITIVE_AVAILABLE = False
-    print("Warning: Cognitive modules not available")
+from ask.proactive.surfacer import SurfacingContext
+
+from ask.proactive.surfacer import SurfacingContext
+
+from ask.proactive.surfacer import ProactiveSurfacer
+from ask.temporal.temporal_engine import TemporalEngine
+from ask.socratic.question_engine import QuestionEngine
+from ask.recall.recall_engine import RecallEngine
+from ask.insights.pattern_detector import PatternDetector
+COGNITIVE_AVAILABLE = True
 
 from helpers.metadata_manager import MetadataManager
 from helpers.config import load_config
@@ -51,7 +50,7 @@ class Pattern(BaseModel):
     tags: List[tuple]
     sources: List[tuple]
 
-@router.get("/proactive", response_model=List[ProactiveItem])
+@router.get("/surface", response_model=List[ProactiveItem])
 async def get_proactive_content(
     limit: int = 5,
     manager: MetadataManager = Depends(get_metadata_manager)
@@ -62,7 +61,8 @@ async def get_proactive_content(
     
     try:
         surfacer = ProactiveSurfacer(manager)
-        forgotten = surfacer.surface_forgotten_content(n=limit)
+        print(f"Using SurfacingContext: {SurfacingContext}")
+        forgotten = surfacer.surface_content(context=SurfacingContext(max_results=limit))
         
         items = []
         for item in forgotten:
@@ -112,7 +112,10 @@ async def generate_socratic_questions(
     
     try:
         engine = QuestionEngine(manager)
-        questions = engine.generate_questions(content)
+        question_objects = engine.generate_questions(content)
+        
+        # Extract question strings from SocraticQuestion objects
+        questions = [q.question for q in question_objects]
         
         return SocraticQuestion(content=content, questions=questions)
     except Exception as e:

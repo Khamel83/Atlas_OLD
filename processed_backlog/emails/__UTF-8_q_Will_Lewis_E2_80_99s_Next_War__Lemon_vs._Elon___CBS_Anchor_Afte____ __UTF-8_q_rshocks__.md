@@ -1,0 +1,141 @@
+# =?UTF-8?q?Will_Lewis=E2=80=99s_Next_War,_Lemon_vs._Elon_&_CBS_Anchor_Afte?=
+ =?UTF-8?q?rshocks?=
+
+**From:** Dylan Byers <dylan@puck.news>
+**Date:** Fri, 02 Aug 2024 22:00:24 +0000
+**Source:** inputs/saved_emails/=UTF-8qWill_Lewis=E2=80=99s_Next_War,_Lemon_vs._Elon_&_CBS_Anchor_Afte=
+ =UTF-8qrshocks=_Fri,_02_Aug_2024_22-00-24_+0000_191151bd2f4b367e.eml
+**Processed:** 2025-08-24T19:13:07.684222
+
+Welcome back to In the Room. In tonight’s email, news and notes on the return of the Will Lewis preoccupation, and the myriad sources of anxiety still roiling the Washington Post newsroom.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+In The Room ( https://puck.news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+In The Room ( https://ad.doubleclick.net/ddm/trackclk/N810774.4235921PUCK/B20995705.400373946;dc_trk_aid=591979261;dc_trk_cid=219271963;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to In the Room. Prior to his release ( https://www.wsj.com/world/russia/evan-gershkovich-free-cde745b3?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) from a Russian prison, Wall Street Journal reporter Evan Gershkovich was required to write an official request for presidential clemency to Vladimir Putin. According to his paper’s gripping account ( https://www.wsj.com/world/europe/evan-gershkovich-prisoner-exchange-ccb39ad3?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) of the negotiations that led to
+his return: “The pro forma printout included a long blank space the prisoner could fill out if desired, or simply, as expected, leave blank. In the formal high Russian he had honed over 16 months imprisonment, [Gershkovich] filled the page. The last line submitted a proposal of his own: After his release, would Putin be willing to sit down for an interview?”
+
+In tonight’s email, news and notes on the return of the Will Lewis preoccupation, and the myriad sources of anxiety still roiling the Washington Post newsroom.
+
+But first…
+
+🏳️ Wave that flag: Following Norah O’Donnell’s announcement that she will step down from CBS Evening News, the network has confirmed what I reported earlier this week: O’Donnell will be replaced by an ensemble cast of anchors, abandoning the longtime format of a sole marquee anchor in the chair. John Dickerson and Maurice DuBois will anchor from New
+York, with Margaret Brennan reporting regularly from Washington and Lonnie Quinn contributing a nightly weather segment. The impetus for this move, as with Norah’s own delicately coordinated removal, is cost-cutting and managing the decline of the format.
+
+This new triangle offense sends the distinct signal to the market that CBS is forfeiting nightly news, but the reality is that this was inevitable. These linear programs remain very profitable, even if the quarterly attrition has become increasingly significant. CBS News’s bet, no matter how they want to dress it up, is that they can cut costs faster than the topline declines. If viewership remains stable after this pivot, or only dips slightly, you can be sure that others will become multi-anchor curious. And if it doesn’t…?
+
+Interestingly, there is some historical precedent here. Nearly five decades ago, ABC tapped Peter Jennings, Max Robinson, and Frank Reynolds
+as co-hosts of World News Tonight. The project failed, Jennings became sole anchor, and the rest is history. “This isn’t a commitment to a format,” one media executive predicted. “It’s an improvisation and reflects a lack of one good choice.” Arguably, CBS’s best choice is Tony Dokoupil, but he’s presumably too valuable to the morning show. In any event, CBS News is bound for new ownership, and presumably new leadership, and this will all be someone else’s circle to square soon enough.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad2_title) ( https://ad.doubleclick.net/ddm/trackclk/N810774.4235921PUCK/B20995705.400373946;dc_trk_aid=591979261;dc_trk_cid=219271963;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Introducing an exclusive bond portfolio personalized by Betterment to your tax situation – automatically seeking additional after-tax yield.
+
+Finally, a bond portfolio with you in mind.
+
+Get started today. ( https://ad.doubleclick.net/ddm/trackclk/N810774.4235921PUCK/B20995705.400373946;dc_trk_aid=591979261;dc_trk_cid=219271963;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+💨 CBS News P.R. chief out: Meanwhile, CBS News comms chief Christa Robinson is being let go, a casualty of the broader shakeup. Robinson was closely aligned with outgoing network president Ingrid Ciprán-Matthews, who recently stepped down amid disagreements with CBS News C.E.O. Wendy McMahon over the direction of the network. McMahon’s preferred P.R. chief Lance Frank will now take greater oversight of communications.
+
+🤼 Lemon v. Musk, cont’d: Don Lemon has finally sued Elon Musk for monetary damages stemming from the mercurial centibillionaire’s abrupt decision ( https://puck.news/the-kassan-imbroglio-the-lemon-musk-fiasco/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to cancel Lemon’s deal with X back in March, following their contentious interview for the inaugural episode. Lemon says Musk had agreed to pay him $1.5 million per year along with ad-revenue share; Musk says Lemon had “made a series of impressively insane demands.” In any case, the burden of proof here is probably on Lemon. As you might remember, he never had a written contract in place when Musk jettisoned the deal. Musk had allegedly told him there was “no need for a formal written agreement.” Obviously, there was.
+
+A Time to Will ( https://puck.news/washington-post-ceo-will-lewis-is-back-in-the-barrel/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A Time to Will ( https://puck.news/washington-post-ceo-will-lewis-is-back-in-the-barrel/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Having survived a multifront newsroom fracas, Will Lewis endured another couple of love taps this week about his ongoing credibility challenges—one from Folkenflik, another from the Times. Now he faces an even thornier question: With the worst presumably behind him, how will he lead The Washington Post into the future?
+
+DYLAN BYERS ( https://puck.news/author/dylan-byers/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+DYLAN BYERS ( https://puck.news/author/dylan-byers/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On Wednesday, in the span of an hour, several Washington Post reporters sent me a link to an eye-catching report from NPR: “U.K. police open criminal investigation into Washington Post publisher.” The report had instantly captured the attention of the Post newsroom and, to some extent, the Cafe Milano in-crowd, too: “Probably 20 people in Washington have sent me that story in the last hour, unsolicited,” one Postie told me. For a moment, the piece seemed poised to resuscitate the feverish, monthlong scrutiny that had surrounded Will Lewis, the Post’s C.E.O. and publisher, until June 27, when the Biden-Trump debate upended the U.S. presidential campaign and forced the newsroom to prioritize matters outside its own walls.
+
+Lewis, of course, had entered the Post newsroom last
+fall as Jeff Bezos and Patty Stonesifer’s hand-picked change agent—a former Fleet Street journalist turned media executive promising to salvage the paper from nearly $100 million in annual losses through some nebulous, to-be-determined digital growth alchemy. And initially, the bold ambition and British charm went over very well. There were some outstanding questions about Lewis’s earlier iteration as an executive at News Corp., where he’d helped clean up Rupert Murdoch’s phone-hacking scandal. But most seemed willing to simply trust Bezos’s decision. After all, things couldn’t get much worse than the malaise that had settled on the newsroom in the final year of the Fred Ryan era.
+
+Then Lewis, while quietly racing to implement his new leadership structure, made a series of management blunders. He unceremoniously demoted the paper’s unpopular editor-in-chief Sally Buzbee to make room for his hand-picked choice,
+haphazardly unveiled an unorthodox and amorphous newsroom reorganization, and, in an apparent fit of pique, infuriated Posties by emphasizing just how few people were actually reading their work. Buzbee resigned, funneled her concerns about Lewis’s ethics to the Times, and large swaths of American journalism began to re-examine Lewis’s career on Fleet Street, as well as the history of this new editor, Rob Winnett.
+
+We don’t need to relive all this, of course, other than to note that many of the Posties may have been biased by their own discontent and underestimated Bezos’s relentless focus on turning around the P&L with his own hand-picked guy. To the surprise of many, Lewis stuck it out through weeks of stories about alleged impropriety, evasive behavior under Murdoch, and his enduring attempts to evade scrutiny—including his attempt to steer both his own paper and NPR’s David Folkenflik away from writing stories about the
+old accusations. (Lewis foolishly made matters worse by calling Folkenflik an “activist.”) Finally, he closed on a $7 million home in Georgetown, clearly intending to put down roots. In a brief statement, presumably drafted from his $500 million superyacht, Bezos seemingly tried to put the matter to bed by supporting Lewis and stressing the need for urgent change. Eventually, a historic month of political news intervened and the Lewis story went on the back burner.
+
+This week’s NPR story about a new criminal investigation, authored by Folkenflik, appeared to bring it back to the fore. However, a closer reading revealed that no such criminal investigation was underway. Instead, it appeared Folkenflik may have read a little too much into an op-ed by Gordon Brown, the former U.K. prime minister, who has had a longstanding vendetta against Lewis over the hacking cleanup, and who had asked Scotland Yard to reinvestigate Lewis’s role. The
+police assured the former P.M. that they would look into it, and opened a “preliminary inquiry.” Folkenflik has since issued a correction at the bottom of his story. (He declined to comment further.)
+
+While it remains possible that a criminal investigation could one day occur, the whole affair suggested that Lewis remains a man-of-interest in his profession. In any event, Lewis himself was on vacation in Provence when the story landed, and—much like Bezos before him—apparently couldn’t really be bothered.
+
+$(ad3_title) ( https://ad.doubleclick.net/ddm/trackclk/N810774.4235921PUCK/B20995705.400371219;dc_trk_aid=591979261;dc_trk_cid=219271963;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+About That “Third Newsroom”…
+
+Meanwhile, the next day, the Times published a story perhaps more germane to Lewis’s future at the Post. Central to Lewis’s strategy is the creation of that “third newsroom” focused on “social media journalism,” servicing audiences on TikTok and Instagram and X who rarely if ever engage with the Post’s owned and operated platforms. And yet, the Times had found that The News Movement, the Gen Z-targeted social media company that Lewis had launched three years earlier, lost millions of dollars in 2023, slashed staff, and drastically reduced revenue projections, and is now in talks to sell a majority stake to a Greek media company with Saudi backing. As the Times noted, “The News Movement may provide a cautionary tale about how difficult it is to make money from the oceans of viewers who consume
+news on social media platforms like TikTok and Instagram.”
+
+If you go back further in Lewis’s history, there are similar questions around his attempt as editor of the Telegraph to launch a stand-alone digital growth division known as “Project Euston,” in 2009. The project, another precursor to the “third newsroom,” shuttered after he left the company six months later. Indeed, if there’s one revelation I’ve gathered from all my conversations with Post staffers in recent months, it’s that the skeptical murmuring surrounding Lewis’s ethics actually belies a deeper and more pervasive anxiety about his ability to lead the Post’s business out of its current morass—not because he’s lost the trust of some people for what he might have done as a journalist, but because they’re still not convinced he actually knows what he’s doing as a media executive.
+
+I’m not Freud, but I suspect something larger and no less
+tumultuous is going on here. It’s very possible that Lewis has been unclear about his plan for the third newsroom because the guy he picked to run it, Matt Murray, is now running the main newsgathering outfit and seems to like it. Furthermore, this third newsroom sure seems likely to require a drastic reorganization of the Post’s non-core coverage areas, which is likely to manifest only through meaningful layoffs, leadership changes, and possible M&A—gory details that Lewis might be inclined to keep within the c-suite since he only recently regained footing on terra firma. And he is probably less concerned by the strategic concerns of the Post’s newsroom than the validation of its owner, who ratified the plan.
+
+And while all of this might understandably scare the shit out of his newsroom—the first, second, and third—there is a silver lining. If you’d told David Sanger or Tom Friedman back in 2014
+that their beloved Times would morph into a recipe database, podcast hub, sports news platform, goofy games module, and consumer retail player in a mere decade, I have little doubt that they would have marched into Arthur Sulzberger’s office and thrown a glass of his family’s favorite bitter iced tea in his face. And yet, voilà, those plans were enacted around the core report without great foreshadowing, the Times’ newsroom never lost focus, and the Times Company, now worth $8.5 billion, is trading near a five-year high on the NYSE.
+
+One can only imagine that Lewis, Bezos, and Stonesifer harbor similarly ambitious plans for the Post. Bezos, after all, has unlimited wealth and appetite and self-confidence. The tragedy of this recent chapter in the Post’s history is that it undercuts the size of the opportunity. One hopes that a Kumbaya is around the corner.
+
+In any event, the anxieties at the
+Post persist, despite the distractions of the campaign season and the relatively calming presence of Murray. Lewis has said he plans to hire a new editor this year, but Post sources increasingly believe (or at least hope) that he will keep Murray in the position. Whatever his intentions, the decision, once slated to be made before the end of summer, now seems likely to be delayed until after the election. Indeed, I’m told they haven’t started interviews yet (why leave Provence?). In any case, barring the findings of Brown’s hoped-for criminal investigation, that will still be Lewis’s decision to make.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Mar-a-Lago Mayhem ( https://puck.news/inside-the-latest-trumpworld-turmoil/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Mar-a-Lago Mayhem ( https://puck.news/inside-the-latest-trumpworld-turmoil/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Spotlighting the turmoil inside the Trump campaign.
+
+TARA PALMERI
+
+Goodell’s $5B Triumph ( https://puck.news/roger-goodells-5-billion-triumph-michael-rubin-blowback/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Goodell’s $5B Triumph ( https://puck.news/roger-goodells-5-billion-triumph-michael-rubin-blowback/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Breaking down the NFL’s remarkable ‘Sunday Ticket’ victory.
+
+ERIQ GARDNER
+
+Sneakerheadaches ( https://puck.news/whats-the-matter-with-nike/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Sneakerheadaches ( https://puck.news/whats-the-matter-with-nike/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Unpacking the fresh drama consuming Nike.
+
+LAUREN SHERMAN
+
+Peacock’s Olympics Gold ( https://puck.news/nbc-olympics-gold-mine/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Peacock’s Olympics Gold ( https://puck.news/nbc-olympics-gold-mine/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+News and notes on NBC’s massive Olympics boon.
+
+JOHN OURAND
+
+swash divider
+
+Puck ( https://puck.news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=in_the_room&delivery_id=dgT2xgYDAKvRKqrRKgGRFRt3koA641SslrEiJZc=&utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F2%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

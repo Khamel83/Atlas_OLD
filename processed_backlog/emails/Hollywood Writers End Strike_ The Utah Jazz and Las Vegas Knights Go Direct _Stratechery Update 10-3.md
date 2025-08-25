@@ -1,0 +1,130 @@
+# Hollywood Writers End Strike, The Utah Jazz and Las Vegas Knights Go Direct (Stratechery Update 10-3-2023)
+
+**From:** Ben Thompson <email@stratechery.com>
+**Date:** Tue, 3 Oct 2023 10:31:53 +0000
+**Source:** inputs/saved_emails/Hollywood Writers End Strike, The Utah Jazz and Las Vegas Knights Go Direct (Stratechery Update 10-3-2023)_Tue,_3_Oct_2023_10-31-53_+0000_18af5183b3d3aea8.eml
+**Processed:** 2025-08-24T19:13:10.019165
+
+Hollywood writer's ended their strike and claimed victory, but the losses are coming regardless. Plus, what studios want from AI, and how new NBA local rights deals show how unprepared the NBA is for a new reality.
+
+View in browser ( https://stratechery.com/2023/hollywood-writers-end-strike-the-utah-jazz-and-las-vegas-knights-go-direct/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2hvbGx5d29vZC13cml0ZXJzLWVuZC1zdHJpa2UtdGhlLXV0YWgtamF6ei1hbmQtbGFzLXZlZ2FzLWtuaWdodHMtZ28tZGlyZWN0LyJdfSwiZXhwIjoxNjk4OTIxMTEzLCJpYXQiOjE2OTYzMjkxMTMsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.gwxGYc0PFXxBvZrCbLAuFV9zfLuf0L8olnLfFUrI3Kl5o-9KR6sB0hdqbxPiFjcvhKXOe7SfM3KRzPgSecBSDrOtjJa0UPbwv3H5B--pLWJYBBV6A10eix6gngT0i2mgNVOAfFAc3xKB3MyY_ovSDu2yHBlU4P9fNZab1Zker3Te8auR5c4XKTqgNsbZnks_k4OHOJH4a7oK6nSWxulM9lR8G9a_w9x29uYIBcIJzy_dStNQA4Nxz0OVzMrdSqCzCjDsW4UpNjGX-bxh_dySnuDFfRJ7MYYoxMSNDRSKlogYSYbSpsf9Wb8pkGBaL_JUZiacwpb0mRTvzsyfPGdFIw )
+
+( https://stratechery.com )
+
+***************************************************************************
+Hollywood Writers End Strike, The Utah Jazz and Las Vegas Knights Go Direct
+***************************************************************************
+
+( https://stratechery.com/2023/hollywood-writers-end-strike-the-utah-jazz-and-las-vegas-knights-go-direct/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2hvbGx5d29vZC13cml0ZXJzLWVuZC1zdHJpa2UtdGhlLXV0YWgtamF6ei1hbmQtbGFzLXZlZ2FzLWtuaWdodHMtZ28tZGlyZWN0LyJdfSwiZXhwIjoxNjk4OTIxMTEzLCJpYXQiOjE2OTYzMjkxMTMsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.gwxGYc0PFXxBvZrCbLAuFV9zfLuf0L8olnLfFUrI3Kl5o-9KR6sB0hdqbxPiFjcvhKXOe7SfM3KRzPgSecBSDrOtjJa0UPbwv3H5B--pLWJYBBV6A10eix6gngT0i2mgNVOAfFAc3xKB3MyY_ovSDu2yHBlU4P9fNZab1Zker3Te8auR5c4XKTqgNsbZnks_k4OHOJH4a7oK6nSWxulM9lR8G9a_w9x29uYIBcIJzy_dStNQA4Nxz0OVzMrdSqCzCjDsW4UpNjGX-bxh_dySnuDFfRJ7MYYoxMSNDRSKlogYSYbSpsf9Wb8pkGBaL_JUZiacwpb0mRTvzsyfPGdFIw ) Tuesday, October 3, 2023
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+A quick scheduling update: next Monday is a federal holiday in the U.S., and next Tuesday is a national holiday in Taiwan; I am taking the opportunity to take a vacation with my family. To that end:
+
+* There will be no Stratechery Updates or Interview next week
+* There will one Dithering ( https://dithering.fm/ ) episode next Friday
+* There will be one Sharp Tech ( https://sharptech.fm/member ) episode next Thursday
+
+Sharp China ( https://sharpchina.fm/ ) and Greatest of All Talk ( https://goat.passport.online/member ) will publish as normal. As always, the Stratechery posting schedule is available on Stratechery ( https://stratechery.com/stratechery-plus/schedule/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS9zdHJhdGVjaGVyeS1wbHVzL3NjaGVkdWxlLyJdfSwiZXhwIjoxNjk4OTIxMTEzLCJpYXQiOjE2OTYzMjkxMTMsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.tsFqC2W0BeJF7l2Ciaoj1pB-TQCyZYDoEzu_te1jVnc4YOy3ctwg6RFYpfLpXAxgu4eVDLfK4CGAcsl_fYyecG0sjO-uORBZ2cJ18fGVuqaBE20ijCu3ktAhk-y3xXA0ezpNkjbXt_36PHEzNfpK2F4tcRHx01UxfO6FenOa2XYVPUYwWkDorpHTbg1SzgyzvkD9qDUldlqp9PVRPN3bp_76giuTpm_xF87Ng4-TnuHZt_EKItQepxZDvmGbpliAnbffXJBrWUxs2NguEc68OhvlL0IAHeAzrtLemeffv_GVymY-hzbNKTLqxCi7RQZXNn4ETqt1ZJaogPKOz970_A ).
+
+On to the Update:
+
+Hollywood Writers End Strike
+----------------------------
+
+Ten days ago, from The Hollywood Reporter ( https://www.hollywoodreporter.com/business/business-news/writers-guild-strike-end-1235600992/ ) :
+
+Studios, represented by the Alliance of Motion Picture and Television Producers, and the union finally announced the tentative agreement on a new three-year contract Sunday night following a full weekend of work on the deal. After about a month where talks were at a standstill, progress accelerated starting Sept. 20, when the two sides got back to the bargaining table at the AMPTP’s Sherman Oaks headquarters with major industry leaders (Disney’s Bob Iger, Netflix’s Ted Sarandos, Warner Bros. Discovery’s David Zaslav and NBCUniversal’s Donna Langley) attending. With top leaders in the room, the studios made changes to their position on issues like minimum staffing in television writers rooms and rewarding writers for the success of projects on streaming. Regulations on artificial intelligence proved to be a lasting sticking point, but the two sides came to a compromise by Sunday night. In its communication to members about the agreement on Sunday, the WGA called the resulting agreement “exceptional.”
+
+There are two interesting points to make about the resolution of this strike, captured in the last two sentences of the excerpt. Start with AI; from the Wall Street Journal ( https://www.wsj.com/business/media/hollywood-studios-can-train-ai-models-on-writers-work-under-tentative-deal-aedae589 ) :
+
+Hollywood studios are expected to retain the right to train artificial-intelligence models based on writers’ work under the terms of a tentative labor agreement between the two sides, people familiar with the situation said. The writers would also walk away with an important win, a guarantee that they will receive credit and compensation for work they do on scripts, even if studios partially rely on AI tools, one of the people said. That provision had been in an earlier offer from the Alliance of Motion Picture and Television Producers, the group representing studios, streamers and networks.
+
+AI use does not appear to be limited in any way (for either studios or writers), but AI will not be considered a writer, which has a bunch of knock-on effects:
+
+* If an AI rewrites a writer’s script, that writer is still considered the sole writer and doesn’t need to share residuals with the AI.
+* If a writer rewrites an AI script, the rewrite is considered an original script by the writer.
+* If a writer is asked to create a script from AI-generated material and concepts, that must be disclosed to the writer; at the same time, the writer’s work is considered original, and not “assigned material”, which reduces residuals.
+
+In short, studios will gain absolutely no economic benefit from using generative AI, at least in terms of union-defined jobs; writers will get paid as if the AI doesn’t exist. Instead, what the studios appear to be the most interested in is the creative benefit of AI. They want to be able to generate ideas for free, even if they have to pay to have those ideas fine-tuned into scripts by union-covered writers.
+
+This strikes me as a big win for studios. The saying goes that ideas are a dime-a-dozen, but that still requires some sort of human-limited production function; now the studios can generate an infinite number of ideas for effectively zero cost. Yes, this will mean a lot of dreck, but as long as the absolute number of viable ideas is sufficiently high, the cost in time and effort to wade through that dreck will likely be less than the prices commanded by truly innovative show-runners who come up with ideas that are executed by union writers today. In other words, the union, as you might expect, protected the commodity writer, but has left the truly differentiated writer exposed. That is, I suppose, what unions do, which is why I’ve always been skeptical as to why any differentiated writer would want to join one.
+
+The second interesting point is about the WGA’s claim that the agreement is “exceptional”, a description that was echoed by most of the press covering the deal, impressed as they were by the various wage increases (less than inflation), writer guarantees, and streaming bonuses in the deal. The WGA may have won concessions on all of those points, but all of those concessions are in the context of an individual show; unsurprisingly, one of the first results of this agreement is that there are going to be a lot fewer shows. First, from the Wall Street Journal ( https://www.wsj.com/business/media/hollywood-writers-guild-strike-peak-tv-ai-e29b6278 ) :
+
+Fewer new shows in production. A higher bar to get shows renewed. Rich paydays going only to an elite few.
+
+The labor pact writers struck with studios and streamers this week, ending a five-month strike, will likely accelerate the retrenchment that was already under way in Hollywood for more than a year. It represented a formal end to “peak TV,” a decade that included an explosion of programming for viewers—and job opportunities for talent in Tinseltown. Writers won major concessions in the deal, including new bonus payouts and higher royalties. Those hard-won victories are especially important given the hard financial realities of the entertainment business.
+
+A combination of debt-laden mergers, mounting losses in streaming, and the fast-shrinking cable TV bundle, has led to a push on Wall Street for entertainment companies to rein in spending. The streamers will have to find a way to pay increased talent costs—from the writers’ settlement, along with an earlier deal with directors and whatever is finalized with actors—without adding to their overall production costs. That will likely mean that companies will make fewer new shows and cancel even more that are on the bubble. In effect, while many people in Hollywood will get better pay as a result of the deal, the contraction in spending means there will be less work to go around.
+
+This isn’t that big of a surprise: the number of new shows was going to go down regardless, given the unsustainable nature of streaming spending over the last several years. What is notable is that Hollywood studios aren’t waiting to start cutting; from Matthew Belloni at Puck ( https://puck.news/and-now-the-tv-purge-begins/ ) :
+
+I know a lot of writers and reps who quietly breathed a sigh of relief when the studios opted to suspend, rather than terminate, their overall deals during the WGA strike. Months of zero pay would hurt, of course, but once the strike settled and the pain was over, the time off—and the studio checks—would just be added on to the end of their deals.
+
+So, yeah, welcome to post-strike Hollywood. For most TV writers under contract, the studios have flushed those assumptions down the toilet. Less than a week after the WGA strike ended, hundreds of reinstated writers have been notified that their deals will not be extended. And when many of those deals expire, they will not be renewed. It’s bad. Texting with agents and lawyers this weekend, the estimates are anywhere between 60 percent to 80 percent of suspended writer deals have been impacted. One major employer, Universal Studio Group, extended none of its suspended writers.
+
+So what’s happening here? A studio cash grab, of course. After all, for many writers on two or three-year deals, their guaranteed pay has just been reduced by a double-digit percentage, and it’s impacting writers at both the high and low end of the hierarchy. (Very few have language in their deals to prevent it.) That’s untold millions of dollars lost by writers. “The asteroid has hit,” the X-Men writer Zack Stentz tweeted today.
+
+I’m not sure I would characterize not extending striking workers contracts a “cash grab” — it seems like the folks on strike forewent that cash without any guarantee it would come back — but the broader point is that this makes the point in the conclusion of Hollywood on Strike ( https://stratechery.com/2023/hollywood-on-strike/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2hvbGx5d29vZC1vbi1zdHJpa2UvIl19LCJleHAiOjE2OTg5MjExMTMsImlhdCI6MTY5NjMyOTExMywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.XBAfWiGTyKhDcAC2qi1w7ewYj30XCVLqGfPZBg79FfZJjxGnvAUmyTWYeVhMrVeL1QZsOFCZAJUlhE2po2RaonW1h6vO6ibqlenha3b5GzCAb0Bz-x9dlYLcSxToXZPUeoA1VqHlt89jlE6mpvojS6gwqN9pkCdDbuA7Fu3HmwVS3GlohrRQdtc_ynA5zKDazvISQtIGoOV1OHBfUmmHh4ugbme7MrtH39GkVMlCb8UCBPFi_j06K6qRgHYRcTFApPc0yaampBP4QrGt310m66FLLnPXu_dT6h0Bfuea65rm5QKtX5CvaoRFp8DE10wLt0ghuzvu5L43Q5mnvuSaQg ) :
+
+For the video industry the first step to survival must be to retreat to what they are good at — producing content that isn’t available anywhere else — and getting away from what they are not, i.e. running undifferentiated streaming services with massive direct costs and even larger opportunity ones. Talent, meanwhile, has to realize that they and the studios are not divided by this new paradigm, but jointly threatened: the Internet is bad news for content producers with outsized costs, and long-term sustainability will be that much harder to achieve if the focus is on increasing them.
+
+Costs will be higher — congrats to the WGA on that, I guess — but the number of jobs will decrease, and foregone revenue isn’t coming back. Noting this isn’t a dunk on the WGA, it’s just the reality of an industry facing unprecedented competition for time without the outsized revenue of the TV bundle to fund it.
+
+The Utah Jazz and Las Vegas Knights Go Direct
+---------------------------------------------
+
+From Sports Business Journal ( https://www.sportsbusinessjournal.com/Articles/2023/09/27/utah-jazz-launch-direct-to-consumer-streaming-platform.aspx ) :
+
+The Jazz have launched a direct-to-consumer service, known as Jazz+, that will stream all of their non-nationally televised games this season and serve as a subscription-based complement to their free over-the-air linear offering…It will be available via subscription for $125.50 annually, $15.50 monthly or as low as $5 on a game-by-game basis. For its free linear offering, the NBA is helping direct the Jazz and its distributor on the best ways to sell advertising slots.
+
+From the Las Vegas Sun ( https://lasvegassun.com/news/2023/sep/21/vgk-golden-knights-announce-knighttime-streaming/ ) :
+
+The Golden Knights’ subscription-based streaming service, which will launch Sunday, will offer a free trial for cord-cutters looking to watch games this season…KnightTime+ is the creation of the Golden Knights’ partnership with ViewLift to stream the team’s preseason games, 69 regular season games, and the first round of the Stanley Cup Playoffs. A season pass costs $69.99, while single-game viewing is $6.99. The direct-to-consumer option will be available to fans in Northern and Southern Nevada, Idaho, Montana, Utah and Wyoming. The partnership with ViewLift is in conjunction with the Golden Knights’ new TV deal with Scripps Sports following six years with Warner Bros. Discovery. Vegas 34, the new TV home for the Golden Knights, can be found over the air on channel 34.1.
+
+This is basically the same concept as that pioneered by the Phoenix Suns, which I wrote about last spring ( https://stratechery.com/2023/the-phoenix-suns-go-over-the-air-fans-and-franchise-valuation-attention-and-customer-acquisition/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL3RoZS1waG9lbml4LXN1bnMtZ28tb3Zlci10aGUtYWlyLWZhbnMtYW5kLWZyYW5jaGlzZS12YWx1YXRpb24tYXR0ZW50aW9uLWFuZC1jdXN0b21lci1hY3F1aXNpdGlvbi8iXX0sImV4cCI6MTY5ODkyMTExMywiaWF0IjoxNjk2MzI5MTEzLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.B00qnq-p016vuyo4M_6FipbozVKcT8XxEnYPiVsTiKlV1UICRDkXYYI8VOJOTQKz20fOBEYUOzFPEP7YwaGw1kXl1ZLnJQ317mXhYUuCGewrenFDPcYl20w2Wq_K_lVzGOUPSSji1o92KUpcSDiPgU0ncN1wq4uEhxKussxYcVNyLABuIln0CVCwLnX5pDlzvCV7zvvaAyvIDNb7oxm_07u4r47bF0zJP6HpSJohaOXraSzWaumCDkBMbiJbd9JO_sy7FV4MpccmV0-d29vRcsYtaL9ynge6krmiLfzp-L2v4SnvRv0zVcskOq1Y43GvkXmCsXwsmN-rbaX_nWfx8g ) : games are available for free over the air, and also on a streaming service (it’s not yet clear what the Phoenix Suns streaming service will cost). This is, by all accounts, a pretty substantial hit to revenue — estimates range between 40~60% of RSN rights fees, and of course depend on how many subscribers are added, advertisements are sold, extra fans created who attend games, etc. — but it’s worth noting that there is another reason why the magnitude of that hit is hard to estimate; from the New York Post ( https://nypost.com/2023/09/28/diamond-sports-seeks-to-cut-nba-nhl-fees-in-last-ditch-bid-to-survive-another-year-sources/ ) :
+
+Bankrupt broadcaster Diamond Sports, the nation’s largest regional sports network, has made a take-it-or-leave-it offer to cut rights fees to the NHL and NBA in a last-ditch bid to avoid liquidation, The Post has learned. The Sinclair subsidiary, which declared bankruptcy in March with $9 billion in debt, owns the broadcast rights to 15 NBA teams and 12 NHL teams as both leagues prepare to open their seasons next month. Diamond proposed cutting the fees to both leagues by up to 20% ahead of a bankruptcy court-imposed Sept. 30 deadline, a source with direct knowledge of the situation told The Post on Thursday. Diamond pays NBA teams about $600 million a year in broadcast rights, which could amount to as much as a $120 million discount. Contract details with the NHL were not available. The NBA and NHL are leaning toward accepting the haircut, which would allow Diamond to survive for another year, the source said.
+
+It’s hard to estimate relative losses from abandoning RSN’s if the RSN is giving you a haircut! That source also claimed that Diamond would liquidate eventually, and adds that “the NBA and NHL are not well prepared for a liquidation.” That is clearly true, and these two announcements by the Jazz and Knights show why.
+
+Go back to the very name RSN: Regional Sports Networks. The way the NBA divvies up TV rights is that ESPN and TNT carry national games, which are exclusively available on their platforms; RSN’s carry all of the rest of the games in a team’s region; finally, NBA League Pass carries all of the games outside of your region. The entire idea was to force local fans to subscribe to cable, which was worth far more than direct subscriptions because cable made money from everyone, not just the people who watch the games.
+
+The problem is that as RSN’s fall apart ( for reasons I have documented ( https://stratechery.com/2021/mlb-versus-sinclair-what-happened-to-sinclair-the-problem-for-sports-leagues/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIxL21sYi12ZXJzdXMtc2luY2xhaXItd2hhdC1oYXBwZW5lZC10by1zaW5jbGFpci10aGUtcHJvYmxlbS1mb3Itc3BvcnRzLWxlYWd1ZXMvIl19LCJleHAiOjE2OTg5MjExMTMsImlhdCI6MTY5NjMyOTExMywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.FEBkKW0e5aS_dkfURVVNvz8U-QMGpUq-2BqpHJZQ1bucf_N0sKaYlCV_8gtezotRXeagt3_YrUn4QnlAR_83X5_gxSH7bchyBFkzg0GwoPoGFNls3WWbMoDEx75z9EST1lwQaddh-In2Tb9B24-cV04jluesaqBFZwWsr7Q1Ss1Zcpi4ptTnkyOyyWSOitkKlXb7D6ljfIu3gag-Wjshg8_CXoTv4bFdtG9Ss6ZhGjb7Rp0hP5uI78kFogfj4eGP6tRMY0csRClnGFXBhe8hKV3jhm33TUgGR0MLRH93alMQMVlJiYB_7CUY8SGku5Kn2hX-I3-Jhwn5p97mJzC9ow ) ) teams are constrained by the assumption of limited geographic reach that defined physical cable distribution. That means that Jazz+ is only available in Utah and parts of Idaho and Wyoming; KnightTime+ is only available in Nevada, Idaho, Montana, Utah, and Wyoming. In that limited geographic footprint each service has to make money by getting hardcore fans to subscribe directly for a relatively expensive service.
+
+Here’s the thing: Utah Jazz fans might be interested in watching other NBA games, and the most hard-core fans will subscribe to League Pass to do so. How many more fans, though, won’t be willing to pay the extra cost — but might be willing to pay, say, $20/month for the entire NBA? In short, why isn’t the NBA bundling all of its non-national games together? Preserving geographic distinctions in service of a cable bundle that for an increasing number of teams doesn’t exist doesn’t make any sense.
+
+Of course you could go further: why should the NBA sell national rights independent of all rights, now that linear television space isn’t a constraint? Imagine if one service had every NBA game, and that service also had every NHL game, and every baseball game. Heck, you could bundle that service with every Hollywood entertainment service, providing a reason for everyone to subscribe, whether they were an NBA fan or not. Oh wait, I just reinvented the bundle, the absence of which is starting to cost the NBA — just like Hollywood — real money.
+
+Two quick updates to yesterday’s Update ( https://stratechery.com/2023/ai-and-ambient-computing-zuckerberg-and-the-verge-amazon-and-anthropic/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2FpLWFuZC1hbWJpZW50LWNvbXB1dGluZy16dWNrZXJiZXJnLWFuZC10aGUtdmVyZ2UtYW1hem9uLWFuZC1hbnRocm9waWMvIl19LCJleHAiOjE2OTg5MjExMTMsImlhdCI6MTY5NjMyOTExMywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.sygwlhTAHpAE7DmLx3tPmAN7abH9pAz1q6XcPyGE2iy27dWlZtBuQtBJaiwmB0YMyRT52Uyyk3WFKcS7nWozQ9fYk2AnGF0Yc3HoqJWkabxzn9MWqV6DTVDCN2W7q4OffomoDVi78Z680U5eOMiLPkxXvM1_6yShDXAod5GLBm9z2oo0IgaOfrHLp1PROZ2FODrr4TITX05Xr6vAak9HVSbPQH_tsk7QnuZJT8HMivKP6tKXolNQPBn55fuCBmb-YnjpP-R7KuiBkhdYqQXg2h4RM49Mo4ffH2V5iA8xJHVFvdVctq1imKvbbyUCDylSvHqBWlNswJPfP-jgUOkpEA ) based on feedback:
+
+* First, I heard that the Azure OpenAI API is in fact much more popular than the OpenAI API; the latter gets more press because of startup usage, but enterprises are going with Azure. This does makes sense.
+* Second, I heard that Anthropic broke up with Google because it couldn’t get enough compute: it was effectively fighting with internal Google teams, and losing. This also makes sense, although it’s not a great look for Google Cloud Platform (if indeed it is true).
+
+To be clear, this isn’t reporting, but feedback is always interesting!
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player:
+Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | GOAT ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Auto-renewal is disabled
+Expiration date: December 8, 2023
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+
+© 2023 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

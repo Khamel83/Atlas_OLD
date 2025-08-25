@@ -1,0 +1,314 @@
+# Money Stuff: Sculptor Is Full of Conflicts
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Wed, 30 Aug 2023 14:22:50 -0400 (EDT)
+**Source:** inputs/saved_emails/Money Stuff Sculptor Is Full of Conflicts_Wed,_30_Aug_2023_14-22-50_-0400_(EDT)_18a47af2cdbf28a9.eml
+**Processed:** 2025-08-24T19:13:09.932388
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        Hi! Bloomberg is doing a survey of Money Stuff readers; please take a few minutes to fill it out. Thanks!Daniel Och founded his hedge fund f
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Hi! Bloomberg is doing a survey of Money Stuff readers; please take a few minutes to fill it out. Thanks!
+
+  
+    
+      Sculptor
+    
+  
+
+Daniel Och founded his hedge fund firm, Och-Ziff Capital Management, in  1994.
+  [1]
+ Like most hedge fund firms, Och-Ziff was a limited partnership, meaning among other things that it did not pay corporate income tax: The firm’s income — the fees that it collected from its hedge fund clients, minus its expenses — was taxed as personal income of Och and his partners.
+In 2007, Och-Ziff did an initial public offering, becoming a publicly traded hedge fund management company. This involved becoming a corporation: It is much easier for public shareholders to hold shares of a corporation than interests in a partnership, so Och-Ziff went public as a corporation, which means paying corporate tax on its income. But it kept the old partnership around: The new corporation became effectively the parent company, controlling the old partnership; public shareholders invested in the corporation, but Och and his partners kept their shares in the old partnership. Those partnership interests could be converted into corporate shares, and the partners would need to do that conversion if they wanted to sell their shares on the stock exchange.
+Oversimplifying somewhat, Och and his partners would have to pay tax on those conversions: The fair value of the corporate stock they got on conversion would be taxable income to them. But there would be an offsetting benefit: Very loosely speaking, Och-Ziff Capital Management (the corporation) would get to deduct the fair value of that stock from its taxable income over the 15 years following conversion.
+  [2]
+ As is somewhat typical in IPOs like this, Och-Ziff agreed to give most of that tax benefit to Och and his partners: It entered a “tax receivable agreement” saying that it would pay the partners 85% of the tax savings that it got from their conversions.
+So the rough economics are that, in going from being partners in a private partnership to shareholders of a public corporation, Och and his partners would get liquid public shares, but they would have to pay a lot of tax. To soften that blow for them, (1) they got to delay that conversion as long as they wanted, and do it in stages, so as not to pay a huge tax bill all at once, and (2) the company promised to pay them most of its tax savings from the conversion, which roughly makes up for the taxes that they have to pay on conversion.
+Another nice sweetener in the IPO is that Och-Ziff  borrowed $750 million and paid most of it out to Och and his partners. My understanding is that they did not have to pay tax on this money: As partners of a partnership, they owed tax on the partnership’s income, but not on money it borrowed; the borrowing was basically a way for them to cash out some future income at the time of the IPO and only pay taxes later when the income was actually earned.
+Anyway then time passed, Och-Ziff had some troubles, it paid a big bribery settlement, Och stepped down as chief executive officer because of the bribery scandal, the firm was renamed Sculptor Capital Management Inc., Och’s estranged former protégé Jimmy Levin took over as CEO, Levin got paid a lot of money even as performance wasn’t great, Och started agitating for changes, and Sculptor’s board decided to sell the company.
+We have   talked about the   sale process a   few times over the last two weeks; the current status is that Sculptor has agreed to sell itself to a firm called Rithm Capital Corp. for $11.15 per share, a group of hedge fund managers led by Boaz Weinstein has jumped in with a topping bid of $12.25 per share, Sculptor’s board argues that this bid is not particularly real (not fully financed and kind of vague) and it has refused to engage with the Weinstein bidders. 
+Och has been publicly pushing Sculptor to engage with Weinstein. He has argued that Sculptor’s board has brushed off Weinstein because it is protecting Jimmy Levin: He is the CEO, they are tight with him and they want him to keep his well-paid job; Rithm would retain Levin to run Sculptor’s funds (though at a lower salary, capped at $30 million a year versus the $146 million he got in 2021), while Weinstein probably would not. Och argues that public shareholders would be better off getting $12.25 than $11.15, and that Sculptor’s board is depriving them of the extra $1.10 to protect their buddy Levin.
+Sculptor says that this is nonsense, that the sale process was designed to maximize shareholder value, that the board is independent of Levin and didn’t care at all about whether potential buyers would retain him, and that its skepticism about Weinstein comes purely from the fact that, in months of discussions, Weinstein has never put in a fully financed bid.
+But it also has more specific arguments about Och’s own position. Yesterday Sculptor’s lawyers sent  two very punchy  letters to Och and his lawyers, saying that his efforts to sink the Rithm deal and bring in Weinstein are driven by “economic self-interest and personal vendettas.” 
+Start with the personal vendettas. Sculptor  traces these back to the bribery scandal:
+
+Faced with massive capital withdrawals in the wake of the scandal and restrictive regulatory penalties that barred the Company from key investor channels, the Company had no choice but to attempt to distance itself from Mr. Och, including by ultimately rebranding as Sculptor.
+In December 2017, the independent directors of the Board unanimously voted to recommend that Mr. Och be removed as CEO. Mr. Och refused to recognize the idea that his continued presence at the Company was detrimental to its future success. Instead, he became enraged by the perceived disloyalty of Company executives and Board members who made this decision. Chief among those whom Mr. Och blamed for his exit from the Company is Mr. Levin, its current chief executive and chief investment officer, whom Mr. Och had previously anointed as his heir-apparent. Mr. Och contemporaneously instructed a group of his allies, including certain members of the Och Group and Mr. Rutman: “We have to make clear that I/we will be the winning team” and that “Jimmy [Levin] cannot be the winning team.”
+
+And so, Sculptor argues, Och has had it out for Levin ever since. He has complained, for instance, that the pay deal Levin has negotiated with Rithm is too high, but Sculptor points out that “when Mr. Och was CEO, he regularly approved compensation for Mr. Levin in excess of the cap” on his pay in the Rithm deal. Also Sculptor  says that “Mr. Och’s purported concern for public stockholders is in stark contrast to his record when running the Company. Mr. Och took home $3.3 billion since 2007 while the Company’s stock price dropped by 96%.” That comes with a little graph showing how much money Och got over time (a green line going up) versus the Sculptor stock price (a red line mostly going down).
+But then there are the economic interests.  Sculptor says:
+
+On July 6, 2023, the Och Group entered into a confidentiality agreement with Rithm so they could discuss a potential transaction. Over the next two weeks, Rithm responded to extensive requests for information from the Och Group and engaged with them on a number of issues they raised as conditions for supporting any transaction. The issues that Mr. Och raised in those discussions made clear to the Company that Mr. Och’s focus was on continuing to inflict additional pay cuts on Mr. Levin and on maximizing his own economic interests not shared with public stockholders.
+For example, the Och Group focused heavily on the TRA asset that Mr. Och had bestowed on himself and the other Och Group members at the time of the Company’s IPO in 2007. The TRA assets have allowed the Och Group to reap over $150 million in payments from the Company in connection with the use of certain tax assets that had been created at the time of the IPO. The TRA by its terms expressly contemplated change-of-control transactions such as the merger by providing for assumptions favorable to the Och Group in calculating TRA payments but did not provide for any required acceleration of those TRA payments, which instead would continue to be paid over a several years. Nevertheless, in his discussions with Rithm, Mr. Och requested that, as part of closing any transaction, Rithm agree to prepay a significant portion of the more than $170 million in estimated remaining TRA payments, a substantial portion of which would be paid to the Och Group. Moreover, the Och Group demanded a highly favorable discount rate on the prepayment. Similarly, the Och Group insisted as a condition of supporting any transaction that Rithm agree to pay them an additional $5.5 million in cash for legal expenses incurred in connection with the Company’s sales process, including counsel costs related to negotiating for their own economic benefits.
+The transaction under discussion between the Och Group and Rithm would have included the option for a rollover of the Class A Unit interests that they hold, in a fully tax-deferred transaction, which would allow them to avoid recognizing significant taxable gain in excess of proceeds to be received in the transaction (as a result of taxable gain attributable in large part to tax-deferred distributions previously received by the Och Group).
+
+That is: Any potential buyer of Sculptor (Rithm, Weinstein, the anonymous “Bidder D” who walked away from Sculptor earlier in its sale process) will prefer to have Och’s support, or at least grudging acquiescence, partly because he is a Sculptor shareholder and can vote against the deal but mostly because if he doesn’t like the deal he can create bad publicity and perhaps drive away clients. And so Rithm talked to Och to seek his support, and (according to Sculptor) what they talked about was mostly (1) revenge on Jimmy Levin and (2) Och’s own tax interests.
+Specifically:
+	The tax receivable agreement, or TRA: Some companies have TRAs that accelerate on a change of control, so that, instead of paying out the tax benefits over years as the company realizes taxable income, they just pay a big lump sum when the merger happens. Sculptor’s TRA doesn’t do that: The buyer has to assume the TRA and keep making payments,
+  [3]
+ but it doesn’t have to pay the benefits all at once. Och, according to Sculptor, wanted the buyer to make the payments all at once as a condition of his support.	The rollover: Och still has lots of partnership units that he hasn’t yet converted into stock. One normal way to do a cash merger of Sculptor would be to convert all of Och’s partnership units into Sculptor shares and then cash them out at $11.15, the same price as the public shareholders. But this would require him to immediately pay taxes on the $11.15 of proceeds. Which doesn’t sound that bad: If you get $11.15 and pay taxes on it, you still have, you know, $9. Except remember that $750 million loan that Och-Ziff took out at the IPO? Och-Ziff/Sculptor has paid “tax-deferred distributions” to its partners: Effectively Sculptor/Och-Ziff’s partners were able to take out cash in excess of the company’s income without paying taxes on it, deferring the taxes. At this point, if they sold for $11.15 per share, they would have “significant taxable gain in excess of proceeds to be received in the transaction,” meaning that much of the $11.15 would go to taxes. To avoid that, Och wants a buyer to keep the partnership around and let him keep his partnership units until he decides to convert them. This is potentially a pain for the buyer, who might not want Och around as a partner, but it is, says Sculptor, the price of his support.
+
+There are basically three sets of interests here:
+	Sculptor’s shareholders want the deal that gives them the highest price per share.	Jimmy Levin wants the deal that lets him keep his job at the highest pay rate.	Dan Och wants the deal that gives him the highest tax benefits.
+
+The only “legitimate” interest, the one that Sculptor’s board is supposed to care about, is that of the shareholders. Och says that the board really cares about Levin’s interests and has refused to take higher bids in order to preserve Levin’s job, and that he is fighting for shareholder interests. The board says that that’s wrong, that it is fighting for shareholder interests, and that Och is out there trying to blow up a good deal for shareholders to maximize his own tax benefits.
+Incidentally, a continuing oddity of this deal is that Weinstein and friends aren’t allowed to talk publicly about it: As we   have   discussed, Weinstein signed a nondisclosure agreement with Sculptor that prohibits him from making public bids or otherwise talking about the deal process. The Weinstein group has privately offered $12.25 per share, and the board has publicized that offer and said that it’s too uncertain, but Weinstein isn’t allowed to make his case publicly. It would be interesting to see Weinstein make the case that, you know, “$12.25 per share is more than $11.15 and I really can close the deal, so my offer is better for shareholders.” But he can’t.
+That’s part of why Och has been so public about criticizing the board and the sale process: He is allowed to, while the actual competing bidder is not. But, as the board says, his own interests are not quite the same as those of the shareholders.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Oh Wells Fargo
+    
+  
+
+At a big bank — or other big financial firm, or other big company generally — most contracts are fulfilled by computer. Often the contracts are also negotiated by computer — if you open a credit card on a company’s website, probably no human negotiated its terms with you — but often they aren’t. Often the process is:
+	A human at the bank negotiates a contract (a mortgage, an exotic derivative, a corporate loan restructuring, whatever) with a human counterparty.	The human at the bank types the terms of the contract into the bank’s computer systems, or hands the contract to some other, lower-paid human at the bank to type them in.	The bank’s computer systems use the typed-in terms to make or collect the payments on the contract.	Probably someone keeps a copy of the actual contract somewhere to refer to in case of disputes or edge cases.
+
+Over millions of contracts, the bank’s humans will type the terms into the computer with a level of accuracy that is probably greater than 99% but lower than 100%. Which is actually a fair amount of error. Sometimes the errors will be extremely prominent — there’s  that time Citigroup accidentally wired out $900 million to angry hedge funds because the humans pressed the wrong buttons to carry out a loan amendment — but a lot of the time, if a bank and a customer negotiate a fee rate of 0.175% and the bank accidentally types in 0.176%, nobody at the bank or the customer will ever notice. The 0.175% in the negotiated contract is legally binding, but the 0.176% in the computer system is practically binding, in the sense that it is what the bank actually collects.
+Also if the bank “accidentally” types in the wrong number. Wells Fargo & Co.  once got in trouble because some humans in its foreign exchange department would swap digits on its trades:
+
+If the actual correct price to purchase a Euro was 1.0123 dollars, an FX sales specialist would use the big figure trick to switch the price to 1.0213 dollars, thus taking more spread (in this example, an additional 89 basis points) from the customer.
+If the customer actually caught the error, the FX sales specialist would falsely claim that it was simply a mistake.
+
+But often the customer wouldn’t catch the error, is the point.
+You can see why the crypto notion of “smart contracts” is so appealing. Instead of negotiating a contract with humans and then separately typing its terms into a computer program, the humans can just negotiate the computer program directly (or have their computer programs negotiate the program on their behalf) and avoid misunderstandings and ambiguity. Obviously this does not entirely work — you can still make a mistake in typing the program; with smart contracts you just make the mistake first — but the idea is attractive.
+Anyway here’s another  US Securities and Exchange Commission enforcement action against Wells Fargo about typing contracts into the computers wrong:
+According to the SEC’s order, certain financial advisers from Wells Fargo and its predecessor firms agreed to reduce the firms’ standard, pre-set advisory fees for certain clients and made handwritten or typed changes on the clients’ investment advisory agreements that reflected the reduced fees at the time their accounts were opened. However, in certain instances, the account processing employees at Wells Fargo and its predecessor firms failed to enter the agreed-upon reduced advisory fee rates into the firms’ billing systems when setting up the clients’ accounts.
+The  SEC’s order goes into more detail, and the more detail includes the ominous words “by fax”:
+
+Financial advisors (“FAs”) at Wells Fargo predecessor firms AG Edwards and Wachovia used advisory agreements referred to as “shelf” agreements to open new advisory client accounts. These “shelf” agreements were hard copy versions of their standard advisory agreements. In these “shelf” agreements, the fee schedule section listed the firms’ standard advisory rates. However, FAs at the predecessor firms sometimes negotiated lower advisory rates with clients and then handwrote or typed the lower negotiated rates on the “shelf” agreements. For certain clients, those lower negotiated rates were not entered into the predecessor firms’ billing systems. …
+Beginning in at least 2009, Wells Fargo’s FAs were responsible for completing investment advisory account documentation for new Wells Fargo advisory client accounts. The Wells Fargo FAs were likewise permitted to negotiate lower rates with the clients and to handwrite or type those lower rates on the “shelf” agreements.
+The Wells Fargo FAs then submitted the completed account setup documents, including the “shelf” agreements, to a team of Wells Fargo Account Setup Processors (“ASPs”) by fax. …
+At the end of the account setup process, after the ASPs transferred the client information from the client account setup documents, an automated notification was generated by the account setup tool and sent to the FAs responsible for the clients’ accounts. The notification included the client’s new account information, including advisory fee rates. The FAs could then review this account information and report any issues or discrepancies. However, Wells Fargo did not have policies and procedures requiring the FAs to acknowledge receipt of or to review these notifications or confirm the accuracy of the new account information.
+
+I assume that there were some (many?) examples of Wells Fargo financial advisers who made it a priority, upon getting back new-account-setup notifications for their new clients, to check the fee rates against their handwritten markups of the shelf agreement to make sure that they weren’t making too much money from those clients. But, unsurprisingly, there were some who didn’t.
+
+  
+    
+      Free riding
+    
+  
+
+Roughly speaking, the way it works is that if you open a brokerage account online and say “hi I have sent you a $1 million check to buy so many stocks,” the broker will let you buy $200,000 worth of stocks right now, even before the check arrives. When I say it like that it doesn’t sound very smart. To be fair:
+	$200,000 is a lot less than $1 million, so if you did send the check it’s fine.	If you didn’t send the check, your stocks stay in the brokerage account, so the broker can just sell them and get most or all of its money back. You can’t sell the stocks and withdraw the money until your check clears.	If you didn’t send the check, you will probably get in trouble.
+
+The sophisticated illegal way to take advantage of this is called “free riding”: You buy $200,000 worth of stocks, you wait a bit, you see if they go up; if they go up, you send in the promised check, sell the stocks and collect your winnings. If they go down, you never send the check and leave the broker with the losses. This is not a great idea — you will get in trouble — but it happens.
+The unsophisticated illegal way to take … advantage? … of this is just, you have $0.09 in your bank account, you call the broker and say “I’m sending a check for $1 million ha ha ha,” the broker lets you buy $200,000 of stocks, you buy them, they go up, and you never send in the check because where are you going to get $1 million. The downsides of this trade are (1) you will get in trouble and (2) you don’t make any money even if the stocks do go up. The upside is … I guess it is funny? A little? At least it is something to pass the time.
+Anyway:
+
+The Securities and Exchange Commission on August 25, 2023, charged 23-year-old Deyonte Jahtori Anthony ("Anthony"), of Concord, North Carolina, with conducting a fraudulent "free-riding" scheme in which he bought nearly $200,000 in securities without paying for them.
+The SEC's complaint alleges that, between July 1 and 6, 2022, Anthony opened a new brokerage account using a fraudulent application on which he overstated his personal income and then made $1 million in bogus deposits from his bank account, which held only nine cents at the time. The complaint also states that, before Anthony's deposits reversed for insufficient funds in his bank account, he used "immediate access" credit extended to him by his broker-dealer to purchase $199,956.65 in securities. According to the complaint, Anthony's broker-dealer discovered the scheme before Anthony could make any profits, froze his account, and liquidated his holdings.
+
+The  SEC complaint is a wild ride. You get some GameStop:
+After making $1 million in unfunded deposits from his bank account, Anthony then made a series of exchange-traded fund (“ETF”) and equity purchases — including Apple, Inc. (“Apple”), AMC Entertainment Holdings, Inc. (“AMC”), GameStop Corporation (“GameStop”) and Tesla, Inc. (“Tesla”) — totaling $199,956.65 using the “immediate access” credit extended to him by Broker A.
+You get Anthony’s finances:
+
+Around the time of Anthony’s free-riding, employment records show that Anthony was hired on June 23, 2022, as a fast-food restaurant worker at an Auntie Anne’s pretzel franchise in Concord, North Carolina, where he worked four shifts totaling 21 hours between June 25, 2022 and July 2, 2022. 
+For his work, Anthony earned a total of $333.09, and was then terminated from his job on July 9, 2022, after failing to show up to work. …
+Once his Broker A brokerage account was open, Anthony linked it to a bank account in his name at Bank A, which had a balance of $0.09 at the time of his brokerage account application.
+
+There was no way for him to win:
+Anthony opened a Broker A “Self Invest” account, a type of account for which Broker A extends up to $200,000 in “immediate access” credit for pending deposits. Such accounts also are limited to $500,000 in automated clearinghouse (“ACH”) deposits per day, and deposits are subject to a seven-day hold before withdrawals are allowed.
+So even if his stocks went up, he couldn’t withdraw money until his original deposit actually cleared. Which it wouldn’t, because his original deposits were “five ACH deposits online totaling $1 million from his Bank A account” and he had 9 cents in that account. But his stocks did go up:
+All five of Anthony’s deposits ultimately reversed for lack of funds in his associated Bank A account. … Therafter, Broker A liquidated his holdings for a net profit of $7,127.25.
+Good for him. He settled the case for a promise not to do it again and a fine to be determined later. Someone should hire him as a trader. He has all the important skills: creativity, ethical flexibility, the ability to pick stocks that go up. Also a sense of humor:
+When asked why he made the $1 million in unfunded deposits without having funds to cover the transactions, Anthony excused his conduct as “a joke” and said that he “never really thought of it as fraud.”
+
+  
+    
+      Short swing
+    
+  
+
+One of the less important US insider trading rules is the “short swing profits” rule, Section 16(b) of the Exchange Act, which says that insiders of public companies aren’t supposed to make profits by rapidly trading in and out of their stock. Intuitively, if you’re the chief executive officer of a company and you know that earnings are going to be disappointing, you can’t sell all your stock the day before earnings and buy it back a week later; if you know that earnings are going to be good, you can’t buy more stock before earnings and sell it a week later. More specifically, the rule says that if you do a purchase and a sale of your company’s stock within six months of each other (in either order), and the purchase price is less than the sale price, you have to give up the profits to the company. There are various technicalities about what counts as a purchase or a sale or ownership — there is a whole industry of Section 16 lawyers — and this rule is one reason that activist investors tend to stay below 10% of their target companies: If they go over 10%, they become Section 16 insiders, and their trading is restricted. 
+Meanwhile, with actual CEOs it just doesn’t come up that much, because most CEOs are at least vaguely aware of the rule and anyway are not actively trading their stock all that frequently.
+CEOs’ children, though, who knows. Here is a securities filing from Travis Boersma, the chairman and co-founder of Dutch Bros Inc., a publicly traded drive-through coffee chain. Apparently his adult son was actively trading Dutch Bros stock without telling him, doing stuff like buying 19.36 shares for $62.01 each ($1,200.53 total) and selling them later that same day for $62.24 (a $4.45 profit). Selling 25.45 shares at $29.44 one day and buying back 25.43 shares that same day at $29.45 (a 24-cent profit). Buying 130.38 shares for $29.80 in May and selling 136.19 shares at $29.36 in August (a $113.27 profit). Stuff like that.
+Also options though. On Tuesday, Aug. 8, the son bought three $26 strike call options expiring that Friday, paying $230 for each of them; he sold one that day for $239.98 (a $9.98 profit) and two more that Wednesday — after the company announced good earnings and a new CEO and the stock rallied — for $549.99 each, a profit of almost $640.
+I suppose after almost doubling his three-digit investment on well-timed options trades ahead of corporate news, he … confessed? bragged? something … to his dad, because yesterday Boersma disclosed his son’s trades going back to 2021 with this awkward footnote:
+Pursuant to Section 16 reporting requirements, the Form 4 reflects purchases and sales of the Issuer's Class A common stock and derivative securities that were made by the Reporting Person's adult son. The amount of profit realized by the applicable short-swing transactions is approximately $8,500 and has been paid to the Issuer, as required. The Reporting Person was recently notified of the transactions by his son, resulting in today's filing. 
+Arguably the core purpose of Section 16 really is to prevent corporate executives’ adult children from day-trading options on their parents’ companies going into earnings so, you know, great.
+
+  
+    
+      Things happen
+    
+  
+
+Colm Kelleher was always meant to become Europe’s most powerful banker. Visa, Mastercard Prepare to  Raise Credit-Card Fees. China Moves to Stabilize Finances of Troubled   Shadow Bank. Switzerland unveils  money laundering clampdown.   Tiger Cubs’ Wrong-Way Bets Cut Flow of Fresh Cash to a Trickle.  Genesis Creditors Forge New Chapter 11 Deal With Parent Digital Currency Group. Chicago TV Crew   Reporting on Robberies Is Robbed at Gunpoint. AI vs a  giraffe with no spots. Taser  hazing.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] I have slightly stylized the facts in these paragraphs for simplicity; in fact, as of Och-Ziff’s 2007 initial public offering, Och-Ziff had several different operating partnerships that it collectively referred to as the “Och-Ziff Operating Group,” and their names were OZ Management LP, OZ Advisors LP and OZ Advisors LL LP. 
+
+
+  [2] That is wildly oversimplified; the more correct thing to say is that Och-Ziff would get to step up its basis in its assets by the fair value of the stock it issued, and then would be able to depreciate or amortize those assets to reduce its taxable income. The assets of a hedge fund firm are mostly goodwill, which is amortized over 15 years. Pages 196 and 197 of the IPO prospectus describe these transactions and their rationale in more detail.
+
+
+  [3] And those payments crystallize with, essentially, optimistic assumptions about the company's future taxable income (and thus ability to use deductions).
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cjduwi.5lpu/d866f8a5.gif" alt="" border="0" /></a>

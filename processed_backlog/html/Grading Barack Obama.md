@@ -1,0 +1,128 @@
+# Grading Barack Obama
+
+**Source:** inputs/New Docs/reader/reason.com_archives_2011_01_24_grading-barack-obama_print.html
+**Processed:** 2025-08-24T19:14:21.869948
+
+Few legal scholars have blown as many minds and impacted as many national arguments as Richard Epstein. His 1985 volume Takings: Private Property and the Power of Eminent Domain made the controversial argument that zoning, environmental regulations, and other government actions that substantially limit the use or decrease the value of property should be viewed as a form of eminent domain and thus strictly limited by the Constitution. The result was a firestorm of outrage, followed by a trickle of acknowledgment that maybe the guy was onto something.  
+  
+As Epstein told reason in a 1995 interview, “I took some pride in the fact that [Sen.] Joe Biden (D-Del.) held a copy of Takings up to a hapless Clarence Thomas back in 1991 and said that anyone who believes what’s in this book is certifiably unqualified to sit in on the Supreme Court. That’s a compliment of sorts.…But I took even more pride in the fact that, during the [Stephen] Breyer hearings [in 1994], there were no such theatrics, even as the nominee was constantly questioned on whether he agreed with the Epstein position on deregulation, as if that position could not be held by responsible people.”  
+  
+Born in New York in 1943, Epstein splits his time between faculty appointments at the University of Chicago and New York University; he is also a senior fellow at Stanford’s Hoover Institution, an adjunct scholar at the Cato Institute, and a contributor to reason. In books such as Forbidden Grounds: The Case Against Employment Discrimination Laws (1992), Simple Rules for a Complex World (1995), and Skepticism and Freedom: A Modern Case for Classical Liberalism (2003), Epstein has been pushing his ideas and preconceptions to their limits, taking readers along for a thrilling intellectual ride. Epstein, who writes a weekly column slugged “The Libertarian” for Forbes.com, is a die-hard individualist who believes the state should be limited and freedom expanded. He is also a consummate intellectual who demands of himself ironclad proofs for his characteristically counterintuitive insights into law and social theory.  
+  
+Indeed, Epstein’s enduring value may be not any particular legal or policy prescription he has offered over the years but rather his methodology. He believes in robust and unfettered argument and debate as a way of gaining knowledge. If you don’t put your ideas out in the arena, you can’t be doing your best work, he argues. “The problem when you keep to yourself is you don’t get to hear strong ideas articulated by people who disagree with you,” he says.  
+  
+reason.tv Editor Nick Gillespie interviewed Epstein at NYU’s law building in October. They talked about legal challenges to ObamaCare, the effects of stimulus spending and TARP bailouts, and a former University of Chicago adjunct faculty member by the name of Barack Obama, with whom Epstein regularly interacted in the 1990s and early 2000s.  
+  
+“He passed through Chicago without absorbing much of the internal culture,” says Epstein of the future president. “He’s amazingly good at playing intellectual poker. But that’s a disadvantage, because if you don’t put your ideas out there to be shot down, you’re never going to figure out what kind of revision you want.”  
+  
+A video version of this interview, filmed and edited by Jim Epstein with help from Michael C. Moynihan and Josh Swain, is online at reason.tv.  
+  
+[Print interview continues below the video]  
+  
+reason: The economy has lost 3.3 million jobs, consumer confidence is half its historical average, and unemployment is 9 percent. To what extent is Obama responsible for this?  
+  
+Richard Epstein: He’s not largely or exclusively responsible, but he’s certainly added another nail into the coffin. The early George Bush—I think he got a little bit better through his term—and Obama have a lot in common. Bush wanted a pint-sized stimulus program that failed and Obama wanted a giant-sized stimulus program that failed. Neither of them is a strong believer in laissez-faire principles. The difference between them, which is why Obama is the more dangerous man ultimately, is he has very little by way of a skill set to understand the complex problems he wants to address, but he has this unbounded confidence in himself.  
+  
+reason: So he’s the perfect Chicago faculty member.  
+  
+Epstein: He was actually a bad Chicago faculty member in this sense: He was an adjunct, and we always hoped he’d participate in the general intellectual discourse, but he was always so busy with collateral adventures that he essentially kept to himself. The problem when you keep to yourself is you don’t get to hear strong ideas articulated by people who disagree with you. So he passed through Chicago without absorbing much of the internal culture.  
+  
+reason: What kinds of interactions did you have?  
+  
+Epstein: Usually in the breezeway, because he was always running and gunning for some other kinds of things. I also knew him because my next-door neighbor, Marty Nesbitt, is one of his best friends, and I would see him there and speak about him.  
+  
+He was always a tremendously engaging and charming individual, but he’s not the kind of guy who likes to be pushed. He has a way of listening to you to make it appear as though you’re the only person in the world who matters. And then when it’s all done, now what does he believe? He’s amazingly good at playing intellectual poker. But that’s a disadvantage, because if you don’t put your ideas out there to be shot down, you’re never going to figure out what kind of revision you want. His mind is set in concrete. If he thought a stimulus would work in 2009, he thinks it today.  
+  
+reason: Are there any surprises with the stimulus spending?  
+  
+Epstein: No. When you run these stimulus programs you tend to use models of consumer behavior that work in good times, but there’s no guarantee that they’ll work in bad times. The idea was that if you put money into the pockets of middle- and lower-income people, you get higher levels of consumption. It hasn’t worked out that way. Why should it work out that way? These people have consumer debts, they’re behind on their mortgages, they want to save for colleges. As they see the world of opportunity shrink, they’ll save more and spend less.  
+  
+reason: What about the argument that we would have been much worse off without the stimulus?  
+  
+Epstein: That becomes completely unfalsifiable. If you spend twice as much money and lose twice as many jobs, well, that means we just didn’t do enough.  
+  
+The only way you can put money into public hands is to take it out of private hands. You then must make an estimate as to the kinds of projects you’re doing. The Works Progress Administration in 1936 did projects that made a lot more sense than the stuff that we’re doing today. Right now there’s nothing of value that’s coming out of the stimulus program.  
+  
+reason: Would tax cuts stimulate the economy?  
+  
+Epstein: Permanent tax cuts would have that effect, and a flattening of the tax rates. The old Adam Smith adage is correct: Low and easy and reliable taxation is what commits people to long-term investments. If you give a short-term cut with a gimmick, people are going to think, “Well, what about next year?”  
+  
+reason: David Stockman, who was Reagan’s budget director, says that given the huge amounts of federal debt and deficit, extending the Bush tax rates forward at any level is a problem.  
+  
+Epstein: I think he’s probably wrong about that. If you raise taxes, Congress will just gobble all that money up and find some senseless way to spend it again. If you keep the taxes low and force people to sell debt paper that in effect is a warning sign, my guess is that it will have some adverse effect on the expenditure side. David Stockman doesn’t realize that revenues don’t go to discharge debts; they go to new debts. So I have no confidence in that proposal. What you need to do is to take a pickax or a hammer or some large tool and cut out huge numbers of government programs from top to bottom.  
+  
+reason: What’s the first government program that you would cut?  
+  
+Epstein: Agricultural subsidies and import barriers are an obvious place to start. Knock out something like ethanol. Certainly you want massive liberalization with respect to labor markets. You don’t want to have strong civil rights laws, which only gum things up. You want to get rid of the Family Medical Leave Act. You want to knock out the minimum wage.  
+  
+reason: What about entitlements?  
+  
+Epstein: Medicare is a very hard thing to deal with, because you create all these expectations for people who are in midstream. What I would like to see done is to increase the co-pays and to try to reduce the time in which you’re in the program by raising the eligibility requirements. And the same thing with Social Security.  
+  
+reason: Should they be means-tested?  
+  
+Epstein: That can be counterproductive, because then you increase the level of income redistribution, you get more high marginal taxes on your most productive individuals, and what you gain in the savings you’re likely to lose in overall terms of productivity. I’m just basically a strong flat tax guy, because I don’t think an economy runs as well when you’ve got all these pits and valleys inside the operation. What you really need to do is find some way to privatize it.  
+  
+reason: Can you privatize it without having massive stranded costs?  
+  
+Epstein: Probably not. What I mean by “privatize it” is you get somebody, for example, who can think up a sensible way to reimburse physicians for their time. Right now, Medicare doesn’t know how to deal with email communications. The office visit is still the unit by which you determine compensation. And every time you reduce the compensation for the office visit, it becomes a smaller operation and the system becomes less efficient.  
+  
+reason: Do you think ObamaCare is an intentionally roundabout way of destroying the private health care system in order to enact a single-payer system?  
+  
+Epstein: There’s a lot of blood on the road if that’s the case. I think there are some people who believe that’s the case. I think there are many people who see it in exactly the opposite way. When you’re talking about collective intentions of the many people who voted in support of the bill, my guess is that you’ll find them randomly distributed up and down the line.  
+  
+I think what you can say is that none of the promises that it makes will it be able to deliver on. The mechanism is too cumbrous, too awkward, too confusing; the minimums that they require by way of provision are too great; and the amount of cash contributions that they demand of individual persons in there are too small. So in the end the government is still paying 90 percent or more of the health care for many people in the country.  
+  
+reason: What’s the outlook for the legal challenge to ObamaCare?  
+  
+Epstein: Better than one had thought. There are two kinds of challenges that could be made. One of those is a facial challenge on the medical mandate.  
+  
+reason: That’s the coverage mandate, that everybody has to enroll.  
+  
+Epstein: I read the opinion in the [Bill] McCollum case down in Florida, and the judge seemed to be rather impressed with the argument. I was a bit surprised about it. But Randy Barnett, who helped organize this, did a very clever job of advocacy for two reasons. One is he dreamed up an argument that didn’t threaten Social Security and Medicare with constitutional extinction. And secondly he provided a relatively clear line, so now it’s the government that has to face the slippery slope problem. If you could force us to spend $2,000 because there’s a coordination problem and a free rider problem, why can’t you force us to brush our teeth three times a day, to have certain kinds of balanced diets, to do exercise? It turns out you get yourself a totalitarian state. It was a peculiar mixture of libertarian sentiments with jurisdictional issues. It was very well done.  
+  
+Another challenge, which will take longer to develop, is that these guys are converting all the private health care companies in the United States into public utilities, and they’re not guaranteeing them anywhere close to a normal rate of return with respect to their investments. It’s very hard to make that challenge on a facial basis, because health care’s got so many moving parts that you don’t know what’s going on. But when you start to see people withdrawing from their plans in droves, or saying “look, my sum costs are X and the revenues you’re giving me are too small to meet that,” those challenges could actually work.  
+  
+The third set of challenges that could work is the Medicaid challenges, which say it’s too tough to tell a state, “Sure, you’re entitled to go outside of Medicaid, but you have to have your taxpayers continue to pay into this program, and by the way pick up all the expenses for people under 133 percent of the poverty level.” The correct way to let people out of a program is to say: “Tennessee, you don’t want to be in Medicaid, that’s fine, you keep your tax revenues and you don’t get anything from the federal government. Organize it yourself.” That would create an immense amount of competition at the state level, which would do a world of good. But of course no federal politician will voluntarily relinquish money if he could find some way to condition its departure upon your assumption of some yet greater obligation.  
+  
+reason: What do you think the odds are of a legal challenge working to invalidate ObamaCare?  
+  
+Epstein: Less than even—20 or 25 percent, I would say. But this is up from 5 to 10 percent. As the politics become more controversial, and the unpopularity of the plan becomes more evident, the willingness of judges to entertain novel arguments will increase and therefore the odds will start to move up.  
+  
+Also, as these challenges start to go through the courts and the Democrats start to blink a little bit and you get a new Congress, my guess is that some of these hard deadlines will be postponed, because you will not be able to put these systems in place in the time that’s allotted for it. The amount of just sheer computer work that has to be done to make every program of every private health care company comply with every federal mandate on an annual basis is mind-boggling.  
+  
+reason: In July, Obama signed the Dodd-Frank Financial Reform Act. Will this bill make good on claims that it will simplify consumer credit markets and inoculate us from bank bailouts?  
+  
+Epstein: Nothing will inoculate us. These banks are insanely large.  
+  
+Just to give you some perspective: TCF—Twin City Federal—is a pretty big bank. It has $18 billion in assets. It’s a real company. Chase is 100 times that size. It’s $1.8 trillion or something. The left hand does not know what the right hand is doing. You cannot run from the center an organization that large. And as the other banks start to fail, just keep stuffing things into the big banks. So you’ve got fewer banks, higher concentration. Now if one of those guys goes down it’s a national catastrophe. With this high level of concentration you are really much too big to fail.  
+  
+Sen. Dodd spoke at NYU and somebody asked him, “What about Fannie and Freddie?” And he said, “Oh, we couldn’t tackle it at this point.” Well that’s obviously the biggest source of problems that we have, and if that continues.…  
+  
+reason: How is that the biggest source of problems?  
+  
+Epstein: Because these people are completely irresponsible in the way they issue and guarantee loans. They put more crapola into the market, you get cheap mortgages, you bid up the price of assets, you wait for the crash to come, and you get more defaults. One of the terrible things in the Obama administration is they will not let nature take its course. They constantly try to fend off foreclosures, which means that the market never clears, these properties are held in overhang, and people who could actually afford to buy them at market prices are excluded from the market. On this issue they get themselves a straight F.  
+  
+reason: What policies could Congress and the president have gotten behind that would prevent massive bank bailouts?  
+  
+Epstein: For one thing, make it very clear that we don’t guarantee you in the event of loss, and that if counter-parties want protection they’d better get it either from their trading partners or from a third party. The tougher you are at the beginning, the less likely it is that you’re going to have these kinds of situations, and you won’t get the mad scramble where an AIG bailout essentially works for the benefit of Goldman Sachs, which is by far the shrewdest player in all this stuff.  
+  
+reason: Is it politically plausible to expect Congress or the president to actually act that way and say, “Look, the bailout stops here”?  
+  
+Epstein: It’s very, very hard to do it, to put it mildly. But it’s going to get worse. So what you really want to do is reverse the earlier situation. You want to get Washington Mutual out from underneath Chase and have them as a separate bank with a fairly substantial size. The market depends on having a large number of intermediate-sized players. Something like BB&T bank has about $150 billion of assets. That’s plenty big to do virtually any transaction that you need, but it’s not going to create systemic risk. The real systemic risk that you create is having five major banks which amongst them have $10 trillion worth of assets floating around in their coffers.  
+  
+What you want to do is to encourage new entry by smaller banks in a specialized niche, so that every time somebody gets big, fat, and happy, there’s some competitor who’s coming in there. To the extent that you make it difficult to charter new banks, you’re going to only increase the dominant position of those banks that are already in effect.  
+  
+You want to tell the bankruptcy courts to do their jobs, not to pull another stunt like they did with Chrysler and General Motors. If you had some degree of regularity in your political and social institutions, then the environment for private banks to operate will be a bit more wholesome, and without those perturbations the risk of failure starts to go down.  
+  
+I wrote a book called Simple Rules for a Complex World. When you’re dealing in small families and intimate social arrangements, you can have a special deal for every one of your children, right? But when you’re trying to deal with a nation, the single largest mistake you can make is treating it as one large but rather dysfunctional family. You want to be able to establish ways in which people could act impersonally with strangers and very cooperatively with their intimates. So you don’t want a credit card system to essentially depend on all sorts of personal verifications—I can’t get this money out of the bank until I tell the teller what I’m going to do with it, and so forth.  
+  
+Take the two markets that matter the most in many ways for long-term stability: real estate and labor. Both of them are overregulated at both the federal and the state level. Every regulation should have to be justified, because the moment it limits gains from trade you have to explain why it’s needed. But Obama’s guys treat these regulations like they’re candy going down the throat of a 2-year-old. “They just taste sweet; we’d better do more of it.” The Republicans are guilty of it in the sense that they don’t fight it very hard. And the Democrats are guilty of it because they think it’s a real panacea.  
+  
+reason: In shifting from a rule by fiat, where you come and plead your case and get your special single deal, to a government of rules, you shift from a kind of feudal mentality to a republican one. What do you do to spread that and make that more persuasive to people?  
+  
+Epstein: You show people that all of the ingenuity of gimmicks fails. We have more debt, more unemployment, and less happiness in this country now because hope and change turn out to be discord and confusion. And there’s no way that you can stop that. You cannot stop the blunders of one government program by putting another one on top of it.  
+  
+That’s what I learned in Yale Law School. You don’t like what the minimum wage does, you create a welfare program. You don’t like what a welfare program does, you have a back-to-work program. If you just got rid of the minimum wage, you’d get rid of three programs and you’d free up lots of economies. Mies van der Rohe was essentially a political theorist when he said “less is more.”  
+  
+Watch Reason.tv's interview with Richard Epstein:

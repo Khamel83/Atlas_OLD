@@ -1,0 +1,401 @@
+# Money Stuff: The SEC Wants More Stock Auctions
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Thu, 15 Dec 2022 14:33:54 -0500 (EST)
+**Source:** inputs/saved_emails/Money Stuff The SEC Wants More Stock Auctions_Thu,_15_Dec_2022_14-33-54_-0500_(EST)_1851747cd39499b2.eml
+**Processed:** 2025-08-24T19:13:04.147555
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        Programming note: Money Stuff will be off tomorrow, back on Monday.The basic idea is that if a Robinhood customer is buying stock, it is usu
+      
+    
+  
+  
+    
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Programming note: Money Stuff will be off tomorrow, back on Monday.
+
+  
+    
+      PFOF etc.
+    
+  
+
+The basic idea is that if a Robinhood customer is buying stock, it is usually good to sell it to them. In general, if you sell stocks, you will worry that the people buying from you know something you don’t. They might know that, like, the company is about to announce a merger or whatever, but realistically the main thing they might know is that they themselves plan to buy more stock: If you sell them 100 shares of a stock at $10, and then they buy 10,000 more shares, the price will go up and you will wish you had not sold to them at $10. If BlackRock Inc. is buying stock and you are selling it to them, that is a real risk that you face; it is called “adverse selection.” But if a Robinhood customer buys 100 shares of stock from you, the chances that she’s buying 10,000 more over the next two minutes are pretty slim. That is mostly not how Robinhood Markets Inc. customers behave. So selling stock to Robinhood customers who want to buy — or buying it from Robinhood customers who want to sell — is a better and safer business than trading stock with BlackRock.
+  [1]
+ We   talk about   this a lot around   here.
+Much of US equity market structure is driven by this basic fact, that it is better to trade with retail customers than it is to trade with professional investors. In general, when you trade on a public stock exchange, you don’t know who’s on the other side. If there is an order to buy 100 shares, and you take the other side and sell 100 shares, you don’t know if you’re trading with a hedge fund or a retail investor; you don’t know if it’s the start of a flood of buy orders or just a random blip. But if you could know who was on the other side — if, say, you could know with certainty that everyone on the other side of your trades was a Robinhood customer — then that would be better. You could make a lot more money trading only with Robinhood customers than you could trading with everyone.
+And so what you do is you go to Robinhood and say “when your customers give you orders to buy stock, don’t send those orders to the stock exchange, where they will be indistinguishable from orders from hedge funds and institutions — send them to me.” In return, you offer Robinhood three things:
+	You promise to give its customers better prices than they’d get on the stock exchange. If some stock is for sale on the exchange for $10.01 per share, you’ll sell it to Robinhood’s customers for $10.005 or something. This is called “price improvement,” and Robinhood likes it because, as a broker, it has an obligation to get “best execution” for its customers. Getting them a better price than they could get on the exchange seems like a good way to get best execution. In practice, you won’t always give Robinhood’s customers price improvement. Sometimes it is not that good to trade with Robinhood customers, for whatever reason — sometimes they are selling stock that you don’t want to buy — and so you’ll just send their order to the exchange. But (1) you will always give Robinhood customers prices that are at least as good as they’d get on the exchange (since at worst you send the order to the exchange), and (2) most of the time you will give them better prices. And Robinhood will keep track, and grade you on how often you give price improvement and how much, and this is a competitive business and if you are not giving them enough price improvement they’ll send their orders to someone else.	You handle the orders for Robinhood. If you weren’t handling these orders, Robinhood would have to think hard thoughts about how to route its customers’ orders to get the best possible price. Should it send the order directly to the stock exchange? Which one? (There are  more than a dozen.) Should it send the order to a broker’s dark pool? Should it split it up and send bits to different venues? These are complicated questions that institutional brokers have to think about as they try to get best execution for their customers. Robinhood doesn’t. Robinhood just sends the order to you, and you decide whether to trade with it yourself or route it elsewhere, but you guarantee Robinhood a good price.	Also you pay Robinhood money for sending you their orders. This is called “payment for order flow,” or PFOF. The intuition is that it is so profitable to trade with Robinhood customers that you can give the customers price improvement, and you can give Robinhood a check, and yet it is still a good business for you.
+  [2]
+ Meanwhile Robinhood uses these payments to subsidize its costs so that it can offer its customers zero-commission trades, which the customers seem to like. This encourages the customers to do more trades (they’re free!), which brings in more PFOF revenue for Robinhood.
+
+The firms that do this business — who pay Robinhood for the right to trade with their orders — are often called “wholesalers,” or “market makers,” or occasionally “internalizers,” or, loosely, “high-frequency traders.” Robinhood’s  actual wholesalers include Citadel Securities LLC, Virtu Americas LLC, Jane Street Capital and G1 Execution Services LLC.
+This is hugely controversial for reasons we have talked about a lot, and I won’t bore you again. (Basically: PFOF feels like a bribe, zero-commission trading with PFOF encourages excessive trading, it is bad for institutional investors — like your mutual funds — to have retail orders executed away from the public markets, people don’t like middlemen, etc.) But here I want to point out two specific controversial features that we have not talked about a lot because they are not usually the main things people get mad about.
+First: The measurements of price improvement are a little bit fuzzy. In general, retail brokers take a holistic view of their wholesalers’ performance. They want to get price improvement on a large number of orders, and they want to get a large dollar amount of price improvement. But they don’t — and, practically speaking, can’t — check whether they got the most possible price improvement on every order. In practice, sometimes the wholesaler does a trade that is very profitable for it: It would have happily sold a stock at $10.003, but sells it at $10.007 instead, making an extra $0.004. There is still price improvement — the public-market price is $10.01, say — but less than there could have been. Other times, the wholesaler does a trade that is a loss leader: It sells that stock at $10.00, when the “right” price is $10.003, and takes an $0.003 loss to provide good service for Robinhood. Over the course of millions of trades in a month, the wholesaler has to (1) give enough price improvement to make Robinhood happy and (2) make enough money to make itself happy. But over the course of an individual trade that won’t always be true.
+Second: There is only a limited group of wholesalers. There are some firms — Citadel Securities, Virtu, etc. — that are in this business, that have the relationships and algorithms and connections to operate as wholesalers to retail brokers. They provide that complete package of services — reliable price improvement, professional routing, payment for order flow, etc. — to retail brokers; they compete to be good service providers to those brokers. A retail broker can send every trade to its wholesaler, and the wholesaler will handle all of them at good prices. 
+But remember the basic point that it is, generally, good to trade with Robinhood orders. Lots of people — not just professional wholesalers — would like to do it, at least on a part-time basis.
+For instance, if you run a big mutual fund, you will not generally want to get into the business of making markets and paying for order flow. If Robinhood comes to you and says “our customers want to buy a lot of GameStop Corp. stock,” and you don’t own any GameStop stock, you won’t sell them any. On the other hand, sometimes you will need to sell a million shares of some stock over the course of a day, because your portfolio manager has decided she doesn’t like the stock anymore. What you would like to be able to do, in that situation, is call up Robinhood that day and say “hey, we’re selling XYZ stock, so if any of your customers want to buy it, don’t send their orders to Virtu, send them to us, and we’ll give them a good price.” You might trade at the midpoint price: If the public market price is $9.99 bid and $10.01 offered, you will get $9.99 per share selling into the public markets, while Robinhood’s customers might pay, say, $10.005 per share buying from a wholesaler (getting some price improvement over the public offer price). But if you cut out the middleman, you could sell the stock to them for $10.00 even, and you’d both be better off.
+In general this is not what happens: Mutual funds and other institutional investors don’t get to trade with a lot of retail order flow; only the specific wholesalers with whom a specific brokerage has negotiated arrangements do.
+  [3]
+ But sometimes those investors would like to trade with retail order flow — not as a business, just as a trade — and they are sad that they can’t. 
+Yesterday the US Securities and Exchange Commission proposed new rules that would   completely revise this system. There are several new rule proposals, including a new “Regulation Best Execution” that would formalize and clarify what a broker’s “best execution” obligations  actually mean (“requiring a broker-dealer to use reasonable diligence to ascertain the best market for a security, and buy or sell in such market so that the resultant price to the customer is as favorable as possible under prevailing market conditions”), and a new set of rules about  stock-market tick sizes and fees.
+But for our purposes the main one is  a new proposed rule “that would require certain orders of individual investors to be exposed to competition in fair and open auctions before such orders could be executed internally.” Here is  the 397-page rule proposal, and the SEC’s fact sheet. But the basic summary is:
+	If a retail broker sends an order to a wholesaler, before trading with the order, the wholesaler has to put it up for public auction at a stock exchange or other “open competition trading center.”	The auction would last between 100 and 300 milliseconds.	Anyone could bid to trade with the retail order, and whoever offers the best price wins.	If nobody bids, or if the original wholesaler has the best price, then the original wholesaler can trade with the order.	The stock exchange could not charge a fee to the retail order, though it could charge a fee of up to $0.0005 per share to the winning bidder in the auction. (And it could pay a rebate of up to $0.0005 per share to the broker submitting the retail order.)
+
+The rule is complicated and at this point the consequences are unclear, but there are a few obvious intended effects.
+First, wholesalers will have to compete to provide price improvement on an order-by-order basis. Instead of doing millions of trades a month and saying “we provided price improvement on X% of trades, for a total dollar amount of $Y,” you’d have to compete to win each trade by providing the most price improvement on that trade. The SEC thinks this will provide a higher total amount of price improvement, because rigorous competition over each order will drive down prices;  it says:
+The current isolation of individual investor orders from order-by-order competition results in suboptimal price improvement for such orders. The Commission labels this forgone price improvement “competitive shortfall.” Based on an analysis of trading data from the wholesalers and national securities exchanges in the first quarter of 2022, the competitive shortfall is estimated to be approximately 1.08 basis points per dollar traded by wholesalers or 1.08 cents for every $100 traded, with an estimated total annual competitive shortfall of $1.5 billion. 
+But this is pretty uncertain. It is possible that the current system — where wholesalers win some and lose some but compete to provide a lot of consistent price improvement over a large number of orders — lets wholesalers manage risk better and so offer better prices. Here is a paper titled “Would Order-by-Order Auctions Be Competitive,” by Thomas Ernst, Chester Spatt and Jian Sun, arguing that “a winner's curse problem in the auction can reduce retail investor welfare, particularly at times of limited liquidity.” And the SEC says:
+
+An additional cost for some orders may arise to the extent that lower execution quality for some orders currently subsidizes better execution quality for others. Table 10 shows that wholesalers execute 13.82% of orders at prices superior to midpoint for the investor. On average, unless the orders have systematically negative price impact, the wholesaler may not be earning a positive marginal profit on these executions. This could imply they currently subsidize the additional price improvement on these trades with marginal profits earned on other executions. To the extent this occurs, if wholesalers marginal profits decline under the Proposal, then customers could receive less price improvement and experience higher transaction costs on trades that are currently subsidized. However, on average, the Commission expects that execution quality for individual investor orders would likely improve under the Proposal.
+The Commission recognizes that wholesalers may provide consistency with regard to the execution quality that they deliver to individual investor orders.There is the concern that the Proposal would undermine the wholesaler business model, which in turn could hinder the ability of wholesalers to continue to provide consistency in their execution services. The Commission believes, however, that while bidders in qualified auctions may not provide as much consistency as wholesalers, some orders could receive improved execution quality while others would receive reduced execution quality (relative to wholesalers).
+
+The current system offers consistent amounts of price improvement across lots of orders; the proposed system would offer more price improvement on some orders and less (or none) on others. The SEC thinks that the total amount of price improvement would go up, but it’s hard to tell. At the Wall Street Journal, Alexander Osipovich writes:
+
+Order-by-order auctions might have different impacts for different stocks, according to Chester Spatt, a former SEC chief economist who is now a finance professor at Carnegie Mellon University.
+For actively traded stocks that many firms are eager to trade, investors might benefit as firms jockey for the right to fill each order. But for less popular stocks, fewer firms will bother to participate in the auctions, and the investor might end up getting a worse price than what he or she gets in the current system, he said.
+
+Second, a goal of this proposal is to let big institutional investors — mutual funds, pensions, etc. — trade against retail orders. The SEC writes:
+The isolation of individual investor orders at wholesalers prevents other investors from having an opportunity to trade with this low-cost flow. Institutional investors that currently submit their own marketable orders on national securities exchanges and other trading centers potentially could trade at better prices if given an opportunity to interact with the marketable orders of individual investors in fair and open auctions. ... Moreover, if institutional investors that currently pay a full “spread” (that is, the difference between the highest price bid and the lowest price offer) to access liquidity were able instead to interact in auctions with the marketable orders of individual investors that currently are mostly inaccessible to them, these institutional investors could benefit from lower spread costs.
+This is my example above: Instead of an institution getting $9.99 when it sells, a retail investor paying $10.005 to buy, and a market maker pocketing the $0.015 difference, the institution could just sell directly to the retail investor at $10 and they’d both be better off. In the current system, institutional investors don’t have direct access to retail orders; under the SEC’s proposal they more or less would.
+  [4]
+
+Third … I think this is meant to get rid of payment for order flow? I mean, it doesn’t explicitly say that. But under this regime, it is hard to tell why a wholesaler would want to pay a retail broker for its order flow. You have to put all the orders up for auction anyway, so you only get to trade with the ones that no one else wants; it is lucrative to trade with retail orders at a price that is better than the public-market price, but it is not obvious that it would be all that lucrative to trade with them at a price that is better than anyone else would offer. “The Commission recognizes that the implementation of qualified auctions, as mandated by the Proposal, could lead to a significant decline or perhaps disappearance of PFOF,” writes the SEC. It just doesn’t worry that much:
+An additional concern is that if the Proposal results in a significant or complete loss of PFOF, then retail brokers would be forced to start charging commissions again for online NMS stock and ETF trades. There are several reasons that retail brokers would be unlikely to resume charging commissions for these orders. First, the majority of retail brokers receive relatively little or no PFOF, and yet they have nevertheless successfully managed to support commission-free trading through their other revenue-generating lines of business. In fact, several retail brokers, including some that do not accept PFOF, earned record revenues and profits after zero-commission trading was initiated. While most brokers had already reduced commissions to under $10, there was still considerable concern that the zero commissions would lower profits. Despite these concerns, industry profit grew in 2020.585 Moreover, the average PFOF payment that brokers receive on a 100 share order is 10-20 cents. The PFOF for a 1000 share order is less than the commission fees previously charged by broker-dealers, which had generally been $5 or more. Thus, just as the loss of commission fees was not offset by the receipt of PFOF, the loss of PFOF might not necessitate the return of commission fees.
+Payment for order flow sort of created the zero-commission retail-brokerage model, but it’s not really necessary anymore. You can run a profitable retail brokerage on  net interest margin, without charging for trades at all.
+Also, this proposal sets up sort of an alternative mechanism for payment for order flow. Instead of wholesalers paying brokers to get their orders, “open competition trading centers” (stock exchanges) could charge wholesalers and institutions up to $0.0005 per share to trade with those orders, and then could pass some or all of those fees back to the retail brokers:
+Additionally, to the extent that rebates paid for the routing of segmented orders to qualified auctions are passed through to retail brokers, it could reduce the likelihood that they resume charging commissions. The 5 mil cap on rebates that qualified auctions could pay for the submission of segmented orders under the Proposal is approximately 40% of the average combined PFOF rate paid by wholesalers for marketable orders as estimated in Table 2.
+Basically you can still pay for order flow, but only on an order-by-order basis.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Oh Elon
+    
+  
+
+There are a bunch of competing meta-theories of what Elon Musk is up to with, you know, Twitter Inc., all this. Here are two straightforward, first-order theories:
+	Elon Musk   is very rich and has eccentric hobbies, his favorite hobby is getting in fights online, and nobody around him ever tells him to knock it off. So all this stuff is bad, but it’s what he wants — at least, what he wants in the moment — so he does it. “Musk is just a being of pure impulse,”  writes Ryan Broderick. “He’s essentially a flatworm with a rocket company.” I too am excessively online, so I sympathize with this view.	Elon Musk genuinely and correctly believes that buying Twitter and making it, like, a  division of  QAnon is the most important thing that he can do for humanity. “The woke mind virus is either defeated or nothing else matters,”  he tweeted: Sure his other businesses are about rockets and electric cars, about making humanity multiplanetary and solving climate change, but those problems are trivial compared to the real work of  tweeting memes about Anthony Fauci. I do not pretend to understand this view, but (1) it is Musk’s own stated theory of what is going on and (2) a lot of his venture-capitalist buddies seem to believe it, so I do not want to write it off entirely. I mean, I do. But here it is.
+
+But I am also drawn to two weirder and more convoluted theories
+  [5]
+:
+	Tesla Inc. stock is the main source of Musk’s wealth, and he has done a good job of maximizing that stock’s price by rallying a legion of retail fans. But eventually he needs to cash out, and that presents a problem: If the founder, chief executive officer and cult leader of Tesla starts dumping stock, then that signals a loss of confidence, and the stock would collapse before he could get much money out of it. But if he created a distraction, or an excuse, for dumping the stock, then that might cushion the blow. Not “I am selling $40 billion of Tesla stock to top-tick it” but more like “I am selling $40 billion of Tesla stock to buy Twitter and wage war for the future of civilization.” Then his fans might say “great, sell that stock, wage that war,” and he can sell stock without taking too much of a hit. And in fact Musk has sold almost $40 billion of Tesla stock, after repeatedly promising that he was done. We have   talked about this theory before, but I find it somewhat unsatisfying because (1) in fact Tesla’s stock has gone down a ton as he’s been selling! and (2) he has plowed most of the proceeds into buying Twitter, which has probably gone down even more! I do not see how he has accomplished any real diversification or stock-price-maintenance goals. 	Tesla Inc. is the main source of Musk’s wealth, and his main goal in life is selling lots of Teslas. He has sold all the Teslas that he can sell to coastal elite liberals, and now he faces the daunting challenge of selling electric cars to social conservatives. Acquiring Twitter and turning it into a right-wing media company with himself as the main character might be bad for, like,  Twitter ad sales, but that is small potatoes if it is good for selling Teslas to Republicans. “Our cars are electric, yes, but they are free from the woke mind virus” is perhaps a good pitch.
+  [6]
+
+
+
+Those last two theories have opposite implications for what you should think about all this if you are a Tesla shareholder. If you think that Musk’s purchase of Twitter is meant to provide a distracting cover for his loss of interest in Tesla, seems bad! If you think that Musk’s purchase of Twitter is meant to open up new markets for Tesla then, you know, give him a chance, see where this is going.
+ Anyway:
+
+Elon Musk sold another $3.58 billion worth of Tesla Inc. shares, bringing the total amount he’s offloaded since late last year to almost $40 billion.
+The latest disposal of about 22 million shares this week coincided with Musk falling from the top spot on the Bloomberg Billionaires Index, a position he’d occupied since September of last year. Tesla’s market value also slumped below the half-trillion-dollar mark for the first time since November 2020.
+Musk’s persistent selling after repeated assurances that he was done unloading Tesla stock reflects mounting pressure on the finances of Twitter Inc. His erratic and impulsive approach to running the social-media company has alienated advertisers, and efforts to bring in more revenue from subscription fees backfired when impostor accounts exploited a poorly executed rollout of verification badges.
+
+And:
+
+The chorus of Tesla Inc. individual investors expressing misgivings that Chief Executive Elon Musk‘s involvement with Twitter Inc. may be to the detriment of the electric-vehicle maker is getting louder, with the car company’s stock on track for its worst full-year performance.  
+“There is no TSLA CEO today,” Gary Black, managing partner of the Future Fund LLC, which owns roughly $50 million worth of Tesla, tweeted Monday. ...
+Mr. Black said, “The market voted today that the $TSLA brand has been negatively impacted by the Twitter drama. Where before EV buyers were proud to drive their Teslas to their friends or show off Teslas in their driveways, now the Twitter controversy is hurting Tesla’s brand equity.”
+
+Yeah I mean if you are an asset manager you are maybe less proud to show off your Tesla, but how many Teslas can Musk possibly sell to asset managers? 
+
+  
+    
+      
+        
+      
+    
+  
+
+
+  
+    
+      Underwriting
+    
+  
+
+One way to think about insurance underwriting is that you build your underwriting model by:
+	Making a list of observable factors that are correlated with the risk you are insuring, and then	Crossing off the factors that regulators and politicians would get mad at you for using.
+
+The first part helps you figure out the right price to charge for insurance, and requires some statistical sense. The second part keeps you out of trouble, and requires some political sense. If your research discovers that people who drive red cars get in more car accidents than people who drive gray cars, sure, charge the red-car drivers more.
+  [7]
+ If your research discovers that Jewish people get in more car accidents than Christians, you put that research straight in the trash can! Why did you even do that research? What were you thinking? What is wrong with you?
+Anyway:
+
+If you passed on getting the COVID vaccine, you might be a lot more likely to get into a car crash. …
+During the summer of 2021, Canadian researchers … found that the unvaccinated people were 72% more likely to be involved in a severe traffic crash—in which at least one person was transported to the hospital—than those who were vaccinated. That’s similar to the increased risk of car crashes for people with sleep apnea, though only about half that of people who abuse alcohol, researchers found. ...
+The authors theorize that people who resist public health recommendations might also “neglect basic road safety guidelines.” …
+The findings are significant enough that primary care doctors should consider counseling unvaccinated patients on traffic safety—and insurance companies might base changes to insurance policies on vaccination data, the authors suggest. 
+
+I am quite certain that, at least in the US, no auto insurer is going to start asking drivers about their Covid vaccination status so that it can charge unvaccinated people more! Imagine the congressional hearings! 
+
+  
+    
+      Things happen
+    
+  
+
+BlackRock Is Caught in the   ESG Crossfire and Struggling to Get Out. Vanguard  spared ESG grilling in Texas after ditching green alliance. Chinese   Stock Delisting Threat Eases as US Gets Access to Audit Data. US   Blacklists More Chinese Tech Companies, Escalating Trade Fight. FTX Executives Used ‘Korea’ Account to Mask  Giant Alameda Liabilities. Bahamian authorities were tipped off by top Bankman-Fried associate. In Hedge Fund   Pay Dispute, a Portfolio Manager Denies Misconduct. EY Looks at  Backup Plans on Split Amid Higher Costs, Slower Growth. School of Quant: At $29,000, a   Public NYC College Outclasses Princeton. Debt Defaulter Zambia Seeks to   Offload Costly Presidential Gulfstream Jet.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] I am mostly just being annoying when I say “Robinhood”; really this paragraph is true of any individual retail investor. (Similarly, for “BlackRock,” you can substitute pretty much any institutional investor, hedge fund, etc.) But not entirely: Different retail brokerages have, statistically, different customer bases, and  there do seem to be some aggregate differences between how Robinhood Markets Inc. customers trade and how, say, Interactive Brokers Pro customers trade. Some retail brokerages’ customers are, as it were, more retail than others, and it is more profitable to trade against them.
+
+
+  [2] We   talked last year about a  Bloomberg Intelligence research note finding that “Market makers captured 48.5% of the spread in executing self-directed retail orders in 2Q [of 2021]. Of the balance, 13.3% was paid to the broker and 38.2% went to the client.” So basically market makers who do this sort of wholesaling business end up charging about half of the spread on retail orders that they would in public markets. This is not all profit to them — they have trading costs, and there is still some adverse selection in retail trading — but the point is it is still a profitable business at half the public-market spread. Meanwhile the other half of the spread goes roughly one-quarter to PFOF and roughly three-quarters to price improvement.
+
+
+  [3] I should say that some public exchanges have retail execution facilities that are basically designed to allow for this sort of thing: Brokers can send retail orders to those facilities, and institutions (or anyone else) can compete to take the other side of them. 
+
+
+  [4] Some caveats here. First, they’d have to do this through an “open competition trading center,” like a stock exchange, which could charge the institution a fee; to some extent this rule is a transfer of value from wholesalers to exchanges. Second, they’d have to have the capacity to bid on these 100-millisecond auctions, capacity that could presumably be provided by their brokers’ routers, but that would have to be built. Third, I think if you asked wholesalers how the system works today, they would dispute the claim that institutions would sell at $9.99 while retail bought at $10.005 and wholesalers pocketed the difference. “If institutions want to sell at $10, they can put a midpoint sell order on a dark pool, and we would route a retail order to that dark pool and fill it at $10,” they would say. All in all wholesalers seem to be skeptical of the idea that there is tons of value to be found by matching buyers and sellers of stock up more efficiently. They claim that *they* are the most efficient matchers of buyers and sellers.
+
+
+  [5] See also  Max Read’s theory that “the only thing he knows how to do -- the only way he knows how to make money, but also the way he has been conditioned to respond to any kind of adversity or challenge -- is to create chaos and drama around himself in search of new opportunity. The ‘grand plan’ at Twitter, such as it is, is for him to make a mess, wherever and however he can, and see what happens: is there a business opportunity here? An edge? Can I find new political allies, business partners, customers?” But: “‘Chaotic main character’ is a surprisingly acceptable and effective role for an executive to take in conditions of historically low interest rates, when people and institutions have lots of money and are hungry for risk. But when money is less easily accessible, and appetites for risk are low, the fraction of people who are attracted to (or merely willing to tolerate) your [bull] declines, and your talent for drama looks less like a strength and more like a liability (or personality deficit).”
+
+
+  [6] Here is  a Twitter thread from David Risher making this argument. “@elonmusk *really* cares about 2 things: Climate Change and Attention. The 1st is an existential threat; the 2d is a steroid that force-multiplies all other efforts. … Who loves @Teslas? Stereotypically: latte-sipping, @NPR-listening, coastal-living libs. But that's not enough. So what's the strategy? Make yourself (and your brand) appealing to a more socially conservative crowd. … As for Attention, it's super-clear that going right is an viral attention-grabber.”
+
+
+  [7] This one appears to be an urban legend, but a fun one.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter? 
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+  
+
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23chuvik.5lso/f774bc51.gif" alt="" border="0" /></a>

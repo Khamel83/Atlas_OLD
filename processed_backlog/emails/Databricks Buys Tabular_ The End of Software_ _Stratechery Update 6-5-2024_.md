@@ -1,0 +1,127 @@
+# Databricks Buys Tabular, The End of Software? (Stratechery Update 6-5-2024)
+
+**From:** Ben Thompson <email@stratechery.com>
+**Date:** Wed, 5 Jun 2024 14:47:07 +0000
+**Source:** inputs/saved_emails/Databricks Buys Tabular, The End of Software (Stratechery Update 6-5-2024)_Wed,_5_Jun_2024_14-47-07_+0000_18fe8e619788ec17.eml
+**Processed:** 2025-08-24T19:13:11.943355
+
+Understanding why Databricks bought Tabular, and why there will still be a market for software in the future.
+
+View in browser ( https://stratechery.com/2024/databricks-buys-tabular-the-end-of-software/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2RhdGFicmlja3MtYnV5cy10YWJ1bGFyLXRoZS1lbmQtb2Ytc29mdHdhcmUvIl19LCJleHAiOjE3MjAxOTA4MjcsImlhdCI6MTcxNzU5ODgyNywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.UgViosFDoHwNFyDzM7v7OxslxDlbyHcWiWXTaN7br0eEZf72YRyMW9ODUDspmKLLqZE3yC8oS791kEdWU7IXYEN8UtLpe9H0epIpzMuevBU8dFSfAHjqEAi0nHEy-WHQ25LT0s8aH_Z_6JGSQuzzyvrKMF6fnD4d9UTOksJhkSlLBEZVbopbBGNc0NM-gpT3VdCDrabr03d8iaP3YiOPod8pLjMeFD1ee4UGAChPZ5Ye6gSZCynz-pSOmTiDbEXhIMlxCQjA8FbmvYFGB9nUhuLmYlnR0HcRXV6PxgDznRHd2uC2e9EXXmHmwtnEuNmLu7YTDDgHlu4bg4hr7TRoCw )
+
+( https://stratechery.com )
+
+*********************************************
+Databricks Buys Tabular, The End of Software?
+*********************************************
+
+( https://stratechery.com/2024/databricks-buys-tabular-the-end-of-software/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2RhdGFicmlja3MtYnV5cy10YWJ1bGFyLXRoZS1lbmQtb2Ytc29mdHdhcmUvIl19LCJleHAiOjE3MjAxOTA4MjcsImlhdCI6MTcxNzU5ODgyNywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.UgViosFDoHwNFyDzM7v7OxslxDlbyHcWiWXTaN7br0eEZf72YRyMW9ODUDspmKLLqZE3yC8oS791kEdWU7IXYEN8UtLpe9H0epIpzMuevBU8dFSfAHjqEAi0nHEy-WHQ25LT0s8aH_Z_6JGSQuzzyvrKMF6fnD4d9UTOksJhkSlLBEZVbopbBGNc0NM-gpT3VdCDrabr03d8iaP3YiOPod8pLjMeFD1ee4UGAChPZ5Ye6gSZCynz-pSOmTiDbEXhIMlxCQjA8FbmvYFGB9nUhuLmYlnR0HcRXV6PxgDznRHd2uC2e9EXXmHmwtnEuNmLu7YTDDgHlu4bg4hr7TRoCw ) Wednesday, June 5, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+The NBA Finals are kicking off tomorrow, and Greatest of All Talk ( https://goat.passport.online/member/episode/previewing-the-finals-x-factors-celtics-psychology-exhuming-luka-skeletons-the-meaning-of-the-red-lobster-bankruptcy ) has you covered for a preview.
+
+On to the Update:
+
+Databricks Buys Tabular
+-----------------------
+
+From the Wall Street Journal ( https://www.wsj.com/articles/databricks-to-buy-data-management-startup-tabular-in-bid-for-ai-clients-829e5bcf ) :
+
+Databricks is acquiring Tabular, a data-management startup that helps companies use a variety of open-source data formats, as the company looks to win artificial intelligence customers by making it easier for them to use their own data with AI. Databricks declined to specify how much it paid for Tabular, but said the price was between $1 billion and $2 billion. The sale is expected to close before July 31, and most of Tabular’s team of about 40 will join Databricks, it said.
+
+The deal comes as Databricks and other cloud data companies like Snowflake are on spending sprees for the same AI clients—enterprises looking to spend big on using AI for business processes and building their own AI capabilities. Both Databricks and Snowflake provide a platform for storing, organizing and analyzing data across multiple cloud providers. The AI boom has pushed chip giant Nvidia to meteoric heights, but it isn’t clear that all technology players with a role in helping companies use AI will benefit from the hype. For Databricks and Snowflake, that means waging battle over one of the most valuable assets in the AI race: business data…
+
+Founded in 2021 by Netflix veterans Ryan Blue, Dan Weeks and Jason Reid, Tabular makes a cloud storage technology that is built on Iceberg, an open-source table format for storing large amounts of data in data lakes, which allow companies to store all of their PDFs, spreadsheets and other information for processing later. Blue and Weeks were the creators of Iceberg in 2017.
+
+At first glance, this does not seem to really be about AI at all. For one, Tabular doesn’t actually have any customer data — that’s kind of the entire point!
+
+To back up, this was how Databricks CEO Ali Ghodsi described the idea of a data lakehouse in a Stratechery Interview ( https://stratechery.com/2024/an-interview-with-databricks-ceo-ali-ghodsi-about-building-enterprise-ai/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FuLWludGVydmlldy13aXRoLWRhdGFicmlja3MtY2VvLWFsaS1naG9kc2ktYWJvdXQtYnVpbGRpbmctZW50ZXJwcmlzZS1haS8jbGFrZWhvdXNlcyJdfSwiZXhwIjoxNzIwMTkwODI3LCJpYXQiOjE3MTc1OTg4MjcsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.B3Oiv7BhnFORTDLgw_86iislWvqMK_xl23IYv38OEzdKhAa05_X8G9nvqItdMMJA-Oj7bkwe5y1_-j1sKZBtUhstTpMQq-gUbqh-JJ3W1Yvqxugftk8cJnhKVt2SV2mG2fexFXvrAD3k0yFotKObaC8ZCc257PWzgvZiwZ_8fEPGUPFYMNBs9Zoa8BwzXF61BWzR_d2EYS5HDnxwvcoR021aF2On5KE5bmkipm0mnQirHI7raApRMbTGFNZX4OryYosuyZW4HzObBJi4DIsbX3i8WnyqlnmxuEfDBnr4eyzw4AvkUMfZSioMxFkCk4Tq7uEHKnoWk5S1RJy4WUE-jQ#lakehouses ) :
+
+Those that have structured data, structured data are things that you can represent in tables with rows and columns, those were in data warehouses and you could connect your BI tools, business intelligence tools, that lets you ask questions about the past from those rows and columns. “What was my revenue last week in different regions, by different products, by different SKUs?”, but you couldn’t ask questions about the future.
+
+Then at the same time, we had these future looking workloads, which were, “Okay, we have all kinds of text, images, and unstructured data that’s coming into the enterprise,” and that you couldn’t store in these structured tables, they cannot be represented as tables of rows and columns, those you stored in what’s called data lakes. But then the good news was if you knew what you were doing, you could ask questions about the future, “What’s my revenue going to be next week? Which customer is going to churn next?”. But these worlds were living completely separately and securing them was very hard and there was a lot of redundant stacks that were being built up at the same time.
+
+Our idea was how do we, 1) unify this and 2) how do we disrupt the existing ecosystem? How do we create the company that’s disruptive? And our idea was what if we have open source technology, everybody stores all their data, both the structured and unstructured data in the lake, which is just basically almost free storage by the cloud vendors, but we standardize the format in an open source format, so it almost becomes like USB — you can plug anything in there. Then we build an engine that can do both the BI stuff, backwards looking questions, and the futuristic AI stuff, and that’s what we call the Lakehouse, which is a portmanteau of data lakes and their warehouses.
+
+Databricks’ storage layer for data lakes, and ultimately its lakehouse product, is called Delta Lake; it is an open source project under the umbrella of the Linux Foundation, but Databricks is the primary contributor and user. Iceberg, meanwhile, is an alternative storage layer for data lakes, created by the Tabular team during their time at Netflix, and open-sourced under the umbrella of the Apache Foundation. Over the last year Iceberg has gotten an increasing amount of traction, prompting Databricks to work to support Iceberg in their own right.
+
+To that end, the first takeaway from this acquisition is that Iceberg has won the format war: Databricks said in their blogpost ( https://www.databricks.com/blog/databricks-tabular ) that they will be focused on interoperability between Delta Lake and Iceberg, which are both based on the Apache Parquet file format, but anyone not associated with Databricks ( like Snowflake ( https://www.snowflake.com/blog/introducing-polaris-catalog/ ) ) will likely standardize on Iceberg going forward.
+
+Tabular, meanwhile, is an Iceberg catalog; a catalog is a centralized repository that stores all of the metadata associated with the data in the data lake. To use a library analogy, Iceberg is the system of shelves, and Tabular is the card catalog. Tabular’s goal as an independent company was to provide a catalog-as-a-service for Iceberg, which customers would host on their own; this would mean that companies could store their data independently of where they got their compute.
+
+Last fall Blue wrote The Case for Independent Storage ( https://tabular.io/blog/the-case-for-independent-storage/ ) that explained this, while providing a useful history of the evolution of data storage:
+
+Databases are made up of two equally important parts: a storage layer and a query layer (compute). These two layers have always been tightly coupled because the capabilities and performance of the combined product rely on both working together. The storage layer is a system for organizing and tracking data — its responsibility is to create shortcuts and opportunities for fast operations. The query layer satisfies requests for data — it finds the most clever way to fetch, transform, and summarize and then executes that plan. The query layer relies on all the shortcuts the storage layer can provide to avoid needless work and return results quickly.
+
+This is how data storage worked on-premises; the problem is that storage and compute were coupled together, which presented big challenges in terms of scalability.
+
+Innovations in the storage layer create new shortcuts and opportunities that can kick off new eras in the industry. Take for example, column-oriented layouts that led to columnar and vectorized engines, or the technical separation of storage and compute that led to the latest generation of cloud-native warehouses that scale each independently.
+
+The ability to independently scale storage and compute was what drove Snowflake’s explosive growth; Databricks follows similar principles (even though it comes at the problem more from the data lake side as opposed to Snowflake’s data warehouse side).
+
+Open table formats are the next foundational innovation. These make it possible to build universal storage that is shared in place (zero-copy) between as many different compute frameworks as you need — from high-performance SQL engines to stream-processing applications and Python scripts.
+
+This is Iceberg (and Delta Lake).
+
+The pull of data gravity is strong and creates a natural lock-in that can be paralyzing. Creating a universal storage layer breaks down the silos and enables you to use the right tool for the job, and adopt new tools more easily. This flexibility is a major step forward, but it isn’t enough. You can build architecture that is flexible, but it’s hard. You research, choose components, wire them up, test it, deploy, and repeat for the next use case.
+
+This is not sustainable. Flexibility isn’t enough — open data architecture needs to be modular. High setup cost was fine when there were just two components, but with many compute options you need to be able to add to and change the architecture without excessive friction. The components should all fit together like Legos. Storage and compute products should be largely interchangeable and easily swapped, by using open standards like Iceberg.
+
+Access controls are a great example of an area where architecture needs to become modular. The status quo is to configure and enforce access policy in the query layer, but in a world of shared storage this makes no sense. It requires managing multiple copies of roles and permissions in query engines that have different models and capabilities. In Python and Spark, there’s no native enforcement at all.
+
+Databricks is solving this problem on Delta Lake with their Unity Catalog ( https://docs.databricks.com/en/data-governance/unity-catalog/index.html ) , which the company describes as “a unified governance solution for data and AI assets on Databricks”. It does exactly what Blue describes, but critically, as that description notes, it doesn’t just work for Lakehouses, but across all of Databricks’ products. To that end, note this bit in the introductory post to DBRX ( https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm ) , Databricks’ Open LLM product:
+
+DBRX was pretrained on 12T tokens of carefully curated data and a maximum context length of 32k tokens. We estimate that this data is at least 2x better token-for-token than the data we used to pretrain the MPT family of models. This new dataset was developed using the full suite of Databricks tools, including Apache Spark™ and Databricks notebooks for data processing, Unity Catalog for data management and governance, and MLflow for experiment tracking. We used curriculum learning for pretraining, changing the data mix during training in ways we found to substantially improve model quality.
+
+Note the usage of Unity Catalog for creating the model: it’s the bridge that ties everything together, and this is where we come to the AI angle on this deal. Snowflake announced at their developer conference this week ( https://www.crn.com/news/ai/2024/snowflake-data-cloud-summit-2024-the-biggest-news ) that their AI offerings are coming soon, but they are behind; Databricks has clear differentiation right now and I interpret this acquisition as the company moving as aggressively as possible to commoditize data storage as soon as possible, standardize on Iceberg, and incorporate Tabular’s Iceberg catalog capabilities into Unity Catalog, with the carrot being integration into Databricks’ AI offerings.
+
+In other words, Databricks sees AI as a differentiator, at least for now, but it is Unity Catalog that provides the lock-in (you can change catalogs — you own your data in Iceberg, which will work everywhere — but it will be a pain). Yes, they could probably build Tabular’s functionality on their own, but this acquisition will massively accelerate their support of Iceberg, give them significant influence on the project going forward, and, more importantly, smooth the path for customers moving to lakehouses (no more decision paralysis) with Databricks as the best choice for the computation layer — especially if you use the Unity Catalog.
+
+The End of Software?
+--------------------
+
+Chris Paik ( https://x.com/cpaik/status/1796633683908005988 ) wrote a post on Google Docs ( https://docs.google.com/document/d/103cGe8qixC7ZzFsRu5Ww2VEW5YgH9zQaiaqbBsZ1lcc/edit ) predicting the end of software; this is how it opens:
+
+To understand how software will change, we can benefit from studying how technology has changed other industries. History tends to rhyme, if you listen.
+
+Before the internet, media behaved very differently — it was expensive to create. You had to pay people to make content, edit it, and distribute it. Because content was expensive to create, it had to make money. And consumers paid — newspapers, magazines, books, cable, and pay per view. Warren Buffett famously loved newspapers — and who wouldn’t love a predictable subscription business with local monopolistic dynamics?
+
+Paik argues that when the Internet made the cost of content zero, user-generated content destroyed the business model of media; he then makes an analogy to software:
+
+Software is expensive to create. You have to pay people to create it, maintain it, and distribute it. Because software is expensive to create, it has to make money. And we pay for it – software licenses, SaaS, per seat pricing, etc. Software margins have historically been an architectural envy – 90+% margins and zero marginal cost of distribution.
+
+Software is expensive because developers are expensive. They are skilled translators – they translate human language into computer language and vice-versa. LLMs have proven themselves to be remarkably efficient at this and will drive the cost of creating software to zero. What happens when software no longer has to make money? We will experience a Cambrian explosion of software, the same way we did with content.
+
+It’s a thought-provoking post, but it’s also not an entirely new argument: similar cases were made about open source software. Why would any company pay when they could get software for free? And yet we saw the opposite: open source software enabled an explosion in software products that yes, people paid for. Just look at the example above: Databricks is built around an open source project (Apache Spark), and just made an acquisition predicated on another open source project commoditizing the storage layer (Apache Iceberg). There is still business to be done!
+
+Moreover, there is still business to be done in media, as well; the fatal flaw I see in Paik’s argument is akin to the labor theory of value fallacy, which argues that work should be compensated based on the effort exerted; in this case Paik says that media cost money because it was expensive to produce. In truth, though, media — or any other product, for that matter — costs whatever customers are willing to pay for it; the marginal cost is immaterial. Consider this newsletter: the email you are reading cost me effectively $0 on a marginal cost basis, and yet you are paying $15/month; why? Strictly speaking, because that is the price that I charged; more generally, because you believe the value of receiving these emails four days a week is worth paying $15 for.
+
+Now Paik is correct that traditional media was doomed; they were selling information, but were outcompeted by the Internet, and not just user-generated content: now anyone can subscribe to the New York Times, instead of their local newspaper, or pay for niche content like Stratechery. The latter two examples are not free to create, but they are free to distribute — that’s the marginal cost that matters. And, to that end, you can certainly see real challenges for software companies going forward: per-seat license fees, for example, make a lot less sense when AIs are delivering value by eliminating seats, not adding them. One of the advantages companies like Databricks have is that they already have business models based on usage.
+
+More broadly, what will remain are jobs to be done. Software needs to be stable and predictable and have infrastructure to run on; that is a lot easier to buy from an entity than to manage yourself. Businesses don’t want to be IT departments; they want to actually achieve business results, and any time spent trying to get stuff to work is a waste of resources. That doesn’t mean there won’t be upheaval — figuring out how to leverage AI on both the supplier side and the consumer side is going to be a years long project — and there very well may be a different set of winners on the other end, but as long as there are jobs to be done there will be opportunities selling software — whatever that software might look like — to do them (with a throat to choke when they fail).
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyMDE5MDgyNywiaWF0IjoxNzE3NTk4ODI3LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.IS7L3Ob8FVucmYNXVv-Jb7ReTC-HwXaf8bGqPoqgRX2P0C6_K-XdBAnUpr7nhLsUVDQPkuxTUyf4os2-1IMJD4y8BgGqDpJV6kGESAPgEQAmMT98fa_gUMnZdJq-oXGKF4AIO5HQG8BoaYc4nbKtCf_P-EDah9JD-GMG04QUmYJQqnU1B3PvOSGTaXflAFC_M-SuSy0UsIAf38kFyYzH1ztFQcX3RPctUVtvNQuzWdeiemQbVLbvjf-c6DcUeNUqoevnboTgW_WghNFtYlHVlNtN0skLBCRDV9uTenl3a-yIJw06-t76we6BzrUltoQr7-Y-kIGXJGkeeyrHLV6rMw%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

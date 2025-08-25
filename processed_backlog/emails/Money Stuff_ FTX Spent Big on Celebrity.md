@@ -1,0 +1,329 @@
+# Money Stuff: FTX Spent Big on Celebrity
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Mon, 26 Jun 2023 14:47:53 -0400 (EDT)
+**Source:** inputs/saved_emails/Money Stuff FTX Spent Big on Celebrity_Mon,_26_Jun_2023_14-47-53_-0400_(EDT)_188f908bdccc182b.eml
+**Processed:** 2025-08-24T19:13:08.536829
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        For a while crypto was probably the highest bidder for celebrity and influence. A ton of money flowed into crypto over the last few years. M
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      K5
+    
+  
+
+For a while crypto was probably the highest bidder for celebrity and influence. A ton of money flowed into crypto over the last few years. Margins were high; it’s not like crypto firms had to build a lot of factories and hire a lot of workers to make new tokens. Crypto went up based on social adoption, on widespread respectability, on the prospect of increasing legality. If you were a crypto firm in 2022, funneling gobs of money to politicians and former regulators and celebrities was a really good investment in making your firm popular and respectable, and it didn’t really compete that much with other investments. If you are Apple Inc., it is good to have regulators on your side and celebrities endorsing your products, but also you make phones and if you spend a lot of money making the phones better then customers will want more of them. For large parts of the crypto ecosystem that, uh, was not really an option. Influencer marketing and political lobbying were valuable and viable; making useful products that appealed to consumers in an immediate and intuitive way was not.
+And so here is  a New York Times story about some guys who were in the celebrity-and-influence business and were at the top of their game:
+
+A former aide to President Clinton, [Michael] Kives started working for Creative Artists Agency in 2003, representing actors like Bruce Willis and Arnold Schwarzenegger. At Mr. Kives’s 2019 wedding in Palm Springs, Calif., [Katy] Perry sang “Hava Nagila,” a Jewish folk song, and two writers on “The Office” delivered a roast.
+Mr. Kives started K5 in 2018. He was later joined by [Bryan] Baum, an entrepreneur who had co-founded a software company that was acquired by Lyft. K5 has invested in start-ups including SpaceX and Boring Company, which are run by Elon Musk, amassing a portfolio of 148 companies.
+As they built K5, Mr. Kives and Mr. Baum touted their connections, including with the billionaire financier Warren E. Buffett.
+  [1]
+
+
+Their firm, K5 Global, is an investment firm, and I suppose that running an investment firm is one way to monetize having a lot of connections to the rich and famous: Your connections can help with raising money and also with getting into hot deals; “I am good friends with Elon Musk” is one way to get differentiated (
+not always good!) investment performance in recent years. 
+But a better way to monetize those connections was apparently to  sell them to Sam Bankman-Fried:
+
+Mr. Kives, a Hollywood agent turned investor, played an unusual role in Mr. Bankman-Fried’s business empire: super connector. He and his business partner, Bryan Baum, helped the young founder cultivate relationships with Mr. Bloom, Ms. Perry and former President Bill Clinton, and offered introductions to a who’s who of celebrities and business leaders, from Leonardo DiCaprio to the governor of Saudi Arabia’s Public Investment Fund.
+The relationship was mutually beneficial. Mr. Bankman-Fried invested $700 million in Mr. Kives’s venture-capital firm, court records show, an extraordinary level of support for a fund with a short track record of start-up investments. Mr. Kives, the founder and face of the firm, and Mr. Baum each received $125 million as part of the deal.
+Mr. Kives, 42, and Mr. Baum, 34, were part of an under-the-radar network of middlemen who introduced celebrities and other power brokers to the once high-flying crypto industry. Before cryptocurrencies crashed last year, a drumbeat of endorsements from Hollywood stars, professional athletes, business titans and politicians created an aura of credibility around the volatile and largely unregulated market. ...
+On Thursday, FTX’s bankruptcy lawyers sued Mr. Kives’s firm, K5 Global, to recover the money that Mr. Bankman-Fried had invested. The $700 million was among the largest sums the FTX founder contributed to any group; the lawsuit said he had made the investment “to burnish his own political and social influence.”
+
+One hundred twenty-five million dollars! Each!  The lawsuit makes it clear that FTX paid them that money for some of their shares in their businesses, not as personal commissions, but it comes to about the same place. “No due diligence or financial analysis was conducted to support this inflated valuation” for the K5 businesses, says the complaint, “and Kives and Baum knew that this valuation was not well founded and was materially inflated.”
+The complaint is generally a fun read:
+
+Kives and Bankman-Fried first connected via email on November 16, 2021, when Kives helped introduce Bankman-Fried to world-renowned Australian musician Sia. Shortly thereafter, Kives began inviting Bankman-Fried to dinner parties with Wall Street titans, Academy Award winning actors, and NBA stars. On February 11, 2022, the Friday before the Super Bowl, Bankman-Fried attended a dinner party at Kives’s house alongside former high-ranking politicians, a centibillionaire CEO, and various other celebrities. The next day, February 12, 2022, Kives connected Bankman-Fried via email to a tech company CEO and his wife, a former U.S. Ambassador to the Bahamas.
+On February 13, 2022, Bankman-Fried attended the Super Bowl as Kives’s guest, along with A-list celebrities. Bankman-Fried was captivated by Kives’s star-studded circle of friends, and two days later raved in an internal document that K5 Global was “something of a one-stop shop for relationships that we should utilize.” Bankman-Fried noted that Kives and Baum wanted several things in exchange, including “[m]aybe us to invest in them,” and, as described below, such investments quickly followed.
+
+Alameda Research Ltd., Bankman-Fried’s trading firm, invested about $300 million in K5 entities and about $400 million in some K5 funds, which made venture investments with the money:
+As of September 18, 2022, K5X Fund I LP had invested $280.5 million. The vast majority—$252 million—was invested in just eight companies, two of which were SpaceX ($189.7 million invested) and The Boring Company ($23 million invested), both founded by Elon Musk, with whom Kives purported to be close friends. These two investments represented approximately 76% of K5X Fund I LP’s portfolio.
+And:
+
+Bankman-Fried noted in an internal document that the FTX executive had questioned whether Baum was acting in FTX’s best interest and had suggested that this “reek[ed]” of Baum “trying to nickel and dime FTX, or scam it a little bit . . . .”
+Despite these concerns, Bankman-Fried defended Baum, describing what he believed was the root of the issue: “Is Bryan an FTX employee, or a random 3rd party? The answer, really, is neither. The answer is that it’s sorta complicated and liminal and unclear. Bryan lives in the uncanny valley” (emphasis in original).
+
+Great. In bankruptcy, a company can in some circumstances get back money that it paid to other companies, if it “received less than a reasonably equivalent value in exchange for such transfer or obligation” and was insolvent at the time. And so the FTX bankruptcy estate is suing Kives, Baum and K5 for the money back, because it “did not receive reasonably equivalent value in exchange for” all the money it sent them. Which seems right! One hundred twenty-five million dollars! Each! For some party invites!
+On the other hand:
+	Ex ante, it is possible that trying to become friends with like Bill Clinton and Elon Musk and the head of the PIF and Sia was the best possible use of FTX’s $700 million. In the last few years, big crypto firms were in a race to achieve respectability and stability before they could be brought down by legal problems and/or by stealing all the money; FTX lost the race, but I’m not sure it was unreasonable for it to pour all of its resources into running it. What else was it gonna do?	Most of what FTX/Alameda did, as they slid into bankruptcy, took the form of spending real customer money on piles of magic beans. At the end, FTX was left with a   balance sheet consisting mostly of Serum and MAPS and FTT and other quasi-worthless tokens that Bankman-Fried made up. I suppose the stakes in K5 are similarly magic-bean-ish, but at least some of the K5 stuff was real! FTX put money into K5's funds and apparently got, like, $189.7 million worth of SpaceX,   which is up since FTX invested, which is more than you can say for FTT.	The complaint says that FTX paid for much of Kives’s and Baum's stakes in K5 with “$250 million in shares of FTX Trading Ltd. and West Realm Shires, Inc.,” which I’m pretty sure are worth zero now. So arguably it did get equivalent value for that. Magic beans for magic beans.
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Bittrex v. SEC
+    
+  
+
+I   like to   say that all cryptocurrency exchanges are doing crimes, and if you’re lucky your exchange is doing only process crimes. But what if it is? Consider this simple hypothetical fact pattern:
+	A crypto exchange has $1 billion of customer money.	It has stolen none of this money! Good job.	The exchange also has $50 million of its own money, which it very carefully keeps separate from the customer money, with no stealing allowed.	The US Securities and Exchange Commission fines it $100 million for operating an illegal securities exchange.	Now the exchange owes customers $1 billion and the SEC $100 million, for a total of $1.1 billion.	It has $1 billion of customer money and $50 million of its own money, for a total of $1.05 billion, which is less.	Its liabilities exceed its assets, so it files for bankruptcy.	Do the customers get paid in full, or the SEC, or neither?
+
+This problem comes up because “customer money" is a fuzzier concept in crypto than it is in traditional banking or securities brokerage. When you send dollars to a crypto exchange and use them to buy Bitcoins, and you look at your balance on the exchange's website and it says “1.57 Bitcoins” or whatever, you tend to think that those Bitcoins belong to you. Frankly the exchange would probably prefer that those Bitcoins belong to you, for marketing and legal reasons.
+But the situation is not particularly clear, and it does seem more likely that the exchange owns the Bitcoins, and just owes you an unsecured debt: If the exchange doesn’t have enough money to pay back all its creditors, you may not get back all your Bitcoins. “Because custodially held crypto assets may be considered to be the property of a bankruptcy estate, in the event of a bankruptcy, the crypto assets we hold in custody on behalf of our customers could be subject to bankruptcy proceedings and such customers could be treated as our general unsecured creditors,”  says Coinbase Global Inc., controversially but correctly. And in fact lots of crypto businesses have gone bankrupt in the last year or so, and it 
+does seem like the 
+legal result is mostly that the coins belong to the crypto businesses and the customers are unsecured creditors. Which might mean that they would have to share with the SEC.
+Of course the other question here is, would the SEC actually do this? Would the SEC fine a crypto exchange more than all of its own money for illegally trading securities, and go after customers for the rest of the money? On the one hand, it seems a little crazy: When it goes after crypto exchanges for operating illegal securities exchanges, the SEC’s goal is presumably to protect customers (by imposing on crypto exchanges the disclosure, conflicts, supervision, etc. rules applicable to securities exchanges), and it would be strange to take customer money as a penalty for customer-protection failings. On the other hand, I mean, surely the SEC’s broader goal is to clamp down on crypto, and sending a message to crypto customers like “your money is not safe at any crypto exchange, because the SEC might take it” has a certain deterrent effect.
+Anyway this is all a bit fanciful, but also a bit not. In April   the SEC sued Bittrex Inc., a crypto exchange, for operating an unregistered securities exchange. Bittrex responded by, among other things, shutting down its US business and 
+putting it into bankruptcy. But all of the customer money is there and accounted for, and Bittrex asked the bankruptcy court to let it process customer withdrawals normally. The Petition newsletter reports:
+The debtors filed a motion seeking entry of an order authorizing them to honor withdrawals of crypto by customers. Interestingly, the debtors stated: “there may be a dispute between the Debtors and their customers as to who owns the cryptocurrencies deposited by customers and stored in the Debtors’ wallets. The Debtors believe that they own the cryptocurrency assets. But, the proposed treatment, where customers will be permitted to withdraw cryptocurrencies equivalent to 100% of the cryptocurrencies they deposited as a distribution (subject to complying with information requests to ensure that all governmental rules and regulations are satisfied) avoids the expense and delay of litigation concerning ownership of those assets, while still providing customers, the vast majority of which are individuals, the ability to receive a 100% distribution by withdrawing the cryptocurrencies.”
+That is: The customers technically have an unsecured claim on their crypto assets, which are technically owned by Bittrex. But there’s plenty of money and not much debt so it’s fine, Bittrex will just give them their crypto back anyway.
+Except that the SEC is still suing Bittrex, and presumably expects to extract a large fine. And so the question arises: Can Bittrex give its customers back all their money, or does it have to hang on to some of that money to potentially use to pay SEC fines? While the bankruptcy judge did sign the order allowing Bittrex to give its customers their money back, the order explicitly said that it would not 
+prohibit the Debtors, any liquidating trustee, plan administrator or any creditor, including the United States, from recovering from any customer the value of any cryptocurrency assets or fiat currency such customer receives that exceeds the distributions provided by the plan, if such general unsecured creditor or subordinated creditor is not paid in full, and, in such event, the entry of this Order shall not constitute collateral estoppel or res judicata of any customers' entitlement to cryptocurrency assets or priority under any federal or state law.
+That is: If the SEC is not paid in full on whatever fines it ultimately extracts, it can go after Bittrex’s customers for the amounts they withdrew. As Petition says “Soooooo…customers can withdraw their crypto but that crypto is subject to a potential clawback in favor of the regulators? FUN!!” Again this is all a bit fanciful, and I cannot really imagine the SEC suing Bittrex’s customers for withdrawing their money. But it’s keeping the option open.
+
+  
+    
+      Due diligence
+    
+  
+
+I think sometimes about the similarities between these three businesses:
+	Journalism	Spying	Fundamental investment analysis
+
+The basic job of many journalists and spies, and of a certain sort of analyst, is to develop personal relationships and use them to find out useful information that no one else knows, and then give that information to your customers. If you are a journalist your customers are your readers — sometimes “the public,” but sometimes a rather narrower class of paying subscribers. If you are a spy your customer is your government. If you are an investment analyst, your customer might be your hedge fund (your boss and your clients), or you might be producing research for outside customers (basically, several hedge funds).
+The boundaries can be porous. There are some very niche financial publications, for instance. Consider this fact pattern:
+	You work for a publication.	You cultivate deep relationships with the employees of a publicly traded company.	They tell you that the company is cooking its books, and they smuggle out corporate documents proving it.	You write up your findings in a big detailed convincing report, put the headline “Company X Is a Fraud” on it, and publish it for your readers.
+
+If you work at Bloomberg News or the New York Times, and your readers are millions of subscribers and website visitors, this is pretty clearly “journalism,” and good. If you work at a firm called Specialized Stock Research and your readers are two hedge funds who each pay $1 million a year for your reports, this is pretty clearly “investment research,” and regulators might have serious questions about whether it is insider trading. Insiders at a public company leaked information to you because of your long-standing relationship, and then you passed that information on to people who traded on it: That sounds a lot like a crime.
+  [2]
+ I wonder sometimes what the boundary is: Is there some minimum number of subscribers, or some maximum subscription price, that makes a report “journalism” rather than “insider trading”?
+  [3]
+
+Similarly if your job is to work in China and find out stuff about Chinese companies and policymakers and report back what you learned to an American audience, you might be a spy (if the audience is the American government) or a journalist (American newspaper readers) or a due diligence consultant (American investors). But in each case your activities will be kind of similar, and subject to misinterpretation:
+
+Expert network consulting company Gerson Lehrman Group has become the latest due diligence firm to cut jobs in China as Beijing intensifies scrutiny of the sector on national security grounds.
+US-based GLG, which maintains a network of specialists that global investors can tap for due diligence on transactions, began trimming China staff last month, said several people familiar with the matter.
+The reductions come as Beijing cracks down on foreign consultancies this year, alarming international investors at a time of growing tensions between the US and China. The campaign has made operating in China more difficult for foreign companies, which depend on the consultants to help navigate the world’s second-largest economy. …
+Investors and foreign multinationals said the crackdown made performing due diligence for investments and procurement contracts with Chinese partners and suppliers difficult.
+
+Of course journalism is also sometimes misinterpreted as spying. 
+
+  
+    
+      Art shares
+    
+  
+
+If a painting is worth $55 million, how much is a tradeable one-millionth fractional share of the painting worth? Three possible answers:
+	$55, because $55 million divided by 1 million is $55.	More than $55, because there are more people in the world with $55 than with $55 million, and they will all want shares, and a deep liquid publicly traded pool of buyers will make the shares worth more than the painting itself.	Less than $55, because if you buy the painting for $55 million you can hang it over your couch, while if you buy a share for $55 you can’t hang anything anywhere.
+
+I don’t know which is right. Intuitively, it seems to me that owning an entire painting offers certain aesthetic and prestige benefits, while owning any fraction of a painting does not offer any fraction of those benefits: Hanging nothing over your couch is not one one-millionth as valuable, interior-decor-wise, as hanging a fancy painting over your couch. But I have been wrong before, and the rise of crypto and 
+non-fungible tokens does apparently teach the lesson that people will pay for, and derive some sort of prestige and aesthetic benefit from, an entry in a ledger saying that they own a tiny fraction of some object that they cannot touch or look at.
+Also there is a sort of soft no-arbitrage condition, which is that if the shares all trade at, say, $30, then somebody could buy them all for $30 million, own the entire painting, and hang it over her couch, at a significant discount to its real value of $55 million.
+  [4]
+
+Anyway  here’s this:
+
+A company named Artex is launching a roughly $55 million initial public offering of Bacon’s “Three Studies for a Portrait of George Dyer,” painted shortly after the couple met in 1963. Shares in the portrait will be sold for around $100 a piece and will list on a specially created art stock exchange based in Liechtenstein, giving regular investors the ability to buy and sell shares in a famous artwork on a stock exchange for the first time. 
+Trading is expected to begin in July. The portrait will then go on public display in a museum, rather than be squirreled away in a freeport — high-security, low-tax warehouses where wealthy collectors often store valuable works of art. 
+
+Part of the pitch here is about reducing transaction costs:
+Artex has big plans to float $1 billion worth of paintings over the next few months, each individual work with its own IPO. The company thinks supply will come from private collectors that are looking for a cheaper alternative to selling through auction houses like Sotheby’s and Christie’s, which can charge up to 20% in commission. Artex takes a lower cut of 3% of the IPO proceeds plus a small fee every time shares in the Bacon portrait change hands.
+I assume that if you are Sotheby’s or Christie’s, your pitch to collectors is “we will sell your painting to rich art collectors with whom we have cultivated relationships and who want to hang it in their houses, which will result in a price that is at least 25% higher than you’d get by selling fractional shares in your painting to online randos who can’t hang it in their houses.” I don’t know if that is correct, though, and it’s hard to measure without much data.
+Also:
+The Bacon portrait also should be a bit easier to cash in and out of as it will be publicly traded, and Artex will subsidize up to 3% of market value daily to provide liquidity.
+In general, “we will open up an exchange for X targeting retail investors, and we will also be a market maker on that exchange, buying X when retail investors want to sell it and selling it when they want to buy it” seems like a risky but usually lucrative business. (It’s a rough description of the modern 
+US retail stock brokerage business; it has also made a lot of fortunes in crypto.) If you are Sotheby’s, the big problem with $55 million paintings is that they trade infrequently (though at huge spreads). If you are Artex and you can succeed in making this Bacon painting trade dozens of times a day (though in small fractional size and at tighter spreads), and you get to be in the middle of each trade, that could be a good deal.
+Also:
+The first publicly listed artwork also raises the tantalizing possibility of a takeover of the Bacon portrait. If a billionaire collector or museum wants to swoop in with a bid, they must offer a 20% premium to the average closing price of the shares over the previous 20 trading days, according to rules set by Artex. A rival bidder can then step in and offer even more, though unlike with a typical corporate takeover, shareholders don’t get to vote on whether to accept the offer. 
+This is a weird mechanism? Does it imply that the painting ought to trade at a discount to its “real” value in private hands (because any private buyer would have to pay a 20% premium)? If you are a rich collector, would you rather buy a painting from Artex at a 20% premium to its trading price, or at a Christie’s auction with a 20% commission?
+  [5]
+
+
+  
+    
+      Things happen
+    
+  
+
+Goldman Taps Solomon Ally 
+Montag for Board Amid Disquiet in Ranks. Goldman Sachs Is 
+Cutting About 125 Managing Directors Globally. JPMorgan 
+Cuts 40 Dealmakers in North America as Part of Global Reduction. Junk-Rated Companies Accept Tougher Terms to Borrow. PacWest Sells Loans to Ares as 
+Private-Credit Firms Circle Banks. Moody’s warns of ‘serious challenge’ to $1.4tn private credit market. Apollo Leads $2 Billion  Private Financing for Semiconductor Firm Wolfspeed. Financial storm bears down on US  commercial real estate. Blackstone to   Sell Warehouses to Prologis for $3.1 Billion. Europe’s  bank resolution authority seeks ‘firepower’ to deal with collapsed lenders. Bundesbank may need recapitalisation to cover bond-buying losses. Samsung Heirs Boost Borrowings to $3 Billion, Facing $10-Billion 
+Inheritance Tax Bill. Companies Try New Strategy to  Stay in China: Siloing. Elite law firms flock to  dealmaking Saudi Arabia amid global M&A drought. AI Fails  Insider Trading Test. “The only fight outcome I can really promise you is that  both men will embarrass themselves and that if one of them has a distinct physical advantage over the other, it will not be pleasant to watch unless you enjoy watching beatings.” Bear breaks into house, steals pork chops, hangs out window.  Furby’s back.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] “In an interview, Mr. Buffett said Mr. Kives was a ‘name-dropper’ who ‘might pitch that he has a connection to me, but he doesn’t,’” hee hee hee. If I were Warren Buffett I would *love* to do “never heard of him” interviews.
+
+
+  [2] Actual US insider trading law *sort of* incorporates a “personal benefit test”: It’s illegal insider trading if the insider got some benefit from leaking to you, and not if they just did it out of public-spiritedness or whatever. (In fact the original Supreme Court case stating this rule looked a lot like my hypothetical.) This is a bit vague, though, and  the test is pretty much always satisfied these days: Just the personal benefit of feeling good about your relationship can be enough to satisfy the test. 
+
+
+  [3] To me the interesting example is  the Blaszczak case, where a “political intelligence consultant” wrote reports for a tiny group of high-paying hedge-fund clients about government decisions. He used government officials as sources for those reports, and was prosecuted for insider trading. If he wrote those reports for a larger group of clients who paid less, I think he would have just been a “journalist” and so not guilty of insider trading. (He was convicted, but the conviction was reversed on appeal for reasons that aren’t directly related to my questions about the case.)
+
+
+  [4] This does not work in reverse: If the shares trade at $100, there is no corresponding mechanism to capture the difference between the $100 million market cap and the $55 million real value. This is   true for corporate stocks too, by the way: If a company’s stock trades for much less than the present value of its cash flows, some bidder can buy all the stock, take over the company and capture the cash flows; if it trades for much more than the present value of its cash flows, short sellers can’t do anything to *force* it back to a realistic valuation. By the way, though, in corporate stocks there is at least a concept of a realistic valuation: “A company is worth the present value of its cash flows,” etc. With art a painting is worth what someone will pay for it. In the text I say that the painting is worth $55 million, as though that were a real fact about the world, but that’s not really right.
+
+
+  [5] Also can you manipulate this automatic-fixed-premium, no-vote mechanism? If liquidity isn’t great in a painting, can you start shorting shares of it to drive down the trading price, and then buy the whole painting cheap at a premium to the manipulated market price? Even better: Divide a $55 million painting into 1 million shares. Sell 500,000 of them in an IPO and keep the rest. They start trading on the exchange, but somewhat sleepily. You start dumping some more shares, sloppily: Say you sell 100,000 shares over 20 days, driving the average price down to $40. (You have sold 600,000 shares for total proceeds of about 30.7 million: $55 times 500,000 minus a 3% fee is $26.7 million in the IPO, plus $4 million from selling 100,000 shares at an average price of $40.) Then you put in a bid to buy the whole painting at $48 (a 20% premium to the trading price), no one outbids you in this sleepy odd market that you have manipulated, and you pay $28.8 million for the 600,000 shares you don’t own, a round-trip profit of about $1.9 million, minus some transaction costs. And you get the painting back.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cizvh1.5n8p/c9086df4.gif" alt="" border="0" /></a>

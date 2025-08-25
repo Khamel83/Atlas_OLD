@@ -1,0 +1,154 @@
+# Left Organizing Is in Crisis. Philanthropy Is a Major Reason Why. | The Nation
+
+**URL:** https://www.thenation.com/article/society/progressive-left-philanthropy-strategy/
+**Processed:** 2025-08-24T19:14:38.020571
+
+[Activism](https://www.thenation.com/subject/activism/)
+ / 
+January 16, 2025
+
+# Left Organizing Is in Crisis. Philanthropy Is a Major Reason Why.
+
+Progressive philanthropy lacks good strategy, so too many of our organizations are hollow—and that left us unable to prevent a second Trump term.
+
+[Nina Luo](https://www.thenation.com/authors/nina-luo/)
+
+Share
+
+Copy Link
+
+Facebook
+
+X (Twitter)
+
+[Bluesky](https://bsky.app/composer?text=Check this out: https://www.thenation.com/article/society/progressive-left-philanthropy-strategy/)
+
+Pocket
+
+Email
+
+![Hundred-dollar bills fly off into a sunny blue sky.](https://www.thenation.com/wp-content/uploads/2025/01/money-bills-flying-gt-img.jpg)
+
+(Kativ / Getty Images)
+
+In the wake of Trump’s reelection, many of us on the progressive left are reevaluating our work. We’re taking a hard look at the campaigns and movements we’ve given our lives to and asking ourselves, where did we go wrong? I’ve especially seen this humility from the leaders who have delivered some of the few wins we’ve had over the last decade—the formation of new unions, federal climate investments, student debt forgiveness, and the expansion of social safety nets in blue states. This is because—[unlike, apparently](https://crooked.com/podcast/exclusive-the-harris-campaign-on-what-went-wrong/), many Democratic consultants and campaign advisers—we know we’re in much bigger trouble than just a messaging misstep or a weak presidential candidate.
+
+In the last few decades, globalization and a shift in economic investment from manufacturing to knowledge sectors resulted in job loss and stagnant wages for most workers. Meanwhile, neoliberal policy destroyed the state-based social safety net those same workers once relied on. For the vast majority of people in this country, the bottom fell out. The [purchasing power](https://www.pewresearch.org/short-reads/2018/08/07/for-most-us-workers-real-wages-have-barely-budged-for-decades/) of the average hourly wage last peaked in 1978 (after adjusting for inflation). Since just last year, American homelessness has [increased by 18 percent](https://apnews.com/article/homelessness-population-count-2024-hud-migrants-2e0e2b4503b754612a1d0b3b73abf75f). Kamala Harris’s campaign offered some proposals aimed at the working class, but failed to make [economic insecurity](https://www.dissentmagazine.org/online_articles/exit-right/) (and people’s anger at the establishment) the number-one priority in its communications. An analysis performed by *Jacobin* of Harris’s speeches, rallies, press gaggles, and interview scripts [found that](https://jacobin.com/2024/11/harris-campaign-economic-populism-democracy) the campaign “pivoted away from the economy starting around mid-September…moving away from an adversarial stance toward elites.” Unsurprisingly, on Election Day we saw working-class voters [continue to move](https://thedig.blubrry.net/podcast/democratic-dealignment-w-keeanga-yamahtta-taylor/) to the Republican Party. According to [NBC News exit polls](https://www.nbcnews.com/politics/2024-election/democrats-lost-working-class-union-leaders-say-time-reconstruct-democr-rcna179284), non-college-educated voters were evenly split between the Republican and Democratic candidate “as recently as 2012,” as Alex Seitz-Wald observed for NBC, but in this cycle, “they broke 2-to-1 for Trump over Harris.”
+
+Rather than grappling seriously with how Democrats should respond to this macroeconomic crisis in the electorate, many pundits have blamed progressive nonprofit advocacy groups for pushing the Democratic Party too far to the left on identity politics, as Matthew Yglesias did in his [postelection analysis](https://www.slowboring.com/p/how-we-got-here-ce8). Yglesias is wrong, though, about “the groups” being the decision-makers on this. More often than not, Democratic operatives themselves, in their attempt to hold a heterogenous voter coalition together, were appealing to identity politics or non-economic issues—seemingly so that they could avoid giving into populist economic demands and [keep their big donors happy](https://www.nytimes.com/2024/10/14/business/harris-economic-plan-wall-street.html).
+
+#### Related Articles
+
+* ##### [What Was the Biggest Factor in Kamala Harris’s Defeat?](https://www.thenation.com/article/politics/why-harris-lost-economy-versus-racism/)
+
+  [Isabella M. Weber](https://www.thenation.com/authors/isabella-m-weber/) and [Elie Mystal](https://www.thenation.com/authors/elie-mystal/)
+* ##### [What Happened to the Democratic Party?](https://www.thenation.com/article/politics/democratic-party-dealignment-left-adrift-hollow-parties/)
+
+  [Chris Lehmann](https://www.thenation.com/authors/chris-lehmann/)
+
+However, Yglesias did get something right: “The groups” he refers to [do have](https://www.slowboring.com/p/how-we-got-here-ce8) a “demonstrated inability to actually drive votes or deliver constituencies.” And that is what progressive leaders must now reckon with. Many of our “groups” do not represent the multiracial working class, and besides labor, it’s not clear who on the left still does. Both political scientist [Theda Skocpol](https://prospect.org/power/associations-without-members/) and the late labor leader [Jane McAlevey](https://www.currentaffairs.org/news/2019/04/jane-mcalevey-on-how-to-organize-for-power) have documented the erosion of organized bases that are truly active. National organizations may claim memberships of hundreds of thousands or millions, but in reality include online petition signatures in that count. Local grassroots organizations may claim to represent the working people of a city or county, but struggle to turn out more than 30 people to an action. A “member” once was someone who attended weekly political education sessions and regularly canvassed their entire apartment building; now what counts as “membership” is hollow.
+
+In that sense, the progressive left is to blame for Trump’s reelection, because, no matter how hard the center or right make the conditions, it is still up to the left to organize and build the power of the working class and prevent the rise of fascism. Both the labor movement of the 1930s and the civil rights movement of the 1960s succeeded in building militant mass bases. How did we get to a 21st-century left that is basically divorced from that project? Several historical factors explain why, but a big one is the evolution of funding.
+
+[Union dues](https://prospect.org/power/2024-07-30-lefts-fragile-foundations/) resourced the industrial labor movement of the 1930s and 1940s, while a mix of Black churches, dues, and [modestly sized but radical foundations](https://ncrp.org/resources/freedom-funders/) funded the civil rights movement. Today, the majority of progressive nonprofits rely on [institutional philanthropy](https://prospect.org/power/2024-07-30-lefts-fragile-foundations/) (foundations and large-dollar donors) for their budgets. Whether we like it or not, funding is the primary incentive structure that makes and remakes the current American left ecosystem today, what determines which work gets funded (or defunded), how, where, to what scale, on what timeline. If the money backing that work is unstrategic, the work itself will also be unstrategic.
+
+#### Current Issue
+
+[![Cover of September 2025 Issue](https://www.thenation.com/wp-content/uploads/2025/08/cover0925.jpg)](https://www.thenation.com/issue/september-2025/)
+
+[September 2025 Issue](https://www.thenation.com/issue/september-2025/)
+
+The corrosive impact is much broader than the obvious case, e.g., when an organization ends a strategic program because a funder stops backing it. I’ve seen organizations prop up out-of-touch, losing issues or bills for years because they’re funded to do so; duplicative coalitions that fight with each other for the same reason; organizations forced to, for the worse, reshape 501c4 (electioneering) work into 501c3 (non-election-related) work; organizations unable to take on ambitious or experimental projects because they’re too overwhelmed working on existing but ineffective funded projects; and zombie “base-building” organizations that should have sunsetted decades ago continue to lumber along without purpose. For each of these problems, there is a funder directive behind it: The funder is narrowly invested in a siloed issue or bill; the funder wants to donate c3 money and not c4 money for tax reasons; the funder can’t tell which organization or coalition is best positioned to take on a project, so it funds competing or even contradictory efforts; the “zombie” organization’s founder is a funder darling even though everyone on the ground knows that the organization doesn’t do what it says it does anymore. Back when I was an issue campaigner, we often suffered from the fact that many of our organizations’ executive directors had “funder brain,” a phenomenon where an ED spends so much time packaging and spinning their work to funders that they could no longer be the disciplined, strategic leaders we needed them to be.
+
+The right’s own nonprofit ecosystem is also backed by big donors—and groups such as the Federalist Society and Americans for Prosperity are successful despite being largely philanthropy-funded. But the left has a fundamentally different and harder problem than the right. First, the material interests of the right’s donors are aligned with their agenda. Second, the right has a [culture of ruthlessness](https://en.wikipedia.org/wiki/Dark_Money_(book)), a total non-ambivalence about doing whatever it takes to win power, that the left lacks. Third, and most importantly, the right-wing project is to further entrench power and wealth in the hands of the few rather than the many. The right can win by using a primarily top-down approach, funding political, ideological, and media projects that capture institutions and shape people’s worldviews. The left must not only do that, but also build mass movements that strengthen people’s capacity to act together so they can take power back from the few. We are running uphill rather than downhill.
+
+Since we are the underdog, strategy is particularly important, because strategy allows us to discover the stronger opponent’s few weak points and [apply our strengths to their weaknesses](https://www.penguinrandomhouse.com/books/208668/good-strategy-bad-strategy-by-richard-rumelt/). This is a concept known as “strategic leverage.” Good strategy is not a vision or an inspiring speech, a list of all the activities we wish we could do, and not a template we fill out. Good strategy primarily relies on an accurate diagnosis of a problem that can simplify a complex landscape down into a few factors that can be leveraged. And when the left does this, we know we can win. The electoral left used good strategy when they ran candidates of color against white incumbents in majority-minority districts (such as when Representative Alexandria Ocasio-Cortez pulled off an upset victory in 2018). Organizations such as IfNotNow used good strategy when they mobilized Jewish communities to public action after October 7, relying on the [growing generational divide](https://www.nytimes.com/2023/12/05/us/jewish-american-israel-gaza-generation-gap.html) within Jewish communities on the issue of Israel-Palestine. New labor formations such as Starbucks Workers United used good strategy [when they took issue stances](https://www.thenation.com/article/activism/starbucks-gaza-israel-union-organizing/) that matched their workers’ and consumers’ sentiments better than Starbucks did.
+
+Unfortunately, complex structural change is hard. There are many myths about how change actually happens, including the liberal belief, the “[monolithic myth](https://democracyuprising.com/2021/02/12/its-a-myth-that-presidents-welcome-movement-pressure-and-biden-is-no-different/),” that great men in history (politicians and business leaders) have sole decision-making authority and change happens only by pressuring them into or out of policies. But the left also has its own myths. Too many of us believe in “magic bullet” theories of change, in which a specific narrow tactic—just worker co-ops or just progressive primaries, for instance—will save us. In reality, change is a process of successfully building an entire ecosystem, not just one thing, to compete with and replace the entire existing ecosystem. In [this approach](https://medium.com/@ayni.institute/movement-ecology-in-times-of-crisis-1c7b5e1b9cd1), we would not only win elections but also resource our elected officials with the communications and political infrastructure they need to pass bills; we would not only expand the state-based social safety net but also invest in economic alternatives such as community banks and land trusts; we would not only build new unions but also rebuild third spaces where people can form meaningful relationships with each other that we can then organize. How to fund and build this ecosystem strategically is the question.
+
+## The *Nation* Weekly
+
+*Fridays*. A weekly digest of the best of our coverage.
+
+Email
+
+By signing up, you confirm that you are over the age of 16 and agree to receive occasional promotional offers for programs that support *The Nation*’s journalism. You may unsubscribe or adjust your preferences at any time. You can read our [Privacy Policy here.](https://www.thenation.com/privacy-policy/)
+
+Sign Up
+
+Normally, the [warring camps of philanthropy](https://thegivingreview.com/strategic-philanthropy-goes-wrong-yet-again/) are quite entrenched in defending their practices. In this moment when the organizing side of the progressive movement is open to honesty and self-reflection, I wonder if those of us on the funder side—myself included—could be more open to reevaluating existing philanthropic approaches as well. We must grapple with the reality that the current models we have for philanthropy are not up to the task of incubating, developing and supporting strategy on the left.
+
+There are a few prominent models within left-wing philanthropy. Effective Altruism uses utilitarian calculations that seek to maximize the efficiency of capital in returning greater quality of life. What it claims to be its strength—being ideology-neutral—is actually its weakness, because it fails to recognize the fundamentally political nature of problems and thus overly focuses on addressing symptoms, rather than causes, of power imbalance. While EA often funds left causes, many EA philanthropists have also supported right-wing politicians, thinking they were making savvy deals. In doing so they were actually propping up on the front end the exact system whose symptoms they were trying to remedy on the backend. This is an example of how EA was never designed to produce good strategy: There is no strategic leverage in Band-Aid solutions.
+
+In another dominant model, [Strategic Philanthropy](https://histphil.org/2018/09/24/money-well-spent-in-historical-context/), funders set goals, create plans, and measure outcomes with metrics and benchmarks. In theory, this sounds good—funders are trying to apply a consistent logic to their giving and evaluate its success. However, in practice, the power dynamic between funders and grantees means grantees have a structural incentive to obfuscate the nature and results of their work. Frank sharing of information is critical to good strategy. A second danger lies in [mistaking a process for strategy](https://www.philanthropy.com/article/why-i-regret-pushing-strategic-philanthropy/?bc_nonce=754m2zqz6zdn3cef6j1bq8&cid=reg_wall_signup), as one of the founders of this giving framework, Hal Harvey, later admitted. Harvey laments philanthropists who “conjure best practices, metrics, milestones, key performance indicators, reporting requirements, and more. Each item may make sense on its own, but in total it’s nonsense. And in any event, doing all of this is still no substitute for a real strategy.”
+
+Finally, [Trust-Based Philanthropy](https://www.trustbasedphilanthropy.org/), which attempts to bring funders and grantees into deeper relationships through long-term grants, fewer grant restrictions, and fewer reporting burdens, is a vast improvement on some of the failings of previous models. However, especially in its most rudimentary forms, TBP still does not produce the conditions necessary for good strategy. TBP often makes funders feel good by having people of color, current/former movement leaders and various people with impacted identities serve as advisers, senior staff, board members, and decision-makers. We agree that people don’t have good strategy just because of an elite education or fancy job; similarly, people don’t have good strategy just because of an identity or past nonprofit job. The hyperfocus on representation of identities in TBP serves as a [release valve for white guilt](https://onlinelibrary.wiley.com/doi/full/10.1111/jopp.12290) but does not automatically translate to work that actually changes power relations or material conditions for people. In [*Elite Capture*](https://www.haymarketbooks.org/books/1867-elite-capture), academic Olúfẹ́mi Táíwò explains three challenges with this “politics of deference,” as often practiced in TBP. First, deference can be a form of abdication of responsibility. Second, deferring continuously, rather than struggling through principled disagreement, is actually antithetical to the kind of coalition-building politics we need to win. And finally, and most importantly, it misidentifies the problem as who gets to speak inside a room when the problem is what’s happening to the vast majority of people outside that room. Our ultimate duty is to build multiracial working-class power so we can win a world where philanthropy is no longer needed, not to make the institution of philanthropy somewhat more equitable. TBP helps us do the latter, but unfortunately, doing the latter in no way guarantees the former.
+
+All three camps struggle with the same basic problem: good strategy is really hard. Swapping algorithms (EA), metrics and best practices (Strategic Philanthropy), and one set of people for another in decision-making roles (TBP)—none of these things sufficiently create the conditions for a strategic left. Nor is it as simple as deriding the nonprofit industrial complex and renouncing philanthropy as a source of funding altogether. We need money to win. Some of that can and should come from [alternative revenue models](https://ssir.org/articles/entry/the_secret_of_scale), such as membership dues or selling a popular product at scale, as activist and entrepreneur Peter Murray described. But philanthropy isn’t going anywhere, and the left [shouldn’t leave power on the table](https://www.dissentmagazine.org/online_articles/money-power/) by rejecting it altogether.
+
+[Ad Policy](http://www.thenation.com/advertising-policy)
+
+Trump’s reelection should be a wake-up call. My challenge to my fellow funders is this: You, more than anyone else, shape the left ecosystem that is supposed to be strong enough to win over the right. All of us who have the power to move or influence the moving of money must reexamine our assumptions.
+
+So if what we’re doing isn’t working, what would?
+
+For my part, I am particularly interested in exploring how to build what long-time activist Marshall Ganz describes as “strategic capacity” across the entire funding process, between and within the money side and the organizational side. In his 2009 book [*Why David Sometimes Wins*](https://global.oup.com/academic/product/why-david-sometimes-wins-9780195162011?cc=us&lang=en&), Ganz defines strategic capacity as “the ability to devise good strategy,” which allows an organization to “take advantage of moments of unique opportunity.” He identified three conditions necessary to building strategic capacity: stronger motivation than that of the opposition, “better access to salient knowledge,” and “deliberations [that are] venues for learning.” The first condition is particularly challenging because our donors’ interests are not materially aligned with redistributive politics, but I believe and have seen that it’s possible to elicit a motivation among donors that overpowers even that of material interest. All people, even extremely wealthy people, want to live meaningful and purposeful lives, and that is a greater self-interest than even wealth accumulation.
+
+## Popular
+
+“swipe left below to view more authors”Swipe →
+
+1. ### Yes, Texas Representative Nicole Collier Was Under “House Arrest” in the Texas Capitol [Yes, Texas Representative Nicole Collier Was Under “House Arrest” in the Texas Capitol](https://www.thenation.com/article/politics/texas-nicole-collier-house-arrest/)
+
+   [Q&A](https://www.thenation.com/content/q-a/)
+
+   /
+   [Joan Walsh](https://www.thenation.com/authors/joan-walsh/)
+2. ### Andrew Cuomo Has Unmasked Himself as a Full-Blown Trumpist [Andrew Cuomo Has Unmasked Himself as a Full-Blown Trumpist](https://www.thenation.com/article/politics/cuomo-trump-new-york-mayoral-race-comments/)
+
+   [Jeet Heer](https://www.thenation.com/authors/jeet-heer/)
+3. ### “The Nation” Interviews Zohran Mamdani [“The Nation” Interviews Zohran Mamdani](https://www.thenation.com/article/politics/zohran-mamdani-new-york-democratic-politics/)
+
+   [Feature](https://www.thenation.com/content/feature/)
+
+   /
+   [Katrina vanden Heuvel](https://www.thenation.com/authors/katrina-vanden-heuvel/) and [John Nichols](https://www.thenation.com/authors/john-nichols/)
+4. ### Islam Through Western Eyes [Islam Through Western Eyes](https://www.thenation.com/article/archive/islam-through-western-eyes/)
+
+   [Feature](https://www.thenation.com/content/feature/)
+
+   /
+   [Edward W. Said](https://www.thenation.com/authors/edward-w-said/)
+
+I’m also interested in figuring out how to enable the second and third conditions Ganz identified for strategic capacity—proximity to the most important information and spaces for honest learning—in the donor community I’m building. To experiment with these two conditions, we are developing a [feedback loop](https://theleanstartup.com/principles) for validated learning, a process by which we can glean the most quality and accurate learning from each grant about how society-wide change actually happens, and how money relates to that change. We are still early days, but in the grant debriefs we’ve done with organizations, leaders have acknowledged they’ve been more forthright and reflective in our conversations not only compared to conversations with other funders but even compared to conversations inside their coalitions. A sign we’re actually getting to the heart of how structural change happens, and how money relates to that process of change, is that our internal takeaways often run counter to the publicly shared narrative of how and why the left won or lost something.
+
+We’ll see if we can continue to scale this work and our learning. It will require practicing a culture of inquiry, honesty, curiosity, and experimentation both with partner organizations and within donor communities. It will require transforming ourselves to be emotionally resilient so we pivot (not retreat) when our funding experiments fail. It will require developing our strategic analysis so that we are actually able to make good assessments, digest each learning cycle and integrate new, challenging knowledge into our larger theory of change. We start from the position that in the wake of neoliberalism and fascism, we don’t exactly know how to win a world where everyone is fed, sheltered, and cared for. But we’d like to try to figure it out. The left needs a model of philanthropy motivated fundamentally by rigorous learning. Only then will we develop a set of funders and partner movements with the capacity to do good strategy. And as the underdogs, only then will we win.
+
+[Keep Reading](#)
+
+* [Submit a correction](https://www.thenation.com/corrections?title=Left%20Organizing%20Is%20in%20Crisis.%20Philanthropy%20Is%20a%20Major%20Reason%20Why.&url=https%3A%2F%2Fwww.thenation.com%2Farticle%2Fsociety%2Fprogressive-left-philanthropy-strategy%2F)
+* [Send a letter to the editor](https://www.thenation.com/letters-editor-0/)
+* [Reprints & permissions](https://www.parsintl.com/publications/the-nation/)
+
+## [*Take a stand against Trump and support* The Nation*!*](\"/donate-website/?utm_medium=website&utm_source=Website&utm_campaign=2025-august-ednote&sourceid=1093243&ms=editors-note&utm_content=editors-note\")
+
+In this moment of crisis, we need a unified, progressive opposition to Donald Trump. 
+
+We’re starting to see one take shape in the streets and at ballot boxes across the country: from New York City mayoral candidate Zohran Mamdani’s campaign focused on affordability, to communities protecting their neighbors from ICE, to the senators opposing arms shipments to Israel. 
+
+The Democratic Party has an urgent choice to make: Will it embrace a politics that is principled and popular, or will it continue to insist on losing elections with the out-of-touch elites and consultants that got us here? 
+
+At *The Nation*, we know which side we’re on. Every day, we make the case for a more democratic and equal world by championing progressive leaders, lifting up movements fighting for justice, and exposing the oligarchs and corporations profiting at the expense of us all. Our independent journalism informs and empowers progressives across the country and helps bring this politics to new readers ready to join the fight.
+
+**We need your help to continue this work. Will you donate to support** ***The Nation*****’s independent journalism?** Every contribution goes to our award-winning reporting, analysis, and commentary. 
+
+Thank you for helping us take on Trump and build the just society we know is possible. 
+
+Sincerely, 
+
+Bhaskar Sunkara   
+President, *The Nation*
+
+##### [Nina Luo](https://www.thenation.com/authors/nina-luo/)
+
+Nina Luo is an organizer and political strategist with more than decade of experience organizing and leading dozens of campaigns of all kinds. Currently, she is a senior strategist at the Working Families Party building a new philanthropic model and community. Previously, she was Representative Alexandria Ocasio-Cortez’s political director. She can be reached by email at [[email protected]](/cdn-cgi/l/email-protection#d7b9beb9b6bba2b8efef97b0bab6bebbf9b4b8ba).

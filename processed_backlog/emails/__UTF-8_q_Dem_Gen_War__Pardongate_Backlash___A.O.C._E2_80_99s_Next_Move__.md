@@ -1,0 +1,188 @@
+# =?UTF-8?q?Dem_Gen_War,_Pardongate_Backlash_&_A.O.C.=E2=80=99s_Next_Move?=
+
+**From:** Abby Livingston <abby@puck.news>
+**Date:** Sat, 07 Dec 2024 01:30:20 +0000
+**Source:** inputs/saved_emails/=UTF-8qDem_Gen_War,_Pardongate_Backlash_&_A.O.C.=E2=80=99s_Next_Move=_Sat,_07_Dec_2024_01-30-20_+0000_1939ebd4ef124169.eml
+**Processed:** 2025-08-24T19:13:03.802887
+
+Welcome back to a special Friday edition of The Best & The Brightest. In tonight’s issue, a close look at how one of the House’s snooziest, and typically least controversial chores—reauthorizing the Farm Bill—has become the latest catalyst for the House Dems’ ongoing leadership shake-up. And stay tuned for a short excerpt from a recent conversation, presented by Meta, between two of my favorite Puck colleagues about the rise of A.I. and its impact on the media business.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+The Best & Brightest ( https://puck.news/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Image ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to a special Friday edition of The Best & The Brightest. I’m Abby Livingston.
+
+In tonight’s issue, a close look at how one of the House’s snooziest, and typically least controversial chores—reauthorizing the Farm Bill—has become the latest catalyst for the House Dems’ ongoing leadership shake-up. And stay tuned for a short excerpt from a recent conversation, presented by Meta, between two of my favorite Puck colleagues about the rise of A.I. and its impact on the media business.
+
+But first, Tara confers with political commentator Chris Cillizza and former Jill Biden press secretary Michael LaRosa about Joe Biden’s legacy and pardongate…
+
+Hunter & the Hunted
+
+Tara Palmeri: What kind of impact do you think Biden’s pardon of his son Hunter will have on his legacy? And what do you think of Biden’s presidential legacy in general?
+
+Chris Cillizza: Biden, of course, had to know at some level that this was going to affect his legacy, and not in a positive way. I do think the pardon impacts that, because of the way he got elected president after two failed attempts, saying that he was going to restore dignity, honor, and respect to the White House after Donald Trump desecrated it. And by and large, he did that. The problem is that one of the last things, if not the last thing he does as president, is pardon his son in this broad and expansive way that he said he wouldn’t do.
+
+Even though we suffer a little bit from recency bias, I think the sweeping
+nature of it, and the fact that he repeatedly said he wouldn’t do it, and the fact that he said he was going to be better, all combined into a sort of toxic legacy stew for him… The last year and a half, to me, have been very selfish. The decision to run again was a gigantic political mistake. Getting out of the race as late as he did, and then pardoning his son, are going to tarnish his political legacy and probably overshadow his legislative legacy.
+
+A MESSAGE FROM INSTAGRAM
+
+$(ad4_title) ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Instagram Teen Accounts: automatic protections for teens
+
+Parents want safer online experiences for their teens. That's why Instagram is introducing Teen Accounts, with automatic protections for who can contact teens and the content they can see.
+
+A key factor: Only parents can approve safety setting changes for teens under 16.
+
+Learn more ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Michael LaRosa: I’m beyond relieved for them as a family, and I’m glad they’re going to be able to put this behind them, move on, and start healing from it… but it’s a very selfish position that they put the rest of the party in. I think this is another example of the leader of the party really not doing any favors to his party because we’re going to be left to pick up the pieces when they leave.
+
+But from the legal aspect—I firmly believe that Hunter was being weaponized and that these two charges would never have been brought. The charges were politically motivated. And over the course of five years—longer than the Monica Lewinsky-Whitewater investigation—they yielded only two, first-time, minor offenses. Still, the politics is something separate, and I think the politics are bad. The American people made a
+deal with Joe Biden that we’d take him because we want to get rid of Trump; we wanted Biden to turn the page and pass the torch, and he didn’t do either.
+
+Listen to the full episode of Somebody’s Gotta Win by clicking here ( https://puck.news/podcast_episode/whats-left-of-joe-bidens-legacy-with-michael-larosa-and-chris-cillizza/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Dems’ Pitchfork Uprising ( https://puck.news/the-democrats-changing-on-the-guard-one-committee-at-a-time/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Dems’ Pitchfork Uprising ( https://puck.news/the-democrats-changing-on-the-guard-one-committee-at-a-time/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The House Agriculture Committee, along with Judiciary and Natural Resources, has become the epicenter of a generational revolution within the Democratic caucus as rising stars like Angie Craig and A.O.C. come after their party elders.
+
+ABBY LIVINGSTON ( https://puck.news/author/abby-livingston/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+ABBY LIVINGSTON ( https://puck.news/author/abby-livingston/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Just as the woebegone 118th Congress seems incapable of ending without a bang, amid an already combustible lame duck session ahead of Donald Trump’s return, a leadership battle over the House Agriculture Committee is quickly becoming Capitol Hill’s hottest schoolyard brawl. Democrats, still kicking themselves for not deposing an 82-year-old Joe Biden earlier in the cycle, are now fiercely debating how to re-energize their ranks with young blood. And the results have spilled out into public view.
+
+Two longtime House committee leaders, Raúl Grijalva (76) and Jerry Nadler (77), have already capitulated to more youthful challengers on Natural Resources and Judiciary, respectively. Among the last vulnerable ranking members still holding down their post is David Scott (79), a veteran of the Ag Committee, who
+faces serious threats on two fronts this month—from California’s Jim Costa (72) and Minnesota third-termer Angie Craig (52). But there’s a clear push underway to elevate Craig, a moderate swing-district member who’s portraying herself as a breath of fresh air. Should she prevail, it would represent a generational earthquake, making Craig one of the youngest Democratic committee ranking members in recent memory.
+
+The mutiny started, naturally, via one of the House’s most somnolent, and typically least-controversial chores: reauthorizing the Farm Bill. It’s a bipartisan behemoth that has to pass every five to seven years, and is thus laden with goodies for both sides: agriculture industry subsidies required by Republicans and SNAP food assistance money (formerly known as food stamps) favored by Democrats. But Congress couldn’t muster the legislative muscle to replace the bill that expired last year, and now a fight has broken out over which
+Democrat will lead the party on the committee.
+
+Ag, of course, is not normally where the hot action takes place. It’s one of those committee assignments that members dutifully accept as an obligation during their first or second terms, en route to bigger and better committees like Appropriations or Energy and Commerce. That is, except in a Farm Bill Year, when the old bill expires and a new one (or an extension) has to pass, with all those extra treats to be had. That’s when everyone wants to be on Ag—the nerve center of influence for steering some $700 million worth of taxpayer money.
+
+A MESSAGE FROM INSTAGRAM
+
+$(ad2_title) ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Instagram Teen Accounts: a protected experience for teens, guided by parents
+
+Instagram Teen Accounts are designed to address parents’ biggest concerns, providing automatic protections for who can contact their teens and the content they can see.
+
+The impact: Built-in limits give parents more peace of mind when it comes to protecting their teens.
+
+Learn more ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Relevant members tend to spend the Farm Bill Year attending hearings in corn fields and sheep shearing barns around the country, haggling over updates. This current Farm Bill Year has actually lasted for two years, since Congress only managed to pass a one-year extension in 2023. (Senate Agriculture chairwoman Debbie Stabenow, the departing Michigan Democrat, did not ultimately make it her legacy project to pass a new bill, as some had hoped.)
+
+And although it typically doesn’t register much beyond the members and interest groups that specialize in it, the bill is serious business—it deals with the food supply—and serious politics. “In the current economic climate, farmers and ranchers have really borne the brunt of some of the economic calamity, so I think it’s important we do whatever we can to protect them,” said
+Mark Williams, a lobbyist and former chief of staff to retired G.O.P. Ag chair Mike Conaway, who negotiated the last Farm Bill (formally the Agriculture Improvement Act) in 2018. “House and Senate Republicans along with a Trump Secretary of Agriculture and White House are really well situated to help those communities.”
+
+Funny Farm
+
+Ideally, Congress would wrap up a new Farm Bill in the lame duck, and House Ag chairman G.T. Thompson is widely seen as a steady hand. But everyone who works on agriculture policy has long expected this can to get kicked down the farm-to-market road—which risks introducing a whole new cast of characters, not least Trump himself, who has been known to jeopardize the passage of painstakingly negotiated bills via impulsive social media posts. (The last time Trump was president, the U.S.D.A. ended up spending billions of extra dollars to bail out farmers who were impacted by Trump’s trade wars.)
+
+Other players could include U.S. Secretary of Agriculture-designee Brooke Rollins and even R.F.K. Jr., who, some Farm Bill advocates fear, might meddle with the food supply if confirmed as H.H.S secretary, under the
+auspices of “Making American Healthy Again.” On the legislative side, the Stabenow retirement means that Amy Klobuchar is a frontrunner to join the incoming chairman, Republican John Boozman, in leading that chamber’s committee.
+
+Now, of course, there’s the added twist of a potential leadership shake-up on the Democratic side of the committee, which is looking more and more likely. Indeed, Scott’s political situation appears to have deteriorated in recent days. He reportedly missed ( https://punchbowl.news/article/house/scott-skips-two-candidates-forums/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at least two opportunities to speak with large voting blocs—the Progressive Caucus and the Congressional Hispanic Caucus. More worryingly, the Congressional Black Caucus has not come
+to his rescue. If there’s any entity with an interest in Scott, it might be the C.B.C., which is protective of its members’ committee leadership posts and places the most emphasis on seniority. Several C.B.C.-adjacent sources explained the caucus’s reticence to me this way: Damage is done to the seniority system when it’s abused. And there are clearly some very real doubts about Scott’s abilities.
+
+Historically, concerns about an aging chair were addressed through an empowered staff, and perhaps the second-ranking Democrat picked up the slack. But since the Biden debacle (and the R.B.G. situation… and the Feinstein mess…) Democrats are openly questioning the logic of leaving a declining politician in a powerful perch merely because that’s the way things have always been done.
+
+The first public sign Scott was in trouble came on November 21, when the committee’s next-most-senior Democrat, Jim Costa, launched a challenge. Costa
+has played the game as the typical ranking-member-in-waiting: First elected in 2004, he ran unsuccessfully for the Ag leadership slot in 2020. And as a Californian from a farming family, Costa will presumably get support from the largest Democratic state delegation. Also, this ain’t his first Farm Bill: It’s his third, and he served in the conference committee the last time a full Farm Bill passed, in 2018, and is running on his experience ( https://costa.house.gov/media/press-releases/rep-jim-costa-announces-bid-serve-ranking-member-house-agriculture-committee?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). As ranking member, Costa’s pitch to colleagues is rooted in expanding input over the Farm Bill to non-Agriculture Committee
+members and others who usually don’t have a say, per a source close to Costa.
+
+But Craig is a real wild card here. For one thing, she’s only on the committee on a temporary basis and, due to internal party rules, there are no assurances she will be assigned to the committee next term. Mostly though, the three-term congresswoman is really junior to be considered for ranking membership of any committee, let alone Ag, let alone amid negotiations over the Farm Bill—the last version of which passed a month before she was first sworn into the House. She was also one of the first House Democrats to publicly call on Biden to end his reelection campaign, last summer, and helped keep the “Dump Biden” movement from losing momentum over the Fourth of July weekend.
+
+In my conversations with a half-dozen or so House Democratic sources, I heard respect for Craig’s willingness to stick her neck out—often alone—on these issues. The reason such a
+junior member is in contention for this slot is because, besides Costa, other Democrats passed up the opportunity to challenge Scott. She’s also rightly perceived as politically savvy: As a vulnerable swing-district Democrat, Craig had a lot to lose with Biden dragging down the ticket. Instead, with Kamala Harris as the nominee, Craig ultimately boosted her reelect margin from 5 points in 2022 to 14.5 points in 2024, in a rough national climate for Democrats.
+
+Craig’s status as a “frontliner”—a swing-district Democrat—is another of her distinguishing features. Most frontliners do not last long enough in Congress to make it to committee leadership, and are therefore often kept out of many senior party deliberations. And she’s popular—even Republicans like her. Hill sources describe her as the kind of member who, while waiting for a meeting in a colleague’s front office, will chat up the staff assistants answering phones. She
+plays catcher on the congressional women’s softball team. And as an LGBTQ woman, she has extensive ties in that community as well.
+
+The Class of 2018
+
+Craig isn’t the only one rocking the boat. Now that House Oversight ranking member Jamie Raskin will succeed Nadler over at Judiciary, Alexandria Ocasio-Cortez (35) has announced her campaign for the Oversight slot, challenging Gerry Connolly (74), the seniormost member, who has coveted Oversight for years. (He lost two previous bids.)
+
+A.O.C. and Craig would seem to have nothing in common at first blush. A.O.C. is the face of the left; Craig is a largely obscure, moderate Midwestern Democrat. But both women, elected in 2018, are representative of the new class of Democrats who came to power in the immediate wake of Trump’s first victory: neither nostalgic for the “good old days” before Trump nor instinctively deferential to seniority.
+
+$(ad3_title) ( https://familycenter.meta.com/instagram-safety/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Next week, Democrats will fill out their steering committee, which wields influence over how committee slots and heads are chosen. The committee will hear presentations from all of the members vying for ranking member slots, and then decide internally on its leadership recommendations. (These are not binding recommendations; but then again, these are not normal times.) The ranking member vote will then be put to the entire caucus in a secret ballot the week of December 16.
+
+Should Scott lose his Ag perch, the next question will be who Democrats want to replace him—Costa, the classic mold of a ranking member, or a popular, but untested, younger rebel? If House Democrats want to hold on to the seniority system, they’ll make a point of ensuring that Connolly and Costa win their races. But if A.O.C. and Craig come to power, we are looking
+at a very different future for the caucus.
+
+The House is changing quickly. The once-unthinkable idea that an Ag committee member who’s never voted on a full Farm Bill could soon vault to the ranking position is starting to seem downright conceivable. This week, I asked a longtime Washington fixture and Craig ally if, 10 years ago, they could have envisioned any third-term congresswoman being elected the ranking member of any committee. Their answer was quick and unequivocal: “No.”
+
+And Finally, Something a Little Different…
+
+Before signing off, I wanted to spotlight my colleague Baratunde Thurston’s recent conversation with Puck’s resident sports expert, John Ourand, about the various ways that artificial intelligence is invading the sports landscape. The A.I. issue, of course, is top-of-mind for many on Capitol Hill, and this conversation series, presented by Meta, digs into how it’s impacting the industries we cover here at Puck. Stay tuned for my interview with Baratunde—about how A.I. legislation is creating unexpected bipartisan alliances—which we’ll publish in this space next week. But for now, here’s John and Baratunde…
+
+Baratunde Thurston: Obviously, A.I. is going to radically change so many things about our day-to-day lives, but many have considered sports as one possible arena—pun intended—that
+might be a holdout, just because the viewing experience is, fundamentally, about peak human performance. Do you agree with that?
+
+John Ourand: I agree, and I don’t think that’s going to change. The really high-end, important games—like the Super Bowl—are always going to have celebrity sports commentators, too. I don’t think anybody wants to hear an A.I. voice in those moments. But like athletes, the talent ecosystem on the production side is becoming a winner-take-all environment, and they’re going to find places to cut costs elsewhere. And A.I. is going to help on the customer-acquisition, retention, and advertising side, too.
+
+Where you’re really going to start to see this stuff being deployed isn’t the “game of the week” in the NBA; it’s a hypothetical midweek Bowling Green State versus Ohio Wesleyan basketball game that just so happens to be on air. That’s when they’ll mess around with different scripts, robot
+cameras, different ad insertions, etcetera, just to make it more automated. There are areas in sports that are ripe for A.I. to come in and make things easier, but I’m still skeptical, in the short term, that anything’s going to happen to any of the big events, especially the NFL. If you want to see the future in action, watch the games and leagues where broadcasters really need to cut costs and create value. That’s where they’re going to be more willing to start experimenting.
+
+Click here to read the full conversation. ( https://puck.news/how-ai-is-transforming-the-sports-business/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Hollywood P.R. Wars ( https://puck.news/rcpmk-lawsuit-against-ex-employees-is-a-weenie-move/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Hollywood P.R. Wars ( https://puck.news/rcpmk-lawsuit-against-ex-employees-is-a-weenie-move/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Unraveling a once-mighty P.R. firm’s suit against defectors.
+
+MATTHEW BELLONI
+
+Blazy-Chanel News ( https://puck.news/matthieu-blazy-to-chanel-who-will-replace-him-at-bottega/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Blazy-Chanel News ( https://puck.news/matthieu-blazy-to-chanel-who-will-replace-him-at-bottega/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Behind the scenes of Matthieu Blazy’s exit from Kering.
+
+LAUREN SHERMAN
+
+Stephen A. Deal Points ( https://puck.news/stephen-a-smith-backs-up-the-brinks-truck/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Stephen A. Deal Points ( https://puck.news/stephen-a-smith-backs-up-the-brinks-truck/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Decoding the true value of the historic ESPN deal.
+
+JOHN OURAND
+
+The Hegseth Sitch ( https://puck.news/if-pete-hegseth-withdraws-who-could-be-next/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Hegseth Sitch ( https://puck.news/if-pete-hegseth-withdraws-who-could-be-next/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Plus, the implications on other Trump appointees’ chances.
+
+TARA PALMERI
+
+swash divider
+
+Puck ( https://puck.news/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=the_best_and_the_brightest&delivery_id=dgT2xgYDAKvRKqrRKgGTnrzvqpGUTxMqTxc8KZQ=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

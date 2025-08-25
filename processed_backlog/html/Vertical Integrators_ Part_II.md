@@ -1,0 +1,429 @@
+# Vertical Integrators: Part II
+
+**Source:** inputs/old stuff/Docs/Vertical Integrators PartII_090424.html
+**Processed:** 2025-08-24T19:49:13.940235
+
+# Vertical Integrators: Part II
+
+*Welcome to the **341 newly Not Boring people** who have joined us since last week! If you haven’t subscribed, join **231,717** smart, curious folks by subscribing here:*
+
+[![](https://substackcdn.com/image/fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtransparent%26stroke%3D%25230c2427%26strokeWidth%3D3.6)Subscribed](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjoxNDg0NzIxMDksInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzI1NDUzODI4LCJleHAiOjE3MjgwNDU4MjgsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.XZPSBQ6IbllieBIRNjICp7aJRQUBbd5nIbc14612i-Q?)
+
+**Today’s Not Boring is brought to you by… [Attention](https://substack.com/redirect/9b83a62d-41da-4c1d-9a2a-360d12ca1ddf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**
+
+[![](https://substackcdn.com/image/fetch/w_402,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5e3d10d-a496-44c1-b4f2-cd68d7148c98_1600x394.png)](https://substack.com/redirect/9b83a62d-41da-4c1d-9a2a-360d12ca1ddf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+***Close More Deals with Attention***
+
+*[Attention](https://substack.com/redirect/9b83a62d-41da-4c1d-9a2a-360d12ca1ddf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is an AI-powered call recorder trusted by sales teams at industry giants like Snowflake, Datadog, and Stripe.*
+
+*It’s hard out there. If long sales cycles and budget cuts are holding you back, you’re not alone. [Attention](https://substack.com/redirect/9b83a62d-41da-4c1d-9a2a-360d12ca1ddf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) can help. Attention’s AI captures and analyzes every sales conversation, revealing how and why your deals succeed.*
+
+*[Attention](https://substack.com/redirect/9b83a62d-41da-4c1d-9a2a-360d12ca1ddf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) not only identifies winning strategies for your team but also empowers you to act on them. With Attention, you can automate key workflows based on customer interactions:*
+
+* *Generate personalized follow-up emails after calls*
+* *Populate your CRM with crucial deal information*
+* *Alert stakeholders to potential churn risks*
+* *Create coaching scorecards for your sales reps*
+* *Send weekly executive reports on deal outcomes*
+
+*Unlike other tools that merely provide insights, Attention delivers both insights and the actions needed to close more deals. Everyone wants to make more sales. Attention is how the best teams do it.*
+
+[Try Attention Today](https://substack.com/redirect/9b83a62d-41da-4c1d-9a2a-360d12ca1ddf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Hi friends 👋,
+
+Happy Wednesday! We are back in Fall Mode.
+
+Sending this one out a day late because of Labor Day and because the more I write about this topic, the more I want to make sure I give it the thought it deserves. This Vertical Integrators series is an attempt to pull together a bunch of things I’ve written over the past year or two into one coherent framework, and Part II was full of “holy shit, it actually aligns with the theory” moments for me. I hope I convey that well.
+
+I’m also going to be expanding it to at least three parts, because while I want to cover a lot about Vertical Integrators, as I started writing this one, I realized that a critical question to answer before going into specifics is “Why Now?”
+
+Let’s get to it.
+
+(Click that 👆 to read the full thing online)
+
+[![](https://substackcdn.com/image/fetch/w_2416,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bd4c3a0-d6b7-423b-9753-35a228a53ea7_1208x608.png)](https://substack.com/redirect/cd82da47-55da-4631-bad9-e3d9dd9720cf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Before Chris Power started [Hadrian](https://substack.com/redirect/1cf3c1b5-d15b-4d61-b4fe-3d12f75f2ac9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), he tried two different approaches to fixing manufacturing.
+
+As the head of growth for an Australian startup called Ento, a SaaS platform that used data science to help blue-collar businesses with shift-based workforces better track, schedule, and balance their labor, he saw that the company’s software produced 8-15% efficiency for its customers. Not bad, except that theoretically, they should have seen 50-60% gains.
+
+The problem was, you can sell a company software, but you can’t force them to use it to its fullest extent.
+
+[![](https://substackcdn.com/image/fetch/w_2092,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01782294-cc8b-4779-b723-5bf2c1915962_1046x560.png)](https://substack.com/redirect/47c4dce4-1583-4b46-b344-48051abb5b47?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+But what if you owned the company?
+
+After Ento, Chris had caught the industrials bug, and more specifically, he realized that there was an enormous opportunity in advanced manufacturing. It was critically important, fragmented, and the owners of the small shops on which the industrial base relied were aging out.
+
+So he flew to America, locked himself in a hotel room in Texas, cold called hundreds of plant managers around the country, and emerged with the idea for ADSC, a small rollup fund that would acquire strategic manufacturing plants in the aerospace and defense supply chain and make them more efficient with technology.
+
+Owning the manufacturing plants would solve the issue he faced at Ento: if he ran the place, he could force his employees to use various pieces of software that would help them run the businesses more efficiently. With improved EBITDA across a previously-fragmented portfolio of small shops, he could eventually turn around, sell the portfolio to a larger private equity fund or strategic buyer, rinse, wash, and repeat.
+
+Chris raised the fund, and had letters of intent out to a number of targets, when he realized that this approach wouldn’t actually solve the real problem, either. Financial engineering could make him rich personally, but it wouldn’t help make parts for aerospace and defense faster and cheaper at enough scale to make a difference.
+
+[![](https://substackcdn.com/image/fetch/w_2092,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab7683c5-56da-4f9d-8602-7d062dc17290_1046x560.png)](https://substack.com/redirect/aa96fd11-c928-4ba3-80bb-a6f3864c1ec7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+As Chris explained to me when I wrote a [Deep Dive on Hadrian](https://substack.com/redirect/1cf3c1b5-d15b-4d61-b4fe-3d12f75f2ac9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) in April 2022, “I ended up deciding that **the only way to really fulfill the mission was to go back and rebuild the technology from scratch, to rebuild the culture from scratch**.”
+
+In other words, to make parts better, faster, and cheaper, Chris would have to build a **[Vertical Integrator](https://substack.com/redirect/63944d9c-0406-4e58-86a7-6967f949e15f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**.
+
+Last week, we defined Vertical Integrators as companies that:
+
+1. Integrate multiple cutting-edge-but-proven technologies.
+2. Develop significant in-house capabilities across their stack.
+3. Modularize commoditized components while controlling overall system integration.
+4. Compete directly with incumbents.
+5. Offer products that are better, faster, or cheaper (often all three).
+
+If you haven’t read [Part I](https://substack.com/redirect/63944d9c-0406-4e58-86a7-6967f949e15f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) yet, you should do that before reading this one. The big takeaway is that “**Aggregators won the Internet by leaning as hard to one side of the business model spectrum as possible; Vertical Integrators will win the physical world by leaning as hard to the opposite side as they can.”**
+
+There is a set of problems that are information problems – they can be solved with software.
+
+There is another (much larger) set of problems that are physical problems – they cannot be solved with software alone. They require physical solutions, often augmented by software.
+
+Hadrian is a perfect example to study, both because as it stands, it’s a textbook Vertical Integrator, but also because it shows how tempting it is to try to use software to solve the problem. Even the founder of one of the most promising Vertical Integrators turned to software first. When that didn’t work, he built a *system* involving hardware, software, and humans.
+
+As I wrote in that Deep Dive, “It **automates what can be automated**, and **hires and trains humans to do what humans do best**, and **coordinates all of it with software.”**
+
+It seems to be working. Hadrian is [worth](https://substack.com/redirect/843a7607-9cbd-4392-a442-70eca80fbdc1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) roughly $500 million expects to reach $30 million in revenue this year as a three-year-old company.
+
+When I started writing Part II, my plan was to leave the Hadrian example at that: as an example of the fact that software alone can’t fully solve problems in the physical world, that software is not the answer, as much as founders or investors would like it to be given the relative ease of building software and the potentially high margins once you do.
+
+But one of the fun things about sending this essay in parts versus all at once is that I got a lot of good feedback after Part I that I can use to make this essay smarter and more nuanced than it would have been otherwise.
+
+One particularly insightful comment came from [Carter Williams](https://open.substack.com/pub/notboring/p/vertical-integrators?r=1ftlg&utm_campaign=comment-list-share-cta&utm_medium=web&comments=true&commentId=66956816), who worked for the CTO at Boeing in Phantom Works after doing graduate work on vertical versus horizontal integration at MIT. He pointed out that, as with most things, the need for vertical versus horizontal innovation moves in **cycles**. As he summarized: “Markets go vertical to innovate product, horizontal to reduce cost and scale. Back and forth over a 40-50 year cycle.”
+
+Vertical integration, in other words, is not always the right approach in a given industry. If existing products are “good enough” for customers, companies compete on the basis of cost, convenience, or customization, which favors more modular architectures and horizontal specialization.
+
+If manufacturing were humming in America, Chris may have been able to build a good business selling software to make it hum a little more cheaply or faster. But manufacturing in America wasn’t humming, it was breaking down, so he had to rebuild a new system from scratch.
+
+Carter’s comment led me down a rabbit hole, and expanded the scope of this essay. We’re going to need to do it in at least three parts.
+
+Today, in Part II, we’re going to focus on one of the most important questions to ask of any startup – **why now?** – at economy scale.
+
+Why are we seeing more companies – across industries as diverse as manufacturing, energy, aerospace, defense, mining, and housing – choose to vertically integrate to create entirely new capabilities instead of simply improving existing capabilities now?
+
+The implications are massive for founders and investors. If you think the existing system simply needs to be improved, you might want to build or invest in the types of companies that can improve it.
+
+**But if you believe that we’re in a moment in which systems need to be rebuilt, then you will want to build or invest in a smaller number of Vertical Integrators that can handle as much complexity as is needed to pull their industry into a new and better way of operating.**
+
+As you might have guessed, I believe we’re in one of those moments.
+
+### **The Theoretical Why Now**
+
+There are times for modularization and times for vertical integration. Neither is good or bad, right or wrong. The predominance of one form over another in a given industry lays the groundwork for the emergence of the other.
+
+IBM’s vertically integrated, mainframe-centric approach gave way to the modularized personal computer industry, with Windows running with equal ease on Dell or Compaq hardware, as one of many examples.
+
+Vertical integration is typically the dominant strategy when industries are in their early stages or undergoing significant transformation, when market structures are unclear, supply chains are underdeveloped, and new technologies are emerging. Companies that can control more of the value chain can introduce new products that the market needs faster and more efficiently.
+
+As industries mature, modularization typically prevails. It allows for specialization, flexibility, and cost efficiency. Companies typically focus on specific parts of the value chain, and rely on partners for the rest.
+
+Then, the system gets increasingly complex and fragile over time, and is unable to respond to changing conditions quickly enough, necessitating a new wave of vertical integration.
+
+You can see this pattern play out within specific industries, and even within specific companies, over time. Carter commented on both the industry level – “In Clay's context, if the market is seeking new features/product, vertical takes off. If price, horizontal takes off” – and the company level:
+
+> *1st generation leadership (Musk, Bill Boeing, James McDonnell, Palmer Luckey) are vertical system integrators. Then the 2nd generation shows up. Who are process innovators. They reduce cost. They modularize. They subcontract. All the time looking awesome because they made the 1st generation lower cost and better. Then the 3rd generation shows up. They are product innovators, or losers. Creative Destruction takes off. The incumbent resets or gets destroyed.*
+
+He pointed me to the work of James Utterback and William Abernathy, who in 1975 co-authored a paper titled By looking at a study of 120 firms, they found that **product innovation** is initially dominant but gradually gives way to **process innovation** as the product design becomes standardized and firms shift their focus to improving production efficiency. As everything that can be squeezed out of a particular process has been, the rates of both product and process innovation trend towards zero.
+
+[![](https://substackcdn.com/image/fetch/w_1676,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9b15602-700f-4055-b2a2-68aa32568c7e_838x534.png)](https://substack.com/redirect/cef2ea9e-f366-41fa-84e1-3fb7324c0df4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Abernathy & Utterback, 1975*
+
+So, within firms and industries, vertical integration occurs in the early stages when a new product is needed, and over time, those firms and industries shift to producing that product more efficiently, which often means modularizing, and overall innovation drops. Either incumbent firms rediscover their innovative DNA and develop new products and processes to meet current needs with current technologies, or a new entrant will.
+
+So far, pretty standard stuff. Firms are born, grow, and die, and new ones replace them.
+
+What’s more interesting is this:
+
+**The pattern plays out at the level of the overall economy, as well. There are periods during which the old way of doing things dies, and a new one is born. Identifying these turning points is unbelievably important for founders and investors, and deeply underappreciated.**
+
+This is an old idea.
+
+In 1926, a Soviet economist named Nikolai Kondratieff wrote *[The Long Waves in Economic Life](https://substack.com/redirect/0c4124e9-37b0-4f0e-ac4f-6cb291cd7cbd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, in which he observed, “There is, indeed, reason to assume the existence of long waves of an average life of about 50 years in the capitalistic economy.”
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff55359a2-0a78-4724-bff2-5b88bd9b6c67_908x628.png)](https://substack.com/redirect/73ba48e1-8a3b-418b-83db-cfad6dbebb91?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Kondratieff admitted that what exactly drove these waves was an unanswered question, concluding: “In asserting the existence of long waves and denying that they arise out of random causes, we are also of the opinion that **the long waves arise out of causes which are inherent in the essence of the capitalistic economy.** This naturally leads to the question of the nature of these causes.”
+
+A little over a decade later, in 1939, Austrian economist Joseph Schumpeter named these supercycles after Kondratieff, christening them “Kondratieff Waves,” and set out to discover the nature of their causes.
+
+In *[Capitalism, Socialism, and Democracy](https://substack.com/redirect/e143943a-a24e-4394-a9c4-2c501c3bb216?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, Schumpeter argued that innovation and entrepreneurship are the key drivers of these cycles, and illustrated his theory of **Creative Destruction** with one of my favorite all-time quotes:
+
+> *But in capitalist reality as distinguished from its textbook picture, it is not that kind of competition which counts but the competition from the new commodity, the new technology, the new source of supply, the new type of organization (the largest-scale unit of control for instance)—**competition which commands a decisive cost or quality advantage and which strikes not at the margins of the profits and the outputs of the existing firms but at their foundations and their very lives.***
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F09a13121-4cc1-4923-97e3-0a4e6365c742_908x390.png)](https://substack.com/redirect/b406272d-4a1a-4067-807d-d0e240f09cb4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+This is what I’m talking about! Not mere incremental improvements, but direct competition, old against new.
+
+But what was driving all of that newness?
+
+More than half a century later, right after the Internet bubble burst a Venezuelan-British researcher named Carlota Perez, published her seminal work: *[Technological Revolutions and Financial Capital: The Dynamics of Bubbles and Golden Ages](https://substack.com/redirect/c217b58d-0306-40f4-8ae0-49f5409604e1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*.
+
+Perez built on Schumpeter’s work with a focus on **technological revolutions**. In her work, she identified *Techno-Economic Paradigms* that follow a pattern of installation (driven by financial capital) and deployment (driven by production capital), leading to surges of technological change and subsequent economic transformation. If you’ve read Not Boring, or [Stratechery](https://substack.com/redirect/7bf13a2e-2a09-4106-a860-0703e6049f8a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) or [Reaction Wheel](https://substack.com/redirect/ea810a99-9683-42cb-bcd9-87eb6c0f9972?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) or any tech strategy blog, you’ve certainly seen this chart:
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c8b9035-38f2-4ff4-b93c-562c91f0a294_908x515.png)](https://substack.com/redirect/d1920978-2369-4097-8d45-f4ed15ea5ee0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Carlota Perez’s Life Cycle of a Technological Revolution via Reaction Wheel*
+
+According to Perez, each new Techno-Economic Paradigm (TEP) is kicked off by an **Irruption**, when a breakthrough technology or, more commonly, system of related new technologies, emerges and causes the disruption to existing systems, many of which, per Perez and Schumpeter, were already at risk of crumbling in the old paradigm. Or, as Jerry Neumann wrote in *[The Deployment Age](https://substack.com/redirect/ea810a99-9683-42cb-bcd9-87eb6c0f9972?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)* (emphasis mine):
+
+> *When the new technological system starts to promise commercial opportunities, we have reached the ‘irruption’ phase of the cycle. At this point the economic logic of the new system is starting to become evident and there is a promise of a new ‘Techno-Economic Paradigm’ (TEP). **The techno-economic paradigm shows a way of using the new technology to make businesses more efficient and profitable, and so more competitive than existing businesses.** But existing businesses have a techno-economic paradigm of their own, the one associated with the previous technological revolution, and they have a lot invested in the old way of doing business. **So adoption of the new technologies is slow at the beginning and incumbents resist it.***
+
+That is a long quote, but if you just skipped over it, go back and read it, because it lays the groundwork for so much of what I’m arguing in these Vertical Integrators essays.
+
+1. There are certain periods during which a large portion of the economy undergoes a transformation, driven by a number of technological innovations that prove to be connected in hindsight.
+2. During these periods, the old systems fail to adapt quickly enough and crumble, creating an opportunity for new entrants to build businesses that integrate the innovations to build new and better products at lower costs and higher margins.
+3. These periods favor Vertical Integrators over modularized suppliers.
+
+**The observation that there is currently an increase in Vertical Integrators across a number of seemingly unrelated industries tracks with the theory, and points to the fact that we may be at an Irruption at the beginning of a new Techno-Economic Paradigm.**
+
+If that’s true, history would suggest that we are in the period of the cycle during which its largest companies will be founded.
+
+This also tracks with Peter Thiel’s observation in Part I that the two ways to make money from new things are software and “complex, vertically-integrated monopolies,” because complex, vertically-integrated monopolies emerge out of necessity during periods of Irruption and cement their status as that Techno-Economic Paradigm’s biggest winners.
+
+Roughly, **the Installation Period favors Vertical Integrators and the Deployment Period favors modularized suppliers.**
+
+Historically, the biggest winners of each Techno-Economic Paradigm have been the early Vertical Integrators, not the modularized suppliers who come afterwards. Interestingly, there seems to be a pattern that one or two companies founded *before* each of the TEPs and a couple founded immediately *after* the date Perez chooses as its starting point are the largest companies:
+
+**Age of Steel, Electricity, and Heavy Engineering (1875):** Siemens (1847) then AT&T (1885), Westinghouse (1886), General Electric (1892), Carnegie Steel (1892)
+
+**Age of Oil, the Automobile, and Mass Production (1908):** Standard Oil (1870) then Ford (1903) and General Motors (1908)
+
+**Age of Information and Telecommunications (1971):** IBM (1911), Microsoft (1975) and Apple (1976)
+
+Time-wise, we are currently in the 50-60 year sweet spot identified by Kondratieff, Schumpeter, and Perez. The last major technological Revolution occurred in 1971, 53 years ago.
+
+If we’re at the Irruption point of a new Techno-Economic Paradigm, one defined at the highest level by the integration of digital and physical technologies, the predecessor giants may be companies like NVIDIA (1993) or SpaceX (2002), companies that enabled and heralded the new TEP, respectively.
+
+It’s hard to know from inside the moment whether this actually is a new TEP. Time will tell if this is one of the big ones – the [Techno-Industrial Revolution](https://substack.com/redirect/77297294-05a0-487a-b1f0-64d2259ee9da?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) – but it certainly seems as if the opportunity for many of these Vertical Integrators exists as a direct result of the fact that the incumbents they are trying to replace have reached the end of their own techno-economic paradigms.
+
+What would this look like?
+
+### **Signs of the End**
+
+Admittedly, the story I’ve told so far is a convenient one: we are entering a new Techno-Economic Paradigm, massive companies are going to be created, and I know what they look like!
+
+So to check myself, I opened up a fresh window and asked [Claude](https://substack.com/redirect/8ec2eb3c-4d03-40a7-a36f-a6b166457add?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), “According to Schumpeter and Perez, what happens to incumbents at the end of a Techno-Economic Paradigm? What signs would there be that we're at the end of one?”
+
+I’ll include its response in full so you don’t think I’m cherry picking.
+
+*According to Joseph Schumpeter and Carlota Perez, at the end of a Techno-Economic Paradigm, incumbent firms and industries often face significant challenges:*
+
+* ***Creative Destruction**: Schumpeter emphasized the process of "creative destruction," where old economic structures are destroyed to make way for new ones. Incumbents who fail to adapt may be replaced by new, more innovative firms.*
+* ***Technological Obsolescence**: Existing technologies and business models become outdated as new, more efficient alternatives emerge.*
+* ***Loss of Competitive Advantage**: Incumbents may lose their market dominance as new entrants leverage emerging technologies and business models more effectively.*
+* ***Restructuring or Decline**: Some incumbents may successfully restructure and adapt to the new paradigm, while others may decline or even go out of business.*
+
+*Several indicators suggest the approach of the end of a Techno-Economic Paradigm:*
+
+* ***Market Saturation**: The core industries and technologies of the current paradigm reach maturity and market saturation.*
+* ***Diminishing Returns**: Investments in the current paradigm yield diminishing returns, and productivity growth slows.*
+* ***Emergence of New Technologies**: New, potentially disruptive technologies begin to emerge and gain traction.*
+* ***Financial Instability**: There may be increased financial speculation and instability as capital seeks new areas for growth.*
+* ***Socio-Economic Tensions**: Growing disparities and social tensions may arise as the benefits of the current paradigm become unevenly distributed.*
+* ***Regulatory Challenges**: Existing regulatory frameworks struggle to keep pace with technological and economic changes.*
+* ***Shifting Investment Patterns**: Capital starts flowing towards new, emerging sectors and technologies.*
+* ***Crisis or Recession**: A major economic crisis or recession may signal the end of one paradigm and the potential beginning of another.*
+
+*It's important to note that the transition between paradigms is not instantaneous but occurs over time. The end of one paradigm often overlaps with the early stages of the next.*
+
+Does that sound like it describes our present situation pretty well? We haven’t hit the crisis or recession that typically precedes a new TEP (yet?), but everything else feels pretty spot on.
+
+As just one example, check out the Shifting Investment Patterns over the past decade between [oil and solar](https://substack.com/redirect/009a9fa3-708b-4a54-af90-4d6f605af1dd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). In 2013, global investment in oil production was $636 billion (in 2022 dollars) versus $127 billion for solar. Last year, solar investment ($382 billion) topped oil production investment ($371 billion).
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb18917f-f94e-4206-bd06-f3f8f81a9f1c_908x493.png)](https://substack.com/redirect/ba4c443b-5709-45a7-b20a-e01fbd481b7f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*International Energy Agency*
+
+That was just a temperature check, though. What alerted me to the situation in the first place was that across so many seemingly disconnected industries, the Vertical Integrators I write about and invest in exist because the industries they’re tackling have hit bottlenecks that demand entirely new solutions.
+
+### **Industries at the End**
+
+My favorite way to understand what’s going on in technology more broadly is to do Deep Dives on specific companies. Over the past year or so, I’ve written a number on Techno-Industrials, many of which turn out to also be Vertical Integrators, including [Hadrian](https://substack.com/redirect/1cf3c1b5-d15b-4d61-b4fe-3d12f75f2ac9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Varda](https://substack.com/redirect/cbe100ea-cf68-445c-bb11-e8b9bd6c6a35?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Anduril](https://substack.com/redirect/a298790b-b2f9-43e2-bb53-d2c6562b1355?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Base Power Company](https://substack.com/redirect/45130574-51e2-4311-bd5a-b6a7f251f2eb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Earth AI](https://substack.com/redirect/8f764101-7c13-489d-b13d-8ee78425b424?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Astro Mechanica](https://substack.com/redirect/8cbe03b9-9fb4-45a0-8b33-eadc99502d2e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and [Fuse Energy](https://substack.com/redirect/978ff63f-cbe0-4af1-a239-c7cf33e15633?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+Looking back on them, a common theme sticks out: **each exists because the large industry they’re addressing is crumbling, or at least falling short in very important ways that can’t be addressed with incremental improvements.**
+
+Every startup is born of a problem. Every deck has a “problem” slide among the first three or four. Some problems are small – “Most people forget their keys at least once a week, that’s why we invented KeyTracker” – and call for point solutions. Some are very, very large – “The electric grid is failing and a number of conditions prevent the installation of new transmission lines” – and point to the opportunity to vertically integrate to rebuild entire industries.
+
+This is the type of problem I keep seeing over and over again: deep structural problems with no solution but to rebuild from scratch.
+
+In Hadrian’s case, the $30-40 billion high-precision parts market in the US depends upon a network of 3,000 small shops which are falling behind schedule and producing parts that are more expensive than they should be. Plus, the current owners are aging out, and the next generation may not have the skills or desire to replace them. This modularized network is ripe for vertical integration.
+
+Mining, a $2 trillion global industry, is facing slowing discoveries even as demand increases.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42610eba-886a-40f0-810d-9e64f8b0cbd0_908x488.png)](https://substack.com/redirect/66a55798-12bb-44f0-8af3-00fd92ec7777?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Minex, analysis based on finding a moderate or larger deposit](https://substack.com/redirect/5269e9e6-a22d-4e52-8704-563a47f96827?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+As I wrote in my [Deep Dive on Earth AI](https://substack.com/redirect/8f764101-7c13-489d-b13d-8ee78425b424?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU):
+
+> *Over the past decade, **the number of annual discoveries has dropped by almost three-quarters, from 150 to 45 per year**, for a variety of familiar reasons. The easy-to-find deposits have been found, which means exploration is more expensive, which deters exploration companies. Regulatory and environmental concerns, unsurprisingly, make permitting and licensing slower and more expensive, too. The workforce of geologists, geophysicists, and other key experts is aging out, and young people aren’t backfilling them.*
+
+Like Chris, Earth AI’s Roman Teslyuk tried to fix the problem with software first, selling its AI model to explorers to help them find new deposits. Like Chris, he found a customer base who didn’t use the software to its fullest extent. And like Chris, he realized that he would need to vertically integrate to solve the discovery problem: building a Mobile Low-Disturbance system it can use to drill the targets it finds in a quarter of the time and at a quarter of the cost compared to drilling contractors.
+
+In both cases, there’s an important lesson: **the same thing that makes incumbents bad customers – slowness, fragmentation, unwillingness to adopt new technology, and inability to maximize the benefit of the technology by integrating it into the overall system – makes them excellent to compete with.**
+
+Other Vertical Integrators found more concentrated incumbent competitor bases who seem to have hit the limit on what their technological paradigm can bear.
+
+**[Base Power Company](https://substack.com/redirect/45130574-51e2-4311-bd5a-b6a7f251f2eb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** exists because the grid is crumbling under the weight of increased variable power generation from renewables and increased demand for electricity with the electrification of cars and home appliances. Installing more transmission has become so slow and expensive that a more decentralized solution is needed.
+
+**[Astro Mechanica](https://substack.com/redirect/8cbe03b9-9fb4-45a0-8b33-eadc99502d2e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** is betting that the Jet Age is over, and that the horrors we see out of Boeing are the result of the predictable turn to financialization over product innovation at the end of a technological paradigm. Astro Mechanica is vertically integrating around its Turboelectric Adaptive Jet Engine, and plans to try to rebuild air travel outside of the current major airport system, contractually dominated by incumbents, by offering affordable supersonic flights that take off and land from private airports, directly bookable through its own platform.
+
+**[Anduril](https://substack.com/redirect/a298790b-b2f9-43e2-bb53-d2c6562b1355?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** is a bet that the Defense Primes are built for a style of warfare – one that prizes large, exquisite, and incredibly expensive platforms – that is not a fit for how wars are being fought today and especially not for how they’ll be fought in the future. It offers cheaper, faster-to-build hardware connected and enhanced by its Lattice operating system, and believes that much of its advantage will come from building a network of craft and weapons that work together through software in a way that the Primes aren’t equipped to match.
+
+**[Fuse](https://substack.com/redirect/978ff63f-cbe0-4af1-a239-c7cf33e15633?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** is possible in part because the government and its contractors have fallen deeply behind schedule and over budget in building the next generation of the Z Machine – ZEUS and SCORPIUS – and is turning to public-private partnerships to support ongoing stockpile stewardship. In the interim, government labs and private companies like [VERUS Research](https://substack.com/redirect/0897e383-7ab8-4ec4-af68-63cd7d297bb0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Shine Fusion](https://substack.com/redirect/0253ed21-3fda-4559-968b-62a38abb53b9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), Honeywell, and [L3Harris](https://substack.com/redirect/70889628-b9f4-4487-8274-33cf245beba3?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) are undersupplied and overbooked for survivability testing, and the problem is going to get worse as demand increases.
+
+As Fuse shows, it’s not just companies but governments that are struggling to keep up with the pace of change, and whose old systems are struggling as they age.
+
+**[Primer](https://substack.com/redirect/4a713459-03ca-4a2a-b870-8e4d1cb05e97?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)** is a network of teacher-run Microschools that competes directly with public schools to provide K-8 students with a better education. It competes with a free product, which should be very challenging, except for the fact that the public school system is producing poor outcomes. As I highlighted in *The American Millennium*, “In 2022, the ‘[nation’s report card](https://substack.com/redirect/53ad70f6-fd39-489d-8091-f7fc2a4a3006?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)’ showed that just 33% of American 4th graders scored at or above a proficient level in reading, and just 37% scored at or above proficiency in math, both down from 2019.”
+
+[![](https://substackcdn.com/image/fetch/w_2142,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57ae56b7-3b40-457a-b9bf-638ebed402e8_1071x201.png)](https://substack.com/redirect/d5441c97-1c20-4a27-90f2-4c41bcf44f23?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*NAEP 2022 Report Card*
+
+These are just a few examples, and each industry is different – I’d recommend reading the Deep Dives to get more of the specific nuance – but it struck me that so many of companies I’m most excited about find myself in the same starting position: **with an industry that has run into bottlenecks not easily solved by process innovations.**
+
+That doesn’t mean that the bottlenecks are unsolvable. It just means that they will need to be solved in new ways, with new products and systems unburdened by the old way of doing business.
+
+Because when an old Techno-Economic Paradigm dies, a new one is born.
+
+### **Signs of a New Beginning**
+
+If you just look at the “before” of each example I gave above, you would think the world was really and truly screwed.
+
+The grid is failing with increasing frequency and it’s near-impossible to fix it. Our public schools are failing our kids, and it’s hard to imagine they’ll keep up with rapidly evolving educational needs. Airplanes are literally falling apart in midair. We’re running out of critical metals and struggling to find new deposits. The network of mom and pop manufacturers that supply our aerospace and defense industries are aging out just as we’re about to need them most, and Defense Primes are increasingly behind schedule and over budget on exquisite platforms that may not even be right for the upcoming fight. And we haven’t even touched on healthcare or the climate!
+
+It’s no wonder there’s so much pessimism out there. It’s clear that this current TEP is reaching its end.
+
+**The difference between a slow decline into a Neo-Dark Ages and an ascent towards an Age of Miracles comes down to whether there is a new Techno-Economic Paradigm being born.**
+
+Perez identifies a number of ingredients needed to kick off a new TEP, many of which should sound familiar if you’ve been reading Not Boring for a while, even though my mentions of them have been based on my observations before realizing that they fit the theory:
+
+1. **A new constellation of technologies.** Radical innovations in different but interconnected technologies emerge. They should have the potential to transform multiple sectors of the economy.
+2. **A key factor of production.** Each TEP is characterized by a particular input that becomes the key factor of production, which should be cheap, abundantly available, and widely applicable. Think coal, steel, oil, and chips.
+3. **New best practices and techno-economic logic.** New organizational and managerial practices are needed ([Founder Mode](https://substack.com/redirect/5d51c56d-6305-49ad-8dab-75a4082dbf0d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) lol), as are new business models.
+4. **New infrastructure.** Each TEP requires and creates its own infrastructure, which facilitates the spread of new technologies and processes throughout the economy.
+5. **Financial capital.** Large amounts of speculative capital are required to fund the development and deployment of new technology. Often, new financial instruments and institutions thrive alongside and fuel new TEPs.
+6. **Entrepreneurial activity.** People need to figure out how to bring these technologies to market in a commercially viable way.
+7. **Social and institutional changes.** Culture and institutions adapt to the new techno-economic reality.
+8. **A period of mismatch and adjustment.** There’s usually a period during which new technologies and old institutions are mismatched, causing tensions before resolving.
+9. **Critical mass**. At some point, the advantages of the new way become clear and adopting it becomes a competitive necessity.
+10. **Creative destruction.** Old companies, industries, and ways of doing things die.
+
+From within the present moment, it’s easy to think that we live in unprecedented times. But while the specifics of today’s world are unique and even extraordinary, the patterns are the same. It’s pretty incredible reading the list of indicators that one TEP is ending, and the list of things needed to bring a new one to life, and realizing that we’re going through what many generations before us have, too.
+
+Remember, Perez wrote *Technological Revolutions* twenty-one years ago, in 2003. By looking *backwards* over centuries, she was able to predict with stunning accuracy what the world looks like today.
+
+Look at that list! Despite all of the things that look and feel really bad today, I’m [optimistic](https://substack.com/redirect/7df4427e-061f-4dca-83fb-9ae644c82516?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) because there are just as many signs that an even better era is emerging.
+
+**A new constellation of technologies:** The advances in AI, energy, robotics and automation, crypto, and biotech, over the past few years alone have been stunning. Others like autonomous vehicles, hyperlogistics, additive manufacturing, quantum computing, and advanced materials are on the horizon. Vertical Integrators are pulling many of these new technologies together into systems to produce new capabilities for humanity across a seemingly disconnected set of industries.
+
+**A key factor of production:** It’s hard to choose just one. In I stole Valar Atomics’ founder [Isaiah Taylor](https://substack.com/redirect/5b5e1db6-f167-4fba-a229-154f8f38d8e2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)’s framing: cheap and abundant **energy, intelligence, and dexterity.** After spending so much time with Elliot Hershberg, I’d add that we are approaching the ability to grow anything with biology. **Energy, intelligence, dexterity, and growth.**
+
+**New best practices and techno-economic logic.** This will need to be figured out as many of the Vertical Integrators scale. On the organizational side, Elon Musk’s [5-step manufacturing process](https://substack.com/redirect/ece23f3e-eeb6-445d-94cc-97ddd7ba8900?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) – make the requirements less dumb, etc… – is spreading, in part because so many founders of Vertical Integrators spent time at SpaceX. On the business model side, one theme seems to be that AI (and eventually robots) will replace human labor, which will certainly require models beyond per seat pricing.
+
+**New infrastructure.** Even as the old infrastructure crumbles and becomes harder to replace, new infrastructure is being built that goes around it. Base Power Company is an example of what a16z’s Ryan McEntush wrote about in [Decentralizing the Electric Grid](https://substack.com/redirect/6d9ab7af-51af-4e8e-a6c3-7e875ab415b0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), augmenting the grid without laying new wires. Companies like SpaceX (Starlink) and Astranis are building telecommunications infrastructure that doesn’t rely on wires and poles. Flying cars are closer than people might think, providing transportation that floats above congested roads. [Pipedream](https://substack.com/redirect/60634a23-def6-4556-a52e-65a7c6688c3e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is building a hyperlogistics network that moves items via underground tubes, and other companies like [Zipline](https://substack.com/redirect/e7058719-e4ee-467d-826c-e86e3988ba64?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) are building delivery networks in the sky. New AI data centers full of GPUs are powering intelligence abundance, and will increasingly be powered “behind-the-meter” by sources like nuclear energy. Stablecoins are cheaper, faster financial rails. The list goes on – independently, each seems like an interesting experiment. Together, they begin to look like new infrastructure.
+
+**Financial Capital.** While much maligned, the emergence of VC megafunds that have billions of dollars to deploy aligns well with this new capital-intensive TEP. (More on this later) General Catalyst went so far as to buy an entire healthcare system to experiment with ways to make healthcare radically better. Separately, new financial instruments like crypto are emerging alongside the new TEP.
+
+**Entrepreneurial Activity.** Entrepreneurs, many of whom I’ve cited already, are building Vertical Integrators around this new constellation of technologies. One of the things that piqued my excitement is seeing how thoughtful so many of them are about building commercially viable businesses and not simply bringing shiny new technologies to market.
+
+Those first six steps are currently happening. The next four – societal and institutional change, mismatch and adjustment, critical mass, and creative destruction – are earlier and less certain, but if I’m right, they’re coming. You can already see the signs of social and institutional changes, and feel the mismatch between new technologies and old institutions today.
+
+It feels miraculous, almost too good to be true, that just as the old ways are breaking down, a wave of new technologies is riding in to provide entrepreneurs with the tools to save the day, but it really does feel like that’s happening. As well as the situation lines up with the theory, a new Techno-Economic Paradigm is not guaranteed.
+
+But it *does* line up pretty well. Because not only is there a Technological Revolution afoot; the Financial Capital is well-suited to fund it, too.
+
+### **Financial Capital**
+
+Perez didn’t just write about Technological Revolutions, but how they relate to Financial Capital. In the Installation Phase, financial capital takes risks on new technologies and business models in search of higher returns. In the Deployment Phase, production capital helps scale proven technologies and business models in exchange for lower, more predictable returns.
+
+In fact, Perez argues that technological revolutions, which occur every 50-60 years, are *driven* *by* the availability of **Financial Capital**.
+
+I think it’s notable, then, that we’re seeing the rise of venture capital megafunds, each with billions or tens of billions of dollars under management, which need to invest in very large opportunities in order to generate returns on that capital. Personally, I think the argument that those funds are simply seeking management fees is lazy and uncreative.
+
+What if large pools of capital are needed to fund and support Vertical Integrators?
+
+Often, these companies will need more money upfront than a traditional software company, and they will take longer to bring a product to market and generate revenue, which means that they need capital partners who can continue to support the company with checks larger than smaller funds can write.
+
+Surprisingly, once they gain momentum, Vertical Integrators can grow with surprisingly little dilution. For example, assuming that SpaceX raised its first outside capital at around a $150 million valuation in 2005 (PitchBook has valuation data on all rounds except that one), it’s experienced just 43% dilution over twenty years!
+
+[![](https://substackcdn.com/image/fetch/w_2436,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb15b760a-6bc2-41a2-9802-56aa2534ace7_1218x381.png)](https://substack.com/redirect/8db5a5a6-5229-4dec-af77-d6b112117f17?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Data from PitchBook; round names sequential, not necessarily what SpaceX called them*
+
+The flip side of that even as investors wrote much larger checks into the company – over $9 billion in total – they did so at increasingly high valuations. A small fund that needs to aim for higher multiples would have been better off writing one check and bowing out from a MOIC (multiple on invested capital) perspective – just investing in that first round would give you a 680x! – but the company would have run out of money if all investors thought that way. Megafunds, on the other hand, could deploy enormous amounts of capital to defend their ownership and fuel the company, and be very happy putting large sums of money to work at a 20x MOIC.
+
+Anduril is earlier in its journey, but the numbers seem to be following a similar pattern.
+
+That’s a little in the weeds, but the point is that the right kind of funding exists to support unproven Vertical Integrators that can support massive valuations if they work, a necessary ingredient at the beginning of a new Techno-Economic Paradigm.
+
+I am mostly saving predictions and implications for Part III, but this feels like an appropriate place to make one:
+
+**Megafunds will increasingly team up and pick one winner per vertical that they support in its fight against well-resourced incumbents.**
+
+This has precedent. **JP Morgan** played a massive role in picking and shaping the winners of the Second Industrial Revolution, from pulling together **US Steel** into the world’s first billion-dollar corporation to forming **General Electric** and **International Harvester** to financing Theodore Vail’s pursuit to turn **AT&T** into the universal service for telephone communications across the United States.
+
+Wildly ambitious plans require deep financial backing.
+
+With Vertical Integrators, unlike traditional software companies, there will be less fighting *among* startups, and more cohesion among big players in the startup ecosystem against common legacy enemies. Anduril is backed by Founders Fund, General Catalyst, Lux Capital, a16z, 8VC, Valor Equity Partners, and Thrive Capital, as a recent example. Hadrian is backed by Founders Fund, Lux Capital, and a16z. This will happen more frequently.
+
+That doesn’t mean the anointed Vertical Integrator will win that fight, but to have the best shot, they’ll need to concentrate talent and capital in one company. More than in other startup categories, there will be a fairly clear separation between the best and the rest by the Series A or Series B.
+
+The counter to this might be the big AI labs. OpenAI, Anthropic, and xAI have raised billions of dollars each, and the same investors have backed multiple AI labs – closed and open. I think the reason for that is that the race to AGI, or at least the most powerful models, is just that: a race. While competitors like Meta and Google are incumbents, they are not incumbents *in LLMs*. And it’s debatable whether companies like OpenAI are Vertical Integrators; instead, they may be providing a key factor of production that gets commoditized over time. The prize may be so large that multiple $100B+ winners emerge, and there will always be frenzy at the beginning of a new TEP.
+
+Regardless of how you classify foundation models, it’s clear that the Financial Capital is prepared to fund the necessary speculation that comes in the early stages of a new Techno-Economic Paradigm.
+
+### **Why Vertical Integrators Now**
+
+We covered a lot today, so we’ll pause here to catch our breaths before coming back for more in Part III.
+
+There are a few **main takeaways** from today’s Part II:
+
+1. We may be near the end of the previous Techno-Economic Paradigm and the beginning of a new one.
+2. New TEPs – and new industries and product needs – demand vertical integration.
+3. Vertical Integrators founded at the beginning of new TEPs tend to be the largest companies founded during that TEP.
+4. They create the conditions for many new businesses as industries modularize to improve costs and efficiency, but these modular businesses typically are not as large as the Vertical Integrators that enabled them.
+5. Building modularized businesses – software or otherwise – to try to improve processes from the dying TEP are likely doomed to fail. Wholly new systems are needed.
+
+Vertical Integrators are necessary at the beginning of a new industry or in the beginning of a new Techno-Economic paradigm for a few reasons:
+
+1. New TEPs involve a constellation of multiple new, interrelated technologies that aren't yet well understood or standardized.
+2. The full potential of new technology combinations isn't yet known, requiring experimentation and control over multiple components to iterate quickly.
+3. There's a lack of established supply chains and ecosystems for these new inputs.
+
+Intrepid entrepreneurs will need to vertically integrate to figure out how to build the new products the market needs, and the new business models to support them, before the rest of the market can come in to improve processes and modularize inputs in order to bring down costs and improve performance.
+
+It’s the hard way, but as Chris Power and others have discovered by trying the “easy” way first, it may be the only way to really make a dent in critical physical industries.
+
+To that end, I’d like to leave you with a **hypothesis: if you want to build a Vertical Integrator, now is the time.**
+
+The first company in each category to vertically integrate enough with a solution that is much cheaper, better, or faster than the incumbent will be well-positioned to win that category and build a very large business, and it will be difficult for others to displace them.
+
+There’s a lot of nuance needed in that statement. The first Vertical Integrator in a category certainly won’t always be the winner. Look at [Katerra](https://substack.com/redirect/89897e2b-f2f2-44e8-b34a-d2ba000189b7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) in housing construction as one example. In fact, the first often “takes the arrows,” learning lessons that successors will incorporate into their models.
+
+Just launching a Vertical Integrator at the right time isn’t enough.
+
+The Vertical Integrator needs to combine the new technologies in just the right way to create a much better solution with structurally superior unit economics, at reasonable scale, on paper to start. It needs to build the team that can turn “on paper” into “in practice,” and attract the investors willing to fund the company until it gets to the scale that it can compete (and raise debt or project financing to scale further). It needs to overcome regulatory roadblocks thrown in its way by the incumbents. And it needs a product so much better, cheaper, or faster that customers and partners, used to doing something the old way, are motivated to switch to something new.
+
+It’s worth remembering that we are not the first generation of intelligent people interested in applying new technology to make better products. Read *Kochland, Titan, Cable Cowboy* or any number of books and biographies on very large companies built at the turn of previous TEPs. Many of those companies are still operating, and will fight back vigorously, often attempting to incorporate the same technologies into their products and processes. It will be a battle.
+
+But if the Vertical Integrator can pull all of that off – and often much more – **all of those challenges become a moat, and advantages compound**. It becomes very hard to displace a TEP’s first big winners until a new Techno-Economic Paradigm emerges some time fifty years into the future (or potentially sooner, if the cycles speed up).
+
+Why that is is a conversation for Part III.
+
+Today, we talked about the theoretical and practical **Why Now** for Vertical Integrators.
+
+In Part III, we’ll dive into the specifics: challenges they face, the advantages they might have, what it takes to build them, and what the implications of all of that might be.
+
+*Thanks to Carter and others for feedback and input, and [Claude](https://substack.com/redirect/0311437a-5139-4835-bd3b-d559b0c3fc12?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) for editing!*
+
+That’s all for today. We’ll be back in your inbox on Friday with a Weekly Dose.
+
+Thanks for reading,
+
+Packy

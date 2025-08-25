@@ -1,0 +1,115 @@
+# Urban planning, car-centric culture, and the great undoing of American friendship | Vox
+
+**URL:** https://www.vox.com/features/23191527/urban-planning-friendship-houston-cars-loneliness
+**Processed:** 2025-08-24T19:16:03.252177
+
+* [Features](/features)
+
+# Too many Americans live in places built for cars — not for human connection
+
+How urban planning contributed to the great undoing of modern friendship.
+
+by  [Muizz Akhtar](/authors/muizz-akhtar)
+
+Aug 25, 2022, 10:54 AM UTC
+
+* Facebook
+* Link
+
+![A man alone in a car looks out towards a city](https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951091/edit_ce.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400)
+
+![A man alone in a car looks out towards a city](https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951091/edit_ce.jpg?quality=90&strip=all&crop=16.666666666667%2C0%2C66.666666666667%2C100&w=2400)
+
+Amanda Northrop for Vox / Getty Images
+
+[![](https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/21899595/VOX_The_Highlight_Box_Logo_Horizontal.png?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400)](https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/21899595/VOX_The_Highlight_Box_Logo_Horizontal.png?quality=90&strip=all&crop=0,0,100,100)
+
+*Part of the* [***Friendship Issue***](/the-highlight/23191507/welcome-to-the-friendship-issue-of-the-highlight) *of* [***The Highlight***](/the-highlight)*, our home for ambitious stories that explain our world.*
+
+I’ve lived in Houston for most of my life, and there’s never been a time when I’ve reasonably been able to walk anywhere. Houston is practically the poster child for American [urban sprawl](https://www.britannica.com/explore/savingearth/urban-sprawl) — the landscape is dominated by spread-out neighborhoods with single-family homes and massive “[stroads](/23178764/florida-us19-deadliest-pedestrian-fatality-crisis)” (street-road hybrids with the worst aspects of both) lined with strip malls and expansive parking lots, connected by miles and miles of highways. It’s an environment designed to be solely traversed by car, not by foot.
+
+That had a dramatic effect on the friends I could make, especially when I was younger and based in the city’s outer suburbs. Both of my parents worked, and without a car, if I missed my school bus home, I’d have to make the one-and-a-half-hour trek by foot under the hot Texas sun — forget easily going to the mall or the movies with my classmates.
+
+College was eye-opening. I attended Texas A&M University, and spent most of my time in a denser, walkable campus environment that made it easy to meet and get to know people. I could start my day going to classes, then move to a dining hall, then the green space in front of my department building, and finally, the library — all without a car. It was easy to bump into friends, old and new, intentionally and by accident.
+
+But when I returned to Houston to start working, friendship became exhaustingly difficult, as the long commutes made it hard to consider going anywhere but straight home after work. Even now, living in the inner ring of the city — “inside the loop,” as Houstonians call it — if I want to visit anyone beyond my apartment complex, I have to get in my car. It has made it hard for me to regularly see friends and even family. My parents live at least a half-hour drive away without traffic. (For reference, Google Maps tells me it would take me roughly seven hours to get there on foot.)
+
+[I am not alone](https://www.bloomberg.com/news/features/2022-07-15/there-s-now-a-tiktok-for-cities-and-public-transit-fans?srnd=citylab) in my experience. As Mateusz Borowiecki — a public health researcher and creator of [Eco Gecko](https://www.youtube.com/c/EcoGecko/about), a YouTube channel about urban planning and the issues with American suburbia — told me, the sorts of “[spontaneous encounters](/2015/10/28/9622920/housing-adult-friendship)” with friends and strangers I experienced in college are much more difficult in car-dependent suburbs. The importance of such connections and easy encounters was made especially clear when the Covid-19 pandemic sent the world into lockdowns and loneliness spiked. A major study in May from the American Psychological Association found that pandemic mitigation measures like social distancing and quarantine [led to “a small but significant” increase in loneliness](https://www.apa.org/news/press/releases/2022/05/covid-19-increase-loneliness) among people in the United States and elsewhere. This was especially true for [children](https://www.keranews.org/health-wellness/2021-12-16/kids-were-lonely-before-covid-19-the-pandemic-has-made-things-worse), but also [the elderly](https://www.who.int/publications/i/item/9789240030749) and [those with disabilities](https://scholarworks.umt.edu/cgi/viewcontent.cgi?article=1057&context=ruralinst_health_wellness), who have experienced unique forms of isolation during the pandemic.
+
+Distance and isolation are fundamentally built into the [urban areas](https://education.nationalgeographic.org/resource/urban-area) — defined by the [US Census Bureau](https://www.federalregister.gov/documents/2022/03/24/2022-06180/urban-area-criteria-for-the-2020-census-final-criteria) as any area with [at least 5,000 people](https://apnews.com/article/urban-rural-criteria-census-72eb8b8188a3685e73e2659182816f59) — where most of us live. State and local governments [prioritize building infrastructure](https://qz.com/375745/american-cities-are-designed-for-cars-which-makes-life-worse-for-everyone/) for cars, and public transportation remains underfunded and unreliable. [Wide roads and parking lots spread](https://www.planetizen.com/definition/car-centric-planning) everything out and make walking extremely difficult, if a neighborhood even has sidewalks to begin with. Today, because a [majority of Americans](https://www.huduser.gov/portal/pdredge/pdr-edge-frm-asst-sec-080320.html), including an [increasing number of children and the elderly](https://www.pewresearch.org/social-trends/2020/07/29/prior-to-covid-19-urban-core-counties-in-the-u-s-were-gaining-vitality-on-key-measures/), [live in car-centric areas like suburbs](https://www.huduser.gov/portal/pdredge/pdr-edge-frm-asst-sec-080320.html), our ability to form connections and community is limited.
+
+Not everyone who studies urban planning believes that rethinking car-centric communities will reduce loneliness in America. “For average Americans...I would suspect a measurable but modest difference,” said [Claude Fischer](https://sociology.berkeley.edu/faculty/claude-s-fischer), a professor and sociologist at UC Berkeley who has done research on urban life. “And I understand that doesn’t lead to good headlines in Vox. That’s the nature of the beast.”
+
+Yet there’s data that shows that both car-heavy places and a lack of access to transit have a detrimental effect on socializing and a sense of community, especially for those who can’t drive. As local governments across the US [increasingly take steps](https://theconversation.com/inclusion-walkability-will-be-key-to-rebuilding-cities-after-the-covid-19-pandemic-174313) to make car-centric cities more walkable and amenable to public transit, it makes sense for us to consider [what it would take to do the same for car-centric suburbs](/the-highlight/23178774/suburbs-return-planning-urban-flight). Americans of all abilities deserve to participate in society independent of their ability to own, maintain, and drive a car. That includes being able to make friends on their own two feet.
+
+---
+
+Having friends and social connections [is important for many reasons](https://www.insider.com/guides/health/mental-health/why-is-friendship-important), but especially because they can stave off or reduce loneliness. While everyone feels lonely at times, long-term loneliness is dangerous and [can lead to a variety of physical and mental maladies](https://www.nia.nih.gov/news/social-isolation-loneliness-older-people-pose-health-risks#:~:text=Health%20effects%20of%20social%20isolation,Alzheimer’s%20disease%2C%20and%20even%20death.), including high blood pressure, heart disease, a weakened immune system, anxiety, depression, cognitive decline, and even death.
+
+According to a 2021 study by the Survey Center on American Life, [Americans make most of their friends](https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-loss/) at work, followed by school, existing friend networks, their neighborhood, their houses of worship, and clubs or organizations. However, the way most American cities, towns, and suburbs have been designed makes it increasingly difficult to access these places and form friendships and communities. The central issue is that so many of these urban areas in the US are [built for cars](https://qz.com/375745/american-cities-are-designed-for-cars-which-makes-life-worse-for-everyone/), not people.
+
+American urban areas weren’t always built this way. As [Gregory Burge](https://sites.google.com/site/gregoryburgeou/), an economist at the University of Oklahoma who studies how local revenue collection affects urban density, told me, older cities such as Boston, New York City, and Philadelphia were designed to accommodate walking, and thus have narrower roads and are much more dense, allowing residents easier access to community centers, businesses, churches, and more. “It wouldn’t be uncommon at all to walk a city block or two and to see literally all the kinds of urban development that you might think of as being a part of human life,” he said.
+
+The birth and rise of the automobile would allow for the [development of car-centric development like modern suburbia](https://oxfordre.com/americanhistory/view/10.1093/acrefore/9780199329175.001.0001/acrefore-9780199329175-e-64), where, Burge explained, land use and zoning regulations cordoned off areas into categories such as residential and commercial. Thanks to the car, suburban neighborhoods with homes could be built farther away from restaurants, schools, shops, and more — contributing to what we know as “sprawl.” Car-centric development was [given preference over everything else](https://www.bloomberg.com/news/articles/2014-02-04/9-reasons-the-u-s-ended-up-so-much-more-car-dependent-than-europe), and in the decades after World War II, highways and parking lots would come to dominate the urban American landscape. This [came at the expense](https://qz.com/698928/why-suburbia-sucks/) of public transportation, walkability, and the ability of most Americans to carry on their lives without a car. The consequences of designing entire communities around car use are manifold: Car-centric development is [harmful to the environment](https://theconversation.com/suburban-living-the-worst-for-carbon-emissions-new-research-149332), [discriminatory](https://www.strongtowns.org/journal/2017/11/2/the-negative-consequences-of-car-dependency), [expensive](https://www.strongtowns.org/journal/2020/4/27/this-is-the-end-of-the-suburban-experiment), and [bad for public health](https://www.knoxnews.com/story/news/2020/08/11/suburbs-not-cities-worse-covid-19-transmission/3337128001/).
+
+But do car-centric environments like suburbs really make it that much harder for people to make friends? Borowiecki said that while the relationship is fuzzy, and more research needs to be done, there are some notable correlations. For one, many suburbs have an issue of “[community severance](https://link.springer.com/article/10.1007/s11524-011-9637-7)” where “the amount of [car] traffic on the streets…literally acts as a barrier that prevents people from moving around or walking from interacting with their neighbors,” Borowiecki said. Streets clogged with speedy and noisy cars in a study done by Jennifer S. Mindell and Saffron Karlsen [were found](https://link.springer.com/article/10.1007/s11524-011-9637-7) to reduce “physical activity, social contacts, children’s play, and access to goods and services.”
+
+Another [study](https://www.jstor.org/stable/41514991) Borowiecki shared found that car-centric neighborhoods hinder “children’s social and motor development and put a heavy strain on the parents,” who must chauffeur their children to school and other activities. American children cannot [legally get driver’s licenses](http://insider.com/how-to-get-a-drivers-license-us-2018-10) until age 16 and are dependent on the adults who drive to navigate their environments. As a result, kids growing up in car-centric areas like suburbs have [less independence and ability to play and traverse](https://www.tandfonline.com/doi/abs/10.1080/14733285.2011.638173) their communities, and more fundamentally, have fewer opportunities to meet and socialize with others, thus ending up with fewer [friends](https://www.jstor.org/stable/41514991).
+
+It’s not just children whose social connections suffer in car-centric cultures. One [study of mobility among older people in Arlington, Texas](https://www.cambridge.org/core/journals/ageing-and-society/article/abs/ageing-in-a-lowdensity-urban-city-transportation-mobility-as-a-social-equity-issue/4D313165F5C99103E0A0F37740CEEB57), found that the lack of access to public transportation in a low-density city makes it difficult for older people to get around, making socializing and maintaining friendships and other relationships that much harder — all the more worrisome because older people in the US are [more likely to live alone](https://www.pewresearch.org/fact-tank/2020/03/10/older-people-are-more-likely-to-live-alone-in-the-u-s-than-elsewhere-in-the-world/) than others elsewhere in the world. In a country where the [general population is aging](https://www.urban.org/policy-centers/cross-center-initiatives/program-retirement-policy/projects/data-warehouse/what-future-holds/us-population-aging) and the number of older people is set to reach 80 million by 2040, the general lack of mobility among older Americans is a pressing issue. One study participant noted the ways the [lack of access](/2015/6/12/8768827/seniors-aging-car-driving) to public transportation limited the ability to socialize, or as she put it, to “shoot up to the mall and have lunch, us girls.”
+
+---
+
+So what would it look like for a person who couldn’t drive if we built our urban areas with their needs as our baseline? It might look like the experience of Borowiecki’s 85-year-old grandmother, who lives in a dense, public transit-rich city in Poland.
+
+“She has plenty of access to green spaces to walk around and it’s high enough density that she knows people there and socializes with them,” he said. “She has free public transit — like three or four trains that stop five minutes from her front door that will take her all over the city. And she’s able to live a normal life and a social life and an independent life.”
+
+We can have that in more of the US as well. [Different polls](https://www.pewresearch.org/social-trends/2021/12/16/americans-are-less-likely-than-before-covid-19-to-want-to-live-in-cities-more-likely-to-prefer-suburbs/) say [different things](https://news.gallup.com/poll/328268/country-living-enjoys-renewed-appeal.aspx) about which places Americans would ideally like to live in, but all paint a clear picture that a [majority prefers to live](https://news.gallup.com/poll/328268/country-living-enjoys-renewed-appeal.aspx) in more populated urban areas like cities, towns, and suburbs rather than more sparse rural areas. The pandemic highlighted the importance of [building dense, walkable cities](https://theconversation.com/inclusion-walkability-will-be-key-to-rebuilding-cities-after-the-covid-19-pandemic-174313), with [more and more Americans](https://www.cnu.org/publicsquare/2021/01/28/walkable-community-stock-rises-young-families-want-bigger-home) valuing walkability and easier access to community.
+
+That said, building new infrastructure in the US is notoriously a [difficult](https://www.cfr.org/backgrounder/state-us-infrastructure), [expensive](/22534714/rail-roads-infrastructure-costs-america) endeavor, and upending a dominant form of urban development is an even taller order. Borowiecki told me, however, that it actually wouldn’t take that much: The urban planning literature suggests that the density required to have walkable neighborhoods is achievable by just having suburban neighborhoods be built closer together, say, by [getting rid of lawns](https://www.discovermagazine.com/environment/your-perfect-lawn-is-bad-for-the-environment-heres-what-to-do-instead), and downsizing to something similar to the [bungalow neighborhoods of outer Chicago](https://www.apartmenttherapy.com/bungalow-belt-37000369). Gradually [repairing American urban sprawl](https://sprawlrepair.com/home/) and [retrofitting suburbs](https://www.cnu.org/publicsquare/2019/06/13/eleven-tactics-suburban-retrofit) not only make neighborhoods more walkable and amenable to public transportation, but also makes it easier for Americans to encounter and socialize with neighbors, friends, and strangers alike.
+
+The [aforementioned study](https://www.americansurveycenter.org/research/the-state-of-american-friendship-change-challenges-and-loss/) by the Survey Center on American Life found that Americans today have fewer close friends than Americans in 1990, and that people with more friends (regardless of closeness) tended to be more satisfied with their overall number of friends. [Close friendships](/23130613/fewer-friends-how-many) can be difficult to form and maintain, but it’s clear that other friendships, like what the study calls “situational friends” or “place-based friendships” are easier to form in communities that are dense, walkable, and filled with spontaneous encounters. Above all, if we want to design a more socially connected society that would allow for these friendships and encounters, urban planning in the US will need to become much more “[active](https://journals.sagepub.com/doi/abs/10.1177/0885412212451029).” This will mean going [beyond zoning](https://www.theatlantic.com/ideas/archive/2022/06/zoning-housing-affordability-nimby-parking-houston/661289/), and centering the interests of people, not the vested interests that prefer the status quo of [prioritizing cars and moving car traffic](https://www.strongtowns.org/journal/2022/7/6/txdot-proposes-to-dig-a-1-billion-infrastructure-grave-in-downtown-dallas), to the [detriment of pedestrians and disenfranchised communities](https://www.theguardian.com/us-news/2022/apr/29/texas-highway-expansions-project-displacements-protests).
+
+My city, Houston, isn’t exempt from any of that. Even during the pandemic, unlike major cities like New York, Los Angeles, and Chicago, the greater Houston area’s population [has continued to grow](https://www.houstonchronicle.com/news/houston-texas/houston/article/Houston-s-population-increased-as-other-major-17026496.php#photo-20993124), and is projected to have a population of [over 10 million people by 2040](https://www.houstonpublicmedia.org/articles/news/2018/09/24/305437/greater-houston-population-to-top-10-million-by-2040-metro-next-projects/). Houston, too, could reconsider its growth model, as sprawling out with [more and more road lanes is not the answer](http://bloomberg.com/news/articles/2018-09-06/traffic-jam-blame-induced-demand). Houstonians today are mounting perhaps [the biggest fight against highway expansions](https://www.theguardian.com/us-news/2022/apr/29/texas-highway-expansions-project-displacements-protests) in a generation and [approved a referendum to expand public transit](https://www.metronext.org/) over the next few decades — though the plan, perhaps misguidedly, is merely being framed as a way to “ease traffic congestion.” Traffic is a problem, but because of what it does to us as people, not just as drivers. A more walkable, denser, and transit-rich Houston — and America — would be one where we’re not constantly stuck in traffic just to meet our friends, including those friends we have yet to encounter.
+
+[**More from the Friendship issue of The Highlight**](/the-highlight/23191507/welcome-to-the-friendship-issue-of-the-highlight)
+
+[![](https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23949206/hbarczyk_vox_applenews_cover_horizontal.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400)](https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23949206/hbarczyk_vox_applenews_cover_horizontal.jpg?quality=90&strip=all&crop=0,0,100,100)
+
+Hanna Barczyk for Vox
+
+See More: 
+
+* [Cities & Urbanism](/cities-and-urbanism)
+* [Features](/features)
+* [Policy](/policy)
+* [Politics](/politics)
+* [The Highlight](/the-highlight)
+
+## Most Popular
+
+1. [Gen Z created a new type of man to avoid](/culture/459062/performative-male-gen-z-soft-boy-tiktok-harry-styles-jacob-elordi)
+2. [South Park is doing what the rest of the media won’t
+
+   Podcast](/today-explained-podcast/458775/south-park-trump-media-criticism)
+3. [The Air Quality Index and how to use it, explained](/climate/23769186/bad-air-quality-index-wildfires-pollution)
+4. [Take a mental break with the newest Vox crossword](/21523212/crossword-puzzles-free-daily-printable)
+5. [Why are so many young people getting cancer?](/the-highlight/24093360/early-cancer-young-adults-colon-stomach-research)
+
+## Today, Explained
+
+Understand the world with a daily explainer, plus the most compelling stories of the day.
+
+Email (required)
+
+Sign Up
+
+By submitting your email, you agree to our [Terms](https://www.voxmedia.com/legal/terms-of-use) and [Privacy Notice](https://www.voxmedia.com/legal/privacy-notice). This site is protected by reCAPTCHA and the Google [Privacy Policy](https://policies.google.com/privacy) and [Terms of Service](https://policies.google.com/terms) apply.
+
+[Advertiser Content From
+
+![Sponsor Logo]()
+
+This is the title for the native ad
+
+![Sponsor thumbnail]()](/)

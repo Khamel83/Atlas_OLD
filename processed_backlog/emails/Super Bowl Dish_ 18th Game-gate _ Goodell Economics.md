@@ -1,0 +1,213 @@
+# Super Bowl Dish, 18th Game-gate & Goodell Economics
+
+**From:** John Ourand <john@puck.news>
+**Date:** Fri, 07 Feb 2025 01:15:19 +0000
+**Source:** inputs/saved_emails/Super Bowl Dish, 18th Game-gate & Goodell Economics_Fri,_07_Feb_2025_01-15-19_+0000_194ddf9d5d321fe3.eml
+**Processed:** 2025-08-24T19:13:07.973271
+
+Feb 06, 2025
+
+The Varsity ( https://puck.news/newsletters/the-varsity/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to The Varsity, my twice-weekly private email on the
+sports business cinematic universe. I am coming to you today from the Big Easy, where the security presence is noticeably higher than in previous years. And it’s not because Marchand has moved his annual poetry slam competition to the convention center this year. (All right, Andrew, I sent you to Café du Monde two hours ago. The line can’t be that long! And tell them not to skimp on the powdered sugar this time!)
+
+ 
+
+Rao’s, the beloved and impossible-to-get-into East Harlem restaurant (which has since opened in L.A. and Vegas and spawned a remarkable C.P.G. line), has opened a popup in New Orleans for Super Bowl week. I was there last night putting on the nosebag, and it was a scene—not just because Mad Dog was sitting at the next table with his agent, Sandy Montag. As dessert was served—bread pudding and beignets, if you must know—our
+hosts convinced Run DMC’s Darryl “DMC” McDaniels to deliver us an impromptu performance of “Walk This Way.” As you read this tonight, I’ll be dropping by Montag’s annual Super Bowl party, which is sure to be much more chill. 
+
+ 
+
+One more thing: At the end of his excellent conversation ( https://puck.news/jb-pritzker-our-policies-are-not-off-our-message-was/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Illinois governor JB Pritzker, my partner Peter Hamby lobbed a softball: Is Caleb Williams a bust? Pritzker’s answer: “All right. I’m not going into that. Great to talk to you. Bye.” Governor, that is not a hard question to answer! The pride of Gonzaga High most certainly is not a bust, especially now that the McCaskey family has invested in a real head coach. (A little
+more on the family below…)
+
+ 
+
+Okay… let’s get into it.
+
+ 
+
+Player of the Week: Rob
+Pelinka
+-----------------------
+
+It takes a lot for the NBA to break through during Super Bowl week. But as I walked Radio Row
+yesterday, people were still agog over the audacious Luka-A.D. trade, four days after it was announced. I’ll let others decide whether the Lakers’ general manager won the Luka trade or not, even though the emerging consensus is that Pelinka hosed his Mavs counterpart, Nico Harrison. And I’ll wait for Puck fashion guru Lauren Sherman to weigh in on the Fonzie-esque leather jacket that Pelinka wore to this week’s press conference.
+But the sheer bravado of the trade is still making waves in New Orleans.
+
+ 
+
+Down to the J.V.: Ron Torbert,
+Super Bowl Referee
+------------------------------
+
+The idea that NFL referees are biased toward the Chiefs is ridiculous, of course. And everyone
+associated with the league, including TV network executives and sponsors, laughs at the notion that the refs want Patrick Mahomes to win. But, alas, this lingering conspiracy theory has become a leitmotif of Super Bowl week: The topic came up during Roger Goodell’s Monday presser; players have had to address it during their media availability; even the Fox broadcasters were asked to comment during a Zoom meeting with reporters. All of
+this speculation will inevitably make this the most scrutinized game of head official Ron Torbert’s career. 
+
+ 
+
+The Starting Five
+-----------------
+
+* Goodell’s extension: Roger Goodell’s contract runs until 2027, but it’s not too early to ask whether the 65-year-old commissioner, who has held the job since 2006, will renew his deal in two years. “What I’ve heard is that he isn’t going anywhere,” ESPN’s Don Van Natta Jr. told me on the Varsity podcast ( https://puck.news/podcast_episode/in-goodell-we-trust/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) this week.
+“Maybe that’s not surprising when you consider how much money he’s making and how good everything is going. … He’s enjoying the job. The business is almost on autopilot. I would be surprised if Roger retires after the conclusion of his current contract.”
+
+Van Natta also praised Goodell’s performance over the past decade. “He has been able to grow the NFL’s revenues in a remarkable way. He set an audacious goal of $25 billion annual revenues for the NFL by 2027. He’s going to meet it. And
+he has managed to do all of that and keep all of these owners happy. That’s a real feat.”
+* Fox’s streaming plans: One of the fizzy topics among media types in New Orleans this week has been Fox’s streaming service, which Lachlan Murdoch said would launch later this year. There’s been a conspicuous lack of detail about the service, besides the fact that it will carry content from both Fox Sports and Fox News. 
+
+Nevertheless,
+MoffettNathanson’s Robert Fishman, who downgraded Fox stock to neutral a couple of weeks ago, has sounded a warning that any D.T.C. launch could imperil the affiliate and retransmission fees that cable and satellite companies pay in order to carry Fox, FS1, and Fox News. “Fox’s commitment to providing sports and news content exclusively to the linear bundle has, to date, allowed it to grow its share of the affiliate and retrans revenue industry pie (as seen in this past
+quarter’s +6% total affiliate revenue growth),” he wrote “Will bringing that content OTT hamper the company’s ability to effectively argue for similar increases at the next round of renewal negotiations?” Fishman has a point, and it is curious why Fox, which stayed on the sidelines as its peers spent billions to stand up streaming services (often fruitlessly), has decided that now is the right time to go all-in.
+* The ultimate grinfuck:
+Comcast’s Greg Rigdon spent the past year moving all his partner R.S.N.s to the cable operator’s poorly penetrated Ultimate tier—i.e., the cliff path rather than the glide path—and grinfucking everyone. (Drink!) Now, Rigdon is taking this art form to a new level. Just this week, he signed a deal to put Kroenke Sports–owned Altitude, which holds rights to the Nuggets and Avs, on a tier that is even less popular than the misnamed
+Ultimate tier. Yes, these games will now only be available via “More Sports and Entertainment,” which is not even really a tier, but rather an add-on package. Comcast subscribers in Colorado will have to pay an extra $15.95 per month to watch their local NBA and NHL squads. 
+
+You may recall that Altitude and Comcast have spent six years in a particularly bitter dispute. The R.S.N. went dark on Comcast in 2019, and Altitude responded by suing the cable company in
+federal court. (The two settled that suit in the spring of 2023.) After all that time off the air, it’s hard to believe that this is the best deal Altitude could get. Rigdon really is the Elon Musk of the R.S.N. business.
+* A Comcast conundrum: If you’re not signed up for my partner Bill Cohan’s private email,
+Dry Powder ( https://puck.news/newsletter_content/wall-streets-trumphilia-a-new-comcast-spin-idea-elons-buddy-in-d-c-3/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), where he covers what’s really happening on Wall Street, you’re probably living in the singularity. This week, Bill wrote about respected Wolfe Research media analyst Peter Supino’s open letter to Brian Roberts, wherein he suggested that Comcast be
+broken up into three parts: Comcast’s cable distribution business; a combination of NBCU and Sky News; and the already proposed SpinCo, housing Comcast’s cable networks (minus Bravo). Here’s Bill…
+
+* “Supino doesn’t see much growth potential in Xfinity, or from the broadcast networks, the cable networks, Peacock, and Sky, unless equity incentives are reshuffled to better align leadership and shareholders. He was also highly critical of Comcast’s M&A strategy, estimating that Comcast spent $93 billion to acquire NBCU and Sky and to stand up Peacock, and that together
+they generate $7.5 billion of EBITDA, which the market values at 5.7x EBITDA, or $43 billion—‘a $50 billion mark-to-market loss,’ he wrote. He was also critical of Brian’s $340 million in cumulative compensation over the past 10 years and failure to invest in the Comcast stock during that time. His 40.8 million Comcast shares represent 1 percent of the shares outstanding. Meanwhile, he controls 31 percent of the vote. 
+
+Supino wrapped up his jeremiad with some familiar notions. ‘We
+believe Comcast’s financial strength has provided false comfort to NBCU, and that the business independently funds its own growth investments,’ he wrote. ‘While Universal has made great films and theme parks under Comcast and while Peacock is a beautiful service, NBC Universal was late to streaming and lacks the scale to win against YouTube, Netflix, Amazon, and Disney. NBCU’s EBITDA of more than $7B is more than enough to fund growth and negotiate potential strategic mergers.’
+
+Anyway,
+dividing Comcast into three parts is an interesting idea, to be honest, and one that Brian should consider seriously, even if he likely won’t. Supino texted me yesterday that his report ‘elicited more reads than any company-specific report I’ve ever published. It’s the only time in my career I’ve ever written an opinion that elicited 100 percent positive feedback.’ A spokesman for Comcast declined to comment.”
+
+* R.I.P. Virginia Halas McCaskey: Tributes will deservedly pour in for the NFL matriarch, who died today at age 102. (As expected, the Trib published ( https://www.chicagotribune.com/2025/02/06/virginia-mccaskey-chicago-bears-owner-dies/?clearUserState=true&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a great obit.) McCaskey, owner of the Chicago Bears, was NFL royalty—her dad, “Papa Bear” George
+Halas, founded the league. But her death raises questions about the ownership future of one of the Shield’s most important franchises. 
+
+According ( https://chicago.suntimes.com/bears/2025/02/06/virginia-mccaskey-bears-obit-dies-102-halas?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to the (also great) Sun Times obit, “George [McCaskey, the current chairman of the Bears] has said repeatedly that his mother had a plan
+that would keep the team in the family after her death.” But the old-school family ownership structure is slowly going the way of the pro set formation, especially now that the league has permitted a handful of P.E. firms to accumulate minority positions, and quarter-trillionaires abound. Will the McCaskeys eventually countenance an offer they can’t refuse? Will the team’s minority investors, like Pat Ryan, look to increase their stakes? These are the questions hovering around
+one of the most storied teams in all of sports.
+
+And now, the main event…
+
+And on the 18th Game, Goodell Rested ( https://puck.news/will-the-nfl-finally-add-an-18th-game/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+*******************************************************************************************************************************************************************************************************************************************************************************************
+And on the 18th Game, Goodell Rested ( https://puck.news/will-the-nfl-finally-add-an-18th-game/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+*******************************************************************************************************************************************************************************************************************************************************************************************
+
+As I’ve previewed before, the NFL commissioner and the league have
+long fantasized about the billion-dollar possibilities of eliminating another preseason contest and adding an 18th regular season game. Murmurs emanating from New Orleans suggest that the public negotiations have begun.
+
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+John Ourand ( https://puck.news/author/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Quaint were the days when the NFL played a 16-game schedule with a monthlong
+preseason slate. As I’ve been documenting over the past several months, after all, the league seems to be fantasizing out loud about its own expanding manifest destiny—in particular, eliminating yet another preseason game from its schedule to accommodate an 18th regular season weekend of matchups. 
+
+ 
+
+Commissioner Roger Goodell justified the previous extension to 17 games by
+philosophizing that the players weren’t really adding another game to their calendar, so much as they were simply swapping a meaningless contest for a consequential one. It was a cute line, but was also pure sophistry. As everyone knows, it’s standard practice for starters and veterans to limit their reps during the preseason. Adding a new regular season game will always carry health risks, even if it produces a financial windfall, and would need the approval of the NFL
+Players Association. 
+
+ 
+
+Anyway, among the many storylines emanating from Super Bowl week—absurd mania about Chiefs favoritism, the depressing elimination of the “End Racism” endzone signage, concerns about the evolving role of sports betting—has been a vibe shift regarding the 18th game. On Monday, Goodell tried to temper some of the optimism during his press conference, noting that the league hasn’t
+had any “formal negotiating sessions about an extension.” He also emphasized that any change to the schedule would be negotiated as part of the collective bargaining agreement, which runs to 2030—putting the decision off a handful of years to perhaps let some air out of the trial balloon. Mark Shapiro, the president of Endeavor and TKO, applauded Goodell’s change in tone when we caught up this week. In particular, he was grateful that the commish was managing the time frame more
+carefully. (Disclosure: WME, Shapiro’s talent agency, represents Puck, but not me personally.)
+
+ 
+
+After Goodell threw some cold water on the concept, NFLPA executive director Lloyd Howell Jr. added a few bucketfuls of his own. “No one wants to play an 18th game,” he said during his own press conference later in the week. “No one. Seventeen games is already, for many of the guys, too
+long.” 
+
+ 
+
+Howell, a former Booz Allen executive and Harvard M.B.A. who sits on the board of GE HealthCare, is a talented negotiator. He knows how much NFL owners want to add an 18th game, which would create a new media-rights package that could potentially generate another $1 billion in annual revenue. He also knows that the NFL is likely to exercise an out in its current broadcast TV contracts after
+the 2029 season—a move that would coincide with the beginning of C.B.A. negotiations. The 18th game will be his ultimate bargaining chip. 
+
+ 
+
+In their respective press conferences, Goodell and Howell offered a preview of how those negotiations might play out. On Monday, Goodell touted the virtues of international expansion and noted that concussions were at an historically low level this year, citing rule changes and
+equipment improvements. Howell remarked that he’d seen data indicating that an added game would result in more injuries. He also mentioned that international travel would exacerbate player health issues. Let the games begin… 
+
+ 
+
+From the Cheap Seats
+--------------------
+
+On the Luka-A.D. trade: “You don’t truly believe local media rights
+had anything to do with Luka trade, do you?” —A sports business veteran
+
+ 
+
+More on the Luka-A.D. trade: “Your most recent email was so spot-on about the Lakers, a slant no one else hit. (What did Luka do to those Dallas guys?) Even more so with what the Dodgers are doing, and how aggressive they are in player acquisition, given that rights agreement and what’s happening to R.S.N. revenue in
+baseball. It really seems like the 2026 season is heading for ‘labor action.’” —A sports media veteran
+
+ 
+
+Still more on Luka-A.D.: “I’m not sure a supermax deal for Luka is all that material to the financial bottom line of the team. Almost every team maxes out the salary cap anyway, so they’re spending that money one way or another. Sure, there are some potential luxury tax
+implications, but those can usually be managed unless you get into a situation like the one that the Warriors were in. The Mavs were actually in a very good tax position.” —Yet another sports media veteran
+
+ 
+
+On NFL officiating: “Great pod with Don Van Natta. With regard to your conversation about the growing fan skepticism regarding NFL officiating, isn’t this an extension of society? Americans have less
+faith in institutions, including elections and government. It appears this is an example of sports reflecting a society that is transferring language from the 2020 election to explain an outcome that a segment of society disagrees with. I don’t believe either is rigged, but the narrative is a clear business risk for the NFL.” —A Varsity subscriber
+
+ 
+
+Have a great weekend,
+
+John
+
+The Varsity ( https://puck.news/podcasts/the-varsity/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Puck sports correspondent John Ourand and a rotating cast of industry insiders take you inside the executive
+suites and owners boxes where the decisions that shape the entire sports business are made. You’ll hear interviews with players, network execs, and everyone in between. The Varsity is an extension of John’s private email for Puck by the same name. New episodes publish every Wednesday and Sunday.
+
+In the Room ( https://puck.news/newsletters/in-the-room/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Ace media reporter Dylan Byers brings readers into the C-suite as he chronicles the biggest stories in the
+industry: the future of cable news in the streaming era, the transformation of legacy publishers, the tech giants remaking the market, and all the egos involved.
+
+60 Minutes to Midnight
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Shari’s CBS Calculus ( https://puck.news/cbs-news-divided-on-trump-lawsuit-settlement/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DYLAN BYERS
+
+The Estée Lauder Makeover
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Estée Lauder Makeover ( https://puck.news/estee-lauder-needs-to-change-a-new-ceo-is-not-enough/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RACHEL STRUGATZ
+
+Wall Street’s Tariff Bet
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Wall Street’s Tariff Bet ( https://puck.news/wall-street-is-still-aboard-the-trump-train/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+WILLIAM D. COHAN
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU3fmHF3vnzxX_b3aRWUQ=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%282%2F6%2F25%29&utm_content=The+Varsity+-+SUBSCRIBERS+%282%2F3%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

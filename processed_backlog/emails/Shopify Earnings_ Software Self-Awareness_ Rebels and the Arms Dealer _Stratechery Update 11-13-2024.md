@@ -1,0 +1,114 @@
+# Shopify Earnings, Software Self-Awareness, Rebels and the Arms Dealer (Stratechery Update 11-13-2024)
+
+**From:** Ben Thompson <email@stratechery.com>
+**Date:** Wed, 13 Nov 2024 11:12:28 +0000
+**Source:** inputs/saved_emails/Shopify Earnings, Software Self-Awareness, Rebels and the Arms Dealer (Stratechery Update 11-13-2024)_Wed,_13_Nov_2024_11-12-28_+0000_1932539b0e62f039.eml
+**Processed:** 2025-08-24T19:13:10.141053
+
+Shopify is back to sustained growth thanks to discovering the leverage of software.
+
+View in browser ( https://stratechery.com/2024/shopify-earnings-software-self-awareness-rebels-and-the-arms-dealer/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L3Nob3BpZnktZWFybmluZ3Mtc29mdHdhcmUtc2VsZi1hd2FyZW5lc3MtcmViZWxzLWFuZC10aGUtYXJtcy1kZWFsZXIvIl19LCJleHAiOjE3MzQwODgzNDgsImlhdCI6MTczMTQ5NjM0OCwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.qzK_QbzBMk9rd_jgb_ssROKhJZBPzIa-Q4Y9VGHGg3HOZRJJ2kSuzjIFfSubFfEdf4s8dDoR2YfHJIF-TuOw0jvs9fJEtq27NLaV1QoPJ3an6Y2HNj7jCi0Uuev80ynK3PCjKBUQeRPtiURp4zh-uWm2oyo9IpoBlw1o4iIhVQHMxgACV4eDL2SH5kUK8ukMZZXzUznuLMGC7Iadgrj6caugZLFdnK5uouEt_3EyMnlfA7uL9zmQVW2dN6Oa8fUsjbqIzdreYUQWJq0EiCz-J7fPI4n4ga3Uu7bihuY4NtyWrrAiy8eaA4-HShXpHoWvE1G7bsYJ7U0q_ZGPjHjV0g )
+
+( https://stratechery.com )
+
+*********************************************************************
+Shopify Earnings, Software Self-Awareness, Rebels and the Arms Dealer
+*********************************************************************
+
+( https://stratechery.com/2024/shopify-earnings-software-self-awareness-rebels-and-the-arms-dealer/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L3Nob3BpZnktZWFybmluZ3Mtc29mdHdhcmUtc2VsZi1hd2FyZW5lc3MtcmViZWxzLWFuZC10aGUtYXJtcy1kZWFsZXIvIl19LCJleHAiOjE3MzQwODgzNDgsImlhdCI6MTczMTQ5NjM0OCwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.qzK_QbzBMk9rd_jgb_ssROKhJZBPzIa-Q4Y9VGHGg3HOZRJJ2kSuzjIFfSubFfEdf4s8dDoR2YfHJIF-TuOw0jvs9fJEtq27NLaV1QoPJ3an6Y2HNj7jCi0Uuev80ynK3PCjKBUQeRPtiURp4zh-uWm2oyo9IpoBlw1o4iIhVQHMxgACV4eDL2SH5kUK8ukMZZXzUznuLMGC7Iadgrj6caugZLFdnK5uouEt_3EyMnlfA7uL9zmQVW2dN6Oa8fUsjbqIzdreYUQWJq0EiCz-J7fPI4n4ga3Uu7bihuY4NtyWrrAiy8eaA4-HShXpHoWvE1G7bsYJ7U0q_ZGPjHjV0g ) Wednesday, November 13, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+On last week’s episode of Sharp China ( https://sharpchina.fm/member/episode/questions-and-expectations-for-trump-2-0-looming-trade-tensions-and-prc-responses-volatility-and-intermediaries-tik-toks-last-hope ) , Bill and Andrew reacted to Trump’s election and what it means for U.S.-China relations.
+
+On to the Update:
+
+Shopify Earnings
+----------------
+
+From Bloomberg ( https://www.bloomberg.com/news/articles/2024-11-12/shopify-reports-third-quarter-revenue-that-beat-estimates ) :
+
+Shopify Inc. soared after saying it will sustain rapid sales growth into the holiday shopping season, suggesting the Canadian e-commerce company’s strategy to lure larger businesses is paying off. Shopify said it expects percentage revenue growth for the current quarter ending in December to be in the mid to high twenties on a year-over-year basis. Analysts were looking for 23%.
+
+Shopify added 16 new enterprise clients in the third quarter, President Harley Finkelstein told investors on a Tuesday call. That helped boost revenue for the period by 26% to $2.16 billion, the company said in a statement Tuesday, beating the $2.12 billion average estimate of analysts surveyed by Bloomberg. In addition to attracting bigger customers, Shopify is benefiting from strength across Europe, more clients using its in-store payments tools and rapid growth in the business-to-business segment that’s attracting wholesale suppliers, Finkelstein said. “Shopify is not just for small businesses in North America,” he said. “We’re for every sized brand everywhere in the world.”
+
+Shopify is absolutely killing it. Finkelstein opened his prepared remarks ( https://seekingalpha.com/article/4736445-shopify-inc-shop-q3-2024-earnings-call-transcript ) with the numbers:
+
+As we say each quarter, Shopify is building for the long term. Our consistent results quarter after quarter confirm that our strategy is working incredibly well. Q3 was another amazing quarter across the board. GMV was up 24%, marking our fifth consecutive quarter where GMV growth was greater than 20%. Revenue was up 26%. Operating income more than doubled from last year. And free cash flow margin expanded to 19%. These are not just numbers. They reinforce that Shopify is an industry leader, delivering on both growth and margins, all while simultaneously creating and leaning into opportunities that bolster our growth.
+
+Finkelstein followed up with three things he wanted investors to remember:
+
+So, before we dive in, let me start by saying this. If you walk away from this call with anything, it should be these three things: One, entrepreneurship and commerce are growing, and Shopify is capturing an increasing share of this vast and expanding market. Two, Shopify is increasingly the go-to-platform of choice not just for entrepreneurship, but for all of commerce. We are well-positioned for extensive growth across different merchant segments, size, geographies, channels, and products. And three, as our merchants do better, Shopify does better. Our business model prioritizes merchant first, fueled by a high-velocity product innovation engine that makes the hard things easy and everything else possible.
+
+I would like to add a fourth thing; here is the chart of Shopify’s GMV over the last 10 years:
+
+The COVID boom is super obvious; what I think remains under-appreciated is the impact of ATT. I wrote in July 2022 ( https://stratechery.com/2022/google-earnings-youtube-growth-strategies-shopify-layoffs-and-earnings/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL2dvb2dsZS1lYXJuaW5ncy15b3V0dWJlLWdyb3d0aC1zdHJhdGVnaWVzLXNob3BpZnktbGF5b2Zmcy1hbmQtZWFybmluZ3MvIl19LCJleHAiOjE3MzQwODgzNDgsImlhdCI6MTczMTQ5NjM0OCwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.jgX_WkaTeJQLk0sfFvF-ok6rNrxrjq6pk9sJJW0G9NGN-VZcEjUuK4tB7YAtFTxOE5mT8JFfdIIooSLVS9XDfUt_KWqGLlDz2S_xn3yPvPFFzuQAjsGLhMZY9MFx6i5l2_cxpdFF8SnzZZ8xBj0d2Ro_Zsbmu_1HuVDg-T6lJkWQFOtuE6HeZ3zs_n7cedkdJbXqyS1Xkt8TMENpQKL3CMgPXB7mO5TLt5LlagTKji3YwB9CUted0I2a5OLyM8unGqezB_5ajS98lU4F0h-jfG-7o89YJZqIZvLCLbfMzXlToRJ2UVE8osyx6D3eXUqAzxH9v-XcEaQku_rsu9xAjw ) after posting the above chart:
+
+You can clearly see the pandemic impact, but what is concerning is not simply that GMV growth returned to trend in late 2020, but, over the last two quarters, dropped below trend. That could be the pandemic hangover, it could be macroeconomic conditions, but it sure seems like the most obvious explanation is that it is the impact of ATT.
+
+It follows, then, that an under-appreciated reason for Shopify’s return to strength is Meta’s recovery from ATT: a lot of GMV is downstream from Meta ads in particular, and Meta’s return to growth is unsurprisingly correlated to Shopify’s return to growth as well.
+
+That noted, Shopify does deserve more credit than just riding Meta’s coattails; consistent growth rates above 20% is not a return to the pre-COVID trendline, but a clear acceleration to a new baseline, and here Finkelstein’s three things ring true, particularly point number two.
+
+Software Self-Awareness
+-----------------------
+
+Finkelstein said in his closing statement:
+
+For those of you that have been following the Shopify story for quite some time, you know that we are a company that is laser-focused on our merchants. You’ve heard that we have a very long-term vision that we think could help them succeed. I think you will continue to see us seize opportunities and invest, as Jeff described, with discipline to further establish ourselves as the leader in commerce. And this has enabled us to deliver, as you can see from these results, some of the strongest results in the industry quarter after quarter.
+
+I also want to repeat, this is the best version of Shopify yet. We really like our size, our shape. We like how we’re operating. We really think it gives us the ability to grow the business and invest in the future. And so, I just wanted to finish with that point. And now for us, back to helping our merchants crush at this holiday season and well into the future.
+
+I don’t question Shopify’s laser-focus on merchants; what I would say, as someone who has been following the Shopify story for a long-time, is that it was precisely that focus that led Shopify astray a few years ago. To refresh your memory:
+
+That 2022 plummet in value wasn’t just the COVID overhang, and it wasn’t just ATT; it was also when Shopify decided to compete more directly with Amazon and get into the logistics business (beyond just being an asset-lite platform ( https://stratechery.com/2019/shopify-and-the-power-of-platforms/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDE5L3Nob3BpZnktYW5kLXRoZS1wb3dlci1vZi1wbGF0Zm9ybXMvIl19LCJleHAiOjE3MzQwODgzNDgsImlhdCI6MTczMTQ5NjM0OCwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.KYKS5jEwEMXST-YsR0Eviqo1EoJK1mhIr-G096tfMV9uY5i4EHHLnhfmEE9VY4N6lwPXG78JXXi1RUMp5ncc2QplHaBjcufTXPBRQJzXPIVyUd9UhFQPPO2yyu1zWrY3W6_fOISwZ_ok35cyZTBA0V4jvUPMqLOMAkNXhkam2OPKMv0TfLVAC7dceuE6PJDu3CTIlM2XEvRhjmB-xfUzAt5rPONuMaF_sgEpeIpHeRg7yZ5-83kX5RXP-T6kBM4imL9A9qEu0-5RyYjR1W1jtuaR4eBqs9iO1UK9y-dSwtCO3AfnkZgO3CJA15CHiVLuwNrVN4GWjtP_-r9axLpkGQ ) ). Finkelstein said on the February 2022 earnings call ( https://seekingalpha.com/article/4487562-shopify-inc-shop-ceo-tobias-lutke-on-q4-2021-results-earnings-call-transcript ) announcing the shift away from an asset-lite model:
+
+We are excited to update you today on what we’ve learned, how far we’ve come and especially on where we’re heading as we move out of the prototype phase and into the build phase. We are consolidating our network to larger facilities. We’ll operate more of them ourselves, and we’ll unify the warehouse management software that we’ve been building and testing over the past 18 months. We expect that these changes will enable us to deliver packages in 2 days or less to more than 90% of the U.S. population, while minimizing the inventory investment for SFN merchants. While Amy will go into more detail as to what our evolved vision looks like from a financial perspective, I can tell you, from a merchant’s perspective, Shopify Fulfillment can be life-changing for their businesses. We hear from merchants that fulfillment is only something you think about when it isn’t working well, and they are thrilled that they now never have to think about it. The stockouts and pre orders that took the shine off strong demand for the new releases, largely became, I think, in the past, with Shopify Fulfillment. And just recently, I heard from a merchant who tells me that he sleeps even better because Shopify Fulfillment just works. Comments like these fuel our ambition, and we’ll continue to explore opportunities to give merchants more visibility and control over their most important assets.
+
+That’s a lot of talk about merchants! It was also a disaster. Fast forward to May 2023 ( https://stratechery.com/2023/shopify-exits-logistics-the-shopify-logistics-side-quest-whither-buy-with-prime/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL3Nob3BpZnktZXhpdHMtbG9naXN0aWNzLXRoZS1zaG9waWZ5LWxvZ2lzdGljcy1zaWRlLXF1ZXN0LXdoaXRoZXItYnV5LXdpdGgtcHJpbWUvIl19LCJleHAiOjE3MzQwODgzNDgsImlhdCI6MTczMTQ5NjM0OCwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.dLdjtZdxEJ9A8LX61Vc063YffP15gEBiGTGSON4K3xDwxxo0-6hvTDhdWTP6sL38FUv7kJeymjWPmmR3ti_mMctKSNS4gVEPpNDP2z0osowx_QoWpCL6OBeULK-27RU65GJq0q-wheMEVqhwQ7_TwTdOY3i87RdxgeZ9ayG6E508mii65AabPSoJ5vtsv8BLVCM0gizhuNmxykPS2ftv1OTFkuuMdgrNHIj0SeSuLFhgYQ1OZFOn_VOIm9EsuV55_C-f3VN11fZ3yWjpdlr5UZnJ6x719GFZxw2PmAE7nmPdf6Av1B_eYbMU6HzbjNe9U2xxcBzLxItg__YpeUoZoA ) , and CEO Tobi Lütke announced layoffs ( https://stratechery.com/2023/shopify-exits-logistics-the-shopify-logistics-side-quest-whither-buy-with-prime/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL3Nob3BpZnktZXhpdHMtbG9naXN0aWNzLXRoZS1zaG9waWZ5LWxvZ2lzdGljcy1zaWRlLXF1ZXN0LXdoaXRoZXItYnV5LXdpdGgtcHJpbWUvIl19LCJleHAiOjE3MzQwODgzNDgsImlhdCI6MTczMTQ5NjM0OCwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.dLdjtZdxEJ9A8LX61Vc063YffP15gEBiGTGSON4K3xDwxxo0-6hvTDhdWTP6sL38FUv7kJeymjWPmmR3ti_mMctKSNS4gVEPpNDP2z0osowx_QoWpCL6OBeULK-27RU65GJq0q-wheMEVqhwQ7_TwTdOY3i87RdxgeZ9ayG6E508mii65AabPSoJ5vtsv8BLVCM0gizhuNmxykPS2ftv1OTFkuuMdgrNHIj0SeSuLFhgYQ1OZFOn_VOIm9EsuV55_C-f3VN11fZ3yWjpdlr5UZnJ6x719GFZxw2PmAE7nmPdf6Av1B_eYbMU6HzbjNe9U2xxcBzLxItg__YpeUoZoA ) and the end of Shopify’s logistics ambitions through the framework of “main quests” and “side quests”; logistics was the latter. Lütke claimed it was still worth it, but I’m not sure anyone agreed.
+
+Here’s the thing: logistics were and are a big challenge for merchants. It is a problem that needs to be solved. In this case, however, Shopify was too laser-focused on merchants; logistics was a situation where they needed to not just understand the problems being faced by their merchants, but also understand themselves and what problems they were actually capable of solving.
+
+Specifically, Shopify is a software company, and that puts one hard constraint on your business: you need to go horizontal, not vertical. Software requires huge amounts of R&D but it also scales infinitely; software businesses profit by maximizing leverage on their investments, which means serving more customers with the same capabilities. Logistics, though, means the physical world, which means variable costs and a limited addressable market; this limits the leverage you get from software, without decreasing the need for R&D.
+
+Rebels and the Arms Dealer
+--------------------------
+
+That, then, takes me full circle to these results: what has shifted the curve for Shopify is not just shedding a logistics business that didn’t fit their nature, but in fact embracing their nature and working to expand their customer base. Note this (excellent) question and answer from yesterday’s earnings call:
+
+*You guys have positioned Shopify as the rebels going up against the larger online marketplaces, but arguably the consolidation of e-commerce market share is occurring to a smaller number of platforms, including Shopify. And so, I wonder if your views of how the industry is evolving or changing, what that consolidation means for your merchant base, and ultimately, how that influences product plans for things like Shop App? Thank you.*
+
+A couple of things are happening I think when it comes to larger brands and retailers. One is, all across the board, they’re looking for a unified commerce system. They’re not looking for standalone, single-channel products anymore. I’ve used this metaphor before of the browser and the browser tabs. And what we’re seeing is that these large companies, specifically complex ones that have high GMV, they want to collapse those tabs from eight to one. And this idea of having a modern future-proofed retail operating system that is unified across every channel like Shopify is very compelling.
+
+Secondly, historically, when it came to larger brands, our focus was really on Shopify Plus. We had sort of this one-size-fits-all for larger brands. But now we have an enterprise product, we have Shopify Plus, we have Commerce Components. And Commerce Components, in particular, is really compelling because it’ll — I mentioned this in my prepared remarks, but we’re now seeing brands that are calling us, and three weeks later, they now have Shop Pay installed on their checkout or brands, for example, like On Running, one of my favorite brands that has Shopify’s checkout as a Commerce Component that they’ve now taken. So, there are all these new sort of gateways into Shopify or on ramps to Shopify on the Enterprise side.
+
+There are two points here. First, Shopify has refocused its attention on delivering a solution to all aspect of a merchant’s software needs; this is what the company is capable of doing, and it increases both its value to merchants and also its attractiveness to larger companies. Secondly, Shopify has significantly increased both the segmentation of its products and their composability. Different capabilities are available at different price points and with different go-to-market approaches, but it all rests on a common R&D effort; similarly, companies can just use one or two of Shopify’s offerings, like the Shop Pay button, which both increases the leverage on that product and also provides a beachhead for selling more.
+
+In other words, while Shopify used to be laser-focused on the merchant (singular), specifically the entrepreneurial direct-to-consumer business, they are now focused on merchant *s* (plural), of all shapes and sizes. Oh, and those big enterprise merchants? They had no use for Shopify’s Fulfillment Network, reiterating the point that the cost wasn’t just money but actually a constriction of Shopify’s market opportunity.
+
+So no, to answer the analyst’s question, Shopify isn’t necessarily arming the rebels anymore; that theme is, of course, from the original Star Wars trilogy. What Shopify is doing now is more akin to a theme from the Disney trilogy: they’re an arms dealer, seeking scale on their software from any merchant who might ever have a need to buy — and they’re succeeding.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTczNDA4ODM0OCwiaWF0IjoxNzMxNDk2MzQ4LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.NAmux3wbYsFxs6IO-1YORG8v7s_rBeJ9Myoo_J3AwMDVFPuNolmMAfmRe1r0Bn9HM2pIxFLgtubnEWMTNdwOldBepO6LSboRtAywXdL9izrtCEaqZvj6IAHrB3MCMhBpvJABvNlW1Hte-QOdZnQHoWeT3PvoXT8WlsokzttvhknrDN9yqJFpTJ9wjWsHLr5OVGRsUNYVuucGaUXvG16lm8gi9mt6upkD4ooossSH3UR1kL06lIIhzKMGOr9xO1G_RWbV5NnKCWMUAs5MIJcCGM_oRUPVhJPBhavXf9W0okbfZ27yu7TZu3mmpTiDZ3YO3hGedkwEaniDSw5JSpb2PA%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

@@ -1,0 +1,262 @@
+# 🦞(Blood) Red Lobster🦞
+
+**Source:** inputs/old stuff/Docs/Blood RedLobster_052224.html
+**Processed:** 2025-08-24T19:49:07.621217
+
+# 🦞(Blood) Red Lobster🦞
+
+[![](https://substackcdn.com/image/fetch/w_2048,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe2a2b21-81e9-49bf-b041-550312904603_1024x680.jpeg)](https://substack.com/redirect/ea14738d-2d2e-4b9c-bb41-0e02c1b96aa6?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: Getty Images
+
+THE. MOTHERF\*CKING. GOLDEN. AGE. OF. PRIVATE. CREDIT. Y’ALL.
+
+On May 19, 2024, Orlando-based **[Red Lobster Management LLC](https://substack.com/redirect/bff71b66-0e5f-44c9-9ddc-20e84de4280f?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)** (“Red Lobster”) and 14 affiliates (collectively, the “debtors”) [filed chapter 11 bankruptcy cases](https://substack.com/redirect/1b0cfd02-edac-4de5-93aa-6f0489436307?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8) in the Middle District of Florida (**Judge Robson**).\*
+
+The dine-in restaurant chain was founded in 1968 by **Bill Darden** and acquired by **General Mills Inc** ($GIS) in 1970. Rapid expansion followed and in 1995, General Mills spun off its restaurant division as **Darden Restaurants Inc** (“Darden”), a publicly traded company. In ‘14, **Golden Gate Capital** acquired Red Lobster [through a $2.1b LBO transaction](https://substack.com/redirect/e97572c8-c422-4449-9143-38037d327977?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8) that was in part financed through $1.5b in sale-leaseback transactions. This deal was quite contentious at the time due to **Starboard Value LP**’s [vocal opposition](https://substack.com/redirect/e8ecc513-9576-469a-9d9b-622e839030ec?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8) (Starboard held a 5.5% stake in Darden).
+
+Just two years later, in ‘16, Golden Gate Capital started offloading its ownership through a $575mm investment from Thailand based seafood producer, **Thai Union Group Public Company Ltd ($TU)**, for a 49% stake. And in ‘20, Golden Gate Capital sold its remaining stake to a group consisting of TU, former management and other third party investors (collectively, the “Seafood Alliance”).
+
+As of the petition date, the debtors own and operate 551 restaurants across the United States and 27 locations in Canada. The debtors also have 27 franchised locations in Mexico, Ecuador, Japan, and Thailand. In total, these locations are backed by 36k employees, making Red Lobster the largest casual dining seafood chain in the US.
+
+But everyone knows it’s not how big your lobster tail is, it’s how you use it. And Red Lobster definitely did not know the motion of the ocean, so to speak.
+
+Obviously COVID did a number on the debtors’ sales, but there was almost no semblance of a post COVID comeback.
+
+Annual guest count declined by 30% since ‘19 and while net sales rebounded modestly by 25% from ‘21 to ‘23 following the pandemic, the tides turned in the twelve months leading up to the bankruptcy with net sales on a downward trajectory. Adjusted EBITDA over the LTM fell by more than 60% and the debtors booked a $76mm net loss during FY’23.
+
+And like a lobster out of water, liquidity was drying up. In May ‘23, the debtors had ~$100mm in cash but over the next 6 months, that figure fell to less than $30mm, forcing the debtors to institute holds on vendor payments.
+
+Inflation obviously took its toll on the debtors. Casual sit down dining for the middle class is a tough sell when the middle class is becoming less and less middle. Rising labor costs paired along with rising product costs also hit the debtors’ income statement with a one-two combo.
+
+But most amusingly, Red Lobster points to its Ultimate Endless Shrimp (“UES”) promotion as one of the main reasons for its collapse. Per the [first day declaration](https://substack.com/redirect/d187dc38-11f3-4170-aa02-9421f29bc3db?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8) of CEO, **Jonathan Tibus** (of **Alvarez & Marsal**):
+
+> *“Historically, the Debtors’ Ultimate Endless Shrimp (“UES”) promotion was utilized as a limited-time promotion. In May 2023, however, Paul Kenny, the Debtors’ former CEO, made the decision to add UES as a permanent $20 item to the menu despite significant pushback from other members of the Company’s management team. This decision created both operational and financial issues for the Debtors, costing the Debtors $11 million and saddling the Company with burdensome supply obligations, particularly with its equity sponsor, Thai Union. The Debtors are currently investigating the circumstances around these decisions.”*
+
+Rut roh. That sounds bad. But it gets worse:
+
+> *“Furthermore, I understand Red Lobster’s supply process was strained by virtue of its relationship with Thai Union, which, in addition to being the Company’s equity sponsor and 100% owner of Red Lobster Master Holdings GP, has historically been a large-scale supplier to Red Lobster. I understand that Thai Union exercised an outsized influence on the Company’s shrimp purchasing, as indicated by, for example, Mr. Kenny’s April 2023 purported direction to Thai Union to continue producing shrimp for Red Lobster that did not flow through the traditional supply process or bid cycle or adhere to the Company’s demand projections. I also understand that in apparent coordination with Thai Union and under the guise of a “quality review,” Mr. Kenny made a series of decisions that eliminated two of the Company’s breaded shrimp suppliers, leaving Thai Union with an exclusive deal that led to higher costs to Red Lobster.”*
+>
+> *“The Debtors are exploring the impact of the control Thai Union exerted, in concert with Mr. Kenny and other Thai Union-affiliated entities and individuals, and whether actions taken in light of these parties’ varying interests were appropriate and consistent with applicable duties and obligations to Red Lobster.”*
+
+LOL we like to call this one “shrimpgate.”
+
+According to the debtors, TU be like:
+
+[![](https://substackcdn.com/image/fetch/w_459,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13a0ba5c-2580-4bf6-b236-e5d46eaaf509_459x321.png)](https://substack.com/redirect/98b25dec-ada8-42ab-b26f-84126af15a85?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: PETITION Meme Department
+
+Maybe Red Lobster could’ve avoided some of these losses if they implemented price discrimination for their UES like this restaurant from Malaysia:
+
+[![](https://substackcdn.com/image/fetch/w_1116,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8e23d74a-3e45-4dd0-a202-259d2363d8a0_720x806.jpeg)](https://substack.com/redirect/30bfe824-da87-4741-9e47-4e9046692f5b?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: Reddit
+
+Customers were evidently eating good:
+
+[![](https://substackcdn.com/image/fetch/w_1196,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb254ea8b-cf6f-44ed-8122-d1b81d2d287a_753x596.png)](https://substack.com/redirect/c452c7d6-0092-44fa-a976-298576d82001?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: PETITION Meme Department
+
+But the debtors weren’t faring nearly as well:
+
+[![](https://substackcdn.com/image/fetch/w_1116,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ddc31da-1d0a-4cbc-a688-a448719d774a_558x447.jpeg)](https://substack.com/redirect/72d9f807-c103-4ad9-b3b2-ce748870c268?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: PETITION Meme Department
+
+Meanwhile, **Fortress Credit Corp**, as the pre-petition term loan lender, was looking at all of this — the TU conflicts, the poor management, the disastrous promotions — and be like:
+
+[![](https://substackcdn.com/image/fetch/w_480,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F87162e78-c4b9-483f-92ab-2b774eaae3c8_480x480.gif)](https://substack.com/redirect/d783f57f-5138-4796-8cb8-ecfe076e0eda?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: GIPHY
+
+So what happened next? Well cue the backing track:
+
+![](https://substackcdn.com/image/fetch/w_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fthumbnail-play.png)
+
+![](https://i.scdn.co/image/ab67616d0000b273863e0e305637100311c91aa7)
+
+Knives Out
+
+Radiohead
+
+*🎵I want you to know, He's not coming back.🎵*
+
+Per Mr. Tibus:
+
+> *In December 2023, after the occurrence of events of default, **the Prepetition Term Loan Agent exercised equity proxy rights granted to it by Holdings in connection with the Prepetition Term Loan Agreement and related loan documents. This gave the Prepetition Term Loan Agent the contractual ability to replace the Debtors’ existing directors (or managers, in the case of limited liability companies).** At that time, the Prepetition Term Loan Agent removed all existing managers and directors of the Debtors and replaced them with Lawrence Hirsh, an independent director with more than thirty years of restructuring expertise.* (emphasis added)
+
+…at Alvarez & Marsal, LOL. Wonder how Mr. Tibus eventually got this gig, 🤷‍♀️🙄.
+
+Mr. Tibus continues:
+
+> *Following the appointment of Mr. Hirsh, the Debtors and the Prepetition Term Loan Lenders were engaged in discussions aimed at effectuating an out-of-court restructuring of the Debtors’ capital structure. Thai Union and the Debtors **(who, at that time, were advised by different professionals)** engaged in negotiations with the Prepetition Term Loan Lenders to create a new equity structure in which the Prepetition Term Loan Lenders would acquire approximately 80% of the restructured company, with Thai Union retaining a minority equity interest. These negotiations were ultimately unsuccessful.* (emphasis added)
+
+Advised by different professionals? Yup, that’s right. By this point, Fortress’ displeasure was presumably unquantifiable — *endless*, if you will — and it, with Mr. Hirsh as its weapon, unleashed a wave of assassinations:\*\*
+
+[![](https://substackcdn.com/image/fetch/w_1332,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56979222-db1b-4710-ad19-8a78e3869b71_666x500.jpeg)](https://substack.com/redirect/3a3af031-d363-402e-8576-4dbb687fb788?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: PETITION Meme Department. Note: this is AFTER Weil had replaced prior counsel, **Baker Hostetler LLP**, itself shanked to the tune of a $331k claim, making it the 12th largest unsecured creditor. There’s a trail of bodies around this turd and not because of too much subpar lobster.
+
+Shortly thereafter,in January ‘24, **Mr. Hirsch** retained his old homeboys at **Alvarez & Marsal LLC**.
+
+In February ‘24, Fortress had to extend an extra $20mm for working capital purposes which we’re sure they were thrilled about. But TU was a partner, right? Nope, they kept their hands in their pockets.
+
+By March ‘24, the debtors presumably engaged **King & Spalding LLP** (which has quite a track record with Mr. Tibus) and engaged folks at **Hilco Corporate Finance** (likewise) as investment bankers to initiate a marketing and sale process. In tandem, discussions were also taking place regarding DIP financing.
+
+Which brings us to the debtors’ cap stack. The debtors’ pre-petition funded debt stands at $294mm, most of it from Fortress’ pre-petition term loan dated January ‘21:
+
+[![](https://substackcdn.com/image/fetch/w_507,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8472cb48-3551-483b-9d35-13b646894ce8_507x146.png)](https://substack.com/redirect/6044ad64-85a8-4d89-b983-63dfa91889db?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: [Docket #6](https://substack.com/redirect/d187dc38-11f3-4170-aa02-9421f29bc3db?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+And ultimately it was Fortress who stepped up to the plate and entered into a restructuring support agreement (“RSA”) on May 9, 2024. The DIP contemplated under the RSA includes a $100mm new money injection ($40mm on interim and $60mm on final) along with a $175mm roll-up of the pre-petition term loan ($70mm on interim and $105mm on final).\*\*\*
+
+The DIP carries an interest rate of SOFR+10.5% for both the DIP term loan portion and the roll-up portion however interest on the DIP term loan portion is to be paid in cash while interest on the roll-up portion is to be PIK. There is also a $100k agent fee, a 1% upfront fee on the principal of the DIP term loan portion, and a 3% exit fee. The DIP matures in 120 days.
+
+Fortress is also acting as the stalking horse bidder here with a credit bid of 100% of the DIP loans ($275mm) and is looking to close out a sale in 75 days according to the milestones outlined in the RSA:
+
+[![](https://substackcdn.com/image/fetch/w_528,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8e8a8c5-df07-47d6-9d03-18bdcc6cf3a7_528x314.png)](https://substack.com/redirect/8958c073-ae27-4ab3-9971-03fa9065bf16?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: [Docket #6](https://substack.com/redirect/d187dc38-11f3-4170-aa02-9421f29bc3db?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+And of course Fortress doesn’t want to be holding a dud at the end, so the debtors have got to right-size the business. And what better way to do that than lease rejections.
+
+After all, according to Mr. Tibus:
+
+> *“A material portion of the Company’s leases are priced above market rates. The Company currently leases 687 locations (247 in Master Leases and 440 individual property leases). In 2023, the Company spent approximately $190.5 million in lease obligations, over $64,000,000 of which relate to underperforming stores.”*
+
+The debtors are off to a blazing start. With the help of **Keen-Summit Capital Partners LLC** as real estate advisor, the debtors have filed four motions to reject a total of 228 leases.\*\*\*\*
+
+The debtors were able to push through their interim orders during the first day hearing in the face of a few US Trustee objections and a second day hearing is now set for June 14 at 9:30am ET.
+
+The debtors are represented by **King & Spalding LLP** (W. Austin Jowers, Jeffrey Dutson, Sarah Primrose, Christopher Coleman, Brooke Bean, Michael Fishel, Taeyeong Kim), **Berger Singerman LLP** (Paul Singerman, Nicolette Vilmos) and **Blake Cassels & Graydon LLP** (Linc Rogers, Caitlin McIntyre) as legal counsel, Alvarez & Marsal LLC (Jonathan Tibus, Nicholas Haughey) as financial advisor, Hilco Corporate Finance as investment banker, and Keen-Summit Capital Partners LLC as real estate advisor. Fortress Credit Corp is represented by **Proskauer Rose LLP** (Charles Dale, Megan Volin) and **Trenam Kemker Scharf Barkin Frye O’Neill & Mullis PA** (Lara Fernandez) as legal counsel.
+
+##### \*On account of the 27 restaurants owned and operated by Red Lobster in Canada, Red Lobster also intends to file a CCAA.
+
+##### \*\*Good on Weil Gotshal & Manges LLP for [turning this into a teaching moment](https://substack.com/redirect/f05bf611-bc4a-4170-bcbd-85a7d5e0f295?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8). On May 14, 2024, they wrote — without any specific mention of Red Lobster — of the viciousness with which the private credit space might operate:
+
+> ##### *Recently, however, some lenders (particularly in the middle-market private credit space) have sought to short-circuit the traditional restructuring process. Rather than negotiate with their borrower on the terms of a forbearance or more holistic capital structure solution, certain middle-market private credit lenders have turned to previously underutilized provisions in security documents — the exercise of voting rights given to a collateral agent through a voting proxy as part of the pledge of a borrower’s equity, otherwise known as pledged equity proxy rights.*
+
+##### They continue:
+
+> ##### *But, when a proxy is granted as part of the collateral package, the occurrence of an event of default often will empower the collateral agent to exercise the rights of a borrower’s shareholders to appoint board members (i.e., the pledged equity proxy rights) if so directed by the required lenders. If that happens, the collateral agent can exercise such pledged equity proxy rights to remove existing directors and “flip” the board, installing directors friendly to lenders instead. Further, if the company has also pledged equity of any of the borrower’s subsidiaries (which often happens), the collateral agent can remove and replace directors at those subsidiary boards as well. Credit documents vary on how much notice is required prior to the exercise of such pledged equity proxy rights, with a trend, at least in private credit deals, toward no notice requirement at all or notice contemporaneous with the exercise of the pledged equity proxy rights, following the occurrence of an event of default.*
+>
+> ##### *Once lenders have control of a borrower’s board, they can replace officers, hire advisors and otherwise direct the governance of the company, notwithstanding equity ownership of the sponsor or public shareholders.*
+
+##### Hmmm. That fact pattern sounds eerily familiar! Wonder why it was topical, 🤷‍♀️.
+
+##### \*\*\*Some use of proceeds: there’s [$49.8mm](https://substack.com/redirect/c28244e0-a937-4ae6-af08-670ac9f43a12?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8) of 503(b)(9) admin claims to pay!
+
+Thank you for reading **PETITION**. This post is public so feel free to share it.
+
+[Share](https://substack.com/app-link/post?publication_id=4&post_id=144764463&utm_source=substack&utm_medium=email&utm_content=share&utm_campaign=email-share&action=share&triggerShare=true&isFreemail=true&r=9oyk0&token=eyJ1c2VyX2lkIjoxNjI4MTA3MiwicG9zdF9pZCI6MTQ0NzY0NDYzLCJpYXQiOjE3MTYzNzk3MTIsImV4cCI6MTcxODk3MTcxMiwiaXNzIjoicHViLTQiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.PTjeCetuKkGEbKWndMhCNL3kup622_WnGwaU2uSxd-s)
+
+### 💩The "Golden Age.” Part IV.💩
+
+When PA-based **[New rue21 Holdco, Inc.](https://substack.com/redirect/69872041-c702-4424-b14b-0b672cdab206?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)** (“rue21”) and five affiliates (collectively, the “debtors”) filed chapter 11 bankruptcy cases in the District of Delaware (**Judge Shannon**) back on May 2, 2024, our coverage …
+
+[![](https://substackcdn.com/image/fetch/w_140,h_140,c_fill,f_auto,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a921840-02b4-446b-bb71-9c4d56812588_500x544.png)](https://substack.com/redirect/0bcc0d59-a44c-435b-bf6f-bfe69cc94832?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+#### [💥The "Golden Age." Part III.💥](https://substack.com/redirect/0bcc0d59-a44c-435b-bf6f-bfe69cc94832?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+May 5
+
+Read full story
+
+…highlighted the role of private credit in the debtors’ story (“*While this may look like your run-of-the-mill retail bankruptcy story, it isn’t. Nope, it’s a story about the ‘golden age of private credit.’*”).
+
+Specifically, we discussed how **Blue Torch Capital LLC** (“Blue Torch”) repeatedly sank a bunch of dough into the name — the functional equivalent of simply lighting it all on fire (we’ll spare you yet ANOTHER flamethrower gif!).
+
+We noted that:
+
+📍In January ‘22, the debtors entered into an $85mm term loan credit agreement with Blue Torch secured by a first priority security interest and lien on the equity interests of rue21 and certain real and personal property (read: the FF&E and IP). Blue Torch otherwise got a second priority lien on the ABL collateral (lol).
+
+📍In or around August ‘22, the debtors needed more capital and Blue Torch put an additional $25mm in the company in exchange for warrants that were subsequently exercised, giving Blue Torch ~80% ownership of rue21 (LOL).
+
+📍After that infusion failed to do the trick and two months later the debtors defaulted under their ABL credit agreement and term loan agreement. As part of an amendment process involving both the debtors’ ABL and term loan, Blue Torch upsized the term loan from the $85mm to ~$165mm (LULZ).
+
+And hence, the debtors’ capital structure looked like this on the petition date:
+
+[![](https://substackcdn.com/image/fetch/w_1270,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00740e1b-915f-4418-96cf-f101c9dd6d68_635x129.png)](https://substack.com/redirect/396181bf-9311-4f7d-872f-2426b73c9f89?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: Docket 17
+
+That’s quite a large nut to cover in a liquidation. According to the debtors’ cash collateral budget, BofA’s security interest in and lien on receivables will be just enough to cover the outstanding pre-petition ABL nut — that is, if you actually believe the budget and performance comports (both big ‘ifs’). Blue Torch, however, doesn’t look so “lucky.” We previously wrote:
+
+> *How will Blue Torch fare? How much will it recover on its tens of millions of dollars infused into this situation?*
+>
+> *Well, they have that security interest in the equity (LOL … 🍩) and the FF&E and intellectual property. Contemporaneous with the GOB sales, the debtors will attempt to sell those assets to maximize value for creditors. LOLOLOLOL.*
+>
+> *There was some mention at the debtors’ first day hearing that there might be a bid for the IP out there but, if not, we’ll get the bidding started at 99 cents only.*
+
+Well gosh darnit, our bid apparently isn’t going to get it done.
+
+On May 16, 2024, the debtors’ filed a “Notice of Debtors’ Entry Into Stalking Horse APA.” According to the APA filed therewith, the debtors seek to sell, among other things, their intellectual property (e.g., copyrights, internet domains, social media accounts, patents, trademarks, clothing designs, etc.) to **YM Inc.**\* So, yippee! There was some interest!! But at what bid? Here’s how the debtors’ define the Purchase Price:
+
+> *Purchase Price. The aggregate consideration for the Purchased Assets (the “Purchase Price”) shall be (a) an amount in cash equal to the Deposit plus (b) an amount in cash equal to the Closing Date Payment ((a) and (b), together, the “Cash Purchase Price”), plus (c) the assumption of Assumed Liabilities, plus (d) $1,500 (the “Cost Cover”) to cover the costs and expenses associated with the Sale Deposit Account Agent Agreement (as defined below).*
+
+What does that all mean? It’s not entirely clear but based on the meaning of some of these defined terms in the APA, it appears that the cash consideration in the sale — putting aside the value of assumed liabilities — will be at least a $3,975,000 deposit and a minimum FF&E Purchase Amount of $975k.
+
+So, uh, less than $5mm total.
+
+Against $164.7mm.
+
+You can do the math on the abysmal recovery that those figures represent. Spoiler alert: it’s ugly.
+
+[![](https://substackcdn.com/image/fetch/w_1210,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F015e6e59-0069-425d-a756-b85bdb0a0001_605x412.jpeg)](https://substack.com/redirect/dd9d7e22-7477-4366-9f2c-dd07e3ab3561?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: PETITION Meme Department
+
+THE. MOTHERF\*CKING. GOLDEN. AGE. OF. PRIVATE. CREDIT. Y’ALL.
+
+A bid procedures motion filed in connection with this proposed sale is scheduled for May 24, 2024 at 11:00 a.m. (ET)
+
+##### \*YM Inc. is represented by Goulston & Storrs PC (Douglas Rosner, Brendan Gage) and Morris Nichols Arsht & Tunnell LLP (Derek Abbott, Matthew Talmo). It has negotiation bid protections that include a $90k break-up fee and an expense reimbursement not to exceed $75k. The initial bid increment is proposed to be $150k.
+
+### 🔥To Cut or not to Cut, that is the Question🔥
+
+All eyes are on earnings out of **Nvidia Inc. ($NVDA)** tonight. Is the future unfurling before our very eyes?
+
+The S&P 500 is near a record; the DJIA is bouncing around 40k, and everyone is just waiting for Nvidia to pull the trigger on the starting gun. Or, alternatively, maybe the bulls will glom on to the decision by the Administration to drain the Northeast Gasoline Supply Reserve:
+
+> *“The Biden-Harris Administration is laser focused on lowering prices at the pump for American families, especially as drivers hit the road for summer driving season,” said **U.S. Secretary of Energy Jennifer M. Granholm.** “By strategically releasing this reserve in between Memorial Day and July 4th, we are ensuring sufficient supply flows to the tri-state and northeast at a time hardworking Americans need it the most.”*
+
+They care! They are about everyday Americans like you and us! Point here is this: financial markets are not “efficient.” That is not what the prices of financial assets are intended to signal. Their purpose is not “price discovery.” It is to enable, rather ensure, that the prices of broadly held assets increase, rather than decrease. Investors and traders naturally support this goal. But sometimes, they need . . . perhaps help is not the right word … maybe a spark? … an impetus? … an excuse? Something. A number, or the component of a number, that’ll goose the old animal spirits like a shot of cheap rye.
+
+So that is what Nvidia had damn well better deliver, especially before a three-day weekend. If it’s a bad number, watch out! But let’s be positive. Miracles do happen. Last Wednesday, investor patience was rewarded, and with dividends even. And it was after month after cold and uncaring month of patience: three previous higher than expected inflation prints!
+
+Behold consumer prices for April. On a month over month basis: headline 0.31% vs 0.38%, consensus 0.4%, core 0.29% vs 0.36%, consensus; year over year, headline 3.36% vs 3.48%, consensus 3.4%; core 3.61% vs 3.8%, 3.6% consensus.
+
+[![](https://substackcdn.com/image/fetch/w_1774,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6421fe8b-0bff-4216-aaf1-74d0998dfef9_887x503.png)](https://substack.com/redirect/ee78e672-512e-42fb-aaed-a2fa2bfc21a3?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: J.P.Morgan
+
+Care to comment on the downward movement, those who would question the management of interest rates? Yes, it’s one report but such is the beginning of all great things. Across the board declines compared to the year-ago levels. It starts here, baby: a trend lower. Here’s some details, per the vampire squid at **Goldman Sachs**: a 31-month low in the report’s main measure of rent, declines in car prices, with “*much of the strength still coming from lagged catch up in OER and car insurance.*”
+
+And word from our pals on “the desk” is that the Fed will be “cool” with “hot” inflation for a while. We apologize for the truly dreadful play on words, but what’s meant is that **Fed Chairman Jerome POW-ell** et al will wink for a while – sagely and with appropriate noises of concern – at an inflation rate in the 3% area rather than their magical and mystical 2%. How long is this “for a while”? *Reply hazy, as again later*, or put another way, be patient. Of course, “patience” is rapidly evolving into a luxury item, in economic terms, but we digress:
+
+[![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9f44d53-3c7a-42de-a01c-42c1b891b562_1600x686.png)](https://substack.com/redirect/03499094-457e-4e71-b7bb-30b10c8fa9da?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Source: Forbes Advisor
+
+Oh, they’ll be fine! One reason prices are higher is that people are making more money (and need to be more grateful). And . . . CPI is not the Fed’s preferred inflation gauge? So what? And so what if response rates to government surveys have crumbled? So what if the survey was designed for a manufacturing economy that no longer exists? So what?
+
+Because that shows that a rate cut in September remains on the table – in fact, the market now appears to be pricing in two rate cuts in ‘24 again! And, for our lovely investors and traders, that’s a good thing – for distressed professionals already staring down a dearth of opportunities, not so much. Stocks rose. 40,000 for the DJIA! One assumes the NYSE passed out ballcaps and ties.
+
+The alternative to the generally good feelings borne of CPI’s cooperation with the market would have been dreary, A fourth higher than expected CPI print would leave the market no choice but to (petulantly) kick the First Rate Cut to . . . well, “Reply hazy, ask again later.” And that will not do, we’re afraid, because it’s important, you see, that something be done here before November. So, Chairman POW-ell. Let’s just say there’s a lot of people hoping that you make the right decision.
+
+(And, we are pleased to report, some of Powell’s elves are out there making the right sort of noises. **Raphael Bostic** (Atlanta) and **Christopher Waller** (Governor) were both out today saying that further rate hikes are “unnecessary”. Waller even said that April CPI showed that “progress toward 2% has likely resumed.)
+
+(And let us add, Chairman, that we wish for your [swift recovery](https://substack.com/redirect/db6ce886-70c5-4f44-90b9-e8cb81d025af?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8) from Covid-19.)
+
+### **📚Resources📚**
+
+We have compiled a list of a$$-kicking resources on the topics of restructuring, tech, finance, investing, and disruption. 💥**[You can find it here](https://substack.com/redirect/608c1e65-b205-4d6e-a882-3644518a7116?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)**💥.
+
+### **💰New Opportunities💰**
+
+[![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F03b4959b-5b5c-4f32-ab9d-c3f382d7b4f4_1782x356.png)](https://substack.com/redirect/19c027d5-9c3f-4a75-9eb9-40601215f1f8?j=eyJ1IjoiOW95azAifQ.3I-y5PDezjo-i0ls31AGTIH4E8sNNl31puiktHvNIm8)
+
+Looking for quality people? **PETITION** lands in the inbox of 1000s of bankers, advisors, lawyers, investors and others every week. **Email us at petition@petition11.com** to learn about posting your opportunities with us.

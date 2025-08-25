@@ -1,0 +1,158 @@
+# =?UTF-8?q?Musk-Trump_Merger_Math_&_Ari=E2=80=99s_=E2=80=9CNecessary?=
+ =?UTF-8?q?=E2=80=9D_Sale?=
+
+**From:** "William D. Cohan" <william@puck.news>
+**Date:** Thu, 14 Nov 2024 00:15:24 +0000
+**Source:** inputs/saved_emails/=UTF-8qMusk-Trump_Merger_Math_&_Ari=E2=80=99s_=E2=80=9CNecessary=
+ =UTF-8q=E2=80=9D_Sale=_Thu,_14_Nov_2024_00-15-24_+0000_19328066f133fd12.eml
+**Processed:** 2025-08-24T19:13:09.619647
+
+Welcome back to Dry Powder. The absurd rumor that Donald Trump and Elon Musk are planning to combine X and DJT tells you everything you need to know about the state of the country at this moment. In today’s issue, I take a close look at whether the potential deal makes good business sense—or any business sense, for that matter.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+Dry Powder ( https://puck.news/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Daily Courant ( https://www.nyse.com/events/nyse-tech/2024-summit-nyc?utm_source=paid&utm_medium=puck_drypowder&utm_content=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#looking-ahead )
+
+Welcome back to Dry Powder. I’m Bill Cohan.
+
+The absurd rumor that Donald Trump and Elon Musk are planning to combine X and DJT tells you everything you need to know about the state of the country at this moment. In today’s issue, I take a close look at whether the potential deal makes good business sense—or any business sense, for that matter.
+
+But first…
+
+* Ari’s “necessary” steps: Ari Emanuel is in the middle of some pretty serious deal heat. After fruitlessly taking Endeavor public following the worst of Covid—it was a reopening play, as you’ll recall—he has since agreed to sell the business to Silver Lake
+Partners, his longtime investor, in a take-private valuing the company at $13 billion. (The deal is expected to close next year and is another step on Ari’s path to becoming a billionaire.) As my partner Matt Belloni has noted ( https://puck.news/inside-endeavor-silver-lake-deal/?1731450598&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), this transaction netted Ari and his partners a series of goodies: lump-sum payments, quarterly royalty fees from WME, private jets, golden parachutes, eight-figure asset-sale bonuses, etcetera. Ever since the take-private announcement, Ari has appeared highly motivated to take action quickly, before the deal closes. In October, he jettisoned a big chunk of IMG, the sports management company for which he overpaid by some $500 million when he bought it from Forstmann Little in 2013. He
+also got rid of Professional Bull Riders and On Location, the event experience company.
+
+And who bought those businesses, you might ask? Why, the Endeavor affiliate TKO, parent company of WWE and UFC, which is paying with $3.25 billion in TKO stock, increasing Endeavor’s stake in the publicly traded wrestling-and-MMA company to 59 percent. Of course, Ari is also the C.E.O. of TKO—and its executive chairman. I’m sure it was all done in an arm’s-length way, with Moelis & Co. rendering the requisite fairness opinion. As I reported at the time, at least Ari didn’t receive a bonus for this asset sale.
+
+But an even more curious deal was announced on Monday: Endeavor revealed that Ari is personally buying several other assets from Endeavor—again, prior to the closing of the go-private deal with Silver Lake. According to the press release, Ari is paying $450 million for two businesses: IMG Arena, which provides
+“streaming and data feeds” for more than 65,000 events; and OpenBet, a “world leader in sports betting entertainment.” No financial information was shared, other than the purchase price. We did learn, however, that the sale of these assets was “a necessary step for the closing of the proposed Endeavor take-private.” Go figure.
+
+This disclosure crystallized what many investors have long known: Endeavor’s hodgepodge of assets never made much sense bundled together. And presumably, Silver Lake principal Egon Durban would only agree to acquire those Endeavor assets with real promise—thereby forcing (or encouraging with attractive incentives) Ari to lay the rest out on a blanket.
+
+If the whole transaction isn’t odd enough, Ari received financial advice from the Raine Group, the Los Angeles-based media advisory boutique that used to be owned in part by Endeavor, and which has been advising Ari and Endeavor on deals for years. (Disclosure:
+Endeavor’s WME represents Puck, but not me personally.)
+* The Iger succession twist…: Last month in Dry Powder, I reported ( https://puck.news/disney-board-chair-james-gorman-must-find-bob-iger-heir-but-where/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that the next C.E.O. of Disney, post Bob Iger, could possibly come from outside the company. That’s right, neither Jimmy Pitaro, the chairman of ESPN; nor Josh D’Amaro, head of Disney’s theme parks; nor Alan Bergman or Dana Walden, the two executives running Disney’s filmed entertainment divisions, are likely to succeed Iger when his extended contract expires at the end of 2026. My Wall Street soothsayers suggested that James Gorman, the new Disney board
+chairman (and my b-school classmate) would be running a highly credible process, in which he would have little choice but to consider outsiders. Now, two weeks later, The Wall Street Journal is reporting ( https://www.wsj.com/business/media/disney-explores-wider-field-of-candidates-to-succeed-iger-d1876792?st=wuzuDL&reflink=article_copyURL_share&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the same thing.
+
+Yes, I suppose it’s certainly possible that James could work through all the names that Heidrick & Struggles puts forth and then decide that the best candidate is inside the building. (My partner Dylan Byers reports today that many people around the company still view Walden as the
+frontrunner.) But the Journal’s confirmation of my reporting is further evidence that Gorman, and probably Iger, too, recognize Disney needs to at least consider an outside voice to navigate the ongoing headwinds in streaming, linear, etcetera, buffeting Disney’s various business lines. Anyway, James, I’m happy to suggest some names! Just hit reply or text me.
+
+And now, the main event: those DJT-X rumors...
+
+The X/DJT Merger Deal Book ( https://puck.news/the-x-djt-merger-deal-book/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The X/DJT Merger Deal Book ( https://puck.news/the-x-djt-merger-deal-book/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Crunching the numbers on a Mar-a-Lago meme stock fever dream.
+
+WILLIAM D. COHAN ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+WILLIAM D. COHAN ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+One of the more interesting post-election fever dreams making the rounds on Wall Street involves X, formerly known as Twitter, and Trump Media & Technology Group, the publicly traded SPAC that merged with Donald Trump’s Truth Social and now trades under the symbol DJT, naturally. The idea is that the privately held X, owned largely by Trump’s new buddy Elon Musk, would merge with DJT, owned largely by the next president of the United States, as a way for X to go public. In theory, the merged public company’s value would soar, making both Trump, who owns around 60 percent of DJT, and Musk, the world’s richest man, even richer. Kara Swisher even mulled the possibility on a recent episode of Pivot.
+
+But does a deal between X and DJT make any sense at all? Well, almost anything is
+possible on Wall Street, as long as it’s legal. And there’d be nothing illegal about a combination of X and DJT, at least from a regulatory perspective. I don’t even think Lina Khan, the crusading, soon-to-be defenestrated commissioner of the Federal Trade Commission, would object to the deal on antitrust grounds. But does it make good business sense? Or any business sense?
+
+The ingredients for a combination of X and DJT do seem to be in place, at least at first blush. The principal owners of the two companies appear to be enjoying a particularly vibrant bromance, with Musk reportedly camped out at Mar-a-Lago since last week. (There were even rumors that Musk would accompany Trump today during his trip to visit Biden in the White House.) Trump has also named Musk to be co-head of a so-called Department of Government Efficiency (DOGE, like the meme shitcoin)—a self-aggrandizing euphemism for what is essentially a blue-ribbon
+committee—supposedly to weed out waste in the federal government. So if they have the inclination to do a deal, their friendship would make that more likely. But could they reach a deal? Here’s where it gets complicated.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad2_title) ( https://www.nyse.com/events/nyse-tech/2024-summit-nyc?utm_source=paid&utm_medium=puck_drypowder&utm_content=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#looking-ahead )
+
+NYSE Tech Summit: What’s next with consumer experience?
+
+Eric Hippeau (Managing Partner, Lerer Hippeau) led a conversation with panelists including AJ Balance (CPO, Grindr), Chris Slowe (CTO, Reddit), Rob Seaman (CPO, Slack) and Eric Miao (Chief Strategy Officer, Attentive) that focused on enhancing user experience through various strategies, including AI and ML, emphasizing how central user behavior and feedback loops are in guiding product development. They also discussed a potential shift from text to voice interactions and the importance of seamless AI integration to enhance user experience. Virtual wingman anyone? Check out all the key takeaways from NYSE’s Tech Summit ( https://www.nyse.com/events/nyse-tech/2024-summit-nyc?utm_source=paid&utm_medium=puck_drypowder&utm_content=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#looking-ahead ).
+
+A 2,192x Valuation
+
+At the moment, DJT’s equity is valued at roughly $6.3 billion, meaning Trump’s 60 percent stake is worth around $3.8 billion. But, as is well known by now, that preposterous valuation—about the size of Bausch & Lomb or Alaska Airlines—is not based on economic fundamentals. In the first nine months of 2024, DJT generated a mere $2.6 million in revenue (not a typo) and generated losses of $363 million. That kind of financial performance is pretty hard to fathom. When you somehow try to reconcile that income statement with the $6.3 billion valuation, you’ve entered the land of the absurd. DJT released third-quarter earnings on Election Day, with C.E.O. Devin Nunes, the former California congressman, declaring, “This has been an extraordinary quarter for the company.” Thanks, Devin, that’s nice to hear. But Nunes did not
+offer any insight on a business model that makes no economic sense or a company that trades at an incoherent, batshit crazy 2,192x revenue.
+
+The only bright spot at DJT is that the company has no debt, and cash on hand of $673 million. Since there is no debt, there’s no immediate threat of bankruptcy, which would distinguish DJT from Trump’s other public and private companies, six of which filed for bankruptcy because of debt burdens that could not be repaid. (Others, such as Trump University and Trump Steaks, simply shut down.)
+
+Then there’s X. You’ll recall that Musk paid $44 billion for Twitter two years ago by raising $31 billion of equity—some $24 billion of his own cash, plus funds from friends and family including Larry Ellison ($1 billion) and Saudi Arabia’s Prince Alwaleed, who rolled over his $1.9 billion of Twitter winnings into Elon’s X—and borrowing the other $13 billion from a group of Wall Street
+banks, led by Morgan Stanley and Bank of America.
+
+X is now a private company, so information regarding its financial performance is hard to come by and is necessarily of the leaked variety, and thus needs to be taken with a whole brick of salt. But according to “internal documents” obtained by Bloomberg, X is expected to generate nearly $3 billion in revenue in 2024, most of it from ad sales, down from $3.4 billion in 2023 and $4.4 billion in 2022. Andrew Hutchinson, writing in Social Media Today, predicts that with annual interest expenses of $1.2 billion on the $13 billion of debt, X “looks set to post a significant loss in 2024, which could even result in bankruptcy for the former bird app.” In fact, if Musk, with a fortune these days of an astounding $319 billion—an increase of $90 billion so far in 2024 alone—weren’t making those $1.2 billion in annual interest payments, most of which is probably coming out of his own pocket,
+Twitter/X would likely have filed for bankruptcy long ago.
+
+Is there any equity value in X? I have long argued that the equity value of X has evaporated and that its $13 billion of debt would probably trade around 50 cents on the dollar. But as best as I can tell, none of that debt has been sold, although some of the banks have likely taken their writedowns while keeping those marks very quiet. Wall Street banks like to say they’re in the moving business, not the storage business, and they need to get that X sludge off their balance sheets, even though the interest payments are current thanks to Elon’s ongoing largesse.
+
+Some of X’s equity investors, though, are starting to face the reality that their investment in the company is close to worthless. Fidelity, for one, has marked down its equity investment by 80 percent. That’s still generous, but directionally correct, at least.
+
+$(ad3_title) ( https://www.nyse.com/events/nyse-tech/2024-summit-nyc?utm_source=paid&utm_medium=puck_drypowder&utm_content=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#looking-ahead )
+
+The X Enterprise Value
+
+According to Fidelity’s valuation, the X equity is worth 20 percent of $31 billion, or $6.2 billion. To calculate the enterprise value of X, we need to add in some value for the debt. Let’s be extremely generous and put that debt value at 75 cents on the dollar—less than par, but higher than the 50 percent whispers I’ve heard previously. That’s another $10 billion or so. This back-of-the-envelope math pegs the enterprise value of X these days at a charitable $16 billion.
+
+At a $16 billion enterprise value, X is valued at 5.3x 2024 revenue, as compared to DJT’s enterprise value of $5.7 billion (the $6.3 billion of equity value, less the $640 million of cash), which represents the aforementioned 2,192x revenue. In other words, even though the equity value of X and DJT are roughly similar—merger of equals, anyone?—it’s clear
+that DJT is wildly, insanely overvalued.
+
+Any arm’s-length negotiation of an X/DJT combination would have to acknowledge the absurdity of the DJT valuation. Without that concession, DJT shareholders and X shareholders could each end up owning 50 percent of the combined company, with Trump owning 30 percent (50 percent of his 60 percent of DJT) and Elon owning 39 percent (50 percent of his 78 percent of X). But that would be ridiculous. In the real world, Elon and his fellow X shareholders would have to end up with a disproportionate share of the equity of the combined company in recognition of DJT’s irrational stock price. That would mean massive dilution for DJT shareholders, including and especially Trump.
+
+Maybe Trump would go for a deal with X anyway—after all, he got his stake in DJT for free, so it’s all gravy for him. But most of the other DJT investors paid real money for their shares, and I figure they would be mighty
+upset to have their ownership diluted. That could mean shareholder lawsuits up the wazoo.
+
+Of course, it’s likely the normal M&A rules wouldn’t apply to this deal. I’m sure Elon would be more than happy to do whatever deal made Trump happy (after all, Elon apparently now works for The Donald—or vice versa), even though it would be foolish and not remotely fair to his shareholders. But who among them would complain? Ellison? The prince? A16z? Fidelity? (Okay, maybe Fidelity.) In other words, if Elon wants to make a sweetheart deal with Trump to get X into the public markets without getting underwriters involved or having to explain the company’s decline, he probably could.
+
+There are other complexifiers, too. Remember, X/DJT would also have to absorb X’s $13 billion of debt. Given the lousy income statement that the combined company would have, the value of the debt would be even more suspect than it is now. Elon could try to buy the debt
+back at a discount and retire it—something I’ve long suspected he might do. But absent an understanding that Elon would keep paying the interest on that $13 billion of debt, it seems highly unlikely that cash flow from the combined X/DJT would be able to cover those interest payments, suggesting that a default could be around the corner.
+
+I suppose that the equity of an X/DJT combination could benefit from the ultimate meme stock supernova, and Elon could contemplate selling out at a high—a Vulcan chess, theater-of-the-absurd possibility. (This is not investment advice.) Of course, that outcome would really leave the $13 billion of debt dangerously exposed, capsizing a hypothetical combined entity and leaving Nunes without any life rafts. I don’t know what happens to Linda Yaccarino, the C.E.O. of X, in this scenario. Probably nothing good.
+
+In truth, there’s no merger of X and DJT that makes any economic sense, not even close. But
+Musk is not a rational owner; he’s proven that with X already. And a normal president wouldn’t have failed to put his real estate company into a blind trust, nor would such a president want to own 60 percent of a public company with huge opportunities for manipulation and favor-currying. Most presidents would want to avoid any appearance of a conflict of interest or the suggestion that someone could influence him or her. In fact, the more I think about it, the more I am convincing myself that a deal between Trump and Musk to create X/DJT says all you need to know about the state of the country at this very absurd moment.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Warners’ I.P. War ( https://puck.news/is-hbo-max-the-pitt-just-er-with-a-new-title/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Warners’ I.P. War ( https://puck.news/is-hbo-max-the-pitt-just-er-with-a-new-title/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The latest twist in the legal feud over Max’s ER reboot.
+
+ERIQ GARDNER
+
+The Grenell Snub ( https://puck.news/ric-grenell-snub-marco-rubios-rise-the-maga-divide/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Grenell Snub ( https://puck.news/ric-grenell-snub-marco-rubios-rise-the-maga-divide/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The blowback as Trump begins stocking his cabinet.
+
+TARA PALMERI
+
+A Cecily Brown Christmas ( https://puck.news/is-cecily-brown-the-new-gerhard-richter/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A Cecily Brown Christmas ( https://puck.news/is-cecily-brown-the-new-gerhard-richter/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Shining a klieg light on compelling painter.
+
+MARION MANEKER
+
+Media M&A Murmurs ( https://puck.news/will-david-zaslavs-m-and-a-prayers-be-answered/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Media M&A Murmurs ( https://puck.news/will-david-zaslavs-m-and-a-prayers-be-answered/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Assessing the sports media business under Trump.
+
+JOHN OURAND
+
+Puck ( https://puck.news/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=dry_powder&delivery_id=dgT2xgYDAKvRKqrRKgGTKAYg5BZBrfZ5LfGW0J8=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F13%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2810%2F2%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

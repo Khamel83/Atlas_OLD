@@ -1,0 +1,375 @@
+# Money Stuff: FTX Was Not Very Careful
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Thu, 17 Nov 2022 13:46:54 -0500 (EST)
+**Source:** inputs/saved_emails/Money Stuff FTX Was Not Very Careful_Thu,_17_Nov_2022_13-46-54_-0500_(EST)_18486eb39d8c167f.eml
+**Processed:** 2025-08-24T19:13:05.174046
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        Programming note: Money Stuff will be off tomorrow, back on Monday.I don’t want to minimize the likelihood of intentional fraud and theft. S
+      
+    
+  
+  
+    
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Programming note: Money Stuff will be off tomorrow, back on Monday.
+
+  
+    
+      FTX
+    
+  
+
+I don’t want to minimize the likelihood of intentional fraud and theft. Stuff seems bad. But I want to say that the story of FTX also reads like what would happen if you and a few of your college friends set up a gigantic international financial exchange after like a year or two of working in finance. Oh, your friends are smart. They have decent intuitions about financial stuff; they have good ideas for what products to trade and how to trade them; they can code up a good-looking website. But do they have hard-won expertise, built up over many years, in accounting controls and business processes for running a giant organization? Are they excited about making sure all the paperwork is correct? No, that stuff is boring. Your friends are traders and engineers, not accountants and compliance officers. Also there just aren’t that many of them, and they are running a huge exchange; they are too busy for paperwork. They move fast and break things. They break so many things.
+Here is the  first day declaration from the chief executive officer of FTX Trading Ltd., John J. Ray III, in FTX’s Chapter 11 bankruptcy case in Delaware. Ray has not been the CEO of FTX for long, “having accepted this position in the early morning hours of November 11, 2022,” and imagine getting that 4:30 a.m. phone call. Before that, Ray had nothing to do with FTX; its CEO was its 30-year-old founder, Sam Bankman-Fried. But Ray is an old hand at big bankruptcies — he has “been the Chief Restructuring Officer or Chief Executive Officer in several of the largest corporate failures in history,” including Enron Corp. — so he got the call here. “I am over the age of 18,” says Ray in his declaration, and it seems relevant.
+  [1]
+
+Because the gist of this declaration is that, while Ray definitely doesn’t minimize the likelihood of intentional fraud and theft, mostly he is aghast at the children who ran FTX and had no idea what they were doing:
+Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here. From compromised systems integrity and faulty regulatory oversight abroad, to the concentration of control in the hands of a very small group of inexperienced, unsophisticated and potentially compromised individuals, this situation is unprecedented.
+He’s never seen anything this bad in his career, and he saw Enron! Where to begin? With the emojis?
+The Debtors did not have the type of disbursement controls that I believe are appropriate for a business enterprise. For example, employees of the FTX Group submitted payment requests through an on-line ‘chat’ platform where a disparate group of supervisors approved disbursements by responding with personalized emojis.
+That is not best practices, but I guess it is, like, you-and-a-few-of-your-buddies practices. If you and your friends set up a financial exchange and overnight it became gigantic, and you were like “I would like to pay $6 million for a Super Bowl ad for our suddenly gigantic business,” and your boss said “okay submit a request in our payments system and the marketing committee will approve it and then we will have the payments department disburse the money,” that would feel boring and formal. If you just type in the chat “I would like to pay $6 million for a Super Bowl ad,” and some more senior person — not your boss, just “a disparate group of supervisors” — gives you a thumbs-up, you might be like “oh, cool, what a cool company this is, we do Big Business based on emojis in the chat.” But it is not cool, it turns out.
+Certainly it makes Ray’s job hard. His basic job, as the CEO of a bankruptcy estate, is to figure out how much stuff FTX has, figure out how much it owes to its customers and other creditors, and parcel out the stuff among the customers and creditors. But all of that is basically impossible, because FTX kept disorganized halfhearted records of its stuff, its customers, its creditors, its employees
+  [2]
+ and everything else. It is hard even to tell what “FTX” was; Ray’s declaration describes four “silos” — international crypto exchange FTX.com (the “Dotcom Silo”), US-based crypto exchange FTX.us (the “WRS Silo,” because the top-level legal entity there seems to be West Realm Shires Inc.), crypto market-making and trading firm Alameda Research LLC, and FTX’s venture capital arm — all of which had overlapping ownership, unclear legal entities and intertwined financial accounts. 
+So here is how FTX, once reputed to be one of the most sophisticated crypto exchanges, kept its crypto:
+
+The FTX Group did not keep appropriate books and records, or security controls, with respect to its digital assets. Mr. Bankman-Fried and [Alameda co-founder Gary] Wang controlled access to digital assets of the main businesses in the FTX Group (with the exception of LedgerX, regulated by the CFTC, and certain other regulated and/or licensed subsidiaries). Unacceptable management practices included the use of an unsecured group email account as the root user to access confidential private keys and critically sensitive data for the FTX Group companies around the world, the absence of daily reconciliation of positions on the blockchain, the use of software to conceal the misuse of customer funds, the secret exemption of Alameda from certain aspects of FTX.com’s auto-liquidation protocol, and the absence of independent governance as between Alameda (owned 90% by Mr. Bankman-Fried and 10% by Mr. Wang) and the Dotcom Silo (in which third parties had invested).
+The Debtors have located and secured only a fraction of the digital assets of the FTX Group that they hope to recover in these Chapter 11 Cases. The Debtors have secured in new cold wallets approximately $740 million of cryptocurrency that the Debtors believe is attributable to either the WRS, Alameda and/or Dotcom Silos. The Debtors have not yet been able to determine how much of this cryptocurrency is allocable to each Silo, or even if such an allocation can be determined. These balances exclude cryptocurrency not currently under the Debtors’ control as a result of (a) at least $372 million of unauthorized transfers initiated on the Petition Date, during which time the Debtors immediately began moving cryptocurrency into cold storage to mitigate the risk to the remaining cryptocurrency that was accessible at the time, (b) the dilutive ‘minting’ of approximately $300 million in FTT tokens by an unauthorized source after the Petition Date and (c) the failure of the co-founders and potentially others to identify additional wallets believed to contain Debtor assets.
+
+In seeking rescue financing, Bankman-Fried   circulated a rough balance sheet showing about $9 billion of customer deposits. Against that $9 billion of deposits, FTX’s liquidators have found about $740 million of cryptocurrency, not counting the hundreds of millions of dollars of cryptocurrency that were drained from FTX’s poorly secured wallets when it filed for bankruptcy. They have also found about $564 million in cash, though, “because of historical cash management failures, the Debtors do not yet know the exact amount of cash that the FTX Group held as of the Petition Date.” There’s some crypto, there’s some cash, nobody quite knows how much, but it’s pretty clear that the basic answer is “not nearly enough.”
+There are other assets. There is a   $1 billion personal loan from Alameda to Sam Bankman-Fried, for instance? Also, though, Bankman-Fried’s rough balance sheet showed $3.2 billion in illiquid private investments, including $1.5 billion in “other ventures.” Those investments are, in theory, assets that are available to pay off creditors. Here is how Ray describes those investments:
+
+The FTX Group had billions in investments other than cryptocurrency, as suggested above in the descriptions of the four Silos. However, the main companies in the Alameda Silo and the Ventures Silo did not keep complete books and records of their investments and activities.
+The Debtors are creating a balance sheet and other financial statements for the Alameda Silo and the Ventures Silo as of the Petition Date. The Debtors are doing so from the ‘bottom-up’ by using the records of cash transactions at the Debtors, and also are reviewing various third-party sources to locate investments.
+
+Imagine being the new CEO of a giant investing firm, and coming in to work your first day and asking your employees: “So, what investments have we invested in?” And they answer: “I don’t know, why don’t you Google it, maybe there are some newspaper articles about the investments we made.” “Reviewing various third-party sources to locate investments”! FTX/Alameda made investments and didn’t write them down, but maybe somebody else kept track of what they own.
+  [3]
+ What.
+But all this stuff about FTX barely keeping track of its assets is somehow less bad than the stuff about FTX not keeping track of its liabilities at all. As part of his declaration, Ray presents unaudited September balance sheets of each of the FTX silos, though he presents them mostly for entertainment purposes: “Because such balance sheet was produced while the Debtors were controlled by Mr. Bankman-Fried, I do not have confidence in it, and the information therein may not be correct as of the date stated.” They don’t correspond particularly closely to the recently publicized rescue balance sheet, and I am not going to discuss them further. Except to quote a footnote that appears on the balance sheets for the exchange businesses: “Customer custodial fund assets are comprised of fiat customer deposit balances. Balances of customer crypto assets deposited are not presented.”
+  [4]
+ Ray writes
+  [5]
+:
+The WRS Silo Debtors are expected to have significant liabilities arising from crypto assets deposited by customers through the FTX US platform. However, such liabilities are not reflected in the financial statements prepared while these companies were under the control of Mr. Bankman-Fried.
+You could look at that and say “well, that’s fine, they didn’t include customer assets on their balance sheets because those assets didn’t belong to them, this is reasonable; the customer assets were tracked separately and not viewed as corporate assets.” Except it seems quite clear that FTX did use customer assets for its own (or Alameda’s) purposes, that it didn’t just   keep them safe in a box until customers asked for them back. If the story here was “FTX made use of customer assets, recording them as assets on its balance sheet with an offsetting liability to customers, and then it lost the assets, oops,” that would not be great or anything. But you could understand it, not in the moral sense of like “oh I understand why they did that” but just in the cognitive sense of, like, you could look at a balance sheet and say “ah see that’s where the money went.” Here FTX has some balance sheets that list some assets and liabilities, but they don’t list the only liabilities that really matter: what FTX owes to its customers.
+I’m being a little unfair, and presumably there is some system that tracks customer liabilities and that Ray can use to reconstruct what is owed to customers. But for now he doesn’t list, or even estimate, the customer liabilities. And he says that the FTX companies “are unable to create a list of their top 50 creditors that includes customers” right now, because that data is “in repositories that have been the subject of unauthorized attempts to access,” and so FTX has “implemented certain defensive measures.” The CEO is … locked out of looking at the customer accounts because too many hackers are also trying to look at them? 
+Also, on Tuesday night Kelsey Piper at Vox exchanged some Twitter direct messages with Sam Bankman-Fried; Vox published them yesterday and they are quite something. They include some some discussion of how FTX sent its customers’ money over to Alameda, which then lost it, though his answers here are not super-clear. (He “thought Alameda had enough collateral to reasonably cover it,” and “messy accounting + margin exchange → position built up over time.”) But there is also some discussion about how FTX could have forgotten about $8 billion of customer liabilities:
+
+like, “oh FTX doesn’t have a bank account, I guess people can wire to Alameda’s to get money on FTX.”
+… 3 years later …
+“oh [no] it looks like people wired $8b to Alameda and oh god we basically forgot about the stub account that corresponded to that and so it was never delivered to FTX.”
+
+Honestly I think that if I started a gigantic financial exchange with my college buddies I would not mess this one up, but who knows. The point here is: Does FTX even know what it owes to customers? I cannot feel 100% confident, either from Ray’s declaration or from those DMs, that the answer is yes.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Bankruptcy procedure
+    
+  
+
+We talked above about FTX’s Chapter 11 bankruptcy filing in Delaware, but actually things are a bit more complicated than that. FTX — under its new CEO, John Ray — has filed a voluntary Chapter 11 bankruptcy petition in Delaware. But there is a competing bankruptcy: Last week Bahamian regulators put FTX’s Bahamas legal entity, FTX Digital Markets, into liquidation and  appointed joint provisional liquidators, and those liquidators have filed a Chapter 15 US bankruptcy case in New York.
+  [6]
+ There is some dispute about which case — the one led by FTX’s current management, or the one led by its home regulators — is the correct and controlling bankruptcy. On the one hand, the Bahamian regulators  think FTX’s Delaware filing was not quite legal:
+
+Bahamas-based lawyer Brian Simms, one of the provisional liquidators appointed by the Bahamas Supreme Court, said in a court filing that FTX was not authorized to file for bankruptcy in the U.S., adding that he “reject[s] the validity of any purported attempt to place FTX affiliates in bankruptcy.” …
+Though Simms did not ask the court to dismiss the U.S. bankruptcy proceedings, he requested that the court recognize the validity of the Bahamian legal actions, which he said could “impact” U.S. proceedings for the other FTX-controlled entities.
+
+That impact, Simms essentially argued in his declaration, boils down to this: FTX Digital Markets was the parent company of the entire FTX empire – and all of that empire’s assets ultimately belong to FTX Digital Markets. ...
+Simms has asked the court for provisional relief including the recognition of Bahamian bankruptcy and liquidation proceedings, and orders entrusting FTX’s assets located in the U.S. to Bahamian liquidators, authorizing “urgent discovery measures,” and preventing any of FTX’s assets to be “transfer[ed], encumber[ed] or otherwise dispose[d] of.”
+
+On the other hand, FTX’s management  filed a motion in the Delaware bankruptcy case today arguing that the Delaware case should control and that the Bahamas joint provisional liquidators (“JPLs”) should not have filed their case in New York. In some sense this is a boring dispute over court procedures, over which lawyers and which legal system should be in charge. FTX’s lawyers write:
+Basic principles of efficient judicial administration and effective coordination argue strongly in favor of all U.S. proceedings relating to the FTX group occurring in a single U.S. court—this Court. Having two bankruptcy courts consider related issues simply makes no sense. It would result in potentially inconsistent opinions, duplication of efforts, and unnecessary expense.
+Fine, boring, normal. But FTX’s lawyers go on:
+
+Mr. Bankman-Fried, the co-founder, and controlling owner of all of the Debtors and of FTX DM, appears to be supporting efforts by the JPLs to expand the scope of the FTX DM proceeding in the Bahamas, to undermine these Chapter 11 Cases, and to move assets from the Debtors to accounts in the Bahamas under the control of the Bahamian government. In verified messages posted through Twitter,
+  [7]
+ Mr. Bankman-Fried just yesterday expressed profane disdain for regulators, his regrets at these Chapter 11 Cases having been filed, and disclosed his goal that “we win a jurisdictional battle vs. Delaware” to have any proceedings occur in the Bahamas. ...
+In addition, in connection with investigating a hack on Sunday, November 13, Mr. Bankman-Fried and Mr. Wang stated in recorded and verified texts that “Bahamas regulators” instructed that certain post-petition transfers of Debtor assets be made by Mr. Wang and Mr. Bankman-Fried (who the Debtors understand were both effectively in the custody of Bahamas authorities) and that such assets were “custodied on FireBlocks under control of Bahamian gov’t”.
+The Debtors thus have credible evidence that the Bahamian government is responsible for directing unauthorized access to the Debtors’ systems for the purpose of obtaining digital assets of the Debtors—that took place after the commencement of these cases. The appointment of the JPLs and recognition of the Chapter 15 Case are thus in serious question. It appears that the automatic stay has been flaunted, by a government actor no less.
+
+I … what? Is the claim here that the Bahamian government is working for Bankman-Fried? That Bankman-Fried is working for the Bahamian government? That, in either case, Bankman-Fried and Bahamian regulators conspired to hack FTX to drain customer money before FTX’s bankruptcy management could get their hands on it?
+I assume not; I assume this is mostly a jurisdictional dispute about which set of lawyers and regulators and judges should supervise the money, and that the Bahamian government would disagree that their efforts to access and secure FTX’s money were “unauthorized.” But there does seem to be a certain amount of distrust. Bankman-Fried and other (former) FTX executives are Americans, and FTX was headquartered in the Bahamas not because it was founded there but because the Bahamas offered a friendlier regulatory environment than the US did. Now that FTX is bust, its lawyers might worry that the regulatory environment in the Bahamas was too friendly.
+
+  
+    
+      
+        
+      
+    
+  
+
+
+  
+    
+      DMing through it
+    
+  
+
+One thing that I   like to   say around here is that it is good for your career, in finance, to lose a billion dollars. Losing a billion dollars indicates, to your next employer or investors, that someone — presumably someone smart, who had a billion dollars — trusted you with a billion dollars. It shows that you had the ability and nerve to take risks, which is (within reason) an attractive quality in high finance. And presumably you learned valuable lessons about whatever went wrong, and next time you will take better risks and make a lot of money instead of losing it.
+I think of this as applying mostly to traders at big banks and hedge funds, but it has broader applicability. Adam Neumann incinerated truly titanic amounts of investor money at WeWork Inc., which was bad, and got him removed as chief executive officer of WeWork. But it was also … impressive? And so if you are an investor, and Adam Neumann calls you and says “hey can you put money into my new thing,” you might think thoughts like:
+	I should take this meeting, it will be funny.	Adam Neumann has experience running a very large fast-growing business. Into the ground, yes, but not everyone has that experience.	Probably he learned some lessons and won’t incinerate my money.
+
+Also, the charm that Neumann used to raise money last time might work on you this time, even though you know what happened last time. And so in fact Neumann has done pretty well at   raising money for his next thing. Losing a lot of money, very quickly, in a very high-profile way, with a sense of style, can help you raise more money.
+We talked above about Sam Bankman-Fried’s  direct message exchange with Kelsey Piper at Vox. It touches on FTX’s accounting. But it also touches on Bankman-Fried’s path forward. “I have two weeks to raise $8b,” he says. “That’s basically all that matters for the rest of my life.” Piper replies: “Well, I really hope that the depositors get the money back, but I gotta say, I have no idea how anyone could possibly pull that off from this starting point.” Bankman-Fried:
+
+well a month ago I was one of the world’s greatest fundraisers
+now I’m the fallen wreckage of one
+but there’s a thing about being fallen—
+there are people who know what that’s like, and who want to do for someone else what nobody did for them
+
+Honestly a good line! I want to see where this goes. My guess is that he is too aggressive about the timeline: You can lose $8 billion, pause to reflect for a year or two, and then come back strong to raise billions more. But Bankman-Fried is probably right that he does not have that kind of time, so he’s trying to raise a huge pile of money while still in the process of losing his first huge pile of money. 
+Elsewhere, the Wall Street Journal reports on  FTX’s employees’ reaction to the bankruptcy:
+
+What started as a dream job turned into a nightmare for employees of FTX, the crypto exchange that imploded in spectacular fashion last week. The Wall Street Journal spoke to more than a dozen current and former employees, many of whom said they were stunned by FTX’s swift demise and shocked by the alleged misuse of customer funds. …
+Ryan Salame, co-chief executive of the exchange’s Bahamas-based unit FTX Digital Markets, told people close to him that he became physically sick and threw up when he became aware of FTX’s problems early last week, the people said. Although he worked closely with Mr. Bankman-Fried, Mr. Salame wasn’t part of the inner circle around FTX’s leader, the people said. …
+Dozens of FTX employees quit last week, including senior figures such as head of product Ramnik Arora, chief regulatory officer Dan Friedberg and head of institutional sales Zane Tackett, people familiar with the matter said. One employee said he submitted his resignation to his boss, only for the boss to say he had already resigned himself.
+A friend of Mr. Friedberg’s who had dinner with him the day he quit said the attorney—previously a big admirer of Mr. Bankman-Fried—was visibly shaken. 
+Mr. Friedberg showed this friend the text message he sent to Mr. Bankman-Fried and other top FTX executives submitting his resignation. In the message, the friend recalled, Mr. Friedberg described himself as devastated and said: “One day I hope I can forgive you.”
+
+On the one hand, it does seem like FTX was what you’d get if a half-dozen college buddies ran a global financial exchange with no supervision. On the other hand, there were in fact hundreds of employees, including a chief regulatory officer. They resigned in shock when they learned about FTX’s insolvency and its misuse of customer money. But presumably they knew about the … emojis in the chats? It is one thing for a small group of top executives, who all live with each other, to do intentional fraud and keep it secret from the rest of the company. But the “complete failure of corporate controls and … complete absence of trustworthy financial information” seems like something someone might have noticed.
+
+  
+    
+      Things happen
+    
+  
+
+Dell to   Pay $1 Billion to Settle Suit Over 2018 Stock Conversion. Elon Musk Recently Floated  Possibility of Having a Successor at Tesla, a Board Member Says. SpaceX   Illegally Fired Workers for Criticizing Musk and Company Culture, Complaint Claims. EY split threatens to weaken both sides of firm, say retired partners. US   Mortgage Rates Post Biggest Drop Since 1981, Falling to 6.61%. Meta Employees, Security Guards Fired for  Hijacking User Accounts.  Yale and Harvard law schools shun influential rankings. Tennessee AG Investigating   Antitrust Violations in Taylor Swift Ticket Presale. 
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] I'm kidding, obviously it is boilerplate. But still.
+
+
+  [2] “The FTX Group’s approach to human resources combined employees of various entities and outside contractors, with unclear records and lines of responsibility.  At this time, the Debtors have been unable to prepare a complete list of who worked for the FTX Group as of the Petition Date, or the terms of their employment.  Repeated attempts to locate certain presumed employees to confirm their status have been unsuccessful to date.” 
+
+
+  [3] Maybe it’ll work. I too can read third-party sources, and here is  Liz Hoffman at Semafor reporting that “Sam Bankman-Fried shopped a $4.7 billion grab-bag of venture investments, ranging from fintech firms to crypto assets, around Wall Street in a bid to raise money,” and listing some of the investments. I suppose Ray will call up those companies — “Dave, a mobile-banking app aimed at younger customers,” “Stocktwits, an online forum for traders to share ideas and make investments,” etc. — and say, like, “hey, uh, I’m at FTX, weird question but do we … own … your stock?” See what they say!
+
+
+  [4] The numbers are quite small, by the way, $102 million for FTX.us and zero (!?) for FTX.com. Presumably almost all of the customer balances were in crypto (perhaps including stablecoins).
+
+
+  [5] I’m not quoting it twice, but he says something identical about the Dotcom Silo (the FTX.com business).
+
+
+  [6] Roughly speaking,  Chapter 11 is the bit of the US Bankruptcy Code that governs reorganizations of operating businesses: If you are a business, and you run out of money and can’t pay your bills, but you need to continue operating to try to find the money to pay your bills, you file Chapter 11. (If you’re just going to sell all your stuff and liquidate, you file Chapter 7.)  Chapter 15 is the bit of the US Bankruptcy Code that governs international bankruptcies where  the *main* proceedings are somewhere else: “Generally, a chapter 15 case is ancillary to a primary proceeding brought in another country, typically the debtor's home country.”
+
+
+  [7] Here the filing cites the Vox article quoting Bankman-Fried’s direct messages.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter? 
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+  
+
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23chp88a.5hxu/53367048.gif" alt="" border="0" /></a>

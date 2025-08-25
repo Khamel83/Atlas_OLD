@@ -1,0 +1,105 @@
+# Netflix Earnings, Netflix's Movie Strategy, Accretive Ads (Stratechery Update 4-19-2023)
+
+**From:** "Ben Thompson" <email@stratechery.com>
+**Date:** Wed, 19 Apr 2023 13:44:03 +0000
+**Source:** inputs/saved_emails/Netflix Earnings, Netflix's Movie Strategy, Accretive Ads (Stratechery Update 4-19-2023)_Wed,_19_Apr_2023_13-44-03_+0000_18799c21de6411c6.eml
+**Processed:** 2025-08-24T19:13:09.306286
+
+Netflix's earnings show that its ad business is doing even better than expected, and that its movie release strategy is right to be different.
+
+View in browser ( https://stratechery.com/2023/netflix-earnings-netflixs-movie-strategy-accretive-ads/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvbmV0ZmxpeC1lYXJuaW5ncy1uZXRmbGl4cy1tb3ZpZS1zdHJhdGVneS1hY2NyZXRpdmUtYWRzLyJdfSwiZXhwIjoxNjg0NTAzODQyLCJpYXQiOjE2ODE5MTE4NDIsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.fTQbfrHxAehC3l5J_DG_Tk6lqm9oZREvRUT2_czeUovcdh0ZmZXzj6RW87KzvEzHsPU7YhiiunyYC78OyLAHS0hyURyeRAuGWz0kM5pr6RdhaU6YgIT3JxIjjRD9uXpDxp2L420xOYKpIGgLAcHfTVC8NvIddSJef5z2HZ5XIRh_FLZRh-mBZMjo9YN0MIk4_Zjtm4_JuKnws0Gh3x8RCLyi2wYfOuM88HPTHV6GJFiIv43sdseVoUEKnKVEealNYi_BXR-AKcQ-AoiXHggX55DUcJVsVcBZIAEkjzbu7ALtCM6UiaZKinMSoLrd0-AUKMR2KtPTs_hlUg2NUy4v2Q )
+
+( https://stratechery.com )
+
+*********************************************************
+Netflix Earnings, Netflix's Movie Strategy, Accretive Ads
+*********************************************************
+
+( https://stratechery.com/2023/netflix-earnings-netflixs-movie-strategy-accretive-ads/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvbmV0ZmxpeC1lYXJuaW5ncy1uZXRmbGl4cy1tb3ZpZS1zdHJhdGVneS1hY2NyZXRpdmUtYWRzLyJdfSwiZXhwIjoxNjg0NTAzODQyLCJpYXQiOjE2ODE5MTE4NDIsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.fTQbfrHxAehC3l5J_DG_Tk6lqm9oZREvRUT2_czeUovcdh0ZmZXzj6RW87KzvEzHsPU7YhiiunyYC78OyLAHS0hyURyeRAuGWz0kM5pr6RdhaU6YgIT3JxIjjRD9uXpDxp2L420xOYKpIGgLAcHfTVC8NvIddSJef5z2HZ5XIRh_FLZRh-mBZMjo9YN0MIk4_Zjtm4_JuKnws0Gh3x8RCLyi2wYfOuM88HPTHV6GJFiIv43sdseVoUEKnKVEealNYi_BXR-AKcQ-AoiXHggX55DUcJVsVcBZIAEkjzbu7ALtCM6UiaZKinMSoLrd0-AUKMR2KtPTs_hlUg2NUy4v2Q ) Wednesday, April 19, 2023
+
+Add to your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+Yesterday’s Dithering ( https://dithering.fm/ ) got a bit meta: will AI replace John and I? Add the podcast and get the answer using the link at the bottom of this email (unsurprisingly we think no 😊).
+
+On to the update:
+
+Netflix Earnings
+----------------
+
+From the Wall Street Journal ( https://www.wsj.com/articles/netflix-nflx-q1-earnings-report-2023-8460b7e4 ) :
+
+Netflix Inc. said it would roll out new password-sharing limitations more broadly — including in the U.S. — by the end of June, and announced it would soon wind down the DVD-by-mail business that the company was built upon.
+
+Netflix added 1.75 million subscribers in the first quarter and ended the period with 232.5 million customers, a far slower pace of growth than it was accustomed to before and during the pandemic. After losing subscribers for the first time in a decade a year ago, the company took a series of steps to expand its customer base, including launching an ad-supported tier of service and starting to limit password sharing. The strategic changes highlight the streamer’s ongoing transition from an upstart that shipped discs in red envelopes to a global entertainment giant focused on increasing its profitability.
+
+I think that this quarter was a fantastic result for Netflix for reasons I’ll get to in a moment, but first a requiem for Qwikster, the quickly-abandoned name for the spin-out service that was supposed to get Netflix out of the DVD business years ago, and the DVD business as a whole. Back in 2016 I wrote after Netflix went global ( https://stratechery.com/2016/netflix-goes-global-iphone-worry/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMTYvbmV0ZmxpeC1nb2VzLWdsb2JhbC1pcGhvbmUtd29ycnkvIl19LCJleHAiOjE2ODQ1MDM4NDIsImlhdCI6MTY4MTkxMTg0MiwiaXNzIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.OedvaGDWCdsobIRauKurJwJyzeLtBKy8_bdKNIDw2kP89o9qHgGwBumRfqEXGcGMWxDm57SqiC9YAbd6LXBolcyAFiuuF82WaqFv2HWlC1ryjMDI8-mDlBbGzydNO0wDKbldR3Kglmy89jWDrXSyzhoZSocuwuI1o_x6NuIIbYDVe2f4GdWs7MKerNABGtcozkjLot7GV8mMUw9XuuGrvMxhwQsMBjG3cLCjI67DZJ6qbTQ5YdFJlxId6BS1czrrQUOHKdk6et9Z0_lHlrVzKTpVs1oTDkkU4DOJLFwZdaxlYoXYjzgK-YUiFnHBnPCktXt6Marzoje8kbsGWsgAaA ) :
+
+Netflix remains the textbook example of what I would call a “ladder-up” strategy:
+
+* Netflix started by using content that was freely available (DVDs) to offer a benefit — no due dates and a massive selection — that was orthogonal to the established incumbent (Blockbuster). This built up Netflix’s user base, brand recognition, and pocketbook.
+* Netflix then leveraged their user base and pocketbook to acquire streaming rights in the service of a model that was, again, orthogonal to incumbents (linear television networks). This expanded Netflix’s user base, transformed their brand, and continued to increase their buying power.
+* With an increasingly high-profile brand, large user base, and ever deeper pockets, Netflix moved into original programming that was orthogonal to traditional programming buyers: creators had full control and a guarantee that they could create entire seasons at a time, and, in the beginning, the rights to use what they created elsewhere (more on this is a moment).
+
+Each of these intermediary steps was a necessary prerequisite to everything that followed, culminating in yesterday’s announcement: Netflix can credibly offer a service worth paying for in any country on Earth, thanks to all of the IP it itself owns. This is how a company accomplishes what, at the beginning, may seem impossible: a series of steps from here to there that build on each other. Moreover, it is not only an impressive accomplishment, it is also a powerful moat; whoever wishes to compete has to follow the same time-consuming process.
+
+That bit about competitors going through “the same time-consuming process” was obviously meant more figuratively than literally; obviously no one else was going to build their streaming business by starting with DVDs. That, though, was to their disadvantage: DVDs were a permission-less medium that meant Netflix could offer a full-featured product even as a startup, with some degree of leverage on their inputs (obviously DVDs break and wear-out and get lost). That translated into the leverage of the Netflix userbase, which has been the foundation of everything the company has done since.
+
+Netflix’s Movie Strategy
+------------------------
+
+One interesting way in which Netflix claims this has manifested relative to their competitors is in their movie release schedule. This entire exchange on the Netflix earnings interview ( https://seekingalpha.com/article/4594863-netflix-inc-nflx-q1-2023-earnings-call-transcript ) was interesting:
+
+*Do you have any thoughts on revisiting your film strategy? In terms of like theatrical output, as well as distribution, you have had so much success at the Academy Awards. So does that change anything for you? And you also recently had a restructuring in this division, is there anything to read from that?*
+
+*CEO Ted Sarandos:* No. Jessica, the film division is doing great. They really are building some great films. As you pointed out, the success at the Oscars was great. But the thing even better than that was the movies that won so big were also very, very popular with fans…So we are really happy with the investment in film. Of course, we are trying to improve it, like we do with all of our films. But our release strategy, remember, there’s a lot of ways to create and collect demand for a film.
+
+Driving folks to a theater is just not our business. We create that demand. We collect that demand on our subscription service with our members. And I think having big new desirable content, including feature films in the first window drives value for our members and drives value to the business. So no major changes in play, except for trying to continue to improve the films for our members and make a big splash with films that are loved and watched.
+
+*CFO Spence Neumann:* And it’s really leaning into advantage — we believe an advantage we have of delivering that value to our members, but because of our reach and our scale to have over 230 million paying members at our average revenue per member, it affords the opportunity to invest in these big movies, bring them to our members as just one other piece or area variety of content and must-watch content and entertainment for members. So it’s really kind of leaning into that advantage.
+
+*CEO Ted Sarandos:* And I think it’s tempting to make the comparison between the services, but the other services don’t have that scale, as you pointed out, Spence. They don’t have the revenue base or the viewer base to support with a single window the way we can support even big budget films with a single window on Netflix.
+
+Start with the last comment: Sarandos is referring to a discussion earlier in the call about how other streaming services are returning to a more traditional windowing strategy, which I’ve argued is the right thing to do ( https://stratechery.com/2022/warner-bros-discovery-and-the-nba-the-zaslav-doctrine/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjIvd2FybmVyLWJyb3MtZGlzY292ZXJ5LWFuZC10aGUtbmJhLXRoZS16YXNsYXYtZG9jdHJpbmUvIl19LCJleHAiOjE2ODQ1MDM4NDIsImlhdCI6MTY4MTkxMTg0MiwiaXNzIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.brzvW3aYhtpdF8H_NKlcC7X5YQa2B4mRI1k-J5AJcFFY-yG0vuiWtX27IGWLXZcP3kkBXVpNxfStTQPNqpQzLAi7Sh2MpRH4szQ5Wy5hSHfw9AwQSiBOSmJr0m-g3AUq2e0Zz3_YDavTgoB3glWGJX-lSHiD9mLjJPWNj5J4yJf6bRmrkyIo30HmoRWPxqkI7JlqYCgBYKmRJADv3VSN5YvbdwCTCzfgMiVAvGs5t3fWn706AH4EmCFS59FfK8eA-lcnlzwY3vTq6OIp364b8qeETlN6N8OJnu44-Hr79nlo6lsxaxnZ6F6LfxId6Ns2SB2CZG_gmvcqIGB9TKfccA ) : the theatrical window in particular doesn’t just better leverage content it also provides a marketing boost of its own.
+
+In this case, though (and unlike the blanket all-at-once release strategy), I think Netflix has a credible argument for doing it differently. First, to Sarandos’ point, Netflix has a large enough user base to make the strategy credible; most people don’t want to watch a movie multiple times. To the extent they do, though, Netflix more than makes up for any foregone revenue by, to Neumann’s point, enhancing the perceived value of the service.
+
+The most important point, though, is Sarandos’ first one: Netflix, thanks to its large user base and position as the default streaming service, can manufacture demand for individual titles that both reduces their total cost, both because the marketing budget can be lower on a per-film basis, and also because that marketing leads to dramatically higher lifetime values (i.e. new subscribers or reduced churn) than any one film can command, even as it increases their popularity just by being surfaced in the default streaming service.
+
+Accretive Ads
+-------------
+
+The really big news from these earnings, though, was just how well the ad business is doing. From Netflix’s Letter to Shareholders ( https://s22.q4cdn.com/959853165/files/doc_financials/2023/q1/Final-Q1-23-Shareholder-Letter.pdf ) :
+
+We are pleased with the current performance and trajectory of our per-member advertising economics. In the US for instance, our ads plan already has a total ARM (subscription + ads) greater than our standard plan. So this month we’ll upgrade the feature set of our ads plan to include 1080p versus 720p video quality and two concurrent streams in all 12 ads markets – starting with Canada and Spain today. We believe these enhancements will make our offering even more attractive to a broader set of consumers and further strengthen engagement for existing and new subscribers to the ads plan.
+
+I’m not surprised by this outcome, but it’s great news all the same. I wrote last summer ( https://stratechery.com/2022/netflix-earnings-microsoft-and-netflixs-ad-deal/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjIvbmV0ZmxpeC1lYXJuaW5ncy1taWNyb3NvZnQtYW5kLW5ldGZsaXhzLWFkLWRlYWwvIl19LCJleHAiOjE2ODQ1MDM4NDIsImlhdCI6MTY4MTkxMTg0MiwiaXNzIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.ErqLMKAI0z3z1H6kouTlxSM96zuMeBFqLuJXhmoNH6pZnSEp92D9sPy-1wiCl154GIarsDEKYYjKdh9_7vOKnzEtoWpAtb3mnrEyqE8eM5wisEh-dVsvvIR04eYFaFb9qKLbZ1yX7rD605E_KAgWwNbffBANzopWwpL5wc09pgPb0MxXUjrmALWT1R7P9dm-3q-2nO9-E-GJxIpVUkDHOfwi2r5G4NFDBNHnJYuf7_DQ3AxY4DZLChV_mQ0rhir_lJvIzBulYz2WRuI3f6KIdzx2Nq9mHrw_YHko7_zMie0cvt9DTC-Omj7XrBpj-hutE2FuFEznsC12ArUufzJbpw ) :
+
+The lowest tier Netflix plan in the U.S. is $9.99 for standard definition shows on one device. Hulu, meanwhile, generates an estimated $10/subscriber in advertising on its ad tier (which costs $6/month), and it has the decency to offer that tier in high definition!…My guess — and to be clear, it’s just a guess — is that the basic plan gets high definition and a price drop, making it very attractive to new subscribers and yes, a lot of current subscribers paying $15/month (perhaps there will be a fourth tier for ad-supported 2 screens). I would argue that not only is potential cannibalization not a negative, but a good thing for Netflix: the more users they have on ad-supported tiers the more attractive their advertising will be, leading to more advertisers and, in the long run, higher ad revenues.
+
+I was definitely right to be optimistic about the revenue potential for ads. With the very large caveat that Netflix is still in the novelty honeymoon that props up CPMs for all hot new ad platforms, it is obviously very good news that the company is making more money on U.S. and Canada ad-supported customers — who pay $6.99/month — than they are on Standard customers, who pay $15.49 a month.
+
+To that end, my guess as far as Netflix’s plan make-up wasn’t right yet, but it’s headed in that direction: instead of having a “with ads” version of its basic tier, or “with ads” versions of all of its tiers as I later recommended ( https://stratechery.com/2022/netflix-earnings-netflix-doubles-down-netflixs-ad-tier/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjIvbmV0ZmxpeC1lYXJuaW5ncy1uZXRmbGl4LWRvdWJsZXMtZG93bi1uZXRmbGl4cy1hZC10aWVyLyJdfSwiZXhwIjoxNjg0NTAzODQyLCJpYXQiOjE2ODE5MTE4NDIsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.rK3K8aUfJXVmUuwtxfiyPgCfTRITQLvdiQ0okz3NJAvMQ4uVq8KikFK36P_2R-RwK8T2oxXmi85Dj9BX8rC0zIWIC6JUnZFvy_jY-h8qc9BOGuHzwoIvyCybbgE3R0fMChCTLyl_-ilPED2Ha335wb_XL_dvbVfAiIZ4PhjHsETz0-1HTVwqYO98-tG2PIAq4vruVSX2Qi_99MtgsCqxZ_q0M7w6QnKvRLtzWg8olZlS7sKI7N-DoTR_SkuxHa60E7fSDzwgOw3QNFVjGHpUhxKwx0CTqEFg8Kb6zeumkumdi6sJXgsZd2u-9BPhBdPhnGZuVkpHPbbPO_PzNQs06Q ) , Netflix looks like it is leaning into having one ad-supported tier that is, in every respect other than having ads, pretty great: upgrading to 1080p and 2 concurrent streams basically means it is now the “Standard with ads” tier, for the same price as what was previously “Basic with ads”, which makes one wonder just how long “Basic” will stick around. The company continues to emphasize that its ad plan isn’t cannibalizing its subscription tiers, but these initial results suggest that that ought to actually be a disappointment — the more subscribers Netflix has on its ad plan, the better — and the increase in features suggests that Netflix feels the same way.
+
+The most important takeaway, though, is that Netflix was right to introduce ads ( https://stratechery.com/2022/why-netflix-should-sell-ads/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjIvd2h5LW5ldGZsaXgtc2hvdWxkLXNlbGwtYWRzLyJdfSwiZXhwIjoxNjg0NTAzODQyLCJpYXQiOjE2ODE5MTE4NDIsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.QONu4qUZxDm1BqH0eHKJgyFKCqiNPV4QG7BcnxNN1kmhay1dC3On11-e0KnM4MzK8qSs0MMNDFAW_4rKYinGReu7NbVLJK_wfeWs0QykoHkTkx9HlG9ESDoRanTXmWVWh1S-Gpa6RL9ZUv8nIX7NtmZ0haQVnSPWGUf50HE3Mh4F4X_rGI5TVNJyJxpPYD0PmuzyeGNbcd2i30CWj7bjkvzrXH5U-ameAT4MrWcaffautxZgUae3oCnouNcC_K1vqP6T3HzVCKB-Jqi145I5vIkUkeDsfcwxCcZrdCBdQAEjcqSKIjY3fl3fjG_DPdJFOaJAdUpIdWmu3kAIDkRBuw ) , and that that business represents a meaningful growth opportunity, above and beyond the benefit it provides to Netflix’s other initiatives like paid sharing and password-sharing crackdowns. Netflix has the opportunity to basically increase revenue per customer without raising prices (while also opening the door to more future price raises), even as it offers a lower entry price; it’s a pretty compelling example of how advertising tends to be much more of a win-win than its many critics allege.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: December 8, 2022
+Auto-renewal is disabled
+Expiration date: December 8, 2023
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/oauth/session?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL21lbWJlci9hY2NvdW50Il19LCJleHAiOjE3MTM1MzQyNDIsImlhdCI6MTY4MTkxMTg0MiwiaXNzIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJyZHIiOiJodHRwczovL3N0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZS9tZW1iZXIvYWNjb3VudCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgc2Vzc2lvbiIsInN1YiI6ImMwZWRkNGMyLWUyNzMtNDdiMS1hY2JlLTUwYWU5ZjEzODUxOCIsInVzZSI6ImFjY2VzcyJ9.haOWHMinRj7s8KBcSN4IANrb6383y6PpDtwlC3dyQSARB1zMSXVGMw4xSFJgKX_hvfjISg0AVlvgoIw4S8nZmxq-wQNo2xNn1zxOkZp05PHPFBtiNz6QnCkP9oNePuTMmNlOZtmSnDqE729MItkO5x0wOnvxrL8JTc1vgWXvC5ZmhId0CZueHnCAqt57t_tQkjS3gJsMGcws2ja7HHMpkjKwbbATdGvY7JNybQHsTOw_ru7M8-RqwuBnRUaZ5G9SyIur7QyQuGRO_MfoeUTf05JGfY3oEp1yL4wGQCAElsMOZ5odZu33KlaR_pCbJIIwdAXVtOkCLatqnW2lGSZqGA&redirect_uri=https%3A%2F%2Fstratechery.passport.online%2Fmember%2Flogin ) to view your account and manage your subscriptions.
+
+© 2023 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

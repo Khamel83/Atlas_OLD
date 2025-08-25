@@ -1,0 +1,63 @@
+# Weekly Dose of Optimism #43
+
+**From:** Not Boring <notboring@substack.com>
+**Date:** Fri, 19 May 2023 12:36:35 +0000
+**Source:** inputs/saved_emails/Weekly Dose of Optimism #43_Fri,_19_May_2023_12-36-35_+0000_1883403584374155.eml
+**Processed:** 2025-08-24T19:13:08.475450
+
+View this post on the web at https://www.notboring.co/p/weekly-dose-of-optimism-43
+
+Hi friends 👋,
+Happy Friday and welcome back to our 43rd Weekly Dose of Optimism.
+We got Advance Market Commitments putting their money where their mouth is, novel approaches to fighting climate change, promising brain research on both Alzheimer’s and major depressive disorder, and some space cells. Big week.
+Let’s get to it. 
+Today’s Not Boring is brought to you by…Tegus [ https://substack.com/redirect/29b6206a-266f-45a4-80f6-626be8579428?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Overcome market headwinds with fast, accurate, and cost-effective expertise.
+Tegus [ https://substack.com/redirect/29b6206a-266f-45a4-80f6-626be8579428?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] is the affordable centralized research platform for at-cost expert calls, the largest and fastest growing expert transcript library of public and private market data, and most robust benchmarking, charting and comps tooling.
+With Tegus [ https://substack.com/redirect/29b6206a-266f-45a4-80f6-626be8579428?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] you can spend less time collecting and connecting disparate data and start maximizing what sets you apart – your unique synthesis and decision making. 
+Ready to unlock the power of Tegus? Trial the benefits for free now below:
+1) Frontier buyers sign first $53M in offtake agreements with Charm Industrial [ https://substack.com/redirect/bbcd9e8b-7941-4ef2-ae34-a4751b93c739?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+From Frontier
+Frontier [ https://substack.com/redirect/aaf93ba6-bf89-46e3-a01b-adc9385c595f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] has facilitated its first set of offtake agreements with Charm Industrial [ https://substack.com/redirect/3b2c7de6-ce11-4438-845c-e5b65f853fd9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], totaling $53M. Frontier buyers will pay Charm to remove 112,000 tons of CO₂ from the atmosphere and store them permanently underground between 2024 and 2030.
+We’ve written about Frontier, the advance market commitment (AMC) from Stripe, Alphabet, Shopify, Meta, and McKinsey a few times since it was first announced. Frontier is most notable for two reasons: 1) its focus on carbon removal and 2) its “advance commitment” structure, which reflects a “if you fund it, they will come” philosophy.
+On Thursday, Frontier announced its first actual carbon offtake agreement with with Charm Industrial, totaling $53M. Charm, which is led by former Segment founder and CEO Peter Reinhardt, has a unique approach to carbon removal. Charm Industrial converts biomass into a stable, carbon-rich liquid and then pumps it deep underground, where it is stored permanently.
+This is likely the first of many similar Frontier projects, as the AMC has committed over $1B to fund carbon removal projects. It currently has 16 organizations in its portfolio that are taking novel approaches to carbon capture and removal.
+(2) Seaflooding [ https://substack.com/redirect/5e202214-bb24-4e7d-a8d9-5167a07a5c83?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Tomas Pueyo [ https://substack.com/redirect/2c3ad4cf-9778-492a-9177-fe20425e84e9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for Unchartered Territories (h/t @TamarHaspel [ https://substack.com/redirect/f9949dc7-ddcb-4eed-86b9-7938d8d8808b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ])
+Sea levels might rise by one to two meters by the end of the century.
+What if I told you there was a way to mitigate that, while creating new habitats and more life, growing the economy, and making money along the way?
+Let’s call it seaflooding.
+While Frontier funds carbon removal projects, even more creative solutions to climate change are being proposed — like this one, dubbed “Seaflooding” from Tomas Pueyo. The general idea of Seaflooding is to flood sub sea-level areas with water turning vast deserts into flourishing (and energy producing) ecosystems. The top two candidates for such Seaflooding, according to Pueyo, are the Dead Sea and the Qattara Depression.
+Here’s generally how it would work:
+Build pipelines from a sea into a sub sea-level desert area
+Generate electricity from the flow of seawater into desert area
+Slowly a new, flourishing natural ecosystem develops
+Infrastructure, communities, and economies follow
+It’s tough to comprehend the scale, complexity, and timelines of a project like this, and frankly we’re not in a position to cast judgement on its feasibility. But, at face-value, it seems like an idea that, if properly executed, could both a) generate a cheap electricity and b) transform deserts into vibrant sealine communities.
+(3) Mutation Protected Man From Alzheimer’s Disease, Hinting at Treatment [ https://substack.com/redirect/b2283030-b5b4-4731-ad23-a24f51338fb6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Gina Kolata [ https://substack.com/redirect/8ad9e92b-7a6a-4d86-8721-8792e2a64a5e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for The New York Times
+More than six million [ https://substack.com/redirect/eaf70607-c36f-4c1a-97bb-59c54cde1810?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] people in the United States have Alzheimer’s, a disease that has been notoriously difficult to treat. Yet here was a man with a mutation that causes the most severe and rapidly progressing form of Alzheimer’s. And his disease was delayed for two decades. If a drug could do what the mutation did, resulting in most people getting Alzheimer’s very late in life, the outcome could be transformative.
+This story, from the NYT, is based on a new research paper [ https://substack.com/redirect/f1d1e5d3-34aa-4f27-8de5-fb224d3fcacd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] published in Nature earlier this week. The paper investigates the unique story of a man who, according to all biomarkers, should have developed the symptoms of Alzheimer’s in his early 40s but did not show signs of the disease until he was well into his 60s. The development of his Alzheimer’s, which itself is caused by a gene mutation, was stunted by a separate gene mutation which blocked the disease from entering his entorhinal cortex.
+The finding is important because if a drug could accomplish what this mutation did, it could delay the onset of Alzheimer’s for years and even decades. Animal studies are already underway, but FDA approved drugs are likely years away. This is, of course, just one approach to delaying or curing Alzheimer’s — but we’re encouraged by the number of promising Alzheimer’s treatments coming out in just the last couple of years.
+(4) Researchers treat depression by reversing brain signals traveling the wrong way [ https://substack.com/redirect/e83dc633-e7b3-4b49-8948-cf3bc62e6dec?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Nina Bai for Stanford Medicine News Center
+Powerful magnetic pulses applied to the scalp to stimulate the brain can bring fast relief to many severely depressed patients for whom standard treatments have failed. Yet it’s been a mystery exactly how transcranial magnetic stimulation, as the treatment is known, changes the brain to dissipate depression. Now, research led by Stanford Medicine scientists has found that the treatment works by reversing the direction of abnormal brain signals.
+Transcranial Magnetic Stimulation (TMS) has been used to treat major depressive disorder since the late 1990’s, but researchers have just now discovered how exactly is works. New research from Stanford indicates that TMS works by works by reversing abnormal brain signals. The research found that the flow of activity between the anterior insula and the anterior cingulate cortex is reversed, and this reversed flow correlates with the severity of depression. This is an important finding for two reasons:
+It gives researchers a better understanding of how this treatment actually works.
+the reversed flow could potentially serve as a biomarker for diagnosing and triaging depression.
+Generally TMS is a non-invasive and safe alternative treatment method for patients that have not taken to medicine or psychotherapy. 
+(5) Is space the place for stem cell manufacturing? Scientists will soon test that on the ISS [ https://substack.com/redirect/4af6b4a7-582d-4e06-bd12-6420f70416fb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]
+Helen Floersh [ https://substack.com/redirect/51e52641-5817-46a9-b9bc-d23050be3f69?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] for Fierce Biotech
+The world’s second-ever private astronaut mission to the International Space Station will not only ferry up the first Saudi Arabian woman [ https://substack.com/redirect/2e27fccd-86af-4a32-9c5c-e82f7088efe1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] to go to space but also a first-of-its-kind experiment that will test whether scientists can create induced pluripotent stem cells, or iPSCs, in microgravity. The experiment is part of a series that could eventually lead to new ways to manufacture stem cells en masse.
+The most interesting stuff happens at the intersections. In this case, the intersection of space and biotech.
+There’s already evidence that microgravity might be an ideal growing ground for stem cells, and this mission is meant to give a team of medical researchers a real-life 5 day view if that’s truly the case. Of course, a mission like this is, at least in part, due to that drastic decrease in launch costs brought on by SpaceX that makes a whole slew of new space endeavors possible.
+Stem cells are particularly interesting because they can be reprogrammed into any type of cell. But a whole slew of chemical and drug development projects could benefit from the unique characteristics of space. This idea, that manufacturing in microgravity is now both possible and advantageous, is the core insight behind Not Boring Capital portfolio company Varda [ https://substack.com/redirect/54bca62a-32b5-4bff-945d-5f20e9332a11?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ]. You’ll be hearing more about them soon.
+Space drugs. Woah man.
+BONUS: Not Boring Biotech Partner, Elliot Hershberg [ https://substack.com/redirect/0df0fcdd-ff39-49fd-9861-235823c95b45?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ], is attending and speaking at the SynBioBeta Conference [ https://substack.com/redirect/cdc4119f-4161-4072-a7d5-1ab61e8eacd2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] from May 23 - May 26th in Oakland, CA. SynBioBeta is the largest synbio conference of the year and a great opportunity to learn from and meet many of the leading researchers, operators, and investors in synbio today. 
+Prior to the conference, on May 21st, Not Boring is hosting an event with Fifty Years called “Viriditas Feast.” [ https://substack.com/redirect/e5c68229-9dd9-4ddb-80ed-b5a8e260e2f0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU ] You can apply to attend!
+EVENT DESCRIPTION: What if we could grow anything? How can we enable a beautiful and abundant future for an expanding population? How can we manifest the Bioeconomy? These are some of the central questions for the growing field of synthetic biology. Let’s explore answers to these questions together. Join us at the Fifty Years HQ in San Francisco for an evening of food and conversation with a community of scientists and leaders from the biological frontier.
+That’s all for this week. We’ll be back in your inbox on Monday.
+Thanks for reading,
+Dan
+
+Unsubscribe https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVEl5TWpVNE1ESTNMQ0pwWVhRaU9qRTJPRFEwT1RrNE1ETXNJbVY0Y0NJNk1UWTROekE1TVRnd015d2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaVpHbHpZV0pzWlY5bGJXRnBiQ0o5LjBybUNPUUJCUzV3a1VDRG1scDBscEZxSVdBMUhGUjNucXUta2tSdWd1TjAmZXhwaXJlcz0zNjVkIiwicCI6MTIyMjU4MDI3LCJzIjoxMDAyNSwiZiI6dHJ1ZSwidSI6MTYyODM1NDksImlhdCI6MTY4NDQ5OTgwMywiZXhwIjoxNjg3MDkxODAzLCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.8ybBFRdXZkcHQtvpgw391DeHG1X9IhlwBFgsZBRlMuk?

@@ -1,0 +1,434 @@
+# Secrets of a Mind-Gamer - NYTimes.com
+
+**Source:** inputs/New Docs/html/www.nytimes.com_interactive_2011_02_20_magazine_mind-secrets.html.html
+**Processed:** 2025-08-24T19:13:50.658717
+
+* [Home Page](https://www.nytimes.com)
+* [Today's Paper](https://www.nytimes.com/pages/todayspaper/index.html)
+* [Video](https://www.nytimes.com/video)
+* [Most Popular](https://www.nytimes.com/mostpopular)
+
+Edition: [U.S.](https://www.nytimes.com) / [Global](http://global.nytimes.com/)
+
+Search All NYTimes.com
+
+[![New York Times](https://static01.nyt.com/images/misc/nytlogo152x23.gif)](https://www.nytimes.com)
+
+## [Magazine](https://www.nytimes.com/pages/magazine/index.html)
+
+* [World](https://www.nytimes.com/pages/world/index.html)
+* [U.S.](https://www.nytimes.com/pages/national/index.html)
+* [N.Y. / Region](https://www.nytimes.com/pages/nyregion/index.html)
+* [Business](https://www.nytimes.com/pages/business/index.html)
+* [Technology](https://www.nytimes.com/pages/technology/index.html)
+* [Science](https://www.nytimes.com/pages/science/index.html)
+* [Health](https://www.nytimes.com/pages/health/index.html)
+* [Sports](https://www.nytimes.com/pages/sports/index.html)
+* [Opinion](https://www.nytimes.com/pages/opinion/index.html)
+* [Arts](https://www.nytimes.com/pages/arts/index.html)
+* [Style](https://www.nytimes.com/pages/style/index.html)
+* [Travel](https://www.nytimes.com/pages/travel/index.html)
+* [Jobs](https://www.nytimes.com/pages/jobs/index.html)
+* [Real Estate](https://www.nytimes.com/pages/realestate/index.html)
+* [Autos](https://www.nytimes.com/pages/automobiles/index.html)
+
+* [comments](https://www.nytimes.com/interactive/2011/02/20/magazine/mind-secrets.html#commentsContainer)
+
+###### Published: February 15, 2011
+
+# Secrets of a Mind-Gamer
+
+# Secrets of a Mind-Gamer
+
+## How I trained my brain and became a world-class memory athlete.
+
+###### By Joshua Foer
+
+**Dom DeLuise,the comedian
+( and five of  
+clubs ),
+was implicated in the following unseemly acts in my mind’s eye: He hocked a fat globule of spittle
+( nine of  
+clubs ) on Albert Einstein’s
+thickwhite
+mane ( three of  
+diamonds ) and
+delivered a devastating karate kick
+( five of  
+spades )
+to the groinof
+Pope Benedict XVI ( six of  
+diamonds ).
+MichaelJackson
+( king of  
+hearts ) engaged
+in behavior bizarre even for him. He defecated
+( two of  
+clubs )
+on asalmon
+burger ( king of  
+clubs ) and
+captured his flatulence ( queen of  
+clubs )
+in aballoon
+( six of  
+spades ).
+This tawdry tableau, which I’m not proud to commit**
+
+![Cover](https://static01.nyt.com/packages/images/magazine/2011/memoryGames/cover.png)Joshua Foer.
+Marco Grob for The New York Times
+
+to the page, goes a long way toward explaining the unexpected spot in which I found myself in the spring of 2006. Sitting to my left was Ram Kolli, an unshaven 25-year-old business consultant from Richmond, Va.,
+who was also the defending United States memory champion. To my right was the lens of a television camera from a national cable network. Spread out behind me, where I couldn’t see them and they couldn’t
+disturb me, were about 100 spectators and a pair of TV commentators offering play-by-play analysis. One was a blow-dried mixed martial arts announcer named Kenny Rice, whose gravelly, bedtime voice couldn’t
+conceal the fact that he seemed bewildered by this jamboree of nerds. The other was the Pelé of U.S. memory sport, a bearded 43-year-old chemical engineer and four-time national champion from Fayetteville,
+N.C., named Scott Hagwood. In the corner of the room sat the object of my affection: a kitschy, two-tiered trophy of a silver hand with gold nail polish brandishing a royal flush. It was almost as tall as my
+2-year-old niece (if lighter than most of her stuffed animals).
+
+The audience was asked not to take any flash photographs and to maintain total silence. Not that Kolli or I could possibly have heard them. Both of us were wearing earplugs. I also had on a pair of industrial-strength
+earmuffs that looked as if they belonged to an aircraft-carrier deckhand (in the heat of a memory competition, there is no such thing as deaf enough). My eyes were closed. On a table in front of me, lying face
+down between my hands, were two shuffled decks of playing cards. In a moment, the chief arbiter would click a stopwatch, and I would have five minutes to memorize the order of both decks.
+
+The unlikely story of how I ended up in the finals of the U.S.A. Memory Championship, stock-still and sweating profusely, began a year earlier in the same auditorium, on the 19th floor of the Con Edison building
+near Union Square in Manhattan. I was there to write a short article about what I imagined would be the Super Bowl of savants.
+
+The scene I stumbled upon, however, was something less than a clash of titans: a bunch of guys (and a few women), varying widely in age and personal grooming habits, poring over pages of random numbers and long
+lists of words. They referred to themselves as mental athletes, or M.A.’s for short. The best among them could memorize the first and last names of dozens of strangers in just a few minutes, thousands
+of random digits in under an hour and — to impress those with a more humanistic bent — any poem you handed them.
+
+###### Multimedia
+
+[![](https://static01.nyt.com/packages/images/magazine/2011/memoryGames/game-190.jpg)
+
+Interactive Game](https://www.nytimes.com/interactive/2011/02/20/magazine/memory-games.html)
+
+###### [Test Your Memory Skills](https://www.nytimes.com/interactive/2011/02/20/magazine/memory-games.html)
+
+[![](https://static01.nyt.com/packages/images/magazine/2011/memoryGames/numbers-190.png)
+
+PDF](https://static01.nyt.com/packages/pdf/magazine/20110220numbers-game.pdf)
+
+###### [Memorizing Numbers](https://static01.nyt.com/packages/pdf/magazine/20110220numbers-game.pdf)
+
+[![](https://static01.nyt.com/packages/images/magazine/2011/memoryGames/names-190.png)
+
+PDF](https://static01.nyt.com/packages/pdf/magazine/20110220names.pdf)
+
+###### [Memorizing Names](https://static01.nyt.com/packages/pdf/magazine/20110220names.pdf)
+
+I asked Ed Cooke, a competitor from England — he was 24 at the time and was attending the U.S. event to train for that summer’s World Memory Championships — when he first realized he was a savant.
+
+“Oh, I’m not a savant,” he said, chuckling.
+
+“Photographic memory?” I asked.
+
+He chuckled again. “Photographic memory is a detestable myth. Doesn’t exist. In fact, my memory is quite average. All of us here have average memories.”
+
+That seemed hard to square with the fact that he knew huge chunks of “Paradise Lost” by heart. Earlier I watched him recite a list of 252 random digits as effortlessly as if it were his telephone number.
+
+“What you have to understand is that even average memories are remarkably powerful if used properly,” Cooke said. He explained to me that mnemonic competitors saw themselves as “participants
+in an amateur research program” whose aim is to rescue a long-lost tradition of memory training.
+
+![Memorydog](https://static01.nyt.com/packages/images/magazine/2011/memoryGames/memorydog.png)
+
+Today we have books, photographs, computers and an entire superstructure of external devices to help us store our memories outside our brains, but it wasn’t so long ago that culture depended on individual
+memories. A trained memory was not just a handy tool but also a fundamental facet of any worldly mind. It was considered a form of character-building, a way of developing the cardinal virtue of prudence and,
+by extension, ethics. Only through memorizing, the thinking went, could ideas be incorporated into your psyche and their values absorbed.
+
+Cooke was wearing a suit with a loosened tie, his curly brown hair cut in a shoulder-length mop, and, incongruously, a pair of flip-flops emblazoned with the Union Jack. He was a founding member of a secret society
+of memorizers called the KL7 and was at that time pursuing a Ph.D. in cognitive science at the University of Paris. He was also working on inventing a new color — “not just a new color, but a whole
+new way of seeing color.”
+
+Cooke and all the other mental athletes I met kept insisting that anyone could do what they do. It was simply a matter of learning to “think in more memorable ways,” using a set of mnemonic techniques
+almost all of which were invented in ancient Greece. These techniques existed not to memorize useless information like decks of playing cards but to etch into the brain foundational texts and ideas.
+
+It was an attractive fantasy. If only I could learn to remember like Cooke, I figured, I would be able to commit reams of poetry to heart and really absorb it. I imagined being one of those admirable (if sometimes
+insufferable) individuals who always has an apposite quotation to drop into conversation. How many worthwhile ideas have gone unthought and connections unmade because of my memory’s shortcomings?
+
+At the time, I didn’t quite believe Cooke’s bold claims about the latent mnemonic potential in all of us. But they seemed worth investigating. Cooke offered to serve as my coach and trainer. Memorizing
+would become a part of my daily routine. Like flossing. Except that I would actually remember to do it.
+
+I
+
+n 2003, the journal Nature reported on eight people who finished near the top of the World Memory Championships. The study looked at whether the memorizers’ brains were structurally different from the rest
+of ours or whether they were just making better use of the memorizing abilities we all possess.
+
+Researchers put the mental athletes and a group of control subjects into f.M.R.I. scanners and asked them to memorize three-digit numbers, black-and-white photographs of people’s faces and magnified images
+of snowflakes as their brains were being scanned. What they found was surprising: not only did the brains of the mental athletes appear anatomically indistinguishable from those of the control subjects, but
+on every test of general cognitive ability, the mental athletes’ scores came back well within the normal range. When Cooke told me he was an average guy with an average memory, it wasn’t just modesty
+speaking.
+
+There was, however, one telling difference between the brains of the mental athletes and those of the control subjects. When the researchers looked at the parts of the brain that were engaged when the subjects memorized,
+they found that the mental athletes were relying more heavily on regions known to be involved in spatial memory. At first glance, this didn’t seem to make sense. Why would mental athletes be navigating
+spaces in their minds while trying to learn three-digit numbers?
+
+The answer lies in a discovery supposedly made by the poet Simonides of Ceos in the fifth century B.C. After a tragic banquet-hall collapse, of which he was the sole survivor, Simonides was asked to give an account
+of who was buried in the debris.
+
+My trainer and all the other mental athletes
+I met kept insisting that anyone
+could do what they do. It was simply a
+matter of learning to ‘think in more
+memorable ways.’
+When the poet closed his eyes and reconstructed the crumbled building in his imagination, he had an extraordinary realization: he remembered where each of the guests at the ill-fated dinner had been sitting. Even though he made no conscious effort to
+memorize the layout of the room, it nonetheless left a durable impression. From that simple observation, Simonides reportedly invented a technique that would form the basis of what came to be known as the art
+of memory. He realized that if there hadn’t been guests sitting at a banquet table but, say, every great Greek dramatist seated in order of birth — or each of the words of one of his poems or every
+item he needed to accomplish that day — he would have remembered that instead. He reasoned that just about anything could be imprinted upon our memories, and kept in good order, simply by constructing
+a building in the imagination and filling it with imagery of what needed to be recalled. This imagined edifice could then be walked through at any time in the future. Such a building would later come to be called
+a memory palace.
+
+Virtually all the details we have about classical memory training — indeed, nearly all the memory tricks in the competitive mnemonist’s arsenal — can be traced to a short Latin rhetoric textbook
+called “Rhetorica ad Herennium,” written sometime between 86 and 82 B.C. It is the only comprehensive discussion of the memory techniques attributed to Simonides to have survived into the Middle
+Ages. The techniques described in this book were widely practiced in the ancient and medieval worlds. Memory training was considered a centerpiece of classical education in the language arts, on par with grammar,
+logic and rhetoric. Students were taught not just what to remember but how to remember it. In a world with few books, memory was sacrosanct.
+
+![Memorypalaces](https://static01.nyt.com/packages/images/magazine/2011/memoryGames/memorypalaces.png)
+
+Living as we do amid a deluge of printed words — would you believe more than a million new books were published last year? — it’s hard to imagine what it must have been like to read in the age
+before Gutenberg, when a book was a rare and costly handwritten object that could take a scribe months of labor to produce. Today we write things down precisely so we don’t have to remember them, but
+through the late Middle Ages, books were thought of not just as replacements for memory but also as *aides-mémoire*. Even as late as the 14th century, there might be just several dozen copies of
+any given text in existence, and those copies might well be chained to a desk or a lectern in some library, which, if it contained a hundred other books, would have been considered particularly well stocked.
+If you were a scholar, you knew that there was a reasonable likelihood you would never see a particular text again, so a high premium was placed on remembering what you read.
+
+To our memorybound predecessors, the goal of training your memory was not to become a “living book” but rather a “living concordance,” writes the historian Mary Carruthers, a walking
+index of everything read or learned that was considered worthwhile. And this required building an organizational scheme for accessing that information. When the point of reading is remembering, you approach
+a text very differently from the way most of us do today. You can’t read as fast as you’re probably reading this article and expect to remember what you’ve read for any considerable length
+of time. If something is going to be made memorable, it has to be dwelled upon, repeated.
+
+In his essay “First Steps Toward a History of Reading,” Robert Darnton describes a switch from “intensive” to “extensive” reading that occurred as printed books began to
+proliferate. Until relatively recently, people read “intensively,” Darnton says. “They had only a few books — the Bible, an almanac, a devotional work or two — and they read
+them over and over again, usually aloud and in groups, so that a narrow range of traditional literature became deeply impressed on their consciousness.” Today we read books “extensively,”
+often without sustained focus, and with rare exceptions we read each book only once. We value quantity of reading over quality of reading. We have no choice, if we want to keep up with the broader culture. I
+always find looking up at my shelves, at the books that have drained so many of my waking hours, to be a dispiriting experience. There are books up there that I can’t even remember whether I’ve
+read or not.
+
+A
+
+ttention, of course, is a prerequisite to remembering. Part of the reason that techniques like visual imagery and the memory palace work so well is that they enforce a degree of mindfulness that is normally lacking.
+If you want to use a memory palace for permanent storage, you have to take periodic time-consuming mental strolls through it to keep your images from fading. Mostly, nobody bothers. In fact, mnemonists deliberately
+empty their palaces after competitions, so they can reuse them again and again.
+
+“Rhetorica ad Herennium” underscores the importance of purposeful attention by making a distinction between natural memory and artificial memory: “The natural memory is that memory which is
+embedded in our minds, born simultaneously with thought. The artificial memory is that memory which is strengthened by a kind of training and system of discipline.” In other words, natural memory is the
+hardware you’re born with. Artificial memory is the software you run on it.
+
+The principle underlying most memory techniques is that our brains don’t remember every type of information equally well. Like every other one of our biological faculties, our memories evolved through a process
+of natural selection in an environment that was quite different from the one we live in today. And much as our taste for sugar and fat may have served us well in a world of scarce nutrition but is maladaptive
+in a world of ubiquitous fast-food joints, our memories aren’t perfectly suited for our contemporary information age. Our hunter-gatherer ancestors didn’t need to recall phone numbers or word-for-word
+instructions from their bosses or the Advanced Placement U.S. history curriculum or (because they lived in relatively small, stable groups) the names of dozens of strangers at a cocktail party. What they did
+need to remember was where to find food and resources and the route home and which plants were edible and which were poisonous. Those are the sorts of vital memory skills that they depended on, which probably
+helps explain why we are comparatively good at remembering visually and spatially.
+
+In a famous experiment carried out in the 1970s, researchers asked subjects to look at 10,000 images just once and for just five seconds each. (It took five days to perform the test.) Afterward, when they showed
+the subjects pairs of pictures — one they looked at before and one they hadn’t — they found that people were able to remember more than 80 percent of what they had seen. For all of our griping
+over the everyday failings of our memories — the misplaced keys, the forgotten name, the factoid stuck on the tip of the tongue — our biggest failing may be that we forget how rarely we forget.
+The point of the memory techniques described in “Rhetorica ad Herennium” is to take the kinds of memories our brains aren’t that good at holding onto and transform them into the kinds of
+memories our brains were built for. It advises creating memorable images for your palaces: the funnier, lewder and more bizarre, the better. “When we see in everyday life things that are petty, ordinary
+and banal, we generally fail to remember them. . . . But if we see or hear something exceptionally base, dishonorable, extraordinary, great, unbelievable or laughable, *that* we are likely to remember
+for a long time.”
+
+What distinguishes a great mnemonist, I learned, is the ability to create lavish images on the fly, to paint in the mind a scene so unlike any other it cannot be forgotten. And to do it quickly. Many competitive
+mnemonists argue that their skills are less a feat of memory than of creativity. For example, one of the most popular techniques used to memorize playing
+
+The point of memory techniques
+to take the kinds of memories our brains
+aren’t that good at holding onto and
+transform them into the kinds of memories
+our brains were built for.
+cards involves associating every card with an image of a celebrity performing some sort of a ludicrous — and therefore memorable — action on a mundane object. When it comes time to remember the order of a series of cards, those memorized
+images are shuffled and recombined to form new and unforgettable scenes in the mind’s eye. Using this technique, Ed Cooke showed me how an entire deck can be quickly transformed into a comically surreal,
+and unforgettable, memory palace.
+
+But mental athletes don’t merely embrace the practice of the ancients. The sport of competitive memory is driven by an arms race of sorts. Each year someone — usually a competitor who is temporarily
+underemployed or a student on summer vacation — comes up with a more elaborate technique for remembering more stuff more quickly, forcing the rest of the field to play catch-up. In order to remember digits,
+for example, Cooke recently invented a code that allows him to convert every number from 0 to 999,999,999 into a unique image that he can then deposit in a memory palace.
+
+Memory palaces don’t have to be palatial — or even actual buildings. They can be routes through a town or signs of the zodiac or even mythical creatures. They can be big or small, indoors or outdoors,
+real or imaginary, so long as they are intimately familiar. The four-time U.S. memory champion Scott Hagwood uses luxury homes featured in Architectural Digest to store his memories. Dr. Yip Swee Chooi, the
+effervescent Malaysian memory champ, used his own body parts to help him memorize the entire 57,000-word Oxford English-Chinese dictionary. In the 15th century, an Italian jurist named Peter of Ravenna is said
+to have used thousands of memory palaces to store quotations on every important subject, classified alphabetically. When he wished to expound on a given topic, he simply reached into the relevant chamber and
+pulled out the source. “When I left my country to visit as a pilgrim the cities of Italy, I can truly say I carried everything I owned with me,” he wrote.
+
+W
+
+hen I first set out to train my memory, the prospect of learning these elaborate techniques seemed preposterously daunting. One of my first steps was to dive into the scientific literature for help. One name kept
+popping up: K. Anders Ericsson, a psychology professor at Florida State University and the author of an article titled “Exceptional Memorizers: Made, Not Born.”
+
+Ericsson laid the foundation for what’s known as Skilled Memory Theory, which explains how and why our memories can be improved, within limits. In 1978, he and a fellow psychologist named Bill Chase conducted
+what became a classic experiment on a Carnegie Mellon undergraduate student, who was immortalized as S.F. in the literature. Chase and Ericsson paid S.F. to spend several hours a week in their lab taking a simple
+memory test again and again. S.F. sat in a chair and tried to remember as many numbers as possible as they were read off at the rate of one per second. At the outset, he could hold only about seven digits at
+a time in his head. When the experiment wrapped up — two years and 250 mind-numbing hours later — S.F. had increased his ability to remember numbers by a factor of 10.
+
+When I called Ericsson and told him that I was trying to train my memory, he said he wanted to make me his research subject. We struck a deal. I would give him the records of my training, which might prove useful
+for his research. In return, he and his graduate students would analyze the data in search of how I might perform better. Ericsson encouraged me to think of enhancing my memory in the same way I would think
+about improving any other skill, like learning to play an instrument. My first assignment was to begin collecting architecture. Before I could embark on any serious degree of memory training, I first needed
+a stockpile of palaces at my disposal. I revisited the homes of old friends and took walks through famous museums, and I built entirely new, fantastical structures in my imagination. And then I carved each building
+up into cubbyholes for my memories.
+
+Cooke kept me on a strict training regimen. Each morning, after drinking coffee but before reading the newspaper or showering or getting dressed, I sat at my desk for 10 to 15 minutes to work through a poem or memorize
+the names in an old yearbook. Rather than take a magazine or book along with me on the subway, I would whip out a page of random numbers or a deck of playing cards and try to commit it to memory. Strolls around
+the neighborhood became an excuse to memorize license plates. I began to pay a creepy amount of attention to name tags. I memorized my shopping lists. Whenever someone gave me a phone number, I installed it
+in a special memory palace. Over the next several months, while I built a veritable metropolis of memory palaces and stocked them with strange and colorful images, Ericsson kept tabs on my development. When
+I got stuck, I would call him for advice, and he would inevitably send me scurrying for some journal article that he promised would help me understand my shortcomings. At one point, not long after I started
+training, my memory stopped improving. No matter how much I practiced, I couldn’t memorize playing cards any faster than 1 every 10 seconds. I was stuck in a rut, and I couldn’t figure out why.
+“My card times have hit a plateau,” I lamented.
+
+![MemoryTerry](https://static01.nyt.com/packages/images/magazine/2011/memoryGames/memoryTerry.png)
+
+“I would recommend you check out the literature on speed typing,” he replied.
+
+When people first learn to use a keyboard, they improve very quickly from sloppy single-finger pecking to careful two-handed typing, until eventually the fingers move effortlessly and the whole process becomes unconscious.
+At this point, most people’s typing skills stop progressing. They reach a plateau. If you think about it, it’s strange. We’ve always been told that practice makes perfect, and yet many people
+sit behind a keyboard for hours a day. So why don’t they just keeping getting better and better?
+
+In the 1960s, the psychologists Paul Fitts and Michael Posner tried to answer this question by describing the three stages of acquiring a new skill. During the first phase, known as the cognitive phase, we intellectualize
+the task and discover new strategies to accomplish it more proficiently. During the second, the associative phase, we concentrate less, making fewer major errors, and become more efficient. Finally we reach
+what Fitts and Posner called the autonomous phase, when we’re as good as we need to be at the task and we basically run on autopilot. Most of the time that’s a good thing. The less we have to focus
+on the repetitive tasks of everyday life, the more we can concentrate on the stuff that really matters. You can actually see this phase shift take place in f.M.R.I.’s of subjects as they learn new tasks:
+the parts of the brain involved in conscious reasoning become less active, and other parts of the brain take over. You could call it the O.K. plateau.
+
+Psychologists used to think that O.K. plateaus marked the upper bounds of innate ability. In his 1869 book “Hereditary Genius,” Sir Francis Galton argued that a person could improve at mental and physical
+activities until he hit a wall, which “he cannot by any education or exertion overpass.” In other words, the best we can do is simply the best we can do. But Ericsson and his colleagues have found
+over and over again that with the right kind of effort, that’s rarely the case. They believe that Galton’s wall often has much less to do with our innate limits than with what we consider an acceptable
+level of performance. They’ve found that top achievers typically follow the same general pattern. They develop strategies for keeping out of the autonomous stage by doing three things: focusing on their
+technique, staying goal-oriented and getting immediate feedback on their performance. Amateur musicians, for example, tend to spend their practice time playing music, whereas pros tend to work through tedious
+exercises or focus on difficult parts of pieces. Similarly, the best ice skaters spend more of their practice time trying jumps that they land less often, while lesser skaters work more on jumps they’ve
+already mastered. In other words, regular practice simply isn’t enough.
+
+For all of our griping over our
+failing memories — the misplaced keys,
+the forgotten name, the factoid
+stuck on the tip of the tongue — our biggest
+failing may be that we forget how
+rarely we forget.
+To improve, we have to be constantly pushing ourselves beyond where we think our limits lie and then pay attention to how and why we fail. That’s what I needed to do if I was going to improve my memory.
+
+With typing, it’s relatively easy to get past the O.K. plateau. Psychologists have discovered that the most efficient method is to force yourself to type 10 to 20 percent faster than your comfort pace and
+to allow yourself to make mistakes. Only by watching yourself mistype at that faster speed can you figure out the obstacles that are slowing you down and overcome them. Ericsson suggested that I try the same
+thing with cards. He told me to find a metronome and to try to memorize a card every time it clicked. Once I figured out my limits, he instructed me to set the metronome 10 to 20 percent faster and keep trying
+at the quicker pace until I stopped making mistakes. Whenever I came across a card that was particularly troublesome, I was supposed to make a note of it and see if I could figure out why it was giving me cognitive
+hiccups. The technique worked, and within a couple days I was off the O.K. plateau, and my card times began falling again at a steady clip. Before long, I was committing entire decks to memory in just a few
+minutes.
+
+More than anything, what differentiates top memorizers from the second tier is that they approach memorization like a science. They develop hypotheses about their limitations; they conduct experiments and track
+data. “It’s like you’re developing a piece of technology or working on a scientific theory,” the three-time world champ Andi Bell once told me. “You have to analyze what you’re
+doing.”
+
+To have a chance at catapulting myself to the top tier of the competitive memorization circuit, my practice would have to be focused and deliberate. That meant I needed to collect data and analyze it for ways to
+tweak the images in my memory palaces and make them stickier.
+
+Cooke, who took to referring to me as “son,” “young man” and “Herr Foer,” insisted that if I really wanted to ratchet up my training, I would need an equipment upgrade.
+All serious mnemonists wear earmuffs. A few of the most intense competitors wear blinders to constrict their field of view and shut out peripheral distractions.
+
+![Memorycat](https://static01.nyt.com/packages/images/magazine/2011/memoryGames/memorycat.png)Illustrations by David Sparshott
+
+“I find them ridiculous, but in your case, they may be a sound investment,” Cooke said on one of our twice-weekly phone check-ins. That afternoon, I went to the hardware store and bought a pair of
+industrial-grade earmuffs and a pair of plastic laboratory safety goggles. I spray-painted them black and drilled a small eyehole through each lens. Henceforth I would always wear them to practice.
+
+What began as an exercise in participatory journalism became an obsession. True, what I hoped for before I started hadn’t come to pass: these techniques didn’t improve my underlying memory (the “hardware”
+of “Rhetorica ad Herennium”). I still lost my car keys. And I was hardly a fount of poetry. Even once I was able to squirrel away more than 30 digits a minute in memory palaces, I seldom memorized
+the phone numbers of people I actually wanted to call. It was easier to punch them into my cellphone. The techniques worked; I just didn’t always use them. Why bother when there’s paper, a computer
+or a cellphone to remember for you?
+
+Yet, as the next U.S.A. Memory Championship approached, I began to suspect that I might actually have a chance of doing pretty well in it. In every event except the poem and speed numbers (which tests how many random
+digits you can memorize in five minutes) my best practice scores were approaching the top marks of previous U.S. champions. Cooke told me not to make too much of that fact. “You always do at least 20
+percent worse under the lights,” he said, and he warned me about the “lackadaisical character” of my training.
+
+“Lackadaisical” wasn’t the word I would have chosen. Now that I had put the O.K. plateau behind me, my scores were improving on an almost daily basis. The sheets of random numbers that I memorized
+were piling up in the drawer of my desk. The dog-eared pages of verse I learned by heart were accumulating in my “Norton Anthology of Modern Poetry.” To buoy my spirits, Cooke sent me a quotation
+from the venerable martial artist Bruce Lee: “There are no limits. There are plateaus, and you must not stay there; you must go beyond them. If it kills you, it kills you.” I copied that thought
+onto a Post-it note and stuck it on my wall. Then I tore it down and memorized it.
+
+M
+
+ost national memory contests, held in places like Bangkok, Melbourne and Hamburg, bill themselves as mental decathlons. Ten grueling events test the competitors’ memories, each in a slightly different way.
+Contestants have to memorize an unpublished poem spanning several pages, pages of random words (record: 280 in 15 minutes), lists of binary digits (record: 4,140 in 30 minutes), shuffled decks of playing cards,
+a list of historical dates and the names and faces of as many strangers as possible. Some disciplines, called speed events, test how much the contestants can memorize in five minutes (record: 480 digits). Two
+marathon disciplines test how many decks of cards and random digits they can memorize in an hour (records: 2,080 digits and 28 decks). In the most exciting event of the contest, speed cards, competitors race
+to commit a single pack of playing cards to memory as fast as possible.
+
+When I showed up at the following year’s U.S.A. Memory Championship, I brought along my black spray-painted memory goggles for speed cards. Until the moment a freshly shuffled deck was placed on the desk
+in front of me, I was still weighing whether to put them on. I hadn’t practiced without my goggles in weeks, and the Con Edison auditorium was full of distractions. But there were also three television
+cameras circulating in the room. As one of them zoomed in for a close-up of my face, I thought of all the people I knew who might end up watching the broadcast: high-school classmates I hadn’t seen in
+years, friends who had no idea about my new memory obsession, my girlfriend’s parents. What would they think if they turned on their televisions and saw me wearing huge black safety goggles and earmuffs,
+thumbing through a deck of playing cards? In the end, my fear of public embarrassment trumped my competitive instincts.
+
+From the front of the room, the chief arbiter, a former Army drill sergeant, shouted, “Go!” A judge sitting opposite me clicked her stopwatch, and I began peeling through the pack as fast as I could,
+flicking three cards at a time off the top of the deck and into my right hand. I was storing the images in the memory palace I knew better than any other, one based on the house in Washington in which I grew
+up. Inside the front door, the Incredible Hulk rode a stationary bike while a pair of oversize, loopy earrings weighed down his earlobes (three of clubs, seven of diamonds, jack of spades). Next to the mirror
+at the bottom of the stairs, Terry Bradshaw balanced on a wheelchair (seven of hearts, nine of diamonds, eight of hearts), and just behind him, a midget jockey in a sombrero parachuted from an airplane with
+an umbrella (seven of spades, eight of diamonds, four of clubs). I saw Jerry Seinfeld sprawled out bleeding on the hood of a Lamborghini in the hallway (five of hearts, ace of diamonds, jack of hearts), and
+at the foot of my parents’ bedroom door, I saw myself moonwalking with Einstein (four of spades, king of hearts, three of diamonds).
+
+The art of speed cards lies in finding the perfect balance between moving quickly and forming detailed images. You want a large enough glimpse of your images to be able to reconstruct them later, without wasting
+precious time conjuring any more color than necessary. When I put my palms back down on the table to stop the clock, I knew that I’d hit a sweet spot in that balance. But I didn’t yet know how
+sweet.
+
+The judge, who was sitting opposite me, flashed me the time on her stopwatch: 1 minute 40 seconds. I immediately recognized that not only was that better than anything I ever did in practice but that it also would
+shatter the United States record of 1 minute 55 seconds. I closed my eyes, put my head down on the table, whispered an expletive to myself and took a second to dwell on the fact that I had possibly just done
+something — however geeky, however trivial — better than it had ever been done by anyone in the entire country.
+
+(By the standards of the international memory circuit, where 21.9 seconds is the best time, my 1:40 would have been considered middling — the equivalent of a 5-minute mile for the best Germans, British and
+Chinese.)
+
+As word of my time traveled across the room, cameras and spectators began to assemble around my desk. The judge pulled out a second unshuffled deck of playing cards and pushed them across the table. My task now
+was to rearrange that pack to match the one I just memorized.
+
+I fanned the cards out, took a deep breath and walked through my palace one more time. I could see all the images perched exactly where I left them, except for one. It should have been in the shower, dripping wet,
+but all I could spy were blank beige tiles.
+
+“I can’t see it,” I whispered to myself frantically. “I can’t see it.” I ran through every single one of my images as fast as I could. Had I forgotten the fop wearing an
+ascot? Pamela Anderson’s rack? The Lucky Charms leprechaun? An army of turbaned Sikhs? No, no, no, no.
+
+I began sliding the cards around the table with my index finger. Near the top of the desk, I put the Hulk on his bike. Next to that, I placed Terry Bradshaw with his wheelchair. As the clock ran down on my five
+minutes of recall time, I was left with three cards. They were the three that had disappeared from the shower: the king of diamonds, four of hearts and seven of clubs. Bill Clinton copulating with a basketball.
+How could I have possibly missed it?
+
+I quickly neatened up the stack of cards into a square pile, shoved them back across the table to the judge and removed my earmuffs and earplugs.
+
+One of the television cameras circled around for a better angle. The judge began flipping the cards over one by one, while, for dramatic effect, I did the same with the deck I’d memorized.
+
+Two of hearts, two of hearts. Two of diamonds, two of diamonds. Three of hearts, three of hearts. Card by card, each one matched. When we got to the end of the decks, I threw the last card down on the table and
+pumped my fist. I was the new U.S. record holder in speed cards. A 12-year-old boy stepped forward, handed me a pen and asked for my autograph.
+
+*Joshua Foer is the author of “Moonwalking With Einstein: The Art and Science of Remembering Everything,” from which this article is adapted, to be published by Penguin Press next month.*
+
+By JOSHUA FOER
+
+|
+
+
+
+
+
+[Send Feedback](javascript:document.interactivefeedback.submit();)
+
+* [Home](https://www.nytimes.com)
+* [World](https://www.nytimes.com/pages/world/index.html)
+* [U.S.](https://www.nytimes.com/pages/national/index.html)
+* [N.Y. / Region](https://www.nytimes.com/pages/nyregion/index.html)
+* [Business](https://www.nytimes.com/pages/business/index.html)
+* [Technology](https://www.nytimes.com/pages/technology/index.html)
+* [Science](https://www.nytimes.com/pages/science/index.html)
+* [Health](https://www.nytimes.com/pages/health/index.html)
+* [Sports](https://www.nytimes.com/pages/sports/index.html)
+* [Opinion](https://www.nytimes.com/pages/opinion/index.html)
+* [Arts](https://www.nytimes.com/pages/arts/index.html)
+* [Style](https://www.nytimes.com/pages/style/index.html)
+* [Travel](https://www.nytimes.com/pages/travel/index.html)
+* [Jobs](https://www.nytimes.com/pages/jobs/index.html)
+* [Real Estate](https://www.nytimes.com/pages/realestate/index.html)
+* [Autos](https://www.nytimes.com/pages/automobiles/index.html)
+* [Site Map](http://spiderbites.nytimes.com/)
+
+* [© 2012](https://www.nytimes.com/ref/membercenter/help/copyright.html) [The New York Times Company](http://www.nytco.com/)
+* [Privacy](https://www.nytimes.com/privacy)
+* [Your Ad Choices](https://www.nytimes.com/ref/membercenter/help/privacy.html#pp)
+* [Terms of Service](https://www.nytimes.com/ref/membercenter/help/agree.html)
+* [Terms of Sale](https://www.nytimes.com/content/help/rights/sale/terms-of-sale.html)
+* [Corrections](https://www.nytimes.com/pages/corrections/index.html)
+* [RSS](https://www.nytimes.com/rss)
+* [Help](https://www.nytimes.com/membercenter/sitehelp.html)
+* [Contact Us](https://www.nytimes.com/ref/membercenter/help/infoservdirectory.html)
+* [Work With Us](http://www.nytco.com/careers)
+* [Advertise](http://www.nytimes.whsites.net/mediakit/)

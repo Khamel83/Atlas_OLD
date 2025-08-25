@@ -1,0 +1,119 @@
+# Disney Earnings, A Split Disney?, ESPN's Advertising (Stratechery Update 8-16-2023)
+
+**From:** Stratechery <email@stratechery.com>
+**Date:** Wed, 16 Aug 2023 12:52:11 +0000
+**Source:** inputs/saved_emails/Disney Earnings, A Split Disney, ESPN's Advertising (Stratechery Update 8-16-2023)_Wed,_16_Aug_2023_12-52-11_+0000_189fe6764a58c990.eml
+**Processed:** 2025-08-24T19:13:03.547959
+
+Disney's earnings point to the importance of advertising going forward; that's also the best argument for keeping Disney a conglomerate.
+
+View in browser ( https://stratechery.com/2023/disney-earnings-a-split-disney-espns-advertising/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2Rpc25leS1lYXJuaW5ncy1hLXNwbGl0LWRpc25leS1lc3Bucy1hZHZlcnRpc2luZy8iXX0sImV4cCI6MTY5NDc4MjMzMSwiaWF0IjoxNjkyMTkwMzMxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.K0lJ3Ukcgv70pyF5rlEMXJtC6ghtVn0_IMYXY_Ah-_1zGf5OvXG0iaLcPycNsHdzSIBibY-cHlVRE5OhemJP-_CHjkqVCOYAzLvQpYLpZCQigozrjUdwyCcu3kIGahdP_QE3EyH-9WRPa0jBSpOIKLzcOuusRMOf7jz84iVL1dbwbFb6SK5I2by-3ataNQRSPtalx6rpMom0rXa0KlcfXWuXUpUKYu02DvKo35B1dooA3ayxGtZD1_Se0T69Db-Eo4EptQJK81Rp5AMbgwsUPyHX5ZCCxXHzE0TTgsyDXkfbU1mf7vjrEnC7iayNGiu6lqEmJxQDqiisvYHyo6dHMQ )
+
+( https://stratechery.com )
+
+****************************************************
+Disney Earnings, A Split Disney?, ESPN's Advertising
+****************************************************
+
+( https://stratechery.com/2023/disney-earnings-a-split-disney-espns-advertising/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2Rpc25leS1lYXJuaW5ncy1hLXNwbGl0LWRpc25leS1lc3Bucy1hZHZlcnRpc2luZy8iXX0sImV4cCI6MTY5NDc4MjMzMSwiaWF0IjoxNjkyMTkwMzMxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.K0lJ3Ukcgv70pyF5rlEMXJtC6ghtVn0_IMYXY_Ah-_1zGf5OvXG0iaLcPycNsHdzSIBibY-cHlVRE5OhemJP-_CHjkqVCOYAzLvQpYLpZCQigozrjUdwyCcu3kIGahdP_QE3EyH-9WRPa0jBSpOIKLzcOuusRMOf7jz84iVL1dbwbFb6SK5I2by-3ataNQRSPtalx6rpMom0rXa0KlcfXWuXUpUKYu02DvKo35B1dooA3ayxGtZD1_Se0T69Db-Eo4EptQJK81Rp5AMbgwsUPyHX5ZCCxXHzE0TTgsyDXkfbU1mf7vjrEnC7iayNGiu6lqEmJxQDqiisvYHyo6dHMQ ) Wednesday, August 16, 2023
+
+Add to your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+Yesterday’s Sharp Tech episode ( https://sharptech.fm/member/episode/the-business-of-taylor-swift-eras-and-social-media-the-two-big-obstacles-preventing-an-apple-and-disney-merger ) covered Taylor Swift and her mastery of the current stage of the Internet, as well as Disney. In addition, we bid a fond farewell to the hopes that LK-99 would be a superconductor: it’s looking pretty unlikely ( https://www.theverge.com/2023/8/10/23827216/superconductor-lk-99-research-findings ) at this point.
+
+On to the Update:
+
+Disney Earnings
+---------------
+
+I touched on Disney’s earnings, specifically the inversion of profitability in terms of linear networks and the parks, in yesterday’s Article Disney’s Taylor Swift Era ( https://stratechery.com/2023/disneys-taylor-swift-era/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2Rpc25leXMtdGF5bG9yLXN3aWZ0LWVyYS8iXX0sImV4cCI6MTY5NDc4MjMzMSwiaWF0IjoxNjkyMTkwMzMxLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.KxVsZbucP_reGhiFAUrmFPvFPoZevoBfJYz7bQ91p06H6llgE1TI9-Cs36IZoB6LZOcv2Fsv5wK0DKEo2CANhUHaub368FAzA2x9D8ULQ_1vuhHZvxol1X4H6uaO75D-7ZwerakJVPbwZNTOKh9tobyx0zZ16xBnddwCxvVkLqUu14mIpOclRmnPIFvtAZz0x11mAThj6-2R-jrOab_VXdevXQOdPo7yZeVH7VmWB9iAumWtUWW5CUZNsKNultGdRE9y8dzhJfA9u7pxKdm2LaMUHSgx0PIjUM74uAumI8V6qQNCNeOaAjmClSZSU-NnJ8gBivSDgqHbfyv3PzcYng ) , but there is more to discuss. First, from the Wall Street Journal ( https://www.wsj.com/articles/disney-raising-prices-hulu-espn-earnings-call-64ae262 ) :
+
+Disney’s era of budget-priced streaming video packages and galloping subscriber growth has come to an end. For the second time in about a year, Disney unveiled a round of major price increases to its streaming products, raising the cost of the ad-free versions of Disney+ and Hulu by more than 20% each. The company also vowed to crack down on password-sharing, an effort that streaming rival Netflix started in earnest earlier this year. The moves, along with deep cuts announced early this year, are geared toward achieving profitability for Disney’s streaming segment by September 2024…
+
+The price increases and pledge to address account sharing come as the company earlier Wednesday said its streaming business lost far less money in the latest quarter than it did in previous periods, but reported that its flagship Disney+ streaming service lost domestic subscribers for the second quarter in a row. The company also raised prices on its Hulu Live television packages and announced the launch of a new bundle known as the Duo Premium, which pairs Disney+ and Hulu without ads for $19.99 a month. Previously, the company had offered both services as stand-alone products, or bundled with ESPN+ for the same $19.99 price. The company plans to raise the price of the bundle including all three services to $24.99 a month.
+
+Wednesday’s price increases, which take effect in October, mean that the monthly cost of the ad-free stand-alone version of Disney+ has doubled to $13.99 from its 2019 introductory price of $6.99. The price of Disney’s ad-free Hulu service will rise to $17.99 from $14.99, making it more expensive than the most popular ad-free version of Netflix or Warner Bros. Discovery’s Max streaming platform. The cost of the ad-supported versions of Disney+ and Hulu won’t change in the U.S., Iger said. “Maintaining access to our content for as broad an audience as possible is top of mind for us,” he said.
+
+Start with that last point: Disney is executing the exact strategy I prescribed for Netflix a few weeks ago ( https://stratechery.com/2023/netflix-earnings-netflixs-coming-price-increases-netflix-and-the-strike/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL25ldGZsaXgtZWFybmluZ3MtbmV0ZmxpeHMtY29taW5nLXByaWNlLWluY3JlYXNlcy1uZXRmbGl4LWFuZC10aGUtc3RyaWtlLyJdfSwiZXhwIjoxNjk0NzgyMzMxLCJpYXQiOjE2OTIxOTAzMzEsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.qF3qPwkFODGwe71TKsM1uQF-qjNfseYcviQa1b4Pwe2NSlsou82eIuGpQEjSb8DQxPrRyYJ8EwdynMgMTtMbnNS5utX-Q0c3iAeBKAgVykota26oIAE4del2NsEn20UdL3XQqR7jWKZNBj0j_i0q6l1KUPmgo6N_P87u8IXsNWWzWGewEqtgyJd5Lq-8tm6F7myKkLY9Xy0ro6MFRzkJqQNuya0CjXqpQac9u1ExgOghBwlN2rd-FecR-WjeRGP70EOya1eVcPolPVyvlLLtk4YJDPl_3QtX8lBnFVNJjL3ioY8vgFZ08qzdP9ZwhaC5ZS5UOQHKs8EJJsUC6b5kVw ) :
+
+It’s one thing to get high CPM’s with brand new advertising on a marquee product like Netflix; brands have experimental budgets that are tailor-made for Netflix’s initial offering. The challenge for the company going forward is going to be to sustain those CPMs when the money is coming from the regular advertising budget, which needs to show a return, and that is absolutely dependent on scale (remember, ROI isn’t just about the ‘R’, but also the ‘I’). This means that Netflix is going to need to have a lot of people on its advertising plan…
+
+The first step in increasing advertising scale is (1) making the advertising tier more attractive, which Netflix did by improving the product experience to the “standard” level, and (2) increasing the delta between the advertising tier and the non-advertising tier, thus capturing more price-sensitive customers. This is what happened last week. I suspect, though, that (2) is only just getting started: the easiest way to increase the delta going forward is to aggressively raise prices on Netflix’s ad-free plans.
+
+In the long run the most scalable product for all of these companies will likely be their advertising tier, and Disney is hustling to build that up by keeping its price at $7.99 while jacking up the ad-free plan; to put it another way, implicit in this plan is some number of folks churning from the ad-free plan to the ad-supported plan. Actually, implicit is the wrong word: Iger was quite explicit on the earnings call ( https://seekingalpha.com/article/4626271-walt-disney-company-dis-q3-2023-earnings-call-transcript ) :
+
+It’s important to note, though, that the price increase that we’ve just announced is a price increase for the premium product or the non-advertiser-supported product. We’re actually keeping the advertiser supported product flat in terms of prices. That’s being done for a reason. Obviously, as has been noted by Kevin in his remarks, the advertising marketplace for streaming is picking up. It’s more healthy than the advertising marketplace for linear television. We believe in the future of advertising on our streaming platforms, both Disney+ and Hulu. And we’re obviously trying with our pricing strategy to migrate more subs to the advertiser-supported tier.
+
+The next step would be to lower the price of that ad-supported tier, but Disney isn’t that brave yet.
+
+A Split Disney?
+---------------
+
+Michael Nathanson asked Iger on the earnings call:
+
+*Given the thinking you’ve done about the future of Disney, why doesn’t it make sense to create two Disney companies: one focused on parks, consumer products, Disney+ and then the studio IP that drives that flywheel, and then one on everything else? So why not make a clean break?*
+
+Michael, on the first part, I’m not going to comment on the future structure of the company or the asset makeup of the company. As I’ve said, we’re looking at strategic options both for ESPN and for the Linear Networks, obviously, addressing all the challenges that those businesses are facing. I’m looking forward to reading your thesis on it. Maybe you’ll give us some ideas about it, but I’m not going to make any comments about it right now.
+
+Nathanson did publish his thesis in an analyst report ( https://www.moffettnathanson.com/media-home ) :
+
+Given that Disney is in the process of exploring all options when it comes to its future mix of assets, we think there is a clear case to be made that under any scenario Disney’s assets are worth materially more than its current enterprise value. Perhaps the easiest way to close that gap would be to create a newco with Disney’s Parks, Experiences and Products segment combined with Disney+ and the studio IP that fuels these flywheels. This asset would likely trade at a premium valuation given the high moat, iconic assets and strong revenue growth.
+
+That company would be separate from oldco, which houses all Disney’s linear networks, ESPN+, Hulu SOD, Hulu Live TV and Disney+ Hotstar. Given peer multiples at FOXA and WBD, we have no illusions that the market will be generous in the valuation of these businesses. Yet, we think that the low current implied value of Disney’s non-park businesses doesn’t require anything heroic for these moves to be accretive.
+
+Our core thesis is that Disney’s DPEP division is being undervalued both by the conglomerate structure of Disney and the fact that media analysts, not leisure analysts, cover this stock.
+
+Nathanson argues that valuing DPEP using similar metrics to other experiential stocks leads to a valuation of around $164 billion, which means that Disney’s media business (DMED) is worth around $49 billion, i.e. somewhere between Warner Bros. Discovery ($76 billion) and Paramount ($23 billion), with a multiple closer to the latter; Nathanson says it should actually be higher than the former, doubling DMED’s implied valuation. In short, Disney may be in its Taylor Swift era, but it’s not even getting full credit for that.
+
+I think that Nathanson has a compelling thesis, particularly if you believe that Disney’s Taylor Swift era is going to be the core of its business in the long run; in that world the Disney+ streaming service is subservient to and a marketing vehicle for the in-person experience of visiting the parks, taking cruises, etc., and in that case why not get rid of everything else? Indeed, from a certain perspective I was making this exact case in yesterday’s Article.
+
+It follows, then, that any counter to Nathanson’s thesis starts with the assumption/hope that streaming will eventually amount to more than just a customer acquisition tool, but will in fact be a meaningful business in its own right. To accomplish that will require three things: more customer acquisition, lower churn, and increasing revenue per subscriber. These are all difficult problems when it comes to subscriptions: lower prices are better for customer acquisition, for example, but worse when it comes to average revenue per subscriber. Or increased spending on marketing may increase customer acquisition, but increase churn. Or increased prices might also increase churn.
+
+Probably the best way to solve these intractable riddles is through bundling: a bundle increases the perceived value of the offering, has more content to reduce churn, and at sufficient scale improves the average revenue per consumer (although it decreases the average revenue per consumer at the beginning, at least for individual product lines). This, then, is an argument for a bigger Disney: Disney+ is already offered as a bundle with Hulu and ESPN+ (albeit at also-increased prices); that bundle could become that much more attractive whenever ESPN goes over the top.
+
+Again, though, up to this point I have been talking about subscriptions only: what this exercise ought to impress on you is precisely why advertising is such a compelling business model. Advertising takes away the trade-offs: more customers mean more money, both in terms of increased inventory and also increased leverage on your advertising infrastructure; meanwhile, the lower prices made possible by ads lead to decreased churn. At the same time, the upside for advertising revenue is effectively infinite, given that increased prices-per-ad aren’t felt by consumers; if anything, it means they are getting better targeted and thus more valuable ads.
+
+And here’s the thing: having more content and more customers and the ability to fully intermingle the data that results from a common platform is the best strategy when it comes to building an advertising business. That, to a much greater extent than history or accounting or taxes or even bundling is the best possible argument for Disney to stay as big as it is, and move past its Taylor Swift era to one that is driven by streaming from a consumer perspective, and advertising from a business perspective.
+
+ESPN’s Advertising
+------------------
+
+Two ESPN notes that are relevant to this discussion. First, from Iger’s prepared remarks:
+
+It’s interesting to note that ratings continue to increase on ESPN’s main linear channel even as cord cutting has accelerated. This rating strength creates tremendous advertising potential across the board. Our total domestic sports advertising revenue for linear and addressable is up 10% versus the prior year adjusted for comparability, which speaks to the fact that the sports business stands tall and remains a good value proposition.
+
+If Disney’s streaming future is about advertising, it will be very difficult to give up ESPN, given that sports, long the anchor for TV advertising ( https://stratechery.com/2016/the-sports-linchpin/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDE2L3RoZS1zcG9ydHMtbGluY2hwaW4vIl19LCJleHAiOjE2OTQ3ODIzMzEsImlhdCI6MTY5MjE5MDMzMSwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.P_33J6TBW5Mjtqi8jNVvQPQ9nn2mwUzRec_Gx_7m9UExs2r82SWZyqYvUjCS--sYcVxXYwQtCnTSebvJkMHnphecIj2apRuzIzasKD1mddfgOMkmfXnmODHeWw5czpXj7QTYkYapuxpxt7M3DKp3nNSl6l31KEo4Up6XFuLLbEN0OmgQRqH0kt2fRIPsQs383Lt2mt5xhApBUIJwIgpZ0TI1wQWTPmD4brGxtb9_79Gxon-VmAm9PBNAHxGwxksSPDerHDi-NjxHHUJMNMlkvx8ahKiYv3NEB01Csbn3084H06oiP2hurfwJo0X0C9oGYkyN8002BmhI5pxaXbgvqQ ) , would almost certainly serve a similar role for streaming, whenever it goes over the top.
+
+Second, with regards to the types of partners ESPN is looking for ( https://stratechery.com/2023/bob-iger-on-cnbc-the-end-of-linear-tv-espn-and-strategic-partnerships-and-apple/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2JvYi1pZ2VyLW9uLWNuYmMtdGhlLWVuZC1vZi1saW5lYXItdHYtZXNwbi1hbmQtc3RyYXRlZ2ljLXBhcnRuZXJzaGlwcy1hbmQtYXBwbGUvIl19LCJleHAiOjE2OTQ3ODIzMzEsImlhdCI6MTY5MjE5MDMzMSwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.ddkYUkdsZ-sRzm9ncCMXowjwAyS0TvYnpSgI3zcmeVsP4NsHe3d-QABFjgFayCN4nkstBovszmS7CZHMDup91Scz1H1OEcVP8VYnT9ByAUZ04LKdemnA70kDBCJEzVifL_wrVSQF2jQyH7vf8nuG0NghuEte5uMjx901e9lqtBFJsj6ODzuT-WgQViDDpmSucFZiSPh8lltr5ifJz15zgl-r9VnoMZof_Nhs5q6YhClAhXbAMD95S37nHGs2inY0qAhvoL7o8RuVIhi4MylNYEpCa-7zrdkHyuDB2ZZZuLBp559DOZ1ap1vrlYFDm7v0NVuEHuagki_VaN001Cjrcg ) , Iger said in response to a question:
+
+The strategic partnerships that we’re looking to create and that we’re actually in discussions about are aimed at accomplishing a few things: one, content, meaning increasing the content that ESPN offers; and two, possibly, I’ll call it distribution and marketing support. And it’s possible that we’ll be able to do both, as this is all being done with an eye toward the inevitability of taking the SPN flagship over the top.
+
+So when we look ahead and we see a business that will be primarily a direct-to-consumer business, we obviously have an eye toward how much content do we need in order to make that a successful business. That obviously ties to what the pricing model need to be and actually, how much distribution support we need. We benefited greatly from the distribution support in the old business model from cable and satellite.
+
+Obviously, when you go DTC, you’re kind of doing it on your own or maybe not or maybe there’s an opportunity with another entity to help in that regard. So we’re basically looking quite expansively. I must say we’re extremely encouraged with all the interest that we’ve had already in this regard. And I think it’s safe to assume, as we ultimately turn this into a streaming business, while we have a phenomenal hand right now better than anyone else in terms of the content that ESPN offers that we believe that adding more content under economical circumstances might be a wise thing.
+
+For ESPN to work over-the-top it has to get to scale very quickly, for two reasons: first, and probably most importantly, is the fact that ESPN has fixed costs in terms of sports rights. ESPN can’t afford a long build-up period after it has cannibalized its cable offering (likely triggering significantly lower affiliate fees). The second reason is pertinent to the rest of this Update: ESPN is a major advertising vehicle, and advertising is ultimately a numbers game, which means Disney needs to get those numbers up as soon as possible.
+
+As for potential partners, the big tech companies remain the most obvious candidates, thanks to their control of phones and TV set top boxes; Roku is another candidate as well. Don’t rule out existing cable providers, though: an ESPN streaming service will still run over their infrastructure, and they are just as interested in new revenue opportunities as Disney.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Auto-renewal is disabled
+Expiration date: December 8, 2023
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://api.passport.online/oauth/session?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZXhwIjoxNzIzMjk0MzMxLCJpYXQiOjE2OTIxOTAzMzEsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInJkciI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL21lbWJlci9hY2NvdW50Iiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgc2Vzc2lvbiIsInN1YiI6ImMwZWRkNGMyLWUyNzMtNDdiMS1hY2JlLTUwYWU5ZjEzODUxOCIsInVzZSI6ImFjY2VzcyJ9.dIcpfeFOBe3ju00IDcV9Q2MEpwG0mUQS3gBl8xgSjqbKJr8jS9TjvV1ms8Xf99GTUHq5-fFFNcgtfwjKLzSVOtRkiSEPOnvVyEDMliWNyG4znAQHGtHw5R4qRjWqqw7QVuwk5g-QVwkfpXAzULWMi22mDvc1KO7RkFQoSORfL7zMzv91f7LcGIbaFhRRHRIZFGCFBgtDjjFf1ONlfehXK-HzQZqeZTyWDoNUXIBJUrR92vM-1BVao635hcSKU6sf7mauyYYXb-a52Cy8BlSvy3ORSfommc1CkjTf2CIxQHTQQWCWMxZe6n5D19_cQHh7cjwQlcDBMWMZCfdfkiKVgQ&redirect_uri=https%3A%2F%2Fstratechery.passport.online%2Fmember%2Flogin&session_uri=https%3A%2F%2Fstratechery.passport.online%2Fmember%2Faccount ) to view your account and manage your subscriptions.
+
+© 2023 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

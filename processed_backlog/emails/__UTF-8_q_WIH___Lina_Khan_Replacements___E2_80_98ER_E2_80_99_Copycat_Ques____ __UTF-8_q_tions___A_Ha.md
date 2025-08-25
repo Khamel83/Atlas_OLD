@@ -1,0 +1,154 @@
+# =?UTF-8?q?WIH+:_Lina_Khan_Replacements,_=E2=80=98ER=E2=80=99_Copycat_Ques?=
+ =?UTF-8?q?tions_&_A_Harvey_Rikers_Update?=
+
+**From:** Matthew Belloni <matt@puck.news>
+**Date:** Wed, 13 Nov 2024 01:15:32 +0000
+**Source:** inputs/saved_emails/=UTF-8qWIH+_Lina_Khan_Replacements,_=E2=80=98ER=E2=80=99_Copycat_Ques=
+ =UTF-8qtions_&_A_Harvey_Rikers_Update=_Wed,_13_Nov_2024_01-15-32_+0000_19323171ff9fcbbb.eml
+**Processed:** 2025-08-24T19:13:07.216467
+
+Welcome back to What I’m Hearing+, your Tuesday down-ballot race that determines ultimate control of Hollywood. This morning, I attended the HBO/Max media presentation for its 2025 slate of shows, including The Pitt, a 15-episode “real-time” medical drama that may or may not be an improper ripoff of ER. I’ve been skeptical of that lawsuit, especially since it was brought by Michael Crichton’s widow, who is being advised by the shameless press hound manager-producer Shane Salerno.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+What I'm Hearing + ( https://puck.news/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Welcome back to What I’m Hearing+, your Tuesday down-ballot race that determines ultimate control of Hollywood. This morning, I attended the HBO/Max media presentation for its 2025 slate of shows, including The Pitt, a 15-episode “real-time” medical drama that may or may not be an improper ripoff of ER. I’ve been skeptical of that lawsuit, especially since it was brought by Michael Crichton’s widow, who is being advised by the shameless press hound manager-producer ( https://puck.news/newsletter_content/what-im-hearing-reindeer-games-will-smiths-return-bryan-vs-ari-2/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) Shane
+Salerno. Coincidentally, that case is the topic of Eriq Gardner’s latest column...
+
+But first, here’s Eriq with some news and notes…
+
+Tuesday Thoughts…
+
+* Life after Lina: Hollywood executives may be licking their lips ( https://puck.news/why-are-hollywood-executives-so-giddy-about-trump/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) over ostensible M&A opportunities in Trump 2.0, but who will actually replace Jonathan Kanter at the D.O.J. Antitrust Division and Lina Khan at the F.T.C., respectively? I’m hearing that the top contenders at the D.O.J. are: Sidley partner William Levi, Apollo attorney Bill Rinner, former Mike Lee advisor Mark
+Meador, Morrison & Foerster partner Alex Okuliar, and Paul Hastings’ Michael Murray. Each has D.O.J. experience and Federalist Society bona fides. Meador would be a particularly interesting choice—he recently endorsed ( https://www.sportico.com/law/analysis/2024/ticketmasters-abuse-of-monopoly-power-wont-fly-1234789894/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) the D.O.J.’s effort to break up Live Nation and Ticketmaster.
+
+As for F.T.C., I wouldn’t count on Trump 1.0 antitrust cop Makan Delrahim returning, despite a Semafor report floating his name. I would keep an eye out for J.D. Vance advisor Gail Slater, although, as I explained ( https://open.spotify.com/episode/7sJumdI3okkASnQWmo94OR?si=rAJXK5jzRhGJfVY6jdo_YA&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) on the Powers That Be podcast, there’s an excellent chance that the F.T.C. becomes diminished—or gets out of the merger review business altogether. In fact, if Elon Musk gets his way, the job of scrutinizing industry consolidation for consumer harm may move directly under the D.O.J.—and thus under Trump’s control. (I’ll have more to say about that on Puck’s Inner Circle call on Wednesday. You can click here ( https://puck.news/join/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) to upgrade your account.) —Eriq
+Gardner
+* Disney’s equal-pay settlement: You heard it here first: This Friday, lawyers representing women in a pay-disparity class-action suit against Disney will unveil the details of a settlement. Launched with considerable attention in 2019, the case ( https://www.nytimes.com/2019/04/02/business/media/disney-gender-discrimination-lawsuit.html?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) challenged Disney’s pay practices, spurred by amendments to California’s Equal Pay Act that barred employers from using previous salary histories to justify gender-based wage differences. The class, encompassing approximately 9,000 nonunion women across myriad Disney divisions—theme parks, ABC, Marvel, and others—gained momentum following a judge’s certification last
+December, setting the stage for what could have been one of the largest pay-bias trials in legal history. Instead, Disney has reached a deal to avoid a trial that risked up to $300 million. A company spokesperson confirmed the settlement, but disclosed no details. The pact will need judicial approval, so stay tuned. —E.G.
+* Harvey now targeting former colleagues: Harvey Weinstein may be in jail, battling cancer, and awaiting yet another criminal trial after his New York conviction was vacated by an appeals court, but he’s still plotting. Not only is the onetime kingpin reportedly planning on suing the city of New York for medical negligence—Rikers Island’s cancer ward is apparently not up to his standards—he’s also eyeing legal action against former executives at The Weinstein Co. over what he suspects were improper transfers of intellectual property during the indie studio’s final days. One such executive, Charles
+Prince, recently moved to quash a subpoena, asking a judge to sanction Weinstein for his fishing expedition. Interestingly, the discovery comes in a barely active case where Weinstein himself was sued over an unpaid loan. After the criminal conviction, the financial institution gave up on the debt and offered to close the case, but Harvey wasn’t ready. Instead, he’s using this civil action as a vehicle to investigate others. —E.G.
+* And speaking of Weinstein…: CAA is still grappling with the lawsuit from actress Julia Ormond, who faults the talent agency for failing to warn her about Weinstein when it arranged for a meeting back in 1995. An August decision by New York Justice Suzanne Adams to allow Ormond to proceed would ordinarily begin the process of document exchanges and depositions. But CAA is petitioning the court to pause discovery while it pursues an appeal. Ormond’s attorney Doug Wigdor is fighting
+back, saying such a move would be unprecedented. CAA’s first appellate brief is due early next month. —E.G.
+* Zombie lawsuits: Meanwhile, AMC has achieved a quiet but significant victory in its long-running profits dispute over The Walking Dead. Creator Robert Kirkman and other producers have been embroiled in a legal battle concerning their calculation of contingent compensation since 2017. The dispute centers on the revenue AMC garnered by licensing the hit series to its own affiliate cable network. In 2020, an L.A. Superior Court judge ruled that the studio was entitled to define net profits, a decision that was just affirmed ( https://www.courts.ca.gov/opinions/nonpub/B326309.PDF?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ). But Kirkman and four others are still pursuing a separate case in
+federal court over compensation following an AMC settlement with Frank Darabont, who originally adapted Kirkman’s graphic novel for television.
+
+Interestingly, there’s a link between the Kirkman case and the political sphere. Several prominent Hollywood lawyers, frustrated by the trend of television networks and streamers self-distributing their own content, had hoped that a Harris administration might consider reviving the F.C.C.’s 1970s-era Financial Interest and Syndication Rules, which essentially barred networks from broadcasting shows they had a financial stake in. Alas, with Trump’s reelection, those hopes may be dashed.
+
+Oh, and one more note: During both the Darabont and Kirkman cases, amid debates over the appropriate revenue AMC should have received for licensing a top-rated television show, the plaintiffs’ economics experts referred to what Warner Bros. had secured from NBC for the medical drama ER.
+—E.G.
+
+Which brings me to…
+
+The Reskinning of an ‘ER’ Reboot ( https://puck.news/is-hbo-max-the-pitt-just-er-with-a-new-title/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+The Reskinning of an ‘ER’ Reboot ( https://puck.news/is-hbo-max-the-pitt-just-er-with-a-new-title/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Warner Bros. TV has fired back at Sherri Crichton’s lawsuit over Max’s new medical drama, ‘The Pitt,’ which she claims is little more than an ‘ER’ knockoff. Max claims that Sherri is trying to monopolize the medical genre. But it’s not that simple.
+
+ERIQ GARDNER ( https://puck.news/author/eriq-gardner/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+ERIQ GARDNER ( https://puck.news/author/eriq-gardner/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+In the years after the pandemic, Warner Bros. Television began plotting to revive the concept behind ER—the smash-hit medical melodrama that launched George Clooney’s career 30 years ago. Alas, the studio ran into a series of predictable roadblocks as its executive team came under new management in David Zaslav and Warner Bros. Discovery. But the most significant issue arose from the great beyond: the fiercely protective estate of Michael Crichton, the bestselling author who turned his experience as an emergency room intern in the 1970s into the NBC series that dominated TV from 1994 to 2009. Sherri Crichton, the author’s widow, was already peeved that her late husband had been short-changed when HBO rebooted Westworld—and began making a fuss over how he’d be credited on the ER
+reboot, too.
+
+Negotiations fell apart last year. But this past March, nearly six months after the reboot hopes had faded, WBTV and its sister streamer Max announced a new medical series entitled The Pitt, which just so happened to involve several key figures from ER, including producers John Wells and R. Scott Gemmill and actor Noah Wyle, in a role reminiscent of his ER character, John Carter. Despite the new name and Pittsburgh setting, Sherri sued, claiming The Pitt was really just “ER 2.0” and violated an old deal that prohibited remakes and sequels without explicit permission from the Crichton estate.
+
+The lawsuit, filed in late August, exposed extensive conversations between Sherri and the producers, including a striking detail in which Wells personally guaranteed $5 million should the show proceed without recognizing Crichton via a “created by” credit. Why such a generous offer if
+Sherri’s approval weren’t crucial? Los Angeles Superior Court Judge Wendy Chang is now tasked with scrutinizing allegations that the ER producers, after years spent attempting a revival, conveniently prepared a medical drama ostensibly unique yet unmistakably similar.
+
+This week, Warner Bros. TV launched a counteroffensive seeking to dismiss the case. Its defense concedes that discussions about a new ER series occurred, but portrays those negotiations as collapsing due to Sherri’s unreasonable money demands. Wells’ $5 million pledge was merely an act of largesse, the studio lawyers argue, in recognition of the late writer’s contribution to the reboot. “But no deal was reached, and Defendants had no choice but to move on,” the studio’s anti-SLAPP motion states. “When they decided to make The Pitt, they made sure to create a drama that was very different from ER.”
+
+Essentially, WBTV’s
+argument is that The Pitt isn’t a recycled ER, and the studio owes Sherri nothing since she doesn’t have a monopoly on medical dramas. To win, a judge must be convinced to look past a year’s worth of negotiations and focus solely on how the forthcoming show diverges from its predecessor. For example, it appears that unlike ER, The Pitt is a “real-time” drama, similar to 24, with each episode tracking one hour of a 15-hour shift that comprises the entire season. Still, further details about the series are scant, and the studio isn’t ready to reveal any spoilers, making this case challenging to forecast.
+
+The “Frozen Provision”
+
+In Hollywood, of course, allegations of deceit between former partners are standard fare. In the ’60s, a dispute between James Bond author Ian Fleming and Thunderball film producer Kevin McClory, which erupted after Fleming licensed Dr. No independently, led to a 50-year feud ( https://www.hollywoodreporter.com/business/business-news/james-bond-mgm-danjaq-settle-656432/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ). In the ’80s, Star Trek creator Gene Roddenberry went to war with his first wife, Eileen, over post-divorce profits ( https://www.courtlistener.com/opinion/2272017/roddenberry-v-roddenberry/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) on the franchise. Perhaps foreshadowing the ER case, the talent agency that brokered the 1984 deal for MacGyver sued 
+( https://www.hollywoodreporter.com/business/business-news/cbs-settles-macgyver-profits-battle-1235143368/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) CBS over the 2016 reboot, and CBS countered that the new show wasn’t really a spinoff as defined in their original profit-sharing agreement. (The case settled before trial in 2022.)
+
+As for ER, the dispute can be traced back to a 1994 agreement among
+Warner Bros., Steven Spielberg’s Amblin Entertainment, and Crichton—a negotiation, interestingly, in which CAA represented all three parties. The pact, forged as NBC ordered a two-hour pilot, delineated approval rights and profit-sharing provisions that would soon prove to be enormously lucrative. By the turn of the century, ER was a ratings behemoth, second only to Survivor, commanding over $13 million per episode from NBC—a record at the time, and still near the top today. The show ran for 331 episodes, becoming a jewel in Warners’ crown.
+
+It’s hardly surprising that Zaslav’s troops would want to dip into the I.P. vault. To bring ER back, however, they had to navigate the “frozen provision” from the 1994 pact, requiring mutual consent from Crichton and Amblin to proceed with sequels or reboots. According to Crichton’s suit, Sherri learned about the ER reboot on Thanksgiving eve in 2022, when Wells called
+with a narrative that would soon be public. She claims that Wells pretended that the reboot had materialized practically overnight. A formal offer from WBTV soon followed.
+
+But Sherri was still unhappy with how her late husband was slighted in HBO’s 2016 revival of Westworld. Despite having written and directed the original 1973 film, Crichton received only a “based upon” credit at the end. So Sherri stood firm on ER’s frozen rights, resulting in a prolonged courtship, highlighted by Wells’ $5 million assurance and a stack of heartfelt emails, including one from Wyle in February 2023 that pleaded for an accord.
+
+By April 2023, Sherri had tentatively agreed to terms, but according to Warners, soon introduced new demands. WBTV president Brett Paul claims she insisted on approving the showrunner and all licenses—both dealbreakers. Negotiations collapsed that fall, with Warners asserting that the creative team had lost interest.
+“Everyone had moved on,” Paul said.
+
+Days after walking away from the failed ER negotiations, however, ER writer-producer Gemmill sent Wells and Wyle a detailed pitch for The Pitt, complete with character arcs and plotlines for a Pittsburgh-based emergency room drama. Gemmill insists the treatment bore no traces of ER. But the swift pivot raised the question: Just how distinct can a new series be when it emerges in the long shadow of a storied predecessor?
+
+The “Derivative Works” Question
+
+Warner Bros. TV’s legal strategy is likely to rely on the differences between The Pitt and the scrubbed ER reboot, and the sheer number of medical dramas in the public consciousness. It’s clear from a review of the anti-SLAPP motion that the studio’s lawyers at Gibson Dunn will attempt to steer a breach of contract lawsuit toward a copyright analysis. This strategy is understandable in a legal landscape where plaintiffs seldom triumph after judges sift through unprotectable genre tropes to focus solely on the similarity of expression.
+
+While the motion is heavily redacted, Warners elaborates on the characters, plot, themes, and dialogue of The Pitt to demonstrate how the new series diverges from ER. Notably, it also argues that the 1994 deal’s freeze provision only applies to “derivative works,” which
+they claim The Pitt is not.
+
+This tactic, however, is hardly foolproof. First, the distinctiveness of The Pitt remains questionable, with Warners cloaking key details under the pretense of avoiding “spoilers” that might dampen viewer interest—a claim that strains credulity, as it’s rare for the exposure of character names or basic plot outlines to deter audience engagement. This overcaution might suggest a lack of confidence in its legal position, too. A true cynic might even accuse Warner Bros. of going back and forensically, painstakingly, removing anything in The Pitt’s treatment and pilot script that had even a whiff of ER.
+
+Moreover, it is improbable that the court will regard the Crichton estate as a typical plaintiff, similar to a disgruntled writer who emerges from nowhere to claim a studio plagiarized their script. Judge Chang might instead view the situation like the ongoing controversy ( https://puck.news/live-pd-the-legal-perils-of-uncancel-culture/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) over Live PD, where the show’s producer has been accused of repackaging a similar program to circumvent A&E’s exclusive rights. (Incidentally, Gibson Dunn is representing the defendant in that case, too.)
+
+It’s not a foregone conclusion that copyright principles will be decisive, either. When Crichton’s attorney, Robert Klieger, responds, he’s likely to emphasize that this is fundamentally a contract case, and that a “derivative work” could merely mean anything derived from ER, including a project involving the same showrunner, writers, star actor, and studio after a full year of negotiations. If The Pitt can be traced back to ER in
+any manner, Klieger will urge discovery as the prudent path.
+
+Of course, the Crichton side must contend with the reality that ER is hardly the only drama set in a hospital. There have been too many to count over the years, including several also set in Chicago, such as Chicago Med and Chicago Hope. Judge Chang might want to leave room for Warners to pivot to some other area of the genre that’s outside of the ER universe and the ambit of the freeze provision. Where, exactly, that line is drawn is difficult to pinpoint, making this case all the more fascinating and one to watch closely.
+
+Because few have actually seen the The Pitt, it’s hard to prognosticate how this legal drama will play out. For one, it’s more than possible that the judge refuses to let Warners keep the series’ legally crucial plot details under seal. In any case, the rest of us will get a clearer view soon. Although Crichton’s
+complaint originally asked for injunctive relief, her legal team has since elected not to pursue any attempt to halt the release of the series. So The Pitt will likely premiere in the spring, even as the legal battle proceeds, perhaps moving into the discovery phase if Warners’ bid to dismiss is unsuccessful. Either way, it’s very doubtful this will be resolved by the end of Noah Wyle’s shift.
+
+Thanks, Eriq. I’ll be back on Thursday.
+
+Matt
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Dickson’s Gap Year ( https://puck.news/richard-dickson-narrows-the-gap/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Dickson’s Gap Year ( https://puck.news/richard-dickson-narrows-the-gap/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+On the latest corporate intrigues inside Gap Inc.
+
+LAUREN SHERMAN
+
+Harris Postmortems ( https://puck.news/the-missing-resistance-the-tao-of-rahm-emanuel/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Harris Postmortems ( https://puck.news/the-missing-resistance-the-tao-of-rahm-emanuel/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+A bracing prescription for the Democrats’ dark night.
+
+PETER HAMBY
+
+Media M&A Murmurs ( https://puck.news/will-david-zaslavs-m-and-a-prayers-be-answered/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Media M&A Murmurs ( https://puck.news/will-david-zaslavs-m-and-a-prayers-be-answered/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Assessing the sports media business under Trump.
+
+JOHN OURAND
+
+Thanksgiving’s Box Office Battle ( https://puck.news/the-thanksgiving-blockbuster-movies-are-here/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Thanksgiving’s Box Office Battle ( https://puck.news/the-thanksgiving-blockbuster-movies-are-here/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Previewing a trifecta of pre-Thanksgiving movies.
+
+SCOTT MENDELSON
+
+Puck ( https://puck.news/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) or contact
+us ( fritz@puck.news?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=what_im_hearing_plus&delivery_id=dgT2xgYDAKvRKqrRKgGTIxalyvrDTcSPSgyVIC4=&utm_campaign=What+I%27m+Hearing%2B+-+SUBSCRIBERS+%2811%2F12%2F24%29&utm_source=customer.io ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

@@ -1,0 +1,111 @@
+# Amazon and Diamond Sports, Netflix and WWE (Stratechery Update 1-23-2024)
+
+**From:** Ben Thompson <email@stratechery.com>
+**Date:** Tue, 23 Jan 2024 14:37:37 +0000
+**Source:** inputs/saved_emails/Amazon and Diamond Sports, Netflix and WWE (Stratechery Update 1-23-2024)_Tue,_23_Jan_2024_14-37-37_+0000_18d36c16afcc7c02.eml
+**Processed:** 2025-08-24T19:13:06.780278
+
+Amazon has made a deal with Diamond Sports and their regional networks, while Netflix has signed up WWE for its first "sports" rights content.
+
+View in browser ( https://stratechery.com/2024/amazon-and-diamond-sports-netflix-and-wwe/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FtYXpvbi1hbmQtZGlhbW9uZC1zcG9ydHMtbmV0ZmxpeC1hbmQtd3dlLyJdfSwiZXhwIjoxNzA4NjEyNjU3LCJpYXQiOjE3MDYwMjA2NTcsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.qR2AxCe8WtgTT4buhLLPKWvbANs8wqu9cWMTKB7pO8n5th8otUgATvNT7g756MqSiJrqm_IX6WuHNzxSqDwKe8zECMj6Z6KpjJOO0AM05bYeh7sV5uZtvs4W3Lloh9PnDcyJGidH92QeYh2QMi8cMCVXNr14lhtkhDQCL9T2k3rhJduSFMAgAChnJxt5ACXSecoBC0kfRgPqoU4xJnauBHm0k0pECqT5jctZIu26q-0Cm_JNR0Z7xm2VQ7S1WQae-eORR6Z9rcsMHt8TE4ZJMWdInZMblQiIrRzl-jjl5Gts3ttGdI62pAaP83X9Wtt1LFW9EwExvbHa7N5aY2q5hA )
+
+( https://stratechery.com )
+
+******************************************
+Amazon and Diamond Sports, Netflix and WWE
+******************************************
+
+( https://stratechery.com/2024/amazon-and-diamond-sports-netflix-and-wwe/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FtYXpvbi1hbmQtZGlhbW9uZC1zcG9ydHMtbmV0ZmxpeC1hbmQtd3dlLyJdfSwiZXhwIjoxNzA4NjEyNjU3LCJpYXQiOjE3MDYwMjA2NTcsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.qR2AxCe8WtgTT4buhLLPKWvbANs8wqu9cWMTKB7pO8n5th8otUgATvNT7g756MqSiJrqm_IX6WuHNzxSqDwKe8zECMj6Z6KpjJOO0AM05bYeh7sV5uZtvs4W3Lloh9PnDcyJGidH92QeYh2QMi8cMCVXNr14lhtkhDQCL9T2k3rhJduSFMAgAChnJxt5ACXSecoBC0kfRgPqoU4xJnauBHm0k0pECqT5jctZIu26q-0Cm_JNR0Z7xm2VQ7S1WQae-eORR6Z9rcsMHt8TE4ZJMWdInZMblQiIrRzl-jjl5Gts3ttGdI62pAaP83X9Wtt1LFW9EwExvbHa7N5aY2q5hA ) Tuesday, January 23, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+Today’s episode of Sharp Tech ( https://sharptech.fm/member/episode/apples-latest-app-store-gambit-i-tunes-and-macworld-context-vision-pro-developers-on-strike ) covers yesterday’s Article The Vision Pro’s Missing Apps ( https://sharptech.fm/member/episode/apples-latest-app-store-gambit-i-tunes-and-macworld-context-vision-pro-developers-on-strike ) , as well as Apple’s response to the Epic case ( https://stratechery.com/2024/the-supreme-court-declines-to-hear-apple-epic-apples-predictable-response/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L3RoZS1zdXByZW1lLWNvdXJ0LWRlY2xpbmVzLXRvLWhlYXItYXBwbGUtZXBpYy1hcHBsZXMtcHJlZGljdGFibGUtcmVzcG9uc2UvIl19LCJleHAiOjE3MDg2MTI2NTcsImlhdCI6MTcwNjAyMDY1NywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.b-YeEUN0sx7EQ1oCxV6-Z2fXVcbQhORFkgdXqAX2n2qJENofqNZGvZaxM1tk8kjjxfOQ-O2EN6o_P3dMpGEcfd9v4_O-OHPJopKsDusDYHTEp1JHSFDHpjH-DzxhBU2pLIfhLv0Jc5wx7lD3k9Mu4kCuMPXG_zYupXVho7xvPkdhx3ua3A-GmhyQTAlUZwA_tynxJqewwjokxNUWtIuKEqMTXVWR8rzFoiVAHYPdGea1UOwCInqE3bE84rBVR6rtAmz6BLTWUKyGOHm-Xj7ruR7EKz89JSPXqI78Sh5BcK6gHcEdsh3s8xkCj6fY7XTevlJewLe-i3KqVls-xo-AnQ ).
+
+On to the Update:
+
+Amazon and Diamond Sports
+-------------------------
+
+From the Wall Street Journal ( https://www.wsj.com/articles/diamond-sports-reaches-restructuring-deal-with-amazon-creditors-in-bankruptcy-6ffd2704 ) :
+
+Diamond Sports Group, the largest regional sports broadcaster, has reached a restructuring agreement with creditors in bankruptcy, with Amazon agreeing to invest in its streaming business. Under the agreement, Amazon would provide Diamond’s local channels through Prime Video, which will become Diamond’s primary partner where viewers can purchase direct-to-consumer access to stream games of more than 40 major sports teams across the U.S., Diamond said Wednesday. Viewers will be able to stream Major League Baseball, National Basketball Association and National Hockey League games through Prime Video.
+
+Diamond also reached a restructuring agreement supported by most of its largest creditor groups. A group of creditors have agreed to provide Diamond with a $450 million loan to finance the remaining bankruptcy proceedings and pay down debt, according to the company.
+
+Moreover, Amazon will invest $115 million in the form of convertible notes when Diamond exits bankruptcy. The proceeds of Amazon’s notes will be used to partially pay down the $450 million loan from creditors, a court filing describing details of the deal shows.
+
+This is a pretty interesting deal that is a little hard to write about because there is still a lack of clarity on many of the details. The first thing to note, though, is that the widespread assumption that Bally regional sports games will be included in Prime Video is incorrect: rather, Prime Video customers will be able to purchase Diamond streaming packages in the Prime Channels storefront. What those packages will look like remains up in the air: will there be one Bally Sports package? Will you be able to subscribe on a per-team or per-league basis? All of this is unclear at this time.
+
+What this does mean is that Diamond Sports will remain an ongoing entity, which didn’t appear likely late last year. That was when Diamond negotiated deals with the NBA and NHL to end all of their deals by the end of this current season, in exchange for a significant discount in payouts; the leagues and teams would then be free to make deals elsewhere, or perhaps bundle the rights with the upcoming national TV negotiations (for the NBA). Those deals, though, are now off the table, as they were predicated on Diamond Sports liquidating; instead all of the contracts will continue as they were, with full payouts and, more importantly, the previous expiration dates at various points in the future (much to the surprise of the sports leagues).
+
+So what was Amazon’s motivations? The company hasn’t commented from what I have seen, but the most obvious reason is money: Sinclair bought the Fox regional sports networks from Disney for $10.6 billion; The Athletic reported ( https://theathletic.com/5208690/2024/01/17/diamond-sports-amazon-investment-bankruptcy-plan/ ) :
+
+Diamond Sports, the bankrupt broadcaster that carries the rights to 37 sports teams across MLB, the NBA and NHL, has arranged a $450 million plan with creditors that would allow it to continue operating beyond 2024, pending the approval of a federal bankruptcy judge. The reorganization plan is significant not only for the involvement of a powerhouse streaming company, Amazon and its Prime service, but because otherwise, Diamond might have been headed for liquidation at the end of 2024…
+
+Amazon, which hopes to broadcast Diamond teams on its Prime streaming service, is putting in $115 million of the $450 million and could potentially invest another $50 million, people briefed on the arrangement who were not authorized to speak publicly said…
+
+At 6 a.m. ET, Diamond sent out a news release and a summary of the plan it reached. Amazon would have a 15 percent stake in what would become a new company. Amazon could invest the additional $50 million within nine months of the execution of the arrangement if it goes forward.
+
+I didn’t, for the record, find a reference to that 15 percent ownership stake anywhere else; assuming its true, though, that means that Diamond Sports would be valued at $767 million. Needless to say, that’s a massive discount from what Sinclair paid five years ago, and likely too low: the reason the company went bankrupt is not because the business is unviable, but because Sinclair paid for nearly the entire thing with debt, which it then saddled on the spun-out Diamond Sports, along with massive management fees (for using Sinclair facilities and equipment) and the long-term rights fees commitments to teams.
+
+This deal addresses the first two problems: Diamond Sports sued Sinclair to clawback those fees, and settled for $1.5 billion; that, along with the $450 million of new investment, will go to senior debt holders, while junior debt holders will take equity in the business alongside Amazon. That should leave enough headroom to pay the rights fees Diamond was committed to (although, looking at Diamond’s old statements, that’s still no sure thing), which, critically, means they keep the streaming rights that Amazon is interested in — and which Diamond and its new shareholders surely hope will increase revenue (Amazon could also be interested in selling ads on Diamond’s RSNs, but I’m skeptical this was a driving factor in their decision).
+
+That, though, only leads to more questions: it would surely be in Diamond Sports interests — and Amazon’s interests as a shareholder — for whatever streaming packages end up on Prime Channels to also be available on other marketplaces, thus maximizing the opportunity to gain paying customers. That, though, would seem to defeat a strategic rationale for the deal for Amazon, which I presume would want to make the Diamond offerings some sort of exclusive.
+
+Another consideration for Amazon may be its reported interest in national NBA rights; does this deal make it more or less likely that they are interested? On one hand, there is a natural synergy between local rights and national rights; on the other hand, maybe Amazon saw the opportunity to dip its toe into basketball for a much lower price than it would have to pay for national rights, which it would also have to produce. Perhaps Amazon feels that it will be easier to negotiate with the NBA if its deals are scattered, instead of rolled up together as might have been the case absent this deal? I don’t, needless to say, have an answer, but if I had to guess, I would say this makes Amazon more likely to bid.
+
+Along those lines, the most interesting angle from my perspective is the idea of building a sports aggregator app. I first wrote about this a year ago ( https://stratechery.com/2023/an-espn-aggregator-google-magic-eraser-bing-chat-monetization/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2FuLWVzcG4tYWdncmVnYXRvci1nb29nbGUtbWFnaWMtZXJhc2VyLWJpbmctY2hhdC1tb25ldGl6YXRpb24vIl19LCJleHAiOjE3MDg2MTI2NTcsImlhdCI6MTcwNjAyMDY1NywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.GV4KXEXykVInAJo2MvGeJZVbSNp9yIqCyv0IUsxn0T_l3d-nkZJsC5a9SECoX1n9AsHAxXjlhTYRFxI3teouoGaKahZynn_wuY-XMM0hZgwq1HbzcWz0lXO7ZGkGgD-mMd8DxkKqzW7NftyPIVsNVyZ1HEAgMWiaDhzfbpI_SsGAlR8T7bgME7_XJqlqOwVKFqFiTRhyp6l1Tz9IkZJujtOon8KUKhpvCl8r_SNN3a8lUGI6aQLLvLXASvkY4WHZXPCYwFqOrGfy8HPTeC8phtBEO_y2YsReRkKvr6GBeSxB9XHCNO7GnOqE-laTm1EOHaE5eFEQMB26So15SwPnZQ ) when it was rumored that ESPN was considering the idea, but briefly:
+
+* Sports are increasingly being scattered across a plethora of streaming services and linear TV.
+* There is a market need for a new “guide” to live sports.
+* Whoever built that guide could both own the rights to some of the sports, but also sell access to other services on the spot so you could watch the game.
+
+That last bit — which is the whole payoff — is why Amazon is one of the obvious choices to build such an experience. The company owns the hardware (which means they own the transaction), and they have the oldest and most mature marketplace in Amazon Channels. What Amazon is missing (and which Disney and Google have via Hulu and YouTube TV respectively), is a way to watch games on linear TV.
+
+Notice, though, that with this Diamond sports deal Amazon suddenly has access to a whole bunch of games that used to be on linear TV; once ESPN goes over-the-top they will have access to a lot more. The only missing piece would be broadcast TV, but if that is all that is left I could see Amazon selling an antenna for your house instead of trying to sell the cable bundle, which would give them basically everything except for FS1.
+
+What I should note, though, is that this is a strike against my events over inventory thesis ( https://stratechery.com/2023/the-college-football-playoff-events-over-inventory-nascars-new-deal/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL3RoZS1jb2xsZWdlLWZvb3RiYWxsLXBsYXlvZmYtZXZlbnRzLW92ZXItaW52ZW50b3J5LW5hc2NhcnMtbmV3LWRlYWwvIl19LCJleHAiOjE3MDg2MTI2NTcsImlhdCI6MTcwNjAyMDY1NywiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.L50hd8SycAQZgHJ9Fxb7ZFq7lFuiwz4dzEV5k20DQmoDDudqGvguciY1yfvm7_DzLOq9sExbcwRBGvnky9fM8Thk4vTMS8kYjNamr3VRcmSExRzNePgD-Iu7v4005snMmRb_OEWyB3MYIaoU2RO21sBgSkyagYXSv1rldaehwCWKtoNvlzt9PygOjpI_zrJo2ftYq-rF7gz1_S0iCvNevSGzhyvqZSpelBsHZR756tlpefboz0cn7aNca8cbq8Tf9v-uFUUd4--jWgVy_3BvVLIepZc1vURHfBQSvP-ZjevHA4pWSTUbgnCYt1_nROXQihP6MyvDwICg8NnoISc-bw ) ; RSN deals are inventory — all of the events are part of national TV deals. What they do provide, though, is very strong churn mitigation for those that care, and that has always been the best way to understand the Prime bundle ( https://stratechery.com/2020/2020-bundles/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIwLzIwMjAtYnVuZGxlcy8iXX0sImV4cCI6MTcwODYxMjY1NywiaWF0IjoxNzA2MDIwNjU3LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.d33eNihEiK4ty7988Ly5OiEDZbJimtQHngQ3ur3_BR-L0qxm11xqGyrccV-q1a7lcHi5EXrgqAIiV26qvPmBGR7xg0FQaNSRreH2tgi5L8yryPObAn7q9zUlhKnFAmfLYlcxTaAt24D-YujHE-llZ6fIjZ_rBVTIDKRBOErF5a9WGuxVfX2-Vb97ZYowKYYOUXKtvcNio1o0xmzZ3w2snRkT0hl-cV6WNYcKsLvzApWDv38J_TnciOJY3s9kd5ZP1ChIU0IiWk54BBdmvXnMLsVktNJ94DdB_fh2ZzWDMXf_l1bmTRmmNNqL-417S0nk69bvorXmPlDuBMOtoMWLWQ ).
+
+Netflix and WWE
+---------------
+
+From the Wall Street Journal ( https://www.wsj.com/business/media/netflix-wins-wwe-raw-rights-in-livestreaming-push-a0a73542 ) :
+
+Netflix has struck a 10-year deal valued at more than $5 billion to become the new home of hit wrestling show “WWE Raw,” its biggest push yet into livestreaming. Securing rights to the popular weekly show is a sign of Netflix’s ambition of being a must-have home-entertainment subscription with a vast library of TV shows and films as well as live content. The long-term deal is the streamer’s largest to date for live sports-entertainment rights and continues a migration of athletic events that once aired exclusively on cable and broadcast television to streaming platforms.
+
+The multiyear deal, effective in January 2025, will give the streaming giant exclusive rights to the show in the U.S. as well as international distribution rights to “Raw” in several countries including Canada, Latin America and the U.K. Netflix may add additional territories as existing rights deals expire. Netflix will also gain international rights to other WWE shows including “Smackdown” and “NXT,” and other large events such as “WrestleMania,” the streamer and the wrestling organization’s parent company TKO said Tuesday. The agreement gives Netflix access to about 150 hours of live content annually.
+
+The agreement with Netflix is valued at more than $5 billion with an option for the streamer to extend the pact for an additional 10 years or opt out after the initial five years, according to a regulatory filing from TKO. NBCUniversal’s USA Network is the current rightsholder for Raw with a five-year deal valued at more than $1.3 billion. The NBCUniversal agreement didn’t include international rights. Raw often averages more than two million viewers per episode on USA Network.
+
+This story just broke as I was about to publish; Netflix is publishing earnings tomorrow, and I assume we will get more color then. Some initial thoughts, though:
+
+* Yes, Netflix buying sports — “sports”, if you will — is a huge deal. That noted, wrestling is scripted content, that lends itself to content extensions of the sort Netflix has been doing in other sports; it’s kind of a nice way for Netflix to dip its toes in the water, and I’m not surprised the company gave itself an out after five years.
+* WWE has a very loyal fanbase that extends internationally (I was very surprised when I arrived in Taiwan to realize how much wrestling was on TV here). That’s a great fit for a subscription service with an international footprint.
+* WWE is an event sport: it’s on once-a-week, with pay-per-view events every few months (which Netflix subscribers will have access to); it’s the exact sort of content that mitigates churn for a monthly subscription service, with a built-in mechanism to acquire new customers (the pay-per-view events).
+
+Perhaps the most important factor from Netflix’s perspective, though, is that the WWE is a sports partner that understands and appreciates the value in being a part of a bundle. The WWE went it alone as a subscription service previously, only to realize it missed the reach and lower costs of partnering with a network like USA; Netflix is giving it an even better deal, and the WWE is smart enough to not try and take more. I suspect there are other leagues that haven’t yet fully internalized that reality, and Netflix isn’t going to want to be the one to educate them.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://api.passport.online/api/1.0.0/users/RseuYE8jgHePpWJf1fAb4C/channelOptOut?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcwODYxMjY1NywiaWF0IjoxNzA2MDIwNjU3LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.vBel6N6zv9NI_Xwx2AryG6X5C05ikyXXEdy_zI4pQRvAYTUs_bYXVXZYm3PgojzWEat-o5Vh1CGPGKaum7CqpUM0s1cwiYppqCqXb_cSSICU-PyV5ll0xlTHtN8JXomKH9ci5CXefj5GCLnCXaHOyOA_uoQpbNagNBDOrezloY1h52Gp-PlWYPY3nWwD5PRk9I3vjPTifuETT-d6NWwLxTrudBMJppkAovgbuzaa9hdlL1hjAx2wfIhLU9UGQPeNLWz9qrRBss2DAs9ZsumVhysnXt0YOtTmSOjk3XTuF-HTcvCEASq6rYaqYjJai-cOgx1DrSZUkJM_FaaZ4nSlzA&channel=email&redirect_uri=https%3A%2F%2Fstratechery.passport.online%2Fmember%2Funsubscribe ) to unsubscribe.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

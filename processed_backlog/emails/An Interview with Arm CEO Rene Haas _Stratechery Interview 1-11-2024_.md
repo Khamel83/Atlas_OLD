@@ -1,0 +1,357 @@
+# An Interview with Arm CEO Rene Haas (Stratechery Interview 1-11-2024)
+
+**From:** Ben Thompson <email@stratechery.com>
+**Date:** Thu, 11 Jan 2024 11:09:35 +0000
+**Source:** inputs/saved_emails/An Interview with Arm CEO Rene Haas (Stratechery Interview 1-11-2024)_Thu,_11_Jan_2024_11-09-35_+0000_18cf836c168d55cf.eml
+**Processed:** 2025-08-24T19:13:07.129683
+
+An interview with Arm CEO Rene Haas about building subsystems on the leading edge and evolving Arm's business model.
+
+View in browser ( https://stratechery.com/2024/an-interview-with-arm-ceo-rene-haas/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FuLWludGVydmlldy13aXRoLWFybS1jZW8tcmVuZS1oYWFzLyJdfSwiZXhwIjoxNzA3NTYzMzc1LCJpYXQiOjE3MDQ5NzEzNzUsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.h8bqNNERYCsZG2EuEeUhmCEi7ZaBwD_nTKCnuwdOZ1Tkq6I3kxVzvmSLpaamB_TNXQ5IFUS_s4qQQV97D1H0xmj4dj4amvEM_pMrcFJp1SrCJfrUSDrAAs6F-PFRX3jVQTjbywqKSpRTtTL9b4XuTuvR5wHWkf9JdlSRRpXZbq4YruryfX9FRnHVg9lCGR69g2lZ0I5A2ddTlds34NZjGJPtWZ3jhh-aysZTrfapw9W59UWG_A8KkhxscjnaLKy9LXm4c8IN4uCyp-lqoMEjHW7p15yb93nQ2G7w3zeJJBTtqa1AgEr9n85P4F5UDgsr2BSX84op4xaArUA6s1NoyQ )
+
+( https://stratechery.com )
+
+***********************************
+An Interview with Arm CEO Rene Haas
+***********************************
+
+( https://stratechery.com/2024/an-interview-with-arm-ceo-rene-haas/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2FuLWludGVydmlldy13aXRoLWFybS1jZW8tcmVuZS1oYWFzLyJdfSwiZXhwIjoxNzA3NTYzMzc1LCJpYXQiOjE3MDQ5NzEzNzUsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.h8bqNNERYCsZG2EuEeUhmCEi7ZaBwD_nTKCnuwdOZ1Tkq6I3kxVzvmSLpaamB_TNXQ5IFUS_s4qQQV97D1H0xmj4dj4amvEM_pMrcFJp1SrCJfrUSDrAAs6F-PFRX3jVQTjbywqKSpRTtTL9b4XuTuvR5wHWkf9JdlSRRpXZbq4YruryfX9FRnHVg9lCGR69g2lZ0I5A2ddTlds34NZjGJPtWZ3jhh-aysZTrfapw9W59UWG_A8KkhxscjnaLKy9LXm4c8IN4uCyp-lqoMEjHW7p15yb93nQ2G7w3zeJJBTtqa1AgEr9n85P4F5UDgsr2BSX84op4xaArUA6s1NoyQ ) Thursday, January 11, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+Today’s Stratechery Interview is with Arm CEO Rene Haas. Haas, who joined Arm in 2013 from Nvidia, took over as CEO in February, 2022, and led the company through its second IPO in August, 2023.
+
+In this interview we talk about Haas’ journey in tech and at Arm, including the failed Nvidia acquisition and pivot to IPO. We then dive into Arm’s strategy to drive outsized growth and live up to their valuation, and why that growth opportunity is linked to secular realities in chips and leading edge applications, including AI. We also touch on the company’s battle with Qualcomm, expansion to the cloud, and how we can know if Arm’s new strategy is succeeding.
+
+To listen to this interview as a podcast, click the link at the top of this email to add Stratechery to your podcast player.
+
+On to the interview:
+
+An Interview with Arm CEO Rene Haas
+-----------------------------------
+
+This interview is lightly edited for clarity.
+
+*Topics:*
+Background ( #background ) | Arm Vision ( #vision ) | TSMC and Intel ( #tsmcintel ) | Business Model ( #business ) | The Leading Edge ( #leading ) | Windows on Arm ( #windows ) | Qualcomm ( #qualcomm ) | Pressure and Success ( #success )
+
+Background
+
+*Rene Haas, welcome to Stratechery.*
+
+*Rene Haas:* Thank you, Ben. Glad to be here.
+
+*We had a chance to meet in Taipei last year when you were just a mere private company CEO, now you’re in the public company CEO bracket with a successful IPO ( https://www.nytimes.com/2023/09/14/technology/arm-ipo-stock-market.html ) under your belt. How’s the transition been?*
+
+*RH:* Well, yes, it was my gosh, six months ago or so, it seems like a lot longer than that. Transition’s been good. We were very, very happy with the IPO. I had a lot of fellow CEOs tell me that the day of is going to be a far more emotional experience for you and your company than you probably think it will be, and that was all true. It was a very, very fun day for me personally. But more importantly, it was a great day for everyone at Arm. And I’d like to say, with the exception that we now have a Slack channel where people talk about the stock price, it’s about the same that it was pre-September, but obviously we have to pay close attention to what goes on every quarter.
+
+*So tell me, I want to get more into the IPO and into Arm’s business broadly. But with these interviews, particularly when it’s the first time I’ve talked to someone on the record, I like to learn more about you, so tell me a little bit more about yourself starting with New York where it all started many, many years ago.*
+
+*RH:* Yeah, sure. So I’ll try to nick this, not overly extensive and boring for your listeners, but I grew up in upstate New York. Classic American, child of immigrants, dad who was born in Germany, emigrated to Portugal and grew up and met my mother in Portugal and then moved to the United States, both were PhDs. My dad though, was particularly into computers, math, and science, he got me into computers at a very, very early age, he worked for Xerox. One of the very first trips I took with him was out to the Palo Alto Research Center in the mid-1970s and got to see a GUI interface, a local area network, ethernet, all working before it was commercialized. So I sort of got hooked onto computers and I went to college in upstate New York and Clarkson University for those who might know that folks, and started my career at Texas Instruments in Houston, Texas, working in semiconductors of all things.
+
+My career has been kind of a combination of engineering jobs, marketing jobs, general management jobs, sales jobs. Moved to Silicon Valley in the mid-1990s, which is still home. I’ve done some stints in Shanghai, China, and London in between, but the Bay Area is home for me.
+
+*Yeah, I started looking at your resume and you worked at Tensilica ( https://en.wikipedia.org/wiki/Tensilica ) , I think that was the first company that brought you up to Silicon Valley in the chip design business. I think they were acquired by Cadence, then you went to Scintera Networks, a fabless chip company, and then Nvidia obviously, everyone knows who that is. It certainly does feel that when you combine that with your Texas Instruments experience, you’ve had a career path — it’s the classic Steve Jobs look backwards line — it has been preparing you for this role. Does it feel that way to you?*
+
+*RH:* I was talking to somebody about that earlier today. Yeah, I’ve been very lucky. I moved out to Silicon Valley with really the desire to work for a startup at some point in time, not knowing exactly what startups meant and how they were funded and whatnot.
+
+But when I got to Tensilica in the early days, late-1990s, a lot of companies doing microprocessors back then. PowerPC, MIPS, ARC, of course Arm. I spent a number of years there, a number of years at Scintera, also a privately held company and then eight years or so at Nvidia, which while publicly traded, run by a founder-CEO of the company. So it also felt kind of like a startup in the sense that the way [Nvidia CEO] Jensen [Huang] ran the company. Even back then, we were 5,000 employees or so.
+
+So I think what it did, it kind of gave me a proclivity towards — I liked fast moving companies, I liked innovation, I actually liked being around the processor space, whether it was a GP or a microprocessor, and then joined Arm ten years ago. So yeah, looking backwards, I think I’m very fortunate in that my career experiences has really helped me for what I’m doing now.
+
+*So you went to Arm in, I believe, 2017 or so, is that right?*
+
+*RH:* Actually 2013.
+
+*Oh, 2013. Got it.*
+
+*RH:* 10 years from now.
+
+*You’ve been at Arm for 10 years, you took over the CEO job in 2022 sort of rather suddenly, and it was about the time that the Nvidia deal fell apart ( https://nvidianews.nvidia.com/news/nvidia-and-softbank-group-announce-termination-of-nvidias-acquisition-of-arm-limited ). I’m curious, was that a goal that you had in mind, or did it come out of left field when they had to pivot? Were you the sort of person you’d been there for at that point, 9 years, you had all these ideas of what they should be doing and they weren’t. Or I’m just curious, how has your evolution into this role happened within Arm itself?*
+
+*RH:* Yeah, it happened somewhat unexpectedly. If you’d come back and told me in 2014 that, “Oh, you’re going to become the CEO of ARM in 2022,” that’s kind of not what I would have expected. But one thing that my head was quite around was when Nvidia made the attempt to buy Arm in 2020 ( https://nvidianews.nvidia.com/news/nvidia-to-acquire-arm-for-40-billion-creating-worlds-premier-computing-company-for-the-age-of-ai ) and had that deal had gone through, I would’ve been running Arm inside of Nvidia working for Jensen all over again.
+
+So it was really during that time that I started putting my head around, “Okay, what would Arm look like inside Nvidia? But maybe more importantly, what were the kind of things that we could do as a company operating a little bit differently than we had for the last five or six years?” That did start leading me thinking towards the direction of travel, where the industry was going, where Arm needed to go.
+
+So when the Nvidia deal came apart in early 2022, and [Softbank CEO] Masa[yoshi Son] came to me about, “Okay, so if you were to run the company, what would be your vision for the future?” I think I’d already spent a fair bit of mental cycles thinking about it.
+
+*So when you look back at that Nvidia failed deal, do you think it was actually useful in that it catalyzed some of the thoughts on where Arm needed to go and in that direction? Or was it a sort of paralysis where you were stuck in limbo for a couple of years and maybe didn’t move as quickly on some issues as you might have?*
+
+*RH:* No, I think it helped us. I mean, it was very clear at the time that Nvidia was going to buy Arm that what they wanted to buy was the core business and I was running that core business for, since go back to your 2017 date, I took that over in 2017 and in 2017, when I took over the core business is when we started to really pivot towards much more of a vertical approach towards the markets. In other words, one processor platform doesn’t fit all. In other words, what automotive needs, what the hyperscalers need isn’t really what mobile needs and mobile is where we had initially cut our teeth.
+
+So it really started in 2017 and then when the Nvidia thing was in the midst of it, we started to see the direction of travel towards more and more applications moving towards the cloud, AI starting to raise its head, these SoCs becoming incredibly complicated to build. I think all of it kind of came together at a very good time. So when I took over in 2022, I had a pretty clear view of what it was that we needed to do to move the company forward.
+
+Arm Vision
+
+*Well, lay out that view. We sort of led into it, pretend we haven’t talked because I know you pitched me on it six months ago, but give me the grand vision of Arm and where Arm is going under your leadership going forward.*
+
+*RH:* I think it really starts with fundamentally the CPU is the basis of a platform. Going back to my Tensilica days, there’s a lot of CPUs in the ISA ( https://www.arm.com/glossary/isa ) graveyard, and if you look at what ultimately proliferates a CPU over time or a primary processor, it’s really about the software ecosystem and the platform. So I knew that we needed to do more in that area, more around the software ecosystem, more around the platform.
+
+At the same time, what we were observing was as the technologies that were being used to build these chips, we’re moving to the smaller and smaller geometries. One can argue about whether the measure of transistor is really 5 nanometers or 3 nanometers, that’s probably secondary.
+
+*It’s very small. I think that’s the technical term.*
+
+*RH:* Yeah, two things are key. It’s very, very small, it takes longer to fabricate. So what may have taken you 12 weeks to put a product into production now may take you 26 weeks. That’s a big, big jump in terms of the lead required.
+
+Then you look at these SoCs that are using Arm, back in the day, if we were putting 12 to 16 CPUs into an SoC, that was considered a lot. You now look at some of the recent chips being announced, just look at the Microsoft Cobalt ( https://newsroom.arm.com/news/microsoft-custom-silicon-on-arm ) , their recent CPU that they announced using Arm, 128 CPU cores into that SoC. That is a lot of work for someone building an SoC to figure out how those 128 CPUs are going to work together. What’s the cache coherent network look like? What does the interconnect look like? What does the mesh look like?
+
+So what we felt was if we can provide more of that solution, i.e., stitching together all of the system IP, the GPU, the CPU, an NPU, anything around the processor fabric, we could fundamentally allow the customers to get to market much, much faster.
+
+So we started this initiative towards what we call compute subsystems ( https://www.arm.com/products/neoverse-compute-subsystems ) , which was really about developing the overall platform, which not only helps us in terms of getting an SoC to market faster, but it also allows us to work more quickly in terms of the software ecosystem. We can start to think about what gets product in the hands of developers sooner, or what gets the products in the hands of people who are developing the application software, people who are doing the OS work.
+
+So for a myriad of reasons, it just made a ton of sense for us to go up and do that and we’ve started that with our hyperscalers, with our cloud compute, but we see it applicable to almost all the markets, whether it’s a cell phone, whether it is a laptop, whether it is an automotive ADAS [Advanced Driver-Assistance System] system. The same rules of apply, these are complex compute subsystems. The chips take a long time to build. If you can shave off any amount of development time that helps the people get the chips out faster, that’s huge value. What we are seeing is in some cases where it may have taken two years to get a chip to tape out, we’ve cut that in half. One customer came back and said, “Look, you’ve saved us 80 man-years in terms of efforts.” So across the board, we’ve seen pretty strong validation that this is the right thing to do.
+
+*Just to get to the nuts and bolts a little bit, you mentioned the savings in terms of design time and things getting smaller and how long it takes to fab a chip. Is this also just a matter of, there’s a lot of reports about interference and stuff like that, particularly when you’re getting even down to 3 nanometers or 2 nanometers in particular. Is that a real driver as well? Would this opportunity be presenting itself absent the real challenges that are coming along in terms of smaller and smaller size chips and the increased design challenges that are coming with that, particularly around interference?*
+
+*RH:* You follow technology for a living, so you know this well. Like everything with these type of things, a number of things need to come together at once. When you have these long cycle times to build the chips, the complexity in closing timing loops, you’re trying to drive the maximum power efficiency, you’re trying to maximize the ultimate work you’re doing with the libraries. Again, with these subsystems, we will not only handle everything in terms of validation and verification, but we’ll do the tuning for the process. So if folks want to make sure they can get that ultimate last mile of performance, that’s just a lot of work that needs to be done that if Arm is doing it with a platform that we control — because it’s our IP, right?
+
+*Right.*
+
+*RH:* At the end of the day, it is around the compute subsystem and computer architecture that we’ve delivered, it’s highly beneficial. So again, in the old days you could kind of throw all this stuff over the wall and people could just pull it together and make it work, but the world has changed a lot in terms of just the complexity of these chips, and one thing that’s not relenting is people want to get products out fast. The markets will move really, really quickly and I think actually we’re seeing them moving even faster now. When you look what’s going on with generative AI and everything relative to these multimodal models and large language models, you have so many moving parts relative to what it takes to develop a product. It’s really, really critical to maximize on efficiency of time to market.
+
+TSMC and Intel
+
+*So in conjunction with these smaller nodes and the increased challenges that come with design — I’ve always characterized the foundry model as Lego bricks. TSMC will give you IP blocks and then you add on your little bit or whatever it might be and to your point, that’s getting a lot more difficult to pull off, particularly as this gets much smaller. Is there a bit where Intel is actually a surprising ally in this regard, in that there’s a competitive space number one, at least theoretically coming forward when it comes to the leading edge and then number two, there is sort of an entity that maybe has an IP deficit and could really use someone build up, one throat to choke, as it were, in terms of getting this stuff to work. Are they actually arguably more important to you than TSMC going forward? Or, am I reading too much into the tea leaves here?*
+
+*RH:* I would say that Intel is incredibly important, TSMC is incredibly important.
+
+*We’ll take it as a given. TSMC, they’re the biggest, they’re the most important. Just as far as these, sort of right place, right time as far as your business model, your shift goes, I’m curious if that has any effect or if that’s just sort of a “nice to have”?*
+
+*RH:* No, I think it definitely can. I think Intel is an interesting design partner because Intel IFS brings a lot of technology to bear. And even if you look at some of Intel’s chips today, I think you had [Intel CEO] Pat [Gelsinger] on some weeks ago ( https://stratechery.com/2023/an-interview-with-intel-ceo-pat-gelsinger-about-intels-progress-towards-process-leadership/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2FuLWludGVydmlldy13aXRoLWludGVsLWNlby1wYXQtZ2Vsc2luZ2VyLWFib3V0LWludGVscy1wcm9ncmVzcy10b3dhcmRzLXByb2Nlc3MtbGVhZGVyc2hpcC8iXX0sImV4cCI6MTcwNzU2MzM3NSwiaWF0IjoxNzA0OTcxMzc1LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.FoyBk4t7tRN9fl7WUQ_-60QCeHDTjyzDg4WQYXCyHGGMAs_D5u7m6opwIPdMA-B8fnQYsLvAN21A7to8pY9a2aOP1R4H-2wkX89RrBE3LsOFK1u4dtXjQ5ndbDFOpQ-yvLlHPSfrOHB-Pr9fXbqCtUEdMYyzizgOjtYVtqy-TE6oFzKm3YUhf86mYAdm22xovLr8XVa0yk1ESnAjlHxtp8WuI6KSDZscPp83BTUeKb3EnhPY_LuUGFEzUCT8m_0hFYOv3vvOW1rfW0gEFoxUk4zzArHtdEEOwx-4LCDCl2T5Fipj9qLzXsWMay7imbRAea6-WsHN6KkkEVuOTqRTqQ ). You tear open one of their, I think it might have been Sapphire Rapids or one of their earlier chips, two of the chips in there are built by Intel and two are built by TSMC. So, even Intel has shown a flexibility on this piece.
+
+Now, what we can bring to IFS, which matters most to any Foundry, is scale. There are 30 billion chips that ship on the Arm platform. There are a ubiquity of applications and with that, I think Intel has a potential to be a great partner. We’ve had a lot of conversations with Intel, I’ve had a lot of discussions with Pat about the kind of things that we could do together. And I think yes, I think there’s a lot of potential benefit down the road between Intel and Arm working together, which may have read kind of funny, a number of years ago.
+
+*That’s why I bring it up because you would think by and large, the big picture threat to Intel and x86 of Arm is well-documented. I mean, I might have a question or two in here somewhere, I have a bunch in front of me, but it just does strike me, in this particular instance, they could potentially be a particularly interesting partner because their whole issue is, or one of their biggest issues, they have many issues, but is this sort of Lego brick ecosystem. It is having all these IP pieces that someone can walk up and put it together, and TSMC I think is a customer service organization in a way that Intel has never been, it’s very counter to their culture, and it strikes me that Intel would be better off if they can work really closely with one entity to make sure they can serve the market broadly, as they scale up the ability to sort of have this plethora of options. It just seems very ironic that Arm could potentially be that entity.*
+
+*RH:* You sound like you read the script when I first met Pat about a year and a half ago after I became CEO, that’s literally what he and I started to chat about, and I came to him and I said, “Look, I think for where you need to go and for where we need to be, I think we can be and should be amazing partners.” And they have been so far, we’re doing a lot of work with those guys and I think you’ll see more to come.
+
+*Obviously, they have to deliver, everyone has to deliver, that’s the story of everything.*
+
+Business Model
+
+*You mentioned that the reason to do this now, get to market faster, work faster in terms of software and the developers — is it fair to say that you didn’t mention a third piece, which is shifting to this vertical model and this platform approach, gives you an opportunity to rework your business model?*
+
+*RH:* So, we’re not a nonprofit.
+
+*(laughing) You are now a public company.*
+
+*RH:* Now a public company.
+
+*Some people would’ve said that SoftBank was a nonprofit for a few years though, but that’s a comment for me to make, not for you.*
+
+*RH:* I’ll let that one sort of drift into the ether. The Arm business model served the company incredibly well for a long, long time. I think we had a fairly low barrier to entry. It allowed us to get very, very large market share, it allowed us to go off and scale, but that also was at a time where there were lots and lots and lots of semiconductor companies. I mean even go back to my Tensilica days, not only were there lots and lots of semiconductor companies, but my gosh, there were lots of companies trying to build business models around licensing, microprocessor IP — Lexra, 3DSP, I didn’t even mention those two.
+
+Fast forward to today, you don’t have a lot of companies. The amount of companies making chips has shrunk, you’ve had consolidation for a number of reasons. The amount of capital required to build these chips is enormous, the investment is huge, in terms of capability of engineers. You’ve also got more and more OEMs who are building their own stuff for whatever the reasons are. They do it for cost, they do it for scale, they do it for lock-in.
+
+So for us, it does give us the opportunity to tune the model, to create an opportunity to capture more value for what we are delivering and we’ve seen validation of that. So, I think we are going to be able to support a good growth story in the future because these compute subsystems allow us to license and collect a royalty of a scale completely different than what we did in the past.
+
+*When you say tune the model, that’s a good euphemism, I’m going use that one elsewhere. But you mentioned the consolidation that’s happened. I mean there’s been consolidation both in the foundry side, obviously — dramatic consolidation, which I’ve covered a lot. There’s been a lot of consolidation on the fabless side as well, I think Broadcom has been a huge driver of this. I’m curious because on one respect, a lot of consolidation at one part of the value chain would potentially increase the opportunity for competition in others. You could see how consolidation would play well to say, RISC-V prospects ( https://en.wikipedia.org/wiki/RISC-V ) in that regard, open source is as modular and open as you could get. On the other hand, is that sort of drive in a value chain of consolidation at one point, driving modulation the other, is that just overcome by the complexity involved, such that there’s rooms for multiple highly consolidated aspects of this chain? TSMC is pretty centralized as far as things go, and you just feel optimistic that at this point in time, the ecosystem from a software perspective, Arm is x86, 15 years ago on the PC side, and even if you theoretically want to do something different, there’s so much software to build, your lead is just going to be much larger.*
+
+*RH:* I think so, but it’s a very, very good question because it’s a little difficult I think to look backwards to kind of predict the future. One of the things we’re seeing around the future innovation that’s really a gate to innovation is this massive capital investment required, and it’s not just in building a chip, not just in building a fab, it’s not who has enough money to go off and buy new ASML EUV machines.
+
+Let’s take a look, for example, at foundation models and everything going on with generative AI and training. Right now, Nvidia is an amazing position because of just the pure access to GPU technology and how expensive it is now, how scarce it is. That in and of itself, starts to lead to an area of, “Well, you’ve got all kinds of interesting open source models and people in the open source community working with things like Llama. But if people can’t get access to the GPUs and actually training, then who wins?” So, right now you’ve got the Big King.
+
+*We saw an excellent example of that in the last few months ( https://stratechery.com/2023/openais-misalignment-and-microsofts-gain/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL29wZW5haXMtbWlzYWxpZ25tZW50LWFuZC1taWNyb3NvZnRzLWdhaW4vIl19LCJleHAiOjE3MDc1NjMzNzUsImlhdCI6MTcwNDk3MTM3NSwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.C4skueb71ZFD2XN9ajfGonVPMDcmB8P3AErT554sHybW4HFs38MqZb0L2hIIo-oc_mLs2UvKTy4IX_ikzkIzGIcdSEeBd1K3S6oit4bmPYimWn_eDmWcILvj0uVnMeW4tkkcB1oDZg3sM3omYNCkmD7qeoIXFkaXe-W5FvHFLz01G1FitIlUQKpcxEqBbOpHr5e_CruVdzDtrudRFJCHyAtI_mngL-IBrSoesTPSsOFTucXT_tiwKnwWxEY4G-3Q4IiTWbC8xo591X-hl6pyAVW2dWwya3aDy9R95uocJIxYzBPdrVisRMP3yE8n9XFDUvJ5ms3VFZCPhSG3GSupIA ). He who controls the GPUs controls the world, at least for now.*
+
+*RH:* Correct. So, then when you start to think about — I like to think that Arm is an amazing place because any one of these application areas, we’ve got a huge, huge installed software base and we’ve got a very, very powerful position on power efficiency. So, when I think about where the puck is going relative to an alternative architecture, let’s say, you’ve got to look at either, “Do I have a 10x advantage in performance or a 10x advantage in terms of cost?”. And right now, I think in the areas where Arm is really good at, people would have to look at it really hard and say, “Is it worth the investment to go port everything I’ve got to an alternative architecture? What is the ultimate benefit that I get to the application space?”.
+
+I think what’s really fascinating about everything going on with generative AI right now is I think you’re just seeing huge amount of resources coming into all kinds of development around training and inference, that will drive the growth here, so I think that’s actually where the growth is going to come. I think Arm is in a great place there. Obviously I’m biased but I think when you think about everything that’s going on with generative AI training, all those inference workloads are pretty good for the CPU, and history has sort of shown us that over time, as you add, and we saw this, whether it’s floating point heading into the CPU, or vector extensions, the CPU start to add more and more of the base functionality it allows with some of the workloads and I think you’ll see that in this space.
+
+I’m particularly excited about this one area because as a little kid growing up, I always looked at AGI or computers that could think like humans sort of the holy grail and when you start to think about the capability that you could see unleashed by some of these generative AI models, I think it’s a really, really interesting area. I think for Arm, we’ll benefit from it because wherever that AI data flow train runs, it’s going to have to run through an Arm architecture at some point.
+
+*All my points about strategic positioning aside and value chains and all that sort of bit, is there honestly just a bit here where Arm has just been so drastically under-priced for so long, that it’s all immaterial and this is basically all an internal problem — you just have a lot of room to sort of expand, particularly when you take a smartphone, which is a thousand dollars device, and if you’re only paying pennies for an Arm license, at the end of the day, you could increase your share 10x and it’s not going to really impact the BOM [Bill Of Materials] at all. Is that kind of just the core value thing here?*
+
+*RH:* Well, everyone is always protective of when you start talking about profit dollars as a function of BOM, so I’ll be a little bit careful in terms of that dialogue. But, I’d like to think if we can prove that we’re providing more value, and we’re allowing customers to get to market more quickly, and we’re providing a higher bit of solution, we should share in the economics in a better way.
+
+*Could you argue, Tony Fadell, who’s now on your board ( https://newsroom.arm.com/news/tony-fadell-joins-arm-board-of-directors ) , he told me in a Stratechery Interview ( https://stratechery.com/2022/an-interview-with-father-of-the-ipod-tony-fadell/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL2FuLWludGVydmlldy13aXRoLWZhdGhlci1vZi10aGUtaXBvZC10b255LWZhZGVsbC8iXX0sImV4cCI6MTcwNzU2MzM3NSwiaWF0IjoxNzA0OTcxMzc1LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.RdKKm9AQCzFpKKXyEVU98zlsI8xmtkGiolu2XxkgvJ2PhgdGRg1t6MIF1RdXz3ywCEotWQsyUWGDAUZ59eo4YbL-YiBfn8ztb4qaNNgKrg1E8IayE73VhVfYd4gDhfUm96rtXWx6w3EqQC2tfPcU37Ess5qGErlU5hMVhYGPOKUh3qSK_xESp2R0yOCBjW99Pfb_x61lVMt3qutAUBeOgL7hzS3lJ6Gh5-Uh6DWisIW_GHSqQ9dztBydltFqT4S21tlBsRmBJp8xAXBjA2KWyFGu82mwpg_8pnrDIND1d6UUu3l0ECIyr6LCgHFlNTipy82ZFYZ2dbbolUnjd5v6iw ) a couple of years ago that you should be sharing the economics in a better way, without doing anything at all, just because you exist.*
+
+*RH:* Tony is a board member, so he gives me all kinds of input and advice. But sure, I mean there’s a lot of levers around that. We’re fortunate to be in a position where we have a good handle on the platform, but what I like to spend more of my time just thinking about where can we do more and where can we kind of provide a greater value and greater breadth of the solution, as opposed to just turning up the dial in price.
+
+The Leading Edge
+
+*Where does that play out then on your various platforms? You mentioned the vertical space, you have the cloud chip or the server chips, you have the mobile, which has obviously been your bread and butter for a very long time in a saturated market. You have cars, IoT, all those sorts of things. Where do you see this vertical strategy playing out and reaping benefits and allowing you to demonstrate the value you’re providing first?*
+
+*RH:* This is one of the key things we started to look at when I took over about a couple of years ago. I think a lot of the markets we look at, apply to that type of solution. So again, I’ll go back to a handset; check. Gaming console; check. PC platform; check. ADAS; check.
+
+*Is that just because the driver is really on the design and manufacturing side, which is going to apply, the end use case is actually somewhat immaterial?*
+
+*RH:* Yeah, exactly. Exactly. Because if you think about, again, the solution platform, since we can start to think about that at its inception point earlier than anyone, because we’re developing the CPU, we’re developing the architecture, we’re developing the instruction set, we can work with developers as early as possible. We can direct that direction of travel much earlier than anyone can because by the time we hand it to someone in the next step in the value chain, it’s kind of baked and it’s not the correct configuration, or it’s not the correct model, or it’s not the correct extensions of the architecture, we may have missed a beat.
+
+So I actually think not only does it apply to just about all the markets we move into, it’s kind of incumbent upon us to do it because if, again, think about what might be going into a next generating operating system where they may want to embed some of the LLMs or inference models into the OS itself, but because that OS is largely running on Arm, it’s not unnatural to think that we would be really the canary in the coal mine, relative to the viewpoint of what goes inside the architecture. We naturally see those things earlier than anyone else in the value chain, which gives us a fantastic opportunity to innovate.
+
+*I think just to sort of tie all this into a bow, I think the value proposition you’re laying out is compelling and I think tying it into the increased complexity, not just of manufacturing but of design, and actually I think those two are very highly connected, are going to increase significantly, particularly once we get to 2 nanometer and below, makes a ton of sense. It just does sort of feel like there may be a bit where Arm is good for its customers, it just might need to strongly convince its customers that Arm is good for it, and that might be sort of your job to do over the next little bit.*
+
+*RH:* Yeah, I think it’s shifting. When Arm started many, many years ago, you had a lot of companies who were building chips, and the idea of OEMs building chips was not really in the calculus.
+
+*Right, yep.*
+
+*RH:* Fast forward to now, it’s a different world and whenever you have these kind of disruptions or seismic changes in how the industry operates, there is tension in the gears between the way things were in terms of where things need to go.
+
+*Well, leave aside the industry, was this a big thing internal to Arm? I think you’ve been there long enough to speak to this. It sounds to me what I’m hearing is Arm had this real culture of being exceptionally wary of other ISAs. Of course, that still exists today, I mentioned RISC-V, which is sort of a risk going forward, but was there really an internal cultural reticence to lean on Arm’s dominant position a little more and in an appropriate way, I would argue? Sure, that would mean increased risk relative to RISC-V in particular, but there’s sort of a balance between accepting your dominant position versus being overly catering to the fact there is competition. One of the challenges culturally speaking may be to help the company strike a better balance there.*
+
+*RH:* Maybe the way I might answer that is if I think about when I took over, one of the things I really tried to address in terms of a cultural change is not to look so much in the rear-view mirror, but to try to look as far ahead as you can in terms of where the puck is going. I think I go back to my training at startups and then working for Jensen, particularly when you’re a startup, you don’t spend a heck of a lot of time looking at who your competitors were behind you because you got nothing and you’ve got to create something out of scratch. I think that is kind of where my proclivity lies just in terms of how I lead.
+
+Fast forward to where I am now, I don’t spend a lot of time when I talk to people inside of engineering or product groups about, “Hey, who’s catching us from behind?”, I try to think far more about where the world’s going to be in five to ten years. If you think about where the world’s going to be in five to ten years and you focus as much as you can, you’re not going to get it specifically right, obviously, but you want to be directionally investing in that area so when things land in your space, you’re going to be in a good spot.
+
+Take case in point, predicting what the mobile phone is going to look like in 2034, ten years from now, and trying to make sure I do everything defensively to make sure that we’re in a great position is kind of nutty because if you go back to 2008 when the smartphone was invented, folks who were trying to think about protecting what the future phone looked like would have been out of position. Where I really focus on, Ben, is just where are things going and where do we need to invest?
+
+Again, I know this AI drum that gets, people at times try to think, “Oh my God, how many times you got to hear the word ‘AI’?” — obviously, on one level AI is not new, anything that was going on relative to voice recognition or data translation, obviously that was all AI. I think AGI and everything around generative AI that can think and reason, that’s a pretty compelling place, and whether that takes place in five years, ten years, fifteen years, I don’t think anyone can argue that an investment in that space isn’t going to provide huge benefit down the road. I think Arm is a compute platform, I want to be sure that we’ve got everything correct from either an infrastructure standpoint, instructions at architecture standpoint, everything around the subsystem to be able to capture that.
+
+*Do you feel pretty confident? I think that you’re trying to sort of tie all of your stuff together to a greater extent, but companies could bring their own neural processor. Google obviously does that at a very sort of small-scale example, scales as far as terms of numbers, not scale in terms of importance of AI obviously, but is this really core to your thesis that as opposed to you needing to bring up a super competitive sort of NPU that, to your point, about the extensions and floating point, which I think is a great analogy, this is all going to be built into the CPU, so regardless, you’re going to need — even if the mobile phone market doesn’t grow just because of the number or it’s limited to this number of humans on earth, that is still going to be a significant opportunity or do you think you have to bring up additional separate IP? Or is this idea of it all being separate meaningless in the long run?*
+
+*RH:* It’s not going to be a one-size-fits-all kind of situation. Today, there’s a lot of investment going on training these very, very large models on highly networked GPUs. Even when you start talking about inference in the cloud, what matters is compute, but less around the interconnect between all of those systems, which is why CPUs over time in the cloud may find themselves to be very, very good solutions without having a GPU necessarily connected to it.
+
+*You’re going to have a CPU in the cloud no matter what, so at some point it probably makes sense to consolidate.*
+
+*RH:* While Grace Hopper is a fantastic design from Nvidia, there’s a lot of people who I know are asking for, “Just give me Grace and don’t give me the Hopper when I go off and run inference.”
+
+*Right.*
+
+*RH:* Now, when you scale that down to endpoints where cost matters, power efficiency matters, size matters, thermal matters, that’s a place where you start clicking down relative to a networking endpoint or a PC endpoint or a phone endpoint or a security camera endpoint or an even smaller endpoint. They’re still going to run these inference workloads, but they’re going to need to be much more efficient.
+
+If you can go back to the floating point, just back up and say, “What’s an NPU?”. An NPU on some level is just matmul and running these neural nets. If you can start to do some of those offloads into a CPU in an architecture that again is much more homogeneous, history has told us that these problems tend to move to general purpose CPUs over time, and that is where we will invest.
+
+*Full disclosure, I think the only restriction on this interview is you don’t talk about details of your deal with Apple, which is no surprise, that’s totally fine. Is it fair to say, though, just knowing that Apple is locked in for decades and especially as they move into PCs, is there sort of a counterintuitive case where, yeah, maybe that means Arm’s revenue take is probably not as large as one might hope as a shareholder, but on the other hand, they are expanding the software market and expanding it up into other markets in a way that actually helps Arm in the long run? They’re kind of a moat provider in that they’re locked into Arm in the long run, they’re not investing in alternatives, and that’s just sort of great to have and good to have in your back pocket.*
+
+*RH:* A good way to think about it, again, without getting into the economics of their deal, broadly speaking, whenever you’re doing a platform, you balance out everything relative to the product and then the ecosystem. In the main, a CPU architecture is only as good as the software ecosystem. There’s a lot of goodness that happens when you’ve got large platform providers on your architecture and who knows where they take it? Then, again, that’s for them to say, not for me, but we look at these things very, very strategically relative to, “Who are these large ecosystem partners that have large control of the software that we want to be very aligned with?”. We’re very aligned with open source community, we do a huge amount of work there, we’re one of the largest contributors to the open source community. We’re very, very vigilant in terms of what’s going on.
+
+*These are all the low-level libraries that, just to again, go back twenty, thirty years, that was like why — one of the reasons why Pat Gelsinger, I think, his famous business decisions was pushing Intel to stay with CISC over RISC ( https://stratechery.com/2022/mr-cisc-vs-mr-risc-arm-and-amd-threats-gelsingers-three-tenets/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIyL21yLWNpc2MtdnMtbXItcmlzYy1hcm0tYW5kLWFtZC10aHJlYXRzLWdlbHNpbmdlcnMtdGhyZWUtdGVuZXRzLyJdfSwiZXhwIjoxNzA3NTYzMzc1LCJpYXQiOjE3MDQ5NzEzNzUsImlzcyI6Imh0dHBzOi8vYXBpLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.uFsELyqKz1BfQbnW_yeUEQGIUaQ-c1EhM8A4i2_n-Ht7XX6E6XE74h0_sOtefpo76FO51L0G0E_WC-nB-_abXbfcKb9kkyLkgnsbDuzUKEoFVjhjIHd1zWDStgOF4evJryLcsAr-OvSYz9EOWEajIkSjTtbkQB4QBz95Mh7vJ6C9pIV9w4UIXPuvXW8la2DYun32stxuqL1tSl7MCpY-C2H6LH5JtZY_61qXP0Vq3KwH7UxMyKoT-3xbWWWtTYhhR0xhkNWzKrBnm-BkptZWW8fGzpvW05uexQT6TqcdkdL1Q3iNNMg9MKh24jwOgI3femkugFeZCqoYShJbVClauA ) because he’s like, “Look, we have a software advantage just as long as we keep pressing. It will just be way too much work to ever build up the other way.” This is what Arm has particularly when it comes to mobile, and Apple’s on board with that, your open source contribution onboard with that, it’s just there’s no reason to go anywhere else because there’d be just way too much work to do otherwise.*
+
+*RH:* There’s way too much work to do and, for what benefit?
+
+*Right.*
+
+*Particularly because Arm has this sort of efficiency advantage. It’s not worth a few cents if you’re getting the power that you need, which obviously was Intel’s downfall in mobile.*
+
+*RH:* Yeah, if you’re not getting 10x benefit on power, 10x benefit on performance, why are you doing that?
+
+*The price doesn’t matter. It’s immaterial*
+
+*RH:* The price doesn’t matter, and I always find it interesting when people have the discussions about alternative architectures. On one hand I fight the battle of, “You don’t charge enough for your product”, yet people are going to spend all this money to go down an alternative route, which I always find as a bit of a paradox, but that aside, the biggest piece of energy one spends when you’re doing fundamental R&D development is, “Are you chasing something new? Or are you trying to replace something in a stagnant market for cost reasons?” Right now, the technology world is not in that space. It’s around chasing innovation and it’s really around chasing growth, which I think, again, aligns with what our strategy is, and again, why I tend to not have a look-backwards kind of perspective on these things.
+
+*When you go back to Arm like twenty, thirty years ago, all of their market was like embedded controllers and things on those lines, there’s a bit where that is the stagnant market. One of the, I think, challenges for TSMC is they’re wondering like, “What do we do with our 7 nanometer node?” Your power window is not going to move to 7 nanometers, it’s fine on 90 nanometers or whatever it might be. Is there a bit where, yes, that’s Arm’s heritage, they started there, then with the mobile, suddenly you get thrust forward into where you’re on the leading edge and you have to be on the leading edge in a way forward? It’s okay to let that go to an extent because, sure, you’ll keep what you can, but there’s cheap chips with super small margins that aren’t evolving. It’s like a stagnant pond to a certain extent, and it’s more fun and more opportunistic to be on the leading edge.*
+
+*RH:* Well, it’s certainly an area where you could differentiate relative to the software ecosystem, and if there’s one thing that I have put my foot down more aggressively since I took over the company is we are going to invest heavily where a software ecosystem matters.
+
+*And that matters on the leading edge.*
+
+*RH:* And it matters on the leading edge. If it’s really not important with a power window and somebody wants to replace me with something else to run the power window, and that’s deeply embedded and it runs a piece of firmware, it’s fine. It’s not highly differentiated, obviously, because the switch could be made and it’s not very, very sticky in terms of strategic importance. Where a software ecosystem really, really is important, that’s what we have doubled down on, and that is where I’ve really, really tried to push the company to be much more purposeful around this area. Back to the markets that matter, automotive ADAS, cloud compute, cloud AI, all of those rules apply.
+
+Windows on Arm
+
+*Yeah, that makes sense. Microsoft and Windows were on, I think, exclusively with Qualcomm for Arm for a very long time. Now, there’s news ( https://www.theverge.com/2023/10/23/23929240/nvidia-amd-cpu-arm-pc-chips-2025-release-rumors ) about Nvidia or an AMD making Arm chips for Windows. Not an Arm announcement, but is that really an Arm announcement? Is this more symbolic of Arm as a dual licensing model? It has royalties on chips and also has licensing, is this emblematic of a shift to licensing being more important and you providing these systems and subsystems and other companies can brand them? Am I applying the right thinking to sort of the wrong area?*
+
+*RH:* Yeah, maybe not quite so much. I think the way to think about Windows expansion and, yeah, I think it’s really well-documented that the exclusivity that Qualcomm has with Windows times out, I think, this year. I think it’s this year.
+
+*I think about the end of the year, yeah.*
+
+*RH:* One of the things that makes the Windows ecosystem so unique is the fact that you can have differentiation across OEMs, you can have differentiation across CPU vendors, and it is about the only ecosystem I can think of where there’s more x86 choices than there are Arm choices.
+
+*(laughing) Right.*
+
+*RH:* I think when that changes, I do think you’ll see a tipping point because then you’re going to have whether it’s Acer or Asus or high-end gaming PCs from MSI or standard machines from Lenovo, Dell, or HP, everybody in PC world, what do people care about if you’re that OEM? I got to have something that looks a little different than the guy next door. You know that well, Ben, you live in Taiwan, that the Taiwan ecosystem is all about creating one widget that looks slightly different than the other widget and marketing it that way.
+
+*And RGB lights.*
+
+*RH:* Exactly. So I think the Windows on Arm ecosystem, when there are multiple suppliers applying differentiated products with differentiated solutions, then I actually think you’ll see a takeoff because the core fundamentals of the CPU, the Arm-based CPU systems offering great battery life and no compromise in performance and the software issue is pretty much there now. I started working on Windows on Arm when I was in Nvidia.
+
+*Right. It’s been a long slog.*
+
+*RH:* It’s been a long slog. I remember, I tell the story a few times, the very first — and this is an interesting anecdote just relative to when people talk about alternative architectures and performance. We had a great product, we had a very, very low power CPU. It was frankly as good as Atom was in the timeframe, same cost and I remember I met with reviewer on the first Windows RT and he said, “Do you run iTunes?” And I said, “No, we don’t support iTunes.” Well, reviewer closed his books, said, “Game over. It’s a toy PC.”
+
+*I was at Microsoft working in the app ecosystem when RT was out there and before Windows 8 launched. And yeah, it was really devastating because you only needed one or two apps, and it was like, “Doesn’t matter, game’s over”. That’s exactly right.*
+
+*RH:* Exactly. So I think on the Windows on Arm piece, that’s finally done, I think it’s kind of hard to find anything that isn’t really going to play there. So yeah, I think in a year or so when there’s more choice, I think you’ll really see the market take off.
+
+Qualcomm
+
+*I think all this makes a ton of sense and if you’re looking at Arm in isolation, I could see the opportunity there. I was a little skeptical ( https://stratechery.com/2023/arms-f-1-arms-risks-arms-price/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2FybXMtZi0xLWFybXMtcmlza3MtYXJtcy1wcmljZS8iXX0sImV4cCI6MTcwNzU2MzM3NSwiaWF0IjoxNzA0OTcxMzc1LCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.Orxzy2Td5v8sJw9Rcw75rDukVpZ_6Of3YmKGv3B3S_ozoZly3RkEsg4x6HQxcxTJp2vfUTL-AokDpNylbLxC4y9HmphFb1oMMyX66_XB2yiLfBtdc3Hk--P4LyzuriTEV3lsZ55qZQwejyOG6jO7yiSwtt2decovzdut5dPah-mfGLnrfKKsrVjrMegpaMIgn5bBDTYmhDA6TUR8jrRR5hy_oyAlGjtU7d2QiQ1kz8yor9pdZIn87BOozEGFP7pVDU4EKXi6IOAe6B_ajmt8W0_c8yMVbIPVUsjiJ-xgTT-wjQWagZ_n4aP19Y6KckYkfZ4C0H5mE8lD9EIcslpZRA ) of your IPO just because I didn’t see the growth right there, but I think your last quarter ( https://investors.arm.com/static-files/bf24c7a3-d2c0-47bd-bf72-73f686a5d62f ) was really impressive and I think the timing now made more sense as you’re shifting customers to these new broad-based licensing agreements and an overall shift to licensing being, I think, more important than royalties from an analyst perspective.*
+
+*The concern I have is Qualcomm seems to be pursuing the exact same space. Now, you’re obviously embroiled in a lawsuit with Qualcomm ( https://www.reuters.com/legal/chips-tech-firm-arm-sues-qualcomm-nuvia-breach-license-trademark-2022-08-31/ ) over their Nuvia acquisition and the IP rights there, but if you’re seeking to consolidate a point in the value chain, it seems like you really want to make sure you’re underneath Qualcomm and squeezing out more of the profits there. Is that emblematic of just channel conflict in general that’s going to come, or is this sort of a one-off, “We’re going to have to work through it”, sort of issue and see where the dice falls?*
+
+*RH:* So the Qualcomm litigation is very much a one-off, and it’s regarding the acquisition of Nuvia and a dispute that we have with them relative to how the technology was acquired, and whether the license was assigned properly. That’s that. It has nothing to do with any more religious positioning discussion of where we sit in the value chain.
+
+Respectfully, I would say I don’t view Qualcomm as a competitor because Qualcomm in the value chain sits above us and whether it’s Qualcomm, whether it’s MediaTek, whether it’s Nvidia, all these companies build technology based on Arm. I think it’s great if Qualcomm grows because Snapdragon runs on Arm and if Qualcomm does well, we should do well.
+
+So in that sense, I don’t really pick winners and losers between a Qualcomm, a Samsung chip group, which also uses — it’s funny, if you look at the Galaxy phone, Samsung Galaxy is going to come out and it’s either going to have a Samsung chip in it using Arm, or a Qualcomm chip in it using Arm. So at the end of the day, I kind of care about where Samsung is going and less so about the chip, if that makes any sense.
+
+*Oh, it makes sense from a technical perspective. You’re underneath Apple as well, but there is a definite economic difference in the way in which you go up into those companies, whether it be a super low price ALA or a much more encompassing licensing regime that increases your share of device.*
+
+*RH:* That goes back to the tension that runs into gears as the business models continue to evolve over time and OEMs continue to want to do more. I think, again, the fact that you’ve seen some level of industry consolidation drive, it’s not too much unlike Nvidia selling H100s, and then selling a DGX system that, in theory, an integrator could have pulled together, right?
+
+*And everyone wants H100, so suddenly DGXs are in all the public clouds ( https://stratechery.com/2023/nvidia-gtc-dgx-cloud-nvidias-partners/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL252aWRpYS1ndGMtZGd4LWNsb3VkLW52aWRpYXMtcGFydG5lcnMvIl19LCJleHAiOjE3MDc1NjMzNzUsImlhdCI6MTcwNDk3MTM3NSwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.L8xgadK35yab7UdBd7ZZlZaQZDpe4ghDHSVNT_igwIc96J_6boTPbbD8kO9QxpUiny1uprca3IO4h5-6gl19WTfqvCEyaravNEg3Yj0NpXq0lQDSvJyroJ8FSpxoeo1VxTq76or1H-qrejMg-UgIz2-pavwY5LVJrwIH5JA-YA7ObAaTYXCYOY8TJGcBAr-azbgVtlcJIA0FzDSEXaLz7TOnGwU_liccQFrezkKqdkTcSq313L6BnuhzmmGLGZyA1NFlMRKK4X_88VfIKdKBUXtqd5oZpUV1d_kJb_H_-lN_SXg_lsdgSUlKX_NthWsNrNGB1VrblT1mE-CnIg2SXQ ).*
+
+*RH:* Yeah, exactly. Exactly. So I think you just see that as — and this is a bit of how the world has shifted a bit, right? I think I go back to your days at Microsoft, when Microsoft had to explain the fact that they’re building Surface to a bunch of OEMs who are like, “Well, what am I doing here? Where exactly do you fit?”
+
+*That one might still be an open question, to be fair, but yes, I take your point.*
+
+*RH:* (laughing) I guess my point is I don’t think what’s happening with us is different or unique to stuff we haven’t seen before.
+
+*Yeah to me, it seems conflict is — and this is my part so that you don’t have to respond — conflict seems inevitable. I do think there is some pursuit for a similar position in the value chain, and we’ll have to see how it plays out. Is it fair to say most companies are very receptive to this? One of the cases you made to me in Taipei six months ago is to sort of flesh out this bit about increased design costs and increased time is that there’s just massive economies of scale of having one company do it all, and then the level of differentiation that you can achieve at those low levels is just not worth it, relative to the savings. Do you feel you, regardless of whatever conflicts or challenges you have with the channel, in the long run, the economics are just overwhelmingly in your favor in that regard?*
+
+*RH:* I think it’s economics, but I think it’s also the technology. I think we’ve even seen this in areas where we pushed the technology initially. I won’t name customer names, but working with a design where we have told the customer, “Look, this needs to be fifteen-layer metal if you’re going to get the frequency that you need to get the performance, we know that to be the case,” and customers saying, “No, I’m going to stay on thirteen-layer metal.” And then we get to the 11th hour, and they’re like, “You know what? You were right. Can we get that metal design?” Again, it comes down to, Ben, the fact that the technology, because it’s the stuff that we’re creating anyway, it’s natural to think we have a much earlier look in terms of where we think the puck is going to be. I think it’s economics, but I also think candidly, it’s technology direction and we’ve seen most people come around.
+
+*Was Arm insufficiently investing to make sure they had technological leadership previously?*
+
+*RH:* Absolutely, 100%. The SoftBank acquisition, while maligned for a lot of different reasons by a lot of different people, one of the things it did allow us to do was experiment on different things to differentiate that we probably could not have done if we were publicly traded. We cut a bunch of product lines. When I was running the core IP business, we were doing video IP, we were doing display IP, highly undifferentiated stuff at the end of day.
+
+*Which made sense the world of microcontrollers, but that was the world you needed to leave.*
+
+*RH:* Totally. And we had a business around physical libraries that we were selling into the foundries, but we found out that, you know what? The foundries do their own libraries. So let’s take all the people who know a lot about physical design, and now move them into physical design of our own products and so now, I have a thousand person organization that’s doing solution engineering and that group isn’t in my core IP business. That group is all about delivering these subsystems.
+
+*That makes a lot of sense.*
+
+Pressure and Success
+
+*How much pressure do you feel? Your IPO was very successful, but do you feel a lot of pressure on that sort of 180 day lockup going forward? Is that almost like a bigger deal than the quarterly earnings, or I guess that’s one and the same?*
+
+*RH:* Maybe I haven’t been a public company CEO long enough to know what to care about, but I honestly kind of don’t think about it that way. At the end of the day, what’s inside my control? I can control to some extent our financials inside the quarter and even that is a little bit tricky because a lot of that is royalties, and that is what the market’s going to be.
+
+*Right.*
+
+*That’s a good thing getting away from royalties, to a certain extent, is you just smooth out your earnings and you get less tied to the cycles.*
+
+*RH:* Yeah. So what I can control is making sure that we’re doing the right things in the long-term to have the company extremely well positioned for growth. So obviously, we need to execute on the quarter, we tell the Street we’re going to do X, we need to do X, so we have to execute to that. But honestly, I’ve got a great finance team, I’ve got a great sales team, I’ve got a really, really good set of people who worry about that piece of the business. I spend energy on it, but a lot of my mental energy is really around the future.
+
+*If you zoom out from the quarterly earnings, what are the markers for me to look at as an analyst to see if you’re actually achieving this goal? I think it makes a ton of sense, to be honest with you. I was skeptical about the price that you got, you got it, congratulations. But you can see the scope for growth where, again, I think Arm was underpriced, and also there’s an opportunity to actually deliver the differentiation you’re talking about because of the shifts in fabrication, in particular, in design. But how do I know if you’re doing that, if you’re sort of achieving that? What can I look to beyond your financial results?*
+
+*RH:* Well, in our financial results, when we talk about what’s going on with royalty growth and we talk about royalty growth in markets outside mobile, I think that’ll be a good indicator for you, inside the market when we talk about the license agreements.
+
+But when you see announcements like Microsoft Cobalt — after Graviton was announced, we had a lot of folks saying, “Well, they did it for their own reasons, and there’s not going to be much level of scale.” I would say continue to launch these very, very significant product announcements from company moving to the Arm architecture and I think you’ll see more and more of those over the next 12 to 18 months. And really, those are indicators, whether it’s in the automotive space, in the AI space, look for things, and I can’t tease this out too much, but my example of floating point instructions moving into the CPU, watch for those things on the AI front because that’ll tell you the direction of travel that says, “Yeah, this is moving that way.” I can assure you that we’re not going to stop doing these subsystems, and you’re going to see more and more announcements coming out on those.
+
+*Is Amazon your Apple of servers, where maybe they’ll probably have a good deal forever, but they helped you establish that software ecosystem and proof of concept?*
+
+*RH:* Without getting into the economics, they were a great, great partner of ours. One of the very first meetings I had when I joined Arm in 2013 was with James Hamilton at AWS, one of the chief technology guys there. They made a bet, and they were very, very good for us because the combination of their big bet, and then when they bought Annapurna ( https://www.bloomberg.com/news/articles/2015-01-22/amazon-agrees-to-buy-israel-s-annapurna-labs-for-aws-cloud-unit ) , which was, at that time, also an Arm customer doing offloads, their whole Nitro design was based on us. Then we knew that was a matter of time because we knew the core group wanted to move to Arm. Buying Annapurna and having that offload team brought in was a huge win and then, yeah, they’ve been terrific for us.
+
+*Right. That’s the part that I think that is underrated, is Nitro undergirds everything at AWS and that is Arm-based, leaving aside Graviton. Graviton is, in many respects, icing on the cake as far as Amazon building up that software ecosystem for Arm in the cloud.*
+
+*RH:* Look for more announcements to come. The growth is not just with Microsoft and AWS, I think there’s more that you’ll see soon.
+
+*Very good. Well, this was very interesting. I’m glad we could dive into this more on the record. I know you’re off to Las Vegas soon, CES, I wish you good luck. We all need it there, it was good to talk.*
+
+*RH:* Yeah, thank you so much, Ben. It was fun being on with you.
+
+This Daily Update Interview is also available as a podcast. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Daily Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a supporter, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player:
+Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | GOAT ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

@@ -1,0 +1,269 @@
+# Money Stuff: The SEC Goes After Greenwashing
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Mon, 23 May 2022 14:09:54 -0400 (EDT)
+**Source:** inputs/saved_emails/Money Stuff The SEC Goes After Greenwashing_Mon,_23_May_2022_14-09-54_-0400_(EDT)_180f21cf8c376407.eml
+**Processed:** 2025-08-24T19:13:13.328310
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        ESGBack in 2019 I proposed the Money Stuff S&P ESG Fund, “a mutual fund whose stated mission would be to invest in the 500 companies in the 
+      
+    
+  
+  
+    
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      ESG
+    
+  
+Back in 2019  I proposed the Money Stuff S&P ESG Fund, “a mutual fund whose stated mission would be to invest in the 500 companies in the S&P 500 index with the best environmental, social and governance ratings judged by my proprietary rating system.” Because there are 500 companies in the S&P 500 index, the details of my rating system would not matter very much; all of the companies in the S&P 500 would get in, and the fund would exactly track the index.[1] The fund would just be an S&P 500 index fund. But it would have “ESG” in its name. This, I argued, would be good:	People want exposure to the S&P 500 index with minimal tracking error. My fund would have lower tracking error than other ESG funds that use ESG criteria to pick stocks.	People want low fees. ESG ratings systems can be expensive to implement, requiring detailed data and teams of analysts; my ratings system could be cheap to implement because, again, it would not actually do anything. 	People like to invest in funds that have “ESG” in the name, and my fund, unlike other S&P 500 index funds, would have “ESG” in the name.Since I wrote that, ESG investing has become an even bigger and more important industry. There have been various backlashes. One sort of backlash is along the lines of: No, ESG is bad. (And so various  US politicians try to make it illegal for investors to consider environmental or social impact in making investments, etc.)Another sort of backlash is along the lines of: Sure, ESG is good, but ESG as practiced is often fake. The theory here is that people who call themselves investment managers do not really care about ESG factors, and ESG is a marketing term rather than a real commitment. Like me with my fake ESG fund, the theory goes, these managers understand that there is a demand for funds with “ESG” in the name (and in the marketing materials), and they seek to satisfy that demand at the lowest possible cost, by slapping the name “ESG” on a fund without making much effort to police companies’ environmental, social and governance behavior. They are “greenwashing,” pretending to care about ESG in their marketing materials without really doing anything about it.This theory leads to a diffuse set of complaints in part because ESG is a diffuse set of strategies: Any ESG fund will have to make trade-offs between, you know, E and S, or whatever; it will have to decide whether to buy shares in an electric car company that exploits workers or an oil company with a really diverse board of directors. If you disagree with a fund’s trade-offs, or its ranking system, you can always say “this isn’t real ESG, this is greenwashing.” To some extent ESG means “buy companies that you think are making the world better,” and if different people have different conceptions of what makes the world better then they will disagree about what ESG demands.For a while now there have been rumors that the US Securities and Exchange Commission will be cracking down on fake ESG practices; SEC Chair Gary Gensler  has warned that probes were coming. You could imagine a range of possible complaints here. One might be: An ESG fund makes ESG choices and the SEC disagrees with them. “You said you were ESG,” the SEC might say, “but you were overweight oil companies and underweight solar companies, and a real ESG fund would never buy oil companies, so you are doing fraud.” I think that this sort of thing is what a lot of people want, a true substantive policing of ESG claims, but it is very tricky. You might have a list of things that ESG funds should and shouldn’t do, but how do you know that the SEC will have the same list? How do you know that your list, or the SEC’s, is right? I don’t think it’s absolutely impossible for the SEC to impose substantive restrictions on what it means to be an ESG fund, but it would be tough, and a huge extension of the SEC’s job.[2]An easier and more plausible sort of case would be like: An ESG fund makes its ESG choices for non-ESG reasons, and has lots of emails and chat transcripts to that effect. Somewhere on the fund’s servers there is an email from a portfolio manager to its environmental analyst saying, like, “This company is a hideous polluter and would never meet the ESG standards that we publish and that we use to attract investors, but the stock keeps going up, can we ignore our standards so I can buy it,” and the analyst replies “sure, our bonuses are more important than ESG, I’ll just write a fake report saying it’s good,” and the portfolio manager replies “great, hope our investors don’t find out about this ESG fraud we’re doing,” and the analyst replies “lolololol or the SEC, see you in jail!” And then the SEC finds that email and prints it in a complaint and the fund settles for $100 million.Here the point is not that the SEC is telling the fund what ESG means. Here the fund has said what ESG means to it — it has disclosed some set of procedures and criteria for ESG, and used those procedures and criteria to market itself to investors who care about ESG — but secretly it was lying and ignoring those procedures and criteria, either to pursue non-ESG goals or just out of laziness. This is much more in the SEC’s wheelhouse. This is just “you said you were doing one thing, but you did another thing, and we have documentary evidence, so pay a fine.”Here’s a case from today that is like that, only boring:The Securities and Exchange Commission today charged BNY Mellon Investment Adviser, Inc. for misstatements and omissions about Environmental, Social, and Governance (ESG) considerations in making investment decisions for certain mutual funds that it managed. To settle the charges, BNY Mellon Investment Adviser agreed to pay a $1.5 million penalty.The SEC’s order finds that, from July 2018 to September 2021, BNY Mellon Investment Adviser represented or implied in various statements that all investments in the funds had undergone an ESG quality review, even though that was not always the case. The order finds that numerous investments held by certain funds did not have an ESG quality review score as of the time of investment.BNY Mellon has an affiliate called Newton Investment Management that runs some of its mutual funds. Some of those funds are ESG funds — the SEC calls them “Sustainable Funds” — and for those funds, a Responsible Investing Team reviews every investment and gives it an ESG rating from 1 to 10. The SEC complaint … does not quite say that the Sustainable Funds only invest in stocks and bonds with high ESG ratings? I assume that the funds give some preference to high ESG ratings but I really don’t know. That’s not the point here, though, and the SEC actually has no complaints about the Sustainable Funds.But Newton also runs some other BNY Mellon funds that are not ESG funds; the SEC calls them “Overlay Funds,” and they have non-ESG-y names like “BNY Mellon Global Equity Income Fund” and “BNY Mellon Global Emerging Markets Fund” and “BNY Mellon Global Dynamic Bond Income Fund.” Nonetheless they are a little ESG-y. BNY Mellon would tell investors that they considered ESG issues. From the Overlay Funds’ prospectuses:Integrated into the investment process, [the Sub-Adviser] has a well-established approach to responsible investment. This process includes identifying and considering the Environmental, Social and Governance (ESG) risks, opportunities and issues throughout the research process via [the Sub-Adviser’s] proprietary quality reviews, in an effort to ensure that any material ESG issues are considered. And when BNY Mellon got requests for proposals from other investment firms, it described the funds as considering ESG stuff:During the Relevant Period, BNYMIA prepared RFP Responses to other investment firms that were evaluating the Overlay Funds for their own clients. In response to numerous inquiries regarding ESG considerations, BNYMIA included language that described the Sub-Adviser’s Responsible Investment Team’s research process, including its preparation of ESG quality reviews. BNYMIA provided RFP Responses which stated that the Sub-Adviser’s Responsible Investment Team prepared an ESG quality review for every security recommended by the Sub-Adviser’s analysts. For example, BNYMIA stated in an RFP Response that “ESG considerations are taken into account at every stage of the investment process” and “ahead of investing, each security being considered for investment by our global industry analysts must have an ESG quality review conducted by a member of [the Responsible Investment Team].”Here there are absolutely no substantive claims about how BNY Mellon takes these factors into account. “We review every investment for ESG quality and then buy whichever stocks we think will go up,” or “whichever stocks have the highest dividend yields,” or “whichever stocks are in the index,” would all be consistent with what these statements actually say. Or “before we invest, our responsible investment team writes a report on the stock, which we then throw away before anyone can read it.” There is nothing here that gives the SEC a hook to sue BNY Mellon on a theory like “you said you cared about ESG but actually you prioritized economics over ESG.” The only claims here are that BNY Mellon considered ESG factors, not that it did anything specific about them.However! Apparently it did not always consider those factors. The Overlay Funds would sometimes buy stocks and bonds without an ESG review:Numerous equity and/or corporate bond investments held by certain Overlay Funds did not have an ESG quality review score as of the time of investment. For example, out of 185 investments made by one Overlay Fund between January 1, 2019 and March 31, 2021, 67 did not have an ESG quality review score as of the time of investment (or, in the case of corporate bonds, within 30 days after purchase, consistent with the Sub-Adviser’s policy), amounting to nearly 25 percent of the fund’s net assets as of March 31, 2021. So … this is BNY Mellon selling non-ESG funds with marketing materials that say “we consider ESG for every investment,” but in fact they only considered ESG for like 75% of their investments. They said they always wrote reports, but sometimes they did not write reports. Fraud!I suppose that this could be the first case in a wave of SEC ESG enforcement actions, but I want to emphasize how limited it is, and how inevitable those limits are. In general, the marketing pitch for an ESG fund will be[3]:	We consider a range of environmental, social and governance factors that we think matter, and balance those factors against each other subjectively to produce some sort of explicit or implicit ESG score.	Then we consider the ESG score along with traditional research on the stock’s fundamental value, and balance our valuation view with our ESG view to decide what stocks to buy.If you want, you can probably find things to object to in the way any ESG fund does either of these weightings. You can probably find some funds that do these weightings in ways that you find outrageous and cavalier and destructive and even dishonest. But it is hard for the SEC to do that without proof that the fund is being knowingly dishonest. If a fund writes an ESG report, it’s hard for the SEC to say “your ESG report wasn’t good enough,” or even “you did not give enough weight to your ESG reports in choosing which stocks to buy.” But if it doesn’t write the report at all, sure, that’s a problem.The lesson here is that, if you say you have an ESG process for all of your investments, then you have to have an ESG process for all of your investments. There are no lessons about what that process has to look like.
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Crypto insider trading
+    
+  
+Here is a cryptocurrency insider trading scandal that I would like to see:	There is some crypto project that does something. People work together to build something that adds value to the world, and there are tokens that represent some form of economic interest in that project. If the project succeeds and the underlying product is widely used and beloved, the tokens will be valuable; if the project fails, the tokens will be worthless.	Something good happens at the project. A trial version of the product works really well, some regulatory approval is received, some big business decides to use the project, whatever: Some event occurs that materially increases the probability that the project will succeed and, thus, that the token will be valuable.	After the event happens, but before it is publicly announced, some insider of the project buys a bunch of tokens.	Then the event is announced publicly, the tokens go up, and the insider gets rich from her well-timed token purchases.There is nothing particularly novel or interesting about this; this is just insider trading. Just normal insider trading. Happens at companies all the time: A company has good quarterly earnings or a good drug trial or lands a big customer or whatever, an insider buys stock, the news comes out, the stock goes up, totally normal stuff. Illegal stuff! But normal.Here is the crypto insider trading scandal that I actually see, repeatedly:	There is some crypto project. Maybe it does something, but this is irrelevant to the discussion.	What is relevant is market depth: If you can sell the project’s token to more people, then it will be more valuable. In particular, if it is listed on one of the big cryptocurrency exchanges, the price will go up, because more people will buy it, independent of any considerations about what the token actually does or whether the project will ultimately succeed.	The project’s token gets listed on a big exchange.	While the listing is being considered, but before it is publicly announced, somebody — presumably an insider of the project or of the exchange — buys a bunch of tokens.	The token lists on the exchange, the price goes up, and the insider gets rich from her well-timed token purchases.In a sense this is novel and interesting because crypto tokens are (at least sometimes) not securities, everything happens vaguely offshore, and the law of insider trading in this area is underdeveloped and arguably unclear. It is also interesting because the insider trading tends to occur on public blockchains, which means (1) everyone can see the concentrated well-timed trades right before the listing event but (2) you can’t necessarily tie the wallet doing those trades to the actual person involved (to see if it’s an insider, etc.). But the inside information is always fundamentally about the exchange, not about the project. The core inside information is never “the fundamental value of this token has increased,” always “we can sell this token to more people.” It is a dispiriting sort of insider trading.Anyway:Over six days last August, one crypto wallet amassed a stake of $360,000 worth of Gnosis coins, a token tied to an effort to build blockchain-based prediction markets. On the seventh day, Binance—the world’s largest cryptocurrency exchange by volume—said in a blog post that it would list Gnosis, allowing it to be traded among its users.Token listings add both liquidity and a stamp of legitimacy to the token, and often provide a boost to a token’s trading price. The price of Gnosis rose sharply, from around $300 to $410 within an hour. The value of Gnosis traded that day surged to more than seven times its seven-day average.Four minutes after Binance’s announcement, the wallet began selling down its stake, liquidating it entirely in just over four hours for slightly more than $500,000—netting a profit of about $140,000 and a return of roughly 40%, according to an analysis performed by Argus Inc., a firm that offers companies software to manage employee trading. The same wallet demonstrated similar patterns of buying tokens before their listings and selling quickly after with at least three other tokens.Look, this exists in traditional finance. There was a  fun 2020 case against an S&P Global Inc. manager who allegedly traded on inside information about what stocks would be added to indexes; information about liquidity and demand can be material, just like information about the actual business. But this is rare; most of the material information about stocks is information about the business. In crypto it is the reverse.
+  
+    
+      
+        
+      
+    
+  
+
+
+  
+    
+      Algo stablecoin!
+    
+  
+Two weeks ago an algorithmic stablecoin called TerraUSD (or UST) blew up, incinerating tens of billions of dollars of market value. The  idea of an algorithmic stablecoin is that it should always be worth a dollar because of an arbitrage mechanism in which one stablecoin can always be exchanged for a number of units of some other crypto token — for TerraUSD, it was called Luna — with a market value of $1. If that other token (Luna) is worth $100 or $10 or $1 or $0.10, that works fine; if the stablecoin trades below $1, you buy it for $0.97 or whatever and redeem it for some Luna that you can sell for a dollar, making an arbitrage profit and pushing the price of the stablecoin back to $1.The problem is twofold. One is that, if people want to redeem a lot of the stablecoin, the algorithm will print a lot of the other token (Luna), which will tend to drive down the price of that token, which might undermine confidence in the stablecoin, which might lead to more redemptions, which will lead to more printing, which will drive down the price, etc., in what is called a “death spiral.” This is a very well-known problem that long predates crypto; companies have for years issued bonds that are convertible into fixed dollar amounts of stock, which are called “death-spiral convertibles” and have the same problem. The other problem that is more specific to crypto is that the other token — Luna — is just made up, and its value is tied to confidence in the stablecoin. If a death spiral starts, there is nothing to underpin the value of that token, so it can go to zero fast. Luna was trading in the $80s in early May; it’s at about $0.0002 today. TerraUSD is below 7 cents.I want to emphasize here that:	This problem is extremely, extremely well known.	Algorithmic stablecoins have   death-spiraled in the past in extremely public and predictable ways.	Lots of people loudly predicted that TerraUSD would death-spiral in exactly this way.	It did.But I guess we’re gonna keep going until we get it right. Or until we  get it wrong a bunch more times:Among the handful of algo stablecoins that survive is the USDD token launched by controversial crypto entrepreneur Justin Sun on his Tron network just before the collapse of UST. …USDD went live on the Tron blockchain in early May, according to Sun. It can be used on the Ethereum and Binance Smart Chain blockchains through so-called bridging software. The stablecoin uses an arbitrage mechanism similar to what Terra used to maintain its peg. For example, when 1 USDD drops below $1, traders can make an instant profit by sending 1 USDD to the Tron blockchain in exchange for $1 worth of Tron, the native token of the network, with the arbitrage incentive designed to bring USDD’s price back to $1.Terra showed that an integration of such algorithmic programming to keep a token stable is easier said than done, largely because the stablecoin is dependent on investors believing that its sister cryptocurrency will continue to appreciate. …Sun agreed that Terra’s failure shows the flaw of algorithmic stablecoins, but said it also gives an opportunity for new projects to adjust. USDD aims to raise $10 billion through the Tron DAO Reserve -- which it called an “alliance” of market participants including Alameda Research and Amber Group -- to defend USDD’s peg. That’s a similar setup to Terra’s main developer Do Kwon’s Singapore-based non-profit Luna Foundation Guard. Look I don’t actually think this is impossible. When we first  talked about TerraUSD last month, I liked the idea of the Luna Foundation Guard and its pool of money. The point is that you build up a valuable algorithmic stablecoin on a wave of investor confidence, and then you use that value to build a sort of foreign-exchange reserve fund. You can print Luna for free, so if people value Luna you should print a bunch of it and exchange it for things that (1) people also value and (2) are uncorrelated to Luna. You buy $10 billion of Bitcoin or Ethereum or Treasury bills or gold or whatever and, if the stablecoin goes down, you spend some of that reserve fund to buy the stablecoin and prop up the price. If you build a big fund and show a willingness to deploy it, then no one will doubt your stablecoin, so you won’t have to spend the fund, so your other token (Luna, Tron, whatever) will appreciate, so it will all work in a self-sustaining way. “The basic structure of the trade,” I wrote, “is (1) Ponzi, (2) acceptance, (3) diversification, (4) permanence.”I don’t think this strategy is crazy! I mean, of course it’s crazy, but I do think it could work. (Does it … sort of … describe the history of fiat currency?) It’s just, you know, if you slip up on the way to permanence, you vaporize tens of billions of dollars. And it’s extremely easy to slip up, because in the early going the only thing underpinning the value of your stablecoin is confidence in your system. And people keep slipping up.Also here's a wild quote:“An algo stable will exist in the next five-to-seven years,” said Hassan Bassiri, a portfolio manager at Arca, which was an investor in Terra. “And it has to exist or else what are we even doing in this space?” Losing a lot of money, for one thing. Is this … is now a good time to launch an algorithmic stablecoin? A month ago, all the people who were like “there needs to be an algorithmic stablecoin” put their money in TerraUSD, so it was hard to launch a competitor. Now that TerraUSD has absolutely incinerated all of their money, the field is wide open! People miss TerraUSD — “wasn’t it nice, having a stablecoin that was truly decentralized and algorithmic?” — and so they are willing to ignore how it ended. 
+  
+    
+      Backed stablecoin?
+    
+  
+We talked recently about the possibility of contagion from the cryptocurrency markets to the broader financial system. My basic view is that there's not much, really, but there’s more than there used to be, and it will be a good sign for crypto if there is more contagion. If crypto is more tied up with traditional finance — if more investors own both bonds and crypto, if crypto provides financing for traditional businesses, etc. — then that will be a sign that crypto is important, but it will also increase the risks of crypto.One popular theory of contagion is about stablecoins. Not algorithmic stablecoins, which try to be worth a dollar without holding any dollars, and which can crash to zero with surprisingly little impact on anything else, but “backed” stablecoins like Tether and USD Coin, which try to be worth a dollar by holding roughly $1 of dollar-denominated financial assets (commercial paper, Treasuries, bank deposits, etc.) for each $1 of stablecoins they issue. If there is a run on one of those stablecoins, then they will need to sell their underlying assets, which, if the coins are big enough, could cause the prices of those assets to go down.When we discussed this,  I wrote that “at a high level you could argue that Tether is one of the more important crypto projects in terms of having an effect on the real economy,” just because it purportedly buys so much commercial paper, meaning that it effectively lends billions of dollars to (presumably non-crypto) companies to fund their operations. On the other hand, lots of people have their doubts about Tether, in part because it bizarrely refuses to disclose much about its holdings, and because there is curiously little evidence about what Tether — which seems to be one of the world’s biggest buyers of commercial paper — actually buys.In that vein, here is a new paper by Sang Rae Kim at Yale on “How the Cryptocurrency Market is Connected to the Financial Market”:The cryptocurrency market is connected to the traditional financial market through reserve-backed stablecoins. A one standard deviation ($320 million) increase in the issuance of major stablecoins (Tether and USD Coin) on a given day results in a 10.7% increase in the commercial paper issuance quantity, a 20 basis point decrease in the commercial paper yield, and a 15 basis point decrease in the Treasury yield the following day. This shows that the exponential growth of stablecoins created an excess demand for short-term money-like safe assets such as commercial paper and Treasury. I also explore the fiat cryptocurrency market's effect on the commercial paper market. A one standard deviation increase in the market capitalization growth of major fiat cryptocurrencies (Bitcoin, Binance Coin, and Ethereum) on a given day results in an 11.9% decrease in the commercial paper issuance quantity, a 20 basis point increase in the commercial paper yield, and a 18 basis point increase in the Treasury yield the following day. This result suggests that investors exchange stablecoins for fiat cryptocurrency when the fiat cryptocurrency market is doing well, lowering the demand for stablecoins and thus commercial paper.Huh! A correlation between stablecoin issuance and commercial-paper issuance does suggest that, you know, the stablecoins hold commercial paper. Kim also “conduct[ed] an event study that studies the impact of Tether’s shift in their reserve management strategy away from holding commercial paper to holding Treasuries,” finding that “stablecoin issuers’ impact on the commercial paper market was significantly subdued following this strategy shift,” suggesting that the strategy shift was real.On the other hand a 15 basis point effect on US Treasury yields seems like it might prove too much? Treasuries trade more than half a trillion dollars a day, and I don’t really believe that the demand for Tether has a big effect on the demand for Treasuries. (There may be some correlation: A flight to safety in crypto markets might mean more demand for stablecoins, while a flight to safety in traditional markets might mean more demand for Treasuries.) I guess when demand for stablecoins drives demand for US Treasuries, that’s when you’ll know that crypto has really arrived.
+  
+    
+      Things happen
+    
+  
+HSBC suspends banker over climate change comments. Broadcom in Talks to Acquire Cloud Company  VMware. Kushner’s and Mnuchin’s Quick Pivots to Business With the Gulf. McKinsey & Co. worked with Russian weapons maker even as it advised Pentagon. Metals Traders ‘Self Sanction’ Key Russian  Palladium, Disrupting Markets. Russia threat deters bond investors from Baltics and Finland. Russia May Ease Key FX Limit as Ruble Surge Hits Budget, Economy. Banks turn to blockchain in search for high-quality trading assets. Goldman's Solomon Says  Subway Shooting of Employee a 'Senseless Tragedy'. Miami’s mayor backed MiamiCoin crypto—then its price dropped 95%. “‘He goes to all these diners, drive-ins and dives,’ said one fan, Jim McGinnis, 77, explaining the show’s appeal.” GameStop Launches Wallet for Cryptocurrencies and NFTs.If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] I did not specify, but I guess the fund would be weighted by market cap, not my ESG ratings.[2] We  talked a while back about the SEC’s proposed rules on corporate climate disclosure, which are disclosure-based but which have substantive implications for what sorts of things companies can and can’t do.[3] You can of course be more formulaic in one or both of these things. “We use a data service to estimate how many tons of carbon each company emits, and then buy all the stocks in the S&P 500 index that are in the best quartile of emissions for their industry group” would be reasonably objective; you could object that this mechanism is *bad*, but it’s reasonably easy to tell if a fund is or is not following it.
+        
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter? 
+Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+  
+
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cgk3j1.5qhu/2ea80f1d.gif" alt="" border="0" /></a>

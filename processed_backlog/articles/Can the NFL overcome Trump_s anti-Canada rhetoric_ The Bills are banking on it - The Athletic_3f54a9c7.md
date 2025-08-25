@@ -1,0 +1,224 @@
+# Can the NFL overcome Trump’s anti-Canada rhetoric? The Bills are banking on it - The Athletic
+
+**URL:** https://www.nytimes.com/athletic/6479455/2025/07/09/nfl-trump-buffalo-bills-canada/
+**Processed:** 2025-08-24T19:16:29.187999
+
+![Can the NFL overcome Trump’s anti-Canada rhetoric? The Bills are banking on it](https://static01.nyt.com/athletic/uploads/wp/2025/07/08144017/0708-bills-scaled.jpg?width=1920&quality=70&auto=webp)
+
+# Can the NFL overcome Trump’s anti-Canada rhetoric? The Bills are banking on it
+
+![Can the NFL overcome Trump’s anti-Canada rhetoric? The Bills are banking on it](https://static01.nyt.com/athletic/uploads/wp/2025/07/08144017/0708-bills-scaled.jpg?width=1920&quality=70&auto=webp)
+
+[Tim Graham](https://www.nytimes.com/athletic/author/tim-graham/)
+
+July 9, 2025Updated July 10, 2025
+
+Wayne Kretz always knew what to expect.
+
+For nearly a decade, Niagara Sports Trips took buses full of Canadian fans over the U.S. border for Buffalo Bills and Sabres games. The excursions became so popular that Kretz could sell out as many as four 56-passenger motor coaches, thanks in large part to patrons of his other business, the Manhattan Bar & Grill, a member of the Bills Backers bar network in St. Catharines, Ontario.
+
+Advertisement
+
+The buses usually took the Peace Bridge to cross the world’s longest undefended border, slowing to 30 mph over the Niagara River before pulling into the U.S. Customs and Border Protection processing center. On each trip, officers had passengers exit the buses and file through the building to scan their passports.
+
+“For the most part, it’s pretty quick,” Kretz said. “No problems.”
+
+Kretz isn’t sure anymore. Neither are his customers, and that might be a problem for the NFL, the Bills in particular.
+
+The NFL craves Canada more than ever. There’s untapped corporate money, growth in youth football, philanthropic connections and long-term fans to help build a league with massive, global plans. Buffalo, a small-market club with 60 percent of its market population lying across the border, needs it most.
+
+But are Canadians in the mood to play along?
+
+For some, the idea of entering the United States has shifted not so much logistically as symbolically. It started after [Donald Trump](https://www.nytimes.com/athletic/6481190/2025/07/10/sports-betting-trump-bill-tax/) was elected president for a second time and [floated the idea](https://www.nytimes.com/2025/03/07/world/canada/trump-trudeau-canada-51st-state.html) of making Canada the 51st state. Trump belittled Canada’s economic wherewithal, called Prime Minister Justin Trudeau “governor” and threatened [a trade war](https://www.nytimes.com/article/trump-tariffs-canada-mexico-china.html). In February, Trump reportedly told Trudeau he believed the 1908 treaty that demarcates the 5,525-mile border is invalid and in early March enacted 25 percent tariffs on Canadian exports.
+
+The Canadian reaction was furious, and [the branding came fast](https://www.nytimes.com/2025/03/13/podcasts/the-daily/canada-trade-war-trump.html): “Elbows up,” as if protecting the country’s independence now required going Gordie Howe against American aggressions. Canadian fans booed “The Star-Spangled Banner” at the 4 Nations Face-Off hockey tournament in Montreal in February, an act repeated before Toronto Raptors games in Scotiabank Arena and NHL games at rinks throughout the country.
+
+In April, Canada’s Liberal Party rode the Trump-related backlash to a stunning election victory, with new Prime Minister Mark Carney declaring annexation “will never happen.” But just two weeks ago, Trump reasserted his desire to make Canada the 51st state “because Canada relies entirely on the United States. We don’t rely on Canada.”
+
+Advertisement
+
+Border crossings into the U.S. have plummeted. In a [June Rolling Stone column](https://www.rollingstone.com/politics/politics-features/trump-wrecked-america-brand-canada-1235364578/), New York Times best-selling author Guy Lawson, a Canadian, said Trump’s “lurid attempts” and “deranged lunge” at annexation have made the relatively simple act of entering the U.S. “not just taboo – it’s a kind of betrayal, even borderline treasonous.”
+
+Kretz received a similar message from his customers. On April 14, he was forced to cancel the trip to watch the Toronto Maple Leafs play in Buffalo, typically his most popular hockey package.
+
+“Every time I posted on social media about the trip, we got slammed for being anti-Canadian,” Kretz said. “‘I wouldn’t go over there,’ and ‘How dare you?’ and ‘How unCanadian can you be!’ Not only was I not selling tickets, but I was getting bad publicity.”
+
+---
+
+Every other major league has Canadian footing. The Blue Jays and Raptors enjoy national followings. The NHL features seven markets. MLS has teams in Toronto, Montreal and Vancouver.
+
+Despite the proliferation of international games in Europe and Latin America, no NFL regular-season contest has been played in Canada since the commercially disastrous Bills Toronto Series ran from 2008-12. The most recent league event was a 2019 preseason exhibition between the Oakland Raiders and Green Bay Packers in Winnipeg, played on an 80-yard field over safety concerns with IG Field’s substandard artificial turf.
+
+The NFL, however, still wants Canada to catch on.
+
+“We operate as a league with no teams and no games currently,” NFL Canada general manager Gavin Kemp said. “It’s a very competitive landscape, but I think we hold our own pretty well.”
+
+The NFL has given seven clubs nationwide Canadian marketing rights through its Global Markets Program, an initiative that allows advertising, sponsorship deals, youth football development, fan engagement and broader brand promotion in 21 international locales. The Seattle Seahawks and Minnesota Vikings were the first to receive Canadian rights in 2021, followed by the Detroit Lions last year and the Arizona Cardinals in March.
+
+Advertisement
+
+The Bills were one of only three clubs not participating in the Global Markets Program until the league assigned them to Canada in June, a surprising delay for the franchise with arguably the most to gain there. Buffalo is unusual, even compared to fellow border metros Detroit and Seattle. NFL bylaws define a club’s home territory as everything within a 75-mile radius from where it plays. That includes a lot of Great Lakes water near Orchard Park, but it also covers Toronto, home to more residents than Chicago. Around 21 percent of Canada’s population is within the Bills’ home territory.
+
+Now, with the Global Markets Program rights, the Bills can market their brand from Newfoundland to Yukon should they choose.
+
+“Regardless of the climate, we’re going into Toronto,” said Pete Guelli, the Bills’ executive vice president and chief operating officer. “The passion for the Bills in that market has not subsided at all with what’s been happening.”
+
+The Bills have roughly 8,000 Canadian season-ticket holders, 11 percent of Highmark Stadium’s seating capacity. As the new $2.2 billion stadium goes up across Abbott Road and PSLs still are being sold to existing customers, Bills chief strategy officer Kate Hussmann said Southern Ontario accounted for 18 percent of those who paid a deposit to get on the waiting list.
+
+Northward growth seems natural. But before the Bills could look ahead, they had to reckon with the botched mess behind them.
+
+For generations, Buffalo sports fans have harbored an uneasy view that Toronto was always lurking. They long feared that after Bills founder Ralph Wilson died, the team would relocate 90 miles up Queen Elizabeth Way and into the behemoth’s waiting embrace.
+
+They loathed Wilson’s decision to let communications mogul and aspiring NFL owner Ted Rogers essentially buy the rights to several games and stage them in the Rogers Centre, the downtown home to his Blue Jays. Ticket prices were exorbitant. Matchups were uninspiring. Many Bills fans refused to go on principle. Those who made the trek squinted at football from baseball sight lines in a domed stadium that felt lifeless. Tailgating was illegal.
+
+Advertisement
+
+“If they had handled that situation years ago the right way, Toronto would probably have its own NFL team right now,” Raptors analyst and Bills season-ticket holder Jack Armstrong said. “A world-class city with economic might and sheer population, it’s almost insulting when I hear people say the NFL couldn’t make it in Toronto.”
+
+![](https://static01.nyt.com/athletic/uploads/wp/2025/07/08084252/GettyImages-464117761-scaled.jpg)
+
+Singer Jon Bon Jovi attends the AFC Championship Game between the Patriots and Broncos in Denver on Jan. 19, 2014. (Elsa / Getty Images)
+
+Wariness over losing the Bills to Toronto intensified when Wilson died in 2014 and rock star Jon Bon Jovi emerged as a leading candidate to buy the team.
+
+Bon Jovi had no Western New York ties and a substantial amount of Toronto money, backed by the Rogers family and Maple Leaf Sports and Entertainment, then chaired by Larry Tanenbaum. A Bills fan group launched by Trump operative Michael Caputo — the future president also was trying to purchase the franchise — orchestrated a highly successful boycott of Bon Jovi’s music on Western New York juke boxes and radio stations. Vitriol was so fierce that, after losing to Terry and Kim Pegula’s record $1.4 billion bid, Bon Jovi walked away from his NFL dreams and vowed never to perform in Buffalo again.
+
+Shortly after the Pegulas took over, the remainder of the Bills Toronto Series was terminated. For nearly a decade, the franchise made no formal push north.
+
+“What can the Bills do more than they already do? The answer, quite frankly, is ‘everything’ because what the Bills do currently is nothing,” said Michael Naraine, a sports management professor at Brock University in St. Catharines who worked on the Bills Toronto Series from 2007-09.
+
+The PR land mines are mostly gone, eradicated by the Pegulas’ commitment, a sparkling stadium with contemporary amenities and a 30-year lease to quell any abandonment angst.
+
+Bills fans shouldn’t feel threatened by Toronto anymore.
+
+“We’ve got a big dog in our back yard,” Naraine said, “and we’ve been ignoring it because we’re afraid it’s going to eat our lunch.”
+
+---
+
+Perched atop his stool at Handlebar Hanks Roadhouse, a Bills Backers bar in Welland, Ontario, Jonah Miller mused that sports is but a “momentary seriousness.”
+
+For instance, when Blue Jays slugger Jose Bautista’s three-run home run beat the Texas Rangers in the 2015 American League Division Series.
+
+“Jose’s bat flip is what it’s all about, but it’s just a moment in time,” said Miller, a 34-year-old HVAC technician. “I had to get up and go to work the next morning.”
+
+Advertisement
+
+Miller is a diehard Maple Leafs fan and considers himself Bills-adjacent, but he has close friends and family who love them. “So I get pumped up about the Bills because I ride or die with my boys,” Miller said.
+
+But a deep loyalty belongs to his country.
+
+“Americans took it personally when we booed the national anthem” at the 4 Nations Face-Off, Miller said. “We love Americans; they’re like our big brother. It was about the sovereignty of our nation, and if Canadians ever make a point about anything in life, it will happen in a hockey rink.
+
+“The talk about making us the 51st state hit us hard. We’re a prideful nation. Most of us are pissed off that Trump would say, ‘We’re taking over your country.’ The divide, the gap he has created, is so deep.”
+
+Canadians are making a point at the border, too. Some have boycotted crossing into America, while others are too afraid. The Athletic spoke to several Canadian sports fans, some of them Bills season-ticket holders, who declined to be interviewed over fears their comments could be used against them at the border. Three such fans added they will be sure to scrub their cell phones as a precaution before trying to enter the U.S.
+
+U.S. Customs and Border Protection data shows year-to-year passenger vehicle crossings for May, the most recent month tabulated, declined 21.9 percent into the Buffalo Niagara region, 9.9 percent into Detroit and 33.9 percent at the Peace Arch in Blaine, Wash.
+
+Mark Poloncarz, the Erie County executive, has needed to be an international ambassador more than he’d like. In response to Trump’s rhetoric, he and other elected municipal leaders bordering Lake Erie and Lake Ontario formed the Niagara 8 to advocate for cross-border economic cooperation.
+
+“Canadians are angry. They should be angry,” Poloncarz said while wearing a lapel pin of crossed American and Canadian flags at the April 4 topping-out ceremony at the new Highmark Stadium. “The president attacked their sovereignty. The damage has been done.”
+
+Advertisement
+
+The Maple Leafs typically visit Buffalo twice a season, once between American Thanksgiving and Christmas and again in February, March or April. These are attractive events for Canadians because tickets are cheaper and easier to obtain than at Scotiabank Arena. But the border was relatively quiet this time around.
+
+Data from the Buffalo and Fort Erie Public Bridge Authority and the Niagara Falls Bridge Commission breaks down traffic by date. On April 15, the date of the recent Maple Leafs/Sabres matchup, incoming passenger vehicle crossings were down 23.6 percent from the game in December, down 32.3 percent from the March 2024 game and down 18.1 percent from the December 2023 game. There were fewer crossings on April 15 than during the COVID-shortened 2022-23 season, when the Maple Leafs played only one game in Buffalo and vaccine documentation was required for entry.
+
+Some Buffalo sports fans, recalling their fears that Toronto would poach the Bills, might be tempted to revel in Canadians staying on their side of the Niagara River.
+
+“The average Western New Yorker might say, ‘We don’t need them,’ but you actually do,” Naraine said. “When a season-ticket holder puts his tickets up for sale on the resale market, those are potential customers. You’re trying to sell more jerseys to make the NFLPA happy and raise the salary cap. You want more people to love football and watch your team.
+
+“Yes, we’re in an era of protectionism, but that doesn’t mean you ignore the neighbor right next to you.”
+
+The Bills finally seem to realize the manifold benefits of cross-border inclusivity. Detroit, among America’s most well-established corporate markets, has pursued Canadian engagement for years despite dwarfing Windsor’s population. Seattle has been active in Canada despite Vancouver being outside the NFL’s 75-mile home territory radius and having three quarters the metro population.
+
+Toronto, meanwhile, has a gravitational pull that makes Buffalo its economic satellite. The Greater Toronto Area is the second-largest financial center in North America, and its population is growing rapidly. Buffalo, meanwhile, has one Fortune 500 company, M&T Bank at No. 317 on the most recent list, and it chose to buy stadium naming rights from the Baltimore Ravens.
+
+Advertisement
+
+For the Bills, growing their fan base and corporate foundation in Southern Ontario can keep them viable long after Josh Allen retires, AFC East titles aren’t assumed, ratings potentially slip and sellouts at the new stadium become less automatic — or when the 30-year lease nears completion and the chances of relocation climb.
+
+“We see it as a long-term play,” chief strategy officer Hussman said. “We view it as this being a massive population of potential fans. The average age of the NFL fan is trending older, and football is not the most popular sport in Southern Ontario. So I think we’re developing future fandom there.
+
+“The stadium has to be full 10 years from now. Somebody has to watch the broadcast 10 years from now. Somebody has to buy a ticket or a PSL 10 years from now, and the clearest path to fandom over time is whether you played the sport or watched the sport as a child. That will translate.”
+
+It’s not a coincidence that Raptors legends Vince Carter and Tracy McGrady and Toronto FC star Jozy Altidore were among 10 limited ownership partners who bought stakes in the Bills in December.
+
+“Like I mentioned to the Pegula family, now if you just get (Toronto) fans to feel wanted and you make them aware of the Bills, you now pique the interest of more people to pay more attention,” Carter said. “There always have been Bills fans there, but we’re just trying to get the masses now.”
+
+Guelli and Hussman, both hired last year, said they had to devise Canadian strategies from scratch. Despite the Bills’ previous, passive approach to courting Canada fans and businesses, they now have enough market research to claim they are already Canada’s team. Hussman noted the Bills sold the most NFL merchandise in Canada last year, with Allen having the hottest jersey.
+
+“We’re the No. 1 team in Canada based on NFL fandom rank,” Guelli said. “It changes the dynamic of every conversation when you’ve got a very competitive team with the MVP of the National Football League and a $2.2 billion stadium going up.”
+
+Advertisement
+
+The Bills can learn from the Lions and Seahawks. Although their Canadian reach is a fraction of Buffalo’s in terms of geography and population, the clubs have been engaging with fans there for years and are deploying new plans to cope with geopolitical volatility.
+
+The Seahawks have steadily expanded their footprint in British Columbia, concentrating mostly on Vancouver, Whistler and Victoria, but also reaching into Alberta and Saskatchewan, hosting watch parties and flag football championships in both provinces. Their 12 North Bar Alliance program doubled last year to 12 Western Canada establishments. The team has a dedicated landing page for Canadians on its website, contractors to handle Canada-specific social media and further collaborations planned with the Canadian Football League’s BC Lions. Director of international Isabelle Van Coevorden said the team is considering opening a Vancouver-based sales agency.
+
+Detroit’s push has been equally visible around Windsor and London, Ontario. The Lions held a large-scale watch party at Canada Life Place, sent their cheerleaders and mascot across the border, and during the playoffs staged an elaborate drone show over downtown Windsor.
+
+“We want our fans, wherever they are, to feel represented and engaged with and served,” said Emily Griffin, the Lions’ senior vice president of marketing and brand. “We’d like to be measured by what we’re doing and not just for the natural existence of fans who happen to be a couple miles over the river.”
+
+Griffin acknowledged the Lions’ past approach was “piecemeal” but said their work in Canada now follows a strategic framework with dedicated resources. Ashton Mullinix, the Lions’ senior vice president of strategy and analytics, said about 5 percent of Detroit’s season-ticket holders are Canadian.
+
+“It’s outside our control if stuff happens that limits people from coming to Detroit, but we’re focused on bringing Ford Field to our fans in Canada,” Mullinix said.
+
+The Seahawks are taking an equally aggressive approach.
+
+Advertisement
+
+“Sport has a great way of connecting people despite some of the hard things that are going on,” Van Coevorden said. “We think it’s a great opportunity to still continue our Seahawks mission into Canada and, if anything, do more than usual in case Canadians don’t want to come to the U.S. for our 2025 season.”
+
+---
+
+The restaurant was named the Manhattan Bar and Grill when Kretz bought it, but he leaned into the imagery. Depictions of New York’s iconic skyline adorn walls in the bar and dining room along with Bills signage — and an 8-foot-tall inflatable Josh Allen for special occasions — mixed in.
+
+Kretz hosts an annual Fourth of July celebration, but not this year. The anti-American sentiment around St. Catharines remains palpable.
+
+He had to be cautious when deciding whether to promote his Bills excursions. To gauge interest, Kretz posted on the Niagara Sports Trips’ Facebook page a message that began, “Serious question time.” He wanted to know whether Bills fandom would bridge the divide.
+
+The feedback was so positive that Kretz decided to book four Bills home games: Miami in Week 3, New Orleans in Week 4, New England in Week 5 and Tampa Bay in Week 11.
+
+“This ‘elbows up’ movement is here to stay for at least a couple years, but it’s starting to slowly dissipate,” Kretz said last month.
+
+Sales so far have been brisk. The buses will roll again.
+
+But the Peace Bridge, like every other border crossing into Western New York, is a two-way street. The attitudes going in either direction have fluctuated so much that they have created uncertainty the NFL, Bills, Lions, Seahawks and their legions must traverse.
+
+“What am I going to do if they decide to make an example of this bus and turn us around?” Kretz said. “What if there are even three people denied or withheld or 10 or half the bus? That’s still a real fear.”
+
+*(Illustration: Kelsea Peterson /* The Athletic*; photos: Bryan Bennett, Elsa, Jacquelyn Martin / Getty Images)*
+
+![](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNiIgaGVpZ2h0PSIxMCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjQgMS45NTU1OUwxMC41MjQ3IDIxTDAgMTMuMjczTDEuOTYwMzEgMTAuNTUyTDkuNzY2NDggMTYuMjgzMUwyMS4yODc5IDBMMjQgMS45NTU1OVoiIGZpbGw9IiMwMDAwMDAiPjwvcGF0aD4KPC9zdmc+Cg==)
+
+![Connections: Sports Edition Logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAMAAAAjXV6yAAAA0lBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////v7+/f39/Pz8+/v7+gw1qWt1WWt1SgoKCfn5+Mq0+Mqk+QkJCCn0qCn0mCnkqCnkl4kkSAgIBwcHBkejlkejhabjNabjJgYGBQYi1QYS1QUFBGVidGVShGVSc8SiI8SSJAQEAyPR0yPRwwMDAoMRceJRIeJREeJBEgICAUGQwUGQsUGAsQEBAKDQYKDAYKDAVRd1CXAAAAFXRSTlP/ABAgMEBQYG9wgI+Qn6CvsL/P3+959xIgAAAEn0lEQVR42u3c4VYaVxSG4e8wDlRlsHBGTUYb0qaJialoWtE6tRBR7v+WupbaOHuGwYRl4oLzvlcAz9r7/NsjN6eotZn0fKrVzXe3NpqRm5NcTY048QoknzS/FSjeTBVUaRJ/A1DcVYD1WjOB4HnIN78CKOoq4JLoMaCfUgWdb80FaiQKvs1GPVDUw0fyUR1Q5NGxQhZoLcXmLr9WAGJ+ZpRGD0D41G2ZBWrgY+o1SkCbqun6cvhDymU6OVokmcbDx/o7v1ZNiQVqaWb5x9fZD+pQppfbiyTTMPuK3n7INbP1e6D6B+j6eC8zrQ6QrX88nvlQF4ASVTM8KwhkiVSt+wDUVKV/3mTZigNZorEqxV+AvMr9uZcFAGT6a/YIaeYLfZxlwQFlxyoX3wP1qj4hAlWFundAcWW/sjCBqlsW3wIlso2zUIH2L2Vr3wKlsvWDBcreypY2nFyz8gCFC5QNKjum8oaN+yED7d/IlDg5Xx6gcIGqI+SdItn6YQPtyxapKVOehQ2U5TK1tCHTh9CBPsrU1pZMv4cO1JcpUVfFbrLQgbIbFevJq1gO0KWKednOATpVsVS2IUAWSAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQRQMEBX+XN1JdPF2SI9xZ+ZchNPREREREREy9X156VOpslokSaa1zBb6mQ62l6kI4AAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAPquQOfvljqZTl4u0hm370REREREREQrVX64SLmKTV4t0pFMg8PnKpft6b+TP9pepFcyvcueq1OAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAD6rkDTz4s0lRVapEn5hzxXU27fiYiIiIiIaLmanC3SSKZ8qRvL9vTfyb/KlrpTgAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAigYoBQg27lsXsUuAMpLPD0VmwB0o2JddWTaDR3oN5l+VlumX0MHOpRpQy2ZzkIHymVqKpJtJ2ygvmyRnJfpIGyggUzeyXVkmuyEDNS/kilxcrFsByEDDWRrOrlGKtuLcIH6sqXOybm2bBc7wQJdyZbcAsUq9T5UoE8qFd8Cua5KHYQJNFCpnrsDilURChCo6qPWPVB1hPQ+OKC9Tyrn3f9AsSqNdsMCevOvKjW/ALmuqh3shgO0N1C1xD0ARamqjQzRigFZnqmq+agA5NY1s7NfXqw60Os/cs2s5YpArlN/B31y9FgjFbsZLk+XU9XUdhao0eMmvphvlIBc5FExD1AZyEUpLsanDOTWmKH70jVngNiyyvwUgRAq1YtcHZBrtPHpNJwFsrW8gi5ddza5UlFHAdeNXAWoUtMHyxM7VwNka/XgMUDV4k6qoErbhscA1dTseAWST+KGq0luTlFzY6u7ykyp7yXtVjTP4D/6awC5wZMmhQAAAABJRU5ErkJggg==)
+
+![Connections: Sports Edition Logo](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAMAAAAjXV6yAAAA0lBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////v7+/f39/Pz8+/v7+gw1qWt1WWt1SgoKCfn5+Mq0+Mqk+QkJCCn0qCn0mCnkqCnkl4kkSAgIBwcHBkejlkejhabjNabjJgYGBQYi1QYS1QUFBGVidGVShGVSc8SiI8SSJAQEAyPR0yPRwwMDAoMRceJRIeJREeJBEgICAUGQwUGQsUGAsQEBAKDQYKDAYKDAVRd1CXAAAAFXRSTlP/ABAgMEBQYG9wgI+Qn6CvsL/P3+959xIgAAAEn0lEQVR42u3c4VYaVxSG4e8wDlRlsHBGTUYb0qaJialoWtE6tRBR7v+WupbaOHuGwYRl4oLzvlcAz9r7/NsjN6eotZn0fKrVzXe3NpqRm5NcTY048QoknzS/FSjeTBVUaRJ/A1DcVYD1WjOB4HnIN78CKOoq4JLoMaCfUgWdb80FaiQKvs1GPVDUw0fyUR1Q5NGxQhZoLcXmLr9WAGJ+ZpRGD0D41G2ZBWrgY+o1SkCbqun6cvhDymU6OVokmcbDx/o7v1ZNiQVqaWb5x9fZD+pQppfbiyTTMPuK3n7INbP1e6D6B+j6eC8zrQ6QrX88nvlQF4ASVTM8KwhkiVSt+wDUVKV/3mTZigNZorEqxV+AvMr9uZcFAGT6a/YIaeYLfZxlwQFlxyoX3wP1qj4hAlWFundAcWW/sjCBqlsW3wIlso2zUIH2L2Vr3wKlsvWDBcreypY2nFyz8gCFC5QNKjum8oaN+yED7d/IlDg5Xx6gcIGqI+SdItn6YQPtyxapKVOehQ2U5TK1tCHTh9CBPsrU1pZMv4cO1JcpUVfFbrLQgbIbFevJq1gO0KWKednOATpVsVS2IUAWSAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQRQMEBX+XN1JdPF2SI9xZ+ZchNPREREREREy9X156VOpslokSaa1zBb6mQ62l6kI4AAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAPquQOfvljqZTl4u0hm370REREREREQrVX64SLmKTV4t0pFMg8PnKpft6b+TP9pepFcyvcueq1OAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAD6rkDTz4s0lRVapEn5hzxXU27fiYiIiIiIaLmanC3SSKZ8qRvL9vTfyb/KlrpTgAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAigYoBQg27lsXsUuAMpLPD0VmwB0o2JddWTaDR3oN5l+VlumX0MHOpRpQy2ZzkIHymVqKpJtJ2ygvmyRnJfpIGyggUzeyXVkmuyEDNS/kilxcrFsByEDDWRrOrlGKtuLcIH6sqXOybm2bBc7wQJdyZbcAsUq9T5UoE8qFd8Cua5KHYQJNFCpnrsDilURChCo6qPWPVB1hPQ+OKC9Tyrn3f9AsSqNdsMCevOvKjW/ALmuqh3shgO0N1C1xD0ARamqjQzRigFZnqmq+agA5NY1s7NfXqw60Os/cs2s5YpArlN/B31y9FgjFbsZLk+XU9XUdhao0eMmvphvlIBc5FExD1AZyEUpLsanDOTWmKH70jVngNiyyvwUgRAq1YtcHZBrtPHpNJwFsrW8gi5ddza5UlFHAdeNXAWoUtMHyxM7VwNka/XgMUDV4k6qoErbhscA1dTseAWST+KGq0luTlFzY6u7ykyp7yXtVjTP4D/6awC5wZMmhQAAAABJRU5ErkJggg==)
+
+Aug 23, 2025
+
+## Connections: Sports Edition
+
+Spot the pattern. Connect the terms
+
+Find the hidden link between sports terms
+
+Play today's puzzle
+
+Tagged To: 
+
+[Donald Trump](https://www.nytimes.com/athletic/tag/donald-trump/)
+
+[A1: Must-Read Stories](https://www.nytimes.com/athletic/tag/a1-must-read-stories/)
+
+[NFL](https://www.nytimes.com/athletic/nfl/)
+
+[Sports Business](https://www.nytimes.com/athletic/sports-business/)
+
+[Buffalo Bills](https://www.nytimes.com/athletic/nfl/team/bills/)
+
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%27100%27/%3e)![Tim Graham](data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)![Tim Graham](https://static01.nyt.com/athletic/uploads/wp/2020/04/16233755/HS_Square_0075_20200227Graham-Tim0390_bw.jpg?width=256&quality=70&auto=webp)
+
+**[Tim Graham](https://www.nytimes.com/athletic/author/tim-graham/)** is a senior writer for The Athletic, covering Buffalo sports. He had been the Buffalo News' enterprise reporter and previously covered the AFC East at ESPN and the Miami Dolphins at the Palm Beach Post. Follow Tim on Twitter **[@ByTimGraham](https://twitter.com/ByTimGraham)**

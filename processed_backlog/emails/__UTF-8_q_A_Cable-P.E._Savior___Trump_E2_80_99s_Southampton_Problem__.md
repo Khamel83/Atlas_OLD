@@ -1,0 +1,149 @@
+# =?UTF-8?q?A_Cable-P.E._Savior_&_Trump=E2=80=99s_Southampton_Problem?=
+
+**From:** "William D. Cohan" <william@puck.news>
+**Date:** Sun, 17 Nov 2024 22:00:26 +0000
+**Source:** inputs/saved_emails/=UTF-8qA_Cable-P.E._Savior_&_Trump=E2=80=99s_Southampton_Problem=_Sun,_17_Nov_2024_22-00-26_+0000_1933c244c89580b3.eml
+**Processed:** 2025-08-24T19:13:11.204282
+
+Happy Sunday evening and welcome back to Dry Powder, I’m Bill Cohan. Hollywood has a problem. Finally, the streaming businesses at Disney, WBD, and Paramount Global are achieving profitability, with NBCU not far behind. But the traditional TV networks that helped offset years of losses are all getting smaller. Sure, they still throw off gobs of cash, but there’s nothing that Wall Street hates more than a declining asset. Everyone from Bob Iger to Mike Cavanagh has begun talking openly about when not if many of these legacy properties are moved off the balance sheet. But who’s the buyer?
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+Dry Powder ( https://puck.news/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Happy Sunday evening and welcome back to Dry Powder, I’m Bill Cohan.
+
+Hollywood has a problem. Finally, the streaming businesses at Disney, WBD, and Paramount Global are achieving profitability, with NBCU not far behind. But the traditional TV networks that helped offset years of losses are all getting smaller. Sure, they still throw off gobs of cash, but there’s nothing that Wall Street hates more than a declining asset. Everyone from Bob Iger to Mike Cavanagh has begun talking openly about when not if many of these legacy properties are moved off the balance sheet. But who’s the buyer?
+
+More and more, I’m hearing executives discussing private equity as a solution to the industry’s problem—and looking at the TPG-DirecTV deal as a model to unlock value for investors. More on that, below the
+fold.
+
+But first…
+
+* Trump’s Southampton vs. mid-island Treasury candidates: Donald Trump’s blitz of cabinet picks has a conspicuous hole on the economic front. Left unfilled are the treasury secretary, national economic advisor, and chairman of the Securities and Exchange Commission, among other regulatory agencies that Wall Street and crypto types care a lot about. Assuming Trump hasn’t made his Treasury pick by the time you read this, the Wall Street consensus is forming around hedge fund manager Scott Bessent over Howard Lutnick, the Cantor Fitzgerald C.E.O., who is also leading Trump’s transition team—if indeed these are the two finalists for the job, now that John
+Paulson, Jamie Dimon, Gary Cohn, and Steve Schwarzman seem to be out of the running. (Over the weekend, The Wall Street Journal started pushing Apollo C.E.O. Marc Rowan, one of the subjects of my forthcoming book about the firm. Rowan, who is friendly with Jared Kushner, had considered going to Washington during Trump I, but that was before he took over Apollo in March 2021. I could see him as head of O.M.B., although I’m not sure if he’s ready to leave Apollo right now, as he’s still in the process of implementing his vision for the firm.)
+
+Kyle Bass, the outspoken hedge fund manager, likes Bessent, at least partially on the grounds that the market likes Bessent. “U.S. markets initially rallied on Trump’s win,” he wrote Saturday on Twitter/X. “The moment Howard Lutnick decided he wanted the job, the markets sold off. The markets are telling Trump that Bessent is certainly the choice for
+the position.” Bessent “understands markets, economics, people, and geopolitics better than anyone I’ve ever interacted with,” Bass added.
+
+That was quite an endorsement for Bessent, who once worked for George Soros. Hedge fund manager Stanley Druckenmiller likes Bessent, too. “He’s the only guy I know who’s not only a market participant but very fluent and comfortable in academic circles,” he told Axios. Meanwhile, in dissent, Elon Musk, Trump’s newly appointed DOGE co-leader, responded to Bass’s tweet with his view that “Bessent is a business-as-usual choice, whereas Howard Lutnick will actually enact change. Business-as-usual is driving America bankrupt, so we need change one way or another.” (Where does Elon come up with this logic?)
+
+Jeffrey Sonnenfeld, professor of management practice at the Yale School of Management, weighed in with a concise, unequivocal email: “Bessent would be infinitely
+better than Lutnick.” Sonnenfeld is a straight shooter, but perhaps he’s biased toward a fellow Yalie. Bessent is a 1984 Yale grad and was president of one of its secret societies, Wolf’s Head. (Small world: He also worked for the legendary investor Jim Rogers, my professor at Columbia Business School.)
+
+While conducting my unofficial field research, I found mixed views among Wall Street executives, one of whom texted me support for Team Lutnick on the grounds that the Cantor Fitzgerald C.E.O. had stronger management experience—not least of which is having brought the company back from the brink after 658 of its employees perished in the September 11 attacks. (Though neither candidate, this person texted, had “any idea” what to do with tax policy.) Others had memories of “wild” Lutnick behavior during summers in the Hamptons and, of course, were less than complimentary about how Lutnick treated the families of Cantor’s 9/11 victims, as has
+been well documented. Another executive argued that, sure, Lutnick understands Wall Street’s plumbing, but people who have worked with him find him to be, and I quote, “a bit of a prick.” Bessent comes off as more polished, this person said, given both his training with Soros and the Brown Brothers Harriman line on his résumé. “He’s more Southampton versus mid-island,” this fellow wrote.
+
+And now, the main event…
+
+Cable Prepares for the Value Extraction Era ( https://puck.news/cable-prepares-for-the-value-extraction-era/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Cable Prepares for the Value Extraction Era ( https://puck.news/cable-prepares-for-the-value-extraction-era/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+With the once-unprofitable streaming business finally turning a corner, NBCU, Disney, and WBD are all openly telegraphing what seems increasingly inevitable: spinning off or selling declining TV assets while there’s still value to extract. Enter private equity, an industry that knows a thing or two about value extraction…
+
+WILLIAM D. COHAN ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+WILLIAM D. COHAN ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On Thursday’s quarterly earnings call, Bob Iger celebrated a hard-earned milestone: Disney’s streaming business, which has been bleeding money since its inception—it lost $2.61 billion in 2023 alone—is finally turning a profit. Investors rewarded Disney by sending shares up 16 percent for the week. It was, as my partner Matt Belloni wrote ( https://puck.news/bob-igers-netflix-moment/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Iger’s “Netflix moment,” the first time it seemed undeniable that Disney would survive its digital transition.
+
+Alas, the same can’t be said of Disney’s legacy TV networks, where revenue declined another 6 percent last quarter, to $2.46 billion, while profit
+plunged 38 percent, to $498 million. That’s still double the profit generated by the streaming segment, but the two businesses are racing in opposite directions. It’s the same story at WBD and Paramount Global and even at Comcast, where streaming is finally beginning to look like a sustainable business (Peacock isn’t profitable yet, but still…). If only the traditional TV business weren’t moving ever closer to the edge of the cliff.
+
+Of course, we all saw it coming. In July 2023, Iger famously kicked off the debate during an ill-advised interview in Sun Valley, when he said that “everything was on the table” strategically at Disney—including the idea of floating networks like ESPN and ABC off on their own leaky boat, potentially with a bunch of Disney debt as cargo. Since then, WBD’s David Zaslav and Comcast’s Mike Cavanagh have also publicly mused about spinning off or otherwise separating their companies’ declining
+TV assets from the mothership. A similar story is playing out at Paramount Global, where Shari Redstone is in the process of selling her family’s controlling stake to a much richer family and getting out of dodge.
+
+A year and a half later, those linear assets remain in the Disney fold, along with the strategic problem they present: The market is giving the big Hollywood players very little credit, valuation-wise, for their deteriorating TV businesses despite the ample amount of cash they continue to generate. Indeed, the stocks of Disney, Comcast, WBD, and Paramount have all been stagnating, while Netflix, the pure-play streamer without any legacy TV baggage, has been soaring, up 76 percent in the last year. (I still don’t understand why Bill Ackman sold his stake in Netflix, in April 2022, perfecting a $400 million loss. If he’d held on, he could have made billions. That’s why he gets paid the big bucks, I
+guess.)
+
+And every year, the dilemma is becoming more acute. It’s not as if Comcast’s Brian Roberts is going to wake up next quarter and discover that USA or Bravo or Syfy had a really nice three months. Those days are over. The only question now, for Wall Street, is when those traditional TV assets get bundled up and moved off the balance sheet—and who might be willing to buy them.
+
+The Private Equity Option
+
+Just in time, a template for how to deal with this chronic problem is emerging. While there are still options—an outright sale of the assets, bundling them into an I.P.O. or spinning them off to existing shareholders—the better choice may be to find a trusted partner in the private equity world who will buy a big stake in these wasting assets, find ways to run them better (or just more profitably) than the big conglomerates have been able to, and make everyone involved more money.
+
+I keep hearing Hollywood executives reference the 2021 deal between AT&T and TPG, the publicly traded alternative asset behemoth, for DirecTV. You will recall that AT&T agreed to buy DirecTV in 2014 for a whopping $67 billion, a price that stunned Wall Street. The deal was a John Stankey special, as was the 2018 acquisition of Time Warner for more than
+$100 billion. Both deals were considered disasters, but neither stalled Stankey’s rise. He was named AT&T C.E.O. in July 2020 and remains in charge today.
+
+While Stankey proved to be a lousy acquirer of companies, he’s actually turned out to be a pretty clever seller of the dogs he bought. In April 2022, he unloaded the renamed WarnerMedia to Zaz’s Discovery Communications in a Reverse Morris Trust deal, where AT&T would own 71 percent of the new Warner Bros. Discovery. Zaz, an old-school cable TV guy who earned his stripes at NBC back when Jack Welch’s GE still owned it, eagerly took on Warners’ declining linear TV assets plus $55 billion of AT&T’s more than $180 billion of debt.
+
+The other smart thing Stankey did was begin the process of offloading DirecTV to TPG. John Malone, Zaz’s longtime mentor and the acknowledged dean of the media business, once owned a big chunk of DirecTV and sold it before things got
+really bad. After AT&T bought DirecTV, he used to tell people that the phone company could “sell it now” or “sell it later, for less.” AT&T waited until 2021 to begin the process of selling DirecTV, choosing the wait-and-see strategy and then having little choice but to sell it for much less than the $67 billion it paid—proving Malone right, no surprise.
+
+The first step in the deal was to sell TPG a 30 percent stake in DirecTV for $1.6 billion in cash—a transaction that, along with the debt on the company plus AT&T and TPG preferred stock, valued DirecTV at only $16.25 billion, a far cry from $67 billion. (At the time, DirecTV had about $6.5 billion of EBITDA—and yes, it was declining—meaning TPG paid about 2.5x EBITDA.) By reducing its stake in DirecTV to 70 percent, AT&T could deconsolidate the company from its financial statements and no longer had to report the business’s slow but steady decline or answer Wall Street’s questions about
+subscriber losses. (Full disclosure: TPG is an investor in Puck.)
+
+Cooling the Ice Cube
+
+The gamble for AT&T was that TPG might be able to run DirecTV better than it could. That proved to be a smart bet, too. DirecTV had been completely integrated into AT&T—there were some 200 new service agreements between AT&T and TPG about the running of Direct TV—and it was not easy to extract. AT&T wanted a partner that could slow the decline and generate dividends while also working closely with AT&T to begin moving DirecTV out the door.
+
+The deal hinged, in part, on the parties’ differing perspectives on how quickly DirecTV would decline. “When they did that deal, TPG had a prognosis for the decline curve,” one Hollywood executive told me the other day. “They believed: 1) we could take costs out; and, 2) here’s what our decline curve looks like. AT&T had become so pessimistic about the business that they assumed a more
+aggressive decline curve. So when they both reached a deal, they both thought they got a fair deal.”
+
+TPG was able to cool the ice cube from melting, in Wall Street parlance. Under new management, DirecTV reduced churn and improved cash flow. In short order, the two partners were hoovering big dividends out of DirecTV. TPG got its $1.6 billion back and more, through dividend payments, tax payments, and the cash flow of the business. AT&T’s 70 percent share of these payments has totaled $19 billion since 2021, according to its public filings. (Incredibly, I’m told the company is getting closer and closer to recouping its $67 billion purchase price on an absolute basis after all these years, but not on a net-present-value basis).
+
+In other words, TPG recouped its investment and then some, and still owned 30 percent of DirecTV. Meanwhile, AT&T was getting more money out of DirecTV with TPG running the show, still owned 70 percent of it, and
+didn’t have to talk about it on quarterly earnings calls anymore. A veritable win-win.
+
+Then, at the end of September, TPG decided to double down on DirecTV, which tells you all you need to know about the success of the deal. On September 30, TPG agreed to buy the rest of DirecTV for another $7.6 billion, in a series of payments that stretch out until 2029. Next year, TPG will pay AT&T $2 billion for its remaining 70 percent stake, valuing the company at around $12.5 billion this time—again roughly 2.5x EBITDA, which is about $5 billion these days. According to AT&T’s public filings, it will also get another $500 million payment from TPG in 2029, plus expected distributions from DirecTV of $3 billion in 2024 and $2.8 billion in 2025, and a final $1.14 billion in a special payment when the deal closes. What’s more, as the market finally gets the sense that AT&T is focused on its wireless and fiber businesses and is no longer burdened by the decline of linear
+TV, the stock has responded positively for the first time in years: It’s up 43 percent in the past 12 months.
+
+On the same day that TPG announced it was buying the rest of DirecTV from AT&T, DirecTV announced a deal to buy Dish, a competitor, from EchoStar, for $1 plus the assumption of roughly $10 billion of debt ($2 billion of which was coming due in November), putting Dish on the verge of bankruptcy. But the DirecTV offer was contingent on Dish bondholders accepting a discount on their debt, which is looking increasingly unlikely. (A DirecTV spokesman told CNBC the other day that the deal was off, or would be off if Dish bondholders can’t come to an agreement by midnight on November 22, so we’ll see.) As part of the deal, TPG was prepared to provide $2.5 billion of financing to cover Dish’s near-term debt payments plus cash for other working capital purposes. The deal would combine DirecTV’s 11 million subscribers with Dish’s 8 million.
+
+“You Can Make an Awful Lot of Money…”
+
+Whether the Dish deal happens or not, TPG’s success with DirecTV is fast becoming a template for how alternative asset managers such as TPG, Apollo, Blackstone, and KKR can partner with companies such as WBD, Comcast, Paramount Global, and Disney on hiving off their declining linear assets. “You can make an awful lot of money off a declining, free-cash-flow-generating company if you are right about the decline,” the Hollywood executive explained. “TPG—and this is important—has made a triple on this. They got all their money back, and then they got it again, and then they got it again. It was one of the best investments they ever made.”
+
+It reminds me of something that Gus Levy, the onetime senior partner at Goldman Sachs, used to say: “Something well bought is half sold.” I’m hearing that there is also a lot of
+envy on Wall Street that TPG is making a fortune from the DirecTV deal and that others missed out. I don’t think these guys will make the same mistake again. I predict that Disney, Comcast, WBD, and Paramount Global will begin to shed their declining linear TV assets by creating separate spinoffs, capitalized with private equity and private debt, and then use them to buy other declining linear TV assets, just as TPG and DirecTV are trying to do with Dish.
+
+What’s more, I would expect that process to begin soon—especially now that there is a new regulatory regime on its way to Washington. It’s hard to imagine that both sides aren’t already studying the TPG playbook and contemplating how to replicate it. “I still don’t understand what the fuck they did, but whatever they did worked really well,” the executive concluded.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+The Mark-est Hour ( https://puck.news/cnns-internal-reckoning/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Mark-est Hour ( https://puck.news/cnns-internal-reckoning/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The latest chatter inside Hudson Yards.
+
+DYLAN BYERS
+
+Iger’s Netflix Moment ( https://puck.news/bob-igers-netflix-moment/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Iger’s Netflix Moment ( https://puck.news/bob-igers-netflix-moment/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Dissecting Disney’s streaming turnaround.
+
+MATT BELLONI
+
+NFL’s New Romance ( https://puck.news/will-the-nfl-put-more-games-on-amazon-prime/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+NFL’s New Romance ( https://puck.news/will-the-nfl-put-more-games-on-amazon-prime/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The league is buddying up with streamers.
+
+JOHN OURAND
+
+Aleandre Ascendant ( https://puck.news/alexandre-arnaults-promotion-lvmh-succession/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Alexandre Ascendant ( https://puck.news/alexandre-arnaults-promotion-lvmh-succession/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Reading the succession tea leaves at LVMH.
+
+LAUREN SHERMAN
+
+Puck ( https://puck.news/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=dry_powder&delivery_id=dgT2xgYDAKvRKqrRKgGTPCPpnJ04BxCfF6xd_cs=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%2811%2F17%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

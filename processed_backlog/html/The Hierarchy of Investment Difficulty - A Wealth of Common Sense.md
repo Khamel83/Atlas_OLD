@@ -1,0 +1,60 @@
+# The Hierarchy of Investment Difficulty - A Wealth of Common Sense
+
+**Source:** inputs/New Docs/html/awealthofcommonsense.com_2016_12_the-hierarchy-of-investment-difficulty.html
+**Processed:** 2025-08-24T19:13:45.561676
+
+Being the “investment guy” in the family means I’m often approached during the holidays or at parties with questions about the markets. My most recent question was about a sector fund investment and its prospects going forward.
+
+I’m sure you could come up with any number of intelligent-sounding narratives to describe which sectors will perform best or worst in the future, but no one really knows the answer to this question.
+
+When asked about the potential for the sector in question I was reminded of this chart I created a couple years ago, which I have updated through last Friday:
+
+![screen-shot-2016-12-24-at-8-39-21-pm](https://awealthofcommonsense.com/wp-content/uploads/2016/12/Screen-Shot-2016-12-24-at-8.39.21-PM.png)
+
+Like any asset quilt, there’s no rhyme or reason from one year to the next. I’m sure you could torture the data here using a momentum or value-based strategy to improve upon the results of the S&P 500, but unless you’re using a rules-based approach, you’re really just guessing when attempting to figure out which sectors will perform best over any given time frame.
+
+This exercise got me thinking about some of the most difficult aspects of investing. Investing is hard but there are certain parts of it that are harder than others. Here’s my hierarchy of investment difficulty starting with the most difficult:
+
+* Picking the best-performing individual stocks
+* Picking the best-performing sectors
+* Picking the best-performing strategies/styles/risk factors
+* Picking the best-performing geographies
+* Picking the best-performing asset classes
+
+[Picking the best performing stocks has to be the hardest thing to do when investing](https://awealthofcommonsense.com/2016/05/the-sp-500-is-the-worlds-largest-momentum-strategy/). There are thousands and thousands of stocks to choose from and the probability that you can consistently pick the best performers is extremely low.
+
+Plus, there’s the fact that you could be an unbelievable stock-picker but if you’re picking stocks in the wrong sector, market cap, style or geography it won’t matter how good your stock picks are. Asset allocation trumps all so even the best stock picks in the worst segment of the market might not help your bottom line.
+
+Luckily, investors can diversify to all but eliminate unsystematic risk, which is the risk that comes from the uncertainty involved when investing in a single company or industry. Unsystematic risk is a fancy name for diversifiable risk, meaning you can own a wide range of companies, sectors and industries to avoid the specific risks involved with investing in the stock market.
+
+There are larger gains to be had from picking the best stocks or sectors, but you’re also putting yourself at a much greater risk of blowing up your portfolio. There are investors out there who can successfully pick the right sectors but it’s a very short list and your name (or mine) is likely not on it.
+
+Picking the best anything when investing is hard. If it was easy everyone would do it. This is also why investors often create the most trouble for themselves by constantly trying to pick the best stocks, sectors, strategies, countries or asset classes.
+
+It may feel like trying to be right all the time is an intelligent way to invest, but this line of thinking opens you up to a seemingly endless number of different ways to be wrong in the markets.
+
+The solution to this problem will mean different things to different investors but my broad outline goes like this:
+
+* Avoid any and all unnecessary or avoidable risks.
+* Always understand your edge, or lack thereof, when investing.
+* Go into the investing process with a heavy dose of self-awareness and humility.
+* Figure out how to make fewer decisions within your portfolio.
+* Avoiding big mistakes is more important than locating big wins with your investments.
+* It’s much easier to be wrong than it is to be right. Very few investors are willing to admit this fact to themselves. This is where you can find your way as an investor.
+
+Further Reading:  
+[The S&P 500 Sector Quilt](https://awealthofcommonsense.com/2014/05/sp-500-sector-quilt/)
+
+
+
+## Now go talk about it.
+
+* [facebook](https://www.facebook.com/sharer/sharer.php?u=https://awealthofcommonsense.com/2016/12/the-hierarchy-of-investment-difficulty/)
+* [twitter](http://twitter.com/intent/tweet?text=The Hierarchy of Investment Difficulty by @awealthofcs https://awealthofcommonsense.com/2016/12/the-hierarchy-of-investment-difficulty/)
+* [linkedin](http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fawealthofcommonsense.com%2F2016%2F12%2Fthe-hierarchy-of-investment-difficulty%2F&title=The+Hierarchy+of+Investment+Difficulty)
+
+### More from my site
+
+* [Animal Spirits: Michael’s Brain Fart](https://awealthofcommonsense.com/2019/09/animal-spirits-michaels-brain-fart/)
+* [Updating My Favorite Performance Chart For 2022](https://awealthofcommonsense.com/2023/01/updating-my-favorite-performance-chart-for-2022/)
+* [Why Is Gold Rising?](https://awealthofcommonsense.com/2020/07/why-is-gold-rising/)

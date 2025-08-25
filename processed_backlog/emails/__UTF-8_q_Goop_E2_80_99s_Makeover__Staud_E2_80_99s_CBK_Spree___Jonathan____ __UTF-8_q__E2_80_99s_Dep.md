@@ -1,0 +1,269 @@
+# =?UTF-8?q?Goop=E2=80=99s_Makeover,_Staud=E2=80=99s_CBK_Spree_&_Jonathan?=
+ =?UTF-8?q?=E2=80=99s_Departure_Matrix?=
+
+**From:** Lauren Sherman <lauren@puck.news>
+**Date:** Thu, 19 Dec 2024 00:00:43 +0000
+**Source:** inputs/saved_emails/=UTF-8qGoop=E2=80=99s_Makeover,_Staud=E2=80=99s_CBK_Spree_&_Jonathan=
+ =UTF-8q=E2=80=99s_Departure_Matrix=_Thu,_19_Dec_2024_00-00-43_+0000_193dc37a0a2150e7.eml
+**Processed:** 2025-08-24T19:13:11.912572
+
+Dec 19, 2024   
+
+Line Sheet ( https://puck.news/newsletters/line-sheet/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.406828428;dc_trk_aid=599598135;dc_trk_cid=224890544;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Greetings! As you can probably tell, today’s newsletter looks a little different.
+After three years, we’ve redesigned the look and feel of our private emails, and want to know what you think. If you have any feedback, please click here ( https://www.surveymonkey.com/r/icprivateemail?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to take a brief survey.
+
+Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Lauren Sherman ( https://puck.news/author/lauren-sherman/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Hi, and welcome back to Line Sheet. Tonight is Puck’s West Coast
+holiday party. If you see us out and about, don’t say hi. (I kid! But no, it’s not at Sal’s Place ( https://www.salsplace.co/restaurant?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), although I went there last night, saw two of you, and it was so great. I love it. Cash only.)
+
+ 
+
+By the way, if you haven’t taken the latest survey for the second iteration of The Puck Private Conversation series,
+powered by Orchestra, you can fill out your responses here ( https://puckprivateconversations.typeform.com/to/kPm9l8LK?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F17%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%2812%2F12%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60623da7ceb8741&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ). It’s quick and fun!
+
+ 
+
+Today, Rachel “Rachel@puck.news ( rachel@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )” Strugatz is back, deep in conversation with one of the most fascinating American fashion and beauty executives on the rise: Julia Hunter, the former C.E.O. of Jenni Kayne, Goop board member, and advisor to several notable brands, including Violet Grey. I’ve been tracking Julia’s career for years and have
+always appreciated her candor and no-nonsense approach to business. Her conversation with Rachel is no different. (She gets really real about Goop in a way you’ve never heard before from someone on the inside.) 
+
+ 
+
+In other news, I’ve got a fun scoop about who bought those Carolyn Bessette-Kennedy pieces that were recently sold in a Sotheby’s auction (and how much they went
+for), plus a little bit on the weirdness in the just-released Fashion Week schedules. And finally, an unscientific roundup of the best holiday parties of the season, from Los Angeles to Paris. 
+
+ 
+
+🛍️ P.S.A.: On Monday, I mentioned that my fashion friends were freaking out over High Sport’s graphic, inventive take on the ubiquitous fair isle ski sweater. Hours later, Chloë
+Sevigny was spotted at Fabiola Beracasa Beckman’s house in the blue ( https://fave.co/41zlgmK?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) version. (It also comes in cream ( https://high-sport.com/products/lara-fairisle-crewneck-ecru-combo?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).) Chloë, almost indisputably, has the best personal style of anyone in the world and wore it in a totally original way, so maybe don’t try to copy her
+flat-out, but definitely consider buying it. (You can also preorder a slightly tweaked version ( https://fave.co/400VZ3q?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) in black.)
+
+ 
+
+Mentioned in this issue: Ari Emanuel, Prada, Yohji jackets, Jonathan Anderson, Loewe, Matthieu Blazy, Chanel, Grace Kelly, Audrey Hepburn,
+Jane Birkin, Peter Copping, Lanvin, Gwyneth Paltrow, Julia Hunter, Goop, Esther Perel, Carolyn Bessette-Kennedy, Prada double-faced wool, and much more…   
+
+A MESSAGE FROM OUR SPONSOR
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.406828428;dc_trk_aid=599598135;dc_trk_cid=224890544;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.406828428;dc_trk_aid=599598135;dc_trk_cid=224890544;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+PERFORMANCE UNLEASHED
+With a distinct sporting personality, the Range Rover Sport is a
+peerless performer.
+EXPLORE ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.406828428;dc_trk_aid=599598135;dc_trk_cid=224890544;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Three Things You Should
+Know…
+-----------------------
+
+* Sarah Staudinger is a Carolyn Bessette fan, too: I’m told that the founder-designer (and wife of Endeavor C.E.O. Ari Emanuel) went ham at a recent Sotheby’s auction and bought all three looks once owned by the frozen-in-time Carolyn Bessette-Kennedy. Staudinger paid $78,000 for the Prada single-breasted black coat from 1997, $33,600 for a vintage faux-leopard fur coat (the flavor of coat is trending ( https://go.shopmy.us/p-11366111?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) upward right now, btw), and $66,000 for a Yohji Yamamoto black wool double-breasted jacket. I emailed Staudinger and Sotheby’s to confirm she was the buyer of the pieces, which were part of a sale of 114 fashion items, ranging from a Galanos beaded evening gown from 1983 to the Pierre Balmain haute couture dress Sophia Loren wore in The Millionairess in
+1960. (In all, 93 percent of the lots were sold, totaling $1.1
+million.)
+
+In her reply, Staudinger told me that she plans to “treat these items the way a basketball fan would a Michael Jordan championship jersey. I am an avid vintage collector and have always been infatuated with Carolyn Bessette-Kennedy and what she represented to American fashion and culture. I am happy to own a part of that fashion history, and that’s really the only way I intend to use these items. Honored and excited to have them as part of my collection.” 
+
+The
+CBK jackets went far above the estimate, and it’s no surprise that Staudinger—who isn’t a stranger to auctions, I hear—would be compelled. As a true-blue millennial, Staudinger is part of the generation that anointed Bessette-Kennedy a style icon—venerated among the likes of Grace Kelly, Audrey Hepburn, Jane Birkin, and yes, her mother-in-law, Jacqueline Kennedy Onassis. (Instagram has flattened time and Bessette-Kennedy’s
+status has been cemented by social media, where she is memorialized daily. There are very few existing images of Bessette-Kennedy, whose death (alongside her husband, John F. Kennedy Jr., and her sister Lauren) in a plane crash at age 33 made world headlines, but those that are available are regurgitated and dissected over and over again.) Perhaps Staudinger will use the pieces as inspiration for her next collection. If you’re interested in buying the Prada or
+Yohji jackets, these types of things pop up now and again on The RealReal ( https://fave.co/41GDBOW?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) at a far more swallowable price.
+* Reading the Fashion Week tea leaves: Okay, so I looked at the fashion calendar for the January men’s shows in Milan and Paris, couture, and London. Loewe canceled its men’s show. J.W. Anderson is not showing men’s in Milan or women’s in London… for now. Is
+there something to be said here? 
+
+Look, in the end, there is an increasing likelihood—or at least a very nonzero chance—that Jonathan Anderson’s last show for Loewe will be in March, during the women’s collections. (Last week, I put it at an 80 percent likelihood. Now I’m upping it to 95. When I know for sure, I will tell you.) 
+
+That said, pretty much no one is showing during Milan men’s (the big shows are Prada and Armani) and I suspect that the
+women’s shows are going to be weird this season, too, thanks to a lot of designer changes (Matthieu not showing Chanel until October, the Oscars hitting right between the Milan and Paris shows, etcetera). I’m sad to miss couture, with Schiaparelli, Alaïa, and Peter Copping’s debut at Lanvin. Couture is actually the very best time to be in Paris. Yes, I know there are new rumors of changes at big houses, and you would like me to address them, and I will when the
+time is right. The one thing I will say, as evidenced in the past couple of weeks: Kering, for all its messiness, continues to be interesting, and LVMH, for all its grandiosity, continues to be predictable.
+* The party’s over?: I do hope you had fun at all the holiday soirées last week. The ones that popped up repeatedly for me—other than Dôen’s rager at Genghis Cohen (yes, Adam Brody was there, chill out)—include Marisa
+Meltzer’s Upper East Side house party (if you are a writer of a certain age and weren’t there-slash-invited… you gotta suck up to Marisa more, I guess?), and Kaitlin Phillips’ company function in the apartment above The River bar in Chinatown. (The space is designed by Green River Project, you can smoke, and apparently the food is great, too. I’m told the best guest was “evil P.R. guy” Jim McCarthy from Counterpoint Strategies.) Everyone in
+London showed up to the Dover Street Market 20th anniversary celebration. (My favorite photo was of Katie Grand sandwiched between Ronnie Cooke Newhouse and Sarah Mower.) In Paris, designer-slash-beauty exec Michelle Duncan hosted a gorgeous stand-up dinner at her fancy apartment. Capping things off this Thursday is LVMH executive Sophie Brocart’s leaving do (after 25 years, she’s headed to Chanel). What did I
+miss?
+
+And now, Rachel…
+
+The Goop Wife
+
+**************************************************************************************************************************************************************************************************************************************************************************************
+The Goop Wife ( https://puck.news/julia-hunter-on-growing-goop-out-of-its-awkward-phase/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+**************************************************************************************************************************************************************************************************************************************************************************************
+
+Gwyneth Paltrow’s 16-year-old lifestyle brand’s awkward adolescence
+has been well-documented. Now, proven executive problem-solver Julia Hunter has arrived to turn things around with cuts, thought leaders, and maybe even showing up at Fashion Week.
+
+Rachel Strugatz ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Rachel Strugatz ( https://puck.news/author/rachel-strugatz/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+I’ve been following Goop as it has tried to sell just about
+everything—skincare, TV shows, vibrators, made in Italy knits, wellness conferences, stores, and more—in the 16 years since Gwyneth Paltrow hit send on that first newsletter from her London home. By many measures, the lifestyle business Paltrow has built is impressive; Goop has seen many iterations, and her arc of personal influence, which spans four decades and every diet and workout fad imaginable, is as relevant as ever. Most recently, I’ve learned that
+Gwyneth is maybe even trying to sell Fashion Week on a Goop runway show.
+
+ 
+
+But somewhere along the way, Goop got a little lost. Despite its extraordinary brand power, the business lacks focus and the strong executive leadership required to become an attractive acquisition target. This year, I’ve heard that Goop is approaching about $100 million in revenue, which has been more or less flat for the past four
+years. It’s a large number, yes, but Greycroft, Felix Capital, Lightspeed, and others won’t see a return on their collective $140 million investment until Goop is profitable. Or, more likely, when a C.P.G. firm takes it off the market and returns their preferred investment with a nice return.
+
+ 
+
+Enter Julia Hunter, who propelled Jenni Kayne from $3 million to more than $100 million in revenue during a
+memorable stint as C.E.O. a few years ago. As I’ve previously reported, Paltrow tapped Hunter to help Goop through its awkward phase. I connected with Hunter, who spoke uncharacteristically frankly about the company’s challenges, and optimistically about its opportunities. I found this refreshingly honest—especially given how the company normally communicates. Our conversation has been lightly edited and condensed.
+
+Cutting Costs
+-------------
+
+Rachel Strugatz: What was the
+first thing you did when you got in there?
+
+ 
+
+Julia Hunter: I’m focusing on topline growth and reducing the size of the team. The company is doing very well from a revenue perspective, but operating expenses have continued to grow. I know that it’s unpopular to let people go, but they hired a lot of people that they probably shouldn’t have, and that payroll number had gotten very big. There’s been a
+big shift in focus from investors and the market––it used to be on topline growth and growth at all costs, and now everybody wants profitability and EBITDA. Goop was very much in the growth-at-all-costs mentality in the moment when the market was crazy. They built up this company believing they were going to grow into this valuation, and people thought it was going to be a unicorn quickly. You have to be as lean as you possibly can when you’re in this environment, and when the company is not
+profitable. They’re close––it’s not like it was losing a lot more before.
+
+A MESSAGE FROM OUR SPONSOR
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.406828428;dc_trk_aid=599598135;dc_trk_cid=224890544;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.406828428;dc_trk_aid=599598135;dc_trk_cid=224890544;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+PERFORMANCE UNLEASHED
+With a distinct sporting personality, the Range Rover Sport is a
+peerless performer.
+EXPLORE ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.406828428;dc_trk_aid=599598135;dc_trk_cid=224890544;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+What was the turning point? When did it go from “Grow
+and scale at all costs” to, “Wait, this isn’t working”?
+
+ 
+
+That was really Covid for them. That was a big turning point when their sales stopped growing as fast as they had previously, but there wasn’t a big moment where it was like, “Oh, this isn’t working.” It was more that Goop had all the hype at the beginning because of Gwyneth, and they were saying the thing that was controversial––but then the
+halo of that starts to not be as exciting. They only had Goop Beauty, and Goop Beauty has been growing every year, but it’s still just not huge. 
+
+ 
+
+Advertising business as a big part of revenue started to decline, and that was probably the biggest shift to revenue of the last several years. It was not half of the business, but more than 25 percent at one point. Goop had been leaning into it because it
+was paying for itself and supporting the growth in Goop’s own brand product categories. They got into the idea of, “We can just use this vehicle to pay for the business,” but in Covid all of those accounts stopped spending. It happened slowly, and at the same time they couldn’t rely on their product businesses because they weren’t set up right yet. 
+
+ 
+
+There was no collapse; it’s more that they haven’t
+been able to grow because the puzzle has looked different. Revenue has been coming from different places over the years, so there hasn’t been this decline, even though revenue has shifted and hasn’t increased as much as it should have. There haven’t been any huge missteps.
+
+ 
+
+I heard Goop’s editorial team was one of the hardest hit. Are you doing away with editorial?
+
+ 
+
+We are actually going to be hiring a few positions back into the edit team. It was definitely more impacted––the team went from like 15 to five people. It was the biggest ratio, but part of that was because the way the team had been structured was much more old-school editorial, where it was all about these longform articles. We want to go more in the direction of having edit be integrated with social media, and they’ve been very separate. The
+goal is to merge the teams together so that when you think of Goop’s content, you don’t just think of long articles––you think of a video where you saw the TL;DR version of the article, and then there are tidbits that are cut for social so we have more of a presence that’s current. We’re also going to have more contributing editors who are more like the thought leaders in their space––and that’s very Goopy. 
+
+The Focus Question
+------------------
+
+One of Goop’s biggest problems has been a lack of focus.
+Going forward, what categories of the business are being prioritized?
+
+ 
+
+One of the things that we’re focusing on is G. Label, which is actually growing really well, despite the odds. We hired a new designer from The Row, and the second half of next year is when we’ll see her product. It will be more colorful—Goopy—and there will be prints and patterns. It will be more elevated. And there’ve been issues with
+the fits—they haven’t been perfect, and it’s been a little inconsistent. The reason that it’s doing well now is actually because they have taken an inventory position in a few styles, like their signature cardigan. It’s pretty expensive––everything’s made in Italy––so we’re not increasing the prices. We are planning to try and participate in Fashion Week in some way next year, and ideally, that’ll tie together the Goop world. 
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.406828428;dc_trk_aid=599598135;dc_trk_cid=224890544;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Range
+Rover Sport ( https://ad.doubleclick.net/ddm/trackclk/N1955507.4235921PUCK/B32662694.406828428;dc_trk_aid=599598135;dc_trk_cid=224890544;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+You’ve said that the focus is fashion and beauty. How do
+you, in practice, turn the beauty business into what it should be? Because that, to me, feels like what the core of the business should have always been.
+
+ 
+
+The fun thing that we’re trying to work on for next year is a Goop Spa. We want that to be a 360 experience so that the food (Goop Kitchen) is part of it, too. We want there to be a little bit of
+shopping and a really nice curation: My dream for it is a version of Goop meets Soho House, but more of a wellness experience. We haven’t decided if it’ll be membership-based or not, but it’s something that’s very high-end. 
+
+ 
+
+The other reason I’m so excited about it is I feel like it also might be able to travel internationally because other countries also value self-care and spa experiences. Gwyneth
+is very good at that––she has the fucking spa in her Montecito house. It’s insane. She is the arbiter of how you take care of yourself. The point of self-care is to feel better and do whatever makes you feel better––it doesn’t need to be a solution for all of life’s problems. It’s not snake oil.
+
+ 
+
+Do you see those kinds of experiences as being more brand-awareness tools or actual revenue drivers?
+What about In Goop Health, which was an offline experience?
+
+ 
+
+In Goop Health, I would say, bordered on cheesy–– it’s half the brand, the sponsors aren’t authentic, it definitely didn’t feel good. But the thing that was really good about it was the programming, which is part of the contributing-editor model that we want to go to––the best people talking about whatever the topic is, the Esther
+Perels of the world. That’s what we’re going forward with when we think about what our content strategy is.
+
+What about actual beauty products? If you want to make beauty into a big business, won’t product get you there faster than offline experiences?
+
+ 
+
+Experiences are the halo, and building the experiences helps sell the Goop Beauty products. The beauty assortment is pretty
+full. They have a lot of product assortment, and the formulas are really good, but it does feel outdated. We’re redoing the packaging, which you’ll see in the back half of next year. The company has struggled with designing something new, and then it takes years to launch the new packaging because of all these cumbersome processes. It’s behind. We want to redo all that, give a new life to it, and then have the spa just basically remind you. The peptide serum is crazy; we’ve sold about $5 million
+worth of it already.
+
+ 
+
+Is the plan to keep beauty mostly direct, or are you trying to build your wholesale partnerships? There’s only so much you can scale without a presence at an offline retailer, especially for beauty––and makeup specifically—which Goop has increasingly made a focus.
+
+ 
+
+It does actually retail very well
+internationally, it’s just still a really small business. Our hope is that we’re doubling wholesale next year, but it’ll still be small. It has a long way to go on the wholesale side, but what we know is that we can focus on D.T.C. and that the e-commerce experience can be bigger, as well as the spa experience and the retail stores. And then, Amazon’s actually doing very well, so those pieces––the direct business––we can win because we can control it. My hope is that big-box retailers want to
+come along and see what we’re doing. 
+
+ 
+
+That’s it from Line Sheet. Here’s a special treat for those of you
+who read all the way to the bottom: Next week, we’re running an end-of-year mailbag issue filled with questions from you, dear readers, and answers from us. I will prioritize the queries from people who respond to this specific prompt. ILYSM.
+
+Until tomorrow,
+
+Lauren
+
+Fashion People ( https://puck.news/podcasts/fashion-people/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Fashion People ( https://puck.news/podcasts/fashion-people/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Puck correspondent Lauren Sherman and a rotating cast of industry insiders take you deep inside what fashion
+people are really talking about behind the scenes of this multi-trillion-dollar biz, from creative director switcheroos to M&A drama, D.T.C. downfalls, and magazine mishaps.
+
+Wall Power ( https://puck.news/newsletters/wall-power/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Wall Power ( https://puck.news/newsletters/wall-power/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A new biweekly private email offering unparalleled access to the global art market: the mega-auctions and
+galleries, elite buyers and sellers, and the power players who run this opaque world.
+
+Puck
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
+here ( https://puck.news/unsubscribe/?subscription=line_sheet&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGT3DbsDlNJJ9bMVtYuzKQ=&utm_campaign=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_content=Line+Sheet+-+SUBSCRIBERS+%2812%2F18%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

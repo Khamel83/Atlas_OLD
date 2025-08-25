@@ -1,0 +1,142 @@
+# Interview Magazine
+
+**Source:** inputs/New Docs/reader/www.interviewmagazine.com_culture_david-carr_print.html
+**Processed:** 2025-08-24T19:14:18.712486
+
+The Internet Archive discovers and captures web pages through many different web crawls. At any given time several distinct crawls are running, some for months, and some every day or longer. View the web archive through the Wayback Machine  
+  
+The Wayback Machine - https://web.archive.org/web/20151016202625/http://www.interviewmagazine.com/culture/david-carr/print/  
+  
+David Carr  
+  
+there’s a system and rigor to what we do, and you can laugh at it as archaic and silly in the 24-7 news cycle, but i do think it has significant value to have a pretty big organization that is a lot of times saying, ‘hey wait a minute.’ —David Carr  
+  
+Director Andrew Rossi’s new documentary Page One: Inside The New York Times offers a rarefied view on the inner workings of one of America’s most hallowed and mercurial institutions. We are, of course, talking about The New York Times, that bastion of journalistic practice of highest order, which, over the last decade, has been forced to take a long, hard look at itself, as its core was rocked by reporting scandals (Jayson Blair, Judith Miller), and its reason for being has been brought into question by the rise of the Internet. Taking the paper’s media desk as an entry point, the film chronicles a group of reporters and editors as they wrestle not only with old stalwarts like breaking news and meeting deadlines but with the changing face of journalism and the journalism business. In the process, they broach the kinds of existential questions that inevitably cloud the future of the Times itself, as well as every other traditional news-gathering operation today: chiefly, how to remain relevant and viable in a world where information travels instantaneously, where things like expertise and authority appear to have become outmoded concepts, and where everybody is scrambling to compete with the myriad aggregators, bloggers, and data dumpers out there, and where nobody seems to be interested in paying for anything.  
+  
+David Carr, the Times’ media columnist, plays a central role in Page One, both as a staunch defender of the Gray Lady’s vitality and of the moral imperative of the kind of contextualizing reportage and hard-fact analysis the paper delivers, even as the speed of the 24-7 news cycle gets faster and more unbound, and the amount of noise it has to cut through grows louder and more cacophonous. Oscar-winning screenwriter Aaron Sorkin, who is developing a television series about the news, recently spoke to the 54-year-old Carr about his own unconventional path to the Times, and why, to dyed-in-the-wool journalists, the future will always be unwritten.  
+  
+AARON SORKIN: I don’t know if there is such a thing as a typical New York Times reporter, but if there is, then you ain’t it.  
+  
+DAVID CARR: No, I’m not.  
+  
+SORKIN: You’re from the Twin Cities?  
+  
+CARR: Yes. I grew up outside Minneapolis, in Hopkins, Minnesota.  
+  
+SORKIN: Did you go to college there?  
+  
+CARR: Yeah. I went to two undistinguished land-grant universities in the seven short years it took me to graduate.  
+  
+SORKIN: What did you major in?  
+  
+CARR: Um . . . Frisbee and smoking doobies . . . But I did double major in journalism and psychology at the University of Minnesota. I began working at a great little weekly that no longer exists called the Twin Cities Reader. My first story was about a friend of my father’s, an older white guy who had been beaten up by some cops when he intervened on the arrest of two black males who seemed fairly subdued. So I said to my dad, “Boy, somebody should do a story about that.” And my dad said, “I thought that’s what you were doing—that you were a journalist.” So that became my first story.  
+  
+SORKIN: Well, you rose pretty fast, because you eventually became the editor of the Twin Cities Reader.  
+  
+CARR: There were a few detours along the way, and I ended up sort of washing out of journalism for a while, but I did wind up becoming the editor.  
+  
+SORKIN: I don’t know if this is the period when you washed out of journalism, but you wrote a book a few years ago [The Night of the Gun, 2008] in which you refer to something that you and I both have in common, which is that we are recovering cocaine addicts.  
+  
+CARR: That’s correct.  
+  
+SORKIN: I don’t want to dwell on that, but it’s worth mentioning because it’s an uncommon route that you took to the Times. How much time do you have now?  
+  
+CARR: I’m five years sober. I had 13 years, and that was off of being sort of poly-addicted. I was a low-bottom crackhead, sobered up for 13 years, and then decided to try to be a nice, suburban alcoholic and see how that would go. That lasted . . . Well, it ended in handcuffs, so it didn’t go great. But I have about five-and-a-half years back now.  
+  
+SORKIN: Congratulations. I reached 10 years in April and started thinking . . . You know, I go to meetings, and there are these old-timers, and I’m not sure how many years you need to be considered an old-timer, but that’s my new goal.  
+  
+CARR: I think it begins with double-digits recovery. I think you’re officially now long in the tooth.  
+  
+SORKIN: [laughs] Awesome. I’ve been waiting for that.  
+  
+CARR: But, you know, I hit double digits, and it sort of got away from me—and there’s no insurance that you’re going to get another swing at bat. I’ve got a lot of friends who never made it back, so I’m just happy to be one of the lucky ones. When I did my book tour, a lot of people asked me about why their brother is dead or their mother is dead and I’m still here. I’d say, “You know what? I really don’t know. Couldn’t say.” You quickly learn that it doesn’t matter where you are or what level of accomplishment you’re sitting on top of. If you can’t stay off the juice or the drugs, then you’ll end up on the wrong side of the grass just as quickly as the homeless guy down the street.  
+  
+SORKIN: So tell me how you came to work at The New York Times.  
+  
+CARR: Well, I eventually moved to Washington and became the editor of Washington City Paper, which was a very good weekly—a glorious sort of long-form narrative urban paper. I worked at the City Paper for about five years before I came up to New York to work as a media writer for Inside.com, which was a site run by Kurt Andersen, who is one of the guys who started Spy magazine, and Michael Hirschorn, who had worked at New York magazine and now does a bunch of tv. Then, about a year after Inside.com closed, I started writing for The Atlantic, where I worked for Michael Kelly, god rest his soul.  
+  
+SORKIN: I should just mention for any reader who might not know that Michael Kelly, who was the editor of The Atlantic, died in 2003 while he was embedded in Iraq.  
+  
+CARR: Yes. I ended up writing Michael’s obit in the Times. Michael was part of a group that went into Iraq with the Third Infantry, and the Humvee that he was riding in came under fire and ended up going into an irrigation ditch upside down. He was a real hero of mine, and a brilliant guy who taught me a lot. So during this time, Dave Smith, who is an editor at The New York Times “Week in Review” section, called me and said, “Have you ever thought about working here?” I said, “No, I never have.” And he said, “Give it some thought and give me a call back.” I mean, I always believed that the Times was one of humankind’s most glorious creations, but I never really pictured myself as part of that. Prior to joining the Times, I’d always made a living being a little sassier than other people or writing with a bigger purple crayon, so there was nothing in my history to suggest that I should be part of that kind of enterprise. But I figured I’d give it a whirl—that I’d be a fool not to. So I did what everybody else does, which is go through dozens of interviews that seem to be going nowhere special, and, eventually, Gerald Boyd, god rest his soul, called and said, “Would you like to come and work for The New York Times?” And I said yes.  
+  
+SORKIN: Let’s discuss Page One. You play a central role in this documentary, which is about The New York Times, but is really about the threat that the paper is facing—which is the same threat that all of print journalism is facing, as newspapers continue to disappear. I wanted to start by talking to you about Brian Stelter, who is a colleague of yours at the Times. There is this quote of yours in the film: “I still can’t get over the feeling that Brian Stelter was a robot assembled in the basement of The New York Times to come and destroy me.” Now, Brian Stelter is a blogger and reporter who covers media, which is also your beat, correct?  
+  
+CARR: Yes.  
+  
+I always thought it was interesting that the pilot fish would wish for the whale to die. why would you? seems shortsighted.”—David Carr  
+  
+SORKIN: And The New York Times felt that he should be working there?  
+  
+CARR: Yeah, which seemed like a pretty weird idea at the time. But he has become such an asset. We collaborate a lot. The robot part is that he moves his elbow and content comes out. While he’s chatting, he’s also tweeting and blogging—and, you know, I’ll think that’s cute, and then the next day he’ll be on the front page with a synthetic piece about the analytics of television or new media, which he also covers. If Brian wasn’t such a decent guy, I would actually slip something into his food or quietly suffocate him with a pillow.  
+  
+SORKIN: I’m glad to hear he’s a decent guy who has the respect of his co-workers. So then I’ll speak to this idea more generally: I know when I read something in The New York Times that whoever wrote it had to be very good to get the job that they have. But I don’t know anything about the person who is blogging online. It’s an easy job to get. Anybody can be a blogger—you just set up a site and blog. But there isn’t the same kind of accountability. I mean, The New York Times makes mistakes—Jayson Blair, Judith Miller—but when it does, it’s a very big deal.  
+  
+CARR: It sure is, and it has an impact on our careers. I was on a streak a while back where, for three stories in a row, I picked up what are called “nonmaterial corrections” in that they didn’t affect the reader’s understanding of the story. But I still had to go down to the business section and was asked to explain myself and why I seemed to be having trouble getting things right—and about what we could do to make sure that, going forward, I did get things right. Believe me, that got my attention.  
+  
+SORKIN: Similarly, and on a larger scale, with Jayson Blair, there was an attack force formed within The New York Times to investigate exactly what parts of his stories were fabricated, and a 7,000-word report was published in The New York Times in which the paper hoped to correct those mistakes. That episode might have even cost Howell Raines his job, right? [Blair, a reporter, was discovered in 2003 to have plagiarized or fabricated elements of numerous stories, but was allowed to continue working despite concerns expressed by members of the staff; Raines, then the paper’s top editor, and Gerald Boyd, its managing editor, both resigned in the wake of the scandal.]  
+  
+CARR: Well, I was right in the middle of that because I was working in the media department, and Jayson was a pretty good friend of mine. But I think the institutional reflex of The New York Times to attack the pathology in its own midst—and with the same rigor and seriousness that it brought to the daily prosecution of journalism and all other realms—was amazing. I was watching those muscles work . . . I ended up participating in writing up Howell and Gerald’s departures. I wasn’t part of that group, but I remember seeing these guys go into a room and come out and . . . I don’t know . . . It just floored me. It turned out that The New York Times was more important than any individual, be it Jayson or Howell or whoever.  
+  
+SORKIN: I remember when I was in sixth or seventh grade, I was going to a public school, and in my social studies class, we were taught how to read The New York Times. It was just something that was put into our lives. First of all, I can’t imagine, today, there not being an outcry from the right if a public school was teaching students how to read The New York Times.  
+  
+CARR: Well, it would depend on the curriculum. If they were suggesting that kids tear apart everything and look for a motive at every turn, then it would probably be a very popular curriculum from the perspective of the right.  
+  
+SORKIN: Yeah, I imagine it would. That wasn’t our curriculum, but certainly what we learned was that The New York Times was important—and different from every other newspaper. But there seems to be a huge backlash now against that kind of thinking. There is even a scene in Page One where a moderator at a roundtable discussion asks, “How many of you would be happy if The Times disappeared?” and several people raise their hands. Who are those people who want it to fail?  
+  
+CARR: I was really more struck by the fact that the question was asked at South By Southwest, which is sort of the world headquarters for the digerati. They asked, “Who reads The New York Times?” And I would say about 90 percent of the hands went up—and, yeah, there were a few people who wished The New York Times would fail. But what is it that these people are constantly annotating? Where do they get this data that they pore over? It’s very often the work of The New York Times and other large news organizations like it. So I always thought it was interesting that the pilot fish would wish for the whale to die. Why would you? Seems shortsighted.  
+  
+SORKIN: Do you think that a kid now who is writing for his high-school newspaper and goes on to Northwestern still aspires to write for The New York Times?  
+  
+CARR: I don’t know. I teach here and there, and the problem is that the escalator that brings you to the quality weekly, the small daily, the small regional daily, the bigger daily, the higher quality regional paper, and then on to The New York Times—that escalator is broken. I do think that there are a lot of great places for a young writer to aspire to work for, and some of them are on paper and some of them are not. But I think one of the things that Page One does an amazing job of demonstrating is the importance of editors. You can see our editor, Bruce Headlam, shaping, arguing, pushing back. Of course, that’s what you don’t have a lot of in the blogosphere. There is nobody pushing people to support what they’re saying, nobody arguing against the assumptions that are brought to the table—and reporters, even the ones I work with, are full of all sorts of notions. Some of them have ideas that are pretty hair-brained or not really provable.  
+  
+SORKIN: That’s why I go back to the idea that, for all of the handwringing that was done over Jayson Blair, and then again over Judith Miller, the reason it was a big deal is that The New York Times doesn’t usually get things wrong.  
+  
+CARR: Well, what happened with Judith Miller was probably far more systemic in a way. [Miller’s reporting in 2001, 2002, and 2003 about the existence of weapons of mass destruction in Iraq surrounding the u.s. invasion quoted numerous unnamed sources and was ultimately deemed inaccurate, which, along with her involvement in the Plame Wilson affair, contributed to her departure from the paper.]  
+  
+SORKIN: Which was very different from what happened with Jayson Blair, who plagiarized the work of other people and made up stories and said he was in places that he wasn’t. But it’s not like the country got behind the invasion of Iraq as a result of any of Jayson’s stories in the way that it might have as the result of Judith Miller’s.  
+  
+CARR: Yeah . . . I don’t know that I agree that our reporting cleared the way for the war either, though the paper does have a certain authority and I’m sure some would say that’s a great thing to have behind you—unless you get something wrong. Then people will come up like crows off the telephone wire and attack, and I guess they should.  
+  
+SORKIN: Is it Sam Zell [the chairman of the Tribune Company] who talks in the film about journalistic arrogance?  
+  
+CARR: Yeah, sure.  
+  
+SORKIN: So is the problem that certain people have with The New York Times two-fold? Is one problem that they perceive it to be a lefty newspaper, but the other that they perceive it to be snobby—that you’re the elite and that elite is a bad word?  
+  
+CARR: I think that is sort of correct. But I also think that some people conflate our editorial pages and our news pages. They view them as one and the same, which is a consistent problem. For example, I wrote about Glenn Beck about a month ago, and in the 600 emails that I received afterwards, Frank Rich or Maureen Dowd were often mentioned—and they are both really great at what they do, but I don’t feel like I’m in the same business as them. So that’s one problem. The other is that charge of elitism, and of manufacturing a consent that doesn’t have anything to do with the middle of America. That is part of the paper’s history and where it grew its reporters, but the newsroom is not drenched in ivy like it used to be—and it includes schmucks like me who didn’t grow up going to certain prep schools. Believe me, some of those Ivy Leaguers are what makes the paper magnificent. But that’s not the only kind of person we have there.  
+  
+SORKIN: Two of the scariest words to me right now are citizen journalist. Arianna Huffington is crazy about citizen journalists, but I don’t want one any more than I want a citizen doctor. Why is citizen  
+  
+journalism good? What is the virtue there?  
+  
+CARR: Well, the web is like a self-cleaning oven in that it will correct itself over time. The theory is that if you have lots of inputs of information, then the truth will gradually emerge from these thousands of points of light, and people will assemble from them an idea of the way things are. But my worry is that people will not do that, and instead gather what they need in order to reinforce their existing notions of the way things are, and there won’t be a civic common anymore where fact rules. I mean, everyone is entitled to an opinion, but the facts are not up for grabs.  
+  
+SORKIN: But nowadays facts are up for grabs, whether it’s where the president was born or how old the planet is or how much health-care reform is costing—and it’s hard to believe that’s not partly a result of  
+  
+citizen journalism.  
+  
+CARR: I think it’s ancient political narratives that have been supercharged by the spreadability of information on the web. Some lies will go just as viral—if not more viral—than some truths; they’ll spread just as quickly.  
+  
+SORKIN: I think it was Mark Twain who said, “A lie will get half around the world before the truth has time to get its boots on.”  
+  
+CARR: Yes, what he said.  
+  
+SORKIN: In Page One, you talk about your reluctance, at first, to get on Twitter, but you eventually succumb to it, and you mention at one point that it’s useful to you not just to get the news but also to see people’s reaction to the news. Now, I’ll quote someone else, Harry Truman, who I think said, “Why is it only sons of bitches who know how to lick a stamp?” What he meant was that, generally speaking, people who are content don’t write letters. It’s people who are discontent who express themselves in that way.  
+  
+CARR: Well, it isn’t just the reaction that I’m interested in. I follow about 350 people on Twitter of a variety of ideological bents, and a lot of times what they’re tweeting is not their reaction to the news but, rather, links to other sources of information, which I find really valuable. So I don’t view it as just a mosh pit of people piping off. Also, when I wrote about Jon Stewart’s Rally to Restore Sanity, for instance, I suggested that it might not have been a good idea, and the vituperative response I got was not that much different from when I wrote about Glenn Beck. So I know that kind of reaction is sometimes viewed as a disease of the right, but I don’t necessarily agree. That’s not what’s reflected in my inbox.  
+  
+SORKIN: I’m curious about something that Daniel Ellsberg [the military analyst who in 1971 leaked the Pentagon Papers, a classified Pentagon study which revealed details of the U.S. involvement in Vietnam, to The New York Times and other news organizations] says in the film. He says that if he had published the Pentagon Papers online—which, obviously, he couldn’t have in the early ’70s—instead of in The New York Times, it wouldn’t have the same effect. Do you think that’s the case?  
+  
+CARR: Well, I think that WikiLeaks reached that conclusion. If you remember, WikiLeaks started out just sort of dumping these documents from a black box onto the web, but they weren’t getting a lot of bounce. So they gradually developed alliances with us, The Guardian, Der Spiegel, and other organizations, because they knew that it wasn’t abundance that drove bounce, but scarcity. It also enabled WikiLeaks to access the journalistic course-bar of these organizations to go through and vet information, and take out names that might put people at risk, in order to examine these huge piles of stuff and its meanings and implications. So I do think that a kind of hybrid model developed that led to a more acute understanding of the documents that they had. Now that was something that developed over time . . .  
+  
+SORKIN: I have two more questions—the first one is a little easier, and the second one might not be so easy. In addition to the high-minded work that you do for the Times, you also covered the Golden Globes and the Oscars for The Carpetbagger, the paper’s awardsseason blog. Is that something that was fun for you?  
+  
+CARR: I did that up until two years ago, and then I stopped doing it because I’m a movie lover. I’m the kind of guy who shows up on the day a film opens and sits in the third row with a big box of popcorn and expects it to be really great. But what I learned in the four years that I covered the Oscars is that many of the people that I had so much regard for—and, frankly, awe for in terms of what they were able to do with the tools of filmmaking—were in fact monsters in some ways and really not that great to be around. Of course, I did meet a lot of other people who were grand and wonderful, but the look behind the curtain was eroding my romance with American film. Going to the movies is a very important part of my life. You know, if you tell me you’re going to make a big, two-hour long story about the development of a social network, I’d say there’s no way that’s going to happen. But David Fincher got some schmuck—I forget the guy who wrote it—and made it riveting. And then you get Trent Reznor doing the music, and you’ve got these ra-ta-tat scenes in bars and courtrooms . . . It’s just, like, I don’t really want to know how those guys pulled it off, I just want to sit there and enjoy it.  
+  
+SORKIN: So, finally, if The New York Times went out of business tomorrow, what do you think the world would look like five years from now?  
+  
+CARR: News is an ecosystem, so other entities and organizations would grow to fill in the gap. But you’re talking about taking 1,100 journalists out of an already reduced news footprint in this country. I mean, I live in New Jersey, which has a very good local paper called The Star-Ledger, but they’re about half as big as they used to be, and this place is a game-preserve of corruption—we needed three buses to haul away the mayors and various city council members the last time the FBI came in. I can’t help but think that the absence of high-level, sustained-accountability journalism had something to do with that. I don’t believe that a lot of Facebook updates and some tweets are going to supplant that at any time. The other thing is, there’s a system and a rigor to what we do, and you can laugh at it as archaic and silly in the 24-7 news cycle, but I do think that it has significant value to have a pretty big organization that is a lot of times saying, “Hey, wait a minute . . . ” on the really big stories of the day. Andrew [Rossi] selected the media department at the Times as the center of his film because he wanted to cover media. But that’s just a little keyhole into this great big kingdom that is full of human foibles, and, I’m sure, tendentious in its own way. But all of the people in that building—even the ones who are jerks—are working really hard to get it right. You’ve got Gretchen Morgenson taking it to Wall Street. You’ve got Chris Chivers going into parts ofAfghanistan that no one would touch. You’ve got Willie Rashbaum reporting down at city hall. There aren’t a lot of people out there like that—and if there are, then they certainly don’t share the same address, the same value system, and the same apparatus. And so I don’t think that if you started over from the ground up, and you didn’t deal with the trucks or the paper or the legacy costs, that you could come up with anything resembling that capacity. Not in a hundred years.  
+  
+Aaron Sorkin is an Academy Award–winning screenwriter and playwright. He is currently developing the series more as this story develops for HBO.  
+  
+Find This Article: http://www.interviewmagazine.com/culture/david-carr/

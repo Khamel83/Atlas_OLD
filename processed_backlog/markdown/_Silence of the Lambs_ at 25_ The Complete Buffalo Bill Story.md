@@ -1,0 +1,20 @@
+# 'Silence of the Lambs' at 25: The Complete Buffalo Bill Story
+
+**Source:** inputs/New Docs/markdown/www.rollingstone.com_movies_news_silence-of-the-lambs-at-25-the-complete-buffalo-bill-story-20160214.md
+**Processed:** 2025-08-24T19:49:24.087584
+
+# 'Silence of the Lambs' at 25: The Complete Buffalo Bill Story
+
+**URL:** http://www.rollingstone.com/movies/news/silence-of-the-lambs-at-25-the-complete-buffalo-bill-story-20160214
+**Date:** 2016-02-14 12:36:59
+
+---
+
+# 
+
+Unknown author • Unknown date 
+
+![](https://web-static.archive.org/_static/images/archive.ico)
+
+The Wayback Machine requires your browser to support JavaScript, please email info@archive.org if you have any questions about this. 
+

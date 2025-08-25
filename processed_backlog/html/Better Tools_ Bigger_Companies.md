@@ -1,0 +1,503 @@
+# Better Tools, Bigger Companies
+
+**Source:** inputs/old stuff/Docs/Better Tools BiggerCompanies_052224.html
+**Processed:** 2025-08-24T19:49:06.554973
+
+# Better Tools, Bigger Companies
+
+![](https://eotrx.substackcdn.com/open?token=eyJtIjoiPDIwMjQwNTIyMTI1MjAxLjMuZmJlYWIxYmMwZWIxOTljY0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxNDQ4MTY2OTcsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJ0b3AiLCJpYXQiOjE3MTYzODIzMzksImV4cCI6MTcxODk3NDMzOSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.YIX8e4bHLdNz6HASJV5ejeo96lSkIhi0JgbRDyA55VI)
+
+Welcome to the 1,054 newly Not Boring people who have joined us since our last essay! If you haven’t subscribed, join 226,130 smart, curious folks by subscribing here: Today’s Not Boring is brought to you by… Tegus Now that startups are going after everything from aerospace to mining to energy, I need to understand how those industries work in order to be a better writer and investor.
+
+͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­͏     ­
+
+Forwarded this email? [Subscribe here](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj05cDBndCZuZXh0PWh0dHBzJTNBJTJGJTJGd3d3Lm5vdGJvcmluZy5jbyUyRnAlMkZiZXR0ZXItdG9vbHMtYmlnZ2VyLWNvbXBhbmllcyIsInAiOjE0NDgxNjY5NywicyI6MTAwMjUsImYiOnRydWUsInUiOjE2MjgzNTQ5LCJpYXQiOjE3MTYzODIzMzksImV4cCI6MTcxODk3NDMzOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.otrHTHup2QhBLT9MQHsTIgjiYQXd16t_uMzs9dgmz34?) for more
+
+*Welcome to the **1,054 newly Not Boring people**who have joined us since our last essay! If you haven’t subscribed, join **226,130** smart, curious folks by subscribing here:*
+
+**Today’s Not Boring is brought to you by… [Tegus](https://substack.com/redirect/cf92da01-66f9-4fe7-a6c5-f96835f8803c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**
+
+[![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd11ef4c7-31f4-4e39-81c5-38c87bb697bd_1600x836.png)](https://substack.com/redirect/922df52c-b074-4fc5-a0dc-abd3f49ed617?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Now that startups are going after everything from aerospace to mining to energy, I need to understand how those industries work in order to be a better writer and investor.*
+
+*I love it, but it’s hard. Smart people spend decades working in those industries to earn their knowledge, and I have to learn enough to be dangerous in a few weeks. Thankfully, I have [Tegus](https://substack.com/redirect/cf92da01-66f9-4fe7-a6c5-f96835f8803c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).*
+
+*[Tegus](https://substack.com/redirect/cf92da01-66f9-4fe7-a6c5-f96835f8803c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is full of transcripts of conversations with insiders and executives in any industry you can think of. It boasts 75% of the world’s private market transcripts. There are conversations about companies you’d expect, like OpenAI and SpaceX, and a long tail of transcripts covering every topic you can imagine.*
+
+*When I was researching Earth AI, for example, I read Tegus transcripts with geologists and exploration company GMs to understand what matters to the people who actually work in mining. I get to piggyback on their years of experience in an hour.*
+
+*With [Tegus](https://substack.com/redirect/cf92da01-66f9-4fe7-a6c5-f96835f8803c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), you gain access to the pulse of the private markets – with perspectives and detailed financials you won’t find anywhere else. There’s a reason the world’s best private market investors use Tegus, and as a smart, curious Not Boring reader, you can get access to the Tegus platform today:*
+
+[Explore Tegus](https://substack.com/redirect/cf92da01-66f9-4fe7-a6c5-f96835f8803c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Hi friends 👋,
+
+Happy Wednesday!
+
+Over the past few weeks, I’ve written a series of deep dives on Techno-Industrials: [Base Power Company](https://substack.com/redirect/70aca328-8887-441d-b820-e0b98edcf701?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [Earth AI](https://substack.com/redirect/2e8b828c-11b2-4608-8359-e04cd6b12664?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and [Astro Mechanica](https://substack.com/redirect/06a440fc-4b3f-4df9-bdd8-10ffb560e8b9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). I’m in the middle of working on a few more.
+
+I’m doing it because I think we’re in one of those periods when the next generation of really big companies is going to be born, that this generation’s winners will be bigger than previous generations’, and that many of them will be Techno-Industrials. I want to study the specific companies to understand the category more generally.
+
+Today, we’re coming back up for air with some early thoughts. [Click here to read the full thing online](https://substack.com/redirect/35eadb6c-2850-4165-b61f-61a53b735360?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+Let’s get to it.
+
+[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa23c4ed9-ca8e-4207-97ea-7d20cbd3d57d_1200x601.png)](https://substack.com/redirect/4689a56e-2b0b-4224-8690-54305f53a9e0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+[Tech is going to get much bigger](https://substack.com/redirect/71ec8885-c709-4b69-805c-aa55442c80ca?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). I don’t want to brag, but I’ve been [yelling this](https://substack.com/redirect/4ed64882-6d40-434c-9828-e5aece8dc643?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) through the depths of the bear market and I’ll yell it through the next one. I may be dumb, but I’m consistent. And it looks like, for now at least, I’m right. 
+
+On Monday, the Nasdaq hit an all-time high and crypto soared on news that an Ethereum ETF is likely to be approved. Yesterday, [a bunch of startups announced huge raises](https://substack.com/redirect/c95a5dad-b182-4f22-8616-794398a67945?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+What’s happening? Wasn’t tech falling apart just a few months ago? Aren’t rates still high?
+
+Zoom out. This is just the beginning. Progress is accelerating, and what’s been most striking to me is how evenly distributed progress has been across sectors.
+
+Yesterday’s funding announcements included AI, of course ([Scale](https://substack.com/redirect/95b60a14-1455-4d75-bc38-1f085135b383?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) raised $1 billion, [Suno](https://substack.com/redirect/d5e2527f-4b87-42f2-b71b-cd1768d6aec5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) raised $125 million, and French company [H raised a $220 million seed](https://substack.com/redirect/22f59439-761c-4f17-8ce5-8bdb41c5473f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)), but also included crypto (Farcaster raised $150 million), identity (Footprint raised $13 million), biotech (Monte Rosa Therapeutics raised $100 million), and defense ([Anduril is rumored to be raising $1.5 billion](https://substack.com/redirect/682e5360-b920-49ad-a94e-3f5fdd53dc59?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), drone company [Neros](https://substack.com/redirect/65e9887b-2189-4b91-bdcc-877109cf6f02?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) raised $10.9 million the day before). To top it all off, I turned on *Invest Like the Best* and listened to a [great conversation with Skyryse CEO Mark Groden](https://substack.com/redirect/9265f870-a5ac-4d01-b458-840523a5d06b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) about making personal aviation safe and accessible. We might actually get our flying cars! 
+
+The rumors of venture capital’s demise have been greatly exaggerated. The most successful tech companies built today will be bigger than any that have come before, for the simple reason that they have better tools to build with. My bet is that those tools have gotten good enough that they can mount serious attacks on the biggest sectors of the economy and reshape the physical world.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56448896-03a0-42e0-a5ec-548c5d28b9d5_908x686.png)](https://substack.com/redirect/a31b2ddb-1e7d-4c3d-a70f-ccc1efd816e2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+That’s bold. Let me explain my philosophy.
+
+**Technologies are tools.** 
+
+I don’t mean that in the normal way that people mean it to say that technology is neither good nor bad.
+
+**Tools are good.**
+
+Humans can build better things with tools than they can without them.
+
+**But tools aren’t the** ***point*****.** They’re tools.
+
+A hammer is useful insofar as it lets people build houses. Houses are the point, along with everything else that we use tools to build to improve our lives.
+
+Back in the day, a single person could and often did build a house with just a hammer, ax, and saw.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06e8ee1a-0208-44f9-8c3e-b4119d8137ba_908x510.png)](https://substack.com/redirect/0f85799e-0188-4a40-a2f7-2d986b629bb1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*A Simple Log Cabin*
+
+But think of what it took to build the earliest skyscrapers, limited as they were to just ten to twelve stories.
+
+[![](https://substackcdn.com/image/fetch/w_1216,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed7036d8-bae9-4662-88f0-47c853e34cbd_608x707.png)](https://substack.com/redirect/38e60aff-c9ca-43d3-8f6f-f599edbc7d12?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Home Insurance Building in Chicago, World’s First Skyscraper*
+
+Building a skyscraper took all of the tools required to build a house, and many more besides: structural steel, safety elevators, fire-proofing, raft foundations, electricity, lightbulbs, plumbing, telephones, and ventilation systems. Each of those had its own history of technological development, and all came together to make skyscrapers possible.
+
+But those were just the physical things. Building skyscrapers required investment contracts, bank loans and bonds, lease agreements, insurance, and reinsurance. Each of these, too, was developed separately over time, and all came together to make skyscrapers possible.
+
+You could write a book on every technology that made skyscrapers possible, and fill a library with books on every technology that made *those* technologies possible. Think of all it takes to make [one pencil](https://substack.com/redirect/1045a38c-106b-4635-b160-20350928ce2f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). 
+
+But I think you get the point: **technologies are cumulative**. 
+
+[![](https://substackcdn.com/image/fetch/w_2082,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbf45635-21a9-40cd-a17b-9bdcbe48f02c_1041x634.png)](https://substack.com/redirect/a89ecee1-e958-46cf-90ef-274d561a399a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+The skyscraper is just one example of a much broader pattern. Across every domain, from transportation to finance to energy to healthcare, new tools make better solutions possible.
+
+As technologists develop and improve new technologies, they contribute them to a global toolkit that entrepreneurs can pull from to tackle ever-grander challenges.
+
+**The more and better tools, the bigger and harder challenges builders can address with them.** 
+
+People are smart. We’ve solved most of the challenges that are possible to solve given the tools currently at our disposal, give or take a little given the fact that we’re also good at getting in our own way. So we build new tools to tackle new challenges.
+
+That’s why investors like to ask, “**Why now?**” What new technology (or regulation or societal shift, but mainly technology) makes it possible for *you* to solve this *now* better than anyone else in all of human history has been able to? 
+
+**New tools let builders address new challenges**, or old challenges in new ways. 
+
+I think about it like this. We know most of the challenges facing humanity and the opportunities that would make an impact, financial and social, if they were possible to build.
+
+Everyone would use a safe teleportation device if someone figured out how to make one, just as customers would line up for a pill that extended their healthspan by decades.
+
+Those ideas are out there, out of reach, waiting for new technologies to form a ladder that we can climb to grab them.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdc9cea15-26a6-4dcb-9809-9e9476b53689_908x625.png)](https://substack.com/redirect/7ff88d50-b6e9-4e17-af1d-8857cde7e9e5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+But that drawing isn’t quite right. The ladder is more [exponential](https://substack.com/redirect/67ba03a9-ab04-4434-b913-ac6d82a25f73?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) than that. The more tools we have, the faster we can build new tools, and on and on. 
+
+Everyone understands that bits have been riding Moore’s Law for decades, but what’s less appreciated is just how many similar curves there are.
+
+Solar and batteries are getting much cheaper. The cost to sequence the human genome is falling precipitously. SpaceX is driving down the cost of launching things to space. Capacitors are on their own Moore’s Law-like trend. Blockspace has dropped from dollars to less than a penny per transaction. The price of intelligence got cut in half just last week.
+
+[![](https://substackcdn.com/image/fetch/w_1224,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d2753a1-7d62-4b96-a4b1-3277a3dc6979_612x114.png)](https://substack.com/redirect/4e9cd5c7-0b60-4bee-8323-4701dc93b0e5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/88bd54ea-797b-42cb-b95a-ed5e449fea6f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+It’s an embarrassment of riches, made more legible by software. As [Michael Mauboussin said on](https://substack.com/redirect/9720a19a-11e4-46f5-9928-5fcd0c4b4d3d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) *[Invest Like the Best](https://substack.com/redirect/9720a19a-11e4-46f5-9928-5fcd0c4b4d3d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU):*
+
+> *Whatever problems face us, we have more tools in the toolbox, more building blocks to solve it. **And because we have digital technologies, it allows us to search the space much faster than we could before. And hence, we can come up with solutions faster than we could before.***
+
+Which is all a long way of saying: **however bullish you are on technology companies, you’re not bullish enough.**
+
+There have never been more powerful tools available than there are today, which means that the challenges entrepreneurs can solve, the incumbents they can attack, and the businesses they can build will be bigger than they ever have been.
+
+It sounds simple when you say it. It’s left curve.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4295a83b-3a22-4696-8f7e-d10202931c37_908x516.png)](https://substack.com/redirect/b5dc672b-9c00-43af-b885-70f0d09ccd90?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+But my bet is that it’s also true. Different problems require different tools.
+
+There’s a weird thing that happens in tech where people pit different categories of technology against each other. “[If you’re in crypto, pivot to AI](https://substack.com/redirect/ea93fbf4-4d7e-49f8-8f65-fd2938e63f9d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU),” or “Don’t waste your time on SaaS when you could build deep tech.” 
+
+That’s a zero sum way of thinking about an inherently positive sum process. It lacks nuance, because it starts from the tools as opposed to the problems the tools are needed to solve.
+
+The right set of tools for the problem depends on the type of problem being solved.
+
+Certain problems are best solved with software, and others are best solved with hardware.
+
+Some industries are **information industries**. 
+
+Most of the value created in tech over the past half-century has come from applying software tools to information industry challenges. Microsoft brought work onto the computer. Facebook connected people across the globe. Google organized the world’s information. Apple did this…
+
+[![image](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/ntjkwIXWtrc)](https://substack.com/redirect/99c9b141-7001-4b5a-b542-693cb0e082cc?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Software offered radically better tools to handle information than anything that came before it, which meant there has been a ton of opportunity in crushing previously manual things into apps, as it were.
+
+Traditional software continues to improve, and entrepreneurs can do more with software now than they could before, but recent improvements have been much more marginal than the jump from no software to software, from on-prem to cloud, or from desktop to mobile. Most of the really big challenges that can be addressed with traditional software, have been.
+
+Obviously, there are still some really big information challenges left to be solved, they just require more powerful software tools than SaaS. This is why investors are excited about crypto and AI. They can solve problems in the world’s two largest information industries - finance and knowledge work.
+
+Take finance. Money, at this point, is information. It primarily exists as entries in databases. It is a software problem.
+
+One of the biggest innovations in fintech has been *getting rid* of physical bank branches. Crypto’s innovation is getting rid of the banks altogether. Once the rough edges are smoothed out, getting rid of middlemen means structurally superior unit economics.
+
+[![image](https://substackcdn.com/image/youtube/w_550,c_limit/l_youtube_play_qyqt8q,w_120/NON0euNOj3k)](https://substack.com/redirect/3e48b42a-ed07-4a86-8f06-3ce3a07ddc30?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+For example, [Stripe recently announced](https://substack.com/redirect/f65b916c-ee53-4421-9f75-a20ae23a5fec?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) that it’s accepting payments in stablecoins, and no wonder: it will pay sub-penny fees instead of the 3% it pays to Visa currently, improving its margins while speeding up settlement times. Fundamentally better, faster, and cheaper. 
+
+Knowledge work, too, is an information industry, and a massive one that hasn’t really been directly addressable by tech companies. With AI, it is, and very big businesses are being built that offer intelligence on-demand.
+
+Crypto and AI are alpha-tools in information industries. They offer the best possible set of tools to fix the problems they were designed to fix. They’re **disruptive innovations** vis a vis finance and knowledge work. 
+
+They are sufficient. It’s hard to imagine a scenario in which building hardware fixes the current bottlenecks in finance or knowledge work. It would only add unnecessary cost and complexity.
+
+Information industries will not be won with hardware. They will be won with software. And as new solutions create new challenges – see: [Wiz](https://substack.com/redirect/f2d31a13-adfb-44d1-83b2-eaf5f4dafb00?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) solving security challenges presented by the cloud –  there will always be new challenges to solve with radically better software tools.
+
+Other industries, though, are **matter industries**.
+
+Think energy or agriculture. These things are necessarily physical. Electricity requires electrons. Digital food doesn’t fill bellies.
+
+For the past few decades, as software has eaten the world, entrepreneurs and incumbents alike have attempted to fix these industries with software. They’ve made them more efficient, perhaps, but they’ve only nibbled around the edges. Giving a power plant a CRM only does so much.
+
+The fact is, physical challenges require physical solutions, and humans have spent millennia developing physical solutions.
+
+Matter industry incumbents got where they are by using tools that were newly available at the time of their formation to solve old challenges in new ways. They were once Techno-Industrials.
+
+Boeing is a dominant airplane manufacturer today because its 707 used a jet engine to cut travel times in half way back in 1958.
+
+Exxon Mobil (the result of a merger between Standard Oil of New Jersey and Standard Oil of New York) is still the largest American energy company today because Standard vertically integrated around innovations in refining techniques, pipeline networks, storage and distribution, and more way back in the late 19th century.
+
+You can’t build a larger airline manufacturer than Boeing or a larger energy company than Exxon Mobil with software alone *or* by making slightly better jet engines or oil refineries. 
+
+Century-old incumbents have remained comfortably atop these industries because attempts to innovate with software have been **sustaining innovations**. Incumbents have adopted the good ones to improve their bottom lines, but software alone hasn’t *reshaped* these industries. 
+
+You need to introduce an entirely new paradigm, which requires reaching much higher on the cumulative technology ladder than previous solutions. Because while the accumulation of tools is continuous, there are discrete periods in history when those tools have gotten better enough to make new solutions possible.
+
+I think we’re in one of those periods.
+
+Instead of designing slightly better versions of old products – not better *enough* to displace incumbents – or fixing inefficiencies with software, entrepreneurs are designing radically better **vertically integrated systems** from the ground up with cutting edge hardware and software. 
+
+They’re mixing and matching whatever tools are needed to get the job done: SaaS, AI, AR, mobile, crypto, biotech, and all of the million things that go into what people call “deep tech.”
+
+“Deep tech” is a nebulous term that’s used to mean doing something with the most advanced technology at our disposal, particularly if that technology touches the physical world. It’s confused with hard tech and frontier tech, because, well, it’s confusing.
+
+Part of the confusion around the term comes from the fact that two categories of companies get lumped into deep tech: Toolmakers and Techno-Industrials.
+
+**Toolmakers** operate at the very bleeding edge, coming up with brand new science and technology, with a primary focus on the science and technology themselves. 
+
+**Techno-Industrials** start with the challenge they want to solve, and use every tool at their disposal, including some at the cutting edge and even some that they have to create themselves, to solve that challenge. 
+
+When I [first wrote about them](https://substack.com/redirect/1742c303-3dbc-4d55-9b7c-91e7f2dfa277?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), I defined Techno-Industrials as companies that “use technology to build atoms-based products with structurally superior unit economics with the ultimate goal of winning on cost in large existing markets, or expanding or creating new markets where there is pent-up demand.” 
+
+Both Toolmakers and Techno-Industrials are important, but they’re different.
+
+**Toolmakers** are closer to what I’d categorize as actual deep tech. They are solving deeply technical problems in order to give humanity fundamentally new capabilities. They’re often the ones pushing the exponential curves. A company developing a new type of semiconductor, new materials, or more efficient solar cells might fit into this category.
+
+**Techno-Industrials**, on the other hand, are the ones riding exponential curves. They’re integrators as much as they are innovators, incorporating a number of technologies that hit just the right spot on their curves to be practically and economically useful in solving a particular challenge (new or old) in a better way. 
+
+[Earth AI](https://substack.com/redirect/2e8b828c-11b2-4608-8359-e04cd6b12664?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) uses AI and drilling rigs to find previously overlooked critical minerals. 
+
+[Atomic AI](https://substack.com/redirect/66cdd818-8acc-45e8-8f94-7d09ae02fd4f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) combines AI and structural biology to find new ways to treat and prevent diseases.
+
+[Worldcoin](https://substack.com/redirect/d3ef0a2c-7198-4460-8a5a-d8a32dd9de8c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) uses biometrics and zero-knowledge proofs to verify humanity in the face of new challenges presented by AI. 
+
+[Astro Mechanica](https://substack.com/redirect/06a440fc-4b3f-4df9-bdd8-10ffb560e8b9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) plans to make supersonic flight economical thanks to advances in electric motors and direct-to-consumer booking. 
+
+[Helion](https://substack.com/redirect/02fa6f09-c4d9-4ec9-b7de-f39dee4531ea?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) CEO David Kirtley credits advancements in pulsed power electronics, fiber optic cables, simulation software, FPGAs, mechanical structural codes, and power electronics codes with making fusion possible today. “It’s less on the physics,” he said, “and more on ‘How are you building a company?’” 
+
+They’re not defined by the technology they use, but by how they build companies *using* technology to solve challenges. And, if they’re successful, they come to define sectors previously unscathed by modern technology. 
+
+[Anduril](https://substack.com/redirect/5c5aad99-721e-40eb-9ebe-e5f62f7e30e1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is the prime example. It’s considered a “deep tech” company, but really, it’s a Techno-Industrial. And it highlights the importance of analyzing when the tools are good enough for a Techno-Industrial to take on a seemingly impossible industry. 
+
+When Anduril launched in 2017, it was famously met with a ton of skepticism. Some of it came from the fact that investors found defense distasteful, but a lot of it came from a **lack of knowledge about the defense industry.** 
+
+Competing with the five Defense Primes? Yuck. Hardware? Yuck. Selling to the government? Yuck.
+
+What Anduril’s founding team understood, though, was that the tools had gotten good enough to build a defense company with a fundamentally different approach.
+
+Advances in AI and software more broadly meant that it was possible to build Lattice, an operating system that connects all of Anduril’s hardware. SpaceX showed that it was possible to manufacture hardware and sell it to the government more cheaply than incumbents could. Together, they presented the opportunity to build a defense company with better margins.
+
+Over the past seven years, Anduril both proved that it was possible to build a big business in defense and educated the market on how the defense industry works. If you ask a random VC what “cost-plus” means today, most will actually know what you’re talking about!
+
+As Anduril co-founder Trae Stephens wrote in *[Venture Capital’s Space for Sheep](https://substack.com/redirect/2f351271-0a47-4ed1-9423-6245cda9ec0b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*:
+
+> *Today, Anduril is valued at more than $10 billion, and the hype has followed. In 2014, just $200 million in venture investment flowed into defense technology; last year, that figure [topped $6 billion](https://substack.com/redirect/aff8e78b-01cd-4065-8a54-a941aa6467e7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). Investors see our success as proof the defense industry can generate serious returns, and now they’re hoping to get a piece of the next Anduril.*
+
+That, Trae believes, is the wrong lesson to take from Anduril. “In all likelihood,” he writes, “another defense tech company operating at Anduril’s scale won’t come out of this hype cycle.”
+
+**The right lesson to take from Anduril is that it’s possible to build very big businesses by applying a suite of cutting edge tools and processes to the right bottlenecks in large, seemingly impenetrable industries.** 
+
+And thanks to the power law, there will be one really big winner in each industry:
+
+> *Defense, like all technology sectors, is ruled by the power law: a single, prime mover will claim the vast majority of profits even after the sector has reached maturity. The company that carves out a new investment category usually stays on top.*
+
+In other words, **catching the power law winners*****requires*** **looking in new sectors.**
+
+Uber, he points out, has a market cap three times as large as the next ten ride-sharing companies combined.
+
+[![](https://substackcdn.com/image/fetch/w_1416,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F50037d3d-e2e5-4016-9827-c0df8f19abc8_708x551.png)](https://substack.com/redirect/bd853956-6901-4e64-8102-a8b078aa5c4f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Trae Stephens in Pirate Wires*
+
+The same dynamic plays out across categories:
+
+> *At $47 billion, Coinbase’s market cap is more than double the next ten crypto companies combined. At $180 billion, SpaceX’s market cap exceeds that of the next twenty space companies combined. And at $1.2 trillion, Meta’s market cap is more than double the next dozen social media companies combined.*
+
+In each of these examples, the power law winner used the best tools at its disposal to solve a particular problem.
+
+**Uber** took advantage of GPS and payments on phones and mutual ratings systems, plus post-Global Financial Crisis unemployment, to make transportation more reliable. 
+
+**Coinbase** used modern consumer software, custody, payments, and ID verification to make Bitcoin accessible to normal buyers. 
+
+**SpaceX** used cutting edge rocket technology, materials, and manufacturing processes to make rockets reusable and lower the cost of launch. 
+
+**Meta** used .edu email addresses, digital photography, Ajax, online advertising, and eventually mobile to connect people with their friends online, under their real names.
+
+What’s so compelling about Anduril is that while Uber, Coinbase, SpaceX, and Meta took on fairly weak competitors, Anduril is going after five dominant incumbents worth more than half a trillion dollars combined and starting to win.
+
+And it makes sense!
+
+The tools at their disposal are more powerful than ever. We’re hitting the right point on the cumulative technology ladder to go after powerful incumbents in large physical industries to tackle the biggest challenges facing humanity.
+
+The next Anduril won’t be in defense. There will be many, one in each large matter industry dominated by creaky incumbents (and many in information industries as well, although we’ll save that for another piece). They will have a shot at building $100 billion+ businesses, like Meta, Uber, and SpaceX have, and like Coinbase and Anduril may soon. And most of them have been started or will be started in the next few years.
+
+There are a few big reasons that I think now is such a fertile time to build $100 billion+ Techno-Industrials:
+
+1. **Tools.** There are simply more tools at builders’ disposal – AI, traditional software, improving hardware, programmable biology, cheaper energy, robots, and more – that they can combine into vertically integrated companies.
+2. **Cracks.** The old system is showing cracks. The grid is struggling. Planes are falling apart. Carbon emissions have to go. Healthcare costs are through the roof. Metals discoveries are declining. Supply chains are breaking down. America’s industrial base has atrophied. The biggest systems in the world need to be rebuilt.
+3. **Enormous Markets.** Most of the largest companies by revenue are not tech companies, and most of the world’s GDP is outside of tech: in energy, healthcare, labor, real estate, and manufacturing. These are multi-trillion dollar markets.
+4. **Pent-Up Opportunity.** Entrepreneurs and investors have largely ignored these categories in favor of software, which means there are more opportunities left to build power law winners in them. There can only be one Power Law social network or search engine, but there can be a winning tech company in each sector and subsector of the physical economy.
+5. **Examples.** Companies like Anduril, Tesla, and SpaceX have shown founders that it’s possible to build enormous businesses by building hard things.
+
+I’ve spent the last few months studying Techno-Industrials by diving deep on specific companies, and I’m starting to see some patterns. Obviously, these companies aren’t successful yet, but there lessons in the way they’re thinking about their opportunities.
+
+Take [Base Power Company](https://substack.com/redirect/70aca328-8887-441d-b820-e0b98edcf701?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). What’s the Why Now for Base?
+
+There are many, and that’s the point.
+
+Growing renewable generation and electrification of demand has destabilized the grid. Batteries have gotten much cheaper. Engineers have gotten better at distributed systems software. Consumer software keeps getting better. Digital customer acquisition is playbooked. Talent has been trained on modern engineering and manufacturing at places like SpaceX and Anduril.
+
+No one thing makes Base possible. It’s the cumulative accumulation of tools, and the right entrepreneurs to synthesize them into a **vertically integrated** solution.
+
+Or take [Earth AI](https://substack.com/redirect/2e8b828c-11b2-4608-8359-e04cd6b12664?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).  What’s the Why Now for Earth AI? 
+
+When Roman started the company in 2017, machine learning had finally gotten good enough that it was possible to analyze huge amounts of data to identify mineral targets just as the amount of new discoveries using traditional methods plummeted. While the company’s drilling rigs don’t rely on cutting-edge tech, the volume of targets Earth AI had to process made developing a faster, cheaper rig economical for the company in a way it wasn’t for traditional explorers.
+
+Vertically integrating around those two technologies – AI and drilling rigs – make Earth AI possible.
+
+There’s a pattern. A bottleneck in a large, existing industry demands new solutions. Technological tools that have recently gotten good enough to address the bottleneck. And a strong team that’s able to build a vertically integrated solution to solve an important challenge.
+
+What’s true for Base and Earth AI is true for potential Techno-Industrials more broadly.
+
+**We have more tools, so we can tackle bigger challenges, faster.**
+
+As importantly, perhaps, talented founders and employees have realized that they can tackle problems that tech has largely ignored for decades. There’s a smorgasbord of underexplored challenges waiting to be addressed just as there’s a cornucopia of new tools with which to address them.
+
+Strip out all the hype, and that’s why “deep tech” is having a resurgence. That’s the Why Now. Most of the problems that matter involve matter, humanity has built more tools with which to solve them, and entrepreneurs have seen that it’s possible to build vertically integrated companies like SpaceX and Anduril to tackle them and shake up old industries in the process.
+
+And the potential if they do is spectacular.
+
+We can [travel the earth at supersonic speeds](https://substack.com/redirect/06a440fc-4b3f-4df9-bdd8-10ffb560e8b9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [fix the grid](https://substack.com/redirect/70aca328-8887-441d-b820-e0b98edcf701?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), [discover new resources](https://substack.com/redirect/2e8b828c-11b2-4608-8359-e04cd6b12664?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), grow meat from cells, manufacture cell therapies to cure disease, and build machines, robots, and factories that can make anything better, faster, and cheaper. Everything is up for grabs. 
+
+Humans are physical beings, and most of what we need to survive and thrive is physical.
+
+The rise in startups tackling physical challenges is not a blip. It’s an inevitability. With better, and constantly improving, tools at their disposal, tech companies will solve increasingly hard problems and win increasingly big markets.
+
+But are they investable?
+
+One of the most common pieces of skepticism I faced raising Not Boring Capital Fund III was that LPs didn’t like that I invest in crypto and deep tech.
+
+That’s on me. I didn’t do a good job explaining what I actually invest in – companies using whatever technologies necessary to solve the biggest challenges possible, including crypto and “deep tech” – or why I think now is the right time to invest in them. That it’s about the challenges companies can solve, not about the specific tools they use.
+
+I’ve tried to clear that up in this essay.
+
+But there are still legitimate concerns about whether venture capitalists should invest in these companies.
+
+That skepticism comes in a few flavors:
+
+1. **There’s too much science risk:** is what they’re doing even possible?
+2. **They’re too capital intensive**: they’ll need to raise so much money that even if you’re right, you’ll get diluted to smithereens by the time they make any money.
+
+There’s a third flavor, which they don’t say explicitly, which is: **we understand the software business model and software as an industry, but we don’t understand, say, mining.**
+
+Each of these businesses is bespoke. Earth AI’s business model is about as different from Base Power Company’s as any two businesses you can find, and each of those businesses is very different from Toolmakers’ businesses, which are all different from each other.
+
+There are playbooks upon playbooks and podcasts upon podcasts about how to sell SaaS into the enterprise, and example after example of companies that have made a lot of money doing so; there’s very little about competing or winning in mining.
+
+I think this is actually the dominant reason investors don’t like deep tech, because it’s presented as one thing when really it’s a number of different unfamiliar things. Investing in Techno-Industrials requires analyzing not just new technologies, but how they impact different business models and industries.
+
+But that’s the opportunity.
+
+Investors didn’t get Anduril in part because they didn’t understand defense. By the time Anduril proved that defense was an investable category, they’d already secured the power law spot.
+
+My bet is that the same thing that happened in defense is happening in every major industry on the planet, from energy to manufacturing to labor to construction to mining to flight, and that the best teams with the right vertically integrated solutions have a shot at securing the power law spot in each sector before they become investable sectors of their own.
+
+**Not only are Techno-Industrials investable, but the most credible teams attacking each large industry are the most investable companies there are.** 
+
+A portfolio of those companies is best suited to take advantage of the power law, but building that portfolio takes a willingness to study industries that are less familiar to people in tech combined with an understanding of the tools available.
+
+And it takes evaluating science risk and capital intensity on a case-by-case basis.
+
+**Is there too much science risk? That depends on the business.** 
+
+Some deep tech companies take on an enormous amount of science risk. Often, those are the Toolmakers.
+
+Toolmakers are incredibly valuable to progress – they make the tools! – and they can be incredibly valuable businesses, but I think those categories are best left to specialist early stage investors with deep technical knowledge. They can pay lower valuations to compensate them for the risk, and have the skills necessary to understand the risk they’re taking.
+
+Generalist “deep tech” investors, or investors who jump on deep tech because it’s the hot new category, are probably going to get their ass kicked here. I try to avoid investing in Toolmakers because I’m not technical enough to understand which approach is better than another, and because things are moving so fast that the best approach today might not be tomorrow.
+
+Techno-Industrials, on the other hand, typically take on less science risk and more engineering risk. Often, they position themselves to be able to integrate whichever tool ends up being best for a particular job. Base manufactures battery packs instead of cells, which means that if new cell chemistries outperform lithium-ion, it can manufacture those cells into its packs.
+
+The question, then, isn’t whether something is possible, but if the team is the right one to make the possible practical and economical. Instead of evaluating science, a Techno-Industrial investor is evaluating teams, strategies, and results.
+
+**Are they too capital intensive? That depends on the business, too.**
+
+My bet on Techno-Industrials is a bet that they can use technology to offer products at lower prices and better margins than incumbents. What’s the point of technology if not to do more with less?
+
+Generally, I think that that physical industries will come to look more like software. As I wrote in *[Tech is Going to Get Much Bigger](https://substack.com/redirect/71ec8885-c709-4b69-805c-aa55442c80ca?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*: 
+
+> *As energy, intelligence, and dexterity get cheaper, more abundant, and more on-demand… More and more industries will come to look like software.*
+>
+> *Tech companies will tap into larger and growing pools of revenue at lower costs and higher margins than they’ve been able to to date. Everything will be cheaper, and they’ll sell much more of it. They’ll reinvest profits into R&D, and turn the fruits of that R&D into newer, cheaper, better products at an accelerating rate.*
+
+Even with cheaper, more abundant, and more on-demand inputs, though, those businesses will still require capital to get off the ground and to produce physical products. Unlike software, they have very real marginal costs.
+
+To that end, **The biggest thing that investors miss when thinking about Techno-Industrials is the best founders’ sophistication around financing.** 
+
+To get many of these companies’ systems to market with venture capital alone would be a dilution nightmare, but there’s not a single credible Techno-Industrial that I can think of that plans to get to scale on venture funding alone.
+
+SpaceX developed and demonstrated its Dragon and Falcon 9 rockets using hundreds of millions of dollars from NASA’s Commercial Orbital Transportation Services (COTS) program.
+
+[Base Power Company](https://substack.com/redirect/5b1fa413-fa2b-4910-a21a-e3a59671df01?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) will use its Series A to prove that its batteries are profitable, at which point it will get asset-backed loans to finance the scale up of the battery portfolio. 
+
+[Varda](https://substack.com/redirect/fa3f374d-ea00-476a-b2ce-eacde8690095?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is already using DoD hypersonic testing contracts to cover a significant portion of its costs on each mission. 
+
+[Atomic AI](https://substack.com/redirect/da675382-2f61-4ad9-aa43-3ccc9d7efb92?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and a wave of platform biotech companies partner with large pharma on “biobucks” deals - a combination of upfront payments, milestone payments, and royalties – to fund the development of particular assets, and the progress of the larger platform. 
+
+[Crusoe Energy](https://substack.com/redirect/b22484d9-dab2-47a3-91b6-b5682a1fd7e9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) CEO Chase Lochmiller talked about how they’re using asset-backed financing to pay for their power generation equipment on [Acquired](https://substack.com/redirect/32daa453-996a-4b98-8719-333c1153100c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).  
+
+[Fuse Energy](https://substack.com/redirect/83380810-b5b3-4dca-9379-a8d76a2d11cb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) became the first fusion company to generate revenue when it won a [US Air Force contract for nuclear effects testing](https://substack.com/redirect/9e300eaa-4097-49bc-9570-29751d2bd0c6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). It can sell nuclear testing on the way to fusion energy. 
+
+Energy companies of all sorts can access grants, dirt cheap loans, and credits from the Department of Energy.
+
+The list goes on. If you meet a deep tech company or Techno-Industrial that plans to finance its path to IPO with venture capital dollars alone, run.
+
+In fact, I’d argue that Techno-Industrials can be *more* capital efficient from an equity perspective than the pure software companies that reach a similar scale.
+
+Unlike the [Red Queen’s Race](https://substack.com/redirect/0da8a832-60ee-4fd9-8fce-7946a9d3a79d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) in software – where companies offering competitive products need to spend on feature parity and customer acquisition – the vast majority of the equity capital that Techno-Industrials spend goes towards developing IP and processes that improve product quality and deepen moats. Advantages compound. 
+
+As one proof point, many of the largest industrial companies are over a century old. The Techno-Industrials that take their place have the opportunity to enjoy similar longevity.
+
+And while these businesses *seem* heavier from a capital perspective, the numbers don’t actually bear that feeling out. In a great post, *[Betting on Deep Tech](https://substack.com/redirect/1c2efd0b-1274-4571-9a6e-cd5e03b46c97?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, Leo Polovets looked at the data and found that “Deep tech companies, on average, have similar capital intensity to traditional tech companies. Across all exits above $250m, the average amount of capital raised is about 11-15% of the sale price regardless of sector.”
+
+[![](https://substackcdn.com/image/fetch/w_1420,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cb1af69-be26-4efa-92fb-2aa6bc8c76fb_710x463.png)](https://substack.com/redirect/e2d607dd-6e78-404d-bc61-18e3160d7249?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Leo Polovets, Data from Pitchbook*
+
+That’s incredibly counterintuitive. Certainly, some of it can be explained by the fact that these companies are more thoughtful about alternative financing vehicles. But I think another explanation is how thoughtful these companies have to be about their entire strategy and roadmap from day one.
+
+Because atoms are harder to change than bits, the average Techno-Industrial I talk to are more intentional about their strategies than the average software company I talk to. They spend more time thinking through and [Techno-Economically Analyzing](https://substack.com/redirect/2dfeee7f-fadd-474c-919b-a0a96865225b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) every aspect of their business upfront instead of building and testing Minimum Viable Products. 
+
+And because they face less intense competition, they’re able to execute against those strategies more faithfully than an average software company can.
+
+One definition of deep tech is that there’s more technical risk, but less market risk – or, if you build it, they will come – which means that more energy can be directed towards simply building it versus constantly adapting to changing market dynamics.
+
+**The long and short of it is this:** 
+
+Techno-Industrials are addressing larger markets than most software companies can.
+
+They use whichever tools they need to provide better solutions to key bottlenecks with better unit economics than incumbents.
+
+They are more capital efficient than most investors expect.
+
+And they have to be more strategically sound than the average software company.
+
+But again, it depends on the business.
+
+No matter what challenge they’re solving or industry they’re attacking, though, it’s hard.
+
+Techno-Industrials need to employ a variety of cutting edge technologies, build teams of experts with wide ranges of skills and orchestrate them like a symphony, produce physical products, and sell them to customers – individuals, corporations, or governments. Hardware is hard, and it will be for a very long time. Supply chain hiccups and manufacturing bottlenecks will always get in the way. Downstream capital is never guaranteed – there aren’t accepted Series B metrics for a vertically integrated mineral exploration company. On top of all that, if they get past the embryonic phase, and often before they even do, they’ll go up against deep-pocketed incumbents who have dominated their industries for decades and are willing to use every resource at their disposal, including regulation, to win.
+
+This is hard mode. Many of these companies, even great ones, will fail!
+
+But that’s the point. Companies that make it through all of that face less competition on the other side, and earn the chance to shape new categories and reap the power law returns that come with doing so.
+
+Ultimately, it comes down to the team. Do the founders and employees have what it takes to win despite all of the challenges?
+
+And here, too, Techno-Industrials have an advantage: the most talented people are drawn to the biggest challenges. As Anduril co-founder Palmer Luckey explained in a recent interview, “The way you poach people from **big tech** companies is you tell them that their career is meaningless and that they’re wasting their lives on something that doesn’t matter.”
+
+[![image](https://substackcdn.com/image/fetch/w_1100,h_618,c_fill,f_auto,q_auto:good,fl_progressive:steep/l_play_button_usfui2,w_144,e_colorize:0/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F144816697%2Fd0dcb4a9-7d71-4b07-8a81-132e29c1ec05%2Ftranscoded-00001.png)](https://substack.com/redirect/21491b91-13a0-4165-96e0-b21ef552e85f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+To get comfortable investing in Anduril, you could have studied the defense industry, understood the potential of AI, realized that warfare was moving to attritable drones over large exquisite systems before the Ukraine War, and understood that the government would be willing to shift away from cost-plus contracts.
+
+Or you could have bet that Luckey, Brian Schumpf, Trae Stephens, Matt Grimm, and Joseph Chen realized something the rest of the world didn’t and had what it took to pull it off.
+
+In that way, investing in Techno-Industrials is like investing in any other startup. Back the most credible team tackling an incredibly big challenge using every tool at their disposal.
+
+It’s understandable that venture investors and their LPs would want to hang onto pure software as long as possible. SaaS, when it works, is the greatest business model in the world.
+
+SaaS isn’t dead. There will be big SaaS businesses built, and in particular, today’s leading SaaS companies will get much bigger as they marry their place in customers’ workflows with AI to deliver more value. Information industries will be won with software.
+
+But I don’t think that most of the really big opportunities for new companies will be in SaaS. A lot of the biggest challenges that can be solved with SaaS already are, there will be more competition as it gets easier and easier to build software, and the biggest markets can’t be won with software alone.
+
+Analogizing the current era in tech with the recent, software-dominated era is a mistake.
+
+A much better analogy would be the Second Industrial Revolution in America, the Gilded Age when entrepreneurs built businesses using every new technological tool at their disposal to pull humanity to a new level of prosperity and became unbelievably rich in the process.
+
+Who were the big winners of that era? Rockefeller, Vanderbilt, and Carnegie, of course, and JP Morgan. The people who built new industries using new technology, and the person who financed it all.
+
+Techno-Industrials and crypto rhyme.
+
+Investing in crypto or deep tech for their own sake isn’t necessarily a winning strategy. A lot of hard things are just … hard. Taking scientific risk without a business model that promises commensurate reward is just a sexier way to lose money, and the NFT platform built specifically for the newest L3 doesn’t seem like the best use of crypto’s tools.
+
+But *avoiding* crypto, deep tech, or any category of tools is an admission that you’re OK settling for rehashed solutions to smaller and smaller problems in the pursuit of on-paper software margins that are becoming increasingly illusory as barriers to entry fall. 
+
+There will be dozens of $100 billion outcomes as well-armed startups tackle incumbents by solving the key bottlenecks in their industries with the best tools available. The defining companies of this generation won’t be defined by the tools they use, but by what they build with them.
+
+Techno-Industrials will create more value and wealth over the next decade than pure software companies for the simple reason that the combination of atoms and bits is more powerful than bits alone. In a couple of decades, I think we’ll see more Techno-Industrials with higher market caps than the largest current incumbents, and that those market caps will be much higher than they are today, as technology unlocks better products, higher margins, and faster growth.
+
+The funding news this week isn’t an aberration, but a preview of what’s to come. Some companies that look expensive today will look cheap in the future, even if others fail valiantly in their pursuit. The beauty of the Power Law is that the magnitude of the winners will matter much more than the volume of losers.
+
+The question is no longer if this shift will happen, but who will make it happen. I'm excited to back the founders brave enough to try.
+
+The game has changed, to be sure, but it’s changed for the better. Tools are good and more tools are better. They let builders build better things.
+
+We no longer have to settle for log cabins when we can build skyscrapers.
+
+*Thanks to Elliot and Dan for providing feedback on this essay!*
+
+That’s all for today! If you enjoyed and learned a little bit, spread the good word.
+
+[Share](https://substack.com/redirect/908724dc-c3c5-4fe6-8f43-e702cafa83b2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+We’ll catch you on Friday for our Weekly Dose of Optimism.
+
+Thanks for reading,
+
+Packy
+
+[Like](https://substack.com/app-link/post?publication_id=10025&post_id=144816697&utm_source=substack&isFreemail=true&submitLike=true&token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTQ0ODE2Njk3LCJyZWFjdGlvbiI6IuKdpCIsImlhdCI6MTcxNjM4MjMzOSwiZXhwIjoxNzE4OTc0MzM5LCJpc3MiOiJwdWItMTAwMjUiLCJzdWIiOiJyZWFjdGlvbiJ9.1QY1AlUmc5AATM64fRRBvA6cpoGNiXDhlxj4BzmPbMU&utm_medium=email&utm_campaign=email-reaction&r=9p0gt)[Comment](https://substack.com/app-link/post?publication_id=10025&post_id=144816697&utm_source=substack&utm_medium=email&isFreemail=true&comments=true&token=eyJ1c2VyX2lkIjoxNjI4MzU0OSwicG9zdF9pZCI6MTQ0ODE2Njk3LCJpYXQiOjE3MTYzODIzMzksImV4cCI6MTcxODk3NDMzOSwiaXNzIjoicHViLTEwMDI1Iiwic3ViIjoicG9zdC1yZWFjdGlvbiJ9.fuoP5EWRkGj8t1dYi8TZ2HY-zW0HtjpxSRzolTbmk1Y&r=9p0gt&utm_campaign=email-half-magic-comments&utm_source=substack&utm_medium=email)[Restack](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9vcGVuLnN1YnN0YWNrLmNvbS9wdWIvbm90Ym9yaW5nL3AvYmV0dGVyLXRvb2xzLWJpZ2dlci1jb21wYW5pZXM_dXRtX3NvdXJjZT1zdWJzdGFjayZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1yZXN0YWNrLWNvbW1lbnQmYWN0aW9uPXJlc3RhY2stY29tbWVudCZyPTlwMGd0JnRva2VuPWV5SjFjMlZ5WDJsa0lqb3hOakk0TXpVME9Td2ljRzl6ZEY5cFpDSTZNVFEwT0RFMk5qazNMQ0pwWVhRaU9qRTNNVFl6T0RJek16a3NJbVY0Y0NJNk1UY3hPRGszTkRNek9Td2lhWE56SWpvaWNIVmlMVEV3TURJMUlpd2ljM1ZpSWpvaWNHOXpkQzF5WldGamRHbHZiaUo5LmZ1b1A1RVdSa0dqOHQxZFlpOFRaMkhZLXpXMEh0anB4U1J6b2xUYm1rMVkiLCJwIjoxNDQ4MTY2OTcsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzE2MzgyMzM5LCJleHAiOjE3MTg5NzQzMzksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.PPtxGBgANN-DAlhJ4AUux716MpsCToYHMtqQGvRA6l0?&utm_source=substack&utm_medium=email)
+
+![](https://eotrx.substackcdn.com/open?token=eyJtIjoiPDIwMjQwNTIyMTI1MjAxLjMuZmJlYWIxYmMwZWIxOTljY0BtZy1kMC5zdWJzdGFjay5jb20-IiwidSI6MTYyODM1NDksInIiOiJub3Rib3JpbmdAa2hhbWVsLmNvbSIsImQiOiJtZy1kMC5zdWJzdGFjay5jb20iLCJwIjoxNDQ4MTY2OTcsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6MTAwMjUsImMiOiJwb3N0IiwiZiI6dHJ1ZSwicG9zaXRpb24iOiJib3R0b20iLCJpYXQiOjE3MTYzODIzMzksImV4cCI6MTcxODk3NDMzOSwiaXNzIjoicHViLTAiLCJzdWIiOiJlbyJ9.yKwJUqWP_CuqZe5jCYnSWrzyrO_-KodyVhQ85KjoewQ)

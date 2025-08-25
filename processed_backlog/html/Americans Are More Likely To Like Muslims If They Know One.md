@@ -1,0 +1,28 @@
+# Americans Are More Likely To Like Muslims If They Know One
+
+**Source:** inputs/New Docs/reader/fivethirtyeight.com_datalab_americans-are-more-likely-to-like-muslims-if-they-know-one.html
+**Processed:** 2025-08-24T19:14:14.992748
+
+Not long after the executions of Yusor Mohammad Abu-Salha, Razan Mohammad Abu-Salha and Deah Barakat in their apartment in Chapel Hill, North Carolina, on Tuesday, Craig Hicks handed himself in to police. A statement by police Wednesday said that although officials weren’t ruling out the possibility of a crime motivated by hate, their initial investigations suggested a parking dispute as a motive. The victims’ families strongly disagree, claiming that the suspect, who had reportedly shared anti-religious views on his Facebook page, “hated them for how they looked and who they were.”  
+  
+Those claims come from a wider context of American Islamophobia.  
+  
+Muslims are the most disliked religious group in the United States. But negative sentiment toward Muslims isn’t equally felt among different races, ages or educational groups — and once we look at who is most likely to dislike Muslims, we also get some clues as to why.  
+  
+Last June, Pew Research Center asked 3,217 people in the U.S. to fill out a “feeling thermometer” about religious groups — the largest and most recent survey of its kind. Respondents were asked to rate members of each religion from 0 to 100; a score of 0 indicated a cold, negative sentiment and 100 indicated warm, positive feelings. In the numbers below, I’ve excluded responses from members of the group that was being rated.  
+  
+Muslims received an average score of 40. The only other group to get a similarly “cold” response were atheists, who also received an average score of 40. Jews received the most positive response (scoring, on average, 63) followed by Catholics (58).  
+  
+Once we pick apart the average rating toward Muslims, though, several trends emerge. First, political affiliation appears to matter. Republican or Republican-leaning respondents gave Muslims an average score of just 32, while those who described themselves as Democratic or Democratic-leaning gave an average score of 46. Politicians in each party may have shaped those attitudes — or perhaps political figures simply echo and amplify them. In 2011, former Arkansas governor Mike Huckabee said, “The Muslims will go to the mosque, and they will have their day of prayer, and they come out of there like uncorked animals — throwing rocks and burning cars.” Other instances of overtly Islamophobic rhetoric by fellow Republican politicians and pundits have not prompted controversy.  
+  
+Black Americans typically have far more negative views toward religious groups than their white, non-Hispanic counterparts. But their opinion of Muslims is different — black respondents expressed more positive attitudes by a margin of 9 percentage points. Finally, college counts when looking at these trends: The more educated the respondent was, the more favorable her opinion of Muslims — although that trend is also true of attitudes toward most religious groups.  
+  
+But the clearest split in attitudes toward Muslims was age: The older the respondent, the more likely they were to express a negative sentiment toward Muslims. That may also offer clues as to why those negative sentiments are being expressed.  
+  
+Take respondents 65 and older, for instance. They gave Muslims an average score of just 32, but they were also the age group least likely to have spent time with a member of that religious group. Only 1 in 4 said they personally knew someone who was Muslim. That doesn’t appear to be a coincidence. Americans 18 to 29 years old were the most likely to say they know a Muslim (42 percent did) and also expressed the most positive feelings toward Muslims (scoring them at 48).  
+  
+In fact, looking at all characteristics — whether it’s political affiliation, education, race or age — a pattern emerges. The more likely a person is to know a Muslim, the more likely she is to express positive feelings toward Muslims as a group. The correlation is statistically strong (0.59). There are two outliers that counter the trend: Jewish respondents, who express negative feelings despite saying they know a Muslim, and Hispanic Catholics, who express positive feelings despite saying they don’t personally know a Muslim. I can’t check whether those exceptions work both ways; there’s no separate data on Muslims’ familiarity with and views of different religious groups.  
+  
+But there’s more to this than simply saying “familiarity breeds liking” (a theory known in social psychology as the mere-exposure effect). If that were the case, then these correlations would be identical for all religious groups. They’re not. For example, opinion of Catholics seems more unrelated to whether or not the respondent knows a Catholic.  
+  
+It’s clear Americans have a different history with and perception of Islam than other religions. Just think about the repeated attempts to undermine President Obama by using one simple claim: that he’s a Muslim.

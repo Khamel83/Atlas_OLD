@@ -1,0 +1,168 @@
+# =?UTF-8?q?Exclusive_Harris_Polling,_Pelosi_Aftershocks_&_Dems=E2=80=99_Ne?=
+ =?UTF-8?q?w_Consensus?=
+
+**From:** Peter Hamby <peter@puck.news>
+**Date:** Tue, 23 Jul 2024 01:30:21 +0000
+**Source:** inputs/saved_emails/=UTF-8qExclusive_Harris_Polling,_Pelosi_Aftershocks_&_Dems=E2=80=99_Ne=
+ =UTF-8qw_Consensus=_Tue,_23_Jul_2024_01-30-21_+0000_190dd36140b08b88.eml
+**Processed:** 2025-08-24T19:13:11.917358
+
+Welcome back to The Best & The Brightest. Tonight, Kamala Harris is basking in the afterglow of suddenly becoming the de facto Democratic nominee, following the extraordinary departure of Joe Biden from the presidential race. But even as the Democratic Party goes all in on their new standard-bearer, Harris will soon learn that the first few days of a new campaign are the easy part.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+The Best & Brightest ( https://puck.news/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Image ( https://phrma.org/policy-issues/340b?utm_campaign=2024-q3-340b-340-340BPBMPuckTBTBhighimpact-bargraph&utm_medium=pai_spn&utm_source=pck&utm_content=all-pol-bnr_sta-340BPBMBarGraph&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#giveaway )
+
+Welcome back to The Best & The Brightest. I’m Peter Hamby.
+
+Tonight, Kamala Harris is basking in the afterglow of suddenly becoming the de facto Democratic nominee, following the extraordinary departure of Joe Biden from the presidential race. But even as the Democratic Party goes all in on their new standard-bearer, Harris will soon learn that the first few days of a new campaign are the easy part. The following days and weeks will be absolutely critical, as Harris tries to seize the moment and reintroduce herself to an American public that never fully warmed to the vice president, all while the Trump campaign plots new attacks on what they’re calling a “dangerous liberal” from California.
+
+🎧 Also, don’t miss my special Media Monday episode ( https://open.spotify.com/episode/1KW6SP7ZuJIcIzNtsD98Ft?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) of The Powers That Be, where Jon Kelly and I discussed how Nancy Pelosi masterfully leveraged the media to push Biden out of the race, and what to expect from the newly upended veepstakes and likely hybrid open primary coronation for Kamala Harris. Then, on an emergency edition of Somebody’s Gotta Win, Tara Palmeri traded notes 
+( https://podcasts.apple.com/us/podcast/emergency-pod-biden-drops-out-whats-next/id1111751047?i=1000662909094&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with political strategist Steve Schmidt about how the D.N.C.
+can use this historic moment. Plus, John Heilemann’s got a new episode of Impolitic dropping overnight. Sign up here ( https://open.spotify.com/show/5ZChG4x3aogGtKGkxU6nMH?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), here ( https://open.spotify.com/show/4wnbymqAoi65vom35SMGR0?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%288%2F22%2F23%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%288%2F21%2F23%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60611f064a1f51f&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), and here 
+( https://open.spotify.com/show/7xdHieDPwtEonYZSHOKH2z?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+But first, here’s Abby Livingston with the view from the Hill…
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad4_title) ( https://phrma.org/policy-issues/340b?utm_campaign=2024-q3-340b-340-340BPBMPuckTBTBhighimpact-bargraph&utm_medium=pai_spn&utm_source=pck&utm_content=all-pol-bnr_sta-340BPBMBarGraph&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#giveaway )
+
+The 340B drug pricing program is supposed to help vulnerable patients access medicines at qualifying hospitals and clinics. It’s meant to be a safety net for those who really need it. So why is the 340B program padding profits for large hospitals, PBMs and chain pharmacies?
+
+Hospitals that participate in the 340B program contract with more than 33,000 pharmacies to dispense the program’s drug prescriptions. More than 40% of these pharmacies have financial ties to one of the three largest PBMs – CVS Health, Express Scripts and OptumRx. 340B hospitals and the PBM-owned pharmacies they contract with are profiting off discounted medicines while uninsured patients are left paying full price for their medicines. Let’s fix 340B so it better helps patients. ( https://phrma.org/policy-issues/340b?utm_campaign=2024-q3-340b-340-340BPBMPuckTBTBhighimpact-bargraph&utm_medium=pai_spn&utm_source=pck&utm_content=all-pol-bnr_sta-340BPBMBarGraph&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#giveaway )
+
+The Godmother
+
+In stark contrast to the prolonged, bitter intraparty fight over Joe Biden’s presidential campaign, the ascension of Kamala Harris as his successor was swift and apparently drama free. Sure, one or more Democrats could still challenge her at the now open convention next month. But in reality, the Harris nomination was essentially sewn up within a few hours of Biden’s announcement. A critical mass of congresspeople, senators, interest groups, delegates, party chairs, and pundits quickly fell in line behind her, along with leaders and elders. “We got where we’re meant to be, and landing the plane is everything,” a Democratic consultant told me, audibly relieved.
+
+Hill Republicans, for their part, were clearly dismayed over how quickly the party coalesced around Harris and the growing likelihood that she won’t
+face competition in a raucous open primary. If anything, the lack of appetite for an open contest speaks to how unnerving the last month was for professional political tacticians. Indeed, many Democrats rationalized weeks ago that Harris was the obvious, and perhaps easiest, replacement for Biden. The party’s current euphoria recalls the Republicans’ collective exhale after they finally selected Mike Johnson as speaker last fall. But while Republicans have made a blood sport of tearing each other apart, this scale of infighting was novel for Democrats, who’ve been remarkably unified in the Trump era.
+
+The past 48 hours have also crystallized Nancy Pelosi’s position as the generational leader of the Democratic Party. It’s hard to find a Democrat willing to argue that any other figure—not Bill Clinton or Chuck Schumer or even Obama—could have organized the lobbying effort to defenestrate
+Biden. Once Pelosi went on Morning Joe two weeks ago to encourage the president to reconsider the decision that he’d repeatedly and angrily insisted was already settled, it became clear that Biden’s days as a candidate were numbered.
+
+As my partner John Heilemann wrote ( https://puck.news/after-biden-pelosis-power-kamalas-positioning-whats-next/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) yesterday, “Biden was well aware that Pelosi was his main adversary in his battle to stay on the ticket, which is no surprise.” John’s sources added that “she had spoken directly to him more than once in the past week to paint a picture of how things would play out if Biden refused to do what she was convinced was the right thing for his party and the country.” Time will tell whether he
+comes to see her power play as merely political, not personal.
+
+Reintroducing Kamala ( https://puck.news/defining-kamala-harris-will-be-crucial-for-both-campaigns/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Reintroducing Kamala ( https://puck.news/defining-kamala-harris-will-be-crucial-for-both-campaigns/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Riding a surge of Democratic enthusiasm, endorsements, and record-breaking donations, the Harris campaign is racing to reintroduce their candidate to America before the Trump campaign can define her. Exclusive new polling for Puck shows why the next few weeks will be so critical.
+
+PETER HAMBY ( https://puck.news/author/peter-hamby/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+PETER HAMBY ( https://puck.news/author/peter-hamby/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+It’s an old cliché in politics that a campaign’s best day is usually the first day. Kamala Harris, the Democratic Party’s new presumptive presidential nominee, has given that phrase extraordinary new meaning over the last 24 hours.
+
+With precious few weeks until the Democratic National Convention in Chicago, Harris essentially took over the entire machinery of her party overnight, inheriting not just Joe Biden’s behemoth presidential campaign in Wilmington, but also the broad support from party leaders around the country who rushed to endorse her after Biden’s historic statement exiting the race on Sunday. Would-be challengers for the nomination like Josh Shapiro and Gretchen Whitmer quickly fell in line. House Speaker Emerita Nancy Pelosi endorsed on Monday, too, saying, “I have full
+confidence [Harris] will lead us to victory in November”—and well, she better, considering Pelosi’s ruthless maneuvering over the last few weeks to force Biden from the race.
+
+Delegates to the D.N.C.—the roughly 4,000 party activists who will anoint Harris in Chicago—quickly demonstrated their eagerness to move on from the Biden drama of the last few weeks. A rush of state party organizations declared their support for Harris after she announced her campaign on Sunday. Michael Kapp, a D.N.C. member from California, told me that he believes Harris will likely have enough convention delegates lined up to secure the nomination by Tuesday, if not by the time this email hits your inbox tonight. “I have been involved in Democratic Party activism for two decades, and I have never seen anything as unifying across the party as Kamala Harris running for president,” Kapp told me. Any hurt feelings over the Biden flame wars of the past few weeks? Evaporated.
+“Everyone is on board,” he said. “We are all on board.”
+
+Harris’s fundraising numbers are absolutely staggering. In just 24 hours, the campaign has raised $81 million. That’s the biggest single-day fundraising total in American history—a sum that erases the cash advantage Trump has built up in recent weeks. Democratic donors—small, large, and mega alike—had been holding back on giving since the Atlanta debate, and down-ballot Senate and House campaigns were suffering from the party-wide anguish and confusion, too, I’m reliably told. The flood of Harris money has erased that problem, just in time for the newly minted Harris campaign to flex what will surely be a bonkers July fundraising total come next month. I have never seen anything like it.
+
+The surge of Democratic excitement has Donald Trump’s campaign on its heels, at least for now. They were counting on running against “a corpse,” as one Trump official told me
+recently. In recent weeks, polls showed Trump opening up comfortable leads in every battleground state, Mar-a-Lago viewed the G.O.P. convention as a (mostly) on-message success, and the assassination attempt on Trump earlier this month gave the campaign an almost divine sense of inevitability against a hapless Democratic incumbent. Instead, we now enter the final 100 or so days with a completely new presidential race—one in which the Trump campaign has to rejigger its messaging against a woman of color while grappling with a level of Democratic enthusiasm that Biden had been failing to summon all year.
+
+The press coverage, too, has been turned on its head. Just days ago, the media was feasting on Democratic infighting and the coming demise of the Biden campaign. At one point during the Biden death watch this month, multiple Republican friends messaged me with wide-eyed astonishment: For the first time in the Trump era, they said, the press corps was turning its
+claws on a Democrat. But with the anointment of Harris, Democrats are basking in media goodwill once again. The press likes nothing more than something shiny and new. Social media, too, has exploded with Kamala memes and viral edits—most of them genuinely funny, weird, shareable—without the campaign even lifting a finger. Unlike the days of Dark Brandon, none of it feels forced or cringe. Even Charli XCX weighed in on Sunday, saying that “Kamala is BRAT.” (Read more about that here ( https://puck.news/biden-isnt-cool-will-it-matter/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )). The last time Democrats had a nominee who was organically fun on the internet? Probably 2008, and that was a very different internet.
+
+But, of course, the buzz of the last 24 hours won’t last, because the first day is always the best day.
+The reason that cliché exists is that campaigns get difficult—fast.
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad2_title) ( https://phrma.org/policy-issues/340b?utm_campaign=2024-q3-340b-340-340BPBMPuckTBTBhighimpact-bargraph&utm_medium=pai_spn&utm_source=pck&utm_content=all-pol-bnr_sta-340BPBMBarGraph&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#giveaway )
+
+The 340B drug pricing program is supposed to help vulnerable patients access medicines at qualifying hospitals and clinics. It’s meant to be a safety net for those who really need it. So why is the 340B program padding profits for large hospitals, PBMs and chain pharmacies?
+
+Hospitals that participate in the 340B program contract with more than 33,000 pharmacies to dispense the program’s drug prescriptions. More than 40% of these pharmacies have financial ties to one of the three largest PBMs – CVS Health, Express Scripts and OptumRx. 340B hospitals and the PBM-owned pharmacies they contract with are profiting off discounted medicines while uninsured patients are left paying full price for their medicines. Let’s fix 340B so it better helps patients. ( https://phrma.org/policy-issues/340b?utm_campaign=2024-q3-340b-340-340BPBMPuckTBTBhighimpact-bargraph&utm_medium=pai_spn&utm_source=pck&utm_content=all-pol-bnr_sta-340BPBMBarGraph&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#giveaway )
+
+Redefining Kamala
+
+Harris has many challenges ahead. The first is that despite the weekend’s hype, Biden’s vice president is still unpopular. Her average approval rating is only around 38 percent, no better than Biden’s, though her disapproval ratings are lower, suggesting some room to grow. In horse race polls since the debate disaster in Atlanta, Harris has been running slightly behind Trump, about where Biden was. Democrats right now are hyped—but they are still losing. Harris has to improve her poll numbers and win over the couch-sitters who were resisting Biden. Specifically, she has to prove that she can rally the younger voters and voters of color who have been stiff-arming Biden throughout the campaign, in particular young Black and Hispanic men. She also has to give people considering a third-party candidate a reason not to. That’s a tall order.
+
+What’s going to be critical for both campaigns is defining Harris—literally, in the next few days and weeks. Despite the onrush of enthusiasm from Democratic die-hards, Harris, like any V.P., has been an afterthought to most Americans for the last three years. I spent some time ( https://puck.news/the-kamala-comeback/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with her recently, and as I’ve written, I got the sense she has improved as a politician since her lackluster 2020 Democratic primary campaign. But the klieg lights of a general election are an entirely different beast. On Monday morning, I texted a Trump advisor asking how they plan to run against Kamala. The advisor called her “dangerously liberal” and said Harris would be saddled with Biden’s record on border security and
+inflation. “Harris inflation,” this
+person said.
+
+The Trump campaign will go scorched earth against Harris on immigration and prices, and will try to paint her as an out-of-touch California leftist with a penchant for goofy and unserious statements. They’ll micro-target Black voters with “Kamala Is A Cop” messaging about her record as San Francisco District Attorney, and they’ll blame Harris for the war in Gaza in targeted messaging to young progressives and voters in Michigan. And that’s just what to expect from the campaign. Who knows what the MAGA internet—and Trump himself—will say about a Black and South Asian woman running for president.
+
+For the Harris campaign, it’s imperative that they tap their gargantuan fundraising haul immediately to bombard swing states with paid advertising reintroducing Harris to the country on their terms. I’m curious what messaging they settle on. The ads will almost certainly focus on protecting abortion rights, a topic better suited
+to Harris than Biden and the centerpiece of her campaign efforts for the last year. The campaign will also try to graft Biden’s more popular accomplishments—lowering the cost of prescription drugs, creating more than 15 million jobs, passing gun reform legislation, historic investments in clean energy—onto Harris. Maybe we’ll get some prosecutor-versus-felon messaging that the MSNBC crowd so desperately craves. But pay attention to that very first Harris campaign ad, whenever it drops, because it will tell us a lot about where this campaign is going.
+
+$(ad3_title) ( https://phrma.org/policy-issues/340b?utm_campaign=2024-q3-340b-340-340BPBMPuckTBTBhighimpact-bargraph&utm_medium=pai_spn&utm_source=pck&utm_content=all-pol-bnr_sta-340BPBMBarGraph&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a#giveaway )
+
+The Independent Factor
+
+So what do voters think about Harris as a person and a candidate? What strengths and weaknesses does she bring to the campaign? As part of our 2024 partnership with the polling firm Echelon Insights, we asked voters ( https://puck.news/wp-content/uploads/2024/07/July-2024-Voter-Omnibus-Topline-PUCKv2.pdf?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for open-ended responses to the simple question, “How would you describe Harris in a few words?” Our poll was in the field over the weekend, from Friday to Sunday, before the big Biden news and the arrival of Harris as the likely nominee. But the qualitative data is still valuable because it offers a glimpse into how
+the electorate sees Harris as she embarks on this unprecedented four-month sprint of a campaign.
+
+About a third of likely voters ( https://puck.news/wp-content/uploads/2024/07/July-Omnibus-Crosstabs-PUCK-with-OE.pdf?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) (29 percent) offered positive answers describing her as “competent, capable, strong” or something similar. More than half of Democrats responded in positive terms, and Black voters and young voters were more likely to say nice things about Harris than other subgroups, which is good news for Democrats who have been pining after those voters. But crucially, only 21 percent of independents responded positively when asked about Harris. Independents were just as likely to call Harris some variation of “unlikeable” or
+“unprepared” (21 percent) or respond with negative name-calling (16 percent). The most common response from independent voters on Harris? That they didn’t know much about her at all, or had a neutral opinion (21 percent).
+
+“Democrats think of Kamala Harris as competent, capable, and strong,” said Kristen Soltis Anderson, a co-founder of Echelon. “Republicans, on the other hand, don’t hesitate to say they think she is unlikeable or unprepared to lead on her own. Independents, as you might expect, are often somewhere in the middle or simply say they don’t feel like they know enough quite yet.” This is, obviously, why the race to define Harris in the next few weeks is so critical for both campaigns. Democratic and Republican voters view Harris through their expected partisan lenses. And Trump, of course, is fully defined across the spectrum. But our poll suggests that opinions of Harris are still being formed among independent voters. Their
+eventual views might sway the entire election.
+
+We also found in our poll that Biden made the right decision to leave the race, at least according to Democrats. The Echelon poll asked Democrats, “Which do you think would be the best decision for Biden’s legacy, even if neither option is perfect?”—to run for a second term, or “leaving the race to make room for the next generation of Democratic leaders.” About half of Democrats (49 percent) said it would be better for Biden’s legacy to leave the race. And again, that was before he made his actual announcement. Only 40 percent of Democrats said it would be better for Biden’s legacy to run for a second term.
+
+As for the rush by Democratic elites to anoint Harris as the nominee, most Democratic voters were supportive, but not exactly a dominant majority. Asked if they wanted Harris or someone else if Biden were to leave the race, 62 percent of Democratic voters said Harris, while 18 percent said
+someone else, and 20 percent were unsure.
+
+Democratic voters also seem more open than party insiders to the idea of a competitive nomination before or at the Democratic convention, whatever shape that would take. As of Sunday, 48 percent of Democrats said they want a quick vote for Harris to become the nominee, versus 38 percent who said they favored “an open contest at the convention with numerous candidates.” But with Democrats in Washington rallying around Harris as their horse for November, it seems clear the latter group will not get their wish.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+After Biden ( https://puck.news/after-biden-pelosis-power-kamalas-positioning-whats-next/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+After Biden ( https://puck.news/after-biden-pelosis-power-kamalas-positioning-whats-next/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Democrats’ four big takeaways from a stunning weekend.
+
+JOHN HEILEMANN
+
+Zaz Tea Leaves ( https://puck.news/zazs-everything-on-the-table-era/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Zaz Tea Leaves ( https://puck.news/zazs-everything-on-the-table-era/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On David Zaslav’s calculations as WBD enters choppy waters.
+
+WILLIAM D. COHAN
+
+Kamala Coronation Questions ( https://puck.news/kamala-coronation-questions/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Kamala Coronation Questions ( https://puck.news/kamala-coronation-questions/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Dissecting Harris’s de facto anointment with Steve Schmidt.
+
+TARA PALMERI
+
+Art Market Ironies ( https://puck.news/the-end-of-the-art-worlds-arb-era/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Art Market Ironies ( https://puck.news/the-end-of-the-art-worlds-arb-era/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Behind the nosedive of BofA’s $10 billion art loan book.
+
+MARION MANEKER
+
+swash divider
+
+Puck ( https://puck.news/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=the_best_and_the_brightest&delivery_id=dgT2xgYDAKvRKqrRKgGQ3TW5hiJNuQNsARw4n0c=&utm_campaign=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F22%2F24%29&utm_content=The+Best+%26+The+Brightest+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

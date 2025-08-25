@@ -1,0 +1,95 @@
+# Intel Earnings, Intel's Nadir (Stratechery Update 8-21-2024)
+
+**From:** Ben Thompson <email@stratechery.com>
+**Date:** Wed, 21 Aug 2024 13:27:50 +0000
+**Source:** inputs/saved_emails/Intel Earnings, Intel's Nadir (Stratechery Update 8-21-2024)_Wed,_21_Aug_2024_13-27-50_+0000_191751f6421425e2.eml
+**Processed:** 2025-08-24T19:13:12.244305
+
+Intel's earnings were bad again, but the downward movement in the stock should have been priced in years ago; current management, meanwhile, can't be evaluated for at least two more years.
+
+View in browser ( https://stratechery.com/2024/intel-earnings-intels-nadir/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2ludGVsLWVhcm5pbmdzLWludGVscy1uYWRpci8iXX0sImV4cCI6MTcyNjgzODg3MCwiaWF0IjoxNzI0MjQ2ODcwLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.vJnU6YADfdIeah2UUxyvR6Co0azthDjFsrpErnxmiIkaZ2Jv3uCrUKla8OaMGvf9cL0ITvEQ-ZQtT9h0DKf90T1Ztw3T6U6zwvLvylwSnIS-Xv-m1lYl5lowsDiIj4jJ41i0yEpVowa3lnVtlnwNPa5PuUuX0xnD5LVW3j5Boh2B-nZBOT6-gWKQcRs7CWh5EPL0m51g4116BRbPNwi068FrUfjEYpJcieABKP8sPWIucud670X-XyTP5ActNL-dU2cF0tbIbDYuuctPhaKLzEltWD0v4a9jz9fJOxaiDBTIcQzqLiBXQGJhPPRKop3UkP4Ab3Ku6VsjvdzHp_j2Ug )
+
+( https://stratechery.com )
+
+*****************************
+Intel Earnings, Intel's Nadir
+*****************************
+
+( https://stratechery.com/2024/intel-earnings-intels-nadir/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI0L2ludGVsLWVhcm5pbmdzLWludGVscy1uYWRpci8iXX0sImV4cCI6MTcyNjgzODg3MCwiaWF0IjoxNzI0MjQ2ODcwLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.vJnU6YADfdIeah2UUxyvR6Co0azthDjFsrpErnxmiIkaZ2Jv3uCrUKla8OaMGvf9cL0ITvEQ-ZQtT9h0DKf90T1Ztw3T6U6zwvLvylwSnIS-Xv-m1lYl5lowsDiIj4jJ41i0yEpVowa3lnVtlnwNPa5PuUuX0xnD5LVW3j5Boh2B-nZBOT6-gWKQcRs7CWh5EPL0m51g4116BRbPNwi068FrUfjEYpJcieABKP8sPWIucud670X-XyTP5ActNL-dU2cF0tbIbDYuuctPhaKLzEltWD0v4a9jz9fJOxaiDBTIcQzqLiBXQGJhPPRKop3UkP4Ab3Ku6VsjvdzHp_j2Ug ) Wednesday, August 21, 2024
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+There is one more earnings result from this past season I wanted to get to, and this one is an ugly one.
+
+On to the Update:
+
+Intel Earnings
+--------------
+
+From Bloomberg ( https://www.bloomberg.com/news/articles/2024-08-01/intel-says-revenue-will-fall-short-of-expectations-cuts-jobs ) :
+
+Intel Corp. shares suffered their largest decline in more than 40 years after the company gave a grim growth forecast and laid out plans to slash 15,000 jobs, signaling that the chipmaker is ill-equipped to compete in the artificial intelligence era. The shares fell 26% to $21.48, wiping out about $32 billion in market value. This marks the stock’s biggest single-day drop since since at least 1982, according to data compiled by Bloomberg.
+
+Sales for the current quarter will be $12.5 billion to $13.5 billion, the company said Thursday. Analysts had projected $14.38 billion on average, according to data compiled by Bloomberg. Intel will have a loss of 3 cents a share, excluding certain items, versus expectations for a profit of 30 cents…
+
+[Intel CEO Pat] Gelsinger, despite a massive spending plan to restore Intel to industry prominence, is struggling to improve the company’s products and technology fast enough to retain customers. The results underscore a dramatic decline for Intel, which dominated the semiconductor industry for decades and is now forced to tout cost cutting measures and give reassurances that it can fund growth plans.
+
+Intel’s stock is, as I write this Update, at $20.99; the last time the company approached that level was in 2013.
+
+2013, meanwhile, was the year I started Stratechery, and one of my first Articles was The Intel Opportunity ( https://stratechery.com/2013/the-intel-opportunity/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDEzL3RoZS1pbnRlbC1vcHBvcnR1bml0eS8iXX0sImV4cCI6MTcyNjgzODg3MCwiaWF0IjoxNzI0MjQ2ODcwLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.MiwF9g8SOlCTzPNjYrwxueNSr7GZa82N8IGM2bWrtWssm9VEDa778SLZpXfVOQaIUXiqGiLjpfSl6EPlO83UsqXTa_4o361QvLgp9l00z86zry252l9JCfVzuzZkhUVZ8juM_XFu0DZLVJVk9ZQkCEtFr1pwJ5qk5XL_GkZWpPALBrjbRUPmY27pnf8I0Q5Uk18po2_wu2xMb6rQeHKKtK2IoHRPg3N_yJG0itaSKgSzvN9ypaLrm8wQeb5E2T8Du_HBydn_OYnFdadBl1SzRbKUw0iGW0CzJmDwryC1Fghaoblk4myCNzBruW_qTflQhx0Ag3OpAn212jmDAV6xdQ ). In that piece I argued that Intel needed to shift away from an integrated model to one in which it operated a foundry for external customers. Of course Intel did not take my advice, and what is notable is that the stock market didn’t care: Intel was riding the cloud wave, selling tons of high end Xeon processors.
+
+Moreover, what is particularly surprising about this stock chart is that Intel wasn’t really punished when it ran into a manufacturing wall at 10nm and was surpassed by TSMC; in fact, the company’s stock actually surged in 2018 when the company made the shocking decision to build more 14nm capacity — an old node that was already behind TSMC — because it continued to fail at 10nm. Wall Street liked the idea of fabs that moved more volume without expensive ramps; never mind what that decision said about Intel’s complete collapse in terms of manufacturing prowess, and what that said about the future.
+
+Indeed, in the eternal argument of whether or not Wall Street values short term results or long-term strategies, Intel has always struck me as a powerful bit of evidence for the former: it was pretty clear back in 2013 that Intel was facing long-term challenges in terms of having the necessary volume to continue pushing Moore’s Law forward; that was only exacerbated by the failure at 10nm and the loss of process leadership to TSMC. And yet the stock went up and up.
+
+Intel’s Nadir
+-------------
+
+The reason to recount this history of Intel’s stock highs is that now the company is in the opposite situation: the company is in the nadir that was engineered by prior management, and only now does Wall Street seem to recognize it.
+
+First, Intel’s chips aren’t as good as they should be, which has hurt them in the data center in particular. AMD has both had better designs and, thanks to their partnership with TSMC, a better process.
+
+Second, Intel’s short-term margins are getting killed for two reasons. The first is that the reality of “five nodes in four years” is that Intel’s pell-mell effort to catch up in process technology has meant that most of those nodes have been more about getting things working in the lab than in actual high-volume production. That means actually using any of those intermediary nodes entails much higher costs; this is what is happening with Intel 4. from the company’s earnings call ( https://seekingalpha.com/article/4709506-intel-corporation-intc-q2-2024-earnings-call-transcript ) :
+
+We were originally planning to ramp Meteor Lake, Intel 3, and even run production on Intel 4 — sorry, Intel 4, and then run production on Intel 3 in Oregon, which is our TD fab, our process technology fab, kind of our development fab. We made the decision to more quickly shift all of that over to Ireland. And it’s a good move because it saves capital. We don’t have to spend capital twice essentially. And it starts to mature the Intel 4 and Intel 3 processes in Ireland more quickly.
+
+The downside of that is the wafers are expensive right now. And so we get this kind of early ramp of the product at a much higher wafer cost that we’re pushing through the system and that puts pressure on the margins. That’s going to carry into next quarter. I mean, we will do better in next quarter, obviously, but we’re going to do more volume and the margins will be below the corporate average because while we’re improving the wafer cost, it’s still not to the point where it’s above corporate average yet.
+
+What makes the Intel 4/3 (3 is an evolution of 4) node even more challenging from a financial perspective is that some of Intel’s high-volume chips — the “AI PC” chips that the company is counting on to drive new PC volume — aren’t even using them: Lunar Lake (and I believe some high-volume SKUs of Arrow Lake) are having not just their GPU tiles but also their CPU tiles made by TSMC. This, needless to say, is not cheap either. Again from the earnings call:
+
+We expect gross margins to be moderately weaker sequentially with modest revenue growth and efficiencies offset by a continued ramp of new manufacturing nodes. While we will continue our work to improve near-term profitability, a heavier dependence on external wafers as we ramp AI PC products over the next several quarters will pressure gross margins. As a result of these factors, we expect revenue of $12.5 billion to $13.5 billion in the third quarter. At the midpoint of $13 billion, we expect gross margin of approximately 38% with a tax rate of 13% and EPS of negative $0.03, all on a non-GAAP basis.
+
+CFO David Zisner expounded on this point in the question-and-answer section:
+
+I think on the margin front, I talked about our kind of tempered view of gross margins next year, given the ramp of Lunar Lake, which with memory and package and almost all of the material getting sourced outside and we’re seeing inflation in that space that is impacting it. But that part is followed by Panther Lake, that comes back into the fab. And I think one of the bigger stories we’ll have once we get beyond next year is kind of the resurgence of our internal facilities to start taking on a lot of the capacity that we had to move into the external sources should provide some meaningful improvement in terms of profitability.
+
+Here’s the thing about that TSMC outsourcing: this is downstream from a deal — including purchase guarantees — that previous Intel CEO Bob Swan made back in 2020 ( https://stratechery.com/2020/intels-new-delay-intels-multiplying-delays-intel-and-tsmc/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIwL2ludGVscy1uZXctZGVsYXktaW50ZWxzLW11bHRpcGx5aW5nLWRlbGF5cy1pbnRlbC1hbmQtdHNtYy8iXX0sImV4cCI6MTcyNjgzODg3MCwiaWF0IjoxNzI0MjQ2ODcwLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.RofycJpv0aSCM58WZlgiH9aX-0U7WU-1mRjHPp1NwtPX7l0LBSUkoH5rgHKerwg9rmbxusT6lx-NWbtOdf71BoFl-kGoG5X_xtECfnJyggRIs7gh4fbpcYJ8c2Q1sMTQ2jUkDtMmXMUVZdVXsQ-Jh9sTJnPO3ahwLP8jqvH7d2xsjTKl3rzZDFT_gcEW1aZk_N8N5lcb-vSV2Swc7mdjEaxOrLsCmSd1GdDXFs3eLb4m7xwJO8xYFGJTukliTRw_srqvut_28d216oMCoOtfOR-eOpArZMkzYsnD1Tp0o-CrxO2FqHOVqZB4QfqiuM96UYAZ6e8VRVjnERN4qt7-wQ ). In other words, the latest Intel earnings calamity — crashing margins — should have been priced in when Intel’s stock was at its highest point since the dot-com bubble.
+
+Gelsinger has made mistakes. The dividend should have been ended earlier ( https://stratechery.com/2023/intel-pay-cuts-and-revisiting-the-dividend-question-investor-honesty-amds-earnings/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDIzL2ludGVsLXBheS1jdXRzLWFuZC1yZXZpc2l0aW5nLXRoZS1kaXZpZGVuZC1xdWVzdGlvbi1pbnZlc3Rvci1ob25lc3R5LWFtZHMtZWFybmluZ3MvIl19LCJleHAiOjE3MjY4Mzg4NzAsImlhdCI6MTcyNDI0Njg3MCwiaXNzIjoiaHR0cHM6Ly9hcGkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJSc2V1WUU4amdIZVBwV0pmMWZBYjRDIiwidXNlIjoiYWNjZXNzIn0.k0YXmOcFmrea-IykRx6sX2oetP09IgoDq5yXZfp4DutLKgPswa6uaJ-5uJiEnk48gJJrOJSvw77FGsYx86jFSshLKZvggw_gMsPLxnVPqr8SJifnzP0tHM3rxdjyiBwaIrOuXkUOzIrJS-FhPCzNfngFFgnto4S7uYwVibMwHV6k8H2oFYPd-Dlueek8Iu_DFcdIwCug6ASRDrqnSAQIB5cwx7taUNaoVQBi-ygikLvtwLCjmDaP1MS97UlFg8rwfLtwZA39O0M3MNsKcyq-WWeB99GmUUz7vMSXrwLQ2BHtzEuh7byrkSeCbiUFU4hYU3awmAhnRUm8cXca-RPIrQ ) , and Intel should have done these layoffs a while ago. There have also been two secular trends that have hurt the company: first, the COVID boom, which made it hard to cut, and then the crash, which made everything seem worse; and second, the rise of AI has shifted dollars away from server CPUs to GPUs, where Intel doesn’t have a strong play (another error that goes back years and years).
+
+Any evaluation of Intel, though, ought to be a long-range one. That means that today’s poor results should be viewed in the context of decisions made 5~10 years ago, and an appreciation that decisions made more recently won’t pay off for several more years to come. The real measure of Gelsinger’s leadership in particular will come with 16A: that is the node that Intel is betting the company on. That’s when internal chip production should come home, when Intel will finally have a leading or near-leading process operating at volume, and when the question of whether or not the company can actually earn 3rd-party business will be finally be answered.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player: Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Greatest Of All Talk ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: April 23, 2022
+Your subscription renews every year
+Renewal date: December 8, 2024
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+Click here ( https://stratechery.passport.online/member/unsubscribe?unsub=https%3A%2F%2Fapi.passport.online%2Fapi%2F1.0.0%2Fusers%2FRseuYE8jgHePpWJf1fAb4C%2FchannelOptOut%3Faccess_token%3DeyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvYXBpLzEuMC4wL3VzZXJzL1JzZXVZRThqZ0hlUHBXSmYxZkFiNEMvY2hhbm5lbE9wdE91dD9jaGFubmVsPWVtYWlsXHUwMDI2cmVkaXJlY3RfdXJpPWh0dHBzJTNBJTJGJTJGc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lJTJGbWVtYmVyJTJGdW5zdWJzY3JpYmUiXX0sImV4cCI6MTcyNjgzODg3MCwiaWF0IjoxNzI0MjQ2ODcwLCJpc3MiOiJodHRwczovL2FwaS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6Im1lbWJlcjp3cml0ZSIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.pEG8MqVg5eGT9h3iUap2JDqb0vtFYBHRQ0lIEegXCp7ScsdkO7eVxWFDWPg0NXxubNPaMw8UXN_5L0C6lHTsQjbSdvEa5JHZajeH6tTzim3Bpdo8Tf6T7-QrLwuSS0j5PvPDdGl7UkWun9Umqa9p5OsNMGioy00bVxI4Tr2bqz_i8hX7JU8CCrFjHbYx4mn2_cjZqSDqJkGnnineLf9gdrpqC-py9_EQbH7b_r2h4axCXMxqIunsdVKXvQX-aJsuVBCH0lkd36atEsudPVe82uZ1vXiTwIgI55tJN-fBVPjzrgmtlUvfH5ELAKz31_Ssz7-XCaN4LIF4s4WOApODRA%26channel%3Demail%26redirect_uri%3Dhttps%253A%252F%252Fstratechery.passport.online%252Fmember%252Funsubscribe ) to unsubscribe.
+
+© 2024 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

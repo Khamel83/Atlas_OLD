@@ -1,0 +1,810 @@
+# Money Stuff: The SEC Was Busy Last Week
+
+**From:** "Matt Levine" <noreply@news.bloomberg.com>
+**Date:** Tue, 21 Jan 2025 18:31:16 +0000
+**Source:** inputs/saved_emails/Money Stuff The SEC Was Busy Last Week_Tue,_21_Jan_2025_18-31-16_+0000_1948a223e24801e7.eml
+**Processed:** 2025-08-24T19:13:07.598874
+
+Money Stuff 
+ What if the US Securities and Exchange Commission never brings another 
+enforcement case? What if it’s like “ahh, go ahead, do all the fraud 
+
+
+ <> 
+ 
+<https://sli.bloomberg.com/click?s=825881&stpe=default&li=12371556&m=21d6dea82d6b16615cf44233be620525&p=01212025>
+
+
+
+SEC: General
+
+What if the US Securities and Exchange Commission never brings another 
+enforcement case? What if it’s like “ahh, go ahead, do all the fraud you want”? 
+What if the only enforcement cases are against BlackRock fordoing ESG investing 
+<>, or against short sellers <> of Trump Media & Technology Group Corp.? Crime 
+might be legal now, if you are a vocal enough supporter of Donald Trump, and 
+the financial and crypto industries are rushing to support him. It’s hard to 
+imagine anyone getting in trouble fortexting about work from their personal 
+phones <>, now.
+
+Just in case, the SEC filed a ton of enforcement actions on Friday, the last 
+practical day it could do so before the administration changed. [1]  <> We will 
+talk about a few of the highlights in the following sections.
+
+The main reason that the SEC brings cases like these, and one of the main 
+reasons I write about them, is that they form the contours of legal financial 
+conduct; they tell you what you are and are not allowed to do. If there is an 
+SEC case against a firm for doing X, then that is a way of informing the 
+financial industry that you are not allowed to do X; each big published 
+enforcement action expands the law a bit, telling the world not just “this firm 
+did a bad thing” but also “this thing that a lot of people were doing? It’s 
+bad.” Compliance officers and law firms will send out memos to their clients, 
+saying “hey after the SEC case last week, you are not allowed to do X.” “
+Regulation by enforcement <>” is the mean way of putting it.
+
+Last week’s cases, like every case, make rules. Or rather, made rules. They 
+made rules that were meaningful in the world of Gary Gensler’s SEC. [2]  <> Can 
+you just ignore these rules now? Are they a waste of time? Are you allowed to 
+do all of the things that last week’s cases say you are not allowed to do? 
+Probably not, no, probably I wouldn’t go that far. Still it feels weird to talk 
+today about what the rules are, based on last week’s cases. I’m going to do it 
+anyway, but the rules have probably changed.
+
+ 
+<https://sli.bloomberg.com/click?s=868432&stpe=default&li=12371556&m=21d6dea82d6b16615cf44233be620525&p=01212025>
+
+ 
+<https://sli.bloomberg.com/click?s=868432&stpe=default&li=12371556&m=21d6dea82d6b16615cf44233be620525&p=01212025>
+
+SEC: Two Sigma
+
+Quantitative hedge funds and proprietary trading firms employ researchers 
+whose job is to find trading signals. A trading signal is some rule of the form 
+“when you see X, that means that Stock Y will probably go up.” X is something 
+observable — some other security’s price or volume or some other market event, 
+or some accounting item, or something happening on social media, or some 
+satellite photos of parking lots, or whatever — and the researcher has found 
+that, when X happens, then there is statistically significant increase in the 
+probability that Stock Y will go up. So the researcher will go to her boss and 
+say “good news, I discovered that X predicts that Stock Y will go up, so 
+whenever X happens we should buy some Stock Y.”
+
+“Not so fast,” her boss will say. “You have found that, when X happens, Stock 
+Y will outperform the market by 0.1% the next day, 54% of the time. That’s good 
+work, and I am impressed. But we can’t run a hedge fund off that fact. For one 
+thing, we have transaction costs to trade Stock Y, which will eat up much of 
+the expected profit. For another thing, we have like 500 other signals that 
+your colleagues have found. Sometimes, when your signal predicts Stock Y will 
+go up, our other signals predict it will go down, and we should actually sell 
+it, not buy it, if those other signals are better. Other times, when your 
+signal predicts Stock Y will go up, our other signalsalso predict it will go 
+up, so your signal is not that useful. No, we cannot run a strategy that is 
+just ‘when X happens, buy Stock Y.’ Instead, what we will do is add your signal 
+into our big trading model. The big trading model looks at all the signals and 
+combines them in some appropriate way to get our firm’s combined best guess 
+about what stocks will go up and down. Your signal will be added to the big 
+trading model, which will make the model a bit smarter about Stock Y, some of 
+the time. But the big trading model will never be reducible to a rule as simple 
+as ‘when X happens, buy Stock Y.’ The big trading model knows many other 
+things.”
+
+And so the researcher’s signal will get added to the model. Generally 
+speaking, the signal will be worth more — will have more influence on the model 
+— if:
+
+ * It is strong: “When X happens, Stock Y goes up by 5%, 90% of the time” is 
+better than “When X happens, Stock Y goes up by 0.1%, 54% of the time.” The 
+higher theSharpe ratio <> of a strategy, the better it is. 
+ * It is uncorrelated to the model’s other signals. If you find a signal like 
+“companies underperform when their chief executive officers havenice suntans <>
+,” but the model already incorporates a signal like “companies underperform 
+when their CEOs have lowgolf handicaps <>,” and golf skill and suntans are 
+highly correlated, then your signal is not adding very much to the model, even 
+if it is pretty good on its own. 
+In fact, if your signal is too correlated to other signals, the model might 
+ignore it or even tradeagainst it. Michael Isichenko writes <>:
+
+What is less intuitive, if the correlation of two performing books gets high 
+enough, … the optimal weight … for the lower-Sharpe book gets negative, even 
+though the book is profitable by itself. This observation emphasizes an 
+important role of correlations in combining, and also poses an interesting 
+question of pnl attribution … for the purposes of compensation of quants 
+working for a combined portfolio. ...
+
+Positively correlated forecasts compete for weight in the mix. Many weights 
+can end up zero or even negative. … Forecasts contribute to the optimal bottom 
+line in a complicated, nonlinear way, and the sum of the contributions, however 
+computed, does not normally add up to the total.
+
+Isichenko is discussing the most important question in quantitative finance: 
+“How much is my bonus?” Generally speaking, the more value a researcher adds to 
+the overall trading model, the more she gets paid. The way you add value to the 
+overall trading model, crudely speaking, is (1) the model trades on your 
+signals and (2) the stocks that it buys on your signals go up.
+
+If you are a quantitative researcher, you could imagine gaming this. One form 
+of gaming is:
+
+ * You find a signal. It’s pretty good, not amazing, but pretty good. 
+ * You hand it off to your boss and it goes into the big trading model. 
+ * The big trading model doesn’t make much use of it, because it is too 
+correlated with other signals. 
+ * Therefore, you do not get paid very much for the signal you found. 
+ * You find those other signals and break their kneecaps. 
+ * Now the big trading model stops using the other signals and uses yours 
+instead. 
+ * Yours is pretty good, so it makes money, so you get paid. 
+The problem with this is that you can’t really break the kneecaps of 
+statistical models of stock price returns. What youcould do, maybe, is trick 
+the big trading model into thinking that your signal is uncorrelated with the 
+other signals. Then the big trading model will use your signal a lot — it will 
+trade a lot of stock based on your signal — because uncorrelated signals are 
+very useful. And you will get paid a lot.
+
+Is this bad? Well, sure, I mean, the big trading model was optimized to 
+achieve high risk-adjusted returns, and by tricking it into using more of your 
+signal, you break that optimization. The model will achieve lower risk-adjusted 
+returns. But maybe higher absolute returns; who knows? By breaking the model in 
+this way, you cause it to double down on your signal, to put more money into 
+your signal than it deserves. If your signal works pretty well, then for a 
+while this could actually begood for the model’s performance; it is taking more 
+risk but possibly earning higher returns.
+
+Anyway this is not any sort of advice about anything, and in general if you 
+are a researcher at a quant firm, tricking your firm’s trading models in this 
+way is (1) a bad idea and (2) probably not all that feasible. They will try not 
+to let you do that. But … maybe? Here’san SEC case from last Thursday <> 
+against Two Sigma Investments LP:
+
+According to the SEC’s order, in or before March 2019, Two Sigma employees 
+identified and recognized vulnerabilities in certain Two Sigma investment 
+models that could negatively impact clients’ investment returns, but Two Sigma 
+waited until August 2023 to address the issues. Despite recognizing these 
+vulnerabilities, Two Sigma failed to adopt and implement written policies and 
+procedures to address them and failed to supervise one of its employees who 
+made unauthorized changes to more than a dozen models, which resulted in Two 
+Sigma making investment decisions that it otherwise would not have made on 
+behalf of its clients.
+
+We talked about this situation in 2023 <>, when it was first reported <> that 
+“a researcher at Two Sigma Investments adjusted the hedge fund’s investing 
+models without authorization.” Apparently he “was trying to improve the firm’s 
+performance, which would have benefited his career and potential pay.” And, in 
+an obvious sense, it worked:The SEC says <> that his “changes resulted in 
+certain funds and [separately managed accounts] overperforming by more than 
+$400 million and other funds and SMAs underperforming by approximately $165 
+million.” So he added more money than he subtracted, but in a bad way.
+
+The SEC order <> lays out the bad way. Two Sigma’s trading code was off limits 
+to researchers: “Two Sigma’s live trading system uses Model code that is stored 
+in a secure file called the ‘Jar,’” and researchers couldn’t mess with it. But 
+there was a separate database, called celFS, “to store certain Model parameters 
+that were too large to be stored in the Jar,” and the researchers had more 
+ability to change that. [3]  <> 
+
+To get a signal or strategy — called a “Model” in the SEC order — approved, 
+researchers had to submit a white paper and other documentation explaining the 
+model, and Two Sigma decided if it was strong and uncorrelated enough. “Two 
+Sigma management then reviewed these documents and forms, and Models could be 
+approved where, among other things, the modeler’s documentation reported that 
+the proposed Model’s correlation to existing Models was below a specified 
+threshold.”
+
+But once it was approved:
+
+Between November 2021 and August 2023, Modeler A, a TSI employee who had used 
+celFS to store certain Model parameters for years, made dozens of unauthorized 
+changes to Model decorrelation parameters stored in celFS for fourteen 
+different Models that Two Sigma used in live trading. These Models included 
+both Models that Modeler A developed himself as well as Models developed by 
+Modeler A’s direct reports and with which Modeler A assisted. …
+
+By adjusting these Model parameters, in many cases to zero (i.e., nullifying 
+the parameter), Modeler A increased these Models’ expected correlation to Two 
+Sigma’s other Models without detection. ...
+
+These changes caused the Models to perform differently than expected such that 
+Two Sigma made investment decisions that it otherwise would not have made. 
+Specifically, Modeler A’s unauthorized changes resulted in Two Sigma buying or 
+selling more or less of specific securities than it otherwise would have, which 
+caused certain funds and SMAs to overperform by more than $400 million and 
+other funds and SMAs to underperform by approximately $165 million. Modeler A 
+received millions of dollars of additional compensation from Two Sigma as a 
+result of the net overperformance attributable to these changes.
+
+I think that means, roughly, that this researcher cranked up how much Two 
+Sigma’s overall trading engine relied on his models. You have some signal, it 
+spits out trade recommendations, and then the trading engine ignores or scales 
+back those recommendations to the extent they correlate with the firm’s other 
+signals. The decorrelation parameter tells the engine how much to scale them 
+back. If you set that parameter to zero, then the engine takes more of your 
+signal’s recommendations — even if they are highly correlated with other 
+signals — and, if your signal is good, you get more performance attributed to 
+you.
+
+The business of a big quantitative hedge fund is to get a high risk-adjusted 
+return, but in any particular year, if you are an employee of that hedge fund, 
+you might care more about a high absolute return. Probably that gets you a 
+bigger bonus. Quant funds aim for a low volatility of returns, but quant fund
+employeesbenefit from a high volatility: If the returns are high you get a big 
+bonus, if they’re mediocre you need to find a new job, and if they’re 
+catastrophic you need to find a new job, so a 50/50 chance of high or 
+catastrophic is better, for you, than a 100% chance of mediocre. [4]  <> If you 
+can secretly turn the dial to take more risk, you might.
+
+
+SEC: Two Sigma (2) 
+
+Separately, I point <> out <> occasionally <> that one of the great evergreen 
+topics of recent SEC enforcement — up there with texting about work on personal 
+cell phones — is having employees sign nondisclosure agreements. There is an SEC
+whistleblower protection rule <> saying that you are not allowed to impede 
+anyone from talking to the SEC about possible securities law violations, 
+“including [by] enforcing, or threatening to enforce, a confidentiality 
+agreement,” and the SEC takes the position that evenhaving a confidentiality 
+agreement is a “threat” to enforce it, unless the agreement says very clearly 
+“but of course you are allowed to talk to the SEC about whatever you want.” 
+Many financial employers have messed this up.
+
+And last week’s SEC case against Two Sigma <> also includes one of those. When 
+employees left, they signed separation agreements, which said “but of course 
+you are allowed to talk to the SEC,” but not in the right words:
+
+Specifically, Section 6(d) of the Separation Agreements (the “Employee 
+Representation”) required departing employees to make the following 
+representation: “You represent that you have not filed against any Two Sigma 
+Party any charges, complaints or lawsuits regarding any acts or omissions 
+occurring prior to your execution of this Agreement with any international, 
+federal, state, city or local court, governmental agency or arbitration 
+tribunal.”
+
+The Separation Agreements also contained a prospective carve-out in Section 
+14(c) (the “Carve Out”), which stated: “Nothing in this Agreement (including 
+without limitations Sections 5(g), 6, 7 and 8), the Company’s policies or any 
+other agreement between you and the Company prohibits you from making a good 
+faith reporting of possible violations of law or regulation to any governmental 
+agency or entity or making other disclosures that are protected under 
+whistleblower laws or regulations.”
+
+You might think — Two Sigma apparently did think — that this would be enough 
+to satisfy the SEC, but it was not. I won’t tell you why not; it’s more fun to 
+guess, or readthe SEC order <> I guess. This stuff isn’t easy!
+
+
+SEC: Startup accounting
+
+Roughly speaking the way it works is:
+
+ * If you are a young startup raising a seed investment round, you can have a 
+6-year-old write your financial statements on a napkin and hand the napkin to 
+potential investors and it’s fine. Like, for one thing, your financials are 
+probably pretty simple, but also investors are not reallyexpecting 
+professionalism from you at this point. It’s you and two buddies in a garage, 
+you are all working flat-out to build the product, no one expects you to do a 
+good job keeping track of the money. The investors are investing inyou, in your 
+team and your vision and your pitch, not in the financial results you have 
+achieved so far. If the financial statements that you gave them, on that 
+napkin, turn out to bewrong, eh, whatever, it’s not that big a deal. 
+ * If you are a mature startup looking to do an initial public offering, you 
+will have to have competent accountants prepare your financial statements, and 
+you will have to hire a real outside auditing firm to audit them to make sure 
+they’re right, and if you raise money in an IPO and the financial statements 
+turn out to be wrong, you will get in trouble. 
+ * At some point in between those two stages, there is a transition. Before 
+the transition, your financial statements don’t really have to be right. After 
+the transition, they do. 
+This is, it should go without saying, not legal or financial advice. If you 
+call up a lawyer or an accountant and say “hey I’m running a small startup and 
+looking to raise money from investors, is it okay if my financial statements 
+are slapdash and probably wrong,” they will probably say “what, no, your 
+financial statements should be right.” Orhere’s this guy <>:
+
+“In our markets, when potential investors ask for and receive financial 
+information from startups, they reasonably expect those financials to be 
+accurate, reliable, and free from material misrepresentations and omissions,” 
+said Mark Cave, Associate Director of the SEC’s Division of Enforcement.
+
+But … really? From startups? Always? Investors expect those financials to be 
+accurate and reliable? I feel like that’s not true. I feel like the realistic 
+expectation ismore like this <>:
+
+Employee A prepared the working financial information for investors on an 
+ad-hoc basis, updating it whenever an investor requested GrubMarket’s financial 
+information. To prepare the working financial information provided to 
+investors, Employee A reviewed bank statements and accounting records for the 
+wholesalers on whatever accounting systems they used and spoke with managers 
+for the wholesalers. Employee A’s other responsibilities included overseeing 
+operations and logistics, sourcing and packing produce, and managing payroll, 
+human resources, insurance, and food safety. Despite GrubMarket’s rapid growth, 
+it continued to devote limited resources to the preparation of financial 
+information that was shared with investors.
+
+GrubMarket Inc. was a startup founded “with the goal of digitizing the food 
+supply chain” by “acquiring produce and meat wholesalers” and putting them on 
+its software platform, though they continued to be managed by their former 
+owners. It quickly succeeded in acquiring a bunch of wholesalers, each of which 
+had different accounting systems that “ranged from QuickBooks or other 
+accounting software to paper records.” And GrubMarket’s consolidated accounting 
+system consisted of having one person, who was not an accountant but whose day 
+job involvedpacking produce, call up the various acquired wholesalers and say 
+“hey how much money did you make this quarter” or whatever, and then putting 
+that in a spreadsheet or on a napkin. And then the produce packer’s spreadsheet 
+or napkin was sent around to potential investors. Who were like “ah yes, fine, 
+startups.”
+
+Both of those block quotes are from an SEC enforcement action <> against 
+GrubMarket Inc. from last Friday. At some level the problem is that GrubMarket 
+sent out inaccurate financial information to investors: The SEC says that 
+GrubMarket settled (and will pay an $8 million penalty) “for providing 
+investors with financial information that the company should have known was 
+unreliable and that overstated its historical revenues by approximately $550 
+million.” Bad!
+
+But if you read between the lines a little bit, it seems that GrubMarket’s 
+real problem was that it eventually hired a real chief financial officer:
+
+In June 2019, before kicking off marketing for the Series D round, and to 
+improve its finance function, GrubMarket hired as its Corporate Controller a 
+certified public accountant who had an audit background. The Corporate 
+Controller was promoted to the role of Chief Financial Officer in April 2020. …
+
+Shortly after joining GrubMarket, the CFO determined that she could not 
+independently verify the working financial information. Over the next eighteen 
+months, the CFO worked with multiple third-party accounting consultants to 
+develop a supportable and traceable set of GrubMarket financials (the “revised 
+financial information”).
+
+But it kept taking investor money based on the bad financials:
+
+While GrubMarket was using the working financial information to solicit Series 
+D investors, GrubMarket used preliminary versions of the revised financial 
+information for other corporate purposes. …
+
+In early February 2021, GrubMarket shared the substantially completed, revised 
+financial information with prospective investors in the upcoming Series E 
+round. The revised financial information showed materially lower revenue 
+figures than were included in the working financial information that GrubMarket 
+provided to investors in the Series D round, including to Investor A.
+
+GrubMarket did not immediately inform Investor A of the revised financial 
+information. As a result, when Investor A wired the $19 million Series D 
+investment to GrubMarket in late February 2021, Investor A was unaware of the 
+revised financial information.
+
+I feel like the lesson here — again, not legal advice! — is that, if you are a 
+small startup, and your operations/human resources/food safety/fruit packing 
+manager also produces some amateur financial statements, youcan send those 
+amateur financial statements to investors, and youcan take money from those 
+investors, and if the amateur financial statements turn out to be wrong you can 
+be like “yes but our fruit packing manager wrote them, what did you expect?” 
+And everyone — even the SEC — will probably be like “yeah fine that’s fair.” [5]
+ <> But once you hire an actual accountant to be your CFO, and she starts 
+preparing professional financial statements, you can’t keep raising money based 
+on the amateur ones. If you only have fake financial statements and you use 
+them to raise money, ehh, well, you know. But once you have real financial 
+statements you have to stop using the fake ones.
+
+
+SEC: Vanguard
+
+In late 2020, Vanguard Group decided to lower the fees that it charged some 
+medium-sized 401(k) retirement plans for target-date mutual funds. That’s nice! 
+The reasoning for this change was basically that Vanguard was making too much 
+money on these plans, and it wanted to give some of it back to its customers, 
+so it lowered the fees. Just goodness-of-its-heart type stuff. [6]  <>
+
+You would not think that this would lead to any sort of tax problems for 
+Vanguard’s customers, for at least two reasons:
+
+ * Lowering the fees on a mutual fund is not generally a taxable event? You 
+pay taxes when you buy or sell securities, not when your investment manager 
+lowers its fees. 
+ * 401(k) plans are tax-advantaged, and in particular, even if lowering the 
+feeswas generally a taxable event for investors in these funds (it isn’t), 
+people who invested through 401(k) plans would not have any tax liabilities. 
+And yet somehow Vanguard messed it up, and its basically nice decision — to 
+lower fees for medium-sized 401(k) customers — got it in trouble with the SEC. 
+On Friday itagreed to pay <> more than $100 million to settle with the SEC. [7] 
+ <>  <>
+
+Honestly it takes some work to mess this up, but Vanguard managed. Here’s how, 
+fromthe SEC order <>. Vanguard offered target-date funds [8]  <> in two 
+different classes, called “Investor” and “Institutional.” The Investor funds 
+were “for investors with assets of less than $100 million, including small- and 
+medium-sized retirement plans and individual investors”; the Institutional 
+funds were “for institutional investors (primarily larger retirement plans) 
+with assets greater than $100 million.” The investments were similar in each 
+class, but the fees were different: “The Investor [funds] had an average 
+expense ratio of 0.14%, and the Institutional [funds] had an expense ratio of 
+0.09% across all vintages.” You got a volume discount if you invested more than 
+$100 million with Vanguard.
+
+At some point Vanguard decided that it was making too much money:
+
+As part of the services provided to the TRFs [Target Retirement Funds], 
+Vanguard monitors the TRFs’ expense ratios. …
+
+By mid-2019, investor demand for TRFs had increased, and the Investor TRFs’ 
+assets had grown substantially, to approximately $276 billion in assets under 
+management. This growth was mainly driven by increased investments by small- 
+and medium-sized retirement plans, which combined held approximately $100 
+billion in Investor TRF assets. The growth in assets resulted in economies of 
+scale that lowered Vanguard’s expenses in servicing the Investor TRFs, creating 
+a gap between the expense ratios and Vanguard’s expenses described above.
+
+To reduce the gap between the expense ratios and Vanguard’s allocated expenses 
+for the Investor TRFs, and to return value to shareholders, in early 2020 
+Vanguard formed a Pricing Working Group (“Working Group”) to analyze and 
+recommend options to Vanguard’s Global Investment Committee, comprised of 
+Vanguard’s senior management, and ultimately to the Trust’s Board of Trustees.
+
+I do want to pause here. Probably every other SEC action against an asset 
+manager that I have ever written about has essentially the form “… and then the 
+manager sat down and figured out how to get more money out of the clients.” 
+This one has the form “… and then the manager formed a committee to figure out 
+how to getless money out of the clients.” And yet.
+
+The problem is that the Investor and Institutional classes were not, in fact, 
+two different share classes of the same fund; they were two separate funds. [9] 
+ <> Just sort of sloppy structuring. And Vanguard’s solution here was to lower 
+the minimum for the Institutional funds, from $100 million to $5 million. So 
+lots of small and medium-sized 401(k) plans that were previously in Investor 
+funds were eligible for the cheaper Institutional funds. And Vanguard told 
+them, and they naturally switched. Whichwas a taxable event:
+
+The movement of investors switching from the Investor TRFs to Institutional 
+TRFs could result in potential capital gains impacts, not just for investors 
+who switched but also for investors who purchased or continued to purchase 
+Investor TRFs. Investors would realize capital gains because the Investor TRFs 
+and Institutional TRFs were separate funds and not separate share classes of 
+the same fund. To switch from an Investor TRF to an Institutional TRF required 
+the redemption of the Investor TRF shares and the subsequent purchase of 
+Institutional TRF shares. If those redemption requests outpaced new investments 
+in the Investor TRFs, the Investor TRFs would have to satisfy redemption 
+requests from their available cash or the sales of underlying fund assets. The 
+Working Group understood that the redemptions likely would generate capital 
+gains distributions for Investor TRF shareholders remaining in the funds 
+because of the likelihood of selling underlying fund assets that had increased 
+in value.
+
+If a lot of plans switched to the lower-fee funds, they would have to redeem 
+out of the Investor funds and buy new shares in the Institutional funds. 
+Nothing actually happens — the same plans keep the same assets at Vanguard — 
+but for tax purposes the Investor funds have to sell their assets and the 
+Institutional ones have to buy them. [10]  <> So the Investor ones have big 
+capital gains (if their stocks are mostly up, which is mostly true for 
+long-term retirement funds [11]  <>). And because they are mutual funds, those 
+gains are shared by the redeeming holders but also by people — like the small 
+(sub-$5 million) 401(k) plans — that keep their money in the Investor funds.
+
+Except that actually the smaller 401(k) plans don’t care about taxable gains, 
+because 401(k) investors don’t pay taxes on capital gains. But the Vanguard 
+target-date funds also had some taxable investors, who ate the taxes:
+
+The Working Group estimated that approximately 5.79% or $17 billion of 
+Investor TRFs’ assets were held by investors in taxable accounts at Vanguard, 
+and those investors—who were all retail investors—would have capital gains and 
+tax consequences. Approximately 40%, or $110 billion, of all Investor TRF 
+assets were held in non-Vanguard accounts. The Working Group failed to fully 
+consider whether any of those non-Vanguard accounts were taxable and might also 
+realize capital gains and tax consequences. …
+
+From December 2020, when Vanguard and the Trust announced the lowering of the 
+minimum investment for the Institutional TRFs, to October 2021, redemptions in 
+the Investor TRFs totaled approximately $130 billion, compared with 
+approximately $41 billion in redemptions in the prior period from November 2019 
+to October 2020. Capital gains distributions for the Investor TRFs as a 
+percentage of net asset value from November 2020 to October 2021 averaged 
+9.69%, nearly seven times larger than the 1.39% average from November 2019 to 
+October 2020.
+
+As a result, Investor TRF investors who held the funds in taxable accounts at 
+Vanguard and at other firms realized unexpected, historically high capital 
+gains distributions and tax consequences for 2021. These capital gains 
+distributions accelerated the investors’ incurrence of tax liability and 
+deprived them of the potential compounding growth of their investments in the 
+Investor TRFs through retirement.
+
+That’s rough on those investors. (Eventually Vanguard decided to merge the 
+Investor and Institutional funds into one fund, solving the problem going 
+forward, though leaving those taxable retail investors with their big tax 
+bills.)
+
+Why is it a securities law violation? The SEC is mostly a disclosure 
+regulator, and it decided that Vanguard’s disclosures weren’t good enough:
+
+The Investor TRFs’ prospectuses that were effective and distributed by 
+Vanguard in 2020 and 2021 for the continuous offers and sales of fund shares in 
+this period stated that the funds’ distributions “may be taxable as ordinary 
+income or capital gain[]” and “[c]apital gains distributions may vary 
+considerably from year to year as a result of the Funds’ normal investment 
+activities and cash flows.” …
+
+These disclosures were materially misleading because they described certain 
+normal investment activities and cash flows that could affect capital gains, 
+but failed to disclose, when discussing capital gains distributions, what 
+Vanguard and the Trust knew or should have known was likely to be unusually 
+large capital gains distributions for Investor TRF investors holding the funds 
+in taxable accounts, resulting from the lowering of the minimum investment for 
+the Institutional TRFs and the redemptions from the Investor TRFs.
+
+I guess if you are going to cut fees for your clients, the best thing to do is 
+to cut those fees in a way that doesn’t end up hurting your other clients. The 
+second-best option is to disclose it more clearly.
+
+
+SEC: Miscellaneous
+
+Really there were so many enforcement actions filed last week. I have written 
+above about some of the more interesting ones, but there are so many more. A 
+few quick hits:
+
+ * The SEC got $38.5 million in penalties <> from Digital Currency Group and 
+Genesis Global Capital for “misleadingly characterizing Genesis’s balance sheet 
+as strong” after the collapse of Three Arrows Capital (3AC) in June 2022. This 
+is actually a fascinating little bit of machinery — Genesis plugged the $1.1 
+billion 3AC-shaped hole in its balance sheet by having DCG, its parent company, 
+write “IOU $1.1 billion” on a piece of paper, which the SEC finds misleading in 
+various ways — but we havetalked about it before <>, in 2023, when New York 
+Attorney General Letitia James sued Genesis and DCG for this. The SEC also 
+doesn’t like it. 
+ * The SEC fined LPL Financial LLC <> $18 million for failings in its 
+anti-money-laundering programs. For instance: “LPL failed to close or restrict 
+thousands of high-risk accounts, such as cannabis-related and foreign accounts, 
+that were prohibited under LPL’s AML policies.” What an odd sentence. Often, 
+when regulators bring AML cases,they say things like <> “Firm X had failings in 
+its AML programs, which led to terrorists using Firm X to move money, which is 
+bad.” Here,the SEC says <> that LPL’s sloppiness “permitted numerous 
+cannabis-related accounts to be opened and remain open for years,” but never 
+quite says that cannabis is bad. Cannabis is, you know, kind of legal in many 
+places, and it is not clearly illegal under US federal law to provide financial 
+services to cannabis companies. On the other hand, if youvoluntarily have AML 
+policies like “we don’t provide accounts to cannabis companies,” and then you 
+go and provide accounts to cannabis companies, you will get in trouble. Why 
+would you just voluntarily have a policy like that? Oh, reasons. Here is an 
+importantPatrick McKenzie post about “debanking.” <> 
+ * The SEC fined Wells Fargo Advisors and Merrill Lynch <> a total of $60 
+million for putting brokerage and advisory clients’ cash in low-yielding 
+accounts at their affiliated banks, maximizing their own profits rather than 
+the yield on the clients’ cash. Wetalked about this before <>, and I pointed 
+out that of coursebanks are in the business of paying as little interest as 
+possible on their customers’ deposits. If you are a financial adviser (a 
+fiduciary) or a retail broker (required to act in your customers’ “best interest
+ <>”), though, you are really supposed to do what’s right for the client, 
+including telling them “hey you can get a better rate in a money market fund.” 
+Also of course wetalked last week <> about the US Consumer Financial Protection 
+Bureau’s lawsuit against Capital One Financial Corp., saying that even a bank 
+can go too far in paying depositors as little interest as possible. 
+ * Here’s a guy charged with <> “illegally brokering transactions involving 
+the stock of private companies that were expected to undertake an initial 
+public offering.” 
+ * Here are some guys who allegedly insider traded ahead of follow-on offerings
+ <>. 
+ * Here are some broker-advisers who allegedly sold shares of “a sham 
+oil-and-gas company” <> to their customers, and also “tried to hide the sales 
+by communicating through means not subject to surveillance by [their firm], 
+such as through personal phones and email.” One lastcell-phones case <>! 
+ * Here’s one last bite at the “crypto tokens are securities <>” apple, a 
+lawsuit alleging <> that “from April 2019 to the present, Nova Labs made 
+unregistered offers and sales of securities when it offered and sold electronic 
+devices called ‘Hotspots’ that mined Nova Labs’ crypto assets and ‘Discovery 
+Mapping,’ a program that allows users to exchange their private data for Nova 
+Labs’ crypto assets.” 
+ * Here’s an investment adviser <> who allegedly stole $20 million from 
+customers and “used the money for his own purposes, including to pay country 
+club dues, transfer it to other clients, and purchase a portion of a miniature 
+golf course in New Jersey,” classic. 
+
+Trump memecoin
+
+Imagine you are elected mayor of a medium-sized city. Just before you take 
+office, you announce a new program. This program is: You have set up a website 
+where people can give you money. If they give you money, their name goes on a 
+list, on your computer. “What do we get for the money,” they ask. “Oh nothing,” 
+you say. “Your name just goes on the list, and I get the money, to spend. 
+That’s it. Nothing happens with the list.”
+
+You can, I think, see two fairly obvious problems here:
+
+ * If you are telling the truth, people are giving you money for nothing, so 
+why would they do it? 
+ * Are you telling the truth? Will people believe you? Will people who want 
+contracts with the city find it useful to be on the list? Isn’t this, you know? 
+It seems like this would be a scam, or a bribe, or probably both.
+
+Crypto solves these problems <>. Instead of a website with a list, you launch 
+a memecoin with a ledger. People can give you money and get on the list, but in 
+exchange they get something. The thing they get is: Atradeable entry on the 
+list, an electronic claim saying “I gave you money” that they can sell, at some 
+fluctuating market price, to somebody else. They canmake money by giving you 
+money: They give you $10 to get on the list, and then sell their spot on the 
+list to someone else for $12.
+
+I’m kidding when I say that crypto solves the problems. The problems remain, 
+unchanged, and there are some additional problems. But crypto somehow … 
+obfuscates the problems? A little? Not very much? Anywaynow you can give Donald 
+Trump money <> for no reason, or possibly for some reason:
+
+[On Friday] came the launch of a Trump memecoin — a virtual token that appears 
+to offer direct financial benefit to the president-elect’s family. The token’s 
+market value surged to about $5.6 billion by Saturday afternoon — which could 
+mean a windfall of billions of dollars, at least on paper, for Trump-linked 
+entities that own most of it.
+
+“$Trump is currently the hottest digital meme on earth,” Eric Trump wrote on 
+X. “We are just getting started!”
+
+The token drew immediate rebuke from government watchdogs, who called it the 
+president-elect’s latest breach of ethical norms and a way to profit from his 
+place on the world stage.
+
+Okay. And <>:
+
+“It is literally cashing in on the presidency — creating a financial 
+instrument so people can transfer money to the president’s family in connection 
+with his office” said Adav Noti, executive director of Campaign Legal Center, a 
+nonprofit ethics group. “It is beyond unprecedented.”
+
+The market capitalization of the thing, at various points this weekend, hit 
+any arbitrary large number you might want; here’san Axios report <> with “$25 
+billion” in the URL, “$58 billion” in the headline and “$72 billion” in the 
+text. On the one hand, peoplepoint out <> that that’s not real <>, that Trump 
+could not monetize all of that by dumping his tokens into the market. On the 
+other hand, would someone pay Trump, say, $100 million for a $100 million block 
+of these tokens? At their market price? Maybe! Nothing wrong with that trade, 
+after all, that’s just a willing buyer and willing seller transacting at market 
+prices, what problem could anyone have with that? Crypto!
+
+Also. Back in the early days of Bitcoin, there was a critique of it that went 
+like this <>: “Sure only 21 million Bitcoins will ever be mined, so the supply 
+is limited. But if there is a lot of demand for this sort of digital money, 
+someone will copy the Bitcoin code and mechanism and introduce a new competing 
+coin with the exact same properties. Call it Blitcoin. And then there will be 
+21 million Blitcoins, which are essentially the same as Bitcoins, and you can 
+repeat this process as often as necessary, which will put a cap on the value of 
+Bitcoin.”
+
+This critique has some logic to it — I once found it persuasive — but it 
+turned out to be mostly wrong. Peopledid make clones of Bitcoin, but Bitcoin’s 
+price still went up. Bitcoin had a history and social legitimacy — and, thus, a 
+robust infrastructure of miners and nodes — that made it valuable, and that 
+could not be replicated by copying the code.
+
+But consider the similar critique for Trump memecoins:
+
+ * Donald Trump can always launch a new memecoin and say “no, this one is the 
+official Trump memecoin.” 
+ * Has he not already done that three times? Trump Media & Technology Group 
+Corp. is not a memecoin — it is the publicly traded stock of an operating 
+corporation — but, you know,come on <>. And just last month I was writing about 
+World Liberty Financial, another Trump-affiliated cryptocurrency,saying that <> 
+it “just manifestly doesn’t do anything, but ... sells tokens to raise money to 
+give to Trump.” And now there’s this one, “billed as <> the ‘only official 
+Trump meme,’” this week anyway. 
+ * If you buy a bunch of this one this week, he can always go sell a new one 
+next week. His supply is unlimited, or limited only by people’s desire to give 
+him money, and his desire to take it. 
+Actually that already happened <>:
+
+The $TRUMP token lost almost half its value after first lady Melania Trump’s 
+coin was unveiled. Traders say demand for the tokens overlapped—$TRUMP token 
+holders had to unload some of their holdings to buy her meme coin. Prices have 
+since regained some ground, but the market value of the $TRUMP coin peaked 
+Sunday at almost $15 billion.
+
+There can always be more!
+
+
+Things happen
+
+SEC Crypto 2.0 <>: Acting Chairman Uyeda Announces Formation of New Crypto 
+Task Force. Hedge Funds Kept $1.8 Trillion as Fees, orHalf Their Gains <>. 
+Goldman Picks Leaders toRun Wall Street Engines <> in Major Revamp. BlackRock, 
+Weinstein Reach Truce in Feud OverClosed-End Funds <>. Perella Weinberg feud <> 
+goes to trial a decade after schism.Private Equity <> Has a Plan If IPOs, Sales 
+Don’t Work: More Debt. JPMorgan ‘War Room <>’ Examining First Days of Trump 
+Presidency. Commerce Nominee Lutnick Is Backer ofOutlaws’ Favorite 
+Cryptocurrency <>. “The reckoning between Musk and gamers <> has been a long 
+time coming.” Twelve Dudes and a Hype Tunnel: Scenes from the ‘Super Bowl for 
+Excel Nerds <>.’ SoftBank-Backed Fish Startup <> Allegedly Faked Most of Its 
+Sales.
+
+If you'd like to get Money Stuff in handy email form, right in your inbox, 
+pleasesubscribe at this link <>. Or you can subscribe to Money Stuff and other 
+great Bloomberg newslettershere <>. Thanks!
+
+[1] It also put out a separate press release announcing <> that “it filed 200 
+total enforcement actions in the first quarter of fiscal year 2025” (through 
+December), which is a record, and that it “filed more than 40 enforcement 
+actions from Jan. 1, 2025, though Jan. 17, 2025, indicating that the Division’s 
+high level of productivity continues into the second quarter of fiscal year 
+2025.” Presumably the next two weeks will be continue at that pace, hahahahaha, 
+no.
+
+[2] This is called “legal realism <>.”
+
+[3] At first they could just change it themselves, but in 2022 an “employee 
+inadvertently overwrote an entire volume in celFS containing several Models’ 
+parameters before certain markets opened for trading that day.” After that, 
+researchers had to put in a ticket to change a parameter, and a small team of 
+engineers would make the change. But the changes were made “without review or 
+analysis by the engineers who received the tickets,” so researchers could still 
+make whatever changes they wanted: The ticketing system was to avoid 
+inadvertent errors due to researcher clumsiness.
+
+[4] This is overstated and the funds try to guard against it, but there is 
+some margin where it is probably true.
+
+[5] Or maybe not. “GrubMarket was negligent in not disclosing that the 
+financial statements and other financial information the Company provided to 
+investors were unreliable,” it says, even before getting to the bit about the 
+CFO, suggesting that if GrubMarket had more forcefully said “hey these 
+financial statements are pretty fake” then maybe it would have been fine.
+
+[6] More specifically, Vanguard is not a normal for-profit investment 
+management company: “Our company is owned by its funds,”it says <>, “which in 
+turn are owned by Vanguard’s fund shareholders.” So it has less incentive to 
+charge high fees, since the profits go back to the funds anyway. Also, 
+disclosure? I own some Vanguard funds, and thus some of Vanguard.
+
+[7] That’s approximate; Vanguard also had some state settlements and there is 
+some double-counting. The SEC says: “Vanguard agreed to be censured, cease and 
+desist from future violations, and pay $18.2 million in disgorgement and 
+prejudgment interest that will be deemed satisfied by the payment of $92.91 
+million in relief ordered by the states’ settlements and a $13.5 million civil 
+penalty, for a total amount of $106.41 million to be distributed to affected 
+investors through a Fair Fund. The $106.41 million in ordered relief is in 
+addition to $40 million that Vanguard agreed to pay to settle an investor class 
+action.”
+
+[8] A target date fund is a retirement fund with a particular target date: If 
+you plan to retire around 2045, you buy a 2045 target fund, and that fund has 
+some asset allocation that generally starts aggressive and becomes more 
+conservative as you approach (and then pass) the target date. Generally these 
+funds do their allocation by investing in some mix of other Vanguard funds. 
+Vanguard’s funds covered in this order run from 2015 to 2065, in five-year 
+increments.
+
+[9] Actually many separate funds, one for each retirement vintage, but for 
+each vintage — say, “retire in 2030” — there was an Investor fund and a 
+separate Institutional fund.
+
+[10] There are mutual fund rules <> about how they are allowed to do this, but 
+that’s not the point.
+
+[11] It’s actually quite important that this happened in late 2020. Basically 
+what happened is that Vanguard’s working group started thinking about this in 
+early 2020, when stock prices had collapsed due to Covid, so they figured “ehh 
+no one has any capital gains anyway.” TheSEC says <>: “The Working Group 
+observed that, through early 2020, accumulated realized capital gains in the 
+Investor TRFs averaged 0.5%, consistent with historical numbers. However, this 
+observation was based on evaluations of capital gains during a one-month period 
+between late February and March 2020. Because the financial markets had 
+declined substantially at the time due to consequences from the COVID-19 
+pandemic, the Working Group assumed that capital gains would continue to be 
+modest for Investor TRFs in the foreseeable future.” But by the time the plans 
+were finalized later in the year, stocks had recovered and there were a lot 
+more taxable gains.
+
+
+ <> 
+
+Follow Us  <>  <>  <>  Get the newsletter  <> 
+
+
+Like getting this newsletter?  Subscribe to Bloomberg.com <> for unlimited 
+access to trusted, data-driven journalism and subscriber-only insights.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the 
+Terminal delivers information and analysis that financial professionals can’t 
+find anywhere else.Learn more <>.
+
+Want to sponsor this newsletter?  Get in touch here <>.
+
+ You received this message because you are subscribed to Bloomberg's Money 
+Stuff newsletter. 
+Unsubscribe <> | Bloomberg.com <> | Contact Us <> 
+
+ <>  |  <> 
+Bloomberg L.P. 731 Lexington, New York, NY, 10022  
+<https://links.message.bloomberg.com/e/eh?_t=f574328d4d0c4c359b90d8e49b10e21d&_m=1131eb03c73940bdb2ca08e6893b9aea&_e=FX2fOaVTRMivNqPsMkAoL2Jij9U6rh4SIOsc_ZvSTYKUPq_Y2exkPoeomY7obqKYxCpjz_hvCJGLbPEQY5CYAFTWgQ_b7Ot-1hNpuowuUjeBcpUCmhfkP-usPF3eRNNJ8kHBcIouJnTPQjAVbhz9tOkm65a1gw4N61C76eTSaWWzl_MeekSyw4-ayeYzo93X0bEr7R6VHTfKIsIRuVnZjpPQm9uxCYxBazog5Pc1XvBfRw2_soqgNurZTAw7i5BGJy0hebaNch0GtrAlnLVEGw%3D%3D>

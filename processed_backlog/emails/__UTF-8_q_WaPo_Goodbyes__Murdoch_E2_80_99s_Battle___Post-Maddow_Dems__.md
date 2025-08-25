@@ -1,0 +1,194 @@
+# =?UTF-8?q?WaPo_Goodbyes,_Murdoch=E2=80=99s_Battle_&_Post-Maddow_Dems?=
+
+**From:** Dylan Byers <dylan@puck.news>
+**Date:** Sat, 28 Dec 2024 00:01:16 +0000
+**Source:** inputs/saved_emails/=UTF-8qWaPo_Goodbyes,_Murdoch=E2=80=99s_Battle_&_Post-Maddow_Dems=_Sat,_28_Dec_2024_00-01-16_+0000_1940a9150267f7f8.eml
+**Processed:** 2025-08-24T19:13:06.949772
+
+Dec 28, 2024   
+
+In The Room ( https://puck.news/newsletters/in-the-room/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Yellowstone ( http://www.youtube.com/watch?v=n17AZkUXy58__;!!N96JrnIq8IfO5w!hGEGDa2DM-2mCw0opjaK8hpee4S-CsYmLTSmA5ibxdx2com4O3q0qGlkl4BLiKKmmKSXYFlRs5CEjdT9QA7XBtXCQZPINaqpDw$&utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Dylan Byers ( https://puck.news/author/dylan-byers/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Dylan Byers ( https://puck.news/author/dylan-byers/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Happy New Year, greetings from Los Angeles, and welcome
+back to In the Room, my twice-weekly private email on the media. I’m off on New Year’s Day, so I’ll take this opportunity to wish you a year of health, happiness, and prosperity. Top of the year we go!
+
+ 
+
+In tonight’s email, a look at the thickening trickle of well-known political reporters mulling exits from The Washington Post as Will Lewis continues his fraught reorganization of
+the newsroom. 
+
+ 
+
+Also mentioned in this email: Matt Murray, Matea Gold, Jeff Bezos, Josh Dawsey, Ashley Parker, Tyler Pager, Michael Scherer, Kara Swisher, David Axelrod, Prince Harry, Rupert Murdoch,
+Andrew Ross Sorkin, Mark Stephens, Brian Tyler Cohen, and many more…
+
+ 
+
+But first…
+
+* 🍸 The Grill Room: This week on the podcast, famed Democratic strategist and CNN analyst David Axelrod joined me to talk about the art of podcasting and its influence on our politics and culture, and then John Heilemann and I came together for a special cross-pod media year in review edition of both Impolitic and The Grill Room. Follow along on
+Apple ( https://podcasts.apple.com/us/podcast/the-grill-room/id1775515432?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), Spotify ( https://open.spotify.com/show/52gdx2huhWI6w6To6dc5SW?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), or wherever ( https://puck.news/podcasts/the-grill-room/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) you get your podcasts.
+* Will Lewis testify?: One of the year’s biggest
+legal-media dramas is set to kick off in January, when Prince Harry will go to trial in the U.K. against Rupert Murdoch’s News Group Newspapers over the notorious tabloid phone-hacking scandal—which Harry previewed, earlier this month, at Andrew Ross Sorkin’s DealBook Summit. “The scale of the cover-up is so large that people need to see it for themselves,” the 40-year-old Duke of Sussex told Andrew.
+
+Of course, a central figure in this
+drama is Washington Post C.E.O. Will Lewis, who was working for Murdoch at the time of the alleged cover-up. Yesterday, in conversation with my partner Eriq Gardner, U.K. solicitor Mark Stephens outlined how Lewis will figure into the coming courtroom drama. Here’s a little excerpt from their conversation…
+
+Eriq Gardner
+Eriq Gardner
+
+* Eriq: The reason I asked about the possibility of Murdoch’s own testimony was Prince Harry’s comment at DealBook about how this would showcase a massive cover-up.
+
+Mark: It’s more of a generic issue at trial, but [the comment] does touch on how normally, information from one party is disclosed to the other side. Here, it’s the position from claimants—not just Harry, but all of them—that Will Lewis oversaw the
+hiding of information, the deletion of emails. That’s part of the discomfort he’s been experiencing these last few months.
+
+Will Lewis, of course, the former Murdoch lieutenant, is now the C.E.O. of The Washington Post.
+
+Yes, there’s basically three phases of what happened you can categorize. First, pretty much industrial-level unlawful newsgathering. Then, the stage when they decided to stop it. Finally, what they did about
+evidence of past wrongdoings. And that’s where Harry says they deleted internal emails in a way that was non-retrievable. Not only deleted them off the local servers, but also backup servers. And you’ll understand just how unusual that is. That is going to be an interesting area at this trial, because, of course, when you’re dealing with an inferential case where there’s no smoking gun, you’re having to piece information together. So the question becomes: Is that the action of an entirely
+innocent news organization that they delete all historic emails from particular mailboxes? The judge will have to make an assessment.
+
+Is Lewis testifying?
+
+I don’t think he will be testifying, but he will be mentioned in the dispatches, in the evidence. And the allegations made against him—that he oversaw a cover-up or a clean-up, whatever you call it—is something, whether the newspaper wins or loses, that’s going to raise more questions after the trial.
+
+[Read the full article here. ( https://puck.news/trumps-day-one-punch-list/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+A MESSAGE FROM OUR SPONSOR
+
+Yellowstone ( http://www.youtube.com/watch?v=n17AZkUXy58__;!!N96JrnIq8IfO5w!hGEGDa2DM-2mCw0opjaK8hpee4S-CsYmLTSmA5ibxdx2com4O3q0qGlkl4BLiKKmmKSXYFlRs5CEjdT9QA7XBtXCQZPINaqpDw$&utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+FOR YOUR CONSIDERATION
+
+In All Categories Including
+Outstanding Drama Series 
+
+YELLOWSTONE ( http://www.youtube.com/watch?v=n17AZkUXy58__;!!N96JrnIq8IfO5w!hGEGDa2DM-2mCw0opjaK8hpee4S-CsYmLTSmA5ibxdx2com4O3q0qGlkl4BLiKKmmKSXYFlRs5CEjdT9QA7XBtXCQZPINaqpDw$&utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+* The Dems’ post-MSNBC playbook: Finally, if you missed my partner Peter Hamby’s conversation with progressive content creator Brian Tyler Cohen, I want to highlight one particularly noteworthy excerpt, in which Cohen offered a lucid explanation of how the Democrats failed to understand that legacy media is not the way to reach persuadable voters—and why that retrograde understanding of the media environment, in part,
+ushered in a new Trump era. Here’s Brian…
+* Cohen: Democrats are operating under this notion that unless a message is delivered on legacy media, then it’s not legitimate, it’s not valid. Independent media for them still feels extraneous. In their minds, any real news has to be broken under the glossy veneer of legacy media. Any juicy
+interviews have to be conducted under the glossy veneer of legacy media. But the reality is that not only is legacy media’s influence waning, not only is their audience smaller, but if the goal is persuasion—which it is, ostensibly, for politicians seeking to win elections—then you need to talk to an audience that’s actually persuadable. Democrats have high-information voters already. By virtue of heaping more attention onto the same people whose votes we already have, you’re just bringing sand
+to the beach. You have to go where the persuadable people actually are. [Read More. ( https://puck.news/why-are-democrats-so-bad-at-media-and-how-can-they-improve/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+And now, on to the main event…
+
+The Ghosts of The Washington Post’s Past
+
+******************************************************************************************************************************************************************************************************************************************************************************************************************
+The Ghosts of The Washington Post’s Past ( https://puck.news/tis-the-season-for-turnover-at-the-washington-post/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+******************************************************************************************************************************************************************************************************************************************************************************************************************
+
+News, notes, and H.R. updates on a series of significant fin de
+siècle leadership changes at Jeff Bezos’s constantly transmogrifying paper.
+
+Dylan Byers ( https://puck.news/author/dylan-byers/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Dylan Byers ( https://puck.news/author/dylan-byers/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+In the two months since the presidential election, as it’s
+become apparent to an already disillusioned Washington Post staff that Will Lewis’s grand plan for pulling the the paper out of its extended malaise amounts to a convoluted newsroom restructuring led by the existing masthead, several of the company’s most notable journalists have decided that it’s finally time to consider their options. The coup de grâce for these folks—after years of diminished influence, ennui, and recurring bouts of antipathy toward Lewis,
+himself—appears to have been the surprise news that their beloved colleague Matea Gold would be decamping to The New York Times upon being passed over for the top editor job.
+
+ 
+
+Could it have really been a surprise that Lewis and Jeff Bezos would view a largely innovation-lite, lifer-ish newsroom executive as an also-ran stalking horse in their search? Gold,
+who lined up a lesser job at the Times, represented an umbilical link to the past, a comforting figure amid a slowly unfolding and darkening regime change—all reasons she would never have gotten the job in the first place. (Indeed, Lewis didn’t even present a counteroffer to keep her from going to the Times.) But for many in the newsroom, her departure was of seismic significance. And the camel’s back had already been piled high with straw.
+
+ 
+
+Anyway, last week, I reported that Lewis had quietly decided to appoint acting executive editor Matt Murray to that position permanently, possibly for lack of any better option. (The muted communication of the announcement is an apt metaphor for the enthusiasm generated by the appointment.) Even though these are all, ostensibly, business decisions rendered to rescue a company hemorrhaging nearly $100 million per year, the
+Matt-over-Matea news was received rather personally by many in the building. “People are very upset about Matea,” one source told me the other day, “And then you ruined everyone’s weekend with the Murray news.”
+
+ 
+
+I am now reliably told that well-known political reporters including Josh Dawsey, Ashley Parker, Tyler Pager, Michael Scherer, and several
+others are either mulling a transfer or have already decided to exit. Dawsey, for instance, is said to be entertaining multiple offers while on book leave—a notably contemplative choreography befitting the modern Post. Parker is in late-stage negotiations with The Atlantic. Historically, these reporters have stayed loyal to the Post due to their faith in the storied institution—and, for a time, its centibillionaire owner—and the benefits of
+being a bigger fish in a smaller and less cutthroat pond. Now, many seem to fear the consequences of staying on too long, particularly amid the specter of yet another round of what I’m told will be severe layoffs across the company in the year ahead.
+
+Yellowstone ( http://www.youtube.com/watch?v=n17AZkUXy58__;!!N96JrnIq8IfO5w!hGEGDa2DM-2mCw0opjaK8hpee4S-CsYmLTSmA5ibxdx2com4O3q0qGlkl4BLiKKmmKSXYFlRs5CEjdT9QA7XBtXCQZPINaqpDw$&utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Meanwhile, under David Shipley, the Post’s opinion
+page—once considered the “second newsroom,” I think, but now a subset of the first, possibly—has already seen a wave of defections in recent months, including editors Chuck Lane and Amanda Katz, art director Chris Rukan, and columnists Robert Kagan and Michele Norris, to name a few. That’s to say nothing of the several folks who quit the editorial board (though not the paper,
+itself) in the wake of Bezos and Lewis’s controversial decision to forgo a presidential endorsement. “You tell me, is that normal turnover?” one Post source asked me. “In this environment where people cling to bad jobs? I don’t think so.” (Katz’s wife, Kara Swisher, has apparently waged a quixotic attempt to buy the paper, per Axios.)
+
+Post Mortems
+------------
+
+Of course, Lewis’s grand reinvention was always going to involve
+significant turnover, much of it welcome. I can only imagine that he quietly celebrated Sally Buzbee’s resignation over the summer—albeit not all the sturm und drang it created, nor the scrutiny on his own Fleet Street C.V.—and that he more recently delighted in telling unionized WFHers that they could sit at home forever if they didn’t like his five-days-in-office policy. As ever, Lewis’s devilish streak is both a virtue of his leadership and a notable
+shortcoming.
+
+ 
+
+As is so often the case in these corporate transformations, the turnover is part of the objective—you can’t change an organization with people pining for the way things used to be. And, in many latent ways, Lewis’s change is already afoot: Instead of staffing up ahead of a new Trump administration, or even working to retain talent, the Post is actively cutting costs
+and contemplating acquisitions, operating on the theory that so much of the talent it needs for the next leg of the journey isn’t even in the building yet.
+
+ 
+
+Indeed, Lewis may also believe that the stars of the Post’s previous, Marty Baron-led, “Democracy Dies in Darkness” iteration are not necessarily the ones he’d choose to guide it into its future as a broader, nonpartisan, and
+perhaps less sanctimonious news operation. (Baron, for his part, has been regrettably relegated to a no-one-listens-to-me-anymore Twitter scold.) At the same time, Lewis would presumably prefer to keep at least some of the aforementioned stars, since it’s hard to run a newsroom without talent, and his plans to diversify the business through the creation of a “third newsroom,” a pro-tier WP Intelligence product, etcetera, do not obviate the need to maintain the
+core political news report. 
+
+ 
+
+As I noted the other week, Lewis’s critics increasingly fear that he doesn’t actually have a real vision for the paper. Indeed, that is one reason the Kara white knight fantasy has been able to take hold in some imaginations. Others fear that he does have a vision but it involves threatening plans, like buying Punchbowl for around the price that Bezos paid for the
+Post itself, or pursuing some more serious version of the Daily Mail and General Trust, or some social-forward flimflam. 
+
+ 
+
+What’s particularly depressing about all these strategies is that they’re so obviously at odds: finding a new, more diverse audience on TikTok while also alienating the 2016-20 audience? Reasserting the power of the brand while allowing its most well-known journalists to leave?
+Increasingly, it feels like the true signals from leadership are that the fight with the Times is over, the owner is checked out, the future is different, and they can no longer even compete at the local level against the independents who found it remarkably easy to eat their lunch. But all this is apparently what Lewis wanted, and now it’s on him to make it work—or else.
+
+The Varsity ( https://puck.news/newsletters/the-varsity/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Varsity ( https://puck.news/newsletters/the-varsity/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A professional-grade, insider-friendly tip sheet from John Ourand, the industry’s preeminent sports business
+journalist, covering the leagues, agencies, media deals, and the egos fueling it all.
+
+Prince Harry’s Legal Hurdles
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Prince Harry’s Legal Hurdles ( https://puck.news/murdoch-v-prince-harry-theyre-going-to-try-to-destroy-him/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ERIQ GARDNER
+
+Trump’s Punch List
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trump’s Punch List ( https://puck.news/trumps-day-one-punch-list/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TARA PALMERI
+
+Blake Beautyology
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Blake Beautyology ( https://puck.news/mailbag-blake-lively-beautyology-lvmhusa-fantasies-more/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LINE SHEET
+
+Puck
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
+here ( https://puck.news/unsubscribe/?subscription=in_the_room&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUCpAsu3R0yuQt5ewyyP4=&utm_campaign=In+the+Room+-+SUBSCRIBERS+%2812%2F27%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%2812%2F20%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

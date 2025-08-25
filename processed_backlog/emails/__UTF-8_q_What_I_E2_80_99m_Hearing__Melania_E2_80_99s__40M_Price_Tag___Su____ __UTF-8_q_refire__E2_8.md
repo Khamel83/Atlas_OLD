@@ -1,0 +1,342 @@
+# =?UTF-8?q?What_I=E2=80=99m_Hearing:_Melania=E2=80=99s_$40M_Price_Tag_&_Su?=
+ =?UTF-8?q?refire_=E2=80=9925_Predictions?=
+
+**From:** Matthew Belloni <matt@puck.news>
+**Date:** Tue, 07 Jan 2025 06:30:32 +0000
+**Source:** inputs/saved_emails/=UTF-8qWhat_I=E2=80=99m_Hearing_Melania=E2=80=99s_$40M_Price_Tag_&_Su=
+ =UTF-8qrefire_=E2=80=9925_Predictions=_Tue,_07_Jan_2025_06-30-32_+0000_1943f75494fb53a2.eml
+**Processed:** 2025-08-24T19:13:09.249164
+
+Jan 07, 2025   
+
+What I'm Hearing... ( https://puck.news/newsletters/what-im-hearing/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Inside Out 2 ( https://ad.doubleclick.net/ddm/trackclk/N6344.4235865PUCKNEWS/B32685091.409178677;dc_trk_aid=603167433;dc_trk_cid=205001799;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Matthew Belloni ( https://puck.news/author/matthew-belloni/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Matthew Belloni ( https://puck.news/author/matthew-belloni/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to What I’m Hearing, home in L.A. after a relaxing
+week floating on a big boat in the Caribbean. (I’m gonna let you think it was maybe David Geffen’s yacht and not merely the Disney Dream cruiseliner.)
+
+ 
+
+Thanks to Scott Mendelson for subbing for me on Thursday, and thanks to everyone who voted in the “Who Won the Year” poll. The readers’ pick is… Donna Langley, who barely edged out Taylor
+Swift. My choice? Fifth-place finisher David Ellison, whose wild year I discussed ( https://open.spotify.com/episode/757ysXkb18C0YQWLppPngw?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Lucas Shaw on Part 2 of The Townies on The Town. (Our Globes reaction pod is here ( https://open.spotify.com/episode/5oiAUQYYgu2GyLjelqBq75?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).)  
+
+ 
+
+Is 2025 already disappointing you? Get Puck by clicking here ( https://puck.news/join/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )! Got a news tip or an idea for me? Just reply to this email or message me on Signal at 310-804-3198.   
+
+ 
+
+Discussed in this issue: Tom Cruise,
+Travis Kelce, Jenna Ortega, David Zaslav, Bob Evans, Michael Rubin, Justin Baldoni, Diddy, Rupert and Lachlan Murdoch, Peter Micelli, Jay Penske, David Chase, Dana White, R.F.K. Jr., Jim Cameron, Jeff Shell, Rob
+Manfred, Brendan Carr, and… Nikki’s monologue cop-out. 
+
+ 
+
+But first…
+
+ 
+
+Who Won the Week: Melania Trump
+and Brett Ratner
+-------------------------------
+
+What a pair! The first lady and the filmmaker who was run out of
+Hollywood amid multiple claims of sexual impropriety (which he denied). Now, they’re both seeking reputation redemption with a vanity documentary to air on… Amazon Prime Video, whose founder, Jeff Bezos, recently dined at Mar-a-Lago and is actively using his media properties to suck up to Melania’s husband. What a time…
+
+ 
+
+A little more on this…
+
+ 
+
+I know it’s 2025, nothing matters anymore, and even The Walt Disney Co. is kissing Donald Trump’s ring. But you’re not alone in raising both eyebrows at Sunday’s news ( https://www.semafor.com/article/01/05/2025/director-brett-ratner-back-from-metoo-will-direct-melania-trump-documentary?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that Amazon will release a
+Melania Trump documentary directed by Brett Ratner, the Rush Hour filmmaker who has not made a Hollywood movie since 2018, when he was accused of sexual malfeasance by several women. 
+
+ 
+
+Even more interesting: Amazon is paying a cool $40 million to license the film, per three sources familiar with the deal. That price includes the Ratner documentary,
+which will get a small theatrical release and then appear on Prime Video, plus a previously undisclosed two-to-three-episode follow-up docuseries on the first lady. Melania will participate in both projects. (Amazon declined to comment.)
+
+ 
+
+That’s quite a payday for Mrs. Trump, who is serving as an executive producer alongside Argentine producer Fernando Sulichin, who has worked with
+Oliver Stone on several projects, including Stone’s The Putin Interviews, which featured several sit-downs with Vladimir Putin. Music stars and big public figures can often generate eight-figure fees for participatory documentaries. And indeed, I’m told both Disney and Paramount bid for streaming rights to the Melania project. But Amazon outbid them both (neither Netflix nor Apple bid), and is paying the outsize fee for a limited license, not
+ownership. It’s unclear how much the first lady is personally being paid to participate and “produce” this project while her husband is in office, but I’m betting it’s a big chunk of that $40 million. 
+
+ 
+
+What’s still a mystery is how Ratner got involved. He came with the project, potential buyers were told, though he was a relatively recent addition to the package. Other than popping up at Cannes, Ratner has
+mostly been out of the public eye since the #MeToo movement swept him out of Hollywood. But he maintains a bunch of ties to Trumpworld figures. Steven Mnuchin, the treasury secretary under Trump I, was in business with Ratner on RatPac-Dune Entertainment until Mnuchin somewhat controversially ( https://variety.com/2019/politics/news/mnuchn-ratpac-dune-jackie-speier-1203125377/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) sold his stake. Will the Melania project
+chart a course for Brett to return to Hollywood?  
+
+ 
+
+Quote of the Week
+-----------------
+
+“This is such an American experience.” —French singer
+Camille, on winning the Golden Globe for best original song for Emilia Pérez’s “El Mal” 
+
+ 
+
+She’s more right than she knows! To recap: The Globes are now a for-profit entity owned by two billionaires (Todd Boehly and Jay Penske) who pay their “employees” to vote for the winners—the biggest of which, A24, is co-owned by one of them (Boehly)—and
+then have it all covered fawningly by the trade media outlets… that they also own. Very American, Camille. 
+
+ 
+
+Okay, enough Globes, on to the first half of my annual predictions…
+
+25 Surefire, 100 Percent Probable Hollywood Predictions for 2025 (Part 1)
+
+*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+25 Surefire, 100 Percent Probable Hollywood Predictions for 2025 (Part 1) ( https://puck.news/25-surefire-100-percent-probable-hollywood-predictions-for-2025-part-1/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+Rupert’s potential sale, a CAA verdict, an
+‘Avatar 3’ projection, and other hypotheses for another wild year in the entertainment business.
+
+Matthew Belloni ( https://puck.news/author/matthew-belloni/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Matthew Belloni ( https://puck.news/author/matthew-belloni/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+It’s a New Year’s tradition as cherished as the Rose Bowl and
+leftover Tom Cruise holiday cake: my annual predictions. I polled my sources for a preview of the issues, both big and small, that will dominate Hollywood in ’25. I’ve also asked a few celebrity guest prognosticators for their thoughts. Today I’ve got the first batch, with the rest coming on Thursday. 
+
+ 
+
+Here’s last year’s
+list ( https://puck.news/24-surefire-100-percent-probable-hollywood-predictions-for-2024-part-2/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), so you can check me. TV budget crunches and Travis Kelce movies and R.I.P. Amazon Freevee and Netflix going full-on into sports? Yep! A sale of Imax and NBCUniversal–Warner Discovery and Jenna Ortega leaving Wednesday and Joker 2 grossing $1 billion? Nope, nope, nope, and oh man,
+did I really predict that?! Let’s begin…
+
+1. Streamers Will Shift Narrative to International
+--------------------------------------------------
+
+Besides his newly finished remodel of Bob Evans’
+house, the only thing Warner Bros. Discovery C.E.O. David Zaslav wanted to talk about when I bumped into him on the holiday party circuit was the overseas growth of Max. And why not? The service added 7.2 million subscribers in Q3 (to 110.5 million total, including linear HBO), largely thanks to a summer rollout across Europe that is continuing into Asia. Dealing with semi-saturation and subscription fatigue stateside, overseas territories present the greatest opportunities, as
+well as a nice counterprogramming talking point amid the collapse of linear TV and a poor year at the film and games studios.
+
+ 
+
+Of course, Netflix dominates globally; it had nearly 200 million subs outside North America in September, about 70 percent of its total base. By comparison, Disney+’s base was roughly half international, and the Warner Discovery direct-to-consumer unit was about the same. That’s a
+lot of room for growth. (Amazon and Apple provide no data, Paramount+ doesn’t break it out, and Peacock is domestic only.)
+
+ 
+
+How will they grow? Netflix and Amazon seem uniquely willing to pursue local-language programming at scale, so Disney and WBD will need to lean on their I.P. and big-budget film releases. Additionally, the legacy studios—still grasping for a growth narrative—will find that talking about “international
+expansion” will be helpful with Wall Street. 
+
+2. Michael Rubin Pauses His White Party
+---------------------------------------
+
+The Fanatics C.E.O. has become known for his annual Hamptons bash over July Fourth
+weekend. But a combo of media overexposure and even a whiff of association with that other White Party—the one hosted from 1998 to 2009 by Diddy—will be enough to take at least this year (and possibly more) off from the Kardashian-drenched spectacle.
+
+3. Rupert Sells (Again)
+-----------------------
+
+Assuming both the Nevada district and supreme courts don’t overrule a lacerating
+probate opinion, Rupert Murdoch failed in his effort to revoke his “irrevocable” trust and claw posthumous control of his empire away from his squabbling children. Which sucks for Lachlan Murdoch, Rupert’s eldest boy and right-wing standard-bearer, who thought he might be able to box out his three siblings without having to pay them billions for their interests in Fox Corp. Now, the only way to ensure the 93-year-old Rupert’s wishes are respected when he dies
+will be to sell either the whole thing or the parts he wants protected—and to make sure that the deals protect Lachlan. Depending on the Nevada appeals timing, that process likely begins by the end of ’25.
+
+A MESSAGE FROM OUR SPONSOR
+
+Inside Out 2 ( https://ad.doubleclick.net/ddm/trackclk/N6344.4235865PUCKNEWS/B32685091.409178677;dc_trk_aid=603167433;dc_trk_cid=205001799;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Pixar hit is a record-breaking cultural phenomenon. Consider INSIDE OUT 2 in all categories including Best
+Picture & Best Animated Feature.
+
+Does Rupert recruit private equity or Elon Musk to take Fox
+private and/or guarantee that Fox News maintains its editorial bent into the future? Does Fox merge its television and streaming assets with Warner Bros. Discovery or another TV player, perhaps with Lachlan guaranteed a top executive role? Maybe Murdoch sells Fox News to himself, via News Corp., which is getting $1.4 billion from its recent sale of Foxtel, an idea
+floated ( https://lightshedtmt.com/2025/01/06/lightsheds-top-17-tmt-predictions-and-events-to-watch-for-in-2025-sports-predictions/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) by LightShed Partners.Then Lachlan could buy out his siblings and keep control of Trump’s brain, er, the influential news
+channel. Tons of scenarios make sense, especially since the Tubi streamer and/or other publishing assets could be carved out, depending on the buyer.   
+
+4. The Sopranos Finally Hits Netflix
+------------------------------------
+
+On Saturday night, five of the top 10 movies on Netflix were from
+Warner Bros. That’s actually not that unusual these days. Since David Zaslav started upending every couch cushion in search of licensing nickels, title after title has been whored out to the highest bidder—often Netflix—and often nonexclusively, so the movies remain on Max while everyone watches them on Netflix, thus obviating the need to pay for Max.
+
+ 
+
+But these five movies in the Netflix top 10 were all
+from this spring and summer: Dune: Part Two, Godzilla x Kong: The New Empire, Furiosa: A Mad Max Saga, Watchers, and my favorite, Horizon: An American Saga: Part One, which was at No. 2! (Release Part Two, you cowards!) One after another, from Barbie and Wonka on the film side, to such classic HBO series as Sex and the City, Band of Brothers, and Six Feet Under, it’s been a parade of
+former Max exclusives on Netflix.   
+
+ 
+
+Except The Sopranos. David Chase’s signature HBO show has been deemed off-limits. But I’m betting that changes this year. The economics of Warner Discovery’s linear business aren’t getting better, the film studio has a super-risky slate, and nothing suggests Zaz is any less interested in licensing cash. Even The West Wing, a perennial
+performer on Max, was just yanked in the hope of generating a big licensing deal for WBTV. It’s inevitable: Tony and the gang are destined for Netflix.         
+
+5. CAA vs. Defectors Goes to a Verdict
+--------------------------------------
+
+Peter Micelli and Jack Whigham
+were spotted in suits last month in the elevator of a Century City high-rise—maybe the first time the Range Media Partners managers have worn ties since they defected from CAA in 2020. They were being deposed, of course, in the arbitration they brought over the equity CAA claims they forfeited to “compete” with their former agency as managers.
+
+ 
+
+These things typically settle, but the potential money at stake and the animosity
+between the parties will push this March arbitration all the way to a ruling on whether the Range guys are managers in name only. And that outcome could influence the fate of tons of other CAA-ers who fear leaving for non-CAA-approved jobs. Still unclear will be the impact this all has on the separate litigation brought by CAA over the same issues.
+
+6. Streaming Finally Winnows Down the Players
+---------------------------------------------
+
+By Jeff Sagansky,
+co-founder, Eagle Equity Partners, and longtime entertainment investor and executive
+
+ 
+
+We will see continued consolidation and price increases in the streaming space as the industry consolidates around four players, all of which will be increasingly profitable. That means the subscale services like Paramount+, Starz, and Peacock will actively look for partners among the Big Four: Netflix, Max, Disney+, and Amazon Prime
+Video. The wild card here is Apple TV+, which is the only subscale player with the resources to become a fifth player by consolidating the other subscale services. If Apple wanted immediate relevance, that’s what it would do by offering the Paramount and Universal studios long-term output deals. Unlikely, but possible.  
+
+7. Apple Licenses More Movies, Makes Fewer
+------------------------------------------
+
+It’s been more than five years since Apple came to Hollywood, and it still
+hasn’t acknowledged that people love to watch old movies on TV. How Apple TV+ hasn’t bought or licensed a significant film library is beyond me. Its recent dabbling with small packages only makes the problem seem more glaring. But now that Eddy Cue & Co. have been burned several times on Apple’s homegrown flops and pulled back from theatrical releases, it’s finally time to pony up for movies people actually know and like. Buying the perennially for-sale Lionsgate seems
+unnecessary and sort of off-brand, considering the schlocky nature of that library. Why not just go shopping at the legacy studios? Apple could license a decent package for the cost of this summer’s F1 and the second season of Severance.
+
+8. Hollywood Returns to Growth Mode
+-----------------------------------
+
+By Ann Sarnoff, former
+C.E.O. of Warner Bros.
+
+ 
+
+With the proliferation of streaming platforms in the late 20-teens, there was an oversupply of content in the market, and then Covid gave a false signal of increased demand. As we’ve come out of Covid, people are clearly re-engaging with the world—sporting events, concerts, movie theaters—and watching proportionately less in the home. The industry has made significant cuts over the past couple of
+years to resize and reshape program supply to better meet actual consumer demand. In 2025, the industry should be able to start to grow again.
+
+Inside Out 2 ( https://ad.doubleclick.net/ddm/trackclk/N6344.4235865PUCKNEWS/B32685091.409606164;dc_trk_aid=603167433;dc_trk_cid=205001799;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The economics of production will also continue to reshape into
+something that looks more like a modern-day syndication model, where less is paid up front (allowing studios to afford to make and market more and better shows), and in success, the talent and creative teams will make outsize returns that reward the best creativity. The hurdles for what defines success will, of course, be negotiated.
+
+ 
+
+On the sports front, women’s sports will continue to grow in fandom and monetization as
+audiences, investors, and business partners increasingly appreciate the grit and grace that make women’s sports distinctive and valuable.
+
+9. UFC Rights Go to ESPN… and Amazon
+--------------------------------------
+
+UFC is the only major U.S. sports franchise whose broadcast rights are up this year,
+and Dana White has said he wants a 10-year deal—and a major increase from the five-year, $1.5 billion arrangement with ESPN that was signed in 2019. White has also said he’d like to stay in business with ESPN, but Disney—even with the ESPN stand-alone streamer coming in ’25—doesn’t need or, I’m told, want to air all of UFC. And the M.M.A. league could grow its reach by appearing on multiple outlets, so a second or even a third package makes the most sense. Netflix,
+which just did a 10-year, $5 billion deal with WWE—which is also owned by Endeavor’s TKO unit—just saw the ridiculous numbers its Jake Paul-Mike Tyson boxing stunt delivered. But much of the UFC business is pay-per-view, and that’s a better fit for Amazon, which is very good at making retail transactions. I’m betting Amazon outbids Netflix for that second package.        
+
+10. ESPN Opts Out (But Keeps) MLB
+---------------------------------
+
+Disney/ESPN currently pays $540 million a year for Major League Baseball through
+2028, though there’s an opt-out this year that many expect ESPN to exercise, given the relatively low MLB ratings and higher costs of NBA and college football rights. MoffettNathanson estimates the opt-out would save ESPN $600 million in expenses. But with ESPN Flagship launching this year, and MLB games filling a dead zone in the summer, it seems more likely that ESPN will use the opt-out to renegotiate that MLB deal down a bit, and commissioner Rob Manfred will, uh, play ball
+because he wants to stay in business with the Worldwide Leader.  
+
+11. Paramount’s Movie Windowing Looks a Lot Like Universal’s
+----------------------------------------------------------------
+
+Jeff Shell, Paramount Global’s incoming president, was the architect
+of the post-Covid windowing strategy for movies at his former employer, NBCUniversal. That has meant a heavy emphasis on short periods of exclusivity in theaters, followed by a quick shift to lucrative premium video-on-demand, followed by a short window on Peacock in the U.S., then a global S.V.O.D. platform for 10 months (it was Amazon, and will be Netflix starting in 2027), then back to Peacock for the library value. I’d suspect Shell to replicate that model, with earlier P.V.O.D.
+debuts for Paramount movies, Paramount+ getting the first S.V.O.D. window, and then a major output deal with one of the big platforms.   
+
+12. TV Station Group Merger Mania
+---------------------------------
+
+Incoming F.C.C. chair Brendan Carr has said a lot of crazy things,
+but he’s right to question the outdated rules on TV station ownership limits. Why should streaming platforms like YouTube and Netflix get to chase 100 percent of viewers and advertising while, say, Tegna or Scripps, deliver the same product—ad-supported video—yet are limited to TV stations that reach only 39 percent of U.S. households? Those limits won’t completely disappear under Carr, but expect them to be relaxed, which should lead to a frenzy of mergers among station groups. That’s
+especially true if R.F.K. Jr. succeeds in his improbable push to ban lucrative pharma ads, which would hit station groups hard. Even the network owners like Paramount, Disney, and NBCUniversal could potentially buy up more of their affiliates.
+
+13. Avatar 3 Flies Higher Than Avatar 2
+---------------------------------------
+
+By Scott Mendelson, What I’m
+Hearing’s resident box office expert
+
+ 
+
+Here’s a hot take: James Cameron’s Avatar: Fire and Ash will not just become the top global grosser of 2025, but also the director’s fourth $2 billion-plus earner. Right now, conventional wisdom has it that Avatar 3 will rake in ridiculous amounts of cash, but less than the first two—Avatar made $2.7 billion in 2010, not
+adjusted for inflation and not counting reissues, and The Way of Water pulled in $2.32 billion in 2022. There are reasons to believe the series’ trajectory might more closely mirror the first two Star Wars trilogies, wherein part three earned less than the first chapter, yet more than the second. That outcome, at least partially, will depend on moviegoers in China. 
+
+ 
+
+We don’t
+know whether Avatar 2’s $246 million gross in China was due to declining interest in Hollywood tentpoles or its Covid-era release. While higher than any Hollywood tentpole thus far this decade, it was barely more than the $203 million Avatar earned there in 2010, and that was with far fewer available screens. Meanwhile, assuming Fire and Ash is comparable in quality and appeal, global interest should remain on par with its predecessor. Throw in a dash of domestic
+inflation, fewer mid-to-late-December films to compete with, and a China release potentially closer to what was hoped for last time around, and Fire and Ash could become Cameron’s third $2.4 billion-plus grosser.
+
+ 
+
+To be continued on Thursday…
+
+ 
+
+My Reading List…
+------------------
+
+Riot Games’ $250 million foray into television resulted in big
+Netflix viewership, some Emmy noms for Arcane, but also heavy losses, layoffs, and a “retrenchment.” [LA Times ( https://www.latimes.com/entertainment-arts/business/story/2024-12-30/riots-250-million-arcane-tv-series-was-a-netflix-hit-financial-miss?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]   
+
+ 
+
+Nick Quah offers the bear case for the podcast
+industry’s great pivot to video—namely, it makes everyone more dependent on the tech giants. [Vulture ( https://www.vulture.com/article/will-video-kill-the-audio-star-in-2025.html?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )] 
+
+ 
+
+“Going into streaming, my hope is we are going to become the half-hour production company.” Someone tell Dick Wolf that most half-hour
+“comedies” these days are basically dramas. [New York Times ( https://www.nytimes.com/2025/01/04/business/media/dick-wolf-on-call-amazon-prime.html?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+ 
+
+An odd strategy by Globes host Nikki Glaser: tell Howard Stern the better, more biting jokes she didn’t say on the actual show.
+[People ( https://people.com/nikki-glaser-nsfw-jokes-she-didnt-use-2025-golden-globes-hosting-8770180?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )] 
+
+ 
+
+The Feedback
+------------
+
+Apologies to Scott’s box office analysis, but the Justin/Blake
+war again dominated my messages…
+
+ 
+
+“Unethical P.R. is just half the problem. A small collection of comments on social media about a major celebrity is tantalizing to media outlets desperate for clicks. Anonymous social media opinions are the news now, starting with small outlets and snowballing into national news. And the most troubling part is that unethical journalists can work with
+P.R.—or on their own—to plant the seeds of a story on social media and harvest them at the highest level.” —A communications strategist
+
+ 
+
+“Why is no one mentioning that if Baldoni had just stuck to the original 30-point agreement that he, Wayfarer, WME, Sony, and publicists agreed to for Lively to finish shooting after the strikes that this would have never come to light? —A producer
+
+ 
+
+“Our slogan is, ‘In the chips in ’26.’” —An agent
+
+ 
+
+Have a great week,
+
+Matt
+
+ 
+
+Got a question, comment, complaint, or a tequila shot to do with Mario Lopez? Email me at Matt@puck.news or call/text me at 310-804-3198.
+
+Puck
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click
+here ( https://puck.news/unsubscribe/?subscription=what_im_hearing&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGUP3Temyw1eHhO7bFZdvc=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%281%2F6%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

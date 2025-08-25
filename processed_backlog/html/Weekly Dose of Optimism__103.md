@@ -1,0 +1,163 @@
+# Weekly Dose of Optimism #103
+
+**Source:** inputs/old stuff/Docs/Weekly Dose of Optimism103_071924.html
+**Processed:** 2025-08-24T19:49:10.106889
+
+# Weekly Dose of Optimism #103
+
+[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef2921ce-83a6-40c4-ab13-cb79ce46863e_1200x600.png)](https://substack.com/redirect/c13eddc9-dc57-45ec-b264-ea417919d9ec?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+**Today’s Not Boring is brought to you by… [Eight Sleep](https://substack.com/redirect/9f4f8514-192d-44b4-9532-8aa8654382a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**
+
+[![](https://substackcdn.com/image/fetch/w_436,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8911e221-dd17-4d70-8c9c-2c82ec28b93b_1600x754.png)](https://substack.com/redirect/9f4f8514-192d-44b4-9532-8aa8654382a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*If you want to start every day feeling optimistic, you need to get an [Eight Sleep](https://substack.com/redirect/9f4f8514-192d-44b4-9532-8aa8654382a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).*
+
+*Puja and I used to fight over the temperature every night. [Eight Sleep](https://substack.com/redirect/9f4f8514-192d-44b4-9532-8aa8654382a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) solved that. I go -8 cold, she goes +3 hot, and we both sleep happy. Now, with the [Pod 4 Ultra](https://substack.com/redirect/9f4f8514-192d-44b4-9532-8aa8654382a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) it even elevates to improve air flow and stop my snoring. It is also clinically proven to give you up to **one hour more** of quality sleep every night.*
+
+*When the kids wake me up in the middle of the night, I drag the whole next day. When I get my eight hours, I float. Everything feels easier and more fun. You know what I’m talking about; nothing impacts your performance more than sleep. And nothing I’ve tried has improved my sleep as much as [Eight Sleep](https://substack.com/redirect/9f4f8514-192d-44b4-9532-8aa8654382a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU). It’s life leverage.*
+
+*Invest in better sleep. It pays dividends. Join me and thousands of athletes, health experts, and founders like Elon Musk, Mark Zuckerberg, Andrew Huberman, Peter Attia, Bryan Johnson, and Lewis Hamilton who trust Eight Sleep to keep them performing at their best.*
+
+*Head to [eightsleep.com/notboring](https://substack.com/redirect/9f4f8514-192d-44b4-9532-8aa8654382a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and use code NOTBORING to **get $350 off Pod 4 Ultra**.*
+
+[Start Sleeping Better](https://substack.com/redirect/9f4f8514-192d-44b4-9532-8aa8654382a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Hi friends 👋,
+
+Happy Friday and welcome back to our 103rd *Weekly Dose of Optimism.*
+
+Been a pretty wild week since we last wrote you. Watching a presidential assassination play out on social media has been exactly what I thought it would be like. Which is to say, very chaotic. Thankfully, the assassin was unsuccessful, former President Trump is healthy, and — even if just for a few moments — the nation seemed united.
+
+Let’s get to it.
+
+*Kliegman et al in Nature (h/t [Elliot](https://substack.com/redirect/65353c44-6a81-4d4f-9a5c-6c282c1964d0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU))*
+
+> *Nineteen genetic therapies have been approved by the U.S. Food and Drug Administration (FDA) to date, a number that now includes the first CRISPR genome editing therapy for sickle cell disease, CASGEVY (exagamglogene autotemcel). This extraordinary milestone is widely celebrated because of the promise for future genome editing treatments of previously intractable genetic disorders and cancers. At the same time, such genetic therapies are the most expensive drugs on the market, with list prices exceeding $4 million per patient.*
+
+[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F99648eba-a96f-4491-ac5c-2b1ee7983455_1200x704.png)](https://substack.com/redirect/792bb7a1-2e7e-4ff4-b0e4-2a5da3108d32?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Image from [Elliot on Twitter](https://substack.com/redirect/65353c44-6a81-4d4f-9a5c-6c282c1964d0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+The scientific breakthrough is often just the starting point. To make an impact, innovations need to scale.
+
+Almost every week, we cover a breakthrough in research or drug development related to genetic medicines. The pace of innovation in gene therapy is hard to keep up with, and we believe will ultimately have a massive impact on how we manage and cure diseases in the not-so-distant future. The one issue is that gene therapies are currently extremely expensive.
+
+CASGEVY, for example, is a genome editing therapy used for treating sickle cell disease. It also cost, as a one-time treatment, approximately $2.2M per patient. CASGEVY is not alone — each of the 19 genetic therapies approved by the FDA are wildly expensive. The high prices are a result of some combination of perverse incentives, manufacturing limitations, and costly regulations.
+
+A team of researchers and policy experts, lead by Melinda Kliegman, proposed a plan for bringing those costs down. The roadmap consists of a combination of pricing adjustments, manufacturing innovation, and regulatory changes.
+
+One of the key proposals in the roadmap is a new pricing model that could reduce the per-patient cost of genetic therapies **tenfold**. The researchers suggest a framework that ties the final price of a product to the cost of development and deployment, while ensuring maximum insurance coverage. This approach could bring the price of a therapy down from millions to hundreds of thousands of dollars per patient - still expensive, but a significant improvement that could expand access dramatically.
+
+The team also proposes a novel business model that distributes responsibilities while leveraging diverse funding sources. This model combines the strengths of academic institutions, medical research organizations, and public benefit corporations to create a sustainable path for developing and commercializing genetic therapies. By mixing different organizational structures and funding mechanisms, this approach aims to balance the need for profitability with the imperative of accessibility.
+
+What's particularly compelling about this roadmap is that it doesn't require a complete overhaul of the current system. Many of the proposed changes, such as modifications to academic licensing provisions and manufacturing innovations, could be implemented within the existing regulatory framework.
+
+How exciting that we’re in the boring business model innovation phase of something as miraculous as *editing our genes.*
+
+*Stuart Anderson for Forbes*
+
+> *The [updated information on the USCIS website](https://substack.com/redirect/8b3ecb37-85fe-4a79-a89f-b144d9e3d21c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) explains: “Startup entities must demonstrate substantial potential for rapid growth and job creation by showing at least $264,147 in qualified investments from qualifying investors, at least $105,659 in qualified government awards or grants, or alternative evidence.”*
+
+In the final days of the Obama Administration, the International Entrepreneur Rule went into effect and over the last eight years has done little in the way of actually impacting entrepreneurship in America. The rule was designed to allow foreign entrepreneurs to stay in the United States for up to five years to build and scale their businesses. Yet since 2021, the USCIS — which manages the program — has only received 94 applications and only 73 foreign entrepreneurs have successfully completed the process
+
+Recently, the Biden Administration released this data — in an apparent call for more folks to take advantage of the rule — and updated its policy on what qualifies a for entrepreneur for the program. Based on the new thresholds, essentially all you have to do is start a decent startup…raising $265K, especially within tech, is not exactly a major feat.
+
+That said, it should attract more qualified foreign entrepreneurs to America which is just about one of the most important things we can do as a country. Around half of all "unicorn” startups have a foreign founder. I’ll resist listing all of the major companies that impact our lives everyday that were founded by an immigrant. Attracting the best and brightest from all around the world and convincing them to stay and build in our country has been America’s competitive advantage for the last 250+ years. We should make more policies (and policy updates) to ensure we keep that competitive advantage over the next 250 years.
+
+*Alicia Clanton for Bloomberg*
+
+> *In a [post on X](https://substack.com/redirect/425e379a-49b7-4b6b-9140-444d8279c175?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) on Tuesday, Karpathy said he’s launching a company called Eureka Labs, which will use AI teaching assistants to support and expand course materials designed by human teachers. He said the company’s first product will be an undergraduate-level class that will teach students to train their own AI systems modeled as smaller versions of the company’s teaching assistant.*
+
+[![](https://substackcdn.com/image/fetch/w_2560,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F774c2fda-821c-4dca-a752-97607deacc67_1280x720.jpeg)](https://substack.com/redirect/aac9bde7-840b-4992-a687-8e25d28b254d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Speaking of foreign founders in the U.S., former OpenAI and Telsa researcher Andrej Karpathy is starting an AI company that will provide support to educators. In a very meta move, Eureka’s first product will be a classes that teaches students to train their own versions of the company’s own model. Seems like a smart recruiting tactic to me.
+
+Two things to note here:
+
+1. The OpenAI diaspora is in full effect and I expect a whole swath of big, important companies to be built be the leaders and employees of AI’s first generation behemoths. That’s good for everyone — investors, consumers, and the ecosystem at large.
+2. Eureka doesn’t aim to take the humanity out of education. Curriculum building and class design will still be largely handled by the fleshbeings, but the delivery and support will be handled by AI. This seems like the right combo to me. They’ll probably be even more teachers as a result of companies like Eureka. They can focus on the things they love like curriculum and connection, while the AI can handle 1:1 instruction, answering dozens of frustrating follow up questions, and grading performance.
+
+Just another step closer to putting a Primer in everyone’s pocket.
+
+*Oliver Wright for The Times*
+
+> *The Times understands that new legal measures will force councils to quickly identify enough land to meet their predicted future housing needs. Once that land has been identified there will be a presumption in favour of development, with local residents able to agree the style of new housing but not object to it getting built. Councils that fail to produce timely plans will see ministers step in and impose house building blueprints on them.*
+
+[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfab4ed0-b74f-4a4c-a0b3-54d4b560bd65_1200x900.jpeg)](https://substack.com/redirect/14987dc8-1610-486e-ae5e-d1e77b0e5309?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+IT’S TIME TO BLOODY BUILD INNIT.
+
+Sir Keir Starmer, leader of the Labour Party and Leader of Opposition in the UK, pledged to accelerate Britain's economic growth by removing local authorities' power to block housing and infrastructure projects. The plan includes imposing housebuilding targets on councils and intervening if they fail to comply. NIMBYism will simply not be allowed under Starmer’s new plan.
+
+Honestly, I am not sure exactly how I feel about this one. On one hand, it’s great: a government with a strong posture towards building and economic development. On the other hand, I’m glad it’s happening in the UK and not the U.S.
+
+If Senator Mitch McConnell tomorrow proposed legislation that gives the U.S. federal government unilateral control over development, I am not sure I’d be for that. Yes, certainly more things would get built, but do we really want the government to be forcing development projects against the will of local residents? NIMBYs are annoying and their influence should certainly be muted, but I wouldn’t want to wipe away their power all at once. A bit of measured balance is a good thing.
+
+That said, in the UK, desperate times call for desperate measures. There’s a significant housing shortage and slowing economic growth. Nothing a little government-mandated building program can’t fix.
+
+*Andrew Freedman for Axios*
+
+> *The new venture aims to serve as a project developer of multiple series of nuclear power plants, working as a matchmaker of sorts among utilities, manufacturers and [funders](https://substack.com/redirect/10c76cfd-00b2-49f8-8de3-6e3f93d2fed8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).*
+
+[![](https://substackcdn.com/image/fetch/w_2912,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff03e7ff-5b78-48f1-93e9-6e5f19e70768_1920x1080.jpeg)](https://substack.com/redirect/f36044cc-587f-4dc2-8ecd-86c3563464c5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Packy here. The nuclear train keeps chugging. Choo choo.
+
+This time, with the announcement of a new company in the space, the humbly named **[The Nuclear Company](https://substack.com/redirect/4dfbdd0a-bc3a-452e-9535-49b66c167ba9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**.
+
+There are a number of exciting nuclear startups out there. What made my ears (eyes?) perk up reading this is exactly which *kind* of nuclear startup The Nuclear Company is: a **developer**.
+
+On *Age of Miracles,* Julie Kozeracki from the US Department of Energy’s Loan Program Office highlighted the developer model as a missing piece:
+
+> *Another piece of the nuclear ecosystem that might be missing to ensure that we can deliver on some of that process is this developer model. One of the things that allowed wind and solar to take off at scale was a developer model where folks were able to take on the risk, manage the construction, and hand over the asset to a utility to operate.*
+
+![](https://substackcdn.com/image/fetch/w_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Fthumbnail-play.png)
+
+![](https://i.scdn.co/image/ab6765630000ba8a91905c7cfb529deadc8742c6)
+
+E3: Nuclear Economics
+
+Packy McCormick
+
+Episode
+
+The Nuclear Company won’t be designing a new type of reactor. They’ll be using old, approved designs. What they will do is orchestrate all of the things that go into getting large reactors live, from coordinating financing to standardizing processes and holding various parties accountable to timelines to bringing together buyers ranging from utilities to corporates and industrials.
+
+As it stands, utilities — which will very likely only manage one nuclear project in any of its employees’ lifetimes — manage the process. They kind of learn everything from scratch, stumble through it all, learn a lot of hard-earned lessons, and never, ever apply them again. And then, the next time a utility wants nuclear, that utility starts all over. It’s one of many reasons nuclear is expensive and not getting cheaper.
+
+The hope for The Nuclear Company is that they’ll continue to get better and better at the process as they roll out 6 gigawatt fleets using the same reactors over and over again. If they can, maybe we can start putting gigawatts back on the map, on time and on budget.
+
+This won’t be fast — TNC wants to begin producing electricity by the mid-2030s — and it’s not as sexy as a new reactor design, but it’s important.
+
+*Jason Crawford, Roots of Progress*
+
+> *Industrial civilization has become a victim of its own success: it has solved the problems of daily existence so thoroughly, and with such finesse, that the solutions and even the problems fade from our collective memory. Like fish in water, we are so immersed in technology and industry, so completely dependent on it every day of our lives, that it recedes into the background, out of our awareness. We only notice the* inverse*: the rare occasions when the heat doesn’t work, or the water isn’t clean, or the store shelves are empty, or there is a power outage—or even a wi-fi outage. Indeed, many of these events are national news.*
+
+Packy again. Friend of Not Boring [Jason Crawford](https://substack.com/redirect/b99c52c7-11c1-4249-94d1-4dd6d6b75f21?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), the founder of [Roots of Progress Institute](https://substack.com/redirect/6ff4769c-5f45-44e2-a31e-46803c8ce79f?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), just announced that he’s writing a book called *The Techno-Humanist Manifesto.*
+
+In the announcement thread, he explained what he would be writing about and why:
+
+> *Techno-humanism is the view that science, technology, and industry are good—not in themselves, but because they ultimately promote human well-being and flourishing. In short, it is the view that material progress leads to human progress.*
+>
+> *The book will present a moral defense of material progress.*
+
+Jason is one of my favorite writers / thinkers on the internet. He’s been into Progress before Progress was cool, and he always takes a thoughtful, balanced, and fact-based approach to understanding why humans have been able to do the amazing things we have, and how we might do more of those amazing things in the future.
+
+Progress isn’t tribal for him; it’s a critical field of study and practice.
+
+Instead of publishing the book all at once, Jason is serializing it on Substack at a pace of roughly one chapter / essay per week. The first chapter, *Fish in Water,* is a beautiful start.
+
+I’ve often thought that the best thing proponents of progress could create to sway those who somehow oppose it is a Counterfactual Reality Device (CRD): an immersive VR headset that puts its wearer in the place of someone living *before* much of the last couple of century’s advances came to be. The wearer would feel very cold or hot, probably hungry, and definitely dirty. They might feel the sorrow of losing a child too early, or the fear of fighting a battle with axes and swords. They certainly wouldn’t be able to tweet about the evils of technology from their iPhone, safely ensconced in a well-lit, air conditioned room.
+
+Until the CRD is born, *Fish in Water* does the best job of describing some of the challenges associated with the good ol’ days and categorizing just how lucky we are to be alive right now. I’m looking forward to reading the rest of the chapters as they come out, and if you like the Weekly Dose, I suspect you’ll [enjoy subscribing, too](https://substack.com/redirect/1792003a-a4fa-4d2c-9ba7-a40b3dde7311?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+Have a great weekend y’all. Thanks to ***[Eight Sleep](https://substack.com/redirect/9f4f8514-192d-44b4-9532-8aa8654382a5?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*** for sponsoring!
+
+We’ll be back in your inbox on **Tuesday**.
+
+[Share](https://substack.com/redirect/3a9ec35c-54ae-4a79-84b9-498bd5aa640d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Thanks for reading,
+
+Packy + Dan

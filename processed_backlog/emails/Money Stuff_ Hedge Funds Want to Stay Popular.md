@@ -1,0 +1,153 @@
+# Money Stuff: Hedge Funds Want to Stay Popular
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Tue, 24 Aug 2021 12:33:22 -0400 (EDT)
+**Source:** inputs/saved_emails/Money Stuff Hedge Funds Want to Stay Popular_Tue,_24_Aug_2021_12-33-22_-0400_(EDT)_17b79043a3cd1651.eml
+**Processed:** 2025-08-24T19:13:04.174229
+
+
+
+  
+  
+    
+      
+        
+          
+            
+          
+        
+      
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      The hedge fund business
+    
+  
+I  often say that the key skill of a hedge fund manager is not picking stocks that go up, but rather continuing to manage a hedge fund. If you pick stocks that go up, and a lot of people invest in your fund, and then you pick stocks that go down, and then everyone takes their money out, you have done a bad job. If you pick stocks that go up, and a lot of people want to invest in your fund, and you say “well fine you can invest but you need to sign a multi-year lockup with a very favorable fee structure for me” and go raise a permanent-capital vehicle on the basis of your celebrity, and then you pick stocks that go down, and then everyone grumbles about how they’d like to take their money out but can’t, you have done a good job. Obviously if you just pick stocks that go up forever then you have done the best job — you are Renaissance Technologies? — but that is hard. Not that it’s easy, exactly, to keep your investors’ money even after picking stocks that go down. But it is a solvable problem, there are techniques for it, it is more common than picking stocks that go up forever.Anyway here’s a story about how “Hedge Funds Are Hot Again.” For instance, “famed investment firm Brevan Howard, which as recently as mid-2019 was struggling to stem an unprecedented client exodus, shut its flagship fund to investors earlier this year” because investors were clamoring to give it more money than it could handle. “Hmm,” you might think. If Brevan Howard (1) has more investor demand than it knows what to do with, and (2) just two years ago “was struggling to stem an unprecedented client exodus,” then … perhaps it should reflect on the recent bad times, and use the current good times to stem the client exodus in advance? Like, when the investors who took their money out two years ago are begging to put more money in now, conceptually, what you want to do is say “sure I’ll take your money now but in exchange you have to promise not to take it out in two years when I start losing all your money again.” And, again, there really are techniques for that.Brevan Howard has found some?At Brevan Howard, the firm is determined to avoid a repeat of the boom-and-bust cycle. And a key part of that is talking more to investors, who in the old days didn’t get much more than an occasional update and a phone call. Now, even with Brevan Howard firmly in the throes of a turnaround, it’s focused on holding onto client assets when markets inevitably turn again.“The issue is with the ability of the manager to stop investors from getting disillusioned and retain their confidence during inevitable periods of not-so-great performance,” Landy said in a virtual interview from his home office. “What we are doing very thoughtfully and deliberately is trying to be the best partners for our clients.”For him and other senior money managers at the firm, that means grabbing a microphone: they all have to record podcasts outlining the thinking behind their investments.Look if it were me I’d be demanding multi-year lockups but podcasting could probably work too.
+  
+    
+      Everything is securities fraud
+    
+  
+Everything, I like to say, is securities fraud: If a public company does a bad thing, or a bad thing happens to it, and it becomes public and the stock goes down, investors will sue. “You didn’t tell us about the bad thing,” they will say, “so we bought the stock thinking it was very valuable, but then when we learned of the bad thing the stock went down and we lost money due to your deception.”Now, technically, this is not always securities fraud. Companies don’t actually have an obligation to disclose everything that happens as soon as it happens. If a moderately bad thing happens, and the company doesn’t say anything for a while, and then the news comes out, that is not technically securities fraud.But this is a small technicality that doesn’t matter much, because companies will generally have said something that the bad thing renders untrue, or untrue-ish, or somewhat misleading. For instance, the company will say “we have a code of ethics and tell our executives to behave well.” Then if the executives behave poorly, someone will sue the company, saying “you told us that you have a code of ethics, so we believed your executives behaved well, but you neglected to tell us that they actually behave poorly.” (This is the Goldman Sachs Group Inc. case that went to the Supreme Court.)Or the company will have risk factors in its public filings, saying things like “if we get hacked that would be bad” or “if our chief executive officer is a sexual harasser that would be bad” or “if we violate the law that would be bad” or whatever. And then if it turns out the company had been hacked, or the CEO is a harasser, or the company did violate the law, then investors could object: “You lied to us! You used words like ‘if we get hacked,’ which implied that you had not been hacked, but in fact you had been hacked already! Your use of the word ‘if’ was fraud.”That’s really the law I guess; here is a U.S. Securities and Exchange Commission enforcement action from last week:The Securities and Exchange Commission today announced that Pearson plc, a London-based public company that provides educational publishing and other services to schools and universities, agreed to pay $1 million to settle charges that it misled investors about a 2018 cyber intrusion involving the theft of millions of student records, including dates of births and email addresses, and had inadequate disclosure controls and procedures.The SEC's order finds that Pearson made misleading statements and omissions about the 2018 data breach involving the theft of student data and administrator log-in credentials of 13,000 school, district and university customer accounts. In its semi-annual report, filed in July 2019, Pearson referred to a data privacy incident as a hypothetical risk, when, in fact, the 2018 cyber intrusion had already occurred. And in a July 2019 media statement, Pearson stated that the breach may include dates of births and email addresses, when, in fact, it knew that such records were stolen, and that Pearson had "strict protections" in place, when, in fact, it failed to patch the critical vulnerability for six months after it was notified. The media statement also omitted that millions of rows of student data and usernames and hashed passwords were stolen. The order also finds that Pearson's disclosure controls and procedures were not designed to ensure that those responsible for making disclosure determinations were informed of certain information about the circumstances surrounding the breach.From the SEC’s order:On July 25, 2019, Pearson’s management met to discuss the incident and again decided that it was not necessary to issue a public statement regarding it. On July 26, 2019, Pearson furnished on Form 6-K its report of interim results for the six months from January 1, 2019 through to June 30, 2019. In the “Principal risks and uncertainties” section of that report, Pearson stated that a “[r]isk of a data privacy incident or other failure to comply with data privacy regulations and standards and/or a weakness in information security, including a failure to prevent or detect a malicious attack on our systems, could result in a major data privacy or confidentiality breach causing damage to the customer experience and our reputational damage, a breach of regulations and financial loss.” This statement, which remained unchanged from prior Forms 6-K, implied that no “major data privacy or confidentiality breach” had occurred when Pearson knew months earlier about the AIMSweb 1.0 breach. Pearson failed to consider how certain information about that breach should have informed this risk disclosure.Let’s assume that Pearson’s management was right and that “it was not necessary to issue a public statement regarding it.” (The SEC seems skeptical, but does not quite come out and say that Pearson was obligated to disclose it immediately.) It could have just burbled along keeping the breach quiet, until its next interim financial report was due. Then, if it just left in the usual risk factor — “if we get hacked it’d be bad” — that would become securities fraud; the hypothetical phrasing would imply that a hack had not happened, but in fact it had. I suppose Pearson could have just taken out the risk factor, but that seems like much worse disclosure. (Certainly their risk of being hacked hadn’t gone down?) The advanced move would be to tinker with it a bit: “if we get hacked it would be bad, and when we say that we don’t mean to imply that we have not been hacked, perhaps we have been hacked, we’re not telling you.” (For instance: “Risk of a data privacy incident or other failure to comply with data privacy regulations and standards and/or a weakness in information security, including a failure to prevent or detect a malicious attack on our systems, which may have already happened, could result in a major data privacy or confidentiality breach causing damage to the customer experience and our reputational damage, a breach of regulations and financial loss.”) Even that might be too hypothetical for the SEC though. Really the only move is to come clean. Your existing disclosure boxes you in.
+  
+    
+      Stablecoins
+    
+  
+We  talked a couple of weeks ago about a core problem for stablecoin issuers:	(Many) people who buy stablecoins would like each stablecoin to be backed by exactly $1 in a bank account.[1]	Banks often don’t want to hold deposits from crypto companies (like stablecoin issuers), and these days they don’t want to hold deposits generally, meaning that they might decline your deposits or pay you negative interest.	Also it is not really best practices to put all your cash in one bank account.	So you buy commercial paper and stuff, and your money is not all in a bank account.	And then you go around saying “your stablecoins are 100% backed by U.S. dollars in a bank account,” because that’s what people want to hear, but you’re lying.It’s not ideal. The consortium behind USDC, a $27 billion stablecoin, did this, and regretted it, and  has now “said all the reserves of the second-largest cryptocurrency stable coin will shift into cash and short-term U.S. Treasuries, forgoing riskier investments.” Fine. I’m not sure that’s a good investment policy, but I guess it’s a good public-relations policy, so fine.[2] I don’t know what “cash” means in the USDC announcement. They’ll hold “cash and short duration US Treasuries.” Presumably that does not mean “a drawer full of $100 bills.” Presumably it means bank accounts, perhaps other things.You know what would be ideal? A stablecoin that was a pure wrapper for a digital dollar. Right now you can’t get a “digital dollar,” in the sense of “a thing that is worth a dollar in any imaginable state of the world,” though you can come very close. (An FDIC insured bank account is pretty much a digital dollar; you’d have to work pretty hard to come up with a scenario in which you lose access to that dollar even briefly. But FDIC insurance limits are considerably lower than $27 billion.)But some people can get pure uncut digital dollars. Those people are banks. A bank can hold its money in the form of reserves at the Federal Reserve, and those reserves are dollars in every state of the world: The Federal Reserve makes the dollars, and the dollars that it makes are reserves. The Fed will even pay the bank interest on those reserves; right now that interest is 0.15% per year, a small but positive number.A stablecoin issuer that held 100% of its assets in reserves at the Fed would be the purest form of stablecoin: just a blockchain wrapper for a digital dollar, a “blockchain depositary receipt” on dollars issued by the Fed. Nobody would worry about its assets, because its assets would all be held at the Fed. (And it would even earn a little interest, which presumably it would not pay to customers but would keep for itself?) There are two problems with this. One is that if you’re going to do that sort of stablecoin, you need to get a banking license, which a lot of stablecoin issuers seem to find difficult or undesirable. The other is that the Fed doesn’t really like this sort of “narrow banking”; when a bank — called TNB USA Inc., for “The Narrow Bank” — tried to open a Fed account to just hold all of its customers’ deposits in the form of Fed reserves, the Fed  fought it and  proposed rules to prevent it. Still, maybe, who knows. Earlier this month, Felix Salmon at Axios wrote:Crypto giant Circle has announced its intention to become a bank, fully regulated by the Federal Reserve, the Office of the Comptroller of the Currency and the FDIC.Why it matters: We're still a very long way from this happening. But if it does, Circle's USDC stablecoin could become a de facto central bank digital currency.How it works: Circle's dream is to become a narrow bank — one that eschews fractional-reserve banking entirely, and instead places all deposits on reserve at the central bank. ...The big picture: If the dream were to become reality, then Circle would effectively be issuing a cryptocurrency backed by the Fed itself — for all intents and purposes, a central bank digital currency, or CBDC.The Fed does  not seem particularly fond of the idea of a CBDC either. One very general way to put it is that the Fed likes banks. Not so much in like a corrupt regulatory-capture sense, but in the sense that, you know, banks lend people money and keep the economy going and so forth. The Fed is full of macroeconomists and bank regulators who think that credit and fractional-reserve banking work pretty well and are kind of important to the functioning of the economy, and would be sad if everyone stopped putting their money in banks (real banks, that do lending and stuff) and started putting their money at the Fed (or in narrow banks that park their money at the Fed) instead. Whether or not the narrow banks are also cryptocurrencies.On the other hand if you are a stablecoin it is a very appealing pitch! “100% of our stablecoins are backed by dollars in a bank account” is fine, but not perfectly risk-free; “100% of our stablecoins are backed by dollars at the Federal Reserve” really is better.
+  
+    
+      Broadridge
+    
+  
+Back when financial firms were breathlessly announcing new blockchain projects every week, I made fun of them a bit. “Blockchain blockchain blockchain,” I called it. Here is the sort of thing I used to write:You can bring senior executives into a room and tell them that you’re upgrading the infrastructure that you use to reconcile trade settlement data with counterparties, and their eyes will glaze over and they will start nodding off, and you can shout “blockchain! blockchain! blockchain blockchain blockchain!” and they will perk up and hand you a stack of money. The blockchain is exciting in ways that improving database architecture is not.And I think that was true; the brief period of blockchain-blockchain-blockchain mania in like 2017 and 2018 was a rare opportunity to get a lot of senior attention and money lavished on database upgrades in financial services.Still it is worth saying that database upgrades in financial services can be worth doing! Here’s an amazing story about Broadridge Financial Solutions Inc.:Broadridge operates financial plumbing that most investors never think about. US funds and public companies are required to share important documents with their investors. But because most investors hold stakes through brokers, their identities are often unknown to fund managers and companies.Instead, brokers distribute the investor communications — usually by using a third-party vendor such as Broadridge — and charge fees back to the fund or company. In the business of investor communications, “Broadridge is the leading player, by a wide margin”, said Rajiv Bhatia, analyst at Morningstar. “The majority of shares are held in brokerage accounts, and Broadridge has every broker except [retail broker] Robinhood. That’s essentially the entire market.”The New York Stock Exchange regulates fees for investor communications, setting a cap of 25 cents a report. Broadridge charges the full 25 cents for an email, according to analysts. It costs more than for paper mailings because of a 10 cent fee that Broadridge charges to review whether shareholders prefer email over paper, according to the company.The fees vastly exceed the cost, according to the Investment Company Institute, a trade group for the fund industry in Washington. For investor accounts not held through a broker, a typical fund paid 5 cents to send a shareholder report by either email or paper mail exclusive of postage, ICI said. ...Broadridge maintained that its fees represented a significant savings for funds compared to what it costs to communicate with investors who own shares directly rather than through a broker. The letter also noted that Broadridge charged funds $45m for the year ending April 2018 to maintain a database of whether investors chose to receive emails or paper mail from their investments.I will not say that I have any special expertise here but, I mean, I am a guy who sends out emails for a living, and I am pretty sure it does not cost 25 cents per subscriber per day to send out Money Stuff ? Also I do not think it costs $45 million a year to maintain the subscriber list? These numbers seem high! If brokerages could somehow keep a list of all their customers with their email addresses, and could perhaps have a little check mark next to each name saying “email?,” and could keep the costs of that list to the low eight figures, that would be a substantial cost savings? It is possible that financial-industry executives should be paying more attention to their databases.
+  
+    
+      Pay
+    
+  
+Here's a  Bloomberg Businessweek story from last week about how junior bankers are getting paid more:In the span of a few months, the sticker price for a freshly minted college graduate in top-level banking has quickly shot up, reaching and then surpassing $100,000 — a guaranteed salary to be padded later with a chunky bonus. …Out in the real world, a six-figure entry-level salary is another example of extreme inequality and the way finance has come to dominate the economy. The raises put junior bankers on track to earn almost five times—or more—the median wage of young college graduates. By inflating paychecks right out of the gate, banks are likely exacerbating the pay gap with other industries for years to come.I dunno, I am not convinced that these raises are a sign of, like, the financial industry’s confidence and dominance? The round of simultaneous raises to respond to analyst grumbling suggests that banks are keenly aware that there are other options, that the attractiveness of banking has decreased relative to tech or fintech or whatever. Also it remains funny that the analysts grumbled about the workload, and the banks heard their concerns and considered them and responded with higher salaries:Adam Cotterill, who worked in the junior ranks of Goldman until last year, says it isn’t surprising that the solution banks have landed on is not so much to improve the job but to pay more. “Trying to make changes to the life of junior bankers has proven to be really challenging,” he says. To work through the crazy hours, Cotterill recalls putting on headphones blasting faux rain noise and taking power naps in bathroom stalls. “There are a lot of negative repercussions,” he says. He left Goldman for another finance job, quit because of the strains, and is now a blogger. I know the feeling. Anyway this reminds me of a great anecdote in Gregory Zuckerman’s book about Jim Simons and Renaissance Technologies, “The Man Who Solved the Market.” The story is about Renaissance executive (now chief executive officer) Peter Brown:Once, as he worked on a complicated project late in the evening, full of manic energy despite the hour, Brown picked up the phone to call a junior associate at home with a pressing question. A colleague stopped Brown before he could dial.“Peter, you can’t call him,” he said. “It’s two a.m.”Brown looked confused, forcing the colleague to explain himself.“He doesn’t get paid enough to answer questions at two a.m.”“Fine, let’s give him a raise, then,” Brown replied. “But we have to call him!”For a lucrative enough business, the answer to “they don’t get paid enough to work this hard” is always going to be “well let's pay them more.”
+  
+    
+      Benefits
+    
+  
+At Quartz, Mary Childs and Karishma Vanjani have a rundown of “The best employee benefits at the top US financial firms,” and point out how weirdly difficult it is to get the information:When you’re looking for a job, it’s difficult to find out what companies offer until you’re far along in the hiring process. And if you already have a job, there’s no easy way to learn what other companies in your industry offer, to bolster your case if you want to ask your company for more. To attract top talent, companies should advertise their benefits—especially when they are great—but many of them don’t.We canvassed 101 of the biggest and most influential companies in financial services, one of the highest-paying industries in the US, to find out what benefits they offer to employees. 32 asset managers, banks, industry groups, and accounting firms shared this information.The basic form of the problem here is that companies want to offer good pay and benefits to attract talented employees, but if they offer the best benefits they worry about the risk of adverse selection. If you offer unlimited vacation, are you going to attract mainly workers who want to take a lot of vacations? For a while Goldman Sachs Group Inc. resisted the trend of raising junior investment banking salaries because it didn’t want to attract workers who were mainly in it for the money, which was a truly weird thing for Goldman Sachs to think but they did think (well, say) it. So you want to tell talented employees “come here, we will treat you well,” but you want to avoid hiring employees who actually demand to be treated well. A compromise is to say “we offer competitive pay and benefits,” or whatever, but make it hard to find out what they are.
+  
+    
+      Vacation
+    
+  
+Money Stuff was off last week because I was at the beach. Here is a post from Joachim Klement about vacation, pointing to a recent paper by Sima Jannati and Sarah Khalaf about stock analysts’ time off. The paper is called “A Ruffled Mind Makes a Restless Forecast: The Effect of Rest on Analyst Forecast Accuracy,” and here is the abstract:This paper tests whether increased rest during holidays improves judgment tasks. We find that earnings forecasts that are issued after holidays are, on average, 55 basis points more accurate than those issued before holidays. This impact is comparable to other determinants of analyst accuracy and is robust to alternative measures and explanations. Supporting the rest channel, we find that enhancement in sleep time and sleep quality lead to more accurate forecasts. Overall, we contribute to the literature by linking rest to financial decision-making.Klement comments:Making forecasts about company earnings is a complex task that requires the analyst to weigh many different factors. A stressed or exhausted analyst has reduced mental bandwidth and is likely to engage in oversimplified reasoning and flawed forecasts. Meanwhile, a well-rested analyst is able to weigh different factors more carefully and should thus make better forecasts. And indeed, forecasts made by analysts in the first three workdays after a public holiday are more accurate than forecasts made in the three days or the thirty days before the public holiday.I suppose the implication here is that yesterday’s, today’s and tomorrow’s editions of Money Stuff are as wise and thoughtful as you’re gonna get. The August news cycle is perhaps a confounding factor however.
+  
+    
+      The Poly Network hacker seems fun
+    
+  
+A few weeks ago a hacker stole about $600 million of cryptocurrency from a decentralized finance protocol called Poly Network. Then Poly asked the hacker to give the money back, and the hacker was like, sure, fine, I’ll give the money back. The money started coming back to a Poly wallet. “Crypto Hackers Are Nice Now,”  was my headline. “There is some chance this will turn out to be a hilariously heartwarming story,” I wrote.This weekend Kevin Dugan checked in on how that’s going:Since then, the hacker parked the equivalent of $240 million in a cryptowallet that’s purportedly shared with the Poly Network — and then refused to give it the access keys for a week. Mr. White Hat then raised the bar for when he will return the funds, making himself the sole decider of when people will be able to get their own money back. On Wednesday, another $100 million or so was returned — the timing, and the trigger for the rest of the money, remains unknown. …“The Poly Network team is still negotiating with the hacker. And the primary goal is to get one key back from the hacker,” said Xuxian Jiang, the CEO of blockchain security firm Peckshield, which is working with Poly Network. “At this stage, we really don’t want to make the hacker angry to do something to jeopardize the funds.”Ah. (“Mr. White Hat” is the nickname that Poly Network gave the hacker.) Well, maybe not heartwarming, but certainly still hilarious:In his missives, he waxes philosophical about the nature of life, dropping references to Martin Heidegger. “I have been exploring the meaning of life for a while. I hope my life can be composed of unique adventures, so I like [to] learn & hack everything in order to fight against the fate. Sein zum tode,” he said, using a Heideggerian term for a state of being that’s oriented toward one’s own death.Despite the nomme de paix, this hacker is ambivalent about the idea that what he’s doing fits into any neat ethical category. In his communications, encrypted in publicly viewable ethereum transactions, he refers to the heist he orchestrated as a “game” nine times — one where the losers get what they deserve.“It’s hard to prove that your loss is my fault, especially when you are already gambling beyond your capability,” he wrote in an all-caps message. …“If you are still confused, ask some richer friends, what is money for?” he wrote. Sure returning the money seems kind, but is it kind? What sort of lesson will the Poly users learn if the hacker steals their money and then gives it right back to them? He is not here to just do some hacking, have a laugh, and give the money back; he is here to teach the Poly users some hard but necessary lessons about money, about losses, about themselves, about the nature of being and time and this harsh universe. “Sein zum Tode,” he tells them, in all-caps messages embedded in Ethereum blockchain transactions. Modern philosophy is great.
+  
+    
+      Things happen
+    
+  
+New Appetite for Mortgage Bonds That Sidestep Fannie and Freddie. China Eyes $1 Trillion of Minerals With Risky  Bet on Taliban. El Salvador Readies Bitcoin Rollout With  200 ATMs for Conversion. Elon Musk Pans Pilot Version of Tesla’s Driver-Assistance Feature. Why the Bezzle Matters to the Economy. White Collar Support Group. Maersk takes biggest step yet to decarbonise container shipping. Visa bought a CryptoPunk. Cuomo's dog Captain left at mansion after governor departed. If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Sam Bankman-Fried has made the point that some other people who buy stablecoins actually *like* the somewhat cagey unaudited vibe of Tether: If all the dollars backing your stablecoin are in a bank account known to the government, then the government can seize the dollars and make the stablecoin worthless. Regulated U.S. investors might like a nice regulated U.S. bank account, but other investors might trust governments and banks less.[2] Bloomberg  reports: “Aaron Brown, a crypto investor who writes for Bloomberg Opinion, says it gives the consortium less ability to diversify, which could be important down the line. ‘The old investment rules for USD Coin were perfectly sound,’ said Brown. ‘Circle is making a splashy announcement to address a problem that doesn’t exist, in hopes of making itself seem more prudent than rivals.’” Yes but I mean there are only so many ways to compete in the stablecoin business; “we actually have your dollars” seems like a big one.
+        
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like Money Stuff? | 
+Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cesfio.5eig/0d6c5a57.gif" alt="" border="0" /></a>

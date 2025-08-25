@@ -1,0 +1,444 @@
+# Why the Democrats Lost Tech
+
+**Source:** inputs/old stuff/Docs/Why the Democrats LostTech_072324.html
+**Processed:** 2025-08-24T19:49:07.999393
+
+# Why the Democrats Lost Tech
+
+*Welcome to the **256 newly Not Boring people** who have joined us since last week! If you haven’t subscribed, join **229,980** smart, curious folks by subscribing here:*
+
+[![](https://substackcdn.com/image/fetch/w_40,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideCheck%3Fv%3D4%26height%3D40%26fill%3Dtransparent%26stroke%3D%25230c2427%26strokeWidth%3D3.6)Subscribed](https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly93d3cubm90Ym9yaW5nLmNvL2FjY291bnQiLCJwIjoxNDY5MTU2MjIsInMiOjEwMDI1LCJmIjp0cnVlLCJ1IjoxNjI4MzU0OSwiaWF0IjoxNzIxNzM5MjI3LCJleHAiOjE3MjQzMzEyMjcsImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.CK0hDYMnWf_uUiS0hiAyWRHTTsR67jA3nyeMZ7qauNM?)
+
+**Today’s Not Boring is brought to you by… [Eight Sleep](https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)**
+
+[![](https://substackcdn.com/image/fetch/w_400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8ddb290-f1c5-45e2-a7af-81eeb8b6c5c1_1600x754.png)](https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Eight Sleep](https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) helps you sleep better, and better sleep helps you do everything else better.*
+
+*On good nights, I use my [Eight Sleep Pod Cover](https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) for a little more than a third of the day. Last night was one of those nights. My Sleep Fitness Score was 99. I’m ready to have a good day.*
+
+*[Eight Sleep](https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) is more than a mattress; it’s a sleep lab in your bedroom. The Pod Cover is packed with sensors that measure things like heart rate, breathing, and scoring, and Eight Sleep uses that data to give you better sleep each night.*
+
+*Recently, [Eight Sleep](https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) launched their newest generation of the Pod: Pod 4 Ultra. It cools, it heats, and now it elevates, automatically. It is also clinically proven to give you up to **one hour more** of quality sleep every night. It even elevates to stop your snoring.*
+
+*Invest in better sleep. It pays dividends.*
+
+*Join me and the thousands of athletes, health experts, and founders like Elon Musk, Mark Zuckerberg, Andrew Huberman, Peter Attia, Matt Walker, Bryan Johnson, and Lewis Hamilton who trust Eight Sleep to keep them performing at their best. Head to [eightsleep.com/notboring](https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and use code NOTBORING to **get $350 off Pod 4 Ultra**.*
+
+[Start Sleeping Better](https://substack.com/redirect/ebef1960-6330-43a0-98d8-61521121f081?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Hi friends 👋 ,
+
+Happy Tuesday!
+
+You know what people love? When people in tech who don’t know much about politics opine on politics!
+
+But tech didn’t fall out of a coconut tree. It exists in the context of all in which it lives. As the industry gets richer and tackles bigger problems, that context includes politics.
+
+So at the risk of pissing off people on both sides of the aisle…
+
+Let’s get to it.
+
+[![](https://substackcdn.com/image/fetch/w_2400,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9991af1-44f9-4111-a6e7-c0b47cbfc1ec_1200x600.png)](https://substack.com/redirect/55cc93c8-a767-4a8e-95be-cfc4bf0d5dd4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Over the past month or so, and particularly since the assassination attempt on Donald Trump last weekend, prominent tech leaders have come out in support of the former President, in the form of both endorsements and donations.
+
+While the vast majority of people in tech will still vote Democrat in November, this is a stunning turn for an industry that has long leaned hard to the left.
+
+There have been a number of theories put forth to explain the right turn, most of which come in some flavor of: Trump better serves the interests of the self-interested tech industry.
+
+I think that story is almost precisely **backwards**, and that until the Democrats understand why, they’ll have a hard time winning back tech no matter how loudly they yell “January 6th,” “felon,” or “fascist.”
+
+But I think there’s a chance for the Democrats and tech to work together again. President Biden’s decision to drop out of the 2024 Presidential election is an opportunity for the Democratic party to focus on what can be, unburdened by what has been.
+
+So while no one wants to hear another VC’s political takes, I wanted to lay out as clearly as I can the fundamental misunderstanding between the Democrats and tech as I see it.
+
+My hope is that the Democrats can face up to how they lost tech and use the chance they’ve been given to put forth a more optimistic and progress-oriented platform that partners with tech to achieve the goals that both sides share.
+
+Now obviously, I don’t speak on behalf of the entire tech industry. This essay is an attempt to distill what I’ve been hearing and reading over the last few months, and if you’d like, you can read it as my own personal views. When I write “People in tech,” you can substitute “I.”
+
+After a stint in Young Republicans in high school, I voted for Obama, then Hillary, then Biden. I remember walking over the Brooklyn Bridge on an eerily overcast morning the day after Trump won in 2016 and thinking that we were entering the end times. In 2020, I publicly supported Biden, [tweeting](https://substack.com/redirect/054da7bb-5dbe-4e4f-aa4e-f6fb64bf758e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU): “We need a good person in the White House. Vote.”
+
+This time around, I don’t know who to vote for. Before Biden dropped out, I found myself drifting towards Donald Trump even though I didn't want to vote for him. Now, I’m waiting to see who the Democrats put forth and the platform that new candidate proposes.
+
+**The Democrats lost tech.** If they were running against practically anyone other than Donald Trump, there might not be a single blue vote in a Silicon Valley that’s historically bled blue.
+
+**They can win it back**, and it won’t be that hard. Let’s be serious: Donald Trump is not an ideal candidate for tech, he’s just the one that’s not hostile to tech, for now.
+
+People have been faced with a “lesser of two evils” choice. They’ve lost faith in both sides. Given that, many have chosen the side that at least says it will get out of their way and let them build what the government can’t. It would be great to have a great choice.
+
+Look, I’m obviously biased and have a financial interest in tech-friendly policies, but I firmly believe that allowing entrepreneurs to compete in a capitalist system produces the best future for America, Americans, and the world.
+
+Did you catch that? That right there is the fundamental distinction.
+
+### **How Democrats See Tech**
+
+Over the weekend, Mayor Pete went on Bill Maher, and gave the simplest and most eloquent explanation for tech’s right turn that I’ve seen:
+
+[![](https://substackcdn.com/image/fetch/w_1100,h_618,c_fill,f_auto,q_auto:good,fl_progressive:steep/l_play_button_usfui2,w_144,e_colorize:0/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F146915622%2Fdd466791-77bd-47ab-b2aa-95d19406e573%2Ftranscoded-00001.png)](https://substack.com/redirect/14722a09-32e1-4566-98af-a634cc9fad7d?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+“We’ve made it way too complicated. It’s super simple. **These are very rich men who have decided to back the Republican party that tends to do good things for very rich men.**”
+
+Pete can talk the cover off the ball. I’d pay good money to watch him debate any of the current candidates. He even had *me* convinced for a second, before I snapped out and remembered that he was **absolutely wrong in the most important way**.
+
+Democrats lump tech people in with rich people (bad) and assume a selfish motivation. Tech people view themselves as making the world better through a capitalist system that rewards them for doing so.
+
+**For Democrats, “rich” is the operative word. For people in tech, “capitalist” is.**
+
+The Democrats look at the outcome of the process, one that has produced individuals who are wealthier than entire small cities. Tech cares about the process itself; protecting the opportunity to innovate, compete, and implement is the top priority, wealth is a byproduct.
+
+As a country, it seems that we’ve conflated the debate about how to redistribute prosperity with a debate about whether we should have prosperity at all. We can afford to have the redistribution debate only because we have the prosperity, and we have prosperity because of our combination of talent, resources, technology, and a rule of law that protects entrepreneurs’ right to wield all three. This is not to say that entrepreneurs are solely responsible for America's prosperity, only that they are a **critical** component.
+
+In recent years, it felt like, for Democrats, if a small group of people is getting exceedingly rich, it means that others are necessarily worse off. Zero sum. For people in tech, the ideal is to get rich by enabling more people to enjoy a higher quality of life. Positive sum.
+
+It’s an ideal, but it has many true believers, and a track record to back it up. Don’t make me tap the sign.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F533e7ae4-9aa8-4233-97ba-00d4c7de790d_908x411.png)](https://substack.com/redirect/47746b47-ff5c-4c02-bd4c-b565805d247b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Our World in Data*
+
+I’ve posted this chart enough to know that some Democrats will reply and say something like, “Oh so you just care about the economy?! What about x,y,z?!”
+
+And there, again, is a fundamental distinction. People in tech understand that GDP isn’t a perfect measure, but that it’s the best we’ve got. That chart represents the efforts of billions of people who’ve worked in big and small ways to increase health spans and quality of life, and to make the experience of being a human less brutish and more fulfilling.
+
+There is no perfection, there’s just the process that gets us closer to it.
+
+Of course, I’m painting with a broad brush. Not all Democrats believe rich is bad, and some people in tech *are* solely motivated by money (which is fine, capitalism can use that).
+
+It seems to me, though, that the people in tech who have veered to the right are not doing so for **personal enrichment**, but because they **believe that government impediments to tech hold back solutions that make America and Americans better off**. Some of them also believe that, given the state of the world, kneecapping the tech industry puts us in harm’s way. They may be guilty of idealism or even hubris, but not naked, selfish greed.
+
+Put it this way. I can’t speak for Peter Thiel (only Hulk Hogan can), but I imagine that if you gave him the choice between being the richest oligarch in a communist system or starting from scratch in a capitalist system, he would choose the latter.
+
+I think that when tech pushes for less restrictive regulation, when they say that tech can help make life better for Americans, opponents read it as something like a **reskinned trickle-down economics**: make us richer, and then we’ll make everyone else richer, promise. But it’s not that.
+
+Trickle-down economics shifts money around within a roughly fixed pie. People in tech want to **grow the pie using the only pie-growing mechanism that’s ever worked**. And they’re not even asking for lower taxes, or any particular special treatment. **They’re just asking not to be blocked**.
+
+Democrats and tech largely agree on the problems that need to be solved. They just increasingly believe in different ways of solving them, and it’s driven a wedge between the two former allies.
+
+Democrats (broad brush) believe that they know what’s best and can improve lives through policy and government spending. Tech (broad brush) believes that if you try enough things, you’ll get more bang for your buck — not just for investors and entrepreneurs, but for the government and society at large. Specifically, I am talking about cheaper energy, more productive manufacturing, cheaper and better drugs and cures, and all of the things that we write about in Not Boring every week.
+
+There’s a “narcissism of the small difference,” as Sigmund Freud called it, between the two groups: “It is precisely the minor differences in people who are otherwise alike that form the basis of feelings of hostility between them.”
+
+But these differences are not enough to explain why the relationship is fracturing *now*.Why are people in tech willing to support Donald J. Trump when they didn’t even back a moderate like Mitt Romney a decade ago?
+
+### **Five Reasons for the Fracture**
+
+It’s hard to boil the reasons that tech and the Democrats have grown apart down into a few bullets. There are many factors, each of which influences the others.
+
+There are some that are outside the scope of this post, the reasons that many people, including those outside of tech, feel like the Democratic party wasn’t what it once was. The left gained power and pulled too far left. No one likes being told they’re bad people. Cities feel less safe and dirtier. Running an 81-year-old, hiding his cognitive decline, and then choosing his successor without a vote isn’t going to win converts.
+
+But I’m already too far outside my lane. I’m going to focus on tech.
+
+There are five reasons that the split between Democrats and tech specifically seems to be happening now, two of which have been broadly discussed and three of which I haven’t seen spelled out.
+
+1. The Democrats are fighting tech more aggressively.
+2. The “broken deal” between Democrats and tech.
+3. Tech is richer than it used to be.
+4. Tech is building in areas in which regulation is more of a direct impediment.
+5. Someone else makes the world a better place better than we do.
+
+If the Democrats are going to win back tech and rebuild the party around an optimistic vision for a future, they need to seriously reflect on why they lost them in the first place. Let’s dive in.
+
+#### **The Democrats are Fighting Tech More Aggressively**
+
+On March 29, 2023, Elizabeth Warren proudly tweeted that she was “building an anti-crypto army.”
+
+[![](https://substackcdn.com/image/fetch/w_1220,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90da273c-91d8-4cda-ac55-2efc04d6945b_610x660.png)](https://substack.com/redirect/5e85d54d-4e77-4622-bdaf-11d6fd37f96b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/7cb54c55-dedf-4028-8672-17a2630c0980?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+The tweet put into words what had clearly been happening behind the scenes. Warren’s ally, SEC Chairman Gary Gensler, had already been regulating crypto by enforcement, refusing to give clear regulations or even guidance to the industry and choosing to go after individual companies instead. And the government teamed up with the banking sector, Warren’s erstwhile enemy, in [Operation Chokepoint 2.0](https://substack.com/redirect/5e1d0f4b-a480-4f89-8861-2e220bc97828?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), “a concerted, government-backed effort to discourage traditional finance institutions from servicing the crypto industry.”
+
+Whatever your views on crypto, the government’s attempts to kill the industry instead of providing fair, consumer-protecting regulation have been seen as extreme to proponents of innovation and entrepreneurship. And it’s no wonder people are voting for the candidate who wouldn’t jail them for doing their job. That said, even Ethereum co-founder Vitalik Buterin warned [against choosing your political allegiances based on who is “pro-crypto](https://substack.com/redirect/52970d81-2323-4a6e-ad61-86db3b3552de?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).”
+
+Beyond crypto, the Democrat-led government has gotten increasingly aggressive in its regulation of startups and technology. Marc Andreessen and Ben Horowitz of a16z (where I am an advisor) included a list of six ways “The American government is now *far* more hostile to new startups than it used to be” in their [LITTLE TECH AGENDA](https://substack.com/redirect/07afcb68-ea12-47cf-bbc0-98c8e4f0daa2?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+One area that’s drawn particularly strong pushback from tech has been the Democrats’ proposed regulation of AI.
+
+In October 2023, President Biden put out an [Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence](https://substack.com/redirect/99296759-e8dd-4f79-b6fd-0a0499bd1805?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) that many in the industry felt was too restrictive, and most importantly, too premature. In a critique of the EO, Ben Thompson [wrote](https://substack.com/redirect/854c03c6-9f73-4501-bc19-4eb7185fc44e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) (emphasis mine):
+
+> *In short, this Executive Order is a lot like Gates’ approach to mobile: **rooted in the past, yet arrogant about an unknowable future;** proscriptive instead of adaptive; and, worst of all, trivially influenced by motivated reasoning best understood as some of the most cynical attempts at regulatory capture the tech industry has ever seen…*
+>
+> *… We should accelerate innovation, not attenuate it. Innovation — technology, broadly speaking — is the only way to grow the pie, and to solve the problems we face that actually exist in any sort of knowable way, from climate change to China, from pandemics to poverty, and from diseases to demographics. To attack the solution is denialism at best, outright sabotage at worst. **Indeed, the shoggoth to fear is our societal sclerosis seeking to drag the most exciting new technology in years into an innovation anti-pattern.***
+
+It’s not just that Democrats are regulating tech, but *how* they’re regulating it. “Arrogant about an unknowable future” and “sclerotic shiggoth” are two phrases that beautifully capture tech’s view of the Democrats’ regulatory approach.
+
+California, seen as synonymous with “Democrat,” is pushing through an even more damaging AI bill - SB 1047 - which you can [read about in Pirate Wires here](https://substack.com/redirect/769192e1-00a7-498f-bde9-287f57b19b6a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU).
+
+Crypto and AI are just two, new examples. We’ll get to older ones that are now rearing their heads in a bit.
+
+The long and short of it is that to many in tech, **it feels like the Democrats would rather tech lose than America win**.
+
+#### **The “Broken Deal” Between Democrats and Tech**
+
+That stance is new, and it’s the result of a broken deal between tech and the Democrats.
+
+In the [podcast episode that Marc and Ben did to explain their support for Trump](https://substack.com/redirect/fcb265ac-3546-4bfa-b316-d7a83a87de04?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), Marc talked about the unspoken deal that Democrats and tech operated under for decades.
+
+Thompson picked up on this piece of the conversation in *[Tech for Trump, Breaking the Deal, From Inertness to Interest](https://substack.com/redirect/32ca71fc-c491-40df-9369-63bb573d3744?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, as did Vox’s Kelsey Piper:
+
+[![](https://substackcdn.com/image/fetch/w_1220,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F866f6db0-77a3-4cbe-8859-f2bb2d35c62b_610x424.png)](https://substack.com/redirect/fa5cdab1-0d09-435f-857f-a079450873c4?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/9f3218bd-94f5-48c3-b982-34517373ba73?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+The deal was something like: you keep our cities humming and let us innovate in peace, we’ll pay taxes and donate our money when we get rich. Piper traces the breakdown of the deal to the media’s “intensely negative coverage of tech” and Thompson points more specifically to the media and Democrats blaming Facebook for Trump’s 2016 election.
+
+As it stands, people living in the epicenter of the tech world, San Francisco, believe that the local (Democratic) government has let their city fall into disrepair, did it intentionally even. And while they’re refusing to prosecute actual criminals, they seem more than happy to go after tech companies. I understand that I’m mixing up local and federal Democrats here, but they each contribute to the feeling that tech people get from the party.
+
+The broken deal is an interesting point that I hadn’t considered before, but I think Marc & Ben, Piper, and Thompson cover it well, so I’d encourage you to check out their work if you want to go deeper on this one.
+
+In the context of the distinction between “rich” and “capitalist,” though, I think an even bigger factor for the breakdown is that tech got really rich.
+
+#### **Tech is Richer Than It Used to Be**
+
+There’s a much simpler, historically-based explanation for why the Democrats have seemingly turned against tech: tech is now the most valuable sector of the economy.
+
+There is a clear historical pattern of Democratic opposition to dominant industries. Theodore Roosevelt broke up Standard Oil. William Jennings Bryan waged a populist campaign against eastern banking interests. Their legacy carries through to today.
+
+For a long time, tech was small enough that it was a useful ally to the Democratic party.
+
+When Barack Obama was elected in 2008, these were the 10 richest people in the world:
+
+Forbes 10 Richest People - 2008
+
+Wealth in $ Billions, Tech in Yellow
+
+[![](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64251930-c4c4-484d-9262-ac728364d938_1260x660.png)](https://substack.com/redirect/24cfefb1-b962-45b4-97ca-392143693a21?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+Today, these are the ten richest people in the world:
+
+Forbes 10 Richest People - 2024
+
+Wealth in $ Billions, Tech in Yellow
+
+[![](https://substackcdn.com/image/fetch/w_640,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4746b37-4eba-43b4-b513-25e8dc509de0_1260x660.png)](https://substack.com/redirect/b73e8d1a-b77b-41c3-acc9-b74491e7ce64?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+In 2008, only one of the world’s ten richest people made his money in tech, and he’d already quit to run his philanthropic organization. In 2024, seven of the world’s ten richest people are American tech entrepreneurs. Seven!
+
+When Barack Obama ran, tech provided a useful tool (and money) that helped him win his election. He was the first US Presidential candidate to harness social media and targeted advertising, to great applause. In turn, he was a largely pro-tech President. The deal was good.
+
+[![](https://substackcdn.com/image/fetch/w_1296,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff5795415-8e3c-4f0a-880e-7cc745d320d2_648x368.png)](https://substack.com/redirect/f05e500b-d399-49b0-af78-b82216b0be1b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Barack Obama Toasting Steve Jobs, Mark Zuckerberg, Larry Ellison, and Tech Leaders*
+
+When Trump did the same in 2016, tech became one of the Democrats’ primary scapegoats to blame for a victory they could find no other rational explanation for without a healthy dose of self-reflection. As covered above, the deal was off.
+
+Even more unforgivably, however, over the intervening 16 years, tech got a lot richer. If your schtick is that big companies and rich people are bad, then it’s no surprise that you’d take an adversarial stance towards tech, this millennium’s greatest generator of rich companies and people.
+
+Tech is no longer a cute, plucky, idealistic ally, but the representation with all that is wrong with America. People in tech must be greedy, because how else would they have gotten so rich?
+
+Whether the 2016 elections happened or not, this trend would have put tech and the Democrats on an eventual collision course.
+
+#### **Tech is Building in Areas in Which Regulation is More of a Direct Impediment**
+
+In addition to tech’s relative smallness, one of the things that helped maintain the friendly relationship between Democrats and tech is that, for the past few decades, tech mainly built software, and government regulations didn’t present a real bottleneck to software.
+
+Sure, some cities opposed Uber and Airbnb, but Uber and Airbnb had millions of passionate fans and typically bent the cities to their will. And sure, Elizabeth Warren railed against Amazon during her Presidential campaign, but Amazon had tens of millions of happy American users and enough money to fight back.
+
+I can’t remember a candidate from either party campaigning on promises to rein in B2B SaaS.
+
+Now, tech is increasingly innovating in the physical world, and as it does, it’s running into regulatory hurdles that Democrats typically favor more than Republicans.
+
+Take NEPA. If you had said “NEPA” to someone in tech a decade ago, the few who knew what you were talking about would have said something like, “Oh yeah, I love the environment, good stuff.” Now, they might emit environmentally damaging amounts of vomit.
+
+The National Environmental Policy Act is an example of a well-intentioned government policy that has been weaponized to slow progress. During his presidency, Trump weakened NEPA. When he got to office, Biden strengthened it back up.
+
+[![](https://substackcdn.com/image/fetch/w_1866,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff02af722-6482-4a37-9f17-3660fdda85c5_933x794.png)](https://substack.com/redirect/450c3bde-194e-4ee3-9fde-cf9aa618ef0a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*The New York Times and Politico*
+
+I remember reading about Trump’s NEPA attack and thinking “How horrible! He’s going to kill the environment!” But as I learned more, I realized that weakening NEPA could actually be better for business (which is how Trump framed it) *and* better for the environment, which was surprising.
+
+As the Institute for Progress wrote in *[How to Stop Environmental Review from Harming the Environment](https://substack.com/redirect/379f4a7c-4a88-4d27-aee9-1d5a6b843798?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, “NEPA imposes massive costs on the federal government, drags clean energy projects out for years, and generates uncertainty that stops other projects from ever getting off the ground.”
+
+If you want to build nuclear or solar, opponents can use NEPA to slow your project down and balloon its costs. If you want to build housing, opponents can trip you up in Environmental Impact Reports, zoning restrictions, and any number of quirky local requirements.
+
+Ezra Klein wrote about the challenge with building affordable housing, and many other big things in America, in *[The Problem With Everything Bagel Liberalism](https://substack.com/redirect/87c83353-298d-401d-bf76-fa43891bbf70?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*: “One problem liberals are facing at every level where they govern is that they often add too much. They do so with good intentions and then lament their poor results.”
+
+Klein describes the implementation of the CHIPS Act, a key Biden Administration policy achievement that aims to bring semiconductor manufacturing back onshore, with frustration, writing, “It is very hard to read the guidelines the administration just released and see a serious effort to lower costs. The government is adding subsidies with one hand and layering on requirements with the other.”
+
+It’s no wonder, perhaps, that Elon Musk was one of the first major tech CEOs to break for the Republicans, and that Founders Fund, which backed SpaceX and has been investing in hard tech for many years, has long been the venture firm that leans furthest to the right. They’ve been the ones forced to deal with the most restrictive government regulations for the longest.
+
+Mostly, it was relatively easy for tech companies to avoid thinking about the burden of government regulations while they were focused purely on software. Now, the government has come for crypto and AI, and startups have come for the physical world, and the Democrats and tech are on yet another inevitable collision course.
+
+None of the regulation itself is new. The new piece is that more and more people in tech are funding and building companies that have to face the roadblocks put up by well-meaning government policy. They are facing these roadblocks exactly because they are trying to tackle bigger problems, to focus America’s best and brightest away from “140 characters” and ad optimization towards renewable energy, defense, healthcare, transportation, education, and manufacturing.
+
+They’re stepping back and saying, “Wait, are these just pretty words that actually make it harder to do the good things that we want to do for the world?”
+
+#### **Someone Else Makes the World a Better Place Better Than We Do**
+
+Which brings us to the most fundamental point of friction between Democrats and tech.
+
+Both groups believe that they know how to make the world a better place than the other does, and as Gavin Belson said in Silicon Valley, “I don’t want to live in a world where someone else makes the world a better place… better than we do.”
+
+[![](https://substackcdn.com/image/fetch/w_400,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F437d93b9-021a-4d13-bdcc-4e3292637e1c_400x225.gif)](https://substack.com/redirect/5abdcdc0-4917-4522-af7e-015e00de594b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+On the Democratic side, there seems to be a belief that a small number of highly educated, good people can devise policies and programs that solve the biggest problems facing our country.
+
+On the tech side, there is a belief that the combination of free market capitalism and innovation can solve those problems in a more fundamental and enduring way.
+
+Take **housing**. Just last week, for example, the [Biden Administration called on Congress](https://substack.com/redirect/8cf27b59-8c90-4ded-84de-7a593881a3c0?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) to cap rent increases at 5% in an attempt to make housing more affordable for Americans. Tech, and capitalists more broadly, backed up by economics, would argue that making it easier to build more housing would *actually* make housing more affordable in a way that words and regulations can’t.
+
+Or take **education**. In *[The American Millennium](https://substack.com/redirect/aa9c3454-8bc0-49a5-9ab2-e568b811aa52?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, I mentioned one of our portfolio companies, [Odyssey](https://substack.com/redirect/f248f10b-7201-432e-8633-2acbefaf46cf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), which “is working with states to distribute educational savings account (ESA) funds to parents so that they can choose the best options” for their children’s education. ESAs are currently available in eighteen states, **fifteen of them are Republican**, two are swing states, and the only Democratic state, West Virginia, is the most Republican Democratic state there is.
+
+Or take **climate**. No one on either side wants to see the planet burn. But it’s incredibly hard to take the dire climate warnings seriously when you see how hard the government makes it to implement solutions. To be fair, Congress just passed the [ADVANCE Act](https://substack.com/redirect/6637ff3a-c509-4954-9311-de4fad0a0d09?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) to speed up the deployment of nuclear. I will be watching closely to see the impact it has.
+
+People in tech see a problem and try to build a solution. They often fail, but they know that if they do, their business will fail, too. That’s the game they’re playing, and they know the rules. They have an innate belief that even if *their* solution isn’t the one, even if it doesn’t make them rich, the capitalist game in which they’re participating will, over time, produce better outcomes.
+
+It’s frustrating, then, to see prescriptive policy and programs repeatedly fail to address the root causes and survive, become more deeply entrenched even, despite that.
+
+And then, awareness of this issue heightened, you see things that make you go, “What the actual fuck?”
+
+In 2021, the Biden Administration passed [The Bipartisan Infrastructure Deal](https://substack.com/redirect/f8b03233-e405-447c-b162-138a8e62bf15?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), a huge early win. The bill included tens of billions of dollars to expand high-speed internet access to rural areas across the country. In 2023, Biden [announced](https://substack.com/redirect/3dadac98-4ff3-4b68-a714-9fb7984144dd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) how the $42.5 billion would be distributed among all 50 states, D.C., and the U.S. Territories as part of the Broadband Equity, Access, and Deployment (BEAD) Programs. To date, according to the right-wing *[Washington Times](https://substack.com/redirect/b6e3c609-1b46-4a38-8d55-9e0d48059ec8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*:
+
+> *Not a single home or business has been connected to new broadband networks nearly three years after President [Biden](https://substack.com/redirect/7304e9db-b4e6-41d4-9203-b19489ab0253?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) signed the funding into law, and no project will break ground until sometime next year.*
+>
+> *Lawmakers and internet companies blame the slow rollout on burdensome requirements for obtaining the funds, including climate change mandates, preferences for hiring union workers and the requirement that eligible companies prioritize the employment of “justice-impacted” people with criminal records to install broadband equipment.*
+
+This is another example of Everything Bagel Liberalism, made all the more [frustrating to the tech community](https://substack.com/redirect/75ed4660-89a4-4928-b242-5321a0958925?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) by the fact that **the government could have purchased and installed more than 70 million Starlink terminals** for that amount of money, without any bulk discount. Worse, in December 2023, the [FCC reversed](https://substack.com/redirect/51ee4724-97e3-4878-975a-4ee2b56974e9?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) $888.5 million in rural broadband subsidies the Trump administration had granted to SpaceX because, among other reasons, "the uncertain nature of Starship's future launches could impact Starlink's ability to meet" its obligations. That, despite the fact that SpaceX already has more than 6,000 satellites in orbit!
+
+Just eight years ago, President Obama was congratulating SpaceX on Twitter, and unsurprisingly, Elon responded with a thanks. It’s hard to remember now, but he was a Democrat a few years ago.
+
+[![](https://substackcdn.com/image/fetch/w_1224,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F44287440-f6bd-43fb-8d1e-62ea9eac30d2_612x475.png)](https://substack.com/redirect/524eef97-faa5-4486-894a-ae54f85476b6?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/47e6a10c-ec0f-437e-bbf6-51a51e6e4354?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+Now, the Democrats are openly hostile towards Elon Musk.
+
+Rural internet is not the only time the Biden Administration has lit money on fire by avoiding working with a Musk company. Over three years and with $7.5 billion spent, the government has installed “7 or 8” of the EV charging stations out of the half a million chargers planned by the end of the decade. CBS Face the Nation host Margaret Brennan chuckled when Mayor Pete explained why.
+
+[Insert Video]
+
+Then there’s the California High Speed Rail project, which, after nine years and $11 billion spent, has produced 1,600 feet of track:
+
+[![](https://substackcdn.com/image/fetch/w_1220,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1604d104-4733-48c9-86b6-9ac08b028104_610x553.png)](https://substack.com/redirect/0ad2b2fd-5642-4717-8c56-348144619b78?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/735a183b-2fb0-4dc3-816f-a6c27154a5e1?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+The government is no longer great at getting big things built, no matter which party is in charge.
+
+But you can understand why people in tech might look at the Democrats’ snubbing of Elon Musk, and at their addiction to heaping on bagel toppings that slow everything down, and start to believe that the Democrats don’t actually care about getting done the things they want to get done as long as they get to say they’re going to do them in the nicest way possible.
+
+### **What Tech Wants**
+
+Ultimately, I think the biggest disconnect is that people in tech believe, [rightly in my opinion](https://substack.com/redirect/aa9c3454-8bc0-49a5-9ab2-e568b811aa52?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), that there is no greater force for good in the world than American ingenuity.
+
+The turn towards Trump is not a sudden belief that he’s a good guy, that the idea of dramatically cutting taxes and imposing tariffs makes any economic sense, that leaving Taiwan to China’s whims is smart, that we should deport millions of people, that he’ll actually follow through on giving college graduates citizenship this time, and that his views on any number of social issues align with theirs.
+
+I don’t think most people in tech *want* to vote for Trump, or even that they believe what he’s saying. I’ve seen more than a few post the image of the Scorpion and the Frog, a warning that he’ll ride tech to the White House and then forget about the promises he made to get there.
+
+[![](https://substackcdn.com/image/fetch/w_1478,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F16350806-3f30-48d1-9126-b71099b4f221_739x445.png)](https://substack.com/redirect/6c56f257-d95e-4215-89ff-7d25f33206fd?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+At the same time, I don’t believe the turn towards Trump is selfish, or that people in tech look at Trump and see dollar signs. That understanding gets what motivates most people I know in tech exactly backwards.
+
+**It’s that they think there’s more of a chance he’ll let them do what they do best, and that if he does, they’ll do more good for the world than he does bad.**
+
+Most people I know in tech got into it because there was something they really wanted to build, or because they saw it as the highest-leverage way to make a positive impact on millions of lives. The ones who have gotten rich have made money because they realize that for a product to actually make that impact, it has to make economic sense and compete in the free market.
+
+As I was writing this, I saw a [tweet](https://substack.com/redirect/4396fa53-9b21-4f4b-aeeb-22f375f9b983?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) from Terraform Industries CEO [Casey Handmer](https://substack.com/redirect/8e5fdb65-3a53-4be8-a275-455e892aaabf?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) that gets at the distinction I’m trying to make so perfectly I’ll just post the whole thing here:
+
+> *I sometimes get asked what will happen to [@TerraformIndies](https://substack.com/redirect/fea09151-459a-4b6a-a89e-7138a30a78c7?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) if the subsidies we supposedly depend on get changed by the next president.*
+>
+> *Same answer as for Tesla - it would help us relative to our competition. By a lot. We would still be generating value and profit - everyone needs cheap fuel and we can synthesize it anywhere at a competitive price. Since day one we've prioritized stripping parasitic costs out of our process, and with considerable success.*
+>
+> *With our end-to-end demo we showcased how our tech gets us to <$2.50/kg H2, <25c/kg CO2, and to higher purity and lower cost than bio-RNG or LNG import. In a couple of years we'll be cheaper than pipelines, and ultimately we'll be cheaper than fracking too - except that unlike fracking we can make gas anywhere, not just in a handful of locations that won a geological lottery.*
+>
+> *There are unfortunately a lot of other less sustainable business models waiting for some kind of technology miracle to get them over the line, lining up for subsidies and benefits without which they are DOA.*
+>
+> *Entrepreneurship is a hell of a drug, part 6: **We need to remove barriers to innovation, particularly in industries suffering from crazy cost growth.***
+
+There are very few industries in the world in which companies would actively want the government subsidies they receive to go away, and certainly not every tech CEO does. It’s certainly not what you would do if you wanted to get rich without contributing to society. But the ones who will ultimately be the most successful believe that they need to win by producing the best product with the best economics and letting the market do the rest.
+
+They want the chance to compete.
+
+In Casey’s case, if he succeeds, Terraform will pull CO2 out of the air and produce clean fuels that help solve the climate crisis. That’s a civilizationally important mission.
+
+Thousands of other entrepreneurs are working on companies they’ve chosen to dedicate their lives to because they believe they are civilizationally important, that they will ultimately matter more than whoever happens to be in the White House.
+
+Some will succeed wildly. Many of them will fail. They just want the chance to compete.
+
+They want to live in and contribute to a vigorous nation that believes its best days are ahead.
+
+Despite what you’ve seen on Twitter or watched at the Republican National Convention, most of them don’t want to waste time pointing fingers or criticizing the other side for things that have gone wrong. David Sacks is not representative of tech. The vast majority of people in tech would rather spend their time figuring out how to make things go right in the future.
+
+Tech didn’t really want to get involved in politics, but along the way, it got so big that a collision became inevitable. The Old Deal had to break. And faced with the choice of another four years of the same animosity and roadblocks or something new, some chose something new.
+
+Now, all of a sudden, everything is back on the table, somewhat less burdened by what has been, somewhat more able to imagine what can be.
+
+There’s a chance for the Democrats and tech to strike a New Deal.
+
+### **The New Deal**
+
+[America is the greatest country on earth](https://substack.com/redirect/aa9c3454-8bc0-49a5-9ab2-e568b811aa52?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU), and it’s not as great as it could be.
+
+As my friend [Dror Poleg](https://substack.com/redirect/1a883981-8a83-4db6-9101-490ffcc14875?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) pointed out, we are already on an unsustainable path with too much debt and increasing spending. “The way such trajectories normally end,” he said, “is in collapse or in some major world war that resets everything, or both.”
+
+But he also points to the good news: we can innovate our way out of the problem.
+
+We can have cheaper, more abundant energy. We can automate our way to material abundance. We can have supersonic travel, and personalized education, and biotech-produced miracle cures.
+
+**We’ve already created a lot of the technology we need; we just need to stop making it so damn hard to roll it out.**
+
+While I don’t think it’s likely that Democrats and tech forge a New Deal between now and November, I think it’s necessary that they try.
+
+So what would a New Deal look like?
+
+A New Deal would start by acknowledging that tech isn't the enemy, that it is and can be the government’s most powerful ally in solving America's biggest challenges. It would start with a realization that both sides have largely the same goals, even if they have different approaches to achieving them.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe29488ba-fa6b-43d7-a8bd-be376f22c22d_908x417.png)](https://substack.com/redirect/cf546bfc-ddc3-4eca-b22f-95fc0e69512c?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/ae6b011f-84b9-48da-9040-ad158c00b10e?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+If I were Kamala Harris or whoever gets the nomination, my first call would be to Elon Musk.
+
+It would call off the attack dogs seeking to regulate crypto and AI into oblivion, recognize that these technologies are coming with or without us (and that it would be much better for us if it were with us), and work with people in tech to create regulatory frameworks that protect both consumers and innovation.
+
+Both of those are relatively simple fixes. Trump has won tech’s support largely by paying lip service. It’s too early to tell whether he’ll actually follow through or not. At the very least, Democrats can regain their footing by saying the right things to tech and halting the attacks. We’re not asking for much here!
+
+Beyond that, though, it would be fantastic to see a party that leans into its new youthfulness to create excitement about the future among its voters and makes an effort to explain that we’re all better off when we’re working towards building something bigger than when we fight over scraps.
+
+If I’m tech, I’d even be willing to pay a higher tax rate on gains in exchange for a smoother path towards creating them. If the promise is that we can make the country much richer, it shouldn’t hurt too bad.
+
+A New Deal would work with companies like [Hadrian](https://substack.com/redirect/3b1095c2-de3e-484f-a209-8da4eebbebfb?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and [Cuby](https://substack.com/redirect/d21e344b-e5bd-4cbb-88a7-b1b3d2489129?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) that are working to give low-skilled workers good manufacturing and construction jobs in order to increase employment and build up the pool of talented Americans who know how to build.
+
+It would support automation efforts to ensure America’s manufacturing competitiveness without giving into the defeatist and wrong notion that robots will take our jobs.
+
+It would enhance America’s capacity to install gigawatts of clean energy and economical climate technologies instead of limiting energy consumption.
+
+It might even create regulatory sandboxes – both digital and in the physical world – where new technologies can be tested under looser conditions until they’re ready for prime time.
+
+I’m not a policy wonk. Those are just a few off-the-dome suggestions. What’s most important is lowering the hostility, starting the conversation, and remembering that American tech companies and the American government are on the same team. That we are a better nation when we build together.
+
+In an ideal world, the Democrats would start to fix some of the things that ail the party, tech-specific or otherwise. Specifically, put an end to Everything Bagel Liberalism at the Federal level so that it’s actually possible to implement the big, expensive bills that they pass.
+
+If you need to piss off some of the more extreme factions in the party, so be it… this is a party that’s behind Donald Trump in the polls. If now isn’t a time for a hard reset, when will be?
+
+Maybe they can take inspiration from my favorite Presidential underdog / leading VP candidate, Pennsylvania Governor Josh Shapiro.
+
+[![](https://substackcdn.com/image/fetch/w_1816,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2545883d-d55d-4481-8307-d7950821cc8e_908x567.png)](https://substack.com/redirect/5197ce8b-2470-46ef-a7f0-341c97c74a3a?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*Polymarket as of 7/22/2024*
+
+As I wrote about last year, when a bridge collapsed on I-95 outside of Philadelphia, Shapiro led the effort to rebuild it. I titled the piece *[How to Fix a Country in 12 Days](https://substack.com/redirect/b6d62234-6a4d-4e8c-a2b3-69ae3404b073?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*, and I think it provides a roadmap for a revitalized Democratic party. Declare an emergency and cut red tape to get things done.
+
+Shapiro made building a small stretch of road a source of local pride, involved local businesses in the act, pushed for federal funding, and spread the love to everyone involved:
+
+> *When the President handed the mic to the Governor, Shapiro took the opportunity to thank everyone. He praised the President, his team, the Mayor of Philadelphia, the trade unions, PennDOT, the first responders, the firefighters, and the police, among others. There was a lot of love to go around, and he sent it around the horn.*
+
+Pennsylvania got the job done ahead of schedule and under budget. At the project’s completion, Shapiro sent out a tweet that captured the kind of spirit I’m talking about:
+
+[![](https://substackcdn.com/image/fetch/w_450,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F193f78dc-c4c3-44de-8367-5f21439ce9ac_1212x1469.png)](https://substack.com/redirect/17b33102-9dad-4509-a820-6fd67b023f2b?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)
+
+*[Link to Tweet](https://substack.com/redirect/cc4ffdd7-72be-41bb-899d-3fe2c6bc16d8?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU)*
+
+“We work together – and we get shit done.”
+
+That’s a Democratic slogan I can get behind, and it’s one I think tech would rally around.
+
+*Thanks to [Dror](https://substack.com/redirect/1a883981-8a83-4db6-9101-490ffcc14875?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) and [Ben](https://substack.com/redirect/822c9a29-3526-42eb-9dd4-c29e4853ea27?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) for feedback, and to [Claude](https://substack.com/redirect/92bad599-cd32-4c8b-aa4c-58f2c8b0fb44?j=eyJ1IjoiOXAwZ3QifQ.gb8J5T7GnA_ZlNuaMZjmlXXepKbqOsa8-6m8ExkRNpU) for edits!*
+
+That’s all for today. We’ll be back in your inbox with a Weekly Dose on Friday.
+
+Thanks for reading,
+
+Packy

@@ -1,0 +1,44 @@
+# Can Crowdsourcing Tell Us Whether A Burrito Is Any Good FiveThirtyEight » Features | FiveThirtyEight
+
+**Source:** inputs/New Docs/markdown/fivethirtyeight.com_features_can-crowdsourcing-tell-us-whether-a-burrito-is-any-good.md
+**Processed:** 2025-08-24T19:49:24.841481
+
+# Can Crowdsourcing Tell Us Whether A Burrito Is Any Good FiveThirtyEight » Features | FiveThirtyEight
+
+**URL:** http://fivethirtyeight.com/features/can-crowdsourcing-tell-us-whether-a-burrito-is-any-good/
+**Date:** 2014-09-24 05:19:56
+
+---
+
+# Can Crowdsourcing Tell Us Whether A Burrito Is Any Good?
+
+Anna Maria Barry-Jester, .Wp-Block-Co-Authors-Plus-Coauthors.Is-Layout-Flow, Class, Wp-Block-Co-Authors-Plus, Display Inline, .Wp-Block-Co-Authors-Plus-Avatar, Where Img, Height Auto Max-Width, Vertical-Align Bottom .Wp-Block-Co-Authors-Plus-Coauthors.Is-Layout-Flow .Wp-Block-Co-Authors-Plus-Avatar, Vertical-Align Middle .Wp-Block-Co-Authors-Plus-Avatar Is .Alignleft .Alignright • September 24, 2014 
+
+![Can Crowdsourcing Tell Us Whether A Burrito Is Any Good?](https://fivethirtyeight.com/wp-content/uploads/2014/09/bsc_lede.jpg?w=475)
+
+This past summer, FiveThirtyEight took on the somewhat ridiculous task of searching for America’s Best Burrito. Knowing this effort would be Herculean, we enlisted the help of Yelp and a panel of food experts to guide us. Nate Silver created a statistic — value over replacement burrito, or VORB — to rate and rank each of 67,391 burrito-selling establishments (BSEs) in the United States listed on Yelp. He used a variety of metrics, including how many reviews a restaurant had, how many of those reviews mentioned burritos, and the average star rating. We then took that list and huddled with the food experts, our Burrito Selection Committee, to choose just 64 BSEs, which were placed into an NCAA-style bracket.  
+  
+My job as burrito correspondent was to find the best burrito in the United States. So, armed with the list of 64 BSEs, I hit the burrito trail. I spent four months driving more than 25,000 miles back and forth across the country, taking thousands of pictures and writing more than 47,000 words about burritos. Every few days, we published a review of four restaurants, and I named my favorite based on a scoring rubric I created to evaluate the burritos. The best of the four then advanced to the next round in the tournament. In three rounds, we narrowed the Burrito Bracket from from 64 BSEs to 16 and then ultimately four finalists. Earlier this month, we crowned the winner: La Taqueria in San Francisco.  
+  
+While the goal really was to find the best burrito, we also wondered what the average Yelp user could learn from using the site. Yelp is great for finding information about restaurants — addresses, phone numbers and hours — but what could it tell us about food? In Nate’s article explaining the methodology behind VORB, he also explained our thinking going into the project:  
+  
+The question of how consumers might use crowdsourced data to make better decisions is an important one. Billions of dollars turn upon customer reviews at sites like Yelp, Amazon, Netflix and HealthGrades. How should you evaluate crowdsourced reviews as compared to the recommendations from a professional critic, or a trusted friend? Are there identifiable biases in the review sites and ways to correct for them? When using sites like Yelp, should you pay more attention to the number of reviews, or to the average rating?  
+  
+We had a couple of ways to test the accuracy of the Yelp data. First, did the Yelp ratings conform to our experts’ opinions? In most cases they did; the Burrito Selection Committee members found many of their favorite burritos at the top of the VORB list in each region. Second, did I like the highly rated burritos when I tasted them? Again, yes; with a few exceptions, every burrito in the bracket was one I would go back to eat, and the exceptions all came from our desire to include geographic and stylistic diversity.  
+  
+The next question was how the VORB scores compared to my Burrito Bracket scores. Let’s assume for a minute that VORB is a good measure of the popularity of a restaurant on Yelp. If we had simply placed the 64 restaurants with the highest VORB scores in our bracket and then tasted all 64 burritos, we would have learned whether the crowdsourced data was a good indication of the quality of food at those 64 restaurants.  
+  
+However, we assumed that the crowdsourced data wasn’t completely reliable — not every great burrito would do well on Yelp, and some restaurants with mediocre food are very popular. That’s why we enlisted the panel of experts to choose which restaurants would make the bracket. Our experts selected several restaurants because they had personal experience or information suggesting the food there was good, in spite of low VORB scores. With the inclusion of these restaurants, the only way there could be a correlation between VORB scores and my scores was if the food experts were all wrong.  
+  
+Indeed, I found no correlation between my scores and VORB scores, or the individual measures used to create VORB: number of reviews, average stars in all reviews, average stars in reviews that mentioned burritos, and number of reviews mentioning burritos. This implies that crowdsourced data alone may not be sufficient for finding great food, and that expert knowledge continues to play an important role.  
+  
+We positioned the very first review I wrote as a mini Yelp vs. Human tournament (“Human” being the Burrito Selection Committee). Two restaurants in this first group were included based on their very high VORB scores (Garbo’s Grill in Key West, Florida, and Pedro & Vinny’s in Arlington, Virginia), and the other two had low VORB scores but came recommended by our Southern regional representative (Little Donkey in Homewood, Alabama, and Mr. Taco in Miami). In each category, I found one burrito great and the other average, creating a tie of sorts. I called the mini-tournament for Human because Little Donkey advanced to Round 2, but it was a close call.  
+  
+I decided to take a look back at all of the BSEs in the bracket to see whether there was any relationship between higher scores from me and how a restaurant made it into the bracket (high VORB score or expert recommendation). I loosely organized them into the categories of Yelp, Human or Both, the last for restaurants with the clear support of both sources. I found that 19 restaurants in the bracket made it in on the recommendation of our panel, despite low VORB scores, while 16 were included because of high VORB scores, even though the experts either had no knowledge of them or didn’t recommend them.  
+  
+A Burrito Bracket score of 80 was an approximate cutoff point between a good burrito and a great burrito in my system. By that measure, the experts were more reliable than high VORB in terms of finding great food (58 percent compared to 31 percent of BSEs). But the VORB scores led us to some wonderful food in out-of-the-way places that we would not have found otherwise, including a kalua pig burrito in Hawaii, a masterful flavor combination in Key West and a great taqueria in Iowa City.  
+  
+So are restaurant reviews on Yelp really about food? When I spoke to a group of Yelp employees this summer, they explained that a review on the site is meant to reflect the overall dining experience. Translation: Yelp reviews aren’t just about the food. Of course, anyone who has used Yelp (either as a reference, or to write reviews) knows that. But I did want to know to what degree the reviews and VORB scores were a reflection of the quality of a restaurant’s food.  
+  
+I took a deeper dive into the Yelp pages of some of the places where the quality of the food and the VORB scores didn’t match up, either because the food was much better than VORB would suggest, or because the burrito I ate there was mediocre despite a high score. It’s hard to quantify the findings, but here are some trends I found after months spent combing through the reviews: 
+

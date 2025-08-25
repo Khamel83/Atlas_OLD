@@ -1,0 +1,143 @@
+# Why Belonging Is Such A Big Issue In Business Today – JOSH BERSIN
+
+**Source:** inputs/New Docs/html/joshbersin.com_2020_08_why-belonging-is-a-big-issue-in-business-today.html
+**Processed:** 2025-08-24T19:14:03.452433
+
+# Why Belonging Is Such A Big Issue In Business Today
+
+by 
+[joshbersin](https://joshbersin.com/author/joshbersin/ "Posts by joshbersin")
+·
+Published August 31, 2020
+· Updated September 7, 2020
+
+As part of [The Big Reset](https://joshbersin.com2020/08/the-big-reset-playbook-whats-working-now/) we have been having a series of deep, meaningful conversations with Diversity and Inclusion leaders. And among the many things we’re discovering, one of the most interesting is the enormous focus on Belonging. [Diversity is a strategy](https://joshbersin.com2018/08/diversity-and-inclusion-is-a-business-strategy-not-an-hr-program/); Inclusion is a goal; Belonging is a feeling.  And a feeling of Belonging is the most important goal of all. (Download [The Big Reset: What’s Working Now research here](https://joshbersin.com2020/08/the-big-reset-playbook-whats-working-now/).)
+
+Let me start with the context. In today’s political environment, it’s very common for many of us to feel “not included.” The whole [Cancel Culture](https://www.urbandictionary.com/define.php?term=Cancel%20Culture) topic, which started as a meme on social media, is about “not including” someone because they’re different, their opinions are not like yours, or perhaps they said something you didn’t like. The 2020 election is dominated by strident statements by each party that “the other party will ruin the country,” creating a tribal atmosphere where many of us feel that we are just “not included.”
+
+In one of the D&I sessions, several of the leaders expressed anger, frustration, and helplessness around the racial injustice in Wisconsin this week. Some of them came to tears, largely with a feeling that “there’s nothing we can do” or “the system itself is just not listening to our needs.” I also heard today that eight out of the last nine presidential elections there was a majority vote for Democrats, yet Republicans won about half the time – again “cancelling” many people’s votes and making them feel excluded.
+
+At work, of course, a sense of “not being included” can be deadly. As many of the references below cite, when people feel are left out of meetings, don’t have input on their work assignments, or sense that they have been excluded from decisions or opportunities, they feel stress, anger, mistrust, and anxiety. This, of course, results in turnover problems and ultimately makes the company brittle and underperforming.
+
+In fact [Glint’s new research](https://www.glintinc.com/blog/why-belonging-is-important-at-work-employee-engagement-and-diversity/) found that *Belonging* is the most powerful D&I measure of all: people who feel they belong are *six-times more likely to be highly engaged*. [BetterUp research](https://youtu.be/ng6qOn97KEo) shows a 56% reduction in turnover, and also shows that “unbelonging” encourages people to give up or sabotage work.
+
+In our conversation with D&I leaders this topic comes up a lot. Yes, we should have a diverse slate of candidates; yes we should mandate pay equity and equal opportunity for promotion; yes we should teach people about bias (“unconscious” or not), microagresssion, and language; yes we need Employee Resource Groups and other places for people to express their feelings. But at the end of it all, if the company doesn’t create a place of “high-belonging,” all these programs don’t drive results.
+
+**A Framework For Belonging**
+
+In my research on this topic (with more to come), I came across the framework below, from [Lynn Shore and her research](https://journals.sagepub.com/doi/10.1177/0149206310385943).  I found it very insightful and useful.
+
+|  |
+| --- |
+|  |
+
+As you can see, the two axes break the problem into “*uniqueness*” and “*belonging*” – each of which have a range of options. Uniqueness gets to the issue of *Diversity*. If everyone in your company is young, male, white, or from a certain college – then you have a lot of “sameness.” And this is essentially what diversity programs try to prevent. If you value sameness you’re at the bottom row, if you value uniqueness you’re at the top row.
+
+There are many reasons companies value sameness. One is that often the founders or top executives come from a certain background so they believe “people like me” are the best to hire. Many studies have proven the downside to this approach, including many that show how relying on college degrees, pedigree, and other forms of “credentials” themselves are not effective. Of course if you’re biased, racist, or just like to “hire people you feel comfortable with,” you’re going to create a “sameness” culture without realizing it.
+
+Companies in consumer businesses, travel, hospitality, and food service tend to value “uniqueness” much more. Why? Because they often have no choice. As I’ve discussed in other articles, these types of companies need employees that reflect their customer base and they have learned that diversity attracts strong talent, creates representation, and builds a culture of innovation and creativity. But do all these different people feel they belong?
+
+This gets to the vertical axis of Belonging, which refers to *Inclusion*. In some companies, as the academic research found, differences are respected but not fully valued. In other words, they may stereotype people into roles. Are all the women in lower rank or customer service roles?  Are Asians expected to work as analysts or technical roles? You get the idea. These may be “diverse” organizations but they don’t promote a sense of inclusion and belonging.
+
+Imagine a situation where you are a young mother working in a team with male young engineers. When you need to go pick up your child at daycare, you may need to leave a meeting early. Of course people will be respectful, but after you leave will they mention “I wish she didn’t have to leave early all the time?” That doesn’t fully respect her difference.
+
+On the right side of the axis we find companies that truly listen to, value, and respect people regardless of who they are, what they look like, how old they are, or what their background may be.
+
+**How Do You Build Belonging?**
+
+Well, belonging is the topic of the day. Belonging is a *feeling* we can all understand, and it makes the D&I program become real. Ask people if they *feel* they are included, *feel* they have power over their assignments, *feel* they are in the know, and *feel* that their ideas are valued. This is what management has to think about – not just hitting diversity quotas.
+
+Borrowing again from academic research, let me suggest a feeling of belonging comes down to three things:
+
+|  |
+| --- |
+|  |
+
+The first is the company climate. Are there systems, programs, and opportunities for people to speak up, gain opportunities, and participate in the company’s growth. In most forward-thinking companies today, for example, there are newly found policies for transparency. All hands meetings, open discussions, and open feedback sessions create a sense of inclusion.
+
+I remember early in my career at IBM when I was a young, somewhat tentative new employee, I was asked to participate in a roundtable with one of the company’s most senior executives. It was a life-changing experience at the time, and even though I was never quite sure if I “fit in” at IBM during those days, I was highly inspired by the experience.
+
+The second issue of course is leadership. Leaders must model, respect, and value diverse people, their opinions, and their debate. As I discuss in this week’s podcast, early in my career I hired people who were “like me” because I understood them well. Later I learned that this was an enormous blindspot, and I now value debate and differences more than ever. Listening is perhaps the most valuable skill here – and it’s one most senior leaders develop over time.
+
+By the way, the BetterUp research shows that *empowerment* is by far the most powerful solution to “unbelonging.” Once people feel they have power over their work, job, and environment, they then feel that they belong. This must be coupled with access to information, opportunity to weigh into decisions, and a sense of perspective (“everyone feels a little left out at times.”) This research also found that giving people agency not only increases belonging, it actually makes people feel even more committed to the work than when they work alone.
+
+The third practices is to have strict, compliance-like practices that force people to “be inclusive” even if they don’t know how. There are many debates about the value of D&I training (I never found it super useful but it does open your eyes), but if the company mandates a diverse slate of candidates, or publishes pay equity metrics, or has diversity councils that openly discuss opportunity disparities – then your company will become more inclusive.
+
+(By the way, the new California laws that mandate women on boards of directors have worked. These [“quotas” have forced more than 200 companies to add women](https://www.bloomberg.com/news/articles/2020-02-29/california-diversity-law-shows-quotas-work) to their boards and a [law passed this week](https://www.bloomberg.com/news/articles/2020-08-31/california-lawmakers-approve-racial-quotas-for-corporate-boards) now mandates racial quotas. This reinforces the idea that “people learn to be inclusive” when they operate in a “system of inclusion.”)
+
+Remember also that Belonging means people have a feeling of power, or [agency](https://www.merriam-webster.com/dictionary/agency). I have always believed that “the job fits the person” and not the other way around, but not all companies see it this way. How much power do individuals have over the way they do their work? When we give people control of their work environment, they feel ownership and belonging.
+
+**The Chief Diversity Officer Challenge**
+
+As I wrote about a few weeks ago, I remain convinced that the [Chief Diversity Officer is the toughest job in business](https://joshbersin.com2020/07/chief-diversity-officer-the-toughest-job-in-business/). Even if you work for a highly diverse and inclusive organization, you’re sitting at the tip of the sphere and must deal with every political, social, and demographic issue in society. And more and more, as I talk with D&I leaders, I realize they have deep experience in these issues and they understand that belonging is perhaps the most important goal of all.
+
+We are starting a big research effort around this topic, and one of the intimidating problems is that there are so many ideas to consider. Let me just give you a list:
+
+* Recruitment, promotion, supplier, and community diversity
+* Age, disability, gender, race, neuro, and other forms of diversity
+* White fragility, white supremacy, and the topic of “anti-racist” behavior
+* Pay equity, metrics, consequences, and quotas (in Germany there are quotas)
+* Microaggression, unconscious bias, harassment
+* Covering, belonging, inclusion
+* Mentorship, allyship, coaching
+* Performance management, job assignments, opportunity equality
+* Redlining, gaslighting, and racism
+* Double blind hiring, anomymous resumes, diverse slating
+* Bonuses, pay, and rewards tied to diversity goals
+* Public transparency of diversity in hiring, promotion, pay
+* Employee resource groups, diversity councils, diversity business partners
+* The role of citizenship, corporate sustainability, and responsibility
+* And more.
+
+This is a complex topic, and our new capability assessment shows that D&I is one of the biggest areas of interest (and gaps) in all HR professionals.
+
+Let me just conclude with a few thoughts. First, I encourage you to move beyond Diversity and think about the issue of Belonging. How can you help your teams, manager, and company learn to respect, value, and enjoy peoples’ differences at work?
+
+Second, I want you to think about giving your own D&I leader more support. In today’s highly charged political climate, these folks are under a lot of stress.
+
+The problem of Belonging and Inclusion at work starts with each one of us. Remember that we all come to this earth with our own unique constellation of capabilities. When we include everyone in the team, the team improves as a result.
+
+Stay tuned for more on this topic, I hope to hear from you.
+
+**References:**
+
+[The value of belonging at work](https://hbr.org/2019/12/the-value-of-belonging-at-work), in HBR
+
+[Women in the Workplace 2019](https://www.mckinsey.com/featured-insights/gender-equality/women-in-theworkplace- 2019), by McKinsey
+
+[Introducing People Success](https://www.glintinc.com/blog/introducing-people-success/): Helping People Be their Best and Do their Best at Work, Glint
+
+[Why Inclusive Leaders Are Good for Organizations, and How to Become One](https://hbr.org/2019/03/why-inclusive-leaders-are-good-for-organizations-and-how-tobecome- one).
+
+[The Trouble with Gender Targets](https://hbr.org/2013/10/the-trouble-with-gender-targets)
+
+Dobbin, F., & Kalev, A. (2016, July-August). [Why diversity programs fai](https://hbr.org/2016/07/why-diversity-programs-fail)l: And what works  
+better. Harvard Business Review, 94(7-8), 52-60.
+
+Toward a systemic and inclusive framework. In B. M. Ferdman & B. R. Deane (Eds.),
+
+[Diversity at work: The practice of inclusion](https://doi.org/10.1002/9781118764282.ch1) (p. 3–54). Jossey-Bass. https://  
+doi.org/10.1002/9781118764282.ch1
+
+Plaut VC1, Garnett FG, Buffardi LE, Sanchez-Burks J. (2011) [“What about me?” Perceptions of](https://www.ncbi.nlm.nih.gov/pubmed/21534702)  
+exclusion and whites’ reactions to multiculturalism.
+
+Macdonald G1, Leary MR. Psychol Bull. 2005 Mar;131(2):202-23. [Why does social exclusion hurt?](https://www.ncbi.nlm.nih.gov/pubmed/15740417)  
+The relationship between social and physical pain.
+
+[Why rejection hurts](https://www.edge.org/conversation/naomi_eisenberger-why-rejection-hurts).  
+https://www.edge.org/conversation/naomi\_eisenberger-why-rejection-hurts  
+Walton, G. M., & Cohen, G. L. (2007).
+
+[A question of belonging: Race, social fit, and achievement](https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.92.1.82). Journal of Personality and Social Psychology, 92(1), 82–96.  
+https://doi.org/10.1037/0022-3514.92.1.82  
+https://psycnet.apa.org/doiLanding?doi=10.1037%2F0022-3514.92.1.82
+
+[Fear of Being Different Stifles Talen](https://hbr.org/2014/03/fear-of-being-different-stifles-talent)t.  
+https://hbr.org/2014/03/fear-of-being-different-stifles-talent
+
+Shore, L.M., Randel, A.E., Chung, B., Dean, M.A., Ehrhart, K.H., Singh, G. (2011). Inclusion and diversity in work groups: A review and model for future research. Journal of Management, 37.
+
+Making it safe: the effects of leader inclusiveness and professional status on psychological safety and improvement efforts in health care teams, Ingrid M. Nembhard Amy C. Edmondson
+
+[Value Inclusion, Belonging, and Equity for All](https://www.workday.com/en-us/company/about-workday/belonging-and-diversity.html), by Workday

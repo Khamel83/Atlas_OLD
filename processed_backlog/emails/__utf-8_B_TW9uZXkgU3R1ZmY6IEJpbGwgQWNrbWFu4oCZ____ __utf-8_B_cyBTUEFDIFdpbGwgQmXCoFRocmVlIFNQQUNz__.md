@@ -1,0 +1,159 @@
+# =?utf-8?B?TW9uZXkgU3R1ZmY6IEJpbGwgQWNrbWFu4oCZ?=
+ =?utf-8?B?cyBTUEFDIFdpbGwgQmXCoFRocmVlIFNQQUNz?=
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Fri, 4 Jun 2021 12:45:55 -0400 (EDT)
+**Source:** inputs/saved_emails/=utf-8BTW9uZXkgU3R1ZmY6IEJpbGwgQWNrbWFu4oCZ=
+ =utf-8BcyBTUEFDIFdpbGwgQmXCoFRocmVlIFNQQUNz=_Fri,_4_Jun_2021_12-45-55_-0400_(EDT)_179d7eb8b7e128cf.eml
+**Processed:** 2025-08-24T19:13:05.925783
+
+
+
+
+  
+  
+  Money Stuff
+  
+body {
+width: 100%; -webkit-font-smoothing: antialiased; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 150%; color: #000; margin: 0; padding: 0;
+}
+img {
+max-width: 550px;
+}
+.body-component a:visited {
+color: #000000; text-decoration: none !important; border-bottom: 1px solid #000000; background-color: #ccc;
+}
+.body-component h1 a:visited {
+text-decoration: none; color: #000000;
+}
+@media (prefers-color-scheme: dark) {
+}
+[data-ogsc] body {} 
+
+
+
+  
+  
+    
+      
+        
+          
+            
+              
+                
+              
+            
+          
+        
+        
+          
+            
+          
+        
+      
+
+
+    
+        
+            
+                
+            
+        
+    
+
+
+
+
+      
+      
+  
+    
+      Programming note: I said yesterday that there would not be a Money Stuff today, but there will be. Here it is.SPARC SPARC SPARCThe way a special purpose acquisition company works is that investors put money in a pot, and the sponsor of the pot goes out and looks for a company to merge with. When the sponsor finds a target company and does the merger, the target company gets the money in the pot, and the investors in the pot get shares of the target company. (The sponsor does too, as compensation for her target-hunting efforts.) Until then, the pot is invested in money-market securities. If the sponsor doesn’t find a target company, or if the investors don’t like the merger, they can get their money back with a tiny bit of interest.If you think too hard about this, it might seem a little inefficient. Why do the investors put the money in the pot at the beginning? It’s not doing anything. The money just sits there. Why not wait until the sponsor finds a deal, and then put the money in? While they wait for the sponsor to find a target, the SPAC investors can put their money into whatever they want, Treasury bills or the S&P 500 or AMC or Bitcoin or whatever. Then one day the sponsor says “here’s the deal,” and the investors can decide if they like it, and if they do they can give the sponsor their money and if they don’t they don’t have to. It’s the same basic economics as a SPAC — just like in a SPAC, the investors sign up with a sponsor at the beginning not knowing what the deal is, but when the deal is announced they can decide whether or not they still want in — but without locking the money up in Treasury bills for months or years.If you think too hard about that, you might say “wait that’s just an initial public offering, the whole point of the SPAC is that you give money to the sponsor first,” but I don’t think that’s right. In a SPAC you do give money to the sponsor first, but you can always get it back at the end. The money is there, but not locked up. Instead, the point of the SPAC is that you have expressed some vote of confidence in the sponsor: You trust her to find you a good deal, so you sign up for her deal-finding expedition. You put up your money as an expression of interest, not a commitment to invest. The point of the SPAC is not the money in the pool; the point of the SPAC is that a bunch of investors have expressed nonbinding interest in having a particular sponsor find a company for them. The valuable things are the sponsor’s connections and her curation and negotiation skills. If you have those things, raising the money later is fine.Pershing Square Tontine Holdings is doing lots of things; here’s one of them:An affiliate of our Sponsor has formed an entity that will be known as Pershing Square SPARC Holdings, Ltd. (“SPARC”), which is a Cayman Islands Corporation.SPARC is not a SPAC. It is a Special Purpose Acquisition Rights Company. Unlike a traditional SPAC, SPARC does not intend to raise capital through an underwritten offering in which investors commit capital without knowing the company with which SPARC will combine.Instead, SPARC intends to issue rights to acquire common stock in SPARC for $20.00 per share to PSTH shareholders (“SPARs”) which can only be exercised after SPARC enters into a definitive agreement for its initial business combination. The SPARs are expected to trade on the NYSE and have a term of five years, subject to extension….Assuming all SPARs are exercised, SPARC will raise $5.6 billion of cash from SPAR holders. SPARC is expected to enter into forward purchase agreements with affiliates of the Pershing Square Funds, the SPARC’s sponsor, for a minimum investment of $1 billion, and up to $5 billion, subject to increase with SPARC’s board consent. ...SPARC’s structure has been designed to allow SPAR holders to avoid incurring the opportunity cost of capital of a typical SPAC, as the SPARs will not be exercisable, and holders will not be able to acquire shares in SPARC, until a definitive agreement has been signed. The SPARC Sponsor will also benefit by not having any time pressure associated with the typical two-year SPAC commitment period.A SPARC is a SPAC without a pool of money. It doesn’t have shares; it has rights. You own a right — a SPAR — and you can trade that, and the sponsor of the SPARC (Pershing Square Capital Management LP, Bill Ackman’s hedge fund) goes out and looks for a deal, and if it finds a good deal, it says “hey who wants to put in $20 for this deal,” and if you own a SPAR you can put in your $20 and get back a share of the deal. If you don’t own a SPAR, you can buy one from someone who does, and then put in your $20. If you do own a SPAR but don’t want in on the deal, you can sell your SPAR to someone who wants in.[1] The SPARs will, presumably, trade at some market price that reflects the market’s confidence that Bill Ackman will find and negotiate a good deal for the SPARC. If he announces a deal and everyone hates it, then no one will want to put in $20 and the SPARs will trade to zero-ish. If he announces a deal and everyone loves it, then investors will think, like, “I can put in $20 and get back $30 worth of stock in this awesome deal,” and the SPARs will trade to $10-ish. Etc.I like this? It is fun. It dispenses with almost all of the financial engineering of a SPAC: There are no warrants, no cash value, no shareholder votes, no time limits. In fact arguably there is no anything. Bill Ackman can go around to private companies looking to go public and say … what? “Hey, I’ve got some friends, and they are following with interest my efforts to find a company to merge with. If I find a good one, maybe they’ll give me money, though they haven’t given me any money yet and they’re under no obligation to do so. Would you like to be that company, and maybe my friends will give you their money? We can find out together!”I want to emphasize that this really is the same pitch as a SPAC: In a SPAC, just like a SPARC, the sponsor cannot guarantee that any of the investors will actually contribute their money to the deal; SPAC investors have withdrawal rights, while SPARC investors have no obligation to put in their money. (In a SPARC, just like a SPAC, the sponsor itself can put up some money to make the deal more certain for the target; here Pershing Square will contribute between $1 billion and $5 billion to any deal it finds.) The SPARC might feel a bit less real than the SPAC, because the SPAC already has the money and the SPARC doesn’t, but I’m not sure that difference matters that much. The point in either case is that a bunch of people want to invest with Bill Ackman, and have put their names on a nonbinding list that will let them do so.But I also want to emphasize that this pitch is also the same as … nothing? Like if Chamath Palihapitiya — or Bill Ackman for that matter — found some nice private company and said “hey, I would love to take you public, but all of my SPACs already did deals and I forgot to raise another one, what if we just called all the people who like me and asked them to chip in some money,” that would be just as good as a SPARC. There’s no pre-commitment here[2]; the pitch is not “I have a pool of money to give you” but rather “people like me and trust me and I probably can raise a pool of money for you.” The SPARC formalizes that a little bit, but if you sign up to do a deal with Bill Ackman’s SPARC it’s not because the SPARC has money to give you, it’s because you are confident that Bill Ackman can go find money to give you.Anyway, like I said, this is only one of the things that Pershing Square Tontine Holdings is doing. PSTH is a SPAC (not a SPARC) that Bill Ackman launched way back in July 2020; he raised $4 billion to  hunt for (in his words) a “Mature Unicorn.” PSTH did not find a Mature Unicorn. PSTH is, however, a rather Mature SPAC at this point: Like all SPACs, it has a two-year deadline to do a deal, and the clock started running last July. That still gives it more than a year, but “startups tend to shy away from those that haven’t found a partner after about six months”; things aren’t desperate yet, but PSTH is not exactly the freshest of SPACs. There was “lots of speculation that it would try to buy a company like Airbnb or Stripe, and word is that it did at least try to kick those sorts of tires,” but I guess that didn’t work out.Instead, Pershing Square announced a deal for Universal Music Group. Uh, well, technically it announced that it might have a deal: “It is in discussions with Vivendi S.E. (‘Vivendi’) to acquire 10% of the outstanding Ordinary Shares of Universal Music Group B.V. (‘UMG’) for approximately $4 billion, representing an enterprise value of €35 billion for UMG.” This is not a traditional SPAC deal, for a number of reasons. For one thing, Universal is not a hot startup or a “mature unicorn,” but a carveout from a public company.Also, though, the PSTH deal is not a vehicle for taking Universal public: Vivendi was already planning to spin off Universal to its shareholders, and it will go ahead with that plan. Instead, PSTH will just buy some Universal shares from Vivendi; once Universal goes public (on Euronext Amsterdam) PSTH will distribute those shares to its own shareholders. The PSTH shares — which are listed on the New York Stock Exchange — won’t become shares of the newly public Universal; instead, PSTH shareholders will keep their PSTH shares and also get some Universal shares as a distribution.So PSTH will still exist and will still be publicly traded on the New York Stock Exchange. It will also still have some money in its pot:PSTH expects to fund the Transaction with cash held in its trust account from its IPO ($4 billion plus interest), and approximately $1.6 billion in additional funds from the exercise of its Forward Purchase Agreements with the Pershing Square Funds and affiliates. Approximately $4.1 billion of these proceeds will be used to acquire the UMG Shares and pay transaction costs, with the $1.5 billion balance to be retained by PSTH Remainco.So if you are a PSTH investor, you’ll get some Universal stock (worth $14.75, on Ackman’s math, though you don’t have to agree) and keep a share in a $1.5 billion pool of cash. (That share should be worth about $7.50.[3])What will the pool of cash do? Well, it will keep on looking for a unicorn, I guess; it will be a lot like a regular SPAC without technically being a SPAC:PSTH Remainco to Pursue Another Business Combination Following the Proposed TransactionAfter funding the UMG purchase and related transaction expenses, PSTH Remainco will have $1.5 billion in cash and marketable securities. In addition, the Forward Purchase Agreements will be amended to provide that the Pershing Square Funds will continue to have the right, but not the obligation, to buy approximately $1.4 billion of PSTH’s Class A common shares to fund PSTH’s future business combination transaction. The Pershing Square Funds will own approximately 29% of PSTH Remainco before the exercise of any Additional Forward Purchase Agreements.PSTH Remainco intends to remain listed on the NYSE. Because the transaction will satisfy the requirements of an initial business combination, PSTH Remainco will no longer be treated as a SPAC under NYSE listing rules.Sure, I guess? I assume that the key advantage here is that, because the Universal deal checks PSTH’s box for “do a deal within two years,” the time pressure is off: PSTH Remainco will bop along with a pool of cash that it can use to do any deal it wants whenever it wants.[4] It is sort of another permanent-capital vehicle for Bill Ackman.So, right, Pershing Square Tontine Holdings is sort of fissioning into three different SPAC-related things:	Most of the money in PSTH will go to buy Universal shares, grudgingly and technically satisfying its obligations as a SPAC to do a big deal within two years.	The rest of the money in PSTH will stay in PSTH (“PSTH Remainco”), so it can look for another, smaller deal, free of some of the traditional SPAC obligations.	The, like, spiritual SPAC-ness of PSTH will roll over into the SPARC, which will look for yet another deal, free of the traditional SPAC obligations and also the drag of holding a pot of cash.I am sure it all made a kind of sense to whoever dreamed it up.Anyway there are three other traditional features of a SPAC that are worth discussing here. One is redemption rights: If you own stock in a SPAC, and you don’t like the deal it does, you can take your money out, redeeming your shares for their cash value. The cash value is the initial price of the SPAC — usually $10, though PSTH’s is $20 — plus whatever interest the SPAC earned on your money while it looked for a deal. That will happen here too, though in a slightly weird way:PSTH will satisfy its shareholders’ redemption rights by tendering for its shares at a price equal to PSTH’s cash-in-trust per-share, or approximately $20 per share (the “Redemption Tender Offer”). The Redemption Tender Offer is expected to be launched shortly following the execution of the definitive transaction documentation.Seems fine. Presumably if some PSTH shareholders demand their money back then there will be less than $1.5 billion left in the stub PSTH Remainco. I don’t know what happens if shareholders demand more than $1.5 billion back: Does PSTH give Vivendi less than $4 billion and get less than 10% of Universal Music? Or does Pershing Square make up the difference? It doesn’t matter too much, though; after the deal was announced, PSTH traded down (from yesterday’s $25.05 close), but it’s still well above the $20 cash value, so you would not expect many investors to redeem.Another traditional SPAC feature is voting rights: If the shareholders of a SPAC (the investors in the pool) don’t like the deal that the sponsor finds, they can vote it down. This is not actually important in modern SPACs: If you don’t like a deal, rather than voting against it you will normally vote for it and then redeem your shares for their cash value. The main investor protection is not voting rights but getting your money back. A good thing, too, because PSTH’s Universal deal is an asset purchase rather than a merger, and the “Transaction will not require a vote of PSTH’s shareholders.” A third feature is warrants. When a SPAC goes public, normally it sells investors a unit consisting of a share plus a fraction of a warrant. The warrant lets you buy an additional share; here, each whole PSTH warrant lets you buy another share for $23. The idea is that if the SPAC does a good merger, the stock of the combined company will be worth much more than the cash value of the SPAC, and investors will get a little sweetener, the ability to buy more stock at a price that is higher than the SPAC price but lower than the true value of the merged business.PSTH did its warrants in a somewhat complicated way: Each share came with one-ninth of a warrant, but PSTH also set aside two-ninths of a warrant per share as “tontine warrants.” The idea was that the tontine warrants would be handed out to all the shareholders who did not exercise their redemption rights, as an incentive for investors to keep their money in the pot. I  wrote at the time:Only investors who don’t demand their money back when the SPAC finds a target will get those warrants, but the number of those warrants will be fixed. The more investors redeem, the more warrants each non-redeeming investor will get. (It’s like a tontine in that, the more people drop out, the higher the value for the remaining people.) This gives investors an incentive not to redeem; in particular, it makes it less likely that a lot of investors will redeem (because the value for the remaining investors will keep going up). So Ackman has a better ability to offer certainty, because his public investors are a bit more locked in than SPAC investors usually are.All of this turned out to be sort of meaningless? PSTH isn’t doing a merger, it’s just buying Universal shares, and it’s not getting any Universal warrants. The warrants just sort of go away. PSTH investors can choose to either (1) exchange their warrants for some additional shares of PSTH (and, thus, additional shares of Universal), or (2) keep their warrants, which then become warrants of PSTH Remainco with an adjusted strike price. If everyone chooses the first option — to exchange their warrants for more shares — then, in effect, the warrants vanish. Every shareholder goes from owning 1 share of PSTH to owning 1.09 shares or whatever,[5] but PSTH has the same amount of cash in its pot and gets the same number of Universal shares. So your 1.09 new shares are worth exactly the same as your old 1 share was worth, and the warrants didn’t do you any good.[6](The tontine-y part still applies, though: If you ask for your cash back in the tender offer, you don’t get the tontine warrants, and the people who don’t demand their cash back share more of those warrants.)I don’t know? Seems fun. One thing to say about the SPARC is that June 2021 is not necessarily a great time to raise a SPAC, and it’s not clear that this deal — the Universal stake plus the three-way SPAC fission — is the sort of home run that will make investors want to buy Ackman’s next SPAC. (“Ackman’s SPAC Slumps After Universal Music Deal Irks Investors,” is  the Bloomberg headline.) Ackman is winding up his first SPAC, PSTH, by doing the Universal deal, though there will still be that stub PSTH Remainco looking to do another deal. If he went out to raise another $4 billion now, to hunt for another big deal, investors might be skeptical. So he isn’t. Instead he’s launching his next SPAC as a SPARC: He’s launching a new $4 billion SPAC without raising money for it. Ackman SPAC II (that is, Pershing Square SPARC Holdings Ltd.) will go public as soon as Ackman SPAC I (Pershing Square Tontine Holdings) closes its deal, and Ackman will be able to go hunt for another big deal, but he won’t have to raise the money until he finds the deal. Maybe by then it will be easier to raise the money.AMC AMC AMCYesterday about $31.9 billion worth of AMC Entertainment Holdings Inc. stock traded, down a bit from Wednesday’s $39.7 billion but still quite a lot. For comparison, Tesla Inc. stock traded $17.8 billion yesterday. Apple Inc. traded $9.4 billion. Amazon.com Inc. traded $7.7 billion. GameStop Corp. traded $2.1 billion. All U.S. stocks on all U.S. exchanges, combined, traded $536.4 billion yesterday.[7] AMC was 6% of U.S. stock trading. That’s pretty high. Could be higher, though. RBC Bearings Inc., a ball-bearings manufacturer, traded $12.3 million of stock. Seems unnecessary. In the future the only stocks will be AMC, GameStop and Tesla. The idea that you’d go to the stock market to buy or sell shares of some boring company that makes industrial parts, just because you expect its future cash flows to be higher than what is currently discounted in the stock price, will seem weird and quaint. “No we only trade memes here.”Anyway, right, AMC traded $31.9 billion of stock yesterday, including about $2.75 billion in the first half hour of the trading day. If you wanted to sell, say, $587.3 million worth of AMC stock, you could have done that very quickly yesterday. As it happens AMC did want to sell $587.3 million of AMC stock, and did do that very quickly. This press release crossed the wire at 12:58 p.m. yesterday:AMC Entertainment Holdings, Inc. (NYSE: AMC) (“AMC” or “the Company”), announced that it has completed its 11.550 million share at-the-market (“ATM”) equity program launched earlier today. AMC raised approximately $587.3 million of new equity capital, before commissions and fees, at an average price of approximately $50.85 per share.Good for them. Some AMC facts:	From the time AMC went public in 2013 until this Tuesday, its highest closing price ever was $35.68, in March 2015. 	AMC’s total market capitalization at the end of 2020 was $458 million.[8]AMC raised more money than it was worth five months ago, at effectively an all-time-high stock price, in about three hours yesterday. It is fun to imagine: What if AMC did that every three hours? How long could it draw this out? The stock price roughly doubled last week, and then it roughly doubled again this week despite AMC selling millions of shares on two separate days this week. Let’s say you keep selling 20 million shares a week, and the stock keeps doubling every week. Next week you sell say $1.8 billion of stock.[9] The week after $3.6 billion. By August you’re raising trillions of dollars a week, buying Apple Inc. with spare cash.I am kidding, of course. For one thing, nothing grows like that for long, though ask yourself how sure you are about that.For another thing, AMC’s hilarious tragic curse is that it can’t sell any more stock because it is out of authorized shares. Yesterday  I wrote that I wasn’t sure how many shares AMC had left, but that I hoped it was 1, one share, and that AMC would auction off its last share for millions of dollars. In fact the number is slightly bigger than that. In another press release yesterday, AMC Chief Executive Officer Adam Aron said: “As of today, in our efforts to best position AMC for a successful recovery from the pandemic, we have issued or reserved substantially all but 46,124 of the shares that were previously authorized.” That’s about as slim as it realistically gets: AMC has issued 99.9912% of its authorized shares. Those 46,124 shares are worth about $2.4 million at yesterday’s closing price, or about one day of AMC’s popcorn sales.[10] Can’t do much with that.But perhaps — as I argued yesterday — that’s the wrong way to look at it. Perhaps the very scarcity of those 46,124 shares is what makes them valuable. In the first quarter of 2021, AMC sold about 187 million shares at an average price of $3.19. On Tuesday, it  sold 8.5 million more shares at $27.12 each. Yesterday, it sold 11.55 million more shares at $50.85 each. Now it has just thousands of shares to sell. Shouldn’t they be worth thousands or millions of dollars each? As AMC gets closer and closer to its authorized-share cap, its price keeps going up; scarcity makes the shares worth more.I realize this is nonsense — those 46,124 shares are entirely fungible with the other shares, they are no “scarcer” than the rest, in fact there are many more AMC shares available now than there were in the first quarter, etc. — but I do feel like a healthy dose of nonsense is what is needed here. The way to understand AMC is to abandon your conscious mind for a while and just float on a sea of vague associations. How boring to apply traditional notions of corporate finance or supply and demand to AMC. AMC is a new thing.Anyway AMC is going to ask its shareholders to authorize another 25 million shares, just for a bit of breathing room, though it promises not to issue them until 2022. (This is down from its previous ask for 500 million more shares, which was actually a much more normal ask: Ordinarily companies want to have ample room under their authorized-share cap, but given AMC’s gleeful stock issuance you can see why some shareholders might not want that.)It also issued this rather wild press release about how many shares are eligible to vote on the new authorization (people who bought yesterday can’t), which includes this nod to anti-short-selling conspiracy theory:AMC has received a number of inquiries regarding so-called synthetic shares and fake shares. AMC has no reliable information about this, therefore we can make no comment in this regard. AMC only maintains records regarding the shares it has legally issued and which are outstanding.I feel like they could have added a sentence to that paragraph saying “if you own fake AMC shares, you can’t vote them,” but perhaps the lawyers did not like that. 
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                                Paid Post
+                                Meet Axos Bank’s Rewards Checking – the account that helps you earn more, so you can save more. Earn up to 1.25% Annual Percentage Yield, pay zero fees, and get unlimited domestic ATM fee reimbursements. And, as a bonus, enjoy a mobile banking app that will knock your socks off. 
+Apply Now
+                                Axos Bank
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+Things happenBitcoin Slips After Musk  Tweets Broken-Heart Emoji for Token. U.S.  Job Growth Picks Up in Sign of Progress on Filling Openings. AMC Boss Adam Aron Basks in Meme-Stock Spotlight. Washington to bar US investors from 59 Chinese companies. Texas Rising: Hedge Funds, Big Tech Drive Lone Star Wealth Boom. Hot Housing Market Leaves People Afraid to Trade Up. Candidate interrupted by sex toy on drone, punched at event. If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] Unlike in a regular SPAC, the SPARs won’t come with withdrawal rights — you won’t be able to get your money back from the SPARC if you don’t like the deal. But that is of course because you haven’t put your money in yet! The SPARs aren’t claims on a pool of cash, they’re just rights to contribute to a *future* pool of cash. Also, unlike in a regular SPAC, you won’t be able to *vote* on the deal: “SPARC common shares will initially be owned 100% by affiliates of Pershing Square so no vote will be required from other shareholders to consummate a transaction.”[2] Except — importantly — Pershing Square’s own $1 billion to $5 billion. But that has nothing to do with the SPARC; Pershing Square could just invest $1 billion to $5 billion in any company that wanted the money, or in any public company that didn’t for that matter.[3] That is, PSTH raised $4 billion by selling 200 million shares at $20 each. Take out $2.5 billion of cash and you have 200 million shares in a $1.5 billion pool of cash, so each share is a claim on $7.50 of cash. This is complicated by the redemption rights and warrant stuff discussed below, though; really what I mean is like “each share + warrant unit will be worth about $7.50 if no one redeems.”[4] I assume, though it is frankly unclear, that the redemption tender offer in connection with the Universal deal will terminate PSTH shareholders’ redemption rights, so that if PSTH Remainco does a deal later on it will be able to commit the full $1.5 billion in the pot without worrying about redemptions.[5] A rough number. Page 166 of the original prospectus has a table of the exchange value of warrants and shares. As of 11 a.m. today PSTH was trading at about $22.43, so I use the $22 column in the table, and I use the 60-day line in the table because I assume you’d take the deal as soon as possible. So that gives me an exchange ratio of about 0.26 shares per warrant. (That roughly tracks: The warrants trade separately and were at about $6.12 at 11 a.m., or about 27% of the price of the stock.) Each share comes with one-third of a warrant (including tontine warrants), so that’s about 0.09 added shares per share.[6] This is not quite right because the warrants and shares do trade separately now, so plenty of people own only shares or only warrants, and will be diluting each other etc. But from the perspective of PSTH investors as a whole, the warrants turned out to be roughly a nothing. Incidentally my gut instinct is that most of the warrants will be exchanged for PSTH shares in the exchange offer, rather than kept outstanding as PSTH Remainco warrants, but I have not done any math on that and am not even sure how to think about it. [7] According to Bloomberg’s MVALUSE <Index> function.[8] For that matter, its total market capitalization at the end of *2019*, more or less pre-pandemic, was $752 million.[9] For my dumb rough math here, assume that the stock price at the end of this week is $60, at the end of next week it’s $120, and AMC sells at an average of the two, i.e. $90 per share. Don’t, you know, put too much stock in that.[10] I’m mostly kidding. In 2019, pre-pandemic, AMC reported $1,719.6 million of food and beverage revenues, or about $4.7 million per day. I am assuming, with no basis, that half of that is popcorn.
+    
+  
+
+
+    
+      
+        Follow Us
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+      
+      
+        
+          Get the newsletter
+        
+      
+    
+
+
+      
+      
+  
+    
+       
+    
+    
+      
+    
+    
+      Like Money Stuff? | 
+Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+    
+    
+       
+    
+  
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+    
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ceblw4.61tm/244c93d1.gif" alt="" border="0" /></a>
+
+

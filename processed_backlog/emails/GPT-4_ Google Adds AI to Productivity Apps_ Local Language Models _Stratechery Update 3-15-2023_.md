@@ -1,0 +1,130 @@
+# GPT-4, Google Adds AI to Productivity Apps, Local Language Models (Stratechery Update 3-15-2023)
+
+**From:** "Ben Thompson" <email@stratechery.com>
+**Date:** Wed, 15 Mar 2023 14:15:16 +0000
+**Source:** inputs/saved_emails/GPT-4, Google Adds AI to Productivity Apps, Local Language Models (Stratechery Update 3-15-2023)_Wed,_15_Mar_2023_14-15-16_+0000_186e5a01f71af282.eml
+**Processed:** 2025-08-24T19:13:08.341338
+
+A slew of AI announcements are dropping this week, but the news that large language models can be run locally might be the biggest news of all.
+
+View in browser ( https://stratechery.com/2023/gpt-4-google-adds-ai-to-productivity-apps-local-language-models/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvZ3B0LTQtZ29vZ2xlLWFkZHMtYWktdG8tcHJvZHVjdGl2aXR5LWFwcHMtbG9jYWwtbGFuZ3VhZ2UtbW9kZWxzLyJdfSwiZXhwIjoxNjgxNDgxNzE2LCJpYXQiOjE2Nzg4ODk3MTYsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.tJ_IlE-b-CI-MR8RrtUikv9pqXAsNBIijvNkit7cgS3VeuzDZHUzbQpz_3_RaXR5yGUfk7nkaBGF7Ki_bI-xJ3Pr5vY-aN9LYU0IGz8SGA4dyXLYLp8cO86xUKvL4r_byFnbz2gB_TmJHyN2XHciAaYbXWIcE7oWf7_lItcb4SNbvkioGsAjQb8zTUN15RdXpNTOTtDcmhF89WuLH9O2GI7QrhKz5gbPFx0BvW9Svgr3ydTJ-nurtffC_9v8nY7yJ-4S7qZHX655TPAZtfvgd_t7EbwY07ARasuK3orwJ330EIxfpUZheLpBPtjgHwObPW7isyHjY59QEmjo8KYFlg )
+
+( https://stratechery.com )
+
+*****************************************************************
+GPT-4, Google Adds AI to Productivity Apps, Local Language Models
+*****************************************************************
+
+( https://stratechery.com/2023/gpt-4-google-adds-ai-to-productivity-apps-local-language-models/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjMvZ3B0LTQtZ29vZ2xlLWFkZHMtYWktdG8tcHJvZHVjdGl2aXR5LWFwcHMtbG9jYWwtbGFuZ3VhZ2UtbW9kZWxzLyJdfSwiZXhwIjoxNjgxNDgxNzE2LCJpYXQiOjE2Nzg4ODk3MTYsImlzcyI6Imh0dHBzOi8vc3RyYXRlY2hlcnkucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCIsInN1YiI6IlJzZXVZRThqZ0hlUHBXSmYxZkFiNEMiLCJ1c2UiOiJhY2Nlc3MifQ.tJ_IlE-b-CI-MR8RrtUikv9pqXAsNBIijvNkit7cgS3VeuzDZHUzbQpz_3_RaXR5yGUfk7nkaBGF7Ki_bI-xJ3Pr5vY-aN9LYU0IGz8SGA4dyXLYLp8cO86xUKvL4r_byFnbz2gB_TmJHyN2XHciAaYbXWIcE7oWf7_lItcb4SNbvkioGsAjQb8zTUN15RdXpNTOTtDcmhF89WuLH9O2GI7QrhKz5gbPFx0BvW9Svgr3ydTJ-nurtffC_9v8nY7yJ-4S7qZHX655TPAZtfvgd_t7EbwY07ARasuK3orwJ330EIxfpUZheLpBPtjgHwObPW7isyHjY59QEmjo8KYFlg ) Wednesday, March 15, 2023
+
+Listen to this Update in your podcast player ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Good morning,
+
+I thought this article from Patrick McKenzie ( https://www.bitsaboutmoney.com/archive/banking-in-very-uncertain-times/ ) was a very good addition to the discussion around the ongoing bank issues; it takes a broader view of what is happening than just the specifics around Silicon Valley Bank.
+
+Meanwhile, over the last few days there have been three major AI-related developments, and the week is not yet over.
+
+On to the update:
+
+GPT-4
+-----
+
+From Bloomberg ( https://www.bloomberg.com/news/articles/2023-03-14/openai-unveils-next-version-of-the-ai-tool-that-birthed-chatgpt ) :
+
+OpenAI is unveiling the successor to an artificial intelligence tool that spawned viral services ChatGPT and Dall-E, and set off an intense competition among technology companies in the area known as generative AI. The startup said the new version of the technology, called GPT-4, is more accurate, creative and collaborative. Microsoft Corp., which has invested more than $10 billion in OpenAI, said the new version of the AI tool is powering its Bing search engine.
+
+GPT-4, which stands for generative pretrained transformer 4, will be available to OpenAI’s paid ChatGPT Plus subscribers, and developers can sign up to build applications with it. OpenAI said Tuesday the tool is “40% more likely to produce factual responses than GPT-3.5 on our internal evaluations.” The new version can also handle text and image queries — so a user can submit a picture with a related question and ask GPT-4 to describe it or answer questions. GPT-3 was released in 2020, and along with the 3.5 version, was used to create the Dall-E image-generation tool and the chatbot ChatGPT — two products that caught the public imagination and spurred other tech companies to pursue AI more aggressively. Since then, buzz has grown over whether the next model will be more proficient and possibly able to take on additional tasks…
+
+OpenAI said it spent six months making the artificial intelligence software safer. For example, the final version of GPT-4 is better at handling questions about how to create a bomb or where to buy cheap cigarettes — for the latter case, it now offers a warning about the health impacts of smoking along with possible ways to save money on tobacco products.
+
+The company declined to provide specific technical information about GPT-4 including the size of the model. Brockman, the company’s president, said OpenAI expects cutting-edge models will be developed in the future by companies spending on billion-dollar supercomputers and some of the most advanced tools will come with risks. OpenAI wants to keep some parts of their work secret to give the startup “some breathing room to really focus on safety and get it right.” It’s an approach that is controversial in the AI field. Some other companies and experts say safety will be improved by more openness and making the artificial intelligence models available publicly. OpenAI also said that while it is keeping some details of model training confidential, it is providing more information on what it’s doing to root out bias and make the product more responsible.
+
+I don’t have an in-depth review of GPT-4’s capabilities yet; the ChatGPT interface, which I do have access to, still doesn’t have web access and is limited in just how much text you can enter (a limitation that is dramatically expanded — up to 25,000 words — with some versions of the model). Of course Bing can access the web — and we now know for certain that Bing is indeed powered by GPT-4. I did ask it to write a simple WordPress plugin that I recently worked on and the output looked right to me, although I didn’t test it. This thread ( https://twitter.com/linusekenstam/status/1635754587775967233?s=46&t=3jNRhFSsJkSBz7CjCSAX0g ) has examples of things that people have already done, and the Open AI Developer presentation ( https://www.youtube.com/watch?v=outcGtbnMuQ ) contains several impressive demos, including creating a functioning web page from a hand-drawing (GPT-4 can accept images as an input).
+
+GPT-4 is also an excellent test-taker ( https://openai.com/research/gpt-4 ) , dramatically improving its score on standardized tests and AP exams relative to GPT-3:
+
+GPT-4's test scores relative to GPT-3 ( https://openai.com/research/gpt-4 )
+
+There are two interesting takeaways here: first, GPT-4 appears to be a lot better at some math; I didn’t test this extensively, but it did get the correct answer to the relatively simple equations I tripped GPT-3 up on previously ( https://stratechery.com/2022/ai-homework/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJlbnQiOnsidXJpIjpbImh0dHBzOi8vc3RyYXRlY2hlcnkuY29tLzIwMjIvYWktaG9tZXdvcmsvIl19LCJleHAiOjE2ODE0ODE3MTYsImlhdCI6MTY3ODg4OTcxNiwiaXNzIjoiaHR0cHM6Ly9zdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIiwic3ViIjoiUnNldVlFOGpnSGVQcFdKZjFmQWI0QyIsInVzZSI6ImFjY2VzcyJ9.K9pP0KiEljqJiWTsdAwkRCkvh7xWJdnaTtiFIrmsQH2ryS50POBDSlYw5KO7xHQV4K9ryMNR5uQidwMcBWf5esta677p8g2eWxm8FM-8NFNQq8gPheOQJVLRYtjDG26pp0avtA0QLDpNTUHbw9aOPjl5aMupLW3jRoAKBMDlOpYB9zE4In4_8e7yma-TYA8nDaUZBvlu95Y580JRL1FKaZFdNrG2niQsLRRIPC2MSIMiyDcD8EP4JWe9mzvHnPcS-WtNZyO4o_saMf1RF44lYkL5HUbLLTIxp_iZkOfwYh4gKHdeUTBU_aoeKLXGXS3pavXBSM3EMS6hDiS48ZQWQQ ). However, it still struggles with American Math Competitions. GPT-4 is also still poor at the high-end coding tests and AP English tests, which suggests a deficiency in the combination of high-end abstract thinking and creativity; this makes a fair bit of sense, when you think about it; tests that are more about knowledge recall and cogent writing, on the other hand, are a breeze.
+
+There are a few other interesting takeaways just from the announcement, though. First, the fact that GPT-4 is available in ChatGPT is both unsurprising but important: a big question going forward is if new models can simply be drop-in replacements for existing applications; this impacts the extent to which an API — like OpenAI’s — can be a platform. Granted, a chat application is pretty straightforward; I look forward to reports from developers about just how much work will be required to update their applications.
+
+Second, and relatedly, whereas ChatGPT was a major evolution of GPT-3, it is notable that GPT-4 starts with the ChatGPT evolution of GPT-3 as a baseline, in particular the extensive work on reinforcement learning with human feedback (RLHF). In fact, GPT-4 has been ready since last year, but OpenAI has spent the previous 6 months training the output, in contrast to the initial release of GPT-3. RLHF is certainly beneficial in terms of producing more coherent output, but it obviously also introduces all of the safeguards and limitations that have been controversial about ChatGPT’s output.
+
+Third, it sure is starting to seem like the name “OpenAI” was a very clever bit of misdirection: GPT-4 is not only not open-sourced, and not only is the data on which it was trained not revealed, but OpenAI isn’t even releasing details about the size of the model or the capabilities required to train it. The company did note that it reliably predicted the accuracy of the model based on the number of inputs, which suggest that OpenAI is getting a good handle on how to scale the model up and down, and for what it’s worth, that does seem to be pretty relevant competitive information. And, to that point, it is clear that OpenAI is determined to win this space.
+
+Google Adds AI to Productivity Apps
+-----------------------------------
+
+From The Verge ( https://www.theverge.com/2023/3/14/23639273/google-ai-features-docs-gmail-slides-sheets-workspace ) :
+
+Google has announced a suite of upcoming generative AI features for its various Workspace apps, including Google Docs, Gmail, Sheets, and Slides. The features include new ways to generate, summarize, and brainstorm text with AI in Google Docs (similar to how many people use OpenAI’s ChatGPT), the option to generate full emails in Gmail based on users’ brief bullet points, and the ability to produce AI imagery, audio, and video to illustrate presentations in Slides (similar to features in both Microsoft Designer, powered by OpenAI’s DALL-E, and Canva, powered by Stable Diffusion).
+
+The announcement shows Google’s eagerness to catch up to competitors in the new AI race. Ever since the arrival of ChatGPT last year and Microsoft’s launch of its chatbot-enabled Bing this February, the search giant has been scrambling to launch similar AI features. The company reportedly declared a “code red” in December, with senior management telling staff to add AI tools to all its user products, which are used by billions of people, in a matter of months.
+
+But Google is definitely racing ahead of itself. Although the company has announced a raft of new features, only the first of these — AI writing tools in Docs and Gmail — will be made available to a group of US-based “trusted testers” this month. (This is also how Google announced availability for ChatGPT rival Bard.) Google says these and other features will then be made available to the public later in the year but didn’t specify when.
+
+First, this makes all kinds of sense: the use case is obvious and, critically for Google, the business model is aligned: making Workspace and Gmail better means it is more likely that customers will want to subscribe, helping Google make more money. It makes sense that the company would start here. Of course, “start” should be in quotation marks: like all of Google’s recent AI announcements this is a feature that is coming at some indeterminate point in the future.
+
+One does get the sense that Google wanted to get out ahead of Microsoft’s Reinventing Productivity event ( https://news.microsoft.com/reinventing-productivity/ ) that is happening on Thursday: I think it’s safe to assume that Microsoft will be announcing the same sort of integration into its productivity apps; it’s not the greatest look for Google to have their “coming soon” announcements controlled by Microsoft’s PR schedule. Not that it mattered in this case: OpenAI dominated the news cycle today, both because GPT-4 is impressive, and also because it, you know, actually launched.
+
+Google also launched an API for its PaLM large language model ( https://www.theverge.com/2023/3/14/23639313/google-ai-language-model-palm-api-challenge-openai ) on Google Cloud; this is another area that makes sense for Google to push AI, as it provides a reason to use Google’s Cloud. The ideal outcome for the company is that (1) it’s large language models end up being better than OpenAI’s and (2) the ideal utilization of the large language models is as an API and in productivity apps, and not necessarily search. That may end up being the case, but Microsoft shows no signs of slowing down in its push to see if Search ought be a new interface as well.
+
+Local Language Models
+---------------------
+
+These two announcements are a big deal; I think, though, they pale in importance to another recent development. From Simon Willison ( https://simonwillison.net/2023/Mar/11/llama/ ) :
+
+The open release of the Stable Diffusion image generation model back in August 2022 was a key moment. I wrote how Stable Diffusion is a really big deal ( https://simonwillison.net/2022/Aug/29/stable-diffusion/ ) at the time. People could now generate images from text on their own hardware! More importantly, developers could mess around with the guts of what was going on. The resulting explosion in innovation is still going on today. Most recently, ControlNet ( https://github.com/lllyasviel/ControlNet/blob/main/README.md ) appears to have leapt Stable Diffusion ahead of Midjourney and DALL-E in terms of its capabilities…
+
+It feels to me like that Stable Diffusion moment back in August kick-started the entire new wave of interest in generative AI — which was then pushed into over-drive by the release of ChatGPT at the end of November. That Stable Diffusion moment is happening again right now, for large language models—the technology behind ChatGPT itself. This morning I ran a GPT-3 class language model ( https://til.simonwillison.net/llms/llama-7b-m2 ) on my own personal laptop for the first time!
+
+What happened is that Meta released its LLaMA family of large language models ( https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/ ) late last month to researchers, albeit with a restrictive license that forbids commercial use. Then, earlier this month, someone released the models on BitTorrent. This immediately set off the same cycle of iteration and innovation that accompanied the Stable Diffusion release. First, in one direction was the focus on efficiency; back to Willison:
+
+LLaMA on its own isn’t much good if it’s still too hard to run it on a personal laptop. Enter Georgi Gerganov ( https://ggerganov.com/ ). Georgi is an open source developer based in Sofia, Bulgaria (according to his GitHub profile ( https://github.com/ggerganov ) ). He previously released whisper.cpp ( https://github.com/ggerganov/whisper.cpp ) , a port of OpenAI’s Whisper automatic speech recognition model to C++. That project made Whisper applicable to a huge range of new use cases. He’s just done the same thing with LLaMA.
+
+Georgi’s llama.cpp ( https://github.com/ggerganov/llama.cpp ) project had its initial release yesterday ( https://github.com/ggerganov/llama.cpp/commit/26c084662903ddaca19bef982831bfb0856e8257 ). From the README:
+
+The main goal is to run the model using 4-bit quantization on a MacBook.
+
+4-bit quantization is a technique for reducing the size of models so they can run on less powerful hardware. It also reduces the model sizes on disk—to 4GB for the 7B model and just under 8GB for the 13B one. It totally works! I used it to run the 7B LLaMA model on my laptop this night, and then this morning upgraded to the 13B model—the one that Facebook claim is competitive with GPT-3. Here are my detailed notes on how I did that ( https://til.simonwillison.net/llms/llama-7b-m2 ) —most of the information I needed was already there in the README. As my laptop started to spit out text at me I genuinely had a feeling that the world was about to change, again.
+
+Other developers built on this work to get LLaMA running on a Raspberry Pi ( https://twitter.com/miolini/status/1634982361757790209 ) and a Pixel phone ( https://twitter.com/thiteanish/status/1635188333705043969 ).
+
+Meanwhile, Stanford applied RLHF fine-tuning to the model to produce the sort of coherent answers generated by ChatGPT; Willison has another post about that effort ( https://simonwillison.net/2023/Mar/13/alpaca/ ) , which ended up being very inexpensive, in part because researchers used GPT-3 to develop the training set (this is against OpenAI’s terms of service, which is one of the reasons the research team did not release the model). The team claims ( https://crfm.stanford.edu/2023/03/13/alpaca.html ) that the accuracy of their model rivals the accuracy of OpenAI.
+
+Again, none of this can be used commercially, but that matters less than the fact that all of this is possible — particularly the first part about running locally. Running locally means two things: first, there are no top-down impositions on what can or cannot be generated, which are obviously front-and-center in terms of the releases from the big companies. Secondly, the effective cost of inference goes to zero. When inference is done on a cloud every single interaction has to be paid for; when inference is done locally the only cost is whatever increased power draw comes from your GPU spinning up, and basically everyone will interpret this as “free.”
+
+Of course local generation is behind whatever is cutting edge: Willison is describing a GPT-3 level model on his laptop, and I just wrote about about GPT-4. It seems reasonable to assume, though, that GPT-4 level performance will be available locally in a year or two, and so on down the line. At some point, though, cloud-based computing will overshoot, and local generation will be good enough — and frankly, the Stanford research shows that the exact same product that blew people’s minds just a few months ago will be running locally probably within the next few months.
+
+That certainly sets the stage for what is next: Stability AI CEO Emad Mostaque replied to Willison on Twitter:
+
+( https://twitter.com/EMostaque/status/1634653313089126403?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1634653313089126403%7Ctwgr%5E6d7710ae9690e732caff70ad10e3dbd2ad64bb2e%7Ctwcon%5Es1_&ref_url=http%3A%2F%2Fchrome-headless.local%3A9222%2Fatomic )
+
+That suggests Stability AI — which released Stable Diffusion — will be releasing a truly open source large language model soon. That’s when things will get very interesting.
+
+Actually, they are already very interesting: I haven’t even talked about Anthropic’s announcement of a chatbot API ( https://techcrunch.com/2023/03/14/anthropic-launches-claude-a-chatbot-to-rival-openais-chatgpt/ ) , and as I noted above, Microsoft has an announcement this week. Nvidia, meanwhile, has GTC next week. Buckle up.
+
+This Update will be available as a podcast later today. To receive it in your podcast player, visit Stratechery ( https://stratechery.passport.online/member ).
+
+The Stratechery Update is intended for a single recipient, but occasional forwarding is totally fine! If you would like to order multiple subscriptions for your team with a group discount (minimum 5), please contact me directly.
+
+Thanks for being a subscriber, and have a great day!
+
+Listen to this update and other Stratechery Plus content in your podcast player:
+Stratechery ( https://stratechery.passport.online/member/podcast?url=https%3A%2F%2Frss.stratechery.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp Tech ( https://sharptech.fm/member/podcast?url=https%3A%2F%2Fsharptech.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Dithering ( https://dithering.passport.online/member/podcast?url=https%3A%2F%2Frss.dithering.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | Sharp China ( https://sharpchina.fm/member/podcast?url=https%3A%2F%2Fsharpchina.fm%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD ) | GOAT ( https://goat.passport.online/member/podcast?url=https%3A%2F%2Fgoat.passport.online%2Ffeed%2Fpodcast%2F6EynvegSpNaDpnt4DJsHzD )
+
+Subscription Information
+
+Member: Omar Zoheri
+Email: stratecheryUSC@khamel.com
+Member since: December 8, 2022
+Auto-renewal is disabled
+Expiration date: December 8, 2023
+
+You are receiving this email because you are subscribed to Stratechery ( https://www.stratechery.com ).
+
+Click here ( https://stratechery.passport.online/member/login?email=stratecheryUSC%40khamel.com ) to view your account and manage your subscriptions.
+
+© 2023 Stratechery LLC ( https://www.stratechery.com ) , 2093 Philadelphia Pike #9930, Claymont DE 19703

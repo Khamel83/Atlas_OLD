@@ -1,0 +1,513 @@
+# Money Stuff: The Unicorns Are Zombies
+
+**From:** "Matt Levine" <noreply@news.bloomberg.com>
+**Date:** Tue, 18 Feb 2025 18:07:32 +0000
+**Source:** inputs/saved_emails/Money Stuff The Unicorns Are Zombies_Tue,_18_Feb_2025_18-07-32_+0000_1951a3ebbf7a080a.eml
+**Processed:** 2025-08-24T19:13:08.622923
+
+Money Stuff 
+ Somewhat surprisingly, the phrase “zombie unicorn” does not appear in the 
+Money Stuff archive. “Blood unicorn,” sure, in Greek even. “Vampir 
+
+
+ <> 
+ 
+<https://sli.bloomberg.com/click?s=825881&stpe=default&li=12650833&m=21d6dea82d6b16615cf44233be620525&p=02182025>
+
+
+
+Zombie unicorns
+
+Somewhat surprisingly, the phrase “zombie unicorn” does not appear in the 
+Money Stuff archive. “Blood unicorn,”sure <>, in Greek even <>. “Vampire 
+unicorn,”once <>. “Ghost unicorn” too <>. “Decacorn,” absolutely <>. 
+“Centicorn,”yes <>. “Double eagle unicorn,” for some reason <>. [1]  <> But 
+here’s the first “zombie unicorn,”from Bloomberg’s Katie Roof <>:
+
+A reckoning that has been looming for years is becoming painfully tangible. In 
+2021 more than 354 companies received billion-dollar valuations, thus achieving 
+unicorn status. Only six of them have since held IPOs, says Ilya Strebulaev, a 
+professor at Stanford Graduate School of Business. Four others have gone public 
+through SPACs, and another 10 have been acquired, several for less than $1 
+billion. …
+
+Welcome to the era of the zombie unicorn. There are a record 1,200 
+venture-backed unicorns that have yet to go public or get acquired, according 
+to CB Insights, a researcher that tracks the venture capital industry. Startups 
+that raised large sums of money are beginning to take desperate measures. 
+Startups in later stages are in a particularly difficult position, because they 
+generally need more money to operate—and the investors who’d write checks at 
+billion-dollar-plus valuations have gotten more selective. For some, accepting 
+unfavorable fundraising terms or selling at a steep discount are the only ways 
+to avoid collapsing completely, leaving behind nothing but a unicorpse.
+
+Also a first for “unicorpse.” 
+
+“Private markets are the new public markets,” I like to say around here, and 
+this does fit with that thesis. Here are some things that used to be 
+approximately true of US public companies:
+
+ * Sometimes they needed to raise money from investors, by selling stock, to 
+invest in building their businesses. 
+ * Sometimes their stocks went up; other times, though, they went down. 
+ * While obviously companies would rather sell stock at a high price than a 
+low price, they had a tendency to do the opposite: When things were good and 
+the money was rolling in, they had no need to raise money, so they didn’t sell 
+stock (and in fact would buy it back); when things were rough, they needed 
+money and had to sell stock at low prices. 
+Over time, though, US public markets shrank, and public companies now tend to 
+be bigger, more mature and more steadily profitable than they used to be. 
+Meanwhile private markets grew, and it became easier for companies to raise 
+large quantities of capital while remaining private. [2]  <>Now they mostly go 
+public, not to raise money, but to let their early investors and employees cash 
+out their stock, and even that isnegotiable <>. Companies used to go public to 
+raise capital, and then periodically returned to the market to raise more 
+capital, at fluctuating stock prices. Now companies raise capital privately, 
+and then go public mostly todo stock buybacks <>. 
+
+But even in private markets, the same basic business realities apply:
+
+ * Companies sometimes need to raise more money. 
+ * Sometimes their stocks are up, and other times they are down. Oh their 
+stocks don’t necessarilytrade in public markets with real-time prices but, you 
+know, sometimes the business looks more valuable and sometimes it looks less 
+valuable. Sometimes the quarterly results aren’t as good as the company 
+expected, or investors have lost enthusiasm for its sector, or interest rates 
+are up so valuations are down. 
+“The stock market went down so companies have stopped raising money” would be 
+an odd thing to think about public markets, and it’s an odd thing to think 
+about private markets. Though private companies and investors do think it. Roof:
+
+Many startups, though, were built to chase growth with little concern for 
+near-term profitability in their early years, assuming they could continue 
+fundraising at increasing valuations. In many cases, that formula no longer 
+works. Fewer than 30% of the unicorns from 2021 have raised financing in the 
+past three years, according to data provided by Carta Inc., a financial 
+technology company working with startups. Of those, almost half have done 
+so-called down rounds, where investors value their companies at lower levels 
+than they’d received in the past.
+
+Celebrity video greeting service Cameo, for example, once had a valuation of 
+$1 billion, but it raised money last year at a 90% discount, according to a 
+person familiar with the matter who asked not to be named when discussing 
+confidential information. Financial tech company Ramp has raised two sizable 
+rounds since early 2022 at valuations below the $8 billion it got three years 
+ago.
+
+In the best-case scenarios, startups can use capital from down rounds to 
+recover their footing. Contractor software business ServiceTitan Inc., for 
+example, raised money with unfavorable financial terms in 2022, only to exceed 
+that value when it went public in 2024. It now has a market cap of $9.4 
+billion, in line with its peak private valuation of $9.5 billion in 2021.
+
+But job cuts and down rounds can also kick off a vicious cycle. Startups are 
+generally selling investors on stories about momentum, which becomes harder to 
+do once they’ve decided to trade their ambition for fiscal discipline. For 
+employees, a major financial upside of a startup gig is the chance to earn 
+equity; once a company’s value starts dropping, workers with other options tend 
+to start leaving.
+
+“Private stocks only go up” can’t be true, but it is the foundation on which a 
+lot of private-market fundraising and recruiting is built, and when it breaks 
+down it causes trouble.
+
+ 
+<https://sli.bloomberg.com/click?s=868432&stpe=default&li=12650833&m=21d6dea82d6b16615cf44233be620525&p=02182025>
+
+ 
+<https://sli.bloomberg.com/click?s=868432&stpe=default&li=12650833&m=21d6dea82d6b16615cf44233be620525&p=02182025>
+
+Robot unicorns [3]  <> 
+
+You know where startup fundraising is still good? Artificial intelligence <>:
+
+OpenAI co-founder Ilya Sutskever is raising more than $1 billion for his 
+startup at a valuation of over $30 billion, according to a person familiar with 
+the matter — vaulting the nascent venture into the ranks of the world’s most 
+valuable private technology companies. …
+
+[Safe Superintelligence] focuses on developing safe AI systems. It isn’t 
+generating revenue yet and doesn’t intend to sell AI products in the near 
+future.
+
+“This company is special in that its first product will be the safe 
+superintelligence, and it will not do anything else up until then,” Sutskever 
+told Bloomberg in June. “It will be fully insulated from the outside pressures 
+of having to deal with a large and complicated product and having to be stuck 
+in a competitive rat race.”
+
+A very stylized version of Sutskever’s story is that he left OpenAI after 
+losing $86 billion. Oh, not really, but (1) Sutskeverplayed a key role <> in 
+brieflyfiring <> OpenAI Chief Executive Officer Sam Altman, (2) OpenAI’s 
+valuation, immediately before Altman was fired, was apparently $86 billion and 
+(3) OpenAI’s valuation, during the brief period during which Altman was fired 
+(he was quickly unfired), wasarguably zero dollars <>. So you could make the 
+case that Sutskever destroyed $86 billion of corporate value, at which point he 
+had to leave.
+
+You know what I think about that! I have often <> argued <> that <> it is good 
+for your career to lose a billion dollars: You’ll lose yourjob, sure, but 
+you’ll have an easy time getting your next job, because people will think 
+things like “you must be good if someone trusted you with $1 billion” and “you 
+must take big swings if you lost $1 billion” and “you must have learned 
+something from losing $1 billion.” I think of this mainly in terms oftraders at 
+financial firms, but it also seems to be true of tech founders; people still 
+love giving Adam Neumann money.
+
+And it is possibly most true in AI? OpenAI is constantly spinning out lavishly 
+funded startups whose main promise to investors is “we will be less commercial 
+than OpenAI.” OpenAI’s valuationnow is something like $260 billion <>, and some 
+portion of that <> comes from Altman running around worrying about how his 
+company will bring about the end of human civilization or render money 
+obsolete. If you invest in OpenAI, you get the thrill of danger: Anyone can 
+lose your money, but Altman offers you a small exciting chance ofwiping out 
+money entirely. Sutskever’s pitch is obviously different — unlike Altman, he’s 
+explicitly promisingnot to make any money before he gets to superintelligence — 
+but if you like Altman’s pitch, this is in some ways the more extreme form.
+
+
+Speaking of OpenAI
+
+OpenAI is, right now, a nonprofit organization that controls a for-profit 
+subsidiary that has outside investors. The outside investors have been promised 
+various shares of the future profits of the subsidiary, but the nonprofit’s 
+board controls the business and has no fiduciary obligations to the investors. 
+OpenAI wouldlike to reorganize itself <> as a more normal company, so that it 
+can raise more money from outside investors. The outside investors, OpenAIhas 
+said <>, want “conventional equity and less structural bespokeness,” and 
+converting to a normal company would give them that. There seem to be two aims 
+here:
+
+ * OpenAI would like to stop selling weird capped interests in future profits, 
+and start selling normalstock. There is a bigger and deeper market for normal 
+stock than there is for weird capped profit interests, and OpenAI would like to 
+tap that. To do this, it wants to convert all of its existing ownership to 
+stock: Existing investors would convert their weird capped profit interests 
+into X% of OpenAI’s stock, for some X, and the remaining (100 - X)% of the 
+stock would be held by the OpenAI nonprofit. And then the company could sell 
+more stock, diluting the existing shareholders, including the nonprofit. 
+ * OpenAI arguably spooked investors a bit when its nonprofit board briefly 
+fired Altman. Or not; I mean, the valuation pretty quickly recovered. But 
+investors arguablyshould be a little spooked by the idea of investing tens of 
+billions of dollars in a company at a $300 billion valuation when the board of 
+directors (1) has no fiduciary duties to the investors and (2) could somewhat 
+whimsically crater the value of the company. “Our current structure does not 
+allow the Board to directly consider the interests of those who would finance 
+the mission,”says OpenAI <>, in a way that suggests that that’s bad. It is 
+trying to change that. 
+The simple fix is to make X less than 50: You give the nonprofit a stake in 
+the newly reorganized company that is less than 50%, and then the company is no 
+longer controlled by the nonprofit board. It is controlled by some normal 
+corporate board with fiduciary duties to investors. [4]  <> The nonprofit has 
+some economic ownership in the business, but not control.
+
+There are problems with this approach. One problem is that the nonprofit can’t 
+justgive up its control of the business; it has to receive fair compensation 
+for it. The compensation can be in the form of stock in the for-profit company, 
+and OpenAI and its investors and advisers all seem to think that the fair 
+compensation here is in fact less than 50% of the stock. (I have seen the 
+number 25% reported.) After all, OpenAI has already promised the bulk of its 
+medium-term profits to outside investors, so arguably the nonprofit’s residual 
+claim is worth less than 50%. Still there is an intuitive objection to this 
+calculation, summed up byElon Musk’s lawyer <>: “As we understand the OpenAI, 
+Inc. Board’s present intentions, they will give up majority ownership and 
+control over OpenAI’s entire for-profit business in exchange for some minority 
+share of a new, consolidated for-profit entity. Who on Earth would make that 
+trade?” Going from absolute control over OpenAI to a 25% stake seems wrong.
+
+The other problem with this approach also involves Elon Musk: He wants to buy 
+the company <>, or at least, he has lobbed in a bid to buy the company, or at 
+least, he has lobbed in a bid to buy the nonprofit’s stake in the company. 
+(It’s all a little murky.) If the nonprofit board (1) wants to advance its 
+mission of building safe artificial intelligence for the benefit of humanity 
+and (2) uh, worries about Elon Musk, it will want to maintain the power to say 
+no to Musk. It won’t want a for-profit corporate board saying “Musk is offering 
+more money than we’d get elsewhere, we’d better take the deal.” But with only a 
+25% ownership stake, the nonprofit won’t be able to stop a deal.
+
+And so the Financial Times reports <>:
+
+OpenAI is considering granting special voting rights to its non-profit board 
+in order to preserve the power of its directors, as the $157bn start-up fends 
+off an unsolicited takeover bid from Elon Musk.
+
+Chief executive Sam Altman and other board members are weighing a range of new 
+governance mechanisms after OpenAI converts into a more conventional for-profit 
+company, according to people with direct knowledge of the discussions.
+
+Giving the non-profit’s board outsized voting power would ensure it retained 
+control of the restructured company and was able to over-rule other investors 
+including existing backers such as Microsoft and SoftBank.
+
+While no firm decisions have been made, special voting rights would also 
+ensure OpenAI can fight off hostile bids from outsiders such as Musk. The 
+billionaire made a surprise $97.4bn cash bid for the assets held by the 
+non-profit, including its controlling stake in the start-up’s for-profit 
+subsidiary.
+
+Special voting rights could keep power in the hands of its non-profit arm in 
+future and so address the Tesla chief’s criticisms that Altman and OpenAI have 
+moved away from their original mission of creating powerful AI for the benefit 
+of humanity.
+
+I mean, right, obviously you could give the nonprofit a special share class 
+that carries, say, 25% of the economic ownership but 75% of the votes. That 
+solves many of the problems: It allows OpenAI to issue normal shares and have a 
+normal board with normal fiduciary duties to investors, but it leaves final 
+control in the hands of the nonprofit board whose duty is to humanity, and who 
+can say no to Musk.
+
+On the other hand, a nonprofit board having ultimate control over the business 
+is one of the problems that this conversion was meant tosolve? The investors, I 
+would have thought, were nervous about a nonprofit board having too much 
+ability to vaporize the value of their investment; giving the nonprofit a 
+minority stake would reassure investors. Giving it voting control is marginally 
+less reassuring. OpenAI wants to signal to investors that, when it takes their 
+money, it will try to make more money for them. But not if it means selling to 
+Elon Musk.
+
+
+More egg buyers than egg sellers
+
+If you are a farmer selling eggs to a grocery store, you probably have some 
+sort of long-term supply contract specifying the eggs you will supply and the 
+price you’ll get paid. But if you happen to have some extra uncontracted eggs, 
+you can sell them in the egg spot market. Similarly, if you are a grocery 
+store, you probably get your eggs from a farmer under a long-term contract, but 
+if you need some extra eggs you can go to the spot market. Or if you’re a 
+farmer who owes a lot of eggs under a long-term contract, but you don’t have 
+enough eggs to deliver (for instance because bird flu has wiped out some of 
+your flock), you can buy eggs in the spot market to fulfill your contract.
+
+These days the price of eggs is up and the spot market is pretty one-sided. 
+The Wall Street Journalreports on the Egg Clearinghouse <>:
+
+The Egg Clearinghouse, or ECI, is little known outside the industry: It 
+operates an online marketplace that allows participants to place bids on eggs 
+listed for sale and see the results of trades. Only ECI members—farmers and egg 
+buyers—are allowed to trade.
+
+Lately, there are a lot more buyers than sellers using the “Wall Street of 
+Eggs” with bird flu roiling the poultry market. And that is after last year 
+marked the company’s busiest, trading over 2.6 billion shell eggs and 39 
+million pounds of egg product valued at more than $600 million.
+
+ECI represents a sliver of the broader egg market—less than 5%—but plays a 
+crucial role in providing eggs for those in need or having trouble getting 
+them, and how they are priced. …
+
+Most of the roughly 110 billion eggs laid by U.S. hens are contracted to 
+commercial customers, ending up in places such as a Kroger supermarket, a 
+Waffle House or a hotel breakfast buffet. Terms of those contracts aren’t 
+public. ...
+
+[Alan] Munroe said when he became ECI president three years ago, the egg 
+market was relatively balanced. On any day, there were about 50 farmers 
+offering eggs and around 60 bids for them.
+
+One day in early February, Munroe said there were roughly 10 suppliers 
+offering eggs and 200 bids from buyers.
+
+“I think some people run off and think that everyone’s price gouging,” said 
+Munroe.
+
+I have to say. We have talked <> a few <> times <> about Venture Global LNG 
+Inc., a hilarious liquefied natural gas company that (1) raised a lot of money 
+to build its plant by entering into long-term fixed-price supply contracts with 
+customers, promising them its output once its plant was operational, (2) built 
+the plant, (3) started producing LNG, (4) noticed that LNG prices had spiked 
+because of among other things Russia’s invasion of Ukraine, (5) said “oh no the 
+plant is notquite finished yet, it’s not really operational, a few bugs to work 
+out,” (6) did not deliver LNG on those long-term contracts and (7) instead sold 
+the LNG that it produced on the spot market at much higher prices. The 
+customers complained and sued but, man, that’s a funny and lucrative trade. 
+(Apparently shipments willstart in April <>.) Anyway if you are a farmer who 
+promised eggs to Waffle House under a long-term contract and are now trying to 
+get out of that contract to sell the eggs on the lucrative spot market, do let 
+me know.
+
+
+Libra
+
+We talked last week <> about a memecoin issued by the Central African 
+Republic. I wrote:
+
+Yes look if you are a country you should definitely launch a memecoin? A 
+memecoin is, like, sovereign debt with no maturity, no interest and no 
+inflationary effect: You just sell it for money and then forget about it. 
+What’s not to like?
+
+But that can’t really be right, can it? A memecoin is an electronic token that 
+you sell to people for money and that carries no promises: It’s not redeemable 
+for anything, it has no cash flows, it’s not legal tender, it’s just a token 
+that people can buy if they want and not if they don’t. There is a tendency for 
+memecoins to be issued in a burst of excitement, trade up, and then crash. If 
+you’re the issuer or promoter of the memecoin, you can make a lot of money in 
+the initial burst of excitement — you gave yourself a lot of free memecoins and 
+then sold them — but that money comes pretty directly at the expense of the 
+buyers.
+
+A memecoin is thus a way to directly monetize celebrity or notoriety or just 
+attention, but there issome cost. You are spending your celebrity or notoriety 
+or attention. After you sell your memecoin and “rug” the early buyers (that is, 
+cash out and let the price crash), they will think less of you. You are 
+transforming attention into money, but in a way that probably leaves you with 
+less attention, or worse attention. So we have talked about “Hawk Tuah Girl <>
+,” who became famous on the internet, sold a memecoin to cash in, and thereby 
+becameless beloved by fans (and got sued <>). Even in crypto, the lunches are 
+not exactly free.
+
+And so, sure, a national memecoin is not exactly money (and so not 
+inflationary), and not exactlydebt (and so does not have to be paid back), but 
+you are taking on some sort of obligation when you issue one. I am not sure 
+what that obligation is, but certainlyyou can mess it up <>:
+
+Late Friday night, prolific social media user Javier Milei directed followers 
+to a site that purported to raise money for small businesses in Argentina using 
+crypto.
+
+Half a world away, digital currency entrepreneur Hayden Davis saw the value of 
+the Libra token, a so-called memecoin he helped launch, begin to surge. Its 
+market value flew past $1 billion, $2 billion, all the way over $4 billion.
+
+When it collapsed, as such tokens often do, Milei’s presidency in Argentina 
+was in crisis mode. Investors like Barstool Sports founder Dave Portnoy 
+suffered steep losses and dubbed the token “the biggest rug pull of all time” — 
+a reference to the crypto lexicon for a scam. Davis himself, in a later post on 
+social media, acknowledged holding some profits despite the declines.
+
+The events are now the subject of an internal government probe. Prominent 
+members of the crypto world are pointing fingers at each other as Milei tries 
+to recover from a political black eye.
+
+“The Libra saga is a travesty,” said Henry Elder at UTXO Management. “It’s a 
+stark illustration that the current crop of crypto leaders lack any moral 
+compass whatsoever.”
+
+Investors in Buenos Aires took stock of the situation by dumping shares in 
+some of the largest local companies. The benchmark S&P Merval Index saw it’s 
+biggest intraday drop in roughly three weeks, falling as much as 5.8%, before 
+trimming the decline.
+
+The market capitalization of the S&P Merval is about $63 billion, so a 5.8% 
+decline is about $3.6 billion, roughly comparable to the memecoin’s peak market 
+value. It’s not quite the case that “every dollar of Libra speculation takes a 
+dollar off the value of the Argentine stock market,” and there is nomechanism 
+by which that would happen, but it is also kind of true.
+
+
+Meet Kevin
+
+If you are a financial influencer, what is the best way to monetize that? Not, 
+like,best best, just like, what is the most efficient way to turn your 
+influence into money for you? I’m sorry but the answer is “memecoin.” [5]  <> 
+Maybe “pumping meme stocks,” but that’s tricky. “Special purpose acquisition 
+company” was the answer for a little while, butnow it isn’t <>.
+
+I expect that for some people, at some point, the answer will be 
+“exchange-traded fund”: Even now someone will do most of the administrative and 
+technical work of setting up an ETF for you, and the administrative costs will 
+come down over time, and “follow along with my stock picks on YouTube and also 
+own them in ETF form” is a natural way to monetize your YouTube fame, possibly 
+a more lucrative one than, like, selling ads.
+
+Not yet though <>:
+
+A popular YouTuber is closing down his actively-managed exchange-traded fund 
+after it underperformed the market and ran up against the costs of doing 
+business in the competitive ETF industry.
+
+Kevin Paffrath, a financial influencer who goes by the online moniker “Meet 
+Kevin,” said in a video on his channel that his fund, the Meet Kevin Pricing 
+Power ETF, would be closing at the end of this month some two years after its 
+inception and with just $32 million in assets.
+
+Paffrath, who has more than 2 million followers on YouTube alone, sells 
+courses on his website promising to teach people how to grow their wealth and 
+“master stocks.” But Paffrath struggled to pick stocks that would make his fund 
+grow. …
+
+Paffrath’s ETF charged a relatively high management fee of 0.76%, which is 
+above the industry average of 0.69% for all actively managed US ETFs. But in a 
+YouTube video announcing the closure, Paffrath estimated that he had lost $1 
+million running his fund.
+
+“All the bankers, the suits, the lawyers, they all get their hands in the 
+cookie jar, and basically you’re left feeding the kitty,” he said in the video. 
+“Almost every month, you’re paying them — the lawyers and whatever — their 
+fees.”
+
+If you didn’t read that story, and I told you “a guy on YouTube got people to 
+invest $32 million with him,” how much of that $32 million would you have 
+guessed that hekept? I feel like a reasonable over/under would be like … $8 
+million? A guy on YouTube? But the actual gross answer seems to be under 
+$500,000, [6]  <> and the net answer is negative $1 million.
+
+
+Things happen
+
+Hedge funds target quick profit from obscure corporate bond clause <>. 
+JPMorgan Set to Relive ‘Huge Mistake’ atJavice Fraud Trial <>. Musk Debuts 
+Grok-3 AI Chatbot <> to Rival OpenAI, DeepSeek. Broadcom, TSMC Weigh Possible 
+Intel Deals <> That Would Split Storied Chip Maker. Investors Haven’t Been This 
+Pessimistic <> About Stocks Since 2023. BofA Survey Shows Investors Haven’t 
+Been ThisRisk-On <> Since 2010. US companies falling behind on loans <> at 
+fastest pace in almost a decade.Shein <> Is Said to Face Investor Pressure to 
+Slash Valuation to $30 Billion. Venture Capital’s Latest Strategy: Private 
+Equity–StyleRoll-Ups <>. Deutsche Bank went on hiring spree <> while failing to 
+deliver on costs. Big Banks Are Scrubbing Their Public Mentions ofDEI Efforts <>
+. Slot Machine Maker Light & Wonder BuysCharitable Gaming Business <> for $850 
+Million. One of Britain’s Most Dominant Sportsmen Has Stiff Joints andWorks in 
+Finance <>. Inside the mind of a meme coin trader <>. 
+
+If you'd like to get Money Stuff in handy email form, right in your inbox, 
+pleasesubscribe at this link <>. Or you can subscribe to Money Stuff and other 
+great Bloomberg newslettershere <>. Thanks!
+
+[1] No “werewolf unicorn” or “mummy unicorn,” and now I want that to happen.
+
+[2] Here’s a 2020 Morgan Stanley note <> on the phenomenon by Michael 
+Mauboussin and Dan Callahan: “From the end of World War II through the early 
+1970s, many companies went public to raise capital to fund their growth. Today, 
+young companies often rely more on intangible assets and have a less voracious 
+appetite for capital. They also have unprecedented access to capital through 
+the private markets. Consequently, many young companies have elected to stay 
+private longer than did the companies of prior generations.”
+
+[3] Not a  first <>. 
+
+[4] OpenAI proposes <> “to transform our existing for-profit into a Delaware 
+Public Benefit Corporation (PBC) with ordinary shares of stock and the OpenAI 
+mission as its public benefit interest. The PBC is a structure⁠ used⁠ by⁠ many 
+others that requires the company to balance shareholder interests, stakeholder 
+interests, and a public benefit interest in its decisionmaking.” So the board 
+wouldn’t be answerable *purely* to shareholders.
+
+[5] “Email newsletter”?
+
+[6] That’s just $32 million times 0.76% times roughly two years (“since its 
+November 2022 inception”), and I’m sure it's not accurate, but it seems like a 
+good upper bound.
+
+
+ <> 
+
+Follow Us  <>  <>  <>  Get the newsletter  <> 
+
+
+Like getting this newsletter?  Subscribe to Bloomberg.com <> for unlimited 
+access to trusted, data-driven journalism and subscriber-only insights.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the 
+Terminal delivers information and analysis that financial professionals can’t 
+find anywhere else.Learn more <>.
+
+Want to sponsor this newsletter?  Get in touch here <>.
+
+ You received this message because you are subscribed to Bloomberg's Money 
+Stuff newsletter. 
+Unsubscribe <> | Bloomberg.com <> | Contact Us <> 
+
+ <>  |  <> 
+Bloomberg L.P. 731 Lexington, New York, NY, 10022  
+<https://links.message.bloomberg.com/s/eh/52zCRA6ecurqXu1xXV0pwK413dZ8E8sRufFNCWdt4HM6x334SQ91jdv5VQxGANsAoQg5TLTRIj4YBn7Oioz6oErWfK9VZQMb6aYKMLqcZ5BxRY0rFD1MQLlCrPjFUHaKjTz1SSpgyyAcr5TFk_GgANrnsNadU8397gr9RMQE6q5YiZv66oWlfuqnLdXvDguttAd6d1KNTBAWYkgQ72gkyJDBnIxruxMTU0zfSMkBsJ2Qb7SHUdvRz3EGWBK24p5YcYEmN7fwigsFaxJUaezGOpxgSxju9VZu3Eu8whTTgRhDnnPZX_D1_5AOErb-iumN5JolbZz7udYbI_VW3W1LJQ/G2xD4cfHFYyPrgwDmADtGCfbqbA7vxx3/6>

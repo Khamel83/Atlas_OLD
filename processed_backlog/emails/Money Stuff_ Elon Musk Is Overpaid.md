@@ -1,0 +1,314 @@
+# Money Stuff: Elon Musk Is Overpaid
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Wed, 31 Jan 2024 12:27:49 -0500 (EST)
+**Source:** inputs/saved_emails/Money Stuff Elon Musk Is Overpaid_Wed,_31_Jan_2024_12-27-49_-0500_(EST)_18d609022a162780.eml
+**Processed:** 2025-08-24T19:13:05.108907
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        I do see Elon Musk’s point. He runs, what, six companies? SpaceX, Neuralink, Twitter/X, the tunnel one, xAI, probably some I’m forgetting. A
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      Tornetta
+    
+  
+
+I do see Elon Musk’s point. He runs, what, six companies? SpaceX, Neuralink, Twitter/X, the tunnel one, xAI, probably some I’m forgetting. And Tesla Inc., the only one of them that is public, though for a while he also had SolarCity Corp. before (controversially)   merging it into Tesla. Each of these companies does something different— rocket science, brain surgery, posting on the internet, tunnels, artificial intelligence, cars — but there is overlap. They seem to  share employees and a certain ambitious science fiction ethos, and you could imagine futuristic projects that could be done at any of them.
+At all but one of his companies, he could stroll into the boardroom, throw a big bag of ketamine down onto the table, and say “I need the company to spend $50 million to build a giant golden statue of me riding a rocket,”
+  [1]
+ and
+	the board would be like “yes definitely let’s do it,”	the board members themselves probably are, or represent, big shareholders of the company, and as shareholders they would happily go along with the statue plan to keep Musk happy and dedicated to their company,	the other shareholders, the ones without board seats, are probably even bigger   Musk fans, and are probably working on their own Musk statues in their garages anyway, so they’ll be fine with the company spending their money on a corporate gold statue, and	nobody else really has any standing to complain.
+
+And so in fact when Musk went to SpaceX and   asked to borrow $1 billion until payday so that he could buy Twitter Inc., the board was like “here’s the check, we’ve left the amount blank, take whatever you need.” And, look, was there a  Wall Street Journal article saying “hey that’s weird”? There was; it was weird. Did anything come of that? No. SpaceX could just do that: Musk controls SpaceX, the board loves him, the shareholders love him, nobody in a position to complain has any complaints, and everybody else is in no position to complain.
+This is all at least arguably rational. The analysis is something like:
+	Elon Musk is an unusual cat, in some ways that make him really good at building valuable and innovative companies, and in some ways that make him difficult and destructive, and also in some random ways that are just weird. You can’t get just Good Elon; you take the good with the bad with the random. 	He spends all of his time at work, apparently, at his various companies. But he probably does neglect some of the companies, at times, for the other ones. There are only 168 hours in the week and he’s doing a lot of full-time jobs. And there are projects that you could imagine him doing at any of his companies. At least  Tesla, xAI and  Twitter/X seem to be working on artificial intelligence models, for instance.	His efforts appear to be extremely valuable to those companies, creating surely hundreds of billions of dollars of  value for their shareholders.
+  [2]
+
+	If he wants some weird thing — a hypothetical gold statue, a  flamethrower,   a glass mansion, a  pointless fight with a cave diver, Twitter — he will naturally ask one of his companies to help him get it. If you work 168 hours a week running six companies, the distinction between your jobs and your personal life will blur, and if you want something your first instinct might be to ask an employee to get it for you.	If he asks a company for something and it says no, he might sulk, or turn his attention to his other companies, and stop working so hard on that company’s business. 	If you are a director or shareholder of a Musk company, Musk’s love and attention is really valuable to you, worth possibly tens or hundreds of billions of dollars, and so you want to give him whatever he wants to retain his affection.
+
+This is a very unhealthy dynamic, in a lot of ways — he can keep escalating his demands for more stuff! — but it does seem rational. And even if you knew in advance that he would have this sort of holdup power, and that he’d use it, you might still sign up for the unhealthy dynamic, because he really has made a lot of shareholders a lot of money, and they really would be happy to give him the gold statue and whatever other dumb things he might want in exchange for even a fraction of his entrepreneurial attention.
+And then there’s Tesla. Tesla in many ways is very similar to the other Musk companies. He is the quasi-founder, the visionary, the biggest shareholder, the chief executive officer. The board loves him and will do anything he asks. The shareholders mostly love him and are big Elon Musk fans. He has created gazillions of dollars of value for shareholders and, somewhat reasonably, expects them to be grateful. 
+But there are two big differences. One is that Tesla is much bigger than the other Musk companies, so if he has a really big ask — if he wants, not a $50 million bauble, but a $50 billion bauble — he has to go to Tesla, because it’s the only one of his companies that can afford to give it to him.
+And the other is that Tesla is a public company, which means that, even if 99% of shareholders love him, if 1% of shareholders don’t, they can sue.
+  [3]
+ They can say: “Look, the board has a fiduciary duty to manage the company on behalf of all shareholders. Giving Musk a giant golden statue of himself is not necessary, or a good business decision, or fair to the shareholders; it’s just the controlling shareholder fulfilling his own whims with corporate money, and an ineffective board of directors giving him whatever he wants. He should have to give it back.” And they will go to court, and the shareholders will make those arguments, and the board will say — accurately! — “no you see giving him this giant golden statue is necessary for us to get more of his incredibly valuable time and attention,” and that will sound bad in court. And then a judge will get to decide whether the deal was fair to shareholders or not, and if it was not, the judge can make Musk pay the company back. Even if the board, and 99% of the shareholders, want him to keep it! 
+There is some outside arbiter of what Musk is allowed to do at his public company, some standard of good behavior that can be enforced in court and that does not depend purely on the wishes of his investors. Whereas at all his other companies it’s pretty much between him and his buddies, and they are indulgent.
+  [4]
+
+So Bloomberg’s Jef Feeley reports:
+
+Elon Musk’s $55 billion pay package at Tesla Inc. was struck down by a Delaware judge after a shareholder challenged it as excessive, a ruling that would take a giant bite out of Musk’s wealth and put the fate of his companies in question.
+That is if the ruling survives a likely appeal.
+The decision Tuesday, which amounts to his first major loss in court, means that more than five years after the electric-car maker’s co-founder was granted the largest executive compensation plan in history, Tesla’s board will have to start over and come up with a new proposal. 
+
+In 2018, Tesla’s board of directors granted Musk a pile of stock options to acquire a total of about 12% of the company’s stock, contingent on hitting certain operational and stock-price targets over the next 10 years.
+  [5]
+ In the most optimistic case, if Tesla’s equity market capitalization grew about 1,000%
+  [6]
+ — from $59 billion at the time of the grant in 2018 to $650 billion by 2028 — Musk would get all of the options, which in that scenario would be worth about $55.8 billion. In fact, Tesla’s market cap hit $650 billion by the end of 2020; it peaked at over $1.2 trillion in late 2021. (It’s around $600 billion again today.) Musk got all his options, much faster than expected, and they ended up being worth more than $100 billion at their peak.
+  [7]
+
+A Tesla stockholder named Richard Tornetta sued; I guess he’s enough of a Musk fan to own Tesla stock, but enough of a Musk skeptic to challenge his compensation. And yesterday he won. Here is  the opinion, by Delaware Chancellor Kathaleen St. J. McCormick. The actual analysis is more complicated than my sketch above; there are four parts
+  [8]
+:
+	
+Generally speaking, a board’s decision about how much to pay its chief executive officer is almost completely unreviewable in court, “the quintessential business determination subject to great judicial deference.” In Delaware corporate law, the “business judgment rule” provides that a court generally will not second-guess a board’s decisions about how to run the business. But there is an exception for transactions between a company and its “controlling shareholder,” and that is a  somewhat vague concept. Musk, when he got this pay package, owned 21.9% of Tesla’s stock: not a majority, but a lot. And combining that with his role as founder-CEO, his importance to the company and his power over the board, the judge decided that he was the controlling shareholder.
+  [9]
+ For transactions with the controlling shareholder, the standard is not “business judgment” (a court won’t second-guess the board’s decision), but “entire fairness” (the court will second-guess the board’s decision).	Still, even a conflicted transaction with the controlling shareholder is not subject to entire fairness review, if the shareholders vote to ratify it. Here, Musk’s compensation package was put to a shareholder vote, and 81% of shares  voted in favor. (Or 73%, not counting Musk’s and his brother’s votes.) But! The plaintiffs here argued, and the judge agreed, that the shareholder vote was not “fully informed,” “because the proxy statement inaccurately described key directors as independent and misleadingly omitted details about the process.”
+  [10]
+ The economic terms of the options grant were fully disclosed; shareholders did knowingly approve exactly the options that Musk got. But they were apparently misinformed about the process by which he got them. So, despite the shareholder approval, the entire fairness standard applies, and the judge gets to second-guess the deal.	The entire fairness standard asks if there was a fair process, and a fair price. On process, I mean, ideally what you’d want is an independent board of directors (or a special committee made up of independent directors) that was empowered to negotiate against Musk, that took its job seriously, and that tried to get the best possible deal for shareholders. I think it goes without saying that you are not going to get that at Tesla! “Musk had extensive ties with the persons tasked with negotiating on Tesla’s behalf,” says the judge, and one’s “admiration for Musk moved him to tears during his deposition.”
+  [11]
+ And “given the collection of people tasked with negotiating on Tesla’s behalf, it is unsurprising that there was no meaningful negotiation over any of the terms of the plan.” One director “testified that he did not view the negotiation as an adversarial process.” Musk just asked for the pay package that he wanted — he explained that it was “just so that I can put as much as possible towards minimizing existential risk by putting the money towards Mars if I am successful in leading Tesla to be one of the world’s most valuable companies” — and the board gave it to him.	On price, well! Tesla’s board of directors decided that it would be worth paying Musk $55 billion if he took Tesla’s value from $59 billion to $650 billion. That’s a lot of money to pay Musk, but on the other hand it’s a lot of shareholder value too. The 2018 proxy disclosure emphasized this, with a little table comparing how much value Musk would get under the options versus how much value he’d create for shareholders; in the maximum case — all the options vest — he’d get $55.8 billion for creating $590.9 billion of shareholder value. Is that a good deal for shareholders? The board decided yes. But because of Musk’s control over the company and closeness with the board, the judge got to set aside that decision and make her own decision.
+
+And she decided it was a bad deal. Her reasoning, essentially, was that as the 21.9% owner of Tesla, Musk didn’t really need another $55 billion of incentives to do a good job
+  [12]
+:
+
+Why did Tesla have to “give” anything in these circumstances? Musk owned 21.9% of Tesla at the time of the Grant. If the goals were retention, engagement, and alignment, then Musk’s pre-existing equity stake provided a powerful incentive for Musk to stay and grow Tesla’s market capitalization. After all, he stood to benefit by over $10 billion for every $50 billion increase. His equity stake was also a powerful incentive to avoid allowing Tesla to fall in what Musk might consider to be incapable hands. Moreover, Musk was not going anywhere. He stated publicly at the outset of the process and repeated throughout this litigation that he was a lifer who intended to stay at Tesla for the remainder of his days (or until he becomes “too crazy”), with or without the Grant.
+The principal defect with Defendants’ give/get argument (indeed, their fair price argument as a whole) is that it does not address the $55.8 billion question: Given Musk’s pre-existing equity stake, was the Grant within the range of reasonable approaches to achieve the Board’s purported goals? Or, at a minimum, could the Board have accomplished its goals with less, and would Musk have taken it?
+Defendants’ primary response is to reduce the issue to a straw man, stating that “Plaintiff’s allegations boil down to the position that Musk should be happy to work for free.” They make a similar point elsewhere, stating that if Musk “fell short of achieving some or all of the [Grant’s] milestones, the stockholders retained the benefit of any increase in Tesla’s stock price, while Musk risked receiving nothing.” For free? Receive nothing? Defendants’ arguments ignore the obvious: Musk stood to gain considerably from achieving the Grant’s market capitalization milestones (over $10 billion for each $50 billion increase in market capitalization).
+
+Well, I don’t disagree with that. In fact I  wrote similar  things in 2018, when this pay package was announced. To me, as a guy on the internet, it seemed like Elon Musk would be sufficiently motivated by his 21.9% stake in Tesla — and his love for Tesla, and his long history with Tesla, and his concern with his reputation — to make Tesla more valuable, and you wouldn’t need to give him an extra $55 billion to do that. But the board, who knows Musk better than I do, decided that they needed to pay him some more to get his full, or full-ish, or relatively-full-for-an-easily-distracted-Elon-Musk,
+  [13]
+ commitment. In hindsight that seems to me to have worked out. But apparently they were wrong?
+So I see his point!
+
+
+    
+
+Of course, this is the reason to incorporate in Delaware
+  [14]
+: Someone is keeping an eye on managers and boards of directors to make sure that they’re running the company in the best interests of all of the shareholders, not just those of the idiosyncratic controlling founders. You can raise capital from investors more easily, because the investors trust that there are rules to protect them, that they are not subject to the whims of self-interested entrepreneurs.
+And yet there is something awkward about a judge second-guessing the CEO compensation decisions of the board of directors of a $600 billion company, even if, yes, it’s the board of Tesla. Musk wanted this pay package, Tesla’s board thought it was a good idea to give it to him, and a majority of Tesla’s shareholders voted to approve it. And then Musk did in fact create a trillion dollars of shareholder value, earning his big pay package and making the shareholders happy. Most of them. But one complained, and that’s enough for a judge to reverse the board’s decision.
+This is not a Delaware thing, really, though it is possible that business courts in Texas or wherever might be more sympathetic to CEOs generally, or to Musk specifically. (Bloomberg reports that “Musk also asked X devotees Tuesday to vote on whether he should shift Tesla’s incorporation papers to Texas,” sure.) It is   a public company thing: If you run a public company, not only do you have corporate-law fiduciary duties to your shareholders, but you also have genuinely outside shareholders, index funds and activists and gadflies and anyone else who wants to buy stock. If you run a private company, even one incorporated in Delaware (as, for instance,  SpaceX is), you can have a lot of control over who your shareholders are, and you can run the company the way they want, which is usually also the way you want. If you run a public company, you have no control over who gets to be a shareholder, or what they can complain about, or what a court will make of their complaints.
+You know what’s really awkward? A few weeks ago, even as this decision was pending, Musk was out publicly demanding another giant stock grant from Tesla’s board. The threat that was implicit in the 2018 pay deal — if the board didn’t shower Musk with options, he’d take his attention to SpaceX or elsewhere — is explicit today;  Musk posted that he’s “uncomfortable growing Tesla to be a leader in AI & robotics without having ~25% voting control,” and that “unless that is the case, I would prefer to build products outside of Tesla.”
+Again, Musk can do AI stuff at any of his companies, and he seems comfortable moving employees around between them.
+  [15]
+ There is some overlap among Musk’s companies; some part of the value of each of them comes from the fact that Elon Musk gets surprising profitable ideas sometimes, and he might implement them at that company. So the threat is real.   I wrote:
+He can keep doing this! What if you give him 25% of Tesla, he sells that stake for billions of dollars, he uses the billions of dollars to fund some new distracting hobby, and he comes back to you in a year saying “yeah, I don’t know, my heart isn’t really in Tesla anymore, maybe if you gave me another 25% it would motivate me.” The $55 billion pay package in 2018 — the one that the board is currently getting sued for — was supposed to motivate him to focus on Tesla, and it very clearly had the opposite effect! It gave him too much money, which he spent on distractions. And now he needs more money to turn back to Tesla from those distractions.
+Even now, Musk has good reasons for doing his next good idea at Tesla. It’s the biggest of his companies, so it has a lot of capacity to do things. It’s the largest portion of his fortune, so increasing its value does the most for his wealth. It’s the most liquid portion of his fortune — he can sell or borrow against Tesla shares much more easily than the rest of his companies — so increasing its value does the most for his practical buying power. It’s the company with which he is, still, probably, most associated in the public imagination, so doing stuff at Tesla probably does the most for his reputation.
+But he also has some good reasons for doing his next good idea at SpaceX or xAI or X or Neuralink or Boring Co. or a brand-new startup. One is that his ownership of Tesla has gone down (because he sold stock! to buy Twitter!), so he does capture less of the value he creates there. 
+But the bigger one is that at Tesla, unlike at his other companies, Musk really is subject to rules, to outside supervision. If he tweets nonsense about Tesla, the US Securities and Exchange Commission   can punish him. If he has his buddies on the Tesla board pay him another $50 billion, a Delaware court can make him give the money back. His power over Tesla is, as public-company CEOs go, pretty absolute: The board loves him, the shareholders love him, he doesn’t have to show up at work, they pay him $50 billion, it’s great. But his power over Tesla is not that absolute, compared to running a private company without the interference of courts or the SEC. And he runs five private companies! I bet he is a bit fonder of them today. 
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Things happen
+    
+  
+
+Pimco Squares Up for a Bareknuckle Fight in   Private Credit. Sotheby’s  Cleared of Claims It Duped Russian Billionaire.  23andMe’s Fall From $6 Billion to Nearly $0. What Investors Need to Know About the U.S. Government’s  Borrowing Plans. Allen Media Group Makes $14.3 Billion Offer for  Paramount Global.  Boeing Says It Can’t Set 2024 Financial Goals Amid 737 Max Woes. SpaceX’s Starship Wins Contract to Launch   Airbus Space Station.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] This is loosely inspired by the guys who built a six-ton “sculpture of a Mr. Musk-headed goat riding a rocket,” though they were just some crypto guys with no connection to his companies, and it wasn’t made of gold.
+
+
+  [2] I am going to get complaints about this sentence, of the form “actually Musk has bad ideas and makes his companies worse and less valuable,” and, I mean, sure, I think that’s true about Twitter? But I am an efficient-markets guy, and I am skeptical of arguments of the form “Tesla would be worth twice as much if it had had a different CEO for the last 10 years.” Maybe that’s true! It’s just not my first guess.
+
+
+  [3] Also it’s a big enough public company that it’s in a lot of stock indexes, which means in practice that  only about 80% of shareholders, tops, love him, and the rest are passive index funds who are not in the stock because they’re fans.
+
+
+  [4] I want to be clear that this is a practical description, not a legal one. His private companies are probably subject to the same sorts of corporate-law fiduciary obligations as Tesla (though I don’t know exactly where and how they are all incorporated). It’s just a question of “who would sue?”
+
+
+  [5] Tesla’s proxy statement in 2018 had a good  summary of the award. Page 18 lists the potential value, which in the best case was $55.8 billion.
+
+
+  [6] And if Tesla also hit the targets for revenue and adjusted earnings before interest, taxes, depreciation and amortization, which it did.
+
+
+  [7] That is, just on intrinsic value. The strike price of the options was $350.02 per share, or $23.33 adjusted for Tesla’s subsequent stock splits, they covered 20.3 million shares (304 million split-adjusted), and the stock peaked at $409.97 in 2021. So exercising an option at the peak would require paying $23.33 for $409.97 worth of stock, a $386.64 benefit, times 304 million shares. In fact Musk has never exercised any of these options (in part, perhaps, because of this lawsuit), so he  still owns all of them.
+
+
+  [8] The unattributed quotations here are from  the opinion.
+
+
+  [9] The chancellor’s analysis on this point is on pages 103 to 146 of the opinion, e.g.: “Musk wielded the maximum influence that a manager can wield over a company. His ties to three of the eight directors (Kimbal, Gracias, and Murdoch) rendered those directors beholden to him; with Musk, they comprised half of the Board (given Jurvetson’s departure). The rest of the fiduciaries acted beholden to Musk in the process leading to the Grant, allowing Musk to dictate the timing of the process and the terms of the Grant. Ultimately, the key witnesses said it all—they were there to cooperate with Musk, not negotiate against him. This unique suite of allegations makes it undeniable that, with respect to the Grant, Musk controlled Tesla.” And: “CEO superstardom is relevant to controller status because the belief in the CEO’s singular importance shifts the balance of power between management, the board, and the stockholders. When directors believe a CEO is uniquely critical to the corporation’s mission, even independent actors are likely to be unduly deferential. They believe that ‘letting the CEO go would be harmful to the company and that alienating the CEO might have a similar effect.’ They ‘doubt their own judgment and hesitate to question the decisions of their superstar CEO.’ They view CEO self-dealing as the trade-off for the CEO’s value.”
+
+
+  [10] The analysis on this is on pages 148 to 158 of the opinion, e.g.: “The Proxy failed to disclose any of the Compensation Committee members’ actual or potential conflicts with respect to Musk.In fact, the Proxy repeatedly described the members of the Compensation Committee as independent. … The description of the Compensation Committee members as ‘independent’ was decidedly untrue as to Gracias and proved untrue as to the remaining committee members. At a minimum, Musk’s relationships with Ehrenpreis and Gracias gave rise to potential conflicts that should have been disclosed. Ultimately, all of the directors acted under a controlled mindset, calling into question the disclosure as to each of them.” And: “The Proxy does not disclose the April 9 conversation between Musk and Ehrenpreis during which Musk established the key terms of the 2018 Grant.” And: “During post-trial argument, Defendants argued that the stockholder vote was fully informed because the most important details of the Grant—the economic terms—were disclosed. Implicitly, Defendants argue that stockholders only need to know the economics of a transaction to cast an informed vote. Defendants’ position finds no support in Delaware law.”
+
+
+  [11] This analysis is on pages 159 to 170 of the opinion.
+
+
+  [12] This analysis is on pages 171  to 192 of the opinion.
+
+
+  [13] The judge writes: “Defendants also argue that Musk needed additional incentives to stay on at Tesla or he would spend more time at SpaceX, where he could fulfill his galactic ambitions to establish interplanetary travel, colonize Mars, and potentially earn more money in the meantime. That argument begs another question: if encouraging Musk to prioritize Tesla over his other ventures was so important, why not place guardrails on how much time or energy Musk had to put into Tesla?” And in fact the grant did not require Musk to work full-time at Tesla, which is why he has spent the last five years doing rockets, brain surgery, tunnels, AI and Twitter.
+
+
+  [14] Well, this and “merger agreements are enforceable even when capricious buyers want out of them.” Twitter's former shareholders are glad that Twitter was incorporated in Delaware!
+
+
+  [15] From the chancellor’s opinion: “Musk ultimately acquired Twitter and named himself ‘chief twit,’ a role analogous to CEO. Musk also testified that he asked approximately 50 Tesla engineers to ‘volunteer’ to help him evaluate Twitter’s engineering team. No one on the [Tesla] Board called Musk to tell him not to do this. In the weeks prior to trial, Musk spent the ‘lion’s share’ of his time at Twitter.”
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckcrfl.5jdn/49278889.gif" alt="" border="0" /></a>

@@ -1,0 +1,127 @@
+# MacKenzie Scott is donating her billions much faster than her ex Jeff Bezos | Vox
+
+**Source:** inputs/New Docs/html/www.vox.com_future-perfect_21348052_mackenzie-bezos-scott-donating-billions-ex-jeff-bezos-amazon.html
+**Processed:** 2025-08-24T19:14:05.412358
+
+* [Future Perfect](/web/20241125154300/https://www.vox.com/future-perfect)
+
+# MacKenzie Scott is donating her billions much faster than her ex Jeff Bezos
+
+In the past year, she’s given away $1.7 billion.
+
+by  [Kelsey Piper](/web/20241125154300/https://www.vox.com/authors/kelsey-piper)
+
+Aug 1, 2020, 12:00 PM UTC
+
+* Facebook
+* Link
+
+![MacKenzie Scott (then Bezos) at an awards ceremony in 2018.](https://web.archive.org/web/20241125154300im_/https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/20908964/978342030.jpg.jpg?quality=90&strip=all&crop=47.003315480745%2C11.192605843769%2C52.996684519255%2C49.564698867024&w=2400)
+
+![MacKenzie Scott (then Bezos) at an awards ceremony in 2018.](https://web.archive.org/web/20241125154300im_/https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/20908964/978342030.jpg.jpg?quality=90&strip=all&crop=47.003315480745%2C11.192605843769%2C52.996684519255%2C49.564698867024&w=2400)
+
+MacKenzie Scott (then Bezos) at an awards ceremony in 2018.
+
+ Jörg Carstensen/picture alliance via Getty Images
+
+![Kelsey Piper](https://web.archive.org/web/20241125154300im_/https://platform.vox.com/wp-content/uploads/sites/2/chorus/author_profile_images/191475/Screen_Shot_2018-09-25_at_11.18.29_AM.0.png?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=96)
+
+[Kelsey Piper](/web/20241125154300/https://www.vox.com/authors/kelsey-piper) is a senior writer at Future Perfect, Vox’s effective altruism-inspired section on the world’s biggest challenges. She explores wide-ranging topics like climate change, artificial intelligence, vaccine development, and factory farms, and also writes the Future Perfect newsletter.
+
+A year ago, Jeff and MacKenzie Bezos set records with the [world’s biggest divorce settlement](/web/20241125154300/https://www.vox.com/the-goods/2019/4/5/18296734/jeff-bezos-divorce-mackenzie-settlement-amazon). On July 28, MacKenzie Bezos (now MacKenzie Scott) announced that she’s spent the time since aiming to set a much more inspiring record — for how fast she can give the money away.
+
+When the couple [divorced in 2019](/web/20241125154300/https://www.vox.com/identities/2019/1/10/18176048/jeff-bezos-ami-extortion-medium-photos-divorce), they were splitting the largest personal fortune in history, estimated at the time at about $145 billion. The couple announced a settlement in April 2019 that left Jeff Bezos 75 percent of his Amazon fortune, while Scott departed the marriage with [$35 billion](https://web.archive.org/web/20241125154300/https://www.recode.net/2019/4/4/18295576/mackenzie-bezos-jeff-bezos-divorce-wealth-billionaire-women), making her at the time of the announcement the [third-richest woman in the world](/web/20241125154300/https://www.vox.com/the-goods/2019/4/5/18296734/jeff-bezos-divorce-mackenzie-settlement-amazon) (a recent [Forbes](https://web.archive.org/web/20241125154300/https://www.forbes.com/sites/kristinstoller/2020/04/07/the-top-10-richest-women-in-the-world-2020/#5f9246f94776) ranking now has her at fourth).
+
+Right away, Scott indicated that her approach to philanthropy would be profoundly different from the approach she and Bezos had used as a couple. Jeff Bezos’s forays into philanthropy have been limited. While the wealthiest man in the world, he has not signed the [Giving Pledge](/web/20241125154300/https://www.vox.com/future-perfect/2019/7/10/18693578/gates-buffett-giving-pledge-billionaire-philanthropy) to eventually donate a significant share of his wealth, and he’s donated a far smaller percentage of it than other ultra-wealthy figures like Bill Gates, Mark Zuckerberg, Warren Buffett, or Mike Bloomberg. When he has given, I’ve criticized his approach for a [lack of rigor and clarity](/web/20241125154300/https://www.vox.com/2018/9/21/17880000/jeff-bezos-amazon-philanthropy-gift-2-billion).
+
+One month after the divorce, Scott [signed the Giving Pledge](/web/20241125154300/https://www.vox.com/recode/2019/5/28/18641623/mackenzie-bezos-giving-pledge-philanthropy-jeff-bezos-divorce) that Bezos never did. “I have a disproportionate amount of money to share,” she [wrote in her pledge letter](https://web.archive.org/web/20241125154300/https://givingpledge.org/Pledger.aspx?id=393). “I won’t wait. And I will keep at it until the safe is empty.” And it seems like she’s been acting on that declaration.
+
+## MacKenzie Scott’s deeply unusual approach to philanthropy
+
+A year later, she has published an update, and it’s an astonishing one. In the past year, she has donated $1.7 billion to 116 organizations working in areas of interest to her, from racial justice and LGBTQ equality to climate change and global health.
+
+All the organizations listed are established nonprofits, selected, Scott says, for their leadership’s “track record of effective management and significant impact in their fields.” The largest area of grants — $586.7 million — went to organizations working on racial equity, an issue where awareness has grown quickly over the past few months amid protests sparked by George Floyd’s killing by Minneapolis police. Other top priorities included economic mobility ($399.5 million), gender equity, public health, and global development (more on these below).
+
+The total amount — $1.7 billion — is obviously just a fraction of her fortune, but it is deeply unusual for billionaires to give away that much money this quickly, especially without a preexisting organization to do grant research and vetting.
+
+Her methods, too, are unusual. “It was a gift that just fell from the sky,” Jorge Valencia, executive director and CEO of one of those 116 organizations, the Point Foundation, [told the Chronicle of Philanthropy](https://web.archive.org/web/20241125154300/https://www.philanthropy.com/article/MacKenzie-Scott-Showers-17/249233). The organization, which offers scholarships to LGBTQ+ students, did not apply for a grant and had no connection to Scott.
+
+And while it’s common for philanthropists to give grants that are restricted for a specific purpose, paid out over the course of several years or conditional on various benchmarks for grant success, Scott says she did none of that. “I gave each a contribution and encouraged them to spend it on whatever they believe best serves their efforts. Unless organization leadership requested otherwise, all commitments were paid up front and left unrestricted to provide them with maximum flexibility,” she wrote in her announcement.
+
+“It’s an interesting contrast to the more technocratic giving of the tech billionaires,” Rob Reich, a Stanford philosopher who writes about the role of philanthropy in society, told me.
+
+Another interesting contrast is the way Scott approached publicizing her giving. The announcement two years ago that Jeff Bezos planned to give $2 billion to education and homelessness charities attracted, Reich says, “fanfare with zero follow-up.” Almost two years later, the website for Bezos’s Day One Fund [lists just under $200 million in grants](https://web.archive.org/web/20241125154300/https://www.bezosdayonefund.org/), about 10 percent of the amount initially pledged. Half of the initial pledge was for education, and no [progress in this area has been officially announced](https://web.archive.org/web/20241125154300/https://www.bezosdayonefund.org/day1academiesfund) yet (though Bezos has posted [updates on Instagram](https://web.archive.org/web/20241125154300/https://www.instagram.com/p/B1uD9NNnW1l/?hl=en)).
+
+In 2020, Bezos [announced on Instagram a planned $10 billion in grants to fight climate change](https://web.archive.org/web/20241125154300/https://www.nytimes.com/2020/02/17/technology/jeff-bezos-climate-change-earth-fund.html) through what he called the Bezos Earth Fund. The Bezos Earth Fund has no website. Bezos’s original Instagram post says that grants will start this summer, though they appear to have not yet started.
+
+All this is not unusual (and it doesn’t suggest that Bezos won’t eventually meet his commitments; he has paid out other grants he’s made, [including $100 million to Feeding America for coronavirus relief earlier this year](https://web.archive.org/web/20241125154300/https://www.philanthropy.com/article/Jeff-Bezos-Gives-100-Million/248416)). Typically, philanthropic announcements get widespread coverage even if they are substantially in advance of the actual disbursement of money. And in some cases, money is disbursed to [donor-advised funds](/web/20241125154300/https://www.vox.com/recode/2019/7/25/8891899/john-arnold-billionaire-criticism-donor-advised-funds-silicon-valley-philanthropic-loophole) or other instruments, which means they may take even longer to reach recipients. There is nothing wrong with taking your time to make grants if that means the grants [do more good](/web/20241125154300/https://www.vox.com/future-perfect/2018/12/11/18129580/gates-donations-charity-billionaire-philanthropy) — but it’s easy for delays to mean that givers enjoy all the positive publicity of a major grant long before anyone’s life is improved by it.
+
+Scott, by announcing her gifts only after she’d already disbursed all the money, avoids that pitfall — and could offer a glimpse of a new model of how to give, one that is focused on moving money quickly, not attaching any requirements or conditions, and shifting the power dynamics of the philanthropy world.
+
+## Does this model of giving work?
+
+Scott’s fast, massive disbursements and other recent experiments in quickly moving large sums of money to where they are needed, with much less review and fewer application steps than in traditional grantmaking, “weakens the case that giving away $1.7 billion is difficult,” Reich said. “There remains a question about whether it’s difficult to do well.”
+
+Giving away money very quickly with a minimal process does have some disadvantages.
+
+[Many charitable interventions don’t work](/web/20241125154300/https://www.vox.com/future-perfect/2018/12/11/18129580/gates-donations-charity-billionaire-philanthropy), and the differences between the best organizations and the average organizations can be quite large. It’s reasonable that many funders don’t want to take that chance.
+
+But there’s a good argument that at least some funders should be happy to make lots of grants, many of which may disappoint them anyway. Vetting often adds lots of overhead, delays, and communication problems for charities; a faster process that gets money where it’s needed sooner can make a big difference. In some specific fields (say, scientific research), studies have shown that all the effort-intensive work to find the “best” grants is fairly arbitrary; researchers [don’t agree with each other’s rankings at all](/web/20241125154300/https://www.vox.com/future-perfect/2020/4/21/21228156/coronavirus-fast-grants-tyler-cowen-patrick-collison). In a case like that, you might as well just get money out the door, with minimal vetting — as Scott has done.
+
+And in some areas, like coronavirus relief, getting money to people quickly is really important. If it takes months to make a grant and more months for the money to arrive, it may be too late to help. Scott donated to GiveDirectly, a nonprofit that gives people cash, no strings attached, and which has dramatically expanded its operations this year in order to [help people around the world deal with the coronavirus crisis](/web/20241125154300/https://www.vox.com/future-perfect/2020/3/20/21186007/coronavirus-pandemic-donate-help-cash-benefits).
+
+Scott’s team reached out to GiveDirectly after having already done their research, GiveDirectly’s managing director Joe Huston told me. Very little staff time was tied up in making the donation happen. (The nonprofit tracks how many resources are expended per dollar raised and said that Scott’s gift was one of the lowest-scoring, on that metric, they could remember.) The money arrived in early June, and 95 percent of it was sent out to recipients within 10 days.
+
+“The pandemic is giving donors experience in handing over the reins in philanthropy,” Huston told me, so that help can reach people as fast as it’s needed. “My hope is that when people are just looking to help, they’ll start with that in general.”
+
+There are other pitfalls to trying to give away money quickly, though Scott avoided many of the biggest ones. Lots of donors making large gifts gravitate toward targets like Stanford, Harvard, or MIT — big research universities with well-staffed donor relations departments that can absorb enormous gifts. (“For the love of God, rich people, [stop giving Ivy League colleges money](/web/20241125154300/https://www.vox.com/2015/5/12/8590639/stephen-schwarzman-yale-donation),” my colleague Dylan Matthews wrote after one such mega-gift, and I agree.) Scott donated to several historically Black colleges and universities; in each case, her donation of $20 million to $40 million was the largest single donation in the school’s history.
+
+The money will help ”lift the financial burden off of deserving students and help make ends meet so they can focus on graduating on time,” Howard University [said in a statement](https://web.archive.org/web/20241125154300/https://newsroom.howard.edu/newsroom/article/12951/howard-university-receives-transformative-gift-philanthropist-mackenzie-scott). “This pure act of benevolence is clearly a game-changer and it could not have come at a better time,” Hampton president William R. Harvey [told the HBCU Digest](https://web.archive.org/web/20241125154300/https://hbcudigest.substack.com/p/billionaire-philanthropist-mackenzie?r=nilr).
+
+In general, picking organizations run by people affected firsthand by the injustices Scott targeted was a priority. “On this list, 91 percent of the racial-equity organizations are run by leaders of color, 100 percent of the LGBTQ+ equity organizations are run by LGBTQ+ leaders, and 83 percent of the gender-equity organizations are run by women, bringing lived experience to solutions for imbalanced social systems,” she wrote in her note announcing the gifts.
+
+That fact might provide a useful lens for evaluating her donations. MacKenzie Scott does not know how to solve racial justice, women’s rights, or LGBTQ+ equality. She just happens to, unlike most of us, be in possession of $35 billion, and so she decided that if she gave much of that money to Black activists and LGBTQ+ activists and women’s activists, probably they would be better suited than she is to figure out how the money could be spent to solve those problems.
+
+The same theme recurs in Scott’s letter and in nonprofits’ descriptions of her process. There wasn’t very much vetting because Scott does not particularly expect that she’s better at vetting than these organizations are. There weren’t restrictions on the grants because Scott does not particularly believe she’s more suited than the recipients to guess what restrictions would be useful. She is “trusting the leaders of the organizations chosen,” Reich told me, “with a very deliberate eye toward leaders with the lived experience of the work they’re doing.”
+
+There’s something deeply inspiring about that. I am in favor of philanthropists putting in the work to identify the most effective approaches to social problems and direct their money with precision where it will do the most good, when they have the resources to do that. I think that work is often well worth the effort.
+
+“There’s room for the bigger foundations, the Bill and Melinda Gates Foundation, that kind of heavyweight model,” Huston told me when I asked whether more philanthropists should be imitating Scott. “But I’m glad there’s more examples, like [MacKenzie] Bezos, like Twitter’s [Jack Dorsey](/web/20241125154300/https://www.vox.com/recode/2020/6/11/21287395/jack-dorsey-start-small-billionaire-philanthropy-coronavirus-twitter-square-kaepernick-rihanna),” where philanthropists make donation decisions quickly and trust the decision-making to others.
+
+If you have $35 billion, that fact does not in itself make you qualified to figure out how to fix the world — and if you think that other people are more qualified, you might decide the best plan is to just shovel the money out the door so they can run with it. That seems to be MacKenzie Scott’s approach to philanthropy so far — and a society [grappling with the role of billionaires in our world and in our giving](/web/20241125154300/https://www.vox.com/future-perfect/2018/12/17/18141181/foundation-charity-deduction-democracy-rob-reich) should be watching.
+
+[***Sign up for the Future Perfect newsletter***](/web/20241125154300/https://www.vox.com/future-perfect-newsletter) *and we’ll send you a roundup of ideas and solutions for tackling the world’s biggest challenges — and how to get better at doing good.*
+
+See More: 
+
+* [Future Perfect](/web/20241125154300/https://www.vox.com/future-perfect)
+* [Influence](/web/20241125154300/https://www.vox.com/influence)
+* [Jeff Bezos](/web/20241125154300/https://www.vox.com/jeff-bezos)
+* [Philanthropy](/web/20241125154300/https://www.vox.com/philanthropy)
+* [Technology](/web/20241125154300/https://www.vox.com/technology)
+
+## Most Popular
+
+1. [Why Elon Musk can never balance the budget, in one chart](/web/20241125154300/https://www.vox.com/policy/387382/musk-trump-balance-budget-doge)
+2. [The unexpected place that could become an immigration flashpoint under Trump](/web/20241125154300/https://www.vox.com/politics/387525/trump-canada-immigration-border)
+3. [Take a mental break with the newest Vox crossword](/web/20241125154300/https://www.vox.com/21523212/crossword-puzzles-free-daily-printable)
+4. [You deserve a better browser than Google Chrome](/web/20241125154300/https://www.vox.com/technology/387375/google-chrome-antitrust-privacy-android)
+5. [Why there's so much gossip and speculation about the Wicked press tour](/web/20241125154300/https://www.vox.com/culture/387545/ariana-grande-cynthia-erivo-wicked-dont-worry-darling-it-ends-with-us)
+
+## Future Perfect
+
+Explore the big, complicated problems the world faces and the most efficient ways to solve them. Sent twice a week.
+
+Email (required)
+
+Sign Up
+
+By submitting your email, you agree to our [Terms](https://web.archive.org/web/20241125154300/https://www.voxmedia.com/legal/terms-of-use) and [Privacy Notice](https://web.archive.org/web/20241125154300/https://www.voxmedia.com/legal/privacy-notice). This site is protected by reCAPTCHA and the Google [Privacy Policy](https://web.archive.org/web/20241125154300/https://policies.google.com/privacy) and [Terms of Service](https://web.archive.org/web/20241125154300/https://policies.google.com/terms) apply.
+
+[Advertiser Content From
+
+![Sponsor Logo](/web/20241125154300im_/https://www.vox.com/future-perfect/21348052/mackenzie-bezos-scott-donating-billions-ex-jeff-bezos-amazon)
+
+### This is the title for the native ad
+
+![Sponsor thumbnail](/web/20241125154300im_/https://www.vox.com/future-perfect/21348052/mackenzie-bezos-scott-donating-billions-ex-jeff-bezos-amazon)](/web/20241125154300/https://www.vox.com/)

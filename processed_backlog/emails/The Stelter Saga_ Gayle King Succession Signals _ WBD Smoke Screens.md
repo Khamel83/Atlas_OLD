@@ -1,0 +1,128 @@
+# The Stelter Saga, Gayle King Succession Signals & WBD Smoke Screens
+
+**From:** Dylan Byers <dylan@puck.news>
+**Date:** Thu, 05 Sep 2024 02:30:27 +0000
+**Source:** inputs/saved_emails/The Stelter Saga, Gayle King Succession Signals & WBD Smoke Screens_Thu,_05_Sep_2024_02-30-27_+0000_191c004e9b5612e4.eml
+**Processed:** 2025-08-24T19:13:10.040243
+
+Greetings from Los Angeles, and welcome back to In the Room. In tonight’s missive, news and notes on all the drama emanating out of Hudson Yards: the whiplash-inducing Stelter homecoming, the Tyrangiel murmurs—yes, that’s very real—and Mark Thompson’s path forward out of this post-linear, pre-digital purgatory.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+In The Room ( https://puck.news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Greetings from Los Angeles, and welcome back to In the Room. My dance card is damn near full for my trip to New York next week, so please reach out if you want to grab coffee or, preferably, a drink. Meanwhile, I’m looking forward to seeing quite a few of you at the U.S. Open men’s final on Sunday, which is guaranteed to feature an American for the first time in 18 years. I’m eager to hear whether you’re rooting for Fritz or Tiafoe, and why. You can reply directly to this email. 🎾
+
+In tonight’s missive, news and notes on all the drama emanating out of Hudson Yards: the whiplash-inducing Stelter homecoming, the Tyrangiel murmurs—yes, that’s very real—and Mark Thompson’s path forward out of this post-linear, pre-digital purgatory.
+
+But
+first…
+
+🇺🇸 Mics off, game on: The Harris and Trump campaigns have finally agreed to ABC News’s terms for next week’s presidential debate, on September 10. The candidates’ microphones will be muted when it is not their turn to speak, despite the preference of the Harris camp. On that note, my colleagues John Heilemann and Peter Hamby and I will once again be offering postgame analysis on John’s Impolitic pod that night, where no mics will be muted. Join us ( https://puck.news/podcasts/impolitic/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) after the debate.
+
+🤔 The Gunnar fallacy: Warner Bros. Discovery C.F.O. Gunnar Wiedenfels told investors on Wednesday that he didn’t anticipate any “dramatic change” in the subscriber fees WBD could command
+from distributors despite losing the NBA—the rights package that has truly differentiated TNT from the alphabet soup of the cable bundle for years. This strains credulity. As one well-informed media executive told me ( https://puck.news/david-zaslav-squeeze-cbs-news-new-hydra/?_cio_id=f6c60600f413f513&utm_campaign=In+The+Room+-+SUBSCRIBERS+%288%2F7%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%287%2F19%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60600f413f513&utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a month ago,
+Brian Roberts and other Comcast executives are “licking their lips” to “put the screws” to WBD during the next round of price negotiations.
+
+Indeed, this was always part of Roberts’ calculation: By outbidding WBD at a price that David Zaslav couldn’t countenance, he would not only win coveted sports rights for NBC, but also deprive his competitor of an asset that allowed it to command hefty sub fees. That’s the “entire play,” another veteran media executive told me at the time. On the investor call, Gunnar argued that WBD had added enough other sports rights in the portfolio (MLB, the French Open, NASCAR, the Savannah Bananas…) to fill the gap, but that’s undoubtedly wishful thinking.
+
+🔍 Gibbs on the hunt: Speaking of WBD, I’m told Zaslav’s comms chief Robert Gibbs is still on the hunt for an executive vice president of communications, who would report up to him. Send your
+recs!
+
+📺 A Gayle heir apparent: CBS News has announced it will add a third hour to its flagship CBS Mornings show, which will run from 9 a.m. and be co-anchored by Tony Dokoupil and Adriana Diaz. As one CBS News insider told me, “The staring-you-in-the-face headline from that news is it signals Adriana is the Gayle heir apparent whenever she’s ready to go.”
+
+Brian’s Song ( https://puck.news/the-backstory-on-brian-stelters-cnn-homecoming/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Brian’s Song ( https://puck.news/the-backstory-on-brian-stelters-cnn-homecoming/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The backstory on Brian Stelter’s return, and the real drama inside CNN: the potential arrival of former wunderkind Josh Tyrangiel.
+
+DYLAN BYERS ( https://puck.news/author/dylan-byers/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+DYLAN BYERS ( https://puck.news/author/dylan-byers/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On Tuesday, shortly after I broke the news ( https://x.com/DylanByers/status/1831089704684679343?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet&utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that former CNN anchor and media correspondent Brian Stelter would be returning to the cable news network, Stelter himself confirmed that he would become its chief media analyst, formally assuming a job he had more or less been doing for free, albeit not exclusively, since April. Stelter will not reprise his previous role as anchor of a Sunday media show, but he will return to the helm of the Reliable Sources newsletter that he launched
+in 2015 and made into an essential nightly digest for media insiders—and, coincidentally, posing a considerable challenge to his erstwhile understudy, Oliver Darcy, who recently busted out of CNN to start a Reliable clone and competitor. Befitting the new economics of both media and television, Stelter will make a fraction of his previous salary.
+
+Unsurprisingly, Stelter’s homecoming raised a lot of questions among the media insiders to whom he caters. Originally a mild-mannered TV news industry obsessive, Stelter had morphed during the late Zucker era into a chest-thumping proponent of press freedoms and a self-righteous critic of Trump and Fox News. (He’s written a pair of books on the topic.) This, along with his sui generis phenotype, made him a reliable punching bag for Tucker Carlson and Greg Gutfeld types, a poster child for CNN’s perceived liberal bias in the Trump era, and therefore a very
+obvious target in Warner Bros. Discovery’s effort to exorcize polarizing voices after it assumed control of the asset. Indeed, CNN’s own internal audience research revealed that Stelter was one of the network’s most polarizing on-air personalities.
+
+In August 2022, then-C.E.O. Chris Licht told his boss David Zaslav that he was going to fire Stelter. Sources present at the time disagree about whether Zaz had delicately encouraged Licht to reach that decision, or whether Licht naively thought it was the best way to fulfill Zaz’s depolarization mandate. Zaz has professed to like Stelter personally since early in his career, when he took the then-22 year old to his first meal at the Four Seasons. In any event, Zaz did not intervene in Licht’s decision. But he did send warm missives to Stelter on his way out the door and continued to stay in touch with him while he was in the wilderness. On one Instagram post during Stelter’s
+hiatus, Zaz commented: “looking great buddy… miss u.”
+
+In those intervening years, while collecting his multiyear severance, Stelter remained steadfastly committed to media reporting for any outlet that would have him. By his own account, he contributed to more than 20 publications, while also hosting a podcast for Vanity Fair, writing his second book about Fox News, and taking harbor at Harvard’s Shorenstein Center. The sheer output and discipline was admirable, and evidenced just how much media reporting had become his form of oxygen. At the same time, Stelter’s ever-expanding collection of 1099-MISCs emphasized just how few permanent options there were for him outside of television. In some ways, his return to CNN is a metaphor for both the company and the business. After his own little independent media rumspringa, he returns to a smaller job at a shrinking business.
+
+Stelter 2.0
+
+The Stelter boomerang, in retrospect, had its antecedents in the spring. During the Trump hush-money trial in April, Stelter started to pop up frequently on CNN, much to the consternation of Darcy and the other CNN media reporters who naturally believed his absence would translate to more air time for themselves. But the network never showed any interest in bringing Stelter back full-time, despite the best efforts of his agent. Meanwhile, Darcy had long since taken over the Reliable Sources newsletter and admirably maintained its standing as a must-read digest for the industry. To his credit, albeit to the annoyance of CNN executives, Darcy was even more undeterred than his predecessor from reporting on, and occasionally criticizing, his bosses—including Zaz, Licht, and ultimately, current CNN chief Mark Thompson.
+
+Still, CNN never
+showed any interest in investing in Reliable or expanding Darcy’s purview, and last month he balked at a less-than-compelling contract renewal offer. Zaz made a half-hearted attempt to keep him on board—kind and assuring words were offered, but not more money—but Darcy decided to go it alone and start his own Substack-style media newsletter called Status. Darcy’s move appeared to be motivated, in part, by the assumption that Reliable Sources would not recover in his absence and he’d be able to quickly poach its audience. Within days of Darcy’s departure, however, CNN talent chief Amy Entelis reached out to Stelter to offer him the job, with the hire officially announced on Tuesday. In an Instagram comment, Zaslav wrote: “Welcome home Brian,” with a heart emoji.
+
+On one level, Stelter’s return is further evidence of just how senseless and absurd Warner Bros. Discovery’s stewardship of CNN has been, and how much time it wasted trying
+to reinvent the business in the post-Zucker era, only to repeatedly reverse course. Two and a half years since the merger, and all the declarations about depolarizing the network and restoring its credibility, and nuking CNN+, and building and then demolishing those new sets, CNN is still home to almost all the same anchors and all the same panelists—with the notable exception of Don Lemon (and, sure, Poppy Harlow)—and the leadership has pretty much given up on trying to dissuade the talent from speaking out. Meanwhile, Thompson is still hard at work developing its enigmatic new direct-to-consumer strategy. The main difference between CNN then and CNN now, of course, is that it’s lost a lot of viewers.
+
+Then again, Stelter’s return also feels like a continuation of an errant strategy, insofar as bringing him back into the fold doesn’t really address any of the real challenges facing the network. Indeed, Stelter’s Reliable
+Sources is not currently slated to be included in the rollout of new digital subscription products Thompson plans to unveil later this year. The product’s historic lack of commercial revenue has always suggested that it was either too small for CNN to care about, or that the business simply had too many other pressing concerns—most likely both, honestly.
+
+The Josh News
+
+In any event, a little later on Tuesday night, Darcy himself broke the news that may ultimately prove far more consequential to CNN’s future. For several weeks, Thompson has been in talks to hire Josh Tyrangiel, the former wunderkind magazine editor who rose up through the ranks of Time before leading the revival of Bloomberg Businessweek and eventually overseeing all of Bloomberg LP’s non-terminal creative output, including the memorable political show With All Due Respect, starring my partner John Heilemann. Tyrangiel then jumped over to Vice News as the head of its nightly news program on HBO. While the hire has not been finalized, I’m told Tyrangiel is likely to join the company later this year in a role overseeing all of CNN’s digital content, working alongside executive editor Virginia Moseley.
+
+Tyrangiel is widely viewed by contemporaries as a smart and creative leader, even a brilliant one, who could meaningfully improve the look and feel of CNN. But there’s already ample anxiety inside the network over how he would gel with the network’s existing leadership. During his ascent, Tyrangiel was often pegged as excelling at managing up (hey, that’s life), and presenting as an older guy’s idea of a young guy to a series of mentor-like figures—Time editor Jim Kelly, Time Inc. boss and eventual Bloomberg content chief Norm Pearlstine, HBO’s Richard Plepler, etcetera. (Thompson has talked often to his CNN charges about his love of the edgy and informal Vice News format, and may be similarly smitten.) Tyrangiel has also developed a reputation as a crafty operator who, in his early days at Time, earned the nickname Iago because of his penchant for whispering nasty shit about his peers into his boss’s ear. Also, the
+Bloomberg projects were costly and the Vice show never gained audience traction despite its various merits. After the show ended, Tyrangiel worked for Plepler’s production company and then became a bit of a minister without portfolio—a guy often mentioned when big jobs came available—doing some TV gigs and writing a column on A.I. for The Washington Post.
+
+Meanwhile, several sources who have worked with Tyrangiel described him as dismissive of cable news and its archaic formulas, and unafraid to say as much. Several industry veterans warned of a culture clash between Tyrangiel and Moseley, particularly if Tyrangiel makes a play for regime change.
+
+On the bright side, Tyrangiel knows how to hold his own inside a place like CNN, which is filled with political animals and rife with petty feuds. Also: Cable news does rely on archaic formulas that woefully need to be disrupted, possibly by a leader who isn’t afraid to break norms without
+going full-blown Licht. Maybe he’s what CNN needs, after all?
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Murdoch Succession Questions ( https://puck.news/the-murdoch-succession-trial-will-or-wont-be-televised/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Murdoch Succession Questions ( https://puck.news/the-murdoch-succession-trial-will-or-wont-be-televised/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Untangling the multidimensional legal battle in Reno.
+
+ERIQ GARDNER
+
+Carville & Matalin ( https://puck.news/james-carville-mary-matalin-on-kamalas-debate-essentials/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Carville & Matalin ( https://puck.news/james-carville-mary-matalin-on-kamalas-debate-essentials/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The political spouses dish about Harris’s two-month sprint.
+
+PETER HAMBY
+
+A Kristina Carol ( https://puck.news/can-kristina-oneill-make-sothebys-magazine-a-thing/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A Kristina Carol ( https://puck.news/can-kristina-oneill-make-sothebys-magazine-a-thing/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On Kristina O’Neill’s new gig running Sotheby’s Magazine.
+
+LAUREN SHERMAN
+
+DirecTV’s Revenge Fantasy ( https://puck.news/is-venu-the-crux-of-directv-and-disneys-carriage-dispute/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+DirecTV’s Revenge Fantasy ( https://puck.news/is-venu-the-crux-of-directv-and-disneys-carriage-dispute/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Identifying the source of DirecTV’s Venu rage.
+
+JOHN OURAND
+
+swash divider
+
+Puck ( https://puck.news/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=in_the_room&delivery_id=dgT2xgYDAKvRKqrRKgGRwASG-O3gxoiUdioWXA4=&utm_campaign=In+The+Room+-+SUBSCRIBERS+%289%2F4%2F24%29&utm_content=In+The+Room+-+SUBSCRIBERS+%288%2F30%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

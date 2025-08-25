@@ -1,0 +1,28 @@
+# Excel heat map hack FlowingData
+
+**Source:** inputs/New Docs/markdown/flowingdata.com_2015_06_22_excel-heat-map-hack.md
+**Processed:** 2025-08-24T19:49:23.978764
+
+# Excel heat map hack FlowingData
+
+**URL:** http://flowingdata.com/2015/06/22/excel-heat-map-hack/
+**Date:** 2015-06-23 20:17:55
+
+---
+
+# Excel heat map hack
+
+Nathan Yau • June 22, 2015 
+
+![Excel heat map hack](https://flowingdata.com/wp-content/uploads/2015/06/Excel-heat-map-hack.png)
+
+John Nelson from IDV Solutions explains how he uses a Microsoft Excel hack to make geographic cell maps.  
+  
+  
+  
+While pivoting data in Excel, it occurred to me that I could drag the latitude data into the row and the longitude data into the column. The result would be a 1980’s-Nintendo-looking chunky cell map (which, if I make the cells square, happens to be a pseudo-equirectangular projection). Low and behold.  
+  
+It’s essentially four quick steps: Round latitude and longitude coordinates, bin them with a pivot table, reverse the order of said table, and color with conditions. You’ve got a rough overview map in a couple of minutes.  
+  
+And once again, we see Excel provides flexibility to do some stuff. Like Excel paintings. [via @philogb] 
+

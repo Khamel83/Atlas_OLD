@@ -1,0 +1,169 @@
+# =?UTF-8?q?Zaz=E2=80=99s_Legal_Option,_Netflix=E2=80=99s_Christmas_List_&_?=
+ =?UTF-8?q?Pitaro=E2=80=99s_Push?=
+
+**From:** John Ourand <john@puck.news>
+**Date:** Tue, 18 Jun 2024 02:00:13 +0000
+**Source:** inputs/saved_emails/=UTF-8qZaz=E2=80=99s_Legal_Option,_Netflix=E2=80=99s_Christmas_List_&_=
+ =UTF-8qPitaro=E2=80=99s_Push=_Tue,_18_Jun_2024_02-00-13_+0000_1902912fe24322c4.eml
+**Processed:** 2025-08-24T19:13:07.774351
+
+Welcome back to The Varsity, a twice-weekly private email for people who are just as interested in attendance and ratings as the final score. I’m coming to you from my hometown of Washington, D.C., where I spent Father’s Day gorging on steamed crabs and watching the most heartbreaking ending to the U.S. Open that I’ve seen in decades. Poor Rory.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+The Varsity ( https://puck.news/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Image ( https://info.wsc-sports.com/wsc-sports-ai-platform/?utm_source=puck&utm_medium=email&utm_campaign=brand&utm_content=v1&utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to The Varsity, a twice-weekly private email for people who are just as interested in attendance and ratings as the final score. I’m coming to you from my hometown of Washington, D.C., where I spent Father’s Day gorging on steamed crabs and watching the most heartbreaking ending to the U.S. Open that I’ve seen in decades. Poor Rory.
+
+My social feeds lit up over the weekend with Charles Barkley’s announcement that he would retire from television at the end of next season, regardless of whether or not TNT stays in business with the NBA. When it comes to Barkley, I’ll believe it when I see it. The writer Jon Lewis humorously tallied ( https://www.sportsmediawatch.com/2024/06/charles-barkley-retirement-talk-history-multiple-times-throughout-career/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) all the times Barkley has “retired” over the past 30 years. My bet: You’ll see Barkley on NBC in 2025.
+
+Let’s get to it…
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad2_title) ( https://info.wsc-sports.com/wsc-sports-ai-platform/?utm_source=puck&utm_medium=email&utm_campaign=brand&utm_content=v1&utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+New AI-tailored content experiences
+
+Sports media rights holders face new challenges as the way fans consume content continues to change. There is an increase in focus on short-form content, multiple viewing platforms, and various viewing formats.
+
+WSC Sports, a trusted partner to the NBA, LaLiga, Big Ten Network, Bleacher Report and 460+ other sports organizations, recently announced the release of three new products that empower sports organizations in meeting the changes desired by fans:
+
+* AI-powered content management and creation with expanded support of all types of content including both in and around the game content (press conferences, interviews, fan reactions, arrivals, etc.).
+* Vertical content
+experience in the right holders’ O&O app including stories, vertical swipeable video feeds, polls, and quizzes.
+* Expansion of media rights owners’ reach delivered through fully controlled access to pre-agreed, third-party sports properties generating new traffic, exposure, and revenue streams.
+
+The Starting Five
+
+* NFL Christmas anxieties: Ever since Netflix acquired two Christmas Day NFL games for around $150 million a pop, traditional media executives have been quietly sounding alarms in private—both about what the games might mean for the streamer and for traditional linear businesses, too. Netflix, after all, licensed the games to help boost the company’s advertising business. While the service has an astonishing 270 million global subscribers, the ad product only has 40 million monthly active users. The NFL games would not only attract new subscribers to the less expensive ad tier, but also allow Netflix to show ad units, which are baked into the broadcast, to viewers on both tiers—presumably multiplying
+the value of the games.
+
+Alas, while the games are certain to draw large audiences, most advertisers want to reach viewers during the weeks before Christmas—not on the holiday, itself. And these executives are whispering about this situation because they are worried that Netflix will cave to market pressures and go to market with pricing packages that undercut the market that traditional networks have established.
+
+Recently, Adweek got its hands on Netflix’s pitch deck ( https://www.adweek.com/convergent-tv/netflix-leaked-pitch-deck-nfl/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and found that the initial price on five sponsorship packages—including eight 30-second ads in the pregame and during the game—was $5 million. On one level, that’s an aggressively high starting
+point, not a number that undercuts the market. But media executives are waiting to see how quickly Netflix moves off that price and how far it drops if it doesn’t have any takers. “It’ll be easier to reduce that price than increase it,” one exec told me. Seven NFL sponsors (AB InBev, Verizon, Visa, Gatorade, Pepsi, Lowe’s, Microsoft) have until June 26 to buy these sponsorships. After that point, Netflix can start selling to others, per the report.
+* The Problem With Apple TV+: My partner Matt Belloni’s excellent interview ( https://puck.news/podcast_episode/jon-stewart-talks-apple-split-corporate-constraints-and-medias-regression/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) with Jon Stewart on The Town, his
+podcast, is a must-listen for students of the evolving media landscape. During their chat, Stewart is incredibly candid and forthcoming about how Apple’s disinterest in stomaching his brand of provocative humor led to the end of his show, The Problem With Jon Stewart, on their streaming platform. “Apple isn’t just a content company,” Stewart told Matt. “They have a whole other side business making, I think, adapters? … If you think about it, content for them, … I don’t want to say that it’s a lark, but it is not core to their brand identity.” As Stewart would later put it, succinctly: “This is a Silicon Valley ethos. It’s not a content ethos. It’s an ethos of efficiency and data collection.”
+
+It was especially interesting to hear him talk about that dichotomy. “I’m accustomed to working in, for better or for worse, more legacy media—companies that are invested in content. … That is what created their brands and what
+created their names,” Stewart explained. “For them, the identity of that brand and that content is really important. For Comedy Central, that kind of maybe sometimes provocative, sometimes explicit content kind of made their name. … [For Apple,] when a Ted Lasso really hits big, it’s amazing. But if there’s some asshole who’s out there, perhaps, damaging relationships that they think are more important. … I think I learned I could not help them in the way that … I had been able to help Comedy Central. In their determination, I could hurt them.”
+
+Stewart’s observations are particularly relevant as streamers become increasingly hellbent on bidding for sports rights. After all, linear and pay TV players like NBC Sports and TNT have built their brands around their coverage of live sports—years of Olympics coverage, John Tesh’s “Roundball Rock,” The Guys in Studio J in Atlanta, etcetera. For Apple and Amazon, however, both
+entertainment and live sports are means to a more elaborate end.
+* A Leonsis headache: Fubo dropped the D.C.-based regional sports network Monumental Sports Network over the weekend, the first distribution hiccup since Ted Leonsis bought the channel from NBC Sports two years ago. The fact that MSN is an independent R.S.N. hurts during these types of negotiations. When NBC owned the channel, it created leverage by tying its carriage to NBC’s other channels so that if Fubo wanted to drop the R.S.N., it would have had to go without NBC’s other channels just a month before the Paris Olympics. As an independent R.S.N., however, Monumental Sports Network didn’t have any juice. The only aggrieved constituencies are fans of the Mystics, Caps, and Wizards—two of whom are already out-of-season.
+
+The Leonsis family, as Ted has told me personally ( https://puck.news/ted-leonsis-on-new-economics-of-sports-team-ownership/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), is proud of their zagging decision to swoop up Monumental. But the Fubo droppage is another warning sign: Almost all of the R.S.N.’s distribution deals are up within the next two years, and so many are incredibly vulnerable. If the Leonsis family is worried about carriage fees, they should invest in their rosters. Increasingly, R.S.N. distribution success is tied to team performance—another area where Monumental has problems. The Mystics (2-12) have the worst record in the WNBA right now. The Wizards had the second-worst record in the NBA last season (15-67), and the Capitals haven’t won a playoff game in two years. If you’re not in a market with a fanatical
+base, you have to win to become relevant to casual sports fans. The teams on MSN have not done
+that.
+* An NBA non-update update: Disney, Amazon, Comcast, and most importantly Warner Bros. Discovery still haven’t seen anything official from the NBA on the next round of media rights. But as everyone in the Varsity Cinematic Universe knows, Disney has locked up the A package for $2.6 billion, NBCU has the B package for $2.5 billion, and Amazon has the C package for $1.8 billion—barring the incredibly unlikely chance that the league cobbles together a fourth package of local games. There remains a chance that WBD C.E.O. David Zaslav uses his matching rights to challenge Amazon’s deal, but it will be hard for his lawyers to argue how linear assets and the Max streamer can truly challenge Amazon Prime’s global reach.
+
+Nevertheless, Zaz has told intermediaries that he has not shut the door on the idea of pursuing legal recourse if the league denies WBD the ability to exercise those matching rights on Amazon’s
+package. I’ve dismissed rumors of potential legal action over the past couple of weeks because it seemed so far-fetched. In my decades covering this industry, I have never once seen a media company threaten legal action against a league it wants to be in business with. But this threat is increasingly being sounded. Watch this space…
+* Unspooling an Apple NFL rumor: One charm of this Sunday Ticket legal drama is all the clarity that has emanated from the trial. To wit: During the league’s months-long rights negotiations with YouTube TV, for instance, several league sources suggested that Apple was also in the midst of serious talks. But when Apple executive Stephen Smith was asked about the specter of a deal during deposition, he acknowledged “I don’t believe we were ever that close.” The NFL did not put forth a specific price point for Sunday Ticket, but the league’s emissaries did tell Apple executives that it needed to be a
+“premium” product that was “complementary to our broadcast model.”
+
+And now on to the main event…
+
+All Eyes on ESPN’s Flagship ( https://puck.news/many-questions-remain-about-new-espn-streaming-service/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+All Eyes on ESPN’s Flagship ( https://puck.news/many-questions-remain-about-new-espn-streaming-service/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Fifteen months out from the launch of ESPN’s new streaming property, dubbed internally as Project Flagship, questions are mounting alongside expectations.
+
+John Ourand ( https://puck.news/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+JOHN OURAND ( https://puck.news/john-ourand/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+All the way back in 2008, when the streaming business was just a glimmer in consumers’ eyes and cable television remained perhaps the greatest economic model ever conceived, ESPN outbid Fox by $100 million to win the rights to college football’s Bowl Championship Series, the precursor to today’s CFP. Of course, ESPN won those rights against a mere broadcast network: These were the halcyon days of the brand, which collected billions of dollars in carriage fees from cable and satellite companies that couldn’t live without its channels. ESPN reinvested the revenue in everything from live rights to gleaming new sets, from bold-faced talent to worthy editorial projects like Grantland and 30 for 30. A better flagship product increased the value of the business, in turn.
+
+There’s no need to recount the reality
+checks of the intervening decade and a half: cord-cutting, the rise of new platforms and players, and a new multiplatform economic reality that relied on capital optimization. Linear is still a great business for ESPN, which commands a higher fee from distributors than any other channel. But the decline from 100 million households to 70 million has necessitated the financial and strategic flexibility of the Jimmy Pitaro era. Pitaro, an affable executive, has adroitly handled the various challenges of leading the business during a platform shift—laying off popular talent, leaning into gambling, and managing the changing power dynamics with leagues. And, starting next year, he will finally find out what life will be like outside of that cable bundle.
+
+In the aughts, of course, ESPN’s strategy was simple: dominate cable. Now, it’s much more than cable. ESPN must be virtually everywhere all at once without cannibalizing its core business. Besides its cable
+offering and Venu, the Fox-WBD-ESPN bundle formerly informally known as Spulu, Pitaro remains on track to launch his much-ballyhooed direct-to-consumer service, dubbed Project Flagship internally, by the start of the 2025 NFL season, about 15 months from now. Flagship, in many ways, will determine the course of everything else at the company.
+
+$(ad3_title) ( https://info.wsc-sports.com/wsc-sports-ai-platform/?utm_source=puck&utm_medium=email&utm_campaign=brand&utm_content=v1&utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The market still has more questions than answers about Flagship—including real biggies, like its name, cost, and content offering. ESPN has not made any announcements about the fate of ESPN+, the streaming service it launched six years ago as a complement to its linear channels. Will ESPN+ continue on its own, or will it be folded into Flagship? Or will it instead become a top-of-funnel play?
+
+Indeed, the two streaming services have divergent strategies. ESPN+ is an inexpensive supplement for sports fans who want to watch Peyton Manning’s show or engage with niche content, like smaller college conferences’ sporting events, or order UFC pay-per-views. Flagship, on the other hand, intends to disrupt itself—and be a true home for sports obsessives who want the full panoply of SportsCenter and live games but would
+simply not be caught dead subscribing to cable.
+
+But the fate of ESPN+ touches on just some of the complexities and nuances around the business case for the new streamer. For starters, ESPN executives have always credited UFC with being instrumental in growing the ESPN+ service. Will those executives and data scientists use UFC as justification for keeping ESPN+ around? Or will they simply view its success as a reason its rights must be bundled into Flagship? (The latter, presumably…)
+
+When Flagship eventually launches, it will almost certainly feature sports betting, a robust fantasy offering, and social statistics. You can expect ESPN programming, including documentaries and features, to be available on demand. And the brand is looking into ways to customize experiences. A long-suffering Orioles fan who clicks on the app, for instance, will be immediately served Black-and-Orange highlights or something approximating them.
+
+Pitaro’s gambit is
+both complex and entirely straightforward. There is no royal road to re-creating the sort of economic dominance that ESPN enjoyed under his predecessor, John Skipper. Instead, the path toward reversing subscriber declines requires experimentation across cable, Flagship, Venu, and even clever licensing arrangements, such as the CFP deal Pitaro recently cooked up with Warner Bros Discovery. (ESPN sold WBD the games for around $25 million per, but ESPN retains all the advertising revenue from those games for at least the first two years.)
+
+In Hollywood circles, at least, Pitaro is usually considered a less likely successor to Disney C.E.O. Bob Iger than his more glamorous competitors across the Magic Kingdom: Dana Walden, Josh D’Amaro, and Alan Bergman. But Pitaro’s ability to find good answers to the questions around Flagship could launch him up the leaderboard. Certainly, everyone in the industry will be paying close attention
+over the next 15 months.
+
+From the Cheap Seats
+
+On the Big 12 looking at a private equity investment: “To say private equity is a solution to the issues in college athletics is to admit you don’t understand the problem. Private equity is not a business solution; it’s a financing source. Private equity provides capital for businesses with stable enough models to generate growth. College sports does not have a financing problem, it has a business model problem and lacks the leadership to forge a healthy one.” —A sports business executive
+
+On the NFL’s angst about Paramount: “Why would Paramount have any trouble paying the annual NFL fee? Paramount is profitable and doing better on all fronts this year than in 2023. Highly leveraged? They have been selling ancillary assets and paying down debt. National Amusements Inc. is highly leveraged,
+not Paramount.” —A LinkedIn commenter ( https://www.linkedin.com/feed/update/urn:li:activity:7207370500983918593/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+[Ed. note: Paramount’s $15 billion in debt was recently downgraded.]
+
+“I just heard you on The Powers That Be podcast. OMG, when are you getting your own Puck pod?” —A D.C. lawyer
+
+[Ed. note: It’s coming…]
+
+Until Thursday,
+John
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Trump’s Veepstake Inanity ( https://puck.news/why-do-we-care-who-trump-picks-for-vp/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Trump’s Veepstake Inanity ( https://puck.news/why-do-we-care-who-trump-picks-for-vp/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Dissecting the hullabaloo around the V.P. decision.
+
+JOHN HEILEMANN
+
+Basel’s New Money ( https://puck.news/basels-new-money-a-gagosian-ouster/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Basel’s New Money ( https://puck.news/basels-new-money-a-gagosian-ouster/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Art Basel chatter and a Gagosian shake-up.
+
+MARION MANEKER
+
+The Goldman Rush ( https://puck.news/the-goldman-rush/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Goldman Rush ( https://puck.news/the-goldman-rush/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+A close look at the firm’s abrupt turnaround.
+
+WILLIAM D. COHAN
+
+Shari’s Shari Problem ( https://puck.news/shari-redstone-hasnt-solved-her-biggest-problem-shari-redstone/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Shari’s Shari Problem ( https://puck.news/shari-redstone-hasnt-solved-her-biggest-problem-shari-redstone/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Notes from the Paramount blast zone.
+
+MATTHEW BELLONI
+
+swash divider
+
+Puck ( https://puck.news/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_varsity&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGQKRKhwKFzTloY4YhvAKo=&utm_campaign=The+Varsity+-+SUBSCRIBERS+%286%2F17%2F24%29&utm_content=The+Varsity+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

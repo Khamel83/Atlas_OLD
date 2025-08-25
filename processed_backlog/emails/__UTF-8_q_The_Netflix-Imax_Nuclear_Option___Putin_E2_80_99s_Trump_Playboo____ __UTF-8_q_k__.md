@@ -1,0 +1,216 @@
+# =?UTF-8?q?The_Netflix-Imax_Nuclear_Option_&_Putin=E2=80=99s_Trump_Playboo?=
+ =?UTF-8?q?k?=
+
+**From:** Puck <fritz@puck.news>
+**Date:** Tue, 25 Feb 2025 20:03:59 +0000
+**Source:** inputs/saved_emails/=UTF-8qThe_Netflix-Imax_Nuclear_Option_&_Putin=E2=80=99s_Trump_Playboo=
+ =UTF-8qk=_Tue,_25_Feb_2025_20-03-59_+0000_1953eb5a19ee9614.eml
+**Processed:** 2025-08-24T19:13:04.601886
+
+Feb 25, 2025
+
+The Daily Courant ( https://puck.news/newsletters/the-daily-courant/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+-------------------------------------------------------------
+A Lucasfilm Shake-Up, Fenty Brain Drain, MSNBC’s Kutler Era
+-------------------------------------------------------------
+
+Welcome back to The Daily Courant, your afternoon compendium of Puck’s best new
+reporting.
+
+ 
+
+First up today, Kim Masters unravels the fresh Hollywood drama surrounding Netflix and Imax’s commitment to show Greta Gerwig’s Narnia film on at least 1,000 Imax screens… before getting the greenlight from theatrical distributors, while also pissing off numerous studio partners. Imax C.E.O. Rich Gelfond has threatened a
+“nuclear option” to ensure cooperation—but what levers are actually at his disposal?
+
+Plus, below the fold: Julia Ioffe returns with a brilliant dissection of the Trump-Putin pact upon the third anniversary of Russia’s invasion. Lauren Sherman inspects the brain drain at Rihanna’s once billion-dollar intimates brand, Savage x Fenty. Matt Belloni
+scoops the departure of legendary movie producer Kathleen Kennedy at Lucasfilm. And John Ourand gets the ticktock on the MLB-ESPN divorce.
+
+Meanwhile, on the pods: Matt reunites with Lucas Shaw on The Town to break down Barbara Broccoli and Michael G. Wilson’s decision to hand over James Bond to Amazon. On The Grill Room, Axios’s Sara Fischer joins
+Dylan Byers to scrutinize the dawn of MSNBC’s Rebecca Kutler era. On Fashion People, Lauren and Becky Malinsky dial in from London to discuss the future of Burberry, the Saks Global crisis, and the launch of the Nike-Skims partnership. And on The Powers That Be, Peter Hamby connects with Julia to explain Trump’s unceremonious attempt to hash out a peace deal with Putin.
+
+HOLLYWOOD
+
+Kim Masters
+Kim Masters
+
+The Imax-Narnia Nuclear Option
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Imax-Narnia Nuclear Option ( https://puck.news/why-everyone-is-mad-about-netflixs-narnia-deal/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Last week, when Imax C.E.O. Rich Gelfond presented the company’s latest quarterly earnings report, he also revealed
+that Netflix had committed to showing Greta Gerwig’s upcoming Narnia film on at least 1,000 Imax screens for an exclusive two-week run starting Thanksgiving weekend 2026. Studio executives and theater owners, both essential to Imax’s business, felt blindsided. And despite Gelfond’s claim that he’d won over the “various constituencies,” multiple sources tell Kim that some of the largest theater chains in North America are so angry they’ve threatened to not play Narnia on the
+Imax screens in their theaters. But Gelfond assured both Netflix and Gerwig’s reps that he had a “nuclear option” to ensure theaters will book the film… but what, exactly, is he referring to?
+
+ 
+
+Read Now ( https://puck.news/why-everyone-is-mad-about-netflixs-narnia-deal/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+WASHINGTON
+
+Julia Ioffe
+Julia Ioffe
+
+The Fallacy of
+the Trump-Putin Pact
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Fallacy of the Trump-Putin Pact ( https://puck.news/the-trump-putin-negotiations-are-doomed-they-always-were/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+In February 2022, Vladimir Putin sent nearly 200,000 troops across the Russian border into Ukraine to finish what he
+started in 2014: ending Ukraine’s drift toward the West. Now, three years into this brutal war, it feels like we’ve come full circle in some ways. Once again, Putin is demanding that NATO rescind its proto-invitation to Ukraine, that Ukraine disarm unilaterally, and that Ukraine hold new elections with the aim of getting a new, more Moscow-friendly government into power. Meanwhile, America once again has a president who thinks he can succeed where all his predecessors have failed. “At some
+point, American ambitions will collide with Russian realities,” one Republican foreign policy insider told Julia, “which is to say, the same story we have watched about a half-dozen times before.”
+
+ 
+
+Read Now ( https://puck.news/the-trump-putin-negotiations-are-doomed-they-always-were/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+FASHION
+
+Lauren Sherman
+Lauren Sherman
+
+The Ballad
+of Savage x Fenty
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Ballad of Savage x Fenty ( https://puck.news/rihannas-savage-x-fenty-problem/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+When Rihanna and LVMH launched Fenty Beauty in 2017, the brand rewrote beauty industry standards with its expansive
+range of foundation shades. Many believed Savage x Fenty would do the same for the intimates category when it was founded a year later—a seemingly sure bet in an industry where nothing is guaranteed. And yet, despite the brand’s first-mover status into larger-size intimate apparel, it wasn’t an instant success. Now, the lingerie-for-everyone line, once valued at $1 billion, is suffering from executive and creative brain drain, and powerful market competitors. Can the business figure out
+how to leverage one of the world’s most famous celebrities?
+
+ 
+
+Read Now ( https://puck.news/rihannas-savage-x-fenty-problem/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+HOLLYWOOD
+
+Matthew Belloni
+Matthew Belloni
+
+Kathleen Kennedy to Step Down at Lucasfilm
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Kathleen Kennedy to Step Down at Lucasfilm ( https://puck.news/kathleen-kennedy-to-step-down-at-lucasfilm/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+After years of speculation, and polite urging from outside observers, Kathleen Kennedy has informed Disney that she
+will exit as Lucasfilm president by the end of the year. Sure, it’s not a huge shock: Kennedy will be 72 in June, and has 13 years running the studio as George Lucas’s handpicked steward. O.G. Puck readers know that Kennedy’s tenure at Lucasfilm was mixed: Ask a top creator about their experience working with Lucasfilm and you’ll likely get an earful. Who might Disney film chief Alan Bergman choose as Kennedy’s successor?
+
+ 
+
+Read Now ( https://puck.news/kathleen-kennedy-to-step-down-at-lucasfilm/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+SPORTS
+
+John Ourand
+John Ourand
+
+Inside the Manfred-Pitaro Divorce
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Inside the Manfred-Pitaro Divorce ( https://puck.news/inside-the-mlb-espn-split/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ESPN’s head honcho, Jimmy Pitaro, didn’t want to get out of baseball entirely. He’d hoped to work out a deal with MLB
+commissioner Rob Manfred that either resulted in a lower payment for rights fees or added programming—like local rights streams—for roughly the same amount, about $550 million per year. Such a deal would allow ESPN’s forthcoming D.T.C. streamer, code-named Flagship, to carry local MLB streams. But, John reveals, over the course of their negotiations, Manfred and his team owners were unmoved by the offer: If ESPN wanted to work out a new deal for the streaming rights, they would have to negotiate
+those separately. Then, last Thursday morning, Pitaro called Manfred to tell him that ESPN would, in fact, exercise its out clause. For now, at least, it appears that ESPN’s time with baseball is done.
+
+ 
+
+Read Now ( https://puck.news/inside-the-mlb-espn-split/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+HOLLYWOOD
+
+Matthew Belloni
+Matthew Belloni
+
+The Town with Matt Belloni
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Amazon and James Bond: What Could Go Wrong? ( https://puck.news/podcast_episode/amazon-and-james-bond-what-could-go-wrong/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Matt is joined by Bloomberg’s Lucas Shaw to react to the shocking announcement that Barbara Broccoli and Michael G.
+Wilson—the controllers of the James Bond brand—have sold their creative control to Amazon. They discuss why this move was necessary for Amazon, why Barbara and Michael did this deal now, and how this will affect the franchise. Matt and Lucas finish the show by announcing the winner of the 2024 Box Office Draft.
+
+ 
+
+Listen Now ( https://puck.news/podcast_episode/amazon-and-james-bond-what-could-go-wrong/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+MEDIA
+
+Dylan Byers
+Dylan Byers
+
+The Grill Room with Dylan Byers
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+30 Rock’s Kutler Era ( https://puck.news/podcast_episode/30-rocks-kutler-era/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Axios’s Sara Fischer joins Dylan to scrutinize the dawn of MSNBC’s Rebecca Kutler era, as a wave of personnel and
+talent changes at 30 Rock aims to steady the embattled legacy mediaco. Sara also offers her assessment of the state of the broadcast news industry, and considers whether it has any future in the streaming age.
+
+ 
+
+Listen Now ( https://puck.news/podcast_episode/30-rocks-kutler-era/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+FASHION
+
+Lauren Sherman
+Lauren Sherman
+
+Fashion People with Lauren Sherman
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Sakspocalypse and a Burberry Question Mark ( https://puck.news/podcast_episode/the-sakspocalypse-and-a-burberry-question-mark/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Lauren and Becky Malinsky dial in from London, right after Burberry’s show at Tate Britain. They discuss the future
+of the brand (with or without designer Daniel Lee) and London Fashion Week, shopping in London, and the tenor of the city’s street style versus that of New York, Los Angeles, and Paris. They also interrogate what’s happening as Saks Global (owner of Saks Fifth Avenue, Neiman Marcus, and Bergdorf Goodman) battles with its brands over late payments, and how it may affect the customer experience. Finally, they get into the why behind the launch of NikeSkims.
+
+ 
+
+Listen Now ( https://puck.news/podcast_episode/the-sakspocalypse-and-a-burberry-question-mark/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+WASHINGTON
+
+Peter Hamby
+Peter Hamby
+
+Julia Ioffe
+Julia Ioffe
+
+The Powers that Be Daily, Starring Peter Hamby
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The Tragedy of the Trump-Putin Pact ( https://puck.news/podcast_episode/the-tragedy-of-the-trump-putin-pact/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Julia Ioffe joins Peter to unpack the latest on the war in Ukraine as Trump tries to hash out a peace deal by
+flouting almost every tradition of U.S. diplomacy—while berating Ukrainian President Volodymyr Zelensky in the process. As Julia explains, any deal that gives Vladimir Putin the benefit of the doubt is all but certain to backfire.
+
+ 
+
+Listen Now ( https://puck.news/podcast_episode/the-tragedy-of-the-trump-putin-pact/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=the_daily_courant&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGVPrIXbzcpHntw7FqLt7g=&utm_campaign=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_content=The+Daily+Courant+-+SUBSCRIBERS+%282%2F25%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

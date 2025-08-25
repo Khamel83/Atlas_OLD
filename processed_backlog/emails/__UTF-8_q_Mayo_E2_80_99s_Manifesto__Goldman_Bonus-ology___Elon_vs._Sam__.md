@@ -1,0 +1,179 @@
+# =?UTF-8?q?Mayo=E2=80=99s_Manifesto,_Goldman_Bonus-ology_&_Elon_vs._Sam?=
+
+**From:** "William D. Cohan" <william@puck.news>
+**Date:** Thu, 13 Feb 2025 00:06:22 +0000
+**Source:** inputs/saved_emails/=UTF-8qMayo=E2=80=99s_Manifesto,_Goldman_Bonus-ology_&_Elon_vs._Sam=_Thu,_13_Feb_2025_00-06-22_+0000_194fca0da91b0c92.eml
+**Processed:** 2025-08-24T19:13:10.278013
+
+Feb 12, 2025
+
+Dry Powder ( https://puck.news/newsletters/dry-powder/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+William D. Cohan ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+William D. Cohan ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to Dry Powder. I’m Bill Cohan.
+
+ 
+
+Our friend Mike Mayo, the outspoken Wall Street analyst at Wells Fargo Securities, recently sounded the alarm about a new phenomenon in the world of commercial and investment banking: boards gifting their top executives so-called “double bonuses”—tens of millions of dollars on top of their already remarkably healthy annual compensation packages. His rant raises a worthy question: Should
+shareholders celebrate the likes of Jamie Dimon and David Solomon receiving additional tens of millions just for sticking around the building? More on that, below the fold. 
+
+ 
+
+But first…
+
+* Elon
+& Sam’s OpenAI pissing contest: I can’t begin to parse the madness animating Elon Musk’s latest flight of fancy: his unsolicited $97.4 billion offer for the nonprofit side of OpenAI. The idea, apparently, is that the nearly $100 billion investment would be used “irrevocably” for “charitable purposes,” according to Musk’s attorney, Marc Toberoff, in a statement/open letter/press release. “If Sam
+Altman and the present OpenAI, Inc. Board of Directors are intent on becoming a fully for-profit corporation,” wrote Toberoff, “it is vital that the charity be fairly compensated for what its leadership is taking away from it: control over the most transformative technology of our time.”
+
+Of course, this has less to do with Musk’s philanthropic spirit than his ongoing beef with Altman. The two men started OpenAI as a nonprofit, only for Sam to turn part of the company into
+a for-profit enterprise that is now on the verge of raising ( https://puck.news/masayoshi-sons-legendary-career-as-told-by-his-biographer/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) some $40 billion in new capital from the likes of SoftBank’s Masayoshi Son, at a valuation of around $350 billion. In short, they’re pissing at each other—Sam has responded with considerable snark both on X and Bloomberg TV—but I’m not sure that Elon’s offer has
+much chance of success, given that OpenAI is a private entity and can do what it wants. Can’t Sam and his board just refuse to engage with Elon and his investors and call it a day? 
+
+This is a million miles away from what Elon did with Twitter, which was a public company, with shareholders who wanted the $44 billion in cash (at $54.20 per share) that Elon promised them before trying to renege. If I’m Sam and his board, I’m sending Elon et al. on their merry way—as long as
+Microsoft, which owns 49 percent of OpenAI’s equity, and other board members and investors like Larry Summers and Josh Kushner, are similarly inclined. Note that Toberoff’s letter was not even sent to Sam, or to the nonprofit’s board, but rather to state officials in California and Delaware. 
+
+What I’ve found particularly amusing, though, has been Sam’s response. First, in an interview on Bloomberg TV, he emphasized that, of course,
+OpenAI, and the OpenAI “mission,” are not for sale. He thinks Elon is just trying to “slow us down,” because “he’s raised a lot of money for xAI, and they’re trying to compete with us from a technological perspective, [and] getting the product into the market. I wish he would just compete by building a better product, but I think there’s been a lot of tactics—many, many lawsuits, all sorts of other crazy stuff. Now this.” Sam also said he “feels” for Elon because his “whole life is from a
+position of insecurity. … I don’t think he’s like, a happy person.” Okay, then.
+
+But what I’ve found most amusing has been Sam’s response to the $97.4 billion offer itself. On X, of all places, he said “no thank you” to the bid, and added that “we” will “buy twitter for $9.74 billion if you want.” Musk’s reply: “Swindler.”
+
+I’m not sure if Sam was just offering to buy X for 10 percent of what Elon was offering for OpenAI’s nonprofit unit, or whether this was an actual
+reflection of what he thinks X is worth these days, or whether he’s just goofing around with Elon about the most senior portion of the X debt, which also amounts to around $9 billion. But interestingly, Sam’s approximate valuation would confirm what I have been saying all along—that the $31 billion of equity that Elon and his friends invested in Twitter is long gone, and the only remaining question is the value of X’s $13 billion in debt. Under the Sam Altman construct, the debt is worth 75
+cents on the dollar, or 9.74/13, which is a far cry from the 97 cents on the dollar that some new investors reportedly paid for the senior tranche of the X debt last week. But I suspect Sam’s just having fun. Anyway, I’ll have more on that for Sunday.
+
+And now, a word on the latest fad in investment banking…
+
+Buying the Goldman Double-Dip ( https://puck.news/the-latest-wall-street-trend-double-bonuses/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+******************************************************************************************************************************************************************************************************************************************************************************************
+Buying the Goldman Double-Dip ( https://puck.news/the-latest-wall-street-trend-double-bonuses/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+******************************************************************************************************************************************************************************************************************************************************************************************
+
+The latest boardroom trend among the top banks is the phenomenon of “double
+bonuses”—paying ur-top executives not only for their performance, but also to stick around without screwing the pooch.
+
+William D. Cohan ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+William D. Cohan ( https://puck.news/author/william-cohan/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Suddenly, it seems, so-called “double bonuses” for C-suite executives on Wall Street are
+all the rage, and Mike Mayo, the outspoken Wall Street research analyst at Wells Fargo Securities, has had enough. Indeed, with proxy and annual meeting season fast approaching, Mayo is calling out the boards of Goldman Sachs, as well as a trio of large commercial banks—KeyCorp, Truist Financial, and U.S. Bancorp—for gifting their top executives generous retention-style bonuses that basically don’t require them to hit any meaningful performance metrics along the way. He hopes
+investors will share his concerns, and make a stink about the bonuses, too.
+
+ 
+
+The enthusiasm for these kinds of compensation tactics seems to have started in July 2021, when the board of JPMorgan Chase awarded its fearless leader, Jamie Dimon, a “surprise” $50 million bonus—on top of his annual compensation package of around $35 million that year—if he simply agreed to stick around for
+another five years, something he obviously was planning to do anyway. (Heck, at this rate, he might still be the bank’s C.E.O. in 105 years.) In any event, since there was never any doubt he would be the C.E.O. until 2026, it was easy money for Jamie, not that he needed it. At last count, his net worth was around $2.6 billion, derived principally from his shares in JPMorgan Chase and the compensation he has received as its C.E.O. for the past 20 years. Well deserved, by the way… Under Jamie’s
+leadership, JPMorgan Chase has become a money machine, generating annual net income in excess of $50 billion. The company is now worth more than $750 billion.
+
+ 
+
+Not to be outdone, in October 2021, Goldman Sachs awarded David Solomon, its chairman and C.E.O., and John Waldron, its president, supposedly one-time retention awards of restricted stock. The bonuses totaled roughly
+$30 million for Solomon, on top of his 2021 compensation of around $35 million, and roughly $20 million for Waldron. The idea was to ensure “continuity” of “leadership” for the subsequent five years, and to keep the two men atop the firm amid the “rapidly increasing war for talent in the current environment.” The awards were not only time-based; Solomon and Waldron also had to achieve performance metrics that were designed to “align compensation with rigorous performance thresholds that
+drive long-term shareholder value creation,” according to the Securities and Exchange Commission filings at the time.
+
+ 
+
+Well, it turns out Goldman may have been just kidding about the whole “one-time” thing. In January, Goldman announced that Solomon and Waldron had been granted a fresh stock award of $80 million each. (That’s on top Solomon’s $39 million pay package last year.) And this time, there were no
+performance metrics attached. The two men simply have to stay in their jobs for the next five years and not do anything dumb that could get them fired for cause or participate in “materially improper risk analysis or failing to sufficiently raise concerns about risks,” whatever that means. 
+
+ 
+
+Basically, the Goldman board wants to keep Solomon and Waldron around—Waldron had a recent, brief dalliance with
+Apollo—to solidify the bank’s leadership for the next decade or so. In the S.E.C. filing, Goldman stated it awarded the bonuses in order “to sustain the strong momentum [Solomon and Waldron] have demonstrated in executing on our firmwide strategic priorities, [to] help ensure stability and continuity in our senior leadership over the next five years and [to] maintain a strong succession plan for the future of the firm.” 
+
+ 
+
+Mayo, for his part, criticizes the Goldman board for being pushovers and is urging Goldman shareholders to vote no on the nonbinding “say on pay” provision at the annual meeting in April. He’s also urging them to vote Kimberley Harris, the head of the Goldman board’s compensation committee, off the island—or at least to refuse to renominate her in that pivotal role. (Harris, a graduate of Yale Law School and a former partner at Davis Polk, is the general
+counsel of NBCUniversal and an executive vice president of Comcast.) “We disagree that this extra payment is in the interest of shareholders,” Mayo wrote in his report.
+
+ 
+
+Mayo considers these large awards to be unnecessarily duplicative. “We have mixed feelings on C.E.O. and C.O.O. $80M retention bonus that is separate and in addition to annual pay, which was up [25 percent] to $39M for the C.E.O in 2024,” Mayo wrote. “We
+view this as a ‘double bonus’ since this is in addition to the 2024 annual pay. Moreover, the reasons given for the $80M payment seem to overlap with those used to justify the higher 2024 pay (retention, strategic momentum, succession, strategy, and performance).” 
+
+Solomon’s
+Succession
+-----------
+
+Mayo isn’t buying the argument that the new bonuses are rewards, of sorts, for Goldman
+mapping out its executive succession process, with Waldron designated to succeed Solomon at some point. “Succession is a basic job of the C.E.O. and not one that should warrant a special bonus,” he wrote. “In our view, if David Solomon were to leave, we think that John Waldron could fill in. While we recognize that it might take extra to keep John Waldron (though unvested stock is a motivator for him to say), there are others who could replace him, too.” 
+
+ 
+
+Mayo also suggested that Waldron could get paid more than Solomon—just as Tom Montag, a former top executive at Bank of America who is now on the Goldman board, was paid more than Brian Moynihan, the C.E.O. of Bank of America, a few years ago. He additionally worried, considering the “overall comp ratio” was down for the firm, that giving Solomon and Waldron these $80 million awards
+could be “alienating” for Goldman executives who did not receive similar incentives.
+
+ 
+
+Mayo does acknowledge that Solomon and Waldron have done a “good” job of running Goldman Sachs, but not, he says, a “perfect” job. (In fairness, Goldman’s stock is up 172 percent in the past five years, more than that of its two main rivals, JPMorgan Chase and Morgan Stanley.) He noted that Goldman has shown “good” growth
+in revenue, earnings, and book value, and is “better positioned” now in its two main business lines, investment banking and wealth and asset management. 
+
+ 
+
+He was less enamored of the lackluster returns on equity, which the firm has been focused on improving. “Strategically, they oversaw a costly and failed effort in consumer banking and what we see as a failed GreenSky acquisition,” Mayo wrote,
+referring to Goldman’s purchase and subsequent offloading of its consumer lending operations—Marcus, the Apple Card, etcetera. “The Apple Card portfolio remains and, if sold, may involve a loss.” 
+
+ 
+
+By the way, Mayo has a price target on Goldman’s stock of $680 per share, up about 5.3 percent from where it’s currently trading. I don’t think Mayo is necessarily against Solomon and Waldron
+getting these awards, but is simply annoyed at the relatively low lift involved. Five years may seem like a long time in our crazy world, but for executives to get this much compensation without having to achieve certain performance metrics along the way—a return-on-equity target, a higher stock price, anything, really, that is more substantial than just staying alive and not doing something egregious—well, that seems a bit crazy too. A fair point, although I’m skeptical that enough
+Goldman shareholders will flock to Mayo’s cause at the annual meeting.
+
+ 
+
+Goldman, for its part, said in a statement, “The firm has delivered strong performance and the competition for our top talent has been especially fierce, including from asset managers and other non-banks.” And so the Goldman board of directors “was determined to keep this team in place—both to maintain our momentum and to have a very strong succession
+plan.” The “value of a restricted stock award,” the bank spokesperson added, “is tied directly to the performance of the company.”
+
+Impolitic with John Heilemann ( https://puck.news/podcasts/impolitic/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Join Puck’s chief political columnist, John Heilemann, as he roams the corridors of power and influence in America on this
+twice-weekly interview show, taking you beyond the headlines with the people who shape our culture: icons and up-and-comers, incumbents and insurgents, moguls and machers in the overlapping worlds of politics, entertainment, tech, business, sports, media, and beyond. The conversations are rich and revealing, unrehearsed and unexpected… and reliably impolitic. A Puck-Audacy joint, new episodes drop every Wednesday and Friday.
+
+The Best & The Brightest ( https://puck.news/newsletters/the-best-and-the-brightest/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Puck’s daily political newsletter from Washington on what’s really happening in this town, from the White House to the
+Pentagon to Capitol Hill, K Street, and the campaign trail.
+
+Disney’s Trump II Suits
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Disney’s Trump II Suits ( https://puck.news/two-hollywood-vaccine-mandate-cases-could-soon-face-a-jury/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ERIQ GARDNER
+
+Meme
+Art Markets
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Meme Art Markets ( https://puck.news/caspar-david-friedrich-at-the-met-a-show-for-the-trump-era/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MARION MANEKER
+
+Falling
+for the Gap
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Falling for the Gap ( https://puck.news/is-the-gap-renaissance-just-a-marketing-mirage/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SARAH SHAPIRO
+
+Puck
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQ page ( https://puck.news/faq/?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact us ( fritz@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/unsubscribe/?subscription=dry_powder&email=puck@khamel.com&delivery_id=dgT2xgYDAKvRKqrRKgGU_KCb0eK-IkcSktAle6o=&utm_campaign=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_content=Dry+Powder+-+SUBSCRIBERS+%282%2F12%2F25%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+ 
+
+Puck is published by Heat Media LLC. 107 Greenwich St, New York, NY 10006

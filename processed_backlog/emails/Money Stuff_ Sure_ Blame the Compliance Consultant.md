@@ -1,0 +1,328 @@
+# Money Stuff: Sure, Blame the Compliance Consultant
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Thu, 25 Jan 2024 14:16:27 -0500 (EST)
+**Source:** inputs/saved_emails/Money Stuff Sure, Blame the Compliance Consultant_Thu,_25_Jan_2024_14-16-27_-0500_(EST)_18d420d7187760f0.eml
+**Processed:** 2025-08-24T19:13:03.927520
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        Programming note: Money Stuff will be off tomorrow, back on Monday.A weird financial anomaly is that, in 2017 and 2018, the bonds of America
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Programming note: Money Stuff will be off tomorrow, back on Monday.
+
+  
+    
+      Chatham vs. ACA
+    
+  
+
+A weird financial anomaly is that, in 2017 and 2018, the bonds of American Media Inc. started to trade at implausibly high prices. By late 2017, these bonds were trading at lower yields than the bonds of Apple Inc., implying that AMI — the small, non-investment-grade publisher of the National Enquirer — was a better credit than Apple. That seemed wrong. In 2018, AMI issued new bonds, at a much higher yield (10.5%) than the existing bonds, which also suggested that the prices of the existing bonds were wrong.
+I remember that, at the time, this was a thing that people talked about. Bond trading prices are public, and you could see the prices of AMI bonds going crazy. Some bonds were trading at obviously wrong prices, for a long time: What gave? The obvious assumption was that someone was doing market manipulation, and it was easy to speculate about who: Chatham Asset Management, the hedge fund firm that owned most of the bonds.
+It was harder to figure out why. If Chatham was manipulating the market, by trading AMI bonds back and forth with itself at ever-higher prices, what was it hoping to gain? Surely nobody else would buy those bonds from Chatham at the inflated prices: This is not a meme stock, it was a small market with sophisticated investors, and nobody else would just look at the tape and say “oh sure if these bonds trade at 110 I guess I’ll pay 110 for them.”
+Eventually, last April, the US Securities and Exchange Commission  brought a case against Chatham for “improper trading of certain fixed income securities,” and Chatham settled by paying $19 million. We   talked about this case at the time, and it did provide a more or less satisfactory explanation of what was going on:
+	Yes, the AMI bonds were trading at silly prices because someone was trading them back and forth with itself at inflated prices.	Yes, it was Chatham.	The reason for this manipulation was, as these things go, fairly innocent: Chatham really liked the bonds, it owned a ton of them, but it owned them in several different funds, and sometimes those funds saw withdrawals or bumped up against limits on how many AMI bonds they could own. Chatham’s management loved the bonds, though, so when one of its funds had to sell them, it would sell them to another of its funds that could still hold them. Each time, it would sell them at a somewhat higher price, so the price kept going up. This did have the effect of making more money for Chatham (it got paid based on assets and performance, and as the bonds kept going up it earned about $11 million of extra fees), but that doesn’t seem to have been its motivation. It just liked the bonds and wanted to keep them, and the most convenient way it found for keeping them was by selling them to itself at ever-increasing prices.
+
+So, right, that was an explanation, but it was kind of a dumb one? It makes sense that Chatham would need to sell the bonds from one fund and that it would want to buy them in another fund. But why trade them at ever-increasing prices? That answer is not especially satisfying. The fact is that there was not much of a market for these bonds outside of Chatham — it owned most of them and mostly had to trade with itself — and so there really wasn’t some easily determined fair-market value for the bonds.
+So Chatham would sell the bonds to a broker,
+  [1]
+ and then buy them back from the broker (in a different fund) a day or so later. The brokers could have tried to buy and sell the bonds at fair-market prices — they could have analyzed the credit and said “well based on the trading prices of comparable companies’ bonds, these bonds should be worth about 85 cents on the dollar, so we’ll pay you 84.5 for them or sell to you at 85.5” — but, for thinly traded risky bonds, that would have been tough, and the brokers knew that Chatham would buy them back anyway. (Because Chatham told them it would.) So instead Chatham would just call a broker up and say “hey buy these bonds from us at 90,” and the broker would, and then a day later it would call the broker back and say “okay we want those bonds back, we’ll pay you 90.5,” so the broker could make a little commission for doing this.
+  [2]
+
+And apparently Chatham never thought to sell the bonds (to itself!) for less than it paid for them: It just based each trade’s price on the bond’s trading history, which meant its own previous trades, which involved markups for the brokers. So next time it would call the broker and sell for 90.5 and buy back for 91, etc., and eventually the prices got comically high.
+Anyway this is not allowed, you are supposed to trade at real market prices, etc. In some sense it is a little complicated to explain why this is not allowed. The  SEC’s complaint says it violated rules against “engaging in any transaction, practice, or course of business which operates as a fraud or deceit upon any client or prospective client,” which is a little generic. The SEC also says that it violated  Rule 17a-7, which regulates trading between two different funds run by the same manager, but of course the point here is that Chatham wasn’t trading directly between two of its funds — it was selling to an outside broker and then buying back from that broker — so that is at least debatable.
+But in another sense … I mean, if you are trading National Enquirer bonds with yourself at a lower yield than Apple bonds, you have to know that’s bad, right? Again, this was an anomaly that people talked about at the time; it was obvious to random bystanders that something fishy was going on with the AMI bonds. If you were doing the trades — if you were a professional hedge fund manager trading bonds with yourself at crazy prices — surely you would have noticed that they were fishy? Surely you would have been like “hmm is there a different thing we could do?”
+Anyway Bloomberg’s   Sridhar Natarajan reports:
+
+Wall Street firms usually grumble in private after getting punished by regulators. Anthony Melchiorre’s Chatham Asset Management is dragging its advisers into a public legal battle for $100 million.
+The $6 billion hedge fund is demanding that Adviser Compliance Associates not only cover Chatham’s costs for settling a US probe last year, but also damage to its business. In an unusual lawsuit, Chatham claims the outside consultant, founded by former regulators, failed to prevent trading practices that ran afoul of authorities. …
+“Chatham sought, received and followed advice from ACA that certain trading practices did not run afoul of the SEC’s cross-trading rules,” Melchiorre, 56, said in a statement through a spokesman. “ACA gave it improper advice and failed to flag these trades as problematic.” The hedge fund intends to vigorously pursue the matter, holding ACA accountable, he said.
+
+I’m torn? On the one hand, whatever your compliance consultant does or does not tell you, if you run a hedge fund and are trading bonds with yourself at increasingly irrational prices surely you can figure out that is fishy? On the other hand, if you do have a compliance consultant … I mean, yes, fair, they should tell you that’s fishy? ACA says, no, we didn’t know that Chatham was setting the prices itself:
+
+ACA had tried to get the case thrown out. The investment firm is seeking “to foist blame on Adviser Compliance Associates for Chatham’s own violations” of federal securities laws and SEC rules, the consultant’s attorneys wrote last year in their motion to dismiss the lawsuit.
+The SEC found the hedge fund and Melchiorre set the prices for the trades in question, the lawyers noted. And nothing in the complaint “alleges that Chatham ever informed ACA that it was pre-arranging the sales prices of the bonds, or that ACA knew of the practice, much less that ACA advised Chatham to engage in it.”
+
+Fine, sure. (Here are  Chatham’s complaint, ACA’s  motion to dismiss, and the  judge’s ruling from last month declining to dismiss the case.) But, again, ACA could see the prices! Chatham was like “it’s cool if we sell these bonds to brokers and buy them back right,” and ACA was like “sure that’s fine,” and Chatham kept doing it at insane prices and ACA kept being like “cool, still fine”? The judge says (citations omitted):
+
+According to Chatham, ACA had numerous opportunities to detect and correct its error but failed to do so. For example, ACA conducted annual compliance program reviews and mock audits, which were intended to identify compliance issues with respect to the Investment Advisers Act, the Investment Company Act, internal policies and procedures, best practices, and regulatory expectations. In conducting these reviews, ACA interviewed employees and reviewed Chatham’s books and records, policies and procedures, and compliance documents. ACA also had access to Chatham’s trading system, electronic communications, Bloomberg chats, and all information it requested. Although ACA conducted these reviews in 2017 and 2018, it failed to flag the hundreds of Rebalancing Trades that occurred after 2016
+Likewise, ACA failed to address the Rebalancing Trades in connection with the SEC examination that occurred in 2018. In May 2018, the SEC notified Chatham that it would conduct an onsite examination, and in June 2018, Chatham’s Chief Operating and Compliance Officer participated in a “pre-exam” call with the SEC. In these communications, the SEC not only requested information and documents, but also inquired into whether Chatham conducted cross trades among the funds its managed. The previous year, the SEC had announced that controls over cross trading was a priority for the agency. Despite this development—and despite its involvement from the outset and its participation in the pre-exam call—ACA did not flag the Rebalancing Trades. Nor did ACA address the Rebalancing Trades during the onsite examination, which ACA’s Lead Engagement Partner attended. Instead, ACA only began to scrutinize the Rebalancing Trades after the SEC requested information about these transactions and indicated that it would return for another onsite examination. Specifically, ACA used proprietary software to scrutinize the Rebalancing Trades but failed to find any issues. Thus, ACA failed to prepare Chatham for the subsequent onsite examination, which took place October 2018.
+
+Yeah I mean that does seem like bad compliance consulting! Really if you are doing something obviously fishy you should just knock it off, but also, separately, if you have a compliance consultant, they should tell you to knock it off.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Elsewhere in bad consulting
+    
+  
+
+Here is an  SEC enforcement action against Aon Investments USA Inc. that has the quality of a nightmare. Aon acts as an adviser and consultant to the Pennsylvania Public Employees’ Retirement System (PSERS), a public pension fund, and calculates the fund’s investment returns. PSERS asked Aon to do a calculation for it, based on PSERS’s historical returns. The details are not that important, but if the calculation produced a number of 6.36% or higher, that was good. If it produced a number lower than 6.36%, that was bad,  and “public school employees would be required to contribute more to the retirement fund going forward.”
+In 2020, Aon did the calculation and got 6.38%: close to the line, but fine. But some PSERS employees noticed that “some of the quarterly returns in the spreadsheet provided by Aon did not match the historical quarterly returns previously reported by Aon for those periods.” That is a terrible thing to notice. If your client notices that some of the historical quarterly returns in your spreadsheet do not match the historical quarterly returns in their spreadsheet — or, worse, in your own previous spreadsheets — then the best approach is probably to delete all the spreadsheets, delete Excel, take a baseball bat to your computer, change your name, grow a beard, and set sail for a deserted island. This is not legal or investing or consulting advice but, honestly, what are the chances that you will efficiently identify and fix the source of the discrepancy? Better to start over on an island, far from any spreadsheets. Just read this passage and imagine being Aon Employee A:
+
+On June 17, 2020, PSERS staff asked Aon Employee A to verify the quarterly return rates provided on the spreadsheet for fiscal years 2014-2017 “since some of those are significantly different from what we have on record.” About an hour later, Aon Employee A responded that they “just double checked and the quarterly returns I sent [on June 12] do match what we have in our system.”
+On June 19, 2020, PSERS staff asked Aon Employee A whether the discrepancies in return rates that had been identified were due to subsequent adjustments to the return rates that were reported in prior quarterly reports. On the following day, Aon Employee A responded, “I assume so, yes but I don’t know what historical numbers you’re referencing.”
+
+Just the worst possible emails to get. “I assume so, yes but I don’t know what historical numbers you’re referencing” is, in this context, a pretty good answer (not legal advice, and apparently the SEC disliked it), but it would be even better to disclaim even more knowledge. “I’m sorry, I don’t know what historical numbers you’re referencing, or who you are, or what a number is, or how to use email, please never contact me again.” It’s not going to get better. The rest of the SEC order gets worse:
+	Aon tries to figure out why its numbers are slightly off.	It thinks of promising ideas — maybe one private equity fund in the portfolio retroactively adjusted its performance reporting? — and looks into them and finds out that they don’t explain the discrepancy.	It throws out those ideas to PSERS anyway to, like, suggest that it is on top of the problem? For lack of better ideas? Gotta say something.	PSERS sends around increasingly agitated letters saying things like “I have been unable to locate past documentation provided to the Board that would explain these reporting differences. Perhaps something has been missed, but ….” 	Universal despair.
+
+The SEC’s press release says that the Aon partner involved “misrepresented to PSERS that the discrepancy was not due to errors when, in fact, she did not know the reason for the discrepancy,” and that “ultimately, the discrepancy turned out to be due to errors in the underlying data.” But the actual order just sort of trails off. As far as I can tell, nobody ever figured out what happened:
+On April 16, 2021, Aon sent an update letter to PSERS’s CIO. Although the Aon Partner had given PSERS the impression that Aon had identified and determined the exact cause of the error, the update letter referred to Aon’s “continued review” and indicated that “Aon fully understands that its responsibility to report to PSERS is ongoing and will supplement the information related here when and to the extent appropriate and, of course, as may be responsive to any questions PSERS may have.” The letter further explained that “all indications are that the issues here reflect inadvertent clerical mistakes at a data-entry level.” The letter concluded that “Aon is determined to ascertain all pertinent details surrounding the issues here and will provide it as our comprehensive review continues.”
+Someone just put the wrong numbers in the spreadsheet, somehow, at some point, probably. Nothing to be done about it. Anyway the corrected calculation produced 6.34%, which is bad. 
+
+  
+    
+      SPAC SPAC SPAC
+    
+  
+
+The central problem of securities regulation is:
+	The lighter the regulation, the easier it is for people to invest in exciting new businesses and technologies that could transform the world and make them rich. (And the easier it is for entrepreneurs to raise money for those businesses.)	The lighter the regulation, the easier it is for people to get ripped off by exciting new businesses and technologies that are fake or stupid.
+
+It’s not really the case that there’s a dial you can turn between “INNOVATION/FRAUD” and “NO INNOVATION/NO FRAUD,” but it’s kind of the case. And of course you cannot turn the dial all the way in either direction. If you want no fraud at all, you’ll have no investment opportunities. And if you want maximum freedom for innovation and fraud, then nobody will trust the market — because there are too many scams — and it will actually be harder for companies to raise money for good ideas, and for investors to find investments.
+  [3]
+
+There is a widespread, though not universal,  sense that in recent years the dial for US public companies maybe got turned a little too far toward NO FRAUD.
+  [4]
+ I mean, there’s still plenty of fraud. But public companies in 2024 tend to be bigger, older, more stable and more profitable than they were in 1994, and there are  fewer of them: A small (or even large) business that would have been a viable public company a few decades ago now is more likely to stay private. This is probably partly a matter of regulatory changes (public-company reporting and compliance has gotten more expensive), but it is also largely a matter of changes in the capital markets. The public markets are more dominated by large institutional investors who want to be able to make large investments in large companies, rather than retail investors who’d put $100 into something speculative; meanwhile much more money is available in private markets, so there is less need for midsize companies to go public.
+But the result is that if you are a regular public investor it is harder than it used to be for you to buy stock in small, speculative companies. Those companies are now private and venture-funded; the public companies — the ones you can buy — are bigger and more stable. Which means that you are cut off from a lot of 
+	exciting, small, risky, not-yet-profitable companies that will turn out to be the next Amazon or Tesla, and	exciting, small, risky, not-yet-profitable frauds.
+
+This is a genuine tradeoff! You might want more access to the companies at the future, even if that also means more access to frauds.
+In the early 2020s, special purpose acquisition companies became popular as a regulatory technology to solve this problem. For these purposes, the essential thing about SPACs is that they allowed companies to go public while marketing themselves to shareholders based on projections. In ordinary initial public offerings, the company will report its historical financial results, but will try not to put any projections of future financial results in writing, because if those projections turn out to be wrong, it will get sued. The result is that it is easier to go public via IPO if you have good historical financial results, if you’ve been around for a while and have profits, or at least revenue.
+In a SPAC, however,  there is a (somewhat controversial) view that you can put your projections in writing and not get sued.
+  [5]
+ This means that a SPAC company can go around marketing itself to investors based on projections rather than on historical financials. So, say, an electric-vehicle company that has never sold a car, but that has big plans to sell a billion cars a year by 2029, can tell you that. It can market based on the future rather than the past.
+(I should say that  this difference is overstated. Any company doing an IPO will market itself based on projections, but the projections will be in roadshow meetings and analyst reports that are not filed with the SEC and so not subject to lawsuits. Institutional investors will have a good sense of the company’s future plans, but they won’t be easily accessible to retail investors. A SPAC makes the projections more accessible, including to retail investors.)
+The obvious result is:
+	SPACs let more exciting early-stage, speculative, pre-revenue companies go public; and	A lot of those projections  turn out to be wildly inflated, and SPAC investors lose money when those companies fail.
+
+Again: a tradeoff! One that you might be fine with! Or not.
+From a market perspective, the market was pretty comfortable with this during a boom in private tech startup valuations: When everyone wanted to get access to speculative tech companies, SPAC investors also wanted that. And then when that boom ended and a lot of SPAC companies collapsed, the market stopped being comfortable: When SPAC investors were repeatedly burned, they stopped buying SPACs. Circle of life.
+From a regulatory perspective, though, the current US Securities and Exchange Commission  has never really liked SPACs, and yesterday it adopted new rules regulating them. The rules require various new disclosures about the conflicts of interest and other  investor-unfriendly features of SPACs, but the big thing is that “the rules make the Private Securities Litigation Reform Act of 1995 safe harbor from liability for forward-looking statements unavailable to certain blank check companies, including SPACs.” So now, if you market a SPAC based on projections, you can get sued, just like in an IPO.
+I assume that this will be bad for the SPAC market going forward, though I don’t really know. (The SPAC market is  pretty dormant right now anyway.) Perhaps it will adapt, and SPACs will be another technology (like IPOs and direct listings) for taking companies public; perhaps it will evolve into things like  Bill Ackman’s SPARC.
+But whether or not SPACs survive as a technology, yesterday the SEC killed them as a regulatory arbitrage: SPACs are no longer a way to go public based on projections (without getting sued). They are no longer a way for regular retail investors to access a different type of company, the small, risky, speculative kind, the kind that is either exciting or doomed.
+  [6]
+
+
+  
+    
+      Interest-bearing stablecoins
+    
+  
+
+The way the stablecoin business works is:
+	You send $1 to a company (the stablecoin issuer), and it sends you back a token representing “one dollar, but on the blockchain.”	If you want your dollar back, you can (probably) give the issuer back the token and get back the dollar.
+  [7]
+
+	The issuer invests your dollar and earns interest.
+
+In a zero-interest-rate environment, the issuer didn’t earn much interest, but it earned some, and it kept it: You were so grateful to be able to hold a dollar on the blockchain, and rates were so low, that you didn’t worry about earning interest. (Also, when crypto was booming, you could invest your stablecoin into some crypto lending protocol that would probably pay you 20% interest, so the issuer didn’t need to pay you anything.)
+In a 5% interest-rate environment, the issuer earns way more interest, but it’s awkward for them not to pay you any. You can get 4% or 5% interest in an insured bank or a regulated money-market fund; why should you get zero from some weird crypto startup?
+You might expect there to be a straightforward market-driven move to stablecoin issuers paying interest, but there are complications. One is that stablecoins are largely trading instruments, tools for trading crypto and making payments, and so liquidity and usefulness are more important than yield. The biggest stablecoins (Tether, etc.) have the most liquidity and utility, so crypto traders are not going to abandon them for some smaller weirder tokens that pay interest, so there’s not much pressure on them to pay anything.
+The other complication is that a stablecoin that pays interest is   pretty clearly a security under US securities laws, so if you wanted to issue one in the US you’d have to register it with the SEC, and you don’t want that and the SEC doesn’t want that. “We’d love to pay you interest, but if we did we’d get in trouble with the SEC” strikes me as not a bad excuse for a stablecoin issuer: It happens to coincide with the issuer’s own economic interests, but it’s also probably true.
+Anyway Bloomberg's Hannah Miller, Muyao Shen and Olga Kharif report on   efforts to crack the interest-bearing stablecoin problem:
+
+It involves a tantalizing ambition that, in theory at least, sounds simple on paper: Create a so-called stablecoin that tracks the US dollar one-to-one while paying investors yields that are competitive with those available in traditional markets. …
+“The yield component raises US federal securities-law issues unique to these types of products, which is why the majority of these are offered exclusively offshore,” said Michael Selig, partner at law firm Willkie Farr & Gallagher LLP. ...
+Still, these risks and lack of regulatory clarity haven’t dissuaded venture capitalists, who have poured billions of dollars into the crypto industry over the years and these day are fielding a plethora of pitches related to stablecoins.
+At Castle Island Ventures, founding partner Nic Carter said his firm’s last five deals, including Mountain Protocol, have all been related to stablecoins. “It’s my number one sector right now,” he said, noting that the tokens have much potential for use by fintech companies as well as for remittances and payments on mobile apps.
+Carter said he’s particularly excited about interest-bearing stablecoins. He said these products are gaining traction in Latin America, where customers may not have access to stable currencies, US banking accounts, money-market funds, Treasuries or other savings vehicles.
+
+Even beyond stablecoins, there is a general category of financial story that is like “somebody convinces venture capitalists that reinventing banking is a good idea,” and those stories often end up in, uh, interesting places. (A lot of fintech stories are that sort of story, but the story of FTX is really that sort of story.) Reinventing banking is a great idea! You can make a lot of money, pretty consistently, by taking risks that your venture capitalists don’t notice. “We’ll take deposits, pay interest, invest the deposits, earn more interest than we pay, keep the spread and not be subject to bank capital or prudential regulation” is a great trade some large portion of the time, surely large enough to raise some venture capital.
+
+  
+    
+      Things happen
+    
+  
+
+China's $6 Trillion   Stock Wipeout Exposes Deeper Problems for Xi. Blackstone plans  deal spree to pre-empt market revival. EquiLend, a  Securities Lending Platform, Hit by Cyberattack.  Insurers Rake In Profits as Customers Pay Soaring Premiums. Edinburgh’s Top Fund Managers   Slash Jobs After Assets Drain Away. Atlanta’s   Squatter Problem Is Vexing Wall Street Landlords. Retailers Return to Bringing in Inventory ‘Just in Time.’ Many Younger Americans Don’t See a   Path to Retirement. Sam Bankman-Fried Is  Still Messing Up Bitcoin’s Big Comeback. “Not since the Boston Tea Party has  mixing tea with salt water roiled the Anglo-American relationship so much.”
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] The  SEC complaint calls them “brokers,” but it means broker-dealers, since they bought the bonds on their own balance sheets rather than just connecting buyers and sellers. But the SEC says they were *mostly* brokers: “The business model of several of the Rebalancing Brokers was to ‘match’ buy and sell orders from their customers. Those Rebalancing Brokers ordinarily did not purchase securities for their own inventory—i.e., put the firm’s own capital at risk—or they did so on a very limited basis. Nonetheless, the vast majority of the Rebalancing Trades involved at least one Rebalancing Broker that purchased bonds into its firm’s inventory.” That is, usually they didn’t buy bonds for their balance sheet, but they did for Chatham because they knew they were not really at risk.
+
+
+  [2] To be clear all these numbers are fake, but this is the mechanism the SEC complaint describes. “Over time, an understanding developed on the part of the Rebalancing Brokers that whenever Melchiorre placed an order to sell one of the AMI Bonds for a Client, he would repurchase it for another Client, either directly the following day or days, or indirectly through another broker. … The Rebalancing Brokers stood to benefit from the Rebalancing Trades because they expected Chatham to repurchase the bonds at a higher price, and it typically did so. Melchiorre proposed the price for the Rebalancing Trades and the Rebalancing Brokers agreed to it without first soliciting bids from other market participants. When proposing a price for Rebalancing Trades, Melchiorre considered a number of factors, which included the prior day’s price as reflected in prices published by a pricing service. Those published prices would have been influenced, to some extent, by Chatham’s own trading. When purchasing the AMI Bonds, Melchiorre also added a spread to compensate the Rebalancing Brokers. For example, in the case of a Rebalancing Trade executed through a single Rebalancing Broker overnight, Chatham would repurchase the AMI Bonds for a small spread above what it had sold the AMI Bonds to the broker the day before.” 
+
+
+  [3] We 
+talked about this the other day in connection with crypto. I wrote: “All the downsides of stock — the fiduciary duties, the sharing of the value of the business, the disclosure obligations — are not incidental; they are not just arbitrary punishments visited on entrepreneurs who issue stock. They’re the point. The reason that entrepreneurs can raise money by issuing stock — they can get real dollars in exchange for pieces of paper saying ‘this is a share of a business that doesn’t exist yet’ — is that there is a highly developed system of obligations that reassures investors that those pieces of paper have value. The investors get some rights, some control, some economic ownership, some legal and regulatory protections, in exchange for their money. And that is why they are willing to part with their money.” 
+
+
+  [4] For instance, SEC Commissioner Hester Peirce, dissenting from yesterday’s SPAC rules, wrote: “SPACs can expand retail investment opportunities by increasing the pool of companies in our public markets. As many observers have noted, the number of public companies has been dropping in the United States. In 1996 there were more than 8,000 listed companies on U.S. stock exchanges. In mid-2022 (the last data available), that number was just over 4,200. For context, real GDP has increased by 80% over the same period. The 1990s saw an annual average of around 412 IPOs, while that average was only 248 IPOs over the last ten years. Without SPACs, the more recent annual average drops to 132 IPOs, while the 1990s average remains largely unchanged.”
+
+
+  [5] This is because technically, in a SPAC, you are going public through a merger with a shell company rather than through an IPO; US securities laws give a “safe harbor” to projections for most companies, but IPO companies are excluded. Since the SPAC merger is not an IPO, it arguably gets the safe harbor.
+
+
+  [6] Peirce again: “Not only is the Commission removing a potential avenue for bringing small companies into the public market, but it also fails to acknowledge, let alone grapple with, real issues around the public markets’ accessibility for small companies. The popularity of SPACs with certain types of companies was an indicator that the traditional IPO process was not working for these kinds of companies.”
+
+
+  [7] Often this is more complicated — not *everyone* can trade directly with the issuer, so you have to sell for a dollar to someone who can — but close enough.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckbeam.647s/7a9a3e2b.gif" alt="" border="0" /></a>

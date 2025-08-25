@@ -1,0 +1,188 @@
+# Money Stuff: Robinhood Is More Fun With Options
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Thu, 5 Aug 2021 12:44:51 -0400 (EDT)
+**Source:** inputs/saved_emails/Money Stuff Robinhood Is More Fun With Options_Thu,_5_Aug_2021_12-44-51_-0400_(EDT)_17b1734196edf6e9.eml
+**Processed:** 2025-08-24T19:13:12.076872
+
+
+
+  
+  
+    
+      
+        
+          
+            
+          
+        
+      
+
+
+        
+            
+                
+                    
+                
+            
+        
+    
+
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          Programming note: Money Stuff will be off tomorrow, back on Monday.
+  
+    
+      Robinhood: options
+    
+  
+We  talked yesterday about the wild rally in Robinhood Markets Inc. stock, which was up 24% on Tuesday and then up another 50% yesterday. It closed yesterday at $70.39, well above the $38 price in its initial public offering a week ago. My analysis of the situation was basically to shrug and say “meme stocks, man,” but I did point to a couple of factors — buying the dip, diamond hands — that are often important to meme-stock rallies.I missed a really important one, though, which is the frantic buying of short-dated out-of-the-money call options. This has been a long-running theme in meme stocks: Retail traders will buy call options on a meme stock gambling that it will go up a lot quickly. Options market makers will hedge the call options they sell by buying the stock, which will make it go up. As it goes up, the options will get more in-the-money, which requires the market makers to buy more stock to adjust their hedge, which makes it go up more.When I lay it out like that it sounds like free money, an automatic machine to make stocks go up, and plenty of people on Reddit do lay it out like that and argue that it’s free money and a way to make stocks go up automatically. If you had asked me about this last year, I would have said, no, you are misunderstanding, you are exaggerating, the world doesn’t work that way. (In fact I  sort of did say that.) Sure if you buy a call option the market maker is going to hedge by buying some stock, but you are just one atom in a giant diverse stock market; other people are buying and selling stock and call options and put options for their own reasons, and the fact that you and your little friends bought some calls doesn’t mean that the stock will definitely go up. Options are a leveraged way to bet on stocks; they do accelerate moves up, but they also accelerate moves down. And retail options trading just doesn’t seem like it would be big enough to move stocks that much. Options are a derivative bet on what the stock will do; it would be weird for the options-trading tail to wag the stock-market dog.After January’s  rally in GameStop Corp., I … am not sure I believe that anymore? I am not sure what I do believe. But I am open to the possibility that, like, a major driver of stock-market moves is retail YOLOing of weekly-expiry out-of-the-money call options?[1] I don’t know what else to say about that possibility. It makes me want to go back to bed. “Stock prices discount the expected future cash flows of operating businesses,” naive beginners think, but those who are enlightened know that stock prices are actually just a side effect of weekly call options, an entertaining online gambling product. Why.Anyway here’s why Robinhood actually went up yesterday? I guess? Ugh, I don’t know:Investors piled into Robinhood options on their first day of trading Wednesday, helping send the stock up sharply. Robinhood, which made its debut on Nasdaq last week at $38 a share, closed Wednesday at $70.39, an 85% jump from its initial-public-offering price. ...The sharp moves in Robinhood’s share price Wednesday coincided with a rush of trading in the options market. More than 300,000 contracts had traded by the afternoon, according to Cboe Global Markets. Many of these were contracts expiring in just weeks.“Option traders waste no time in [Robinhood] as shares explode,” Cboe’s Henry Schwartz wrote in a note Wednesday.The options activity indicated that traders were placing wide-ranging wagers on Robinhood shares. Options allow traders to hedge their portfolios or make directional bets on individual companies and broader indexes. Call options give investors the right to buy shares at a specific price later in time. Puts confer the right to sell.The most popular options were calls tied to the shares’ continued advance throughout the day, Cboe data show. These were pegged to a so-called strike of $70, well above where the shares started the day.Overall, though, put options were narrowly outpacing call options changing hands. Other popular options contracts included puts tied to the shares plunging to $20 or $30.Yeah look “people on Reddit started making risky bets on Robinhood stock as soon as they were allowed to” is a totally fine story, it’s “… and the stock immediately doubled because of it” that is bizarre. Robinhood was a $30 billion company when its stock started trading, and a $60 billion company when its options started trading. “Why is everyone talking about HO)D, no options yet, has it really even IPOed,” someone asked on Reddit on Tuesday, and … sort of not?When Robinhood filed its prospectus for this IPO last month, we talked a bit about its business. What is that business? Well, it’s the business of getting people to trade a lot of stock options.  I wrote:It is tempting to joke that Robinhood is a Dogecoin brokerage, but it isn’t. Economically, Robinhood is an options brokerage. Robinhood’s main business is convincing people to trade options, and then having options market makers pay to take the other side of those trades. In the first quarter, $197.9 million of Robinhood’s revenue came from payment for options order flow, representing 38% of its total revenue; stocks and crypto were 26% and 17% respectively. …If your model is that Robinhood is the brokerage of fun investing, then options offer even more fun than stocks, so it makes sense that they’re Robinhood’s most lucrative business.When Robinhood went public last week and allocated 25% of the IPO shares to its retail customers, and then the stock dropped, that seemed, you know, bad for business. Customers want to use Robinhood to buy stocks that go up, and if they all buy Robinhood stock and it goes down then they will be disappointed and spend less time on the app and make less money for Robinhood.But none of that is very important, because really what Robinhood customers want is to use Robinhood to buy options that go up, and that’s really what Robinhood wants them to do, because that’s how it really makes money. The fact that Robinhood customers got to start buying options this week, and it worked well, is good for Robinhood’s business. It is good and salient advertising for the product that makes Robinhood the most money. The possibility that buying short-term out-of-the-money call options on a meme stock is a good way to make that stock go up and make your options pay off is … look, very very very weird … but also good news for Robinhood. You might even expect it to increase the present value of Robinhood’s future cash flows. Maybe that’s why the stock went up.
+  
+    
+      Robinhood: lockups
+    
+  
+Meanwhile  here’s this:Robinhood Markets Inc. tumbled after shareholders filed to sell nearly 100 million Class A common shares less than a week after its initial public offering.The trading platform’s stock dropped as much as 17% to $58.30, after early investors proposed to sell up to 97.88 million of shares over time. None of the proceeds will be received by Robinhood, with the selling stockholders getting all of the funds from the sales, according to a filing with the U.S. Securities and Exchange Commission. The listed sellers are some of Robinhood’s biggest investors and together combine to hold more than one-third of the firm’s current outstanding shares.The largest of those holders, Venture capital firm New Enterprise Associates, plans to trim its roughly 10% stake by about 3.9% or 2.9 million shares. Other sellers named in the filing include entities affiliated with Amplo, Andreessen Horowitz, ICONIQ Capital and Ribbit Capital.Such early selling by major investors highlights another unusual quirk of Robinhood’s IPO. While most public offerings these days are accompanied by a six-month lockup period where insiders are barred from touching their holdings, employees and directors at Robinhood were able to sell a portion of their shares as soon as the first day of trading.It’s not quite that bad: If you read way in the back of the filing you will see that only about 49 million shares are eligible for sale now; the other 49 million shares have to wait another 28 days. Still. The stereotypical way that IPOs are supposed to work is:	The company sells a bunch of stock at the IPO price to institutional investors.	Then the company and its insiders can’t sell any more stock for six months.	Meanwhile retail investors couldn’t buy in the IPO, so they have to buy the next day.So after the IPO, there is a ton of demand and no supply, so the stock goes up, and the institutions who bought in the IPO get a quick profit. This is good for them, but it is also, in a world where everyone understands this dynamic, good for the company: It can sell stock at a higher price because the institutional buyers can bank on lots of demand and limited supply.In the Robinhood IPO, the company sold a bunch of stock to retail investors at the IPO price, and the lockup agreement is, let’s say, porous. This reduces post-IPO demand and increases supply. This is bad, in expectation, for the institutional investors who bought in the IPO. Those institutions knew that, and so the IPO priced somewhat anemically at the bottom of its marketed range. If Robinhood hadn’t sold to retail and had included a strong lockup, it might have been able to get a higher price. (Or not!) But then its insiders wouldn’t be able to sell now, when the selling happens to be good. Because while Robinhood did not, in fact, have a traditional IPO pop — it was down 8.4% on its first day of trading — it closed yesterday, a week after the IPO, 85% above its IPO price. Because of options or whatever. If you run a private company looking to go public, letting your early investors sell quickly at a high price might be more important than maximizing the IPO price.
+
+
+        
+            
+                
+                    
+                        
+                            
+                                
+                                    Sponsored Content
+                                    
+Death of Doge? 
+
+How do billionaires and hedge funds invest outside the market without touching scam coins or meme stocks? 
+
+They diversify millions into an overlooked alternative asset class that's projected to grow by $1 trillion by 2026. That’s HUGE. 
+
+An exclusive investment platform is unlocking this untapped asset class for all investors.
+
+Explore this investment using this private Money Stuff link.
+
+*See disclaimer
+
+                                    Masterworks 
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+  
+    
+      Everything is securities fraud
+    
+  
+You know how it goes:In a proposed class-action lawsuit, Activision Blizzard shareholders argue that they were "economically damaged" by company executives withholding information and allegations that have recently come to light through a California Department of Fair Employment and Housing (DFEH) discrimination and harassment lawsuit against the company. …To support that claim, the lawsuit cites multiple SEC filings Activision Blizzard made from mid-2016 onward. Those filings included boilerplate language regarding the risks to the business imposed by various legal matters. Activision Blizzard said that "such routine claims and lawsuits are not significant and we do not expect them to have a material adverse effect on our business, financial condition, results of operations, or liquidity," the suit says.That line and similar ones in the filings hide the fact that Activision Blizzard had fielded "numerous complaints about unlawful harassment, discrimination, and retaliation [that] were made to human resources ("HR") personnel and executives which went unaddressed," according to the complaint. The complaint goes on to suggest that "the pervasive culture of harassment, discrimination, and retaliation [at the company] would result in serious impairments to Activision Blizzard's operations." …[Tuesday] morning, Activision Blizzard announced that Blizzard President J. Allen Brack is stepping down after nearly 16 years with the company. That move comes after thousands of Activision Blizzard employees signed a petition decrying the company's initial response to the California lawsuit and hundreds took part in a one-day "Walkout for Equality" last week while demanding action on numerous fronts.I should say that the Ars Technica article I’m quoting is about one proposed lawsuit from one law firm, but if you go to ATVI US <Equity> CN on Bloomberg you will see lots of “investor alerts” and “shareholder action notices” from plaintiffs’ law firms trying to drum up customers to bring a class action suit. It is hard to sue a company for sexual harassment; each case is different and litigation will be emotional and fact-specific. It’s pretty easy to sue a company for a stock drop related to sexual harassment, though, so everyone does.
+  
+    
+      Microstrategy
+    
+  
+Speaking of Everything Is Securities Fraud, if you run a smallish software company and it pivots to being a giant levered bet on Bitcoin, is that securities fraud? To be clear, my general answer is “no,” and MicroStrategy Inc.’s pivot to Bitcoin is extremely well-known and well-disclosed and not at all a secret or a fraud. Also it has been, so far, a very good corporate finance decision: MicroStrategy “made Bitcoin the principal holding in its treasury reserve strategy” in August 2020; since then Bitcoin is up about 250% and MicroStrategy’s stock is up about 400%.At the same time, though, everything is securities fraud, and Bitcoin is volatile. In the last year, MicroStrategy has taken on about $2.2 billion of debt to accumulate a hoard of about  $4.1 billion worth of Bitcoin. If the price of Bitcoin falls by 50%, it will be in trouble. If this happens, will people sue MicroStrategy and its directors and officers, alleging securities fraud (“you told us you were buying Bitcoin but you didn’t tell us it was stupid,” etc.) and breach of fiduciary duty? Of course, yes, everything is securities fraud.And this is a big enough risk that MicroStrategy has had trouble finding an insurance company to insure against it. “Due to market trends toward higher premiums and the novelty of our bitcoin acquisition strategy, we have been unable to obtain director and officer liability insurance on acceptable terms,” MicroStrategy said in its 10-Q last week. And so:In June 2021, Michael J. Saylor, the Company’s Chairman of the Board of Directors & Chief Executive Officer, entered into an indemnification agreement with the Company for an initial term of 90 days. The indemnification agreement provides that Mr. Saylor will provide during the term of the agreement, from his personal funds, directors’ and officers’ indemnity coverage to the Company for the benefit of the directors and officers of the Company and its subsidiaries in the event such coverage is not indemnifiable by the Company, up to a total of $40 million.  In return, the Company paid Mr. Saylor a one-time fee of $388,945 for the initial 90-day term. At the option of the Company, the Company may elect to extend the term for an additional 90-day period for up to a total of three additional 90-day periods. The Company will pay an additional amount of $388,945 to Mr. Saylor for each additional 90-day term that the Company exercises.This is known, in the directors-and-officers-insurance business, as “the Elon Musk.” It isn’t really, but this is a thing that Tesla Inc. tried, buying its D&O insurance from Musk, its CEO, until shareholders got mad and it  changed its mind. I kind of  thought it was fine, as a matter of incentive alignment and so forth, but I guess Tesla’s shareholders did not. MicroStrategy’s 10-Q includes a risk factor about it arguably being bad:Our having entered into such an indemnification agreement with Mr. Saylor in lieu of procuring director and officer insurance offered by a third-party insurance carrier could have adverse effects on our business, including making it more difficult to attract and retain qualified directors and officers due to the unconventional nature of the arrangement and potential concerns that the indemnification arrangement might not provide the same level of protection that might otherwise be provided by conventional director and officer insurance. In addition, the arrangement may result in some investors perceiving that our independent directors are not sufficiently independent from Mr. Saylor due to their entitlement to personal indemnification from him, which may have an adverse effect on the market price of our class A common stock.For me personally, if the main risk I was worried about was “if Bitcoin goes down I am going to get sued a lot for putting all my company’s money into Bitcoin,” I would not take much comfort in an indemnity provided by a rich individual who runs the company and loves Bitcoin? Like presumably if Bitcoin goes down a lot then Saylor, who loves Bitcoin, will be less rich? You’ve got wrong-way risk on your $40 million of coverage.Still I am not sure that this is an actual problem for MicroStrategy’s ability “to attract and retain qualified directors.” They’re not going to get me, sure, but they don’t want me. They want Bitcoin believers, to serve as directors of a company that is basically a pot of Bitcoins, and if you are buying stock in a pot of Bitcoins you should also want the directors to be Bitcoin believers. Sure fine perhaps a Bitcoin skeptic on the board could improve its ability to respond to changing market conditions by dumping all its Bitcoins at the exact market peak, but honestly that is not the exposure that MicroStrategy shareholders want at this point. They want a pot of Bitcoins. And then if the price of Bitcoin goes down they're gonna sue.
+  
+    
+      Soccer accounting
+    
+  
+A classic accounting trade goes like this:	I buy a widget for $1.	You buy a sprocket for $1.	We get to chatting and formulate a plan.	The plan is: I sell you the widget for $100, and you sell me the sprocket for $100.	Net, we have each spent just our original $1. (I spent $1 on the widget, sold it for $100, and paid $100 for the sprocket.)	We each own $100 of assets. (I own a sprocket, you own a widget, and we carry them on our books at their purchase price.)	We each have a $99 profit from asset sales. (I bought a widget for $1 and sold it for $100, a $99 profit; I also have $100 of sprocket inventory for which I paid $100 and carry at its purchase price.) This is, you know, disfavored as a matter of accounting rules; if the market price of widgets and sprockets remains $1 then our auditors are not going to like us trading them for $100. Also it is a bit unsustainable; if the market price remains $1 then when I eventually sell my sprocket to an independent buyer I’m going to have a $99 loss.But in the short run it can be tempting. If, for instance, I am a hedge fund that trades obscure illiquid bonds, and you are a hedge fund that trades obscure illiquid bonds, and we do this trade with each other, then we can both report good performance and growing assets this quarter, and we can charge higher fees. And our auditors might have questions, but the bonds are obscure and illiquid so who’s to say what the market price really is?Anyway here’s a good dissection of the financial troubles of FC Barcelona, which basically kept overpaying for players until it ran out of money to buy more. It includes the accounting trade:By summer 2020, Barça’s transfer deficit was haunting Bartomeu and his board members. Under the rules that govern Spanish member-owned clubs such as Barça, directors had to repay losses out of their own pockets. The board needed to book profits urgently before the financial year ended on July 1. And so a bizarre swap transfer was concocted. The counterparty was Juventus, also eager to improve its books. Juve “sold” Bosnian midfielder Miralem Pjanic to Barça for a basic fee of €60m, while Barça sold Brazilian midfielder Arthur Melo to Juve for a basic €72m.These sums would never actually be paid. They were invented for accounting purposes. Under bookkeeping rules, each club could book its handsome supposed selling price as immediate income. The notional payments would be spread out over the years of the players’ contracts. Only €12m in actual money would end up changing hands, the difference between the two players’ fictional prices, paid by Juve to Barça. What mattered was that the swap helped both giants clean up their books.Who’s to say what the market price is for a particular soccer player? If Barça wants to pay 60 million euro for him, sure, why not. If Juve wants to pay 72 million euro for a different soccer player, sure, why not. You could make up any numbers you want! As long as the two numbers you make up are pretty close to each other! It is tempting.
+  
+    
+      Me elsewhere
+    
+  
+I went on Joe Weisenthal’s and Tracy Alloway’s Bloomberg podcast, Odd Lots, to talk with Sam Bankman-Fried, the founder of crypto exchange FTX. We talked about crypto exchanges and market structure and Tether. I had fun doing it; perhaps you will have fun listening. You can  get it here, or wherever you get your podcasts.
+  
+    
+      Things happen
+    
+  
+Hedge funds betting on bond market anomalies hit $1tn in assets mark. JPMorgan Launches In-House Bitcoin Fund for Wealthy Clients. Fed Governor Waller ‘Highly Skeptical’ of a Fed Digital Coin. Oil companies that hedge make less money than ones that don’t when the price of oil goes up. SPACs Target Emerging Markets as U.S. Competition Mounts. Companies dole out stocks and ETFs as perks to loyal customers. China’s  Biggest Bond Trader Adds Staff in New York, London. Two Ex-Bank of America Traders Accused of Spoofing Found Guilty. Former Theranos Patients Can Testify at Elizabeth Holmes Trial, Judge Rules. “I was able to become debt-free at 25 years old. But I had to get nerve damage to do it.” If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks![1] By the way, today in Bloomberg Businessweek,  Katie Greifeld has a story about the influencers of finance Twitter and TikTok. A main character is Lily Francus, who basically became famous on Twitter for quantifying how retail YOLOing of options is a major driver of stock-market moves.
+        
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like Money Stuff? | 
+Get unlimited access to Bloomberg.com, where you'll find trusted, data-based journalism in 120 countries around the world and expert analysis from exclusive daily newsletters.
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ceoisq.5ec4/40c8d97e.gif" alt="" border="0" /></a>

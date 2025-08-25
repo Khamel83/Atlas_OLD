@@ -1,0 +1,18 @@
+# Looking for the Real Mark Zuckerberg - NYTimes.com
+
+**Source:** inputs/New Docs/markdown/www.nytimes.com_2010_12_12_magazine_12FOB-medium-t.html.md
+**Processed:** 2025-08-24T19:49:25.336429
+
+# Looking for the Real Mark Zuckerberg - NYTimes.com
+
+**URL:** http://www.nytimes.com/2010/12/12/magazine/12FOB-medium-t.html?partner=rss&emc=rss&pagewanted=print
+**Date:** 2010-12-20 22:40:05
+
+---
+
+# nytimes.com
+
+Unknown author • December 12, 2010 
+
+![nytimes.com]()
+

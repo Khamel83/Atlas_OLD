@@ -1,0 +1,176 @@
+# =?UTF-8?q?Art_Rebound_Rumors_&_Schwarzman=E2=80=99s_Immortality?=
+
+**From:** Marion Maneker <marion@puck.news>
+**Date:** Sun, 18 Aug 2024 22:30:07 +0000
+**Source:** inputs/saved_emails/=UTF-8qArt_Rebound_Rumors_&_Schwarzman=E2=80=99s_Immortality=_Sun,_18_Aug_2024_22-30-07_+0000_191679ccafacb1cb.eml
+**Processed:** 2025-08-24T19:13:12.636292
+
+Welcome back to Wall Power. Tonight, we’re going to delve back into the ARTDAI data. Instead of looking at key indicators insinuating a recovery, I’m focusing on six different market segments to get a better sense of where the action is and what that tells us about relative market strength.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+Wall Power ( https://puck.news/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Wall Power ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394504186;dc_trk_aid=593546329;dc_trk_cid=220546268;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to Wall Power. I’m Marion Maneker.
+
+Tonight, we’re going to delve back into the ARTDAI data. Instead of looking at key indicators insinuating a recovery, I’m focusing on six different market segments to get a better sense of where the action is and what that tells us about relative market strength.
+
+Let’s get started…
+
+* Signs of life?: I continue to get reports from art advisors of meaningful deals in the private market. This week, I heard about another painting sold for $15 million. I recently heard another direct report about a similar-sized deal, and I’ve heard about many more indirectly—all of which suggest that the
+activity in the secondary market will eventually lead to more auction activity, or at least that’s the hope.
+
+It was a buyer’s market during the May sales and through the summer auctions in London, as one private dealer told me. (August is understandably slow on the private market and nonexistent at auction.) But, this person reported, “the auction houses are offering deals that are based upon [anticipation of] a moderate to strong seller’s market” in the fall, particularly in the sub-$5 million market. Anecdotes aren’t data, but the dealer was moderately optimistic: “The short-term indicators from my tiny sample seem to portend a stronger fall season.”
+
+* 📱Have a deal you want to tell me about?: As a reminder, you can reach me on Signal at (917) 825-1391. I’m also open to
+criticism (I have a thick skin) or just plain old gossip. Everything is confidential unless you decide otherwise. Feel free to reply to this email or send me a text or join the Wall Power SMS ( https://puck.news/wall-power-sms/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad4_title) ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394547348;dc_trk_aid=593547590;dc_trk_cid=220445407;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The art of the drive. The striking BMW 7 Series merges modern technology and timeless design to create a masterpiece. Learn more at BMWUSA.com ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394547348;dc_trk_aid=593547590;dc_trk_cid=220445407;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+* Schwarzman’s bid for immortality: I had not paid any attention to Stephen and Christine Schwarzman’s Newport restoration project until my partner Bill Cohan reported ( https://puck.news/newsletter_content/schwarzmans-soiree-the-zazquake-yaccarinos-war-3/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on the big housewarming party the couple threw last week at Miramar, their newly refurbished 8-acre clifftop estate on Bellevue Avenue. As Bill suggested, the house is a bit of a head-scratcher
+for a couple who already have residences in Nantucket, East Hampton, Saint-Tropez, Jamaica, and an estate in the English countryside, not to mention a primary home on Park Avenue. Were they really giving up on the big billionaire summer redoubts in favor of sleepy, old-ish money Newport, as an article in Air Mail had originally suggested ( https://airmail.news/issues/2024-8-10/the-affluenza-set?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )?
+
+Probably not, so why the concerted publicity push? After reading Bill’s item on the christening of Miramar—which is just a little more than a mile walk away from the most famous house in Newport, the Vanderbilts’ old Breakers—I noticed some other suggestive stories about the party, the house (which the Schwarzmans bought for $27 million in 2021), and their decision to
+convert the house into a museum that will be open to the public after their deaths. A couple of the reports included quotes from Ian Wardropper, the outgoing director of the Frick Museum in New York, where Schwarzman is a trustee. “They are really taking this seriously,” Wardropper was quoted as saying in two different outlets, “and trying to get the very best objects they can find to make this house sing.”
+
+Wardropper vouched for the quality of the Schwarzmans’ meticulous renovation of the house, which was designed in the French 18th century style and originally completed in 1915. That was three years after the death of its original owner, George D. Widener, who tragically went down with the Titanic while coming home from a trip to Europe to buy furnishings for the house. Widener, who never got the chance to live in Miramar, came from a wealthy Philadelphia family of art collectors. His father, P.A.B. Widener, who built his Gilded Age
+fortune on Civil War procurement contracts and invested in Philadelphia streetcars before eventually reaching full-fledged Robber Baron status, was a major art collector. His surviving son, Joseph Early Widener, also became an important collector. His 2,000-work donation was one of the founding gifts to the National Gallery of Art in Washington, D.C., where most of the great collections of the day found their final resting place.
+
+According to the art market people I spoke to, the Schwarzmans have staff helping with their own acquisitions, but have not worked with a particular art advisor. (Of course, a perk of being a Frick trustee is access to the museum's expertise when you need it.) Among the pieces I’m told they have acquired are a Gobelins tapestry from the Audran workshop, for the dining room, (Gilded Age folk were mad about tapestries) and a late 18th century secretary desk from Versailles. The Schwarzmans also apparently bought paintings by
+Jean-Honoré Fragonard, Élisabeth Vigée Le Brun, Jean-Antoine Watteau, Peter Lely, and John Singer Sargent.
+
+That gives us some clue about what might be going on at Miramar. The mansions in Newport may be grandiose, but they don’t contain much in the way of important art or decorative arts. So the bar is pretty low here for Schwarzman—who has also been endearing himself to the locals by repairing damage to the popular Cliff Walk that runs by the bottom of his property—to stand out. The Schwarzmans are not art collectors in the usual sense of the term, although their $45 billion net worth means they surely buy art. (They’ve got a lot of homes to decorate, after all.) If their goal was to build something to rival the great American collectors like Frick, Barnes, and Getty, they would be starting fairly late in life.
+
+Schwarzman likes to slap his name on things (like the New York Public Library).
+What I suspect he hopes to get out of sinking tens of millions of dollars into a home he’s not likely to spend more than a few nights a year in, located in a town where he’s never really spent any time, is explained in the museum being slated to be opened to the public some time in the not-too-distant future. In Newport, where the Vanderbilts’ Breakers is the town’s biggest tourist attraction, opening its doors to half a million visitors a year, Schwarzman can affiliate himself with the great fortunes of the Gilded Age and get better name recognition from all who come and see.
+
+Now, let’s get to the data…
+
+The Full-Stack Art Market ( https://puck.news/a-bull-case-for-the-art-market/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Full-Stack Art Market ( https://puck.news/a-bull-case-for-the-art-market/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+While the top of the art market has contracted, contributing to a dour mood inside the big auction houses, segmented data shows the bottom is motoring along—defying the hair-on-fire narrative of an art world recession.
+
+MARION MANEKER ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+MARION MANEKER ( https://puck.news/author/marion-maneker/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The headline number for auction transactions always gets the most attention in art market reporting. Those raw numbers are meaningful, but they are also highly misleading because the art market isn’t one market—it’s a collection of independent markets partitioned by period, style, movement, artist, and even bodies of work within an artist’s oeuvre. And, as true collectors know, the overall market can also be divided by the value of the property sold. Indeed, when I asked our friends at ARTDAI to divide the auction results from the past 17 years into six separate price categories—sales above $25 million; those between $5 million and $25 million; between $1 million and $5 million; between $250,000 and $1 million; between $50,000 and $250,000; and everything sold for below $50,000—the segmented results offered a far
+more nuanced picture of recent trends.
+
+Among the more interesting findings is the strength of the market at lower price points, defying the broader narrative of a crash. If we’re in an art market recession, no one told buyers willing to spend up to $250,000. Sure, the overall auction market hit a four-year low in the first half of 2024, potentially due to a number of factors: the rotation from contemporary artists to historical ones, consignors unwilling to take risk, and political and macroeconomic nervousness that have made selling art a lower priority. But the volume of art sold at auction actually rose in price bands between $50,000 and $1 million during the same period. And if you were selling work priced below $50,000, the volume was actually higher than at any time from late 2008 to late 2022. Moreover, the growth in the under-$50,000 sector is coming from more and more lots being sold at auction rather than prices rising in the category due
+to, say, inflation.
+
+The upshot of all of this data is that the top of the market has contracted, but the bottom half is motoring along. Buyers haven’t retreated much there, which is a good sign for the future of the market. Let’s take a look…
+
+A MESSAGE FROM OUR SPONSOR
+
+$(ad4_title) ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394547348;dc_trk_aid=593547590;dc_trk_cid=220445407;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The art of the drive. The striking BMW 7 Series merges modern technology and timeless design to create a masterpiece. Learn more at BMWUSA.com ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394547348;dc_trk_aid=593547590;dc_trk_cid=220445407;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Above $25 Million
+
+Lots that sell for more than $25 million are obviously trophy works; these sales are heavily managed by the auction houses. Consequently, the sell-through rate at this level is almost always 100 percent because the works are usually guaranteed in some way.
+
+At the same time, there can be a huge amount of variability in this price range. There have been seasons when as many as 33 works priced above $25 million have sold at auction. The peak total was the $1.7 billion spent on works priced above $25 million in the first half of 2022. Similarly, the second half of 2022 had 28 lots sell for a total of $1.5 billion; and the second half of 2021 had 27 works at this level sold for a total of more than $1.16 billion. In the first half of 2018, 28 works sold for $1.4 billion. A bit further back in the first half of 2015, there were 31 works sold for
+$1.5 billion.
+
+But there were also seasons like the first half of 2011, all of 2016, and the second half of 2019 when sales in this price band slowed to a trickle and totaled less than $500 million, sometimes a lot less. These billion-dollar swings don’t account for all of the market’s volatility, but they do explain a great deal of it. In the first half of this year, for example, only 10 works sold above $25 million, for a total of $338 million. That’s well below the average—in fact, it’s the lowest total for this sector in four years—and one reason the season has felt so disappointing.
+
+$5M to $25M
+
+Although there are occasional surprises, most of the works sold between $5 million and $25 million are by canonical artists and represent some of their best works. As with works above $25 million, there is a lot of volatility in sales volume. Sellers are very sensitive to market sentiment and broader economic momentum. Overall, volume is rising and has been more consistent over the last four years. But the first half of 2024 saw the lowest total since 2019 for this price band, which contributes to the topline drop and the current market torpor.
+
+From 2010 to 2015, the market in this price band steadily rose, with higher totals in the first half of the year and lower totals in the second half. That pattern broke in 2015. For the four seasons thereafter, results struggled to match sales in the second half of 2015. In the first half of 2018,
+sales in the price band shot up to their peak of 165 lots for a total of nearly $1.7 billion. Sales dropped by 30 percent the next season.
+
+Average prices and sales peaked again in the first half of 2022, with 130 lots and more than $1.4 billion. Sales then dropped for two seasons before recovering sharply during the last two seasons on much lower volume. This suggests the market has gotten very choosy in the $5 million to $25 million range—as it probably should be.
+
+$1M to $5M
+
+There are, on average, about 400 lots sold for prices between $1 million and $5 million each season in the auction market, and an average market volume of $870 million per season. The peaks in this price band occur when the totals reach more than $1 billion per season. That happened in the first half of 2008, 2011, 2014, 2015, 2018, 2019, and for three seasons from the first half of 2022 through the first half of 2023.
+
+That three-season run of $1 billion-plus in sales helps to explain why the present slump feels like such a hard landing. From the second half of 2020 until the second half of 2021, totals in this price band were fairly steady at around $950 million. They broke out for three seasons, averaging nearly $1.1 billion—almost a 16 percent jump. They then dropped 29 percent in the last two seasons, to an average of $780 million.
+No wonder the market mood has been so dour.
+
+Sell-through rates and the percentage of sales above the low estimate ticked up in the first half of this year. That should portend stronger performance in the fall, but that pattern hasn’t really been consistent in this price band. Indeed, it’s interesting to note that the percentage of lots sold above the low estimate in this range was about 65 percent in the first half of 2021, not a peak for this metric but as high as it had been since 2018. Then it steadily dropped until the fall of 2023. This year, that metric hit the lowest levels since 2011, even with a slight recovery in the percentage of works sold above the low estimate. All this volatility suggests that this is the band, with its wide range of artists, where buyers are confused or disagree over value.
+
+$(ad3_title) ( https://ad.doubleclick.net/ddm/trackclk/N2267083.4235865PUCKNEWS/B31862338.394547945;dc_trk_aid=593548247;dc_trk_cid=221010414;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+$250,000 to $1M
+
+This band is the heart of the art market, where savvy and deep-pocketed collectors make some of their most serious purchases. On average, there are about 1,000 of these lots sold every season. The average volume per season has been $506 million. In 1H2022, the total peaked at $655 million and 1,357 lots sold.
+
+Like the price band above, the best time to sell was probably in the second half of 2021. Since then, there’s been a slide in sell-through rates and percentage sold above the low. Even with a slight recovery in the last season, the price band is down 25 percent from the peak in 2021 to the first half of this year.
+
+$50,000 to $250,000
+
+The average volume for this band is $275 million, and the average number of lots is around 2,400. In the first half of 2023, folks sold a lot of work in this price range, but it was already a bit too late—average prices were slightly higher a year earlier. Totals also dropped the next season, to around $278 million, before recovering to $304 million, which is still above average for the 17-year period that ARTDAI analyzed.
+
+Below $50,000
+
+The average volume in this band is $89 million, and lots average around 5,000 per year. The auction houses had previously been trying to reduce the number of lots in this price band, since the costs associated with their sale is sometimes greater than the revenue the houses can generate. With the rise of online sales, however, the auction houses seem to have found a new appetite for art that sells below $50,000. In the second half of 2022, the number of lots and the dollar volume peaked. There was a slight drop in the first half of 2023, then another rise in the second half. This year, the total dollar volume fell but the average price is close to recent levels—though it is still well down from the peak in 2019.
+
+End Notes…
+
+Of course, you would never grasp these nuances by reading The New York Times’ take ( https://messaging-custom-newsletters.nytimes.com/dynamic/render?paid_regi=1&isViewInBrowser=true&te=1&nl=the-morning&emc=edit_nn_20240818&uri=nyt%3A%2F%2Fnewsletter%2F98965fa7-dfae-5fff-97b3-339296d98fd7&utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) on the market published today ( https://messaging-custom-newsletters.nytimes.com/dynamic/render?paid_regi=1&isViewInBrowser=true&te=1&nl=the-morning&emc=edit_nn_20240818&uri=nyt%3A%2F%2Fnewsletter%2F98965fa7-dfae-5fff-97b3-339296d98fd7&utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ), which is long on melodrama and cherry-picked facts and short on an actual
+understanding of market dynamics. Indeed, there’s a companion piece ( https://www.nytimes.com/2024/08/18/arts/design/young-artists-auctions-collectors.html?te=1&nl=the-morning&emc=edit_nn_20240818&utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that painfully reverses cause and effect in the art market to characterize the rotation in collector demand away from young artists as a failure of the auction market. When things go bad for young artists, everyone blames speculators, a convenient bogeyman often invoked but rarely seen. In fact, these artists’ markets are no different from hot young fashion designers or singers with one monster hit or actors who never match their debuts. Do we blame the audiences who abandoned all of these flash-in-the-pan talents, or is it easier to invent a villain? I’ll let you decide.
+
+See you Tuesday,
+Marion
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+Ari vs. Casey ( https://puck.news/ari-emanuel-vs-casey-wasserman-behind-the-billie-eilish-poaching/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Ari vs. Casey ( https://puck.news/ari-emanuel-vs-casey-wasserman-behind-the-billie-eilish-poaching/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Inside the superagent feud over Billie Eilish.
+
+MATTHEW BELLONI
+
+Angels in America ( https://puck.news/can-the-new-victorias-secret-ceo-save-the-nike-of-bras/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Angels in America ( https://puck.news/can-the-new-victorias-secret-ceo-save-the-nike-of-bras/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The rundown on V.S.’s mysterious new C.E.O.
+
+LAUREN SHERMAN
+
+Trump’s Bedminster Blues ( https://puck.news/trumps-magical-history-tour/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Trump’s Bedminster Blues ( https://puck.news/trumps-magical-history-tour/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Chronicling the latest Trump campaign turmoil.
+
+TARA PALMERI
+
+More Cable-pocalypse ( https://puck.news/bad-omen-hiding-in-nbc-olympics-ratings-bonanza/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+More Cable-pocalypse ( https://puck.news/bad-omen-hiding-in-nbc-olympics-ratings-bonanza/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The real story behind NBC’s Olympics ratings success.
+
+JOHN OURAND
+
+Puck ( https://puck.news/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=wall_power&delivery_id=dgT2xgYDAKvRKqrRKgGRZ5ydzHQWxez2DotoVUE=&utm_campaign=Wall+Power+-+SUBSCRIBERS+%288%2F18%2F24%29&utm_content=Wall+Power+-+SUBSCRIBERS+%287%2F21%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.

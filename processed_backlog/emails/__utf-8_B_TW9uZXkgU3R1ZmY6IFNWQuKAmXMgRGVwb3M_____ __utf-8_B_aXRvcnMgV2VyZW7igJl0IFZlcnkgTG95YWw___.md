@@ -1,0 +1,320 @@
+# =?utf-8?B?TW9uZXkgU3R1ZmY6IFNWQuKAmXMgRGVwb3M=?=
+ =?utf-8?B?aXRvcnMgV2VyZW7igJl0IFZlcnkgTG95YWw=?=
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Wed, 29 Mar 2023 14:36:54 -0400 (EDT)
+**Source:** inputs/saved_emails/=utf-8BTW9uZXkgU3R1ZmY6IFNWQuKAmXMgRGVwb3M==
+ =utf-8BaXRvcnMgV2VyZW7igJl0IFZlcnkgTG95YWw==_Wed,_29_Mar_2023_14-36-54_-0400_(EDT)_1872ea9727cc4791.eml
+**Processed:** 2025-08-24T19:13:11.448269
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        One lesson of the Silicon Valley Bank failure is that some bank deposits are better than others. Lots of US regional banks were doing more o
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      Depositors
+    
+  
+
+One lesson of the Silicon Valley Bank failure is that some bank deposits are better than others. Lots of US regional banks were doing more or less the same thing in 2021: They were taking money from depositors, promising to give it back whenever the depositors wanted, paying 0% interest on those deposits, and investing the money in long-term bonds at like 2% interest. Then interest rates went up and those bonds were worth much less than they used to be. If the depositors all asked for their money back at the same time, as is their right, the banks would have to sell the bonds at a big loss, leaving them without enough money to pay depositors. On the other hand if all the depositors kept their money in the bank as rates went up, without even demanding higher interest rates on their checking accounts, then the bank would be fine. The bank would be great, even: As rates go up, the bank will earn more on its assets,
+  [1]
+ but it won’t have to pay more to its sleepy and undemanding depositors. A bank with sleepy depositors would do well, a bank with antsy depositors would go bust, even if their investments were the same.
+One way to say this is that a bank with sleepy and undemanding depositors is much more valuable than a bank with nervous and demanding depositors, but it is hard to measure that. In fact bank regulation does try to measure that; it knows that some types of deposits are flightier than others, and  liquidity regulations require banks to have more cash to cover flighty deposits than stable ones. (For instance, deposits that are not covered by deposit insurance are flightier than ones that are.) But it is a crude and imprecise approach to a basically social set of questions: What are your depositors like? Do they talk to each other? When they get together, do they tend to calm each other down or work each other up?
+Another way to say it is that a bank’s assets have some duration — some sensitivity to interest rates — that is driven mainly by the official terms of those assets: A long-term fixed-rate bond has a lot of duration, a floating-rate loan has less. And the bank’s liabilities have some duration that is driven partly by their legal terms (if the bank issues long-term bonds, they have a lot of duration) but mostly by the behavior of their depositors. In some technical sense a checking account has zero duration — the customer can take her money out at any time — but in a practical sense, if all your customers keep their money in their checking accounts for years without even looking at the interest rate, that is very valuable long-term financing.
+And then the idea is basically to match the (actual, legal) duration of your assets with the (rough, behavioral) duration of your liabilities. But you don’t really know the duration of your deposits; you have to estimate it.
+Silicon Valley Bank took a lot of interest-rate risk with its assets — it bought long-term bonds and  got rid of its interest-rate hedges — perhaps because it thought it had pretty long-lived liabilities. Why not? It invested a lot in its relationships with its depositor customers — Silicon Valley venture capitalists and the tech startups they backed — and probably figured they were loyal. It took them out to nice events, it supported them when times were tough, it gave them loans no one else would give them, it worked with them to find financial solutions, it had good customer service. “Our customers love us and won’t leave if some other bank offers them 0.25% higher interest rates,” SVB could reasonably have thought, “so it’s fine if we put their money in 6-year bonds.” Also apparently a lot of SVB’s loans to startups contained covenants requiring the startups to keep their deposits at SVB, so in some rough sense the customers couldn’t leave.
+The simple story of SVB’s failure is that it had an asset-liability mismatch: It had all these demand deposits, it used them to buy long-term bonds, and when interest rates went up those bonds lost value. But the counterargument would be that SVB thought it had long-term liabilities — these locked-in, loyal deposits — and so matched its assets to its liabilities. When rates went up, its bonds became less valuable, but its loyal stable deposits became more valuable: Having cheap funding from loyal customers is even better when interest rates go up. SVB hedged the interest-rate risk on its bonds by investing in good relationships with its depositors. 
+This counterargument is not crazy! It just turned out to be totally wrong. It turned out that SVB’s depositors were not more loyal than average bank customers, but less loyal.
+  [2]
+ Here is a Bloomberg News story about how   the network of SVB customers panicked each other into a bank run:
+
+Channels like messaging platform WhatsApp, email chains, texts and other closed forums were full of chatter over the bank’s financial precarity well before those fears showed up Twitter. In tech, where executives’ networks can dictate whether companies have access to the best information, warnings about SVB had been simmering for a while when they boiled over into wider view online. 
+“It wasn’t phone calls; it wasn’t social media,” said a Silicon Valley startup founder who watched the fear escalate that week in March. “It was private chat rooms and message groups.” This person, who requested anonymity discussing private message conversations, said it was particularly alarming to hear from other founders who said they would move their money. …
+By Thursday, the worry was widespread. On a forum for Y Combinator startups, the accelerator’s president Garry Tan wrote, “Anytime you hear problems of solvency in any bank, and it can be deemed credible, you should take it seriously.” In an email thread of more than 1,000 founders backed by Andreessen Horowitz, many entrepreneurs were encouraging each other to pull cash from the bank.  David George, a general partner at the firm, weighed in somewhat cryptically: “Hi all, We know you have questions about how to handle the SVB situation,” he wrote. “We encourage you to pick up the phone and call your GP.” ...
+Matt Murphy, a partner at Menlo Ventures, said his firm alerted its startups late Thursday that a bank run was underway. By then, it had become clear to observers. The firm told all its founders to move 30% of their capital to another bank “as fast as possible,” Murphy said. “We told every partner to call every CEO. For some partners it was five calls, for others it was 14.” Murphy said the firm opted for phone calls instead of text messages or email in an attempt to have “a more calming conversation.”
+
+And:
+
+Murphy, the Menlo Ventures investor, still feels a little shell-shocked by SVB’s collapse. He had been relatively slow to move funds, he said, because up until the final moments it was far from clear that the decades-old institution would so swiftly implode. He had served on SVB’s venture capital advisory board for 20 years, along with a dozen other representatives from elite venture firms. The quarterly meetings typically focused on a single topic, which ranged from VC funding strategies in China to up-and-coming sectors.
+“There would always be great wine and great discussions,” Murphy said of the friendly roundtable discussions, where most top firms were represented. 
+
+SVB had a reasonable model of “networking with venture capitalists and making them love us and giving them wine will make them slow to move their money,” whereas in fact the right model was “having a very networked group of sophisticated customers means that they will be quite quick to move their money.” Traditional banks do not have customers who will spring into action to set up a telephone chain to cause a bank run. But Silicon Valley is efficient and scalable, so they got their money out fast.
+On the other hand First Republic Bank seems to have basically similar problems to SVB — deposit flight, interest-rate losses — and it is   not exactly in great shape. But here is   another Bloomberg article about how its customer network is more loyal than SVB’s:
+
+Sonja Perkins, an investor who had called First Republic the best bank she’s ever worked with, said she hasn’t “moved a penny.” 
+“I’m not going to join the chorus of Cassandras,” she said.
+Out hiking this month in California’s Marin County, Hint Inc. co-founder Kara Goldin said she bumped into another First Republic customer.
+“How about all this craziness?” Goldin asked the woman. 
+The bank, they agreed, will figure it all out.
+
+This is the same exact story as SVB — a network of investors and founders who bump into each other in California and chat about the craziness at their bank — but with different outcomes. SVB’s customers worked each other up and took their money out; First Republic’s customers — at least some of them — calmed each other down and kept their money in. 
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      Serta
+    
+  
+
+Schematically, here’s how distressed debt exchanges work. A company borrows $100 from creditors and then runs into trouble. It goes to the creditors and says “we can’t pay you back the $100 we owe you right now, and in fact we need another $20 to keep running our business. Tell you what: You exchange your existing loans for some new loans that mature two years later, and also lend us some new cash. In exchange, we’ll give you all of our assets as collateral, so if we go bankrupt you’ll get paid off before all of our other creditors. If you agree to this exchange, you’ll be first in line to get paid. If you don’t agree to the exchange, you can keep your old loans, but you’ll be last in line.”
+  [3]
+
+As a very general matter, loan and bond documents will be written in a way that prevents some of this sort of thing, but not all of it. You do not want to make this too easy for the company, because then paying back the money it owes would be optional; it could always go to creditors and say “hey we’ll mess up your loans if you don’t extend them,” and the lenders will grudgingly extend. But you don’t want to make it too hard for the company either, because sometimes the way to create the most value for everyone — including creditors — is to give the company a little more breathing room, and you don’t want to give creditors too much leverage to block that. In general some majority or supermajority of the creditors can get together to approve some version of this: They might be able to amend the debt documents to allow some new loans with higher repayment priority, and then exchange their own loans into those new higher-priority loans.
+  [4]
+
+Mechanically, there are two broad ways that this negotiation could go:
+	The company could go to all of its lenders and say “hey we need more time and money, please help us out by exchanging into new loans, if you do you’ll be first in line and if you don’t you’ll be last in line.” And then if a majority of the lenders agree, the company gets what it wants and the majority creditors get new good loans, while the minority creditors keep old bad loans.	The company could go to some of its lenders — generally a majority — and say “hey we need more time and money, please help us out by exchanging into new loans, that way you can be first in line and everyone else can be last in line.” The majority then exchanges into the new good loans; the minority never gets the chance, and is stuck in the bad old loans.
+
+The first approach has the advantage of being fairer and tidier: You give everyone the opportunity to help the company out and get the new loans, but you threaten them with the bad loans if they say no. Everyone has an incentive to approve the deal: If the deal is approved, it is much better to be a majority lender than a minority one, so everyone will be tempted to say yes to the exchange.
+The second approach has the advantage of transferring value from the minority to the majority, which makes it more appealing to the majority. If you have $100 of debt outstanding and you go to all your lenders and say “hey please exchange into new, higher-priority loans,” and they all do, then they all have the same priority and nobody is ahead of anybody else. If you go bankrupt and there’s only $60 left, then all the lenders get 60 cents on the dollar. If you go to holders of $51 of the loans and say “hey please exchange into new, higher-priority loans and leave those other suckers behind,” and they do, then they have first dibs and the other guys have second dibs. If you go bankrupt and there’s only $60 left, then the majority get 100 cents on the dollar and the minority get less than 20. By not offering the deal to everyone, you can offer a better deal to the majority.
+The first approach is called a pro rata debt exchange, and of course there are lots of ways for it to be controversial: The lenders may think that they are getting a bad deal, but that they have no choice but to take it to avoid being left behind. The second approach is called a non-pro rata debt exchange, and is more controversial: Some lenders are definitely getting left behind, and will get mad and sue.
+In 2020, Serta Simmons Bedding LLC needed some extra cash, so it had some discussions with two groups of its lenders about, essentially, stiffing the other group of lenders. One group, including Apollo Global Management Inc. and Angelo Gordon & Co., proposed putting some of Serta’s assets into a new subsidiary and and issuing new, better-collateralized loans out of that subsidiary to themselves. The other group, including Eaton Vance and Invesco, proposed amending the existing loans to allow higher-priority loans, and then issuing those new higher-priority loans to themselves. Serta went with the Eaton Vance proposal, stiffing Apollo and Angelo Gordon.
+We   discussed this deal when it happened, and I wrote at the time: “It does seem like an uncomfortable precedent, that a company can get some of its lenders to effectively strip collateral away from others in privately negotiated deals without offering the exchange to all holders.” But it happened. And now Serta is bankrupt, there is not enough money to go around, and the investors who got the new good loans are ahead of the investors who did not.
+Obviously there are lawsuits, and yesterday a Texas bankruptcy judge   ruled in favor of Serta on one key question, which is basically: Is this non-pro rata exchange allowed? More technically, the loan agreement allowed Serta to buy back loans “on a non-pro rata basis (A) through Dutch Auctions open to all Lenders holding the relevant Term Loans on a pro rata basis or (B) through open market purchases.” Clause (A) there means that Serta could offer a pro rata debt exchange to all holders, and then give the holders who agree to the exchange good new loans while stiffing the ones who don’t. Clause (B) arguably means that Serta could just do one-on-one exchanges with any holders it wants, though it arguably doesn’t; the question is what “open market purchases” means. Here’s  Serta’s argument:
+In the context of a loan repurchase, “open market” means the price that a willing buyer and a willing seller are able to obtain in an arms-length negotiation—in other words, the price that Serta Simmons Bedding and any lender agreed to in the “open market.” Here, Serta Simmons Bedding negotiated with, and entered into, arms-length transactions in the “open market” with the PTL Lenders, which held a majority of Serta Simmons Bedding’s debt, to repurchase their debt in exchange for the issuance of PTL Loans. Serta Simmons Bedding also negotiated on the open market with the North Star Lenders, but the PTL Lenders offered better terms.
+The “PTL Lenders” are the majority group (Invesco, Eaton Vance, etc.); the “North Star Lenders” are the minority group (Angelo Gordon, Apollo, etc.). Serta’s argument is that it negotiated with everyone and chose the best deal, stiffing the losing bidders, and that that’s allowed under the terms of the credit agreement. Here’s  the minority lenders’ argument:
+
+The Unlawful Exchange Transaction was not an “open market purchase.” It was a wholly private, exclusionary transaction—an exchange, at a substantial premium to market prices, in which Serta handpicked a group of its lenders (excluding the remainder), paid for their counsel and negotiated a complex, bespoke transaction memorialized in multiple agreements running many hundreds of pages.  …
+To characterize the Unlawful Exchange Transaction as an “open market purchase” would make a mockery of the term, and render meaningless the requirement that all affected lenders approve changes to the pro rata treatment provisions of the Credit Agreement. Indeed, if this is an open market purchase, then nearly any transaction would be, and the pro rata protections of the Credit Agreement are effectively meaningless. But that is neither a logical reading of the term “open market” nor a permissible interpretation of the contract. …
+Majority lenders cannot be permitted to conspire with borrowers to bypass critical minority-lender protections which are expressly insulated from majority rule by requiring consent of all affected lenders; otherwise, those protections, which appear in innumerable agreements, are worthless. Permitting such a transaction would upend the lending markets and make it impossible for lenders to price the risk of first lien debt which could at any time be “primed” by previously pari passu debt owned by a mere majority of lenders under the guise of an “open market purchase.” 
+
+Serta won. Sujeet Indap and Eric Platt at the Financial Times  report:
+
+Federal bankruptcy judge David Jones in Houston dismissed arguments by Apollo and Angelo Gordon that they had been unfairly frozen out of a controversial $875mn loan refinancing Serta Simmons executed in 2020.
+The slim majority of lenders that participated in the deal were able to swap their debt into more senior loans, giving them higher standing in the bankruptcy, while Apollo and Angelo Gordon were not. The so-called uptier exchange included $200mn of new cash lent to Serta to keep it afloat during the coronavirus pandemic. Apollo and Angelo Gordon are institutional investors known for their market savvy.
+Jones said from the bench that the excluded lenders knew or should have known by studying the loan contract that they could be on the wrong side of such an exchange.
+“I sit with these matters every single day,” Jones said in his oral ruling. “Sophisticated parties know what words they want to choose . . . this is very easy for me.” …
+“For the nature of what was being transacted, this fits within [the definition] of an open market purchase,” Jones said.
+Jones, however, allowed a claim to proceed that said the 2020 transaction violated the so-called covenant of good faith and fair dealing, a doctrine that says a contract that may violate market norms can be invalidated even if there is no official breach of explicit terms.
+
+I guess. I don’t really disagree; this feels to me more like an “open market purchase” than not. The minority lenders are not wrong that there’s something unsettling about letting some lenders jump ahead of others in privately negotiated transactions, but that does seem to be how the market works now.
+
+  
+    
+      Everything is securities fraud
+    
+  
+
+“If you are a mining company and you build a structurally unsound tailings dam to hold your mine waste, and it collapses and kills … people, is that securities fraud?” I   asked that question four years ago and  here is the answer, though you already knew the answer:
+
+The Securities and Exchange Commission [yesterday] announced that Vale S.A., a publicly traded Brazilian mining company and one of the largest iron ore producers in the world, agreed to pay $55.9 million to settle charges brought last April stemming from the company’s allegedly false and misleading disclosures about the safety of its dams prior to the January 2019 collapse of the Brumadinho dam that killed 270 people. The SEC’s complaint alleged that, for years, the dam did not meet internationally-recognized safety standards even as Vale’s public sustainability reports assured investors that all of its dams were certified as stable. 
+"Our action against Vale illustrates the interplay between the company’s sustainability reports and its obligations under the federal securities laws," said Mark Cave, Associate Director of the SEC’s Division of Enforcement. "The terms of today’s settlement, if approved by the court, will levy a significant financial penalty against Vale and demonstrate that public companies can and should be held accountable for material misrepresentations in their ESG-related disclosures, just as they would for any other material misrepresentations."
+
+We talked about the SEC’s case   last year, and there is something a little weird about the “ESG-related disclosures” language. I like to say around here that everything is securities fraud: If a public company does a bad thing and the stock price drops, someone will sue, claiming that the company did not adequately disclose that it was going to do the bad thing. What “everything is securities fraud” means is that securities fraud is not confined to the financial statements: If a company gets hacked, or if its chief executive officer commits sexual harassment, someone will sue for that too, because you can always find something that the company said that looks false in light of the bad news. If the bad news has to do with environmental, social or governance issues, you can say that “public companies can and should be held accountable for material misrepresentations in their ESG-related disclosures,” but there’s really no need to bring ESG into it: The broad rule is that public companies are accountable for absolutely everything they say if it turns out to be wrong and the stock price drops. 
+
+  
+    
+      AMCazon
+    
+  
+
+I have to say, if I were Jeff Bezos, sure I’d buy AMC Entertainment Holdings Inc. Just, like, that’s a very good joke? What is the point of being one of the richest people in the world if you are not occasionally spending a few billion dollars on ridiculous larks? Elon Musk bought Twitter for $46 billion as a joke, though to be fair he seems to resent that pretty intensely. Bezos could probably get AMC for, what, $5 billion or so? And then he’d own AMC and that would be cool or whatever, but mostly just announcing the deal — saying “hey kids I’m buying a meme stock” like a year after that stopped being a thing — would be one of the great jokes of 21st-century capital markets. What else is he doing with his time that’s so important? 
+Anyway  here is a blog post:
+
+Amazon founder Jeff Bezos has dispatched his investment advisors and top entertainment chiefs to explore acquisition plans for embattled theater chain AMC Entertainment, according to multiple senior sources familiar with the discussions. 
+The thinking is that Amazon can use AMC’s nearly 600 theaters across North America, Europe and the Middle East as “marketing weigh stations,” said one Amazon insider. This would be used for promoting Amazon Prime movies for awards contention, cross-selling services such as grocery delivery, serving as local distribution hubs, and collecting crucial data from AMC’s annual 200 million moviegoing customers.
+It would also throw a lifeline to AMC, the world’s largest theater chain whose financials were torpedoed by the COVID pandemic chased by Hollywood’s cut-throat pivot to their own streaming services. The cinema chain – whose stock traded a year ago at $34 and now languishes at about $4 – can be scooped up cheaply (and without a major premium) for just a few billion dollars. 
+
+Is this true? I have no idea and I absolutely do not care at all; I am passing it along because it is funny. Analysts seem to doubt it. AMC’s stock closed up 13.2% yesterday. 
+
+  
+    
+      Black swans
+    
+  
+
+Here is a charming  Spectator profile of Nassim Nicholas Taleb by Rosie Gray, basically painting him as a gruff curmudgeon with a heart of gold and a love of Twitter beef:
+Taleb described his carefully planned method for posting. “What people don’t realize is I have my Twitter fights prepared at least a week in advance,” he said. “And I use that downtime, traffic jam in an Uber or something like that, to start executing.” 
+As well as a good trader:
+“People don’t realize it, but I openly discuss my failures, my errors and go back and retract stuff,” Taleb said. The biggest recent example was his reversal on Bitcoin. “When I realized Bitcoin was wrong, I immediately voiced it,” he said. … “With Bitcoin, I had some guilt because I made money with Bitcoin initially.” How much? He won’t say, but “it’s not insubstantial.” Taleb had also been quite public in his enthusiasm for crypto, endorsing a book by pro-Bitcoin influencer Saifedean Ammous. So after he changed his mind, he announced it in a 2021 paper declaring that the currency’s value was zero. He then made more money shorting it.
+But here is his best line:
+Taleb had been busy. He had already published two papers since the new year, on statistical concepts that I asked him to explain to me as if I was five years old, to which he said, “you’re not five years old.”
+She’s not! That’s the goal, isn’t it? Say smart things about complicated topics in a way that your audience can understand and appreciate, without treating them like children.
+
+  
+    
+      Things happen
+    
+  
+
+UBS Veteran   Ermotti Returns to Lead Credit Suisse Takeover. Carl Icahn Wants to Bring  Illumina’s Old CEO Back, Disney-Style. People are worried about   Treasury market liquidity. As Interest Rates Rose, Banks Did a  Balance-Sheet Switcheroo. Binance Crackdown   Threatens US Trading Firms, Alarming Market. Binance Sees  $2 Billion in Outflows as Troubles Compound. Binance hid extensive  links to China for several years. FDIC Tells Signature’s   Crypto Clients to Close Their Accounts By April 5. A Rapid-Finance World Must Ready for a  Slow-Motion Banking Crisis. JPMorgan CEO Jamie Dimon to Be Deposed in   Epstein Lawsuits. $335,000 Pay for   ‘AI Whisperer’ Jobs Appears in Red-Hot Market. Ivy League Prices Are Pushing   $90,000 a Year. “Two New Yorkers who created a popular financial news show on Russian state television and cashed in on the crypto boom have emerged as key advisers to the Salvadoran government on its  adoption of bitcoin.” New York's Richest Enclaves Are Shutting Out the   Weed Business. Some Guy Bought the  Flatiron Building and Didn’t Pay for It.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] In my simplified description in the text, the bank has a bunch of long-term fixed-rate bonds at 2%, which won’t pay any more as rates go up, but actual banks have some mix of long-term fixed-rate bonds, floating-rate loans, shorter-term investments, etc., and will make more on their assets as rates go up.
+
+
+  [2] A related point, which  I have mentioned before, is that the customers were also very exposed to interest rates: In a low-rate environment, tech startups are very valuable and raise lots of money and park it at SVB; in a high-rate environment, tech startups are less valuable and can’t raise money and spend down their money at SVB to meet payroll. There are basically four reasons that SVB’s customers might have taken money out of SVB: (1) they could get higher interest rates elsewhere, (2) they needed to spend the money, (3) they read SVB’s financial statements and worried about its solvency or (4) they worried about other customers running on SVB so they got their own money out first. It seems like SVB’s customers were unusually likely to withdraw money for Reasons 2, 3 and 4: They needed more money as rates went up (Reason 2), and they are more networked and pay more attention than most bank depositors (Reasons 3 and 4). Meanwhile all the good customer service, and the loan covenants, meant that SVB’s customers were probably less likely than most bank depositors to take their money out to get a higher rate elsewhere (Reason 1). If SVB was mostly focused on that worry — “will higher interest rates cause our depositors to move money to higher-yielding accounts elsewhere?” — it might have concluded that it was fine; the other worries are what got it.
+
+
+  [3] This is very schematic and elides things like exit consents where the exchanging holders vote to strip protections from the old loans on their way out, other changes in economic terms (consent payments or higher rates on the new loans), etc. 
+
+
+  [4] Or there are more complicated versions — moving assets into subsidiaries, etc. — and a lot of lawyers and investors invest a lot of time in figuring out creative new ways to do this stuff.
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Matt Levine's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23cigeyx.5n9r/8e492dd5.gif" alt="" border="0" /></a>

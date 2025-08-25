@@ -1,0 +1,295 @@
+# Money Stuff: Ketchup Caddy Sold Some Fake Electricity
+
+**From:** Matt Levine <noreply@mail.bloombergview.com>
+**Date:** Tue, 27 Feb 2024 13:24:14 -0500 (EST)
+**Source:** inputs/saved_emails/Money Stuff Ketchup Caddy Sold Some Fake Electricity_Tue,_27_Feb_2024_13-24-14_-0500_(EST)_18debcf9d0a7b160.eml
+**Processed:** 2025-08-24T19:13:11.024661
+
+
+
+  
+  
+    
+      
+        
+      
+    
+  
+  
+    
+      
+        Demand response is the business of getting paid for not using electricity. You might think that would sometimes lead to fraud, and oh does i
+      
+    
+  
+  
+    
+      
+        
+          
+          
+        
+        
+          
+            
+          
+        
+      
+  
+    
+      
+        
+      
+    
+  
+
+
+      
+      
+    
+  
+  
+  
+    
+      
+        
+          
+  
+    
+      Ketchup Caddy
+    
+  
+
+Demand response is the business of getting paid for not using electricity. You might think that would sometimes lead to fraud, and oh does it. Here is the story of someone who allegedly committed fraud by signing up fake customers, promising that they would cut back their electricity use, and then getting paid even though they didn’t.
+First, a very stylized sketch of the electric grid. In the US, there are several regional electric grids that transmit electricity from power providers to users and are run by organizations with names like MISO (Midcontinent Independent System Operator) or ERCOT (Electric Reliability Council of Texas). Various providers — power plants, etc. — sell power to the grid, and much thought goes into the auction mechanisms that match supply and demand and determine how much the providers get paid.
+A key problem is that the demand for power fluctuates from hour to hour, while the supply of power is more or less capped over the medium term by the capacity of the power plants connected to the grid. At peak times, the grid has to call on every available resource — always-on nuclear plants, whatever wind is blowing, gas peaker plants, obsolescent coal power plants, capacity from neighboring grids, batteries, etc. — to meet demand. But it might not be economical to own and operate a power plant that only gets turned on, like, two hours a year. And so much thought also goes into figuring out how to make sure there will be enough capacity to meet peak demand.
+Here are two methods to do that. One is  capacity payments, where power suppliers can get paid some amount of money just for committing to turn on their plants if they’re needed. If the plants are never needed, they never turn on, but the suppliers are paid for the commitment, which makes it more economical to keep the plants around, which makes the grid more reliable. (In MISO, the grid operator for some of the middle of the US, these payments are set by an annual “Planning Resource Auction,” or PRA.)
+The other is demand response. At some point, it occurred to some genius of electricity economics that turning off your air conditioner, at times of peak electric demand, is just as good as generating a bit more power. If you are a user of power, and you agree to stop using power at peak times, that’s as valuable to the grid as generating power would be, and so the grid operator will pay you for the power you don’t use. If you run a factory that normally uses 10 megawatts, and you shut down the factory for an hour of peak demand, the grid could pay you as though you generated 10 megawatt-hours. Just like a power plant operator, you can get paid the market rate for peak electricity for curtailing your use — and you can also get capacity payments for promising to curtail your use if necessary.
+You can easily imagine how this might lead to fraud. Here’s the way I have always imagined it might lead to fraud. Demand response is essentially counterfactual: You get paid for how much electricity you would have used but didn’t. So the more electricity you say you would have used, the more you get paid. You can’t literally just write down “I would have used 10 megawatts, so pay me,” but you have some baseline measurement of what you would have used, and if you  manipulate that baseline then maybe you can manipulate your payout.
+  [1]
+
+But there is a much funnier way to do demand response fraud. Demand response is generally a business of middlemen: Demand-response intermediaries (or “aggregators”) enter deals with consumers or factory owners or whoever to curtail their usage if called upon, and then the aggregators enter deals with the grid operators to deliver that curtailment. The grid pays the aggregators — in the form of capacity payments for committing to curtail usage, and/or in the form of curtailment payments for actually cutting back electricity use — and the aggregators share some of the payments with the customers. 
+Again, the capacity payments get made even if the customers are never asked to cut back their electricity use: The point is to make the electric grid more reliable by making sure that there is enough capacity to handle peak loads, even if that capacity is never actually used. So! The trade is:
+	Be a demand-response aggregator, a middleman between the electric grid and customers willing to cut back on usage at peak times.	
+Don’t sign up any customers.	Instead, just write down a bunch of fake customers’ names — or rather, names of real people who are not your customers — and offer their capacity to the grid.	Receive capacity payments.	If the grid operator never asks you to deliver power, terrific: You keep the capacity payments, and you don’t have to share them with your “customers,” who don’t even know about any of this.	If the grid operator does ask you to deliver power, oops.
+
+I mean, that’s the schematic funny version. The real version is in  this Federal Energy Regulatory Commission enforcement action (via  Utility Dive) and it is even funnier, starting with the names. The company that allegedly did this fraud is called Ketchup Caddy LLC, and its founder and chief executive officer is named Philip Mango. Mango learned (at lunch with an employee of “Company A,” another demand-response aggregator) that you could just go to the website of Ameren Illinois Co. (a retail power company) and scrape the names of its customers, and he got his friend — a computer programmer named Todd Meinershagen — to do that:
+To do this, he created an automated tool that accessed Ameren’s website, bombarded the website with millions of random account numbers until it located a valid customer account, and then downloaded the account data to a spreadsheet.
+Terrific. Mango explained to Meinershagen that he would use that list — of people who use electricity — to go out and solicit customers for Ketchup Caddy’s demand-response business, at terms that were very favorable to Ketchup Caddy:
+Specifically, Mango told Meinershagen … “that my job was to acquire customers that [Meinershagen] had scraped through legitimate means, getting them to agree to be part of the program and accepting a term of 100 percent payout to us, zero percent payout for them. In return, my pitch that I explained to Todd [Meinershagen] and how I was able to do that was by saying that they were participating in getting green credits being sustainable, and he accepted that explanation.”
+Sure! “Green credits.” But in fact Mango never called any customers, in part because that would be a lot of work and in part because no customers would actually agree to a deal in which they promised to turn off their air conditioners and Ketchup Caddy got all the payments. Instead, he just submitted the fake list of customers to MISO, the grid operator:
+In late February 2019 ... Ketchup Caddy was accepted to participate in MISO’s annual PRA. To register its purported customers to participate, Ketchup Caddy had to provide certain data about them to MISO. To obtain this data, Mango selected a set of customers from the data that Meinershagen’s scraping tool had illicitly collected from Ameren’s website. He then had Meinershagen create “curtailment plans” for these customers based on a [Company A] document provided to Ketchup Caddy by Company A Employee 1. To do this, Meinershagen reviewed the data from Ameren’s website for instances in which a customer’s energy usage dropped during a 1-2 hour period, and then provided Mango with two graphs consisting of “a week with the lowest hour of energy usage and one with the max hour of energy usage.” Mango testified that these graphs reflected “mock test” information, “[i]n other words, not a real test of the facility but a graphical representation of a load drop that could be performed, if called upon.” Mango also testified that, despite submitting this “mock test” information to MISO, he knew that these customers would not perform if called upon.
+MISO rejected some of Ketchup Caddy’s fake customers because they were actual customers of other demand-response aggregators, but despite noticing that red flag, it let the rest of the customers through and started paying Ketchup Caddy for hundreds of megawatts of capacity. This went on for about three years, and Ketchup Caddy got about $1 million of capacity payments. The fake customers got nothing. Also, no harm, no foul, ish:
+Because MISO did not call a curtailment event in any of these Planning Years and required only mock tests to verify performance, Ketchup Caddy’s false registrations and offers did not come to light until Staff’s Investigation.
+They sold fake power capacity to the grid for three years, but nobody noticed, because they were never called on to deliver that power. 
+Anyway, great fraud. Apparently Meinershagen was totally innocent:
+Unlike Mango, Staff found no evidence that Meinershagen was expressly aware that Mango had been registering customers with MISO for Ketchup Caddy without their consent. In fact, Mango testified that he kept Meinershagen “in the dark” and created a “mirage” to make Meinershagen believe that their company was formally engaging with its purported customers.
+Meanwhile, Mango was hilariously candid with the FERC staff who investigated him:
+
+Mango explained that his decision to operate his business in this manner was based on his understanding that “[Company A] is doing this. They must have figured out something that I don’t, like this is essentially free money, no harm to the customer.” He said he planned to “[d]o this for just a couple of years, make a bunch of money to put kids through school and do all those things, and no one’s hurt. Do it with the least amount of resource possible, the least amount of money invested.”
+Mango also testified that the idea of enrolling customers with MISO and not sharing payments with them seemed a little too good to be true, but that he justified it as follows: “My logic at the time was that if it wasn’t too good to be true, that at some point in this year-long process of trying to get into the market something will stop us, something will trigger and that will be my — as naive as this sounds — that will be my sign that this is not meant to be.”
+
+I think that is probably part of the explanation of a lot of frauds? “If I’m really not allowed to do this, probably someone will stop me before I actually do it,” you think, and then nobody stops you before you do it, so you do it, and then they stop you after you did it, when it’s much worse. The FERC wants Ketchup Caddy and Mango to pay $27 million of penalties and disgorgement.
+
+  
+     
+       
+         
+       
+    
+  
+  
+    
+      
+      
+        
+          
+             
+               
+                 
+               
+            
+          
+        
+      
+      
+    
+  
+
+
+  
+    
+      AI disruption
+    
+  
+
+I think there is something charming about Sam Altman’s  frequent public insistence that building good artificial intelligence models will cost more than, like, everything else in the history of human civilization combined. “Oh, just out doing a roadshow to raise a few trillion dollars for chips,” Altman shrugs. It feels like a clever strategy? Like:
+	If you get everyone thinking that it will cost trillions of dollars to build AI, then a lot of potential competitors won’t even bother; there’s no way they could raise that kind of money.	If you go to the UAE or Masayoshi Son or whomever and are like “I’m looking for $7 trillion,” maybe that will anchor their expectations high enough that they’re like “well we can’t do that, but we’re in for a more modest ticket, would $7 billion help,” and then you’ve got $7 billion, which is actually a lot.	It fits nicely with Altman’s  other strategy of suggesting that AI, if mishandled, could destroy humanity: That self-aggrandizing claim is more plausible if it also comes with an enormous price tag.	It’s gotta help with recruiting, throwing around numbers like that.
+
+OpenAI is a relatively young company (and   a nonprofit!), and while by many measures (valuation, money raised so far, revenue) it is quite large, it also does a good job of giving the impression of hugeness, and part of that comes from Altman going around always saying the biggest possible number.
+But I suppose that does create an opportunity for  someone with a contrarian view:
+
+[Arthur] Mensch’s startup, called Mistral AI, is challenging the conventional wisdom that the winners of the AI race will emerge from among the tech industry’s U.S. giants. Mensch, who founded the company with two engineering-school friends, doesn’t think enormous scale is essential — or that the U.S. will necessarily dominate. …
+Mensch’s company, which has raised just over $500 million from investors including Andreessen Horowitz, remains tiny compared with the Goliaths of the industry. Microsoft-backed OpenAI and Alphabet’s Google are pouring billions of dollars into training the latest AI systems, leveraging their access to the specialized computer chips needed to build such systems and the fat balance sheets needed to pay for the electricity those chips consume. 
+Mistral, named for a strong wind that blows from France, is founded in part on the idea that a lot of that money is being wasted. …
+“We want to be the most capital-efficient company in the world of AI,” Mensch said. “That’s the reason we exist.” …
+Mensch said his new model cost less than €20 million, the equivalent of roughly $22 million, to train. By contrast OpenAI Chief Executive Sam Altman said last year after the release of GPT-4 that training his company’s biggest models cost “much more than” $50 million to $100 million.
+
+In general, we are coming out of many years of venture capital exuberance in which saying “we are competing to build a world-changing technology, and we’re going to win by spending slightly less money than our competitors” was not a particularly appealing pitch: The   whole   game was to spend freely now to win market dominance later. But now interest rates are higher, and also surely there is some cap on that? “We will build world-changing technology for less than $7 trillion” is kind of a good pitch.
+
+  
+    
+      Reddit IPO
+    
+  
+
+Reddit Inc. is planning an initial public offering of its stock. In a typical IPO, a company and its early investors sell stock to institutional investors at the IPO price, and then the next day the stock opens for trading and regular investors can buy it (from those institutions). Usually — not always — the stock goes up on that first day of trading, as everyone who wants to own the stock, but could not get any in the IPO, buys it. This is called the “IPO pop,” and institutional investors try to get into the good graces of IPO issuers (and their banks) so they can get good allocations in hot IPOs and benefit from the pop.
+Reddit will mostly sell stock to institutional investors, but it plans to sell some of the shares to “eligible Reddit users and moderators.” I suppose this is a sort of a loyalty program, letting Reddit’s most active users buy stock at the IPO price and participate in some of the upside. I  wrote a bit about this plan last week. Here’s how Reddit describes it:
+
+Users and moderators who created an account on or before January 1, 2024 are potentially eligible for the directed share program. Eligible participants must reside in the United States and be at least 18 years of age. Further, eligible users and moderators must be in good standing on our platform and cannot be a current or former Reddit employee.
+We will invite users and moderators to participate in the directed share program in six phased priority tiers. We will assign each eligible participant to a tier based on that participant’s contributions to Reddit. User contributions will be measured in karma (a user’s reputation score that reflects their community contributions). Moderator contributions will be measured by membership and moderator actions on our platform. Tier 1 will include certain users and moderators identified by us who have meaningfully contributed to Reddit community programs. Tier 2 will include users who hold at least 200,000 karma and moderators who have performed at least 5,000 moderator actions.
+
+And so on down to Tier 6. “An invitation to participate in the directed share program does not guarantee that the participant will receive an allocation of shares,” and there’s not a lot of description about how the allocations will work. But I suppose if you have a lot of Reddit karma then there’s at least a decent chance you can buy some shares at the IPO price.
+Also, separately, Reddit plans to sell some of the IPO shares “to retail investors through Fidelity Brokerage Services LLC, SoFi Securities, Inc., and Robinhood Financial LLC, as selling group members for this offering, through their respective brokerage platforms.” So even non-redditor retail investors can probably buy stock at the IPO price. As I wrote last time, you might expect this sort of thing to reduce the IPO pop: If enthusiastic retail investors can buy at the IPO price, they won’t have to buy in the open market the next day, reducing demand for the shares. But I suppose it depends on how much they get in the IPO.
+One question is: If you are a retail investor and a redditor, and you have at least 200,000 karma and 5,000 moderator actions on Reddit, how much is that worth? You have, not a golden ticket or anything, but at least an inside track to buy an uncertain number of shares of a high-profile IPO at the IPO price. That … probably  has some slight positive expectation, right? You’d rather have that than not? It is … transferable-ish? A reader emailed:
+Today I was given the opportunity to participate in the Reddit IPO as someone who has wasted far too much time on the site. Unfortunately, I am a Canadian and thus forbidden from participating. But Reddit doesn’t know that, which is why they offered me the option. So I could sell my account, one of 75,000, to someone who meets the criteria - a purely hypothetical scenario, of course.
+Obviously this is not allowed by Reddit’s terms of service, but on the other hand Reddit accounts really are pretty anonymous, so maybe it would work. How much would you charge? How much would you pay? My reader adds:
+What if they change my password and start posting terrible takes all over the site? Will the money be worth losing internet points?
+My sense is that, if you are a redditor with lots of karma, the value of this directed share program is probably in the … tens of dollars? Whereas the value of your Reddit reputation is … priceless? Like, you have worked hard to build up all that karma, and you’re not going to sacrifice it by transferring your account to someone who just wants a slight advantage in stock trading. 
+Also it is not clear how much value actual Reddit users place on the right to buy the stock. Elizabeth Lopatto reports at the Verge:
+
+Here’s the thing: Redditors aren’t enthused about it.
+“Short … it,” wrote one r/Wall StreetBets user. “They have not proven that this user base or data set can be monetized.” 
+And there was this person: “Loads puts into the put-cannon with malicious intent.”
+
+If Reddit power users can sell their rights to buy in the IPO, there might be a lot of supply.
+
+  
+    
+      Work hard, meme hard
+    
+  
+
+I   sometimes   argue   that it is good, for your career in finance, to get fired for losing a billion dollars on a trade. That’s a perverse badge of honor; other potential employers will be nervous, yes, but intrigued. But is it good or bad to get fired from your investment-bank analyst job for   sending offensive memes around to your analyst buddies?
+
+Junior bankers who were recently fired from Bank of Montreal’s metals and mining group used work-sharing platforms to circulate crude jokes and at least one obscene image, which were discovered during an internal investigation after another employee complained, according to people with knowledge of the matter. ...
+A spokesperson for Bank of Montreal described the incident as “completely unacceptable,” adding that the bank takes matters of misconduct very seriously and immediately began probing the matter after the employee escalated it.
+But multiple former Bank of Montreal employees who spoke with Bloomberg said it wasn’t the first case of crude jokes being circulated, and that in some respects, the junior bankers’ actions were in keeping with a culture that has existed in BMO’s high-pressure mining banking unit.
+
+Yeah, no, it was not the first, or 70,000th, time that junior investment bankers sent crude jokes to one another. It was not the first time that they got fired for it, either, though that is rarer. Here are some claims about workplace culture:
+
+Bankers at competing firms in Toronto’s financial district, some of whom previously worked for Bank of Montreal, described its mining and metals group as extremely demanding — sometimes asking more of junior analysts and associates than other banks do. Employees have pulled all-night sessions to finalize deal documents and will work through weekends to meet deadlines. In recent years, the bank has explicitly encouraged entry-level analysts to take at least one day off on the weekends, to manage concerns about overwork. …
+In investment banking in general, “hours are long, tensions are high and egos and management oversight is thin,” said Bill Vlaad, a former investment banker and chief executive officer of Vlaad and Co., a recruitment agency.
+“Understanding acceptable professional behavior seems to be another organizational tool that firms are struggling to manage when employees are only in the office two or three days a week,” he said.
+One person who previously worked in BMO’s mining and metals group said that while the experience young bankers receive is top-notch and there’s a prestige to working in the group, it can be an intimidating environment, and junior bankers tend to adopt a work-hard, play-hard culture in the group to fit in.
+
+One claim there is that they spend all their waking hours together and are acculturated into a work-hard, play-hard, send-rude-memes culture. The other claim there is that they aren’t in the office much, so the bank struggles to acculturate them. I think those are opposite claims, and the first is correct? BMO did not struggle to manage teaching these analysts how to fit in with its culture. These analysts learned exactly how to fit in with its culture, the way analysts have always learned how to fit in: by observing slightly older analysts and being hazed by them. It’s just that the culture of the mining group was not the sort of culture that BMO’s management wanted to be made explicitly aware of. 
+Anyway the point is that BMO’s mining group is prestigious and has influential alumni, who also grew up in this culture, and if you get fired from that group for sending rude memes and then go interview for a new job with one of those alumni, they might give you a fist bump and a job offer.
+
+  
+    
+      Things happen
+    
+  
+
+Debt-Addicted Companies   Look to Equity as Interest Costs Skyrocket. Treasury Markets Are Losing Their Shock Absorber. FTC Sues to Block $25 Billion  Kroger-Albertsons Merger. Exxon Considers   Pre-Emption Rights to Hess’ Guyana Oil Stake. Shein   Tempts London With the Prospect of Biggest-Ever Listing. Barclays offloads US  credit card debt to Blackstone. Large Apple shareholders seek  AI disclosures. Booming Stock and Sky-High Pay: Nvidia Is Silicon Valley’s  Hot Employer. Elon Musk’s     Vegas Tunnel Project Has Been Racking Up Safety Violations.
+If you'd like to get Money Stuff in handy email form, right in your inbox, please subscribe at this link. Or you can subscribe to Money Stuff and other great Bloomberg newsletters here. Thanks!
+        
+  [1] Here’s  a case involving a steel mill that got demand-response payments and, among other things, “participated by offering energy (in the form of DR) during periods when it expected to be on outages.” Which seems like cheating — though it was apparently encouraged by MISO staff?
+
+
+      
+    
+  
+
+
+  
+    
+        
+          
+            Follow Us
+            
+              
+            
+            
+              
+            
+            
+              
+            
+          
+          
+          
+            
+              Get the newsletter
+            
+          
+        
+    
+  
+
+
+  
+    
+      
+      
+
+
+  
+    
+      
+        
+        
+Like getting this newsletter?  Subscribe to Bloomberg.com for unlimited access to trusted, data-driven journalism and subscriber-only insights.
+
+
+
+Before it’s here, it’s on the Bloomberg Terminal. Find out more about how the Terminal delivers information and analysis that financial professionals can’t find anywhere else. Learn more.
+
+
+
+Want to sponsor this newsletter?  Get in touch here.
+
+      
+    
+  
+
+
+
+        
+           You received this message because you are subscribed to Bloomberg's Money Stuff newsletter.
+        
+        
+          Unsubscribe | Bloomberg.com | Contact Us
+        
+        
+          
+            
+              
+                
+                  
+                    
+                  
+                
+                
+                  |
+                
+                
+                  
+                    
+                  
+                
+              
+            
+          
+        
+        
+          Bloomberg L.P. 731 Lexington, New York, NY, 10022
+        
+      
+    
+  
+  
+
+
+<a href=""><img src="https://link.mail.bloombergbusiness.com/img/607f07ceef4b8524a319a23ckjbc6.6477/4e20369f.gif" alt="" border="0" /></a>

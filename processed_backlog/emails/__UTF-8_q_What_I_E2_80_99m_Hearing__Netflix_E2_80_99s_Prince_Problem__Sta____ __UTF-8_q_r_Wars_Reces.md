@@ -1,0 +1,196 @@
+# =?UTF-8?q?What_I=E2=80=99m_Hearing:_Netflix=E2=80=99s_Prince_Problem,_Sta?=
+ =?UTF-8?q?r_Wars_Recession_&_Ellison=E2=80=99s_To-Do_List?=
+
+**From:** Matthew Belloni <matt@puck.news>
+**Date:** Tue, 16 Jul 2024 03:45:38 +0000
+**Source:** inputs/saved_emails/=UTF-8qWhat_I=E2=80=99m_Hearing_Netflix=E2=80=99s_Prince_Problem,_Sta=
+ =UTF-8qr_Wars_Recession_&_Ellison=E2=80=99s_To-Do_List=_Tue,_16_Jul_2024_03-45-38_+0000_190b9a581b9ce45b.eml
+**Processed:** 2025-08-24T19:13:03.880660
+
+Welcome back to this mostly Trump and Vance-free edition of What I’m Hearing, though my thoughts and prayers are with Ron Howard and Glenn Close, who are about to endure months of What’s he like? questions. Also interesting, Eriq Gardner notes that Mrs. Vance, Usha, has represented Disney and Paramount as a lawyer, making her the other V.P. candidate spouse with an entertainment law background.
+
+ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ 
+
+What I'm Hearing ( https://puck.news/newsletters/what-im-hearing/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Welcome back to this mostly Trump and Vance-free edition of What I’m Hearing, though my thoughts and prayers are with Ron Howard and Glenn Close, who are about to endure months of What’s he like? questions. Also interesting, Eriq Gardner notes ( https://x.com/eriqgardner/status/1812939984967790715?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) that Mrs. Vance, Usha, has represented Disney and Paramount as a lawyer, making her the other V.P. candidate spouse with an entertainment law background.
+
+In more aspirational election news, good luck to everyone hoping for Emmy nominations on Wednesday. I’m predicting a big day for FX with Shogun and
+The Bear, though I do wonder whether the latter’s poorly received third season could impact voters’ willingness to vote for the second season in Phase 2.
+
+Programming note: This week on The Town, Lucas Shaw and I parsed ( https://puck.news/podcast_episode/burning-questions-about-the-future-of-paramount/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) the Skydance/Paramount deal and why David Zaslav seems to want ( https://open.spotify.com/episode/72EE8q7YKWRys6SNstqYzv?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) a Trump win, and Wicked filmmaker Jon M. Chu discussed 
+( https://puck.news/podcast_episode/betting-on-theaters-embracing-tech-and-wicked-with-director-jon-m-chu/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) his new memoir ( https://www.amazon.com/Viewfinder-Memoir-Seeing-Being-Seen/dp/0593448944?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and why he’s never directed for a streamer. Subscribe here ( https://podcasts.apple.com/us/podcast/the-town-with-matthew-belloni/id1612131897?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) and here 
+( https://open.spotify.com/show/4uXizLZjslhw7nyDPocta2?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Not a Puck member yet? Click here ( https://puck.news/join/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) to fix that problem. Got a news tip or an idea for me? Just reply to this email or message me anonymously on Signal at 310-804-3198.
+
+Discussed in this issue: David Zaslav, Bob Iger, Scarlet Johansson, David Ellison, Brandon Riegg, L. Londell McMillan, Leslye Headland,
+Ezra Edelman, Adam Del Deo, Oz Perkins, Larry Mestel, O.J. Simpson, Kathy Kennedy, Ava DuVernay… and some good news for Warner Bros.
+
+But first…
+
+Who Won the Week: Alex Spiro
+
+Spiro and the Alec Baldwin legal team pretty masterfully steered the Rust criminal case away from the question of whether Baldwin pulled the trigger to how the live rounds got into his gun, which ultimately led the judge to probe the concealed evidence… and dismiss the entire case.
+
+Runner-up: Oz Perkins, the Longlegs filmmaker, whose $23 million debut on a $10 million budget sets a high mark for Neon, revives a slow year for horror, and momentarily (momentarily!) raises hopes for independent producers.
+
+Honorable mention: Jason Bateman and Chris Evans, who were supposed to direct and co-star in this weekend’s $100 million Apple bomb Fly Me to the Moon but bailed after Bateman didn’t see eye to eye with Scarlett Johansson and her producing
+partners, letting Greg Berlanti and Channing Tatum take the hit instead.
+
+Scary Star Wars Numbers
+
+Pixar has its biggest movie ever with Inside Out 2. Marvel’s Deadpool & Wolverine is tracking to open next weekend to about $175 million domestic—a new benchmark for an R-rated film. Disney Animation has Moana 2 in November, and the Disney TV group is about to clean up at Wednesday’s Emmy nominations. It’s not a full recovery, but this summer, Disney C.E.O. Bob Iger is largely delivering on his pledge to fix creative issues at his content engines.
+
+Then there’s Lucasfilm, which, on the film side, is still reeling from last summer’s $350 million Indiana Jones debacle and is two years away from a Star Wars follow-up to 2019’s high-grossing yet creatively disastrous The Rise of Skywalker. Until The Mandalorian & Grogu hits in 2026, Kathy Kennedy has essentially turned
+Star Wars into a TV-only franchise. Luminate, however, just released ( https://luminatedata.com/blog/star-wars-struggles/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) some troubling data on The Acolyte, the Disney+ series from Leslye Headland that concludes tomorrow night. The show debuted decently, but cratered 22 percent the following week and kept falling, recovering only slightly in episode six. Disney will probably spin this with internal metrics, but the issue isn’t new: Star Wars shows other than The Mandalorian tend to debut strong and then fade unless a fan favorite character or actor like Hayden Christensen appears. In other words, with the possible exception of Tony Gilroy’s smart but little-watched Andor, Kennedy has failed to evolve Star Wars from a pure
+nostalgia play into a vibrant, relevant franchise. “It’s still unclear if another Star Wars series can capture the dedicated and broad audience of The Mandalorian,” Luminate’s Jimmy Doyle writes in the study. “Despite the data, we might be wise to remember the words of Han Solo: ‘Never tell me the odds.’”
+
+Now to one of the biggest unreleased projects in the unscripted world….
+
+Netflix’s Scramble to Save the Secret Prince Movie ( https://puck.news/netflix-scramble-to-save-the-secret-prince-movie/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Netflix’s Scramble to Save the Secret Prince Movie ( https://puck.news/netflix-scramble-to-save-the-secret-prince-movie/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+The Oscar winner Ezra Edelman’s exhaustive 9-hour documentary is stranded over a surprising objection from the late music icon’s dueling estates: It’s too long.
+
+MATTHEW BELLONI ( https://puck.news/author/matthew-belloni/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+MATTHEW BELLONI ( https://puck.news/author/matthew-belloni/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Over lunch with a documentary producer last month, I kinda unloaded on the music and sports nonfiction genre. In many ways, it’s never been better for fans like me—given the relatively low cost and breakout potential of these projects, there’s a constant and seemingly endless stream of content. At the same time, even my lunch companion agreed, most of these participation docs totally suck.
+
+I’ve complained about this before. Thanks to copyright law and the requirement that the artist or their family bless the “sync” of the artist’s music with video, there’s a glut of pure hagiographies, like the recent Apple doc on Billie Eilish, or quasi-documentary “series” like Hulu’s Jon Bon Jovi opus. Or there’s the selective biography, like the upcoming estate-approved Michael Jackson movie, which paints
+the pop star as a victim of the child abuse claims against him, or the new Beach Boys doc on Disney+, which glosses over the pretty major story points that Brian Wilson went crazy and the band members started suing each other. It says something that everyone loved Netflix’s Beckham because David and Victoria dared to reveal a tiny bit of unvarnished candor about their marriage.
+
+That’s why I had super high hopes for the semi-secret, multipart Prince documentary that filmmaker Ezra Edelman has been working on for more than four years. Yes, the same Edelman who won universal praise and the documentary feature Oscar for 2016’s mega-ambitious O.J.: Made in America… and has directed nothing else since.
+
+Netflix never officially announced the Prince project, but back in 2018, the streamer cut a deal with the estate of the enigmatic music icon, who died in 2016 of a fentanyl overdose at
+age 57. Edelman came on board to replace Ava DuVernay, who was initially attached to direct, and he finished his cut of the film a while back, even hosting a few friends-and-family screenings last year, I’m told. It’s said to be the rare example these days of a truly journalistic endeavor that employs extensive use of the Grammy winner’s music and archival materials. Sounds great, right?
+
+Not great for the Prince estate, executors of which have seen the film and aren’t fans. It’s unclear what exactly peeves them—my emails to estate lawyer L. Londell McMillan weren’t returned, and reps for Netflix and Edelman declined to comment—but one source insists it’s not revelations of drug use or sexual stuff. Instead, the estate argues there are things in the film that are inaccurate, I’m told, and they’re protective of the famously private Prince. But Netflix sources believe this is mostly a control issue, and reflects the fact that
+the current executors of the estate are different from those who greenlit the project in the first place.
+
+Nine Hours
+
+While Netflix and Edelman maintain final cut of the film, the Netflix deal with the estate calls for a six-hour series, and Edelman delivered nine hours. The estate has been using that violation of the agreement to essentially hold the film hostage. This has been going on awhile under the radar, and the back-and-forth between Netflix and the estate is ongoing, with two sources telling me Netflix is confident a compromise can still be worked out. But so far, no deal. And no deal means no Prince movie.
+
+A huge bummer, but this situation wasn’t entirely unforeseeable. O.J.: Made in America, which was originally commissioned as a five-hour, three-part installment of ESPN’s 30 for 30 series, eventually clocked in at nearly eight hours. It’s still the longest film to ever win an Oscar (no, Netflix’s The
+Power of the Dog just felt like it was eight hours), and it caused the Academy to ban “multipart or limited series” films from future consideration. Edelman is said to be as unrelenting in his independence as he is meticulous in his filmmaking, so he’s not interested in a truncated version of the Prince project.
+
+The estate of Prince, who died without a will, also sounds like a nightmare to deal with for Netflix’s unscripted chief Brandon Riegg, documentary leader Adam Del Deo, and the Netflix lawyers. Riegg inherited this project from former docs chief Lisa Nishimura. And two years ago, a Minnesota probate settlement divided Prince’s estate in two: Prince’s family and friends created Prince Legacy, on the one hand, and on the other, there’s Prince OAT Holdings, an arm of the rights management company Primary Wave Music. (Its president, Larry Mestel, did not return my email.)
+
+Since the two
+entities manage the estate together, both must agree on most big decisions related to Prince’s intellectual property. Nightmare. Further complicating matters, members of Prince Legacy sued four of his other relatives earlier this year over claims they’re wrongfully trying to seize control of the entity. That suit was filed by McMillan, who owns a stake in Prince Legacy. Not surprisingly, some of the Prince people are said to care about certain things in the documentary, while others care about other stuff.
+
+A legal mess, but can it be resolved? I hope so. One could argue that nine episodes on Prince is too many. To be honest, most of these multipart documentary series would be well-served by a Harvey Scissorhands editor. Even Showtime’s highly regarded 2013 doc History of The Eagles was able to tell the story of the famously dysfunctional band in just two, 90-minute episodes. And despite his place in music history, Prince as a story probably
+isn’t as interesting as O.J. There’s no true crime intrigue—we all know how Prince died—and it’s hard to point to many music docs that have been massive hits. Maybe the estate is right and Prince doesn’t justify such an extended treatment.
+
+But Edelman is the X factor here, having taken the most worked-over tabloid figure, O.J. Simpson, and turned Made in America into a springboard for searing cultural analysis. Given his track record as a director, it would be tragic if he’s forced to shelve this film, even if his ultimate vision doesn’t match the framework that was agreed upon. You’d think the friends and family of Prince, who, during his life, famously defied industry rules and charted his own creative path, would be sympathetic to that argument.
+
+Quote of the Week
+
+“It’s not the government’s job to help a company survive.”
+—Walter Piecyk, the media analyst, discussing ( https://lightshedtmt.com/podcast/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) David Zaslav’s Sun Valley comment that Warner Discovery and other media conglomerates need “deregulation, so companies can consolidate and do what we need to to be even better.”
+
+Runner-up: “Can I tell you how many men have grabbed my genitals in my lifetime? A lot more than Kevin Spacey has grabbed men’s genitals. And none of them have ever apologized to me.”
+—Sharon Stone, defending ( https://www.hollywoodreporter.com/movies/movie-features/sharon-stone-interview-career-philanthropy-kevin-spacey-1235940795/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) Spaceyby oversharing to THR.
+
+My Reading List…
+
+An anti-A.I. group is threatening to release hacked Slack messages from Disney, so we might finally get to see if employees loathed Strange World as much as audiences did. [WSJ ( https://www.wsj.com/business/media/internal-disney-communications-leaked-online-after-hack-b57baaeb?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+You won’t believe this, but Linda Yaccarino’s promise of “documentary-style shows” on Twitter has mostly fizzled thanks to advertiser indifference. [Bloomberg ( https://www.bloomberg.com/news/newsletters/2024-07-12/musk-s-x-falls-short-on-promises-of-new-video-shows?srnd=technology-vp&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+Roy Price makes the argument that Warner Discovery should be investing even more heavily in Max rather than cutting costs and searching for M&A/bundling partners. [Price Point ( https://pricepoint.substack.com/p/hollywood-the-strategic-analysis?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+Lucas Shaw predicts live music will become the next, uh, arena for big deals. [Bloomberg ( https://www.bloomberg.com/news/newsletters/2024-07-14/why-live-music-became-the-hottest-market-for-media-deals?srnd=homepage-americas&sref=W6GJF3MS&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+The podcast market has chilled, but if Dax Shepard
+just got $80 million from Amazon’s Wondery (I’ve heard that number is high), then what will Call Her Daddy host Alex Cooper command when she inevitably bails on Spotify for Amazon or iHeart? [WSJ ( https://www.wsj.com/style/alex-cooper-podcast-call-her-daddy-unwell-trending-13ce3697?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+This smells like a Gunnar move: Zaslav is selling the Burbank Studios complex back to a real estate investment firm a year
+after Warners bought it for $375 million. [Real Deal ( https://therealdeal.com/la/2024/07/15/worthe-buys-burbank-studios-back-from-warner-bros-for-375m/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )]
+
+The Feedback…
+
+My interview last Monday with new Paramount owner David Ellison sparked a flurry of messages. Some highlights…
+
+“Thanks for a great interview with David Ellison. Much of what he spoke about in terms of goals was refreshing. However, as a woman at this company, I have concerns that two members of his leadership, John Lasseter and Jeff Shell, have been removed from past positions due to sexual harassment allegations. This feels like an irresponsible and distressing move by a young leader.” —A Paramount employee
+
+“I think your ‘Peak Nepo Baby’ comment would have rubbed me entirely the wrong way if I were Ellison, and for good reason. Yes, the deal may have been overvalued (on current paper), and yes, you went on to say a couple of nice things. But rather than (or in addition to)
+writing theories on the investment financials and motives, it would have been only fair to point out Ellison’s achievements in this business (other than waiting around for a deal like this).” —An actor
+
+“During negotiations on a pitch, … David called me (from his plane) to talk through a story point. For half an hour. Name another studio owner who would do that.” —A writer
+
+“﻿Some obvious moves for Ellison and Skydance to make in the near future:
+
+* Sell off BET and Showtime if Shari & Co. don’t get to it first
+* Make the NFL the centerpiece of CBS and use the entire company’s product suite and distribution network to extract more value out of the costly media rights
+* Reorient D2C around Kids, Sports, and News, which would actually make it a
+differentiated service rather than Netflix’s downtrodden kid brother
+* Scripted content partnerships (likely overseas) with Netflix, Peacock, or Apple TV+.
+* Reinvest in Nickelodeon, which remains an undervalued programming asset.
+* Hammer the P.R. angle that Ellison is ‘saving’ a legacy studio (and, by extension, investing in creative talent) to generate as much goodwill as possible to offset any negative feedback to a necessary aggressive embrace of cost-cutting A.I.
+* Position Pluto TV as a minor replacement for R.S.N.s. FAST can’t replicate the economics of R.S.N.s, of course, but at least these services already have a foothold and focus on local/regional programming versus the national/global-minded major SVODs.
+* Try to steal a few name brand boutique production outfits à la Blumhouse, Monkeypaw, Village Roadshow, etc., away from rivals via first-look/overall deals to prioritize quality, cost-effective theatrical bets.”
+—An analyst
+
+Finally…
+
+Between Furiosa and Horizon, summer has been a big bummer for Warner Bros. But Beetlejuice, Beetlejuice just came on super strong on The Quorum’s early tracking chart…
+
+$(image_link)
+
+Have a great week,
+Matt
+
+Got a question, comment, complaint, or a magic second-half fix for the terrible Dodgers? Email me at Matt@puck.news or call/text me at 310-804-3198.
+
+FOUR STORIES WE’RE TALKING ABOUT
+
+G.O.P.’s Martyr Complex ( https://puck.news/trump-assassination-attempt-gop-martyr-complex/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+G.O.P.’s Martyr Complex ( https://puck.news/trump-assassination-attempt-gop-martyr-complex/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+How the Trump assassination attempt will reverberate through the R.N.C.
+
+JOHN HEILEMANN
+
+Shari’s Schmuck Insurance ( https://puck.news/could-another-paramount-suitor-outbid-skydance-not-likely/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Shari’s Schmuck Insurance ( https://puck.news/could-another-paramount-suitor-outbid-skydance-not-likely/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Documenting the interstitial Paramount drama.
+
+WILLIAM D. COHAN
+
+Sun Valley Notes ( https://puck.news/peter-thiel-reid-hoffman-face-off-in-sun-valley/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Sun Valley Notes ( https://puck.news/peter-thiel-reid-hoffman-face-off-in-sun-valley/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Chronicling the very public Thiel-Hoffman showdown.
+
+DYLAN BYERS
+
+Paris’s Art Olympics ( https://puck.news/auction-houses-fight-over-paris-ahead-of-october-art-basel/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Paris’s Art Olympics ( https://puck.news/auction-houses-fight-over-paris-ahead-of-october-art-basel/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+On the new center of the European art market.
+
+MARION MANEKER
+
+Puck ( https://puck.news/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Facebook ( https://facebook.com/puckdotnews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Twitter ( https://twitter.com/PuckNews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+Instagram ( https://instagram.com/puckdotnews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+LinkedIn ( https://linkedin.com/company/pucknews?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a )
+
+Need help? Review our FAQs
+page ( https://puck.news/faq/?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) or contact
+us ( fritz@puck.news?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ) for assistance. For brand partnerships, email ads@puck.news ( ads@puck.news?utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+You received this email because you signed up to receive emails from Puck, or as part of your Puck account associated with puck@khamel.com. To stop receiving this newsletter and/or manage all your email preferences, click here ( https://puck.news/global-unsubscribe/?subscription=what_im_hearing&delivery_id=dgT2xgYDAKvRKqrRKgGQuaTwmpJGYWDLxK9OmO0=&utm_campaign=What+I%27m+Hearing+-+SUBSCRIBERS+%287%2F15%2F24%29&utm_content=What+I%27m+Hearing+-+SUBSCRIBERS+%286%2F6%2F24%29&utm_medium=email_action&utm_source=customer.io&utm_term=f6c60617da42abd12a ).
+
+Puck is published by Heat Media LLC. 227 W 17th St New York, NY 10011.
