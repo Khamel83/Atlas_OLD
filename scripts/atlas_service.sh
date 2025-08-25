@@ -9,7 +9,7 @@
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 PID_FILE="$PROJECT_ROOT/logs/atlas_service.pid"
-SERVICE_SCRIPT="$PROJECT_ROOT/atlas_background_service.py"
+SERVICE_SCRIPT="$PROJECT_ROOT/atlas_service_manager.py"
 PYTHON_EXEC="$PROJECT_ROOT/venv/bin/python3"
 
 # Ensure the logs directory exists
@@ -71,7 +71,7 @@ status() {
     fi
     echo "---"
     echo "Checking python processes for atlas_background_service.py:"
-    pgrep -af "python.*atlas_background_service.py"
+    pgrep -af "python.*atlas_service_manager.py"
 
 }
 
