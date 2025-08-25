@@ -158,11 +158,7 @@ async def get_jobs(worker_id: str, capabilities: str = ""):
         conn.commit()
         conn.close()
         
-        if jobs:
-            return {"jobs": jobs}
-        else:
-            # No jobs available - return 204
-            return {"jobs": []}, 204
+        return {"jobs": jobs}
             
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get jobs: {str(e)}")
