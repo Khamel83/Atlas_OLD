@@ -311,6 +311,8 @@ class DocumentIngestor(BaseIngestor):
                     "structured": result["output_files"]["structured"],
                     "metadata": result["output_files"]["metadata"],
                 }
+                # Set content_path for compatibility with check_all_content.py
+                metadata.content_path = result["output_files"]["content"]
 
             print(
                 f"[{self.module_name}] Successfully processed document: {metadata.uid}"

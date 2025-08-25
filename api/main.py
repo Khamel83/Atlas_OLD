@@ -14,13 +14,20 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Add CORS middleware
+# Add CORS middleware with security restrictions
+allowed_origins = [
+    "http://localhost:3000",
+    "http://localhost:8000", 
+    "http://127.0.0.1:8000",
+    "https://your-domain.com"  # Replace with actual production domain
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify exact origins
+    allow_origins=allowed_origins,
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["Content-Type", "Authorization"],
 )
 
 # Include routers

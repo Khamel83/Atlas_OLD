@@ -1,609 +1,456 @@
+#!/usr/bin/env python3
 """
-Content Export Engine for Atlas
-Supports multiple output formats for knowledge management integration
+Content Export System - Task 3.3 Enhanced User Experience Features
+
+Provides comprehensive content export capabilities for Atlas content in multiple formats
+including PDF, Markdown, JSON, HTML, and CSV. Supports bulk operations and filtering.
+
+Key Features:
+- Multi-format export (PDF, MD, HTML, JSON, CSV)
+- Bulk export with filtering capabilities
+- Metadata preservation and custom formatting
+- Performance optimized for large content sets
+- User preferences and customization options
 """
 
-import json
 import csv
-import sqlite3
-from pathlib import Path
-from typing import Dict, List, Optional, Any
+import json
+import os
 from datetime import datetime
-import yaml
-from jinja2 import Environment, FileSystemLoader, Template
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Set, Union
+from dataclasses import dataclass, asdict
+from enum import Enum
+import logging
+
+try:
+    import markdown
+    from weasyprint import HTML, CSS
+    ADVANCED_EXPORT_AVAILABLE = True
+except ImportError:
+    ADVANCED_EXPORT_AVAILABLE = False
+    markdown = None
+    HTML = None
+
+from helpers.simple_database import SimpleDatabase
+from helpers.config import load_config
+from helpers.utils import log_info, log_error
+
+
+class ExportFormat(Enum):
+    """Supported export formats."""
+    JSON = "json"
+    MARKDOWN = "markdown"
+    HTML = "html"  
+    PDF = "pdf"
+    CSV = "csv"
+    TXT = "txt"
+
+
+@dataclass
+class ExportOptions:
+    """Configuration options for content export."""
+    format: ExportFormat
+    output_path: Optional[str] = None
+    include_metadata: bool = True
+    include_content: bool = True
+    content_type_filter: Optional[str] = None
+    date_filter_after: Optional[str] = None
+    date_filter_before: Optional[str] = None
+    max_items: Optional[int] = None
+    custom_template: Optional[str] = None
+    compression: bool = False
+    
+
+@dataclass 
+class ExportResult:
+    """Result information from export operation."""
+    success: bool
+    output_path: str
+    items_exported: int
+    format: ExportFormat
+    file_size_bytes: int
+    processing_time_ms: float
+    errors: List[str]
 
 
 class ContentExporter:
-    """Flexible content export engine supporting multiple formats"""
-
-    def __init__(self, db_path: str = None, templates_dir: str = None):
-        # Default to the podcast database if no path provided
-        if db_path is None:
-            db_path = str(
-                Path(__file__).parent.parent / "data" / "podcasts" / "atlas_podcasts.db"
-            )
-        self.db_path = db_path
-        self.templates_dir = (
-            templates_dir or Path(__file__).parent.parent / "exports" / "templates"
-        )
-        self.jinja_env = Environment(loader=FileSystemLoader(str(self.templates_dir)))
-
-    def export_content(
-        self,
-        content_ids: Optional[List[str]] = None,
-        format_type: str = "markdown",
-        filters: Optional[Dict] = None,
-        output_path: str = None,
-        template: str = None,
-    ) -> Dict[str, Any]:
-        """
-        Export content in specified format
-
+    """Advanced content export system with multiple format support."""
+    
+    def __init__(self, config: Optional[Dict[str, Any]] = None):
+        """Initialize content exporter with configuration.
+        
         Args:
-            content_ids: Specific content IDs to export (optional)
-            format_type: Output format (markdown, json, csv, obsidian, notion, anki)
-            filters: Content filters (speaker, podcast, date_range, topic, etc.)
-            output_path: Where to save exported content
-            template: Custom template name (optional)
-
-        Returns:
-            Export result with status and file paths
+            config: Optional configuration dictionary
         """
-
-        # Get content based on IDs or filters
-        if content_ids:
-            content_data = self._get_content_by_ids(content_ids)
-        else:
-            content_data = self._get_filtered_content(filters or {})
-
-        if not content_data:
-            return {"status": "error", "message": "No content found for export"}
-
-        # Apply format-specific processing
-        formatted_content = self._format_content(content_data, format_type, template)
-
-        # Write to output
-        if output_path:
-            output_files = self._write_export(
-                formatted_content, format_type, output_path
-            )
-            return {
-                "status": "success",
-                "content_count": len(content_data),
-                "files": output_files,
-                "format": format_type,
-            }
-        else:
-            return {
-                "status": "success",
-                "content_count": len(content_data),
-                "data": formatted_content,
-                "format": format_type,
-            }
-
-    def batch_export(
-        self, export_configs: List[Dict], progress_callback: callable = None
-    ) -> Dict[str, Any]:
-        """
-        Perform multiple exports in batch
-
+        self.config = config or load_config()
+        self.db = SimpleDatabase()
+        self.export_dir = Path(self.config.get('export_directory', 'exports'))
+        self.export_dir.mkdir(exist_ok=True)
+        
+        # Set up logging
+        self.log_path = os.path.join(self.config.get('log_directory', 'logs'), 'content_export.log')
+        os.makedirs(os.path.dirname(self.log_path), exist_ok=True)
+        
+    def export_content(self, options: ExportOptions) -> ExportResult:
+        """Export content based on provided options.
+        
         Args:
-            export_configs: List of export configurations
-            progress_callback: Optional progress tracking function
-
-        Returns:
-            Batch export results
-        """
-        results = []
-        total = len(export_configs)
-
-        for i, config in enumerate(export_configs):
-            if progress_callback:
-                progress_callback(
-                    i, total, f"Exporting {config.get('format_type', 'unknown')}"
-                )
-
-            result = self.export_content(**config)
-            results.append(result)
-
-        return {
-            "status": "completed",
-            "total_exports": total,
-            "successful": len([r for r in results if r["status"] == "success"]),
-            "results": results,
-        }
-
-    def _get_content_by_ids(self, content_ids: List[str]) -> List[Dict]:
-        """Get content by specific IDs"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-
-            placeholders = ",".join("?" * len(content_ids))
-
-            # Use the podcast database schema (episodes table)
-            query = f"""
-            SELECT 
-                e.id,
-                e.title,
-                e.url as summary,
-                e.publish_date as created_at,
-                e.transcript_path as content,
-                p.title as podcast_title,
-                p.id as podcast_description,
-                'transcript' as content_type,
-                e.url as source_url,
-                e.transcript_url
-            FROM episodes e
-            LEFT JOIN podcasts p ON e.podcast_id = p.id
-            WHERE e.id IN ({placeholders}) AND e.transcript_path IS NOT NULL
-            ORDER BY e.publish_date DESC
-            """
-
-            results = conn.execute(query, content_ids).fetchall()
-            return [dict(row) for row in results]
-
-    def _get_filtered_content(self, filters: Dict) -> List[Dict]:
-        """Get content based on filters"""
-        with sqlite3.connect(self.db_path) as conn:
-            conn.row_factory = sqlite3.Row
-
-            # Build dynamic query based on filters using podcast database schema
-            where_conditions = [
-                "e.transcript_path IS NOT NULL"
-            ]  # Only episodes with transcripts
-            params = []
-
-            if filters.get("podcast"):
-                where_conditions.append("p.title LIKE ?")
-                params.append(f"%{filters['podcast']}%")
-
-            if filters.get("content_type"):
-                # For podcast database, we only have podcast content
-                if (
-                    filters["content_type"] != "podcast"
-                    and filters["content_type"] != "transcript"
-                ):
-                    return []  # No matches for other content types
-
-            if filters.get("date_from"):
-                where_conditions.append("e.publish_date >= ?")
-                params.append(filters["date_from"])
-
-            if filters.get("date_to"):
-                where_conditions.append("e.publish_date <= ?")
-                params.append(filters["date_to"])
-
-            # Build query
-            where_clause = " AND ".join(where_conditions) if where_conditions else "1=1"
-
-            query = f"""
-            SELECT 
-                e.id,
-                e.title,
-                e.url as summary,
-                e.publish_date as created_at,
-                e.transcript_path as content,
-                p.title as podcast_title,
-                p.id as podcast_description,
-                'transcript' as content_type,
-                e.url as source_url
-            FROM episodes e
-            LEFT JOIN podcasts p ON e.podcast_id = p.id
-            WHERE {where_clause}
-            ORDER BY e.publish_date DESC
-            """
-
-            if filters.get("limit"):
-                query += f" LIMIT {filters['limit']}"
-
-            results = conn.execute(query, params).fetchall()
-            return [dict(row) for row in results]
-
-    def _format_content(
-        self, content_data: List[Dict], format_type: str, template: str = None
-    ) -> Any:
-        """Format content based on export type"""
-
-        if format_type == "json":
-            return self._format_json(content_data)
-        elif format_type == "csv":
-            return self._format_csv(content_data)
-        elif format_type == "markdown":
-            return self._format_markdown(content_data, template)
-        elif format_type == "obsidian":
-            return self._format_obsidian(content_data)
-        elif format_type == "notion":
-            return self._format_notion(content_data)
-        elif format_type == "anki":
-            return self._format_anki(content_data)
-        else:
-            raise ValueError(f"Unsupported format type: {format_type}")
-
-    def _format_json(self, content_data: List[Dict]) -> str:
-        """Format as JSON with metadata"""
-        export_data = {
-            "export_timestamp": datetime.now().isoformat(),
-            "content_count": len(content_data),
-            "content": content_data,
-        }
-        return json.dumps(export_data, indent=2, default=str)
-
-    def _format_csv(self, content_data: List[Dict]) -> str:
-        """Format as CSV for spreadsheet analysis"""
-        if not content_data:
-            return ""
-
-        # Get all unique keys for headers
-        all_keys = set()
-        for item in content_data:
-            all_keys.update(item.keys())
-
-        # Create CSV content
-        import io
-
-        output = io.StringIO()
-        writer = csv.DictWriter(output, fieldnames=sorted(all_keys))
-        writer.writeheader()
-
-        for item in content_data:
-            # Convert any non-string values to strings
-            row = {k: str(v) if v is not None else "" for k, v in item.items()}
-            writer.writerow(row)
-
-        return output.getvalue()
-
-    def _format_markdown(
-        self, content_data: List[Dict], template: str = None
-    ) -> List[Dict]:
-        """Format as Markdown files with YAML frontmatter"""
-        template_name = template or "markdown.jinja2"
-
-        try:
-            template_obj = self.jinja_env.get_template(template_name)
-        except Exception:
-            # Fallback to default markdown template
-            template_obj = Template(self._get_default_markdown_template())
-
-        formatted_files = []
-
-        # Group content by main content item
-        content_groups = self._group_content_by_item(content_data)
-
-        for content_id, group_data in content_groups.items():
-            content_item = group_data["content"]
-            segments = group_data["segments"]
+            options: Export configuration options
             
-            # Prepare data for template
-            template_data = {
-                "content": content_item,
-                "segments": segments,
-                "export_date": datetime.now().isoformat(),
-                "total_segments": len(segments),
-            }
-
-            rendered_content = template_obj.render(**template_data)
-
-            # Generate filename
-            title = content_item.get("title", "untitled")
-            safe_title = "".join(
-                c for c in title if c.isalnum() or c in (" ", "-", "_")
-            ).rstrip()
-            filename = f"{safe_title[:50]}.md"
-
-            formatted_files.append(
-                {
-                    "filename": filename,
-                    "content": rendered_content,
-                    "metadata": template_data,
-                }
-            )
-
-        return formatted_files
-
-    def _format_obsidian(self, content_data: List[Dict]) -> List[Dict]:
-        """Format for Obsidian with wiki-links and tags"""
-        formatted_files = []
-        content_groups = self._group_content_by_item(content_data)
-
-        for content_id, group_data in content_groups.items():
-            content_item = group_data["content"]
-            segments = group_data["segments"]
-            # Create Obsidian-specific formatting
-            frontmatter = {
-                "title": content_item.get("title", "Untitled"),
-                "type": content_item.get("content_type", "unknown"),
-                "source": content_item.get("source_url", ""),
-                "podcast": content_item.get("podcast_title", ""),
-                "created": content_item.get("created_at", ""),
-                "speakers": list(
-                    set(s["speaker"] for s in segments if s.get("speaker"))
-                ),
-                "topics": list(
-                    set(s["topic_cluster"] for s in segments if s.get("topic_cluster"))
-                ),
-                "tags": [
-                    f"#{content_item.get('content_type', 'content')}",
-                    f"#{content_item.get('podcast_title', 'unknown').replace(' ', '_')}",
-                ],
-            }
-
-            # Build content with wiki-links
-            content_lines = [
-                "---",
-                yaml.dump(frontmatter, default_flow_style=False).strip(),
-                "---",
-                "",
-                f"# {content_item.get('title', 'Untitled')}",
-                "",
-            ]
-
-            if content_item.get("summary"):
-                content_lines.extend(["## Summary", content_item["summary"], ""])
-
-            if segments:
-                content_lines.extend(["## Transcript Segments", ""])
-
-                for segment in segments:
-                    if segment.get("speaker") and segment.get("transcript_segment"):
-                        speaker_link = f"[[{segment['speaker']}]]"
-                        content_lines.append(
-                            f"**{speaker_link}**: {segment['transcript_segment']}"
-                        )
-                        content_lines.append("")
-
-            # Related content links
-            if content_item.get("podcast_title"):
-                content_lines.extend(
-                    ["## Related", f"- [[{content_item['podcast_title']}]]", ""]
+        Returns:
+            ExportResult with operation details and status
+            
+        Raises:
+            ValueError: If invalid options provided
+            IOError: If export operation fails
+        """
+        start_time = datetime.now()
+        errors = []
+        
+        try:
+            # Validate options
+            self._validate_options(options)
+            
+            # Get filtered content
+            content_items = self._get_filtered_content(options)
+            
+            if not content_items:
+                return ExportResult(
+                    success=False,
+                    output_path="",
+                    items_exported=0,
+                    format=options.format,
+                    file_size_bytes=0,
+                    processing_time_ms=0,
+                    errors=["No content items matched the specified filters"]
                 )
-
-            rendered_content = "\n".join(content_lines)
-
-            # Safe filename for Obsidian
-            title = content_item.get("title", "untitled")
-            safe_title = "".join(
-                c for c in title if c.isalnum() or c in (" ", "-", "_")
-            ).rstrip()
-            filename = f"{safe_title[:50]}.md"
-
-            formatted_files.append(
-                {
-                    "filename": filename,
-                    "content": rendered_content,
-                    "metadata": frontmatter,
-                }
+            
+            # Generate output filename if not provided
+            output_path = options.output_path or self._generate_output_filename(options)
+            
+            # Perform export based on format
+            if options.format == ExportFormat.JSON:
+                self._export_json(content_items, output_path, options)
+            elif options.format == ExportFormat.MARKDOWN:
+                self._export_markdown(content_items, output_path, options)
+            elif options.format == ExportFormat.HTML:
+                self._export_html(content_items, output_path, options)
+            elif options.format == ExportFormat.PDF:
+                self._export_pdf(content_items, output_path, options)
+            elif options.format == ExportFormat.CSV:
+                self._export_csv(content_items, output_path, options)
+            elif options.format == ExportFormat.TXT:
+                self._export_txt(content_items, output_path, options)
+            else:
+                raise ValueError(f"Unsupported export format: {options.format}")
+            
+            # Get file size
+            file_size = os.path.getsize(output_path) if os.path.exists(output_path) else 0
+            processing_time = (datetime.now() - start_time).total_seconds() * 1000
+            
+            log_info(self.log_path, f"Successfully exported {len(content_items)} items to {output_path}")
+            
+            return ExportResult(
+                success=True,
+                output_path=output_path,
+                items_exported=len(content_items),
+                format=options.format,
+                file_size_bytes=file_size,
+                processing_time_ms=processing_time,
+                errors=errors
             )
-
-        return formatted_files
-
-    def _format_notion(self, content_data: List[Dict]) -> Dict:
-        """Format for Notion database import"""
-        content_groups = self._group_content_by_item(content_data)
-
-        # Prepare database entries
-        database_entries = []
-
-        for content_id, group_data in content_groups.items():
-            content_item = group_data["content"]
-            segments = group_data["segments"]
-            entry = {
-                "Name": content_item.get("title", "Untitled"),
-                "Type": content_item.get("content_type", ""),
-                "Source": content_item.get("source_url", ""),
-                "Podcast": content_item.get("podcast_title", ""),
-                "Created": content_item.get("created_at", ""),
-                "Summary": content_item.get("summary", ""),
-                "Speakers": ", ".join(
-                    set(s["speaker"] for s in segments if s.get("speaker"))
-                ),
-                "Topics": ", ".join(
-                    set(s["topic_cluster"] for s in segments if s.get("topic_cluster"))
-                ),
-                "Segment_Count": len(segments),
-                "Content_Length": len(content_item.get("content", "")),
-                "Tags": f"{content_item.get('content_type', 'content')}, {content_item.get('podcast_title', 'unknown')}",
-            }
-
-            database_entries.append(entry)
-
-        return {
-            "database_schema": {
-                "Name": "title",
-                "Type": "select",
-                "Source": "url",
-                "Podcast": "select",
-                "Created": "date",
-                "Summary": "rich_text",
-                "Speakers": "multi_select",
-                "Topics": "multi_select",
-                "Segment_Count": "number",
-                "Content_Length": "number",
-                "Tags": "multi_select",
+            
+        except Exception as e:
+            processing_time = (datetime.now() - start_time).total_seconds() * 1000
+            error_msg = f"Export failed: {str(e)}"
+            log_error(self.log_path, error_msg)
+            errors.append(error_msg)
+            
+            return ExportResult(
+                success=False,
+                output_path=options.output_path or "",
+                items_exported=0,
+                format=options.format,
+                file_size_bytes=0,
+                processing_time_ms=processing_time,
+                errors=errors
+            )
+    
+    def _validate_options(self, options: ExportOptions) -> None:
+        """Validate export options."""
+        if options.format == ExportFormat.PDF and not ADVANCED_EXPORT_AVAILABLE:
+            raise ValueError("PDF export requires weasyprint and markdown libraries")
+        
+        if options.max_items is not None and options.max_items <= 0:
+            raise ValueError("max_items must be positive")
+    
+    def _get_filtered_content(self, options: ExportOptions) -> List[Dict[str, Any]]:
+        """Get content items filtered by options."""
+        all_content = self.db.get_all_content()
+        
+        filtered_content = []
+        for item in all_content:
+            # Filter by content type
+            if options.content_type_filter and item.get('content_type') != options.content_type_filter:
+                continue
+                
+            # Filter by date range
+            if options.date_filter_after:
+                if item.get('created_at', '') < options.date_filter_after:
+                    continue
+                    
+            if options.date_filter_before:
+                if item.get('created_at', '') > options.date_filter_before:
+                    continue
+            
+            filtered_content.append(item)
+            
+            # Apply max items limit
+            if options.max_items and len(filtered_content) >= options.max_items:
+                break
+        
+        return filtered_content
+    
+    def _generate_output_filename(self, options: ExportOptions) -> str:
+        """Generate output filename based on options."""
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filter_desc = ""
+        
+        if options.content_type_filter:
+            filter_desc += f"_{options.content_type_filter}"
+        if options.max_items:
+            filter_desc += f"_top{options.max_items}"
+            
+        filename = f"atlas_content_{timestamp}{filter_desc}.{options.format.value}"
+        return str(self.export_dir / filename)
+    
+    def _export_json(self, content_items: List[Dict[str, Any]], output_path: str, options: ExportOptions) -> None:
+        """Export content as JSON."""
+        export_data = {
+            'export_info': {
+                'timestamp': datetime.now().isoformat(),
+                'total_items': len(content_items),
+                'format': options.format.value,
+                'filters_applied': {
+                    'content_type': options.content_type_filter,
+                    'date_after': options.date_filter_after,
+                    'date_before': options.date_filter_before,
+                    'max_items': options.max_items
+                }
             },
-            "entries": database_entries,
+            'content': []
         }
-
-    def _format_anki(self, content_data: List[Dict]) -> List[Dict]:
-        """Format as Anki flashcards"""
-        flashcards = []
-        content_groups = self._group_content_by_item(content_data)
-
-        for content_id, group_data in content_groups.items():
-            content_item = group_data["content"]
-            segments = group_data["segments"]
-            # Create cards from key insights
-            podcast_title = content_item.get("podcast_title", "Unknown Podcast")
-            content_title = content_item.get("title", "Unknown Episode")
-
-            # Question/Answer cards from segments
-            for segment in segments:
-                if segment.get("speaker") and segment.get("transcript_segment"):
-                    segment_text = segment["transcript_segment"]
-                    speaker = segment["speaker"]
-
-                    # Create Q&A style cards for meaningful segments
-                    if len(segment_text) > 100 and "?" in segment_text:
-                        parts = segment_text.split("?", 1)
-                        if len(parts) == 2:
-                            question = parts[0].strip() + "?"
-                            answer = parts[1].strip()
-
-                            flashcards.append(
-                                {
-                                    "front": question,
-                                    "back": answer,
-                                    "speaker": speaker,
-                                    "source": f"{podcast_title} - {content_title}",
-                                    "topic": segment.get("topic_cluster", "General"),
-                                    "deck": podcast_title,
-                                    "tags": [
-                                        content_item.get("content_type", "transcript"),
-                                        speaker.replace(" ", "_"),
-                                        segment.get("topic_cluster", "general").replace(
-                                            " ", "_"
-                                        ),
-                                    ],
-                                }
-                            )
-
-            # Summary cards
-            if content_item.get("summary"):
-                flashcards.append(
-                    {
-                        "front": f"What are the key points from: {content_title}?",
-                        "back": content_item["summary"],
-                        "speaker": "Summary",
-                        "source": f"{podcast_title} - {content_title}",
-                        "topic": "Summary",
-                        "deck": podcast_title,
-                        "tags": [
-                            "summary",
-                            content_item.get("content_type", "content"),
-                        ],
-                    }
-                )
-
-        return flashcards
-
-    def _group_content_by_item(self, content_data: List[Dict]) -> Dict:
-        """Group content by main content item (simplified for podcast database)"""
-        groups = {}
-
-        for row in content_data:
-            content_id = row.get("id")
-            if content_id not in groups:
-                # Store main content item with content ID as key
-                groups[content_id] = {
-                    "content": row,
-                    "segments": []  # Empty segments list since we don't have parsed segments yet
+        
+        for item in content_items:
+            export_item = {}
+            
+            if options.include_metadata:
+                export_item['metadata'] = {
+                    'id': item.get('id'),
+                    'title': item.get('title'),
+                    'url': item.get('url'),
+                    'content_type': item.get('content_type'),
+                    'created_at': item.get('created_at'),
+                    'updated_at': item.get('updated_at')
                 }
+                
+            if options.include_content:
+                export_item['content'] = item.get('content', '')
+                
+            export_data['content'].append(export_item)
+        
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(export_data, f, indent=2, ensure_ascii=False)
+    
+    def _export_markdown(self, content_items: List[Dict[str, Any]], output_path: str, options: ExportOptions) -> None:
+        """Export content as Markdown."""
+        with open(output_path, 'w', encoding='utf-8') as f:
+            # Write header
+            f.write(f"# Atlas Content Export\n\n")
+            f.write(f"**Export Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"**Total Items:** {len(content_items)}\n\n")
+            f.write("---\n\n")
+            
+            # Write content items
+            for i, item in enumerate(content_items, 1):
+                if options.include_metadata:
+                    f.write(f"## {i}. {item.get('title', 'Untitled')}\n\n")
+                    f.write(f"- **Type:** {item.get('content_type', 'Unknown')}\n")
+                    f.write(f"- **URL:** {item.get('url', 'N/A')}\n")
+                    f.write(f"- **Created:** {item.get('created_at', 'Unknown')}\n\n")
+                
+                if options.include_content and item.get('content'):
+                    f.write("### Content\n\n")
+                    f.write(f"{item.get('content')}\n\n")
+                
+                f.write("---\n\n")
+    
+    def _export_html(self, content_items: List[Dict[str, Any]], output_path: str, options: ExportOptions) -> None:
+        """Export content as HTML."""
+        html_template = """
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Atlas Content Export</title>
+            <style>
+                body {{ font-family: Arial, sans-serif; margin: 40px; }}
+                .header {{ border-bottom: 2px solid #333; padding-bottom: 20px; }}
+                .item {{ margin: 30px 0; padding: 20px; border-left: 4px solid #007acc; }}
+                .metadata {{ color: #666; font-size: 0.9em; }}
+                .content {{ margin-top: 15px; line-height: 1.6; }}
+                pre {{ background: #f5f5f5; padding: 10px; overflow-x: auto; }}
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>Atlas Content Export</h1>
+                <p><strong>Export Date:</strong> {export_date}</p>
+                <p><strong>Total Items:</strong> {total_items}</p>
+            </div>
+        """.format(
+            export_date=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            total_items=len(content_items)
+        )
+        
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(html_template)
+            
+            for i, item in enumerate(content_items, 1):
+                f.write('<div class="item">')
+                
+                if options.include_metadata:
+                    f.write(f'<h2>{i}. {item.get("title", "Untitled")}</h2>')
+                    f.write('<div class="metadata">')
+                    f.write(f'<p><strong>Type:</strong> {item.get("content_type", "Unknown")}</p>')
+                    f.write(f'<p><strong>URL:</strong> <a href="{item.get("url", "#")}">{item.get("url", "N/A")}</a></p>')
+                    f.write(f'<p><strong>Created:</strong> {item.get("created_at", "Unknown")}</p>')
+                    f.write('</div>')
+                
+                if options.include_content and item.get('content'):
+                    f.write('<div class="content">')
+                    content = item.get('content', '').replace('<', '&lt;').replace('>', '&gt;')
+                    f.write(f'<pre>{content}</pre>')
+                    f.write('</div>')
+                
+                f.write('</div>')
+            
+            f.write('</body></html>')
+    
+    def _export_pdf(self, content_items: List[Dict[str, Any]], output_path: str, options: ExportOptions) -> None:
+        """Export content as PDF."""
+        if not ADVANCED_EXPORT_AVAILABLE:
+            raise ValueError("PDF export requires weasyprint and markdown libraries")
+        
+        # Create HTML first
+        temp_html = output_path.replace('.pdf', '_temp.html')
+        self._export_html(content_items, temp_html, options)
+        
+        # Convert to PDF
+        HTML(filename=temp_html).write_pdf(output_path)
+        
+        # Clean up temp file
+        try:
+            os.remove(temp_html)
+        except:
+            pass
+    
+    def _export_csv(self, content_items: List[Dict[str, Any]], output_path: str, options: ExportOptions) -> None:
+        """Export content as CSV."""
+        with open(output_path, 'w', newline='', encoding='utf-8') as f:
+            if not content_items:
+                return
+                
+            # Determine columns based on options
+            columns = []
+            if options.include_metadata:
+                columns.extend(['id', 'title', 'url', 'content_type', 'created_at', 'updated_at'])
+            if options.include_content:
+                columns.append('content')
+            
+            writer = csv.DictWriter(f, fieldnames=columns)
+            writer.writeheader()
+            
+            for item in content_items:
+                row = {}
+                if options.include_metadata:
+                    row.update({
+                        'id': item.get('id'),
+                        'title': item.get('title'),
+                        'url': item.get('url'),
+                        'content_type': item.get('content_type'),
+                        'created_at': item.get('created_at'),
+                        'updated_at': item.get('updated_at')
+                    })
+                if options.include_content:
+                    row['content'] = item.get('content', '')
+                
+                writer.writerow(row)
+    
+    def _export_txt(self, content_items: List[Dict[str, Any]], output_path: str, options: ExportOptions) -> None:
+        """Export content as plain text."""
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(f"Atlas Content Export - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"Total Items: {len(content_items)}\n")
+            f.write("=" * 60 + "\n\n")
+            
+            for i, item in enumerate(content_items, 1):
+                if options.include_metadata:
+                    f.write(f"[{i}] {item.get('title', 'Untitled')}\n")
+                    f.write(f"Type: {item.get('content_type', 'Unknown')}\n")
+                    f.write(f"URL: {item.get('url', 'N/A')}\n")
+                    f.write(f"Created: {item.get('created_at', 'Unknown')}\n")
+                    f.write("-" * 40 + "\n")
+                
+                if options.include_content and item.get('content'):
+                    f.write(f"{item.get('content')}\n")
+                
+                f.write("\n" + "=" * 60 + "\n\n")
 
-        return groups
 
-    def _write_export(
-        self, formatted_content: Any, format_type: str, output_path: str
-    ) -> List[str]:
-        """Write formatted content to files"""
-        output_dir = Path(output_path)
-        output_dir.mkdir(parents=True, exist_ok=True)
+def export_content_cli():
+    """Command-line interface for content export."""
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Export Atlas content in various formats')
+    parser.add_argument('--format', choices=[f.value for f in ExportFormat], required=True,
+                      help='Export format')
+    parser.add_argument('--output', help='Output file path')
+    parser.add_argument('--type', help='Filter by content type')
+    parser.add_argument('--after', help='Filter content created after date (YYYY-MM-DD)')
+    parser.add_argument('--before', help='Filter content created before date (YYYY-MM-DD)')
+    parser.add_argument('--limit', type=int, help='Maximum number of items to export')
+    parser.add_argument('--no-metadata', action='store_true', help='Exclude metadata')
+    parser.add_argument('--no-content', action='store_true', help='Exclude content text')
+    
+    args = parser.parse_args()
+    
+    # Create export options
+    options = ExportOptions(
+        format=ExportFormat(args.format),
+        output_path=args.output,
+        include_metadata=not args.no_metadata,
+        include_content=not args.no_content,
+        content_type_filter=args.type,
+        date_filter_after=args.after,
+        date_filter_before=args.before,
+        max_items=args.limit
+    )
+    
+    # Perform export
+    exporter = ContentExporter()
+    result = exporter.export_content(options)
+    
+    if result.success:
+        print(f"✅ Successfully exported {result.items_exported} items to {result.output_path}")
+        print(f"📁 File size: {result.file_size_bytes:,} bytes")
+        print(f"⏱️ Processing time: {result.processing_time_ms:.1f}ms")
+    else:
+        print("❌ Export failed:")
+        for error in result.errors:
+            print(f"   - {error}")
 
-        created_files = []
 
-        if format_type in ["markdown", "obsidian"]:
-            # Multiple files
-            for file_data in formatted_content:
-                file_path = output_dir / file_data["filename"]
-                with open(file_path, "w", encoding="utf-8") as f:
-                    f.write(file_data["content"])
-                created_files.append(str(file_path))
-
-        elif format_type == "json":
-            file_path = (
-                output_dir
-                / f"atlas_export_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-            )
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(formatted_content)
-            created_files.append(str(file_path))
-
-        elif format_type == "csv":
-            file_path = (
-                output_dir
-                / f"atlas_export_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-            )
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(formatted_content)
-            created_files.append(str(file_path))
-
-        elif format_type == "notion":
-            # JSON for Notion import
-            file_path = (
-                output_dir
-                / f"notion_import_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-            )
-            with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(formatted_content, f, indent=2, default=str)
-            created_files.append(str(file_path))
-
-        elif format_type == "anki":
-            # CSV format for Anki import
-            file_path = (
-                output_dir
-                / f"anki_cards_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
-            )
-
-            if formatted_content:
-                with open(file_path, "w", encoding="utf-8", newline="") as f:
-                    fieldnames = [
-                        "front",
-                        "back",
-                        "speaker",
-                        "source",
-                        "topic",
-                        "deck",
-                        "tags",
-                    ]
-                    writer = csv.DictWriter(f, fieldnames=fieldnames)
-                    writer.writeheader()
-
-                    for card in formatted_content:
-                        # Convert tags list to string
-                        card_data = card.copy()
-                        card_data["tags"] = ", ".join(card.get("tags", []))
-                        writer.writerow(card_data)
-
-                created_files.append(str(file_path))
-
-        return created_files
-
-    def _get_default_markdown_template(self) -> str:
-        """Default markdown template if no template file found"""
-        return """---
-title: {{ content.title }}
-type: {{ content.content_type }}
-source: {{ content.source_url }}
-podcast: {{ content.podcast_title }}
-created: {{ content.created_at }}
-export_date: {{ export_date }}
----
-
-# {{ content.title }}
-
-{% if content.summary %}
-## Summary
-{{ content.summary }}
-{% endif %}
-
-{% if segments %}
-## Transcript
-{% for segment in segments %}
-{% if segment.speaker and segment.transcript_segment %}
-**{{ segment.speaker }}**: {{ segment.transcript_segment }}
-
-{% endif %}
-{% endfor %}
-{% endif %}
-
----
-*Exported from Atlas on {{ export_date }}*
-"""
+if __name__ == "__main__":
+    export_content_cli()
