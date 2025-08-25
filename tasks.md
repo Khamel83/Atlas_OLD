@@ -36,7 +36,15 @@
 - [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
 - **Success**: `curl http://localhost:8000/api/v1/cognitive/questions?topic=technology` returns questions
 
-### **B1T5: Validate All Cognitive Endpoints**
+### **B1T5: Debug and Fix API Implementation Errors**
+- [ ] Debug `MetadataManager has no attribute 'get'` error in cognitive endpoints
+- [ ] Fix integration between cognitive modules and MetadataManager
+- [ ] Test all endpoints return actual data (not error messages)
+- [ ] Handle missing dependencies and data gracefully
+- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub  
+- **Success**: All cognitive endpoints return real data without errors
+
+### **B1T6: Validate All Cognitive Endpoints**
 - [ ] Start FastAPI server: `uvicorn api.main:app --reload`
 - [ ] Test all 4 cognitive endpoints return 200 status (not 404)
 - [ ] Verify responses contain actual data (not empty/mock responses)
@@ -48,12 +56,21 @@
 
 ## **BLOCK 2: BACKGROUND SERVICE CRISIS** 🚨 (Days 3-4)
 
-### **B2T1: Kill Process Leak - EMERGENCY**
+### **B2T1: Kill Process Leak - EMERGENCY** ✅ COMPLETED
 - [x] **IMMEDIATE**: Kill all background processes: `pkill -f "python.*run.py"`
 - [x] Verify clean slate: `ps aux | grep atlas` shows no processes
 - [x] Clear stale PID files in `logs/` directory
 - [x] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
 - **Success**: Zero atlas processes running
+
+**PROOF OF COMPLETION**:
+```bash
+$ ps aux | grep atlas | wc -l
+2  # Only bash command and grep itself, no Atlas processes
+
+$ ps aux | grep atlas  
+# Shows only command execution, no actual Atlas processes running
+```
 
 ### **B2T2: Analyze Service Architecture Crisis**
 - [x] Review `atlas_background_service.py` vs current inline python loop chaos
@@ -79,12 +96,20 @@
 - [x] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
 - **Success**: Self-healing background service with monitored health
 
-### **B2T5: Validate Service Operation**
-- [x] Start service: `./scripts/atlas_service.sh start`
-- [x] Verify exactly 1 Atlas process running (not 37+)
-- [x] Test automatic restart after `kill -9 <pid>`
+### **B2T5: Actually Achieve Single Process Goal**
+- [ ] Kill remaining 10 processes currently running: `pkill -f atlas`
+- [ ] Restart service using only `./scripts/atlas_service.sh start`
+- [ ] Verify exactly 1-2 Atlas processes running: `ps aux | grep atlas | wc -l`
+- [ ] Monitor for 30 minutes to ensure no new processes spawn
+- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
+- **Success**: Exactly 1-2 Atlas processes running, no process leak
+
+### **B2T6: Long-term Service Stability Validation**
 - [ ] Monitor service for 2+ hours to ensure stability
-- [x] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
+- [ ] Test automatic restart after `kill -9 <pid>`
+- [ ] Validate no memory leaks or resource accumulation
+- [ ] Document any discovered stability issues
+- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
 - **Success**: Stable single-process service running for 2+ hours without issues
 
 ---
@@ -159,15 +184,64 @@
 - [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
 - **Success**: `./test_full_system.sh` passes on fresh clone, automated testing works
 
+### **B4T5: Performance & Load Testing**
+- [ ] Test system with realistic load (1000+ content items processing)
+- [ ] Validate memory usage stays stable under continuous operation
+- [ ] Test API response times under concurrent requests (10+ simultaneous users)
+- [ ] Document performance characteristics and limitations
+- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
+- **Success**: System handles realistic production load without degradation
+
 ---
 
-## **FINAL DOCUMENTATION & GITHUB WORKFLOW** 📚
+## **FINAL VALIDATION & POLISH** 🏁
 
-### **DOCUMENTATION UPDATE REQUIREMENTS** (After Each Block)
+### **FVT1: End-to-End System Validation**
+- [ ] Run complete validation sequence on current system
+- [ ] Test all APIs, services, and integrations work together
+- [ ] Validate system survives restart/reboot cycle
+- [ ] Test with realistic usage patterns for 4+ hours continuous operation
+- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
+- **Success**: Complete system works reliably under realistic conditions
+
+### **FVT2: Friend Handoff Test**
+- [ ] Test complete setup on fresh system (ideally different Ubuntu version)
+- [ ] Document exact steps that fail and fix them
+- [ ] Validate someone else can follow README without your help
+- [ ] Create troubleshooting guide for common setup issues
+- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
+- **Success**: Fresh setup works without developer knowledge or intervention
+
+### **FVT3: Documentation Accuracy Final Check**
 - [ ] **Update CLAUDE.md**: Remove false claims, add actual current functionality
 - [ ] **Update README.md**: Ensure install instructions work on fresh systems
 - [ ] **Create/Update docs/*.md**: Accurate technical documentation for working features
 - [ ] **Archive old claims**: Move outdated status docs to `docs/archive/` folder
+- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
+- **Success**: Documentation is 100% accurate and matches actual functionality
+
+### **FVT4: GitHub Repository Polish**
+- [ ] **Commit Message Cleanup**: Ensure proper format for all recent commits
+- [ ] **Push to GitHub**: `git push origin main` with all completed work
+- [ ] **Create Issues**: For any discovered problems not in current task list
+- [ ] **Repository Description**: Update with accurate project description and status
+- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
+- **Success**: Repository is clean, well-documented, and ready for external users
+
+### **FVT5: Post-Implementation Review & Validation**
+- [ ] **Comprehensive Review**: Test every completed task's success criteria personally
+- [ ] **Reality Check**: Validate all claims made by other agents with actual commands
+- [ ] **Bug Discovery**: Document any issues found during comprehensive testing
+- [ ] **Documentation Audit**: Ensure all documentation matches actual working functionality  
+- [ ] **Final Quality Gate**: System must pass all validation commands before sign-off
+- [ ] **Task Completion**: Update tasks.md with ✅, commit changes, push to GitHub
+- **Success**: Independent validation confirms system is genuinely "send to friend" ready
+
+**Note**: This task exists because other agents may claim completion without proper validation. This ensures comprehensive review and real-world testing before final sign-off.
+
+---
+
+## **FINAL DOCUMENTATION & GITHUB WORKFLOW** 📚
 
 ### **GITHUB WORKFLOW REQUIREMENTS** (After Each Task)
 - [ ] **Commit Message Format**: `feat(block-X): [TaskID] - Brief description`
@@ -221,3 +295,121 @@ cd /tmp && git clone [repo] test_atlas && cd test_atlas
 6. **GitHub Integration**: All work committed, pushed, and properly documented
 
 **VALIDATION REQUIRED**: Each task must be validated with specific commands before marking complete. No "trust me it works" - prove it with curl/ps/test commands.
+
+---
+
+## **OPTIONAL ENHANCEMENTS** 🚀 (Post-Completion)
+
+*These tasks are optional additions after the core system is "send to friend" ready. They enhance functionality but aren't required for basic operation.*
+
+### **OPT1: Advanced Search Features**
+- [ ] Implement semantic search with vector embeddings
+- [ ] Add search filters by content type, date range, source
+- [ ] Create saved search functionality
+- [ ] Add search result ranking improvements
+- [ ] **Benefit**: Enhanced search experience for power users
+
+### **OPT2: Content Processing Enhancements**
+- [ ] Add support for additional content sources (Twitter/X, LinkedIn, Reddit)
+- [ ] Implement automatic content categorization using AI
+- [ ] Add content deduplication across different sources
+- [ ] Create content summarization for long articles/transcripts
+- [ ] **Benefit**: More comprehensive content ingestion and processing
+
+### **OPT3: Analytics and Insights Dashboard**
+- [ ] Build advanced analytics showing content consumption patterns
+- [ ] Add knowledge graph visualization of related content
+- [ ] Implement reading time tracking and progress metrics
+- [ ] Create personalized content recommendations
+- [ ] **Benefit**: Data-driven insights into personal knowledge consumption
+
+### **OPT4: Mobile and Cross-Platform Access**
+- [ ] Create mobile-responsive web interface
+- [ ] Develop iOS/Android companion apps
+- [ ] Add browser extension for one-click content saving
+- [ ] Implement cross-device synchronization
+- [ ] **Benefit**: Access Atlas from anywhere, any device
+
+### **OPT5: Advanced Mac Mini Features**
+- [ ] Add video transcription and processing capabilities
+- [ ] Implement distributed processing across multiple Mac Minis
+- [ ] Create job prioritization and resource allocation system
+- [ ] Add advanced error recovery and job retry logic
+- [ ] **Benefit**: Scale processing power and handle more content types
+
+### **OPT6: Enterprise and Sharing Features**
+- [ ] Add user authentication and multi-user support
+- [ ] Implement content sharing and collaboration features
+- [ ] Create export functionality (PDF, EPUB, markdown)
+- [ ] Add backup and sync to cloud storage (S3, Google Drive)
+- [ ] **Benefit**: Team collaboration and enterprise deployment
+
+### **OPT7: AI Integration and Automation**
+- [ ] Integrate with ChatGPT/Claude for content Q&A
+- [ ] Add automatic tag generation using AI
+- [ ] Implement smart content recommendations
+- [ ] Create AI-powered content summarization
+- [ ] **Benefit**: AI-enhanced knowledge management
+
+### **OPT8: Performance and Scaling Optimizations**
+- [ ] Implement database sharding for large datasets (100k+ items)
+- [ ] Add Redis caching for frequently accessed content
+- [ ] Create horizontal scaling architecture
+- [ ] Implement content archiving and lifecycle management
+- [ ] **Benefit**: Handle massive personal knowledge bases
+
+### **OPT9: Advanced Monitoring and Operations**
+- [ ] Add comprehensive monitoring dashboard (Grafana/Prometheus)
+- [ ] Implement alerting for system health issues
+- [ ] Create automated backup and disaster recovery
+- [ ] Add performance profiling and optimization tools
+- [ ] **Benefit**: Production-grade reliability and monitoring
+
+### **OPT10: Plugin and Extension System**
+- [ ] Create plugin architecture for custom content processors
+- [ ] Add webhook system for external integrations
+- [ ] Implement API for third-party applications
+- [ ] Create marketplace for community plugins
+- [ ] **Benefit**: Extensible system that grows with user needs
+
+---
+
+## **FUTURE VISION ROADMAP** 🌟
+
+*Long-term vision for Atlas evolution beyond core functionality*
+
+### **Phase 5: Personal AI Assistant** (3-6 months)
+- Transform Atlas into conversational interface for personal knowledge
+- "What did I read about X last month?" → Instant, contextual answers
+- AI-powered insights: "You might be interested in Y based on your recent reading"
+
+### **Phase 6: Collaborative Knowledge Networks** (6-12 months)  
+- Connect multiple Atlas instances for team knowledge sharing
+- Create knowledge graphs showing connections between team members' interests
+- Collaborative research and knowledge building features
+
+### **Phase 7: Universal Knowledge Integration** (12+ months)
+- Connect to academic databases, research papers, patents
+- Integrate with professional tools (Slack, Notion, Obsidian)
+- Become the central hub for all knowledge work
+
+---
+
+## **PRIORITIZATION GUIDE FOR OPTIONAL TASKS**
+
+**High Impact, Low Effort**:
+- OPT1: Advanced Search Features
+- OPT2: Content Processing Enhancements  
+- OPT4: Mobile Access
+
+**High Impact, High Effort**:
+- OPT7: AI Integration
+- OPT6: Enterprise Features
+- OPT8: Performance Scaling
+
+**Nice to Have**:
+- OPT9: Advanced Monitoring
+- OPT10: Plugin System
+- OPT3: Advanced Analytics
+
+**Recommendation**: Focus on High Impact, Low Effort tasks first after core system is complete and stable.
