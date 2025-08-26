@@ -24,6 +24,7 @@ from helpers.dedupe import link_uid
 from helpers.utils import log_info, log_error
 from helpers.transcript_parser import TranscriptParser
 from helpers.transcript_search_indexer import TranscriptSearchIndexer
+from helpers.content_processor_enhanced import ContentProcessorEnhanced
 from modules.podcasts.cli import AtlasPodCLI
 from modules.podcasts.store import PodcastStore
 
@@ -51,6 +52,7 @@ class PodcastTranscriptIngestor(BaseIngestor):
         self.atlas_pod_cli.init_store()
         self.transcript_parser = TranscriptParser()
         self.search_indexer = TranscriptSearchIndexer()
+        self.enhanced_processor = ContentProcessorEnhanced(config)
 
     def discover_and_process_transcripts(self, podcast_slugs: List[str] = None):
         """
@@ -173,7 +175,21 @@ class PodcastTranscriptIngestor(BaseIngestor):
         if not base_path.exists():
             return transcript_files
 
-        # Get podcasts to process
+        # Check both possible transcript locations:
+        # 1. data/podcasts/transcripts/ (main transcripts directory)
+        # 2. data/podcasts/{podcast}/transcripts/ (per-podcast directories)
+        
+        # Main transcripts directory
+        main_transcripts_dir = base_path / "transcripts"
+        if main_transcripts_dir.exists():
+            # Process all subdirectories in transcripts/
+            for subdir in main_transcripts_dir.iterdir():
+                if subdir.is_dir():
+                    # Check if we should process this podcast
+                    if not podcast_slugs or subdir.name in podcast_slugs:
+                        transcript_files.extend(subdir.glob("*.md"))
+
+        # Per-podcast transcript directories
         if podcast_slugs:
             podcast_dirs = [
                 base_path / slug
@@ -181,13 +197,18 @@ class PodcastTranscriptIngestor(BaseIngestor):
                 if (base_path / slug).exists()
             ]
         else:
-            podcast_dirs = [d for d in base_path.iterdir() if d.is_dir()]
+            podcast_dirs = [d for d in base_path.iterdir() if d.is_dir() and d.name != "transcripts"]
 
-        # Find transcript files
+        # Find transcript files in per-podcast directories
         for podcast_dir in podcast_dirs:
             transcripts_dir = podcast_dir / "transcripts"
             if transcripts_dir.exists():
                 transcript_files.extend(transcripts_dir.glob("*.md"))
+
+        # Also check markdown files directly in data/podcasts/markdown/
+        markdown_dir = base_path / "markdown"
+        if markdown_dir.exists():
+            transcript_files.extend(markdown_dir.glob("*.md"))
 
         return transcript_files
 
@@ -393,6 +414,31 @@ class PodcastTranscriptIngestor(BaseIngestor):
                         self.log_path, f"Error indexing transcript for search: {e}"
                     )
                     # Don't fail the whole process if search indexing fails
+
+            # Enhanced content processing with structured extraction
+            try:
+                enhanced_result = self.enhanced_processor.process_content(
+                    title=metadata["title"],
+                    content=content,
+                    url=metadata["source"],
+                    source=f"{metadata['podcast_name']} (Podcast)",
+                    content_type="podcast",
+                    date=metadata.get("publish_date")
+                )
+                
+                if enhanced_result and enhanced_result.get('status') != 'error':
+                    insights = enhanced_result.get('insights', {})
+                    quality = insights.extraction_quality if hasattr(insights, 'extraction_quality') else 0.0
+                    log_info(
+                        self.log_path,
+                        f"✅ Enhanced processing completed: {meta.title} (Quality: {quality:.2f})",
+                    )
+                
+            except Exception as e:
+                log_error(
+                    self.log_path, f"Error in enhanced processing: {e}"
+                )
+                # Don't fail the whole process if enhanced processing fails
 
             # Generate summary if enabled
             if self.config.get("generate_summaries", True):

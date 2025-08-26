@@ -298,7 +298,7 @@ class LLMRouter:
                 'routing_decision': routing_decision
             }
         
-        log_info(f"Executing {spec.kind.value} task with {model} (${estimated_cost:.6f})")
+        log_info(self.log_path, f"Executing {spec.kind.value} task with {model} (${estimated_cost:.6f})")
         
         # Execute request
         try:
@@ -321,7 +321,7 @@ class LLMRouter:
                     else:
                         # JSON validation failed
                         if spec.retry_count < self.max_fallback_attempts:
-                            log_info(f"JSON validation failed, attempting fallback")
+                            log_info(self.log_path, f"JSON validation failed, attempting fallback")
                             
                             # Create new spec for fallback
                             fallback_spec = TaskSpec(
@@ -357,7 +357,7 @@ class LLMRouter:
             }
             
         except Exception as e:
-            log_error(f"Task execution failed: {str(e)}")
+            log_error(self.log_path, f"Task execution failed: {str(e)}")
             
             # Attempt fallback on execution failure
             if spec.retry_count < self.max_fallback_attempts:

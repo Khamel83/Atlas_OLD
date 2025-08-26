@@ -33,7 +33,9 @@ class ContentProcessorEnhanced:
         
     def _init_database(self):
         """Initialize SQLite database for tracking processed content."""
-        os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
+        db_dir = os.path.dirname(self.db_path)
+        if db_dir:  # Only create directories if there's a directory path
+            os.makedirs(db_dir, exist_ok=True)
         
         with sqlite3.connect(self.db_path) as conn:
             conn.execute("""

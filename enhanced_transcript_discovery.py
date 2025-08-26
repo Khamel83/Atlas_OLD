@@ -70,7 +70,7 @@ class EnhancedTranscriptDiscoveryService:
             
             discovery_result = subprocess.run([
                 sys.executable, '-m', 'modules.podcasts.cli', 'discover', '--all'
-            ], capture_output=True, text=True, timeout=600)
+            ], capture_output=True, text=True, timeout=1800)  # Increased to 30 minutes
             
             discovery_time = time.time() - discovery_start
             
@@ -101,7 +101,7 @@ class EnhancedTranscriptDiscoveryService:
             try:
                 fetch_result = subprocess.run([
                     sys.executable, '-m', 'modules.podcasts.cli', 'fetch-transcripts', '--all'
-                ], capture_output=True, text=True, timeout=900)
+                ], capture_output=True, text=True, timeout=3600)  # Increased to 1 hour
                 
                 fetch_time = time.time() - fetch_start
                 

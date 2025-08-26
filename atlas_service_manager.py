@@ -62,11 +62,13 @@ class AtlasServiceManager:
     def start_api_server(self) -> bool:
         """Start the Atlas API server"""
         try:
-            self.kill_process_on_port(8000)
-            # Check if already running
+            # Check if already running first
             if self._is_port_in_use(8000):
                 self.logger.info("API server already running on port 8000")
                 return True
+                
+            # Only kill if we need to start a new one
+            self.kill_process_on_port(8000)
                 
             # Start API server
             cmd = [
@@ -108,6 +110,26 @@ class AtlasServiceManager:
     def start_background_tasks(self) -> bool:
         """Start background processing tasks"""
         try:
+            # Check if scheduler is already running
+            existing_scheduler = None
+            for proc in psutil.process_iter(['pid', 'cmdline']):
+                try:
+                    if 'atlas_scheduler.py' in ' '.join(proc.info.get('cmdline', [])):
+                        existing_scheduler = proc
+                        break
+                except (psutil.NoSuchProcess, psutil.AccessDenied):
+                    continue
+            
+            if existing_scheduler:
+                self.logger.info(f"Background scheduler already running (PID: {existing_scheduler.pid})")
+                self.services["scheduler"] = {
+                    "process": existing_scheduler,
+                    "pid": existing_scheduler.pid,
+                    "start_time": datetime.now(),
+                    "status": "running"
+                }
+                return True
+            
             # Start scheduler for background tasks
             scheduler_cmd = [
                 sys.executable, "scripts/atlas_scheduler.py", "--start"
@@ -157,7 +179,7 @@ class AtlasServiceManager:
 
     def kill_process_on_port(self, port: int):
         """Kill process using a specific port"""
-        for proc in psutil.process_iter(['pid', 'connections']):
+        for proc in psutil.process_iter(['pid']):
             try:
                 connections = proc.connections() or []
                 for conn in connections:
@@ -172,8 +194,19 @@ class AtlasServiceManager:
     
     def start_all_services(self) -> bool:
         """Start all Atlas services"""
-        self.logger.info("Starting Atlas background services...")
+        # Check if another service manager is already running
+        for proc in psutil.process_iter(['pid', 'cmdline']):
+            try:
+                cmdline = proc.info.get('cmdline', [])
+                if ('atlas_service_manager.py' in ' '.join(cmdline) and 
+                    '--daemon' in cmdline and 
+                    proc.pid != os.getpid()):
+                    self.logger.info(f"Another service manager already running (PID: {proc.pid})")
+                    return False
+            except (psutil.NoSuchProcess, psutil.AccessDenied):
+                continue
         
+        self.logger.info("Starting Atlas background services...")
         success = True
         
         # Start API server

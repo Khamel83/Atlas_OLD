@@ -4,7 +4,7 @@
 -- Create transcript segments table
 CREATE TABLE IF NOT EXISTS transcript_segments (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    episode_id INTEGER NOT NULL,
+    episode_id INTEGER,
     content_uid TEXT NOT NULL,
     speaker TEXT,
     content TEXT NOT NULL,

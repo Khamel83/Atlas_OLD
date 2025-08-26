@@ -34,26 +34,105 @@ class TranscriptSearchIndexer:
                     schema_sql = f.read()
 
                 conn = sqlite3.connect(self.db_path)
-                cursor = conn.cursor()
-
-                # Execute schema (split by semicolon and execute each statement)
-                for statement in schema_sql.split(";"):
-                    statement = statement.strip()
-                    if statement:
-                        cursor.execute(statement)
-
-                conn.commit()
+                
+                # Use executescript for better multi-line statement handling
+                # But first clean up comments and extra whitespace
+                cleaned_sql_lines = []
+                for line in schema_sql.split('\n'):
+                    line = line.strip()
+                    # Skip comment-only lines but preserve inline comments for context
+                    if line and not line.startswith('--'):
+                        cleaned_sql_lines.append(line)
+                
+                cleaned_sql = '\n'.join(cleaned_sql_lines)
+                
+                try:
+                    conn.executescript(cleaned_sql)
+                    conn.commit()
+                    self.logger.info(
+                        f"Initialized transcript search database: {self.db_path}"
+                    )
+                except sqlite3.Error as e:
+                    self.logger.error(f"Error executing schema script: {e}")
+                    # Fallback to creating basic tables without FTS/triggers
+                    self._create_basic_tables(conn)
+                    
                 conn.close()
-
-                self.logger.info(
-                    f"Initialized transcript search database: {self.db_path}"
-                )
             else:
                 self.logger.warning(f"Schema file not found: {schema_path}")
+                # Create basic tables without schema file
+                conn = sqlite3.connect(self.db_path)
+                self._create_basic_tables(conn)
+                conn.close()
 
         except Exception as e:
             self.logger.error(f"Error initializing database: {e}")
             raise
+
+    def _create_basic_tables(self, conn):
+        """Create basic tables without advanced features if schema fails."""
+        cursor = conn.cursor()
+        
+        # Basic transcript segments table
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS transcript_segments (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                episode_id INTEGER,
+                content_uid TEXT NOT NULL,
+                speaker TEXT,
+                content TEXT NOT NULL,
+                segment_id INTEGER,
+                start_line INTEGER,
+                end_line INTEGER,
+                start_timestamp TEXT,
+                end_timestamp TEXT,
+                word_count INTEGER,
+                segment_type TEXT,
+                topic_tags TEXT,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        
+        # Basic topic clusters table
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS topic_clusters (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                topic_name TEXT UNIQUE NOT NULL,
+                keywords TEXT,
+                related_segments TEXT,
+                episode_count INTEGER DEFAULT 0,
+                content_count INTEGER DEFAULT 0,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+        """)
+        
+        # Basic speakers table
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS transcript_speakers (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                speaker_name TEXT NOT NULL,
+                normalized_name TEXT NOT NULL,
+                episode_count INTEGER DEFAULT 0,
+                segment_count INTEGER DEFAULT 0,
+                total_word_count INTEGER DEFAULT 0,
+                first_appearance TIMESTAMP,
+                last_appearance TIMESTAMP,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                UNIQUE(normalized_name)
+            )
+        """)
+        
+        # Basic indexes
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_transcript_segments_speaker ON transcript_segments(speaker)")
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_transcript_segments_content_uid ON transcript_segments(content_uid)")
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_topic_clusters_name ON topic_clusters(topic_name)")
+        cursor.execute("CREATE INDEX IF NOT EXISTS idx_transcript_speakers_name ON transcript_speakers(normalized_name)")
+        
+        conn.commit()
+        self.logger.info("Created basic transcript search tables")
 
     def index_transcript_content(
         self,

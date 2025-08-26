@@ -93,10 +93,26 @@ class StructuredExtractor:
         self.validation_prompt = self._load_validation_prompt()
         
     def _get_default_llm(self):
-        """Get default LLM client from Atlas config."""
-        # Use mock client for now to test the system
-        logger.info("Using mock LLM client for testing")
-        return MockLLMClient()
+        """Get default LLM router from Atlas config."""
+        try:
+            from helpers.llm_router import get_llm_router
+            from helpers.config import load_config
+            
+            config = load_config()
+            llm_router = get_llm_router(config)
+            
+            # Check if we have a working client
+            if not llm_router.client.api_key:
+                logger.warning("No OpenRouter API key found, falling back to mock client")
+                return MockLLMClient()
+                
+            logger.info(f"Using LLM router with intelligent model selection (Economy→Balanced→Premium)")
+            return llm_router
+            
+        except Exception as e:
+            logger.error(f"Failed to initialize LLM router: {e}")
+            logger.info("Falling back to mock LLM client")
+            return MockLLMClient()
             
     def _load_extraction_prompt(self) -> str:
         """Load extraction prompt template."""
@@ -208,13 +224,40 @@ Return JSON with:
         if previous_attempt and critique:
             prompt += f"\n\nPREVIOUS ATTEMPT HAD ISSUES:\nIssues: {critique.get('issues', [])}\nSuggested fixes: {critique.get('suggested_fixes', [])}\nPlease address these issues in your extraction."
         
-        # Call LLM
-        llm_response = self.llm_client.chat_completion(
-            model="google/gemini-2.5-flash-lite-001",  # Fast, cheap model
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.1,
-            max_tokens=2000
-        )
+        # Use LLM router for intelligent model selection
+        if hasattr(self.llm_client, 'execute_task'):
+            # Using LLM router - it will choose optimal model (Economy→Balanced→Premium)
+            from helpers.llm_router import TaskSpec, TaskKind
+            
+            task_spec = TaskSpec(
+                kind=TaskKind.EXTRACT_JSON,
+                input_tokens=len(prompt) // 4,  # Rough estimate
+                content_type=content_input.content_type,
+                strict_json=True,
+                priority="normal"
+            )
+            
+            router_result = self.llm_client.execute_task(
+                spec=task_spec,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            
+            # Convert router result to LLMResponse format
+            class RouterResponse:
+                def __init__(self, result):
+                    self.success = result.get('success', False)
+                    self.content = result.get('content', '')
+                    self.error = result.get('error')
+            
+            llm_response = RouterResponse(router_result)
+        else:
+            # Fallback to direct client call (mock or emergency)  
+            llm_response = self.llm_client.chat_completion(
+                model="meta-llama/llama-3.1-8b-instruct",  # Start with economy model
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.1,
+                max_tokens=2000
+            )
         
         if not llm_response.success:
             raise Exception(f"LLM call failed: {llm_response.error}")
@@ -239,12 +282,38 @@ Return JSON with:
                 json_data=extraction.json()
             )
             
-            llm_response = self.llm_client.chat_completion(
-                model="google/gemini-2.5-flash-lite-001",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.1,
-                max_tokens=800
-            )
+            # Use router for validation too, but simpler task
+            if hasattr(self.llm_client, 'execute_task'):
+                from helpers.llm_router import TaskSpec, TaskKind
+                
+                task_spec = TaskSpec(
+                    kind=TaskKind.QNA,
+                    input_tokens=len(prompt) // 4,
+                    content_type="validation",
+                    strict_json=False,
+                    priority="normal"
+                )
+                
+                router_result = self.llm_client.execute_task(
+                    spec=task_spec,
+                    messages=[{"role": "user", "content": prompt}]
+                )
+                
+                # Convert router result to LLMResponse format
+                class RouterResponse:
+                    def __init__(self, result):
+                        self.success = result.get('success', False)
+                        self.content = result.get('content', '')
+                        self.error = result.get('error')
+                
+                llm_response = RouterResponse(router_result)
+            else:
+                llm_response = self.llm_client.chat_completion(
+                    model="meta-llama/llama-3.1-8b-instruct",  # Start with economy model
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.1,
+                    max_tokens=800
+                )
             
             if not llm_response.success:
                 raise Exception(f"Validation LLM call failed: {llm_response.error}")

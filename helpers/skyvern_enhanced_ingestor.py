@@ -233,8 +233,13 @@ class SkyvernEnhancedIngestor(BaseIngestor):
     def _extract_content_with_ai(
         self, html_content: str, extraction_prompt: str
     ) -> Optional[str]:
-        """Use OpenRouter AI to extract clean content from HTML."""
+        """Use LLM router for intelligent, cost-optimized HTML content extraction."""
         try:
+            # Use the router for cost optimization and intelligent model selection
+            from helpers.llm_router import get_llm_router, TaskSpec, TaskKind
+            
+            router = get_llm_router(self.config)
+            
             # Prepare the AI prompt for content extraction
             system_prompt = f"""You are an expert content extractor. {extraction_prompt}
 
@@ -251,42 +256,88 @@ Return only the clean article content in markdown format."""
             truncated_html = (
                 html_content[:50000] if len(html_content) > 50000 else html_content
             )
-
-            headers = {
-                "Authorization": f"Bearer {self.openrouter_api_key}",
-                "Content-Type": "application/json",
-            }
-
-            data = {
-                "model": self.model,
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {
-                        "role": "user",
-                        "content": f"Extract content from this HTML:\n\n{truncated_html}",
-                    },
-                ],
-                "max_tokens": 4000,
-                "temperature": 0.1,
-            }
-
-            response = requests.post(
-                f"{self.openrouter_base_url}/chat/completions",
-                headers=headers,
-                json=data,
-                timeout=60,
+            
+            full_prompt = f"Extract content from this HTML:\n\n{truncated_html}"
+            
+            # Create task spec for HTML content extraction
+            task_spec = TaskSpec(
+                kind=TaskKind.REWRITE,  # HTML -> Markdown conversion
+                input_tokens=len(system_prompt + full_prompt) // 4,
+                content_type="html",
+                requires_long_ctx=True,  # Large HTML input
+                strict_json=False,  # Output is markdown, not JSON
+                priority="normal"
             )
-
-            if response.status_code == 200:
-                result = response.json()
-                extracted_content = result["choices"][0]["message"]["content"]
-                return extracted_content
+            
+            # Use router for intelligent model selection (Economy->Balanced->Premium)
+            messages = [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": full_prompt}
+            ]
+            
+            router_result = router.execute_task(
+                spec=task_spec,
+                messages=messages
+            )
+            
+            if router_result.get('success'):
+                return router_result.get('content')
             else:
-                print(f"OpenRouter API error: {response.status_code} - {response.text}")
+                print(f"Router extraction failed: {router_result.get('error')}")
                 return None
 
         except Exception as e:
             print(f"AI extraction error: {e}")
+            # Fallback to direct API call if router fails
+            try:
+                return self._extract_content_with_direct_api(html_content, extraction_prompt)
+            except:
+                return None
+    
+    def _extract_content_with_direct_api(self, html_content: str, extraction_prompt: str) -> Optional[str]:
+        """Fallback: Direct API call without router."""
+        system_prompt = f"""You are an expert content extractor. {extraction_prompt}
+
+Extract the main article content from the provided HTML, returning clean markdown format.
+Focus on:
+1. Article title, author, and publication date
+2. Main article text and paragraphs
+3. Important quotes, lists, and formatting
+4. Exclude navigation, ads, comments, and sidebars
+
+Return only the clean article content in markdown format."""
+
+        truncated_html = (
+            html_content[:50000] if len(html_content) > 50000 else html_content
+        )
+
+        headers = {
+            "Authorization": f"Bearer {self.openrouter_api_key}",
+            "Content-Type": "application/json",
+        }
+
+        data = {
+            "model": "meta-llama/llama-3.1-8b-instruct",  # Start with economy model
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"Extract content from this HTML:\n\n{truncated_html}"},
+            ],
+            "max_tokens": 4000,
+            "temperature": 0.1,
+        }
+
+        response = requests.post(
+            f"{self.openrouter_base_url}/chat/completions",
+            headers=headers,
+            json=data,
+            timeout=60,
+        )
+
+        if response.status_code == 200:
+            result = response.json()
+            return result["choices"][0]["message"]["content"]
+        else:
+            print(f"Direct API error: {response.status_code} - {response.text}")
             return None
 
     def _is_complex_site(self, url: str) -> bool:
