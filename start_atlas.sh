@@ -1,6 +1,6 @@
 #!/bin/bash
-# Atlas Standard Startup Script
-# One command to start everything
+# Atlas Zero-Config Startup Script
+# Complete setup from fresh clone
 
 set -e
 
@@ -18,12 +18,14 @@ echo "================================="
 ATLAS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$ATLAS_DIR"
 
-# Check if virtual environment exists
+# Check and setup Python environment
 if [ ! -d "venv" ]; then
     echo -e "${YELLOW}⚠️ Virtual environment not found. Creating...${NC}"
     python3 -m venv venv
     source venv/bin/activate
+    echo -e "${BLUE}📦 Installing dependencies...${NC}"
     pip install -r requirements.txt
+    echo -e "${GREEN}✅ Dependencies installed${NC}"
 else
     echo -e "${GREEN}✅ Virtual environment found${NC}"
     source venv/bin/activate
@@ -43,21 +45,43 @@ else
     echo -e "${GREEN}✅ Configuration found${NC}"
 fi
 
+# Initialize database if needed
+echo -e "${BLUE}🗄️ Setting up database...${NC}"
+if [ ! -f "atlas.db" ]; then
+    echo -e "${YELLOW}⚠️ Database not found. Creating...${NC}"
+    python3 -c "from helpers.simple_database import SimpleDatabase; db = SimpleDatabase(); print('Database initialized')"
+    echo -e "${GREEN}✅ Database created${NC}"
+else
+    echo -e "${GREEN}✅ Database found${NC}"
+fi
+
 # Stop any existing services
 echo -e "${BLUE}🛑 Stopping existing services...${NC}"
-python3 atlas_service_manager.py stop >/dev/null 2>&1 || true
+if [ -f "scripts/atlas_service.sh" ]; then
+    ./scripts/atlas_service.sh stop >/dev/null 2>&1 || true
+fi
+pkill -f "atlas" >/dev/null 2>&1 || true
 
-# Start robust service manager
+# Start Atlas service
 echo -e "${BLUE}🚀 Starting Atlas services...${NC}"
-python3 atlas_service_manager.py start --daemon &
-MANAGER_PID=$!
+if [ -f "scripts/atlas_service.sh" ]; then
+    ./scripts/atlas_service.sh start
+else
+    echo -e "${RED}❌ Service manager not found${NC}"
+    exit 1
+fi
 
 # Wait a moment for services to start
 sleep 5
 
 # Check system health
 echo -e "${BLUE}🔍 Checking system health...${NC}"
-python3 atlas_monitor.py
+if [ -f "atlas_monitor.py" ]; then
+    python3 atlas_monitor.py
+else
+    echo -e "${YELLOW}⚠️ Monitor not found, checking processes...${NC}"
+    ps aux | grep atlas | grep -v grep || echo "No Atlas processes found"
+fi
 
 # Show status summary
 echo ""
