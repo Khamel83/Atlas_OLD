@@ -65,9 +65,9 @@ class AtlasComprehensiveService:
         self.log("STARTING COMPREHENSIVE PROCESSING CYCLE")
         self.log("=" * 60)
         
-        # Phase 1: Transcript Discovery and Scraping (INTEGRATED!)
-        self.log("PHASE 1: TRANSCRIPT DISCOVERY & SCRAPING")
-        self.run_script("daily_transcript_polling.py", 600, "Unified transcript discovery and polling")
+        # Phase 1: Enhanced Transcript Discovery (INTEGRATED!)
+        self.log("PHASE 1: ENHANCED TRANSCRIPT DISCOVERY")
+        self.run_script("enhanced_transcript_discovery.py", 900, "Enhanced transcript discovery with YouTube + Networks")
         
         # Phase 2: Content Processing
         self.log("PHASE 2: CONTENT PROCESSING")

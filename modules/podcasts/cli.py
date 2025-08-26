@@ -24,6 +24,8 @@ from modules.podcasts.export import TranscriptExporter
 from modules.podcasts.resolvers.rss_link import RSSLinkResolver
 from modules.podcasts.resolvers.generic_html import GenericHTMLResolver
 from modules.podcasts.resolvers.pattern import PatternResolver
+from modules.podcasts.resolvers.youtube_transcript import YouTubeTranscriptResolver
+from modules.podcasts.resolvers.network_transcripts import NetworkTranscriptResolver
 
 # Configure logging
 logging.basicConfig(
@@ -39,7 +41,10 @@ class AtlasPodCLI:
         self.store = None
         self.rss_parser = RSSParser()
         self.exporter = TranscriptExporter()
+        # Priority order: highest accuracy first
         self.resolvers = {
+            "youtube_transcript": YouTubeTranscriptResolver(),
+            "network_transcripts": NetworkTranscriptResolver(),
             "rss_link": RSSLinkResolver(),
             "generic_html": GenericHTMLResolver(),
             "pattern": PatternResolver(),
