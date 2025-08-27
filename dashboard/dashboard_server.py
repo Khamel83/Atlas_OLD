@@ -44,149 +44,379 @@ class DashboardServer:
         from helpers.analytics_engine import AnalyticsEngine
         self.analytics = AnalyticsEngine(config)
         
+        # Initialize intelligence dashboard
+        from helpers.intelligence_dashboard import IntelligenceDashboard
+        self.intelligence = IntelligenceDashboard(config)
+        
         self._create_default_templates()
     
     def _create_default_templates(self):
         """Create default HTML templates."""
-        # Main dashboard template
+        # Enhanced intelligence dashboard template
         dashboard_html = """<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas Dashboard</title>
+    <title>Atlas Intelligence Dashboard</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5; }
-        .container { max-width: 1200px; margin: 0 auto; }
-        .header { text-align: center; margin-bottom: 30px; }
-        .card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .metric { display: inline-block; margin: 10px 20px; text-align: center; }
-        .metric-value { font-size: 2em; font-weight: bold; color: #2196F3; }
-        .metric-label { color: #666; }
-        .chart-placeholder { height: 200px; background: #f0f0f0; border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #666; }
-        .content-list { list-style: none; padding: 0; }
-        .content-item { padding: 10px; border-bottom: 1px solid #eee; }
-        .content-title { font-weight: bold; }
-        .content-meta { color: #666; font-size: 0.9em; }
-        .refresh-btn { background: #2196F3; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
-        .refresh-btn:hover { background: #1976D2; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 30px; color: white; }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .card { background: rgba(255,255,255,0.95); border-radius: 12px; padding: 25px; margin-bottom: 25px; box-shadow: 0 8px 32px rgba(0,0,0,0.1); backdrop-filter: blur(10px); }
+        .metric { display: inline-block; margin: 15px 25px; text-align: center; }
+        .metric-value { font-size: 2.5em; font-weight: bold; background: linear-gradient(45deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .metric-label { color: #666; font-size: 0.9em; margin-top: 5px; }
+        .intelligence-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+        .knowledge-graph { height: 400px; border: 2px solid #e0e0e0; border-radius: 8px; background: #fafafa; }
+        .content-list { list-style: none; padding: 0; max-height: 300px; overflow-y: auto; }
+        .content-item { padding: 12px; border-left: 4px solid #667eea; margin-bottom: 8px; background: #f8f9ff; border-radius: 4px; }
+        .content-title { font-weight: bold; color: #333; margin-bottom: 4px; }
+        .content-meta { color: #666; font-size: 0.85em; }
+        .recommendation-item { padding: 15px; margin-bottom: 10px; background: linear-gradient(45deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1)); border-radius: 8px; border-left: 4px solid #667eea; }
+        .recommendation-title { font-weight: bold; color: #333; margin-bottom: 5px; }
+        .recommendation-reason { color: #666; font-size: 0.9em; }
+        .priority-badge { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 0.8em; color: white; margin-left: 10px; }
+        .priority-high { background: #ff4444; }
+        .priority-medium { background: #ff9500; }
+        .priority-low { background: #4CAF50; }
+        .refresh-btn { background: linear-gradient(45deg, #667eea, #764ba2); color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-weight: bold; box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3); }
+        .refresh-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4); }
+        .chart-container { height: 250px; position: relative; }
+        .insight-item { padding: 10px; background: rgba(102, 126, 234, 0.1); margin: 5px 0; border-radius: 6px; border-left: 3px solid #667eea; }
+        .quality-badge { display: inline-block; padding: 4px 12px; border-radius: 16px; font-size: 0.8em; color: white; margin: 2px; }
+        .quality-excellent { background: #4CAF50; }
+        .quality-good { background: #2196F3; }
+        .quality-average { background: #FF9800; }
+        .quality-below { background: #f44336; }
+        .tab-container { margin-bottom: 20px; }
+        .tab-button { background: rgba(255,255,255,0.7); border: none; padding: 10px 20px; margin: 0 5px; border-radius: 6px; cursor: pointer; }
+        .tab-button.active { background: #667eea; color: white; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>Atlas Personal Analytics Dashboard</h1>
-            <p>Content consumption insights and analytics</p>
-            <button class="refresh-btn" onclick="window.location.reload()">Refresh Data</button>
+            <h1>🧠 Atlas Intelligence Dashboard</h1>
+            <p>Personal Knowledge Amplification & Analytics</p>
+            <button class="refresh-btn" onclick="window.location.reload()">🔄 Refresh Intelligence</button>
         </div>
         
         <div class="card">
-            <h2>Overview (Last 30 Days)</h2>
+            <h2>📊 Intelligence Overview</h2>
             <div id="overview-metrics">
                 <div class="metric">
                     <div class="metric-value" id="total-content">-</div>
                     <div class="metric-label">Total Content</div>
                 </div>
                 <div class="metric">
-                    <div class="metric-value" id="total-words">-</div>
-                    <div class="metric-label">Total Words</div>
+                    <div class="metric-value" id="knowledge-nodes">-</div>
+                    <div class="metric-label">Knowledge Nodes</div>
                 </div>
                 <div class="metric">
-                    <div class="metric-value" id="reading-hours">-</div>
-                    <div class="metric-label">Reading Hours</div>
+                    <div class="metric-value" id="topic-clusters">-</div>
+                    <div class="metric-label">Topic Clusters</div>
                 </div>
                 <div class="metric">
-                    <div class="metric-value" id="total-events">-</div>
-                    <div class="metric-label">Interactions</div>
+                    <div class="metric-value" id="intelligence-level">-</div>
+                    <div class="metric-label">Intelligence Level</div>
                 </div>
             </div>
         </div>
         
-        <div class="card">
-            <h2>Content Distribution</h2>
-            <div class="chart-placeholder">Content type distribution chart would appear here</div>
-            <div id="distribution-details"></div>
-        </div>
-        
-        <div class="card">
-            <h2>Top Content</h2>
-            <h3>Most Engaged</h3>
-            <ul class="content-list" id="most-engaged"></ul>
+        <div class="intelligence-grid">
+            <div class="card">
+                <h2>🕸️ Knowledge Graph</h2>
+                <div id="knowledge-graph" class="knowledge-graph"></div>
+                <p><small>Interactive visualization of your content relationships and topic clusters</small></p>
+            </div>
             
-            <h3>Longest Content</h3>
-            <ul class="content-list" id="longest-content"></ul>
+            <div class="card">
+                <h2>📈 Consumption Patterns</h2>
+                <div class="chart-container">
+                    <canvas id="consumption-chart"></canvas>
+                </div>
+                <div id="consumption-insights"></div>
+            </div>
         </div>
         
         <div class="card">
-            <h2>Recommendations</h2>
-            <ul id="recommendations"></ul>
+            <h2>🎯 Learning Recommendations</h2>
+            <div id="learning-recommendations"></div>
         </div>
         
         <div class="card">
-            <h2>System Information</h2>
+            <h2>🏆 Content Quality Analysis</h2>
+            <div class="tab-container">
+                <button class="tab-button active" onclick="switchTab('quality-overview')">Overview</button>
+                <button class="tab-button" onclick="switchTab('quality-distribution')">Distribution</button>
+            </div>
+            
+            <div id="quality-overview" class="tab-content active">
+                <div id="quality-metrics"></div>
+            </div>
+            
+            <div id="quality-distribution" class="tab-content">
+                <div id="quality-breakdown"></div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>💡 Intelligence Insights</h2>
+            <div id="intelligence-insights"></div>
+        </div>
+        
+        <div class="card">
+            <h2>⚙️ System Status</h2>
             <p><strong>Generated:</strong> <span id="generated-time">-</span></p>
-            <p><strong>Period:</strong> Last 30 days</p>
-            <p><strong>Status:</strong> <span id="system-status">Active</span></p>
+            <p><strong>Intelligence Level:</strong> <span id="system-intelligence">-</span></p>
+            <p><strong>Databases:</strong> <span id="database-status">-</span></p>
+            <p><strong>Status:</strong> <span id="system-status">Analyzing...</span></p>
         </div>
     </div>
     
     <script>
-        // Load analytics data
-        fetch('/api/insights')
+        let networkInstance = null;
+        let chartInstance = null;
+        
+        // Load intelligence data
+        fetch('/api/intelligence')
             .then(response => response.json())
             .then(data => {
-                updateDashboard(data);
+                updateIntelligenceDashboard(data);
             })
             .catch(error => {
-                console.error('Error loading analytics:', error);
-                document.getElementById('system-status').textContent = 'Error loading data';
+                console.error('Error loading intelligence data:', error);
+                document.getElementById('system-status').textContent = 'Error loading intelligence data';
             });
         
-        function updateDashboard(insights) {
-            const overview = insights.overview || {};
-            
+        function updateIntelligenceDashboard(intelligence) {
             // Update overview metrics
-            document.getElementById('total-content').textContent = overview.total_content || 0;
-            document.getElementById('total-words').textContent = (overview.total_words || 0).toLocaleString();
-            document.getElementById('reading-hours').textContent = overview.estimated_reading_hours || 0;
-            document.getElementById('total-events').textContent = overview.total_events || 0;
+            const knowledgeGraph = intelligence.knowledge_graph || {};
+            const stats = knowledgeGraph.stats || {};
             
-            // Update content distribution
-            const distribution = insights.content_distribution?.distribution || [];
-            const distributionDiv = document.getElementById('distribution-details');
-            distributionDiv.innerHTML = distribution.map(item => 
-                `<p><strong>${item.type}:</strong> ${item.count} items (${item.percentage}%)</p>`
+            document.getElementById('total-content').textContent = stats.content_nodes || 0;
+            document.getElementById('knowledge-nodes').textContent = stats.total_nodes || 0;
+            document.getElementById('topic-clusters').textContent = stats.topic_nodes || 0;
+            document.getElementById('intelligence-level').textContent = 
+                intelligence.system_status?.intelligence_level || 'basic';
+            
+            // Update knowledge graph
+            updateKnowledgeGraph(knowledgeGraph);
+            
+            // Update consumption patterns
+            updateConsumptionPatterns(intelligence.consumption_patterns || {});
+            
+            // Update learning recommendations
+            updateLearningRecommendations(intelligence.learning_recommendations || []);
+            
+            // Update content quality analysis
+            updateContentQuality(intelligence.content_quality || {});
+            
+            // Update intelligence insights
+            updateIntelligenceInsights(intelligence);
+            
+            // Update system status
+            updateSystemStatus(intelligence);
+        }
+        
+        function updateKnowledgeGraph(graphData) {
+            const container = document.getElementById('knowledge-graph');
+            
+            if (!graphData.nodes || graphData.nodes.length === 0) {
+                container.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #666;">No knowledge graph data available</div>';
+                return;
+            }
+            
+            const nodes = new vis.DataSet(graphData.nodes.map(node => ({
+                id: node.id,
+                label: node.label,
+                color: node.type === 'topic' ? '#667eea' : '#764ba2',
+                size: node.size || 20,
+                title: `${node.type}: ${node.label}`
+            })));
+            
+            const edges = new vis.DataSet(graphData.edges.map(edge => ({
+                from: edge.from,
+                to: edge.to,
+                color: { color: '#cccccc', opacity: 0.6 }
+            })));
+            
+            const data = { nodes: nodes, edges: edges };
+            const options = {
+                nodes: { 
+                    font: { size: 12 },
+                    borderWidth: 2,
+                    shadow: true
+                },
+                edges: { 
+                    width: 1,
+                    shadow: true
+                },
+                physics: {
+                    stabilization: { iterations: 100 },
+                    barnesHut: { gravitationalConstant: -2000 }
+                }
+            };
+            
+            if (networkInstance) {
+                networkInstance.destroy();
+            }
+            networkInstance = new vis.Network(container, data, options);
+        }
+        
+        function updateConsumptionPatterns(patterns) {
+            const insights = patterns.insights || [];
+            const insightsDiv = document.getElementById('consumption-insights');
+            
+            insightsDiv.innerHTML = insights.map(insight => 
+                `<div class="insight-item">💡 ${insight}</div>`
             ).join('');
             
-            // Update top content
-            const mostEngaged = insights.top_content?.most_engaged || [];
-            const mostEngagedList = document.getElementById('most-engaged');
-            mostEngagedList.innerHTML = mostEngaged.map(item =>
-                `<li class="content-item">
-                    <div class="content-title">${item.title}</div>
-                    <div class="content-meta">${item.type} • ${item.events} interactions</div>
-                </li>`
-            ).join('');
+            // Create consumption chart
+            const ctx = document.getElementById('consumption-chart').getContext('2d');
+            const typeDistribution = patterns.content_type_distribution || [];
             
-            const longestContent = insights.top_content?.longest_content || [];
-            const longestList = document.getElementById('longest-content');
-            longestList.innerHTML = longestContent.map(item =>
-                `<li class="content-item">
-                    <div class="content-title">${item.title}</div>
-                    <div class="content-meta">${item.type} • ${item.words.toLocaleString()} words</div>
-                </li>`
-            ).join('');
+            if (chartInstance) {
+                chartInstance.destroy();
+            }
             
-            // Update recommendations
-            const recommendations = insights.recommendations || [];
-            const recommendationsList = document.getElementById('recommendations');
-            recommendationsList.innerHTML = recommendations.map(rec =>
-                `<li>${rec}</li>`
-            ).join('');
+            if (typeDistribution.length > 0) {
+                chartInstance = new Chart(ctx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: typeDistribution.map(item => item.content_type || 'Unknown'),
+                        datasets: [{
+                            data: typeDistribution.map(item => item.count || 0),
+                            backgroundColor: ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe']
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false
+                    }
+                });
+            }
+        }
+        
+        function updateLearningRecommendations(recommendations) {
+            const container = document.getElementById('learning-recommendations');
             
-            // Update generated time
+            if (!recommendations || recommendations.length === 0) {
+                container.innerHTML = '<p>No recommendations available at this time.</p>';
+                return;
+            }
+            
+            container.innerHTML = recommendations.map(rec => {
+                const priorityClass = rec.priority > 7 ? 'priority-high' : 
+                                    rec.priority > 4 ? 'priority-medium' : 'priority-low';
+                return `
+                    <div class="recommendation-item">
+                        <div class="recommendation-title">
+                            ${rec.title}
+                            <span class="priority-badge ${priorityClass}">Priority: ${rec.priority}</span>
+                        </div>
+                        <div class="recommendation-reason">${rec.reason}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function updateContentQuality(quality) {
+            const metricsDiv = document.getElementById('quality-metrics');
+            const breakdownDiv = document.getElementById('quality-breakdown');
+            
+            if (quality.has_quality_analysis) {
+                metricsDiv.innerHTML = `
+                    <div class="metric">
+                        <div class="metric-value">${quality.average_quality || 0}</div>
+                        <div class="metric-label">Average Quality</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">${quality.analyzed_content_count || 0}</div>
+                        <div class="metric-label">Analyzed Items</div>
+                    </div>
+                    <div class="metric">
+                        <div class="metric-value">${quality.category_diversity || 0}</div>
+                        <div class="metric-label">Categories</div>
+                    </div>
+                `;
+                
+                const distribution = quality.quality_distribution || [];
+                breakdownDiv.innerHTML = distribution.map(item => {
+                    const badgeClass = `quality-${item.quality_tier.toLowerCase().replace(' ', '-')}`;
+                    return `<span class="quality-badge ${badgeClass}">${item.quality_tier}: ${item.count}</span>`;
+                }).join('');
+            } else {
+                metricsDiv.innerHTML = `
+                    <p>${quality.message || 'Quality analysis not yet available'}</p>
+                    <div class="metric">
+                        <div class="metric-value">${quality.total_content || 0}</div>
+                        <div class="metric-label">Total Content</div>
+                    </div>
+                `;
+                breakdownDiv.innerHTML = '<p>Quality analysis will be available after processing content through LLM extraction.</p>';
+            }
+        }
+        
+        function updateIntelligenceInsights(intelligence) {
+            const insightsDiv = document.getElementById('intelligence-insights');
+            const insights = [];
+            
+            // Generate insights based on available data
+            const graph = intelligence.knowledge_graph || {};
+            if (graph.stats && graph.stats.topic_nodes > 0) {
+                insights.push(`🕸️ Knowledge network contains ${graph.stats.topic_nodes} topic clusters`);
+            }
+            
+            const patterns = intelligence.consumption_patterns || {};
+            if (patterns.insights && patterns.insights.length > 0) {
+                insights.push(`📈 ${patterns.insights.length} consumption patterns identified`);
+            }
+            
+            const recs = intelligence.learning_recommendations || [];
+            if (recs.length > 0) {
+                insights.push(`🎯 ${recs.length} personalized learning recommendations generated`);
+            }
+            
+            if (insights.length === 0) {
+                insights.push('🚀 Intelligence analysis in progress - building your knowledge profile...');
+            }
+            
+            insightsDiv.innerHTML = insights.map(insight => 
+                `<div class="insight-item">${insight}</div>`
+            ).join('');
+        }
+        
+        function updateSystemStatus(intelligence) {
+            const systemStatus = intelligence.system_status || {};
+            const databases = systemStatus.databases_available || {};
+            
             document.getElementById('generated-time').textContent = 
-                new Date(insights.generated_at).toLocaleString();
+                new Date(intelligence.generated_at).toLocaleString();
+            document.getElementById('system-intelligence').textContent = 
+                systemStatus.intelligence_level || 'unknown';
+            
+            const dbStatus = Object.entries(databases)
+                .map(([db, available]) => `${db}: ${available ? '✅' : '❌'}`)
+                .join(', ');
+            document.getElementById('database-status').textContent = dbStatus;
+            document.getElementById('system-status').textContent = 'Intelligence Active';
+        }
+        
+        function switchTab(tabId) {
+            // Remove active class from all tabs and contents
+            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            
+            // Add active class to clicked tab and corresponding content
+            event.target.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
         }
     </script>
 </body>
@@ -206,6 +436,15 @@ class DashboardServer:
         except Exception as e:
             logger.error(f"Error getting insights JSON: {str(e)}")
             return json.dumps({"error": str(e)})
+    
+    def get_intelligence_json(self) -> str:
+        """Get comprehensive intelligence report as JSON."""
+        try:
+            intelligence = self.intelligence.generate_comprehensive_intelligence_report()
+            return json.dumps(intelligence, indent=2)
+        except Exception as e:
+            logger.error(f"Error getting intelligence JSON: {str(e)}")
+            return json.dumps({"error": str(e), "generated_at": datetime.now().isoformat()})
     
     def get_dashboard_html(self) -> str:
         """Get dashboard HTML content."""
@@ -241,7 +480,7 @@ class DashboardServer:
                         self.wfile.write(dashboard_html.encode())
                         
                     elif parsed_path.path == '/api/insights':
-                        # Serve insights JSON
+                        # Serve basic insights JSON (legacy)
                         query_params = parse_qs(parsed_path.query)
                         days = int(query_params.get('days', [30])[0])
                         
@@ -251,6 +490,15 @@ class DashboardServer:
                         self.end_headers()
                         insights_json = self.server.dashboard.get_insights_json(days)
                         self.wfile.write(insights_json.encode())
+                        
+                    elif parsed_path.path == '/api/intelligence':
+                        # Serve comprehensive intelligence report
+                        self.send_response(200)
+                        self.send_header('Content-type', 'application/json')
+                        self.send_header('Access-Control-Allow-Origin', '*')
+                        self.end_headers()
+                        intelligence_json = self.server.dashboard.get_intelligence_json()
+                        self.wfile.write(intelligence_json.encode())
                         
                     elif parsed_path.path.startswith('/static/'):
                         # Serve static files

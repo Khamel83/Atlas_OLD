@@ -32,6 +32,8 @@ class AtlasScheduler:
         self.last_transcript_run = None
         self.comprehensive_interval = 2 * 60 * 60  # 2 hours
         self.transcript_interval = 4 * 60 * 60  # 4 hours
+        # Use atlas_venv Python, not system Python
+        self.python_executable = str(self.project_root / "atlas_venv" / "bin" / "python3")
         
     def should_run_comprehensive(self) -> bool:
         """Check if comprehensive cycle should run."""
@@ -51,7 +53,7 @@ class AtlasScheduler:
             logger.info("🚀 Starting comprehensive processing cycle...")
             
             result = subprocess.run([
-                sys.executable, str(self.project_root / "atlas_comprehensive_service.py")
+                self.python_executable, str(self.project_root / "atlas_comprehensive_service.py")
             ], cwd=self.project_root, timeout=7200)  # 2 hour timeout
             
             if result.returncode == 0:
@@ -75,7 +77,7 @@ class AtlasScheduler:
             logger.info("🎙️ Starting enhanced transcript discovery...")
             
             result = subprocess.run([
-                sys.executable, str(self.project_root / "enhanced_transcript_discovery.py")
+                self.python_executable, str(self.project_root / "enhanced_transcript_discovery.py")
             ], cwd=self.project_root, timeout=3600)  # 1 hour timeout
             
             if result.returncode == 0:

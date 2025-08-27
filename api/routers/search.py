@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspa
 
 from helpers.config import load_config
 from helpers.metadata_manager import MetadataManager
+from helpers.semantic_search_ranker import SemanticSearchRanker
 
 router = APIRouter()
 
@@ -52,6 +53,9 @@ class SearchResult(BaseModel):
     entities: Optional[List[str]] = Field(None, description="Named entities found")
     quality_score: Optional[float] = Field(None, description="Content quality score (0-1)")
     sentiment: Optional[str] = Field(None, description="Content sentiment")
+    # Semantic search enhancements
+    ranking_factors: Optional[Dict] = Field(None, description="Detailed ranking score breakdown")
+    related_content: Optional[List[Dict]] = Field(None, description="Related content suggestions")
 
 
 class SearchResponse(BaseModel):
@@ -68,6 +72,85 @@ def get_search_db_path() -> str:
         Path to the search database file
     """
     return os.path.join("data", "enhanced_search.db")
+
+@router.get("/semantic", response_model=SearchResponse)
+async def semantic_search(
+    query: str = Query(..., min_length=1, description="Search query string"),
+    skip: int = Query(0, ge=0, description="Number of results to skip for pagination"),
+    limit: int = Query(20, ge=1, le=50, description="Maximum number of results to return"),
+    content_type: Optional[str] = Query(None, description="Filter by content type")
+) -> SearchResponse:
+    """Perform semantic search with intelligent ranking.
+    
+    Uses TF-IDF, content quality, recency, and other factors to provide
+    the most relevant search results with detailed ranking information.
+    
+    Args:
+        query: Search query string (required, minimum 1 character)
+        skip: Number of results to skip (default: 0)
+        limit: Maximum results to return (1-50, default: 20)
+        content_type: Optional content type filter
+        
+    Returns:
+        SearchResponse with semantically ranked results
+        
+    Raises:
+        HTTPException: If search fails or system is unavailable
+    """
+    import time
+    start_time = time.time()
+    
+    try:
+        # Initialize semantic search ranker
+        ranker = SemanticSearchRanker()
+        
+        # Perform semantic search
+        ranked_results = ranker.search_with_ranking(query, limit=(limit + skip))
+        
+        # Apply pagination
+        paginated_results = ranked_results[skip:skip + limit]
+        
+        # Convert to SearchResult objects
+        results = []
+        for result in paginated_results:
+            # Extract data safely
+            uid = str(result.get('id', ''))
+            title = result.get('title', 'Untitled')
+            source = result.get('url', '')
+            content_type = result.get('content_type', 'unknown')
+            content = result.get('content', '')
+            excerpt = content[:200] + ('...' if len(content) > 200 else '')
+            
+            # Get ranking score
+            ranking_score = result.get('ranking_score', {})
+            score = ranking_score.get('total', 0.0)
+            
+            # Get related content
+            related_content = result.get('related_content', [])
+            
+            results.append(SearchResult(
+                uid=uid,
+                title=title,
+                source=source,
+                content_type=content_type,
+                excerpt=excerpt,
+                score=min(1.0, score),  # Cap at 1.0
+                ranking_factors=ranking_score,
+                related_content=related_content
+            ))
+        
+        # Calculate processing time
+        processing_time_ms = (time.time() - start_time) * 1000
+        
+        return SearchResponse(
+            results=results,
+            total=len(ranked_results),
+            query=query,
+            processing_time_ms=processing_time_ms
+        )
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Semantic search failed: {str(e)}")
 
 @router.get("/", response_model=SearchResponse)
 async def search_content(
@@ -324,3 +407,88 @@ async def index_content(
         return {"message": f"Indexed {indexed_count} content items"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error indexing content: {str(e)}")
+
+@router.get("/autocomplete")
+async def get_search_autocomplete(
+    query: str = Query("", description="Partial query for autocomplete"),
+    limit: int = Query(10, ge=1, le=20, description="Maximum suggestions to return")
+) -> List[str]:
+    """Get search autocomplete suggestions.
+    
+    Returns search suggestions based on common terms and phrases
+    in the content corpus.
+    
+    Args:
+        query: Partial query string (optional)
+        limit: Maximum suggestions to return (1-20, default: 10)
+        
+    Returns:
+        List of search suggestions
+        
+    Raises:
+        HTTPException: If autocomplete service fails
+    """
+    try:
+        # Load autocomplete data
+        autocomplete_file = Path("data/autocomplete_suggestions.json")
+        
+        if not autocomplete_file.exists():
+            # Build autocomplete if it doesn't exist
+            ranker = SemanticSearchRanker()
+            ranker.add_search_autocomplete()
+        
+        # Load suggestions
+        with open(autocomplete_file, 'r') as f:
+            autocomplete_data = json.load(f)
+        
+        suggestions = autocomplete_data.get('suggestions', [])
+        
+        # Filter suggestions based on query
+        if query and query.strip():
+            query_lower = query.strip().lower()
+            filtered_suggestions = [
+                s for s in suggestions 
+                if query_lower in s.lower()
+            ]
+        else:
+            # Return most common suggestions
+            filtered_suggestions = suggestions[:limit * 2]
+        
+        # Return top suggestions
+        return filtered_suggestions[:limit]
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Autocomplete failed: {str(e)}")
+
+@router.get("/stats")
+async def get_search_stats() -> Dict[str, Any]:
+    """Get search system statistics.
+    
+    Returns information about search index status, performance,
+    and configuration.
+    
+    Returns:
+        Dictionary with search system statistics
+    """
+    try:
+        ranker = SemanticSearchRanker()
+        stats = ranker.get_search_performance_stats()
+        
+        # Add database info
+        db_path = get_search_db_path()
+        if os.path.exists(db_path):
+            conn = sqlite3.connect(db_path)
+            cursor = conn.cursor()
+            
+            cursor.execute("SELECT COUNT(*) FROM search_index")
+            indexed_count = cursor.fetchone()[0]
+            
+            conn.close()
+            stats['indexed_documents'] = indexed_count
+        else:
+            stats['indexed_documents'] = 0
+        
+        return stats
+        
+    except Exception as e:
+        return {"error": str(e), "status": "unavailable"}

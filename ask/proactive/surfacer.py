@@ -8,21 +8,20 @@ recent activity, and user patterns.
 
 import json
 import os
+import sqlite3
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional, Any
 from dataclasses import dataclass
+from collections import defaultdict
 
 # Add Atlas to path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 try:
-    from helpers.metadata_manager import MetadataManager
     from helpers.config import load_config
 except ImportError:
-    # Fallback for testing
-    MetadataManager = None
     load_config = lambda: {}
 
 
@@ -70,14 +69,15 @@ class ProactiveSurfacer:
     - User interaction patterns
     """
     
-    def __init__(self, metadata_manager: MetadataManager):
+    def __init__(self, config: Dict[str, Any] = None):
         """Initialize ProactiveSurfacer."""
-        self.metadata_manager = metadata_manager
+        self.config = config or load_config()
+        self.db_path = "data/atlas.db"
         
         # Surfacing configuration
-        self.relevance_threshold = self.metadata_manager.config.get('relevance_threshold', 0.3)
-        self.max_age_days = self.metadata_manager.config.get('max_content_age_days', 365)
-        self.boost_recent = self.metadata_manager.config.get('boost_recent_content', True)
+        self.relevance_threshold = self.config.get('relevance_threshold', 0.3)
+        self.max_age_days = self.config.get('max_content_age_days', 365)
+        self.boost_recent = self.config.get('boost_recent_content', True)
         
     def surface_content(self, 
                        context: SurfacingContext,
@@ -91,38 +91,26 @@ class ProactiveSurfacer:
             
         Returns:
             List of SurfacedContent objects ordered by relevance
-        """
-        if not self.metadata_manager:
-            return self._mock_surface_content(context)
-        
+        """        
         try:
-            # Get all content items
-            all_content = self._get_all_content()
-            
-            # Filter by content types
-            filtered_content = [
-                item for item in all_content 
-                if item.get('content_type', 'unknown') in context.content_types
-            ]
-            
-            # Filter by age
-            recent_content = self._filter_by_age(filtered_content)
+            # Get content from database
+            content_items = self._get_content_from_db(context)
             
             # Score content for relevance
             scored_content = []
-            for item in all_content:
-                score = self._calculate_relevance_score(item.to_dict(), context)
+            for item in content_items:
+                score = self._calculate_relevance_score(item, context)
                 if score >= self.relevance_threshold:
-                    reason = self._determine_surface_reason(item.to_dict(), context, score)
+                    reason = self._determine_surface_reason(item, context, score)
                     
                     surfaced = SurfacedContent(
-                        uid=item.uid,
-                        title=item.title,
-                        source=item.source,
-                        content_type=item.content_type.value,
+                        uid=str(item['id']),
+                        title=item['title'] or "Untitled",
+                        source=item['url'] or "",
+                        content_type=item['content_type'] or "unknown",
                         relevance_score=score,
                         surface_reason=reason,
-                        metadata=item.to_dict(),
+                        metadata=item,
                         updated_at=datetime.now().isoformat()
                     )
                     scored_content.append(surfaced)
@@ -176,17 +164,15 @@ class ProactiveSurfacer:
     
     def surface_diverse_content(self, 
                                max_results: int = 10) -> List[SurfacedContent]:
-        """Surface a diverse selection of content across types and topics."""
-        if not self.metadata_manager:
-            return self._mock_surface_content(SurfacingContext(max_results=max_results))
-        
+        """Surface a diverse selection of content across types and topics."""        
         try:
-            # Get all content items
-            all_content = self._get_all_content()
+            # Get diverse content from database
+            context = SurfacingContext(max_results=max_results * 2)  # Get more for diversity
+            all_items = self._get_content_from_db(context)
             
             # Group by content type
             content_by_type = defaultdict(list)
-            for item in all_content:
+            for item in all_items:
                 content_type = item.get('content_type', 'unknown')
                 content_by_type[content_type].append(item)
             
@@ -198,20 +184,27 @@ class ProactiveSurfacer:
             
             for content_type in types:
                 type_items = content_by_type[content_type]
-                # Sort by recency for each type
-                type_items.sort(key=lambda x: x.get('created_at', ''), reverse=True)
+                # Sort by recency and quality for each type
+                type_items.sort(key=lambda x: (
+                    x.get('extraction_quality', 0), 
+                    x.get('created_at', '')
+                ), reverse=True)
+                
                 # Take a sample
                 sampled_items = type_items[:items_per_type]
                 
                 for item in sampled_items:
+                    quality_score = item.get('extraction_quality') or 0.5
+                    base_score = 0.4 + (float(quality_score) * 0.3)  # 0.4-0.7 based on quality
+                    
                     surfaced = SurfacedContent(
-                        uid=item.uid,
-                        title=item.title,
-                        source=item.source,
-                        content_type=item.content_type.value,
-                        relevance_score=0.5,  # Base score for diversity
-                        surface_reason=f"Diverse selection from {content_type} content",
-                        metadata=item.to_dict(),
+                        uid=str(item['id']),
+                        title=item.get('title', 'Untitled'),
+                        source=item.get('url', ''),
+                        content_type=item.get('content_type', 'unknown'),
+                        relevance_score=base_score,
+                        surface_reason=f"Diverse {content_type} selection",
+                        metadata=item,
                         updated_at=datetime.now().isoformat()
                     )
                     surfaced_content.append(surfaced)
@@ -224,11 +217,69 @@ class ProactiveSurfacer:
             print(f"Error surfacing diverse content: {e}")
             return self._mock_surface_content(SurfacingContext(max_results=max_results))
     
-    def _get_all_content(self) -> List[Dict[str, Any]]:
-        """Get all content items from metadata manager."""
+    def _get_content_from_db(self, context: SurfacingContext) -> List[Dict[str, Any]]:
+        """Get content items from database based on context."""
         try:
-            return self.metadata_manager.get_all_metadata()
-        except Exception:
+            conn = sqlite3.connect(self.db_path)
+            conn.row_factory = sqlite3.Row  # Get dict-like rows
+            cursor = conn.cursor()
+            
+            # Build query based on context
+            where_clauses = []
+            params = []
+            
+            # Filter by content types
+            if context.content_types:
+                placeholders = ','.join(['?' for _ in context.content_types])
+                where_clauses.append(f"c.content_type IN ({placeholders})")
+                params.extend(context.content_types)
+            
+            # Filter by age if needed
+            if self.max_age_days > 0:
+                cutoff_date = datetime.now() - timedelta(days=self.max_age_days)
+                where_clauses.append("c.created_at >= ?")
+                params.append(cutoff_date.isoformat())
+            
+            where_clause = ""
+            if where_clauses:
+                where_clause = "WHERE " + " AND ".join(where_clauses)
+            
+            query = f"""
+            SELECT c.id, c.title, c.content, c.content_type, c.url, c.created_at,
+                   ci.summary, ci.key_topics, ci.entities, ci.sentiment, ci.extraction_quality
+            FROM content c
+            LEFT JOIN content_insights ci ON c.id = ci.content_id
+            {where_clause}
+            ORDER BY c.created_at DESC
+            LIMIT ?
+            """
+            params.append(context.max_results * 3)  # Get more to filter/score
+            
+            cursor.execute(query, params)
+            rows = cursor.fetchall()
+            
+            # Convert to list of dicts
+            content_items = []
+            for row in rows:
+                item = dict(row)
+                # Parse JSON fields if they exist
+                if item['key_topics']:
+                    try:
+                        item['topics'] = json.loads(item['key_topics'])
+                    except:
+                        item['topics'] = []
+                if item['entities']:
+                    try:
+                        item['entities'] = json.loads(item['entities'])
+                    except:
+                        item['entities'] = []
+                content_items.append(item)
+            
+            conn.close()
+            return content_items
+            
+        except Exception as e:
+            print(f"Database error: {e}")
             return []
     
     def _filter_by_age(self, content_items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -262,35 +313,63 @@ class ProactiveSurfacer:
         score = 0.0
         
         # Base score for content type preference
-        if item.content_type.value in context.content_types:
+        if item.get('content_type') in context.content_types:
             score += 0.2
+        
+        title = (item.get('title') or "").lower()
+        content = (item.get('content') or "").lower()
         
         # Topic/title matching
         if context.current_topic:
-            title = item.title.lower()
             topic_lower = context.current_topic.lower()
             
             if topic_lower in title:
                 score += 0.4
             elif any(word in title for word in topic_lower.split()):
                 score += 0.2
+            elif topic_lower in content[:1000]:  # Check first 1000 chars
+                score += 0.1
+        
+        # Enhanced topic matching using extracted topics
+        if context.current_topic and item.get('topics'):
+            topic_lower = context.current_topic.lower()
+            for topic in item['topics']:
+                if isinstance(topic, dict):
+                    topic_name = topic.get('name', '').lower()
+                    if topic_lower in topic_name or topic_name in topic_lower:
+                        score += 0.3
+                        break
+        
+        # Entity matching for more intelligent surfacing
+        if context.current_topic and item.get('entities'):
+            topic_lower = context.current_topic.lower()
+            for entity in item['entities']:
+                if isinstance(entity, dict):
+                    entity_name = entity.get('name', '').lower()
+                    if topic_lower in entity_name or entity_name in topic_lower:
+                        score += 0.25
+                        break
         
         # Recent query matching
         if context.recent_queries:
-            title = item.title.lower()
-            content = item.content.lower()
-            
             for query in context.recent_queries:
                 query_lower = query.lower()
                 if query_lower in title:
                     score += 0.3
-                elif query_lower in content:
+                elif query_lower in content[:1000]:
                     score += 0.1
+        
+        # Quality boost from AI analysis
+        quality = item.get('extraction_quality')
+        if quality and quality > 0.8:
+            score += 0.15
+        elif quality and quality > 0.6:
+            score += 0.1
         
         # Recency boost
         if self.boost_recent:
             try:
-                created_at = item.created_at
+                created_at = item.get('created_at')
                 if created_at:
                     content_date = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                     days_ago = (datetime.now() - content_date).days
@@ -311,19 +390,33 @@ class ProactiveSurfacer:
         """Determine why content was surfaced."""
         reasons = []
         
+        title = (item.get('title') or "").lower()
+        
         if context.current_topic:
-            title = item.title.lower()
-            if context.current_topic.lower() in title:
+            topic_lower = context.current_topic.lower()
+            if topic_lower in title:
                 reasons.append(f"matches topic '{context.current_topic}'")
+            elif item.get('topics'):
+                for topic in item['topics']:
+                    if isinstance(topic, dict):
+                        topic_name = topic.get('name', '').lower()
+                        if topic_lower in topic_name:
+                            reasons.append(f"extracted topic matches '{context.current_topic}'")
+                            break
         
         if context.recent_queries:
             for query in context.recent_queries:
-                if query.lower() in item.title.lower():
+                if query.lower() in title:
                     reasons.append(f"matches recent query '{query}'")
                     break
         
+        # Check for high quality AI analysis
+        quality = item.get('extraction_quality')
+        if quality and quality > 0.8:
+            reasons.append("high-quality content")
+        
         try:
-            created_at = item.created_at
+            created_at = item.get('created_at')
             if created_at:
                 content_date = datetime.fromisoformat(created_at.replace('Z', '+00:00'))
                 days_ago = (datetime.now() - content_date).days
@@ -399,18 +492,36 @@ if __name__ == "__main__":
     surfacer = ProactiveSurfacer()
     
     # Test topic-based surfacing
+    print("🧠 Testing ProactiveSurfacer with real Atlas data")
+    print("=" * 50)
+    
+    # Test 1: Topic-based surfacing
+    print("\n1️⃣ Topic-based surfacing for 'AI':")
     context = SurfacingContext(
-        current_topic="machine learning",
+        current_topic="AI",
         max_results=5
     )
-    
     results = surfacer.surface_content(context)
     
-    print("Proactive Content Surfacing Results:")
-    print("=" * 40)
+    for i, result in enumerate(results[:3], 1):
+        print(f"   {i}. {result.title[:60]}...")
+        print(f"      Score: {result.relevance_score:.2f} | {result.surface_reason}")
     
-    for result in results:
-        print(f"\nTitle: {result.title}")
-        print(f"Type: {result.content_type}")
-        print(f"Relevance: {result.relevance_score:.2f}")
-        print(f"Reason: {result.surface_reason}")
+    # Test 2: Recent content
+    print(f"\n2️⃣ Recent content (last 30 days):")
+    recent_results = surfacer.surface_recent(days=30, max_results=5)
+    
+    for i, result in enumerate(recent_results[:3], 1):
+        print(f"   {i}. {result.title[:60]}...")
+        print(f"      Score: {result.relevance_score:.2f} | {result.surface_reason}")
+    
+    # Test 3: Diverse content
+    print(f"\n3️⃣ Diverse content selection:")
+    diverse_results = surfacer.surface_diverse_content(max_results=5)
+    
+    for i, result in enumerate(diverse_results[:3], 1):
+        print(f"   {i}. {result.title[:60]}...")
+        print(f"      Type: {result.content_type} | Score: {result.relevance_score:.2f}")
+    
+    print(f"\n✅ ProactiveSurfacer working with real Atlas data!")
+    print(f"   Total results: {len(results)} topic, {len(recent_results)} recent, {len(diverse_results)} diverse")

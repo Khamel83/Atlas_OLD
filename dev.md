@@ -54,6 +54,34 @@ This document outlines the development philosophy and processes for the Atlas pr
 - **JSON parsing safety**: Handle string/object conversion with proper error handling
 - **Performance optimization**: Batch index population for 100k+ items without memory issues
 
+## Virtual Environment Management (CRITICAL - Aug 27, 2025)
+**STOP THE MADNESS**: Venv paths keep breaking background processes!
+
+### **Definitive Solution Pattern:**
+```python
+# NEVER use sys.executable or hardcoded venv paths
+class BackgroundService:
+    def __init__(self):
+        self.project_root = Path(__file__).parent.parent
+        # ALWAYS use this pattern for subprocess calls
+        self.python_executable = str(self.project_root / "atlas_venv" / "bin" / "python3")
+        
+    def run_subprocess(self, script_name):
+        subprocess.run([self.python_executable, script_name], cwd=self.project_root)
+```
+
+### **Common Failure Patterns to AVOID:**
+- ❌ `sys.executable` - Points to system Python, not venv
+- ❌ `/venv/bin/python3` - Wrong venv name  
+- ❌ Hardcoded absolute paths - Break on deployment
+- ❌ Assuming `python3` command uses venv - Uses system Python
+
+### **Mandatory Checks in All Background Services:**
+1. **Verify venv exists**: Check `atlas_venv/bin/python3` before subprocess calls
+2. **Use project-relative paths**: Calculate from `Path(__file__).parent`
+3. **Log the actual executable**: Log which Python is being used for debugging
+4. **Test subprocess calls**: Ensure they load correct dependencies
+
 ## Agentic File Index (Transactional)
 - Source of truth lives at `AGENT_INDEX.json` (machine-readable) and `AGENT_INDEX.md` (human).
 - Rebuilt **before** executing a task and **after** merging a task via `scripts/update_index.sh`.
