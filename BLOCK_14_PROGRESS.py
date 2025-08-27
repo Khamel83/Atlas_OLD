@@ -7,7 +7,6 @@ checking which files have been created and which tasks have been completed.
 """
 
 import os
-import subprocess
 from pathlib import Path
 
 
@@ -100,11 +99,11 @@ def check_progress():
     )
 
     # Next steps
-    print(f"\n🚀 Next Recommended Tasks:")
-    print(f"  1. Implement Email Alert System (monitoring/alert_manager.py)")
-    print(f"  2. Create Atlas Service Maintenance (maintenance/atlas_maintenance.py)")
-    print(f"  3. Implement Disk Space Management (maintenance/disk_management.py)")
-    print(f"  4. Create Service Health Monitoring (maintenance/service_monitor.py)")
+    print("\n🚀 Next Recommended Tasks:")
+    print("  1. Implement Email Alert System (monitoring/alert_manager.py)")
+    print("  2. Create Atlas Service Maintenance (maintenance/atlas_maintenance.py)")
+    print("  3. Implement Disk Space Management (maintenance/disk_management.py)")
+    print("  4. Create Service Health Monitoring (maintenance/service_monitor.py)")
 
     return len(completed_tasks), len(remaining_tasks)
 

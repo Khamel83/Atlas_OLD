@@ -9,7 +9,7 @@ import requests
 from bs4 import BeautifulSoup
 from markdownify import markdownify
 from playwright.sync_api import sync_playwright
-from playwright_stealth import Stealth
+from playwright_stealth import stealth
 from readability import Document
 
 from helpers.article_strategies import ArticleFetcher
@@ -174,8 +174,7 @@ def fetch_and_save_articles(urls, output_dir):
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)
                 context = browser.new_context()
-                stealth = Stealth()
-                stealth.apply_stealth_sync(context)  # <- apply stealth to the context
+                stealth(context)  # <- apply stealth to the context
 
                 page = context.new_page()
                 page.goto(url, timeout=60000)
