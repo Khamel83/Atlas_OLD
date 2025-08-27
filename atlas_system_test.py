@@ -248,7 +248,7 @@ class AtlasSystemTest:
     def test_analytics_engine(self) -> bool:
         """Test analytics engine integration"""
         try:
-            from dashboard.analytics_engine import AnalyticsEngine
+            from helpers.analytics_engine import AnalyticsEngine
             from helpers.config import load_config
             
             config = load_config()

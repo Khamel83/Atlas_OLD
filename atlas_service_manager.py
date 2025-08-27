@@ -128,15 +128,72 @@ class AtlasServiceManager:
                     "start_time": datetime.now(),
                     "status": "running"
                 }
+            else:
+                # Start scheduler for background tasks
+                scheduler_cmd = [
+                    sys.executable, "scripts/atlas_scheduler.py", "--start"
+                ]
+                
+                scheduler_process = subprocess.Popen(
+                    scheduler_cmd,
+                    cwd=Path(__file__).parent,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    preexec_fn=os.setsid
+                )
+                
+                time.sleep(2)
+                
+                if scheduler_process.poll() is None:
+                    self.services["scheduler"] = {
+                        "process": scheduler_process,
+                        "pid": scheduler_process.pid,
+                        "start_time": datetime.now(),
+                        "status": "running"
+                    }
+                    self.logger.info(f"Background scheduler started (PID: {scheduler_process.pid})")
+                else:
+                    self.logger.error("Failed to start background scheduler")
+                    return False
+            
+            # Start process watchdog
+            return self.start_process_watchdog()
+                
+        except Exception as e:
+            self.logger.error(f"Error starting background tasks: {e}")
+            return False
+    
+    def start_process_watchdog(self) -> bool:
+        """Start the process watchdog daemon"""
+        try:
+            # Check if watchdog is already running
+            existing_watchdog = None
+            for proc in psutil.process_iter(['pid', 'cmdline']):
+                try:
+                    if 'process_watchdog.py' in ' '.join(proc.info.get('cmdline', [])):
+                        existing_watchdog = proc
+                        break
+                except (psutil.NoSuchProcess, psutil.AccessDenied):
+                    continue
+            
+            if existing_watchdog:
+                self.logger.info(f"Process watchdog already running (PID: {existing_watchdog.pid})")
+                self.services["watchdog"] = {
+                    "process": existing_watchdog,
+                    "pid": existing_watchdog.pid,
+                    "start_time": datetime.now(),
+                    "status": "running"
+                }
                 return True
             
-            # Start scheduler for background tasks
-            scheduler_cmd = [
-                sys.executable, "scripts/atlas_scheduler.py", "--start"
+            # Start process watchdog
+            watchdog_cmd = [
+                sys.executable, "helpers/process_watchdog.py", 
+                "--daemon", "--interval", "3"  # Check every 3 minutes
             ]
             
-            scheduler_process = subprocess.Popen(
-                scheduler_cmd,
+            watchdog_process = subprocess.Popen(
+                watchdog_cmd,
                 cwd=Path(__file__).parent,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
@@ -145,21 +202,21 @@ class AtlasServiceManager:
             
             time.sleep(2)
             
-            if scheduler_process.poll() is None:
-                self.services["scheduler"] = {
-                    "process": scheduler_process,
-                    "pid": scheduler_process.pid,
+            if watchdog_process.poll() is None:
+                self.services["watchdog"] = {
+                    "process": watchdog_process,
+                    "pid": watchdog_process.pid,
                     "start_time": datetime.now(),
                     "status": "running"
                 }
-                self.logger.info(f"Background scheduler started (PID: {scheduler_process.pid})")
+                self.logger.info(f"Process watchdog started (PID: {watchdog_process.pid}) - monitors for runaway processes")
                 return True
             else:
-                self.logger.error("Failed to start background scheduler")
+                self.logger.error("Failed to start process watchdog")
                 return False
                 
         except Exception as e:
-            self.logger.error(f"Error starting background tasks: {e}")
+            self.logger.error(f"Error starting process watchdog: {e}")
             return False
     
     def _is_port_in_use(self, port: int) -> bool:
@@ -401,6 +458,8 @@ class AtlasServiceManager:
                 self.start_api_server()
             elif service_name == "scheduler":
                 self.start_background_tasks()
+            elif service_name == "watchdog":
+                self.start_process_watchdog()
             else:
                 self.logger.warning(f"Don't know how to restart service: {service_name}")
         except Exception as e:

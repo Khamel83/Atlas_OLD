@@ -20,7 +20,18 @@ This document outlines the development philosophy and processes for the Atlas pr
   - `.env` exists; required keys from `.env.template` are non-empty.
   - Python venv is present (`.venv`) and deps are installed.
   - Git workspace is clean on `main` (or committed/stashed).
+  - **DISK SPACE CHECK**: Minimum 5GB free before operations
+  - **LOG SIZE CHECK**: No single log file >100MB without rotation
 - If any check fails: STOP, log to `EXECUTION_LOG.md`, open a `FIX-` task.
+
+## Storage Crisis Prevention (Critical Learnings Aug 2025)
+- **MANDATORY pre-flight disk checks** before background operations
+- **Circuit breaker pattern** - Stop after 10 consecutive failures, don't retry indefinitely
+- **Log rotation enforcement** - Size-based (50MB max) and time-based (daily) cleanup
+- **Failure rate monitoring** - Alert if >50% operations fail, investigate immediately  
+- **Error log deduplication** - Don't log identical errors repeatedly
+- **Background service health** - Monitor resource usage, not just process existence
+- **Storage audits** - Regular `du -sh` checks to identify bloat before crisis
 
 ## Agentic File Index (Transactional)
 - Source of truth lives at `AGENT_INDEX.json` (machine-readable) and `AGENT_INDEX.md` (human).

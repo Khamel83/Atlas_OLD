@@ -15,7 +15,7 @@ def test_analytics_engine():
     print("Testing Analytics Engine...")
     
     try:
-        from analytics.analytics_engine import AnalyticsEngine
+        from helpers.analytics_engine import AnalyticsEngine
         
         # Create analytics engine
         engine = AnalyticsEngine()

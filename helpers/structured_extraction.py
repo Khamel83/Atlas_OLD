@@ -234,7 +234,7 @@ Return JSON with:
                 input_tokens=len(prompt) // 4,  # Rough estimate
                 content_type=content_input.content_type,
                 strict_json=True,
-                priority="normal"
+                priority="high"  # Force premium model for better JSON extraction
             )
             
             router_result = self.llm_client.execute_task(
@@ -270,6 +270,7 @@ Return JSON with:
             return ContentInsights(**json_data)
         except Exception as e:
             logger.error(f"Failed to parse extraction JSON: {e}")
+            logger.error(f"Raw response: {response[:500]}...")  # Debug log
             # Try to fix JSON and retry once
             fixed_json = self._fix_json(response)
             return ContentInsights(**fixed_json)
@@ -341,6 +342,17 @@ Return JSON with:
                 json_str = response[json_start:json_end]
             else:
                 raise ValueError("No JSON found in response")
+        
+        # Clean up JSON string
+        json_str = json_str.strip()
+        
+        # If JSON is truncated, try to complete it
+        if not json_str.endswith('}'):
+            # Count braces to see if we need to close
+            open_braces = json_str.count('{')
+            close_braces = json_str.count('}')
+            if open_braces > close_braces:
+                json_str += '}' * (open_braces - close_braces)
                 
         return json.loads(json_str)
         

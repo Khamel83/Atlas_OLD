@@ -115,20 +115,18 @@ async def search_content(
         if filters:
             where_clause = "AND " + " AND ".join(filters)
         
-        # Execute search query using our populated search_index table
+        # Execute search query with DISTINCT to avoid duplicates
         sql = f"""
-        SELECT content_id, title, url, content_type, 
+        SELECT DISTINCT content_id, title, url, content_type, 
                SUBSTR(content, 1, 200) as excerpt,
-               1.0 as score
+               CASE 
+                   WHEN title LIKE ? THEN 1.0
+                   WHEN content LIKE ? THEN 0.8
+                   ELSE 0.6
+               END as score
         FROM search_index 
         WHERE content LIKE ? OR title LIKE ? {where_clause}
-        ORDER BY 
-            CASE 
-                WHEN title LIKE ? THEN 1
-                WHEN content LIKE ? THEN 2
-                ELSE 3
-            END,
-            LENGTH(content) DESC
+        ORDER BY score DESC, LENGTH(content) DESC
         LIMIT ? OFFSET ?
         """
         
@@ -148,9 +146,9 @@ async def search_content(
                 score=row[5] if row[5] is not None else 0.0
             ))
         
-        # Get total count
+        # Get total count of unique results
         count_sql = f"""
-        SELECT COUNT(*) 
+        SELECT COUNT(DISTINCT content_id) 
         FROM search_index 
         WHERE content LIKE ? OR title LIKE ? {where_clause}
         """

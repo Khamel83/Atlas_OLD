@@ -41,7 +41,7 @@ class DashboardServer:
         self.templates_dir.mkdir(parents=True, exist_ok=True)
         
         # Initialize analytics engine
-        from .analytics_engine import AnalyticsEngine
+        from helpers.analytics_engine import AnalyticsEngine
         self.analytics = AnalyticsEngine(config)
         
         self._create_default_templates()

@@ -6,7 +6,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
-from dashboard.analytics_engine import AnalyticsEngine
+from helpers.analytics_engine import AnalyticsEngine
 from helpers.config import load_config
 
 router = APIRouter()

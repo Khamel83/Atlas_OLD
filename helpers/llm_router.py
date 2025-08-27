@@ -306,7 +306,7 @@ class LLMRouter:
                 model=model,
                 messages=messages,
                 response_schema=response_schema,
-                max_tokens=min(2048, spec.input_tokens // 2)
+                max_tokens=min(4000, max(1500, spec.input_tokens // 2))  # Ensure minimum for JSON extraction
             )
             
             # Handle JSON validation for structured outputs

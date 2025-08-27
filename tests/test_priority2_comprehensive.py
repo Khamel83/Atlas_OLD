@@ -130,7 +130,7 @@ class TestBlock8Analytics:
         insights = self.engine.generate_insights(days=1)
         assert 'error' not in insights
         
-    @patch('dashboard.analytics_engine.MetadataManager')
+    @patch('helpers.analytics_engine.MetadataManager')
     def test_atlas_data_integration(self, mock_metadata_manager):
         """Test integration with Atlas data"""
         # Mock Atlas data

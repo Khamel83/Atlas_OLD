@@ -11,7 +11,7 @@ sys.path.append(os.path.dirname(__file__))
 import json
 from pathlib import Path
 from datetime import datetime
-from analytics.analytics_engine import AnalyticsEngine
+from helpers.analytics_engine import AnalyticsEngine
 
 
 class AtlasAnalyticsIntegrator:
