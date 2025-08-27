@@ -96,7 +96,7 @@ def populate_search_index(source_db: str, target_db: str, batch_size: int = 100)
         
         # Get source data
         cursor = source_conn.execute("""
-            SELECT id, title, content_type, source_url, created_at, metadata, content
+            SELECT id, title, content_type, url, created_at, metadata, content
             FROM content 
             ORDER BY created_at DESC
         """)
@@ -106,15 +106,15 @@ def populate_search_index(source_db: str, target_db: str, batch_size: int = 100)
             results["processed"] += 1
             
             try:
-                content_id, title, content_type, source_url, created_at, metadata_json, db_content = row
+                content_id, title, content_type, url, created_at, metadata_json, db_content = row
                 
                 # Parse metadata for enhanced title and other info
                 try:
                     metadata = json.loads(metadata_json) if metadata_json else {}
                     enhanced_title = metadata.get('title', title) if metadata.get('title') not in [None, '', '[no-title]'] else title
                     if enhanced_title == '[no-title]' or not enhanced_title:
-                        # Try to extract title from source URL
-                        enhanced_title = source_url.split('/')[-1] if source_url else "Untitled"
+                        # Try to extract title from URL
+                        enhanced_title = url.split('/')[-1] if url else "Untitled"
                 except:
                     enhanced_title = title or "Untitled"
                 
@@ -139,7 +139,7 @@ def populate_search_index(source_db: str, target_db: str, batch_size: int = 100)
                     enhanced_title,
                     clean_content,
                     content_type or "unknown",
-                    source_url or "",
+                    url or "",
                     tags,
                     created_at
                 ))

@@ -4,6 +4,7 @@ Provides FastAPI endpoints for searching content with support for
 filtering, pagination, and comprehensive error handling.
 """
 
+import json
 import os
 import sqlite3
 import sys
@@ -45,6 +46,12 @@ class SearchResult(BaseModel):
     content_type: str = Field(..., description="Type of content (article, document, etc.)")
     excerpt: str = Field(..., description="Content excerpt or snippet")
     score: float = Field(..., ge=0, le=1, description="Relevance score (0-1)")
+    # Enhanced with structured insights
+    summary: Optional[str] = Field(None, description="AI-generated summary")
+    topics: Optional[List[str]] = Field(None, description="Key topics extracted")
+    entities: Optional[List[str]] = Field(None, description="Named entities found")
+    quality_score: Optional[float] = Field(None, description="Content quality score (0-1)")
+    sentiment: Optional[str] = Field(None, description="Content sentiment")
 
 
 class SearchResponse(BaseModel):
@@ -102,6 +109,12 @@ async def search_content(
         conn = sqlite3.connect(db_path)
         cursor = conn.cursor()
         
+        # Attach main atlas database for insights
+        atlas_db_path = "data/atlas.db"
+        has_insights = os.path.exists(atlas_db_path)
+        if has_insights:
+            cursor.execute(f"ATTACH DATABASE '{atlas_db_path}' AS atlas")
+        
         # Build FTS query
         fts_query = f'"{query}"'  # Exact phrase match
         
@@ -115,20 +128,47 @@ async def search_content(
         if filters:
             where_clause = "AND " + " AND ".join(filters)
         
-        # Execute search query with DISTINCT to avoid duplicates
-        sql = f"""
-        SELECT DISTINCT content_id, title, url, content_type, 
-               SUBSTR(content, 1, 200) as excerpt,
-               CASE 
-                   WHEN title LIKE ? THEN 1.0
-                   WHEN content LIKE ? THEN 0.8
-                   ELSE 0.6
-               END as score
-        FROM search_index 
-        WHERE content LIKE ? OR title LIKE ? {where_clause}
-        ORDER BY score DESC, LENGTH(content) DESC
-        LIMIT ? OFFSET ?
-        """
+        if has_insights:
+            # Enhanced query with insights data
+            sql = f"""
+            SELECT DISTINCT 
+                si.content_id,
+                si.title, 
+                si.url,
+                si.content_type,
+                SUBSTR(si.content, 1, 200) as excerpt,
+                CASE 
+                    WHEN si.title LIKE ? THEN 1.0
+                    WHEN si.content LIKE ? THEN 0.8
+                    ELSE 0.6
+                END as score,
+                ci.summary,
+                ci.key_topics,
+                ci.entities,
+                ci.extraction_quality,
+                ci.sentiment
+            FROM search_index si
+            LEFT JOIN atlas.content_insights ci ON si.content_id = ci.content_id
+            WHERE si.content LIKE ? OR si.title LIKE ? {where_clause}
+            ORDER BY score DESC, LENGTH(si.content) DESC
+            LIMIT ? OFFSET ?
+            """
+        else:
+            # Fallback to basic query
+            sql = f"""
+            SELECT DISTINCT content_id, title, url, content_type, 
+                   SUBSTR(content, 1, 200) as excerpt,
+                   CASE 
+                       WHEN title LIKE ? THEN 1.0
+                       WHEN content LIKE ? THEN 0.8
+                       ELSE 0.6
+                   END as score,
+                   NULL, NULL, NULL, NULL, NULL
+            FROM search_index 
+            WHERE content LIKE ? OR title LIKE ? {where_clause}
+            ORDER BY score DESC, LENGTH(content) DESC
+            LIMIT ? OFFSET ?
+            """
         
         like_query = f"%{query}%"
         cursor.execute(sql, (like_query, like_query, like_query, like_query, limit, skip))
@@ -137,13 +177,56 @@ async def search_content(
         # Convert to SearchResult objects
         results = []
         for row in rows:
+            # Basic fields
+            uid = row[0]
+            title = row[1] if row[1] else "Untitled"
+            source = row[2] if row[2] else ""
+            content_type = row[3] if row[3] else "unknown"
+            excerpt = row[4] if row[4] else ""
+            score = row[5] if row[5] is not None else 0.0
+            
+            # Enhanced fields from insights (if available)
+            summary = None
+            topics = None
+            entities = None
+            quality_score = None
+            sentiment = None
+            
+            if has_insights and len(row) > 6:
+                summary = row[6]
+                
+                # Parse JSON fields safely
+                try:
+                    if row[7]:  # key_topics
+                        topics_data = json.loads(row[7]) if isinstance(row[7], str) else row[7]
+                        if isinstance(topics_data, list):
+                            topics = [t.get('name', str(t)) if isinstance(t, dict) else str(t) for t in topics_data]
+                except (json.JSONDecodeError, AttributeError):
+                    topics = None
+                
+                try:
+                    if row[8]:  # entities
+                        entities_data = json.loads(row[8]) if isinstance(row[8], str) else row[8]
+                        if isinstance(entities_data, list):
+                            entities = [e.get('name', str(e)) if isinstance(e, dict) else str(e) for e in entities_data]
+                except (json.JSONDecodeError, AttributeError):
+                    entities = None
+                
+                quality_score = row[9] if row[9] is not None else None
+                sentiment = row[10]
+            
             results.append(SearchResult(
-                uid=row[0],
-                title=row[1] if row[1] else "Untitled",
-                source=row[2] if row[2] else "",
-                content_type=row[3] if row[3] else "unknown",
-                excerpt=row[4] if row[4] else "",
-                score=row[5] if row[5] is not None else 0.0
+                uid=uid,
+                title=title,
+                source=source,
+                content_type=content_type,
+                excerpt=excerpt,
+                score=score,
+                summary=summary,
+                topics=topics,
+                entities=entities,
+                quality_score=quality_score,
+                sentiment=sentiment
             ))
         
         # Get total count of unique results

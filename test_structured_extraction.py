@@ -3,12 +3,103 @@
 Test script for structured content extraction system.
 """
 
+import json
 import logging
+import sqlite3
 from helpers.structured_extraction import StructuredExtractor, ContentInput, create_extractor
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+def test_real_database_article():
+    """Test extraction on a real article from the database."""
+    
+    # Get a real article from database
+    import sqlite3
+    conn = sqlite3.connect("data/atlas.db")
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT id, title, content, url 
+        FROM content 
+        WHERE content IS NOT NULL 
+        AND length(content) > 1000
+        AND content_type = 'article'
+        ORDER BY RANDOM()
+        LIMIT 1
+    """)
+    article = cursor.fetchone()
+    conn.close()
+    
+    if not article:
+        print("❌ No real articles found in database")
+        return None
+        
+    content_id, title, content, url = article
+    
+    print(f"🔍 Testing real article: {title[:60]}...")
+    print(f"   Content ID: {content_id}")
+    print(f"   URL: {url}")
+    
+    try:
+        # Create content input from real data
+        content_input = ContentInput(
+            title=title,
+            content=content,
+            url=url,
+            content_type="article"
+        )
+        
+        # Create extractor
+        extractor = create_extractor()
+        
+        # Run structured extraction
+        extraction_result = extractor.extract(content_input, validate=True)
+        
+        if extraction_result.success:
+            insights = extraction_result.insights
+            print(f"✅ Real extraction successful!")
+            print(f"   Summary: {insights.summary[:100]}...")
+            print(f"   Quality score: {extraction_result.extraction_quality}")
+            print(f"   Entities found: {len(insights.entities)}")
+            print(f"   Topics found: {len(insights.key_topics)}")
+            
+            # Save to database 
+            conn = sqlite3.connect("data/atlas.db")
+            cursor = conn.cursor()
+            
+            # Insert insights
+            cursor.execute("""
+                INSERT OR REPLACE INTO content_insights 
+                (content_id, summary, key_topics, key_themes, entities, quotes, theses, 
+                 sentiment, complexity, extraction_quality, model_used)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                content_id,
+                insights.summary,
+                json.dumps([{"name": t.name, "relevance": t.relevance, "subtopics": t.subtopics or []} for t in insights.key_topics]),
+                json.dumps(insights.key_themes),
+                json.dumps([{"name": e.name, "type": e.type, "confidence": e.confidence} for e in insights.entities]),
+                json.dumps([{"text": q.text, "speaker": q.speaker} for q in insights.quotes]),
+                json.dumps([{"statement": th.statement, "rationale": th.rationale, "confidence": th.confidence, "category": th.category} for th in insights.theses]),
+                insights.sentiment,
+                insights.complexity,
+                extraction_result.extraction_quality,
+                extraction_result.model_used
+            ))
+            
+            conn.commit()
+            conn.close()
+            
+            print(f"💾 Insights saved to database!")
+            return extraction_result
+        else:
+            print(f"❌ Real extraction failed: {extraction_result.error}")
+            return None
+            
+    except Exception as e:
+        print(f"❌ Exception during real extraction: {e}")
+        return None
 
 def test_article_extraction():
     """Test extraction on a sample article."""
@@ -166,13 +257,29 @@ if __name__ == "__main__":
     print("🚀 Testing Atlas Structured Content Extraction")
     print("=" * 60)
     
-    # Test article extraction
-    print("\n1️⃣  Testing Article Extraction...")
+    # Test real database article first
+    print("\n1️⃣  Testing Real Database Article...")
+    real_result = test_real_database_article()
+    
+    # Test sample article extraction
+    print("\n\n2️⃣  Testing Sample Article Extraction...")
     article_result = test_article_extraction()
     
     # Test podcast extraction  
-    print("\n\n2️⃣  Testing Podcast Extraction...")
+    print("\n\n3️⃣  Testing Podcast Extraction...")
     podcast_result = test_podcast_extraction()
     
     print(f"\n✅ All tests completed successfully!")
-    print(f"Average quality score: {(article_result.extraction_quality + podcast_result.extraction_quality)/2:.2f}")
+    
+    # Calculate average quality score
+    scores = []
+    if real_result:
+        scores.append(real_result.extraction_quality)
+    if article_result:
+        scores.append(article_result.extraction_quality)
+    if podcast_result and hasattr(podcast_result, 'extraction_quality'):
+        scores.append(podcast_result.extraction_quality)
+    
+    if scores:
+        print(f"Average quality score: {sum(scores)/len(scores):.2f}")
+        print(f"Real database article processed and saved to insights table!")

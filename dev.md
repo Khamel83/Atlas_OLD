@@ -33,6 +33,27 @@ This document outlines the development philosophy and processes for the Atlas pr
 - **Background service health** - Monitor resource usage, not just process existence
 - **Storage audits** - Regular `du -sh` checks to identify bloat before crisis
 
+## Database Schema Optimization Patterns (Aug 27, 2025)
+- **Cross-database queries**: Use `ATTACH DATABASE` for joining search indexes with main content
+- **JSON field parsing**: Safe handling with `json.loads()` + `isinstance()` checks for list/dict structures
+- **Graceful fallback**: Design search APIs to work with/without enhanced insights data
+- **Batch processing**: Use `executemany()` for bulk operations, commit in batches of 100
+- **Schema validation**: Always check table existence before complex joins
+
+## LLM Integration Patterns (Aug 27, 2025)
+- **Router-based selection**: Economy → Balanced → Premium model progression for cost optimization
+- **JSON truncation issues**: Common LLM output problem - implement retry logic with shorter context
+- **Pydantic validation**: Strong typing prevents malformed LLM responses from breaking system
+- **Error handling**: Distinguish between extraction failures vs validation failures for better debugging
+- **Processing time tracking**: Log extraction duration for performance monitoring
+
+## Search Integration Architecture (Aug 27, 2025)
+- **Enhanced SearchResult models**: Include AI-generated fields (summary, topics, entities, sentiment)
+- **Database attachment strategy**: Use `ATTACH DATABASE` for cross-database joins in single queries
+- **Graceful enhancement**: Design APIs to work with basic data + optional AI insights
+- **JSON parsing safety**: Handle string/object conversion with proper error handling
+- **Performance optimization**: Batch index population for 100k+ items without memory issues
+
 ## Agentic File Index (Transactional)
 - Source of truth lives at `AGENT_INDEX.json` (machine-readable) and `AGENT_INDEX.md` (human).
 - Rebuilt **before** executing a task and **after** merging a task via `scripts/update_index.sh`.
