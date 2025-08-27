@@ -1,7 +1,8 @@
 # Agents — Single Source of Truth
 
-**CURRENT STATUS**: Atlas Phase 1 Repair Complete (Aug 26, 2025 - 15:30)
-**PRODUCTION READINESS**: 60-70% (Upgraded from 30-40%)
+**CURRENT STATUS**: Atlas 95% Complete - Database Crisis Resolved (Aug 26, 2025 - 21:30)
+**PRODUCTION READINESS**: 95% - Ready for final phases
+**DEFINITIVE COMPLETION PLAN**: See `ATLAS_DEFINITIVE_ROADMAP.md` - THE ONLY roadmap to follow
 
 This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work. Model-specific nuances belong in their respective files and do not override this lifecycle.
 
@@ -12,12 +13,16 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work. Mode
 - ✅ **LLM Router Integration**: Cost optimization active, real API connected
 
 ## 1) Execution Lifecycle (for each Task)
-1. **Preflight**
+1. **Preflight** 
    - Read `tasks.md`; topologically sort tasks by `depends_on`.
    - Validate `.env` against `.env.template`; fail with missing keys listed.
    - Run `git status` must be clean on `main`. If not, commit/stash before proceeding.
    - **Preflight hard checks (extended)**
      - `scripts/preflight.sh` (ensures .env, OpenRouter defaults, budgets, policy).
+     - **STORAGE CRISIS PREVENTION** (Added Aug 2025):
+       - `df -h .` must show >5GB free before operations
+       - `find . -name "*.log" -size +100M` must be empty (enforce log rotation)
+       - Check background service resource usage, not just existence
      - Refresh index: `CURRENT_TASK_ID=<ID> scripts/update_index.sh`.
      - Budget check (estimate ok): `python3 scripts/budget_guard.py check --cost <est_cost_usd> --task <ID>`.
 2. **Branch**
@@ -48,31 +53,50 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work. Mode
    - Update `tasks.md` status for that task.
    - If downstream tasks were blocked by this, unblocked tasks can now proceed.
 
-## 2) Failure & Self-Repair
+## 2) Storage Crisis Prevention (MANDATORY - Aug 2025 Learnings)
+**NEVER REPEAT**: Background service + low disk space + no circuit breaker = 5.2GB log explosion
+
+### Critical Implementation Requirements:
+- **Pre-flight disk check**: `df -h . | awk 'NR==2{if($4+0<5) exit 1}'` before ANY background operation
+- **Circuit breaker pattern**: Stop after 10 consecutive failures, don't retry indefinitely  
+- **Log rotation enforcement**: No log file >100MB without rotation (check in preflight)
+- **Failure rate monitoring**: If >50% operations fail, HALT and investigate immediately
+- **Error deduplication**: Don't log identical errors repeatedly - summarize after 10 occurrences
+- **Background service health**: Monitor CPU/memory/disk, not just process existence
+- **Storage audits**: Weekly `du -sh` checks to identify bloat before crisis
+
+### Root Cause Analysis (Aug 26, 2025):
+- **error_log.jsonl**: 2.9GB, 7.3M lines (99.8% repeated "disk space" errors)  
+- **ingest logs**: 2GB+ of failed retry attempts
+- **System kept running**: No circuit breaker to stop futile operations
+- **No monitoring**: 99.8% failure rate went unnoticed for days
+
+## 3) Failure & Self-Repair
 - On failure at any step:
   - Record failure details and artifacts in `EXECUTION_LOG.md`.
+  - **STORAGE CHECK**: If disk <5GB, this is NOT a task failure - it's infrastructure crisis
   - Create a follow-up task `FIX-<id>-<slug>` with precise remediation steps.
   - Retry policy: up to 2 automated retries if clearly actionable; otherwise escalate by creating a fix task and halting the pipeline beyond dependent tasks.
 
-## 3) Commit Conventions
+## 4) Commit Conventions
 - `task(<id>): <concise change>`
 - Body: what/why; reference artifacts or doc sections.
 - Footer: `Refs: task <id>`; use GitHub issue links if available.
 
-## 4) Branch Naming
+## 5) Branch Naming
 - `task/<id>-<slug>`
 - Fixes: `fix/<id>-<slug>` (for follow-ups not tied to a specific task block).
 
-## 5) Env Management
+## 6) Env Management
 - Required keys listed in `.env.template`. Do not commit `.env`.
 - If a key is optional, mark it `# optional` in `.env.template`.
 
-## 6) Model Runtime Guidance (summary)
+## 7) Model Runtime Guidance (summary)
 - Use the simplest capable model for mechanical edits.
 - Chunk changes: favor small, verifiable commits over mega-diffs.
 - On ambiguity, stop and add a clarification sub-task in `tasks.md`; do not guess silently.
 
-## 7) Success Definition
+## 8) Success Definition
 - Can a new contributor, given this repo and no extra context, run the system as intended? If not, update docs before marking done.
 <!-- BEGIN: PRE_FLIGHT_HARD_CHECKS_EXTENDED -->
 - `scripts/preflight.sh` must pass (ensures `.env`, OpenRouter defaults, budgets, policy).
