@@ -35,8 +35,8 @@ This will:
 
 ### Key Files
 - `start_work.sh` — Zero-config bootstrap script
-- `tasks.md` — Current development roadmap
-- `CLAUDE.md` — Complete system documentation
+- `tasks.md` — Current development tasks
+- `ATLAS_STATUS.md` — Authoritative project status and component breakdown
 - `helpers/` — Core processing modules
 - `api/` — FastAPI server implementation
 
@@ -52,24 +52,8 @@ This will:
 - **Health monitoring**: Auto-restart failed services
 - **Queue management**: Smart job dispatching and retry logic
 
-## Current Status ✅
-
-**PRODUCTION READY** - All core systems operational:
-- ✅ **API Endpoints**: 4/4 cognitive endpoints functional
-- ✅ **Background Services**: Single stable service (no process leaks)
-- ✅ **Mac Mini Integration**: Job queue and worker system operational
-- ✅ **Database**: Auto-initialization with proper schema
-- ✅ **Zero-Config Setup**: Fresh clone → working system in one command
-
-**Recent Completions**:
-- Block 1: API endpoint repair (B1T1-B1T6) ✅
-- Block 2: Background service crisis fix (B2T1-B2T6) ✅  
-- Block 3: Mac Mini worker integration (B3T1-B3T2) ✅
-- Block 4: Bootstrap script enhancement (B4T1) ✅
-
-**In Progress**: Documentation accuracy audit, integration testing
-
-See `tasks.md` for detailed completion status and next steps.
+## Current Status
+See `ATLAS_STATUS.md` for a detailed and authoritative breakdown of the project's current state.
 
 ## Configuration
 
@@ -121,7 +105,7 @@ python3 mac_mini_client.py --capabilities transcribe_youtube,transcribe_podcast
 
 ## Development
 
-See `tasks.md` for current development roadmap and `CLAUDE.md` for comprehensive system documentation.
+See `tasks.md` for current development tasks and `ATLAS_STATUS.md` for a comprehensive system overview.
 
 ## Troubleshooting
 
@@ -130,4 +114,4 @@ See `tasks.md` for current development roadmap and `CLAUDE.md` for comprehensive
 3. **Database errors**: Delete `atlas.db` and restart to recreate
 4. **Permission errors**: Run `chmod +x *.sh` to fix script permissions
 
-For detailed troubleshooting, see `CLAUDE.md` or check `tasks.md` for known issues.
+For detailed troubleshooting, see `ATLAS_STATUS.md` or check `tasks.md` for known issues.
