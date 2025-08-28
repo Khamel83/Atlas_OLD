@@ -343,5 +343,157 @@ If Qwen execution fails:
 4. **Clear logs**: `bash scripts/rotate_large_logs.sh`
 5. **Install deps**: `pip3 install PyYAML --break-system-packages`
 
+## Gemini CLI Autonomous Execution Rules (Aug 28, 2025)
+
+### **Strategic Usage Pattern: Planning First, Execution Second**
+Gemini CLI provides 60 Pro requests initially, then drops to free tier with limited requests. Optimize by front-loading planning tasks.
+
+#### **Phase 1: High-Value Planning Tasks (Use Pro Tier)**
+```bash
+# Strategic analysis and architecture decisions
+gemini -p "Analyze TASKS.md and create execution plan for next 5 tasks with dependencies"
+gemini -p "Review current Atlas architecture and identify optimization opportunities"  
+gemini -p "Design error handling strategy for background services"
+gemini -p "Create comprehensive test strategy for cognitive features"
+```
+
+#### **Phase 2: Execution Tasks (Use Free Tier)**
+```bash
+# Implementation work (less model-intensive)
+gemini -p "Implement the pre-planned refactoring in helpers/path_manager.py"
+gemini -p "Apply the designed error patterns to atlas_service_manager.py"
+gemini -p "Execute the test plan created in Phase 1"
+```
+
+### **Authentication Strategy**
+```bash
+# Option 1: OAuth (Recommended for Atlas)
+# - 60 requests/min, 1000 requests/day initially  
+# - Gemini 2.5 Pro with 1M token context
+# - No API key management
+gemini auth login
+
+# Option 2: API Key (Fallback)
+# - 100 requests/day with Gemini 2.5 Pro
+# - More granular control
+export GOOGLE_API_KEY="your-key"
+gemini -k
+```
+
+### **Context Configuration**
+Create `GEMINI.md` in project root for consistent behavior:
+```markdown
+# Atlas Project Context for Gemini CLI
+You are working on Atlas, a cognitive amplification system. 
+
+## Key Constraints:
+- Follow bulletproof process management patterns
+- All subprocess calls must use helpers/bulletproof_process_manager.py
+- Update TASKS.md status immediately after task completion
+- Test all changes before committing
+- Follow git workflow: branch → work → test → commit → merge
+
+## Current Architecture:
+- Python 3.12 with atlas_venv virtual environment
+- SQLite databases with AI-powered search indexing
+- FastAPI web services with bulletproof monitoring
+- Apple ecosystem integration (iOS shortcuts, extensions)
+
+## Execution Patterns:
+- Use atlas_status.py for system health checks
+- Run pytest for validation before commits
+- Apply ruff/mypy for code quality
+- Follow agents.md lifecycle for autonomous work
+```
+
+### **Optimized Command Patterns**
+
+#### **Planning Commands (Pro Tier)**
+```bash
+# Architecture analysis
+gemini --include-directories helpers,monitoring "Analyze memory leak patterns and design prevention strategy"
+
+# Strategic task planning  
+gemini -p "Review TASKS.md and create detailed execution plan with time estimates and risk analysis"
+
+# Complex problem solving
+gemini "Given the current Qwen execution issues documented in dev.md, design a robust autonomous execution framework"
+```
+
+#### **Execution Commands (Free Tier)**
+```bash
+# Direct implementation
+gemini -p "Implement the planned bulletproof subprocess wrapper in helpers/bulletproof_process_manager.py"
+
+# Specific fixes
+gemini -p "Apply the designed logging pattern to atlas_background_service.py line 156-203"
+
+# Testing and validation
+gemini -p "Create pytest test for the implemented memory leak detection using the planned test strategy"
+```
+
+### **Request Budget Management**
+
+#### **Pro Tier Usage (First 60 requests)**
+Priority order for maximum value:
+1. **Strategic Planning** (20 requests): Architecture decisions, task sequencing, risk analysis
+2. **Problem Solving** (20 requests): Complex debugging, system design, optimization strategies  
+3. **Code Review** (10 requests): Security analysis, performance review, best practices
+4. **Documentation** (10 requests): Architecture docs, user guides, API documentation
+
+#### **Free Tier Usage (100 requests/day)**
+Focus on concrete implementation:
+1. **Code Implementation**: Following pre-made plans from Pro tier
+2. **Testing**: Executing test plans created during planning phase
+3. **Bug Fixes**: Applying solutions designed during Pro analysis
+4. **Maintenance**: Routine updates and minor improvements
+
+### **Autonomous Execution Integration**
+
+#### **Gemini + Qwen Hybrid Approach**
+```bash
+# 1. Gemini for planning (Pro tier)
+PLAN=$(gemini -p "Create execution plan for ATLAS-COMPLETE-005 with specific file changes and validation steps")
+
+# 2. Qwen for execution (unlimited)  
+echo "$PLAN" > task_execution_plan.md
+# Then run Qwen with the detailed plan
+```
+
+#### **Error Recovery with Gemini**
+```bash
+# When Qwen encounters issues
+gemini -p "Debug this Qwen execution error and provide specific fix commands: $(cat execution_error.log)"
+
+# Strategic replanning when tasks fail
+gemini "Given these failed attempts, redesign the approach for ATLAS-COMPLETE task completion"
+```
+
+### **Context Management**
+```bash
+# Include relevant directories for better context
+gemini --include-directories scripts,helpers,monitoring "Design system health monitoring"
+
+# Use conversation checkpointing for complex tasks
+gemini --checkpoint planning_session_001 "Continue architectural analysis from previous session"
+```
+
+### **Quality Assurance Pattern**
+```bash
+# Pro tier: Strategic review
+gemini "Review completed implementation and identify potential issues before deployment"
+
+# Free tier: Specific validation
+gemini -p "Run validation tests for the implemented changes and fix any errors"
+```
+
+### **Best Practices Summary**
+- **Front-load planning**: Use Pro tier for high-level analysis and strategy
+- **Batch execution**: Group implementation tasks for free tier usage
+- **Context optimization**: Use GEMINI.md and directory inclusion for better results  
+- **Hybrid approach**: Gemini for planning, Qwen for execution
+- **Error recovery**: Leverage Gemini's problem-solving for debugging complex issues
+- **Request tracking**: Monitor usage to stay within limits and optimize value
+
 ## North Star
 - Decisions prioritize Atlas mission/vision and reduce time to a durable, low-ops product.
