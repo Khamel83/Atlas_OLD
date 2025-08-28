@@ -446,7 +446,7 @@ This system was **90% production-ready** but suffering from integration issues. 
 ```yaml
 id: ATLAS-COMPLETE-001
 title: "Replace all subprocess calls with bulletproof process manager"
-status: todo
+status: done
 priority: critical
 estimated_hours: 1.5
 depends_on: []
@@ -478,7 +478,7 @@ tags: [integration, security, subprocess]
 ```yaml
 id: ATLAS-COMPLETE-002
 title: "Stop 5GB log file growth with rotation and cleanup"
-status: todo
+status: done
 priority: critical
 estimated_hours: 0.5
 depends_on: []
@@ -517,7 +517,7 @@ tags: [logs, cleanup, infrastructure]
 ```yaml
 id: ATLAS-COMPLETE-003
 title: "Add pre-flight health checks to all services"
-status: todo
+status: done
 priority: high
 estimated_hours: 1.0
 depends_on: [ATLAS-COMPLETE-001]
