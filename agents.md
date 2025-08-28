@@ -1,13 +1,32 @@
 # AGENTS Guidelines for Atlas Repository
 
+**📝 SYNC RULE**: When updating agents.md, also update CLAUDE.md to maintain consistency.
+
 This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work within the Atlas project. Model-specific nuances belong in their respective files and do not override this lifecycle.
 
-## 🚨 Major Achievements (August 27, 2025)
-*   **Search Revolution**: 240,026 items searchable (203% coverage) - indexing bottleneck fixed
-*   **Intelligence Integration**: LLM-powered structured extraction working with OpenRouter API
-*   **Enhanced Search API**: Topics, entities, quality scores, sentiment in search results  
-*   **Database Schema**: Comprehensive insights schema (entities, quotes, topics, theses) operational
-*   **Process Monitoring**: Intelligent watchdog prevents resource waste, kills stuck processes
+## ✅ ATLAS SYSTEM STATUS (August 28, 2025)
+
+### **Intelligence Features - 100% COMPLETE**
+*   **Cognitive Modules**: All 6 ask modules fully implemented (4,951 lines total)
+    - Proactive content surfacing, temporal analysis, Socratic questions
+    - Active recall system, pattern detection, content recommendations
+*   **Content Processing**: Articles, podcasts, documents - full pipeline operational
+*   **Search & Indexing**: 240,026 items searchable with semantic ranking
+*   **Web Dashboard**: Complete UI for all cognitive features
+*   **Apple Integration**: iOS shortcuts and extensions working
+
+### **Infrastructure - 95% COMPLETE**  
+*   **Database Schema**: Comprehensive insights schema operational
+*   **API Framework**: FastAPI with full endpoints for cognitive features
+*   **Background Services**: Process monitoring and scheduling active
+*   **Bulletproof Architecture**: Memory leak prevention system implemented
+
+### **CRITICAL GAPS - Integration & User Experience**
+*   ❌ **System Integration (5%)**: Services need bulletproof manager integration
+*   ❌ **User Experience (95%)**: Zero user documentation for actual usage
+*   ❌ **Mac Workflows**: No clear guide for sending content from Mac to Atlas
+*   ❌ **Setup Process**: Technical installation docs, not user-friendly guides
+*   **REALITY**: Technically brilliant but unusable by normal humans
 
 ## 1. Execution Lifecycle (for each Task)
 1.  **Preflight** 

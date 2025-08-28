@@ -5,8 +5,8 @@ from collections import defaultdict, deque
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TASKS_MD = ROOT / "tasks.md"
 
-H = re.compile(r"^### [(?P<id>[^]]+)]s*(?P<title>.+)$")
-FIELD = re.compile(r"^**(?P<key>[^:]+):**s*(?P<val>.+)$")
+HDR = re.compile(r"^### \[(?P<id>[^\]]+)\]\s*(?P<title>.+)$")
+FIELD = re.compile(r"^\\*\\*(?P<key>[^:]+):\\*\\*\\s*(?P<val>.+)$")
 
 PRIO_ORDER = {"P0":0,"P1":1,"P2":2,"P3":3}
 STATUS_DONE = {"done"}

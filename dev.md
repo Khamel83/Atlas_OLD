@@ -121,5 +121,124 @@ class BackgroundService:
 - If terminal: stop and say **"come help me please user"**.
 - Keep runs idempotent; always update the index and append to the execution log.
 
+## Qwen Autonomous Execution Rules (Aug 2025)
+
+### **Task Structure Requirements for Autonomous Models**
+All tasks in `TASKS.md` must follow these rules for successful Qwen execution:
+
+#### **1. Concrete Deliverables Only**
+```yaml
+# ❌ BAD (vague, untestable)
+- "Create user-friendly documentation with screenshots"
+- "Test on real devices and gather feedback"
+
+# ✅ GOOD (concrete, verifiable)
+- "Create docs/user-guides/SETUP.md with sections: Installation (min 200 words), Configuration (min 150 words)"
+- "Generate browser bookmarklet JavaScript code and save to web/static/bookmarklets.js"
+```
+
+#### **2. Mandatory Verification Commands**
+Every task MUST include `verification_command` with bash tests:
+```yaml
+verification_command: |
+  test -f docs/user-guides/SETUP.md && 
+  wc -w docs/user-guides/SETUP.md | awk '{if($1<350) exit 1}' &&
+  grep -q "Installation" docs/user-guides/SETUP.md
+```
+
+#### **3. No Manual Testing or Device Access**
+Qwen cannot:
+- Test on iOS/macOS devices
+- Take screenshots or record videos  
+- Interact with browser extensions
+- Perform user experience testing
+- Access external APIs without credentials
+
+Replace with:
+- Code generation with examples
+- Documentation with code snippets
+- Automated file structure validation
+- Content verification via text analysis
+
+#### **4. Specific File Path Requirements**
+Always specify exact paths and directory structures:
+```yaml
+# ❌ BAD
+- "Create documentation files"
+
+# ✅ GOOD  
+- "Create docs/user-guides/MAC_GUIDE.md"
+- "Generate apple_shortcuts/shortcuts/save-to-atlas.shortcut"
+- "Update web/templates/dashboard.html with new sections"
+```
+
+#### **5. Content Specifications**
+Include minimum requirements for generated content:
+```yaml
+# Content requirements
+min_word_count: 500
+required_sections: ["Installation", "Configuration", "Troubleshooting"]
+required_code_blocks: ["JavaScript bookmarklet", "Python API example"]
+required_keywords: ["Atlas", "setup", "configuration"]
+```
+
+#### **6. Self-Validating Steps**
+Each step should be verifiable by the model itself:
+```bash
+# Good verification steps
+ls -la docs/user-guides/ | grep -c "\.md$" | awk '{if($1<5) exit 1}'  # At least 5 guides
+python3 -c "import json; json.load(open('config/settings.json'))"      # Valid JSON
+curl -s http://localhost:8000/health | grep -q "healthy"               # API responsive
+```
+
+#### **7. AgentOS Lifecycle Compliance**
+Follow the agents.md execution pattern:
+```yaml
+preflight_checks:
+  - "test -f .env || cp .env.template .env"
+  - "python3 -c 'import requests' || pip install requests"
+  
+git_workflow:
+  branch_name: "task/ATLAS-COMPLETE-XXX-description"
+  commit_prefix: "task(ATLAS-COMPLETE-XXX):"
+  
+post_completion:
+  - "git add . && git commit -m 'task(ATLAS-COMPLETE-XXX): completed task'"
+  - "python3 scripts/update_index.sh"
+```
+
+### **Task Quality Checklist**
+Before adding any task to `TASKS.md`, verify:
+
+- [ ] All steps are concrete file/code operations
+- [ ] Verification command tests actual deliverables  
+- [ ] No manual testing or device access required
+- [ ] File paths and structures explicitly specified
+- [ ] Content requirements quantified (word counts, sections)
+- [ ] Success criteria measurable via bash commands
+- [ ] Dependencies clearly listed in `depends_on`
+- [ ] AgentOS lifecycle steps included
+
+### **Common Anti-Patterns to Avoid**
+```yaml
+# ❌ These will fail in autonomous mode:
+- "Create engaging user experience"
+- "Test thoroughly on multiple devices"  
+- "Gather user feedback and iterate"
+- "Make it look professional"
+- "Optimize for best practices"
+- "Create compelling screenshots"
+- "Record demonstration videos"
+
+# ✅ Replace with concrete alternatives:
+- "Create docs/UX_GUIDE.md with 5 workflow examples (min 100 words each)"
+- "Generate test data in tests/fixtures/ and validate with pytest"
+- "Create docs/FAQ.md addressing 10 common user questions"
+- "Apply consistent CSS styling to web/static/css/main.css"
+- "Implement PEP 8 formatting and validate with ruff check"
+- "Generate ASCII diagrams in docs/ARCHITECTURE.md using text"
+- "Create step-by-step text tutorials with code examples"
+```
+
 ## North Star
 - Decisions prioritize Atlas mission/vision and reduce time to a durable, low-ops product.
