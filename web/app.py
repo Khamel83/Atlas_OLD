@@ -26,9 +26,6 @@ except ImportError:
 
 from helpers.metadata_manager import MetadataManager
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from cognitive_engine import CognitiveEngine
-
-
 # For demo: instantiate with default config (replace with real config/manager in production)
 def get_metadata_manager():
     try:
@@ -43,9 +40,6 @@ def get_metadata_manager():
 app = FastAPI(title="Atlas Cognitive Platform")
 
 templates = Jinja2Templates(directory="web/templates")
-
-# Initialize cognitive engine
-cognitive_engine = CognitiveEngine()
 
 # Path to the scheduler's SQLite job store (should match Atlas scheduler)
 JOBSTORE_PATH = os.path.join(
