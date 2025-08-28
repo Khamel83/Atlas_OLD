@@ -20,20 +20,28 @@ import sys
 import subprocess
 import secrets
 from datetime import datetime
+from helpers.bulletproof_process_manager import create_managed_process
 
 
 def run_command(cmd, description=""):
     """Run a shell command with error handling"""
     try:
         print(f"Executing: {description}")
-        result = subprocess.run(
-            cmd, shell=True, check=True, capture_output=True, text=True
+        process = create_managed_process(
+            cmd, description, shell=True, capture_output=True, text=True
         )
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         print(f"Success: {description}")
-        return result.stdout
+        return stdout
     except subprocess.CalledProcessError as e:
         print(f"Error executing: {description}")
         print(f"Error: {e.stderr}")
+        return None
+    except Exception as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e}")
         return None
 
 
@@ -317,8 +325,9 @@ def setup_scheduling():
 
     try:
         # Get current crontab
-        result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
-        current_crontab = result.stdout.strip()
+        process = create_managed_process(["crontab", "-l"], "get_crontab_scheduling")
+        stdout, stderr = process.communicate()
+        current_crontab = stdout.decode('utf-8').strip()
 
         # Check if weekly job already exists
         if "/home/ubuntu/dev/atlas/backup/local_sync.sh" in current_crontab:
@@ -337,7 +346,10 @@ def setup_scheduling():
             f.write(new_crontab + "\n")
 
         # Install new crontab
-        subprocess.run(["crontab", crontab_file], check=True)
+        process = create_managed_process(["crontab", crontab_file], "install_crontab_scheduling")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         print("Weekly backup cron job installed successfully")
 
     except subprocess.CalledProcessError as e:
@@ -466,8 +478,9 @@ log_message "Local backup cleanup completed"
 
     try:
         # Get current crontab
-        result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
-        current_crontab = result.stdout.strip()
+        process = create_managed_process(["crontab", "-l"], "get_crontab_cleanup")
+        stdout, stderr = process.communicate()
+        current_crontab = stdout.decode('utf-8').strip()
 
         # Check if cleanup job already exists
         if "/home/ubuntu/dev/atlas/backup/cleanup_local_backups.sh" in current_crontab:
@@ -486,7 +499,10 @@ log_message "Local backup cleanup completed"
             f.write(new_crontab + "\n")
 
         # Install new crontab
-        subprocess.run(["crontab", crontab_file], check=True)
+        process = create_managed_process(["crontab", crontab_file], "install_crontab_cleanup")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         print("Local cleanup cron job installed successfully")
 
     except subprocess.CalledProcessError as e:

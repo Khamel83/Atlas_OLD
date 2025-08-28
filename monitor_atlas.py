@@ -9,6 +9,7 @@ import os
 import json
 from pathlib import Path
 from datetime import datetime, timedelta
+from helpers.bulletproof_process_manager import create_managed_process
 
 def main():
     print(f"🔍 ATLAS REALITY CHECK - {datetime.now().strftime('%H:%M:%S')}")
@@ -50,8 +51,9 @@ def main():
     # 3. Background process activity
     import subprocess
     try:
-        result = subprocess.run(["ps", "aux"], capture_output=True, text=True)
-        atlas_processes = [line for line in result.stdout.split('\n') 
+        process = create_managed_process(["ps", "aux"], "check_ps_aux")
+        stdout, stderr = process.communicate()
+        atlas_processes = [line for line in stdout.decode('utf-8').split('\n') 
                           if 'python' in line and ('run.py' in line or 'atlas' in line)]
         print(f"🔄 BACKGROUND PROCESSES: {len(atlas_processes)} running")
         

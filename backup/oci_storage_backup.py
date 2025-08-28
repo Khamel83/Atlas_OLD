@@ -20,20 +20,28 @@ import sys
 import subprocess
 import json
 from datetime import datetime, timedelta
+from helpers.bulletproof_process_manager import create_managed_process
 
 
 def run_command(cmd, description=""):
     """Run a shell command with error handling"""
     try:
         print(f"Executing: {description}")
-        result = subprocess.run(
-            cmd, shell=True, check=True, capture_output=True, text=True
+        process = create_managed_process(
+            cmd, description, shell=True, capture_output=True, text=True
         )
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         print(f"Success: {description}")
-        return result.stdout
+        return stdout
     except subprocess.CalledProcessError as e:
         print(f"Error executing: {description}")
         print(f"Error: {e.stderr}")
+        return None
+    except Exception as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e}")
         return None
 
 
@@ -343,8 +351,9 @@ log_message "Backup cleanup completed"
 
     try:
         # Get current crontab
-        result = subprocess.run(["crontab", "-l"], capture_output=True, text=True)
-        current_crontab = result.stdout.strip()
+        process = create_managed_process(["crontab", "-l"], "get_crontab")
+        stdout, stderr = process.communicate()
+        current_crontab = stdout.decode('utf-8').strip()
 
         # Check if cleanup job already exists
         if "/home/ubuntu/dev/atlas/backup/cleanup_oci_backups.sh" in current_crontab:
@@ -363,7 +372,10 @@ log_message "Backup cleanup completed"
             f.write(new_crontab + "\n")
 
         # Install new crontab
-        subprocess.run(["crontab", crontab_file], check=True)
+        process = create_managed_process(["crontab", crontab_file], "install_crontab")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         print("OCI cleanup cron job installed successfully")
 
     except subprocess.CalledProcessError as e:

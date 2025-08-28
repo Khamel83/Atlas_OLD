@@ -8,6 +8,7 @@ import os
 import sys
 import json
 import subprocess
+from helpers.bulletproof_process_manager import create_managed_process
 from pathlib import Path
 from datetime import datetime
 
@@ -42,11 +43,17 @@ def strategic_commit(message):
 
     try:
         # Simple commit
-        subprocess.run(
-            "git add -A", shell=True, check=True, cwd="/home/ubuntu/dev/atlas"
+        process = create_managed_process(
+            "git add -A", "git_add_all", shell=True, cwd="/home/ubuntu/dev/atlas"
         )
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         commit_cmd = f'git commit -m "feat: {message}"'
-        subprocess.run(commit_cmd, shell=True, check=True, cwd="/home/ubuntu/dev/atlas")
+        process = create_managed_process(commit_cmd, "git_commit", shell=True, cwd="/home/ubuntu/dev/atlas")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         print("✅ Commit successful")
         return True
     except subprocess.CalledProcessError as e:
@@ -60,13 +67,11 @@ def implement_block(block_num, spec_file):
 
     cmd = f"python3 helpers/ai_block_implementer.py {block_num} {spec_file}"
     try:
-        result = subprocess.run(
-            cmd, shell=True, cwd="/home/ubuntu/dev/atlas", timeout=300
+        process = create_managed_process(
+            cmd, f"implement_block_{block_num}", shell=True, cwd="/home/ubuntu/dev/atlas", timeout=300
         )
-        return result.returncode == 0
-    except subprocess.TimeoutExpired:
-        print(f"❌ Block {block_num} implementation timed out")
-        return False
+        stdout, stderr = process.communicate()
+        return process.returncode == 0
     except Exception as e:
         print(f"❌ Block implementation failed: {e}")
         return False

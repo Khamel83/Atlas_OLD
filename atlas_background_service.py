@@ -13,6 +13,9 @@ import os
 import psutil
 from pathlib import Path
 from datetime import datetime
+import atexit
+from helpers.bulletproof_process_manager import get_manager, create_managed_process
+from helpers.resource_monitor import check_system_health
 
 class AtlasComprehensiveService:
     """A legacy version of the comprehensive Atlas background service."""
@@ -25,7 +28,12 @@ class AtlasComprehensiveService:
         self.log_dir.mkdir(exist_ok=True)
         self.log_file = self.log_dir / "comprehensive_service.log"
         self.project_root = Path(__file__).parent.resolve()
-        self.python_executable = str(self.project_root / "atlas_venv" / "bin" / "python3")
+        self.python_executable = str(self.project_root / "venv" / "bin" / "python3")
+
+        # Register cleanup on exit
+        atexit.register(self.cleanup_processes)
+        signal.signal(signal.SIGTERM, lambda s, f: self.cleanup_processes())
+        signal.signal(signal.SIGINT, lambda s, f: self.cleanup_processes())
 
     def log(self, message, level="INFO"):
         """Log with timestamp and level."""
@@ -36,36 +44,11 @@ class AtlasComprehensiveService:
             f.write(log_msg + '\n')
 
     def perform_preflight_checks(self) -> bool:
-        """Perform mandatory pre-flight safety checks."""
-        self.log("Performing pre-flight safety checks...")
-        # 1. Check for venv
-        if not Path(self.python_executable).exists():
-            self.log(f"CRITICAL: Python executable not found at {self.python_executable}. The 'atlas_venv' is required.", "CRITICAL")
+        """Perform mandatory pre-flight safety checks using resource_monitor."""
+        self.log("Performing pre-flight safety checks using resource_monitor...")
+        if not check_system_health():
+            self.log("System health check failed, aborting.", "CRITICAL")
             return False
-
-        # 2. Check disk space
-        try:
-            disk_usage = psutil.disk_usage(str(self.project_root))
-            free_gb = disk_usage.free / (1024**3)
-            if free_gb < 5.0:
-                self.log(f"PREFLIGHT FAILED: Low disk space ({free_gb:.2f}GB free). Halting.", "CRITICAL")
-                return False
-            self.log(f"Disk space check OK ({free_gb:.2f}GB free).")
-        except Exception as e:
-            self.log(f"PREFLIGHT FAILED: Could not check disk space: {e}", "CRITICAL")
-            return False
-
-        # 3. Check for huge log files
-        try:
-            large_logs = [f for f in self.log_dir.glob("*.log") if f.exists() and f.stat().st_size > 100 * 1024 * 1024]
-            if large_logs:
-                self.log(f"PREFLIGHT FAILED: Large log file(s) found: {large_logs}. Enforce log rotation.", "CRITICAL")
-                return False
-            self.log("Log size check OK.")
-        except Exception as e:
-            self.log(f"PREFLIGHT FAILED: Could not check log file sizes: {e}", "CRITICAL")
-            return False
-        
         self.log("All pre-flight checks passed.")
         return True
 
@@ -82,12 +65,14 @@ class AtlasComprehensiveService:
                 self.log(f"SKIP: Script not found - {script_full_path}", "WARNING")
                 return True # Return True to not count as a failure
             
-            process = subprocess.Popen(
+            process = create_managed_process(
                 command,
-                stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=self.project_root
+                description,
+                stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=self.project_root,
+                timeout=timeout
             )
             
-            stdout, stderr = process.communicate(timeout=timeout)
+            stdout, stderr = process.communicate() # Timeout is handled by create_managed_process
             
             if process.returncode == 0:
                 self.log(f"SUCCESS: {description} completed.")
@@ -96,10 +81,7 @@ class AtlasComprehensiveService:
                 self.log(f"ERROR: {description} failed. STDERR: {stderr[:500]}", "ERROR")
                 return False
                 
-        except subprocess.TimeoutExpired:
-            self.log(f"TIMEOUT: {description} exceeded {timeout}s timeout.", "ERROR")
-            return False
-        except Exception as e:
+        except Exception as e: # subprocess.TimeoutExpired is handled by create_managed_process
             self.log(f"EXCEPTION running {description}: {e}", "ERROR")
             return False
     
@@ -161,6 +143,12 @@ class AtlasComprehensiveService:
                 self.consecutive_failures += 1
                 self.log("Sleeping 5 minutes before retry...")
                 time.sleep(300)
+
+    def cleanup_processes(self):
+        """Cleanup all managed processes"""
+        manager = get_manager()
+        manager.cleanup_all()
+        self.log("🧹 All processes cleaned up")
 
 def main():
     """Main entry point"""

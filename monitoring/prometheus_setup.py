@@ -8,6 +8,7 @@ This module sets up Prometheus server on OCI VM for Atlas monitoring.
 import os
 import subprocess
 import sys
+from helpers.bulletproof_process_manager import create_managed_process
 
 def install_prometheus():
     """Install Prometheus server on OCI VM"""
@@ -15,34 +16,52 @@ def install_prometheus():
     
     try:
         # Download Prometheus
-        subprocess.run([
+        process = create_managed_process([
             "wget", 
             "https://github.com/prometheus/prometheus/releases/download/v2.45.0/prometheus-2.45.0.linux-amd64.tar.gz"
-        ], check=True)
+        ], "download_prometheus")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Extract
-        subprocess.run([
+        process = create_managed_process([
             "tar", "xvfz", "prometheus-2.45.0.linux-amd64.tar.gz"
-        ], check=True)
+        ], "extract_prometheus")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Move to /opt
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "mkdir", "-p", "/opt/prometheus"
-        ], check=True)
+        ], "mkdir_prometheus")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "cp", "-r", "prometheus-2.45.0.linux-amd64/*", "/opt/prometheus/"
-        ], check=True)
+        ], "cp_prometheus")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Create prometheus user
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "useradd", "--no-create-home", "--shell", "/bin/false", "prometheus"
-        ], check=True)
+        ], "useradd_prometheus")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Set permissions
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "chown", "-R", "prometheus:prometheus", "/opt/prometheus"
-        ], check=True)
+        ], "chown_prometheus")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         print("✅ Prometheus installed successfully")
         return True
@@ -82,9 +101,12 @@ scrape_configs:
             f.write(config_content)
         
         # Set ownership
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "chown", "prometheus:prometheus", "/opt/prometheus/prometheus.yml"
-        ], check=True)
+        ], "chown_prometheus_yml")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         print("✅ Prometheus configured successfully")
         return True
@@ -147,14 +169,20 @@ if __name__ == "__main__":
             f.write(exporter_content)
         
         # Make executable
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "chmod", "+x", "/opt/prometheus/atlas_metrics_exporter.py"
-        ], check=True)
+        ], "chmod_exporter")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Set ownership
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "chown", "prometheus:prometheus", "/opt/prometheus/atlas_metrics_exporter.py"
-        ], check=True)
+        ], "chown_exporter")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         print("✅ Atlas metrics exporter created successfully")
         return True
@@ -169,34 +197,52 @@ def setup_node_exporter():
     
     try:
         # Download Node Exporter
-        subprocess.run([
+        process = create_managed_process([
             "wget", 
             "https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.linux-amd64.tar.gz"
-        ], check=True)
+        ], "download_node_exporter")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Extract
-        subprocess.run([
+        process = create_managed_process([
             "tar", "xvfz", "node_exporter-1.6.1.linux-amd64.tar.gz"
-        ], check=True)
+        ], "extract_node_exporter")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Move to /opt
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "mkdir", "-p", "/opt/node_exporter"
-        ], check=True)
+        ], "mkdir_node_exporter")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "cp", "-r", "node_exporter-1.6.1.linux-amd64/*", "/opt/node_exporter/"
-        ], check=True)
+        ], "cp_node_exporter")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Create node_exporter user
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "useradd", "--no-create-home", "--shell", "/bin/false", "node_exporter"
-        ], check=True)
+        ], "useradd_node_exporter")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Set permissions
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "chown", "-R", "node_exporter:node_exporter", "/opt/node_exporter"
-        ], check=True)
+        ], "chown_node_exporter")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         print("✅ Node Exporter installed successfully")
         return True
@@ -243,10 +289,16 @@ WantedBy=multi-user.target
             f.write(service_content)
         
         # Reload systemd
-        subprocess.run(["sudo", "systemctl", "daemon-reload"], check=True)
+        process = create_managed_process(["sudo", "systemctl", "daemon-reload"], "systemctl_daemon_reload")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Enable service
-        subprocess.run(["sudo", "systemctl", "enable", "prometheus"], check=True)
+        process = create_managed_process(["sudo", "systemctl", "enable", "prometheus"], "systemctl_enable_prometheus")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         print("✅ Prometheus systemd service created successfully")
         return True

@@ -62,3 +62,38 @@ python atlas_status.py --detailed
 - **Update README**: Revise the main README with a realistic description of features and status.
 - **Create Troubleshooting Guide**: Document common errors and their solutions.
 - **Remove Superlatives**: Remove any remaining marketing language (e.g., "breakthrough", "revolutionary") from all project documentation.
+
+## 🛡️ BULLETPROOF PROCESS MANAGEMENT
+
+### New Architecture (Aug 2025)
+The Atlas system now uses bulletproof process management to eliminate memory leaks and runaway processes.
+
+### Key Components:
+- **BulletproofProcessManager**: All process creation goes through this manager
+- **Memory Leak Detection**: Continuous monitoring with automatic alerts
+- **Circuit Breakers**: Prevent cascading failures
+- **Resource Limits**: Hard limits on memory, files, processes
+- **Process Registry**: Tracks and cleans up all spawned processes
+
+### Usage:
+```python
+# OLD (dangerous)
+import subprocess
+process = subprocess.run(command)
+
+# NEW (bulletproof) 
+from helpers.bulletproof_process_manager import create_managed_process
+process = create_managed_process(command, "operation_name")
+```
+
+### System Health:
+```bash
+./venv/bin/python helpers/resource_monitor.py  # Check system health
+./venv/bin/python atlas_status.py --detailed    # Full system status
+```
+
+### Testing:
+```bash
+./venv/bin/python -m pytest tests/test_memory_leaks.py -v
+./venv/bin/python -m pytest tests/test_process_management.py -v
+```

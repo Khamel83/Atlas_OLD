@@ -20,6 +20,7 @@ import os
 import subprocess
 import sys
 import tempfile
+from helpers.bulletproof_process_manager import create_managed_process
 from pathlib import Path
 from unittest.mock import patch
 
@@ -70,15 +71,15 @@ class TestPhase1EndToEnd:
 
             # Test script execution (may fail but shouldn't crash)
             try:
-                result = subprocess.run(
+                process = create_managed_process(
                     [sys.executable, str(script_path), "--help"],
-                    capture_output=True,
-                    text=True,
+                    f"test_script_help_{script_path.stem}",
                     timeout=10,
                 )
-
+                stdout, stderr = process.communicate()
+                
                 # Script should either show help or exit gracefully
-                assert result.returncode in [
+                assert process.returncode in [
                     0,
                     1,
                     2,
@@ -199,16 +200,16 @@ class TestPhase1EndToEnd:
     def test_diagnostic_json_output(self):
         """Test that diagnostic tools can produce JSON output."""
         try:
-            result = subprocess.run(
+            process = create_managed_process(
                 [sys.executable, "scripts/diagnose_environment.py", "--json"],
-                capture_output=True,
-                text=True,
+                "diagnose_json_output",
                 timeout=30,
             )
+            stdout, stderr = process.communicate()
 
-            if result.stdout:
+            if stdout:
                 # Should be valid JSON
-                data = json.loads(result.stdout)
+                data = json.loads(stdout.decode('utf-8'))
                 assert "timestamp" in data
                 assert "critical_issues" in data
                 assert "total_issues" in data

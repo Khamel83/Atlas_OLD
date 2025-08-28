@@ -29,6 +29,7 @@ from helpers.instapaper_ingestor import InstapaperIngestor
 from helpers.transcription_openrouter import transcribe_audio as transcribe_openrouter
 from helpers.search_engine import SearchEngine
 from helpers.utils import log_info, log_error
+from helpers.bulletproof_process_manager import create_managed_process
 
 
 class TranscriptionModel:
@@ -289,8 +290,9 @@ class IngestionPrototypeTester:
                 "--language", "en"
             ]
             
-            result = subprocess.run(command, capture_output=True, text=True)
-            if result.returncode == 0:
+            process = create_managed_process(command, f"transcribe_{model_name}")
+            stdout, stderr = process.communicate()
+            if process.returncode == 0:
                 # Find the generated transcript file
                 generated_file = output_dir / f"{Path(audio_path).stem}.txt"
                 if generated_file.exists():

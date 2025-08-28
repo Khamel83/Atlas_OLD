@@ -10,6 +10,7 @@ import time
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, Any
+from helpers.bulletproof_process_manager import create_managed_process
 
 # Add modules path
 sys.path.append(str(Path(__file__).parent))
@@ -68,17 +69,16 @@ class EnhancedTranscriptDiscoveryService:
             # Use subprocess to run CLI with enhanced resolvers
             import subprocess
             
-            discovery_result = subprocess.run([
+            process = create_managed_process([
                 sys.executable, '-m', 'modules.podcasts.cli', 'discover', '--all'
-            ], capture_output=True, text=True, timeout=1800)  # Increased to 30 minutes
+            ], "podcast_cli_discover", timeout=1800)
+            stdout, stderr = process.communicate()
             
-            discovery_time = time.time() - discovery_start
-            
-            if discovery_result.returncode == 0:
+            if process.returncode == 0:
                 logger.info(f"✅ Enhanced discovery completed in {discovery_time:.1f}s")
                 
                 # Parse output for statistics
-                output_lines = discovery_result.stdout.split('\n')
+                output_lines = stdout.decode('utf-8').split('\n')
                 for line in output_lines:
                     if 'episodes,' in line and 'transcripts found' in line:
                         # Parse: "✅ Discovery complete: 31353 episodes, 221 transcripts found"
@@ -90,7 +90,7 @@ class EnhancedTranscriptDiscoveryService:
                         except:
                             pass
             else:
-                logger.error(f"❌ Enhanced discovery failed: {discovery_result.stderr}")
+                logger.error(f"❌ Enhanced discovery failed: {stderr.decode('utf-8')}")
                 self.stats['errors'] += 1
             
             logger.info("📥 Phase 2: Enhanced Transcript Fetching")
@@ -99,17 +99,16 @@ class EnhancedTranscriptDiscoveryService:
             fetch_start = time.time()
             
             try:
-                fetch_result = subprocess.run([
+                process = create_managed_process([
                     sys.executable, '-m', 'modules.podcasts.cli', 'fetch-transcripts', '--all'
-                ], capture_output=True, text=True, timeout=3600)  # Increased to 1 hour
+                ], "podcast_cli_fetch_transcripts", timeout=3600)
+                stdout, stderr = process.communicate()
                 
-                fetch_time = time.time() - fetch_start
-                
-                if fetch_result.returncode == 0:
+                if process.returncode == 0:
                     logger.info(f"✅ Enhanced transcript fetching completed in {fetch_time:.1f}s")
                     
                     # Parse output for fetch statistics
-                    output_lines = fetch_result.stdout.split('\n')
+                    output_lines = stdout.decode('utf-8').split('\n')
                     for line in output_lines:
                         if 'fetched,' in line:
                             # Parse fetch results
@@ -120,7 +119,7 @@ class EnhancedTranscriptDiscoveryService:
                             except:
                                 pass
                 else:
-                    logger.error(f"❌ Enhanced transcript fetching failed: {fetch_result.stderr}")
+                    logger.error(f"❌ Enhanced transcript fetching failed: {stderr.decode('utf-8')}")
                     self.stats['errors'] += 1
                     
             except subprocess.TimeoutExpired:
@@ -135,17 +134,17 @@ class EnhancedTranscriptDiscoveryService:
             # Run the existing podcast processing to integrate with Atlas
             integration_start = time.time()
             try:
-                import subprocess
-                result = subprocess.run([
+                process = create_managed_process([
                     sys.executable, 'process_podcasts.py'
-                ], capture_output=True, text=True, timeout=300)
+                ], "process_podcasts_integration", timeout=300)
+                stdout, stderr = process.communicate()
                 
                 integration_time = time.time() - integration_start
                 
-                if result.returncode == 0:
+                if process.returncode == 0:
                     logger.info(f"✅ Atlas integration completed in {integration_time:.1f}s")
                 else:
-                    logger.warning(f"⚠️ Atlas integration had issues: {result.stderr[:200]}")
+                    logger.warning(f"⚠️ Atlas integration had issues: {stderr.decode('utf-8')[:200]}")
                     
             except subprocess.TimeoutExpired:
                 logger.error("❌ Atlas integration timed out after 300s")
@@ -191,9 +190,15 @@ class EnhancedTranscriptDiscoveryService:
                 if Path(script).exists():
                     logger.info(f"   Trying: {script}")
                     try:
-                        result = subprocess.run([
+                        process = create_managed_process([
                             sys.executable, script, '--all'
-                        ], capture_output=True, text=True, timeout=180)
+                        ], f"fallback_discovery_{Path(script).stem}", timeout=180)
+                        stdout, stderr = process.communicate()
+                        
+                        if process.returncode == 0:
+                            logger.info(f"   ✅ {script} completed successfully")
+                        else:
+                            logger.warning(f"   ⚠️ {script} had issues: {stderr.decode('utf-8')[:100]}")
                         
                         if result.returncode == 0:
                             logger.info(f"   ✅ {script} completed successfully")

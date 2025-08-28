@@ -32,6 +32,7 @@ try:
     from helpers.config import load_config
     from helpers.podcast_ingestor import PodcastIngestor
     from helpers.utils import log_info, log_error
+    from helpers.bulletproof_process_manager import create_managed_process
     import psutil
     import feedparser
     import requests
@@ -163,8 +164,9 @@ class MacMiniOptimizer:
     def _detect_apple_silicon(self) -> bool:
         """Detect if running on Apple Silicon"""
         try:
-            result = subprocess.run(['uname', '-m'], capture_output=True, text=True)
-            return 'arm64' in result.stdout
+            process = create_managed_process(['uname', '-m'], 'detect_apple_silicon')
+            stdout, stderr = process.communicate()
+            return 'arm64' in stdout.decode('utf-8')
         except:
             return False
     
@@ -473,10 +475,11 @@ class BulkPodcastProcessor:
             if whisper_config.get("fp16"):
                 command.extend(["--fp16", "True"])
             
-            result = subprocess.run(command, capture_output=True, text=True)
+            process = create_managed_process(command, f"transcribe_{episode['title']}_{model}")
+            stdout, stderr = process.communicate()
             duration = time.time() - start_time
             
-            if result.returncode == 0:
+            if process.returncode == 0:
                 # Find generated transcript
                 generated_file = self.transcripts_dir / f"{Path(audio_path).stem}.txt"
                 if generated_file.exists():
@@ -507,7 +510,7 @@ class BulkPodcastProcessor:
             
             return {
                 "success": False,
-                "error": result.stderr,
+                "error": stderr.decode('utf-8'),
                 "model": model,
                 "duration": duration
             }
@@ -565,11 +568,11 @@ class BulkPodcastProcessor:
         package_name = f"podcast_bulk_{datetime.now().strftime('%Y%m%d_%H%M%S')}.tar.gz"
         
         # Create tarball
-        subprocess.run([
+        create_managed_process([
             "tar", "-czf", package_name,
             "-C", str(self.output_dir.parent),
             self.output_dir.name
-        ])
+        ], "package_for_upload")
         
         print(f"📦 Results packaged as: {package_name}")
         print(f"💾 Upload to VPS with: scp {package_name} user@vps:/path/to/atlas/")

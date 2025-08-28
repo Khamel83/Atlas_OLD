@@ -11,6 +11,7 @@ import os
 import subprocess
 import sys
 from pathlib import Path
+from helpers.bulletproof_process_manager import create_managed_process
 
 
 class GrafanaSetup:
@@ -35,27 +36,39 @@ deb https://packages.grafana.com/oss/deb stable main
         with open("/tmp/grafana.list", "w") as f:
             f.write(repo_content)
             
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "mv", "/tmp/grafana.list", 
             "/etc/apt/sources.list.d/grafana.list"
-        ], check=True)
+        ], "move_grafana_list")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Add Grafana GPG key
-        subprocess.run([
-            "wget", "-q", "-O", "-", 
+        get_key_process = create_managed_process([
+            "wget", "-q", "-O", "-",
             "https://packages.grafana.com/gpg.key"
-        ], check=True, capture_output=True)
-        
-        subprocess.run([
+        ], "get_grafana_key_for_add")
+        key_stdout, key_stderr = get_key_process.communicate()
+        if get_key_process.returncode != 0:
+            raise subprocess.CalledProcessError(get_key_process.returncode, get_key_process.args, output=key_stdout, stderr=key_stderr)
+
+        add_key_process = create_managed_process([
             "sudo", "apt-key", "add", "-"
-        ], check=True, input=subprocess.run([
-            "wget", "-q", "-O", "-", 
-            "https://packages.grafana.com/gpg.key"
-        ], capture_output=True).stdout)
+        ], "add_grafana_key", stdin=subprocess.PIPE)
+        add_key_stdout, add_key_stderr = add_key_process.communicate(input=key_stdout)
+        if add_key_process.returncode != 0:
+            raise subprocess.CalledProcessError(add_key_process.returncode, add_key_process.args, output=add_key_stdout, stderr=add_key_stderr)
         
         # Update package list and install Grafana
-        subprocess.run(["sudo", "apt-get", "update"], check=True)
-        subprocess.run(["sudo", "apt-get", "install", "-y", "grafana"], check=True)
+        process = create_managed_process(["sudo", "apt-get", "update"], "apt_update")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
+        process = create_managed_process(["sudo", "apt-get", "install", "-y", "grafana"], "install_grafana")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         print("✓ Grafana installed successfully")
         
@@ -65,7 +78,10 @@ deb https://packages.grafana.com/oss/deb stable main
         
         # Create directory for dashboard JSON files
         dashboards_dir = f"{self.data_dir}/dashboards"
-        subprocess.run(["sudo", "mkdir", "-p", dashboards_dir], check=True)
+        process = create_managed_process(["sudo", "mkdir", "-p", dashboards_dir], "create_dashboards_dir")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         # Atlas overview dashboard
         atlas_overview_dashboard = """
@@ -653,11 +669,14 @@ callback_url =
             f.write(grafana_config)
             
         # Set permissions
-        subprocess.run([
+        process = create_managed_process([
             "sudo", "chown", "-R", 
             f"root:{self.grafana_group}",
             self.config_dir
-        ], check=True)
+        ], "chown_config_dir")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         print("✓ Grafana configured successfully")
         
@@ -675,7 +694,10 @@ callback_url =
         print("Creating systemd service...")
         
         # Enable and start Grafana service
-        subprocess.run(["sudo", "systemctl", "enable", "grafana-server"], check=True)
+        process = create_managed_process(["sudo", "systemctl", "enable", "grafana-server"], "enable_grafana_service")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         print("✓ Systemd service created successfully")
         
@@ -683,7 +705,10 @@ callback_url =
         """Start Grafana service"""
         print("Starting service...")
         
-        subprocess.run(["sudo", "systemctl", "start", "grafana-server"], check=True)
+        process = create_managed_process(["sudo", "systemctl", "start", "grafana-server"], "start_grafana_service")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         
         print("✓ Service started successfully")
         
@@ -693,12 +718,13 @@ callback_url =
         
         # Check if service is running
         try:
-            grafana_status = subprocess.run(
-                ["sudo", "systemctl", "is-active", "grafana-server"], 
-                capture_output=True, text=True
+            process = create_managed_process(
+                ["sudo", "systemctl", "is-active", "grafana-server"],
+                "check_grafana_status"
             )
+            stdout, stderr = process.communicate()
             
-            if grafana_status.stdout.strip() == "active":
+            if stdout.decode('utf-8').strip() == "active":
                 print("✓ Grafana service is running")
                 return True
             else:

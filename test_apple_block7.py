@@ -10,6 +10,7 @@ import json
 import subprocess
 from pathlib import Path
 from datetime import datetime
+from helpers.bulletproof_process_manager import create_managed_process
 
 
 class AppleIntegrationTester:
@@ -87,26 +88,25 @@ class AppleIntegrationTester:
         else:
             # Actually on macOS - test shortcuts command
             try:
-                result = subprocess.run(
+                process = create_managed_process(
                     ["shortcuts", "list"], 
-                    capture_output=True, 
-                    text=True, 
+                    "check_macos_shortcuts", 
                     timeout=10
                 )
+                stdout, stderr = process.communicate()
                 
-                if result.returncode == 0:
-                    shortcuts_count = len(result.stdout.strip().split('\n'))
+                if process.returncode == 0:
+                    shortcuts_count = len(stdout.decode('utf-8').strip().split('\n'))
                     print(f"✅ macOS shortcuts available: {shortcuts_count} shortcuts found")
                     return True
                 else:
-                    print(f"❌ Shortcuts command failed: {result.stderr}")
+                    print(f"❌ Shortcuts command failed: {stderr.decode('utf-8')}")
                     return False
-                    
-            except subprocess.TimeoutExpired:
-                print("⏰ Shortcuts command timed out")
-                return False
             except FileNotFoundError:
                 print("❌ Shortcuts command not found")
+                return False
+            except Exception as e:
+                print(f"❌ Error checking shortcuts: {e}")
                 return False
     
     def test_voice_processing_framework(self) -> bool:

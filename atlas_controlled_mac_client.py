@@ -13,6 +13,7 @@ from pathlib import Path
 import tempfile
 import urllib.request
 import hashlib
+from helpers.bulletproof_process_manager import create_managed_process
 
 class AtlasWorkerClient:
     def __init__(self, atlas_url, api_key=None, worker_id=None):
@@ -180,7 +181,7 @@ class AtlasWorkerClient:
         
         try:
             # Download audio with better options
-            result = subprocess.run([
+            process = create_managed_process([
                 'yt-dlp',
                 '--extract-audio',
                 '--audio-format', 'mp3', 
@@ -188,7 +189,11 @@ class AtlasWorkerClient:
                 '--output', str(temp_file),
                 '--no-playlist',
                 url
-            ], check=True, capture_output=True, text=True, timeout=1200)  # 20min timeout
+            ], "yt_dlp_download", timeout=1200)
+            stdout, stderr = process.communicate()
+            
+            if process.returncode != 0:
+                raise Exception(f"YouTube download failed: {stderr.decode('utf-8')}")
             
             # Find the actual downloaded file
             downloaded_files = list(self.temp_dir.glob(f"youtube_{job['id']}.*"))
@@ -221,14 +226,18 @@ class AtlasWorkerClient:
     def transcribe_with_whisper(self, audio_path):
         """Transcribe audio using whisper.cpp"""
         try:
-            result = subprocess.run([
+            process = create_managed_process([
                 'whisper',
                 str(audio_path),
                 '--language', 'en',
                 '--model', 'base',
                 '--output_format', 'txt',
                 '--output_dir', '/tmp'
-            ], capture_output=True, text=True, timeout=600)  # 10min timeout
+            ], "whisper_transcribe", timeout=600)
+            stdout, stderr = process.communicate()
+            
+            if process.returncode != 0:
+                raise Exception(f"Whisper failed: {stderr.decode('utf-8')}")
             
             if result.returncode != 0:
                 raise Exception(f"Whisper failed: {result.stderr}")
@@ -285,7 +294,7 @@ class AtlasWorkerClient:
                 'capabilities': ['transcription', 'youtube', 'podcast'],
                 'platform': 'macos',
                 'whisper_available': True,
-                'ytdlp_available': subprocess.run(['which', 'yt-dlp'], capture_output=True).returncode == 0
+                'ytdlp_available': create_managed_process(['which', 'yt-dlp'], 'check_ytdlp_available').wait() == 0
             }
             
             response = requests.post(

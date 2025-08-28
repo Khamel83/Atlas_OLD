@@ -10,7 +10,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 PID_FILE="$PROJECT_ROOT/logs/atlas_service.pid"
 SERVICE_SCRIPT="$PROJECT_ROOT/atlas_service_manager.py"
-PYTHON_EXEC="$PROJECT_ROOT/venv/bin/python3"
+PYTHON_EXEC="$PROJECT_ROOT/atlas_venv/bin/python3"
 
 # Ensure the logs directory exists
 mkdir -p "$PROJECT_ROOT/logs"

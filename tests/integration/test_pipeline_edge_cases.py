@@ -1,5 +1,6 @@
 import os
 import subprocess
+from helpers.bulletproof_process_manager import create_managed_process
 from unittest.mock import patch
 
 import pytest
@@ -17,10 +18,11 @@ def dummy_env(tmp_path):
 def test_pipeline_entrypoint_with_missing_config(tmp_path):
     # Simulate missing config file
     with patch("builtins.open", side_effect=FileNotFoundError):
-        result = subprocess.run(
-            ["python3", "ingest/ingest_main.py"], capture_output=True, text=True
+        process = create_managed_process(
+            ["python3", "ingest/ingest_main.py"], "ingest_main_missing_config"
         )
-        assert "config" in result.stderr.lower() or result.returncode != 0
+        stdout, stderr = process.communicate()
+        assert "config" in stderr.decode('utf-8').lower() or process.returncode != 0
 
 
 def test_pipeline_with_missing_output_dir(tmp_path):
@@ -29,10 +31,11 @@ def test_pipeline_with_missing_output_dir(tmp_path):
     if os.path.exists(output_dir):
         os.rmdir(output_dir)
     with patch("helpers.config.get_config", return_value={"output_path": output_dir}):
-        result = subprocess.run(
-            ["python3", "ingest/ingest_main.py"], capture_output=True, text=True
+        process = create_managed_process(
+            ["python3", "ingest/ingest_main.py"], "ingest_main_missing_output_dir"
         )
-        assert "output" in result.stderr.lower() or result.returncode != 0
+        stdout, stderr = process.communicate()
+        assert "output" in stderr.decode('utf-8').lower() or process.returncode != 0
 
 
 def test_scheduler_job_persistence_and_rlock():

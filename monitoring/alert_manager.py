@@ -22,7 +22,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 import subprocess
-import sys
+import logging
+from helpers.bulletproof_process_manager import create_managed_process
 
 # Alert configuration
 ALERT_CONFIG = {
@@ -91,14 +92,15 @@ class AlertManager:
         """Check disk usage and send alerts if thresholds are exceeded"""
         try:
             # Get disk usage
-            result = subprocess.run(
-                ["df", "/"], capture_output=True, text=True, check=True
+            process = create_managed_process(
+                ["df", "/"], "get_disk_usage", capture_output=True, text=True, check=True
             )
-            lines = result.stdout.strip().split("\n")
+            stdout, stderr = process.communicate()
+            lines = stdout.strip().split("\n")
             if len(lines) > 1:
                 # Parse disk usage percentage
                 usage_info = lines[1].split()
-                usage_percent = int(usage_info[4].rstrip("%"))
+                usage_percent = int(usage_info[4].rstrip("%" ))
 
                 # Check thresholds
                 if usage_percent >= self.config["thresholds"]["disk_usage_critical"]:
@@ -111,7 +113,7 @@ CRITICAL ALERT: Disk usage has reached {usage_percent}%
 Immediate action is required to prevent system failure.
 
 Current disk usage: {usage_percent}%
-Critical threshold: {self.config["thresholds"]["disk_usage_critical"]}%
+Critical threshold: {self.config["thresholds"]["disk_usage_critical"]}
 
 Please free up disk space immediately.
 """
@@ -127,8 +129,8 @@ WARNING: Disk usage has reached {usage_percent}%
 Consider freeing up disk space to prevent critical issues.
 
 Current disk usage: {usage_percent}%
-Warning threshold: {self.config["thresholds"]["disk_usage_warning"]}%
-Critical threshold: {self.config["thresholds"]["disk_usage_critical"]}%
+Warning threshold: {self.config["thresholds"]["disk_usage_warning"]}
+Critical threshold: {self.config["thresholds"]["disk_usage_critical"]}
 """
                         self.send_email(subject, body)
                         self.alert_state[alert_key] = True
@@ -146,17 +148,18 @@ Critical threshold: {self.config["thresholds"]["disk_usage_critical"]}%
 
         for service in services:
             try:
-                result = subprocess.run(
-                    ["systemctl", "is-active", service], capture_output=True, text=True
+                process = create_managed_process(
+                    ["systemctl", "is-active", service], "check_service_status", capture_output=True, text=True
                 )
-                if result.stdout.strip() != "active":
+                stdout, stderr = process.communicate()
+                if stdout.strip() != "active":
                     alert_key = f"service_down_{service}"
                     if not self.alert_state.get(alert_key, False):
                         subject = f"CRITICAL ALERT: Service {service} is DOWN"
                         body = f"""
 CRITICAL ALERT: Service {service} is not running
 
-The {service} service is in {result.stdout.strip()} state.
+The {service} service is in {stdout.strip()} state.
 This may affect system monitoring and functionality.
 
 Please check and restart the service immediately.
@@ -176,22 +179,26 @@ Please check and restart the service immediately.
             hostname = os.uname().nodename
 
             # Get uptime
-            uptime_result = subprocess.run(["uptime"], capture_output=True, text=True)
-            uptime = uptime_result.stdout.strip()
+            process = create_managed_process(["uptime"], "get_uptime", capture_output=True, text=True)
+            stdout, stderr = process.communicate()
+            uptime = stdout.strip()
 
             # Get disk usage
-            disk_result = subprocess.run(
-                ["df", "-h", "/"], capture_output=True, text=True
+            process = create_managed_process(
+                ["df", "-h", "/"], "get_disk_usage_summary", capture_output=True, text=True
             )
-            disk_usage = disk_result.stdout.strip()
+            stdout, stderr = process.communicate()
+            disk_usage = stdout.strip()
 
             # Get memory usage
-            mem_result = subprocess.run(["free", "-h"], capture_output=True, text=True)
-            memory_usage = mem_result.stdout.strip()
+            process = create_managed_process(["free", "-h"], "get_memory_usage_summary", capture_output=True, text=True)
+            stdout, stderr = process.communicate()
+            memory_usage = stdout.strip()
 
             # Get top processes
-            top_result = subprocess.run(["top", "-bn1"], capture_output=True, text=True)
-            top_processes = "\n".join(top_result.stdout.strip().split("\n")[:10])
+            process = create_managed_process(["top", "-bn1"], "get_top_processes_summary", capture_output=True, text=True)
+            stdout, stderr = process.communicate()
+            top_processes = "\n".join(stdout.strip().split("\n")[:10])
 
             subject = f"Weekly Atlas System Summary - {hostname}"
             body = f"""

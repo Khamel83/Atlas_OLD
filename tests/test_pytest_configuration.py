@@ -17,6 +17,7 @@ import sys
 from pathlib import Path
 
 import pytest
+from helpers.bulletproof_process_manager import create_managed_process
 
 
 class TestPytestConfiguration:
@@ -62,23 +63,23 @@ class TestPytestConfiguration:
     def test_pytest_discovers_test_files(self):
         """Test that pytest can discover test files in expected locations."""
         # Run pytest in collection-only mode to check test discovery
-        result = subprocess.run(
+        process = create_managed_process(
             [sys.executable, "-m", "pytest", "--collect-only", "-q"],
-            capture_output=True,
-            text=True,
+            "pytest_collect_only",
             cwd=Path.cwd(),
         )
-
+        stdout, stderr = process.communicate()
+        
         # Should not fail catastrophically
-        assert result.returncode in [
+        assert process.returncode in [
             0,
             1,
             2,
-        ], f"pytest test discovery failed catastrophically: {result.stderr}"
+        ], f"pytest test discovery failed catastrophically: {stderr.decode('utf-8')}"
 
         # Should discover some tests
-        if result.returncode == 0:
-            output = result.stdout
+        if process.returncode == 0:
+            output = stdout.decode('utf-8')
             assert "collected" in output, "pytest should discover and collect tests"
 
     def test_test_directory_structure(self):
@@ -158,12 +159,12 @@ class TestPytestDiscovery:
         import time
 
         start_time = time.time()
-        subprocess.run(
+        process = create_managed_process(
             [sys.executable, "-m", "pytest", "--collect-only", "-q"],
-            capture_output=True,
-            text=True,
+            "pytest_collect_performance",
             timeout=30,
         )
+        stdout, stderr = process.communicate()
         elapsed = time.time() - start_time
 
         # Test collection should complete within 30 seconds
@@ -174,18 +175,18 @@ class TestPytestDiscovery:
         # Try running a known working test file
         test_file = "tests/test_enhanced_validation.py"
         if Path(test_file).exists():
-            result = subprocess.run(
+            process = create_managed_process(
                 [sys.executable, "-m", "pytest", test_file, "-v", "--tb=short"],
-                capture_output=True,
-                text=True,
+                f"pytest_run_individual_{Path(test_file).stem}",
                 timeout=60,
             )
+            stdout, stderr = process.communicate()
 
             # Should not crash completely
-            assert result.returncode in [
+            assert process.returncode in [
                 0,
                 1,
-            ], f"Individual test file execution failed: {result.stderr}"
+            ], f"Individual test file execution failed: {stderr.decode('utf-8')}"
 
 
 class TestPytestPlugins:
@@ -194,35 +195,35 @@ class TestPytestPlugins:
     def test_pytest_plugins_loadable(self):
         """Test that required pytest plugins can be loaded."""
         # Test that pytest can load without plugin conflicts
-        result = subprocess.run(
+        process = create_managed_process(
             [sys.executable, "-m", "pytest", "--version"],
-            capture_output=True,
-            text=True,
+            "pytest_version",
         )
+        stdout, stderr = process.communicate()
 
-        assert result.returncode == 0, f"pytest --version failed: {result.stderr}"
+        assert process.returncode == 0, f"pytest --version failed: {stderr.decode('utf-8')}"
         assert (
-            "pytest" in result.stdout
+            "pytest" in stdout.decode('utf-8')
         ), "pytest version output should contain 'pytest'"
 
     def test_pytest_mock_plugin_available(self):
         """Test that pytest-mock plugin is available if installed."""
         try:
-            result = subprocess.run(
+            process = create_managed_process(
                 [sys.executable, "-c", "import pytest_mock"],
-                capture_output=True,
-                text=True,
+                "import_pytest_mock",
             )
+            stdout, stderr = process.communicate()
 
             if result.returncode == 0:
                 # If pytest-mock is available, test it works with pytest
-                test_result = subprocess.run(
+                test_process = create_managed_process(
                     [sys.executable, "-m", "pytest", "--version"],
-                    capture_output=True,
-                    text=True,
+                    "pytest_with_mock",
                 )
+                test_stdout, test_stderr = test_process.communicate()
                 assert (
-                    test_result.returncode == 0
+                    test_process.returncode == 0
                 ), "pytest should work with pytest-mock"
         except ImportError:
             pytest.skip("pytest-mock not installed")
@@ -232,14 +233,14 @@ class TestPytestPlugins:
         try:
 
             # If anyio plugin is available, pytest should still work
-            subprocess.run(
+            process = create_managed_process(
                 [sys.executable, "-m", "pytest", "--collect-only"],
-                capture_output=True,
-                text=True,
+                "pytest_collect_anyio",
                 timeout=30,
             )
-
-            assert result.returncode in [
+            stdout, stderr = process.communicate()
+            
+            assert process.returncode in [
                 0,
                 1,
                 2,
@@ -264,19 +265,19 @@ class TestPytestExecution:
     def test_pytest_python_path(self):
         """Test that pytest can access project modules."""
         # Test Python path configuration
-        result = subprocess.run(
+        process = create_managed_process(
             [
                 sys.executable,
                 "-c",
-                "import sys; print('\\n'.join(sys.path)); import helpers.config",
+                "import sys; print('\n'.join(sys.path)); import helpers.config",
             ],
-            capture_output=True,
-            text=True,
+            "check_python_path",
         )
+        stdout, stderr = process.communicate()
 
         assert (
-            result.returncode == 0
-        ), f"Python path configuration issue: {result.stderr}"
+            process.returncode == 0
+        ), f"Python path configuration issue: {stderr.decode('utf-8')}"
 
     def test_pytest_environment_isolation(self):
         """Test that pytest runs in proper environment isolation."""
@@ -294,14 +295,14 @@ def test_environment():
         temp_test.write_text(simple_test)
 
         try:
-            result = subprocess.run(
+            process = create_managed_process(
                 [sys.executable, "-m", "pytest", str(temp_test), "-v"],
-                capture_output=True,
-                text=True,
+                "pytest_env_isolation",
                 timeout=30,
             )
+            stdout, stderr = process.communicate()
 
-            assert result.returncode == 0, f"Environment test failed: {result.stderr}"
+            assert process.returncode == 0, f"Environment test failed: {stderr.decode('utf-8')}"
 
         finally:
             if temp_test.exists():

@@ -23,20 +23,33 @@ import subprocess
 import gzip
 from cryptography.fernet import Fernet
 from datetime import datetime
+from helpers.bulletproof_process_manager import create_managed_process
 
 def run_command(cmd, description=""):
     """Run a shell command with error handling"""
     try:
         print(f"Executing: {description}")
-        result = subprocess.run(cmd, shell=True, check=True, capture_output=True, text=True)
+        process = create_managed_process(
+            cmd, description, shell=True, capture_output=True, text=True
+        )
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         print(f"Success: {description}")
-        return result.stdout
+        return stdout
     except subprocess.CalledProcessError as e:
         print(f"Error executing: {description}")
-        print(f"Error: {e.stderr}")
+        print(f"Error: {e.stderr}
+")
+        return None
+    except Exception as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e}
+")
         return None
 
 def load_encryption_key():
+
     """Load encryption key from file"""
     key_path = os.environ.get("ATLAS_BACKUP_KEY_PATH", str(Path(__file__).parent / ".backup_key"))
     

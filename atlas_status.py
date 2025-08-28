@@ -227,7 +227,7 @@ def check_system_health():
         warnings = []
 
         # Check background service
-        bg_service = check_process_running("atlas_background_service.py")
+        bg_service = check_process_running("atlas_service_manager.py")
         if not bg_service:
             issues.append("Background service not running")
         elif bg_service["running_time"].total_seconds() > 86400:  # 24 hours
@@ -474,11 +474,11 @@ def development_startup():
             safe_print("   ❌ Secrets file missing - run setup script", Colors.RED)
 
         # Check virtual environment
-        if "atlas_venv" in sys.executable or "VIRTUAL_ENV" in os.environ:
+        if "venv" in sys.executable or "VIRTUAL_ENV" in os.environ:
             safe_print("   ✅ Virtual environment active", Colors.GREEN)
         else:
             safe_print("   ⚠️  Virtual environment not detected", Colors.YELLOW)
-            safe_print("   💡 Run: source atlas_venv/bin/activate", Colors.CYAN)
+            safe_print("   💡 Run: source venv/bin/activate", Colors.CYAN)
 
         # Quick commands reminder
         safe_print("\n💡 QUICK COMMANDS", Colors.PURPLE, bold=True)
@@ -527,7 +527,7 @@ def main():
         print(f"❌ Script error: {e}")
         print("\n✅ EMERGENCY COMMANDS:")
         print("   source load_secrets.sh")
-        print("   source atlas_venv/bin/activate")
+        print("   source venv/bin/activate")
         print("   python run.py --help")
         print("\n🔧 Check background service:")
         print("   ./scripts/start_atlas_service.sh status")

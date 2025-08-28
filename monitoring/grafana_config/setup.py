@@ -16,20 +16,28 @@ import os
 import subprocess
 import sys
 import json
+from helpers.bulletproof_process_manager import create_managed_process
 
 
 def run_command(cmd, description=""):
     """Run a shell command with error handling"""
     try:
         print(f"Executing: {description}")
-        result = subprocess.run(
-            cmd, shell=True, check=True, capture_output=True, text=True
+        process = create_managed_process(
+            cmd, description, shell=True, capture_output=True, text=True
         )
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
         print(f"Success: {description}")
-        return result.stdout
+        return stdout
     except subprocess.CalledProcessError as e:
         print(f"Error executing: {description}")
         print(f"Error: {e.stderr}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"Error executing: {description}")
+        print(f"Error: {e}")
         sys.exit(1)
 
 

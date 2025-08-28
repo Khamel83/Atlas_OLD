@@ -20,6 +20,7 @@ import sqlite3
 import os
 import subprocess
 from datetime import datetime, timedelta
+from helpers.bulletproof_process_manager import create_managed_process
 
 
 class AtlasMetricsExporter(BaseHTTPRequestHandler):
@@ -312,9 +313,11 @@ class AtlasMetricsExporter(BaseHTTPRequestHandler):
 
         try:
             # Get disk usage
-            df_result = subprocess.run(["df", "/"], capture_output=True, text=True)
-            if df_result.returncode == 0:
-                lines = df_result.stdout.strip().split("\n")
+            process = create_managed_process(["df", "/"], "get_disk_usage")
+            stdout, stderr = process.communicate()
+            df_result_stdout = stdout.decode('utf-8')
+            if process.returncode == 0:
+                lines = df_result_stdout.strip().split("\n")
                 if len(lines) > 1:
                     usage_info = lines[1].split()
                     disk_usage_percent = int(usage_info[4].rstrip("%"))
@@ -326,9 +329,11 @@ class AtlasMetricsExporter(BaseHTTPRequestHandler):
                     }
 
             # Get memory usage
-            free_result = subprocess.run(["free"], capture_output=True, text=True)
-            if free_result.returncode == 0:
-                lines = free_result.stdout.strip().split("\n")
+            process = create_managed_process(["free"], "get_memory_usage")
+            stdout, stderr = process.communicate()
+            free_result_stdout = stdout.decode('utf-8')
+            if process.returncode == 0:
+                lines = free_result_stdout.strip().split("\n")
                 if len(lines) > 1:
                     # Parse memory line (line 2)
                     mem_info = lines[1].split()
@@ -448,9 +453,11 @@ class AtlasMetricsExporter(BaseHTTPRequestHandler):
     def check_disk_space(self):
         """Check if disk space is sufficient"""
         try:
-            df_result = subprocess.run(["df", "/"], capture_output=True, text=True)
-            if df_result.returncode == 0:
-                lines = df_result.stdout.strip().split("\n")
+            process = create_managed_process(["df", "/"], "check_disk_space")
+            stdout, stderr = process.communicate()
+            df_result_stdout = stdout.decode('utf-8')
+            if process.returncode == 0:
+                lines = df_result_stdout.strip().split("\n")
                 if len(lines) > 1:
                     usage_info = lines[1].split()
                     usage_percent = int(usage_info[4].rstrip("%"))
@@ -463,10 +470,11 @@ class AtlasMetricsExporter(BaseHTTPRequestHandler):
         """Check if Atlas background service is running"""
         try:
             # Check if the background service process is running
-            result = subprocess.run(
-                ["pgrep", "-f", "atlas_background"], capture_output=True, text=True
+            process = create_managed_process(
+                ["pgrep", "-f", "atlas_background"], "check_background_service"
             )
-            return result.returncode == 0
+            stdout, stderr = process.communicate()
+            return process.returncode == 0
         except:
             return False
 

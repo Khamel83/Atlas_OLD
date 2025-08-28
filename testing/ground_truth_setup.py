@@ -11,6 +11,7 @@ import json
 import requests
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
+from helpers.bulletproof_process_manager import create_managed_process
 
 from helpers.utils import log_info, log_error
 
@@ -246,9 +247,12 @@ class GroundTruthSetup:
             
             # Option 1: macOS 'say' command
             try:
-                subprocess.run([
+                process = create_managed_process([
                     "say", "-v", "Alex", "-o", str(audio_path), test_text
-                ], check=True, capture_output=True)
+                ], "tts_say")
+                stdout, stderr = process.communicate()
+                if process.returncode != 0:
+                    raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
                 tts_success = True
                 log_info("ground_truth.log", "Created synthetic audio using macOS 'say'")
             except (subprocess.CalledProcessError, FileNotFoundError):
@@ -257,9 +261,12 @@ class GroundTruthSetup:
             # Option 2: espeak (Linux)
             if not tts_success:
                 try:
-                    subprocess.run([
+                    process = create_managed_process([
                         "espeak", "-w", str(audio_path), test_text
-                    ], check=True, capture_output=True)
+                    ], "tts_espeak")
+                    stdout, stderr = process.communicate()
+                    if process.returncode != 0:
+                        raise subprocess.CalledProcessError(process.returncode, process.args, output=stdout, stderr=stderr)
                     tts_success = True
                     log_info("ground_truth.log", "Created synthetic audio using espeak")
                 except (subprocess.CalledProcessError, FileNotFoundError):

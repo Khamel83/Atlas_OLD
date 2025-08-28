@@ -22,6 +22,7 @@ import subprocess
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Any, Tuple
+from helpers.bulletproof_process_manager import create_managed_process
 
 # Add parent directory for imports
 sys.path.insert(0, str(Path(__file__).parent))
@@ -111,10 +112,10 @@ class AtlasSystemTest:
         try:
             # Start API server in background
             print("  Starting API server for testing...")
-            api_process = subprocess.Popen([
+            api_process = create_managed_process([
                 sys.executable, "-m", "uvicorn", 
                 "api.main:app", "--host", "127.0.0.1", "--port", "8000"
-            ], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            ], "api_server_test", stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             
             # Wait for server to start
             time.sleep(5)

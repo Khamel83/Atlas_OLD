@@ -7,6 +7,7 @@ Quick script to start the process watchdog daemon.
 
 import subprocess
 import sys
+from helpers.bulletproof_process_manager import create_managed_process
 from pathlib import Path
 
 def main():
@@ -22,10 +23,10 @@ def main():
     
     try:
         # Start as daemon with 3-minute check intervals
-        subprocess.run([
+        create_managed_process([
             sys.executable, str(script_path), 
             "--daemon", "--interval", "3"
-        ])
+        ], "start_watchdog_daemon")
     except KeyboardInterrupt:
         print("\n👋 Watchdog stopped")
     except Exception as e:

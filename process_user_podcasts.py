@@ -8,6 +8,7 @@ import subprocess
 import time
 from pathlib import Path
 from datetime import datetime
+from helpers.bulletproof_process_manager import create_managed_process
 
 class UserPodcastProcessor:
     """Process podcasts according to user's detailed preferences"""
@@ -101,18 +102,16 @@ class UserPodcastProcessor:
             
             print(f"   🚀 Running: {' '.join(cmd[:6])}...")
             
-            result = subprocess.run(cmd, timeout=600, capture_output=True, text=True)
+            try:
+            process = create_managed_process(cmd, f"process_podcast_{podcast_name}", timeout=600)
+            stdout, stderr = process.communicate()
             
-            if result.returncode == 0:
+            if process.returncode == 0:
                 print(f"   ✅ SUCCESS: Processed {podcast_name}")
                 return True
             else:
-                print(f"   ❌ ERROR: {result.stderr[:100] if result.stderr else 'Unknown error'}")
+                print(f"   ❌ ERROR: {stderr.decode('utf-8')[:100] if stderr else 'Unknown error'}")
                 return False
-                
-        except subprocess.TimeoutExpired:
-            print(f"   ⏱️  TIMEOUT: Processing took too long")
-            return False
         except Exception as e:
             print(f"   ❌ EXCEPTION: {e}")
             return False

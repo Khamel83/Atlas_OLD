@@ -10,6 +10,7 @@ import os
 import subprocess
 import sys
 import tempfile
+from helpers.bulletproof_process_manager import create_managed_process
 from pathlib import Path
 
 import pytest
@@ -242,12 +243,17 @@ class TestDiagnosticScript:
     def test_diagnostic_script_help(self):
         """Test diagnostic script help output."""
         try:
-            result = subprocess.run(
+            process = create_managed_process(
                 [sys.executable, "scripts/diagnose_environment.py", "--help"],
-                capture_output=True,
-                text=True,
+                "diagnose_help",
                 timeout=10,
             )
+            stdout, stderr = process.communicate()
+            
+            assert process.returncode == 0
+            assert "diagnose" in stdout.decode('utf-8').lower()
+            assert "--fix-permissions" in stdout.decode('utf-8')
+            assert "--test-apis" in stdout.decode('utf-8')
 
             assert result.returncode == 0
             assert "diagnose" in result.stdout.lower()
@@ -260,17 +266,17 @@ class TestDiagnosticScript:
     def test_diagnostic_script_json_output(self):
         """Test diagnostic script JSON output."""
         try:
-            result = subprocess.run(
+            process = create_managed_process(
                 [sys.executable, "scripts/diagnose_environment.py", "--json"],
-                capture_output=True,
-                text=True,
+                "diagnose_json",
                 timeout=30,
             )
+            stdout, stderr = process.communicate()
 
             # Script might fail due to missing dependencies, but should produce JSON
-            if result.stdout:
+            if stdout:
                 # Parse JSON to ensure it's valid
-                data = json.loads(result.stdout)
+                data = json.loads(stdout.decode('utf-8'))
                 assert "timestamp" in data
                 assert "critical_issues" in data
                 assert "total_issues" in data
@@ -290,16 +296,16 @@ class TestSetupCheckScript:
     def test_setup_check_execution(self):
         """Test setup check script execution."""
         try:
-            result = subprocess.run(
+            process = create_managed_process(
                 [sys.executable, "scripts/setup_check.py"],
-                capture_output=True,
-                text=True,
+                "setup_check",
                 timeout=20,
             )
+            stdout, stderr = process.communicate()
 
             # Script should produce output regardless of pass/fail
-            assert len(result.stdout) > 0
-            assert "Setup Check" in result.stdout
+            assert len(stdout.decode('utf-8')) > 0
+            assert "Setup Check" in stdout.decode('utf-8')
 
         except (subprocess.TimeoutExpired, FileNotFoundError):
             pytest.skip("Cannot execute setup check script")

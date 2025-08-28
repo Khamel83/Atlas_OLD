@@ -16,6 +16,7 @@ import sys
 import json
 import time
 import logging
+from helpers.bulletproof_process_manager import get_manager, create_managed_process
 import psutil
 import signal
 import subprocess
@@ -23,6 +24,7 @@ import threading
 from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any
+import atexit
 
 # Add parent directory for imports
 sys.path.insert(0, str(Path(__file__).parent))
@@ -58,11 +60,16 @@ class AtlasServiceManager:
         self.health_logger.addHandler(health_handler)
         self.health_logger.setLevel(logging.INFO)
 
+        # Register cleanup on exit
+        atexit.register(self.cleanup_processes)
+        signal.signal(signal.SIGTERM, lambda s, f: self.cleanup_processes())
+        signal.signal(signal.SIGINT, lambda s, f: self.cleanup_processes())
+
         # Venv path fix
         self.project_root = Path(__file__).parent
-        self.python_executable = str(self.project_root / "atlas_venv" / "bin" / "python3")
+        self.python_executable = str(self.project_root / "venv" / "bin" / "python3")
         if not Path(self.python_executable).exists():
-            self.logger.critical(f"CRITICAL: Python executable not found at {self.python_executable}. The 'atlas_venv' virtual environment is required.")
+            self.logger.critical(f"CRITICAL: Python executable not found at {self.python_executable}. The 'venv' virtual environment is required.")
             sys.exit(1)
         
     def start_api_server(self) -> bool:
@@ -82,12 +89,12 @@ class AtlasServiceManager:
                 "--log-level", "info"
             ]
             
-            process = subprocess.Popen(
+            process = create_managed_process(
                 cmd,
+                "api_server",
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,
-                cwd=self.project_root,
-                preexec_fn=os.setsid
+                cwd=self.project_root
             )
             
             time.sleep(3)
@@ -113,9 +120,9 @@ class AtlasServiceManager:
             # Start scheduler for background tasks
             scheduler_cmd = [self.python_executable, "scripts/atlas_scheduler.py", "--start"]
             
-            scheduler_process = subprocess.Popen(
-                scheduler_cmd, cwd=self.project_root, stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE, preexec_fn=os.setsid
+            scheduler_process = create_managed_process(
+                scheduler_cmd, "scheduler", cwd=self.project_root, stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE
             )
             
             time.sleep(2)
@@ -144,9 +151,9 @@ class AtlasServiceManager:
                 "--daemon", "--interval", "3"
             ]
             
-            watchdog_process = subprocess.Popen(
-                watchdog_cmd, cwd=self.project_root, stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE, preexec_fn=os.setsid
+            watchdog_process = create_managed_process(
+                watchdog_cmd, "watchdog", cwd=self.project_root, stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE
             )
             
             time.sleep(2)
@@ -276,6 +283,12 @@ class AtlasServiceManager:
         """Perform comprehensive health check"""
         # This would be a more detailed health check
         return {"status": "healthy"}
+
+    def cleanup_processes(self):
+        """Cleanup all managed processes"""
+        manager = get_manager()
+        manager.cleanup_all()
+        logging.info("🧹 All processes cleaned up")
     
     def _write_pid_file(self):
         """Write PID file"""
@@ -345,8 +358,7 @@ def main():
                 try:
                     service_manager.monitor_loop()
                 except KeyboardInterrupt:
-                    print("
-Shutting down...")
+                    print("Shutting down...")
             else:
                 print("✅ Atlas services started successfully")
         else:

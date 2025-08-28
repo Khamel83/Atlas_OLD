@@ -6,6 +6,7 @@ Simple test version of automated block executor
 import os
 import sys
 import subprocess
+from helpers.bulletproof_process_manager import get_manager
 from pathlib import Path
 
 
@@ -18,22 +19,23 @@ def implement_block(block_num, spec_file):
     print(f"📟 Running command: {cmd}")
 
     try:
-        result = subprocess.run(
+        manager = get_manager()
+        process = manager.create_process(
             cmd,
+            f"implement_block_{block_num}",
             shell=True,
-            cwd="/home/ubuntu/dev/atlas",
-            capture_output=True,
-            text=True,
-            timeout=30,
+            cwd="/home/ubuntu/dev/atlas"
         )
+        stdout, stderr = process.communicate(timeout=30)
+        
+        print(f"📤 Return code: {process.returncode}")
+        print(f"📤 STDOUT:\n{stdout.decode('utf-8')}")
+        if stderr:
+            print(f"📤 STDERR:\n{stderr.decode('utf-8')}")
 
-        print(f"📤 Return code: {result.returncode}")
-        print(f"📤 STDOUT:\n{result.stdout}")
-        if result.stderr:
-            print(f"📤 STDERR:\n{result.stderr}")
-
-        return result.returncode == 0
+        return process.returncode == 0
     except subprocess.TimeoutExpired:
+        manager.kill_process(process.pid)
         print("❌ Command timed out after 30 seconds")
         return False
     except Exception as e:

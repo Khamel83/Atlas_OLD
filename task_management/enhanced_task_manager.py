@@ -9,6 +9,7 @@ import os
 from datetime import datetime
 from typing import Dict, List, Optional, Any
 from pathlib import Path
+from helpers.bulletproof_process_manager import get_manager, create_managed_process
 
 class AtlasTaskManager:
     """Enhanced task manager that works with existing Agent OS structure"""
@@ -131,7 +132,7 @@ class AtlasTaskManager:
         # Always run basic validation
         scripts.append({
             "name": "basic_validation",
-            "command": "source atlas_venv/bin/activate && python -m pytest --tb=short",
+            "command": "source venv/bin/activate && python -m pytest --tb=short",
             "description": "Run basic test suite to ensure no regressions"
         })
         
@@ -139,14 +140,14 @@ class AtlasTaskManager:
         if "test" in content:
             scripts.append({
                 "name": "coverage_check",
-                "command": "source atlas_venv/bin/activate && python -m pytest --cov=helpers --cov-report=term-missing",
+                "command": "source venv/bin/activate && python -m pytest --cov=helpers --cov-report=term-missing",
                 "description": "Verify test coverage meets 90% requirement"
             })
         
         if "lint" in content or "format" in content:
             scripts.append({
                 "name": "code_quality",
-                "command": "source atlas_venv/bin/activate && python -m ruff check .",
+                "command": "source venv/bin/activate && python -m ruff check .",
                 "description": "Check code quality and formatting"
             })
         

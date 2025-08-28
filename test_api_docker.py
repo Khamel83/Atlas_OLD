@@ -6,6 +6,7 @@ import os
 import sys
 import time
 import subprocess
+from helpers.bulletproof_process_manager import create_managed_process
 
 # Add the project root to the Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -25,11 +26,11 @@ def test_api_server():
     try:
         # Start API server in background
         print("Starting API server...")
-        process = subprocess.Popen([
+        process = create_managed_process([
             sys.executable, "-m", "uvicorn", "api.main:app", 
             "--host", "127.0.0.1", "--port", "8000", 
             "--log-level", "error"
-        ])
+        ], "uvicorn_api_server")
         
         # Wait for server to start
         time.sleep(5)
@@ -66,15 +67,24 @@ def test_docker_build():
     """Test Docker build functionality"""
     try:
         # Check if Docker is available
-        result = subprocess.run(["docker", "--version"], capture_output=True, text=True)
-        if result.returncode != 0:
+        process = create_managed_process(["docker", "--version"], "docker_version")
+        stdout, stderr = process.communicate()
+        if process.returncode != 0:
             print("⚠️  Docker not available, skipping Docker tests")
             return True
             
         print("Testing Docker build...")
-        result = subprocess.run([
+        process = create_managed_process([
             "docker", "build", "-t", "atlas:test", ".", "--no-cache"
-        ], capture_output=True, text=True, cwd=os.path.dirname(os.path.abspath(__file__)))
+        ], "docker_build", cwd=os.path.dirname(os.path.abspath(__file__)))
+        stdout, stderr = process.communicate()
+        
+        if process.returncode == 0:
+            print("✅ Docker build successful")
+            return True
+        else:
+            print(f"❌ Docker build failed: {stderr.decode('utf-8')}")
+            return False
         
         if result.returncode == 0:
             print("✅ Docker build successful")

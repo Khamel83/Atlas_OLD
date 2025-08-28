@@ -4,13 +4,21 @@ Atlas Background Scheduler
 Runs the comprehensive processing service on schedule.
 """
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 import time
 import argparse
 import logging
 import subprocess
-import sys
 from datetime import datetime, timedelta
-from pathlib import Path
+import atexit
+import signal
+from helpers.bulletproof_process_manager import get_manager, create_managed_process
+from helpers.resource_monitor import check_system_health
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # Setup logging
 logging.basicConfig(
@@ -32,8 +40,19 @@ class AtlasScheduler:
         self.last_transcript_run = None
         self.comprehensive_interval = 2 * 60 * 60  # 2 hours
         self.transcript_interval = 4 * 60 * 60  # 4 hours
-        # Use atlas_venv Python, not system Python
-        self.python_executable = str(self.project_root / "atlas_venv" / "bin" / "python3")
+        # Use venv Python, not system Python
+        self.python_executable = str(self.project_root / "venv" / "bin" / "python3")
+
+        # Register cleanup on exit
+        atexit.register(self.cleanup_processes)
+        signal.signal(signal.SIGTERM, lambda s, f: self.cleanup_processes())
+        signal.signal(signal.SIGINT, lambda s, f: self.cleanup_processes())
+
+    def cleanup_processes(self):
+        """Cleanup all managed processes"""
+        manager = get_manager()
+        manager.cleanup_all()
+        logger.info("🧹 All processes cleaned up")
         
     def should_run_comprehensive(self) -> bool:
         """Check if comprehensive cycle should run."""
@@ -52,21 +71,18 @@ class AtlasScheduler:
         try:
             logger.info("🚀 Starting comprehensive processing cycle...")
             
-            result = subprocess.run([
+            process = create_managed_process([
                 self.python_executable, str(self.project_root / "atlas_comprehensive_service.py")
-            ], cwd=self.project_root, timeout=7200)  # 2 hour timeout
+            ], "comprehensive_service", cwd=self.project_root, timeout=7200)
+            stdout, stderr = process.communicate()
             
-            if result.returncode == 0:
+            if process.returncode == 0:
                 logger.info("✅ Comprehensive processing completed successfully")
                 self.last_comprehensive_run = datetime.now()
                 return True
             else:
-                logger.error(f"❌ Comprehensive processing failed with code {result.returncode}")
+                logger.error(f"❌ Comprehensive processing failed with code {process.returncode}")
                 return False
-                
-        except subprocess.TimeoutExpired:
-            logger.error("❌ Comprehensive processing timed out after 2 hours")
-            return False
         except Exception as e:
             logger.error(f"❌ Comprehensive processing error: {e}")
             return False
@@ -76,21 +92,18 @@ class AtlasScheduler:
         try:
             logger.info("🎙️ Starting enhanced transcript discovery...")
             
-            result = subprocess.run([
+            process = create_managed_process([
                 self.python_executable, str(self.project_root / "enhanced_transcript_discovery.py")
-            ], cwd=self.project_root, timeout=3600)  # 1 hour timeout
+            ], "transcript_discovery", cwd=self.project_root, timeout=3600)
+            stdout, stderr = process.communicate()
             
-            if result.returncode == 0:
+            if process.returncode == 0:
                 logger.info("✅ Enhanced transcript discovery completed successfully")
                 self.last_transcript_run = datetime.now()
                 return True
             else:
-                logger.error(f"❌ Enhanced transcript discovery failed with code {result.returncode}")
+                logger.error(f"❌ Enhanced transcript discovery failed with code {process.returncode}")
                 return False
-                
-        except subprocess.TimeoutExpired:
-            logger.error("❌ Enhanced transcript discovery timed out after 1 hour")
-            return False
         except Exception as e:
             logger.error(f"❌ Enhanced transcript discovery error: {e}")
             return False
@@ -131,6 +144,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.start:
+        if not check_system_health():
+            logger.error("System health check failed, aborting")
+            sys.exit(1)
         # Ensure logs directory exists
         Path('logs').mkdir(exist_ok=True)
         

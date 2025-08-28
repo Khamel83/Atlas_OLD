@@ -29,7 +29,7 @@ class DependencyMapper:
         for root, dirs, files in os.walk('.'):
             # Skip common non-source directories
             dirs[:] = [d for d in dirs if d not in {'.git', '__pycache__', '.mypy_cache', 
-                                                   'venv', 'atlas_venv', 'htmlcov', 'node_modules'}]
+                                                   'venv', 'venv', 'htmlcov', 'node_modules'}]
             
             for file in files:
                 if file.endswith('.py'):
