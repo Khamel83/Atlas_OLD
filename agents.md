@@ -2,6 +2,8 @@
 
 **📝 SYNC RULE**: When updating agents.md, also update CLAUDE.md to maintain consistency.
 
+**📚 REQUIRED READING**: All agents MUST also read `dev.md` which contains critical execution patterns, troubleshooting guides, and model-specific rules (Qwen fixes, Gemini CLI usage, etc.). This file provides the workflow, dev.md provides the implementation details.
+
 This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work within the Atlas project. Model-specific nuances belong in their respective files and do not override this lifecycle.
 
 ## ✅ ATLAS SYSTEM STATUS (August 28, 2025)
