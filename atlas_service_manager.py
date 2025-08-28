@@ -30,12 +30,18 @@ import atexit
 sys.path.insert(0, str(Path(__file__).parent))
 
 from helpers.config import load_config
+from helpers.resource_monitor import check_system_health
 
 class AtlasServiceManager:
     """Comprehensive Atlas background service manager"""
     
     def __init__(self):
         """Initialize service manager"""
+        # Perform pre-flight health check
+        if not check_system_health():
+            logging.error("System health check failed - aborting")
+            sys.exit(1)
+            
         self.config = load_config()
         self.services = {}
         self.running = False

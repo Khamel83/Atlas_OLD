@@ -11,6 +11,7 @@ import sys
 import subprocess
 import os
 import psutil
+import signal
 from pathlib import Path
 from datetime import datetime
 import atexit
