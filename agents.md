@@ -30,6 +30,11 @@ This file governs how any agent (Gemini, Claude, Qwen, etc.) executes work withi
 *   ❌ **Setup Process**: Technical installation docs, not user-friendly guides
 *   **REALITY**: Technically brilliant but unusable by normal humans
 
+### **Documentation Progress - 50% COMPLETE**
+*   **User Guides Created**: Maintenance, Automation, Mobile, Setup guides completed
+*   **User Guides Pending**: Mac workflows, Quick Start, Troubleshooting
+*   **Technical Docs**: API, Architecture, Configuration guides up-to-date
+
 ## 1. Execution Lifecycle (for each Task)
 1.  **Preflight** 
     *   Read `tasks.md`; topologically sort tasks by `depends_on`.
