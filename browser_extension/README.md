@@ -1,32 +1,45 @@
-# Atlas Browser Extension
+# Atlas Browser Extensions - Multi-Platform Support
 
-The Atlas Browser Extension allows you to capture web content directly to your Atlas system with a single click.
+Capture web content directly to your Atlas system from Chrome, Firefox, Chromium, and Safari.
 
-## Features
+## 🎯 Features
 
-1. **Save Current Page** - Save the entire current page to Atlas
-2. **Save Selection** - Save selected text to Atlas
-3. **Save Article Content** - Save just the main article content (auto-detected)
-4. **Context Menu Integration** - Access Atlas capture options from the right-click menu
-5. **Customizable Server URL** - Configure your Atlas server address
+- **📝 One-click capture**: Save entire pages, article content, or selected text
+- **🖱️ Context menu integration**: Right-click to save content
+- **🧠 Smart article detection**: Automatically extracts main content from articles
+- **⚙️ Configurable server**: Point to your Atlas instance
+- **🌐 Cross-platform**: Chrome, Firefox, Chromium, and Safari support
+- **🔒 Privacy-focused**: All data stays between your browser and your Atlas server
 
-## Installation (Chrome/Chromium)
+## 📦 Quick Installation
 
-1. Open Chrome/Chromium browser
-2. Navigate to `chrome://extensions`
-3. Enable "Developer mode" (toggle in the top right)
-4. Click "Load unpacked"
-5. Select the `browser_extension` directory
-6. The extension should now be installed and visible in your toolbar
+### Automated Build (Recommended)
+```bash
+./build_extensions.sh
+```
+This creates all platform versions in the `build/` directory.
 
-## Installation (Firefox)
+### Manual Installation by Platform
 
-1. Open Firefox browser
-2. Navigate to `about:debugging`
-3. Click "This Firefox"
-4. Click "Load Temporary Add-on"
-5. Select the `manifest.json` file in the `browser_extension` directory
-6. The extension should now be installed
+#### 🟢 Chrome/Chromium
+1. Open Chrome/Chromium → `chrome://extensions/`
+2. Enable "Developer mode" (top right)
+3. Click "Load unpacked" → Select `build/chrome/` folder
+4. Extension appears in toolbar ✓
+
+#### 🦊 Firefox
+1. Open Firefox → `about:debugging`
+2. Click "This Firefox" → "Load Temporary Add-on"
+3. Select `build/firefox/manifest.json`
+4. Extension appears in toolbar ✓
+
+#### 🍎 Safari (macOS/iOS)
+1. Safari extension files ready in `build/safari/`
+2. Requires Xcode for building:
+   - Open Xcode → New Safari Extension project
+   - Copy files from `build/safari/` to project
+   - Build & sign for distribution
+3. Install via Mac App Store or Developer Certificate
 
 ## Configuration
 
