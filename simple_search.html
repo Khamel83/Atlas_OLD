@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Search - Your 5,772 Articles</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .search-box {
+            width: 100%;
+            padding: 15px;
+            font-size: 18px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .search-box:focus {
+            outline: none;
+            border-color: #4285f4;
+        }
+        
+        .stats {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .result {
+            background: white;
+            margin-bottom: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4285f4;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .result-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1a0dab;
+            margin-bottom: 8px;
+        }
+        
+        .result-content {
+            color: #545454;
+            line-height: 1.4;
+            margin-bottom: 8px;
+        }
+        
+        .result-url {
+            color: #006621;
+            font-size: 14px;
+        }
+        
+        .loading {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .no-results {
+            text-align: center;
+            color: #666;
+            padding: 40px;
+        }
+        
+        .example-queries {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .example-queries h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        
+        .example-query {
+            display: inline-block;
+            background: #f1f3f4;
+            color: #1a73e8;
+            padding: 8px 12px;
+            border-radius: 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .example-query:hover {
+            background: #e8f0fe;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔍 Atlas Search</h1>
+        <p>Search your personal knowledge base of 5,772 articles</p>
+    </div>
+
+    <input type="text" class="search-box" id="searchBox" placeholder="Search articles... (e.g., 'Tyler Cowen economics', 'AI technology', 'business strategy')" />
+
+    <div class="stats" id="stats">
+        Ready to search 5,772 articles with enhanced content extraction
+    </div>
+
+    <div id="results"></div>
+
+    <div class="example-queries">
+        <h3>Try these example searches:</h3>
+        <span class="example-query" onclick="search('Tyler Cowen')">Tyler Cowen</span>
+        <span class="example-query" onclick="search('economics')">Economics</span>
+        <span class="example-query" onclick="search('artificial intelligence')">Artificial Intelligence</span>
+        <span class="example-query" onclick="search('technology')">Technology</span>
+        <span class="example-query" onclick="search('business strategy')">Business Strategy</span>
+        <span class="example-query" onclick="search('finance')">Finance</span>
+        <span class="example-query" onclick="search('politics')">Politics</span>
+        <span class="example-query" onclick="search('race academia')">Race & Academia</span>
+    </div>
+
+    <script>
+        const searchBox = document.getElementById('searchBox');
+        const resultsDiv = document.getElementById('results');
+        const statsDiv = document.getElementById('stats');
+        
+        let searchTimeout;
+
+        // Search function
+        function search(query) {
+            if (query) {
+                searchBox.value = query;
+            } else {
+                query = searchBox.value.trim();
+            }
+            
+            if (query.length < 2) {
+                resultsDiv.innerHTML = '';
+                statsDiv.innerHTML = 'Ready to search 5,772 articles with enhanced content extraction';
+                return;
+            }
+
+            // Show loading
+            resultsDiv.innerHTML = '<div class="loading">Searching...</div>';
+            statsDiv.innerHTML = `Searching for "${query}"...`;
+
+            // Simple database search (direct to SQLite)
+            fetch(`/search?q=${encodeURIComponent(query)}`)
+                .then(response => response.json())
+                .then(data => {
+                    displayResults(data, query);
+                })
+                .catch(error => {
+                    console.error('Search error:', error);
+                    resultsDiv.innerHTML = '<div class="no-results">Search failed. Using backup search method...</div>';
+                    // Fallback to backup search
+                    backupSearch(query);
+                });
+        }
+
+        // Backup search method
+        function backupSearch(query) {
+            // This will search using a simple Python script
+            fetch(`/simple-search?q=${encodeURIComponent(query)}`)
+                .then(response => response.json())
+                .then(data => {
+                    displayResults(data, query);
+                })
+                .catch(error => {
+                    resultsDiv.innerHTML = '<div class="no-results">Search temporarily unavailable. The database contains 5,772 articles ready to search.</div>';
+                });
+        }
+
+        // Display search results
+        function displayResults(data, query) {
+            const results = data.results || [];
+            const total = data.total || results.length;
+
+            if (results.length === 0) {
+                resultsDiv.innerHTML = '<div class="no-results">No results found. Try different keywords or check the example queries below.</div>';
+                statsDiv.innerHTML = `No results for "${query}" in 5,772 articles`;
+                return;
+            }
+
+            statsDiv.innerHTML = `Found ${total} results for "${query}" (showing first ${results.length})`;
+
+            const html = results.map(result => `
+                <div class="result">
+                    <div class="result-title">${escapeHtml(result.title)}</div>
+                    <div class="result-content">${escapeHtml(result.content.substring(0, 200))}...</div>
+                    <div class="result-url">${escapeHtml(result.url)}</div>
+                </div>
+            `).join('');
+
+            resultsDiv.innerHTML = html;
+        }
+
+        // Utility function
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Search as user types
+        searchBox.addEventListener('input', (e) => {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                search();
+            }, 500); // Wait 500ms after user stops typing
+        });
+
+        // Search on Enter
+        searchBox.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                clearTimeout(searchTimeout);
+                search();
+            }
+        });
+    </script>
+</body>
+</html>
