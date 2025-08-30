@@ -2,26 +2,33 @@
 
 **Navigate to any Atlas documentation within 3 clicks**
 
+## 🎉 Atlas is 100% Production Ready!
+
+**New users start here:**
+- **[Quick Start Guide](../quick_start_package/QUICK_START.md)** - Get Atlas running in 10 minutes
+- **[One-Command Install](../quick_install.sh)** - Automated setup script
+- **[Apple Shortcuts](../shortcuts/)** - Install with `./install_shortcuts.sh`
+
 ## 🚀 Getting Started
 
 ### Essential First Steps
-- **[Setup Guide](docs/user-guides/SETUP_GUIDE.md)** - Complete system installation for non-technical users
-- **[Mac User Guide](docs/user-guides/MAC_USER_GUIDE.md)** - Mac-specific integration and shortcuts
-- **[Quick Start: Add Your First Content](docs/user-guides/INGESTION_GUIDE.md#quick-start-add-your-first-content-5-minute-tutorial)** - Get content into Atlas in 10 minutes
+- **[Setup Guide](user-guides/SETUP_GUIDE.md)** - Complete system installation for non-technical users
+- **[Mac User Guide](user-guides/MAC_USER_GUIDE.md)** - Mac-specific integration and shortcuts
+- **[Quick Start: Add Your First Content](user-guides/INGESTION_GUIDE.md#quick-start-add-your-first-content-5-minute-tutorial)** - Get content into Atlas in 10 minutes
 
 ## 📖 User Guides
 
 ### Content & Ingestion
-- **[Ingestion Guide](docs/user-guides/INGESTION_GUIDE.md)** - Every way to get content into Atlas
-- **[Mobile Guide](docs/user-guides/MOBILE_GUIDE.md)** - Using Atlas on iPhone and iPad
-- **[Automation Guide](docs/user-guides/AUTOMATION_GUIDE.md)** - Set up automated content workflows
+- **[Ingestion Guide](user-guides/INGESTION_GUIDE.md)** - Every way to get content into Atlas
+- **[Mobile Guide](user-guides/MOBILE_GUIDE.md)** - Using Atlas on iPhone and iPad
+- **[Automation Guide](user-guides/AUTOMATION_GUIDE.md)** - Set up automated content workflows
 
 ### Discovery & Search  
-- **[Search Guide](docs/user-guides/SEARCH_GUIDE.md)** - Finding and exploring your content
-- **[Web Dashboard Guide](docs/user-guides/WEB_DASHBOARD_GUIDE.md)** - Using Atlas cognitive features
+- **[Search Guide](user-guides/SEARCH_GUIDE.md)** - Finding and exploring your content
+- **[Web Dashboard Guide](user-guides/WEB_DASHBOARD_GUIDE.md)** - Using Atlas cognitive features
 
 ### Maintenance
-- **[Maintenance Guide](docs/user-guides/MAINTENANCE_GUIDE.md)** - System upkeep and data protection
+- **[Maintenance Guide](user-guides/MAINTENANCE_GUIDE.md)** - System upkeep and data protection
 
 ## 🛠️ Technical Documentation
 
