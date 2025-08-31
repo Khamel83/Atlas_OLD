@@ -336,9 +336,26 @@ class TemporalEngine:
             return {"relationships": [], "temporal_patterns": {}, "seasonal_insights": {}, "content_velocity": {}}
 
     def get_time_aware_relationships(self, max_delta_days=1):
-        """Legacy method for backward compatibility."""
-        insights = self.find_temporal_relationships(max_delta_days)
-        relationships = insights["relationships"]
+        """Get time-aware relationships - existing method."""
+        try:
+            insights = self.find_temporal_relationships(max_delta_days)
+            relationships = insights["relationships"]
+            
+            # Convert to tuple format expected by web interface
+            result = []
+            for rel in relationships[:10]:  # Limit results
+                item1 = type('Item', (), {'title': rel.get('content1', 'Unknown')})()
+                item2 = type('Item', (), {'title': rel.get('content2', 'Unknown')})()
+                days = rel.get('time_delta_days', 0)
+                result.append((item1, item2, days))
+            return result
+        except Exception as e:
+            print(f"Error in get_time_aware_relationships: {e}")
+            return []
+    
+    def identify_temporal_relationships(self, n=10):
+        """Alias for web interface compatibility."""
+        return self.get_time_aware_relationships(max_delta_days=7)  # Broader search
 
         # Convert to old format
         return [

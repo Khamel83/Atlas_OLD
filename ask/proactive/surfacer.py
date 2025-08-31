@@ -69,12 +69,18 @@ class ProactiveSurfacer:
     - User interaction patterns
     """
     
-    def __init__(self, config: Dict[str, Any] = None):
+    def __init__(self, metadata_manager_or_config = None):
         """Initialize ProactiveSurfacer."""
-        self.config = config or load_config()
-        self.db_path = "data/atlas.db"
+        if hasattr(metadata_manager_or_config, 'config'):
+            # It's a MetadataManager
+            self.config = metadata_manager_or_config.config or {}
+        else:
+            # It's a config dict or None
+            self.config = metadata_manager_or_config or {}
+            
+        self.db_path = "atlas.db"
         
-        # Surfacing configuration
+        # Surfacing configuration with defaults
         self.relevance_threshold = self.config.get('relevance_threshold', 0.3)
         self.max_age_days = self.config.get('max_content_age_days', 365)
         self.boost_recent = self.config.get('boost_recent_content', True)
@@ -216,6 +222,20 @@ class ProactiveSurfacer:
         except Exception as e:
             print(f"Error surfacing diverse content: {e}")
             return self._mock_surface_content(SurfacingContext(max_results=max_results))
+    
+    def surface_forgotten_content(self, n: int = 5) -> List[Any]:
+        """Surface forgotten content - wrapper for web interface compatibility."""
+        context = SurfacingContext(max_results=n)
+        results = self.surface_diverse_content(max_results=n)
+        
+        # Convert to simple objects for template compatibility
+        forgotten = []
+        for item in results:
+            forgotten.append(type('Item', (), {
+                'title': item.title,
+                'updated_at': item.updated_at[:10] if item.updated_at else 'Unknown'
+            })())
+        return forgotten
     
     def _get_content_from_db(self, context: SurfacingContext) -> List[Dict[str, Any]]:
         """Get content items from database based on context."""

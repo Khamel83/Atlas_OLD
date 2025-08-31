@@ -320,8 +320,20 @@ class RecallEngine:
 
     def schedule_spaced_repetition(self, n=5):
         """Legacy method for backward compatibility."""
-        items = self.get_items_for_review(n)
-        return [item.metadata for item in items]
+        try:
+            items = self.get_items_for_review(n)
+            result = []
+            for item in items:
+                # Convert to format expected by web interface
+                recall_item = type('Item', (), {
+                    'title': getattr(item, 'title', 'Unknown'),
+                    'type_specific': {'last_reviewed': getattr(item, 'last_reviewed', 'Never')}
+                })()
+                result.append(recall_item)
+            return result
+        except Exception as e:
+            print(f"Error in schedule_spaced_repetition: {e}")
+            return []
     
     # ========================================
     # ANALYTICS AND INSIGHTS
