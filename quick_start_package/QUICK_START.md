@@ -36,11 +36,28 @@ python3 atlas_status.py
 
 ## First Use (2 minutes)
 
+### Install iOS Shortcuts
+
+**🎯 Choose Your Method:**
+
+#### Method 1: Install from Your Phone (Easiest)
+1. **Get your installation URL**:
+   ```bash
+   # This shows the exact URL to use on your iPhone
+   ./get_mobile_url.sh
+   ```
+2. **Open the URL** on your iPhone (from the output above)
+3. **Tap**: Each shortcut to download and install
+4. **Follow**: iOS prompts to "Get Shortcut" → "Add Shortcut"
+
+#### Method 2: Install from Computer
+1. **Run**: `./install_shortcuts.sh` (on your Mac)
+2. **Follow**: Terminal instructions to install
+
 ### Test Voice Capture
-1. **Install shortcuts**: `./install_shortcuts.sh`
-2. **Say**: "Hey Siri, save to Atlas"
-3. **Speak**: "This is my first Atlas note"
-4. **Check**: Visit `http://localhost:8000/ask/html`
+1. **Say**: "Hey Siri, save to Atlas"
+2. **Speak**: "This is my first Atlas note"
+3. **Check**: Visit `http://localhost:8000/ask/html`
 
 ### Test Web Dashboard
 1. **Open**: `http://localhost:8000/ask/html`

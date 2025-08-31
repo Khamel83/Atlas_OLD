@@ -6,7 +6,7 @@ import sys
 # Add parent directory to Python path for module imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from api.routers import content, search, cognitive, auth, dashboard, transcription, worker
+from api.routers import content, search, cognitive, auth, dashboard, transcription, worker, shortcuts
 
 app = FastAPI(
     title="Atlas API",
@@ -38,10 +38,17 @@ app.include_router(cognitive.router, prefix="/api/v1/cognitive", tags=["cognitiv
 app.include_router(dashboard.router, prefix="/api/v1/dashboard", tags=["dashboard"])
 app.include_router(transcription.router, prefix="/api/v1/transcriptions", tags=["transcription"])
 app.include_router(worker.router, prefix="/api/v1/worker", tags=["worker"])
+app.include_router(shortcuts.router, prefix="/api/v1/shortcuts", tags=["shortcuts"])
 
 @app.get("/api/v1/health")
 async def health_check():
     return {"status": "healthy"}
+
+@app.get("/shortcuts")
+async def shortcuts_redirect():
+    """Redirect to shortcuts install page"""
+    from fastapi.responses import RedirectResponse
+    return RedirectResponse(url="/api/v1/shortcuts/install")
 
 if __name__ == "__main__":
     import uvicorn

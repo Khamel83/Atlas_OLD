@@ -21,16 +21,26 @@ cd atlas
 ./quick_install.sh
 ```
 
+### Install iOS Shortcuts
+
+**📱 From Your Phone (Easiest):**
+```bash
+./get_mobile_url.sh  # Shows URL to open on iPhone
+```
+Then tap each shortcut to install
+
+**💻 From Computer:**
+```bash
+./install_shortcuts.sh
+```
+
 ### Test Your Installation
 ```bash
-# 1. Install Apple Shortcuts
-./install_shortcuts.sh
-
-# 2. Try voice capture
+# 1. Try voice capture
 # Say: "Hey Siri, save to Atlas"
 # Speak: "This is my first Atlas note"
 
-# 3. Visit your AI dashboard
+# 2. Visit your AI dashboard
 open http://localhost:8000/ask/html
 ```
 
