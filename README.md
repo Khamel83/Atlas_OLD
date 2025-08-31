@@ -41,8 +41,11 @@ Then tap each shortcut to install
 # Speak: "This is my first Atlas note"
 
 # 2. Visit your AI dashboard
+open http://localhost:8000  # Main Atlas dashboard with navigation
+# Or directly access:
 open http://localhost:8000/mobile  # Mobile-optimized interface
-open http://localhost:8000/ask/html  # Desktop interface
+open http://localhost:8000/ask/html  # Desktop cognitive interface
+open http://localhost:8000/jobs/html  # System management
 ```
 
 **That's it!** Atlas is now learning from your information and ready to help you think.
@@ -198,8 +201,10 @@ Atlas builds on incredible open-source projects:
 
 - **🚀 [Quick Start Guide](quick_start_package/QUICK_START.md)** - Get running in 10 minutes
 - **📱 [Download Shortcuts](shortcuts/)** - Apple Shortcuts for Mac/iOS
+- **🎯 [Main Dashboard](http://localhost:8000)** - Central navigation hub  
 - **📱 [Mobile Interface](http://localhost:8000/mobile)** - Touch-optimized with content management  
 - **🧠 [Desktop Dashboard](http://localhost:8000/ask/html)** - Full cognitive features
+- **⚙️ [System Management](http://localhost:8000/jobs/html)** - Jobs and scheduling
 - **📖 [Full Documentation](docs/user-guides/)** - Complete user guides
 - **🐛 [Report Issues](https://github.com/your-org/atlas/issues)** - Bug reports and features
 

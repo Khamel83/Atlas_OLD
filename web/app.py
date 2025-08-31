@@ -97,11 +97,132 @@ def read_log_tail(log_path, n=50):
 
 @app.get("/", response_class=HTMLResponse)
 def root():
-    """Landing page with a link to the jobs UI and cognitive dashboard."""
+    """Atlas main dashboard with navigation to all features."""
     return """
-    <h1>Atlas Scheduler Web Interface</h1>
-    <p>Welcome! Use the <a href='/jobs/html'>/jobs/html</a> endpoint to view scheduled jobs (MVP).</p>
-    <p>Explore <a href='/ask/html'>Cognitive Amplification Dashboard</a> for advanced features.</p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atlas - Personal AI Dashboard</title>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 2rem;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                min-height: 100vh;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 3rem;
+                text-align: center;
+                margin-bottom: 1rem;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            }
+            .subtitle {
+                text-align: center;
+                font-size: 1.2rem;
+                margin-bottom: 3rem;
+                opacity: 0.9;
+            }
+            .dashboard-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 2rem;
+                margin-bottom: 3rem;
+            }
+            .dashboard-card {
+                background: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(10px);
+                border-radius: 15px;
+                padding: 2rem;
+                text-decoration: none;
+                color: white;
+                transition: all 0.3s ease;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+            }
+            .dashboard-card:hover {
+                transform: translateY(-5px);
+                background: rgba(255, 255, 255, 0.2);
+                box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            }
+            .dashboard-icon {
+                font-size: 3rem;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            .dashboard-title {
+                font-size: 1.5rem;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            .dashboard-description {
+                text-align: center;
+                opacity: 0.8;
+                font-size: 0.9rem;
+            }
+            .quick-links {
+                text-align: center;
+                margin-top: 2rem;
+            }
+            .quick-link {
+                display: inline-block;
+                margin: 0 1rem;
+                padding: 0.5rem 1rem;
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 25px;
+                text-decoration: none;
+                color: white;
+                font-size: 0.9rem;
+                transition: all 0.3s ease;
+            }
+            .quick-link:hover {
+                background: rgba(255, 255, 255, 0.3);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>🧠 Atlas</h1>
+            <p class="subtitle">Your Personal AI Knowledge System</p>
+            
+            <div class="dashboard-grid">
+                <a href="/mobile" class="dashboard-card">
+                    <div class="dashboard-icon">📱</div>
+                    <div class="dashboard-title">Mobile Dashboard</div>
+                    <div class="dashboard-description">Touch-optimized interface with content management, search filters, and all cognitive features</div>
+                </a>
+                
+                <a href="/ask/html" class="dashboard-card">
+                    <div class="dashboard-icon">🧠</div>
+                    <div class="dashboard-title">Cognitive AI</div>
+                    <div class="dashboard-description">6 AI-powered features: proactive surfacing, temporal analysis, Socratic questions, active recall</div>
+                </a>
+                
+                <a href="/jobs/html" class="dashboard-card">
+                    <div class="dashboard-icon">⚙️</div>
+                    <div class="dashboard-title">System Management</div>
+                    <div class="dashboard-description">Background jobs, scheduling, ingestion pipelines, and system monitoring</div>
+                </a>
+            </div>
+            
+            <div class="quick-links">
+                <a href="/ask/proactive" class="quick-link">🔄 Proactive API</a>
+                <a href="/ask/temporal" class="quick-link">⏰ Temporal API</a>
+                <a href="/ask/patterns" class="quick-link">🔍 Patterns API</a>
+                <a href="/ask/recall" class="quick-link">🧠 Recall API</a>
+                <a href="/jobs" class="quick-link">📊 Jobs API</a>
+            </div>
+        </div>
+    </body>
+    </html>
     """
 
 
