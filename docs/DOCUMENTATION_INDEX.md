@@ -7,7 +7,7 @@
 **New users start here:**
 - **[Quick Start Guide](../quick_start_package/QUICK_START.md)** - Get Atlas running in 10 minutes
 - **[One-Command Install](../quick_install.sh)** - Automated setup script
-- **[Apple Shortcuts](../shortcuts/)** - Install with `./install_shortcuts.sh`
+- **[Apple Shortcuts](../shortcuts/)** - Install from phone: `./get_mobile_url.sh` or computer: `./install_shortcuts.sh`
 
 ## 🚀 Getting Started
 

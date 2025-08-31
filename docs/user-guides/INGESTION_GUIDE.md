@@ -4,6 +4,7 @@ This guide provides step-by-step instructions for every way to get content into 
 
 ## Table of Contents
 
+0. [Setup: Install iOS Shortcuts](#setup-install-ios-shortcuts)
 1. [Articles](#articles)
 2. [Documents](#documents)
 3. [Podcasts](#podcasts)
@@ -12,6 +13,28 @@ This guide provides step-by-step instructions for every way to get content into 
 6. [Voice Memos](#voice-memos)
 7. [Screenshots](#screenshots)
 8. [Quick Start: Add Your First Content](#quick-start-add-your-first-content)
+
+## Setup: Install iOS Shortcuts
+
+**📱 For Mobile Content Capture:**
+
+Many of the methods in this guide use iOS shortcuts. Install them first:
+
+```bash
+# Get mobile installation URL
+./get_mobile_url.sh
+
+# Or install from computer
+./install_shortcuts.sh
+```
+
+Then open the URL on your iPhone and tap each shortcut to install.
+
+**Available Shortcuts:**
+- **Capture Thought** - "Hey Siri, save to Atlas"
+- **Voice Memo to Atlas** - Audio transcription
+- **Screenshot to Atlas** - OCR text extraction
+- **Save to Atlas** - Web page capture
 
 ## Articles
 

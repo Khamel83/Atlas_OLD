@@ -22,16 +22,28 @@ Atlas provides powerful iOS Shortcuts that make it easy to capture content direc
 
 #### Installation Steps
 
-1. **Download the Shortcuts Package**:
-   - Visit your Atlas server's `/dist/shortcuts/` directory
+**🎯 Method 1: Direct Mobile Installation (Easiest)**
+
+1. **Get Your Atlas URL**:
+   - Run `./get_mobile_url.sh` on your Mac/server
+   - This shows the URL to use: `http://YOUR_IP:8000/shortcuts`
+
+2. **Install from Your iPhone**:
+   - Open the URL shown above on your iPhone
+   - Tap each shortcut you want to install
+   - Follow iOS prompts: "Get Shortcut" → "Add Shortcut"
+   - No computer file access needed!
+
+**💻 Method 2: Install from Computer**
+
+1. **Run Install Script**:
+   - On your Mac/server: `./install_shortcuts.sh`
+   - Follow terminal instructions
+
+2. **Manual Installation**:
+   - Visit your Atlas server's web interface at `/shortcuts`
    - Download the `.shortcut` files to your device
    - Open each file to import into the Shortcuts app
-
-2. **Alternative Installation**:
-   - Open the Shortcuts app
-   - Tap the "+" button to create a new shortcut
-   - Tap "Import Shortcut" and select the downloaded `.shortcut` file
-   - Repeat for each shortcut you want to install
 
 #### Available Shortcuts
 

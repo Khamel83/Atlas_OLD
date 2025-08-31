@@ -30,7 +30,31 @@
    python atlas_service_manager.py start
    ```
 
-## Apple Shortcuts Setup (with code snippets)
+## Apple Shortcuts Setup
+
+### Quick Installation (Recommended)
+
+**🚀 Pre-built Shortcuts - Install in 30 Seconds:**
+
+```bash
+# Option 1: Install from computer
+./install_shortcuts.sh
+
+# Option 2: Get mobile installation URL
+./get_mobile_url.sh
+# Then open the URL on your iPhone to install
+```
+
+The pre-built shortcuts include:
+- **Capture Thought** - "Hey Siri, save to Atlas"
+- **Capture Evening Thought** - Evening reflections
+- **Log Meal** - Track meals
+- **Log Mood** - Emotional state tracking
+- **Start Focus** - Begin focus sessions
+- **Log Home Activity Context** - Home activity tracking
+- **Log Work Task Context** - Work productivity tracking
+
+### Custom Shortcuts (Advanced)
 
 ### Save to Atlas Shortcut
 
