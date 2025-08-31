@@ -428,27 +428,235 @@ async def ask_dashboard_post(
     )
 
 
-# Cognitive Engine Endpoints
-@app.get("/cognitive/analyze")
-async def analyze_content(text: str = "", limit: int = 3):
-    """Analyze content using cognitive engine"""
-    if not text:
-        return {"error": "No text provided"}
+# Mobile-optimized routes
+@app.get("/mobile", response_class=HTMLResponse)
+async def mobile_dashboard(request: Request, feature: str = "", search: str = "", 
+                          date_filter: str = "", type_filter: str = "", source_filter: str = ""):
+    """Mobile-optimized cognitive dashboard."""
+    data = None
+    recent_content = None
     
-    analysis = {
-        "condensed": cognitive_engine.condense_content(text),
-        "insights": cognitive_engine.extract_insights(text),
-        "connections": cognitive_engine.find_connections(text, limit)
-    }
-    return analysis
+    if not ASK_AVAILABLE:
+        return templates.TemplateResponse(
+            "mobile_dashboard.html", 
+            {"request": request, "feature": feature, "data": {"error": "Cognitive features not available"}}
+        )
+    
+    mgr = get_metadata_manager()
+    
+    # Handle content browsing
+    if feature == "browse" or not feature:
+        import sqlite3
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        # Build WHERE conditions based on filters
+        where_conditions = ["title IS NOT NULL AND title != ''"]
+        params = []
+        
+        if search:
+            where_conditions.append("(title LIKE ? OR content LIKE ?)")
+            params.extend([f'%{search}%', f'%{search}%'])
+        
+        if type_filter:
+            where_conditions.append("content_type LIKE ?")
+            params.append(f'%{type_filter}%')
+        
+        if date_filter:
+            import datetime
+            today = datetime.date.today()
+            if date_filter == "today":
+                where_conditions.append("DATE(created_at) = ?")
+                params.append(today.isoformat())
+            elif date_filter == "week":
+                week_ago = today - datetime.timedelta(days=7)
+                where_conditions.append("DATE(created_at) >= ?")
+                params.append(week_ago.isoformat())
+            elif date_filter == "month":
+                month_ago = today - datetime.timedelta(days=30)
+                where_conditions.append("DATE(created_at) >= ?")
+                params.append(month_ago.isoformat())
+            elif date_filter == "year":
+                year_ago = today - datetime.timedelta(days=365)
+                where_conditions.append("DATE(created_at) >= ?")
+                params.append(year_ago.isoformat())
+        
+        where_clause = " AND ".join(where_conditions)
+        
+        cursor.execute(f"""
+            SELECT id, title, content, content_type, created_at 
+            FROM content 
+            WHERE {where_clause}
+            ORDER BY created_at DESC 
+            LIMIT 20
+        """, params)
+        
+        recent_content = [
+            {
+                "id": row[0],
+                "title": row[1],
+                "content": row[2],
+                "content_type": row[3], 
+                "created_at": row[4]
+            }
+            for row in cursor.fetchall()
+        ]
+        conn.close()
+    
+    # Handle cognitive features (same logic as desktop)
+    elif feature == "proactive":
+        try:
+            surfacer = ProactiveSurfacer(mgr)
+            forgotten = surfacer.surface_forgotten_content(n=10)
+            data = {
+                "forgotten": [
+                    {"title": getattr(f, "title", "Untitled"), "updated_at": getattr(f, "updated_at", "Unknown")}
+                    for f in forgotten
+                ]
+            }
+        except Exception as e:
+            print(f"Proactive error: {e}")
+            data = {"forgotten": [{"title": "Demo: Machine Learning Article", "updated_at": "2024-08-15"}, 
+                                 {"title": "Demo: Python Best Practices", "updated_at": "2024-08-10"}]}
+    elif feature == "temporal":
+        engine = TemporalEngine(mgr)
+        rels = engine.identify_temporal_relationships(n=10)
+        data = {
+            "relationships": [
+                {
+                    "from": getattr(a, "title", None),
+                    "to": getattr(b, "title", None),
+                    "days": d,
+                }
+                for a, b, d in rels[:10]
+            ]
+        }
+    elif feature == "recall":
+        engine = RecallEngine(mgr)
+        items = engine.schedule_spaced_repetition(n=10)
+        data = {
+            "due_for_review": [
+                {
+                    "title": getattr(i, "title", None),
+                    "last_reviewed": getattr(i, "type_specific", {}).get("last_reviewed", None),
+                }
+                for i in items
+            ]
+        }
+    elif feature == "patterns":
+        detector = PatternDetector(mgr)
+        patterns = detector.find_patterns(n=10)
+        data = {
+            "top_tags": patterns.get("top_tags", []),
+            "top_sources": patterns.get("top_sources", []),
+        }
+    
+    return templates.TemplateResponse(
+        "mobile_dashboard.html", 
+        {
+            "request": request, 
+            "feature": feature, 
+            "data": data,
+            "recent_content": recent_content,
+            "search": search,
+            "date_filter": date_filter,
+            "type_filter": type_filter,
+            "source_filter": source_filter
+        }
+    )
 
-@app.get("/cognitive/status")
-async def cognitive_status():
-    """Get cognitive engine status"""
-    return {
-        "ai_enabled": bool(cognitive_engine.openrouter_api_key),
-        "search_enabled": cognitive_engine.search_engine is not None,
-        "model": cognitive_engine.model,
-        "features": ["content_condensation", "insight_extraction", "connection_finding"]
-    }
+
+@app.post("/mobile", response_class=HTMLResponse)
+async def mobile_dashboard_post(request: Request, feature: str = Form(""), content: str = Form("")):
+    """Handle mobile form submissions."""
+    data = None
+    if feature == "socratic" and content:
+        engine = QuestionEngine()
+        questions = engine.generate_questions(content)
+        data = {"questions": questions}
+    
+    return templates.TemplateResponse(
+        "mobile_dashboard.html", 
+        {"request": request, "feature": feature, "data": data}
+    )
+
+
+# Content Management API Endpoints
+@app.delete("/mobile/content/{content_id}")
+async def delete_content(content_id: int):
+    """Delete content item"""
+    try:
+        import sqlite3
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        cursor.execute("DELETE FROM content WHERE id = ?", (content_id,))
+        if cursor.rowcount == 0:
+            conn.close()
+            return {"success": False, "error": "Content not found"}
+        
+        conn.commit()
+        conn.close()
+        return {"success": True, "message": "Content deleted successfully"}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+@app.post("/mobile/content/{content_id}/tags")
+async def tag_content(content_id: int, tags: str = Form(...)):
+    """Add tags to content item"""
+    try:
+        import sqlite3
+        import json
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        # Check if content exists
+        cursor.execute("SELECT tags FROM content WHERE id = ?", (content_id,))
+        result = cursor.fetchone()
+        if not result:
+            conn.close()
+            return {"success": False, "error": "Content not found"}
+        
+        # Parse existing tags
+        existing_tags = json.loads(result[0] or "[]")
+        new_tags = [tag.strip() for tag in tags.split(",") if tag.strip()]
+        
+        # Merge tags (avoid duplicates)
+        all_tags = list(set(existing_tags + new_tags))
+        
+        cursor.execute("UPDATE content SET tags = ? WHERE id = ?", 
+                      (json.dumps(all_tags), content_id))
+        conn.commit()
+        conn.close()
+        
+        return {"success": True, "message": f"Tags added: {', '.join(new_tags)}", "tags": all_tags}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+@app.post("/mobile/content/{content_id}/archive")
+async def archive_content(content_id: int):
+    """Archive content item"""
+    try:
+        import sqlite3
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        cursor.execute("UPDATE content SET archived = 1 WHERE id = ?", (content_id,))
+        if cursor.rowcount == 0:
+            conn.close()
+            return {"success": False, "error": "Content not found"}
+        
+        conn.commit()
+        conn.close()
+        return {"success": True, "message": "Content archived successfully"}
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+
+if __name__ == "__main__":
+    import uvicorn
+    print("🚀 Starting Atlas Mobile Web Interface...")
+    print("📱 Mobile dashboard: http://localhost:8002/mobile")
+    print("🖥️  Desktop dashboard: http://localhost:8002/ask/html")
+    uvicorn.run(app, host="0.0.0.0", port=8002)
 

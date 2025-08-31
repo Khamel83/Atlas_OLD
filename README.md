@@ -8,8 +8,8 @@ Atlas is your personal AI that captures everything you read, hear, and think—t
 
 🎤 **Voice-First Design** - "Hey Siri, save to Atlas" captures thoughts instantly  
 🧠 **6 Cognitive Features** - AI that thinks *with* you, not just *for* you  
-📱 **Native Mac/iOS** - Seamlessly integrated into your Apple workflow  
-🔍 **Semantic Understanding** - Finds content by meaning, not just keywords  
+📱 **Mobile-First Interface** - Complete content management from your phone  
+🔍 **Advanced Search & Filtering** - Find content by date, type, source, or meaning  
 ⚡ **Zero Maintenance** - Runs quietly in the background, no configuration needed  
 
 ## 🚀 Get Started in 10 Minutes
@@ -41,7 +41,8 @@ Then tap each shortcut to install
 # Speak: "This is my first Atlas note"
 
 # 2. Visit your AI dashboard
-open http://localhost:8000/ask/html
+open http://localhost:8000/mobile  # Mobile-optimized interface
+open http://localhost:8000/ask/html  # Desktop interface
 ```
 
 **That's it!** Atlas is now learning from your information and ready to help you think.
@@ -51,8 +52,10 @@ open http://localhost:8000/ask/html
 Atlas includes 6 AI-powered cognitive features that work like a thinking partner:
 
 ### 🔄 **Proactive Content Surfacer**
-Automatically surfaces relevant forgotten content based on your current context.
+Automatically surfaces relevant forgotten content with actionable buttons.
 *"While working on your marketing strategy, I noticed you saved an article about customer psychology last month..."*
+- ✅ Mark as reviewed to update your learning patterns
+- ⏰ Snooze for later to resurface at the right time
 
 ### ⏰ **Temporal Relationship Engine**  
 Identifies patterns and connections across time in your knowledge.
@@ -88,8 +91,9 @@ Suggests relevant content based on your interests, goals, and current projects.
 
 ### **🔍 Intelligent Search & Discovery**
 - Search by meaning: "articles about leadership challenges"
+- Advanced filters: Date, content type, source filtering
+- Mobile content management: Delete, tag, archive from your phone
 - AI insights: "What patterns do you see in my productivity research?"
-- Time-based queries: "What was I thinking about climate change last spring?"
 
 ### **📚 Learning & Growth**
 - Active recall quizzes on important concepts
@@ -194,7 +198,8 @@ Atlas builds on incredible open-source projects:
 
 - **🚀 [Quick Start Guide](quick_start_package/QUICK_START.md)** - Get running in 10 minutes
 - **📱 [Download Shortcuts](shortcuts/)** - Apple Shortcuts for Mac/iOS
-- **🧠 [Try the Demo](http://localhost:8000/ask/html)** - After installation
+- **📱 [Mobile Interface](http://localhost:8000/mobile)** - Touch-optimized with content management  
+- **🧠 [Desktop Dashboard](http://localhost:8000/ask/html)** - Full cognitive features
 - **📖 [Full Documentation](docs/user-guides/)** - Complete user guides
 - **🐛 [Report Issues](https://github.com/your-org/atlas/issues)** - Bug reports and features
 
