@@ -18,6 +18,7 @@ import time
 import logging
 from helpers.bulletproof_process_manager import get_manager, create_managed_process
 import psutil
+from dotenv import load_dotenv
 import signal
 import subprocess
 import threading
@@ -43,6 +44,12 @@ class AtlasServiceManager:
             sys.exit(1)
             
         self.config = load_config()
+        
+        # Load environment variables for port configuration
+        load_dotenv()
+        self.api_port = int(os.getenv('API_PORT', 7444))
+        self.api_host = os.getenv('API_HOST', 'localhost')
+        
         self.services = {}
         self.running = False
         self.log_dir = Path("logs")
@@ -81,17 +88,17 @@ class AtlasServiceManager:
     def start_api_server(self) -> bool:
         """Start the Atlas API server"""
         try:
-            if self._is_port_in_use(8000):
-                self.logger.info("API server already running on port 8000")
+            if self._is_port_in_use(self.api_port):
+                self.logger.info(f"API server already running on port {self.api_port}")
                 return True
             
-            self.kill_process_on_port(8000)
+            self.kill_process_on_port(self.api_port)
                 
             cmd = [
                 self.python_executable, "-m", "uvicorn", 
                 "api.main:app", 
                 "--host", "0.0.0.0", 
-                "--port", "8000",
+                "--port", str(self.api_port),
                 "--log-level", "info"
             ]
             
@@ -105,7 +112,7 @@ class AtlasServiceManager:
             
             time.sleep(3)
             
-            if process.poll() is None and self._is_port_in_use(8000):
+            if process.poll() is None and self._is_port_in_use(self.api_port):
                 self.services["api_server"] = {
                     "process": process, "pid": process.pid, "start_time": datetime.now(),
                     "status": "running", "restart_attempts": 0

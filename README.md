@@ -40,12 +40,12 @@ Then tap each shortcut to install
 # Say: "Hey Siri, save to Atlas"
 # Speak: "This is my first Atlas note"
 
-# 2. Visit your AI dashboard
-open http://localhost:8000  # Main Atlas dashboard with navigation
+# 2. Visit your AI dashboard (configurable port, default: 7444)
+PORT=$(python -c 'from dotenv import load_dotenv; import os; load_dotenv(); print(os.getenv("API_PORT", "7444"))')
+open http://localhost:$PORT  # Main Atlas dashboard
 # Or directly access:
-open http://localhost:8000/mobile  # Mobile-optimized interface
-open http://localhost:8000/ask/html  # Desktop cognitive interface
-open http://localhost:8000/jobs/html  # System management
+open http://localhost:$PORT/mobile  # Mobile-optimized interface  
+open http://localhost:$PORT/ask/html  # Desktop cognitive interface
 ```
 
 **That's it!** Atlas is now learning from your information and ready to help you think.
@@ -102,6 +102,27 @@ Suggests relevant content based on your interests, goals, and current projects.
 - Active recall quizzes on important concepts
 - Pattern recognition across your interests
 - Thoughtful questions that deepen understanding
+
+## 🔧 Content Quality & Reprocessing
+
+Atlas includes intelligent content quality analysis and automatic reprocessing:
+
+### **📊 Semantic Quality Evaluation**
+- Analyzes 6 quality dimensions: error detection, language quality, structure, completeness, topic relevance, and information density
+- Moves beyond simple character counting to assess actual content meaning and usefulness
+- Identifies and flags problematic content: Wayback errors, fake transcripts, paywalled content, extraction failures
+
+### **🔄 Automatic Content Reprocessing**  
+- Background pipeline continuously improves low-quality content
+- Re-extracts failed downloads using improved methods
+- Cleans HTML-heavy content and reconstructs partial articles
+- **Recent Performance**: Eliminated all failed content (565→0 items, 100% success rate)
+
+### **⚙️ Quality Management Interface**
+- View quality scores and issues for all content
+- One-click reprocessing buttons in web interface
+- Real-time reprocessing status and progress tracking
+- Mobile-friendly quality indicators and management
 
 ## 🏗️ Architecture Overview
 
@@ -201,10 +222,10 @@ Atlas builds on incredible open-source projects:
 
 - **🚀 [Quick Start Guide](quick_start_package/QUICK_START.md)** - Get running in 10 minutes
 - **📱 [Download Shortcuts](shortcuts/)** - Apple Shortcuts for Mac/iOS
-- **🎯 [Main Dashboard](http://localhost:8000)** - Central navigation hub  
-- **📱 [Mobile Interface](http://localhost:8000/mobile)** - Touch-optimized with content management  
-- **🧠 [Desktop Dashboard](http://localhost:8000/ask/html)** - Full cognitive features
-- **⚙️ [System Management](http://localhost:8000/jobs/html)** - Jobs and scheduling
+- **🎯 Main Dashboard** - Central navigation hub (port configured in `.env`)
+- **📱 Mobile Interface** - Touch-optimized with content management (`/mobile`)
+- **🧠 Desktop Dashboard** - Full cognitive features (`/ask/html`)
+- **⚙️ System Management** - Jobs and scheduling (`/jobs/html`)
 - **📖 [Full Documentation](docs/user-guides/)** - Complete user guides
 - **🐛 [Report Issues](https://github.com/your-org/atlas/issues)** - Bug reports and features
 

@@ -52,4 +52,8 @@ async def shortcuts_redirect():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    import os
+    from dotenv import load_dotenv
+    load_dotenv()
+    api_port = int(os.getenv('API_PORT', 7444))
+    uvicorn.run(app, host="0.0.0.0", port=api_port)

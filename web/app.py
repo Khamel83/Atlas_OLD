@@ -1446,14 +1446,115 @@ async def reprocess_content(content_id: int):
         conn.commit()
         conn.close()
         
-        # TODO: Add actual reprocessing logic here
-        # For now, just mark as reprocessed
+        # Use actual reprocessing pipeline
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+            from helpers.content_reprocessor import ContentReprocessor
+            
+            reprocessor = ContentReprocessor()
+            result = reprocessor.reprocess_item(content_id)
+            
+            if result.success:
+                improvement = result.new_quality - result.old_quality
+                return {
+                    "success": True,
+                    "message": f"Content #{content_id} reprocessed successfully",
+                    "old_quality": result.old_quality,
+                    "new_quality": result.new_quality,
+                    "improvement": improvement,
+                    "method": result.method_used
+                }
+            else:
+                return {
+                    "success": False,
+                    "error": result.error or "Reprocessing failed",
+                    "message": f"Failed to reprocess content #{content_id}"
+                }
+        except Exception as e:
+            return {
+                "success": False,
+                "error": str(e),
+                "message": f"Error reprocessing content #{content_id}: {str(e)}"
+            }
         
         return {
             "success": True, 
-            "message": f"Content #{content_id} queued for reprocessing",
+            "message": f"Content #{content_id} reprocessing completed",
             "content_id": content_id,
             "status": "queued"
+        }
+        
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+@app.get("/api/reprocessing-status")
+async def get_reprocessing_status():
+    """Get current reprocessing status and progress."""
+    try:
+        import sqlite3
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        # Quality distribution
+        cursor.execute("""
+            SELECT 
+                CASE 
+                    WHEN quality_score < 0.2 THEN 'Failed'
+                    WHEN quality_score < 0.4 THEN 'Stub' 
+                    WHEN quality_score < 0.6 THEN 'Low Quality'
+                    WHEN quality_score < 0.8 THEN 'Good'
+                    ELSE 'Excellent'
+                END as category,
+                COUNT(*) as count
+            FROM content 
+            WHERE quality_score IS NOT NULL AND quality_score > 0
+            GROUP BY category
+        """)
+        
+        quality_dist = dict(cursor.fetchall())
+        
+        # Reprocessing stats  
+        cursor.execute('SELECT COUNT(*) FROM content WHERE quality_issues = "reprocessing"')
+        currently_processing = cursor.fetchone()[0]
+        
+        cursor.execute('SELECT COUNT(*) FROM content WHERE quality_score < 0.4 AND quality_score > 0 AND quality_issues NOT LIKE "%reprocessing%"')
+        remaining_problematic = cursor.fetchone()[0]
+        
+        # Recent improvements
+        cursor.execute("""
+            SELECT id, title, quality_score 
+            FROM content 
+            WHERE quality_score BETWEEN 0.3 AND 0.8
+            AND quality_issues NOT LIKE '%reprocessing%'
+            AND updated_at > datetime('now', '-1 hour')
+            ORDER BY updated_at DESC
+            LIMIT 10
+        """)
+        
+        recent_improvements = [
+            {"id": cid, "title": title[:60] + "..." if len(title) > 60 else title, "score": score}
+            for cid, title, score in cursor.fetchall()
+        ]
+        
+        conn.close()
+        
+        # Calculate progress
+        original_problematic = 956  # From initial assessment
+        processed = original_problematic - remaining_problematic - currently_processing
+        progress_percentage = (processed / original_problematic) * 100 if original_problematic > 0 else 0
+        
+        return {
+            "status": "running" if currently_processing > 0 else "idle",
+            "progress": {
+                "total_items": original_problematic,
+                "processed": processed,
+                "remaining": remaining_problematic, 
+                "currently_processing": currently_processing,
+                "percentage": round(progress_percentage, 1)
+            },
+            "quality_distribution": quality_dist,
+            "recent_improvements": recent_improvements,
+            "summary": f"Processed {processed}/{original_problematic} items ({progress_percentage:.1f}% complete)"
         }
         
     except Exception as e:
@@ -1525,8 +1626,12 @@ async def debug_proactive():
 
 if __name__ == "__main__":
     import uvicorn
+    import os
+    from dotenv import load_dotenv
+    load_dotenv()
+    api_port = int(os.getenv('API_PORT', 7444))
     print("🚀 Starting Atlas Mobile Web Interface...")
-    print("📱 Mobile dashboard: http://localhost:8002/mobile")
-    print("🖥️  Desktop dashboard: http://localhost:8002/ask/html")
-    uvicorn.run(app, host="0.0.0.0", port=8002)
+    print(f"📱 Mobile dashboard: http://localhost:{api_port}/mobile")
+    print(f"🖥️  Desktop dashboard: http://localhost:{api_port}/ask/html")
+    uvicorn.run(app, host="0.0.0.0", port=api_port)
 

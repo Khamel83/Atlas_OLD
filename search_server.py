@@ -190,4 +190,8 @@ async def get_stats():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8002)
+    import os
+    from dotenv import load_dotenv
+    load_dotenv()
+    search_port = int(os.getenv('API_PORT', 7444)) + 1  # Use API_PORT + 1 for search
+    uvicorn.run(app, host="0.0.0.0", port=search_port)
