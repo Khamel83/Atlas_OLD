@@ -206,10 +206,10 @@ def root():
                     <div class="dashboard-description">6 AI-powered features: proactive surfacing, temporal analysis, Socratic questions, active recall</div>
                 </a>
                 
-                <a href="/jobs/html" class="dashboard-card">
-                    <div class="dashboard-icon">⚙️</div>
-                    <div class="dashboard-title">System Management</div>
-                    <div class="dashboard-description">Background jobs, scheduling, ingestion pipelines, and system monitoring</div>
+                <a href="/system" class="dashboard-card">
+                    <div class="dashboard-icon">📊</div>
+                    <div class="dashboard-title">System Overview</div>
+                    <div class="dashboard-description">Content statistics, recent activity, system health, and quick actions</div>
                 </a>
             </div>
             
@@ -637,7 +637,7 @@ async def mobile_dashboard(request: Request, feature: str = "", search: str = ""
         # Find content older than 2 days that user might want to revisit
         days_ago = (datetime.now() - timedelta(days=2)).isoformat()
         cursor.execute("""
-            SELECT title, created_at, content_type
+            SELECT id, title, created_at, content_type
             FROM content 
             WHERE created_at < ? AND title IS NOT NULL AND title != ''
             ORDER BY RANDOM()
@@ -652,9 +652,10 @@ async def mobile_dashboard(request: Request, feature: str = "", search: str = ""
             data = {
                 "forgotten": [
                     {
-                        "title": row[0][:80] + "..." if len(row[0]) > 80 else row[0],
-                        "updated_at": row[1][:10],
-                        "type": row[2] or "article"
+                        "id": row[0],
+                        "title": row[1][:80] + "..." if len(row[1]) > 80 else row[1],
+                        "updated_at": row[2][:10],
+                        "type": row[3] or "article"
                     }
                     for row in results
                 ]
@@ -916,6 +917,379 @@ async def metrics():
             "status": "unhealthy",
             "error": str(e)
         }
+
+@app.get("/content/{content_id}", response_class=HTMLResponse)
+async def view_content(content_id: int):
+    """Display full content for reading."""
+    try:
+        import sqlite3
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            SELECT id, title, content, url, content_type, created_at 
+            FROM content 
+            WHERE id = ?
+        """, (content_id,))
+        
+        row = cursor.fetchone()
+        conn.close()
+        
+        if not row:
+            return "<h1>Content not found</h1>"
+        
+        content_data = {
+            'id': row[0],
+            'title': row[1] or 'Untitled',
+            'content': row[2] or 'No content available',
+            'url': row[3],
+            'content_type': row[4] or 'unknown',
+            'created_at': row[5][:10] if row[5] else 'Unknown'
+        }
+        
+        # Format content for better reading
+        content = content_data['content']
+        podcast_metadata = {}
+        
+        if content_data['content_type'] == 'podcast':
+            # Parse podcast metadata from content
+            import re
+            lines = content.split('\n')
+            
+            for line in lines[:10]:  # Check first 10 lines for metadata
+                if line.startswith('Title: '):
+                    podcast_metadata['show_title'] = line[7:].strip()
+                elif line.startswith('Author: '):
+                    podcast_metadata['author'] = line[8:].strip()
+                elif line.startswith('Published: '):
+                    podcast_metadata['published'] = line[11:].strip()
+                elif line.startswith('Summary: '):
+                    podcast_metadata['summary'] = line[9:].strip()
+            
+            # Skip metadata section and format transcript
+            transcript_start = 0
+            for i, line in enumerate(lines):
+                if line.strip() == '' and i > 5:  # First empty line after metadata
+                    transcript_start = i + 1
+                    break
+            
+            transcript_content = '\n'.join(lines[transcript_start:])
+            content = transcript_content.replace('\n\n', '<br><br>').replace('\n', '<br>')
+        else:
+            # For articles, preserve paragraphs
+            paragraphs = content.split('\n\n')
+            content = '<p>' + '</p><p>'.join([p.replace('\n', '<br>') for p in paragraphs if p.strip()]) + '</p>'
+        
+        return f"""
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>{content_data['title']} - Atlas</title>
+            <style>
+                body {{
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                    line-height: 1.6;
+                    max-width: 800px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    background: #f5f5f5;
+                }}
+                .header {{
+                    background: white;
+                    padding: 20px;
+                    border-radius: 10px;
+                    margin-bottom: 20px;
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                }}
+                .content {{
+                    background: white;
+                    padding: 30px;
+                    border-radius: 10px;
+                    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                    font-size: 16px;
+                    line-height: 1.8;
+                }}
+                .meta {{
+                    color: #666;
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }}
+                .back-link {{
+                    color: #007AFF;
+                    text-decoration: none;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+                    display: inline-block;
+                }}
+                .back-link:hover {{
+                    text-decoration: underline;
+                }}
+                h1 {{
+                    color: #333;
+                    margin-bottom: 10px;
+                }}
+                p {{
+                    margin-bottom: 15px;
+                }}
+                .transcript-marker {{
+                    color: #007AFF;
+                    font-weight: bold;
+                    background: #f0f8ff;
+                    padding: 2px 8px;
+                    border-radius: 4px;
+                    font-size: 12px;
+                }}
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <a href="/mobile" class="back-link">← Back to Atlas</a>
+                <h1>{podcast_metadata.get('show_title', content_data['title'])}</h1>
+                <div class="meta">
+                    {'<span class="transcript-marker">PODCAST TRANSCRIPT</span>' if content_data['content_type'] == 'podcast' else ''}
+                    {f'<br><strong>Host:</strong> {podcast_metadata["author"]}' if podcast_metadata.get('author') else ''}
+                    {f'<br><strong>Published:</strong> {podcast_metadata["published"][:16]}' if podcast_metadata.get('published') else f'<br><strong>Added:</strong> {content_data["created_at"]}'}
+                    {f'<br><strong>Summary:</strong> {podcast_metadata["summary"][:200]}{"..." if len(podcast_metadata.get("summary", "")) > 200 else ""}' if podcast_metadata.get('summary') else ''}
+                    {f' • <a href="{content_data["url"]}" target="_blank">Original Source</a>' if content_data['url'] and not content_data['url'].startswith('inputs/') else ''}
+                </div>
+            </div>
+            <div class="content">
+                {content[:50000]}
+                {'<br><br><em>[Content truncated at 50,000 characters for performance]</em>' if len(content) > 50000 else ''}
+            </div>
+        </body>
+        </html>
+        """
+        
+    except Exception as e:
+        return f"<h1>Error loading content: {e}</h1>"
+
+@app.get("/system", response_class=HTMLResponse)
+async def system_overview():
+    """Useful system overview dashboard for users."""
+    try:
+        import sqlite3
+        from datetime import datetime, timedelta
+        import psutil
+        
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        # Get content statistics
+        cursor.execute("SELECT COUNT(*) FROM content")
+        total_content = cursor.fetchone()[0]
+        
+        cursor.execute("SELECT COUNT(*) FROM content WHERE content_type = 'podcast'")
+        podcast_count = cursor.fetchone()[0]
+        
+        cursor.execute("SELECT COUNT(*) FROM content WHERE (content_type IS NULL OR content_type = '')")
+        article_count = cursor.fetchone()[0]
+        
+        # Recent activity (last 7 days)
+        week_ago = (datetime.now() - timedelta(days=7)).isoformat()
+        cursor.execute("SELECT COUNT(*) FROM content WHERE created_at > ?", (week_ago,))
+        recent_additions = cursor.fetchone()[0]
+        
+        # Get latest additions with titles
+        cursor.execute("""
+            SELECT title, created_at, content_type 
+            FROM content 
+            WHERE title IS NOT NULL AND title != '' 
+            ORDER BY created_at DESC 
+            LIMIT 5
+        """)
+        latest_content = cursor.fetchall()
+        
+        # Get most common content types
+        cursor.execute("""
+            SELECT 
+                CASE 
+                    WHEN content_type IS NULL OR content_type = '' THEN 'articles'
+                    ELSE content_type || 's'
+                END as type_display,
+                COUNT(*) as count
+            FROM content 
+            GROUP BY content_type 
+            ORDER BY count DESC
+        """)
+        content_breakdown = cursor.fetchall()
+        
+        conn.close()
+        
+        # System info
+        memory_info = psutil.virtual_memory()
+        disk_info = psutil.disk_usage('/')
+        
+        return f"""
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Atlas System Overview</title>
+            <style>
+                body {{
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                    line-height: 1.6;
+                    margin: 0;
+                    padding: 20px;
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    color: white;
+                    min-height: 100vh;
+                }}
+                .container {{
+                    max-width: 1000px;
+                    margin: 0 auto;
+                }}
+                .header {{
+                    text-align: center;
+                    margin-bottom: 2rem;
+                }}
+                .back-link {{
+                    color: rgba(255,255,255,0.8);
+                    text-decoration: none;
+                    display: inline-block;
+                    margin-bottom: 1rem;
+                }}
+                .back-link:hover {{
+                    color: white;
+                }}
+                .stats-grid {{
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                    gap: 1rem;
+                    margin-bottom: 2rem;
+                }}
+                .stat-card {{
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 10px;
+                    padding: 1.5rem;
+                    text-align: center;
+                    backdrop-filter: blur(10px);
+                }}
+                .stat-number {{
+                    font-size: 2rem;
+                    font-weight: bold;
+                    margin-bottom: 0.5rem;
+                }}
+                .stat-label {{
+                    opacity: 0.8;
+                    font-size: 0.9rem;
+                }}
+                .section {{
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 15px;
+                    padding: 2rem;
+                    margin-bottom: 2rem;
+                    backdrop-filter: blur(10px);
+                }}
+                .section h2 {{
+                    margin-top: 0;
+                    border-bottom: 2px solid rgba(255,255,255,0.2);
+                    padding-bottom: 0.5rem;
+                }}
+                .recent-item {{
+                    background: rgba(255, 255, 255, 0.05);
+                    border-radius: 8px;
+                    padding: 1rem;
+                    margin-bottom: 0.5rem;
+                    border-left: 3px solid rgba(255,255,255,0.3);
+                }}
+                .item-title {{
+                    font-weight: 600;
+                    margin-bottom: 0.25rem;
+                }}
+                .item-meta {{
+                    font-size: 0.85rem;
+                    opacity: 0.7;
+                }}
+                .breakdown-item {{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0.5rem 0;
+                    border-bottom: 1px solid rgba(255,255,255,0.1);
+                }}
+                .breakdown-item:last-child {{
+                    border-bottom: none;
+                }}
+                .health-indicator {{
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    background: #4ade80;
+                    margin-right: 0.5rem;
+                }}
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="header">
+                    <a href="/" class="back-link">← Back to Atlas Dashboard</a>
+                    <h1>📊 System Overview</h1>
+                    <p><span class="health-indicator"></span>Atlas is running smoothly</p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">{total_content:,}</div>
+                        <div class="stat-label">Total Items</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">{recent_additions}</div>
+                        <div class="stat-label">Added This Week</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">{memory_info.percent:.1f}%</div>
+                        <div class="stat-label">Memory Usage</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">{disk_info.percent:.1f}%</div>
+                        <div class="stat-label">Disk Usage</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>📚 Content Library</h2>
+                    {''.join([f'<div class="breakdown-item"><span>{row[0].title()}</span><span>{row[1]:,}</span></div>' for row in content_breakdown])}
+                </div>
+                
+                <div class="section">
+                    <h2>🆕 Recently Added</h2>
+                    {''.join([f'''
+                    <div class="recent-item">
+                        <div class="item-title">{row[0][:80]}{"..." if len(row[0]) > 80 else ""}</div>
+                        <div class="item-meta">{row[2] or "article"} • Added {row[1][:10]}</div>
+                    </div>
+                    ''' for row in latest_content])}
+                </div>
+                
+                <div class="section">
+                    <h2>🔗 Quick Actions</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                        <a href="/mobile" style="display: block; background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 8px; text-decoration: none; color: white; text-align: center;">
+                            📱 Browse Content
+                        </a>
+                        <a href="/ask/html" style="display: block; background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 8px; text-decoration: none; color: white; text-align: center;">
+                            🧠 Cognitive Features
+                        </a>
+                        <a href="/metrics" style="display: block; background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 8px; text-decoration: none; color: white; text-align: center;">
+                            📈 System Metrics
+                        </a>
+                        <a href="https://github.com/Khamel83/atlas" target="_blank" style="display: block; background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 8px; text-decoration: none; color: white; text-align: center;">
+                            🔗 GitHub Repository
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+        """
+        
+    except Exception as e:
+        return f"<h1>Error loading system overview: {e}</h1>"
 
 @app.get("/debug/proactive")
 async def debug_proactive():
