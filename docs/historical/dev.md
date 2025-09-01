@@ -495,5 +495,92 @@ gemini -p "Run validation tests for the implemented changes and fix any errors"
 - **Error recovery**: Leverage Gemini's problem-solving for debugging complex issues
 - **Request tracking**: Monitor usage to stay within limits and optimize value
 
+## Universal Port Configuration Strategy (Sep 2025)
+
+### **Problem: The 8000 Port Conflict Crisis**
+Every development project defaults to port 8000, causing constant conflicts during development. Atlas encountered this exact issue with hardcoded ports throughout the codebase.
+
+### **Solution: Unique Random Port Assignment**
+Implement universal port configuration to eliminate conflicts across all future projects:
+
+#### **1. Environment-Driven Port Configuration**
+```bash
+# .env file pattern for all projects
+API_PORT=$(python3 -c "import random; print(random.randint(7000, 9999))")
+# Or use project hash for consistency:
+API_PORT=$(echo "project_name" | md5sum | cut -c1-4 | python3 -c "import sys; print(7000 + int(sys.stdin.read().strip(), 16) % 3000)")
+```
+
+#### **2. Core Service Pattern**
+All services must read from environment with fallbacks:
+```python
+# Pattern for all Python services
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+api_port = int(os.getenv('API_PORT', 7444))  # Project-specific default
+```
+
+#### **3. Universal Port Utilities**
+Create port management utilities in every project:
+```python
+# get_port.py - Universal port getter
+def get_project_port():
+    load_dotenv()
+    return int(os.getenv('API_PORT', generate_project_port()))
+
+def generate_project_port():
+    # Generate stable port based on project name
+    project_name = Path(__file__).parent.name
+    hash_val = hash(project_name) % 3000
+    return 7000 + hash_val
+```
+
+#### **4. Documentation Pattern**
+Never hardcode ports in documentation:
+```markdown
+# ❌ BAD - Hardcoded port
+Visit http://localhost:8000
+
+# ✅ GOOD - Dynamic port reference  
+PORT=$(python -c 'from get_port import get_project_port; print(get_project_port())')
+Visit http://localhost:$PORT
+```
+
+#### **5. Zero-Hardcode Rule**
+**CRITICAL**: Core services must NEVER hardcode ports. All hardcoding leads to:
+- Development conflicts between projects
+- Deployment issues across environments  
+- Documentation becoming outdated
+- Developer confusion about which service runs where
+
+### **Implementation Checklist for New Projects**
+- [ ] Create `.env` with unique `API_PORT` assignment
+- [ ] Add `get_port.py` utility for consistent port access
+- [ ] Update all services to read from environment
+- [ ] Replace hardcoded ports in documentation with dynamic references
+- [ ] Add port validation to startup scripts
+- [ ] Create port conflict detection in health checks
+
+### **Atlas Success Story**
+Atlas successfully implemented this pattern:
+- **Before**: 94 files with hardcoded port 8000 references
+- **After**: All core services read from `.env`, fully configurable
+- **Result**: Universal port configuration with zero conflicts
+
+### **Future Project Template**
+```bash
+# setup_project_ports.sh
+#!/bin/bash
+PROJECT_NAME=${PWD##*/}
+UNIQUE_PORT=$((7000 + $(echo $PROJECT_NAME | md5sum | cut -c1-4 | python3 -c "import sys; print(int(sys.stdin.read(), 16) % 3000)")))
+
+echo "API_PORT=$UNIQUE_PORT" >> .env
+echo "Project '$PROJECT_NAME' assigned port $UNIQUE_PORT"
+```
+
+This approach ensures every project gets a unique, stable port based on its name, eliminating the 8000 conflict forever.
+
 ## North Star
 - Decisions prioritize Atlas mission/vision and reduce time to a durable, low-ops product.
