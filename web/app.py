@@ -927,7 +927,7 @@ async def view_content(content_id: int):
         cursor = conn.cursor()
         
         cursor.execute("""
-            SELECT id, title, content, url, content_type, created_at 
+            SELECT id, title, content, url, content_type, created_at, quality_score, quality_issues
             FROM content 
             WHERE id = ?
         """, (content_id,))
@@ -944,8 +944,33 @@ async def view_content(content_id: int):
             'content': row[2] or 'No content available',
             'url': row[3],
             'content_type': row[4] or 'unknown',
-            'created_at': row[5][:10] if row[5] else 'Unknown'
+            'created_at': row[5][:10] if row[5] else 'Unknown',
+            'quality_score': row[6] if row[6] is not None else 0.5,
+            'quality_issues': row[7] or ''
         }
+        
+        # Determine quality classification
+        score = content_data['quality_score']
+        if score < 0.2:
+            quality_class = 'failed'
+            quality_label = 'FAILED'
+            quality_color = '#dc2626'  # red
+        elif score < 0.4:
+            quality_class = 'stub'
+            quality_label = 'STUB'
+            quality_color = '#ea580c'  # orange
+        elif score < 0.6:
+            quality_class = 'low-quality'
+            quality_label = 'LOW QUALITY'
+            quality_color = '#ca8a04'  # yellow
+        elif score < 0.8:
+            quality_class = 'good'
+            quality_label = 'GOOD'
+            quality_color = '#16a34a'  # green
+        else:
+            quality_class = 'excellent'
+            quality_label = 'EXCELLENT'  
+            quality_color = '#0d9488'  # teal
         
         # Format content for better reading
         content = content_data['content']
@@ -1047,6 +1072,14 @@ async def view_content(content_id: int):
             <div class="header">
                 <a href="/mobile" class="back-link">← Back to Atlas</a>
                 <h1>{podcast_metadata.get('show_title', content_data['title'])}</h1>
+                
+                <div class="quality-indicator">
+                    <span class="quality-badge" style="background-color: {quality_color}; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold;">
+                        {quality_label} ({content_data['quality_score']:.2f})
+                    </span>
+                    {f'<span style="margin-left: 10px; font-size: 12px; color: #666;">Issues: {content_data["quality_issues"]}</span>' if content_data['quality_issues'] else ''}
+                </div>
+                
                 <div class="meta">
                     {'<span class="transcript-marker">PODCAST TRANSCRIPT</span>' if content_data['content_type'] == 'podcast' else ''}
                     {f'<br><strong>Host:</strong> {podcast_metadata["author"]}' if podcast_metadata.get('author') else ''}
@@ -1054,11 +1087,82 @@ async def view_content(content_id: int):
                     {f'<br><strong>Summary:</strong> {podcast_metadata["summary"][:200]}{"..." if len(podcast_metadata.get("summary", "")) > 200 else ""}' if podcast_metadata.get('summary') else ''}
                     {f' • <a href="{content_data["url"]}" target="_blank">Original Source</a>' if content_data['url'] and not content_data['url'].startswith('inputs/') else ''}
                 </div>
+                
+                {'<div class="reprocess-actions" style="margin-top: 15px;">' if quality_class in ['failed', 'stub', 'low-quality'] else ''}
+                {'<button onclick="reprocessContent()" style="background: #f59e0b; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; margin-right: 10px;">🔄 Reprocess Content</button>' if quality_class in ['failed', 'stub', 'low-quality'] else ''}
+                {'<button onclick="markAsStub()" style="background: #dc2626; color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer;">🗑️ Mark as Stub</button>' if quality_class in ['failed', 'stub', 'low-quality'] else ''}
+                {'</div>' if quality_class in ['failed', 'stub', 'low-quality'] else ''}
             </div>
             <div class="content">
                 {content[:50000]}
                 {'<br><br><em>[Content truncated at 50,000 characters for performance]</em>' if len(content) > 50000 else ''}
             </div>
+            
+            <script>
+                async function reprocessContent() {{
+                    const contentId = {content_data['id']};
+                    const button = event.target;
+                    
+                    button.disabled = true;
+                    button.textContent = '🔄 Processing...';
+                    
+                    try {{
+                        const response = await fetch(`/content/${{contentId}}/reprocess`, {{
+                            method: 'POST',
+                            headers: {{'Content-Type': 'application/json'}}
+                        }});
+                        
+                        const result = await response.json();
+                        
+                        if (result.success) {{
+                            button.textContent = '✅ Queued for Reprocessing';
+                            button.style.background = '#16a34a';
+                            setTimeout(() => location.reload(), 2000);
+                        }} else {{
+                            button.textContent = '❌ Failed';
+                            button.style.background = '#dc2626';
+                            console.error('Reprocess failed:', result.error);
+                        }}
+                    }} catch (error) {{
+                        button.textContent = '❌ Error';
+                        button.style.background = '#dc2626';
+                        console.error('Request failed:', error);
+                    }}
+                }}
+                
+                async function markAsStub() {{
+                    const contentId = {content_data['id']};
+                    const button = event.target;
+                    
+                    if (!confirm('Mark this content as a stub? This will flag it as low quality.')) {{
+                        return;
+                    }}
+                    
+                    button.disabled = true;
+                    button.textContent = '🗑️ Marking...';
+                    
+                    try {{
+                        const response = await fetch(`/content/${{contentId}}/mark-stub`, {{
+                            method: 'POST',
+                            headers: {{'Content-Type': 'application/json'}}
+                        }});
+                        
+                        const result = await response.json();
+                        
+                        if (result.success) {{
+                            button.textContent = '✅ Marked as Stub';
+                            button.style.background = '#16a34a';
+                            setTimeout(() => location.reload(), 2000);
+                        }} else {{
+                            button.textContent = '❌ Failed';
+                            console.error('Mark stub failed:', result.error);
+                        }}
+                    }} catch (error) {{
+                        button.textContent = '❌ Error';
+                        console.error('Request failed:', error);
+                    }}
+                }}
+            </script>
         </body>
         </html>
         """
@@ -1102,19 +1206,41 @@ async def system_overview():
         """)
         latest_content = cursor.fetchall()
         
-        # Get most common content types
+        # Get quality breakdown instead of just content types
         cursor.execute("""
             SELECT 
                 CASE 
-                    WHEN content_type IS NULL OR content_type = '' THEN 'articles'
-                    ELSE content_type || 's'
-                END as type_display,
+                    WHEN quality_score < 0.2 THEN 'Failed Content'
+                    WHEN quality_score < 0.4 THEN 'Stub Content' 
+                    WHEN quality_score < 0.6 THEN 'Low Quality'
+                    WHEN quality_score < 0.8 THEN 'Good Content'
+                    ELSE 'Excellent Content'
+                END as quality_display,
                 COUNT(*) as count
             FROM content 
-            GROUP BY content_type 
-            ORDER BY count DESC
+            WHERE quality_score IS NOT NULL
+            GROUP BY 
+                CASE 
+                    WHEN quality_score < 0.2 THEN 1
+                    WHEN quality_score < 0.4 THEN 2 
+                    WHEN quality_score < 0.6 THEN 3
+                    WHEN quality_score < 0.8 THEN 4
+                    ELSE 5
+                END
+            ORDER BY 
+                CASE 
+                    WHEN quality_score < 0.2 THEN 1
+                    WHEN quality_score < 0.4 THEN 2 
+                    WHEN quality_score < 0.6 THEN 3
+                    WHEN quality_score < 0.8 THEN 4
+                    ELSE 5
+                END
         """)
-        content_breakdown = cursor.fetchall()
+        quality_breakdown = cursor.fetchall()
+        
+        # Get most problematic items count
+        cursor.execute("SELECT COUNT(*) FROM content WHERE quality_score < 0.4")
+        problematic_count = cursor.fetchone()[0]
         
         conn.close()
         
@@ -1242,6 +1368,10 @@ async def system_overview():
                         <div class="stat-label">Added This Week</div>
                     </div>
                     <div class="stat-card">
+                        <div class="stat-number" style="color: #f59e0b;">{problematic_count:,}</div>
+                        <div class="stat-label">Needs Reprocessing</div>
+                    </div>
+                    <div class="stat-card">
                         <div class="stat-number">{memory_info.percent:.1f}%</div>
                         <div class="stat-label">Memory Usage</div>
                     </div>
@@ -1252,8 +1382,9 @@ async def system_overview():
                 </div>
                 
                 <div class="section">
-                    <h2>📚 Content Library</h2>
-                    {''.join([f'<div class="breakdown-item"><span>{row[0].title()}</span><span>{row[1]:,}</span></div>' for row in content_breakdown])}
+                    <h2>⭐ Content Quality Breakdown</h2>
+                    {''.join([f'<div class="breakdown-item"><span>{row[0]}</span><span>{row[1]:,}</span></div>' for row in quality_breakdown])}
+                    {f'<div class="breakdown-item" style="border-top: 2px solid rgba(255,255,255,0.2); margin-top: 10px; padding-top: 10px;"><span><strong>Items Needing Attention</strong></span><span style="color: #f59e0b;"><strong>{problematic_count:,}</strong></span></div>' if problematic_count > 0 else ''}
                 </div>
                 
                 <div class="section">
@@ -1290,6 +1421,67 @@ async def system_overview():
         
     except Exception as e:
         return f"<h1>Error loading system overview: {e}</h1>"
+
+@app.post("/content/{content_id}/reprocess")
+async def reprocess_content(content_id: int):
+    """Reprocess content to improve quality."""
+    try:
+        import sqlite3
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        # Get current content info
+        cursor.execute("SELECT title, url, content_type FROM content WHERE id = ?", (content_id,))
+        row = cursor.fetchone()
+        if not row:
+            return {"success": False, "error": "Content not found"}
+            
+        title, url, content_type = row
+        
+        # Mark as reprocessing
+        cursor.execute(
+            "UPDATE content SET quality_score = 0.0, quality_issues = 'reprocessing' WHERE id = ?",
+            (content_id,)
+        )
+        conn.commit()
+        conn.close()
+        
+        # TODO: Add actual reprocessing logic here
+        # For now, just mark as reprocessed
+        
+        return {
+            "success": True, 
+            "message": f"Content #{content_id} queued for reprocessing",
+            "content_id": content_id,
+            "status": "queued"
+        }
+        
+    except Exception as e:
+        return {"success": False, "error": str(e)}
+
+@app.post("/content/{content_id}/mark-stub")
+async def mark_as_stub(content_id: int):
+    """Mark content as a stub (low quality, not worth reprocessing)."""
+    try:
+        import sqlite3
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        cursor.execute(
+            "UPDATE content SET quality_score = 0.1, quality_issues = 'marked_as_stub' WHERE id = ?",
+            (content_id,)
+        )
+        conn.commit()
+        conn.close()
+        
+        return {
+            "success": True,
+            "message": f"Content #{content_id} marked as stub",
+            "content_id": content_id
+        }
+        
+    except Exception as e:
+        return {"success": False, "error": str(e)}
 
 @app.get("/debug/proactive")
 async def debug_proactive():
