@@ -337,27 +337,42 @@ class PatternDetector:
     def find_patterns(self, n=3):
         """Legacy method for backward compatibility."""
         try:
-            # Use new method but format for old API
-            tag_patterns = self.detect_tag_patterns(min_frequency=1)
-
-            # Convert to old format
-            top_tags = list(tag_patterns["tag_frequencies"].items())[:n]
-
-            # Get source patterns
-            if hasattr(self.metadata_manager, 'get_temporal_patterns'):
-                temporal_patterns = self.metadata_manager.get_temporal_patterns()
-                content_type_trends = temporal_patterns.get("content_type_trends", {})
-
-                # Aggregate source counts across time periods
-                source_counter = Counter()
-                for period_data in content_type_trends.values():
-                    source_counter.update(period_data)
-
-                top_sources = source_counter.most_common(n)
-            else:
-                # Fallback source analysis
-                top_sources = self._basic_source_analysis(n)
-
+            import sqlite3
+            from urllib.parse import urlparse
+            from collections import Counter
+            
+            conn = sqlite3.connect('atlas.db')
+            cursor = conn.cursor()
+            
+            # Get top sources by domain
+            cursor.execute("""
+                SELECT url, COUNT(*) as count 
+                FROM content 
+                WHERE url IS NOT NULL AND url != '' 
+                GROUP BY url 
+                ORDER BY count DESC 
+                LIMIT ?
+            """, (n * 3,))  # Get more to process domains
+            
+            domain_counter = Counter()
+            for row in cursor.fetchall():
+                domain = urlparse(row[0]).netloc or "unknown"
+                domain_counter[domain] += row[1]
+            
+            top_sources = domain_counter.most_common(n)
+            
+            # Get content type patterns as "tags"
+            cursor.execute("""
+                SELECT content_type, COUNT(*) as count 
+                FROM content 
+                GROUP BY content_type 
+                ORDER BY count DESC 
+                LIMIT ?
+            """, (n,))
+            
+            top_tags = [(row[0] or "unknown", row[1]) for row in cursor.fetchall()]
+            
+            conn.close()
             return {"top_tags": top_tags, "top_sources": top_sources}
             
         except Exception as e:

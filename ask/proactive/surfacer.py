@@ -55,7 +55,7 @@ class SurfacingContext:
         if self.recent_queries is None:
             self.recent_queries = []
         if self.content_types is None:
-            self.content_types = ["article", "podcast", "video"]
+            self.content_types = []  # Empty list means no content type filtering
 
 
 class ProactiveSurfacer:
@@ -265,10 +265,8 @@ class ProactiveSurfacer:
                 where_clause = "WHERE " + " AND ".join(where_clauses)
             
             query = f"""
-            SELECT c.id, c.title, c.content, c.content_type, c.url, c.created_at,
-                   ci.summary, ci.key_topics, ci.entities, ci.sentiment, ci.extraction_quality
+            SELECT c.id, c.title, c.content, c.content_type, c.url, c.created_at
             FROM content c
-            LEFT JOIN content_insights ci ON c.id = ci.content_id
             {where_clause}
             ORDER BY c.created_at DESC
             LIMIT ?
@@ -282,17 +280,10 @@ class ProactiveSurfacer:
             content_items = []
             for row in rows:
                 item = dict(row)
-                # Parse JSON fields if they exist
-                if item['key_topics']:
-                    try:
-                        item['topics'] = json.loads(item['key_topics'])
-                    except:
-                        item['topics'] = []
-                if item['entities']:
-                    try:
-                        item['entities'] = json.loads(item['entities'])
-                    except:
-                        item['entities'] = []
+                # Set default values for missing insight fields
+                item['topics'] = []
+                item['entities'] = []
+                item['extraction_quality'] = 0.5  # Default quality score
                 content_items.append(item)
             
             conn.close()

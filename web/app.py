@@ -869,6 +869,54 @@ async def archive_content(content_id: int):
     except Exception as e:
         return {"success": False, "error": str(e)}
 
+@app.get("/metrics", response_class=JSONResponse)
+async def metrics():
+    """System metrics endpoint for monitoring."""
+    import sqlite3
+    import psutil
+    from datetime import datetime
+    
+    try:
+        # Database metrics
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        # Count total content items
+        cursor.execute("SELECT COUNT(*) FROM content")
+        total_content = cursor.fetchone()[0]
+        
+        # Count recent content (last 24 hours)
+        from datetime import timedelta
+        yesterday = (datetime.now() - timedelta(days=1)).isoformat()
+        cursor.execute("SELECT COUNT(*) FROM content WHERE created_at > ?", (yesterday,))
+        recent_content = cursor.fetchone()[0]
+        
+        conn.close()
+        
+        # System metrics
+        memory_info = psutil.virtual_memory()
+        disk_info = psutil.disk_usage('/')
+        
+        return {
+            "timestamp": datetime.now().isoformat(),
+            "service": "atlas-web",
+            "status": "healthy",
+            "metrics": {
+                "content_total": total_content,
+                "content_recent_24h": recent_content,
+                "memory_used_percent": memory_info.percent,
+                "disk_used_percent": disk_info.percent,
+                "uptime_seconds": psutil.boot_time()
+            }
+        }
+    except Exception as e:
+        return {
+            "timestamp": datetime.now().isoformat(),
+            "service": "atlas-web", 
+            "status": "unhealthy",
+            "error": str(e)
+        }
+
 @app.get("/debug/proactive")
 async def debug_proactive():
     """Debug proactive content surfacing."""
