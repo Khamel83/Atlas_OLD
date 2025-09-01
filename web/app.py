@@ -626,19 +626,41 @@ async def mobile_dashboard(request: Request, feature: str = "", search: str = ""
     
     # Handle cognitive features (same logic as desktop)
     elif feature == "proactive":
-        try:
-            surfacer = ProactiveSurfacer(mgr)
-            forgotten = surfacer.surface_forgotten_content(n=10)
+        # Get real old content that user might have forgotten
+        import sqlite3
+        import random
+        from datetime import datetime, timedelta
+        
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        # Find content older than 2 days that user might want to revisit
+        days_ago = (datetime.now() - timedelta(days=2)).isoformat()
+        cursor.execute("""
+            SELECT title, created_at, content_type
+            FROM content 
+            WHERE created_at < ? AND title IS NOT NULL AND title != ''
+            ORDER BY RANDOM()
+            LIMIT 10
+        """, (days_ago,))
+        
+        results = cursor.fetchall()
+        conn.close()
+        
+        
+        if results:
             data = {
                 "forgotten": [
-                    {"title": getattr(f, "title", "Untitled"), "updated_at": getattr(f, "updated_at", "Unknown")}
-                    for f in forgotten
+                    {
+                        "title": row[0][:80] + "..." if len(row[0]) > 80 else row[0],
+                        "updated_at": row[1][:10],
+                        "type": row[2] or "article"
+                    }
+                    for row in results
                 ]
             }
-        except Exception as e:
-            print(f"Proactive error: {e}")
-            data = {"forgotten": [{"title": "Demo: Machine Learning Article", "updated_at": "2024-08-15"}, 
-                                 {"title": "Demo: Python Best Practices", "updated_at": "2024-08-10"}]}
+        else:
+            data = {"forgotten": [{"title": "No older content found - try refreshing!", "updated_at": "Debug", "type": "info"}]}
     elif feature == "temporal":
         engine = TemporalEngine(mgr)
         rels = engine.identify_temporal_relationships(n=10)
@@ -653,23 +675,97 @@ async def mobile_dashboard(request: Request, feature: str = "", search: str = ""
             ]
         }
     elif feature == "recall":
-        engine = RecallEngine(mgr)
-        items = engine.schedule_spaced_repetition(n=10)
-        data = {
-            "due_for_review": [
-                {
-                    "title": getattr(i, "title", None),
-                    "last_reviewed": getattr(i, "type_specific", {}).get("last_reviewed", None),
-                }
-                for i in items
-            ]
-        }
+        # Get content from 1-4 weeks ago for spaced repetition review
+        import sqlite3
+        from datetime import datetime, timedelta
+        
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        # Find content from 1-3 days ago for review  
+        start_date = (datetime.now() - timedelta(days=3)).isoformat()
+        end_date = (datetime.now() - timedelta(days=1)).isoformat()
+        
+        cursor.execute("""
+            SELECT title, created_at, content_type, url
+            FROM content 
+            WHERE created_at BETWEEN ? AND ?
+              AND title IS NOT NULL AND title != ''
+            ORDER BY RANDOM()
+            LIMIT 10
+        """, (start_date, end_date))
+        
+        results = cursor.fetchall()
+        conn.close()
+        
+        if results:
+            data = {
+                "due_for_review": [
+                    {
+                        "title": row[0][:60] + "..." if len(row[0]) > 60 else row[0],
+                        "last_reviewed": f"Saved {row[1][:10]}",
+                        "type": row[2] or "article",
+                        "url": row[3]
+                    }
+                    for row in results
+                ]
+            }
+        else:
+            data = {"due_for_review": [{"title": "No content ready for review yet", "last_reviewed": "Check back later", "type": "info"}]}
     elif feature == "patterns":
-        detector = PatternDetector(mgr)
-        patterns = detector.find_patterns(n=10)
+        # Get real patterns from user's content
+        import sqlite3
+        from collections import Counter
+        
+        conn = sqlite3.connect('atlas.db')
+        cursor = conn.cursor()
+        
+        # Analyze content types
+        cursor.execute("""
+            SELECT content_type, COUNT(*) as count
+            FROM content 
+            WHERE content_type IS NOT NULL AND content_type != ''
+            GROUP BY content_type
+            ORDER BY count DESC
+            LIMIT 10
+        """)
+        content_types = cursor.fetchall()
+        
+        # Analyze domains from URLs
+        cursor.execute("""
+            SELECT substr(url, instr(url, '://') + 3, 
+                         CASE WHEN instr(substr(url, instr(url, '://') + 3), '/') > 0 
+                              THEN instr(substr(url, instr(url, '://') + 3), '/') - 1
+                              ELSE length(substr(url, instr(url, '://') + 3)) END) as domain,
+                   COUNT(*) as count
+            FROM content 
+            WHERE url IS NOT NULL AND url LIKE 'http%'
+            GROUP BY domain
+            ORDER BY count DESC
+            LIMIT 10
+        """)
+        sources = cursor.fetchall()
+        
+        # Analyze creation patterns by day of week
+        cursor.execute("""
+            SELECT strftime('%w', created_at) as dow, COUNT(*) as count
+            FROM content
+            WHERE created_at IS NOT NULL
+            GROUP BY dow
+            ORDER BY count DESC
+        """)
+        day_patterns = cursor.fetchall()
+        
+        conn.close()
+        
+        # Convert day numbers to names
+        days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+        day_stats = [(days[int(row[0])], row[1]) for row in day_patterns if row[0].isdigit()]
+        
         data = {
-            "top_tags": patterns.get("top_tags", []),
-            "top_sources": patterns.get("top_sources", []),
+            "top_tags": [(f"{row[0]} ({row[1]} items)", row[1]) for row in content_types],
+            "top_sources": [(row[0], row[1]) for row in sources if row[0]],
+            "day_patterns": day_stats
         }
     
     return templates.TemplateResponse(
@@ -772,6 +868,45 @@ async def archive_content(content_id: int):
         return {"success": True, "message": "Content archived successfully"}
     except Exception as e:
         return {"success": False, "error": str(e)}
+
+@app.get("/debug/proactive")
+async def debug_proactive():
+    """Debug proactive content surfacing."""
+    import sqlite3
+    from datetime import datetime, timedelta
+    
+    days_ago = (datetime.now() - timedelta(days=2)).isoformat()
+    
+    conn = sqlite3.connect('atlas.db')
+    cursor = conn.cursor()
+    
+    cursor.execute("SELECT COUNT(*) FROM content")
+    total_count = cursor.fetchone()[0]
+    
+    cursor.execute("SELECT COUNT(*) FROM content WHERE title IS NOT NULL AND title != ''")
+    titled_count = cursor.fetchone()[0]
+    
+    cursor.execute("SELECT COUNT(*) FROM content WHERE created_at < ?", (days_ago,))
+    old_count = cursor.fetchone()[0]
+    
+    cursor.execute("""
+        SELECT title, created_at, content_type
+        FROM content 
+        WHERE created_at < ? AND title IS NOT NULL AND title != ''
+        ORDER BY RANDOM()
+        LIMIT 3
+    """, (days_ago,))
+    
+    sample_results = cursor.fetchall()
+    conn.close()
+    
+    return {
+        "cutoff_date": days_ago,
+        "total_content": total_count,
+        "with_titles": titled_count, 
+        "older_than_cutoff": old_count,
+        "sample_results": [{"title": r[0], "date": r[1], "type": r[2]} for r in sample_results]
+    }
 
 
 if __name__ == "__main__":

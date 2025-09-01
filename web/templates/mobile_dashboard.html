@@ -558,7 +558,7 @@
             <div class="feature-description">
                 <p>Find content you might have forgotten about based on your reading patterns</p>
             </div>
-            {% if data and data.forgotten %}
+            {% if data and data.forgotten and data.forgotten|length > 0 %}
                 {% for item in data.forgotten %}
                 <div class="content-card actionable-card">
                     <div class="content-title">{{ item.title }}</div>
@@ -646,10 +646,10 @@
             <div style="display: grid; gap: 2rem;">
                 {% if data and data.top_tags %}
                 <div>
-                    <h3 style="margin-bottom: 1rem; color: #2d3748;">🏷️ Top Tags</h3>
+                    <h3 style="margin-bottom: 1rem; color: #2d3748;">📊 Content Types</h3>
                     <div class="tag-cloud">
                         {% for tag, count in data.top_tags %}
-                        <span class="tag">{{ tag }} ({{ count }})</span>
+                        <span class="tag">{{ tag }}</span>
                         {% endfor %}
                     </div>
                 </div>
@@ -657,11 +657,23 @@
                 
                 {% if data and data.top_sources %}
                 <div>
-                    <h3 style="margin-bottom: 1rem; color: #2d3748;">📰 Top Sources</h3>
+                    <h3 style="margin-bottom: 1rem; color: #2d3748;">🌐 Top Sources</h3>
                     {% for source, count in data.top_sources %}
                     <div class="source-item">
                         <span class="source-name">{{ source }}</span>
-                        <span class="source-count">{{ count }}</span>
+                        <span class="source-count">{{ count }} items</span>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                
+                {% if data and data.day_patterns %}
+                <div>
+                    <h3 style="margin-bottom: 1rem; color: #2d3748;">📅 Reading Patterns</h3>
+                    {% for day, count in data.day_patterns %}
+                    <div class="source-item">
+                        <span class="source-name">{{ day }}</span>
+                        <span class="source-count">{{ count }} items</span>
                     </div>
                     {% endfor %}
                 </div>
