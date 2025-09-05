@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Set API key
-os.environ['OPENROUTER_API_KEY'] = "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"
+os.environ['OPENROUTER_API_KEY'] = "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"
 
 class MassAIReprocessor:
     def __init__(self):

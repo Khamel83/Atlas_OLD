@@ -233,16 +233,25 @@ def _generate_shortcut_cards(shortcuts: List[Dict]) -> str:
     }
     
     for shortcut in shortcuts:
-        description = descriptions.get(shortcut["name"], "Atlas cognitive enhancement shortcut")
+        # Format display name
+        display_name = shortcut["name"].replace("_", " ").title()
+        if shortcut["name"] == "save_to_atlas":
+            display_name = "🌐 Save to Atlas (Safari Share Sheet)"
+        
+        # Special handling for save_to_atlas
+        if shortcut["name"] == "save_to_atlas":
+            description = "🌐 Save Safari web pages directly to Atlas - Use with Share Sheet"
+        else:
+            description = descriptions.get(shortcut["name"], "Atlas cognitive enhancement shortcut")
         cards_html += f"""
         <div class="shortcut-card">
             <div class="shortcut-header">
-                <div class="shortcut-name">{shortcut["name"]}</div>
+                <div class="shortcut-name">{display_name}</div>
                 <div class="shortcut-description">{description}</div>
             </div>
             <a href="{shortcut['download_url']}" 
                class="download-btn" 
-               data-shortcut="{shortcut['name']}">
+               data-shortcut="{display_name}">
                 📥 Download & Install
             </a>
         </div>
