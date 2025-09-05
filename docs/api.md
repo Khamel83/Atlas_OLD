@@ -7,7 +7,7 @@ The Atlas API provides programmatic access to all cognitive amplification featur
 ## Base URL
 
 ```
-http://localhost:8000/api/v1
+https://atlas.khamel.com/api/v1
 ```
 
 ## Authentication
@@ -15,7 +15,7 @@ http://localhost:8000/api/v1
 Most API endpoints require authentication via an API key. To generate an API key:
 
 ```bash
-curl -X POST "http://localhost:8000/api/v1/auth/generate" \
+curl -X POST "https://atlas.khamel.com/api/v1/auth/generate" \
      -H "Content-Type: application/json" \
      -d '{"name": "my_api_key"}'
 ```
@@ -24,7 +24,7 @@ Include the API key in the `Authorization` header for authenticated requests:
 
 ```bash
 curl -H "Authorization: Bearer YOUR_API_KEY" \
-     http://localhost:8000/api/v1/content/
+     https://atlas.khamel.com/api/v1/content/
 ```
 
 ## Content Management

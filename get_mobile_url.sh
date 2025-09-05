@@ -35,9 +35,9 @@ if [ -z "$IP" ]; then
     echo "  2. Select your active connection (Wi-Fi/Ethernet)"
     echo "  3. Look for 'IP Address'"
     echo
-    echo "Then visit: http://YOUR_IP:8000/shortcuts"
+    echo "Then visit: https://atlas.khamel.com/shortcuts"
 else
-    INSTALL_URL="http://${IP}:8000/shortcuts"
+    INSTALL_URL="https://atlas.khamel.com/shortcuts"
     echo "📱 Open this URL on your iPhone to install shortcuts:"
     echo
     echo "    $INSTALL_URL"

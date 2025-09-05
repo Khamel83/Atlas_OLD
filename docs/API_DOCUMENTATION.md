@@ -53,7 +53,7 @@ Most endpoints require authentication. You can use either:
 ### Getting a JWT Token
 
 ```bash
-curl -X POST "http://localhost:8000/auth/login" \
+curl -X POST "https://atlas.khamel.com/auth/login" \
      -H "Content-Type: application/json" \
      -d '{"username": "user", "password": "password"}'
 ```
@@ -62,7 +62,7 @@ curl -X POST "http://localhost:8000/auth/login" \
 
 ```bash
 curl -H "Authorization: Bearer YOUR_API_KEY" \
-     http://localhost:8000/content/items
+     https://atlas.khamel.com/content/items
 ```
 
 ## Core Endpoints
@@ -129,11 +129,11 @@ cd /path/to/atlas
 python api/unified_server.py
 ```
 
-The API will be available at `http://localhost:8000`.
+The API will be available at `https://atlas.khamel.com`.
 
 ## API Documentation
 
 Once the server is running, you can access the interactive API documentation at:
 
-- FastAPI Docs: `http://localhost:8000/docs`
-- FastAPI ReDoc: `http://localhost:8000/redoc`
+- FastAPI Docs: `https://atlas.khamel.com/docs`
+- FastAPI ReDoc: `https://atlas.khamel.com/redoc`

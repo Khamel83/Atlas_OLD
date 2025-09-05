@@ -4,7 +4,7 @@ Atlas includes a mobile-optimized interface designed for managing your knowledge
 
 ## 🚀 Quick Access
 
-After starting Atlas, visit: `http://localhost:8000/mobile`
+After starting Atlas, visit: `https://atlas.khamel.com/mobile`
 
 The mobile interface is optimized for touch interaction and provides full access to your knowledge system from any device.
 
@@ -82,7 +82,7 @@ The mobile interface uses a tab-based navigation:
 ## 🚀 Getting Started
 
 1. Start Atlas: `python atlas_service_manager.py start`
-2. Open mobile interface: `http://localhost:8000/mobile`
+2. Open mobile interface: `https://atlas.khamel.com/mobile`
 3. Try the search filters to explore your content
 4. Test content management by tagging a few items
 5. Explore cognitive features starting with "Proactive"

@@ -199,7 +199,7 @@ services:
     ports:
       - "8000:8000"
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      test: ["CMD", "curl", "-f", "https://atlas.khamel.com/api/v1/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -293,7 +293,7 @@ EXPOSE 8000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-  CMD curl -f http://localhost:8000/api/v1/health || exit 1
+  CMD curl -f https://atlas.khamel.com/api/v1/health || exit 1
 
 # Start application
 CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4"]
@@ -554,7 +554,7 @@ sudo systemctl restart fail2ban
 
 ```bash
 # API health check
-curl -f http://localhost:8000/api/v1/health
+curl -f https://atlas.khamel.com/api/v1/health
 
 # Database health check
 python scripts/health_check.py --database

@@ -16,6 +16,7 @@ cd atlas
 ## Available Shortcuts
 
 ### Essential Shortcuts
+- **`save_to_atlas.shortcut`** - **Safari Share Sheet** - Save web articles to Atlas
 - **`capture_thought.shortcut`** - "Hey Siri, save to Atlas" - Quick voice capture
 - **`log_mood.shortcut`** - "Hey Siri, log my mood" - Mood tracking
 - **`start_focus.shortcut`** - "Hey Siri, start focus" - Focus timer
@@ -34,7 +35,7 @@ cd atlas
 ## Troubleshooting
 - **Shortcuts fail to import**: Update to macOS 12+ and Shortcuts app
 - **"Hey Siri" not working**: Check Siri settings and re-train voice
-- **Network errors**: Ensure Atlas is running on `localhost:8000`
+- **Network errors**: Ensure Atlas is running on `atlas.khamel.com`
 
 ## Customization
 Each shortcut can be customized in the Shortcuts app:

@@ -471,7 +471,7 @@ All subsystems have robust, passing unit tests. The cognitive amplification foun
 
 ### Usage Instructions
 - Start the web server: `uvicorn web.app:app --reload --port 8000`
-- Visit `http://localhost:8000/ask/html` in your browser.
+- Visit `https://atlas.khamel.com/ask/html` in your browser.
 - Use the navigation bar to explore each cognitive feature.
 - For Socratic questions, paste content and submit the form.
 
@@ -744,7 +744,7 @@ Welcome to Atlas! This section will help you get started as a new contributor.
    uvicorn web.app:app --reload --port 8000
    ```
 3. Visit the dashboard:
-   [http://localhost:8000/ask/html](http://localhost:8000/ask/html)
+   [https://atlas.khamel.com/ask/html](https://atlas.khamel.com/ask/html)
 4. Run the ingestion pipeline (optional):
    ```bash
    python run.py --all

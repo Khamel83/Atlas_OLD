@@ -40,7 +40,7 @@ Add these variables to your `config/.env` file:
 ```bash
 # Skyvern Configuration
 SKYVERN_ENABLED=true
-SKYVERN_BASE_URL=https://api.skyvern.com  # or http://localhost:8000 for local
+SKYVERN_BASE_URL=https://api.skyvern.com  # or https://atlas.khamel.com for local
 SKYVERN_API_KEY=your_skyvern_api_key
 SKYVERN_MAX_RETRIES=2
 USE_TRADITIONAL_SCRAPING=true

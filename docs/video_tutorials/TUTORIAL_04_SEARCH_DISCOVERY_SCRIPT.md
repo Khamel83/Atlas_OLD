@@ -10,7 +10,7 @@ Let's start with basic search functionality in the Atlas web dashboard.
 
 [Screen recording: Web browser showing Atlas dashboard search]
 
-1. Navigate to http://localhost:8000
+1. Navigate to https://atlas.khamel.com
 2. Click on the "Content" menu item
 3. Use the search bar at the top to search for content
 

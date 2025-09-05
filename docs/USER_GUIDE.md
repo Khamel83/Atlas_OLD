@@ -29,7 +29,7 @@ Atlas is a comprehensive personal content ingestion, processing, and search syst
 ### First Steps
 1. **Add content**: Place URLs in `inputs/articles.txt` or upload documents to `inputs/`
 2. **Start processing**: The background service automatically processes new content every 30 minutes
-3. **Access dashboard**: Open `http://localhost:8000/api/v1/dashboard/` in your browser
+3. **Access dashboard**: Open `https://atlas.khamel.com/api/v1/dashboard/` in your browser
 4. **Search content**: Use the search API or dashboard interface
 
 ## System Overview
@@ -124,20 +124,20 @@ Access search through:
 
 ```bash
 # Search for technology articles
-curl "http://localhost:8000/api/v1/search/?q=technology&type=article"
+curl "https://atlas.khamel.com/api/v1/search/?q=technology&type=article"
 
 # Search with date filter
-curl "http://localhost:8000/api/v1/search/?q=AI&after=2024-01-01"
+curl "https://atlas.khamel.com/api/v1/search/?q=AI&after=2024-01-01"
 
 # Search specific content types
-curl "http://localhost:8000/api/v1/search/?q=python&type=document"
+curl "https://atlas.khamel.com/api/v1/search/?q=python&type=document"
 ```
 
 ## Analytics Dashboard
 
 ### Accessing the Dashboard
 
-Open your browser to: `http://localhost:8000/api/v1/dashboard/`
+Open your browser to: `https://atlas.khamel.com/api/v1/dashboard/`
 
 ### Dashboard Features
 
@@ -163,7 +163,7 @@ The dashboard is fully responsive and works on:
 ## API Usage
 
 ### Base URL
-`http://localhost:8000/api/v1/`
+`https://atlas.khamel.com/api/v1/`
 
 ### Available Endpoints
 
@@ -303,7 +303,7 @@ RECENCY_WEIGHT=0.2
 **Solutions**:
 1. Check search index: `python scripts/populate_enhanced_search.py`
 2. Verify database: `sqlite3 atlas.db ".tables"`
-3. Test API: `curl http://localhost:8000/api/v1/health`
+3. Test API: `curl https://atlas.khamel.com/api/v1/health`
 4. Check search logs: `tail -f logs/search.log`
 
 #### Dashboard Not Loading
@@ -312,7 +312,7 @@ RECENCY_WEIGHT=0.2
 
 **Solutions**:
 1. Clear browser cache and cookies
-2. Check API server: `curl http://localhost:8000/api/v1/analytics/`
+2. Check API server: `curl https://atlas.khamel.com/api/v1/analytics/`
 3. Try different browser
 4. Check dashboard logs in browser developer tools
 
@@ -369,7 +369,7 @@ python -m pytest tests/ -v
 sqlite3 atlas.db "PRAGMA integrity_check"
 
 # Verify API endpoints
-curl -s http://localhost:8000/api/v1/health | jq
+curl -s https://atlas.khamel.com/api/v1/health | jq
 
 # Monitor processing
 python3 monitor_atlas.py

@@ -8,7 +8,7 @@ from typing import List, Dict
 router = APIRouter()
 
 # Get the shortcuts directory path
-SHORTCUTS_DIR = Path(__file__).parent.parent.parent / "shortcuts"
+SHORTCUTS_DIR = Path(__file__).parent.parent.parent / "quick_start_package" / "shortcuts"
 
 @router.get("/")
 async def list_shortcuts():
@@ -222,6 +222,7 @@ def _generate_shortcut_cards(shortcuts: List[Dict]) -> str:
     
     # Descriptions for each shortcut
     descriptions = {
+        "save_to_atlas": "🌐 Save Safari web pages directly to Atlas - Use with Share Sheet",
         "Capture Thought": "Quickly save any thought or idea to Atlas",
         "Capture Evening Thought": "Log your evening reflections and thoughts",
         "Log Meal": "Track your meals for health insights",

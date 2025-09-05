@@ -68,7 +68,7 @@ javascript:(function(){
     var title = document.title;
     var url = window.location.href;
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8000/api/v1/content/save", true);
+    xhr.open("POST", "https://atlas.khamel.com/api/v1/content/save", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify({
         title: title,
@@ -118,18 +118,63 @@ python /path/to/atlas/scripts/save_web_page.py --url "$1" --title "$2"
 
 ## Browser Bookmarklets (JavaScript code included)
 
-### Save to Atlas Bookmarklet
+### Browser Bookmarklet - One-Click Web Saving
 
-Drag this link to your bookmarks bar: [Save to Atlas](javascript:(function(){var%20title=document.title;var%20url=window.location.href;var%20xhr=new%20XMLHttpRequest();xhr.open(%22POST%22,%22http://localhost:8000/api/v1/content/save%22,true);xhr.setRequestHeader(%22Content-Type%22,%22application/json%22);xhr.send(JSON.stringify({title:title,url:url,content:document.body.innerText}));})())
+**📖 Save Any Web Page to Atlas**
 
-Or manually create a bookmark with this JavaScript code:
+1. **Open the installer:**
+   ```bash
+   open browser_bookmarklet/install_bookmarklet.html
+   ```
+
+2. **Drag the blue "Save to Atlas" button** to your bookmarks bar
+
+3. **Use it anywhere:** Click the bookmark on any web page to save it to Atlas
+
+**Features:**
+- ✅ Saves title, URL, and page text automatically
+- ✅ Works with any website  
+- ✅ Smart port detection (prompts for Atlas URL)
+- ✅ Success confirmation when saved
+- ✅ Perfect complement to voice capture
+
+## 🌐 Remote Access (Phone/Laptop → VM)
+
+**Atlas running on VM, accessed from your phone/devices:**
+
+### 📱 **Mobile Web Access** (Primary Method)
+- **URL**: `https://atlas.khamel.com/mobile`
+- **Features**: Full content management, search, mobile-optimized interface
+- **Works from**: Any device with browser (phone, laptop, tablet)
+
+### 🎤 **Apple Shortcuts** (Voice Capture)  
+- **"Hey Siri, save to Atlas"** - Works from iPhone/Mac
+- **Sends to**: `https://atlas.khamel.com/api/v1/content/save`
+- **Perfect for**: Voice memos, quick thoughts while mobile
+
+### 🖱️ **Browser Extensions** (Laptop/Desktop)
+- **Right-click "Send to Atlas"** on any web page
+- **Install once per device** where you browse
+- **Points to**: `https://atlas.khamel.com/api/v1/content/save`
+
+**To install on your actual browsing devices:**
+1. Download extension files from VM: `browser_extension/build/`
+2. Install on each laptop/desktop where you browse
+3. Extensions will save to your VM-hosted Atlas
+
+### 📖 **Browser Bookmarklet** (Universal)
+- **Works on any device** - just create bookmark manually
+- **JavaScript**: Points to `https://atlas.khamel.com/api/v1/content/save`
+- **Perfect for**: Devices where you can't install extensions
+
+**Alternative manual setup (bookmarklet):**
 
 ```javascript
 javascript:(function(){
     var title = document.title;
     var url = window.location.href;
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8000/api/v1/content/save", true);
+    xhr.open("POST", "https://atlas.khamel.com/api/v1/content/save", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify({
         title: title,
@@ -146,7 +191,7 @@ javascript:(function(){
     var selection = window.getSelection().toString();
     if (selection) {
         var xhr = new XMLHttpRequest();
-        xhr.open("POST", "http://localhost:8000/api/v1/content/process", true);
+        xhr.open("POST", "https://atlas.khamel.com/api/v1/content/process", true);
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.send(JSON.stringify({
             content: selection,
@@ -168,14 +213,14 @@ javascript:(function(){
     
     // Generate summary using Atlas AI
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8000/api/v1/cognitive/summarize", true);
+    xhr.open("POST", "https://atlas.khamel.com/api/v1/cognitive/summarize", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4 && xhr.status === 200) {
             var summary = JSON.parse(xhr.responseText).summary;
             // Save with summary
             var saveXhr = new XMLHttpRequest();
-            saveXhr.open("POST", "http://localhost:8000/api/v1/content/save", true);
+            saveXhr.open("POST", "https://atlas.khamel.com/api/v1/content/save", true);
             saveXhr.setRequestHeader("Content-Type", "application/json");
             saveXhr.send(JSON.stringify({
                 title: title,

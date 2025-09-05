@@ -57,10 +57,10 @@ python3 atlas_status.py
 ### Test Voice Capture
 1. **Say**: "Hey Siri, save to Atlas"
 2. **Speak**: "This is my first Atlas note"
-3. **Check**: Visit `http://localhost:8000/ask/html`
+3. **Check**: Visit `https://atlas.khamel.com/ask/html`
 
 ### Test Web Dashboard
-1. **Open**: `http://localhost:8000/ask/html`
+1. **Open**: `https://atlas.khamel.com/ask/html`
 2. **Try**: Click "Proactive Content Surfacer"
 3. **Search**: Type "first atlas note" in search box
 
@@ -72,7 +72,7 @@ python3 atlas_status.py
 - Record voice memos with Siri shortcuts
 
 ### 🧠 **Explore AI Features**
-Visit `http://localhost:8000/ask/html` and try:
+Visit `https://atlas.khamel.com/ask/html` and try:
 - **Proactive Content Surfacer** - Surfaces forgotten relevant content
 - **Temporal Relationships** - Shows patterns over time
 - **Socratic Questions** - Thought-provoking questions about your content
@@ -115,4 +115,4 @@ python3 atlas_service_manager.py start
 
 **🎉 Congratulations! Atlas is now your personal AI knowledge companion.**
 
-**Next**: Try saying "Hey Siri, save to Atlas" and speak a thought, then visit `http://localhost:8000/ask/html` to see your AI insights!
+**Next**: Try saying "Hey Siri, save to Atlas" and speak a thought, then visit `https://atlas.khamel.com/ask/html` to see your AI insights!

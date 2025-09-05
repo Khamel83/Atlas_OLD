@@ -37,6 +37,12 @@ class ContentListResponse(BaseModel):
 class ContentSubmission(BaseModel):
     url: str
 
+class BookmarkletSave(BaseModel):
+    title: str
+    url: str
+    content: str
+    content_type: str = "article"
+
 @router.get("/", response_model=ContentListResponse)
 async def list_content(
     skip: int = 0,
@@ -126,9 +132,9 @@ async def submit_url_for_processing(
         os.remove(temp_file)
         
         # Check if processing was successful
-        if results["successful"]:
-            # Load the metadata for the processed content
-            content_id = results["successful"][0]["file_id"]
+        if results["successful"] and len(results["successful"]) > 0:
+            # Load the metadata for the processed content - results["successful"] contains file IDs
+            content_id = results["successful"][0]
             metadata = manager.load_metadata(content_id)
             
             if metadata:
@@ -145,13 +151,48 @@ async def submit_url_for_processing(
                 )
             else:
                 raise HTTPException(status_code=500, detail="Content processed but metadata not found")
+        elif results.get("duplicate") and len(results["duplicate"]) > 0:
+            # URL was skipped as duplicate
+            raise HTTPException(status_code=409, detail=f"URL already exists in Atlas: {submission.url}")
+        elif results["failed"] and len(results["failed"]) > 0:
+            # Processing failed
+            raise HTTPException(status_code=422, detail=f"Failed to extract content - website may be blocking automated access")
         else:
-            raise HTTPException(status_code=500, detail=f"Failed to process URL: {results['failed']}")
+            # Unknown state
+            raise HTTPException(status_code=500, detail="Unknown processing result")
             
     except HTTPException:
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error submitting URL: {str(e)}")
+
+@router.post("/save", response_model=dict)
+async def save_bookmarklet_content(
+    save_data: BookmarkletSave,
+    manager: MetadataManager = Depends(get_metadata_manager)
+):
+    """Save content directly from browser bookmarklet"""
+    try:
+        # Save content to database using the simple database helper
+        from helpers.simple_database import SimpleDatabase
+        db = SimpleDatabase()
+        with db.get_connection() as conn:
+            cursor = conn.execute("""
+                INSERT INTO content (title, url, content, content_type, created_at, updated_at)
+                VALUES (?, ?, ?, ?, datetime('now'), datetime('now'))
+            """, (save_data.title, save_data.url, save_data.content, save_data.content_type))
+            conn.commit()
+            content_db_id = cursor.lastrowid
+        
+        return {
+            "status": "success",
+            "message": f"Content saved successfully: {save_data.title}",
+            "id": content_db_id,
+            "title": save_data.title
+        }
+        
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error saving content: {str(e)}")
 
 @router.post("/upload-file")
 async def upload_file_for_processing(

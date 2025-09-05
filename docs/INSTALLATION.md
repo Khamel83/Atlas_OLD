@@ -313,7 +313,7 @@ python process_documents.py
 python atlas_status.py --detailed
 
 # API health check
-curl http://localhost:8000/api/v1/health
+curl https://atlas.khamel.com/api/v1/health
 
 # Check database
 sqlite3 atlas.db ".tables"
@@ -323,11 +323,11 @@ sqlite3 atlas.db ".tables"
 
 ```bash
 # Test search API
-curl "http://localhost:8000/api/v1/search/?q=test"
+curl "https://atlas.khamel.com/api/v1/search/?q=test"
 
 # Test dashboard
-open http://localhost:8000/api/v1/dashboard/
-# or visit in browser: http://localhost:8000/api/v1/dashboard/
+open https://atlas.khamel.com/api/v1/dashboard/
+# or visit in browser: https://atlas.khamel.com/api/v1/dashboard/
 ```
 
 ### Verify Processing
@@ -512,7 +512,7 @@ After successful installation:
 
 1. **Add your content**: Place URLs in `inputs/articles.txt` and documents in `inputs/`
 2. **Configure podcasts**: Edit `config/podcasts_full.csv` with your podcast feeds
-3. **Explore the dashboard**: Visit `http://localhost:8000/api/v1/dashboard/`
+3. **Explore the dashboard**: Visit `https://atlas.khamel.com/api/v1/dashboard/`
 4. **Try the search**: Test search functionality with your content
 5. **Read the user guide**: See `docs/USER_GUIDE.md` for detailed usage instructions
 

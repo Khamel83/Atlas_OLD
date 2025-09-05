@@ -97,7 +97,7 @@ javascript:(function(){
     var title = document.title;
     var url = window.location.href;
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8000/api/v1/content/save", true);
+    xhr.open("POST", "https://atlas.khamel.com/api/v1/content/save", true);
     xhr.setRequestHeader("Content-Type", "application/json");
     xhr.send(JSON.stringify({
         title: title,

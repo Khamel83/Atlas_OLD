@@ -63,7 +63,7 @@ This document serves as the final verification that all Atlas project objectives
 
 3. **Web Dashboard**
    - ✅ Documented cognitive dashboard features for end users
-   - ✅ Explained how to access Atlas at http://localhost:8000/ask/html
+   - ✅ Explained how to access Atlas at https://atlas.khamel.com/ask/html
    - ✅ Created feature comparison table showing when to use each cognitive tool
    - ✅ Added mobile-responsive usage instructions
 

@@ -188,7 +188,7 @@ Each step should be verifiable by the model itself:
 # Good verification steps
 ls -la docs/user-guides/ | grep -c "\.md$" | awk '{if($1<5) exit 1}'  # At least 5 guides
 python3 -c "import json; json.load(open('config/settings.json'))"      # Valid JSON
-curl -s http://localhost:8000/health | grep -q "healthy"               # API responsive
+curl -s https://atlas.khamel.com/health | grep -q "healthy"               # API responsive
 ```
 
 #### **7. AgentOS Lifecycle Compliance**
@@ -541,7 +541,7 @@ def generate_project_port():
 Never hardcode ports in documentation:
 ```markdown
 # ❌ BAD - Hardcoded port
-Visit http://localhost:8000
+Visit https://atlas.khamel.com
 
 # ✅ GOOD - Dynamic port reference  
 PORT=$(python -c 'from get_port import get_project_port; print(get_project_port())')

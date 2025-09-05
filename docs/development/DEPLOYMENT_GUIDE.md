@@ -236,10 +236,10 @@ python3 atlas_controlled_mac_client.py     # Start worker
 ### Test Integration
 ```bash
 # On Ubuntu - create a job manually
-curl -X POST http://localhost:8000/api/v1/worker/jobs \
+curl -X POST https://atlas.khamel.com/api/v1/worker/jobs \
   -H "Content-Type: application/json" \
   -d '{"type": "transcribe_youtube", "data": {"url": "https://youtube.com/watch?v=test", "title": "Test Video"}}'
 
 # Check job queue
-curl http://localhost:8000/api/v1/worker/status
+curl https://atlas.khamel.com/api/v1/worker/status
 ```

@@ -37,7 +37,7 @@ This document describes all major API endpoints for Atlas, including ingestion, 
 - **Description:** Generates Socratic questions from submitted content.
 - **Request Example:**
 ```bash
-curl -X POST -F "content=The sky is blue." http://localhost:8000/ask/socratic
+curl -X POST -F "content=The sky is blue." https://atlas.khamel.com/ask/socratic
 ```
 - **Response Example:**
 ```json

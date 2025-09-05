@@ -321,12 +321,12 @@ Atlas can extract text from screenshots and images:
    ```
 
 3. **View your content**:
-   - Open your web browser to `http://localhost:8000`
+   - Open your web browser to `https://atlas.khamel.com`
    - Navigate to the content management section
    - Browse your processed articles
 
 4. **Try cognitive features**:
-   - Visit `http://localhost:8000/ask/html`
+   - Visit `https://atlas.khamel.com/ask/html`
    - Explore the Proactive Surfacer, Pattern Detector, and other features
 
 5. **Set up automation**:

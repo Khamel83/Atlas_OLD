@@ -4,7 +4,7 @@ The Atlas Worker API enables distributed processing of transcription and content
 
 ## Base URL
 ```
-http://localhost:8000/api/v1/worker
+https://atlas.khamel.com/api/v1/worker
 ```
 
 ## API Endpoints
@@ -229,7 +229,7 @@ import time
 import json
 
 class AtlasWorkerClient:
-    def __init__(self, worker_id, capabilities, atlas_url="http://localhost:8000"):
+    def __init__(self, worker_id, capabilities, atlas_url="https://atlas.khamel.com"):
         self.worker_id = worker_id
         self.capabilities = capabilities
         self.base_url = f"{atlas_url}/api/v1/worker"
@@ -270,18 +270,18 @@ class AtlasWorkerClient:
 
 ```bash
 # Test worker registration
-curl -X POST http://localhost:8000/api/v1/worker/register \
+curl -X POST https://atlas.khamel.com/api/v1/worker/register \
   -H "Content-Type: application/json" \
   -d '{"worker_id":"test_worker","capabilities":["transcribe_youtube"],"platform":"mac","whisper_available":true}'
 
 # Test job creation  
-curl -X POST http://localhost:8000/api/v1/worker/jobs \
+curl -X POST https://atlas.khamel.com/api/v1/worker/jobs \
   -H "Content-Type: application/json" \
   -d '{"type":"transcribe_youtube","data":{"url":"https://youtube.com/watch?v=test"}}'
   
 # Test getting jobs
-curl "http://localhost:8000/api/v1/worker/jobs?worker_id=test_worker&capabilities=transcribe_youtube"
+curl "https://atlas.khamel.com/api/v1/worker/jobs?worker_id=test_worker&capabilities=transcribe_youtube"
 
 # Test status
-curl http://localhost:8000/api/v1/worker/status
+curl https://atlas.khamel.com/api/v1/worker/status
 ```

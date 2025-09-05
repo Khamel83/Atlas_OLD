@@ -4,7 +4,7 @@
 
 To access the Atlas cognitive dashboard, open your web browser and navigate to:
 ```
-http://localhost:8000/ask/html
+https://atlas.khamel.com/ask/html
 ```
 
 If you're accessing Atlas from another device on your network, replace `localhost` with the IP address of your Atlas server:

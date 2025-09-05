@@ -13,7 +13,7 @@ First, let's start the Atlas web dashboard.
 python web/app.py
 ```
 
-The web dashboard should now be running at http://localhost:8000
+The web dashboard should now be running at https://atlas.khamel.com
 
 ## Section 2: Navigating the Dashboard
 Let's open a web browser and navigate to the Atlas dashboard.

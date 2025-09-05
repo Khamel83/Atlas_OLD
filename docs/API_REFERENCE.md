@@ -5,7 +5,7 @@ Complete API documentation for the Atlas content processing and search system.
 ## Base URL
 
 ```
-http://localhost:8000/api/v1/
+https://atlas.khamel.com/api/v1/
 ```
 
 ## Authentication
@@ -322,7 +322,7 @@ POST /content/upload
 **Example**
 ```bash
 curl -X POST \
-  http://localhost:8000/api/v1/content/upload \
+  https://atlas.khamel.com/api/v1/content/upload \
   -F "file=@document.pdf" \
   -F "title=Optional Custom Title" \
   -F "tags=tag1,tag2,tag3"
@@ -465,7 +465,7 @@ All endpoints return consistent error responses:
 import requests
 
 # Initialize client
-base_url = "http://localhost:8000/api/v1"
+base_url = "https://atlas.khamel.com/api/v1"
 
 # Search content
 def search_content(query, content_type=None, limit=10):
@@ -495,7 +495,7 @@ print(f"Total content: {analytics['summary']['total_content']}")
 ```javascript
 // Atlas API client
 class AtlasAPI {
-    constructor(baseUrl = 'http://localhost:8000/api/v1') {
+    constructor(baseUrl = 'https://atlas.khamel.com/api/v1') {
         this.baseUrl = baseUrl;
     }
     
@@ -535,26 +535,26 @@ atlas.getAnalytics('30d')
 
 ```bash
 # Health check
-curl -X GET http://localhost:8000/api/v1/health
+curl -X GET https://atlas.khamel.com/api/v1/health
 
 # Search with filters
-curl -G http://localhost:8000/api/v1/search/ \
+curl -G https://atlas.khamel.com/api/v1/search/ \
     -d q="machine learning" \
     -d type="article" \
     -d limit=20 \
     -d sort="relevance"
 
 # Get analytics
-curl -X GET "http://localhost:8000/api/v1/analytics/?period=30d"
+curl -X GET "https://atlas.khamel.com/api/v1/analytics/?period=30d"
 
 # Upload content
-curl -X POST http://localhost:8000/api/v1/content/upload \
+curl -X POST https://atlas.khamel.com/api/v1/content/upload \
     -F "file=@document.pdf" \
     -F "title=Research Paper" \
     -F "tags=AI,research,paper"
 
 # Get content details
-curl -X GET http://localhost:8000/api/v1/content/12345
+curl -X GET https://atlas.khamel.com/api/v1/content/12345
 ```
 
 ## Rate Limiting

@@ -217,10 +217,10 @@ Atlas provides several ways to export your content:
 For programmatic access:
 ```bash
 # Export all articles
-curl "http://localhost:8000/api/v1/content/export?type=article" > articles.json
+curl "https://atlas.khamel.com/api/v1/content/export?type=article" > articles.json
 
 # Export search results
-curl "http://localhost:8000/api/v1/search/export?query=machine-learning" > ml_content.json
+curl "https://atlas.khamel.com/api/v1/search/export?query=machine-learning" > ml_content.json
 ```
 
 ### Supported Export Formats
