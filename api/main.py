@@ -87,12 +87,13 @@ async def get_mobile_dashboard_html():
             articles_count = conn.execute('SELECT COUNT(*) FROM content WHERE content_type = "article"').fetchone()[0]
             podcasts_count = conn.execute('SELECT COUNT(*) FROM content WHERE content_type = "podcast"').fetchone()[0]
             
-            # Get recent items
+            # Get recently processed items (by updated_at when AI processing completed)
             recent = conn.execute('''
-                SELECT id, title, created_at 
+                SELECT id, title, updated_at 
                 FROM content 
                 WHERE ai_summary IS NOT NULL 
-                ORDER BY id DESC LIMIT 5
+                AND updated_at > datetime('now', '-24 hours')
+                ORDER BY updated_at DESC LIMIT 5
             ''').fetchall()
         
         # System info
@@ -128,9 +129,10 @@ async def get_mobile_dashboard_html():
                 week_ago = (now - datetime.timedelta(days=7)).isoformat()
                 month_ago = (now - datetime.timedelta(days=30)).isoformat()
                 
-                day_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND updated_at > ?', (day_ago,)).fetchone()[0]
-                week_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND updated_at > ?', (week_ago,)).fetchone()[0]
-                month_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND updated_at > ?', (month_ago,)).fetchone()[0]
+                # Count items that were actually processed (updated) in these time periods
+                day_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND updated_at > ? AND updated_at > created_at', (day_ago,)).fetchone()[0]
+                week_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND updated_at > ? AND updated_at > created_at', (week_ago,)).fetchone()[0]
+                month_items = conn.execute('SELECT COUNT(*) FROM content WHERE ai_summary IS NOT NULL AND updated_at > ? AND updated_at > created_at', (month_ago,)).fetchone()[0]
                 
                 day_cost = day_items * 0.000048
                 week_cost = week_items * 0.000048
@@ -254,8 +256,8 @@ async def get_mobile_dashboard_html():
         
         <div class="card">
             <h2>⚡ Processing Status</h2>
-            <div class="{"status-processing" if mass_processing_running else "status-good"}">
-                {"🔄 Mass AI Processing Running" if mass_processing_running else "✅ Processing Complete"}
+            <div class="{"status-processing" if mass_processing_running or remaining_items > 0 else "status-good"}">
+                {"🔄 Mass AI Processing Running" if mass_processing_running else ("🔄 Continuous Processing" if remaining_items > 0 else "✅ Processing Complete")}
             </div>
             <div class="progress-bar">
                 <div class="progress-fill"></div>
@@ -311,6 +313,31 @@ async def get_mobile_dashboard_html():
     
     <div class="refresh-indicator">
         Auto-refresh every 30 seconds
+    </div>
+    
+    <!-- Navigation Links -->
+    <div class="card">
+        <h2>🧭 Atlas Dashboards</h2>
+        <div style="display: grid; gap: 12px; margin-top: 16px;">
+            <a href="/api/v1/dashboard" style="display: block; padding: 12px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                📊 Analytics Dashboard
+            </a>
+            <a href="/api/v1/content" style="display: block; padding: 12px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                📚 Content Browser
+            </a>
+            <a href="/api/v1/search" style="display: block; padding: 12px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                🔍 Advanced Search
+            </a>
+            <a href="/ask/html" style="display: block; padding: 12px; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #333; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                🧠 AI Cognitive Features
+            </a>
+            <a href="/api/v1/shortcuts/install" style="display: block; padding: 12px; background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%); color: #333; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                📱 iOS Shortcuts
+            </a>
+            <a href="/bookmarklet" style="display: block; padding: 12px; background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                🔖 Browser Bookmarklet
+            </a>
+        </div>
     </div>
     
     <div style="text-align: center; margin-top: 30px; padding: 20px; border-top: 1px solid #e5e7eb;">
