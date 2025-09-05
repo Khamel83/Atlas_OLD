@@ -17,12 +17,7 @@ app = FastAPI(
 )
 
 # Add CORS middleware with security restrictions
-allowed_origins = [
-    "http://localhost:3000",
-    "http://localhost:7444", 
-    "http://127.0.0.1:7444",
-    "https://atlas.khamel.com"
-]
+allowed_origins = ["*"]  # Allow all origins for bookmarklet functionality
 
 app.add_middleware(
     CORSMiddleware,
@@ -60,6 +55,19 @@ async def mobile_dashboard():
 async def shortcuts_redirect():
     """Redirect to shortcuts install page"""
     return RedirectResponse(url="/api/v1/shortcuts/install")
+
+@app.get("/bookmarklet")
+async def bookmarklet_page():
+    """Serve the bookmarklet installation page"""
+    from pathlib import Path
+    from fastapi import HTTPException
+    bookmarklet_path = Path(__file__).parent.parent / "browser_bookmarklet" / "install_bookmarklet.html"
+    if bookmarklet_path.exists():
+        with open(bookmarklet_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        return HTMLResponse(content=content)
+    else:
+        raise HTTPException(status_code=404, detail="Bookmarklet page not found")
 
 async def get_mobile_dashboard_html():
     """Generate mobile dashboard HTML with real-time Atlas data"""

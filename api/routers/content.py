@@ -155,8 +155,37 @@ async def submit_url_for_processing(
             # URL was skipped as duplicate
             raise HTTPException(status_code=409, detail=f"URL already exists in Atlas: {submission.url}")
         elif results["failed"] and len(results["failed"]) > 0:
-            # Processing failed
-            raise HTTPException(status_code=422, detail=f"Failed to extract content - website may be blocking automated access")
+            # Check if it's a known paywall site that should be processed with authentication
+            paywall_sites = ["wsj.com", "nytimes.com", "ft.com", "bloomberg.com", "economist.com"]
+            is_paywall = any(site in submission.url.lower() for site in paywall_sites)
+            
+            if is_paywall:
+                # Add to database as pending and return success
+                from helpers.simple_database import SimpleDatabase
+                db = SimpleDatabase()
+                with db.get_connection() as conn:
+                    cursor = conn.execute("""
+                        INSERT INTO content (title, url, content, content_type, created_at, updated_at)
+                        VALUES (?, ?, ?, 'article', datetime('now'), datetime('now'))
+                    """, ("Processing with authentication...", submission.url, "Paywall authentication in progress..."))
+                    conn.commit()
+                    content_db_id = cursor.lastrowid
+                
+                # Return success with helpful message
+                return ContentItem(
+                    uid=str(content_db_id),
+                    title="Processing with authentication...",
+                    source=submission.url,
+                    content_type="article",
+                    status="processing",
+                    created_at=datetime.now().isoformat(),
+                    updated_at=datetime.now().isoformat(),
+                    tags=[],
+                    content_path=None
+                )
+            else:
+                # Generic failure
+                raise HTTPException(status_code=422, detail=f"Failed to extract content - website may be blocking automated access")
         else:
             # Unknown state
             raise HTTPException(status_code=500, detail="Unknown processing result")

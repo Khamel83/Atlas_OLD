@@ -36,13 +36,13 @@ class AtlasModelClient:
         self.cost_per_1k_tokens = 0.00005  # $0.05/1M tokens
         self.quality_score = 9.5
         
-        # Workload-optimized token limits
+        # No token limits - let the model generate complete responses
         self.workload_tokens = {
-            'tags': 50,
-            'summary': 150,
-            'socratic': 200,
-            'patterns': 200,
-            'recommendations': 200
+            'tags': 10000,
+            'summary': 10000, 
+            'socratic': 10000,
+            'patterns': 10000,
+            'recommendations': 10000
         }
         
         logger.info(f"Atlas Model Client initialized: {self.model_id}")
@@ -51,7 +51,7 @@ class AtlasModelClient:
         """Process Atlas workload with single optimal model"""
         
         prompt = self._get_workload_prompt(workload, content, title)
-        max_tokens = self.workload_tokens.get(workload, 200)
+        max_tokens = self.workload_tokens.get(workload, 10000)  # No token limits
         
         try:
             response = self._call_openrouter(prompt, max_tokens)

@@ -38,7 +38,7 @@ class AtlasScheduler:
         self.project_root = Path(__file__).parent.parent
         self.last_comprehensive_run = None
         self.last_transcript_run = None
-        self.comprehensive_interval = 2 * 60 * 60  # 2 hours
+        self.comprehensive_interval = 30  # 30 seconds - run continuously
         self.transcript_interval = 4 * 60 * 60  # 4 hours
         # Use venv Python, not system Python
         self.python_executable = str(self.project_root / "venv" / "bin" / "python3")
