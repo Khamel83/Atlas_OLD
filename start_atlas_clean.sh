@@ -11,7 +11,7 @@ sleep 2
 cd /home/ubuntu/dev/atlas
 
 # Explicitly set the correct API key
-export OPENROUTER_API_KEY="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"
+export OPENROUTER_API_KEY="[REMOVED]"
 
 # Activate virtual environment and start server
 source venv/bin/activate
