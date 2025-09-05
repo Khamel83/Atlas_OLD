@@ -239,10 +239,14 @@ def _generate_shortcut_cards(shortcuts: List[Dict]) -> str:
             display_name = "🌐 Save to Atlas (Safari Share Sheet)"
         
         # Special handling for save_to_atlas
-        if shortcut["name"] == "save_to_atlas":
+        original_name = shortcut["name"]
+        print(f"DEBUG: Processing shortcut original='{original_name}'")
+        if original_name == "save_to_atlas" or original_name == "Save To Atlas":
             description = "🌐 Save Safari web pages directly to Atlas - Use with Share Sheet"
+            print(f"DEBUG: Applied Safari description for save_to_atlas")
         else:
             description = descriptions.get(shortcut["name"], "Atlas cognitive enhancement shortcut")
+            print(f"DEBUG: Used fallback description for {shortcut['name']}")
         cards_html += f"""
         <div class="shortcut-card">
             <div class="shortcut-header">

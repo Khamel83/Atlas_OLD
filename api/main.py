@@ -315,6 +315,19 @@ async def get_mobile_dashboard_html():
         Auto-refresh every 30 seconds
     </div>
     
+    <!-- Atlas Dashboards -->
+    <div class="card">
+        <h2>🧭 Atlas Dashboards</h2>
+        <div style="display: grid; gap: 12px; margin-top: 16px;">
+            <a href="/api/v1/dashboard/" style="display: block; padding: 12px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                📊 Analytics Dashboard
+            </a>
+            <a href="/api/v1/content/" style="display: block; padding: 12px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                📚 Content Browser (5,494+ items)
+            </a>
+        </div>
+    </div>
+    
     <!-- Quick Tools -->
     <div class="card">
         <h2>🛠️ Atlas Tools</h2>
