@@ -6,7 +6,7 @@ import time
 from atlas_model_client import create_client
 
 # Set API key
-os.environ['OPENROUTER_API_KEY'] = "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"
+# API key should be set in environment or .env file
 
 def test_all_workloads():
     client = create_client()
