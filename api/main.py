@@ -315,28 +315,19 @@ async def get_mobile_dashboard_html():
         Auto-refresh every 30 seconds
     </div>
     
-    <!-- Navigation Links -->
+    <!-- Quick Tools -->
     <div class="card">
-        <h2>🧭 Atlas Dashboards</h2>
+        <h2>🛠️ Atlas Tools</h2>
         <div style="display: grid; gap: 12px; margin-top: 16px;">
-            <a href="/api/v1/dashboard" style="display: block; padding: 12px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
-                📊 Analytics Dashboard
-            </a>
-            <a href="/api/v1/content" style="display: block; padding: 12px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
-                📚 Content Browser
-            </a>
-            <a href="/api/v1/search" style="display: block; padding: 12px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
-                🔍 Advanced Search
-            </a>
-            <a href="/ask/html" style="display: block; padding: 12px; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); color: #333; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
-                🧠 AI Cognitive Features
-            </a>
-            <a href="/api/v1/shortcuts/install" style="display: block; padding: 12px; background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%); color: #333; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
-                📱 iOS Shortcuts
-            </a>
             <a href="/bookmarklet" style="display: block; padding: 12px; background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
-                🔖 Browser Bookmarklet
+                🔖 Browser Bookmarklet (Save from any browser)
             </a>
+            <a href="https://github.com/Khamel83/Atlas/blob/main/quick_start_package/shortcuts/" target="_blank" style="display: block; padding: 12px; background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%); color: #333; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                📱 iOS Shortcuts (Download links)
+            </a>
+        </div>
+        <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-radius: 8px; font-size: 14px; color: #666;">
+            💡 <strong>Tip:</strong> Use the bookmarklet on any website to save articles to Atlas instantly
         </div>
     </div>
     
