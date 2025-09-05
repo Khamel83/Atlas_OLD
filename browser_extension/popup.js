@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   chrome.storage.sync.get(['atlasServerUrl'], function(result) {
     if (!result.atlasServerUrl) {
       // Default to localhost
-      chrome.storage.sync.set({atlasServerUrl: 'http://localhost:8000'});
+      chrome.storage.sync.set({atlasServerUrl: 'https://atlas.khamel.com'});
     }
   });
 

@@ -37,14 +37,14 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
 
 function saveContent(url, title, source, content = '') {
   chrome.storage.sync.get(['atlasServerUrl'], function(result) {
-    const serverUrl = result.atlasServerUrl || 'http://localhost:8000';
+    const serverUrl = result.atlasServerUrl || 'https://atlas.khamel.com';
     const apiUrl = `${serverUrl}/api/v1/content/save`;
     
     const data = {
       url: url,
       title: title,
       content: content,
-      source: source
+      content_type: 'article'
     };
     
     fetch(apiUrl, {
