@@ -117,6 +117,11 @@ Suggests relevant content based on your interests, goals, and current projects.
 - Driving: Voice-record meeting notes and action items  
 - Commuting: Save article ideas and inspiration
 
+### **🎙️ Automated Podcast Ingestion**
+- Automatically fetches and processes podcast episodes from RSS feeds based on your prioritized list.
+- Supports both historical episode processing and continuous ingestion of new releases.
+- Integrates with the Smart Transcription Pipeline for high-quality transcripts.
+
 ### **💻 Web & Document Processing**
 - **📱 Mobile Web**: `https://atlas.khamel.com/mobile` - Full Atlas access from any device
 - **🖱️ Browser Extensions**: Right-click "Send to Atlas" on any web page (install on each browsing device)
@@ -148,6 +153,7 @@ Atlas includes intelligent content quality analysis and automatic reprocessing:
 - Background pipeline continuously improves low-quality content
 - Re-extracts failed downloads using improved methods
 - Cleans HTML-heavy content and reconstructs partial articles
+- Includes comprehensive processing for podcast transcripts, ensuring high-quality, searchable audio content.
 - **Recent Performance**: Eliminated all failed content (565→0 items, 100% success rate)
 
 ### **⚙️ Quality Management Interface**

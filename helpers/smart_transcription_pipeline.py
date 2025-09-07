@@ -20,6 +20,7 @@ import subprocess
 from pathlib import Path
 from typing import Dict, List, Optional, Any
 from datetime import datetime
+import feedparser # Added this import
 
 from helpers.config import load_config
 from helpers.metadata_manager import MetadataManager
@@ -108,7 +109,7 @@ class SmartTranscriptionPipeline:
     
     def _load_prioritized_podcasts(self) -> Dict[str, Dict[str, Any]]:
         """Load prioritized podcasts configuration from CSV"""
-        prioritized_file = Path("config/podcasts_prioritized.csv")
+        prioritized_file = Path("config/podcasts_prioritized_cleaned.csv")
         podcasts = {}
         
         if not prioritized_file.exists():
@@ -126,7 +127,8 @@ class SmartTranscriptionPipeline:
                             'count': int(row.get('Count', 0)),
                             'future': bool(int(row.get('Future', 0))),
                             'transcript_only': bool(int(row.get('Transcript_Only', 0))),
-                            'exclude': bool(int(row.get('Exclude', 0)))
+                            'exclude': bool(int(row.get('Exclude', 0))),
+                            'rss_url': row.get('RSS_URL', '') # Add RSS_URL
                         }
             
             log_info(self.log_path, f"Loaded {len(podcasts)} prioritized podcasts")
@@ -183,7 +185,7 @@ class SmartTranscriptionPipeline:
                 if config['transcript_only']:
                     success = self._process_transcript_only(podcast_name, episode)
                 else:
-                    success = self._process_with_audio_download(podcast_name, episode)
+                    success = self._process_with_audio_download(podcast_name, episode, episode.get('audio_url'))
                 
                 if success:
                     processed_count += 1
@@ -197,48 +199,52 @@ class SmartTranscriptionPipeline:
         return processed_count
     
     def _discover_podcast_episodes(self, podcast_name: str, max_count: int) -> List[Dict[str, Any]]:
-        """Discover episodes for a podcast (mock implementation - replace with real RSS parsing)"""
-        # This would typically:
-        # 1. Look up podcast RSS feed from database/config
-        # 2. Parse RSS to get recent episodes
-        # 3. Return episode metadata
-        
+        """Discover episodes for a podcast by parsing its RSS feed."""
         log_info(self.log_path, f"   🔍 Discovering episodes for {podcast_name} (max: {max_count})")
-        
-        # Mock implementation - replace with real RSS discovery
+
+        podcast_config = self.prioritized_podcasts.get(podcast_name)
+        if not podcast_config or not podcast_config.get('rss_url'):
+            log_error(self.log_path, f"No RSS URL found for podcast: {podcast_name}")
+            return []
+
+        rss_url = podcast_config['rss_url']
         episodes = []
-        
-        # Check if we have existing episode data in our system
         try:
-            with sqlite3.connect(self.data_dir / "atlas.db") as conn:
-                cursor = conn.cursor()
-                cursor.execute("""
-                    SELECT title, url, metadata 
-                    FROM content 
-                    WHERE metadata LIKE ? 
-                    AND content_type = 'podcast'
-                    ORDER BY created_at DESC
-                    LIMIT ?
-                """, (f'%{podcast_name}%', max_count))
+            feed = feedparser.parse(rss_url)
+            if feed.bozo:
+                log_error(self.log_path, f"Malformed feed detected for {rss_url}: {feed.bozo_exception}")
                 
-                rows = cursor.fetchall()
-                for row in rows:
-                    episodes.append({
-                        'title': row[0],
-                        'url': row[1],
-                        'podcast_name': podcast_name
-                    })
-        
+            for entry in feed.entries:
+                episodes.append({
+                    'title': entry.title,
+                    'url': entry.link,
+                    'podcast_name': podcast_name,
+                    'published': getattr(entry, 'published', ''), # Use getattr for robustness
+                    'audio_url': self._extract_audio_url_from_entry(entry) # New helper for audio URL
+                })
+                
+            log_info(self.log_path, f"   📊 Found {len(episodes)} episodes for {podcast_name} from RSS.")
+            
         except Exception as e:
-            log_error(self.log_path, f"Error discovering episodes for {podcast_name}: {e}")
-        
-        log_info(self.log_path, f"   📊 Found {len(episodes)} episodes for {podcast_name}")
+            log_error(self.log_path, f"Error fetching or parsing RSS feed for {podcast_name} ({rss_url}): {e}")
+            
         return episodes
+
+    def _extract_audio_url_from_entry(self, entry: Any) -> Optional[str]:
+        """Extracts the direct audio URL from a feedparser entry."""
+        if hasattr(entry, 'enclosures') and entry.enclosures:
+            for enclosure in entry.enclosures:
+                if enclosure.type.startswith('audio/'):
+                    return enclosure.href
+        # Fallback: sometimes the audio URL is directly in the link or a specific field
+        # This might need more sophisticated parsing for some feeds
+        return None
     
     def _episode_already_processed(self, episode_url: str) -> bool:
         """Check if episode is already processed in Atlas"""
         try:
-            with sqlite3.connect(self.data_dir / "atlas.db") as conn:
+            db_path = self.data_dir / "atlas.db"
+            with sqlite3.connect(db_path) as conn:
                 cursor = conn.cursor()
                 cursor.execute("SELECT COUNT(*) FROM content WHERE url = ?", (episode_url,))
                 count = cursor.fetchone()[0]
@@ -268,7 +274,7 @@ class SmartTranscriptionPipeline:
         log_info(self.log_path, "   ⚠️  No transcript found for transcript-only episode")
         return False
     
-    def _process_with_audio_download(self, podcast_name: str, episode: Dict[str, Any]) -> bool:
+    def _process_with_audio_download(self, podcast_name: str, episode: Dict[str, Any], audio_url: Optional[str]) -> bool:
         """Process episode that may need audio download for transcription"""
         log_info(self.log_path, f"   🎵 Audio processing: {episode['title'][:50]}...")
         
@@ -280,7 +286,7 @@ class SmartTranscriptionPipeline:
             return self._save_transcript_to_atlas(podcast_name, episode, transcript_text)
         
         # 2. Audio download and transcription needed
-        return self._queue_for_transcription(podcast_name, episode)
+        return self._queue_for_transcription(podcast_name, episode, audio_url)
     
     def _search_existing_transcript(self, episode: Dict[str, Any]) -> Optional[str]:
         """Search for existing transcripts in various locations"""
@@ -358,7 +364,7 @@ class SmartTranscriptionPipeline:
             log_error(self.log_path, f"Error saving transcript to Atlas: {e}")
             return False
     
-    def _queue_for_transcription(self, podcast_name: str, episode: Dict[str, Any]) -> bool:
+    def _queue_for_transcription(self, podcast_name: str, episode: Dict[str, Any], audio_url: Optional[str]) -> bool:
         """Queue episode for audio download and Mac Mini transcription"""
         try:
             with sqlite3.connect(self.queue_db) as conn:
@@ -367,9 +373,9 @@ class SmartTranscriptionPipeline:
                 # Add to universal processing queue
                 cursor.execute("""
                     INSERT OR IGNORE INTO processing_queue 
-                    (podcast_name, episode_title, episode_url, needs_audio, processing_type)
-                    VALUES (?, ?, ?, 1, 'audio_transcription')
-                """, (podcast_name, episode['title'], episode['url']))
+                    (podcast_name, episode_title, episode_url, audio_url, needs_audio, processing_type)
+                    VALUES (?, ?, ?, ?, 1, 'audio_transcription')
+                """, (podcast_name, episode['title'], episode['url'], audio_url))
                 
                 conn.commit()
                 
@@ -502,12 +508,7 @@ class SmartTranscriptionPipeline:
             log_error(self.log_path, f"Mac Mini processing error: {e}")
             return False
     
-    def _extract_audio_url(self, episode_url: str) -> Optional[str]:
-        """Extract audio download URL from episode URL"""
-        # This would implement RSS parsing or web scraping to find audio URL
-        # For now, return None (not implemented)
-        log_info(self.log_path, "   🔍 Audio URL extraction not implemented")
-        return None
+    
     
     def get_queue_status(self) -> Dict[str, Any]:
         """Get status of the processing queue"""
