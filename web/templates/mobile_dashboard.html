@@ -5,6 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atlas - Cognitive AI</title>
     <style>
+        /* CSS Variables for theming */
+        :root {
+            --bg-primary: #f5f7fa;
+            --bg-secondary: white;
+            --bg-header: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --text-primary: #333;
+            --text-secondary: #718096;
+            --text-muted: #4a5568;
+            --border-color: #e2e8f0;
+            --shadow: 0 2px 10px rgba(0,0,0,0.08);
+            --card-bg: #f8fafc;
+            --nav-bg: white;
+            --nav-border: #e1e8ed;
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #1a202c;
+            --bg-secondary: #2d3748;
+            --bg-header: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
+            --text-primary: #f7fafc;
+            --text-secondary: #cbd5e0;
+            --text-muted: #a0aec0;
+            --border-color: #4a5568;
+            --shadow: 0 2px 10px rgba(0,0,0,0.3);
+            --card-bg: #374151;
+            --nav-bg: #2d3748;
+            --nav-border: #4a5568;
+        }
+
         /* Mobile-first responsive design */
         * {
             margin: 0;
@@ -15,20 +44,42 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            background: #f5f7fa;
-            color: #333;
+            background: var(--bg-primary);
+            color: var(--text-primary);
             overflow-x: hidden;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         /* Header */
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: var(--bg-header);
             color: white;
             padding: 1rem;
             position: sticky;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: var(--shadow);
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .theme-toggle {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(255,255,255,0.2);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .theme-toggle:hover {
+            background: rgba(255,255,255,0.3);
+            transform: rotate(180deg);
         }
 
         .header h1 {
@@ -100,16 +151,17 @@
         .nav-tabs {
             display: flex;
             overflow-x: auto;
-            background: white;
-            border-bottom: 1px solid #e1e8ed;
+            background: var(--nav-bg);
+            border-bottom: 1px solid var(--nav-border);
             -webkit-overflow-scrolling: touch;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
         }
 
         .nav-tab {
             flex: 0 0 auto;
             padding: 1rem 1.5rem;
             text-decoration: none;
-            color: #657786;
+            color: var(--text-secondary);
             border-bottom: 3px solid transparent;
             white-space: nowrap;
             transition: all 0.3s ease;
@@ -130,18 +182,19 @@
         }
 
         .section {
-            background: white;
+            background: var(--bg-secondary);
             border-radius: 12px;
             padding: 1.5rem;
             margin-bottom: 1rem;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-            border: 1px solid rgba(0,0,0,0.06);
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
         }
 
         .section-title {
             font-size: 1.25rem;
             font-weight: 600;
-            color: #1a202c;
+            color: var(--text-primary);
             margin-bottom: 1rem;
             display: flex;
             align-items: center;
@@ -158,8 +211,8 @@
 
         /* Cards for content items */
         .content-card {
-            background: #f8fafc;
-            border: 1px solid #e2e8f0;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
             border-radius: 8px;
             padding: 1rem;
             margin-bottom: 0.75rem;
@@ -174,14 +227,14 @@
 
         .content-title {
             font-weight: 600;
-            color: #2d3748;
+            color: var(--text-primary);
             margin-bottom: 0.5rem;
             line-height: 1.4;
         }
 
         .content-meta {
             font-size: 0.875rem;
-            color: #718096;
+            color: var(--text-secondary);
             display: flex;
             gap: 1rem;
             flex-wrap: wrap;
@@ -189,7 +242,7 @@
 
         .content-snippet {
             margin-top: 0.75rem;
-            color: #4a5568;
+            color: var(--text-muted);
             font-size: 0.9rem;
             line-height: 1.5;
         }
@@ -510,6 +563,9 @@
         <div style="text-align: center; margin-bottom: 0.5rem;">
             <a href="/" style="text-decoration: none; color: rgba(255,255,255,0.8); font-size: 0.85rem;">← Atlas Dashboard</a>
         </div>
+        <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
+            <span id="theme-icon">🌙</span>
+        </button>
         <h1>🧠 Atlas AI</h1>
         <div class="search-filters">
             <div class="filter-row">
@@ -942,6 +998,39 @@
             document.body.appendChild(message);
             setTimeout(() => message.remove(), 3000);
         }
+
+        // Dark mode functionality
+        function toggleTheme() {
+            const body = document.body;
+            const themeIcon = document.getElementById('theme-icon');
+            const currentTheme = body.getAttribute('data-theme');
+            
+            if (currentTheme === 'dark') {
+                body.removeAttribute('data-theme');
+                themeIcon.textContent = '🌙';
+                localStorage.setItem('atlas-theme', 'light');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                themeIcon.textContent = '☀️';
+                localStorage.setItem('atlas-theme', 'dark');
+            }
+        }
+
+        // Initialize theme on load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('atlas-theme');
+            const themeIcon = document.getElementById('theme-icon');
+            
+            // Check for system preference if no saved theme
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            
+            if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+                document.body.setAttribute('data-theme', 'dark');
+                themeIcon.textContent = '☀️';
+            } else {
+                themeIcon.textContent = '🌙';
+            }
+        });
     </script>
 
     <!-- Navigation Links -->

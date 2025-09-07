@@ -18,53 +18,7 @@ from helpers.retry_queue import enqueue
 from helpers.utils import (calculate_hash, generate_markdown_summary,
                            log_error, log_info)
 
-# --- Constants ---
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-GOOGLEBOT_USER_AGENT = (
-    "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
-)
-PAYWALL_PHRASES = [
-    "subscribe to continue",
-    "create a free account",
-    "sign in to read",
-    "unlock this story",
-    "your free articles",
-    "to continue reading",
-    "subscribe now",
-    "subscription required",
-    "premium content",
-    "members only",
-    "register to continue",
-    "paid subscribers only",
-    "subscribe for full access",
-    "subscribe for unlimited access",
-    "login to read more",
-    "create an account to continue",
-    "please enable js",
-    "please enable javascript",
-    "disable any ad blocker",
-    "javascript is disabled",
-    "javascript required",
-    "enable javascript",
-    "this site requires javascript",
-    "javascript must be enabled",
-]
-PAYWALL_ELEMENTS = [
-    ".paywall",
-    ".subscription-required",
-    ".premium-content",
-    ".register-wall",
-    ".subscription-wall",
-    ".paid-content",
-    "#paywall",
-    "#subscribe-overlay",
-    "#subscription-overlay",
-    "div[data-paywall]",
-    "[data-require-auth]",
-]
-MIN_WORD_COUNT = 150
-# Ratio of title length to content length that suggests truncation
-TITLE_CONTENT_RATIO_THRESHOLD = 0.1
+# Legacy constants moved to article_strategies.py - kept here for backward compatibility
 
 # NOTE: As of July 2025, all article fetching is now handled by ArticleFetcher (strategy orchestrator) from article_strategies.py.
 # This module now delegates all content fetching to the unified strategy pattern for maintainability and testability.
@@ -150,21 +104,7 @@ def is_truncated(html_content: str, log_path: str) -> bool:
     return False
 
 
-def _fetch_with_12ft(url: str, log_path: str) -> str:
-    """
-    Tries to fetch the content via 12ft.io proxy.
-    """
-    try:
-        proxy_url = f"https://12ft.io/{url}"
-        log_info(log_path, f"Attempting to fetch {url} via 12ft.io.")
-        headers = {"User-Agent": USER_AGENT}
-        response = requests.get(proxy_url, headers=headers, timeout=20)
-        response.raise_for_status()
-        log_info(log_path, f"Successfully fetched {url} via 12ft.io.")
-        return response.text
-    except requests.exceptions.RequestException as e:
-        log_error(log_path, f"12ft.io fetch failed for {url}: {e}")
-        return None
+# Legacy fetch functions removed - now handled by ArticleFetcher in article_strategies.py
 
 
 def fetch_and_save_articles(urls, output_dir):
@@ -201,149 +141,6 @@ def fetch_and_save_articles(urls, output_dir):
             print(f"[ERROR] Failed to fetch {url}: {e}")
 
 
-def _fetch_from_wayback_machine(url: str, log_path: str) -> str:
-    """
-    Tries to fetch the content from the Internet Archive's Wayback Machine.
-    Uses the "Wayback Availability JSON API" as documented here:
-    https://archive.org/help/wayback_api.php
-    """
-    try:
-        log_info(log_path, f"Attempting to fetch {url} from the Wayback Machine.")
-        # 1. Check if the URL is available on the Wayback Machine
-        availability_api_url = f"http://archive.org/wayback/available?url={url}"
-        response = requests.get(availability_api_url, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-
-        if not data.get("archived_snapshots"):
-            log_info(log_path, f"No snapshot found in Wayback Machine for {url}.")
-            return None
-
-        # 2. Get the URL of the most recent snapshot
-        snapshot_url = data["archived_snapshots"]["closest"]["url"]
-        log_info(log_path, f"Found snapshot: {snapshot_url}. Fetching raw content.")
-
-        # 3. Fetch the raw content from the snapshot (append 'id_' to the timestamp)
-        raw_content_url = snapshot_url.replace("/web/", "/web/id_/")
-
-        headers = {"User-Agent": USER_AGENT}
-        content_response = requests.get(raw_content_url, headers=headers, timeout=20)
-        content_response.raise_for_status()
-
-        log_info(log_path, f"Successfully fetched {url} from Wayback Machine.")
-        return content_response.text
-
-    except requests.exceptions.RequestException as e:
-        log_error(log_path, f"Wayback Machine fetch failed for {url}: {e}")
-        return None
-    except Exception as e:
-        log_error(
-            log_path,
-            f"An unexpected error occurred during Wayback Machine fetch for {url}: {e}",
-        )
-        return None
-
-
-def _fetch_from_archive_today(url: str, log_path: str) -> str:
-    """
-    Tries to fetch the content from archive.today (also known as archive.is).
-    First checks if the URL is already archived, and if not, tries to request a new archive.
-
-    Args:
-        url: The original URL to fetch from archive.today
-        log_path: Path to the log file
-
-    Returns:
-        The HTML content from archive.today or None if unsuccessful
-    """
-    try:
-        log_info(log_path, f"Attempting to fetch {url} from archive.today.")
-
-        # First, check if the URL is already archived
-        archive_check_url = f"https://archive.today/submit/?url={url}"
-        headers = {"User-Agent": USER_AGENT}
-        response = requests.get(archive_check_url, headers=headers, timeout=20)
-        response.raise_for_status()
-
-        # Parse the response to find existing archives
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        # Look for existing archives in the results
-        archive_links = soup.select("div.results-right a")
-        if archive_links:
-            # Use the most recent archive (first link)
-            archive_url = archive_links[0].get("href")
-            if not archive_url.startswith("http"):
-                archive_url = f"https://archive.today{archive_url}"
-
-            log_info(
-                log_path, f"Found existing archive at {archive_url}. Fetching content."
-            )
-
-            # Fetch the archived content
-            archive_response = requests.get(archive_url, headers=headers, timeout=30)
-            archive_response.raise_for_status()
-
-            log_info(log_path, f"Successfully fetched {url} from archive.today.")
-            return archive_response.text
-        else:
-            # No existing archive found, try to create a new one
-            log_info(log_path, "No existing archive found. Requesting a new archive.")
-
-            # archive.today requires a specific submission format
-            submit_url = "https://archive.today/submit/"
-            data = {"url": url}
-
-            submit_response = requests.post(
-                submit_url, data=data, headers=headers, timeout=60
-            )
-
-            # Check if submission was successful (this is tricky as archive.today doesn't provide clear success indicators)
-            # Usually redirects to the archived page if successful
-            if (
-                submit_response.status_code == 200
-                and "Submitting" in submit_response.text
-            ):
-                log_info(
-                    log_path, "Archive request submitted. Waiting for processing..."
-                )
-
-                # Extract the job ID if available
-                job_match = re.search(
-                    r'id="DIVALREADY".*?href="([^"]+)"', submit_response.text
-                )
-                if job_match:
-                    archive_url = job_match.group(1)
-                    if not archive_url.startswith("http"):
-                        archive_url = f"https://archive.today{archive_url}"
-
-                    # Give archive.today some time to process the request
-                    sleep(10)
-
-                    # Now fetch the archived content
-                    archive_response = requests.get(
-                        archive_url, headers=headers, timeout=30
-                    )
-                    archive_response.raise_for_status()
-
-                    log_info(
-                        log_path,
-                        f"Successfully created and fetched new archive for {url}.",
-                    )
-                    return archive_response.text
-
-            log_error(log_path, "Failed to create or find archive.")
-            return None
-
-    except requests.exceptions.RequestException as e:
-        log_error(log_path, f"Archive.today fetch failed for {url}: {e}")
-        return None
-    except Exception as e:
-        log_error(
-            log_path,
-            f"An unexpected error occurred during archive.today fetch for {url}: {e}",
-        )
-        return None
 
 
 def sanitize_filename(url):

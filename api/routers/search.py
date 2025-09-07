@@ -157,8 +157,7 @@ async def search_content(
     query: str = Query(..., min_length=1, description="Search query string"),
     skip: int = Query(0, ge=0, description="Number of results to skip for pagination"),
     limit: int = Query(20, ge=1, le=100, description="Maximum number of results to return"),
-    content_type: Optional[str] = Query(None, description="Filter by content type"),
-    manager: MetadataManager = Depends(get_metadata_manager)
+    content_type: Optional[str] = Query(None, description="Filter by content type")
 ) -> SearchResponse:
     """Search content using SQLite full-text search.
     
@@ -182,144 +181,93 @@ async def search_content(
     start_time = time.time()
     
     try:
-        # Check if search database exists
-        db_path = get_search_db_path()
-        if not os.path.exists(db_path):
-            # Try to create index if it doesn't exist
-            await index_content(manager)
+        # Use direct database approach for faster response
+        import sqlite3
         
-        # Connect to search database
-        conn = sqlite3.connect(db_path)
+        # Connect directly to main atlas database
+        atlas_db_path = "data/atlas.db" 
+        if not os.path.exists(atlas_db_path):
+            raise HTTPException(status_code=503, detail="Atlas database not available")
+            
+        conn = sqlite3.connect(atlas_db_path)
         cursor = conn.cursor()
         
-        # Attach main atlas database for insights
-        atlas_db_path = "data/atlas.db"
-        has_insights = os.path.exists(atlas_db_path)
-        if has_insights:
-            cursor.execute(f"ATTACH DATABASE '{atlas_db_path}' AS atlas")
-        
-        # Build FTS query
-        fts_query = f'"{query}"'  # Exact phrase match
-        
-        # Prepare filters
-        filters = []
-        if content_type:
-            filters.append(f"content_type = '{content_type}'")
-        
-        # Build WHERE clause
-        where_clause = ""
-        if filters:
-            where_clause = "AND " + " AND ".join(filters)
-        
-        if has_insights:
-            # Enhanced query with insights data
-            sql = f"""
-            SELECT DISTINCT 
-                si.content_id,
-                si.title, 
-                si.url,
-                si.content_type,
-                SUBSTR(si.content, 1, 200) as excerpt,
-                CASE 
-                    WHEN si.title LIKE ? THEN 1.0
-                    WHEN si.content LIKE ? THEN 0.8
-                    ELSE 0.6
-                END as score,
-                ci.summary,
-                ci.key_topics,
-                ci.entities,
-                ci.extraction_quality,
-                ci.sentiment
-            FROM search_index si
-            LEFT JOIN atlas.content_insights ci ON si.content_id = ci.content_id
-            WHERE si.content LIKE ? OR si.title LIKE ? {where_clause}
-            ORDER BY score DESC, LENGTH(si.content) DESC
-            LIMIT ? OFFSET ?
-            """
-        else:
-            # Fallback to basic query
-            sql = f"""
-            SELECT DISTINCT content_id, title, url, content_type, 
-                   SUBSTR(content, 1, 200) as excerpt,
-                   CASE 
-                       WHEN title LIKE ? THEN 1.0
-                       WHEN content LIKE ? THEN 0.8
-                       ELSE 0.6
-                   END as score,
-                   NULL, NULL, NULL, NULL, NULL
-            FROM search_index 
-            WHERE content LIKE ? OR title LIKE ? {where_clause}
-            ORDER BY score DESC, LENGTH(content) DESC
-            LIMIT ? OFFSET ?
-            """
-        
+        # Simple search implementation 
         like_query = f"%{query}%"
-        cursor.execute(sql, (like_query, like_query, like_query, like_query, limit, skip))
-        rows = cursor.fetchall()
+        
+        if content_type:
+            # With content type filter
+            cursor.execute("""
+                SELECT 
+                    id as uid,
+                    title,
+                    url as source,
+                    content_type,
+                    SUBSTR(COALESCE(content, ''), 1, 200) as excerpt
+                FROM content 
+                WHERE (title LIKE ? OR url LIKE ? OR metadata LIKE ?) 
+                AND title IS NOT NULL 
+                AND content_type = ?
+                ORDER BY created_at DESC
+                LIMIT ? OFFSET ?
+            """, [like_query, like_query, like_query, content_type, limit, skip])
+            
+            rows = cursor.fetchall()
+            
+            # Get count
+            cursor.execute("""
+                SELECT COUNT(*) 
+                FROM content 
+                WHERE (title LIKE ? OR url LIKE ? OR metadata LIKE ?) 
+                AND title IS NOT NULL 
+                AND content_type = ?
+            """, [like_query, like_query, like_query, content_type])
+        else:
+            # Without content type filter
+            cursor.execute("""
+                SELECT 
+                    id as uid,
+                    title,
+                    url as source,
+                    content_type,
+                    SUBSTR(COALESCE(content, ''), 1, 200) as excerpt
+                FROM content 
+                WHERE (title LIKE ? OR url LIKE ? OR metadata LIKE ?) 
+                AND title IS NOT NULL 
+                ORDER BY created_at DESC
+                LIMIT ? OFFSET ?
+            """, [like_query, like_query, like_query, limit, skip])
+            
+            rows = cursor.fetchall()
+            
+            # Get count
+            cursor.execute("""
+                SELECT COUNT(*) 
+                FROM content 
+                WHERE (title LIKE ? OR url LIKE ? OR metadata LIKE ?) 
+                AND title IS NOT NULL 
+            """, [like_query, like_query, like_query])
+        
+        total = cursor.fetchone()[0]
         
         # Convert to SearchResult objects
         results = []
         for row in rows:
-            # Basic fields
-            uid = row[0]
+            uid = str(row[0])
             title = row[1] if row[1] else "Untitled"
             source = row[2] if row[2] else ""
-            content_type = row[3] if row[3] else "unknown"
+            content_type_val = row[3] if row[3] else "unknown"
             excerpt = row[4] if row[4] else ""
-            score = row[5] if row[5] is not None else 0.0
-            
-            # Enhanced fields from insights (if available)
-            summary = None
-            topics = None
-            entities = None
-            quality_score = None
-            sentiment = None
-            
-            if has_insights and len(row) > 6:
-                summary = row[6]
-                
-                # Parse JSON fields safely
-                try:
-                    if row[7]:  # key_topics
-                        topics_data = json.loads(row[7]) if isinstance(row[7], str) else row[7]
-                        if isinstance(topics_data, list):
-                            topics = [t.get('name', str(t)) if isinstance(t, dict) else str(t) for t in topics_data]
-                except (json.JSONDecodeError, AttributeError):
-                    topics = None
-                
-                try:
-                    if row[8]:  # entities
-                        entities_data = json.loads(row[8]) if isinstance(row[8], str) else row[8]
-                        if isinstance(entities_data, list):
-                            entities = [e.get('name', str(e)) if isinstance(e, dict) else str(e) for e in entities_data]
-                except (json.JSONDecodeError, AttributeError):
-                    entities = None
-                
-                quality_score = row[9] if row[9] is not None else None
-                sentiment = row[10]
             
             results.append(SearchResult(
                 uid=uid,
                 title=title,
                 source=source,
-                content_type=content_type,
+                content_type=content_type_val,
                 excerpt=excerpt,
-                score=score,
-                summary=summary,
-                topics=topics,
-                entities=entities,
-                quality_score=quality_score,
-                sentiment=sentiment
+                score=1.0,
+                summary=None
             ))
-        
-        # Get total count of unique results
-        count_sql = f"""
-        SELECT COUNT(DISTINCT content_id) 
-        FROM search_index 
-        WHERE content LIKE ? OR title LIKE ? {where_clause}
-        """
-        cursor.execute(count_sql, (like_query, like_query))
-        total = cursor.fetchone()[0]
         
         conn.close()
         
@@ -327,9 +275,9 @@ async def search_content(
         processing_time_ms = (time.time() - start_time) * 1000
         
         return SearchResponse(
-            results=results, 
-            total=total, 
-            query=query, 
+            results=results,
+            total=total,
+            query=query,
             processing_time_ms=processing_time_ms
         )
     except HTTPException:

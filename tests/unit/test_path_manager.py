@@ -273,6 +273,13 @@ class TestPathManager:
         # The actual behavior is that it returns a relative path with .. components
         assert "../" in result or result == outside_path
 
+    @patch("os.path.relpath", side_effect=ValueError("Invalid path"))
+    def test_get_relative_path_value_error(self, mock_relpath, path_manager):
+        """Test get_relative_path with ValueError exception."""
+        test_path = "/some/path/file.txt"
+        result = path_manager.get_relative_path(test_path)
+        assert result == test_path
+
     def test_get_absolute_path(self, path_manager, tmp_path):
         """Test converting relative path to absolute path."""
         relative_path = "articles/metadata/test.json"
@@ -494,6 +501,19 @@ class TestPathSet:
 
         result = path_set.ensure_directories()
         assert result is False
+
+    def test_base_path_property(self, tmp_path):
+        """Test PathSet base_path property."""
+        paths = {PathType.METADATA: "/path/to/metadata.json"}
+        path_set = PathSet(
+            uid="test_uid",
+            content_type=ContentType.ARTICLE,
+            base_dir=str(tmp_path),
+            paths=paths,
+        )
+        
+        expected_base_path = os.path.join(str(tmp_path), "test_uid")
+        assert path_set.base_path == expected_base_path
 
 
 class TestConvenienceFunctions:

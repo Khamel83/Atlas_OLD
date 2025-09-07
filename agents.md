@@ -7,6 +7,54 @@
 - **Configuration Management**: All user-configurable values must be in `.env` and loaded via environment variables. Update `.env.template` with any new variables.
 - **Component Registry**: Check `ATLAS_COMPONENT_INDEX.md` before creating new components to avoid duplication. Update the index when adding new capabilities.
 
+## 🤖 ARCHON MCP CONNECTION - CRITICAL SETUP
+
+**PROBLEM**: Claude Code sessions lose MCP connection to Archon after restart. Tools like `mcp__archon__manage_task` become unavailable even when server is running.
+
+**SOLUTION**: 
+1. **Verify Archon Running**: Check Docker containers are up
+   ```bash
+   docker ps | grep archon
+   # Should show: archon-mcp (8051), archon-server (8181), archon-ui (5173)
+   ```
+
+2. **Add MCP Connection** (if not already done):
+   ```bash
+   claude mcp add --transport http archon http://localhost:8051/mcp
+   ```
+
+3. **Verify Connection**:
+   ```bash
+   claude mcp list
+   # Should show: archon: http://localhost:8051/mcp (HTTP) - ✓ Connected
+   ```
+
+4. **CRITICAL**: **Restart Claude Code session** after adding MCP connection for tools to be available.
+
+**Available Tools After Connection**:
+- `mcp__archon__manage_task` - Get, create, update, list tasks
+- `mcp__archon__manage_project` - Project management
+- `mcp__archon__perform_rag_query` - Knowledge queries
+- `mcp__archon__search_code_examples` - Code search
+- `mcp__archon__get_available_sources` - List data sources
+
+**Task Management Workflow**:
+```bash
+# Get current tasks
+mcp__archon__manage_task(action="list")
+
+# Get specific task
+mcp__archon__manage_task(action="get", task_id="uuid-here")
+
+# Update task status  
+mcp__archon__manage_task(action="update", task_id="uuid", update_fields={"status": "doing"})
+```
+
+**TROUBLESHOOTING**:
+- MCP server logs: `docker logs archon-mcp`
+- Connection test: `curl http://localhost:8051/mcp` (expect 406 Not Acceptable)
+- If tools missing: Restart Claude Code session completely
+
 ## 📊 Authoritative Status
 **Archon OS Project Management**: http://localhost:5173
 - **Atlas Podcast System** (6 tasks): Knowledge archival & search
@@ -77,6 +125,43 @@
 # Install Apple Shortcuts
 ./install_shortcuts.sh
 ```
+
+## 🤖 ARCHON MCP CONNECTION
+
+### Connecting Claude Code to Archon OS
+Atlas integrates with Archon OS project management via MCP (Model Context Protocol). The connection enables access to `mcp__archon__` tools for task management.
+
+**Prerequisites:**
+- Archon OS running (Docker containers active)
+- MCP server accessible at `http://localhost:8051/mcp`
+- Archon UI available at `http://localhost:5173`
+
+**Connection Setup:**
+```bash
+# Connect Claude Code to Archon MCP server
+claude mcp add --transport http archon http://localhost:8051/mcp
+
+# Verify connection
+claude mcp list
+# Should show: archon: http://localhost:8051/mcp (HTTP) - ✓ Connected
+
+# Check server details
+claude mcp get archon
+```
+
+**Configuration Location:**
+- Config file: `/home/ubuntu/.claude.json`
+- Scope: Project-specific (Atlas development)
+
+**Available Tools After Connection:**
+- `mcp__archon__manage_task` - Task creation, updates, completion
+- `mcp__archon__get_project_status` - Project progress tracking
+- `mcp__archon__list_tasks` - Task listing and filtering
+
+**Troubleshooting:**
+- Ensure Docker containers are running: `docker ps | grep archon`
+- Verify ports are accessible: `curl http://localhost:8051/mcp`
+- Restart Claude Code after configuration changes
 
 ### Development Startup
 ```bash
