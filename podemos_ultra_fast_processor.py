@@ -11,7 +11,6 @@ Processes episodes with minimal latency for real-time ad-free feeds:
 - Target: 2:01AM download → 2:20AM clean episode ready
 """
 
-import os
 import sys
 import asyncio
 import aiohttp
@@ -24,15 +23,12 @@ import logging
 from pathlib import Path
 from typing import Dict, List, Optional, Any, Tuple
 from dataclasses import dataclass
-from datetime import datetime, timedelta
-import tempfile
-import hashlib
+from datetime import datetime
 
 # Add project root to path
 sys.path.append(str(Path(__file__).parent))
 
 from helpers.config import load_config
-from helpers.utils import log_info, log_error
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -520,7 +516,7 @@ class PodemosFastProcessor:
             # Use FFmpeg to detect silence
             cmd = [
                 self.ffmpeg_path, "-i", str(audio_file), 
-                "-af", f"silencedetect=n=-40dB:d=2",
+                "-af", "silencedetect=n=-40dB:d=2",
                 "-f", "null", "-"
             ]
             
@@ -582,7 +578,6 @@ class PodemosFastProcessor:
                     total_seconds = hours * 3600 + minutes * 60 + seconds
                     
                     # Apply timing-based heuristics
-                    timing_rules = self.ad_detection_rules['timing_patterns']
                     
                     # Intro ads (first 2 minutes)
                     if total_seconds > 120:
@@ -820,7 +815,7 @@ def main():
         
     elif args.process:
         print("🚀 Starting PODEMOS ultra-fast processing...")
-        print(f"Target: 2:01AM download → 2:20AM clean episode ready")
+        print("Target: 2:01AM download → 2:20AM clean episode ready")
         asyncio.run(processor.process_queue_continuously(args.concurrent))
         
     else:

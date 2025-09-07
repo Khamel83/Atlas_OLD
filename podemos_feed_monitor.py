@@ -10,7 +10,6 @@ Ultra-fast podcast feed monitoring with minimal latency:
 - Target: 2AM release detected by 2:01AM
 """
 
-import os
 import sys
 import xml.etree.ElementTree as ET
 import sqlite3
@@ -19,20 +18,16 @@ import aiohttp
 import time
 import hashlib
 import logging
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Set, Any
-from dataclasses import dataclass, asdict
-import json
+from typing import Dict, List, Optional, Any
+from dataclasses import dataclass
 import feedparser
-import concurrent.futures
-from urllib.parse import urljoin, urlparse
 
 # Add project root to path
 sys.path.append(str(Path(__file__).parent))
 
 from helpers.config import load_config
-from helpers.utils import log_info, log_error
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -303,7 +298,6 @@ class PodemosFeedMonitor:
     def get_feeds_to_check(self) -> List[PodcastFeed]:
         """Get feeds that need checking based on their intervals"""
         feeds_to_check = []
-        now = datetime.now()
         
         with sqlite3.connect(self.monitor_db) as conn:
             cursor = conn.cursor()
@@ -340,7 +334,6 @@ class PodemosFeedMonitor:
     async def check_feed_for_new_episodes(self, session: aiohttp.ClientSession, 
                                         feed: PodcastFeed) -> tuple[int, List[Episode]]:
         """Check a single feed for new episodes"""
-        start_time = time.time()
         new_episodes = []
         
         try:

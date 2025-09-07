@@ -17,15 +17,12 @@ import json
 import logging
 import sqlite3
 import subprocess
-import time
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Any
+from typing import Dict, List, Optional, Any
 from datetime import datetime
-import requests
-import xml.etree.ElementTree as ET
 
 from helpers.config import load_config
-from helpers.metadata_manager import MetadataManager, ContentType
+from helpers.metadata_manager import MetadataManager
 from helpers.utils import log_info, log_error
 
 # Optional imports for full functionality
@@ -268,7 +265,7 @@ class SmartTranscriptionPipeline:
             log_info(self.log_path, f"   ✅ Fetched transcript from web ({len(transcript_text)} chars)")
             return self._save_transcript_to_atlas(podcast_name, episode, transcript_text)
         
-        log_info(self.log_path, f"   ⚠️  No transcript found for transcript-only episode")
+        log_info(self.log_path, "   ⚠️  No transcript found for transcript-only episode")
         return False
     
     def _process_with_audio_download(self, podcast_name: str, episode: Dict[str, Any]) -> bool:
@@ -279,7 +276,7 @@ class SmartTranscriptionPipeline:
         transcript_text = self._search_existing_transcript(episode)
         
         if transcript_text:
-            log_info(self.log_path, f"   ✅ Found existing transcript, skipping audio download")
+            log_info(self.log_path, "   ✅ Found existing transcript, skipping audio download")
             return self._save_transcript_to_atlas(podcast_name, episode, transcript_text)
         
         # 2. Audio download and transcription needed
@@ -322,7 +319,7 @@ class SmartTranscriptionPipeline:
         """Try to fetch transcript from web sources"""
         # This would implement web scraping for transcript sources
         # For now, return None (not implemented)
-        log_info(self.log_path, f"   🌐 Web transcript search not implemented")
+        log_info(self.log_path, "   🌐 Web transcript search not implemented")
         return None
     
     def _save_transcript_to_atlas(self, podcast_name: str, episode: Dict[str, Any], transcript_text: str) -> bool:
@@ -509,7 +506,7 @@ class SmartTranscriptionPipeline:
         """Extract audio download URL from episode URL"""
         # This would implement RSS parsing or web scraping to find audio URL
         # For now, return None (not implemented)
-        log_info(self.log_path, f"   🔍 Audio URL extraction not implemented")
+        log_info(self.log_path, "   🔍 Audio URL extraction not implemented")
         return None
     
     def get_queue_status(self) -> Dict[str, Any]:

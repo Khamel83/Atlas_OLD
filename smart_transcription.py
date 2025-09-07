@@ -6,10 +6,8 @@ Command-line interface for the smart transcription pipeline.
 Manages podcast transcription with Mac Mini processing and prioritized configuration.
 """
 
-import os
 import sys
 import argparse
-import json
 from pathlib import Path
 
 # Add project root to path

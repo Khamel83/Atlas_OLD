@@ -12,13 +12,12 @@ import json
 import asyncio
 import logging
 from datetime import datetime
-from typing import Dict, List, Optional, Any
-from pathlib import Path
+from typing import Dict, Optional
 
 # Add project root to path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from ingest.queue.processing_queue import ProcessingQueue, Priority, QueueStatus
+from ingest.queue.processing_queue import ProcessingQueue, Priority
 from helpers.database_manager import DatabaseManager
 from helpers.config import load_config
 from helpers.bulletproof_process_manager import create_managed_process

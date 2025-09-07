@@ -13,13 +13,11 @@ import asyncio
 import hashlib
 import secrets
 from datetime import datetime, timezone
-from typing import Dict, List, Optional, Tuple
-from pathlib import Path
+from typing import Dict, List
 
-import aiofiles
-from fastapi import FastAPI, HTTPException, Depends, Request, Header
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-from fastapi.responses import Response, JSONResponse
+from fastapi import FastAPI, HTTPException
+from fastapi.security import HTTPBearer
+from fastapi.responses import Response
 import sqlite3
 from xml.dom import minidom
 import xml.etree.ElementTree as ET
@@ -179,7 +177,7 @@ class RSSGenerator:
                 try:
                     pub_date = datetime.fromisoformat(episode['pub_date'].replace('Z', '+00:00'))
                     ET.SubElement(item, "pubDate").text = pub_date.strftime("%a, %d %b %Y %H:%M:%S GMT")
-                except:
+                except Exception:
                     ET.SubElement(item, "pubDate").text = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
             
             # Audio enclosure
