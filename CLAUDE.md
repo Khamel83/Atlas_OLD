@@ -6,6 +6,7 @@
 *   **Token Efficiency**: Use compact responses, abbreviations, and bullet points to conserve tokens.
 *   **Configuration Management**: All user-configurable values must be in `.env` and loaded via environment variables. Update `.env.template` with any new variables.
 *   **Component Registry**: Check `ATLAS_COMPONENT_INDEX.md` before creating new components to avoid duplication. Update the index when adding new capabilities.
+*   **DATABASE PATHS**: NEVER use hardcoded database paths. Always use `from helpers.database_config import get_database_path, get_database_connection`.
 
 ## 🤖 ARCHON MCP CONNECTION - CRITICAL SETUP
 
@@ -54,6 +55,36 @@ mcp__archon__manage_task(action="update", task_id="uuid", update_fields={"status
 - MCP server logs: `docker logs archon-mcp`
 - Connection test: `curl http://localhost:8051/mcp` (expect 406 Not Acceptable)
 - If tools missing: Restart Claude Code session completely
+
+## 🗃️ CENTRALIZED DATABASE CONFIGURATION - CRITICAL
+
+**PROBLEM**: Atlas had multiple hardcoded database paths causing critical failures where user content submissions would disappear into wrong databases.
+
+**SOLUTION**: Centralized database configuration system implemented Sep 8, 2025.
+
+**MANDATORY USAGE**:
+```python
+# ✅ CORRECT - Always use this
+from helpers.database_config import get_database_path, get_database_connection
+
+# Get database path
+db_path = get_database_path()  # Returns Path object
+db_path_str = get_database_path_str()  # Returns string
+
+# Get database connection
+conn = get_database_connection()
+
+# ❌ WRONG - Never use hardcoded paths
+# "data/atlas.db"
+# "/home/ubuntu/dev/atlas/atlas.db"
+# Path.home() / "dev" / "atlas" / "atlas.db"
+```
+
+**ENVIRONMENT CONFIGURATION**:
+- Set `ATLAS_DATABASE_PATH` environment variable to override default
+- Default: `/home/ubuntu/dev/atlas/data/atlas.db`
+
+**FOR ALL AGENTS**: This is a critical system requirement. Database path inconsistencies cause user-facing failures.
 
 ## 📊 Authoritative Status
 **Archon OS Project Management**: http://localhost:5173

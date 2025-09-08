@@ -1,4 +1,4 @@
-# Gemini Agent Instructions for Atlas
+# Qwen Agent Instructions for Atlas
 
 **📚 PRIMARY REFERENCE**: Check `agents.md` for complete development guidelines.
 
@@ -15,18 +15,18 @@ conn = get_database_connection()
 
 **❌ NEVER USE**: Hardcoded paths like `"data/atlas.db"` or `Path.home() / "dev" / "atlas" / "atlas.db"`
 
-## 🎯 Gemini-Specific Guidelines
+## 🎯 Qwen-Specific Guidelines
 
-- **Multimodal Strength**: Use your vision capabilities for UI/UX improvements
-- **Reasoning Excellence**: Apply systematic problem-solving to Atlas architecture
-- **Code Understanding**: Leverage your ability to understand complex codebases
+- **Code Focus**: You excel at systematic implementation - use this for Atlas development
+- **Pattern Recognition**: Leverage your ability to see code patterns for consistency
+- **Systematic Approach**: Break complex tasks into smaller, testable components
 - **Documentation**: Always update both CLAUDE.md and agents.md when making changes
 
 ## 🗃️ Database Usage Pattern
 
 ```python
-def gemini_atlas_function():
-    """Example pattern for Gemini implementations"""
+def qwen_atlas_function():
+    """Example pattern for Qwen implementations"""
     from helpers.database_config import get_database_connection
     
     with get_database_connection() as conn:
@@ -38,7 +38,7 @@ def gemini_atlas_function():
 ## 🤖 Archon Integration
 
 Use MCP tools for task management:
-- `mcp__archon__list_tasks` - Get tasks to work on  
+- `mcp__archon__list_tasks` - Get tasks to work on
 - `mcp__archon__update_task` - Update task status
 - `mcp__archon__perform_rag_query` - Search knowledge base
 
@@ -51,7 +51,7 @@ python3 -c "from helpers.database_config import get_database_path; print(get_dat
 # System health
 python atlas_status.py --detailed
 
-# Run tests  
+# Run tests
 python3 -m pytest tests/test_web_endpoints.py -v
 ```
 
@@ -62,12 +62,5 @@ python3 -m pytest tests/test_web_endpoints.py -v
 3. **Update documentation in sync** - CLAUDE.md + agents.md simultaneously
 4. **Test thoroughly** - Atlas has automated testing framework
 5. **Follow existing patterns** - Check existing code before creating new patterns
-
-## 🔍 Gemini Advantages for Atlas
-
-- **UI Analysis**: Can analyze screenshots and suggest improvements
-- **Code Review**: Strong at finding patterns and inconsistencies
-- **Architecture**: Good at understanding system-level relationships
-- **Problem Solving**: Systematic approach to complex debugging
 
 **Remember**: Database consistency prevents critical user-facing failures. This is non-negotiable.

@@ -1,12 +1,13 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 import os
 import sys
+import httpx
 
 # Add parent directory to Python path for module imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from api.routers import content, search, cognitive, auth, dashboard, transcription, worker, shortcuts, transcript_search
+from api.routers import content, search, cognitive, auth, dashboard, transcription, worker, shortcuts, transcript_search, transcript_stats, podcast_progress
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -37,10 +38,23 @@ app.include_router(transcription.router, prefix="/api/v1/transcriptions", tags=[
 app.include_router(worker.router, prefix="/api/v1/worker", tags=["worker"])
 app.include_router(shortcuts.router, prefix="/api/v1/shortcuts", tags=["shortcuts"])
 app.include_router(transcript_search.router, prefix="/api/v1/transcripts", tags=["transcript_search"])
+app.include_router(transcript_stats.router, prefix="/api/v1/transcripts", tags=["transcript_stats"])
+app.include_router(podcast_progress.router, prefix="/api/v1/podcast-progress", tags=["podcast_progress"])
 
 @app.get("/api/v1/health")
 async def health_check():
     return {"status": "healthy"}
+
+@app.get("/search")
+async def search_redirect(
+    q: str = Query(..., description="Search query"),
+    skip: int = Query(0, description="Skip results"),
+    limit: int = Query(20, description="Limit results"),
+    content_type: str = Query(None, description="Content type filter")
+):
+    """Direct search endpoint - redirects to /api/v1/search for compatibility"""
+    from api.routers.search import search_content
+    return await search_content(query=q, skip=skip, limit=limit, content_type=content_type)
 
 @app.get("/")
 async def root():
@@ -141,6 +155,18 @@ async def get_mobile_dashboard_html():
                 
                 cost_display = f"Day: ${day_cost:.4f} | Week: ${week_cost:.4f} | Month: ${month_cost:.4f}"
         
+        # Get transcript statistics
+        transcript_stats_data = {}
+        try:
+            async with httpx.AsyncClient() as client:
+                response = await client.get("http://localhost:7444/api/v1/transcripts/admin")
+                response.raise_for_status()
+                transcript_stats_data = response.json()
+        except httpx.RequestError as e:
+            print(f"Error fetching transcript stats: {e}")
+        except httpx.HTTPStatusError as e:
+            print(f"Error response {e.response.status_code} while fetching transcript stats: {e.response.text}")
+
         html = f'''
 <!DOCTYPE html>
 <html lang="en">
@@ -292,6 +318,32 @@ async def get_mobile_dashboard_html():
         </div>
         
         <div class="card">
+            <h2>🎙️ Transcript Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat">
+                    <div class="stat-value">{transcript_stats_data.get('total_transcripts', 0):,}</div>
+                    <div class="stat-label">Total Transcripts</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">{transcript_stats_data.get('total_episodes_known', 0):,}</div>
+                    <div class="stat-label">Total Episodes Known</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">{transcript_stats_data.get('pending_podcast_transcriptions', 0):,}</div>
+                    <div class="stat-label">Pending Transcriptions</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">{transcript_stats_data.get('failed_episodes_count', 0):,}</div>
+                    <div class="stat-label">Failed Transcriptions</div>
+                </div>
+            </div>
+            <h3>Recent Discoveries</h3>
+            {''.join([f'<div class="recent-item">{item.get("podcast_name", "N/A")}: {item.get("title", "N/A")[:50]}...</div>' for item in transcript_stats_data.get('recent_discoveries', [])])}
+            <h3>Top Podcasts by Transcripts</h3>
+            {''.join([f'<div class="recent-item">{item.get("podcast_name", "N/A")}: {item.get("transcript_count", 0)}</div>' for item in transcript_stats_data.get('podcast_stats', [])])}
+        </div>
+        
+        <div class="card">
             <h2>💰 Processing Costs</h2>
             <div class="monospace">
                 {cost_display}
@@ -323,8 +375,8 @@ async def get_mobile_dashboard_html():
             <a href="/api/v1/dashboard/" style="display: block; padding: 12px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
                 📊 Analytics Dashboard
             </a>
-            <a href="/api/v1/content/" style="display: block; padding: 12px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
-                📚 Content Browser (5,494+ items)
+            <a href="/api/v1/content/html" style="display: block; padding: 12px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
+                📚 Content Browser
             </a>
         </div>
     </div>

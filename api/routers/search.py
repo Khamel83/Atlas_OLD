@@ -17,6 +17,7 @@ from pydantic import BaseModel, Field
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from helpers.config import load_config
+from helpers.database_config import get_database_path_str
 from helpers.metadata_manager import MetadataManager
 from helpers.semantic_search_ranker import SemanticSearchRanker
 
@@ -185,7 +186,7 @@ async def search_content(
         import sqlite3
         
         # Connect directly to main atlas database
-        atlas_db_path = "data/atlas.db" 
+        atlas_db_path = get_database_path_str()
         if not os.path.exists(atlas_db_path):
             raise HTTPException(status_code=503, detail="Atlas database not available")
             

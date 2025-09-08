@@ -19,6 +19,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 
+from .database_config import get_database_path
+
 class SimpleDatabase:
     """Simple SQLite database interface for Atlas content management.
     
@@ -36,7 +38,8 @@ class SimpleDatabase:
             sqlite3.Error: If database initialization fails
         """
         if db_path is None:
-            db_path = Path.home() / "dev" / "atlas" / "atlas.db"
+            # Use centralized database configuration
+            db_path = get_database_path()
         
         self.db_path = db_path
         self._init_tables()
