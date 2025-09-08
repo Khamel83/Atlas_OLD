@@ -241,12 +241,21 @@ class RealTranscriptFinder:
                     print(f"    No strategy for podcast: {podcast_name}")
                 
                 if transcript:
-                    # Save transcript to database
+                    # Extract metadata alongside transcript
+                    try:
+                        from extract_metadata import extract_episode_metadata
+                        metadata = extract_episode_metadata(audio_url, transcript)
+                        metadata_json = json.dumps(metadata)
+                    except Exception as e:
+                        print(f"    Warning: Could not extract metadata: {e}")
+                        metadata_json = None
+                    
+                    # Save transcript with metadata to database
                     conn.execute("""
                         INSERT OR REPLACE INTO content 
-                        (title, content, content_type, url, created_at)
-                        VALUES (?, ?, 'podcast_transcript', ?, CURRENT_TIMESTAMP)
-                    """, (f"[TRANSCRIPT] {title}", transcript, audio_url))
+                        (title, content, content_type, url, metadata, created_at)
+                        VALUES (?, ?, 'podcast_transcript', ?, ?, CURRENT_TIMESTAMP)
+                    """, (f"[TRANSCRIPT] {title}", transcript, audio_url, metadata_json))
                     
                     success_count += 1
                     print(f"    ✓ Found transcript: {len(transcript)} characters")
