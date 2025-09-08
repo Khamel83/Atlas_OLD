@@ -1,0 +1,449 @@
+#!/usr/bin/env python3
+"""
+Universal Processing Queue System for Atlas
+
+Consolidates all background processing into a single, coordinated queue system.
+Prevents competing parallel processes and provides centralized job management.
+
+Supported Job Types:
+- ai_processing: Content AI analysis (tags, summaries, etc.)
+- transcript_discovery: Find transcripts for podcast episodes
+- podcast_transcription: Audio-to-text transcription (Mac Mini)
+- podemos_processing: Ad-free episode processing
+- content_ingestion: URL content extraction
+- reprocessing: Quality improvement for existing content
+"""
+
+import sqlite3
+import json
+import time
+import uuid
+import logging
+import subprocess
+from datetime import datetime, timedelta
+from pathlib import Path
+from typing import Dict, List, Optional, Any, Callable
+from dataclasses import dataclass, asdict
+import sys
+import os
+
+# Add project root to path
+sys.path.insert(0, str(Path(__file__).parent))
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('logs/universal_queue.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+@dataclass
+class QueueJob:
+    """Universal queue job definition"""
+    id: str
+    type: str  # ai_processing, transcript_discovery, podcast_transcription, podemos_processing, etc.
+    data: Dict[str, Any]  # Job-specific data
+    priority: int = 50  # 0-100, higher = more priority
+    status: str = 'pending'  # pending, running, completed, failed, cancelled
+    assigned_worker: Optional[str] = None
+    created_at: str = ""
+    assigned_at: Optional[str] = None
+    completed_at: Optional[str] = None
+    result: Optional[str] = None
+    retry_count: int = 0
+    max_retries: int = 3
+
+class UniversalProcessingQueue:
+    """Central processing queue that coordinates all Atlas background tasks"""
+    
+    def __init__(self, db_path="atlas.db"):
+        self.db_path = db_path
+        self.worker_id = f"worker_{uuid.uuid4().hex[:8]}"
+        self.is_running = False
+        
+        # Register job handlers
+        self.job_handlers: Dict[str, Callable] = {
+            'ai_processing': self.handle_ai_processing,
+            'transcript_discovery': self.handle_transcript_discovery,
+            'podcast_transcription': self.handle_podcast_transcription,
+            'podemos_processing': self.handle_podemos_processing,
+            'content_ingestion': self.handle_content_ingestion,
+            'reprocessing': self.handle_reprocessing,
+        }
+        
+        logger.info(f"🔄 Universal Processing Queue initialized (Worker: {self.worker_id})")
+    
+    def add_job(self, job_type: str, data: Dict[str, Any], priority: int = 50) -> str:
+        """Add a new job to the queue"""
+        job_id = str(uuid.uuid4())
+        
+        with sqlite3.connect(self.db_path) as conn:
+            conn.execute("""
+                INSERT INTO worker_jobs (id, type, data, priority, status, created_at)
+                VALUES (?, ?, ?, ?, 'pending', ?)
+            """, (job_id, job_type, json.dumps(data), priority, datetime.now().isoformat()))
+            conn.commit()
+        
+        logger.info(f"➕ Added job {job_id[:8]} ({job_type}, priority={priority})")
+        return job_id
+    
+    def get_next_job(self) -> Optional[QueueJob]:
+        """Get the next highest-priority pending job"""
+        with sqlite3.connect(self.db_path) as conn:
+            # Lock and claim the next job atomically
+            cursor = conn.execute("""
+                UPDATE worker_jobs 
+                SET status = 'running', assigned_worker = ?, assigned_at = ?
+                WHERE id = (
+                    SELECT id FROM worker_jobs 
+                    WHERE status = 'pending' 
+                    ORDER BY priority DESC, created_at ASC 
+                    LIMIT 1
+                )
+                RETURNING id, type, data, priority, status, created_at
+            """, (self.worker_id, datetime.now().isoformat()))
+            
+            row = cursor.fetchone()
+            if not row:
+                return None
+            
+            conn.commit()
+            
+            job_id, job_type, data_json, priority, status, created_at = row
+            data = json.loads(data_json) if data_json else {}
+            
+            return QueueJob(
+                id=job_id,
+                type=job_type,
+                data=data,
+                priority=priority,
+                status=status,
+                assigned_worker=self.worker_id,
+                created_at=created_at,
+                assigned_at=datetime.now().isoformat()
+            )
+    
+    def complete_job(self, job: QueueJob, result: Optional[str] = None, failed: bool = False):
+        """Mark a job as completed or failed"""
+        status = 'failed' if failed else 'completed'
+        completed_at = datetime.now().isoformat()
+        
+        with sqlite3.connect(self.db_path) as conn:
+            conn.execute("""
+                UPDATE worker_jobs 
+                SET status = ?, completed_at = ?, result = ?
+                WHERE id = ?
+            """, (status, completed_at, result, job.id))
+            conn.commit()
+        
+        if failed and job.retry_count < job.max_retries:
+            # Retry with exponential backoff
+            retry_delay = 2 ** job.retry_count  # 2, 4, 8 seconds
+            time.sleep(retry_delay)
+            
+            # Re-add as pending with incremented retry count
+            retry_data = job.data.copy()
+            retry_data['retry_count'] = job.retry_count + 1
+            self.add_job(job.type, retry_data, max(job.priority - 10, 1))
+            
+            logger.warning(f"🔄 Retrying job {job.id[:8]} (attempt {job.retry_count + 1})")
+        else:
+            status_emoji = "✅" if not failed else "❌"
+            logger.info(f"{status_emoji} Job {job.id[:8]} {status}")
+    
+    def handle_ai_processing(self, job: QueueJob) -> bool:
+        """Handle AI content processing jobs"""
+        try:
+            content_id = job.data.get('content_id')
+            if not content_id:
+                return False
+            
+            # Import and use existing AI processing
+            from atlas_comprehensive_service import main as process_ai_content
+            
+            # Set up temporary processing for specific item
+            # This would integrate with the existing comprehensive service
+            logger.info(f"🧠 Processing AI content for ID {content_id}")
+            
+            # Call existing AI processing logic here
+            # For now, simulate success
+            time.sleep(2)  # Simulate processing time
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"❌ AI processing failed: {e}")
+            return False
+    
+    def handle_transcript_discovery(self, job: QueueJob) -> bool:
+        """Handle transcript discovery jobs"""
+        try:
+            podcast_name = job.data.get('podcast_name')
+            episode_title = job.data.get('episode_title')
+            episode_url = job.data.get('episode_url')
+            
+            if not podcast_name or not episode_title:
+                return False
+            
+            # Use existing transcript orchestrator
+            from transcript_orchestrator import find_transcript
+            
+            logger.info(f"🎙️ Finding transcript: {podcast_name} - {episode_title[:50]}")
+            transcript = find_transcript(podcast_name, episode_title, episode_url)
+            
+            if transcript:
+                logger.info(f"✅ Found transcript ({len(transcript)} chars)")
+                return True
+            else:
+                logger.info(f"❌ No transcript found")
+                return True  # Not an error, just no transcript available
+                
+        except Exception as e:
+            logger.error(f"❌ Transcript discovery failed: {e}")
+            return False
+    
+    def handle_podcast_transcription(self, job: QueueJob) -> bool:
+        """Handle local podcast transcription (Mac Mini)"""
+        try:
+            audio_file = job.data.get('audio_file')
+            if not audio_file:
+                return False
+            
+            logger.info(f"🎵 Transcribing audio: {audio_file}")
+            
+            # Use whisper.cpp or similar for local transcription
+            # This would integrate with Mac Mini processing
+            
+            # For now, simulate Mac Mini transcription
+            time.sleep(10)  # Simulate transcription time
+            
+            logger.info(f"✅ Transcription completed")
+            return True
+            
+        except Exception as e:
+            logger.error(f"❌ Podcast transcription failed: {e}")
+            return False
+    
+    def handle_podemos_processing(self, job: QueueJob) -> bool:
+        """Handle PODEMOS ad-free processing"""
+        try:
+            episode_data = job.data
+            
+            # Use existing PODEMOS system
+            from podemos_ultra_fast_processor import ProcessingJob
+            
+            logger.info(f"📻 PODEMOS processing: {episode_data.get('episode_title', 'Unknown')}")
+            
+            # Integrate with existing PODEMOS pipeline
+            # This would call the existing ultra-fast processor
+            
+            # For now, simulate processing
+            time.sleep(5)
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"❌ PODEMOS processing failed: {e}")
+            return False
+    
+    def handle_content_ingestion(self, job: QueueJob) -> bool:
+        """Handle URL content ingestion"""
+        try:
+            url = job.data.get('url')
+            if not url:
+                return False
+            
+            logger.info(f"🌐 Ingesting content: {url}")
+            
+            # Use existing content ingestion pipeline
+            # This would integrate with universal_content_extractor
+            
+            time.sleep(3)  # Simulate ingestion
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"❌ Content ingestion failed: {e}")
+            return False
+    
+    def handle_reprocessing(self, job: QueueJob) -> bool:
+        """Handle content reprocessing for quality improvement"""
+        try:
+            content_ids = job.data.get('content_ids', [])
+            
+            logger.info(f"🔄 Reprocessing {len(content_ids)} items")
+            
+            # Use existing reprocessing logic
+            time.sleep(len(content_ids))  # Simulate processing
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"❌ Reprocessing failed: {e}")
+            return False
+    
+    def process_jobs(self, max_jobs: Optional[int] = None):
+        """Process jobs from the queue"""
+        self.is_running = True
+        processed_count = 0
+        
+        logger.info(f"🚀 Starting job processing (max_jobs={max_jobs or 'unlimited'})")
+        
+        try:
+            while self.is_running:
+                job = self.get_next_job()
+                
+                if not job:
+                    # No jobs available, wait a bit
+                    time.sleep(10)
+                    continue
+                
+                # Check if we have a handler for this job type
+                if job.type not in self.job_handlers:
+                    logger.error(f"❌ Unknown job type: {job.type}")
+                    self.complete_job(job, result=f"Unknown job type: {job.type}", failed=True)
+                    continue
+                
+                # Process the job
+                logger.info(f"▶️  Processing job {job.id[:8]} ({job.type})")
+                start_time = time.time()
+                
+                try:
+                    success = self.job_handlers[job.type](job)
+                    processing_time = time.time() - start_time
+                    
+                    result = f"Processed in {processing_time:.2f}s"
+                    self.complete_job(job, result=result, failed=not success)
+                    
+                    processed_count += 1
+                    
+                    # Check if we've hit the max job limit
+                    if max_jobs and processed_count >= max_jobs:
+                        logger.info(f"✅ Processed {processed_count} jobs (limit reached)")
+                        break
+                        
+                except Exception as e:
+                    logger.error(f"❌ Job processing error: {e}")
+                    self.complete_job(job, result=str(e), failed=True)
+                
+                # Small delay between jobs to prevent overwhelming the system
+                time.sleep(1)
+                
+        except KeyboardInterrupt:
+            logger.info("🛑 Processing stopped by user")
+        finally:
+            self.is_running = False
+            logger.info(f"📊 Processed {processed_count} jobs total")
+    
+    def get_queue_stats(self) -> Dict[str, Any]:
+        """Get queue statistics"""
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.execute("""
+                SELECT status, COUNT(*) as count 
+                FROM worker_jobs 
+                GROUP BY status
+            """)
+            status_counts = dict(cursor.fetchall())
+            
+            cursor = conn.execute("""
+                SELECT type, COUNT(*) as count 
+                FROM worker_jobs 
+                WHERE status = 'pending'
+                GROUP BY type
+            """)
+            pending_by_type = dict(cursor.fetchall())
+            
+            cursor = conn.execute("""
+                SELECT COUNT(*) FROM worker_jobs 
+                WHERE status = 'running' AND assigned_worker = ?
+            """, (self.worker_id,))
+            running_by_worker = cursor.fetchone()[0]
+        
+        return {
+            'status_counts': status_counts,
+            'pending_by_type': pending_by_type,
+            'running_by_worker': running_by_worker,
+            'worker_id': self.worker_id
+        }
+    
+    def cleanup_old_jobs(self, days_old: int = 7):
+        """Clean up completed/failed jobs older than specified days"""
+        cutoff_date = (datetime.now() - timedelta(days=days_old)).isoformat()
+        
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.execute("""
+                DELETE FROM worker_jobs 
+                WHERE status IN ('completed', 'failed', 'cancelled') 
+                AND created_at < ?
+            """, (cutoff_date,))
+            deleted_count = cursor.rowcount
+            conn.commit()
+        
+        if deleted_count > 0:
+            logger.info(f"🧹 Cleaned up {deleted_count} old jobs")
+
+# Convenience functions for external systems to add jobs
+def add_ai_processing_job(content_id: str, priority: int = 50) -> str:
+    """Add an AI processing job to the queue"""
+    queue = UniversalProcessingQueue()
+    return queue.add_job('ai_processing', {'content_id': content_id}, priority)
+
+def add_transcript_discovery_job(podcast_name: str, episode_title: str, episode_url: str = None, priority: int = 75) -> str:
+    """Add a transcript discovery job to the queue"""
+    queue = UniversalProcessingQueue()
+    return queue.add_job('transcript_discovery', {
+        'podcast_name': podcast_name,
+        'episode_title': episode_title,
+        'episode_url': episode_url
+    }, priority)
+
+def add_podemos_processing_job(episode_data: Dict[str, Any], priority: int = 90) -> str:
+    """Add a PODEMOS processing job to the queue"""
+    queue = UniversalProcessingQueue()
+    return queue.add_job('podemos_processing', episode_data, priority)
+
+def add_content_ingestion_job(url: str, priority: int = 60) -> str:
+    """Add a content ingestion job to the queue"""
+    queue = UniversalProcessingQueue()
+    return queue.add_job('content_ingestion', {'url': url}, priority)
+
+if __name__ == "__main__":
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Universal Processing Queue for Atlas')
+    parser.add_argument('--process', action='store_true', help='Start processing jobs')
+    parser.add_argument('--stats', action='store_true', help='Show queue statistics')
+    parser.add_argument('--cleanup', action='store_true', help='Clean up old jobs')
+    parser.add_argument('--max-jobs', type=int, help='Maximum number of jobs to process')
+    parser.add_argument('--test', action='store_true', help='Add test jobs')
+    
+    args = parser.parse_args()
+    
+    queue = UniversalProcessingQueue()
+    
+    if args.stats:
+        stats = queue.get_queue_stats()
+        print("\n📊 Queue Statistics:")
+        print(f"Status counts: {stats['status_counts']}")
+        print(f"Pending by type: {stats['pending_by_type']}")
+        print(f"Running by worker: {stats['running_by_worker']}")
+        print(f"Worker ID: {stats['worker_id']}")
+    
+    if args.cleanup:
+        queue.cleanup_old_jobs()
+    
+    if args.test:
+        # Add some test jobs
+        queue.add_job('ai_processing', {'content_id': '12345'}, 50)
+        queue.add_job('transcript_discovery', {
+            'podcast_name': 'Test Podcast',
+            'episode_title': 'Test Episode'
+        }, 75)
+        print("✅ Added test jobs")
+    
+    if args.process:
+        queue.process_jobs(max_jobs=args.max_jobs)

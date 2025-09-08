@@ -174,12 +174,30 @@ class RealTranscriptFinder:
     def try_lex_fridman_transcript(self, title):
         """Try to find Lex Fridman transcript"""
         # Lex Fridman podcasts often have episode numbers
-        episode_match = re.search(r'#(\d+)', title)
-        if episode_match:
-            episode_num = episode_match.group(1)
-            # Try YouTube auto-generated transcript approach
-            # Note: This would need YouTube API or transcript extraction
-            print(f"    Lex Fridman #{episode_num} - transcript extraction not implemented")
+        # Construct URL based on title
+        # Remove episode number and then generate slug
+        title_without_episode_num = re.sub(r'^#\d+\s+', '', title)
+        slug = title_without_episode_num.lower().replace(' ', '-').replace(':', '').replace(',', '')
+        slug = re.sub(r'[^\w\s-]', '', slug).strip('-')
+        
+        url = f"https://lexfridman.com/{slug}-transcript/"
+        print(f"    Trying Lex Fridman URL: {url}")
+        
+        html = self.fetch_web_content(url)
+        if html:
+            transcript = self.extract_transcript_from_html(html, ['article', '.entry-content', '.post-content'])
+            if transcript:
+                return transcript
+        
+        # Try without the trailing slash
+        url = f"https://lexfridman.com/{slug}-transcript"
+        print(f"    Trying Lex Fridman URL (no trailing slash): {url}")
+        html = self.fetch_web_content(url)
+        if html:
+            transcript = self.extract_transcript_from_html(html, ['article', '.entry-content', '.post-content'])
+            if transcript:
+                return transcript
+        
         return None
 
     def try_acquired_transcript(self, title):

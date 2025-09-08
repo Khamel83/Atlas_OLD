@@ -16,7 +16,7 @@ from typing import Optional, Dict, Tuple
 
 # Import all the transcript finding methods
 try:
-    from rss_transcript_extractor import extract_rss_transcripts
+    from rss_transcript_extractor import extract_rss_transcripts, RSSTranscriptExtractor
 except ImportError:
     extract_rss_transcripts = None
     
@@ -49,6 +49,11 @@ class TranscriptOrchestrator:
             self.pattern_finder = RealTranscriptFinder()
         else:
             self.pattern_finder = None
+        
+        if extract_rss_transcripts:
+            self.rss_extractor = RSSTranscriptExtractor()
+        else:
+            self.rss_extractor = None
         
         # Known RSS feeds for direct extraction
         self.known_rss_feeds = {
@@ -111,10 +116,11 @@ class TranscriptOrchestrator:
         except Exception as e:
             print(f"    ⚠️ Could not record attempt: {e}")
     
-    def try_rss_extraction(self, podcast_name: str, episode_title: str) -> Optional[str]:
+    def try_rss_extraction(self, podcast_name: str, episode_title: str) -> Tuple[Optional[str], Optional[str]]:
         """Try RSS feed extraction if we have a known RSS feed"""
-        if not extract_rss_transcripts:
-            return None
+        if not self.rss_extractor:
+            print("DEBUG: Returning (None, None) because rss_extractor is None")
+            return None, None
             
         # Check if we have a known RSS feed for this podcast
         rss_url = None
@@ -124,41 +130,17 @@ class TranscriptOrchestrator:
                 break
         
         if not rss_url:
-            print(f"    📡 No known RSS feed for {podcast_name}")
-            return None
+            print("DEBUG: Returning (None, None) because rss_url is None")
+            return None, None
         
         try:
             print(f"    📡 Trying RSS extraction from {rss_url}...")
-            episodes_with_transcripts = extract_rss_transcripts(rss_url)
-            
-            # Find matching episode
-            for episode in episodes_with_transcripts:
-                if self.episode_matches(episode['title'], episode_title):
-                    transcript_urls = episode['transcript_urls']
-                    
-                    # Try the highest confidence transcript URL
-                    for url_info in sorted(transcript_urls, key=lambda x: x['confidence'], reverse=True):
-                        transcript_url = url_info['url']
-                        print(f"    📄 Fetching transcript from: {transcript_url}")
-                        
-                        # Use the pattern finder to fetch the actual transcript
-                        if self.pattern_finder:
-                            html_content = self.pattern_finder.fetch_web_content(transcript_url)
-                            if html_content:
-                                transcript = self.pattern_finder.extract_transcript_from_html(
-                                    html_content, ['.content', '.transcript', '.post-content', 'article']
-                                )
-                                if transcript:
-                                    self.record_attempt(podcast_name, episode_title, 'rss_extraction', True)
-                                    return transcript
-            
-            self.record_attempt(podcast_name, episode_title, 'rss_extraction', False)
-            return None
+            all_episodes, episodes_with_transcripts = self.rss_extractor.extract_rss_transcripts(rss_url)
             
         except Exception as e:
             print(f"    ❌ RSS extraction error: {e}")
             self.record_attempt(podcast_name, episode_title, 'rss_extraction', False, str(e))
-            return None
+            return None, None
     
     def try_pattern_matching(self, podcast_name: str, episode_title: str) -> Optional[str]:
         """Try known website patterns (Lex Fridman, This American Life, etc.)"""
@@ -236,6 +218,31 @@ class TranscriptOrchestrator:
             self.record_attempt(podcast_name, episode_title, 'archive_search', False, str(e))
             return None
     
+    def try_nytimes_handler(self, podcast_name: str, episode_title: str, episode_url: Optional[str] = None) -> Optional[str]:
+        """Handle NYTimes podcasts with 403 errors using specialized handler"""
+        try:
+            # Import the specialized handler
+            from nytimes_transcript_handler import handle_403_error
+            
+            print(f"    🔧 Trying NYTimes 403 handler...")
+            transcript = handle_403_error(podcast_name, episode_title, episode_url)
+            
+            if transcript:
+                self.record_attempt(podcast_name, episode_title, "nytimes_handler", "success", transcript[:100])
+                print(f"    ✅ NYTimes handler found transcript ({len(transcript)} chars)")
+                return transcript
+            else:
+                self.record_attempt(podcast_name, episode_title, "nytimes_handler", "not_found", "")
+                print(f"    ❌ NYTimes handler: transcript unavailable (marked in database)")
+                
+        except ImportError as e:
+            print(f"    ⚠️ NYTimes handler not available: {e}")
+        except Exception as e:
+            print(f"    ❌ Error in NYTimes handler: {e}")
+            self.record_attempt(podcast_name, episode_title, "nytimes_handler", "error", str(e))
+            
+        return None
+    
     def episode_matches(self, episode_title1: str, episode_title2: str) -> bool:
         """Check if two episode titles match (fuzzy matching)"""
         # Simple fuzzy matching - check if key words match
@@ -303,13 +310,16 @@ class TranscriptOrchestrator:
             return cached_transcript
         
         # Method 2: Try RSS extraction (most reliable if available)
-        transcript = self.try_rss_extraction(podcast_name, episode_title)
+        transcript, rss_episode_title = self.try_rss_extraction(podcast_name, episode_title)
         if transcript:
-            self.store_transcript(podcast_name, episode_title, transcript, episode_url)
+            self.store_transcript(podcast_name, rss_episode_title, transcript, episode_url)
             return transcript
         
+        # Use the RSS-derived title for pattern matching if available, otherwise use original
+        title_for_pattern_matching = rss_episode_title if rss_episode_title else episode_title
+
         # Method 3: Try known website patterns (fast and reliable)
-        transcript = self.try_pattern_matching(podcast_name, episode_title)
+        transcript = self.try_pattern_matching(podcast_name, title_for_pattern_matching)
         if transcript:
             self.store_transcript(podcast_name, episode_title, transcript, episode_url)
             return transcript
@@ -325,6 +335,13 @@ class TranscriptOrchestrator:
         if transcript:
             self.store_transcript(podcast_name, episode_title, transcript, episode_url)
             return transcript
+        
+        # Method 6: Handle 403 errors and NYTimes podcasts specially
+        if any(nyt_podcast in podcast_name.lower() for nyt_podcast in ['hard fork', 'ezra klein', 'the daily', 'nytimes']):
+            transcript = self.try_nytimes_handler(podcast_name, episode_title, episode_url)
+            if transcript:
+                self.store_transcript(podcast_name, episode_title, transcript, episode_url)
+                return transcript
         
         print(f"    ❌ No transcript found after trying all methods")
         return None

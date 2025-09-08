@@ -241,18 +241,22 @@ class YouTubeHistoryScraper:
             logger.info(f"Saving {len(videos)} videos to Atlas...")
             
             for i, video in enumerate(videos):
-                # Prepare data for Atlas
+                # Prepare content with embedded metadata
+                content_with_metadata = f"""YouTube Video: {video.title}
+Channel: {video.channel}
+Video ID: {video.video_id}
+Watched: {video.watched_at or 'Unknown'}
+Platform: YouTube
+Source: youtube-history-scraper
+
+URL: {video.url}"""
+
+                # Prepare data for Atlas (BookmarkletSave format)
                 content_data = {
-                    "url": video.url,
                     "title": video.title,
-                    "content": f"YouTube Video: {video.title}\nChannel: {video.channel}\nWatched: {video.watched_at or 'Unknown'}\n\nURL: {video.url}",
-                    "source": "youtube-history-scraper",
-                    "metadata": {
-                        "video_id": video.video_id,
-                        "channel": video.channel,
-                        "watched_at": video.watched_at,
-                        "platform": "youtube"
-                    }
+                    "url": video.url,
+                    "content": content_with_metadata,
+                    "content_type": "youtube_video"  # Critical: proper content type
                 }
                 
                 # Send to Atlas

@@ -12,6 +12,7 @@ import re
 from urllib.parse import urljoin, urlparse
 import time
 from bs4 import BeautifulSoup
+from typing import Optional, Dict, List, Tuple
 
 class RSSTranscriptExtractor:
     def __init__(self):
@@ -213,21 +214,23 @@ class RSSTranscriptExtractor:
         # Fetch RSS feed
         xml_content = self.fetch_rss_feed(rss_url)
         if not xml_content:
-            return []
+            return [], []
         
         # Parse RSS XML
         episodes = self.parse_rss_xml(xml_content)
         if not episodes:
-            return []
+            return [], []
         
         # Extract transcript URLs from episodes
         episodes_with_transcripts = []
+        all_processed_episodes = []
         
         for i, episode_item in enumerate(episodes):
             if i >= 50:  # Limit to first 50 episodes to avoid overwhelming
                 break
             
             episode_info = self.extract_episode_info(episode_item)
+            all_processed_episodes.append(episode_info)
             
             if not episode_info['title']:
                 continue
@@ -257,7 +260,7 @@ class RSSTranscriptExtractor:
         total_found = len(episodes_with_transcripts)
         print(f"🎯 RSS extraction results: {total_found} episodes with transcript URLs found")
         
-        return episodes_with_transcripts
+        return all_processed_episodes, episodes_with_transcripts
 
 # Module-level function for easy import
 def extract_rss_transcripts(rss_url):

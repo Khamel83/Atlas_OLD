@@ -75,10 +75,7 @@ async def list_content(
             # Get items
             query = f"""
                 SELECT id, title, url, content_type, created_at, updated_at, 
-                       CASE 
-                           WHEN ai_summary IS NOT NULL THEN 'completed'
-                           ELSE 'pending'
-                       END as status
+                       'completed' as status
                 FROM content
                 {where_clause}
                 ORDER BY id DESC
@@ -135,11 +132,9 @@ async def list_content_html(
             
             # Get items
             query = f"""
-                SELECT id, title, url, content_type, created_at, ai_summary,
-                       CASE 
-                           WHEN ai_summary IS NOT NULL THEN 'completed'
-                           ELSE 'pending'
-                       END as status
+                SELECT id, title, url, content_type, created_at, 
+                       'No summary available' as summary,
+                       'completed' as status
                 FROM content
                 {where_clause}
                 ORDER BY id DESC

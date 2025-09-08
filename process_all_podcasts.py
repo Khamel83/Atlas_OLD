@@ -13,20 +13,20 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 import json
 
-# Load OPML for RSS URLs
-def load_opml_feeds():
+# Load RSS feeds from CSV
+def load_rss_feeds_from_csv():
     feeds = {}
     try:
-        tree = ET.parse('atlas_podcasts.opml')
-        root = tree.getroot()
-        
-        for outline in root.findall('.//outline[@type="rss"]'):
-            name = outline.get('text', '')
-            url = outline.get('xmlUrl', '')
-            if name and url:
-                feeds[name] = url
+        with open('podcast_rss_feeds.csv', 'r') as f:
+            reader = csv.reader(f)
+            for row in reader:
+                if len(row) == 2:
+                    name = row[0].strip()
+                    url = row[1].strip()
+                    if name and url:
+                        feeds[name] = url
     except Exception as e:
-        print(f"⚠️  OPML load error: {e}")
+        print(f"⚠️  CSV RSS load error: {e}")
     
     return feeds
 
@@ -263,6 +263,33 @@ def try_generic_transcript_search(episodes, podcast_name, rss_url):
                             break
                 except:
                     continue
+    elif website == 'nytimes':
+        for episode in episodes[:5]: # Limit to recent episodes for testing
+            title = episode['title']
+            if transcript_exists(title, podcast_name):
+                continue
+            
+            # Try to construct a plausible URL for the episode page
+            # This is a heuristic and might need adjustment
+            slug = re.sub(r'[^\\w\\s-]', '', title.lower())
+            slug = re.sub(r'[-\\s]+', '-', slug).strip('-')
+            
+            # Assuming the episode URL is the primary source for the transcript
+            # This might need to be more dynamic based on actual NYT podcast URLs
+            # For now, we'll try to use the RSS feed URL's domain and append a slug
+            # This is a placeholder and needs refinement based on actual NYT URL patterns
+            # Given the 403, I cannot reliably construct the URL.
+            # I will try to use the podcast_name to construct a base URL and then search for the title.
+            
+            # For now, I will make a very general attempt to find content on the RSS feed URL itself
+            # or a derived URL. This is unlikely, or a generic NYT transcript page.
+            # This part is highly speculative due to the 403 error.
+            
+            # Placeholder for NYTimes transcript extraction
+            # This needs to be refined once direct web access is possible.
+            # For now, I will just print a message indicating this limitation.
+            print(f"      ⚠️  Cannot fetch NYTimes transcripts due to 403 Forbidden error. Skipping {title}")
+            continue
     
     return found
 
@@ -271,7 +298,7 @@ def main():
     print("🚀 Processing ALL podcasts from your priority list...")
     
     # Load data
-    feeds = load_opml_feeds()
+    feeds = load_rss_feeds_from_csv()
     priorities = load_podcast_priorities()
     
     print(f"📊 Found {len(priorities)} podcasts to process (Exclude=0)")

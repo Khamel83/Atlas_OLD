@@ -7,12 +7,17 @@ playlists, and monitor new videos from subscribed channels.
 """
 
 import os
+import sys
 import logging
 from typing import List, Dict, Any, Optional
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import json
 from datetime import datetime, timedelta
+
+# Add parent directory to path for Atlas integration
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from helpers.database_config import get_database_connection
 
 class YouTubeAPIClient:
     """YouTube Data API v3 client for Atlas"""
@@ -275,6 +280,93 @@ class YouTubeAPIClient:
                 
         except Exception as e:
             logging.warning(f"Failed to cache metadata: {e}")
+    
+    def store_videos_in_atlas(self, videos: List[Dict[str, Any]]) -> Dict[str, int]:
+        """
+        Store discovered videos in Atlas database
+        
+        Args:
+            videos: List of video dictionaries from API
+            
+        Returns:
+            Dict with success/failure counts
+        """
+        results = {"success": 0, "failed": 0, "duplicate": 0}
+        
+        try:
+            conn = get_database_connection()
+            cursor = conn.cursor()
+            
+            for video in videos:
+                try:
+                    video_id = video['video_id']
+                    
+                    # Check if video already exists
+                    cursor.execute("""
+                        SELECT COUNT(*) FROM content 
+                        WHERE content_type = 'youtube_video' 
+                        AND url LIKE ?
+                    """, (f"%{video_id}%",))
+                    
+                    if cursor.fetchone()[0] > 0:
+                        results["duplicate"] += 1
+                        continue
+                    
+                    # Prepare content
+                    content = f"""YouTube Video: {video['title']}
+Channel: {video['channel_title']}
+Video ID: {video_id}
+Published: {video['published_at']}
+Platform: YouTube
+Source: youtube-api-client
+
+Description:
+{video.get('description', 'No description available')}
+
+URL: {video['url']}"""
+
+                    # Prepare metadata JSON
+                    metadata = {
+                        "video_id": video_id,
+                        "channel_id": video['channel_id'],
+                        "channel_title": video['channel_title'],
+                        "published_at": video['published_at'],
+                        "thumbnails": video.get('thumbnails', {}),
+                        "platform": "youtube",
+                        "source": "youtube-api-client"
+                    }
+                    
+                    # Insert into database
+                    cursor.execute("""
+                        INSERT INTO content (
+                            title, url, content, content_type, metadata,
+                            created_at, updated_at
+                        ) VALUES (?, ?, ?, ?, ?, ?, ?)
+                    """, (
+                        video['title'],
+                        video['url'],
+                        content,
+                        'youtube_video',
+                        json.dumps(metadata),
+                        datetime.now().isoformat(),
+                        datetime.now().isoformat()
+                    ))
+                    
+                    results["success"] += 1
+                    
+                except Exception as e:
+                    logging.error(f"Failed to store video {video.get('video_id', 'unknown')}: {e}")
+                    results["failed"] += 1
+            
+            conn.commit()
+            conn.close()
+            
+            logging.info(f"Stored videos in Atlas: {results}")
+            return results
+            
+        except Exception as e:
+            logging.error(f"Failed to store videos in Atlas: {e}")
+            return {"success": 0, "failed": len(videos), "duplicate": 0}
 
 def main():
     """Example usage of YouTubeAPIClient"""
@@ -297,6 +389,12 @@ def main():
         print("Monitoring new videos...")
         videos = client.monitor_new_videos()
         print(f"Found {len(videos)} recent videos")
+        
+        # Store videos in Atlas database
+        if videos:
+            print("Storing videos in Atlas database...")
+            storage_results = client.store_videos_in_atlas(videos)
+            print(f"Storage results: {storage_results}")
         
         # Extract transcripts (simulated)
         if videos:
