@@ -6,7 +6,7 @@ import sys
 # Add parent directory to Python path for module imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from api.routers import content, search, cognitive, auth, dashboard, transcription, worker, shortcuts
+from api.routers import content, search, cognitive, auth, dashboard, transcription, worker, shortcuts, transcript_search
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -36,6 +36,7 @@ app.include_router(dashboard.router, prefix="/api/v1/dashboard", tags=["dashboar
 app.include_router(transcription.router, prefix="/api/v1/transcriptions", tags=["transcription"])
 app.include_router(worker.router, prefix="/api/v1/worker", tags=["worker"])
 app.include_router(shortcuts.router, prefix="/api/v1/shortcuts", tags=["shortcuts"])
+app.include_router(transcript_search.router, prefix="/api/v1/transcripts", tags=["transcript_search"])
 
 @app.get("/api/v1/health")
 async def health_check():
