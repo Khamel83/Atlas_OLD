@@ -117,25 +117,25 @@ class AtlasScheduler:
         try:
             logger.info("🎙️ Starting smart transcript discovery...")
             
-            # Use the working smart_transcription.py script
+            # Use batch transcript fetcher for rapid processing
             process = create_managed_process([
-                self.python_executable, "smart_transcription.py", "--process-all"
-            ], "transcript_discovery", cwd=self.project_root, timeout=3600)
+                self.python_executable, "scripts/batch_transcript_fetcher.py", "--limit", "20"
+            ], "transcript_discovery", cwd=self.project_root, timeout=300)
             stdout, stderr = process.communicate()
             
             if process.returncode == 0:
-                logger.info("✅ Smart transcript discovery completed successfully")
+                logger.info("✅ Batch transcript fetching completed successfully")
                 self.last_transcript_run = datetime.now()
                 self.last_transcript_success = self.last_transcript_run
                 return True
             else:
-                logger.error(f"❌ Smart transcript discovery failed with code {process.returncode}")
+                logger.error(f"❌ Batch transcript fetching failed with code {process.returncode}")
                 logger.error(f"Stderr: {stderr.decode() if stderr else 'No error output'}")
                 # Update run time but not success time - enables faster retry
                 self.last_transcript_run = datetime.now()
                 return False
         except Exception as e:
-            logger.error(f"❌ Smart transcript discovery error: {e}")
+            logger.error(f"❌ Batch transcript fetching error: {e}")
             return False
     
     def run_universal_queue_processing(self) -> bool:

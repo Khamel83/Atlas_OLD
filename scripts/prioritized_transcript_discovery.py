@@ -77,7 +77,7 @@ class PrioritizedTranscriptDiscovery:
                         continue  # Skip excluded podcasts
                         
                     # Reasonable limit - avoid 3270 episode nonsense
-                    reasonable_limit = min(max_count, 100)  
+                    reasonable_limit = min(max_count, 50)  # Even faster processing  
                     
                     cursor.execute('''
                         SELECT id, podcast_name, title, audio_url, published_date
@@ -101,12 +101,14 @@ class PrioritizedTranscriptDiscovery:
         """Process single episode for transcript discovery"""
         print(f"🔍 Processing: {podcast_name} - {title[:50]}...")
         
-        # Try transcript discovery
-        success = self.orchestrator.process_episode_comprehensive(
+        # Try transcript discovery using the correct method
+        transcript = self.orchestrator.find_transcript(
             podcast_name=podcast_name,
             episode_title=title,
             episode_url=audio_url
         )
+        
+        success = transcript is not None
         
         # Update database
         conn = get_database_connection()
