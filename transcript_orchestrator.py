@@ -40,6 +40,11 @@ try:
 except ImportError:
     extract_episode_metadata = None
 
+try:
+    from helpers.mac_mini_client import MacMiniClient
+except ImportError:
+    MacMiniClient = None
+
 class TranscriptOrchestrator:
     def __init__(self, db_path="~/dev/atlas/atlas.db"):
         self.db_path = db_path.replace("~", "/home/ubuntu")
@@ -63,6 +68,10 @@ class TranscriptOrchestrator:
             'RadioLab': 'https://feeds.wnyc.org/radiolab',
             'Hard Fork': 'https://rss.art19.com/the-ezra-klein-show'  # NYT shows often share feeds
         }
+        
+        # Mac Mini client for audio transcription fallback
+        self.mac_mini_client = MacMiniClient() if MacMiniClient else None
+        self.mac_mini_enabled = True  # Can be configured via .env
         
     def generate_cache_key(self, podcast_name: str, episode_title: str) -> str:
         """Generate a cache key for episode"""
@@ -243,6 +252,45 @@ class TranscriptOrchestrator:
             
         return None
     
+    def try_mac_mini_transcription(self, podcast_name: str, episode_title: str, 
+                                   audio_url: Optional[str] = None) -> Optional[str]:
+        """Try Mac Mini audio transcription as final fallback"""
+        if not self.mac_mini_client or not self.mac_mini_enabled or not audio_url:
+            return None
+        
+        try:
+            print(f"    🖥️ Trying Mac Mini transcription...")
+            
+            # Test Mac Mini connection first
+            if not self.mac_mini_client.test_connection():
+                print(f"    ⚠️ Mac Mini not available, skipping")
+                self.record_attempt(podcast_name, episode_title, 'mac_mini_transcription', False, "Mac Mini not available")
+                return None
+            
+            # Submit transcription task with timeout (10 minutes max)
+            result = self.mac_mini_client.transcribe_audio(audio_url, quality="base", timeout=600)
+            
+            if result and result.get('success'):
+                transcript = result.get('transcript', '')
+                if transcript and len(transcript.strip()) > 100:  # Basic quality check
+                    print(f"    ✅ Mac Mini transcription successful ({len(transcript)} chars)")
+                    self.record_attempt(podcast_name, episode_title, 'mac_mini_transcription', True)
+                    return transcript
+                else:
+                    print(f"    ❌ Mac Mini returned poor quality transcript")
+                    self.record_attempt(podcast_name, episode_title, 'mac_mini_transcription', False, "Poor quality transcript")
+                    return None
+            else:
+                error_msg = result.get('error', 'Unknown error') if result else 'No result returned'
+                print(f"    ❌ Mac Mini transcription failed: {error_msg}")
+                self.record_attempt(podcast_name, episode_title, 'mac_mini_transcription', False, error_msg)
+                return None
+                
+        except Exception as e:
+            print(f"    ❌ Mac Mini transcription error: {e}")
+            self.record_attempt(podcast_name, episode_title, 'mac_mini_transcription', False, str(e))
+            return None
+    
     def episode_matches(self, episode_title1: str, episode_title2: str) -> bool:
         """Check if two episode titles match (fuzzy matching)"""
         # Simple fuzzy matching - check if key words match
@@ -300,6 +348,8 @@ class TranscriptOrchestrator:
         3. Known website patterns (fast and reliable)
         4. Google search (universal but blocked)
         5. Internet Archive (slow but comprehensive)
+        6. NYTimes special handler (for 403 errors)
+        7. Mac Mini audio transcription (final fallback)
         """
         
         print(f"🎙️ Finding transcript: {podcast_name} - {episode_title[:60]}...")
@@ -343,7 +393,16 @@ class TranscriptOrchestrator:
                 self.store_transcript(podcast_name, episode_title, transcript, episode_url)
                 return transcript
         
-        print(f"    ❌ No transcript found after trying all methods")
+        # Method 7: Mac Mini audio transcription (final fallback)
+        if episode_url:
+            transcript = self.try_mac_mini_transcription(podcast_name, episode_title, episode_url)
+            if transcript:
+                # Store with Mac Mini attribution
+                title_with_source = f"[TRANSCRIPT - Mac Mini] {episode_title}"
+                self.store_transcript(podcast_name, title_with_source, transcript, episode_url)
+                return transcript
+        
+        print(f"    ❌ No transcript found after trying all methods (including Mac Mini)")
         return None
 
 # Module-level function for easy import

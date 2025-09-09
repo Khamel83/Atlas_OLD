@@ -18,6 +18,10 @@ import signal
 from helpers.bulletproof_process_manager import get_manager, create_managed_process
 from helpers.resource_monitor import check_system_health
 
+# Import Universal Processing Queue for coordinated job management
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from universal_processing_queue import UniversalProcessingQueue, add_youtube_processing_job
+
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # Setup logging

@@ -9,9 +9,12 @@ Atlas is your personal AI that captures everything you read, hear, and think—t
 
 🎯 **Single Optimal Model** - Gemini 2.5 Flash Lite for all workloads (cheapest + highest quality)  
 🎤 **Voice-First Design** - "Hey Siri, save to Atlas" captures thoughts instantly  
-🧠 **5 Cognitive Features** - AI that thinks *with* you, not just *for* you  
+🧠 **6 Cognitive Features** - AI that thinks *with* you, not just *for* you  
 📱 **Mobile-First Interface** - Complete content management from your phone  
 🔍 **Advanced Search & Filtering** - Find content by date, type, source, or meaning  
+📺 **YouTube Integration** - Automatic video processing with transcript extraction  
+🎙️ **Mac Mini Audio Processing** - Dedicated transcription with Whisper for high-quality audio processing  
+📻 **PODEMOS Ad-Free Feeds** - Personal clean podcast feeds with ads removed  
 ⚡ **Production Ready** - 100% working with comprehensive testing and validation  
 
 ## 🎯 Single Model Architecture 
@@ -45,14 +48,22 @@ All powered by the single optimal model:
 
 ## 🚀 Get Started in 10 Minutes
 
-### Quick Install (macOS)
+### 1. Basic Installation
 ```bash
 git clone https://github.com/Khamel83/atlas.git
 cd atlas
 ./quick_install.sh
 ```
 
-### Install iOS Shortcuts
+### 2. Required Setup (5 minutes)
+
+**🔑 Get OpenRouter API Key** (Required - Powers all AI features):
+1. Visit [OpenRouter.ai](https://openrouter.ai) and create account
+2. Generate API key (starts with `sk-or-v1-`)
+3. Add to `.env`: `OPENROUTER_API_KEY=sk-or-v1-your-key-here`
+4. Cost: ~$1-5/month for typical usage
+
+### 3. Install iOS Shortcuts
 
 **📱 From Your Phone (Easiest):**
 ```bash
@@ -65,20 +76,33 @@ Then tap each shortcut to install
 ./install_shortcuts.sh
 ```
 
-### Test Your Installation
+### 4. Test Your Installation
 ```bash
 # 1. Try voice capture
 # Say: "Hey Siri, save to Atlas"
 # Speak: "This is my first Atlas note"
 
 # 2. Visit your AI dashboard
-open https://atlas.khamel.com  # Main Atlas dashboard
+open http://localhost:7444  # Main Atlas dashboard
 # Or directly access:
-open https://atlas.khamel.com/mobile  # Mobile-optimized interface  
-open https://atlas.khamel.com/ask/html  # Desktop cognitive interface
+open http://localhost:7444/mobile  # Mobile-optimized interface  
+open http://localhost:7444/ask/html  # Desktop cognitive interface
 ```
 
 **That's it!** Atlas is now learning from your information and ready to help you think.
+
+---
+
+## 🔧 Optional Advanced Features
+
+**Want YouTube, Mac Mini processing, or ad-free podcasts?** See [External Setup Guide](docs/user-guides/EXTERNAL_REQUIREMENTS_GUIDE.md) for:
+
+- **📺 YouTube Integration** - Auto-process your subscriptions (Free with Google account)
+- **🎙️ Mac Mini Audio Processing** - Dedicated Whisper transcription (Hardware required)
+- **📻 PODEMOS Ad-Free Podcasts** - Private RSS feeds without ads (Oracle OCI account)
+- **📧 Email Integration** - Process forwarded emails (Any IMAP email)
+
+**Core Atlas works perfectly without these!**
 
 ## 🧠 Cognitive Features
 
@@ -121,6 +145,23 @@ Suggests relevant content based on your interests, goals, and current projects.
 - Automatically fetches and processes podcast episodes from RSS feeds based on your prioritized list.
 - Supports both historical episode processing and continuous ingestion of new releases.
 - Integrates with the Smart Transcription Pipeline for high-quality transcripts.
+
+### **🎬 YouTube Content Processing**
+- **Automated YouTube Integration**: Monitors your YouTube subscriptions and history for new videos
+- **Smart Content Discovery**: Processes YouTube videos with transcript extraction and metadata
+- **Scheduled Processing**: Runs every 5 hours to discover and process new YouTube content
+- **Atlas Integration**: YouTube videos stored with proper metadata and searchable through Atlas
+- **Rate-Limited Processing**: Respects YouTube API limits while maximizing content discovery
+
+### **🧹 PODEMOS Personal Ad-Free Podcasts**
+- **Complete Ad Removal Pipeline**: Automatically removes advertisements from podcast episodes
+- **OPML Import**: Import your podcast subscriptions from Overcast or other podcast apps
+- **AI-Powered Ad Detection**: Advanced pattern matching identifies sponsor reads and dynamic ads
+- **Mac Mini Integration**: Leverages dedicated Mac Mini hardware for Whisper transcription
+- **High-Quality Audio Processing**: Uses FFmpeg to maintain audio quality while removing ads
+- **Private RSS Feeds**: Generates clean, private RSS feeds hosted on Oracle OCI
+- **2AM Processing**: Automated daily processing delivers clean episodes by 2:20 AM
+- **Real-Time Monitoring**: Comprehensive monitoring and alerting for processing pipeline
 
 ### **💻 Web & Document Processing**
 - **📱 Mobile Web**: `https://atlas.khamel.com/mobile` - Full Atlas access from any device
@@ -173,6 +214,27 @@ Atlas is built on a bulletproof, production-ready architecture:
 - **🍎 Apple Integration** - Native Shortcuts and iOS extensions
 - **🛡️ Bulletproof Process Management** - Memory leak prevention and stability
 
+### **🎬 YouTube Processing System**
+- **YouTube Data API v3** - Subscription monitoring and video discovery
+- **pytube & youtube-transcript-api** - Video metadata and transcript extraction
+- **Atlas Scheduler Integration** - Automated processing every 5 hours
+- **Rate Limiting & Caching** - Respects API limits and prevents duplicates
+
+### **🧹 PODEMOS Ad Removal Pipeline**
+- **Mac Mini Whisper Integration** - Dedicated hardware transcription via SSH task queue
+- **Advanced Ad Detection** - 8 pattern types with confidence scoring and machine learning
+- **FFmpeg Audio Processing** - High-quality ad segment removal preserving audio fidelity
+- **RSS Feed Generation** - Clean, private feeds with Oracle OCI hosting infrastructure
+- **Automated Scheduling** - 2AM daily processing with 20-minute SLA guarantee
+- **Real-time Monitoring** - Comprehensive health checks, alerting, and failure recovery
+
+### **🎙️ Mac Mini Audio Processing Infrastructure**
+- **SSH Task Queue** - Secure file-based task submission from Atlas to Mac Mini
+- **Whisper Model Management** - Multiple model sizes (base, small, medium) for quality/speed optimization
+- **Graceful Degradation** - Atlas continues operating if Mac Mini unavailable
+- **Task Result Polling** - Efficient status checking and result retrieval
+- **Audio Format Support** - Handles MP3, M4A, WAV, and other common podcast formats
+
 ## 📖 Documentation
 
 **New Users:**
@@ -205,6 +267,13 @@ Atlas is built on a bulletproof, production-ready architecture:
 **Windows:**
 - Windows 10+ with WSL2
 - Follow Linux installation in WSL
+
+**Optional Mac Mini Audio Processing:**
+- Mac Mini with macOS 12+ (for dedicated Whisper transcription)
+- SSH access configured between Atlas server and Mac Mini
+- 8GB+ RAM recommended for Whisper models
+- OpenAI Whisper installed (`pip install openai-whisper`)
+- Setup scripts: `scripts/setup_mac_mini_ssh.sh` and `scripts/install_mac_mini_software.sh`
 
 ## 🚨 Status & Health
 

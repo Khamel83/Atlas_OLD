@@ -24,6 +24,9 @@ from podemos_ad_detection import PodmosAdDetector
 from podemos_audio_cutter import PodmosAudioCutter
 from podemos_rss_generator import PodmosRSSGenerator
 
+# Import Universal Processing Queue for job submission
+from universal_processing_queue import add_podemos_processing_job, UniversalProcessingQueue
+
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,

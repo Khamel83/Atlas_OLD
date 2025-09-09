@@ -5,12 +5,12 @@ Focus on specific podcasts that we know have transcripts
 """
 
 import sqlite3
-from comprehensive_transcript_finder import ComprehensiveTranscriptFinder
+from transcript_orchestrator import TranscriptOrchestrator
 
 def process_specific_podcasts():
     """Process specific podcasts that we know have transcripts"""
     
-    finder = ComprehensiveTranscriptFinder()
+    orchestrator = TranscriptOrchestrator()
     
     # Target podcasts with working strategies
     target_podcasts = [

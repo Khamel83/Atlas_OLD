@@ -10,6 +10,8 @@ Supported Job Types:
 - transcript_discovery: Find transcripts for podcast episodes
 - podcast_transcription: Audio-to-text transcription (Mac Mini)
 - podemos_processing: Ad-free episode processing
+- youtube_processing: YouTube video content extraction and processing
+- mac_mini_transcription: Direct Mac Mini audio transcription tasks
 - content_ingestion: URL content extraction
 - reprocessing: Quality improvement for existing content
 """
@@ -65,17 +67,42 @@ class UniversalProcessingQueue:
         self.worker_id = f"worker_{uuid.uuid4().hex[:8]}"
         self.is_running = False
         
+        # Initialize database tables
+        self._init_database()
+        
         # Register job handlers
         self.job_handlers: Dict[str, Callable] = {
             'ai_processing': self.handle_ai_processing,
             'transcript_discovery': self.handle_transcript_discovery,
             'podcast_transcription': self.handle_podcast_transcription,
             'podemos_processing': self.handle_podemos_processing,
+            'youtube_processing': self.handle_youtube_processing,
+            'mac_mini_transcription': self.handle_mac_mini_transcription,
             'content_ingestion': self.handle_content_ingestion,
             'reprocessing': self.handle_reprocessing,
         }
         
         logger.info(f"🔄 Universal Processing Queue initialized (Worker: {self.worker_id})")
+    
+    def _init_database(self):
+        """Initialize database tables for job queue"""
+        with sqlite3.connect(self.db_path) as conn:
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS worker_jobs (
+                    id TEXT PRIMARY KEY,
+                    type TEXT NOT NULL,
+                    data TEXT,
+                    priority INTEGER DEFAULT 50,
+                    status TEXT DEFAULT 'pending',
+                    assigned_worker TEXT,
+                    created_at TEXT,
+                    assigned_at TEXT,
+                    completed_at TEXT,
+                    result TEXT,
+                    retry_count INTEGER DEFAULT 0
+                )
+            """)
+            conn.commit()
     
     def add_job(self, job_type: str, data: Dict[str, Any], priority: int = 50) -> str:
         """Add a new job to the queue"""
@@ -286,6 +313,76 @@ class UniversalProcessingQueue:
             logger.error(f"❌ Reprocessing failed: {e}")
             return False
     
+    def handle_youtube_processing(self, job: QueueJob) -> bool:
+        """Handle YouTube video processing jobs"""
+        try:
+            video_data = job.data
+            video_url = video_data.get('video_url')
+            
+            if not video_url:
+                logger.error("❌ No video URL provided for YouTube processing")
+                return False
+            
+            logger.info(f"📺 Processing YouTube video: {video_url}")
+            
+            # Use YouTube ingestor for processing
+            from helpers.youtube_ingestor import YouTubeIngestor
+            
+            ingestor = YouTubeIngestor()
+            success = ingestor.process_video(video_url)
+            
+            if success:
+                logger.info(f"✅ YouTube video processed successfully")
+                return True
+            else:
+                logger.error(f"❌ YouTube video processing failed")
+                return False
+                
+        except Exception as e:
+            logger.error(f"❌ YouTube processing error: {e}")
+            return False
+    
+    def handle_mac_mini_transcription(self, job: QueueJob) -> bool:
+        """Handle Mac Mini transcription jobs"""
+        try:
+            audio_data = job.data
+            audio_url = audio_data.get('audio_url')
+            quality = audio_data.get('quality', 'base')
+            
+            if not audio_url:
+                logger.error("❌ No audio URL provided for Mac Mini transcription")
+                return False
+            
+            logger.info(f"🖥️ Mac Mini transcribing: {audio_url}")
+            
+            # Use Mac Mini client for transcription
+            from helpers.mac_mini_client import MacMiniClient
+            
+            client = MacMiniClient()
+            
+            # Test connection first
+            if not client.test_connection():
+                logger.warning("⚠️ Mac Mini not available")
+                return False
+            
+            result = client.transcribe_audio(audio_url, quality, timeout=600)
+            
+            if result and result.get('success'):
+                transcript = result.get('transcript', '')
+                logger.info(f"✅ Mac Mini transcription completed ({len(transcript)} chars)")
+                
+                # Store result in job data for retrieval
+                job.data['transcript_result'] = result
+                return True
+            else:
+                error_msg = result.get('error', 'Unknown error') if result else 'No result'
+                logger.error(f"❌ Mac Mini transcription failed: {error_msg}")
+                return False
+                
+        except Exception as e:
+            logger.error(f"❌ Mac Mini transcription error: {e}")
+            return False
+    
     def process_jobs(self, max_jobs: Optional[int] = None):
         """Process jobs from the queue"""
         self.is_running = True
@@ -410,6 +507,19 @@ def add_content_ingestion_job(url: str, priority: int = 60) -> str:
     """Add a content ingestion job to the queue"""
     queue = UniversalProcessingQueue()
     return queue.add_job('content_ingestion', {'url': url}, priority)
+
+def add_youtube_processing_job(video_url: str, priority: int = 70) -> str:
+    """Add a YouTube processing job to the queue"""
+    queue = UniversalProcessingQueue()
+    return queue.add_job('youtube_processing', {'video_url': video_url}, priority)
+
+def add_mac_mini_transcription_job(audio_url: str, quality: str = 'base', priority: int = 85) -> str:
+    """Add a Mac Mini transcription job to the queue"""
+    queue = UniversalProcessingQueue()
+    return queue.add_job('mac_mini_transcription', {
+        'audio_url': audio_url,
+        'quality': quality
+    }, priority)
 
 if __name__ == "__main__":
     import argparse

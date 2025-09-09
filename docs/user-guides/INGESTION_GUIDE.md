@@ -117,11 +117,100 @@ python run.py --urls path/to/document_list.txt
 - **"Extraction failed"**: OCR may be needed for scanned documents
 - **"Too large"**: Document exceeds size limits
 
-## Podcasts
+## Podcasts & PODEMOS Personal Ad-Free Feeds
 
-### How to add RSS feeds and process episodes
+### PODEMOS Personal Ad-Free Podcast System
 
-Atlas can automatically discover, download, and transcribe podcast episodes:
+Atlas includes PODEMOS, a comprehensive personal podcast processing system that removes advertisements and provides clean RSS feeds:
+
+#### Setting Up PODEMOS Personal Feeds
+
+1. **Import Your Podcast Subscriptions:**
+   ```bash
+   # Export OPML from your podcast app (Overcast, Pocket Casts, etc.)
+   # Save as inputs/podcast_subscriptions.opml
+   
+   # Import subscriptions to PODEMOS
+   python3 podemos_opml_parser.py inputs/podcast_subscriptions.opml
+   ```
+
+2. **Configure PODEMOS Processing:**
+   ```bash
+   # Add to .env file
+   PODEMOS_ENABLED=true
+   PODEMOS_PROCESSING_TIME="02:00"  # 2 AM daily processing
+   PODEMOS_RSS_HOST=your_domain.com
+   PODEMOS_AUTH_TOKEN=your_secure_token
+   
+   # Oracle OCI configuration for RSS hosting
+   OCI_BUCKET_NAME=your_bucket_name
+   OCI_REGION=your_region
+   ```
+
+3. **Start PODEMOS Services:**
+   ```bash
+   # Start feed monitoring (runs continuously)
+   python3 podemos_feed_monitor.py --daemon
+   
+   # Start RSS server for private feeds
+   python3 podemos_rss_server.py --daemon
+   
+   # Or use unified service manager
+   python3 unified_service_manager.py start --podemos
+   ```
+
+#### PODEMOS Features
+
+**🎯 Ultra-Fast Ad Removal:**
+- **19-Minute Processing**: From episode release to clean feed availability
+- **Real-Time Monitoring**: Detects new episodes within 1-2 minutes
+- **AI-Powered Ad Detection**: 8 different pattern recognition algorithms
+- **Mac Mini Integration**: Leverages dedicated Whisper transcription hardware
+
+**📻 Private RSS Feeds:**
+- **Clean Episode Delivery**: Ad-free audio with preserved quality
+- **Podcast App Compatible**: Works with Overcast, Pocket Casts, Apple Podcasts
+- **Authenticated Access**: Secure token-based private feed access
+- **Oracle OCI Hosting**: Scalable, reliable cloud infrastructure
+
+**🔄 Automated Processing Pipeline:**
+- **Daily 2 AM Processing**: Scheduled processing for overnight episode releases
+- **Continuous Monitoring**: Real-time detection of new episodes
+- **Atlas Integration**: Shared processing queue prevents resource conflicts
+- **Failure Recovery**: Automatic retry logic for failed processing
+
+#### Using Your Private PODEMOS Feeds
+
+1. **Get Your Private Feed URLs:**
+   ```bash
+   # List all your private feeds
+   python3 -c "
+   from podemos_rss_server import PodmosRSSServer
+   server = PodmosRSSServer()
+   feeds = server.list_private_feeds()
+   for feed in feeds:
+       print(f'{feed.title}: {feed.private_url}')
+   "
+   ```
+
+2. **Add to Your Podcast App:**
+   - Copy the private RSS URL for each podcast
+   - Add as a "Custom RSS Feed" in your podcast app
+   - Authentication token is embedded in the URL
+   - Episodes will appear ad-free within 20 minutes of release
+
+3. **Monitor Processing Status:**
+   ```bash
+   # Check PODEMOS processing status
+   python3 podemos_monitor.py --status
+   
+   # View recent processing activity
+   python3 podemos_monitor.py --recent-activity
+   ```
+
+### Standard Podcast Processing (Without Ad Removal)
+
+For podcasts not in your PODEMOS subscription list, Atlas still provides comprehensive podcast processing:
 
 #### Method 1: OPML Import
 1. Export your podcast subscriptions as OPML
@@ -131,23 +220,99 @@ Atlas can automatically discover, download, and transcribe podcast episodes:
    python run.py --podcasts
    ```
 
-#### Method 2: Direct RSS Feed
-1. Add RSS feed URLs to `inputs/podcasts.opml`
-2. Run podcast ingestion:
-   ```bash
-   python run.py --podcasts
-   ```
+#### Method 2: Direct RSS Feed Processing
+```bash
+# Process a single podcast feed
+python3 helpers/podcast_ingestor.py "https://feeds.example.com/podcast.rss"
+
+# Process with Mac Mini transcription
+python3 helpers/podcast_ingestor.py "https://feeds.example.com/podcast.rss" --use-mac-mini
+```
+
+#### Method 3: Historical Episode Import
+```bash
+# Import entire podcast history
+python3 -c "
+from helpers.podcast_ingestor import PodcastIngestor
+ingestor = PodcastIngestor()
+ingestor.import_full_history('https://feeds.example.com/podcast.rss', max_episodes=100)
+"
+```
 
 ### Podcast Processing Features
-- Automatic episode discovery
-- Audio download
-- Speech-to-text transcription
-- Content analysis
-- Metadata extraction
+
+**🎙️ Comprehensive Transcription:**
+- Mac Mini Whisper integration for high-quality transcription
+- Multiple model sizes (base, small, medium) for speed/quality optimization
+- Fallback transcription methods for maximum coverage
+- Support for multiple audio formats (MP3, M4A, WAV, FLAC)
+
+**🔍 Atlas Integration:**
+- Episode metadata stored in Atlas database
+- Transcripts indexed for semantic search
+- Content available in cognitive feature analysis
+- Mobile-friendly podcast content management
+
+**📊 Quality Analysis:**
+- Content quality scoring with 6 analysis dimensions
+- Automatic reprocessing of failed or low-quality content
+- Duplicate detection and deduplication
+- Performance monitoring and optimization
 
 ### Supported Podcast Sources
-- Any RSS feed with audio enclosures
-- Major podcast platforms (Apple Podcasts, Spotify, etc.)
+
+✅ **Fully Supported:**
+- Standard RSS feeds (RSS 2.0, Atom)
+- Apple Podcasts feeds
+- Podcast hosting platforms (Libsyn, Anchor, etc.)
+- Direct audio file URLs
+
+⚠️ **Limited Support:**
+- Spotify podcast URLs (metadata only, no audio)
+- Premium/paid podcast feeds
+- Feeds requiring authentication
+
+❌ **Not Supported:**
+- Proprietary platform-locked content
+- DRM-protected audio files
+- Live streaming (only after episodes are published)
+
+### Troubleshooting Podcast Processing
+
+**PODEMOS Issues:**
+```bash
+# Check PODEMOS service status
+python3 podemos_monitor.py --health-check
+
+# View processing logs
+tail -f logs/podemos_processing.log
+
+# Restart PODEMOS services
+python3 unified_service_manager.py restart --podemos
+```
+
+**Transcription Issues:**
+- **"Mac Mini unavailable"**: Processing falls back to local transcription
+- **"Whisper model loading failed"**: Check Mac Mini setup and model installation
+- **"Audio format not supported"**: Convert to MP3/M4A using FFmpeg
+
+**Feed Processing Issues:**
+- **"Feed not found"**: RSS URL may be invalid or moved
+- **"No episodes"**: Feed may be empty, private, or require authentication
+- **"Download failed"**: Audio file may be unavailable or geoblocked
+- **"Processing timeout"**: Large episodes may need extended timeout settings
+
+**Performance Optimization:**
+```bash
+# Enable Mac Mini for faster processing
+PODCAST_USE_MAC_MINI=true
+
+# Adjust processing concurrency
+PODCAST_MAX_CONCURRENT=3
+
+# Configure transcription model
+PODCAST_WHISPER_MODEL=base  # Options: tiny, base, small, medium, large
+```
 - Independent podcasters
 - Internal company podcasts
 
@@ -159,44 +324,158 @@ Atlas can automatically discover, download, and transcribe podcast episodes:
 
 ## YouTube Videos
 
-### How to save videos for transcript processing
+### Automated YouTube Content Processing
 
-Atlas can extract transcripts from YouTube videos:
+Atlas features a comprehensive YouTube processing system that automatically monitors and processes your YouTube content:
 
-#### Method 1: History Import
-1. Export your YouTube watch history
-2. Save as `inputs/youtube_history.json`
-3. Run YouTube ingestion:
+#### Method 1: Automated Subscription Processing (Recommended)
+Atlas automatically discovers and processes videos from your YouTube subscriptions:
+
+1. **Setup YouTube API Access:**
    ```bash
-   python run.py --youtube
+   # Configure YouTube API credentials in .env
+   YOUTUBE_API_KEY=your_api_key_here
+   YOUTUBE_CHANNEL_ID=your_channel_id_here
    ```
 
-#### Method 2: Video URL List
-1. Create a text file with YouTube URLs
-2. Save as `inputs/youtube.txt`
-3. Run YouTube ingestion:
+2. **Enable Automated Processing:**
+   - YouTube processing runs automatically every 5 hours
+   - Discovers new videos from subscriptions and history
+   - Processes video metadata and extracts transcripts
+   - Integrates with Atlas semantic search and cognitive features
+
+3. **Monitor Processing:**
    ```bash
-   python run.py --youtube
+   # Check YouTube processing status
+   python3 atlas_status.py --detailed
+   ```
+
+#### Method 2: Manual Video URL Processing
+For specific videos or one-time processing:
+
+1. **Single Video Processing:**
+   ```bash
+   # Process a specific YouTube video
+   python3 -c "
+   from helpers.youtube_ingestor import YouTubeIngestor
+   ingestor = YouTubeIngestor()
+   ingestor.process_video_url('https://youtube.com/watch?v=VIDEO_ID')
+   "
+   ```
+
+2. **Batch URL Processing:**
+   ```bash
+   # Create file with YouTube URLs (one per line)
+   echo "https://youtube.com/watch?v=VIDEO_ID_1" > inputs/youtube_urls.txt
+   echo "https://youtube.com/watch?v=VIDEO_ID_2" >> inputs/youtube_urls.txt
+   
+   # Process batch
+   python3 scripts/atlas_scheduler.py --youtube-batch inputs/youtube_urls.txt
+   ```
+
+#### Method 3: YouTube History Import
+Process your entire YouTube watch history:
+
+1. **Export YouTube History:**
+   - Go to [Google Takeout](https://takeout.google.com)
+   - Select "YouTube and YouTube Music" > "history"
+   - Download as JSON format
+
+2. **Import History:**
+   ```bash
+   # Place downloaded file as inputs/youtube_history.json
+   python3 -c "
+   from automation.youtube_history_scraper import YouTubeHistoryProcessor
+   processor = YouTubeHistoryProcessor()
+   processor.process_history_file('inputs/youtube_history.json')
+   "
    ```
 
 ### YouTube Processing Features
-- Automatic transcript extraction
-- Content analysis
-- Metadata extraction
-- Search indexing
-- Cognitive insights
+
+**🤖 Automated Discovery:**
+- Monitors YouTube subscriptions via YouTube Data API v3
+- Discovers new videos every 5 hours automatically
+- Respects API rate limits with intelligent caching
+- Prevents duplicate processing with content fingerprinting
+
+**📝 Transcript Processing:**
+- Extracts official captions when available
+- Falls back to auto-generated captions
+- Supports multiple language transcripts
+- Integrates with Mac Mini Whisper for audio transcription fallback
+
+**🔍 Atlas Integration:**
+- Video metadata stored in Atlas database
+- Transcripts indexed for semantic search
+- Content available in cognitive feature analysis
+- Mobile-friendly video content management
+
+**⚡ Smart Rate Limiting:**
+- Respects YouTube API quotas (10,000 units/day default)
+- Implements exponential backoff for rate limit handling
+- Caches results to minimize API calls
+- Graceful degradation when API limits reached
 
 ### Supported YouTube Content
-- Public videos with captions
-- Videos with auto-generated captions
-- Playlists
-- Channels
+
+✅ **Fully Supported:**
+- Public videos with official captions
+- Videos with auto-generated captions  
+- Educational content and lectures
+- Podcast episodes uploaded to YouTube
+- Conference talks and presentations
+
+⚠️ **Limited Support:**
+- Private videos (if you have access)
+- Unlisted videos (with direct URL)
+- Videos without captions (audio-only processing via Mac Mini)
+
+❌ **Not Supported:**
+- Age-restricted content requiring login
+- Copyright-protected content with disabled embedding
+- Live streams (only after they become VODs)
 
 ### Troubleshooting YouTube Processing
+
+**Authentication Issues:**
+```bash
+# Verify YouTube API credentials
+python3 -c "
+from integrations.youtube_api_client import YouTubeAPIClient
+client = YouTubeAPIClient()
+print('API Status:', client.test_connection())
+"
+```
+
+**Rate Limiting:**
+- **"Quota exceeded"**: Wait 24 hours for quota reset or upgrade API limits
+- **"Too many requests"**: Processing will resume automatically with backoff
+- **Check current usage**: Monitor API usage in Google Cloud Console
+
+**Transcript Issues:**
 - **"No captions available"**: Video may not have captions enabled
-- **"Private video"**: Video may be private or unavailable
-- **"Transcript extraction failed"**: Captions may be disabled or corrupted
-- **"Rate limited"**: Too many requests in a short time
+- **"Transcript extraction failed"**: Try audio processing via Mac Mini integration
+- **"Language not supported"**: Only English transcripts fully supported currently
+
+**Processing Failures:**
+```bash
+# Check failed YouTube processing jobs
+python3 -c "
+from universal_processing_queue import UniversalQueue
+queue = UniversalQueue()
+failed_jobs = queue.get_failed_jobs(job_type='youtube')
+print(f'Failed YouTube jobs: {len(failed_jobs)}')
+"
+
+# Retry failed jobs
+python3 scripts/atlas_scheduler.py --retry-failed-youtube
+```
+
+**Performance Optimization:**
+- Enable Mac Mini integration for faster audio processing
+- Adjust processing frequency in `.env` (YOUTUBE_PROCESSING_INTERVAL)
+- Configure video quality preferences (YOUTUBE_QUALITY_PREFERENCE)
 
 ## Email Integration
 

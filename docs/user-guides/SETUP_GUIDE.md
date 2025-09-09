@@ -396,6 +396,102 @@ LLM_PROVIDER=ollama
 MODEL=llama3
 ```
 
+### Mac Mini Audio Processing Setup (Optional)
+
+Atlas can leverage a dedicated Mac Mini for high-quality Whisper transcription processing:
+
+#### Mac Mini Requirements
+- Mac Mini with macOS 12+ (Intel or Apple Silicon)
+- 8GB+ RAM (16GB recommended for large models)
+- 50GB+ free disk space for Whisper models
+- SSH access from Atlas server
+
+#### Mac Mini Setup Process
+
+1. **Install Required Software on Mac Mini:**
+   ```bash
+   # Run this on the Mac Mini
+   curl -O https://raw.githubusercontent.com/your-username/atlas/main/scripts/install_mac_mini_software.sh
+   chmod +x install_mac_mini_software.sh
+   ./install_mac_mini_software.sh
+   ```
+
+2. **Configure SSH Access:**
+   ```bash
+   # Run this on your Atlas server
+   curl -O https://raw.githubusercontent.com/your-username/atlas/main/scripts/setup_mac_mini_ssh.sh
+   chmod +x setup_mac_mini_ssh.sh
+   ./setup_mac_mini_ssh.sh
+   ```
+
+3. **Configure Atlas to Use Mac Mini:**
+   ```bash
+   # Add to your .env file
+   MAC_MINI_ENABLED=true
+   MAC_MINI_SSH_HOST=macmini  # or IP address
+   MAC_MINI_QUEUE_DIR=~/atlas_worker/queue
+   MAC_MINI_WHISPER_MODEL=base  # tiny, base, small, medium, large
+   MAC_MINI_TIMEOUT=300
+   ```
+
+4. **Test Mac Mini Connection:**
+   ```bash
+   # Test SSH connection
+   python3 -c "
+   from helpers.mac_mini_client import MacMiniClient
+   client = MacMiniClient()
+   result = client.test_connection()
+   print('Mac Mini Status:', result)
+   "
+   ```
+
+#### Mac Mini Processing Features
+
+**🎙️ Whisper Model Management:**
+- Automatic model downloading and caching
+- Multiple model sizes for speed/quality optimization
+- Graceful fallback to local processing if unavailable
+
+**⚡ Performance Benefits:**
+- Dedicated hardware for audio processing
+- Faster transcription than local processing
+- Parallel processing capabilities
+- Reduced load on main Atlas server
+
+**🔄 Queue-Based Processing:**
+- File-based task queue over SSH
+- Automatic retry logic for failed tasks
+- Status monitoring and result retrieval
+- Clean task cleanup after completion
+
+#### Troubleshooting Mac Mini Integration
+
+**Connection Issues:**
+```bash
+# Test SSH connectivity
+ssh macmini 'echo "SSH connection successful"'
+
+# Check Mac Mini worker status
+ssh macmini 'ps aux | grep atlas_worker'
+
+# View Mac Mini logs
+ssh macmini 'tail -f ~/atlas_worker/logs/worker.log'
+```
+
+**Performance Issues:**
+```bash
+# Check Mac Mini resource usage
+ssh macmini 'top -l 1 | head -20'
+
+# Monitor processing queue
+python3 -c "
+from helpers.mac_mini_client import MacMiniClient
+client = MacMiniClient()
+status = client.get_queue_status()
+print('Queue Status:', status)
+"
+```
+
 ### Performance Tuning
 
 Adjust performance settings in `.env`:
@@ -411,6 +507,11 @@ PODCAST_DOWNLOAD_TIMEOUT=600
 
 # Memory optimization
 CACHE_SIZE_LIMIT=1000
+
+# Mac Mini specific settings
+MAC_MINI_MAX_CONCURRENT_TASKS=3
+MAC_MINI_TASK_TIMEOUT=600
+MAC_MINI_RETRY_ATTEMPTS=3
 ```
 
 ### Security Configuration
