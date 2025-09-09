@@ -95,14 +95,16 @@ open http://localhost:7444/ask/html  # Desktop cognitive interface
 
 ## 🔧 Optional Advanced Features
 
-**Want YouTube, Mac Mini processing, or ad-free podcasts?** See [External Setup Guide](docs/user-guides/EXTERNAL_REQUIREMENTS_GUIDE.md) for:
+**Want YouTube, Mac Mini processing, or ad-free podcasts?** 
+
+👉 **[📋 Complete External Setup Guide](docs/user-guides/EXTERNAL_REQUIREMENTS_GUIDE.md)** - Step-by-step instructions for:
 
 - **📺 YouTube Integration** - Auto-process your subscriptions (Free with Google account)
-- **🎙️ Mac Mini Audio Processing** - Dedicated Whisper transcription (Hardware required)
+- **🎙️ Mac Mini Audio Processing** - Dedicated Whisper transcription (Hardware required)  
 - **📻 PODEMOS Ad-Free Podcasts** - Private RSS feeds without ads (Oracle OCI account)
 - **📧 Email Integration** - Process forwarded emails (Any IMAP email)
 
-**Core Atlas works perfectly without these!**
+**Core Atlas works perfectly without these!** Each feature has detailed setup instructions and troubleshooting.
 
 ## 🧠 Cognitive Features
 
@@ -235,21 +237,29 @@ Atlas is built on a bulletproof, production-ready architecture:
 - **Task Result Polling** - Efficient status checking and result retrieval
 - **Audio Format Support** - Handles MP3, M4A, WAV, and other common podcast formats
 
-## 📖 Documentation
+## 📖 Complete Documentation
 
-**New Users:**
-- [📱 Mac User Guide](docs/user-guides/MAC_USER_GUIDE.md) - Complete Apple integration
-- [🚀 Quick Start](quick_start_package/QUICK_START.md) - 10-minute setup  
-- [📲 Mobile Guide](docs/user-guides/MOBILE_GUIDE.md) - iPhone/iPad workflows
+### **🚀 Getting Started**
+- [📋 Mission & Progress Review](MISSION_PROGRESS_REVIEW.md) - What Atlas achieves and current status
+- [🔧 External Requirements Guide](docs/user-guides/EXTERNAL_REQUIREMENTS_GUIDE.md) - **All optional setups (YouTube, Mac Mini, PODEMOS, Email)**
+- [⚙️ Setup Guide](docs/user-guides/SETUP_GUIDE.md) - Detailed installation and configuration
+- [🚀 Quick Start](quick_start_package/QUICK_START.md) - 10-minute basic setup
 
-**Power Users:**  
-- [📥 Ingestion Guide](docs/user-guides/INGESTION_GUIDE.md) - All content capture methods
-- [🔍 Search Guide](docs/user-guides/SEARCH_GUIDE.md) - Advanced search techniques
-- [⚙️ Setup Guide](docs/user-guides/SETUP_GUIDE.md) - Detailed configuration
+### **📱 User Guides**
+- [📱 Mac User Guide](docs/user-guides/MAC_USER_GUIDE.md) - Complete Apple integration and shortcuts
+- [📲 Mobile Guide](docs/user-guides/MOBILE_GUIDE.md) - iPhone/iPad workflows and mobile interface
+- [📥 Ingestion Guide](docs/user-guides/INGESTION_GUIDE.md) - **Complete YouTube, PODEMOS, and content workflows**
+- [🔍 Search Guide](docs/user-guides/SEARCH_GUIDE.md) - Advanced search and content discovery
 
-**Maintenance:**
+### **🔧 System Management**
+- [🛠️ Troubleshooting Guide](docs/user-guides/TROUBLESHOOTING_GUIDE.md) - **Comprehensive problem solving and diagnostics**
 - [🔧 Maintenance Guide](docs/user-guides/MAINTENANCE_GUIDE.md) - Keep Atlas running smoothly
-- [🤖 Automation Guide](docs/user-guides/AUTOMATION_GUIDE.md) - Workflow automation
+- [🤖 Automation Guide](docs/user-guides/AUTOMATION_GUIDE.md) - Advanced workflow automation
+
+### **🏗️ Technical Documentation**
+- [🏛️ System Architecture](docs/UNIFIED_SYSTEM_ARCHITECTURE.md) - Complete technical architecture overview
+- [📡 API Documentation](docs/API_DOCUMENTATION.md) - All endpoints including YouTube, PODEMOS, Mac Mini
+- [📋 Consolidation Audit](CONSOLIDATION_AUDIT.md) - System cleanup and duplicate removal process
 
 ## 🛠️ System Requirements
 
@@ -327,12 +337,21 @@ Atlas builds on incredible open-source projects:
 
 ## 🔗 Quick Links
 
-- **🚀 [Quick Start Guide](quick_start_package/QUICK_START.md)** - Get running in 10 minutes
-- **📱 [Download Shortcuts](shortcuts/)** - Apple Shortcuts for Mac/iOS
-- **🎯 Main Dashboard** - Central navigation hub (port configured in `.env`)
-- **📱 Mobile Interface** - Touch-optimized with content management (`/mobile`)
+### **📋 Essential Documentation**
+- **🚀 [Quick Start](quick_start_package/QUICK_START.md)** - Get running in 10 minutes  
+- **🔧 [External Setup Guide](docs/user-guides/EXTERNAL_REQUIREMENTS_GUIDE.md)** - YouTube, Mac Mini, PODEMOS, Email setup
+- **📥 [Content Processing Guide](docs/user-guides/INGESTION_GUIDE.md)** - All content capture workflows
+- **🛠️ [Troubleshooting Guide](docs/user-guides/TROUBLESHOOTING_GUIDE.md)** - Fix any issues
+- **📋 [Mission & Progress](MISSION_PROGRESS_REVIEW.md)** - What Atlas achieves
+
+### **🎯 Access Points**
+- **🎯 Main Dashboard** - Central navigation hub (`http://localhost:7444`)
+- **📱 Mobile Interface** - Touch-optimized content management (`/mobile`)
 - **🧠 Desktop Dashboard** - Full cognitive features (`/ask/html`)
 - **⚙️ System Management** - Jobs and scheduling (`/jobs/html`)
+
+### **🔗 Resources**
+- **📱 [Download Shortcuts](shortcuts/)** - Apple Shortcuts for Mac/iOS
 - **📖 [Full Documentation](docs/user-guides/)** - Complete user guides
 - **🐛 [Report Issues](https://github.com/Khamel83/atlas/issues)** - Bug reports and features
 
