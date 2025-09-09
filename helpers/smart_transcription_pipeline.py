@@ -321,12 +321,110 @@ class SmartTranscriptionPipeline:
         
         return None
     
+    def _validate_transcript_quality(self, transcript: str, episode_title: str) -> Dict[str, Any]:
+        """Validate transcript quality and completeness using character-per-minute heuristic"""
+        length = len(transcript)
+        word_count = len(transcript.split())
+        sentences = transcript.count('.') + transcript.count('!') + transcript.count('?')
+        
+        # Character per minute heuristic (based on analysis of Lex Fridman episodes)
+        # Conservative: ~1559 chars/minute for full transcripts
+        
+        # Check for obvious spam first (very specific patterns)
+        spam_patterns = [
+            "buy discount ozempic", "click this link now", "order cheap pills",
+            "pharmacy discount", "viagra cialis", "weight loss pills"
+        ]
+        has_spam = any(pattern.lower() in transcript.lower() for pattern in spam_patterns)
+        
+        if has_spam:
+            quality = "spam"
+            reason = "Contains obvious spam content"
+            score = 0
+        elif length < 2000:
+            quality = "very_poor"
+            reason = "Too short - definitely not a full transcript"
+            score = 1
+        elif length < 15000:
+            quality = "poor"
+            reason = "Short - likely summary or excerpt (< 10 min episode)"
+            score = 2
+        elif length < 40000:
+            quality = "medium"
+            reason = "Medium - could be short episode (15-25 min)"
+            score = 3
+        elif length < 75000:
+            quality = "good"
+            reason = "Good length - likely 30-45 min episode"
+            score = 4
+        elif length < 110000:
+            quality = "excellent"
+            reason = "Very good - likely 45-70 min episode"
+            score = 5
+        else:
+            quality = "excellent"
+            reason = "Excellent - definitely full long-form episode (70+ min)"
+            score = 5
+            
+        # Additional quality indicators
+        chars_per_word = length / max(word_count, 1)
+        estimated_duration_minutes = length / 1559  # Using our heuristic
+        
+        return {
+            "quality": quality,
+            "score": score,
+            "reason": reason,
+            "length": length,
+            "word_count": word_count,
+            "sentences": sentences,
+            "chars_per_word": round(chars_per_word, 1),
+            "estimated_minutes": round(estimated_duration_minutes, 1),
+            "is_spam": has_spam
+        }
+
     def _fetch_transcript_from_web(self, episode: Dict[str, Any]) -> Optional[str]:
-        """Try to fetch transcript from web sources"""
-        # This would implement web scraping for transcript sources
-        # For now, return None (not implemented)
-        log_info(self.log_path, "   🌐 Web transcript search not implemented")
-        return None
+        """Try to fetch transcript from web sources with quality validation"""
+        try:
+            # Import the transcript finder
+            from universal_transcript_finder import UniversalTranscriptFinder
+            finder = UniversalTranscriptFinder()
+            
+            # Extract podcast name from episode if available
+            podcast_name = episode.get('podcast_name', '')
+            
+            log_info(self.log_path, "   🌐 Searching for transcript on web...")
+            
+            # Try universal transcript search
+            transcript = finder.find_transcript_universal(
+                podcast_name=podcast_name,
+                episode_title=episode['title'],
+                episode_url=episode['url'],
+                audio_url=episode.get('audio_url')
+            )
+            
+            if transcript:
+                # Validate transcript quality
+                quality_info = self._validate_transcript_quality(transcript, episode['title'])
+                
+                # Only accept good quality transcripts (score 3+)
+                if quality_info['score'] >= 3:
+                    log_info(self.log_path, 
+                        f"   ✅ Found {quality_info['quality']} transcript from web ({quality_info['length']} chars, {quality_info['word_count']} words)")
+                    return transcript
+                else:
+                    log_info(self.log_path, 
+                        f"   ❌ Rejected transcript: {quality_info['quality']} ({quality_info['reason']}, {quality_info['length']} chars)")
+                    return None
+            else:
+                log_info(self.log_path, "   ❌ No transcript found on web")
+                return None
+                
+        except ImportError:
+            log_error(self.log_path, "   ❌ UniversalTranscriptFinder not available")
+            return None
+        except Exception as e:
+            log_error(self.log_path, f"   ❌ Error in web transcript search: {e}")
+            return None
     
     def _save_transcript_to_atlas(self, podcast_name: str, episode: Dict[str, Any], transcript_text: str) -> bool:
         """Save transcript to Atlas database"""

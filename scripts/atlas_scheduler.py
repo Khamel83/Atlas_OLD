@@ -42,10 +42,11 @@ class AtlasScheduler:
         self.project_root = Path(__file__).parent.parent
         self.last_comprehensive_run = None
         self.last_transcript_run = None
+        self.last_transcript_success = None
         self.last_transcript_check = None
         self.last_youtube_run = None
         self.comprehensive_interval = 30  # 30 seconds - run continuously
-        self.transcript_interval = 4 * 60 * 60  # 4 hours
+        self.transcript_interval = 60 * 60  # 1 hour - keep trying more frequently
         self.transcript_check_interval = 5 * 60  # 5 minutes for light transcript checking
         self.youtube_interval = 5 * 60 * 60  # 5 hours for YouTube processing
         # Use venv Python, not system Python
@@ -69,10 +70,14 @@ class AtlasScheduler:
         return (datetime.now() - self.last_comprehensive_run).seconds >= self.comprehensive_interval
         
     def should_run_transcript_discovery(self) -> bool:
-        """Check if enhanced transcript discovery should run."""
+        """Check if smart transcript discovery should run - retry failed attempts more frequently."""
         if not self.last_transcript_run:
             return True
-        return (datetime.now() - self.last_transcript_run).seconds >= self.transcript_interval
+        # If last run was successful, wait full interval
+        if self.last_transcript_success and self.last_transcript_success == self.last_transcript_run:
+            return (datetime.now() - self.last_transcript_run).seconds >= self.transcript_interval
+        # For failed attempts, retry in 10 minutes instead of waiting full interval
+        return (datetime.now() - self.last_transcript_run).seconds >= (10 * 60)
     
     def should_run_transcript_check(self) -> bool:
         """Check if light transcript checking should run."""
@@ -108,24 +113,29 @@ class AtlasScheduler:
             return False
             
     def run_transcript_discovery(self) -> bool:
-        """Run enhanced transcript discovery."""
+        """Run smart transcript discovery with continuous retry."""
         try:
-            logger.info("🎙️ Starting enhanced transcript discovery...")
+            logger.info("🎙️ Starting smart transcript discovery...")
             
+            # Use the working smart_transcription.py script
             process = create_managed_process([
-                self.python_executable, str(self.project_root / "enhanced_transcript_discovery.py")
+                self.python_executable, "smart_transcription.py", "--process-all"
             ], "transcript_discovery", cwd=self.project_root, timeout=3600)
             stdout, stderr = process.communicate()
             
             if process.returncode == 0:
-                logger.info("✅ Enhanced transcript discovery completed successfully")
+                logger.info("✅ Smart transcript discovery completed successfully")
                 self.last_transcript_run = datetime.now()
+                self.last_transcript_success = self.last_transcript_run
                 return True
             else:
-                logger.error(f"❌ Enhanced transcript discovery failed with code {process.returncode}")
+                logger.error(f"❌ Smart transcript discovery failed with code {process.returncode}")
+                logger.error(f"Stderr: {stderr.decode() if stderr else 'No error output'}")
+                # Update run time but not success time - enables faster retry
+                self.last_transcript_run = datetime.now()
                 return False
         except Exception as e:
-            logger.error(f"❌ Enhanced transcript discovery error: {e}")
+            logger.error(f"❌ Smart transcript discovery error: {e}")
             return False
     
     def run_universal_queue_processing(self) -> bool:

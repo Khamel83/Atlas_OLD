@@ -146,6 +146,20 @@ class TranscriptOrchestrator:
             print(f"    📡 Trying RSS extraction from {rss_url}...")
             all_episodes, episodes_with_transcripts = self.rss_extractor.extract_rss_transcripts(rss_url)
             
+            # Find matching episode and return transcript if found
+            for episode_data in episodes_with_transcripts:
+                if self.episode_matches(episode_title, episode_data.get('title', '')):
+                    transcript_text = episode_data.get('transcript', '')
+                    if transcript_text:
+                        print(f"    ✅ Found RSS transcript ({len(transcript_text)} chars)")
+                        self.record_attempt(podcast_name, episode_title, 'rss_extraction', True)
+                        return transcript_text, episode_data.get('title')
+                        
+            # No matching episode with transcript found
+            print(f"    ❌ No matching episode found in RSS feed")
+            self.record_attempt(podcast_name, episode_title, 'rss_extraction', False, "No matching episode")
+            return None, None
+            
         except Exception as e:
             print(f"    ❌ RSS extraction error: {e}")
             self.record_attempt(podcast_name, episode_title, 'rss_extraction', False, str(e))
