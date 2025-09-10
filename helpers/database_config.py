@@ -31,10 +31,16 @@ class DatabaseConfig:
     
     def _determine_database_path(self) -> Path:
         """Determine the canonical database path."""
-        # Check environment variable first
-        env_path = os.getenv('ATLAS_DATABASE_PATH')
+        # Check ATLAS_DB_PATH environment variable first
+        env_path = os.getenv('ATLAS_DB_PATH')
         if env_path:
-            return Path(env_path).resolve()
+            project_root = Path(__file__).parent.parent
+            return project_root / env_path
+        
+        # Fallback to legacy ATLAS_DATABASE_PATH
+        legacy_env_path = os.getenv('ATLAS_DATABASE_PATH')
+        if legacy_env_path:
+            return Path(legacy_env_path).resolve()
         
         # Default to data/atlas.db relative to project root
         project_root = Path(__file__).parent.parent

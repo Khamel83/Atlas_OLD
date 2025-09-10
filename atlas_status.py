@@ -97,13 +97,39 @@ def get_processing_stats():
     stats = {
         "articles_total": 0,
         "podcasts_total": 0,
+        "episodes_total": 0,
+        "transcriptions_total": 0,
         "html_remaining": 0,
         "log_activity": "Unknown",
         "last_activity": "Unknown",
+        "latest_transcription": "None",
     }
 
     try:
-        # Count processed content
+        # Get database statistics using centralized config
+        try:
+            from helpers.database_config import get_database_connection
+            conn = get_database_connection()
+            cursor = conn.cursor()
+            
+            # Get episode count
+            cursor.execute("SELECT COUNT(*) FROM podcast_episodes")
+            stats["episodes_total"] = cursor.fetchone()[0]
+            
+            # Get transcriptions count
+            cursor.execute("SELECT COUNT(*) FROM transcriptions")
+            stats["transcriptions_total"] = cursor.fetchone()[0]
+            
+            # Get latest transcription timestamp
+            cursor.execute("SELECT MAX(created_at) FROM transcriptions WHERE created_at IS NOT NULL")
+            latest = cursor.fetchone()[0]
+            stats["latest_transcription"] = latest if latest else "None"
+            
+            conn.close()
+        except Exception as db_error:
+            stats["db_error"] = str(db_error)
+        
+        # Count processed content from files
         stats["articles_total"] = safe_file_count("output/articles/metadata", "*.json")
         stats["podcasts_total"] = safe_file_count("output/podcasts", "*.json")
         # Count only unprocessed HTML files (exclude processed_html directory)
@@ -359,12 +385,25 @@ def print_status_dashboard(detailed=False):
             f"   🎙️  Podcasts processed: {stats['podcasts_total']:,}", Colors.WHITE
         )
         safe_print(
+            f"   📻 Episodes harvested: {stats['episodes_total']:,}", Colors.WHITE
+        )
+        safe_print(
+            f"   📝 Transcriptions: {stats['transcriptions_total']:,}", Colors.WHITE
+        )
+        safe_print(
+            f"   🕐 Latest transcription: {stats['latest_transcription']}", Colors.WHITE
+        )
+        safe_print(
             f"   📁 HTML files remaining: {stats['html_remaining']:,}", Colors.WHITE
         )
         if "html_processed" in stats:
             safe_print(
                 f"   ✅ HTML files processed: {stats['html_processed']:,}", Colors.GREEN
             )
+        
+        # Show database errors if any
+        if "db_error" in stats:
+            safe_print(f"   ⚠️  Database error: {stats['db_error']}", Colors.RED)
 
         # Show current activity status
         current_activity = get_current_activity()
