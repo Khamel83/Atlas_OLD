@@ -235,6 +235,26 @@ class AtlasServiceManager:
             self.logger.critical(f"PREFLIGHT FAILED: Could not check log file sizes: {e}")
             return False
         
+        # 3. Database integrity and maintenance
+        try:
+            from helpers.database_config import test_database_integrity, vacuum_database, _db_config
+            
+            # Check if integrity check is due
+            if _db_config.should_check_integrity():
+                self.logger.info("Running database integrity check...")
+                if not test_database_integrity():
+                    self.logger.critical("PREFLIGHT FAILED: Database integrity check failed")
+                    return False
+                self.logger.info("Database integrity check passed.")
+            
+            # Vacuum if needed
+            if vacuum_database():
+                self.logger.info("Database vacuum completed during startup.")
+            
+        except Exception as e:
+            self.logger.critical(f"PREFLIGHT FAILED: Database checks failed: {e}")
+            return False
+        
         self.logger.info("All pre-flight checks passed.")
         return True
 
@@ -311,20 +331,45 @@ class AtlasServiceManager:
         except Exception as e:
             self.logger.error(f"Error writing PID file: {e}")
     
-    def monitor_loop(self):
-        """Main monitoring loop"""
+    def monitor_loop(self, enable_watchdog=False):
+        """Main monitoring loop with optional SystemD watchdog"""
         self.logger.info("Starting Atlas service monitoring loop")
+        
+        # SystemD watchdog setup
+        if enable_watchdog:
+            try:
+                import systemd.daemon
+                self.logger.info("SystemD watchdog enabled")
+                # Notify systemd that we're ready
+                systemd.daemon.notify('READY=1')
+            except ImportError:
+                self.logger.warning("systemd library not available, watchdog disabled")
+                enable_watchdog = False
         
         while self.running:
             try:
+                # SystemD watchdog ping
+                if enable_watchdog:
+                    try:
+                        systemd.daemon.notify('WATCHDOG=1')
+                        self.logger.debug("SystemD watchdog ping sent")
+                    except Exception as e:
+                        self.logger.error(f"Failed to send watchdog ping: {e}")
+                
                 # The actual services are now managed by the scheduler and watchdog
-                time.sleep(60)
+                time.sleep(30)  # Reduced to 30s to match watchdog interval
             except KeyboardInterrupt:
                 self.logger.info("Received interrupt signal, shutting down...")
                 break
             except Exception as e:
                 self.logger.error(f"Error in monitoring loop: {e}")
-                time.sleep(60)
+                time.sleep(30)
+        
+        if enable_watchdog:
+            try:
+                systemd.daemon.notify('STOPPING=1')
+            except:
+                pass
         
         self.stop_all_services()
     
@@ -360,6 +405,7 @@ def main():
     parser = argparse.ArgumentParser(description="Atlas Background Service Manager")
     parser.add_argument("command", choices=["start", "stop", "status", "health", "restart"], help="Command to execute")
     parser.add_argument("--daemon", action="store_true", help="Run as daemon")
+    parser.add_argument("--watchdog", action="store_true", help="Enable SystemD watchdog")
     
     args = parser.parse_args()
     
@@ -369,7 +415,7 @@ def main():
         if service_manager.start_all_services():
             if args.daemon:
                 try:
-                    service_manager.monitor_loop()
+                    service_manager.monitor_loop(enable_watchdog=args.watchdog)
                 except KeyboardInterrupt:
                     print("Shutting down...")
             else:

@@ -416,6 +416,49 @@ def print_status_dashboard(detailed=False):
             safe_print(f"   📈 Progress: {progress:.1f}% complete", Colors.CYAN)
         else:
             safe_print("   🎉 All HTML files processed!", Colors.GREEN)
+        
+        # Queue Health Status
+        try:
+            from helpers.queue_manager import get_queue_status
+            queue_status = get_queue_status()
+            
+            safe_print("")
+            safe_print("🔄 QUEUE HEALTH", Colors.BLUE, bold=True)
+            
+            # Queue counts
+            queue_counts = queue_status.get("queue_counts", {})
+            pending = queue_counts.get("pending", 0)
+            processing = queue_counts.get("processing", 0)
+            completed = queue_counts.get("completed", 0)
+            
+            safe_print(f"   📥 Pending tasks: {pending:,}", Colors.WHITE)
+            safe_print(f"   ⚙️  Processing tasks: {processing:,}", Colors.WHITE)
+            safe_print(f"   ✅ Completed tasks: {completed:,}", Colors.WHITE)
+            
+            # Failed tasks
+            failed_tasks = queue_status.get("failed_tasks", 0)
+            retry_ready = queue_status.get("retry_ready", 0)
+            if failed_tasks > 0:
+                safe_print(f"   ❌ Failed tasks: {failed_tasks:,}", Colors.RED)
+                if retry_ready > 0:
+                    safe_print(f"   🔄 Ready for retry: {retry_ready:,}", Colors.YELLOW)
+            else:
+                safe_print("   ✅ No failed tasks", Colors.GREEN)
+            
+            # Queue alerts
+            if pending > 1000:
+                safe_print("   🚨 ALERT: High queue depth!", Colors.RED, bold=True)
+            elif pending > 500:
+                safe_print("   ⚠️  WARNING: Queue depth elevated", Colors.YELLOW)
+            
+            # Circuit breaker status
+            circuit_breakers = queue_status.get("circuit_breakers", {})
+            open_breakers = [worker for worker, cb in circuit_breakers.items() if cb.get("state") == "open"]
+            if open_breakers:
+                safe_print(f"   ⚡ Circuit breakers open: {', '.join(open_breakers)}", Colors.RED)
+            
+        except Exception as e:
+            safe_print(f"   ⚠️  Queue status unavailable: {e}", Colors.YELLOW)
 
         safe_print(f"   ⏰ Last activity: {stats['last_activity']}", Colors.WHITE)
         safe_print("")

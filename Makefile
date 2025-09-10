@@ -1,17 +1,20 @@
 # Atlas Operations Makefile
 # Provides single-command operations for Atlas transcript processing
 
-.PHONY: status logs restart smoke install help
+.PHONY: status logs restart smoke install test-watchdog test-restart-policy test-resource-limits help
 
 # Default target
 help:
 	@echo "Atlas Operations Commands:"
-	@echo "  make status     - Show system status"
-	@echo "  make logs       - Show recent logs"
-	@echo "  make restart    - Restart all services"
-	@echo "  make smoke      - Run smoke test"
-	@echo "  make install    - Install systemd services"
-	@echo "  make help       - Show this help"
+	@echo "  make status              - Show system status"
+	@echo "  make logs                - Show recent logs"
+	@echo "  make restart             - Restart all services"
+	@echo "  make smoke               - Run smoke test"
+	@echo "  make install             - Install systemd services"
+	@echo "  make test-watchdog       - Test SystemD watchdog functionality"
+	@echo "  make test-restart-policy - Test auto-restart on process kill"
+	@echo "  make test-resource-limits- Show resource limits and usage"
+	@echo "  make help                - Show this help"
 
 # Show system status
 status:
@@ -89,3 +92,33 @@ dev-test-watchdog:
 
 dev-test-notify:
 	@python3 scripts/notify.py --test
+
+# SystemD Watchdog Testing
+test-watchdog:
+	@echo "🔍 Testing SystemD Watchdog"
+	@echo "============================"
+	@sudo systemctl status atlas.service
+	@echo ""
+	@echo "📋 Recent watchdog logs:"
+	@journalctl -u atlas.service -f --since "5 minutes ago" | grep -i watchdog | head -5
+	@echo ""
+	@echo "🔧 Service resource limits:"
+	@systemctl show atlas.service | grep -E "(Memory|CPU|Limit)"
+
+test-restart-policy:
+	@echo "🚨 Testing Auto-Restart Policy"
+	@echo "=============================="
+	@echo "Killing Atlas service manager process..."
+	@sudo kill -9 $$(pgrep -f atlas_service_manager) || echo "Process not found"
+	@echo "Waiting 35 seconds for auto-restart..."
+	@sleep 35
+	@echo "Checking service status:"
+	@systemctl is-active atlas.service
+
+test-resource-limits:
+	@echo "📊 Testing Resource Limits"
+	@echo "=========================="
+	@systemctl show atlas.service | grep -E "(Memory|CPU|Limit)" | sort
+	@echo ""
+	@echo "Current usage:"
+	@ps aux | grep atlas_service_manager | grep -v grep || echo "Service not running"
