@@ -48,14 +48,29 @@ All powered by the single optimal model:
 
 ## 🚀 Get Started in 10 Minutes
 
-### 1. Basic Installation
+### 1. Complete Setup (Recommended)
+```bash
+git clone https://github.com/Khamel83/atlas.git
+cd atlas
+./scripts/atlas_complete_setup.sh
+```
+**This unified script handles everything:**
+- 📱 Telegram notifications
+- 🔔 Uptime Kuma monitoring  
+- 📺 YouTube API
+- 💻 Mac Mini integration
+- 🤖 AI API keys
+- ⚙️ SystemD services
+- 🧪 Testing & validation
+
+### 2. Alternative: Basic Installation
 ```bash
 git clone https://github.com/Khamel83/atlas.git
 cd atlas
 ./quick_install.sh
 ```
 
-### 2. Required Setup (5 minutes)
+### 3. Required Setup (5 minutes)
 
 **🔑 Get OpenRouter API Key** (Required - Powers all AI features):
 1. Visit [OpenRouter.ai](https://openrouter.ai) and create account
