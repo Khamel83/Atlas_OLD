@@ -1,0 +1,242 @@
+name: Auto Issue Creator
+
+on:
+  workflow_run:
+    workflows: ["Atlas Smoke Tests"]
+    types:
+      - completed
+
+jobs:
+  check-failures:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Check consecutive failures
+      id: check-failures
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const workflow_name = "Atlas Smoke Tests";
+          const max_runs_to_check = 5;
+          
+          // Get recent workflow runs
+          const { data: runs } = await github.rest.actions.listWorkflowRuns({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            workflow_id: workflow_name,
+            status: 'completed',
+            per_page: max_runs_to_check
+          });
+          
+          // Count consecutive failures
+          let consecutive_failures = 0;
+          for (const run of runs.workflow_runs) {
+            if (run.conclusion === 'failure') {
+              consecutive_failures++;
+            } else {
+              break; // Stop at first success
+            }
+          }
+          
+          console.log(`Found ${consecutive_failures} consecutive failures`);
+          
+          // Check if we need to create an issue
+          const threshold = 3;
+          if (consecutive_failures >= threshold) {
+            core.setOutput('should_create_issue', 'true');
+            core.setOutput('failure_count', consecutive_failures);
+            
+            // Get details from the latest failed run
+            const latest_run = runs.workflow_runs[0];
+            core.setOutput('run_url', latest_run.html_url);
+            core.setOutput('run_id', latest_run.id);
+          } else {
+            core.setOutput('should_create_issue', 'false');
+          }
+    
+    - name: Check for existing issue
+      id: existing-issue
+      if: steps.check-failures.outputs.should_create_issue == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const { data: issues } = await github.rest.issues.listForRepo({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'open',
+            labels: 'atlas-smoke-test-failure,automated-issue'
+          });
+          
+          core.setOutput('existing_issue_count', issues.length);
+          if (issues.length > 0) {
+            core.setOutput('existing_issue_number', issues[0].number);
+          }
+    
+    - name: Create or update issue
+      if: steps.check-failures.outputs.should_create_issue == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const failure_count = '${{ steps.check-failures.outputs.failure_count }}';
+          const run_url = '${{ steps.check-failures.outputs.run_url }}';
+          const existing_count = parseInt('${{ steps.existing-issue.outputs.existing_issue_count }}');
+          
+          const title = `🚨 Atlas Smoke Tests: ${failure_count} Consecutive Failures`;
+          
+          const body = `## 🚨 Atlas System Alert: Consecutive Smoke Test Failures
+          
+          **Status:** ${failure_count} consecutive smoke test failures detected
+          **Latest Failed Run:** ${run_url}
+          **Detection Time:** ${new Date().toISOString()}
+          
+          ### 📊 Failure Analysis
+          
+          The Atlas system has experienced ${failure_count} consecutive smoke test failures, indicating a potential system-wide issue that requires immediate attention.
+          
+          ### 🔍 Investigation Checklist
+          
+          - [ ] Check the [latest failed workflow run](${run_url}) for specific error details
+          - [ ] Review system logs: \`journalctl -u atlas.service --since "1 hour ago"\`
+          - [ ] Check database integrity: \`python3 -c "from helpers.database_config import test_database_integrity; test_database_integrity()"\`
+          - [ ] Verify queue health: \`python3 atlas_status.py --detailed\`
+          - [ ] Check disk space and system resources: \`df -h && free -h\`
+          - [ ] Review recent changes that might have caused the regression
+          
+          ### 🛠️ Quick Recovery Steps
+          
+          1. **Service Restart:** \`sudo systemctl restart atlas.service\`
+          2. **Clear Queue:** \`python3 scripts/clear_failed_tasks.py\`
+          3. **Database Cleanup:** \`python3 scripts/database_maintenance.py\`
+          4. **Test Recovery:** \`python3 tests/smoke_test_full.py\`
+          
+          ### 📈 Monitoring
+          
+          - **Dashboard:** [Atlas Monitoring](http://localhost:7444/monitoring)
+          - **Metrics:** [Prometheus Metrics](http://localhost:7444/metrics)
+          - **Health Check:** \`curl localhost:7444/api/v1/health\`
+          
+          ### 🔄 Next Steps
+          
+          1. **Immediate:** Investigate and resolve the root cause
+          2. **Short-term:** Implement additional monitoring for the failed component
+          3. **Long-term:** Review and strengthen the component that's failing
+          
+          ---
+          
+          **Auto-created by:** GitHub Actions Smoke Test Monitor
+          **Workflow:** [Atlas Smoke Tests](${run_url})
+          **Priority:** 🔴 **HIGH** - System reliability compromised
+          
+          *This issue will be automatically closed when smoke tests return to normal.*`;
+          
+          if (existing_count === 0) {
+            // Create new issue
+            const { data: issue } = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: body,
+              labels: ['atlas-smoke-test-failure', 'automated-issue', 'priority-high', 'reliability']
+            });
+            
+            console.log(`Created issue #${issue.number}`);
+            
+            // Send notification comment
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: `🚨 **ALERT:** Atlas system has ${failure_count} consecutive smoke test failures. Immediate investigation required.`
+            });
+            
+          } else {
+            // Update existing issue
+            const issue_number = '${{ steps.existing-issue.outputs.existing_issue_number }}';
+            
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: parseInt(issue_number),
+              title: title,
+              body: body
+            });
+            
+            // Add update comment
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: parseInt(issue_number),
+              body: `📈 **UPDATE:** Failure count increased to ${failure_count} consecutive failures.\n\n**Latest Run:** ${run_url}\n**Time:** ${new Date().toISOString()}`
+            });
+            
+            console.log(`Updated existing issue #${issue_number}`);
+          }
+    
+    - name: Send Telegram alert for new issues
+      if: steps.check-failures.outputs.should_create_issue == 'true' && steps.existing-issue.outputs.existing_issue_count == '0'
+      run: |
+        if [[ -n "${{ secrets.TELEGRAM_BOT_TOKEN }}" && -n "${{ secrets.TELEGRAM_CHAT_ID }}" ]]; then
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "chat_id": "${{ secrets.TELEGRAM_CHAT_ID }}",
+              "text": "🚨 **CRITICAL ATLAS ALERT**\n\n${{ steps.check-failures.outputs.failure_count }} consecutive smoke test failures detected!\n\nAutomatic issue created for investigation.\n\n**Action Required:** Immediate system investigation needed.\n\n**Run:** ${{ steps.check-failures.outputs.run_url }}",
+              "parse_mode": "Markdown"
+            }'
+        fi
+
+  close-resolved-issues:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Close resolved issues
+      uses: actions/github-script@v7
+      with:
+        script: |
+          // Find open smoke test failure issues
+          const { data: issues } = await github.rest.issues.listForRepo({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            state: 'open',
+            labels: 'atlas-smoke-test-failure,automated-issue'
+          });
+          
+          // Close them since tests are now passing
+          for (const issue of issues) {
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              state: 'closed'
+            });
+            
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: `✅ **RESOLVED:** Smoke tests are now passing. This issue is automatically closed.\n\n**Resolution Time:** ${new Date().toISOString()}\n**Successful Run:** ${{ github.event.workflow_run.html_url }}`
+            });
+            
+            console.log(`Closed resolved issue #${issue.number}`);
+          }
+          
+          if (issues.length > 0) {
+            console.log(`Closed ${issues.length} resolved smoke test failure issues`);
+          }
+    
+    - name: Send recovery notification
+      if: steps.close-resolved-issues.outputs.closed_count > 0
+      run: |
+        if [[ -n "${{ secrets.TELEGRAM_BOT_TOKEN }}" && -n "${{ secrets.TELEGRAM_CHAT_ID }}" ]]; then
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "chat_id": "${{ secrets.TELEGRAM_CHAT_ID }}",
+              "text": "✅ **ATLAS RECOVERY**\n\nSmoke tests are now passing! Previous failure issues have been automatically closed.\n\n**Recovery confirmed at:** '$(date -Iseconds)'\n**Successful Run:** ${{ github.event.workflow_run.html_url }}",
+              "parse_mode": "Markdown"
+            }'
+        fi

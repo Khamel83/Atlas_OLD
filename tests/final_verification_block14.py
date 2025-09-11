@@ -62,7 +62,7 @@ def verify_alert_manager():
     print("Verifying Alert Manager...")
     
     try:
-        from monitoring.alert_manager import AlertManager
+        from scripts.alert_manager import AlertManager
         
         # Create alert manager instance
         alert_manager = AlertManager()

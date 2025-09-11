@@ -9,7 +9,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from helpers.atlas_monitoring import AtlasMonitor
-from helpers.alert_manager import AtlasAlertManager
+from scripts.alert_manager import AlertManager as AtlasAlertManager
 from datetime import datetime
 
 def test_monitoring_integration():

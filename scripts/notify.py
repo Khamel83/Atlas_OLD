@@ -102,6 +102,18 @@ class AtlasNotificationSystem:
         return telegram_success or uptime_success
 
 
+def send_notification(message: str, title: str = "Atlas Alert", priority: str = "warning") -> bool:
+    """Convenience function for sending notifications."""
+    notifier = AtlasNotificationSystem()
+    
+    if priority == "critical" or priority == "error":
+        return notifier.send_alert(title, message, "error")
+    elif priority == "info" or priority == "recovery":
+        return notifier.send_recovery_alert(title, message)
+    else:
+        return notifier.send_alert(title, message, "warning")
+
+
 def main():
     """CLI interface for notifications"""
     parser = argparse.ArgumentParser(description='Atlas Notification System')
