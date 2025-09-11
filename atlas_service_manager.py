@@ -16,7 +16,8 @@ import sys
 import json
 import time
 import logging
-from helpers.bulletproof_process_manager import get_manager, create_managed_process
+# Import process manager only when needed to avoid triggering cleanup
+# from helpers.bulletproof_process_manager import get_manager, create_managed_process
 import psutil
 from dotenv import load_dotenv
 import signal
@@ -101,6 +102,7 @@ class AtlasServiceManager:
                 "--log-level", "info"
             ]
             
+            from helpers.bulletproof_process_manager import create_managed_process
             process = create_managed_process(
                 cmd,
                 "api_server",
@@ -132,6 +134,7 @@ class AtlasServiceManager:
             # Start scheduler for background tasks
             scheduler_cmd = [self.python_executable, "scripts/atlas_scheduler.py", "--start"]
             
+            from helpers.bulletproof_process_manager import create_managed_process
             scheduler_process = create_managed_process(
                 scheduler_cmd, "scheduler", cwd=self.project_root, stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE
@@ -163,6 +166,7 @@ class AtlasServiceManager:
                 "--daemon", "--interval", "3"
             ]
             
+            from helpers.bulletproof_process_manager import create_managed_process
             watchdog_process = create_managed_process(
                 watchdog_cmd, "watchdog", cwd=self.project_root, stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE
@@ -318,9 +322,13 @@ class AtlasServiceManager:
 
     def cleanup_processes(self):
         """Cleanup all managed processes"""
-        manager = get_manager()
-        manager.cleanup_all()
-        logging.info("🧹 All processes cleaned up")
+        try:
+            from helpers.bulletproof_process_manager import get_manager
+            manager = get_manager()
+            manager.cleanup_all()
+            logging.info("🧹 All processes cleaned up")
+        except ImportError:
+            logging.warning("Process manager not available for cleanup")
     
     def _write_pid_file(self):
         """Write PID file"""

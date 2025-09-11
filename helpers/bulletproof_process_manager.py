@@ -50,8 +50,9 @@ class ProcessRegistry:
         self.cleanup_callbacks: List[Callable] = []
         self._lock = threading.RLock()
         
-        # Register cleanup at exit
-        atexit.register(self.cleanup_all)
+        # Don't register automatic cleanup to prevent killing processes during status checks
+        # Manual cleanup must be called explicitly when actually shutting down
+        # atexit.register(self.cleanup_all)
         
         # Register signal handlers
         signal.signal(signal.SIGTERM, self._signal_handler)
@@ -593,7 +594,9 @@ class BulletproofProcessManager:
         return self
     
     def __exit__(self, exc_type, exc_val, exc_tb):
-        self.cleanup_all()
+        # Only cleanup if we actually have processes to manage
+        if self.registry.processes:
+            self.cleanup_all()
 
 
 # Global instance

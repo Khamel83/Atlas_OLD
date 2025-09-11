@@ -62,7 +62,7 @@ class QueueJob:
 class UniversalProcessingQueue:
     """Central processing queue that coordinates all Atlas background tasks"""
     
-    def __init__(self, db_path="atlas.db"):
+    def __init__(self, db_path="data/atlas.db"):
         self.db_path = db_path
         self.worker_id = f"worker_{uuid.uuid4().hex[:8]}"
         self.is_running = False
@@ -189,21 +189,58 @@ class UniversalProcessingQueue:
             if not content_id:
                 return False
             
-            # Import and use existing AI processing
-            from atlas_comprehensive_service import main as process_ai_content
-            
-            # Set up temporary processing for specific item
-            # This would integrate with the existing comprehensive service
             logger.info(f"🧠 Processing AI content for ID {content_id}")
             
-            # Call existing AI processing logic here
-            # For now, simulate success
-            time.sleep(2)  # Simulate processing time
-            
-            return True
+            # Get content from database
+            with sqlite3.connect(self.db_path) as conn:
+                content_data = conn.execute("""
+                    SELECT title, content, url, content_type 
+                    FROM content 
+                    WHERE id = ?
+                """, (content_id,)).fetchone()
+                
+                if not content_data:
+                    logger.error(f"❌ Content {content_id} not found")
+                    return False
+                
+                title, content, url, content_type = content_data
+                
+                if not content or len(content) < 50:
+                    logger.warning(f"⚠️ Content {content_id} too short for AI processing")
+                    return False
+                
+                # Generate AI summary (simplified version)
+                # Extract first paragraph as summary for now
+                content_lines = content.split('\n')
+                first_paragraph = ""
+                for line in content_lines:
+                    line = line.strip()
+                    if line and len(line) > 20:
+                        first_paragraph = line[:300] + "..." if len(line) > 300 else line
+                        break
+                
+                # Generate basic tags from title and content
+                import re
+                words = re.findall(r'\b[A-Za-z]{4,}\b', (title or '') + ' ' + content[:500])
+                common_words = {'this', 'that', 'with', 'have', 'will', 'from', 'they', 'been', 'were', 'said', 'each', 'which', 'their', 'time', 'about', 'would', 'there', 'could', 'other', 'more', 'very', 'what', 'know', 'just', 'first', 'into', 'over', 'think', 'also', 'your', 'work', 'life', 'only', 'new', 'years', 'way', 'may', 'say', 'come', 'its', 'now', 'find', 'any', 'these', 'give', 'most', 'us'}
+                tags = [w.lower() for w in set(words[:10]) if w.lower() not in common_words][:5]
+                
+                ai_summary = first_paragraph or f"Content about {title}" if title else "Processing content..."
+                ai_tags = ', '.join(tags) if tags else content_type or 'general'
+                
+                # Update database with AI results
+                conn.execute("""
+                    UPDATE content 
+                    SET ai_summary = ?, ai_tags = ?, ai_classification = ?
+                    WHERE id = ?
+                """, (ai_summary, ai_tags, content_type or 'article', content_id))
+                conn.commit()
+                
+                logger.info(f"✅ AI processing completed for {content_id}: {len(ai_summary)} chars summary, {len(tags)} tags")
+                return True
             
         except Exception as e:
-            logger.error(f"❌ AI processing failed: {e}")
+            logger.error(f"❌ AI processing failed for {content_id}: {e}")
             return False
     
     def handle_transcript_discovery(self, job: QueueJob) -> bool:
