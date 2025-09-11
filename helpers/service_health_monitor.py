@@ -21,7 +21,7 @@ import socket
 from contextlib import contextmanager
 
 from .atlas_monitoring import AtlasMonitor, SystemMetrics, AtlasMetrics
-from .alert_manager import AtlasAlertManager
+from scripts.alert_manager import AlertManager as AtlasAlertManager
 
 class HealthStatus(Enum):
     """Service health status levels"""

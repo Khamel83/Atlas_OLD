@@ -32,6 +32,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from helpers.config import load_config
 from helpers.resource_monitor import check_system_health
+from helpers.logging_config import get_logger, PerformanceLogger
 
 class AtlasServiceManager:
     """Comprehensive Atlas background service manager"""
@@ -56,7 +57,12 @@ class AtlasServiceManager:
         self.log_dir.mkdir(exist_ok=True)
         self.pid_file = self.log_dir / "atlas_service.pid"
         
-        # Setup logging
+        # Setup structured logging
+        self.logger = get_logger("atlas_service")
+        self.health_logger = get_logger("atlas_service_health")
+        self.performance_logger = PerformanceLogger()
+        
+        # Legacy logging setup for compatibility
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -65,13 +71,6 @@ class AtlasServiceManager:
                 logging.StreamHandler()
             ]
         )
-        self.logger = logging.getLogger("AtlasService")
-        
-        self.health_logger = logging.getLogger("AtlasServiceHealth")
-        health_handler = logging.FileHandler(self.log_dir / "atlas_service_health.log")
-        health_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
-        self.health_logger.addHandler(health_handler)
-        self.health_logger.setLevel(logging.INFO)
 
         # Register cleanup on exit
         atexit.register(self.cleanup_processes)
@@ -346,6 +345,10 @@ class AtlasServiceManager:
                 self.logger.warning("systemd library not available, watchdog disabled")
                 enable_watchdog = False
         
+        # Performance monitoring counters
+        loop_count = 0
+        performance_log_interval = 2  # Log performance every 2 loops (60s)
+        
         while self.running:
             try:
                 # SystemD watchdog ping
@@ -355,6 +358,29 @@ class AtlasServiceManager:
                         self.logger.debug("SystemD watchdog ping sent")
                     except Exception as e:
                         self.logger.error(f"Failed to send watchdog ping: {e}")
+                
+                # Log performance metrics periodically
+                if loop_count % performance_log_interval == 0:
+                    self.performance_logger.log_performance_snapshot()
+                    
+                    # Log service health status
+                    service_statuses = {}
+                    for service_name, service_info in self.services.items():
+                        try:
+                            if service_info.get("process"):
+                                proc = service_info["process"]
+                                service_statuses[service_name] = {
+                                    "status": "running" if proc.poll() is None else "stopped",
+                                    "pid": service_info.get("pid"),
+                                    "uptime_minutes": (datetime.now() - service_info.get("start_time", datetime.now())).total_seconds() / 60,
+                                    "restart_attempts": service_info.get("restart_attempts", 0)
+                                }
+                        except Exception:
+                            service_statuses[service_name] = {"status": "unknown"}
+                    
+                    self.health_logger.info("Service health status", services=service_statuses)
+                
+                loop_count += 1
                 
                 # The actual services are now managed by the scheduler and watchdog
                 time.sleep(30)  # Reduced to 30s to match watchdog interval

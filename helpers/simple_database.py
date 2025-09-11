@@ -81,7 +81,13 @@ class SimpleDatabase:
                     content_type TEXT,
                     metadata TEXT,
                     created_at TEXT,
-                    updated_at TEXT
+                    updated_at TEXT,
+                    ai_summary TEXT,
+                    ai_tags TEXT,
+                    ai_socratic TEXT,
+                    ai_patterns TEXT,
+                    ai_recommendations TEXT,
+                    ai_classification TEXT
                 )
             """)
             

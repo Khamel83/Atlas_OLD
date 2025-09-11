@@ -19,6 +19,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from helpers.database_config import get_database_connection
+from helpers.metrics_collector import get_metrics_collector
+from scripts.alert_manager import AlertManager
 
 
 class EnhancedProgressWatchdog:
@@ -63,6 +65,19 @@ class EnhancedProgressWatchdog:
                 minutes_since_last = 999  # No transcriptions yet
             
             conn.close()
+            
+            # Update metrics
+            metrics_collector = get_metrics_collector()
+            metrics_collector.record_metric("atlas_episodes_total", episodes_count)
+            metrics_collector.record_metric("atlas_transcriptions_total", transcriptions_count)
+            metrics_collector.record_metric("atlas_minutes_since_last_transcription", minutes_since_last)
+            
+            # Calculate transcription rate for metrics
+            transcription_rate = 0
+            if minutes_since_last < 60:  # Recent activity
+                # Estimate rate based on recent progress
+                transcription_rate = 60 / max(minutes_since_last, 1)  # per hour
+            metrics_collector.record_metric("atlas_transcription_rate", transcription_rate)
             
             return {
                 'episodes_count': episodes_count,
@@ -163,19 +178,9 @@ class EnhancedProgressWatchdog:
                     lines = excerpt.strip().split('\n')[-5:]
                     message += f"\n_{log_name}_:\n```\n" + '\n'.join(lines) + "\n```\n"
             
-            # Try to send notification
-            notify_cmd = [
-                'python3', '/home/ubuntu/dev/atlas/scripts/notify.py',
-                '--title', title,
-                '--msg', message,
-                '--type', 'error'
-            ]
-            
-            result = subprocess.run(notify_cmd, capture_output=True, text=True, timeout=30)
-            if result.returncode == 0:
-                print("📤 Stall alert sent successfully")
-            else:
-                print(f"📤 Alert send failed: {result.stderr}")
+            # Use new alert manager for centralized alerting
+            alert_manager = AlertManager()
+            alert_manager.send_alert(title, message, "critical")
                 
         except Exception as e:
             print(f"💥 Error sending stall alert: {e}")
@@ -191,18 +196,9 @@ class EnhancedProgressWatchdog:
 • System is now healthy ✅
 """
             
-            notify_cmd = [
-                'python3', '/home/ubuntu/dev/atlas/scripts/notify.py',
-                '--title', title,
-                '--msg', message,
-                '--type', 'recovery'
-            ]
-            
-            result = subprocess.run(notify_cmd, capture_output=True, text=True, timeout=30)
-            if result.returncode == 0:
-                print("📤 Recovery alert sent successfully")
-            else:
-                print(f"📤 Recovery alert send failed: {result.stderr}")
+            # Use new alert manager for centralized alerting
+            alert_manager = AlertManager()
+            alert_manager.send_alert(title, message, "recovery")
                 
         except Exception as e:
             print(f"💥 Error sending recovery alert: {e}")
