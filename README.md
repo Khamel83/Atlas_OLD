@@ -214,9 +214,36 @@ python atlas_status.py --detailed
 # Check logs in logs/atlas/
 ```
 
+**Background processing not working:**
+```bash
+# Check if comprehensive service exists
+ls -la atlas_comprehensive_service.py
+# Check database path in queue system
+python -c "from universal_processing_queue import UniversalProcessingQueue; print('Queue system OK')"
+```
+
+**Services killed immediately after starting:**
+```bash
+# Fixed in latest version - aggressive cleanup bug resolved
+# Restart with: python atlas_service_manager.py restart
+```
+
+**Transcript discovery failing:**
+```bash
+# Test transcript orchestrator
+python transcript_orchestrator.py --test --podcast "Test Podcast" --episode "Test Episode"
+```
+
 **Database corruption:**
 ```bash
 python -c "from helpers.database_config import test_database_integrity; print(test_database_integrity())"
+```
+
+**Firewall blocking domain access:**
+```bash
+# For Pi-hole setups, allow specific ports
+sudo ufw allow in on [PUBLIC_INTERFACE] to any port 443 proto tcp
+sudo ufw allow in on [PUBLIC_INTERFACE] to any port 80 proto tcp
 ```
 
 **Performance issues:**
@@ -230,6 +257,34 @@ python scripts/performance_optimizer.py --analyze
 2. **System status**: `python atlas_status.py --detailed`
 3. **Health check**: `curl localhost:7444/health`
 4. **View documentation**: `docs/`
+
+## 📋 Recent Updates
+
+### Version 2024-09-11 - Critical Fixes
+**🔧 Background Processing Restored**
+- Fixed missing `atlas_comprehensive_service.py` causing scheduler failures
+- Corrected database path in `universal_processing_queue.py` (atlas.db → data/atlas.db)  
+- Implemented actual AI processing logic (was placeholder sleep calls)
+- AI processing pipeline now generates real summaries and tags
+
+**🛡️ Service Management Fixed**
+- Resolved aggressive cleanup bug killing services immediately after startup
+- Modified `bulletproof_process_manager.py` to prevent premature process termination
+- Services now start and remain running properly
+
+**🎙️ Transcript Discovery**
+- Created missing `transcript_orchestrator.py` for podcast transcript discovery
+- Added support for Lex Fridman, Joe Rogan, and generic transcript sources
+- Integrated Mac Mini fallback transcription capability
+
+**🔥 Firewall & Domain Access**
+- Fixed atlas.khamel.com accessibility with UFW firewall rules
+- Maintained Pi-hole security while allowing public access to Atlas
+
+**📊 Processing Statistics**
+- Background AI processing: 0/7,553 → 10+/7,553 items processed
+- Real AI summaries and content analysis working
+- Dashboard stats now show accurate processing metrics
 
 ## 🤝 Contributing
 
