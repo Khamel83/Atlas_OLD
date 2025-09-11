@@ -145,9 +145,9 @@ conn = get_database_connection()
 1. Visit GitHub → Professional README with clear value
 2. `./quick_install.sh` → 10-minute setup
 3. "Hey Siri, save to Atlas" → Works immediately  
-4. `localhost:8000/mobile` → Mobile content management
-5. `localhost:8000/ask/html` → Full AI cognitive features
-6. `localhost:8000/api/v1/transcripts/discovery` → Searchable podcast transcripts
+4. `localhost:7444/mobile` → Mobile content management
+5. `localhost:7444/ask/html` → Full AI cognitive features
+6. `localhost:7444/api/v1/transcripts/discovery` → Searchable podcast transcripts
 
 ### **Documentation - 100% COMPLETE**
 - **User Guides**: All guides organized in `docs/user-guides/`

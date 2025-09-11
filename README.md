@@ -3,9 +3,10 @@
 > **🚀 Production-Ready Personal AI Assistant**  
 > Transform any content into searchable, intelligent knowledge with automatic processing, semantic search, and AI-powered insights.
 
-[![Atlas Reliability](https://img.shields.io/badge/reliability-24%2F7-green)](https://github.com/yourusername/atlas)
+[![Atlas Reliability](https://img.shields.io/badge/reliability-24%2F7-green)](https://github.com/Khamel83/Atlas)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/live_demo-atlas.khamel.com-blue)](https://atlas.khamel.com)
 
 ## ✨ What is Atlas?
 
@@ -18,6 +19,8 @@ Atlas is a **bulletproof personal knowledge management system** that automatical
 - 🧠 **AI Insights** - Semantic search, content recommendations, and intelligent analysis
 
 **Perfect for**: Researchers, knowledge workers, students, content creators, and anyone who needs to organize and retrieve information efficiently.
+
+> **🌟 Live Demo Available**: [atlas.khamel.com](https://atlas.khamel.com) - See Atlas dashboard with real content processing in action!
 
 ## 🎯 Key Features
 
@@ -49,8 +52,8 @@ Atlas is a **bulletproof personal knowledge management system** that automatical
 
 ### 1. **Installation**
 ```bash
-git clone https://github.com/yourusername/atlas.git
-cd atlas
+git clone https://github.com/Khamel83/Atlas.git
+cd Atlas
 ./config/install_shortcuts.sh  # Complete setup
 ```
 
@@ -60,9 +63,10 @@ python atlas_service_manager.py start --daemon
 ```
 
 ### 3. **Access Your Knowledge**
-- **Web Dashboard**: http://localhost:8000
-- **Mobile Interface**: http://localhost:8000/mobile  
-- **API Documentation**: http://localhost:8000/docs
+- **Web Dashboard**: http://localhost:7444
+- **Mobile Interface**: http://localhost:7444/mobile  
+- **API Documentation**: http://localhost:7444/docs
+- **Live Demo**: https://atlas.khamel.com
 
 ### 4. **Add Content**
 - **iOS**: "Hey Siri, save to Atlas" (after installing shortcuts)
@@ -76,7 +80,7 @@ Check system health anytime:
 python atlas_status.py --detailed
 ```
 
-**Real-time monitoring** available at: http://localhost:8000/monitoring
+**Real-time monitoring** available at: http://localhost:7444/monitoring
 
 ## 🏗️ Architecture
 
@@ -122,7 +126,7 @@ cp .env.template .env
 ATLAS_DATABASE_PATH=/home/user/atlas/data/atlas.db
 
 # API Configuration  
-API_PORT=8000
+API_PORT=7444
 API_HOST=0.0.0.0
 
 # AI Services (optional)
@@ -145,7 +149,7 @@ Atlas includes six sophisticated AI modules:
 5. **💡 Active Recall** - Spaced repetition for knowledge retention
 6. **📊 Content Recommendations** - Suggest related and valuable content
 
-Access via: http://localhost:8000/ask/
+Access via: http://localhost:7444/ask/
 
 ## 📱 iOS Integration
 
@@ -224,7 +228,7 @@ python scripts/performance_optimizer.py --analyze
 
 1. **Check logs**: `tail -f logs/atlas/atlas_service.json.log`
 2. **System status**: `python atlas_status.py --detailed`
-3. **Health check**: `curl localhost:8000/health`
+3. **Health check**: `curl localhost:7444/health`
 4. **View documentation**: `docs/`
 
 ## 🤝 Contributing
