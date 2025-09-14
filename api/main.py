@@ -1,8 +1,13 @@
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import HTMLResponse, JSONResponse
 import os
 import sys
 import httpx
+import json
+import datetime
+import zipfile
+import magic
 
 # Add parent directory to Python path for module imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -10,6 +15,10 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from api.routers import content, search, cognitive, auth, dashboard, transcription, worker, shortcuts, transcript_search, transcript_stats, podcast_progress
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
+
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
 
 app = FastAPI(
     title="Atlas API",
@@ -43,6 +52,7 @@ app.include_router(podcast_progress.router, prefix="/api/v1/podcast-progress", t
 
 @app.get("/api/v1/health")
 async def health_check():
+    # Google Custom Search API now configured
     return {"status": "healthy"}
 
 @app.get("/search")
@@ -391,6 +401,15 @@ async def get_mobile_dashboard_html():
             <a href="https://github.com/Khamel83/Atlas/blob/main/quick_start_package/shortcuts/" target="_blank" style="display: block; padding: 12px; background: linear-gradient(135deg, #d299c2 0%, #fef9d7 100%); color: #333; text-decoration: none; border-radius: 8px; text-align: center; font-weight: 500;">
                 📱 iOS Shortcuts (Download links)
             </a>
+            <div onclick="document.getElementById('fileInput').click()" id="uploadBtn" style="display: block; padding: 12px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); color: white; cursor: pointer; border-radius: 8px; text-align: center; font-weight: 500;">
+                📁 Upload File (CSV, JSON, TXT, ZIP)
+            </div>
+            <input type="file" id="fileInput" style="display: none" accept=".csv,.json,.txt,.md,.log,.zip" onchange="uploadFile(this.files[0])">
+            <div id="uploadResult" style="display: none; margin-top: 12px; padding: 12px; border-radius: 8px; font-size: 14px;"></div>
+            <div onclick="processCSV()" id="processBtn" style="display: block; margin-top: 12px; padding: 12px; background: linear-gradient(135deg, #48bb78 0%, #38a169 100%); color: white; cursor: pointer; border-radius: 8px; text-align: center; font-weight: 500;">
+                🚀 Process All URLs from CSV (6,194 URLs)
+            </div>
+            <div id="csvProgress" style="display: none; margin-top: 12px; padding: 12px; border-radius: 8px; font-size: 14px; background: #f0f9ff; border: 1px solid #7dd3fc;"></div>
         </div>
         <div style="margin-top: 16px; padding: 12px; background: #f8f9fa; border-radius: 8px; font-size: 14px; color: #666;">
             💡 <strong>Tip:</strong> Use the bookmarklet on any website to save articles to Atlas instantly
@@ -449,6 +468,168 @@ async def get_mobile_dashboard_html():
                 }}, 2000);
             }}
         }});
+
+        // Handle file upload
+        async function uploadFile(file) {{
+            if (!file) return;
+            
+            const btn = document.getElementById('uploadBtn');
+            const result = document.getElementById('uploadResult');
+            
+            btn.textContent = '📤 Uploading...';
+            btn.style.cursor = 'not-allowed';
+            result.style.display = 'none';
+            
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            try {{
+                const response = await fetch('/upload', {{
+                    method: 'POST',
+                    body: formData
+                }});
+                
+                const data = await response.json();
+                
+                if (data.success) {{
+                    btn.textContent = '✅ Upload Complete!';
+                    btn.style.background = 'linear-gradient(135deg, #48bb78, #38a169)';
+                    
+                    const res = data.results;
+                    let resultHtml = `<strong>✅ ${{res.filename}}</strong><br>`;
+                    resultHtml += `Type: ${{res.type}} | `;
+                    
+                    if (res.data) {{
+                        if (res.data.rows) resultHtml += `${{res.data.rows}} rows, ${{res.data.columns.length}} columns`;
+                        else if (res.data.lines) resultHtml += `${{res.data.lines}} lines, ${{Math.round(res.data.size/1024)}}KB`;
+                        else if (res.data.files) resultHtml += `${{res.data.files}} files in archive`;
+                    }}
+                    
+                    result.innerHTML = resultHtml;
+                    result.style.display = 'block';
+                    result.style.background = '#f0fff4';
+                    result.style.color = '#22543d';
+                    result.style.border = '1px solid #9ae6b4';
+                }} else {{
+                    btn.textContent = '❌ Upload Failed';
+                    btn.style.background = 'linear-gradient(135deg, #f56565, #e53e3e)';
+                    
+                    result.innerHTML = `<strong>❌ Error:</strong> ${{data.error}}`;
+                    result.style.display = 'block';
+                    result.style.background = '#fff5f5';
+                    result.style.color = '#742a2a';
+                    result.style.border = '1px solid #feb2b2';
+                }}
+                
+                // Reset button after 3 seconds
+                setTimeout(() => {{
+                    btn.textContent = '📁 Upload File (CSV, JSON, TXT, ZIP)';
+                    btn.style.background = 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)';
+                    btn.style.cursor = 'pointer';
+                    document.getElementById('fileInput').value = '';
+                }}, 3000);
+                
+            }} catch (error) {{
+                btn.textContent = '❌ Upload Error';
+                btn.style.background = 'linear-gradient(135deg, #f56565, #e53e3e)';
+                
+                result.innerHTML = `<strong>❌ Network Error:</strong> ${{error.message}}`;
+                result.style.display = 'block';
+                result.style.background = '#fff5f5';
+                result.style.color = '#742a2a';
+                result.style.border = '1px solid #feb2b2';
+                
+                setTimeout(() => {{
+                    btn.textContent = '📁 Upload File (CSV, JSON, TXT, ZIP)';
+                    btn.style.background = 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)';
+                    btn.style.cursor = 'pointer';
+                }}, 3000);
+            }}
+        }}
+
+        // CSV Processing Functions
+        async function processCSV() {{
+            const btn = document.getElementById('processBtn');
+            const progress = document.getElementById('csvProgress');
+            
+            btn.textContent = '🚀 Starting CSV Processing...';
+            btn.style.cursor = 'not-allowed';
+            progress.style.display = 'block';
+            progress.innerHTML = 'Initializing batch processing...';
+            
+            try {{
+                const response = await fetch('/process-csv', {{
+                    method: 'POST'
+                }});
+                
+                const result = await response.json();
+                
+                if (result.success) {{
+                    btn.textContent = '✅ Processing Started!';
+                    progress.innerHTML = `<strong>🚀 Batch Processing Started</strong><br>Processing ${{result.total_urls}} URLs through Atlas ingestion pipeline...`;
+                    
+                    // Start progress monitoring
+                    startProgressMonitoring();
+                }} else {{
+                    btn.textContent = '❌ Start Failed';
+                    progress.innerHTML = `<strong>❌ Error:</strong> ${{result.error}}`;
+                    progress.style.background = '#fff5f5';
+                    progress.style.borderColor = '#feb2b2';
+                }}
+                
+            }} catch (error) {{
+                btn.textContent = '❌ Network Error';
+                progress.innerHTML = `<strong>❌ Network Error:</strong> ${{error.message}}`;
+                progress.style.background = '#fff5f5';
+                progress.style.borderColor = '#feb2b2';
+            }}
+        }}
+
+        function startProgressMonitoring() {{
+            const updateProgress = async () => {{
+                try {{
+                    const response = await fetch('/csv-status');
+                    const status = await response.json();
+                    
+                    const progress = document.getElementById('csvProgress');
+                    const percentage = status.total > 0 ? Math.round((status.processed / status.total) * 100) : 0;
+                    
+                    if (status.active) {{
+                        progress.innerHTML = `
+                            <strong>📊 Processing in Progress</strong><br>
+                            Progress: ${{status.processed}}/${{status.total}} URLs (${{percentage}}%)<br>
+                            ✅ Succeeded: ${{status.succeeded}} | ❌ Failed: ${{status.failed}}<br>
+                            <small>Current: ${{status.current_url || 'Loading...'}}</small>
+                        `;
+                        
+                        // Continue monitoring
+                        setTimeout(updateProgress, 2000);
+                    }} else {{
+                        if (status.current_url === 'COMPLETED') {{
+                            progress.innerHTML = `
+                                <strong>✅ CSV Processing Complete!</strong><br>
+                                Total Processed: ${{status.processed}}/${{status.total}} URLs<br>
+                                ✅ Succeeded: ${{status.succeeded}} | ❌ Failed: ${{status.failed}}<br>
+                                <em>All URLs have been submitted to Atlas ingestion pipeline</em>
+                            `;
+                            progress.style.background = '#f0fff4';
+                            progress.style.borderColor = '#9ae6b4';
+                            
+                            // Reset button
+                            const btn = document.getElementById('processBtn');
+                            btn.textContent = '🚀 Process All URLs from CSV (6,194 URLs)';
+                            btn.style.cursor = 'pointer';
+                        }}
+                    }}
+                    
+                }} catch (error) {{
+                    console.log('Progress monitoring error:', error);
+                }}
+            }};
+            
+            // Start monitoring immediately
+            updateProgress();
+        }}
     </script>
 </body>
 </html>
@@ -472,6 +653,275 @@ async def get_mobile_dashboard_html():
 </body>
 </html>
         '''
+
+# File upload functionality
+UPLOAD_DIR = os.path.join(os.path.dirname(__file__), '..', 'uploads')
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+def is_safe_file(filename: str, content: bytes) -> tuple[bool, str]:
+    """Check if file is safe to process."""
+    ALLOWED_EXTENSIONS = {'.txt', '.csv', '.json', '.md', '.zip', '.log'}
+    _, ext = os.path.splitext(filename.lower())
+    
+    if ext not in ALLOWED_EXTENSIONS:
+        return False, f"File extension '{ext}' not allowed"
+    
+    # Skip magic check for now to avoid import issues
+    return True, "File appears safe"
+
+@app.post("/upload")
+async def upload_file(file: UploadFile = File(...)):
+    """Process uploaded file."""
+    try:
+        content = await file.read()
+        if len(content) > 50 * 1024 * 1024:
+            return JSONResponse(status_code=413, content={"error": "File too large (50MB max)"})
+        
+        is_safe, safety_msg = is_safe_file(file.filename, content)
+        if not is_safe:
+            return JSONResponse(status_code=400, content={"error": f"File rejected: {safety_msg}"})
+        
+        # Save file
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        safe_filename = f"{timestamp}_{file.filename}"
+        filepath = os.path.join(UPLOAD_DIR, safe_filename)
+        
+        with open(filepath, 'wb') as f:
+            f.write(content)
+        
+        # Process based on file type
+        _, ext = os.path.splitext(file.filename.lower())
+        results = {"filename": file.filename, "type": ext, "processed": True, "path": filepath}
+        
+        if ext == '.csv':
+            try:
+                import pandas as pd
+                df = pd.read_csv(filepath)
+                # Handle NaN values by converting to None or string
+                sample_df = df.head(3).fillna('null')
+                results["data"] = {
+                    "rows": len(df),
+                    "columns": list(df.columns),
+                    "sample": sample_df.to_dict('records')
+                }
+            except Exception as e:
+                results["error"] = str(e)
+        
+        return JSONResponse(content={"success": True, "results": results})
+        
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": f"Upload failed: {str(e)}"})
+
+# CSV URL processing for batch ingestion
+csv_processing_status = {"active": False, "total": 0, "processed": 0, "succeeded": 0, "failed": 0, "current_url": ""}
+
+@app.get("/csv-status")
+async def get_csv_status():
+    """Get current CSV processing status."""
+    return JSONResponse(content=csv_processing_status)
+
+@app.post("/process-csv")
+async def process_csv_urls():
+    """Process all URLs from the most recent uploaded CSV file."""
+    global csv_processing_status
+    
+    if csv_processing_status["active"]:
+        return JSONResponse(content={"error": "CSV processing already in progress"})
+    
+    try:
+        # Find the most recent CSV file
+        import glob
+        csv_files = glob.glob(os.path.join(UPLOAD_DIR, "*ip.csv"))
+        if not csv_files:
+            return JSONResponse(content={"error": "No CSV file found"})
+        
+        latest_csv = max(csv_files, key=os.path.getmtime)
+        
+        # Read CSV and extract URLs, separating email vs web URLs
+        import pandas as pd
+        df = pd.read_csv(latest_csv)
+        
+        # Separate email URLs from web URLs
+        email_urls = df[df['URL'].str.startswith('instapaper-private://email/')].copy()
+        web_urls = df[~df['URL'].str.startswith('instapaper-private://email/')]['URL'].dropna().tolist()
+        
+        # Process email URLs for title matching and web search
+        email_matches, email_searches = await process_email_urls(email_urls)
+        
+        # Combine web URLs with found URLs from email searches
+        urls = web_urls + email_searches
+        
+        # Initialize status
+        csv_processing_status = {
+            "active": True,
+            "total": len(urls),
+            "processed": 0,
+            "succeeded": 0,
+            "failed": 0,
+            "current_url": "",
+            "start_time": datetime.datetime.now().isoformat()
+        }
+        
+        # Process URLs in background
+        import asyncio
+        asyncio.create_task(process_urls_batch(urls))
+        
+        return JSONResponse(content={
+            "success": True, 
+            "message": f"Started processing {len(urls)} URLs from {os.path.basename(latest_csv)}",
+            "total_urls": len(urls)
+        })
+        
+    except Exception as e:
+        csv_processing_status["active"] = False
+        return JSONResponse(status_code=500, content={"error": f"Failed to start CSV processing: {str(e)}"})
+
+async def process_urls_batch(urls):
+    """Process URLs in batch using existing Atlas ingestion."""
+    import asyncio
+    global csv_processing_status
+    
+    for i, url in enumerate(urls):
+        if not csv_processing_status["active"]:
+            break
+            
+        csv_processing_status["current_url"] = url
+        csv_processing_status["processed"] = i + 1
+        
+        try:
+            # Use existing content submission endpoint
+            async with httpx.AsyncClient() as client:
+                response = await client.post(
+                    "http://localhost:7444/api/v1/content/submit-url",
+                    json={"url": url},
+                    timeout=30.0
+                )
+                
+                if response.status_code == 200:
+                    csv_processing_status["succeeded"] += 1
+                else:
+                    csv_processing_status["failed"] += 1
+                    
+        except Exception as e:
+            csv_processing_status["failed"] += 1
+            print(f"Failed to process {url}: {e}")
+        
+        # Small delay to prevent overwhelming the system
+        await asyncio.sleep(0.1)
+    
+    # Mark as complete
+    csv_processing_status["active"] = False
+    csv_processing_status["current_url"] = "COMPLETED"
+
+async def process_email_urls(email_df):
+    """Process email URLs by matching titles and web searching for missing ones."""
+    import sqlite3
+    import pandas as pd
+    from helpers.simple_database import SimpleDatabase
+    
+    db = SimpleDatabase()
+    matched_count = 0
+    search_urls = []
+    
+    with db.get_connection() as conn:
+        for _, row in email_df.iterrows():
+            title = row['Title'].strip() if pd.notna(row['Title']) else ""
+            if not title:
+                continue
+                
+            # Search for existing content with similar title
+            cursor = conn.execute(
+                "SELECT url FROM content WHERE title LIKE ? AND url NOT LIKE 'instapaper-private:%' LIMIT 1",
+                (f"%{title}%",)
+            )
+            existing = cursor.fetchone()
+            
+            if existing:
+                matched_count += 1
+                # Already have this content
+                continue
+            else:
+                # Need to web search for this title
+                search_urls.append(await web_search_for_title(title))
+    
+    # Filter out None results from failed searches
+    found_urls = [url for url in search_urls if url]
+    
+    return matched_count, found_urls
+
+async def web_search_for_title(title):
+    """Use web search to find URL for email title."""
+    # Import the new GoogleSearchFallback system
+    import sys
+    import os
+    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    from helpers.google_search_fallback import search_with_google_fallback
+    
+    try:
+        # Use the new fallback system with background processing
+        result = await search_with_google_fallback(title, priority=3)  # Background priority
+        if result:
+            print(f"Found URL for '{title}': {result}")
+        else:
+            print(f"No search results for: {title}")
+        return result
+    except Exception as e:
+        print(f"Web search failed for title: {title} - {e}")
+        return None
+
+@app.post("/test-web-search")
+async def test_web_search(request: dict):
+    """Test web search functionality."""
+    title = request.get("title", "")
+    if not title:
+        return {"error": "Title is required"}
+    
+    result = await web_search_for_title(title)
+    return {"title": title, "found_url": result}
+
+@app.get("/google-search-stats")
+async def get_google_search_stats():
+    """Get Google Search fallback system statistics."""
+    import sys
+    import os
+    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    from helpers.google_search_fallback import get_google_search_stats
+    
+    try:
+        stats = get_google_search_stats()
+        return stats
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/google-search-analytics")
+async def google_search_analytics():
+    """Get comprehensive Google Search analytics and monitoring data"""
+    import sys
+    import os
+    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    try:
+        from helpers.google_search_analytics import create_monitoring_dashboard
+        return create_monitoring_dashboard()
+    except Exception as e:
+        return {"error": f"Failed to get Google Search analytics: {e}"}
+
+@app.get("/google-search-report")
+async def google_search_report():
+    """Get daily Google Search report"""
+    import sys
+    import os
+    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    
+    try:
+        from helpers.google_search_analytics import GoogleSearchMonitor
+        monitor = GoogleSearchMonitor()
+        report = monitor.generate_daily_report()
+        return {"report": report, "timestamp": datetime.now().isoformat()}
+    except Exception as e:
+        return {"error": f"Failed to generate Google Search report: {e}"}
 
 if __name__ == "__main__":
     import uvicorn

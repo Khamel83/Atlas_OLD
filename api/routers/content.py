@@ -338,6 +338,58 @@ async def submit_url_for_processing(
                     content_path=None
                 )
             else:
+                # GOOGLE SEARCH FALLBACK - Try to find alternative URLs before giving up
+                try:
+                    import sys
+                    import os
+                    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+                    from helpers.google_search_fallback import search_with_google_fallback
+                    import asyncio
+                    from urllib.parse import urlparse
+                    
+                    # Extract search terms from the failed URL
+                    parsed_url = urlparse(submission.url)
+                    path_parts = [part for part in parsed_url.path.split('/') if part and not part.isdigit()]
+                    if path_parts:
+                        search_query = path_parts[-1].replace('-', ' ').replace('_', ' ')
+                    else:
+                        search_query = f"article {parsed_url.netloc}"
+                    
+                    # Try Google Search fallback
+                    alternative_url = await search_with_google_fallback(search_query, priority=1)
+                    
+                    if alternative_url and alternative_url != submission.url:
+                        # Try processing the alternative URL
+                        temp_file_alt = f"/tmp/atlas_url_fallback_{uuid.uuid4()}.txt"
+                        with open(temp_file_alt, "w") as f:
+                            f.write(alternative_url)
+                        
+                        config = load_config()
+                        fallback_results = process_url_file(temp_file_alt, config)
+                        os.remove(temp_file_alt)
+                        
+                        if fallback_results["successful"] and len(fallback_results["successful"]) > 0:
+                            # Success with alternative URL!
+                            content_id = fallback_results["successful"][0]
+                            metadata = manager.load_metadata(content_id)
+                            
+                            if metadata:
+                                return ContentItem(
+                                    uid=metadata.uid,
+                                    title=f"[Google Fallback] {metadata.title}",
+                                    source=f"Original: {submission.url} → Found: {alternative_url}",
+                                    content_type=metadata.content_type.value,
+                                    status=metadata.status.value,
+                                    created_at=metadata.created_at,
+                                    updated_at=metadata.updated_at,
+                                    tags=metadata.tags + ["google-fallback"],
+                                    content_path=metadata.content_path
+                                )
+                
+                except Exception as e:
+                    # Google fallback failed, continue with regular processing
+                    pass
+                
                 # Generic failure - accept URL and queue for processing instead of blocking
                 from helpers.simple_database import SimpleDatabase
                 db = SimpleDatabase()
