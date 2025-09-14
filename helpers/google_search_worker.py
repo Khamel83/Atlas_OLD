@@ -34,8 +34,9 @@ class GoogleSearchWorker:
         self.queue = GoogleSearchQueue()
         self.fallback = GoogleSearchFallback()
         self.running = False
-        self.search_interval = 11  # 11 seconds between searches (8k per day limit)
-        self.last_search_time = 0
+        self.searches_per_hour = 333  # 8000 daily / 24 hours = 333 per hour
+        self.current_hour_searches = 0
+        self.current_hour = None
         
     async def start(self):
         """Start the background worker"""
@@ -45,7 +46,7 @@ class GoogleSearchWorker:
             
         self.running = True
         logger.info("🚀 Starting Google Search background worker")
-        logger.info(f"⏱️  Search interval: {self.search_interval} seconds")
+        logger.info(f"⏱️  Hourly burst: {self.searches_per_hour} searches per hour")
         logger.info(f"📊 Daily quota: {self.queue.daily_quota} searches")
         
         # Setup signal handlers for graceful shutdown
@@ -80,6 +81,20 @@ class GoogleSearchWorker:
                     await self._sleep_until_quota_reset()
                     continue
                 
+                # Check hourly quota - reset if new hour
+                current_hour = datetime.now().hour
+                if self.current_hour != current_hour:
+                    logger.info(f"🕐 New hour started: {current_hour}:00 - Resetting hourly counter")
+                    self.current_hour = current_hour
+                    self.current_hour_searches = 0
+                
+                # Check if we've hit hourly limit
+                if self.current_hour_searches >= self.searches_per_hour:
+                    minutes_until_next_hour = 60 - datetime.now().minute
+                    logger.info(f"⏰ Hourly quota reached ({self.current_hour_searches}/{self.searches_per_hour}). Waiting {minutes_until_next_hour} minutes until next hour.")
+                    await asyncio.sleep(minutes_until_next_hour * 60)
+                    continue
+                
                 # Get next search request
                 search = self.queue.get_next_search()
                 
@@ -96,27 +111,27 @@ class GoogleSearchWorker:
                 
                 consecutive_idle_cycles = 0
                 
-                # Respect rate limiting
-                await self._wait_for_rate_limit()
-                
-                # Process the search
+                # Process the search immediately (no per-second rate limiting)
                 await self._process_search(search)
+                
+                # Increment hourly counter
+                self.current_hour_searches += 1
+                
+                # Brief pause between searches to avoid overwhelming the API
+                await asyncio.sleep(0.5)  # Just 0.5 seconds between searches
                 
             except Exception as e:
                 logger.error(f"Error in main loop: {e}")
                 await asyncio.sleep(30)  # Wait 30 seconds before retrying
     
-    async def _wait_for_rate_limit(self):
-        """Wait to respect rate limiting (1 search per 11 seconds)"""
-        current_time = time.time()
-        time_since_last = current_time - self.last_search_time
-        
-        if time_since_last < self.search_interval:
-            sleep_time = self.search_interval - time_since_last
-            logger.debug(f"Rate limiting: sleeping {sleep_time:.1f}s")
-            await asyncio.sleep(sleep_time)
-        
-        self.last_search_time = time.time()
+    def _get_hourly_stats(self):
+        """Get current hourly processing statistics"""
+        return {
+            "current_hour": self.current_hour,
+            "searches_this_hour": self.current_hour_searches,
+            "hourly_limit": self.searches_per_hour,
+            "remaining_this_hour": max(0, self.searches_per_hour - self.current_hour_searches)
+        }
     
     async def _process_search(self, search):
         """Process a single search request"""
@@ -175,11 +190,13 @@ class GoogleSearchWorker:
     def get_stats(self) -> dict:
         """Get worker and queue statistics"""
         queue_status = self.queue.get_queue_status()
+        hourly_stats = self._get_hourly_stats()
         
         return {
             "worker_running": self.running,
-            "search_interval_seconds": self.search_interval,
-            "last_search_time": self.last_search_time,
+            "hourly_burst_mode": True,
+            "searches_per_hour": self.searches_per_hour,
+            "hourly_stats": hourly_stats,
             "queue_status": queue_status,
             "fallback_stats": self.fallback.get_stats() if hasattr(self.fallback, 'get_stats') else {}
         }

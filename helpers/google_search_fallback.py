@@ -115,10 +115,10 @@ class RateLimiter:
             logger.info(f"Rate limiter: Daily count reset for {today}")
     
     async def wait_if_needed(self):
-        """Wait if we need to throttle requests"""
+        """Wait if we need to throttle requests (daily limit only)"""
         self.reset_daily_count_if_needed()
         
-        # Check daily limit
+        # Check daily limit only - let worker handle hourly bursts
         if self.queries_today >= self.max_queries_per_day:
             wait_time = (datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0) + 
                         timedelta(days=1) - datetime.utcnow()).total_seconds()
@@ -126,17 +126,10 @@ class RateLimiter:
             await asyncio.sleep(wait_time)
             self.reset_daily_count_if_needed()
         
-        # Check time interval
-        current_time = time.time()
-        time_since_last = current_time - self.last_query_time
-        
-        if time_since_last < self.min_interval:
-            wait_time = self.min_interval - time_since_last
-            logger.debug(f"Rate limiter: Waiting {wait_time:.1f}s before next query")
-            await asyncio.sleep(wait_time)
-        
+        # No per-second limiting - just record the query
         self.last_query_time = time.time()
         self.queries_today += 1
+        logger.debug(f"Rate limiter: Query {self.queries_today}/{self.max_queries_per_day} for today")
     
     def get_remaining_quota(self) -> int:
         """Get remaining queries for today"""
