@@ -1,4 +1,5 @@
 import datetime
+import json
 import os
 import sys
 from urllib.parse import urlencode
@@ -9,9 +10,12 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
-from fastapi import FastAPI, Form, Request
+from fastapi import FastAPI, Form, Request, UploadFile, File
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
+import zipfile
+import magic
+import mimetypes
 
 # Cognitive Features
 try:
@@ -210,6 +214,12 @@ def root():
                     <div class="dashboard-icon">📊</div>
                     <div class="dashboard-title">System Overview</div>
                     <div class="dashboard-description">Content statistics, recent activity, system health, and quick actions</div>
+                </a>
+                
+                <a href="/upload" class="dashboard-card">
+                    <div class="dashboard-icon">📁</div>
+                    <div class="dashboard-title">File Import</div>
+                    <div class="dashboard-description">Upload and process files safely - CSV, JSON, TXT, ZIP archives with automatic content detection</div>
                 </a>
             </div>
             
@@ -1622,6 +1632,351 @@ async def debug_proactive():
         "older_than_cutoff": old_count,
         "sample_results": [{"title": r[0], "date": r[1], "type": r[2]} for r in sample_results]
     }
+
+
+# File upload and processing routes
+ALLOWED_EXTENSIONS = {'.txt', '.csv', '.json', '.md', '.zip', '.log'}
+UPLOAD_DIR = os.path.join(os.path.dirname(__file__), '..', 'uploads')
+
+# Ensure upload directory exists
+os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+def is_safe_file(filename: str, content: bytes) -> tuple[bool, str]:
+    """Check if file is safe to process."""
+    _, ext = os.path.splitext(filename.lower())
+    
+    if ext not in ALLOWED_EXTENSIONS:
+        return False, f"File extension '{ext}' not allowed. Allowed: {', '.join(ALLOWED_EXTENSIONS)}"
+    
+    # Use python-magic to detect actual file type
+    try:
+        mime_type = magic.from_buffer(content, mime=True)
+        
+        # Check for executable files
+        if 'executable' in mime_type or 'application/x-' in mime_type:
+            if mime_type not in ['application/x-zip-compressed', 'application/zip']:
+                return False, f"Potentially executable file detected: {mime_type}"
+        
+        # Additional safety checks
+        dangerous_patterns = [b'\x00', b'<?php', b'<script', b'#!/bin/']
+        for pattern in dangerous_patterns:
+            if pattern in content[:1024]:  # Check first 1KB
+                return False, "Potentially dangerous content detected"
+                
+    except Exception as e:
+        return False, f"Could not analyze file: {str(e)}"
+    
+    return True, "File appears safe"
+
+def process_uploaded_file(filepath: str, filename: str) -> dict:
+    """Process uploaded file based on type."""
+    _, ext = os.path.splitext(filename.lower())
+    results = {"filename": filename, "type": ext, "processed": False, "data": None, "error": None}
+    
+    try:
+        if ext == '.csv':
+            import pandas as pd
+            df = pd.read_csv(filepath)
+            results["data"] = {
+                "rows": len(df),
+                "columns": list(df.columns),
+                "sample": df.head(3).to_dict('records') if len(df) > 0 else []
+            }
+            results["processed"] = True
+            
+        elif ext == '.json':
+            import json
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            results["data"] = {
+                "type": type(data).__name__,
+                "size": len(str(data)),
+                "keys": list(data.keys()) if isinstance(data, dict) else "Not a dict",
+                "sample": str(data)[:500] + "..." if len(str(data)) > 500 else str(data)
+            }
+            results["processed"] = True
+            
+        elif ext in ['.txt', '.md', '.log']:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                content = f.read()
+            results["data"] = {
+                "size": len(content),
+                "lines": len(content.splitlines()),
+                "sample": content[:500] + "..." if len(content) > 500 else content
+            }
+            results["processed"] = True
+            
+        elif ext == '.zip':
+            with zipfile.ZipFile(filepath, 'r') as zip_ref:
+                file_list = zip_ref.namelist()
+                results["data"] = {
+                    "files": len(file_list),
+                    "file_list": file_list[:10],  # First 10 files
+                    "total_size": sum(info.file_size for info in zip_ref.filelist)
+                }
+                results["processed"] = True
+                
+    except Exception as e:
+        results["error"] = str(e)
+    
+    return results
+
+@app.get("/upload", response_class=HTMLResponse)
+def upload_form():
+    """File upload form."""
+    return """
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atlas File Import</title>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 2rem;
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                color: white;
+                min-height: 100vh;
+            }
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            .upload-card {
+                background: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(10px);
+                border-radius: 15px;
+                padding: 2rem;
+                margin-bottom: 2rem;
+                border: 1px solid rgba(255, 255, 255, 0.2);
+            }
+            .upload-zone {
+                border: 2px dashed rgba(255, 255, 255, 0.3);
+                border-radius: 10px;
+                padding: 2rem;
+                text-align: center;
+                margin: 1rem 0;
+                transition: all 0.3s ease;
+            }
+            .upload-zone:hover {
+                border-color: rgba(255, 255, 255, 0.6);
+                background: rgba(255, 255, 255, 0.05);
+            }
+            input[type="file"] {
+                display: none;
+            }
+            .file-input-label {
+                cursor: pointer;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 1rem 2rem;
+                border-radius: 25px;
+                border: none;
+                color: white;
+                font-size: 1rem;
+                transition: all 0.3s ease;
+                display: inline-block;
+            }
+            .file-input-label:hover {
+                background: rgba(255, 255, 255, 0.3);
+            }
+            .submit-btn {
+                background: #4CAF50;
+                color: white;
+                padding: 1rem 2rem;
+                border: none;
+                border-radius: 25px;
+                font-size: 1rem;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+            .submit-btn:hover {
+                background: #45a049;
+            }
+            .back-link {
+                display: inline-block;
+                margin-bottom: 2rem;
+                color: white;
+                text-decoration: none;
+                opacity: 0.8;
+            }
+            .back-link:hover {
+                opacity: 1;
+            }
+            .allowed-files {
+                margin-top: 1rem;
+                opacity: 0.8;
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="/" class="back-link">← Back to Dashboard</a>
+            <h1>📁 File Import</h1>
+            
+            <div class="upload-card">
+                <h2>Upload File</h2>
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <div class="upload-zone">
+                        <label for="file" class="file-input-label">
+                            Choose File
+                        </label>
+                        <input type="file" id="file" name="file" required>
+                        <p>Drag and drop or click to select</p>
+                    </div>
+                    <button type="submit" class="submit-btn">Upload & Process</button>
+                </form>
+                
+                <div class="allowed-files">
+                    <strong>Allowed file types:</strong> TXT, CSV, JSON, MD, ZIP, LOG
+                    <br>
+                    <strong>Max size:</strong> 50MB
+                    <br>
+                    <strong>Security:</strong> Files are scanned for safety before processing
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            const fileInput = document.getElementById('file');
+            const label = document.querySelector('.file-input-label');
+            
+            fileInput.addEventListener('change', function(e) {
+                const fileName = e.target.files[0]?.name || 'Choose File';
+                label.textContent = fileName;
+            });
+        </script>
+    </body>
+    </html>
+    """
+
+@app.post("/upload")
+async def upload_file(file: UploadFile = File(...)):
+    """Process uploaded file."""
+    try:
+        # Check file size (50MB limit)
+        content = await file.read()
+        if len(content) > 50 * 1024 * 1024:
+            return JSONResponse(
+                status_code=413,
+                content={"error": "File too large. Maximum size is 50MB."}
+            )
+        
+        # Check if file is safe
+        is_safe, safety_msg = is_safe_file(file.filename, content)
+        if not is_safe:
+            return JSONResponse(
+                status_code=400,
+                content={"error": f"File rejected: {safety_msg}"}
+            )
+        
+        # Save file
+        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        safe_filename = f"{timestamp}_{file.filename}"
+        filepath = os.path.join(UPLOAD_DIR, safe_filename)
+        
+        with open(filepath, 'wb') as f:
+            f.write(content)
+        
+        # Process file
+        results = process_uploaded_file(filepath, file.filename)
+        
+        # Generate HTML response
+        status_color = "#4CAF50" if results["processed"] else "#f44336"
+        status_text = "Success" if results["processed"] else "Error"
+        
+        data_html = ""
+        if results["processed"] and results["data"]:
+            data_html = f"<pre>{json.dumps(results['data'], indent=2)}</pre>"
+        elif results["error"]:
+            data_html = f"<div style='color: #f44336;'>Error: {results['error']}</div>"
+        
+        return HTMLResponse(f"""
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Upload Results - Atlas</title>
+            <style>
+                body {{
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+                    line-height: 1.6;
+                    margin: 0;
+                    padding: 2rem;
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    color: white;
+                    min-height: 100vh;
+                }}
+                .container {{
+                    max-width: 800px;
+                    margin: 0 auto;
+                }}
+                .result-card {{
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(10px);
+                    border-radius: 15px;
+                    padding: 2rem;
+                    margin-bottom: 2rem;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                }}
+                .status {{
+                    display: inline-block;
+                    padding: 0.5rem 1rem;
+                    border-radius: 15px;
+                    background: {status_color};
+                    color: white;
+                    font-weight: bold;
+                }}
+                pre {{
+                    background: rgba(0, 0, 0, 0.3);
+                    padding: 1rem;
+                    border-radius: 5px;
+                    overflow-x: auto;
+                }}
+                .back-link {{
+                    display: inline-block;
+                    margin: 1rem 0;
+                    padding: 0.5rem 1rem;
+                    background: rgba(255, 255, 255, 0.2);
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 15px;
+                }}
+                .back-link:hover {{
+                    background: rgba(255, 255, 255, 0.3);
+                }}
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>📁 Upload Results</h1>
+                
+                <div class="result-card">
+                    <h2>File: {results['filename']}</h2>
+                    <p><strong>Status:</strong> <span class="status">{status_text}</span></p>
+                    <p><strong>Type:</strong> {results['type']}</p>
+                    <p><strong>Safety Check:</strong> {safety_msg}</p>
+                    
+                    <h3>Processing Results:</h3>
+                    {data_html}
+                </div>
+                
+                <a href="/upload" class="back-link">← Upload Another File</a>
+                <a href="/" class="back-link">← Back to Dashboard</a>
+            </div>
+        </body>
+        </html>
+        """)
+        
+    except Exception as e:
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Upload failed: {str(e)}"}
+        )
 
 
 if __name__ == "__main__":

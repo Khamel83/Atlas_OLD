@@ -266,161 +266,29 @@ async def get_content(
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error retrieving content: {str(e)}")
 
-@router.post("/submit-url", response_model=ContentItem)
+@router.post("/submit-url")
 async def submit_url_for_processing(
-    submission: ContentSubmission,
-    manager: MetadataManager = Depends(get_metadata_manager)
+    submission: ContentSubmission
 ):
-    """Submit a URL for content processing"""
+    """Submit a URL for processing via unified ingestion queue"""
     try:
-        # Create a temporary file with the URL for processing
-        temp_file = f"/tmp/atlas_url_submission_{uuid.uuid4()}.txt"
-        with open(temp_file, "w") as f:
-            f.write(submission.url)
+        from helpers.unified_ingestion import submit_url
         
-        # Process the URL
-        config = load_config()
-        results = process_url_file(temp_file, config)
+        # Submit URL to unified queue
+        job_id = submit_url(submission.url, priority=50, source="api")
         
-        # Clean up temp file
-        os.remove(temp_file)
+        return {
+            "success": True,
+            "message": "URL queued for processing",
+            "job_id": job_id,
+            "url": submission.url,
+            "status": "queued"
+        }
         
-        # Check if processing was successful
-        if results["successful"] and len(results["successful"]) > 0:
-            # Load the metadata for the processed content - results["successful"] contains file IDs
-            content_id = results["successful"][0]
-            metadata = manager.load_metadata(content_id)
-            
-            if metadata:
-                return ContentItem(
-                    uid=metadata.uid,
-                    title=metadata.title,
-                    source=metadata.source,
-                    content_type=metadata.content_type.value,
-                    status=metadata.status.value,
-                    created_at=metadata.created_at,
-                    updated_at=metadata.updated_at,
-                    tags=metadata.tags,
-                    content_path=metadata.content_path
-                )
-            else:
-                raise HTTPException(status_code=500, detail="Content processed but metadata not found")
-        elif results.get("duplicate") and len(results["duplicate"]) > 0:
-            # URL was skipped as duplicate
-            raise HTTPException(status_code=409, detail=f"URL already exists in Atlas: {submission.url}")
-        elif results["failed"] and len(results["failed"]) > 0:
-            # Check if it's a known paywall site that should be processed with authentication
-            paywall_sites = ["wsj.com", "nytimes.com", "ft.com", "bloomberg.com", "economist.com"]
-            is_paywall = any(site in submission.url.lower() for site in paywall_sites)
-            
-            if is_paywall:
-                # Add to database as pending and return success
-                from helpers.simple_database import SimpleDatabase
-                db = SimpleDatabase()
-                with db.get_connection() as conn:
-                    cursor = conn.execute("""
-                        INSERT INTO content (title, url, content, content_type, created_at, updated_at)
-                        VALUES (?, ?, ?, 'article', datetime('now'), datetime('now'))
-                    """, ("Processing with authentication...", submission.url, "Paywall authentication in progress..."))
-                    conn.commit()
-                    content_db_id = cursor.lastrowid
-                
-                # Return success with helpful message
-                return ContentItem(
-                    uid=str(content_db_id),
-                    title="Processing with authentication...",
-                    source=submission.url,
-                    content_type="article",
-                    status="processing",
-                    created_at=datetime.now().isoformat(),
-                    updated_at=datetime.now().isoformat(),
-                    tags=[],
-                    content_path=None
-                )
-            else:
-                # GOOGLE SEARCH FALLBACK - Try to find alternative URLs before giving up
-                try:
-                    import sys
-                    import os
-                    sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-                    from helpers.google_search_fallback import search_with_google_fallback
-                    import asyncio
-                    from urllib.parse import urlparse
-                    
-                    # Extract search terms from the failed URL
-                    parsed_url = urlparse(submission.url)
-                    path_parts = [part for part in parsed_url.path.split('/') if part and not part.isdigit()]
-                    if path_parts:
-                        search_query = path_parts[-1].replace('-', ' ').replace('_', ' ')
-                    else:
-                        search_query = f"article {parsed_url.netloc}"
-                    
-                    # Try Google Search fallback
-                    alternative_url = await search_with_google_fallback(search_query, priority=1)
-                    
-                    if alternative_url and alternative_url != submission.url:
-                        # Try processing the alternative URL
-                        temp_file_alt = f"/tmp/atlas_url_fallback_{uuid.uuid4()}.txt"
-                        with open(temp_file_alt, "w") as f:
-                            f.write(alternative_url)
-                        
-                        config = load_config()
-                        fallback_results = process_url_file(temp_file_alt, config)
-                        os.remove(temp_file_alt)
-                        
-                        if fallback_results["successful"] and len(fallback_results["successful"]) > 0:
-                            # Success with alternative URL!
-                            content_id = fallback_results["successful"][0]
-                            metadata = manager.load_metadata(content_id)
-                            
-                            if metadata:
-                                return ContentItem(
-                                    uid=metadata.uid,
-                                    title=f"[Google Fallback] {metadata.title}",
-                                    source=f"Original: {submission.url} → Found: {alternative_url}",
-                                    content_type=metadata.content_type.value,
-                                    status=metadata.status.value,
-                                    created_at=metadata.created_at,
-                                    updated_at=metadata.updated_at,
-                                    tags=metadata.tags + ["google-fallback"],
-                                    content_path=metadata.content_path
-                                )
-                
-                except Exception as e:
-                    # Google fallback failed, continue with regular processing
-                    pass
-                
-                # Generic failure - accept URL and queue for processing instead of blocking
-                from helpers.simple_database import SimpleDatabase
-                db = SimpleDatabase()
-                with db.get_connection() as conn:
-                    cursor = conn.execute("""
-                        INSERT INTO content (title, url, content, content_type, created_at, updated_at)
-                        VALUES (?, ?, ?, 'article', datetime('now'), datetime('now'))
-                    """, ("Processing...", submission.url, "Content extraction in progress..."))
-                    conn.commit()
-                    content_db_id = cursor.lastrowid
-                
-                # Return success with helpful message
-                return ContentItem(
-                    uid=str(content_db_id),
-                    title="Processing...",
-                    source=submission.url,
-                    content_type="article",
-                    status="processing",
-                    created_at=datetime.now().isoformat(),
-                    updated_at=datetime.now().isoformat(),
-                    tags=[],
-                    content_path=None
-                )
-        else:
-            # Unknown state
-            raise HTTPException(status_code=500, detail="Unknown processing result")
-            
-    except HTTPException:
-        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error submitting URL: {str(e)}")
+
+# Old processing logic removed - now using unified queue system
 
 @router.post("/save", response_model=dict)
 async def save_bookmarklet_content(

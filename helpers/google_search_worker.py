@@ -166,7 +166,7 @@ class GoogleSearchWorker:
         """Perform the actual Google search using the fallback system"""
         try:
             # Create a high-priority search request
-            result = await self.fallback.search(query, priority=1)
+            result = await self.fallback.search_with_fallback(query, priority=1)
             return result
             
         except Exception as e:

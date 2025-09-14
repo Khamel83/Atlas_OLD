@@ -777,39 +777,33 @@ async def process_csv_urls():
         return JSONResponse(status_code=500, content={"error": f"Failed to start CSV processing: {str(e)}"})
 
 async def process_urls_batch(urls):
-    """Process URLs in batch using existing Atlas ingestion."""
-    import asyncio
+    """Process URLs in batch using unified Atlas ingestion queue."""
+    from helpers.unified_ingestion import submit_urls
     global csv_processing_status
     
-    for i, url in enumerate(urls):
-        if not csv_processing_status["active"]:
-            break
-            
-        csv_processing_status["current_url"] = url
-        csv_processing_status["processed"] = i + 1
-        
-        try:
-            # Use existing content submission endpoint
-            async with httpx.AsyncClient() as client:
-                response = await client.post(
-                    "http://localhost:7444/api/v1/content/submit-url",
-                    json={"url": url},
-                    timeout=30.0
-                )
-                
-                if response.status_code == 200:
-                    csv_processing_status["succeeded"] += 1
-                else:
-                    csv_processing_status["failed"] += 1
-                    
-        except Exception as e:
-            csv_processing_status["failed"] += 1
-            print(f"Failed to process {url}: {e}")
-        
-        # Small delay to prevent overwhelming the system
-        await asyncio.sleep(0.1)
+    if not urls:
+        csv_processing_status["active"] = False
+        csv_processing_status["current_url"] = "COMPLETED"
+        return
     
-    # Mark as complete
+    try:
+        # Submit ALL URLs to unified queue in one operation
+        job_ids = submit_urls(urls, priority=60, source="csv_upload")
+        
+        # Update status
+        csv_processing_status["processed"] = len(urls)
+        csv_processing_status["succeeded"] = len(job_ids)
+        csv_processing_status["failed"] = len(urls) - len(job_ids)
+        csv_processing_status["current_url"] = f"Queued {len(job_ids)} URLs"
+        
+        print(f"✅ CSV Processing: Queued {len(job_ids)} URLs via unified ingestion system")
+        
+    except Exception as e:
+        csv_processing_status["failed"] = len(urls)
+        csv_processing_status["current_url"] = f"Error: {str(e)}"
+        print(f"❌ CSV Processing failed: {e}")
+    
+    # Mark as completed
     csv_processing_status["active"] = False
     csv_processing_status["current_url"] = "COMPLETED"
 

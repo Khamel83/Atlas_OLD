@@ -7,6 +7,7 @@
 *   **Configuration Management**: All user-configurable values must be in `.env` and loaded via environment variables. Update `.env.template` with any new variables.
 *   **Component Registry**: Check `ATLAS_COMPONENT_INDEX.md` before creating new components to avoid duplication. Update the index when adding new capabilities.
 *   **DATABASE PATHS**: NEVER use hardcoded database paths. Always use `from helpers.database_config import get_database_path, get_database_connection`.
+*   **INGESTION ARCHITECTURE**: ALL URL ingestion MUST use `helpers.unified_ingestion`. NO EXCEPTIONS. NO BYPASSES. See `INGESTION_ARCHITECTURE.md`.
 
 ## 🤖 ARCHON MCP CONNECTION - CRITICAL SETUP
 
@@ -85,6 +86,37 @@ conn = get_database_connection()
 - Default: `/home/ubuntu/dev/atlas/data/atlas.db`
 
 **FOR ALL AGENTS**: This is a critical system requirement. Database path inconsistencies cause user-facing failures.
+
+## 🚨 UNIFIED INGESTION ARCHITECTURE - CRITICAL
+
+**PROBLEM**: Atlas had multiple URL ingestion paths that bypassed the main processing queue, causing content to be lost or processed incorrectly.
+
+**SOLUTION**: Unified ingestion system implemented Sep 14, 2025. ALL URL processing now goes through single queue.
+
+**MANDATORY USAGE**:
+```python
+# ✅ CORRECT - Always use this for ANY URL ingestion
+from helpers.unified_ingestion import submit_url, submit_urls
+
+# Single URL
+job_id = submit_url(url, priority=50, source="api")
+
+# Bulk URLs (CSV, batch processing, etc.)
+job_ids = submit_urls(url_list, priority=60, source="csv_upload")
+
+# ❌ WRONG - Never do this
+# HTTP calls to submit-url endpoints
+# Creating temp files for URL processing
+# Custom bulk processing loops
+# Bypassing the worker queue
+```
+
+**ARCHITECTURE RULE**: 
+```
+ANY URL SOURCE → helpers/unified_ingestion.py → worker_jobs table → processors
+```
+
+**FOR ALL AGENTS**: This prevents content loss and ensures consistent processing. See `INGESTION_ARCHITECTURE.md` for complete documentation.
 
 ## 📊 Authoritative Status
 **Archon OS Project Management**: http://localhost:5173
