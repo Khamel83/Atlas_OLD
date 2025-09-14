@@ -18,6 +18,10 @@ from typing import Optional
 # Add parent directory to path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+# Load environment variables
+from dotenv import load_dotenv
+load_dotenv()
+
 from helpers.google_search_queue import GoogleSearchQueue, QueuePriority, QueueStatus
 from helpers.google_search_fallback import GoogleSearchFallback
 
