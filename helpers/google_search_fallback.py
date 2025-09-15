@@ -20,7 +20,7 @@ import os
 import time
 import urllib.parse
 from datetime import datetime, timedelta
-from typing import Optional, Dict, List
+from typing import Optional, Dict, List, Any
 import httpx
 import json
 from dataclasses import dataclass
@@ -154,11 +154,37 @@ class GoogleSearchFallback:
         self.is_processing = False
         
         if not self.api_key or not self.search_engine_id:
-            logger.error("Google Search API credentials not configured!")
-            raise ValueError("Missing GOOGLE_SEARCH_API_KEY or GOOGLE_SEARCH_ENGINE_ID")
-        
-        logger.info("GoogleSearchFallback initialized successfully")
-    
+            logger.warning("Google Search API credentials not configured! Google search fallback will be disabled.")
+            self.enabled = False
+        else:
+            self.enabled = True
+            logger.info("GoogleSearchFallback initialized successfully")
+
+    def search_fallback_url(self, url: str) -> Dict[str, Any]:
+        """
+        Synchronous wrapper for searching fallback URLs
+
+        Args:
+            url: Original URL that failed processing
+
+        Returns:
+            Dict with search results
+        """
+        if not self.enabled:
+            return {
+                "success": False,
+                "error": "Google Search fallback not configured",
+                "urls": []
+            }
+
+        # For now, return a simple result
+        # In a real implementation, this would call the async search method
+        return {
+            "success": False,
+            "error": "Google Search fallback requires async configuration",
+            "urls": []
+        }
+
     async def search_with_fallback(self, query: str, priority: int = 2) -> Optional[str]:
         """
         Search for a query with full fallback and retry logic.

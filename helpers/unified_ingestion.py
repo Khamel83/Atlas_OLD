@@ -25,7 +25,7 @@ class UnifiedIngestionManager:
     One funnel -> One queue -> Multiple processors
     """
     
-    def __init__(self, db_path: str = "atlas.db"):
+    def __init__(self, db_path: str = "data/atlas.db"):
         self.db_path = db_path
         self._ensure_queue_table()
     

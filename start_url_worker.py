@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-URL Processing Worker - Processes URLs from unified ingestion queue
+Enhanced URL Processing Worker - Uses strategy progression engine for robust ingestion
 """
 
 import sqlite3
@@ -10,6 +10,10 @@ import logging
 import sys
 from pathlib import Path
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -24,10 +28,14 @@ logger = logging.getLogger(__name__)
 class URLWorker:
     """Worker to process URL jobs from the unified queue"""
     
-    def __init__(self, db_path="atlas.db"):
+    def __init__(self, db_path="data/atlas.db"):
         self.db_path = db_path
         self.worker_id = f"url_worker_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         self.running = False
+
+        # Import and initialize the strategy progression engine
+        from helpers.strategy_progression_engine import StrategyProgressionEngine
+        self.workflow_engine = StrategyProgressionEngine(db_path)
     
     def get_next_job(self):
         """Get next URL processing job from queue"""
@@ -57,32 +65,51 @@ class URLWorker:
             return None
     
     def process_url_job(self, job):
-        """Process a single URL job"""
+        """Process a single URL job using the content processing pipeline"""
         try:
             url = job['data']['url']
             source = job['data'].get('source', 'unknown')
-            
-            logger.info(f"Processing URL: {url} (source: {source})")
-            
-            # Use FailsafeIngestor for reliable URL processing
-            from helpers.failsafe_ingestor import FailsafeIngestor
-            
-            # Process the URL directly
-            ingestor = FailsafeIngestor()
-            success = ingestor.process_content(url, {'source': source, 'job_id': job['id']})
-            
-            # Mark job as completed based on success
-            if success:
-                self.complete_job(job['id'], f"Processed successfully")
-                logger.info(f"✅ Completed: {url}")
+
+            logger.info(f"🔄 Processing URL with content pipeline: {url} (source: {source})")
+
+            # Import and initialize the content processing pipeline
+            from helpers.content_pipeline import ContentProcessingPipeline
+            pipeline = ContentProcessingPipeline(self.db_path)
+
+            # Process through the complete content pipeline
+            pipeline_result = pipeline.process_url_job(job['id'], url, source)
+
+            if pipeline_result["success"]:
+                final_stage = pipeline_result.get("final_stage", "unknown")
+                quality_score = pipeline_result.get("quality_score", 0)
+                word_count = pipeline_result.get("word_count", 0)
+                content_id = pipeline_result.get("content_id", "unknown")
+
+                logger.info(f"✅ Pipeline processing succeeded for: {url}")
+                logger.info(f"   Content ID: {content_id}")
+                logger.info(f"   Final Stage: {final_stage}")
+                logger.info(f"   Quality Score: {quality_score}")
+                logger.info(f"   Word Count: {word_count}")
+
+                # Complete the worker job
+                result_msg = f"Pipeline completed: {final_stage} (quality: {quality_score}, words: {word_count})"
+                self.complete_job(job['id'], result_msg)
+
                 return True
             else:
-                self.fail_job(job['id'], f"Processing failed")
-                logger.error(f"❌ Failed: {url}")
+                error_msg = pipeline_result.get("error", "Pipeline failed")
+                content_id = pipeline_result.get("content_id", "unknown")
+
+                logger.error(f"❌ Pipeline processing failed for {url}: {error_msg}")
+                logger.info(f"   Content ID: {content_id}")
+
+                # Fail the worker job
+                self.fail_job(job['id'], error_msg)
+
                 return False
-            
+
         except Exception as e:
-            error_msg = f"Failed to process URL: {str(e)}"
+            error_msg = f"Pipeline processing error: {str(e)}"
             logger.error(f"❌ {error_msg}")
             self.fail_job(job['id'], error_msg)
             return False
@@ -91,18 +118,20 @@ class URLWorker:
         """Mark job as completed"""
         with sqlite3.connect(self.db_path) as conn:
             conn.execute("""
-                UPDATE worker_jobs 
-                SET status = 'completed', completed_at = ?, result = ?
+                UPDATE worker_jobs
+                SET status = 'completed', completed_at = ?, result = ?,
+                    current_strategy = NULL
                 WHERE id = ?
             """, (datetime.now().isoformat(), result, job_id))
             conn.commit()
-    
+
     def fail_job(self, job_id, error):
         """Mark job as failed"""
         with sqlite3.connect(self.db_path) as conn:
             conn.execute("""
-                UPDATE worker_jobs 
-                SET status = 'failed', completed_at = ?, result = ?, retry_count = retry_count + 1
+                UPDATE worker_jobs
+                SET status = 'failed', completed_at = ?, result = ?,
+                    current_strategy = NULL
                 WHERE id = ?
             """, (datetime.now().isoformat(), error, job_id))
             conn.commit()
