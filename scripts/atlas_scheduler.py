@@ -45,10 +45,12 @@ class AtlasScheduler:
         self.last_transcript_success = None
         self.last_transcript_check = None
         self.last_youtube_run = None
+        self.last_source_inventory_run = None
         self.comprehensive_interval = 30  # 30 seconds - run continuously
         self.transcript_interval = 60 * 60  # 1 hour - keep trying more frequently
         self.transcript_check_interval = 5 * 60  # 5 minutes for light transcript checking
         self.youtube_interval = 5 * 60 * 60  # 5 hours for YouTube processing
+        self.source_inventory_interval = 2 * 60 * 60  # 2 hours for source discovery
         # Use venv Python, not system Python
         self.python_executable = str(self.project_root / "venv" / "bin" / "python3")
 
@@ -90,6 +92,12 @@ class AtlasScheduler:
         if not self.last_youtube_run:
             return True
         return (datetime.now() - self.last_youtube_run).seconds >= self.youtube_interval
+
+    def should_run_source_inventory(self) -> bool:
+        """Check if source inventory discovery should run."""
+        if not self.last_source_inventory_run:
+            return True
+        return (datetime.now() - self.last_source_inventory_run).seconds >= self.source_inventory_interval
         
     def run_comprehensive_service(self) -> bool:
         """Run the comprehensive processing service."""
@@ -283,7 +291,44 @@ class AtlasScheduler:
         except Exception as e:
             logger.error(f"❌ YouTube processing error: {e}")
             return False
-            
+
+    def run_source_inventory(self) -> bool:
+        """Run source inventory discovery to find unprocessed work."""
+        try:
+            logger.info("🔍 Starting source inventory discovery...")
+
+            # Import source inventory module
+            sys.path.insert(0, str(self.project_root))
+            from helpers.source_inventory import discover_unprocessed_work
+
+            # Run discovery
+            results = discover_unprocessed_work(str(self.project_root / "data" / "atlas.db"))
+
+            if 'error' in results:
+                logger.error(f"❌ Source inventory failed: {results['error']}")
+                return False
+
+            # Log results
+            total_work = results.get('total_work_created', 0)
+            csv_urls = results.get('csv_urls_added', 0)
+            podcast_episodes = results.get('podcast_episodes_added', 0)
+            discovery_time = results.get('discovery_time', 0)
+
+            if total_work > 0:
+                logger.info(f"✅ Source inventory completed: {total_work} new items queued for processing")
+                logger.info(f"   📄 CSV URLs: {csv_urls}")
+                logger.info(f"   🎙️ Podcast episodes: {podcast_episodes}")
+                logger.info(f"   ⏱️ Discovery time: {discovery_time}s")
+            else:
+                logger.info("✅ Source inventory completed: No new work discovered")
+
+            self.last_source_inventory_run = datetime.now()
+            return True
+
+        except Exception as e:
+            logger.error(f"❌ Source inventory error: {e}")
+            return False
+
     def run_scheduler(self):
         """Main scheduler loop."""
         logger.info("🕐 Atlas Background Scheduler started")
@@ -291,6 +336,7 @@ class AtlasScheduler:
         logger.info(f"   Transcript discovery: every {self.transcript_interval//3600} hours")
         logger.info(f"   Transcript check: every {self.transcript_check_interval//60} minutes")
         logger.info(f"   YouTube processing: every {self.youtube_interval//3600} hours")
+        logger.info(f"   Source inventory: every {self.source_inventory_interval//3600} hours")
         
         # Run once immediately on startup
         logger.info("🔄 Running initial comprehensive cycle...")
@@ -298,18 +344,22 @@ class AtlasScheduler:
         
         while True:
             try:
+                # Check if we should run source inventory discovery
+                if self.should_run_source_inventory():
+                    self.run_source_inventory()
+
                 # Check if we should run YouTube processing
-                if self.should_run_youtube_processing():
+                elif self.should_run_youtube_processing():
                     self.run_youtube_processing()
-                
+
                 # Check if we should run transcript discovery
                 elif self.should_run_transcript_discovery():
                     self.run_transcript_discovery()
-                
+
                 # Check if we should run light transcript checking
                 elif self.should_run_transcript_check():
                     self.run_transcript_check()
-                
+
                 # Check if we should run comprehensive processing
                 elif self.should_run_comprehensive():
                     self.run_comprehensive_service()

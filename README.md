@@ -205,6 +205,48 @@ Atlas includes comprehensive monitoring:
 - **📱 Telegram notifications** for critical events
 - **📈 Performance dashboards** with trends and capacity planning
 
+## 🔍 Source Discovery System
+
+Atlas includes an intelligent **Source Discovery System** that continuously finds and processes unprocessed content from all your sources:
+
+### **How It Works**
+- **Automatic Discovery**: Every 2 hours, Atlas scans for unprocessed work
+- **Multiple Sources**: Instapaper CSV exports, unprocessed podcast episodes, RSS feeds
+- **Stage 0 Processing**: Discovered content enters the processing pipeline at stage 0
+- **Unified Pipeline**: All content flows through the same 0-599 stage progression
+
+### **Supported Sources**
+- **📄 Instapaper CSV Exports**: Automatically processes uploaded CSV files from `uploads/` directory
+- **🎙️ Podcast Episodes**: Finds episodes marked `processed=0` in the database
+- **🔮 Future**: RSS feeds, YouTube channels, email archives, file watchers
+
+### **Monitoring Discovery**
+```bash
+# Check discovery activity
+tail -f logs/atlas_scheduler.log | grep "source inventory"
+
+# View discovered items at stage 0
+sqlite3 data/atlas.db "SELECT COUNT(*) FROM content WHERE metadata LIKE '%discovery_stage%0%';"
+
+# Watch processing progress
+tail -f logs/universal_queue.log | grep "✅ AI processing completed"
+```
+
+### **Manual Discovery**
+```bash
+# Test source discovery manually
+python3 helpers/source_inventory.py
+
+# Run discovery and view results
+python3 -c "from helpers.source_inventory import discover_unprocessed_work; print(discover_unprocessed_work())"
+```
+
+### **Configuration**
+The discovery system runs automatically via the Atlas Scheduler:
+- **Interval**: Every 2 hours
+- **Batch Limit**: 1000 items per discovery run
+- **Integration**: Seamless with existing processing pipeline
+
 ## 🚨 Troubleshooting
 
 ### Common Issues
