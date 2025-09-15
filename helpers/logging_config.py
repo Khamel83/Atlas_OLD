@@ -50,10 +50,14 @@ class JSONFormatter(logging.Formatter):
         if record.levelno >= logging.INFO:
             try:
                 metrics = get_metrics_collector()
+                memory_bytes = metrics.get_metric_value("atlas_memory_usage_bytes", 0) or 0
+                cpu_usage = metrics.get_metric_value("atlas_cpu_usage_percent", 0) or 0
+                queue_pending = metrics.get_metric_value("atlas_queue_pending_total", 0) or 0
+
                 log_data.performance_metrics = {
-                    "memory_usage_mb": metrics.get_metric_value("atlas_memory_usage_bytes", 0) / (1024**2),
-                    "cpu_usage_percent": metrics.get_metric_value("atlas_cpu_usage_percent", 0) * 100,
-                    "queue_pending": metrics.get_metric_value("atlas_queue_pending_total", 0)
+                    "memory_usage_mb": memory_bytes / (1024**2) if memory_bytes else 0,
+                    "cpu_usage_percent": cpu_usage * 100 if cpu_usage else 0,
+                    "queue_pending": queue_pending
                 }
             except Exception:
                 # Don't fail logging if metrics collection fails
@@ -194,16 +198,23 @@ class PerformanceLogger:
             import psutil
             memory = psutil.virtual_memory()
             
+            # Get metric values safely, defaulting to 0 if None
+            disk_free_bytes = self.metrics.get_metric_value("atlas_disk_free_bytes", 0) or 0
+            queue_pending = self.metrics.get_metric_value("atlas_queue_pending_total", 0) or 0
+            queue_processing = self.metrics.get_metric_value("atlas_queue_processing_total", 0) or 0
+            articles_processed = self.metrics.get_metric_value("atlas_articles_processed_total", 0) or 0
+            uptime_seconds = self.metrics.get_metric_value("atlas_system_uptime_seconds", 0) or 0
+
             performance_data = {
                 "memory_percent": memory.percent,
                 "memory_available_gb": memory.available / (1024**3),
                 "cpu_load_1min": os.getloadavg()[0],
                 "cpu_load_5min": os.getloadavg()[1],
-                "disk_free_gb": self.metrics.get_metric_value("atlas_disk_free_bytes", 0) / (1024**3),
-                "queue_pending": self.metrics.get_metric_value("atlas_queue_pending_total", 0),
-                "queue_processing": self.metrics.get_metric_value("atlas_queue_processing_total", 0),
-                "articles_processed": self.metrics.get_metric_value("atlas_articles_processed_total", 0),
-                "uptime_hours": self.metrics.get_metric_value("atlas_system_uptime_seconds", 0) / 3600
+                "disk_free_gb": disk_free_bytes / (1024**3) if disk_free_bytes else 0,
+                "queue_pending": queue_pending,
+                "queue_processing": queue_processing,
+                "articles_processed": articles_processed,
+                "uptime_hours": uptime_seconds / 3600 if uptime_seconds else 0
             }
             
             self.logger.info("Performance snapshot", **performance_data)
