@@ -47,11 +47,18 @@
 - Database integration: ✅ Complete
 
 ---
-**Last Updated**: 2025-09-14 23:30 UTC
+**Last Updated**: 2025-09-14 23:45 UTC
 **Status**: YouTube integration partially complete, needs local setup for history collection
 
 ## CRITICAL: DO NOT CLAIM YOUTUBE HISTORY COLLECTION WORKS
-- ❌ Never properly tested end-to-end
-- ❌ Browser authentication not verified
+- ❌ Never properly tested end-to-end before claiming functionality worked
+- ❌ Browser authentication not verified in headless environment
 - ❌ Headless environment limitations discovered too late
+- ❌ User frustrated that infrastructure was built on untested functionality
 - ✅ Only API-based features (search, transcripts) actually work
+
+## LESSONS LEARNED
+1. **Always test core functionality before building infrastructure**
+2. **Be honest about limitations from the start**
+3. **Don't claim things work without end-to-end verification**
+4. **User frustration was justified - poor testing methodology**
