@@ -1,0 +1,110 @@
+# Content from https://www.hollywoodreporter.com/tv/tv-features/andor-andy-serkis-on-episode-10-1235257860/
+
+*Retrieved: 2025-09-14T20:31:21.605754*
+
+---
+
+<html><body><div><div class="pmc-paywall"><p class="paragraph larva // a-font-body-m">
+<strong>[This story contains spoilers for <em><a data-tag="andor" href="https://www.hollywoodreporter.com/t/andor/" id="auto-tag_andor_1">Andor</a></em> episode ten.]</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	Andy Serkis’ return to <em><a data-tag="star-wars" href="https://www.hollywoodreporter.com/t/star-wars/" id="auto-tag_star-wars_1">Star Wars</a></em> was a welcomed surprise on <em>Andor</em>, but the versatile performer needed a minute to weigh the offer to play prison factory foreman, Kino Loy. After all, Serkis had previously portrayed Supreme Leader Snoke in the <em>Star Wars</em> sequel trilogy, amounting to seven-and-a-half minutes of screen time until his inspired death scene in Rian Johnson’s <em>The Last Jedi</em>.
+
+</p>
+<p class="paragraph larva // a-font-body-m">
+	In the two years between J.J. Abrams’ <em>The Force Awakens</em> and <em>The Last Jedi</em>, the number of fan theories surrounding Snoke’s identity only intensified, resulting in the popular “Your Snoke Theory Sucks” slogan and <a href="https://twitter.com/manraysky/status/755385620806115328?s=20&amp;t=-pokRn8fJVgWT3mOAAH5Xw" rel="nofollow" target="_blank">sticker</a>. Thus, Serkis couldn’t help but hesitate at first because he knew his presence on <em>Andor</em> would lead to new Snoke theories involving Kino. (He was right.)
+
+</p>
+
+<p class="paragraph larva // a-font-body-m">
+	“I thought it would cause complete uproar and more confusion for the audience, thinking that there would be some sort of connection between the Supreme Leader and Kino Loy. So that was my only [hang-up],” Serkis tells <em>The Hollywood Reporter</em>. “I thought, ‘Am I really going to go into this melee of uncertainty again?’ So once I got through the Snoke-theory quagmire, it didn’t take me long to commit.”</p>
+<p class="paragraph larva // a-font-body-m">
+	And commit he did. Serkis’ arc began with Kino as an unbreakable factory foreman, and it ended with him serving as the selfless point man who helped free Cassian Andor (Diego Luna) and the remaining inmates from the ocean-based prison Narkina 5. Despite Kino’s about-face, the episode ends in tragedy as he reveals to Cassian that he can’t swim, meaning he knowingly sacrificed his own life for the freedom of his fellow prisoners.
+
+</p>
+
+<p class="paragraph larva // a-font-body-m">
+	“That’s exactly why I wanted him to have been from a place of integrity prior to being in prison,” Serkis says. “In [episode ten], he finds that desire to act on behalf of others again, to serve others, to enable others to find their freedom, even though he knows ultimately it’s not going to happen for him. So it really was a wonderful arc.”</p>
+<p class="paragraph larva // a-font-body-m">
+	In a recent conversation with <em>THR</em>, Serkis also recalls his fondest memory of working with the late Chadwick Boseman on the set of Ryan Coogler’s <em>Black Panther</em>.</p>
+<p class="paragraph larva // a-font-body-m">
+<strong>So when I last spoke to you for </strong><strong><em>Venom: Let There Be a Carnage</em></strong><strong> a year ago, you were holding on to this secret, right?</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	That’s right. I would’ve been, yes. Absolutely. Whenever I enter the <em>Star Wars</em> universe, there’s lots of secrets involved. </p>
+<p class="paragraph larva // a-font-body-m">
+<strong>It’s not just </strong><strong><em>Star Wars</em></strong><strong>. You always seem to be juggling multiple top-secret projects.</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	(<em>Laughs</em>.)</p>
+<div class="post-content-image //">
+<figure class="o-figure size-large alignnone lrv-u-max-width-100p">
+
+<figcaption class="c-figcaption lrv-u-padding-tb-025">
+<span class="a-font-secondary-s lrv-u-margin-r-025">Andy Serkis as Supreme Leader Snoke in <em>The Last Jedi</em></span>
+</figcaption>
+</figure>
+</div>
+<p class="paragraph larva // a-font-body-m">
+<strong>When this offer came up, did your seven-and-a-half minutes of screen time in the </strong><strong><em>Star Wars </em></strong><strong>sequel trilogy as a CG character named Snoke cause you any hesitation?</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	Only that I thought it would cause complete uproar and more confusion for the audience, thinking that there would be some sort of connection between the Supreme Leader and Kino Loy. So that was my only [hang-up]. I thought, “Am I really going to go into this melee of uncertainty again?” but I was such a huge fan of <em>Rogue One</em>. I really truly thought that it was a great film. So Tony Gilroy and I met, and he explained what he wanted to do with this character, this world and this particular segment of the world. So, to play someone at the opposite end of the spectrum as the Supreme Leader and from a very human perspective, someone who’s coping with the Empire crushing his very soul, I just found that idea to be really exciting and really kind of intoxicating. So once I got through the Snoke-theory quagmire, it didn’t take me long to commit.
+
+</p>
+
+<p class="paragraph larva // a-font-body-m">
+<strong>[</strong><strong><em>Andor</em></strong><strong> director] </strong><a href="https://www.hollywoodreporter.com/tv/tv-features/andor-episode-8-toby-haynes-forest-whitaker-stellan-skarsgard-1235250954/"><strong>Toby Haynes</strong></a><strong> told me that you initially tried an accent in rehearsal. Did you make that choice to avoid even the slightest reminder of Snoke?</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	No, I actually tried an accent that was very similar to my father’s accent. My father was from Iraq, and he had a mild Middle Eastern accent. So it felt quite grounded and was working, but then we decided that it just might overcomplicate things. So, literally, on day one, we slightly backed away from it. It was really just exploration, I suppose.</p>
+<div class="post-content-image //">
+<figure class="o-figure size-large alignnone lrv-u-max-width-100p">
+
+<figcaption class="c-figcaption lrv-u-padding-tb-025">
+<span class="a-font-secondary-s lrv-u-margin-r-025">Diego Luna and Andy Serkis in <em>Andor</em></span>
+<cite class="a-font-accent-uppercase-xs lrv-u-color-grey-dark">Disney+</cite>
+</figcaption>
+</figure>
+</div>
+<p class="paragraph larva // a-font-body-m">
+<strong>When you performed the “never more than twelve” line, were you just as pumped up by it as the audience eventually was? </strong></p>
+<p class="paragraph larva // a-font-body-m">
+	Yeah, it’s the transitional moment for the character, and it was so beautifully written. It’s the arc of a man who’s become so desensitized and is only really looking after number one and just wants to get through his incarceration and his sentence. He believes there’s an opportunity to get back to … We sort of set up this back-history that he had a family, that he was a factory worker, a shop steward and a foreman in his life outside of prison, but he was very vocal about workers’ rights. And then he forgot all about that as soon as he was in prison and just became a tough shell of his former self. He just wanted to get through the day. And in that moment that you are talking about, the scales fall from his eyes, and he re-engages with his truth and finds himself again. </p>
+<p class="paragraph larva // a-font-body-m">
+<strong>The so-called crime that landed him in Narkina 5, was it tied to any of that potential backstory?</strong>
+</p>
+
+<p class="paragraph larva // a-font-body-m">
+	Yeah, in my mind, he was vocally standing up for workers’ rights and that was seen as being unpatriotic in some way, or that he was stepping out of line and being a troublemaker. </p>
+<p class="paragraph larva // a-font-body-m">
+<strong>“I can’t swim” is such a tragic moment, but it also recontextualizes the entire episode. He led these men to freedom even though he knew he wasn’t going to be able to swim out of this floating prison. That’s probably why he had trouble giving that rousing speech at first, too. Is that also how you saw it?</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	Yeah, absolutely. And that’s exactly why I wanted him to have been from a place of integrity prior to being in prison, and that the Empire — in all its cruelty and desensitization and its way of holding people down and divide and rule — has just knocked it out of him. But then in [episode 10], he finds that desire to act on behalf of others again, to serve others, to enable others to find their freedom, even though he knows ultimately it’s not going to happen for him. So it really was a wonderful arc. It was a wonderful journey that I was able to go on with all that.</p>
+<p class="paragraph larva // a-font-body-m">
+<strong>Do you presume that Kino was executed shortly thereafter?</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	That’s an interesting one. Who knows? (<em>Serkis smiles</em>.)</p>
+<p class="paragraph larva // a-font-body-m">
+<strong>So I’ve never asked a question quite like this before, but what’s it like to be on a set with a bunch of barefoot actors?</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	It’s very musty. (<em>Laughs</em>.) When you think about it, there’s a lot of scenes where we’re standing in these long tubes and waiting for hours and hours and hours. And boy, those tubes got smelly. They got really rank, and the doors were sealed at each end. So it was like walking into a big test tube, basically, not to mention the Covid of it all. It was an interesting time.
+
+</p>
+
+<div class="post-content-image //">
+<figure class="o-figure size-large alignnone lrv-u-max-width-100p">
+
+<figcaption class="c-figcaption lrv-u-padding-tb-025">
+<span class="a-font-secondary-s lrv-u-margin-r-025">Andy Serkis in <em>Andor</em></span>
+<cite class="a-font-accent-uppercase-xs lrv-u-color-grey-dark">Disney+</cite>
+</figcaption>
+</figure>
+</div>
+<p class="paragraph larva // a-font-body-m">
+<strong>People are so consumed with what they’re building, but does it even matter, ultimately?</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	It actually does matter what they’re building because it’s significant. For those who are really watching closely, the parts are quite significant. If you really examine those bits that are being formed and created by all of the men on the floors, you’ll discover that they hold huge import. </p>
+<p class="paragraph larva // a-font-body-m">
+<strong>Lastly, with </strong><strong><em>Black Panther: Wakanda Forever </em></strong><strong>on the verge of release, I’d love to hear about your most memorable day on the first one.</strong></p>
+<p class="paragraph larva // a-font-body-m">
+	Working with Chad [Boseman], God rest his soul, was incredible. The moment where T’Challa finally catches up with Klaue, it was a night shoot, and the fight that we have as he drags me out of the overturned car was quite an amazing moment. He was so keyed up to do this thing and we just went at it. So it was amazing to work with him. He was such a beautiful, spiritual, fantastic, powerful actor, and just to get to share those brief moments on screen with him was wonderful.</p>
+<p class="paragraph larva // a-font-body-m">
+	***<br>Andor <em>is now streaming on Disney+. This interview was edited for length and clarity</em>.</p>
+</div>
+</div></body></html>

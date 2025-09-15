@@ -1,0 +1,623 @@
+# Content from https://www.federalregister.gov/documents/2022/03/24/2022-06180/urban-area-criteria-for-the-2020-census-final-criteria
+
+*Retrieved: 2025-09-14T20:10:31.349334*
+
+---
+
+<html><body><div><div class="supplemental-info">
+<h1 id="h-6">SUPPLEMENTARY INFORMATION:</h1>
+<p data-page="16706" id="p-6">The Census Bureau's urban-rural classification is fundamentally a delineation of geographical areas, identifying individual urban areas as well as the rural portion of the nation. The Census Bureau's urban areas represent densely developed territory, and encompass residential, commercial, and other non-residential urban land uses. The boundaries of this urban footprint have been defined using measures based primarily on population counts and residential population density, and also on criteria that account for non-residential urban land uses, such as commercial, industrial, transportation, and open space that are part of the urban landscape. Since the 1950 Census, when the Census Bureau first defined densely settled urbanized areas of 50,000 or more people, the urban area delineation process has addressed non-residential urban land uses through criteria designed to account for commercial enclaves, special land uses such as airports, and densely developed noncontiguous territory.</p>
+<p data-page="16706" id="p-7">In developing criteria for delineating urban areas, the Census Bureau uses an objective approach that is designed to meet the needs of a broad range of analysts and users interested in the definition of and data for urban and rural communities for statistical purposes. The Census Bureau recognizes that some federal and state agencies use the Census Bureau's urban-rural classification for allocating program funds, setting program standards, and implementing aspects of their programs. The agencies that use the classification and data for such nonstatistical uses should be aware that the changes to the urban area criteria also might affect the implementation of their programs.</p>
+<p data-page="16706" id="p-8">While the Census Bureau is not responsible for the use of its urban-rural classification in nonstatistical programs, we will work with tribal, federal, state, or local agencies as well as stakeholders, as appropriate, to ensure understanding of our classification. Agencies using the classification for their programs must ensure that the classification is appropriate for their use.</p>
+<h2 id="h-7">I. Summary of Changes Made to the 2020 Census Urban Area Criteria</h2>
+<p data-page="16706" id="p-9">
+                    The following table compares the final 2020 Census urban area criteria with those that were proposed in the 
+                    <strong>Federal Register</strong>
+                     on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>).
+                    <span class="printed-page-inline unprinted-element document-markup" data-page="16707">
+
+(<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16707)
+    </span><span class="printed-page-details unprinted-element document-markup" data-page="16707" id="page-16707"><svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg></span>
+</p>
+<div class="table-wrapper"><table class="wide" data-point-width="300">
+<thead><tr>
+<th class="center border-top-single border-bottom-single border-right-single">Criteria</th>
+<th class="center border-top-single border-bottom-single border-right-single">Proposed 2020 criteria</th>
+<th class="center border-top-single border-bottom-single">Final 2020 criteria</th>
+</tr></thead>
+<tbody>
+<tr>
+<td class="left border-right-single">Identification of Initial Urban Area Cores</td>
+<td class="left border-right-single">Census block housing unit density of 385. Use of land cover data to identify territory with a high degree of imperviousness</td>
+<td class="left">Aggregation of census blocks with a housing unit density of 425. Use of land cover data to identify territory with a high degree of imperviousness.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Minimum Qualifying Threshold</td>
+<td class="left border-right-single">An area will qualify as urban if it contains at least 4,000 housing units or has a population of at least 10,000</td>
+<td class="left">An area will qualify as urban if it contains at least 2,000 housing units or has a population of at least 5,000.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Types of Urban Areas</td>
+<td class="left border-right-single">Urban areas will no longer be distinguished as either an “urbanized area” or an “urban cluster.” All qualifying areas will be designated “urban areas.”</td>
+<td class="left">Urban areas will no longer be distinguished as either an “urbanized area” or an “urban cluster.” All qualifying areas will be designated “urban areas.”</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Group Quarters</td>
+<td class="left border-right-single">Census blocks containing group quarters adjacent to already qualified blocks will be included</td>
+<td class="left">Census blocks containing group quarters and a population density of at least 500 adjacent to already qualified blocks will be included.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Noncontiguous Territory via Hops and Jumps</td>
+<td class="left border-right-single">Maximum hop distance 0.5 miles, maximum jump distance 1.5 miles, and no hops after jumps. Intervening, low density blocks are not included in the urban area</td>
+<td class="left">Maximum hop distance 0.5 miles, maximum jump distance 1.5 miles, and no hops after jumps. Intervening, low density blocks are not included in the urban area.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Noncontiguous Territory Separated by Exempted Territory</td>
+<td class="left border-right-single">Bodies of water and wetlands as identified in land cover data. The intervening, low density blocks of water or wetlands are not included in the urban area</td>
+<td class="left">Bodies of water and wetlands as identified in the land cover data. The intervening, low density blocks of water or wetlands are not included in the urban area.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Low-Density Fill</td>
+<td class="left border-right-single">N/A</td>
+<td class="left">Contiguous census blocks added to already qualifying territory with a housing unit density of 200.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Airports</td>
+<td class="left border-right-single">Currently functioning airport within a distance of 0.5 miles to the urban area that is a qualified cargo airport or has an annual enplanement of at least 2,500 passengers</td>
+<td class="left">Currently functioning airport within a distance of 0.5 miles to the urban area that is a qualified cargo airport or has an annual enplanement of at least 2,500 passengers.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Additional Nonresidential Urban Territory</td>
+<td class="left border-right-single">Inclusion of groups of census blocks with a high degree of imperviousness and that are within 0.25 miles of an urban area</td>
+<td class="left">Inclusion of groups of census blocks with a high degree of imperviousness and that are within 0.5 miles of an urban area, and have a total area of at least 0.15 square miles.
+                             Inclusion of groups of census blocks with at least 1,000 jobs (per Longitudinal Employer-Household Dynamics Origin-Destination Employment Statistics (LODES) data) and that are within 0.5 miles of an urban area.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Enclaves</td>
+<td class="left border-right-single">Additional census blocks added when surrounded solely by qualifying land territory or by both land that qualified for inclusion in the urban area and water</td>
+<td class="left">Additional census blocks added when surrounded solely by qualifying land territory or by both land that qualified for inclusion in the urban area and water.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Indentations</td>
+<td class="left border-right-single">N/A</td>
+<td class="left">3.5 square mile maximum area of the territory within the indentation to be added to the urban area.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Merging Block Aggregations</td>
+<td class="left border-right-single">N/A</td>
+<td class="left">Merge qualifying territory from separately defined 2020 Census urban areas that do not contain a high-density nucleus and are within 0.25 miles of a qualifying urban area.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Identification of Agglomerations</td>
+<td class="left border-right-single">N/A</td>
+<td class="left">Identify qualifying areas that contain a high-density nucleus with a housing unit density of 1,275 and at least 2,000 housing units or 5,000 persons.</td>
+</tr>
+<tr>
+<td class="left border-right-single">Splitting Large Agglomerations</td>
+<td class="left border-right-single">Potential splits and merges are identified using Longitudinal Employer-Household Dynamics worker flow data between 2010 Census urban area pairs. If necessary, split location is guided by commuter-based communities</td>
+<td class="left">Potential splits and merges are identified using Longitudinal Employer-Household Dynamics worker flow data between 2010 Census urban area pairs. If necessary, split location is guided by commuter-based communities.</td>
+</tr>
+<tr>
+<td class="left border-bottom-single border-right-single">Assigning Urban Area Titles</td>
+<td class="left border-bottom-single border-right-single">Clear, unambiguous title based on commonly recognized place names derived from incorporated places, census designated places, minor civil divisions, and the Geographic Names Information System</td>
+<td class="left border-bottom-single">Clear, unambiguous title based on commonly recognized names of places within the high-density nuclei, derived from incorporated places, census designated places, minor civil divisions, and the Geographic Names Information System.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="h-8">II. History</h2>
+<p data-page="16707" id="p-10">
+                    Over the course of a century defining urban areas, the Census Bureau has introduced conceptual and methodological changes to ensure that the urban-rural classification keeps pace with changes in settlement patterns and with changes in theoretical and practical approaches to interpreting and 
+                    <span class="printed-page-inline unprinted-element document-markup" data-page="16708">
+
+(<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16708)
+    </span><span class="printed-page-details unprinted-element document-markup" data-page="16708" id="page-16708"><svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg></span>
+                    understanding the definition of urban areas. Prior to the 1950 Census, the Census Bureau primarily defined “urban” as any population, housing, and territory located within incorporated places with a population of 2,500 or more. That definition was easy and straightforward to implement, requiring no need to calculate population density; to understand and account for actual settlement patterns on the ground in relation to boundaries of legal/administrative units; or to consider densely settled populations existing outside incorporated municipalities. For much of the first half of the twentieth century, that definition was adequate for defining “urban” and “rural” in the United States, but by 1950 it became clear that it was incomplete.
+                </p>
+<p data-page="16708" id="p-11">Increasing suburbanization, particularly outside the boundaries of large incorporated places led the Census Bureau to adopt the urbanized area concept for the 1950 Census. At that time, the Census Bureau formally recognized that densely settled communities outside the boundaries of incorporated municipalities were just as “urban” as the densely settled population inside those boundaries. Outside urbanized areas of 50,000 or more people, the Census Bureau continued to recognize urban places with at least 2,500 and less than 50,000 persons. This basic conceptual approach to identifying urban areas remained in effect through the 1990 Census, although with some changes to criteria and delineation methods.</p>
+<p data-page="16708" id="p-12">The Census Bureau adopted six substantial changes to its urban area criteria for the 2000 Census:</p>
+<ul class="bullets">
+<li data-page="16708" id="p-13">Defining urban clusters using the same criteria as urbanized areas.</li>
+<li data-page="16708" id="p-14">Disregarding incorporated place and census designated place (CDP) boundaries when defining urbanized areas and urban clusters.</li>
+<li data-page="16708" id="p-15">Adopting 500 persons per square mile (PPSM) as the minimum density criterion for recognizing some types of urban territory.</li>
+<li data-page="16708" id="p-16">Increasing the maximum jump distance for linking densely developed territory separated from the main body of the urban area by intervening low density territory from 1.5 to 2.5 miles. This recognized the prospect that larger clusters of non-residential urban uses might offset contiguity of densely settled territory.</li>
+<li data-page="16708" id="p-17">Introducing the hop concept to provide an objective basis for recognizing that nonresidential urban uses, such as small commercial areas or parks, create small gaps between densely settled residential territory, but are part of the pattern of urbanization.</li>
+<li data-page="16708" id="p-18">Adopting a zero-based approach to defining urban areas.</li>
+</ul>
+<p data-page="16708" id="p-19">For the 2010 Census, the Census Bureau adopted moderate changes and enhancements to the criteria to improve upon the classification of urban and rural areas while continuing to meet the objective of a uniform application of criteria nationwide. These changes were:</p>
+<ul class="bullets">
+<li data-page="16708" id="p-20">Use of census tracts as analysis units in the initial phase of delineation.</li>
+<li data-page="16708" id="p-21">Use of land use/land cover data from the National Land Cover Database (NLCD) to identify qualifying areas of non-residential urban land uses.</li>
+<li data-page="16708" id="p-22">Qualification of airports for inclusion in urban areas.</li>
+<li data-page="16708" id="p-23">Elimination of the designation of central places within urban areas.<sup>[] </sup>
+</li>
+</ul>
+<ul class="bullets">
+<li data-page="16708" id="p-25">Requirement for minimum population residing outside institutional group quarters.</li>
+<li data-page="16708" id="p-26">Splitting large urban agglomerations.</li>
+</ul>
+<p data-page="16708" id="p-27">
+                    The conceptual and criteria changes adopted for both the 2000 and 2010 Censuses, as well as the history of the Census Bureau's urban and rural classification, are discussed in more detail in the document “A Century of Delineating a Changing Landscape: The Census Bureau's Urban and Rural Classification, 1910 to 2010,” available at 
+                    <em><a class="external" href="https://www2.census.gov/geo/pdfs/reference/ua/Century_of_Defining_Urban.pdf" rel="noopener noreferrer" target="_blank">https://www2.census.gov/​geo/​pdfs/​reference/​ua/​Century_​of_​Defining_​Urban.pdf</a>.</em></p>
+<h2 id="h-9">III. Summary of Comments Received in Response to Proposed Criteria</h2>
+<p data-page="16708" id="p-28">
+                    The notice published in the 
+                    <strong>Federal Register</strong>
+                     on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>) requested comments on proposed criteria for delineating the 2020 Census urban areas. The Census Bureau received 106 responses directly related to the proposed Urban Area Criteria. Responses were received from regional planning and nongovernmental organizations, municipal and county officials, Members of Congress, state governments, federal agencies, and individuals. The criteria in Section V of this document reflect changes made in response to the comments and suggestions received on the proposed criteria for delineating the 2020 Census urban areas.
+                </p>
+<h3 id="h-10">Comments Expressing General Support or Opposition</h3>
+<p data-page="16708" id="p-29">The Census Bureau received ten comments that expressed general support or general opposition to the proposed criteria without specifying any particular aspect of the criteria. Five commenters expressed general opposition; five commenters offered general support.</p>
+<h3 id="h-11">Comments Pertaining To Increasing the Minimum Threshold To Qualify</h3>
+<p data-page="16708" id="p-30">The Census Bureau received twenty-nine comments regarding the proposal to increase the minimum threshold to qualify as urban to 10,000 persons or 4,000 housing units. Twenty-seven commenters expressed concern about the increase, citing loss of statistical continuity for small communities. Two commenters supported increasing the minimum threshold.</p>
+<h3 id="h-12">Comments Pertaining to Proposed Exclusion of Hop/Jump Corridors From Urban Areas</h3>
+<p data-page="16708" id="p-31">The Census Bureau received nineteen comments regarding the proposal to exclude hop/jump corridors from an urban area. Seventeen commenters expressed concern, citing issues related to the complex, multipiece urban areas that would result. Two commenters supported excluding the hop/jump corridors.</p>
+<h3 id="h-13">Comments Pertaining to Proposed Criteria To Cease Distinguishing Types of Urban Areas</h3>
+<p data-page="16708" id="p-32">The Census Bureau received sixteen comments regarding the proposal to cease distinguishing types of urban areas. Thirteen commenters expressed concern about the loss of distinction between Urban Clusters and Urbanized Areas (though this is only a change in terminology—it still will be possible to distinguish between different sizes of urban areas based on population). Three commenters supported the proposal to cease distinguishing types of urban areas.</p>
+<h3 id="h-14">Comments Pertaining to Housing Unit Density</h3>
+<p data-page="16708" id="p-33">The Census Bureau received fifty-five comments regarding the proposed criteria to utilize housing unit density.</p>
+<p data-page="16708" id="p-34">Twenty-six commenters expressed concern about using housing unit density instead of population density. Eight commenters supported using housing unit density.</p>
+<p data-page="16708" id="p-35">
+                    Twenty commenters expressed concern that the minimum housing unit density threshold of 385 housing units per square mile (HPSM) was too high. One commenter supported the 
+                    <span class="printed-page-inline unprinted-element document-markup" data-page="16709">
+
+(<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16709)
+    </span><span class="printed-page-details unprinted-element document-markup" data-page="16709" id="page-16709"><svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg></span>
+                    minimum housing unit density of 385 HPSM.
+                </p>
+<h3 id="h-15">Comments Pertaining to Proposed Criteria for Splitting Large Urban Agglomerations</h3>
+<p data-page="16709" id="p-36">The Census Bureau received five comments regarding the proposed criteria for splitting large urban area agglomerations or the use of the Longitudinal Employer-Household Dynamics (LEHD) data. Three commenters supported the proposed criteria; two commenters expressed concern.</p>
+<h3 id="h-16">Comments Pertaining to Proposed Jump Criteria</h3>
+<p data-page="16709" id="p-37">The Census Bureau received forty-seven comments regarding the proposed jump criteria designed to include noncontiguous, but qualifying territory within an urban area. Of these, six commenters supported lowering the maximum jump distance threshold from 2.5 to 1.5 miles. Forty-one commenters favored no change to the 2.5-mile maximum jump distance threshold. Reasons for retention of the 2.5-mile maximum jump distance provided by these commenters included retaining consistency with the 2010 Census urban area delineation, the ability to account for future urbanization and extended suburbanization, and mitigation of the presence of undevelopable land not identified by the Census Bureau.</p>
+<h3 id="h-17">Comments Pertaining to Proposed Use of Census Blocks as Building Blocks</h3>
+<p data-page="16709" id="p-38">The Census Bureau received seven comments regarding the proposed use of the census block as the analysis unit (or geographic building block) during the delineation of the initial urban area core. These commenters expressed concern that the use of census blocks instead of census tracts would lead to the shrinking of the population and geographic area of urban areas.</p>
+<h3 id="h-18">Comments Pertaining to Proposed Criteria for Indentations</h3>
+<p data-page="16709" id="p-39">The Census Bureau received ten comments regarding proposed criteria to no longer include low-density territory located within indentations formed during the Urban Area Delineation Process. These commenters opposed the proposed criteria, citing the jagged nature of the urban area boundaries without the smoothing that occurs by including indentations.</p>
+<h3 id="h-19">Comments Pertaining to Proposed Criteria To Qualify Territory Containing a High Degree of Impervious Surface</h3>
+<p data-page="16709" id="p-40">The Census Bureau received nine comments regarding the proposed use of the National Land Cover Database (NLCD) to assist in identifying and qualifying as urban, sparsely populated urban-related territory associated with a high degree of impervious surface. These commenters expressed concern about the vintage of the data.</p>
+<h3 id="h-20">Comments Pertaining to Nonstatistical Uses of Urban Areas</h3>
+<p data-page="16709" id="p-41">Additional comments expressed concern that the Census Bureau does not acknowledge or consider any nonstatistical uses of urban areas when developing delineation criteria. These commenters also suggested delaying the delineation of urban areas until provisions are adopted that would prevent adverse impacts on programs and funding formulas relating to urban areas as currently defined.</p>
+<p data-page="16709" id="p-42">In response to the comments received regarding the nonstatistical uses of Census urban areas, the Census Bureau recognizes that some federal and state agencies use the Census Bureau's urban-rural classification for allocating program funds, setting program standards, and implementing aspects of their programs. The Census Bureau remains committed to an objective, equitable, and consistent nationwide urban area delineation, and thus identifies these areas for the purpose of tabulating and presenting statistical data. This provides data users, analysts, and agencies with a baseline set of areas from which to work, as appropriate. Given the many programmatic and often conflicting or competing uses for Census Bureau-defined urban areas, the Census Bureau cannot attempt to take each such use into account or assess the relative value of any particular use. The Census Bureau is committed to working with stakeholders, as appropriate, to promote understanding of our classification.</p>
+<h3 id="h-21">Comments Pertaining to Retention of the 2010 Urban Area Criteria</h3>
+<p data-page="16709" id="p-43">Three commenters specifically requested that territory defined as urban in the 2010 Census continue to be defined as urban for the 2020 Census. Six commenters requested that the 2010 criteria be used to define urban areas for the 2020 Census.</p>
+<h3 id="h-22">Comments Pertaining to Local Input of Urban Area Boundaries</h3>
+<p data-page="16709" id="p-44">Eight commenters expressed concern that there are no provisions in the delineation criteria for local input and requested the opportunity to review and comment on the definition of individual urban areas before boundaries become final.</p>
+<h3 id="h-23">Comments Pertaining to Census Block Boundaries</h3>
+<p data-page="16709" id="p-45">The Census Bureau received ten comments regarding the block boundaries on the edges of urban development. Commenters expressed concern that these blocks are often a mix of urban and rural characteristics and are often large in scale, potentially leading to their exclusion from an urban area.</p>
+<h3 id="h-24">Comments Pertaining to the Delineation Process</h3>
+<p data-page="16709" id="p-46">Commenters also expressed concern about the automated and inflexible nature of the delineation process and suggested that the extent of each urban area should be evaluated individually. The Census Bureau also received comments expressing concern that the proposed delineation criteria do not consider local zoning laws, topography, and municipal boundaries.</p>
+<p data-page="16709" id="p-47">The Census Bureau's urban area criteria for the 2020 Census consists of a single set of rules that allow for application of automated processes based on the input of standardized nationwide datasets that yield consistent results. Rather than defining areas through a process of accretion over time, the criteria also provide a better reflection of the distribution of population, housing, and other uses and how they reflect the current state of urbanization.</p>
+<h3 id="h-25">Comments Pertaining to the Urban Area Program Timeline</h3>
+<p data-page="16709" id="p-48">
+                    The Census Bureau received twenty-six requests for the extension of the public comment period on the proposed urban area delineation criteria to further assess its potential impacts. Additional comments expressed difficulty in predicting results of changes to criteria as published in the 
+                    <strong>Federal Register</strong>
+                     on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>) and requested clarification of the proposed urban area delineation criteria.
+                </p>
+<p data-page="16709" id="p-49">
+                    The delineation and production of urban areas and their associated data are scheduled to begin after the release of the Decennial Census block-level population and housing counts to ensure sufficient time to delineate and review the urban area definitions and prepare geographic information files in time for tabulation and inclusion in statistical data products from both the 2020 Census and the American Community Survey (ACS). Adherence to this schedule prevented any attempts toward a test delineation using all the proposed 2020 urban area criteria for the entire United States, Puerto Rico, and the Island Areas, thus prohibiting 
+                    <span class="printed-page-inline unprinted-element document-markup" data-page="16710">
+
+(<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16710)
+    </span><span class="printed-page-details unprinted-element document-markup" data-page="16710" id="page-16710"><svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg></span>
+                    the availability of nation-wide, real-world examples without showing preference to any particular location. Further, this schedule also dictated that the development of the delineation software coincided with the development of the proposed and the final criteria.
+                </p>
+<h2 id="h-26">IV. Changes to the Proposed Urban Area Criteria for the 2020 Census</h2>
+<p data-page="16710" id="p-50">
+                    This section of the notice provides information about the Census Bureau's decisions on changes that were incorporated into the Urban Area Criteria for the 2020 Census in response to the many comments received. These decisions benefited greatly from public participation as the Census Bureau took into account the comments received in response to the proposed criteria published in the 
+                    <strong>Federal Register</strong>
+                     on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>), as well as comments received during webinars, conference presentations, consultations with professional geographers and other social scientists who work with and define urban and rural concepts and classifications, meetings with federal, state, and local officials and other users of data for urban areas, and additional research and investigation conducted by Census Bureau staff.
+                </p>
+<p data-page="16710" id="p-51">
+                    The changes made to the proposed criteria in Section III of the published in the 
+                    <strong>Federal Register</strong>
+                     on February 19, 2021, “Urban Areas for the 2020 Census-Proposed Criteria” (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>), are as follows:
+                </p>
+<p data-page="16710" id="p-52">1. In Section III, subsection A, the Census Bureau modifies the minimum criteria for an area to qualify as an urban area. The territory must encompass at least 2,000 housing units or at least 5,000 persons, decreased from 4,000 housing units or 10,000 persons as proposed.</p>
+<p data-page="16710" id="p-53">2. In Section III, subsection B, the Census Bureau modifies the criteria to utilize multiple housing unit densities: 1,275 housing units per square mile (HPSM), 425 HPSM, and 200 HPSM. In response to comments stating that 385 HPSM was too high for a minimum threshold, and further testing of the impacts of complex multipiece urban areas, the Census Bureau adjusts the delineation criteria to include multiple housing unit density thresholds at different stages of the process. The addition of a high-density threshold of 1,275 HPSM ensures each urban area contains a core. Including a low density fill of 200 HPSM will reduce the number of individual pieces of an urban area while accommodating for the irregular nature of census block size that affects the density calculations.</p>
+<p data-page="16710" id="p-54">3. In Section III, subsection B.1, the Census Bureau modifies the criteria to utilize a housing unit density of 425 instead of 385 HPSM.</p>
+<p data-page="16710" id="p-55">4. In Section III, subsection B.1, the Census Bureau clarifies the criteria regarding which areas are considered “Initial Urban Core.” An Initial Urban Core must contain at least 500 housing units.</p>
+<p data-page="16710" id="p-56">5. In Section III, subsection B.2, the Census Bureau removes the section related to the “Inclusion of Group Quarters.” Blocks containing group quarters can qualify in multiple steps of the criteria.</p>
+<p data-page="16710" id="p-57">6. In Section III, subsection B.3, the Census Bureau removes all references to “385 housing units or more.”</p>
+<p data-page="16710" id="p-58">7. In Section III, subsection B.3, the Census Bureau removes the reference to “all urban area cores that have a housing unit count of 577 or more.”</p>
+<p data-page="16710" id="p-59">8. In Section III, subsection B.4, the Census Bureau clarifies references to the land cover data used in determining exempted territory. The Census Bureau will use the most current land cover data from the National Land Cover Database (NLCD) or Coastal Change Analysis Program (C-CAP) High Resolution Land Cover for any given area to better represent land use/land cover conditions at the time of the delineation.</p>
+<p data-page="16710" id="p-60">9. In Section III, subsection B.5, the Census Bureau clarifies when the enclave criteria are applied. Enclaves will be added after development of the Initial Urban Cores and again after the addition of nonresidential territory. This process recognizes that some census blocks that are internal and integral to an urban area may have few or no housing units and little impervious surface, such as census blocks containing urban parkland.</p>
+<p data-page="16710" id="p-61">10. In Section III, subsection B.6, the Census Bureau removes the criteria for the “Inclusion of Airports” and includes it within subsection B.7, “Additional Nonresidential Urban Territory.”</p>
+<p data-page="16710" id="p-62">11. In Section III, subsection B.7, the Census Bureau adds criteria to include additional nonresidential census blocks that contain at least 1,000 commuter destinations (in a three-year average) and are within 0.5 miles of already qualifying territory.</p>
+<p data-page="16710" id="p-63">12. In Section III, subsection B.8, the Census Bureau clarifies and simplified the criteria for splitting large agglomerations.</p>
+<p data-page="16710" id="p-64">13. In Section III, subsection B.9, the Census Bureau modifies the criteria to include the most populous place name of the high-density nucleus.</p>
+<p data-page="16710" id="p-65">14. In Section III, subsection B.9, the Census Bureau modifies the criteria for secondary names to utilize housing unit counts rather than population counts.</p>
+<p data-page="16710" id="p-66">
+                    The sections of the proposed criteria referenced above do not appear in the same order in Section V of this final notice due to the reorganization of existing criteria sections and the addition of new criteria sections. The following table provides a crosswalk of the criteria sections that were proposed in the 
+                    <strong>Federal Register</strong>
+                     on February 19, 2021 (<a class="fr-reference" data-reference="86 FR 10237" href="/citation/86-FR-10237">86 FR 10237</a>) to the criteria sections of the final criteria in this notice.
+                </p>
+<div class="table-wrapper"><table class="" data-point-width="220">
+<thead><tr>
+<th class="center border-top-single border-bottom-single border-right-single">Section name</th>
+<th class="center border-top-single border-bottom-single border-right-single">Proposed 2020 criteria</th>
+<th class="center border-top-single border-bottom-single">Final 2020 
+                             criteria</th>
+</tr></thead>
+<tbody>
+<tr>
+<td class="left border-right-single">Identification of Initial Urban Area Cores</td>
+<td class="left border-right-single">Section III, B.1</td>
+<td class="left">Section V, B.1</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Group Quarters</td>
+<td class="left border-right-single">Section III, B.2</td>
+<td class="left">Section V, B.1</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Noncontiguous Territory via Hops and Jumps</td>
+<td class="left border-right-single">Section III, B.3</td>
+<td class="left">Section V, B.2</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Noncontiguous Territory Separated by Exempted Territory</td>
+<td class="left border-right-single">Section III, B.4</td>
+<td class="left">Section V, B.3</td>
+</tr>
+<tr>
+<td class="left border-right-single">Low-Density Fill</td>
+<td class="left border-right-single">N/A</td>
+<td class="left">Section V, B.4</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Airports</td>
+<td class="left border-right-single">Section III, B.6</td>
+<td class="left">Section V, B.5</td>
+</tr>
+<tr>
+<td class="left border-right-single">Additional Nonresidential Urban Territory</td>
+<td class="left border-right-single">Section III, B.7</td>
+<td class="left">Section V, B.5</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Enclaves</td>
+<td class="left border-right-single">Section III, B.5</td>
+<td class="left">Section V, B.6</td>
+</tr>
+<tr>
+<td class="left border-right-single">Inclusion of Indentations</td>
+<td class="left border-right-single">N/A</td>
+<td class="left">Section V, B.7</td>
+</tr>
+<tr>
+<td class="left border-right-single">Merging of Eligible Block Aggregations</td>
+<td class="left border-right-single">N/A</td>
+<td class="left">Section V, B.8</td>
+</tr>
+<tr>
+<td class="left border-right-single">Identification of Urban Area Agglomerations</td>
+<td class="left border-right-single">N/A</td>
+<td class="left">Section V, B.9</td>
+</tr>
+<tr>
+<td class="left border-right-single">Splitting Large Agglomerations</td>
+<td class="left border-right-single">Section III, B.8</td>
+<td class="left">Section V, B.10</td>
+</tr>
+<tr>
+<td class="left border-bottom-single border-right-single">Assigning Urban Area Titles</td>
+<td class="left border-bottom-single border-right-single">Section III, B.9</td>
+<td class="left border-bottom-single">Section V, B.11</td>
+</tr>
+</tbody>
+</table></div>
+<span class="printed-page-inline unprinted-element document-markup" data-page="16711">
+
+(<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16711)
+    </span><span class="printed-page-details unprinted-element document-markup" data-page="16711" id="page-16711"><svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg></span>
+<h2 id="h-27">V. Urban Area Criteria for the 2020 Census</h2>
+<p data-page="16711" id="p-67">
+                    The criteria outlined herein apply to the United States,<sup>[] </sup>
+                    
+                     Puerto Rico, and the Island Areas of American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the U.S. Virgin Islands. The Census Bureau will utilize the following criteria and characteristics to identify the areas that will qualify for designation as urban areas for use in tabulating data from the 2020 Census, the American Community Survey (ACS), the Puerto Rico Community Survey, and potentially other Census Bureau censuses and surveys.
+                </p>
+<h3 id="h-28">A. 2020 Census Urban Area Definitions</h3>
+<p data-page="16711" id="p-69">
+                    For the 2020 Census, an urban area will comprise a densely developed core of census blocks <sup>[] </sup>
+                    
+                     that meet minimum housing unit density requirements, along with adjacent territory containing non-residential urban land uses as well as other lower density territory included to link outlying densely settled territory with the densely settled core. To qualify as an urban area, the territory identified according to the criteria must encompass at least 2,000 housing units or at least 5,000 persons. The term “rural” encompasses all population, housing, and territory not included within an urban area.
+                </p>
+<p data-page="16711" id="p-71">1. As a result of the urban area delineation process, an incorporated place or census designated place (CDP) may be partly inside and partly outside an urban area. Further, any census geographic areas, with the exception of census blocks, may be partly within and partly outside an urban area.</p>
+<p data-page="16711" id="p-72">2. All criteria based on land area, housing unit density, and population, reflect the information contained in the Census Bureau's Master Address File/Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB) at the time of the delineation. All density calculations include only land; the areas of water contained within census blocks are not used in density calculations. Housing unit, population, and worker flow data used in the urban area delineation process will be those published by the Census Bureau for all public and official uses.</p>
+<p data-page="16711" id="p-73">3. The Census Bureau will utilize multiple data sources in the 2020 Urban Area delineation. Worker-flows are calculated from the Longitudinal Employer-Household Dynamics Origin-Destination Employment Statistics (LODES) data. Level of imperviousness is calculated from either the National Land Cover Database (NLCD) or Coastal Change Analysis Program (C-CAP) High Resolution Land Cover. The Census Bureau will utilize the most recent data available from either data source for any given area.</p>
+<h3 id="h-29">B. Urban Area Delineation Criteria</h3>
+<p data-page="16711" id="p-74">The Census Bureau defines urban areas primarily based on housing unit density measured at the census block-level of geography. Three housing unit densities are used in the delineation—425 housing units per square mile (HPSM) to identify the initial core of urban block agglomerations and the cores of noncontiguous peripheral urban territory; 200 HPSM to expand the urban block agglomerations into less dense, but structurally connected portions of urban areas; and 1,275 HPSM to identify the presence of higher-density territory representing the urban nucleus.</p>
+<h4 id="h-30">1. Identification of Initial Urban Core</h4>
+<p data-page="16711" id="p-75">The Census Bureau will begin the delineation process by identifying and aggregating contiguous census blocks to form Eligible Block Aggregations (EBAs) based on the following criteria:</p>
+<p data-page="16711" id="p-76">(a) The census block has a density of at least 425 HPSM; or</p>
+<p data-page="16711" id="p-77">
+                    (b) At least one-third of the census block consists of territory with an impervious level of at least 20 percent,<sup>[] </sup>
+                    
+                     and the census block is compact in nature as defined by a shape index. A census block is considered compact when the shape index is at least 0.185 using the following formula: I = 4πA/P<sup>2</sup>
+                     where I is the shape index, A is the area of the entity, and P is the perimeter of the entity; or
+                </p>
+<p data-page="16711" id="p-79">(c) At least one-third of the census block consists of territory with an impervious level of at least 20 percent and at least 40 percent of its boundary is contiguous with qualifying territory; or</p>
+<p data-page="16711" id="p-80">(d) The census block contains a group quarter and has a block-level density of at least 500 persons per square mile (PPSM).</p>
+<p data-page="16711" id="p-81">The Census Bureau will apply criteria Steps B.1.a, B.1.b, B.1.c, and B.1.d above until there are no additional blocks to add to the EBA. If an EBA contains at least 500 housing units, it will be considered an Initial Urban Core, to which other qualifying areas may be added in subsequent steps of the criteria. Any “holes” (remaining nonqualifying territory surrounded by an Initial Urban Core) that are less than five square miles in area will qualify as urban via the criteria for inclusion of enclaves, as set forth below in Step B.6.a.</p>
+<h4 id="h-31">2. Inclusion of Noncontiguous Territory via Hops and Jumps</h4>
+<p data-page="16711" id="p-82">Any EBA created in Step B.1 that contains at least ten housing units or a group quarter in a block with at least 500 PPSM may be added to an Initial Urban Core via a hop or a jump.</p>
+<p data-page="16711" id="p-83">Hops connect EBAs separated by no more than 0.5 miles of road connections. Multiple hops can occur along road connections between EBAs leading to an Initial Urban Core. After all hop connections are made, EBAs that contain one or more Initial Cores will be considered Core EBAs.</p>
+<p data-page="16711" id="p-84">The Census Bureau will then add additional EBAs via jump connections. Jumps are used to connect densely settled noncontiguous territory separated from the Core EBA by territory with low housing unit density. A jump can occur along a road connection that is greater than 0.5 miles but no more than 1.5 miles. Because it is possible that any given densely developed area could qualify for inclusion in multiple Core EBAs via a jump connection, the identification of jumps in an automated process starts with the Core EBA that has the highest number of housing units and continues in descending order based on the total housing units of each Core EBA. Once a Core EBA is added to another Core EBA via a jump, it becomes ineligible for any other jumps.</p>
+<p data-page="16711" id="p-85">The non-qualifying blocks along the road connection are not included in the delineation; therefore, Core EBAs that contain hop or jump connections will be noncontiguous aggregations.</p>
+<p data-page="16711" id="p-86">Those remaining EBAs that did not have an Initial Urban Core but contain the following will remain as candidates for inclusion in subsequent steps:</p>
+<ul class="bullets">
+<li data-page="16711" id="p-87">At least ten housing units, or</li>
+<li data-page="16711" id="p-88">A group quarter and a block-level density of at least 500 PPSM.</li>
+</ul>
+<h4 id="h-32">3. Inclusion of Noncontiguous Territory Separated by Exempted Territory</h4>
+<p data-page="16711" id="p-89">
+                    The Census Bureau will identify and exempt territory in which residential development is substantially constrained or not possible due to either 
+                    <span class="printed-page-inline unprinted-element document-markup" data-page="16712">
+
+(<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16712)
+    </span><span class="printed-page-details unprinted-element document-markup" data-page="16712" id="page-16712"><svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg></span>
+                    topographical or land use conditions. Such exempted territory offsets urban development due to particular land use, land cover, or topographic conditions. For the 2020 Census, the Census Bureau considers the following to be exempted territory:
+                </p>
+<p data-page="16712" id="p-90">(a) Bodies of water (as defined by the Census Bureau, or classified as water in the land cover data); and</p>
+<p data-page="16712" id="p-91">(b) Wetlands (belonging to any wetlands classifications in the land cover data).</p>
+<p data-page="16712" id="p-92">When the hop and jump criteria in Step B.2 are applied, the qualifying hop or jump connections may be extended when the intervening non-qualifying blocks contain exempted territory, provided that:</p>
+<p data-page="16712" id="p-93">(c) The road connection across the exempted territory (located on both sides of the road) is no greater than five miles in length; and</p>
+<p data-page="16712" id="p-94">(d) The total length of the road connection between the Core EBA and the noncontiguous territory, including the exempt distance and non-exempt hop or jump distances, is also no greater than five miles.</p>
+<p data-page="16712" id="p-95">The intervening low housing unit density block or blocks and the block or blocks of water or wetlands are not included in the Core EBA.</p>
+<h4 id="h-33">4. Low-Density Fill</h4>
+<p data-page="16712" id="p-96">The Census Bureau will add contiguous territory to the Core EBAs where blocks have a density of at least 200 HPSM. After the low-density fill is added, any EBA with fewer than 50 total housing units will be removed from the Core EBA with which it is associated.</p>
+<h4 id="h-34">5. Additional Nonresidential Urban Territory (Including Airports)</h4>
+<p data-page="16712" id="p-97">The Census Bureau will identify additional nonresidential urban territory that is noncontiguous, yet near the Core EBA. The Census Bureau will consider for inclusion all census blocks that:</p>
+<p data-page="16712" id="p-98">(a) Qualify as urban via the impervious surface criteria set forth in Steps B.1.b or B.1.c; and</p>
+<p data-page="16712" id="p-99">
+                    (b) Have a total area of at least 0.15 square miles; <sup>[] </sup>
+                    
+                     and
+                </p>
+<p data-page="16712" id="p-101">(c) Are within 0.5 miles of a Core EBA.</p>
+<p data-page="16712" id="p-102">The Census Bureau will also include all census blocks that:</p>
+<p data-page="16712" id="p-103">
+                    (d) Contain a three-year average of at least 1,000 commuter destinations; <sup>[] </sup>
+                    
+                     and
+                </p>
+<p data-page="16712" id="p-105">(e) Are within 0.5 miles of a Core EBA.</p>
+<p data-page="16712" id="p-106">
+                    A final review of these census blocks and surrounding territory <sup>[] </sup>
+                    
+                     will determine whether to include them in an EBA.
+                </p>
+<p data-page="16712" id="p-108">
+                    The Census Bureau will then add census blocks that approximate the territory of airports, provided at least one of the blocks that represent the airport is within 0.5 miles of the edge of a Core EBA. An airport qualifies for inclusion if it is currently functional and one of the following (per the Federal Aviation Administration (FAA) Air Carrier Activity Information System.<sup>[] </sup>
+                    
+                    ):
+                </p>
+<p data-page="16712" id="p-110">(a) Is a qualified cargo airport; or</p>
+<p data-page="16712" id="p-111">(b) Has an annual passenger enplanement of at least 2,500 in any year between 2011 and 2019.</p>
+<h4 id="h-35">6. Inclusion of Enclaves</h4>
+<p data-page="16712" id="p-112">The Census Bureau will add enclaves (nonqualifying area completely surrounded by area already qualified for inclusion) within an EBA or Core EBA, provided:</p>
+<p data-page="16712" id="p-113">(a) The area of the enclave is less than five square miles, or</p>
+<p data-page="16712" id="p-114">(b) All area of the enclave is more than a straight-line distance of 1.5 miles from a land block that is not part of the already qualified area.</p>
+<p data-page="16712" id="p-115">Additional enclaves will be identified and included within the EBA or Core EBA if:</p>
+<p data-page="16712" id="p-116">(c) The area of the enclave is less than 5 square miles; and</p>
+<p data-page="16712" id="p-117">(d) The enclave is surrounded by both water and land that qualified for inclusion in the EBA or Core EBA; and</p>
+<p data-page="16712" id="p-118">(e) The length of the line of adjacency with the water is less than the length of the line of adjacency with the land.</p>
+<h4 id="h-36">7. Inclusion of Indentations</h4>
+<p data-page="16712" id="p-119">The Census Bureau will evaluate and include territory that forms an indentation within an urban area.</p>
+<p data-page="16712" id="p-120">To determine whether an indentation should be included in the urban area, the Census Bureau will identify a closure line, defined as a straight line no more than one mile in length, that extends from one point along the edge of the urban area across the mouth of the indentation to another point along the edge of the urban area.</p>
+<p data-page="16712" id="p-121">A census block located wholly or partially within an indentation will be considered for inclusion in the urban area, if the Census Bureau-defined internal point of the block is inside the closure line. The total aggregated area of these qualifying indentation blocks is compared to the area of a circle, the diameter of which is the length of the closure qualification line. The qualifying indentation block will be included in the urban area if it is at least four times the area of the circle and less than 3.5 square miles.</p>
+<p data-page="16712" id="p-122">If the aggregated area of the qualifying indentation blocks does not meet the criteria listed above, the Census Bureau will define successive closure lines within the indentation, starting at its mouth and working inward toward the base of the indentation, until the criteria for inclusion are met or it is determined that no portion of the indentation will qualify for inclusion.</p>
+<h4 id="h-37">8. Merging of Eligible Block Aggregations</h4>
+<p data-page="16712" id="p-123">After all criteria have been exhausted and the Core EBAs have been extended to their maximum size, Core EBAs will be merged where the following criteria are met:</p>
+<p data-page="16712" id="p-124">(a) The boundaries of two Core EBAs are within 0.25 miles of each other; and</p>
+<p data-page="16712" id="p-125">(b) Both Core EBAs have at least 1,000 housing units or 2,500 persons; and</p>
+<p data-page="16712" id="p-126">
+                    (c) The three-year mean worker-flow <sup>[] </sup>
+                    
+                     between the two Core EBAs is at least 50 percent in at least one direction.
+                </p>
+<h4 id="h-38">9. Identification of Urban Area Agglomerations (UAA)</h4>
+<p data-page="16712" id="p-128">After all qualifying EBA merges are completed, Core EBAs will be evaluated for high-density nuclei. A high-density nucleus is defined as a collection of blocks, with at least 500 housing units, where each census block has:</p>
+<p data-page="16712" id="p-129">(a) A density of at least 1,275 HPSM; or</p>
+<p data-page="16712" id="p-130">
+                    (b) At least one-third of the census block consists of territory with an impervious level of at least 20 percent,<sup>4</sup>
+                     and the census block is compact in nature as defined by a shape index. A census block is considered compact when the shape index is at least 0.185 using the following formula: I = 4πA/P<sup>2</sup>
+                     where I is the shape index, A is the area of the entity, and P is the perimeter of the entity; or
+                </p>
+<p data-page="16712" id="p-131">
+                    (c) At least one-third of the census block consists of territory an impervious level of at least 20 percent and at least 40 percent of its boundary is contiguous with qualifying territory.
+                    <span class="printed-page-inline unprinted-element document-markup" data-page="16713">
+
+(<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16713)
+    </span><span class="printed-page-details unprinted-element document-markup" data-page="16713" id="page-16713"><svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg></span>
+</p>
+<p data-page="16713" id="p-132">Core EBAs will be considered Urban Area Agglomerations if they contain:</p>
+<p data-page="16713" id="p-133">(a) At least one high-density nucleus with at least 500 housing units in blocks with a density of at least 1,275 HPSM; and</p>
+<p data-page="16713" id="p-134">(b) At least 2,000 housing units or 5,000 persons.</p>
+<p data-page="16713" id="p-135">All other remaining EBAs are removed from qualification.</p>
+<h4 id="h-39">10. Splitting Large Agglomerations</h4>
+<p data-page="16713" id="p-136">Population growth and development, coupled with the automated urban area delineation methodology used for the 2020 Census, results in large Urban Area Agglomerations (UAAs) that encompass territory defined as separate urban areas for the 2010 Census. If such results occur, or if multiple Core EBAs were connected in Step B.6 (Low-Density Fill), the Census Bureau will apply split criteria. Due to differences in the availability of data, Steps B.10.a and B.10.b will apply only to the United States. Step B.10.c will apply to Puerto Rico and the Island Areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the U.S. Virgin Islands).</p>
+<p data-page="16713" id="p-137">(a) Eligible UAAs.</p>
+<p data-page="16713" id="p-138">UAAs will be evaluated for splitting where the UAA:</p>
+<p data-page="16713" id="p-139">1. Encompasses territory defined as separate urban areas for the 2010 Census and those intersecting areas contain:</p>
+<p data-page="16713" id="p-140">a. At least 50 percent of the population of each of two or more urban areas for the 2010 Census.</p>
+<p data-page="16713" id="p-141">2. Encompasses territory where two or more Core EBAs were connected in Step B.6 (Low-Density Fill):</p>
+<p data-page="16713" id="p-142">a. Each of the Core EBAs, prior to Step B.6, meets the high-density nucleus qualification criteria outlined in Step 9; and</p>
+<p data-page="16713" id="p-143">b. Each of the Core EBAs, prior to Step B.6, has a mean internal worker-flow of at least 25 percent.</p>
+<p data-page="16713" id="p-144">UAAs that meet the criteria above (Steps B.10.a.1 or B.10.a.2) will progress to the Split Boundary Assignment (Step B.10.b). The remaining UAAs will continue as a single urban area.</p>
+<p data-page="16713" id="p-145">(b) Split Boundary Assignment.</p>
+<p data-page="16713" id="p-146">
+                    Community detection is performed on the three most-recently available years of Longitudinal Employer-Household Dynamics Origin-Destination Employment Statistics (LODES) worker-flow data, using unsupervised clustering, specifically the Leiden Algorithm,<sup>[] </sup>
+                    
+                     to identify commuter-based partitions. The Leiden Algorithm is first applied separately on each eligible UAA, then subsequent iterations are run on the resulting partitions to provide greater levels of spatial resolution to allow for relatively smaller areas to be added during UAA split boundary assignment. The resulting partitions of the third iteration are used to carry out the following steps, unless the Census Bureau determines doing so would not provide the best split boundary.
+                </p>
+<p data-page="16713" id="p-148">Commuter-based partitions associated with only one intersecting area or one Core EBA meeting the criteria in Step B.10.a.1 or Step B.10.a.2, are grouped together to form component UAAs. Additionally, partitions are grouped or assigned to existing component UAAs if:</p>
+<p data-page="16713" id="p-149">1. The partition comprises at least 90 percent of the population of an intersecting area or Core EBA; or</p>
+<p data-page="16713" id="p-150">2. At least 90 percent of the population of a partition is located within an intersecting area or Core EBA.</p>
+<p data-page="16713" id="p-151">The remaining partitions are:</p>
+<ul class="bullets">
+<li data-page="16713" id="p-152">Completely outside of 2010 urban territory; or</li>
+<li data-page="16713" id="p-153">Completely within 2020 low-density fill; or</li>
+<li data-page="16713" id="p-154">Within multiple intersecting areas or Core EBAs.</li>
+</ul>
+<p data-page="16713" id="p-155">These partitions will be assigned to the component UAA with which they have the greatest worker-flow relationship.</p>
+<p data-page="16713" id="p-156">Component UAAs are evaluated to ensure they have at least 25 percent mean internal worker-flow. Those that do not meet this threshold will merge with the component UAA with which they have the greatest worker-flow relationship. This process continues until all component UAAs have at least 25 percent mean internal worker-flow and at least 5,000 persons.</p>
+<p data-page="16713" id="p-157">The boundary between two urban areas may be modified to avoid splitting an incorporated place, CDP, or minor civil division (MCD) between two urban areas at the time of delineation or to follow a legal geographic boundary near the commuter-based partition boundary used to split the two urban areas.</p>
+<p data-page="16713" id="p-158">(c) Splitting Criteria for Puerto Rico and the Island Areas.</p>
+<p data-page="16713" id="p-159">As the LODES data are not available for Puerto Rico and the Island Areas, the Census Bureau will maintain the 2010 split boundaries between qualified urban areas. These boundaries will be adjusted to the appropriate 2020 block boundaries.</p>
+<h4 id="h-40">11. Assigning Urban Area Titles</h4>
+<p data-page="16713" id="p-160">A clear, unambiguous title based on commonly recognized place names helps provide context for data users and ensures that the general location and setting of the urban area can be clearly identified and understood. The title of an urban area identifies the place that is the most populated within the high-density nucleus of the urban area. All population and housing unit requirements for places (incorporated places or CDPs) and MCDs apply to the portion of the entity's population that is within the specific urban area being named.</p>
+<p data-page="16713" id="p-161">The Census Bureau will use the following criteria to determine the title of an urban area:</p>
+<p data-page="16713" id="p-162">Primary Name:</p>
+<p data-page="16713" id="p-163">1. The most populous place within the high-density nuclei of an urban area that has a population of 2,500 or more will be listed first in the urban area title.</p>
+<p data-page="16713" id="p-164">Secondary Names:</p>
+<p data-page="16713" id="p-165">Up to two additional places, in descending order of housing unit count, may be included in the title of an urban area provided that:</p>
+<p data-page="16713" id="p-166">2. The place has 90,000 or more housing units; or</p>
+<p data-page="16713" id="p-167">3. The place has at least 1,000 housing units and that housing unit count is at least two-thirds of that of the urban portion of the place providing the primary name.</p>
+<p data-page="16713" id="p-168">
+                    If the high-density nuclei of an urban area do not contain a place of at least 2,500 people, the Census Bureau will consider the name of the incorporated place, CDP, or MCD with the largest total population in the urban area, or a local name recognized for the area by the United States Geological Survey's (USGS) Geographic Names Information System (GNIS), with preference given to names also recognized by the United States Postal Service (USPS). The urban area title will include the USPS abbreviation of the name of each state or statistically equivalent entity in which the urban area is located or extends. The order of the state abbreviations is the same as the order of the related place names in the urban area title.<sup>[] </sup>
+</p>
+<p data-page="16713" id="p-170">
+                    If a single place or MCD qualifies as the title of more than one urban area, the urban area with the largest population will use the name of the place or MCD. The smaller urban area will have a title consisting of the place or MCD name and the direction (such as 
+                    <span class="printed-page-inline unprinted-element document-markup" data-page="16714">
+
+(<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16714)
+    </span><span class="printed-page-details unprinted-element document-markup" data-page="16714" id="page-16714"><svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg></span>
+                    “North” or “Southeast”) of the smaller urban area as it relates geographically to the larger urban area with the same place or MCD name.
+                </p>
+<p data-page="16714" id="p-171">If any title of an urban area duplicates the title of another urban area within the same state, or uses the name of an incorporated place, CDP, or MCD that is duplicated within a state, the name of the county that has most of the population of the largest place or MCD is appended, in parentheses, after the duplicate place or MCD name for each urban area. If there is no incorporated place, CDP, or MCD name in the urban area title, the name of the county having the largest total population residing in the urban area will be appended to the title.</p>
+<h3 id="h-41">C. Definitions of Key Terms</h3>
+<p data-page="16714" id="p-172">
+<em>Census Block:</em>
+                     A geographic area bounded by visible and/or invisible features shown on a map prepared by the Census Bureau. A census block is the smallest geographic entity for which the Census Bureau tabulates decennial census data.
+                </p>
+<p data-page="16714" id="p-173">
+<em>Census Designated Place (CDP):</em>
+                     A statistical geographic entity encompassing a concentration of population, housing, and commercial structures that is clearly identifiable by a single name but is not within an incorporated place. CDPs are the statistical counterparts of incorporated places for distinct unincorporated communities.
+                </p>
+<p data-page="16714" id="p-174">
+<em>Census Tract:</em>
+                     A small, relatively permanent statistical geographic subdivision of a county or county equivalent defined for the tabulation and publication of Census Bureau data. The primary goal of the census tract program is to provide a set of nationally consistent small, statistical geographic units, with stable boundaries that facilitate analysis of data across time.
+                </p>
+<p data-page="16714" id="p-175">
+<em>Contiguous:</em>
+                     A geographic term referring to two or more areas that share either a common boundary or at least one common point.
+                </p>
+<p data-page="16714" id="p-176">
+<em>Core Based Statistical Area (CBSA):</em>
+                     A statistical geographic entity defined by the U.S. Office of Management and Budget, consisting of the county or counties or equivalent entities associated with at least one core of at least 10,000 population, plus adjacent counties having a high degree of social and economic integration with the core as measured through commuting ties with the counties containing the core. Metropolitan and micropolitan statistical areas are the two types of core based statistical areas.
+                </p>
+<p data-page="16714" id="p-177">
+<em>Core Eligible Block Aggregation (Core EBA):</em>
+                     A type of Eligible Block Aggregation that contains one or more Initial Urban Cores.
+                </p>
+<p data-page="16714" id="p-178">
+<em>Eligible Block Aggregation (EBA):</em>
+                     Aggregations of census blocks that are eligible to qualify as urban according to housing unit count, density, group quarters, or degree of impervious surface.
+                </p>
+<p data-page="16714" id="p-179">
+<em>Enclave:</em>
+                     A territory not qualifying as urban that is either completely surrounded by qualifying urban territory or surrounded by qualifying urban territory and water.
+                </p>
+<p data-page="16714" id="p-180">
+<em>Exempted Territory:</em>
+                     A territory that is exempt from the urban area criteria because its extent is entirely of water or wetlands or an unpopulated road corridor that crosses water or wetlands.
+                </p>
+<p data-page="16714" id="p-181">
+<em>Group Quarters (GQs):</em>
+                     A place where people live or stay, in a group living arrangement that is owned or managed by an entity or organization providing housing and/or services for the residents. These services may include custodial or medical care, as well as other types of assistance, and residency is commonly restricted to those receiving these services. This is not a typical household-type living arrangement. People living in GQs are usually not related to each other. GQs include such facilities as college residence halls, residential treatment centers, skilled nursing facilities, group homes, military barracks, correctional facilities, and workers' dormitories.
+                </p>
+<p data-page="16714" id="p-182">
+<em>High-Density Nucleus:</em>
+                     An aggregation of blocks with a high housing unit density or impervious level.
+                </p>
+<p data-page="16714" id="p-183">
+<em>Hop:</em>
+                     A connection between Eligible Block Aggregations along a road connection of 0.5 miles or less in length.
+                </p>
+<p data-page="16714" id="p-184">
+<em>Impervious Surface:</em>
+                     Man-made surfaces, such as rooftops, roads, and parking lots.
+                </p>
+<p data-page="16714" id="p-185">
+<em>Incorporated Place:</em>
+                     A type of governmental unit, incorporated under state law as a city, town (except in New England, New York, and Wisconsin), borough (except in Alaska and New York), or village, generally to provide specific governmental services for a concentration of people within legally prescribed boundaries.
+                </p>
+<p data-page="16714" id="p-186">
+<em>Indentation:</em>
+                     A recess in the boundary of an urban area produced by settlement patterns and/or water features resulting in a highly irregular urban area shape. The territory is likely to be affected by and integrated with qualifying urban territory.
+                </p>
+<p data-page="16714" id="p-187">
+<em>Initial Urban Core:</em>
+                     An Eligible Block Aggregation that contains at least 500 housing units defined at the first stage of delineation.
+                </p>
+<p data-page="16714" id="p-188">
+<em>Jump:</em>
+                     A connection from one Core Eligible Block Aggregation to other Eligible Block Aggregations along a road connection that is greater than 0.5 miles, but less than or equal to 1.5 miles in length.
+                </p>
+<p data-page="16714" id="p-189">
+<em>Low-Density Fill:</em>
+                     Territory with low housing unit density added to already qualifying area near the end of the delineation process to smooth out the resulting urban areas and mitigate the effects of increased block size in the peripheries of the urban landscape.
+                </p>
+<p data-page="16714" id="p-190">
+<em>MAF/TIGER (MTDB):</em>
+                     Database developed by the Census Bureau to support its geocoding, mapping, and other product needs for the decennial census and other Census Bureau programs. The Master Address File (MAF) is an accurate and current inventory of all known living quarters including address and geographic location information. The Topologically Integrated Geographic Encoding and Referencing (TIGER) database defines the location and relationship of boundaries, streets, rivers, railroads, and other features to each other and to the numerous geographic areas for which the Census Bureau tabulates data from its censuses and surveys.
+                </p>
+<p data-page="16714" id="p-191">
+<em>Metropolitan Statistical Area:</em>
+                     A core based statistical area associated with at least one urban area that has a population of at least 50,000. The metropolitan statistical area comprises the central county or counties or equivalent entities containing the core, plus adjacent outlying counties having a high degree of social and economic integration with the central county or counties as measured through commuting.
+                </p>
+<p data-page="16714" id="p-192">
+<em>Micropolitan Statistical Area:</em>
+                     A core based statistical area associated with at least one urban area that has a population of at least 10,000, but less than 50,000. The micropolitan statistical area comprises the central county or counties or equivalent entities containing the core, plus adjacent outlying counties having a high degree of social and economic integration with the central county or counties as measured through commuting.
+                </p>
+<p data-page="16714" id="p-193">
+<em>Minor Civil Division (MCD):</em>
+                     The primary governmental or administrative division of a county or equivalent entity in 29 states and the Island Areas having legal boundaries, names, and descriptions. MCDs represent many different types of legal entities with a wide variety of characteristics, powers, and functions depending on the state and type of MCD. In some states, some or all of the incorporated places also constitute MCDs.
+                </p>
+<p data-page="16714" id="p-194">
+<em>Noncontiguous:</em>
+                     A geographic term referring to two or more areas that do not share a common boundary or a common point along their boundaries, such that the areas are separated by intervening territory.
+                    <span class="printed-page-inline unprinted-element document-markup" data-page="16715">
+
+(<svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg> printed page 16715)
+    </span><span class="printed-page-details unprinted-element document-markup" data-page="16715" id="page-16715"><svg class="svg-icon svg-icon-doc-generic"><use xlink:href="/assets/fr-icons.svg#doc-generic"></use></svg></span>
+</p>
+<p data-page="16715" id="p-195">
+<em>Nonresidential Urban Territory:</em>
+                     Census blocks added to Eligible Block Aggregations where the levels of imperviousness, number of jobs, or the presence of an airport indicate they are urban in nature.
+                </p>
+<p data-page="16715" id="p-196">
+<em>Rural:</em>
+                     Territory not defined as urban.
+                </p>
+<p data-page="16715" id="p-197">
+<em>Urban:</em>
+                     Generally, densely developed territory, encompassing residential, commercial, and other non-residential urban land uses within which social and economic interactions occur.
+                </p>
+<p data-page="16715" id="p-198">
+<em>Urban Area:</em>
+                     A statistical geographic entity consisting of a densely settled core created from census blocks and contiguous qualifying territory that together have at least 2,000 housing units or 5,000 persons.
+                </p>
+<p data-page="16715" id="p-199">
+<em>Urban Area Agglomeration (UAA):</em>
+                     The resulting urban territory at the completion of the delineation process but prior to the application of split/merge criteria. UAAs may be split or merged if they contain multiple 2010 Urban Areas or multiple EBAs that connected in the process.
+                </p>
+<p data-page="16715" id="p-200">
+<em>Urban Cluster (UC):</em>
+                     A retired statistical geographic entity type consisting of a densely settled core created from census tracts or blocks and contiguous qualifying territory that together have at least 2,500 persons but fewer than 50,000 persons. Urban clusters were not identified for the 2020 census.
+                </p>
+<p data-page="16715" id="p-201">
+<em>Urbanized Area (UA):</em>
+                     A retired statistical geographic entity type consisting of a densely settled core created from census tracts or blocks and adjacent densely settled territory that together have a minimum population of 50,000 people. Urbanized areas were not identified for the 2020 census.
+                </p>
+<p data-page="16715" id="p-202">
+                    Robert L. Santos, Director, Census Bureau, approved the publication of this Notice in the 
+                    <strong>Federal Register</strong>
+                    .
+                </p>
+<div class="signature">
+<p class="signature-date">Dated: March 18, 2022.</p>
+<p class="signature-name">Sheleen Dumas,</p>
+<p class="signature-title">Department PRA Clearance Officer, Office of the Chief Information Officer, Commerce Department.</p>
+</div>
+</div>
+</div></body></html>

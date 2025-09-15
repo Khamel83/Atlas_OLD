@@ -1,0 +1,872 @@
+# Content from http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?ref=magazine&pagewanted=print
+
+*Retrieved: 2025-09-14T21:01:03.329980*
+
+---
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.nytimes.com:80/2011/09/18/magazine/the-cyborg-in-us-all.html?ref=magazine","20120530014854","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1338342534");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>The Cyborg in Us All - NYTimes.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="When will we be able to direct computers with our thoughts? Sooner than you think.">
+<meta name="keywords" content="Computers and the Internet,Brain,Computer Monitors,Medicine and Health,Software">
+<meta name="ROBOTS" content="NOARCHIVE">
+<meta name="DISPLAYDATE" content="September 14, 2011">
+<meta name="hdl" content="The Cyborg in Us All">
+<meta name="hdl_p" content="The Cyborg In Us All">
+<meta name="byl" content="By PAGAN KENNEDY">
+<meta name="lp" content="When will we be able to direct computers with our thoughts? Sooner than you think.">
+<meta name="cre" content="The New York Times">
+<meta name="edt" content="NewYork">
+<meta name="pdate" content="20110914">
+<meta name="ttl" content="">
+<meta name="virtloc" content="">
+<meta name="des" content="Computers and the Internet;Brain;Computer Monitors;Medicine and Health;Software">
+<meta name="per" content="">
+<meta name="org" content="">
+<meta name="geo" content="">
+<meta name="misspelling" content="">
+<meta name="dat" content="September 14, 2011">
+<meta name="tom" content="News">
+<meta name="cat" content="">
+<meta name="col" content="Inquiry">
+<meta name="dsk" content="Magazine">
+<meta name="articleid" content="100000001048154">
+<meta name="ARTICLE_TEMPLATE_VERSION" content="700">
+<meta name="hdr_img" content="/images/article/header/sect_magazine.gif">
+<meta name="thumbnail" content="images/2011/09/18/magazine/18mindreading/18mindreading-thumbStandard.jpg">
+<meta name="thumbnail_height" content="75">
+<meta name="thumbnail_width" content="75">
+<meta name="xlarge" content="">
+<meta name="xlarge_height" content="">
+<meta name="xlarge_width" content="">
+<meta name="sectionfront_jsonp" content="http://json8.nytimes.com/pages/magazine/index.jsonp">
+<meta name="CG" content="magazine">
+<meta name="SCG" content="">
+<meta name="PT" content="Article">
+<meta name="PST" content="News">
+<meta name="msapplication-starturl" content="http://www.nytimes.com/">
+<link rel="canonical" href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?pagewanted=all">
+<meta property="og:url" content="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?pagewanted=all"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="The Cyborg in Us All"/>
+<meta property="og:image" content="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com/images/2011/09/18/magazine/18mindreading/18mindreading-thumbStandard.jpg"/>
+
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20120530014854cs_/http://graphics8.nytimes.com/css/0.1/screen/build/article/2.0/styles.css"><!--[if IE]>
+    <style type="text/css">
+        @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie.css);
+    </style>
+<![endif]-->
+<!--[if IE 6]>
+    <style type="text/css">
+        @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie6.css);
+    </style>
+<![endif]-->
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/common.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/common/screen/DropDown.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/util/tooltip.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/common/screen/altClickToSearch.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/app/article/upNext.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/article/articleShare.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/article/comments/crnrXHR.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/app/article/articleCommentCount.js"></script>
+</head>
+
+<body>
+
+<a name="top"></a>
+<div id="shell">
+<ul id="memberTools">
+
+<!-- ADXINFO classification="box_184x90" campaign="nyt2012-circ-nonhp_bar1_dbl_ears_test_3F4YJ_3F4YK"--><!-- start text link -->
+<li class="cColumn-TextAdsHeader">Subscribe:
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Bar1&amp;sn2=ac2e40b0/2c369de0&amp;sn1=8f3cb473/94ee611f&amp;camp=nyt2012-circ-nonhp_bar1_dbl_ears_test_3F4YJ_3F4YK&amp;ad=043012-bar1_3F4YJ_3F4YK&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fsubscriptions%2FMultiproduct%2Flp5558%2Ehtml%3FcampaignId%3D3F4YJ" target="_blank">
+Digital</a> / <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Bar1&amp;sn2=ac2e40b0/2c369de0&amp;sn1=1bc94119/a384bfd&amp;camp=nyt2012-circ-nonhp_bar1_dbl_ears_test_3F4YJ_3F4YK&amp;ad=043012-bar1_3F4YJ_3F4YK&amp;goto=http%3A%2F%2Fnytimesathome%2Ecom%2Fhd%2F142%3FMediaCode%3DW39AA%26CMP%3D3F4YK" target="_blank">Home Delivery</a>
+</li>
+<!-- end text link -->
+
+<li><a id="memberToolsLogin" href="http://web.archive.org/web/20120530014854/https://myaccount.nytimes.com/auth/login">Log In</a></li>
+            <li><a href="http://web.archive.org/web/20120530014854/https://myaccount.nytimes.com/gst/regi.html">Register Now</a></li>
+
+<li><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+</ul>
+<div class="tabsContainer">
+<ul id="mainTabs" class="tabs">
+<li class="first mainTabHome"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/">Home Page</a></li>
+<li class="mainTabTodaysPaper"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a></li>
+<li class="mainTabVideo"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/video">Video</a></li>
+<li class="mainTabMostPopular"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/mostpopular">Most Popular</a></li>
+<li class="mainTabTimesTopics"><a href="http://web.archive.org/web/20120530014854/http://topics.nytimes.com/top/reference/timestopics">Times Topics</a></li>
+</ul>
+</div>
+<script type="text/javascript">
+window.setTimeout(function() {
+  var login = document.getElementById('memberToolsLogin');
+  if (login) {
+    login.href += "?URI=" + window.location.href;
+  }
+}, 0)
+</script>        <div id="page" class="tabContent active">
+<div class="clearfix" id="masthead">
+
+<div id="searchWidget">
+<div class="inlineSearchControl">
+<form enctype="application/x-www-form-urlencoded" action="http://web.archive.org/web/20120530014854/http://query.nytimes.com/search/sitesearch" method="get" name="searchForm" id="searchForm">
+<input type="hidden" value="full" name="date_select"/>
+<label for="searchQuery">Search All NYTimes.com</label>
+<input type="text" class="text" value="" size="" name="query" id="searchQuery"/>
+<input type="hidden" id="searchAll" name="type" value="nyt"/>
+<input id="searchSubmit" title="Search" width="22" height="19" alt="Search" type="image" src="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com/images/global/buttons/go.gif">
+</form>
+</div>
+</div>
+<div id="branding">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/"><span id="nytIhtMastheadLogo">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/"><img src="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com/images/misc/nytlogo152x23.gif" alt="New York Times" id="NYTLogo"/></a>
+</span></a>
+</div>
+
+<h2>
+
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/magazine/index.html">Magazine</a>
+</h2>
+
+</div>
+<div class="navigation tabsContainer">
+<ul class="tabs">
+<li id="navWorld" class="first ">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/world/index.html">World</a>
+</li>	<li id="navUs">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>	<li id="navNyregion">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>	<li id="navBusiness">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>	<li id="navTechnology">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>	<li id="navScience">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/science/index.html">Science</a>
+</li>	<li id="navHealth">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/health/index.html">Health</a>
+</li>	<li id="navSports">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>	<li id="navOpinion">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>	<li id="navArts">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</li>	<li id="navStyle">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>	<li id="navTravel">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/travel/index.html">Travel</a>
+</li>	<li id="navJobs">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>	<li id="navRealestate">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>	<li id="navAutomobiles">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li></ul>
+</div>
+
+<div class="singleAd" id="TopAd">
+<!-- ADXINFO classification="Leaderboard" campaign="nyt2012_mktg_tmag_t_travel_728X90_ros"--><script type="text/javascript">
+   var movieWidth = 728;
+   var movieHeight = 90;
+   var altSrc = "http://web.archive.org/web/20120530014854/http://graphics8.nytimes.com/adx/images/ADS/30/23/ad.302363/12-0979_T_SummerTravel_728x90_endFrame.jpg";
+   var swfFile = "http://web.archive.org/web/20120530014854/http://graphics8.nytimes.com/adx/images/ADS/30/23/ad.302363/12-0979_T_SummerTravel_728x90.swf";
+   var altClickThru = "http://web.archive.org/web/20120530014854/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/magazine&pos=TopAd&sn2=bb9434a7/95fef553&sn1=53d3e6e9/c3f1233b&camp=nyt2012_mktg_tmag_t_travel_728X90_ros&ad=TM-D-I-NYT-AD-728-TTR-ROS-0512-NA&goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Findexes%2F2012%2F05%2F18%2Ft%2Dmagazine%2Ftravel%2Dissue%2Findex%2Ehtml%3FWT%2Emc%5Fid%3DTM%2DD%2DI%2DNYT%2DAD%2D728%2DTTR%2DROS%2D0512%2DNA%26WT%2Emc%5Fev%3Dclick%26WT%2Emc%5Fc%3D187722";
+   var swfSrc = swfFile + "?clicktag=" + escape(altClickThru);
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://www.nytimes.com/ads/common/embed3.js">
+</script>
+
+</div>
+
+<div id="main">
+<div class="spanAB wrap closing">
+<div id="abColumn" class="abColumn"><!--open abColumn -->
+<div id="article">
+<!--cur: prev:-->
+<div class="columnGroup first">				
+<h6 class="kicker">Inquiry</h6>
+<h1 class="articleHeadline"><nyt_headline version="1.0" type=" ">The Cyborg in Us All</nyt_headline></h1>
+<nyt_byline>    <h6 class="byline">By PAGAN KENNEDY</h6>
+</nyt_byline>
+<h6 class="dateline">Published: September 14, 2011    </h6>
+<script type="text/javascript">
+var articleToolsShareData = {"url":"http:\/\/web.archive.org\/web\/20120530014854\/http:\/\/www.nytimes.com\/2011\/09\/18\/magazine\/the-cyborg-in-us-all.html","headline":"The Cyborg in Us All","description":"When will we be able to direct computers with our thoughts? Sooner than you think.","keywords":"Computers and the Internet,Brain,Computer Monitors,Medicine and Health,Software","section":"magazine","sub_section":null,"section_display":"Magazine","sub_section_display":null,"byline":"By PAGAN KENNEDY","pubdate":"September 14, 2011","passkey":null};
+function getShareURL() {
+    return encodeURIComponent(articleToolsShareData.url);
+}
+function getShareHeadline() {
+    return encodeURIComponent(articleToolsShareData.headline);
+}
+function getShareDescription() {
+    return encodeURIComponent(articleToolsShareData.description);
+}
+function getShareKeywords() {
+    return encodeURIComponent(articleToolsShareData.keywords);
+}
+function getShareSection() {
+    return encodeURIComponent(articleToolsShareData.section);
+}
+function getShareSubSection() {
+	return encodeURIComponent(articleToolsShareData.sub_section);
+}
+function getShareSectionDisplay() {
+    return encodeURIComponent(articleToolsShareData.section_display);
+}
+function getShareSubSectionDisplay() {
+    return encodeURIComponent(articleToolsShareData.sub_section_display);
+}
+function getShareByline() {
+    return encodeURIComponent(articleToolsShareData.byline);
+}
+function getSharePubdate() {
+    return encodeURIComponent(articleToolsShareData.pubdate);
+}
+function getSharePasskey() {
+    return encodeURIComponent(articleToolsShareData.passkey);
+}
+</script>
+<div id="articleToolsTop" class="articleTools">
+<div class="box">
+<div class="inset">
+<ul id="toolsList" class="toolsList wrap">
+<li class="comments"><a onclick="javascript:dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/article comments/view-tools.html','WT.ti','Article Comments View Tools','WT.z_aca','Tools-View','WT.gcom','Com');" href="http://web.archive.org/web/20120530014854/http://community.nytimes.com/comments/www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html">comments <span id="commentCount"></span></a></li>
+<li class="email">
+
+<a id="emailThis" onclick="s_code_linktrack('Article-Tool-EmailSignIn');" href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/auth/login?URI=http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html">Sign In to E-Mail</a>
+</li>
+<li class="print">
+<a href="/web/20120530014854/http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?ref=magazine&amp;pagewanted=print">Print</a>
+</li>
+ <li class="singlePage">
+<a href="/web/20120530014854/http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?ref=magazine&amp;pagewanted=all"> Single Page</a>
+ </li>
+<nyt_reprints_form>
+
+<script name="javascript">
+	function submitCCCForm(){
+		var PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');
+		var form = document.forms["cccform"];
+		// ensure that we are operating on the Form, not a NodeList
+		if (form.nodeName == "FORM") {
+			form.submit();
+		} else if (form[0] && form[0].nodeName == "FORM") {
+			form[0].submit();
+		}
+	}
+	</script>
+<li class="reprints">			<form name="cccform" action="http://web.archive.org/web/20120530014854/https://s100.copyright.com/CommonApp/LoadingApplication.jsp" target="_Icon">
+<input type="hidden" name="Title" value="The Cyborg in Us All">
+<input type="hidden" name="Author" value="By PAGAN KENNEDY ">
+<input type="hidden" name="ContentID" value="http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html">
+<input type="hidden" name="FormatType" value="default">
+<input type="hidden" name="PublicationDate" value="September 18, 2011">
+<input type="hidden" name="PublisherName" value="The New York Times">
+<input type="hidden" name="Publication" value="nytimes.com">
+<input type="hidden" name="wordCount" value="12">
+</form>
+<a href="#" onclick="submitCCCForm()">Reprints</a>
+</li>	        
+</nyt_reprints_form>
+</ul>
+        </div>
+</div>
+</div>
+<div class="articleBody">
+
+<nyt_text>
+
+<nyt_correction_top>
+</nyt_correction_top>
+    <p>
+&ldquo;Fingers!&rdquo; Gerwin Schalk sputtered, waving his hands around in the air. &ldquo;Fingers are made to pick up a hammer.&rdquo; He prodded the table, mimicking the way we poke at computer keyboards. &ldquo;It&rsquo;s totally ridiculous,&rdquo; he said.        </p> 
+</div>
+<div class="articleInline runaroundLeft">
+  
+<!--forceinline-->   
+<div class="inlineImage module">
+<div class="image">
+<div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20120530014854/http://www.nytimes.com/imagepages/2011/09/18/magazine/18mindreading.html','18mindreading_html','width=576,height=730,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
+<a href="javascript:pop_me_up2('http://web.archive.org/web/20120530014854/http://www.nytimes.com/imagepages/2011/09/18/magazine/18mindreading.html','18mindreading_html','width=576,height=730,scrollbars=yes,toolbars=no,resizable=yes')">
+<img src="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com/images/2011/09/18/magazine/18mindreading/18mindreading-articleInline.jpg" width="190" height="218" alt="">
+</a>
+</div>
+<h6 class="credit">Albany Medical College</h6>
+<p class="caption">Platinum electrodes, used to record seizures, cover part of the brain in an epilepsy patient. Those electrodes collect electrical signals from the brain, some of which can be transformed into computer commands.                            </p>
+</div>
+  
+<div class="columnGroup doubleRule">    </div></div>            <script type="text/javascript">
+        if (typeof NYTDVideoManager != "undefined") {
+            NYTDVideoManager.setAllowMultiPlayback(false);
+        }
+        
+        function displayCompanionBanners(banners, tracking) {
+            tmDisplayBanner(banners, "videoAdContent", 300, 250, null, tracking);
+        }
+        </script> 
+<div class="articleInline runaroundLeft" style="margin-top: -11px">        <h6 class="sectionHeader flushBottom">Multimedia</h6>
+</div>                                                  
+<div class="articleInline runaroundLeft firstArticleInline">
+<div class="story">  
+<div class="wideThumb">
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/interactive/2011/09/18/magazine/14Mag-cyborg.html?ref=magazine">
+<img src="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com//images/2011/09/12/magazine/mag-18inquiry/mag-18inquiry-thumbWide.jpg" width="190" height="126" alt="" border="0"/>
+<span class="mediaOverlay interactive">Interactive Feature</span>
+</a>
+</div>
+<h6><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/interactive/2011/09/18/magazine/14Mag-cyborg.html?ref=magazine">
+Turning the Mind Into a Joystick</a></h6>
+<h6 class="byline">
+</h6>
+</div>
+</div>
+<div class="articleInline runaroundLeft"><div class="articleInline runaroundLeft"></div>
+<div class="columnGroup doubleRule"><div class="story">
+<h6 class="kicker">On the Blogs</h6>
+<div class="thumbnail">
+<a href="http://web.archive.org/web/20120530014854/http://bits.blogs.nytimes.com/?ref=magazine">
+<img src="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com//images/2011/09/13/magazine/_images_2010_04_09_bits.jpg" width="75" height="75" alt="" border="0"/>
+</a>
+</div>
+<h3><a href="http://web.archive.org/web/20120530014854/http://bits.blogs.nytimes.com/?ref=magazine">
+Bits</a></h3>
+<h6 class="byline">
+</h6>
+<p class="summary">
+The latest from the Times Technology blog. <a href="http://web.archive.org/web/20120530014854/http://bits.blogs.nytimes.com/">Go to Bits Â»</a></p>
+</div>
+</div>
+   
+</div>
+<div id="readerscomment" class="inlineLeft"></div>
+<div class="articleBody">
+ <p>
+I was visiting Schalk, a 40-year-old computer engineer, at his bunkerlike office in the Wads&shy;worth Center, a public-health lab outside Albany that handles many of New York State&rsquo;s rabies tests. It so happens that his lab is also pioneering a new way to control our computers &mdash; with thoughts instead of fingers. Schalk studies people at the Albany Medical Center who have become, not by choice, some of the world&rsquo;s first cyborgs.        </p><p>
+One volunteer was a young man in his 20s who suffers from a severe form of epilepsy. He had been outfitted with a temporary device, a postcard-&shy;size patch of electrodes that sits on the brain&rsquo;s cortex, known as an electrocorticographic (ECoG) implant. Surgeons use these implants to home in on the damaged tissue that causes seizures.        </p><p>
+Schalk took advantage of the implant to see if the patient could control the actions in a video game called Galaga using only his thoughts. In the videotape of this experiment, you see a young man wearing a turban of bandages with wires running from his head to a computer in a cart. &ldquo;Pew, pew,&rdquo; the ship on the computer screen whines, as it decimates buglike creatures. The patient flicks the spaceship back and forth by imagining that he is moving his tongue. This creates a pulse in his brain that travels through the wires into a computer. Thus, a thought becomes a software command.        </p><p>
+On the day I stopped by his office, Schalk hit a button on his computer, and Pink Floyd blasted from his speakers. He was running an experiment to see what happens to people&rsquo;s brains when they listen to &ldquo;Another Brick in the Wall, Part 1&rdquo; (a question that has occurred to any stoner who ever contemplated human consciousness in the glow of stereo lights). Weeks before, Schalk played the Pink Floyd song for some of his epileptic volunteers and recorded the activity in the parts of the brain that process sound. Schalk showed me a volume meter on his computer screen &mdash; this was a brain, tracking the roar of a guitar solo. It worked just like any other volume meter, but in one experiment, Schalk found that the brain did something unexpected. When he interrupted the Pink Floyd song with moments of silence, the brain&rsquo;s volume meter continued to tremble up and down, as if the song were still playing. This, Schalk said, showed that the brain creates a model of what it expects to hear &mdash; a shadow song that plunks out its tune in the player piano of our auditory system.        </p><p>
+&ldquo;Isn&rsquo;t this crazy?&rdquo; he shouted over the thunder of the bass. &ldquo;We&rsquo;re close to being able to reconstruct the actual music heard in the brain and play it. If we had several times more electrodes, I bet we could do it.&rdquo;        </p><p>
+But for Schalk &mdash; and many others in the field &mdash; the ultimate goal is not music. It&rsquo;s language. Schalk dreams of letting people speak with their neurons, issuing silent commands to their machines. You could imagine the word &ldquo;cat,&rdquo; say, and it would pop up on your computer screen. The areas involved with imagined speech take up just a few centimeters in the brain. With better implants, Schalk said, he might be able to pick up a word that his volunteer beams at the computer. Even with today&rsquo;s implants, he and his colleagues are getting closer. One epilepsy patient moved a ball across a computer screen simply by imagining either an &ldquo;ooh&rdquo; sound or an &ldquo;aah&rdquo; sound. It marked one more step toward telepathy with machines.        </p><p>
+<strong>For years,</strong> computers have been creeping ever nearer to our neurons. Thousands of people have become cyborgs, of a sort, for medical reasons: cochlear implants augment hearing and deep-brain stimulators treat Parkinson&rsquo;s. But within the next decade, we are likely to see a new kind of implant, designed for healthy people who want to merge with machines. With several competing technologies in development, scientists squabble over which device works best; no one wants theirs to end up looking like the Betamax of brain wear. Schalk is a champion of the ECoG implant because, unlike other devices, it does not pierce brain tissue; instead it can ride on top of the brain-blood barrier, sensing the activity of populations of neurons and passing their chatter to the outside world, like a radio signal. Schalk says this is the brain implant most likely to evolve into a consumer product that could send signals to a prosthetic hand, an iPhone, a computer or a car.        </p><div id="pageLinks"><ul id="pageNumbers"><li> 1 </li><li> <a onclick="s_code_linktrack('Article-MultiPagePageNum2');" title="Page 2" href="/web/20120530014854/http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?pagewanted=2&amp;ref=magazine">2</a> </li><li> <a onclick="s_code_linktrack('Article-MultiPagePageNum3');" title="Page 3" href="/web/20120530014854/http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?pagewanted=3&amp;ref=magazine">3</a> </li></ul><a class="next" onclick="s_code_linktrack('Article-MultiPage-Next');" title="Next Page" href="/web/20120530014854/http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?pagewanted=2&amp;ref=magazine">Next Page &#x00bb;</a></div><nyt_correction_bottom>	<div class="articleCorrection">
+</div>
+</nyt_correction_bottom><nyt_update_bottom>
+</nyt_update_bottom>
+</nyt_text>
+</div>	</div>
+<!--cur: prev:-->
+<div class="columnGroup ">				
+<div class="articleFooter">
+<div class="articleMeta">
+<div class="opposingFloatControl wrap">
+<div class="element1">
+<h6 class="metaFootnote">A version of this article appeared in print on September 18, 2011, on page MM24 of the Sunday Magazine with the headline: The Cyborg In Us All.</h6>
+</div>
+</div>
+</div>
+</div>	</div>
+<!--cur: prev:-->
+<div class="columnGroup ">				
+<div id="articleExtras">
+<div class="expandedToolsRight">
+<div class="articleTools">
+<div class="box">
+<div class="inset">
+<ul id="toolsList" class="toolsList wrap">
+<li class="comments"><a onclick="javascript:dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/article comments/view-tools.html','WT.ti','Article Comments View Tools','WT.z_aca','Tools-View','WT.gcom','Com');" href="http://web.archive.org/web/20120530014854/http://community.nytimes.com/comments/www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html">comments <span id="commentCount"></span></a></li>
+<li class="email">
+<a id="emailThis" onclick="s_code_linktrack('Article-Tool-EmailSignIn');" href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/auth/login?URI=http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html">Sign In to E-Mail</a>
+</li>
+<li class="print">
+<a href="/web/20120530014854/http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?ref=magazine&amp;pagewanted=print">Print</a>
+</li>
+ <li class="singlePage">
+<a href="/web/20120530014854/http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html?ref=magazine&amp;pagewanted=all"> Single Page</a>
+ </li>
+<nyt_reprints_form>
+
+<script name="javascript">
+	function submitCCCForm(){
+		var PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');
+		var form = document.forms["cccform"];
+		// ensure that we are operating on the Form, not a NodeList
+		if (form.nodeName == "FORM") {
+			form.submit();
+		} else if (form[0] && form[0].nodeName == "FORM") {
+			form[0].submit();
+		}
+	}
+	</script>
+<li class="reprints">			<form name="cccform" action="http://web.archive.org/web/20120530014854/https://s100.copyright.com/CommonApp/LoadingApplication.jsp" target="_Icon">
+<input type="hidden" name="Title" value="The Cyborg in Us All">
+<input type="hidden" name="Author" value="By PAGAN KENNEDY ">
+<input type="hidden" name="ContentID" value="http://www.nytimes.com/2011/09/18/magazine/the-cyborg-in-us-all.html">
+<input type="hidden" name="FormatType" value="default">
+<input type="hidden" name="PublicationDate" value="September 18, 2011">
+<input type="hidden" name="PublisherName" value="The New York Times">
+<input type="hidden" name="Publication" value="nytimes.com">
+<input type="hidden" name="wordCount" value="12">
+</form>
+<a href="#" onclick="submitCCCForm()">Reprints</a>
+</li>	        
+</nyt_reprints_form>
+</ul>
+        </div>
+</div>
+</div>
+<script type="text/javascript">
+writePost();
+</script>
+</div>
+</div>
+
+<div class="singleAd" id="Bottom1">
+<table width="100%" border="0">
+<tr>
+<td><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Bottom1&amp;sn2=77e5bd1c/ebcd09ea&amp;sn1=bf8e7366/71c21872&amp;camp=nyt2012-circ-footer_clickhere-36H9U&amp;ad=051110-footer_clickhere-36H9U&amp;goto=https%3A%2F%2Fwww%2Enytimesathome%2Ecom%2Fhd%2F101%3FSPTR%5FID%3DhdNYT%26MediaCode%3DW16AK%26CMP%3D36H9U"><img src="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com/ads/circulation/icon-newspaper.jpg" height="27" width="40" alt="Get Home
+Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066" align="left">&nbsp;Get 50% Off The New York Times &amp; Free All Digital Access.</font></a>
+
+</td>
+</tr>
+</table>
+</div>
+
+</div>
+<!--cur: prev:-->
+<div class="columnGroup ">				
+<div class="singleRuleDivider"></div>
+<div class="articleBottomExtra subColumns">
+<div class="column">
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/app/article/outbrain.js"></script>    </div>                
+<div class="column lastColumn">
+<div class="emailAlertModule module">
+<h5 class="sectionHeaderSm">Get Free E-mail Alerts on These Topics</h5>
+<form action="http://web.archive.org/web/20120530014854/https://myaccount.nytimes.com/mem/tnt.html" method="GET" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="retA" value="http://www.nytimes.com//2011/09/18/magazine/the-cyborg-in-us-all.html">
+<input type="hidden" name="retT" value="The Cyborg in Us All">
+<input type="hidden" name="module" value="call">
+<input type="hidden" name="alert_context" value="1">
+<ul class="flush">
+<li>
+<input type="hidden" name="topic1" value="Computers+and+the+Internet">
+<input type="hidden" name="topic_field1" value="des">
+<a class="inTextReferEmail" href="http://web.archive.org/web/20120530014854/https://myaccount.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=Computers+and+the+Internet&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');" onmousedown="NYTD.relatedSearches.clickHandler(event);">Computers and the Internet</a>
+</li>
+<li>
+<input type="hidden" name="topic1" value="Brain">
+<input type="hidden" name="topic_field1" value="des">
+<a class="inTextReferEmail" href="http://web.archive.org/web/20120530014854/https://myaccount.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=Brain&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');" onmousedown="NYTD.relatedSearches.clickHandler(event);">Brain</a>
+</li>
+<li>
+<input type="hidden" name="topic1" value="Computer+Monitors">
+<input type="hidden" name="topic_field1" value="des">
+<a class="inTextReferEmail" href="http://web.archive.org/web/20120530014854/https://myaccount.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=Computer+Monitors&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');" onmousedown="NYTD.relatedSearches.clickHandler(event);">Computer Monitors</a>
+</li>
+<li>
+<input type="hidden" name="topic1" value="Medicine+and+Health">
+<input type="hidden" name="topic_field1" value="des">
+<a class="inTextReferEmail" href="http://web.archive.org/web/20120530014854/https://myaccount.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=Medicine+and+Health&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');" onmousedown="NYTD.relatedSearches.clickHandler(event);">Medicine and Health</a>
+</li>
+</ul>
+</form>
+</div>
+</div>
+</div>	</div>
+<!--cur: prev:-->
+<div class="columnGroup last">
+
+<div class="columnGroup" id="adxSponLink"></div>
+<script language="JavaScript">
+        google_hints="The Cyborg in Us All";google_ad_channel="archive, archive_magazine, archive_Magazine";
+</script>
+<!-- ADXINFO classification="feature_squares" campaign="ARTICLE_GOOGLE_SPONLINK_2012"--><script language="JavaScript" type="text/javascript">
+    
+    // Sponlink_short
+
+NYTD.GoogleAds.getGoogleAds("AFC", { 
+        google_ad_client:'nytimes_article_var',
+	google_ad_channel:'left',
+        ad_target_list:'sponLink'
+    });
+</script>
+
+</div>
+</div>
+</div><!--close abColumn -->
+<div class="cColumn">
+
+<div class="columnGroup">
+
+</div>
+<!---->                    <div class="columnGroup first">
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+<div class="singleAd" id="MiddleRight">
+<!-- ADXINFO classification="BigAd" campaign="nyt2012_mktg_business_watch_now_336x280_ros"--><script type="text/javascript">
+   var movieWidth = 336;
+   var movieHeight = 280;
+   var altSrc = "http://web.archive.org/web/20120530014854/http://graphics8.nytimes.com/adx/images/ADS/29/59/ad.295913/12-0179_DailyBusinessVideo_336x280_watchnow.jpg";
+   var swfFile = "http://web.archive.org/web/20120530014854/http://graphics8.nytimes.com/adx/images/ADS/29/59/ad.295913/12-0179_DailyBusinessVideo_336x280_watchnow.swf";
+   var altClickThru = "http://web.archive.org/web/20120530014854/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/magazine&pos=MiddleRight&sn2=eab7037/e221881a&sn1=5de6e409/8272acc&camp=nyt2012_mktg_business_watch_now_336x280_ros&ad=BU-D-I-NYT-AD-BIG-BDL-ROS-0312-WN&goto=http%3A%2F%2Fvideo%2Enytimes%2Ecom%2Fvideo%2Fplaylist%2Fbusiness%2Dday%2Dlive%2F100000001312430%2Findex%2Ehtml%3FWT%2Emc%5Fid%3DBU%2DD%2DI%2DNYT%2DAD%2DBIG%2DBDL%2DROS%2D0312%2DWN%26WT%2Emc%5Fev%3Dclick%26WT%2Emc%5Fc%3D183149";
+   var swfSrc = swfFile + "?clicktag=" + escape(altClickThru);
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://www.nytimes.com/ads/common/embed3.js">
+</script>
+
+</div>
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+<div class="singleAd" id="Box3">
+<!-- ADXINFO classification="feature_squares" campaign="nyt2011-regilite-P1-ticketwatch"--><iframe title="regilite" src="http://web.archive.org/web/20120530014854if_/https://myaccount.nytimes.com/regilite?product=TR" width="336" height="90" marginheight="0" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no"></iframe>
+
+</div>
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+</div>
+<!---->                    <div class="columnGroup ">
+<div id="mostPopWidget" class="doubleRule"></div>
+<script src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/app/recommendations/recommendationsModule.js" type="text/javascript" charset="utf-8"></script>
+</div>
+<!---->                    <div class="columnGroup ">
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+<div class="bigAd" id="Box1">
+<!-- ADXINFO classification="BigAd" campaign="nyt2012_module_win_tony_hp_ros_db"--><script type="text/javascript">
+   var movieWidth = 336;
+   var movieHeight = 280;
+   var altSrc = "http://web.archive.org/web/20120530014854/http://graphics8.nytimes.com/adx/images/ADS/30/22/ad.302268/12-0902_TonyAwardsCampaign_336x280_endFrame.jpg";
+   var swfFile = "http://web.archive.org/web/20120530014854/http://graphics8.nytimes.com/adx/images/ADS/30/22/ad.302268/12-0902_TonyAwardsCampaign_336x280_v2.swf";
+   var altClickThru = "http://web.archive.org/web/20120530014854/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/magazine&pos=Box1&sn2=585d7930/c4351de1&sn1=b9fc209f/e48a6490&camp=nyt2012_module_win_tony_hp_ros_db&ad=TH-D-I-NYT-AD-BIG-TONY-ROS-0512&goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fpages%2Ftheater%2Ftheaterspecial%2Findex%2Ehtml%3FWT%2Emc%5Fid%3DTH%2DD%2DI%2DNYT%2DAD%2DBIG%2DTONY%2DROS%2D0512%26WT%2Emc%5Fev%3Dclick%26WT%2Emc%5Fc%3D187853";
+   var swfSrc = swfFile + "?clicktag=" + escape(altClickThru);
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://www.nytimes.com/ads/common/embed3.js">
+</script>
+
+</div>
+
+</div>
+<!---->                    <div class="columnGroup ">
+<!--[TwoColumnAdLeft - Begin] -->
+	<div class="adHeader">
+<h4>
+Advertisements	    </h4>
+</div>
+<div class="cColumn-TextAdsBox">
+	<div class="cColumn-TextAdsLeft">
+<div class="cColumn-TextAd">
+<!-- ADXINFO classification="SiteForADay" campaign="nyt2012_mktg_tmag_t_travel_86x60_ros"--><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Right5A&amp;sn2=2e9fe2cb/b1bf5670&amp;sn1=a3ac2416/8539b0e1&amp;camp=nyt2012_mktg_tmag_t_travel_86x60_ros&amp;ad=TM-D-I-NYT-AD-86-TTR-ROS-0512-NA&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Findexes%2F2012%2F05%2F18%2Ft%2Dmagazine%2Ftravel%2Dissue%2Findex%2Ehtml%3FWT%2Emc%5Fid%3DTM%2DD%2DI%2DNYT%2DAD%2D86%2DTTR%2DROS%2D0512%2DNA%26WT%2Emc%5Fev%3Dclick%26WT%2Emc%5Fc%3D187764" target="_blank">
+<img src="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com/adx/images/ADS/30/23/ad.302398/12-0979_T_SummerTravel_86x60.jpg" width="86" height="60" border="0"></a>
+			</div>
+<div class="cColumn-TextAd">
+			</div>
+<div class="cColumn-TextAd">
+			</div>
+<div class="cColumn-TextAd">
+			</div>
+</div>
+	</div>
+<!--[TwoColumnAdLeft - End] -->
+</div>
+<!---->                    <div class="columnGroup ">
+
+<div class="singleAd" id="Middle5">
+<!-- ADXINFO classification="FeaturedProduct" campaign="nyt2012-mktg-times-journeys-336x79-ros"--><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/magazine&amp;pos=Middle5&amp;sn2=d52677ee/70a9f641&amp;sn1=114c972c/ebcf81f3&amp;camp=nyt2012-mktg-times-journeys-336x79-ros&amp;ad=mktg-times-journeys-336x79-ros&amp;goto=http%3A%2F%2Fwww%2Einsightcruises%2Ecom%2Ftop%5Fg%2Fny01%5Ftop%2Ehtml" target="_blank">
+<img src="http://web.archive.org/web/20120530014854im_/http://graphics8.nytimes.com/adx/images/ADS/29/10/ad.291092/REVISED_11-2277_TimesJourney_336x79.jpg" width="336" height="79" border="0"></a>
+
+</div>
+
+</div>
+<!---->                    <div class="columnGroup last">
+
+</div>
+<div class="columnGroup">
+
+<div id="adxSponLinkA"></div>
+<script language="JavaScript" type="text/javascript">
+    // Sponlink_A_Short
+
+if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
+     NYTD.GoogleAds.getGoogleAds("AFC", { 
+        google_ad_client:'nytimes_article_var',
+        ad_target_list:'sponLinkA'
+     });
+
+</script>
+
+</div>
+
+</div>
+</div><!--close spanAB -->
+
+<!-- start MOTH -->
+  	<div id="insideNYTimes" class="doubleRule">
+            <script type="text/javascript" src="http://web.archive.org/web/20120530014854js_/http://js.nyt.com/js/app/moth/moth.js"></script>
+        <div id="insideNYTimesHeader">
+                    <div class="navigation"><span id="leftArrow"><img id="mothReverse" src="http://web.archive.org/web/20120530014854im_/http://i1.nyt.com/images/global/buttons/moth_reverse.gif"/></span>&nbsp;<span id="rightArrow"><img id="mothForward" src="http://web.archive.org/web/20120530014854im_/http://i1.nyt.com/images/global/buttons/moth_forward.gif"/></span></div>
+                <h4>
+            Inside NYTimes.com        </h4>
+    </div>
+    
+        
+    <div id="insideNYTimesScrollWrapper">
+        <table id="insideNYTimesBrowser" cellspacing="0">
+            <tbody>
+                <tr>
+                                                <td class="first">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/world/index.html">World &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/world/americas/virtual-therapy-helps-ciudad-juarez-residents-cope.html"><img src="http://web.archive.org/web/20120530014854im_/http://i1.nyt.com/images/2012/05/29/world/29moth_juarez/29moth_juarez-moth.jpg" alt="Virtual Therapy Helps Shellshocked City" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/world/americas/virtual-therapy-helps-ciudad-juarez-residents-cope.html">Virtual Therapy Helps Shellshocked City</a></h6>
+        </div>
+    </td>
+                                                <td>
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/opinion/index.html">Opinion &raquo;</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/opinion/the-specter-of-the-spelling-bee.html"><img src="http://web.archive.org/web/20120530014854im_/http://i1.nyt.com/images/2012/05/29/opinion/29moth_oped/29moth_oped-moth.jpg" alt="Op-Ed: Spelling Out the End" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/opinion/the-specter-of-the-spelling-bee.html">Op-Ed: Spelling Out the End</a></h6>
+        </div>
+    </td>
+                                                <td>
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/national/index.html">U.S. &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/us/shots-heard-pinpointed-and-argued-over.html"><img src="http://web.archive.org/web/20120530014854im_/http://i1.nyt.com/images/2012/05/29/us/29moth_shot/29moth_shot-moth.jpg" alt="Shots Fired, Pinpointed and Argued Over" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/us/shots-heard-pinpointed-and-argued-over.html">Shots Fired, Pinpointed and Argued Over</a></h6>
+        </div>
+    </td>
+                                                <td>
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://theater.nytimes.com/pages/theater/index.html">Theater &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/theater/theaterspecial/the-choreography-of-tony-nominees.html"><img src="http://web.archive.org/web/20120530014854im_/http://i1.nyt.com/images/2012/05/29/theater/29moth_broadway/29moth_broadway-moth.jpg" alt="Judging Tony Nominees by Their Dance Numbers" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/theater/theaterspecial/the-choreography-of-tony-nominees.html">Judging Tony Nominees by Their Dance Numbers</a></h6>
+        </div>
+    </td>
+                                                    <td>
+            <div class="story">
+                <h6 class="kicker"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/opinion/index.html">Opinion &raquo;</a></h6>
+                <h3><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/opinion/a-fair-way-to-handle-trash.html">Editorial: A Fair Way to Handle Trash</a></h3>
+                <p class="summary">All residents of New York City should accept their share of the city&rsquo;s garbage problem, including those on the Upper East Side.</p>
+            </div>
+        </td>
+                                                <td>
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/science/index.html">Science &raquo;</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/science/space/venuss-transit-between-earth-and-sun-will-be-last-until-2117.html"><img src="http://web.archive.org/web/20120530014854im_/http://i1.nyt.com/images/2012/05/29/science/29MOTH_VENU/29MOTH_VENU-moth.jpg" alt="Look for Venus Transit, or Wait Until 2117" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/science/space/venuss-transit-between-earth-and-sun-will-be-last-until-2117.html">Look for Venus Transit, or Wait Until 2117</a></h6>
+        </div>
+    </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/arts/index.html">Arts &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/arts/amid-diamond-jubilee-fever-scholars-reflect-on-monarchy.html"><span class="img" src="http://i1.nyt.com/images/2012/05/29/arts/29moth_monarchy/29moth_monarchy-moth.jpg" alt="Analyzing Royalty?s Mystique" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/arts/amid-diamond-jubilee-fever-scholars-reflect-on-monarchy.html">Analyzing Royalty&rsquo;s Mystique</a></h6>
+        </div>
+    </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/opinion/index.html">Opinion &raquo;</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/roomfordebate/2012/05/28/do-we-need-to-redefine-adulthood"><span class="img" src="http://i1.nyt.com/images/2012/05/29/opinion/29moth_rfd/29moth_rfd-moth.jpg" alt="Room for Debate: The Line Between Child and Adult" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/roomfordebate/2012/05/28/do-we-need-to-redefine-adulthood">Room for Debate: The Line Between Child and Adult</a></h6>
+        </div>
+    </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/nyregion/for-some-new-york-immigrants-vhs-is-king-for-movie-rentals.html"><span class="img" src="http://i1.nyt.com/images/2012/05/29/nyregion/29moth_vcr/29moth_vcr-moth.jpg" alt="For Some New York Immigrants, VHS Is King" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/nyregion/for-some-new-york-immigrants-vhs-is-king-for-movie-rentals.html">For Some New York Immigrants, VHS Is King</a></h6>
+        </div>
+    </td>
+                                                    <td class="hidden">
+            <div class="story">
+                <h6 class="kicker"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/opinion/index.html">Opinion &raquo;</a></h6>
+                <h3><a href="http://web.archive.org/web/20120530014854/http://opinionator.blogs.nytimes.com/2012/05/28/sentences-crisp-sassy-stirring/">Draft: Crisp, Sassy, Stirring Sentences</a></h3>
+                <p class="summary">We can craft sentences not just to get an idea across, but also to convey attitude or elicit emotion.</p>
+            </div>
+        </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/sports/index.html">Sports &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/sports/olympics/at-19-fields-is-an-olympic-favorite-in-bmx-supercross.html"><span class="img" src="http://i1.nyt.com/images/2012/05/29/sports/29moth_olympics/29moth_olympics-moth.jpg" alt="The Best and the Brashest" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/sports/olympics/at-19-fields-is-an-olympic-favorite-in-bmx-supercross.html">The Best and the Brashest</a></h6>
+        </div>
+    </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/health/index.html">Health &raquo;</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/health/29zuger.html"><span class="img" src="http://i1.nyt.com/images/2012/05/29/health/29MOTH_ZUGE/29MOTH_ZUGE-moth.jpg" alt="A Hospital That Gave Its Patients Time to Heal" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/2012/05/29/health/29zuger.html">A Hospital That Gave Its Patients Time to Heal</a></h6>
+        </div>
+    </td>
+                                    </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    </div><!-- end #insideNYTimes -->
+
+</div><!--close main -->
+<div id="footer">
+<ul class="first">
+<li class="first"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/">Home</a></li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/world/index.html">World</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/science/index.html">Science</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/health/index.html">Health</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/travel/index.html">Travel</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li>
+<li><a href="http://web.archive.org/web/20120530014854/http://spiderbites.nytimes.com/">Site Map</a></li>
+</ul>    <ul>
+<li class="first"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/ref/membercenter/help/copyright.html">&copy; 2011</a> <a href="http://web.archive.org/web/20120530014854/http://www.nytco.com/">The New York Times Company</a></li>
+<li><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/privacy">Privacy</a></li>
+<li><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/ref/membercenter/help/privacy.html#pp">Your Ad Choices</a></li>
+<li><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/ref/membercenter/help/agree.html">Terms of Service</a></li>
+<li class="termsOfSale"><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+<li><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/pages/corrections/index.html">Corrections</a></li>
+<li><a class="rssButton" href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/rss">RSS</a></li>
+<li><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+<li><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+<li><a href="http://web.archive.org/web/20120530014854/http://www.nytco.com/careers">Work for Us</a></li>
+<li><a href="http://web.archive.org/web/20120530014854/http://www.nytimes.whsites.net/mediakit/">Advertise</a></li>
+</ul>
+</div>
+</div><!--close page -->
+</div><!--close shell -->
+<img src="/web/20120530014854im_/http://www.nytimes.com/adx/bin/clientside/ae2ea86Q2Foja,,!oqi,!RXiVPjq!Q271PQ60Q5DyQ27Q5DQ5DQ5BQ22_8jQ25Q25aQ25Q60_6" height="1" width="3">
+
+</body>
+
+<!-- Start UPT call -->
+		<img height="1" width="3" border="0" src="http://web.archive.org/web/20120530014854im_/http://up.nytimes.com/?d=0/15/&amp;t=2&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2011%2f09%2f18%2fmagazine%2fthe%2dcyborg%2din%2dus%2dall%2ehtml%3fref%3dmagazine">
+		<!-- End UPT call -->
+	
+		
+        <script language="JavaScript"><!--
+          var dcsvid="0";
+          var regstatus="non-registered";
+        //--></script>
+        <script src="http://web.archive.org/web/20120530014854js_/http://graphics8.nytimes.com/js/app/analytics/trackingTags_v1.1.js" type="text/javascript"></script>
+        <noscript>
+          <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://web.archive.org/web/20120530014854im_/http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div>
+        </noscript>
+
+</html>
+
+<!--
+     FILE ARCHIVED ON 01:48:54 May 30, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:01:03 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.731
+  exclusion.robots: 0.036
+  exclusion.robots.policy: 0.021
+  esindex: 0.014
+  cdx.remote: 6.075
+  LoadShardBlock: 294.219 (3)
+  PetaboxLoader3.datanode: 109.649 (4)
+  load_resource: 194.624
+  PetaboxLoader3.resolve: 136.918
+-->

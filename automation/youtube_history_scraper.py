@@ -65,20 +65,50 @@ class YouTubeHistoryScraper:
         # User agent to avoid detection
         chrome_options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
         
-        # Setup Chrome profile directory for persistent login
-        profile_path = Path.home() / '.atlas' / 'chrome_profile'
+        # Use unique profile directory to avoid conflicts
+        import uuid
+        profile_path = Path(f'/tmp/atlas_chrome_profile_{uuid.uuid4().hex[:8]}')
         profile_path.mkdir(parents=True, exist_ok=True)
         chrome_options.add_argument(f'--user-data-dir={profile_path}')
+        chrome_options.add_argument('--disable-software-rasterizer')
+        chrome_options.add_argument('--disable-dev-shm-usage')
+        chrome_options.add_argument('--no-default-browser-check')
+        chrome_options.add_argument('--disable-background-mode')
+        chrome_options.add_argument('--disable-background-timer-throttling')
+        chrome_options.add_argument('--disable-renderer-backgrounding')
+        chrome_options.add_argument('--disable-features=TranslateUI')
+        chrome_options.add_argument('--disable-ipc-flooding-protection')
         
         try:
-            # Use ChromeDriverManager to handle driver installation
-            service = Service(ChromeDriverManager().install())
+            # Try system Chrome driver first
+            import subprocess
+            try:
+                # Check if chromedriver is available in PATH
+                result = subprocess.run(['which', 'chromedriver'], capture_output=True, text=True)
+                if result.returncode == 0:
+                    chromedriver_path = result.stdout.strip()
+                    service = Service(executable_path=chromedriver_path)
+                else:
+                    # Fallback to ChromeDriverManager
+                    service = Service(ChromeDriverManager().install())
+            except:
+                # Fallback to ChromeDriverManager
+                service = Service(ChromeDriverManager().install())
+
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
             self.wait = WebDriverWait(self.driver, self.timeout)
             logger.info("Chrome webdriver initialized successfully")
         except Exception as e:
             logger.error(f"Failed to initialize webdriver: {e}")
-            raise
+            # Try one more time with basic setup
+            try:
+                chrome_options.add_argument('--remote-debugging-port=9222')
+                self.driver = webdriver.Chrome(options=chrome_options)
+                self.wait = WebDriverWait(self.driver, self.timeout)
+                logger.info("Chrome webdriver initialized with basic setup")
+            except Exception as e2:
+                logger.error(f"Basic setup also failed: {e2}")
+                raise
             
     def login_to_google(self, email: str = None, interactive: bool = True) -> bool:
         """Login to Google account (interactive or with stored session)"""

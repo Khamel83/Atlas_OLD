@@ -1,0 +1,400 @@
+# Content from https://oll.libertyfund.org/publications/liberty-matters/2018-11-13-democracy-s-decline-pareto-and-fascism
+
+*Retrieved: 2025-09-14T20:58:33.204827*
+
+---
+
+<!DOCTYPE html>
+<html class="h-100">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="uah5MRf2x4iWAruxDxHy2rduZ6NVoXPctAAg7ShLxX3WM4DyWes9q_V3YtQcXB0YiNhW8lmtY3AiPly6zIjmIg" />
+  
+  <meta name="action-cable-url" content="/cable" />
+      <link rel="alternate" type="application/rss+xml" title="Recent Additions" href="https://oll.libertyfund.org/rss/recent_additions.rss" />
+    <link rel="alternate" type="application/feed+json" title="Recent Additions" href="https://oll.libertyfund.org/rss/recent_additions.json" />
+    <link rel="alternate" type="application/rss+xml" title="Books Published By Liberty Fund" href="https://oll.libertyfund.org/rss/books_published_by_liberty_fund.rss" />
+    <link rel="alternate" type="application/feed+json" title="Books Published By Liberty Fund" href="https://oll.libertyfund.org/rss/books_published_by_liberty_fund.json" />
+    <link rel="alternate" type="application/rss+xml" title="Economics" href="https://oll.libertyfund.org/rss/economics.rss" />
+    <link rel="alternate" type="application/feed+json" title="Economics" href="https://oll.libertyfund.org/rss/economics.json" />
+    <link rel="alternate" type="application/rss+xml" title="History" href="https://oll.libertyfund.org/rss/history.rss" />
+    <link rel="alternate" type="application/feed+json" title="History" href="https://oll.libertyfund.org/rss/history.json" />
+    <link rel="alternate" type="application/rss+xml" title="Law" href="https://oll.libertyfund.org/rss/law.rss" />
+    <link rel="alternate" type="application/feed+json" title="Law" href="https://oll.libertyfund.org/rss/law.json" />
+    <link rel="alternate" type="application/rss+xml" title="Liberty Matters" href="https://oll.libertyfund.org/rss/liberty_matters.rss" />
+    <link rel="alternate" type="application/feed+json" title="Liberty Matters" href="https://oll.libertyfund.org/rss/liberty_matters.json" />
+    <link rel="alternate" type="application/rss+xml" title="Literature" href="https://oll.libertyfund.org/rss/literature.rss" />
+    <link rel="alternate" type="application/feed+json" title="Literature" href="https://oll.libertyfund.org/rss/literature.json" />
+    <link rel="alternate" type="application/rss+xml" title="Music" href="https://oll.libertyfund.org/rss/music.rss" />
+    <link rel="alternate" type="application/feed+json" title="Music" href="https://oll.libertyfund.org/rss/music.json" />
+    <link rel="alternate" type="application/rss+xml" title="Philosophy" href="https://oll.libertyfund.org/rss/philosophy.rss" />
+    <link rel="alternate" type="application/feed+json" title="Philosophy" href="https://oll.libertyfund.org/rss/philosophy.json" />
+    <link rel="alternate" type="application/rss+xml" title="Political Theory" href="https://oll.libertyfund.org/rss/political_theory.rss" />
+    <link rel="alternate" type="application/feed+json" title="Political Theory" href="https://oll.libertyfund.org/rss/political_theory.json" />
+    <link rel="alternate" type="application/rss+xml" title="Quotations" href="https://oll.libertyfund.org/rss/quotations.rss" />
+    <link rel="alternate" type="application/feed+json" title="Quotations" href="https://oll.libertyfund.org/rss/quotations.json" />
+    <link rel="alternate" type="application/rss+xml" title="Reading Room" href="https://oll.libertyfund.org/rss/reading_room.rss" />
+    <link rel="alternate" type="application/feed+json" title="Reading Room" href="https://oll.libertyfund.org/rss/reading_room.json" />
+    <link rel="alternate" type="application/rss+xml" title="Religion" href="https://oll.libertyfund.org/rss/religion.rss" />
+    <link rel="alternate" type="application/feed+json" title="Religion" href="https://oll.libertyfund.org/rss/religion.json" />
+    <link rel="alternate" type="application/rss+xml" title="Science" href="https://oll.libertyfund.org/rss/science.rss" />
+    <link rel="alternate" type="application/feed+json" title="Science" href="https://oll.libertyfund.org/rss/science.json" />
+    <link rel="alternate" type="application/rss+xml" title="Sociology" href="https://oll.libertyfund.org/rss/sociology.rss" />
+    <link rel="alternate" type="application/feed+json" title="Sociology" href="https://oll.libertyfund.org/rss/sociology.json" />
+    <link rel="alternate" type="application/rss+xml" title="War And Peace" href="https://oll.libertyfund.org/rss/war_and_peace.rss" />
+    <link rel="alternate" type="application/feed+json" title="War And Peace" href="https://oll.libertyfund.org/rss/war_and_peace.json" />
+
+<title data-turbo-track="true">Democracy&#39;s Decline: Pareto and Fascism | Online Library of Liberty</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <meta data-turbo-track="reload" name="description" content="&nbsp; &nbsp;&nbsp;" /><meta data-turbo-track="reload" property="og:title" content="Democracy's Decline: Pareto and Fascism | Online Library of Liberty" /><meta data-turbo-track="reload" property="og:description" content="&nbsp; &nbsp;&nbsp;" /><meta data-turbo-track="reload" property="og:image" content="https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/posts/d6c8fb21bb13de6d55f6b5d371ca00e9.jpg" /><meta data-turbo-track="reload" property="og:url" content="https://oll.libertyfund.org/publications/liberty-matters/2018-11-13-democracy-s-decline-pareto-and-fascism" /><meta data-turbo-track="reload" name="twitter:card" content="summary_large_image" /><meta data-turbo-track="reload" name="twitter:title" content="Democracy's Decline: Pareto and Fascism | Online Library of Liberty" /><meta data-turbo-track="reload" name="twitter:description" content="&nbsp; &nbsp;&nbsp;" /><meta data-turbo-track="reload" name="twitter:image" content="https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/posts/d6c8fb21bb13de6d55f6b5d371ca00e9.jpg" /><meta data-turbo-track="reload" property="twitter:url" content="https://oll.libertyfund.org/publications/liberty-matters/2018-11-13-democracy-s-decline-pareto-and-fascism" /><meta data-turbo-track="reload" property="twitter:domain" content="oll.libertyfund.org" />
+  <link rel="canonical" href="https://oll.libertyfund.org/publications/liberty-matters/2018-11-13-democracy-s-decline-pareto-and-fascism" data-turbo-track="reload"></link>
+  <link rel="stylesheet" href="/assets/application-d7a40ef554381d8490035142b9e5560c8bae644ee9d3523136bafc1d24bc9ceb.css" data-turbo-track="reload" />
+  <script src="/assets/application-cefdcccee6f900ebb143f6a96ab1feeb46a5c77d061eba71291c8f850671ec41.js" data-turbo-track="reload" defer="defer"></script>
+    <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MRXH35R');</script>
+  <!-- End Google Tag Manager -->
+
+</head>
+
+<body class="d-flex flex-column clean neeson">
+    <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRXH35R"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+<header>
+  <nav class="navbar navbar-expand-lg" id="main-navigation">
+    <div class="container">
+      <a class="navbar-brand" id="oll-logo" title="Home Page | The Online Library of Liberty" href="/">
+      <img alt="The Online Library of Liberty" width="86" height="86" src="/assets/oll-logo-stacked-a38794da269bcdab15520fcbdfb162c49c5a7e99b89771daa1c33dc89b653a02.svg" />
+</a>      <div class="mobile-controls">
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mobile-search" aria-controls="mobile-search" aria-expanded="false" aria-label="Toggle search">
+          <label for="m-search"><i class="fa fa-search btn icon-color-blue"></i><span class="visually-hidden">Search</span></label>
+        </button>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#site-links" aria-controls="site-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse d-sm-none" id="mobile-search">
+        <ul class="navbar-nav me-auto mb-0 d-sm-none">
+          <li class="nav-item" id="mobile_search_container">
+            <form id="mobile_search" action="/search/results" class="py-1 bg-light">
+              <input id="m-search" type="search" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="form-control rounded-2 border border-secondary d-sm-none" placeholder="Search...">
+            </form>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="site-links">
+        <ul class="navbar-nav me-auto mb-0">
+          <li class="nav-item dropdown" data-controller="hover">
+          <a id="titles-menu-item" class="text-uppercase link-dropdown dropdown-toggle nav-link" aria-expanded="false" href="/titles">Titles</a>
+          <ul class="dropdown-menu" aria-labelledby="titles-menu-item">
+            <li><a class="dropdown-item" href="/titles/categories">By Category</a></li>
+            <li><a class="dropdown-item" href="/titles/by-author">By Author</a></li>
+            <li><a class="dropdown-item" href="/titles/by-editor">By Editor</a></li>
+            <li><a class="dropdown-item" href="/titles/by-translator">By Translator</a></li>
+          </ul>
+</li>          <li class="case nav-item dropdown" data-controller="hover">
+          <a id="collections-menu-item" class="text-uppercase text-uppercase link-dropdown dropdown-toggle nav-link" aria-expanded="false" href="/collections">Collections</a>
+          <ul class="dropdown-menu" aria-labelledby="collections-menu-item">
+            <li><a class="dropdown-item" href="/collections/categories">By Category</a></li>
+            <li><a class="dropdown-item" href="/collections/time-periods">By Time Period</a></li>
+            <li><a class="dropdown-item" href="/collections/themes">By Theme</a></li>
+            <li><a class="dropdown-item" href="/collections/regions">By Region</a></li>
+            <li><a class="dropdown-item" href="/collections/people-by-name">People by Name</a></li>
+            <li><a class="dropdown-item" href="/collections/people-by-categories">People by Category</a></li>
+            <li><a class="dropdown-item" href="/collections/quotes-by-authors">Quotes by Author</a></li>
+            <li><a class="dropdown-item" href="/collections/quotes-by-categories">Quotes by Category</a></li>
+          </ul>
+</li>          <li class="nav-item dropdown" data-controller="hover">
+            <a id="publications-menu-item" class="text-uppercase link-dropdown dropdown-toggle nav-link active" aria-expanded="false" href="/publications">Publications</a>
+            <ul class="dropdown-menu" aria-labelledby="publications-menu-item">
+              <li><a class="dropdown-item" href="/publications/liberty-matters">Liberty Matters</a></li>
+              <li><a class="dropdown-item" href="/publications/reading-room">The Reading Room</a></li>
+              <li><a class="dropdown-item" href="/pages">By Category</a></li>
+            </ul>
+</li>          <li class="nav-item">
+            <a class="text-uppercase nav-link link-dropdown" href="/community">Community</a>
+          </li>
+          <li class="nav-item dropdown" data-controller="hover">
+            <a id="about-menu-item" class="text-uppercase link-dropdown dropdown-toggle nav-link" aria-expanded="false" href="/about-the-oll">About</a>
+            <ul class="dropdown-menu" aria-labelledby="about-menu-item">
+              <li><a class="dropdown-item" href="/newsletter">Newsletter</a></li>
+              <li><a class="dropdown-item" href="/contact-us">Contact</a></li>
+            </ul>
+</li>        </ul>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown" data-controller="hover">
+            <a class="text-uppercase nav-link link-dropdown dropdown-toggle" id="network-menu-item" aria-expanded="false">Liberty Fund Network</a>
+            <ul class="dropdown-menu" aria-labelledby="network-menu-item">
+              <li><a class="dropdown-item" href="https://www.libertyfund.org">Liberty Fund</a></li>
+              <li><a class="dropdown-item" href="https://www.econlib.org">EconLib</a></li>
+              <li><a class="dropdown-item" href="https://www.lawliberty.org">Law &amp; Liberty</a></li>
+              <li><a class="dropdown-item" href="https://www.adamsmithworks.org">Adam Smith Works</a></li>
+            </ul>
+          </li>
+          <li class="nav-item spacer d-xl-none">&nbsp;</li>
+          <li class="nav-item d-none d-lg-block ms-xl-4" id="site_search_container">
+            <form id="site_search" action="/search/results" class="ms-lg-3 d-lg-flex pt-3 pt-lg-0">
+              <label for="search" class="search-btn d-none d-lg-block"><i class="fa fa-search btn icon-color-blue"></i><span class="visually-hidden">Search</span></label>
+              <input id="search" type="search" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="form-control rounded-2 border border-secondary" placeholder="Search...">
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="container posts">
+    <nav aria-label="breadcrumb">
+  <ol class="breadcrumb oll">
+      <li class="breadcrumb-item" aria-current="false">
+        <a href="/publications">Publications</a>
+</li>      <li class="breadcrumb-item" aria-current="false">
+        <a href="/publications/liberty-matters">Liberty Matters</a>
+</li>      <li class="breadcrumb-item" aria-current="false">
+        <a href="/publications/liberty-matters/archives/2018">Archives: 2018</a>
+</li>      <li class="breadcrumb-item active" aria-current="page">
+        Democracy&#39;s Decline: Pareto and Fascism
+</li>  </ol>
+</nav>
+
+<div class="break-container blue-hero hero-unit liberty-matters mb-sm-4 mb-xs-3" style="background-image: url('https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/posts/d146822b741b857f877b22242897d364.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 py-sm-3 py-lg-5">
+        <div class="row">
+          <div class="col-md-10 post-head">
+            <small class="text-uppercase my-4 d-block">Liberty Matters</small>
+            <h1 id="post_1053">Democracy’s Decline: Pareto and Fascism
+</h1>
+            <p class="byline my-4">
+              By: <a href="/people/alberto-mingardi">Alberto Mingardi</a>
+              <time datetime="2018-11-13 07:00:00 -0500">November 13, 2018</time>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 my-3 p-0 picture-block" style="background-image: url('https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/posts/d6c8fb21bb13de6d55f6b5d371ca00e9.jpg')">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-5">
+  <div class="col-md-8" data-controller="footnote decorator">
+
+<div class="post-content">
+      <div class="trix-text">    </div>
+    </div>
+
+<div class="post-content">
+      <div class="trix-text">
+<img src="https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/posts/d6c8fb21bb13de6d55f6b5d371ca00e9.jpg" width="220" height="293" class="img-fluid">A few words are perhaps due regarding what Rosolino Candela calls Pareto's "alleged" association with fascism. Giandomenica Becchio points out that "his initial sympathy for early fascism has been overestimated and probably had been manipulated by the regime."</div><div class="trix-text">Indeed, too much has been made of such sympathy, though it is a fact that Pareto supported the fledgling fascist movement.</div><div class="trix-text">For one thing, Pareto passed away a few months after the March on Rome and a few months before the assassination of the socialist MP Giacomo Matteotti, which showed the true color of fascism for all to see. So he can certainly be excused for not having predicted the evolution of the regime. In his essay "<em>Pochi punti di un futuro ordinamento costituzionale</em>," in which he reflects on the sort of reforms the fascist government might undertake, he writes:</div><blockquote>To only govern with the consent of a majority, however large, cannot be done.… To only govern with force, for any length of time, cannot be done. It is necessary to know whether the consent—at least implicit—of the larger number does exist. For this a House of Representatives is quite useful.… A broad freedom of the press is indispensable.… Care should be taken lest one yields to the temptation of strongly curbing it. [Pareto 1923, 797]</blockquote><div class="trix-text">This sort of plea for freedom of expression is certainly in contrast with the ambitions, and the practice, of fascists.</div><div class="trix-text">Still, what is more interesting, as Giandomenica remarked, is that Pareto's interest in fascism was grounded in his understanding of the crisis of democracy. This was the crisis he styled as "demagogic plutocracy."</div><div class="trix-text">It may be worth quoting Pareto on how this particular political arrangement came to be (Pareto 1920, 83-83):</div><ol>
+<li>A very large increase of wealth, of savings, of "capital" directed to production.</li>
+<li>Such a distribution of wealth that inequality persists. Some contend that [inequality] increased, others that it decreased; it is likely that the average distribution did not change.</li>
+<li>The steadily increasing importance of two social classes, namely the wealthy speculators and the workers.… "Plutocracy" is seen to grow and prosper, when one looks at the first of these occurrences, "Democracy" is seen to increase when one focuses on the second….</li>
+<li>A partial alliance between these two elements, which becomes particularly remarkable since the end of the 19th century. Despite speculators' and workers' interests being not entirely coincident, still part of the first and part of the second find working in the same direction to be profitable for both, with the goal of capturing the government and exploiting the remaining social classes. It also follows that plutocrats achieve this alliance by cunning means, availing themselves of the sentiments (residues) which obtain in the common people…</li>
+<li>While the power of these two classes grows, likewise declines the power of the remaining two, namely the wealthy or affluent owners which are not speculators, and the military; in fact, the power of these is by now quite negligible….</li>
+<li>Slowly and steadily, the recourse to force passes from the superior to the inferior classes….</li>
+<li>Parliaments turn out to be a very effective tool of demagogic plutocracy….</li>
+</ol><div class="trix-text">Notice that Pareto did not focus on the opposition between employers and employees: he saw an alliance between some of them, an alliance established on a common interest and kept alive by political myth-making.</div><div class="trix-text">He considered World War I a consequence of demagogic plutocracy, with profiteers benefiting from military spending and part of the working class cheering entry into the war, hoping for a better life afterward. The very triumph of demagogic plutocracy foreshadowed a crisis of this kind of regime. Plutocracy feeding demagogy entails a dangerous equilibrium: it means feeding ever-bigger demands for new benefits and special privileges. For Pareto, when a ruling class weakens, it becomes at the same time less efficacious in defending its own power but also more greedy: "on the one hand its yoke gets heavier, on the other hand it has less strength to keep [the yoke on society]." (Pareto 1900, 206; Zetterberg trans., p. 59)</div><div class="trix-text">The crisis of democracy in Italy was strongly felt during the so-called "<em>Biennio Rosso</em>," the "Red two years," with violence dominating the political scene. A Bolshevik-style revolution or a nationalist reaction was possible, but so was a continuous crisis in which the old ruling class tried to cope with ever-growing popular demands by multiplying giveaways in the hope of preserving its old interests.</div><div class="trix-text">One thing fascism certainly did was replace the old rulers with a new elite.</div><div class="trix-text">This—admittedly awfully simplified—summary may highlight a couple of things that are relevant for reading today's politics too. First, distributive coalitions underpin many political phenomena, but they are not necessarily the most obvious ones. Second, distributive coalitions need to be fed with both government giveaways and a comforting ideology: striking a balance between the two isn't easy. Third, we certainly like to talk about times changing, novelties in government, "the people" regaining center stage; but more often than not, what we are actually facing is a competition between wannabe masters. Pareto knew it well: "It is an illusion to believe that now stands, in front of the ruling class, the people; what stands in front of it is a new and future aristocracy, which leans on the people, and actually you can already see some marks of contrast between that new aristocracy and the rest of the people." (Pareto 1900, 218; Zetterberg trans., p. 72.)</div><div class="trix-text">To be blunt, in this age of rampant populism (for lack of a better word), it is appalling to me how often opinion makers take the populists at face value, assuming they are something "new" on the basis of their rhetoric. More interesting would be to look at what interest they represent (not necessarily to what interest they <em>claim</em> to represent) and to what ideological chords they aim to strike.</div>
+    </div>
+
+<div class="copyright">
+      <h4>Copyright and Fair Use Statement</h4>
+      <p>“Liberty Matters” is the copyright of <a href="https://libertyfund.org">Liberty Fund, Inc</a>. This material is put on line to further the educational goals of Liberty Fund, Inc. These essays and responses may be quoted and otherwise used under “fair use” provisions for educational and academic purposes. To reprint these essays in course booklets requires the prior permission of Liberty Fund, Inc. Please contact <a href="mailto:oll@libertyfund.org">oll@libertyfund.org</a> if you have any questions.</p>
+
+</div>
+
+<dialog data-footnote-target="popper" class="pop" data-action="click->footnote#hide"></dialog>
+  </div>
+  <div class="col-md-4">
+    <div class="related-card">
+  <h4 class="related-card-header">Current Posts</h4>
+  <div class="related-card-body">
+    <div class="list-group">
+      <a class="list-group-item list-group-item-action" href="/publications/liberty-matters/2025-06-02-the-legacy-of-david-boaz">The Legacy of David Boaz (Jun 02, 2025)</a>
+      <a class="list-group-item list-group-item-action" href="/publications/liberty-matters/2025-03-20-jefferson-in-time-perspectives-through-his-eyes">Jefferson in Time: Perspectives through His Eyes (Mar 20, 2025)</a>
+      <a class="list-group-item list-group-item-action" href="/publications/liberty-matters/2025-02-18-early-spanish-empire-in-north-america">Early Spanish Empire in North America (Feb 18, 2025)</a>
+      <a class="list-group-item list-group-item-action" href="/publications/liberty-matters/2025-01-14-ancient-legacies-democracy-v-republic-greece-v-rome">Ancient Legacies: Democracy v Republic (Greece v Rome) (Jan 14, 2025)</a>
+      <a class="list-group-item list-group-item-action active" href="/publications/liberty-matters/archives">Archived Posts…</a>
+    </div>
+  </div>
+</div>
+
+<div class="sticky-top mt-3" style="top: 1rem">
+  
+  <div class="related-card">
+  <h3 class="h5 related-card-header">
+    Part of: <a href="/publications/liberty-matters/alberto-mingardi-vilfredo-pareto-liberalism-november-2018">Alberto Mingardi, “Liberty and Cynicism: Was Vilfredo Pareto a Liberal?” (November 2018)</a>
+  </h3>
+  <div class="related-card-body">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-05-vilfredo-pareto-s-scholarly-journey-from-economics-to-sociology">
+          <span class="section-type">Response Essay</span>
+          Vilfredo Pareto’s Scholarly Journey from Economics to Sociology
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-06-pareto-s-dilemma-the-allocation-of-liberty-between-rationality-and-irrationality">
+          <span class="section-type">Response Essay</span>
+          Pareto’s Dilemma: The Allocation of Liberty between Rationality and Irrationality
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-07-an-imperfect-interpretation-of-vilfredo-pareto-s-classical-liberalism">
+          <span class="section-type">Response Essay</span>
+          An “Imperfect” Interpretation of Vilfredo Pareto’s Classical Liberalism
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-08-pareto-and-the-death-of-liberal-europe">
+          <span class="section-type">Conversation Comments</span>
+          Pareto and the Death of Liberal Europe
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-13-pareto-s-political-view-anti-metaphysics-and-irrationality-a-clarification">
+          <span class="section-type">Conversation Comments</span>
+          Pareto’s Political View: Anti-metaphysics and “Irrationality,” a Clarification
+
+</a></li>      <li class="list-group-item active">
+        <a href="/publications/liberty-matters/2018-11-13-democracy-s-decline-pareto-and-fascism">
+          <span class="section-type">Conversation Comments</span>
+          Democracy’s Decline: Pareto and Fascism
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-14-reason-sentiment-and-the-rational-irrational-polarity">
+          <span class="section-type">Conversation Comments</span>
+          Reason, Sentiment, and the Rational-Irrational Polarity
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-14-a-conflict-of-visions-in-vilfredo-pareto-s-classical-liberalism">
+          <span class="section-type">Conversation Comments</span>
+          A Conflict of Visions in Vilfredo Pareto’s Classical Liberalism?
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-19-pareto-as-theorist-of-open-social-evolution">
+          <span class="section-type">Conversation Comments</span>
+          Pareto as Theorist of Open Social Evolution
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-27-pareto-and-classical-liberalism">
+          <span class="section-type">Conversation Comments</span>
+          Pareto and Classical Liberalism
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-27-in-the-end-what-can-we-learn-from-pareto">
+          <span class="section-type">Conversation Comments</span>
+          In the End, What Can We Learn from Pareto?
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-27-can-realism-and-liberalism-be-reconciled">
+          <span class="section-type">Conversation Comments</span>
+          Can Realism and Liberalism Be Reconciled
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-30-is-a-liberal-elitism-possible">
+          <span class="section-type">Conversation Comments</span>
+          Is a “Liberal Elitism” Possible?
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-30-pareto-s-value-to-contemporary-political-economy">
+          <span class="section-type">Conversation Comments</span>
+          Pareto’s Value to Contemporary Political Economy
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-30-can-we-be-pessimistically-optimistic-about-the-future">
+          <span class="section-type">Conversation Comments</span>
+          Can We Be “Pessimistically Optimistic” About the Future?
+
+</a></li>      <li class="list-group-item">
+        <a href="/publications/liberty-matters/2018-11-30-final-word">
+          <span class="section-type">Conversation Comments</span>
+          Final Word
+
+</a></li>    </ul>
+  </div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</main>
+  <footer class="footer mt-auto text-white" data-turbo="false">
+  <div class="container px-5 px-md-3 pb-lg-5 pt-lg-3">
+    <div class="row">
+      <div class="col-md">
+        <a href="/" class="logo"><img src="/assets/oll-logo-white-on-dblue-ba4bbd4ded0c0d231428daa06f140dfbd96a23168a33ac95018e34c1235b4e74.svg" alt="Online Library of Liberty logo"></a>
+        <h4>The Online Library <span class="nobr">of Liberty</span></h4>
+        <p><strong>Liberty Fund, Inc.</strong></p>
+        <p class="street-address">
+          11301 North <span class="nobr">Meridian Street</span><br>
+          Carmel, IN <span class="nobr">46032-4564</span>, USA
+        </p>
+        <p class="email">
+          <a href="mailto:oll@libertyfund.org">oll@libertyfund.org</a>
+        </p>
+      </div>
+      <div class="col-md pt-3">
+        <h4><a href="/about-the-oll">About</a></h4>
+        <p><a href="/about-the-oll">About the OLL</a></p>
+        <p><a href="/contact-us">Contact Us</a></p>
+        <p><a href="/privacy_policy">Privacy Policy</a></p>
+        <p><a href="/collections/goodrich-seminar-room">Goodrich Seminar Room</a></p>
+      </div>
+      <div class="col-md pt-3">
+        <h4><a href="/publications">Publications</a></h4>
+        <p><a href="/titles">Titles</a></p>
+        <p><a href="/publications/liberty-matters">Liberty Matters</a></p>
+        <p><a href="/publications/reading-room">The Reading Room</a></p>
+      </div>
+      <div class="col-md pt-3">
+        <h4><a href="/collections/themes/learning-guides">Resources</a></h4>
+        <p><a href="/collections">Collections</a></p>
+        <p><a href="/collections/quotes-by-authors">Quotes</a></p>
+        <p><a href="/community">Virtual Reading Groups</a></p>
+      </div>
+      <div class="col-lg pt-3">
+        <iframe src="/mc-form-footer.html" frameborder="0" scrolling="no" style="display:block;height:340px;width:100%;"></iframe>
+      </div>
+    </div>
+  </div>
+  
+  <div class="legal text-muted bg-dark">
+    ©Copyright 2003 –
+    2025
+    Liberty Fund, Inc. All rights reserved.
+  </div>
+</footer>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-3754298-1', 'auto');
+    ga('send', 'pageview');
+
+$(document).on('click', 'a.download-track', function(evt){
+      evt.preventDefault();
+      var url = $(this).attr('href');
+      ga('send', 'event', 'download', 'click', url, {
+        'transport': 'beacon',
+        'hitCallback': function(){
+          document.location = url;
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

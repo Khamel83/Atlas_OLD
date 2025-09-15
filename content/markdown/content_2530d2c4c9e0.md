@@ -1,0 +1,177 @@
+# Content from https://www.rollingstone.com/tv-movies/tv-movie-features/the-idol-hbo-next-euphoria-torture-porn-the-weeknd-sam-levinson-lily-rose-depp-blackpink-jennie-1234688754/
+
+*Retrieved: 2025-09-14T20:13:10.990336*
+
+---
+
+<html><body><div><div class="pmc-paywall"><p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+<a data-tag="lily-rose-depp" href="https://www.rollingstone.com/t/lily-rose-depp/" id="auto-tag_lily-rose-depp">Lily-Rose Depp</a> as a glamorous, troubled pop star. <a href="https://www.rollingstone.com/music/music-lists/best-weeknd-songs-1294728/">The Weeknd</a> as a slimy, modern <a data-tag="cult" href="https://www.rollingstone.com/t/cult/" id="auto-tag_cult">cult</a> leader. Supporting roles for <a href="https://www.rollingstone.com/music/music-features/blackpink-lisa-jennie-rose-jisoo-new-music-1354784/">Blackpink’s Jennie</a>, <a data-tag="troye-sivan" href="https://www.rollingstone.com/t/troye-sivan/" id="auto-tag_troye-sivan">Troye Sivan</a>, and a handful of other buzzy stars. And in-demand director <a data-tag="sam-levinson" href="https://www.rollingstone.com/t/sam-levinson/" id="auto-tag_sam-levinson">Sam Levinson</a> at the helm. For months, the hype machine has been at full tilt for <a data-tag="hbo" href="https://www.rollingstone.com/t/hbo/" id="auto-tag_hbo">HBO</a>’s upcoming series <em>The Idol</em>,<em> </em>which is being billed as a darker, crazier, and more risqué version of Levinson’s smash-hit <a href="https://www.rollingstone.com/culture/culture-news/euphoria-cast-podcast-dont-let-this-flop-1293427/"><em><a data-tag="euphoria" href="https://www.rollingstone.com/t/euphoria/" id="auto-tag_euphoria">Euphoria</a></em></a>. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Levinson and Abel “<a data-tag="the-weeknd" href="https://www.rollingstone.com/t/the-weeknd/" id="auto-tag_the-weeknd">The Weeknd</a>” Tesfaye are the “sick and twisted minds” behind the “sleaziest love story in all of Hollywood” (HBO’s words) that follows pop superstar Jocelyn (Depp) as she navigates the seedy underbelly of the music industry and falls under the spell of Tedros (Tesfaye), a mysterious owner of a popular L.A. nightclub who secretly runs a cult reminiscent of <a href="https://www.rollingstone.com/culture/culture-features/lauren-salzman-nxivm-sex-slave-keith-raniere-testimony-trial-836547/">NXIVM</a> and <a href="https://www.rollingstone.com/tv-movies/tv-movie-features/kirstie-alley-scientology-leah-remini-1234642182/">Scientology</a>. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+<a href="https://www.rollingstone.com/tv-movies/tv-movie-news/the-weeknd-the-idol-hbo-1261776/">Though the show was ordered to series in November 2021</a>, it’s been months since HBO gave a concrete update about when <em>The Idol</em> will debut. One source with knowledge of the production schedule tells <em>Rolling Stone</em> the network initially hoped for <em>The Idol</em> to premiere last fall, taking over the Sunday time slot left open by <a href="https://www.rollingstone.com/tv-movies/tv-movie-features/house-of-the-dragon-season-1-review-1234615881/"><em>House of the Dragon</em></a>, which ended in October. Yet three teaser trailers have come and gone, and HBO can still only <a href="https://www.hbo.com/the-idol" rel="nofollow" target="_blank">offer</a> a vague “later this year.” (A rep for the network declined to comment on when the show will air.)
+
+</p>
+
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Now, production sources tell <em>Rolling Stone</em> that even they are in the dark on when the show will make it to air, and have little idea about what the final version will look like, claiming the production was plagued by delays, reshoots, and rewrites. “It was, let’s just say, a shitshow,” one says.
+
+</p>
+
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	The first public inkling of trouble came last April, when director Amy Seimetz, of <em>The Girlfriend Experience</em> and <em>She Dies Tomorrow</em>, suddenly exited with roughly 80 percent of the six-episode series finished. HBO addressed the news by confirming <em>The Idol</em> was set to have a major creative overhaul and would be adjusting the cast and crew. There was little explanation for the shakeup,<a href="https://deadline.com/2022/04/the-idol-hbo-suzanna-son-1235010740/" target="_blank"> except for reports</a> that Tesfaye, who is co-creator, felt the show was heading too much into a “female perspective.”
+
+</p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	In interviews with 13 members of the show’s cast and crew, <em>Rolling Stone</em> has learned the drastic delay was caused by Levinson taking over as director and scrapping the nearly-finished $54-75 million project to rewrite and reshoot the entire thing. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	With Seimetz out of the picture, HBO handed the reins to Levinson, only to have him weaken the show’s overarching message, many sources say, by dialing up the disturbing sexual content and nudity to match — and even surpass — that of his most successful show, <em>Euphoria</em>. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	“What I signed up for was a dark satire of fame and the fame model in the 21st century,” one production member explains. “The things that we subject our talent and stars to, the forces that put people in the spotlight and how that can be manipulated in the post-Trump world.” However, they add, “It went from satire to the thing it was satirizing.”  </p>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube"></figure>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Four sources say that Levinson ultimately scrapped Seimetz’s approach to the story, making it less about a troubled starlet falling victim to a predatory industry figure and fighting to reclaim her own agency, and more of a degrading love story with a hollow message that some crew members describe as being offensive. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	“It was like any <a data-tag="rape" href="https://www.rollingstone.com/t/rape/" id="auto-tag_rape">rape</a> fantasy that any toxic man would have in the show — and then the woman comes back for more because it makes her music better,” one production member explains of Levinson’s version.
+
+</p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Levinson and Tesfaye did not respond to requests for comment, however after this story published, <a href="https://twitter.com/theweeknd/status/1631045507471605760?s=20" rel="noreferrer noopener nofollow" target="_blank">Tesfaye posted a clip from <em>The Idol,</em></a> writing, “<em>Rolling Stone</em> did we upset you?”</p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	In a statement provided to <em>Rolling Stone</em>, Depp called Levinson “the best director” she’s ever worked with, saying she has never “felt more supported or respected in a creative space, my input and opinions more valued.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	A source close to the production added, “It couldn’t have been a better crew from my standpoint, from both Amy and in Sam’s case across the board. [They are] completely professional people, thinking ahead, people problem solving on a dime, being collaborators and caring. There just was an overall caring from both the cast and the crew deeply on both sets.”
+
+</p>
+
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	HBO called <em>The Idol </em>one of the network’s “most exciting and provocative original programs,” in a statement to <em>Rolling Stone</em>, adding “the creative team has been committed to creating a safe, collaborative, and mutually respectful working environment, and last year, the team made creative changes they felt were in the best interest of both the production and the cast and crew.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+<strong><em>The Idol</em> was dreamed up by Tesfaye,</strong> his producing partner Reza Fahim, and Levinson, going into development in June 2021 with<a href="https://www.rollingstone.com/tv-movies/tv-movie-news/the-weeknd-the-idol-hbo-1261776/"> HBO ordering it to series that November</a>. All three are credited as writers, along with writer Joe Epstein and<em> Succession</em>’s Mary Laws. Seimetz, whose indie, psychological-thriller style seemed a good fit for the show’s dark and sinister themes, was announced that month as director.</p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	But three crew members allege Seimetz seemed set up to fail from the start. When she arrived on set seven weeks before the show started filming, she was given half-finished scripts, a first-time showrunner in Epstein, a tight schedule, and near-impossible expectations from HBO, those sources say. “Amy was doing her best in an impossible situation, but she was going to lose this no matter what,” one production member says. “Honestly, I think HBO handed her a shit stack.” (Seimetz declined to comment.)</p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Two sources familiar with the show’s finances say HBO had wanted to keep costs low with a series budget around $54 million, or roughly $9 million an episode for the six-episode series. (That’s about half the budget of <em>Euphoria’s </em>upcoming third season, which is expected to cost at least $110 million. The teen drama’s second season<em>, </em>which had eight episodes, cost more than $97 million, and its first season’s budget was over $47 million, according to <a href="https://cdn.film.ca.gov/wp-content/uploads/2021/04/2-0-Approved-Projects-List.pdf" rel="nofollow" target="_blank">California film and TV tax credit records</a>.) Despite the constrained allowance, the network allegedly expected Seimetz to deliver <em>Euphoria</em>-esque results, complete with music videos and using expensive mansions, nightclubs, and stadiums as sets. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	The timeline was also tight, production sources claim. Filming began in late 2021 and went into hiatus the following April. (<em>Euphoria</em> Season Two <a href="https://www.indiewire.com/2021/01/euphoria-season-2-filming-march-episodes-release-1234611069/" target="_blank">reportedly took roughly seven months to film</a>, and<em> </em><a href="https://www.hbo.com/house-of-the-dragon" rel="nofollow" target="_blank"><em>House of the Dragon</em> production took 10 months</a>.) Seimetz had a hard out because she was booked for an acting role on Netflix’s DC show <em>Sweet Tooth</em>. <a href="https://www.indiewire.com/2022/04/the-weeknd-amy-seimetz-the-idol-filmmakers-direct-tv-1234720464/" target="_blank">Another director was reportedly expected to step in to take over shooting</a> the finale and Seimetz would handle post-production from her shoot in New Zealand. Tesfaye’s availability was also limited, since he was preparing to embark on a worldwide tour in early July.
+
+</p>
+
+<div class="post-content-image //">
+<figure class="o-figure size-large alignnone lrv-u-max-width-100p">
+
+<figcaption class="c-figcaption lrv-u-flex lrv-u-flex-direction-column lrv-u-align-items-center">
+<span class="u-border-color-black u-border-lr-2 lrv-u-padding-tb-025 lrv-u-padding-lr-075 lrv-u-border-b-2 lrv-u-width-100p lrv-u-text-align-center a-font-basic-secondary-s">Amy Seimetz directs Donald Glover on the set of ‘Atlanta’ in 2018.</span>
+<cite class="lrv-u-text-transform-uppercase lrv-a-font-body-xs lrv-u-margin-t-050 lrv-u-text-align-center">FX</cite>
+</figcaption>
+</figure>
+</div>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	In addition, Levinson was largely absent from <em>The Idol’</em>s set early on, his time instead devoted to wrapping up <em>Euphoria’</em>s second season, which was being filmed on the lot next door. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	One of the first times two crew members recall seeing Levinson physically on the <em>Idol</em> set was a few weeks into production, which was also the day Depp was filming her first intimate scene with Tesfaye. But the source close to the production had a different take. “What I always found so refreshing about Sam is that I could approach him,” the source said. “He was always approachable to tell you what he was thinking so that we could hopefully plan ahead and start working on things. I think that was part of the huge success of our show, is that he was always approachable and he had the vision in his head.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Another stressor, sources say, was that while Seimetz was entrusted by HBO to supposedly put her stamp on the show, Levinson had an entirely different vision of what <em>The Idol</em> should be. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	“I went into <em>The Idol </em>thinking that this might be an interesting collaboration, but I left it pretty convinced that [Levinson] is not quite collaborative,” one source  says. “It’s really frustrating seeing Amy doing her damn best to turn around some kind of product that she can be somewhat proud of to HBO… and then [for HBO] to turn around and have Sam get essentially a blank check to turn it into ‘<em>Euphoria </em>Season Three with pop stars’ is extremely, extremely frustrating.”  </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l lrv-u-text-align-left">
+<strong>Of those who worked on</strong> the production’s first iteration, many say they were fans of the original script, describing it as a layered narrative that was driving home a message about the trappings and exploitations of fame. One crew member describes having their choice of several other prominent opportunities and signing on for <em>The Idol</em> purely because they were impressed with the story. “It was gripping. I couldn’t put it down,” another says. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	As promising as those initial scripts were, the scripts for the final episodes were still only half-finished and the finale completely unwritten. Seimetz was encouraged by HBO and producers to put her own spin on the show and write the last episode, a source explains. As a result, Seimetz was polishing up scripts and writing while directing. She also had her assistant, who had no previous credited writing experience, writing scenes, with HBO making the assistant a staff writer last January. (The assistant did not respond to a request for comment.)
+
+</p>
+
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Organization quickly evaporated, mainly due to changes in the script, sources say. One production member says the first version of the show went through more than 20 rewrites, saying scripts were being updated constantly: “We did it every fucking day. It was insane.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	“It did start drastically changing,” another production member confirms. “It was kind of a joke how many revisions there were — whether it was changing somebody’s name or whether it was something more intensive, like completely changing the scene and taking away a story.” </p>
+<div class="post-content-image //">
+<figure class="o-figure size-large alignnone lrv-u-max-width-100p">
+
+<figcaption class="c-figcaption lrv-u-flex lrv-u-flex-direction-column lrv-u-align-items-center">
+<span class="u-border-color-black u-border-lr-2 lrv-u-padding-tb-025 lrv-u-padding-lr-075 lrv-u-border-b-2 lrv-u-width-100p lrv-u-text-align-center a-font-basic-secondary-s">Sam Levinson with his father, director Barry Levinson.</span>
+<cite class="lrv-u-text-transform-uppercase lrv-a-font-body-xs lrv-u-margin-t-050 lrv-u-text-align-center">Getty</cite>
+</figcaption>
+</figure>
+</div>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Eventually, the crew say they stopped getting one-liners, an industry term for daily schedules of what was being shot. And the few one-liners that were given out quickly became useless due to changes, sources say. Decisions were being made on the fly, frustrating several crew members who say they felt they could never properly prepare for the next day of work. “I’d be driving home [at the end of the day] and they’d be like, ‘Oh, we’re adding a scene, but it hasn’t been written yet,’” one says. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Still, HBO executives and Tesfaye were supposedly pleased with Seimetz’s early cuts and the show’s direction, according to a personal familiar with the matter. However, when the show went on a break in April before the finale episode was to be filmed things drastically changed. Seimetz was out and Levinson was stepping in. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	A <a href="https://deadline.com/2022/04/the-idol-hbo-suzanna-son-1235010740/" target="_blank">report from April blamed the show’s overhaul</a> on Tesfaye, who was reportedly unhappy that the story was focusing too much on Depp’s character, according to <em>Deadline</em>. A source with knowledge seconds that Tesfaye was the reason behind the shakeup, wanting to tone down the cult aspect of the storyline and pivot into something else entirely, dropping the “feminist lens” through which the show was being told as a result. “It was like the Weeknd wanted one show that was all about him — Sam was on board with that,” another source explains to<em> Rolling Stone</em>. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	However, two crew members claim Tesfaye’s schedule made it difficult for him to be the show’s primary focus. One crew member explains, “It was really frustrating because they were working so hard to make it possible to shoot and be released with his concert or whatever his timeline was [and] it all got thrown out the window.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	In April, the show went into hiatus, and sources believed the break was to regroup and work out the finale. However, cast and crew members say they were blindsided when they learned from news articles that the show was being overhauled and Seimetz was leaving.
+
+</p>
+
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	“I’m really heartbroken that Amy wasn’t there to see it through,” one cast member says. “She put her neck on the line for this project… She really tried to make it work and fit a square peg into a round hole, [only] for all of that work to be eradicated and overwritten by Sam Levinson.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+<strong>When production of <em>The Idol</em> resumed</strong> in May 2022, a majority of crew members from the first shoot did not return, according to five production sources. “I’m not sure I would have taken it if I had [been asked to return],” one production source says. “It was just really tough, very scarring.” The cast was also gutted, blindsiding some of the little-known actors who thought they had landed their big break and now were wiped from the show. However, talent with noteworthy names remained, including singer-songwriter Troye Sivan and Suzanna Son (<em>Red Rocket</em>). </p>
+<div class="post-content-image //">
+<figure class="o-figure size-large alignnone lrv-u-max-width-100p">
+
+<figcaption class="c-figcaption lrv-u-flex lrv-u-flex-direction-column lrv-u-align-items-center">
+<span class="u-border-color-black u-border-lr-2 lrv-u-padding-tb-025 lrv-u-padding-lr-075 lrv-u-border-b-2 lrv-u-width-100p lrv-u-text-align-center a-font-basic-secondary-s">Lily-Rose Depp and Abel “The Weeknd” Tesfaye in ‘The Idol.’ </span>
+<cite class="lrv-u-text-transform-uppercase lrv-a-font-body-xs lrv-u-margin-t-050 lrv-u-text-align-center">HBO</cite>
+</figcaption>
+</figure>
+</div>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+<a href="https://www.hollywoodreporter.com/tv/tv-news/the-idol-trailer-ensemble-cast-1235203017/" target="_blank">Levinson then upped the cast’s star power even more throughout filming</a>, with the additions of <em>Bodies Bodies Bodies </em>breakout Rachel Sennott, Dan Levy, Hank Azaria, Moses Sumney, and megaproducer Mike Dean. Casting<a href="https://deadline.com/2022/07/blackpinks-jennie-the-weeknds-the-idol-hbo-series-lily-rose-depp-1235073029/" target="_blank"> K-pop superstar Jennie of Blackpink</a> was the biggest get for Levinson. Under the show’s hashtag and teaser trailers, her stans steamrolled comment sections to cheer on the singer in her first acting role. But crew members claim Jennie has barely any air time and an inconsequential story arc. “It was like three or four lines per episode for her,” a production source says. “They didn’t let her talk that much. Her job was to sit there [and] look pretty, basically.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Crewmembers who stuck around for the revamped show say the working environment was no better than the first shoot, and no one from HBO was stepping in to make sure the production was kept on track, two sources claim. What was supposed to be a three-month shoot from May to July ended up stretching into September — despite the cast and crew celebrating at a wrap party in July. Come October, even more filming took place.</p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	“I was so drained by the end of it,” one crew member says. “I was like, ‘I can’t have a job make me cry every day because I have two hours to sleep, and I’m being pulled 100 directions because nobody knows what they’re doing, or nobody knows what they want because we don’t know what we’re filming.”</p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Once again, sources point to constant changes to the script being the show’s most pressing issue. Levinson — who was coming off a hectic <em>Euphoria</em> production (<a href="https://www.thedailybeast.com/inside-euphoria-season-2s-messy-behind-the-scenes-drama-from-sam-levinson-to-barbie-ferreira-storming-off" rel="nofollow" target="_blank">which had its own issues throughout the season</a>) — continued his frenzied pace over at <em>The Idol</em>. “There was always this sense of chaos because [we] never had a plan on what was going to happen today, or tomorrow, or the next scene,” one crew member explains.
+
+</p>
+
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	There were also divisions among Levinson’s inner circle, the few crew members that remained from Seimetz’s shoot, and higher-ups at HBO, two sources say. One production member described feeling like a child of divorce, trying to tiptoe around the opposing parties. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Levinson allegedly stopped sending scripts to HBO and certain department heads, according to two people familiar with the matter. “I got the vibe that the mood on set was, ‘What’s HBO gonna do, pull the plug? Yeah, right. If they want a third season of <em>Euphoria</em>, they’ll give me what I want… We’re just gonna shoot what we want and if [HBO execs] have a problem with it, that’s their problem,’” they explain. </p>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube"></figure>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	A major concern among the crew, according to four production sources, was Levinson chipping away at the show’s original messaging, creating a distorted and jarring story that lost its overall impact. (Although Tesfaye is credited as co-creator and a writer, three crew members with knowledge of the situation claim he barely touched a script during the reshoots.) “It was a show about a woman who was finding herself sexually, turned into a show about a man who gets to abuse this woman and she loves it.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	At various points, Levinson’s scripts contained disturbing sexual and physically violent scenes between Depp and Tesfaye’s characters, three sources familiar with the matter claim. In one draft episode, there allegedly was a scene where Tesfaye bashes in Depp’s face, and her character smiles and asks to be beaten more, giving Tesfaye an erection. (This scene was never shot, the source says.) Another proposed scenario was for Depp to carry an egg in her vagina and if she dropped or cracked the egg, Tesfaye’s character would refuse to “rape” her — which sent Depp’s character into a spiral, begging him to “rape” her because she believed he was the key to her success. (This scene also was not filmed because production couldn’t find a way to realistically shoot the scene without having Depp physically insert the egg, another source explains.) </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	“It was like, ‘What is this? What am I reading here?’” one of the sources says. “It was like sexual torture porn.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Two crew members say it’s unclear what will actually wind up in the show, as scripts were being changed daily and scenes were constantly being shot and reshot. Many say they are unsure where the show is headed and what will be used in the final cut.
+
+</p>
+
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Although Seimetz’s version of <em>The Idol</em> was also going to contain sex scenes and nudity, production sources claim Levinson dramatically ramped up the explicit content — a move that is quickly becoming his calling card. During both seasons of <em>Euphoria</em>, Levinson faced criticism for employing often gratuitous nudity in a show about teenagers. Actresses on that series, including Sydney Sweeney and Minka Kelly, have lightly danced around the subject in interviews, but admitted they pushed back on some of Levinson’s requests for even more nude scenes. “There are moments where Cassie was supposed to be shirtless and I would tell Sam, ‘I don’t really think that’s necessary here.’ He was like, ‘OK, we don’t need it,’” <a href="https://www.independent.co.uk/arts-entertainment/tv/features/sydney-sweeney-white-lotus-euphoria-b1997058.html?utm_content=Echobox&amp;utm_medium=Social&amp;utm_campaign=Main&amp;utm_source=Twitter#Echobox=1642925236" rel="nofollow" target="_blank">Sweeney told <em>The Independent</em></a>.  </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	“It’s almost such an extreme that it’s like, there is no message,” one <em>Idol </em>crew member says. “There is no point. They’re just trying to see how much of a reaction they can get.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+<strong>During Seimetz’s production,</strong> it was whispered around the set that the $54 million budget cap had ballooned to $75 million, according to production sources. Considering the elite craft services setup — with kombucha and cold brew on tap — the caliber of talent, and constant delays due to day-of changes, the amount doesn’t seem to be that much of a stretch. (It’s unclear what the budget was for <em>The Idol’</em>s second production.) </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	But to see an entire $54-75 million first production scrapped for the remaking of the same show, now with an untold budget and endless resources at hand, struck some production members as wasteful. One crew member, noting their decades-long experience in Hollywood, says while there is plenty of excess spending in the entertainment industry, throwing away Seimetz’s version of <em>The Idol</em> to redo the same show was probably “the most egregious I’ve ever witnessed in this business.”</p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	The decision is especially surprising in light of HBO’s parent company, Warner Bros. Discovery, slashing hundreds of jobs last year with plans to cut <a href="https://deadline.com/2023/02/warner-bros-discovery-sees-4-billion-in-post-merger-cost-savings-up-from-3-5-billion-1235269325/" target="_blank">$4 billion in costs across the board</a>. (Last summer, HBO and HBO Max had a restructuring and 70 people were laid off. Most shocking was the decision to can the<a href="https://www.rollingstone.com/tv-movies/tv-movie-news/batgirl-shelved-warner-bros-1392407/"> completed $78 million <em>Batgirl</em> DC film</a> that was supposed to stream exclusively on HBO Max.) </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	There did seem to be some effort to conserve costs during the second <em>Idol</em> shoot, with Tesfaye opening his personal home — a sprawling, $70 million Bel-Air mansion — for the show to make use of. Sources speculate that it likely helped compensate for the cost of renting actress Alyson Hannigan’s former Encino pad, which had previously served as the headquarters of the cult Tesfaye’s character ran.
+
+</p>
+
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	Tesfaye also took advantage of his After Hours Til Dawn Tour show in<a href="https://www.latimes.com/entertainment-arts/music/story/2022-09-03/the-weeknd-concert-sofi-stadium" rel="nofollow" target="_blank"> L.A. to film a scene at Sofi Stadium in September,</a> using the thousands of fans in attendance as free extras. Depp appeared in character onstage in a gauzy white dress to deliver a monologue about a difficult past year. “Tonight is incredibly special because I have the opportunity to introduce you to the love of my life — the man who pulled me through the darkest hours and into the light,” Depp’s character said to the confused crowd before inviting “Tedros” (Tesfaye’s character) onstage. </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	However, production sources claim the second iteration faced the same issues that plagued Seimetz’s set due to ongoing script rewrites. “There was no leash on this second incarnation,” a production member says. “The people who are fronting the cash and HBO, they’re not putting [Levinson] on a leash, knowing that you already have a [multimillion-dollar] bill, supposedly, that you can’t do anything with.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	The production has left many wary of working again with Levinson, who they say is developing a track record of creating chaotic sets. “I would never work for him ever again,” one production source says. “I don’t think I’ll watch <em>Euphoria</em> again after working for him and knowing how he treats his crew.”
+
+</p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+	“This was such a strong example of just how far [Levinson] can really push HBO and they will continue to cover [him] because he brings in money,” a second says. “He’s able to walk away unscathed and everybody still wants to work with him… People ignore the red flags and follow him regardless.” </p>
+<p class="paragraph larva // lrv-u-line-height-copy lrv-a-font-body-l">
+<em>UPDATE 3/8/23: This story has been updated to include quotes from a source close to the production of ‘The Idol.’ </em></p>
+</div> </div></body></html>

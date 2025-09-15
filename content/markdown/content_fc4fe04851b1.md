@@ -1,0 +1,1004 @@
+# Content from http://mailchi.mp/stratechery/meltdown-spectre-and-the-state-of-technology?e=ef6eeda78d
+
+*Retrieved: 2025-09-14T22:14:41.650349*
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraph.org/schema/"> <head>
+        
+<meta property="og:title" content="Meltdown, Spectre, and the State of TechnologyÂ (Stratechery Weekly Article 2017-01-08)">
+<meta property="fb:page_id" content="43929265776">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="referrer" content="origin">        
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Meltdown, Spectre, and the State of TechnologyÂ (Stratechery Weekly Article 2017-01-08)</title>
+    <!--[if (gte mso 9)|(IE)]>
+    <style>
+      table {
+      border-collapse:collapse !important !important;
+      }
+    </style>
+    <![endif]-->
+    
+  <style type="text/css">
+		body{
+			-webkit-text-size-adjust:100% !important;
+			-ms-text-size-adjust:100% !important;
+			-webkit-font-smoothing:antialiased !important;
+		}
+		p{
+			margin-bottom:10px;
+		}
+		img{
+			border:0 !important;
+			outline:none !important;
+		}
+		table{
+			border-collapse:collapse;
+			mso-table-lspace:0;
+			mso-table-rspace:0;
+		}
+		td,a,span{
+			border-collapse:collapse;
+			mso-line-height-rule:exactly;
+		}
+		.ExternalClass *{
+			line-height:100%;
+		}
+		span.MsoHyperlink{
+			mso-style-priority:99;
+			color:inherit;
+		}
+		span.MsoHyperlinkFollowed{
+			mso-style-priority:99;
+			color:inherit;
+		}
+		.full_width_image img{
+			width:100%;
+			max-width:700px;
+			height:auto;
+		}
+		.em_white a{
+			color:#ffffff;
+			text-decoration:none;
+		}
+		.em_white1 a{
+			color:#85848c;
+			text-decoration:none;
+		}
+		.em_purple a{
+			color:#413b5f;
+			text-decoration:none;
+		}
+		.em_grey a{
+			color:#faa634;
+			text-decoration:none;
+		}
+		.em_grey1 a{
+			color:#333333;
+			text-decoration:none;
+		}
+		.em_green a{
+			color:#4cc1bf;
+			text-decoration:none;
+		}
+		.em_yellow a{
+			color:#9e7e50;
+			text-decoration:none;
+		}
+		.em_link1 a{
+			color:#333333;
+			text-decoration:none;
+		}
+		.em_orange a{
+			color:#faa634;
+			text-decoration:none;
+		}
+		h1{
+			color:#000000;
+			font-family:Arial,sans-serif;
+			font-size:24px;
+			line-height:26px;
+			font-weight:normal;
+		}
+		h2{
+			color:#585858;
+			font-family:Arial,sans-serif;
+			font-size:20px;
+			line-height:24px;
+			font-weight:normal;
+			text-transform:uppercase;
+		}
+		h3{
+			color:#000000;
+			font-family:Arial,sans-serif;
+			font-size:20px;
+			line-height:26px;
+			font-weight:normal;
+			margin-bottom:0;
+		}
+		.em_img img{
+			width:100% !important;
+			height:auto !important;
+			max-width:600px !important;
+		}
+		.em_imgA img{
+			width:100% !important;
+			height:auto !important;
+			max-width:550px !important;
+		}
+	@media screen and (min-width: 701px){
+		.container{
+			max-width:700px !important;
+		}
+
+}	@media screen and (min-width: 701px){
+		.containerA{
+			max-width:624px !important;
+		}
+
+}	@media screen and (min-width: 701px){
+		.em_wrapper{
+			width:100% !important;
+		}
+
+}	@media screen and (min-width: 481px) and (max-width: 699px){
+		.two-column .column{
+			max-width:100% !important;
+			text-align:center !important;
+		}
+
+}	@media screen and (min-width: 481px) and (max-width: 699px){
+		.two-column img{
+			max-width:100% !important;
+		}
+
+}	@media screen and (min-width: 481px) and (max-width: 699px){
+		.em_wrapper{
+			width:100% !important;
+		}
+
+}	@media screen and (min-width: 481px) and (max-width: 699px){
+		td[class=em_hide],span[class=em_hide]{
+			display:none !important;
+		}
+
+}	@media screen and (min-width: 481px) and (max-width: 699px){
+		td[class=em_center]{
+			text-align:center !important;
+		}
+
+}	@media screen and (min-width: 481px) and (max-width: 699px){
+		img[class=em_img]{
+			width:100% !important;
+			height:auto !important;
+		}
+
+}	@media screen and (min-width: 481px) and (max-width: 699px){
+		td[class=em_height]{
+			height:20px !important;
+		}
+
+}	@media screen and (max-width: 480px){
+		.two-column .column{
+			max-width:100% !important;
+			text-align:center !important;
+		}
+
+}	@media screen and (max-width: 480px){
+		.two-column img{
+			max-width:100% !important;
+		}
+
+}	@media screen and (max-width: 480px){
+		.em_wrapper{
+			width:100% !important;
+		}
+
+}	@media screen and (max-width: 480px){
+		td[class=em_hide],span[class=em_hide]{
+			display:none !important;
+		}
+
+}	@media screen and (max-width: 480px){
+		td[class=em_center]{
+			text-align:center !important;
+		}
+
+}	@media screen and (max-width: 480px){
+		img[class=em_img]{
+			width:100% !important;
+			height:auto !important;
+		}
+
+}	@media screen and (max-width: 480px){
+		td[class=em_height]{
+			height:20px !important;
+		}
+
+}</style>        
+                <style type="text/css">
+            /* Facebook/Google+ Modals */
+            #social-proxy { background:#fff; -webkit-box-shadow: 4px 4px 8px 2px rgba(0,0,0,.2); box-shadow: 4px 4px 8px 2px rgba(0,0,0,.2); padding-bottom:35px; z-index:1000; }
+            #social-proxy_close { display:block; position:absolute; top:0; right:0; height:30px; width:32px; background:transparent url(//cdn-images.mailchimp.com/awesomebar-sprite.png) 0 -200px; text-indent:-9999px; outline:none; font-size:1px; }
+            #social-proxy_close:hover { background-position:0 -240px; }
+            body { padding-bottom:50px !important; }
+        </style> </head>
+    
+    <body style="margin: 0px;padding: 0px;-webkit-text-size-adjust: 100% !important;-ms-text-size-adjust: 100% !important;-webkit-font-smoothing: antialiased !important;">
+    <table style="width: 100%;table-layout: fixed;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" align="center" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td align="center" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+          <table style="max-width: 700px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" width="100%" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#f6f7f8">
+            <!--Pre-Header section Start Here-->
+            <tr>
+              <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="700" align="center" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td>
+                      <![endif]-->
+                <table class="container" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;margin: 0 auto;width: 100%;max-width: 700px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" bgcolor="#f6f7f8">
+                  <tr>
+                    <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                      <!--[if (gte mso 9)|(IE)]>
+                      <table width="624" align="center" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td>
+                            <![endif]-->
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="containerA" style="max-width: 624px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" bgcolor="#f6f7f8">
+                        <tbody>
+                          <tr>
+                            <td height="18" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                          </tr>
+                          <tr>
+                            <td class="two-column" style="padding-top: 0;padding-bottom: 0;padding-right: 0;padding-left: 0;text-align: left;font-size: 0;border-collapse: collapse;mso-line-height-rule: exactly;">
+                              <!--[if (gte mso 9)|(IE)]>
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                  <td width="442" valign="top">
+                                    <![endif]-->
+                              <div class="column" style="width:100%;max-width:442px;display:inline-block;vertical-align:top;text-align:center;">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 442px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" class="em_wrapper">
+                                  <tbody>
+                                    <tr>
+                                      <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                      <td valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                          <tbody>
+                                            <tr>
+                                              <td align="left" valign="top" class="em_grey" style="font-family: Arial, sans-serif;font-size: 11px;line-height: 13px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">The Daily Stratechery email, including exclusive content for members of <a href="http://stratechery.com/" target="_blank" style="text-decoration: none;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">Stratechery.com</a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="16" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                    <td width="15" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                          <td width="182" valign="top">
+                            <![endif]-->
+                            <div class="column" style="width:100%;max-width:182px;display:inline-block;vertical-align:top;text-align:left;">
+                              <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width: 182px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" class="em_wrapper">
+                                <tbody>
+                                  <tr>
+                                    <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                    <td valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                        <tbody>
+                                          <tr>
+                                            <td height="5" class="em_hide" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                          </tr>
+                                          <tr>
+                                            <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 11px;line-height: 13px;color: #faa634;border-collapse: collapse;mso-line-height-rule: exactly;">
+                                              <a href="https://mailchi.mp/stratechery/meltdown-spectre-and-the-state-of-technology?e=ef6eeda78d" style="text-decoration: none;color: #faa634;border-collapse: collapse;mso-line-height-rule: exactly;">View this email in your browser</a>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="16" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                    <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+                            </td> </tr>
+                          </table>
+                          <![endif]-->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+              <![endif]-->
+                  </td>
+                </tr>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+        <![endif]-->
+            </td>
+          </tr>
+          <!--Pre-Header section End Here-->
+          <!--Main Body Content Start Here-->
+          <tr>
+            <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+              <!--[if (gte mso 9)|(IE)]>
+              <table width="700" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <![endif]-->
+              <table class="container" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;margin: 0 auto;width: 100%;max-width: 700px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" bgcolor="#ffffff">
+                <tr>
+                  <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table width="624" align="center" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td>
+                          <![endif]-->
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="containerA" style="max-width: 624px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" bgcolor="#ffffff">
+                      <tbody>
+                        <tr>
+                          <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                          <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                              <tbody>
+                                <tr>
+                                  <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td height="30" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                        <tr>
+                                          <td valign="top" align="center" class="em_img" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <a href="https://stratechery.com/" target="_blank" style="text-decoration: none;border-collapse: collapse;mso-line-height-rule: exactly;"><img src="https://gallery.mailchimp.com/a04b7dc3f187a3b6f52e8de49/images/horizontal_600_82.png" alt="" border="0" style="margin: 0;padding: 0;display: block;max-width: 600px;width: 100%;border: 0 !important;outline: none !important;height: auto !important;" class="em_img"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Top Header" mc:repeatindex="0" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 14px;border-collapse: collapse;mso-line-height-rule: exactly;"><h1 style="color: #000000;font-family: Arial,sans-serif;font-size: 24px;line-height: 26px;font-weight: normal;">Meltdown, Spectre, and the State of Technology<br>
+<br>
+<span style="font-size: 20px;border-collapse: collapse;mso-line-height-rule: exactly;">Monday, January 8, 2017</span></h1>
+<a href="https://stratechery.com/2018/meltdown-spectre-and-the-state-of-technology/" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">blog post</a> / <a href="https://forum.stratechery.com/t/meltdown-spectre-and-the-state-of-technology/1443" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">forum thread</a></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="1" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">You&#8217;ve heard the adage &#8220;It&#8217;s all 1s and 0s&#8221;, but that&#8217;s not a figure of speech: the transistor, the fundamental building block of computers, is simply a switch that is either on (&#8220;1&#8221;) or off (&#8220;0&#8221;). It turns out, though, as Chris Dixon chronicled in a wonderful essay entitled <a href="https://www.theatlantic.com/technology/archive/2017/03/aristotle-computer/518697/" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">How Aristotle Created the Computer</a>, that 1s and 0s, through the combination of mathematical logic and transistors, are all you need:</p>
+<blockquote><p style="margin-bottom: 10px;">
+  The history of computers is often told as a history of objects, from the abacus to the Babbage engine up through the code-breaking machines of World War II. In fact, it is better understood as a history of ideas, mainly ideas that emerged from mathematical logic, an obscure and cult-like discipline that first developed in the 19th century.
+</p></blockquote>
+<p style="margin-bottom: 10px;">Dixon&#8217;s essay — which <a href="https://stratechery.com/2017/the-arrival-of-artificial-intelligence/" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">I&#8217;ve linked to previously</a> — is well worth a read, but the relevant point for this article is perhaps a surprising one: computers are really stupid; what makes them useful is that they are stupid really quickly.</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Header Block" mc:repeatindex="2" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 18px;line-height: 20px;color: #585858;text-transform: uppercase;border-collapse: collapse;mso-line-height-rule: exactly;">The Problem with Processor Vulnerabilities</td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="3" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">Last week the technology world was shaken by <a href="https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html?m=1" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">the disclosure of two vulnerabilities in modern processors</a>: Meltdown and Spectre. The announcement was a bit haphazard, thanks to the fact that the disclosure date was moved up by a week due to widespread speculation about the nature of the vulnerability (probably driven by updates to the Linux kernel), but also because Meltdown and Spectre are similar in some respects, but different in others.</p>
+<p style="margin-bottom: 10px;">Start with the similarities: the outcome for both vulnerabilities is the same — a non-privileged user can access information on the computer they should not be able to, like secret keys or passwords or any other type of data owned by other users. This is a particularly big problem for cloud services like AWS, where multiple &#8220;tenants&#8221; use the same physical hardware:</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Image Block" mc:repeatindex="4" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" align="center" class="em_img" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <a href="#" target="_blank" style="text-decoration: none;border-collapse: collapse;mso-line-height-rule: exactly;"></a><a href="https://twitter.com/RoKhanna/status/923701871092441088" target="_blank" style="border-collapse: collapse;mso-line-height-rule: exactly;"><img src="https://gallery.mailchimp.com/a04b7dc3f187a3b6f52e8de49/images/c8c432f1-08cc-4724-9d3a-978350e06a98.png" alt="7078cdc8-e04f-4b2f-ad85-ae2594bab48f.jpg" border="0" style="margin: 0;padding: 0;display: block;max-width: 600px;width: 100%;border: 0 !important;outline: none !important;height: auto !important;" class="em_img"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="5" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">This multi-tenant architecture is achieved through the use of virtual machines: there is specialized software that runs on a single physical computer that allows each individual user to operate as if they have their own computer, when in fact they are sharing. This is a win-win: single-user computers sit idle the vast majority of the time (they are stupid really quickly), but if multiple users can use one computer than the hardware can be utilized far more efficiently. And, in the case of cloud services, that same concept can be scaled up to millions of physical computers sharing even more fundamental infrastructure like cooling, networking, administration, etc.</p>
+<p style="margin-bottom: 10px;">The entire edifice, though, is predicated on a fundamental assumption: that users in one virtual machine cannot access data from another. That assumption, by extension, relies on trust in the integrity of the virtual machine software, which relies on trust in the integrity of the underlying operating system, which ultimately relies on trust in the processor at the heart of a server. From the <a href="https://meltdownattack.com/meltdown.pdf" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">Meltdown white paper</a> (<em>emphasis mine</em>):</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Block Quote - Plain" mc:repeatindex="6" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="center" valign="top" bgcolor="#fffaf0" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            <table width="575" align="center" cellpadding="0" cellspacing="0" border="0">
+                                              <tr>
+                                                <td>
+                                                  <![endif]-->
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 575px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" align="center">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                                  <td align="left" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;background-color: #fffaf0;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">
+  To load data from the main memory into a register, the data in the main memory is referenced using a virtual address. In parallel to translating a virtual address into a physical address, the CPU also checks the permission bits of the virtual address, i.e., whether this virtual address is user accessible or only accessible by the kernel. As already discussed in Section 2.2, <strong>this hardware-based isolation through a permission bit is considered secure and recommended by the hardware vendors. Hence, modern operating systems always map the entire kernel into the virtual address space of every user process.</strong> As a consequence, all kernel addresses lead to a valid physical address when translating them, and the CPU can access the content of such addresses. The only difference to accessing a user space address is that the CPU raises an exception as the current permission level does not allow to access such an address. Hence, the user space cannot simply read the contents of such an address.
+</p></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                  <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      <![endif]-->
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="7" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">The kernel is the core part of the operating system that should be inaccessible by normal users; it has its own memory to store not only core system data but also data from all of the users (for example, when it has to be written to or read from permanent storage). Even here, though, the system relies on virtualization — that memory is the same physical memory users utilize for their applications. It is up to the CPU to keep track of what parts of memory belong to whom, and this is where the vulnerabilities come in.</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Header Block" mc:repeatindex="8" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 18px;line-height: 20px;color: #585858;text-transform: uppercase;border-collapse: collapse;mso-line-height-rule: exactly;">Speculative Execution</td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="9" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">I just referenced three critical parts of a computer: the processor, memory, and permanent storage. In fact, the architecture for storing data is even more complex than that:</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Image Block" mc:repeatindex="10" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" align="center" class="em_img" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <a href="#" target="_blank" style="text-decoration: none;border-collapse: collapse;mso-line-height-rule: exactly;"></a><a href="https://stratechery.com/2017/goodbye-gatekeepers/" target="_blank" style="border-collapse: collapse;mso-line-height-rule: exactly;"><img src="https://gallery.mailchimp.com/a04b7dc3f187a3b6f52e8de49/images/aa34646f-2e44-4eab-a893-39976ef06d1f.jpg" alt="7078cdc8-e04f-4b2f-ad85-ae2594bab48f.jpg" border="0" style="margin: 0;padding: 0;display: block;max-width: 600px;width: 100%;border: 0 !important;outline: none !important;height: auto !important;" width="600" class="em_img"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Bullet_list_block" mc:repeatindex="11" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr mc:repeatable="repeat_1:11:repeat_1" mc:repeatindex="0">
+                                          <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="center" width="8" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 19px;line-height: 22px;color: #000000;width: 8px;border-collapse: collapse;mso-line-height-rule: exactly;">•</td>
+                                                  <td width="10" style="width: 10px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                  <td align="left" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">Registers are the fastest form of memory, accessible every single clock cycle (that is, a 2.0 GHz processor can access registers two billion times a second). They are also the smallest, usually only containing the inputs and outputs for the current calculation.</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr bgcolor="#ffffff">
+                                                  <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr><tr mc:repeatable="repeat_1:11:repeat_1" mc:repeatindex="1">
+                                          <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="center" width="8" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 19px;line-height: 22px;color: #000000;width: 8px;border-collapse: collapse;mso-line-height-rule: exactly;">•</td>
+                                                  <td width="10" style="width: 10px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                  <td align="left" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">There are then various levels of cache (L1, L2, etc.) that are increasingly slower and, on the flipside, increasingly larger and less expensive. This cache is located in a hierarchy: data that is needed immediately will be moved from the registers to L1 cache, for example; slightly less necessary data will be in L2, then L3, etc.</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr bgcolor="#ffffff">
+                                                  <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr><tr mc:repeatable="repeat_1:11:repeat_1" mc:repeatindex="2">
+                                          <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="center" width="8" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 19px;line-height: 22px;color: #000000;width: 8px;border-collapse: collapse;mso-line-height-rule: exactly;">•</td>
+                                                  <td width="10" style="width: 10px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                  <td align="left" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">The next major part of the memory hierarchy is main memory, that is system RAM. While the amount of cache is dependent on the processor model, the amount of memory is up to the overall system builder. This memory is massively slower than cache, but it is also massively larger and far less expensive.</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr bgcolor="#ffffff">
+                                                  <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr><tr mc:repeatable="repeat_1:11:repeat_1" mc:repeatindex="3">
+                                          <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="center" width="8" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 19px;line-height: 22px;color: #000000;width: 8px;border-collapse: collapse;mso-line-height-rule: exactly;">•</td>
+                                                  <td width="10" style="width: 10px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                  <td align="left" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">The last part of the memory hierarchy, at least on a single computer, is permanent storage — the hard drive. Solid-state drives (SSDs) have made a huge difference in speed here, but even then permanent memory is massively slower than main memory, with the same tradeoffs: you can have a lot more of it at a much lower price.</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr bgcolor="#ffffff">
+                                                  <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr><tr mc:repeatable="repeat_1:11:repeat_1" mc:repeatindex="4">
+                                          <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="center" width="8" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 19px;line-height: 22px;color: #000000;width: 8px;border-collapse: collapse;mso-line-height-rule: exactly;">•</td>
+                                                  <td width="10" style="width: 10px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                  <td align="left" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">While not part of the traditional memory hierarchy, cloud applications often have permanent memory on a separate physical server on the same network; the usual tradeoffs apply — very slow access in exchange for other benefits, in this case keeping data separate from its application.</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr bgcolor="#ffffff">
+                                                  <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Image Block" mc:repeatindex="12" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td valign="top" align="center" class="em_img" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <a href="#" target="_blank" style="text-decoration: none;border-collapse: collapse;mso-line-height-rule: exactly;"></a><a href="https://stratechery.com/2017/manifestos-and-monopolies/" target="_blank" style="border-collapse: collapse;mso-line-height-rule: exactly;"><img src="https://gallery.mailchimp.com/a04b7dc3f187a3b6f52e8de49/images/cfc8bfd6-41b5-47ee-b783-e02a112d9f93.png" alt="7078cdc8-e04f-4b2f-ad85-ae2594bab48f.jpg" border="0" style="margin: 0;padding: 0;display: block;max-width: 600px;width: 100%;border: 0 !important;outline: none !important;height: auto !important;" width="600" class="em_img"></a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="13" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">To be sure, &#8220;very slow&#8221; is all relative — we are talking about nanoseconds here. <a href="https://blog.codinghorror.com/the-infinite-space-between-words/" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">This post by Jeff Atwood</a> puts it in human terms:</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Block Quote with Text/Images" mc:repeatindex="14" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="center" valign="top" bgcolor="#fffaf0" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                            <!--[if (gte mso 9)|(IE)]>
+                                            <table width="575" align="center" cellpadding="0" cellspacing="0" border="0">
+                                              <tr>
+                                                <td>
+                                                  <![endif]-->
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 575px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" align="center">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                                  <td align="left" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" mc:repeatable="repeat_1:14:repeat_1" mc:repeatindex="0" mc:hideable="hideable_repeat_1:14:repeat_1_1" mchideable="hideable_repeat_1:14:repeat_1_1" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td align="left" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;background-color: #fffaf0;border-collapse: collapse;mso-line-height-rule: exactly;">That infinite space &#8220;between&#8221; what we humans feel as time is where computers spend all their time. It&#8217;s an entirely different timescale. The book <a href="http://www.amazon.com/dp/0133390098/" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">Systems Performance: Enterprise and the Cloud</a> has a great table that illustrates just how enormous these time differentials are. Just translate computer time into arbitrary seconds:</td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" mc:repeatable="repeat_1:14:repeat_2" mc:repeatindex="0" mc:hideable="hideable_repeat_1:14:repeat_2_1" mchideable="hideable_repeat_1:14:repeat_2_1" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td valign="top" align="center" class="em_imgA" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;border-collapse: collapse;mso-line-height-rule: exactly;"><img src="https://gallery.mailchimp.com/a04b7dc3f187a3b6f52e8de49/images/b85f570b-1a2d-4d13-b899-33b537d45459.png" alt="947c93ea-8283-42b7-85f0-2eae8e4663b1.jpg" border="0" style="margin: 0;padding: 0;border: 0 !important;outline: none !important;width: 100% !important;height: auto !important;max-width: 550px !important;"></a>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" mc:repeatable="repeat_1:14:repeat_3" mc:repeatindex="0" mc:hideable="hideable_repeat_1:14:repeat_3_1" mchideable="hideable_repeat_1:14:repeat_3_1" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td align="left" class="em_grey" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">The late, great <a href="http://en.wikipedia.org/wiki/Jim_Gray_(computer_scientist)" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">Jim Gray</a>…also <a href="http://loci.cs.utk.edu/dsi/netstore99/docs/presentations/keynote/sld023.htm" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">had an interesting way of explaining this</a>. If the CPU registers are how long it takes you to fetch data from your brain, then going to disk is the equivalent of fetching data from Pluto.</td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" mc:repeatable="repeat_1:14:repeat_4" mc:repeatindex="0" mc:hideable="hideable_repeat_1:14:repeat_4_1" mchideable="hideable_repeat_1:14:repeat_4_1" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td valign="top" align="center" class="em_imgA" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                                                            <a href="#" target="_blank" style="text-decoration: none;border-collapse: collapse;mso-line-height-rule: exactly;"><img src="https://gallery.mailchimp.com/a04b7dc3f187a3b6f52e8de49/images/d3ce16da-154a-4999-bc7f-451bb80a3119.jpg" alt="8673009a-7a84-4bcc-bff0-63631061f1a5.jpg" border="0" style="margin: 0;padding: 0;border: 0 !important;outline: none !important;width: 100% !important;height: auto !important;max-width: 550px !important;"></a>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                    
+                                                  </td>
+                                                  <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                              <tbody>
+                                                <tr bgcolor="#ffffff">
+                                                  <td height="23" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                            <!--[if (gte mso 9)|(IE)]>
+                                          </td>
+                                        </tr>
+                                      </table>
+                                      <![endif]-->
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="15" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">Gray presented this slide while at Microsoft, to give context to that that &#8220;Olympia, Washington&#8221; reference. Let me extend his analogy:</p>
+<p style="margin-bottom: 10px;"><em>Suppose you were a college student interning for the summer at Microsoft in Redmond, and you were packing clothes at home in Olympia. Now Seattle summers can be quite finicky — it could be blustery and rainy, or hot and sunny. It&#8217;s often hard to know what the weather will be like until the morning of. To that end, the prudent course of action would not be to pack only one set of clothes, but rather to pack clothes for either possibility. After all, it is far faster to change clothes from a suitcase than it is to drive home to Olympia every time the weather changes.</em></p>
+<p style="margin-bottom: 10px;">This is where the analogy starts to fall apart: what modern processors do to alleviate the time it takes to fetch data is not only fetch more data than they might need, but actually do calculations on that data ahead-of-time. This is known as speculative execution, and it is the heart of these vulnerabilities. To put this analogy in algorithmic form:</p>
+<ul>
+<li>Check the weather (execute multiple sub-processes that trigger sensors, relay data, etc.)
+<ul>
+<li>If the weather is sunny, wear shorts-and-t-shirt</li>
+<li>Else wear jeans-and-sweatshirt</li>
+</ul>
+</li>
+</ul>
+<p style="margin-bottom: 10px;">Remember, computers are stupid, but they are stupid fast: executing &#8220;wear shorts-and-t-shirt&#8221; or &#8220;wear jeans-and-sweatshirt&#8221; takes nanoseconds — what takes time is waiting for the weather observation. So to save time the processor will get you dressed before it knows the weather, usually based on history — what was the weather the last several days? That means you can decide on footwear, accessories, etc., all while waiting for the weather observation. That&#8217;s the other thing about processors: they can do a lot of things at the same time. To that end the fastest possible way to get something done is to guess what the final outcome will be and backtrack if necessary.</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Header Block" mc:repeatindex="16" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 18px;line-height: 20px;color: #585858;text-transform: uppercase;border-collapse: collapse;mso-line-height-rule: exactly;">Meltdown </td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="17" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">Now, imagine the algorithm was changed to the following:</p>
+<ul>
+<li>Check your manager&#8217;s calendar to see if they will be in the office
+<ul>
+<li>If they will be in the office, wear slacks and collared-shirt</li>
+<li>If they will not be in the office, wear shorts-and-t-shirt</li>
+</ul>
+</li>
+</ul>
+<p style="margin-bottom: 10px;">There&#8217;s just one problem: you&#8217;re not supposed to have access to your manager&#8217;s calendar. Remember, though, computers are stupid: the processor doesn&#8217;t know this implicitly, it has to actually check if you have access. So in practice this algorithm is more like this:</p>
+<ul>
+<li>Check your manager&#8217;s calendar to see if they will be in the office
+<ul>
+<li>Check if this intern has access to their manager&#8217;s calendar
+<ul>
+<li>If the intern has access, access the calendar
+<ul>
+<li>If they will be in the office, wear slacks and collared-shirt</li>
+<li>If they will not be in the office, wear shorts-and-t-shirt</li>
+</ul>
+</li>
+<li>If the intern does not have access, stop getting dressed</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p style="margin-bottom: 10px;">Remember, though, computers are very good at doing lots of things at once, and not very good at looking up data; in this case the processor will, under certain conditions, look at the manager&#8217;s calendar and decide what to wear <em>before it knows whether or not it should look at the calendar</em>. If it later realizes it shouldn&#8217;t have access to the calendar it will undo everything, but the clothes might end up slightly disheveled, which means you might be able to back out the answer you weren&#8217;t supposed to know.</p>
+<p style="margin-bottom: 10px;">I already said that the analogy was falling apart; it is now in complete tatters but this, in broad-strokes, is Meltdown: the processor will speculatively fetch and execute privileged data before it knows if it should or not; that process, though, leaves traces in cache, and those traces can be captured by a non-privileged user.</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Header Block" mc:repeatindex="18" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 18px;line-height: 20px;color: #585858;text-transform: uppercase;border-collapse: collapse;mso-line-height-rule: exactly;">Explaining Spectre</td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="19" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">Spectre is even more devious, but harder to pull off: remember, multiple users are using the same processor — roommates, if you will. Suppose I pack my suitcase the same as you, and then I &#8220;train&#8221; the processor to always expect sunny days (perhaps I run a simulation program and make every day sunny). The processor will start choosing shorts-and-t-shirt ahead of time. Then, when you wake up, the processor will have already chosen shorts-and-t-shirt; if it is actually rainy, it will put the shorts-and-t-shirt back, but ever-so-slightly disheveled.</p>
+<p style="margin-bottom: 10px;">This analogy has gone from tatters to total disintegration — it really doesn&#8217;t work here. Your data isn&#8217;t simply retrieved from main memory speculatively, it is momentarily parked in cache while the processor follows the wrong branch; it is quickly removed once the processor fixes it error, but I can still figure out what data was there — which means I&#8217;ve now stolen your data.</p>
+<p style="margin-bottom: 10px;">Meltdown is easier to explain because — Intel&#8217;s protestation to the contrary (Meltdown also affects Apple&#8217;s processors) — it is due to a design flaw. The processor is responsible for checking if data can be accessed, and to check too slowly, such that the data can be stolen, is a bug. That is also why Meltdown can be worked around in software (basically, there will be an extra step checking permissions before using the data, which is why the patch causes a performance hit).</p>
+<p style="margin-bottom: 10px;">Spectre is something else entirely: this is the processor acting <em>as designed</em>. Computers do basic calculations unfathomably quickly, but take forever to get the data to make those calculations: therefore doing calculations without waiting for bottlenecks, based on best guesses, is the best possible way to leverage this fundamental imbalance. Most of the time you will get results far more quickly, and if you guess wrong you are no slower than you would have been had you done everything in order.</p>
+<p style="margin-bottom: 10px;">This, too, is why Spectre affects all processors: the speed gains from leveraging modern processors&#8217; parallelism and execution speed are so massive that speculative execution is an obvious choice; that the branch predictor might be trained by another user such that cache changes could be tracked simply didn&#8217;t occur to anyone <a href="https://www.wired.com/story/meltdown-spectre-bug-collision-intel-chip-flaw-discovery/" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">until the last year</a> (that we know of).</p>
+<p style="margin-bottom: 10px;">And, by extension, Spectre can&#8217;t be fixed by software: specific implementations can be blocked, but the vulnerability is built-in. New processors will need to be designed, but the billions of processors in use aren&#8217;t going anywhere. We&#8217;re going to have to muddle through.</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Header Block" mc:repeatindex="20" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 18px;line-height: 20px;color: #585858;text-transform: uppercase;border-collapse: collapse;mso-line-height-rule: exactly;">Spectre and the State of Technology</td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" mc:repeatable="repeat_1" mc:variant="Text Block" mc:repeatindex="21" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                                      <tbody>
+                                        <tr>
+                                          <td align="left" class="em_orange" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"><p style="margin-bottom: 10px;">I ended 2017 without my customary &#8220;State of Technology&#8221; post, and just as well: Spectre is a far better representation than anything I might have written. Faced with a fundamental imbalance (data fetch slowness versus execution speed), processor engineers devised an ingenious system optimized for performance, but having failed to envision the possibility of bad actors abusing the system, everyone was left vulnerable.</p>
+<p style="margin-bottom: 10px;">The analogy is obvious: faced with a fundamental imbalance (the difficulty of gaining and retaining users versus the ease of rapid iteration and optimization), Internet companies devised ingenious systems optimized for engagement, but having <a href="https://stratechery.com/2017/the-pollyannish-assumption/" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">failed to envision the possibility of bad actors abusing the system</a>, everyone was left vulnerable.</p>
+<p style="margin-bottom: 10px;">Spectre, though, helps illustrate why these issues are so vexing:</p>
+<ul>
+<li>I don&#8217;t believe anyone intended to create this vulnerability</li>
+<li>The vulnerability might be worth it — the gains from faster processors have been absolutely massive!</li>
+<li>Regardless, decisions made in the past are in the past: the best we can do is muddle through</li>
+</ul>
+<p style="margin-bottom: 10px;">So it is with the effects of Facebook, Google/YouTube, etc., and the Internet broadly. Power comes from <a href="https://stratechery.com/2015/aggregation-theory/" style="border-collapse: collapse;mso-line-height-rule: exactly;color: #faa634;text-decoration: none;">giving people what they want</a> — hardly a bad motivation! — and the benefits still may — probably? — outweigh the downsides. Regardless, our only choice is to move forward.</p></td>
+                                        </tr>
+                                        <tr>
+                                          <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+              <![endif]-->
+                  </td>
+                </tr>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+        <![endif]-->
+            </td>
+          </tr>
+          <!--Main Body Content End Here-->
+          <!--Social Media Details Start Here-->
+          <tr mc:hideable="hideable_1" mchideable="hideable_1">
+            <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+              <!--[if (gte mso 9)|(IE)]>
+              <table width="700" align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <![endif]-->
+              <table class="container" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;margin: 0 auto;width: 100%;max-width: 700px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" bgcolor="#f6f7f8">
+                <tbody>
+                  <tr>
+                    <td height="23" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="em_grey1" valign="top" style="font-family: Arial, sans-serif;font-size: 16px;line-height: 22px;color: #333333;font-weight: bold;border-collapse: collapse;mso-line-height-rule: exactly;">Don&rsquo;t forget to share!</td>
+                  </tr>
+                  <tr>
+                    <td height="10" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                  </tr>
+                  <tr>
+                    <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                      <table align="center" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                        <tbody>
+                          <tr>
+                            <td valign="top" align="center" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                              <a href="http://www.facebook.com/share.php?u=https%3A%2F%2Fmailchi.mp%2Fstratechery%2Fmeltdown-spectre-and-the-state-of-technology&t=Meltdown%2C%20Spectre%2C%20and%20the%20State%20of%20Technology%C3%82%C2%A0%28Stratechery%20Weekly%20Article%202017-01-08%29" target="_blank" style="text-decoration: none;border-collapse: collapse;mso-line-height-rule: exactly;"></a><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//stratechery.com/2018/meltdown-spectre-and-the-state-of-technology/" target="_blank" style="border-collapse: collapse;mso-line-height-rule: exactly;"><img src="https://gallery.mailchimp.com/a04b7dc3f187a3b6f52e8de49/images/2896bedb-151a-46f0-ac67-eb6d5042040c.jpg" alt="" border="0" style="margin: 0;padding: 0;display: block;max-width: 40px;border: 0 !important;outline: none !important;"></a>
+                            </td>
+                            <td width="10" style="width: 10px;border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                            <td valign="top" align="center" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                              <a href="http://twitter.com/intent/tweet?text=Meltdown...%20-%20https%3A%2F%2Fmailchi.mp%2Fstratechery%2Fmeltdown-spectre-and-the-state-of-technology" target="_blank" style="text-decoration: none;border-collapse: collapse;mso-line-height-rule: exactly;"></a><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//stratechery.com/2018/meltdown-spectre-and-the-state-of-technology/&title=Meltdown,%20Spectre,%20and%20the%20State%20of%20Technology&summary=The%20vexing%20nature%20of%20Spectre%20in%20particular%20is%20analogous%20to%20technology%20broadly&source=" target="_blank" style="border-collapse: collapse;mso-line-height-rule: exactly;"><img src="https://gallery.mailchimp.com/e9a57b8fe3a755dcb3f210513/images/e0f40a77-9b38-49b1-a7ca-017ec1f533a7.jpg" alt="e0f40a77-9b38-49b1-a7ca-017ec1f533a7.jpg" border="0" style="margin: 0;padding: 0;display: block;max-width: 40px;border: 0 !important;outline: none !important;"></a>
+                            </td>
+                            <td width="10" style="width: 10px;border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                            <td valign="top" align="center" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                              <a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fmailchi.mp%2Fstratechery%2Fmeltdown-spectre-and-the-state-of-technology&title=Meltdown%2C%20Spectre%2C%20and%20the%20State%20of%20Technology%C3%82%C2%A0%28Stratechery%20Weekly%20Article%202017-01-08%29" target="_blank" style="text-decoration: none;border-collapse: collapse;mso-line-height-rule: exactly;"></a><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//stratechery.com/2017/the-2017-stratechery-year-in-review/&title=The%202017%20Stratechery%20Year%20in%20Review&summary=The%20most%20popular%20and%20most%20important%20posts%20on%20Stratechery%20in%202017.&source=" target="_blank" style="border-collapse: collapse;mso-line-height-rule: exactly;"><img src="https://gallery.mailchimp.com/a04b7dc3f187a3b6f52e8de49/images/d2666b83-dbba-4f09-8ee1-c7eab3731827.jpg" alt="677b4dcb-6973-4d53-a8fd-8fe5010e45bb.png" border="0" style="margin: 0;padding: 0;display: block;max-width: 40px;border: 0 !important;outline: none !important;"></a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="20" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+        <![endif]-->
+            </td>
+          </tr>
+          <!--Social Media Details End Here-->
+          <!--Text Goes Here Start Here-->
+          
+        <!--Text Goes Here End Here-->
+        <tr>
+          <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+            <!--[if (gte mso 9)|(IE)]>
+            <table width="700" align="center" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td>
+                  <![endif]-->
+            <table class="container" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing: 0;margin: 0 auto;width: 100%;max-width: 700px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" bgcolor="#f6f7f8">
+              <tr>
+                <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table width="624" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td>
+                        <![endif]-->
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="containerA" style="max-width: 624px;border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;" bgcolor="#f6f7f8">
+                    <tbody>
+                      <tr>
+                        <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                        <td align="center" valign="top" style="border-collapse: collapse;mso-line-height-rule: exactly;">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;mso-table-lspace: 0;mso-table-rspace: 0;">
+                            <tbody>
+                              <tr>
+                                <td height="18" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                              </tr>
+                              <tr>
+                                <td align="center" valign="top" style="font-family: Arial, sans-serif;font-size: 11px;line-height: 13px;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">
+                                  <em>Copyright © 2018 <a href="#" style="text-decoration: none;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;">Stratechery LLC</a>, All rights reserved.</em> <br><br>
+                                    <br><a href="#" style="text-decoration: none;color: #000000;border-collapse: collapse;mso-line-height-rule: exactly;"></a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td height="22" class="em_height" style="font-size: 1px;line-height: 1px;border-collapse: collapse;mso-line-height-rule: exactly;"></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                          <td width="10" style="border-collapse: collapse;mso-line-height-rule: exactly;"> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                </tr>
+              </table>
+              <![endif]-->
+                  </td>
+                </tr>
+              </table>
+              <!--[if (gte mso 9)|(IE)]>
+            </td>
+          </tr>
+        </table>
+        <![endif]-->
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39065009-1"></script><script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('set', {'hostname': '.campaign-archive.com'});
+          gtag('config', 'UA-39065009-1');
+        </script></body>    
+</html>

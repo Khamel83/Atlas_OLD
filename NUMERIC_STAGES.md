@@ -42,10 +42,11 @@ This document defines the complete numeric stage system for Atlas content proces
 ### 300-399: Content Processing Phase
 - **300**: PROCESSING_STARTED - Starting content processing
 - **310**: EXTRACTION_CLEAN - Extract and clean main content
-- **320**: STRUCTURE_ANALYSIS - Analyze document structure
-- **330**: CONTENT_TRANSFORMED - Transformed to standard formats
-- **340**: METADATA_EXTRACTED - Extract basic metadata
-- **350**: CONTENT_FORMATTED - Formatted for storage
+- **320**: TRANSCRIPT_EXTRACTION - Extract transcripts (YouTube fallback available)
+- **330**: STRUCTURE_ANALYSIS - Analyze document structure
+- **340**: CONTENT_TRANSFORMED - Transformed to standard formats
+- **350**: METADATA_EXTRACTED - Extract basic metadata
+- **360**: CONTENT_FORMATTED - Formatted for storage
 - **390**: PROCESSING_COMPLETE - Core processing complete
 
 ### 400-499: Content Enhancement Phase
@@ -71,6 +72,37 @@ This document defines the complete numeric stage system for Atlas content proces
 - **666**: RATE_LIMITED - Rate limited, will retry
 - **777**: PERMANENT_ERROR - Permanent failure, no retry
 - **888**: SYSTEM_ERROR - System error, may retry
+
+## YouTube Module Integration
+
+### Module Types (Not Stages)
+The YouTube system consists of **utility modules** that can be called from different stages:
+
+**YouTube History Scraper** (`helpers/youtube_modules_integration`):
+- **Purpose**: Collect videos you've watched on YouTube
+- **When to call**: Content acquisition stages (100-199)
+- **Stage integration**: `collect_youtube_history()` can be called from stage 110-150
+- **Output**: Stores YouTube videos as `youtube_video` content type
+
+**YouTube Podcast Fallback** (`helpers/youtube_podcast_fallback`):
+- **Purpose**: Get podcast transcripts when other sources fail
+- **When to call**: Transcript extraction stages (300-399)
+- **Stage integration**: `get_youtube_podcast_transcript()` can be called from stage 320
+- **Output**: Provides transcripts and metadata for podcast processing
+
+### Integration Points
+
+**Stage 110-150 (Content Discovery)**: Call YouTube history scraper
+```python
+from helpers.youtube_modules_integration import collect_youtube_history
+result = collect_youtube_history(max_videos=100, days_back=7)
+```
+
+**Stage 320 (Transcript Extraction)**: Call YouTube podcast fallback
+```python
+from helpers.youtube_modules_integration import get_youtube_podcast_transcript
+transcript_result = get_youtube_podcast_transcript(podcast_name, episode_title)
+```
 
 ## Terminal Status Logic
 

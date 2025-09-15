@@ -13,7 +13,8 @@
 Atlas is a **bulletproof personal knowledge management system** that automatically processes, indexes, and makes searchable any content you feed it:
 
 - 📰 **Articles & Web Pages** - Save from any website with instant processing
-- 🎙️ **Podcast Transcripts** - Automatic discovery and full-text search  
+- 🎙️ **Podcast Transcripts** - Automatic discovery and full-text search
+- 🎬 **YouTube Videos** - API-based collection and transcript extraction
 - 📧 **Email Archives** - Import and search your email history
 - 📄 **Documents** - PDFs, text files, notes, and more
 - 🧠 **AI Insights** - Semantic search, content recommendations, and intelligent analysis
@@ -238,6 +239,47 @@ python transcript_orchestrator.py --test --podcast "Test Podcast" --episode "Tes
 ```bash
 python -c "from helpers.database_config import test_database_integrity; print(test_database_integrity())"
 ```
+
+## 🎬 YouTube Integration
+
+Atlas now includes full YouTube API integration for both video collection and podcast transcript lookup:
+
+### **YouTube API Features** ✅
+- **Podcast Transcript Search**: Search YouTube for podcast episodes by name and topic
+- **Video Metadata Extraction**: Get titles, channels, descriptions, and links
+- **Automated Processing**: Integrated with Atlas scheduler for 2 AM daily runs
+- **Fallback System**: YouTube as primary transcript source when other methods fail
+
+### **Setup & Configuration**
+```bash
+# Test YouTube API integration
+python3 test_youtube_simple.py
+
+# View scheduler status
+python3 scheduler_youtube_integration.py
+
+# Manual transcript lookup
+python3 -c "
+from helpers.podcast_transcript_lookup_simple import PodcastTranscriptLookup
+lookup = PodcastTranscriptLookup()
+result = lookup.lookup_transcript('Huberman Lab', 'sleep')
+print(f'Success: {result.success}')
+if result.success:
+    print(f'Transcript length: {len(result.transcript)}')
+"
+```
+
+### **Scheduler Integration**
+- **Daily Collection**: 2:00 AM automatic YouTube history processing
+- **Transcript Lookup**: Every 30 minutes processes pending transcript requests
+- **Database Storage**: All results stored in Atlas database with proper staging
+- **Retry Logic**: Failed lookups automatically retry with exponential backoff
+
+### **API Key Requirements**
+The system uses your YouTube Data API v3 key (already configured in `.env`):
+- `YOUTUBE_API_KEY=AIzaSyBKXQRpYgK8RZJzKqAmGn0Pxk3rjQcswz4`
+- No browser authentication required for API-based features
+- Full search and metadata extraction capabilities
 
 **Firewall blocking domain access:**
 ```bash

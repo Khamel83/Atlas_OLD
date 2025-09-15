@@ -1,0 +1,1169 @@
+# Content from http://www.businessweek.com/print/magazine/content/11_08/b4216060281516.htm
+
+*Retrieved: 2025-09-14T20:32:09.476987*
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.businessweek.com:80/print/magazine/content/11_08/b4216060281516.htm","20120513131056","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1336914656");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<title>Cheating, Incorporated - BusinessWeek</title>
+<meta name="hidden" content="no"/>
+<meta name="time" content="05:00:00"/>
+<meta name="headline" content="Cheating, Incorporated"/>
+<meta name="headline_index" content="Cheating, Incorporated"/>
+<meta name="shorthed" content="Cheating, Incorporated"/>
+<meta name="deck_index" content="At Ashley Madison's website for &quot;dating,&quot; the
+infidelity economy is alive, well, and profitable"/>
+<meta name="description" content="At Ashley Madison's website for &quot;dating,&quot; the
+infidelity economy is alive, well, and profitable."/>
+<meta name="abstract" content="(Corrects the spelling of Danica Patrick in the 11th paragraph.)
+Do you want to have an affair?
+After hearing an ad on Howard Stern's radio show or seeing a schlocky commercial on late-night TV, you might find yourself on AshleyMadison.comâthe..."/>
+<meta name="blurb" content="Looking to sneak around on your spouse? Got a little cash to spend? The CEO of Ashley Madison, a website whose own backers don't even want to be associated with it, is happy to take your money"/>
+<meta name="keywords" content="Ashley Madison, Internet dating, Noel Biderman"/>
+<meta name="taxonomy" content="Ashley Madison, Internet dating, Noel Biderman"/>
+<meta name="channel" content="Online Magazine"/>
+<meta name="provider" content="Business Week Online: Online Magazine"/>
+<meta name="source" content="Cover Story"/>
+<meta name="strap" content="Cover Story"/>
+<meta name="syndicate" content="CEOs;E-commerce;Internet;Technology;Most Popular Stories;Social Issues"/>
+<meta name="pub_date" content="20110210"/>
+<meta name="ftype" content="text/html"/>
+<meta name="mediatype" content="story"/>
+<meta name="author" content="Sheelah Kolhatkar"/>
+<meta name="IsColumn" content="no"/>
+<meta name="subindex" content="none"/>
+<meta name="tickers" content="NWS"/>
+<meta name="tickers_primary" content="NWS"/>
+<meta name="company_primary" content="News"/>
+<meta name="content_source" content="BusinessWeek"/>
+<link rel="image_src" href="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/mz/11/08/370/1108_mz_60adultery.jpg  "/>
+<link rel="alternate" type="application/rss+xml" title="BusinessWeek: MAGAZINE" href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/rss/magazine.rss"/>
+
+<script type="text/javascript"> // <![CDATA[
+	if (navigator.userAgent.indexOf('iPad') != -1) {
+		var regexp = /http:\/\/web.archive.org\/web\/20120513131056\/http:\/\/www.businessweek.com\/magazine\/toc\/(.*)/;
+		var page_url = window.location.href;
+		if ((regexp.test(page_url)) || page_url == "http://web.archive.org/web/20120513131056/http://www.businessweek.com/magazine/news/articles/business_news.htm" ){
+			document.location = "http://web.archive.org/web/20120513131056/http://itunes.apple.com/us/app/bloomberg-businessweek/id421216878?mt=8";
+			}
+	} // ]]>
+</script>
+<link rel="stylesheet" href="http://web.archive.org/web/20120513131056cs_/http://res.businessweek.com/css/screen/story_printer.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://web.archive.org/web/20120513131056cs_/http://res.businessweek.com/css/print/story.css" type="text/css" media="print"/>
+<script src="http://web.archive.org/web/20120513131056js_/http://res.businessweek.com/scripts/common.js?cbd=20110225235822" type="text/javascript"></script>
+<script src="http://web.archive.org/web/20120513131056js_/http://res.businessweek.com/scripts/swfobject.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120513131056js_/http://www.businessweek.com/common_scripts/Tacoda_AMS_DDC_Header.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120513131056js_/http://static.btrd.net/js/bw_comscore.js"></script>
+</head>
+<body class="topNews topNewsHome">
+<script type="text/javaScript">
+<!--
+var s_prop15="CEOs,E-commerce,Internet,Technology,Most Popular Stories,Social Issues";
+//-->
+</script>
+<div id="wrapper">
+<div id="gatewaySWFWrapper"></div>
+<script type="text/javascript">//<![CDATA[ 
+var cacheKiller = new Date();
+if ('SWFObject' in window) { //Initialize SWFObject
+	var so = new SWFObject("http://" + window.location.host + "/gateway.swf?cacheKiller=" + cacheKiller.getTime(), "gatewaySWF", "1", "1", "8");
+	so.addParam("allowScriptAccess", "always");
+	so.write("gatewaySWFWrapper");
+	window.gatewaySWF = document.getElementById("gatewaySWF");
+}
+if (!('bw' in window && bw.cfg && bw.cfg.loadJquery === false) && !('jQuery' in window)) { //Check for loadJquery flag and Check if jQuery exists
+	document.write('<scr'+'ipt src="http://web.archive.org/web/20120513131056/http://res.businessweek.com/scripts/jquery.js" type="text/javascript"></scr'+'ipt>');
+}
+//]]></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120513131056js_/http://static.btrd.net/js/bw_comscore.js"></script>
+<script src="http://web.archive.org/web/20120513131056js_/http://www.businessweek.com/assets/navigation-41ef7054f056e2522bc0dfca19b2ad8e.js" type="text/javascript"></script>
+<script src="http://web.archive.org/web/20120513131056js_/http://www.businessweek.com/assets/ads_load-316dfdcd4b34c49c5ca1b92b29669f3d.js" type="text/javascript"></script>
+<link href="http://web.archive.org/web/20120513131056cs_/http://www.businessweek.com/assets/header_footer-1db980f0585187cb1a22ae829c953857.css" media="screen" rel="stylesheet" type="text/css"/>
+<div class="header_footer_814">
+<div class="clearfix" id="container">
+<div class="clearfix" id="header">
+<div class="inner_wrapper">
+<div id="logo">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/" class="ir" id="home_link">Bloomberg Businessweek</a>
+<h1 id="channel_name">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/businessweek">Businessweek</a>
+</h1>
+</div>
+<div id="promo">
+<span class="house_ad">
+<iframe allowtransparency="true" class="ad_frame" data-position="circ_header" data-pt="t6" data-size="200x92,1x1" data-tile="2" data-tz="circ_header" data-uri="/dynamic_frames/ads.html" frameborder="0" scrolling="no"></iframe>
+
+</span>
+</div>
+<div id="search">
+<form action="http://web.archive.org/web/20120513131056/http://search.businessweek.com/Search" method="get">
+<input id="search_input" name="searchTerm" type="text" value="Search">
+<input name="resultsPerPage" type="hidden" value="20">
+</form>
+</div>
+</div>
+</div>
+<div id="global_nav">
+<div class="inner_wrapper">
+<ul class="navigation clearfix">
+<li class="global_economics has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics">Global Economics</a>
+<ul class="sub_menu new">
+<li class="col featured_story">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/chinas-economy-may-soon-get-a-loosening"><img alt="China's Economy May Soon Get a Loosening" height="240" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-11/0511_chinaeco_360x240.jpg" width="360"/></a>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/chinas-economy-may-soon-get-a-loosening">China's Economy May Soon Get a Loosening</a></h5>
+<p>Disappointing economic data are likely to give Chinese leaders greater room to ease monetary policy</p>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics">Global Economics</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/how-brazil-is-making-an-example-of-chevron">How Brazil Is Making an Example of Chevron</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/syrias-economy-starts-to-crumble">Syria's Economy Starts to Crumble</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/videos/2012-05-10/chinese-bank-expansion-in-u-dot-s-dot-is-significant">Chinese Bank Expansion in U.S. Is Significant</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/britains-surprise-shopaholics-nigerians">Britain's Surprise Shopaholics: Nigerians</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics">Recent</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/fortress-flight-to-quality">Fortress Flight-to-Quality</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/india-mulls-wto-complaint-over-higher-u-dot-s-dot-visa-fees">India Mulls WTO Complaint Over Higher U.S. Visa Fees</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/jpmorgans-big-loss-volckers-not-so-dumb-after-all">JPMorgan's Big Loss: Volcker's Not So Dumb After All</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/hotels-are-hiring-as-americans-hit-the-road">Hotels Are Hiring as Americans Hit the Road</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/china-eyes-japan-as-the-land-of-opportunity">China Eyes Japan as the Land of Opportunity</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list departments last">
+<h4>
+<a>Sections</a>
+</h4>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/events/current-events-calendar">Current Events Calendar</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics/emerging-markets">Emerging Markets</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics/energy">Energy</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics/investing">Investing</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics/europe">Europe</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics/currencies">Currencies</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics/china">China</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/global-economics/global-economics">Global Economics</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li class="companies_and_industries has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries">Companies &amp; Industries</a>
+<ul class="sub_menu new">
+<li class="col featured_story">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/are-testosterone-drugs-the-next-viagra"><img alt="Are Testosterone Drugs the Next Viagra?" height="240" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-10/comp_testosterone20__01__360x240.jpg" width="360"/></a>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/are-testosterone-drugs-the-next-viagra">Are Testosterone Drugs the Next Viagra?</a></h5>
+<p>The hormone treatments are often pitched as fountains of lost youth</p>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries">Companies &amp; Industries</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/apple-the-other-cult-in-hollywood">Apple, the Other Cult in Hollywood</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/us-airways-angles-for-a-merger-with-american">US Airways Angles for a Merger With American</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/your-company-name-here-the-latest-in-free-stuff">[Your Company Name Here]: The Latest in Free Stuff</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-09/american-airlines-is-on-the-wrong-flight-path">American Airlines Is on the Wrong Flight Path</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries">Recent</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/too-much-tax-talk">Too Much Tax Talk</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/apple-the-other-cult-in-hollywood">Apple, the Other Cult in Hollywood</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/us-airways-angles-for-a-merger-with-american">US Airways Angles for a Merger With American</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/britains-surprise-shopaholics-nigerians">Britain's Surprise Shopaholics: Nigerians</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/extreme-test-drive">Extreme Test Drive</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list departments last">
+<h4>
+<a>Sections</a>
+</h4>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries/autos">Autos</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries/energy">Energy</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries/health-care">Health Care</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries/management">Management</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries/manufacturing">Manufacturing</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries/media-and-marketing">Media &amp; Marketing</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries/telecommunications">Telecommunications</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/companies-and-industries/transportation">Transportation</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/blogs/the-management-blog">Blog: The Management Blog</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://investing.businessweek.com/research/company/overview/overview.asp">Public &amp; Private Companies</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://investing.businessweek.com/research/people/overview/overview.asp">Executives</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://jobs.businessweek.com/a/all-jobs/list">Jobs</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li class="politics_and_policy has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/politics-and-policy">Politics &amp; Policy</a>
+<ul class="sub_menu new">
+<li class="col featured_story">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/how-the-gay-marriage-battle-hurts-business"><img alt="How the Gay Marriage Battle Hurts Business" height="240" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-10/0510_gaymarriage_360x240.jpg" width="360"/></a>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/how-the-gay-marriage-battle-hurts-business">How the Gay Marriage Battle Hurts Business</a></h5>
+<p>In their effort to limit gay rights, Colorado opponents are interfering with the legislative process and driving up costs and uncertainty</p>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/politics-and-policy">Politics &amp; Policy</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/exxonmobil-vs-dot-dodd-frank">ExxonMobil vs. Dodd-Frank</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/killing-the-american-community-survey-blinds-business">Killing the American Community Survey Blinds Business</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/obama-vs-dot-romney-whos-winning-the-sports-donations">Obama vs. Romney: Who's Winning the Sports Donations?</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/states-borrow-to-cover-pension-fund-shortfalls">States Borrow to Cover Pension Fund Shortfalls</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/politics-and-policy">Recent</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/the-secret-republican-guide-to-talking-about-gay-marriage">The Secret Republican Guide to Talking About Gay Marriage</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/obamas-lines-at-george-clooneys-house-got-lots-of-laughs-dot-too-bad-nobody-fact-checked-them-first">Obama's Clooney Joke Got Lots of Laughs. Too Bad Nobody Fact-Checked It First</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/india-mulls-wto-complaint-over-higher-u-dot-s-dot-visa-fees">India Mulls WTO Complaint Over Higher U.S. Visa Fees</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/what-obama-can-do-about-gas-prices">What Obama Can Do About Gas Prices</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/whats-behind-obamas-evolution-and-romneys-devolution-on-gay-marriage">Behind Obama's Evolution and Romney's Devolution on Gay Marriage</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list departments last">
+<h4>
+<a>Sections</a>
+</h4>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/politics-and-policy/2012-campaign">2012 Campaign</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/politics-and-policy/congress">Congress</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/politics-and-policy/courts">Courts</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/politics-and-policy/legislation">Legislation</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/politics-and-policy/white-house">White House</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/blogs/joshua-green-on-politics">Blog: Joshua Green on Politics</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li class="technology has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology">Technology</a>
+<ul class="sub_menu new">
+<li class="col featured_story">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/apple-the-other-cult-in-hollywood"><img alt="Apple, the Other Cult in Hollywood" height="240" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-10/tech_apple20__01__360x240.jpg" width="360"/></a>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/apple-the-other-cult-in-hollywood">Apple, the Other Cult in Hollywood</a></h5>
+<p>The iPhone maker has spent decades building relationships in the entertainment industry</p>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology">Technology</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/camera-apps-a-family-tree">Camera Apps: A Family Tree</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/hospitals-seek-startups-to-cure-tech-ills">Hospitals Seek Startups to Cure Tech Ills</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/identity-theft-grave-robbing-for-a-tax-refund">Identity Theft: Grave Robbing for a Tax Refund</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/want-to-reinvent-tv-dont-forget-the-tv">Want to Reinvent TV? Don't Forget the TV</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology">Recent</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/the-chocolate-machine-that-can-improve-your-willpower">The Chocolate Machine That Can Improve Your Willpower</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/mark-shuttleworth-open-source-softwares-sugar-daddy">Mark Shuttleworth, Open-Source Software's Sugar Daddy</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/on-diasporas-social-network-you-own-your-data">On Diaspora's Social Network, You Own Your Data</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/lookout-safeguards-smartphones-but-do-consumers-care">Lookout Safeguards Smartphones, but Do Consumers Care?</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/daniela-russ-robotic-sand">Daniela Rus's Robotic Sand</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list departments last">
+<h4>
+<a>Sections</a>
+</h4>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology/apple">Apple</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology/apps-and-software">Apps &amp; Software</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/reports/technology/ceo-tech-guide">CEO Tech Guide</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology/consumer-electronics">Consumer Electronics</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology/facebook">Facebook</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology/google">Google</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology/mobile-and-telecom">Mobile &amp; Telecom</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology/personal-technology">Personal Technology</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology/science-and-research">Science &amp; Research</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/technology/social-media">Social Media</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li class="markets_and_finance has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance">Markets &amp; Finance</a>
+<ul class="sub_menu new">
+<li class="col featured_story">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/jpmorgans-big-loss-volckers-not-so-dumb-after-all"><img alt="JPMorgan's Big Loss: Volcker's Not So Dumb After All" height="240" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-11/0511_Dimon3_360x240.jpg" width="360"/></a>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/jpmorgans-big-loss-volckers-not-so-dumb-after-all">JPMorgan's Big Loss: Volcker's Not So Dumb After All</a></h5>
+<p>The bank's $2 billion loss on a derivatives bet is a black eye for CEO Jamie Dimon</p>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance">Markets &amp; Finance</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/bank-loan-funds-a-risky-reach-for-yield">Bank-Loan Funds: A Risky Reach for Yield</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-09/green-mountain-coffee-a-giddy-win-for-short-sellers">Green Mountain Coffee: A Giddy Win for Short-Sellers</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/where-has-all-the-stock-trading-gone">Where Has All the Stock Trading Gone?</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/videos/2012-05-10/dimon-many-errors-sloppiness-and-bad-judgment">Dimon: Many Errors, Sloppiness and Bad Judgment</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance">Recent</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/jeffrey-gundlach-bond-savant">Jeffrey Gundlach, Bond Savant</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/homeownership-back-to-the-mean">Homeownership: Back to the Mean</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/states-borrow-to-cover-pension-fund-shortfalls">States Borrow to Cover Pension Fund Shortfalls</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/londons-russian-ipos">London's Russian IPOs</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/debit-overdraft-fees-still-confounding-consumers-survey-finds">Debit Overdraft Fees Still Confound Consumers, Survey Finds</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list departments last">
+<h4>
+<a>Sections</a>
+</h4>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/banks">Banks</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/commodities">Commodities</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/currencies">Currencies</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/hedge-funds">Hedge Funds</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/investing">Investing</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/mutual-funds-and-etfs">Mutual Funds &amp; ETFs</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/private-equity">Private Equity</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/real-estate">Real Estate</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/regulation">Regulation</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/stocks-and-bonds">Stocks &amp; Bonds</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/markets-and-finance/wall-street">Wall Street</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li class="innovation has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/innovation">Innovation</a>
+<ul class="sub_menu new">
+<li class="col featured_story">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/a-crackdown-on-patently-absurd-lawsuits"><img alt="A Crackdown on Patently Absurd Lawsuits" height="240" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-10/pol_texas20__01__360x240.jpg" width="360"/></a>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/a-crackdown-on-patently-absurd-lawsuits">A Crackdown on Patently Absurd Lawsuits</a></h5>
+<p>The Supreme Court and White House rein in patent owners who file frivolous cases</p>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/innovation">Innovation</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/on-diasporas-social-network-you-own-your-data">On Diaspora's Social Network, You Own Your Data</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/mark-shuttleworth-open-source-softwares-sugar-daddy">Mark Shuttleworth, Open-Source Software's Sugar Daddy</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/the-chocolate-machine-that-can-improve-your-willpower">The Chocolate Machine That Can Improve Your Willpower</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-09/bre-pettis-3d-printings-first-celebrity">Bre Pettis: 3D Printing's First Celebrity</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/innovation">Recent</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-09/the-best-places-for-various-lawsuits">The Best Places for Various Lawsuits</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/daniela-russ-robotic-sand">Daniela Rus's Robotic Sand</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/book-review-birdseye-by-mark-kurlansky">Book Review: 'Birdseye,' by Mark Kurlansky</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-04/anything-you-want-only-10-a-month">Anything You Want, Only $10 a Month</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-03/clay-christensens-life-lessons">Clay Christensen's Life Lessons</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list departments last">
+<h4>
+<a>Sections</a>
+</h4>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/innovation/copyright">Copyright</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/fix-this/health-care.html">Fix This/Health Care</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/innovation/innovator">Innovators</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/innovation/patents">Patents</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/innovation/privacy">Privacy</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/innovation/reinventing-business">Reinventing Business</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/innovation/trademarks">Trademarks</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li class="lifestyle has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle">Lifestyle</a>
+<ul class="sub_menu new">
+<li class="col featured_story">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/behind-europes-workday-club-craze"><img alt="Behind Europe's Workday Club Craze" height="240" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-09/etc_opener20__01__360x240.jpg" width="360"/></a>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/behind-europes-workday-club-craze">Behind Europe's Workday Club Craze</a></h5>
+<p>Lunch Beat draws workers to the dance floor during their lunch hour in about a dozen European cities, and it's headed stateside</p>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle">Lifestyle</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/hillary-clinton-queen-of-cool">Hillary Clinton, Queen of Cool</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-08/odd-jobs-white-house-chimney-sweep">Odd Jobs: White House Chimney Sweep</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-09/a-fix-for-forlorn-u-dot-k-dot-hunters-paintball-fox-hunt">A Fix for Forlorn U.K. Hunters: Paintball Fox Hunt</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-09/concoct-a-bespoke-fragrance-with-perfumer-miller-harris">Concoct a Bespoke Fragrance With Perfumer Miller Harris</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle">Recent</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/does-your-office-have-a-clique">Does Your Office Have a Clique?</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/chanel-breaks-through-clutter-with-brad-pitt-as-new-face-of-no-dot-5">Chanel Breaks Through Clutter With Brad Pitt as New Face of No. 5</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/the-chocolate-machine-that-can-improve-your-willpower">The Chocolate Machine That Can Improve Your Willpower</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/apple-the-other-cult-in-hollywood">Apple, the Other Cult in Hollywood</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/extreme-test-drive">Extreme Test Drive</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list departments last">
+<h4>
+<a>Sections</a>
+</h4>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle/books">Books</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle/fashion">Fashion</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle/food-and-drink">Food &amp; Drink</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle/gadgets-and-accessories">Gadgets &amp; Accessories</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle/hard-choices">Hard Choices</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle/travel">Travel</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/lifestyle/workplace">Workplace</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li class="business_schools has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/business-schools">Business Schools</a>
+<ul class="sub_menu new">
+<li class="col featured_story">
+<a href="http://web.archive.org/web/20120513131056/http://images.businessweek.com/slideshows/2012-05-11/fifty-most-popular-employers-for-college-students"><img alt="Fifty Most Popular Employers for College Students" height="239" src="http://web.archive.org/web/20120513131056im_/http://dlimages.businessweek.com/imageserve/05P7aeK4Av3SM/360x239.jpg" width="360"/></a>
+<h5><a href="http://web.archive.org/web/20120513131056/http://images.businessweek.com/slideshows/2012-05-11/fifty-most-popular-employers-for-college-students">Fifty Most Popular Employers for College Students</a></h5>
+<p>College business students once again catapulted Google, Apple, and Walt Disney to the top of Universum's ranking</p>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/business-schools">Business Schools</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/recruiter-q-and-a-ibms-deanna-laird">Recruiter Q&A;: IBM's Deanna Laird</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-03/the-fuzzy-math-in-financial-aid-offers">The Fuzzy Math in Financial Aid Offers</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-07/getting-science-geeks-into-the-corner-office">Getting Science 'Geeks' Into the Corner Office</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/reports/business-schools/best-undergraduate-b-schools-2012">Special Report: Best Undergraduate B-Schools 2012</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/business-schools">Recent</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/google-apple-tops-with-college-grads-detroit-beckons">Google, Apple Tops With College Grads; Detroit Beckons</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/b-school-research-briefs">B-School Research Briefs</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/recruiter-q-and-a-ibms-deanna-laird">Recruiter Q&amp;A: IBM's Deanna Laird</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/stress-takes-its-toll-on-college-students">Stress Takes Its Toll on College Students</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/b-school-news-roundup">B-School News Roundup</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list departments last">
+<h4>
+<a>Sections</a>
+</h4>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://tools.businessweek.com/business_school_events_calendar/">B-School Calendar</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://tools.businessweek.com/BSchool_Comparator/">Compare B-Schools</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/business-schools/financial-aid">Financial Aid</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/business-schools/finding-a-job">Finding A Job</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://forums.businessweek.com/bw-bschools/start/">Forums</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/business-schools">MBA Journals</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/bschools/rankings">Rankings &amp; Profiles</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/business-schools/undergrad-programs">Undergrad Programs</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/blogs/getting-in">Blog: Getting In</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li class="small_business has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/small-business">Small Business</a>
+<ul class="sub_menu new">
+<li class="col featured_story">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/integrated-marketing-if-you-knew-it-youd-do-it"><img alt="Integrated Marketing: If You Knew It, You'd Do It" height="240" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-10/0509_SB_advertising_360x240.jpg" width="360"/></a>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/integrated-marketing-if-you-knew-it-youd-do-it">Integrated Marketing: If You Knew It, You'd Do It</a></h5>
+<p>The glut of places to advertise makes it easy to confuse customers with contradictory messages. Execute a strategy that integrates all your efforts</p>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/small-business">Small Business</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-07/protect-your-companys-website-from-malware">Protect Your Company's Website From Malware</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/more-farms-vie-for-the-1-billion-spent-at-farmers-markets">More Farms Vie for the $1 Billion Spent at Farmers Markets</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/videos/2012-05-10/verifone-launches-mobile-payments-service">Verifone Launches Mobile Payments Service</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-08/old-as-new-fixing-e-waste-instead-of-scrapping-it">Old as New: Fixing E-Waste Instead of Scrapping It</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/small-business">Recent</a>
+</h4>
+<ul>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/hospitals-seek-startups-to-cure-tech-ills">Hospitals Seek Startups to Cure Tech Ills</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-11/when-should-domain-names-match-company-names">When Should Domain Names Match Company Names?</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/lookout-safeguards-smartphones-but-do-consumers-care">Lookout Safeguards Smartphones, but Do Consumers Care?</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/more-farms-vie-for-the-1-billion-spent-at-farmers-markets">More Farms Vie for the $1 Billion Spent at Farmers Markets</a></h5>
+</li>
+<li>
+<h5><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-08/odd-jobs-white-house-chimney-sweep">Odd Jobs: White House Chimney Sweep</a></h5>
+</li>
+</ul>
+</li>
+<li class="col list departments last">
+<h4>
+<a>Sections</a>
+</h4>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/small-business/advice">Advice</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/blogs/the-new-entrepreneur">Blog: The New Entrepreneur</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/small-business/commentary">Commentary</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/small-business/legal-forms.html">Legal Documents</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/small-business/financing">Financing</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/small-business/policy">Policy</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/small-business/profiles">Profiles</a></li>
+</ul>
+</li>
+
+</ul>
+</li>
+<li class="media has_sub_menu tracked">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/media">Video &amp; Multimedia</a>
+<ul class="sub_menu new">
+<li class="media_type slideshows">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/slideshows">Slideshows</a>
+</h4>
+<ul>
+<li class="clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://images.businessweek.com/slideshows/2012-05-03/the-hungry-entrepreneur"><img alt="The Hungry Entrepreneur" height="96" src="http://web.archive.org/web/20120513131056im_/http://dlimages.businessweek.com/imageserve/0bO4cNS7Il49n/145x96.jpg" width="145"/>
+<h6>The Hungry Entrepreneur</h6>
+</a></li>
+
+<li class="clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://images.businessweek.com/slideshows/2012-05-07/the-angry-birds-theme-park"><img alt="The Angry Birds Theme Park" height="96" src="http://web.archive.org/web/20120513131056im_/http://dlimages.businessweek.com/imageserve/05xQ9Om5Qr09K/145x96.jpg" width="145"/>
+<h6>The Angry Birds Theme Park</h6>
+</a></li>
+
+<li class="clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://images.businessweek.com/slideshows/2012-04-26/3d-printing-is-getting-cool"><img alt="3D Printing Is Getting Cool" height="96" src="http://web.archive.org/web/20120513131056im_/http://dlimages.businessweek.com/imageserve/05IU75HbME7Qg/145x96.jpg" width="145"/>
+<h6>3D Printing Is Getting Cool</h6>
+</a></li>
+
+<li class="clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://images.businessweek.com/slideshows/2012-05-01/the-mba-life-duke"><img alt="The MBA Life: Duke" height="96" src="http://web.archive.org/web/20120513131056im_/http://dlimages.businessweek.com/imageserve/03Li3ZW7Kl9SE/145x96.jpg" width="145"/>
+<h6>The MBA Life: Duke</h6>
+</a></li>
+
+</ul>
+</li>
+<li class="media_type photo_essay">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/photos">Photo Essays</a>
+</h4>
+<ul>
+<li class="clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://images.businessweek.com/photos/2012-05-03/archivists-of-soul"><img alt="Archivists of Soul" height="96" src="http://web.archive.org/web/20120513131056im_/http://dlimages.businessweek.com/imageserve/0dgQ2YT5creAd/145x96.jpg" width="145"/>
+<h6>Archivists of Soul</h6>
+</a></li>
+
+<li class="clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://images.businessweek.com/photos/2012-04-05/fixer-upper-former-youth-detention-center-needs-tlc"><img alt="Fixer-Upper: Former Youth Detention Center (Needs TLC)" height="96" src="http://web.archive.org/web/20120513131056im_/http://dlimages.businessweek.com/imageserve/00Adf2335E4e5/145x96.jpg" width="145"/>
+<h6>Fixer-Upper: Former Youth Detention Center (Needs TLC)</h6>
+</a></li>
+
+</ul>
+</li>
+<li class="media_type charts">
+<h4>
+<span class="a_mock">Charts</span>
+</h4>
+<ul>
+<li class="clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-09/the-best-places-for-various-lawsuits"><img alt="The Best Places for Various Lawsuits" height="82" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-11/pol_texaschart20__01__145x82.jpg" width="145"/>
+<h6>The Best Places for Various Lawsuits</h6>
+</a></li>
+
+<li class="clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/articles/2012-05-10/camera-apps-a-family-tree"><img alt="Camera Apps: A Family Tree" height="82" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-11/techchart20__01__145x82.jpg" width="145"/>
+<h6>Camera Apps: A Family Tree</h6>
+</a></li>
+
+</ul>
+</li>
+<li class="media_type videos">
+<h4>
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/videos">Videos</a>
+</h4>
+<ul>
+<li class="video clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/videos/2012-05-10/extreme-test-drives" class="clearfix"><img alt="Extreme Test Drives" height="80" src="http://web.archive.org/web/20120513131056im_/http://cdn.videos.bloomberg.com/J4Z3luNDp6QkKRx1T6lsDAvQu9XHQnYj/34Rn2mwL0OLTzHo35iMDoxOmg0O9j0gt" width="145"/>
+<h6>Extreme Test Drives</h6>
+</a></li>
+
+<li class="video clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/videos/2012-05-10/whos-funding-startups" class="clearfix"><img alt="Who's Funding Startups?" height="80" src="http://web.archive.org/web/20120513131056im_/http://cdn.videos.bloomberg.com/B4dnhuNDrWtqMtNAEPfaqjdrQI6G7lda/4DSSlmQqi1fI8yKn5iMDoxOmg0O9j0gt" width="145"/>
+<h6>Who's Funding Startups?</h6>
+</a></li>
+
+<li class="video clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/videos/2012-05-10/greg-jennings-building-a-brand" class="clearfix"><img alt="Greg Jennings: Building a Brand" height="80" src="http://web.archive.org/web/20120513131056im_/http://cdn.videos.bloomberg.com/Q0Y3huNDqXApoqKKcNjrCsc9aOazh1Gh/34Rn2mwL0OLTzHo35iMDoxOmg0O9j0gt" width="145"/>
+<h6>Greg Jennings: Building a Brand</h6>
+</a></li>
+
+<li class="video clearfix">
+<a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/videos/2012-05-10/prince-charles-reports-the-weather" class="clearfix"><img alt="Prince Charles Reports the Weather" height="81" src="http://web.archive.org/web/20120513131056im_/http://cdn.videos.bloomberg.com/J5a3huNDpMyRwcqoWWcPxughwYU3i0A8/34Rn2mwL0OLTzHo35iMDoxOmg0O9j0gt" width="145"/>
+<h6>Prince Charles Reports the Weather</h6>
+</a></li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- Chart beat header code starts here-->
+		<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+	<!-- Chart beat header code ends here-->
+
+<!-- Chart beat footer part starts here -->
+<script type="text/javascript">
+var _sf_async_config={uid:15087,domain:"businessweek.com"};
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "http://web.archive.org/web/20120513131056/https://s3.amazonaws.com/" : "http://") +
+       "static.chartbeat.com/js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+</script>
+<!-- Chart beat footer part ends here -->
+
+<!-- BW Ad Code -->
+<script language="JavaScript" type="text/javascript">
+// <![CDATA[
+if (!window.BW_adsys) {
+document.write('<scr' + 'ipt src="http://web.archive.org/web/20120513131056/http://www.businessweek.com/common_scripts/BW_adsys.js" language="JavaScript" type="text/javascript"><\/scr' + 'ipt>');
+}
+// ]]>
+</script>
+<div class="ad">
+<script language="JavaScript" type="text/javascript">
+// <![CDATA[
+if (!window.BW_sitezone) {
+BW_sitezone = 'top_news/printer_friendly';
+}
+if (window.BW_adsys) {
+document.write(BW_adsys('top', '/common_adcode/bw_print_10.htm'));
+}
+// ]]>
+</script>
+<noscript>
+<a href="http://web.archive.org/web/20120513131056/http://ad.doubleclick.net/jump/mgh.bw.top_news/printer_friendly;page=t0;t0=top;sz=728x90,468x60;ord=1234567890" target="_blank"><img src="http://web.archive.org/web/20120513131056im_/http://ad.doubleclick.net/ad/mgh.bw.top_news/printer_friendly;page=t0;t0=top;sz=728x90,468x60;ord=1234567890" alt="" border="0"/></a>
+</noscript>
+</div>
+
+<div id="columnLayout">
+<div id="column1">
+<div id="strapBox">
+<span class="strap">Cover Story</span>
+<span class="date">February 10, 2011, 5:00PM EST
+</span>
+</div>
+<div id="storyBody">
+<h1>Cheating, Incorporated</h1>
+<h2>At Ashley Madison's website for "dating," the
+infidelity economy is alive, well, and profitable</h2>
+<p class="byline">By
+<a href="/web/20120513131056/http://www.businessweek.com/print/bios/Sheelah_Kolhatkar.htm">Sheelah Kolhatkar</a>
+</p>
+<p>
+<em>(Corrects the spelling of Danica Patrick in the 11th paragraph.)</em>
+</p>
+<p>
+Do you want to have an affair?
+</p>
+<p>
+After hearing an ad on Howard Stern's radio show or seeing a schlocky commercial on late-night TV, you might find yourself on AshleyMadison.com&mdash;the premier "dating" website for aspiring adulterers. Type in the URL, and as the page loads a gauzy violet backdrop appears with a fuzzy image of a half-dressed couple going at it beyond a hotel doorway. "Join FREE &amp; change your life today. Guaranteed!"
+</p>
+<p>
+Setting up a profile costs nothing and takes about 12 seconds. First you check off your availability status: "attached male seeking females," "attached female seeking males," or, even though the concept of the site is that all users are in relationships and therefore equally invested in secrecy, "single female seeking males." Next you're asked for location, date of birth, height and weight, and whether you're looking for something "short term," "long term," "Cyber affair/Erotic Chat," "Whatever Excites Me," and so on. If you're like me, you choose a handle based on the cupcake you most recently ate&mdash;"redvelvet2"&mdash;and then shave a few years and pounds off your numbers.
+</p>
+<p>
+Once you provide an e-mail address that your spouse would presumably never have access to, you're thrust into Ashley Madison's low-tech pink  and purple interface. And then, if you're a woman, the onslaught begins.
+</p>
+<p>
+<strong>TDH071</strong> ("Like foreign guys with accents?"):  Hi, would u like to chat? I luv tall women!!
+</p>
+<p>
+<strong>Needtotry2011</strong> ("life is short, make it count!"): Hello!
+</p>
+<p>
+<strong>Dirtybear2010</strong> ("Seeking Ladies seeking NSA Discreet Fun"): Hello Red
+</p>
+<p>
+There's a lone genius&mdash;possibly evil and certainly entrepreneurial&mdash;behind Ashley Madison. His name is Noel Biderman, and he's the chief executive officer of Avid Life Media, based in Toronto. "Monogamy, in my opinion, is a failed experiment," he declares. It's unclear if Biderman actually believes this&mdash;he's married and has two young kids&mdash;but like Hugh Hefner before him the business he has created pretty much requires that he say it. Behind his desk, in an office so lacking in embellishment it almost looks like a hastily assembled low-budget film set, is a large flat-screen monitor promoting his company's flagship brand. It reads: "Life is short. Have an affair."
+</p>
+<p>
+Adultery has been good to Biderman, but defending his product is a full-time job. The day before our meeting, Ashley Madison had blasted out a press release accusing Fox (<a href="http://web.archive.org/web/20120513131056/http://investing.businessweek.com/research/stocks/snapshot/snapshot.asp?symbol=NWS">NWS</a>) of refusing to broadcast its Super Bowl commercial. When I arrived, Avid Life's offices were still crackling with outrage, with Biderman playing the role of the unfairly maligned business owner just trying to make an honest living. While Biderman scheduled calls with reporters from CNN, ESPN, and a Peterborough (Ont.) radio station called The Wolf to discuss the perceived injustice against his company, a film crew set up lights to shoot a segment for a documentary about the "science of sin." Down the hall, the 107 programmers, designers, customer service agents, and marketing folk who run Avid Life's six websites&mdash;including cougarlife.com, for older women seeking younger men, establishedmen.com, which connects "ambitious and attractive girls" with "successful and generous benefactors to fulfill their lifestyle needs," and hotornot.com, the 1990s throwback where people rate one another's photos&mdash;were plotting Avid Life's digital push into the future.
+</p>
+<p>
+"How could I not be angry?" Biderman, 39, asks of the Super Bowl affront.
+</p>
+<p>
+One expects the guiding light of an operation such as his to be more like Joe Francis, the hard-partying creator of the <cite>Girls Gone Wild</cite> franchise, than Mitt Romney, but Biderman tends towards the latter: He wears a sports jacket and is preppy and well-built, with a tuft of hair at the tip of his forehead. Fox declined to comment on the Ashley Madison commercial, although it's worth noting that during the most-watched Super Bowl in history, the network broadcast an ad for GoDaddy.com, in which racecar driver Danica Patrick wears a skintight body suit, and an Adam Sandler movie trailer featuring a barely-dressed jiggling woman. In any case, rejection is nothing new to Biderman, whose business has grown in part through the predictable media attention that's generated when a company that profits by encouraging people to cheat on their spouses tries to push further into the mainstream. "I think when a landscape is tilted against you like that...isn't that how women the generation before felt when they couldn't get a fair shake in jobs? Because of their gender?" Biderman continues. "It's the same thing. I'm angry because it's not logical."
+</p>
+<p>
+<pagebr/>
+</p>
+<p>
+After spending several years as a sports agent at Chicago's Interperformances, Biderman founded Ashley Madison in 2002, naming the company after the two most popular names for baby girls that year. A large chunk of his work as an agent involved helping professional basketball players juggle their wives and mistresses, so when he read somewhere that 30 percent of users of Internet dating services were pretending to be single when they weren't, a light went on, pointing the way to an underserved online niche market. What would happen, Biderman thought, if cheaters had a website all their own?
+</p>
+<p>
+Biderman presented the idea to his business partner at the time, Darren Morgenstern. They tried to hold focus groups to figure out what philanderers would want in a website, but gave up, hired "a computer geek from Australia," and threw up a bare bones interface. From there, they came to better understand their customers, especially the reasons they were seeking affairs. More than a hundred employees later, the staff skews young, with shaggy hipsters occupying the programming stations and more conservative types in the executive wing. Rizwan Jiwan, the vice-president for product marketing, has an engineering degree and an MBA, and formerly worked at Research in Motion. "My girlfriend pushed me to accept the job," he says.
+</p>
+<p>
+It's not easy to get a handle on the size of the fling economy. The Internet dating market is worth $1 billion to $1.5 billion in the U.S., according to industry website Online Dating Insider, and some portion of that, from 10 percent to 30 percent, depending on whom you ask, involves people who are already in relationships. Match.com and Facebook, as well as raunchier sites such as Adult FriendFinder, all had a piece of what Biderman was after; still, he essentially had to create a market for Ashley Madison, which is by far Avid Life's most successful brand. Craigslist, where much adulterous activity used to live, shut down its "adult services" section last year after it was accused of abetting sex trafficking and prostitution. The average number of daily visitors to Ashley Madison has grown 13 percent since then.
+</p>
+<p>
+Avid Life is privately held, making its numbers difficult to verify, but according to the company, Ashley Madison has 8.5 million members, 1.3 million of whom have actually paid something. It now has a presence in 10 countries&mdash;the U.S., Canada, Australia, the U.K., Germany, Switzerland, Austria, Ireland, New Zealand, and Sweden&mdash;with plans to enter Italy, Spain, and Brazil in the next year. Not surprisingly, the majority of its users are men&mdash;an estimate on the site says there are seven of them for every three women. Based on internal projections, Avid Life is expected to generate $60 million in revenue this year and $20 million in profit. Almost all of that comes from Ashley Madison.
+</p>
+<p>
+Promoting adultery and creating a market for it has made Biderman rich. It has not made him popular. "Nobody knows how many people are adulterous. But there is something important here," says Helen Fisher, an anthropologist specializing in love and relationships who is also a consultant to the dating site Match.com. "Even though some people are predisposed to adultery, we do have a big cerebral cortex with which we make decisions&mdash;some people are predisposed to alcohol and they give up drinking, drug addicts overcome addiction. This guy is preying on human frailty. It's a little bit like pimping if he's making money." Still, "they certainly own that cheaters' market," said David Evans, publisher of Online Dating Insider. "It's quite lucrative and successful."
+</p>
+<p>
+<pagebr/>
+</p>
+<p>
+What Ashley Madison does is legal. It's also illicit, in that it helps users violate their marriage vows and engage in deception and secrecy. This presents enormous branding challenges as well as financial ones: How many fund managers want to go home to their wives and announce, "Honey, I found the perfect investment opportunity!" Some of Avid Life's employees don't publicly admit where they work for fear of jeopardizing their spouses' jobs, provoking family disapproval, or seeing their houses pelted with oranges; Biderman says he sometimes worries about his security. All of this puts him in a unique position: He is running a budding empire built on an activity that most people would say is wrong. Is that the easiest thing in the world or the most difficult?
+</p>
+<p>
+<br/>
+</p>
+<p>
+Ashley Madison is what Biderman calls a "female-focused brand." Everything from the site's girly colors to the name is meant to entice those elusive XX chromosomes, the target of ladies' night two-for-one drink specials the world over. It was a particular dilemma, in this case, trying to appeal to the very demographic&mdash;married women&mdash;who were most likely to be disgusted by the nature of the goods being offered. "I was very confident that men would gravitate towards a service to conduct these otherwise anonymous affairs. They were seemingly doing it already," says Biderman. "I was much less confident that women would behave that way."
+</p>
+<p>
+According to the research he cites, women are most likely to have affairs in one of two places: at the office with a "work husband," or within their social circle, with "a friend's partner, a sister's partner," or someone else they are close to. "For them to go and have anonymous affairs, I was almost gonna have to create that paradigm," Biderman says. "And to do that I felt that women were going to have to feel that there was...I don't want to say a woman behind it, but definitely that they were the focal point."
+</p>
+<p>
+Surfing the Internet, with its angry anonymous commenters, porn, and gambling, can sometimes feel like freebasing testosterone, a journey into a giant bazaar of the male id. Relationships that start there tend to go backwards. Instead of getting to know someone gradually, your face is rubbed into their most intimate details right away, while you may never learn their real name or where they live. This approach seems to appeal more to men.
+</p>
+<p>
+Just as Biderman predicted, Ashley Madison is drowning in husbands, so many that they threaten to crush the few venturesome ladies who have boldly&mdash;and perhaps recklessly&mdash;put themselves out there. Each time you log on as a female, it's as if a new batch of peanut butter packets has been dropped over a refugee camp&mdash;everyone leaps at them at once, and you are overwhelmed with messages, "winks," and men attempting to interact. The pricing system is cleverly designed to charge the men at their most vulnerable moment: Each time one of those hungry males tries to grab at the peanut butter, he has to spend a few bucks. Creating a profile and browsing others are free, but if you'd like to initiate an e-mail or chat conversation with someone, you must purchase "credits"&mdash;200 of them cost $79.00, and they run like a meter (e-mails after the first one cost nothing; charges appear ambiguously on your credit card bill).
+</p>
+<p>
+It's astonishing how quickly those little beans slip away: After signing up for an introductory $49 package, I sent messages to 11 women asking to interview them. As soon as I noticed that one had responded, a box appeared on my screen, informing me I was out of ammunition and had to buy more. The biggest advantage of this pricing, Biderman says, is that it "makes people be a lot more thoughtful and selective with the messaging they send when they realize there is a toll." It also appears to be quite lucrative. Because no one in the history of Ashley Madison has ever heard of a female member having to initiate contact with a man, ladies effectively drink free.
+</p>
+<p>
+<pagebr/>
+</p>
+<p>
+Case in point: On a recent Saturday afternoon, three minutes after I logged on, the box at the top of my screen had filled with four attempts at correspondence. The queue quickly grew so long I couldn't keep track of it.
+</p>
+<p>
+Then someone named "quietriot12" ("Casual and Causal") sent me a "Pre-Contact Message," asking if I wanted to initiate a chat session. (This seems to be a way to avoid blowing credits by trying to chat with someone who isn't going to respond.) It was quietriot12's second attempt that day&mdash;he had already sent me a key to a "private showcase," which consisted of two photos of himself. Unlike many of the other showcase pictures out there, quietriot12's were of his face. He looked sort of hunky and clean-cut, with short dark hair, and he was evidently a sports freak, judging by one image snapped at a baseball game. His profile said he was 40, liked women who were stylish/classy and had natural breasts, and that he was a social drinker. "Boating? Karaoke?"
+</p>
+<p>
+Before I could respond to that one, "2011_Intrigue" ("Pursuing unfulfilled desirs") cut in with: "hi...beautiful day...red velvet might be the key. are you opened minded?" Then "willy63" ("1111111") wanted to know: "r u on?"
+</p>
+<p>
+Research suggests that 20 to 40 percent of heterosexual married men and 20 to 25 percent of heterosexual married women will have an affair during their lifetime. Moreover, men have an evolutionary prerogative to spread their genes as widely as possible, while women are driven to find a mate and try to gain access to the best genes out there by any means necessary. Bruce Elmslie, an economist at the University of New Hampshire who has studied the economic impact of infidelity, found that up to the ages of 35 or 40, women and men are equally likely to cheat; after that, the women slow down while the men keep doing it, which makes sense from a purely reproductive perspective. Women are also more thoughtful about it, Elmslie found, while men are less likely to "consider the costs" and will do it almost with whoever is available.
+</p>
+<p>
+Curiously, Australia, where Ashley Madison was launched in April 2010, has the highest proportion of women users, at almost 40 percent. Biderman spent a few weeks there and says he noticed that prostitution is legal and that Aussie women aren't happy about it. "I think women down there have a view of the world that men have all these playgrounds&mdash;brothels, strip clubs, massage parlors," he says, "and they have nothing." Biederman has spent so much time studying his users, he sounds like an amateur sociologist: "We know there's a lot of doctors on there with god complexes who clearly either deal with so much stress in their lives, or believe they're so important, that having an affair&mdash;they're entitled to it." Also, real estate agents "went through the roof" during the financial crisis, along with executives from Wall Street.
+</p>
+<p>
+While stress and cultural factors may drive use, looks apparently do not, at least for the men. "If you sat down with 20 people who'd had an affair and said, rate the person you had an affair with 'better looking' or 'worse looking' than your partner, almost 90 percent'll say worse," Biderman says. "You can build a profile right now of an unattractive woman, overweight, whatever, she'll still have a dozen men interested in meeting her." Either way, the pool of potential cheaters&mdash;and customers&mdash;is huge.
+</p>
+<p>
+Twenty percent of Ashley Madison's female members are single, according to the site's administrators. Several experts, including Elmslie, suggest that the vast pool of husbands and large number of young, unattached women creates a dynamic that could be exploited for prostitution. After all, why would unmarried women go out searching for men who are taken? Judging from their profiles, many of them are looking for guys who will take them shopping: "Single Lady from New York, artist seeking ideally mutually beneficial Sugar Daddy/Sugar Baby type of LTR," writes one "ArtPrincess" ("I;ve got brains, booty and boobs :)"). In response, Biderman says, "Is that any different from any dating scenario? If you take a woman out and buy her a diamond ring and a Valentine's gift&mdash;that is how the world works." He adds, "I remove anybody soliciting. We try really hard. We are not interested in that."
+</p>
+<p>
+<pagebr/>
+</p>
+<p>
+Biderman is quick to explain why his business isn't hurting anyone. "You eradicate Ashley Madison, you're not going to eradicate infidelity. That's what allows me to sleep at night," he says. "If you think that all affairs happen on Ashley Madison, you're very naive. The majority happen in the workplace. People are thrust together, that's where they happen." In that context, Biderman likes to argue, affairs can be much more damaging, by causing meltdowns at work, becoming public, and blowing up marriages. Ashley Madison and its clandestine, more transactional approach, he says, is actually a marriage saver, a public service of a kind. "Do you think if you stop allowing divorce attorneys to advertise, we would stop people from getting divorced?" he says.
+</p>
+<p>
+According to Justin Wolfers, an economist at the Wharton School of the University of Pennsylvania, Ashley Madison provides liquidity to an illiquid market, which may make the market bigger. "The labor market is all about workers trying to find jobs and jobs trying to find workers," Wolfers said. "In the romance market, technologies like the Internet are helpful in making those matchings more efficient, so if it makes it easier to find a mate, presumably it would create more of these ventures."
+</p>
+<p>
+Biderman doesn't agree, but beyond that he makes the case that no marriage is defined entirely by sex. "I have two children, I have a wonderful extended family, I have deep economic ties," he says. "If I woke up and found my partner wasn't interested in being with me sexually and I tried to do everything I could but sex was now off her radar...Well, sex is important in my marriage&mdash;it is&mdash;but it's not No. 1 and it's not No. 2. So I would stray before I would just leave, because maybe that would give me enough of what I need to stay within my marriage to do all the other things that are critical to me."
+</p>
+<p>
+When I asked Biderman's wife, Amanda, what it's like being joined in holy matrimony with an anti-marriage entrepreneur, she let out a long sigh. "Really, the business itself doesn't match who he is as a person&mdash;it's not our lifestyle or value system or any of that," she said. "I mean, yeah, I'd love it if he were working on a cure for cancer. But it's a business, and that's how we look at it."
+</p>
+<p>
+<br/>
+</p>
+<p>
+"Fitnslim," who responded to a request for subjects that Ashley Madison e-mailed to its members, told me over the phone that she learned about the site in a magazine she read while getting her hair done about a year ago. She's a former model in her 50s and is in very good shape. "There's apparently a lot of older women who do not like sex," she said. "I'm not one of them." Her husband is considerably older than she is and has "zero" interest, so she has long maintained an outside gentleman friend. When one relationship ends, she goes out and finds another. "First of all, what I liked about it is, as a woman, it's free," Fitnslim said. "I have a very nice lifestyle that many people would envy. If I'm going to be with someone else, I want it to be with someone of a caliber I'm at, meaning someone who has the money to go out. The good thing about this website I discovered&mdash;all the men have to pay. Apparently that eliminates people who don't have any money or who don't want to spend it."
+</p>
+<p>
+She said she typically received eight to 10 messages a day&mdash;more than she could pursue&mdash;and said many were from much younger men, which she found amusing. She has been out for drinks or dinner with a handful. "There was one nut, O.K.," she said, "but other than that, most of the people I would classify pretty much as successful businessmen, many of whom travel constantly for their jobs&mdash;which is why they are able to do what they do, by the way." She's on her second Ashley Madison boyfriend and is hoping it lasts for a while.
+</p>
+<p>
+Talking to regular users is not an uplifting experience. One 34-year-old woman, who goes by "34pinay," is married with young kids, including a baby. She told me she'd just ended a year-long romance with a Marine who was deployed to Afghanistan, who himself is married with three kids, one not biologically his (his wife cheated on him while he was serving overseas). She met the Marine through a free singles dating site called Plenty Of Fish, just the sort of thing that competes with what Ashley Madison has to offer. I didn't ask 34pinay how she found the time for an extracurricular romance while she was pregnant and dealing with a newborn, but she said that for now, at least, she was mainly browsing Ashley Madison profiles for amusement, although she has met a few men for drinks. "It's really strange," she said. "I got some comments from them&mdash;'why are you on that site if you don't want to sleep around? That's what that site is for.'" She was horrified. "I'm not there because of the sex," she said. "It's more that I'm missing the excitement of being in love. My husband and I, we don't really talk any more, it's more of a roommate relationship. We're staying together for the kids. Guys seem to think after one drink they can touch you." She has an e-mail thing going with a married doctor who's a little more patient.
+</p>
+<p>
+<pagebr/>
+</p>
+<p>
+Another woman&mdash;"luckyjane"&mdash;said she worked in finance and described herself as a "risk taker and seeker by nature." Her photo made her look sort of dominatrix-ish&mdash;she had long blond hair and wore a tight black outfit showing lots of cleavage, and she said she was single. "You may or may not be surprised at the number of people on the street who are on here looking for something 'strange,'" she wrote. "Being a woman on wall street is a unique experience, but I will say regardless of that, spouses can never fully understand the pressures and resulting need for extracurricular releases...and this does not even address the number of guys on this site not on wall street, who are stuck in loveless, sexless marriages. This site is enormously interesting."
+</p>
+<p>
+<br/>
+</p>
+<p>
+"Next to Facebook, we're probably going to be the fastest-growing social network on the planet," Biderman says. Next to defending adultery, Mark Zuckerberg's company is Biderman's fastest-growing obsession&mdash;an inspiration, a competitor, and a cruel gatekeeper. "It really baffles me that a young startup company like Facebook won't take my ad," he says. "It really, genuinely baffles me. I don't know what they're playing at."
+</p>
+<p>
+Biderman was sitting in his office, waiting for an interviewer to arrive from his alma mater, York University's Osgoode Hall Law School. The conversation had turned, once again, to the subject of how unfairly he is treated in the marketplace. "How many companies do you know, if they wanted to buy their own brand as a key word in a search engine, like MSN, they can't even do that, can't even defend their own territory?" he asks. "Can't buy the word 'infidelity,' which is troubling, I would think. I think it's my role in that conversation to say, hey, isn't that a problem?"
+</p>
+<p>
+This proved to be a big problem last year, when Avid Life Media attempted to raise C$60 million through a private placement of shares, with plans to go public through a reverse takeover of a shell company on the Toronto Stock Exchange. The deal was a disaster. Ashley Madison had become infamous by then after unsuccessfully lobbying the Toronto Transit Commission for the right to plaster advertisements on city streetcars. The company had been struggling to find a way to grow since 2006, when Biderman needed to raise C$10 million to buy out his partner  Morgenstern. Biderman says his investors wanted him to branch out into other businesses beyond the affairs market, so Avid Life was conceived as a "diversified media company," and it bought Web properties dealing with real estate, green living, and pets. (Biderman continued running Ashley Madison while an outside CEO ran Avid Life until Biderman was given the CEO job last June.) The strategy shift didn't work out, so a decision was made to focus the company exclusively on online dating, and Avid Life bought hotornot.com for $22 million and launched establishedmen.com, cougarlife.com, and several others.
+</p>
+<p>
+<pagebr/>
+</p>
+<p>
+Finally, Avid Life hired a Canadian investment bank called GMP Securities to manage the C$60 million private placement, which was supposed to happen on Feb. 15, 2010, according to the term sheet. In 2009, Avid Life had posted $30 million in sales and an $8 million profit, a fourfold increase over the previous year. After the placement was done, the plan was to buy a larger company called Moxy Media, an "arbitrage" business that made money buying Web traffic from search engines and redirecting it to pages covered with ads or links. The larger, more diversified entity was then going to stage a reverse merger and get itself onto the TSX. The deal was the talk of the Toronto financial community. On Jan. 29, 2010, a Canadian Business magazine reporter named Thomas Watson confronted Kevin Sullivan, the CEO of GMP Securities, with a printout of an online profile posted on Ashley Madison's website: "To be honest I'm really looking for a sugar daddy, so if that isn't you I wouldn't waste your time replying," it read. "I'm looking for a generous man that loves to take care of a younger lady, i am 18 and have just started university and my parents aren't paying a cent for it...if there is a nicer gentlemen on here that really gets off on helping a young women with some bills, taking stress of her shoulders while recieveing the same back both emotionaly and physically please msg me." Sullivan squirmed. The following Monday, GMP walked away from the deal. GMP declined to make any executives available for comment, but the bank's reaction was hardly shocking. Biderman says Avid Life's majority owners, a handful of high-net-worth investors and hedge fund types, don't want to be associated with their baby for fear of damaging their reputations.
+</p>
+<p>
+There's no precedent in the public markets for precisely what Ashley Madison does, but Adult FriendFinder, the self-described "world's largest sex and swingers personals community," might offer a glimpse of the future. In 2007 the founder, Andrew Conru, told <cite>The New York Times</cite> he had met with "a dozen venture capitalists" over the previous few years, with little success. FriendFinder's parent company, Various Inc. , was eventually sold to Penthouse for $500 million. In 2010 it tried to hold an initial public offering but later canceled it because the market was "weak," Conru said at the time.
+</p>
+<p>
+Biderman says none of this history matters. Avid Life is growing just fine, thank you very much. "To me this is a great, privately held company. And that's the other thing, the IPO attempt was a Canadian IPO attempt, which is absolutely the wrong attempt. This has got a bigger goal. We've got to find a way into the U.S."
+</p>
+<p>
+"They pay me seven figures-plus a year. I earn millions of dollars a year running it. I have the equity component, which some day should hopefully be worth a lot," he goes on. "It's gonna ultimately come down to how this company gets valued. Mark Zuckerberg might only take $100,000 a year, but ultimately he's going to be worth billions of dollars."
+</p>
+<p>
+Then Biderman paused to check his BlackBerry. "My wife just called, that's the one phone call I like to return," he says. "It's my son's birthday today. I'm supposed to sneak out to go to his school to give him a cake."
+</p>
+<p class="tagline">
+<a href="http://web.archive.org/web/20120513131056/mailto:skolhatkar@bloomberg.net">Kolhatkar</a> is features editor for <cite>Bloomberg Businessweek</cite>.
+</p>
+</div>
+</div>
+<hr class="clearFloat"/>
+</div>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+window.epulse_content_group="cg1=online magazine,cg2=Printer Friendly,cg3=Cheating, Incorporated";
+var s_pageName = "";
+var s_prop1 = "Printer Friendly";
+var home = window.location.hostname;
+if (home.indexOf("images") != -1) {
+var page = "http://web.archive.org/web/20120513131056/http://images.businessweek.com";
+}
+else {
+var page = "http://web.archive.org/web/20120513131056/http://www.businessweek.com";
+}
+var s_prop9 = "Sheelah Kolhatkar";
+var s_prop20 = "20110210";
+//-->
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20120513131056js_/http://www.businessweek.com/common_scripts/s_code_remote.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20120513131056js_/http://www.businessweek.com/common_scripts/Tacoda_footer.js?cbd=20110131111245"></script>
+<img src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/gen/XeroxColorTag.jpg" border="0" width="276" height="35" alt="Xerox Color. It makes business sense." style="margin:5px 5px 5px 0px; float: left;clear:both;"/>
+<div class="header_footer_814">
+<div class="clearfix" id="footer">
+<div class="social module">
+<h3>Social</h3>
+<ul>
+<li class="twitter">
+<a href="http://web.archive.org/web/20120513131056/http://twitter.com/BW">Follow us on Twitter</a>
+</li>
+<li class="fb">
+<a href="http://web.archive.org/web/20120513131056/http://facebook.com/Bloombergbusinessweek/">Join us on Facebook</a>
+</li>
+<li class="linked_in">
+<a href="http://web.archive.org/web/20120513131056/http://www.linkedin.com/company/businessweek">Connect with us on LinkedIn</a>
+</li>
+<li class="subscribe last">
+<a href="http://web.archive.org/web/20120513131056/https://subscribe.businessweek.com/pubs/BW/BWK/BWK_July_free_iPad.jsp? cds_page_id=102543&amp;cds_mag_code=BWK&amp;cds_response_key=I1203HI01">Subscribe to Bloomberg Businessweek</a>
+</li>
+<li class="bloomberg_logo last ir">
+<a href="http://web.archive.org/web/20120513131056/http://www.bloomberg.com/" target="_blank">Bloomberg</a>
+</li>
+</ul>
+</div>
+<div class="links module clearfix">
+<h3>Links</h3>
+<ul>
+<li><a href="http://web.archive.org/web/20120513131056/http://bloomberg.com/company">About</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://bloombergmedia.com/">Advertising</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://bloomberg.com/careers">Careers</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/contact">Feedback</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/adsections/">Custom Publishing</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/manage-subscription">Manage Subscription</a></li>
+</ul>
+<ul class="last">
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/mobile">Mobile</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://newsletters.businessweek.com/bwn/ns.asp">Newsletters</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/privacy">Privacy Policy</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://reprints.ygsgroup.com/m/bloombergbusinessweek">Reprints &amp; Permissions</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/sitemap.htm">Sitemap</a></li>
+<li><a href="http://web.archive.org/web/20120513131056/http://www.businessweek.com/terms">Terms of Use</a></li>
+<li><a href="javascript:void(0)" class="opinion-lab">[+] Rate This Page</a></li>
+</ul>
+</div>
+<div class="current_issue module clearfix">
+<h3>Get Businessweek Delivered</h3>
+<a class="cover_image_thumbnail" href="http://web.archive.org/web/20120513131056/https://subscribe.businessweek.com/pubs/BW/BWK/BWK_July_free_iPad.jsp?cds_page_id=102543&amp;cds_mag_code=BWK&amp;cds_response_key=I1202HI06">
+<img alt="Over a Barrel" height="155" src="http://web.archive.org/web/20120513131056im_/http://images.businessweek.com/cms/2012-05-10/1220cov_110x155.jpg" width="110"/>
+</a>
+<h6>
+<a href="http://web.archive.org/web/20120513131056/https://subscribe.businessweek.com/pubs/BW/BWK/BWK_July_free_iPad.jsp?cds_page_id=102543&amp;cds_mag_code=BWK&amp;cds_response_key=I1202HI06">Over a Barrel</a>
+</h6>
+<a class="subscribe_button" href="http://web.archive.org/web/20120513131056/https://subscribe.businessweek.com/pubs/BW/BWK/BWK_July_free_iPad.jsp?cds_page_id=102543&amp;cds_mag_code=BWK&amp;cds_response_key=I1202HI06">Subscribe</a>
+</div>
+<div class="copyright">
+<span>Copyright 2012 Bloomberg L.P. All Rights Reserved. Made in NYC</span>
+</div>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 13:10:56 May 13, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:32:09 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.544
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.017
+  esindex: 0.009
+  cdx.remote: 6.185
+  LoadShardBlock: 63.868 (3)
+  PetaboxLoader3.datanode: 158.946 (4)
+  load_resource: 193.044
+  PetaboxLoader3.resolve: 39.639
+-->

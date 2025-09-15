@@ -1,0 +1,701 @@
+# Content from https://www.thetimes.co.uk/static/return-items-fashion-retail-profits-online-shopping-alixpartners/
+
+*Retrieved: 2025-09-14T22:04:07.556840*
+
+---
+
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"12f4312a27",applicationID:"761030582"};;/*! For license information please see nr-loader-rum-1.297.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):"object"==typeof e[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},555:(e,t,r)=>{"use strict";r.d(t,{D:()=>o,f:()=>s});var n=r(384),i=r(122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const o=e=>(0,i.a)(e,a)},324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>a,xv:()=>n});const n="1.297.0",i="PROD",a="CDN"},154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>c,RI:()=>i,WN:()=>d,bv:()=>a,gm:()=>s,mw:()=>o,sb:()=>u});var n=r(863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),u=c&&"undefined"==typeof SharedWorker,d=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)())},241:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(154);const i="newrelic";function a(e={}){try{n.gm.dispatchEvent(new CustomEvent(i,{detail:e}))}catch(e){}}},687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>u,Ze:()=>f,x3:()=>d});var n=r(241),i=r(836),a=r(606),s=r(860),o=r(646);const c={};function u(e,t){const r={staged:!1,priority:s.P3[t]||0};l(e),c[e].get(t)||c[e].set(t,r)}function d(e,t){e&&c[e]&&(c[e].get(t)&&c[e].delete(t),p(e,t,!1),c[e].size&&g(e))}function l(e){if(!e)throw new Error("agentIdentifier required");c[e]||(c[e]=new Map)}function f(e="",t="feature",r=!1){if(l(e),!e||!c[e].get(t)||r)return p(e,t);c[e].get(t).staged=!0,g(e)}function g(e){const t=Array.from(c[e]);t.every((([e,t])=>t.staged))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((([t])=>{c[e].delete(t),p(e,t)})))}function p(e,t,r=!0){const s=e?i.ee.get(e):i.ee,c=a.i.handlers;if(!s.aborted&&s.backlog&&c){if((0,n.W)({agentIdentifier:e,type:"lifecycle",name:"drain",feature:t}),r){const e=s.backlog[t],r=c[t];if(r){for(let t=0;e&&t<e.length;++t)m(e[t],r);Object.entries(r).forEach((([e,t])=>{Object.values(t||{}).forEach((t=>{t[0]?.on&&t[0]?.context()instanceof o.y&&t[0].on(e,t[1])}))}))}}s.isolatedBacklog||delete c[t],s.backlog[t]=null,s.emit("drain-"+t,[])}}function m(e,t){var r=e[1];Object.values(t[r]||{}).forEach((t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}}))}},836:(e,t,r)=>{"use strict";r.d(t,{P:()=>o,ee:()=>c});var n=r(384),i=r(990),a=r(646),s=r(607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach((e=>{e.apply(o,r)}));var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((([e,n])=>{s[n]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,(()=>new a.y(o))):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c)},646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},606:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(566).bz)()},566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>o,bz:()=>s});var n=r(154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function s(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?a(t,r++).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function o(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(a(r,i++).toString(16));return s.join("")}},614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>s,H3:()=>n,g:()=>u,iL:()=>c,tS:()=>o,uh:()=>i,wk:()=>a});const n="NRBA",i="SESSION",a=144e5,s=18e5,o={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944:(e,t,r)=>{"use strict";r.d(t,{R:()=>i});var n=r(241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({agentIdentifier:null,drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},701:(e,t,r)=>{"use strict";r.d(t,{B:()=>a,t:()=>s});var n=r(241);const i=new Set,a={};function s(e,t){const r=t.agentIdentifier;a[r]??={},e&&"object"==typeof e&&(i.has(r)||(t.ee.emit("rumresp",[e]),a[r]=e,i.add(r),(0,n.W)({agentIdentifier:r,loaded:!0,drained:!0,type:"lifecycle",name:"load",feature:void 0,data:e})))}},990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout((()=>{i=clearTimeout(i)}),t)),n||(clearTimeout(i),i=setTimeout((()=>{e.apply(this,r)}),t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},910:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every((e=>{if(i.has(e))return i.get(e);const t="function"==typeof e&&e.toString().includes("[native code]");return t||(0,n.R)(64,e?.name||e?.toString()),i.set(e,t),t}))}},289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>a,Qr:()=>o,sB:()=>s});var n=r(878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.sp)("load",e,t)}function s(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}function o(e){if(i())return e();(0,n.sp)("popstate",e)}},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>s,US:()=>d,Zm:()=>o,bQ:()=>u,dV:()=>c,pV:()=>l});var n=r(154),i=r(863),a=r(910);const s={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function c(){let e=o();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,a.i)(...Object.values(e.o))),e}function u(e,t){let r=o();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function d(e,t){o()[e]=t}function l(){return function(){let e=o();const t=e.info||{};e.info={beacon:s.beacon,errorBeacon:s.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),c(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},773:(e,t,r)=>{"use strict";r.d(t,{z_:()=>a,XG:()=>o,TZ:()=>n,rs:()=>i,xV:()=>s});r(154),r(566),r(384);const n=r(860).K7.metrics,i="sm",a="cm",s="storeSupportabilityMetrics",o="storeEventMetrics"},630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},234:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(836),i=r(687);class a{constructor(e,t){this.agentIdentifier=e,this.ee=n.ee.get(e),this.featureName=t,this.blocked=!1}deregisterDrain(){(0,i.x3)(this.agentIdentifier,this.featureName)}}},741:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e){return this.#e(i.Dl,e)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e(i.$9,e,t)}start(){return this.#e(i.d3)}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(){return this.#e(i.dT)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}}},261:(e,t,r)=>{"use strict";r.d(t,{$9:()=>u,BL:()=>o,CH:()=>g,Dl:()=>_,Fw:()=>y,PA:()=>h,Pl:()=>n,Tb:()=>l,U2:()=>a,V1:()=>k,Wb:()=>x,bt:()=>b,cD:()=>v,d3:()=>w,dT:()=>c,eY:()=>p,fF:()=>f,hG:()=>i,k6:()=>s,nb:()=>m,o5:()=>d});const n="api-",i="addPageAction",a="addToTrace",s="addRelease",o="finished",c="interaction",u="log",d="noticeError",l="pauseReplay",f="recordCustomEvent",g="recordReplay",p="register",m="setApplicationVersion",h="setCurrentRouteName",v="setCustomAttribute",b="setErrorHandler",y="setPageViewName",_="setUserId",w="start",x="wrapLogger",k="measure"},163:(e,t,r)=>{"use strict";r.d(t,{j:()=>E});var n=r(384),i=r(741);var a=r(555);r(860).K7.genericEvents;const s="experimental.marks",o="experimental.measures",c="experimental.resources",u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(614),l=r(944),f=r(122);const g="[data-nr-mask]",p=e=>(0,f.a)(e,(()=>{const e={feature_flags:[],experimental:{marks:!1,measures:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0},api:{allow_registered_children:!0,duplicate_registered_data:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{get capture_marks(){return e.feature_flags.includes(s)||e.experimental.marks},set capture_marks(t){e.experimental.marks=t},get capture_measures(){return e.feature_flags.includes(o)||e.experimental.measures},set capture_measures(t){e.experimental.measures=t},capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:d.wk,inactiveMs:d.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(g):""===t||null===t?e.mask_selector=g:(0,l.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},spa:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]}}})());var m=r(154),h=r(324);let v=0;const b={buildEnv:h.F3,distMethod:h.Xs,version:h.xv,originTime:m.WN},y={appMetadata:{},customTransaction:void 0,denyList:void 0,disabled:!1,entityManager:void 0,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,jsAttributesMetadata:{bytes:0},get harvestCount(){return++v}},_=e=>{const t=(0,f.a)(e,y),r=Object.keys(b).reduce(((e,t)=>(e[t]={value:b[t],writable:!1,configurable:!0,enumerable:!0},e)),{});return Object.defineProperties(t,r)};var w=r(701);const x=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};var k=r(836),A=r(241);const S={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},T=e=>(0,f.a)(e,S),R=new Set;function E(e,t={},r,s){let{init:o,info:c,loader_config:u,runtime:d={},exposed:l=!0}=t;if(!c){const e=(0,n.pV)();o=e.init,c=e.info,u=e.loader_config}e.init=p(o||{}),e.loader_config=T(u||{}),c.jsAttributes??={},m.bv&&(c.jsAttributes.isWorker=!0),e.info=(0,a.D)(c);const f=e.init,g=[c.beacon,c.errorBeacon];R.has(e.agentIdentifier)||(f.proxy.assets&&(x(f.proxy.assets),g.push(f.proxy.assets)),f.proxy.beacon&&g.push(f.proxy.beacon),function(e){const t=(0,n.pV)();Object.getOwnPropertyNames(i.W.prototype).forEach((r=>{const n=i.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let a=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return a?a(...t):n})}))}(e),(0,n.US)("activatedFeatures",w.B),e.runSoftNavOverSpa&&=!0===f.soft_navigations.enabled&&f.feature_flags.includes("soft_nav")),d.denyList=[...f.ajax.deny_list||[],...f.ajax.block_internal?g:[]],d.ptid=e.agentIdentifier,d.loaderType=r,e.runtime=_(d),R.has(e.agentIdentifier)||(e.ee=k.ee.get(e.agentIdentifier),e.exposed=l,(0,A.W)({agentIdentifier:e.agentIdentifier,drained:!!w.B?.[e.agentIdentifier],type:"lifecycle",name:"initialize",feature:void 0,data:e.config})),R.add(e.agentIdentifier)}},374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>d,K7:()=>c,P3:()=>u,XX:()=>i,Yy:()=>o,df:()=>a,qY:()=>n,v4:()=>s});const n="events",i="jserrors",a="browser/blobs",s="rum",o="browser/logs",c={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},u={[c.pageViewEvent]:1,[c.pageViewTiming]:2,[c.metrics]:3,[c.jserrors]:4,[c.spa]:5,[c.ajax]:6,[c.sessionTrace]:7,[c.softNav]:8,[c.sessionReplay]:9,[c.logging]:10,[c.genericEvents]:11},d={[c.pageViewEvent]:s,[c.pageViewTiming]:n,[c.ajax]:n,[c.spa]:n,[c.softNav]:n,[c.metrics]:i,[c.jserrors]:i,[c.sessionTrace]:a,[c.sessionReplay]:a,[c.logging]:o,[c.genericEvents]:"ins"}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.297.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.297.0.PROD:",i.l=(r,n,a,s)=>{if(e[r])e[r].push(n);else{var o,c;if(void 0!==a)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){o=l;break}}if(!o){c=!0;var f={296:"sha512-n/1z7EiYHaupoJ3s8MajMxY/CH6se33KTGkEkqAgtuatNOjpM3V8Fm2j4AZJGysIchvpcxiQG5GRqMG0rnAWqQ=="};(o=document.createElement("script")).charset="utf-8",o.timeout=120,i.nc&&o.setAttribute("nonce",i.nc),o.setAttribute("data-webpack",t+a),o.src=r,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),f[s]&&(o.integrity=f[s])}e[r]=[n];var g=(t,n)=>{o.onerror=o.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],o.parentNode&&o.parentNode.removeChild(o),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=g.bind(null,o.onerror),o.onload=g.bind(null,o.onload),c&&document.head.appendChild(o)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={374:0,840:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=a);var s=i.p+i.u(t),o=new Error;i.l(s,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),s=r&&r.target&&r.target.src;o.message="Loading chunk "+t+" failed.\n("+a+": "+s+")",o.name="ChunkLoadError",o.type=a,o.request=s,n[1](o)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[s,o,c]=r,u=0;if(s.some((t=>0!==e[t]))){for(n in o)i.o(o,n)&&(i.m[n]=o[n]);if(c)c(i)}for(t&&t(r);u<s.length;u++)a=s[u],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=self["webpackChunk:NRBA-1.297.0.PROD"]=self["webpackChunk:NRBA-1.297.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(374);var e=i(566),t=i(741);class r extends t.W{agentIdentifier=(0,e.LA)(16)}var n=i(860);const a=Object.values(n.K7);var s=i(163);var o=i(908),c=i(863),u=i(261),d=i(241),l=i(944),f=i(701),g=i(773);function p(e,t,i,a){const s=a||i;!s||s[e]&&s[e]!==r.prototype[e]||(s[e]=function(){(0,o.p)(g.xV,["API/"+e+"/called"],void 0,n.K7.metrics,i.ee),(0,d.W)({agentIdentifier:i.agentIdentifier,drained:!!f.B?.[i.agentIdentifier],type:"data",name:"api",feature:u.Pl+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,l.R)(23,e)}})}function m(e,t,r,n,i){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(i||null===r)&&(0,o.p)(u.Pl+n,[(0,c.t)(),t,r],void 0,"session",e.ee)}var h=i(687),v=i(234),b=i(289),y=i(154),_=i(384);const w=e=>y.RI&&!0===e?.privacy.cookies_enabled;function x(e){return!!(0,_.dV)().o.MO&&w(e)&&!0===e?.session_trace.enabled}var k=i(389);class A extends v.W{constructor(e,t){super(e.agentIdentifier,t),this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise(((t,r)=>{this.ee.on("manual-start-all",(0,k.J)((()=>{(0,h.Ak)(e.agentIdentifier,this.featureName),t()})))})):(0,h.Ak)(e.agentIdentifier,t)}importAggregator(e,t,r={}){if(this.featAggregate)return;let a;this.onAggregateImported=new Promise((e=>{a=e}));const s=async()=>{let s;await this.deferred;try{if(w(e.init)){const{setupAgentSession:t}=await i.e(296).then(i.bind(i,305));s=t(e)}}catch(e){(0,l.R)(20,e),this.ee.emit("internal-error",[e]),this.featureName===n.K7.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,s,e.init))return(0,h.Ze)(this.agentIdentifier,this.featureName),void a(!1);const{Aggregate:n}=await t();this.featAggregate=new n(e,r),e.runtime.harvester.initializedAggregates.push(this.featAggregate),a(!0)}catch(e){(0,l.R)(34,e),this.abortHandler?.(),(0,h.Ze)(this.agentIdentifier,this.featureName,!0),a(!1),this.ee&&this.ee.abort()}};y.RI?(0,b.GG)((()=>s()),!0):s()}#t(e,t,r){switch(e){case n.K7.sessionReplay:return x(r)&&!!t;case n.K7.sessionTrace:return!!t;default:return!0}}}var S=i(630),T=i(614);class R extends A{static featureName=S.T;constructor(e){var t;super(e,S.T),this.setupInspectionEvents(e.agentIdentifier),t=e,p(u.Fw,(function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,o.p)(u.Pl+u.Fw,[(0,c.t)()],void 0,void 0,t.ee))}),t),this.ee.on("api-send-rum",((e,t)=>(0,o.p)("send-rum",[e,t],void 0,this.featureName,this.ee))),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,108))))}setupInspectionEvents(e){const t=(t,r)=>{t&&(0,d.W)({agentIdentifier:e,timeStamp:t.timeStamp,loaded:"complete"===t.target.readyState,type:"window",name:r,data:t.target.location+""})};(0,b.sB)((e=>{t(e,"DOMContentLoaded")})),(0,b.GG)((e=>{t(e,"load")})),(0,b.Qr)((e=>{t(e,"navigate")})),this.ee.on(T.tS.UPDATE,((t,r)=>{(0,d.W)({agentIdentifier:e,type:"lifecycle",name:"session",data:r})}))}}var E=i(843),N=i(878),j=i(782);class I extends A{static featureName=j.T;constructor(e){super(e,j.T),y.RI&&((0,E.u)((()=>(0,o.p)("docHidden",[(0,c.t)()],void 0,j.T,this.ee)),!0),(0,N.sp)("pagehide",(()=>(0,o.p)("winPagehide",[(0,c.t)()],void 0,j.T,this.ee))),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,350)))))}}class O extends A{static featureName=g.TZ;constructor(e){super(e,g.TZ),y.RI&&document.addEventListener("securitypolicyviolation",(e=>{(0,o.p)(g.xV,["Generic/CSPViolation/Detected"],void 0,this.featureName,this.ee)})),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,373))))}}new class extends r{constructor(e){var t;(super(),y.gm)?(this.features={},(0,_.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(R),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===n.K7.softNav)),(0,s.j)(this,e,e.loaderType||"agent"),t=this,p(u.cD,(function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return m(t,e,r,u.cD,n);(0,l.R)(40,typeof r)}else(0,l.R)(39,typeof e)}),t),function(e){p(u.Dl,(function(t){if("string"==typeof t||null===t)return m(e,"enduser.id",t,u.Dl,!0);(0,l.R)(41,typeof t)}),e)}(this),function(e){p(u.nb,(function(t){if("string"==typeof t||null===t)return m(e,"application.version",t,u.nb,!1);(0,l.R)(42,typeof t)}),e)}(this),function(e){p(u.d3,(function(){e.ee.emit("manual-start-all")}),e)}(this),this.run()):(0,l.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return a.forEach((r=>{t[r]=!!e[r]?.enabled})),t}(this.init),t=[...this.desiredFeatures];t.sort(((e,t)=>n.P3[e.featureName]-n.P3[t.featureName])),t.forEach((t=>{if(!e[t.featureName]&&t.featureName!==n.K7.pageViewEvent)return;if(this.runSoftNavOverSpa&&t.featureName===n.K7.spa)return;if(!this.runSoftNavOverSpa&&t.featureName===n.K7.softNav)return;const r=function(e){switch(e){case n.K7.ajax:return[n.K7.jserrors];case n.K7.sessionTrace:return[n.K7.ajax,n.K7.pageViewEvent];case n.K7.sessionReplay:return[n.K7.sessionTrace];case n.K7.pageViewTiming:return[n.K7.pageViewEvent];default:return[]}}(t.featureName).filter((e=>!(e in this.features)));r.length>0&&(0,l.R)(36,{targetFeature:t.featureName,missingDependencies:r}),this.features[t.featureName]=new t(this)}))}catch(e){(0,l.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,_.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}({features:[R,I,O],loaderType:"lite"})})()})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="/store/favicon-72x72.png" />
+    <link rel="apple-touch-icon" href="/d/819/img/icons/ios_icon.png" />
+    <script type="text/javascript">
+"use strict";!function(){function e(e){var n=document.createElement("div"),t="Khtml Ms O Moz Webkit".split(" "),o=t.length;if(e in n.style)return!0;for(e=e.replace(/^[a-z]/,function(e){return e.toUpperCase()});o--;)if(t[o]+e in n.style)return!0;return!1}function n(e){var n=null;if(document.cookie&&""!==document.cookie)for(var t=document.cookie.split(";"),o=0;o<t.length;o++){var c=t[o].trim();if(c.substring(0,e.length+1)===e+"="){n=decodeURIComponent(c.substring(e.length+1));break}}return n}function t(){return l.every(e)}function o(e){return new RegExp(e).test(navigator.userAgent)}function c(){return"ontouchstart"in window||"onmsgesturechange"in window}function r(){return"string"==typeof n("acs_tnl")}function i(e){""!==document.documentElement.className&&(e=" "+e),document.documentElement.className+=e}function u(e){document.documentElement&&(document.documentElement.className=document.documentElement.className.replace(e,"").trim())}var s={IE:/MSIE\s[\d.]+/,IE10:/MSIE\s10.*Trident\/6/,IE11:/Trident\/7.*rv:11/,Edge:/Edge\/12\.0/},l=["flex","flex-direction","flex-wrap","flex-flow"];document.documentElement.className=document.documentElement.className.replace("no-js","has-js"),t()||(u("has-flex"),i("no-flex")),(o(s.IE)||o(s.IE11)||o(s.Edge))&&i("is-ie"),o(s.IE10)&&i("is-ie10"),o(s.IE11)&&i("is-ie11"),c()&&i("has-touch"),r()&&i("is-loggedIn")}();
+    </script>
+    <script type="text/javascript">
+      (function(d){
+        var c = " ", f = "flex", fw = "-webkit-"+f, e = d.createElement('b');
+        try { 
+          e.style.display = fw; 
+          e.style.display = f; 
+          c += (e.style.display == f || e.style.display == fw) ? 'has-flex' : "no-"+f; 
+        } catch(e) { 
+          c += "no-"+f; 
+        }
+        d.documentElement.className += c; 
+      })(document);
+    </script>
+    
+    <!-- TEALIUM CODE BLOCK : START -->
+<!-- Tealium Universal Data Object -->
+<script type="text/javascript">
+
+// Template Name - how wide is window when page is loaded?
+var is_small = window.matchMedia( "(max-width: 519px)" ),
+    is_medium = window.matchMedia( "(max-width: 767px)" ),
+    is_wide = window.matchMedia( "(max-width: 1023px)" );
+    
+var template_name = '';
+if (is_small.matches) {
+  template_name = 'small';
+} else if (is_medium.matches) {
+  template_name = 'medium';
+} else if (is_wide.matches) {
+  template_name = 'wide';
+} else {
+  template_name = 'huge';
+}
+
+// tealium data
+var utag_data = {
+  page_name : "Retailers can solve their returns problem – and the answer lies in existing data",
+  page_type : "info and navigation",
+  page_section: "info and navigation",
+  page_site_name: "the times and sunday times",
+  page_site_region: "uk",
+  template_name: template_name,
+  page_restrictions: "public",
+  parent_site: "the times"
+};
+</script>
+<!-- Tealium Asychronous Script Call -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='//tags.tiqcdn.com/utag/newsinternational/thetimes.d.desktop/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+ 
+<!-- TEALIUM CODE BLOCK : END -->     
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO Premium plugin v24.9 (Yoast SEO v24.9) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Retailers can solve their returns problem – and the answer lies in existing data</title>
+	<meta name="description" content="The growing number of returned items is having a disastrous impact on many retailers’ profits. But tools and insights are becoming available to help solve this challenge" />
+	<link rel="canonical" href="https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/" />
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Retailers can solve their returns problem – and the answer lies in existing data" />
+	<meta property="og:description" content="The growing number of returned items is having a disastrous impact on many retailers’ profits. But tools and insights are becoming available to help solve this challenge" />
+	<meta property="og:url" content="https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/" />
+	<meta property="og:site_name" content="The Times &amp; The Sunday Times" />
+	<meta property="article:modified_time" content="2023-12-11T11:48:58+00:00" />
+	<meta property="og:image" content="https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-3.jpg" />
+	<meta property="og:image:width" content="685" />
+	<meta property="og:image:height" content="385" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="10 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/","url":"https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/","name":"Retailers can solve their returns problem – and the answer lies in existing data","isPartOf":{"@id":"https://www.thetimes.com/static/#website"},"primaryImageOfPage":{"@id":"https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/#primaryimage"},"image":{"@id":"https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/#primaryimage"},"thumbnailUrl":"https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-3.jpg","datePublished":"2023-12-08T16:27:19+00:00","dateModified":"2023-12-11T11:48:58+00:00","description":"The growing number of returned items is having a disastrous impact on many retailers’ profits. But tools and insights are becoming available to help solve this challenge","breadcrumb":{"@id":"https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/#breadcrumb"},"inLanguage":"en-GB","potentialAction":[{"@type":"ReadAction","target":["https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/"]}]},{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/#primaryimage","url":"https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-3.jpg","contentUrl":"https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-3.jpg","width":685,"height":385},{"@type":"BreadcrumbList","@id":"https://www.thetimes.com/static/return-items-fashion-retail-profits-online-shopping-alixpartners/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.thetimes.com/static/"},{"@type":"ListItem","position":2,"name":"Retailers can solve their returns problem – and the answer lies in existing data"}]},{"@type":"WebSite","@id":"https://www.thetimes.com/static/#website","url":"https://www.thetimes.com/static/","name":"The Times &amp; The Sunday Times","description":"The Times &amp; The Sunday Times","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.thetimes.com/static/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-GB"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='stylesheet' id='mediaelement-css' href='https://www.thetimes.com/static/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://www.thetimes.com/static/wp-includes/js/mediaelement/wp-mediaelement.min.css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='pagebuilder-stylesheet-css' href='https://www.thetimes.com/static/wp-content/themes/thetimes-page-builder/css/style.css?ver=1757410139' media='' />
+<link rel='stylesheet' id='js_composer_front-css' href='https://www.thetimes.com/static/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.10.0' media='all' />
+<script type="text/javascript" src="https://www.thetimes.com/static/_static/??-eJzTLy/QzcxLzilNSS3WzwKiwtLUokoopZebmaeXVayjj0+Rbm5melFiSSpUsX2uraG5qYmpgYGRqXkWAK9fIhw=" ></script><link rel="https://api.w.org/" href="https://www.thetimes.com/static/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.thetimes.com/static/wp-json/wp/v2/pages/59835" /><link rel='shortlink' href='https://www.thetimes.com/static/?p=59835' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.thetimes.com/static/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.thetimes.com%2Fstatic%2Freturn-items-fashion-retail-profits-online-shopping-alixpartners%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.thetimes.com/static/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.thetimes.com%2Fstatic%2Freturn-items-fashion-retail-profits-online-shopping-alixpartners%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+		    <!-- google publisher start -->
+    <script type="text/javascript">
+      var googletag = googletag || {};
+    	googletag.cmd = googletag.cmd || [];
+    	(function() {
+    		var gads = document.createElement("script");
+    		gads.async = true;
+    		gads.type = "text/javascript";
+    			var useSSL = "https:" == document.location.protocol;
+    			gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+    			var node =document.getElementsByTagName("script")[0];
+    			node.parentNode.insertBefore(gads, node);
+    		})();
+    		
+      googletag.cmd.push(function() {
+      	googletag.pubads().set("adsense_background_color", "FFFFFF");
+      });
+    
+    </script>
+    <script type="text/javascript">
+    (function($) {
+      	//script to detect a window resize to refresh ads uses jqeury only needed if site is responsive on resize
+        var windowsize=$(window).width();$(window).bind('resize',function(e)
+        {window.resizeEvt;$(window).resize(function()
+        {clearTimeout(window.resizeEvt);window.resizeEvt=setTimeout(function()
+        {if($(window).width()!=windowsize){googletag.pubads().refresh();}},250);});});
+    })(jQuery);
+    </script>
+    <!-- google publisher end -->
+    <!-- google tag manager start -->
+<script type="text/javascript">
+(function($) {
+  var PagesGoogleAd = PagesGoogleAd || {};
+  
+  PagesGoogleAd.supportsHTML5Storage = function() {
+		try {
+			return 'localStorage' in window && window['localStorage'] !== null;
+		} catch (e) {
+			return false;
+		}
+	};
+	
+	PagesGoogleAd.getLocalStorageItem = function(item_key) {
+  	return (PagesGoogleAd.supportsHTML5Storage && localStorage.getItem(item_key) !== null) ? localStorage.getItem(item_key) : 'null';
+	};
+
+PagesGoogleAd.getCookieAsObj = function(str, delim, delim2) {
+		var arr = str.split(delim),
+			arrLength = arr.length,
+			theObj = {};
+		for (var i = 0; i < arrLength; ++i) {
+			// Can't split this time because the value may contain the delimiter (e.g. equals sign)
+			var arrVal = arr[i];
+			var delim2Pos = arrVal.indexOf(delim2);
+			if (delim2Pos !== -1 && delim2Pos < arrVal.length - 1) {
+				theObj[arrVal.substring(0, delim2Pos)] = arrVal.substring(delim2Pos + 1);
+			}
+		}
+		return theObj;
+	};
+
+PagesGoogleAd.theCookieObj = PagesGoogleAd.getCookieAsObj(document.cookie, new RegExp(";[\\s]*"), '=');
+
+PagesGoogleAd.getCookieParamAsObj = function(key, delim1, delim2) {
+		return (PagesGoogleAd.theCookieObj.hasOwnProperty(key)) ? PagesGoogleAd.getCookieAsObj(decodeURIComponent(PagesGoogleAd.theCookieObj[key]), delim1, delim2) : {};
+	};
+
+PagesGoogleAd.platform = (function() {
+		var cw = document.documentElement.clientWidth;
+		return ((cw <= 640) ? 'mobile' : '');
+	})();
+
+PagesGoogleAd.setupGooglePublisherTags = function() {
+    var utagIsDefined = (typeof utag != 'undefined'),
+  			iamTgtObj = PagesGoogleAd.getCookieParamAsObj('iam_tgt', ':', '='),
+  			acsNgnObj = PagesGoogleAd.getCookieParamAsObj('acs_tnl', '&', '=');
+  			
+    console.log('iamTgtObj', iamTgtObj);
+    console.log('acsNgnObj', acsNgnObj);
+    
+    
+    googletag.cmd.push(function() {
+      var leaderMap = googletag.sizeMapping()
+                               .addSize([969, 100], [[970, 250], [970,90], [940,250], [900, 250], [728, 90],[468, 60]])
+                               .addSize([727, 100], [728, 90],[468,60])
+                               .addSize([467, 100],[[468,60],[320, 50], [320,48], [300, 100], [300,50], [300,48],[1,1]])
+                               .addSize([300, 100],[[468,60],[320, 50], [320,48], [300, 100], [300,50], [1,1]])
+                               .addSize([0, 0], [])
+                               .build();
+  		var mpuMap = googletag.sizeMapping()
+  		                      .addSize([727, 100], [[300, 600],[300, 250],[1,1]])
+  		                      .addSize([300, 100], [[300,250], [1,1]])
+  		                      .build();
+  		var sponsorLogoMap = googletag.sizeMapping()
+  		                              .addSize([120, 60], [[120, 60]])
+  		                              .build();
+  		
+      
+      
+        		googletag.defineSlot("/3048/d.thetimes.co.uk/features/",
+  		                      [[970, 250],[728, 90]],
+  		                      "advert-type-leaderboard-1")
+  			.addService(googletag.pubads())
+  			.defineSizeMapping(leaderMap)
+  			.setTargeting("n", 3048)
+  			.setTargeting("request_type", null)
+  			.setTargeting("ad_unit", null)
+  			.setTargeting("zone", null)
+  			.setTargeting("path", null)
+  			.setTargeting("section", "article")
+  			.setTargeting("sec_id", null)
+  			.setTargeting("log", 0)
+  			.setTargeting("pw", 0)
+  			.setTargeting("shared", 0)
+  			.setTargeting("aid",  null)
+  			.setTargeting("cont", "art")
+  			.setTargeting("kw", null)
+  			.setTargeting("cat", null)
+  			.setTargeting("search", null)
+  			.setTargeting("ppid", null)
+  			.setTargeting("kuid", PagesGoogleAd.getLocalStorageItem('kxuser'))
+  			.setTargeting("ksg",  PagesGoogleAd.getLocalStorageItem('kxsegs'))
+  			.setTargeting("cips", null)
+  			.setTargeting("slot", "advert-type-leaderboard-1") // unique slot id
+  			.setTargeting("breakpoint", template_name) // 'small' | 'medium' | 'large' | 'huge' - template_name is defined in templates/tealium.php
+  			.setTargeting("pos", "Leaderboard");
+  		googletag.pubads().enableSingleRequest();
+  		googletag.enableServices();  		
+  		  	});
+  }
+    // run the setup
+    PagesGoogleAd.setupGooglePublisherTags();
+
+})(jQuery);
+</script>
+<!-- google tag manager end -->
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+		<style type="text/css" id="wp-custom-css">
+			/*Liveperson custom CSS - start */
+.lp-window-root .lp_chat_line_wrapper .lp_agent .lp_chat_line {
+  background-color: #0363ad;
+  border-radius: 4px;
+  padding: 5px 4px;
+  text-align: left;
+  left: 0px;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_chat_arrow_border,
+.lp-window-root .lp_chat_line_wrapper .lp_chat_arrow,
+.lp-window-root .lp_chat_line_wrapper .lp_chat_arrow_error_overlay {
+  display: none !important;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_agent .lp_chat_line {
+  background-color: #0363ad;
+  padding: 5px 4px;
+  text-align: left;
+  left: 0px;
+}
+
+.lp-window-root .lp_chat_line_wrapper .lp_visitor .lp_chat_line {
+  background-color: #fff;
+  border: 1px #b6b6b6 solid;
+  color: #404041;
+  padding: 5px;
+}
+
+.lpc_message_visitor {
+  border-radius: 8px 8px 0px 8px !important;
+}
+
+.lpc_message_agent {
+  border-radius: 8px 8px 8px 0px !important;
+}
+
+.lpc_survey-area__cancel-button,
+.lpc_survey-area__submit-button,
+.lpc_confirmation-dialog__cancel-button,
+.lpc_confirmation-dialog__confirm-button {
+  border-radius: 0px !important;
+}
+
+.lpc_survey-area__cancel-button {
+  background-color: #f2f2f2 !important;
+  color: #6d6e70 !important;
+}
+/*Liveperson custom CSS - end */
+		</style>
+		<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1702052817841{padding-bottom: 25px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>    <script src="https://cdn.brandmetrics.com/tag/3507d3a478cd4f59b15eb40434141032/thetimes.js"></script>
+    <script type="text/javascript">!function(p,r,e,s,b,d){p.pbq||(s=p.pbq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);},s.version='1.0',s.queue=[],b=r.createElement(e),b.async=!0,b.src='https://sr.studiostack.com/v3/services',d=r.getElementsByTagName(e)[0],d.parentNode.insertBefore(b,d))}(window,document,'script');pbq('init', '250822');pbq('set', 'story');</script>
+</head>
+<body class="page-template page-template-page-landing-single page-template-page-landing-single-php page page-id-59835 Page wpb-js-composer js-comp-ver-6.10.0 vc_responsive">
+  
+  <div class="AccessibilityLinks">
+    <h2 class="u-hide">Accessibility Links</h2><a href="#main-container" class="u-hide">Skip to content</a>
+  </div>
+
+<div class="GlobalNav">
+    <div class="GlobalNav-wrapper">
+      <div class="GlobalNav-container">
+      
+        <div class="GlobalNav-logoHolder">
+          <div class="GlobalNav-logo">
+            <a data-tracking='{"event_navigation_name":"header:global navigation:logo"}' href="https://www.thetimes.com/" title="Link to homepage" class="js-tracking">
+              <img src="https://www.thetimes.com/static/wp-content/themes/thetimes-page-builder/img/logos/dual-masthead.svg" alt="times logo" class="GlobalNav-logoImg GlobalNav-logoImg--times">
+            </a>
+          </div>
+        </div>
+        
+        <div class="GlobalNav-viewEditionHolder">
+          <div class="GlobalNav-viewEdition">
+            <a data-tracking='{"event_navigation_name":"header:global navigation:logo"}' href="https://www.thetimes.com/" title="View today's edition" class="js-tracking">View today's edition</a>
+          </div>
+        </div>
+      
+      </div><!-- GlobalNav-container -->
+    </div><!-- GlobalNav-wrapper -->
+  </div><!-- GlobalNav -->
+  
+        
+  <div class="Container MainContainer">
+
+<article class="Article">
+
+<section class="Article-body Article-container">
+
+<div class="Article-content">
+  				<section class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid Article-content-header"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_content_element wpb_raw_html" >
+		<div class="wpb_wrapper">
+			<link rel="stylesheet" href="https://s3-eu-west-1.amazonaws.com/methodatnewscommercial/tpb/core/article/styles.css" type="text/css" />
+<script src="https://s3-eu-west-1.amazonaws.com/methodatnewscommercial/tpb/core/article/scripts.js" type="text/javascript"></script>
+<script async src="//cdn.mediavoice.com/nativeads/script/newsuk/MVTrack.js"></script>
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">      <div class="times_advert_container clearfix advert-type-leaderboard" id="advert-type-leaderboard-1">
+        <span class="before-advert-loaded">Advert</span>        <script type="text/javascript">
+          googletag.cmd.push(function() {
+            googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+                if (event.slot.getSlotElementId() == "advert-type-leaderboard-1") {
+                    var containsAd = !event.isEmpty;     
+                    //console.log('does the slot contain an ad?', "advert-type-leaderboard-1", containsAd);
+                    
+                    // hide Advert text
+                    if (containsAd) {
+                      (function($) {
+                        $('#advert-type-leaderboard-1 .before-advert-loaded').hide();
+                      })(jQuery);
+                    } else {
+                      (function($) {
+                        $('#advert-type-leaderboard-1').hide();
+                      })(jQuery);
+                    }
+                }
+            });
+            googletag.display("advert-type-leaderboard-1");
+          });
+        </script>
+      </div>
+      </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">    <div class="Article-headerContainer">
+        <h1 class="Article-headline Headline Headline--article">Retailers can solve their returns problem – and the answer lies in existing data</h1>
+    </div>
+    </div></div></div><div class="sponsor-logo-col wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>Sponsored content</p>
+
+</div>
+	</div>
+
+<div  class="wpb_single_image wpb_content_element vc_align_left">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<a href="https://www.alixpartners.com/" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="240" height="120" src="https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/logo-3.jpg" class="vc_single_image-img attachment-full" alt="" title="logo" /></a>
+		</figure>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>The growing number of returned items is having a disastrous impact on many retailers’ profits. But tools and insights are becoming available to help solve this challenge</p>
+
+</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid Meta"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  Byline" >
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+
+<div class="wpb_text_column wpb_content_element  Dateline" >
+		<div class="wpb_wrapper">
+			<p>December 11 2023, 12:01am</p>
+
+</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  Image-credit" >
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+
+<div  class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1702052817841">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="685" height="385" src="https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-2.jpg" class="vc_single_image-img attachment-full" alt="" title="hero" srcset="https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-2.jpg 685w, https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/hero-2.jpg?resize=300,169 300w" sizes="(max-width: 685px) 100vw, 685px" /></div>
+		</figure>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid Share-toolbar"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  Share-toolbar-label" >
+		<div class="wpb_wrapper">
+			<p>Share</p>
+
+</div>
+	</div>
+<div class="vc_icon_element vc_icon_element-outer Share-toolbar-icon email vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-xs vc_icon_element-style- vc_icon_element-background-color-grey" ><span class="vc_icon_element-icon fa fa-envelope" style="color:#333333 !important"></span><a class="vc_icon_element-link" href="#"  title="" target="_self"></a></div></div><div class="vc_icon_element vc_icon_element-outer Share-toolbar-icon facebook vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-xs vc_icon_element-style- vc_icon_element-background-color-grey" ><span class="vc_icon_element-icon fa fa-facebook" style="color:#333333 !important"></span><a class="vc_icon_element-link" href="#"  title="" target="_self"></a></div></div><div class="vc_icon_element vc_icon_element-outer Share-toolbar-icon twitter vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-xs vc_icon_element-style- vc_icon_element-background-color-grey" ><span class="vc_icon_element-icon fa fa-twitter" style="color:#333333 !important"></span><a class="vc_icon_element-link" href="#"  title="" target="_self"></a></div></div></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>Returned items have become a painful problem for retailers, but many don’t yet know how to tackle it. Return rates in fashion and clothing, for example, range from 40 per cent to an eye-watering 70 per cent, according to 2022 research from AlixPartners. This costs retailers billions and has destroyed profits for many.</p>
+<p>Rocketing return rates are a symptom of the shift to online shopping, which moves the changing room from store to bedroom. Customers now routinely order multiple sizes, colours and fits online, keep one item and return the rest. Online shopping may allow shoppers to capitalise on recent trends, such as wardrobing – wearing an item once then returning it – and staging, whereby an individual posts a picture wearing an item on social media before returning it.</p>
+<p>Retailers must foot the huge bills for servicing and reselling all these returned items. And, while acutely aware of it, many have yet to tackle the deeper systemic issues that cause high return levels. But more sophisticated data use can repair much of the damage. Retailers mostly have this data already, and it doesn’t require massive investment in technology.</p>
+
+</div>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p class="Body"><b><span lang="EN-US">Why returns are so destructive</span></b></p>
+
+</div>
+	</div>
+
+<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>Brian Kalms, digital partner and managing director, Europe retail sector, at consultancy AlixPartners says: “The ability to return items gives customers confidence to buy online and change their mind when they receive the product. But retailers struggle to make that cost-effective. They assumed going online would save money. But profits have fallen due to shipping and returns costs complexity and range expansion.”</p>
+<p>Returns destroy profits because they involve extra inventory, warehousing, shipping, packaging, labour and refurbishing. Kalms says, in his experience, only around 75 per cent of returned items make it to resale, and many of those are discounted because they are no longer in fashion or season. This level of waste can be disastrous for retailers’ profit margins and carbon emission targets too.</p>
+
+</div>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_double vc_sep_pos_align_center vc_separator_no_text" ><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#000000;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#000000;" class="vc_sep_line"></span></span>
+</div>
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h2 style="text-align: center"><span style="color: #ff004f"><em><b>‘Some have responded by tightening the returns window or even charging for returns</b></em></span><span style="color: #ff004f"><em><b>’</b></em></span></h2>
+
+</div>
+	</div>
+<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_double vc_sep_pos_align_center vc_separator_no_text" ><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#000000;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#000000;" class="vc_sep_line"></span></span>
+</div></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p class="Body"><b><span lang="EN-US">What retailers can do</span></b></p>
+
+</div>
+	</div>
+
+<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>Removing the option to return items would make retailers uncompetitive. So, the challenge is to reduce and recondition return behaviours without annoying customers or depriving them of choice.</p>
+<p>“Some have responded by tightening the returns window, or even charging for returns,” says Kalms. “But those options feel like they are punishing the customer and should be a last resort. Others have tried partial solutions, such as technologies that identify worn or washed items, accelerate refurbishment, speed the returns process, or identify high-returning or fraudulent customers.”</p>
+<p>Some have also built solutions that give them post-season information, such as return rates by size, style or region.</p>
+<p>“Post-season analysis is useful but better results come from those who take a more disruptive approach and undertake cross-functional initiatives to better understand what’s happening and act while the product is live,” says Kalms. “Few retailers have built systems with this in mind. Most have focused technology investment on forward logistics – moving goods from manufacturer to customer.</p>
+<p>“But identifying the correlations between returns and product, geography, pricing, and customer and supplier behaviour – these are complex data problems retailers are yet to solve.”</p>
+<p>Such analysis can reveal many subtleties, such as:</p>
+<ul>
+<li>The difference between a stager posting to a few friends and one who is a popular influencer promoting the product.</li>
+<li>A certain size returned often in one region can be redirected automatically, via the return label, to another area, where it is selling quickly.</li>
+<li>One fabric returned often can be removed from sale automatically while you investigate the quality.</li>
+<li>A customer who regularly orders three sizes but always sends back smaller ones can be discouraged or make smaller ones unavailable to them.</li>
+</ul>
+<p>Another approach is giving premier customers free returns, while non-premier customers pay for them. But not many companies scientifically test and compare effectiveness for those two options, or other variants.</p>
+
+</div>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p class="Body"><b><span lang="EN-US">The role of stores and omnichannel</span></b></p>
+
+</div>
+	</div>
+
+<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>For an omnichannel retailer, stores often become a place for people to see and try items before buying them online; and to click and collect or return items. Stores may also create a brand halo effect for passing customers.</p>
+<p>“Evaluating stores’ overall contribution to profits in the omnichannel environment requires a better understanding of how these factors integrate with other information, such as customer profiles in that region,” says Kalms. “Answering all these questions often requires sophisticated information, which is a challenge. Typical reporting systems do not usually take all this into account.</p>
+
+</div>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_double vc_sep_pos_align_center vc_separator_no_text" ><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#000000;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#000000;" class="vc_sep_line"></span></span>
+</div>
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h2 style="text-align: center"><span style="color: #ff004f"><em><b>‘The ability to return items gives customers confidence to buy online and change their mind’</b></em></span></h2>
+
+</div>
+	</div>
+<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_double vc_sep_pos_align_center vc_separator_no_text" ><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#000000;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#000000;" class="vc_sep_line"></span></span>
+</div></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p class="Body"><span lang="EN-US">&#8220;But, in our experience, some questions are not that complex – the data is mostly there but retailers just struggle to pull it together. They need to access, blend and analyse the data in a way that answers these questions and provides a more complex understanding of store economic value, for example.”</span></p>
+
+</div>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p class="Body"><b><span lang="EN-US">The roles of customer segmentation and AI</span></b></p>
+
+</div>
+	</div>
+
+<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>Such an approach also drives a much clearer understanding of product performance and customer behaviour. It ideally generates a profitability score for each customer – accounting for all factors – buying a specific product, such as a shirt. You can then segment each customer by this score. Barring low-profit customers is usually not possible. So, the aim is to improve their profitability by tweaking individualised experiences.</p>
+<p>This requires huge data pools, especially for retailers with thousands of products and thousands or even millions of customers. Such companies have battled to see the trends and react quickly enough.</p>
+<p>Fortunately, artificial intelligence (AI) can come to the rescue by helping you understand the interrelations between relevant factors much more quickly, says Kalms. AI platforms such as Palantir Foundry are built to identify trends in huge datasets and automate responses, he says.</p>
+<p>AlixPartners, in partnership with Palantir, is already helping some of the world’s largest retailers optimise their returns operations in this way.</p>
+
+</div>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p class="Body"><b><span lang="EN-US">An available source of profit</span></b></p>
+
+</div>
+	</div>
+
+<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>Returns have a massive impact on your profit and loss, and the C-suite needs to manage them, says Kalms. “Greater understanding of these interrelationships should help improve your bottom line,” he says. “It may not seem an easy source of profit, but it is available without having to grow your top line, find new products and markets, or redesign your supply chain. So if your profits are underwhelming, you should be going at this right now.”</p>
+<p>AlixPartners is working with senior executives at leading retailers around the world to solve these problems. “We are helping build the tools and insights that enable more informed decisions,” says Kalms.</p>
+
+</div>
+	</div>
+</div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid Article-content-footer"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text" ><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#dbdbdb;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#dbdbdb;" class="vc_sep_line"></span></span>
+</div>
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p style="text-align: center"><em><strong>For more information please visit </strong></em><a href="https://www.alixpartners.com/" target="_blank" rel="noopener"><em><strong>alixpartners.com</strong></em></a></p>
+
+</div>
+	</div>
+<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text" ><span class="vc_sep_holder vc_sep_holder_l"><span style="border-color:#dbdbdb;" class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span style="border-color:#dbdbdb;" class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div  class="wpb_single_image wpb_content_element vc_align_center">
+		
+		<figure class="wpb_wrapper vc_figure">
+			<a href="https://www.alixpartners.com/" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey"><img loading="lazy" decoding="async" class="vc_single_image-img " src="https://www.thetimes.com/static/wp-content/uploads/sites/8/2023/12/logo-4.jpg" width="240" height="120" alt="logo" title="logo" /></a>
+		</figure>
+	</div>
+
+<div class="wpb_text_column wpb_content_element  Image-credit" >
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid Share-toolbar"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element  Share-toolbar-label" >
+		<div class="wpb_wrapper">
+			<p>Share</p>
+
+</div>
+	</div>
+<div class="vc_icon_element vc_icon_element-outer Share-toolbar-icon email vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-xs vc_icon_element-style- vc_icon_element-background-color-grey" ><span class="vc_icon_element-icon fa fa-envelope" style="color:#333333 !important"></span><a class="vc_icon_element-link" href="#"  title="" target="_self"></a></div></div><div class="vc_icon_element vc_icon_element-outer Share-toolbar-icon facebook vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-xs vc_icon_element-style- vc_icon_element-background-color-grey" ><span class="vc_icon_element-icon fa fa-facebook" style="color:#333333 !important"></span><a class="vc_icon_element-link" href="#"  title="" target="_self"></a></div></div><div class="vc_icon_element vc_icon_element-outer Share-toolbar-icon twitter vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-custom vc_icon_element-size-xs vc_icon_element-style- vc_icon_element-background-color-grey" ><span class="vc_icon_element-icon fa fa-twitter" style="color:#333333 !important"></span><a class="vc_icon_element-link" href="#"  title="" target="_self"></a></div></div></div></div></div></div></div></div></div></div>
+</section>        </div>
+
+</section>
+			
+			<footer class="Article-footer"></footer>
+
+</article>
+		<div id="pressboard-ad-sponsorship-msg"></div>
+
+</div><!-- Container.MainContainer -->
+
+<footer class="GlobalFooter">
+        <div class="GlobalFooter-backToTopSection">
+            <div class="Container">
+                <a data-tracking='{"event_navigation_name":"back to top"}' href="#top" class="GlobalFooter-backToTop js-scrollTo js-tracking" data-link-target="top">Back to top</a>
+            </div>
+        </div>
+
+<div class="Container GlobalFooter-container">
+            <div class="GlobalFooter-logo">
+                <a href="https://www.thetimes.com/"><img src="https://www.thetimes.com/static/wp-content/themes/thetimes-page-builder/img/logos/dual-masthead.svg" alt="times Masthead"></a>
+            </div>
+
+<div class="GlobalFooter-group">
+                <div class="GlobalFooter-section GlobalFooter-section--primary">
+                    <h3 class="GlobalFooter-header Headline Headline--footer">Get in touch</h3>
+                    
+                    <div class="menu-footer-get-in-touch-container"><ul id="menu-footer-get-in-touch" class="GlobalFooter-list"><li id="menu-item-66615" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/about-us">About us</a></li>
+<li id="menu-item-66617" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/static/contact-us/">Contact us</a></li>
+<li id="menu-item-66619" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/static/help/">Help</a></li>
+<li id="menu-item-66620" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/static/the-times-editorial-complaints/">The Times Editorial Complaints</a></li>
+<li id="menu-item-66621" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/static/the-sunday-times-editorial-complaints/">The Sunday Times Editorial Complaints</a></li>
+<li id="menu-item-66622" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.newsukadvertising.co.uk/the-times/announcements">Plan an announcement</a></li>
+<li id="menu-item-66623" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.newsukadvertising.co.uk/the-times">Classified advertising</a></li>
+<li id="menu-item-66624" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://newscommercial.co.uk/">Display advertising</a></li>
+<li id="menu-item-66625" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://thetimes.com/corrections">The Times Corrections</a></li>
+<li id="menu-item-66626" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://thesundaytimes.com/corrections">The Sunday Times Corrections</a></li>
+<li id="menu-item-66627" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.newscareers.co.uk/">Careers</a></li>
+</ul></div>                </div>
+
+<div class="GlobalFooter-section GlobalFooter-section--secondary">
+                    <h3 class="GlobalFooter-header Headline Headline--footer">More from The Times and The Sunday Times</h3>
+                    
+                    <div class="menu-footer-more-container"><ul id="menu-footer-more" class="GlobalFooter-list"><li id="menu-item-61049" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://epaper.thetimes.com/the-times">The Times e-paper</a></li>
+<li id="menu-item-61052" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://epaper.thetimes.com/the-sunday-times">The Sunday Times e-paper</a></li>
+<li id="menu-item-61053" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.timescurrencyservices.co.uk/">Times Currency Services</a></li>
+<li id="menu-item-61054" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.sundaytimeswineclub.co.uk/">The Sunday Times Wine Club</a></li>
+<li id="menu-item-61055" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://times.newsprints.co.uk/?utm_source=the_times">Times Print Gallery</a></li>
+<li id="menu-item-61056" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/archive/">The Times Archive</a></li>
+<li id="menu-item-61057" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/puzzleclub/crosswordclub/">Times Crossword Club</a></li>
+<li id="menu-item-61058" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.driving.co.uk/">Sunday Times Driving</a></li>
+<li id="menu-item-61059" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.mytimesplus.co.uk/">Times+</a></li>
+<li id="menu-item-61060" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/sunday-times-rich-list">The Sunday Times Rich List</a></li>
+<li id="menu-item-61061" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/travel/">Times Expert Traveller</a></li>
+<li id="menu-item-61062" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/article/good-university-guide-in-full-tp6dzs7wn">Good University Guide</a></li>
+<li id="menu-item-61063" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/article/best-uk-schools-guide-parent-power-tr95xdztg">Schools Guide</a></li>
+<li id="menu-item-61064" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://home.thetimes.com/myNews">Newsletters</a></li>
+<li id="menu-item-61065" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/best-places-to-live">Best Places to Live</a></li>
+<li id="menu-item-61066" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/best-places-to-stay">Best Places to Stay</a></li>
+<li id="menu-item-61067" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://appointments.thetimes.com/">Times Appointments</a></li>
+<li id="menu-item-61068" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/podcasts">Podcasts</a></li>
+<li id="menu-item-61069" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/money-mentor">Times Money Mentor</a></li>
+<li id="menu-item-61070" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/luxury">Times Luxury</a></li>
+<li id="menu-item-61071" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/sport/sportswomen-of-the-year/">Sportswomen of the Year Awards</a></li>
+</ul></div>	                  
+                </div>
+            </div>
+
+<div class="GlobalFooter-section GlobalFooter-section--tertiary">
+                <div class="GlobalFooter-companyInfo">
+                    <p>&copy; Times Media Limited 2025.&nbsp;</p>
+
+<p>Registered in England No. 894646.&nbsp;</p>
+
+<p>Registered office: 1 London Bridge Street, SE1 9GF.</p>
+                </div>
+                
+                <div class="menu-globalfooter-list-container"><ul id="menu-globalfooter-list" class="GlobalFooter-list GlobalFooter-list--small"><li id="menu-item-61086" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.newsprivacy.co.uk/">Privacy &#038; cookie policy</a></li>
+<li id="menu-item-75330" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="/static/generative-artificial-intelligence-editorial-guidelines/">Generative AI editorial guidelines</a></li>
+<li id="menu-item-61088" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.newslicensing.co.uk/">Licensing</a></li>
+<li id="menu-item-67904" class="optanon-toggle-pay menu-item menu-item-type-custom menu-item-object-custom"><a title="Non-personalised adverts" href="http://thetimes.com">Non-personalised adverts</a></li>
+<li id="menu-item-61089" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://thetimes.com">Cookie settings</a></li>
+<li id="menu-item-61091" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/html-sitemap">Site map</a></li>
+<li id="menu-item-61092" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/html-topic-sitemap">Topics</a></li>
+<li id="menu-item-61093" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/authors">Authors</a></li>
+<li id="menu-item-61094" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/static/commissioning-terms/?region=global">Commissioning terms</a></li>
+<li id="menu-item-61095" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.thetimes.com/static/terms-and-conditions/?region=global">Terms and conditions</a></li>
+</ul></div>            </div>
+        </div>
+    </footer>
+    
+	</div>
+
+<link rel='stylesheet' id='vc_font_awesome_5_shims-css' href='https://www.thetimes.com/static/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css?ver=6.10.0' media='all' />
+<link rel='stylesheet' id='vc_font_awesome_5-css' href='https://www.thetimes.com/static/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css?ver=6.10.0' media='all' />
+<script type="text/javascript" id="main-js-extra">
+/* <![CDATA[ */
+var infiniteScroll = {"nonce":"996e0a808d","ajax_url":"https:\/\/www.thetimes.com\/static\/wp-admin\/admin-ajax.php","post_id":"59835"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.thetimes.com/static/wp-content/themes/thetimes-page-builder/js/main.min.js?m=1757410139g" ></script><script type="text/javascript" id="jetpack-stats-js-before">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"207993814\",\"post\":\"59835\",\"tz\":\"1\",\"srv\":\"www.thetimes.com\",\"hp\":\"vip\",\"j\":\"1:14.4.1\"}") ]);
+_stq.push([ "clickTrackerInit", "207993814", "59835" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://stats.wp.com/e-202537.js" id="jetpack-stats-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://www.thetimes.com/static/_static/??/wp-content/themes/thetimes-page-builder/assets/js/lptag-prod.js,/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?m=1757410139j" ></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"12f4312a27","applicationID":"761030582","transactionName":"YFxWYEpUVhJQAUMIXFkWdVdMXFcPHhJWBlYaVVVaXFxWBhwRXg9UW1w=","queueTime":0,"applicationTime":226,"atts":"TBtVFgJORRw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+</html>
