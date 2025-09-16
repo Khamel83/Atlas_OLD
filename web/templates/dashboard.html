@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %}Atlas - Dashboard{% endblock %}
+
+{% block content %}
+    <div class="card">
+        <h2>Welcome to Atlas</h2>
+        <p>Your simple digital filing cabinet for organizing and processing content from various sources.</p>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number">{{ total_content }}</div>
+            <div class="stat-label">Total Items</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">{{ content_types }}</div>
+            <div class="stat-label">Content Types</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">{{ recent_items }}</div>
+            <div class="stat-label">Recent Items</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">{{ processed_items }}</div>
+            <div class="stat-label">Processed</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Quick Actions</h2>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="/add" class="btn btn-primary">Add Content</a>
+            <a href="/search" class="btn btn-secondary">Search Content</a>
+            <a href="/stats" class="btn btn-secondary">View Statistics</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Recent Content</h2>
+        <div id="recent-content">
+            {% for item in recent_content %}
+            <div class="content-item">
+                <div class="content-title">{{ item.title }}</div>
+                <div class="content-meta">
+                    <span class="content-type">{{ item.content_type or 'Unknown' }}</span>
+                    <span class="content-stage">Stage {{ item.stage }}</span>
+                    <span>{{ item.created_at }}</span>
+                </div>
+                {% if item.ai_summary %}
+                <div class="content-summary">{{ item.ai_summary[:200] }}...</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+            {% if not recent_content %}
+            <p>No content yet. <a href="/add">Add some content</a> to get started.</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
