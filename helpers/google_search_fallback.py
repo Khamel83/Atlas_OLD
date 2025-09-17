@@ -93,8 +93,19 @@ class CircuitBreaker:
             return False
         elif self.state == "HALF_OPEN":
             return True
-        
+
         return False
+
+    def is_closed(self) -> bool:
+        """Check if circuit is closed (allowing requests)"""
+        return self.state == "CLOSED"
+
+    def reset(self):
+        """Reset circuit breaker to closed state"""
+        self.failure_count = 0
+        self.state = "CLOSED"
+        self.last_failure_time = None
+        logger.info("Circuit breaker: Reset to CLOSED state")
 
 class RateLimiter:
     """Rate limiter for Google Search API"""
@@ -135,6 +146,17 @@ class RateLimiter:
         """Get remaining queries for today"""
         self.reset_daily_count_if_needed()
         return max(0, self.max_queries_per_day - self.queries_today)
+
+    async def can_make_request(self) -> bool:
+        """Check if we can make a request (for testing)"""
+        self.reset_daily_count_if_needed()
+        return self.queries_today < self.max_queries_per_day
+
+    async def record_request(self):
+        """Record a request (for testing)"""
+        self.queries_today += 1
+        self.last_query_time = time.time()
+        logger.debug(f"Rate limiter: Query recorded, total: {self.queries_today}")
 
 class GoogleSearchFallback:
     """
@@ -184,6 +206,24 @@ class GoogleSearchFallback:
             "error": "Google Search fallback requires async configuration",
             "urls": []
         }
+
+    async def search(self, query: str, priority: int = 2) -> Optional[str]:
+        """
+        Simple search method for testing compatibility.
+
+        Args:
+            query: Search query string
+            priority: Priority level (1=urgent, 2=normal, 3=background)
+
+        Returns:
+            Found URL or None if failed
+        """
+        # For testing, just delegate to the existing method
+        try:
+            return await self.search_with_fallback(query, priority)
+        except Exception as e:
+            logger.error(f"Search failed: {e}")
+            return None
 
     async def search_with_fallback(self, query: str, priority: int = 2) -> Optional[str]:
         """
