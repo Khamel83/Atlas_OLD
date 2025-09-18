@@ -154,15 +154,9 @@ curl http://localhost:7444/stats
 
 # Health monitoring (NEW)
 curl http://localhost:7444/health
-curl http://localhost:7444/health/live
-curl http://localhost:7444/health/ready
 
-# Metrics (NEW)
-curl http://localhost:7444/metrics
-
-# Configuration management (NEW)
-curl http://localhost:7444/config
-curl http://localhost:7444/config/environment
+# Statistics and metrics
+curl http://localhost:7444/stats
 ```
 
 ## Architecture
@@ -323,6 +317,96 @@ Atlas processes content through a stage-based system (0-599):
 - **Email Archives**: Imported email content
 - **Podcast Episodes**: Transcripts and show notes
 - **Source Discovery**: Automatically found content
+
+## 🎙️ Podcast Transcript Discovery (NEW!)
+
+Atlas now includes comprehensive podcast transcript discovery with multiple fallback strategies:
+
+### Transcript Discovery Workflow
+
+Atlas uses a sophisticated priority-based system to find podcast transcripts:
+
+1. **Database Check** - Search local database first
+2. **Known Sources** - Check registered transcript sources
+3. **Google Search** - Find transcripts using Google Search API
+4. **YouTube Integration** - Extract from YouTube videos
+5. **Audio Transcription** - Final fallback to speech-to-text
+
+### Supported Podcast Sources
+
+**✅ High-Confidence Sources:**
+- **Accidental Tech Podcast**: Complete transcripts via catatp.fm
+- **This American Life**: Official transcripts from thisamericanlife.org
+- **99% Invisible**: Partial transcripts from 99percentinvisible.org
+- **NPR Shows**: Selected transcripts from npr.org
+- **Freakonomics Radio**: Available transcripts from freakonomics.com
+
+**✅ Google Search Integration:**
+- Configured with Google Custom Search API
+- Intelligent query patterns for transcript discovery
+- Rate-limited to 8,000 queries/day
+- Automatic URL extraction and content scraping
+
+### Configuration
+
+The transcript discovery system requires API configuration:
+
+```bash
+# Google Search API (required for fallback)
+export GOOGLE_SEARCH_API_KEY="your_api_key"
+export GOOGLE_SEARCH_ENGINE_ID="your_search_engine_id"
+
+# YouTube API (optional for video transcripts)
+export YOUTUBE_API_KEY="your_youtube_key"
+```
+
+### Usage Examples
+
+```python
+from helpers.podcast_transcript_lookup import PodcastTranscriptLookup
+
+# Create lookup instance
+lookup = PodcastTranscriptLookup()
+
+# Find transcript for ATP episode
+result = lookup.lookup_transcript(
+    "Accidental Tech Podcast",
+    "ATP 655: Shorts-Compatible Body Type"
+)
+
+if result.success:
+    print(f"Found transcript via {result.source}")
+    print(f"Length: {len(result.transcript)} characters")
+else:
+    print(f"Error: {result.error_message}")
+```
+
+### Processing Queue
+
+Atlas maintains a processing queue for podcast episodes:
+
+```bash
+# Check queue status
+sqlite3 output/processing_queue.db "SELECT COUNT(*) FROM processing_queue WHERE status = 'pending'"
+
+# Process ATP episodes specifically
+python3 process_atp_queue.py
+```
+
+### Registry System
+
+The known sources registry manages all transcript sources:
+
+```python
+from helpers.known_transcript_sources import get_known_sources_registry
+
+registry = get_known_sources_registry()
+print(f"Loaded {len(registry.sources)} sources")
+
+# Identify source for a podcast
+source = registry.identify_podcast_source("Accidental Tech Podcast", "ATP 655")
+print(f"Source: {source.source_domain if source else 'Unknown'}")
+```
 
 ## Data Preservation
 

@@ -1028,7 +1028,7 @@ def main():
     create_static_files()
 
     print("🌐 Starting Atlas Web Interface...")
-    print("📊 Web interface available at: http://localhost:7444")
+    print("📊 Web interface available at: http://localhost:8000")
     print("📱 Features:")
     print("   • Clean, responsive design")
     print("   • Content addition and management")
@@ -1039,7 +1039,7 @@ def main():
     uvicorn.run(
         app,
         host="0.0.0.0",
-        port=7444,
+        port=8000,
         reload=False,
         log_level="info"
     )

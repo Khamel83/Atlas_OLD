@@ -72,84 +72,63 @@ class PodcastTranscriptLookup:
         try:
             logger.info(f"Starting transcript lookup for {podcast_name} - {episode_title}")
 
-                # Step 1: Check existing sources (RSS feeds, database)
+            # Step 1: Check existing sources (RSS feeds, database)
             existing_result = self._check_existing_sources(podcast_name, episode_title, episode_url)
 
-                if existing_result.success:
-                    timer.add_tags({
-                        'podcast_name': podcast_name,
-                        'episode_title': episode_title,
-                        'source': existing_result.source,
-                        'success': True,
-                        'fallback_used': False
-                    })
-                    return existing_result
+            if existing_result.success:
+                logger.info(f"Found existing transcript for {podcast_name} - {episode_title}")
+                return existing_result
 
-                # Step 2: Try YouTube fallback
-                logger.info(f"Trying YouTube fallback for {podcast_name} - {episode_title}")
-                youtube_result = self._try_youtube_fallback(podcast_name, episode_title)
+            # Step 2: Check known sources (ATP, TAL, etc.)
+            logger.info(f"Checking known sources for {podcast_name} - {episode_title}")
+            known_sources_result = self._check_known_sources(podcast_name, episode_title, episode_url)
 
-                if youtube_result.success:
-                    timer.add_tags({
-                        'podcast_name': podcast_name,
-                        'episode_title': episode_title,
-                        'source': 'youtube',
-                        'success': True,
-                        'fallback_used': True
-                    })
-                    return youtube_result
+            if known_sources_result.success:
+                logger.info(f"Found transcript via known sources for {podcast_name} - {episode_title}")
+                return known_sources_result
 
-                # Step 3: Try Google search fallback
-                logger.info(f"Trying Google search fallback for {podcast_name} - {episode_title}")
-                google_result = self._try_google_search_fallback(podcast_name, episode_title)
+            # Step 3: Try Google search fallback
+            logger.info(f"Trying Google search fallback for {podcast_name} - {episode_title}")
+            google_result = self._try_google_search_fallback(podcast_name, episode_title)
 
-                if google_result.success:
-                    timer.add_tags({
-                        'podcast_name': podcast_name,
-                        'episode_title': episode_title,
-                        'source': 'google_search',
-                        'success': True,
-                        'fallback_used': True
-                    })
-                    return google_result
+            if google_result.success:
+                logger.info(f"Found transcript via Google search for {podcast_name} - {episode_title}")
+                return google_result
 
-                # Step 4: All methods failed - schedule retry
-                logger.warning(f"All transcript lookup methods failed for {podcast_name} - {episode_title}")
-                retry_scheduled = self._schedule_retry(podcast_name, episode_title, episode_url)
+            # Step 4: Try YouTube fallback
+            logger.info(f"Trying YouTube fallback for {podcast_name} - {episode_title}")
+            youtube_result = self._try_youtube_fallback(podcast_name, episode_title)
 
-                processing_time = (datetime.now() - start_time).total_seconds()
+            if youtube_result.success:
+                logger.info(f"Found transcript via YouTube for {podcast_name} - {episode_title}")
+                return youtube_result
 
-                timer.add_tags({
-                    'podcast_name': podcast_name,
-                    'episode_title': episode_title,
-                    'success': False,
-                    'fallback_used': False,
-                    'retry_scheduled': retry_scheduled
-                })
-                timer.mark_failed(error="All lookup methods failed")
+            # Step 5: All methods failed - schedule retry
+            logger.warning(f"All transcript lookup methods failed for {podcast_name} - {episode_title}")
+            retry_scheduled = self._schedule_retry(podcast_name, episode_title, episode_url)
 
-                return TranscriptLookupResult(
-                    success=False,
-                    podcast_name=podcast_name,
-                    episode_title=episode_title,
-                    error_message="All transcript lookup methods failed",
-                    retry_scheduled=retry_scheduled,
-                    processing_time=processing_time
-                )
+            processing_time = (datetime.now() - start_time).total_seconds()
 
-            except Exception as e:
-                logger.error(f"Transcript lookup failed for {podcast_name} - {episode_title}: {e}")
-                processing_time = (datetime.now() - start_time).total_seconds()
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message="All transcript lookup methods failed",
+                retry_scheduled=retry_scheduled,
+                processing_time=processing_time
+            )
 
-                timer.mark_failed(error=str(e))
+        except Exception as e:
+            logger.error(f"Transcript lookup failed for {podcast_name} - {episode_title}: {e}")
+            processing_time = (datetime.now() - start_time).total_seconds()
 
-                return TranscriptLookupResult(
-                    success=False,
-                    podcast_name=podcast_name,
-                    episode_title=episode_title,
-                    error_message=str(e),
-                    processing_time=processing_time
-                )
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message=str(e),
+                processing_time=processing_time
+            )
 
     def _check_existing_sources(self, podcast_name: str, episode_title: str,
                                episode_url: str = None) -> TranscriptLookupResult:
@@ -263,6 +242,322 @@ class PodcastTranscriptLookup:
                 error_message=f"RSS check error: {str(e)}"
             )
 
+    def _check_known_sources(self, podcast_name: str, episode_title: str, episode_url: str = None) -> TranscriptLookupResult:
+        """Check known transcript sources before fallback methods"""
+
+        try:
+            # Check if this is an ATP episode
+            if self._is_atp_episode(podcast_name, episode_title):
+                logger.info(f"Detected ATP episode, using specialized scraper: {episode_title}")
+                return self._get_atp_transcript(podcast_name, episode_title, episode_url)
+
+            # Check if this is a This American Life episode
+            elif self._is_tal_episode(podcast_name, episode_title):
+                logger.info(f"Detected TAL episode, using specialized approach: {episode_title}")
+                return self._get_tal_transcript(podcast_name, episode_title, episode_url)
+
+            # Check if this is a 99% Invisible episode
+            elif self._is_99pi_episode(podcast_name, episode_title):
+                logger.info(f"Detected 99PI episode, using specialized approach: {episode_title}")
+                return self._get_99pi_transcript(podcast_name, episode_title, episode_url)
+
+            # No known source identified
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message="No known source identified for this podcast"
+            )
+
+        except Exception as e:
+            logger.error(f"Known sources check failed: {e}")
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message=f"Known sources error: {str(e)}"
+            )
+
+    def _is_atp_episode(self, podcast_name: str, episode_title: str) -> bool:
+        """Check if this is an ATP episode"""
+        atp_indicators = [
+            'accidental tech podcast',
+            'atp.fm',
+            'atp',
+            'marco',
+            'casey',
+            'john siracusa'
+        ]
+
+        combined_text = f"{podcast_name} {episode_title}".lower()
+        return any(indicator in combined_text for indicator in atp_indicators)
+
+    def _is_tal_episode(self, podcast_name: str, episode_title: str) -> bool:
+        """Check if this is a This American Life episode"""
+        tal_indicators = [
+            'this american life',
+            'tal',
+            'ira glass',
+            'thisamericanlife'
+        ]
+
+        combined_text = f"{podcast_name} {episode_title}".lower()
+        return any(indicator in combined_text for indicator in tal_indicators)
+
+    def _is_99pi_episode(self, podcast_name: str, episode_title: str) -> bool:
+        """Check if this is a 99% Invisible episode"""
+        pi_indicators = [
+            '99% invisible',
+            '99 percent invisible',
+            '99pi',
+            'roman mars',
+            '99percentinvisible'
+        ]
+
+        combined_text = f"{podcast_name} {episode_title}".lower()
+        return any(indicator in combined_text for indicator in pi_indicators)
+
+    def _get_atp_transcript(self, podcast_name: str, episode_title: str, episode_url: str = None) -> TranscriptLookupResult:
+        """Get transcript using ATP scraper"""
+
+        try:
+            from helpers.atp_transcript_scraper import ATPTranscriptScraper
+
+            scraper = ATPTranscriptScraper()
+
+            # If we have a specific URL, try that first
+            if episode_url:
+                transcript_data = scraper.scrape_episode_transcript(episode_url)
+                if transcript_data and transcript_data.get('transcript'):
+                    transcript = transcript_data['transcript']
+
+                    # Store the successful transcript
+                    self._store_transcript(podcast_name, episode_title, transcript, 'atp_scraper', episode_url)
+
+                    return TranscriptLookupResult(
+                        success=True,
+                        podcast_name=podcast_name,
+                        episode_title=episode_title,
+                        transcript=transcript,
+                        source='atp_scraper',
+                        fallback_used=False
+                    )
+
+            # Try to find episode via search on catatp.fm
+            episodes = scraper.get_episode_list()
+
+            # Look for matching episode by title similarity
+            for episode in episodes:
+                if self._title_similarity(episode_title, episode.get('title', '')) > 0.7:
+                    transcript_data = scraper.scrape_episode_transcript(episode['url'])
+                    if transcript_data and transcript_data.get('transcript'):
+                        transcript = transcript_data['transcript']
+
+                        # Store the successful transcript
+                        self._store_transcript(podcast_name, episode_title, transcript, 'atp_scraper', episode['url'])
+
+                        return TranscriptLookupResult(
+                            success=True,
+                            podcast_name=podcast_name,
+                            episode_title=episode_title,
+                            transcript=transcript,
+                            source='atp_scraper',
+                            fallback_used=False
+                        )
+
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message="ATP episode not found on catatp.fm"
+            )
+
+        except ImportError:
+            logger.warning("ATP scraper not available")
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message="ATP scraper not available"
+            )
+        except Exception as e:
+            logger.error(f"ATP scraper failed: {e}")
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message=f"ATP scraper error: {str(e)}"
+            )
+
+    def _get_tal_transcript(self, podcast_name: str, episode_title: str, episode_url: str = None) -> TranscriptLookupResult:
+        """Get transcript for This American Life episodes"""
+
+        try:
+            from helpers.tal_transcript_scraper import TALTranscriptScraper
+
+            scraper = TALTranscriptScraper()
+
+            # If we have a specific URL, try that first
+            if episode_url:
+                result = scraper.get_transcript_from_url(episode_url)
+                if result.get('success'):
+                    transcript = result['transcript']
+
+                    # Store the successful transcript
+                    self._store_transcript(podcast_name, episode_title, transcript, 'tal_scraper', episode_url)
+
+                    return TranscriptLookupResult(
+                        success=True,
+                        podcast_name=podcast_name,
+                        episode_title=episode_title,
+                        transcript=transcript,
+                        source='tal_scraper',
+                        fallback_used=False
+                    )
+
+            # Try to find episode via search on thisamericanlife.org
+            search_result = scraper.search_episode_by_title(episode_title)
+            if search_result:
+                transcript_data = scraper.scrape_episode_transcript(search_result['url'])
+                if transcript_data and transcript_data.get('transcript'):
+                    transcript = transcript_data['transcript']
+
+                    # Store the successful transcript
+                    self._store_transcript(podcast_name, episode_title, transcript, 'tal_scraper', search_result['url'])
+
+                    return TranscriptLookupResult(
+                        success=True,
+                        podcast_name=podcast_name,
+                        episode_title=episode_title,
+                        transcript=transcript,
+                        source='tal_scraper',
+                        fallback_used=False
+                    )
+
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message="TAL episode not found on thisamericanlife.org"
+            )
+
+        except ImportError:
+            logger.warning("TAL scraper not available")
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message="TAL scraper not available"
+            )
+        except Exception as e:
+            logger.error(f"TAL scraper failed: {e}")
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message=f"TAL scraper error: {str(e)}"
+            )
+
+    def _get_99pi_transcript(self, podcast_name: str, episode_title: str, episode_url: str = None) -> TranscriptLookupResult:
+        """Get transcript for 99% Invisible episodes"""
+
+        try:
+            from helpers.ninety_nine_pi_scraper import NinetyNinePITranscriptScraper
+
+            scraper = NinetyNinePITranscriptScraper()
+
+            # If we have a specific URL, try that first
+            if episode_url:
+                result = scraper.get_transcript_from_url(episode_url)
+                if result.get('success'):
+                    transcript = result['transcript']
+
+                    # Store the successful transcript
+                    self._store_transcript(podcast_name, episode_title, transcript, '99pi_scraper', episode_url)
+
+                    return TranscriptLookupResult(
+                        success=True,
+                        podcast_name=podcast_name,
+                        episode_title=episode_title,
+                        transcript=transcript,
+                        source='99pi_scraper',
+                        fallback_used=False
+                    )
+
+            # Try to find episode via search on 99percentinvisible.org
+            search_result = scraper.search_episode_by_title(episode_title)
+            if search_result:
+                transcript_data = scraper.scrape_episode_transcript(search_result['url'])
+                if transcript_data and transcript_data.get('transcript'):
+                    transcript = transcript_data['transcript']
+
+                    # Store the successful transcript
+                    self._store_transcript(podcast_name, episode_title, transcript, '99pi_scraper', search_result['url'])
+
+                    return TranscriptLookupResult(
+                        success=True,
+                        podcast_name=podcast_name,
+                        episode_title=episode_title,
+                        transcript=transcript,
+                        source='99pi_scraper',
+                        fallback_used=False
+                    )
+
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message="99PI episode not found on 99percentinvisible.org"
+            )
+
+        except ImportError:
+            logger.warning("99PI scraper not available")
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message="99PI scraper not available"
+            )
+        except Exception as e:
+            logger.error(f"99PI scraper failed: {e}")
+            return TranscriptLookupResult(
+                success=False,
+                podcast_name=podcast_name,
+                episode_title=episode_title,
+                error_message=f"99PI scraper error: {str(e)}"
+            )
+
+    def _title_similarity(self, title1: str, title2: str) -> float:
+        """Calculate similarity between two titles (simple implementation)"""
+
+        import re
+
+        # Clean titles for comparison
+        def clean_title(title):
+            # Remove episode numbers and common prefixes
+            title = re.sub(r'^\d+\s*:\s*', '', title)  # Remove "123: " prefix
+            title = re.sub(r'episode\s*\d+', '', title, flags=re.IGNORECASE)
+            title = re.sub(r'[^\w\s]', '', title)  # Remove punctuation
+            return title.lower().strip()
+
+        clean1 = clean_title(title1)
+        clean2 = clean_title(title2)
+
+        if not clean1 or not clean2:
+            return 0.0
+
+        # Simple word overlap similarity
+        words1 = set(clean1.split())
+        words2 = set(clean2.split())
+
+        if not words1 or not words2:
+            return 0.0
+
+        intersection = words1.intersection(words2)
+        union = words1.union(words2)
+
+        return len(intersection) / len(union) if union else 0.0
+
     def _try_youtube_fallback(self, podcast_name: str, episode_title: str) -> TranscriptLookupResult:
         """Try YouTube as fallback source"""
 
@@ -314,19 +609,75 @@ class PodcastTranscriptLookup:
         """Try Google search as final fallback"""
 
         try:
-            # For now, implement a simple version
-            # In the future, this could use the Google Search API
+            from helpers.google_search_fallback import get_google_search_fallback
+            import asyncio
 
-            search_query = f"{podcast_name} {episode_title} transcript"
+            # Get the Google search fallback instance
+            google_search = get_google_search_fallback()
 
-            # TODO: Implement Google Search API integration
-            # For now, return failure
+            if not google_search.enabled:
+                return TranscriptLookupResult(
+                    success=False,
+                    podcast_name=podcast_name,
+                    episode_title=episode_title,
+                    error_message="Google Search API not configured"
+                )
 
+            # Create search queries with different patterns for better results
+            search_queries = [
+                f'"{podcast_name}" "{episode_title}" transcript',
+                f'"{podcast_name}" "{episode_title}" transcript site:catatp.fm',
+                f'"{podcast_name}" "{episode_title}" transcript site:thisamericanlife.org',
+                f'"{podcast_name}" transcript "{episode_title}"',
+                f'{podcast_name} {episode_title} transcript filetype:pdf'
+            ]
+
+            # Try each search query until we find a result
+            for search_query in search_queries:
+                logger.info(f"Trying Google search: {search_query}")
+
+                # Use urgent search (priority 1) for immediate results
+                try:
+                    # Run the async search in a new event loop if needed
+                    try:
+                        loop = asyncio.get_event_loop()
+                    except RuntimeError:
+                        loop = asyncio.new_event_loop()
+                        asyncio.set_event_loop(loop)
+
+                    result_url = loop.run_until_complete(
+                        google_search.search_with_fallback(search_query, priority=1)
+                    )
+
+                    if result_url:
+                        logger.info(f"Google search found result: {result_url}")
+
+                        # Try to extract transcript from the found URL
+                        transcript = self._extract_transcript_from_url(result_url, podcast_name, episode_title)
+
+                        if transcript:
+                            # Store the successful transcript
+                            self._store_transcript(podcast_name, episode_title, transcript, 'google_search', result_url)
+
+                            return TranscriptLookupResult(
+                                success=True,
+                                podcast_name=podcast_name,
+                                episode_title=episode_title,
+                                transcript=transcript,
+                                source='google_search',
+                                fallback_used=True
+                            )
+
+                except Exception as search_error:
+                    logger.warning(f"Search query failed '{search_query}': {search_error}")
+                    continue
+
+            # No successful searches found transcript content
             return TranscriptLookupResult(
                 success=False,
                 podcast_name=podcast_name,
                 episode_title=episode_title,
-                error_message="Google search fallback not yet implemented"
+                error_message="Google search found no usable transcript results"
             )
 
         except Exception as e:
@@ -337,6 +688,211 @@ class PodcastTranscriptLookup:
                 episode_title=episode_title,
                 error_message=f"Google search error: {str(e)}"
             )
+
+    def _extract_transcript_from_url(self, url: str, podcast_name: str, episode_title: str) -> Optional[str]:
+        """Extract transcript content from a URL found by Google search"""
+
+        try:
+            import requests
+            from bs4 import BeautifulSoup
+            import re
+
+            logger.info(f"Attempting to extract transcript from: {url}")
+
+            # Check if this is a known transcript source and use specialized scraper
+            if 'catatp.fm' in url:
+                return self._extract_from_catatp(url)
+            elif 'thisamericanlife.org' in url:
+                return self._extract_from_tal(url)
+            elif '99percentinvisible.org' in url:
+                return self._extract_from_99pi(url)
+            elif url.endswith('.pdf'):
+                return self._extract_from_pdf(url)
+            else:
+                return self._extract_from_generic_webpage(url)
+
+        except Exception as e:
+            logger.error(f"Failed to extract transcript from {url}: {e}")
+            return None
+
+    def _extract_from_catatp(self, url: str) -> Optional[str]:
+        """Extract transcript from catatp.fm (ATP) website"""
+
+        try:
+            # Use the existing ATP scraper if available
+            from helpers.atp_transcript_scraper import ATPTranscriptScraper
+
+            scraper = ATPTranscriptScraper()
+            result = scraper.get_transcript_from_url(url)
+
+            if result and result.get('success'):
+                logger.info(f"Successfully extracted ATP transcript from: {url}")
+                return result.get('transcript')
+            else:
+                logger.warning(f"ATP scraper failed for: {url}")
+                return None
+
+        except ImportError:
+            logger.warning("ATP scraper not available, falling back to generic extraction")
+            return self._extract_from_generic_webpage(url)
+        except Exception as e:
+            logger.error(f"ATP extraction failed: {e}")
+            return None
+
+    def _extract_from_tal(self, url: str) -> Optional[str]:
+        """Extract transcript from This American Life website"""
+
+        try:
+            import requests
+            from bs4 import BeautifulSoup
+
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            # TAL transcript patterns
+            transcript_selectors = [
+                '.transcript',
+                '#transcript',
+                '[class*="transcript"]',
+                '.episode-transcript',
+                '.story-transcript'
+            ]
+
+            for selector in transcript_selectors:
+                elements = soup.select(selector)
+                if elements:
+                    transcript_text = ' '.join([elem.get_text() for elem in elements])
+                    if len(transcript_text) > 500:  # Reasonable transcript length
+                        logger.info(f"Successfully extracted TAL transcript from: {url}")
+                        return transcript_text.strip()
+
+            logger.warning(f"No transcript content found on TAL page: {url}")
+            return None
+
+        except Exception as e:
+            logger.error(f"TAL extraction failed: {e}")
+            return None
+
+    def _extract_from_99pi(self, url: str) -> Optional[str]:
+        """Extract transcript from 99% Invisible website"""
+
+        try:
+            import requests
+            from bs4 import BeautifulSoup
+
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            # 99PI transcript patterns
+            transcript_selectors = [
+                '.transcript',
+                '.episode-transcript',
+                '[id*="transcript"]',
+                '.post-content',
+                '.entry-content'
+            ]
+
+            for selector in transcript_selectors:
+                elements = soup.select(selector)
+                if elements:
+                    transcript_text = ' '.join([elem.get_text() for elem in elements])
+                    if len(transcript_text) > 500:
+                        logger.info(f"Successfully extracted 99PI transcript from: {url}")
+                        return transcript_text.strip()
+
+            logger.warning(f"No transcript content found on 99PI page: {url}")
+            return None
+
+        except Exception as e:
+            logger.error(f"99PI extraction failed: {e}")
+            return None
+
+    def _extract_from_pdf(self, url: str) -> Optional[str]:
+        """Extract transcript from PDF file"""
+
+        try:
+            import requests
+            import PyPDF2
+            from io import BytesIO
+
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+
+            pdf_reader = PyPDF2.PdfReader(BytesIO(response.content))
+            transcript_text = ""
+
+            for page in pdf_reader.pages:
+                transcript_text += page.extract_text() + "\n"
+
+            if len(transcript_text.strip()) > 500:
+                logger.info(f"Successfully extracted PDF transcript from: {url}")
+                return transcript_text.strip()
+            else:
+                logger.warning(f"PDF appears to be empty or too short: {url}")
+                return None
+
+        except Exception as e:
+            logger.error(f"PDF extraction failed: {e}")
+            return None
+
+    def _extract_from_generic_webpage(self, url: str) -> Optional[str]:
+        """Extract transcript from generic webpage using common patterns"""
+
+        try:
+            import requests
+            from bs4 import BeautifulSoup
+
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            # Common transcript selectors in order of specificity
+            transcript_selectors = [
+                '.transcript',
+                '#transcript',
+                '[class*="transcript"]',
+                '[id*="transcript"]',
+                '.episode-transcript',
+                '.post-transcript',
+                '.content-transcript',
+                'article',
+                '.post-content',
+                '.entry-content',
+                '.content',
+                'main'
+            ]
+
+            for selector in transcript_selectors:
+                elements = soup.select(selector)
+                if elements:
+                    # Get text content, filtering out navigation and ads
+                    transcript_text = ""
+                    for elem in elements:
+                        # Skip elements that are likely navigation or ads
+                        if elem.name in ['nav', 'header', 'footer', 'aside']:
+                            continue
+                        if any(cls in (elem.get('class') or []) for cls in ['nav', 'menu', 'sidebar', 'advertisement', 'ad']):
+                            continue
+
+                        text = elem.get_text()
+                        if len(text) > 100:  # Only include substantial text blocks
+                            transcript_text += text + "\n"
+
+                    if len(transcript_text.strip()) > 500:  # Reasonable transcript length
+                        logger.info(f"Successfully extracted generic transcript from: {url}")
+                        return transcript_text.strip()
+
+            logger.warning(f"No substantial transcript content found on page: {url}")
+            return None
+
+        except Exception as e:
+            logger.error(f"Generic extraction failed: {e}")
+            return None
 
     def _store_transcript(self, podcast_name: str, episode_title: str, transcript: str,
                           source: str, source_url: str = None):

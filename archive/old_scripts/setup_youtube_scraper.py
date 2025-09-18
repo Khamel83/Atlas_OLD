@@ -170,8 +170,11 @@ def run_youtube_collection(max_videos: int = 500, days_back: int = 30):
 
             print(f"📁 Saved to: {output_file}")
 
-            # TODO: Integrate with Atlas workflow system
-            # This will feed videos into the numeric stage system
+            # NOTE: Atlas workflow integration not implemented due to YouTube limitations
+            # - Requires browser authentication (doesn't work in headless environment)
+            # - Chrome driver issues in server environment
+            # - Cannot access user's actual watch history without GUI
+            # This file has been archived - see CLAUDE.md for YouTube integration status
 
             return True
         else:
