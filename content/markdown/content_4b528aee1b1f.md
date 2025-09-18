@@ -1,0 +1,199 @@
+# Content from https://press.uchicago.edu/Misc/Chicago/805328.html
+
+*Retrieved: 2025-09-15T10:18:44.608965*
+
+---
+
+<html>
+<head>
+<title>Tocqueville, Democracy in America, On the Use That the Americans Make of Association in Civil Life</title>
+<meta name="Keywords" content="america, american, democracy, history, character, growth, politics, system, republic, philosophy">
+<meta name="Description" content="An excerpt from Democracy in America.  Also available on website: online catalogs, secure online ordering, excerpts from new  books. Sign up for email notification of new releases in your field.">
+<!-- Included content from /ucp/books/microsites/ga -->
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7684421-2']);
+  _gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End included content from /ucp/books/microsites/ga -->
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<!-- HEAD TABLE -->
+<table bgcolor="#FFFFFF" width="640" cellspacing="0" cellpadding="0" border="0">
+<tr><td width="160" bgcolor="#999999" valign="top">
+<p align=center><a href="/ucp/books/book/chicago/D/bo3612682.html"><img src="/Images/Chicago/0226805328.gif" border=0 width=150 height=214 align=center hspace=5 vspace=5 alt="Tocqueville, Democracy in America"></a></p></td>
+
+<td width="20"><img src="/Images/Chicago/dotclear.gif" border="0" width=20 height=1 align=bottom hspace=0 vspace=0 alt=""></td>
+
+<td width="100%" valign="top" bgcolor="#FFFFFF">
+<img src="/Images/Chicago/dotclear.gif" border="0" width=460 height=1 align=bottom hspace=0 vspace=5 alt=""><br>
+
+<font face="Georgia, Times New Roman, Times, serif" color="#000000" size="4">An excerpt from</font>
+<p><font face="Georgia, Times New Roman, Times, serif" color="#993300" size="+4">Democracy in America</font><br>
+<font face="Georgia, Times New Roman, Times, serif" color="#000000" size="6">Alexis de Tocqueville</font>
+</p><p><font face="Georgia, Times New Roman, Times, serif" color="#000000" size="2">Edited, translated and with an introduction<br>by Harvey C. Mansfield and Delba Winthrop</font>
+</p></td></tr></table>
+
+<!-- BODY TABLE -->
+
+<table width="640" bgcolor="#FFFFFF" cellspacing="0" cellpadding="0" border="0">
+<tr><td width="20" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=20 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="100%" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=410 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="40" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=40 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="10" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=10 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="150" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=150 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="10" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=10 height=4 align=bottom hspace=0 vspace=0 alt=""></td></tr>
+
+<tr><td width="20" bgcolor="#FFFFFF"><img src="/Images/Chicago/dotclear.gif" border="0" width=20 height=1 align=bottom hspace=0 vspace=0 alt=""></td>
+
+<td width="100%" valign="top">
+<p>&nbsp;</p>
+<p align=center><font face="Georgia, Times New Roman, Times, serif" color="#993300" size="4">On the Use That the Americans Make of<br>Association in Civil Life</font></p>
+
+<p>I do not wish to speak of those political associations with the aid of which men seek to defend themselves against the despotic action of a majority or against the encroachments of royal power. I have already treated this subject elsewhere.  It is clear that if each citizen, as he becomes individually weaker and consequently more incapable in isolation of preserving his freedom, does not learn the art of uniting with those like him to defend it, tyranny will necessarily grow with equality.</p>
+<p>Here it is a question only of the associations that are formed in civil life and which have an object that is in no way political.</p>
+<p>The political associations that exist in the United States form only a detail in the midst of the immense picture that the sum of associations presents there.</p>
+<p>Americans of all ages, all conditions, all minds constantly unite. Not only do they have commercial and industrial associations in which all take part, but they also have a thousand other kinds: religious, moral, grave, futile, very general and very particular, immense and very small; Americans use associations to give f&ecirc;tes, to found seminaries, to build inns, to raise churches, to distribute books, to send missionaries to the antipodes; in this manner they create hospitals, prisons, schools. Finally, if it is a question of bringing to light a truth or developing a sentiment with the support of a great example, they associate. Everywhere that, at the head of a new undertaking, you see the government in France and a great lord in England, count on it that you will perceive an association in the United States.</p>
+<p>In America I encountered sorts of associations of which, I confess, I had no idea, and I often admired the infinite art with which the inhabitants of the United States managed to fix a common goal to the efforts of many men and to get them to advance to it freely.</p>
+<p>I have since traveled through England, from which the Americans took some of their laws and many of their usages, and it appeared to me that there they were very far from making as constant and as skilled a use of association.</p>
+<p>It often happens that the English execute very great things in isolation, whereas there is scarcely an undertaking so small that Americans do not unite for it. It is evident that the former consider association as a powerful means of action; but the latter seem to see in it the sole means they have of acting.</p>
+<p>Thus the most democratic country on earth is found to be, above all, the one where men in our day have most perfected the art of pursuing the object of their common desires in common and have applied this new science to the most objects. Does this result from an accident or could it be that there in fact exists a necessary relation between associations and equality?</p>
+<p>Aristocratic societies always include within them, in the midst of a multitude of individuals who can do nothing by themselves, a few very powerful and very wealthy citizens; each of these can execute great undertakings by himself.</p>
+<p>In aristocratic societies men have no need to unite to act because they are kept very much together.</p>
+<p>Each wealthy and powerful citizen in them forms as it were the head of a permanent and obligatory association that is composed of all those he holds in dependence to him, whom he makes cooperate in the execution of his designs.</p>
+<p>In democratic peoples, on the contrary, all citizens are independent and weak; they can do almost nothing by themselves, and none of them can oblige those like themselves to lend them their cooperation. They therefore all fall into impotence if they do not learn to aid each other freely.</p>
+<p>If men who live in democratic countries had neither the right nor the taste to unite in political goals, their independence would run great risks, but they could preserve their wealth and their enlightenment for a long time; whereas if they did not acquire the practice of associating with each other in ordinary life, civilization itself would be in peril. A people among whom particular persons lost the power of doing great things in isolation, without acquiring the ability to produce them in common, would soon return to barbarism.</p>
+<p>Unhappily, the same social state that renders associations so necessary to democratic peoples renders them more difficult for them than for all others.</p>
+<p>When several members of an aristocracy want to associate with each other they easily succeed in doing so. As each of them brings great force to society, the number of members can be very few, and, when the members are few in number, it is very easy for them to know each other, to understand each other, and to establish fixed rules.</p>
+<p>The same facility is not found in democratic nations, where it is always necessary that those associating be very numerous in order that the association have some power.</p>
+<p>I know that there are many of my contemporaries whom this does not embarrass. They judge that as citizens become weaker and more incapable, it is necessary to render the government more skillful and more active in order that society be able to execute what individuals can no longer do. They believe they have answered everything in saying that. But I think they are mistaken.</p>
+<p>A government could take the place of some of the greatest American associations, and within the Union several particular states already have attempted it. But what political power would ever be in a state to suffice for the innumerable multitude of small undertakings that American citizens execute every day with the aid of an association?</p>
+<p>It is easy to foresee that the time is approaching when a man by himself alone will be less and less in a state to produce the things that are the most common and the most necessary to his life. The task of the social power will therefore constantly increase, and its very efforts will make it vaster each day. The more it puts itself in place of associations, the more particular persons, losing the idea of associating with each other, will need it to come to their aid: these are causes and effects that generate each other without rest. Will the public administration in the end direct all the industries for which an isolated citizen cannot suffice? and if there finally comes a moment when, as a consequence of the extreme division of landed property, the land is partitioned infinitely, so that it can no longer be cultivated except by associations of laborers, will the head of the government have to leave the helm of state to come hold the plow?</p>
+<p>The morality and intelligence of a democratic people would risk no fewer dangers than its business and its industry if the government came to take the place of associations everywhere.</p>
+<p>Sentiments and ideas renew themselves, the heart is enlarged, and the human mind is developed only by the reciprocal action of men upon one another.</p>
+<p>I have shown that this action is almost nonexistent in a democratic country. It is therefore necessary to create it artificially there. And this is what associations alone can do.</p>
+<p>When the members of an aristocracy adopt a new idea or conceive a novel sentiment, they place it in a way next to themselves on the great stage they are on, and in thus exposing it to the view of the crowd, they easily introduce it into the minds or hearts of all those who surround them.</p>
+<p>In democratic countries, only the social power is naturally in a state to act like this, but it is easy to see that its action is always insufficient and often dangerous.</p>
+<p>A government can no more suffice on its own to maintain and renew the circulation of sentiments and ideas in a great people than to conduct all its industrial undertakings. As soon as it tries to leave the political sphere to project itself on this new track, it will exercise an insupportable tyranny even without wishing to; for a government knows only how to dictate precise rules; it imposes the sentiments and the ideas that it favors, and it is always hard to distinguish its counsels from its orders.</p>
+<p>This will be still worse if it believes itself really interested in having nothing stir. It will then hold itself motionless and let itself be numbed by a voluntary somnolence.</p>
+<p>It is therefore necessary that it not act alone.</p>
+<p>In democratic peoples, associations must take the place of the powerful particular persons whom equality of conditions has made disappear.</p>
+<p>As soon as several of the inhabitants of the United States have conceived a sentiment or an idea that they want to produce in the world, they seek each other out; and when they have found each other, they unite. From then on, they are no longer isolated men, but a power one sees from afar, whose actions serve as an example; a power that speaks, and to which one listens.</p>
+<p>The first time I heard it said in the United States that a hundred thousand men publicly engaged not to make use of strong liquors, the thing appeared to me more amusing than serious, and at first I did not see well why such temperate citizens were not content to drink water within their families.</p>
+<p>In the end I understood that those hundred thousand Americans, frightened by the progress that drunkenness was making around them, wanted to provide their patronage to sobriety. They had acted precisely like a great lord who would dress himself very plainly in order to inspire the scorn of luxury in simple citizens. It is to be believed that if those hundred thousand men had lived in France, each of them would have addressed himself individually to the government, begging it to oversee the cabarets all over the realm.</p>
+<p>There is nothing, according to me, that deserves more to attract our regard than the intellectual and moral associations of America. We easily perceive the political and industrial associations of the Americans, but the others escape us; and if we discover them, we understand them badly because we have almost never seen anything analogous. One ought however to recognize that they are as necessary as the first to the American people, and perhaps more so.</p>
+<p>In democratic countries the science of association is the mother science; the progress of all the others depends on the progress of that one.</p>
+<p>Among the laws that rule human societies there is one that seems more precise and clearer than all the others. In order that men remain civilized or become so, the art of associating must be developed and perfected among them in the same ratio as equality of conditions increases.
+
+</p><p>&nbsp;</p>
+</td>
+
+<td width="40"><img src="/Images/Chicago/dotclear.gif" border="0" width=40 height=1 align=bottom hspace=0 vspace=0 alt=""></td>
+
+<td width="10" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=10 height=1 align=bottom hspace=0 vspace=0 alt=""></td>
+
+<td width="150" bgcolor="#999999" valign="top">
+<p><font face="Verdana, Helvetica, Arial, sans-serif" size=2 color="#993300">
+
+</p><p>One of the best written and most influential books about the United States, Tocqueville's <i>Democracy in America</i> has been translated only twice previously in 160 years. Neither of the earlier translations has the fluidity, accuracy, and elegance of this completely new translation, based on the recent critical French editions of the text.</p>
+
+<p>Here online is a small sample of what we believe will be the definitive translation of this classic book on America and the American political system.</p>
+
+<p>To the left is the chapter "On the Use That the Americans Make of Association in Civil Life."  You may also read the chapter <a href="805328chap13.html">"Why the Americans Show Themselves So Restive in the Midst of Their Well-Being"</a> and the translators' <a href="805328note.html">"Note on the Translation."</a></font></p>
+
+<p align=center><font face="Verdana, Helvetica, Arial, sans-serif" size=3 color="#993300"><b>And more from<br>Tocqueville:</b></font></p>
+
+<p><font face="Verdana, Helvetica, Arial, sans-serif" size=2 color="#993300"></p><p>"I lived much with the people of the United States, and I cannot say how much I admired their experience and their good sense. Do not lead an American to speak of Europe; he will ordinarily show great presumption and a rather silly pride. He will be content with those general and indefinite ideas that in all countries are of such great help to the ignorant. But ask him about his country, and you will see the cloud that envelops his intellect suddenly dissipate; his language becomes clear, clean, and precise, like his thought." (page 291)</p>
+
+<p>&nbsp;</p>
+
+<p align=center><a href="#copyright">Copyright</a></font></p>
+</td>
+
+<td width="10" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=10 height=1 align=bottom hspace=0 vspace=0 alt=""></td></tr>
+
+<tr><td width="20" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=20 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="100%" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=410 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="40" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=40 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="10" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=10 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="150" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=150 height=4 align=bottom hspace=0 vspace=0 alt=""></td>
+<td width="10" bgcolor="#999999"><img src="/Images/Chicago/dotclear.gif" border="0" width=10 height=4 align=bottom hspace=0 vspace=0 alt=""></td></tr>
+
+<tr><td colspan="6">
+<p>&nbsp;</p><p></p><blockquote><font size="-1"><a name="copyright"><b>Copyright notice:</b></a> Excerpted from pages 489-92 of <i>Democracy in America</i> by Alexis de Tocqueville, edited and translated by Harvey C. Mansfield and Delba Winthrop, published by the University of Chicago Press. &copy;2000 by the University of Chicago. All rights reserved. This text may be used and shared in accordance with the fair-use provisions of U.S. copyright law, and it may be archived and redistributed in electronic form, provided that this entire notice, including copyright information, is carried and provided that the University of Chicago Press is notified and no fee is charged for access. Archiving, redistribution, or republication of this text on other terms, in any medium, requires the consent of the University of Chicago Press.</font><br>
+
+<p></p><hr noshade>
+
+<p>Alexis de Tocqueville<br>
+<a href="/ucp/books/book/chicago/D/bo3612682.html">Democracy in America</a><br>
+Edited and translated by Harvey C. Mansfield and Delba Winthrop<br>
+and with an Introduction by Harvey C. Mansfield and Delba Winthrop<br>
+&copy;2000, 816 pages, 1 halftone<br>
+Cloth $35.00 ISBN: 978-0-226-80532-0<br>
+Paper $22.00 ISBN: 978-0-226-80536-8 
+<br clear=all>
+
+</p><p>
+For information on purchasing the book&#151;from bookstores or here online&#151;please go to the webpage for <a href="/ucp/books/book/chicago/D/bo3612682.html">Democracy in America</a>.
+
+</p><p></p><hr noshade>
+
+<p><font size=4 color="#993300">See also:</font>
+
+</p><ul>
+<li>Our catalog of <a href="/Subjects/virtual_history.html">History</a> titles</li>
+<li>Our catalog of <a href="/Subjects/virtual_politics.html">Politics and political science</a> titles</li>
+<li><a href="http://www.press.uchicago.edu/News/excerpts.html">Other excerpts and online essays</a> from University of Chicago Press titles</li>
+</ul></blockquote>
+</td></tr></table>
+<br clear=all>
+<!-- Included content from /ucp/books/microsites/footbann -->
+    <div id="site-info">
+      <div id="footer">
+        <p align="center" style="padding-left: 200px">
+          University of Chicago Press: 1427 E. 60th Street Chicago, IL 60637 USA | Voice: 773.702.7700 | Fax: 773.702.9756<br />
+          
+          <span class="none"><a href="/press/privacy.html">Privacy Policies</a></span>
+          <span class="left_bar"><a href="/press/sitemap.html">Site Map</a></span>
+          <span class="left_bar"><a href="http://www.bibliovault.org/">Bibliovault</a></span>
+
+<span class="left_bar"><a href="http://www.chicagomanualofstyle.org/">Chicago Manual of Style</a></span>
+          <span class="left_bar"><a href="http://www.turabian.org/">Turabian</a></span>
+          <span class="left_bar"><a href="https://www.uchicago.edu/">University of Chicago</a></span>
+          <!--<span class="left_bar"><a href="/books/recentawards.html">Awards</a></span>-->
+          <span class="left_bar"><a href="http://twitter.com/UChicagoPress/">Twitter</a></span>
+          <span class="left_bar"><a href="http://www.facebook.com/pages/University-of-Chicago-Press/41372711201">Facebook</a></span>
+
+<span class="left_bar"><a href="http://www.youtube.com/ucbooks">YouTube</a></span>
+        </p>
+      </div><!-- end footer -->
+    </div><!-- end site-info -->
+<!-- Included content from /ucp/books/microsites/ga -->
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7684421-2']);
+  _gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End included content from /ucp/books/microsites/ga -->
+
+<!-- End included content from /ucp/books/microsites/footbann -->
+
+</body>
+</html>

@@ -1,0 +1,1205 @@
+# Content from https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/
+
+*Retrieved: 2025-09-15T08:07:43.047698*
+
+---
+
+<!DOCTYPE html>
+<html class="no-js no-svg" lang="en-US">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-d6714aecd50e6990d34",applicationID:"1357970914"};;/*! For license information please see nr-loader-rum-1.297.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):"object"==typeof e[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},555:(e,t,r)=>{"use strict";r.d(t,{D:()=>o,f:()=>s});var n=r(384),i=r(122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const o=e=>(0,i.a)(e,a)},324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>a,xv:()=>n});const n="1.297.0",i="PROD",a="CDN"},154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>c,RI:()=>i,WN:()=>d,bv:()=>a,gm:()=>s,mw:()=>o,sb:()=>u});var n=r(863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),u=c&&"undefined"==typeof SharedWorker,d=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)())},241:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(154);const i="newrelic";function a(e={}){try{n.gm.dispatchEvent(new CustomEvent(i,{detail:e}))}catch(e){}}},687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>u,Ze:()=>f,x3:()=>d});var n=r(241),i=r(836),a=r(606),s=r(860),o=r(646);const c={};function u(e,t){const r={staged:!1,priority:s.P3[t]||0};l(e),c[e].get(t)||c[e].set(t,r)}function d(e,t){e&&c[e]&&(c[e].get(t)&&c[e].delete(t),p(e,t,!1),c[e].size&&g(e))}function l(e){if(!e)throw new Error("agentIdentifier required");c[e]||(c[e]=new Map)}function f(e="",t="feature",r=!1){if(l(e),!e||!c[e].get(t)||r)return p(e,t);c[e].get(t).staged=!0,g(e)}function g(e){const t=Array.from(c[e]);t.every((([e,t])=>t.staged))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((([t])=>{c[e].delete(t),p(e,t)})))}function p(e,t,r=!0){const s=e?i.ee.get(e):i.ee,c=a.i.handlers;if(!s.aborted&&s.backlog&&c){if((0,n.W)({agentIdentifier:e,type:"lifecycle",name:"drain",feature:t}),r){const e=s.backlog[t],r=c[t];if(r){for(let t=0;e&&t<e.length;++t)m(e[t],r);Object.entries(r).forEach((([e,t])=>{Object.values(t||{}).forEach((t=>{t[0]?.on&&t[0]?.context()instanceof o.y&&t[0].on(e,t[1])}))}))}}s.isolatedBacklog||delete c[t],s.backlog[t]=null,s.emit("drain-"+t,[])}}function m(e,t){var r=e[1];Object.values(t[r]||{}).forEach((t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}}))}},836:(e,t,r)=>{"use strict";r.d(t,{P:()=>o,ee:()=>c});var n=r(384),i=r(990),a=r(646),s=r(607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach((e=>{e.apply(o,r)}));var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((([e,n])=>{s[n]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,(()=>new a.y(o))):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c)},646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},606:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(566).bz)()},566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>o,bz:()=>s});var n=r(154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function s(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?a(t,r++).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function o(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(a(r,i++).toString(16));return s.join("")}},614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>s,H3:()=>n,g:()=>u,iL:()=>c,tS:()=>o,uh:()=>i,wk:()=>a});const n="NRBA",i="SESSION",a=144e5,s=18e5,o={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944:(e,t,r)=>{"use strict";r.d(t,{R:()=>i});var n=r(241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({agentIdentifier:null,drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},701:(e,t,r)=>{"use strict";r.d(t,{B:()=>a,t:()=>s});var n=r(241);const i=new Set,a={};function s(e,t){const r=t.agentIdentifier;a[r]??={},e&&"object"==typeof e&&(i.has(r)||(t.ee.emit("rumresp",[e]),a[r]=e,i.add(r),(0,n.W)({agentIdentifier:r,loaded:!0,drained:!0,type:"lifecycle",name:"load",feature:void 0,data:e})))}},990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout((()=>{i=clearTimeout(i)}),t)),n||(clearTimeout(i),i=setTimeout((()=>{e.apply(this,r)}),t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},910:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every((e=>{if(i.has(e))return i.get(e);const t="function"==typeof e&&e.toString().includes("[native code]");return t||(0,n.R)(64,e?.name||e?.toString()),i.set(e,t),t}))}},289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>a,Qr:()=>o,sB:()=>s});var n=r(878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.sp)("load",e,t)}function s(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}function o(e){if(i())return e();(0,n.sp)("popstate",e)}},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>s,US:()=>d,Zm:()=>o,bQ:()=>u,dV:()=>c,pV:()=>l});var n=r(154),i=r(863),a=r(910);const s={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function c(){let e=o();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,a.i)(...Object.values(e.o))),e}function u(e,t){let r=o();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function d(e,t){o()[e]=t}function l(){return function(){let e=o();const t=e.info||{};e.info={beacon:s.beacon,errorBeacon:s.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),c(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},773:(e,t,r)=>{"use strict";r.d(t,{z_:()=>a,XG:()=>o,TZ:()=>n,rs:()=>i,xV:()=>s});r(154),r(566),r(384);const n=r(860).K7.metrics,i="sm",a="cm",s="storeSupportabilityMetrics",o="storeEventMetrics"},630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},234:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(836),i=r(687);class a{constructor(e,t){this.agentIdentifier=e,this.ee=n.ee.get(e),this.featureName=t,this.blocked=!1}deregisterDrain(){(0,i.x3)(this.agentIdentifier,this.featureName)}}},741:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e){return this.#e(i.Dl,e)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e(i.$9,e,t)}start(){return this.#e(i.d3)}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(){return this.#e(i.dT)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}}},261:(e,t,r)=>{"use strict";r.d(t,{$9:()=>u,BL:()=>o,CH:()=>g,Dl:()=>_,Fw:()=>y,PA:()=>h,Pl:()=>n,Tb:()=>l,U2:()=>a,V1:()=>k,Wb:()=>x,bt:()=>b,cD:()=>v,d3:()=>w,dT:()=>c,eY:()=>p,fF:()=>f,hG:()=>i,k6:()=>s,nb:()=>m,o5:()=>d});const n="api-",i="addPageAction",a="addToTrace",s="addRelease",o="finished",c="interaction",u="log",d="noticeError",l="pauseReplay",f="recordCustomEvent",g="recordReplay",p="register",m="setApplicationVersion",h="setCurrentRouteName",v="setCustomAttribute",b="setErrorHandler",y="setPageViewName",_="setUserId",w="start",x="wrapLogger",k="measure"},163:(e,t,r)=>{"use strict";r.d(t,{j:()=>E});var n=r(384),i=r(741);var a=r(555);r(860).K7.genericEvents;const s="experimental.marks",o="experimental.measures",c="experimental.resources",u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(614),l=r(944),f=r(122);const g="[data-nr-mask]",p=e=>(0,f.a)(e,(()=>{const e={feature_flags:[],experimental:{marks:!1,measures:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0},api:{allow_registered_children:!0,duplicate_registered_data:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{get capture_marks(){return e.feature_flags.includes(s)||e.experimental.marks},set capture_marks(t){e.experimental.marks=t},get capture_measures(){return e.feature_flags.includes(o)||e.experimental.measures},set capture_measures(t){e.experimental.measures=t},capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:d.wk,inactiveMs:d.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(g):""===t||null===t?e.mask_selector=g:(0,l.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},spa:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]}}})());var m=r(154),h=r(324);let v=0;const b={buildEnv:h.F3,distMethod:h.Xs,version:h.xv,originTime:m.WN},y={appMetadata:{},customTransaction:void 0,denyList:void 0,disabled:!1,entityManager:void 0,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,jsAttributesMetadata:{bytes:0},get harvestCount(){return++v}},_=e=>{const t=(0,f.a)(e,y),r=Object.keys(b).reduce(((e,t)=>(e[t]={value:b[t],writable:!1,configurable:!0,enumerable:!0},e)),{});return Object.defineProperties(t,r)};var w=r(701);const x=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};var k=r(836),A=r(241);const S={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},T=e=>(0,f.a)(e,S),R=new Set;function E(e,t={},r,s){let{init:o,info:c,loader_config:u,runtime:d={},exposed:l=!0}=t;if(!c){const e=(0,n.pV)();o=e.init,c=e.info,u=e.loader_config}e.init=p(o||{}),e.loader_config=T(u||{}),c.jsAttributes??={},m.bv&&(c.jsAttributes.isWorker=!0),e.info=(0,a.D)(c);const f=e.init,g=[c.beacon,c.errorBeacon];R.has(e.agentIdentifier)||(f.proxy.assets&&(x(f.proxy.assets),g.push(f.proxy.assets)),f.proxy.beacon&&g.push(f.proxy.beacon),function(e){const t=(0,n.pV)();Object.getOwnPropertyNames(i.W.prototype).forEach((r=>{const n=i.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let a=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return a?a(...t):n})}))}(e),(0,n.US)("activatedFeatures",w.B),e.runSoftNavOverSpa&&=!0===f.soft_navigations.enabled&&f.feature_flags.includes("soft_nav")),d.denyList=[...f.ajax.deny_list||[],...f.ajax.block_internal?g:[]],d.ptid=e.agentIdentifier,d.loaderType=r,e.runtime=_(d),R.has(e.agentIdentifier)||(e.ee=k.ee.get(e.agentIdentifier),e.exposed=l,(0,A.W)({agentIdentifier:e.agentIdentifier,drained:!!w.B?.[e.agentIdentifier],type:"lifecycle",name:"initialize",feature:void 0,data:e.config})),R.add(e.agentIdentifier)}},374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>d,K7:()=>c,P3:()=>u,XX:()=>i,Yy:()=>o,df:()=>a,qY:()=>n,v4:()=>s});const n="events",i="jserrors",a="browser/blobs",s="rum",o="browser/logs",c={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},u={[c.pageViewEvent]:1,[c.pageViewTiming]:2,[c.metrics]:3,[c.jserrors]:4,[c.spa]:5,[c.ajax]:6,[c.sessionTrace]:7,[c.softNav]:8,[c.sessionReplay]:9,[c.logging]:10,[c.genericEvents]:11},d={[c.pageViewEvent]:s,[c.pageViewTiming]:n,[c.ajax]:n,[c.spa]:n,[c.softNav]:n,[c.metrics]:i,[c.jserrors]:i,[c.sessionTrace]:a,[c.sessionReplay]:a,[c.logging]:o,[c.genericEvents]:"ins"}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.297.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.297.0.PROD:",i.l=(r,n,a,s)=>{if(e[r])e[r].push(n);else{var o,c;if(void 0!==a)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){o=l;break}}if(!o){c=!0;var f={296:"sha512-n/1z7EiYHaupoJ3s8MajMxY/CH6se33KTGkEkqAgtuatNOjpM3V8Fm2j4AZJGysIchvpcxiQG5GRqMG0rnAWqQ=="};(o=document.createElement("script")).charset="utf-8",o.timeout=120,i.nc&&o.setAttribute("nonce",i.nc),o.setAttribute("data-webpack",t+a),o.src=r,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),f[s]&&(o.integrity=f[s])}e[r]=[n];var g=(t,n)=>{o.onerror=o.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],o.parentNode&&o.parentNode.removeChild(o),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=g.bind(null,o.onerror),o.onload=g.bind(null,o.onload),c&&document.head.appendChild(o)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={374:0,840:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=a);var s=i.p+i.u(t),o=new Error;i.l(s,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),s=r&&r.target&&r.target.src;o.message="Loading chunk "+t+" failed.\n("+a+": "+s+")",o.name="ChunkLoadError",o.type=a,o.request=s,n[1](o)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[s,o,c]=r,u=0;if(s.some((t=>0!==e[t]))){for(n in o)i.o(o,n)&&(i.m[n]=o[n]);if(c)c(i)}for(t&&t(r);u<s.length;u++)a=s[u],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=self["webpackChunk:NRBA-1.297.0.PROD"]=self["webpackChunk:NRBA-1.297.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(374);var e=i(566),t=i(741);class r extends t.W{agentIdentifier=(0,e.LA)(16)}var n=i(860);const a=Object.values(n.K7);var s=i(163);var o=i(908),c=i(863),u=i(261),d=i(241),l=i(944),f=i(701),g=i(773);function p(e,t,i,a){const s=a||i;!s||s[e]&&s[e]!==r.prototype[e]||(s[e]=function(){(0,o.p)(g.xV,["API/"+e+"/called"],void 0,n.K7.metrics,i.ee),(0,d.W)({agentIdentifier:i.agentIdentifier,drained:!!f.B?.[i.agentIdentifier],type:"data",name:"api",feature:u.Pl+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,l.R)(23,e)}})}function m(e,t,r,n,i){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(i||null===r)&&(0,o.p)(u.Pl+n,[(0,c.t)(),t,r],void 0,"session",e.ee)}var h=i(687),v=i(234),b=i(289),y=i(154),_=i(384);const w=e=>y.RI&&!0===e?.privacy.cookies_enabled;function x(e){return!!(0,_.dV)().o.MO&&w(e)&&!0===e?.session_trace.enabled}var k=i(389);class A extends v.W{constructor(e,t){super(e.agentIdentifier,t),this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise(((t,r)=>{this.ee.on("manual-start-all",(0,k.J)((()=>{(0,h.Ak)(e.agentIdentifier,this.featureName),t()})))})):(0,h.Ak)(e.agentIdentifier,t)}importAggregator(e,t,r={}){if(this.featAggregate)return;let a;this.onAggregateImported=new Promise((e=>{a=e}));const s=async()=>{let s;await this.deferred;try{if(w(e.init)){const{setupAgentSession:t}=await i.e(296).then(i.bind(i,305));s=t(e)}}catch(e){(0,l.R)(20,e),this.ee.emit("internal-error",[e]),this.featureName===n.K7.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,s,e.init))return(0,h.Ze)(this.agentIdentifier,this.featureName),void a(!1);const{Aggregate:n}=await t();this.featAggregate=new n(e,r),e.runtime.harvester.initializedAggregates.push(this.featAggregate),a(!0)}catch(e){(0,l.R)(34,e),this.abortHandler?.(),(0,h.Ze)(this.agentIdentifier,this.featureName,!0),a(!1),this.ee&&this.ee.abort()}};y.RI?(0,b.GG)((()=>s()),!0):s()}#t(e,t,r){switch(e){case n.K7.sessionReplay:return x(r)&&!!t;case n.K7.sessionTrace:return!!t;default:return!0}}}var S=i(630),T=i(614);class R extends A{static featureName=S.T;constructor(e){var t;super(e,S.T),this.setupInspectionEvents(e.agentIdentifier),t=e,p(u.Fw,(function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,o.p)(u.Pl+u.Fw,[(0,c.t)()],void 0,void 0,t.ee))}),t),this.ee.on("api-send-rum",((e,t)=>(0,o.p)("send-rum",[e,t],void 0,this.featureName,this.ee))),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,108))))}setupInspectionEvents(e){const t=(t,r)=>{t&&(0,d.W)({agentIdentifier:e,timeStamp:t.timeStamp,loaded:"complete"===t.target.readyState,type:"window",name:r,data:t.target.location+""})};(0,b.sB)((e=>{t(e,"DOMContentLoaded")})),(0,b.GG)((e=>{t(e,"load")})),(0,b.Qr)((e=>{t(e,"navigate")})),this.ee.on(T.tS.UPDATE,((t,r)=>{(0,d.W)({agentIdentifier:e,type:"lifecycle",name:"session",data:r})}))}}var E=i(843),N=i(878),j=i(782);class I extends A{static featureName=j.T;constructor(e){super(e,j.T),y.RI&&((0,E.u)((()=>(0,o.p)("docHidden",[(0,c.t)()],void 0,j.T,this.ee)),!0),(0,N.sp)("pagehide",(()=>(0,o.p)("winPagehide",[(0,c.t)()],void 0,j.T,this.ee))),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,350)))))}}class O extends A{static featureName=g.TZ;constructor(e){super(e,g.TZ),y.RI&&document.addEventListener("securitypolicyviolation",(e=>{(0,o.p)(g.xV,["Generic/CSPViolation/Detected"],void 0,this.featureName,this.ee)})),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,373))))}}new class extends r{constructor(e){var t;(super(),y.gm)?(this.features={},(0,_.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(R),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===n.K7.softNav)),(0,s.j)(this,e,e.loaderType||"agent"),t=this,p(u.cD,(function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return m(t,e,r,u.cD,n);(0,l.R)(40,typeof r)}else(0,l.R)(39,typeof e)}),t),function(e){p(u.Dl,(function(t){if("string"==typeof t||null===t)return m(e,"enduser.id",t,u.Dl,!0);(0,l.R)(41,typeof t)}),e)}(this),function(e){p(u.nb,(function(t){if("string"==typeof t||null===t)return m(e,"application.version",t,u.nb,!1);(0,l.R)(42,typeof t)}),e)}(this),function(e){p(u.d3,(function(){e.ee.emit("manual-start-all")}),e)}(this),this.run()):(0,l.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return a.forEach((r=>{t[r]=!!e[r]?.enabled})),t}(this.init),t=[...this.desiredFeatures];t.sort(((e,t)=>n.P3[e.featureName]-n.P3[t.featureName])),t.forEach((t=>{if(!e[t.featureName]&&t.featureName!==n.K7.pageViewEvent)return;if(this.runSoftNavOverSpa&&t.featureName===n.K7.spa)return;if(!this.runSoftNavOverSpa&&t.featureName===n.K7.softNav)return;const r=function(e){switch(e){case n.K7.ajax:return[n.K7.jserrors];case n.K7.sessionTrace:return[n.K7.ajax,n.K7.pageViewEvent];case n.K7.sessionReplay:return[n.K7.sessionTrace];case n.K7.pageViewTiming:return[n.K7.pageViewEvent];default:return[]}}(t.featureName).filter((e=>!(e in this.features)));r.length>0&&(0,l.R)(36,{targetFeature:t.featureName,missingDependencies:r}),this.features[t.featureName]=new t(this)}))}catch(e){(0,l.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,_.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}({features:[R,I,O],loaderType:"lite"})})()})();</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="pingback" href="https://www.outsideonline.com/xmlrpc.php" />
+  <meta name="google-site-verification" content="AltUrEwPn1GcXYUaHGnHR9aaM3zNhF2jC6mjfFKtvSs" />
+
+<script async src="data:text/javascript,%20%20var%20style%20%3D%20document.createElement%28%27style%27%29%3B%20%20if%20%28document.cookie.indexOf%28%27_rm%3Dtrue%27%29%20%3D%3D%3D%20-1%29%20%7B%20%20%20%20%20%20%20%20style.innerText%20%2B%3D%20%27.c-thinbanner.c-thinbanner--standard%20%7Bdisplay%3A%20block%7D%27%3B%20%20%20%20if%20%28style.innerText%29%20document.head.appendChild%28style%29%3B%20%20%7D%20else%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20styleMember%20%3D%20document.createElement%28%27style%27%29%3B%20%20%20%20%20%20%20%20%20%20%20%20%20%20styleMember.innerText%20%2B%3D%20%27.c-thinbanner.c-thinbanner--member%20%7Bdisplay%3A%20block%7D%27%3B%20%20%20%20%20%20%20%20if%20%28styleMember.innerText%29%20document.head.appendChild%28styleMember%29%3B%20%20%20%20%20%20%20%20%20%20%20%20%7D"></script>
+
+<script type="text/javascript">
+        if (sessionStorage.getItem('POM_AD_PRESTITIAL')) {
+      let styleTag = document.createElement('style');
+      styleTag.innerText += '.o-ad--prestitial__new {display: none !important}';
+      document.head.appendChild(styleTag);
+    } else if (sessionStorage.getItem('POM_AD_PAGEVIEWS')) {
+      let pageViews = parseInt(sessionStorage.getItem('POM_AD_PAGEVIEWS'));
+      if (pageViews === 4) {
+        sessionStorage.setItem('POM_AD_PRESTITIAL', 'shown');
+        pageViews++;
+        sessionStorage.setItem('POM_AD_PAGEVIEWS', pageViews);
+      } else {
+        pageViews++;
+        sessionStorage.setItem('POM_AD_PAGEVIEWS', pageViews);
+      }
+    } else {
+      sessionStorage.setItem('POM_AD_PAGEVIEWS', 1);
+    }
+  </script>
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO Premium plugin v18.9 (Yoast SEO v21.5) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>The Dedicated Support Crews Behind the Brutal Badwater 135</title>
+	<meta name="description" content="Because of its harsh conditions, the Badwater 135 is perhaps the most intensely crewed ultra in the world, and without these dedicated support teams, for most, the race would be impossible." />
+	<link rel="canonical" href="https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="32 Hours, 135 Miles, and 118 Degrees: What It Takes to Crew the Hardest Race on Earth" />
+	<meta property="og:description" content="Every year, ultrarunners sign up to compete in a brutal race that stretches 135 miles across Death Valley in the high heat of summer. Because of its harsh conditions, the Badwater 135 is perhaps the most intensely crewed ultra in the world, and without these dedicated support teams, for most, the race would be impossible." />
+	<meta property="og:url" content="https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/" />
+	<meta property="og:site_name" content="Outside Online" />
+	<meta property="article:publisher" content="https://www.facebook.com/outsidemagazine" />
+	<meta property="article:published_time" content="2025-07-29T09:06:19+00:00" />
+	<meta property="article:modified_time" content="2025-07-29T10:21:48+00:00" />
+	<meta property="og:image" content="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero-1024x576.jpg?width=1200" />
+	<meta property="og:image:width" content="1024" />
+	<meta property="og:image:height" content="576" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Devin Kelly" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@outsidemagazine" />
+	<meta name="twitter:site" content="@outsidemagazine" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/#article","isPartOf":{"@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/"},"author":{"name":"Devin Kelly","@id":"https://www.outsideonline.com/#/schema/person/7903","@type":"Person","url":"https://www.outsideonline.com/byline/devin-kelly/"},"headline":"What It Takes to Crew the Hardest Race on Earth","datePublished":"2025-07-29T09:06:19+00:00","dateModified":"2025-07-29T10:21:48+00:00","mainEntityOfPage":{"@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/"},"wordCount":359,"publisher":{"@id":"https://www.outsideonline.com/#organization"},"image":{"@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/#primaryimage"},"thumbnailUrl":"https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg","keywords":["evergreen","Long Reads","Ultrarunning"],"articleSection":["Exploration &amp; Survival"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/","url":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/","name":"The Dedicated Support Crews Behind the Brutal Badwater 135","isPartOf":{"@id":"https://www.outsideonline.com/#website"},"primaryImageOfPage":{"@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/#primaryimage"},"image":{"@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/#primaryimage"},"thumbnailUrl":"https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg","datePublished":"2025-07-29T09:06:19+00:00","dateModified":"2025-07-29T10:21:48+00:00","description":"Because of its harsh conditions, the Badwater 135 is perhaps the most intensely crewed ultra in the world, and without these dedicated support teams, for most, the race would be impossible.","breadcrumb":{"@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/#primaryimage","url":"https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg","contentUrl":"https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg","width":2400,"height":1350,"caption":"Runners at the start of the Badwater 135 as the sun sets and the race begins"},{"@type":"BreadcrumbList","@id":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.outsideonline.com/"},{"@type":"ListItem","position":2,"name":"Adventure","item":"https://www.outsideonline.com/outdoor-adventure/"},{"@type":"ListItem","position":3,"name":"Exploration &amp; Survival","item":"https://www.outsideonline.com/outdoor-adventure/exploration-survival/"},{"@type":"ListItem","position":4,"name":"What It Takes to Crew the Hardest Race on Earth"}]},{"@type":"WebSite","@id":"https://www.outsideonline.com/#website","url":"https://www.outsideonline.com/","name":"Outside Online","description":"Live Bravely","publisher":{"@id":"https://www.outsideonline.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.outsideonline.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.outsideonline.com/#organization","name":"Outside","alternateName":"Outside Online","url":"https://www.outsideonline.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.outsideonline.com/#/schema/logo/image/","url":"https://cdn.outsideonline.com/wp-content/uploads/2021/07/logo-outside.png","contentUrl":"https://cdn.outsideonline.com/wp-content/uploads/2021/07/logo-outside.png","width":1024,"height":261,"caption":"Outside"},"image":{"@id":"https://www.outsideonline.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/outsidemagazine","https://twitter.com/outsidemagazine","https://en.wikipedia.org/wiki/Outside_(magazine)","https://www.youtube.com/user/OutsideOnline","https://www.instagram.com/outsidemagazine/"]},{"@type":"Person","@id":"https://www.outsideonline.com/#/schema/person/7903","name":"Devin Kelly","url":"https://www.outsideonline.com/byline/devin-kelly/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='preconnect' href='https://www.outsideonline.com' />
+<link rel='preconnect' href='https://cdn.parsely.com' />
+<style id='wp-parsely-recommendations-style-inline-css' type='text/css'>
+.parsely-recommendations-list-title{font-size:1.2em}.parsely-recommendations-list{list-style:none;padding:unset}.parsely-recommendations-cardbody{overflow:hidden;padding:.8em;text-overflow:ellipsis;white-space:nowrap}.parsely-recommendations-cardmedia{padding:.8em .8em 0}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left: auto !important;margin-right: auto !important;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='sage/ool-styles.css-css' href='https://cdn.outsideonline.com/wp-content/themes/outside-child/dist/styles/ool-styles.css?ver=1757912102' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://www.outsideonline.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.outsideonline.com/wp-json/wp/v2/posts/2711756" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.outsideonline.com/xmlrpc.php?rsd" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.outsideonline.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fexploration-survival%2Fcrew-badwater-135%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.outsideonline.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fexploration-survival%2Fcrew-badwater-135%2F&#038;format=xml" />
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsArticle","headline":"What It Takes to Crew the Hardest Race on Earth","url":"https:\/\/www.outsideonline.com\/outdoor-adventure\/exploration-survival\/crew-badwater-135\/","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.outsideonline.com\/outdoor-adventure\/exploration-survival\/crew-badwater-135\/"},"thumbnailUrl":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/07\/badwater-hero.jpg","image":{"@type":"ImageObject","url":"https:\/\/cdn.outsideonline.com\/wp-content\/uploads\/2025\/07\/badwater-hero.jpg"},"articleSection":" - Adventure - Exploration &amp; Survival","author":[{"@type":"Person","name":"Devin Kelly"}],"publisher":{"@type":"Organization","name":"Outside Online","logo":"https:\/\/www.outsideonline.com\/wp-content\/uploads\/2021\/07\/favicon-194x194-1.png"},"keywords":["editor: awise","parent_category: ","tag: evergreen","tag: Long Reads","tag: Ultrarunning","type: Flexible Layout"],"dateCreated":"2025-07-29T09:06:19Z","datePublished":"2025-07-29T09:06:19Z","dateModified":"2025-07-29T10:21:48Z"}</script><link rel="preconnect" href="//fonts.googleapis.com"><link rel="preconnect" href="//use.typekit.com">  <style>
+    @media only screen and (max-width: 768px) {
+      table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        width: 100%;
+      }
+    }
+  </style>
+  <meta name="twitter:title" content="What It Takes to Crew the Hardest Race on Earth" />
+<meta name="twitter:description" content="Despite the focus in our culture on the limitless potential of individual athletes, the truth is that a race like Badwater shows the deep limitations that each human has if they are not supported by other humans." />
+<meta name="twitter:image" content="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero-1024x576.jpg" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://cdn.outsideonline.com/wp-content/uploads/2021/07/favicon-194x194-1.png" sizes="32x32" />
+<link rel="icon" href="https://cdn.outsideonline.com/wp-content/uploads/2021/07/favicon-194x194-1.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://cdn.outsideonline.com/wp-content/uploads/2021/07/favicon-194x194-1.png" />
+<meta name="msapplication-TileImage" content="https://cdn.outsideonline.com/wp-content/uploads/2021/07/favicon-194x194-1.png" />
+		<style type="text/css" id="wp-custom-css">
+			a.o-logo__link {
+	background-position: center;
+}
+
+.c-sub-header__heading {
+	text-transform: capitalize;
+}
+
+.post-type-archive-video .c-page-header-center,
+.tag-outside-features .c-sub-header__heading,
+.page-id-2658473 .c-main-header--fixed,
+.c-article-share.no-print{
+	display: none;
+}
+
+main .o-heading {
+	letter-spacing: 0;
+}
+
+.c-main-header__utility--nav a small {
+	font-size: 9px;
+}
+
+body.search-is-active .c-search-modal {
+	z-index: 999999;
+}
+
+.c-content-single-flexible-layout__header .o-heading,
+.c-content-single-longform .o-heading,
+.c-content-single-gallery .o-heading {
+	text-transform: none;
+	margin-bottom: 20px;
+}
+
+@media (min-width: 961px) {
+	.c-content-single__body aside {
+		max-width: 300px;
+	}
+	aside .tm-c-recirc-spotlight__articles {
+		display: flex;
+		grid-gap: 25px;
+		flex-direction: column;
+	}
+}
+
+.postid-2683939 .c-hero-collection__content {
+	padding-top: 100px;
+}
+
+@media (max-width: 961px) {
+	.postid-2683939 .c-hero-collection__content {
+	  padding-top: 220px;
+  }
+}		</style>
+		
+    <!-- global js vars -->
+<script id="js_gpt_ad_vars">
+    var gpt_ad_vars = {"id":"21732621108","property":"outside_online","wordcount":"300","uam":"","abv":"ool","disableAds":false,"disableInArticleJwPlayer":true,"targets":{"env":"production","ID":"2711756","Type":"post-flexible-layout","Title":"What It Takes to Crew the Hardest Race on Earth","Category":"outdoor-adventure","Subcategory":"exploration-survival","Tag":"evergreen,outside-features,ultrarunning","ad_cat":""}};
+  </script><script id="js_analytics_vars">
+    var analytics_vars = {"domain":"outside-online","metarouterID":"outsideonline_prod","metarouterURL":"cdn.metarouter.io\/outside\/v2\/outsideonline_prod.js.gz","rudderstackKey":"2wY6kGLwkFEl2O0k9bsssJNSYiZ","rudderstackDataPlaneURL":"https:\/\/a.outsideonline.com","ldClient":"60b9f8e2a0f1250f8b3ef93b","status":"publish","page_type":"post-flexible-layout"};
+  </script><script id="js_gtm_id">
+    var gtm_id = "GTM-K4NWW8";
+  </script><script id="js_jw_id">
+    var jw_id = "fyTDUKlw";
+  </script><script id="js_opt_id">
+    var opt_id = "";
+  </script><script id="js_pom_dd">
+    var pom_dd = {"env":"production","applicationId":"e5a429c9-6926-42bc-ac54-c8c79f3e1e2c","clientToken":"pub6c00d3924c75205b15bcd9922d69d379"};
+    var pom_dd_service = "outside-online";
+    var pom_dd_env = "production";
+    var app_css = "https://cdn.outsideonline.com/wp-content/themes/outside-child/dist/styles/app.css";
+  </script><script id="js_pom_piano_article_prep">
+    var pianoVars = {
+      "tags": ["evergreen","outside-features","ultrarunning"],
+      "adCats": [],
+      "isSponsored": 0,
+      "pageType": "page-type-single-post",
+      "postType": "post-type-post"
+    };
+  </script><script id="js_pom_piano">
+    var pom_tp = {"aid":"gL0Np9Mqpu","initialize_str":"https:\/\/experience.tinypass.com\/xbuilder\/experience\/load?aid=gL0Np9Mqpu"};
+  </script><script id="js_pom_piano_custom">
+    tp = window["tp"] || [];
+    tp.push(['setCustomVariable', 'analytics_domain', 'outside-online']);
+  </script><script id="js_pom_rivt">
+    var rivt_api = {"url":"https:\/\/prod-api.rivt.com","key":"Nc8Y8wIc.pNo20zKirnFbJMyZX2QF4JMN0sRDkFsX"};
+  </script><script id="js_securiti_id">
+    var securiti_id = "7fbeee6a-a9f6-4077-9f1b-6a8fc109641f";
+  </script><script id="js_thinair ">
+    var thinair_sites = {'sites' : ["oxy","ool","vn","ski","clm","bp","yj","ct","tr","tri","vt","wr","ce","velo-v2","mcp","msmp","mup","mop","yp","gc","yo","npt","run"], 'current':  "ool" };
+  </script><script id="site_api_key ">
+    var site_api_key = "Nc8Y8wIc.pNo20zKirnFbJMyZX2QF4JMN0sRDkFsX";
+  </script><script id="in_article_jw">
+  var in_article_jw = {
+    strategy_src: "https://cdn.jwplayer.com/v2/sites/f902XiZc/placements/1XUSTctj/embed.js"
+  };
+  </script>
+<!-- Covert Code -->
+    <script async src="data:text/javascript,%20%20if%20%28location.pathname.startsWith%28%27%2Foutsideplus%27%29%20%7C%7C%20%28location.pathname%20%3D%3D%3D%20%27%2F%27%20%26%26%20location.search.includes%28%27%3F%27%29%29%29%20%7B%20%20%20%20%20%20%20%20window._conv_q%20%3D%20window._conv_q%20%7C%7C%20%5B%5D%3B%20%20%20%20window._conv_q.push%28%5B%22runExperiment%22%2C%20%2210043606-10045191%22%5D%29%3B%20%20%20%20%20%20%20%20const%20script%20%3D%20document.createElement%28%22script%22%29%3B%20%20%20%20script.type%20%3D%20%22text%2Fjavascript%22%3B%20%20%20%20script.src%20%3D%20%22%2F%2Fcdn-4.convertexperiments.com%2Fjs%2F10043606-10045191.js%22%3B%20%20%20%20%20%20%20%20script.onload%20%3D%20function%20%28%29%20%7B%20%20%20%20%20%20if%20%28%21window.convert%29%20return%20true%3B%20%20%20%20%20%20window.convert.%24%28document%29.ready%28function%20%28%29%20%7B%20%20%20%20%20%20%20%20window.convert.%24%28window%29.on%28%27hashchange%27%2C%20function%20%28%29%20%7B%20%20%20%20%20%20%20%20%20%20window._conv_q%20%3D%20window._conv_q%20%7C%7C%20%5B%5D%3B%20%20%20%20%20%20%20%20%20%20window._conv_q.push%28%5B%22run%22%2C%22true%22%5D%29%3B%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%7D%29%3B%20%20%20%20%7D%3B%20%20%20%20document.head.appendChild%28script%29%3B%20%20%7D%20%20"></script>
+
+<!-- affilimate meta tag -->
+<meta name="am-api-token" content="YYcJV4n6DEEP">
+
+<!-- Securiti Cookies Consent Notice start -->
+  <link rel='stylesheet' type='text/css' href='https://cdn-prod.securiti.ai/consent/cookie-consent.css' />
+      <script async src="data:text/javascript,%20%20%20%20%28function%20%28%29%20%7B%20%20%20%20%20%20function%20getCookie%28name%29%20%7B%20%20%20%20%20%20%20%20const%20value%20%3D%20%60%3B%20%24%7Bdocument.cookie%7D%60%3B%20%20%20%20%20%20%20%20const%20parts%20%3D%20value.split%28%60%3B%20%24%7Bname%7D%3D%60%29%3B%20%20%20%20%20%20%20%20if%20%28parts.length%20%3D%3D%3D%202%29%20return%20parts.pop%28%29.split%28%27%3B%27%29.shift%28%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20function%20trackConsentClick%28type%29%20%7B%20%20%20%20%20%20%20%20const%20eventName%20%3D%20%27Element%20Clicked%27%3B%20%20%20%20%20%20%20%20const%20payload%20%3D%20%7B%20%20%20%20%20%20%20%20%20%20name%3A%20%60cookie-consent-%24%7Btype%7D%60%2C%20%20%20%20%20%20%20%20%7D%3B%20%20%20%20%20%20%20%20const%20track%20%3D%20window%3F.analytics%3F.track%3B%20%20%20%20%20%20%20%20if%20%28track%29%20%7B%20%20%20%20%20%20%20%20%20%20track%28eventName%2C%20payload%29%3B%20%20%20%20%20%20%20%20%7D%20else%20%7B%20%20%20%20%20%20%20%20%20%20document.addEventListener%28%27analyticsReady%27%2C%20%28%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20track%28eventName%2C%20payload%29%3B%20%20%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%3B%20%20%20%20%20%20function%20registerConsentListener%28dataLayer%2C%20securitiEventName%2C%20analyticsEventName%29%20%7B%20%20%20%20%20%20%20%20dataLayer.push%28%5B%20%20%20%20%20%20%20%20%20%20securitiEventName%2C%20%20%20%20%20%20%20%20%20%20%28sdk%2C%20consent%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20trackConsentClick%28analyticsEventName%29%3B%20%20%20%20%20%20%20%20%20%20%7D%2C%20%20%20%20%20%20%20%20%5D%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20%20%20function%20parseJwt%28token%29%20%7B%20%20%20%20%20%20%20%20const%20base64Url%20%3D%20token.split%28%27.%27%29%5B1%5D%3B%20%20%20%20%20%20%20%20const%20base64%20%3D%20base64Url.replace%28%2F-%2Fg%2C%20%27%2B%27%29.replace%28%2F_%2Fg%2C%20%27%2F%27%29%3B%20%20%20%20%20%20%20%20const%20jsonPayload%20%3D%20decodeURIComponent%28atob%28base64%29.split%28%27%27%29.map%28function%28c%29%20%7B%20%20%20%20%20%20%20%20%20%20return%20%27%25%27%20%2B%20%28%2700%27%20%2B%20c.charCodeAt%280%29.toString%2816%29%29.slice%28-2%29%3B%20%20%20%20%20%20%20%20%7D%29.join%28%27%27%29%29%3B%20%20%20%20%20%20%20%20return%20JSON.parse%28jsonPayload%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20%20%20window.s__c%20%3D%20true%3B%20%20%20%20%20%20window.addEventListener%28%27message%27%2C%20function%28ev%29%20%7B%20%20%20%20%20%20%20%20if%20%28ev.data.message%20%3D%3D%3D%20%27consent_given%27%29%20%7B%20%20%20%20%20%20%20%20%20%20if%20%28%21window.s__c_i_g%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20setTimeout%28%28%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20window.s__c_i_g%20%3D%20true%3B%20%20%20%20%20%20%20%20%20%20%20%20%7D%2C%201%29%3B%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20window.s__c_g%20%3D%20ev.data.consentStatuses%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20var%20s%20%3D%20document.createElement%28%27script%27%29%3B%20%20%20%20%20%20s.src%20%3D%20%27https%3A%2F%2Fcdn-prod.securiti.ai%2Fconsent%2Fcookie-consent-sdk-loader.js%27%3B%20%20%20%20%20%20s.setAttribute%28%27data-tenant-uuid%27%2C%20%27b9175515-2a76-4948-b708-5ea88d27483c%27%29%3B%20%20%20%20%20%20s.setAttribute%28%27data-domain-uuid%27%2C%20window.securiti_id%29%3B%20%20%20%20%20%20s.setAttribute%28%27data-backend-url%27%2C%20%27https%3A%2F%2Fapp.securiti.ai%27%29%3B%20%20%20%20%20%20s.setAttribute%28%27data-skip-css%27%2C%20%27false%27%29%3B%20%20%20%20%20%20s.defer%20%3D%20true%3B%20%20%20%20%20%20var%20parent_node%20%3D%20document.head%20%7C%7C%20document.body%3B%20%20%20%20%20%20parent_node.appendChild%28s%29%3B%20%20%20%20%20%20s.addEventListener%28%27load%27%2C%20function%28%29%20%7B%20%20%20%20%20%20%20%20window.initCmp%28%29%3B%20%20%20%20%20%20%20%20window.SecuritiDataLayer%20%3D%20window.SecuritiDataLayer%20%7C%7C%20%5B%5D%3B%20%20%20%20%20%20%20%20registerConsentListener%28SecuritiDataLayer%2C%20%27onClickAccept%27%2C%20%27accepted%27%29%3B%20%20%20%20%20%20%20%20registerConsentListener%28SecuritiDataLayer%2C%20%27onClickDismiss%27%2C%20%27declined%27%29%3B%20%20%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%20%20%20const%20pidCookie%20%3D%20getCookie%28%27_pid%27%29%3B%20%20%20%20%20%20%20%20%20%20if%20%28pidCookie%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20const%20pidPayload%20%3D%20parseJwt%28pidCookie%29%3B%20%20%20%20%20%20%20%20%20%20%20%20window.setConsentBannerParams%28%7Buuid%3A%20pidPayload.uuid%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20console.log%28%27Consent%20banner%20params%20set%20with%27%2C%20pidPayload.uuid%29%3B%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%7D%20catch%20%28error%29%20%7B%20%20%20%20%20%20%20%20%20%20console.log%28%27Error%20setting%20consent%20banner%20params%27%2C%20error%29%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%29%3B%20%20%20%20%7D%29%28%29%20%20"></script>
+  <!-- Securiti Cookies Consent Notice end  -->
+      
+  
+    
+<script>
+  (function(h,o,u,n,d) {
+    h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+    d=o.createElement(u);d.async=1;d.src=n
+    n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+  })(window,document,'script','https://www.datadoghq-browser-agent.com/us1/v5/datadog-rum.js','DD_RUM')
+  window.DD_RUM.onReady(function() {
+    window.DD_RUM.init({
+      clientToken: 'puba126950bff8cba202b332ac09cbc9e81',
+      applicationId: '170fd35e-0edd-4705-b0b7-093f355d52e3',
+      site: 'datadoghq.com',
+      service: 'outside-online',
+      env: 'production',
+      sessionSampleRate: 5,
+      sessionReplaySampleRate: 1,
+      trackUserInteractions: true,
+      trackResources: true,
+      trackLongTasks: true,
+      defaultPrivacyLevel: 'mask-user-input',
+      allowedTracingUrls: ['prod-api.rivt.com', 'accounts.outsideonline.com']
+    });
+  })
+</script>  
+<!-- Permutive Script -->
+<script async src="data:text/javascript,%28function%20%28%29%20%7B%20%20%20%20const%20WORKSPACE_ID%20%3D%20%27d3b6ec43-5d85-4287-91f8-ae369ee909d3%27%3B%20%20%20%20const%20WORKSPACE_API_KEY%20%3D%20%27e288066f-1695-4790-bb1b-104f4845302f%27%3B%20%20%20%20const%20ORGANIZATION_ID%20%3D%20%27d3b6ec43-5d85-4287-91f8-ae369ee909d3%27%3B%20%20%20%20let%20hasLoadedPermutive%20%3D%20false%3B%20%20%20%20%20%20%20%20const%20analyticsData%20%3D%20%7B%22authors%22%3A%5B%22Devin%20Kelly%22%5D%2C%22categories%22%3A%5B%22outdoor-adventure%2Cexploration-survival%22%5D%2C%22tags%22%3A%5B%22evergreen%22%2C%22outside-features%22%2C%22ultrarunning%22%5D%2C%22domain%22%3A%22%3C%3Canalytics_vars.domain%3E%3E%22%2C%22post_uuid%22%3A%223a0f29719b11c9cd6219e3fbe7ad49a6%22%2C%22publish_date%22%3A%22July%2029%2C%202025%22%2C%22title%22%3A%22What%20It%20Takes%20to%20Crew%20the%20Hardest%20Race%20on%20Earth%22%7D%3B%20%20%20%20const%20categoriesArray%20%3D%20analyticsData%3F.categories%3F.%5B0%5D%3F.split%28%27%2C%27%29%20%7C%7C%20%5B%5D%3B%20%20%20%20const%20membershipRawData%20%3D%20localStorage.getItem%28%27pom_user_props%27%29%3B%20%20%20%20const%20membershipData%20%3D%20membershipRawData%20%3F%20JSON.parse%28membershipRawData%29%20%3A%20%7B%7D%3B%20%20%20%20const%20data%20%3D%20%7B%20%20%20%20%20%20%22Authors%22%3A%20analyticsData%3F.authors%20%7C%7C%20%5B%5D%2C%20%20%20%20%20%20%22SubCategory%22%3A%20categoriesArray.length%20%3E%200%20%3F%20%5BcategoriesArray%5BcategoriesArray.length%20-%201%5D%5D%20%3A%20%5B%5D%2C%20%20%20%20%20%20%22categories%22%3A%20categoriesArray%2C%20%20%20%20%20%20%22membership_type%22%3A%20membershipData.membership_type%20%3F%20%5BmembershipData.membership_type%5D%20%3A%20%5B%5D%2C%20%20%20%20%20%20%22page_type%22%3A%20%5Banalytics_vars.page_type%5D%2C%20%20%20%20%20%20%22signedIn%22%3A%20document.cookie.indexOf%28%22_pid%3D%22%29%20%3E%20-1%20%3F%20true%20%3A%20false%2C%20%20%20%20%20%20%22tags%22%3A%20analyticsData%3F.tags%20%7C%7C%20%5B%5D%20%20%20%20%7D%3B%20%20%20%20function%20loadPermutiveScript%28%29%20%7B%20%20%20%20%20%20%20%20if%20%28hasLoadedPermutive%20%7C%7C%20%28%21localStorage.getItem%28%27ampflags%27%29%3F.includes%28%27%22enable-permutive%22%3Atrue%27%29%20%26%26%20%21location.search.includes%28%27permutive%3Dy%27%29%29%29%20%7B%20%20%20%20%20%20%20%20%20%20%20%20return%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20hasLoadedPermutive%20%3D%20true%3B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%21function%28e%2Co%2Cn%2Ci%29%7Bif%28%21e%29%7Be%3De%7C%7C%7B%7D%2Cwindow.permutive%3De%2Ce.q%3D%5B%5D%3Bvar%20t%3Dfunction%28%29%7Breturn%28%5B1e7%5D%2B-1e3%2B-4e3%2B-8e3%2B-1e11%29.replace%28%2F%5B018%5D%2Fg%2Cfunction%28e%29%7Breturn%28e%5E%28window.crypto%7C%7Cwindow.msCrypto%29.getRandomValues%28new%20Uint8Array%281%29%29%5B0%5D%2615%3E%3Ee%2F4%29.toString%2816%29%7D%29%7D%3Be.config%3Di%7C%7C%7B%7D%2Ce.config.apiKey%3Do%2Ce.config.workspaceId%3Dn%2Ce.config.environment%3De.config.environment%7C%7C%22production%22%2C%28window.crypto%7C%7Cwindow.msCrypto%29%26%26%28e.config.viewId%3Dt%28%29%29%3Bfor%28var%20g%3D%5B%22addon%22%2C%22identify%22%2C%22track%22%2C%22trigger%22%2C%22query%22%2C%22segment%22%2C%22segments%22%2C%22ready%22%2C%22on%22%2C%22once%22%2C%22user%22%2C%22consent%22%5D%2Cr%3D0%3Br%3Cg.length%3Br%2B%2B%29%7Bvar%20w%3Dg%5Br%5D%3Be%5Bw%5D%3Dfunction%28o%29%7Breturn%20function%28%29%7Bvar%20n%3DArray.prototype.slice.call%28arguments%2C0%29%3Be.q.push%28%7BfunctionName%3Ao%2Carguments%3An%7D%29%7D%7D%28w%29%7D%7D%7D%28window.permutive%2CWORKSPACE_API_KEY%2CWORKSPACE_ID%2C%7B%22consentRequired%22%3A%20true%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20window.googletag%3Dwindow.googletag%7C%7C%7B%7D%2Cwindow.googletag.cmd%3Dwindow.googletag.cmd%7C%7C%5B%5D%2Cwindow.googletag.cmd.push%28function%28%29%7Bif%280%3D%3D%3Dwindow.googletag.pubads%28%29.getTargeting%28%22permutive%22%29.length%29%7Bvar%20e%3Dwindow.localStorage.getItem%28%22_pdfps%22%29%3Bwindow.googletag.pubads%28%29.setTargeting%28%22permutive%22%2Ce%3FJSON.parse%28e%29%3A%5B%5D%29%3Bvar%20o%3Dwindow.localStorage.getItem%28%22permutive-id%22%29%3Bo%26%26%28window.googletag.pubads%28%29.setTargeting%28%22puid%22%2Co%29%2Cwindow.googletag.pubads%28%29.setTargeting%28%22ptime%22%2CDate.now%28%29.toString%28%29%29%29%2Cwindow.permutive.config.viewId%26%26window.googletag.pubads%28%29.setTargeting%28%22prmtvvid%22%2Cwindow.permutive.config.viewId%29%2Cwindow.permutive.config.workspaceId%26%26window.googletag.pubads%28%29.setTargeting%28%22prmtvwid%22%2Cwindow.permutive.config.workspaceId%29%7D%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20permutive.addon%28%27web%27%2C%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22page%22%3A%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22oolsites%22%3A%20data%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20const%20script%20%3D%20document.createElement%28%27script%27%29%3B%20%20%20%20%20%20%20%20script.src%20%3D%20%60https%3A%2F%2F%24%7BORGANIZATION_ID%7D.edge.permutive.app%2F%24%7BWORKSPACE_ID%7D-web.js%60%3B%20%20%20%20%20%20%20%20script.async%20%3D%20true%3B%20%20%20%20%20%20%20%20document.head.appendChild%28script%29%3B%20%20%20%20%7D%20%20%20%20loadPermutiveScript%28%29%3B%20%20%20%20window.addEventListener%28%27flagsready%27%2C%20%28%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20loadPermutiveScript%28%29%3B%20%20%20%20%7D%29%3B%7D%29%28%29"></script>
+<!-- Securiti Cookies Consent Notice end  -->
+
+<style type="text/css">
+      :root {
+        --c-body-bg: #ffffff;
+      }
+    </style>
+  </head>
+  <body class="body post-template-default single single-post postid-2711756 single-format-standard crew-badwater-135 site--outside-online site-property--outside-online  single-flexible-layout" data-template="base.twig">
+    <div class="js-ad js-ad-skip-placeholder" data-child-zone="pixel-ool" data-size="[[1,1]]"></div>
+    <a class="skip-link screen-reader-text visually-hidden" href="#content">Skip to content</a>
+
+<div class="c-thinbanner c-thinbanner--member js-thin-banner">
+      <div class="l-wrap">
+        <a href="https://warrenmiller.com/events?utm_medium=on-site&utm_source=outsideonline&utm_term=presale&utm_content=thinbanner&utm_campaign=warrenmiller2025" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"domain": "<<analytics_vars.domain>>", "name": "thinbanner-cta", "type": "link"}}'>
+          <div class="c-thinbanner__inner u-position--relative">
+            <div class="c-thinbanner__title">
+              <p class="u-text-transform--upper">
+                OUTSIDE+ PRESALE IS ON!
+              </p>
+            </div>
+            <span class="c-thinbanner__icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.4042 0V6.51H0.230203V10.962H6.4042V17.472H11.6122V10.962H17.7862V6.51H11.6122V0H6.4042Z" fill="#333333"/>
+</svg></span>
+            <div class="c-thinbanner__text">
+              <p class="u-font-weight--bold">
+                Enjoy 20% off Warren Miller tickets for a limited time
+              </p>
+            </div>
+                          <span class="c-thinbanner__icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.4042 0V6.51H0.230203V10.962H6.4042V17.472H11.6122V10.962H17.7862V6.51H11.6122V0H6.4042Z" fill="#333333"/>
+</svg></span>
+              <div class="c-thinbanner__cta">
+                <p class="u-text-transform--upper">
+                  LET'S GO
+                  <span class="c-thinbanner__cta__icon"><svg width="28" height="14" viewBox="0 0 28 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M27.4155 7.56666C27.78 7.20053 27.78 6.60691 27.4155 6.24078L21.4758 0.274594C21.1113 -0.0915308 20.5204 -0.0915307 20.1559 0.274594C19.7914 0.64072 19.7914 1.23428 20.1559 1.60041L25.4356 6.90372L20.1559 12.207C19.7914 12.5731 19.7914 13.1667 20.1559 13.5328C20.5204 13.899 21.1113 13.899 21.4758 13.5328L27.4155 7.56666ZM-2.60792e-07 7.84122L26.7556 7.84122L26.7556 5.96622L-2.61156e-07 5.96622L-2.60792e-07 7.84122Z" fill="currentColor"/>
+</svg>
+</span>
+                </p>
+              </div>
+                      </div>
+        </a>
+      </div>
+    </div>
+  
+        <div class="c-thinbanner c-thinbanner--standard js-thin-banner">
+      <div class="l-wrap">
+        <a href="/membership?utm_medium=on-site&utm_source=outsideonline&utm_term=presale&utm_content=thinbanner&utm_campaign=warrenmiller2025" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"domain": "<<analytics_vars.domain>>", "name": "thinbanner-cta", "type": "link"}}'>
+          <div class="c-thinbanner__inner u-position--relative">
+            <div class="c-thinbanner__title">
+              <p class="u-text-transform--upper">
+                PRESALE IS ON!
+              </p>
+            </div>
+            <span class="c-thinbanner__icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.4042 0V6.51H0.230203V10.962H6.4042V17.472H11.6122V10.962H17.7862V6.51H11.6122V0H6.4042Z" fill="#333333"/>
+</svg></span>
+            <div class="c-thinbanner__text">
+              <p class="u-font-weight--bold">
+                Get 20% off Warren Miller tickets with Outside+
+              </p>
+            </div>
+                          <span class="c-thinbanner__icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.4042 0V6.51H0.230203V10.962H6.4042V17.472H11.6122V10.962H17.7862V6.51H11.6122V0H6.4042Z" fill="#333333"/>
+</svg></span>
+              <div class="c-thinbanner__cta">
+                <p class="u-text-transform--upper">
+                  JOIN NOW
+                  <span class="c-thinbanner__cta__icon"><svg width="28" height="14" viewBox="0 0 28 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M27.4155 7.56666C27.78 7.20053 27.78 6.60691 27.4155 6.24078L21.4758 0.274594C21.1113 -0.0915308 20.5204 -0.0915307 20.1559 0.274594C19.7914 0.64072 19.7914 1.23428 20.1559 1.60041L25.4356 6.90372L20.1559 12.207C19.7914 12.5731 19.7914 13.1667 20.1559 13.5328C20.5204 13.899 21.1113 13.899 21.4758 13.5328L27.4155 7.56666ZM-2.60792e-07 7.84122L26.7556 7.84122L26.7556 5.96622L-2.61156e-07 5.96622L-2.60792e-07 7.84122Z" fill="currentColor"/>
+</svg>
+</span>
+                </p>
+              </div>
+                      </div>
+        </a>
+      </div>
+    </div>
+  <!-- Add header background css variable and default styles to avoid layout shift once header loads -->
+<style>
+  out-header {
+    height: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    out-header {
+      height: 68px;
+    }
+  }
+</style>
+
+<out-header theme="light" class="c-header-wc" hasSearch>
+  <div slot="header-container" class="c-header-wc__container" style="visibility: hidden">
+  </div>
+
+<div slot="header-logo" class="c-header-wc__logo" style="visibility: hidden">
+        <div class="o-logo" role="banner">
+  <!-- pom-sites -->
+  <a class="o-logo__link u-display--block" href="https://www.outsideonline.com" data-href-is-logged-in="https://www.outsideonline.com?h=y" rel="home" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"domain": "<<analytics_vars.domain>>", "name": "site-logo", "type": "link"}}' style=" ">Outside Online</a>
+  </div>
+
+</div>
+
+<div slot="header-container-right" class="c-header-wc__container c-header-wc__container--right" style="visibility: hidden">
+  </div>
+</out-header>
+
+<script>
+  window.featuredMenuItemData = null;
+  
+  window.SITE_BASE_URL = 'https://accounts.outsideonline.com/oidc-frontend';
+
+</script>
+
+<script async src="/wp-content/themes/pom-sites/resources/assets/scripts/top-menu.js"></script>
+
+<header role="banner" class="c-header c-main-header c-main-header--fixed">
+  <!-- PROJECT THINAIR - USE OAH -->
+  <div class="c-main-header__wrap">
+    <style>
+  body.js-rivt-logged-in #signed-out-feed-link {
+    display: none;
+  }
+
+body:not(.js-rivt-logged-in) #signed-in-feed-link {
+    display: none;
+  }
+</style>
+
+<nav class="c-menu js-priority-menu" role="navigation" aria-label="Main Menu">
+  <ul class="c-menu__list" role="menubar" aria-label="Main Menu">
+          <li id="activity-feed-link" class="c-menu__menu-item u-hide" role="none">
+        <a
+          role="menuitem"
+          class="c-menu__link"
+          tabindex="-1"
+          href="/home"
+          data-analytics-event="click"
+          title="Activity Feed"
+          data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "/home", "domain": "<<analytics_vars.domain>>", "name": "main-navigation-community", "type": "link"}}'>
+          <span>Home</span>
+        </a>
+      </li>
+      <li id="featured-link" class="c-menu__menu-item u-hide" role="none">
+        <a
+          role="menuitem"
+          class="c-menu__link"
+          tabindex="-1"
+          href="/featured"
+          data-analytics-event="click"
+          title="Home Page"
+          data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "/featured", "domain": "<<analytics_vars.domain>>", "name": "main-navigation-community", "type": "link"}}'>
+          <span>Featured</span>
+        </a>
+      </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="0" class="c-menu__link" href="https://www.outsideonline.com/outdoor-adventure/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/outdoor-adventure/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Adventure</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://www.outsideonline.com/outdoor-gear/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/outdoor-gear/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Gear</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://www.outsideonline.com/adventure-travel/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/adventure-travel/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Travel</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://www.outsideonline.com/health/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/health/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Health</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://run.outsideonline.com/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://run.outsideonline.com/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Run</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://www.outsideonline.com/culture/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/culture/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Culture</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://www.outsideonline.com/tag/outside-features/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/tag/outside-features/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Long Reads</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://www.outsideonline.com/podcast/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/podcast/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Podcasts</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://www.outsideonline.com/video/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/video/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Videos</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://www.outsideonline.com/collection/2025-summer-gear-guide/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/collection/2025-summer-gear-guide/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Gear Guide</span></a>
+                  </li>
+              <li class="c-menu__menu-item " role="none">
+          <a role="menuitem" tabindex="-1" class="c-menu__link" href="https://www.outsideonline.com/tag/public-lands/" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "https://www.outsideonline.com/tag/public-lands/", "domain": "<<analytics_vars.domain>>", "name": "main-navigation", "type": "link"}}'><span>Public Lands</span></a>
+                  </li>
+            </ul>
+  <div class="c-menu__menu-item c-menu__more-menu">
+    <a href="javascript:void(0);" class="c-menu__link c-menu__more-link u-hide">More <span class="o-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 531.0001 309.7498"><path d="M486.7501,0c-11.3242,0-22.6494,4.3203-31.2891,12.9609l-189.9609,189.96L75.5397,12.9609C58.2584-4.3203,30.2418-4.3203,12.9606,12.9609c-17.2808,17.2803-17.2808,45.2979,0,62.5781l221.25,221.2505c17.2812,17.2798,45.2983,17.2808,62.5786,0l221.25-221.2505c17.2812-17.2803,17.2812-45.2979,0-62.5781-8.6396-8.6406-19.9648-12.9609-31.2891-12.9609Z" /></svg>
+</span></a>
+    <ul class="c-menu__more-items u-hide"></ul>
+  </div>
+</nav>
+
+<script>
+    // Hide/Show header on scroll
+    const header = document.querySelector('.c-main-header--fixed');
+    // Set initial scroll position
+    let scrollPosition = 0;
+
+// Set the scroll threshold (in pixels)
+    const scrollThreshold = 150;
+
+var scrollUpAmount = 0;
+
+const userAgent = window.navigator.userAgent;
+    const isMobileApp = userAgent.toLowerCase().startsWith('gaia gps') || userAgent.toLowerCase().startsWith('trailforks');
+
+// Add scroll event listener
+    window.addEventListener('scroll', function() {
+      // Get current scroll position
+      const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+      // Check if scrolling down and past the threshold
+      if (currentScrollPosition > scrollPosition && currentScrollPosition > scrollThreshold) {
+        // User is scrolling down and past the threshold, add "is-toggled" class to hide the header
+        header.classList.add('is-toggled');
+        scrollUpAmount = 0;
+      } else {
+        // User is scrolling up or within the threshold, remove "is-toggled" class to show the header
+        scrollUpAmount += scrollPosition - currentScrollPosition;
+        if (scrollUpAmount > scrollThreshold) {
+          header.classList.remove('is-toggled');
+          scrollUpAmount = 0;
+        }
+      }
+
+// Update scroll position
+      scrollPosition = currentScrollPosition;
+    });
+
+// Priority Plus menu functionality
+    document.addEventListener('DOMContentLoaded', function () {
+      const navs = document.querySelectorAll('.js-priority-menu');
+      const navWrap = document.querySelector('.c-main-header--fixed');
+
+// Loop through all navs
+      navs.forEach(nav => {
+        const moreMenu = nav.querySelector('.c-menu__more-menu');
+        const menuList = nav.querySelector('.c-menu__list');
+        const moreLink = nav.querySelector('.c-menu__more-link');
+        const hiddenLinks = nav.querySelector('.c-menu__more-items');
+        let initialMenuItems = Array.from(menuList.querySelectorAll('.c-menu__menu-item:not(.c-menu__more-link)'));
+
+moreLink.classList.add('u-hide');
+        hiddenLinks.classList.add('u-hide');
+        moreMenu.classList.remove('is-active');
+
+// Function to update the menu
+        function updateMenu() {
+          const availableSpace = nav.offsetWidth - moreLink.offsetWidth - 10; // Buffer of 10px
+          let totalWidth = 0;
+
+initialMenuItems.forEach(item => menuList.appendChild(item));
+          hiddenLinks.innerHTML = '';
+          hiddenLinks.classList.add('u-hide');
+          moreMenu.classList.remove('is-active');
+
+// Loop through all the items in the menu and move them to the hidden menu if they don't fit
+          initialMenuItems.forEach(item => {
+            totalWidth += item.offsetWidth;
+            if (totalWidth > availableSpace) {
+              hiddenLinks.appendChild(item);
+              moreLink.classList.remove('u-hide');
+            }
+          });
+
+// Show more link if there are hidden items
+          moreLink.classList.toggle('u-hide', hiddenLinks.children.length === 0);
+        }
+
+// Click event for the more link
+        moreLink.addEventListener('click', () => {
+          hiddenLinks.classList.toggle('u-hide');
+          moreMenu.classList.toggle('is-active');
+        });
+
+// Resize event listener
+        window.addEventListener('resize', updateMenu);
+        updateMenu(); // Initial setup
+
+// After adjustments, make the navigation visible
+        setTimeout(() => {
+          navs.forEach(nav => nav.classList.add('is-visible'));
+          updateMenu(); // Adjust menu items as needed
+        }, 100);
+      });
+    });
+  </script>
+
+</div>
+</header>
+
+<div class="c-sub-header">
+  
+    </div>
+
+<div class="c-search-modal">
+        
+  <button role="button" class="o-button c-search-modal__close js-toggle"    aria-label=Close data-toggled=.search-is-active data-prefix=search>
+            
+  <span class="o-icon o-icon--large" aria-label="">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.71 25.71"><path d="M25.71,1.35,24.36,0,12.85,11.51,1.35,0,0,1.35l11.52,11.5L0,24.36l1.35,1.35,11.5-11.52L24.36,25.71l1.35-1.35L14.19,12.85Z"/></svg>  </span>
+              </button>
+  <div class="c-search-modal__form l-container--s u-padding">
+    
+<form class="c-search-form" id="search-form" action="https://www.outsideonline.com" method="get" accept-charset="UTF-8" role="search">
+  <fieldset class="c-search-form__fieldset o-fieldset">
+    <label class="o-form-item__label is-vishidden" for="s">Search</label>
+    <input class="o-form-item__search" name="s" id="s" type="text" value="" placeholder="Search Outside">
+          
+  <button role="button" class="o-button o-form-item__button"    aria-label=Search>
+            
+  <span class="o-icon o-icon--large" aria-label="">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.41 20.41"><path d="M20.41,19l-5.76-5.76a8.24,8.24,0,1,0-1.41,1.41L19,20.41ZM2,8.2a6.2,6.2,0,1,1,6.2,6.2A6.21,6.21,0,0,1,2,8.2Z"></path></svg>  </span>
+              <span>Search</span>
+          </button>
+  </fieldset>
+</form>
+  </div>
+</div>
+
+<div class="o-ad o-ad--prestitial__new js-ad--prestitial u-full-width">
+    <div style="width: 100%;" class="js-ad js-ad-skip-placeholder" data-child-zone="prestitial-ool" data-size='["fluid",[1,1],[300, 250],[970,250]]' data-size-map='[[[970, 0],[[1,1],[970,250],"fluid"]],[[728, 0],[[1,1],"fluid"]],[[0, 0],[[1,1],[300, 250],"fluid"]]]'></div>
+  </div>
+      <main role="document">
+                                <div class="c-hero-media__image c-hero-media__image--longform js-toggle"  data-prefix=content-modal data-toggled=body>
+                            
+    
+  <picture class="o-picture">
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source  srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=1600&enable=upscale&quality=100" media="(min-width: 1200px)">
+              <source  srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=1200&enable=upscale&quality=100" media="(min-width: 960px)">
+              <source  srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=960&enable=upscale&quality=100" media="(min-width: 720px)">
+              <source  srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=1:1&width=720&enable=upscale&quality=100" media="(min-width: 500px)">
+            <!--[if IE 9]></video><![endif]-->
+              
+      <img  class="o-image no-lazy"
+            src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=1:1&width=600&enable=upscale&quality=100"
+    alt="ultrarunners line up at the start of the Badwater 135"
+                
+  />
+  </picture>
+    
+          <div class="c-hero-media__credit o-small">(Photo: Matt Shapiro)</div>
+    
+    
+  </div>
+              <div class="l-content-wrap l-wrap">
+          <div class="l-main l-container">
+
+<div class="c-content-modal">
+        
+  <button role="button" class="o-button c-content-modal__close js-toggle"    aria-label=Close data-toggled=body data-prefix=content-modal>
+            
+  <span class="o-icon o-icon--large" aria-label="">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25.71 25.71"><path d="M25.71,1.35,24.36,0,12.85,11.51,1.35,0,0,1.35l11.52,11.5L0,24.36l1.35,1.35,11.5-11.52L24.36,25.71l1.35-1.35L14.19,12.85Z"/></svg>  </span>
+              </button>
+  <div class="c-content-modal__content u-spacing--half">
+    <div class="c-content-modal__body">
+
+<div class="c-content-modal-media__image">
+                
+  <figure class="o-figure">
+          
+    
+  <picture class="o-picture">
+              
+      <img  class="o-image lazy"
+          data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=960&enable=upscale 960w,https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=16:9&width=1200&enable=upscale 1200w"
+            data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-hero.jpg?crop=25:14&width=500&enable=upscale"
+    alt="ultrarunners line up at the start of the Badwater 135"
+              height="405"
+              width="720"
+                    style="--aspect-ratio:720/405" data-aspect-ratio
+    
+  />
+  </picture>
+              <figcaption class="o-figure__caption o-small u-space--half--top">Runners at the start of the Badwater 135 as the sun sets and the race begins (Photo: Matt Shapiro)</figcaption>
+      </figure>
+      </div>
+      </div>
+  </div>
+</div>
+
+<article class="c-content-single-flexible-layout" data-uuid="3a0f29719b11c9cd6219e3fbe7ad49a6" data-post-analytics-data="{&quot;authors&quot;:[&quot;Devin Kelly&quot;],&quot;categories&quot;:[&quot;outdoor-adventure,exploration-survival&quot;],&quot;tags&quot;:[&quot;evergreen&quot;,&quot;outside-features&quot;,&quot;ultrarunning&quot;],&quot;domain&quot;:&quot;&lt;&lt;analytics_vars.domain&gt;&gt;&quot;,&quot;post_uuid&quot;:&quot;3a0f29719b11c9cd6219e3fbe7ad49a6&quot;,&quot;publish_date&quot;:&quot;July 29, 2025&quot;,&quot;title&quot;:&quot;What It Takes to Crew the Hardest Race on Earth&quot;}">
+  <div class="c-content-single-flexible-layout__wrap l-container has-sidebar">
+    <div class="c-content-single-flexible-layout__container l-container--m u-spacing--double">
+      <div class="c-content-single-flexible-layout__header u-spacing">
+                                    
+  <h1 class="o-heading o-heading__secondary o-heading__secondary--xxl">
+          What It Takes to Crew the Hardest Race on Earth
+      </h1>
+            
+  <hr class="o-hr o-hr--yellow">
+            
+    
+  <div class="o-meta">
+
+<div class="o-meta-date">
+                <span class="o-meta-date__stamp o-meta-date__stamp--published">
+        Published:&nbsp;
+        <time datetime="2025-07-29T03:06:19-06:00">
+          Jul 29, 2025
+        </time>
+      </span>
+      </div>
+    
+          </div>
+            
+        
+  <div bp="7--max" class="o-dek o-dek--large">
+    <p>Every year, ultrarunners sign up to compete in a brutal race that stretches 135 miles across Death Valley in the high heat of summer. Because of its harsh conditions, the Badwater 135 is perhaps the most intensely crewed ultra in the world, and without these dedicated support teams, for most, the race would be impossible.</p>
+  </div>
+                  
+  <hr class="o-hr o-hr--small">
+      </div>
+              <div class="c-content-single-flexible-layout__content u-spacing--double" data-hide-els="main + main">
+          <div class="c-content-single-flexible-layout__body">
+                          
+  <div class="o-content-cta">
+    <p class="o-content-cta-text">
+      New perk: Easily find new routes and hidden gems, upcoming running events, and more near you. Your weekly Local Running Newsletter has everything you need to lace up! 
+      <a href="https://run.outsideonline.com/get-all-the-latest-from-your-running-community/" class="o-content-cta-link" data-analytics-event="click" data-analytics-data='{"name":"Element Clicked","props":{"destination_url":"https://run.outsideonline.com/get-all-the-latest-from-your-running-community/","domain":"<<analytics_vars.domain>>","name":"in-content-cta","type":"link"}}'>Subscribe today</a>.
+    </p>
+  </div>
+                              
+    <div class="o-rich-text  has-dropcap"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
+      <p>Just past midnight somewhere along the long road between Darwin and Lone Pine, California, driving a car littered with Cheez-It boxes, baby wipes, and crushed cans of energy drinks and coffee, Andrew Boyd tried to decide if he should tell Kaylee Frederick something important. As the crew chief of Frederick’s third consecutive Badwater 135 run, Boyd was the keeper of the pace secrets. Not even Frederick knew whether she was on pace to achieve her goal of besting the 20 to 29 female age group record of 32 hours and 31 minutes. She had spent the previous day listening to Boyd’s encouragement, and now, in the darkness outside of Death Valley, she was just hours away from breaking 32. She would need, however, to dig deep—to run most of the way up Mount Whitney’s Portal Road. The margins were too close; she didn’t have time to take a break or a quick nap. Every step, truly, had to count.</p>
+<p>Boyd knew this. I noticed the mischievous, whimsical shift in his tone that I had come to recognize over the past two days. He turned to the other two members of Frederick’s crew: Liz Myers and Marissa Sisson, his thought-partners in crime.</p>
+<p>“Should I tell her?” he said.</p>
+<p>“It’s time,” Myers said.</p>
+<p>Two years ago, Frederick became, at 18 years old, the youngest ever Badwater 135 finisher. Since then, Frederick, who is sponsored by the performance running brand <a href="https://mounttocoast.com/" target="_blank" rel="noopener" data-afl-p="0">Mount to Coast</a>, has amassed an impressive resume of ultramarathon finishes, including a second-place, 136-mile total at the USA Track &amp; Field 24-hour championship in 2024. But it is Badwater that holds her gaze. She has returned annually since that initial finish, each year improving on her time from the year before. She holds the age group record for females under 20 years old, and, at 20 years old this year, was targeting the next female age group record. She is half the age of the current female record holder, Ashley Paulson. Andrew Boyd has been there for each of Frederick’s Badwater races, encouraging her from the support vehicle, running alongside her as a pacer.</p>
+
+</div>
+            </div>
+        </div>
+          </div>
+
+<aside class="c-sidebar u-spacing c-content__aside "><div class="tm-o-meta-sidebar tm-u-text-align--left tm-u-space--x8--bottom"><div class="tm-o-section__header tm-o-meta-sidebar__header"><div class="tm-o-meta-sidebar__image-container"><div class="tm-o-meta-sidebar__image"><a href="https://www.outsideonline.com/byline/devin-kelly/"><img src="https://cdn.outsideonline.com/wp-content/uploads/2025/04/DK-Headshot-1.jpg?crop=1:1&width=100&enable=upscale" alt="Devin Kelly" width="60" height="60"></a></div><out-follow-button class="follow-model u-hide" feedTarget="devin-kelly" userType="author" followSource="articlePage"></out-follow-button></div><div><a href="https://www.outsideonline.com/byline/devin-kelly/" itemprop="author" itemtype="https://schema.org/Person" class="tm-o-meta-sidebar__author tm-u-typography-heading-6">Devin Kelly</a></div></div><div class="tm-o-meta-sidebar__content u-spacing"><div class="tm-o-meta-sidebar__dek tm-u-pad--top">
+              Devin Kelly is a high school teacher in New York City. His work has appeared in The Guardian, Longreads, LitHub, and more. He writes the newsletter Ordinary Plots, and his first novel, Pilgrims, is forthcoming this year.
+            </div></div></div><div class="c-social-share"><div class="c-utility-tray"><script async src="data:text/javascript,%20%20%20%20%20%20function%20getFlags%28initialFlags%29%20%7B%20%20%20%20%20%20%20%20let%20flags%20%3D%20initialFlags%3B%20%20%20%20%20%20%20%20if%20%28flags%29%20return%20flags.detail%3B%20%20%20%20%20%20%20%20const%20ampFlagStore%20%3D%20localStorage.getItem%28%27ampflags%27%29%3B%20%20%20%20%20%20%20%20if%20%28%21ampFlagStore%29%20return%20null%3B%20%20%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%20%20%20flags%20%3D%20JSON.parse%28ampFlagStore%29%3B%20%20%20%20%20%20%20%20%7D%20catch%20%28e%29%20%7B%20%20%20%20%20%20%20%20%20%20console.log%28%27error%20parsing%20ampflags%3A%20%27%2C%20e%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20return%20flags%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20function%20displayCommentButton%28initialFlags%29%20%7B%20%20%20%20%20%20%20%20const%20flags%20%3D%20getFlags%28initialFlags%29%3B%20%20%20%20%20%20%20%20if%20%28flags%20%26%26%20flags%5B%27enable-comment-button%27%5D%29%20%7B%20%20%20%20%20%20%20%20%20%20const%20styleComment%20%3D%20document.createElement%28%27style%27%29%3B%20%20%20%20%20%20%20%20%20%20const%20commentLinks%20%3D%20document.querySelectorAll%28%22.js-comment-e1ae6800-6c12-11f0-8080-80002e5c68e8%22%29%3B%20%20%20%20%20%20%20%20%20%20commentLinks.forEach%28%28link%2C%20index%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20link.classList.remove%28%22u-hide%22%29%3B%20%20%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%20%20styleComment.innerText%20%2B%3D%20%27.o-utility-button.o-utility-button__comment%20%7Bdisplay%3A%20inline-flex%7D%27%3B%20%20%20%20%20%20%20%20%20%20document.head.appendChild%28styleComment%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%20%20%20%20%20%20function%20determineButtonsVisibility%28event%29%20%7B%20%20%20%20%20%20%20%20displayCommentButton%28event%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20determineButtonsVisibility%28%29%3B%20%20%20%20%20%20window.addEventListener%28%22flagsready%22%2C%20determineButtonsVisibility%2C%20false%29%3B%20%20%20%20"></script><a class="js-comment-e1ae6800-6c12-11f0-8080-80002e5c68e8 o-utility-button o-utility-button__comment u-hide"
+      href="/activity/e1ae6800-6c12-11f0-8080-80002e5c68e8"
+      target="_blank"
+      data-analytics-event="click"
+      data-analytics-data='{"name": "Element Clicked", "props": {"name": "Comment", "type": "ContentArticle", "domain": "<<analytics_vars.domain>>", "source": "web", "destination": "/activity/e1ae6800-6c12-11f0-8080-80002e5c68e8", "page_location": "Article Top" }}'
+    ><div class='o-utility-button__icon comment'></div><span>Comment</span></a><out-high-five-reaction contentUid="https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/" displayCounter></out-high-five-reaction><div class="c-share-dropdown"><button class="o-utility-button" aria-expanded="false" aria-controls="share-dropdown-menu" aria-label="Share this article"><div class="o-utility-button__icon share"><?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><path d="M25.7363,45.0931c-.7048,0-1.4124-.1547-2.0628-.4699-1.6273-.7893-2.6759-2.4653-2.6759-4.2731v-6.0423c-6.9505.5931-13.391,3.9365-17.8775,9.3427-.4756.5716-1.252.7778-1.9539.5315-.6962-.2521-1.1603-.9139-1.1603-1.656v-1.4955c.0057-12.404,8.9244-22.8884,20.9918-25.0042v-6.376c0-1.8092,1.0515-3.4867,2.6788-4.2731,1.6216-.7864,3.5927-.5744,5.008.5443l19.545,15.4323c1.1231.8853,1.7648,2.2146,1.7648,3.6457,0,1.4339-.6446,2.7633-1.7677,3.6486l-19.5392,15.428c-.8509.6718-1.8995,1.0171-2.9509,1.0171ZM22.7567,30.6966c.4613,0,.9053.1819,1.2348.5057.3352.3309.5243.7836.5243,1.2549v7.893c0,.467.2722.901.6933,1.1045.4297.2077.9254.1533,1.2978-.1418l19.5392-15.4294c.2722-.2149.4297-.5372.4297-.8838s-.1576-.669-.4297-.8824l-19.5421-15.4323c-.3724-.2951-.871-.3481-1.295-.139-.4269.2063-.6933.6289-.6933,1.1045v7.9002c0,.8953-.6704,1.6488-1.5614,1.7491-10.0475,1.1331-17.8575,8.933-19.2184,18.6941,5.2315-4.5654,11.9384-7.1782,18.992-7.2971h.0286ZM22.7567,17.5506h.0286-.0286Z" /></svg></div><span class="o-utility-button__responsive-hidden">Share</span></button><div id="share-dropdown-menu" class="c-share-dropdown__menu" hidden><ul class="c-share-dropdown__list"><li class="c-share-dropdown__item"><a href=/home?action=share-to-feed&payload=%7B%22url%22%3A%22https%3A%5C%2F%5C%2Fwww.outsideonline.com%5C%2Foutdoor-adventure%5C%2Fexploration-survival%5C%2Fcrew-badwater-135%5C%2F%22%7D class="c-share-dropdown__button share-to-outside-feed" data-analytics-event="click" data-analytics-data='&#x7B;&quot;name&quot;&#x3A;&quot;Post&#x20;Shared&#x20;Button&#x20;Clicked&quot;,&quot;props&quot;&#x3A;&#x7B;&quot;platform&quot;&#x3A;&quot;Outside&#x20;Feed&quot;,&quot;title&quot;&#x3A;&quot;What&#x20;It&#x20;Takes&#x20;to&#x20;Crew&#x20;the&#x20;Hardest&#x20;Race&#x20;on&#x20;Earth&quot;,&quot;post_uuid&quot;&#x3A;&quot;3a0f29719b11c9cd6219e3fbe7ad49a6&quot;,&quot;authors&quot;&#x3A;&#x5B;&quot;Devin&#x20;Kelly&quot;&#x5D;,&quot;categories&quot;&#x3A;&#x5B;&quot;outdoor-adventure,exploration-survival&quot;&#x5D;,&quot;tags&quot;&#x3A;&#x5B;&quot;evergreen&quot;,&quot;outside-features&quot;,&quot;ultrarunning&quot;&#x5D;,&quot;publish_date&quot;&#x3A;&quot;July&#x20;29,&#x20;2025&quot;,&quot;domain&quot;&#x3A;&quot;&lt;&lt;analytics_vars.domain&gt;&gt;&quot;,&quot;page_location&quot;&#x3A;&quot;Article&#x20;Top&quot;&#x7D;&#x7D;'><div class="c-share-dropdown__button-container"><span class="c-share-dropdown__button-text">Share to Outside Feed</span><span class="c-share-dropdown__button-description">Create a new post with the article attached</span></div><svg width="25" height="25" viewBox="0 0 25 25" fill-opacity="0" xmlns="http://www.w3.org/2000/svg"><path d="M17.332 3.47656H18.332C19.989 3.47656 21.332 4.81956 21.332 6.47656V18.4766C21.332 20.1336 19.989 21.4766 18.332 21.4766H6.33203C4.67503 21.4766 3.33203 20.1336 3.33203 18.4766V17.4626" stroke="#4E4E4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M10.332 6.11357C6.50703 6.11357 3.33203 8.06557 3.33203 12.6246V13.5396C4.62603 10.5456 7.31203 10.2406 10.332 10.2406V12.1266C10.332 12.7776 11.104 13.1196 11.586 12.6826L16.086 8.60357C16.422 8.29957 16.413 7.76957 16.068 7.47557L11.568 3.65657C11.08 3.24257 10.332 3.58857 10.332 4.22757V6.11357Z" stroke="#4E4E4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li><li class="c-share-dropdown__item c-share-dropdown__item--link"><button class="c-share-dropdown__button js-copy-link" data-share-url="https&#x3A;&#x2F;&#x2F;www.outsideonline.com&#x2F;outdoor-adventure&#x2F;exploration-survival&#x2F;crew-badwater-135&#x2F;"><span class="c-share-dropdown__button-text">Copy link</span><?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor"><path d="M14.6992,49.9069c-3.7427,0-7.4854-1.4222-10.3348-4.2717-5.6964-5.6989-5.6964-14.9732,0-20.6708l5.095-5.0938c2.7746-2.7758,6.4649-4.3041,10.3897-4.3041s7.6126,1.5283,10.3872,4.3041c.7485.7485.7485,1.9624,0,2.7097-.751.751-1.9637.7485-2.7097,0-2.051-2.051-4.7782-3.1813-7.6775-3.1813-2.8594,0-5.6589,1.159-7.68,3.1813l-5.095,5.0938c-4.2018,4.2055-4.2018,11.0472,0,15.2514,4.2068,4.2018,11.0459,4.1993,15.2527,0l3.9074-3.9074c.7485-.7485,1.9612-.7485,2.7097,0s.7485,1.9612,0,2.7097l-3.9074,3.9074c-2.8494,2.8494-6.5921,4.2717-10.3373,4.2717Z"/><path d="M30.144,34.4422c-3.9248,0-7.6151-1.5295-10.3897-4.3041-.7485-.7485-.7485-1.9612,0-2.7097s1.9612-.7485,2.7097,0c2.051,2.051,4.7782,3.1813,7.68,3.1813,2.8993,0,5.6265-1.1303,7.6775-3.1813l5.095-5.0938c2.036-2.0373,3.1588-4.7457,3.1588-7.6251s-1.1228-5.5878-3.1588-7.6251-4.7457-3.1588-7.6251-3.1588c-2.8819,0-5.5891,1.1216-7.6251,3.1588l-3.9074,3.9074c-.7485.7485-1.9612.7485-2.7097,0s-.7485-1.9612,0-2.7097l3.9074-3.9074C27.7163,1.6138,31.3866.0931,35.2914.0931c3.9024,0,7.5752,1.5208,10.3348,4.2816,2.7621,2.7596,4.2816,6.4299,4.2816,10.3348s-1.5195,7.5739-4.2816,10.3348l-5.095,5.0938c-2.7746,2.7746-6.4624,4.3041-10.3872,4.3041Z"/></svg></button></li><li class="c-share-dropdown__item c-share-dropdown__item--email"><a href="mailto:?subject=What%20It%20Takes%20to%20Crew%20the%20Hardest%20Race%20on%20Earth%20%7C%20Outside%20Online&body=Check out this article from Outside%20Online: https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fexploration-survival%2Fcrew-badwater-135%2F?utm_medium=social&utm_source=email&utm_campaign=onsiteshare" class="c-share-dropdown__button" data-analytics-event="click" data-analytics-data='&#x7B;&quot;name&quot;&#x3A;&quot;Post&#x20;Shared&#x20;Button&#x20;Clicked&quot;,&quot;props&quot;&#x3A;&#x7B;&quot;platform&quot;&#x3A;&quot;Email&quot;,&quot;title&quot;&#x3A;&quot;What&#x20;It&#x20;Takes&#x20;to&#x20;Crew&#x20;the&#x20;Hardest&#x20;Race&#x20;on&#x20;Earth&quot;,&quot;post_uuid&quot;&#x3A;&quot;3a0f29719b11c9cd6219e3fbe7ad49a6&quot;,&quot;authors&quot;&#x3A;&#x5B;&quot;Devin&#x20;Kelly&quot;&#x5D;,&quot;categories&quot;&#x3A;&#x5B;&quot;outdoor-adventure,exploration-survival&quot;&#x5D;,&quot;tags&quot;&#x3A;&#x5B;&quot;evergreen&quot;,&quot;outside-features&quot;,&quot;ultrarunning&quot;&#x5D;,&quot;publish_date&quot;&#x3A;&quot;July&#x20;29,&#x20;2025&quot;,&quot;domain&quot;&#x3A;&quot;&lt;&lt;analytics_vars.domain&gt;&gt;&quot;,&quot;page_location&quot;&#x3A;&quot;Article&#x20;Top&quot;&#x7D;&#x7D;'><span class="c-share-dropdown__button-text">Email</span><?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor"><path d="M6.5384,5.429c-3.6262,0-6.5384,2.8682-6.5384,6.4395,0,.1102.0028.2191.0084.327-.0055.0586-.0084.118-.0084.1781v25.2529c0,3.8238,3.1687,6.9445,7.0513,6.9445h35.8975c3.8825,0,7.0512-3.1207,7.0512-6.9445V12.3736c0-.0602-.0028-.1197-.0085-.1784.0058-.1076.0085-.2165.0085-.3267,0-3.5713-2.9122-6.4395-6.5385-6.4395H6.5384ZM29.9312,24.3683l-.0867.057c-2.9463,1.8587-6.4763,1.8607-9.4238.0055l-.2047-.1378c-.0505-.0377-.1023-.0725-.1555-.1047L5.1233,14.1358c-.9159-.7385-1.2772-1.4869-1.2772-2.2672,0-1.4793,1.1903-2.6515,2.6923-2.6515h36.923c1.502,0,2.6923,1.1723,2.6923,2.6515,0,.7885-.36,1.5659-1.194,2.6324l-14.9158,9.7933c-.0382.0233-.076.048-.1128.074ZM30.7398,28.2783l12.6643,12.4727c-.1488.0213-.3008.0323-.4553.0323H7.0513c-.1535,0-.3046-.011-.4525-.032l12.7508-12.5578c3.6095,1.8583,7.7642,1.8868,11.3902.0848ZM46.1217,38.0705c.0212-.145.032-.2933.032-.444v-19.3571l-12.0825,7.9331,12.0505,11.868ZM3.8786,38.0732l12.1768-11.9925L3.8462,17.8641v19.7624c0,.1515.0111.3008.0325.4467Z" fill-rule="evenodd" /></svg></a></li><li class="c-share-dropdown__item c-share-dropdown__item--x"><a href="https://twitter.com/intent/tweet/?text=What%20It%20Takes%20to%20Crew%20the%20Hardest%20Race%20on%20Earth%20%7C%20Outside%20Online&url=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fexploration-survival%2Fcrew-badwater-135%2F?utm_medium=social&utm_source=twitter&utm_campaign=onsiteshare" target="_blank" rel="noopener noreferrer" class="c-share-dropdown__button" data-analytics-event="click" data-analytics-data='&#x7B;&quot;name&quot;&#x3A;&quot;Post&#x20;Shared&#x20;Button&#x20;Clicked&quot;,&quot;props&quot;&#x3A;&#x7B;&quot;platform&quot;&#x3A;&quot;Twitter&quot;,&quot;title&quot;&#x3A;&quot;What&#x20;It&#x20;Takes&#x20;to&#x20;Crew&#x20;the&#x20;Hardest&#x20;Race&#x20;on&#x20;Earth&quot;,&quot;post_uuid&quot;&#x3A;&quot;3a0f29719b11c9cd6219e3fbe7ad49a6&quot;,&quot;authors&quot;&#x3A;&#x5B;&quot;Devin&#x20;Kelly&quot;&#x5D;,&quot;categories&quot;&#x3A;&#x5B;&quot;outdoor-adventure,exploration-survival&quot;&#x5D;,&quot;tags&quot;&#x3A;&#x5B;&quot;evergreen&quot;,&quot;outside-features&quot;,&quot;ultrarunning&quot;&#x5D;,&quot;publish_date&quot;&#x3A;&quot;July&#x20;29,&#x20;2025&quot;,&quot;domain&quot;&#x3A;&quot;&lt;&lt;analytics_vars.domain&gt;&gt;&quot;,&quot;page_location&quot;&#x3A;&quot;Article&#x20;Top&quot;&#x7D;&#x7D;'><span class="c-share-dropdown__button-text">Share on X</span><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><g id="x 1"><g id="Group"><path id="Vector" d="M11.0081 14.7013L5.49178 21H2.43628L9.58099 12.8383L11.0081 14.7013Z" fill="#4E4E4E"/><path id="Vector_2" d="M12.6757 8.778L17.7266 3H20.7802L14.0899 10.6513L12.6757 8.778Z" fill="#4E4E4E"/><path id="Vector_3" d="M21.9566 21H15.8115L2.04346 3H8.3441L21.9566 21ZM16.6543 19.1724H18.3463L7.42481 4.73186H5.60939L16.6543 19.1724Z" fill="#4E4E4E"/></g></g></svg></a></li><li class="c-share-dropdown__item c-share-dropdown__item--facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fexploration-survival%2Fcrew-badwater-135%2F?utm_medium=social&utm_source=facebook&utm_campaign=onsiteshare" target="_blank" rel="noopener noreferrer" class="c-share-dropdown__button" data-analytics-event="click" data-analytics-data='&#x7B;&quot;name&quot;&#x3A;&quot;Post&#x20;Shared&#x20;Button&#x20;Clicked&quot;,&quot;props&quot;&#x3A;&#x7B;&quot;platform&quot;&#x3A;&quot;Facebook&quot;,&quot;title&quot;&#x3A;&quot;What&#x20;It&#x20;Takes&#x20;to&#x20;Crew&#x20;the&#x20;Hardest&#x20;Race&#x20;on&#x20;Earth&quot;,&quot;post_uuid&quot;&#x3A;&quot;3a0f29719b11c9cd6219e3fbe7ad49a6&quot;,&quot;authors&quot;&#x3A;&#x5B;&quot;Devin&#x20;Kelly&quot;&#x5D;,&quot;categories&quot;&#x3A;&#x5B;&quot;outdoor-adventure,exploration-survival&quot;&#x5D;,&quot;tags&quot;&#x3A;&#x5B;&quot;evergreen&quot;,&quot;outside-features&quot;,&quot;ultrarunning&quot;&#x5D;,&quot;publish_date&quot;&#x3A;&quot;July&#x20;29,&#x20;2025&quot;,&quot;domain&quot;&#x3A;&quot;&lt;&lt;analytics_vars.domain&gt;&gt;&quot;,&quot;page_location&quot;&#x3A;&quot;Article&#x20;Top&quot;&#x7D;&#x7D;'><span class="c-share-dropdown__button-text">Share on Facebook</span><?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor"><path d="M27.5517,49.7736h-7.6575c-1.7598,0-3.1906-1.4308-3.1906-3.1906v-14.6768h-4.4669c-1.7598,0-3.1906-1.4308-3.1906-3.1906v-7.6575c0-1.7598,1.4308-3.1906,3.1906-3.1906h4.4669v-3.1906C16.7036,6.5844,23.2868,0,31.3804,0h6.3812c1.7598,0,3.1906,1.4308,3.1906,3.1906v7.6575c0,1.7598-1.4308,3.1906-3.1906,3.1906h-6.3812c-.3515,0-.6381.2867-.6381.6381v3.1906h7.0194c.9921,0,1.9094.4474,2.5176,1.2289.6057.7752.8176,1.7723.5783,2.732l-1.9144,7.66c-.3565,1.4233-1.6277,2.4179-3.0959,2.4179h-5.105v14.6768c0,1.7598-1.4308,3.1906-3.1906,3.1906ZM20.5324,45.9449h6.3812v-15.9531c0-1.0569.8575-1.9144,1.9144-1.9144h6.5208l1.5953-6.3812h-8.1161c-1.0569,0-1.9144-.8575-1.9144-1.9144v-5.105c0-2.4628,2.0041-4.4669,4.4669-4.4669h5.7431V3.8287h-5.7431c-5.9824,0-10.8481,4.8669-10.8481,10.8481v5.105c0,1.0569-.8575,1.9144-1.9144,1.9144h-5.7431v6.3812h5.7431c1.0569,0,1.9144.8575,1.9144,1.9144v15.9531Z" /></svg></a></li><li class="c-share-dropdown__item c-share-dropdown__item--reddit"><a href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.outsideonline.com%2Foutdoor-adventure%2Fexploration-survival%2Fcrew-badwater-135%2F?utm_medium=social&utm_source=reddit&utm_campaign=onsiteshare&title=What%20It%20Takes%20to%20Crew%20the%20Hardest%20Race%20on%20Earth%20%7C%20Outside%20Online" target="_blank" rel="noopener noreferrer" class="c-share-dropdown__button" data-analytics-event="click" data-analytics-data='&#x7B;&quot;name&quot;&#x3A;&quot;Post&#x20;Shared&#x20;Button&#x20;Clicked&quot;,&quot;props&quot;&#x3A;&#x7B;&quot;platform&quot;&#x3A;&quot;Reddit&quot;,&quot;title&quot;&#x3A;&quot;What&#x20;It&#x20;Takes&#x20;to&#x20;Crew&#x20;the&#x20;Hardest&#x20;Race&#x20;on&#x20;Earth&quot;,&quot;post_uuid&quot;&#x3A;&quot;3a0f29719b11c9cd6219e3fbe7ad49a6&quot;,&quot;authors&quot;&#x3A;&#x5B;&quot;Devin&#x20;Kelly&quot;&#x5D;,&quot;categories&quot;&#x3A;&#x5B;&quot;outdoor-adventure,exploration-survival&quot;&#x5D;,&quot;tags&quot;&#x3A;&#x5B;&quot;evergreen&quot;,&quot;outside-features&quot;,&quot;ultrarunning&quot;&#x5D;,&quot;publish_date&quot;&#x3A;&quot;July&#x20;29,&#x20;2025&quot;,&quot;domain&quot;&#x3A;&quot;&lt;&lt;analytics_vars.domain&gt;&gt;&quot;,&quot;page_location&quot;&#x3A;&quot;Article&#x20;Top&quot;&#x7D;&#x7D;'><span class="c-share-dropdown__button-text">Share on Reddit</span><?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor"><path d="M32.9176,24.4066c-.6659,0-1.2908.2606-1.7565.7347-.4681.4729-.719,1.099-.7093,1.736,0,1.362,1.1074,2.4706,2.4706,2.4706s2.4706-1.1086,2.4706-2.4706-1.1099-2.4706-2.4755-2.4706Z"/><path d="M16.9043,29.1391c1.3632,0,2.4706-1.1086,2.4706-2.4706s-1.1099-2.4706-2.473-2.4706c-.6635,0-1.286.2594-1.7516.7286-.4681.4705-.7214,1.093-.7166,1.742,0,1.362,1.1074,2.4706,2.4706,2.4706Z"/><path d="M32.4398,32.3625c-4.6276,1.6986-10.3264,1.6986-14.954,0-.9603-.3498-2.0243.1424-2.3765,1.1026s.1399,2.0243,1.1026,2.3765c2.7215.9989,5.6675,1.5055,8.7509,1.5055s6.0294-.5067,8.7509-1.5055c.9627-.3523,1.4549-1.4163,1.1026-2.3765s-1.4187-1.4525-2.3765-1.1026Z"/><path d="M49.9224,23.4318c.0555-1.8433-.6104-3.5986-1.8747-4.9413-2.2125-2.3524-5.7568-2.7963-8.4518-1.251-3.4885-2.184-7.7828-3.4546-12.3525-3.7899l1.0803-4.8175c.3716-1.6515,1.9567-2.6829,3.6239-2.3524l4.9664.9957c.1173.1971.217.4049.3826.5702.5236.526,1.2208.8155,1.9664.8155h.0024c.7407-.0012,1.438-.2895,1.964-.8131.0024-.0024.0072-.006.0097-.0084,1.0737-1.0857,1.0688-2.847-.0145-3.9255-.5236-.5236-1.2208-.8107-1.9615-.8107h-.0097c-.5777.0018-1.0994.2242-1.5586.5489l-5.0185-1.0061c-3.6456-.7323-7.1513,1.5405-7.9668,5.1741l-1.2508,5.5796c-4.8613.2349-9.4429,1.5336-13.1266,3.8421-2.7071-1.5453-6.2465-1.1002-8.4542,1.2522C.6136,19.8357-.0523,21.5909.0032,23.4342c.0579,1.8421.8276,3.5527,2.1714,4.817.1496.1399.304.269.456.3848-.0193.2557-.029.5043-.029.7455,0,8.868,10.0321,16.082,22.3611,16.082s22.3611-7.214,22.3611-16.082c0-.2425-.0097-.491-.029-.7467.1617-.123.3137-.2509.456-.386,1.3439-1.2631,2.1135-2.9737,2.1714-4.817ZM45.2104,25.5514c-.1689.1604-.4053.3149-.7431.4862-.7286.3691-1.1267,1.1714-.9844,1.9748.0796.4524.1351.9072.1351,1.3692,0,6.7086-8.5434,12.3761-18.6552,12.3761s-18.6552-5.6675-18.6552-12.3761c0-.4608.0579-.9156.1375-1.3632.1424-.801-.2533-1.602-.9772-1.9736-.3523-.181-.5839-.333-.7552-.4934-.6225-.5851-.9796-1.3777-1.0037-2.2306-.0265-.8529.2799-1.6648.8686-2.2873.6201-.6611,1.4693-.9965,2.321-.9965.7697,0,1.5441.2738,2.1521.8288.649.5863,1.6189.6442,2.3259.1351,3.595-2.5744,8.418-3.9918,13.586-3.9918s9.9935,1.4163,13.5884,3.9894c.7069.5079,1.6793.45,2.3259-.1363,1.2787-1.1678,3.2861-1.0906,4.4732.1689.5863.6213.8927,1.4344.8662,2.2873-.0241.8541-.3812,1.6455-1.0061,2.233Z"/></svg></a></li></ul></div></div></div></div><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>  </div>
+  </article>
+                      </div>
+        </div>
+          </main>
+      <section class="c-flexible-layout-modules u-spacing--double ">
+    
+  <div class="c-flexible-layout u-spacing--double">
+                  
+                
+  <div class="c-layout-image c-layout-image--full-bleed ">
+    <div class="c-layout-image__container ">
+            
+  <figure class="o-figure c-layout-image__image">
+          
+    
+  <picture class="o-picture">
+              
+      <img  class="o-image lazy"
+          data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=5:8&width=375&enable=upscale 375w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=5:8&width=500&enable=upscale 500w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=16:9&width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=16:9&width=960&enable=upscale 960w,https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=16:9&width=1200&enable=upscale 1200w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?crop=16:9&width=1600&enable=upscale 1600w"
+            data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/kaylee.jpg?width=500&enable=upscale"
+    alt="runner posing with american flag at badwater basin sign"
+                
+  />
+  </picture>
+              <figcaption class="o-figure__caption o-small u-space--half--top">Kaylee Frederick posing at the beginning of the Badwater 135, at Badwater Basin, 282 feet below sea level. (Photo: Matt Shapiro)</figcaption>
+      </figure>
+    </div>
+  </div>
+                        
+  <section class="c-layout-text l-wrap l-content-wrap">
+    <div class="l-main">
+      <div class="l-container has-sidebar">
+        <div class="c-layout-text__body l-container--m">
+                
+    <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
+      <p>Held in the high heat of the summer in the middle of Death Valley, Badwater 135 is billed as the toughest footrace on earth. Despite the focus in our culture on the limitless potential of individual athletes, the truth is that a race like Badwater shows the deep limitations that each human has if they are not supported by other humans.</p>
+<p>As the race director, Chris Kostman, announced at the athlete briefing, “Seven times more people have summited Mount Everest than have completed this race.” The race begins at the lowest point in North America, the Badwater Basin, which sinks 282 feet below sea level, and where temperatures routinely top out above 120 degrees. (This year, with reported temperatures ranging from 116 to 118 degrees, was labeled a “cool year” by seasoned racers.) From there, the race summits two mountain passes before climbing to the top of Whitney Portal Road, where it finishes above 8,000 feet, right at the base of the hiking trail that climbs to the top of the continental United States’s highest peak. The race begins at nightfall. Runners emerge into morning light somewhere near the mile 42 checkpoint at the small waypoint of Stovepipe Wells, where, in 1926, the first hotel was built in Death Valley, just a few miles from a stovepipe that a thoughtful, considerate prospector shoved into a much-needed well so that travelers could find water that once was perpetually hidden under the valley’s sandy dunes. From there, racers begin a day of running that offers no shade and no respite from the sun. They suffer along a long and lonely road that warps with twirling mirages of heat, where even the wind feels less like a breeze and more like swallowing the inner workings of an oven that has been burning for centuries.</p>
+<p>Because of this, Badwater is perhaps the most intensely and intimately crewed ultramarathon in the world. Runners can bring up to four crew members, who pile themselves into a support vehicle that drives along the course, pulling to the right of the road in any space that is wide enough to accommodate their car. The cars serve as the aid stations; there are no official aid stations other than what the crews provide. At the “Badwater University” website maintained by Kostman, <a href="https://www.badwater.com/blog/ideal-support-vehicle/" data-afl-p="0">one post details</a> the specifications of the “ideal” crew vehicle: a Dodge Caravan—big enough to hold ice and gear, nimble enough to pull to the side of narrow desert and mountain roads. In each support car, runners can find refilled water bottles, new energy gels, anti-chafing lubricant, ice water spray-downs, and constant encouragement. After Stovepipe Wells, individual crew members can join as pacers, running directly behind racers while carrying whatever aid they can.</p>
+<p>Extreme conditions exacerbate the already existing needs of ultramarathoners, thus making hydration, fueling, and cooling sacred. The risk of heat stroke is always possible in the next mile. The closest hospital is, at any time, essentially 100 miles away. “None of you,” Kostman told athletes the day before, “would finish this race unless you had a support crew.” I’d go one step further. If racers attempted to complete the course without a crew, it is not a stretch to say that they would die.</p>
+<p>People do die in Death Valley. Just last year, <a href="https://www.nps.gov/deva/learn/news/motorcycle-fatality-july-2024.htm" data-afl-p="0">a motorcyclist died</a> while riding through temperatures pushing close to 130 degrees. He was surrounded by others, but was beyond help. One of his companions nearly died as well, and probably would have, if a “good Samaritan” hadn’t driven him nearly 20 miles to Furnace Creek before an ambulance drove him another 62 miles to a hospital. It was too hot for helicopters to fly that day. In many ways, it’s a miracle that man survived. He needed, some might say, a crew.</p>
+<p>For what it’s worth, there is a small group of runners who <i>have</i> completed Badwater without a crew, often pushing a stroller loaded with over 200 pounds of aid. Marshall Ulrich did it first in 1999. Jeff Sauter did it later, though he suffered hypothermia as he ascended Mount Whitney. Two women, Lisa Bliss and Dusty Hardman, have also completed this feat. Others have tried and failed. Those who have succeeded have finished the course in a time ranging from 39 to 51 hours longer than the current race record. In other words, if you want to do it alone, it might take you another two days than a crewed attempt. You also, once again, might die.</p>
+<p>Although ultramarathons are considered individual races, they are almost always dotted with aid stations and crew members. These exhibitions of aid are feats of endurance in and of themselves. At the Hardrock 100 Mile, an infamous ultramarathon in Colorado’s San Juan Mountains that climbs 33,000 feet in its entirety, one of the aid stations, Kroger’s Canteen, sits 13,000 feet above sea level, tucked into a notch in Virginius Pass. Staffing, manning, and maintaining the aid station requires volunteers to hike, often multiple times, up and down a 5,000-foot climb from Telluride, only to spend literal days living in a tiny nest of rock and breathing a bare minimum of oxygen.</p>
+<p>Other races, such as the Western States Endurance Run, offer both aid stations and crews. Racers can bring a team of people to support them at aid stations, pace them through the course, and more. Those crews pile into cars and drive mountainous backroads from aid station to aid station, prepping food and ice, before getting it to their runner, packing up, and driving further down the course. When two of my friends, Matt Collins and Nick Synan, and I ran (for fun) across the state of New York years ago, Matt’s brother, Joe, crewed us. He drove a few miles down the road each day in a minivan stocked with turkey sandwiches, cans of Coke, and jars of pickles. He’d look at maps and iron out the route. He offered nothing but support and positivity. Without him, we might still be wandering in a state forest somewhere outside of Binghamton.</p>
+
+</div>
+          </div>
+
+<aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
+    </div>
+  </section>
+                        
+  <div class="c-layout-image-with-blockquote">
+    <div class="c-layout-image-with-blockquote__container">
+        
+  <pullquote class="o-pullquote c-layout-image-with-blockquote__pullquote u-shift--left--at-large has-figcaption" >
+    <div class="o-pullquote__container">
+              “Seven times more people have summited Mount Everest than have completed this race.”
+                </div>
+  </pullquote>
+            
+  <figure class="o-figure c-layout-image-with-blockquote__image">
+          
+    
+  <picture class="o-picture">
+              
+      <img  class="o-image lazy"
+          data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=16:9&width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=16:9&width=960&enable=upscale 960w,https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=16:9&width=1200&enable=upscale 1200w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=8:3&width=1600&enable=upscale 1600w"
+            data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-pullquote.jpg?crop=25:14&width=500&enable=upscale"
+    alt="desert road with mountains in back and runner running"
+                
+  />
+  </picture>
+              <figcaption class="o-figure__caption o-small u-space--half--top">Canadian runner Jeff Pelletier on the course (Photo: Floris Gierman)</figcaption>
+      </figure>
+    </div>
+  </div>
+                        
+  <section class="c-layout-text l-wrap l-content-wrap">
+    <div class="l-main">
+      <div class="l-container has-sidebar">
+        <div class="c-layout-text__body l-container--m">
+                
+    <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
+      <p>Thinking of crewing someone as they run through Death Valley is like thinking of crewing someone as they run through a 146,000,000,920-square-foot pizza oven. It is a strange place. I noticed, upon arrival, that everything is named after the devil. Devil’s Cornfield. Devil’s Golf Course. If the devil lived in a miner’s cabin, I am sure it would be alongside Furnace Creek, which is where the devil bathes. There are ghost towns, like Cerro Gordo, hidden high in the hills, at the tail end of roads that snake their way through canyons where vultures no longer fly, the bones of long-dead miners already picked clean. And there are the remnants of small industries built around sulfate and borax, the latter of which is used to kill insects. I saw, once, a lone dragonfly float above the road. But only once. And yet, there is still life.</p>
+<p>A small town of Darwin, five miles up from Owens Lake, has a town population sign that reads “50…Or So.” There, I met a woman named Ursula, who drives down to watch the race each year. In town, there are over a dozen sculptures in plain view, scattered into different people’s yards. Some are porcelain bone-white, gesturing at the soft sensuality of bodies. Others: a remarkable, polished darkness. Cubes of what must be granite, shined so bright and so smooth I could have cleaned my teeth with them as my mirror. Above, a sun burned the ends of my hair. Sometimes in the Valley, you realize that you are the only proof of life. Nothing is a ghost town if you are standing in it. However, for two days in July, this long and lonely road through the desert is filled with people.</p>
+<p><script src="https://cdn.jwplayer.com/players/4FxFUewS-fyTDUKlw.js"></script></p>
+<p>This year, I embedded with Frederick’s crew, joining Boyd, Myers, and Sisson as they supported Frederick in her quest to finish her third straight Badwater. I wanted to learn the story of not just Frederick’s run, but also the behind-the-scenes adventures of care that made her run possible. I arrived in Badwater Basin an hour before Frederick’s 9 P.M. start time. Temperatures still hovered above 100 degrees. I walked out onto the salt flats and turned around. Racers gathered at the bottom of a steep, thousand-foot cliff that looms over the country’s lowest point. The setting sun illuminated the top of the rock. It shone candle-like beneath a rising moon. I felt like kindling in a great, big fire.</p>
+<p>Myers, Boyd, and Sisson made final preparations to the support vehicle, a white Ford Expedition that housed four large coolers in its trunk: one filled with Tailwind drink mix, one filled with water, one filled with ice, and one filled with assorted food—Uncrustables, watermelon slices, oranges, and more. There were baggies of lubricant, lip balm, pain relievers, and nearly 100 energy gels (Frederick prefers Science in Sport’s isotonic gels). What else? Ice bandanas. Ice hats. An array of Mount to Coast’s shoes and sun hoodies and singlets for wardrobe changes. A neon light shaped in the letter “K,” so that Frederick could see the vehicle from a distance at night, and know that aid was coming soon. And, finally, a rock about the size of a cantaloupe that Boyd was overjoyed to find a couple of miles into the race—something to rest the neon light upon when we stopped.</p>
+<p>Both Boyd and Sisson know Frederick from her hometown of Johnstown, Pennsylvania, and Boyd has run more than a few races alongside Frederick. Not long before Badwater, he was bested by Frederick at the Laurel Highlands Ultra as Frederick ran to a second-place finish and the race’s second-fastest time ever, losing only to Deanna Done, who ran 12 hours and 51 minutes to Frederick’s 13 hours and 12 minutes. Both times were under the previous course record.</p>
+<p>Boyd and Sisson are counterbalances to each other. Boyd is hard-wired, a ball of frenetic energy, always saying he will sleep but never actually does. The day before Badwater, he summited Mount Whitney: 20 miles out and back with 6,000 feet of climbing. He has a knack for the off-kilter thought that rises, in some inexplicable way, to the level of poetry. I kept note of them on a separate page. I called them Andy-ism’s.</p>
+<p>“It’s 98 degrees,” he said, looking at the car’s thermometer. “That means it’s still chilly.”</p>
+<p>“We’re in the right church,” he said once while we waited in the darkness for Frederick, “but the wrong pew.”</p>
+<p>Sisson is calmer, organizing Boyd’s energy into specificity. In the crew car, Sisson kept a binder of spreadsheeted pages, with a table for each pit stop where Sisson recorded the air temperature, Frederick’s arrival time, Frederick’s departure time, and the amount of fluid and gels she’d consumed in between the past stop and the current one. There was a space within each table to record any of Frederick’s requests or any of our own noticings. By the end of the race, Frederick had consumed over 50 gels, 500 ounces of fluid, a couple of caffeine pills, four Tylenols, and a handful of French fries. Sisson had taken note, too, of her mood and her body’s needs. At one point, Sisson—concerned and doting—went to the bathroom with Frederick so she could assess the color of her urine. Her care knew no bounds.</p>
+<p>And then there was Liz Myers, who helped crew another runner at Badwater last year, and crewed Frederick at the 2024 Keys 100—a hot, exposed ultramarathon that runs the length of the Florida Keys. A latecomer to the ultra scene who only started running seriously a few years ago, she now hosts a podcast, <i>Tribe of Runners</i>, and has transitioned from a student of the game to a teacher of it. She and Boyd have a similar sparky spunk—unafraid to toss out a new idea and speak their mind. Together, the crew has five years of Badwater experience. All in their thirties and each over a decade older than Frederick, they seem like a motley, sleep-deprived, half-crazed family of an uncle and two aunts, cheering on a niece with big dreams. By the end of the race, I had peed into more than a few desert shrubs next to Boyd, had watched Myers emerge from behind a tree after having filled a Biffy Bag, and had turned my back to Sisson so that she could change—head to toe and everything in between—into a completely different outfit. This is just to say: they were a welcoming family.</p>
+
+</div>
+          </div>
+
+<aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
+    </div>
+  </section>
+                        
+  
+  <div class="c-layout-image-side-by-side l-wrap">
+    <div class="c-layout-image-side-by-side__container l-container">
+                                              
+  <figure class="o-figure c-layout-image-side-by-side__image">
+          
+    
+  <picture class="o-picture">
+              
+      <img  class="o-image lazy"
+          data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/the-k.jpg?crop=1:1&width=720&enable=upscale 720w"
+            data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/the-k.jpg?crop=1:1&width=500&enable=upscale"
+    alt="runner with crew member and glowing K"
+                
+  />
+  </picture>
+              <figcaption class="o-figure__caption o-small u-space--half--top">Frederick posing at the van with the neon K next to crew member Marissa Sisson (Photo: Devin Kelly)</figcaption>
+      </figure>
+                                              
+  <figure class="o-figure c-layout-image-side-by-side__image">
+          
+    
+  <picture class="o-picture">
+              
+      <img  class="o-image lazy"
+          data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/strong-mind.jpg?crop=1:1&width=720&enable=upscale 720w"
+            data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/strong-mind.jpg?crop=1:1&width=500&enable=upscale"
+    alt=""Strong mind, strong finish" written on arm"
+                
+  />
+  </picture>
+              <figcaption class="o-figure__caption o-small u-space--half--top">A reminder written on Frederick's arm: "Strong mind, strong finish" (Photo: Devin Kelly)</figcaption>
+      </figure>
+          </div>
+  </div>
+                        
+  <section class="c-layout-text l-wrap l-content-wrap">
+    <div class="l-main">
+      <div class="l-container has-sidebar">
+        <div class="c-layout-text__body l-container--m">
+                
+    <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
+      <p>The race started at seemingly just the moment that the sky turned an unimaginable shade of darkness: blue-black and deep. The runners became headlamps and neon vests, little dots of light bouncing along the horizon line. At the start of the race, Frederick maintained a steady, relaxed pace, with Boyd ecstatic about her quiet confidence. On Frederick’s arm, written in Sharpie, was the phrase <i>Strong mind, strong finish</i>.</p>
+<p>The crewing began the moment the race did, with Boyd driving a few miles ahead and pulling to the side of the road along with other support vehicles. We searched for Frederick’s lamp-lit arrival under a night sky freckled with stars. This announced the cadence of the day. Frederick kept running through our early aid stations, slowing just enough to grab a new handheld bottle while we spritzed her down with cold water. Even at 10 P.M., it was still 103 degrees. As she ran away, the crew discussed. Sisson wrote down notes in her spreadsheets. She measured the water level of each bottle Frederick returned. She did this calmly. And then she calmly let us know something: Frederick wasn’t drinking enough—only 6 to 8 ounces of each 16-ounce bottle. And so, Boyd’s work began.</p>
+<p>“I’ll talk to her,” he said. “I won’t be too hard on her. She knows what she needs to do. She just needs a reminder.”</p>
+<p>A mile later, under a wide, big moon, Boyd leaned out the window.</p>
+<p>“We need you to drink,” he said. And she did.</p>
+<p>In the car in between our mobile aid stations, we discussed strategy and tried to build the foundations of a strong relationship that would last over 30 near-sleepless hours in a 100-square-foot car. We talked about what we do when we’re tired or stressed. Boyd, naturally insane, gets a bit more insane. And Myers, naturally energetic, quiets down. I, too, get quiet. To be honest, I get a little sad. We talked about the importance of being forces of calm in the ever-changing world of Frederick’s individual journey. We joked. When Myers suggested a swap from water to Tailwind early in the race, Boyd responded, “You’ve got it, man.” Myers immediately shot back. “You’ve got it, woman,” she said. We all—in the pitch dark of early morning—laughed. Sometime around 2 A.M., one of us sprayed another racer with cold water. They spread their arms, overjoyed. Looking up and down the lone road through Death Valley, I saw nothing but stars above and the blinking hazard lights of cars miles ahead and miles behind. There were constellations decorating the night sky and constellations decorating the desert. It wasn’t the runners I saw; it was the crews.</p>
+<p>By morning, though, the race took on a new shape. There was the brief newness that light provided, followed by the long, drawn-out agony that followed. Around 7 A.M., the race became desolate and isolating. Runners were spread out along the 135-mile course, and I could no longer see the lights of other crew cars ahead and behind. The temperature rose, it seemed, by the minute. And so, too, did the delirium. Around the 54th mile, the crew car felt trapped in a hazy lull. We were a literal half day into the race, tired, lethargic, still trying to troubleshoot. Frederick’s fingers and feet had swelled up throughout the morning. We debated strategies. At the next aid station, she was given a bottle of Pedialyte. She was told to drink. She did as she was told.</p>
+
+</div>
+          </div>
+
+<aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
+    </div>
+  </section>
+                        
+                
+  <div class="c-layout-image c-layout-image--default l-wrap u-shift--left--at-large">
+    <div class="c-layout-image__container l-container">
+            
+  <figure class="o-figure c-layout-image__image">
+          
+    
+  <picture class="o-picture">
+              
+      <img  class="o-image lazy"
+          data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=375&enable=upscale 375w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=500&enable=upscale 500w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=800&enable=upscale 960w"
+            data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/badwater-crew.jpg?width=500&enable=upscale"
+    alt="running crew poses at race finish"
+                
+  />
+  </picture>
+              <figcaption class="o-figure__caption o-small u-space--half--top">From left: The author, Sisson, Frederick, Boyd, Myers (Photo: AdventureCORPS Badwater, Badwater.com)</figcaption>
+      </figure>
+    </div>
+  </div>
+                        
+  <section class="c-layout-text l-wrap l-content-wrap">
+    <div class="l-main">
+      <div class="l-container has-sidebar">
+        <div class="c-layout-text__body l-container--m">
+                
+    <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
+      <p>I set out to pace Frederick at mile 54, 18 miles before Panamint Springs, as she climbed up to Towne Pass, which sits at 5,000 feet. Before I went off, Boyd strapped an old-school gym interval trainer to my waist, which he set to beep at 100 seconds and then again at 20 seconds. “We need to keep her reined in,” Boyd told me. We’d powerhike for 100 seconds, and jog for 20. This is how Frederick climbed: steady, relentless, metronomic. When she summited the pass, the beeper came off, and Sisson paced a flying Frederick who seemed to careen downhill.</p>
+<p>The valley after Towne Pass feels like <i>the</i> Death Valley. From the summit of the pass, you can see the long road stretching out ahead, the waystop of Panamint Springs looming strange and surreal like some ancient town in the distance. In this oven-like chamber between two ridgelines, the heat swells. I could feel it in my mouth. I put my hand on the car’s window, and it simmered. At one aid stop, Sisson noticed Frederick’s legs were chewed up and red with pending heat rash, and she asked Frederick to stand still. Sisson got down on her knees and slathered Frederick’s legs in diaper rash cream. Right there. On the side of the road. By the end of the race, Frederick’s legs were so covered in the zinc-filled, pasty, and white rash cream that I imagine she could’ve been inches away from the sun and not been burned at all. As Frederick ran down that lone valley road, other runners dry-heaved in the distance. They were like twigs cracking under an invisible weight.</p>
+<p>At Panamint Springs, I ordered cheeseburgers for the whole crew. It was the last opportunity, they said, for “real food.” The cheeseburgers disappeared the moment I brought them into the car. “I should save half of this,” Myers said. There was a brief pause. Myers, normally chatty, was not talking. I looked at her. She was devouring her whole cheeseburger. Spectators were staked out at the Panamint Springs General Store, in a crowd of neon-vested race volunteers with Wi-Fi hotspots, cold beers, and water, trying to transcribe and update the race in real time for the niche world of ultrarunning. Racers and crew members wandered between them like dazed and tired fans at a musical festival. I watched as a man covered head to toe in white nylon tried to order French fries from the bar, a vagabond astronaut hurtled back into this world. People gravitated to and hovered around Frederick, the 40th runner to reach the checkpoint, as if she were some wayward pilgrim from a distant land, bringing news for all to hear. I met Starshine, a member of the Badwater staff who told me, “Kaylee is like my niece.” Ursula was there, too, having driven from Darwin, 50 miles away. They just wanted to see her, to make sure she was OK.</p>
+<p>Leaving the mile 72 marker at Panamint Springs with temperatures well above 100 degrees, runners ascend a multi-thousand-foot climb to a vista that looks out over canyons that dip into one another, layered with color. Everything is sunburnt and hissing in the hot wind. The road twists into switchbacks, and it narrows so much that there are fewer places to see your crew. You are alone longer and exposed. The air thins, and the beauty of the world is at once stunning and insufferable. Frederick began to hurt. She started to overheat. Sisson, forever attentive, packed her hat with ice. She stuffed more ice into her bra. We tried to turn her into an unplugged refrigerator that still kept its contents cool, refilling her body with ice every few miles.</p>
+<p>Frederick reached a low point at mile 83. She was nauseous; she had no desire for food. She was loopy and starting to enter a hallucinatory stretch, where she would later attest to seeing a shelf of coffee mugs laid out perfectly alongside the road, a butterfly walking backward, painting the highway’s yellow lines with its wings.</p>
+<p>“I just feel sad,” she said. “I can’t stop at the car anymore; otherwise, I’ll get too sad.”</p>
+<p>A crew exists to meet needs and to anticipate them. For roughly a marathon, I watched this happen in real time.  We improvised. We grew more mobile. We had ice bandannas ready upon arrival; one for her neck, one for her bra. As Frederick ran past the crew car, she dropped her melted bandannas on the ground, along with her water bottle, and whoever was pacing her picked up her new bandannas and bottle and ran them over to her. We were approaching 24 hours of being awake, and yet, I watched Boyd, Myers, and Sisson recommit to good humor and care. When Boyd was pacing a still-beleaguered Frederick, it was Myers who leaned out the window.</p>
+<p>“Look at that gorgeous princess,” she said to Frederick.</p>
+<p>“Thank you,” Boyd said, waving a hand, giggling, a slight man of mischief running through the desert.</p>
+<p>I could’ve sworn, in that moment, that I saw Frederick smile.</p>
+
+</div>
+          </div>
+
+<aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
+    </div>
+  </section>
+                        
+  <div class="c-layout-image-with-blockquote">
+    <div class="c-layout-image-with-blockquote__container">
+        
+  <pullquote class="o-pullquote c-layout-image-with-blockquote__pullquote u-shift--left--at-large has-figcaption" >
+    <div class="o-pullquote__container">
+              There were constellations decorating the night sky and constellations decorating the desert. It wasn’t the runners I saw; it was the crews.
+                </div>
+  </pullquote>
+            
+  <figure class="o-figure c-layout-image-with-blockquote__image">
+          
+    
+  <picture class="o-picture">
+              
+      <img  class="o-image lazy"
+          data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=16:9&width=720&enable=upscale 720w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=16:9&width=960&enable=upscale 960w,https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=16:9&width=1200&enable=upscale 1200w, https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=8:3&width=1600&enable=upscale 1600w"
+            data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/dark.jpg?crop=25:14&width=500&enable=upscale"
+    alt="crew member helps racer"
+                
+  />
+  </picture>
+              <figcaption class="o-figure__caption o-small u-space--half--top">A crew member helps a runner (Photo: Floris Gierman)</figcaption>
+      </figure>
+    </div>
+  </div>
+                        
+  <section class="c-layout-text l-wrap l-content-wrap">
+    <div class="l-main">
+      <div class="l-container has-sidebar">
+        <div class="c-layout-text__body l-container--m">
+                
+    <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
+      <p>That small switch of mood, a gentle nudge towards joy, is part of the work of a crew. I remember how, the day after the race, I walked into Jake’s Saloon, Lone Pine’s lone bar—the kind of place with swinging doors, a trough to piss in, and a bartender who went to the local high school and has never left town. I pulled up to a table of crew members and pacers for other runners. Smelly, tired, smiling crackerjack smiles and drinking Coors Light, they were swapping stories of life <i>out there</i>. They reminded me of teachers at the school’s end-of-year happy hour. When I asked them about how they made it through, one person—Frank Bigham, who crewed 11th-place finisher David Bone—mentioned something similar to that marathon of miles I’d experienced with my crew. Bingham said the crew adopted a “pit stop crewing” mentality in the later stages of the race, trying to minimize any time spent standing or sitting still. Bingham said they kept repeating one phrase over and over again: “Stop is the enemy.”</p>
+<p>Frederick only stopped once in the time between miles 75 and the finish—at mile 104, along a straight road that seemed to never end. Myers set a five-minute timer, and Frederick put her cream-covered legs up on the car’s dashboard and drank a Mountain Dew. In the meantime, the crew was hard at work—lacing up new shoes, grabbing a fresh singlet, refilling bottles. When Frederick stood up, it was for the last time. She wouldn’t sit until the finish.</p>
+<p>As we turned into Lone Pine to begin the half-marathon ascent of Mount Whitney, I got the sense that Frederick had been distilled into a person whose focus was so singular that she only needed someone to show her direction. That someone was Boyd. Frederick asked him to pace the miles into the base of the climb, and it was then that Boyd told her, finally, that she was on pace to break the age-group record. This was the final arrow in his quiver. Use it too early, and Frederick might blow herself up. Use it too late, and Frederick might run out of time. Standing outside the crew car a couple of miles up the Whitney Portal Road, we saw Frederick minutes before we had predicted. It looked like she was sprinting. Boyd threw me the belt that held the pacing bib.</p>
+<p>“Keep up with her,” he said.</p>
+<p>Of the nearly 20 miles I ran with Frederick that day, those two miles up Mount Whitney were the fastest. Only two people in the entire race ran Mount Whitney Portal Road faster than Frederick; they finished second and third overall, and they are both men. Frederick passed nearly 15 people from mile 90 onward, and she seemed to carry us up the mountain, swapping through the four of us as we changed her bottles and chugged our own coffees under a Milky Way of stars that kept getting closer and closer. Boyd took her the final stretch, and her crew joined for the last few meters, crossing the finish line together, the female 20 to 29 age group record broken by over half an hour. Frederick ran 31 hours and 54 minutes, still a ways off the 21-hour, 44-minute performance of Ashley Paulson, but faster than any woman under the age of 30 has ever run Badwater.</p>
+<p>“Are you proud? Are you proud?” Frederick kept saying.</p>
+<p>“Of course. Of course,” Boyd kept saying.</p>
+
+</div>
+          </div>
+
+<aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
+    </div>
+  </section>
+                        
+  
+  <div class="c-layout-image-side-by-side l-wrap">
+    <div class="c-layout-image-side-by-side__container l-container">
+                                              
+  <figure class="o-figure c-layout-image-side-by-side__image">
+          
+    
+  <picture class="o-picture">
+              
+      <img  class="o-image lazy"
+          data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/finish-2.jpg?crop=1:1&width=720&enable=upscale 720w"
+            data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/finish-2.jpg?crop=1:1&width=500&enable=upscale"
+    alt="Frederick crossing the finish line"
+                
+  />
+  </picture>
+              <figcaption class="o-figure__caption o-small u-space--half--top">Frederick crossing the finish line (Photo: AdventureCORPS Badwater, Badwater.com)</figcaption>
+      </figure>
+                                              
+  <figure class="o-figure c-layout-image-side-by-side__image">
+          
+    
+  <picture class="o-picture">
+              
+      <img  class="o-image lazy"
+          data-srcset="https://cdn.outsideonline.com/wp-content/uploads/2025/07/hug.jpg?crop=1:1&width=720&enable=upscale 720w"
+            data-src="https://cdn.outsideonline.com/wp-content/uploads/2025/07/hug.jpg?crop=1:1&width=500&enable=upscale"
+    alt="Sisson and Frederick hugging"
+                
+  />
+  </picture>
+              <figcaption class="o-figure__caption o-small u-space--half--top">Sisson and Frederick hugging (Photo: AdventureCORPS Badwater, Badwater.com)</figcaption>
+      </figure>
+          </div>
+  </div>
+                        
+  <section class="c-layout-text l-wrap l-content-wrap">
+    <div class="l-main">
+      <div class="l-container has-sidebar">
+        <div class="c-layout-text__body l-container--m">
+                
+    <div class="o-rich-text has-dropcap c-layout-text__text"  data-inject-ads=true data-inject-ads-options='{"markup":["<div class=&#39;o-ad-wrap&#39;><div class=&#39;js-ad js-scroll-load&#39; data-child-zone=&#39;in-content-leaderboard-ool&#39; data-size=&#39;[\"fluid\",[300,250],[1,1]]&#39;><\/div><\/div>"],"filter":{"nextExceptions":"img, blockquote, div","nextContainsExceptions":"img, blockquote, a.btn, a.o-button"},"renderIntial":true,"wordCount":350}'>
+      <p>At the finish line, the morning moon was disappearing, and the top of the Eastern Sierras began to glow with the burnt orange of morning. There were only a few people, I thought, closer to the sun or moon in the country than any of us were. I thought about how, 32 hours earlier, I had walked out into Badwater Basin on the salt flats, far enough away from the start line that I felt as close to alone as I could. There, nearly 300 feet below sea level, standing on a dried lakebed of thick, desert-like salt, I had the distinct sensation that no one else in the country was as far away from the moon as I was. In such a landscape, I felt more on the moon than on Earth. It was lonely. We are a lonely species despite our togetherness. But there is something about running through one of the loneliest stretches of land on Earth that reminds me of how much we need each other.</p>
+<p>It’s funny. A day after the race, a friend asked me: “Do you know who Michael Collins is?”</p>
+<p>I didn’t. Turns out, he was the one flying the Apollo 11 command module around the moon while Neil Armstrong and Buzz Aldrin walked on the surface down below. He sat there, somewhere out in space, waiting for them. Without him, they wouldn’t have made it home alive.</p>
+
+</div>
+          </div>
+
+<aside class="c-sidebar u-spacing c-content__aside u-no-spacing-top-until-large"><div class="o-ad o-ad--right-rail u-align--center u-full-width is-sticky"><div class="js-ad js-scroll-load " data-child-zone="right-rail-ool" data-size="[[300,250],[300,600],[160,600],[1,1]]" data-size-map="[[[961,0],[[300,600],[300,250],[160,600],[1,1]]],[[0,0],[]]]"></div></div></aside>      </div>
+    </div>
+  </section>
+            </div>
+    <div class="l-wrap u-shift--left--at-large">
+      <div class="l-container u-spacing">
+                                      <div class="u-flex">
+          <div class="c-utility-tray">
+                                        
+          <script async src="data:text/javascript,%20%20%20%20%20%20function%20getFlags%28initialFlags%29%20%7B%20%20%20%20%20%20%20%20let%20flags%20%3D%20initialFlags%3B%20%20%20%20%20%20%20%20if%20%28flags%29%20return%20flags.detail%3B%20%20%20%20%20%20%20%20const%20ampFlagStore%20%3D%20localStorage.getItem%28%27ampflags%27%29%3B%20%20%20%20%20%20%20%20if%20%28%21ampFlagStore%29%20return%20null%3B%20%20%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%20%20%20flags%20%3D%20JSON.parse%28ampFlagStore%29%3B%20%20%20%20%20%20%20%20%7D%20catch%20%28e%29%20%7B%20%20%20%20%20%20%20%20%20%20console.log%28%27error%20parsing%20ampflags%3A%20%27%2C%20e%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20return%20flags%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20function%20displayCommentButton%28initialFlags%29%20%7B%20%20%20%20%20%20%20%20const%20flags%20%3D%20getFlags%28initialFlags%29%3B%20%20%20%20%20%20%20%20if%20%28flags%20%26%26%20flags%5B%27enable-comment-button%27%5D%29%20%7B%20%20%20%20%20%20%20%20%20%20const%20styleComment%20%3D%20document.createElement%28%27style%27%29%3B%20%20%20%20%20%20%20%20%20%20const%20commentLinks%20%3D%20document.querySelectorAll%28%22.js-comment-e1ae6800-6c12-11f0-8080-80002e5c68e8%22%29%3B%20%20%20%20%20%20%20%20%20%20commentLinks.forEach%28%28link%2C%20index%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20%20%20%20%20%20%20link.classList.remove%28%22u-hide%22%29%3B%20%20%20%20%20%20%20%20%20%20%7D%29%3B%20%20%20%20%20%20%20%20%20%20styleComment.innerText%20%2B%3D%20%27.o-utility-button.o-utility-button__comment%20%7Bdisplay%3A%20inline-flex%7D%27%3B%20%20%20%20%20%20%20%20%20%20document.head.appendChild%28styleComment%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%7D%20%20%20%20%20%20function%20determineButtonsVisibility%28event%29%20%7B%20%20%20%20%20%20%20%20displayCommentButton%28event%29%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20determineButtonsVisibility%28%29%3B%20%20%20%20%20%20window.addEventListener%28%22flagsready%22%2C%20determineButtonsVisibility%2C%20false%29%3B%20%20%20%20"></script>
+
+<a class="js-comment-e1ae6800-6c12-11f0-8080-80002e5c68e8 o-utility-button o-utility-button__comment u-hide"
+      href="/activity/e1ae6800-6c12-11f0-8080-80002e5c68e8"
+      target="_blank"
+      data-analytics-event="click"
+      data-analytics-data='{"name": "Element Clicked", "props": {"name": "Comment", "type": "ContentArticle", "domain": "<<analytics_vars.domain>>", "source": "web", "destination": "/activity/e1ae6800-6c12-11f0-8080-80002e5c68e8", "page_location": "Article Bottom" }}'
+    >
+      <div class='o-utility-button__icon comment'></div>
+      <span>Comment</span>
+    </a>
+  
+          <out-high-five-reaction contentUid="https://www.outsideonline.com/outdoor-adventure/exploration-survival/crew-badwater-135/" displayCounter></out-high-five-reaction>
+  
+  </div>
+        </div>
+        
+  
+  <div class="c-tags">
+    <span class="c-tags__title">Filed to:</span>
+    <ul class="c-tags__list">
+                      <li class="c-tags__item" data-tag="evergreen">
+            
+  <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/evergreen/" target="_self" >
+              evergreen
+          </a>
+        </li>
+                              <li class="c-tags__item" data-tag="outside-features">
+            
+  <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/outside-features/" target="_self" >
+              Long Reads
+          </a>
+        </li>
+                              <li class="c-tags__item" data-tag="ultrarunning">
+            
+  <a class="o-link o-link--small c-tags__link" href="https://www.outsideonline.com/tag/ultrarunning/" target="_self" >
+              Ultrarunning
+          </a>
+        </li>
+                  </ul>
+  </div>
+
+<small class="o-small u-display--block">
+    Lead Photo: Matt Shapiro
+  </small>
+      </div>
+    </div>
+  </section>
+    
+<div class="o-ad-footer l-wrap u-flex u-justify-content--center u-padding--double--top">
+  <div class="o-ad o-ad--footer">
+    <div class="js-ad" data-child-zone="footer-ool" data-size='["fluid",[970,250],[728,90],[468,60],[320,100],[320,50],[300,250],[300,100],[300,50],[336,280],[1,1]]' data-size-map='[[[1100, 0],[[970,250],[1,1]]],[[970, 0],[[728, 90],[468, 60],[1,1]]],[[728, 0],["fluid",[468, 60],[1,1]]],[[0, 0],["fluid",[300, 250],[320, 100],[300, 100],[320, 50],[300, 50],[336,280],[1,1]]]]'></div>
+  </div>
+</div>
+
+<footer class="c-main-footer u-text-align--center ">
+  <div class="l-wrap">
+                  <div class="c-main-footer__inner u-spacing--triple">
+                      <section class="c-magazine-promo o-section u-spacing">
+                              <h2 class="o-section__heading">Join Outside+</h2>
+              
+                              <a class="c-magazine-promo__cover u-display--inline-block" href="/outsideplus">
+                  <img class="lazy" data-src="https://cdn.outsideonline.com/wp-content/uploads/2023/10/Landing-Image-bottom-1-1.png?width=200" alt="" width="200" height="263">
+                </a>
+              
+                              <div class="u-spacing--double u-space--triple--bottom">
+                                      <p bp="4--max" class="c-magazine-promo__copy u-center-block u-font--secondary u-padding--half--right u-padding--half--left"><strong>Enjoy coverage of racing, history, food, culture, travel, and tech with access to unlimited digital content from Outside Network's iconic brands.</strong></p>
+                                                        <a href="/outsideplus" class="c-magazine-promo__cta o-button o-button--gold" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"destination_url": "/outsideplus", "domain": "<<analytics_vars.domain>>", "name": "footer-print-subscribe", "type": "button"}}'>Learn More</a>
+                                  </div>
+                            <div class="c-main-footer__social">
+                <div class="c-utility-links">
+
+<a aria-label="Visit our Facebook page" href="https://www.facebook.com/outsidemagazine" class="c-utility-links__link o-icon u-icon--m" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"domain": "<<analytics_vars.domain>>", "name": "social-profile-facebook", "type": "button"}}' target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>Facebook Icon</title><path d="M294.51,509.5V256h68.84l9-87.34H294.51l.12-43.73c0-22.83,2.16-35.08,34.36-35.08h43V2.5H303c-82.78,0-111.85,42.41-111.85,113.65v52.38H139.64V256H191.3V509.5Z"/></svg>
+</a>
+
+<a aria-label="Visit our Twitter page" href="https://twitter.com/outsidemagazine" class="c-utility-links__link o-icon u-icon--m" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"domain": "<<analytics_vars.domain>>", "name": "social-profile-twitter", "type": "button"}}' target="_blank"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.4702 12.703L28.3982 0H25.8086L16.3198 11.0298L8.74111 0H0L11.4605 16.679L0 30H2.58974L12.6102 18.3522L20.6138 30H29.3549L17.4695 12.703H17.4702ZM13.9232 16.8259L12.762 15.1651L3.52286 1.94952H7.50055L14.9566 12.6149L16.1178 14.2758L25.8098 28.1391H21.8321L13.9232 16.8266V16.8259Z" fill="black"/>
+</svg>
+</a>
+
+<a aria-label="Visit our Instagram page" href="https://www.instagram.com/outsidemagazine" class="c-utility-links__link o-icon u-icon--m" data-analytics-event="click" data-analytics-data='{"name": "Element Clicked", "props": {"domain": "<<analytics_vars.domain>>", "name": "social-profile-instagram", "type": "button"}}' target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>Instagram Icon</title><path d="M256,49.47c67.27,0,75.23.26,101.8,1.47,24.56,1.12,37.9,5.22,46.78,8.67a78.05,78.05,0,0,1,29,18.84,78.05,78.05,0,0,1,18.84,29c3.45,8.88,7.55,22.22,8.67,46.78,1.21,26.56,1.47,34.53,1.47,101.8s-.26,75.23-1.47,101.8c-1.12,24.56-5.22,37.9-8.67,46.78a83.43,83.43,0,0,1-47.81,47.81c-8.88,3.45-22.22,7.55-46.78,8.67-26.56,1.21-34.53,1.47-101.8,1.47s-75.24-.26-101.8-1.47c-24.56-1.12-37.9-5.22-46.78-8.67a78.05,78.05,0,0,1-29-18.84,78.05,78.05,0,0,1-18.84-29c-3.45-8.88-7.55-22.22-8.67-46.78-1.21-26.56-1.47-34.53-1.47-101.8s.26-75.23,1.47-101.8c1.12-24.56,5.22-37.9,8.67-46.78a78.05,78.05,0,0,1,18.84-29,78.05,78.05,0,0,1,29-18.84c8.88-3.45,22.22-7.55,46.78-8.67,26.56-1.21,34.53-1.47,101.8-1.47m0-45.39c-68.42,0-77,.29-103.87,1.52S107,11.08,91,17.31A123.49,123.49,0,0,0,46.36,46.36,123.49,123.49,0,0,0,17.31,91C11.08,107,6.82,125.32,5.6,152.13S4.08,187.58,4.08,256s.29,77,1.52,103.87S11.08,405,17.31,421a123.49,123.49,0,0,0,29.06,44.62A123.49,123.49,0,0,0,91,494.7c16,6.23,34.34,10.49,61.15,11.71s35.45,1.52,103.87,1.52,77-.29,103.87-1.52S405,500.92,421,494.7A128.82,128.82,0,0,0,494.7,421c6.23-16,10.49-34.34,11.71-61.15s1.52-35.45,1.52-103.87-.29-77-1.52-103.87S500.92,107,494.7,91a123.49,123.49,0,0,0-29.06-44.62A123.49,123.49,0,0,0,421,17.31C405,11.08,386.68,6.82,359.87,5.6S324.42,4.08,256,4.08Z"/><path d="M256,126.64A129.36,129.36,0,1,0,385.36,256,129.36,129.36,0,0,0,256,126.64ZM256,340a84,84,0,1,1,84-84A84,84,0,0,1,256,340Z"/><circle cx="390.48" cy="121.52" r="30.23"/></svg>
+</a>
+
+</div>
+              </div>
+            </section>
+                  </div>
+            </div>
+            <div style="margin-top: 20px">
+    <style>
+  .manage-cookies-button {
+    font-family: 'Plus Jakarta Sans', Helvetica, sans-serif;
+    font-size: 12px;
+    position: static;
+    top:0;
+    right: 0;
+    padding: 0;
+
+}
+</style>
+
+<out-footer
+  theme="light"
+  facebookLink="https://www.facebook.com/outsidemagazine"
+  twitterLink="https://www.twitter.com/outsidemagazine"
+  instagramLink="https://www.instagram.com/outsidemagazine"
+  tiktokLink=""
+  linkedinLink=""
+  pinterestLink=""
+  sitemap="https://www.outsideonline.com/site-map"
+  digitalArchive="https://www.outsideonline.com/magazine-issues"
+  gearUpGiveBack="https://www.outsideonline.com/outdoor-gear/gear-news/gear-up-give-back"
+  licensingAndAccolades="https://info.wrightsmedia.com/outside-licensing-reprints"
+  affiliates="https://www.avantlink.com/programs/33061/"
+>
+  <button type="button" class="manage-cookies-button cmp-revoke-consent" slot="manage-cookies-button">
+    Manage Cookie Preferences
+  </button>
+</out-footer>
+    </div>
+  </footer>
+
+<script async src="data:text/javascript,%20%20%20%20customElements.whenDefined%28%22out-footer%22%29.then%28%28%29%20%3D%3E%20%7B%20%20%20%20const%20pomFooter%20%3D%20document.querySelector%28%22out-footer%22%29%3B%20%20%20%20const%20ACCOUNTS_BASE_URL%20%3D%20%27https%3A%2F%2Faccounts.outsideonline.com%2Foidc-frontend%27%3B%20%20%20%20const%20SUBSCRIBER_ROLES%20%3D%20%5B%20%20%20%20%27paid_membership%27%2C%20%20%20%20%27trial_membership%27%2C%20%20%20%20%27trial_membership_canceled%27%2C%20%20%20%20%27paid_membership_canceled%27%2C%20%20%20%20%27paid_membership_renew_pending%27%20%20%20%20%5D%3B%20%20%20%20pomFooter.addEventListener%28%27navigate%27%2C%20%28event%29%20%3D%3E%20%7B%20%20%20%20const%20%7B%20destination%20%7D%20%3D%20event.detail%3B%20%20%20%20switch%20%28destination%29%20%7B%20%20%20%20%20%20case%20%27sign-in%27%3A%20%7B%20%20%20%20%20%20%20%20redirectToSignIn%28%29%3B%20%20%20%20%20%20%20%20break%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20case%20%27register%27%3A%20%7B%20%20%20%20%20%20%20%20redirectToMarketingLandingPage%28%29%3B%20%20%20%20%20%20%20%20break%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20case%20%27oplus%27%3A%20%7B%20%20%20%20%20%20%20%20redirectToMarketingLandingPage%28%29%3B%20%20%20%20%20%20%20%20break%3B%20%20%20%20%20%20%7D%20%20%20%20%20%20case%20%27profile%27%3A%20%7B%20%20%20%20%20%20%20%20try%20%7B%20%20%20%20%20%20%20%20%20%20window.location.assign%28%60%24%7Bwindow.location.origin%7D%2Fprofile%2F%24%7BJSON.parse%28atob%28document.cookie.split%28%27%3B%20%27%29.filter%28element%20%3D%3E%20element.includes%28%27_pid%27%29%29%5B0%5D.split%28%27%3D%27%29%5B1%5D.split%28%27.%27%29%5B1%5D%29%29.sub%7D%60%29%3B%20%20%20%20%20%20%20%20%7D%20catch%20%28e%29%20%7B%20%20%20%20%20%20%20%20%20%20window.location.assign%28%60%24%7BACCOUNTS_BASE_URL%7D%2Fprofile%60%29%3B%20%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20%20break%3B%20%20%20%20%20%20%7D%20%20%20%20%7D%20%20%7D%29%3B%20%20%20%20const%20uuid%20%3D%20localStorage.getItem%28%27pom_user_id%27%29%3B%20%20const%20props%20%3D%20JSON.parse%28localStorage.getItem%28%27pom_user_props%27%29%29%3B%20%20if%20%28uuid%20%26%26%20props%29%20%7B%20%20%20%20pomFooter.userData%20%3D%20%7B%20%20%20%20%20%20actingProfileID%3A%20uuid%2C%20%20%20%20%20%20%20%20%20%20%20%20profileMap%3A%20new%20Map%28%5B%5Buuid%2C%20%20%20%20%20%20%7B%20%20%20%20%20%20%20%20displayName%3A%20props.first_name%20%2B%20%22%20%22%20%2B%20props.last_name%2C%20%20%20%20%20%20%20%20username%3A%20props.username%2C%20%20%20%20%20%20%20%20avatarURL%3A%20props.avatar_url%2C%20%20%20%20%20%20%20%20uuid%3A%20uuid%2C%20%20%20%20%20%20%20%20isEmailVerified%3A%20props.email_confirmed%2C%20%20%20%20%20%20%20%20isOutsidePlus%3A%20SUBSCRIBER_ROLES.includes%28props.membership_type%29%20%20%20%20%20%20%7D%20%20%20%20%20%20%5D%5D%29%20%20%20%20%7D%3B%20%20%7D%20%20else%20%7B%20%20%20%20pomFooter.userData%20%3D%20null%3B%20%20%7D%20%20%20%20window.addEventListener%28%22identify-user%22%2C%20%28event%29%20%3D%3E%20%7B%20%20%20%20%20%20%20%20const%20RIVTProfile%20%3D%20event.detail.shortProfileData%3B%20%20%20%20pomFooter.userData%20%3D%20%7B%20%20%20%20%20%20actingProfileID%3A%20RIVTProfile.uuid%2C%20%20%20%20%20%20%20%20%20%20%20%20profileMap%3A%20new%20Map%28%5B%5BRIVTProfile.uuid%2C%20%20%20%20%20%20%7B%20%20%20%20%20%20%20%20displayName%3A%20RIVTProfile.first_name%20%2B%20%22%20%22%20%2B%20RIVTProfile.last_name%2C%20%20%20%20%20%20%20%20username%3A%20RIVTProfile.username%2C%20%20%20%20%20%20%20%20avatarURL%3A%20RIVTProfile.avatar_url%2C%20%20%20%20%20%20%20%20uuid%3A%20RIVTProfile.uuid%2C%20%20%20%20%20%20%20%20isEmailVerified%3A%20RIVTProfile.email_confirmed%2C%20%20%20%20%20%20%20%20isOutsidePlus%3A%20SUBSCRIBER_ROLES.includes%28RIVTProfile.membership%3F.membership_type%29%20%20%20%20%20%20%7D%20%20%20%20%20%20%5D%5D%29%20%20%20%20%7D%3B%20%20%7D%29%3B%20%20function%20redirectToSignIn%28%29%20%7B%20%20%20%20const%20location%20%3D%20%20%20%20window.location.origin%20%2B%20window.location.pathname%20%2B%20window.location.search%3B%20%20%20%20const%20analyticsDomain%20%3D%20window.analytics_vars%20%20%20%20%20%20%3F%20window.analytics_vars.domain%20%20%20%20%20%20%3A%20window.location.host%3B%20%20%20%20const%20redirectURL%20%3D%20new%20URL%28window.location.origin%20%2B%20%27%2Flogin%27%29%3B%20%20%20%20redirectURL.searchParams.set%28%27origin_uri%27%2C%20location%29%3B%20%20%20%20redirectURL.searchParams.set%28%27analytics_domain%27%2C%20analyticsDomain%29%3B%20%20%20%20%20%20%20%20redirectURL.search%20%3D%20decodeURIComponent%28redirectURL.search%29%3B%20%20%20%20window.location.assign%28redirectURL%29%3B%20%20%7D%20%20%2F%2A%2A%20%20%2A%20Redirect%20to%20the%20Marketing%20Landing%20Page%20for%20paid%20offer%20selection.%20%20%2A%20The%20page%20will%20handle%20registration%20redirection.%20%20%2A%2F%20%20function%20redirectToMarketingLandingPage%28%29%20%7B%20%20%20%20window.location.assign%28%22%2Fmembership%22%29%3B%20%20%7D%7D%29"></script>
+
+<style>
+    .map-iframe-overlay {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.3);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2em;
+      cursor: pointer;
+      font-family: Georgia, serif;
+      transition: background 0.2s ease;
+    }
+    .map-iframe-overlay:hover {
+      background: rgba(0, 0, 0, 0.4);
+    }
+  </style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var mapIframes = document.querySelectorAll(
+        'iframe[src*="arcgis.com"], iframe[src*="trailforks.com"], iframe[src*="gaiagps.com"]'
+      );
+      function isMobile() {
+        return window.matchMedia("(max-width: 767px)").matches;
+      }
+      mapIframes.forEach(function(iframe) {
+        var isInFlexibleOrContentModule = iframe.closest('.o-iframe, .c-layout-iframe-embed__iframe');
+        if (isMobile() || isInFlexibleOrContentModule) {
+          iframe.style.pointerEvents = 'none';
+          var parent = iframe.parentNode;
+          var parentStyle = window.getComputedStyle(parent);
+          if (parentStyle.position === 'static') {
+            parent.style.position = 'relative';
+          }
+          var overlay = document.createElement('div');
+          overlay.classList.add('map-iframe-overlay');
+          overlay.textContent = 'Click to interact';
+          parent.appendChild(overlay);
+          function syncOverlay() {
+            overlay.style.top    = iframe.offsetTop    + 'px';
+            overlay.style.left   = iframe.offsetLeft   + 'px';
+            overlay.style.width  = iframe.offsetWidth  + 'px';
+            overlay.style.height = iframe.offsetHeight + 'px';
+          }
+          syncOverlay();
+          overlay.addEventListener('click', function() {
+            iframe.style.pointerEvents = 'auto';
+            overlay.remove();
+          });
+          if ('ResizeObserver' in window) {
+            var ro = new ResizeObserver(function() {
+              syncOverlay();
+            });
+            ro.observe(iframe);
+          }
+          window.addEventListener('resize', syncOverlay);
+        }
+      });
+    });
+  </script>
+    <script type="text/javascript" src="https://www.outsideonline.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.outsideonline.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-parsely-loader-js-before">
+/* <![CDATA[ */
+      window.PARSELY = window.PARSELY || {
+        originalURL: window.location.href,
+        video: {
+          onPlay: function (playerApi, videoId, metadata) {
+            // Call the trackPlay method with the videoId, metadata, and urlOverride
+            PARSELY.video.trackPlay(videoId, metadata, window.PARSELY.originalURL);
+          },
+        },
+      };
+window.wpParselySiteId = 'outsideonline.com';
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.outsideonline.com/wp-content/plugins/wp-parsely/build/loader.js?ver=f5c2d06f6755fda3f6d4" id="wp-parsely-loader-js"></script>
+<script type="text/javascript" data-parsely-site="outsideonline.com" src="https://cdn.parsely.com/keys/outsideonline.com/p.js?ver=3.11.1" id="parsely-cfg"></script>
+<script type="module" src="https://www.outsideonline.com/wp-content/themes/outside-child/dist/scripts/main.js?ver=1757912102"></script>
+    <div id="bottom-portal" class="c-bottom-portal"></div>  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-d6714aecd50e6990d34","applicationID":"1357970914","transactionName":"M1UAbUdUCBFZVk1dDAofN0tcGkkLVlFcTE0UWBI=","queueTime":0,"applicationTime":1526,"atts":"HxIDGw9OGx8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+<!-- plugin=object-cache-pro client=phpredis metric#hits=15201 metric#misses=61 metric#hit-ratio=99.6 metric#bytes=7580129 metric#prefetches=918 metric#store-reads=90 metric#store-writes=20 metric#store-hits=954 metric#store-misses=49 metric#sql-queries=45 metric#ms-total=1529.54 metric#ms-cache=64.94 metric#ms-cache-avg=0.5958 metric#ms-cache-ratio=4.3 -->

@@ -104,6 +104,13 @@ Click this bookmark on any page to save it!
 - **[Mobile Setup](MOBILE_SETUP.txt)** - iPhone/Mac integration instructions
 - **[Python API Documentation](http://localhost:7444/docs)** - Interactive API docs (when running)
 
+### Production Reliability (NEW!)
+- **[Production Reliability Guide](PRODUCTION_RELIABILITY.md)** - Complete production deployment guide with monitoring and reliability features
+- **[Operations Guide](OPERATIONS_GUIDE.md)** - Step-by-step operational procedures and troubleshooting
+- **[Configuration Reference](CONFIGURATION_REFERENCE.md)** - All configuration options with examples
+- **[Reliability Features](RELIABILITY_FEATURES.md)** - Detailed reliability features and capabilities
+- **[Reliability Task Plan](RELIABILITY_TASK_PLAN.md)** - Comprehensive reliability implementation plan
+
 ### Configuration & Setup
 - **[Database Configuration](config/database.yaml)** - Database settings and connection pooling
 - **[API Configuration](config/api.yaml)** - API server settings
@@ -144,50 +151,80 @@ curl -X POST http://localhost:7444/search \
 
 # Get statistics
 curl http://localhost:7444/stats
+
+# Health monitoring (NEW)
+curl http://localhost:7444/health
+curl http://localhost:7444/health/live
+curl http://localhost:7444/health/ready
+
+# Metrics (NEW)
+curl http://localhost:7444/metrics
+
+# Configuration management (NEW)
+curl http://localhost:7444/config
+curl http://localhost:7444/config/environment
 ```
 
 ## Architecture
 
-The refactored Atlas system uses a simplified architecture:
+The production-ready Atlas system uses a comprehensive architecture:
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│  Web Interface  │    │   REST API       │    │ Content Sources │
-│  (Dashboard)    │◄──►│  (Mobile/Prog)   │◄──►│  (URLs/RSS/Text)│
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-         │                       │                       │
-         ▼                       ▼                       ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    Universal Database Service                     │
-│                 (Single SQLite Connection Pool)                  │
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                           System Services Layer                                │
+├─────────────────┬─────────────────┬─────────────────┬─────────────────────────┤
+│  Atlas API      │  Atlas Core     │ Atlas Services │ Atlas Monitoring        │
+│  (FastAPI)      │  (Processing)   │   (Workers)    │   (Health/Metrics)      │
+└─────────────────┴─────────────────┴─────────────────┴─────────────────────────┘
+         │                       │                       │                       │
+         ▼                       ▼                       ▼                       ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                        Configuration Management                                │
+│              (Environment-Specific Configs + Encrypted Secrets)                │
+└─────────────────────────────────────────────────────────────────────────────────┘
                                 │
                                 ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                  Generic Content Processor                        │
-│              (Strategy Pattern for All Types)                     │
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                        Universal Database Service                               │
+│                 (SQLite with WAL + Connection Pooling)                         │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                      Generic Content Processor                                   │
+│              (Strategy Pattern + Reliability Features)                          │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                      Reliability & Monitoring Layer                            │
+│            (Circuit Breakers + Rate Limiting + Alerting)                       │
+└─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Key Components
 
 1. **Universal Database Service** (`core/database.py`)
-   - Single database connection pool
+   - SQLite with WAL mode for reliability
+   - Connection pooling and caching
    - Content storage and retrieval
    - Search functionality
    - Statistics generation
+   - Backup and recovery
 
 2. **Generic Content Processor** (`core/processor.py`)
    - Strategy pattern for different content types
    - URL, RSS, and text processing
    - Duplicate detection
    - Stage-based processing
+   - Reliability features (circuit breakers, rate limiting)
 
 3. **REST API** (`api.py`)
    - FastAPI-based web service
    - Mobile integration endpoints
-   - Health monitoring
-   - Automatic documentation
+   - Health monitoring endpoints
+   - Metrics export
+   - Configuration management API
 
 4. **Web Interface** (`web_interface.py`)
    - Clean, responsive design
@@ -195,22 +232,78 @@ The refactored Atlas system uses a simplified architecture:
    - Search and statistics
    - Mobile-friendly layout
 
+5. **Configuration Management** (`helpers/configuration_manager.py`)
+   - Environment-specific configuration
+   - Encrypted secrets management
+   - Configuration validation
+   - Hot reload capabilities
+
+6. **Operational Tools** (`tools/`)
+   - **Atlas Operations**: Service management, backup/restore
+   - **Deployment Manager**: Version control, rollback strategies
+   - **Monitoring Agent**: Real-time monitoring and alerting
+
+7. **Reliability Features** (`helpers/queue_manager.py`)
+   - Adaptive rate limiting
+   - Circuit breakers
+   - Dead letter queues
+   - Predictive scaling
+
 ## Configuration
 
-The system uses YAML configuration files:
+The system uses environment-specific configuration with encryption support:
 
 ```yaml
-# config/database.yaml
-database:
-  path: "data/atlas.db"
-  pool_size: 5
-  cache_size: 1000
+# config/development.env
+ENVIRONMENT=development
+API_HOST=0.0.0.0
+API_PORT=8000
+DATABASE_PATH=data/atlas.db
 
-# config/api.yaml
-api:
-  host: "0.0.0.0"
-  port: 8000
-  cors_enabled: true
+# config/production.env
+ENVIRONMENT=production
+API_HOST=0.0.0.0
+API_PORT=8000
+DATABASE_PATH=/var/lib/atlas/atlas.db
+```
+
+### Configuration Management (NEW)
+
+Atlas now includes comprehensive configuration management:
+
+- **Environment-specific configs** (development, staging, production)
+- **Encrypted secrets management** with Fernet encryption
+- **Configuration validation** with YAML schemas
+- **CLI tools** for configuration management
+- **Hot reload** capabilities without service restart
+
+```bash
+# Configuration CLI
+python3 tools/config_cli.py show database.path
+python3 tools/config_cli.py set database.path /new/path
+python3 tools/config_cli.py validate
+python3 tools/config_cli.py secrets list
+```
+
+### Operational Tools (NEW)
+
+Atlas includes comprehensive operational tools:
+
+- **Atlas Operations** (`tools/atlas_ops.py`) - Service management, backup/restore, monitoring
+- **Deployment Manager** (`tools/deployment_manager.py`) - Version control, rollback, blue-green deployments
+- **Monitoring Agent** (`tools/monitoring_agent.py`) - Real-time monitoring, alerting, health checks
+
+```bash
+# Service management
+python3 tools/atlas_ops.py service status
+python3 tools/atlas_ops.py service restart atlas-api
+
+# Backup and restore
+python3 tools/atlas_ops.py backup create
+python3 tools/atlas_ops.py backup restore backup_20250917.tar.gz
+
+# System monitoring
+python3 tools/monitoring_agent.py --daemon
 ```
 
 ## Content Processing
@@ -244,11 +337,21 @@ The refactored system preserves all existing data:
 ### Running Tests
 
 ```bash
-# Test all components
+# Core component tests
 python3 test_database.py
 python3 test_processor.py
 python3 test_api_direct.py
 python3 test_web_interface.py
+
+# Reliability tests (NEW)
+python3 test_reliability_simple.py
+python3 test_reliability_basic.py
+python3 test_end_to_end.py
+python3 test_reliability_summary.py
+
+# Configuration tests (NEW)
+python3 test_config_simple.py
+python3 test_configuration_management.py
 
 # Comprehensive system test
 python3 test_comprehensive_system.py
@@ -257,12 +360,34 @@ python3 test_comprehensive_system.py
 python3 demonstrate_system.py
 ```
 
+### Reliability Testing (NEW)
+
+Atlas includes comprehensive reliability testing:
+
+- **Basic reliability tests**: Core functionality verification
+- **End-to-end tests**: Complete system workflow testing
+- **Configuration tests**: Management system validation
+- **Performance tests**: Load and stress testing
+- **Integration tests**: Component interaction verification
+
+### CI/CD Pipeline (NEW)
+
+Atlas includes a comprehensive CI/CD pipeline:
+
+- **Multi-matrix testing**: Python 3.9-3.12 compatibility
+- **Security scanning**: CodeQL and dependency checks
+- **Reliability verification**: Automated reliability testing
+- **Deployment automation**: Staged deployment with rollback
+- **Monitoring integration**: Health checks and metrics
+
 ### System Requirements
 
-- **Python**: 3.9+
-- **Memory**: 512MB minimum
+- **Python**: 3.9+ (tested on 3.9-3.12)
+- **Memory**: 512MB minimum, 2GB recommended for production
 - **Storage**: 100MB (scales with content)
 - **Network**: Internet connection for URL processing
+- **OS**: Linux (systemd support recommended for production)
+- **Optional**: Email/Slack for alerting notifications
 
 ## Performance
 
@@ -282,6 +407,15 @@ The simplified architecture provides significant improvements:
 - Database with 46,000+ items accessible
 - Search and content processing working
 - Mobile integration ready
+- **NEW**: Production reliability with monitoring and alerting
+- **NEW**: Systemd services for 24/7 operation
+- **NEW**: Automated backup and recovery
+- **NEW**: Comprehensive operational tools
+- **NEW**: Configuration management with encryption
+- **NEW**: Multi-environment deployment support
+- **NEW**: Real-time monitoring and alerting
+- **NEW**: High availability with circuit breakers
+- **NEW**: Comprehensive CI/CD pipeline
 
 **🔄 Processing Real Content**
 - URLs being extracted and stored

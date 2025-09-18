@@ -1,0 +1,2638 @@
+# Content from https://headwaterseconomics.org/economic-development/evolution-electricity-generation/?ref=wheresyoured.at
+
+*Retrieved: 2025-09-15T11:34:46.147295*
+
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v25.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="The capacity to generate electricity has transitioned from coal to natural gas to renewable energy, a trend projected to continue." />
+	<link rel="canonical" href="https://headwaterseconomics.org/economic-development/evolution-electricity-generation/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="The Evolution of U.S. Electricity Generation Capacity - Headwaters Economics" />
+	<meta property="og:description" content="The capacity to generate electricity has transitioned from coal to natural gas to renewable energy, a trend projected to continue." />
+	<meta property="og:url" content="https://headwaterseconomics.org/economic-development/evolution-electricity-generation/" />
+	<meta property="og:site_name" content="Headwaters Economics" />
+	<meta property="article:published_time" content="2020-04-22T13:19:54+00:00" />
+	<meta property="article:modified_time" content="2025-08-26T00:02:31+00:00" />
+	<meta property="og:image" content="https://headwaterseconomics.org/wp-content/uploads/Coal-wind-natural-resources.jpg" />
+	<meta property="og:image:width" content="1920" />
+	<meta property="og:image:height" content="1080" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Mark Haggerty" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@headecon" />
+	<meta name="twitter:site" content="@headecon" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Mark Haggerty" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="5 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/#article","isPartOf":{"@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/"},"author":{"name":"Mark Haggerty","@id":"https://headwaterseconomics.org/#/schema/person/e5eeebfde8585583f7f75ebef54aac34"},"headline":"The Evolution of U.S. Electricity Generation Capacity","datePublished":"2020-04-22T13:19:54+00:00","dateModified":"2025-08-26T00:02:31+00:00","mainEntityOfPage":{"@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/"},"wordCount":754,"publisher":{"@id":"https://headwaterseconomics.org/#organization"},"image":{"@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/#primaryimage"},"thumbnailUrl":"https://headwaterseconomics.org/wp-content/uploads/Coal-wind-natural-resources.jpg","keywords":["coal","coal transition","Energy","natural gas","renewable energy"],"articleSection":["Economic Development"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/","url":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/","name":"The Evolution of U.S. Electricity Generation Capacity - Headwaters Economics","isPartOf":{"@id":"https://headwaterseconomics.org/#website"},"primaryImageOfPage":{"@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/#primaryimage"},"image":{"@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/#primaryimage"},"thumbnailUrl":"https://headwaterseconomics.org/wp-content/uploads/Coal-wind-natural-resources.jpg","datePublished":"2020-04-22T13:19:54+00:00","dateModified":"2025-08-26T00:02:31+00:00","description":"The capacity to generate electricity has transitioned from coal to natural gas to renewable energy, a trend projected to continue.","breadcrumb":{"@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://headwaterseconomics.org/economic-development/evolution-electricity-generation/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/#primaryimage","url":"https://headwaterseconomics.org/wp-content/uploads/Coal-wind-natural-resources.jpg","contentUrl":"https://headwaterseconomics.org/wp-content/uploads/Coal-wind-natural-resources.jpg","width":1920,"height":1080,"caption":"Split image with trucks driving down into coal mine on one side and wind turbines atop a green hill at sunset on the other."},{"@type":"BreadcrumbList","@id":"https://headwaterseconomics.org/economic-development/evolution-electricity-generation/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://headwaterseconomics.org/"},{"@type":"ListItem","position":2,"name":"Economic Development","item":"https://headwaterseconomics.org/topic/economic-development/"},{"@type":"ListItem","position":3,"name":"The Evolution of U.S. Electricity Generation Capacity"}]},{"@type":"WebSite","@id":"https://headwaterseconomics.org/#website","url":"https://headwaterseconomics.org/","name":"Headwaters Economics","description":"Independent Nonpartisan Research","publisher":{"@id":"https://headwaterseconomics.org/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://headwaterseconomics.org/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://headwaterseconomics.org/#organization","name":"Headwaters Economics","url":"https://headwaterseconomics.org/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://headwaterseconomics.org/#/schema/logo/image/","url":"https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color.png","contentUrl":"https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color.png","width":1801,"height":357,"caption":"Headwaters Economics"},"image":{"@id":"https://headwaterseconomics.org/#/schema/logo/image/"},"sameAs":["https://x.com/headecon","https://www.youtube.com/channel/UCXQ9epvKx-FqyTggq6IefPQ"]},{"@type":"Person","@id":"https://headwaterseconomics.org/#/schema/person/e5eeebfde8585583f7f75ebef54aac34","name":"Mark Haggerty","description":"Mark moved to Bozeman, Montana in 1993 and has worked across the state and the West as a researcher, teacher, community organizer, and facilitator. At Headwaters Economics for the past 10 years, Mark has worked to understand why some communities do better than others, and to communicate key lessons and policy ideas to people working to make their own states, counties, and towns more livable and sustainable. Mark's expertise is in fiscal policy, rural economic development, and community planning. He’s served on local planning boards, worked with county commissioners and state legislators across the West, and testified in Congress at the request of both Republicans and Democrats. Mark holds a B.A. in Economics and M.A. in Geography from the University of Colorado.","url":"https://headwaterseconomics.org/author/mark-haggerty/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+<title>The Evolution of U.S. Electricity Generation Capacity - Headwaters Economics</title>
+<link rel='dns-prefetch' href='//public.tableau.com' />
+<link rel='dns-prefetch' href='//kit.fontawesome.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="Headwaters Economics &raquo; Feed" href="https://headwaterseconomics.org/feed/" />
+<link rel='stylesheet' id='genesis-blocks-style-css-css' href='https://headwaterseconomics.org/wp-content/plugins/genesis-blocks/dist/style-blocks.build.css?ver=1756138571' media='all' />
+<style id='blockbase_font_faces-inline-css'>
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-Light-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-Light-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-Light-italic.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-Light-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-Light-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-Light-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-Light-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-Regular-italic.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-Bold-italic.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-Black-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-Black-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-Black-italic.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-Black-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-Black-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-Black-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-Black-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-ExtraLight.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-Light.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-Light.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-Light.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-Light.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-Light.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-Light.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-Light.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-Regular.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-Regular.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-Regular.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-Regular.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-Regular.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-Regular.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-Regular.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-SemiBold.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-SemiBold.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-SemiBold.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-SemiBold.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-SemiBold.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-SemiBold.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-SemiBold.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-Bold.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-Bold.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-Bold.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-Bold.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-Bold.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-Bold.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-Bold.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-ext-Black.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-cyrillic-Black.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-ext-Black.woff2) format('woff2');
+	unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-greek-Black.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-vietnamese-Black.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-latin-ext-Black.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-sans-pro/source-sans-pro-Black.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-ExtraLight-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-Light-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-Light-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-Light-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-Light-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-Light-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-Light-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-Regular-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-SemiBold-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-Bold-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-Black-italic.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-Black-italic.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-Black-italic.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-Black-italic.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-Black-italic.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: italic;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-Black-italic.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 200;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-ExtraLight.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-Light.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-Light.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-Light.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-Light.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-Light.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-Light.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-Regular.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-Regular.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-Regular.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-Regular.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-Regular.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-Regular.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-SemiBold.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-SemiBold.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-SemiBold.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-SemiBold.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-SemiBold.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-SemiBold.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-Bold.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-Bold.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-Bold.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-Bold.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-Bold.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-Bold.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-ext-Black.woff2) format('woff2');
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-cyrillic-Black.woff2) format('woff2');
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-greek-Black.woff2) format('woff2');
+	unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-vietnamese-Black.woff2) format('woff2');
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-latin-ext-Black.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Source Serif Pro';
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: url(https://headwaterseconomics.org/wp-content/themes/blockbase/assets/fonts/source-serif-pro/source-serif-pro-Black.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style id='wp-block-site-logo-inline-css'>
+.wp-block-site-logo{box-sizing:border-box;line-height:0}.wp-block-site-logo a{display:inline-block;line-height:0}.wp-block-site-logo.is-default-size img{height:auto;width:120px}.wp-block-site-logo img{height:auto;max-width:100%}.wp-block-site-logo a,.wp-block-site-logo img{border-radius:inherit}.wp-block-site-logo.aligncenter{margin-left:auto;margin-right:auto;text-align:center}:root :where(.wp-block-site-logo.is-style-rounded){border-radius:9999px}
+</style>
+<style id='wp-block-navigation-link-inline-css'>
+.wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{border-top:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
+</style>
+<link rel='stylesheet' id='wp-block-navigation-css' href='https://headwaterseconomics.org/wp-includes/blocks/navigation/style.min.css?ver=6.8.2' media='all' />
+<style id='acf-navsearch-style-inline-css'>
+.navsearch {
+  display: inline-block;
+  width: 100%;
+  height: 42px;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .navsearch {
+    width: 42px;
+  }
+}
+.navsearch-toggle {
+  text-indent: -9999px;
+  overflow: hidden;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .navsearch-toggle {
+    display: block;
+  }
+}
+.navsearch-toggle::before, .navsearch-toggle::after {
+  transition: all ease 0.33s;
+}
+.navsearch-toggle::before {
+  position: absolute;
+  content: "";
+  margin: auto;
+  top: 0;
+  bottom: 5px;
+  left: 0;
+  right: 5px;
+  width: 10px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0);
+  border: 2.5px solid #333;
+  border-radius: 100%;
+  box-sizing: content-box;
+}
+.navsearch-toggle::after {
+  position: absolute;
+  content: "";
+  margin: auto;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  width: 2.5px;
+  height: 10px;
+  background-color: #333;
+  transform: rotate(-45deg);
+}
+.navsearch-toggle.toggled::before {
+  position: absolute;
+  content: "";
+  margin: auto;
+  width: 3.75px;
+  height: 20px;
+  background-color: #333333;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: rotate(45deg);
+  border-radius: 0;
+  border: none;
+}
+.navsearch-toggle.toggled::after {
+  position: absolute;
+  content: "";
+  margin: auto;
+  width: 20px;
+  height: 3.75px;
+  background-color: #333333;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: rotate(45deg);
+}
+.navsearch-form {
+  position: absolute;
+  display: none;
+  right: 42px;
+  right: 0;
+  top: 0;
+  width: 60vw;
+  z-index: 2;
+  background-color: #fff;
+}
+.navsearch-form-input {
+  font-size: 18px;
+  line-height: 1;
+  padding: 12px;
+  outline-offset: -1px;
+  height: 42px;
+  width: calc(100% - 42px);
+}
+.navsearch-form-input:active {
+  outline: none;
+}
+.navsearch-form-submit[type=submit] {
+  display: inline-block;
+  position: absolute;
+  margin: 0 0 0 0;
+  border-radius: 0px;
+  height: 42px;
+  padding: 12px;
+  top: 0;
+  right: 0;
+  align-self: center;
+  font-weight: 900;
+  background-color: #222;
+  color: #fff;
+}/*# sourceMappingURL=navsearch.css.map */
+</style>
+<style id='wp-block-group-inline-css'>
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+</style>
+<style id='acf-masthead-style-inline-css'>
+.masthead {
+  margin-block-start: 0;
+}
+.masthead.has-featured-image {
+  height: 60vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+.masthead-caption {
+  position: relative;
+  color: #ffffff;
+  padding: 0.5em 1.5em 0.5em 0.75em;
+  font-size: 0.66em;
+  transition: all ease 0.5s;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.masthead-caption span {
+  filter: opacity(0.33);
+}
+.masthead-caption a {
+  color: inherit;
+}
+.masthead-caption i {
+  padding-right: 0.5em;
+  filter: opacity(0.9);
+}
+.masthead-caption:hover {
+  background: rgba(20, 20, 20, 0.66);
+}
+.masthead-caption:hover span {
+  filter: opacity(0.9);
+}
+.masthead header {
+  width: calc(var(--wp--style--global--content-size) + 4 * var(--wp--preset--spacing--40));
+  max-width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  padding: var(--wp--preset--spacing--40) calc(2 * var(--wp--preset--spacing--40)) 0;
+  cursor: text;
+}
+.masthead header h1 {
+  font-weight: 900;
+  margin: 0;
+}/*# sourceMappingURL=masthead.css.map */
+</style>
+<style id='wp-block-spacer-inline-css'>
+.wp-block-spacer{clear:both}
+</style>
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+</style>
+<style id='wp-block-button-inline-css'>
+.wp-block-button__link{align-content:center;box-sizing:border-box;cursor:pointer;display:inline-block;height:100%;text-align:center;word-break:break-word}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{flex-basis:100%;width:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}:root :where(.wp-block-button .wp-block-button__link.is-style-outline),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link){border:2px solid;padding:.667em 1.333em}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color)){color:currentColor}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background)){background-color:initial;background-image:none}
+</style>
+<style id='wp-block-buttons-inline-css'>
+.wp-block-buttons{box-sizing:border-box}.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons .wp-block-button__link{width:100%}.wp-block-button.aligncenter{text-align:center}
+</style>
+<style id='wp-block-heading-inline-css'>
+h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+</style>
+<link rel='stylesheet' id='wp-block-image-css' href='https://headwaterseconomics.org/wp-includes/blocks/image/style.min.css?ver=6.8.2' media='all' />
+<style id='wp-block-columns-inline-css'>
+.wp-block-columns{align-items:normal!important;box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+</style>
+<style id='wp-block-post-content-inline-css'>
+.wp-block-post-content{display:flow-root}
+</style>
+<style id='acf-newsgrid-style-inline-css'>
+.media-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+}
+.media-content article {
+  max-width: 20%;
+}
+.media-content article a {
+  display: flex;
+  flex-direction: column;
+}
+.media-content article img {
+  max-width: 100%;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-height: 60px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: block;
+  align-self: center;
+}
+.media-link {
+  font-size: small;
+  text-align: left;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  width: -moz-fit-content;
+  width: fit-content;
+  white-space: nowrap;
+}/*# sourceMappingURL=newsgrid.css.map */
+</style>
+<style id='acf-authorbox-style-inline-css'>
+.author-block {
+  font-size: 0.75em;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .author-block {
+    flex-direction: row;
+  }
+}
+@media (min-width: 960px) {
+  .author-block {
+    flex-direction: row;
+  }
+}
+.author-block h3 {
+  margin: 0;
+  font-size: 21px;
+  display: block;
+  width: 100%;
+}
+.author-block h3 a {
+  margin: 0;
+  padding: 0.25em;
+  display: block;
+  background: var(--wp--preset--color--primary);
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .author-block h3 a {
+    text-align: left;
+    padding: 0.25em 1.125em;
+  }
+}
+@media (min-width: 960px) {
+  .author-block h3 a {
+    text-align: left;
+    padding: 0.25em 1.125em;
+    font-size: 1.5em;
+  }
+}
+.author-block h3 a:hover {
+  background: var(--wp--preset--color--secondary);
+}
+.author-block p {
+  margin: 0.5em 0;
+  border-top: thin solid #eee;
+  padding-top: 0.25em;
+  font-size: 1.25em;
+}
+@media (min-width: 768px) {
+  .author-block p {
+    margin: 0.125em 0 0 2em;
+  }
+}
+@media (min-width: 960px) {
+  .author-block p {
+    margin: 0.125em 0 0 2em;
+  }
+}
+.author-block .bio-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5s ease;
+}
+@media (min-width: 768px) {
+  .author-block .bio-thumbnail {
+    border-radius: 0;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+  }
+}
+.author-block .contact-info {
+  font-weight: 300;
+  font-family: museo-sans-condensed, sans-serif;
+  display: block;
+  padding: 0.125em 0;
+}
+@media (min-width: 768px) {
+  .author-block .contact-info {
+    padding: 0.125em 2em;
+  }
+}
+@media (min-width: 960px) {
+  .author-block .contact-info {
+    padding: 0.125em 2em;
+  }
+}
+.author-block .contact-info a {
+  text-decoration: none;
+  color: initial;
+}
+.author-block .author-text {
+  width: 100%;
+  display: block;
+}
+@media (min-width: 768px) {
+  .author-block .author-text {
+    width: calc(100% - 200px);
+    display: inline-block;
+  }
+}
+
+.contact-block {
+  font-size: 14px;
+  font-family: museo-sans-condensed, sans-serif;
+  margin-bottom: 1em;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1em;
+}
+.contact-block p {
+  margin: 0;
+}
+.contact-block .contact-info {
+  border-left: solid thin #eee;
+  padding-left: 1em;
+}
+.contact-block .contact-info h5 {
+  margin: 0.5em 0;
+}
+.contact-block .contact-info ul {
+  padding: 0;
+}
+.contact-block .contact-info ul li {
+  display: grid;
+  grid-template-columns: 1.5em auto;
+  line-height: 1.5em;
+}
+.contact-block .contact-info ul li .fa {
+  line-height: 1.5em;
+}
+.contact-block .contact-info a {
+  text-decoration: none;
+  color: initial;
+}/*# sourceMappingURL=authorbox.css.map */
+</style>
+<style id='acf-contributors-style-inline-css'>
+.contributor_container {
+  display: flex;
+  flex-direction: column;
+  font-family: museo-sans-condensed, sans-serif;
+}
+.contributor_container h3 {
+  margin: 0;
+  background: #333;
+  color: #fff;
+  padding: 0.125em 0.5em;
+  display: block;
+}
+.contributor_container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contributors {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.25em;
+  font-family: museo-sans-condensed, sans-serif;
+  padding: 0.25em 0 0.25em 0.25em;
+  border-left: solid 0.25em #333;
+}
+@media (min-width: 768px) {
+  .contributors {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.contributors .contributor {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: start;
+  padding: 0.25em;
+  background-color: #fafafa;
+  transition: all ease 0.25s;
+  width: 100%;
+  position: relative;
+}
+.contributors .contributor .thumb_container {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+}
+.contributors .contributor .thumb_container .co-author {
+  position: absolute;
+  width: 60px;
+  bottom: 0;
+  left: 0;
+  display: block;
+  z-index: 1;
+  background-color: rgba(51, 51, 51, 0.6666666667);
+  color: #fff;
+  font-size: xx-small;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .contributors .contributor {
+    padding: 0;
+  }
+}
+.contributors .contributor .collab-thumbnail {
+  width: 60px;
+  max-width: 70px;
+  height: 60px;
+  display: block;
+  margin: 0;
+  transition: all ease-in 0.125s;
+}
+.contributors .contributor:hover {
+  background-color: var(--wp--preset--color--primary);
+  color: #fff;
+}
+.contributors .contributor:hover .collab-thumbnail {
+  width: 64px;
+  height: 64px;
+  margin: 0 -2px;
+}
+.contributors .contributor-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 0.75em;
+  width: 1fr;
+}
+.contributors .contributor-info h4 {
+  margin: 0;
+}
+.contributors .contributor-role {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.contribution {
+  font-family: museo-sans-condensed, sans-serif;
+  padding: 1em 0;
+}
+@media (min-width: 768px) {
+  .content-sidebar .contribution {
+    padding: 0;
+  }
+}
+.contribution h3 {
+  margin-bottom: 0.5em;
+}
+.contribution .container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.contribution .container .post {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.contribution .container .post .wp-post-image {
+  width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .contribution .container .post .wp-post-image {
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+  }
+}
+.contribution .container .post h4 {
+  margin: 0;
+  font-size: 21px;
+}
+@media (min-width: 768px) {
+  .contribution .container .post {
+    flex-direction: row;
+  }
+}
+.content-sidebar .contribution-info {
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.contribution-role {
+  font-size: 14px;
+  line-height: 14px;
+}/*# sourceMappingURL=contributors.css.map */
+</style>
+<style id='acf-relatedposts-style-inline-css'>
+.related-content {
+  width: 100%;
+  display: block;
+}
+.related-content div {
+  display: flex;
+  gap: 1em;
+  width: 100%;
+}
+.related-content div article {
+  width: calc((100% - 3em) / 4);
+  flex-grow: 1;
+}
+.related-content div article img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+}
+.related-content div article a {
+  text-decoration: none;
+  color: #333;
+}/*# sourceMappingURL=relatedposts.css.map */
+</style>
+<style id='wp-block-separator-inline-css'>
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+</style>
+<link rel='stylesheet' id='wp-block-social-links-css' href='https://headwaterseconomics.org/wp-includes/blocks/social-links/style.min.css?ver=6.8.2' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://headwaterseconomics.org/wp-includes/css/dist/block-library/common.min.css?ver=6.8.2' media='all' />
+<link rel='stylesheet' id='he-app-style-override-css-css' href='https://headwaterseconomics.org/wp-content/plugins/he-apps/src/styleOverride.css?ver=1756138568' media='all' />
+<style id='font-awesome-svg-styles-default-inline-css'>
+.svg-inline--fa {
+  display: inline-block;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
+</style>
+<link rel='stylesheet' id='font-awesome-svg-styles-css' href='https://headwaterseconomics.org/wp-content/uploads/font-awesome/v5.13.0/css/svg-with-js.css' media='all' />
+<style id='font-awesome-svg-styles-inline-css'>
+   .wp-block-font-awesome-icon svg::before,
+   .wp-rich-text-font-awesome-icon svg::before {content: unset;}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: #0d4d80;--wp--preset--color--secondary: #0b446b;--wp--preset--color--foreground: #333333;--wp--preset--color--background: #ffffff;--wp--preset--color--tertiary: #f2f2f2;--wp--preset--color--custom-he-red: #820915;--wp--preset--color--custom-he-orange: #d8852a;--wp--preset--color--custom-he-burnt-orange: #c36d27;--wp--preset--color--custom-he-sage: #606b15;--wp--preset--color--custom-he-spruce: #205140;--wp--preset--color--custom-he-purple: #6b0b58;--wp--preset--color--custom-he-light-blue: #6580aa;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.5rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: 2rem;--wp--preset--font-family--system-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--courier-prime: 'Courier Prime', serif;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--helvetica-neue: 'Helvetica Neue','Helvetica', 'Arial', sans-serif;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--red-hat-display: 'Red Hat Display', sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', sans-serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--source-sans-pro: 'Source Sans Pro', sans-serif;--wp--preset--font-family--source-serif-pro: 'Source Serif Pro', sans-serif;--wp--preset--font-family--space-mono: 'Space Mono', sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);--wp--custom--opt-out-of-parent-style-variations: ;--wp--custom--alignment--aligned-max-width: 50%;--wp--custom--button--border--color: var(--wp--custom--color--primary);--wp--custom--button--border--radius: 4px;--wp--custom--button--border--style: solid;--wp--custom--button--border--width: 2px;--wp--custom--button--color--background: var(--wp--custom--color--primary);--wp--custom--button--color--text: var(--wp--custom--color--background);--wp--custom--button--hover--color--text: var(--wp--custom--color--background);--wp--custom--button--hover--color--background: var(--wp--custom--color--secondary);--wp--custom--button--hover--border--color: var(--wp--custom--color--secondary);--wp--custom--button--spacing--padding--top: 0.667em;--wp--custom--button--spacing--padding--bottom: 0.667em;--wp--custom--button--spacing--padding--left: 1.333em;--wp--custom--button--spacing--padding--right: 1.333em;--wp--custom--button--typography--font-size: var(--wp--custom--font-sizes--normal);--wp--custom--button--typography--font-weight: normal;--wp--custom--button--typography--line-height: 2;--wp--custom--button--outline--color--text: var(--wp--custom--color--primary);--wp--custom--button--outline--color--background: var(--wp--custom--color--background);--wp--custom--button--outline--border--color: var(--wp--custom--color--primary);--wp--custom--button--outline--hover--color--text: var(--wp--custom--color--background);--wp--custom--button--outline--hover--color--background: var(--wp--custom--color--secondary);--wp--custom--button--outline--hover--border--color: var(--wp--custom--color--primary);--wp--custom--color--foreground: var(--wp--preset--color--foreground);--wp--custom--color--background: var(--wp--preset--color--background);--wp--custom--color--primary: var(--wp--preset--color--primary);--wp--custom--color--secondary: var(--wp--preset--color--secondary);--wp--custom--color--tertiary: var(--wp--preset--color--tertiary);--wp--custom--font-sizes--x-small: 0.875rem;--wp--custom--font-sizes--normal: 1.125rem;--wp--custom--font-sizes--huge: 3rem;--wp--custom--form--padding: calc( 0.5 * var(--wp--custom--gap--horizontal) );--wp--custom--form--border--color: #EFEFEF;--wp--custom--form--border--radius: 0;--wp--custom--form--border--style: solid;--wp--custom--form--border--width: 2px;--wp--custom--form--checkbox--checked--content: "\2715";--wp--custom--form--checkbox--checked--font-size: var(--wp--custom--font-sizes--x-small);--wp--custom--form--checkbox--checked--position--left: 3px;--wp--custom--form--checkbox--checked--position--top: 3px;--wp--custom--form--checkbox--checked--sizing--height: 12px;--wp--custom--form--checkbox--checked--sizing--width: 12px;--wp--custom--form--checkbox--unchecked--content: "";--wp--custom--form--checkbox--unchecked--position--left: 0;--wp--custom--form--checkbox--unchecked--position--top: 0.2em;--wp--custom--form--checkbox--unchecked--sizing--height: 16px;--wp--custom--form--checkbox--unchecked--sizing--width: 16px;--wp--custom--form--color--background: transparent;--wp--custom--form--color--box-shadow: none;--wp--custom--form--color--text: inherit;--wp--custom--form--label--spacing--margin--bottom: var(--wp--custom--gap--baseline);--wp--custom--form--label--typography--font-size: var(--wp--custom--font-sizes--x-small);--wp--custom--form--label--typography--font-weight: normal;--wp--custom--form--label--typography--letter-spacing: normal;--wp--custom--form--label--typography--text-transform: none;--wp--custom--form--typography--font-size: var(--wp--custom--font-sizes--normal);--wp--custom--gallery--caption--font-size: var(--wp--preset--font-size--small);--wp--custom--body--typography--line-height: 1.6;--wp--custom--heading--typography--font-weight: 400;--wp--custom--heading--typography--line-height: 1.125;--wp--custom--latest-posts--meta--color--text: var(--wp--custom--color--primary);--wp--custom--layout--content-size: 620px;--wp--custom--gap--baseline: 15px;--wp--custom--gap--horizontal: min(30px, 5vw);--wp--custom--gap--vertical: min(30px, 5vw);--wp--custom--navigation--submenu--border--color: var(--wp--custom--color--primary);--wp--custom--navigation--submenu--border--radius: var(--wp--custom--form--border--radius);--wp--custom--navigation--submenu--border--style: var(--wp--custom--form--border--style);--wp--custom--navigation--submenu--border--width: var(--wp--custom--form--border--width);--wp--custom--navigation--submenu--color--background: var(--wp--custom--color--background);--wp--custom--navigation--submenu--color--text: var(--wp--custom--color--foreground);--wp--custom--paragraph--dropcap--margin: .1em .1em 0 0;--wp--custom--paragraph--dropcap--typography--font-size: 110px;--wp--custom--paragraph--dropcap--typography--font-weight: 400;--wp--custom--post-author--typography--font-weight: normal;--wp--custom--post-comment--typography--font-size: var(--wp--custom--font-sizes--normal);--wp--custom--post-comment--typography--line-height: var(--wp--custom--body--typography--line-height);--wp--custom--pullquote--citation--typography--font-size: var(--wp--custom--font-sizes--x-small);--wp--custom--pullquote--citation--typography--font-family: inherit;--wp--custom--pullquote--citation--typography--font-style: italic;--wp--custom--pullquote--citation--spacing--margin--top: var(--wp--custom--gap--vertical);--wp--custom--pullquote--typography--text-align: left;--wp--custom--quote--citation--typography--font-size: var(--wp--custom--font-sizes--x-small);--wp--custom--quote--citation--typography--font-style: italic;--wp--custom--quote--citation--typography--font-weight: 400;--wp--custom--quote--typography--text-align: left;--wp--custom--separator--opacity: 1;--wp--custom--separator--width: 150px;--wp--custom--table--figcaption--typography--font-size: var(--wp--custom--font-sizes--x-small);--wp--custom--video--caption--text-align: center;--wp--custom--video--caption--margin: var(--wp--custom--gap--vertical) auto;}:root { --wp--style--global--content-size: 900px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.3em; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 1.3em; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.3em;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.3em;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.3em;}:root :where(.is-layout-grid){gap: 1.3em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: var(--wp--custom--color--background);color: var(--wp--custom--color--foreground);font-family: var(--wp--preset--font-family--source-sans-pro);font-size: var(--wp--custom--font-sizes--normal);line-height: var(--wp--custom--body--typography--line-height);padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){color: var(--wp--custom--color--primary);text-decoration: underline;}:root :where(a:where(:not(.wp-element-button)):hover){text-decoration: none;}:root :where(a:where(:not(.wp-element-button)):focus){text-decoration: none;}:root :where(a:where(:not(.wp-element-button)):active){text-decoration: none;}h1, h2, h3, h4, h5, h6{font-family: var(--wp--preset--font-family--source-sans-pro);font-style: normal;font-weight: 900;}h1{font-size: var(--wp--custom--font-sizes--huge);font-weight: var(--wp--custom--heading--typography--font-weight);line-height: var(--wp--custom--heading--typography--line-height);margin-top: var(--wp--custom--gap--vertical);margin-bottom: var(--wp--custom--gap--vertical);}h2{font-size: var(--wp--preset--font-size--x-large);font-weight: var(--wp--custom--heading--typography--font-weight);line-height: var(--wp--custom--heading--typography--line-height);margin-top: var(--wp--custom--gap--vertical);margin-bottom: var(--wp--custom--gap--vertical);}h3{font-size: var(--wp--preset--font-size--large);font-weight: var(--wp--custom--heading--typography--font-weight);line-height: var(--wp--custom--heading--typography--line-height);margin-top: var(--wp--custom--gap--vertical);margin-bottom: var(--wp--custom--gap--vertical);}h4{font-size: var(--wp--preset--font-size--medium);font-weight: var(--wp--custom--heading--typography--font-weight);line-height: var(--wp--custom--heading--typography--line-height);margin-top: var(--wp--custom--gap--vertical);margin-bottom: var(--wp--custom--gap--vertical);}h5{font-size: var(--wp--custom--font-sizes--normal);font-weight: var(--wp--custom--heading--typography--font-weight);line-height: var(--wp--custom--heading--typography--line-height);margin-top: var(--wp--custom--gap--vertical);margin-bottom: var(--wp--custom--gap--vertical);}h6{font-size: var(--wp--preset--font-size--small);font-weight: var(--wp--custom--heading--typography--font-weight);line-height: var(--wp--custom--heading--typography--line-height);margin-top: var(--wp--custom--gap--vertical);margin-bottom: var(--wp--custom--gap--vertical);}:root :where(.wp-element-button, .wp-block-button__link){background-color: var(--wp--custom--button--color--background);border-radius: var(--wp--custom--button--border--radius);border-width: 0;color: var(--wp--custom--button--color--text);font-family: var(--wp--preset--font-family--source-sans-pro);font-size: var(--wp--custom--button--typography--font-size);font-style: normal;font-weight: 500;line-height: var(--wp--custom--button--typography--line-height);padding-top: calc( var(--wp--custom--button--spacing--padding--top) + var(--wp--custom--button--border--width) );padding-right: calc( var(--wp--custom--button--spacing--padding--right) + var(--wp--custom--button--border--width) );padding-bottom: calc( var(--wp--custom--button--spacing--padding--bottom) + var(--wp--custom--button--border--width) );padding-left: calc( var(--wp--custom--button--spacing--padding--left) + var(--wp--custom--button--border--width) );text-decoration: none;}:root :where(.wp-element-caption, .wp-block-audio figcaption, .wp-block-embed figcaption, .wp-block-gallery figcaption, .wp-block-image figcaption, .wp-block-table figcaption, .wp-block-video figcaption){font-family: var(--wp--preset--font-family--source-serif-pro);font-style: italic;font-weight: 400;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-custom-he-red-color{color: var(--wp--preset--color--custom-he-red) !important;}.has-custom-he-orange-color{color: var(--wp--preset--color--custom-he-orange) !important;}.has-custom-he-burnt-orange-color{color: var(--wp--preset--color--custom-he-burnt-orange) !important;}.has-custom-he-sage-color{color: var(--wp--preset--color--custom-he-sage) !important;}.has-custom-he-spruce-color{color: var(--wp--preset--color--custom-he-spruce) !important;}.has-custom-he-purple-color{color: var(--wp--preset--color--custom-he-purple) !important;}.has-custom-he-light-blue-color{color: var(--wp--preset--color--custom-he-light-blue) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-custom-he-red-background-color{background-color: var(--wp--preset--color--custom-he-red) !important;}.has-custom-he-orange-background-color{background-color: var(--wp--preset--color--custom-he-orange) !important;}.has-custom-he-burnt-orange-background-color{background-color: var(--wp--preset--color--custom-he-burnt-orange) !important;}.has-custom-he-sage-background-color{background-color: var(--wp--preset--color--custom-he-sage) !important;}.has-custom-he-spruce-background-color{background-color: var(--wp--preset--color--custom-he-spruce) !important;}.has-custom-he-purple-background-color{background-color: var(--wp--preset--color--custom-he-purple) !important;}.has-custom-he-light-blue-background-color{background-color: var(--wp--preset--color--custom-he-light-blue) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-custom-he-red-border-color{border-color: var(--wp--preset--color--custom-he-red) !important;}.has-custom-he-orange-border-color{border-color: var(--wp--preset--color--custom-he-orange) !important;}.has-custom-he-burnt-orange-border-color{border-color: var(--wp--preset--color--custom-he-burnt-orange) !important;}.has-custom-he-sage-border-color{border-color: var(--wp--preset--color--custom-he-sage) !important;}.has-custom-he-spruce-border-color{border-color: var(--wp--preset--color--custom-he-spruce) !important;}.has-custom-he-purple-border-color{border-color: var(--wp--preset--color--custom-he-purple) !important;}.has-custom-he-light-blue-border-color{border-color: var(--wp--preset--color--custom-he-light-blue) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-helvetica-neue-font-family{font-family: var(--wp--preset--font-family--helvetica-neue) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-red-hat-display-font-family{font-family: var(--wp--preset--font-family--red-hat-display) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-source-sans-pro-font-family{font-family: var(--wp--preset--font-family--source-sans-pro) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}:where(.wp-site-blocks) > * {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.wpforms-container.compact-form {
+	margin: 0 0 0 0;
+}
+
+.wp-block-navigation .wp-block-search__inside-wrapper {
+	margin: 0;
+}
+
+.wp-block-navigation .wp-block-search__inside-wrapper input {
+	padding: .25em;
+}
+
+.wp-block-navigation .wp-block-search__inside-wrapper button {
+	padding: .25em .5em;
+}
+
+.wp-block-heading a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.wp-block-heading a:hover {
+	text-decoration: underline;
+}
+
+.flexgrow {
+	flex-grow: 1;
+}
+:root :where(.wp-block-button .wp-block-button__link){background-color: var(--wp--custom--button--color--background);border-radius: var(--wp--custom--button--border--radius);border-color: var(--wp--custom--button--border--color);border-width: var(--wp--custom--button--border--width);border-style: var(--wp--custom--button--border--style);color: var(--wp--custom--button--color--text);font-size: var(--wp--custom--button--typography--font-size);font-weight: var(--wp--custom--button--typography--font-weight);line-height: var(--wp--custom--button--typography--line-height);padding-top: var(--wp--custom--button--spacing--padding--top);padding-right: var(--wp--custom--button--spacing--padding--right);padding-bottom: var(--wp--custom--button--spacing--padding--bottom);padding-left: var(--wp--custom--button--spacing--padding--left);}
+:root :where(.wp-block-navigation){font-size: var(--wp--custom--font-sizes--normal);text-decoration: none;}
+:root :where(.wp-block-separator){border-color: currentColor;border-width: 0 0 1px 0;border-style: solid;color: var(--wp--custom--color--foreground);}
+:root :where(.wp-block-buttons){font-family: var(--wp--preset--font-family--source-sans-pro);font-style: normal;font-weight: 500;}
+:root :where(.wp-block-heading){font-family: var(--wp--preset--font-family--source-sans-pro);font-style: normal;font-weight: 900;}
+:root :where(.wp-block-post-content){font-family: var(--wp--preset--font-family--source-serif-pro);}:root :where(.wp-block-post-content-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-post-content-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-post-content-is-layout-flow) > *{margin-block-start: 1em;margin-block-end: 0;}:root :where(.wp-block-post-content-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-post-content-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-post-content-is-layout-constrained) > *{margin-block-start: 1em;margin-block-end: 0;}:root :where(.wp-block-post-content-is-layout-flex){gap: 1em;}:root :where(.wp-block-post-content-is-layout-grid){gap: 1em;}
+</style>
+<style id='core-block-supports-inline-css'>
+.wp-container-content-422d1810{flex-basis:230px;}.wp-container-core-navigation-is-layout-aa60f3ea{justify-content:flex-end;}.wp-container-core-group-is-layout-6c531013{flex-wrap:nowrap;}.wp-container-core-group-is-layout-12c14382{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-group-is-layout-40373c2f > .alignfull{margin-right:calc(0px * -1);margin-left:calc(0px * -1);}.wp-container-3{top:calc(0px + var(--wp-admin--admin-bar--position-offset, 0px));position:sticky;z-index:10;}.wp-container-core-group-is-layout-007218de{gap:var(--wp--preset--spacing--40);justify-content:center;}.wp-container-core-buttons-is-layout-a89b3969{justify-content:center;}.wp-elements-c9aee725fe44f7e8e5dab0ad9845e98e a:where(:not(.wp-element-button)){color:var(--wp--preset--color--background);}.wp-container-core-columns-is-layout-28f84493{flex-wrap:nowrap;}.wp-elements-3c69318aab0b849b727f5b2fceb5e19b a:where(:not(.wp-element-button)){color:var(--wp--preset--color--background);}.wp-container-core-buttons-is-layout-78a8171a{flex-wrap:nowrap;justify-content:center;}.wp-container-core-group-is-layout-18714d9d{justify-content:space-between;}.wp-elements-18ef9f7ca9e912c32bf255834dbaae45 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--background);}.wp-container-content-9cfa9a5a{flex-grow:1;}.wp-container-core-navigation-is-layout-fc4fd283{justify-content:flex-start;}.wp-container-core-group-is-layout-ea831b35{gap:var(--wp--preset--spacing--50);flex-direction:column;align-items:center;}.wp-container-core-group-is-layout-f4a46358 > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:900px;margin-left:auto !important;margin-right:auto !important;}.wp-container-core-group-is-layout-f4a46358 > .alignwide{max-width:1200px;}.wp-container-core-group-is-layout-f4a46358 .alignfull{max-width:none;}
+</style>
+<style id='wp-block-template-skip-link-inline-css'>
+
+.skip-link.screen-reader-text {
+			border: 0;
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+</style>
+<link rel='stylesheet' id='blockbase-ponyfill-css' href='https://headwaterseconomics.org/wp-content/themes/blockbase/assets/ponyfill.css?ver=1.0.3' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://headwaterseconomics.org/wp-includes/css/dashicons.min.css?ver=6.8.2' media='all' />
+<script src="https://headwaterseconomics.org/wp-content/plugins/he-tableau-block/build/he-tableau-block/tableauHelper.js?ver=0e384c69d9f4ad6f0b4e" id="he-blocks-he-tableau-block-script-js"></script>
+<script src="https://headwaterseconomics.org/wp-content/plugins/he-apps/src/styleOverride.js?ver=1756138568" id="he-app-style-override-script-js"></script>
+<script src="https://headwaterseconomics.org/wp-content/plugins/he-base/he-base.js?ver=6.8.2" id="he_base_script-js"></script>
+<script src="https://headwaterseconomics.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://headwaterseconomics.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://public.tableau.com/javascripts/api/tableau-2.min.js?ver=6.8.2" id="tableau-js-js"></script>
+<script defer crossorigin="anonymous" src="https://kit.fontawesome.com/db1e9b4783.js" id="font-awesome-official-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+<!-- Google Analytics snippet added by Site Kit -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-4GZ7QHJZ4N" id="google_gtagjs-js" async></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["headwaterseconomics.org"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "G-4GZ7QHJZ4N", {"googlesitekit_post_type":"post","googlesitekit_post_date":"20200422","googlesitekit_post_author":"Mark Haggerty"});
+</script>
+<link rel="https://api.w.org/" href="https://headwaterseconomics.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://headwaterseconomics.org/wp-json/wp/v2/posts/28191" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://headwaterseconomics.org/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://headwaterseconomics.org/?p=28191' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://headwaterseconomics.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fheadwaterseconomics.org%2Feconomic-development%2Fevolution-electricity-generation%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://headwaterseconomics.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fheadwaterseconomics.org%2Feconomic-development%2Fevolution-electricity-generation%2F&#038;format=xml" />
+<meta name="generator" content="auto-sizes 1.7.0">
+<meta name="generator" content="Site Kit by Google 1.161.0" /><meta name="generator" content="performance-lab 4.0.0; plugins: auto-sizes, webp-uploads">
+<meta name="generator" content="webp-uploads 2.6.0">
+<script type="importmap" id="wp-importmap">
+{"imports":{"@wordpress\/interactivity":"https:\/\/headwaterseconomics.org\/wp-includes\/js\/dist\/script-modules\/interactivity\/index.min.js?ver=55aebb6e0a16726baffb"}}
+</script>
+<script type="module" src="https://headwaterseconomics.org/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=61572d447d60c0aa5240" id="@wordpress/block-library/navigation/view-js-module"></script>
+<link rel="modulepreload" href="https://headwaterseconomics.org/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=55aebb6e0a16726baffb" id="@wordpress/interactivity-js-modulepreload">
+<!-- Google Tag Manager snippet added by Site Kit -->
+<script>
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-PLFVK7T' );
+			
+</script>
+
+<!-- End Google Tag Manager snippet added by Site Kit -->
+<link rel="icon" href="https://headwaterseconomics.org/wp-content/uploads/cropped-HE_Logo_IconOnly_Color-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://headwaterseconomics.org/wp-content/uploads/cropped-HE_Logo_IconOnly_Color-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://headwaterseconomics.org/wp-content/uploads/cropped-HE_Logo_IconOnly_Color-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://headwaterseconomics.org/wp-content/uploads/cropped-HE_Logo_IconOnly_Color-270x270.jpg" />
+</head>
+
+<body class="wp-singular post-template-default single single-post postid-28191 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-blockbase wp-child-theme-headwaterseconomics2024">
+		<!-- Google Tag Manager (noscript) snippet added by Site Kit -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLFVK7T" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) snippet added by Site Kit -->
+		
+<div class="wp-site-blocks"><header class="wp-block-template-part">
+<div class="wp-block-group gapless-group is-content-justification-center is-layout-constrained wp-container-core-group-is-layout-40373c2f wp-block-group-is-layout-constrained wp-container-3 is-position-sticky" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+<div class="wp-block-group alignfull site-header is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-12c14382 wp-block-group-is-layout-flex" style="padding-top:8px;padding-right:var(--wp--preset--spacing--20);padding-bottom:8px;padding-left:var(--wp--preset--spacing--20)"><div style="margin-top:0;margin-bottom:0;margin-left:0;margin-right:0;" class="wp-block-site-logo wp-container-content-422d1810"><a href="https://headwaterseconomics.org/" class="custom-logo-link" rel="home"><img width="230" height="45" src="https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color.png" class="custom-logo" alt="Headwaters Economics" decoding="async" srcset="https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color.png 1801w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color-450x89.png 450w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color-900x178.png 900w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color-768x152.png 768w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Primary_Color-1536x304.png 1536w" sizes="(max-width: 230px) 100vw, 230px" /></a></div>
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-6c531013 wp-block-group-is-layout-flex"><nav class="is-responsive items-justified-right social-links wp-block-navigation is-horizontal is-content-justification-right is-layout-flex wp-container-core-navigation-is-layout-aa60f3ea wp-block-navigation-is-layout-flex" aria-label="Main Menu" 
+		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" 
+				data-wp-on-async--click="actions.openMenuOnClick"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+			><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z" /></svg></button>
+				<div class="wp-block-navigation__responsive-container"  id="modal-1" 
+				data-wp-class--has-modal-open="state.isMenuOpen"
+				data-wp-class--is-menu-open="state.isMenuOpen"
+				data-wp-watch="callbacks.initMenu"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+				data-wp-on-async--focusout="actions.handleMenuFocusout"
+				tabindex="-1"
+			>
+					<div class="wp-block-navigation__responsive-close" tabindex="-1">
+						<div class="wp-block-navigation__responsive-dialog" 
+				data-wp-bind--aria-modal="state.ariaModal"
+				data-wp-bind--aria-label="state.ariaLabel"
+				data-wp-bind--role="state.roleAttribute"
+			>
+							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" 
+				data-wp-on-async--click="actions.closeMenuOnClick"
+			><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
+							<div class="wp-block-navigation__responsive-container-content" 
+				data-wp-watch="callbacks.focusFirstElement"
+			 id="modal-1-content">
+								<ul class="wp-block-navigation__container is-responsive items-justified-right social-links wp-block-navigation"><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--mouseenter="actions.openMenuOnHover" data-wp-on-async--mouseleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="#"><span class="wp-block-navigation-item__label">Research</span></a><button data-wp-bind--aria-expanded="state.isMenuOpen" data-wp-on-async--click="actions.toggleMenuOnClick" aria-label="Research submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on-async--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/economic-development/"><span class="wp-block-navigation-item__label">Rural Economy</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/wildfire/"><span class="wp-block-navigation-item__label">Wildfire</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/flooding/"><span class="wp-block-navigation-item__label">Flooding</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/outdoor-recreation/"><span class="wp-block-navigation-item__label">Outdoor Recreation</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/public-lands/"><span class="wp-block-navigation-item__label">Public Lands</span></a></li></ul></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/community-assistance/"><span class="wp-block-navigation-item__label">Community Assistance</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/tools/"><span class="wp-block-navigation-item__label">Tools</span></a></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--mouseenter="actions.openMenuOnHover" data-wp-on-async--mouseleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content"><span class="wp-block-navigation-item__label">About</span><span class="wp-block-navigation-item__description">Pages about Headwaters Economics</span></a><button data-wp-bind--aria-expanded="state.isMenuOpen" data-wp-on-async--click="actions.toggleMenuOnClick" aria-label="About submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on-async--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/about/"><span class="wp-block-navigation-item__label">Our Impact</span><span class="wp-block-navigation-item__description">Page about Headwaters Economics&#8217; impact, projects, and services</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/our-team/"><span class="wp-block-navigation-item__label">Our Team</span></a></li></ul></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/contact/"><span class="wp-block-navigation-item__label">Contact</span></a></li></ul>
+							</div>
+						</div>
+					</div>
+				</div></nav>
+
+<div id="navSearch" class="navsearch">
+    <form class="navsearch-form" action="/" method="get" role="search">
+        <label class="navsearch-form-label screen-reader-text" for="searchform-1">Search this website</label>
+        <input class="navsearch-form-input" type="text" name="s" id="searchform1" value="" />
+        <input class="navsearch-form-submit" type="submit" alt="Search" value="Search" />
+        <meta content="/?s={s}">
+    </form>
+    <div id="navSearchToggle" class="navsearch-toggle">Search</div>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	//Toggles the visibility of the search bar in the navigation.
+	$("#navSearchToggle").click(function(){
+		var navWidth = $(".wp-block-navigation").width();
+		$("#navSearch .navsearch-form").width( navWidth + 42 ).toggle("slide");
+		$(this).toggleClass("toggled");
+		$("#navSearch .navsearch-form-input").focus();
+	});
+}
+)
+</script></div>
+</div>
+</div>
+</header>
+
+<img id="preload" src="https://headwaterseconomics.org/wp-content/uploads/Coal-wind-natural-resources.jpg" style="display:none;" fetchpriority="high" />
+			<div class="masthead has-featured-image alignfull" style="background: url(https://headwaterseconomics.org/wp-content/uploads/Coal-wind-natural-resources.jpg) center;background-size:cover;" >
+			    
+                <div></div>
+                
+                <header class="is-layout-constrained" role="heading">
+                                        <h1 class="has-x-large-font-size">The Evolution of U.S. Electricity Generation Capacity</h1>
+                    <span class="postmeta wp-block-post-date has-small-font-size has-source-serif-pro-font-family">
+                        April 22, 2020                    </span>
+                </header>
+			</div>
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<main class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><div class="entry-content wp-block-post-content has-medium-font-size is-layout-constrained wp-block-post-content-is-layout-constrained">
+<p>The timeline of U.S. electricity generation capacity additions and retirements
+shows that a clear transition from coal to natural gas and renewable energy is
+playing out across the country. Planned retirements and additions of electricity
+generators will continue the historic trends. </p>
+
+<p>Early evidence suggests that the coronavirus pandemic is accelerating the energy transition. This is because renewable energy plants (wind and solar) tend to have fixed costs and no marginal costs, and natural gas prices, already low, have decreased during the pandemic, making it difficult for coal to compete.</p>
+
+<p>The three figures below show how electricity generation capacity is
+changing by energy source (coal, natural gas, and renewables). The fourth
+figure allows users to search by state and energy source. </p>
+
+<p class="has-background" style="background-color:#f2f2f2">The figures below show the annual change in national electricity generation capacity (measured in megawatts [MW]) of different fuels sources. In any year, a vertical bar above zero indicates more capacity added from new construction than lost from power plants closing. A vertical bar below zero indicates more capacity lost from power plants closing than added from new construction. These figures include planned changes in electricity generation capacity reported up to the year 2030. See the&nbsp;<a href="https://headwaterseconomics.org/?p=28191&amp;preview=true#methods">Methods</a>&nbsp;section at the end for data sources.</p>
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<div class="wp-block-group alignfull sans has-black-color has-tertiary-background-color has-text-color has-background is-content-justification-center is-layout-flex wp-container-core-group-is-layout-007218de wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--20);padding-right:0;padding-bottom:var(--wp--preset--spacing--20);padding-left:0">
+<p class="has-text-align-center has-source-sans-pro-font-family" style="font-style:normal;font-weight:900">Subscribe to our newsletter!</p>
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://headwaterseconomics.org/contact/" style="padding-top:0;padding-right:var(--wp--preset--spacing--30);padding-bottom:0;padding-left:var(--wp--preset--spacing--30)">Subscribe!</a></div>
+</div>
+</div>
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2 class="wp-block-heading">Coal-powered electricity generation capacity increased significantly in the
+1970s and 1980s </h2>
+
+<p>The United States built many coal-fired power plants during
+the 1970s and 1980s to meet growing electricity demand. National energy policy,
+responding to concerns about global oil supplies in the 1970s and worries about
+scarcity of natural gas, favored coal as a domestic and reliable power source.
+During the two-decade “big buildup” of coal-fired power plants between 1967 and
+1987, the United States added 202,416 MW—about two-thirds of the nation’s total
+coal-generating capacity. </p>
+
+<p>More recently, new air quality emissions standards and
+increasing maintenance and replacement costs have led to the <a href="https://headwaterseconomics.org/energy/coal/coal-communities-lack-strong-transition-plans/">retirement</a>
+of many aging coal-fired power plants. As a result, the nation’s capacity to
+generate electricity from coal is declining. Coal-fired power plant retirements
+between 2012 and 2030 will reduce capacity by 115,410 MW, more than a third of
+the former peak capacity to generate electricity from coal. </p>
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="900" height="500" src="https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-coal.png" alt="" class="wp-image-28206" srcset="https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-coal.png 900w, https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-coal-450x250.png 450w, https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-coal-768x427.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2 class="wp-block-heading">Natural gas capacity replaced coal in the 2000s</h2>
+
+<p>Advancements in seismic imaging, horizontal drilling, and
+fracking techniques &nbsp;reversed concerns
+about scarcity in natural gas markets and vaulted the United States into the <a href="https://www.bloomberg.com/quicktake/fracking">largest global producer</a> of
+natural gas. The increased volume of production led to persistent low natural
+gas prices and a building boom in new high-efficiency combined-cycle natural
+gas and steam power plants that hastened the retirement of many coal-fired
+power plants. In just six years between 2000 to 2005, 191,745 MW of natural gas
+capacity were added and natural gas replaced coal as the nation’s baseload
+power that provides enough electricity to meet minimum level of demand. </p>
+
+<figure class="wp-block-image size-large"><img decoding="async" width="900" height="500" src="https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-natural-gas.png" alt="" class="wp-image-28207" srcset="https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-natural-gas.png 900w, https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-natural-gas-450x250.png 450w, https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-natural-gas-768x427.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2 class="wp-block-heading">Today renewables are increasing</h2>
+
+<p>Renewable energy costs are primarily determined by long-term power purchase agreements, and are less driven by fossil fuel prices (e.g., coal and natural gas). Today, solar and wind energy generators are being built faster than any other energy source. Between 2012 and 2020, natural gas added 35,302 MW of capacity while new wind, solar, and biomass generators totaled 891,383 MW of capacity. Added renewable electricity capacity <a href="https://www.axios.com/coal-electricity-mix-coronavirus-wind-solar-bfcc0696-b0d9-4342-a7b6-fdba53e49e12.html">generated more electricity than coal</a> for multiple days in April 2020—the first time ever that renewables surpassed coal generation on a daily basis. State regulations and incentives driven by climate policy and <a href="https://www.eia.gov/todayinenergy/detail.php?id=42497">declining energy costs</a> are influencing the rise of renewables as a growing component of energy markets. </p>
+
+<figure class="wp-block-image size-large"><img decoding="async" width="900" height="500" src="https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-renewables.png" alt="" class="wp-image-28208" srcset="https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-renewables.png 900w, https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-renewables-450x250.png 450w, https://headwaterseconomics.org/wp-content/uploads/HE_electricity-generation-renewables-768x427.png 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2 class="wp-block-heading">Explore electricity generation capacity
+by type and state </h2>
+
+<p>In the interactive visualization below, select the electricity generation source and state using the drop-down menus. You can also <a href="https://headwaterseconomics.org/wp-content/uploads/U.S.-Electricity-Generation-Capacity-1950-2030.xlsx">download the data</a>.</p>
+
+<div 
+  style='overflow:hidden;' 
+  class=""
+>
+  <div 
+    id="viz-block-CapacityData"
+    data-url="https://public.tableau.com/views/Evolution-Electricity-Generation-FINAL/CapacityData"
+    data-height-to-suppress="27"
+    style='height: 500px;'
+  ></div>
+</div>
+
+<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-a89b3969 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button alignright"><a class="wp-block-button__link wp-element-button" href="https://headwaterseconomics.org/wp-content/uploads/U.S.-Electricity-Generation-Capacity-1950-2030.xlsx">Download Data</a></div>
+</div>
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<div class="wp-block-group light-text sans light-pad has-background-color has-secondary-background-color has-text-color has-background has-link-color wp-elements-c9aee725fe44f7e8e5dab0ad9845e98e is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-columns no-margin is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-center no-margin is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:25%">
+<figure class="wp-block-image size-large is-resized no-margin"><a href="https://headwaterseconomics.org/tools/populations-at-risk/"><img loading="lazy" decoding="async" width="900" height="674" sizes="auto, (max-width: 225px) 100vw, 225px" src="https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-900x674.jpg" alt="Wind Turbines sit atop a hill with low clouds." class="wp-image-28238" style="width:243px;height:134px" srcset="https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-900x674.jpg 900w, https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-450x337.jpg 450w, https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-768x575.jpg 768w, https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-1536x1151.jpg 1536w, https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-1920x1438.jpg 1920w" /></a></figure>
+</div>
+
+<div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style="flex-basis:75%">
+<p class="no-margin has-text-color has-normal-font-size" style="color:#ffffff">Also read this companion post about the <a href="https://headwaterseconomics.org/economic-development/geography-energy-transition/">changing geography</a> of U.S.  electricity generation.</p>
+</div>
+</div>
+</div>
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<div class="wp-block-group alignfull has-background is-layout-constrained wp-block-group-is-layout-constrained" style="background-color:#f2f2f2">
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<h2 class="wp-block-heading" id="methods">Methods &amp; Data Sources</h2>
+
+<p class="has-small-font-size">This data project is part of a collaboration with researchers and students at the University of Wyoming and Montana State University to aggregate public data published by various sources and make it more accessible to decision-makers and the public. Data are from the U.S. Energy Information Administration Preliminary Monthly Electric Generator Inventory (EIA 860-M), including data on retired, operating, and planned power generators. Additional data on coal-fired power plant closures are compiled by <a href="http://www.uwyo.edu/economics/faculty-staff/faculty/robert-w-godby.html">Robert Godby</a> and his students at the University of Wyoming.  Analysis is by Headwaters Economics and the <a href="http://resources4communities.org/">Resources and Communities Research Group</a> WAFRX project at Montana State University.  <a href="http://waferx.montana.edu/">WAFERx</a> is supported by the National Science Foundation under the&nbsp;<a rel="noreferrer noopener" href="https://nsf.gov/EPSCoR" target="_blank">EPSCoR</a>&nbsp;Track II Cooperative Agreement No. OIA-1632810.  </p>
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+</div>
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"></div>
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<div class="wp-block-template-part"></div></main>
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"><section class="contact-block"><h5 class="wp-block-heading"><small>Author:</small></br>Mark Haggerty</h5><div class="contact-info">
+				<p>For more information about this topic contact:</p>
+				<h5 class="wp-block-heading">Kelly Pohl</h5>
+				<ul>
+				<li><i class="fa fa-phone-square" aria-hidden="true"></i> <a href="tel:406.599.7841">406.599.7841</a></li>
+				<li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="m&#97;&#105;l&#116;&#111;&#58;k&#101;lly&#64;&#104;e&#97;dw&#97;&#116;er&#115;&#101;c&#111;n&#111;mic&#115;.org">k&#101;ll&#121;&#64;h&#101;&#97;d&#119;&#97;t&#101;&#114;&#115;&#101;&#99;ono&#109;&#105;&#99;&#115;&#46;org</a></li>
+				</ul>
+			  </div></section>
+
+</div>
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">			<section class="related-content">
+				<h3 class="wp-block-heading has-text-align-center">Related Research</h3>
+				<div>
+										<article>
+						<a href="https://headwaterseconomics.org/economic-development/geography-energy-transition/" title="Visit The Changing Geography of U.S. Electricity Generation">
+                            <img width="300" height="300" src="https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-300x300.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Wind Turbines sit atop a hill with low clouds." decoding="async" loading="lazy" srcset="https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-300x300.jpg 300w, https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-750x750.jpg 750w, https://headwaterseconomics.org/wp-content/uploads/HE_WindMountainLowClouds-600x600.jpg 600w" sizes="auto, (max-width: 300px) 100vw, 300px" />                        </a>
+						<a href="https://headwaterseconomics.org/economic-development/geography-energy-transition/" title="Visit The Changing Geography of U.S. Electricity Generation">
+                            The Changing Geography of U.S. Electricity Generation                        </a>
+					</article>
+										<article>
+						<a href="https://headwaterseconomics.org/economic-development/energy/coal/coal-communities-lack-strong-transition-plans/" title="Visit Coal Communities Lack Strong Transition Plans">
+                            <img width="220" height="220" src="https://headwaterseconomics.org/wp-content/uploads/coal-featured-image-square-220x220.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://headwaterseconomics.org/wp-content/uploads/coal-featured-image-square-220x220.jpg 220w, https://headwaterseconomics.org/wp-content/uploads/coal-featured-image-square-75x75.jpg 75w, https://headwaterseconomics.org/wp-content/uploads/coal-featured-image-square-100x100.jpg 100w, https://headwaterseconomics.org/wp-content/uploads/coal-featured-image-square.jpg 300w" sizes="auto, (max-width: 220px) 100vw, 220px" />                        </a>
+						<a href="https://headwaterseconomics.org/economic-development/energy/coal/coal-communities-lack-strong-transition-plans/" title="Visit Coal Communities Lack Strong Transition Plans">
+                            Coal Communities Lack Strong Transition Plans                        </a>
+					</article>
+										<article>
+						<a href="https://headwaterseconomics.org/economic-development/energy/coal/solutions-for-coal-communities/" title="Visit Solutions for Transitioning Coal-Dependent Communities">
+                            <img width="220" height="220" src="https://headwaterseconomics.org/wp-content/uploads/coal-fired-power-plant-featured-220x220.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://headwaterseconomics.org/wp-content/uploads/coal-fired-power-plant-featured-220x220.jpg 220w, https://headwaterseconomics.org/wp-content/uploads/coal-fired-power-plant-featured-75x75.jpg 75w, https://headwaterseconomics.org/wp-content/uploads/coal-fired-power-plant-featured-100x100.jpg 100w, https://headwaterseconomics.org/wp-content/uploads/coal-fired-power-plant-featured.jpg 300w" sizes="auto, (max-width: 220px) 100vw, 220px" />                        </a>
+						<a href="https://headwaterseconomics.org/economic-development/energy/coal/solutions-for-coal-communities/" title="Visit Solutions for Transitioning Coal-Dependent Communities">
+                            Solutions for Transitioning Coal-Dependent Communities                        </a>
+					</article>
+										<article>
+						<a href="https://headwaterseconomics.org/tools/economic-profile-system/" title="Visit Economic Profile System (EPS)">
+                            <img width="220" height="220" src="https://headwaterseconomics.org/wp-content/uploads/HE-Tool-EPS-220x220.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://headwaterseconomics.org/wp-content/uploads/HE-Tool-EPS-220x220.png 220w, https://headwaterseconomics.org/wp-content/uploads/HE-Tool-EPS-350x350.png 350w, https://headwaterseconomics.org/wp-content/uploads/HE-Tool-EPS-75x75.png 75w, https://headwaterseconomics.org/wp-content/uploads/HE-Tool-EPS-100x100.png 100w, https://headwaterseconomics.org/wp-content/uploads/HE-Tool-EPS.png 450w" sizes="auto, (max-width: 220px) 100vw, 220px" />                        </a>
+						<a href="https://headwaterseconomics.org/tools/economic-profile-system/" title="Visit Economic Profile System (EPS)">
+                            Economic Profile System (EPS)                        </a>
+					</article>
+									</div>
+			</section><!-- .related-posts -->
+	    </div>
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+<footer class="site-footer-container wp-block-template-part">
+<div class="wp-block-group has-background is-layout-constrained wp-container-core-group-is-layout-f4a46358 wp-block-group-is-layout-constrained" style="background:linear-gradient(135deg,rgb(3,87,130) 0%,rgb(105,179,211) 100%);padding-top:0;padding-bottom:0">
+<div class="wp-block-group alignwide is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-18714d9d wp-block-group-is-layout-flex" style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
+<p class="has-text-align-center has-background-color has-text-color has-link-color has-large-font-size wp-elements-3c69318aab0b849b727f5b2fceb5e19b"><strong>Independent Nonpartisan Research</strong></p>
+
+<div class="wp-block-buttons has-custom-font-size flexgrow has-medium-font-size is-content-justification-center is-nowrap is-layout-flex wp-container-core-buttons-is-layout-78a8171a wp-block-buttons-is-layout-flex" style="margin-top:0;margin-bottom:0">
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://headwaterseconomics.org/contact/" style="padding-top:0;padding-bottom:0">Contact</a></div>
+</div>
+</div>
+
+<div class="wp-block-group alignfull has-background-color has-black-background-color has-text-color has-background has-link-color wp-elements-18ef9f7ca9e912c32bf255834dbaae45 is-vertical is-content-justification-center is-layout-flex wp-container-core-group-is-layout-ea831b35 wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--50)">
+<figure class="wp-block-image size-medium is-resized"><a href="https://headwaterseconomics.org"><img loading="lazy" decoding="async" width="450" height="307" sizes="auto, (max-width: 200px) 100vw, 200px" src="https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Stacked_ReversedEnclosed-450x307.png" alt="" class="wp-image-31632" style="width:200px" srcset="https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Stacked_ReversedEnclosed-450x307.png 450w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Stacked_ReversedEnclosed-900x614.png 900w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Stacked_ReversedEnclosed-768x524.png 768w, https://headwaterseconomics.org/wp-content/uploads/2024/02/HE_Logo_Stacked_ReversedEnclosed.png 1382w" /></a></figure>
+
+<p class="has-text-align-center">© 2025 Headwaters Economics, all rights reserved</p>
+
+<hr class="wp-block-separator has-text-color has-tertiary-color has-alpha-channel-opacity has-tertiary-background-color has-background is-style-default wp-container-content-9cfa9a5a"/>
+
+<nav class="items-justified-left wp-block-navigation is-content-justification-left is-layout-flex wp-container-core-navigation-is-layout-fc4fd283 wp-block-navigation-is-layout-flex" aria-label="Footer navigation"><ul class="wp-block-navigation__container items-justified-left wp-block-navigation"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/sitemap.xml"><span class="wp-block-navigation-item__label">Sitemap</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/about/terms/"><span class="wp-block-navigation-item__label">Terms of Use</span></a></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--mouseenter="actions.openMenuOnHover" data-wp-on-async--mouseleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="http://Research"><span class="wp-block-navigation-item__label">Research</span></a><button data-wp-bind--aria-expanded="state.isMenuOpen" data-wp-on-async--click="actions.toggleMenuOnClick" aria-label="Research submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on-async--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container wp-block-navigation-submenu"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/economic-development/"><span class="wp-block-navigation-item__label">Economic Development</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/equity/"><span class="wp-block-navigation-item__label">Equity</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/natural-hazards/"><span class="wp-block-navigation-item__label">Natural Hazards</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/outdoor-recreation/"><span class="wp-block-navigation-item__label">Outdoor Recreation</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/public-lands/"><span class="wp-block-navigation-item__label">Public Lands</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/tax-policy/"><span class="wp-block-navigation-item__label">Tax Policy</span></a></li></ul></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/community-assistance/"><span class="wp-block-navigation-item__label">Community Assistance</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/tools/"><span class="wp-block-navigation-item__label">Analysis Tools</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/about/"><span class="wp-block-navigation-item__label">About Us</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://headwaterseconomics.org/contact/"><span class="wp-block-navigation-item__label">Contact</span></a></li><li class="wp-block-navigation-item">
+<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only is-layout-flex wp-block-social-links-is-layout-flex"><li style="color: #ffffff; " class="wp-social-link wp-social-link-linkedin has-background-color wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://www.linkedin.com/company/headecon/" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M19.7,3H4.3C3.582,3,3,3.582,3,4.3v15.4C3,20.418,3.582,21,4.3,21h15.4c0.718,0,1.3-0.582,1.3-1.3V4.3 C21,3.582,20.418,3,19.7,3z M8.339,18.338H5.667v-8.59h2.672V18.338z M7.004,8.574c-0.857,0-1.549-0.694-1.549-1.548 c0-0.855,0.691-1.548,1.549-1.548c0.854,0,1.547,0.694,1.547,1.548C8.551,7.881,7.858,8.574,7.004,8.574z M18.339,18.338h-2.669 v-4.177c0-0.996-0.017-2.278-1.387-2.278c-1.389,0-1.601,1.086-1.601,2.206v4.249h-2.667v-8.59h2.559v1.174h0.037 c0.356-0.675,1.227-1.387,2.526-1.387c2.703,0,3.203,1.779,3.203,4.092V18.338z"></path></svg><span class="wp-block-social-link-label screen-reader-text">LinkedIn</span></a></li>
+
+<li style="color: #ffffff; " class="wp-social-link wp-social-link-youtube has-background-color wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://www.youtube.com/channel/UCQBx0etu457Hl2gKKEx2aCQ" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg><span class="wp-block-social-link-label screen-reader-text">YouTube</span></a></li></ul>
+</li></ul></nav></div>
+</div>
+</footer></div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/headwaterseconomics2024\/*","\/wp-content\/themes\/blockbase\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+            <script type="text/javascript">function showhide_toggle(a,b,c,d){var e=jQuery("#"+a+"-link-"+b),f=jQuery("#"+a+"-content-"+b);a=jQuery("#"+a+"-toggle-"+b);e.toggleClass("sh-show sh-hide");f.toggleClass("sh-show sh-hide").toggle(600);a.text()===c?a.text(d):a.text(c)};</script>
+    	<script type="text/javascript">
+		function genesisBlocksShare( url, title, w, h ){
+			var left = ( window.innerWidth / 2 )-( w / 2 );
+			var top  = ( window.innerHeight / 2 )-( h / 2 );
+			return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=600, height=600, top='+top+', left='+left);
+		}
+	</script>
+	<script id="wp-block-template-skip-link-js-after">
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.id = 'wp-skip-link';
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerText = 'Skip to content';
+
+// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	
+</script>
+<script src="https://headwaterseconomics.org/wp-content/plugins/genesis-blocks/dist/assets/js/dismiss.js?ver=1756138570" id="genesis-blocks-dismiss-js-js"></script>
+</body>
+</html>

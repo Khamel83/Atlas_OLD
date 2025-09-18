@@ -1,0 +1,288 @@
+# Content from http://kottke.org/15/04/simple-rules-for-healthy-eating
+
+*Retrieved: 2025-09-15T01:00:56.812545*
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Simple rules for healthy eating" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kottke.org/15/04/simple-rules-for-healthy-eating" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="kottke.org" />
+<meta property="og:description" content="From pediatrics professor Aaron Carroll, a list of guidelines for sensible & healthy eating.
+
+1. Get as much of your nutrition as" />
+<meta property="fb:admins" content="549560637" />
+<meta property="fb:app_id" content="279322152122365" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@kottke">
+<meta name="twitter:title" content="Simple rules for healthy eating">
+<meta name="twitter:description" content="From pediatrics professor Aaron Carroll, a list of guidelines for sensible & healthy eating.
+
+1. Get as much of your nutrition as possible from a variety of completely unprocessed foods. These include fruits and vegetables. But they also include meat, fis">
+<meta name="twitter:image:src" content="">
+<title>Simple rules for healthy eating</title>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/images/2024/icons/57x57.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/2024/icons/180x180.png">
+<link rel="apple-touch-icon" sizes="256x256" href="/images/2024/icons/256x256.png">
+<link href="/images/2024/icons/256x256.png" rel="icon" type="image/png" sizes="256x256" />
+
+<script>
+// Immediately set theme on page load
+(function() {
+    var storedTheme = localStorage.getItem('theme') || 
+        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    if (storedTheme) {
+        document.documentElement.setAttribute('data-theme', storedTheme);
+    }
+})();
+</script>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1/lite-youtube.min.js"></script>
+<script src="/templates/2024/js/lite-vimeo.js"></script>
+<script src="/templates/2024/js/jquery-1.11.3.min.js"></script>
+<script src="/templates/2024/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="/templates/2024/js/jquery.widowFix-1.3.min.js"></script>
+<script src="/templates/2024/js/jquery.timeago.js"></script>
+<script src="/templates/2024/js/medium-zoom.min.js"></script>
+<script src="/templates/2024/js/threads.js?v=6"></script>
+<script src="/templates/2024/js/site.js?v=8"></script>
+
+<script type="text/javascript">
+  (function(c) {
+    var script = document.createElement("script");
+    script.src = "https://js.memberful.com/embed.js";
+    script.onload = function() { Memberful.setup(c) };
+    document.head.appendChild(script);
+  })({
+    site: ["https://kottke.memberful.com"]
+  });
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".post p a").attr("target","_blank");
+  $(".post p a").each(function() {
+    var href = $(this).attr("href");
+    if (!href.startsWith('http://') && !href.startsWith('https://') || href.includes('//kottke.org')) {
+      $(this).removeAttr("target");
+    }
+  });
+	$(".post p sup a").removeAttr("target");
+	$(".post .footnote a:last-of-type").removeAttr("target");
+
+$("time.timeago").timeago().css("visibility", "visible");
+	
+	$('h2').widowFix();
+	
+	$(".post p strong:contains('Update:')").each(function() {
+	    $( this ).addClass("post-update-title").html("Update" + ((typeof $( this ).attr('title') !== typeof undefined && $( this ).attr('title') !== false) ? "<span class='post-update-timestamp'> ·  " + $( this ).attr("title") + "</span>" : ""));
+	  });
+    });
+</script>
+
+<link rel="stylesheet" href="https://use.typekit.net/eyl4ubc.css">
+<link rel="stylesheet" href="https://kit.fontawesome.com/205dae25a8.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/templates/2024/css/main.css?v=13" type="text/css" />
+<link rel="stylesheet" href="/templates/2024/css/littlefoot.css" type="text/css" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.kottke.org/main" />
+
+</head>
+<body>
+
+<div class="big-hug"><div class="grid-container">
+
+<div class="grid-item" id="logo-container">
+
+<div class="logo-grid">
+
+<div aria-hidden="true" class="logo-grid-item rotate135 hue180">
+<a href="/"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/color-1.jpg" alt="go to homepage"></a>
+
+<a href="/"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="overlay-svg-desktop">
+<path id="circlePath" fill="none" stroke-width="0" stroke="hsl(0 100% 50% / 0.5)" d="M 10, 50 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"></path>
+<text id="text"><textPath id="textPath-desktop" href="#circlePath">KOTTKE DOT ORG</textPath></text>
+</svg></a>
+
+</div>
+
+<div class="logo-grid-item circle-margin"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/circle-mask.png" alt="go to homepage">
+
+</div>
+
+<div aria-hidden="true" class="logo-grid-item rotate270 hue270">
+<a href="/"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/color-26.jpg" alt="go to homepage"></a>
+
+</div>
+
+<div class="logo-grid-item circle-margin"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/circle-mask.png" alt="go to homepage">
+
+</div>
+
+<div aria-hidden="true" class="logo-grid-item rotate225 hue90">
+<a href="/"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/color-24.jpg" alt="go to homepage"></a>
+
+</div>
+
+<div class="logo-grid-item circle-margin"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/circle-mask.png" alt="go to homepage">
+
+</div>
+
+<div aria-hidden="true" class="logo-grid-item rotate270 hue270">
+<a href="/"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/color-14.jpg" alt="go to homepage"></a>
+
+<a href="/"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="overlay-svg-mobile">
+<path id="circlePath" fill="none" stroke-width="0" stroke="hsl(0 100% 50% / 0.5)" d="M 10, 50 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"></path>
+<text id="text"><textPath id="textPath-mobile" href="#circlePath">KOTTKE DOT ORG</textPath></text>
+</svg></a>
+</div>
+
+<div class="logo-grid-item logo-grid-open-circle"></div>
+</div>
+</div>
+
+<div class="grid-item" id="sp1" aria-hidden="true"></div>
+
+<div class="grid-item" id="menu-container">
+<input type="checkbox" id="menu-btn" /><label id="menu-label" for="menu-btn"><div id="burger">MENU<i class="fa-regular fa-bars-staggered"></i></div></label>
+
+<nav>
+<label id="menu-label2" for="menu-btn"><div id="close-btn"><i class="fa-regular fa-xmark"></i></div></label>
+
+<a href="https://kottke.memberful.com/auth/sign_in" style="text-decoration: none;"><div id="login">Member Login<i class="fa-light fa-right-to-bracket"></i></div></a>
+
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/members">Membership <i class="fa-light fa-sparkles" aria-hidden="true"></i></a></li>
+<li><a href="/newsletter">Newsletter</a></li>
+<li><a href="/goods">Goods</a></li>
+<li><a href="/everfresh">Archive + Tags</a></li>
+<li><a href="/about">About/Contact</a></li>
+</ul>
+
+<button id="theme-toggle" type="button">
+<span class="d-block-light d-none"><i class="fa-light fa-space-station-moon-construction"></i>dark mode</span>
+<span class="d-block-dark d-none"><i class="fa-light fa-sun-bright"></i>light mode</span>
+</button>
+
+</nav></div>
+
+<div class="grid-item" id="boring-container">
+
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7DTK7I&placement=kottkeorg" ; id="_carbonads_js"></script>
+<div class="boring-title">Advertise here with <a href="http://carbonads.net/?utm_source=kottkeorg&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon" target="_blank">Carbon Ads</a></div>
+</div>
+
+<div class="grid-item" id="extras-container">
+<div id="socials">
+
+<h3>Socials & More</h3>
+
+<ul class="fa-ul">
+<li><a href="/newsletter"><span class="fa-li"><i class="fa-solid fa-newspaper" aria-hidden="true" style="color:#E474A2;"></i></span>Newsletter</a></li>
+<li><a href="http://feeds.kottke.org/main"><span class="fa-li"><i class="fa-solid fa-square-rss" aria-hidden="true" style="color:#ff6600;"></i></span>RSS Feed</a></li>
+<li><a href="https://bsky.app/profile/kottke.org"><span class="fa-li"><i class="fa-kit fa-bluesky" aria-hidden="true" style="color:rgb(0, 133, 255);"></i></span>Bluesky</a></li>
+<li><a href="https://mastodon.social/@kottke" rel="me"><span class="fa-li"><i class="fa-brands fa-mastodon" aria-hidden="true" style="color:#4267B2;"></i></span>Mastodon</a></li>
+</ul>
+
+</div>
+
+<p class="smaller">This site is made possible by <a href="/members">member support</a>. 💞</p>
+
+<p class="smaller">Big thanks to <a href="https://www.arcustech.com/">Arcustech</a> for hosting the site and offering amazing tech support.</p>
+
+<p class="smaller">When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site!</p>
+
+<p class="smaller"><strong>kottke.org.</strong> home of fine hypertext products since 1998.</p>
+
+<p class="smaller">Beloved by 86.47% of the web.</p>
+
+<p class="smallerer no-underline"><a href="/tag/burgers" title="burgers">🍔</a>&nbsp; <a href="/tag/death" title="death">💀</a>&nbsp; <a href="/tag/photography" title="photography">📸</a>&nbsp; <a href="/tag/crying%20at%20work" title="crying at work">😭</a>&nbsp; <a href="/tag/black%20holes" title="black holes">🕳️</a>&nbsp; <a href="/tag/Old%20Custer" title="Old Custer">🤠</a>&nbsp; <a href="/tag/film%20school" title="film school">🎬</a>&nbsp; <a href="/tag/potatoes" title="potatoes">🥔</a></p></div>
+
+<div class="grid-item" id="content-container">
+
+<!-- Lightbox (hidden by default) -->
+<div id="video-lightbox" class="lightbox hidden">
+  <div id="close-lightbox">× close</div>
+  <div class="lightbox-content">
+    <!-- We'll dynamically swap the src with the chosen video -->
+    <iframe
+      id="lightbox-iframe"
+      src=""
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
+
+<div class="post">
+<div class="post-meta">
+
+posted <time class="timeago timeago_short" datetime="2015-04-20T17:51:21Z">Apr 20 @ 01:51 PM</time> by <a href="http://www.kottke.org">Jason Kottke</a><span class="gift-link"> &ensp;·&ensp; <span style="color: #cc0000;font-variant: small-caps;">gift link</span></span>
+
+</div>
+
+<h2>Simple rules for healthy eating</h2>
+
+<p>From pediatrics professor Aaron Carroll, <a href="http://www.nytimes.com/2015/04/21/upshot/simple-rules-for-healthy-eating.html">a list of guidelines for sensible & healthy eating</a>.</p>
+
+<blockquote><p>1. Get as much of your nutrition as possible from a variety of completely unprocessed foods. These include fruits and vegetables. But they also include meat, fish, poultry and eggs that haven&#8217;t been processed. In other words, try to buy food that hasn&#8217;t been cooked, prepared or altered in any way. Brown rice over white rice. Whole grains over refined grains. You&#8217;re far better off eating two apples than drinking the same 27 grams of sugar in an eight-ounce glass of apple juice.</p></blockquote>
+
+<p>What&#8217;s more interesting than the guidelines is the admission up front that they&#8217;re not supported by rigorous science&#8230;and neither is nutrition in general. In the absence of science, &#8220;everything in moderation&#8221; seems to be the recommended course. (via <a href="https://twitter.com/jimray">@jimray</a>)</p>
+
+<p><strong>Update:</strong> Julia Belluz recently interviewed Surgeon General<sup id="fnref:1429809057"><a href="#fn:1429809057" rel="footnote">1</a></sup> Vivek Murthy for Vox and within, Murthy shares his four basic rules for health:</p>
+
+<blockquote><p>One is to eat healthy. I tend to avoid salt, added sugar, and processed foods whenever possible, and try to eat fresh fruits and vegetables as part of all my meals whenever possible.</p>
+
+<p>Second is to stay physically active. That means not just going to gym but incorporating activity into whatever I do, whether that&#8217;s taking the stairs or converting sitting meetings to walking meetings whenever possible.</p>
+
+<p>Third is making sure I&#8217;m focusing on my emotional and mental well-being. For me, an important part of that is the meditation practice that I do every morning. It&#8217;s a chance for me to center myself, a chance for me to remember who I want to be every day.</p>
+
+<p>The fourth thing is I remind myself to stay away from toxic substances like tobacco and drugs.</p></blockquote>
+
+<ol><li class="footnote" id="fn:1429809057"><p>What an odd antiquated governmental post, Surgeon General of the United States. The US government needs a robust advocate for the health of its citizens, but maybe not a 3-star admiral in the uniformed services you refer to as a surgeon? And while we&#8217;re on the topic, sort of, why not a Filmmaker Laureate, Musician Laureate, YouTube Star Laureate, TV Showrunner Laureate, iOS App Programmer Laureate, and Blogger Laureate in addition to Poet Laureate? <a href="#fnref:1429809057" title="return to article">↩</a><p></li></ol>
+
+<ul class="post-tags"><li><a href="/tag/Aaron%20Carroll">Aaron Carroll</a></li><li><a href="/tag/food">food</a></li><li><a href="/tag/interviews">interviews</a></li><li><a href="/tag/Julia%20Belluz">Julia Belluz</a></li><li><a href="/tag/lists">lists</a></li><li><a href="/tag/Vivek%20Murthy">Vivek Murthy</a></li></ul>
+</ul>
+
+<div class="post-actions">
+
+<a class="share" href="https://kottke.org/15/04/simple-rules-for-healthy-eating"><i class="fa-light fa-share-from-square" aria-hidden="true"></i><span class="action-label">Share</span></a>
+</div>
+
+</div>
+
+</div>
+<div class="grid-item" id="sp2" aria-hidden="true"></div>
+
+</div></div>
+
+<div id="menu-underlay"></div>
+
+<script>
+mediumZoom(document.querySelectorAll(".post img:not(.url-card img)"), {
+    margin: 10,
+    background: "rgba(38, 37, 35, 1.0)",
+});
+</script>
+
+<script src="/templates/2024/js/littlefoot.js"></script>
+<script type="text/javascript">
+    littlefoot.littlefoot({
+        numberResetSelector: ".post"  // This is now the default
+    });
+</script>
+
+</body>
+</html>

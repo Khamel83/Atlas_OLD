@@ -1,0 +1,962 @@
+# Content from http://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/
+
+*Retrieved: 2025-09-15T09:14:50.921491*
+
+---
+
+<!DOCTYPE HTML>
+<!--[if IEMobile 7 ]><html class="no-js iem7" manifest="default.appcache?v=1"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js ie6" lang="en-US"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en-US"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en-US"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+	<head>
+		<title> &raquo; 2015 NBA Trade Value, Part 3: The Final Countdown</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="lf4qvbBa8f7w9TxSVvOI6PouWfTfABYwVCWHjn2qr7Y" />
+		<meta name="msvalidate.01" content="980DAC91C6458F6FA90F7089E61D12B0" />
+		<meta name="googlebot" content="noodp" />
+		<meta name="robots" content="index, follow" />
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="pingback" href="https://grantland.com/xmlrpc.php" />
+		<link rel="mask-icon" color="black" href="https://grantland.com/wp-content/themes/espn-grantland/img/grantland-g.svg">
+		<link rel="shortcut icon" href="https://grantland.com/wp-content/themes/espn-grantland/img/favicon.ico"/>
+		<link rel="apple-touch-icon" href="https://grantland.com/wp-content/themes/espn-grantland/img/apple-touch-icon.png"/>
+		<!--[if lte IE 8 ]>
+		<link rel="stylesheet" href="https://grantland.com/wp-content/themes/espn-grantland/css/lte-ie8.css"/>
+		<![endif]-->
+
+<style>
+			.has-comment {
+				cursor: help;
+			}
+		</style>
+		<script>
+			document.documentElement.classList.toggle('no-js');
+			document.documentElement.classList.toggle('js');
+		</script>
+				<link rel='dns-prefetch' href='//dcf.espn.com' />
+
+<script type="text/javascript">
+			function setCountryCookie(value,days) {
+				var expires = "";
+				if (days) {
+					var date = new Date();
+					date.setTime(date.getTime() + (days*24*60*60*1000));
+					expires = "; expires=" + date.toUTCString();
+				}
+				document.cookie = "country=" + (value || "") + expires + "; path=/";
+			}
+
+function getCountryCookie() {
+				let value = decodeURIComponent(document.cookie);
+				let parts = value.split(`; country=`);
+  				if (parts.length === 2) {
+					return parts.pop().split(';').shift();
+				}
+				return "";
+			}
+
+var countryCookie = getCountryCookie();
+			if ( ! countryCookie || 'us' !== countryCookie ) {
+				setCountryCookie('us',1);
+			}
+		</script>
+				<script type="text/javascript">
+			var __dataLayer = {"page":{"content_publish_date":"03\/17\/2015","content_publish_time":"14:50","content_last_update_date":"03\/18\/2015","content_last_update_time":"16:29","contentcategory":"","section_1":"","section_2":"","story_title":"2015 NBA Trade Value, Part 3: The Final Countdown","story_id":240235,"author":"","page_name":"features","content_type":"features","app_version":"1.0.4","device_type":"Desktop","prev_page":false},"site":{"baseDomain":"grantland.com","otguid":"0191cec3-baf4-761d-81fa-034310bf96b3","nsl":2},"detailsEndpoint":"https:\/\/grantland.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/"};
+		</script>
+		
+		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//secure.espn.com' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel='dns-prefetch' href='//tpc.googlesyndication.com' />
+<link rel='dns-prefetch' href='//securepubads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//www.googleadservices.com' />
+<link rel='dns-prefetch' href='//adservice.google.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='stylesheet' id='all-css-0' href='https://grantland.com/_static/??/wp-content/themes/espn-grantland/css/vendor/jquery.modal.css,/wp-includes/css/dist/block-library/style.min.css?m=1756387434' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='all-css-2' href='https://grantland.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpqbmpgaGBiZmQIARKsu3g==' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='elasticpress-facet-style-inline-css'>
+.widget_ep-facet input[type=search],.wp-block-elasticpress-facet input[type=search]{margin-bottom:1rem}.widget_ep-facet .searchable .inner,.wp-block-elasticpress-facet .searchable .inner{max-height:20em;overflow:scroll}.widget_ep-facet .term.hide,.wp-block-elasticpress-facet .term.hide{display:none}.widget_ep-facet .empty-term,.wp-block-elasticpress-facet .empty-term{opacity:.5;position:relative}.widget_ep-facet .empty-term:after,.wp-block-elasticpress-facet .empty-term:after{bottom:0;content:" ";display:block;left:0;position:absolute;right:0;top:0;width:100%;z-index:2}.widget_ep-facet .level-1,.wp-block-elasticpress-facet .level-1{padding-left:20px}.widget_ep-facet .level-2,.wp-block-elasticpress-facet .level-2{padding-left:40px}.widget_ep-facet .level-3,.wp-block-elasticpress-facet .level-3{padding-left:60px}.widget_ep-facet .level-4,.wp-block-elasticpress-facet .level-4{padding-left:5pc}.widget_ep-facet .level-5,.wp-block-elasticpress-facet .level-5{padding-left:75pt}.widget_ep-facet input[disabled],.wp-block-elasticpress-facet input[disabled]{cursor:pointer;opacity:1}.widget_ep-facet .term a,.wp-block-elasticpress-facet .term a{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative}.widget_ep-facet .term a:hover .ep-checkbox,.wp-block-elasticpress-facet .term a:hover .ep-checkbox{background-color:#ccc}.ep-checkbox{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-negative:0;-webkit-box-pack:center;-ms-flex-pack:center;align-items:center;background-color:#eee;display:-webkit-box;display:-ms-flexbox;display:flex;flex-shrink:0;height:1em;justify-content:center;margin-right:.25em;width:1em}.ep-checkbox:after{border:solid #fff;border-width:0 .125em .125em 0;content:"";display:none;height:.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:.25em}.ep-checkbox.checked{background-color:#5e5e5e}.ep-checkbox.checked:after{display:block}
+
+</style>
+<link rel='stylesheet' id='all-css-6' href='https://grantland.com/wp-content/mu-plugins/search/elasticpress/dist/css/related-posts-block-styles.min.css?m=1757443701g' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='all-css-8' href='https://grantland.com/_static/??-eJxtjEsOgzAMBS9EsKrw6abqWUII4BKcSHYE3J5USGxg9/RmNLBGZQOJI4Ho04jEMOKgoje76pJIIDDMThgs31C5IJX5LyBnkKxPvTvF3vCEOczPyo9BMp+7sF3jb32Xz6utG/1uK60PDIA5Hg==' type='text/css' media='all' />
+<link rel='stylesheet' id='screen-css-8' href='https://grantland.com/wp-content/themes/espn-grantland/style.min.css?m=1756387435g' type='text/css' media='screen' />
+<script type="text/javascript" src="https://grantland.com/_static/??-eJzTLy/QzcxLzilNSS3WzwKiwtLUokoopZebmaeXVayjj0+Rbm5melFiSSpUsX2uraG5qYmpgYGRmWkWAK9eIhs=" ></script><script type="text/javascript" src="https://secure.espn.com/combiner/c?js=plugins%2Fjquery.pubsub.r5.js%2Canalytics%2FvisitorAPI_156.js%2Canalytics%2FsOmni_161.js%2Canalytics%2Ftarget.r2.js&amp;ver=20160803-01" id="espn-omniture-js"></script>
+<script type="text/javascript" src="https://grantland.com/_static/??/wp-includes/js/underscore.min.js,/wp-content/themes/espn-grantland/js/grantland-header.min.js,/wp-includes/js/swfobject.js?m=1756387434j" ></script><script type="text/javascript" src="https://grantland.com/wp-content/plugins/dtci-data-privacy/assets/js/twitter-platform.min.js" id="twitter-js"></script>
+<script type="text/javascript" src="https://grantland.com/_static/??-eJyVzDEOwjAMQNELkViohbIgzhKCKQ6JHWJXVW9fEB1YGf/wPszVRWFDNrAHFlRArezGFthy4BskhSjyJIT0mrAt/ls+6Q5+cM3TSLxplUghQ1BF08/hHiJe384X4v+kzWSGzdUmpdrmL+W8Hw7H7jT0XZ9Wm5NIuw==" ></script><link rel="https://api.w.org/" href="https://grantland.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://grantland.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<link rel="canonical" href="https://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/" />
+<link rel='shortlink' href='http://gran.tl/1GXyYQT' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://grantland.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrantland.com%2Ffeatures%2F2015-nba-trade-value-part-3-the-final-countdown%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://grantland.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrantland.com%2Ffeatures%2F2015-nba-trade-value-part-3-the-final-countdown%2F&#038;format=xml" />
+<meta name="color-scheme" content="only light" />
+	<style>img#wpstats{display:none}</style>
+				<meta property="fb:app_id" content="135272579883594">
+		<meta name="author" content="Bill Simmons" ><meta name="DC.date.issued" content="240235" />
+<meta name="description" content="" />
+	</head>
+		<body class="wp-singular grantland_feature-template-default single single-grantland_feature postid-240235 wp-theme-espn-grantland ad-pre-head slug-2015-nba-trade-value-part-3-the-final-countdown"> <!-- id="home" -->
+			<div class="ad-unit pre-head">
+		<div id="ad-Banner" class="ad-banner" data-defer="none"></div>	</div>
+	
+<div id="overlayad" class="ad-unit ad-slot-overlay">
+	<div id="ad-Overlay" class="ad-overlay" data-defer="none"></div></div>
+<div id="wallpaperad" class="ad-unit ad-slot-wallpaper">
+	<div id="ad-Wallpaper" class="ad-wallpaper" data-defer="none"></div></div>
+	<div id="page" class="layout-container page-feature">
+
+<!-- Begin .header -->
+<header class="header clearfix header-interior" role="banner">
+	<div class="logo">
+		<a name="&lpos=grantlandTopNav&lid=home" href="https://grantland.com">
+			<img src="https://grantland.com/wp-content/themes/espn-grantland/img/grantland-logo@2x.png " alt="" />
+		</a>
+	</div>
+	<div class="header-meta">
+
+<form action="https://grantland.com/" method="get" class="inline-form search-form">
+			<fieldset>
+				<legend class="is-vishidden">Search</legend>
+				<label for="search-field" class="is-vishidden">Search</label>
+				<input type="search" placeholder="Search" id="search-field" class="search-field" name="s" />
+				<button class="search-submit">
+					<span class="icon-search" aria-hidden="true"></span>
+					<span class="is-vishidden">Search</span>
+				</button>
+			</fieldset>
+		</form>
+	</div>
+	<a href="#nav" class="nav-toggle nav-toggle-menu icon-menu" id="nav-toggle"><span class="is-vishidden">Menu</span></a>
+	<a href="#search" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a>
+
+</header>
+<!-- End .header -->
+	<nav id="nav" class="nav" role="navigation">
+	<div class="nav-inner">
+
+<ul id="menu-main-navigation" class="menu"><li id="menu-item-94291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94291 post-name-features"><a href="/features/" name="&amp;lpos=grantlandSiteNav&amp;lid=Features">Features</a></li>
+<li id="menu-item-94292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94292 post-name-the-triangle"><a href="/the-triangle/" name="&amp;lpos=grantlandSiteNav&amp;lid=The Triangle">The Triangle</a></li>
+<li id="menu-item-94293" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94293 post-name-the-hollywood-prospectus"><a href="/hollywood-prospectus/" name="&amp;lpos=grantlandSiteNav&amp;lid=Hollywood Prospectus">The Hollywood Prospectus</a></li>
+<li id="menu-item-94294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94294 post-name-contributors"><a href="/contributors/" name="&amp;lpos=grantlandSiteNav&amp;lid=Contributors">Contributors</a></li>
+<li id="menu-item-94295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94295 post-name-podcast"><a href="/podcasts/" name="&amp;lpos=grantlandSiteNav&amp;lid=Podcasts">Podcasts</a></li>
+<li id="menu-item-94296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94296 post-name-video"><a href="https://grantland.com/tags/grantland-channel/" name="&amp;lpos=grantlandSiteNav&amp;lid=Video">Video</a></li>
+<li id="menu-item-126491" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126491 post-name-quarterley"><a href="/quarterly/" name="&amp;lpos=grantlandSiteNav&amp;lid=Quarterly">Quarterly</a></li>
+<li id="menu-item-94297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94297 post-name-quarterly"><a href="http://www.espn.com" name="&amp;lpos=grantlandSiteNav&amp;lid=ESPN.com">ESPN.com</a></li>
+</ul>
+	</div><!-- /.nav-inner -->
+	
+</nav><!--end .nav -->
+
+<div id="single-navigation" class="single-navigation">
+					<div class="prev">
+				<a href="https://grantland.com/features/porntopia/">
+					<svg version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34">
+						<defs>
+							<rect id="a" width="34.036" height="33.683"/>
+						</defs>
+						<clipPath id="b">
+							<use xlink:href="#a" overflow="visible"/>
+						</clipPath>
+						<circle clip-path="url(#b)" stroke="#D0D2D3" stroke-width="2" cx="17.195" cy="16.841"
+								r="15.841" fill="none"/>
+						<text transform="matrix(-1 0 0 1 22.76 22.012)" fill="#D0D2D3" font-family="'ZapfDingbatsITC'" font-size="14">➤
+						</text>
+					</svg>
+				</a>
+
+</div>
+			<div class="nav-article">
+				<a href="https://grantland.com/features/porntopia/">
+					<img src="https://grantland.com/wp-content/uploads/2015/03/porntopia_3.jpg" alt="">					<span class="byline category">Previous</span>
+					<h4>Porntopia</h4>
+				</a>
+			</div>
+						<div class="next">
+				<a href="https://grantland.com/features/30-for-30-shorts-the-billion-dollar-game/">
+					<svg version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34">
+						<defs>
+							<rect id="a" width="34.036" height="33.683"/>
+						</defs>
+						<circle class="circle-border" stroke="#D0D2D3" stroke-width="2" cx="17.195" cy="16.841"
+								r="15.841" fill="none"/>
+						<text class="arrow-img" transform="translate(11.276 22.012)" fill="#D0D2D3" font-family="'ZapfDingbatsITC'" font-size="14">➤
+						</text>
+					</svg>
+				</a>
+
+</div>
+			<div class="nav-article">
+				<a href="https://grantland.com/features/30-for-30-shorts-the-billion-dollar-game/">
+					<img src="https://grantland.com/wp-content/uploads/2015/03/alonzo-mourning-georgetown.jpg" alt="">					<span class="byline category">Next</span>
+					<h4>30 for 30 Shorts: The Billion Dollar Game</h4>
+				</a>
+			</div>
+			</div>
+
+<div role="main">
+						<span class="feature">
+					<span class="feature-credits">Noah Graham/NBAE/Getty Images</span>
+					<img src="https://grantland.com/wp-content/uploads/2015/03/stephen-curry-russell-westbrook-tri-e1426601678472.jpg?w=2048" srcset="https://grantland.com/wp-content/uploads/2015/03/stephen-curry-russell-westbrook-tri-e1426601678472.jpg?w=2048 2048w, https://grantland.com/wp-content/uploads/2015/03/stephen-curry-russell-westbrook-tri-e1426601678472.jpg?w=1024 1024w, https://grantland.com/wp-content/uploads/2015/03/stephen-curry-russell-westbrook-tri-e1426601678472.jpg?w=750 750w, https://grantland.com/wp-content/uploads/2015/03/stephen-curry-russell-westbrook-tri-e1426601678472.jpg?w=450 450w" sizes="(min-width: 54em) 1024px,100vw" alt="" class="featured-image" />
+				</span><!-- .feature -->
+
+<article class="hentry layout-container">
+			<div class="social-share">
+				<ul class="social-share-list" data-stick-it>
+					<li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgrantland.com%2Ffeatures%2F2015-nba-trade-value-part-3-the-final-countdown%2F" target="_blank">Facebook</a></li>
+					<li><a class="twitter" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fgran.tl%2F1GXyYQT&#038;text=2015+NBA+Trade+Value%2C+Part+3%3A+The+Final+Countdown&#038;related%5BGrantland33%5D=" target="_blank">Twitter</a></li>
+					<li><a href="https://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/?print=1" target="_blank" class="print-link">Print</a>
+					</li>
+				</ul>
+			</div>
+			<header class="title-card">
+				<div class="card">
+					<p class="byline category"><a href="https://grantland.com/tags/nba/">NBA</a></p>
+
+<h1 class="title">2015 NBA Trade Value, Part 3: The Final Countdown</h1>
+
+<p class="summary">
+					Without further ado, here’s the final installment of our ranking of the NBA’s top 60 most valuable assets						</p>
+					<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/bill-simmons/">Bill Simmons</a> on March 17, 2015</div>
+				</div>
+			</header>
+
+<div class="layout-two-col layout-two-col-locked feature-up">
+
+<div class="layout-main" id="layout-main">
+
+<div class="article-body expand-size-full ">
+						<p><em><span class="drop-cap">E</span>ditor’s note: If you missed our special Trade Value page, which has every column since 2001, <a href="https://grantland.com/nba-trade-value/" target="_blank">click here</a>. Before covering our final nine for this year’s top-60 list, let’s quickly recap the list from <a href="https://grantland.com/features/2015-nba-trade-value-part-1/" target="_blank">Part 1</a> (no. 60 through no. 38, published on January 23) and <a href="https://grantland.com/features/2015-nba-trade-value-part-2-the-temple-of-doom/" target="_blank">Part 2</a> (no. 37 through no. 10, published on February 25).</em></p>
+<h2>GROUP O: “You’re Just Lowballing Me Because He Expires Soon”<span class="footnote-link" data-footnote-id="1" data-footnote-url="#fn-1" data-footnote-content="&amp;lt;p&amp;gt;Knight: rookie deal (restricted free agent this summer) &amp;hellip; Monroe: $5.48 million (free agent this summer) &amp;hellip; Millsap: $9.5 million (FA) &amp;hellip; Green: $915k (restricted FA) &amp;hellip; Dragic: $7.5 million (FA).&amp;lt;/p&amp;gt;
+"><sup id="ss-1">1</sup></span></h2>
+<p><strong>60. Brandon Knight<br />
+59. Greg Monroe<br />
+58. Paul Millsap<br />
+57. Draymond Green<br />
+56. Goran Dragic</strong></p>
+<p><strong>UPDATE:</strong> In February, no. 56 and no. 60 DID get traded … and Dragic fetched a slightly higher price than Knight did. Big win for the 2015 Trade Value column!<span class="footnote-link" data-footnote-id="2" data-footnote-url="#fn-2" data-footnote-content="&amp;lt;p&amp;gt;Knight cost Phoenix a top-five protected 2015 Lakers pick, Tyler Ennis and Poor Man&amp;rsquo;s Plumlee. Dragic went for a top-seven protected first-rounder in 2017 or 2018 (becomes unprotected in 2019) and an unprotected first-rounder in 2021.&amp;lt;/p&amp;gt;
+"><sup id="ss-2">2</sup></span> Don’t get used to it.</p>
+<h2>GROUP N: &#8220;I&#8217;m Hanging Up and Calling You Back From a Pay Phone&#8221;<span class="footnote-link" data-footnote-id="3" data-footnote-url="#fn-3" data-footnote-content="&amp;lt;p&amp;gt;DeRozan: Three years, $28.5 million &amp;hellip; Lawson: Three years, $37.2 million &amp;hellip; Bledsoe: Five years, $70 million &amp;hellip; Love: $15.7 million (player option for 2016: $16.7 million).&amp;lt;/p&amp;gt;
+"><sup id="ss-3">3</sup></span></h2>
+<p><strong>55. DeMar DeRozan<br />
+54. Ty Lawson<br />
+53. Eric Bledsoe<br />
+52. Kevin Love</strong></p>
+<p><strong>UPDATE:</strong> Latest odds for Kevin Love’s new home address this fall: Back Bay (-120), Brookline (+200), Beacon Hill (+350), Wellesley (+500), Weston (+500), South End (+700), Charlestown (+2000), Scituate/Hingham/Duxbury (+4000), Revere (+2000000).</p>
+<h2>GROUP M: &#8220;I Know, I Know, We&#8217;re Being Irrational&#8221;<span class="footnote-link" data-footnote-id="4" data-footnote-url="#fn-4" data-footnote-content="&amp;lt;p&amp;gt;Rookie deals for Nurkic, Len, Valanciunas, Oladipo and Vucevic (four-year, $48 million extension coming) &amp;hellip; Mirotic: three years, $16.6 million &amp;hellip; Favors: four years, $47 million.&amp;lt;/p&amp;gt;
+"><sup id="ss-4">4</sup></span></h2>
+<p><strong>51. Victor Oladipo<br />
+50. Alex Len<br />
+49. Jonas Valanciunas<br />
+48. Nikola Vucevic<br />
+47. Jusuf Nurkic<br />
+46. Nikola Mirotic<br />
+45. Derrick Favors</strong></p>
+<aside class="espn-boxout" id="boxout-218236"><h4>Trade Value Through the Years</h4><a href="https://grantland.com/nba-trade-value/" target="_blank"><span>To read all of Bill Simmons’s NBA Trade Value columns since 2001, click here.</span></a></aside>
+<p><strong>UPDATE:</strong> Oladipo made The Semi-Leap <a href="http://www.espn.com/nba/player/splits/_/id/2527963/victor-oladipo" target="_blank">after the All-Star break</a>: 12 games, 20.6 ppg, 4.8 apg, 45-39-83 percent splits, excellent defense and a recent <em>Orlando Sentinel</em> story headlined “<a href="http://www.orlandosentinel.com/sports/orlando-magic/os-orlando-magic-news-0314-20150313-story.html" target="_blank">Victor Oladipo is learning that success commands opponents&#8217; attention</a>.” Please add “Oladipo over Bennett and Noel” to my all-time NBA draft win tally, along with “Durant over Oden,” “CP3 over Bogut and Williams,” “Derrick Williams over Kyrie,” “Okafor over Dwight” and “Jabari over Wiggins.” (Fine, I’m batting .500. Whatever.)</p>
+<h2>GROUP L: “Sorry, He’s Worth More to Us Than He’s Worth to You”<span class="footnote-link" data-footnote-id="5" data-footnote-url="#fn-5" data-footnote-content="&amp;lt;p&amp;gt;Gasol: three years, $22.35 million &amp;hellip; Teague: three years, $24 million &amp;hellip; Z-Bo: $16.5 million, then two years/$20 million (extension) &amp;hellip; Noah: two years, $26.6 million &amp;hellip; Markieff: rookie deal (four-year/$32 million extension coming) &amp;hellip; Matthews: $7.25 million (FA) &amp;hellip; Korver: three years, $17.24 million.&amp;lt;/p&amp;gt;
+"><sup id="ss-5">5</sup></span></h2>
+<p><strong>44. The Completely Rejuvenated Pau Gasol<br />
+43. Jeff Teague<br />
+42: Zach Randolph<br />
+41. Joakim Noah<br />
+40. Markieff Morris<br />
+39. Wesley Matthews<br />
+38. Kyle Korver</strong></p>
+<p><strong>UPDATE:</strong> Matthews was earmarked for an $80 million to $90 million market max payday before that unfortunate Achilles injury. What a bummer. If you gave me a do-over, I’d stick Matthews on the Trade Value DL, move Oladipo into this group and give Oladipo’s old spot to Michael Kidd-Gilchrist. Why? Because MKG is <i>destroying</i> people on defense, to the point that he boasted, “<a href="http://www.charlotteobserver.com/sports/nba/charlotte-hornets/article14415113.html" target="_blank">I want to be the best defender ever</a>” last week — and nobody laughed. Kawhi and MKG are in the Finals in any “Which Guy Would You NOT Want Guarding You If You Had To Score A Basket To Save Your Own Life?” contest.</p>
+<h2>GROUP K: “No Thanks — We Don&#8217;t Want Him to Come Back and Haunt Us&#8221;<span class="footnote-link" data-footnote-id="6" data-footnote-url="#fn-6" data-footnote-content="&amp;lt;p&amp;gt;All rookie deals here. Gobert is especially cheap: $1.13 million this year, $1.18 million next year, $2.12 million for 2016-17. &amp;lt;em&amp;gt;SACR&amp;Eacute; BLEU&amp;lt;/em&amp;gt;!&amp;lt;/p&amp;gt;
+"><sup id="ss-6">6</sup></span></h2>
+<p><strong>37. Rudy Gobert<br />
+36. Jabari Parker<br />
+35. Joel Embiid</strong></p>
+<p><strong>UPDATE:</strong> I didn’t have the balls to throw Gobert in the low 20s with Giannis and Wiggins. Big mistake. His <a href="http://www.basketball-reference.com/players/g/goberru01/gamelog/2015/#101-111-sum:pgl_basic" target="_blank">next 11 games</a> after Part 2 was published: 11.3 ppg, 15.9 rpg, 2.6 bpg, nine wins in 11 games, <a href="https://grantland.com/the-triangle/french-lessons-rudy-gobert-is-making-utah-an-elite-defensive-team/" target="_blank">one Kirk Goldsberry piece</a> titled “Rudy Gobert Is Making Utah an Elite Defensive Team.” Anytime “The French Rejection” and “The Gobert Report” aren’t your best possible nicknames, you know something special is going on. All hail the Stifle Tower!</p>
+<h2>GROUP J: &#8220;Don&#8217;t Tell Anyone, and I&#8217;ll Deny It to the Death, But I&#8217;m Listening&#8221;<span class="footnote-link" data-footnote-id="7" data-footnote-url="#fn-7" data-footnote-content="&amp;lt;p&amp;gt;Melo: five years, $124.1 million &amp;hellip; Bosh, five years, $118.7 million &amp;hellip; Whiteside: league minimum through&amp;nbsp;2016 &amp;hellip; Howard: three years, $67.1 million.&amp;lt;/p&amp;gt;
+"><sup id="ss-7">7</sup></span></h2>
+<p><strong>34. Carmelo Anthony<br />
+33. Chris Bosh<br />
+33. Hassan Whiteside<br />
+32. Dwight Howard</strong></p>
+<p><strong>UPDATE:</strong> Whiteside wasn’t really a top-60 guy (just filling in for Bosh), but let’s say I told you, “I will bet you $100 that Whiteside will either make the 2016 All-Star Game OR be out of the league before the 2016 All-Star Game, and you can pick only one of the two sides of that bet,” which side would you pick? I can’t decide, either.</p>
+<h2>GROUP I: “This Is So Ludicrous That I Can’t Even Hang Up On You Yet”<span class="footnote-link" data-footnote-id="8" data-footnote-url="#fn-8" data-footnote-content="&amp;lt;p&amp;gt;Pop&amp;rsquo;s deal doesn&amp;rsquo;t count against the salary cap.&amp;lt;/p&amp;gt;
+"><sup id="ss-8">8</sup></span></h2>
+<p><strong>31. Gregg Popovich</strong></p>
+<p><strong>UPDATE:</strong> I don’t know if you noticed the ’69 Celts potential of the 2015 Spurs lately, but … well … I mean …</p>
+<p>https://youtube.com/watch?v=St5PLcxZy44%3Fstart%3D84</p>
+<h2>GROUP H: “Stop It, He’s a Young Stud, No Way!”<span class="footnote-link" data-footnote-id="9" data-footnote-url="#fn-9" data-footnote-content="&amp;lt;p&amp;gt;Rookie deals: Beal, Butler and Drummond.&amp;lt;/p&amp;gt;
+"><sup id="ss-9">9</sup></span></h2>
+<p><strong>30. Bradley Beal<br />
+29. Jimmy Butler<br />
+28. Andre Drummond</strong></p>
+<p><strong>UPDATE:</strong> We need to find the right teammates for Drummond soon. I’m convinced that SVG traded D.J. Augustin and Kyle Singler for Reggie Jackson as a stealth tanking move. And if he did, congratulations. It worked.</p>
+<h2>GROUP G: “Sorry, Too Many Karmic Implications”<span class="footnote-link" data-footnote-id="10" data-footnote-url="#fn-10" data-footnote-content="&amp;lt;p&amp;gt;Parker: $12.5 million, then three years/$43 million (extension) &amp;hellip; Duncan: $10.36 million (FA) &amp;hellip; Wade: two years, $31.25 million &amp;hellip; Dirk: three years, $25 million &amp;hellip; George: five years, $91.6 million.&amp;lt;/p&amp;gt;
+"><sup id="ss-10">10</sup></span></h2>
+<p><strong>27. Tony Parker<br />
+26. Tim Duncan<br />
+25. Dwyane Wade<br />
+24. Dirk Nowitzki<br />
+23. Paul George</strong></p>
+<p><strong>UPDATE:</strong> Parker is starting to look like Parker again. Oh God … oh no …</p>
+<p><img fetchpriority="high" decoding="async" class="aligncenter" src="https://myspursworld.files.wordpress.com/2014/09/san-antonio-spurs-winter-is-coming.png" alt="" width="817" height="438" /></p>
+<h2>GROUP F: “Hold On, I Have to Finish Guffawing”<span class="footnote-link" data-footnote-id="11" data-footnote-url="#fn-11" data-footnote-content="&amp;lt;p&amp;gt;Rookie deals for Wiggins and Freak.&amp;lt;/p&amp;gt;
+"><sup id="ss-11">11</sup></span></h2>
+<p><strong>22. Andrew Wiggins<br />
+21. Giannis Antetokounmpo</strong></p>
+<p><strong>UPDATE:</strong> I blew it with Wiggins. He’s a top-12 trade asset. (Stop looking at me like that.) I don’t know what else to say. (Seriously, stop shaking your head.) We’re moving on. We’re moving forward.</p>
+<p>[protected-iframe id=&#8221;4b292210e4eac74f105c658534d73702-60203239-57815212&#8243; info=&#8221;https://vine.co/v/OViVwwIZWma/embed/simple&#8221; width=&#8221;600&#8243; height=&#8221;600&#8243; frameborder=&#8221;0&#8243;]</p>
+<h2>GROUP E: &#8220;Well-Priced Impact Stars&#8221;<span class="footnote-link" data-footnote-id="12" data-footnote-url="#fn-12" data-footnote-content="&amp;lt;p&amp;gt;Conley: two years, $18.1 million &amp;hellip; Ibaka: three years, $37.5 million &amp;hellip; Kawhi: rookie deal (restricted FA) &amp;hellip; Horford: two years, $24 million &amp;hellip; Lowry: four years, $48 million &amp;hellip; Lillard: $3.34 million (restricted FA).&amp;lt;/p&amp;gt;
+"><sup id="ss-12">12</sup></span></h2>
+<p><strong>20. Mike Conley<br />
+19. Serge Ibaka<br />
+18. Kawhi Leonard<br />
+17. Al Horford<br />
+16. Kyle Lowry<br />
+15. Damian Lillard</strong></p>
+<p><strong>UPDATE:</strong> I&#8217;m not rattled by having Lowry too high after his January-February offensive swoon. He&#8217;s too good. I&#8217;m mildly rattled by Ibaka&#8217;s mysterious knee injury, along with the fact that I wouldn&#8217;t let OKC&#8217;s medical staff help me with a head cold at this point. Kawhi&#8217;s electrifying two-way showdown with LeBron on Thursday made me wonder if I ranked him too low, but man, when are those 3s coming back for him? How bad is that mysterious hand injury? This isn’t a normal trend for 3-point shooters: 37.6 percent (2012-14 regular season), 41.6 percent (2012-14 playoffs) … 32.2 percent (2014-15 season). San Antonio can’t win four straight playoff rounds and realize their ’69 Celts destiny if Kawhi’s 3s don’t come around and defenses start leaving him wide open. It’s true.</p>
+<h2>GROUP D: “The Mega Free Agents”<span class="footnote-link" data-footnote-id="13" data-footnote-url="#fn-13" data-footnote-content="&amp;lt;p&amp;gt;Aldridge: $16.26 million (FA) &amp;hellip; Gasol: $15.83 million (FA).&amp;lt;/p&amp;gt;
+"><sup id="ss-13">13</sup></span></h2>
+<p><strong>14. LaMarcus Aldridge<br />
+13. Marc Gasol</strong></p>
+<p><strong>UPDATE:</strong> No regrets. Although it’s bizarre that Aldridge (23.3 ppg, 10.5 rpg, 22.3 PER, playing hurt for two-plus months, carrying a possible no. 2 seed) has been left out of the MVP race. It’s almost like the national media ignores Portland or something.</p>
+<h2>GROUP C: “No Offense, But I’m Hanging Up”<span class="footnote-link" data-footnote-id="14" data-footnote-url="#fn-14" data-footnote-content="&amp;lt;p&amp;gt;Thompson: rookie deal, then four years, $70 million (extension) &amp;hellip; Wall: five years, $84.8 million.&amp;lt;/p&amp;gt;
+"><sup id="ss-14">14</sup></span></h2>
+<p><strong>12. John Wall<br />
+11. Klay Thompson</strong></p>
+<p><strong>UPDATE:</strong> If I had to do it over again, I’d give Wiggins and Kawhi these two spots and bump Wall and Thompson back a few spots. We’re stuck with those first two parts for eternity. Without further ado, the 10 most untradable players of 2015.</p>
+<h2>GROUP B: “The Untouchables”<span class="footnote-link" data-footnote-id="15" data-footnote-url="#fn-15" data-footnote-content="&amp;lt;p&amp;gt;Irving: $7 million (five-year,&amp;nbsp;$90 million extension coming)&amp;nbsp;&amp;hellip;&amp;nbsp;Cousins: four years, $65.62 million &amp;hellip; Griffin: four years, $78.09 million &amp;hellip; CP3: four years, $88.7 million &amp;hellip; Durant: two years, $39.15 million.&amp;lt;/p&amp;gt;
+"><sup id="ss-15">15</sup></span></h2>
+<p><strong>10. Kyrie Irving<br />
+</strong>Covered in detail in Friday’s 1,900-word <a href="https://grantland.com/the-triangle/nba-trade-value-sneak-peek-no-10-kyrie-irving/" target="_blank">&#8220;sneak peek&#8221; of Part 3</a>. I can’t even pull off a sneak peek correctly.</p>
+<p><strong>9. Boogie Cousins</strong><br />
+In <a href="https://grantland.com/features/2015-nba-trade-value-part-2-the-temple-of-doom/" target="_blank">Part 2</a>, I mentioned the smartest non-trades in recent NBA history — including the time Houston dangled Hakeem Olajuwon for a <em>Godfather</em> offer (Steve Smith, Glen Rice AND Rony Seikaly), got turned down, then rejected Miami’s counteroffer (Seikaly, Grant Long and Harold Miner). How on earth was the window ever open to steal one of the NBA’s 12 greatest players ever? Because you are what you’re worth. For the previous five seasons, an increasingly unhappy Hakeem had been stuck playing with so many past-their-primers, never-made-its and never-got-theres that everyone inadvertently forgot that the Dream was unfreakingtradable.<span class="footnote-link" data-footnote-id="16" data-footnote-url="#fn-16" data-footnote-content="&amp;lt;p&amp;gt;In my NBA book, I ranked Hakeem 10th overall and pointed out that the Rockets &amp;ldquo;baked Hakeem a shit souffle of teammates for six solid years&amp;rdquo;; from 1987 through 1995, only one other Rocket made an All-Star team (Otis Thorpe, 1992).&amp;lt;/p&amp;gt;
+"><sup id="ss-16">16</sup></span> Had the Heat countered with Rice (a top-15 trade asset that summer), Seikaly (averaged 16 and 12 in ’92) and either Miner or multiple no. 1 picks, then the deal would have gotten done and we would&#8217;ve had a different champ in 1994 and 1995. Instead, Houston won the ’94 and ’95 titles and Hakeem unleashed one of the NBA’s most iconic three-or-four-year runs of the past 35 years: the short list includes Jordan from 1989 to 1993 and 1996 to 1998, Bird from 1984 to 1987, Magic from 1987 to 1990, Shaq from 2000 to 2002, LeBron from 2012 to 2014, Hakeem from 1993 to 1995, and Kobe from 2008 to 2010 (and probably in that order).<span class="footnote-link" data-footnote-id="17" data-footnote-url="#fn-17" data-footnote-content="&amp;lt;p&amp;gt;Honorable mention: Duncan 2002-04, Nash 2005-07, Robinson 1993-95, Wade 2009-11, and Malone 1996-98.&amp;lt;/p&amp;gt;
+"><sup id="ss-17">17</sup></span></p>
+<p>Maybe 2015 Boogie isn’t 1992 Hakeem, but he is definitely on pace to earn the same level of career-related empathy. In less than five seasons, he’s played for six coaches, two GMs and two super-shaky owners. He lived through consecutive seasons in which the Kings were moving … and then weren’t … and then were … and then weren’t. <a href="https://grantland.com/the-triangle/b-s-report-2015-nba-all-star-weekend-special/" target="_blank">When I asked him during All-Star Weekend</a> how many starting point guards he’s played with, he couldn’t remember everyone off the top of his head.<span class="footnote-link" data-footnote-id="18" data-footnote-url="#fn-18" data-footnote-content="&amp;lt;p&amp;gt;The actual answer: Tyreke Evans, Beno Udrih, Jimmer Fredette, Aaron Brooks, Isaiah Thomas, Greivis Vasquez, Ray McCallum, Darren Collison and, technically, Ramon Sessions since he started seven games with Collison this season. So that&amp;rsquo;s nine. And if we want to get super technical,&amp;nbsp;Luther Head&amp;nbsp;started 14 games in Boogie&amp;#8217;s rookie season, and&amp;nbsp;Pooh Jeter&amp;nbsp;started one game that season. That would bring the tally up to&amp;nbsp;11.&amp;lt;/p&amp;gt;
+"><sup id="ss-18">18</sup></span> Maybe he took much-deserved Internet heat for a variety of foolish young-guy mistakes, and maybe he could have been a better teammate at times. (I’m being kind.) But ever since he got himself into terrific shape last year, everyone has HAD to double-team him. I mean …</p>
+<p><strong>Boogie, <a href="http://www.basketball-reference.com/players/c/couside01.html#2014-2015-sum:per_game" target="_blank">last two seasons (123 games)</a>:</strong> 33.0 mpg, 23.1 ppg, 12.0 rpg, 48% FG, 25.5 PER<br />
+<strong>Duncan, &#8217;01-&#8217;02 and &#8217;02-&#8217;03 (163 games):</strong> 39.9 mpg, 24.4 ppg, 12.8 rpg, 51% FG, 27.0 PER</p>
+<p>Maybe he isn’t Apex Duncan, especially in the defense/teammate/leadership/intangibles/getting-thrown-out-of-games-for-wonky-behavior categories, but Boogie HAS improved. Did you know <a href="http://stats.nba.com/tracking/#!/player/defense/" target="_blank">his rim protection numbers</a> are slightly better than DeAndre Jordan’s numbers this season? And with the spacing that Boogie creates and the numbers he’s putting up, you could absolutely run a world-class offense around him. Only you can’t … because he’s wasting his pre-prime playing for Jackass Central on a perpetual lottery team in a stacked conference.</p>
+<p>So if you were Boogie, what would make you feel good about playing in Sacramento other than the city’s fantastic hoops fans? George Karl? Too soon to say. Ben McLemore? Too soon to say. Cap space this summer? Crap, they don’t have it. Their next lottery pick? Crap, it’s headed to Chicago unless Sacramento finishes in the bottom 10. This is bleaker than bleak. My advice to Kings fans: You better keep showering Boogie with love. Because the moment he checks out and says to himself, “I cannot play for these jackasses anymore,” there’s no going back. (And we’re damned close.)</p>
+<p>Last Boogie note: Check out these names: Wilt, Kareem, Barkley, Pettit, Duncan and Elgin. That’s <a href="http://www.basketball-reference.com/play-index/psl_finder.cgi?request=1&amp;match=combined&amp;type=per_game&amp;per_minute_base=36&amp;per_poss_base=100&amp;lg_id=NBA&amp;is_playoffs=N&amp;year_min=&amp;year_max=&amp;franch_id=&amp;season_start=4&amp;season_end=5&amp;age_min=0&amp;age_max=99&amp;height_min=0&amp;height_max=99&amp;shoot_hand=&amp;birth_country_is=Y&amp;birth_country=&amp;birth_state=&amp;college_id=&amp;is_active=&amp;debut_yr_nba_start=&amp;debut_yr_nba_end=&amp;debut_yr_aba_start=&amp;debut_yr_aba_end=&amp;is_hof=&amp;is_as=&amp;as_comp=gt&amp;as_val=&amp;award=&amp;pos_is_g=Y&amp;pos_is_gf=Y&amp;pos_is_f=Y&amp;pos_is_fg=Y&amp;pos_is_fc=Y&amp;pos_is_c=Y&amp;pos_is_cf=Y&amp;qual=&amp;c1stat=pts_per_g&amp;c1comp=gt&amp;c1val=23&amp;c2stat=per&amp;c2comp=gt&amp;c2val=25&amp;c3stat=trb_per_g&amp;c3comp=gt&amp;c3val=12&amp;c4stat=&amp;c4comp=gt&amp;c4val=&amp;c5stat=&amp;c5comp=gt&amp;c6mult=1.0&amp;c6stat=&amp;order_by=ws" target="_blank">the complete list of players</a>, along with Boogie, who averaged 23 and 12 with a 25-plus PER in their fourth and fifth NBA seasons combined. Boogie isn’t THAT good. But he’s really, really good. And he’s saddled with Vivek and the Bumbling Vivikettes. We’re well past the point of using New Owner Syndrome as a viable excuse. Too much has happened.<span class="footnote-link" data-footnote-id="19" data-footnote-url="#fn-19" data-footnote-content="&amp;lt;p&amp;gt;Just look at what happened this season: They fired Mike Malone without telling Boogie, brought in the willfully incompetent Ty Corbin, botched any chance to make a playoff run, then tried to save everything by hiring George Karl at the All-Star break &amp;hellip; you know, because he&amp;rsquo;s going to improve them just enough that they&amp;rsquo;ll lose their top-10 protected pick to Chicago. This is basic, basic, basic NBA Ownership 101 stuff, and they&amp;rsquo;re failing.&amp;lt;/p&amp;gt;
+"><sup id="ss-19">19</sup></span> We wasted five years of Boogie’s career. Next year, we’re probably heading for a sixth. Might be time to get Liam Neeson involved.</p>
+<p><strong>8. Blake Griffin</strong><br />
+Things that concern me in no particular order …</p>
+<p>A. Why didn’t Blake’s elbow injury submarine the Clippers’ season? This is a team that gives real, actual, tangible minutes to Hedo Turkoglu, Big Baby Davis and Occasionally Fredo Rivers.<span class="footnote-link" data-footnote-id="20" data-footnote-url="#fn-20" data-footnote-content="&amp;lt;p&amp;gt;I&amp;rsquo;m actually rooting for Doc&amp;rsquo;s son &amp;mdash; if I were running a team, I&amp;rsquo;d trade for my own son even if it made no sense whatsoever. But Boston&amp;rsquo;s belated revenge on Doc has been one of the season&amp;rsquo;s funniest subplots. They acquired Austin in the Jeff Green trade, then dangled him over a cliff by playing the D-League card (knowing Doc would panic-trade a second-rounder for him). Then they sniffed out Doc&amp;rsquo;s post&amp;ndash;Tayshaun Prince buyout plan, audibled and clandestinely dealt him to Detroit during the final hour of the trade deadline, knowing Doc wouldn&amp;rsquo;t have enough time to find different perimeter help. Some of this is gamesmanship &amp;mdash; after all, they have the Clippers&amp;rsquo; unprotected 2015 pick. But if you don&amp;rsquo;t think the Celtics have delighted in torturing Doc this season, you&amp;rsquo;re crazy.&amp;lt;/p&amp;gt;
+"><sup id="ss-20">20</sup></span> They just signed The Artist Formerly Known As Nate Robinson and made him a rotation guy. They were <i>upset</i> when they couldn’t get Tayshaun Prince or Kendrick Perkins. They could sign literally any washed-up former star (Rasheed Wallace, Chauncey Billups, Gilbert Arenas, Shawn Kemp, etc.), play him 12 minutes tomorrow night and you wouldn’t be shocked. And they went 9-6 without one of the league’s best 12 players? Where was the 15-game swoon?</p>
+<p>B. He’s headed for his third straight Antoine Walker Award, given annually to the NBA star who provokes the highest ongoing level of disdain from opponents and referees. Look, it’s hard to stand out on the 2014-15 Los Angeles Bitchers — an irascible bunch that spends an unfathomable amount of time griping about calls, stink-eyeing officials, taking hard fouls way too personally and reacting to unexpected whistles by sprinting in short bursts with outstretched arms and their faces contorted in disbelief (or as it’s better known, “The Doc”). But Blake has managed to do it. Opponents believe they can get in his head. And they usually do.</p>
+<p>C. A 6-foot-10 power forward who’s built like a Greek god, plays waaaaay above the rim and once averaged 12 boards a game <i>as a rookie</i> can’t grab eight rebounds a night in his fifth NBA season? That’s an astonishing drop-off, no?</p>
+<p>Excuse No. 1: His offensive rebounding fell off (3.3 as a rookie, 2.0 in Year 5) because he shoots more jumpers now.</p>
+<p>Excuse No. 2: There aren’t enough available rebounds now that Contract Year DeAndre has become possessed by Wilt Chamberlain’s ghost.</p>
+<p>Excuse No. 3: Blake has bigger ambitions; he wants to be more of a playmaker now. That brings us to …</p>
+<p>D. I voted Blake third for MVP last season and believed he was heading for a decade-long run of 24-and-10 seasons. This generation’s best power forward, basically. Well …</p>
+<p><strong>Mailman (Years 4-10):</strong> 28-11-3, 53% FG, 10.2 FTA, 2.5 stocks,<span class="footnote-link" data-footnote-id="21" data-footnote-url="#fn-21" data-footnote-content="&amp;lt;p&amp;gt;Stocks are blocks per game + steals per game.&amp;lt;/p&amp;gt;
+"><sup id="ss-21">21</sup></span> 25.1 PER<br />
+<strong>Duncan (Years 4-10):</strong> 22-12-3, 51% FG, 7.7 FTA, 3.3 stocks, 25.8 PER<br />
+<strong>Barkley (Years 4-10):</strong> 25-12-4, 56% FG, 9.3 FTA, 2.4 stocks, 26.3 PER<br />
+<strong>Dirk (Years 4-10):</strong> 25-9-3, 47% FG, 7.1 FTA, 2.1 stocks, 25.5 PER<br />
+<strong>Blake (Year 5):</strong> 22-8-5, 50% FG, 6.6 FTA, 1.3 stocks, 22.9 PER</p>
+<p>And I had to round up from 7.6 to get to eight rebounds. Shouldn’t he be trending up? Last season, after Blake carried the CP3-less Clips for a month and showed off a better all-around game than we ever imagined, Kirk Goldsberry called him “<a href="https://grantland.com/the-triangle/better-sooner-how-blake-griffin-became-the-most-prolific-interior-scorer-in-the-nba/" target="_blank">the most prolific interior scorer in the NBA</a>” and backed up that progress with year-by-year shot charts. This season, Blake wanted to show off his improved jump shot and admitted as much in a piece in The Players&#8217; Tribune that contributing editor Blake Griffin headlined, “<a href="http://www.theplayerstribune.com/why-aint-he-dunkin/" target="_blank">Why Ain’t He Dunkin?</a>” Kudos to him for spending thousands of hours fixing a once-broken jump shot, but man … we have 100 guys who can make 20-footers. As Goldsberry joked last week, nobody ever watched Blake and said, “Someday, maybe he can become the next David West.”</p>
+<p>Like everyone else, I loved watching Year 4 Blake — the reckless super-athlete with a blossoming inside-outside game who searched for GIFtims (GIF victims) every time he careered toward the hoop. But Year 5 Blake? Let’s play America’s hottest game show, “When The Eye Test Meets Advanced Metrics!”</p>
+<p><span class="photo-credit-wrapper"><a href="https://grantland.com/wp-content/uploads/2015/03/blake-griffin-shot-chart.jpg"><img decoding="async" class="aligncenter size-full wp-image-240256" src="https://grantland.com/wp-content/uploads/2015/03/blake-griffin-shot-chart.jpg" alt="Blake-Griffin-shot-chart" width="576" height="236" srcset="https://grantland.com/wp-content/uploads/2015/03/blake-griffin-shot-chart.jpg 576w, https://grantland.com/wp-content/uploads/2015/03/blake-griffin-shot-chart.jpg?resize=450,184 450w, https://grantland.com/wp-content/uploads/2015/03/blake-griffin-shot-chart.jpg?resize=300,123 300w, https://grantland.com/wp-content/uploads/2015/03/blake-griffin-shot-chart.jpg?resize=190,78 190w, https://grantland.com/wp-content/uploads/2015/03/blake-griffin-shot-chart.jpg?resize=160,66 160w, https://grantland.com/wp-content/uploads/2015/03/blake-griffin-shot-chart.jpg?resize=326,134 326w, https://grantland.com/wp-content/uploads/2015/03/blake-griffin-shot-chart.jpg?resize=236,97 236w" sizes="(max-width: 576px) 100vw, 576px" /></a><span>Kirk Goldsberry/Grantland</span></span></p>
+<p>Goldsberry’s translation: “The good news: He&#8217;s finally converting all of those elbow shots at above-average rates. That will help him extend his career. The bad news: He’s gone from &#8216;great&#8217; to &#8216;good&#8217; in the paint. Not only is his efficiency down close to the basket, but his usage is way down, too; for the first time in his career, the majority of his shots are jumpers. So he deserves credit for improving as a jump shooter, but he may have already peaked as an interior force.”</p>
+<p>Ideally, you would want to combine Great-In-The-Paint Blake with Above-The-Rim Blake, Crash-The-Boards Blake, Sneaky-Good-Passer Blake and Above-Average Elbow Shooter Blake and create Super-Blake. (Right now, only Anthony Davis trumps Super-Blake as an all-around “JESUS! HOW DO YOU STOP HIM???” forward.) Will it ever happen? Should we be concerned that, during his age-25 season, Griffin’s rebounding, free throw attempts, blocks, steals, in-the-paint numbers and everything else that signifies “I am zipping around like a force of nature!” are drifting the wrong way?</p>
+<p>Super-Blake was and is untradable. But Not-As-Reckless-Above-Average-Elbow-Shooter-Who-Can’t-Get-Two-Rebounds-A-Quarter Blake? You tell me.</p>
+<p><strong>7. Chris Paul</strong><br />
+“Teammates lived in perpetual fear of letting him down. Coaches struggled to reach him and ultimately left him alone. Referees dreaded calling his games, knowing they couldn’t toss the league’s best player even as he was serenading them with F-bombs. Fans struggled to connect with a prodigy who had little interest in connecting with them.”</p>
+<p>Did I write that in my NBA book about Chris Paul … or Oscar Robertson? (Checking.) Whoops, Oscar. But Chris is really three people: Cliff Paul (the bespectacled guy from the State Farm commercials), Chris Paul (the media-savvy brand who gives thoughtful interviews, runs the NBPA and always does the right thing) and CP3 (the player himself). And you know what CP3 is? An impossible crank, an unforgiving perfectionist, a drill sergeant, a weirdly joyless player who struggles to resonate with teammates and home fans … and someone who plays point guard about as well as that position can be played.</p>
+<p>CP3 spent the first half of this season getting into shape (it’s true) while remaining supernaturally efficient; he’d routinely take quarters off and halves off and seemed even grouchier than usual. When Blake went down, CP3 unleashed holy hell; he has vaulted to that Westbrook/Harden/LeBron/Davis/Curry level for a solid month (and counting) while carrying a limited team. As Doc loves to point out, CP3 actually plays both ends and loves disrupting other point guards; new advanced metrics even <a href="https://grantland.com/features/department-of-defense/" target="_blank">back up CP3’s defensive brilliance</a>. (I went to a Grizzlies game a few weeks ago in which he absolutely destroyed Mike Conley, who’s only one of the league’s best 25 players.) And CP3’s <a href="https://grantland.com/the-triangle/monster-of-the-midrange-dont-sleep-on-chris-pauls-deadly-elbow-jumper/" target="_blank">pull-up elbow jumper</a> remains the NBA’s best crunch-time weapon. It’s about <a href="http://stats.nba.com/tracking/#!/player/pullup/" target="_blank">as sure of a thing</a> as you can get these days.</p>
+<p>And yet … CP3 is also a basketball curmudgeon, someone who dominates the ball in close games to an almost harmful degree. He doesn’t trust anyone else late; he’s like one of those moms who won’t let anyone babysit her kids. His teammates know it, and even worse, his opponents know it. Can you win in the playoffs that way? Doesn’t it open the door for what happened in Game 5 of last spring’s OKC series? Can you point to another example of a ball-dominating little guy who also won four straight playoff rounds?<span class="footnote-link" data-footnote-id="22" data-footnote-url="#fn-22" data-footnote-content="&amp;lt;p&amp;gt;Oscar didn&amp;#8217;t win&amp;nbsp;a title until later in his career, after he&amp;rsquo;d been traded, when he found The&amp;nbsp;Future&amp;nbsp;Kareem.&amp;lt;/p&amp;gt;
+"><sup id="ss-22">22</sup></span> He’s certainly the best pure point guard since Isiah Thomas — another fiery competitor who demanded perfection from everyone around him. But Isiah trusted his teammates way more than CP3 does. If CP3 is more dictatorial, then Isiah was more democratic. He allowed Dumars and Vinnie to freelance in big spots and never needed the ball late like CP3 often does. You would have loved playing with Isiah. You wouldn’t have loved playing with Oscar. And CP3 is floating somewhere in between those two extremes. It’s crazy that he hasn’t played in a conference finals game yet … but it’s also not that crazy.</p>
+<p><strong>6. Kevin Durant</strong><br />
+I’ll be honest, the broken foot debacle freaks me out.</p>
+<p>A quick recap: KD <a href="http://www.espn.com/nba/story/_/id/11688088/kevin-durant-oklahoma-city-thunder-fractured-foot" target="_blank">suffers a Jones fracture in mid-October</a> … everyone spends the next few days writing that it’s <a href="http://hardwoodparoxysm.com/2014/10/16/could-kevin-durant-secretly-be-kevin-jones/" target="_blank">a secretly dangerous</a> foot <a href="http://hangtime.blogs.nba.com/2014/10/13/jones-fracture-can-be-tricky-but-odds-are-durant-heals-just-fine/" target="_blank">injury</a> and that you <a href="http://insider.espn.go.com/nba/story/_/id/11694392/nba-kevin-durant-come-back-good-new?refresh=true" target="_blank">CANNOT rush back from it</a> … Durant promises <a href="http://newsok.com/kevin-durant-says-im-not-going-to-rush-back-from-surgery/article/5358633" target="_blank">not to rush back</a>, then comes back <a href="http://www.espn.com/nba/story/_/id/11968055/kevin-durant-oklahoma-city-thunder-returns-fractured-foot-vs-new-orleans-pelicans" target="_blank">in six and a half weeks</a> … he <a href="http://www.basketball-reference.com/players/d/duranke01/gamelog/2015/#560-569-sum:pgl_basic" target="_blank">doesn’t look quite right</a> heading into the All-Star break and plays only 10 minutes in the All-Star Game (uh-oh) … right after the All-Star break (February 23), OKC shelves him with a “minor procedure to help him reduce pain and discomfort in his surgically repaired right foot” because of a faulty screw, saying <a href="http://www.espn.com/nba/story/_/id/12364783/kevin-durant-oklahoma-city-thunder-sidelined-having-foot-procedure" target="_blank">he’ll be reevaluated in a week</a> … and three weeks later, the team announces that he’ll return within “<a href="http://www.espn.com/nba/story/_/id/12464115/kevin-durant-oklahoma-city-thunder-expected-back-week-two" target="_blank">a week or two weeks</a>.” (Sorry, I can’t fight off these <a href="http://sports.espn.go.com/espn/page2/story?page=simmons/090416" target="_blank">2009 KG flashbacks</a>.) If KD weren&#8217;t an incumbent MVP coming off of one of the best offensive seasons in 40 years, I would have panic-dropped him to sixth. Oh wait, I just did.</p>
+<p>Confession time: The thought of a “recovered” KD getting thrown into this late-season playoff push scares the bejesus out of me. They’re supposed to protect his minutes and his twice-repaired foot when the alternative is “If we miss the playoffs, we’ll take one more giant leap toward becoming one of the most snakebitten almost-dynasties in NBA history”? They’re going to protect his minutes with Serge Ibaka out indefinitely? They’re going to protect his minutes in an up-and-down, testosterone-fueled, run-and-gun Round 1 bloodbath against the Warriors?</p>
+<p>The storied history of the National Basketball Association has taught us a variety of valuable life lessons, ranging from “If you make $100 million, that doesn’t mean you can actually spend $100 million&#8221; to “Always use the condoms that YOU brought” to “Don’t ever ask your casino host for a second marker” to “Don’t ever marry anyone with the last name Kardashian.” But this lesson ranks way up there: “If you break anything in your foot, don’t come back until you&#8217;re 100 percent healthy, and then wait ANOTHER two to three weeks just to be safe.” Can’t mess around with feet. Can’t. Can’t. Can’t. Not in basketball. I’m worried.</p>
+<h2>GROUP A: &#8220;Completely and Utterly Untouchable&#8221;<span class="footnote-link" data-footnote-id="23" data-footnote-url="#fn-23" data-footnote-content="&amp;lt;p&amp;gt;Westbrook: three years, $50.23 million &amp;hellip; Curry: three years, $34.1 million &amp;hellip; Harden: four years, $65.08 million &amp;hellip; LeBron: two years, $42.3 million &amp;hellip; Davis: two years, $12.67 million (restricted FA in 2016).&amp;lt;/p&amp;gt;
+"><sup id="ss-23">23</sup></span></h2>
+<p><strong>5. Russell Westbrook<br />
+4. James Harden<br />
+3. Stephen Curry</strong></p>
+<p>For the first time in the history of my Sports Guy column, we’re dusting off the old Dr. Jack Breakdown gimmick and turning it into a threesome. I’m gonna throw my <i>Eyes Wide Shut</i> mask on, take a half-Viagra, throw down two glasses of wine and really get into this. Please, I implore you, for your own safety, don’t try this at home. I’m a professional. Anyway …</p>
+<p><em>SALARIES:</em> Harden (signed through 2017-18) and Westbrook (signed through 2016-17) are max guys earning $16 million to $17 million per season … a paltry number in two summers when the NBA salary cap starts taking steroids and HGH, but still. Meanwhile, Golden State has Curry locked down for $10.63 million (this season), $11.37 million (2015-16), and $12.1 million (2016-17). <i>He won’t make as much money over those three years as Marcin Gortat.</i> Anytime someone can make $11 million per year and you feel bad for them, you know they’re a bargain. <strong>ADVANTAGE: CURRY.</strong></p>
+<p><em>BEST GIMMICK:</em> Sorry, fellas, you’re not topping Harden’s beard. Greatest NBA facial hair of all time in no particular order: Wilt’s goatee; Bird’s wispy almost-mustache; Mike Newlin’s beard; Pete Maravich’s mustache-goatee combo, which made him look like a count; Dr. J’s elongated mid-’70s goatee; Artis Gilmore’s Fu Manchu; Shaq’s beard-with-a-bald-head; Paul Mokeski’s mustache; James Worthy’s beard; James Harden’s mega-beard. Finishing last: everyone who ever grew a neck beard. <strong>ADVANTAGE: HARDEN.</strong></p>
+<p><em>SHEER AWESOMENESS OF THEIR CONVENTIONAL 2014-15 NUMBERS:</em> Spectacular all the way around. Through Sunday’s games …</p>
+<aside class="mod-inline content-box border-full full">
+<div class="content">
+<table class="alt-rows">
+<tbody>
+<tr class="last">
+<td><strong>Westbrook</strong></td>
+<td>27.5 ppg</td>
+<td>8.3 apg</td>
+<td>7.2 rpg</td>
+<td>2.1 spg</td>
+<td>43-30-84%</td>
+<td>9.4 FTA</td>
+<td>3.7 3FGA</td>
+</tr>
+<tr class="last">
+<td><strong>Harden</strong></td>
+<td>26.9 ppg</td>
+<td>7.1 apg</td>
+<td>5.8 rpg</td>
+<td>1.9 spg</td>
+<td>44-38-87%</td>
+<td>9.8 FTA</td>
+<td>6.7 3FGA</td>
+</tr>
+<tr class="last">
+<td><strong>Curry</strong></td>
+<td>23.6 ppg</td>
+<td>7.8 apg</td>
+<td>4.4 rpg</td>
+<td>2.2 spg</td>
+<td>48-42-90%</td>
+<td>4.3 FTA</td>
+<td>8.0 3FGA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</aside>
+<p>Some highlights: Westbrook working on the third 27-8-7 with a 30-plus PER in NBA history (the other two: <a href="http://www.basketball-reference.com/play-index/psl_finder.cgi?request=1&amp;match=single&amp;type=totals&amp;per_minute_base=36&amp;per_poss_base=100&amp;lg_id=NBA&amp;is_playoffs=N&amp;year_min=&amp;year_max=&amp;franch_id=&amp;season_start=1&amp;season_end=-1&amp;age_min=0&amp;age_max=99&amp;height_min=0&amp;height_max=99&amp;shoot_hand=&amp;birth_country_is=Y&amp;birth_country=&amp;birth_state=&amp;college_id=&amp;is_active=&amp;debut_yr_nba_start=&amp;debut_yr_nba_end=&amp;debut_yr_aba_start=&amp;debut_yr_aba_end=&amp;is_hof=&amp;is_as=&amp;as_comp=gt&amp;as_val=&amp;award=&amp;pos_is_g=Y&amp;pos_is_gf=Y&amp;pos_is_f=Y&amp;pos_is_fg=Y&amp;pos_is_fc=Y&amp;pos_is_c=Y&amp;pos_is_cf=Y&amp;qual=&amp;c1stat=pts&amp;c1comp=gt&amp;c1val=27&amp;c2stat=ast_per_g&amp;c2comp=gt&amp;c2val=7&amp;c3stat=trb_per_g&amp;c3comp=gt&amp;c3val=8&amp;c4stat=per&amp;c4comp=gt&amp;c4val=30&amp;c5stat=&amp;c5comp=gt&amp;c6mult=1.0&amp;c6stat=&amp;order_by=ws" target="_blank">1989 MJ and 2013 LeBron</a>) … Steph knocking on the door of the 50-40-90 Club while jacking up a staggering EIGHT 3s per game (good luck ever seeing that again) … Harden trying to become the first lefty to average 27, 7 and 6 while also trying to become the third player (after Kobe Bryant and Gilbert Arenas) to attempt 500 3s AND 750 free throws (the 500/750 Club!) … did I mention that Westbrook is a guard and he’s averaging eight freaking rebounds per 36 minutes? … my God, look at that Westbrook season!!!!!! Are those numbers real? Can we check the math again? <strong>ADVANTAGE: WESTBROOK.</strong></p>
+<p><em>SHEER AWESOMENESS OF THEIR ADVANCED 2014-15 NUMBERS:</em> Some of this stuff is bat-shit crazy. Through Sunday’s games<span class="footnote-link" data-footnote-id="24" data-footnote-url="#fn-24" data-footnote-content="&amp;lt;p&amp;gt;I absolutely detest the new Real Plus-Minus stat, but included it just so I could throw in a footnote saying that I absolutely detest the new Real Plus-Minus stat. This is the &amp;lt;em&amp;gt;John From Cincinnati&amp;lt;/em&amp;gt; of advanced NBA stats. It&amp;rsquo;s like a bunch of nerds just kept throwing NBA numbers into some giant stat-maker engine until it churned out results that looked relatively close to a list of the best players in the league &amp;hellip; only they couldn&amp;rsquo;t fix the glitch that throws players like Cody Zeller into the top 20 while sticking Marc Gasol 20 spots lower. The better your bench is, the worse you look in Real Plus-Minus. Stupid stat. Go away.&amp;lt;/p&amp;gt;
+"><sup id="ss-24">24</sup></span><br />
+…</p>
+<aside class="mod-inline content-box border-full full">
+<div class="content">
+<table class="alt-rows">
+<tbody>
+<tr class="last">
+<td><strong>Westbrook</strong></td>
+<td>29.7 PER</td>
+<td>38.4 usage</td>
+<td>53.9% TS</td>
+<td>6.6 RPM</td>
+<td>8.4 WS;</td>
+<td>.234 WS/48</td>
+</tr>
+<tr class="last">
+<td><strong>Harden</strong></td>
+<td>26.6 PER</td>
+<td>30.9 usage</td>
+<td>60.8% TS</td>
+<td>8.51 RPM</td>
+<td>13.2 WS</td>
+<td>.265 WS/48</td>
+</tr>
+<tr class="last">
+<td><strong>Curry</strong></td>
+<td>27.8 PER</td>
+<td>28.7 usage</td>
+<td>62.9% TS</td>
+<td>8.55 RPM</td>
+<td>12.4 WS</td>
+<td>.286 WS/48</td>
+</tr>
+</tbody>
+</table>
+</div>
+</aside>
+<p>Some highlights: Steph’s WS/48 will be <a href="http://www.basketball-reference.com/leaders/ws_per_48_season_p.html" target="_blank">top 20 all time</a> … we’ve had only 17 30-plus PER seasons and <a href="http://www.basketball-reference.com/leaders/per_season.html" target="_blank">86 27-plus PER seasons</a> (and Westbrook is knocking on the door), as well as just three guards who have cracked 30 PER (MJ, Wade and T-Mac) … only Kevin Johnson (in 1997) ever averaged 20 points and eight assists with a 63 percent true shooting percentage … West, Magic, Jordan, Oscar and CP3 are the only guards to ever finish a season with <a href="http://www.basketball-reference.com/play-index/psl_finder.cgi?request=1&amp;match=single&amp;type=totals&amp;per_minute_base=36&amp;per_poss_base=100&amp;lg_id=NBA&amp;is_playoffs=N&amp;year_min=&amp;year_max=&amp;franch_id=&amp;season_start=1&amp;season_end=-1&amp;age_min=0&amp;age_max=99&amp;height_min=0&amp;height_max=99&amp;shoot_hand=&amp;birth_country_is=Y&amp;birth_country=&amp;birth_state=&amp;college_id=&amp;is_active=&amp;debut_yr_nba_start=&amp;debut_yr_nba_end=&amp;debut_yr_aba_start=&amp;debut_yr_aba_end=&amp;is_hof=&amp;is_as=&amp;as_comp=gt&amp;as_val=&amp;award=&amp;pos_is_g=Y&amp;pos_is_gf=Y&amp;qual=&amp;c1stat=ws&amp;c1comp=gt&amp;c1val=16&amp;c2stat=&amp;c2comp=gt&amp;c2val=&amp;c3stat=&amp;c3comp=gt&amp;c3val=&amp;c4stat=&amp;c4comp=gt&amp;c4val=&amp;c5stat=&amp;c5comp=gt&amp;c6mult=1.0&amp;c6stat=&amp;order_by=ws" target="_blank">16 win shares</a> … and if we want to get super-fancy, Harden leads the NBA in <a href="http://stats.nba.com/tracking/#!/player/drives/?sort=DTP&amp;dir=1" target="_blank">points per game on drives</a> and has <a href="https://grantland.com/the-triangle/future-of-basketball-james-harden-daryl-morey-houston-rockets/" target="_blank">assisted on more made 3s</a> than anyone … and Westbrook’s usage rate is threatening to break <a href="http://www.basketball-reference.com/leaders/usg_pct_season.html" target="_blank">2006 Kobe’s all-time NBA record</a> (not necessarily a positive). I give Curry’s season a slight edge for its unselfish efficiency and efficient unselfishness. <strong>SLIGHT ADVANTAGE: CURRY.</strong></p>
+<p><em>MOST MANAGEABLE GLARING WEAKNESS:</em> Golden State hides Curry on D as much as possible, but he’s a better and smarter defender than people realize. (Maybe he’s not Chris Paul on that end, but he’s not Damian Lillard either.) Westbrook plays with so much confidence/swagger/ferocity that he can’t stop going into 2006 Kobe mode, especially late in games, which is the best and the worst thing about him. (I mean, are YOU gonna tell Westbrook not to shoot every time? I didn’t think so.) And Harden’s night-to-night defense used to be somewhere between “reprehensible” and “he’s trolling us,” but he took enough guff that he actually started trying on both ends this season. Great for the Rockets; terrible for everyone who loved reading 1,200-post NBA Reddit threads centered on GIFs of Harden standing in cement as his man darted by him for a layup. He’s the most well rounded of the three. <strong>ADVANTAGE: HARDEN.</strong></p>
+<p><em>BEST NICKNAME:</em> I enjoy “The Beard” and like “The Splash Brothers” a tiny bit more. But you know how you’d never call Liam Neeson “Liam” or “Neeson,” or nickname him, like, “Li” or “The Angry Irishman”? He’s just “Liam Neeson,&#8221; right? Same for Russell Westbrook. He’s too cool for a nickname. He’s transcended nicknames. Damn, I’m at capacity for Liam Neeson references in this column already. <strong>ADVANTAGE: WESTBROOK.</strong></p>
+<p><em>ONE-MAN-WRECKING-CREWNESS:</em> Um, Westbrook threw up 40-13-11, 39-14-11, 49-15-10, 30-11-17, 36-11-6 and 48-9-11 just in the past five weeks. Curry and Harden can eviscerate opposing defenses — and have — but only Westbrook makes you feel like you’re watching Lia— whoops, like you’re watching a WWE star sprint into a crowded <em>Royal Rumble</em> ring and immediately start clearing it out. He doesn’t need a nickname, but he might need his own entrance music. <strong>ADVANTAGE: WESTBROOK.</strong></p>
+<p><em>BEST QUALITY AS A TEAMMATE:</em> Harden is a famously fun off-the-court guy — the kind of star who seems like he’d stay out with a new teammate until 6 a.m. and, um, show him around. Westbrook would fight for any teammate or coach on and off the court; he even holds grudges on the level of, <i>Even though Grantland has thrown more love my way than toward Kanye and Drake combined, I’m not appearing on the All-Star Break </i>B.S. Report<i> because Simmons is the asshole who keeps bringing up the Harden trade and saying that Scott Brooks isn’t good enough.</i> (By the way — guilty!)</p>
+<p>But Curry is turning into this generation’s Tim Duncan — an unselfish superstar who doesn’t want to be an alpha dog, pulls for everyone else at all times, has an infectious personality and lacks any semblance of an ego. I loved that <i>he</i> loved Klay Thompson’s 37-point Über–Heat Check quarter more than anyone. He’s the best player on a team with phenomenal chemistry. That matters. <strong>SLIGHT ADVANTAGE: CURRY.</strong></p>
+<p><em>NIGHT-TO-NIGHT YOUTUBE/GIF/MEME/VINE POTENTIAL:</em> I would have said Curry as recently as four weeks ago, but then Westbrook got bitten by a spider and this shit started happening.</p>
+<p>[protected-iframe id=&#8221;a7546dda7884feae3806ae1b03a3b6fe-60203239-57815212&#8243; info=&#8221;https://vine.co/v/O0U0pz501rE/embed/simple&#8221; width=&#8221;600&#8243; height=&#8221;600&#8243; frameborder=&#8221;0&#8243;]</p>
+<p>Amazing. Only <em>Teen Wolf</em> could go coast-to-coast and dunk within the parameters of a six-second Vine.</p>
+<p>[protected-iframe id=&#8221;20e7dc60f958560a197a69f54f54db1f-60203239-57815212&#8243; info=&#8221;https://vine.co/v/O09bD9FzjJU/embed/simple&#8221; width=&#8221;600&#8243; height=&#8221;600&#8243; frameborder=&#8221;0&#8243;]</p>
+<p>Then again, the right pop-culture comparison for Westbrook (at least lately) is Scarlett Johansson in <i>Lucy</i>. Remember when her brain usage started expanding and she started making crazy stuff happen? Hasn’t that been Westbrook these past few weeks? He’s using 7 percent of his brain and the number is climbing. In Round 1, he’s shedding his skin and becoming an actual robot. <strong>ADVANTAGE: WESTBROOK.</strong></p>
+<p><em>DEFENSE/REBOUNDING/STEALS:</em> Good place to save some words. <strong>ADVANTAGE: WESTBROOK.</strong></p>
+<p><em>DURABILITY:</em> Here, too. <strong>ADVANTAGE: HARDEN.</strong></p>
+<p><em>POPULARITY:</em> Big year for Curry — not only did he fetch the most All-Star votes, but LeBron’s departure from Miami allowed Golden State to become the NBA’s biggest bandwagon team. If your child is under 10 and searching for a hoops team that not-so-coincidentally might have a chance to win multiple titles, or you’re one of those secretly shady NBA fans-for-hire who drifts around from contender to contender because “I just root for players I like,” or you’re a casual fan who just likes watching dunks and 3s and that’s it, or you grew up in the Bay Area and wore a Warriors hat for 10 minutes when you were 8 years old back in the 1990s, then we have the bandwagon contender just for you! And yes, my daughter jumped on the Warriors bandwagon a few months ago. They’re irresistable. They’re bandwagon catnip. <strong>ADVANTAGE: CURRY.</strong></p>
+<p><em>MEDIA SAVVY:</em> You’d think Curry would win this in a landslide. But what about Westbrook’s tough-love strategy? I kind of dig it. Total dick for a week, goes generic for a week, becomes nice and thoughtful the next week. He’s like the arrogant, hard-to-get ladies&#8217; man in a rom-com who keeps playing the frazzled-but-successful woman in his office who’s way too cute not to have a boyfriend (only she’s all about her work and her home life is a mess). <i>Russell thanked us today! What does this mean? Does he like me?</i> I love Russell Westbrook. If he punched me in the face the next time I saw him, I’d probably justify it by saying, “I probably deserved that.” Wait … don’t actually do that, Russell. <strong>SLIGHT ADVANTAGE: WESTBROOK.</strong></p>
+<p><em>MOST ANNOYING QUALITY:</em> Westbrook’s shot selection trumps Curry’s ankles (not his fault, but still) and Harden’s occasional matador routine. But I’m going one step deeper — Harden’s uncanny ability to succeed with the same move over and over again turns those Rockets games into a CBS procedural drama. You barely need to watch.</p>
+<p><i>Lemme guess, this is the episode when Harden repeatedly beats someone off the dribble with the exact same move, then either draws a foul or gets a layup or kicks it out for a 3, then pulls up for a 3 himself, then beats the same dude off the dribble again, then gets fouled again, only the replay shows he didn’t get fouled …</i></p>
+<p>Each episode feels slightly different, but not really. I enjoy Harden’s brilliance the least of the three, if that makes sense. <strong>DISADVANTAGE: HARDEN.</strong></p>
+<p><em>BEST “WHAT IF?” BACKSTORY:</em> Curry almost got traded to the Suns during the 2010 draft; nearly got dealt to Milwaukee for Andrew Bogut; and could have ended up in Minnesota had David Kahn not taken Ricky Rubio and Jonny Flynn over him.<span class="footnote-link" data-footnote-id="25" data-footnote-url="#fn-25" data-footnote-content="&amp;lt;p&amp;gt;KAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHNNNNNNNNNNN!!!!!!!!!!!!!&amp;lt;/p&amp;gt;
+"><sup id="ss-25">25</sup></span> Westbrook trumps Curry with the whole “What if OKC never traded James Harden?” question lingering over his entire OKC tenure like a pungent fart on an airplane. And James Harden IS the James Harden from the previous sentence. <strong>ADVANTAGE: HARDEN.</strong></p>
+<p><em>SWAGGER WHILE WALKING DOWN A RUNWAY BEFORE AN ESPN GAME DURING THOSE LUDICROUSLY LONG CAMERA SHOTS THAT ARE SUPPOSED TO FIRE YOU UP FOR A GAME EVEN THOUGH THEY JUST MAKE YOU FEEL KIND OF AWKWARD:</em> Come on. <strong>ADVANTAGE: WESTBROOK.</strong></p>
+<p><em>UNIQUENESS FACTOR:</em> Brutal category. Westbrook is basically Jim Brown 50 years later with basketball shorts on. And I just compared him to <em>Teen Wolf</em> and a poisoned movie character who uses so much of her brain that she becomes a robot, then turns invisible. Somehow, I have him ranked third. Curry is the greatest shooter I have ever seen in my life; he’s like Maravich reincarnated crossed with Steve Nash crossed with some sports movie character that hasn’t been invented yet. Somehow, I have him ranked second. And Harden is a true original – I’m half-convinced that Dork Elvis, Goldsberry and Hollinger wanted to see if there could be a superior and much more durable American version of Manu Ginobili, so they created Harden in an MIT lab in 2007 during the first-ever Sloan Conference. A left-handed scorer/creator who cares only about getting to the rim, getting fouled or shooting 3s?</p>
+<p>Important note: The Harden Experience wouldn’t have made sense even 25 years ago. We would have been saying stuff like “He needs to post up more” and “He’s killing them with all those dumb 3s.” But over everything else, Harden’s ability to repeatedly beat defenders with what seems to be the exact same move makes him the most unique. <strong>ADVANTAGE: HARDEN</strong></p>
+<p><em>“SEEING THEM IN PERSON” FACTOR:</em> Christ. This one isn’t fair, especially with Westbrook in Jim Brown/Bo Jackson/Young LeBron/<em>Lucy</em> mode right now. But I saw Curry in Brooklyn earlier this month, and lemme tell you something: There is nothing — repeat, nothing — more exciting as an NBA fan right now than being in the house when Steph Curry is feeling it. Bird had the same quality, by the way. For about three minutes, every shot seems possible. A 35-footer? Sure. An off-balance 27-footer with 0.3 seconds to set-and-launch? Why not?</p>
+<p>And these Curry shots are SWISHING. That’s the other thing. When it starts happening, the energy in the building actually shifts and becomes something else. It’s tangible. His teammates rise from their bench. The fans start buzzing like they’re waiting for a band to make a Coachella entrance or something. Everyone stands because you simply have to stand. And all the limits of the sport we thought we understood get briefly removed. It’s amazing. Utterly, completely amazing. If you have the money and the Warriors are passing through your city, go see Steph Curry. You want to be there if he starts feeling it. Trust me. <strong>ADVANTAGE: CURRY.</strong></p>
+<p><em>NIGHT-TO-NIGHT COMPETITIVENESS:</em> The Homicidally Competitive Legacy Baton since 1990 looks like this: MJ, then Iverson, then Garnett, then Kobe, then Westbrook. Nobody else in the NBA gives even half as much of a shit as Russ does. Like, you actually fear for his safety. And everyone else’s safety. He’s like Springsteen circa 1980: When you see him in person, you know there’s a 100 percent chance he will throw himself into the proceedings like a tirelessly energetic freak/maniac/lunatic who just chugged 128 ounces of coffee. He’s the safest ticket purchase you can make. <strong>ADVANTAGE: WESTBROOK.</strong></p>
+<p><em>GUY YOU’D MOST WANT FOR THE NEXT 10 YEARS:</em> Curry’s surgically repaired ankle worries me just a little. Westbrook’s aforementioned overcompetitiveness worries me long-term; I don’t love the track record of NBA stars who play that recklessly all the time. For instance, Larry Bird left seven to eight years on the table because he kept diving into the scorer’s table for loose balls with a 25-point lead. We loved him for it … right until his body started to fall apart in sections starting in 1988. It’s impossible for your body to go THAT hard all the time. Of these three guys, Harden is built for the future — pace and space, 3s and layups. He’s our safest bet. Even if a healthy Curry will last until his mid-forties with the way he shoots. <strong>ADVANTAGE: HARDEN.</strong></p>
+<p><em>MOST VALUABLE RIGHT NOW:</em> My take on MVP with four crucial weeks to go: LeBron is the best player, Anthony Davis is the best two-way player, Westbrook is the best one-man wrecking crew, Curry is the best player on the best team, and Harden was the most valuable through the first 75 percent of the season. Showed up every night, carried the shakiest supporting cast, did the most, played at an exceptionally high level. (Hold on, big “but” coming.) BUT, if the Warriors reach 67 or 68 wins and go down as a historically great regular-season team, NBA history says Curry will cruise to the MVP. (Their current record: 53-13.) Harden gets my vote for now. I might change my mind tomorrow. <strong>SLIGHTEST OF SLIGHT ADVANTAGES: HARDEN.</strong></p>
+<p><em>MEANING TO THEIR CITY:</em> It’s a little too early for Harden and Houston, but he’s certainly the most beloved Rocket since Hakeem. OKC fans love Westbrook … but you wouldn’t be shocked if he left in three years, and deep down, neither would they. But Curry? He has replaced Derrick Rose as the league’s reigning “If He Got Traded, The Fans Would Riot And Flip Over Cars And Set Things On Fire” guy. You will see Alcatraz and the Golden Gate Bridge get traded before Steph Curry. And over everything else, that’s why I have him ranked third. I’m glad we did this. <strong>ADVANTAGE: CURRY.</strong></p>
+<p><strong>2. LeBron James</strong><br />
+Let’s have one last round of applause for LeBron’s incredible eight-year run atop the Trade Value list.</p>
+<p><img decoding="async" class="aligncenter" src="http://weknowgifs.com/wp-content/uploads/2013/03/slow-clap-gif.gif" alt="" width="320" height="240" /></p>
+<p>What happens next? The 30-year-old budding mogul has already logged more than 42,000 career minutes and played more than 1,050 games (including playoffs). You know what that really means? Apex LeBron is gone. Here, look.</p>
+<p><strong>Seasons 1 through 4 (316 games)</strong><br />
+41.3 mpg, 26.7 ppg, 6.7 rpg, 6.4 apg, 46-33-73%, 8.3 FTA, 3.3 TO, 24.2 PER, .181 WS/48</p>
+<p><strong>Seasons 5 through 11 (526 games)</strong><br />
+38.4 mpg, 28.0 ppg, 7.6 rpg, 7.1 apg, 52-35-76%, 8.7 FTA, 3.3 TO, 30.1 PER, .283 WS/48</p>
+<p><strong>Playoff Career (158 games)</strong><br />
+42.5 mpg, 28.0 ppg, 8.4 rpg, 6.4 apg, 48-33-76%, 9.7 FTA, 3.4 TO, 27.7 PER, .242 WS/48</p>
+<p><strong>Season 12 (57 games)</strong><br />
+36.2 mpg, 26.0 ppg, 5.7 rpg, 7.4 apg, 49-35-72%, 8.0 FTA, 4.2 TO, 26.2 PER, .196 WS/48.</p>
+<p>The good news: He’s still 85-90 percent as good as that seven-year apex, keeping LeBron’s “best player in the league” ceiling the highest of anyone. I just don’t know where this goes. How long can LeBron stay great or even close to great?</p>
+<p>In NBA history, <a href="http://bkref.com/tiny/TnVmR" target="_blank">only 35 guys</a> have played more than 875 games and logged more than 34,000 minutes while averaging 35 minutes per game in their first 13 seasons. (Even though LeBron did it in 12, I added an extra year for everyone else because, you know, LeBron is superhuman.) <a href="http://bkref.com/tiny/7kbDI" target="_blank">Only 22 guys</a> played more than 120 playoff games in their first 13 seasons while logging more than 5,000 playoff minutes and averaging 35 minutes per game. And only 12 guys cracked both lists: LeBron, Jordan, Wilt, Duncan, Russell, West, Bird, Pippen, Kobe, Hakeem, Malone and Havlicek.</p>
+<p>Wait a second … that’s a great list! We just ripped off 12 of the 25 best players ever. Just so I can sleep tonight, let’s include Dirk, Magic, Shaq, and Kareem as well, giving us 16 guys who passed 40,000 minutes (regular season and playoffs combined) in 13 years or less. That’s an insane day-to-day burden for anyone’s body, no matter how great you are. You’re talking about three-plus presidential terms of grinding out 80-100 games in eight to nine months (and carrying a huge burden, no less). After passing that benchmark, Kobe (four more first-team All-NBAs and a Finals MVP), Havlicek (second-team All-NBA and a &#8217;76 Finals win), Duncan (two more Finals), Malone (1999’s MVP and two top-15 years after that), Shaq (first-team All-NBA and one more title in his 14th season), Dirk (third-team All-NBA in 2012, relevant even now) and Kareem (who doesn’t count because he was an alien) thrived for at least a little while. Nobody else did.</p>
+<p>But 50,000 combined minutes? That’s the danger number. Kareem passed 50,000 during the 1983-84 season, won the 1985 Finals MVP and remained relevant through ’88 (back-to-back titles), but again, he wasn’t human. Duncan passed that mark last season, then helped San Antonio win 2014’s title. (Of course, he’s also an alien.) No non-center remained a star after 50,000 minutes except for Kobe; he passed that mark during the 2012 playoffs, then thrived offensively the following season right until his Achilles snapped in half. These things don’t end well. I think Kobe knew it too. That last season, he could feel his body breaking down and turned into Quint from <i>Jaws</i>: He started revving his boat’s engine until smoke began pouring out. He knew. He had to know.</p>
+<p>Here’s the point: History says LeBron has two elite seasons left after this one, maybe three. That’s it. And you wondered why <a href="https://grantland.com/the-triangle/the-would-you-trade-wiggins-for-love-shootaround/" target="_blank">he didn’t want to wait around for Andrew Wiggins.</a></p>
+<p>On the other hand … <i>LeBron is only 30 years old.</i> That’s the same age as Scarlett Johansson, Matt Cain, Mandy Moore, Adam Morrison, Katy Perry, Rick Nash and <i>Purple Rain</i>. When Bird turned 30, he was the reigning back-to-back-to-back MVP. When Jordan turned 30, he was four months away from finishing off his first three-peat. When Magic turned 30, he was getting ready for his third MVP season in four years. Doesn’t it seem insane to think that LeBron is passing his prime at THIRTY? Then again, only Kobe crossed 40,000 minutes before turning 31, but it happened over 13 years (not 12 like LeBron), and he didn’t take nearly the same physical night-to-night pounding. So who the heck knows?</p>
+<p>Either LeBron will make history, or history will catch up to him. It’s one or the other. Just know that he’s no longer our most untradable player. For the first time, you can see a finish line for LeBron James. Unlike …</p>
+<p><strong>1. Anthony Davis</strong><br />
+In <a href="https://grantland.com/features/sports-guys-vault-nba-trade-value-2007/" target="_blank">2007’s Trade Value column</a>, I wrote that “2007 LeBron and 2007 [Dwight] Howard are more untradeable than anyone in the seven-year history of this ‘Trade Value’ column, even surpassing (gulp) 2001 Shaq and 2003 Duncan.” Eight years later, you’d have to belatedly cram 2015 Davis into that sentence while crossing your fingers nice and hard. Why? Look what happened to the 2007 guys. LeBron has become a four-time MVP, a two-time champ and one of the best 10 players ever. Dwight has made only one Finals and never won an MVP, and started breaking down four years later. You never know. It’s 50-50 once a young star reaches anything-is-possible status. You need injury luck, you need the right situation, and you need the player to want it. For every Shaq, there’s a Dwight. For every Magic, there’s a Penny. For every Kareem, there’s a Walton. For every Duncan, there’s a C-Webb. For every Kobe, there’s a Derrick Rose.</p>
+<p>So cross your fingers for the Brow. Nice and hard.</p>
+<p>He just turned 22 years old and hasn’t even played 6,500 career minutes yet. He’s the best screen-and-roller since Young Robinson. Longer arms than McHale. Freakocious athlete like Hakeem. Light on his feet like Young Duncan. Drains 20-footers like Bosh. Protects the paint like KG. I don’t know what else you’d want. Jordan (24 years old at the time), LeBron (24), T-Mac (23) and Davis (right now) are <a href="http://bkref.com/tiny/vHAad" target="_blank">the only under-25 players to post PERs over 30</a>. He’s also one of three under-25 guys (along with ’90 Robinson and ’74 Bob McAdoo) to average 24 and 10 with 2.5 blocks and 1.0 steals. And if he came along 35 years ago, he’d probably be a senior at Kentucky right now.</p>
+<p>And look, I don’t know how this will play out. But I have been attending NBA games since the 1973-74 season, back when my father carried me as a tiny 4-year-old into Boston Garden and hoped that I would fall in love with the sport. I did. Over the next 41 years (and counting), I watched maybe 25 up-and-coming stars who just seemed <i>different</i> from everyone else. Young Durant was all arms and legs, and he weighed about 20 pounds, but he had that crazy release and you just knew something unforgettable would happen with him. Young Hakeem and Young Robinson were Greek gods; they moved at a different speed, and with a different level of coordination, than anyone I had ever seen. Young Duncan had those beautiful feet; he just glided effortlessly wherever he wanted to go.</p>
+<p>Young MJ was indescribable; I’m not even going to betray the experience by cramming it into one sentence. Young Kobe and Young Penny looked like MJ and Magic had cloned themselves just for kicks. Young Shaq was unfair around the basket; you couldn’t keep him away from the rim unless you had a two-by-four. Young Barkley was a bowling ball crossed with a runaway train. Young C-Webb looked like a combination of everything you’d ever liked about every power forward you’d ever liked. Young LeBron looked and played like he was 28 already; he’s the surest thing I have ever seen, a true prodigy in every sense.</p>
+<p>So that’s the first stage: the old Gladwell <i>Blink</i> test, when you witness the raw materials in person and think to yourself, <em>Jesus, where is THIS going?</em> But there’s a second stage, usually in Year 2 or Year 3, when it ascends to another level and that night-to-night ceiling gets removed. That’s probably my favorite career point for basketball players, actually. Tonight, we know that about 16,000 people will pack the Smoothie King Center to watch the Pelicans play the Bucks. We know the Pelicans will probably win. And we have absolutely no idea what the Brow will do. A quadruple-double? Can’t rule it out. 40 and 20? Not impossible. 35, 10 and 15? It’s in play. A game-winning off-balance 3 with two guys draped over him? Sure.</p>
+<p>It’s the single best stage. Others are coming, but I love this one the most. Anthony Davis might play 50,000 minutes over the next 15 to 20 years. He might climb one or two levels higher than this current one. He might win multiple MVPs and multiple titles; I would be shocked if that didn’t happen. But he’s going to be young <i>and</i> great only once. This doesn’t happen often. Cross your fingers.<a class="grantland-g" href="https://grantland.com/"> </a></p>
+					</div>
+
+<div class="article-share">
+								<div class="fb-like" data-href="https://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="false"></div>
+								<ul class="article-share-list">
+							<li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgrantland.com%2Ffeatures%2F2015-nba-trade-value-part-3-the-final-countdown%2F" target="_blank">Facebook</a></li>
+							<li><a class="twitter" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fgran.tl%2F1GXyYQT&#038;text=2015+NBA+Trade+Value%2C+Part+3%3A+The+Final+Countdown&#038;related%5BGrantland33%5D=" target="_blank">Twitter</a></li>
+							<li><a href="https://grantland.com/features/2015-nba-trade-value-part-3-the-final-countdown/?print=1" target="_blank" class="print">Print</a>
+							</li>
+								<!-- AddThis Button BEGIN -->
+	<li class="addthis_toolbox addthis_default_style addthis_16x16_style">
+		<a class="addthis_button_compact">Share</a>
+	</li>
+	<!-- AddThis Button END -->
+							</ul>
+					</div>
+
+<p class="filed">Filed Under: <a href="https://grantland.com/tags/nba/">NBA</a>, <a href="https://grantland.com/tags/nba-trade-value/">NBA Trade Value</a>, <a href="https://grantland.com/tags/boston-celtics/">Boston Celtics</a>, <a href="https://grantland.com/tags/brooklyn-nets/">Brooklyn Nets</a>, <a href="https://grantland.com/tags/new-york-knicks/">New York Knicks</a>, <a href="https://grantland.com/tags/philadelphia-76ers/">Philadelphia 76ers</a>, <a href="https://grantland.com/tags/toronto-raptors/">Toronto Raptors</a>, <a href="https://grantland.com/tags/chicago-bulls/">Chicago Bulls</a>, <a href="https://grantland.com/tags/cleveland-cavaliers/">Cleveland Cavaliers</a>, <a href="https://grantland.com/tags/detroit-pistons/">Detroit Pistons</a>, <a href="https://grantland.com/tags/indiana-pacers/">Indiana Pacers</a>, <a href="https://grantland.com/tags/milwaukee-bucks/">Milwaukee Bucks</a>, <a href="https://grantland.com/tags/atlanta-hawks/">Atlanta Hawks</a>, <a href="https://grantland.com/tags/charlotte-hornets/">Charlotte Hornets</a>, <a href="https://grantland.com/tags/miami-heat/">Miami Heat</a>, <a href="https://grantland.com/tags/orlando-magic/">Orlando Magic</a>, <a href="https://grantland.com/tags/washington-wizards/">Washington Wizards</a>, <a href="https://grantland.com/tags/dallas-mavericks/">Dallas Mavericks</a>, <a href="https://grantland.com/tags/houston-rockets/">Houston Rockets</a>, <a href="https://grantland.com/tags/memphis-grizzlies/">Memphis Grizzlies</a>, <a href="https://grantland.com/tags/new-orleans-pelicans/">New Orleans Pelicans</a>, <a href="https://grantland.com/tags/san-antonio-spurs/">San Antonio Spurs</a>, <a href="https://grantland.com/tags/denver-nuggets/">Denver Nuggets</a>, <a href="https://grantland.com/tags/minnesota-timberwolves/">Minnesota Timberwolves</a>, <a href="https://grantland.com/tags/oklahoma-city-thunder/">Oklahoma City Thunder</a>, <a href="https://grantland.com/tags/portland-trail-blazers/">Portland Trail Blazers</a>, <a href="https://grantland.com/tags/utah-jazz/">Utah Jazz</a>, <a href="https://grantland.com/tags/golden-state-warriors/">Golden State Warriors</a>, <a href="https://grantland.com/tags/los-angeles-clippers/">Los Angeles Clippers</a>, <a href="https://grantland.com/tags/los-angeles-lakers/">Los Angeles Lakers</a>, <a href="https://grantland.com/tags/phoenix-suns/">Phoenix Suns</a>, <a href="https://grantland.com/tags/sacramento-kings/">Sacramento Kings</a></p>
+					
+	<div class="media author-bio">
+		<a href="https://grantland.com/contributors/bill-simmons/" class="pull"><img width="104" height="104" src="https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png?w=104&amp;h=104&amp;crop=1" class="attachment-bio size-bio" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png 348w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png?resize=300,300 300w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png?resize=190,190 190w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png?resize=104,104 104w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png?resize=209,209 209w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png?resize=160,160 160w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png?resize=150,150 150w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png?resize=326,326 326w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-07-at-7-03-08-am1.png?resize=236,236 236w" sizes="auto, (max-width: 104px) 100vw, 104px" /></a>
+		<div class="bio-data">
+			<p class="bio"><strong>Bill Simmons</strong> is the founding editor of Grantland and the author of the <span style="font-style:normal">New York Times</span> no. 1 best seller <span style="font-style:normal">The Book of Basketball</span>. For every Simmons column and podcast, <a href="http://www.grantland.com/contributors/bill-simmons">click here</a>.</p>
+			<p class="buttons">
+				<a href="https://grantland.com/contributors/bill-simmons/" class="text-btn">Archive</a>
+									<a href="https://twitter.com/BillSimmons" class="text-btn icon-twitter-black">@ BillSimmons</a>
+											</p>
+				   <!--<p class="recently"><em>Most recently:</em> <a href="#">Bill Simmons on which NFL teams will claim the up-for grabs playoff spots</a></p>-->
+		</div>
+	</div>
+
+<section class="section more-tabs">
+	<div class="tab-content tab-container">
+		<ul class="tabs tab-list">
+							<li><a href="#more-contrib">More From Bill Simmons</a></li>
+								<li><a class="active" href="#more-tag">More NBA</a></li>
+							<li><a href="#more-post-type">More Features</a></li>
+		</ul>
+
+<div class="tabs-body">
+			<section id="more-contrib">
+				<h2>More from Bill Simmons</h2>
+				<ul class="slats headline-list">
+											<li>
+							<h3><a href="https://grantland.com/features/complete-column-archives-grantland-edition/" name="&lpos=mod_more&lid=contrib1">Complete Column Archives: Grantland Edition </a> <span class="byline"><time>May 21, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/bill-dont-lie-podcast-tom-haberstroh-on-the-cavs-blake-griffin-and-the-future-of-the-miami-heat/" name="&lpos=mod_more&lid=contrib2">‘Bill Don’t Lie’ Podcast: Tom Haberstroh on the Cavs, Blake Griffin, and the Future of the Miami Heat </a> <span class="byline"><time>May 6, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/b-s-report-chuck-klosterman-on-the-nfl-draft-hack-a-deandre-and-mad-men/" name="&lpos=mod_more&lid=contrib3">‘B.S. Report’: Chuck Klosterman on the NFL Draft, Hack-a-DeAndre, and &#8216;Mad Men&#8217; </a> <span class="byline"><time>May 5, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/the-tim-duncan-question/" name="&lpos=mod_more&lid=contrib4">The Tim Duncan Question </a> <span class="byline"><time>May 5, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/b-s-report-jimmy-kimmel-cousin-sal-and-bryan-curtis-on-mayweather-pacquiao/" name="&lpos=mod_more&lid=contrib5">‘B.S. Report’: Jimmy Kimmel, Cousin Sal, and Bryan Curtis on Mayweather-Pacquiao </a> <span class="byline"><time>May 4, 2015</time></span></h3>
+						</li>
+									</ul>
+				<p class="more"><a href="https://grantland.com/contributors/bill-simmons">See all from Bill Simmons</a></p>
+			</section>
+			<section id="more-tag">
+				<h2>More NBA</h2>
+				<ul class="slats headline-list">
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/we-went-there-los-angeles-clippers-deandre-jordan-blake-griffin-chris-paul-dallas-mavericks-mark-cuban-dirk-nowitzki-steve-ballmer/" name="&lpos=mod_more&lid=tag1" >We Went There: Clippers-Mavs and DeAndre Jordan Night in Los Angeles </a> <span class="byline"><time>October 30, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/nba-overnight-where-was-the-spark/" name="&lpos=mod_more&lid=tag2" >NBA Overnight: Where Was the Spark? </a> <span class="byline"><time>October 30, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/jalen-and-jacoby-discussing-demarcus-cousins-the-thunder-and-more/" name="&lpos=mod_more&lid=tag3" >&#8216;Jalen and Jacoby&#8217;: Discussing DeMarcus Cousins, the Thunder, and More </a> <span class="byline"><time>October 30, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/the-lowe-post-podcast-howard-beck-on-pursuing-kevin-durant/" name="&lpos=mod_more&lid=tag4" >‘The Lowe Post’ Podcast: Howard Beck on Pursuing Kevin Durant </a> <span class="byline"><time>October 29, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/five-minutes-with-bulls-coach-fred-hoiberg/" name="&lpos=mod_more&lid=tag5" >Five Minutes With Bulls Coach Fred Hoiberg </a> <span class="byline"><time>October 29, 2015</time></span></h3>
+						</li>
+									</ul>
+				<p class="more"><a href="https://grantland.com/tags/nba/">See all NBA</a></p>
+			</section>
+			<section id="more-post-type">
+				<h2>More Features</h2>
+				<ul class="slats headline-list">
+											<li>
+							<h3><a href="https://grantland.com/features/blades-of-glory/" name="&lpos=mod_more&lid=Features1" >Blades of Glory </a> <span class="byline"><time>October 28, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/russell-the-creator-westbrook-nba-oklahoma-city-thunder-western-conference-kevin-durant-serge-ibaka-kevin-love/" name="&lpos=mod_more&lid=Features2" >Russell, the Creator </a> <span class="byline"><time>October 28, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/30-for-30-shorts-every-day/" name="&lpos=mod_more&lid=Features3" >30 for 30 Shorts: Every Day </a> <span class="byline"><time>October 28, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/mlb-win-percentage-added-world-series-championship-kirk-gibson-bobby-thomson-david-freese-mariano-rivera-yogi-berra/" name="&lpos=mod_more&lid=Features4" >The 15 Biggest Plays in Baseball History </a> <span class="byline"><time>October 27, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/jan-hooks-saturday-night-live-phil-hartman-kevin-nealon-lorne-michaels-pee-wees-big-adventure/" name="&lpos=mod_more&lid=Features5" >The Laughs, Pathos, and Overwhelming Talent of Jan Hooks </a> <span class="byline"><time>October 20, 2015</time></span></h3>
+						</li>
+					
+				</ul>
+				<p class="more"><a href="https://grantland.com/features/">See all Features</a></p>
+			</section>
+		</div>
+	</div>
+</section>
+
+</div>
+				<!--end layout-main-->
+				
+				<aside class="layout-sidebar" id="layout-sidebar">
+					
+		<section class="">
+			<h3 class="section-title clear-section"><span><em>Top</em> Stories</span></h3>
+			<ul class="slats" data-vr-zone="topstoriesrail">
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/the-triangle/nfl-week-8-picks-the-weight-of-the-interim-label/" name="&lpos=grantlandRightRail&lid=Feature1" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg 2113w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=1536,864 1536w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=2048,1152 2048w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/the-triangle/nfl-week-8-picks-the-weight-of-the-interim-label/" name="&lpos=grantlandRightRail&lid=Feature1" >The Weight of the Interim Label</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/bill-barnwell/">Bill Barnwell</a></div>							</div>
+						</div>
+					</li>
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/the-triangle/2015-mlb-playoffs-world-series-weekend-mets-royals-five-questions/" name="&lpos=grantlandRightRail&lid=Feature2" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg 2592w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=1536,864 1536w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=2048,1152 2048w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/the-triangle/2015-mlb-playoffs-world-series-weekend-mets-royals-five-questions/" name="&lpos=grantlandRightRail&lid=Feature2" >World Series Preview: Five Questions for Games Three and Four</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/ben-lindbergh/">Ben Lindbergh</a></div>							</div>
+						</div>
+					</li>
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/hollywood-prospectus/fifty-scenes-x-files-revival-fox-david-duchovny-gillian-anderson-fox-mulder-dana-scully/" name="&lpos=grantlandRightRail&lid=Feature3" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg 1200w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/hollywood-prospectus/fifty-scenes-x-files-revival-fox-david-duchovny-gillian-anderson-fox-mulder-dana-scully/" name="&lpos=grantlandRightRail&lid=Feature3" >50 Scenes That Do Not Appear in the &#8216;X-Files&#8217; Revival</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/brian-phillips/">Brian Phillips</a></div>							</div>
+						</div>
+					</li>
+
+</ul>
+
+<div class="house-ad"><a href="https://grantland.com/tags/grantland-channel/"><img width="300" height="158" src="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?w=300" class="attachment-landscape-med size-landscape-med" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png 600w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=450,237 450w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=300,158 300w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=190,100 190w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=160,84 160w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=326,172 326w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=236,124 236w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a><a href="https://grantland.com/tags/grantland-channel/">Click here to watch &#8216;Jalen &#038; Jacoby,&#8217; Grantland Features, and video podcasts!</a></div>
+
+</section>
+					<div class="ad-unit boombox">
+				<div id="ad-InContent" class="ad-incontent" data-defer="none"></div>			</div>
+					<div class="ad-unit boombox">
+				<div id="ad-InContent" class="ad-incontent" data-defer="none"></div>			</div>
+		
+		<section class="">
+			<h3 class="section-title clear-section"><span><em>Top</em> Stories</span></h3>
+			<ul class="slats" data-vr-zone="topstoriesrail">
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/the-triangle/nfl-week-8-picks-the-weight-of-the-interim-label/" name="&lpos=grantlandRightRail&lid=Feature1" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg 2113w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=1536,864 1536w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=2048,1152 2048w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/the-triangle/nfl-week-8-picks-the-weight-of-the-interim-label/" name="&lpos=grantlandRightRail&lid=Feature1" >The Weight of the Interim Label</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/bill-barnwell/">Bill Barnwell</a></div>							</div>
+						</div>
+					</li>
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/the-triangle/2015-mlb-playoffs-world-series-weekend-mets-royals-five-questions/" name="&lpos=grantlandRightRail&lid=Feature2" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg 2592w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=1536,864 1536w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=2048,1152 2048w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/the-triangle/2015-mlb-playoffs-world-series-weekend-mets-royals-five-questions/" name="&lpos=grantlandRightRail&lid=Feature2" >World Series Preview: Five Questions for Games Three and Four</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/ben-lindbergh/">Ben Lindbergh</a></div>							</div>
+						</div>
+					</li>
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/hollywood-prospectus/fifty-scenes-x-files-revival-fox-david-duchovny-gillian-anderson-fox-mulder-dana-scully/" name="&lpos=grantlandRightRail&lid=Feature3" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg 1200w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/hollywood-prospectus/fifty-scenes-x-files-revival-fox-david-duchovny-gillian-anderson-fox-mulder-dana-scully/" name="&lpos=grantlandRightRail&lid=Feature3" >50 Scenes That Do Not Appear in the &#8216;X-Files&#8217; Revival</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/brian-phillips/">Brian Phillips</a></div>							</div>
+						</div>
+					</li>
+
+</ul>
+
+<div class="house-ad"><a href="https://grantland.com/tags/grantland-channel/"><img width="300" height="158" src="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?w=300" class="attachment-landscape-med size-landscape-med" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png 600w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=450,237 450w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=300,158 300w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=190,100 190w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=160,84 160w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=326,172 326w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=236,124 236w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a><a href="https://grantland.com/tags/grantland-channel/">Click here to watch &#8216;Jalen &#038; Jacoby,&#8217; Grantland Features, and video podcasts!</a></div>
+
+</section>
+		
+		<div class="articles-seek">
+			<div class="contain">
+
+<div class="prev-story">
+									</div>
+
+<div class="next-story">
+									</div>
+			</div>
+		</div>
+
+<!-- Cached Widget -->		<section class="section most-popular">
+			<h3 class="section-title clear-section">
+				<span><em>Most</em> Popular</span>
+				<div class="tab-content tab-container">
+					<ul class="tabs tab-list tab-icons">
+													<li class="tabs-selected">
+								<a href="#most-popular-grantland_feature"><span class="most-popular-icon"></span></a>
+							</li>
+														<li >
+								<a href="#most-popular-grantland_sports"><span class="most-popular-icon"></span></a>
+							</li>
+														<li >
+								<a href="#most-popular-grantland_pop"><span class="most-popular-icon"></span></a>
+							</li>
+												</ul>
+
+<div class="tabs-body">
+								<section class="tabs-content" id="most-popular-grantland_feature">
+			<h4>Features</h4>
+
+<ul class="slats headline-list">
+							</ul>
+		</section>
+										<section class="tabs-content" id="most-popular-grantland_sports">
+			<h4>The Triangle</h4>
+
+<ul class="slats headline-list">
+							</ul>
+		</section>
+										<section class="tabs-content" id="most-popular-grantland_pop">
+			<h4>Hollywood Prospectus</h4>
+
+<ul class="slats headline-list">
+							</ul>
+		</section>
+							</div>
+
+<div class="most-popular-sponsor"></div>
+				</div>
+			</h3>
+		</section>
+						</aside>
+			</div>
+			<!--end layout-two-col-->
+		</article>
+		<!-- end l-c -->
+
+</div>
+	<!--End role=main-->
+	</div>
+	<!-- End #page -->
+
+<!-- Begin Footer -->
+<footer class="footer" role="contentinfo">
+	<div class="layout-container">
+
+<ul id="menu-footer-social-media" class="footer-social"><li id="menu-item-94289" class="twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-94289"><a href="https://twitter.com/Grantland33" name="&amp;lpos=grantlandSocialNav&amp;lid=Twitter">Twitter</a></li>
+<li id="menu-item-94290" class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-94290"><a href="https://www.facebook.com/Grantland33" name="&amp;lpos=grantlandSocialNav&amp;lid=Facebook">Facebook</a></li>
+</ul>		<div class="btm-foot-links">
+			<ul id="menu-footer-site-navigation" class="nav-footer"><li id="menu-item-94329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94329"><a href="/features/" name="&amp;lpos=grantlandBottomNav&amp;lid=Features">Features</a></li>
+<li id="menu-item-94330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94330"><a href="/the-triangle/" name="&amp;lpos=grantlandBottomNav&amp;lid=The Triangle">The Triangle</a></li>
+<li id="menu-item-94331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94331"><a href="/hollywood-prospectus/" name="&amp;lpos=grantlandBottomNav&amp;lid=The Hollywood Prospectus">The Hollywood Prospectus</a></li>
+<li id="menu-item-94332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94332"><a href="/contributors/" name="&amp;lpos=grantlandBottomNav&amp;lid=Contributors">Contributors</a></li>
+<li id="menu-item-94333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94333"><a href="/podcasts/all/" name="&amp;lpos=grantlandBottomNav&amp;lid=Podcasts">Podcasts</a></li>
+<li id="menu-item-94334" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94334"><a target="_blank" href="https://grantland.com/tags/grantland-channel/" name="&amp;lpos=grantlandBottomNav&amp;lid=Video">Video</a></li>
+<li id="menu-item-126509" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126509"><a href="/quarterly/" name="&amp;lpos=grantlandBottomNav&amp;lid=Quarterly">Quarterly</a></li>
+<li id="menu-item-94335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94335"><a target="_blank" href="http://www.espn.com/" name="&amp;lpos=grantlandBottomNav&amp;lid=ESPN.com">ESPN.com</a></li>
+</ul>		</div>
+
+<p>
+			<a class="" href="https://disneytermsofuse.com/english/">Terms of Use</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/">Privacy Policy</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights/">Your US State Privacy Rights</a> | <a class="" href="https://disneyprivacycenter.com/kids-privacy-policy/english/">Children&#039;s Online Privacy Policy</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/privacy-controls/online-tracking-and-advertising/">Interest-Based Ads</a> | <a class="" href="http://www.nielsen.com/digitalprivacy">About Nielsen Measurement</a> | <a class="ot-cmp-link" href="https://privacy.thewaltdisneycompany.com/en/dnssmpi/">Do Not Sell My Personal Information</a> | <a class="" href="https://www.espn.com/espn/news/story?page=contact-index">Contact Us</a> | <a class="" href="https://disneyadsales.com/">Disney Ad Sales Site</a>		</p>
+		<p>
+			&copy; 2025 ESPN Enterprises, Inc. All rights reserved.		</p>
+		
+		<p>Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=grantland.com" rel="generator nofollow" class="powered-by-wpcom">WordPress VIP</a></p>
+	</div>
+</footer>
+
+<!-- End Footer -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/espn-grantland\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id))
+					return;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "https://connect.facebook.net/en_US/sdk.js#version=v2.6&xfbml=1&appId=135272579883594";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		<script type="text/javascript" id="espn-grantland-js-extra">
+/* <![CDATA[ */
+var grantlandData = {"postsPerPage":"10"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="thickbox-js-extra">
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/grantland.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grantland.com/_static/??-eJy1UlFSAjEMvZChoOwwfDhewEtk27BkbdO1adG9vYVBXBxxxBk+Om2avNe89Jm3AWyUTJJN3lIgNaSDQJdQskdxplezI3Exmf61UBpnITr0s8Ay6/XOTPCDLx2LGpctg8OMMCTeoR0NqlLWPRW62NIh6XGk9BtNxxsYahW0JecoE5JvmZ9ILmo5sl+FOQVTFIv1xdGhobxl+9LG99PhkqaS2XPmivpSs2NH8e/96ECW0atZrNdzhZj2txECdmxrhB62rDmm6dQJlaW7Hf/RGbmSKOfbvRNFbSK6dlL380UD0uLBNHGzOZv+mbeV6i6W/vEdUQi2RVwiByNhUsAUoN0farVlgp5LXVkLhICTFrhqJn2O6OjTYU/hcbFqVs398qFZ9h95vF1M" ></script><script type="text/javascript" id="jetpack-stats-js-before">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"147860030\",\"post\":\"240235\",\"tz\":\"-4\",\"srv\":\"grantland.com\",\"hp\":\"vip\",\"j\":\"1:14.9.1\"}") ]);
+_stq.push([ "clickTrackerInit", "147860030", "240235" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://stats.wp.com/e-202538.js" id="jetpack-stats-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="dtci-ads-js-extra">
+/* <![CDATA[ */
+var DTCIAdConfig = {"adSlotsToRefresh":["Banner","InContent","incontentTeads","incontentTeads2","incontentTeads3","NativeCard","Wallpaper"],"adUnitPath":"\/21783347309\/espn.grantland.us.com\/","placements":{"Banner":{"out-of-page":false,"sizes":[[1280,100],[970,250],[970,66],[728,90],[320,50],[300,50]],"defer":"none"},"InContent":{"out-of-page":false,"sizes":[[300,250]],"defer":"none"},"incontentTeads":{"out-of-page":false,"sizes":[1,3],"defer":"none"},"incontentTeads2":{"out-of-page":false,"sizes":[1,3],"defer":"none"},"incontentTeads3":{"out-of-page":false,"sizes":[1,3],"defer":"none"},"NativeCard":{"out-of-page":false,"sizes":"fluid","defer":"none"},"Wallpaper":{"out-of-page":false,"sizes":[[1680,1050],[1280,455]],"defer":"none"},"Overlay":{"out-of-page":true,"sizes":[],"defer":"none"}},"slots":{"Banner":[],"InContent":[],"incontentTeads":[],"incontentTeads2":[],"incontentTeads3":[],"NativeCard":[],"Wallpaper":[],"Overlay":[]},"mappings":{"Wallpaper":[[[1280,100],[[1680,1050]]],[[1024,100],[[1280,455]]],[[0,0],[]]],"Banner":[[[1280,100],[[1280,100],[970,250],[970,66],[728,90]]],[[1024,100],[[970,250],[970,66],[728,90]]],[[768,100],[[728,90]]],[[0,0],[320,50]]]},"targeting":{"sp":"grantland","objid":"240235","lang":"en","devType":"desktop"},"devType":"desktop","referringSite":null,"referralMap":{"facebook.com":"facebook","twitter.com":"twitter","t.co":"twitter","google.com":"google","bing.com":"bing","yahoo.com":"yahoo","www.espn.com":"espn","espn.com":"espn","instagram.com":"instagram","reddit.com":"reddit","bleacherreport.com":"bleacherreport","tumblr.com":"tumblr","t.umblr.com":"tumblr","pinterest.com":"pinterest","fivethirtyeight.com":"fivethirtyeight","grantland.com":"grantland","theundefeated.com":"theundefeated","andscape.com":"theundefeated"},"useOverlay":"1","refreshSimulatenously":"1","disableInitialLoad":"0","usePrebid":"1","country":null,"deviceType":"desktop","prebidScript":"https:\/\/grantland.com\/wp-content\/plugins\/dtci-ads\/assets\/js\/vendor\/prebid.min.js","prebidDebug":"","enableSendAllBids":"1","prebidTimeout":"1000","prebidPlacementIds":{"rubicon":{"desktop":{"zoneId":435334,"siteId":92444},"mobile":{"zoneId":435336,"siteId":92446},"accountId":13042},"aol":{"incontent":4938388,"banner":{"desktop":4938374,"mobile":4938403},"accountId":"11526.1"},"appnexus":{"incontent":{"US":13838929,"APAC":13838959,"BR":13838961,"CA":13838962,"EMEA":13838963,"IS":13838964,"LATAM":13838965,"ANZ":13838960},"banner":{"US":13401993,"APAC":13838952,"BR":13838954,"CA":13838955,"EMEA":13838956,"IS":13838957,"LATAM":13838958,"ANZ":13838953}},"trustx":{"incontent":9698,"banner":{"desktop":9700,"mobile":9699}},"pubmatic":{"incontent":"espn@300x250","banner":"espn@728x90","accountId":"33496","excludedCountries":["US"]}},"prebidSlots":[],"prebidExcludedCountries":["AL","AD","AM","AT","AZ","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FO","FI","FR","GE","DE","GI","GR","GL","HU","IS","IE","IT","XK","LV","LI","LT","LU","MK","MT","MD","MC","ME","NL","NO","PL","PT","RO","RU","SM","RS","SK","SI","ES","SJ","SE","CH","TR","UA","GB","VA"],"regionMap":{"AI":"LATAM","AG":"LATAM","AR":"LATAM","AW":"LATAM","BB":"LATAM","BZ":"LATAM","BM":"LATAM","BO":"LATAM","VG":"LATAM","BQ":"LATAM","KY":"LATAM","CL":"LATAM","CO":"LATAM","CR":"LATAM","CW":"LATAM","DM":"LATAM","DO":"LATAM","EC":"LATAM","SV":"LATAM","FK":"LATAM","GF":"LATAM","GD":"LATAM","GP":"LATAM","GT":"LATAM","GY":"LATAM","HT":"LATAM","HN":"LATAM","JM":"LATAM","MQ":"LATAM","MX":"LATAM","MS":"LATAM","NL":"LATAM","NI":"LATAM","PA":"LATAM","PY":"LATAM","PE":"LATAM","PR":"LATAM","KN":"LATAM","LC":"LATAM","VC":"LATAM","SX":"LATAM","SR":"LATAM","BS":"LATAM","TT":"LATAM","TC":"LATAM","VI":"LATAM","UY":"LATAM","VE":"LATAM","AS":"ANZ","AQ":"ANZ","AU":"ANZ","BV":"ANZ","CK":"ANZ","FM":"ANZ","FJ":"ANZ","PF":"ANZ","GU":"ANZ","KI":"ANZ","MH":"ANZ","NR":"ANZ","NC":"ANZ","NZ":"ANZ","NU":"ANZ","NF":"ANZ","MP":"ANZ","PW":"ANZ","PG":"ANZ","PN":"ANZ","WS":"ANZ","SB":"ANZ","TK":"ANZ","TO":"ANZ","TV":"ANZ","UM":"ANZ","VU":"ANZ","WF":"ANZ","AL":"EMEA","DZ":"EMEA","AD":"EMEA","AO":"EMEA","AM":"EMEA","AT":"EMEA","AZ":"EMEA","BH":"EMEA","BY":"EMEA","BE":"EMEA","BJ":"EMEA","BA":"EMEA","BW":"EMEA","BG":"EMEA","BF":"EMEA","BI":"EMEA","CM":"EMEA","CV":"EMEA","CF":"EMEA","TD":"EMEA","CX":"EMEA","CC":"EMEA","CI":"EMEA","HR":"EMEA","CY":"EMEA","CZ":"EMEA","CD":"EMEA","DK":"EMEA","DJ":"EMEA","EG":"EMEA","GQ":"EMEA","ER":"EMEA","EE":"EMEA","ET":"EMEA","FO":"EMEA","FI":"EMEA","FR":"EMEA","TF":"EMEA","GA":"EMEA","GE":"EMEA","DE":"EMEA","GH":"EMEA","GI":"EMEA","GR":"EMEA","GL":"EMEA","GG":"EMEA","GN":"EMEA","GW":"EMEA","HM":"EMEA","IL":"EMEA","IT":"EMEA","JE":"EMEA","JO":"EMEA","KE":"EMEA","XK":"EMEA","KW":"EMEA","LV":"EMEA","LB":"EMEA","LS":"EMEA","LR":"EMEA","LY":"EMEA","LI":"EMEA","LT":"EMEA","LU":"EMEA","MK":"EMEA","MG":"EMEA","MW":"EMEA","ML":"EMEA","MT":"EMEA","MR":"EMEA","MU":"EMEA","YT":"EMEA","MD":"EMEA","MC":"EMEA","ME":"EMEA","MA":"EMEA","MZ":"EMEA","NA":"EMEA","NE":"EMEA","NG":"EMEA","NO":"EMEA","OM":"EMEA","PS":"EMEA","PL":"EMEA","PT":"EMEA","QA":"EMEA","RE":"EMEA","RO":"EMEA","RU":"EMEA","RW":"EMEA","SH":"EMEA","PM":"EMEA","SM":"EMEA","ST":"EMEA","SA":"EMEA","SN":"EMEA","RS":"EMEA","SC":"EMEA","SL":"EMEA","SK":"EMEA","SI":"EMEA","SO":"EMEA","ZA":"EMEA","GS":"EMEA","ES":"EMEA","SJ":"EMEA","SZ":"EMEA","SE":"EMEA","CH":"EMEA","TZ":"EMEA","GM":"EMEA","TG":"EMEA","TN":"EMEA","TR":"EMEA","UG":"EMEA","UA":"EMEA","AE":"EMEA","GB":"EMEA","VA":"EMEA","EH":"EMEA","YE":"EMEA","ZM":"EMEA","ZW":"EMEA","AF":"IS","BD":"IS","BT":"IS","IO":"IS","IN":"IS","KZ":"IS","KG":"IS","MV":"IS","MM":"IS","NP":"IS","PK":"IS","LK":"IS","TJ":"IS","TM":"IS","UZ":"IS","KM":"IS","HU":"IS","IS":"IS","IQ":"IS","IE":"IS","BR":"BR","BN":"APAC","KH":"APAC","CN":"APAC","HK":"APAC","ID":"APAC","JP":"APAC","LA":"APAC","MO":"APAC","MY":"APAC","MN":"APAC","PH":"APAC","SG":"APAC","KR":"APAC","TW":"APAC","TH":"APAC","TL":"APAC","VN":"APAC","CA":"CA","US":"US","USA":"US"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grantland.com/wp-content/plugins/dtci-ads/assets/js/ads.min.js?m=1756387433g" ></script><script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js?ver=6.8.2#pubid=xa-529a42377760b420" id="addthis-js"></script>
+		<script type="text/javascript">
+		var orientation = (window.innerWidth >= window.innerHeight) ? 'landscape' : 'portrait';
+		orientation = window.orientation ? orientation : 'desktop';
+		var page = 'general';
+		var prefix = "&lpos=grantland:";
+		var site = "grantland";
+		var loadCount = 1;
+		var isTab = false;
+		var currentTab = null;
+
+(function($) {
+			if ( espn && espn.track ) {
+				espn.track.init = function () {
+
+var data = {
+    "omniture": {
+        "premium": "n",
+        "lang": "en_us",
+        "countryRegion": "en-us",
+        "userKey": "unknown:unknown:anonymous:insider-no:premium-no",
+        "insiderStatus": "anonymous:premium-no",
+        "eVar1": "DoNotSet",
+        "birthAge": "unknown",
+        "gender": "unknown",
+        "regType": "unknown",
+        "fantasyPersonalize": "has favorites:no-fantasy:no-notifications:no-docking:no-autostart:no",
+        "site": "grantland",
+        "pageName": "story:storyid=240235-2015 NBA Trade Value, Part 3: The Final Countdown:pg1",
+        "sections": "story",
+        "section": "story",
+        "account": "wdgespgrant",
+        "contentType": "story",
+        "events": "event3",
+        "srchKwd": "",
+        "srchTerm": "",
+        "srchNumResults": "",
+        "storyId": "240235-2015 NBA Trade Value, Part 3: The Final Countdown",
+        "columnist": "simmons_bill",
+        "espn3ContentType": "story",
+        "prop35": "2015-03-17"
+    },
+    "chartbeat": {
+        "domain": "grantland.com",
+        "path": "/features/2015-nba-trade-value-part-3-the-final-countdown/",
+        "sections": "grantland, features, features-singular, grantland-singular",
+        "authors": "stories, story",
+        "title": "2015 NBA Trade Value, Part 3: The Final Countdown",
+        "loadPubJS": false,
+        "loadVidJS": true
+    }
+};
+					data.omniture.loginStatus = jQuery( 'body' ).hasClass( 'logged-in' ) ? 'wp-logged-in' : 'wp-logged-out';
+					data.omniture.orientation = orientation;
+					data.omniture.deviceInfo = orientation;
+
+// Init Chartbeat
+					espn.track.initCB( data.chartbeat );
+
+// Global analytics properties used by video players
+					var anData = data.omniture;
+					if ( anData.account ) {
+						window.s_account = anData.account;
+					}
+
+if ( anData.site ) {
+						window.omniSite = anData.site;
+						if ( anData.pageName ) {
+							window.omniPageName = [anData.site, anData.pageName].join( ':' );
+						}
+					}
+
+// the expected value is ->  <section>:<show code>
+					var section = 'homepage';
+					var loc = location.pathname;
+					if ( loc !== '' ) {
+						if ( location.hash !== '' ) {
+							loc += location.hash.replace( /\#/, '' );
+						}
+						loc = loc.replace( / |^\/|\/$/g, '' ).replace( /\//g, ':' );
+						section = loc;
+					}
+					window.omniTrackingName = section;
+					espn.track.data = data;
+					anData.enableCB = false;
+					espn.track.trackPage( anData );
+				}
+
+espn.track.init();
+			}
+		})( jQuery );
+		</script>
+		</body>
+</html>

@@ -1,0 +1,280 @@
+# Content from https://web.archive.org/web/20240331024312/https://peerj.com/articles/8799/
+
+*Retrieved: 2025-09-15T12:42:11.294529*
+
+---
+
+<html><body><div><div class="body" lang="en">
+<section class="sec" id="background">
+<h2 class="heading">Background</h2>
+<p id="p-1">The human body is considered as holobiont, meaning an organism consisting of the host and all its associated microbiota (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-31" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FmBio.01395-15" title="Microbes drive evolution of animals and plants: the hologenome concept">Rosenberg &amp; Zilber-Rosenberg, 2016</a>), which consists of approximately 3.0 × 10<sup>13</sup> human cells and 3.8 × 10<sup>13</sup> bacterial cells (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-34" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1371%2Fjournal.pbio.1002533" title="Revised estimates for the number of human and bacteria cells in the body">Sender, Fuchs &amp; Milo, 2016</a>). Bacteria are transmitted to the host in two ways: horizontal transmission occurs between unrelated individuals by contact or by respiratory, oral or fecal spread. Vertical transmission occurs directly from parents to offspring, for example, via ovum, placenta, vagina, milk or saliva (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-38" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1111%2Fj.1600-051X.2005.00805.x" title="Transmission of periodontal bacteria and models of infection">Van Winkelhoff &amp; Boutaga, 2005</a>; <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-22" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1007%2Fs101560200005" title="Molecular epidemiological study of vertical transmission of vaginal Lactobacillus species from mothers to newborn infants in Japanese, by arbitrarily primed polymerase chain reaction">Matsumiya et al., 2002</a>). According to the holobiont theory, where humans are a combination of host and microbial cells, birth is more than just an origin of a new individual; it is an origin of a new community, that is, a new holobiont (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-14" href="https://web.archive.org/web/20240331024312/https://doi.org/10.3389%2Ffgene.2014.00282" title="A holobiont birth narrative: the epigenetic transmission of the human microbiome">Gilbert, 2014</a>).</p>
+<p id="p-2">The holobiont theory is supported by studies on meconium, the first stool of a mammalian infant, which is secreted during foetal time and shown to contain bacteria (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-15" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1111%2Fcea.12063" title="Meconium microbiota types dominated by lactic acid or enteric bacteria are differentially associated with maternal eczema and respiratory problems in infants">Gosalbes et al., 2013</a>). <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-16" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1016%2Fj.resmic.2007.12.007" title="Is meconium from healthy newborns actually sterile?">Jimenez et al. (2008)</a> showed in mice studies that labelled <i>Enterococcus faecium</i> was found in the pup’s meconium after an aseptic caesarean section in those pregnant mice whose diet contained the same bacteria. Infants acquire their mothers’ microbiota from multiple anatomic sites after birth. Previous studies have demonstrated a high degree of similarity of oral bacterial compositions between mothers and their children; the two may share as much as 94% of their oral bacterial spectra, including cariogenic species (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-21" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FJCM.00771-07" title="Similarity of bacterial populations in saliva from African–American mother-child dyads">Li et al., 2007</a>).</p>
+<p id="p-3">The oral cavity is a major gateway for bacteria to enter the human body and a natural route for passage to respiratory and gastrointestinal tracts. The oral cavity consists of a diverse and complex community containing hundreds of different bacterial species. Saliva is a good candidate to study human microbiota since the sampling is non-invasive and fast. Salivary microbiota can also be distinguished from other oral microbiomes, such as gingival or tongue microbiome (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-33" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1186%2Fgb-2012-13-6-r42" title="Composition of the adult digestive tract bacterial microbiome based on seven mouth surfaces, tonsils, throat and stool samples">Segata et al., 2012</a>). It contains approximately 700 different bacterial species (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-1" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FJCM.43.11.5721-5732.2005" title="Defining the normal bacterial flora of the oral cavity">Aas et al., 2005</a>) at an average density of 1.4 × 10<sup>8</sup> organisms per millilitre (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-20" href="https://web.archive.org/web/20240331024312/https://doi.org/10.5584%2Fjiomics.v1i1.43" title="The salivary microbiome assessed by a high-throughput and culture- independent approach">Lazarevic et al., 2011</a>). Due to the abundance of bacteria and its’ distinguished characteristics, it is easy to build up individual bacterial profiles. Moreover, the microbiome in the mouth is considered more stable than in the gastrointestinal tract and other microbial sites of the body (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-10" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1126%2Fscience.1177486" title="Bacterial community variation in human body habitats across space and time">Costello et al., 2009</a>). A longitudinal twin study showed that there is a core oral microbiome that does not change over time, but also that there is no difference between monozygotic and dizygotic twins, indicating that genetics do not affect oral microbiome composition (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-36" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1101%2Fgr.140608.112" title="Nurture trumps nature in a longitudinal survey of salivary bacterial communities in twins from early adolescence to early adulthood">Stahringer et al., 2012</a>). However, the similarity of the oral bacterial microbiome among adult family members has been reported (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-35" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FmBio.01237-17" title="The human salivary microbiome is shaped by shared environment rather than genetics: evidence from a large family of closely related individuals">Shaw et al., 2017</a>), but it is not known whether this bacterial microbiome profile characterizes families over generations.</p>
+<p id="p-4">Our aim was to do a feasibility study on the relatedness of oral microbiome by amplifying the 16S rRNA gene from salivary samples and to evaluate similarity of salivary bacterial profile between generations of parents and their children.</p>
+</section>
+<section class="sec" id="materials|methods">
+<h2 class="heading">Materials and Methods</h2>
+<section class="sec">
+<h3 class="heading">Study population</h3>
+<p id="p-5">The study subjects were a family of three generations including ten adults, and an unrelated family of two generations including four adults (<a class="xref xref-fig" data-jats-ref-type="fig" data-jats-rid="fig-1" href="#fig-1">Fig. 1</a>) (ethical approval by the Regional Ethics Committee of the Expert Responsibility area of Tampere University Hospital, reference number: R12217, and oral consent). Subjects were asked using a questionnaire about their general health, smoking habits and living conditions. Relatedness was based on a self-reported pedigree and not confirmed by DNA-testing since household sharing is the proposed main driver of salivary microbiome similarity. All adult children have shared household with their parents at least until the age of 18 years. Both families live in the same area in Southern Finland in an urban or suburban setting. All sampled subjects were used to study the entirety and total bacterial genera of oral microbiota using NGS.</p>
+<figure class="fig" id="fig-1" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<figcaption itemprop="description">
+<h4 class="heading">
+<span class="caption-label">Figure 1: </span>A pedigree of the population used in this study.</h4>
+<span class="p">Family 1 (subjects 1–10) is located on the left and family 2 (subjects 11–14) on the right. The squares denote males and circles females, sample numbers are marked inside and ages (y) below the circles/squares. Subject 11 was excluded for pathogenic bacteria dominance in sequencing results and subject 13 was excluded due to smoking. Therefore core Family 1 included subjects 1–10 and core family 2 included subjects 12 and 14.</span>
+</figcaption></figure>
+</section>
+<section class="sec">
+<h3 class="heading">Collection of saliva samples</h3>
+<p id="p-7">Unstimulated saliva samples were collected into sterile plastic vials (Sarstedt AG &amp; Co., Nümbrecht, Germany). Samples were stored at −20 °C and analysed within 18 h. The subjects were asked to not eat or drink for 2 h prior to sampling. Subject 13 was excluded due to being the only smoker, thus smoking is not a confounding factor in this study.</p>
+</section>
+<section class="sec">
+<h3 class="heading">DNA extraction and sequencing of the 16S rRNA gene</h3>
+<p id="p-8">DNA was extracted from a maximum volume of two ml saliva according to the PureLink microbiome DNA purification kit (Thermo Fisher Scientific, Waltham, MA, USA). All samples were amplified in triplicates using universal primers targeting the V3–V4 regions on 16S rRNA gene: the forward primer with adapter was 341F TCG TCG GCA GCG TCA GAT GTG TAT AAG AGA CAG CCT ACG GGA GGC AGC AG (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-24" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FAEM.59.3.695-700.1993" title="Profiling of complex microbial populations by denaturing gradient gel electrophoresis analysis of polymerase chain reaction-amplified genes coding for 16S rRNA">Muyzer, De Waal &amp; Uitterlinden, 1993</a>) and the reverse primer with adapter was R806 GTC TCG TGG GCT CGG AGA TGT GTA TAA GAG ACA GGG ACT ACH VGG GTW TCT AAT (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-8" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1073%2Fpnas.1000080107" title="Global patterns of 16S rRNA diversity at a depth of millions of sequences per sample">Caporaso et al., 2011</a>). The reaction mixture (25 µL) contained 2.5 µL genomic DNA, 2× KAPA HiFi HotStart ReadyMix (Kapa Biosystems, Wilmington, MA, USA), and 0.2 mM forward and 0.5 mM reverse primer. The PCR reaction conditions for amplification of DNA were as follows: Initial denaturation at 95 °C for 3 min, followed by 35 cycles of denaturation at 95 °C for 20 s, annealing beginning at 65 °C and ending at 55 °C for 15 s and extension at 72 °C for 30 s. The annealing temperature was lowered 1 °C every cycle until reaching 55 °C, which was used for the remaining cycles. Final elongation was for 5 min at 72 °C. Negative controls were included in triplicates during amplification. Magnetic bead purification (Beckman Coulter, Brea, CA, USA), second PCR, normalization and pooling were performed according to Illumina’s 16S metagenomic sequencing library preparation protocol (Illumina Ltd., San Diego, CA, USA). MiSeq<sup>®</sup> Reagent Kit v3 for 600 sequencing cycles (Illumina Ltd., San Diego, CA, USA) was used for MiSeq library with a final concentration of 4 pM and with 10% PhiX control. The DNA pool included a commercial <i>Streptococcus mitis</i> strain (ATCC<sup>®</sup> 49456™, LGC Standards, Teddington, Middlesex, UK) as mock community (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-29" href="https://web.archive.org/web/20240331024312/https://doi.org/10.7717%2Fpeerj.6316" title="Increased tooth brushing frequency is associated with reduced gingival pocket bacterial diversity in patients with intracranial aneurysms">Pyysalo et al., 2019</a>).</p>
+</section>
+<section class="sec">
+<h3 class="heading">Data analysis</h3>
+<p id="p-9">The analyses were performed with Quantitative insight to microbial ecology (QIIME) (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-7" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1038%2Fnmeth.f.303" title="QIIME allows analysis of high-throughput community sequencing data">Caporaso et al., 2010</a>) and Mothur software (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-32" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FAEM.01541-09" title="Introducing mothur: open-source, platform-independent, community-supported software for describing and comparing microbial communities">Schloss et al., 2009</a>). Low quality sequences were trimmed with minimum average PHRED quality score threshold of 20 (Q20) using Trimmomatic version 0.33 (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-5" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1093%2Fbioinformatics%2Fbtu170" title="Trimmomatic: a flexible trimmer for Illumina sequence data">Bolger, Lohse &amp; Usadel, 2014</a>). Sequences shorter than 200 nucleotide bases were dropped out. Chimeric sequences were identified using usearch61 (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-12" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1093%2Fbioinformatics%2Fbtq461" title="Search and clustering orders of magnitude faster than BLAST">Edgar, 2010</a>) method in de novo mode via identify_chimeric_seqs.py script in QIIME 1.9.1. Contaminants, that is, <i>Archaea, Eukarya</i>, mitochondrial and unknown sequences were filtered out with remove.lineage command in Mothur (version 1.38.1.). Taxonomies that were different among replicates were considered as bacterial contamination and were removed separately from each sample.</p>
+<p id="p-10">OTU picking was done with QIIME (version 1.9.1.) with UCLUST (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-12" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1093%2Fbioinformatics%2Fbtq461" title="Search and clustering orders of magnitude faster than BLAST">Edgar, 2010</a>) in de novo mode via the pick_otu.py script. Default parameters were used and clusters were generated with 97% similarity threshold but we focused our report to genus level based on assigned taxonomy to OTUs. Taxonomy assignment was done to the representative sequences for each of the OTUs via assign_taxonomy.py script against SILVA database (123 release) (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-28" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1093%2Fnar%2Fgkm864" title="SILVA: a comprehensive online resource for quality checked and aligned ribosomal RNA sequence data compatible with ARB">Pruesse et al., 2007</a>) as well as Human oral microbiome database (HOMD) (version 14.51) (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-9" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1093%2Fdatabase%2Fbaq013" title="The human oral microbiome database: a web accessible resource for investigating oral microbe taxonomic and genomic information">Chen et al., 2010</a>) using default parameter settings. Similarly, alignment of the representative sequences, filtration of the gaps present in all sequences in the alignment and building of a phylogenetic tree using the alignment were accomplished using the scripts in QIIME 1.9.1 software suite. Picked OTUs were converted to an OTU table in BIOM format for subsequent analysis using make_otu_table.py script. The OTU table was normalized using cumulative sum scaling (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-26" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1038%2Fnmeth.2658" title="Differential abundance analysis for microbial marker-gene surveys">Paulson et al., 2013</a>) via normalize_table.py script in QIIME 1.9.1.</p>
+<p id="p-11">Beta diversity was calculated using unweighted UniFrac method via beta_diversity.py script. Adonis test (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-3" href="https://web.archive.org/web/20240331024312/https://scholar.google.com/scholar_lookup?title=A%20new%20method%20for%20non-parametric%20multivariate%20analysis%20of%20variance&amp;author=Anderson&amp;publication_year=2001" title="A new method for non-parametric multivariate analysis of variance">Anderson, 2001</a>) was performed to assess the difference in bacterial community between the two families. Homogeneity of dispersion among groups and the validity of Adonis was tested using PERMDISP method (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-4" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1111%2Fj.1541-0420.2005.00440.x" title="Distance-based tests for homogeneity of multivariate dispersions">Anderson, 2006</a>) via compare_categories.py script in QIIME 1.9.1 software suite. Differential abundance analysis was done using DESeq2 method via differential_abundance.py script in QIIME 1.9.1. Two nuclear families from our cohort were chosen to investigate the difference in OTUs shared between mother or father with adult children using Venn diagrams in R. Significance of the overlaps were estimated with hypergeometric test. Nuclear family A consists of parents and three daughters (subjects 1, 2, 4, 5 and 6) and nuclear family B consists of parents, one son and one daughter (subjects 3, 4, 7 and 8) (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-2" href="#supp-2">Figs. S1</a>–<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-4" href="#supp-4">S3</a>). <a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-2" href="#supp-2">Figures S1</a> and <a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-3" href="#supp-3">S2</a> represent core A dataset. <a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-4" href="#supp-4">Figure S3</a> represent core B dataset. Two plots were generated for core A dataset because there are five groups in it and venn diagram can be clearly plotted with maximum of four groups.</p>
+</section>
+</section>
+<section class="sec" id="results">
+<h2 class="heading">Results</h2>
+<p id="p-12">The quality control rate, Q30%, for the run was 75.7%. The total number of sequences obtained in one single run from the analyzed samples was 5,293,569, the average number of reads per sample was 182,536, and the average Shannon species diversity was 2.997 (SD = 0.108). Family transmission study was conducted in Family 1 for subjects 1–8 because only core families with both father, mother and all adult children present can be used for family studies. Subjects 9 and 10 from family 1 were not used for transmission study because they had two different fathers and comparison could not be made. Family 2 was not used for transmission study due to lack of father. Moreover, even if dental health was not examined in detail before sampling, no subjects claimed oral disease except for subject 11. In case of this subject, the saliva sample was mixed with a significant amount of blood and sequencing results showed dominance in pathogenic, mostly periodontitis bacterial sequences. For this reason, we excluded subject 11.</p>
+<p id="p-13">Differential abundance analysis of SILVA based taxonomy yielded 69 oral taxa. The analysis was repeated with HOMD based taxonomy, which yielded 91 taxa. According to SILVA, the major phyla were <i>Firmicutes, Bacteroidetes, Proteobacteria, Fusobacteria</i> and <i>Actinobacteria</i> (38% of the total identified phyla). The most common genera were <i>Streptococcus</i> spp., <i>Veillonella</i> spp., <i>Prevotella</i> spp., <i>Neisseria</i> spp. and <i>Leptotrichia</i> spp. (3.7% of the total identified genera). The most significant abundances were observed in bacterial taxa like unclassified <i>Synergistaceae, Atopobium</i> spp., Human oral bacterium BD1-5, <i>Lactobacillus</i> spp. and <i>Butyrivibrio</i> spp. (<a class="xref xref-table" data-jats-ref-type="table" data-jats-rid="table-1" href="#table-1">Table 1</a>).</p>
+<figure class="table-wrap" id="table-1"><div class="caption">
+<span class="caption-label">Table 1.: </span>
+<p class="title">Five most abundant taxa and their differences compared between the two families and obtained with SILVA.</p>
+<span class="p">Stat is DESeq2 Wald statistics that represents difference in abundance of taxa between the compared families. The <i>p</i>-value (adjusted) represents the probability that the observed difference (Wald statistics) is observed even though there is no real difference (by chance).</span>
+</div>
+<div class="table-container"><table class="table table-bordered table-condensed table-hover table-text" data-jats-content-type="text">
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>Operational taxonomic unit</th>
+<th>
+<i>P</i><sub>adjusted</sub>
+</th>
+<th>Stat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<i>Synergistaceae</i> unclassified</td>
+<td>1.66 × 10<sup>−11</sup>
+</td>
+<td>−7.381</td>
+</tr>
+<tr>
+<td>
+<i>Atopobium</i> spp.</td>
+<td>6.28 × 10<sup>−9</sup>
+</td>
+<td>6.441</td>
+</tr>
+<tr>
+<td>Human oral bacteria BD1-5</td>
+<td>8.21 × 10<sup>−8</sup>
+</td>
+<td>−5.973</td>
+</tr>
+<tr>
+<td>
+<i>Lactobacillus</i> spp.</td>
+<td>1.84 × 10<sup>−7</sup>
+</td>
+<td>5.792</td>
+</tr>
+<tr>
+<td>
+<i>Butyrivibrio</i> spp.</td>
+<td>1.07 × 10<sup>−4</sup>
+</td>
+<td>−4.492</td>
+</tr>
+</tbody>
+</table></div>
+
+</figure>
+<section class="sec">
+<h3 class="heading">Differences in oral microbiome between and within families</h3>
+<p id="p-15">The <i>R</i><sup>2</sup> value obtained from Adonis test indicates that approximately 13% of the variances in the distances is explained by grouping based on families (<i>R</i><sup>2</sup> = 0.13; <i>p</i> = 0.001). Significant difference in dispersion was indicated between the two families by PERMDISP test (<i>F</i>-value = 9.17, <i>p</i> = 0.006).</p>
+<p id="p-16">Of the 69 oral taxa detected by Differential abundance analysis in SILVA based taxonomy, 29 were significantly different in two families (FDR &lt; 0.05, <a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-5" href="#supp-5">Table S1</a>). Of the 91 taxa detected with HOMD based taxonomy, 39 were found to be significantly different (FDR &lt; 0.05, <a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-6" href="#supp-6">Table S2</a>). Of all observed taxa, 22 were common to both databases. Major differences were observed in unclassified taxa (<i>n</i> = 6, <a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-5" href="#supp-5">Tables S1</a> and <a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-6" href="#supp-6">S2</a>).</p>
+<p id="p-17">Shared OTUs between parents and adult children were mapped in Venn diagrams (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-2" href="#supp-2">Figs. S1</a>–<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-4" href="#supp-4">S3</a>). Overlaps with hypergeometric <i>p</i>-value were analyzed, indicating adult children share more OTUs with mothers as compared to fathers but the difference in shared OTUs decreased over time with the child aging (<a class="xref xref-fig" data-jats-ref-type="fig" data-jats-rid="fig-2" href="#fig-2">Fig. 2</a>; <a class="xref xref-table" data-jats-ref-type="table" data-jats-rid="table-2" href="#table-2">Table 2</a>).</p>
+<figure class="fig" id="fig-2" itemprop="image" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+<figcaption itemprop="description">
+<h4 class="heading">
+<span class="caption-label">Figure 2: </span>Shared OTUs between parents and adult children according to <a class="xref xref-fig" data-jats-ref-type="fig" data-jats-rid="fig-1" href="#fig-1">Fig. 1</a>.</h4>
+</figcaption></figure>
+<figure class="table-wrap" id="table-2"><div class="caption">
+<span class="caption-label">Table 2: </span>
+<p class="title">The parent–child-pairs OTU overlap and hypergeometric <i>p</i>-value.</p>
+<span class="p">The samples with replicates were summarized by taking average (avg) of the replicates (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-2" href="#supp-2">Figs. S1</a>–<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-4" href="#supp-4">S3</a>). The change in sample name after summarizing is mapped to its original pedigree number.</span>
+</div>
+<div class="table-container"><table class="table table-bordered table-condensed table-hover table-text" data-jats-content-type="text">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th></th>
+<th>Pedigree number</th>
+<th>Age of child (y)</th>
+<th>Age of parent (y)</th>
+<th>Overlap (number of OTUs)</th>
+<th>Hypergeometric <i>p</i>-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="6">Nuclear family A</td>
+</tr>
+<tr>
+<td>CoreA_Mother–coreA_daughter1_avg (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-2" href="#supp-2">Fig. S1</a>)</td>
+<td>2<br>4</td>
+<td>51</td>
+<td>76</td>
+<td>54</td>
+<td>0.006811284</td>
+</tr>
+<tr>
+<td>CoreA_Mother–coreA_daughter2 (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-2" href="#supp-2">Fig. S1</a>)</td>
+<td>2<br>5</td>
+<td>50</td>
+<td>76</td>
+<td>39</td>
+<td>NS</td>
+</tr>
+<tr>
+<td>CoreA_Mother–coreA_daughter3 (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-3" href="#supp-3">Fig. S2</a>)</td>
+<td>2<br>6</td>
+<td>53</td>
+<td>76</td>
+<td>52</td>
+<td>4.593393e-05</td>
+</tr>
+<tr>
+<td>CoreA_father–coreA_daughter1_avg (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-2" href="#supp-2">Fig. S1</a>)</td>
+<td>1<br>4</td>
+<td>51</td>
+<td>82</td>
+<td>52</td>
+<td>3.138095e-05</td>
+</tr>
+<tr>
+<td>CoreA_father_avg–coreA_daughter2 (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-2" href="#supp-2">Fig. S1</a>)</td>
+<td>1<br>5</td>
+<td>50</td>
+<td>82</td>
+<td>37</td>
+<td>NS</td>
+</tr>
+<tr>
+<td>CoreA_father_avg–coreA_Daughter3_avg (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-3" href="#supp-3">Fig. S2</a>)</td>
+<td>1<br>6</td>
+<td>53</td>
+<td>82</td>
+<td>46</td>
+<td>0.0001144497</td>
+</tr>
+<tr>
+<td colspan="6">Nuclear family B</td>
+</tr>
+<tr>
+<td>CoreB_mother_avg–coreB_daughter_avg (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-4" href="#supp-4">Fig. S3</a>)</td>
+<td>4<br>7</td>
+<td>22</td>
+<td>51</td>
+<td>60</td>
+<td>2.649257e-06</td>
+</tr>
+<tr>
+<td>CoreB_mother_avg–coreB_Son (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-4" href="#supp-4">Fig. S3</a>)</td>
+<td>4<br>8</td>
+<td>20</td>
+<td>51</td>
+<td>62</td>
+<td>NS</td>
+</tr>
+<tr>
+<td>CoreB_father_avg–coreB_daughter_avg (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-4" href="#supp-4">Fig. S3</a>)</td>
+<td>3<br>7</td>
+<td>22</td>
+<td>54</td>
+<td>39</td>
+<td>0.0005486819</td>
+</tr>
+<tr>
+<td>CoreB_father_avg–coreB_Son (<a class="xref xref-supplementary-material" data-jats-ref-type="supplementary-material" data-jats-rid="supp-4" href="#supp-4">Fig. S3</a>)</td>
+<td>3<br>8</td>
+<td>20</td>
+<td>54</td>
+<td>42</td>
+<td>NS</td>
+</tr>
+</tbody>
+</table></div>
+
+</figure>
+</section>
+</section>
+<section class="sec" id="discussion">
+<h2 class="heading">Discussion</h2>
+<p id="p-19">Saliva is one of the most studied oral microbiomes in humans due to the ease of collection (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-6" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1093%2Ffemsec%2Ffiv091" title="The human salivary microbiome exhibits temporal stability in bacterial diversity">Cameron et al., 2015</a>). We investigated the entirety of salivary bacterial DNA profiles and whether and how families share these profiles and also compare these communities between grandparents and their first daughter generation (F1) using 16S rRNA gene amplicon sequencing. Our results indicate that adult family members share bacterial communities and adult children were more similar to mothers than fathers. The observed similarity in oral microbiome between parent–child pairs seemed to weaken over time.</p>
+<p id="p-20">We used next generation sequencing and two databases (SILVA, HOMD) to analyze the entirety and vertical transmission of bacterial community in saliva in two families. We used two databases for comparison to increase reliability of our results due to small sample size. In our cohort results were better seen and presented with SILVA (123 release), thus we chose to use this database for presenting results. Databases are constantly updated and for this reason new versions may give different results.</p>
+<p id="p-21">Of the two databases, SILVA is older, and for long considered as the gold standard. SILVA provides updated data sets of aligned small (16S/18S) and large subunit (23S/28S) sequences for all three domains of life (<i>Bacteria</i>, <i>Archaea</i> and <i>Eukarya)</i> (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-30" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1093%2Fnar%2Fgks1219" title="The SILVA ribosomal RNA gene database project: improved data processing and web-based tools">Quast et al., 2013</a>), whereas HOMD is a relatively new database, but has lately been used a lot in oral microbiome related articles (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-37" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1371%2Fjournal.pone.0169831" title="Oral microbiota in infants fed a formula supplemented with bovine milk fat globule membranes—a randomized controlled trial">Timby et al., 2017</a>; <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-40" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1371%2Fjournal.pone.0169877" title="Evaluating the impact of DNA extraction method on the representation of human oral bacterial and fungal communities">Vesty et al., 2017</a>; <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-2" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1038%2Fsrep43344" title="A randomised clinical study to determine the effect of a toothpaste containing enzymes and proteins on plaque oral microbiome ecology">Adams et al., 2017</a>). HOMD is a smaller database, since the human oral cavity only consists of approximately 700 species, whereof 400 are currently listed in HOMD. It is possible to go down to species level with this phylogeny-curated database (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-11" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FJB.00542-10" title="The human oral microbiome">Dewhirst et al., 2010</a>). The variety between results from databases can partly be explained by the biases for each database, where certain bacteria genera or phyla are often overrepresented, but also since assigning down to genera level from 16S rRNA gene sequences can hide micro-heterogeneity and thus falsify OTU results (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-27" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1371%2Fjournal.pone.0093827" title="Strengths and limitations of 16S rRNA gene amplicon sequencing in revealing temporal microbial community dynamics">Poretsky et al., 2014</a>). A set of universal primers was used for amplification of bacterial DNA, however, no primer pair is actually universal, and thus there is a possibility of DNA sequence dropout due to the primers, which are not amplifying all sequences.</p>
+<p id="p-22">The most significantly abundant taxa according to SILVA, <i>Synergistaceae</i> unclassified, was not recognized by HOMD. Among all significant taxa, 22 same taxa were observed in both databases, among the 10 most significantly abundant taxa <i>Peptostreptococcaceae, Megasphaera</i> spp., <i>Capnocytophaga</i> spp. and <i>Slackia</i> spp. were recognized in both databases. Overall, the taxa recognized by the databases were relatively similar, but their RFD-values were for the most part not consistent. According to SILVA, we found Firmicutes to be the most abundant phyla. Our results are in line with those by <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-35" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FmBio.01237-17" title="The human salivary microbiome is shaped by shared environment rather than genetics: evidence from a large family of closely related individuals">Shaw et al. (2017)</a> who established the same result with a significantly larger sample size and by using the database HOMD. Our results indicating Streptococcus, Veillonella, Prevotella and Neisseria being the most abundant genera. Similarily, <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-35" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FmBio.01237-17" title="The human salivary microbiome is shaped by shared environment rather than genetics: evidence from a large family of closely related individuals">Shaw et al. (2017)</a> found that the most abundant genera were Streptococcus, Rothia, Neisseria and Prevotella.</p>
+<p id="p-23">The main reason for similarity of microbiota between newborns and mothers is considered bacteria that relocate from the birth canal during labor and from breast milk in infancy (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-39" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1038%2Fnrgastro.2015.90" title="Novel players in coeliac disease pathogenesis: role of the gut microbiota">Verdu, Galipeau &amp; Jabri, 2015</a>). From the birth canal, the child obtains the mother’s vaginal and faecal bacteria (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-31" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FmBio.01395-15" title="Microbes drive evolution of animals and plants: the hologenome concept">Rosenberg &amp; Zilber-Rosenberg, 2016</a>) and bacteria from milk during breastfeeding (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-13" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1016%2Fj.phrs.2012.09.001" title="The human milk microbiota: origin and potential roles in health and disease">Fernandez et al., 2013</a>). It has been shown that the diversity of a new-born’s gut microbiome changes gradually over time, reflecting changes in diet (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-17" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1073%2Fpnas.1000081107" title="Succession of microbial consortia in the developing infant gut microbiome">Koenig et al., 2011</a>). The earliest colonizers in the child’s oral cavity depend on both surrounding microbes and antibodies inherited from the mother.</p>
+<p id="p-24">Thus, the greater similarity of maternal bacteria dates back to childhood and a close physical contact between mother and infant. In contrast, to our knowledge, the stability of bacterial transfer has not been studied in adulthood between adult mother and child pairs over generations or by comparing oral microbial profiles of the adult child to the father’s microbiome. Previous studies (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-21" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FJCM.00771-07" title="Similarity of bacterial populations in saliva from African–American mother-child dyads">Li et al., 2007</a>; <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-19" href="https://web.archive.org/web/20240331024312/https://doi.org/10.3109%2F07853890009011759" title="Development of oral bacterial flora in young children">Könönen, 2000</a>; <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-23" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FAEM.02037-15" title="Exploring vertical transmission of bifidobacteria from mother to child">Milani et al., 2015</a>) have focused on the development of the microbiome in children and adolescents, but not on the resemblance of the microbiome in adulthood and of three generations, as we have now done.</p>
+<p id="p-25">A study based on microbiome analysis of twin-pairs concluded that environmental factors provide the greatest influence on oral microbial composition (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-36" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1101%2Fgr.140608.112" title="Nurture trumps nature in a longitudinal survey of salivary bacterial communities in twins from early adolescence to early adulthood">Stahringer et al., 2012</a>; <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-35" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FmBio.01237-17" title="The human salivary microbiome is shaped by shared environment rather than genetics: evidence from a large family of closely related individuals">Shaw et al., 2017</a>). <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-18" href="https://web.archive.org/web/20240331024312/https://scholar.google.com/scholar_lookup?title=Shaping%20the%20oral%20microbiota%20through%20intimate%20kissing&amp;author=Kort&amp;publication_year=2014" title="Shaping the oral microbiota through intimate kissing">Kort et al. (2014)</a> however, showed that intimate kissing increases similarity between oral microbiomes of couples only temporarily, suggesting that an adult’s microbiota is stable. In our study, oral bacterial profile comparison between parents and younger adult children show a higher resemblance compared to elderly parents and their older adult children. Younger adult children, seven (22 years) and eight (20 years), still live with their parents, and this could partly explain the larger amount of shared OTUs. Older adult children four (51 years), five (50 years) and six (53 years) have lived in their own households for at least two decades.</p>
+<p id="p-26">It has been suggested that a large part of the oral microbiome is similar around the world (<a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-35" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1128%2FmBio.01237-17" title="The human salivary microbiome is shaped by shared environment rather than genetics: evidence from a large family of closely related individuals">Shaw et al., 2017</a>; <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-25" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1101%2Fgr.084616.108" title="Global diversity in the human salivary microbiome">Nasidze et al., 2009</a>). Our PERMDISP results suggest that there are certain differences between families, and those differences might be due to the difference in dispersion instead of center. Moreover, the Adonis result reporting 13% variance due to family ties and rest due to environmental bacteria in the mouth is consistent with studies by <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-18" href="https://web.archive.org/web/20240331024312/https://scholar.google.com/scholar_lookup?title=Shaping%20the%20oral%20microbiota%20through%20intimate%20kissing&amp;author=Kort&amp;publication_year=2014" title="Shaping the oral microbiota through intimate kissing">Kort et al. (2014)</a> and <a class="xref xref-bibr" data-jats-ref-type="bibr" data-jats-rid="ref-25" href="https://web.archive.org/web/20240331024312/https://doi.org/10.1101%2Fgr.084616.108" title="Global diversity in the human salivary microbiome">Nasidze et al. (2009)</a>.</p>
+<p id="p-27">The major weakness of this study is, however, the sample size. The small sample size interferes especially the heterogeneity calculated using PERMDISP and due the fact that we had only a few parents-adult children pairs to draw Venn diagrams and to calculate hypergeometric <i>p</i>-values. Thus, we conclude that larger cohorts are needed to confirm our preliminary results.</p>
+</section>
+<section class="sec" id="conclusions">
+<h2 class="heading">Conclusion</h2>
+<p id="p-28">In conclusion, our exploratory study making use of 16S rRNA amplicon sequencing followed by extensive data analysis suggests that even if mothers could be closer to their adult children compared to fathers in early adulthood, this similarity may change over time. Our study suggests that even though the oral cavity is very prone to inhabit environmental bacteria, the mother still has a role in her offspring’s oral microbiota in the adulthood. This research setting can serve as a foundation for further research with larger sample sizes and better defined families.</p>
+</section>
+<section class="sec" id="supplementary-material">
+<h2 class="heading">Supplemental Information</h2>
+<div class="supplementary-material well well-small" id="supp-1">
+<h3 class="heading">Raw data.</h3>
+<p id="p-29">Mothur scripts and analysis scripts</p>
+
+</div>
+<div class="supplementary-material well well-small" id="supp-2">
+<h3 class="heading">Venn diagram for Nuclear family A comprising five individuals. Two venn diagrams were plotted with maximum four groups in each for clarity.</h3>
+<p id="p-30">Venn diagram showing OTU overlaps between family members in Nuclear Family A for parents and daughters 1 and 2 (Subjects 1, 2, 4 and 5).</p>
+
+</div>
+<div class="supplementary-material well well-small" id="supp-3">
+<h3 class="heading">Venn diagram for Nuclear Family A comprising five individuals. Two venn diagrams were plotted with maximum four groups in each for clarity.</h3>
+<p id="p-31">Venn diagram showing OTU overlaps between family members in Nuclear Family A for parents and daughters 2 and 3 (Subjects 1, 2, 5 and 6).</p>
+
+</div>
+<div class="supplementary-material well well-small" id="supp-4">
+<h3 class="heading">Venn diagrams showing OTU overlaps between family members in Nuclear Family B (Subjects 3, 4, 7 and 8).</h3>
+
+</div>
+<div class="supplementary-material well well-small" id="supp-5">
+<h3 class="heading">Bacterial taxa with adjusted <i>P</i>-values obtained from SILVA. <i>P</i>-values are adjusted for multiple testing correction in order to reduce false positive results.</h3>
+<p id="p-32">Stat is DESeq2 Wald statistics that represents difference in abundance of taxa between the compared families. The <i>p</i>-value value (adjusted) represents the probability that the observed difference (Wald statistics) is observed even though there is no real difference (by chance).</p>
+
+</div>
+<div class="supplementary-material well well-small" id="supp-6">
+<h3 class="heading">Bacterial taxa with adjusted <i>P</i>-values obtained from Human Oral Microbiome Database (HOMD). <i>P</i>-values are adjusted for multiple testing correction in order to reduce false positive results.</h3>
+<p id="p-33">Stat is DESeq2 Wald statistics that represents difference in abundance of taxa between the compared families. The <i>p</i>-value value (adjusted) represents the probability that the observed difference (Wald statistics) is observed even though there is no real difference (by chance).</p>
+
+</div>
+</section>
+</div></div></body></html>

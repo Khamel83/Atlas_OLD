@@ -1,0 +1,2127 @@
+# Content from https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants
+
+*Retrieved: 2025-09-15T14:49:42.335971*
+
+---
+
+<!DOCTYPE html>
+<html id="structuredContentTemplate_1-0" class="comp structuredContentTemplate article-html html mntl-html no-js taxlevel-2 " data-mm-ads-resource-version="1.2.168" data-mm-video-resource-version="1.4.19" data-mm-myrecipes-resource-version="1.3.34" data-foodandwine-resource-version="2.191.0" data-mantle-resource-version="4.0.763" data-ab="99,99,99,99,99,99,99,99,99,99,99,99,99,55,99,99,99,58" data-mm-transactional-resource-version="1.15.19" data-mm-digital-issues-resource-version="1.18.9" lang="en" data-tracking-container="true" data-resource-version="2.191.0" data-ddm-standard-tracking="true" data-mm-recipes-resource-version="1.3.13"><!--
+<globe-environment environment="k8s-prod" application="foodandwine" dataCenter="us-west-1"/>
+-->
+<head class="loc head"><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants","20241225084146","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1735116106");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<link rel="preconnect" href="//web.archive.org/web/20241225084146/https://js-sec.indexww.com/">
+<link rel="preconnect" href="//web.archive.org/web/20241225084146/https://c.amazon-adsystem.com/">
+<link rel="preconnect" href="//web.archive.org/web/20241225084146/https://securepubads.g.doubleclick.net/">
+<link rel="dnsprefetch" href="//www.google-analytics.com">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="max-image-preview:large, NOODP, NOYDIR"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants"/>
+<title>A Beginner&#39;s Guide to Atlanta&#39;s Buford Highway</title>
+<meta name="description" content="Immigrants transformed a string of average suburbs into one of the South's most fascinating places. Here's how you can get to know Buford Highway better." itemprop="description">
+<meta name="parsely-section" content="Travel"/>
+<meta name="parsely-tags" content="Food &amp; Wine,United States,Travel"/>
+<!-- Pinterest Pins -->
+<meta itemprop="name" content="A Beginner's Guide to Atlanta's Buford Highway"/>
+<meta property="article:section" content="Food &amp; Wine"/>
+<!-- Facebook Open Graph Tags -->
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="Food &amp; Wine"/>
+<meta property="og:url" content="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants"/>
+<meta property="og:title" content="A Beginner's Guide to Atlanta's Buford Highway"/>
+<meta property="og:description" content="Immigrants transformed a string of average suburbs into one of the South's most fascinating places. Here's how you can get to know Buford Highway better."/>
+<meta property="og:image" content="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/9En_vD3CceZWyrMo7XXWQt4TM7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/atlanta-buford-highway-farmers-market-fish-FT-BLOG0119-4f1f66e9ee784805898026220112d7d1.jpg"/>
+<meta property="article:opinion" content="false"/>
+<meta property="article:author" content="https://www.facebook.com/foodandwine"/>
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@foodandwine"/>
+<meta name="twitter:title" content="A Beginner's Guide to Atlanta's Buford Highway"/>
+<meta name="twitter:description" content="Immigrants transformed a string of average suburbs into one of the South's most fascinating places. Here's how you can get to know Buford Highway better."/>
+<meta name="twitter:image" content="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/9En_vD3CceZWyrMo7XXWQt4TM7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/atlanta-buford-highway-farmers-market-fish-FT-BLOG0119-4f1f66e9ee784805898026220112d7d1.jpg"/>
+<link rel="alternate" type="application/rss+xml" href="http://web.archive.org/web/20241225084146/https://feeds-api.dotdashmeredith.com/v1/rss/google/fdd0cc60-6e85-462a-a071-58da5a17711f">
+<link type="text/css" rel="stylesheet" data-glb-css="top" href="/web/20241225084146cs_/https://www.foodandwine.com/static/2.191.0/cache/eNqtVt2aoyAMfaHl8yHmdl8iQtRs-ekCttO334C06tRh6MxeqCScE0IIMV2IEEl2BmzU2MkQuqTBX93zBBkYUZw1SJycVuiPQAY9KQLbkVX4_kDkKSD7RHHm7CzaGLreg1WMuvn0iLuhleHUrDFsKR5IiwspdHmBPKrhewhlj1KACqt3K4TV3Xbq2c8rqRH5OyGNU3ybwI74m0JEi_5QWbE1ateDZhaoTIZtVFtxbWaFSFEdnFMVooULjTznbDdH0hRvglXb8Y_ITT4Mzhs-IQQvJ5GE7bjCMxhCStAebDqJvdjmdolU8nodtlGHWesgPaLN9L34H0zk0LXZCU4S6Gwj5_pDPMqsY16dk-6IzvHpHXjVdOMGje_Ua-R7V8NvzGba4TKf5TsnVuSTXz6Va3SMq59Nxi7n8hi-RNVkT2EntNGViwrCJGZLF_ShHNChtmKQK6l2Y_lUQmNMyjOUdMYgyLKvIVKk2kxtG3gNGmPacXHgSVPx5RX289rgWV9-SmV8mMsFlooS_3-uZDlFP8A_N16-olTavVjL89cMfH_lWmb1nsHSz6YP27HgouO0PlD9yOz3o2kwwk6oNRE3vlop1OExrkXxDn8BCnOcnBfROR3pXNtVjJ76OcVkJwiKaBr6i7JC17DSzqUl41u9vK9WKn6YwJdGjpFiq_2OkbU8HVr6ykTj8hzXmIL8cPvsuUCJRV27hblhFH-u3NPeuKb03oHq9mI7_UGseBqin2WcPSohHddQG5euenlXiAsqbXCk4Sh-BrkiFhhv34C_ib3RT8ADjeyPkHBOyfma71M0Or8acuN-gQdE1YM8bXLj41S15U_9tUiNf47GKtZI4e98z0j-acnTTSyaVs6XYMsTlwW8DGtxRJnrZPqXeimOxQpfci_EDUSI6-gLdH79AxveXGw.min.css"></link>
+<style type="text/css">
+#onetrust-banner-sdk .onetrust-vendors-list-handler{cursor:pointer;color:#1f96db;font-size:inherit;font-weight:bold;text-decoration:none;margin-left:5px}#onetrust-banner-sdk .onetrust-vendors-list-handler:hover{color:#1f96db}#onetrust-banner-sdk:focus{outline:2px solid #000;outline-offset:-2px}#onetrust-banner-sdk a:focus{outline:2px solid #000}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{outline-offset:1px}#onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo{height:64px;width:64px}#onetrust-banner-sdk .ot-tcf2-vendor-count.ot-text-bold{font-weight:bold}#onetrust-banner-sdk .ot-close-icon,#onetrust-pc-sdk .ot-close-icon,#ot-sync-ntfy .ot-close-icon{background-size:contain;background-repeat:no-repeat;background-position:center;height:12px;width:12px}#onetrust-banner-sdk .powered-by-logo,#onetrust-banner-sdk .ot-pc-footer-logo a,#onetrust-pc-sdk .powered-by-logo,#onetrust-pc-sdk .ot-pc-footer-logo a,#ot-sync-ntfy .powered-by-logo,#ot-sync-ntfy .ot-pc-footer-logo a{background-size:contain;background-repeat:no-repeat;background-position:center;height:25px;width:152px;display:block;text-decoration:none;font-size:.75em}#onetrust-banner-sdk .powered-by-logo:hover,#onetrust-banner-sdk .ot-pc-footer-logo a:hover,#onetrust-pc-sdk .powered-by-logo:hover,#onetrust-pc-sdk .ot-pc-footer-logo a:hover,#ot-sync-ntfy .powered-by-logo:hover,#ot-sync-ntfy .ot-pc-footer-logo a:hover{color:#565656}#onetrust-banner-sdk h3 *,#onetrust-banner-sdk h4 *,#onetrust-banner-sdk h6 *,#onetrust-banner-sdk button *,#onetrust-banner-sdk a[data-parent-id] *,#onetrust-pc-sdk h3 *,#onetrust-pc-sdk h4 *,#onetrust-pc-sdk h6 *,#onetrust-pc-sdk button *,#onetrust-pc-sdk a[data-parent-id] *,#ot-sync-ntfy h3 *,#ot-sync-ntfy h4 *,#ot-sync-ntfy h6 *,#ot-sync-ntfy button *,#ot-sync-ntfy a[data-parent-id] *{font-size:inherit;font-weight:inherit;color:inherit}#onetrust-banner-sdk .ot-hide,#onetrust-pc-sdk .ot-hide,#ot-sync-ntfy .ot-hide{display:none !important}#onetrust-banner-sdk button.ot-link-btn:hover,#onetrust-pc-sdk button.ot-link-btn:hover,#ot-sync-ntfy button.ot-link-btn:hover{text-decoration:underline;opacity:1}#onetrust-pc-sdk .ot-sdk-row .ot-sdk-column{padding:0}#onetrust-pc-sdk .ot-sdk-container{padding-right:0}#onetrust-pc-sdk .ot-sdk-row{flex-direction:initial;width:100%}#onetrust-pc-sdk [type=checkbox]:checked,#onetrust-pc-sdk [type=checkbox]:not(:checked){pointer-events:initial}#onetrust-pc-sdk [type=checkbox]:disabled+label::before,#onetrust-pc-sdk [type=checkbox]:disabled+label:after,#onetrust-pc-sdk [type=checkbox]:disabled+label{pointer-events:none;opacity:.7}#onetrust-pc-sdk #vendor-list-content{transform:translate3d(0, 0, 0)}#onetrust-pc-sdk li input[type=checkbox]{z-index:1}#onetrust-pc-sdk li .ot-checkbox label{z-index:2}#onetrust-pc-sdk li .ot-checkbox input[type=checkbox]{height:auto;width:auto}#onetrust-pc-sdk li .host-title a,#onetrust-pc-sdk li .ot-host-name a,#onetrust-pc-sdk li .accordion-text,#onetrust-pc-sdk li .ot-acc-txt{z-index:2;position:relative}#onetrust-pc-sdk input{margin:3px .1ex}#onetrust-pc-sdk .pc-logo,#onetrust-pc-sdk .ot-pc-logo{height:60px;width:180px;background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-flex;justify-content:center;align-items:center}#onetrust-pc-sdk .pc-logo img,#onetrust-pc-sdk .ot-pc-logo img{max-height:100%;max-width:100%}#onetrust-pc-sdk .screen-reader-only,#onetrust-pc-sdk .ot-scrn-rdr,.ot-sdk-cookie-policy .screen-reader-only,.ot-sdk-cookie-policy .ot-scrn-rdr{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}#onetrust-pc-sdk.ot-fade-in,.onetrust-pc-dark-filter.ot-fade-in,#onetrust-banner-sdk.ot-fade-in{animation-name:onetrust-fade-in;animation-duration:400ms;animation-timing-function:ease-in-out}#onetrust-pc-sdk.ot-hide{display:none !important}.onetrust-pc-dark-filter.ot-hide{display:none !important}#ot-sdk-btn.ot-sdk-show-settings,#ot-sdk-btn.optanon-show-settings{color:#68b631;border:1px solid #68b631;height:auto;white-space:normal;word-wrap:break-word;padding:.8em 2em;font-size:.8em;line-height:1.2;cursor:pointer;-moz-transition:.1s ease;-o-transition:.1s ease;-webkit-transition:1s ease;transition:.1s ease}#ot-sdk-btn.ot-sdk-show-settings:hover,#ot-sdk-btn.optanon-show-settings:hover{color:#fff;background-color:#68b631}.onetrust-pc-dark-filter{background:rgba(0,0,0,.5);z-index:2147483646;width:100%;height:100%;overflow:hidden;position:fixed;top:0;bottom:0;left:0}@keyframes onetrust-fade-in{0%{opacity:0}100%{opacity:1}}.ot-cookie-label{text-decoration:underline}@media only screen and (min-width: 426px)and (max-width: 896px)and (orientation: landscape){#onetrust-pc-sdk p{font-size:.75em}}#onetrust-banner-sdk .banner-option-input:focus+label{outline:1px solid #000;outline-style:auto}.category-vendors-list-handler+a:focus,.category-vendors-list-handler+a:focus-visible{outline:2px solid #000}#onetrust-pc-sdk .ot-userid-title{margin-top:10px}#onetrust-pc-sdk .ot-userid-title>span,#onetrust-pc-sdk .ot-userid-timestamp>span{font-weight:700}#onetrust-pc-sdk .ot-userid-desc{font-style:italic}#onetrust-pc-sdk .ot-host-desc a{pointer-events:initial}#onetrust-pc-sdk .ot-ven-hdr>p a{position:relative;z-index:2;pointer-events:initial}#onetrust-pc-sdk .ot-vnd-serv .ot-vnd-item .ot-vnd-info a,#onetrust-pc-sdk .ot-vs-list .ot-vnd-item .ot-vnd-info a{margin-right:auto}#onetrust-pc-sdk .ot-pc-footer-logo img{width:136px;height:16px}#onetrust-pc-sdk .ot-pur-vdr-count{font-weight:400;font-size:.7rem;padding-top:3px;display:block}#onetrust-banner-sdk .ot-optout-signal,#onetrust-pc-sdk .ot-optout-signal{border:1px solid #32ae88;border-radius:3px;padding:5px;margin-bottom:10px;background-color:#f9fffa;font-size:.85rem;line-height:2}#onetrust-banner-sdk .ot-optout-signal .ot-optout-icon,#onetrust-pc-sdk .ot-optout-signal .ot-optout-icon{display:inline;margin-right:5px}#onetrust-banner-sdk .ot-optout-signal svg,#onetrust-pc-sdk .ot-optout-signal svg{height:20px;width:30px;transform:scale(0.5)}#onetrust-banner-sdk .ot-optout-signal svg path,#onetrust-pc-sdk .ot-optout-signal svg path{fill:#32ae88}#onetrust-consent-sdk .ot-general-modal{overflow:hidden;position:fixed;margin:0 auto;top:50%;left:50%;width:40%;padding:1.5rem;max-width:575px;min-width:575px;z-index:2147483647;border-radius:2.5px;transform:translate(-50%, -50%)}#onetrust-consent-sdk .ot-signature-health-group{margin-top:1rem;padding-left:1.25rem;padding-right:1.25rem;margin-bottom:.625rem;width:calc(100% - 2.5rem)}#onetrust-consent-sdk .ot-signature-health-group .ot-signature-health-form{gap:.5rem}#onetrust-consent-sdk .ot-signature-health .ot-signature-health-form{width:70%;gap:.35rem}#onetrust-consent-sdk .ot-signature-health .ot-signature-input{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #d1d1d1;border-radius:4px;box-shadow:none;box-sizing:border-box}#onetrust-consent-sdk .ot-signature-health .ot-signature-subtitle{font-size:1.125rem}#onetrust-consent-sdk .ot-signature-health .ot-signature-group-title{font-size:1.25rem;font-weight:bold}#onetrust-consent-sdk .ot-signature-health,#onetrust-consent-sdk .ot-signature-health-group{display:flex;flex-direction:column;gap:1rem}#onetrust-consent-sdk .ot-signature-health .ot-signature-cont,#onetrust-consent-sdk .ot-signature-health-group .ot-signature-cont{display:flex;flex-direction:column;gap:.25rem}#onetrust-consent-sdk .ot-signature-health .ot-signature-paragraph,#onetrust-consent-sdk .ot-signature-health-group .ot-signature-paragraph{margin:0;line-height:20px;font-size:max(14px,.875rem)}#onetrust-consent-sdk .ot-signature-health .ot-health-signature-error,#onetrust-consent-sdk .ot-signature-health-group .ot-health-signature-error{color:#4d4d4d;font-size:min(12px,.75rem)}#onetrust-consent-sdk .ot-signature-health .ot-signature-buttons-cont,#onetrust-consent-sdk .ot-signature-health-group .ot-signature-buttons-cont{margin-top:max(.75rem,2%);gap:1rem;display:flex;justify-content:flex-end}#onetrust-consent-sdk .ot-signature-health .ot-signature-button,#onetrust-consent-sdk .ot-signature-health-group .ot-signature-button{flex:1;height:auto;color:#fff;cursor:pointer;line-height:1.2;min-width:125px;font-weight:600;font-size:.813em;border-radius:2px;padding:12px 10px;white-space:normal;word-wrap:break-word;word-break:break-word;background-color:#68b631;border:2px solid #68b631}#onetrust-consent-sdk .ot-signature-health .ot-signature-button.reject,#onetrust-consent-sdk .ot-signature-health-group .ot-signature-button.reject{background-color:#fff}#onetrust-consent-sdk .ot-input-field-cont{display:flex;flex-direction:column;gap:.5rem}#onetrust-consent-sdk .ot-input-field-cont .ot-signature-input{width:65%}#onetrust-consent-sdk .ot-signature-health-form{display:flex;flex-direction:column}#onetrust-consent-sdk .ot-signature-health-form .ot-signature-label{margin-bottom:0;line-height:20px;font-size:max(14px,.875rem)}@media only screen and (max-width: 600px){#onetrust-consent-sdk .ot-general-modal{min-width:100%}#onetrust-consent-sdk .ot-signature-health .ot-signature-health-form{width:100%}#onetrust-consent-sdk .ot-input-field-cont .ot-signature-input{width:100%}}#onetrust-banner-sdk,#onetrust-pc-sdk,#ot-sdk-cookie-policy,#ot-sync-ntfy{font-size:16px}#onetrust-banner-sdk *,#onetrust-banner-sdk ::after,#onetrust-banner-sdk ::before,#onetrust-pc-sdk *,#onetrust-pc-sdk ::after,#onetrust-pc-sdk ::before,#ot-sdk-cookie-policy *,#ot-sdk-cookie-policy ::after,#ot-sdk-cookie-policy ::before,#ot-sync-ntfy *,#ot-sync-ntfy ::after,#ot-sync-ntfy ::before{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}#onetrust-banner-sdk div,#onetrust-banner-sdk span,#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-banner-sdk p,#onetrust-banner-sdk img,#onetrust-banner-sdk svg,#onetrust-banner-sdk button,#onetrust-banner-sdk section,#onetrust-banner-sdk a,#onetrust-banner-sdk label,#onetrust-banner-sdk input,#onetrust-banner-sdk ul,#onetrust-banner-sdk li,#onetrust-banner-sdk nav,#onetrust-banner-sdk table,#onetrust-banner-sdk thead,#onetrust-banner-sdk tr,#onetrust-banner-sdk td,#onetrust-banner-sdk tbody,#onetrust-banner-sdk .ot-main-content,#onetrust-banner-sdk .ot-toggle,#onetrust-banner-sdk #ot-content,#onetrust-banner-sdk #ot-pc-content,#onetrust-banner-sdk .checkbox,#onetrust-pc-sdk div,#onetrust-pc-sdk span,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#onetrust-pc-sdk p,#onetrust-pc-sdk img,#onetrust-pc-sdk svg,#onetrust-pc-sdk button,#onetrust-pc-sdk section,#onetrust-pc-sdk a,#onetrust-pc-sdk label,#onetrust-pc-sdk input,#onetrust-pc-sdk ul,#onetrust-pc-sdk li,#onetrust-pc-sdk nav,#onetrust-pc-sdk table,#onetrust-pc-sdk thead,#onetrust-pc-sdk tr,#onetrust-pc-sdk td,#onetrust-pc-sdk tbody,#onetrust-pc-sdk .ot-main-content,#onetrust-pc-sdk .ot-toggle,#onetrust-pc-sdk #ot-content,#onetrust-pc-sdk #ot-pc-content,#onetrust-pc-sdk .checkbox,#ot-sdk-cookie-policy div,#ot-sdk-cookie-policy span,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6,#ot-sdk-cookie-policy p,#ot-sdk-cookie-policy img,#ot-sdk-cookie-policy svg,#ot-sdk-cookie-policy button,#ot-sdk-cookie-policy section,#ot-sdk-cookie-policy a,#ot-sdk-cookie-policy label,#ot-sdk-cookie-policy input,#ot-sdk-cookie-policy ul,#ot-sdk-cookie-policy li,#ot-sdk-cookie-policy nav,#ot-sdk-cookie-policy table,#ot-sdk-cookie-policy thead,#ot-sdk-cookie-policy tr,#ot-sdk-cookie-policy td,#ot-sdk-cookie-policy tbody,#ot-sdk-cookie-policy .ot-main-content,#ot-sdk-cookie-policy .ot-toggle,#ot-sdk-cookie-policy #ot-content,#ot-sdk-cookie-policy #ot-pc-content,#ot-sdk-cookie-policy .checkbox,#ot-sync-ntfy div,#ot-sync-ntfy span,#ot-sync-ntfy h1,#ot-sync-ntfy h2,#ot-sync-ntfy h3,#ot-sync-ntfy h4,#ot-sync-ntfy h5,#ot-sync-ntfy h6,#ot-sync-ntfy p,#ot-sync-ntfy img,#ot-sync-ntfy svg,#ot-sync-ntfy button,#ot-sync-ntfy section,#ot-sync-ntfy a,#ot-sync-ntfy label,#ot-sync-ntfy input,#ot-sync-ntfy ul,#ot-sync-ntfy li,#ot-sync-ntfy nav,#ot-sync-ntfy table,#ot-sync-ntfy thead,#ot-sync-ntfy tr,#ot-sync-ntfy td,#ot-sync-ntfy tbody,#ot-sync-ntfy .ot-main-content,#ot-sync-ntfy .ot-toggle,#ot-sync-ntfy #ot-content,#ot-sync-ntfy #ot-pc-content,#ot-sync-ntfy .checkbox{font-family:inherit;font-weight:normal;-webkit-font-smoothing:auto;letter-spacing:normal;line-height:normal;padding:0;margin:0;height:auto;min-height:0;max-height:none;width:auto;min-width:0;max-width:none;border-radius:0;border:none;clear:none;float:none;position:static;bottom:auto;left:auto;right:auto;top:auto;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;white-space:normal;background:none;overflow:visible;vertical-align:baseline;visibility:visible;z-index:auto;box-shadow:none}#onetrust-banner-sdk label:before,#onetrust-banner-sdk label:after,#onetrust-banner-sdk .checkbox:after,#onetrust-banner-sdk .checkbox:before,#onetrust-pc-sdk label:before,#onetrust-pc-sdk label:after,#onetrust-pc-sdk .checkbox:after,#onetrust-pc-sdk .checkbox:before,#ot-sdk-cookie-policy label:before,#ot-sdk-cookie-policy label:after,#ot-sdk-cookie-policy .checkbox:after,#ot-sdk-cookie-policy .checkbox:before,#ot-sync-ntfy label:before,#ot-sync-ntfy label:after,#ot-sync-ntfy .checkbox:after,#ot-sync-ntfy .checkbox:before{content:"";content:none}#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{position:relative;width:100%;max-width:100%;margin:0 auto;padding:0 20px;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{width:100%;float:left;box-sizing:border-box;padding:0;display:initial}@media(min-width: 400px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:90%;padding:0}}@media(min-width: 550px){#onetrust-banner-sdk .ot-sdk-container,#onetrust-pc-sdk .ot-sdk-container,#ot-sdk-cookie-policy .ot-sdk-container{width:100%}#onetrust-banner-sdk .ot-sdk-column,#onetrust-banner-sdk .ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-column,#onetrust-pc-sdk .ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-column,#ot-sdk-cookie-policy .ot-sdk-columns{margin-left:4%}#onetrust-banner-sdk .ot-sdk-column:first-child,#onetrust-banner-sdk .ot-sdk-columns:first-child,#onetrust-pc-sdk .ot-sdk-column:first-child,#onetrust-pc-sdk .ot-sdk-columns:first-child,#ot-sdk-cookie-policy .ot-sdk-column:first-child,#ot-sdk-cookie-policy .ot-sdk-columns:first-child{margin-left:0}#onetrust-banner-sdk .ot-sdk-two.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-two.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-two.ot-sdk-columns{width:13.3333333333%}#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-three.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-three.ot-sdk-columns{width:22%}#onetrust-banner-sdk .ot-sdk-four.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-four.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-four.ot-sdk-columns{width:30.6666666667%}#onetrust-banner-sdk .ot-sdk-eight.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eight.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eight.ot-sdk-columns{width:65.3333333333%}#onetrust-banner-sdk .ot-sdk-nine.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-nine.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-nine.ot-sdk-columns{width:74%}#onetrust-banner-sdk .ot-sdk-ten.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-ten.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-ten.ot-sdk-columns{width:82.6666666667%}#onetrust-banner-sdk .ot-sdk-eleven.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-eleven.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-eleven.ot-sdk-columns{width:91.3333333333%}#onetrust-banner-sdk .ot-sdk-twelve.ot-sdk-columns,#onetrust-pc-sdk .ot-sdk-twelve.ot-sdk-columns,#ot-sdk-cookie-policy .ot-sdk-twelve.ot-sdk-columns{width:100%;margin-left:0}}#onetrust-banner-sdk h1,#onetrust-banner-sdk h2,#onetrust-banner-sdk h3,#onetrust-banner-sdk h4,#onetrust-banner-sdk h5,#onetrust-banner-sdk h6,#onetrust-pc-sdk h1,#onetrust-pc-sdk h2,#onetrust-pc-sdk h3,#onetrust-pc-sdk h4,#onetrust-pc-sdk h5,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h1,#ot-sdk-cookie-policy h2,#ot-sdk-cookie-policy h3,#ot-sdk-cookie-policy h4,#ot-sdk-cookie-policy h5,#ot-sdk-cookie-policy h6{margin-top:0;font-weight:600;font-family:inherit}#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem;line-height:1.2}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem;line-height:1.25}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem;line-height:1.3}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem;line-height:1.35}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem;line-height:1.5}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem;line-height:1.6}@media(min-width: 550px){#onetrust-banner-sdk h1,#onetrust-pc-sdk h1,#ot-sdk-cookie-policy h1{font-size:1.5rem}#onetrust-banner-sdk h2,#onetrust-pc-sdk h2,#ot-sdk-cookie-policy h2{font-size:1.5rem}#onetrust-banner-sdk h3,#onetrust-pc-sdk h3,#ot-sdk-cookie-policy h3{font-size:1.5rem}#onetrust-banner-sdk h4,#onetrust-pc-sdk h4,#ot-sdk-cookie-policy h4{font-size:1.5rem}#onetrust-banner-sdk h5,#onetrust-pc-sdk h5,#ot-sdk-cookie-policy h5{font-size:1.5rem}#onetrust-banner-sdk h6,#onetrust-pc-sdk h6,#ot-sdk-cookie-policy h6{font-size:1.5rem}}#onetrust-banner-sdk p,#onetrust-pc-sdk p,#ot-sdk-cookie-policy p{margin:0 0 1em 0;font-family:inherit;line-height:normal}#onetrust-banner-sdk a,#onetrust-pc-sdk a,#ot-sdk-cookie-policy a{color:#565656;text-decoration:underline}#onetrust-banner-sdk a:hover,#onetrust-pc-sdk a:hover,#ot-sdk-cookie-policy a:hover{color:#565656;text-decoration:none}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-button,#onetrust-banner-sdk button,#onetrust-pc-sdk .ot-sdk-button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy .ot-sdk-button,#ot-sdk-cookie-policy button{display:inline-block;height:38px;padding:0 30px;color:#555;text-align:center;font-size:.9em;font-weight:400;line-height:38px;letter-spacing:.01em;text-decoration:none;white-space:nowrap;background-color:rgba(0,0,0,0);border-radius:2px;border:1px solid #bbb;cursor:pointer;box-sizing:border-box}#onetrust-banner-sdk .ot-sdk-button:hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus,#onetrust-pc-sdk .ot-sdk-button:hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus,#ot-sdk-cookie-policy .ot-sdk-button:hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:not(.ot-link-btn):hover,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:not(.ot-link-btn):focus{color:#333;border-color:#888;opacity:.7}#onetrust-banner-sdk .ot-sdk-button:focus,#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus,#onetrust-pc-sdk .ot-sdk-button:focus,#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus,#ot-sdk-cookie-policy .ot-sdk-button:focus,#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus{outline:2px solid #000}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-banner-sdk button.ot-sdk-button-primary,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary,#onetrust-pc-sdk button.ot-sdk-button-primary,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary,#ot-sdk-cookie-policy button.ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary{color:#fff;background-color:#33c3f0;border-color:#33c3f0}#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-banner-sdk button.ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:hover,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:hover,#onetrust-banner-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-banner-sdk button.ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=submit].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=reset].ot-sdk-button-primary:focus,#onetrust-banner-sdk input[type=button].ot-sdk-button-primary:focus,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:hover,#onetrust-pc-sdk button.ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:hover,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:hover,#onetrust-pc-sdk .ot-sdk-button.ot-sdk-button-primary:focus,#onetrust-pc-sdk button.ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=submit].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=reset].ot-sdk-button-primary:focus,#onetrust-pc-sdk input[type=button].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy button.ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:hover,#ot-sdk-cookie-policy .ot-sdk-button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy button.ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=submit].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=reset].ot-sdk-button-primary:focus,#ot-sdk-cookie-policy input[type=button].ot-sdk-button-primary:focus{color:#fff;background-color:#1eaedb;border-color:#1eaedb}#onetrust-banner-sdk input[type=text],#onetrust-pc-sdk input[type=text],#ot-sdk-cookie-policy input[type=text]{height:38px;padding:6px 10px;background-color:#fff;border:1px solid #d1d1d1;border-radius:4px;box-shadow:none;box-sizing:border-box}#onetrust-banner-sdk input[type=text],#onetrust-pc-sdk input[type=text],#ot-sdk-cookie-policy input[type=text]{-webkit-appearance:none;-moz-appearance:none;appearance:none}#onetrust-banner-sdk input[type=text]:focus,#onetrust-pc-sdk input[type=text]:focus,#ot-sdk-cookie-policy input[type=text]:focus{border:1px solid #000;outline:0}#onetrust-banner-sdk label,#onetrust-pc-sdk label,#ot-sdk-cookie-policy label{display:block;margin-bottom:.5rem;font-weight:600}#onetrust-banner-sdk input[type=checkbox],#onetrust-pc-sdk input[type=checkbox],#ot-sdk-cookie-policy input[type=checkbox]{display:inline}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{list-style:circle inside}#onetrust-banner-sdk ul,#onetrust-pc-sdk ul,#ot-sdk-cookie-policy ul{padding-left:0;margin-top:0}#onetrust-banner-sdk ul ul,#onetrust-pc-sdk ul ul,#ot-sdk-cookie-policy ul ul{margin:1.5rem 0 1.5rem 3rem;font-size:90%}#onetrust-banner-sdk li,#onetrust-pc-sdk li,#ot-sdk-cookie-policy li{margin-bottom:1rem}#onetrust-banner-sdk th,#onetrust-banner-sdk td,#onetrust-pc-sdk th,#onetrust-pc-sdk td,#ot-sdk-cookie-policy th,#ot-sdk-cookie-policy td{padding:12px 15px;text-align:left;border-bottom:1px solid #e1e1e1}#onetrust-banner-sdk button,#onetrust-pc-sdk button,#ot-sdk-cookie-policy button{margin-bottom:1rem;font-family:inherit}#onetrust-banner-sdk .ot-sdk-container:after,#onetrust-banner-sdk .ot-sdk-row:after,#onetrust-pc-sdk .ot-sdk-container:after,#onetrust-pc-sdk .ot-sdk-row:after,#ot-sdk-cookie-policy .ot-sdk-container:after,#ot-sdk-cookie-policy .ot-sdk-row:after{content:"";display:table;clear:both}#onetrust-banner-sdk .ot-sdk-row,#onetrust-pc-sdk .ot-sdk-row,#ot-sdk-cookie-policy .ot-sdk-row{margin:0;max-width:none;display:block} #onetrust-banner-sdk{box-shadow:0 0 18px rgba(0,0,0,.2)}#onetrust-banner-sdk.otFlat{position:fixed;z-index:2147483645;bottom:0;right:0;left:0;background-color:#fff;max-height:90%;overflow-x:hidden;overflow-y:auto}#onetrust-banner-sdk.otFlat.top{top:0px;bottom:auto}#onetrust-banner-sdk.otRelFont{font-size:1rem}#onetrust-banner-sdk>.ot-sdk-container{overflow:hidden}#onetrust-banner-sdk::-webkit-scrollbar{width:11px}#onetrust-banner-sdk::-webkit-scrollbar-thumb{border-radius:10px;background:#c1c1c1}#onetrust-banner-sdk{scrollbar-arrow-color:#c1c1c1;scrollbar-darkshadow-color:#c1c1c1;scrollbar-face-color:#c1c1c1;scrollbar-shadow-color:#c1c1c1}#onetrust-banner-sdk #onetrust-policy{margin:1.25em 0 .625em 2em;overflow:hidden}#onetrust-banner-sdk #onetrust-policy .ot-gv-list-handler{float:left;font-size:.82em;padding:0;margin-bottom:0;border:0;line-height:normal;height:auto;width:auto}#onetrust-banner-sdk #onetrust-policy-title{font-size:1.2em;line-height:1.3;margin-bottom:10px}#onetrust-banner-sdk #onetrust-policy-text{clear:both;text-align:left;font-size:.88em;line-height:1.4}#onetrust-banner-sdk #onetrust-policy-text *{font-size:inherit;line-height:inherit}#onetrust-banner-sdk #onetrust-policy-text a{font-weight:bold;margin-left:5px}#onetrust-banner-sdk #onetrust-policy-title,#onetrust-banner-sdk #onetrust-policy-text{color:dimgray;float:left}#onetrust-banner-sdk #onetrust-button-group-parent{min-height:1px;text-align:center}#onetrust-banner-sdk #onetrust-button-group{display:inline-block}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{background-color:#68b631;color:#fff;border-color:#68b631;margin-right:1em;min-width:125px;height:auto;white-space:normal;word-break:break-word;word-wrap:break-word;padding:12px 10px;line-height:1.2;font-size:.813em;font-weight:600}#onetrust-banner-sdk #onetrust-pc-btn-handler.cookie-setting-link{background-color:#fff;border:none;color:#68b631;text-decoration:underline;padding-left:0;padding-right:0}#onetrust-banner-sdk .onetrust-close-btn-ui{width:44px;height:44px;background-size:12px;border:none;position:relative;margin:auto;padding:0}#onetrust-banner-sdk .banner_logo{display:none}#onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo{position:absolute;top:50%;transform:translateY(-50%);left:0px}#onetrust-banner-sdk.ot-bnr-w-logo #onetrust-policy{margin-left:65px}#onetrust-banner-sdk .ot-b-addl-desc{clear:both;float:left;display:block}#onetrust-banner-sdk #banner-options{float:left;display:table;margin-right:0;margin-left:1em;width:calc(100% - 1em)}#onetrust-banner-sdk .banner-option-input{cursor:pointer;width:auto;height:auto;border:none;padding:0;padding-right:3px;margin:0 0 10px;font-size:.82em;line-height:1.4}#onetrust-banner-sdk .banner-option-input *{pointer-events:none;font-size:inherit;line-height:inherit}#onetrust-banner-sdk .banner-option-input[aria-expanded=true]~.banner-option-details{display:block;height:auto}#onetrust-banner-sdk .banner-option-input[aria-expanded=true] .ot-arrow-container{transform:rotate(90deg)}#onetrust-banner-sdk .banner-option{margin-bottom:12px;margin-left:0;border:none;float:left;padding:0}#onetrust-banner-sdk .banner-option:first-child{padding-left:2px}#onetrust-banner-sdk .banner-option:not(:first-child){padding:0;border:none}#onetrust-banner-sdk .banner-option-header{cursor:pointer;display:inline-block}#onetrust-banner-sdk .banner-option-header :first-child{color:dimgray;font-weight:bold;float:left}#onetrust-banner-sdk .banner-option-header .ot-arrow-container{display:inline-block;border-top:6px solid rgba(0,0,0,0);border-bottom:6px solid rgba(0,0,0,0);border-left:6px solid dimgray;margin-left:10px;vertical-align:middle}#onetrust-banner-sdk .banner-option-details{display:none;font-size:.83em;line-height:1.5;padding:10px 0px 5px 10px;margin-right:10px;height:0px}#onetrust-banner-sdk .banner-option-details *{font-size:inherit;line-height:inherit;color:dimgray}#onetrust-banner-sdk .ot-arrow-container,#onetrust-banner-sdk .banner-option-details{transition:all 300ms ease-in 0s;-webkit-transition:all 300ms ease-in 0s;-moz-transition:all 300ms ease-in 0s;-o-transition:all 300ms ease-in 0s}#onetrust-banner-sdk .ot-dpd-container{float:left}#onetrust-banner-sdk .ot-dpd-title{margin-bottom:10px}#onetrust-banner-sdk .ot-dpd-title,#onetrust-banner-sdk .ot-dpd-desc{font-size:.88em;line-height:1.4;color:dimgray}#onetrust-banner-sdk .ot-dpd-title *,#onetrust-banner-sdk .ot-dpd-desc *{font-size:inherit;line-height:inherit}#onetrust-banner-sdk.ot-iab-2 #onetrust-policy-text *{margin-bottom:0}#onetrust-banner-sdk.ot-iab-2 .onetrust-vendors-list-handler{display:block;margin-left:0;margin-top:5px;clear:both;margin-bottom:0;padding:0;border:0;height:auto;width:auto}#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group button{display:block}#onetrust-banner-sdk.ot-close-btn-link{padding-top:25px}#onetrust-banner-sdk.ot-close-btn-link #onetrust-close-btn-container{top:15px;transform:none;right:15px}#onetrust-banner-sdk.ot-close-btn-link #onetrust-close-btn-container button{padding:0;white-space:pre-wrap;border:none;height:auto;line-height:1.5;text-decoration:underline;font-size:.69em}#onetrust-banner-sdk #onetrust-policy-text,#onetrust-banner-sdk .ot-dpd-desc,#onetrust-banner-sdk .ot-b-addl-desc{font-size:.813em;line-height:1.5}#onetrust-banner-sdk .ot-dpd-desc{margin-bottom:10px}#onetrust-banner-sdk .ot-dpd-desc>.ot-b-addl-desc{margin-top:10px;margin-bottom:10px;font-size:1em}@media only screen and (max-width: 425px){#onetrust-banner-sdk #onetrust-close-btn-container{position:absolute;top:6px;right:2px}#onetrust-banner-sdk #onetrust-policy{margin-left:0;margin-top:3em}#onetrust-banner-sdk #onetrust-button-group{display:block}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{width:100%}#onetrust-banner-sdk .onetrust-close-btn-ui{top:auto;transform:none}#onetrust-banner-sdk #onetrust-policy-title{display:inline;float:none}#onetrust-banner-sdk #banner-options{margin:0;padding:0;width:100%}}@media only screen and (min-width: 426px)and (max-width: 896px){#onetrust-banner-sdk #onetrust-close-btn-container{position:absolute;top:0;right:0}#onetrust-banner-sdk #onetrust-policy{margin-left:1em;margin-right:1em}#onetrust-banner-sdk .onetrust-close-btn-ui{top:10px;right:10px}#onetrust-banner-sdk:not(.ot-iab-2) #onetrust-group-container{width:95%}#onetrust-banner-sdk.ot-iab-2 #onetrust-group-container{width:100%}#onetrust-banner-sdk.ot-bnr-w-logo #onetrust-button-group-parent{padding-left:50px}#onetrust-banner-sdk #onetrust-button-group-parent{width:100%;position:relative;margin-left:0}#onetrust-banner-sdk #onetrust-button-group button{display:inline-block}#onetrust-banner-sdk #onetrust-button-group{margin-right:0;text-align:center}#onetrust-banner-sdk .has-reject-all-button #onetrust-pc-btn-handler{float:left}#onetrust-banner-sdk .has-reject-all-button #onetrust-reject-all-handler,#onetrust-banner-sdk .has-reject-all-button #onetrust-accept-btn-handler{float:right}#onetrust-banner-sdk .has-reject-all-button #onetrust-button-group{width:calc(100% - 2em);margin-right:0}#onetrust-banner-sdk .has-reject-all-button #onetrust-pc-btn-handler.cookie-setting-link{padding-left:0px;text-align:left}#onetrust-banner-sdk.ot-buttons-fw .ot-sdk-three button{width:100%;text-align:center}#onetrust-banner-sdk.ot-buttons-fw #onetrust-button-group-parent button{float:none}#onetrust-banner-sdk.ot-buttons-fw #onetrust-pc-btn-handler.cookie-setting-link{text-align:center}}@media only screen and (min-width: 550px){#onetrust-banner-sdk .banner-option:not(:first-child){border-left:1px solid #d8d8d8;padding-left:25px}}@media only screen and (min-width: 425px)and (max-width: 550px){#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group,#onetrust-banner-sdk.ot-iab-2 #onetrust-policy,#onetrust-banner-sdk.ot-iab-2 .banner-option{width:100%}#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group #onetrust-accept-btn-handler,#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group #onetrust-reject-all-handler,#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group #onetrust-pc-btn-handler{width:100%}#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group #onetrust-accept-btn-handler,#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group #onetrust-reject-all-handler{float:left}}@media only screen and (min-width: 769px){#onetrust-banner-sdk #onetrust-button-group{margin-right:30%}#onetrust-banner-sdk #banner-options{margin-left:2em;margin-right:5em;margin-bottom:1.25em;width:calc(100% - 7em)}}@media only screen and (min-width: 897px)and (max-width: 1023px){#onetrust-banner-sdk.vertical-align-content #onetrust-button-group-parent{position:absolute;top:50%;left:75%;transform:translateY(-50%)}#onetrust-banner-sdk #onetrust-close-btn-container{top:50%;margin:auto;transform:translate(-50%, -50%);position:absolute;padding:0;right:0}#onetrust-banner-sdk #onetrust-close-btn-container button{position:relative;margin:0;right:-22px;top:2px}}@media only screen and (min-width: 1024px){#onetrust-banner-sdk #onetrust-close-btn-container{top:50%;margin:auto;transform:translate(-50%, -50%);position:absolute;right:0}#onetrust-banner-sdk #onetrust-close-btn-container button{right:-12px}#onetrust-banner-sdk #onetrust-policy{margin-left:2em}#onetrust-banner-sdk.vertical-align-content #onetrust-button-group-parent{position:absolute;top:50%;left:60%;transform:translateY(-50%)}#onetrust-banner-sdk .ot-optout-signal{width:50%}#onetrust-banner-sdk.ot-iab-2 #onetrust-policy-title{width:50%}#onetrust-banner-sdk.ot-iab-2 #onetrust-policy-text,#onetrust-banner-sdk.ot-iab-2 :not(.ot-dpd-desc)>.ot-b-addl-desc{margin-bottom:1em;width:50%;border-right:1px solid #d8d8d8;padding-right:1rem}#onetrust-banner-sdk.ot-iab-2 #onetrust-policy-text{margin-bottom:0;padding-bottom:1em}#onetrust-banner-sdk.ot-iab-2 :not(.ot-dpd-desc)>.ot-b-addl-desc{margin-bottom:0;padding-bottom:1em}#onetrust-banner-sdk.ot-iab-2 .ot-dpd-container{width:45%;padding-left:1rem;display:inline-block;float:none}#onetrust-banner-sdk.ot-iab-2 .ot-dpd-title{line-height:1.7}#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group-parent{left:auto;right:4%;margin-left:0}#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group button{display:block}#onetrust-banner-sdk:not(.ot-iab-2) #onetrust-button-group-parent{margin:auto;width:30%}#onetrust-banner-sdk:not(.ot-iab-2) #onetrust-group-container{width:60%}#onetrust-banner-sdk #onetrust-button-group{margin-right:auto}#onetrust-banner-sdk #onetrust-accept-btn-handler,#onetrust-banner-sdk #onetrust-reject-all-handler,#onetrust-banner-sdk #onetrust-pc-btn-handler{margin-top:1em}}@media only screen and (min-width: 890px){#onetrust-banner-sdk.ot-buttons-fw:not(.ot-iab-2) #onetrust-button-group-parent{padding-left:3%;padding-right:4%;margin-left:0}#onetrust-banner-sdk.ot-buttons-fw:not(.ot-iab-2) #onetrust-button-group{margin-right:0;margin-top:1.25em;width:100%}#onetrust-banner-sdk.ot-buttons-fw:not(.ot-iab-2) #onetrust-button-group button{width:100%;margin-bottom:5px;margin-top:5px}#onetrust-banner-sdk.ot-buttons-fw:not(.ot-iab-2) #onetrust-button-group button:last-of-type{margin-bottom:20px}}@media only screen and (min-width: 1280px){#onetrust-banner-sdk:not(.ot-iab-2) #onetrust-group-container{width:55%}#onetrust-banner-sdk:not(.ot-iab-2) #onetrust-button-group-parent{width:44%;padding-left:2%;padding-right:2%}#onetrust-banner-sdk:not(.ot-iab-2).vertical-align-content #onetrust-button-group-parent{position:absolute;left:55%}}
+#onetrust-consent-sdk #onetrust-banner-sdk {background-color: #FFFFFF;}
+#onetrust-consent-sdk #onetrust-policy-title,
+#onetrust-consent-sdk #onetrust-policy-text,
+#onetrust-consent-sdk .ot-b-addl-desc,
+#onetrust-consent-sdk .ot-dpd-desc,
+#onetrust-consent-sdk .ot-dpd-title,
+#onetrust-consent-sdk #onetrust-policy-text *:not(.onetrust-vendors-list-handler),
+#onetrust-consent-sdk .ot-dpd-desc *:not(.onetrust-vendors-list-handler),
+#onetrust-consent-sdk #onetrust-banner-sdk #banner-options *,
+#onetrust-banner-sdk .ot-cat-header {
+color: #000000;
+}
+#onetrust-consent-sdk #onetrust-banner-sdk .banner-option-details {
+background-color: #E9E9E9;}
+#onetrust-consent-sdk #onetrust-banner-sdk a[href],
+#onetrust-consent-sdk #onetrust-banner-sdk a[href] font,
+#onetrust-consent-sdk #onetrust-banner-sdk .ot-link-btn
+{
+color: #000000;
+}#onetrust-consent-sdk #onetrust-accept-btn-handler,
+#onetrust-banner-sdk #onetrust-reject-all-handler {
+background-color: #000000;border-color: #000000;
+color: #FFFFFF;
+}
+#onetrust-consent-sdk #onetrust-banner-sdk *:focus,
+#onetrust-consent-sdk #onetrust-banner-sdk:focus {
+outline-color: #000000;
+outline-width: 1px;
+}
+#onetrust-consent-sdk #onetrust-pc-btn-handler,
+#onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link {
+color: #000000; border-color: #000000;
+background-color:
+#FFFFFF;
+} /* EU Banner Show Purposes button */
+#onetrust-consent-sdk #onetrust-pc-btn-handler, #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link {
+color: #000000;
+background-color: #FFFFFF;
+border: 3px solid #000000;
+}
+/* EU Banner buttons */
+#onetrust-consent-sdk #onetrust-pc-btn-handler:hover, #onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link:hover, #onetrust-consent-sdk #onetrust-accept-btn-handler:hover, #onetrust-banner-sdk #onetrust-reject-all-handler:hover {
+opacity: 1;
+background-color: #000000;
+color: #FFFFFF;
+}
+/* TCF 2.2 Redesign */
+#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-close-btn-container {
+top: 25px;
+right: 25px;
+}
+#onetrust-consent-sdk #onetrust-banner-sdk .onetrust-close-btn-ui {
+width: 12px;
+height: 12px;
+}
+#onetrust-banner-sdk #onetrust-policy-text a.ot-sdk-show-settings {
+margin-left: 0;
+}
+#onetrust-consent-sdk #onetrust-button-group {
+text-align: center;
+}
+#onetrust-pc-sdk .ot-tgl .ot-label-status {
+display: block!important;
+}
+@media only screen and (min-width: 425px) and (max-width: 550px) {
+#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group-parent #onetrust-button-group {
+width: auto;
+}
+}
+@media only screen and (min-width: 426px) and (max-width: 896px) {
+#onetrust-consent-sdk #onetrust-banner-sdk .onetrust-close-btn-ui {
+top: 0;
+right: 0;
+}
+}
+@media (min-width: 896px) {
+#onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns {
+left: auto;
+right: 4%;
+margin-left: 0;
+margin-top: 5%;
+}
+}
+@media only screen and (min-width: 769px) {
+#onetrust-banner-sdk #onetrust-button-group {
+margin-right: 0;
+}
+}
+@media only screen and (min-width: 1024px){
+#onetrust-banner-sdk.ot-iab-2 #onetrust-button-group-parent {
+margin-top: .25em;
+}
+}
+html:has(>body>div#onetrust-consent-sdk.show-banner) {
+overflow-y: hidden;
+}
+html:has(>body>div#onetrust-consent-sdk.show-banner>div.onetrust-pc-dark-filter[style*="none"]) {
+overflow-y: auto;
+}
+/* hides banner after it has already been interacted with */
+#onetrust-consent-sdk:not(.show-banner) #onetrust-banner-sdk {
+display: none;
+}</style>
+<script type="text/javascript" data-glb-js="top" src="/web/20241225084146js_/https://www.foodandwine.com/static/2.191.0/cache/eNqNU21uwyAMvdAYd9g09dekauoFCDjEDcERNqna049EVZt2NJoECPyev41mMYJWDyZKAG1pGClCFNbBnCmLPnJZynZg-zf9SD7OpMuZ8QKFQbFF_0y5vgI2_EjHKJAYrCDFml0yDlwFsEQ9AleQLBhQ6lgb1RbsaNjEJRnbY_SbpAmio6SlSyRFVGEM5aKaBKYfqeR_NzJHSORMdCeM8NrLqjuWU7scFT9jbjg3FeDze3-XkssBlq78HD7m_Qpasi-XrwnWQa_yMucGatq7_WHeNUhM8iBzTdm0EJClxmKrjOMakqBEk-Fw7cyNsipR0ZyZfpRajYwHNSGcNmrsZVhGLqDtlTx7ejHh_J7jBBi6Mqh_I19ZT-g7UclgWPK5vf6vg-XHRRRQd7EqUZXM0i9jSnI3.min.js"></script>
+<script type="text/javascript">
+window.Mntl = window.Mntl || {};
+window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('966405776eb57723c051bbc672aa30d0', true);(function() {
+Mntl.utilities.onLoad(function() {
+const geolocationResponse = {};
+const externalJS = {
+src: '\//cdn.cookielaw.org/scripttemplates/otSDKStub.js',
+'data-domain-script': 'fe7e6920-d0db-4be2-b840-4d019ab5f4bd',
+'data-ignore-ga': true,
+'data-language': 'en',
+async: true,
+charset: 'UTF-8',
+onerror: 'Mntl.CMP.onError()',
+id: 'onetrust-script'
+};
+geolocationResponse.stateCode = 'CA';
+geolocationResponse.countryCode = 'US';
+geolocationResponse.regionCode = 'US';
+if (Object.keys(geolocationResponse).length) {
+window.OneTrust = window.OneTrust || {};
+window.OneTrust.geolocationResponse = geolocationResponse;
+}
+const preferenceCenterTrigger = document.querySelector('.ot-pref-trigger');
+preferenceCenterTrigger.addEventListener('click', (e) => {
+e.preventDefault();
+Mntl.utilities.loadExternalJS(
+externalJS
+, () => {
+Mntl.CMP.onSdkLoaded(() => {
+OneTrust.ToggleInfoDisplay();
+})
+});
+},
+{ once: true });
+});
+Mntl.CMP.init({
+isConsentRequired: true,
+oneTrustTemplateName: 'ccpa',
+showConsentBanner: false,
+isCcpaApplicableRequest: true,
+isTcfEnabled: true,
+scriptTimeout: 3000
+});
+})();
+window.Mntl = window.Mntl || {};
+Mntl.RTB = Mntl.RTB || {};
+Mntl.RTB.setUseConsentManagement(false);
+Mntl.RTB.setUseLiveRamp(true);
+Mntl.RTB.setUseLiveIntentSignedInUser(true);
+Mntl.RTB.setUseGDPREnforcement(false);
+Mntl.RTB.setUseCommerceAndShoppingAPSTag(false);
+Mntl.RTB.setUseAmazonNcaHookTest(false);
+Mntl.RTB.setUserIdAuctionDelay(500);
+Mntl.RTB.setTaxonomyStampValues({"tax1":"faw_Travel","tax2":"faw_UnitedStates","tax0":"faw_rootlevelcategory"});
+Mntl.RTB.setTimeoutLength([750,1250]);
+Mntl.RTB.Plugins.amazon.amazonConfigs = {"mapTaxValues":{"tax1":"faw_Travel","tax2":"faw_UnitedStates","si_section":"faw_UnitedStates","tax0":"faw_rootlevelcategory","tax3":"null"},"amazonSlotName":false,"mapFBValues":{"adunitid":"mapFBID"},"amazonSection":"United States"};
+Mntl.RTB.Plugins.prebid.setPriceGranularity({"buckets":[{"max":"20","increment":"0.05"},{"max":"70","increment":"1"}]});
+Mntl.RTB.initVideoBidders([{ type: 'amazon', id: '3446' }, { type: 'prebid', id: 'true' } ]);
+Mntl.RTB.initDisplayAndOutstreamBidders([{ type: "amazon", id: '3446'},{ type: "msg", id: 'true'},{ type: "ixid", id: 'true'},{ type: "prebid", id: 'true'},{ type: "liveConnect", id: 'a-0182'}]);
+Mntl.RTB.Plugins.prebid.setConfig({"square-fixed\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"zoneId":2441346,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060417,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"3479303","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_square-fixed_300x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323642","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}}],"leaderboard-fixed\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"zoneId":2441336,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060407,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"3479294","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_leaderboard-fixed_728x90_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323630","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005849","type":"display"}}],"square-fixed-replies\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"zoneId":3601082,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":34330347,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"6389460","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"foodandwine_square-fixed-replies_300x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561381916","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1146742","type":"display"}}],"preroll":[{"bidder":"ttd","params":{"type":"instream","supplySourceId":"dotdash","publisherId":"1"}},{"bidder":"rubicon","params":{"type":"instream","zoneId":2441358,"accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"type":"instream","placementId":21060428}},{"bidder":"pubmatic","params":{"type":"instream","adSlot":"3479313","publisherId":"158139"}},{"bidder":"openx","params":{"type":"instream","unit":"561365519","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"type":"instream","siteId":"1005855"}}],"square-flex\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"zoneId":2441354,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060421,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"3479307","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_square-flex_300x600_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323648","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005854","type":"display"}}],"square-fixed-comments\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"zoneId":3546414,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":34080799,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"6236495","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"foodandwine_square-fixed-comments_300x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323645","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1137106","type":"display"}}],"global":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":7499,"siteId":426748,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","type":"display"}},{"bidder":"openx","params":{"delDomain":"meredith-d.openx.net","type":"display"}}],"leaderboardac\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"zoneId":2441342,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060411,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"6405252","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_leaderboardac_728x90_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323636","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005851","type":"display"}}],"leaderboardfooter-flex\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"zoneId":2441342,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060411,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"6405251","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_leaderboardfooter-flex_970x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323639","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005852","type":"display"}}],"leaderboard-flex\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"zoneId":2441342,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060411,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"3479297","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_leaderboard-flex_970x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323633","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005850","type":"display"}}]});
+Mntl.RTB.Plugins.prebid.setSrc('/cache/eNqdlttu2zAMhl9oQbC-QbalRYEFK3q6l0XGZSOLAkW58Z5-THa42oWpK8sCP1H-Jf70tmpQituJoSWs26FluDzf67YIDgQ2AKr6520TWfDTdi0kCodrzHokQGFwhKfEH7uoNJMSVgeodZdDWiy47iAURVkPR84Vsx5CDiNONlqPHhPCiLcsd8VBRSFFvoenpSpO6znAoY0j5dGBHMsOnlBmlFcC5PXkCEX2-cgSnZpQqI8KD8KzJXQcg0VnJV2-Uz75tUk0431WW8LPlhAKecJJOpJc334fxRcC9y0tQhFvE7M46qK-BUHwb7YR3HRQmY7Ula6iKeoo91Iynlvt0ZHOXeq3YbpE9rDSBjKP6UFVoQsTKgkTHbWH5oK5S6T41vLJ2VSioAXOuBHMZhcoG5suKSyO_Q7vGPWuBfFcof52MRWHixZ9UUqOko1NTIq4eLGr9k4nq_QTnXnMGT7vCXzEjY9g0eErZzNKX40OdX-2DlDJGrqjRfIUKP-wbGIt6JkfmfXbdW79GidcPlg83_jXwnqO2WMEIVfr4dNDkDC5kwXFkWV5vqySjOF8sH27fkCapP9n_Re5P2Nsl7V_Adq4HRY.js');
+Mntl.RTB.Plugins.prebid.setUserIdConfig({"liveIntentPublisherId":"45726"});
+Mntl.RTB.AdConfigs = Mntl.RTB.AdConfigs || {};
+Mntl.RTB.AdConfigs.rawConfig = {"slots":{"leaderboardac\/tier1":{"prebid":[{"bidder":"rubicon","params":{"zoneId":2441342,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060411,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"6405252","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_leaderboardac_728x90_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323636","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005851","type":"display"}}]},"square-fixed-replies\/tier1":{"prebid":[{"bidder":"rubicon","params":{"zoneId":3601082,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":34330347,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"6389460","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"foodandwine_square-fixed-replies_300x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561381916","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1146742","type":"display"}}]},"leaderboard-fixed\/tier1":{"prebid":[{"bidder":"rubicon","params":{"zoneId":2441336,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060407,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"3479294","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_leaderboard-fixed_728x90_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323630","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005849","type":"display"}}]},"leaderboard-flex\/tier1":{"prebid":[{"bidder":"rubicon","params":{"zoneId":2441342,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060411,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"3479297","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_leaderboard-flex_970x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323633","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005850","type":"display"}}]},"leaderboardfooter-flex\/tier1":{"prebid":[{"bidder":"rubicon","params":{"zoneId":2441342,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060411,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"6405251","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_leaderboardfooter-flex_970x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323639","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005852","type":"display"}}]},"square-fixed\/tier1":{"prebid":[{"bidder":"rubicon","params":{"zoneId":2441346,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060417,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"3479303","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_square-fixed_300x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323642","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}}]},"square-flex\/tier1":{"prebid":[{"bidder":"rubicon","params":{"zoneId":2441354,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":21060421,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"3479307","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"FoodAndWine_square-flex_300x600_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323648","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1005854","type":"display"}}]},"preroll":{"prebid":[{"bidder":"ttd","params":{"type":"instream","supplySourceId":"dotdash","publisherId":"1"}},{"bidder":"rubicon","params":{"type":"instream","zoneId":2441358,"accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"type":"instream","placementId":21060428}},{"bidder":"pubmatic","params":{"type":"instream","adSlot":"3479313","publisherId":"158139"}},{"bidder":"openx","params":{"type":"instream","unit":"561365519","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"type":"instream","siteId":"1005855"}}]},"square-fixed-comments\/tier1":{"prebid":[{"bidder":"rubicon","params":{"zoneId":3546414,"type":"display","accountId":7499,"siteId":426748}},{"bidder":"appnexus","params":{"placementId":34080799,"type":"display"}},{"bidder":"pubmatic","params":{"adSlot":"6236495","type":"display","publisherId":"158139"}},{"bidder":"triplelift","params":{"inventoryCode":"foodandwine_square-fixed-comments_300x250_pbc2s","type":"display"}},{"bidder":"openx","params":{"unit":"561323645","type":"display","delDomain":"meredith-d.openx.net"}},{"bidder":"ix","params":{"siteId":"1137106","type":"display"}}]}},"default":{"prebid":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":7499,"siteId":426748,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","type":"display"}},{"bidder":"openx","params":{"delDomain":"meredith-d.openx.net","type":"display"}}],"prebidModules":["prebid-core.js","rtdModule.js","adpod.js","allowActivities.js","atsAnalyticsAdapter.js","consentManagement.js","fledgeForGpt.js","criteoIdSystem.js","debugging.js","dfpAdServerVideo.js","gdprEnforcement.js","iasRtdProvider.js","identityLinkIdSystem.js","liveIntentIdSystem.js","paapi.js","pairIdSystem.js","prebidServerBidAdapter.js","priceFloors.js","sharedIdSystem.js","uid2IdSystem.js","unifiedIdSystem.js","userId.js","appnexusBidAdapter.js","ixBidAdapter.js","pubmaticBidAdapter.js","rubiconBidAdapter.js","ttdBidAdapter.js","tripleliftBidAdapter.js","openxBidAdapter.js"]},"ab":[]};
+console.log('✅ Libra is loaded!');
+Mntl.RTB.setLatencyBuffer(0);
+(function(){
+const mantleDependencies = {
+csAutoRefreshMobileAdhesive: 'true'
+}
+;
+const pageTargeting = {
+customSeries: ''
+,abtest: 'lcid1'
+,tax0: 'Food &amp; Wine'
+,rid: 'n243e1eb4833744c0849bb045b7e7d9a708'
+,custom: ''
+,sid: 'n243e1eb4833744c0849bb045b7e7d9a708'
+}
+;
+const baseSlotTargeting = {
+gtemplate: 'article'
+,leaid: '1100585'
+,revenueGroup: ''
+,docId: '6404659'
+,viewtype: ''
+,type: 'article'
+,tax1: 'faw_Travel'
+,tax2: 'faw_UnitedStates'
+,t: '110'
+,au: '1010208'
+,tier: 'L'
+,jny: '0'
+,leuid: '171802451390731'
+,sbj: ''
+,id: '6404659'
+,aid: ''
+,jnyroot: ''
+}
+;
+const adLazyOffset = {'mob-square-fixed-intro-1': 150};
+pageTargeting.mtax = ['13085','11030','11053','12821'];
+pageTargeting.sponstag = ['436038_SPLA_Kroger_Q4'];
+pageTargeting.sentiment = 'positive';
+pageTargeting.concepts = ['Buford Highway','Atlanta','population','way','roads'];
+pageTargeting.taxons = '\/Food & Drink'.split(/\/|\|/).filter((n) => n),
+pageTargeting.w = Mntl.utilities.getW();
+const initialSlots = [];
+initialSlots.push({
+config: {
+id: 'leaderboard-flex-1',
+sizes: [[728, 90], [970,90], [970, 250]],
+type: 'leaderboard',
+rtb: true,
+timedRefresh: 0,
+waitForThirdParty: false
+},
+targeting: Mntl.fnUtilities.deepExtend({}, {
+pos: 'atf',
+priority: 1
+})
+});
+initialSlots.push({
+config: {
+id: 'square-flex-1',
+sizes: [[300, 250],[300, 600],[300, 1050],[160, 600]],
+type: 'square',
+rtb: true,
+timedRefresh: 0,
+waitForThirdParty: false
+},
+targeting: Mntl.fnUtilities.deepExtend({}, {
+pos: 'atf',
+priority: 2
+})
+});
+initialSlots.push({
+config: {
+id: 'native',
+sizes: [[1, 3],'fluid'],
+type: 'native',
+rtb: false,
+timedRefresh: 0,
+waitForThirdParty: false
+},
+targeting: Mntl.fnUtilities.deepExtend({}, {
+pos: 'native',
+priority: 4
+})
+});
+const testIds = Mntl.GPT.getTestIds();
+pageTargeting.ab = testIds;
+pageTargeting.bts = testIds;
+Mntl.utilities.onLoad(function() {
+Mntl.utilities.loadExternalJS({
+src: '//web.archive.org/web/20241225084146/https://securepubads.g.doubleclick.net/tag/js/gpt.js',
+async: false
+});
+});
+const options = {
+domain: 'www.foodandwine.com',
+templateName: 'structuredcontent',
+isMobile: false,
+isTablet: false,
+isDesktop: true,
+dfpId: '3865',
+publisherProvidedId: 'b1cbddc6-308f-4f49-b9ea-828d31e06a44',
+singleRequest: false,
+useLmdFormat: true,
+useOxygen: true,
+restrictLeaderboardFlex1HeightAndOverflow: false,
+prebidConfigApi: false,
+useInfiniteRightRail: true,
+loadAdsAboveViewport: false,
+fiftyPercentAdRefresh: true,
+waitForNextFramePaint: false,
+revenueGroupAllowList: '',
+lmdSiteCode: 'hlt',
+pageTargeting,
+baseSlotTargeting,
+adLazyOffset,
+geo: {
+isInEurope: false,
+isInUsa: true
+},
+initialSlots,
+auctionFloors: {"other":{"id":"79c9ea3a26574215bbdba2a47375109c","floor":"5"},"leaderboardac":{"id":"c5517846b6854a56b01a77018e8e9464","floor":"235"},"leaderboard-flex-1":{"id":"af56d1f38e1946438ae650a86f12965c","floor":"85"},"leaderboard-flex-2":{"id":"b9e889979d91490fa86100e36c1991ce","floor":"75"},"square-flex-2":{"id":"b9ffc509e86949dcab3d4285f8fcc0bc","floor":"40"},"square-flex-1":{"id":"f644569063c04d9ba4c6b451e010965c","floor":"120"},"square-fixed-4":{"id":"29981d181d0243c3aa365758fcd592fb","floor":"115"},"leaderboard-fixed-3":{"id":"01f2fc6c129b4384be2b216105893f4b","floor":"20"},"square-fixed-3":{"id":"61ef1239cc6c43eeb6ab8ac082632bdd","floor":"60"},"leaderboard-fixed-4":{"id":"acf6b9e5613d4b41b9f6768d86a3edd5","floor":"5"},"square-fixed-2":{"id":"38087134fd5f4f13b41f60cc0f158378","floor":"185"},"leaderboard-fixed-1":{"id":"2bd2177fbc174008a2400a7c34e4666c","floor":"5"},"square-fixed-1":{"id":"50524d9ef2864260b028ec6fa953cccf","floor":"50"},"leaderboard-fixed-2":{"id":"ac81520de1c64de09b7061368cc75fda","floor":"55"},"square-fixed-8":{"id":"bb8b82f3ff4d4e30b1e23083a0fcf3d8","floor":"20"},"leaderboard-fixed-7":{"id":"8c11892f2d6f44559823e87c892ac65a","floor":"85"},"leaderboard-fixed-8":{"id":"2a73fdb65585443cabd26185032cd626","floor":"120"},"square-fixed-7":{"id":"c20c4367a64f4dc19b71c3a10c21a40a","floor":"120"},"mob-square-flex-1":{"id":"0c797a9e6f054e0daf8a76d0807a4d3b","floor":"70"},"square-fixed-6":{"id":"f6058f9b82324addb94035eab1749af4","floor":"85"},"leaderboardfooter-flex-2":{"id":"2d5da65f085842479c6046b8775a409c","floor":"395"},"leaderboard-fixed-5":{"id":"055c537ef9e04c609e806e43cbb92f18","floor":"20"},"leaderboard-fixed-6":{"id":"605a751246ad4cdeb392e0ff62968aa6","floor":"40"},"square-fixed-5":{"id":"e7235915f5ec449e826dfbb344b01dc4","floor":"155"},"leaderboardfooter-flex-1":{"id":"3fdcd5ea45f7495b9f1aedf63066f5ed","floor":"200"},"leaderboard-fixed-0":{"id":"f687fade171f49b6b4c0fd30cbfc17af","floor":"150"},"mob-square-fixed-1":{"id":"da0cc99422884dbc8edade73c76b0102","floor":"95"},"mob-square-fixed-2":{"id":"1da9645b5c4d439b8d89f601463f9a54","floor":"5"},"mob-square-fixed-3":{"id":"e33bf8fd384f4df3bd634f6b9e6e50c0","floor":"65"},"inline":{"id":"245b25fcbd784ae4856b36f3b6628aeb","floor":"5"},"square-fixed":{"id":"d04749ee0dee45e4a00cadacdbe5f869","floor":"5"},"leaderboard-fixed-9":{"id":"00543d5591944c3ea2cd407b5784ae76","floor":"5"},"square-fixed-9":{"id":"0ce3170fb53343389ea2eddbe2d55c70","floor":"110"},"mob-adhesive-banner-fixed":{"id":"425409a696d54546bb65bdebb147304e","floor":"5"}},
+utils: {
+generateSlotId: Foodandwine.GPT.generateSlotId
+},
+displayOnScroll: false,
+displayOnConsent: true,
+adsToCollapse: ['leaderboard*','square*']
+};
+if (Mntl.AdMetrics) {
+Mntl.AdMetrics.init("6404659", "n243e1eb4833744c0849bb045b7e7d9a708", initialSlots.map(slot => slot.config.id), Date.now());
+} else {
+Mntl.AdMetrics = { pushMetrics: () => {} };
+}
+Mntl.GPT.setMantleDependencies(mantleDependencies);
+Mntl.GPT.init(options);
+}());window.addEventListener('readyForThirdPartyTracking', () => {
+// Set a delay for loading the script
+// Specify the delay duration in pushly.xml
+const delay = '8';
+window.setTimeout(() => {
+Mntl.utilities.loadExternalJS({
+src: 'http://web.archive.org/web/20241225084146/https://cdn.p-n.io/pushly-sdk.min.js?domain_key=ValSjtFICIWvS3COvj0d0oyXEgBC1D3XRgBB',
+async: true
+});
+window.PushlySDK = window.PushlySDK || [];
+// eslint-disable-next-line prefer-rest-params
+function pushly() { window.PushlySDK.push(arguments); }
+pushly('load', {
+domainKey: 'ValSjtFICIWvS3COvj0d0oyXEgBC1D3XRgBB',
+sw: '/pushly-sdk-worker.js'
+});
+}, parseFloat(delay) * 1000);
+});
+window.dataLayer = window.dataLayer || [];
+// moved from gtm.ftl so we can initialize GTM only onLoad. From https://support.google.com/tagmanager/answer/6103696?hl=en
+Mntl.utilities.onLoad(function() {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;defer=true;j.src='//web.archive.org/web/20241225084146/https://www.googletagmanager.com/gtm.js?id='+i+dl;j.type="text/javascript";f.parentNode.insertBefore(j,f)})(window,document,'script','dataLayer','GTM-P3X3VT7');
+});
+window.dataLayer.push({
+event: 'ab-proctor',
+'abTests-proctor': {
+"99-0"
+: "useOxygen | useOxygen | use the Oxygenated ad unit format and slot names | 1"
+,
+"99-1"
+: "vanillaJSLazyAdRecipeSC | active | vanillaLazyAd.js enabled | 1"
+,
+"99-2"
+: "userIdAuctionDelay | lmd | Carbon (legacy Meredith) domains | 1"
+,
+"99-3"
+: "useFloorSearch | active | Use Floor Search | 1"
+,
+"99-4"
+: "fiftyPercentAdRefresh | active | Ads refresh when 50% in view | 1"
+,
+"99-5"
+: "continuousScrollMobSquareFlexOffset | active | Adds offset to mob-square-fixed-1 ad on CS articles | 1"
+,
+"99-6"
+: "recipescDesktopAdRefresh | active | active, right rail ads timed refresh active | 1"
+,
+"99-7"
+: "gamVideoUsePlcmt | active | Pass plcmt | 1"
+,
+"99-8"
+: "liveIntentConnectedIdTest | control | LiveIntent ConnectedID is enabled | 0"
+,
+"99-9"
+: "prebidConfigApi | active | Ad Config API is enabled | 1"
+,
+"99-10"
+: "useDynamicVideoSizes | active | active | 1"
+,
+"99-11"
+: "prebidVideoUsePlcmt | active | Pass plcmt | 1"
+,
+"99-12"
+: "useLiveIntentSignedInUser | active | active | 1"
+,
+"55"
+: "relatedArticlesAlgorithm | useRecommendationService | Enables usage of proximity API | 1"
+,
+"99-14"
+: "removeAdTiers | active | active | 1"
+,
+"99-15"
+: "useLiveRamp | active | active | 1"
+,
+"99-16"
+: "enableAdLazyOffsetIntro1 | active | updates lazy offset for intro1 ad in recipes | 1"
+,
+"58"
+: "jumpToRecipe | control | shows jump to recipe button | 0"
+}
+});
+window.dataLayer.push({
+envData: {
+environment: {
+environment: "k8s-prod",
+application: "foodandwine",
+dataCenter: "us-west-1"
+},
+server: {
+version: "2.191.0",
+title: "foodandwine-launcher"
+},
+client : {
+browserUA: navigator.userAgent,
+serverUA: "Go-http-client/1.1",
+deviceType: "pc",
+usStateCode: "CA"
+},
+mantle: "4.0.763",
+commerce: ""
+}
+});
+(function(fnUtils, CMP) {
+const deferLoadTime = 5000;
+const readyForThirdPartyTrackingEvent = new CustomEvent('readyForThirdPartyTracking', { bubbles: true });
+const readyForThirdPartyTracking = fnUtils.once(function() {
+window.dataLayer.push({event: 'readyForThirdPartyTracking'});
+window.dispatchEvent(readyForThirdPartyTrackingEvent);
+});
+const readyForDeferredScriptsEvent = new CustomEvent('readyForDeferredScripts', { bubbles: true });
+const readyForDeferredScripts = fnUtils.once(function() {
+window.dataLayer.push({event: 'readyForDeferredScripts'});
+window.dispatchEvent(readyForDeferredScriptsEvent);
+});
+const hasTargetingConsentHandler = function() {
+const hasConsent = CMP.hasTargetingConsent();
+if (hasConsent) {
+readyForThirdPartyTracking();
+}
+// Trigger the readyForDeferredScripts if consent is given
+// or if the user has closed the banner(AlertBox) which exists for EU
+// or if the user optin consent is not required, which applies for non gdpr locations
+if (hasConsent || CMP.isAlertBoxClosed() || !CMP.isOptInConsent()) {
+readyForDeferredScripts();
+}
+return hasConsent;
+};
+const purposeOneConsentHandler = async function() {
+const hasPurposeOneConsent = await CMP.hasPurposeOneConsent();
+if (hasPurposeOneConsent) {
+readyForThirdPartyTracking();
+}
+if (hasPurposeOneConsent || CMP.isAlertBoxClosed()) {
+readyForDeferredScripts();
+}
+return hasPurposeOneConsent;
+};
+const onRequiredDomEvent = fnUtils.once(function() {
+if (!CMP) {
+readyForThirdPartyTracking();
+readyForDeferredScripts();
+return;
+}
+const handler = CMP.supportsTCData() ? purposeOneConsentHandler : hasTargetingConsentHandler;
+if (!CMP.isLoading()) {
+handler();
+}
+CMP.onConsentChange(handler);
+});
+[
+['adRendered', onRequiredDomEvent],
+['beforeunload', onRequiredDomEvent],
+['load', function() { setTimeout(onRequiredDomEvent, deferLoadTime); }]
+].forEach(function(event) {
+window.addEventListener(event[0], event[1], { once: true });
+});
+})(Mntl.fnUtilities || {}, Mntl.CMP);window.dataLayer = window.dataLayer || [];
+(function() {
+var isContinuousScroll = document.querySelector('.mntl-continuous-scroll');
+var pageViewDataAsJSON = {"country":"US","fullUrl":"http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n243e1eb4833744c0849bb045b7e7d9a708","internalRequestId":"n243e1eb4833744c0849bb045b7e7d9a708","hid":"","experienceTypeName":"","recircDocIdsFooter":"S-8734508|S-7253353|S-8691885|S-8637333|S-8730678|S-6408357|S-7108205|S-6408343|S-8734648|S-8744780|S-6405996|S-8734615|S-6404402|S-7966853|S-8734601|S-8734467","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.0.763","commerceVersion":"","primaryTaxonomyNames":"Food &amp; Wine|Travel|United States","description":"Immigrants transformed a string of average suburbs into one of the South&#39;s most fascinating places. Here&#39;s how you can get to know Buford Highway better.","title":"A Beginner&#39;s Guide to Atlanta&#39;s Buford Highway" || document.title || '',"authorId":"1010208","revenueGroup":"","documentId":6404659,"viewType":"","contentGroup":"Other","templateName":"STRUCTUREDCONTENT","authorNames":"David Landsel","primaryTaxonomyIds":"6361217|6399992|6399669","templateId":"110","muid":"b1cbddc6-308f-4f49-b9ea-828d31e06a44","lastEditingAuthorId":"1100585","lastEditingUserId":"171802451390731"};
+var scrolledPageData = {};
+var scrolledDocOrdinal;
+var scrolledPage;
+pageViewDataAsJSON.breakpointName = Foodandwine.utilities.getW();
+pageViewDataAsJSON.bounceExchangeId = 2548;
+pageViewDataAsJSON.descriptiveTaxonomy = '13085,16519,11030,14078,17353,11053,16478,11277,11035,12821,17679';
+if (isContinuousScroll) {
+pageViewDataAsJSON.experienceTypeName = 'continuous';
+if (window.dataLayer && window.dataLayer.length) {
+//loop through events and collect previous scrolledDocOrdinal and scrolledPage values
+scrolledPageData = window.dataLayer.reduce( (acc, curr) => {
+if (curr.event == 'unifiedPageview') {
+acc.scrolledDocOrdinal = acc.scrolledDocOrdinal ?
+acc.scrolledDocOrdinal + 1
+: 1;
+acc.scrolledPage = acc.scrolledPage ?
+acc.scrolledPage + " | " + (curr.documentId).toString()
+: (curr.documentId).toString();
+}
+return acc;
+}, {});
+}
+scrolledPage = scrolledPageData.scrolledPage ? scrolledPageData.scrolledPage + ' | ' + (pageViewDataAsJSON.documentId).toString() : (pageViewDataAsJSON.documentId).toString();
+scrolledDocOrdinal = scrolledPageData.scrolledDocOrdinal ? scrolledPageData.scrolledDocOrdinal + 1 : 1;
+pageViewDataAsJSON.scrolledPage = scrolledPage;
+pageViewDataAsJSON.scrolledDocOrdinal = scrolledDocOrdinal;
+}
+Mntl.utilities.onLoad(function() {
+Mntl.PageView.init(pageViewDataAsJSON);
+});
+})();</script>
+<link rel="shortcut icon" href="/web/20241225084146im_/https://www.foodandwine.com/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/web/20241225084146im_/https://www.foodandwine.com/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/web/20241225084146im_/https://www.foodandwine.com/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/web/20241225084146im_/https://www.foodandwine.com/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/web/20241225084146im_/https://www.foodandwine.com/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/web/20241225084146im_/https://www.foodandwine.com/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/web/20241225084146im_/https://www.foodandwine.com/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/web/20241225084146im_/https://www.foodandwine.com/apple-touch-icon-180x180.png">
+<meta name="msapplication-TileColor" content="#F4F4F4"/>
+<meta name="msapplication-TileImage" content="/static/2.191.0/icons/favicons/mstile-144x144.png">
+<meta name="msapplication-square70x70logo" content="/static/2.191.0/icons/favicons/mstile-70x70.png">
+<meta name="msapplication-square150x150logo" content="/static/2.191.0/icons/favicons/mstile-150x150.png">
+<meta name="msapplication-square310x310logo" content="/static/2.191.0/icons/favicons/mstile-310x310.png">
+<meta name="msapplication-wide310x150logo" content="/static/2.191.0/icons/favicons/mstile-310x150.png">
+<script id="foodandwine-schema_1-0" class="comp foodandwine-schema mntl-schema-unified" type="application/ld+json">[
+{
+"@context": "http://web.archive.org/web/20241225084146/http://schema.org",
+"@type": ["NewsArticle"]
+,"headline": "A Beginner&#39;s Guide to Atlanta&#39;s Buford Highway"
+,"datePublished": "2019-04-22T12:08:34.000-04:00"
+,"dateModified": "2022-08-05T12:08:00.000-04:00"
+,"author": [
+{"@type": "Person"
+,"name": "David Landsel"
+,"url": "http://web.archive.org/web/20241225084146/https://www.foodandwine.com/author/david-landsel"
+}
+]
+,"description": "Immigrants transformed a string of average suburbs into one of the South&#39;s most fascinating places. Here&#39;s how you can get to know Buford Highway better."
+,"image": {
+"@type": "ImageObject",
+"url": "http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/9En_vD3CceZWyrMo7XXWQt4TM7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/atlanta-buford-highway-farmers-market-fish-FT-BLOG0119-4f1f66e9ee784805898026220112d7d1.jpg",
+"height": 1125,
+"width": 1500
+}
+,"publisher": {
+"@type": "Organization",
+"name": "Food & Wine",
+"url": "http://web.archive.org/web/20241225084146/https://www.foodandwine.com",
+"logo": {
+"@type": "ImageObject",
+"url": "http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/uV0O06O8WNrLepjgxkntdVuRpeE=/112x112/filters:no_upscale():max_bytes(150000):strip_icc()/brand_logo_schema-f3b2e548eb6f4243ad527798593483e0.png",
+"width": 112,
+"height": 112
+},
+"brand": "Food & Wine"
+, "publishingPrinciples": "http://web.archive.org/web/20241225084146/https://www.foodandwine.com/about-us-6373913#toc-editorial-policies"
+, "sameAs" : [
+"http://web.archive.org/web/20241225084146/https://www.facebook.com/foodandwine",
+"http://web.archive.org/web/20241225084146/https://www.instagram.com/foodandwine/?hl=en",
+"http://web.archive.org/web/20241225084146/https://www.pinterest.com/foodandwine/",
+"http://web.archive.org/web/20241225084146/https://flipboard.com/@foodandwine",
+"http://web.archive.org/web/20241225084146/https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA",
+"http://web.archive.org/web/20241225084146/https://en.wikipedia.org/wiki/Food_%26_Wine"
+]
+}
+,"mainEntityOfPage": {
+"@type": ["WebPage"]
+,"@id": "http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants"
+,"breadcrumb": {
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@id": "http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel",
+"name": "Travel"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@id": "http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/united-states",
+"name": "United States"
+}
+}
+]
+}} }
+]</script>
+<meta property="fb:pages" content="17786732025"/>
+</head><body>
+<!-- resourcesvgftl -->
+<svg class="mntl-svg-resource is-hidden">
+<defs>
+<symbol id="icon-menu">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M3 18h18v-2H3v2Zm0-5h18v-2H3v2Zm0-7v2h18V6H3Z"/></svg> </symbol>
+<symbol id="icon-close">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M20 5.61143L18.3886 4L12 10.3886L5.61143 4L4 5.61143L10.3886 12L4 18.3886L5.61143 20L12 13.6114L18.3886 20L20 18.3886L13.6114 12L20 5.61143Z"/></svg> </symbol>
+<symbol id="icon-logo">
+<svg viewbox="0 0 241 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.05151V31.3483H6.93408V19.443H17.8758V13.5906H6.80338V6.90391H19.7589V1.05151H0ZM177.777 31.3482H184.58V1.05139H177.777V31.3482ZM197.164 1.05151 208.763 20.1925V1.05151H215.262V31.3483H208.902L196.912 12.2069V31.3483H190.413V1.05151H197.164ZM220.159 1.05151V31.3483H240.44V25.4959H226.963V18.6777H238.079V13.2624H226.963V6.90391H239.962V1.05151H220.159ZM35.1634 6.30332C39.57 6.30332 41.7523 10.178 41.7523 16.1999 41.7523 22.2217 39.57 26.096 35.1634 26.096 30.7573 26.096 28.5746 22.2217 28.5746 16.1999 28.5746 10.178 30.7573 6.30332 35.1634 6.30332ZM21.554 16.1999C21.554 24.7899 25.5765 31.9488 35.1634 31.9488 44.7508 31.9488 48.7729 24.7899 48.7729 16.1999 48.7729 7.60991 44.7508.450928 35.1634.450928 25.5765.450928 21.554 7.60991 21.554 16.1999ZM88.5871 6.90415H90.0645C96.3112 6.90415 99.0524 9.26404 99.0524 16.1999 99.0524 23.1363 96.3112 25.4957 90.0645 25.4957H88.5871V6.90415ZM81.7837 31.3481H89.31C99.6126 31.3481 105.943 26.9682 105.943 16.1999 105.943 5.4317 99.6126 1.05176 89.31 1.05176H81.7837V31.3481ZM141.731 1.05151 146.718 21.4166 152.571 1.05151H157.839L163.47 21.4166 168.279 1.05151H174.782L166.642 31.3483H160.829L154.896 12.3737 149.05 31.3483H143.016L135.098 1.05151H141.731ZM65.2342 6.30332C69.6408 6.30332 71.8231 10.178 71.8231 16.1999 71.8231 22.2217 69.6408 26.096 65.2342 26.096 60.8281 26.096 58.6458 22.2217 58.6458 16.1999 58.6458 10.178 60.8281 6.30332 65.2342 6.30332ZM51.6248 16.1999C51.6248 24.7899 55.6473 31.9488 65.2342 31.9488 74.8216 31.9488 78.8437 24.7899 78.8437 16.1999 78.8437 7.60991 74.8216.450928 65.2342.450928 55.6473.450928 51.6248 7.60991 51.6248 16.1999Z" fill="#000" fill-opacity=".95"/><mask id="b" style="mask-type:alpha" maskunits="userSpaceOnUse" x="110" y="7" width="27" height="25"><path fill-rule="evenodd" clip-rule="evenodd" d="M110.719 7.50793H136.812V31.9491H110.719V7.50793Z" fill="#fff"/></mask><g mask="url(#b)"><path fill-rule="evenodd" clip-rule="evenodd" d="M119.915 30.1409C122.565 30.1409 124.56 28.9096 125.418 28.0519C123.641 26.5556 120.601 23.6098 119.791 22.7368C118.98 21.8638 116.985 19.6346 116.283 18.6061C114.943 19.526 113.805 21.0998 113.805 23.594C113.805 27.4913 116.548 30.1409 119.915 30.1409ZM118.84 31.9492C112.776 31.9492 110.719 27.7716 110.719 25.0593C110.719 21.4117 113.493 18.7778 115.644 17.6082C114.413 15.9248 114.101 14.6471 114.086 13.244C114.07 10.7809 116.424 7.50793 121.225 7.50793C122.783 7.50793 124.155 7.81982 124.997 8.225C125.449 8.42737 125.464 8.64551 125.464 9.02005C125.464 10.0017 125.277 12.3399 125.184 12.8073C125.106 13.2751 124.997 13.3373 124.841 13.3373C124.669 13.3373 124.638 13.2125 124.638 12.7451C124.638 11.9348 124.435 10.9216 123.703 10.1112C123.048 9.37836 121.973 8.72348 120.414 8.72348C118.824 8.72348 116.767 9.75244 116.767 12.5428C116.767 15.2235 118.949 17.4838 121.817 20.6324C122.877 21.8173 126.712 25.34 127.507 26.0256C128.254 24.9971 129.049 22.9391 129.049 21.0376C129.049 20.5702 128.925 19.978 128.457 19.5571C128.052 19.1672 127.398 19.0735 126.93 19.0735C126.743 19.0735 126.556 19.0113 126.556 18.84C126.556 18.6372 126.805 18.575 127.055 18.575C127.802 18.575 129.049 18.6061 130.795 18.7931C131.325 18.8553 131.606 19.0735 131.606 19.4169C131.606 21.8795 130.11 24.9033 128.535 26.7895C130.608 28.5198 131.996 29.3612 132.853 29.8602C133.85 30.4524 135.503 31.014 136.376 31.014C136.656 31.014 136.812 31.0451 136.812 31.2632C136.812 31.4191 136.563 31.5124 136.08 31.5124H133.352C130.421 31.5124 129.486 31.2321 126.431 28.847C125.558 29.6731 123.282 31.9492 118.84 31.9492Z" fill="#000" fill-opacity=".95"/></g></g><defs><clippath id="a"><path fill="#fff" transform="translate(-256 -1054)" d="M0 0H1920V2253H0z"/></clippath></defs></svg> </symbol>
+<symbol id="icon-caret_down">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 10L12 14L16 10H8Z"/></svg> </symbol>
+<symbol id="icon-account">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12ZM12 5C13.66 5 15 6.34 15 8C15 9.66 13.66 11 12 11C10.34 11 9 9.66 9 8C9 6.34 10.34 5 12 5ZM12 19.2C9.5 19.2 7.29 17.92 6 15.98C6.03 13.99 10 12.9 12 12.9C13.99 12.9 17.97 13.99 18 15.98C16.71 17.92 14.5 19.2 12 19.2Z"/></svg> </symbol>
+<symbol id="save-icon-favorite">
+<svg viewbox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><path d="M27.4166 7.44526C27.4166 7.44526 27.4166 7.44071 27.4166 7.43798C27.4138 6.44286 27.2232 5.47684 26.8504 4.56267C26.4766 3.64486 25.938 2.8262 25.2493 2.12943C24.5569 1.42811 23.7486 0.886882 22.8463 0.519394C22.0002 0.174648 21.1099 0 20.2003 0C20.1423 0 20.0843 0 20.0253 0.00181924C18.8763 0.0109155 17.7632 0.2647 16.7173 0.756806C15.6742 1.248 14.7599 1.94568 14.0004 2.83256C13.2399 1.94568 12.3266 1.24709 11.2834 0.756806C10.2366 0.2647 9.12352 0.0109155 7.9745 0.00181924C7.9165 0 7.85757 0 7.79957 0C6.88994 0 5.99964 0.174648 5.15353 0.519394C4.25126 0.886882 3.4429 1.42811 2.75054 2.12943C2.06187 2.8262 1.52327 3.64486 1.14947 4.56267C0.776596 5.47593 0.586014 6.44286 0.583252 7.43434C0.583252 7.43798 0.583252 7.44162 0.583252 7.44526V10.5116C0.583252 10.5116 0.583252 10.5116 0.583252 10.5125C0.583252 10.5125 0.583252 10.5143 0.583252 10.5152V10.5662C0.597983 12.9348 1.56378 15.1816 3.71082 17.8441L3.72463 17.8613L3.73936 17.8786C6.31267 20.8131 9.1051 23.5892 12.0393 26.1289L13.227 27.2741L13.9792 28L14.7498 27.2932L15.9476 26.1953C18.8809 23.6484 21.677 20.8704 24.2568 17.9378L24.2771 17.915L24.2964 17.8905C26.4379 15.1598 27.4019 12.8984 27.4147 10.5662V7.44526H27.4166Z" fill="currentColor"/><path d="M20.0437 1.09341C19.0604 1.09978 18.0881 1.32082 17.1914 1.74197C16.2946 2.16404 15.4936 2.77712 14.839 3.54212L13.9994 4.54543L13.1597 3.54212C12.5051 2.77712 11.7032 2.16404 10.8064 1.74197C9.90969 1.31991 8.93837 1.09887 7.95508 1.09341C7.1412 1.07158 6.33192 1.21985 5.57327 1.52821C4.81555 1.83657 4.12412 2.30048 3.5404 2.89174C2.95669 3.48299 2.49175 4.18886 2.17411 4.97022C1.85555 5.75068 1.69075 6.59026 1.68799 7.43803C1.68799 9.56018 2.57184 11.6014 4.57525 14.0855C7.13015 17 9.87563 19.7279 12.7905 22.2494L13.9994 23.4155L15.2082 22.3076C18.1194 19.7816 20.864 17.0536 23.4235 14.1438C25.4269 11.5895 26.3117 9.54835 26.3117 7.43803C26.3089 6.59026 26.1432 5.75068 25.8256 4.97022C25.5079 4.18977 25.043 3.48299 24.4583 2.89174C23.8746 2.30048 23.1832 1.83748 22.4255 1.52821C21.6677 1.21985 20.8575 1.07158 20.0437 1.09341Z" stroke="currentColor"/></svg> </symbol>
+<symbol id="icon-myr-logo">
+<svg viewbox="0 0 159 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.896 25.227H31.05c-2.156-2.44-1.718-5.974-1.755-8.662-.022-1.54.214-5.918-.34-7.338-.265-.679-1.394-2.503-4.024-2.371-3.17.162-5.83 3.019-5.83 3.019s-.278-3.175-3.83-3.022c-3.322.143-6.19 3.293-6.19 3.293v-3.03L.448 7.68v17.537h8.62v-9.275c0-.515 0-1.63.016-1.667.054-.641.264-1.3 1.038-1.203.818.1.803 1.247.803 2.214v9.94h8.138V15.109c0-.659-.117-2.177 1.034-2.036.818.1.802 1.247.802 2.214l-.004 9.94Z" fill="var(--myr-my-color, #FF3FA4)"/><path d="M64.16 6.87v7.946c-2.01-.243-4.158-.207-6.064.621v9.778h-6.722V7.594l6.722-.688v6.806c1.212-5.634 2.252-6.913 6.064-6.843ZM75.529 19.929c2.217 0 4.504-.933 6.513-2.35l-.52 6.254c-1.35.864-3.673 1.797-7.132 1.797-5.821 0-9.875-3.49-9.875-9.398 0-6.53 4.816-9.433 9.529-9.433 3.95-.034 6.583 1.867 7.692 4.562l.416 1c.519 1.28.034 2.455-1.213 3.008l-8.39 3.8c.762.483 1.731.76 2.98.76Zm-4.888-4.492v.345l5.751-2.59c-.449-.726-1.108-1.318-2.39-1.318-1.696.004-3.36 1.007-3.36 3.563ZM82.685 16.197c0-5.596 2.876-9.398 9.598-9.398 2.08 0 3.86.581 4.799 1.054l-.013 5.853c-.867-.415-2.36-1.003-3.955-1.003-2.246 0-3.707 1.07-3.707 3.489 0 2.418 1.453 3.352 3.707 3.352 1.594 0 2.617-.413 3.963-.897l-.014 6.128c-1.144.483-2.499.85-4.785.85-7.099.005-9.593-3.796-9.593-9.428ZM97.751 3.766c0-2.212 1.593-3.766 4.123-3.766 2.529 0 4.017 1.554 4.017 3.766 0 2.177-1.49 3.766-4.02 3.766-2.53 0-4.12-1.589-4.12-3.766Zm.692 4.684 6.723-.725v17.49h-6.722V8.45ZM124.647 15.467c0 6.808-3.81 10.158-8.904 10.158a9.196 9.196 0 0 1-2.356-.275v5.532h-6.729V7.593l6.515-.69v2.004c1.074-1.037 2.529-2.108 4.92-2.108 3.707 0 6.554 2.591 6.554 8.668Zm-7 .79c0-1.52-.209-4.007-3.153-4.007a5.304 5.304 0 0 0-1.11.102v8.155h.521c3.213.01 3.702-1.926 3.742-4.24v-.01ZM136.139 19.929c2.218 0 4.505-.726 6.514-2.098l.008 5.965c-1.352.82-4.201 1.834-7.662 1.834-5.821 0-9.875-3.49-9.875-9.398 0-6.53 4.816-9.433 9.529-9.433 3.95-.034 6.584 1.867 7.692 4.562l.416 1c.52 1.28.034 2.455-1.213 3.008l-8.385 3.8c.755.483 1.724.76 2.976.76Zm-4.887-4.492v.345l5.753-2.59c-.451-.726-1.11-1.318-2.393-1.318-1.7.004-3.36 1.007-3.36 3.563ZM158.149 12.95a21.57 21.57 0 0 0-6.167-.9c-.66 0-1.87.036-1.87.66 0 .76 1.801.658 3.846.966 2.806.415 4.989 1.382 4.989 5.321 0 3.524-1.94 6.634-8.524 6.634a17.02 17.02 0 0 1-6.504-1.338l-.01-5.84c2.01 1.098 4.124 1.685 6.376 1.685 1.524 0 2.356-.276 2.356-.83 0-.691-1.321-.76-3.084-.968-2.46-.275-5.648-.898-5.648-5.32 0-3.178 1.663-6.22 8.177-6.22 2.391 0 4.297.381 5.68 1.037l.383 5.112Z" fill="currentColor"/><path d="M49.72 7.331h-8.572v9.86c0 .658 0 2.239-1.146 2.092-.818-.1-.802-1.247-.802-2.214V7.331h-9.466c.84.988 1.097 2.778 1.097 3.889 0 0-.05 8.256.107 9.84.157 1.585 1.232 4.084 5.17 4.375 3.017.224 4.422-1.306 5.035-1.996.174.415-.17 2.558-2.95 3.293-2.655.697-5.02-.337-5.64-.659-.175 1.696-.518 4.19-.518 4.19s3.46 2.396 9.146 1.56c7.329-1.078 8.536-7.059 8.537-9.203.003-3.24.003-14.04.003-15.289Z" fill="var(--myr-my-color, #FF3FA4)"/></svg> </symbol>
+<symbol id="icon-search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z"/></svg> </symbol>
+<symbol id="icon-error">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2V2ZM13 17H11V15H13V17V17ZM13 13H11V7H13V13V13Z" fill="#C00"/></svg> </symbol>
+<symbol id="icon-chevron">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 6L8.59003 7.41L13.17 12L8.59003 16.59L10 18L16 12L10 6Z"/></svg> </symbol>
+<symbol id="icon-arrow-left">
+<svg viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M16 8L14.59 6.59L9 12.17V0H7V12.17L1.42 6.58L0 8L8 16L16 8Z"/></svg> </symbol>
+<symbol id="icon-facebook">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.282 8.46782H13.12V6.39482C13.12 5.61682 13.637 5.43482 14 5.43482H16.23V2.01182L13.157 1.99982C9.748 1.99982 8.972 4.55382 8.972 6.18682V8.46782H7V11.9938H8.972V21.9728H13.12V11.9938H15.919L16.282 8.46782Z"/></svg> </symbol>
+<symbol id="icon-flipboard">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8 0H0V24H8V0Z"/><path d="M16.0533 0H7.97858V8.01068H16.0533 23.9999V0H16.0533ZM15.9893 8.01074H7.97858V16.0214H15.9893V8.01074Z"/></svg> </symbol>
+<symbol id="icon-instagram">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.27326 3.05416C9.23411 3.01036 9.54091 3 11.9876 3C14.4343 3 14.7411 3.01036 15.7019 3.05416C16.6608 3.09785 17.3157 3.25001 17.8888 3.47247C18.4812 3.70247 18.9836 4.01021 19.4844 4.51055C19.9852 5.01092 20.2933 5.51283 20.5235 6.10466C20.7462 6.67712 20.8985 7.33137 20.9423 8.28931C20.9861 9.24926 20.9965 9.55575 20.9965 12C20.9965 14.4443 20.9861 14.7507 20.9423 15.7107C20.8985 16.6686 20.7462 17.3229 20.5235 17.8953C20.2933 18.4872 19.9852 18.9891 19.4844 19.4895C18.9836 19.9898 18.4812 20.2975 17.8888 20.5275C17.3157 20.75 16.6608 20.9021 15.7019 20.9458C14.7411 20.9896 14.4343 21 11.9876 21C9.54091 21 9.23411 20.9896 8.27326 20.9458C7.31433 20.9021 6.65948 20.75 6.08642 20.5275C5.494 20.2975 4.9916 19.9898 4.49077 19.4895C3.98994 18.9891 3.6819 18.4872 3.45167 17.8953C3.22895 17.3229 3.07668 16.6686 3.03291 15.7107C2.98907 14.7507 2.9787 14.4443 2.9787 12C2.9787 9.55575 2.98907 9.24926 3.03291 8.28931C3.07668 7.33137 3.22895 6.67712 3.45167 6.10466C3.6819 5.51283 3.98994 5.01092 4.49077 4.51055C4.9916 4.01021 5.494 3.70247 6.08642 3.47247C6.65948 3.25001 7.31433 3.09785 8.27326 3.05416ZM15.6279 4.6741C14.678 4.6308 14.3931 4.62162 11.9876 4.62162C9.5821 4.62162 9.2972 4.6308 8.34721 4.6741C7.46889 4.71411 6.99184 4.86073 6.6744 4.98398C6.25392 5.14725 5.95382 5.34227 5.63855 5.65723C5.32332 5.97215 5.12806 6.27196 4.96464 6.69206C4.8413 7.00919 4.69454 7.48574 4.65445 8.36323C4.61111 9.31224 4.60195 9.5969 4.60195 12C4.60195 14.4031 4.61111 14.6878 4.65445 15.6368C4.69454 16.5143 4.8413 16.9908 4.96464 17.3079C5.12806 17.728 5.32332 18.0278 5.63855 18.3428C5.95382 18.6577 6.25392 18.8528 6.6744 19.016C6.99184 19.1393 7.46889 19.2859 8.34725 19.3259C9.29705 19.3692 9.58196 19.3784 11.9876 19.3784C14.3932 19.3784 14.6781 19.3692 15.6279 19.3259C16.5063 19.2859 16.9833 19.1393 17.3008 19.016C17.7213 18.8528 18.0214 18.6577 18.3366 18.3428C18.6519 18.0278 18.8471 17.728 19.0105 17.3079C19.1339 16.9908 19.2806 16.5143 19.3207 15.6368C19.3641 14.6878 19.3732 14.4031 19.3732 12C19.3732 9.5969 19.3641 9.31224 19.3207 8.36323C19.2806 7.48574 19.1339 7.00919 19.0105 6.69206C18.8471 6.27196 18.6519 5.97215 18.3366 5.65723C18.0214 5.34227 17.7213 5.14725 17.3008 4.98398C16.9833 4.86073 16.5063 4.71411 15.6279 4.6741ZM8.99787 12.009C8.99787 13.6324 10.3424 14.9485 12.0008 14.9485C13.6593 14.9485 15.0038 13.6324 15.0038 12.009C15.0038 10.3855 13.6593 9.06948 12.0008 9.06948C10.3424 9.06948 8.99787 10.3855 8.99787 12.009ZM7.37466 12.009C7.37466 9.50799 9.44588 7.48056 12.0008 7.48056C14.5558 7.48056 16.627 9.50799 16.627 12.009C16.627 14.51 14.5558 16.5374 12.0008 16.5374C9.44588 16.5374 7.37466 14.51 7.37466 12.009ZM16.1487 8.49799C16.7457 8.49799 17.2297 8.02423 17.2297 7.43978C17.2297 6.85533 16.7457 6.38157 16.1487 6.38157C15.5516 6.38157 15.0676 6.85533 15.0676 7.43978C15.0676 8.02423 15.5516 8.49799 16.1487 8.49799Z"/></svg> </symbol>
+<symbol id="icon-pinterest">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.00043 9.157C4.00043 11.129 4.74543 12.882 6.34643 13.535C6.60843 13.642 6.84443 13.539 6.91943 13.249C6.97343 13.048 7.09743 12.54 7.15343 12.329C7.23043 12.041 7.20143 11.941 6.98943 11.69C6.52743 11.146 6.23343 10.441 6.23343 9.443C6.23343 6.548 8.39943 3.955 11.8744 3.955C14.9504 3.955 16.6424 5.835 16.6424 8.347C16.6424 11.651 15.1794 14.439 13.0084 14.439C11.8094 14.439 10.9134 13.447 11.2004 12.231C11.5454 10.78 12.2114 9.214 12.2114 8.166C12.2114 7.228 11.7094 6.445 10.6674 6.445C9.44143 6.445 8.45643 7.713 8.45643 9.411C8.45643 10.493 8.82243 11.224 8.82243 11.224C8.82243 11.224 7.56843 16.538 7.34843 17.468C6.91043 19.321 7.28243 21.593 7.31443 21.823C7.33243 21.958 7.50743 21.991 7.58743 21.888C7.69943 21.74 9.15843 19.938 9.65543 18.138C9.79543 17.629 10.4614 14.988 10.4614 14.988C10.8604 15.748 12.0234 16.417 13.2604 16.417C16.9444 16.417 19.4434 13.059 19.4434 8.564C19.4434 5.165 16.5644 2 12.1894 2C6.74443 2 4.00043 5.903 4.00043 9.157Z"/></svg> </symbol>
+<symbol id="icon-website">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2V2ZM11 19.93C7.05 19.44 4 16.08 4 12C4 11.38 4.08 10.79 4.21 10.21L9 15V16C9 17.1 9.9 18 11 18V19.93V19.93ZM17.9 17.39C17.64 16.58 16.9 16 16 16H15V13C15 12.45 14.55 12 14 12H8V10H10C10.55 10 11 9.55 11 9V7H13C14.1 7 15 6.1 15 5V4.59C17.93 5.78 20 8.65 20 12C20 14.08 19.2 15.97 17.9 17.39V17.39Z"/></svg> </symbol>
+<symbol id="icon-youtube">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M19.8139 5.42068C20.6744 5.65216 21.352 6.3342 21.582 7.20034C22 8.77011 22 12.0455 22 12.0455C22 12.0455 22 15.3207 21.582 16.8907C21.352 17.7567 20.6744 18.4387 19.8139 18.6703C18.2542 19.0909 12 19.0909 12 19.0909C12 19.0909 5.7458 19.0909 4.18614 18.6703C3.32568 18.4387 2.64795 17.7567 2.41795 16.8907C2 15.3207 2 12.0455 2 12.0455C2 12.0455 2 8.77011 2.41795 7.20034C2.64795 6.3342 3.32568 5.65216 4.18614 5.42068C5.7458 5 12 5 12 5C12 5 18.2542 5 19.8139 5.42068ZM15.1818 12.0456L9.95455 15.0192V9.0717L15.1818 12.0456Z"/></svg> </symbol>
+<symbol id="icon-x">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.6468 10.4686L20.9321 2H19.2057L12.8799 9.3532L7.82741 2H2L9.6403 13.1193L2 22H3.72649L10.4068 14.2348L15.7425 22H21.57L13.6468 10.4686ZM11.2821 13.2173L10.508 12.1101L4.34857 3.29968H7.00037L11.9711 10.4099L12.7452 11.5172L19.2066 20.7594H16.5548L11.2821 13.2173Z"/></svg> </symbol>
+<symbol id="icon-privacy-options">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 14"><path fill="#FFF" d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"/><path fill="#06f" d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"/><path fill="#FFF" d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"/><path fill="#06f" d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"/>​</svg> </symbol>
+<symbol id="mntl-dotdash-universal-nav__logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="5 2.8 290 69"><circle cx="39.6" cy="37.4" r="34.3" fill="#f44b34"/><path fill="#fff" d="M50.4 17.9c-1.7-1.8-4-2.6-7-2.6-9.1-.1-12.4-.1-13.2-.1L27.3 22h8.1L30 28v21h-.1l.1.1v6.7l-3.6 4h18.5L53 51V25c0-.1.1-4.3-2.6-7.1zm-5.2 19.6-7.4 7.8V41l7.4-7.8v4.3zm-7.4-15.4h3c.9 0 2.1-.1 3.1.9s1.4 2.5 1.4 4.9v3.6l-7.4 7.8-.1-17.2zm-4.9 30.1 3.3-3.6 9-9.5v13.1c0 .1-12.3.1-12.3 0z"/><path fill="#009ad9" d="m99.645 22.637 6.505-6.506 4.172 4.172-6.505 6.506zM121 44l4.2 4.2 6.5-6.5-4.2-4.2zm-3.2-31.2c1.8-1.8 4.7-1.8 6.5 0 1.9 1.9 1.7 4.8 0 6.5l-3.3 3.3 4.2 4.2 3.3-3.3c2-2 4.9-1.6 6.5 0 2 2 1.6 4.9 0 6.5l-3.3 3.3 4.2 4.2 3.3-3.3c4.2-4.2 4-10.8 0-14.8-2.8-2.8-6.1-3.1-7.6-3.1.1-1.5-.3-4.8-3.1-7.6-3.9-3.9-10.6-4.2-14.8 0l-3.3 3.3 4.2 4.2 3.2-3.4zm-7.5 20.6 4.2 4.1L121 31l-4.2-4.1-6.5 6.5z"/><path fill="#6ebd44" d="m99.6 52.4 6.6 6.5 4.1-4.2-6.5-6.5zm36.3-14.9-4.2 4.2L135 45c1.6 1.6 2 4.5 0 6.5-1.6 1.6-4.5 2.1-6.5 0l-3.3-3.3-4.2 4.2 3.3 3.3c1.7 1.7 1.9 4.6 0 6.5-1.8 1.8-4.7 1.8-6.5 0l-3.3-3.3-4.2 4.2 3.3 3.3c4.2 4.2 10.9 3.9 14.8 0 2.8-2.8 3.1-6.1 3.1-7.6 1.5 0 4.8-.3 7.6-3.1 4-4 4.2-10.6 0-14.8l-3.2-3.4zm-25.6 4.2 6.5 6.5L121 44l-6.5-6.5zm14.9-14.8L121 31l6.5 6.5 4.2-4.1-6.5-6.5z"/><path fill="#f68f1e" d="m110.332 54.607 6.506-6.506 4.172 4.172-6.506 6.505zM102.8 62.2c-1.6 1.6-4.5 2-6.5 0-1.6-1.6-2.1-4.5 0-6.5l3.3-3.3-4.2-4.2-3.3 3.3c-1.7 1.7-4.6 1.9-6.5 0-1.8-1.8-1.8-4.7 0-6.5l3.3-3.3-4.2-4.2-3.3 3.3c-4.2 4.2-3.9 10.9 0 14.8 2.8 2.8 6.1 3.1 7.6 3.1 0 1.5.3 4.8 3.1 7.6 4 4 10.6 4.2 14.8 0l3.3-3.3-4.2-4.2-3.2 3.4zm3.4-24.7L99.6 44l4.2 4.2 6.5-6.5zM95.5 26.9 89 33.4l4.1 4.1 6.5-6.5z"/><path fill="#ec174c" d="m99.6 44-6.5-6.5-4.1 4.2 6.5 6.5zm-14-14c-1.8-1.8-1.8-4.7 0-6.5 1.9-1.9 4.8-1.7 6.5 0l3.3 3.3 4.2-4.2-3.3-3.3c-2-2-1.6-4.9 0-6.5 2-2 4.9-1.6 6.5 0l3.3 3.3 4.2-4.2-3.3-3.2c-4.2-4.2-10.8-4-14.8 0-2.8 2.8-3.1 6.1-3.1 7.6-1.5-.1-4.9.3-7.6 3.1-3.9 3.9-4.2 10.6 0 14.8l3.3 3.3 4.2-4.2-3.4-3.3zm24.73-9.682 4.172-4.172 6.505 6.505-4.172 4.172zM106.2 37.5l4.1-4.1-6.5-6.5-4.2 4.1 6.6 6.5z"/><path fill="#573357" d="m106.142 16.042 4.171-4.172 4.172 4.172-4.171 4.172z"/><path fill="#be272d" d="m84.81 37.543 4.172-4.172 4.172 4.172-4.172 4.172z"/><path fill="#008e4c" d="m127.497 37.555 4.171-4.172 4.172 4.172-4.171 4.172z"/><path fill="#7a773e" d="m106.172 58.866 4.172-4.172 4.172 4.172-4.172 4.172z"/><path fill="#443639" d="m116.856 26.74 4.172-4.172 4.172 4.172-4.172 4.172z"/><path fill="#803136" d="m95.455 48.169 4.172-4.172 4.172 4.172-4.172 4.172z"/><path fill="#593438" d="m95.446 26.753 4.172-4.172 4.172 4.173-4.172 4.171z"/><path fill="#443639" d="m106.155 37.456 4.172-4.172 4.172 4.171-4.172 4.172z"/><path fill="#2a6442" d="m116.871 48.153 4.172-4.172 4.172 4.172-4.172 4.172z"/><path d="M170.4 13.5c-2.5-2.2-5.7-3.3-9.6-3.3h-7.2v23.6h7.6c3.8 0 7-1.1 9.4-3.3s3.6-5 3.6-8.5-1.3-6.3-3.8-8.5zm.1 8.5c0 2.6-.9 4.7-2.6 6.2-1.7 1.6-4.1 2.3-7 2.3h-3.8V13.4h3.8c2.9 0 5.2.8 7 2.3 1.7 1.5 2.6 3.7 2.6 6.3zm14.6-6.3c-2.5 0-4.7.9-6.4 2.7s-2.6 4-2.6 6.6.9 4.8 2.6 6.6c1.7 1.8 3.9 2.7 6.4 2.7h.1v-.1c2.5 0 4.7-.9 6.4-2.7s2.6-4 2.6-6.6c0-2.5-.9-4.8-2.6-6.6-1.8-1.7-3.9-2.6-6.5-2.6zm4.1 13.7c-.5.6-1.1 1-1.8 1.3s-1.4.3-2.2.3c-1.7 0-3-.6-4.1-1.8-1.1-1.2-1.6-2.7-1.6-4.4 0-1.7.6-3.2 1.6-4.3 1.1-1.2 2.4-1.7 4.1-1.7 1.6 0 3 .6 4 1.7 1.1 1.2 1.6 2.6 1.6 4.3 0 1.9-.5 3.4-1.6 4.6zm16.9.8c-.5.6-1.3.9-2.3.9-1.6 0-2.4-.9-2.4-2.7v-9.2h5v-3h-5v-4.4h-3.3v4.4h-2.9l.1 3h2.9v9.3c0 1.9.5 3.3 1.4 4.3s2.2 1.5 3.9 1.5c1.8 0 3.2-.5 4.2-1.5l-1.6-2.6zm38.1-11.6c-1.5-2-3.5-3-6.1-3-2.5 0-4.5.9-6.1 2.7-1.6 1.8-2.4 4-2.4 6.6 0 2.7.8 4.9 2.5 6.6 1.7 1.8 3.7 2.7 6.1 2.7 2.6 0 4.6-1 6.1-3.1v2.6h3.4V16.1h-3.4v2.5h-.1zm-1.6 2c1.1 1.2 1.6 2.6 1.6 4.3s-.5 3.2-1.6 4.4c-.5.6-1.1 1-1.8 1.3s-1.4.4-2.2.4c-1.7 0-3-.6-4.1-1.8-1.1-1.2-1.6-2.7-1.6-4.4 0-1.7.6-3.2 1.6-4.3 1.1-1.2 2.4-1.7 4.1-1.7 1.6.1 2.9.6 4 1.8zm17.9 3.6c-.9-.3-1.9-.6-3-.9-1-.3-1.9-.6-2.5-1-.7-.4-1-1-1-1.6l.1-.1c0-.7.3-1.2.9-1.6.6-.4 1.4-.6 2.3-.6 2 0 3.4.7 4.5 2l2-2c-1.3-1.8-3.5-2.7-6.6-2.7-1.9 0-3.5.5-4.7 1.4-1.2 1-1.7 2.1-1.7 3.5 0 1.2.3 2.1 1 2.9s1.5 1.3 2.6 1.7c1.1.4 2 .7 2.9 1 1 .3 1.8.7 2.4 1.1.7.5 1 1 1 1.8s-.3 1.4-.9 1.8c-.6.5-1.4.7-2.5.7-2.3 0-4.1-.8-5.3-2.3l-2 2.2c1.5 1.9 3.9 2.9 7.1 2.9 2.2 0 3.9-.5 5.1-1.5s1.8-2.3 1.8-3.8c0-1.2-.3-2.2-1-3-.6-.9-1.5-1.4-2.5-1.9zm14.9-8.6c-2.3 0-4.1.8-5.2 2.5V8.4h-3.4v25.4h3.4l.1-10.3c0-1.4.4-2.6 1.2-3.4.8-.8 1.8-1.2 3.2-1.2 1.3 0 2.4.4 3.2 1.3.8.8 1.2 2 1.2 3.4v10.3h3.4V23c0-2.3-.6-4-1.9-5.4-1.4-1.4-3.1-2-5.2-2zm-52.2 3c-1.5-2-3.5-3-6.1-3-2.5 0-4.5.9-6.1 2.7-1.6 1.8-2.4 4-2.4 6.6 0 2.7.8 4.9 2.5 6.6 1.7 1.8 3.7 2.7 6.1 2.7 2.6 0 4.6-1 6.1-3.1v2.6h3.4V8.4h-3.4v10.2h-.1zm-1.6 2c1.1 1.2 1.6 2.6 1.6 4.3s-.5 3.2-1.6 4.4c-1.1 1.2-2.4 1.8-4 1.8-1.7 0-3-.6-4.1-1.8-1.1-1.2-1.6-2.7-1.6-4.4 0-1.7.6-3.2 1.6-4.3 1.1-1.2 2.4-1.7 4.1-1.7 1.6 0 2.9.5 4 1.7zm48.8 19.9h-3.6v19.1c0 2.4.7 4.1 2.1 5.1 1.2.9 3.1 1.4 5.6 1.4h.1v-3h-.1c-1.2 0-2.1-.2-2.7-.6-.9-.6-1.4-1.7-1.4-3.3V51h4.1v-3h-4.1v-7.5zm-96.2 7c-1.4 0-2.6.3-3.7 1-1 .6-1.7 1.5-2.3 2.6-1.2-2.4-3.2-3.6-6-3.6-2.2 0-4 .9-5.2 2.6V48h-3.5v18.2h3.5l.2-10.7c0-1.5.4-2.6 1.1-3.5.7-.9 1.8-1.3 3.1-1.3s2.3.4 3.1 1.3c.8.9 1.2 2 1.2 3.5v10.6h3.4V55.5c0-1.5.4-2.6 1.2-3.5s1.8-1.3 3.2-1.3c1.3 0 2.3.4 3.1 1.3.7.9 1.1 2 1.1 3.5v10.6h3.5V55c0-2.3-.6-4.1-1.9-5.5-1.3-1.3-3-2-5.1-2zm18.9 0c-2.5 0-4.7.9-6.4 2.8-1.7 1.9-2.6 4.1-2.6 6.8s.9 5 2.7 6.8c1.8 1.8 4.1 2.8 6.8 2.8h.1v-.1c1.4 0 2.7-.3 3.9-.7 1.2-.5 2.2-1.1 3-1.9l-1.8-2.4c-1.3 1.3-3 2-5 2-1.7 0-3.1-.5-4.2-1.6-1.1-1-1.8-2.4-2-4h14.3c.1-.3.1-.7.1-1.2 0-2.5-.9-4.7-2.6-6.5-1.6-1.8-3.8-2.8-6.3-2.8zm.1 3c1.4 0 2.6.5 3.6 1.3 1 .9 1.6 2.1 1.8 3.8h-10.8c.3-1.5.9-2.7 1.8-3.7 1-.9 2.2-1.4 3.6-1.4zm22.5-2.3c-.6-.5-1.6-.8-2.8-.8-1.9 0-3.4.9-4.5 2.6v-2H205v18.2h3.5l-.1-10.5c0-1.5.3-2.7.9-3.6.6-.9 1.5-1.3 2.6-1.3.9 0 1.7.2 2.3.7h.1l1.4-3.3zm9-.7c-2.5 0-4.7.9-6.4 2.8-1.7 1.9-2.6 4.1-2.6 6.8s.9 5 2.7 6.8c1.8 1.8 4.1 2.8 6.8 2.8h.1v-.1c1.4 0 2.7-.3 3.9-.7 1.2-.5 2.2-1.1 3-1.9l-1.8-2.4c-1.3 1.3-3 2-5 2-1.7 0-3.1-.5-4.2-1.6-1.1-1-1.8-2.4-2-4h14.3c.1-.3.1-.7.1-1.2 0-2.5-.9-4.7-2.6-6.5-1.6-1.8-3.8-2.8-6.3-2.8zm.1 3c1.4 0 2.6.5 3.6 1.3 1 .9 1.6 2.1 1.8 3.8h-10.8c.3-1.5.9-2.7 1.8-3.7.9-.9 2.1-1.4 3.6-1.4zm26.1 0c-1.5-2-3.6-3.1-6.3-3.1-2.5 0-4.6.9-6.3 2.7s-2.5 4.1-2.5 6.8.9 5 2.5 6.8c1.7 1.8 3.8 2.7 6.3 2.7 2.6 0 4.7-1.1 6.3-3.2v2.7h3.5V40.5h-3.5v10zm-1.7 2c1.1 1.2 1.6 2.7 1.6 4.5 0 1.7-.6 3.3-1.6 4.5-1.1 1.2-2.4 1.8-4.2 1.8-1.7 0-3.1-.6-4.2-1.8-1.1-1.2-1.7-2.7-1.7-4.5s.6-3.3 1.7-4.5c1.1-1.2 2.5-1.8 4.2-1.8 1.8.1 3.1.7 4.2 1.8zm43.5-3c-1.3-1.4-3-2.1-5.2-2.1-2.4 0-4.2.9-5.4 2.6v-9.6h-3.5v25.7h3.5l.1-10.5c0-1.5.4-2.6 1.2-3.5.8-.9 1.8-1.3 3.2-1.3 1.4 0 2.5.4 3.3 1.3.8.9 1.2 2 1.2 3.5v10.6h3.5V55c0-2.3-.6-4.1-1.9-5.5zM259.1 48h3.5v18.2h-3.5zm0-7.5h3.4v3.4h-3.4z"/></svg> </symbol>
+<symbol id="reviewer-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="m15.73975,0.45073l-3.73975,1.6059l-3.73866,-1.6059l-2.07997,3.50878l-3.97075,0.89094l0.37398,4.06865l-2.68383,3.07975l2.68383,3.06885l-0.37398,4.07091l3.97075,0.90079l2.07997,3.50987l3.73866,-1.61694l3.73975,1.60593l2.07889,-3.50987l3.97182,-0.90079l-0.37508,-4.0599l2.68385,-3.06885l-2.68385,-3.06875l0.37508,-4.05874l-3.97182,-0.90195l-2.07889,-3.51868zm0.59395,7.02856l1.62795,1.6279l-8.06252,8.08344l-4.17974,-4.18972l1.6279,-1.62787l2.55184,2.5629l6.43457,-6.45665z"/></svg> </symbol>
+<symbol id="icon-twitter">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.647 10.469 20.932 2h-1.726L12.88 9.353 7.827 2H2l7.64 11.12L2 22h1.726l6.68-7.765L15.743 22h5.828l-7.923-11.531Zm-2.365 2.748-.774-1.107-6.16-8.81H7l4.971 7.11.774 1.107 6.462 9.242h-2.652l-5.273-7.542Z"/></svg> </symbol>
+<symbol id="icon-email">
+<svg viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.667 3.33334H3.33366C2.41699 3.33334 1.67533 4.08334 1.67533 5.00001L1.66699 15C1.66699 15.9167 2.41699 16.6667 3.33366 16.6667H16.667C17.5837 16.6667 18.3337 15.9167 18.3337 15V5.00001C18.3337 4.08334 17.5837 3.33334 16.667 3.33334ZM16.667 6.66668L10.0003 10.8333L3.33366 6.66668V5.00001L10.0003 9.16668L16.667 5.00001V6.66668Z"/></svg> </symbol>
+<symbol id="icon-print">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20"><path fill-rule="evenodd" d="M15.834 6.667H4.167c-1.383 0-2.5 1.117-2.5 2.5v5H5V17.5h10v-3.333h3.333v-5c0-1.383-1.117-2.5-2.5-2.5zm-2.5 9.167H6.667v-4.167h6.667v4.167zm2.5-5.833c-.458 0-.833-.375-.833-.833s.375-.833.833-.833.833.375.833.833-.375.833-.833.833zM15 2.5H5v3.333h10V2.5z"/></svg> </symbol>
+<symbol id="trending-icon">
+<svg width="24" height="24" viewbox="2 6 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 6L18.29 8.29L13.41 13.17L9.41 9.17L2 16.59L3.41 18L9.41 12L13.41 16L19.71 9.71L22 12V6L16 6Z"/></svg> </symbol>
+<symbol id="close-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24.81 24.61"><path d="M.234 2.826L3.062-.002l21.75 21.75-2.828 2.829z"/><path d="M-.003 21.796L21.726.067l2.828 2.828-21.729 21.73z"/></svg> </symbol>
+<symbol id="jw-player-cc">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 240 240" focusable="false"><path d="M215,40H25c-2.7,0-5,2.2-5,5v150c0,2.7,2.2,5,5,5h190c2.7,0,5-2.2,5-5V45C220,42.2,217.8,40,215,40z M108.1,137.7c0.7-0.7,1.5-1.5,2.4-2.3l6.6,7.8c-2.2,2.4-5,4.4-8,5.8c-8,3.5-17.3,2.4-24.3-2.9c-3.9-3.6-5.9-8.7-5.5-14v-25.6c0-2.7,0.5-5.3,1.5-7.8c0.9-2.2,2.4-4.3,4.2-5.9c5.7-4.5,13.2-6.2,20.3-4.6c3.3,0.5,6.3,2,8.7,4.3c1.3,1.3,2.5,2.6,3.5,4.2l-7.1,6.9c-2.4-3.7-6.5-5.9-10.9-5.9c-2.4-0.2-4.8,0.7-6.6,2.3c-1.7,1.7-2.5,4.1-2.4,6.5v25.6C90.4,141.7,102,143.5,108.1,137.7z M152.9,137.7c0.7-0.7,1.5-1.5,2.4-2.3l6.6,7.8c-2.2,2.4-5,4.4-8,5.8c-8,3.5-17.3,2.4-24.3-2.9c-3.9-3.6-5.9-8.7-5.5-14v-25.6c0-2.7,0.5-5.3,1.5-7.8c0.9-2.2,2.4-4.3,4.2-5.9c5.7-4.5,13.2-6.2,20.3-4.6c3.3,0.5,6.3,2,8.7,4.3c1.3,1.3,2.5,2.6,3.5,4.2l-7.1,6.9c-2.4-3.7-6.5-5.9-10.9-5.9c-2.4-0.2-4.8,0.7-6.6,2.3c-1.7,1.7-2.5,4.1-2.4,6.5v25.6C135.2,141.7,146.8,143.5,152.9,137.7z"/></svg> </symbol>
+<symbol id="icon-thumbs-up">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M1 21h4V9H1v12Zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10Z"/></svg> </symbol>
+<symbol id="icon-success">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12ZM5 12L10 17L19 8L17.59 6.58L10 14.17L6.41 10.59L5 12Z" fill="green"/></svg> </symbol>
+</defs>
+</svg>
+<!-- done svg resources -->
+<!-- Google Tag Manager (Testing) -->
+<noscript><iframe src="//web.archive.org/web/20241225084146if_/https://www.googletagmanager.com/ns.html?id=GTM-P3X3VT7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager -->
+<header id="header_1-0" class="comp header mntl-header mntl-header--magazine mntl-header--myr" role="banner" data-collapsible="true" data-tracking-container="true"><a href="#main" rel="nocaes" id="mntl-skip-to-content_1-0" class="mntl-skip-to-content mntl-text-link " data-tracking-container="true"><span class="link__wrapper">Skip to content</span></a>
+<div class="mntl-header__menu-top">
+<div class="mntl-header__menu-button-container">
+<button class="mntl-header__menu-button" aria-label="Main menu for Food &amp; Wine">
+<div class="mntl-header__menu-button-inner">
+<svg class="icon icon-menu mntl-header__menu-icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-menu" href="#icon-menu"></use>
+</svg>
+<svg class="icon icon-close mntl-header__close-icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-close" href="#icon-close"></use>
+</svg>
+<div>
+</button>
+</div>
+<div class="mntl-header__logo-wrapper">
+<a href="/web/20241225084146/https://www.foodandwine.com/" rel="home nocaes" id="header-logo_1-0" aria-label="Visit Food &amp; Wine's homepage"> <div class="is-screenreader-only">Food &amp; Wine</div>
+<svg class="icon icon-logo ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-logo" href="#icon-logo"></use>
+</svg></a> </div>
+<div id="mntl-utility-nav_1-0" class="comp mntl-utility-nav"> <svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+<lineargradient id="myrecipes-gradient" x1="15.8617" y1="11.7222" x2="3.80154" y2="1.08372" gradientunits="userSpaceOnUse">
+<stop offset="0.36291" stop-color="#FF597A"/>
+<stop offset="0.572672" stop-color="#FF29C4"/>
+</lineargradient>
+</svg>
+<ul class="mntl-utility-nav__list text-utility-200">
+<li class="loc search-bar mntl-utility-nav__search mntl-utility-nav__partial-menu-item"><div id="mntl-search-form_1-0" class="comp mntl-search-form text-utility-300" data-tracking-container="true"> <button class="mntl-search-form__icon-button" aria-label="Search">
+<svg class="icon icon-search ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-search" href="#icon-search"></use>
+</svg>
+</button>
+<form class="mntl-search-form__form" role="search" action="/web/20241225084146/https://www.foodandwine.com/search" method="get">
+<div class="mntl-search-form__input-group input-group">
+<label for="mntl-search-form__search-input" class="mntl-search-form__label text-utility-300-prominent">Search</label>
+<input type="text" name="q" id="mntl-search-form__search-input" class="mntl-search-form__input" placeholder="What are you looking for?" type="text" required="required" value="" autocomplete="off">
+<button class="mntl-search-form__button text-label-300 button--contained-standard-square" aria-label="Click to search">
+<svg class="icon icon-search ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-search" href="#icon-search"></use>
+</svg>
+</button>
+<button class="mntl-search-form__close-button" aria-label="Close search bar">
+<svg class="icon icon-close ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-close" href="#icon-close"></use>
+</svg>
+</button>
+</div>
+</form>
+<div class="loc validation-message mntl-search-form__validation"><div id="mntl-search-form__validation-message_1-0" class="comp mntl-search-form__validation-message mntl-message-banner--error mntl-message-banner is-hidden mntl-message-banner--error" data-close-class="is-hidden" role="alert"> <svg class="icon icon-error mntl-message-banner__prefix-icon mntl-message-banner__icon ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-error" href="#icon-error"></use>
+</svg>
+<span class="text-utility-300-prominent mntl-message-banner__text ">
+Please fill out this field.
+</span>
+</div>
+</div></div>
+</li>
+<li class="mntl-utility-nav__signin mntl-utility-nav__signin--login mntl-utility-nav__full-menu-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/authentication/login?regSource=19018&amp;relativeRedirectUrl=%2Ftravel%2Frestaurants%2Fbuford-highway-atlanta-best-restaurants" rel="nofollow nocaes" class="mntl-utility-nav__sublist-link"> <svg class="icon icon-account ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-account" href="#icon-account"></use>
+</svg>
+<span class="mntl-utility-nav__sublist-link-text">
+Log In
+</span>
+</a> </li>
+<li class="mntl-utility-nav__account mntl-utility-nav__full-menu-item mntl-utility-nav__list-item state-sign-out">
+<button class="mntl-utility-nav__title text-utility-200">
+<svg class="icon icon-account ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-account" href="#icon-account"></use>
+</svg>
+<span class="mntl-utility-nav__title-text">My Account</span>
+<svg class="icon icon-caret_down ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-caret_down" href="#icon-caret_down"></use>
+</svg>
+</button>
+<div class="mntl-utility-nav__sublist-container">
+<ul class="mntl-utility-nav__link-list">
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/authentication/logout?relativeRedirectUrl=%2Ftravel%2Frestaurants%2Fbuford-highway-atlanta-best-restaurants" rel="nofollow nocaes" class="mntl-utility-nav__sublist-link"> Log Out
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="mntl-utility-nav__magazine mntl-utility-nav__full-menu-item mntl-utility-nav__list-item">
+<button class="mntl-utility-nav__title text-utility-200">
+<span>Magazine</span>
+<svg class="icon icon-caret_down ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-caret_down" href="#icon-caret_down"></use>
+</svg>
+</button>
+<div class="mntl-utility-nav__sublist-container">
+<ul class="mntl-utility-nav__link-list">
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.magazines.com/food-wine-magazine.html?utm_source=foodandwine.com&amp;utm_medium=owned&amp;utm_campaign=i111fwr1w2664" target="_blank" rel="noopener nofollow nocaes" class="mntl-utility-nav__sublist-link "> Subscribe
+</a> </li>
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="http://web.archive.org/web/20241225084146/https://w1.buysub.com/servlet/CSGateway?cds_mag_code=FAW" target="_blank" rel="noopener nofollow nocaes" class="mntl-utility-nav__sublist-link "> Manage Your Subscription
+</a> </li>
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.magazines.com/food-wine-magazine.html" target="_blank" rel="noopener nofollow nocaes" class="mntl-utility-nav__sublist-link "> Give a Gift Subscription
+</a> </li>
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="/web/20241225084146/https://www.foodandwine.com/about-us-6373913#toc-contact-us" rel="nocaes" class="mntl-utility-nav__sublist-link "> Get Help
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="loc newsletter-link-wrapper mntl-utility-nav__newsletter mntl-utility-nav__full-menu-item"><a href="#" rel="nocaes" data-a11y-dialog-show="newsletter-dialog-header" id="mntl-newsletter-dialog--header-link_1-0" role="button" class="mntl-newsletter-dialog--header-link dialog-link mntl-text-link " data-tracking-container="true"><span class="link__wrapper">Newsletters</span></a>
+</li>
+<li class="mntl-utility-nav__sweepstakes mntl-utility-nav__full-menu-item">
+<a href="/web/20241225084146/https://www.foodandwine.com/sweepstakes" rel="nocaes"> Sweepstakes
+</a> </li>
+<li class="mntl-utility-nav__subscribe mntl-utility-nav__partial-menu-item text-label-300">
+<a href="http://web.archive.org/web/20241225084146/https://www.magazines.com/food-wine-magazine.html?utm_source=foodandwine.com&amp;utm_medium=owned&amp;utm_campaign=i111fwr1w2664" target="_blank" rel="noopener nofollow nocaes"> Subscribe
+</a> </li>
+<li class="mntl-utility-nav__signin--myr mntl-utility-nav__full-menu-item mntl-utility-nav__list-item myr-login">
+<a class="mntl-utility-nav__sublist-link myr-login-trigger" href="javascript:void(0)" aria-label="Trigger interstitial modal to log in to MyRecipes" data-regsource="pqj4z4">
+<svg class="icon save-icon-favorite icon-myr-favorite">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#save-icon-favorite" href="#save-icon-favorite"></use>
+</svg>
+<svg class="icon icon-myr-logo ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-myr-logo" href="#icon-myr-logo"></use>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="mntl-header__nav-panel">
+<nav id="mntl-fullscreen-nav_1-0" class="comp mntl-fullscreen-nav " role="navigation" data-tracking-container="true" aria-label="Header">
+<div id="mntl-fullscreen-nav__search_1-0" class="comp mntl-fullscreen-nav__search mntl-search-form text-utility-300" data-tracking-container="true">
+<form class="mntl-fullscreen-nav__search__form" role="search" action="/web/20241225084146/https://www.foodandwine.com/search" method="get">
+<div class="mntl-search-form__input-group input-group">
+<label for="mntl-fullscreen-nav__search__search-input" class="mntl-search-form__label text-utility-300-prominent">Search</label>
+<input type="text" name="q" id="mntl-fullscreen-nav__search__search-input" class="mntl-search-form__input" placeholder="What are you looking for?" type="text" required="required" value="" autocomplete="off">
+<button class="mntl-search-form__button text-label-300 button--contained-standard-square" aria-label="Click to search">
+<svg class="icon icon-search ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-search" href="#icon-search"></use>
+</svg>
+</button>
+</div>
+</form>
+<div class="loc validation-message mntl-search-form__validation"><div id="mntl-search-form__validation-message_2-0" class="comp mntl-search-form__validation-message mntl-message-banner--error mntl-message-banner is-hidden mntl-message-banner--error" data-close-class="is-hidden" role="alert"> <svg class="icon icon-error mntl-message-banner__prefix-icon mntl-message-banner__icon ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-error" href="#icon-error"></use>
+</svg>
+<span class="text-utility-300-prominent mntl-message-banner__text ">
+Please fill out this field.
+</span>
+</div>
+</div></div>
+<ul class="mntl-fullscreen-nav__list">
+<li class="mntl-fullscreen-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/food-7499700" class="mntl-fullscreen-nav__title text-label-300" aria-expanded="false" aria-controls="mntl-fullscreen-nav__sublist-food-mntl-fullscreen-nav">
+Food
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg>
+</a>
+<div class="mntl-fullscreen-nav__sublist-container" id="mntl-fullscreen-nav__sublist-food-mntl-fullscreen-nav">
+<div class="mntl-fullscreen-nav__sublist-header">
+<button class="mntl-fullscreen-nav__sublist-back-button" role="button" aria-label="Back to main menu">
+<svg class="icon icon-arrow-left ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-arrow-left" href="#icon-arrow-left"></use>
+</svg>
+</button>
+<span class="mntl-fullscreen-nav__sublist-header-text text-title-200">Food</span>
+</div>
+<ul class="mntl-fullscreen-nav__sublist">
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/recipes" rel="nocaes"> Recipes
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/ingredients" rel="nocaes"> Ingredients
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/cooking-techniques" rel="nocaes"> Cooking Techniques
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/recipes/cuisine" rel="nocaes"> World Cuisines
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/holidays-events" rel="nocaes"> Holidays &amp; Occasions
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/special-diets" rel="nocaes"> Dietary Preferences
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="mntl-fullscreen-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/drinks" class="mntl-fullscreen-nav__title text-label-300" aria-expanded="false" aria-controls="mntl-fullscreen-nav__sublist-drink-mntl-fullscreen-nav">
+Drink
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg>
+</a>
+<div class="mntl-fullscreen-nav__sublist-container" id="mntl-fullscreen-nav__sublist-drink-mntl-fullscreen-nav">
+<div class="mntl-fullscreen-nav__sublist-header">
+<button class="mntl-fullscreen-nav__sublist-back-button" role="button" aria-label="Back to main menu">
+<svg class="icon icon-arrow-left ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-arrow-left" href="#icon-arrow-left"></use>
+</svg>
+</button>
+<span class="mntl-fullscreen-nav__sublist-header-text text-title-200">Drink</span>
+</div>
+<ul class="mntl-fullscreen-nav__sublist">
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/cocktails" rel="nocaes"> Cocktails
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/wine" rel="nocaes"> Wine
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/beer" rel="nocaes"> Beer
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/cocktails-spirits" rel="nocaes"> Spirits
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/non-alcoholic-drinks-7496802" rel="nocaes"> Nonalcoholic Drinks
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="mntl-fullscreen-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/restaurants" class="mntl-fullscreen-nav__title text-label-300" aria-expanded="false" aria-controls="mntl-fullscreen-nav__sublist-restaurants-mntl-fullscreen-nav">
+Restaurants
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg>
+</a>
+<div class="mntl-fullscreen-nav__sublist-container" id="mntl-fullscreen-nav__sublist-restaurants-mntl-fullscreen-nav">
+<div class="mntl-fullscreen-nav__sublist-header">
+<button class="mntl-fullscreen-nav__sublist-back-button" role="button" aria-label="Back to main menu">
+<svg class="icon icon-arrow-left ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-arrow-left" href="#icon-arrow-left"></use>
+</svg>
+</button>
+<span class="mntl-fullscreen-nav__sublist-header-text text-title-200">Restaurants</span>
+</div>
+<ul class="mntl-fullscreen-nav__sublist">
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/bars" rel="nocaes"> Bars &amp; Pubs
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/bakeries-7496810" rel="nocaes"> Bakeries
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/chefs" rel="nocaes"> Chefs
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="mntl-fullscreen-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/news" class="mntl-fullscreen-nav__title text-label-300" aria-expanded="false" aria-controls="mntl-fullscreen-nav__sublist-news-mntl-fullscreen-nav">
+News
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg>
+</a>
+<div class="mntl-fullscreen-nav__sublist-container" id="mntl-fullscreen-nav__sublist-news-mntl-fullscreen-nav">
+<div class="mntl-fullscreen-nav__sublist-header">
+<button class="mntl-fullscreen-nav__sublist-back-button" role="button" aria-label="Back to main menu">
+<svg class="icon icon-arrow-left ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-arrow-left" href="#icon-arrow-left"></use>
+</svg>
+</button>
+<span class="mntl-fullscreen-nav__sublist-header-text text-title-200">News</span>
+</div>
+<ul class="mntl-fullscreen-nav__sublist">
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/food-news-7496849" rel="nocaes"> Food News
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/drink-news-7496852" rel="nocaes"> Drink News
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/celebrity-news-7496866" rel="nocaes"> Celebrity News
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/restaurant-news-7496856" rel="nocaes"> Restaurant News
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/tv-entertainment-news-7496868" rel="nocaes"> TV &amp; Entertainment News
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="mntl-fullscreen-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel" class="mntl-fullscreen-nav__title text-label-300" aria-expanded="false" aria-controls="mntl-fullscreen-nav__sublist-travel-mntl-fullscreen-nav">
+Travel
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg>
+</a>
+<div class="mntl-fullscreen-nav__sublist-container" id="mntl-fullscreen-nav__sublist-travel-mntl-fullscreen-nav">
+<div class="mntl-fullscreen-nav__sublist-header">
+<button class="mntl-fullscreen-nav__sublist-back-button" role="button" aria-label="Back to main menu">
+<svg class="icon icon-arrow-left ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-arrow-left" href="#icon-arrow-left"></use>
+</svg>
+</button>
+<span class="mntl-fullscreen-nav__sublist-header-text text-title-200">Travel</span>
+</div>
+<ul class="mntl-fullscreen-nav__sublist">
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/united-states" rel="nocaes"> United States
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/europe" rel="nocaes"> Europe
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/asia" rel="nocaes"> Asia
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/latin-america-7496820" rel="nocaes"> Latin America
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/australia-oceania-7496843" rel="nocaes"> Australia &amp; Oceania
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel-guides-7496847" rel="nocaes"> Travel Guides
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/global-tastemakers-7496846" rel="nocaes"> Global Tastemakers
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="mntl-fullscreen-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/what-to-buy" class="mntl-fullscreen-nav__title text-label-300" aria-expanded="false" aria-controls="mntl-fullscreen-nav__sublist-what-to-buy-mntl-fullscreen-nav">
+What to Buy
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg>
+</a>
+<div class="mntl-fullscreen-nav__sublist-container" id="mntl-fullscreen-nav__sublist-what-to-buy-mntl-fullscreen-nav">
+<div class="mntl-fullscreen-nav__sublist-header">
+<button class="mntl-fullscreen-nav__sublist-back-button" role="button" aria-label="Back to main menu">
+<svg class="icon icon-arrow-left ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-arrow-left" href="#icon-arrow-left"></use>
+</svg>
+</button>
+<span class="mntl-fullscreen-nav__sublist-header-text text-title-200">What to Buy</span>
+</div>
+<ul class="mntl-fullscreen-nav__sublist">
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/what-to-buy/food-wine-faves" rel="nocaes"> Food &amp; Wine Faves
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/trends-deals-7153185" rel="nocaes"> Trends &amp; Deals
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/cookware-7153157" rel="nocaes"> Cookware
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/bar-drinks-7153145" rel="nocaes"> Bar &amp; Drinks
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/small-appliances-7153152" rel="nocaes"> Small Appliances
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/knives-7153166" rel="nocaes"> Knives
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/grilling-bbq-7153168" rel="nocaes"> Grilling &amp; BBQ
+</a> </li>
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/hosting-dining-7153171" rel="nocaes"> Hosting &amp; Dining
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="mntl-fullscreen-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/about-us-6373913" class="mntl-fullscreen-nav__title text-label-300" aria-expanded="false" aria-controls="mntl-fullscreen-nav__sublist-about-us-mntl-fullscreen-nav">
+About Us
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg>
+</a>
+<div class="mntl-fullscreen-nav__sublist-container" id="mntl-fullscreen-nav__sublist-about-us-mntl-fullscreen-nav">
+<div class="mntl-fullscreen-nav__sublist-header">
+<button class="mntl-fullscreen-nav__sublist-back-button" role="button" aria-label="Back to main menu">
+<svg class="icon icon-arrow-left ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-arrow-left" href="#icon-arrow-left"></use>
+</svg>
+</button>
+<span class="mntl-fullscreen-nav__sublist-header-text text-title-200">About Us</span>
+</div>
+<ul class="mntl-fullscreen-nav__sublist">
+<li class="mntl-fullscreen-nav__sublist-item text-utility-200">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/events-7496871" rel="nocaes"> Events
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="mntl-fullscreen-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.magazines.com/food-wine-magazine.html?utm_source=foodandwine.com&amp;utm_medium=owned&amp;utm_campaign=i111fwr1w2664" target="_blank" rel="noopener nofollow nocaes" class="mntl-fullscreen-nav__link text-label-300 "> Subscribe
+</a> </li>
+</ul>
+<div id="mntl-fullscreen-nav__utility-nav_1-0" class="comp mntl-fullscreen-nav__utility-nav mntl-utility-nav"> <svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+<lineargradient id="myrecipes-gradient" x1="15.8617" y1="11.7222" x2="3.80154" y2="1.08372" gradientunits="userSpaceOnUse">
+<stop offset="0.36291" stop-color="#FF597A"/>
+<stop offset="0.572672" stop-color="#FF29C4"/>
+</lineargradient>
+</svg>
+<ul class="mntl-utility-nav__list text-utility-200">
+<li class="mntl-utility-nav__signin mntl-utility-nav__signin--login mntl-utility-nav__full-menu-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/authentication/login?regSource=19018&amp;relativeRedirectUrl=%2Ftravel%2Frestaurants%2Fbuford-highway-atlanta-best-restaurants" rel="nofollow nocaes" class="mntl-utility-nav__sublist-link"> <svg class="icon icon-account ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-account" href="#icon-account"></use>
+</svg>
+<span class="mntl-utility-nav__sublist-link-text">
+Log In
+</span>
+</a> </li>
+<li class="mntl-utility-nav__account mntl-utility-nav__full-menu-item mntl-utility-nav__list-item state-sign-out">
+<button class="mntl-utility-nav__title text-utility-200">
+<svg class="icon icon-account ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-account" href="#icon-account"></use>
+</svg>
+<span class="mntl-utility-nav__title-text">My Account</span>
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg>
+</button>
+<div class="mntl-utility-nav__sublist-container">
+<div class="mntl-utility-nav__sublist-header">
+<button class="mntl-utility-nav__sublist-back-button" role="button" aria-label="Back to main menu">
+<svg class="icon icon-arrow-left ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-arrow-left" href="#icon-arrow-left"></use>
+</svg>
+</button>
+<span class="text-title-200">My Account</span>
+</div>
+<ul class="mntl-utility-nav__link-list">
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/authentication/logout?relativeRedirectUrl=%2Ftravel%2Frestaurants%2Fbuford-highway-atlanta-best-restaurants" rel="nofollow nocaes" class="mntl-utility-nav__sublist-link"> Log Out
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="mntl-utility-nav__magazine mntl-utility-nav__full-menu-item mntl-utility-nav__list-item">
+<button class="mntl-utility-nav__title text-utility-200">
+<span>Magazine</span>
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg>
+</button>
+<div class="mntl-utility-nav__sublist-container">
+<div class="mntl-utility-nav__sublist-header">
+<button class="mntl-utility-nav__sublist-back-button" role="button" aria-label="Back to main menu">
+<svg class="icon icon-arrow-left ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-arrow-left" href="#icon-arrow-left"></use>
+</svg>
+</button>
+<span class="text-title-200">Magazine</span>
+</div>
+<ul class="mntl-utility-nav__link-list">
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.magazines.com/food-wine-magazine.html?utm_source=foodandwine.com&amp;utm_medium=owned&amp;utm_campaign=i111fwr1w2664" target="_blank" rel="noopener nofollow nocaes" class="mntl-utility-nav__sublist-link "> Subscribe
+</a> </li>
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="http://web.archive.org/web/20241225084146/https://w1.buysub.com/servlet/CSGateway?cds_mag_code=FAW" target="_blank" rel="noopener nofollow nocaes" class="mntl-utility-nav__sublist-link "> Manage Your Subscription
+</a> </li>
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.magazines.com/food-wine-magazine.html" target="_blank" rel="noopener nofollow nocaes" class="mntl-utility-nav__sublist-link "> Give a Gift Subscription
+</a> </li>
+<li class="mntl-utility-nav__sublist-list-item">
+<a href="/web/20241225084146/https://www.foodandwine.com/about-us-6373913#toc-contact-us" rel="nocaes" class="mntl-utility-nav__sublist-link "> Get Help
+</a> </li>
+</ul>
+</div>
+</li>
+<li class="loc newsletter-link-wrapper mntl-utility-nav__newsletter mntl-utility-nav__full-menu-item"><a href="#" rel="nocaes" data-a11y-dialog-show="newsletter-dialog-header" id="mntl-newsletter-dialog--header-link_2-0" role="button" class="mntl-newsletter-dialog--header-link dialog-link mntl-text-link " data-tracking-container="true"><span class="link__wrapper">Newsletters</span></a>
+</li>
+<li class="mntl-utility-nav__sweepstakes mntl-utility-nav__full-menu-item">
+<a href="/web/20241225084146/https://www.foodandwine.com/sweepstakes" rel="nocaes"> Sweepstakes
+</a> </li>
+<li class="mntl-utility-nav__signin--myr mntl-utility-nav__full-menu-item mntl-utility-nav__list-item myr-login">
+<a class="mntl-utility-nav__sublist-link myr-login-trigger" href="javascript:void(0)" aria-label="Trigger interstitial modal to log in to MyRecipes" data-regsource="pqj4z4">
+<svg class="icon save-icon-favorite icon-myr-favorite">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#save-icon-favorite" href="#save-icon-favorite"></use>
+</svg>
+<svg class="icon icon-myr-logo ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-myr-logo" href="#icon-myr-logo"></use>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+<div id="mntl-fullscreen-nav__social-nav_1-0" class="comp mntl-fullscreen-nav__social-nav foodandwine-social-nav mntl-social-nav" data-tracking-container="true">
+<div class="social-nav__title">Follow Us</div>
+<ul class="social-nav__list">
+<li class="social-nav__item social-nav__item--facebook">
+<a href="http://web.archive.org/web/20241225084146/https://www.facebook.com/foodandwine" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--facebook" aria-label="Visit Food &amp;amp; Wine's Facebook"> <svg class="icon icon-facebook social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-facebook" href="#icon-facebook"></use>
+</svg>
+</a> </li>
+<li class="social-nav__item social-nav__item--flipboard">
+<a href="http://web.archive.org/web/20241225084146/https://flipboard.com/@foodandwine" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--flipboard" aria-label="Visit Food &amp;amp; Wine's Flipboard"> <svg class="icon icon-flipboard social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-flipboard" href="#icon-flipboard"></use>
+</svg>
+</a> </li>
+<li class="social-nav__item social-nav__item--instagram">
+<a href="http://web.archive.org/web/20241225084146/https://www.instagram.com/foodandwine/?hl=en" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--instagram" aria-label="Visit Food &amp;amp; Wine's Instagram"> <svg class="icon icon-instagram social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-instagram" href="#icon-instagram"></use>
+</svg>
+</a> </li>
+<li class="social-nav__item social-nav__item--pinterest">
+<a href="http://web.archive.org/web/20241225084146/https://www.pinterest.com/foodandwine/" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--pinterest" aria-label="Visit Food &amp;amp; Wine's Pinterest"> <svg class="icon icon-pinterest social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-pinterest" href="#icon-pinterest"></use>
+</svg>
+</a> </li>
+<li class="social-nav__item social-nav__item--youtube">
+<a href="http://web.archive.org/web/20241225084146/https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--youtube" aria-label="Visit Food &amp;amp; Wine's YouTube"> <svg class="icon icon-youtube social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-youtube" href="#icon-youtube"></use>
+</svg>
+</a> </li>
+</ul>
+</div>
+</nav> </div>
+<nav id="mntl-header-nav_1-0" class="comp mntl-header-nav" role="navigation" aria-label="Header">
+<div class="mntl-header-nav__list-wrapper">
+<ul class="mntl-header-nav__list">
+<li class="mntl-header-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/food-7499700" rel="nocaes"> Food
+</a>
+<ul class="mntl-header-nav__sublist">
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/recipes" rel="nocaes"> Recipes
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/ingredients" rel="nocaes"> Ingredients
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/cooking-techniques" rel="nocaes"> Cooking Techniques
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/recipes/cuisine" rel="nocaes"> World Cuisines
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/holidays-events" rel="nocaes"> Holidays &amp; Occasions
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/special-diets" rel="nocaes"> Dietary Preferences
+</a> </li>
+</ul>
+</li>
+<li class="mntl-header-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/drinks" rel="nocaes"> Drink
+</a>
+<ul class="mntl-header-nav__sublist">
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/cocktails" rel="nocaes"> Cocktails
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/wine" rel="nocaes"> Wine
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/beer" rel="nocaes"> Beer
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/cocktails-spirits" rel="nocaes"> Spirits
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/non-alcoholic-drinks-7496802" rel="nocaes"> Nonalcoholic Drinks
+</a> </li>
+</ul>
+</li>
+<li class="mntl-header-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/restaurants" rel="nocaes"> Restaurants
+</a>
+<ul class="mntl-header-nav__sublist">
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/chefs" rel="nocaes"> Chefs
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/bars" rel="nocaes"> Bars &amp; Pubs
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/bakeries-7496810" rel="nocaes"> Bakeries
+</a> </li>
+</ul>
+</li>
+<li class="mntl-header-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/news" rel="nocaes"> News
+</a>
+<ul class="mntl-header-nav__sublist">
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/food-news-7496849" rel="nocaes"> Food News
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/drink-news-7496852" rel="nocaes"> Drink News
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/celebrity-news-7496866" rel="nocaes"> Celebrity News
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/restaurant-news-7496856" rel="nocaes"> Restaurant News
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/tv-entertainment-news-7496868" rel="nocaes"> TV &amp; Entertainment News
+</a> </li>
+</ul>
+</li>
+<li class="mntl-header-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel" rel="nocaes"> Travel
+</a>
+<ul class="mntl-header-nav__sublist">
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/united-states" rel="nocaes"> United States
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/europe" rel="nocaes"> Europe
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/asia" rel="nocaes"> Asia
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/australia-oceania-7496843" rel="nocaes"> Australia &amp; Oceania
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/latin-america-7496820" rel="nocaes"> Latin America
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel-guides-7496847" rel="nocaes"> Travel Guides
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/global-tastemakers-7496846" rel="nocaes"> Global Tastemakers
+</a> </li>
+</ul>
+</li>
+<li class="mntl-header-nav__list-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/what-to-buy" rel="nocaes"> What to Buy
+</a>
+<ul class="mntl-header-nav__sublist">
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/what-to-buy/food-wine-faves" rel="nocaes"> Food &amp; Wine Faves
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/trends-deals-7153185" rel="nocaes"> Trends &amp; Deals
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/cookware-7153157" rel="nocaes"> Cookware
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/bar-drinks-7153145" rel="nocaes"> Bar &amp; Drinks
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/small-appliances-7153152" rel="nocaes"> Small Appliances
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/knives-7153166" rel="nocaes"> Knives
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/grilling-bbq-7153168" rel="nocaes"> Grilling &amp; BBQ
+</a> </li>
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/hosting-dining-7153171" rel="nocaes"> Hosting &amp; Dining
+</a> </li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="mntl-header-nav__list-item mntl-header-nav__list-item-about-us">
+<a href="/web/20241225084146/https://www.foodandwine.com/about-us-6373913" rel="nocaes"> About Us
+</a>
+<ul class="mntl-header-nav__sublist">
+<li class="mntl-header-nav__sublist-item">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/events-7496871" rel="nocaes"> Events
+</a> </li>
+</ul>
+</div>
+<div class="loc navigation-links"><a href="http://web.archive.org/web/20241225084146/https://www.magazines.com/food-wine-magazine.html?utm_source=foodandwine.com&amp;utm_medium=owned&amp;utm_campaign=i111fwr1w2664" target="_blank" rel="noopener nofollow nocaes" id="mntl-header-nav__subscribe-link_1-0" class="mntl-header-nav__subscribe-link mntl-text-link text-label-300 global-link " data-tracking-container="true"><span class="link__wrapper">Subscribe</span></a>
+</div>
+</nav></header>
+<div id="mm-ads-leaderboard-header_1-0" class="comp mm-ads-leaderboard-header mm-ads-leaderboard-flex-1 mm-ads-flexible-leaderboard mm-ads-flexible-ad mm-ads-gpt-adunit has-right-label leaderboard has-right-label gpt leaderboard ">
+<div id="leaderboard-flex-1" class="wrapper"></div>
+</div>
+<div id="mm-ads-leaderboard-spacer_1-0" class="comp mm-ads-leaderboard-spacer mntl-block js-rollaway-spacer"></div>
+<div id="mm-myrecipes-toast_1-0" class="comp mm-myrecipes-toast hide is-hidden myrecipes" data-myr-url="https://www.myrecipes.com/" data-close-class="hide" data-defer="load" data-favorites-template="false" data-enable-target-blank="true" data-toast-timeout="5000" data-is-alrcom="false"></div><main id="main" class="loc main" role="main"><iframe id="height-change-listener" role="none" tabindex="-1" src="about:blank" aria-hidden="true"></iframe>
+<article id="foodandwine-article--sc_1-0" class="comp foodandwine-article--sc foodandwine-article mntl-article mntl-article--two-column-right-rail" data-tracking-container="true"><div class="loc article-header"><div id="foodandwine-article-header_1-0" class="comp foodandwine-article-header mntl-article-header"><div class="loc article-preheading"><div id="mntl-universal-breadcrumbs_1-0" class="comp mntl-universal-breadcrumbs mntl-universal-breadcrumbs--scroll mntl-block breadcrumbs__scroll-wrapper js-breadcrumbs-right-overflow"><ul id="mntl-universal-breadcrumbs_2-0" class="comp mntl-universal-breadcrumbs mntl-block text-label-300 breadcrumbs" data-tracking-container="true"><li id="mntl-breadcrumbs__item_1-0" class="comp mntl-breadcrumbs__item mntl-block"><a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel" rel="nocaes" id="mntl-text-link_7-0" class="mntl-text-link mntl-breadcrumbs__link" data-tracking-container="true"><span class="link__wrapper">Travel</span></a>
+<svg class="icon icon-chevron ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-chevron" href="#icon-chevron"></use>
+</svg></li>
+<li id="mntl-breadcrumbs__item_2-0" class="comp mntl-breadcrumbs__item mntl-block"><a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/united-states" rel="nocaes" id="mntl-text-link_8-0" class="mntl-text-link mntl-breadcrumbs__link" data-tracking-container="true"><span class="link__wrapper">United States</span></a></li></ul></div>
+</div>
+<h1 class="article-heading text-headline-400">A Beginner&#39;s Guide to Atlanta&#39;s Buford Highway</h1>
+<p class="article-subheading text-body-100">A quick and fascinating introduction to modern, often only lightly understood or appreciated Atlanta, and the region&#39;s highly diverse population.</p>
+<div id="mntl-article-meta-dynamic_1-0" class="comp mntl-article-meta-dynamic mntl-article-meta mntl-block" data-tracking-container="true"><div id="foodandwine-bylines_1-0" class="comp foodandwine-bylines mntl-bylines text-utility-200"><div id="mntl-bylines__group_1-0" class="comp mntl-bylines__group mntl-block mntl-bylines__group--author"><div id="mntl-bylines__item_1-0" class="comp mntl-bylines__item mntl-attribution__item mntl-attribution__item--has-date">
+<span class="mntl-attribution__item-descriptor">By</span>
+<div data-tooltip="<p>As the contributor of many of Food &amp; Wine's comprehensive Best Of lists, designed to highlight and celebrate all aspects of American food and drink culture, David spent much of a typical year traveling on assignment. Besides having lived in New York, Los Angeles, Chicago, Seattle and San Francisco, he visited each of the 50 states many times over, often for extended periods of time, revisiting at least half most years.</p>" tabindex="0" data-inline-tooltip="true"> <a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/author/david-landsel" rel="nocaes" data-trigger-link="true" class="mntl-attribution__item-name" tabindex="-1">David Landsel</a>
+<div id="mntl-author-tooltip_1-0" class="comp mntl-author-tooltip mntl-tooltip mntl-group"> <div class="mntl-author-tooltip__top mntl-author-tooltip__top--no-image">
+<div id="mntl-author-tooltip__name_1-0" class="comp mntl-author-tooltip__name mntl-attribution__item ">
+<a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/author/david-landsel" rel="nocaes" class="mntl-attribution__item-name" tabindex="0">David Landsel</a>
+</div> <div class="mntl-author-tooltip__bio">
+<p>As the contributor of many of Food &amp; Wine&#39;s comprehensive Best Of lists, designed to highlight and celebrate all aspects of American food and drink culture, David spent much of a typical year traveling on assignment. Besides having lived in New York, Los Angeles, Chicago, Seattle and San Francisco, he visited each of the 50 states many times over, often for extended periods of time, revisiting at least half most years.</p>
+</div>
+</div>
+<div class="mntl-author-tooltip__bottom">
+<a href="/web/20241225084146/https://www.foodandwine.com/about-us-6373913#toc-editorial-policies" rel="nocaes" class="mntl-author-tooltip__learn-more-link">Food &amp; Wine's Editorial Guidelines</a>
+</div>
+</div></div>
+</div>
+<div class="mntl-attribution__item-date">Updated on August 5, 2022</div></div>
+</div>
+<ul id="social-share_1-0" class="comp social-share mntl-universal-social-share share" data-title="A Beginner's Guide to Atlanta's Buford Highway" data-description="Immigrants transformed a string of average suburbs into one of the South's most fascinating places. Here's how you can get to know Buford Highway better." data-tracking-container="true"> <li class="share-item share-item-facebook">
+<span data-href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.foodandwine.com%2Ftravel%2Frestaurants%2Fbuford-highway-atlanta-best-restaurants%3Futm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-share-article" data-network="facebook" data-click-tracked="true" class="share-link share-link-facebook" tabindex="0" title="Share on Facebook" aria-label="Share on Facebook" role="link">
+<svg class="icon icon-facebook ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-facebook" href="#icon-facebook"></use>
+</svg>
+</span>
+</li>
+<li class="share-item share-item-twitter">
+<span data-href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.foodandwine.com%2Ftravel%2Frestaurants%2Fbuford-highway-atlanta-best-restaurants%3Futm_source%3Dtwitter%26utm_medium%3Dsocial%26utm_campaign%3Dshareurlbuttons&amp;via=foodandwine&amp;text=A+Beginner%27s+Guide+to+Atlanta%27s+Buford+Highway" data-network="twitter" data-click-tracked="true" class="share-link share-link-twitter" tabindex="0" title="Post to X" aria-label="Post to X" role="link">
+<svg class="icon icon-twitter ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-twitter" href="#icon-twitter"></use>
+</svg>
+</span>
+</li>
+<li class="share-item share-item-pinterest">
+<span data-href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.foodandwine.com%2Ftravel%2Frestaurants%2Fbuford-highway-atlanta-best-restaurants%3Futm_source%3Dpinterest%26utm_medium%3Dsocial%26utm_campaign%3Dshareurlbuttons&amp;description=A+Beginner%27s+Guide+to+Atlanta%27s+Buford+Highway&amp;media=https%3A%2F%2Fwww.foodandwine.com%2Fthmb%2FKZeWyeTeHiq8__ig4S1q0X5WNMo%3D%2F750x0%2Fatlanta-buford-highway-farmers-market-fish-FT-BLOG0119-4f1f66e9ee784805898026220112d7d1.jpg" data-network="pinterest" data-click-tracked="true" class="share-link share-link-pinterest" tabindex="0" title="Share on Pinterest" aria-label="Share on Pinterest" role="link">
+<svg class="icon icon-pinterest ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-pinterest" href="#icon-pinterest"></use>
+</svg>
+</span>
+</li>
+<li class="share-item share-item-emailshare">
+<span data-href="https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants?utm_source=emailshare&amp;utm_medium=social&amp;utm_campaign=shareurlbuttons" data-network="emailshare" data-click-tracked="true" class="share-link share-link-emailshare" tabindex="0" title="Email this article" aria-label="Email this article" role="link">
+<svg class="icon icon-email ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-email" href="#icon-email"></use>
+</svg>
+</span>
+</li>
+<li class="loc print"><form id="mntl-print-button_1-0" class="comp mntl-print-button" method="POST" rel="noopener" action="/web/20241225084146/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants?print" data-tracking-container="true" aria-label="Print this article." target="_blank"> <button class="mntl-print-button__btn" aria-label="Print this article.">
+<svg class="icon icon-print mntl-print-button__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-print" href="#icon-print"></use>
+</svg>
+</button>
+<input type="hidden" value="true" name="print"/>
+<input type="hidden" value="966405776eb57723c051bbc672aa30d0" name="CSRFToken"/>
+</form>
+</li></ul></div></div>
+</div><div class="loc article-content"><div id="article__primary-video-container_1-0" class="comp article__primary-video-container mntl-block"></div>
+<div id="article__broad-video-jw_1-0" class="comp article__broad-video-jw mntl-jwplayer-broad mntl-block is-hidden" data-pixel-depth="100"><div id="mntl-jwplayer-broad__video_1-0" class="comp mntl-jwplayer-broad__video mntl-jwplayer mm-video lazyload" data-bgset data-sizes="auto"></div>
+<div id="mntl-jwplayer-broad__title_1-0" class="comp mntl-jwplayer-broad__title mntl-block"><div id="mntl-jwplayer-broad__title--text_1-0" class="comp mntl-jwplayer-broad__title--text mntl-text-block text-utility-100"></div>
+<button id="mntl-jwplayer-broad__title-icon--close_1-0" class="comp mntl-jwplayer-broad__title-icon--close mntl-block text-label-100" data-click-tracked="false"><span id="mntl-text-block_1-0" class="comp mntl-text-block">Close</span>
+<svg class="icon close-icon ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#close-icon" href="#close-icon"></use>
+</svg></button></div></div>
+<figure id="figure-article_1-0" class="comp figure-article mntl-universal-primary-image right-rail__offset text-utility-100 figure-landscape primary-image"> <div class="primary-image__media">
+<div class="img-placeholder" style="padding-bottom:75.0%;">
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/9En_vD3CceZWyrMo7XXWQt4TM7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/atlanta-buford-highway-farmers-market-fish-FT-BLOG0119-4f1f66e9ee784805898026220112d7d1.jpg" width="1600" height="1200" srcset="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/w3dep9SdjkNtfomFEp8aS7fh3m0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/atlanta-buford-highway-farmers-market-fish-FT-BLOG0119-4f1f66e9ee784805898026220112d7d1.jpg 750w" sizes="750px" alt="Buford Highway Farmer's Market" class=" primary-image__image mntl-primary-image--blurry" onload="(function(e){e.classList.add('loaded')})(this)" style="--blurry: url('data:image/gif;charset=utf-8;base64,R0lGODlhCQAHAPUAAA8KBhsnJzAgBzQlBDskFCg7Nzs9MiQ3Yi48YRJEXwJcdhpOdl9MK2tJJEhbSFpqTXR4V2t7bjBghFCDhmOCl2uFko5uAZN5AqhLLItwW4h6U4N9bZZ6YsJMMpOGWqmJcKKdfbmbdfG3JcekbMKredync/S+foWYkoybmJSXjpuUhJ2xsKSajrKcj6Okkr6nlY2txpi70cWkhdCkidm9jcW9utmqove3rtTFvtvQstHRx9jY0ObWyebe2/Ts6g8KBiwAAAAACQAHAEUISgAXSKBwoAKCHTAUbPDwwgWPGzZMqACwooaGEid6EHAgI8eMDyE46BhwIYCBFAUmxEgQ4UEDFCwy4IDgQ0QLGhhAkBjBoIMACwEBADs=')"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/9En_vD3CceZWyrMo7XXWQt4TM7c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/atlanta-buford-highway-farmers-market-fish-FT-BLOG0119-4f1f66e9ee784805898026220112d7d1.jpg" width="1600" height="1200" class="loaded primary-img--noscript primary-image__image mntl-primary-image--blurry" srcset="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/w3dep9SdjkNtfomFEp8aS7fh3m0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/atlanta-buford-highway-farmers-market-fish-FT-BLOG0119-4f1f66e9ee784805898026220112d7d1.jpg 750w" sizes="750px" alt="Buford Highway Farmer's Market"/>
+</noscript>
+</div> </div>
+<figcaption id="primary-image__figcap_1-0" class="comp primary-image__figcap mntl-figure-caption figure-article-caption"> <span class="figure-article-caption-owner">Photo: ©2016, Kevin C. Rose | AtlantaPhotos.com</span>
+</figcaption></figure>
+<div id="article-content_1-0" class="comp article-content mntl-block"><div id="mntl-sc-page_1-0" class="comp mntl-sc-page mntl-block structured-content" data-sc-sticky-offset="90" data-sc-ad-label-height="24" data-sc-ad-track-spacing="100" data-sc-min-track-height="250" data-sc-max-track-height="600" data-sc-breakpoint="50em" data-sc-load-immediate="4" data-sc-content-positions="[1, 1250, 1550, 1950, 2350, 2750, 3150, 3550, 3950]" data-bind-scroll-on-start="true"><p id="mntl-sc-block_1-0" class="comp mntl-sc-block mntl-sc-block-html"> The first rule of travel in the Southeast, whether by land or by air, appears to be that all roads lead to Atlanta, at least eventually. For many, this means a visit to the city&#39;s breathtakingly busy airport or time spent on one of six interstates, or the countless other heavily trafficked roads that came before. For the rest of us, for those looking to make the journey genuinely interesting, there&#39;s a particularly memorable way in, the best way, really, even if not nearly as efficient as any of the above, and that is Buford Highway.
+</p>
+<div id="mntl-sc-block_2-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<p id="mntl-sc-block_3-0" class="comp mntl-sc-block mntl-sc-block-html"> Kicking things off as a semi-rural two-lane byway roughly 40 minutes northeast of downtown Atlanta, and requiring just the tiniest detour from I-85, the road is officially designated as U.S. Highway 23. Like so many U.S. Highways, this one was once far more important to intercity travel than it is today. Just because you can go faster now does not mean you go better — from way up north and all the way into town, where the road swells to at least six lanes, lurching toward the final junction only a few minutes from the glittering heart of Buckhead, Buford Highway offers a quick and fascinating introduction to modern, often only lightly understood or appreciated <a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/restaurants/atlanta-ti-killer-mike-bankhead-fish-soul" data-component="link" data-source="inlineLink" data-type="internalLink" data-ordinal="1">Atlanta</a>, and the region's highly diverse population.
+</p>
+<div id="mntl-sc-block_4-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<p id="mntl-sc-block_5-0" class="comp mntl-sc-block mntl-sc-block-html"> Since the late 1970s, Buford Highway, particularly the stretch in close proximity to Atlanta&#39;s always-busy Perimeter (I-285), has attracted immigrants from all over the world, transforming towns like Chamblee and Doraville rather completely. Today, the area is home to one of the most concentrated foreign-born populations in the country, never mind the South, having more in common culturally with the likes of Southern California than the surrounding region.
+</p>
+<div id="mntl-sc-block_6-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<p id="mntl-sc-block_7-0" class="comp mntl-sc-block mntl-sc-block-html"> Driving along the route, even right up at the beginning, you can see — quite literally — the signs: Gangnam Sauna, Islamic Home Financing, Taqueria, Atlanta Tamil Church, Halal Supermarket. Slowly, the momentum builds, announcing your approach to the city proper — pho parlors, panaderias,<em> </em>Cambodian cuisine, Bangladeshi restaurants, strip mall after shopping center packed with so many restaurant choices, you&#39;d need weeks or even months to get a firm grip on what exactly is going on around you.
+</p>
+<div id="mntl-sc-block_8-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<p id="mntl-sc-block_9-0" class="comp mntl-sc-block mntl-sc-block-html"> Slightly overwhelming, yes — what the Atlanta Journal-Constitution once called the Global Bazaar of The South is one of those places that seems like it might take forever to truly get a handle on, and that&#39;s the whole point — this is a place that keeps you coming back, again and again, because every time you think you&#39;re getting close, everything appears to have changed, yet again.
+</p>
+<div id="mntl-sc-block_10-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<p id="mntl-sc-block_11-0" class="comp mntl-sc-block mntl-sc-block-html"> Of course, there are ways for even the least familiar visitors to brush up against Buford Highway&#39;s best bits, which you will find not only convenient to the Perimeter, but in some cases, MARTA — the Chamblee and Doraville stations are within not-particularly-scenic walking distance of many of Buford Highway&#39;s best shopping centers and restaurants, and despite the strip&#39;s reputation for punishing car-centricity, there are workarounds for determined pedestrians. (Always proceed with caution.)
+</p>
+<div id="mntl-sc-block_12-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<p id="mntl-sc-block_13-0" class="comp mntl-sc-block mntl-sc-block-html"> New to Atlanta? Passing through town? After multiple visits and so many times driving end to end over the years, here are just a few essential stops to get you acclimated.
+</p>
+<div id="mntl-sc-block_14-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<span class="heading-toc" id="toc-buford-highway-farmers-market"></span><h2 id="mntl-sc-block_15-0" class="comp mntl-sc-block foodandwine-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> Buford Highway Farmers Market </span> </h2>
+<p id="mntl-sc-block_16-0" class="comp mntl-sc-block mntl-sc-block-html"> Since the 1970&#39;s, this Perimeter-adjacent temple for fresh produce — and a rather large one, at roughly 100,000 square feet — has brought the best of the world to local shoppers, from local ramps in the springtime to Thai guavas in the dead of winter. Owned by a local Korean family, this is a farmers market in the Atlanta sense, which is to say, it is a giant indoor grocery store, celebrated for carrying one of the most studiously diverse ranges of offerings of any market in the country. Note: The market is easily and safely reached on foot from the Doraville MARTA station — come around the back, past the Las Delicias de la Abuela restaurant, which serves Colombian-style burgers, hot dogs, barbecued ribs, and so much else, late into the evening.
+</p>
+<div id="mntl-sc-block_17-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<span class="heading-toc" id="toc-plaza-fiesta"></span><h2 id="mntl-sc-block_18-0" class="comp mntl-sc-block foodandwine-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> Plaza Fiesta </span> </h2>
+<p id="mntl-sc-block_19-0" class="comp mntl-sc-block mntl-sc-block-html"> Whether you&#39;re in the market for cowboy boots or a quinceañera gown, or you just need to pick up a little something at the <em>botanica</em>, this 350,000-square-foot shopping center — parts of it extensively themed — looks and feels more like the inner-ring suburbs of Los Angeles than something on the other side of the country, and certainly not something 10 minutes or so from the glitz of Lenox Square. Part shopping plaza, part indoor flea market, with a food court (where good vendors seem to come and go, all too quickly), a rather complete supermarket with its own taqueria inside, and even a nightclub, there&#39;s a lot to take in here. One of the most interesting stops at the moment is the low-key Ethiopian cafe tucked into the far back corner, facing out to Clairmont Road; stop in for a cup of strong coffee and contemplate the wealth of lunch options within easy grasp, beginning right across the highway at the iconic Lee&#39;s Bakery, known to many a local as the home of expert-level banh mi and pho.
+</p>
+<div id="mntl-sc-block_20-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<span class="heading-toc" id="toc-atlanta-chinatown"></span><h2 id="mntl-sc-block_21-0" class="comp mntl-sc-block foodandwine-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> Atlanta Chinatown </span> </h2>
+<p id="mntl-sc-block_22-0" class="comp mntl-sc-block mntl-sc-block-html"> You&#39;ll need to make the briefest detour from Buford Highway to get to this impressive complex, but it&#39;s also one of the easiest places to get to via MARTA, located nearly across the street from the Chamblee station. Centered around a pleasant garden courtyard, you can do all kinds of shopping here, food included — the on-site market has its own bakery and cafe — but many visitors are here exclusively for the food court. From the slightly Americanized (but still good) hot pot and Szechuan place to the Hong Kong-style BBQ vendor that&#39;s much better than the uninitiated visitor might have expected to ever find in Atlanta, nobody&#39;s going away hungry. A very Buford Highway thing: There&#39;s also a Mexican bar — as in, an actual cantina, not another margs &#43; chips &#43; guac factory — at the far corner of the mall.
+</p>
+<div id="mntl-sc-block_23-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<span class="heading-toc" id="toc-food-terminal"></span><h2 id="mntl-sc-block_24-0" class="comp mntl-sc-block foodandwine-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> Food Terminal </span> </h2>
+<p id="mntl-sc-block_25-0" class="comp mntl-sc-block mntl-sc-block-html"> Bubble teas and breads at Sweet Hut Bakery &amp; Cafe are an essential Buford Highway stop for many; the owners of that particular spot struck gold again with this casual, modern hang for what&#39;s billed as Malaysian cooking, but actually ends up more Malaysian-ish, skating rather freely around Asia for inspiration. When you think about where you are, this seems only fitting. From Hainanese chicken to kimchi fried rice, roti canal to big plates of char siu pork, you&#39;re covered here. There are certainly plenty of restaurants nearby with a more singular focus, starting next door at the also quite modern Dish Korean Cuisine or the thoroughly Malaysian Mamak, just up the street, but Food Terminal feels like the one that&#39;s having all the fun.
+</p>
+<div id="mntl-sc-block_26-0" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block"></div>
+<span class="heading-toc" id="toc-white-windmill-bakery--cafe"></span><h2 id="mntl-sc-block_27-0" class="comp mntl-sc-block foodandwine-sc-block-heading mntl-sc-block-heading"> <span class="mntl-sc-block-heading__text"> <strong>White Windmill Bakery &amp; Cafe</strong> </span> </h2>
+<p id="mntl-sc-block_28-0" class="comp mntl-sc-block mntl-sc-block-html"> One of the things you quickly learn about Buford Highway is that it has a lot of everything, and that certainly goes for bakeries. While you could easily content yourself with chain imports like Paris Baguette or Tous Les Jours and go away quite happy, you&#39;d be missing out on something far better. With only two locations, both right here in Atlanta, this homegrown Korean bakery is what so many of the chains might have been before they went multinational. From soft buns stuffed with strawberries and fresh cream to fairly impressive kouign amann and madeleines, there&#39;s a stunning amount to choose from and a generous amount of samples laid out that will likely result in you walking out with far more than you might have expected. (It also helps that prices are more than reasonable.) Bonus: There&#39;s a pretty good coffee bar in here, too.
+</p></div>
+<div id="mntl-universal-article-feedback_1-0" class="comp mntl-universal-article-feedback mntl-article-feedback text-title-100-moderate"> <div class="article-feedback__rating-section js-rating-section">
+<div class="article-feedback__heading">Was this page helpful?</div>
+<button id="article-feedback__thumbs-up-button_1-0" class="comp article-feedback__thumbs-up-button mntl-button js-rating-button button--outlined-little-round article-feedback__rating-button" data-thumbs-signal="THUMBS_UP" aria-label="Thumbs Up">
+<svg class="icon icon-thumbs-up mntl-button__icon article-feedback__rating-icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-thumbs-up" href="#icon-thumbs-up"></use>
+</svg>
+</button>
+<button id="article-feedback__thumbs-down-button_1-0" class="comp article-feedback__thumbs-down-button mntl-button js-submit-feedback-button button--outlined-little-round article-feedback__rating-button" aria-label="Thumbs Down">
+<svg class="icon icon-thumbs-up mntl-button__icon article-feedback__rating-icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-thumbs-up" href="#icon-thumbs-up"></use>
+</svg>
+</button> </div>
+<div class="article-feedback__success-section js-success-section is-hidden">
+<div class="article-feedback__heading"></div>
+<div class="loc success-section"><div id="article-feedback__success-message_1-0" class="comp article-feedback__success-message mntl-message-banner--success mntl-message-banner mntl-message-banner--success" data-close-class="is-hidden"> <svg class="icon icon-success mntl-message-banner__prefix-icon mntl-message-banner__icon ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-success" href="#icon-success"></use>
+</svg>
+<span class="text-utility-300-prominent mntl-message-banner__text text-utility-300-prominent">
+Thanks for your feedback!
+</span>
+<button class="mntl-message-banner__close-button js-mntl-message-banner-close" aria-label="Close success Banner">
+<svg class="icon icon-close mntl-message-banner__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-close" href="#icon-close"></use>
+</svg>
+</button>
+</div>
+</div> </div>
+<div class="article-feedback__feedback-section js-feedback-section is-hidden">
+<div class="article-feedback__heading">Tell us why!</div>
+<button id="article-feedback__open-form-button_1-0" class="comp article-feedback__open-form-button mntl-button article-feedback__feedback-button js-open-form-button"> Other
+</button> <form action="/web/20241225084146/https://www.foodandwine.com/ugc-feedback" method="post" class="article-feedback__feedback-form js-feedback-form is-hidden">
+<textarea class="article-feedback__feedback-text js-feedback-text" placeholder="Tell us more..." required="required" maxlength="1500"></textarea>
+<button id="article-feedback__submit-button_1-0" class="comp article-feedback__submit-button mntl-button"> Submit
+</button> <input type="hidden" name="doc-id" value="6404659" class="js-doc-id"/>
+</form>
+</div>
+</div></div>
+</div><div class="loc article-right-rail"><div id="mm-ads-right-rail_1-0" class="comp mm-ads-right-rail mntl-block"><div id="sc-billboard-group_1-0" class="comp sc-billboard-group mntl-block js-scads-inline-content"><div id="mntl-block_2-0" class="comp mntl-block"><div id="mm-ads-squareFlex1-sticky_1-0" class="comp mm-ads-squareFlex1-sticky mm-ads-sc-sticky-square scads-to-load right-rail__item" data-height="1090" style="height: 1090px;"><div id="mm-ads-sc-sticky-square-ad_1-0" class="comp mm-ads-sc-sticky-square-ad mm-ads-square mm-ads-gpt-adunit gpt square ">
+<div id="square-flex-1" class="wrapper"></div>
+</div></div></div>
+<div id="mntl-block_3-0" class="comp mntl-block"><div id="mm-ads-squareFlex2-sticky-dynamic_1-0" class="comp mm-ads-squareFlex2-sticky-dynamic mm-ads-sc-sticky-square scads-to-load right-rail__item" data-height="600" style="height: 600px;"><div id="mm-ads-sc-sticky-square-ad_2-0" class="comp mm-ads-sc-sticky-square-ad mm-ads-square mm-ads-gpt-adunit gpt square dynamic">
+<div id="square-flex-2" class="wrapper" data-type="square" data-pos="atf" data-priority="2" data-sizes="[[300, 250],[300, 600],[160, 600],&quot;fluid&quot;]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div></div>
+<div id="mntl-block_4-0" class="comp mntl-block"><div id="mm-ads-native-fluid_1-0" class="comp mm-ads-native-fluid mm-ads-native " style="--native-ad-height: auto"><div id="mm-ads-native__adunit_1-0" class="comp mm-ads-native__adunit mm-ads-gpt-dynamic-adunit mm-ads-gpt-adunit scads-to-load gpt native ">
+<div id="native" class="wrapper"></div>
+</div></div></div>
+<div id="mntl-block_5-0" class="comp mntl-block"><div id="mm-ads-squareFixed-sticky-dynamic_1-0" class="comp mm-ads-squareFixed-sticky-dynamic mm-ads-sc-sticky-square scads-to-load right-rail__item" data-height="600" style="height: 600px;"><div id="mm-ads-sc-sticky-square-ad_3-0" class="comp mm-ads-sc-sticky-square-ad mm-ads-square mm-ads-gpt-adunit gpt square dynamic">
+<div id="square-fixed" class="wrapper" data-type="square" data-pos="atf" data-priority="2" data-sizes="[[300, 250],&quot;fluid&quot;]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div></div>
+<div id="mntl-block_6-0" class="comp mntl-block"><div id="mm-ads-squareFixed-sticky-dynamic_2-0" class="comp mm-ads-squareFixed-sticky-dynamic mm-ads-sc-sticky-square scads-to-load right-rail__item" data-height="600" style="height: 600px;"><div id="mm-ads-sc-sticky-square-ad_4-0" class="comp mm-ads-sc-sticky-square-ad mm-ads-square mm-ads-gpt-adunit gpt square dynamic">
+<div id="square-fixed" class="wrapper" data-type="square" data-pos="atf" data-priority="2" data-sizes="[[300, 250],&quot;fluid&quot;]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div></div>
+<div id="mntl-block_7-0" class="comp mntl-block"><div id="mm-ads-squareFixed-sticky-dynamic_3-0" class="comp mm-ads-squareFixed-sticky-dynamic mm-ads-sc-sticky-square scads-to-load right-rail__item" data-height="600" style="height: 600px;"><div id="mm-ads-sc-sticky-square-ad_5-0" class="comp mm-ads-sc-sticky-square-ad mm-ads-square mm-ads-gpt-adunit gpt square dynamic">
+<div id="square-fixed" class="wrapper" data-type="square" data-pos="atf" data-priority="2" data-sizes="[[300, 250],&quot;fluid&quot;]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div></div>
+<div id="mntl-block_8-0" class="comp mntl-block"><div id="mm-ads-squareFixed-sticky-dynamic_4-0" class="comp mm-ads-squareFixed-sticky-dynamic mm-ads-sc-sticky-square scads-to-load right-rail__item" data-height="600" style="height: 600px;"><div id="mm-ads-sc-sticky-square-ad_6-0" class="comp mm-ads-sc-sticky-square-ad mm-ads-square mm-ads-gpt-adunit gpt square dynamic">
+<div id="square-fixed" class="wrapper" data-type="square" data-pos="atf" data-priority="2" data-sizes="[[300, 250],&quot;fluid&quot;]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div></div>
+<div id="mntl-block_9-0" class="comp mntl-block"><div id="mm-ads-squareFixed-sticky-dynamic_5-0" class="comp mm-ads-squareFixed-sticky-dynamic mm-ads-sc-sticky-square scads-to-load right-rail__item" data-height="600" style="height: 600px;"><div id="mm-ads-sc-sticky-square-ad_7-0" class="comp mm-ads-sc-sticky-square-ad mm-ads-square mm-ads-gpt-adunit gpt square dynamic">
+<div id="square-fixed" class="wrapper" data-type="square" data-pos="atf" data-priority="2" data-sizes="[[300, 250],&quot;fluid&quot;]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div></div>
+<div id="mntl-block_10-0" class="comp mntl-block"><div id="mm-ads-squareFixed-sticky-dynamic_6-0" class="comp mm-ads-squareFixed-sticky-dynamic mm-ads-sc-sticky-square scads-to-load right-rail__item" data-height="600" style="height: 600px;"><div id="mm-ads-sc-sticky-square-ad_8-0" class="comp mm-ads-sc-sticky-square-ad mm-ads-square mm-ads-gpt-adunit gpt square dynamic">
+<div id="square-fixed" class="wrapper" data-type="square" data-pos="atf" data-priority="2" data-sizes="[[300, 250],&quot;fluid&quot;]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div></div>
+<div id="mntl-block_11-0" class="comp mntl-block"></div>
+<div id="mntl-block_12-0" class="comp mntl-block"></div></div></div>
+</div></article>
+<div id="leaderboard-post-content_1-0" class="comp leaderboard-post-content mm-ads-leaderboardac mm-ads-flexible-leaderboard-lazy mm-ads-flexible-leaderboard mm-ads-flexible-ad mm-ads-gpt-adunit js-lazy-ad has-right-label leaderboard gpt leaderboard dynamic">
+<div id="leaderboardac" class="wrapper" data-type="leaderboard" data-pos="atf" data-priority="1" data-sizes="[[728, 90], &quot;fluid&quot;, [970, 250], [1200, 450]]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div>
+<div id="recirc-section_1-0" class="comp recirc-section mntl-recirc-section mntl-block" data-tracking-container="true"><h2 id="mntl-recirc-section__header_1-0" class="comp mntl-recirc-section__header mntl-text-block text-title-300">Related Articles</h2>
+<div id="mntl-recirc-section__content_1-0" class="comp mntl-recirc-section__content mntl-block"><div id="mntl-recirc-section__block-1_1-0" class="comp mntl-recirc-section__block-1 mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_1-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="8734508" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/atlanta-food-guide-for-football-fans-8734508" data-ordinal="1">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/chlHcFCnf5yDvT9_RK2MUfbcsrQ=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Atlanta-food-tour-for-football-fans-FT-BLOG1124-01-ae4720cfdf194635a506277451778a8f.jpg" width="282" height="188" alt="Elevated view of Mercedes Benz Stadium in Atlanta, Georgia." class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/chlHcFCnf5yDvT9_RK2MUfbcsrQ=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Atlanta-food-tour-for-football-fans-FT-BLOG1124-01-ae4720cfdf194635a506277451778a8f.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Elevated view of Mercedes Benz Stadium in Atlanta, Georgia."/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Atlanta Offers Southern Comfort, Soul Food, and Global Flavors for Football Fans</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Tori Allen"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_2-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="7253353" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/richmond-virginia-restaurant-scene-7253353" data-ordinal="2">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/LBky6OxSCdIXZ9SMj9B2zqmvH-s=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Richmonds-Restaurant-Scene-Is-on-Fire--FT-BLOG0323-b2aba2ec6ca245c9864a1b9000333b5f.jpg" width="282" height="188" alt="Downtown Richmond, VA" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/LBky6OxSCdIXZ9SMj9B2zqmvH-s=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Richmonds-Restaurant-Scene-Is-on-Fire--FT-BLOG0323-b2aba2ec6ca245c9864a1b9000333b5f.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Downtown Richmond, VA"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Richmond, Virginia, Has Become a Culinary Powerhouse </span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Patrice J. Williams"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_3-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="8691885" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/the-peach-truck-georgia-peaches-8691885" data-ordinal="3">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/i7Gyp00RUv5d2dYRdzLm1Ni-oIk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Georgias-Peach-Truck-FT-BLOG0824-10-cc9f208456ae4064b8c995eb5686110a.jpg" width="282" height="188" alt="Hands holding five fresh Georgia peaches" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/i7Gyp00RUv5d2dYRdzLm1Ni-oIk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Georgias-Peach-Truck-FT-BLOG0824-10-cc9f208456ae4064b8c995eb5686110a.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Hands holding five fresh Georgia peaches"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Track This Truck for Fresh, Hand-Picked Peaches Before the Season Ends</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Carrie Honaker"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_4-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="8637333" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/where-to-eat-in-savannah-ga-8637333" data-ordinal="4">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/9cRYbbSks7tWLPJzOnn0STWiMAM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Where-to-go-next-Savannah-Brochus-food-FT-MAG-0424-0b439c351a5c42a4aeab92b19828f2c7.jpg" width="282" height="188" alt="The Whole Chicken Dinner at Brochuâs Family Tradition in Savannahâs Starland District" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/9cRYbbSks7tWLPJzOnn0STWiMAM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Where-to-go-next-Savannah-Brochus-food-FT-MAG-0424-0b439c351a5c42a4aeab92b19828f2c7.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="The Whole Chicken Dinner at Brochuâs Family Tradition in Savannahâs Starland District"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Food Lovers Are Heading to Savannah and So Should You</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Caroline Hatchett"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_5-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="8730678" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/emeril-lagasse-34-restaurant-and-bar-new-orleans-8730678" data-ordinal="5">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/zQQVL3bCDEqCiFp2EXORSpQUNZ0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Emeril-Opening-First-New-Restaurant-in-8-Years-FT-BLOG1024-10-78d0e13c89cb41d3accd6e9f57ca7da7.jpg" width="282" height="188" alt="Various dishes from 34 Restaurant &amp; Bar including roast chicken, clams and pickled vegetables." class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/zQQVL3bCDEqCiFp2EXORSpQUNZ0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Emeril-Opening-First-New-Restaurant-in-8-Years-FT-BLOG1024-10-78d0e13c89cb41d3accd6e9f57ca7da7.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Various dishes from 34 Restaurant &amp; Bar including roast chicken, clams and pickled vegetables."/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Emeril Lagasse Is Opening His First New Restaurant in 8 Years — and It&#39;s Portuguese</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Anne Roderique-Jones"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_6-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="6408357" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/mobile-alabama-restaurants" data-ordinal="6">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/u4lBDGP7e9t0J21OpXGRldI7IiE=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/mobile-alabama-meat-boss-ft-blog0418-555fa071fd1942b6b7d2ee6097298b57.jpg" width="282" height="188" alt="Meat Boss" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/u4lBDGP7e9t0J21OpXGRldI7IiE=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/mobile-alabama-meat-boss-ft-blog0418-555fa071fd1942b6b7d2ee6097298b57.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Meat Boss"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Where to Eat and Drink in Mobile, Alabama Right Now</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By David Landsel"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_7-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="7108205" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/research-triangle-north-carolina-what-to-eat-and-drink-7108205" data-ordinal="7">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/iMwa9JC52yEG6Hk1I_CTlUAtPC0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Why-North-Carolinas-Triangle-Is-the-Perfect-Destination-for-a-Weekend-of-Eating-FT-BLOG0223-72c02c7d972149e3beb7923f1ae1a896.jpg" width="282" height="188" alt="Eating and drinking in North Carolina's Triangle" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/iMwa9JC52yEG6Hk1I_CTlUAtPC0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Why-North-Carolinas-Triangle-Is-the-Perfect-Destination-for-a-Weekend-of-Eating-FT-BLOG0223-72c02c7d972149e3beb7923f1ae1a896.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Eating and drinking in North Carolina's Triangle"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">North Carolina&#39;s &#39;Triangle&#39; Is the Perfect Destination for a Weekend of Eating</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Alexandra Domrongchai"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_8-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="6408343" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/weekend-in-miami-niven-patel" data-ordinal="8">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/HLfm_cMxBDgDvSASmATV8ineRKc=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/miami-city-guide-niven-patel-XL-MAG0621-08c2b4a42d264bfa89fba2e3d045f04d.jpg" width="282" height="188" alt="illustration" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/HLfm_cMxBDgDvSASmATV8ineRKc=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/miami-city-guide-niven-patel-XL-MAG0621-08c2b4a42d264bfa89fba2e3d045f04d.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="illustration"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Chef Niven Patel&#39;s Guide to the Perfect Weekend in Miami</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Niven Patel"></div>
+</div>
+</a></div>
+<div id="leaderboard-deferred-footer_1-0" class="comp leaderboard-deferred-footer mm-ads-leaderboardfooter-flex-1-lazy mm-ads-flexible-leaderboard-lazy mm-ads-flexible-leaderboard mm-ads-flexible-ad mm-ads-gpt-adunit js-lazy-ad has-right-label leaderboard gpt leaderboard dynamic">
+<div id="leaderboardfooter-flex-1" class="wrapper" data-type="leaderboard" data-pos="atf" data-priority="1" data-sizes="[[728, 90], [970, 250], &quot;fluid&quot;]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div>
+<div id="mntl-recirc-section__block-2_1-0" class="comp mntl-recirc-section__block-2 mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_9-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="8734648" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/nashville-food-guide-for-football-fans-8734648" data-ordinal="1">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/2blwg0Ttbxyj10GtsdVJARnqsdY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Nashville-food-tour-for-football-fans-FT-BLOG1124-Daddys-Dogs-02-16f4826cdb8149129aa323bd520a1b7e.jpg" width="282" height="188" alt="The TITAN dog from Daddy's Dogs at Nissan Stadium in Nashville." class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/2blwg0Ttbxyj10GtsdVJARnqsdY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Nashville-food-tour-for-football-fans-FT-BLOG1124-Daddys-Dogs-02-16f4826cdb8149129aa323bd520a1b7e.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="The TITAN dog from Daddy's Dogs at Nissan Stadium in Nashville."/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Nashville Treats Football Fans to Hot Chicken Mac and Cheese and More Music City Food</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Jon Gugala"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_10-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="8744780" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/reveillon-in-new-orleans-8744780" data-ordinal="2">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/FejqUlhOwKhRZtOiVB6RG1xriSM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Reveillon-Christmas-Celebrations-in-New-Orleans-FT-BLOG1124-Antoines-04-aa44e32d53bc4a92821522de45538e56.jpg" width="282" height="188" alt="Antoine's Reveillon menu dishes" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/FejqUlhOwKhRZtOiVB6RG1xriSM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Reveillon-Christmas-Celebrations-in-New-Orleans-FT-BLOG1124-Antoines-04-aa44e32d53bc4a92821522de45538e56.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Antoine's Reveillon menu dishes"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">New Orleans Keeps a French Holiday Tradition Alive With Seasonal Feasts</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Adam H. Callaghan"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_11-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="6405996" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/best-secret-local-restaurants-new-orleans-neighborhoods-2019" data-ordinal="3">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/CRz3OSl_huGVkdD2gEzHRT102z0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/cheap-eats-new-orleans-guys-po-boys-FT-BLOG0917-5d58858b8b5d47f1a2078e0cf92f0923.jpg" width="282" height="188" alt="new orleans cheap foods" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/CRz3OSl_huGVkdD2gEzHRT102z0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/cheap-eats-new-orleans-guys-po-boys-FT-BLOG0917-5d58858b8b5d47f1a2078e0cf92f0923.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="new orleans cheap foods"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">15 New Orleans Neighborhood Restaurants You Need in Your Life</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By David Landsel"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_12-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="8734615" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/jacksonville-florida-food-guide-for-football-fans-8734615" data-ordinal="4">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/dcT1YYWd2UfRTFO48pdVVaAKvTU=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Jacksonville-food-tour-for-football-fans-FT-BLOG1124-EverBank-Stadium-c9746df137694f32a28425cc4e186dbc.jpg" width="282" height="188" alt="Birdseye view of EverBank Stadium in Jacksonville, Florida." class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/dcT1YYWd2UfRTFO48pdVVaAKvTU=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Jacksonville-food-tour-for-football-fans-FT-BLOG1124-EverBank-Stadium-c9746df137694f32a28425cc4e186dbc.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Birdseye view of EverBank Stadium in Jacksonville, Florida."/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Where to Eat on Game Day in Jacksonville, Florida</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Carrie Honaker"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_13-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="6404402" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/united-states/virginia-wine-visits" data-ordinal="5">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/Gbwwnr1LWHO9fygo5ztvYvF2Ync=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/three-fox-vineyards-virginia-wineries-XL-SS1216-1694db21170940f9b58a5f9692b892a8.jpg" width="282" height="188" alt="Three Fox Vineyards" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/Gbwwnr1LWHO9fygo5ztvYvF2Ync=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/three-fox-vineyards-virginia-wineries-XL-SS1216-1694db21170940f9b58a5f9692b892a8.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Three Fox Vineyards"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">The Best Virginia Wineries to Visit</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Food &amp; Wine Editors"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_14-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="7966853" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/nando-and-valerie-chang-miami-city-guide-7966853" data-ordinal="6">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/UBVifbSXH_0qanhm1v2M5M4mSMA=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/BNC-City-Guide-Nando-and-Valerie-Chang-Miami-FT-BLOG0923-0ddba92c50cd42f09cddd7de5f054a9c.jpg" width="282" height="188" alt="Nando and Valerie Chang's Miami" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/UBVifbSXH_0qanhm1v2M5M4mSMA=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/BNC-City-Guide-Nando-and-Valerie-Chang-Miami-FT-BLOG0923-0ddba92c50cd42f09cddd7de5f054a9c.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Nando and Valerie Chang's Miami"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">A Perfect Dinner in Miami Includes Pasta and ’90s Hip-Hop</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Amelia Schwartz"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_15-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="8734601" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/charlotte-north-carolina-food-for-sports-fans-8734601" data-ordinal="7">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/FJMLHeAyaPUqrT04Q0W0n5wQZjk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Charlotte-food-tour-for-football-fans-FT-BLOG1124-WFNZ-Doghouse-02-0dc08d98c5d94b76a6e80faf79bd8d6b.jpg" width="282" height="188" alt="Football fans at WFNZ Dog House in Charlotte" class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/FJMLHeAyaPUqrT04Q0W0n5wQZjk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Charlotte-food-tour-for-football-fans-FT-BLOG1124-WFNZ-Doghouse-02-0dc08d98c5d94b76a6e80faf79bd8d6b.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Football fans at WFNZ Dog House in Charlotte"/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Charlotte&#39;s Food Scene Is a Sports Fans&#39; Dream</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Kayleigh Ruller"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_16-0" class="comp mntl-card-list-items mntl-universal-card mntl-document-card mntl-card card card--no-image" data-doc-id="8734467" data-tax-levels href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/new-orleans-food-guide-for-football-fans-8734467" data-ordinal="8">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
+<img data-src="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/thmb/_HA1lsLqf6lEDCPOcmdhF9ZQdok=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/New-Orleans-football-food-tour-FT-BLOG1124-Sodexo-Live-01-8756389373c64ca89d2fd2d44f8dfe18.jpg" width="282" height="188" alt="Loaded baked potatoes at Caesars Superdome in New Orleans with a football helmet." class="lazyload card__img universal-image__image" data-expand="300"/>
+<noscript>
+<img src="http://web.archive.org/web/20241225084146im_/https://www.foodandwine.com/thmb/_HA1lsLqf6lEDCPOcmdhF9ZQdok=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/New-Orleans-football-food-tour-FT-BLOG1124-Sodexo-Live-01-8756389373c64ca89d2fd2d44f8dfe18.jpg" width="282" height="188" class="img--noscript card__img universal-image__image" alt="Loaded baked potatoes at Caesars Superdome in New Orleans with a football helmet."/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="United States">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">Seafood Nachos, Po’boys, and Gumbo Are Football Fan Favorites in New Orleans</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Adam H. Callaghan"></div>
+</div>
+</a></div>
+<div id="leaderboard2-deferred-footer_1-0" class="comp leaderboard2-deferred-footer mm-ads-leaderboardfooter-flex-2-lazy mm-ads-flexible-leaderboard-lazy mm-ads-flexible-leaderboard mm-ads-flexible-ad mm-ads-gpt-adunit js-lazy-ad has-right-label leaderboard gpt leaderboard dynamic">
+<div id="leaderboardfooter-flex-2" class="wrapper" data-type="leaderboard" data-pos="atf" data-priority="1" data-sizes="[[728, 90], [970, 250], &quot;fluid&quot;]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div></div>
+</main><footer id="mntl-footer_1-0" class="comp mntl-footer" role="contentinfo" data-tracking-container="true"> <div class="mntl-footer__inner">
+<div class="mntl-footer__primary">
+<div class="mntl-footer__logo">
+<a href="/web/20241225084146/https://www.foodandwine.com/" rel="home nocaes" id="mntl-logo_1-0" aria-label="Visit Food &amp; Wine's homepage"> <div class="is-screenreader-only">Food &amp; Wine</div>
+<svg class="icon icon-logo ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-logo" href="#icon-logo"></use>
+</svg></a> </div>
+<div class="loc newsletter-link-wrapper mntl-footer__newsletter"><a href="#" rel="nocaes" data-a11y-dialog-show="newsletter-dialog-footer" id="mntl-newsletter-dialog--footer-link_1-0" role="button" class="mntl-newsletter-dialog--footer-link dialog-link mntl-text-link mntl-footer__newsletter-link" data-tracking-container="true"><span class="link__wrapper">Newsletters</span></a>
+</div> <div class="mntl-footer__social">
+<div id="mntl-footer-social_1-0" class="comp mntl-footer-social foodandwine-social-nav mntl-social-nav" data-tracking-container="true">
+<div class="social-nav__title">Follow Us</div>
+<ul class="social-nav__list">
+<li class="social-nav__item social-nav__item--facebook">
+<a href="http://web.archive.org/web/20241225084146/https://www.facebook.com/foodandwine" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--facebook" aria-label="Visit Food &amp;amp; Wine's Facebook"> <svg class="icon icon-facebook social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-facebook" href="#icon-facebook"></use>
+</svg>
+</a> </li>
+<li class="social-nav__item social-nav__item--flipboard">
+<a href="http://web.archive.org/web/20241225084146/https://flipboard.com/@foodandwine" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--flipboard" aria-label="Visit Food &amp;amp; Wine's Flipboard"> <svg class="icon icon-flipboard social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-flipboard" href="#icon-flipboard"></use>
+</svg>
+</a> </li>
+<li class="social-nav__item social-nav__item--instagram">
+<a href="http://web.archive.org/web/20241225084146/https://www.instagram.com/foodandwine/?hl=en" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--instagram" aria-label="Visit Food &amp;amp; Wine's Instagram"> <svg class="icon icon-instagram social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-instagram" href="#icon-instagram"></use>
+</svg>
+</a> </li>
+<li class="social-nav__item social-nav__item--pinterest">
+<a href="http://web.archive.org/web/20241225084146/https://www.pinterest.com/foodandwine/" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--pinterest" aria-label="Visit Food &amp;amp; Wine's Pinterest"> <svg class="icon icon-pinterest social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-pinterest" href="#icon-pinterest"></use>
+</svg>
+</a> </li>
+<li class="social-nav__item social-nav__item--youtube">
+<a href="http://web.archive.org/web/20241225084146/https://www.youtube.com/channel/UCKH_4hkRSyUSHDIFMzlGCRA" target="_blank" rel="noopener nocaes" class="social-nav__link social-nav__link--youtube" aria-label="Visit Food &amp;amp; Wine's YouTube"> <svg class="icon icon-youtube social-nav__icon">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-youtube" href="#icon-youtube"></use>
+</svg>
+</a> </li>
+</ul>
+</div> </div>
+</div>
+<div class="mntl-footer__secondary">
+<nav id="mntl-footer-nav_1-0" class="comp mntl-footer-nav mntl-block" aria-label="Footer"><ul id="mntl-block_1-0" class="comp mntl-block mntl-footer-nav__list"><li id="mntl-footer-nav__list-item_1-0" class="comp mntl-footer-nav__list-item mntl-block"><a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/food-7499700" rel="nocaes" id="mntl-text-link_1-0" class="mntl-text-link text-label-300 global-link" data-tracking-container="true"><span class="link__wrapper">Food</span></a></li>
+<li id="mntl-footer-nav__list-item_2-0" class="comp mntl-footer-nav__list-item mntl-block"><a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/drinks" rel="nocaes" id="mntl-text-link_2-0" class="mntl-text-link text-label-300 global-link" data-tracking-container="true"><span class="link__wrapper">Drink</span></a></li>
+<li id="mntl-footer-nav__list-item_3-0" class="comp mntl-footer-nav__list-item mntl-block"><a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/restaurants" rel="nocaes" id="mntl-text-link_3-0" class="mntl-text-link text-label-300 global-link" data-tracking-container="true"><span class="link__wrapper">Restaurants</span></a></li>
+<li id="mntl-footer-nav__list-item_4-0" class="comp mntl-footer-nav__list-item mntl-block"><a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel" rel="nocaes" id="mntl-text-link_4-0" class="mntl-text-link text-label-300 global-link" data-tracking-container="true"><span class="link__wrapper">Travel</span></a></li>
+<li id="mntl-footer-nav__list-item_5-0" class="comp mntl-footer-nav__list-item mntl-block"><a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/news" rel="nocaes" id="mntl-text-link_5-0" class="mntl-text-link text-label-300 global-link" data-tracking-container="true"><span class="link__wrapper">News</span></a></li>
+<li id="mntl-footer-nav__list-item_6-0" class="comp mntl-footer-nav__list-item mntl-block"><a href="http://web.archive.org/web/20241225084146/https://www.foodandwine.com/what-to-buy" rel="nocaes" id="mntl-text-link_6-0" class="mntl-text-link text-label-300 global-link" data-tracking-container="true"><span class="link__wrapper">What to Buy</span></a></li></ul></nav><ul id="mntl-footer-links_1-0" class="comp mntl-footer-links footer-links"> <li class="mntl-footer-links__item ">
+<a href="/web/20241225084146/https://www.foodandwine.com/about-us-6373913" rel="nocaes" data-type="ourStory" data-ordinal="1" class="mntl-footer-links__link text-utility-200 global-link" data-component="footerLinks" data-source="footerLinks"> About Us
+</a> </li>
+<li class="mntl-footer-links__item ">
+<a href="/web/20241225084146/https://www.foodandwine.com/diversity-equity-and-inclusion-6373915" rel="nocaes" data-type="antiRacism" data-ordinal="1" class="mntl-footer-links__link text-utility-200 global-link" data-component="footerLinks" data-source="footerLinks"> Anti-Racism Pledge
+</a> </li>
+<li class="mntl-footer-links__item ">
+<a href="/web/20241225084146/https://www.foodandwine.com/about-us-6373913#toc-editorial-policies" rel="nocaes" data-type="editorialGuidelines" data-ordinal="1" class="mntl-footer-links__link text-utility-200 global-link" data-component="footerLinks" data-source="footerLinks"> Editorial Guidelines
+</a> </li>
+<li class="mntl-footer-links__item ">
+<a href="/web/20241225084146/https://www.foodandwine.com/about-us-6373913#toc-product-reviews" rel="nocaes" data-type="productVetting" data-ordinal="1" class="mntl-footer-links__link text-utility-200 global-link" data-component="footerLinks" data-source="footerLinks"> Product Vetting
+</a> </li>
+<li class="mntl-footer-links__item ">
+<a href="http://web.archive.org/web/20241225084146/https://www.dotdashmeredith.com/brands-privacy" target="_blank" rel="noopener nofollow nocaes" data-type="privacyPolicy" data-ordinal="1" class="mntl-footer-links__link text-utility-200 global-link" data-component="footerLinks" data-source="footerLinks"> Privacy Policy
+</a> </li>
+<li class="mntl-footer-links__item ">
+<a href="http://web.archive.org/web/20241225084146/https://www.dotdashmeredith.com/brands-termsofservice" target="_blank" rel="noopener nofollow nocaes" data-type="termsOfService" data-ordinal="1" class="mntl-footer-links__link text-utility-200 global-link" data-component="footerLinks" data-source="footerLinks"> Terms of Service
+</a> </li>
+<li class="mntl-footer-links__item ">
+<a href="http://web.archive.org/web/20241225084146/https://www.dotdashmeredith.com/advertising" target="_blank" rel="noopener nofollow nocaes" data-type="advertise" data-ordinal="1" class="mntl-footer-links__link text-utility-200 global-link" data-component="footerLinks" data-source="footerLinks"> Advertise
+</a> </li>
+<li class="mntl-footer-links__item ">
+<a href="http://web.archive.org/web/20241225084146/https://www.dotdashmeredith.com/careers" target="_blank" rel="noopener nofollow nocaes" data-type="careersAtDotDashMeredith" data-ordinal="1" class="mntl-footer-links__link text-utility-200 global-link" data-component="footerLinks" data-source="footerLinks"> Careers
+</a> </li>
+<li class="mntl-footer-links__item ot-pref-trigger">
+<button class="mntl-footer-links__link mntl-footer-links__privacy text-utility-200 global-link" type="button" data-component="footerLinks" data-type="cmpFooterLink" safelist="true" href="#" data-ordinal="1" data-source="footerLinks" forcenosponsored="true"> <span class="link-wrapper">Your Privacy Choices</span>
+&nbsp;<span class="post-link-wrapper"> <svg class="icon icon-privacy-options " role="img" aria-label="Manage Your Privacy Choices">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-privacy-options" href="#icon-privacy-options"></use>
+</svg>
+</span>
+</button> </li>
+<li class="mntl-footer-links__item ">
+<a href="http://web.archive.org/web/20241225084146/https://www.dotdashmeredith.com/contact" target="_blank" rel="noopener nofollow nocaes" data-type="contact" data-ordinal="1" class="mntl-footer-links__link text-utility-200 global-link" data-component="footerLinks" data-source="footerLinks"> Contact
+</a> </li>
+<li class="mntl-footer-links__item mntl-truste-badge-wrapper">
+<div class="loc truste-badge"><div id="mntl-universal-truste-badge_1-0" class="comp mntl-universal-truste-badge mntl-block"><a href="//web.archive.org/web/20241225084146/https://privacy.truste.com/privacy-seal/validation?rid=4791f7d7-5a30-4e1a-85f6-5d3cb8abe771" target="_blank" rel="noopener nocaes" id="mntl-universal-truste-badge_1-0-link" class="mntl-truste-badge-link" data-tracking-container="true"> <img class="mntl-truste-badge-image lazyload" alt="Access TRUSTe's Enterprise Privacy Certification program" data-src="//web.archive.org/web/20241225084146/https://privacy-policy.truste.com/privacy-seal/seal?rid=4791f7d7-5a30-4e1a-85f6-5d3cb8abe771" width="100" height="32"/>
+</a></div>
+</div> </li>
+</ul> </div>
+</div>
+<div class="loc footer-bottom"><div id="mntl-dotdash-universal-nav_1-0" class="comp mntl-dotdash-universal-nav mntl-carbon-dotdash-universal-nav" data-tracking-container="true"> <div class="mntl-dotdash-universal-nav__content">
+<svg class="icon mntl-dotdash-universal-nav__logo ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#mntl-dotdash-universal-nav__logo" href="#mntl-dotdash-universal-nav__logo"></use>
+</svg>
+<div class="mntl-dotdash-universal-nav__wrapper">
+<div class="mntl-dotdash-universal-nav__text">
+Food &amp; Wine
+is part of the <a href="http://web.archive.org/web/20241225084146/https://www.dotdashmeredith.com/" target="_blank" rel="noopener nofollow nocaes" class="mntl-dotdash-universal-nav__text--link">Dotdash Meredith</a>&nbsp;publishing&nbsp;family.
+</div>
+<div class="mntl-dotdash-universal-nav__notice">
+Please review our updated&nbsp;<a href="http://web.archive.org/web/20241225084146/https://www.dotdashmeredith.com/brands-termsofservice" target="_blank" rel="noopener nofollow nocaes" class="mntl-dotdash-universal-nav__text--link">Terms of Service</a>.
+</div>
+</div>
+</div>
+</div>
+<div id="mm-myrecipes-interstitial__dialog_1-0" class="comp mm-myrecipes-interstitial__dialog mntl-dialog myrecipes myr-meridian dialog " data-a11y-dialog="mm-myrecipes-interstitial__dialog" aria-hidden="true"> <div class="dialog__overlay" tabindex="-1" data-a11y-dialog-hide></div>
+<div role="dialog" class="dialog__content" aria-labelledby="mm-myrecipes-interstitial__dialog_1-0-title">
+<div class="dialog__heading">
+<span id="mm-myrecipes-interstitial__dialog_1-0-title" class="dialog__title ">Dialog Heading</span>
+<button data-a11y-dialog-hide class="dialog__close" data-click-tracked="true" aria-label="Close this dialog window">
+<svg class="icon icon-close ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-close" href="#icon-close"></use>
+</svg>
+</button>
+</div>
+<div class="loc content dialog__main"><div id="mm-myrecipes-interstitial__content_1-0" class="comp mm-myrecipes-interstitial__content mm-myrecipes-interstitial mm-myrecipes-interstitial__content" data-defer="load"></div>
+</div> </div>
+</div>
+</div></footer>
+<div id="newsletter-dialog-header_1-0" class="comp newsletter-dialog-header mntl-newsletter-dialog--header mntl-newsletter-dialog mntl-dialog dialog " data-a11y-dialog="newsletter-dialog-header" aria-hidden="true"> <div class="dialog__overlay" tabindex="-1" data-a11y-dialog-hide></div>
+<div role="dialog" class="dialog__content" aria-labelledby="newsletter-dialog-header_1-0-title">
+<div class="dialog__heading">
+<span id="newsletter-dialog-header_1-0-title" class="dialog__title text-title-100">Newsletter Sign Up</span>
+<button data-a11y-dialog-hide class="dialog__close" data-click-tracked="true" aria-label="Close this dialog window">
+<svg class="icon icon-close ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-close" href="#icon-close"></use>
+</svg>
+</button>
+</div>
+<div class="loc content dialog__main"><div id="mntl-newsletter_1-0" class="comp mntl-newsletter" data-defer="loadDialogContent"></div>
+</div> </div>
+</div>
+<div id="newsletter-dialog-footer_1-0" class="comp newsletter-dialog-footer mntl-newsletter-dialog--footer mntl-newsletter-dialog mntl-dialog dialog " data-a11y-dialog="newsletter-dialog-footer" aria-hidden="true"> <div class="dialog__overlay" tabindex="-1" data-a11y-dialog-hide></div>
+<div role="dialog" class="dialog__content" aria-labelledby="newsletter-dialog-footer_1-0-title">
+<div class="dialog__heading">
+<span id="newsletter-dialog-footer_1-0-title" class="dialog__title text-title-100">Newsletter Sign Up</span>
+<button data-a11y-dialog-hide class="dialog__close" data-click-tracked="true" aria-label="Close this dialog window">
+<svg class="icon icon-close ">
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/web/20241225084146im_/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants#icon-close" href="#icon-close"></use>
+</svg>
+</button>
+</div>
+<div class="loc content dialog__main"><div id="mntl-newsletter_2-0" class="comp mntl-newsletter" data-defer="loadDialogContent"></div>
+</div> </div>
+</div><svg class="is-hidden">
+<defs>
+<symbol id="mntl-sc-block-starrating-icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
+<path d="M0,0v20h20V0H0z M14.2,12.2l1.1,6.3l-5.4-3.2l-5.1,3.2l1-6.3L1.4,8l5.9-0.8l2.6-5.8l2.7,5.8L18.5,8L14.2,12.2z"/>
+</svg>
+</symbol>
+</defs>
+</svg><script type="text/javascript" data-glb-js="bottom" src="/web/20241225084146js_/https://www.foodandwine.com/static/2.191.0/cache/eNqNVGtyozAMvtBqmZ5h_-4lZFuAEmGntklKT19hkpaQ1GGGGT0_oaeblDGzbQb0Wai5SsImNQf93keK05_m3kkNY2bhzJTAjCwZLpx7-NV7UAbO6FkEIdkYRLZeNgyn4Mnn1LDPFD1K46ilOOMLE8lVQNi2mhFmAmF_hEiXyHlBq9dA0dJvPpWo9LGkwp8LpjTlQfkTILhRqDgJfk6AtYwddxx6cCQ4kduIFdyFXUdKe-Kuz_969B3955TJa7nPlJVYnQSjje4JXQHPZOu-WQl8e5vAMUroKoE9nrlTW_DXVZlAVWu-Am5DHFKTCKPtYRbWfAU3UErYERj0cy_uxeok5mqupIx0X2VLv0phP-w-aDuK6CEQ-QK_F5_t03wzeMHpwbaKbzCVc2uFPtgIvdq_VdX7sjZRy7RxHHQVVvz1pJ-odqxxDkEyn260duJj7kOEG-Cw1ez4WQpWy4XUYyydWssVuBlzDj59P2WnqG8ULNraQM7sKMDhcppvOoKJAV1zL-6HfwNfHKikv6ZLlGsv7KB3Mft23O7oGka16zq1RM6gPT4oXmSUVDhOhnOqVZvex9tULEiwR1g0NYxXw7lgFu4LGy6dBg.min.js" async defer="true"></script>
+<script type="text/javascript">
+Mntl.utilities.scriptsOnLoad(document.querySelectorAll('script[data-glb-js="bottom"]'), function() {
+var Mntl = window.Mntl || {};
+window.Mntl.affiliateLinkRewriter.setMappings( {
+DOC_ID: '6404659'
+,SITE: 'foodandwine'
+,REQUEST_ID: 'n243e1eb4833744c0849bb045b7e7d9a708'
+}
+);window.Mntl.externalizeLinks.addPlugin(window.Mntl.affiliateLinkRewriter);
+window.Mntl.externalizeLinks.addPlugin(window?.Trx?.amazonAffiliateTagger);
+window.Mntl.externalizeLinks.init();(function (Mntl) {
+Mntl.digioh = {
+script: null,
+brandId: null,
+initialized: false,
+init() {
+if (this.initialized) return;
+const brandId = 'cb932df3-8dab-44d9-9fd9-98ea756e408e';
+const digiohFastActivation = 'false';
+const lightboxJs = digiohFastActivation === 'true' ? '/lightbox_speed.js' : '/lightbox_inline.js';
+// eslint-disable-next-line prefer-template
+const script = 'http://web.archive.org/web/20241225084146/https://www.lightboxcdn.com/vendor/' + brandId + lightboxJs;
+this.brandId = brandId;
+this.script = script;
+this.initialized = true;
+},
+load(callback) {
+this.init();
+if (callback) {
+Mntl.utilities.loadExternalJS({ src: this.script }, callback);
+} else {
+Mntl.utilities.loadExternalJS({ src: this.script });
+}
+}
+};
+})(window.Mntl || {});
+Mntl.digiohTimerDelay = parseFloat('0') * 1000;
+(function() {
+var article = document.getElementById('foodandwine-article--sc_1-0');
+if (article && !article.gtmPageView) {
+article.gtmPageView = {"country":"US","fullUrl":"http://web.archive.org/web/20241225084146/https://www.foodandwine.com/travel/restaurants/buford-highway-atlanta-best-restaurants" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n243e1eb4833744c0849bb045b7e7d9a708","internalRequestId":"n243e1eb4833744c0849bb045b7e7d9a708","hid":"","experienceTypeName":"","recircDocIdsFooter":"S-8734508|S-7253353|S-8691885|S-8637333|S-8730678|S-6408357|S-7108205|S-6408343","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.0.763","commerceVersion":"","primaryTaxonomyNames":"Food &amp; Wine|Travel|United States","description":"Immigrants transformed a string of average suburbs into one of the South&#39;s most fascinating places. Here&#39;s how you can get to know Buford Highway better.","title":"A Beginner&#39;s Guide to Atlanta&#39;s Buford Highway" || document.title || '',"authorId":"1010208","revenueGroup":"","documentId":6404659,"viewType":"","contentGroup":"Other","templateName":"STRUCTUREDCONTENT","authorNames":"David Landsel","primaryTaxonomyIds":"6361217|6399992|6399669","templateId":"110","muid":"b1cbddc6-308f-4f49-b9ea-828d31e06a44","lastEditingAuthorId":"1100585","lastEditingUserId":"171802451390731"};
+}
+}());
+(function(Mntl) {
+Mntl.Tooltip.init({
+defaultPositionX: "auto",
+defaultPositionY: "auto"
+});
+})(window.Mntl || {});
+(function(Mntl) {
+const setup = {"clickToInitialize":false,"playlistUrl":"http:\/\/web.archive.org\/web\/20241225084146\/https:\/\/cdn.jwplayer.com\/v2\/playlists\/ILhAlSIo","skin":{"name":"mantle"},"mute":true,"advertising":{"client":"googima","vpaidmode":"enabled","rules":{"frequency":1},"forceNonLinearFullSlot":true,"vpaidcontrols":true,"autoplayadsmuted":true},"autostart":true,"nextUpDisplay":true,"preload":"metadata","aspectratio":"16:9","pauseotherplayers":"true","cast":{},"recsPlaylistId":"Lt5cjYZK","width":"100%"};
+// JW player requires `playlist` to be populated for contextual playlists
+setup.playlist = setup.playlistUrl;
+const isImmediateAutoplay = false;
+const playInView = 0;
+const encodedPageURL = encodeURIComponent(window.location);
+const domain = Mntl.utilities.getDomain();
+const iuPath = '/' + Mntl.GPT.getDfpId() + '/ddm.' + domain.replace('.com', '.video') + (Mntl.GPT.isMobile() ? '.mob' : '');
+function formatAdSizeArray(sizeArr) {
+return sizeArr.map(function(sz) {
+return sz.join('x');
+}).join('|');
+}
+// Assign a randomly-generated, eight character, alpha-numeric value to this property.
+setup.advertising.adscheduleid = Math.random().toString(36).substr(2,8);
+// muid - used for audience targeting
+setup.advertising.ppid = 'b1cbddc6-308f-4f49-b9ea-828d31e06a44';
+let custParams = '';
+custParams += '&' + encodeURIComponent('slot') + '=' + encodeURIComponent('broadmatch');
+const inFocus = window && window.document && window.document.hasFocus();
+const durationParams = Mntl.JWPlayer.getDurationParams(0, true);
+custParams += '&ttid=' + setup.mediaid;
+custParams += '&play=' + Mntl.JWPlayer.getCustomPlayValue(setup.autostart, isImmediateAutoplay, playInView);
+custParams += '&in_focus=' + inFocus;
+custParams += '&videoduration=' + durationParams.duration;
+custParams += '&duration_over=' + durationParams.durationOver;
+custParams += '&duration_under=' + durationParams.durationUnder;
+setup.advertising.schedule = [{
+"offset": "pre",
+"tag": [
+'http://web.archive.org/web/20241225084146/https://securepubads.g.doubleclick.net/gampad/ads?',
+'sz=',
+formatAdSizeArray([[640, 360]]),
+'&iu=',
+iuPath,
+'&env=vp&hl=en&gdfp_req=1&impl=s&output=xml_vast2&unviewed_position_start=1&lid=',
+'&url=',
+encodedPageURL,
+'&description_url=',
+encodedPageURL,
+'&correlator=',
+Math.floor(Date.now() / 1000),
+'&cust_params=',
+Mntl.GPT.serializeAllTargeting(),
+encodeURIComponent(custParams),
+'&ad_rule=1'
+].join('')
+}];
+setup.advertising.bids = {
+"bidders": [{
+"name": "Rubicon",
+"pubid": "7499",
+"siteId": "382340",
+"zoneId": "2120008"
+}],
+/* Set the mediation layer.
+Define the floor price.
+*/
+"settings": {
+"mediationLayerAdServer": "dfp",
+"floorPriceCents": 1100,
+"buckets": [
+{
+"increment": .10,
+"min": .10,
+"max": 50.00
+}
+]
+}
+}
+Mntl.JWPlayer.init({
+accountKey: "oxY0/BqWBX09BISmLN4/xuTz4IdZy713Cdjj4GyHOiYCUCyJ",
+adSizes: [[640, 360]],
+defer: true,
+deferOnRFDS: false,
+displayMode: "none",
+divId: "mntl-jwplayer-broad__video_1-0",
+enableBiddingWithTCData: false,
+enableTVPEngagementBtns: false,
+eventCategoryType: "Trending",
+intersectionMargin: "250px",
+isImmediateAutoplay: isImmediateAutoplay,
+isImmediateStickyDisabled: false,
+isIntersectionDisabled: false,
+isMobileAdhesive: false,
+isBroadVideo: true,
+isPlaylist: true,
+mediaSize: 1080,
+playerId: "Gfl8PqLO",
+playInView: playInView,
+showCaptions: true,
+rtbVideoConfig: {"maxduration":60,"minduration":0,"plcmt":2},
+useGamPlcmt: true,
+usePrebidPlcmt: true,
+useDynamicVideoSizes: true,
+skipExistingMediaContent: false,
+stickyplay: false,
+useMotionThumbnails: false
+}, setup );
+}(window.Mntl || {}));
+});
+</script>
+<div id="onetrust-consent-sdk" class="" data-tracking-container="true">
+<div id="onetrust-banner-sdk" class="otFlat bottom ot-wo-title" tabindex="0"><div role="dialog" aria-label="Privacy"><div class="ot-sdk-container"><div class="ot-sdk-row"><div id="onetrust-group-container" class="ot-sdk-eight ot-sdk-columns"><div class="banner_logo"></div><div id="onetrust-policy"><div id="onetrust-policy-text">By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. </div></div></div><div id="onetrust-button-group-parent" class="ot-sdk-three ot-sdk-columns"><div id="onetrust-button-group"><button id="onetrust-pc-btn-handler" class=" cookie-setting-link">Cookies Settings</button> <button id="onetrust-accept-btn-handler">Accept All Cookies</button></div></div></div></div><!-- Close Button --><div id="onetrust-close-btn-container"><button class="onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon" style="background-image: url('http://web.archive.org/web/20241225084146im_/https://cdn.cookielaw.org/logos/static/ot_close.svg')" aria-label="Close"></button></div><!-- Close Button END--></div></div>
+</div></body>
+</html><!--
+     FILE ARCHIVED ON 08:41:46 Dec 25, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:49:42 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 4.025
+  exclusion.robots: 0.037
+  exclusion.robots.policy: 0.023
+  esindex: 0.013
+  cdx.remote: 59.039
+  LoadShardBlock: 165.494 (3)
+  PetaboxLoader3.datanode: 145.209 (4)
+  load_resource: 340.39
+  PetaboxLoader3.resolve: 144.158
+-->

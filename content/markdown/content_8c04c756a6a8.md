@@ -1,0 +1,839 @@
+# Content from http://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/
+
+*Retrieved: 2025-09-15T08:31:45.256704*
+
+---
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>19 Maps That Will Blow Your Mind and Change the Way You See the World. Top All-time. You Won&#8217;t Believe Your Eyes. Watch. &#8211; FlowingData</title>
+	<meta name="description" content="FlowingData">
+	<meta name="author" content="Nathan Yau">
+    <meta name="generator" content="WordPress 6.8.2" /> <!-- leave this for stats -->
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7626174/696048/css/fonts.css" />
+    <style type="text/css">@font-face {font-family:Inconsolata;font-style:normal;font-weight:400;src:url(/cf-fonts/s/inconsolata/5.0.16/latin/400/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inconsolata;font-style:normal;font-weight:400;src:url(/cf-fonts/s/inconsolata/5.0.16/latin-ext/400/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inconsolata;font-style:normal;font-weight:400;src:url(/cf-fonts/s/inconsolata/5.0.16/vietnamese/400/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}</style>
+	<link rel="stylesheet" href="https://flowingdata.com/wp-content/themes/fd-modern-6-0/style.css" type="text/css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="//flowingdata.com/feed" />
+    <link rel="pingback" href="https://flowingdata.com/xmlrpc.php" />
+
+<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="https://flowingdata.com/wp-content/themes/fd-modern-6-0/stylesheets/skeleton-3.css">
+	<link rel="stylesheet" href="https://flowingdata.com/wp-content/themes/fd-modern-6-0/stylesheets/layout.css">
+
+<!--[if lt IE 9]>
+		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" sizes="57x57" href="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/icons/logo-lone-square57.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/icons/logo-lone-square180.png">
+	<link rel="apple-touch-icon" sizes="256x256" href="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/icons/logo-lone-square256.png">
+	<link href="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/icons/logo-lone-square256.png" rel="icon" type="image/png" sizes="256x256" />
+
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="ZbuEQnxCBtziLzNWy_mAXn0VwRK8d1iNq_weNL1dDG0" />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='preconnect' href='//c0.wp.com' />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/flowingdata.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://c0.wp.com/c/6.8.2/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='mediaelement-css' href='https://c0.wp.com/c/6.8.2/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://c0.wp.com/c/6.8.2/wp-includes/js/mediaelement/wp-mediaelement.min.css' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css' type='text/css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='bbp-default-css' href='https://flowingdata.com/wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?ver=2.6.14' type='text/css' media='all' />
+<link rel='stylesheet' id='learndash_quiz_front_css-css' href='//flowingdata.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_quiz_front.min.css?ver=4.25.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://c0.wp.com/c/6.8.2/wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='learndash-css' href='//flowingdata.com/wp-content/plugins/sfwd-lms/src/assets/dist/css/styles.css?ver=4.25.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-dropdown-css-css' href='//flowingdata.com/wp-content/plugins/sfwd-lms/assets/css/jquery.dropdown.min.css?ver=4.25.1' type='text/css' media='all' />
+<link rel='stylesheet' id='learndash_lesson_video-css' href='//flowingdata.com/wp-content/plugins/sfwd-lms/themes/legacy/templates/learndash_lesson_video.min.css?ver=4.25.1' type='text/css' media='all' />
+<link rel='stylesheet' id='learndash-admin-bar-css' href='https://flowingdata.com/wp-content/plugins/sfwd-lms/src/assets/dist/css/admin-bar/styles.css?ver=4.25.1' type='text/css' media='all' />
+<link rel='stylesheet' id='learndash-front-css' href='//flowingdata.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/css/learndash.min.css?ver=4.25.1' type='text/css' media='all' />
+<style id='learndash-front-inline-css' type='text/css'>
+		.learndash-wrapper .ld-item-list .ld-item-list-item.ld-is-next,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem label:focus-within {
+			border-color: #a53635;
+		}
+
+/*
+		.learndash-wrapper a:not(.ld-button):not(#quiz_continue_link):not(.ld-focus-menu-link):not(.btn-blue):not(#quiz_continue_link):not(.ld-js-register-account):not(#ld-focus-mode-course-heading):not(#btn-join):not(.ld-item-name):not(.ld-table-list-item-preview):not(.ld-lesson-item-preview-heading),
+		 */
+
+.learndash-wrapper .ld-breadcrumbs a,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-item-preview-heading,
+		.learndash-wrapper .ld-lesson-item.ld-is-current-lesson .ld-lesson-title,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-primary-color-hover:hover,
+		.learndash-wrapper .ld-primary-color,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-reverse,
+		.learndash-wrapper .ld-icon-certificate,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-login .ld-modal-heading,
+		#wpProQuiz_user_content a,
+		.learndash-wrapper .ld-item-list .ld-item-list-item a.ld-item-name:hover,
+		.learndash-wrapper .ld-focus-comments__heading-actions .ld-expand-button,
+		.learndash-wrapper .ld-focus-comments__heading a,
+		.learndash-wrapper .ld-focus-comments .comment-respond a,
+		.learndash-wrapper .ld-focus-comment .ld-comment-reply a.comment-reply-link:hover,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			color: #a53635 !important;
+		}
+
+.learndash-wrapper .ld-focus-comment.bypostauthor>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper {
+			background-color:rgba(165, 54, 53, 0.03) !important;
+		}
+
+.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active:after {
+			background: #a53635 !important;
+		}
+
+.learndash-wrapper .ld-course-navigation .ld-lesson-item.ld-is-current-lesson .ld-status-incomplete,
+		.learndash-wrapper .ld-focus-comment.bypostauthor:not(.ptype-sfwd-assignment) >.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-group_leader>.ld-comment-wrapper>.ld-comment-avatar img,
+		.learndash-wrapper .ld-focus-comment.role-administrator>.ld-comment-wrapper>.ld-comment-avatar img {
+			border-color: #a53635 !important;
+		}
+
+.learndash-wrapper .ld-loading::before {
+			border-top:3px solid #a53635 !important;
+		}
+
+.learndash-wrapper .ld-button:hover:not([disabled]):not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		#learndash-tooltips .ld-tooltip:after,
+		#learndash-tooltips .ld-tooltip,
+		.ld-tooltip:not(.ld-tooltip--modern) [role="tooltip"],
+		.learndash-wrapper .ld-primary-background,
+		.learndash-wrapper .btn-join:not(.ld--ignore-inline-css),
+		.learndash-wrapper #btn-join:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-button:not([disabled]):not(.ld-button-reverse):not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-expand-button:not([disabled]),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not([disabled]):not(.wpProQuiz_button_reShowQuestion):not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:not([disabled]),
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-course-navigation-heading,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit']:not([disabled]),
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register:not([disabled]),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:not([disabled]),
+		.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a:not([disabled]),
+		#wpProQuiz_user_content table.wp-list-table thead th,
+		#wpProQuiz_overlay_close:not([disabled]),
+		.learndash-wrapper .ld-expand-button.ld-button-alternate:not([disabled]) .ld-icon {
+			background-color: #a53635 !important;
+			color: #ffffff;
+		}
+
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger:not([disabled]):not(:hover):not(:focus) .ld-icon {
+			background-color: #a53635;
+		}
+
+.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger:hover .ld-icon,
+		.learndash-wrapper .ld-focus .ld-focus-sidebar .ld-focus-sidebar-trigger:focus .ld-icon {
+			border-color: #a53635;
+			color: #a53635;
+		}
+
+.learndash-wrapper .ld-button:focus:not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		.learndash-wrapper .btn-join:focus:not(.ld--ignore-inline-css),
+		.learndash-wrapper #btn-join:focus:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-expand-button:focus,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not(.wpProQuiz_button_reShowQuestion):focus:not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:focus,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit']:focus,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register:focus,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:focus {
+			opacity: 0.75; /* Replicates the hover/focus states pre-4.21.3. */
+			outline-color: #a53635;
+		}
+
+.learndash-wrapper .ld-button:hover:not(.ld-button-transparent):not(.ld--ignore-inline-css),
+		.learndash-wrapper .btn-join:hover:not(.ld--ignore-inline-css),
+		.learndash-wrapper #btn-join:hover:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-expand-button:hover,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:not(.wpProQuiz_button_reShowQuestion):hover:not(.wpProQuiz_button_restartQuiz),
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:hover,
+		.learndash-wrapper .ld-focus-comments .form-submit #submit,
+		.learndash-wrapper .ld-login-modal input[type='submit']:hover,
+		.learndash-wrapper .ld-login-modal .ld-login-modal-register:hover,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:hover {
+			background-color: #a53635; /* Replicates the hover/focus states pre-4.21.3. */
+			opacity: 0.85; /* Replicates the hover/focus states pre-4.21.3. */
+		}
+
+.learndash-wrapper .ld-item-list .ld-item-search .ld-closer:focus {
+			border-color: #a53635;
+		}
+
+.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items:before {
+			border-bottom-color: #a53635 !important;
+		}
+
+.learndash-wrapper .ld-button.ld-button-transparent:hover {
+			background: transparent !important;
+		}
+
+.learndash-wrapper .ld-button.ld-button-transparent:focus {
+			outline-color: #a53635;
+		}
+
+.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-button.ld-button-transparent,
+		.learndash-wrapper .ld-button.ld-button-alternate,
+		.learndash-wrapper .ld-expand-button.ld-button-alternate {
+			background-color:transparent !important;
+		}
+
+.learndash-wrapper .ld-focus-header .ld-user-menu .ld-user-menu-items a,
+		.learndash-wrapper .ld-button.ld-button-reverse:hover,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon.ld-icon-certificate,
+		.learndash-wrapper .ld-alert-warning .ld-button,
+		.learndash-wrapper .ld-primary-background.ld-status {
+			color:white !important;
+		}
+
+.learndash-wrapper .ld-status.ld-status-unlocked {
+			background-color: rgba(165,54,53,0.2) !important;
+			color: #a53635 !important;
+		}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_addToplist {
+			background-color: rgba(165,54,53,0.1) !important;
+			border: 1px solid #a53635 !important;
+		}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTable th {
+			background: #a53635 !important;
+		}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_toplistTrOdd {
+			background-color: rgba(165,54,53,0.1) !important;
+		}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_time_limit .wpProQuiz_progress {
+			background-color: #a53635 !important;
+		}
+		
+		.learndash-wrapper #quiz_continue_link,
+		.learndash-wrapper .ld-secondary-background,
+		.learndash-wrapper .learndash_mark_complete_button:not(.ld--ignore-inline-css),
+		.learndash-wrapper #learndash_mark_complete_button,
+		.learndash-wrapper .ld-status-complete,
+		.learndash-wrapper .ld-alert-success .ld-button,
+		.learndash-wrapper .ld-alert-success .ld-alert-icon {
+			background-color: #666666 !important;
+		}
+
+.learndash-wrapper #quiz_continue_link:focus,
+		.learndash-wrapper .learndash_mark_complete_button:focus:not(.ld--ignore-inline-css),
+		.learndash-wrapper #learndash_mark_complete_button:focus,
+		.learndash-wrapper .ld-alert-success .ld-button:focus {
+			outline-color: #666666;
+		}
+
+.learndash-wrapper .wpProQuiz_content a#quiz_continue_link {
+			background-color: #666666 !important;
+		}
+
+.learndash-wrapper .wpProQuiz_content a#quiz_continue_link:focus {
+			outline-color: #666666;
+		}
+
+.learndash-wrapper .course_progress .sending_progress_bar {
+			background: #666666 !important;
+		}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_reShowQuestion:hover, .learndash-wrapper .wpProQuiz_content .wpProQuiz_button_restartQuiz:hover {
+			background-color: #666666 !important;
+			opacity: 0.75;
+		}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_reShowQuestion:focus,
+		.learndash-wrapper .wpProQuiz_content .wpProQuiz_button_restartQuiz:focus {
+			outline-color: #666666;
+		}
+
+.learndash-wrapper .ld-secondary-color-hover:hover,
+		.learndash-wrapper .ld-secondary-color,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete .learndash_mark_complete_button:not(.ld--ignore-inline-css),
+		.learndash-wrapper .ld-focus .ld-focus-header #sfwd-mark-complete #learndash_mark_complete_button,
+		.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete:after {
+			color: #666666 !important;
+		}
+
+.learndash-wrapper .ld-secondary-in-progress-icon {
+			border-left-color: #666666 !important;
+			border-top-color: #666666 !important;
+		}
+
+.learndash-wrapper .ld-alert-success {
+			border-color: #666666;
+			background-color: transparent !important;
+			color: #666666;
+		}
+
+</style>
+<link rel='stylesheet' id='arve-css' href='https://flowingdata.com/wp-content/plugins/advanced-responsive-video-embedder/build/main.css?ver=10.6.14' type='text/css' media='all' />
+<script type="text/javascript" src="https://c0.wp.com/c/6.8.2/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://c0.wp.com/c/6.8.2/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://flowingdata.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://flowingdata.com/wp-json/wp/v2/posts/35684" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://flowingdata.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<link rel="canonical" href="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/" />
+<link rel='shortlink' href='https://flowingdata.com/?p=35684' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://flowingdata.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fflowingdata.com%2F2014%2F07%2F07%2F19-maps-that-will-blow-your-mind%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://flowingdata.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fflowingdata.com%2F2014%2F07%2F07%2F19-maps-that-will-blow-your-mind%2F&#038;format=xml" />
+<script type="text/javascript">
+  (function(c) {
+    var script = document.createElement("script");
+    script.src = "https://js.memberful.com/embed.js";
+    script.onload = function() { Memberful.setup(c) };
+    document.head.appendChild(script);
+  })({
+    site: ["https:\/\/flowingdata.memberful.com"]  });
+</script>
+	<style>img#wpstats{display:none}</style>
+		<meta name="generator" content="Elementor 3.31.3; features: additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<meta name="description" content="Many lists of maps promise to change the way you see the world, but this one actually does." />
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="19 Maps That Will Blow Your Mind and Change the Way You See the World. Top All-time. You Won&#8217;t Believe Your Eyes. Watch." />
+<meta property="og:url" content="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/" />
+<meta property="og:description" content="Many lists of maps promise to change the way you see the world, but this one actually does." />
+<meta property="article:published_time" content="2014-07-07T13:00:17+00:00" />
+<meta property="article:modified_time" content="2023-08-30T23:14:14+00:00" />
+<meta property="og:site_name" content="FlowingData" />
+<meta property="og:image" content="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png" />
+<meta property="og:image:width" content="954" />
+<meta property="og:image:height" content="524" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@flowingdata" />
+<meta name="twitter:text:title" content="19 Maps That Will Blow Your Mind and Change the Way You See the World. Top All-time. You Won&#8217;t Believe Your Eyes. Watch." />
+<meta name="twitter:image" content="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="icon" href="https://flowingdata.com/wp-content/uploads/2025/01/logo-lone-square512x512-120x120.png" sizes="32x32" />
+<link rel="icon" href="https://flowingdata.com/wp-content/uploads/2025/01/logo-lone-square512x512-210x210.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://flowingdata.com/wp-content/uploads/2025/01/logo-lone-square512x512-210x210.png" />
+<meta name="msapplication-TileImage" content="https://flowingdata.com/wp-content/uploads/2025/01/logo-lone-square512x512.png" />
+		<style type="text/css" id="wp-custom-css">
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+	margin-bottom:1.4rem;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}		</style>
+		    </head>
+<body data-rsssl=1 class="wp-singular post-template-default single single-post postid-35684 single-format-standard wp-theme-fd-modern-6-0 post-template post-template-single-feature-php elementor-default elementor-kit-68731">
+    
+    <div id="main-wrapper">
+        <a name="top"></a>
+        
+	    
+		
+        
+        <div id="header-wrapper">
+            <div id="header" class="container">
+                <div id="logo" class="four columns">    
+                    <a href="https://flowingdata.com/">
+                        <img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-v2d.png" />
+                    </a>
+                </div>
+                <div id="nav" class="eight columns">
+                    <ul>
+                        <li><a href="https://flowingdata.com/membership/">Membership</a></li>
+                        <li><a href="https://flowingdata.com/books/">Books</a></li>
+                        <li><a href="https://flowingdata.com/made-by-flowingdata/">Projects</a></li>
+                        <li><a href="https://flowingdata.com/learning/">Learning</a></li>
+                        <li style="margin-right:0"><a href="https://flowingdata.com/newsletter/">Newsletters</a></li>
+                    </ul>
+                </div>
+                <div id="login" class="four columns">
+                    <ul>
+                                                <li><a href="https://flowingdata.com/?memberful_endpoint=auth" class="button">Member Login</a></li>
+                                            </ul>
+                </div>
+            </div><!-- @end #header -->
+            
+        </div><!-- @end #header-wrapper -->
+        
+        
+        
+<div id="content-wrapper" class="container">
+	
+<div id="single-feature-post" class="archive-post">
+
+<div class="centered sixteen columns">
+                
+	    <div class="meta-bar">
+    		<strong><a href="https://flowingdata.com/category/projects/data-underload/" rel="category tag">Data Underload</a></strong>  &nbsp;/&nbsp; <a href="https://flowingdata.com/tag/kidding/" rel="tag">kidding</a>, <a href="https://flowingdata.com/tag/listicle/" rel="tag">listicle</a>    		    	</div><!-- end meta-bar -->
+        
+                
+        	    <h1>19 Maps That Will Blow Your Mind and Change the Way You See the World. Top All-time. You Won&#8217;t Believe Your Eyes. Watch.</h1>
+		
+        
+    			
+	            <div class="author">
+    		By <strong><a href="https://flowingdata.com/about" title="Visit Nathan Yau&#8217;s website" rel="author external">Nathan Yau</a></strong>
+    	</div><!-- @end .author -->
+                
+		
+		        
+		
+		
+                <div class="archive-featured-image">
+            		        <img fetchpriority="high" width="954" height="524" src="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png" class="attachment-full size-full wp-post-image" alt="" title="19 Maps That Will Blow Your Mind and Change the Way You See the World. Top All-time. You Won&#8217;t Believe Your Eyes. Watch." decoding="async" srcset="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png 954w, https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern-210x115.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern-720x395.png 720w, https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern-768x422.png 768w" sizes="(max-width: 954px) 100vw, 954px" data-attachment-id="35695" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/mindblown-featured-pattern/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png" data-orig-size="954,524" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mindblown-featured-pattern" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern-720x395.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/mindblown-featured-pattern.png" />		            </div>
+            </div>
+
+<div class="entry ten columns offset-by-three">
+                
+        
+        <p>Many lists of maps promise to change the way you see the world, but this one actually does. The maps above don&#8217;t count towards the 19, so your world view hasn&#8217;t changed yet. However, the binocular-like image represents your upcoming experience. You look around. Nothing. Look more. Nothing. Then maps catch your eye, and boom. Something. Your life transforms into something you never thought possible. </p>
+<p>Time to blow your mind.<br />
+<span id="more-35684"></span></p>
+<h2>1. Booming beginning of the alphabet at the end</h2>
+<p>Most maps focus on demographics, geological makeup, and natural phenomena such as temperature and wind. No one focuses on what really matters though: the alphabetic makeup of states when you sort their names in various ways. Break the names apart and put them back together. That&#8217;s how you truly learn what a state is about and in turn, what your nation is about. Examine the parts to gain a vision of the whole.</p>
+<p>I give you exhibit number one. It&#8217;s states that end with the letter &#8220;a&#8221;.</p>
+<p><img decoding="async" data-attachment-id="35698" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/first-letter-end-a-2/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-a1.png" data-orig-size="625,505" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="States that end in the first letter of the alphabet" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-a1-620x500.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-a1.png" src="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-a1.png" alt="States that end in the first letter of the alphabet" width="625" height="505" class="alignnone size-full wp-image-35698" srcset="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-a1.png 625w, https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-a1-210x169.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-a1-620x500.png 620w" sizes="(max-width: 625px) 100vw, 625px" /></p>
+<p>A whopping 38 percent of states end with the first letter in the alphabet, which amazes to no end. Why did the state-naming people choose so many names with the same last letter? Was it because Americans hold a favoritism towards the first letter in the alphabet, and it would be too blatant if they started each state name with an &#8220;a&#8221;? Is there a cultural significance behind it? Are people more likely to migrate to states that end with the first letter, because first position is a valued quality in the world? Statistical models for the past ten years suggest that all the above is true with a probability of 50%, give or take 50%.</p>
+<h2>2. End of the alphabet</h2>
+<p>In contrast, zero &mdash; I repeat, <em>zero</em> &mdash; states end with the last letter of the alphabet (i.e. &#8220;z&#8221; or &#8220;zed&#8221; if you are from a different part of the world). The map below shows a stark image of a country depraved and starving for a state name that ends with a &#8220;z&#8221;. Forget about the end of state names. There is only a single state with &#8220;z&#8221; anywhere in its name. ONE.</p>
+<p><img decoding="async" data-attachment-id="35699" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/first-letter-end-z-2/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-z1.png" data-orig-size="625,505" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="States that end in the last letter of the alphabet" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-z1-620x500.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-z1.png" src="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-z1.png" alt="States that end in the last letter of the alphabet" width="625" height="505" class="alignnone size-full wp-image-35699" srcset="https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-z1.png 625w, https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-z1-210x169.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/first-letter-end-z1-620x500.png 620w" sizes="(max-width: 625px) 100vw, 625px" /></p>
+<p>The only viable solution is to change current state names to end with zed. Let us not forget the other neglected in the process, such as &#8220;q&#8221; and &#8220;u&#8221;.</p>
+<h2>3. Letters at the beginning</h2>
+<p>We raise similar issues when we look at letters at the beginning of state names. There are obvious missing areas, and something must be done. I don&#8217;t feel like doing anything about it, but someone should.</p>
+<p><img loading="lazy" decoding="async" data-attachment-id="35702" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/states-by-first-letter-2/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/states-by-first-letter1.png" data-orig-size="954,394" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="States by the letter they start with" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/states-by-first-letter1-620x256.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/states-by-first-letter1.png" src="https://flowingdata.com/wp-content/uploads/2014/07/states-by-first-letter1.png" alt="States by the letter they start with" width="954" height="394" class="extrawide alignnone size-full wp-image-35702" srcset="https://flowingdata.com/wp-content/uploads/2014/07/states-by-first-letter1.png 954w, https://flowingdata.com/wp-content/uploads/2014/07/states-by-first-letter1-210x86.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/states-by-first-letter1-620x256.png 620w" sizes="(max-width: 954px) 100vw, 954px" /></p>
+<h2>4. Changes over time and space</h2>
+<p>Several mini-explosions are going off in your head at this very moment, so brace yourself for what comes next. The most telling of maps is the one that ebbs and flows with the people who reside in the area. The data flows like water in a bendy river with a lot of rocks. This is a picture of life as we know it &mdash; random, unorganized, and unpredictable. When life gives you lemons, you make a map of those lemons, because the result blows your mind every single time.</p>
+<p><img loading="lazy" decoding="async" data-attachment-id="35705" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/animated-map/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/animated-map.gif" data-orig-size="625,450" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="animated-map" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/animated-map-620x446.gif" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/animated-map.gif" src="https://flowingdata.com/wp-content/uploads/2014/07/animated-map.gif" alt="Animated map." width="625" height="450" class="alignnone size-full wp-image-35705" /></p>
+<p>The animated map above is only a snapshot of the millions of lives that the lines and shapes represent. The animation likely shows something interesting. Sometimes a state turns orange, others turn black, and the rest turn white. What will happen in the next frame? It is hard to say. Just like tomorrow.</p>
+<h2>5. Reverse the order</h2>
+<p>Alabama through Florida &mdash; unless you don&#8217;t count Washington, D.C., then through Georgia &mdash; always get to be first when the states are in alphabetical order. This is what happens when you sort by reverse alphabetical order. Here are the new first ten states. You go, Wyoming through South Dakota.</p>
+<p><img loading="lazy" decoding="async" data-attachment-id="35697" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/bottom-10-2/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/bottom-101.png" data-orig-size="625,352" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Bottom becomes top in a change of fate." data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/bottom-101-620x349.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/bottom-101.png" src="https://flowingdata.com/wp-content/uploads/2014/07/bottom-101.png" alt="Bottom becomes top in a change of fate." width="625" height="352" class="alignnone size-full wp-image-35697" srcset="https://flowingdata.com/wp-content/uploads/2014/07/bottom-101.png 625w, https://flowingdata.com/wp-content/uploads/2014/07/bottom-101-210x118.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/bottom-101-620x349.png 620w" sizes="(max-width: 625px) 100vw, 625px" /></p>
+<p>Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Filler text. Grocery list: eggs, milk, sugar, flour, potato chips, cat food, quinoa, broccoli, lettuce, taco shells, and seasoned salt.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque varius eu ligula sit amet laoreet. Quisque rhoncus, neque eu aliquam mattis, quam lorem feugiat tortor, a gravida lectus diam quis massa. Nulla id porttitor eros. Donec volutpat ante a tortor sodales bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris gravida leo eget elit dapibus, nec mollis nisl tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. In eget sagittis nisi. Nullam eget mi mollis, volutpat turpis vel, lacinia massa. Fusce vel elit erat.</p>
+<h2>6. Most used</h2>
+<p>This map highlights the most used letter in each state name. Again, the letter &#8216;a&#8217; dominates nationwide. Needs more &#8216;z&#8217;.</p>
+<p><img loading="lazy" decoding="async" data-attachment-id="35700" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/freq-letters-2/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/freq-letters1.png" data-orig-size="625,487" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Letter frequency, because it matters." data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/freq-letters1-620x483.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/freq-letters1.png" src="https://flowingdata.com/wp-content/uploads/2014/07/freq-letters1.png" alt="Letter frequency, because it matters." width="625" height="487" class="alignnone size-full wp-image-35700" srcset="https://flowingdata.com/wp-content/uploads/2014/07/freq-letters1.png 625w, https://flowingdata.com/wp-content/uploads/2014/07/freq-letters1-210x163.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/freq-letters1-620x483.png 620w" sizes="(max-width: 625px) 100vw, 625px" /></p>
+<p>Although looking at only the most used letter of each state name misses out on more detailed distributions, looking at the number one is easier to understand and explain. </p>
+<h2>7. Dwindling and rebound</h2>
+<p>Something over some amount of time was dwindling. There was almost nothing left, and just as everyone feared the worst, America bounced back and returned to where it was. But then the metric dipped again. But then it came back up. Then down. Then up.</p>
+<p><img loading="lazy" decoding="async" data-attachment-id="35707" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/animated-map-growing/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/animated-map-growing.gif" data-orig-size="625,468" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Shrinking, growing, shrinking, growing." data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/animated-map-growing-620x464.gif" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/animated-map-growing.gif" src="https://flowingdata.com/wp-content/uploads/2014/07/animated-map-growing.gif" alt="Shrinking, growing, shrinking, growing." width="625" height="468" class="alignnone size-full wp-image-35707" /></p>
+<p>Like Batman&#8217;s dad said: &#8220;Why do we fall? So we can learn to pick ourselves up.&#8221; In many ways, this animated growth map is a triumph of the human spirit. Almost. Let&#8217;s not get too dramatic. This animated growth map is <em>almost</em> a triumph of the human spirit.</p>
+<h2>8. Top states</h2>
+<p>It&#8217;s time for what we&#8217;ve all been waiting for. What we scroll for. The source of so much controversy. There are many ways to rank states, and where your state appears on a list depends on the estimates and the standard errors. One day your state might be number one, but on another day, it might be number fifty. It depends on the data. The tricky bit? Ratings can vary even if you use the same data, because it also depends on how you frame things. One man&#8217;s <em>worst</em> might be another man&#8217;s <em>best</em>.</p>
+<p>That said, this is the definitive map of top states in the United States of America. Here we go. The. Top. States. Boom.</p>
+<p><img loading="lazy" decoding="async" data-attachment-id="35703" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/top-states-2/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/top-states1.png" data-orig-size="625,499" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="The. Top. States." data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/top-states1-620x495.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/top-states1.png" src="https://flowingdata.com/wp-content/uploads/2014/07/top-states1.png" alt="The. Top. States." width="625" height="499" class="alignnone size-full wp-image-35703" srcset="https://flowingdata.com/wp-content/uploads/2014/07/top-states1.png 625w, https://flowingdata.com/wp-content/uploads/2014/07/top-states1-210x167.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/top-states1-620x495.png 620w" sizes="(max-width: 625px) 100vw, 625px" /></p>
+<p>Although, when you treat south as pointing up, you get a different story. Soooo&#8230;. yeah. Look at all those shaded states on top though. Alaska is so far north that it lapped everyone and came back around on the bottom, as if it were Pac-Man running from ghosts (or running after them depending on whether he just ate a power pellet or not). Very impressive.</p>
+<h2>9 through 18. In this together</h2>
+<p>I focused a lot on states&#8217; names, but I would be remiss if I didn&#8217;t at least cover some of the demographics that are of utmost importance. We&#8217;re always looking for differences between the states to see who stands out, whether it be in a bad or good way. &#8220;See which states drink the most beer&#8221; and &#8220;worst states to live in&#8221;. This is the UNITED States of America, and we should act like it. Every day should be just like the day U.S. soccer goalie Tim Howard showed the world what America is made of. It should be a day of photoshopped block and save puns, sprinkled with animated GIF morsels. In less than an hour, aircraft from here will join others from around the world, and you will be launching the largest aerial battle in the history of mankind. Mankind, that word should have new meaning for all of us today. We can&#8217;t be consumed by our petty differences anymore. We will be united in our common interest. Perhaps it&#8217;s fate that today is the 4th of July, and you will once again be fighting for our freedom. Not from tyranny, oppression, or persecution, but from annihilation. We&#8217;re fighting for our right to live, to exist and should we win the day, the 4th of July will no longer be known as an American holiday, but as the day when the world declared in one voice, &#8220;We will not go quietly into the night! We will not vanish without a fight! We&#8217;re going to live on, we&#8217;re going to survive.&#8221; Today we celebrate our independence day! Wait, what&#8217;s going on? Dang it, Bill Pullman. </p>
+<p>These maps show just how united we are:</p>
+<p><img loading="lazy" decoding="async" data-attachment-id="35696" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/all-in-2/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/all-in1.png" data-orig-size="954,381" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="I&#8217;m all in. Are you?" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/all-in1-620x247.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/all-in1.png" src="https://flowingdata.com/wp-content/uploads/2014/07/all-in1.png" alt="I&#039;m all in. Are you?" width="954" height="381" class="extrawide alignnone size-full wp-image-35696" srcset="https://flowingdata.com/wp-content/uploads/2014/07/all-in1.png 954w, https://flowingdata.com/wp-content/uploads/2014/07/all-in1-210x83.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/all-in1-620x247.png 620w" sizes="(max-width: 954px) 100vw, 954px" /></p>
+<p>Murica.</p>
+<h2>19. Cute</h2>
+<p>Finally, we end on a relaxed note. Sometimes you must relax the mind so that you can blow it up again tomorrow.</p>
+<p><img loading="lazy" decoding="async" data-attachment-id="35701" data-permalink="https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/kitten-states/" data-orig-file="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states.png" data-orig-size="625,499" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Nappy nap." data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states-620x495.png" data-large-file="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states.png" src="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states.png" alt="Nappy nap." width="625" height="499" class="alignnone size-full wp-image-35701" srcset="https://flowingdata.com/wp-content/uploads/2014/07/kitten-states.png 625w, https://flowingdata.com/wp-content/uploads/2014/07/kitten-states-210x167.png 210w, https://flowingdata.com/wp-content/uploads/2014/07/kitten-states-620x495.png 620w" sizes="(max-width: 625px) 100vw, 625px" /></p>
+<p>It&#8217;s time for a short nap.</p>
+    
+	
+        
+		
+    </div><!-- @end .entry -->
+    <div class="clr"></div>
+    
+	<div class="ten columns offset-by-three" style="margin-bottom:1rem">
+        <div class='yarpp yarpp-related yarpp-related-website yarpp-template-yarpp-template-list'>
+    
+    <div id="related">
+    	<h3 class="toplevel">Related</h3>
+    	<ul>
+    	    		<li>
+    			<a href="https://flowingdata.com/2016/12/15/random-states-of-america-show-changing-election-outcomes/" rel="bookmark" title="Random states of America show changing election outcomes">
+    			    Random states of America show changing election outcomes</a>
+                <!-- <span class="meta">Posted to <a href="https://flowingdata.com/category/visualization/mapping/" rel="category tag">Maps</a></span> -->
+    		</li>
+    	    		<li>
+    			<a href="https://flowingdata.com/2023/09/28/search-the-text-in-historical-maps/" rel="bookmark" title="Search the text in historical maps">
+    			    Search the text in historical maps</a>
+                <!-- <span class="meta">Posted to <a href="https://flowingdata.com/category/visualization/mapping/" rel="category tag">Maps</a></span> -->
+    		</li>
+    	    		<li>
+    			<a href="https://flowingdata.com/2021/09/23/americans-are-dying-too-much/" rel="bookmark" title="Americans are dying too much">
+    			    Americans are dying too much</a>
+                <!-- <span class="meta">Posted to <a href="https://flowingdata.com/category/statistics/" rel="category tag">Statistics</a></span> -->
+    		</li>
+    	        </ul>
+    	<div class="clear-line"></div>
+    </div>
+</div>
+
+<!-- <div class="ten columns offset-by-three"> -->
+	<span id="comments"></span>
+
+<!-- </div> -->
+	</div>
+	
+    
+    
+    
+	<div class="clr"></div>
+
+<div id="join-now" style='margin-bottom:0;' class="sixteen columns">
+            <div class="twelve columns offset-by-two alpha omega">
+                <div style="padding:0 1em">
+    			    			<p><strong><span>Become a member.</span></strong> Support an independent site. Get extra visualization goodness.</p>
+    			<a href="https://flowingdata.com/membership/" class="action-button annual">See What You Get</a>
+    			                </div>
+            </div>
+		</div><!-- @end #join-now -->
+	
+		<div class="clr"></div>
+
+<div id="favorites" class="container across post-list" style="margin-top:2rem;margin-bottom:0">
+            <h3 class="toplevel sixteen columns" style="border-top:none">Favorites</h3>
+            
+            <div class="archive-post preview four columns">
+                <a href="https://flowingdata.com/2020/01/21/name-guess/" rel="bookmark">
+                                <div class="archive-featured-image cropped">
+                    <img width="400" height="250" src="https://flowingdata.com/wp-content/uploads/2020/01/name-guess-featured-400x250.png" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" decoding="async" data-attachment-id="58813" data-permalink="https://flowingdata.com/2020/01/21/name-guess/name-guess-featured/" data-orig-file="https://flowingdata.com/wp-content/uploads/2020/01/name-guess-featured.png" data-orig-size="2579,1500" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="name-guess-featured" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2020/01/name-guess-featured-750x436.png" data-large-file="https://flowingdata.com/wp-content/uploads/2020/01/name-guess-featured-1090x634.png" />                </div>
+                                <h4>Guessing Names Based on What They Start With</h4>
+                <div class="excerpt"><p>I&#8217;m terrible at names, but maybe data can help. Put in your sex, the decade when you were born, and start putting in your name. I&#8217;ll try to guess before you&#8217;re done.</p>
+</div>
+                </a>
+            </div><!-- @end .archive-post -->
+		
+            
+            <div class="archive-post preview four columns">
+                <a href="https://flowingdata.com/2015/10/26/top-brewery-road-trip-routed-algorithmically/" rel="bookmark">
+                                <div class="archive-featured-image cropped">
+                    <img width="400" height="250" src="https://flowingdata.com/wp-content/uploads/2015/10/brewery-road-trip-final3-400x250.png" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" decoding="async" data-attachment-id="43329" data-permalink="https://flowingdata.com/2015/10/26/top-brewery-road-trip-routed-algorithmically/brewery-road-trip-final-4/" data-orig-file="https://flowingdata.com/wp-content/uploads/2015/10/brewery-road-trip-final3.png" data-orig-size="2200,1307" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="brewery-road-trip-final" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2015/10/brewery-road-trip-final3-720x428.png" data-large-file="https://flowingdata.com/wp-content/uploads/2015/10/brewery-road-trip-final3-1090x648.png" />                </div>
+                                <h4>Top Brewery Road Trip, Routed Algorithmically</h4>
+                <div class="excerpt"><p>There are a lot of great craft breweries in the United States, but there is only so much time. This is the computed best way to get to the top rated breweries and how to maximize the beer tasting experience. Every journey begins with a single sip.</p>
+</div>
+                </a>
+            </div><!-- @end .archive-post -->
+		
+            
+            <div class="archive-post preview four columns">
+                <a href="https://flowingdata.com/2019/06/14/kids-nokids/" rel="bookmark">
+                                <div class="archive-featured-image cropped">
+                    <img width="400" height="250" src="https://flowingdata.com/wp-content/uploads/2019/06/nokids-kids-featured-400x250.png" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" decoding="async" data-attachment-id="56486" data-permalink="https://flowingdata.com/2019/06/14/kids-nokids/nokids-kids-featured/" data-orig-file="https://flowingdata.com/wp-content/uploads/2019/06/nokids-kids-featured.png" data-orig-size="1440,800" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="nokids-kids-featured" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2019/06/nokids-kids-featured-750x417.png" data-large-file="https://flowingdata.com/wp-content/uploads/2019/06/nokids-kids-featured-1090x606.png" />                </div>
+                                <h4>How Much the Everyday Changes When You Have Kids</h4>
+                <div class="excerpt"><p>I compared time use for those with children under 18 against those without. Here&#8217;s where the minutes go.</p>
+</div>
+                </a>
+            </div><!-- @end .archive-post -->
+		
+            
+            <div class="archive-post preview four columns">
+                <a href="https://flowingdata.com/2020/08/04/finding-the-new-age-for-your-age/" rel="bookmark">
+                                <div class="archive-featured-image cropped">
+                    <img width="400" height="250" src="https://flowingdata.com/wp-content/uploads/2020/08/what-is-your-new-age-400x250.png" class="attachment-archive-cropped size-archive-cropped wp-post-image" alt="" decoding="async" data-attachment-id="61346" data-permalink="https://flowingdata.com/2020/08/04/finding-the-new-age-for-your-age/what-is-your-new-age/" data-orig-file="https://flowingdata.com/wp-content/uploads/2020/08/what-is-your-new-age.png" data-orig-size="2296,1330" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="what is your new age" data-image-description="" data-image-caption="" data-medium-file="https://flowingdata.com/wp-content/uploads/2020/08/what-is-your-new-age-750x434.png" data-large-file="https://flowingdata.com/wp-content/uploads/2020/08/what-is-your-new-age-1090x631.png" />                </div>
+                                <h4>Finding the New Age, for Your Age</h4>
+                <div class="excerpt"><p>You&#8217;ve probably heard the lines about how &#8220;40 is the new 30&#8221; or &#8220;30 is the new 20.&#8221; What is this based on? I tried to solve the problem using life expectancy data. Your age is the new age.</p>
+</div>
+                </a>
+            </div><!-- @end .archive-post -->
+		
+                                </div>
+
+</div><!-- @end #single-post -->
+
+<div class="clr"></div>
+        
+</div><!-- end #content-wrapper -->
+
+<div id="footer-wrapper">
+        <div id="footer" class="container">
+            <ul id="final-links">
+                <li><a href="https://flowingdata.com/about">About</a></li>
+                <li><a href="https://flowingdata.com/contact">Contact</a></li>
+                <li><a href="https://www.linkedin.com/company/flowingdata" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/flowingdata/" target="_blank">Instagram</a></li>
+                <li><a href="https://bsky.app/profile/flowingdata.com" target="_blank">Bluesky</a></li>
+                <li><a href="https://flowingdata.com/feed" target="_blank">RSS</a></li>
+            </ul>
+            <div id="bottom">Copyright &copy; 2007-Present FlowingData. All rights reserved.</div>
+            <div id="bottom-logo"><a href="https://flowingdata.com"><img src="https://flowingdata.com/wp-content/themes/fd-modern-6-0/images/logo-lone-v2d.png" /></a></div>
+    </div><!-- @end #footer-wrapper -->
+
+</div><!-- end #main-wrapper -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/fd-modern-6-0\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+<script type="text/javascript" id="bbp-swap-no-js-body-class">
+	document.body.className = document.body.className.replace( 'bbp-no-js', 'bbp-js' );
+</script>
+
+<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+					<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Toggle photo metadata visibility">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+</div>
+		<link rel='stylesheet' id='jetpack-swiper-library-css' href='https://c0.wp.com/p/jetpack/15.0/_inc/blocks/swiper.css' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-carousel-css' href='https://c0.wp.com/p/jetpack/15.0/modules/carousel/jetpack-carousel.css' type='text/css' media='all' />
+<link rel='stylesheet' id='yarppRelatedCss-css' href='https://flowingdata.com/wp-content/plugins/yet-another-related-posts-plugin/style/related.css?ver=5.30.11' type='text/css' media='all' />
+<script type="text/javascript" src="https://c0.wp.com/c/6.8.2/wp-includes/js/comment-reply.min.js" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script id="learndash-main-ns-extra">
+window.learndash = window.learndash || {};
+window.learndash.global = Object.assign(window.learndash.global || {}, {"ajaxurl":"https:\/\/flowingdata.com\/wp-admin\/admin-ajax.php"});
+</script><script type="text/javascript" src="https://flowingdata.com/wp-content/plugins/sfwd-lms/src/assets/dist/js/main.js?ver=4.25.1" id="learndash-main-js"></script>
+<script id="learndash-breakpoints-ns-extra">
+window.learndash = window.learndash || {};
+window.learndash.views = window.learndash.views || {};
+window.learndash.views.breakpoints = Object.assign(window.learndash.views.breakpoints || {}, {"list":{"mobile":375,"tablet":420,"extra-small":600,"small":720,"medium":960,"large":1240,"wide":1440}});
+</script><script type="text/javascript" src="https://flowingdata.com/wp-content/plugins/sfwd-lms/src/assets/dist/js/breakpoints.js?ver=4.25.1" id="learndash-breakpoints-js"></script>
+<script type="text/javascript" id="learndash-front-js-extra">
+/* <![CDATA[ */
+var ldVars = {"postID":"35684","videoReqMsg":"You must watch the video before accessing this content","ajaxurl":"https:\/\/flowingdata.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="//flowingdata.com/wp-content/plugins/sfwd-lms/themes/ld30/assets/js/learndash.js?ver=4.25.1" id="learndash-front-js"></script>
+<script type="text/javascript" id="jetpack-stats-js-before">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"1938889\",\"post\":\"35684\",\"tz\":\"-7\",\"srv\":\"flowingdata.com\",\"j\":\"1:15.0\"}") ]);
+_stq.push([ "clickTrackerInit", "1938889", "35684" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://stats.wp.com/e-202538.js" id="jetpack-stats-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="jetpack-carousel-js-extra">
+/* <![CDATA[ */
+var jetpackSwiperLibraryPath = {"url":"https:\/\/flowingdata.com\/wp-content\/plugins\/jetpack\/_inc\/blocks\/swiper.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/flowingdata.com\/wp-admin\/admin-ajax.php","nonce":"bdf13e80ae","display_exif":"0","display_comments":"0","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","image_label":"Open image in full-screen.","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"1","require_name_email":"1","login_url":"https:\/\/flowingdata.com\/wp-login.php?redirect_to=https%3A%2F%2Fflowingdata.com%2F2014%2F07%2F07%2F19-maps-that-will-blow-your-mind%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://c0.wp.com/p/jetpack/15.0/_inc/build/carousel/jetpack-carousel.min.js" id="jetpack-carousel-js"></script>
+<script type="application/json" fncls="fnparams-dede7cc5-15fd-4c75-a9f4-36c430ee3a99">
+	{"f":"c2a1da02f29844d19692fb16054e1e77","s":"_61294","sandbox":false}</script>
+</body>
+</html>
+<!-- *´¨)
+     ¸.•´¸.•*´¨) ¸.•*¨)
+     (¸.•´ (¸.•` ¤ Comet Cache is Fully Functional ¤ ´¨) -->
+
+<!-- Cache File Version Salt:       n/a -->
+
+<!-- Cache File URL:                https://flowingdata.com/2014/07/07/19-maps-that-will-blow-your-mind/ -->
+<!-- Cache File Path:               /cache/comet-cache/cache/https/flowingdata-com/2014/07/07/19-maps-that-will-blow-your-mind.html -->
+
+<!-- Cache File Generated Via:      HTTP request -->
+<!-- Cache File Generated On:       Sep 15th, 2025 @ 6:50 am UTC -->
+<!-- Cache File Generated In:       0.20329 seconds -->
+
+<!-- Cache File Expires On:         Sep 22nd, 2025 @ 6:50 am UTC -->
+<!-- Cache File Auto-Rebuild On:    Sep 22nd, 2025 @ 6:50 am UTC -->
+
+<!-- Loaded via Cache On:    Sep 15th, 2025 @ 3:31 pm UTC -->
+<!-- Loaded via Cache In:    0.00173 seconds -->

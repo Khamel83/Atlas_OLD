@@ -1,0 +1,1852 @@
+# Content from https://karger.com/jnn/article-abstract/2/2/91/181391/Nutrigenetics-in-the-Light-of-Human-Evolution
+
+*Retrieved: 2025-09-15T04:16:32.958465*
+
+---
+
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://karger.com/jnn/article-abstract/2/2/91/181391/Nutrigenetics-in-the-Light-of-Human-Evolution","20250618225055","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1750287055");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<!-- charset must appear in the first 1024 bytes of the document -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Nutrigenetics in the Light of Human Evolution | Journal of Nutrigenetics and Nutrigenomics | Karger Publishers</title>
+        
+    <script type="text/javascript" data-cmp-ab="1" src="http://web.archive.org/web/20250618225055js_/https://cdn.consentmanager.net/delivery/autoblocking/eb400f96a9bb.js" data-cmp-host="c.delivery.consentmanager.net" data-cmp-cdn="cdn.consentmanager.net" data-cmp-codesrc="1"></script><script data-cmp-ab="2">window.cmp_block_ignoredomains = ['widgets-p-eu.figstatic.com', 'widgets.figshare.com','widgets-s-eu.figstatic.com','widgets.figsh.com'];</script>
+
+<script type="text/javascript" defer src="//web.archive.org/web/20250618225055js_/https://js.trendmd.com/trendmd.min.js" data-trendmdconfig="{&quot;element&quot;:&quot;#trendmd-suggestions&quot;}"></script>
+
+<script src="http://web.archive.org/web/20250618225055js_/https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="//web.archive.org/web/20250618225055/https://karger.silverchair-cdn.com/Themes/Silver/app/js/jquery.3.4.1.min.js" type="text/javascript">\x3C/script>')</script>
+<script src="//web.archive.org/web/20250618225055js_/https://karger.silverchair-cdn.com/Themes/Silver/app/vendor/v-638830270403520918/jquery-migrate-3.1.0.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="http://web.archive.org/web/20250618225055js_/https://platform-api.sharethis.com/js/sharethis.js#property=643701de45aa460012e1032e&amp;product=sop" async="async"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10"/>
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <!-- Turn off telephone number detection. -->
+    <meta name="format-detection" content="telephone=no"/>
+
+<!-- Bookmark Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/Themes/Client/app/img/favicons/v-638830268872445903/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/Themes/Client/app/img/favicons/v-638830268872545870/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/Themes/Client/app/img/favicons/v-638830268872495916/favicon-16x16.png" sizes="16x16">
+  <link rel="mask-icon" href="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/Themes/Client/app/img/favicons/v-638830268872646396/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="icon" href="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/Themes/Client/app/img/favicons/v-638830268872545870/favicon.ico">
+  <link rel="manifest" href="//web.archive.org/web/20250618225055/https://karger.silverchair-cdn.com/Themes/Client/app/img/favicons/v-638830268872595879/manifest.json">
+  <meta name="msapplication-config" content="//karger.silverchair-cdn.com/Themes/Client/app/img/favicons/v-638830268872445903/browserconfig.xml">
+  <meta name="theme-color" content="#002f65">
+
+<link rel="stylesheet" type="text/css" href="//web.archive.org/web/20250618225055cs_/https://karger.silverchair-cdn.com/Themes/Client/app/css/v-638845109524894229/site.min.css"/>
+  <link rel="stylesheet" type="text/css" href="//web.archive.org/web/20250618225055cs_/https://karger.silverchair-cdn.com/Themes/Client/app/css/icons/v-638830268872345902/style.css"/>
+  <link rel="stylesheet" type="text/css" href="//web.archive.org/web/20250618225055cs_/https://karger.silverchair-cdn.com/Themes/Client/app/css/v-638830268871845868/bg_img.css"/>
+
+<link href="//web.archive.org/web/20250618225055cs_/https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&amp;display=swap" rel="stylesheet">
+<script src="http://web.archive.org/web/20250618225055js_/https://kit.fontawesome.com/5126fcf8c4.js" crossorigin="anonymous" async></script>
+
+<link href="//web.archive.org/web/20250618225055cs_/https://karger.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/umbrella/v-638853294140112695/karger.css" rel="stylesheet" type="text/css"/>
+            <link href="//web.archive.org/web/20250618225055cs_/https://karger.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/CSS/jnn/karger_journal_single.css" rel="stylesheet" type="text/css"/>
+
+<script> var dataLayer = [{"user_internal":"false","user_institutional":"false","user_physician":"","user_prof_group":"","user_prof_name":"","user_prof_spec":"","user_prof_environment":"","product_type":"article","product_id":"10.1159/000228251","product_title":"Nutrigenetics in the Light of Human Evolution","product_yop":"2009","product_subject_area":"Genetics, Nutrition and Dietetics, Public Health","product_subject":"Genetics, Genomics, Human Genetics, Clinical Nutrition, Dietetics, Nutrition, Epidemiology","product_eISSN":"1661-6758","product_ISSN":"1661-6499","product_eISBN":"","product_ISBN":""}]; </script>
+            <script>
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || []; w[l].push({
+                        'gtm.start':
+                            new Date().getTime(), event: 'gtm.js'
+                    }); var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+                        j.async = true; j.src =
+                        'http://web.archive.org/web/20250618225055/https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayer', 'GTM-NL8ZQP7');
+            </script>
+
+<script type="text/javascript">
+            var App = App || {};
+            App.LoginUserInfo = {
+                isInstLoggedIn: 0,
+                isIndividualLoggedIn: 0
+            };
+
+App.CurrentSubdomain = 'jnn';
+            App.SiteURL = 'karger.com/jnn';
+        </script>
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="//web.archive.org/web/20250618225055cs_/https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+
+<meta name="citation_author" content="Verginelli, Fabio"/><meta name="citation_author_institution" content="Departments of Oncology and Neuroscience, Section of Molecular Pathology, and "/><meta name="citation_author" content="Aru, Federica"/><meta name="citation_author_institution" content="Departments of Oncology and Neuroscience, Section of Molecular Pathology, and "/><meta name="citation_author" content="Battista, Pasquale"/><meta name="citation_author_institution" content="Human Movement Sciences, G. d’Annunzio University, and Center of Excellence on Aging (Ce.S.I.), G. d’Annunzio University Foundation, Chieti, Italy"/><meta name="citation_author" content="Mariani-Costantini, Renato"/><meta name="citation_author_institution" content="Departments of Oncology and Neuroscience, Section of Molecular Pathology, and "/><meta name="citation_title" content="Nutrigenetics in the Light of Human Evolution"/><meta name="citation_firstpage" content="91"/><meta name="citation_lastpage" content="102"/><meta name="citation_doi" content="10.1159/000228251"/><meta name="citation_journal_title" content="Journal of Nutrigenetics and Nutrigenomics"/><meta name="citation_journal_abbrev" content="Journal of Nutrigenetics and Nutrigenomics"/><meta name="citation_volume" content="2"/><meta name="citation_issue" content="2"/><meta name="citation_publication_date" content="2009/08/01"/><meta name="citation_issn" content="1661-6499"/><meta name="citation_publisher" content="S. Karger AG"/><meta name="citation_pdf_url" content="https://karger.com/jnn/article-pdf/2/2/91/3029251/000228251.pdf"/>
+
+<meta name="citation_xml_url" content="https://karger.com/jnn/article-xml/2/2/91/181391"/>
+    <meta name="description" content="Abstract. Bio-cultural adaptations to new foods played a key role in human evolution. The fossil record and sequence differences between human and">
+
+<link rel="canonical" href="http://web.archive.org/web/20250618225055/https://karger.com/jnn/article/2/2/91/181391/Nutrigenetics-in-the-Light-of-Human-Evolution"/>
+
+<meta name="product_code" content="JNN_01011998_12312023"/>
+    <meta name="product_code" content="JNN_01012007_12312023"/>
+    <meta name="product_code" content="JNN_01012006_12312023"/>
+    <meta name="product_code" content="JNN_01011997_12312023"/>
+    <meta name="product_code" content="LFG_2009"/>
+    <meta name="product_code" content="KAB"/>
+    <meta name="product_code" content="JNN_01011998_12312011"/>
+    <meta name="product_code" content="JNN_01011998_12312013"/>
+    <meta name="product_code" content="GENETICS"/>
+    <meta name="product_code" content="JNN_01011900_12312023"/>
+    <meta name="product_code" content="COLL262328_2009"/>
+    <meta name="product_code" content="Article_PPV_1"/>
+    <meta name="product_code" content="NUTRITIONANDDIETETICS"/>
+    <meta name="product_code" content="JNN_01012009_12312023"/>
+    <meta name="product_code" content="JNN_2009"/>
+    <meta name="product_code" content="JNN_01011998_12312022"/>
+    <meta name="product_code" content="JNN_01011998_12312015"/>
+    <meta name="product_code" content="COLL254326_2009"/>
+    <meta name="product_code" content="JNN_01011998_12312010"/>
+    <meta name="product_code" content="COLL254872_2009"/>
+    <meta name="product_code" content="JNN_01011998_12312020"/>
+    <meta name="product_code" content="PUBLICHEALTH"/>
+    <meta name="product_code" content="ALL_CONTENT"/>
+    <meta name="product_code" content="JNN_01011998_12312016"/>
+    <meta name="product_code" content="JNN_01011998_12312021"/>
+    <meta name="product_code" content="J_181391"/>
+    <meta name="product_code" content="I_14047"/>
+
+<meta name="tdm-reservation" content="1">
+
+<meta name="tdm-policy" content="https://karger.com/DocumentLibrary/policy.json">
+    <script type="application/ld+json">
+        {"@context":"http://web.archive.org/web/20250618225055/https://schema.org","@type":"ScholarlyArticle","@id":"http://web.archive.org/web/20250618225055/https://karger.com/jnn/article/2/2/91/181391/Nutrigenetics-in-the-Light-of-Human-Evolution","name":"Nutrigenetics in the Light of Human Evolution","datePublished":"2009-07-10","hasPart":[{"@type":"WebPageElement","isAccessibleForFree":false,"cssSelector":".paywall"}],"isPartOf":{"@id":"http://web.archive.org/web/20250618225055/https://karger.com/jnn/issue/2/2","@type":"PublicationIssue","issueNumber":"2","datePublished":"2009-08-01","isPartOf":{"@id":"http://web.archive.org/web/20250618225055/https://karger.com/jnn","@type":"Periodical","name":"Journal of Nutrigenetics and Nutrigenomics","issn":["1661-6758"]}},"url":"http://web.archive.org/web/20250618225055/https://dx.doi.org/10.1159/000228251","keywords":["Culture","Diet","Disease","Encephalization","Genetics","Human evolution","Metabolism"],"inLanguage":"en","copyrightHolder":"Karger","copyrightYear":"2025","publisher":"","author":[{"name":"Verginelli, Fabio","affiliation":"a Departments of Oncology and Neuroscience, Section of Molecular Pathology, and","@type":"Person"},{"name":"Aru, Federica","affiliation":"a Departments of Oncology and Neuroscience, Section of Molecular Pathology, and","@type":"Person"},{"name":"Battista, Pasquale","affiliation":"b Human Movement Sciences, G. d’Annunzio University, and Center of Excellence on Aging (Ce.S.I.), G. d’Annunzio University Foundation, Chieti, Italy","@type":"Person"},{"name":"Mariani-Costantini, Renato","affiliation":"a Departments of Oncology and Neuroscience, Section of Molecular Pathology, and","@type":"Person"}],"description":"Abstract. Bio-cultural adaptations to new foods played a key role in human evolution. The fossil record and sequence differences between human and chimpanzee genes point to a major dietary shift at the stem of human evolution. The earliest representatives of the human lineage diverged from the ancestors of chimpanzees because of their better adaptation to hard and abrasive foods. Bipedalism and modifications of the hand, which allowed tool manufacture and use, impacted on dietary flexibility, facilitating access to foods of animal origin. This promoted major anatomic, physiologic and metabolic adaptations. Encephalization, which requires high-quality diet, characterizes the evolutionary sequence that, through the Homo ergaster/erectus stages, led to our species, Homo sapiens, which originated in Africa about 200,000 years ago. At the end of the Ice Age, climatic changes and human impact determined a major food crisis, which triggered the agricultural revolution. This affected nutrition and health, with rapid evolutionary adaptations through the selection of genetic variants that allowed better utilization of new foods, different in relation to geography and culture. Today population growth, globalization and economic pressure powerfully affect diets worldwide. We must take into account our evolutionary past to meet the present nutritional challenges.","pageStart":"91","pageEnd":"102","siteName":"Karger Publishers","thumbnailURL":"//web.archive.org/web/20250618225055/https://karger.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/umbrella/karger_default_cover387652959.png","headline":"Nutrigenetics in the Light of Human Evolution","image":"//web.archive.org/web/20250618225055/https://karger.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/umbrella/karger_default_cover387652959.png","image:alt":"","isAccessibleForFree":false}
+    </script>
+<meta property="og:site_name" content="Karger Publishers"/>
+<meta property="og:title" content="Nutrigenetics in the Light of Human Evolution"/>
+<meta property="og:description" content="Abstract. Bio-cultural adaptations to new foods played a key role in human evolution. The fossil record and sequence differences between human and chimpanzee genes point to a major dietary shift at the stem of human evolution. The earliest representatives of the human lineage diverged from the ancestors of chimpanzees because of their better adaptation to hard and abrasive foods. Bipedalism and modifications of the hand, which allowed tool manufacture and use, impacted on dietary flexibility, facilitating access to foods of animal origin. This promoted major anatomic, physiologic and metabolic adaptations. Encephalization, which requires high-quality diet, characterizes the evolutionary sequence that, through the Homo ergaster/erectus stages, led to our species, Homo sapiens, which originated in Africa about 200,000 years ago. At the end of the Ice Age, climatic changes and human impact determined a major food crisis, which triggered the agricultural revolution. This affected nutrition and health, with rapid evolutionary adaptations through the selection of genetic variants that allowed better utilization of new foods, different in relation to geography and culture. Today population growth, globalization and economic pressure powerfully affect diets worldwide. We must take into account our evolutionary past to meet the present nutritional challenges."/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://web.archive.org/web/20250618225055/https://dx.doi.org/10.1159/000228251"/>
+<meta property="og:updated_time" content=""/>
+<meta property="og:image" content="http://web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/umbrella/karger_default_cover387652959.png"/>
+<meta property="og:image:url" content="https://karger.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/umbrella/karger_default_cover387652959.png"/>
+<meta property="og:image:secure_url" content="https://karger.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/umbrella/karger_default_cover387652959.png"/>
+<meta property="og:image:alt" content=""/>
+
+<script type="text/javascript" async="async" src="http://web.archive.org/web/20250618225055js_/https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+
+<script>
+        var SCM = SCM || {};
+        SCM.pubGradeAdsEnabled = false;
+    </script>
+
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+
+googletag.cmd.push(function () {
+    googletag.pubads().disableInitialLoad();
+
+googletag.pubads().setTargeting("Profession Group",  "N/A");
+            googletag.pubads().setTargeting("Profession",  "N/A");
+            googletag.pubads().setTargeting("Specialization",  "N/A");
+            googletag.pubads().setTargeting("Country",  "US");
+            googletag.pubads().setTargeting("Returning Visitor",  "No");
+            googletag.pubads().setTargeting("url",  "http://web.archive.org/web/20250618225055/http://karger.com/jnn/article-abstract/2/2/91/181391/Nutrigenetics-in-the-Light-of-Human-Evolution");
+            googletag.pubads().setTargeting("Page_Type",  "Article");
+            googletag.pubads().setTargeting("ProductCode",  "jnn");
+            googletag.pubads().setTargeting("IsLicensedPhysician",  "no");
+            googletag.pubads().setTargeting("Subjects",  );
+
+var keys = ["hum_karger_ad_personalization"];
+        keys.forEach(x =>
+        {
+            var item = localStorage[x];
+            if (item)
+            {
+                var allTargets = JSON.parse(item);
+                Object.keys(allTargets).forEach(k => {
+                    googletag.pubads().setTargeting(k, allTargets[k]);
+                })
+            }
+        })
+        
+    });
+</script>
+
+<script src="http://web.archive.org/web/20250618225055js_/https://widgets.figshare.com/static/figshare.js"></script>
+
+<!-- begin adpushup script -->
+<script data-cfasync="false" type="text/javascript">
+    (function (w, d) {
+        var s = d.createElement('script');
+        s.src = '//web.archive.org/web/20250618225055/https://cdn.adpushup.com/45576/adpushup.js';
+        s.crossOrigin = 'anonymous';
+        s.type = 'text/javascript'; s.async = true;
+        (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
+        w.adpushup = w.adpushup || { que: [] };
+    })(window, document);
+</script>
+<!-- end adpushup script -->
+
+<script src="http://web.archive.org/web/20250618225055js_/https://scholar.google.com/scholar_js/casa.js" async></script>
+</head>
+
+<body data-sitename="journalofnutrigeneticsandnutrigenomics" class="off-canvas pg_Article pg_article   " theme-jnn data-sitestyletemplate="Journal">
+            <noscript>
+                <iframe src="http://web.archive.org/web/20250618225055if_/https://www.googletagmanager.com/ns.html?id=GTM-NL8ZQP7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript>
+            <a href="#skipNav" class="skipnav">Skip to Main Content</a>
+<input id="hdnSiteID" name="hdnSiteID" type="hidden" value="1000363"/><input id="hdnAdDelaySeconds" name="hdnAdDelaySeconds" type="hidden" value="3000"/><input id="hdnAdConfigurationTop" name="hdnAdConfigurationTop" type="hidden" value="basic"/><input id="hdnAdConfigurationRightRail" name="hdnAdConfigurationRightRail" type="hidden" value="basic"/>
+
+<section class="master-header row vt-site-header">
+
+<div class="ad-banner js-ad-banner">
+    <div class="widget-AdBlock widget-instance-HeaderAd">
+        
+ 
+    </div>
+
+</div>
+
+<div class="widget-SitePageHeader widget-instance-SitePageHeader">
+            <div class="site-theme-header">
+        <div class="site-theme-header_contents global-nav-base">
+
+<div class="global-nav">
+            <a class="js-dropdown-trigger global-nav-trigger" href="javascript:;">
+            <picture>
+                <source media="(min-width: 601px)" srcset="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/Images/umbrella/Karger_RGB_neg.svg">
+                <img class="logo-JournalofNutrigeneticsandNutrigenomics site-theme-header-image" src="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/Images/umbrella/Karger_RGB_neg.svg" alt="S. Karger AG"/>
+            </picture>
+                <i class="icon-general_arrow-down arrow-icon"><span class="screenreader-text">Open Menu</span></i>
+        </a>
+        <nav class="navbar-menu global-nav-dropdown js-dropdown">
+            <div class="site-theme-header-logo">
+                <a href="/web/20250618225055/https://karger.com/" class="site-theme-header-image-wrap">
+                        <picture>
+                            <source media="(min-width: 601px)" srcset="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/Images/umbrella/Karger_RGB.svg">
+                            <img class="logo-JournalofNutrigeneticsandNutrigenomics site-theme-header-image" src="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/data/SiteBuilderAssetsOriginals/Live/Images/umbrella/Karger_RGB.svg" alt="S. Karger AG"/>
+                        </picture>
+                </a>
+                <a href="javascript:;" class="icon-general-close menu-close js-menu-close"><span class="screenreader-text">Close</span></a>
+            </div>
+                    <ul class="site-menu site-menu-lvl-0 js-theme-dropdown">
+                <li class="site-menu-item site-menu-lvl-0 site-menu-item-Who-We-Serve " id="site-menu-item-33185">
+                        <a href="javascript:;" class="nav-link js-theme-dropdown-trigger" aria-expanded="false">Who We Serve <i class="icon-general_arrow-down arrow-icon"><span class="screenreader-text">Open Menu</span></i></a>
+
+<ul class="site-menu site-menu-lvl-1 js-theme-dropdown">
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Overview " id="site-menu-item-33190">
+                        <a href="/web/20250618225055/https://karger.com/pages/who-we-serve" class="nav-link">Overview                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Researchers " id="site-menu-item-33191">
+                        <a href="/web/20250618225055/https://karger.com/pages/researchers" class="nav-link">Researchers                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Authors " id="site-menu-item-33192">
+                        <a href="/web/20250618225055/https://karger.com/pages/authors" class="nav-link">Authors                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Reviewers " id="site-menu-item-33193">
+                        <a href="/web/20250618225055/https://karger.com/pages/reviewers" class="nav-link">Reviewers                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Healthcare-Professionals " id="site-menu-item-33194">
+                        <a href="/web/20250618225055/https://karger.com/pages/healthcare-professionals" class="nav-link">Healthcare Professionals                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Patients-&amp;-Their-Supporters " id="site-menu-item-33195">
+                        <a href="/web/20250618225055/https://karger.com/pages/patients" class="nav-link">Patients &amp; Their Supporters                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Librarians " id="site-menu-item-33196">
+                        <a href="/web/20250618225055/https://karger.com/pages/librarians" class="nav-link">Librarians                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Health-Sciences-Industry " id="site-menu-item-33197">
+                        <a href="/web/20250618225055/https://karger.com/pages/health-sciences-industry" class="nav-link">Health Sciences Industry                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Medical-Societies " id="site-menu-item-33198">
+                        <a href="/web/20250618225055/https://karger.com/pages/society" class="nav-link">Medical Societies                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Agents-&amp;-Distributors " id="site-menu-item-33199">
+                        <a href="/web/20250618225055/https://karger.com/pages/agents-distributors-booksellers" class="nav-link">Agents &amp; Distributors                      </a>
+
+</li>
+        </ul>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-0 site-menu-item-What-We-Offer " id="site-menu-item-33186">
+                        <a href="javascript:;" class="nav-link js-theme-dropdown-trigger" aria-expanded="false">What We Offer <i class="icon-general_arrow-down arrow-icon"><span class="screenreader-text">Open Menu</span></i></a>
+
+<ul class="site-menu site-menu-lvl-1 js-theme-dropdown">
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Overview " id="site-menu-item-33200">
+                        <a href="/web/20250618225055/https://karger.com/pages/what-we-offer" class="nav-link">Overview                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Journals " id="site-menu-item-33201">
+                        <a href="/web/20250618225055/https://karger.com/pages/journals" class="nav-link">Journals                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Collections " id="site-menu-item-33202">
+                        <a href="/web/20250618225055/https://karger.com/pages/online-collections" class="nav-link">Collections                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Subject-Areas " id="site-menu-item-33203">
+                        <a href="/web/20250618225055/https://karger.com/pages/subject-areas" class="nav-link">Subject Areas                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Images " id="site-menu-item-33204">
+                        <a href="/web/20250618225055/https://karger.com/pages/karger-image-explorer" class="nav-link">Images                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Books-&amp;-Book-Series " id="site-menu-item-33205">
+                        <a href="/web/20250618225055/https://karger.com/pages/books" class="nav-link">Books &amp; Book Series                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-E-Learning-Courses " id="site-menu-item-33206">
+                        <a href="http://web.archive.org/web/20250618225055/https://courses.karger.com/" class="nav-link" target="&quot;_blank&quot;">E-Learning Courses <span class="screenreader-text">Open External Link</span>                     </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Healthcare-Podcasts " id="site-menu-item-33207">
+                        <a href="/web/20250618225055/https://karger.com/pages/podcasts" class="nav-link">Healthcare Podcasts                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Open-Access-Portfolio " id="site-menu-item-33208">
+                        <a href="/web/20250618225055/https://karger.com/pages/open-access" class="nav-link">Open Access Portfolio                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Impact-Support-Services " id="site-menu-item-33209">
+                        <a href="/web/20250618225055/https://karger.com/pages/impact-support-services" class="nav-link">Impact Support Services                      </a>
+
+</li>
+        </ul>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-0 site-menu-item-Who-We-Are " id="site-menu-item-33187">
+                        <a href="javascript:;" class="nav-link js-theme-dropdown-trigger" aria-expanded="false">Who We Are <i class="icon-general_arrow-down arrow-icon"><span class="screenreader-text">Open Menu</span></i></a>
+
+<ul class="site-menu site-menu-lvl-1 js-theme-dropdown">
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Overview " id="site-menu-item-33210">
+                        <a href="/web/20250618225055/https://karger.com/pages/who-we-are" class="nav-link">Overview                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-What-We-Solve " id="site-menu-item-33211">
+                        <a href="/web/20250618225055/https://karger.com/pages/what-we-solve" class="nav-link">What We Solve                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Accessing-Knowledge " id="site-menu-item-33212">
+                        <a href="/web/20250618225055/https://karger.com/pages/accessing-knowledge" class="nav-link">Accessing Knowledge                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Presenting-Knowledge " id="site-menu-item-33213">
+                        <a href="/web/20250618225055/https://karger.com/pages/presenting-knowledge" class="nav-link">Presenting Knowledge                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Applying-Knowledge " id="site-menu-item-33214">
+                        <a href="/web/20250618225055/https://karger.com/pages/applying-knowledge" class="nav-link">Applying Knowledge                      </a>
+
+</li>
+        </ul>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-0 site-menu-item-Publish-with-Us " id="site-menu-item-33188">
+                        <a href="javascript:;" class="nav-link js-theme-dropdown-trigger" aria-expanded="false">Publish with Us <i class="icon-general_arrow-down arrow-icon"><span class="screenreader-text">Open Menu</span></i></a>
+
+<ul class="site-menu site-menu-lvl-1 js-theme-dropdown">
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Overview " id="site-menu-item-33215">
+                        <a href="/web/20250618225055/https://karger.com/pages/publish-with-us" class="nav-link">Overview                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Publish-Your-Paper " id="site-menu-item-33216">
+                        <a href="/web/20250618225055/https://karger.com/pages/publish-your-paper" class="nav-link">Publish Your Paper                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Getting-Started-for-Researchers " id="site-menu-item-33217">
+                        <a href="http://web.archive.org/web/20250618225055/https://communities.karger.com/" class="nav-link" target="&quot;_blank&quot;">Getting Started for Researchers <span class="screenreader-text">Open External Link</span>                     </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Calls-for-Papers " id="site-menu-item-33218">
+                        <a href="/web/20250618225055/https://karger.com/pages/calls-for-papers" class="nav-link">Calls for Papers                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Publication-Services " id="site-menu-item-33219">
+                        <a href="/web/20250618225055/https://karger.com/pages/publication-services" class="nav-link">Publication Services                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Partner-Publications " id="site-menu-item-33220">
+                        <a href="/web/20250618225055/https://karger.com/pages/partner-publications" class="nav-link">Partner Publications                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Submit-&amp;-Publish-Open-Access " id="site-menu-item-33221">
+                        <a href="/web/20250618225055/https://karger.com/pages/submit-and-publish-open-access" class="nav-link">Submit &amp; Publish Open Access                      </a>
+
+</li>
+        </ul>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-0 site-menu-item-Resources-for-You " id="site-menu-item-33189">
+                        <a href="javascript:;" class="nav-link js-theme-dropdown-trigger" aria-expanded="false">Resources for You <i class="icon-general_arrow-down arrow-icon"><span class="screenreader-text">Open Menu</span></i></a>
+
+<ul class="site-menu site-menu-lvl-1 js-theme-dropdown">
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Overview " id="site-menu-item-33222">
+                        <a href="/web/20250618225055/https://karger.com/pages/resources-for-you" class="nav-link">Overview                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Exhibitions " id="site-menu-item-33223">
+                        <a href="/web/20250618225055/https://karger.com/pages/exhibitions" class="nav-link">Exhibitions                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Webinars " id="site-menu-item-33224">
+                        <a href="/web/20250618225055/https://karger.com/pages/webinars" class="nav-link">Webinars                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Case-Studies " id="site-menu-item-33225">
+                        <a href="/web/20250618225055/https://karger.com/pages/case-studies" class="nav-link">Case Studies                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Fast-Facts-Medical-Information " id="site-menu-item-33226">
+                        <a href="/web/20250618225055/https://karger.com/pages/fast-facts" class="nav-link">Fast Facts Medical Information                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-News-&amp;-Media-Releases " id="site-menu-item-33227">
+                        <a href="/web/20250618225055/https://karger.com/pages/newsroom" class="nav-link">News &amp; Media Releases                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Experience-Karger-Blog " id="site-menu-item-33228">
+                        <a href="http://web.archive.org/web/20250618225055/https://experience.karger.com/" class="nav-link" target="&quot;_blank&quot;">Experience Karger Blog <span class="screenreader-text">Open External Link</span>                     </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-The-Waiting-Room-Blog " id="site-menu-item-33229">
+                        <a href="http://web.archive.org/web/20250618225055/https://thewaitingroom.karger.com/" class="nav-link" target="&quot;_blank&quot;">The Waiting Room Blog <span class="screenreader-text">Open External Link</span>                     </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Research-Viewpoints-Blog " id="site-menu-item-33230">
+                        <a href="http://web.archive.org/web/20250618225055/https://researchviewpoints.karger.com/" class="nav-link" target="&quot;_blank&quot;">Research Viewpoints Blog <span class="screenreader-text">Open External Link</span>                     </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-AI-Innovation-Hub " id="site-menu-item-33231">
+                        <a href="/web/20250618225055/https://karger.com/pages/ai-innovation-hub" class="nav-link">AI Innovation Hub                      </a>
+
+</li>
+                <li class="site-menu-item site-menu-lvl-1 site-menu-item-Our-AI-Principles " id="site-menu-item-33232">
+                        <a href="/web/20250618225055/https://karger.com/pages/karger-ai-principles" class="nav-link">Our AI Principles                      </a>
+
+</li>
+        </ul>
+
+</li>
+        </ul>
+
+</nav>
+    
+</div>
+
+<input type="hidden" class="hfEnableEnhancedAutoSuggest" value="false" name="searchScope" aria-hidden="true"/>
+        <div class="mobile-menu-trigger_wrap mobile-search_wrap">
+            <a href="javascript:;" class="mobile-search_toggle at-search-toggle" role="button" aria-expanded="false" data-theme-dropdown-trigger="search-dropdown"><i class="icon-menu_search"><span class="screenreader-text">Search Dropdown Menu</span></i></a>
+        </div>
+    <div class="navbar-search-container mobile-dropdown search-dropdown" data-theme-dropdown="search-dropdown">
+        <div class="navbar-search">
+            <form class="microsite-search js-MicrositeSearch">
+                <fieldset class="searchbar-fieldset">
+                    <legend><span class="screenreader-text">header search</span></legend>
+                    <div class="navbar-search-input_wrap">
+                        <label for="MicrositeSearchTerm-SitePageHeader"><span class="screenreader-text">search input</span></label>
+                        
+                        <input class="navbar-search-input microsite-search-term at-microsite-search-term search-term-autosuggest" data-autosuggest-hint="micrositeSearchTermInputHint-SitePageHeader" data-autosuggest-results="micrositeAutoCompleteResults-SitePageHeader" data-autosuggest-id="MicrositeSearchTerm-SitePageHeader" data-searchfilter="search-filter-SitePageHeader" placeholder="Search..." type="text" maxlength="255" autocomplete="off" id="MicrositeSearchTerm-SitePageHeader" title="search input">
+                        
+                        <input type="hidden" name="hfAutoCompleteMaxResults" class="hfAutoCompleteMaxResults" value="6" aria-hidden="true"/>
+                        <input type="hidden" name="hfSolrAutoSuggestMinimumCharactersLength" class="hfSolrAutoSuggestMinimumCharactersLength" value="2" aria-hidden="true"/>
+                        <input type="hidden" name="hfSolrJournalName" class="hfSolrJournalName" value="" aria-hidden="true"/>
+                        <input type="hidden" name="hfSolrJournalID" class="hfSolrJournalID" value="" aria-hidden="true"/>
+                        <label for="micrositeSearchTermInputHint-SitePageHeader">
+                            <span class="screenreader-text">Search input auto suggest</span>
+                        </label>
+                        <input type="text" id="micrositeSearchTermInputHint-SitePageHeader" data-autosuggest-id="micrositeSearchTermInputHint-SitePageHeader" class="microsite-search-term-input-hint" autocomplete="off"/>
+                        <ul data-autosuggest-id="micrositeAutoCompleteResults-SitePageHeader" class="term-list hidden"></ul>
+                    </div>
+                        <div class="navbar-search-filter_wrap">
+                            <label for="navbar-search-filter-site-SitePageHeader">
+                                <span class="screenreader-text">filter your search</span>
+                            </label>
+                            <select class="navbar-search-filter navbar-search-filter-site at-navbar-search-filter" id="navbar-search-filter-site-SitePageHeader" data-autosuggest-id="search-filter-SitePageHeader">
+<option class="header-search-bar-filters-item" value="/search-results?page=1&amp;q={searchQuery}" data-siteid="0">All Content</option><option class="header-search-bar-filters-item" value="/journals/search-results?page=1&amp;q={searchQuery}&amp;fl_SiteID=3&amp;allJournals=1" data-siteid="3">All Journals</option><option class="header-search-bar-filters-item selected" value="/jnn/search-results?page=1&amp;q={searchQuery}&amp;fl_SiteID=1000363" data-siteid="1000363" selected>Journal of Nutrigenetics and Nutrigenomics</option>                            </select>
+                        </div>
+                    <div class="navbar-search-submit_wrap">
+                        <a href="javascript:;" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+                    </div>
+                </fieldset>
+            </form><!-- /#MicrositeSearch -->
+        </div><!-- /.navbar-search -->
+<div class="navbar-search-advanced">
+    <a href="/web/20250618225055/https://karger.com/advanced-search" class="advanced-search">Advanced Search</a>
+</div>    </div><!-- /.navbar-search-container -->
+
+<input type="hidden" name="parentSiteName" class="hfParentSiteName" value="Journals Gateway" aria-hidden="true"/>
+<input type="hidden" class="hfSolrMaxAllowSearchChar" value="100" aria-hidden="true"/>
+<input type="hidden" class="hfJournalShortName" value="" aria-hidden="true"/>
+<input type="hidden" class="hfSearchPlaceholder" value="" aria-hidden="true"/>
+<input type="hidden" name="hfGlobalSearchSiteURL" class="hfGlobalSearchSiteURL" value="" aria-hidden="true"/>
+<input type="hidden" name="hfSearchSiteURL" id="hfSiteURL" value="karger.com/jnn" aria-hidden="true"/>
+<input type="hidden" class="hfQuickSearchUrl" value="/jnn/search-results?page=1&amp;q={searchQuery}&amp;fl_SiteID=1000363" aria-hidden="true"/>
+<script type="text/javascript">
+    (function () {
+        var hfSiteUrl = document.getElementById('hfSiteURL');
+        var siteUrl = hfSiteUrl.value;
+        var subdomainIndex = siteUrl.indexOf('/');
+
+hfSiteUrl.value = location.host + (subdomainIndex >= 0 ? siteUrl.substring(subdomainIndex) : '');
+    })();
+</script>
+
+<div class="tablet-menu-trigger_wrap">
+        <!-- MOBILE SHOPPING CART ICON -->
+
+<div class="site-theme-header-menu-item view-cart-wrap">
+    <a href="http://web.archive.org/web/20250618225055/https://karger.com/store/cart" class="view-cart" rel="nofollow">
+        <span class="text-cart"></span> 
+        <i class="access-icon icon-availability_cart"></i>
+        <span class="items-in-cart"></span>
+    </a>
+</div>        <a href="javascript:;" class="tablet-sign-in" data-theme-dropdown-trigger="tablet-user-dropdown" aria-controls="tablet-user-dropdown" aria-expanded="false"><i class="fa-light fa-user"><span class="screenreader-text">User Tools Dropdown</span></i></a>
+    </div>
+<div class="site-theme-header-menu-item_wrap tablet-menu" id="tablet-user-dropdown" data-theme-dropdown="tablet-user-dropdown">
+    <!-- DESKTOP SHOPPING CART ICON -->
+
+<div class="site-theme-header-menu-item view-cart-wrap">
+    <a href="http://web.archive.org/web/20250618225055/https://karger.com/store/cart" class="view-cart" rel="nofollow">
+        <span class="text-cart"></span> 
+        <i class="access-icon icon-availability_cart"></i>
+        <span class="items-in-cart"></span>
+    </a>
+</div>
+    <!-- DESKTOP REGISTRATION -->
+        <div class="site-theme-header-menu-item"><a href="/web/20250618225055/https://karger.com/my-account/register?siteId=1000363&amp;returnUrl=%2fjnn%2farticle-abstract%2f2%2f2%2f91%2f181391%2fNutrigenetics-in-the-Light-of-Human-Evolution" class="register at-register js-register-user-modals">Register</a></div>
+
+<!-- DESKTOP INSTITUTIONS -->
+
+<!-- DESKTOP SIGN IN -->
+        <div class="site-theme-header-menu-item not-authenicated">
+            <a href="javascript:;" class="dropdown-toggle signin at-signin-dropdown at-signin-username" id="header-account-info-user-fullname" data-login-location="/SignIn/LoginForm/LoginFormPopup?returnUrl=" data-theme-dropdown-trigger="sign-in-dropdown" aria-controls="sign-in-dropdown" aria-expanded="false" rel="nofollow">
+                
+Login                <i class="icon-general_arrow-down arrow-icon"><span class="screenreader-text">Open Menu</span></i>
+            </a>
+            <div class="dropdown-panel dropdown-panel-signin dropdown-panel-form at-signin-dropdown-panel" id="sign-in-dropdown" data-theme-dropdown="sign-in-dropdown">
+                <div class="spinner"></div>
+            </div><!-- /.dropdown-panel -->
+        </div>
+
+</div>
+        </div><!-- /.site-theme-header_content -->
+    </div><!-- /.site-theme-header- -->
+
+<div class="journal-header journal-bg">
+        <div class="journal-header_content ">
+
+<div class="journal-logo_wrap">
+        <a href="//web.archive.org/web/20250618225055/https://karger.com/jnn" class="journal-logo-link">
+            <picture>
+                <source media="(min-width: 601px)" srcset="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jnn/JNN_logo1510469027.png">
+                <img class="logo-JournalofNutrigeneticsandNutrigenomics journal-logo" src="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/jnn/JNN_logo1510469027.png" alt="Journal of Nutrigenetics and Nutrigenomics"/>
+            </picture>
+        </a>
+    </div>
+
+<div class="navbar-menu_wrap">
+            <a class="mobile-site-menu-toggle" data-theme-dropdown-trigger="microsite-nav-menu" aria-controls="microsite-nav-menu" aria-expanded="false" href="javascript:;"><i class="icon-menu_hamburger"><span class="screenreader-text">Toggle Menu</span></i><span class="tablet-menu-label">Menu</span></a>
+            <nav class="navbar-menu" id="microsite-nav-menu" data-theme-dropdown="microsite-nav-menu">
+                
+            </nav>
+</div><!-- /.navbar -->
+
+</div><!-- /.center-inner-row -->
+
+</div><!-- /.journal-header -->
+
+<input id="routename" name="RouteName" type="hidden" value="jnn"/>
+
+</div>
+
+</section>
+
+<div id="main" class="content-main js-main ui-base">
+    <section class="master-main row">
+        <div class="content-main_content">
+            <a href="#" id="skipNav" class="screenreader-text" tabindex="-1">Skip Nav Destination</a>
+
+<div class="page-column-wrap article-browse_content ">
+<div id="InfoColumn" class="page-column page-column--left">
+
+<div class="info-inner-wrap can-stick empty">
+
+<button type="button" class="btn-as-icon toggle-left-col__close icon-general-close">
+            <span class="screenreader-text">Close navigation menu</span>
+        </button>
+        <div class="responsive-nav-title">Article navigation</div>
+
+<div class="info-widget-wrap">
+    <div class="widget-IssueInfo widget-instance-IssueInfo_Article">
+
+<div id="issueInfo-IssueInfo_Article" class="article-info-wrap clearfix">
+    <div class="article-issue-info">
+        <div class="volume-issue__wrap">
+                    <a href="/web/20250618225055/https://karger.com/jnn/issue/2/2">
+
+<span class="volume issue">Volume 2, Issue 2</span>
+
+</a>
+        </div>
+
+<div class="ii-pub-date">
+August 2009        </div>
+
+</div>
+
+<div class="article-issue-img">
+                <a href="/web/20250618225055/https://karger.com/jnn/issue/2/2">
+            <img id="issueFallbackImage" class="fb-featured-image at-coverimage" src="//web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/data/SiteBuilderAssets/Live/Images/umbrella/karger_default_cover387652959.png" alt="Issue Cover"/>
+                </a>
+    </div>
+
+</div> 
+    </div>
+
+</div>
+    </div>
+</div>
+
+<div id="ContentColumn" class="page-column page-column--center center-content can-stick">
+        <div class="article-browse_content-wrap js-content-standard">
+                <div class="widget-ArticleMainView widget-instance-ArticleMainView_Abstract">
+        
+<div class="article-browse-top article-browse-mobile-nav empty">
+    <div class="article-browse-mobile-nav-inner">
+        <button type="button" class="btn toggle-left-col toggle-left-col__article">Article Navigation</button>
+    </div>
+</div>    <div class="content-inner-wrap">
+        
+    <div class="widget-ArticleTopInfo widget-instance-ArticleTopInfo_Abstract">
+        <div class="module-widget article-top-widget content-metadata_wrap">
+
+<div class="article-groups left-flag">
+        <span class="article-client_type">Review Articles</span><span class="pipe">|</span>
+        <span class="article-date">July 10 2009</span>
+
+</div>
+
+<div class="widget-items">
+                <h1 class="wi-article-title article-title-main">
+                    Nutrigenetics in the Light of Human Evolution
+<i class="icon-availability_cart" title="Available to Purchase"><span class="screenreader-text">Available to Purchase</span></i>                </h1>
+                    <div class="special-collections-wrap">
+                                <div>
+                                                <span>Subject Area:</span>
+                                            <i class="special-collections-icon icon-special_collections icon-genetics"></i>
+                                        <a class="collection-genetics" href="http://web.archive.org/web/20250618225055/https://karger.com/jnn/collection/30/Genetics">Genetics</a>
+                                            <span>,</span>
+                                            <i class="special-collections-icon icon-special_collections icon-nutrition-and-dietetics"></i>
+                                        <a class="collection-nutrition-and-dietetics" href="http://web.archive.org/web/20250618225055/https://karger.com/jnn/collection/36/Nutrition-and-Dietetics">Nutrition and Dietetics</a>
+                                            <span>,</span>
+                                            <i class="special-collections-icon icon-special_collections icon-public-health"></i>
+                                        <a class="collection-public-health" href="http://web.archive.org/web/20250618225055/https://karger.com/jnn/collection/43/Public-Health">Public Health</a>
+                                </div>
+
+</div>
+<div class="wi-authors">
+    <div class="al-authors-list">
+                <div class="al-author-name">
+
+<!-- Keep these element on the same line, to prevent browsers from inserting a space between elements -->
+            <a class="linked-name js-linked-name stats-author-info-trigger" href="javascript:;">Fabio Verginelli</a><span class="al-author-delim">; </span>
+
+<div class="al-author-info-wrap arrow-up stats-author-info-panel">
+<div class="info-card-author authorInfo_ArticleTopInfo_Abstract">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Fabio Verginelli
+</div>
+
+</div>
+
+<div class="info-card-affilitation">
+        <div class="aff"><span class="label title-label">a</span>Departments of Oncology and Neuroscience, Section of Molecular Pathology, and </div>
+    </div>
+
+<div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/web/20250618225055/https://karger.com/jnn/search-results?f_AllAuthors=Fabio+Verginelli" rel="nofollow">This Site</a>
+</div>
+
+<div class="info-card-search info-card-search-pubmed">
+        <a href="http://web.archive.org/web/20250618225055/http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;term=Fabio Verginelli">PubMed</a>
+    </div>
+    <div class="info-card-search info-card-search-google">
+        <a href="http://web.archive.org/web/20250618225055/http://scholar.google.com/scholar?q=author:&quot;Fabio Verginelli&quot;">Google Scholar</a>
+    </div>
+</div>                    </div>
+                </div>
+                <div class="al-author-name">
+
+<!-- Keep these element on the same line, to prevent browsers from inserting a space between elements -->
+            <a class="linked-name js-linked-name stats-author-info-trigger" href="javascript:;">Federica Aru</a><span class="al-author-delim">; </span>
+
+<div class="al-author-info-wrap arrow-up stats-author-info-panel">
+<div class="info-card-author authorInfo_ArticleTopInfo_Abstract">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Federica Aru
+</div>
+
+</div>
+
+<div class="info-card-affilitation">
+        <div class="aff"><span class="label title-label">a</span>Departments of Oncology and Neuroscience, Section of Molecular Pathology, and </div>
+    </div>
+
+<div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/web/20250618225055/https://karger.com/jnn/search-results?f_AllAuthors=Federica+Aru" rel="nofollow">This Site</a>
+</div>
+
+<div class="info-card-search info-card-search-pubmed">
+        <a href="http://web.archive.org/web/20250618225055/http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;term=Federica Aru">PubMed</a>
+    </div>
+    <div class="info-card-search info-card-search-google">
+        <a href="http://web.archive.org/web/20250618225055/http://scholar.google.com/scholar?q=author:&quot;Federica Aru&quot;">Google Scholar</a>
+    </div>
+</div>                    </div>
+                </div>
+                <div class="al-author-name">
+
+<!-- Keep these element on the same line, to prevent browsers from inserting a space between elements -->
+            <a class="linked-name js-linked-name stats-author-info-trigger" href="javascript:;">Pasquale Battista</a><span class="al-author-delim">; </span>
+
+<div class="al-author-info-wrap arrow-up stats-author-info-panel">
+<div class="info-card-author authorInfo_ArticleTopInfo_Abstract">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Pasquale Battista
+</div>
+
+</div>
+
+<div class="info-card-affilitation">
+        <div class="aff"><span class="label title-label">b</span>Human Movement Sciences, G. d’Annunzio University, and Center of Excellence on Aging (Ce.S.I.), G. d’Annunzio University Foundation, Chieti, Italy</div>
+    </div>
+
+<div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/web/20250618225055/https://karger.com/jnn/search-results?f_AllAuthors=Pasquale+Battista" rel="nofollow">This Site</a>
+</div>
+
+<div class="info-card-search info-card-search-pubmed">
+        <a href="http://web.archive.org/web/20250618225055/http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;term=Pasquale Battista">PubMed</a>
+    </div>
+    <div class="info-card-search info-card-search-google">
+        <a href="http://web.archive.org/web/20250618225055/http://scholar.google.com/scholar?q=author:&quot;Pasquale Battista&quot;">Google Scholar</a>
+    </div>
+</div>                    </div>
+                </div>
+                <div class="al-author-name">
+
+<a class="linked-name js-linked-name stats-author-info-trigger" href="javascript:;">Renato Mariani-Costantini</a>
+
+<div class="al-author-info-wrap arrow-up stats-author-info-panel">
+<div class="info-card-author authorInfo_ArticleTopInfo_Abstract">
+    <div class="name-role-wrap">
+        <div class="info-card-name">
+    Renato Mariani-Costantini
+</div>
+
+</div>
+
+<div class="info-card-affilitation">
+        <div class="aff"><span class="label title-label">a</span>Departments of Oncology and Neuroscience, Section of Molecular Pathology, and </div>
+    </div>
+
+<div class="info-card-search-label">
+        Search for other works by this author on:
+    </div>
+
+<div class="info-card-search info-card-search-internal">
+    <a href="/web/20250618225055/https://karger.com/jnn/search-results?f_AllAuthors=Renato+Mariani-Costantini" rel="nofollow">This Site</a>
+</div>
+
+<div class="info-card-search info-card-search-pubmed">
+        <a href="http://web.archive.org/web/20250618225055/http://www.ncbi.nlm.nih.gov/pubmed?cmd=search&amp;term=Renato Mariani-Costantini">PubMed</a>
+    </div>
+    <div class="info-card-search info-card-search-google">
+        <a href="http://web.archive.org/web/20250618225055/http://scholar.google.com/scholar?q=author:&quot;Renato Mariani-Costantini&quot;">Google Scholar</a>
+    </div>
+</div>                    </div>
+                </div>
+    </div>
+</div>
+
+<div class="js-metadata-wrap metadata">
+
+</div>
+
+<div class="pub-history-wrap clearfix">
+
+<div class="pub-history-row clearfix">
+            <div class="ww-citation-primary"><em>Journal of Nutrigenetics and Nutrigenomics</em> (2009) 2 (2): 91–102.</div>
+        </div>
+        <div class="pub-history-row citation-wrap-row clearfix">
+                <div class="ww-citation-wrap-doi">
+                    <div class="citation-doi">
+                        <a href="http://web.archive.org/web/20250618225055/https://doi.org/10.1159/000228251">https://doi.org/10.1159/000228251</a>
+                    </div>
+                </div>
+
+<div class="ww-citation-history-wrap js-history-dropdown-wrap">
+                    <a href="javascript:;" class="history-label js-history-dropdown-trigger">
+                        <span>Article history</span><i class="icon-history-small"></i>
+                    </a>
+
+<div class="ww-history js-history-entries-wrap">
+                            <div class="history-entry">
+                                <div class="wi-state">Published Online:</div>
+                                <div class="wi-date">July 10 2009</div>
+                            </div>
+                    </div>
+                </div>
+        </div>
+
+</div>
+
+</div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.article-top-widget').on('click', '.ati-toggle-trigger', function () {
+            $(this).find('.icon-general-add, .icon-minus').toggleClass('icon-minus icon-general-add');
+            $(this).siblings('.ati-toggle-content').toggleClass('hide');
+        });
+
+// In Chrome, an anchor tag with target="_blank" and a "mailto:" href opens a new tab/window as well as the email client
+        // I suspect this behavior will be corrected in the future
+        // Remove the target="_blank"
+        $('ul.wi-affiliationList').find('a[href^="mailto:"]').each(function () {
+            $(this).removeAttr('target');
+        });
+    });
+</script>
+
+</div>
+    <div class="widget-ArticleLinks widget-instance-ArticleLinks_Abstract">
+         
+    </div>
+<div class="toolbar-wrap vt-toolbar-wrap" role="navigation">
+    <div class="toolbar-inner-wrap">
+<div class="toolbar-inner-wrap accordian-wrap">
+        <a href="javascript:;" class="toolbar-trigger js-toolbar-trigger"><i class="icon-menu_settings"></i> Content Tools <i class="arrow-icon icon-general_arrow-down js-toolbar-trigger-arrow-icon"></i></a>
+    <ul id="Toolbar" class="debug js-toolbar toolbar">
+
+<li class="toolbar-item item-with-dropdown item-views js-item-views">
+  <a href="javascript:;" class="js-toolbar-dropdown" data-dropdown="FilterDrop">
+    <i class="icon-menu_views"><span class="screenreader-text">Views Icon</span></i>
+    <span class="toolbar-label">
+      <span class="toolbar-text">Views</span>
+      <i class="icon-general_arrow-down arrow-icon js-toolbar-arrow-icon"><span class="screenreader-text">Open Menu</span></i>
+    </span>
+  </a>
+  <ul id="ViewsDrop" class="f-dropdown js-dropdown-content" data-dropdown-content>
+      <li class="article-content-filter js-content-filter" data-content-filter="article-content"><a href="javascript:;" rel="nofollow"><span>Article contents</span></a></li>
+      <li class="article-content-filter js-content-filter" data-content-filter="figures-tables"><a href="javascript:;" rel="nofollow"><span>Figures &amp; tables</span></a></li>
+      <li class="article-content-filter js-content-filter" data-content-filter="video"><a href="javascript:;" rel="nofollow"><span>Video</span></a></li>
+      <li class="article-content-filter js-content-filter" data-content-filter="audio"><a href="javascript:;" rel="nofollow"><span>Audio</span></a></li>
+      <li class="article-content-filter js-content-filter" data-content-filter="supplementary-data"><a href="javascript:;" rel="nofollow"><span>Supplementary Data</span></a></li>
+      <li class="article-content-filter js-content-filter" data-content-filter="peer-review"><a href="javascript:;" rel="nofollow"><span>Peer Review</span></a></li>
+  </ul>
+</li>
+
+<li class="toolbar-item item-with-dropdown item-share">
+        <a href="javascript:;" class="drop-trigger js-toolbar-dropdown at-ShareButton" data-dropdown="ShareDrop">
+            <i class="icon-menu_share"><span class="screenreader-text">Share Icon</span></i>
+            <span class="toolbar-label">
+                <span class="toolbar-text">Share</span>
+                <i class="arrow-icon icon-general_arrow-down js-toolbar-arrow-icon"></i>
+            </span>
+        </a>
+        <ul id="ShareDrop" class="addthis_toolbox addthis_default_style addthis_20x20_style f-dropdown js-dropdown-content" data-dropdown-content>
+    <li>
+        <a class="st-custom-button addthis_button_facebook js-share-link" data-network="facebook" data-title="Nutrigenetics in the Light of Human Evolution" data-url="http://web.archive.org/web/20250618225055/https://karger.com/jnn/article-abstract/2/2/91/181391/Nutrigenetics-in-the-Light-of-Human-Evolution" data-email-subject="Nutrigenetics in the Light of Human Evolution" href="javascript:;" rel="nofollow"><span>Facebook</span></a>
+    </li>
+    <li>
+        <a class="st-custom-button addthis_button_twitter js-share-link" data-network="twitter" data-title="Nutrigenetics in the Light of Human Evolution" data-url="http://web.archive.org/web/20250618225055/https://karger.com/jnn/article-abstract/2/2/91/181391/Nutrigenetics-in-the-Light-of-Human-Evolution" data-email-subject="Nutrigenetics in the Light of Human Evolution" href="javascript:;" rel="nofollow"><span>X</span></a>
+    </li>
+    <li>
+        <a class="st-custom-button addthis_button_linkedin js-share-link" data-network="linkedin" data-title="Nutrigenetics in the Light of Human Evolution" data-url="http://web.archive.org/web/20250618225055/https://karger.com/jnn/article-abstract/2/2/91/181391/Nutrigenetics-in-the-Light-of-Human-Evolution" data-email-subject="Nutrigenetics in the Light of Human Evolution" href="javascript:;" rel="nofollow"><span>LinkedIn</span></a>
+    </li>
+    <li>
+        <a class="st-custom-button addthis_button_email js-share-link" data-network="email" data-title="Nutrigenetics in the Light of Human Evolution" data-url="http://web.archive.org/web/20250618225055/https://karger.com/jnn/article-abstract/2/2/91/181391/Nutrigenetics-in-the-Light-of-Human-Evolution" data-email-subject="Nutrigenetics in the Light of Human Evolution" href="javascript:;" rel="nofollow"><span>Email</span></a>
+    </li>
+
+</ul>
+    </li>
+<li class="toolbar-item item-with-dropdown item-tools last">
+      <a href="javascript:;" class="js-toolbar-dropdown" data-dropdown="ToolsDrop">
+        <i class="icon-menu_tools"><span class="screenreader-text">Tools Icon</span></i>
+        <span class="toolbar-label">
+          <span class="toolbar-text">Tools</span>
+          <i class="icon-general_arrow-down arrow-icon js-toolbar-arrow-icon"><span class="screenreader-text">Open Menu</span></i>
+        </span>
+      </a>
+      <ul id="ToolsDrop" class="f-dropdown js-dropdown-content" data-dropdown-content>
+    <li class="toolbar-item item-cite js-item-cite">
+<div class="getCitationDiv at-CiteButton">
+    <a href="javascript:;" class="stats-get-citation" data-modal-source-id="toolbox-get-citation" rel="nofollow">
+        <i class="icon-cite">
+            <span class="screenreader-text">Cite Icon</span>
+        </i>
+        <span>Cite</span>
+    </a>
+</div>
+    </li>
+
+</ul>
+  
+</li>
+
+<li class="toolbar-item item-tools">
+    <div class="widget-ToolboxPermissions widget-instance-ToolboxPermissions_Abstract">
+            <div class="module-widget">
+        <a href="http://web.archive.org/web/20250618225055/https://s100.copyright.com/AppDispatchServlet?publisherName=KARGER&amp;publication=1661-6758&amp;title=Nutrigenetics%20in%20the%20Light%20of%20Human%20Evolution&amp;publicationDate=2009-07-10&amp;volumeNum=2&amp;issueNum=2&amp;author=Verginelli%2C%20Fabio%3B%20Aru%2C%20Federica&amp;startPage=91&amp;endPage=102&amp;contentId=10.1159%2F000228251&amp;oa=&amp;copyright=Silverchair%20Publisher&amp;orderBeanReset=True" class="PermissionsLink" rel="nofollow">
+            <span class="toolbar-label">
+                <span class="toolbar-text">Get Permissions</span>
+            </span>
+        </a>
+    </div>
+ 
+    </div>
+
+</li>
+<li class="search-dropdown-trigger_wrap toolbar-item">
+    <a href="javascript:;" data-theme-dropdown-trigger="toolbar-search-dropdown" aria-controls="toolbar-search-dropdown" aria-expanded="false">
+        <i class="icon-menu_search"></i>
+        <span class="site-search-text">Search Site</span>
+    </a>
+</li>
+
+</ul>
+</div>
+
+<div id="getCitation" data-content-id="toolbox-get-citation" class="modal-only-content vt-citation-modal">
+  <div class="modal-title">Citation</div>
+  <p>Fabio Verginelli<span class="al-author-delim">, </span>Federica Aru<span class="al-author-delim">, </span>Pasquale Battista<span class="al-author-delim">, </span>Renato Mariani-Costantini; Nutrigenetics in the Light of Human Evolution. <em><em>Journal of Nutrigenetics and Nutrigenomics</em></em> 1 August 2009; 2 (2): 91–102. <a href="http://web.archive.org/web/20250618225055/https://doi.org/10.1159/000228251">https://doi.org/10.1159/000228251</a></p>
+  <p class="citation-label">Download citation file:</p>
+  <ul>
+      <li><a href="/web/20250618225055/https://karger.com/Citation/Download?resourceId=181391&amp;resourceType=3&amp;citationFormat=0" rel="nofollow">Ris (Zotero)</a></li>
+          <li><a href="/web/20250618225055/https://karger.com/Citation/Download?resourceId=181391&amp;resourceType=3&amp;citationFormat=0" rel="nofollow">Reference Manager</a></li>
+          <li><a href="/web/20250618225055/https://karger.com/Citation/Download?resourceId=181391&amp;resourceType=3&amp;citationFormat=0" rel="nofollow">EasyBib</a></li>
+          <li><a href="/web/20250618225055/https://karger.com/Citation/Download?resourceId=181391&amp;resourceType=3&amp;citationFormat=0" rel="nofollow">Bookends</a></li>
+
+<li><a href="/web/20250618225055/https://karger.com/Citation/Download?resourceId=181391&amp;resourceType=3&amp;citationFormat=0" rel="nofollow">Mendeley</a></li>
+
+<li><a href="/web/20250618225055/https://karger.com/Citation/Download?resourceId=181391&amp;resourceType=3&amp;citationFormat=0" rel="nofollow">Papers</a></li>
+
+<li><a href="/web/20250618225055/https://karger.com/Citation/Download?resourceId=181391&amp;resourceType=3&amp;citationFormat=1" rel="nofollow">EndNote</a></li>
+          <li><a href="/web/20250618225055/https://karger.com/Citation/Download?resourceId=181391&amp;resourceType=3&amp;citationFormat=3" rel="nofollow">RefWorks</a></li>
+          <li><a href="/web/20250618225055/https://karger.com/Citation/Download?resourceId=181391&amp;resourceType=3&amp;citationFormat=2" rel="nofollow">BibTex</a></li>
+          </ul>
+</div>
+
+<div class="toolbar-search" id="toolbar-search-dropdown" data-theme-dropdown="toolbar-search-dropdown">
+            <fieldset>
+                <legend class="screenreader-text">toolbar search</legend>
+
+<div class="widget-SitePageHeader widget-instance-SiteSearch_ArticleMainView_Abstract">
+
+<input type="hidden" class="hfEnableEnhancedAutoSuggest" value="false" name="searchScope" aria-hidden="true"/>
+        <div class="mobile-menu-trigger_wrap mobile-search_wrap">
+            <a href="javascript:;" class="mobile-search_toggle at-search-toggle" role="button" aria-expanded="false" data-theme-dropdown-trigger="search-dropdown"><i class="icon-menu_search"><span class="screenreader-text">Search Dropdown Menu</span></i></a>
+        </div>
+    <div class="navbar-search-container mobile-dropdown search-dropdown" data-theme-dropdown="search-dropdown">
+        <div class="navbar-search">
+            <form class="microsite-search js-MicrositeSearch">
+                <fieldset class="searchbar-fieldset">
+                    <legend><span class="screenreader-text">toolbar search</span></legend>
+                    <div class="navbar-search-input_wrap">
+                        <label for="MicrositeSearchTerm-SiteSearch_ArticleMainView_Abstract"><span class="screenreader-text">search input</span></label>
+                        
+                        <input class="navbar-search-input microsite-search-term at-microsite-search-term search-term-autosuggest" data-autosuggest-hint="micrositeSearchTermInputHint-SiteSearch_ArticleMainView_Abstract" data-autosuggest-results="micrositeAutoCompleteResults-SiteSearch_ArticleMainView_Abstract" data-autosuggest-id="MicrositeSearchTerm-SiteSearch_ArticleMainView_Abstract" data-searchfilter="search-filter-SiteSearch_ArticleMainView_Abstract" placeholder="Search..." type="text" maxlength="255" autocomplete="off" id="MicrositeSearchTerm-SiteSearch_ArticleMainView_Abstract" title="search input">
+                        
+                        <input type="hidden" name="hfAutoCompleteMaxResults" class="hfAutoCompleteMaxResults" value="6" aria-hidden="true"/>
+                        <input type="hidden" name="hfSolrAutoSuggestMinimumCharactersLength" class="hfSolrAutoSuggestMinimumCharactersLength" value="2" aria-hidden="true"/>
+                        <input type="hidden" name="hfSolrJournalName" class="hfSolrJournalName" value="" aria-hidden="true"/>
+                        <input type="hidden" name="hfSolrJournalID" class="hfSolrJournalID" value="" aria-hidden="true"/>
+                        <label for="micrositeSearchTermInputHint-SiteSearch_ArticleMainView_Abstract">
+                            <span class="screenreader-text">Search input auto suggest</span>
+                        </label>
+                        <input type="text" id="micrositeSearchTermInputHint-SiteSearch_ArticleMainView_Abstract" data-autosuggest-id="micrositeSearchTermInputHint-SiteSearch_ArticleMainView_Abstract" class="microsite-search-term-input-hint" autocomplete="off"/>
+                        <ul data-autosuggest-id="micrositeAutoCompleteResults-SiteSearch_ArticleMainView_Abstract" class="term-list hidden"></ul>
+                    </div>
+                        <div class="navbar-search-filter_wrap">
+                            <label for="navbar-search-filter-site-SiteSearch_ArticleMainView_Abstract">
+                                <span class="screenreader-text">filter your search</span>
+                            </label>
+                            <select class="navbar-search-filter navbar-search-filter-site at-navbar-search-filter" id="navbar-search-filter-site-SiteSearch_ArticleMainView_Abstract" data-autosuggest-id="search-filter-SiteSearch_ArticleMainView_Abstract">
+<option class="header-search-bar-filters-item" value="/search-results?page=1&amp;q={searchQuery}" data-siteid="0">All Content</option><option class="header-search-bar-filters-item" value="/journals/search-results?page=1&amp;q={searchQuery}&amp;fl_SiteID=3&amp;allJournals=1" data-siteid="3">All Journals</option><option class="header-search-bar-filters-item selected" value="/jnn/search-results?page=1&amp;q={searchQuery}&amp;fl_SiteID=1000363" data-siteid="1000363" selected>Journal of Nutrigenetics and Nutrigenomics</option>                            </select>
+                        </div>
+                    <div class="navbar-search-submit_wrap">
+                        <a href="javascript:;" class="microsite-search-icon navbar-search-submit icon-menu_search"><span class="screenreader-text">Search</span></a>
+                    </div>
+                </fieldset>
+            </form><!-- /#MicrositeSearch -->
+        </div><!-- /.navbar-search -->
+<div class="navbar-search-advanced">
+    <a href="/web/20250618225055/https://karger.com/advanced-search" class="advanced-search">Advanced Search</a>
+</div>    </div><!-- /.navbar-search-container -->
+
+</div>
+
+</fieldset>
+        </div>
+    </div><!-- /.toolbar-inner-wrap -->
+</div><!-- /.toolbar-wrap -->
+
+<div class="article-body">
+    <div id="articleMainView-articleId" class="js-articleMainView-articleId" data-articleid="181391" style="display: none;"></div>
+    <div id="ContentTab" class="content active">
+    <div class="widget-ArticleFulltext widget-instance-ArticleFulltext_Abstract">
+        <input type="hidden" name="js-hfArticleLinksReferencesDoiRegex" id="js-hfArticleLinksReferencesDoiRegex" value=""/>
+
+<div class="module-widget">
+    <div class="widget-items" data-widgetname="ArticleFulltext">
+
+<h2 scrollto-destination="9616894" id="9616894" data-section-title="Abstract" class="abstract-title jumplink-heading">Abstract</h2>
+            <div class="">
+                <div id="9616894-content" class="article-section-wrapper js-article-section js-content-section  " data-section-parent-id="0">
+                    
+                    <section class="abstract"><p>Bio-cultural adaptations to new foods played a key role in human evolution. The fossil record and sequence differences between human and chimpanzee genes point to a major dietary shift at the stem of human evolution. The earliest representatives of the human lineage diverged from the ancestors of chimpanzees because of their better adaptation to hard and abrasive foods. Bipedalism and modifications of the hand, which allowed tool manufacture and use, impacted on dietary flexibility, facilitating access to foods of animal origin. This promoted major anatomic, physiologic and metabolic adaptations. Encephalization, which requires high-quality diet, characterizes the evolutionary sequence that, through the <em>Homo ergaster/erectus</em> stages, led to our species, <em>Homo sapiens</em>, which originated in Africa about 200,000 years ago. At the end of the Ice Age, climatic changes and human impact determined a major food crisis, which triggered the agricultural revolution. This affected nutrition and health, with rapid evolutionary adaptations through the selection of genetic variants that allowed better utilization of new foods, different in relation to geography and culture. Today population growth, globalization and economic pressure powerfully affect diets worldwide. We must take into account our evolutionary past to meet the present nutritional challenges.</p></section>
+                </div>
+                    <div class="article-metadata-panel clearfix rs_skip">
+    <div class="widget-SolrResourceMetadata widget-instance-ContentMetadata_ArticleFulltext_Article">
+        
+        <div class="content-metadata-keywords">
+            <div class="content-metadata-keywords-title">Keywords:</div>
+                    <a href="/web/20250618225055/https://karger.com/jnn/search-results?qb={&quot;Keywords1&quot;:&quot;Culture&quot;}">Culture</a><span>,</span>
+                    <a href="/web/20250618225055/https://karger.com/jnn/search-results?qb={&quot;Keywords1&quot;:&quot;Diet&quot;}">Diet</a><span>,</span>
+                    <a href="/web/20250618225055/https://karger.com/jnn/search-results?qb={&quot;Keywords1&quot;:&quot;Disease&quot;}">Disease</a><span>,</span>
+                    <a href="/web/20250618225055/https://karger.com/jnn/search-results?qb={&quot;Keywords1&quot;:&quot;Encephalization&quot;}">Encephalization</a><span>,</span>
+                    <a href="/web/20250618225055/https://karger.com/jnn/search-results?qb={&quot;Keywords1&quot;:&quot;Genetics&quot;}">Genetics</a><span>,</span>
+                    <a href="/web/20250618225055/https://karger.com/jnn/search-results?qb={&quot;Keywords1&quot;:&quot;Human+evolution&quot;}">Human evolution</a><span>,</span>
+                    <a href="/web/20250618225055/https://karger.com/jnn/search-results?qb={&quot;Keywords1&quot;:&quot;Metabolism&quot;}">Metabolism</a>
+        </div>
+
+</div>
+
+</div>
+        <!-- /foreach -->
+        </div>
+
+<div class="article-metadata-standalone-panel clearfix"></div>
+
+<div class="pdf-notice">
+                    This content is only available via PDF.
+                </div>
+
+<div id="articlefulltext_figshare" class="figshare-wrapper" data-widgetname="filesViewerGeneric" data-showstats="True" data-showpageinfo="True" data-showsharebutton="True" data-showfiledetails="True" data-loaddoisbycollection="False">
+</div>
+
+<div class="permissionstatement-section-wrapper ">
+            
+            <div class="copyright copyright-statement">© 2009 S. Karger AG, Basel</div><div class="copyright copyright-year">2009</div><div class="license "><div class="license-p">Copyright / Drug Dosage / Disclaimer</div><div class="license-p">Copyright: All rights reserved. No part of this publication may be translated into other languages, reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying, recording, microcopying, or by any information storage and retrieval system, without permission in writing from the publisher.</div><div class="license-p">Drug Dosage: The authors and the publisher have exerted every effort to ensure that drug selection and dosage set forth in this text are in accord with current recommendations and practice at the time of publication. However, in view of ongoing research, changes in government regulations, and the constant flow of information relating to drug therapy and drug reactions, the reader is urged to check the package insert for each drug for any changes in indications and dosage and for added warnings and precautions. This is particularly important when the recommended agent is a new and/or infrequently employed drug.</div><div class="license-p">Disclaimer: The statements, opinions and data contained in this publication are solely those of the individual authors and contributors and not of the publishers and the editor(s). The appearance of advertisements or/and product references in the publication is not a warranty, endorsement, or approval of the products or services advertised or of their effectiveness, quality or safety. The publisher and the editor(s) disclaim responsibility for any injury to persons or property resulting from any ideas, methods, instructions or products referred to in the content or advertisements.</div></div>
+        </div>
+<!-- /foreach -->
+
+<span id="UserHasAccess" data-userhasaccess="False"></span>
+
+</div><!-- /.widget-items -->
+</div><!-- /.module-widget --> 
+    </div>
+                <div class="article-top-info-user-restricted-options">You do not currently have access to this content.</div>
+
+<div id="ContentTabFilteredView"></div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+<div class="user-comments-wrap js-userComments">
+    <div class="widget-UserCommentBody widget-instance-UserCommentBody">
+         
+    </div>
+    <div class="widget-UserComment widget-instance-UserComment">
+         
+    </div>
+
+</div>
+
+<div>    <a id="FullTextLink"></a></div>
+
+<div id="unauth" class="unauth-wrap">
+        <div class="unauth-row clearfix">
+                <h2 class="unauth-signin-title">Sign in</h2>
+    <div class="register-ribbon-wrap">
+        <div class="register-ribbon-text">
+            Don&#39;t already have an account? <a class="register-ribbon-link" href="/web/20250618225055/https://karger.com/my-account/register?siteId=1000363&amp;returnUrl=https%3a%2f%2fkarger.com%2fjnn%2farticle-abstract%2f2%2f2%2f91%2f181391%2fNutrigenetics-in-the-Light-of-Human-Evolution">Register</a>
+        </div>
+    </div>
+            <!-- /.register-ribbon-wrap -->
+        <div class="unauth-column-wrap">
+                <div class="unauth-column">
+    <div class="widget-LoginForm widget-instance-ArticlePage_LoginForm">
+
+<div class="signin-form">
+        <div class="preloader-wrap hide">
+            <div class="preloader">
+                <div class="spinner"></div>
+            </div>
+        </div>
+
+<div class="login-form__section-wrap">
+
+<div class="widget-ExternalLogin widget-instance-loginForm_ExternalLogin">
+        
+    <div class="login-form__section">
+        <div class="external-login-provider">
+
+<h3>Individual Login</h3>
+                <a class="externalLoginLink js-externalLogin-link at-externalLoginLink button-call-to-action" href="http://web.archive.org/web/20250618225055/https://karger.com/ExternalLoginProvider/ExternalLoginRequest?elpId=3&amp;destinationUrl=https%3a%2f%2fkarger.com%2fjnn%2farticle-abstract%2f2%2f2%2f91%2f181391%2fNutrigenetics-in-the-Light-of-Human-Evolution" rel="nofollow">
+                    LOGIN TO MY KARGER
+                </a>
+        </div>
+            </div>
+ 
+    </div>
+
+<div class="login-form_section login-form__row--lower">
+
+<h3>Institutional Login</h3>
+
+<ul>
+                        <li><a class="logged-out-link institutional-login-link at-institutional-login-link" href="/web/20250618225055/https://karger.com/ExternalAuthentication/OpenAthensKeystoneLogin?returnUrl=https%3a%2f%2fkarger.com%2fjnn%2farticle-abstract%2f2%2f2%2f91%2f181391%2fNutrigenetics-in-the-Light-of-Human-Evolution" rel="nofollow">Access via Shibboleth and OpenAthens</a></li>
+
+<li>
+                                <a class="logged-out-link institutional-login-link at-institutional-login-link" href="/web/20250618225055/https://karger.com/institutional-login?returnUrl=https%3a%2f%2fkarger.com%2fjnn%2farticle-abstract%2f2%2f2%2f91%2f181391%2fNutrigenetics-in-the-Light-of-Human-Evolution" rel="nofollow">Access via username and password</a>
+                            </li>
+                    </ul>
+                </div>
+
+</div>
+    </div>
+ 
+    </div>
+
+</div>
+    <div class="widget-RestoreGuestAccess widget-instance-ArticlePage_RestoreGuestAccess">
+         
+    </div>
+                    <input type="hidden" id="resourceId" value="181391"/>
+                    <input type="hidden" id="resourceTypeId" value="3"/>
+                <!-- /.unauth-column -->
+                            <div class="unauth-column entities">
+                        <div class="unauth-society-row">
+
+</div>
+                                    </div><!-- /.unauth-column -->
+
+</div><!-- /.unauth-signin-col-wrap -->
+        </div>
+    <div class="product-type_wrap">
+    <div class="widget-BuyThisResourceLink widget-instance-ArticlePage_BuyThisResourceLink">
+                <h3 class="get-access-text">Digital Version</h3>
+    <div id="dvPurchaseButton" class="ppv-wrap">
+                    <div class="ppv_price_wrap">
+                    <div class="price_left_text">Pay-Per-View Access</div>
+                                    <div class="display_price_buy_resource">$45.00</div>
+            </div>
+                    <div id="buyThisResourceLink" class="ppv box">
+                <a class="store-link js-add-to-cart" href="http://web.archive.org/web/20250618225055/https://karger.com/store/add/181391/3" rel="nofollow" data-article-doi="10.1159/000228251" data-article-title="Nutrigenetics in the Light of Human Evolution" data-article-type="Review Articles" data-journal-short-name="jnn" data-currency="USD" data-price="45.00">
+                    <i class="icon-availability_cart"></i> <span>BUY THIS Article</span>
+                </a>
+            </div>
+
+</div>
+
+</div>
+            </div>
+    <div class="widget-BuyOrUseTokensLink widget-instance-ArticlePage_BuyOrUseTokensLink">
+            <div class="token-wrap">
+<div class="token-buy-container">
+        <div class="token-buy-item">
+            <div class="token-buy-header">1 Karger Article Bundle Token</div>
+                <div>$150</div>
+
+<div class="ppv box js-buy-tokens">
+                <a class="store-link" href="http://web.archive.org/web/20250618225055/https://karger.com/store/addToken?ProductID=35170" rel="nofollow"><i class="icon-availability_cart-small"></i> <span>Buy Token</span></a>
+            </div>
+        </div>
+</div>
+
+<div class="token-redeem-container">
+</div>
+<div class="institution-token-redeem-container">
+</div>
+<div class="institution-token-redeem-container">
+</div>
+
+</div>
+ 
+    </div>
+</div><!-- /.unauth-wrap -->
+
+<div class="widget-DeepDyve widget-instance-ArticlePage_DeepDyveLink">
+        
+<div class="js-deep-dyve-container">
+    <div class="deep-dyve-title">
+        Rental
+    </div>
+
+<div class="deep-dyve-link">
+        <span class="deep-dyve-sc-message">
+            This article is also available for rental through DeepDyve.
+        </span>
+
+<span class="js-deepdyve-link" data-apiurl="https://www.deepdyve.com/rental-link?docId=10.1159/000228251&amp;journal=1661-6499&amp;fieldName=journal_doi&amp;affiliateId=KARGER&amp;format=json">
+            <a href="http://web.archive.org/web/20250618225055/https://www.deepdyve.com/doc-view?docId=10.1159/000228251&amp;fieldName=journal_doi&amp;affiliateId=KARGER">
+                <img src="//web.archive.org/web/20250618225055im_/https://www.deepdyve.com/assets/images/deepdyve-link-button.svg" style="border:none"/>
+            </a>
+        </span>
+    </div>
+
+</div> 
+    </div>
+            
+        </div>
+    </div> 
+    <div id="Sidebar" class="page-column page-column--right">
+    <div class="widget-AdBlock widget-instance-ArticlePageTopSidebar">
+        
+ 
+    </div>
+
+<div class="sidebar-widget_wrap">
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRail">
+        <div class="widget widget-dynamic " data-count="1">
+
+<div class="widget-dynamic-inner-wrap">
+
+<div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0">
+        <div class="widget widget-dynamic right-rail" data-count="4">
+
+<div class="widget-dynamic-inner-wrap">
+
+<div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B0">
+        <div class="widget widget-dynamic article-article-level-metrics article-level-metrics" data-count="1">
+
+<div class="widget-dynamic-inner-wrap">
+
+<div class="widget-ArticleLevelMetrics widget-instance-Article_RightRailB0B0article-article-level-metrics">
+
+<div class="artmet-wrapper horizontal-artmet">
+                <div class="artmet-item artmet-kudos">
+                    <script src="http://web.archive.org/web/20250618225055js_/https://api.growkudos.com/widgets/button/10.1159/000228251"></script>
+                </div>
+
+<div class="artmet-condensed-wrap clearfix">
+    <div class="artmet-condensed-stats clearfix">
+            <div class="artmet-item artmet-views">
+                <span class="artmet-number">31</span>
+                <span class="artmet-text">Views</span>
+            </div>
+
+<div class="artmet-item artmet-citations">
+                    <span class="artmet-number">
+                            <a href="http://web.archive.org/web/20250618225055/https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=silverchair&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000269891600005&amp;DestLinkType=CitingArticles&amp;DestApp=WOS_CPL" target="_blank" rel="nofollow">10</a>
+                    </span>
+                    <span class="artmet-text">Web of Science</span>
+                </div>
+                <div class="artmet-item artmet-citations">
+                    <span class="artmet-number">
+                            <a href="http://web.archive.org/web/20250618225055/https://karger.com/jnn/crossref-citedby/181391" target="_blank" rel="nofollow">7</a>
+                    </span>
+                    <span class="artmet-text">Crossref</span>
+                </div>
+
+<div class="artmet-item artmet-badges-wrap">
+                    <div class="artmet-item artmet-altmetric">
+    <div class="widget-AltmetricLink widget-instance-ArticleLevelMetrics_AltmetricLinkSummary">
+            <!-- Altmetrics -->
+    <div id="altmetricEmbedId" runat="server" class="altmetric-embed" data-badge-type="donut" data-hide-no-mentions="true" data-doi="10.1159/000228251" data-link-target="_blank"></div>
+         <script type="text/javascript" src="http://web.archive.org/web/20250618225055js_/https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+ 
+    </div>
+
+</div>
+
+</div>
+    </div>
+        <div class="artmet-modal-trigger-wrap clearfix">
+            <a href="javascript:;" class="artmet-modal-trigger js-artmet-modal-trigger at-alm-metrics-modal-trigger" data-article-id="181391" rel="nofollow"><i class="icon-metrics"></i><span>View Metrics</span></a>
+        </div>
+</div>
+
+<div class="artmet-modal js-artmet-modal" id="MetricsModal" role="dialog" aria-hidden="true" aria-live="assertive" aria-labelledby="widget-title-1-id">
+                    <div class="artmet-modal-contents js-metric-modal-contents at-alm-modal-contents">
+                        <a href="javascript:;" role="button" class="artmet-close-modal js-artmet-close-modal" aria-label="Close metrics modal">
+                            <span aria-hidden="true">&#215;</span>
+                            <span class="screenreader-text">Close Modal</span>
+                        </a>
+                    </div>
+                </div>
+        </div>
+
+</div>
+
+</div>
+
+</div> 
+    </div>
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B1">
+        <div class="widget widget-dynamic article-article-cited-by article-cited-by" data-count="1">
+
+<div class="widget-dynamic-inner-wrap">
+
+<div class="widget-ArticleCitedBy widget-instance-Article_RightRailB0B1article-article-cited-by">
+        <div class="rail-widget_wrap vt-articles-cited-by">
+    <h3 class="article-cited-title">Citing articles via</h3>
+    <div class="widget-links_wrap">
+            <div class="article-cited-link-wrap web-of-science">
+                <a href="http://web.archive.org/web/20250618225055/https://www.webofscience.com/api/gateway?GWVersion=2&amp;SrcApp=silverchair&amp;SrcAuth=WosAPI&amp;KeyUT=WOS:000269891600005&amp;DestLinkType=CitingArticles&amp;DestApp=WOS_CPL" target="_blank" rel="nofollow">Web Of Science (10)</a>
+            </div>
+                    <div class="article-cited-link-wrap google-scholar-url">
+                <a href="http://web.archive.org/web/20250618225055/http://scholar.google.com/scholar?q=link:https%3A%2F%2Fkarger.com%2Fjnn%2Farticle%2F2%2F2%2F91%2F181391" target="_blank" rel="nofollow">Google Scholar</a>
+            </div>
+                    <div class="article-cited-link-wrap crossref-citedby">
+                <a href="http://web.archive.org/web/20250618225055/https://karger.com/jnn/crossref-citedby/181391" rel="nofollow">CrossRef (7)</a>
+            </div>
+    </div>
+</div> 
+    </div>
+
+</div>
+
+</div> 
+    </div>
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B2">
+        <div class="widget widget-dynamic articlelistnewandpopular article-list-new-popular" data-count="1">
+
+<div class="widget-dynamic-inner-wrap">
+
+<div class="widget-ArticleListNewAndPopular widget-instance-Article_RightRailB0B2article-list-new-and-popular-combined">
+            <div class="vt-new-and-popular-combined new-and-popular-combined">
+        <ul class="articleListNewAndPopularCombinedView">
+                <li>
+                    <a href="javascript:;" class="js-new-and-popular-mode active" data-mode="MostRecent" data-instancename="Article_RightRailB0B2article-list-new-and-popular-combined">Latest</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="js-new-and-popular-mode " data-mode="MostRead" data-instancename="Article_RightRailB0B2article-list-new-and-popular-combined">Most Read</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="js-new-and-popular-mode " data-mode="MostCited" data-instancename="Article_RightRailB0B2article-list-new-and-popular-combined">Most Cited</a>
+                </li>
+        </ul>
+            <section class="js-new-and-popular-content js-new-and-popular-content-MostRecent hasContent">
+
+<div id="newPopularList-Article_RightRailB0B2article-list-new-and-popular-combined" class="fb new-and-popular vt-new-and-popular-Article_RightRailB0B2article-list-new-and-popular-combined">
+
+<div class="widget-dynamic-entry-wrap">
+<div class="widget-dynamic-entry">
+    <div class="fb-item-title">
+                <a href="/web/20250618225055/https://karger.com/jnn/article/10/5-6/194/181363/Acknowledgement-to-the-Reviewers">Acknowledgement to the Reviewers</a>
+
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <div class="fb-item-title">
+                <a href="/web/20250618225055/https://karger.com/jnn/article/10/5-6/195/181364/ISNN-Society-News">ISNN Society News</a>
+
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <div class="fb-item-title">
+                <a href="/web/20250618225055/https://karger.com/jnn/article/10/5-6/I/181365/Contents-Vol-10">Contents Vol.10</a>
+
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <div class="fb-item-title">
+                <a href="/web/20250618225055/https://karger.com/jnn/article/10/5-6/181/181374/Consumption-of-Amaranth-Induces-the-Accumulation">Consumption of Amaranth Induces the Accumulation of the Antioxidant Protein Paraoxonase/Arylesterase 1 and Modulates Dipeptidyl Peptidase IV Activity in Plasma of Streptozotocin-Induced Hyperglycemic Rats</a>
+
+</div>
+</div>
+<div class="widget-dynamic-entry">
+    <div class="fb-item-title">
+                <a href="/web/20250618225055/https://karger.com/jnn/article/10/5-6/172/181366/Interaction-of-Vitamin-E-Intake-and-Pro12Ala">Interaction of Vitamin E Intake and Pro12Ala Polymorphism of <strong><em>PPARG</em></strong> with Adiponectin Levels</a>
+
+</div>
+</div>
+        </div>
+    </div>
+            </section>
+            <section class="js-new-and-popular-content js-new-and-popular-content-MostRead hide">
+            </section>
+            <section class="js-new-and-popular-content js-new-and-popular-content-MostCited hide">
+            </section>
+        <div class="spinner"></div>
+    </div>
+ 
+    </div>
+
+</div>
+
+</div> 
+    </div>
+    <div class="widget-DynamicWidgetLayout widget-instance-Article_RightRailB0B3">
+        <div class="widget widget-dynamic article-related-content-solr-articles related-content-solr" data-count="1">
+
+<div class="widget-dynamic-inner-wrap">
+
+<div class="widget-RelatedContentSolr widget-instance-Article_RightRailB0B3Article_RightRail_RelatedContentArticles">
+            <div class="vt-related-content related-content_wrap rail-widget_wrap">
+        <h3>Suggested Reading</h3>
+
+<div class="widget-links_wrap">
+                <div class="article-title">
+                    <a href="/web/20250618225055/https://karger.com/bbe/article/98/2/93/835670/Climate-Change-Influences-Brain-Size-in-Humans">Climate Change Influences Brain Size in Humans</a>
+    <div class="content-meta"><span class="j-name">Brain Behav Evol</span> <span class="j-date">(June,2023)</span></div>
+
+</div>
+                <div class="article-title">
+                    <a href="/web/20250618225055/https://karger.com/bbe/article/96/2/64/821534/Decreases-in-Brain-Size-and-Encephalization-in">Decreases in Brain Size and Encephalization in Anatomically Modern Humans</a>
+    <div class="content-meta"><span class="j-name">Brain Behav Evol</span> <span class="j-date">(October,2021)</span></div>
+
+</div>
+                <div class="article-title">
+                    <a href="/web/20250618225055/https://karger.com/anm/article/77/Suppl. 4/21/829382/Hippocrates-Was-Right-Now-What-Water-As-a-Part-of">Hippocrates Was Right: Now What? Water As a Part of Healthy Aging</a>
+    <div class="content-meta"><span class="j-name">Ann Nutr Metab</span> <span class="j-date">(February,2022)</span></div>
+
+</div>
+                <div class="article-title">
+                    <a href="/web/20250618225055/https://karger.com/ddi/article/34/1-2/20/96858/Environment-and-Genes-What-Is-the-Interaction">Environment and Genes: What Is the Interaction?</a>
+    <div class="content-meta"><span class="j-name">Dig Dis</span> <span class="j-date">(March,2016)</span></div>
+
+</div>
+        </div>
+    </div>
+ 
+    </div>
+
+</div>
+
+</div> 
+    </div>
+
+</div>
+
+</div> 
+    </div>
+
+</div>
+
+</div> 
+    </div>
+
+</div>
+
+<div class="widget-AdBlock widget-instance-ArticlePageTopMainBodyBottom">
+        
+ 
+    </div>
+
+</div> 
+</div>
+
+<div class="widget-Lockss widget-instance-Article_Lockss">
+         
+    </div>
+
+<div class="widget-VideoListAccess widget-instance-Article_VideoListAccess">
+         
+    </div>
+
+</div><!-- /.content-main_content -->
+    </section>
+</div>
+<div class="mobile-mask">
+</div>
+<section class="footer_wrap vt-site-footer">
+
+<div class="ad-banner js-ad-banner ad-banner-footer">
+    <div class="widget-AdBlock widget-instance-FooterAd">
+        
+ 
+    </div>
+
+</div>
+
+<div class="sticky-footer-ad js-sticky-footer-ad">
+    <div class="widget-AdBlock widget-instance-StickyAd">
+        
+ 
+    </div>
+
+</div>
+
+<div class="widget-SitePageFooter widget-instance-SitePageFooter">
+            <div class="journal-footer journal-bg">
+        <div class="journal-footer_content clearfix foot-left">
+        </div>
+    <div class="journal-footer-colophon">
+        <ul>
+                <li><span>Online ISSN</span> 1661-6758</li>
+                            <li><span>Print ISSN</span> 1661-6499</li>
+                    </ul>
+    </div>
+    </div>
+ 
+    </div>
+
+<div class="site-theme-footer">
+        <div class="site-theme-footer_content">
+    <div class="widget-SelfServeContent widget-instance-UmbrellaFooterSelfServe">
+
+<input type="hidden" class="SelfServeContentId" value="GlobalFooter_Links"/>
+    <input type="hidden" class="SelfServeVersionId" value="0"/>
+
+<div class="theme-footer" role="contentinfo">
+<div class="flex-row">
+<div class="col-8 footer-nav">
+<div class="row">
+<div class="column">
+<div class="flex-row">
+<div class="col-2" aria-label="Information Navigation" role="navigation">
+<div class="footer-links-group with-header">
+<h3 class="footer-links-header">INFORMATION</h3>
+<ul class="list-lvl-0">
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/contact-and-support" class="blocklink">Contact &amp; Support</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/information-and-downloads" class="blocklink">Information &amp; Downloads</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/rights-and-permissions" class="blocklink">Rights &amp; Permissions</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/terms-and-conditions" class="blocklink">Terms &amp; Conditions</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/catalogue-and-pricing" class="blocklink">Catalogue &amp; Pricing</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/policies-and-information" class="blocklink">Policies &amp; Information</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/planned-maintenance" class="blocklink">Planned Maintenance</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/accessibility" target="_blank" class="blocklink">Accessibility<span class="screenreader-text">(this link will open in a new window)</span></a>
+    </li>
+</ul>
+</div>
+</div>
+<!-- close .col-4-->
+<div class="col-2" aria-label="About Us Navigation" role="navigation">
+<div class="footer-links-group with-header">
+<h3 class="footer-links-header">ABOUT US</h3>
+<ul class="list-lvl-0">
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/about-us" class="blocklink">Company</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/people-and-organisation" class="blocklink">People &amp; Organization</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/newsroom" class="blocklink">Newsroom</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/careers" class="blocklink">Careers</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/newsletters" class="blocklink">Stay Up-to-Date</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/regional-offices" class="blocklink">Regional Offices</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/community-voice" class="blocklink">Community Voice</a>
+    </li>
+</ul>
+</div>
+</div>
+<!-- close .col-4-->
+<div class="col-2" aria-label="Services Navigation" role="navigation">
+<div class="footer-links-group with-header">
+<h3 class="footer-links-header">SERVICES FOR</h3>
+<ul class="list-lvl-0">
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/researchers" class="blocklink">Researchers</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/authors" class="blocklink">Authors</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/reviewers" class="blocklink">Reviewers</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/healthcare-professionals" class="blocklink">Healthcare Professionals</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/patients" class="blocklink">Patients &amp; Supporters</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/librarians" class="blocklink">Librarians</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/health-sciences-industry" class="blocklink">Health Sciences Industry</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/society" class="blocklink">Medical Societies</a>
+    </li>
+    <li class="list-lvl-0">
+    <a href="/web/20250618225055/https://karger.com/pages/agents-distributors-booksellers" class="blocklink">Agents &amp; Booksellers</a>
+    </li>
+</ul>
+</div>
+</div>
+<!-- close .col-4-->
+</div>
+<!-- close .footer-nav .flex-row -->
+</div>
+</div>
+</div>
+<!-- close .col-8 .footer-nav -->
+<div class=" col-4">
+<div class="row">
+<div class="col-2 footer-branding">
+<div class="footer-links-group with-header items-end flex-container">
+<div class="footer-address">
+<h3 class="footer-links-header">Karger International</h3>
+<ul class="list-lvl-0">
+    <li class="list-lvl-0">S. Karger AG</li>
+    <li class="list-lvl-0">P.O Box, CH-4009 Basel (Switzerland)</li>
+    <li class="list-lvl-0">Allschwilerstrasse 10, CH-4055 Basel</li>
+</ul>
+</div>
+<ul class="footer-contact-info ml-0">
+    <li><strong>Tel:</strong> +41 61 306 11 11</li>
+    <li><strong>Fax:</strong> +41 61 306 12 34</li>
+    <li><strong>Contact:</strong> <a href="/web/20250618225055/https://karger.com/pages/contact-and-support">Front Office</a></li>
+</ul>
+</div>
+</div>
+<div class="col-2 footer-branding">
+<div class="footer-logo">
+<a href="/web/20250618225055/https://karger.com/" class="ta-r NoArrow" aria-label="Karger Homepage"><img alt="The logo of Karger Publishers" src="http://web.archive.org/web/20250618225055im_/https://karger.silverchair-cdn.com/ImageLibrary/umbrella/Karger_RGB_neg.svg?versionId=51275"/></a>
+</div>
+<div class="social-icons-wrap" aria-label="Social Media Navigation" role="navigation">
+<ul class="social-icons-list">
+    <li>
+    <a class="social-link" href="http://web.archive.org/web/20250618225055/https://www.facebook.com/kargerpublishers/" target="_blank" title="Follow us on Facebook (this link will open in a new window)"><em class="icon-social-facebook"></em><span class="screenreader-text">Facebook</span></a>
+    </li>
+    <li>
+    <a class="social-link" href="http://web.archive.org/web/20250618225055/https://www.linkedin.com/company/karger-publishers" target="_blank" title="Follow us on LinkedIn (this link will open in a new window)"><em class="icon-social-linkedin"></em><span class="screenreader-text">LinkedIn</span></a>
+    </li>
+    <li>
+    <a class="social-link" href="http://web.archive.org/web/20250618225055/https://x.com/kargerpublisher" target="_blank" title="Follow us on X / Twitter (this link will open in a new window)"><em class="icon-social-x-twitter"></em><span class="screenreader-text">X</span></a>
+    </li>
+    <li>
+    <a class="social-link" href="http://web.archive.org/web/20250618225055/https://bsky.app/profile/kargerpublishers.bsky.social" target="_blank" title="Follow us on Bluesky (this link will open in a new window)"><em class="fa-brands fa-bluesky"></em><span class="screenreader-text">BlueSky</span></a>
+    </li>
+    <li>
+    <a class="social-link" href="http://web.archive.org/web/20250618225055/https://www.youtube.com/channel/UCnpxr2XR2_ikKqYrdbajSAw" target="_blank" title="Follow us on YouTube (this link will open in a new window)"><em class="icon-social-youtube"></em><span class="screenreader-text">YouTube</span></a>
+    </li>
+    <li>
+    <a class="social-link wechat" href="/web/20250618225055/https://karger.com/ImageLibrary/umbrella/WeChat_QRcode.jpg" target="_blank" title="Follow us on WeChat (this link will open in a new window)"><em class="fa-brands fa-weixin"></em><span class="screenreader-text">WeChat</span></a>
+    </li>
+    <li>
+    <a class="social-link" href="http://web.archive.org/web/20250618225055/https://experience.karger.com/" target="_blank" title="Visit our Blog 'Experience Karger' (this link will open in a new window)"><em class="icon-blog"></em><span class="screenreader-text">Experience Blog</span></a>
+    </li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- close .theme-footer -->
+<div class="legal-links-row" aria-label="Legal Navigation" role="navigation">
+<div class="legal-links-wrap">
+<ul class="legal-links">
+    <li>
+    <a href="/web/20250618225055/https://karger.com/pages/privacy-policy">Privacy Policy</a>
+    </li>
+    <li>
+    <a href="/web/20250618225055/https://karger.com/pages/terms-of-use">Terms of Use</a>
+    </li>
+    <li>
+    <a href="/web/20250618225055/https://karger.com/pages/imprint">Imprint</a>
+    </li>
+    <li>
+    <a class="cmpboxrecalllink" href="javascript:void(0);" onclick="__cmp('showScreenAdvanced');">Cookies</a>
+    </li>
+    <li class="copyright">©
+    <script>document.write(new Date().getFullYear())</script>
+    S. Karger AG, Basel</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+</div><!-- /.center-inner-row -->
+</div><!-- /.site-theme-footer -->
+<div class="ss-ui-only">
+
+<div class="widget-SelfServeContent widget-instance-SSuiOnlySelfServe">
+
+<input type="hidden" class="SelfServeContentId" value="SSuiOnly"/>
+    <input type="hidden" class="SelfServeVersionId" value="0"/>
+
+<style type="text/css">
+    fieldset.searchbar-fieldset {
+    width: 100%;
+    }
+    .microsite-search .searchbar-fieldset {
+    display: flex;
+    }
+    button.btn-inv {
+    color: #000 !important;
+    }
+    nav.navbar-menu.global-nav-dropdown.js-dropdown {
+    z-index: 5000 !important;
+    }
+</style>
+
+</div>
+
+</div>
+
+<div class="ad-banner js-ad-interstitial">
+    <div class="widget-AdBlock widget-instance-Interstitial">
+        
+ 
+    </div>
+
+</div>
+</section>
+
+<div class="widget-SiteWideModals widget-instance-SiteWideModals">
+        <div id="revealModal" class="reveal-modal" data-reveal aria-hidden="true" aria-live="assertive" tabindex="-1">
+    <div id="revealContent"></div>
+    <a class="close-reveal-modal" href="javascript:;" aria-label="Close modal"><i class="icon-general-close"><span class="screenreader-text">Close Modal</span></i></a>
+</div>
+
+<div id="globalModalContainer" class="modal-global-container" role="dialog" aria-hidden="true" aria-live="assertive" tabindex="-1">
+    <div id="globalModalContent">
+        <div class="js-globalModalPlaceholder"></div>
+    </div>
+    <a href="javascript:;" class="close-modal js-close-modal" role="button" aria-label="Close modal">
+        <i class="icon-general-close" aria-hidden="true"></i>
+        <span class="screenreader-text">Close Modal</span>
+    </a>
+</div>
+<div id="globalModalOverlay" class="modal-overlay js-modal-overlay"></div>
+
+<div id="NeedSubscription" class="reveal-modal small" data-reveal>
+            <div class="subscription-needed">
+                <h5 class="modal-heading">This Feature Is Available To Subscribers Only</h5>
+                <p><a class="btn modal-sign_in-btn" href="/web/20250618225055/https://karger.com/sign-in?returnUrl=%2fjnn%2farticle-abstract%2f2%2f2%2f91%2f181391%2fNutrigenetics-in-the-Light-of-Human-Evolution">Sign In</a> or <a class="modal-register-link" href="/web/20250618225055/https://karger.com/my-account/register?siteId=1000363&amp;returnUrl=%2fjnn%2farticle-abstract%2f2%2f2%2f91%2f181391%2fNutrigenetics-in-the-Light-of-Human-Evolution">Create an Account</a></p>
+            </div>
+
+<a class="close-reveal-modal" href="javascript:;"><i class="icon-general-close"><span class="screenreader-text">Close Modal</span></i></a>
+    </div>
+
+<div id="noAccessReveal" class="reveal-modal tiny" data-reveal>
+    <a class="close-reveal-modal" href="javascript:;" aria-label="Close modal"><i class="icon-general-close"><span class="screenreader-text">Close Modal</span></i></a>
+    <div id="noAccessForm">
+        <div class="spinner"></div>
+    </div>
+</div> 
+    </div>
+
+<script type="text/javascript">
+    MathJax = {
+        tex: {
+            inlineMath: [['|$', '$|'], ['\\(', '\\)']]
+        }
+    };
+</script>
+<script id="MathJax-script" async src="//web.archive.org/web/20250618225055js_/https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- CookiePro Default Categories -->
+    <!-- When the Cookie Compliance code loads, if cookies for the associated group have consent...
+         it will dynamically change the tag to: script type=text/JavaScript...
+         the code inside the tags will then be recognized and run as normal. -->
+
+<script type="text/javascript" src="//web.archive.org/web/20250618225055js_/https://karger.silverchair-cdn.com/Themes/Client/app/jsdist/v-638845109625814358/site.min.js"></script>
+
+<script async="async" src="//web.archive.org/web/20250618225055js_/https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20250618225055cs_/https://cdn.scite.ai/badge/scite-badge-latest.min.css">
+            <script async type="application/javascript" src="http://web.archive.org/web/20250618225055js_/https://cdn.scite.ai/badge/scite-badge-latest.min.js">
+            </script>
+
+<script type="text/javascript">
+        $(document).ready(function () {
+            App.SearchAutoComplete.init(["Keywords"]);
+        });
+        </script>
+
+<div class="ad-banner js-ad-riser ad-banner-riser">
+    <div class="widget-AdBlock widget-instance-RiserAd">
+        
+ 
+    </div>
+
+</div>
+
+<script src="//web.archive.org/web/20250618225055js_/https://karger.silverchair-cdn.com/karger/scm.proxylogging.js"></script>
+
+<div class="end-of-page-js"></div>
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 22:50:55 Jun 18, 2025 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:16:32 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.681
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.027
+  esindex: 0.013
+  cdx.remote: 179.014
+  LoadShardBlock: 405.354 (3)
+  PetaboxLoader3.datanode: 468.742 (4)
+  load_resource: 316.17
+  PetaboxLoader3.resolve: 106.246
+-->

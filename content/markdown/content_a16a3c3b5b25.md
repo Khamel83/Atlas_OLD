@@ -1,0 +1,171 @@
+# Content from http://www.fastcompany.com/node/1739777/print
+
+*Retrieved: 2025-09-15T00:47:03.062736*
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.fastcompany.com:80/node/1739777/print","20120118185355","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1326912835");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Morgan Spurlock: I'm With The Brand</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="robots" content="noindex, noarchive, nocache"/>
+    <base href="http://web.archive.org/web/20120118185355/http://www.fastcompany.com/"/>
+    <style type="text/css">
+      @import url(/web/20120118185355cs_/http://www.fastcompany.com/misc/print.css);
+    </style>
+  </head>
+  <body>
+    <img src="/web/20120118185355im_/http://www.fastcompany.com/sites/all/themes/fc_v1/images/logo.gif" alt="logo" border="0"/>    
+    <div class="source_url">
+        Article location:<a href="http://web.archive.org/web/20120118185355/http://www.fastcompany.com/magazine/154/im-with-the-brand.html">http://www.fastcompany.com/magazine/154/im-with-the-brand.html</a>    </div>
+    
+    <div class="created">
+    	March 24, 2011    </div>
+	
+	
+	<div class="tagwrap">
+		<div class="tags">Tags: <a href="/web/20120118185355/http://www.fastcompany.com/taxonomy/term/4">Leadership</a>, <a href="/web/20120118185355/http://www.fastcompany.com/tag/innovation-2">Innovation</a>, <a href="/web/20120118185355/http://www.fastcompany.com/tag/social-responsibility-1">Ethonomics</a>, <a href="/web/20120118185355/http://www.fastcompany.com/tag/morgan-spurlock">Morgan Spurlock</a></div>	
+	</div>
+	
+	
+    <h2 class="title">
+      Morgan Spurlock: I'm With The Brand    </h2>
+
+<div class="submitted">
+      By <a href="http://web.archive.org/web/20120118185355/http://www.fastcompany.com/user/8" title="View user profile.">Rick Tetzeli and Ari Karpel</a>    </div>
+
+<div class="content">
+      <h3>SINCE THIS IS AMERICA, THERE'S GOT TO BE A <span style="color: gray; text-decoration: underline;">CHEERLEADER.</span> IN THIS CASE HER NAME IS CLAIRE, A JUNIOR AT COSTA VERDE HIGH</h3>
+
+<p>in California who's nervous about her first day at school. The other girls seem too pretty, too cool, and too mean, and if Claire fails to keep her superpowers undercover (the same powers that saved the world at the end of season one of <em>Heroes</em>), "the Company" may kill her, savage her family, and take over the planet. So, to make her feel better, her dad (who's a superhero himself, of course, but has some seriously wacky ties to the bad guys) does what any American dad would do: He hands her the keys to the family car.</p>
+
+<p>"The Rogue?" exclaims the cheerleader, effervescently played by Hayden Panettiere. "Oh, Daddy, you're the best father ever!" After a hug, the camera pans to the Rogue, the Nissan Rogue, in case you had forgotten the Rogue's name in the intervening eight seconds. To jog your memory in the next episode, the Rogue will get stolen. And then the Rogue will reappear in several episodes. And there will even be an accompanying comic book, called <em>The Rogue</em>, that you can download, which over its five short pages features ... oh, my ... 14 images of, yes, the Nissan Rogue.</p>
+
+<p>For Morgan Spurlock, the documentary filmmaker and provocateur behind <em>Super Size Me</em>, this brazen product placement was just too much. "From the minute you wake up, wherever you go, someone is marketing to you. Do I really need to be marketed to when I'm standing at the urinal? Does there really need to be a poster there?" He was so angry, in fact, that he decided to make a movie about branding, marketing, and product placement, about the intrusion of brands into our everyday lives. And then he proceeded to find some brands to sponsor that documentary.</p>
+
+<h3>THE GREATEST <span style="color: gray; text-decoration: underline;">ARTICLE</span> EVER!</h3>
+
+<p><img class="float-right" src="http://web.archive.org/web/20120118185355im_/http://images.fastcompany.com/upload/feature-82-spurlock-in.jpg" border="0" alt=""/><strong>Spurlock's hilarious movie,</strong> now called <em><u>Pom Wonderful</u> [1] Presents: The Greatest Movie Ever Sold</em>, will open in theaters on April 22nd. It is a movie about itself. That is, it's a series of filmed encounters in which Spurlock urges brands to sponsor his movie. Fifteen signed up, most paying between $50,000 and $1 million. Spurlock asks them what their goals are in sponsoring his movie, uses their products, and creates ads for them that run smack-dab in the middle of the film. What he does not do is condemn them in any way, or denounce the concept of branding, or bemoan a modern existence that allows brands into such places as toilets, taxis, classrooms, and on foreheads. He even gets corporate critics to play along in his hall of mirrors. One true joy of the movie is watching Ralph Nader sing an ode to Merrell shoes, a sponsor.</p>
+
+<p>Spurlock's equanimity is so complete that he almost seems an apologist for the brands. Toward the end of filming, he learned that <u>Pom</u> [2], which made a $1 million deal to have its name in the title, was being charged by the Federal Trade Commission with making false health claims, namely that pomegranate juice can "prevent or treat heart disease, prostate cancer, and erectile dysfunction." This isn't mentioned anywhere in the movie. Would the Morgan Spurlock of the scathing Super Size Me have let the FTC news pass unmentioned? "Listen," he says, "we were well into the shooting when that happened. I knew that the story would break during the release of the movie and decided to just let that be part of the really interesting conversation that will happen around the film."</p>
+
+<p>Spurlock's disingenuousness is part and parcel of his publicity plan for the movie -- he even conducts interviews wearing a jacket plastered with his sponsors' logos. He now refers to his sponsors as "The Greatest [insert your brand category here] Ever," from Pom and Merrell to a convenience-store chain (<u>Sheetz</u> [3]), a pizza maker (<u>Amy's Kitchen</u> [4]), an airline (<u>JetBlue</u> [5]), a hotel chain (Hyatt), and nine others. When asked if these brands are ones he admires, he says, "I don't think I could drink something I didn't like just for a check. These are the brands you should have in your life."</p>
+
+<p>But there is a grander strategy behind his comments. "Going into the negative effects of advertising, of how much advertising affects us ... you've heard that before," he says. "The big purpose with this movie is to get people to recognize this branding thing, and question it, and wonder about the process." In other words, be aware. With his caginess, Spurlock is inviting viewers to debate whether consumers can trust his movie -- or any of the content they receive.</p>
+
+<p>Including this article. We're flouting all kinds of magazine-industry guidelines on advertising versus content here. We approached Spurlock's sponsors to see if they wanted to advertise within this story; we tried to become a sponsor of his movie; we told our publisher, who's normally given no details about our edit, exactly what to expect; we've even traded a mention in the text for 20 pizzas -- all moves likely to be deemed unacceptable by our industry trade group (and ones we won't repeat). But we've done all this in an effort to follow Spurlock's lead and explore the murky intersection of media and branding in our own pages and our own industry. You're the one who will have to decide how much to trust us. (Of course, that's a decision you make every time you open this magazine or engage with any media.)</p>
+<!--pagebreak-->
+<h3>THE GREATEST <span style="color: gray; text-decoration: underline;">PHOTO SHOOT</span> EVER!</h3>
+
+<p><strong>Spurlock has thrown himself</strong> into promoting his documentary -- building its brand -- with abandon. When the movie premiered at January's Sundance Film Festival, Spurlock defied the cold Utah winter by conducting his interviews wearing that logo-festooned blazer. Back in New York, he readily shed his clothes for a <cite>Fast Company</cite> photo shoot.</p>
+
+<p>The brands backing <em>The Greatest Movie Ever Sold</em> have purchased this enthusiastic effort, the bigger sponsors via publicity incentives built into their agreements. Pom, for example, has delivered only $600,000 of its $1 million fee. "That $400,000 is tied to worldwide media impressions, box office, downloads, and DVDs," Spurlock explains. "Ten-million-dollar box office, 500,000 downloads and DVDs, 600 million media impressions. You should talk about that, about how this article will help me get that. Can we do something where everyone who buys the magazine gets a discount on movie tickets? Can we have a code that gives them a dollar off through MovieTickets.com [one of the film's sponsors]?"</p>
+
+<p>When we raised the idea of asking his sponsors to buy ads adjacent to this article, Spurlock responded: "Do I get a cut?" Our answer to his question was no. That was a line we drew. (Another was that none of the advertisers we approached would have any approval of the content of this story.) Spurlock too drew some lines. At our photo shoot, he would not cooperate on a (fully clothed) homage to the <em>Super Size Me</em> poster. He would not let us videotape interviews with him, although he did agree we could videotape the photo session for FastCompany.com. Most important, he did not let the brands in his movie have approval over the film -- a request that several potential sponsors did make.</p>
+
+<h3>THE GREATEST <span style="color: gray; text-decoration: underline;">INDUSTRY EXEC</span> EVER!</h3>
+
+<p><strong>Brands and content creators</strong> have struggled over control and influence for more than a century. As Spurlock writes in the production notes handed out at screenings of his film, <img class="float-left" src="http://web.archive.org/web/20120118185355im_/http://images.fastcompany.com/upload/feature-83-spurlock-in.jpg" border="0" alt=""/>"In the 1800s, Jules Verne sold the naming rights to shipping companies in <em>Around the World in 80 Days</em>, and in the early days of film, Thomas Edison put ads for his own products in the movies." Radio pioneers like Fred Allen (who quipped, back in the early 1950s, that TV "allows people who haven't anything to do to watch people who haven't done anything" -- hello, Paris Hilton and her fans!) battled and assuaged their sponsors in the same uneasy way that network news shows do now. Richard Sandomir of <em>The New York Times</em> recently reported that some announcers at ESPN were paid by Nike and Reebok to wear their shoes. Writing on the media-industry blog Romenesko, investigative journalist David Cay Johnston was dismayed: "If [Robert] Iger [CEO of Disney, which owns ESPN] does nothing," he will leave "doubt as to who may be on the take, whose agenda is being advanced by greasing palms, and which critical stories are fueled by under-the-table payments." Given this kind of hand-wringing, it's fair to ask, as Spurlock's movie does: Just what kind of purity are we looking for? How clean does content need to be -- or can it be?</p>
+
+<p>We went to see Sid Holt, CEO of the American Society of Magazine Editors (<u>ASME</u> [6]), to talk about how our medium deals with this challenge. Holt is tasked with monitoring the relationship between advertisers and magazines. (Every media business polices this in some way; TV networks, radio stations, and newspapers all have their own reasons for rejecting certain advertising.) Few writers and editors have ever actually read the latest version of ASME regulations that Holt has written up, but ASME does have a certain mythic power within the industry. "Will it violate ASME rules?" is a constant refrain at magazine offices around the country.</p>
+
+<p>Holt used to be editor of <em>Rolling Stone</em>, which is a pretty good gig now and was a great one when he did it in the 1990s. "When I compare my job then to what editors do now, it's as if all we did was sit around in a tweed jacket, suck on a pipe, and think about music," he remembers. "Editors now have insane time pressures, fewer resources, and a news cycle that's changed entirely. Plus, there's the threat to print, the recession, and all the trends on the advertising side."</p>
+
+<p>The "trends," from the perspective of advertisers, can be summed up this way: How can our brand be completely integrated with your content? Can you wrap the text of a story around our [beer can, car, airplane, cookie]? Can you break up the text so that it looks as if our [beer can, car, airplane, cookie] is [gushing, driving, flying, crumbling] through the text? Can a section of the magazine be printed on orange paper that matches the color of our famous orange brand? These are all true examples, more or less. Details have been changed to protect the guilty.</p>
+
+<p>Holt, who grew up in a parsonage, views some magazine-industry rules as sacrosanct: No brand logos should be shown on the cover. "We think there's an implied editorial endorsement," he says. "And we celebrate the magazine cover as an American icon." All product placement is discouraged, despite the movie and TV industries' full embrace of the practice. "That's the equivalent of murder," he laughs. "You've sold your soul to an advertiser."</p>
+
+<p>Many other rules, though, are murkier. For instance, positioning an ad alongside an article that mentions the advertiser is a no-no; putting the same ad elsewhere in the issue is quite permissible. (We've placed ads contiguous to this story for editorial reasons. Who knows how ASME will interpret that?)</p>
+<!--pagebreak-->
+<p>What does Holt do when he learns that a magazine has done something wrong? Most often, nothing. "The guidelines point to 'repeatedly and willfully' violating the rules," he explains. "We're not here to tell people how to run their magazines." The only real threat Holt has at his disposal is to disqualify a magazine from the annual National Magazine Awards -- something that has happened exactly once in the awards' 45-year history. (Award judges have disqualified specific submissions more frequently.) Most indiscretions are pointed out to him by publishers annoyed that another magazine got away with something their editors declined to do. "Our rules are there to protect editors," Holt says. "Editors know where their bread is buttered, and good editors will cover their advertisers. But an unstated principle of the regulations is that they shield the editor and the publisher, who can say to an advertiser, 'Look, there's this organization called ASME, and they don't know what they're doing, but if we do what you want, my magazine will be banned from the National Magazine Awards.' "</p>
+
+<p>Toward the end of our visit, Holt's wife calls to ask if he'd like chili or chicken for dinner. They met back when he was at <em>Rolling Stone</em>, and she was a publicist for TDK, the cassette-tape company (and a <em>Rolling Stone</em> advertiser in those days). Holt chooses the chili. It may be the only clear choice he had all day.</p>
+
+<h3>THE GREATEST <span style="color: gray; text-decoration: underline;">BRAINS</span> EVER!</h3>
+
+<p><strong>If magazines are struggling</strong> with how to draw lines, ad agencies are not. Andrew Essex is a former journalist who worked at magazines such as <em>The New Yorker, Entertainment Weekly, and Details</em>. In 2006, he left journalism to cofound Droga5, an ad agency in New York. But he says he is still in the business of creating content. In mid-February, Droga5 created a video for Rihanna's new fragrance, Reb'l Fleur. The video, about a woman torn between her good and bad sides, tells mirror-image stories depending on whether the viewer plays it forward or backward. It's as well produced as any of Rihanna's music videos. In its first week, it was viewed more than a million times online.</p>
+
+<p>At one point, Essex says, he enjoyed thinking of advertisers as "these vulgarians, these slobs who brought beer to a party they weren't invited to." But toward the end of his career in magazines, as he rose up the editorial ladder, he started to go on ad-sales calls with his publisher. His job in those meetings was to describe the content of the magazine to the advertiser, listen as the advertiser described subjects she was interested in, and perhaps suggest ways the two sides could work together. "I started thinking," he says, "that the rules dividing the two sides are ludicrous. They aren't supposed to speak to one another, but the division is fictional and full of leakage. I realized that this was going to become more and more of an issue for everyone. The industry was contracting, and people were going to have to deal with reality."</p>
+
+<p>Content businesses now accept all kinds of deals they wouldn't have before. Novelists make deals for product placement within their hallowed pages. Rock stars routinely license songs for commercials and create tunes commissioned by brands. And while product placement has been a fact of life in Hollywood since the era of silent films, it's now a major revenue generator for movies such as <em>Iron Man 2</em>, the Sony Pictures movie that ranked No. 1 last year in product placement, according to Brandchannel, with 64 identifiable brands in its two hours and four minutes of nonsense.</p>
+
+<p>"People call us up all the time about putting our brands in movies," says Lynda Resnick, founder and CEO of Pom Wonderful. Spurlock's movie, she adds with a laugh, "isn't about the brands. It's about making fun of the marketing people. Now, that was not in Morgan's pitch. He couldn't very well say, 'Please be in my movie so I can make you look like an ass.' But it's that way for art, not out of anything malicious. Morgan's adorable. His movie is adorable -- and hysterical."</p>
+
+<p>Resnick may be the most colorful character in the documentary. Heavily made-up, with big hair and the personality to match, she is clearly, as she puts it, "the mother of this brand." And unlike other brand reps in the film (notably those at <u>Ban Deodorant</u> [7], who seem clueless), she doesn't come off as an ass. "Morgan could sell ice movies to the Eskimos," she says. "We're talking a salesman here. I didn't realize when he came to us that every other door on Madison Avenue had been shut in his little pink face. We liked the idea, so it was worth taking a chance.</p>
+
+<p>"Look," she continues, "ours are iconic brands -- we don't have to pay for product placement. But I think people know, don't they, that a lot of this stuff is planted?"</p>
+
+<p>They do indeed, says Martin Lindstrom, a neuromarketer (and <cite>FastCompany.com</cite> <u>blogger</u> [8]) whom Spurlock interviews in the movie. "Ninety-five percent of all product placement is a waste of money. Number one, it's conscious, and number two, it's out of context." He contrasts Ford's dumping its cars into an episode of <em>American Idol</em> with Apple's sophisticated product placements in the Pixar film <em>WALL-E</em>. "So," says Lindstrom, "suddenly seeing a car on stage while people are singing, your brain says, 'This is ridiculous; this has nothing to do with the story line. For me to concentrate on the story line, I need to delete that brand, whatever it is.' So we are not being brainwashed, since the products are not being used in the right way."</p>
+
+<p>That's the good news about our brains. The bad news? "Companies are slowly getting more sophisticated," says Lindstrom. "They're beginning to use unconscious clues to make people feel as if they want something. And they're starting to be able to measure it."</p>
+
+<p>Lindstrom explains, "I have a strange role, and it's somewhat similar to Morgan's, because I'm sitting on both sides of the fence. On the one hand, I'm helping companies to optimize their brand impressions, and on the other hand, I'm a consumer too, and I hate to be manipulated. I've put in a certain set of rules for my work. One is that I always tell companies, 'If this is advertising that you would not show to your own kids, then we've gone too far.' It's an incredibly powerful benchmark."</p>
+<!--pagebreak-->
+<h3>THE GREATEST <span style="color: gray; text-decoration: underline;">ENDING</span> EVER!</h3>
+
+<p><strong>Does a sports anchor's shoe</strong> really affect your view of her work? Does the presence of a particular soft drink really diminish your enjoyment of <em>The Office</em>? Does the fact that the <em>Transformers</em> movies are based on a toy sold by Hasbro really bother you? Were you expecting a movie called <em>Transformers</em> to have the same editorial integrity as <em>The New York Times</em>? For that matter, does the fact that the <em>Times</em> has run ads on its front page alter your feelings about the quality and veracity of the paper's reporting? Do the ads alongside this article make you question the authenticity of the reporting in <cite>Fast Company</cite>?</p>
+
+<p>For most of us, the answer to these questions is, probably, no. So why is it that we at <cite>Fast Company</cite> do not plan to ever again muddy the lines between our editorial and advertising sides the way we have here? The answer is simple: To survive in this increasingly melded world of branding and content, we all draw lines to protect our integrity. The lines may shift; they may get challenged by neuromarketing, technology, greed, and even vapidity, like <em>Gnomeo &amp; Juliet</em> and <em>American Idol</em>. But we all need our lines. And to intelligently create those lines, we need to be aware.</p>
+
+<p>"I'm not somebody who's going to stand on a soapbox and say we should eliminate advertising," says Spurlock, "because that would be ludicrous. I'm a realist, I live in the real world, I run a business, and I'm a capitalist. But I'm a real believer that doing good and doing well aren't mutually exclusive. There's a way to continually make people think, to look at our society and what is good and bad and great about it, and get us to examine that."</p>
+
+<p>We couldn't have put it better ourselves.</p>
+
+<p style="clear:both;"><em>A version of this article appears in the April 2011 issue of Fast Company.</em></p>
+
+<p class="float-right"><script src="http://web.archive.org/web/20120118185355js_/http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.fastcompany.com/magazine/154/im-with-the-brand.html" layout="box_count" width="55"></fb:like></p>    </div>
+
+<hr size="1" noshade/>
+
+<div class="pfp-links">
+      <!-- Output printer friendly links -->
+      <p class="links"><strong>Links:</strong><br/>[1] http://www.fastcompany.com/pics/brands-morgan-spurlock-howd-they-fare#0<br/>
+[2] http://www.fastcompany.com/pics/brands-morgan-spurlock-howd-they-fare#1<br/>
+[3] http://www.fastcompany.com/pics/brands-morgan-spurlock-howd-they-fare#7<br/>
+[4] http://www.fastcompany.com/pics/brands-morgan-spurlock-howd-they-fare#4<br/>
+[5] http://www.fastcompany.com/pics/brands-morgan-spurlock-howd-they-fare#12<br/>
+[6] http://www.fastcompany.com/1741822/fast-company-honored-with-national-magazine-award<br/>
+[7] http://www.fastcompany.com/pics/products#9<br/>
+[8] http://www.fastcompany.com/tag/martin-lindstrom<br/>
+</p>    </div>
+
+<div class="footer">
+      <!-- Add your custom footer here. -->
+    </div>
+
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 18:53:55 Jan 18, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:47:02 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.856
+  exclusion.robots: 0.042
+  exclusion.robots.policy: 0.024
+  esindex: 0.016
+  cdx.remote: 7.1
+  LoadShardBlock: 266.829 (3)
+  PetaboxLoader3.datanode: 129.463 (4)
+  PetaboxLoader3.resolve: 230.894 (2)
+  load_resource: 214.541
+-->

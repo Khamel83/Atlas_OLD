@@ -1,0 +1,115 @@
+# Content from https://www.railway-technology.com/features/will-california-ever-get-its-high-speed-rail/
+
+*Retrieved: 2025-09-15T05:05:56.502551*
+
+---
+
+<html><body><div><div class="main-content">
+<div class="article-image">
+<figure class="article-image__container">
+<picture>
+<source media="(min-width: 990px)" srcset="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/MAIN-2022-07-22-San-Joaquin-River-Viaduct-Pergola-4-copy.jpg"></source>
+<source media="(min-width: 430px)" srcset="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/MAIN-2022-07-22-San-Joaquin-River-Viaduct-Pergola-4-copy.jpg"></source>
+<img alt="" src="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/MAIN-2022-07-22-San-Joaquin-River-Viaduct-Pergola-4-copy.jpg">
+</picture>
+<figcaption class="c-featured-image__description">Aerial view of the San Joaquin River Viaduct in Fresno, California. Credit: California High-Speed Rail Authority.</figcaption>
+</figure>
+</div>
+<h2 class="wp-block-heading" id="h-the-future-of-high-speed-rail-in-california">The Future of High-Speed Rail in California</h2>
+<p class="drop-cap">For a country that was built on the railroad, the now years-old saga of the <a href="https://www.railway-technology.com/projects/california/" target="_blank">California High-Speed Rail project</a> continues to enthral, depress and at times amuse Americans in almost equal measure. It’s a story of claim and counterclaim, allegation, and even insult.   </p>
+<p>Almost 15 years ago Californians were promised a high-speed rail service between two of its great cities – Los Angeles (LA) and San Francisco – in just two hours and 40 minutes. It was a “moon shot” that required technological innovation, big thinking, political consensus, and a sizeable budget. Instead, it’s been mired with delay, overspending, political strife, and questionable decision-making.  <br> <br>Below is a timeline of the history of high-speed rail, including some of the most noteworthy moments. </p>
+<h2 class="wp-block-heading" id="h-1996">1996</h2>
+<p>A high-speed rail link across California is first mooted. State Governor, Pete Wilson, established the <a href="https://hsr.ca.gov/" target="_blank">California High-Speed Rail Authority</a> (CHSRA), with the aim of developing a proposal to present to both him and state legislatures, before giving Californians a public vote.</p><p id="slot-one"></p><p id="Sgpollsputhere"></p>
+<h2 class="wp-block-heading">1996–2000</h2>
+<p>A detailed study found high-speed rail lines to be economically, environmentally and socially profitable and as such work got underway to develop a strategic plan and project proposal. </p>
+<p>After the completion of a business plan, the CHSRA sought input from international counterparts, hiring consultancies on high-speed rail projects to peer review their proposal, including SNCF (France), DE Consult (Germany) and JARTS (Japan).  </p>
+<h2 class="wp-block-heading">August 2005</h2>
+<p>An implementation plan – which estimates the project would take between eight to 11 years to complete – is finally approved.</p><div class="gdm-company-profile-unit">
+<div class="gdm-company-profile-unit__profile-container">
+
+<div class="gdm-company-profile-unit__form-container">
+<span class="gdm-company-profile-unit__form-excerpt">GlobalData Strategic Intelligence</span>
+<div class="gdm-company-profile-unit__form-wrapper" id="gdm-form-wrapper">
+<h1 class="gdm-company-profile-unit__form-heading">
+                        US Tariffs are shifting - will you react or anticipate?
+                    </h1>
+<p class="gdm-company-profile-unit__form-sub-heading">Don’t let policy changes catch you off guard. Stay proactive with real-time data and expert analysis.</p>
+<span class="gdm-company-profile-unit__text">By GlobalData</span>
+</div>
+</div>
+</div> <button class="gdm-company-profile-unit__button"><a href="https://www.reports.globaldata.com/strategic-intelligence-request-demo/?campaignid=701Ti00000TMw1SIAT" target="_blank">Learn more about Strategic Intelligence</a></button></div>
+<h2 class="wp-block-heading">2008</h2>
+<p>It took another three years before elements of the proposal were put to voters. Proposition 1A, which the public agreed to at state elections in November, approved the sale of almost $10bn of bonds to fund the project. At the time, the network was penned to be completed by 2020, connecting LA and San Francisco through a series of high-speed segments that would see trains travel at around 350km/h. It would eventually run through Southern California, Sacramento San, Joaquin Valley, and the San Francisco Bay Area.</p>
+<h2 class="wp-block-heading">January 2009</h2>
+<p>Optimism for the project is high, boosted further with the inauguration of President Barack Obama, whose administration was laser focused on battling the deepening crisis ravaging the world’s economies and financial markets. As part of that fightback, Obama committed to a national plan of public spending, which included laying 13,840km of high-speed track. This already ambitious target then increased to 19,312km.</p><p id="slot-two"></p>
+<figure class="wp-block-image size-large"><img alt="aerial photo of construction of the Tule River Viaduct in California" class="wp-image-100980" decoding="async" fetchpriority="high" sizes="(max-width: 1024px) 100vw, 1024px" src="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-09-29-Tule-River-Viaduct-8-copy-1024x683.jpg" srcset="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-09-29-Tule-River-Viaduct-8-copy-1024x683.jpg 1024w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-09-29-Tule-River-Viaduct-8-copy-768x512.jpg 768w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-09-29-Tule-River-Viaduct-8-copy-770x513.jpg 770w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-09-29-Tule-River-Viaduct-8-copy-20x13.jpg 20w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-09-29-Tule-River-Viaduct-8-copy-385x257.jpg 385w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-09-29-Tule-River-Viaduct-8-copy.jpg 1500w"><figcaption class="wp-element-caption">The 3,573-foot Tule River Viaduct, located south of the Tule River. Credit: California High-Speed Rail Authority.</figcaption></figure>
+<h2 class="wp-block-heading" id="h-2011-2012">2011–2012</h2>
+<p>Tensions simmer over plans for the infrastructure project and the damage it might do to communities and wildlife. The project, and its management, are criticised for some of the proposals, how they’ve been conveyed and, according to some, how community concerns have been ignored. </p>
+<h2 class="wp-block-heading">July 2012</h2>
+<p>After a lengthy period of research, environmental studies, and public consultation; a funding bill that would provide financial support for the construction of a 209km stretch of the project is signed in July 2012. The green light was given for work to commence on a 104.6km section by the US Federal Railroad Administration in September.</p>
+<h2 class="wp-block-heading">Early 2013</h2>
+<p>The $1bn Construction Package 1 contract, which involves the first 46.6km section between Madera and Fresno, is signed. By now commentary on the project is less favourable, thanks to perceived failings of the bidding process that, some argued, resulted in a less competent bidder winning. </p>
+<p>Responding to a negative critique published by the Los Angeles Times, CHSRA CEO Jeff Morales writes to the publication’s editor stating: “We utterly reject the thesis… that our procurement process has been anything but open, competitive, objective, and in accordance with the law.” The issues plague the authority for some time after. </p>
+<h2 class="wp-block-heading">August 2014</h2>
+<p>The second significant construction contract, worth $71.86m, for design and construction oversight for Construction Package 2–3, is signed. It covers the Initial Operating Section of the high-speed rail programme, extending approximately 104km from the terminus of Construction Package 1 at East American Avenue in Fresno to 1.6km north of the Tulare-Kern County line.</p>
+<h2 class="wp-block-heading">January 2015</h2>
+<p>Ground is finally broken, with work commencing on the first part of the line in Freson. The project will result in a section of track stretching 273.6km, to be completed by 2028. The same month another contract was awarded; this time for a 96.5km section. </p>
+<p>There is also a request for a proposal made for rolling stock, eliciting interest from numerous suppliers. </p>
+<figure class="wp-block-image size-large"><img alt="photo of workers constructing the Conejo viaduct as part of the california high speed rail project" class="wp-image-100981" decoding="async" sizes="(max-width: 1024px) 100vw, 1024px" src="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2021-03-11-Conejo-ironworkers-copy-1024x768.jpg" srcset="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2021-03-11-Conejo-ironworkers-copy-1024x768.jpg 1024w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2021-03-11-Conejo-ironworkers-copy-768x576.jpg 768w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2021-03-11-Conejo-ironworkers-copy-770x578.jpg 770w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2021-03-11-Conejo-ironworkers-copy-20x15.jpg 20w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2021-03-11-Conejo-ironworkers-copy-385x289.jpg 385w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2021-03-11-Conejo-ironworkers-copy.jpg 1500w"><figcaption class="wp-element-caption">Ironworkers at the 2,000-foot Conejo Viaduct. Credit: California High-Speed Rail Authority</figcaption></figure>
+<h2 class="wp-block-heading">2016–17</h2>
+<p>Work continues, both at a project and finance management level and on the ground at construction sites. However delays, criticism, and often less than favourable press – particularly from the project’s staunch opponents – remain.</p>
+<h2 class="wp-block-heading">March 2018</h2>
+<p>CHSRA announces “the first significant construction” with foundation works beginning for a bridge that will carry high-speed trains over Garces Highway in Kern County.</p>
+<h2 class="wp-block-heading">November 2018</h2>
+<p>In a damming audit by the state, the project’s management team is left reeling by suggestions of flawed decision-making and poor contract management, which have together left it still 15 years away from completion and now costing $77bn – significantly higher than the $40bn initially forecasted.  </p>
+<p>Having called for the audit with a Democrat counterpart, state Republican Jim Patterson said the project was now “dead in the water,” adding: “There will never be a completed track from the Bay Area to Los Angeles… The best we can hope for is a rump railroad running from Bakersfield to Madera.” </p>
+<h2 class="wp-block-heading">February 2019</h2>
+<p>In his first state of the state address, Governor Gavin Newsom shocks many by curtailing the ambitions of the project, arguing in its current form the plan would “cost too much and take too long”. He said there simply wasn’t “a path to get from Sacramento to San Diego, let alone from San Francisco to LA”. He did, however, signal his appetite to for ahead with a section between Merced and Bakersfield.  </p>
+<p>Later, President Trump blasts the project, calling for $3.5bn of federal funding already given to be returned. His words were put into action by the Department of Transport, which said it would consider withholding $929m earmarked for the project but not yet given. </p>
+<figure class="wp-block-image size-large"><img alt="photo of the hanford viaduct under construction in the California central valley" class="wp-image-100982" decoding="async" sizes="(max-width: 1024px) 100vw, 1024px" src="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-11-29-Hanford-Viaduct-copy-1024x683.jpg" srcset="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-11-29-Hanford-Viaduct-copy-1024x683.jpg 1024w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-11-29-Hanford-Viaduct-copy-768x512.jpg 768w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-11-29-Hanford-Viaduct-copy-770x513.jpg 770w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-11-29-Hanford-Viaduct-copy-20x13.jpg 20w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-11-29-Hanford-Viaduct-copy-385x257.jpg 385w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-11-29-Hanford-Viaduct-copy.jpg 1500w"><figcaption class="wp-element-caption">Hanford Viaduct, the largest high-speed rail structure in the Central Valley spanning nearly 6,330 feet. Credit: California High-Speed Rail Authority</figcaption></figure>
+<h2 class="wp-block-heading">May 2019</h2>
+<p>In a major blow and politically explosive move, the Trump administration confirms this. The Federal Railroad Administration says the CHSRA had “repeatedly failed to comply with the terms” of a financial package agreement reached in 2010, and that it had “failed to make reasonable progress on the project”.  </p>
+<p>“California has abandoned its original vision of a high-speed passenger rail service connecting San Francisco and Los Angeles, which was essential to its applications for FRA grant funding,” it said. </p>
+<p>The move sparked fury among management and state political leaders, with Newsom responding: “This is California’s money, appropriated by Congress, and we will vigorously defend it in court.” </p>
+<h2 class="wp-block-heading">Late July 2019</h2>
+<p>In a double boost for the project, CHSRA says it has received “important federal approval” allowing it to “progress on the nation’s first high-speed rail system”. The authorisation given by the Federal Railroad Administration brings the completion of the environmental reviews a step closer. </p>
+<p>Less than a week later and parts of Construction Package 1 are opened. They are the first completed high-speed rail grade separations under the first phase of the project. By the end of the year, a total of 30 major construction projects are ongoing across 191km of the route.  </p>
+<h2 class="wp-block-heading">Mid-2020</h2>
+<p>The Covid-19 pandemic begins to impact; in particular public consultations and meetings suffer, leading to extensions in the consultation process.</p>
+<figure class="wp-block-image size-large"><img alt="aerial photo of the san joaquin river viaduct crossing the san joaquin river in california" class="wp-image-100983" decoding="async" sizes="(max-width: 1024px) 100vw, 1024px" src="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-11-San-Joaquin-River-Viaduct-17-copy-1024x683.jpg" srcset="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-11-San-Joaquin-River-Viaduct-17-copy-1024x683.jpg 1024w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-11-San-Joaquin-River-Viaduct-17-copy-768x512.jpg 768w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-11-San-Joaquin-River-Viaduct-17-copy-770x513.jpg 770w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-11-San-Joaquin-River-Viaduct-17-copy-20x13.jpg 20w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-11-San-Joaquin-River-Viaduct-17-copy-385x257.jpg 385w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-11-San-Joaquin-River-Viaduct-17-copy.jpg 1500w"><figcaption class="wp-element-caption">The San Joaquin River Viaduct, a 4,740-foot bridge over the San Joaquin River. Credit: California High-Speed Rail Authority</figcaption></figure>
+<h2 class="wp-block-heading">September 2020</h2>
+<p>CHRA CEO Brian Kelly says the Board of Directors has approved the Final Supplemental Environmental Impact Report/Environmental Impact Statement for Central Valley Wye – an 80km project alignment section. The decision means full environmental clearance has been given for the high-speed rail alignment between Merced and Bakersfield.</p>
+<h2 class="wp-block-heading">Late 2020</h2>
+<p>With construction continuing the CHRA appears buoyed by its achievements during “a difficult year”. In November, the American Avenue overpass in Fresno County is opened, becoming the fifth high-speed rail structure to open in the Central Valley in just three months. </p>
+<p>CHRA also announces an employment milestone – having created 5,000 construction jobs in the Central Valley area since work began. Tom Richards, CHRA chairman declares: “There is no question that high-speed rail is happening in California.” </p>
+<h2 class="wp-block-heading">Early 2021</h2>
+<p>After what was a more positive year for the CHRA and the project – with construction activities in full swing and spending plans, albeit revised from initial objectives, being achieved with further funding offered and used as hoped – the coming 12 months held much promise.</p>
+<h2 class="wp-block-heading">June 2021</h2>
+<p>After months of negotiations, the CHSRA says it has secured the return of funding taken from it by President Trump’s administration a few years earlier. Newsom said: “Restoring nearly $929m in grant funding back to the California High-Speed Rail project will continue to spur job creation, advance the project and move the state one step closer to getting trains running in California as soon as possible.”</p>
+<p>Throughout the remainder of the year, the project <a href="https://www.railway-technology.com/news/design-central-valley-rail-stations/">continues to advance</a>. Further work begins or is completed, political figures throw their weight behind the project and it wins several architecture and sustainability awards.</p>
+<figure class="wp-block-image size-large"><img alt="photo of a construction worker on the cedar viaduct in fresno, california" class="wp-image-100984" decoding="async" sizes="(max-width: 1024px) 100vw, 1024px" src="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-25-Cedar-Viaduct-11-copy-1024x768.jpg" srcset="https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-25-Cedar-Viaduct-11-copy-1024x768.jpg 1024w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-25-Cedar-Viaduct-11-copy-768x576.jpg 768w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-25-Cedar-Viaduct-11-copy-770x578.jpg 770w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-25-Cedar-Viaduct-11-copy-20x15.jpg 20w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-25-Cedar-Viaduct-11-copy-385x289.jpg 385w, https://www.railway-technology.com/wp-content/uploads/sites/13/2023/01/2022-02-25-Cedar-Viaduct-11-copy.jpg 1500w"><figcaption class="wp-element-caption">Construction of the 3,700-foot Cedar Viaduct in Fresno. Credit: California High-Speed Rail Authority</figcaption></figure>
+<h2 class="wp-block-heading">2022 and onwards</h2>
+<p>Project construction today continues and the initiative is supported by further federal monies – with <a href="https://www.railway-technology.com/news/california-high-speed-rail-bakersfield/" target="_blank">grant applications</a> still being made. </p>
+<p>However, criticism from some quarters continues to be levelled, with ongoing concerns about delays, overspending, and environmental impacts. To be fair, the economic climate hasn’t helped, with inflation not seen for generations adding to the problems.  </p>
+<p>In October of last year, speaking of its track and systems procurement strategy, the CHSRA said it hoped to be able to restart the process in 2023, citing inflationary pressures and supply chain issues for its decision to review in light of “unstable and volatile supply and pricing in the current market”. </p>
+<p>What happens next really is anyone’s guess. The project has been fraught with difficulty – some out of managers’ hands, others firmly their responsibility according to the most vocal of critics. What’s for sure is that this story will continue to move forward. </p>
+<p><em><strong>Editors Note: The California High-Speed Rail Project has a long story and this is by no means an exhaustive list of the events to date, rather a collection of our noteworthy moments. Add to conversation <a href="https://twitter.com/FutureRail_Mag">@FutureRail_Mag</a></strong></em></p>
+<p id="slot-three"></p>
+
+<div class="grid-container">
+<section class="gdm-newsletter-banner__container">
+<div class="grid-x gdm-newsletter-banner__wrapper-container gdm-newsletter-banner__wrapper-container--article">
+<div class="cell large-9 gdm-newsletter-banner-info__wrapper">
+
+<p class="gdm-newsletter-banner-info__container">
+<h3 class="gdm-newsletter-banner__heading wp-noreslt">Sign up for our daily news round-up!</h3>
+<h3 class="gdm-newsletter-banner__sub-heading">Give your business an edge with our leading industry insights. </h3>
+</p>
+</div>
+
+</div>
+</section>
+</div>
+
+</div>
+</div></body></html>

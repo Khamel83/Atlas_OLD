@@ -1,0 +1,5048 @@
+# Content from https://www.nytimes.com/interactive/2024/06/03/opinion/covid-lab-leak.html
+
+*Retrieved: 2025-09-15T14:22:00.338743*
+
+---
+
+<!DOCTYPE html>
+<html lang="en" class="nytapp-vi-interactive"  xmlns:og="http://opengraphprotocol.org/schema/">
+  <head>
+    
+    
+    <meta charset="utf-8" />
+    <title data-rh="true">Opinion | The Pandemic Probably Started in a Lab. These 5 Key Points Explain Why. - The New York Times</title>
+    <meta data-rh="true" name="robots" content="noarchive, max-image-preview:large"/><meta data-rh="true" name="description" content="The world must not continue to bear the intolerable risks of research with the potential to cause pandemics."/><meta data-rh="true" property="twitter:url" content="https://www.nytimes.com/interactive/2024/06/03/opinion/covid-lab-leak.html"/><meta data-rh="true" property="twitter:title" content="Opinion | Why the Pandemic Probably Started in a Lab, in 5 Key Points (Published 2024)"/><meta data-rh="true" property="twitter:description" content="The world must not continue to bear the intolerable risks of research with the potential to cause pandemics."/><meta data-rh="true" property="twitter:image" content="https://static01.nyt.com/images/2024/05/31/opinion/opinion-covid-lab-leak-promo/opinion-covid-lab-leak-promo-videoSixteenByNineJumbo1600.jpg?year=2024&amp;h=900&amp;w=1600&amp;s=25c707bb907612ccfb33353239f8d4feb078272e26371e246805690d5ae226c3&amp;k=ZQJBKqZ0VN&amp;tw=1"/><meta data-rh="true" property="twitter:image:alt" content=""/><meta data-rh="true" property="twitter:card" content="summary_large_image"/><meta data-rh="true" property="og:url" content="https://www.nytimes.com/interactive/2024/06/03/opinion/covid-lab-leak.html"/><meta data-rh="true" property="og:type" content="article"/><meta data-rh="true" property="og:title" content="Opinion | Why the Pandemic Probably Started in a Lab, in 5 Key Points (Published 2024)"/><meta data-rh="true" property="og:image" content="https://static01.nyt.com/images/2024/05/31/opinion/opinion-covid-lab-leak-promo/opinion-covid-lab-leak-promo-facebookJumbo.jpg?year=2024&amp;h=550&amp;w=1050&amp;s=bbe4275298844b792076616ff33a7880320e973860552c4c82a2bbbef776d6c9&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" property="og:image:alt" content=""/><meta data-rh="true" property="og:description" content="The world must not continue to bear the intolerable risks of research with the potential to cause pandemics."/> <link data-rh="true" rel="alternate" hrefLang="en" href="https://www.nytimes.com/interactive/2024/06/03/opinion/covid-lab-leak.html"/><link data-rh="true" rel="alternate" hrefLang="zh-hans" href="https://cn.nytimes.com/opinion/20240605/covid-lab-leak/"/><link data-rh="true" rel="alternate" hrefLang="zh-hant" href="https://cn.nytimes.com/opinion/20240605/covid-lab-leak/zh-hant/"/><link data-rh="true" rel="canonical" href="https://www.nytimes.com/interactive/2024/06/03/opinion/covid-lab-leak.html"/> <script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","@id":"https://www.nytimes.com/interactive/2024/06/03/opinion/covid-lab-leak.html","description":"The world must not continue to bear the intolerable risks of research with the potential to cause pandemics.","image":[{"@context":"https://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/2024/05/31/opinion/opinion-covid-lab-leak-promo/opinion-covid-lab-leak-promo-videoSixteenByNineJumbo1600.jpg","height":900,"width":1600,"contentUrl":"https://static01.nyt.com/images/2024/05/31/opinion/opinion-covid-lab-leak-promo/opinion-covid-lab-leak-promo-videoSixteenByNineJumbo1600.jpg","creditText":"Illustration by Mike McQuade. Source photographs by Getty Images."},{"@context":"https://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/2024/05/31/opinion/opinion-covid-lab-leak-promo/opinion-covid-lab-leak-promo-googleFourByThree.jpg","height":600,"width":800,"contentUrl":"https://static01.nyt.com/images/2024/05/31/opinion/opinion-covid-lab-leak-promo/opinion-covid-lab-leak-promo-googleFourByThree.jpg","creditText":"Illustration by Mike McQuade. Source photographs by Getty Images."},{"@context":"https://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/2024/05/31/opinion/opinion-covid-lab-leak-promo/opinion-covid-lab-leak-promo-mediumSquareAt3X.jpg","height":1800,"width":1800,"contentUrl":"https://static01.nyt.com/images/2024/05/31/opinion/opinion-covid-lab-leak-promo/opinion-covid-lab-leak-promo-mediumSquareAt3X.jpg","creditText":"Illustration by Mike McQuade. Source photographs by Getty Images."}],"mainEntityOfPage":"https://www.nytimes.com/interactive/2024/06/03/opinion/covid-lab-leak.html","url":"https://www.nytimes.com/interactive/2024/06/03/opinion/covid-lab-leak.html","inLanguage":"en","author":[{"@context":"https://schema.org","@type":"Person","url":"https://www.nytimes.com/by/alina-chan","name":"Alina Chan"}],"dateModified":"2024-06-08T17:49:33.237Z","datePublished":"2024-06-03T09:04:18.000Z","headline":"Opinion | The Pandemic Probably Started in a Lab. These 5 Key Points Explain Why.","alternativeHeadline":"Opinion | Why the Pandemic Probably Started in a Lab, in 5 Key Points","publisher":{"@id":"https://www.nytimes.com/#publisher","name":"The New York Times"},"hasPart":{"@type":"WebPageElement","isAccessibleForFree":false,"cssSelector":".meteredContent"},"isPartOf":{"@type":["CreativeWork","Product"],"name":"The New York Times","productID":"nytimes.com:basic"},"comment":{"@id":"#commentsContainer"},"commentCount":1597,"copyrightHolder":{"@id":"https://www.nytimes.com/#publisher","name":"The New York Times"},"sourceOrganization":{"@id":"https://www.nytimes.com/#publisher","name":"The New York Times"},"copyrightYear":2025,"isAccessibleForFree":false,"articleSection":"Opinion","keywords":["Coronavirus Origins Investigation","Wuhan Institute of Virology (China)","EcoHealth Alliance","Fauci, Anthony S","Daszak, Peter","Shi Zhengli","Wuhan (China)","Baric, Ralph Steven","Laboratories and Scientific Equipment","Wuhan Huanan Seafood Wholesale Market (Wuhan, China)","National Institute of Allergy and Infectious Diseases"]}</script><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"The New York Times","logo":{"@context":"https://schema.org","@type":"ImageObject","url":"https://static01.nyt.com/images/icons/t_logo_291_black.png","height":291,"width":291,"contentUrl":"https://static01.nyt.com/images/icons/t_logo_291_black.png","creditText":"The New York Times"},"url":"https://www.nytimes.com/","@id":"https://www.nytimes.com/#publisher","publishingPrinciples":"https://www.nytimes.com/editorial-standards/ethical-journalism.html","diversityPolicy":"https://www.nytco.com/company/diversity-and-inclusion/","ethicsPolicy":"https://www.nytco.com/company/standards-ethics/","masthead":"https://www.nytimes.com/interactive/2023/01/28/admin/the-new-york-times-masthead.html","foundingDate":"1851-09-18","sameAs":"https://en.wikipedia.org/wiki/The_New_York_Times"}</script>
+    <meta data-rh="true" property="article:published_time" content="2024-06-03T09:04:18.000Z"/><meta data-rh="true" property="article:modified_time" content="2024-06-08T17:49:33.237Z"/><meta data-rh="true" http-equiv="Content-Language" content="en"/><meta data-rh="true" name="articleid" content="100000009498677"/><meta data-rh="true" name="nyt_uri" content="nyt://interactive/91d165d6-83c8-523e-b48a-f3cea04659a3"/><meta data-rh="true" name="pubp_event_id" content="pubp://event/9c897aa7a9c041a686e4e452b84acf09"/><meta data-rh="true" name="image" content="https://static01.nyt.com/images/2024/05/31/opinion/opinion-covid-lab-leak-promo/opinion-covid-lab-leak-promo-facebookJumbo.jpg?year=2024&amp;h=550&amp;w=1050&amp;s=bbe4275298844b792076616ff33a7880320e973860552c4c82a2bbbef776d6c9&amp;k=ZQJBKqZ0VN"/><meta data-rh="true" name="byl" content="By Alina Chan"/><meta data-rh="true" name="news_keywords" content="Coronavirus Origins Investigation,Coronavirus;COVID-19;Pandemic,Wuhan Institute of Virology,EcoHealth Alliance,Anthony Fauci,Peter Daszak,Shi Zhengli;Batwoman,Wuhan,Ralph Baric,Labs,Huanan Seafood Wholesale Market,National Institute of Allergy and Infectious Diseases"/><meta data-rh="true" name="pdate" content="20240603"/><meta data-rh="true" property="article:section" content="Opinion"/><meta data-rh="true" property="article:author" content="https://www.nytimes.com/by/alina-chan"/><meta data-rh="true" property="article:tag" content="Coronavirus Origins Investigation"/><meta data-rh="true" property="article:tag" content="Wuhan Institute of Virology (China)"/><meta data-rh="true" property="article:tag" content="EcoHealth Alliance"/><meta data-rh="true" property="article:tag" content="Fauci, Anthony S"/><meta data-rh="true" property="article:tag" content="Daszak, Peter"/><meta data-rh="true" property="article:tag" content="Shi Zhengli"/><meta data-rh="true" property="article:tag" content="Wuhan (China)"/><meta data-rh="true" property="article:tag" content="Baric, Ralph Steven"/><meta data-rh="true" property="article:tag" content="Laboratories and Scientific Equipment"/><meta data-rh="true" property="article:tag" content="Wuhan Huanan Seafood Wholesale Market (Wuhan, China)"/><meta data-rh="true" property="article:tag" content="National Institute of Allergy and Infectious Diseases"/><meta data-rh="true" property="article:opinion" content="true"/><meta data-rh="true" property="article:content_tier" content="metered"/><meta data-rh="true" name="CG" content="opinion"/><meta data-rh="true" name="SCG" content=""/><meta data-rh="true" name="CN" content="nytimesineducation-healthscience"/><meta data-rh="true" name="CT" content="spotlight"/>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="fb:app_id" content="9869919170" />
+<meta name="twitter:site" content="@nytimes" />
+<meta name="slack-app-id" content="A0121HXPPTQ" />
+    <script>(function Gt(e){if(new URL(window.location).searchParams.get("sentryOverride")||Math.floor(100*Math.random())<=e){var n=['<script src="https://js.sentry-cdn.com/7bc8bccf5c254286a99b11c68f6bf4ce.min.js" crossorigin="anonymous">',"<","/script>"].join("");document.write(n)}})(1);</script><script>(function Jt(e){var n=e.release,t=e.env,i=e.routeName,a=window.vi&&window.vi.webviewEnvironment||{},r=a.isPreloaded,o=void 0!==r&&r,l="IOS"===a.deviceType;if(window.Sentry){var s=function(){window.Sentry.init({maxBreadcrumbs:c,release:n,environment:t,allowUrls:u,ignoreErrors:d,beforeSend:function(e,n){var t=n.originalException;return t&&t.stack&&t.stack.includes("datadog-rum")?null:e},initialScope:function(e){e.setTags({"nyt.route":i});var n=/nyt-a=(.*?)(;|$)/.exec(document.cookie);null!==n&&e.setUser({id:n[1]});try{if(o){var t,a,r=window.asset||{},s=r.eventId,c=void 0===s?"":s,d=r.uri,u=void 0===d?"":d,f=r.url,p=void 0===f?"":f,m=r.sourceType,g=void 0===m?"":m,h=r.sourceId,v=void 0===h?"":h;c&&e.setTag("eventId",c),u&&e.setTag("uri",u),p&&e.setTag("url",p),g&&e.setTag("sourceType",g),v&&e.setTag("sourceId",v),e.setExtra("visibilityState",document.visibilityState),null!==(t=window)&&void 0!==t&&null!==(a=t.performance)&&void 0!==a&&a.timeOrigin&&e.setExtra("timeOrigin",window.performance.timeOrigin),e.setTag("type","preloaded-webview")}else e.setTag("type","browser");var b=function(){var n=window.config||{},t=n.AppVersion,i=void 0===t?"":t,a=n.ConnectionStatus,r=void 0===a?3:a,o=n.LoggedIn,l=void 0!==o&&o,s=n.Subscriber,c=void 0!==s&&s;null==e||e.setTag("AppVersion",i),null==e||e.setTag("ConnectionStatus",r),null==e||e.setTag("LoggedIn",l),null==e||e.setTag("Subscriber",c)};l?window.addEventListener("initWebview:ios",b):b()}catch(e){console.error(e)}return e},replaysSessionSampleRate:0,replaysOnErrorSampleRate:.01,integrations:[window.Sentry.browserTracingIntegration({enableInp:!0,instrumentNavigation:!1,instrumentPageLoad:!1})]});var e=window.Sentry.getClient(),a={};a[window.Sentry.SEMANTIC_ATTRIBUTE_SENTRY_SOURCE]="url",window.Sentry.startBrowserTracingPageLoadSpan(e,{name:i,attributes:a})},c=70,d=["2mdn","ads-us","amazon-adsystem","amp4ads","ampproject","bk_addPageCtx","boomerang","BOOMR","cb is not a function","chartbeat","google_tag_manager","gsi","gtm","prebid","pubads","scorecardresearch","setConfig is not a function","webkitExitFullScreen","yimg","reading 'campaign'","Object.fromEntries is not a function"];o&&(d=d.concat(["Failed to fetch","Load failed","Something went wrong","Unexpected EOF","The request is not allowed by the user agent","scrollIntoView","No weather-bot homepage data available","UnhandledRejection: Non-Error promise rejection captured with value: false","VHS is currently showing this error message on-screen.","useMessageSelection","messageComponentLibrary"]));var u=[/^https?:\/\/(vi-pr-.*|www|vi|local|alpha|alpha-preview)\.(stg\.|dev\.)?(nytimes\.com|nyt\.net)/];window.Sentry.onLoad(s),window.__isUnitTestEnv&&(window.__testSentryOnload=s)}})({"release":"06e3dee7b6fe39921cbf2ba09c8992cc64403047","env":"prd","routeName":"vi-interactive","allowUrls":[{}]});</script>
+    
+    <script id="datadog-rum">
+      
+  (function (h, o, u, n, d) {
+    h = h[d] = h[d] || {
+      q: [],
+      onReady(c) {
+        h.q.push(c);
+      },
+    };
+    d = o.createElement(u);
+    d.async = 1;
+    d.src = n;
+    n = o.getElementsByTagName(u)[0];
+    n.parentNode.insertBefore(d, n);
+  })(
+    window,
+    document,
+    'script',
+    'https://www.datadoghq-browser-agent.com/us1/v6/datadog-rum.js',
+    'DD_RUM'
+  );
+
+(function Ft(e){if(window.DD_RUM){var n=e.service,t=e.env,i=e.version,a=e.sessionSampleRate,r=e.deploymentId,o=e.routeName,l=e.tenant,s=window.vi&&window.vi.webviewEnvironment||{},c=s.isPreloaded,d=void 0!==c&&c,u=s.isInWebview,f=void 0!==u&&u,p=[/https:\/\/samizdat-graphql.*\.nytimes\.com/,/https:\/\/alpha\.nytimes\.com/,/https:\/\/www\.nytimes\.com/,/https:\/\/www\.stg\.nytimes\.com/,/https:\/\/cooking\.nytimes\.com/,/https:\/\/myaccount\.nytimes\.com/],m={},g={};d&&(m={team:"web-platforms"},g={trackFrustrations:!0,allowFallbackToLocalStorage:!0,sessionReplaySampleRate:0}),window.DD_RUM.onReady(h),window.__isUnitTestEnv&&(window.__testDataDogOnReady=h)}function h(){var e={clientToken:"pube5bf68ea68edb54c35106f34e32ff07c",applicationId:"7d0602a0-8ef8-4d39-985b-c3188887e5b3",site:"datadoghq.com",service:"".concat(n,"-client"),env:t,version:i,sessionSampleRate:parseInt(a,10),sessionReplaySampleRate:10,trackViewsManually:!0,defaultPrivacyLevel:"mask-user-input",allowedTracingUrls:p,traceSampleRate:10,usePartitionedCrossSiteSessionCookie:!0,useSecureSessionCookie:!0};d&&(e=Object.assign(e,g)),window.DD_RUM.init(e);var s="web";d&&(s=window.config&&window.config.OS&&"ANDROID"===window.config.OS.toUpperCase()?"android":"ios");var c={billing:{environment:t,deployment:{id:r}},dvsp:{tenant:l},route:{name:o},webview:f,preloaded:d,appType:s};d&&(c=Object.assign(c,m)),window.DD_RUM.setGlobalContextProperty("nyt",c),window.DD_RUM.startView({name:o});var u=/nyt-a=(.*?)(;|$)/.exec(document.cookie);if(null!==u&&window.DD_RUM.setUser({id:u[1]}),d){var h=(window.asset||{}).url,v=void 0===h?"":h;window.DD_RUM.setGlobalContextProperty("url",v);var b=window.getNativeBridgeCookie("nyt-a");b&&window.DD_RUM.setUser({id:b})}}})({"service":"vi","env":"prd","version":"v8359-06e3dee","sessionSampleRate":"10","deploymentId":"aws-491988406224","routeName":"vi-interactive","tenant":"web-platforms"});
+    </script>
+
+<link data-rh="true" rel="shortcut icon" href="/vi-assets/static-assets/favicon-d2483f10ef688e6f89e23806b9700298.ico"/><link data-rh="true" rel="apple-touch-icon" href="/vi-assets/static-assets/apple-touch-icon-28865b72953380a40aa43318108876cb.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" sizes="144×144" href="/vi-assets/static-assets/ios-ipad-144x144-28865b72953380a40aa43318108876cb.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" sizes="114×114" href="/vi-assets/static-assets/ios-iphone-114x144-080e7ec6514fdc62bcbb7966d9b257d2.png"/><link data-rh="true" rel="apple-touch-icon-precomposed" href="/vi-assets/static-assets/ios-default-homescreen-57x57-43808a4cd5333b648057a01624d84960.png"/>
+    <link rel="preconnect" href="https://g1.nyt.com" crossorigin="anonymous"/>
+    <link href="https://g1.nyt.com/fonts/css/web-fonts.c851560786173ad206e1f76c1901be7e096e8f8b.css" rel="stylesheet" type="text/css" crossorigin />
+    
+    <link rel="stylesheet" href="/vi-assets/static-assets/global-bf55b3b62e74478ad488922130f07a8e.css" />
+    <style>[data-timezone] { display: none }</style>
+    <style data-lights-css="79elbk 1dv1kvn kgn7zc uc4bdz 1jmk4jh 1e1s8k7 1qa4qp6 jq1cx6 17ih8de 1re6eyk 1h72t4j 1mlnk6q 2urdiw 8inn91 vxcmzt 1eeh360 1yhvmgx 16g9egj 19yhb3c 1nurhyi 1sm67ns 777zgl rfqw0c 1ev7j75 1yiqkdd 1fq2n5g tbjo8i d6eweq 9t8fgp 6uztyy 1kdjl9i wfzhmp 1b90zgj s2htvn 16p55jy 16ss0j3 5hj96p 1ta3q0y 1l5zhgp 343ohv 1ch6mhx 10698na ijmohz 1npft71 yomkvi 1obgmli zd9juy 10d8k1f eap6fy 10i3hc tjy6w6 dsng1s 9t76xi 11iyrz3 1ho5u4o t8x4fj a7htku xuu3c2 1nf2dl3 v265i6 1n5umza 1rgojku">.css-79elbk{position:relative;}.css-1dv1kvn{border:0;-webkit-clip:rect(0 0 0 0);clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;}.css-kgn7zc{border:0;-webkit-clip:rect(0 0 0 0);clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;border-radius:3px;cursor:pointer;font-family:nyt-franklin,helvetica,arial,sans-serif;-webkit-transition:ease 0.6s;transition:ease 0.6s;white-space:nowrap;vertical-align:middle;background-color:transparent;color:#000;font-size:11px;line-height:11px;font-weight:700;-webkit-letter-spacing:0.02em;-moz-letter-spacing:0.02em;-ms-letter-spacing:0.02em;letter-spacing:0.02em;padding:11px 12px 8px;background:#fff;display:inline-block;left:44px;text-transform:uppercase;-webkit-transition:none;transition:none;z-index:5;}.css-kgn7zc:active,.css-kgn7zc:focus{-webkit-clip:auto;clip:auto;overflow:visible;width:auto;height:auto;}.css-kgn7zc::-moz-focus-inner{padding:0;border:0;}.css-kgn7zc:-moz-focusring{outline:1px dotted;}.css-kgn7zc:disabled,.css-kgn7zc.disabled{opacity:0.5;cursor:default;}.css-kgn7zc:active,.css-kgn7zc.active{background-color:#f7f7f7;}@media (min-width:740px){.css-kgn7zc:hover{background-color:#f7f7f7;}}.css-kgn7zc:focus{margin-top:3px;padding:8px 8px 6px;}@media (max-width:600px){.css-kgn7zc:focus{margin-top:12px;margin-left:9px;}}@media (min-width:1024px){.css-kgn7zc{left:112px;}}.css-uc4bdz{min-height:269px;}@media (min-width:1150px){.css-uc4bdz{min-height:431.5px;}}.NYTApp .css-uc4bdz{display:none;}@media (min-width:1150px){.css-1jmk4jh{margin:0 auto;max-width:1200px;padding:0 3% 9px;}}.NYTApp .css-1jmk4jh{display:none;}@media print{.css-1jmk4jh{display:none;}}.css-1e1s8k7{font-size:11px;text-align:center;padding-bottom:25px;}@media (min-width:1024px){.css-1e1s8k7{padding:0 3% 9px;}}.css-1e1s8k7.dockVisible{padding-bottom:45px;}@media (min-width:1024px){.css-1e1s8k7.dockVisible{padding:0 3% 45px;}}@media (min-width:1150px){.css-1e1s8k7{margin:0 auto;max-width:1200px;}}.NYTApp .css-1e1s8k7{display:none;}@media print{.css-1e1s8k7{display:none;}}.css-1qa4qp6{border-top:1px solid #ebebeb;padding-top:9px;margin:0 0 35px;}.css-jq1cx6{color:#666;font-family:nyt-franklin,helvetica,arial,sans-serif;padding:10px 0;-webkit-text-decoration:none;text-decoration:none;white-space:nowrap;}.css-jq1cx6:hover{-webkit-text-decoration:underline;text-decoration:underline;}.css-17ih8de{box-sizing:border-box;vertical-align:top;}.css-1re6eyk{font-size:0.75rem;line-height:0.75rem;margin-top:auto;}.css-1h72t4j{background-color:#567b95;border:1px solid #326891;border-radius:3px;color:white;font-family:nyt-franklin,helvetica,arial,sans-serif;font-size:0.8125rem;font-weight:600;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;line-height:1.5rem;margin-left:auto;margin-right:auto;padding:5px 0;text-transform:uppercase;-webkit-transition:background-color 0.6s ease;transition:background-color 0.6s ease;width:100%;}.css-1h72t4j:active,.css-1h72t4j:focus,.css-1h72t4j:hover{background-color:#326891;}@media print{.css-1h72t4j{display:none;}}.css-1mlnk6q{border-radius:30px;padding:6px;padding:8px 10px 7px;display:inline-block;}@media (max-width:600px){.css-1mlnk6q{padding:8px 7px 7px;}}.css-1mlnk6q svg path{fill:var(--color-content-primary,#121212);}.css-2urdiw{vertical-align:middle;margin-top:-1px;margin-right:5px;overflow:visible;}.css-8inn91{-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;vertical-align:initial;border-radius:30px;background-color:transparent;border:none;bottom:0.05rem;cursor:pointer;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;font-family:nyt-franklin,helvetica,arial,sans-serif;font-size:0.75rem;font-weight:500;height:auto;width:auto;line-height:1rem;overflow:visible;position:relative;text-transform:uppercase;}.css-8inn91:hover,.css-8inn91:focus{-webkit-text-decoration:none;text-decoration:none;border-color:#ccc;}.css-vxcmzt{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;}.css-1eeh360{height:auto;width:auto;border-radius:30px;}.css-1eeh360:focus{outline:none;box-shadow:0 0 4px 1px rgb(0 95 204);}@supports selector(:focus-visible){.css-1eeh360:focus{box-shadow:none;}.css-1eeh360:focus-visible{box-shadow:0 0 4px 1px rgb(0 95 204);}}.css-1yhvmgx{height:auto;width:auto;border:solid 1px var(--color-stroke-quaternary,#DFDFDF);background-color:var(--color-background-primary,#FFFFFF);border-radius:30px;font-size:0.75rem;font-family:nyt-franklin,helvetica,arial,sans-serif;text-transform:uppercase;}.css-1yhvmgx:hover{background-color:var(--color-background-tertiary,#EBEBEB);border:1px solid var(--color-background-tertiary,#EBEBEB);}.css-1yhvmgx .hiddenClass{display:none;}.css-1yhvmgx[aria-checked='true'] .saved-fill{fill:var(--color-stroke-primary,#121212);}.css-1yhvmgx[aria-checked='true'] .saved-stroke{fill:var(--color-stroke-primary,#121212);}.css-1yhvmgx[aria-checked='false'] .saved-fill{fill:none;}.css-1yhvmgx[aria-checked='false'] .saved-stroke{fill:var(--color-stroke-primary,#121212);}.css-1yhvmgx[aria-busy='true']{cursor:default;background-color:var(--color-background-tertiary,#EBEBEB);}.css-16g9egj{padding:0;margin-left:0;margin-right:0;}@media (max-width:350px){.css-16g9egj{margin-left:-9px;margin-right:-20px;}}.css-19yhb3c{color:#999;display:inline;margin-right:12px;width:100%;}.css-19yhb3c > a,.css-19yhb3c > button{-webkit-text-decoration:none;text-decoration:none;}.css-19yhb3c > a:focus,.css-19yhb3c > button:focus{display:inline-block;outline:none;box-shadow:0 0 2px 1px rgb(0 95 204);}@supports selector(:focus-visible){.css-19yhb3c > a:focus,.css-19yhb3c > button:focus{box-shadow:none;}.css-19yhb3c > a:focus-visible,.css-19yhb3c > button:focus-visible{box-shadow:0 0 2px 1px rgb(0 95 204);}}.css-19yhb3c > a:focus{border-radius:100%;}@media (max-width:350px){.css-19yhb3c{margin-right:6px;}}.css-19yhb3c:last-of-type{margin-right:0;}.css-1nurhyi{height:auto;width:auto;border-radius:100%;background-color:transparent;}.NYTApp .css-1sm67ns{display:none;}.css-777zgl{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;-webkit-clip:rect(0 0 0 0);clip:rect(0 0 0 0);overflow:hidden;text-align:center;}.css-777zgl:focus-visible{background-color:#fff;border-radius:3px;height:auto;width:auto;-webkit-clip:auto;clip:auto;font-family:nyt-franklin,helvetica,arial,sans-serif;font-size:0.6875rem;font-weight:700;left:50%;padding:8px 8px 6px;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);top:5px;}.css-rfqw0c{text-align:center;height:100%;display:block;}.css-1ev7j75{color:var(--color-content-quaternary,#727272);font-family:nyt-franklin,helvetica,arial,sans-serif;font-size:0.625rem;font-weight:500;-webkit-letter-spacing:0.05rem;-moz-letter-spacing:0.05rem;-ms-letter-spacing:0.05rem;letter-spacing:0.05rem;line-height:0.625rem;margin-bottom:9px;text-align:center;text-transform:uppercase;}.css-1yiqkdd{font-family:nyt-franklin,helvetica,arial,sans-serif;font-size:0.9375rem;line-height:1.25rem;margin:0 auto;margin-top:1rem;}@media print{.css-1yiqkdd{margin-left:0;margin-right:0;width:100%;max-width:100%;}}.css-1fq2n5g{margin-bottom:1.25rem;max-width:800px;}.css-tbjo8i{width:calc(100% - 40px);margin:0 auto 1.25rem;max-width:600px;color:#333;display:block;font-family:nyt-franklin,helvetica,arial,sans-serif;font-weight:500;font-size:0.9375rem;line-height:1.25rem;}@media (min-width:740px){.css-tbjo8i{width:auto;padding-right:3%;padding-left:3%;}}.css-tbjo8i::before{width:120px;content:'';display:inline-block;height:1px;margin:30px 0 20px;background-color:black;}.css-d6eweq{font-family:nyt-cheltenham,cheltenham-fallback-georgia,cheltenham-fallback-noto,georgia,'times new roman',times,serif;font-weight:500;color:var(--color-content-secondary,#363636);font-size:1.0625rem;line-height:1.3125rem;text-align:left;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;margin:auto 0;padding-right:10px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column-reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;}@media (min-width:740px){.css-d6eweq{padding:0;font-size:1rem;margin-top:0;}}.css-9t8fgp{padding-right:0;}.css-6uztyy{background-color:var(--color-background-tertiary,#EBEBEB);min-height:46px;}.css-1kdjl9i{background-color:var(--color-background-tertiary,#EBEBEB);width:100%;padding-bottom:100%;}.css-wfzhmp{min-width:95px;}.css-wfzhmp figcaption{display:none;}.css-wfzhmp figcaption section{font-size:0.625rem;text-transform:none;}.css-wfzhmp img{width:95px;height:95px;}.css-wfzhmp figure{padding-bottom:0;margin:0;width:95px;height:95px;}@media (min-width:740px){.css-wfzhmp{min-width:85px;}.css-wfzhmp img{width:85px;height:100%;}.css-wfzhmp figure{width:100%;height:100%;}.css-wfzhmp figcaption section{padding-bottom:4px;}}.css-1b90zgj{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;position:relative;}@media (min-width:740px){.css-1b90zgj{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;gap:6px;}}.css-s2htvn{margin-top:45px;margin-left:auto;margin-right:auto;background-color:var(--color-background-primary,#FFFFFF);}@media (min-width:740px){.css-s2htvn{padding-left:3%;padding-right:3%;padding-top:20px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:1200px;border-top:none;}}@media print{.css-s2htvn{display:none;}}.css-16p55jy{width:100%;}@media (min-width:740px){.css-16p55jy{width:70%;}}@media (min-width:1150px){.css-16p55jy{width:80%;}}.css-16ss0j3{border-top:2px solid var(--color-stroke-primary,#121212);margin:0 20px;}@media (min-width:740px){.css-16ss0j3{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;border-top:1px solid var(--color-stroke-primary,#121212);margin:0;}}.css-5hj96p{padding-top:0.5rem;box-sizing:border-box;font-family:nyt-franklin,helvetica,arial,sans-serif;font-weight:700;font-size:1rem;line-height:1.25rem;max-width:851.25px;}@media (min-width:740px){.css-5hj96p{font-size:1rem;padding-top:17px;line-height:1.375rem;padding-right:0;padding-left:0;}}.css-5hj96p a{color:inherit;}.css-5hj96p a:hover{-webkit-text-decoration:none;text-decoration:none;}.css-5hj96p a::after{content:'›';font-weight:500;font-size:1.125rem;margin-left:4px;color:inherit;position:relative;bottom:-0.5px;}@media (min-width:740px){.css-5hj96p a:hover{-webkit-text-decoration:underline;text-decoration:underline;}.css-5hj96p a::after{content:none;}}.css-1ta3q0y{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding-top:15px;}@media (min-width:740px){.css-1ta3q0y{width:100%;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;border-bottom:none;}.css-1ta3q0y .css-1wdgr56:nth-child(1) > .css-1b90zgj{padding-right:10px;border-left:none;}.css-1ta3q0y .css-1wdgr56:nth-child(2) > .css-1b90zgj{padding-right:0;padding-left:10px;}}@media (min-width:1150px){.css-1ta3q0y .css-1wdgr56:nth-child(2) > .css-1b90zgj{padding-right:10px;padding-left:9px;}.css-1ta3q0y .css-1wdgr56:nth-child(3) > .css-1b90zgj{padding-right:0;padding-left:10px;}}.css-1l5zhgp{line-height:1.375rem;}@media (min-width:740px){.css-1l5zhgp{width:calc(4 * (((100vw - 370px) - 15px) / 12) + (4 - 1) * 30px);margin-left:30px;max-width:315px;}}.css-1l5zhgp .css-1471hob,.css-1l5zhgp .css-9t8fgp{font-size:1.25rem;line-height:1.4375rem;display:block;}@media (min-width:740px){.css-1l5zhgp .css-1471hob,.css-1l5zhgp .css-9t8fgp{border-top:1px solid var(--color-stroke-quaternary,#DFDFDF);padding:15px 0;}}@media (min-width:1150px){.css-1l5zhgp .css-1471hob,.css-1l5zhgp .css-9t8fgp{font-size:1.1875rem;line-height:1.4375rem;}}.css-1l5zhgp .css-wfzhmp{display:block;}@media (min-width:740px){.css-1l5zhgp .css-wfzhmp{display:none;}}.css-343ohv{background-color:var(--color-background-tertiary,#EBEBEB);height:20px;width:175px;}.css-1ch6mhx{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;left:10px;position:absolute;}@media print{.css-1ch6mhx{display:none;}}.css-10698na{text-align:center;}@media (min-width:740px){.css-10698na{padding-top:0;}}@media print{.css-10698na a[href]::after{content:'';}.css-10698na svg{fill:black;}}.css-ijmohz{display:block;width:189px;height:26px;margin:5px auto 0;}@media (min-width:740px){.css-ijmohz{width:189px;height:26px;margin:5px auto 0;}}@media (min-width:1024px){.css-ijmohz{width:195px;height:26px;margin:6px auto 0;}}.css-1npft71{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;position:absolute;right:10px;top:8px;}@media (min-width:1024px){.css-1npft71{top:4px;}}@media print{.css-1npft71{display:none;}}.css-yomkvi .actionbar-button{background:var(--color-background-primary,#FFFFFF);border:1px solid var(--color-stroke-quaternary,#DFDFDF);color:var(--color-content-primary,#121212);box-shadow:none;}.css-yomkvi .actionbar-button svg > path{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button:hover{border:1px solid var(--color-stroke-quaternary,#DFDFDF);background:var(--color-background-tertiary,#EBEBEB);color:var(--color-content-primary,#121212);}.css-yomkvi .actionbar-button:hover svg > path{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button:hover svg > g{stroke:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button:active,.css-yomkvi .actionbar-button[aria-expanded='true']{border:1px solid var(--color-stroke-tertiary,#C7C7C7);background:rgba(235,235,235,0.6);}.css-yomkvi .actionbar-button:active svg > path,.css-yomkvi .actionbar-button[aria-expanded='true'] svg > path{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button:active svg > g,.css-yomkvi .actionbar-button[aria-expanded='true'] svg > g{stroke:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button[aria-checked='true'] .saved-fill{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button[aria-checked='true'] .saved-stroke{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button[aria-checked='true']:hover .saved-fill{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button[aria-checked='true']:hover .saved-stroke{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button[aria-checked='true']:active .saved-fill{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button[aria-checked='true']:active .saved-stroke{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button[aria-checked='false'] .saved-fill{fill:none;}.css-yomkvi .actionbar-button[aria-checked='false'] .saved-stroke{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button[aria-checked='false']:hover .saved-stroke{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button[aria-checked='false']:active .saved-stroke{fill:var(--color-stroke-primary,#121212);}.css-yomkvi .actionbar-button:focus{box-shadow:0 0 2px 1px rgb(0 95 204);outline:3px solid transparent;outline-offset:2px;}@supports selector(:focus-visible){.css-yomkvi .actionbar-button:focus{box-shadow:none;}.css-yomkvi .actionbar-button:focus-visible{box-shadow:0 0 2px 1px rgb(0 95 204);outline:3px solid transparent;outline-offset:2px;}}.css-1obgmli{color:#999;display:inline;margin-right:12px;width:100%;position:relative;}.css-1obgmli > a,.css-1obgmli > button{-webkit-text-decoration:none;text-decoration:none;}.css-1obgmli > a:focus,.css-1obgmli > button:focus{display:inline-block;outline:none;box-shadow:0 0 2px 1px rgb(0 95 204);}@supports selector(:focus-visible){.css-1obgmli > a:focus,.css-1obgmli > button:focus{box-shadow:none;}.css-1obgmli > a:focus-visible,.css-1obgmli > button:focus-visible{box-shadow:0 0 2px 1px rgb(0 95 204);}}.css-1obgmli > a:focus{border-radius:100%;}@media (max-width:350px){.css-1obgmli{margin-right:6px;}}.css-1obgmli:last-of-type{margin-right:0;}.css-zd9juy{display:inline-block;vertical-align:middle;width:20px;border-radius:100%;padding:6px;overflow:initial;vertical-align:middle;height:20px;}.css-zd9juy path{fill:var(--color-content-primary,#121212);}.css-10d8k1f{direction:ltr;display:inline-block;vertical-align:middle;border-radius:30px;padding:6px 10px 6px;font-size:0.75rem;font-family:nyt-franklin,helvetica,arial,sans-serif;line-height:0.9375rem;text-align:right;font-weight:500;}.css-10d8k1f:hover .gift-count{background-color:#fafafa;}@media (max-width:600px){.css-10d8k1f{padding:6px 7px 5px;}}.css-10d8k1f svg{margin-right:5px;vertical-align:-6px;height:20px;}.css-eap6fy{height:18px;width:18px;padding:7px;overflow:visible;vertical-align:middle;cursor:not-allowed;}.css-eap6fy g{stroke-width:0.1px;}@media (min-width:1150px){.css-eap6fy:hover g,.css-eap6fy:focus g{stroke:var(--color-stroke-secondary,#8B8B8B);opacity:1;}}.css-10i3hc{color:#999;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;font-family:nyt-franklin,helvetica,arial,sans-serif;font-size:17px;margin-bottom:5px;width:calc(100% - 40px);max-width:600px;margin:1.5rem auto 2rem;margin-bottom:1rem;}@media print{.css-10i3hc{display:none;}}@media (min-width:1440px){.css-10i3hc{width:600px;max-width:600px;}}@media (min-width:600px){.css-10i3hc{-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}}.css-10i3hc:empty{display:none;}@media (min-width:600px){.css-10i3hc{margin-bottom:1rem;}}.css-tjy6w6{width:100%;padding:0 20px 15px;}@media (min-width:740px){.css-tjy6w6{max-width:48%;padding:0 0 20px;}}@media (min-width:1150px){.css-tjy6w6{max-width:32%;}}.css-tjy6w6 .css-1b90zgj{width:100%;}.css-tjy6w6 .css-1b90zgj .css-18ws9yw,.css-tjy6w6 .css-1b90zgj .css-1471hob{font-size:1.25rem;line-height:1.4375rem;}.css-tjy6w6 .css-1b90zgj .css-wfzhmp{min-width:95px;}.css-tjy6w6 .css-1b90zgj .css-wfzhmp img{width:95px;height:95px;}@media (min-width:740px){.css-tjy6w6 .css-1b90zgj{border-left:none;padding-right:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column-reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;}.css-tjy6w6 .css-1b90zgj .css-1471hob,.css-tjy6w6 .css-1b90zgj .css-18ws9yw{font-size:1.1875rem;line-height:1.4375rem;}.css-tjy6w6 .css-1b90zgj .css-wfzhmp{width:100%;height:100%;max-width:inherit;min-width:60px;margin-bottom:0.25rem;}.css-tjy6w6 .css-1b90zgj .css-wfzhmp img{width:100%;height:100%;}.css-tjy6w6 .css-1b90zgj .css-wfzhmp figure{padding-bottom:0;}.css-tjy6w6 .css-1b90zgj .css-wfzhmp figcaption{display:none;}.css-tjy6w6 .css-1b90zgj .css-wfzhmp figcaption section{padding-bottom:4px;}}.css-tjy6w6:nth-child(n + 4){display:none;}@media (min-width:740px){.css-tjy6w6:nth-child(n + 5){display:none;}.css-tjy6w6:nth-child(-n + 4){display:list-item;}}@media (min-width:1150px){.css-tjy6w6:nth-child(n + 7){display:none;}.css-tjy6w6:nth-child(-n + 6){display:list-item;}}.css-dsng1s{width:100%;padding:0 20px 15px;}@media (min-width:740px){.css-dsng1s{max-width:48%;padding:0 0 20px;}}@media (min-width:1150px){.css-dsng1s{max-width:32%;}}.css-dsng1s .css-1b90zgj{width:100%;}.css-dsng1s .css-1b90zgj .css-18ws9yw,.css-dsng1s .css-1b90zgj .css-1471hob{font-size:1.25rem;line-height:1.4375rem;}.css-dsng1s .css-1b90zgj .css-wfzhmp{min-width:95px;}.css-dsng1s .css-1b90zgj .css-wfzhmp img{width:95px;height:95px;}@media (min-width:740px){.css-dsng1s .css-1b90zgj{border-left:none;padding-right:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column-reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;}.css-dsng1s .css-1b90zgj .css-1471hob,.css-dsng1s .css-1b90zgj .css-18ws9yw{font-size:1.1875rem;line-height:1.4375rem;}.css-dsng1s .css-1b90zgj .css-wfzhmp{width:100%;height:100%;max-width:inherit;min-width:60px;margin-bottom:0.25rem;}.css-dsng1s .css-1b90zgj .css-wfzhmp img{width:100%;height:100%;}.css-dsng1s .css-1b90zgj .css-wfzhmp figure{padding-bottom:0;}.css-dsng1s .css-1b90zgj .css-wfzhmp figcaption{display:none;}.css-dsng1s .css-1b90zgj .css-wfzhmp figcaption section{padding-bottom:4px;}}.css-dsng1s:nth-child(n + 4){display:none;}@media (min-width:740px){.css-dsng1s:nth-child(n + 3){display:none;}.css-dsng1s:nth-child(-n + 2){display:list-item;}}@media (min-width:1150px){.css-dsng1s:nth-child(n + 4){display:none;}.css-dsng1s:nth-child(-n + 3){display:list-item;}}.css-9t76xi{width:100%;padding:0 20px 15px;}.css-9t76xi a::after{content:none;}@media (min-width:740px){.css-9t76xi{padding:0;}}.css-9t76xi:nth-child(n + 4){display:none;}@media (min-width:740px){.css-9t76xi:nth-child(n + 11){display:none;}.css-9t76xi:nth-child(-n + 10){display:list-item;}}@media (min-width:1150px){.css-9t76xi:nth-child(n + 11){display:none;}.css-9t76xi:nth-child(-n + 10){display:list-item;}}.css-11iyrz3{background-color:var(--color-background-secondary,#F8F8F8);border-bottom:1px solid var(--color-stroke-quaternary,#DFDFDF);border-top:1px solid var(--color-stroke-quaternary,#DFDFDF);margin:2rem auto;padding-bottom:30px;padding-top:12px;text-align:center;position:relative;margin-top:1rem;min-height:280px;}@media (min-width:740px){.css-11iyrz3{margin:3rem auto;}}@media print{.css-11iyrz3{display:none;}}@media (min-width:740px){.css-11iyrz3{margin-bottom:3rem;margin-top:2rem;}}.css-1ho5u4o{list-style:none;margin:0 0 15px;padding:0;}@media (min-width:600px){.css-1ho5u4o{display:inline-block;}}.css-t8x4fj{list-style:none;line-height:8px;padding:0;}.css-t8x4fj:last-child > li{margin:16px 0 0 0;}@media (min-width:600px){.css-t8x4fj{display:inline-block;}}.css-a7htku{display:inline-block;line-height:20px;padding:0 10px;}.css-a7htku:first-child{border-left:none;}.css-a7htku.desktop{display:none;}@media (min-width:740px){.css-a7htku.smartphone{display:none;}.css-a7htku.desktop{display:inline-block;}.css-a7htku.mobileOnly{display:none;}}.css-xuu3c2{position:absolute;top:6px;width:100%;z-index:1000000000;}@media print{.css-xuu3c2{display:none;}}.NYTApp .css-xuu3c2{display:none;}@media (min-width:1024px){.css-1nf2dl3{position:relative;border-bottom:none;position:inherit;width:inherit;z-index:inherit;}}.css-v265i6{background:transparent;border-bottom:1px solid #e2e2e2;height:36px;padding:8px 15px 3px;position:relative;background:transparent;border-bottom:none;max-width:100%;top:-7px;}@media (min-width:740px){.css-v265i6{background:transparent;padding:8px 15px 3px;}}@media (min-width:1024px){.css-v265i6{background:transparent;border-bottom:0;padding:4px 15px 2px;}}@media (min-width:1024px){.css-v265i6{margin:0 auto;max-width:1605px;max-width:100%;}}.css-1n5umza{width:100%;margin:0 auto;height:auto;max-width:100%;width:100%;}.css-1rgojku{color:#999;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;font-family:nyt-franklin,helvetica,arial,sans-serif;font-size:17px;margin-bottom:5px;height:32px;width:calc(100% - 40px);max-width:600px;margin:1.5rem auto 2rem;}@media print{.css-1rgojku{display:none;}}@media (min-width:740px){.css-1rgojku{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}}@media (min-width:1440px){.css-1rgojku{width:600px;max-width:600px;}}@media (min-width:600px){.css-1rgojku{-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}}</style>
+    <link rel="stylesheet" href="/vi-assets/static-assets/cssModulesStyles-fea47ca3ff1b4aed86e6.css">
+    
+    <!-- The fidesEmbed script must load before the getFidesSnippet script to prevent blank screen issues on privacy pages. vi-interactive -->
+    
+    <script type="text/javascript">
+    (function(e,n,t,i){function a(){var a,r,o,l=!!(0<arguments.length&&void 0!==arguments[0])&&arguments[0],s=!!(1<arguments.length&&void 0!==arguments[1])&&arguments[1],c=null===(a=i.vi)||void 0===a||null===(r=a.webviewEnvironment)||void 0===r?void 0:r.isPreloaded;if(void 0===i.fides_overrides&&(i.fides_overrides={}),c&&"function"==typeof(null===(o=i.NativeBridge)||void 0===o?void 0:o.getAllCookies))i.NativeBridge.getAllCookies().then((function(a){var r=a.values.cookies,o=void 0!==i.config;if(!m("nyt-fides-tcf")&&o&&f(r)&&d("nyt-fides-tcf",e),!m("nyt-fides-gpp")&&u(r)){m("iab-gpp-stub")||d("iab-gpp-stub",t);var l=!1;s&&(l=!0),p(r,l),d("nyt-fides-gpp",n)}})).catch((function(e){console.log(e)}));else{var g=i.document.cookie;if(!m("nyt-fides-tcf")&&f(g)&&d("nyt-fides-tcf",e),!m("nyt-fides-gpp")&&u(g))try{m("iab-gpp-stub")||d("iab-gpp-stub",t);var h=!1;l&&(h=!0),p(g,h),d("nyt-fides-gpp",n)}catch(e){console.log(e)}}}var r="nyt-purr=",o="override-purr=",l=new URLSearchParams(i.location.search),s=function(e,n){return(e.split(";").find((function(e){return e.includes(n)}))||"").replace(n,"").trim()},c=function(e,n,t){return s(e,n).charAt(t)},d=function(e,n){var t=document.createElement("script");t.id=e,t.src=n;var a=document.getElementById(e);a&&a.parentNode&&a.parentNode.removeChild(a),i.document.head.appendChild(t)},u=function(e){var n=l.get("load-gpp"),t=c(e,r,21);return"t"===c(e,o,21)||"t"===t||"true"===n},f=function(e){var n=l.get("fides-override"),t=c(e,r,16);return"s"===c(e,o,16)||"s"===t||"true"===n},p=function(e,n){var t,a,r,o=s(e,"gpp-string-override="),c=s(e,"gpp-string="),d=l.get("load-gpp"),u=l.get("gpp-string");if("true"===d&&null!==u)r=u;else if(null!==(t=i.config)&&void 0!==t&&null!==(a=t.gppData)&&void 0!==a&&a.encodedString)r=i.config.gppData.encodedString;else if(o)r=o;else{if(!c){var f=new Error("Fides Wrapper: No valid GPP string value was found. GPP CMP will not be loaded.");throw i.Sentry&&n&&i.Sentry.captureException(f),f}r=c}r&&r.startsWith('"')&&r.endsWith('"')&&(r=r.slice(1,-1)),i.fides_overrides.fides_string=r},m=function(e){return null!==i.document.getElementById(e)};a(),i.addEventListener("initWebview:ios",(function(){return a(!1,!0)}),{once:!0}),document.addEventListener("purrCacheRefreshed",(function(){return a(!0,!1)}),{once:!0}),i.fidesUtils={shouldLoadTCF:f,shouldLoadGPP:u}})('https://static01.nyt.com/vi-assets/static-assets/fides-95ba4fc2836596789af10e65f317539a.js', 'https://static01.nyt.com/vi-assets/static-assets/fides-gpp-053d5943bd4b7799df209c165c2060d5.js', 'https://static01.nyt.com/vi-assets/static-assets/iab-gpp-stub-02a14dbfddf7bec445adfaeef0a17830.js', window);
+    (function(e){function n(e){var n=e.layerType;return{event:"impression",priority:!0,module:{name:n,label:n,region:"bottom"}}}function t(n){(e.dataLayer||(e.dataLayer=[])).push(n)}function i(n){var t=e.document.getElementById("fides-banner"),i=e.document.getElementById("fides-modal"),a=e.document.getElementById("fides-embed-container"),r="true"===(null==i?void 0:i.getAttribute("aria-hidden"));if(a)return"cmp_layer_2";if(null!==n){if(!t||!i)return"";if(t.contains(n))return"cmp_layer_1";if(i.contains(n))return"cmp_layer_2"}return r?"cmp_layer_1":"cmp_layer_2"}function a(n){var t=new CustomEvent("NYTFidesUpdated",{detail:n});e.dispatchEvent(t)}var r;!0===(null===(r=e.fidesUtils)||void 0===r?void 0:r.shouldLoadTCF(e.document.cookie))&&(e.addEventListener("FidesUIShown",(function(e){var i,a=(null==e||null===(i=e.detail)||void 0===i?void 0:i.extraDetails).servingComponent;"tcf_banner"===(void 0===a?"":a)&&t(n({layerType:"cmp_layer_1"}))})),e.addEventListener("click",(function(e){var n=e.target,r="button"===n.type,o="a"===n.nodeName.toLowerCase();if(r||o){var l=function(e){return{"accept all":"accept_all","reject all":"reject_all","manage preferences":"manage_prefs","cookie policy":"cookie_policy","privacy policy":"privacy_policy",purposes:"purposes",features:"features",vendors:"vendors",save:"save"}[e.textContent.toLowerCase()]||""}(n),s=i(n);if(l)t(function(e){var n=e.actionType,t=void 0===n?"":n,i=e.layerType,a=void 0===i?"":i;return{event:"moduleInteraction",eventData:{trigger:"module",type:"click"},module:{name:a,label:a,element:{name:t,label:t}}}}({actionType:l,layerType:s})),a(function(e){var n=e.actionType,t=void 0===n?"":n,i=e.layerType,a=void 0===i?"":i;return{subject:"interaction",data:{name:a,label:a,element:{name:t,label:t}}}}({actionType:l,layerType:s})),e.stopPropagation()}})),e.addEventListener("beforeunload",(function(){var e=i(null);t(n({layerType:"".concat(e,"_exit")}))})))})(window);
+  </script>
+    <script id="srm-experiment-data" type="application/json">
+      {
+        "variant": "control"
+      }
+    </script>
+    
+    <script type="text/javascript">
+      // 39.375kB
+      window.viHeadScriptSize = 39.375;
+      window.NYTD = {};
+      window.vi = window.vi || {};
+      window.vi.pageType = { type: '', edge: 'vi-interactive-minimal'};
+      (function () { var userAgent=window.navigator.userAgent||window.navigator.vendor||window.opera||"",inNewsreaderApp=userAgent.includes("nytios")||userAgent.includes("nyt_android"),inXWordsApp=userAgent.includes("nyt_xwords_ios")||userAgent.includes("Crosswords"),inAndroid=userAgent.includes("nyt_android")||userAgent.includes("Crosswords"),iniOS=userAgent.includes("nytios")||userAgent.includes("nyt_xwords_ios"),isInWebviewByUserAgent=(inAndroid||iniOS)&&(inNewsreaderApp||inXWordsApp);function appType(){return inNewsreaderApp?"newsreader":inXWordsApp?"crosswords":""}function deviceType(){return inAndroid?"ANDROID":iniOS?"IOS":""}var _f=function(e){window.vi.webviewEnvironment={appType:appType(),deviceType:deviceType(),isInWebview:e.webviewEnvironment.isInWebview||isInWebviewByUserAgent,isPreloaded:e.webviewEnvironment.isPreloaded}};;_f.apply(null, [{"gqlUrlClient":"https://samizdat-graphql.nytimes.com/graphql/v2","gqlRequestHeaders":{"nyt-app-type":"project-vi","nyt-app-version":"0.0.5","nyt-token":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+/oUCTBmD/cLdmcecrnBMHiU/pxQCn2DDyaPKUOXxi4p0uUSZQzsuq1pJ1m5z1i0YGPd1U1OeGHAChWtqoxC7bFMCXcwnE1oyui9G1uobgpm1GdhtwkR7ta7akVTcsF8zxiXx7DNXIPd2nIJFH83rmkZueKrC4JVaNzjvD+Z03piLn5bHWU6+w+rA+kyJtGgZNTXKyPh6EC6o5N+rknNMG5+CdTq35p8f99WjFawSvYgP9V64kgckbTbtdJ6YhVP58TnuYgr12urtwnIqWP9KSJ1e5vmgf3tunMqWNm6+AnsqNj8mCLdCuc5cEB74CwUeQcP2HQQmbCddBy2y0mEwIDAQAB"},"gqlFetchTimeout":1500,"disablePersistedQueries":false,"initialDeviceType":"desktop","fastlyAbraConfig":{".ver":"27525.000","AMS_FrictionCircumventionDesktop_cwv":"2_low-mid-truncation","AMS_FrictionCircumventionMobile_cwv":"2_low-mid-truncation","DEVP_ComputeMonoservice":"1_Compute","DFP_MediaNet_0123":"1_MediaNet","HOME_cwv_chartbeat":"1_Headlines","STORY_feature_betamax_cwv":"1_Betamax"},"statsig":{},"fastlyEntitlements":[],"internalPreviewConfig":{},"webviewEnvironment":{"isInWebview":false,"isPreloaded":false,"isServiceWorkerEnabled":false},"isOptimisticallyTruncated":false,"optimisticTruncationDropzone":6,"requestPath":"/interactive/2024/06/03/opinion/covid-lab-leak.html","isProvisionallyLoggedIn":false,"routeName":"vi-interactive","serviceWorkerFile":"service-worker-test-1757969310111.js"}]); })();;(function () { var _f=function(i,w){window.vi=window.vi||{},window.vi.env=Object.freeze(i),window.hybrid=w};;_f.apply(null, [{"JKIDD_PATH":"https://a.nytimes.com/svc/nyt/data-layer","ET2_URL":"https://a.et.nytimes.com","ALS_URL":"https://als-svc.nytimes.com","WEDDINGS_PATH":"https://content.api.nytimes.com","GDPR_PATH":"https://us-central1-nyt-dsra-prd.cloudfunctions.net/datagov-dsr-formhandler","RECAPTCHA_SITEKEY":"6LevSGcUAAAAAF-7fVZF05VTRiXvBDAY4vBSPaTF","ABRA_ET_URL":"//et.nytimes.com","NODE_ENV":"production","EXPERIMENTAL_ROUTE_PREFIX":"","ENVIRONMENT":"prd","RELEASE":"06e3dee7b6fe39921cbf2ba09c8992cc64403047","RELEASE_TAG":"","AUTH_HOST":"https://myaccount.nytimes.com","METER_HOST":"https://meter-svc.nytimes.com","MESSAGING_LANDING_PAGE_HOST":"https://www.nytimes.com","CAPI_HOST":"https://mwcm.nytimes.com","SWG_PUBLICATION_ID":"nytimes.com","GQL_FETCH_TIMEOUT":"1500","GOOGLE_CLIENT_ID":"1005640118348-amh5tgkq641oru4fbhr3psm3gt2tcc94.apps.googleusercontent.com","STORY_SURROGATE_CONTROL":"max-age=300, stale-if-error=259200, stale-while-revalidate=259200","ONBOARDING_API_KEY":"","PURR_ENV":"prd"},false]); })();;(function () { var _f=function(){var e=window;e.initWebview=function(e){var t=document.documentElement;if(e.OS){var i=e.OS.toUpperCase();t.classList.add(i)}if(e.BaseFontSize&&(t.dataset.baseFontSize=e.BaseFontSize),e.trackingSensitive&&(t.dataset.trackingSensitive=!0),e.hasOptedOutOfTracking&&(t.dataset.hasOptedOutOfTracking=!0),e.PurrDirectives){var a=e.PurrDirectives.PURR_AdConfiguration_v3||e.PurrDirectives.PURR_AdConfiguration_v2;a&&(t.dataset.optedOutOfAds=["adluce","adluce-socrates"].includes(a))}e.OS&&"IOS"===e.OS.toUpperCase()&&window.dispatchEvent(new CustomEvent("initWebview:ios",{detail:e}))};var t=e.navigator.userAgent.toLowerCase();/iphone|ipod|ipad/.test(t)||void 0===e.config||e.initWebview(e.config)};;_f.apply(null, []); })();;
+(()=>{var ae=1e3,y="pageViewID",ue="getPageViewID",h="contextID",ce="getContextID",g="sourceApp",_e="getSourceApp",k="NativeBridge",W="UserInfoAgentID",fe="NativeBridge unavailable.",le="UserInfoAgentID unavailable.";async function K(e){try{await D(k);let t={};return await Promise.all([U(y,ue,e),U(h,ce,e),U(g,_e,null)]).then(i=>{i.forEach(o=>{o.name==y?t[y]=o.id:o.name==h?t[h]=o.id:o.name==g&&(t[g]=o.id)})}),Promise.resolve(t)}catch(t){return Promise.reject(t)}}function Q(){if(!window||window.vi?.webviewEnvironment===void 0||!window.nyt_et_use_webview_dedup_logic)return!1;let e=window.vi.webviewEnvironment.isInWebview&&window.vi.webviewEnvironment.deviceType=="IOS",t=window.location?.pathname?.startsWith("/live/")||window.location?.pathname?.startsWith("/interactive/")||window.location?.pathname?.endsWith("/crosswords/spelling-bee-forum.html")||!1;var i=["nytios"];let o=i.some(a=>window.navigator?.userAgent?.includes(a));return e&&t&&o}function Z(){var e={subject:"page_update",assetUrl:(document.querySelector("link[rel=canonical]")||{}).href,assetId:(document.querySelector("meta[name=articleid]")||{}).content,nyt_uri:(document.querySelector("meta[name=nyt_uri]")||{}).content,url:location.href,client_tz_offset:new Date().getTimezoneOffset(),sourceApp:(document.querySelector("meta[name=sourceApp]")||{}).content||"nytcooking"};window.nyt_et("send",e)}function pe(e,t){window.NativeBridge.addEventListener(e+"DidChange",function(i){t(e,i)})}async function U(e,t,i){return window.NativeBridge.callNativeBridgeCommand(t).then(o=>{let a=o.values[e];return e!==g&&pe(e,i),Promise.resolve({name:e,id:a})})}async function D(e,t=0){return e===k&&window.NativeBridge||e===W&&window.config?.userInfo?.agentID?Promise.resolve():t>=ae?Promise.reject(e===k?fe:le):new Promise((i,o)=>{setTimeout(function(){return D(e,t+1).then(i).catch(o)},10)})}function ee(e){return!!(Object.keys(e).length==2&&e.hasOwnProperty("gtm")&&e.hasOwnProperty("activeTime")||e.hasOwnProperty("eventData")&&Object.keys(e.eventData).length==2&&e.eventData.hasOwnProperty("gtm")&&e.eventData.hasOwnProperty("activeTime"))}function w(){var e,t,i=window.crypto||window.msCrypto;if(i)t=i.getRandomValues(new Uint8Array(18));else for(t=[];t.length<18;)t.push(Math.random()*256^(e=e||+new Date)&255),e=Math.floor(e/256);return btoa(String.fromCharCode.apply(String,t)).replace(/\+/g,"-").replace(/\//g,"_")}function te(e,t){var i="",o="",a=!1,c=!1,f=!1;if(typeof e=="string"&&e=="init"&&typeof t=="object"&&(a=!!t.intranet,c=!!t.force_xhr,f=!!t.store_last_response,typeof t.pv_id_override=="string"&&typeof t.ctx_id_override=="string"))if(t.pv_id_override.length>=24&&t.ctx_id_override.length>=24)i=t.pv_id_override,o=t.ctx_id_override;else try{console.warn("override id(s) must be >= 24 chars long")}catch(l){console.error(l)}return{pv_id:i,ctx_id:o,intra:a,store_last_response:f,force_xhr:c}}function ne(e,t,i,o,a,c,f,l){if(!o&&(f==="beacon"||l&&i)){var p=window.navigator.sendBeacon(e,t);return a&&(last_send_response=p),p}else{var u=typeof XMLHttpRequest<"u"?new XMLHttpRequest:new ActiveXObject("Microsoft.XMLHTTP");return u.open("POST",e),u.withCredentials=!0,u.setRequestHeader("Accept","*/*"),typeof t=="string"?u.setRequestHeader("Content-Type","text/plain;charset=UTF-8"):{}.toString.call(t)==="[object Blob]"&&t.type&&u.setRequestHeader("Content-Type",t.type),c&&u.setRequestHeader("ETJS-Ignore-Session-Info","true"),a&&!u.onload&&(u.onload=function(){last_send_response=u.response},u.onerror=function(O){last_send_response=!1}),u.send(t),!0}}function G(e,t){let i=3735928559^t,o=1103547991^t;for(let a=0,c;a<e.length;a++)c=e.charCodeAt(a),i=Math.imul(i^c,2654435761),o=Math.imul(o^c,1597334677);return i=Math.imul(i^i>>>16,2246822507),i^=Math.imul(o^o>>>13,3266489909),o=Math.imul(o^o>>>16,2246822507),o^=Math.imul(i^i>>>13,3266489909),4294967296*(2097151&o)+(i>>>0)}function ge(e){let t=G(e,64).toString();return t.length<22&&(t=parseInt(t).toString(36)+G(e,32).toString(36)+G(e,16).toString(36)),t}function de(){var e=window.document.cookie.split(";").find(t=>t.includes("nyt-a"))||null;return e&&e.split("=").pop()||null}function ie(){var e=de();return e?ge(e,64).toString():null}function re(e,t){return e.config&&e.config.userInfo&&e.config.userInfo.publisherProvidedID?e.config.userInfo.publisherProvidedID:e.localStorage&&e.localStorage.getItem("advertisingId")?e.localStorage.getItem("advertisingId"):t}(function(e,t){if(e.nyt_et){console.warn("et2 snippet should only load once per page");return}var i,o,a="",c="",f=0,l,p=[],u,O,b={pv_id:"",ctx_id:"",intra:!1,force_xhr:!1,store_last_response:!1},H=typeof e.navigator=="object"&&typeof e.navigator.userAgent=="string"&&/iP(ad|hone|od)/.test(e.navigator.userAgent),P=typeof e.navigator=="object"&&e.navigator.sendBeacon,V=P?H?"xhr_ios":"beacon":"xhr",_=Q(),d="",m="",x="",E=e?.config?.userInfo?.agentID,R=0;let oe=ie();E||async function(){try{await D(W),E=e?.config?.userInfo?.agentID}catch(n){console.error(n)}}();function se(n,r){if(n!==y&&n!==h&&n!==g){console.error("syncID got unknown id="+n);return}if(!(!r||!r.detail)){var s=r.detail[n]||r.detail.newID;s&&(n===y?d=s:n===h?m=s:n===g&&(x=s),Z())}}function N(n){p.length!==0&&(ne(o,JSON.stringify(p),n,b.force_xhr,b.store_last_response,_,V,P),p.length=0,clearTimeout(u),u=null)}function A(n){var r,s,S,I,M,X,v=n[0],J=re(e,oe);if(typeof v=="string"&&/init/.test(v)&&(""+JSON.stringify(n),X=!0,b=te(v,n[3]),c=b.pv_id||w(),f+=1,v=="init"&&!a)){if(a=b.ctx_id||w(),typeof n[1]=="string"&&/^http/.test(n[1]))i=String(n[1]).replace(/([^\/])$/,"$1/"),o=i+"track";else throw new Error("init must include an et host url");if(typeof n[2]=="string")l=n[2];else throw new Error("init must include a source app name")}var C=n.length-1;if(n[C]&&typeof n[C]=="object"&&(r=n[C]),!r&&!/init/.test(v)?console.warn("when invoked without 'init' or 'pageinit', nyt_et() must include a event data"):r&&!r.subject&&console.warn("event data {} must include a subject"),!i||!(r&&r.subject)){console.log("ERROR: data must contain subject and et_base_url must be set");return}let j=f==1;var z=!1;if(_&&X&&j&&r.subject=="page"&&(r.subject="page_update",z=!0),s=r.subject,delete r.subject,I=s=="page_exit"||(r.eventData||{}).type=="ob_click",M=s=="page_update",_&&I&&(s="page_update",I=!1,M=!0),_&&M&&ee(r)){R+=1;return}s=="page"||s=="page_soft"?S=c:S=w();let B=c,Y=a,$=l;_&&j&&(B=d,Y=m,$=x||l),!(B===""||a==="")&&(p.push({...E&&{agent:{id:E}},context_id:Y,pageview_id:B,event_id:S,...J&&{user_nyt_ad_id:J},client_lib:t,sourceApp:$,intranet:b.intra?1:void 0,subject:s,how:I&&H&&P?"beacon_ios":V,client_ts:+new Date,data:JSON.parse(JSON.stringify(r))}),v=="send"||S==c||I||z?N(I):(v=="soon"&&(clearTimeout(u),u=setTimeout(N,200)),u||(u=setTimeout(N,5500))))}e.nyt_et=function(){var n=arguments;if(_&&d===""){e.nyt_et_buffer=e.nyt_et_buffer||[],e.nyt_et_buffer.push(n);return}A(n)};var q=!1;function F(){if(_&&d===""){return}if(q){L(e.nyt_et_buffer);return}e.nyt_et_buffer=e.nyt_et_buffer||[],L(e.nyt_et_buffer),e.nyt_et_buffer.push=new Proxy(e.nyt_et_buffer.push,{apply:function(n,r,s){return console.table("calling window.nyt_et",r,s),A(s),n.apply(r,s)}}),q=!0}F();var T=0;function L(n=[]){if(!l){let r=n?.findIndex(s=>typeof s[0]=="string"&&s[0]==="init");""+r.toString(),r>-1&&A(n[r])}""+T;for(let r=T;r<n.length;r++){let s=n[r];""+T+r,typeof s[0]=="string"&&s[0]!=="init"&&(console.log("non-init event at pos="+r.toString()),A(s)),T++}}e.nyt_et.get_pageview_id=function(){return _&&f>=1?d:c},e.nyt_et.get_context_id=function(){return _&&f>=1?m:a},e.nyt_et.get_source_app=function(){return _&&f>=1?x:l},e.nyt_et.get_host=function(){return i},e.nyt_et.is_running_in_webview=function(){return _},e.nyt_et.get_native_pageview_id=function(){return d},e.nyt_et.get_native_context_id=function(){return m},e.nyt_et.get_native_source_app=function(){return x},e.nyt_et.get_native_agent_id=function(){return E},e.nyt_et.get_buffer_len=function(){p.length},e.nyt_et.get_buffer=function(){return p},e.nyt_et.get_last_send_response=function(){var n=O;return n&&(O=null),n},e.nyt_et.get_num_blocked_heartbeats=function(){return R},e.nyt_et.reset_blocked_heartbeat_counts=function(){R=0},_&&(console.log("et.js use_webview_dedup_logic enabled."),K(se).then(n=>{m=n[h],d=n[y],x=n[g],F()}).catch(console.error).finally(console.log))})(window,"v1.4.4");})();
+
+;(function c(e){var n,t=(null===(n=e=e||("undefined"!=typeof window?window:void 0))||void 0===n?void 0:n.UnifiedTracking)||{};return t.context="web",e?(e.UnifiedTracking=t,t.sendAnalytic=function(n,t){return e.dataLayer=e.dataLayer||[],Array.isArray(e.dataLayer)&&(t.event=t.event||n,e.dataLayer.push(t)),Promise.resolve({success:!0})},t):t})(window);!function(r){var n,t;r=r||self,n=r.Abra,(t=r.Abra=function(){"use strict";var r=Array.isArray,n=function(r,n,t){var e=r(t,n),u=e[0],o=e[1];if(null==u||""===u)return n;for(var i=String(u).split("."),a=0;a<i.length&&(n=n[i[a]]);a++);return null==n&&(n=o),null!=n?n:null},t=function(r,n,t){return r(t,n).reduce((function(r,n){return parseFloat(r)+parseFloat(n)}),0)},e=function(r,n,t){var e=r(t,n);return e[0]/e[1]},u=function(r,n,t){var e=r(t,n);return e[0]%e[1]},o=function(r,n,t){return r(t,n).reduce((function(r,n){return parseFloat(r)*parseFloat(n)}),1)},i=function(r,n,t){var e=r(t,n),u=e[0],o=e[1];return void 0===o?-u:u-o};function a(n){return!(r(n)&&0===n.length||!n)}var f=function(r,n,t){for(var e,u=0;u<t.length;u++)if(!a(e=r(t[u],n)))return e;return e},c=function(r,n,t){var e;for(e=0;e<t.length-1;e+=2)if(a(r(t[e],n)))return r(t[e+1],n);return t.length===e+1?r(t[e],n):null},l=function(r,n,t){return!a(r(t,n)[0])},v=function(r,n,t){for(var e,u=0;u<t.length;u++)if(a(e=r(t[u],n)))return e;return e},d=function(r,n,t){var e=r(t,n);return e[0]===e[1]},s=function(r,n,t){var e=r(t,n);return e[0]!==e[1]},h=function(r,n,t){var e=r(t,n),u=e[0],o=e[1];return!(!o||void 0===o.indexOf)&&-1!==o.indexOf(u)},g=function(r,n,t){var e=r(t,n);return e[0]>e[1]},p=function(r,n,t){var e=r(t,n);return e[0]>=e[1]},b=function(r,n,t){var e=r(t,n),u=e[0],o=e[1],i=e[2];return void 0===i?u<o:u<o&&o<i},w=function(r,n,t){var e=r(t,n),u=e[0],o=e[1],i=e[2];return void 0===i?u<=o:u<=o&&o<=i},y=function(r,n,t){var e=t[0],u=t[1],o=t.slice(2),i=r(e,n);if(!i)return null;if(0===o.length)return null;if(1===o.length)return r(o[0],n);if(4294967295===o[0])return r(o[1],n);for(var a=function(r){var n,t,e,u,o,i=[],a=[t=1732584193,e=4023233417,~t,~e,3285377520],f=[],c=unescape(encodeURI(r))+"\x80",l=c.length;for(f[r=--l/4+2|15]=8*l;~l;)f[l>>2]|=c.charCodeAt(l)<<8*~l--;for(n=l=0;n<r;n+=16){for(t=a;l<80;t=[t[4]+(i[l]=l<16?~~f[n+l]:2*c|c<0)+1518500249+[e&u|~e&o,c=341275144+(e^u^o),882459459+(e&u|e&o|u&o),c+1535694389][l++/5>>2]+((c=t[0])<<5|c>>>27),c,e<<30|e>>>2,u,o])c=i[l-3]^i[l-8]^i[l-14]^i[l-16],e=t[1],u=t[2],o=t[3];for(l=5;l;)a[--l]+=t[l]}return a[0]>>>0}(i+" "+r(u,n));o.length>1;){var f=o.splice(0,2),c=f[0],l=f[1];if(a<=r(c,n))return r(l,n)}return 0===o.length?null:r(o[0],n)},k=function(r,n,t){var e=t[0],u=t[1],o=r(e,n);return null==o?null:new RegExp(u).test(o)};return function(a,m,O,A){void 0===a&&(a={}),void 0===m&&(m={}),void 0===O&&(O={}),void 0===A&&(A=!1);var j=function(){var r={},n=function(n){if(n)for(var t,e=decodeURIComponent(n[1]),u=/(?:^|,)([^,=]+)=([^,]*)/g;t=u.exec(e);){var o=t,i=o[1],a=o[2];r[i]=a||null}};n(document.cookie.match(/(?:^|;) *abra-overrides=([^;]+)/)),n(window.location.search.match(/(?:\?|&)abra-overrides=([^&]+)/));var t=/(?:^|;) *abra-nuke=true(?:;|$)/.test(document.cookie)||/(?:\?|&)abra-nuke=true(?:&|$)/.test(window.location.search);return[r,t]}(),x=j[0],E=j[1];Object.keys(O).forEach((function(r){x[r]=O[r]}));var F,C=A||E,R=(F={var:n,if:c,"===":d,"!==":s,and:f,or:v,"!":l,">":g,">=":p,"<":b,"<=":w,"+":t,"-":i,"*":o,"/":e,"%":u,in:h,abtest_partition:y,regex_match:k,ref:function(r,n,t){var e=r(t,n)[0];return U(e)}},function n(t,e){if(e||(e={}),r(t))return t.map((function(r){return n(r,e)}));if(!function(n){return"object"==typeof n&&null!==n&&!r(n)&&1===Object.keys(n).length}(t))return t;var u=function(r){return Object.keys(r)[0]}(t),o=t[u];r(o)||(o=[o]);var i=F[u];if(!i)throw new Error("Unrecognized operation "+u);return i(n,e,o)}),U=function(r){if(!r)return null;var n=x[r];if(void 0===n){if(!C){if(Object.prototype.hasOwnProperty.call(x,r))throw new Error("circular logic");x[r]=void 0,n=R(a[r],m)}void 0===n&&(n=null),x[r]=n}return n};return U}}()).noConflict=function(){return r.Abra=n,t}}(this);
+;(function () { var NYTD="undefined"!=typeof window&&window.NYTD?window.NYTD:{};function setupTimeZone(){var e='[data-timezone][data-timezone~="'+(new Date).getHours()+'"] { display: block }',i=document.createElement("style");i.innerHTML=e,document.head.appendChild(i)}function addNYTAppClass(){var e=window.vi&&window.vi.webviewEnvironment||{};e&&e.isInWebview&&document.documentElement.classList.add("NYTApp"),e&&e.isPreloaded&&document.documentElement.classList.add("NYTAppPreloaded"),e&&e.deviceType&&document.documentElement.classList.add(window.vi.webviewEnvironment.deviceType)}function addNYTPageTypeClass(){var e=window.vi.pageType.edge;e&&document.documentElement.classList.add("nytapp-"+e)}function isIOSNewsreaderWebview(){return void 0!==window.vi&&void 0!==window.vi.webviewEnvironment&&"IOS"===window.vi.webviewEnvironment.deviceType&&"newsreader"===window.vi.webviewEnvironment.appType}function shouldUseNativePvid(){return void 0!==window.vi&&void 0!==window.vi.webviewEnvironment&&window.vi.webviewEnvironment.isPreloaded||isIOSNewsreaderWebview()}function setNativePageViewId(e){return e?NYTD.PageViewId.current=e:isIOSNewsreaderWebview()?window.NativeBridge.getPageViewID().then(function(e){window.NYTD=window.NYTD||{},window.NYTD.PageViewId=window.NYTD.PageViewId||{},e&&e.values&&e.values.pageViewID?NYTD.PageViewId.current=e.values.pageViewID:NYTD.PageViewId.current="native-bridge-pageview_id-undefined"}).catch(function(){NYTD.PageViewId.current="native-bridge-getpageviewid-catch"}):window.config&&window.config.AdRequirements&&window.config.AdRequirements.page_view_id?NYTD.PageViewId.current=window.config.AdRequirements.page_view_id:NYTD.PageViewId.current="native-pageview_id-unavailable",NYTD.PageViewId.current}function forceNativePageViewIdUpdate(e){setNativePageViewId(e),window.AdSlot4&&window.AdSlot4.updateAdReq&&window.AdSlot4.updateAdReq({page_view_id:e})}function handlePvidDidChange(e){forceNativePageViewIdUpdate(e&&e.detail&&(e.detail.pageViewID||e.detail.newID))}function setupPageViewId(){NYTD.PageViewId={},NYTD.PageViewId.update=function(e){return e?NYTD.PageViewId.current=e:shouldUseNativePvid()?setNativePageViewId():"undefined"!=typeof nyt_et&&"function"==typeof window.nyt_et.get_pageview_id?(window.nyt_et("pageinit"),NYTD.PageViewId.current=window.nyt_et.get_pageview_id()):NYTD.PageViewId.current="no-native-bridge-nor-nyt_et",NYTD.PageViewId.current},shouldUseNativePvid()&&(isIOSNewsreaderWebview()?window.NativeBridge.addEventListener("pageViewIDDidChange",handlePvidDidChange):window.updatePageViewID=forceNativePageViewIdUpdate)}function reRenderEvent(){window.dispatchEvent(new CustomEvent("rerender-programming",{detail:{viewport:window.innerWidth}}))}function setupResizeListeners(){var e=window.vi&&window.vi.webviewEnvironment||{},i=window.vi&&window.vi.pageType&&window.vi.pageType.edge;e&&e.isPreloaded&&"vi-homepage"===i&&(window.addEventListener("resize",function(){reRenderEvent("window.onresize callback")}),window.addEventListener("rerender-ready",function(){reRenderEvent("rerender-ready Custom Event callback")}))}var _f=function(){try{document.domain="nytimes.com"}catch(e){}window.swgUserInfoXhrObject=new XMLHttpRequest,setupPageViewId(),setupTimeZone(),addNYTAppClass(),addNYTPageTypeClass(),setupResizeListeners(),window.nyt_et&&"function"==typeof window.nyt_et&&window.nyt_et("init",vi.env.ET2_URL,"nyt-vi",{use_webview_dedup_logic:!0},{subject:"page",canonicalUrl:(document.querySelector("link[rel=canonical]")||{}).href,articleId:(document.querySelector("meta[name=articleid]")||{}).content,nyt_uri:(document.querySelector("meta[name=nyt_uri]")||{}).content,pubpEventId:(document.querySelector("meta[name=pubp_event_id]")||{}).content,url:location.href,referrer:document.referrer||void 0,client_tz_offset:(new Date).getTimezoneOffset()}),shouldUseNativePvid()?setNativePageViewId():"undefined"!=typeof nyt_et&&"function"==typeof window.nyt_et.get_pageview_id?NYTD.PageViewId.current=window.nyt_et.get_pageview_id()||"nyt_et-pageview_id-undefined":NYTD.PageViewId.update(),window.queue=[];var e=window.reportError;window.reportError=function(){var i=Array.prototype.slice.call(arguments),n=i[0];(n.message.includes("Hydration failed because the server rendered")||n.message.includes("Minified React error #423")||n.message.includes("Minified React error #418"))&&(window.hasHydrationError=!0),e.apply(null,i)},window.NYTD=NYTD||{}};;_f.apply(null, []); })();;(function () { var NYTD="undefined"!=typeof window&&window.NYTD?window.NYTD:{};var _f=function(n){var i=window.vi&&window.vi.webviewEnvironment&&window.vi.webviewEnvironment.isPreloaded;function e(){if(window.Abra&&"function"==typeof window.Abra){NYTD.Abra=function(){var e=i?window.getNativeBridgeCookie("nyt-a"):(window.document.cookie.match(/(?:^|;) *nyt-a=([^;]*)/)||[])[1],o=[];window.dataLayer=window.dataLayer||[],c.config=n.abraConfig||{},c.reportedAllocations={},c.reportedExposures={};var t=(n.abraURL||"").match(/current[/]([a-zA-Z-]+).json/i);c.integration=t&&t.length>1?t[1]:"";try{c.version=window.Abra(c.config)(".ver")}catch(n){c.version=0}var r=c.config,a={agent_id:e},d=window.Abra(r,a);function c(n){return c.getAbraSync(n).variant}return c.getAbraSync=function(n){var i=c.reportedAllocations[n];if(void 0!==i)return{variant:i,allocated:!0};var e=null,o=!1;try{e=d(n),o=!0}catch(n){}return{variant:e,allocated:o}},c.reportExposure=function(n){var i=c.getAbraSync(n).variant;if(null!=i&&(void 0===c.reportedExposures[n]||i!==c.reportedExposures[n])){c.reportedExposures[n]=i;var e={event:"ab-expose",abtest:{test:n,variant:i,config_ver:c.version,integration:c.integration}};window.UnifiedTracking.sendAnalytic(e.event,e)}},c.alloc=function(){Object.keys(c.config).filter(function(n){return!n.includes(".")}).forEach(function(n){var i=c.getAbraSync(n);i.allocated&&(c.reportedAllocations[n]=i.variant,o.push({test:n,variant:i.variant}))});var n={event:"ab-alloc",abtest:{batch:o}};window.UnifiedTracking.sendAnalytic(n.event,n)},c.alloc(),c}();var e=window.NYTD.Abra.getAbraSync("SHA_opinionPrompt_0325").variant;e&&document.documentElement.classList.add("SHA_opinionPrompt_0325_"+e),window.NYTD=NYTD||{}}}i&&!window.nativeBridgeCookies?window.initNativeBridgeCookies(e):e()};;_f.apply(null, [{"abraConfig":{".ver":27686,"UPSHOT_wordleStateV2_0306":{"abtest_partition":[{"var":"agent_id"},"UPSHOT_wordleStateV2_0306",4294967295,"0_Control"]},"UJ_user_settings_target_newsletter":{"abtest_partition":[{"var":"agent_id"},"79dec949-9025-48f1-ac0f-beb9f03f4a1b",858993458,"1_active",4294967295,"1_active"]},"UJ_ResurfaceRegiOnboarding_0924":{"abtest_partition":[{"var":"regi_id"},"UJ_ResurfaceRegiOnboarding_0924",107374181,"1_ResurfaceRegiOnboarding",214748364,"2_ResurfaceRegiOnboarding",2254857829,"1_ResurfaceRegiOnboarding",4294967295,"2_ResurfaceRegiOnboarding"]},"UJ_ResurfaceAAOnboarding_0924":{"abtest_partition":[{"var":"regi_id"},"b55428d5-e011-491d-8a6c-d0ae603af489",2147483647,"1_ResurfaceAAOnboarding",4294967295,"2_ResurfaceAAOnboarding"]},"UJ_BolderDisrupter_0625":{"abtest_partition":[{"var":"regi_id"},"UJ_BolderDisrupter_0625",1430224109,"1_bolder",2860448218,"1_bolder",4294967295,"1_bolder"]},"UJ_appsflyer_deeplink":{"abtest_partition":[{"var":"agent_id"},"cb953340-6f1c-40e7-b4c7-90b379a18729",4294967295,"1_active"]},"TX_regi_onboarding_nl_update":{"if":[{"or":[{"and":[{"===":[{"var":"geo_country"},"US"]}]}]},{"abtest_partition":[{"var":"regi_id"},"c82a6b28-7207-44f8-8b7e-672e07d12d18",2147483647,"0_control",4294967295,"1_context"]}]},"SUBX_regi_traffic_controller":{"abtest_partition":[{"var":"regi_id"},"3a3bea42-2670-4870-9e65-0fc74bc7396b",1717986917,"1_fdh",4294967295,"2_no_fdh"]},"SUBX_regi_freeDailyHabit":{"if":[{"and":[{"in":[{"ref":"SUBX_regi_traffic_controller"},["1_fdh"]]}]},{"abtest_partition":[{"var":"regi_id"},"7aee93de-ab3b-483f-9215-c21e83bcb38c",1431512599,"0_control",2863025199,"1_fdh_onsite",4294967295,"2_fdh_email"]}]},"SUBX_fdh_showTopStoryFlag":{"abtest_partition":[{"var":"agent_id"},"064a8ad1-a5c8-4653-a9d8-3da57a9ca4b7",4294967295,"showTopStory"]},"SUBX_fdh_allowSamizdatQuery":{"abtest_partition":[{"var":"agent_id"},"064a8ad1-a5c8-4653-a9d8-3da57a9ca4b7",4294967295,"allowQuery"]},"SUBREV_FP_SUBS_WELCOME_AD_259":{"abtest_partition":[{"var":"regi_id"},"SUBREV_FP_SUBS_WELCOME_AD_259",4294967295,"1_Sub_FP_Welcome_Ad"]},"SUBREV_FP_SUBS_GAMES_BANNER_259":{"abtest_partition":[{"var":"regi_id"},"SUBREV_FP_SUBS_GAMES_BANNER_259",4294967295,"1_Sub_FP_Banner"]},"SUBREV_FP_NON_SUBS_GAMES_BANNER_259":{"abtest_partition":[{"var":"agent_id"},"SUBREV_FP_NON_SUBS_GAMES_BANNER_259",4294967295,"1_Non_Sub_FP_Banner"]},"SUBREV_FAMILY_PLAN_UPGRADE_EXPERIMENT_087":{"abtest_partition":[{"var":"regi_id"},"SUBREV_FAMILY_PLAN_UPGRADE_EXPERIMENT_087",1073741823,"1_All_Access_Family",2147483647,"1_All_Access_Family",3221225471,"1_All_Access_Family",4294967295,"1_All_Access_Family"]},"SUBCON_RES_AIG_SURVEY_228":{"abtest_partition":[{"var":"agent_id"},"SUBCON_RES_AIG_SURVEY_228",4080218930,"0_Control",4294967295,"1_Variant"]},"STYLN_LIVE_USER_STATE_API_SWITCH":{"abtest_partition":[{"var":"agent_id"},"STYLN_LIVE_USER_STATE_API_SWITCH",4294967295,null]},"STCO_bookModule_0325":{"if":[{"and":[{"!":{"in":[{"ref":"CL_HoldoutRegi_0325"},["0_holdout"]]}}]},{"abtest_partition":[{"var":"regi_id"},"STCO_bookModule_0325",2147483647,"1_TestVariant",4294967295,"1_TestVariant"]}]},"SP_ReqToComRollout_Web":{"abtest_partition":[{"var":"agent_id"},"SP_ReqToComRollout_Web",214748364,"0_Off",236223200,"0_Off",3242700307,"0_Off",3435973836,"0_Off",4101693767,"0_Off",4294967295,"0_Off"]},"SP_commentsThreading_0425":{"abtest_partition":[{"var":"regi_id"},"SP_commentsThreading_0425",2147483647,"1_Threading",4080218930,"1_Threading",4294967295,"1_Threading"]},"SP_commentsRefactor_1224":{"abtest_partition":[{"var":"agent_id"},"SP_commentsRefactor_1224",858993458,"1_New",3006477106,"1_New",3221225471,"1_New",4294967295,"1_New"]},"SEO_spanishSearchTranslation_0824":{"abtest_partition":[{"var":"agent_id"},"SEO_spanishSearchTranslation_0824",4294967295,null]},"SEO_langInputSearchBar_0824":{"abtest_partition":[{"var":"agent_id"},"SEO_langInputSearchBar_0824",4294967295,"1_Rollout"]},"ORCA_GWP_2025_06":{"abtest_partition":[{"var":"agent_id"},"b22cc63e-7411-43e1-b5d5-88061368364e",4294967295,"2_Variant"]},"ON_news_upsell_sale":{"abtest_partition":[{"var":"agent_id"},"ON_news_upsell_sale",3865470565,"1_news_upsell",4294967295,"1_news_upsell"]},"OMA_WEB_LIBRARY_OPS_HARDCODED_FALLBACK":{"abtest_partition":[{"var":"agent_id"},"OMA_WEB_LIBRARY_OPS_HARDCODED_FALLBACK",1073741823,null]},"OMA_TIMEOUTROLLOUT_062024":{"abtest_partition":[{"var":"agent_id"},"OMA_TIMEOUTROLLOUT_062024",4294967295,"on"]},"OMA_SAMIZDAT_SELECTION_KILL_SWITCH":{"abtest_partition":[{"var":"agent_id"},"OMA_SAMIZDAT_SELECTION_KILL_SWITCH"]},"OMA_SAMIZDAT_OPS_KILL_SWITCH":{"abtest_partition":[{"var":"agent_id"},"OMA_SAMIZDAT_OPS_KILL_SWITCH"]},"OMA_SAMIZDAT_KILL_SWITCH":{"abtest_partition":[{"var":"agent_id"},"OMA_SAMIZDAT_KILL_SWITCH"]},"OMA_regiwallBandit_0224":{"abtest_partition":[{"var":"agent_id"},"OMA_regiwallBandit_0224",4294967295,"1_Variant"]},"OMA_FEDERATED_QUERY":{"abtest_partition":[{"var":"agent_id"},"OMA_FEDERATED_QUERY",64424508,"on",85899345,"on",107374181,"on",128849018,"on",150323854,"on",171798691,"on",193273527,"on",214748364,"on",236223200,"on",257698037,"on",279172873,"on",300647710,"on",322122546,"on",343597383,"on",365072219,"on",386547056,"on",408021892,"on",429496729,"on",450971565,"on",472446402,"on",493921238,"on",515396075,"on",536870911,"on",558345747,"on",579820584,"on",601295420,"on",773094112,"on",1116691496,"on",1503238553,"on",1717986917,"on",1889785609,"on",2126008811,"on",4294967295,"on"]},"OMA_FASTLY_ROLLOUT_09_24":{"abtest_partition":[{"var":"agent_id"},"OMA_FASTLY_ROLLOUT_09_24",214748364,"1_fastly",429496729,"1_fastly",644245093,"1_fastly",858993458,"1_fastly",1288490188,"1_fastly",1717986917,"1_fastly",2576980377,"1_fastly",3435973836,"1_fastly",3865470565,"1_fastly",4294967295,"1_fastly"]},"OMA_DVSP_ROLLOUT":{"abtest_partition":[{"var":"agent_id"},"OMA_DVSP_ROLLOUT",4294967295,"on"]},"OMA_DISABLE_USER_STATE_HYBRID":{"abtest_partition":[{"var":"agent_id"},"OMA_DISABLE_USER_STATE_HYBRID",1073741823,"enabled",4294967295,"enabled"]},"OMA_ALGO_POWERED_UPGRADE_CAMPAIGN":{"abtest_partition":[{"var":"agent_id"},"OMA_ALGO_POWERED_UPGRADE_CAMPAIGN",214748364,"0_Control",429496729,"1_Variant",644245093,"0_Control",858993458,"1_Variant",1503238553,"1_Variant",2147483647,"1_Variant",3221225471,"1_Variant",4294967295,"1_Variant"]},"OFFERS_STRATEGY_PRESENTATION_ROLLOUT_06_2025":{"abtest_partition":[{"var":"agent_id"},"OFFERS_STRATEGY_PRESENTATION_ROLLOUT_06_2025",2147483647,"on",4294967295,"on"]},"OC_SupergraphRollout":{"abtest_partition":[{"var":"regi_id"},"1ddbdee2-5186-4653-9913-f7b0975066e0",4294967295,"supergraph"]},"MX_Turn_Off_CAPI_0324":{"abtest_partition":[{"var":"agent_id"},"MX_Turn_Off_CAPI_0324",4294967295,"0_no_capi"]},"MX_OMA_DOCK_INTERNAL_TEST":{"abtest_partition":[{"var":"agent_id"},"MX_OMA_DOCK_INTERNAL_TEST",4080218930,"0_Control",4294967295,"0_Control"]},"MX_NewArchitecture_gateway":{"if":[{"and":[{"===":[{"ref":"MX_NewArchitecture_MeterReal"},"1_variant"]}]},{"abtest_partition":[{"var":"agent_id"},"MX_NewArchitecture_gateway",21474835,"1_variant",107374181,"1_variant",1073741823,"1_variant",1116691496,"1_variant",1159641169,"1_variant",1267015351,"1_variant",1503238553,"1_variant",1717986917,"1_variant",1932735282,"1_variant",2126008811,"1_variant",4294967295,"1_variant"]}]},"MX_FF_WELCOME_AD":{"abtest_partition":[{"var":"agent_id"},"MX_FF_WELCOME_AD",4294967295,"1_Variant"]},"MKT_first_party_data_survey_subs_dock":{"abtest_partition":[{"var":"regi_id"},"MKT_first_party_data_survey_subs_dock",2748779068,"0_control",2963527433,"1_survey",4294967295,"0_control"]},"MKT_first_party_data_survey_regi_dock":{"abtest_partition":[{"var":"regi_id"},"MKT_first_party_data_survey_regi_dock",3822520892,"0_control",3908420238,"1_survey",4294967295,"0_control"]},"MKT_first_party_data_survey":{"abtest_partition":[{"var":"agent_id"},"MKT_first_party_data_survey",2061584301,"0_control",2276332666,"1_survey",3650722201,"0_control",4294967295,"1_survey"]},"GUAC_GROWTH_EXISTING_SUBS_BAR1_SPLIT":{"abtest_partition":[{"var":"agent_id"},"84bd05a9-a853-4748-90ac-cefc321921e3",858993458,"v7",1288490188,"v7",4294967295,"v7"]},"DFP_adelaide_0325":{"abtest_partition":[{"var":"agent_id"},"DFP_adelaide_0325",2147483647,"0_ROS",4294967295,"1_Adelaide"]},"CONV_WELCOME_AD_BANDIT_258":{"abtest_partition":[{"var":"agent_id"},"ef89fa84-5326-4005-aafe-7ea29b7c1252",4294967295,"OFF"]},"CONV_VISUAL_RECIRC_MODAL":{"abtest_partition":[{"var":"agent_id"},"9a393363-2640-4320-9708-b51e1eb9f9b9",1073741823,"0_control",2147483647,"1_visual_paywall",3221225471,"2_visual_modal",4294967295,"3_alta_control"]},"CONV_TA_PLOPRO":{"abtest_partition":[{"var":"agent_id"},"96d53a14-1b33-48a2-99f0-9048b9a952b4",4294967295,"2_value_cards"]},"CONV_GUAC_PLOPRO_SLAYER_0224":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_PLOPRO_SLAYER_0224",4294967295,"1_slayer"]},"CONV_GUAC_NewsPaywall_SLAYER_0324":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_NewsPaywall_SLAYER_0324",4294967295,"1_Slayer"]},"CONV_GUAC_CKLP_ExpressCheckOut_RollOut_0124":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_CKLP_ExpressCheckOut_RollOut_0124",4294967295,"1_expresscheckout"]},"CONV_GUAC_CK_AA_Intl_AnnualOffer_0524":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_CK_AA_Intl_AnnualOffer_0524",4294967295,null]},"CONV_GUAC_AALP_SLAYER_0224":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_AALP_SLAYER_0224",4294967295,"1_slayer"]},"CONV_GUAC_AALP_HDAnchor_Test_0424":{"abtest_partition":[{"var":"agent_id"},"CONV_GUAC_AALP_HDAnchor_Test_0424",1417339207,"1_anchor",4294967295,"1_anchor"]},"CONV_GUAC_AADock_SLAYER_0324":{"abtest_partition":[{"var":"regi_id"},"CONV_GUAC_AADock_SLAYER_0324",4294967295,"1_slayer"]},"CL_HoldoutRegi_0325":{"abtest_partition":[{"var":"regi_id"},"CL_HoldoutRegi_0325",429496729,"0_holdout",858993458,"1_best_experience",4294967295,"2_testing"]},"APP_UserSpace_AddFromStory":{"abtest_partition":[{"var":"regi_id"},"1694f1f3-89f8-41b2-a829-073a40a2c2e1",2147483647,"0_control",4294967295,"1_eos_recirc"]},"APP_DFP_LazyLoad_0325":{"abtest_partition":[{"var":"regi_id"},"APP_DFP_LazyLoad_0325",214748364,"2_One",429496729,"2_One",858993458,"2_One",1073741823,"2_One",1288490188,"2_One",3221225471,"2_One",4294967295,"2_One"]},"AMS_FrictionCircumventionMobile_cwv":{"abtest_partition":[{"var":"agent_id"},"AMS_FrictionCircumventionMobile_cwv",14315125,"2_low-mid-truncation",214726889,"2_low-mid-truncation",243357141,"2_low-mid-truncation",257672267,"2_low-mid-truncation",271987393,"2_low-mid-truncation",286302519,"2_low-mid-truncation",300617645,"2_low-mid-truncation",314932771,"2_low-mid-truncation",329247897,"2_low-mid-truncation",343563023,"2_low-mid-truncation",357878149,"2_low-mid-truncation",372193275,"2_low-mid-truncation",386508401,"2_low-mid-truncation",400823527,"2_low-mid-truncation",415138653,"2_low-mid-truncation",429453779,"2_low-mid-truncation",443768905,"2_low-mid-truncation",558289913,"2_low-mid-truncation",830277307,"2_low-mid-truncation",1259731087,"2_low-mid-truncation",4294967295,"2_low-mid-truncation"]},"AMS_FrictionCircumventionDesktop_cwv":{"abtest_partition":[{"var":"agent_id"},"AMS_FrictionCircumventionDesktop_cwv",14315125,"2_low-mid-truncation",214726889,"2_low-mid-truncation",243357141,"2_low-mid-truncation",257672267,"2_low-mid-truncation",271987393,"2_low-mid-truncation",286302519,"2_low-mid-truncation",300617645,"2_low-mid-truncation",314932771,"2_low-mid-truncation",329247897,"2_low-mid-truncation",343563023,"2_low-mid-truncation",357878149,"2_low-mid-truncation",372193275,"2_low-mid-truncation",386508401,"2_low-mid-truncation",400823527,"2_low-mid-truncation",415138653,"2_low-mid-truncation",429453779,"2_low-mid-truncation",443768905,"2_low-mid-truncation",458084031,"2_low-mid-truncation",644180669,"2_low-mid-truncation",844592433,"2_low-mid-truncation",1245415961,"2_low-mid-truncation",4294967295,"2_low-mid-truncation"]},"ACAC_SupergraphRollout":{"abtest_partition":[{"var":"agent_id"},"ACAC_SupergraphRollout",4294967295,"supergraph"]}},"abraURL":"https://a1.nyt.com/abra-config/current/vi-prd.json"}]); })();;(function () { var _f=function(e,r){var t=window.vi&&window.vi.webviewEnvironment&&window.vi.webviewEnvironment.isPreloaded;function n(){var n,s,o=e.url;try{n=JSON.parse(e.body)}catch(e){return void console.error("Error parsing body:",e)}try{var i=window.location.search.slice(1).split("&").reduce(function(e,r){return"ip-override"===r.split("=")[0]?"?"+r:e},"");o+=i}catch(e){console.warn(e)}function a(r,n,s,o){var i=new XMLHttpRequest;for(var a in i.withCredentials=!0,i.open(r,n,!0),i.setRequestHeader("Content-Type","application/json"),i.setRequestHeader("Accept","application/json"),t&&(i.setRequestHeader("NYT-User-Token",window.getNativeBridgeCookie("NYT-S")),i.setRequestHeader("NYT-Agent-ID",window.getNativeBridgeCookie("nyt-a"))),e.headers)i.setRequestHeader(a,e.headers[a]);i.onreadystatechange=function(){i.readyState===XMLHttpRequest.DONE&&o(i)},i.send(s?JSON.stringify(s):null),window.userXhrObject=i}function d(e){var t;if(200===e.status)try{var s=JSON.parse(e.responseText);!s.data&&s.errors&&s.errors.length>0&&"PersistedQueryNotFound"===s.errors[0].message&&(console.warn("Persisted query not found for GET request."),t={operationName:n.operationName,query:n.query,extensions:{persistedQuery:{version:1,sha256Hash:r}},variables:n.variables},a("POST",o,t,function(e){200!==e.status&&console.warn("POST request failed:",e.status,e.statusText)}))}catch(e){console.warn("Error processing response:",e)}else console.warn("Request failed:",e.status,e.statusText)}s="extensions="+encodeURIComponent(JSON.stringify({persistedQuery:{version:1,sha256Hash:r}}))+"&operationName="+n.operationName+"&variables="+encodeURIComponent(JSON.stringify(n.variables)),a("GET",o+"?"+s,null,d)}t&&!window.nativeBridgeCookies?window.initNativeBridgeCookies(function(){n()}):n(),window.userXhrRefresh=function(){return n(),window.userXhrObject}};;_f.apply(null, [{"url":"https://samizdat-graphql.nytimes.com/graphql/v2","body":"{\"operationName\":\"UserQuery\",\"variables\":{},\"query\":\"   query UserQuery {     user {       __typename       profile {         displayName         email         givenName       }       newsletterSubscriptions {         newsletters {           productCode           isFreeTrial           freeTrialSignupTime         }       }       userInfo {         regiId         entitlements         demographics {           emailSubscriptions           wat         }       }       protectedIds {         experimentationId         advertisingId       }       subscriptionDetails {         bundleType         cancellationDate         graceStartDate         graceEndDate         isFreeTrial         hasQueuedSub         startDate         endDate         status         hasActiveEntitlements         entitlements         billingSource         promotionTierType         subscriptionName         subscriptionProducts         subscriptionLabels       }     }   } \"}","headers":{"nyt-app-type":"project-vi","nyt-app-version":"0.0.5","nyt-token":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+/oUCTBmD/cLdmcecrnBMHiU/pxQCn2DDyaPKUOXxi4p0uUSZQzsuq1pJ1m5z1i0YGPd1U1OeGHAChWtqoxC7bFMCXcwnE1oyui9G1uobgpm1GdhtwkR7ta7akVTcsF8zxiXx7DNXIPd2nIJFH83rmkZueKrC4JVaNzjvD+Z03piLn5bHWU6+w+rA+kyJtGgZNTXKyPh6EC6o5N+rknNMG5+CdTq35p8f99WjFawSvYgP9V64kgckbTbtdJ6YhVP58TnuYgr12urtwnIqWP9KSJ1e5vmgf3tunMqWNm6+AnsqNj8mCLdCuc5cEB74CwUeQcP2HQQmbCddBy2y0mEwIDAQAB"}},"9ba868405fef0985b1729b9ad4b2b09ca68e415891fb3cf7514330d804b999bd"]); })();;(function () { var registry=window._interactiveRegistry={};function getId(e){for(;(e=e.parentElement)&&!e.matches("[data-sourceid].interactive-body"););return e?e.getAttribute("data-sourceid"):null}window.registerInteractive=function(e){var t={_subs:{cleanup:[],remount:[]},id:e,on:function(e,r){return this._subs[e].push(r),t},errorFound:!1},r=document.getElementById("embed-id-"+e),n=new MutationObserver(function(){(r.textContent.includes("500 Internal Error")||r.textContent.includes("200 undefined"))&&(t.errorFound||(window.dispatchEvent(new CustomEvent("trigger-embed-hydration-"+e)),window.Sentry&&window.Sentry.captureException&&window.Sentry.captureException(new Error("Embed load error, triggered manual rehydration: "+e)),t.errorFound=!0))});r&&n.observe(r,{characterData:!0,attributes:!1,childList:!0,subtree:!0}),registry[e]=t},window.getInteractiveBridge=function(e){var t="string"==typeof e?e:getId(e);return registry[t]}; })();;(function () { var _f=function(){"function"!=typeof window.onInitNativeAds&&(window.onInitNativeAds=function(){})};;_f.apply(null, []); })();;false
+    </script>
+
+<link href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/2.Kxzu0nQ3.css" rel="stylesheet">
+		<link href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.B915GTVN.css" rel="stylesheet">
+		<link href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.BO3sIo_L.css" rel="stylesheet">
+		<link href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.7vFbM30U.css" rel="stylesheet">
+		<link href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.DrIj7li8.css" rel="stylesheet">
+		<link href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.RNGudqyZ.css" rel="stylesheet">
+		<link href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.C1Cf8Ddc.css" rel="stylesheet">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/entry/start.DV9MQVGh.js">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/scheduler.CHvHqn_i.js">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/singletons.SxeSzSvc.js">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/entry/app.DxO9WwGW.js">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/preload-helper.BQ24v_F8.js">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/index.9AAcdl_7.js">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/nodes/0.Do4hPQr_.js">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/nodes/2.CXxpv8Zy.js">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/2.CUfvzD1r.js">
+		<link rel="modulepreload" href="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/stores.CK6spNpc.js">
+
+</head>
+  <body>
+    <div id="app"><div id="standalone-header"><div data-feature-gate="loading" data-dynamic-config="loading" data-srm-experiment="loading" data-testid="masthead-container" class="interactive-masthead NYTAppHideMasthead css-xuu3c2 e1m0pzr40"><header class="css-1nf2dl3 e1m0pzr41"><section class="css-v265i6 e1m0pzr42"><div class="css-1ch6mhx ea180rp0"><a class="css-kgn7zc" href="#site-content">Skip to content</a><a class="css-kgn7zc" href="#site-index">Skip to site index</a></div><div class="css-10698na ell52qj0"><a data-testid="masthead-mobile-logo" aria-label="New York Times homepage" class="css-ijmohz ell52qj1" href="/"><svg viewBox="0 0 184 25" fill="#fff" aria-hidden="true"><path d="M14.57,2.57C14.57,.55,12.65-.06,11.04,.01V.19c.96,.07,1.7,.46,1.7,1.11,0,.45-.32,1.01-1.28,1.01-.76,0-2.02-.45-3.2-.84-1.3-.45-2.54-.87-3.57-.87-2.02,0-3.55,1.5-3.55,3.36,0,1.5,1.16,2.02,1.63,2.21l.03-.07c-.3-.2-.49-.42-.49-1.06,0-.54,.39-1.26,1.43-1.26,.94,0,2.17,.42,3.8,.88,1.4,.39,2.91,.76,3.75,.87v3.28l-1.58,1.3,1.58,1.36v4.49c-.81,.46-1.75,.61-2.56,.61-1.5,0-2.88-.42-4.02-1.68l4.26-2.07V5.73l-5.2,2.32c.54-1.38,1.55-2.41,2.66-3.08l-.03-.08C3.31,5.73,.5,8.56,.5,12.06c0,4.19,3.35,7.3,7.22,7.3,4.19,0,6.65-3.28,6.61-6.75h-.08c-.61,1.33-1.63,2.59-2.78,3.25v-4.38l1.65-1.33-1.65-1.33v-3.28c1.53,0,3.11-1.01,3.11-2.96M5.8,14.13l-1.21,.61c-.74-.96-1.23-2.32-1.23-4.07,0-.72,.08-1.7,.32-2.39l2.14-.96-.03,6.8h0Zm19.47-5.76l-.81,.64-2.47-2.2-2.86,2.21V.48l-3.89,2.69c.45,.15,.99,.39,.99,1.43v11.81l-1.33,1.01,.12,.12,.67-.46,2.32,2.12,3.11-2.07-.1-.15-.79,.52-1.08-1.08v-7.12l.74-.54,1.7,1.48v6.19c0,3.92-.87,4.73-2.63,5.37v.1c2.93,.12,5.57-.87,5.57-5.89v-6.75l.88-.72-.12-.15h0Zm5.22,10.8l4.51-3.62-.12-.17-2.36,1.87-2.71-2.14v-1.33l4.68-3.3-2.36-3.67-5.2,2.86v6.8l-1.01,.79,.12,.15,.96-.76,3.5,2.54h-.01Zm-.69-5.67v-5.15l2.27,3.55-2.27,1.6ZM53.65,1.61c0-.32-.08-.59-.2-.96h-.07c-.32,.87-.67,1.33-1.68,1.33-.88,0-1.58-.54-1.95-.94,0,.03-2.96,3.42-2.96,3.42l.15,.12,.84-.96c.64,.49,1.21,1.06,2.63,1.08V13.34l-6.06-10.5c-.47-.79-1.28-1.97-2.66-1.97-1.63,0-2.86,1.4-2.66,3.77h.1c.12-.59,.47-1.33,1.18-1.33,.57,0,1.03,.54,1.3,1.03v3.38c-1.87,0-2.93,.87-2.93,2.34,0,.61,.45,1.94,1.72,2.17v-.07c-.17-.17-.34-.32-.34-.67,0-.57,.42-.88,1.18-.88,.12,0,.3,.03,.37,.05v4.38c-2.2,.03-3.89,1.23-3.89,3.31s1.7,2.88,3.47,2.78v-.07c-1.11-.12-1.68-.69-1.68-1.5,0-.88,.64-1.36,1.45-1.36s1.43,.52,1.95,1.11l2.96-3.33-.12-.12-.76,.87c-1.14-1.01-1.87-1.48-3.18-1.68V4.67l8.36,14.57h.45V4.72c1.6-.1,3.03-1.3,3.03-3.11m2.81,17.54l4.51-3.62-.12-.17-2.36,1.87-2.71-2.14v-1.33l4.68-3.3-2.36-3.67-5.2,2.86v6.8l-1.01,.79,.12,.15,.96-.76,3.5,2.54h0Zm-.69-5.67v-5.15l2.27,3.55-2.27,1.6Zm21.22-5.52l-.69,.52-1.97-1.68-2.29,2.07,.94,.88v7.72l-2.34-1.6v-6.26l.81-.57-2.41-2.24-2.24,2.07,.94,.88v7.46l-.15,.1-2.2-1.6v-6.13c0-1.43-.72-1.85-1.63-2.41-.76-.47-1.16-.91-1.16-1.63,0-.79,.69-1.11,.91-1.23-.79-.03-2.98,.76-3.03,2.76-.03,1.03,.47,1.48,.99,1.97,.52,.49,1.01,.96,1.01,1.83v6.01l-1.06,.84,.12,.12,1.01-.79,2.63,2.14,2.51-1.75,2.76,1.75,5.42-3.2v-6.95l1.21-.94-.1-.15h0Zm18.15-5.84l-1.03,.94-2.32-2.02-3.13,2.51V1.19h-.19V18.12c-.34-.05-1.06-.25-1.85-.37V3.58c0-1.03-.74-2.47-2.59-2.47s-3.01,1.56-3.01,2.91h.08c.1-.61,.52-1.16,1.13-1.16s1.18,.39,1.18,1.78v4.04c-1.75,.07-2.81,1.16-2.81,2.34,0,.67,.42,1.92,1.75,1.97v-.1c-.45-.19-.54-.42-.54-.67,0-.59,.57-.79,1.36-.79h.19v6.51c-1.5,.52-2.2,1.53-2.2,2.78,0,1.72,1.38,3.05,3.4,3.05,1.43,0,2.44-.25,3.75-.54,1.06-.22,2.21-.47,2.83-.47,.79,0,1.14,.35,1.14,.91,0,.72-.27,1.08-.69,1.21v.1c1.7-.32,2.69-1.3,2.69-2.83s-1.5-2.54-3.18-2.54c-.87,0-2.44,.27-3.72,.57-1.43,.32-2.66,.47-3.11,.47-.72,0-1.6-.32-1.6-1.28,0-.87,.72-1.56,2.49-1.56,.96,0,1.9,.15,3.08,.42,1.26,.27,2.12,.64,3.2,.64,1.5,0,2.71-.54,2.71-2.74V3.29l1.11-1.01-.12-.15h0Zm-4.24,6.78c-.27,.3-.59,.54-1.11,.54-.57,0-.87-.3-1.14-.54V3.81l.74-.59,1.5,1.28v4.41h0Zm0,2.41c-.25-.25-.57-.47-1.11-.47s-.91,.27-1.14,.47v-2.17c.22,.19,.59,.49,1.14,.49s.87-.25,1.11-.49v2.17Zm0,5.1c0,.84-.42,1.78-1.5,1.78-.17,0-.57-.03-.74-.05v-6.58c.25-.22,.57-.52,1.14-.52,.52,0,.81,.25,1.11,.52v4.86h0Zm8.78,2.74l5.03-3.13v-6.85l-3.25-2.39-5.03,2.88v6.78l-.99,.79,.1,.15,.81-.67,3.33,2.44h0Zm-.37-3.55v-7.3l2.51,1.87v7.3l-2.51-1.87Zm15.01-8.65c-.39,.27-.74,.42-1.11,.42-.39,0-.88-.25-1.14-.57,0,.03-1.87,2.02-1.87,2.02l-1.87-2.02-3.05,2.12,.1,.17,.81-.54,1.11,1.21v6.63l-1.33,1.01,.12,.12,.67-.46,2.49,2.12,3.15-2.09-.1-.15-.81,.49-1.28-1.16v-7.28c.52,.57,1.11,1.06,1.82,1.06,1.28,0,2.14-1.53,2.29-3.11m11.88,9.81l-.94,.59-5.2-7.76,.27-.37c.57,.34,1.08,.81,2.17,.81s2.47-1.14,2.59-3.23c-.27,.37-.81,.81-1.7,.81-.64,0-1.28-.42-1.67-.81l-3.55,5.22,4.71,7.17,3.42-2.27-.1-.17h0Zm-6.31,.19l-.79,.52-1.08-1.08V.48l-3.89,2.69c.45,.15,.99,.39,.99,1.43v11.81l-1.33,1.01,.12,.12,.67-.46,2.32,2.12,3.11-2.07-.1-.15h0Zm22.89-14.39c0-2.02-1.92-2.63-3.53-2.56V.19c.96,.07,1.7,.46,1.7,1.11,0,.45-.32,1.01-1.28,1.01-.76,0-2.02-.45-3.2-.84-1.3-.45-2.54-.87-3.57-.87-2.02,0-3.55,1.5-3.55,3.35,0,1.5,1.16,2.02,1.63,2.21l.03-.07c-.3-.2-.49-.42-.49-1.06,0-.54,.39-1.26,1.43-1.26,.94,0,2.17,.42,3.8,.88,1.4,.39,2.91,.76,3.75,.87v3.28l-1.58,1.3,1.58,1.36v4.49c-.81,.46-1.75,.61-2.56,.61-1.5,0-2.89-.42-4.02-1.68l4.26-2.07V5.73l-5.2,2.32c.54-1.38,1.55-2.41,2.66-3.08l-.03-.08c-3.08,.84-5.89,3.67-5.89,7.17,0,4.19,3.35,7.3,7.22,7.3,4.19,0,6.65-3.28,6.61-6.75h-.07c-.61,1.33-1.63,2.59-2.78,3.25v-4.38l1.65-1.33-1.65-1.33v-3.28c1.53,0,3.11-1.01,3.11-2.96m-8.78,11.56l-1.21,.61c-.74-.96-1.23-2.32-1.23-4.07,0-.72,.07-1.7,.32-2.39l2.14-.96-.03,6.8h0Zm11.93-12.31l-2.17,1.82,1.85,2.09,2.17-1.82-1.85-2.09Zm3.3,15.15l-.79,.52-1.08-1.08v-7.17l.91-.72-.12-.15-.76,.59-1.8-2.14-2.96,2.07,.1,.17,.74-.49,.99,1.23v6.61l-1.33,1.01,.12,.12,.67-.46,2.32,2.12,3.11-2.07-.1-.15h0Zm16.63-.1l-.74,.49-1.16-1.11v-7.03l.94-.72-.12-.15-.84,.64-2.47-2.2-2.78,2.17-2.44-2.17-2.74,2.14-1.85-2.14-2.96,2.07,.1,.17,.74-.49,1.06,1.21v6.61l-.81,.81,2.36,2,2.29-2.07-.94-.88v-7.04l.61-.45,1.7,1.48v6.16l-.79,.81,2.39,2,2.24-2.07-.94-.88v-7.04l.59-.47,1.72,1.5v6.06l-.69,.72,2.41,2.2,3.18-2.17-.1-.15h.02Zm8.6-1.5l-2.36,1.87-2.71-2.14v-1.33l4.68-3.3-2.36-3.67-5.2,2.86v6.93l3.57,2.59,4.51-3.62-.12-.17h0Zm-5.08-1.88v-5.15l2.27,3.55-2.27,1.6Zm14.12-.97l-2-1.53c1.33-1.16,1.8-2.63,1.8-3.69,0-.15-.03-.42-.05-.67h-.08c-.19,.54-.72,1.01-1.53,1.01s-1.26-.45-1.75-.99l-4.58,2.54v3.72l1.75,1.38c-1.75,1.55-2.09,2.51-2.09,3.4s.52,1.67,1.41,2.02l.07-.12c-.22-.19-.42-.32-.42-.79,0-.34,.35-.88,1.14-.88,1.01,0,1.63,.69,1.95,1.06,0-.03,4.38-2.69,4.38-2.69v-3.77h0Zm-1.03-3.05c-.69,1.23-2.21,2.44-3.11,3.13l-1.11-.94v-3.62c.45,.99,1.36,1.82,2.54,1.82,.69,0,1.14-.12,1.67-.39m-1.9,8.13c-.52-1.16-1.63-2-2.86-2-.3,0-1.21-.03-2,.46,.47-.79,1.87-2.21,3.65-3.28l1.21,1.01v3.8Z"></path></svg></a></div><div class="css-1npft71 e1j3jvdr1"></div></section></header></div></div><main id="site-content"><article id="interactive" class="interactive"><section data-testid="inline-interactive" id="covid-lab-leak" data-id="100000009498677" data-uri="nyt://interactive/91d165d6-83c8-523e-b48a-f3cea04659a3" data-source-id="100000009498677" class="interactive-minimal meteredContent interactive-content interactive-size-medium css-1n5umza"><div class="css-17ih8de interactive-body"><script type="text/plain" data-attr="nyt-asset-manifest">{"css":["https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/env.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/2.Kxzu0nQ3.css","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/Base.DGpeet4-.css","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/_page.JBJzaS_6.css","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.7vFbM30U.css","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.B915GTVN.css","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.BO3sIo_L.css","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.C1Cf8Ddc.css","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.DrIj7li8.css","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/assets/index.RNGudqyZ.css","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/2.CUfvzD1r.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/index.9AAcdl_7.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/index.BMH7D9W2.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/index.BVAjSRNJ.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/index.C2IUF4_Q.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/index.CIoQVey2.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/index.CqYEJGUN.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/index.MZMFDiUY.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/preload-helper.BQ24v_F8.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/preprocess.DPKy8Y1H.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/scheduler.CHvHqn_i.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/singletons.SxeSzSvc.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/stores.CK6spNpc.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/chunks/stores.C_7KzK6j.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/entry/app.DxO9WwGW.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/entry/start.DV9MQVGh.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/nodes/0.Do4hPQr_.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/nodes/1.CGYngLUN.js","https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/nodes/2.CXxpv8Zy.js"],"images":[]}</script><!-- birdkit: do not modify this file -->
+<!-- birdkit: html header automatically hoisted to the head -->
+
+		<div
+			id="g-2024-05-09-lableak"
+			class="birdkit-body g-2024-05-09-lableak"
+			data-preview-slug="2024-05-09-lableak"
+			data-birdkit-hydrate="d2e835a8504bc63d"
+		>	
+			
+	  <div class="g-header-wrapper svelte-1gqfoqf"><div class="g-header-container g-theme-opinion svelte-1gqfoqf"><div class="g-kicker-wrapper svelte-1gqfoqf" data-svelte-h="svelte-12556vv"><span class="opinionlabel svelte-1gqfoqf">Opinion</span> <span class="guestessaylabel svelte-1gqfoqf">Guest Essay</span></div> <h1 class="headline svelte-1gqfoqf">Why the Pandemic Probably Started in a Lab, in 5 Key Points</h1></div> <div class="g-headerimg-wrapper svelte-1gqfoqf"><div class="g-media"> <picture style="--g-picture-ratio: 300/300" class="svelte-1bbwgvj"><source media="(max-width: 300px)" srcset="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-300.webp, https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-300@x2.webp 2x"><source media="(max-width: 300px)" srcset="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-300.jpg, https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-300@x2.jpg 2x"><source media="(min-width: 301px) and (max-width: 600px)" srcset="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-600.webp, https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-600@x2.webp 2x"><source media="(min-width: 301px) and (max-width: 600px)" srcset="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-600.jpg, https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-600@x2.jpg 2x"><source media="(min-width: 601px) and (max-width: 900px)" srcset="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-900.webp, https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-900@x2.webp 2x"><source media="(min-width: 601px) and (max-width: 900px)" srcset="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-900.jpg, https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-900@x2.jpg 2x"><source media="(min-width: 901px)" srcset="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-1200.webp, https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-1200@x2.webp 2x"><source media="(min-width: 901px)" srcset="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-1200.jpg, https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-1200@x2.jpg 2x"> <img alt="" loading="lazy" decoding="async" width="300" height="300" src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final-@@-300.webp" class="g-image svelte-z1ymna  nojs"></picture></div> <div class="headerimg-credit svelte-1gqfoqf"><div class="headerimg-credit-inner svelte-1gqfoqf">Illustration by Mike McQuade. Source photographs by Getty Images.</div></div></div> </div><div class="g-extended-byline-wrapper g-theme-opinion svelte-bx9w1d"> <div class="g-extended-byline-container svelte-bx9w1d"> <div class="g-byline-bio-wrapper"><p class="g-byline svelte-1v4fj4n"> <span class="g-last-byline svelte-1v4fj4n"><!-- HTML_TAG_START -->By Alina Chan<!-- HTML_TAG_END --></span> </p> <p class="g-extended-bio svelte-bx9w1d"><!-- HTML_TAG_START -->Dr. Chan is a molecular biologist at the Broad Institute of M.I.T. and Harvard, and a co-author of “Viral: The Search for the Origin of Covid-19.”<!-- HTML_TAG_END --></p> <time class="g-interactive-timestamp svelte-1xfuih8" datetime="2024-06-03T05:04:18-04:00">June 3, 2024 </time> <div class="g-translations-wrapper svelte-bx9w1d"><div class="g-translations-container svelte-vta9ho"><div class="g-translations svelte-vta9ho"><a href="https://cn.nytimes.com/opinion/20240605/covid-lab-leak/" title="Read in Simplified Chinese" data-version="zh-hans" class="svelte-vta9ho">阅读简体中文版</a><a href="https://cn.nytimes.com/opinion/20240605/covid-lab-leak/zh-hant/" title="Read in Traditional Chinese" data-version="zh-hant" class="svelte-vta9ho">閱讀繁體中文版</a></div> </div></div></div></div> <div class="g-sharetools svelte-bx9w1d"><div class="g-sharetools-wrapper svelte-qe9a68 g-align-left"> </div></div> </div><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START --><em>This article has been updated to reflect news developments.</em><!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->On Monday, Dr. Anthony Fauci returned to the halls of Congress and <a href="https://www.youtube.com/live/nvQTXAgtA6s?feature=shared&t=3086">testified before the House subcommittee</a> investigating the Covid-19 pandemic. He was questioned about several topics related to the government’s handling of Covid-19, including how the National Institute of Allergy and Infectious Diseases, which he directed until retiring in 2022, supported risky virus work at a Chinese institute whose research may have caused the pandemic.<!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->For more than four years, reflexive partisan politics have derailed the search for the truth about a catastrophe that has touched us all. It has been estimated that <a href="https://ourworldindata.org/excess-mortality-covid">at least 25 million people</a> around the world have died because of Covid-19, with over a million of those deaths in the United States.<!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->Although how the pandemic started has been hotly debated, a growing volume of evidence — gleaned from public records released under the Freedom of Information Act, digital sleuthing through online databases, scientific papers analyzing the virus and its spread, and leaks from within the U.S. government — suggests that the pandemic most likely occurred because a virus escaped from a research lab in Wuhan, China. If so, it would be the most costly accident in the history of science.<!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->Here’s what we now know:<!-- HTML_TAG_END --></p><h2 class="key-point svelte-rn800m"><span class="number svelte-rn800m">1</span> <span class="text"><!-- HTML_TAG_START -->The SARS-like virus that caused the pandemic emerged in Wuhan, the city where the world’s foremost research lab for SARS-like viruses is located.<!-- HTML_TAG_END --></span> </h2><div class="points svelte-1xf2fpd"><ul class="svelte-1xf2fpd"><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(5deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->At the Wuhan Institute of Virology, <strong>a team of scientists had been hunting for SARS-like viruses</strong> for over a decade, led by Shi Zhengli.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(2deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Their research showed that <strong>the </strong><strong>viruses most similar to SARS‑CoV‑2, the virus that caused the pandemic, </strong><strong>circulate in bats that live</strong><strong> r</strong><strong>oughly 1,000 miles </strong><strong>away from Wuhan.</strong> Scientists from Dr. Shi’s team traveled repeatedly to Yunnan province to <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7106260/">collect these viruses</a> and had expanded their search to Southeast Asia. Bats in other parts of China have not been found to carry viruses that are as closely related to SARS-CoV-2.<!-- HTML_TAG_END --></div> </li></ul> </div><section class="g-wrapper  svelte-13ig1yh g-needs-margin-block" style="">  <div class="g-block g-block-margin svelte-1jrfrvl g-margin-inline" style=""><div class="g-block-width g-max-width-800 svelte-1jrfrvl" style="max-width: 800px;">  <svelte-scrollstory id="g-scrollstory_1" class="active-index-0 active-id-g-scrollstory_1-item-0 state-pre svelte-1507w7m   enabled stepper" style="--scrollstory-threshold-top: 75vh;--scrollstory-threshold-left: 0px;--scrollstory-debug-color: rgba(255, 0, 0, 0.8);--scrollstory-debug-transformY: 20px;--scrollstory-items-start-auto: 0px;--scrollstory-item-spacing: 70vh;--scrollstory-text-start: 1rem;--g-body-padding-top: 0.75rem;--g-body-padding-bottom: 0.75rem;--g-body-padding-left: 0.75rem;--g-body-padding-right: 0.75rem;--g-body-background-color: #fff">    <svelte-scroller-outer class="svelte-xdbafy"><svelte-scroller-background-container class="background-container svelte-xdbafy" style="
+		position: absolute;
+		top: 0;
+		transform: translate(0, 0px);
+		z-index: 1;
+	"><svelte-scroller-background class="svelte-xdbafy"><svelte-scrollstory-background slot="background" class="svelte-1507w7m"><div class="g-scrollingslides"><div class="g-slideshow g-transition-type-fade svelte-7fde2a" style="--g-slideshow-boundheight: auto;--g-slideshow-transition-duration: 0.5s;--g-slideshow-transition-easing: ease;--g-slideshow-transform-x: 0px;--g-slideshow-transform-y: 0px"><div class="g-slides svelte-7fde2a" aria-hidden="false"><div class="g-slide g-slide-0 g-slide-g-slideshow_2-item-0 g-slide-type-graphic svelte-7fde2a g-active" aria-hidden="false"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group" aria-label="graphic">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="A map showing the closest known relatives of SARS-CoV-2 in a mine in the Yunnan province of China and in a cave in northern Laos."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.120.0 - 2024-05-31 12:05 -->
+<!-- ai file: geography.ai -->
+<style media="screen,print">
+	#g-geography-box ,
+	#g-geography-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-geography-box p {
+		margin:0;
+	}
+	#g-geography-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-geography-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-geography-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-geography-box .g-aiPointText p { white-space: nowrap; }
+	#g-geography-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-geography-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:19px;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-geography-335 .g-pstyle0 {
+		line-height:14px;
+		height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+		color:rgb(153,153,153);
+		top:1px;
+		position:relative;
+	}
+	#g-geography-335 .g-pstyle1 {
+		font-style:italic;
+		line-height:12px;
+		height:12px;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:center;
+		color:rgb(173,173,173);
+		top:1px;
+		position:relative;
+	}
+	#g-geography-335 .g-pstyle2 {
+		font-weight:700;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		color:rgb(255,125,0);
+		top:1.1px;
+		position:relative;
+	}
+	#g-geography-335 .g-pstyle3 {
+		font-style:italic;
+		line-height:12px;
+		height:12px;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:center;
+		color:rgb(155,176,188);
+		top:1px;
+		position:relative;
+	}
+	#g-geography-335 .g-cstyle0 {
+		font-weight:700;
+		color:rgb(255,125,0);
+	}
+	#g-geography-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-geography-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:17px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:left;
+		text-transform:none;
+		color:rgb(153,153,153);
+		top:1.1px;
+		position:static;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+	}
+	#g-geography-600 .g-pstyle0 {
+		font-weight:700;
+		line-height:22px;
+		letter-spacing:0.005em;
+		font-size:18px;
+		color:rgb(255,125,0);
+	}
+	#g-geography-600 .g-pstyle1 {
+		line-height:22px;
+		letter-spacing:0.005em;
+		font-size:18px;
+		color:rgb(0,0,0);
+	}
+	#g-geography-600 .g-pstyle2 {
+		height:17px;
+		text-align:center;
+		text-transform:uppercase;
+		position:relative;
+	}
+	#g-geography-600 .g-pstyle3 {
+		font-style:italic;
+		line-height:14px;
+		height:14px;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:center;
+		color:rgb(155,176,188);
+		top:1px;
+		position:relative;
+	}
+	#g-geography-600 .g-pstyle4 {
+		font-style:italic;
+		line-height:16px;
+		height:16px;
+		letter-spacing:0em;
+		font-size:15px;
+		text-align:center;
+		color:rgb(173,173,173);
+		top:1.2px;
+		position:relative;
+	}
+	#g-geography-600 .g-pstyle5 {
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		letter-spacing:0.005em;
+		font-size:16px;
+		color:rgb(255,125,0);
+		top:1.3px;
+		position:relative;
+	}
+	#g-geography-600 .g-cstyle0 {
+		font-weight:300;
+		color:rgb(0,0,0);
+	}
+	#g-geography-800 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-geography-800 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:700;
+		line-height:24px;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:20px;
+		text-align:left;
+		color:rgb(255,125,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-geography-800 .g-pstyle0 {
+		font-weight:300;
+		color:rgb(0,0,0);
+	}
+	#g-geography-800 .g-pstyle1 {
+		font-weight:300;
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+		color:rgb(153,153,153);
+		top:1.1px;
+		position:relative;
+	}
+	#g-geography-800 .g-pstyle2 {
+		font-weight:300;
+		font-style:italic;
+		line-height:15px;
+		height:15px;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:center;
+		color:rgb(155,176,188);
+		top:1px;
+		position:relative;
+	}
+	#g-geography-800 .g-pstyle3 {
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		top:1.3px;
+		position:relative;
+	}
+	#g-geography-800 .g-cstyle0 {
+		font-weight:300;
+		color:rgb(0,0,0);
+	}
+
+</style>
+
+<div id="g-geography-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-geography-335" class="g-artboard" style="max-width: 335px;max-height: 297px" data-aspect-ratio="1.128" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 88.6567% 0;"></div>
+		<img id="g-geography-335-img" class="g-geography-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-bg g-aiAbs" style="top:4.0404%;left:3.8806%;width:68.9552%;">
+			<p>The <span class="g-cstyle0">closest known relatives to SARS-CoV-2</span> were found in southwestern China and in Laos.</p>
+		</div>
+		<div id="g-ai0-2" class="g-annotations g-aiAbs g-aiPointText" style="top:36.353%;margin-top:-7px;left:16.5033%;margin-left:-28px;width:56px;">
+			<p class="g-pstyle0">China</p>
+		</div>
+		<div id="g-ai0-3" class="g-annotations g-aiAbs g-aiPointText" style="top:54.2753%;margin-top:-6.2px;left:60.6275%;margin-left:-39.5px;width:79px;">
+			<p class="g-pstyle1">Large cities</p>
+		</div>
+		<div id="g-ai0-4" class="g-annotations g-aiAbs g-aiPointText" style="top:61.1887%;margin-top:-8.7px;left:21.0153%;width:174px;">
+			<p class="g-pstyle2">Mine in Yunnan province</p>
+		</div>
+		<div id="g-ai0-5" class="g-annotations g-aiAbs g-aiPointText" style="top:62.9523%;margin-top:-7px;left:83.9628%;margin-left:-31.5px;width:63px;">
+			<p class="g-pstyle0">Taiwan</p>
+		</div>
+		<div id="g-ai0-6" class="g-annotations g-aiAbs g-aiPointText" style="top:74.7368%;margin-top:-7px;left:17.5455%;margin-left:-25px;width:50px;">
+			<p class="g-pstyle0">Laos</p>
+		</div>
+		<div id="g-ai0-7" class="g-annotations g-aiAbs g-aiPointText" style="top:83.4109%;margin-top:-8.7px;left:20.4498%;width:100px;">
+			<p class="g-pstyle2">Cave in Laos</p>
+		</div>
+		<div id="g-ai0-8" class="g-annotations g-aiAbs g-aiPointText" style="top:85.9253%;margin-top:-6.2px;left:63.5226%;margin-left:-52.5px;width:105px;">
+			<p class="g-pstyle3">South China Sea</p>
+		</div>
+		<div id="g-ai0-9" class="g-annotations g-aiAbs g-aiPointText" style="top:92.5819%;margin-top:-7px;left:15.2729%;margin-left:-38px;width:76px;">
+			<p class="g-pstyle0">Thailand</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-geography-600" class="g-artboard" style="width:600px; height:380px;" data-aspect-ratio="1.579" data-min-width="600" data-max-width="799">
+<div style=""></div>
+		<img id="g-geography-600-img" class="g-geography-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-bg g-aiAbs" style="top:4.4737%;left:3.3123%;width:67%;">
+			<p class="g-pstyle0"><span class="g-cstyle0">The </span>closest known relatives to SARS-CoV-2</p>
+			<p class="g-pstyle1">were found in southwestern China and in Laos.</p>
+		</div>
+		<div id="g-ai1-2" class="g-annotations g-aiAbs g-aiPointText" style="top:26.2542%;margin-top:-8.8px;left:31.7007%;margin-left:-31.5px;width:63px;">
+			<p class="g-pstyle2">China</p>
+		</div>
+		<div id="g-ai1-3" class="g-annotations g-aiAbs g-aiPointText" style="top:39.2621%;margin-top:-14.2px;left:90.6798%;margin-left:-38.5px;width:77px;">
+			<p class="g-pstyle3">East</p>
+			<p class="g-pstyle3">China Sea</p>
+		</div>
+		<div id="g-ai1-4" class="g-annotations g-aiAbs g-aiPointText" style="top:42.57%;margin-top:-8.8px;left:12.6154%;margin-left:-29px;width:58px;">
+			<p class="g-pstyle2">india</p>
+		</div>
+		<div id="g-ai1-5" class="g-annotations g-aiAbs g-aiPointText" style="top:50.8497%;margin-top:-16.2px;left:59.9104%;margin-left:-28.5px;width:57px;">
+			<p class="g-pstyle4">Large</p>
+			<p class="g-pstyle4">cities</p>
+		</div>
+		<div id="g-ai1-6" class="g-annotations g-aiAbs g-aiPointText" style="top:57.3062%;margin-top:-9.8px;left:35.6552%;width:195px;">
+			<p class="g-pstyle5">Mine in Yunnan province</p>
+		</div>
+		<div id="g-ai1-7" class="g-annotations g-aiAbs g-aiPointText" style="top:59.4121%;margin-top:-8.8px;left:82.3217%;margin-left:-36px;width:72px;">
+			<p class="g-pstyle2">Taiwan</p>
+		</div>
+		<div id="g-ai1-8" class="g-annotations g-aiAbs g-aiPointText" style="top:63.3594%;margin-top:-8.8px;left:19.5983%;margin-left:-45.5px;width:91px;">
+			<p class="g-pstyle2">Myanmar</p>
+		</div>
+		<div id="g-ai1-9" class="g-annotations g-aiAbs g-aiPointText" style="top:71.5173%;margin-top:-8.8px;left:33.6362%;margin-left:-28px;width:56px;">
+			<p class="g-pstyle2">Laos</p>
+		</div>
+		<div id="g-ai1-10" class="g-annotations g-aiAbs g-aiPointText" style="top:79.7884%;margin-top:-14.2px;left:67.8135%;margin-left:-38.5px;width:77px;">
+			<p class="g-pstyle3">South</p>
+			<p class="g-pstyle3">China Sea</p>
+		</div>
+		<div id="g-ai1-11" class="g-annotations g-aiAbs g-aiPointText" style="top:80.201%;margin-top:-9.8px;left:35.1743%;width:111px;">
+			<p class="g-pstyle5">Cave in Laos</p>
+		</div>
+		<div id="g-ai1-12" class="g-annotations g-aiAbs g-aiPointText" style="top:88.0963%;margin-top:-8.8px;left:83.987%;margin-left:-53px;width:106px;">
+			<p class="g-pstyle2">philippines</p>
+		</div>
+		<div id="g-ai1-13" class="g-annotations g-aiAbs g-aiPointText" style="top:89.6752%;margin-top:-8.8px;left:32.0025%;margin-left:-44px;width:88px;">
+			<p class="g-pstyle2">Thailand</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 800 -->
+	<div id="g-geography-800" class="g-artboard" style="width:800px; height:507px;" data-aspect-ratio="1.578" data-min-width="800">
+<div style=""></div>
+		<img id="g-geography-800-img" class="g-geography-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography-800.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai2-1" class="g-annotations g-aiAbs" style="top:3.5503%;left:2.5%;width:71.5%;">
+			<p><span class="g-cstyle0">The </span>closest known relatives to SARS-CoV-2<span class="g-cstyle0"> were found</span></p>
+			<p class="g-pstyle0">in southwestern China and Laos.</p>
+		</div>
+		<div id="g-ai2-2" class="g-annotations g-aiAbs g-aiPointText" style="top:20.4666%;margin-top:-8.8px;left:30.4731%;margin-left:-31.5px;width:63px;">
+			<p class="g-pstyle1">China</p>
+		</div>
+		<div id="g-ai2-3" class="g-annotations g-aiAbs g-aiPointText" style="top:39.2546%;margin-top:-15px;left:90.681%;margin-left:-38.5px;width:77px;">
+			<p class="g-pstyle2">East</p>
+			<p class="g-pstyle2">China Sea</p>
+		</div>
+		<div id="g-ai2-4" class="g-annotations g-aiAbs g-aiPointText" style="top:43.1491%;margin-top:-8.8px;left:12.6385%;margin-left:-29px;width:58px;">
+			<p class="g-pstyle1">india</p>
+		</div>
+		<div id="g-ai2-5" class="g-bg g-aiAbs g-aiPointText" style="top:57.1526%;margin-top:-9.8px;left:35.6101%;width:195px;">
+			<p class="g-pstyle3">Mine in Yunnan province</p>
+		</div>
+		<div id="g-ai2-6" class="g-annotations g-aiAbs g-aiPointText" style="top:59.9144%;margin-top:-8.8px;left:82.3263%;margin-left:-36px;width:72px;">
+			<p class="g-pstyle1">Taiwan</p>
+		</div>
+		<div id="g-ai2-7" class="g-annotations g-aiAbs g-aiPointText" style="top:63.8591%;margin-top:-8.8px;left:19.6061%;margin-left:-45.5px;width:91px;">
+			<p class="g-pstyle1">Myanmar</p>
+		</div>
+		<div id="g-ai2-8" class="g-annotations g-aiAbs g-aiPointText" style="top:71.9459%;margin-top:-8.8px;left:33.6532%;margin-left:-28px;width:56px;">
+			<p class="g-pstyle1">Laos</p>
+		</div>
+		<div id="g-ai2-9" class="g-annotations g-aiAbs g-aiPointText" style="top:78.4446%;margin-top:-7.7px;left:67.8378%;margin-left:-56px;width:112px;">
+			<p class="g-pstyle2">South China Sea</p>
+		</div>
+		<div id="g-ai2-10" class="g-annotations g-aiAbs g-aiPointText" style="top:80.4268%;margin-top:-9.8px;left:35.3795%;width:111px;">
+			<p class="g-pstyle3">Cave in Laos</p>
+		</div>
+		<div id="g-ai2-11" class="g-annotations g-aiAbs g-aiPointText" style="top:88.514%;margin-top:-8.8px;left:83.9905%;margin-left:-53px;width:106px;">
+			<p class="g-pstyle1">philippines</p>
+		</div>
+		<div id="g-ai2-12" class="g-annotations g-aiAbs g-aiPointText" style="top:90.0919%;margin-top:-8.8px;left:32.0223%;margin-left:-44px;width:88px;">
+			<p class="g-pstyle1">Thailand</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-geography-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-05-31 12:05 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div> <div class="g-block g-block-margin svelte-1jrfrvl g-margin-inline" style=""><div class="g-block-width g-max-width-335px svelte-1jrfrvl" style="max-width: 335px;"><div class="g-wrapper_caption g-text-align-left svelte-cu2gla"> <p class="g-source svelte-cu2gla"><!-- HTML_TAG_START -->Sources: Sarah Temmam et al., Nature; SimpleMaps<!-- HTML_TAG_END --></p> <p class="g-note svelte-cu2gla"><!-- HTML_TAG_START -->Note: Cities shown have a population of at least 200,000.<!-- HTML_TAG_END --></p>  </div></div> </div> </figure> </div><div class="g-slide g-slide-1 g-slide-g-slideshow_2-item-1 g-slide-type-graphic svelte-7fde2a" aria-hidden="true"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="A map showing the hundreds of large cities in China and the surrounding region."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.120.0 - 2024-05-31 12:02 -->
+<!-- ai file: geography_2.ai -->
+<style media="screen,print">
+	#g-geography_2-box ,
+	#g-geography_2-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-geography_2-box p {
+		margin:0;
+	}
+	#g-geography_2-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-geography_2-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-geography_2-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-geography_2-box .g-aiPointText p { white-space: nowrap; }
+	#g-geography_2-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-geography_2-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:19px;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-geography_2-335 .g-pstyle0 {
+		line-height:14px;
+		height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+		color:rgb(153,153,153);
+		top:1px;
+		position:relative;
+	}
+	#g-geography_2-335 .g-pstyle1 {
+		font-weight:700;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(255,125,0);
+		top:1.1px;
+		position:relative;
+	}
+	#g-geography_2-335 .g-pstyle2 {
+		font-style:italic;
+		line-height:12px;
+		height:12px;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:center;
+		color:rgb(155,176,188);
+		top:1px;
+		position:relative;
+	}
+	#g-geography_2-335 .g-cstyle0 {
+		font-weight:700;
+		color:rgb(255,125,0);
+	}
+	#g-geography_2-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-geography_2-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:17px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:left;
+		text-transform:none;
+		color:rgb(153,153,153);
+		top:1.1px;
+		position:static;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+	}
+	#g-geography_2-600 .g-pstyle0 {
+		font-weight:700;
+		line-height:22px;
+		letter-spacing:0.005em;
+		font-size:18px;
+		color:rgb(255,125,0);
+	}
+	#g-geography_2-600 .g-pstyle1 {
+		line-height:22px;
+		letter-spacing:0.005em;
+		font-size:18px;
+		color:rgb(0,0,0);
+	}
+	#g-geography_2-600 .g-pstyle2 {
+		height:17px;
+		text-align:center;
+		text-transform:uppercase;
+		position:relative;
+	}
+	#g-geography_2-600 .g-pstyle3 {
+		font-style:italic;
+		line-height:14px;
+		height:14px;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:center;
+		color:rgb(155,176,188);
+		top:1px;
+		position:relative;
+	}
+	#g-geography_2-600 .g-pstyle4 {
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		letter-spacing:0.005em;
+		font-size:16px;
+		text-align:center;
+		color:rgb(255,125,0);
+		top:1.3px;
+		position:relative;
+	}
+	#g-geography_2-600 .g-cstyle0 {
+		font-weight:300;
+		color:rgb(0,0,0);
+	}
+	#g-geography_2-800 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-geography_2-800 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:24px;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:20px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-geography_2-800 .g-pstyle0 {
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+		color:rgb(153,153,153);
+		top:1.1px;
+		position:relative;
+	}
+	#g-geography_2-800 .g-pstyle1 {
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		text-align:center;
+		color:rgb(255,125,0);
+		top:1.3px;
+		position:relative;
+	}
+	#g-geography_2-800 .g-pstyle2 {
+		font-style:italic;
+		line-height:15px;
+		height:15px;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:center;
+		color:rgb(155,176,188);
+		top:1px;
+		position:relative;
+	}
+	#g-geography_2-800 .g-cstyle0 {
+		font-weight:700;
+		color:rgb(255,125,0);
+	}
+
+</style>
+
+<div id="g-geography_2-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-geography_2-335" class="g-artboard" style="max-width: 335px;max-height: 297px" data-aspect-ratio="1.128" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 88.6567% 0;"></div>
+		<img id="g-geography_2-335-img" class="g-geography_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_2-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-bg g-aiAbs" style="top:4.0404%;left:3.8806%;width:71.6418%;">
+			<p>There are <span class="g-cstyle0">hundreds of large cities</span> in China and Southeast Asia.</p>
+		</div>
+		<div id="g-ai0-2" class="g-annotations g-aiAbs g-aiPointText" style="top:36.353%;margin-top:-7px;left:16.5033%;margin-left:-28px;width:56px;">
+			<p class="g-pstyle0">China</p>
+		</div>
+		<div id="g-ai0-3" class="g-bg g-aiAbs g-aiPointText" style="top:42.6702%;margin-top:-8.7px;left:53.8392%;margin-left:-47.5px;width:95px;">
+			<p class="g-pstyle1">Large cities</p>
+		</div>
+		<div id="g-ai0-4" class="g-annotations g-aiAbs g-aiPointText" style="top:62.9523%;margin-top:-7px;left:83.9627%;margin-left:-31.5px;width:63px;">
+			<p class="g-pstyle0">Taiwan</p>
+		</div>
+		<div id="g-ai0-5" class="g-annotations g-aiAbs g-aiPointText" style="top:74.7368%;margin-top:-7px;left:17.5455%;margin-left:-25px;width:50px;">
+			<p class="g-pstyle0">Laos</p>
+		</div>
+		<div id="g-ai0-6" class="g-annotations g-aiAbs g-aiPointText" style="top:86.262%;margin-top:-6.2px;left:63.5226%;margin-left:-52.5px;width:105px;">
+			<p class="g-pstyle2">South China Sea</p>
+		</div>
+		<div id="g-ai0-7" class="g-annotations g-aiAbs g-aiPointText" style="top:92.5819%;margin-top:-7px;left:15.2727%;margin-left:-38px;width:76px;">
+			<p class="g-pstyle0">Thailand</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-geography_2-600" class="g-artboard" style="width:600px; height:380px;" data-aspect-ratio="1.579" data-min-width="600" data-max-width="799">
+<div style=""></div>
+		<img id="g-geography_2-600-img" class="g-geography_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_2-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-bg g-aiAbs" style="top:4.4737%;left:3.3333%;width:67%;">
+			<p class="g-pstyle0"><span class="g-cstyle0">There are </span>hundreds of large cities<span class="g-cstyle0"> in China</span></p>
+			<p class="g-pstyle1">and Southeast Asia.</p>
+		</div>
+		<div id="g-ai1-2" class="g-annotations g-aiAbs g-aiPointText" style="top:25.991%;margin-top:-8.8px;left:31.7218%;margin-left:-31.5px;width:63px;">
+			<p class="g-pstyle2">China</p>
+		</div>
+		<div id="g-ai1-3" class="g-annotations g-aiAbs g-aiPointText" style="top:39.2621%;margin-top:-14.2px;left:90.7009%;margin-left:-38.5px;width:77px;">
+			<p class="g-pstyle3">East</p>
+			<p class="g-pstyle3">China Sea</p>
+		</div>
+		<div id="g-ai1-4" class="g-bg g-aiAbs g-aiPointText" style="top:40.7273%;margin-top:-9.8px;left:58.5321%;margin-left:-52.5px;width:105px;">
+			<p class="g-pstyle4">Large cities</p>
+		</div>
+		<div id="g-ai1-5" class="g-annotations g-aiAbs g-aiPointText" style="top:42.57%;margin-top:-8.8px;left:12.6365%;margin-left:-29px;width:58px;">
+			<p class="g-pstyle2">india</p>
+		</div>
+		<div id="g-ai1-6" class="g-annotations g-aiAbs g-aiPointText" style="top:59.4121%;margin-top:-8.8px;left:82.3428%;margin-left:-36px;width:72px;">
+			<p class="g-pstyle2">Taiwan</p>
+		</div>
+		<div id="g-ai1-7" class="g-annotations g-aiAbs g-aiPointText" style="top:63.3594%;margin-top:-8.8px;left:19.6193%;margin-left:-45.5px;width:91px;">
+			<p class="g-pstyle2">Myanmar</p>
+		</div>
+		<div id="g-ai1-8" class="g-annotations g-aiAbs g-aiPointText" style="top:71.5173%;margin-top:-8.8px;left:33.6573%;margin-left:-28px;width:56px;">
+			<p class="g-pstyle2">Laos</p>
+		</div>
+		<div id="g-ai1-9" class="g-annotations g-aiAbs g-aiPointText" style="top:80.0515%;margin-top:-14.2px;left:67.8346%;margin-left:-38.5px;width:77px;">
+			<p class="g-pstyle3">South</p>
+			<p class="g-pstyle3">China Sea</p>
+		</div>
+		<div id="g-ai1-10" class="g-annotations g-aiAbs g-aiPointText" style="top:88.0963%;margin-top:-8.8px;left:84.0081%;margin-left:-53px;width:106px;">
+			<p class="g-pstyle2">philippines</p>
+		</div>
+		<div id="g-ai1-11" class="g-annotations g-aiAbs g-aiPointText" style="top:89.6752%;margin-top:-8.8px;left:32.0236%;margin-left:-44px;width:88px;">
+			<p class="g-pstyle2">Thailand</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 800 -->
+	<div id="g-geography_2-800" class="g-artboard" style="width:800px; height:507px;" data-aspect-ratio="1.578" data-min-width="800">
+<div style=""></div>
+		<img id="g-geography_2-800-img" class="g-geography_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_2-800.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai2-1" class="g-bg g-aiAbs" style="top:3.5503%;left:2.5%;width:71.5%;">
+			<p>There are <span class="g-cstyle0">hundreds of large cities</span> in China and Southeast Asia.</p>
+		</div>
+		<div id="g-ai2-2" class="g-annotations g-aiAbs g-aiPointText" style="top:20.4666%;margin-top:-8.8px;left:30.4731%;margin-left:-31.5px;width:63px;">
+			<p class="g-pstyle0">China</p>
+		</div>
+		<div id="g-ai2-3" class="g-bg g-aiAbs g-aiPointText" style="top:37.0343%;margin-top:-9.8px;left:52.7981%;margin-left:-52.5px;width:105px;">
+			<p class="g-pstyle1">Large cities</p>
+		</div>
+		<div id="g-ai2-4" class="g-annotations g-aiAbs g-aiPointText" style="top:39.2546%;margin-top:-15px;left:90.681%;margin-left:-38.5px;width:77px;">
+			<p class="g-pstyle2">East</p>
+			<p class="g-pstyle2">China Sea</p>
+		</div>
+		<div id="g-ai2-5" class="g-annotations g-aiAbs g-aiPointText" style="top:43.1491%;margin-top:-8.8px;left:12.6385%;margin-left:-29px;width:58px;">
+			<p class="g-pstyle0">india</p>
+		</div>
+		<div id="g-ai2-6" class="g-annotations g-aiAbs g-aiPointText" style="top:59.9144%;margin-top:-8.8px;left:82.3263%;margin-left:-36px;width:72px;">
+			<p class="g-pstyle0">Taiwan</p>
+		</div>
+		<div id="g-ai2-7" class="g-annotations g-aiAbs g-aiPointText" style="top:63.8591%;margin-top:-8.8px;left:19.6061%;margin-left:-45.5px;width:91px;">
+			<p class="g-pstyle0">Myanmar</p>
+		</div>
+		<div id="g-ai2-8" class="g-annotations g-aiAbs g-aiPointText" style="top:71.9459%;margin-top:-8.8px;left:33.6532%;margin-left:-28px;width:56px;">
+			<p class="g-pstyle0">Laos</p>
+		</div>
+		<div id="g-ai2-9" class="g-annotations g-aiAbs g-aiPointText" style="top:78.4446%;margin-top:-7.7px;left:67.8378%;margin-left:-56px;width:112px;">
+			<p class="g-pstyle2">South China Sea</p>
+		</div>
+		<div id="g-ai2-10" class="g-annotations g-aiAbs g-aiPointText" style="top:88.514%;margin-top:-8.8px;left:83.9905%;margin-left:-53px;width:106px;">
+			<p class="g-pstyle0">philippines</p>
+		</div>
+		<div id="g-ai2-11" class="g-annotations g-aiAbs g-aiPointText" style="top:90.0919%;margin-top:-8.8px;left:32.0223%;margin-left:-44px;width:88px;">
+			<p class="g-pstyle0">Thailand</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-geography_2-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-05-31 12:02 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div><div class="g-slide g-slide-2 g-slide-g-slideshow_2-item-2 g-slide-type-graphic svelte-7fde2a" aria-hidden="true"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="A map showing the 950 miles between Yunnan and Wuhan, and the 1,190 miles between Laos and Wuhan. There are many cities in between."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.120.0 - 2024-05-31 12:03 -->
+<!-- ai file: geography_3.ai -->
+<style media="screen,print">
+	#g-geography_3-box ,
+	#g-geography_3-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-geography_3-box p {
+		margin:0;
+	}
+	#g-geography_3-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-geography_3-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-geography_3-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-geography_3-box .g-aiPointText p { white-space: nowrap; }
+	#g-geography_3-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-geography_3-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:19px;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-geography_3-335 .g-pstyle0 {
+		font-weight:700;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(255,125,0);
+		top:1.1px;
+		position:relative;
+	}
+	#g-geography_3-335 .g-pstyle1 {
+		line-height:14px;
+		height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+		color:rgb(153,153,153);
+		top:1px;
+		position:relative;
+	}
+	#g-geography_3-335 .g-pstyle2 {
+		font-style:italic;
+		line-height:12px;
+		height:12px;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:center;
+		color:rgb(155,176,188);
+		top:1px;
+		position:relative;
+	}
+	#g-geography_3-335 .g-cstyle0 {
+		font-weight:700;
+		color:rgb(255,125,0);
+	}
+	#g-geography_3-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-geography_3-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:700;
+		line-height:22px;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:18px;
+		text-align:left;
+		color:rgb(255,125,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-geography_3-600 .g-pstyle0 {
+		font-weight:300;
+		color:rgb(0,0,0);
+	}
+	#g-geography_3-600 .g-pstyle1 {
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		text-align:center;
+		top:1.3px;
+		position:relative;
+	}
+	#g-geography_3-600 .g-pstyle2 {
+		font-weight:300;
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+		color:rgb(153,153,153);
+		top:1.1px;
+		position:relative;
+	}
+	#g-geography_3-600 .g-pstyle3 {
+		font-weight:300;
+		font-style:italic;
+		line-height:14px;
+		height:14px;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:center;
+		color:rgb(155,176,188);
+		top:1px;
+		position:relative;
+	}
+	#g-geography_3-600 .g-cstyle0 {
+		font-weight:300;
+		color:rgb(0,0,0);
+	}
+	#g-geography_3-800 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-geography_3-800 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:700;
+		line-height:24px;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:20px;
+		text-align:left;
+		color:rgb(255,125,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-geography_3-800 .g-pstyle0 {
+		font-weight:300;
+		color:rgb(0,0,0);
+	}
+	#g-geography_3-800 .g-pstyle1 {
+		font-weight:300;
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+		color:rgb(153,153,153);
+		top:1.1px;
+		position:relative;
+	}
+	#g-geography_3-800 .g-pstyle2 {
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		text-align:center;
+		top:1.3px;
+		position:relative;
+	}
+	#g-geography_3-800 .g-pstyle3 {
+		font-weight:300;
+		font-style:italic;
+		line-height:15px;
+		height:15px;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:center;
+		color:rgb(155,176,188);
+		top:1px;
+		position:relative;
+	}
+	#g-geography_3-800 .g-cstyle0 {
+		font-weight:300;
+		color:rgb(0,0,0);
+	}
+
+</style>
+
+<div id="g-geography_3-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-geography_3-335" class="g-artboard" style="max-width: 335px;max-height: 297px" data-aspect-ratio="1.128" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 88.6567% 0;"></div>
+		<img id="g-geography_3-335-img" class="g-geography_3-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_3-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-bg g-aiAbs" style="top:4.0404%;left:3.8806%;width:71.6418%;">
+			<p>The pandemic started roughly 1,000 miles away, in Wuhan, home to <span class="g-cstyle0">the world&rsquo;s foremost SARS-like virus research lab.</span></p>
+		</div>
+		<div id="g-ai0-2" class="g-bg g-aiAbs g-aiPointText" style="top:29.8756%;margin-top:-8.7px;left:61.0184%;margin-left:-32.5px;width:65px;">
+			<p class="g-pstyle0">Wuhan</p>
+		</div>
+		<div id="g-ai0-3" class="g-annotations g-aiAbs g-aiPointText" style="top:36.353%;margin-top:-7px;left:16.5033%;margin-left:-28px;width:56px;">
+			<p class="g-pstyle1">China</p>
+		</div>
+		<div id="g-ai0-4" class="g-annotations g-aiAbs g-aiPointText" style="top:62.9523%;margin-top:-7px;left:83.9627%;margin-left:-31.5px;width:63px;">
+			<p class="g-pstyle1">Taiwan</p>
+		</div>
+		<div id="g-ai0-5" class="g-annotations g-aiAbs g-aiPointText" style="top:74.7368%;margin-top:-7px;left:17.5455%;margin-left:-25px;width:50px;">
+			<p class="g-pstyle1">Laos</p>
+		</div>
+		<div id="g-ai0-6" class="g-annotations g-aiAbs g-aiPointText" style="top:86.262%;margin-top:-6.2px;left:63.5226%;margin-left:-52.5px;width:105px;">
+			<p class="g-pstyle2">South China Sea</p>
+		</div>
+		<div id="g-ai0-7" class="g-annotations g-aiAbs g-aiPointText" style="top:92.5819%;margin-top:-7px;left:15.2727%;margin-left:-38px;width:76px;">
+			<p class="g-pstyle1">Thailand</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-geography_3-600" class="g-artboard" style="width:600px; height:380px;" data-aspect-ratio="1.579" data-min-width="600" data-max-width="799">
+<div style=""></div>
+		<img id="g-geography_3-600-img" class="g-geography_3-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_3-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-bg g-aiAbs" style="top:4.4737%;left:3.3333%;width:71.5%;">
+			<p class="g-pstyle0">The pandemic started roughly 1,000 miles away,</p>
+			<p><span class="g-cstyle0">in Wuhan, home to </span>the world&rsquo;s foremost SARS-like virus research lab.</p>
+		</div>
+		<div id="g-ai1-2" class="g-bg g-aiAbs g-aiPointText" style="top:25.9904%;margin-top:-9.8px;left:65.5628%;margin-left:-35.5px;width:71px;">
+			<p class="g-pstyle1">Wuhan</p>
+		</div>
+		<div id="g-ai1-3" class="g-annotations g-aiAbs g-aiPointText" style="top:25.991%;margin-top:-8.8px;left:31.7218%;margin-left:-31.5px;width:63px;">
+			<p class="g-pstyle2">China</p>
+		</div>
+		<div id="g-ai1-4" class="g-annotations g-aiAbs g-aiPointText" style="top:39.2621%;margin-top:-14.2px;left:90.7009%;margin-left:-38.5px;width:77px;">
+			<p class="g-pstyle3">East</p>
+			<p class="g-pstyle3">China Sea</p>
+		</div>
+		<div id="g-ai1-5" class="g-annotations g-aiAbs g-aiPointText" style="top:42.57%;margin-top:-8.8px;left:12.6365%;margin-left:-29px;width:58px;">
+			<p class="g-pstyle2">india</p>
+		</div>
+		<div id="g-ai1-6" class="g-annotations g-aiAbs g-aiPointText" style="top:59.4121%;margin-top:-8.8px;left:82.3428%;margin-left:-36px;width:72px;">
+			<p class="g-pstyle2">Taiwan</p>
+		</div>
+		<div id="g-ai1-7" class="g-annotations g-aiAbs g-aiPointText" style="top:63.3594%;margin-top:-8.8px;left:19.6193%;margin-left:-45.5px;width:91px;">
+			<p class="g-pstyle2">Myanmar</p>
+		</div>
+		<div id="g-ai1-8" class="g-annotations g-aiAbs g-aiPointText" style="top:71.5173%;margin-top:-8.8px;left:33.6573%;margin-left:-28px;width:56px;">
+			<p class="g-pstyle2">Laos</p>
+		</div>
+		<div id="g-ai1-9" class="g-annotations g-aiAbs g-aiPointText" style="top:80.0515%;margin-top:-14.2px;left:67.8346%;margin-left:-38.5px;width:77px;">
+			<p class="g-pstyle3">South</p>
+			<p class="g-pstyle3">China Sea</p>
+		</div>
+		<div id="g-ai1-10" class="g-annotations g-aiAbs g-aiPointText" style="top:88.0963%;margin-top:-8.8px;left:84.0081%;margin-left:-53px;width:106px;">
+			<p class="g-pstyle2">philippines</p>
+		</div>
+		<div id="g-ai1-11" class="g-annotations g-aiAbs g-aiPointText" style="top:89.6752%;margin-top:-8.8px;left:32.0236%;margin-left:-44px;width:88px;">
+			<p class="g-pstyle2">Thailand</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 800 -->
+	<div id="g-geography_3-800" class="g-artboard" style="width:800px; height:507px;" data-aspect-ratio="1.578" data-min-width="800">
+<div style=""></div>
+		<img id="g-geography_3-800-img" class="g-geography_3-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_3-800.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai2-1" class="g-bg g-aiAbs" style="top:3.5503%;left:2.5%;width:71.5%;">
+			<p class="g-pstyle0">The pandemic started roughly 1,000 miles away, in Wuhan,</p>
+			<p><span class="g-cstyle0">home to </span>the world&rsquo;s foremost SARS-like virus research lab.</p>
+		</div>
+		<div id="g-ai2-2" class="g-annotations g-aiAbs g-aiPointText" style="top:20.4666%;margin-top:-8.8px;left:30.4731%;margin-left:-31.5px;width:63px;">
+			<p class="g-pstyle1">China</p>
+		</div>
+		<div id="g-ai2-3" class="g-bg g-aiAbs g-aiPointText" style="top:26.7778%;margin-top:-9.8px;left:65.5548%;margin-left:-35.5px;width:71px;">
+			<p class="g-pstyle2">Wuhan</p>
+		</div>
+		<div id="g-ai2-4" class="g-annotations g-aiAbs g-aiPointText" style="top:39.2546%;margin-top:-15px;left:90.681%;margin-left:-38.5px;width:77px;">
+			<p class="g-pstyle3">East</p>
+			<p class="g-pstyle3">China Sea</p>
+		</div>
+		<div id="g-ai2-5" class="g-annotations g-aiAbs g-aiPointText" style="top:43.1491%;margin-top:-8.8px;left:12.6385%;margin-left:-29px;width:58px;">
+			<p class="g-pstyle1">india</p>
+		</div>
+		<div id="g-ai2-6" class="g-annotations g-aiAbs g-aiPointText" style="top:59.9144%;margin-top:-8.8px;left:82.3263%;margin-left:-36px;width:72px;">
+			<p class="g-pstyle1">Taiwan</p>
+		</div>
+		<div id="g-ai2-7" class="g-annotations g-aiAbs g-aiPointText" style="top:63.8591%;margin-top:-8.8px;left:19.6061%;margin-left:-45.5px;width:91px;">
+			<p class="g-pstyle1">Myanmar</p>
+		</div>
+		<div id="g-ai2-8" class="g-annotations g-aiAbs g-aiPointText" style="top:71.9459%;margin-top:-8.8px;left:33.6532%;margin-left:-28px;width:56px;">
+			<p class="g-pstyle1">Laos</p>
+		</div>
+		<div id="g-ai2-9" class="g-annotations g-aiAbs g-aiPointText" style="top:78.4446%;margin-top:-7.7px;left:67.8378%;margin-left:-56px;width:112px;">
+			<p class="g-pstyle3">South China Sea</p>
+		</div>
+		<div id="g-ai2-10" class="g-annotations g-aiAbs g-aiPointText" style="top:88.514%;margin-top:-8.8px;left:83.9905%;margin-left:-53px;width:106px;">
+			<p class="g-pstyle1">philippines</p>
+		</div>
+		<div id="g-ai2-11" class="g-annotations g-aiAbs g-aiPointText" style="top:90.0919%;margin-top:-8.8px;left:32.0223%;margin-left:-44px;width:88px;">
+			<p class="g-pstyle1">Thailand</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-geography_3-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-05-31 12:03 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div></div>  </div></div> <div class="g-stepper g-position-right g-theme-standard svelte-p3vdj4" style="--g-stepper-inactive-background-color: #c7c7c7;--g-stepper-inactive-border: 1px solid rgba(0, 0, 0, 0.1);--g-stepper-active-background-color: #121212;--g-stepper-active-border: 1px solid rgba(0, 0, 0, 0.1)"><div class="g-stepper_step svelte-p3vdj4 active"></div><div class="g-stepper_step svelte-p3vdj4"></div><div class="g-stepper_step svelte-p3vdj4"></div> </div></svelte-scrollstory-background></svelte-scroller-background></svelte-scroller-background-container> <svelte-scroller-foreground class="svelte-xdbafy"><svelte-scrollstory-foreground slot="foreground" class="svelte-1507w7m"><div class="scrollstory-items svelte-1507w7m">  <div id="g-scrollstory_1-item-0" style="" class="scrollstory-item scrollstory-item-0 svelte-1507w7m active">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">A map showing the closest known relatives of SARS-CoV-2 in a mine in the Yunnan province of China and in a cave in northern Laos.</span> </div> </div><div id="g-scrollstory_1-item-1" style="" class="scrollstory-item scrollstory-item-1 svelte-1507w7m">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">A map showing the hundreds of large cities in China and the surrounding region.</span> </div> </div><div id="g-scrollstory_1-item-2" style="" class="scrollstory-item scrollstory-item-2 svelte-1507w7m">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">A map showing the 950 miles between Yunnan and Wuhan, and the 1,190 miles between Laos and Wuhan. There are many cities in between.</span> </div> </div> </div></svelte-scrollstory-foreground></svelte-scroller-foreground> </svelte-scroller-outer></svelte-scrollstory> </div> </div>  </section><div class="points svelte-1xf2fpd"><ul class="svelte-1xf2fpd"><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-1deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Even at hot spots where these viruses exist naturally near the cave bats of southwestern China and Southeast Asia, the scientists argued, <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7148670/">as recently as 2019</a>, that <strong>bat coronavirus spillover into humans is rare</strong>.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(0deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->When the Covid-19 outbreak was detected, <strong>Dr. Shi initially wondered if the novel coronavirus had come from her laboratory</strong>, <a href="https://www.scientificamerican.com/article/how-chinas-bat-woman-hunted-down-viruses-from-sars-to-the-new-coronavirus1/">saying</a> she had never expected such an outbreak to occur in Wuhan.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->The SARS‑CoV‑2 virus is exceptionally contagious and can <a href="https://vis.csh.ac.at/sars-ani/">jump from species to species like wildfire</a>. Yet <strong>it </strong><strong>left no known trace of infection at its source or anywhere along</strong><strong> what would have been a thousand-mile journey</strong> before emerging in Wuhan.<!-- HTML_TAG_END --></div> </li></ul> </div><div class="minirulewrap svelte-hzf7lj" data-svelte-h="svelte-1gtpse0"><div class="minirule svelte-hzf7lj"></div> </div><h2 class="key-point svelte-rn800m"><span class="number svelte-rn800m">2</span> <span class="text"><!-- HTML_TAG_START -->The year before the outbreak, the Wuhan institute, working with U.S. partners, had proposed creating viruses with SARS‑CoV‑2’s defining feature.<!-- HTML_TAG_END --></span> </h2><div class="points svelte-1xf2fpd"><ul class="svelte-1xf2fpd"><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(2deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Dr. Shi’s group was fascinated by how coronaviruses jump from species to species. To find viruses, <strong>they </strong><strong><a href="https://www.youtube.com/watch?v=MNkyeUZHUoU">took samples from bats and other animals</a></strong><strong>, as well as from </strong><strong>sick people</strong> living near animals carrying these viruses or associated with the wildlife trade. Much of this work was conducted in partnership with the EcoHealth Alliance, a U.S.-based scientific organization that, since 2002, has been awarded over $80 million in federal funding to research the risks of emerging infectious diseases.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(2deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START --><strong>The laboratory pursued risky research that resulted in viruses becoming more infectious</strong>: Coronaviruses were grown from samples from infected animals and genetically <a href="https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698">reconstructed and recombined</a> to <a href="https://www.nature.com/articles/nm.3985">create new viruses</a> unknown in nature. These new viruses were <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4810638/">passed through cells</a> from bats, pigs, primates and humans and were used to <a href="https://www.science.org/pb-assets/PDF/News%20PDFs/Shi%20Zhengli%20Q&A-1630433861.pdf">infect civets and humanized mice</a> (mice modified with human genes). In essence, this process forced these viruses to adapt to new host species, and the viruses with mutations that allowed them to thrive emerged as victors.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(1deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->By 2019, Dr. Shi’s group had <a href="https://archive.fo/jPPkB#selection-939.0-939.315">published a database</a> describing more than 22,000 collected wildlife samples. But external access was shut off in the fall of 2019, and <strong>the database was </strong><strong>not shared</strong><strong> with American </strong><strong>collaborators </strong><strong>even after the pandemic started</strong>, when such a rich virus collection would have been most useful in tracking the origin of SARS‑CoV‑2. It remains unclear whether the Wuhan institute possessed a precursor of the pandemic virus.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-1deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->In 2021, The Intercept published a leaked 2018 <a href="https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/">grant proposal for a research project named Defuse</a>, which had been written as a collaboration between EcoHealth, the Wuhan institute and Ralph Baric at the University of North Carolina, who had been on the cutting edge of coronavirus research for years. <strong>The proposal described plans to create viruses strikingly </strong><strong>similar</strong><strong> to SARS‑CoV‑2.</strong><!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Coronaviruses bear their name because their surface is studded with protein spikes, like a spiky crown, which they use to enter animal cells. <strong>T</strong><strong>he Defuse project proposed to search for and create SARS-like viruses carrying spikes with a unique feature: a furin cleavage site</strong> — the same feature that enhances SARS‑CoV‑2’s infectiousness in humans, making it capable of causing a pandemic. Defuse was <a href="https://drasticresearch.org/wp-content/uploads/2021/09/hr00118s017-preempt-fp-019-pm-summary-selectable-not-recommended.pdf">never funded by the United States</a>. However, in his testimony on Monday, Dr. Fauci explained that the Wuhan institute would not need to rely on U.S. funding to pursue research independently.<!-- HTML_TAG_END --></div> </li></ul> </div><section class="g-wrapper  svelte-13ig1yh g-needs-margin-block" style="">  <div class="g-block g-block-margin svelte-1jrfrvl g-margin-inline" style=""><div class="g-block-width g-max-width-740 svelte-1jrfrvl" style="max-width: 740px;">  <svelte-scrollstory id="g-scrollstory_3" class="active-index-0 active-id-g-scrollstory_3-item-0 state-pre svelte-1507w7m   enabled stepper" style="--scrollstory-threshold-top: 75vh;--scrollstory-threshold-left: 0px;--scrollstory-debug-color: rgba(255, 0, 0, 0.8);--scrollstory-debug-transformY: 20px;--scrollstory-items-start-auto: 0px;--scrollstory-item-spacing: 70vh;--scrollstory-text-start: 1rem;--g-body-padding-top: 0.75rem;--g-body-padding-bottom: 0.75rem;--g-body-padding-left: 0.75rem;--g-body-padding-right: 0.75rem;--g-body-background-color: #fff">    <svelte-scroller-outer class="svelte-xdbafy"><svelte-scroller-background-container class="background-container svelte-xdbafy" style="
+		position: absolute;
+		top: 0;
+		transform: translate(0, 0px);
+		z-index: 1;
+	"><svelte-scroller-background class="svelte-xdbafy"><svelte-scrollstory-background slot="background" class="svelte-1507w7m"><div class="g-scrollingslides"><div class="g-slideshow g-transition-type-fade svelte-7fde2a" style="--g-slideshow-boundheight: auto;--g-slideshow-transition-duration: 0.5s;--g-slideshow-transition-easing: ease;--g-slideshow-transform-x: 0px;--g-slideshow-transform-y: 0px"><div class="g-slides svelte-7fde2a" aria-hidden="false"><div class="g-slide g-slide-0 g-slide-g-slideshow_4-item-0 g-slide-type-graphic svelte-7fde2a g-active" aria-hidden="false"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="The Wuhan lab ran risky experiments to learn how SARS-like viruses might infect humans. Their research started by collecting SARS-like viruses from bats and other wild animals, as well as from people exposed to them."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-05-31 16:38 -->
+<!-- ai file: defuse.ai -->
+<style media="screen,print">
+	#g-defuse-box ,
+	#g-defuse-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-defuse-box p {
+		margin:0;
+	}
+	#g-defuse-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-defuse-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-defuse-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-defuse-box .g-aiPointText p { white-space: nowrap; }
+	#g-defuse-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:16px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse-335 .g-pstyle0 {
+		line-height:18px;
+		font-size:16px;
+	}
+	#g-defuse-335 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-defuse-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse-600 .g-pstyle0 {
+		line-height:21px;
+		font-size:18px;
+	}
+	#g-defuse-600 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-defuse-720 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse-720 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse-720 .g-pstyle0 {
+		line-height:21px;
+		font-size:18px;
+	}
+	#g-defuse-720 .g-cstyle0 {
+		font-weight:600;
+	}
+
+</style>
+
+<div id="g-defuse-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-defuse-335" class="g-artboard" style="max-width: 335px;max-height: 589px" data-aspect-ratio="0.569" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 175.8006% 0;"></div>
+		<img id="g-defuse-335-img" class="g-defuse-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-main g-aiAbs" style="top:-0.1698%;left:0%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai0-2" class="g-main g-aiAbs" style="top:18.6779%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-defuse-600" class="g-artboard" style="width:600px; height:600.492210938718px;" data-aspect-ratio="0.999" data-min-width="600" data-max-width="719">
+<div style=""></div>
+		<img id="g-defuse-600-img" class="g-defuse-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-main g-aiAbs" style="top:-0.3331%;left:-0.0001%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai1-2" class="g-main g-aiAbs" style="top:36.4701%;left:0.5912%;width:45.8333%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 720 -->
+	<div id="g-defuse-720" class="g-artboard" style="width:720px; height:576.492210938718px;" data-aspect-ratio="1.249" data-min-width="720">
+<div style=""></div>
+		<img id="g-defuse-720-img" class="g-defuse-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse-720.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai2-1" class="g-main g-aiAbs" style="top:-0.3469%;left:0%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai2-2" class="g-main g-aiAbs" style="top:34.6926%;left:2.7149%;width:44.5833%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-defuse-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-05-31 16:38 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div><div class="g-slide g-slide-1 g-slide-g-slideshow_4-item-1 g-slide-type-graphic svelte-7fde2a" aria-hidden="true"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="Next, they would identify high-risk viruses by screening for spike proteins that facilitate infection of human cells."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-06-01 09:19 -->
+<!-- ai file: defuse_2.ai -->
+<style media="screen,print">
+	#g-defuse_2-box ,
+	#g-defuse_2-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-defuse_2-box p {
+		margin:0;
+	}
+	#g-defuse_2-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-defuse_2-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-defuse_2-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-defuse_2-box .g-aiPointText p { white-space: nowrap; }
+	#g-defuse_2-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse_2-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:16px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse_2-335 .g-pstyle0 {
+		line-height:18px;
+		font-size:16px;
+	}
+	#g-defuse_2-335 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-defuse_2-335 .g-cstyle1 {
+		font-weight:600;
+		color:rgb(255,125,0);
+	}
+	#g-defuse_2-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse_2-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse_2-600 .g-pstyle0 {
+		line-height:21px;
+		font-size:18px;
+	}
+	#g-defuse_2-600 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-defuse_2-720 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse_2-720 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse_2-720 .g-pstyle0 {
+		line-height:21px;
+		font-size:18px;
+	}
+	#g-defuse_2-720 .g-cstyle0 {
+		font-weight:600;
+	}
+
+</style>
+
+<div id="g-defuse_2-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-defuse_2-335" class="g-artboard" style="max-width: 335px;max-height: 589px" data-aspect-ratio="0.569" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 175.8006% 0;"></div>
+		<img id="g-defuse_2-335-img" class="g-defuse_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_2-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-main g-aiAbs" style="top:-0.1698%;left:0%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai0-2" class="g-main g-aiAbs" style="top:18.6779%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+		<div id="g-ai0-3" class="g-main g-aiAbs" style="top:37.186%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">2. Identify high-risk viruses</span> by screening for <span class="g-cstyle1">spike proteins</span> that facilitate infection of human cells.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-defuse_2-600" class="g-artboard" style="width:600px; height:600.492210938718px;" data-aspect-ratio="0.999" data-min-width="600" data-max-width="719">
+<div style=""></div>
+		<img id="g-defuse_2-600-img" class="g-defuse_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_2-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-main g-aiAbs" style="top:-0.3331%;left:-0.0001%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai1-2" class="g-main g-aiAbs" style="top:36.4701%;left:0.5912%;width:45.8333%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+		<div id="g-ai1-3" class="g-main g-aiAbs" style="top:36.4701%;left:53.6677%;width:46.1667%;">
+			<p><span class="g-cstyle0">2. Identify high-risk viruses</span> by screening for spike proteins that facilitate infection of human cells.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 720 -->
+	<div id="g-defuse_2-720" class="g-artboard" style="width:720px; height:576.492210938718px;" data-aspect-ratio="1.249" data-min-width="720">
+<div style=""></div>
+		<img id="g-defuse_2-720-img" class="g-defuse_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_2-720.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai2-1" class="g-main g-aiAbs" style="top:-0.3469%;left:0%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai2-2" class="g-main g-aiAbs" style="top:34.6926%;left:2.7149%;width:44.5833%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+		<div id="g-ai2-3" class="g-main g-aiAbs" style="top:34.6926%;left:53.5436%;width:44.4444%;">
+			<p><span class="g-cstyle0">2. Identify high-risk viruses</span> by screening for spike proteins that facilitate infection of </p>
+			<p>human cells.</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-defuse_2-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-06-01 09:19 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div><div class="g-slide g-slide-2 g-slide-g-slideshow_4-item-2 g-slide-type-graphic svelte-7fde2a" aria-hidden="true"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="Then they would create new coronaviruses by inserting spike proteins or other features that could make the viruses more infectious in humans."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-06-01 09:18 -->
+<!-- ai file: defuse_3.ai -->
+<style media="screen,print">
+	#g-defuse_3-box ,
+	#g-defuse_3-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-defuse_3-box p {
+		margin:0;
+	}
+	#g-defuse_3-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-defuse_3-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-defuse_3-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-defuse_3-box .g-aiPointText p { white-space: nowrap; }
+	#g-defuse_3-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse_3-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:16px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse_3-335 .g-pstyle0 {
+		line-height:18px;
+		font-size:16px;
+	}
+	#g-defuse_3-335 .g-pstyle1 {
+		text-align:center;
+	}
+	#g-defuse_3-335 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-defuse_3-335 .g-cstyle1 {
+		font-weight:600;
+		color:rgb(255,125,0);
+	}
+	#g-defuse_3-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse_3-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse_3-600 .g-pstyle0 {
+		line-height:21px;
+		font-size:18px;
+	}
+	#g-defuse_3-600 .g-pstyle1 {
+		line-height:16px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-defuse_3-600 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-defuse_3-720 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse_3-720 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse_3-720 .g-pstyle0 {
+		line-height:21px;
+		font-size:18px;
+	}
+	#g-defuse_3-720 .g-pstyle1 {
+		line-height:16px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-defuse_3-720 .g-cstyle0 {
+		font-weight:600;
+	}
+
+</style>
+
+<div id="g-defuse_3-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-defuse_3-335" class="g-artboard" style="max-width: 335px;max-height: 589px" data-aspect-ratio="0.569" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 175.8006% 0;"></div>
+		<img id="g-defuse_3-335-img" class="g-defuse_3-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_3-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-main g-aiAbs" style="top:-0.1698%;left:0%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai0-2" class="g-main g-aiAbs" style="top:18.6779%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+		<div id="g-ai0-3" class="g-main g-aiAbs" style="top:37.186%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">2. Identify high-risk viruses</span> by screening for <span class="g-cstyle1">spike proteins</span> that facilitate infection of human cells.</p>
+		</div>
+		<div id="g-ai0-4" class="g-main g-aiAbs" style="top:46.1853%;left:50.032%;margin-left:-38.5075%;width:77.0149%;">
+			<p class="g-pstyle1">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.</p>
+		</div>
+		<div id="g-ai0-5" class="g-main g-aiAbs" style="top:63.8444%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">3. Create new coronaviruses</span> by inserting spike proteins or other features that could make the viruses more infectious in humans.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-defuse_3-600" class="g-artboard" style="width:600px; height:600.492210938718px;" data-aspect-ratio="0.999" data-min-width="600" data-max-width="719">
+<div style=""></div>
+		<img id="g-defuse_3-600-img" class="g-defuse_3-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_3-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-main g-aiAbs" style="top:-0.3331%;left:-0.0001%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai1-2" class="g-main g-aiAbs" style="top:36.4701%;left:0.5912%;width:45.8333%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+		<div id="g-ai1-3" class="g-main g-aiAbs" style="top:36.4701%;left:53.6677%;width:46.1667%;">
+			<p><span class="g-cstyle0">2. Identify high-risk viruses</span> by screening for spike proteins that facilitate infection of human cells.</p>
+		</div>
+		<div id="g-ai1-4" class="g-main g-aiAbs" style="top:51.6243%;left:25.4881%;margin-left:-21.9167%;width:43.8333%;">
+			<p class="g-pstyle1">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.</p>
+		</div>
+		<div id="g-ai1-5" class="g-main g-aiAbs" style="top:87.7613%;left:0.5045%;width:46.3333%;">
+			<p><span class="g-cstyle0">3. Create new coronaviruses</span> by inserting spike proteins or other features that could make the viruses more infectious in humans.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 720 -->
+	<div id="g-defuse_3-720" class="g-artboard" style="width:720px; height:576.492210938718px;" data-aspect-ratio="1.249" data-min-width="720">
+<div style=""></div>
+		<img id="g-defuse_3-720-img" class="g-defuse_3-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_3-720.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai2-1" class="g-main g-aiAbs" style="top:-0.3469%;left:0%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai2-2" class="g-main g-aiAbs" style="top:34.6926%;left:2.7149%;width:44.5833%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+		<div id="g-ai2-3" class="g-main g-aiAbs" style="top:34.6926%;left:53.5436%;width:44.4444%;">
+			<p><span class="g-cstyle0">2. Identify high-risk viruses</span> by screening for spike proteins that facilitate infection of </p>
+			<p>human cells.</p>
+		</div>
+		<div id="g-ai2-4" class="g-main g-aiAbs" style="top:51.1716%;left:24.8512%;margin-left:-18.2639%;width:36.5278%;">
+			<p class="g-pstyle1">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.</p>
+		</div>
+		<div id="g-ai2-5" class="g-main g-aiAbs" style="top:88.813%;left:2.6427%;width:44.7222%;">
+			<p><span class="g-cstyle0">3. Create new coronaviruses</span> by inserting spike proteins or other features that could make the viruses more infectious in humans.</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-defuse_3-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-06-01 09:18 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div><div class="g-slide g-slide-3 g-slide-g-slideshow_4-item-3 g-slide-type-graphic svelte-7fde2a" aria-hidden="true"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="Finally, they would infect human cells, civets and humanized mice with the new coronaviruses, to determine how dangerous they might be."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-06-01 09:18 -->
+<!-- ai file: defuse_4.ai -->
+<style media="screen,print">
+	#g-defuse_4-box ,
+	#g-defuse_4-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-defuse_4-box p {
+		margin:0;
+	}
+	#g-defuse_4-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-defuse_4-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-defuse_4-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-defuse_4-box .g-aiPointText p { white-space: nowrap; }
+	#g-defuse_4-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse_4-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:16px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse_4-335 .g-pstyle0 {
+		line-height:18px;
+		font-size:16px;
+	}
+	#g-defuse_4-335 .g-pstyle1 {
+		text-align:center;
+	}
+	#g-defuse_4-335 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-defuse_4-335 .g-cstyle1 {
+		font-weight:600;
+		color:rgb(255,125,0);
+	}
+	#g-defuse_4-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse_4-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse_4-600 .g-pstyle0 {
+		line-height:21px;
+		font-size:18px;
+	}
+	#g-defuse_4-600 .g-pstyle1 {
+		line-height:16px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-defuse_4-600 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-defuse_4-720 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-defuse_4-720 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-defuse_4-720 .g-pstyle0 {
+		line-height:21px;
+		font-size:18px;
+	}
+	#g-defuse_4-720 .g-pstyle1 {
+		line-height:16px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-defuse_4-720 .g-cstyle0 {
+		font-weight:600;
+	}
+
+</style>
+
+<div id="g-defuse_4-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-defuse_4-335" class="g-artboard" style="max-width: 335px;max-height: 589px" data-aspect-ratio="0.569" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 175.8006% 0;"></div>
+		<img id="g-defuse_4-335-img" class="g-defuse_4-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_4-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-main g-aiAbs" style="top:-0.1698%;left:0%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai0-2" class="g-main g-aiAbs" style="top:18.6779%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+		<div id="g-ai0-3" class="g-main g-aiAbs" style="top:37.186%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">2. Identify high-risk viruses</span> by screening for <span class="g-cstyle1">spike proteins</span> that facilitate infection of human cells.</p>
+		</div>
+		<div id="g-ai0-4" class="g-main g-aiAbs" style="top:46.1853%;left:50.032%;margin-left:-38.5075%;width:77.0149%;">
+			<p class="g-pstyle1">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.</p>
+		</div>
+		<div id="g-ai0-5" class="g-main g-aiAbs" style="top:63.8444%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">3. Create new coronaviruses</span> by inserting spike proteins or other features that could make the viruses more infectious in humans.</p>
+		</div>
+		<div id="g-ai0-6" class="g-main g-aiAbs" style="top:91.3518%;left:0%;width:100%;">
+			<p><span class="g-cstyle0">4. Infect human cells, civets and humanized mice</span> with the new coronaviruses, to determine how dangerous they might be.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-defuse_4-600" class="g-artboard" style="width:600px; height:600.492210938718px;" data-aspect-ratio="0.999" data-min-width="600" data-max-width="719">
+<div style=""></div>
+		<img id="g-defuse_4-600-img" class="g-defuse_4-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_4-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-main g-aiAbs" style="top:-0.3331%;left:-0.0001%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai1-2" class="g-main g-aiAbs" style="top:36.4701%;left:0.5912%;width:45.8333%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+		<div id="g-ai1-3" class="g-main g-aiAbs" style="top:36.4701%;left:53.6677%;width:46.1667%;">
+			<p><span class="g-cstyle0">2. Identify high-risk viruses</span> by screening for spike proteins that facilitate infection of human cells.</p>
+		</div>
+		<div id="g-ai1-4" class="g-main g-aiAbs" style="top:51.6243%;left:25.4881%;margin-left:-21.9167%;width:43.8333%;">
+			<p class="g-pstyle1">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.</p>
+		</div>
+		<div id="g-ai1-5" class="g-main g-aiAbs" style="top:87.7613%;left:0.5045%;width:46.3333%;">
+			<p><span class="g-cstyle0">3. Create new coronaviruses</span> by inserting spike proteins or other features that could make the viruses more infectious in humans.</p>
+		</div>
+		<div id="g-ai1-6" class="g-main g-aiAbs" style="top:87.7613%;left:53.6677%;width:46.1667%;">
+			<p><span class="g-cstyle0">4. Infect human cells, civets and humanized mice</span> with the new coronaviruses, to determine how dangerous they might be.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 720 -->
+	<div id="g-defuse_4-720" class="g-artboard" style="width:720px; height:576.492210938718px;" data-aspect-ratio="1.249" data-min-width="720">
+<div style=""></div>
+		<img id="g-defuse_4-720-img" class="g-defuse_4-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_4-720.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai2-1" class="g-main g-aiAbs" style="top:-0.3469%;left:0%;width:100%;">
+			<p class="g-pstyle0">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.</p>
+		</div>
+		<div id="g-ai2-2" class="g-main g-aiAbs" style="top:34.6926%;left:2.7149%;width:44.5833%;">
+			<p><span class="g-cstyle0">1. Collect SARS-like viruses</span> from bats and other wild animals, as well as from people exposed to them.</p>
+		</div>
+		<div id="g-ai2-3" class="g-main g-aiAbs" style="top:34.6926%;left:53.5436%;width:44.4444%;">
+			<p><span class="g-cstyle0">2. Identify high-risk viruses</span> by screening for spike proteins that facilitate infection of </p>
+			<p>human cells.</p>
+		</div>
+		<div id="g-ai2-4" class="g-main g-aiAbs" style="top:51.1716%;left:24.8512%;margin-left:-18.2639%;width:36.5278%;">
+			<p class="g-pstyle1">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.</p>
+		</div>
+		<div id="g-ai2-5" class="g-main g-aiAbs" style="top:88.813%;left:2.6427%;width:44.7222%;">
+			<p><span class="g-cstyle0">3. Create new coronaviruses</span> by inserting spike proteins or other features that could make the viruses more infectious in humans.</p>
+		</div>
+		<div id="g-ai2-6" class="g-main g-aiAbs" style="top:88.813%;left:53.5436%;width:44.4444%;">
+			<p><span class="g-cstyle0">4. Infect human cells, civets and humanized mice</span> with the new coronaviruses, to determine how dangerous they might be.</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-defuse_4-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-06-01 09:18 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div></div>  </div></div> <div class="g-stepper g-position-right g-theme-standard svelte-p3vdj4" style="--g-stepper-inactive-background-color: #c7c7c7;--g-stepper-inactive-border: 1px solid rgba(0, 0, 0, 0.1);--g-stepper-active-background-color: #121212;--g-stepper-active-border: 1px solid rgba(0, 0, 0, 0.1)"><div class="g-stepper_step svelte-p3vdj4 active"></div><div class="g-stepper_step svelte-p3vdj4"></div><div class="g-stepper_step svelte-p3vdj4"></div><div class="g-stepper_step svelte-p3vdj4"></div> </div></svelte-scrollstory-background></svelte-scroller-background></svelte-scroller-background-container> <svelte-scroller-foreground class="svelte-xdbafy"><svelte-scrollstory-foreground slot="foreground" class="svelte-1507w7m"><div class="scrollstory-items svelte-1507w7m">  <div id="g-scrollstory_3-item-0" style="" class="scrollstory-item scrollstory-item-0 svelte-1507w7m active">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">The Wuhan lab ran risky experiments to learn how SARS-like viruses might infect humans. Their research started by collecting SARS-like viruses from bats and other wild animals, as well as from people exposed to them.</span> </div> </div><div id="g-scrollstory_3-item-1" style="" class="scrollstory-item scrollstory-item-1 svelte-1507w7m">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">Next, they would identify high-risk viruses by screening for spike proteins that facilitate infection of human cells.</span> </div> </div><div id="g-scrollstory_3-item-2" style="" class="scrollstory-item scrollstory-item-2 svelte-1507w7m">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">Then they would create new coronaviruses by inserting spike proteins or other features that could make the viruses more infectious in humans.</span> </div> </div><div id="g-scrollstory_3-item-3" style="" class="scrollstory-item scrollstory-item-3 svelte-1507w7m">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">Finally, they would infect human cells, civets and humanized mice with the new coronaviruses, to determine how dangerous they might be.</span> </div> </div> </div></svelte-scrollstory-foreground></svelte-scroller-foreground> </svelte-scroller-outer></svelte-scrollstory> </div> </div>  </section><div class="points svelte-1xf2fpd"><ul class="svelte-1xf2fpd"><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->While it’s possible that the furin cleavage site could have evolved naturally (as seen in some distantly related coronaviruses), <strong>out of the hundreds</strong><strong> of</strong><strong> SARS-like viruses</strong><strong> cataloged</strong> <strong>by scientists, SARS‑CoV‑2 is </strong><strong>the only </strong><strong>one known to possess </strong><strong>a furin cleavage site</strong> in its spike. And the genetic data suggest that the virus had only <a href="https://observatoriocovid19.sv/doc/biblioteca/internac/Adaptation_sars_covid.pdf">recently gained</a> the furin cleavage site before it started the pandemic.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Ultimately, a never-before-seen SARS-like virus with a newly introduced furin cleavage site, matching the description in the Wuhan institute’s Defuse proposal, <strong>caused an outbreak in Wuhan less than two years after the proposal</strong> was drafted.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(0deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->When the Wuhan scientists published their <a href="https://pubmed.ncbi.nlm.nih.gov/32015507/">seminal paper</a> about Covid-19 as the pandemic roared to life in 2020, <strong>they did not mention the virus’s furin cleavage site</strong> — a feature they should have been on the lookout for, according to their own grant proposal, and a feature quickly recognized by other scientists.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Worse still, as the pandemic raged, their American collaborators failed to publicly reveal the existence of the Defuse proposal. The president of EcoHealth, Peter Daszak, recently admitted to Congress that he <a href="https://www.youtube.com/live/Gj9M5CJGykk?feature=shared&t=8821">doesn’t know about virus samples</a> collected by the Wuhan institute after 2015 and <a href="https://www.youtube.com/live/Gj9M5CJGykk?feature=shared&t=9696">never asked</a> the lab’s scientists if they had started the work described in Defuse. In May, citing failures in EcoHealth’s monitoring of risky experiments conducted at the Wuhan lab, <strong>the Biden administration </strong><strong><a href="https://oversight.house.gov/wp-content/uploads/2024/05/Tab-1-EHA-SUSP4D-Notice_5.15.2024_signed.pdf">suspended all federal funding</a></strong><strong> for the organization and Dr. Daszak,</strong> and initiated proceedings to bar them from receiving future grants. In his testimony on Monday, Dr. Fauci said that he supported the decision to suspend and bar EcoHealth.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Separately, Dr. Baric described the competitive dynamic between his research group and the institute when he <a href="https://oversight.house.gov/wp-content/uploads/2024/04/Baric-TI-Transcript.pdf">told Congress</a> that <strong>the Wuhan scientists would probably not have shared their </strong><strong>most interesting</strong><strong> newly discovered viruses with him</strong>. Documents and email correspondence between the institute and Dr. Baric are still being withheld from the public while their release is <a href="https://twitter.com/garyruskin/status/1752460681432244247">fiercely contested</a> in litigation.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(3deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->In the end, American partners very likely knew of only a fraction of the research done in Wuhan. According to U.S. intelligence sources, <strong>some of</strong><strong> the institute’s virus research was </strong><strong><a href="https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-leak-secret-coronavirus/2021/06/22/b9c45940-cf08-11eb-a224-bd59bd22197c_story.html">classified</a></strong><strong> or conducted with or on behalf of the Chinese military</strong>. In the congressional hearing on Monday, Dr. Fauci repeatedly acknowledged the lack of visibility into experiments conducted at the Wuhan institute, saying, “None of us can know everything that’s going on in China, or in Wuhan, or what have you. And that’s the reason why — I say today, and I’ve said at the T.I.,” referring to his transcribed interview with the subcommittee, “I keep an open mind as to what the origin is.”<!-- HTML_TAG_END --></div> </li></ul> </div><div class="minirulewrap svelte-hzf7lj" data-svelte-h="svelte-1gtpse0"><div class="minirule svelte-hzf7lj"></div> </div><h2 class="key-point svelte-rn800m"><span class="number svelte-rn800m">3</span> <span class="text"><!-- HTML_TAG_START -->The Wuhan lab pursued this type of work under low biosafety conditions that could not have contained an airborne virus as infectious as SARS‑CoV‑2.<!-- HTML_TAG_END --></span> </h2><div class="points svelte-1xf2fpd"><ul class="svelte-1xf2fpd"><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Labs working with live viruses generally operate at one of four biosafety levels (known in ascending order of stringency as BSL-1, 2, 3 and 4) that describe the work practices that are considered sufficiently safe depending on the characteristics of each pathogen. The Wuhan institute’s scientists <strong>worked with SARS-like viruses under </strong><strong><a href="https://www.technologyreview.com/2021/06/29/1027290/gain-of-function-risky-bat-virus-engineering-links-america-to-wuhan/">inappropriately low biosafety conditions</a></strong>.<!-- HTML_TAG_END --></div> </li></ul> </div><section class="g-wrapper  svelte-13ig1yh g-needs-margin-block" style="">  <div class="g-block g-block-margin svelte-1jrfrvl g-margin-inline" style=""><div class="g-block-width g-max-width-body svelte-1jrfrvl">  <svelte-scrollstory id="g-scrollstory_5" class="active-index-0 active-id-g-scrollstory_5-item-0 state-pre svelte-1507w7m   enabled stepper" style="--scrollstory-threshold-top: 75vh;--scrollstory-threshold-left: 0px;--scrollstory-debug-color: rgba(255, 0, 0, 0.8);--scrollstory-debug-transformY: 20px;--scrollstory-items-start-auto: 0px;--scrollstory-item-spacing: 70vh;--scrollstory-text-start: 1rem;--g-body-padding-top: 0.75rem;--g-body-padding-bottom: 0.75rem;--g-body-padding-left: 0.75rem;--g-body-padding-right: 0.75rem;--g-body-background-color: #fff">    <svelte-scroller-outer class="svelte-xdbafy"><svelte-scroller-background-container class="background-container svelte-xdbafy" style="
+		position: absolute;
+		top: 0;
+		transform: translate(0, 0px);
+		z-index: 1;
+	"><svelte-scroller-background class="svelte-xdbafy"><svelte-scrollstory-background slot="background" class="svelte-1507w7m"><div class="g-scrollingslides"><div class="g-slideshow g-transition-type-fade svelte-7fde2a" style="--g-slideshow-boundheight: auto;--g-slideshow-transition-duration: 0.5s;--g-slideshow-transition-easing: ease;--g-slideshow-transform-x: 0px;--g-slideshow-transform-y: 0px"><div class="g-slides svelte-7fde2a" aria-hidden="false"><div class="g-slide g-slide-0 g-slide-g-slideshow_6-item-0 g-slide-type-graphic svelte-7fde2a g-active" aria-hidden="false"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group" aria-label="graphic">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="In the U.S., virologists generally use stricter Biosafety Level 3 protocols, which involves using personal respirators and biosafety cabinets in combination to avoid inhaling an airborne virus, as well as wearing gloves and wraparound gowns to prevent direct contact."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-06-02 21:15 -->
+<!-- ai file: lab_safety.ai -->
+<style media="screen,print">
+	#g-lab_safety-box ,
+	#g-lab_safety-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-lab_safety-box p {
+		margin:0;
+	}
+	#g-lab_safety-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-lab_safety-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-lab_safety-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-lab_safety-box .g-aiPointText p { white-space: nowrap; }
+	#g-lab_safety-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-lab_safety-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:17px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-lab_safety-335 .g-pstyle0 {
+		line-height:19px;
+		font-size:16px;
+	}
+	#g-lab_safety-335 .g-pstyle1 {
+		line-height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-lab_safety-335 .g-pstyle2 {
+		height:17px;
+		text-align:center;
+		top:1.1px;
+		position:relative;
+	}
+	#g-lab_safety-335 .g-pstyle3 {
+		height:17px;
+		top:1.1px;
+		position:relative;
+	}
+	#g-lab_safety-335 .g-cstyle0 {
+		font-weight:700;
+	}
+	#g-lab_safety-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-lab_safety-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-lab_safety-600 .g-pstyle0 {
+		line-height:22px;
+		font-size:18px;
+	}
+	#g-lab_safety-600 .g-pstyle1 {
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+		top:1.1px;
+		position:relative;
+	}
+	#g-lab_safety-600 .g-pstyle2 {
+		line-height:16px;
+		height:16px;
+		font-size:15px;
+		text-align:center;
+		top:1.2px;
+		position:relative;
+	}
+	#g-lab_safety-600 .g-pstyle3 {
+		height:18px;
+		top:1.3px;
+		position:relative;
+	}
+	#g-lab_safety-600 .g-cstyle0 {
+		font-weight:700;
+	}
+
+</style>
+
+<div id="g-lab_safety-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-lab_safety-335" class="g-artboard" style="max-width: 335px;max-height: 420px" data-aspect-ratio="0.798" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 125.3731% 0;"></div>
+		<img id="g-lab_safety-335-img" class="g-lab_safety-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/lab_safety-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-main g-aiAbs" style="top:4.7619%;left:-0.0001%;width:100.2985%;">
+			<p class="g-pstyle0">In the United States, virologists generally use stricter <span class="g-cstyle0">Biosafety Level 3</span> protocols when working with SARS-like viruses.</p>
+		</div>
+		<div id="g-ai0-2" class="g-bg-white g-aiAbs" style="top:23.5714%;left:50.1477%;margin-left:-50%;width:100%;">
+			<p class="g-pstyle1">INHALATION</p>
+		</div>
+		<div id="g-ai0-3" class="g-bg-white g-aiAbs" style="top:30.9524%;left:46.0406%;width:54.0299%;">
+			<p>Biosafety cabinets prevent </p>
+			<p>viral particles from escaping.</p>
+		</div>
+		<div id="g-ai0-4" class="g-bg-white g-aiAbs g-aiPointText" style="top:43.2776%;margin-top:-8.8px;left:13.8163%;margin-left:-50.5px;width:101px;">
+			<p class="g-pstyle2">Viral particles</p>
+		</div>
+		<div id="g-ai0-5" class="g-bg-white g-aiAbs" style="top:45.9524%;left:46.0406%;width:54.0299%;">
+			<p>Personal respirators provide</p>
+			<p>a second layer of defense against breathing in the virus.</p>
+		</div>
+		<div id="g-ai0-6" class="g-bg-white g-aiAbs" style="top:64.5238%;left:50.1477%;margin-left:-50%;width:100%;">
+			<p class="g-pstyle1">DIRECT CONTACT</p>
+		</div>
+		<div id="g-ai0-7" class="g-bg-white g-aiAbs g-aiPointText" style="top:76.1347%;margin-top:-8.8px;left:46.0404%;width:186px;">
+			<p class="g-pstyle3">Gloves prevent skin contact.</p>
+		</div>
+		<div id="g-ai0-8" class="g-bg-white g-aiAbs" style="top:86.6667%;left:46.0325%;width:54.0299%;">
+			<p>Disposable wraparound</p>
+			<p>gowns cover much of the rest of the body.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-lab_safety-600" class="g-artboard" style="width:600px; height:411.5px;" data-aspect-ratio="1.458" data-min-width="600">
+<div style=""></div>
+		<img id="g-lab_safety-600-img" class="g-lab_safety-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/lab_safety-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-main g-aiAbs" style="top:4.6173%;left:-0.0001%;width:100%;">
+			<p class="g-pstyle0">In the United States, virologists generally use stricter <span class="g-cstyle0">Biosafety Level 3</span> protocols when working with SARS-like viruses.</p>
+		</div>
+		<div id="g-ai1-2" class="g-main g-aiAbs g-aiPointText" style="top:23.0294%;margin-top:-8.8px;left:50.099%;margin-left:-51.5px;width:103px;">
+			<p class="g-pstyle1">INHALATION</p>
+		</div>
+		<div id="g-ai1-3" class="g-main g-aiAbs" style="top:28.4326%;left:51.2274%;width:48.8333%;">
+			<p>Biosafety cabinets prevent </p>
+			<p>viral particles from escaping.</p>
+		</div>
+		<div id="g-ai1-4" class="g-bg-white g-aiAbs g-aiPointText" style="top:41.1385%;margin-top:-8.3px;left:11.3148%;margin-left:-53.5px;width:107px;">
+			<p class="g-pstyle2">Viral particles</p>
+		</div>
+		<div id="g-ai1-5" class="g-main g-aiAbs" style="top:45.4435%;left:51.2274%;width:48.6667%;">
+			<p>Personal respirators provide a second layer of defense against breathing in the virus.</p>
+		</div>
+		<div id="g-ai1-6" class="g-main g-aiAbs g-aiPointText" style="top:64.3416%;margin-top:-8.8px;left:50.0425%;margin-left:-68.5px;width:137px;">
+			<p class="g-pstyle1">DIRECT CONTACT</p>
+		</div>
+		<div id="g-ai1-7" class="g-main g-aiAbs g-aiPointText" style="top:73.9499%;margin-top:-9.3px;left:51.2274%;width:212px;">
+			<p class="g-pstyle3">Gloves prevent skin contact.</p>
+		</div>
+		<div id="g-ai1-8" class="g-main g-aiAbs" style="top:86.7558%;left:51.2274%;width:48.8333%;">
+			<p>Disposable wraparound gowns</p>
+			<p>cover much of the rest of the body.</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-lab_safety-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-06-02 21:15 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div> <div class="g-block g-block-margin svelte-1jrfrvl g-margin-inline" style=""><div class="g-block-width g-max-width-335px svelte-1jrfrvl" style="max-width: 335px;"><div class="g-wrapper_caption g-text-align-left svelte-cu2gla">  <p class="g-note svelte-cu2gla"><!-- HTML_TAG_START -->Note: ​​Biosafety levels are not internationally standardized, and some countries use more permissive protocols than others.<!-- HTML_TAG_END --></p>  </div></div> </div> </figure> </div><div class="g-slide g-slide-1 g-slide-g-slideshow_6-item-1 g-slide-type-graphic svelte-7fde2a" aria-hidden="true"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="The Wuhan lab was regularly working with SARS-like viruses at Biosafety Level 2, which involves work done in the open air and doesn’t require masks, allowing for inhalation of viral particles, and much less protective equipment worn on the body that allows for direct skin contact."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-06-02 21:15 -->
+<!-- ai file: lab_safety_2_new.ai -->
+<style media="screen,print">
+	#g-lab_safety_2_new-box ,
+	#g-lab_safety_2_new-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-lab_safety_2_new-box p {
+		margin:0;
+	}
+	#g-lab_safety_2_new-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-lab_safety_2_new-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-lab_safety_2_new-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-lab_safety_2_new-box .g-aiPointText p { white-space: nowrap; }
+	#g-lab_safety_2_new-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-lab_safety_2_new-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:19px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-lab_safety_2_new-335 .g-pstyle0 {
+		line-height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-lab_safety_2_new-335 .g-pstyle1 {
+		line-height:17px;
+		font-size:14px;
+	}
+	#g-lab_safety_2_new-335 .g-pstyle2 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		top:1.1px;
+		position:relative;
+	}
+	#g-lab_safety_2_new-335 .g-pstyle3 {
+		font-weight:600;
+		line-height:17px;
+		letter-spacing:-0.005em;
+		font-size:14px;
+	}
+	#g-lab_safety_2_new-335 .g-pstyle4 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		top:1.1px;
+		position:relative;
+	}
+	#g-lab_safety_2_new-335 .g-cstyle0 {
+		font-weight:700;
+	}
+	#g-lab_safety_2_new-335 .g-cstyle1 {
+		font-weight:600;
+	}
+	#g-lab_safety_2_new-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-lab_safety_2_new-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:22px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:18px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-lab_safety_2_new-600 .g-pstyle0 {
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+		top:1.1px;
+		position:relative;
+	}
+	#g-lab_safety_2_new-600 .g-pstyle1 {
+		line-height:18px;
+		font-size:16px;
+	}
+	#g-lab_safety_2_new-600 .g-pstyle2 {
+		line-height:16px;
+		height:16px;
+		font-size:15px;
+		text-align:center;
+		top:1.2px;
+		position:relative;
+	}
+	#g-lab_safety_2_new-600 .g-pstyle3 {
+		font-weight:600;
+		line-height:19px;
+		letter-spacing:-0.005em;
+		font-size:16px;
+	}
+	#g-lab_safety_2_new-600 .g-pstyle4 {
+		line-height:18px;
+		height:18px;
+		font-size:16px;
+		top:1.3px;
+		position:relative;
+	}
+	#g-lab_safety_2_new-600 .g-cstyle0 {
+		font-weight:700;
+	}
+	#g-lab_safety_2_new-600 .g-cstyle1 {
+		font-weight:600;
+	}
+
+</style>
+
+<div id="g-lab_safety_2_new-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-lab_safety_2_new-335" class="g-artboard" style="max-width: 335px;max-height: 420px" data-aspect-ratio="0.798" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 125.3731% 0;"></div>
+		<img id="g-lab_safety_2_new-335-img" class="g-lab_safety_2_new-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/lab_safety_2_new-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-main g-aiAbs" style="top:0%;left:-0.0001%;width:100.2985%;">
+			<p>The Wuhan lab had been regularly working with SARS-like viruses under <span class="g-cstyle0">Biosafety Level 2</span><span class="g-cstyle1"> </span>conditions, which could not prevent a highly infectious virus like SARS-CoV-2 from escaping.</p>
+		</div>
+		<div id="g-ai0-2" class="g-bg-white g-aiAbs" style="top:23.5714%;left:50.1493%;margin-left:-50%;width:100%;">
+			<p class="g-pstyle0">INHALATION</p>
+		</div>
+		<div id="g-ai0-3" class="g-bg-white g-aiAbs" style="top:30.9524%;left:46.0421%;width:54.0299%;">
+			<p class="g-pstyle1">Biosafety cabinets prevent </p>
+			<p class="g-pstyle1">viral particles from escaping.</p>
+		</div>
+		<div id="g-ai0-4" class="g-bg-white g-aiAbs g-aiPointText" style="top:43.2776%;margin-top:-8.8px;left:13.8163%;margin-left:-50.5px;width:101px;">
+			<p class="g-pstyle2">Viral particles</p>
+		</div>
+		<div id="g-ai0-5" class="g-bg-white g-aiAbs" style="top:45.9524%;left:49.6011%;width:50.4478%;">
+			<p class="g-pstyle3">Some work is done in the open air, and masks are not required.</p>
+		</div>
+		<div id="g-ai0-6" class="g-bg-white g-aiAbs" style="top:64.5238%;left:50.1493%;margin-left:-50%;width:100%;">
+			<p class="g-pstyle0">DIRECT CONTACT</p>
+		</div>
+		<div id="g-ai0-7" class="g-bg-white g-aiAbs g-aiPointText" style="top:76.1347%;margin-top:-8.8px;left:46.042%;width:186px;">
+			<p class="g-pstyle4">Gloves prevent skin contact.</p>
+		</div>
+		<div id="g-ai0-8" class="g-bg-white g-aiAbs" style="top:86.6667%;left:49.5935%;width:50.4478%;">
+			<p class="g-pstyle3">Less protective equipment provides more opportunities </p>
+			<p class="g-pstyle3">for contamination.</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-lab_safety_2_new-600" class="g-artboard" style="width:600px; height:411.5px;" data-aspect-ratio="1.458" data-min-width="600">
+<div style=""></div>
+		<img id="g-lab_safety_2_new-600-img" class="g-lab_safety_2_new-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/lab_safety_2_new-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-main g-aiAbs" style="top:-0.486%;left:-0.0001%;width:100%;">
+			<p>The Wuhan lab had been regularly working with SARS-like viruses under <span class="g-cstyle0">Biosafety Level 2</span><span class="g-cstyle1"> </span>conditions, which could not prevent a highly infectious virus like SARS-CoV-2 from escaping.</p>
+		</div>
+		<div id="g-ai1-2" class="g-main g-aiAbs g-aiPointText" style="top:23.0294%;margin-top:-8.8px;left:50.099%;margin-left:-51.5px;width:103px;">
+			<p class="g-pstyle0">INHALATION</p>
+		</div>
+		<div id="g-ai1-3" class="g-main g-aiAbs" style="top:28.4326%;left:51.2274%;width:48.8333%;">
+			<p class="g-pstyle1">Biosafety cabinets prevent </p>
+			<p class="g-pstyle1">viral particles from escaping.</p>
+		</div>
+		<div id="g-ai1-4" class="g-bg-white g-aiAbs g-aiPointText" style="top:41.1385%;margin-top:-8.3px;left:11.3148%;margin-left:-53.5px;width:107px;">
+			<p class="g-pstyle2">Viral particles</p>
+		</div>
+		<div id="g-ai1-5" class="g-main g-aiAbs" style="top:45.4435%;left:56.6175%;width:43.3333%;">
+			<p class="g-pstyle3">Some work is done in the open air,</p>
+			<p class="g-pstyle3">and masks are not required.</p>
+		</div>
+		<div id="g-ai1-6" class="g-main g-aiAbs g-aiPointText" style="top:64.3416%;margin-top:-8.8px;left:50.0425%;margin-left:-68.5px;width:137px;">
+			<p class="g-pstyle0">DIRECT CONTACT</p>
+		</div>
+		<div id="g-ai1-7" class="g-main g-aiAbs g-aiPointText" style="top:73.9499%;margin-top:-9.3px;left:51.2274%;width:212px;">
+			<p class="g-pstyle4">Gloves prevent skin contact.</p>
+		</div>
+		<div id="g-ai1-8" class="g-main g-aiAbs" style="top:86.7558%;left:56.6175%;width:43.5%;">
+			<p class="g-pstyle3">Less protective equipment provides more opportunities for contamination.</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-lab_safety_2_new-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-06-02 21:15 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div></div>  </div></div> <div class="g-stepper g-position-right g-theme-standard svelte-p3vdj4" style="--g-stepper-inactive-background-color: #c7c7c7;--g-stepper-inactive-border: 1px solid rgba(0, 0, 0, 0.1);--g-stepper-active-background-color: #121212;--g-stepper-active-border: 1px solid rgba(0, 0, 0, 0.1)"><div class="g-stepper_step svelte-p3vdj4 active"></div><div class="g-stepper_step svelte-p3vdj4"></div> </div></svelte-scrollstory-background></svelte-scroller-background></svelte-scroller-background-container> <svelte-scroller-foreground class="svelte-xdbafy"><svelte-scrollstory-foreground slot="foreground" class="svelte-1507w7m"><div class="scrollstory-items svelte-1507w7m">  <div id="g-scrollstory_5-item-0" style="" class="scrollstory-item scrollstory-item-0 svelte-1507w7m active">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">In the U.S., virologists generally use stricter Biosafety Level 3 protocols, which involves using personal respirators and biosafety cabinets in combination to avoid inhaling an airborne virus, as well as wearing gloves and wraparound gowns to prevent direct contact.</span> </div> </div><div id="g-scrollstory_5-item-1" style="" class="scrollstory-item scrollstory-item-1 svelte-1507w7m">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">The Wuhan lab was regularly working with SARS-like viruses at Biosafety Level 2, which involves work done in the open air and doesn’t require masks, allowing for inhalation of viral particles, and much less protective equipment worn on the body that allows for direct skin contact.</span> </div> </div> </div></svelte-scrollstory-foreground></svelte-scroller-foreground> </svelte-scroller-outer></svelte-scrollstory> </div> </div>  </section><div class="points svelte-1xf2fpd"><ul class="svelte-1xf2fpd"><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->In one experiment, Dr. Shi’s group genetically engineered <a href="https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/">an unexpectedly </a><a href="https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/">deadly</a><a href="https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/"> </a><a href="https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/">SARS-like virus</a> (not closely related to SARS‑CoV‑2) that exhibited <strong>a 10,000-fold increase in the quantity of virus in the lungs and brains of humanized mice</strong>. Wuhan institute scientists <a href="https://www.minerva.no/china-drastic-sars-cov-2/chinese-researchers-created-new-corona-viruses-under-unsafe-conditions/381476">handled these live viruses at low biosafet</a><a href="https://www.minerva.no/china-drastic-sars-cov-2/chinese-researchers-created-new-corona-viruses-under-unsafe-conditions/381476">y levels</a>, including BSL-2.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(2deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Even the much more stringent containment at <strong>BSL-3 </strong><strong>cannot </strong><strong>fully prevent SARS‑CoV‑2 from escaping</strong>. Two years into the pandemic, the virus <a href="https://www.science.org/content/article/taiwan-s-science-academy-fined-biosafety-lapses-after-lab-worker-contracts-covid-19">infected</a> a scientist in a BSL-3 laboratory in Taiwan, which was, at the time, a zero-Covid country. The scientist had been vaccinated and was tested only after losing the sense of smell. By then, more than 100 close contacts had been exposed. Human error is a <a href="https://thebulletin.org/2019/02/human-error-in-high-biocontainment-labs-a-likely-pandemic-threat/">source of exposure</a> even at <a href="https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(04)00911-9/fulltext">the highest biosafety levels</a>, and the risks are much greater for scientists working with infectious pathogens at low biosafety.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-3deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->An <a href="https://usrtk.org/wp-content/uploads/2024/01/USGS-DEFUSE-2021-006245-Combined-Records_Redacted.pdf">early draft</a> of the Defuse proposal stated that the Wuhan lab would do their virus work at BSL-2 to make it “highly cost-effective.” Dr. Baric added a note to the draft highlighting the importance of using BSL-3 to contain SARS-like viruses that could infect human cells, writing that “U.S. researchers will likely freak out.” Years later, after SARS‑CoV‑2 had killed millions, <a href="https://www.vanityfair.com/news/story/ralph-baric-wuhan-lab-leak">Dr. Baric wrote to Dr. Daszak</a>: “I have no doubt that they followed state determined rules and did the work under BSL-2. Yes China has the right to set their own policy. <strong>You believe this was appropriate containment if you want but don’t expect me to believe it.</strong> Moreover, don’t insult my intelligence by trying to feed me this load of BS.”<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->SARS‑CoV‑2 is a stealthy virus that transmits effectively through the air, causes a range of symptoms similar to those of other common respiratory diseases and can be spread by infected people before symptoms even appear. <strong>If the virus had escaped from a BSL-2 laboratory in 2019, the leak most likely would have gone undetected</strong> until too late.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->One alarming detail — leaked to The Wall Street Journal and confirmed by current and former U.S. government officials — is that <strong>scientists on Dr. Shi’s team </strong><strong><a href="https://www.wsj.com/articles/u-s-funded-scientist-among-three-chinese-researchers-who-fell-ill-amid-early-covid-19-outbreak-3f919567">fell ill with Covid-like symptoms</a></strong><strong> in the fall of 2019</strong>. One of the scientists had been named in the Defuse proposal as the person in charge of virus discovery work. The scientists <a href="https://www.science.org/content/article/ridiculous-says-chinese-scientist-accused-being-pandemic-s-patient-zero">denied having been sick</a>.<!-- HTML_TAG_END --></div> </li></ul> </div><div class="minirulewrap svelte-hzf7lj" data-svelte-h="svelte-1gtpse0"><div class="minirule svelte-hzf7lj"></div> </div><h2 class="key-point svelte-rn800m"><span class="number svelte-rn800m">4</span> <span class="text"><!-- HTML_TAG_START -->The hypothesis that Covid-19 came from an animal at the Huanan Seafood Market in Wuhan is not supported by strong evidence.<!-- HTML_TAG_END --></span> </h2><div class="points svelte-1xf2fpd"><ul class="svelte-1xf2fpd"><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-5deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->In December 2019, <a href="https://journals.asm.org/doi/10.1128/mbio.00313-23">Chinese investigators assumed</a> the outbreak had started at a centrally located market frequented by thousands of visitors daily. <strong>This </strong><strong><a href="https://journals.asm.org/doi/10.1128/mbio.00313-23">bias in</a></strong> <strong><a href="https://academic.oup.com/jrsssa/advance-article-abstract/doi/10.1093/jrsssa/qnae021/7632556?redirectedFrom=fulltext&login=false">their search</a></strong><strong> for early cases</strong><strong> meant that cases unlinked to or located far away from the market would very likely have been missed.</strong> To make things worse, the Chinese authorities blocked the reporting of early cases not linked to the market and, claiming biosafety precautions, ordered <a href="https://www.newsweek.com/china-acknowledges-destroying-early-coronavirus-samples-confirming-us-accusation-1504484">the destruction of patient samples</a> on January 3, 2020, making it nearly impossible to see the complete picture of the earliest Covid-19 cases. Information about <a href="https://www.washingtonpost.com/opinions/2022/11/17/covid-early-cases-wuhan-china-mystery/">dozens of early cases</a> from November and December 2019 remains inaccessible.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-2deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->A <a href="https://www.science.org/doi/10.1126/science.abp8715">pair</a> of <a href="https://www.science.org/doi/10.1126/science.abp8337">papers</a> published in Science in 2022 made the best case for SARS‑CoV‑2 having emerged naturally from human-animal contact at the Wuhan market by focusing on a map of the early cases and asserting that the virus had jumped from animals into humans twice at the market in 2019. More recently, the two papers have been <a href="https://academic.oup.com/jrsssa/advance-article-abstract/doi/10.1093/jrsssa/qnad139/7557954">countered</a> by <a href="https://academic.oup.com/ve/article/10/1/vead089/7504441?login=false">other virologists</a> <a href="https://www.mdpi.com/2036-7481/14/1/33">and scientists</a> who <a href="https://www.nature.com/articles/s41586-023-06043-2">convincingly demonstrate</a> that <strong>the </strong><strong><a href="https://www.sciencedirect.com/science/article/pii/S0013935122010295?via%3Dihub">available market evidence</a></strong> <strong><a href="https://academic.oup.com/ve/article/9/2/vead050/7249794">does not distinguish</a></strong><strong> between a human superspreader event and a natural spillover</strong> at the market.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(1deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Furthermore, the <a href="https://academic.oup.com/mbe/article/38/12/5211/6353034">existing genetic</a> and <a href="https://www.thelancet.com/article/S0140-6736(20)30183-5/fulltext">early case data</a> show that all known Covid-19 cases probably stem from <a href="https://academic.oup.com/ve/article/10/1/veae020/7619252">a single introduction</a> of SARS‑CoV‑2 into people, and <strong>the outbreak at the Wuhan market probably happened after the virus had already been circulating</strong> in humans.<!-- HTML_TAG_END --></div> </li></ul> </div><section class="g-wrapper  svelte-13ig1yh g-needs-margin-block" style="">  <div class="g-block g-block-margin svelte-1jrfrvl g-margin-inline" style=""><div class="g-block-width g-max-width-body svelte-1jrfrvl">  <svelte-scrollstory id="g-scrollstory_7" class="active-index-0 active-id-g-scrollstory_7-item-0 state-pre svelte-1507w7m   enabled stepper  enable-pointer-events" style="--scrollstory-threshold-top: 75vh;--scrollstory-threshold-left: 0px;--scrollstory-debug-color: rgba(255, 0, 0, 0.8);--scrollstory-debug-transformY: 20px;--scrollstory-items-start-auto: 0px;--scrollstory-item-spacing: 70vh;--scrollstory-text-start: 1rem;--g-body-padding-top: 0.75rem;--g-body-padding-bottom: 0.75rem;--g-body-padding-left: 0.75rem;--g-body-padding-right: 0.75rem;--g-body-background-color: #fff">    <svelte-scroller-outer class="svelte-xdbafy"><svelte-scroller-background-container class="background-container svelte-xdbafy" style="
+		position: absolute;
+		top: 0;
+		transform: translate(0, 0px);
+		z-index: 1;
+	"><svelte-scroller-background class="svelte-xdbafy"><svelte-scrollstory-background slot="background" class="svelte-1507w7m"><div class="g-scrollingslides"><div class="g-slideshow g-transition-type-fade svelte-7fde2a" style="--g-slideshow-boundheight: auto;--g-slideshow-transition-duration: 0.5s;--g-slideshow-transition-easing: ease;--g-slideshow-transform-x: 0px;--g-slideshow-transform-y: 0px"><div class="g-slides svelte-7fde2a" aria-hidden="false"><div class="g-slide g-slide-0 g-slide-g-slideshow_8-item-0 g-slide-type-graphic svelte-7fde2a g-active" aria-hidden="false"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group" aria-label="graphic">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="An analysis of SARS-CoV-2’s evolutionary tree shows how the virus evolved as it started to spread through humans."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-05-31 21:04 -->
+<!-- ai file: evolution.ai -->
+<style media="screen,print">
+	#g-evolution-box ,
+	#g-evolution-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-evolution-box p {
+		margin:0;
+	}
+	#g-evolution-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-evolution-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-evolution-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-evolution-box .g-aiPointText p { white-space: nowrap; }
+	#g-evolution-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-evolution-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:18px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-evolution-335 .g-pstyle0 {
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-transform:uppercase;
+		top:1px;
+		position:relative;
+	}
+	#g-evolution-335 .g-pstyle1 {
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:right;
+		text-transform:uppercase;
+		top:1px;
+		position:relative;
+	}
+	#g-evolution-335 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-evolution-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-evolution-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:21px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:18px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-evolution-600 .g-pstyle0 {
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-transform:uppercase;
+		top:1.1px;
+		position:relative;
+	}
+	#g-evolution-600 .g-pstyle1 {
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:right;
+		text-transform:uppercase;
+		top:1.1px;
+		position:relative;
+	}
+	#g-evolution-600 .g-cstyle0 {
+		font-weight:600;
+	}
+
+</style>
+
+<div id="g-evolution-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-evolution-335" class="g-artboard" style="max-width: 335px;max-height: 616px" data-aspect-ratio="0.544" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 183.8806% 0;"></div>
+		<img id="g-evolution-335-img" class="g-evolution-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/evolution-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-main g-aiAbs" style="top:0%;left:0.2985%;width:99.403%;">
+			<p>An analysis of <span class="g-cstyle0">SARS-CoV-2&rsquo;s evolutionary tree </span>shows how the virus evolved as it started to spread through humans.</p>
+			<p>&nbsp;</p>
+		</div>
+		<div id="g-ai0-2" class="g-main g-aiAbs g-aiPointText" style="top:13.024%;margin-top:-13.2px;left:0.6075%;width:205px;">
+			<p class="g-pstyle0">SARS-COV-2 Viruses closest </p>
+			<p class="g-pstyle0">to bat coronaviruses</p>
+		</div>
+		<div id="g-ai0-3" class="g-main g-aiAbs g-aiPointText" style="top:14.0792%;margin-top:-6.7px;right:3.5989%;width:127px;">
+			<p class="g-pstyle1">more mutations</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-evolution-600" class="g-artboard" style="width:600px; height:733.000000000001px;" data-aspect-ratio="0.819" data-min-width="600">
+<div style=""></div>
+		<img id="g-evolution-600-img" class="g-evolution-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/evolution-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-main g-aiAbs" style="top:0%;left:0%;width:100%;">
+			<p>An analysis of <span class="g-cstyle0">SARS-CoV-2&rsquo;s evolutionary tree </span>shows how the virus evolved as it started to spread through humans.</p>
+			<p>&nbsp;</p>
+		</div>
+		<div id="g-ai1-2" class="g-main g-aiAbs g-aiPointText" style="top:10.5274%;margin-top:-17.2px;left:0.3104%;width:235px;">
+			<p class="g-pstyle0">SARS-COV-2 Viruses closest </p>
+			<p class="g-pstyle0">to bat coronaviruses</p>
+		</div>
+		<div id="g-ai1-3" class="g-main g-aiAbs g-aiPointText" style="top:11.7007%;margin-top:-8.8px;right:2.9886%;width:145px;">
+			<p class="g-pstyle1">more mutations</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-evolution-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-05-31 21:04 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div> <div class="g-block g-block-margin svelte-1jrfrvl g-margin-inline" style=""><div class="g-block-width g-max-width-335px svelte-1jrfrvl" style="max-width: 335px;"><div class="g-wrapper_caption g-text-align-left svelte-cu2gla"> <p class="g-source svelte-cu2gla"><!-- HTML_TAG_START -->Source: <a href="https://academic.oup.com/ve/article/10/1/veae020/7619252">Lv et al., Virus Evolution (2024)</a>, as <a href="https://nextstrain.org/community/jbloom/rebuild_Lv_SARS2_tree">reproduced by Jesse Bloom</a><!-- HTML_TAG_END --></p>   </div></div> </div> </figure> </div><div class="g-slide g-slide-1 g-slide-g-slideshow_8-item-1 g-slide-type-graphic svelte-7fde2a" aria-hidden="true"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="The viruses that infected people linked to the market fall partway down this tree, suggesting that they were most likely not the earliest form of the virus that seeded the pandemic."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-06-03 09:49 -->
+<!-- ai file: evolution_2.ai -->
+<style media="screen,print">
+	#g-evolution_2-box ,
+	#g-evolution_2-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-evolution_2-box p {
+		margin:0;
+	}
+	#g-evolution_2-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-evolution_2-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-evolution_2-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-evolution_2-box .g-aiPointText p { white-space: nowrap; }
+	#g-evolution_2-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-evolution_2-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:16px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-evolution_2-335 .g-pstyle0 {
+		line-height:18px;
+		font-size:16px;
+	}
+	#g-evolution_2-335 .g-pstyle1 {
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-transform:uppercase;
+		top:1px;
+		position:relative;
+	}
+	#g-evolution_2-335 .g-pstyle2 {
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:right;
+		text-transform:uppercase;
+		top:1px;
+		position:relative;
+	}
+	#g-evolution_2-335 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-evolution_2-335 .g-cstyle1 {
+		font-weight:600;
+		color:rgb(255,125,0);
+	}
+	#g-evolution_2-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-evolution_2-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:19px;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		height:auto;
+		position:static;
+	}
+	#g-evolution_2-600 .g-pstyle0 {
+		line-height:21px;
+		font-size:18px;
+	}
+	#g-evolution_2-600 .g-pstyle1 {
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-transform:uppercase;
+		top:1.1px;
+		position:relative;
+	}
+	#g-evolution_2-600 .g-pstyle2 {
+		line-height:17px;
+		height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:right;
+		text-transform:uppercase;
+		top:1.1px;
+		position:relative;
+	}
+	#g-evolution_2-600 .g-cstyle0 {
+		font-weight:600;
+	}
+	#g-evolution_2-600 .g-cstyle1 {
+		font-weight:600;
+		color:rgb(255,125,0);
+	}
+
+</style>
+
+<div id="g-evolution_2-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-evolution_2-335" class="g-artboard" style="max-width: 335px;max-height: 616px" data-aspect-ratio="0.544" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 183.8806% 0;"></div>
+		<img id="g-evolution_2-335-img" class="g-evolution_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/evolution_2-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-main g-aiAbs" style="top:0%;left:0.2985%;width:99.403%;">
+			<p class="g-pstyle0">An analysis of <span class="g-cstyle0">SARS-CoV-2&rsquo;s evolutionary tree </span>shows how the virus evolved as it started to spread through humans.</p>
+			<p>&nbsp;</p>
+		</div>
+		<div id="g-ai0-2" class="g-main g-aiAbs g-aiPointText" style="top:13.024%;margin-top:-13.2px;left:0.6075%;width:205px;">
+			<p class="g-pstyle1">SARS-COV-2 Viruses closest </p>
+			<p class="g-pstyle1">to bat coronaviruses</p>
+		</div>
+		<div id="g-ai0-3" class="g-main g-aiAbs g-aiPointText" style="top:14.0792%;margin-top:-6.7px;right:3.5989%;width:127px;">
+			<p class="g-pstyle2">more mutations</p>
+		</div>
+		<div id="g-ai0-4" class="g-main g-aiAbs" style="top:33.6039%;left:60.3366%;width:39.7015%;">
+			<p><span class="g-cstyle1">The viruses that infected people linked to the market</span> were most likely not the earliest form of the virus that started the pandemic.</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-evolution_2-600" class="g-artboard" style="width:600px; height:733.000000000001px;" data-aspect-ratio="0.819" data-min-width="600">
+<div style=""></div>
+		<img id="g-evolution_2-600-img" class="g-evolution_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/evolution_2-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-main g-aiAbs" style="top:0%;left:0%;width:100%;">
+			<p class="g-pstyle0">An analysis of <span class="g-cstyle0">SARS-CoV-2&rsquo;s evolutionary tree </span>shows how the virus evolved as it started to spread through humans.</p>
+			<p>&nbsp;</p>
+		</div>
+		<div id="g-ai1-2" class="g-main g-aiAbs g-aiPointText" style="top:10.5274%;margin-top:-17.2px;left:0.3104%;width:235px;">
+			<p class="g-pstyle1">SARS-COV-2 Viruses closest </p>
+			<p class="g-pstyle1">to bat coronaviruses</p>
+		</div>
+		<div id="g-ai1-3" class="g-main g-aiAbs g-aiPointText" style="top:11.7007%;margin-top:-8.8px;right:2.9886%;width:145px;">
+			<p class="g-pstyle2">more mutations</p>
+		</div>
+		<div id="g-ai1-4" class="g-main g-aiAbs" style="top:30.1501%;left:54.8742%;width:45%;">
+			<p><span class="g-cstyle1">The viruses that infected people linked to the market</span> were most likely not the earliest form of the virus that started the pandemic.</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-evolution_2-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-06-03 09:49 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div></div>  </div></div> <div class="g-stepper g-position-right g-theme-standard svelte-p3vdj4" style="--g-stepper-inactive-background-color: #c7c7c7;--g-stepper-inactive-border: 1px solid rgba(0, 0, 0, 0.1);--g-stepper-active-background-color: #121212;--g-stepper-active-border: 1px solid rgba(0, 0, 0, 0.1)"><div class="g-stepper_step svelte-p3vdj4 active"></div><div class="g-stepper_step svelte-p3vdj4"></div> </div></svelte-scrollstory-background></svelte-scroller-background></svelte-scroller-background-container> <svelte-scroller-foreground class="svelte-xdbafy"><svelte-scrollstory-foreground slot="foreground" class="svelte-1507w7m"><div class="scrollstory-items svelte-1507w7m">  <div id="g-scrollstory_7-item-0" style="" class="scrollstory-item scrollstory-item-0 svelte-1507w7m active">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">An analysis of SARS-CoV-2’s evolutionary tree shows how the virus evolved as it started to spread through humans.</span> </div> </div><div id="g-scrollstory_7-item-1" style="" class="scrollstory-item scrollstory-item-1 svelte-1507w7m">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">The viruses that infected people linked to the market fall partway down this tree, suggesting that they were most likely not the earliest form of the virus that seeded the pandemic.</span> </div> </div> </div></svelte-scrollstory-foreground></svelte-scroller-foreground> </svelte-scroller-outer></svelte-scrollstory> </div> </div>  </section><div class="points svelte-1xf2fpd"><ul class="svelte-1xf2fpd"><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(2deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START --><strong>Not a single infected animal has ever been confirmed at the market or in its supply chain. </strong>Without good evidence that the pandemic started at the Huanan Seafood Market, the fact that the virus emerged in Wuhan points squarely at its unique SARS-like virus laboratory.<!-- HTML_TAG_END --></div> </li></ul> </div><div class="minirulewrap svelte-hzf7lj" data-svelte-h="svelte-1gtpse0"><div class="minirule svelte-hzf7lj"></div> </div><h2 class="key-point svelte-rn800m"><span class="number svelte-rn800m">5</span> <span class="text"><!-- HTML_TAG_START -->Key evidence that would be expected if the virus had emerged from the wildlife trade is still missing.<!-- HTML_TAG_END --></span> </h2><section class="g-wrapper  svelte-13ig1yh g-needs-margin-block" style="">  <div class="g-block g-block-margin svelte-1jrfrvl g-margin-inline" style=""><div class="g-block-width g-max-width-body svelte-1jrfrvl">  <svelte-scrollstory id="g-scrollstory_9" class="active-index-0 active-id-g-scrollstory_9-item-0 state-pre svelte-1507w7m   enabled stepper" style="--scrollstory-threshold-top: 75vh;--scrollstory-threshold-left: 0px;--scrollstory-debug-color: rgba(255, 0, 0, 0.8);--scrollstory-debug-transformY: 20px;--scrollstory-items-start-auto: 0px;--scrollstory-item-spacing: 70vh;--scrollstory-text-start: 1rem;--g-body-padding-top: 0.75rem;--g-body-padding-bottom: 0.75rem;--g-body-padding-left: 0.75rem;--g-body-padding-right: 0.75rem;--g-body-background-color: #fff">    <svelte-scroller-outer class="svelte-xdbafy"><svelte-scroller-background-container class="background-container svelte-xdbafy" style="
+		position: absolute;
+		top: 0;
+		transform: translate(0, 0px);
+		z-index: 1;
+	"><svelte-scroller-background class="svelte-xdbafy"><svelte-scrollstory-background slot="background" class="svelte-1507w7m"><div class="g-scrollingslides"><div class="g-slideshow g-transition-type-fade svelte-7fde2a" style="--g-slideshow-boundheight: auto;--g-slideshow-transition-duration: 0.5s;--g-slideshow-transition-easing: ease;--g-slideshow-transform-x: 0px;--g-slideshow-transform-y: 0px"><div class="g-slides svelte-7fde2a" aria-hidden="false"><div class="g-slide g-slide-0 g-slide-g-slideshow_10-item-0 g-slide-type-graphic svelte-7fde2a g-active" aria-hidden="false"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="In the SARS and MERS epidemics, scientists were able to find key pieces of evidence that demonstrated a natural origin of the virus. They found infected animals, the earliest human cases were exposed to animals, there was antibody evidence in animal traders, ancestral variants were found in animals, and there was documented trade of host animals."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-06-02 21:20 -->
+<!-- ai file: list.ai -->
+<style media="screen,print">
+	#g-list-box ,
+	#g-list-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-list-box p {
+		margin:0;
+	}
+	#g-list-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-list-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-list-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-list-box .g-aiPointText p { white-space: nowrap; }
+	#g-list-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-list-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:17px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		top:1.1px;
+		position:static;
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+	}
+	#g-list-335 .g-pstyle0 {
+		font-weight:700;
+		line-height:19px;
+		font-size:16px;
+	}
+	#g-list-335 .g-pstyle1 {
+		font-weight:700;
+		line-height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list-335 .g-pstyle2 {
+		line-height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list-335 .g-pstyle3 {
+		height:17px;
+		position:relative;
+	}
+	#g-list-335 .g-pstyle4 {
+		font-weight:700;
+		height:17px;
+		text-align:center;
+		position:relative;
+	}
+	#g-list-335 .g-cstyle0 {
+		font-weight:300;
+	}
+	#g-list-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-list-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:19px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		top:1.3px;
+		position:static;
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+	}
+	#g-list-600 .g-pstyle0 {
+		font-weight:700;
+		line-height:22px;
+		font-size:18px;
+	}
+	#g-list-600 .g-pstyle1 {
+		font-weight:700;
+		line-height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list-600 .g-pstyle2 {
+		line-height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list-600 .g-pstyle3 {
+		height:19px;
+		position:relative;
+	}
+	#g-list-600 .g-pstyle4 {
+		font-weight:700;
+		text-align:center;
+	}
+	#g-list-600 .g-cstyle0 {
+		font-weight:300;
+	}
+
+</style>
+
+<div id="g-list-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-list-335" class="g-artboard" style="max-width: 335px;max-height: 550px" data-aspect-ratio="0.609" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 164.1791% 0;"></div>
+		<img id="g-list-335-img" class="g-list-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/list-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-ai2html-settings g-aiAbs" style="top:0%;left:0.2655%;width:100%;">
+			<p class="g-pstyle0">In previous outbreaks of coronaviruses, scientists were able to demonstrate natural origin<span class="g-cstyle0"> by collecting multiple pieces of evidence linking infected humans to infected animals.</span></p>
+		</div>
+		<div id="g-ai0-2" class="g-ai2html-settings g-aiAbs" style="top:16.1818%;left:53.5226%;margin-left:-9.403%;width:18.806%;">
+			<p class="g-pstyle1">SARS</p>
+			<p class="g-pstyle2">2002</p>
+		</div>
+		<div id="g-ai0-3" class="g-ai2html-settings g-aiAbs" style="top:16.1818%;left:72.4009%;margin-left:-9.403%;width:18.806%;">
+			<p class="g-pstyle1">MERS</p>
+			<p class="g-pstyle2">2012</p>
+		</div>
+		<div id="g-ai0-4" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:29.3029%;margin-top:-17.2px;left:0%;width:120px;">
+			<p class="g-pstyle3">Infected animals</p>
+			<p class="g-pstyle3">found</p>
+		</div>
+		<div id="g-ai0-5" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:29.042%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai0-6" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:29.042%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai0-7" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:43.5574%;margin-top:-25.6px;left:0.2654%;width:125px;">
+			<p class="g-pstyle3">Earliest known</p>
+			<p class="g-pstyle3">cases exposed to</p>
+			<p class="g-pstyle3">live animals</p>
+		</div>
+		<div id="g-ai0-8" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:43.4056%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai0-9" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:43.4056%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai0-10" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:57.6301%;margin-top:-34px;left:0.2654%;width:150px;">
+			<p class="g-pstyle3">Antibody evidence</p>
+			<p class="g-pstyle3">of animals and</p>
+			<p class="g-pstyle3">animal traders having</p>
+			<p class="g-pstyle3">been infected</p>
+		</div>
+		<div id="g-ai0-11" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:57.7693%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai0-12" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:57.7693%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai0-13" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:71.9211%;margin-top:-25.6px;left:0.2845%;width:143px;">
+			<p class="g-pstyle3">Ancestral variants</p>
+			<p class="g-pstyle3">of the virus found in </p>
+			<p class="g-pstyle3">animals</p>
+		</div>
+		<div id="g-ai0-14" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:72.1329%;margin-top:-8.7px;left:53.5257%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai0-15" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:72.1329%;margin-top:-8.7px;left:72.2226%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai0-16" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:89.5938%;margin-top:-50.8px;left:0.2845%;width:153px;">
+			<p class="g-pstyle3">Documented trade</p>
+			<p class="g-pstyle3">of host animals</p>
+			<p class="g-pstyle3">between the area</p>
+			<p class="g-pstyle3">where bats carry</p>
+			<p class="g-pstyle3">closely related viruses</p>
+			<p class="g-pstyle3">and the outbreak site</p>
+		</div>
+		<div id="g-ai0-17" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:89.042%;margin-top:-8.7px;left:53.5257%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai0-18" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:89.042%;margin-top:-8.7px;left:72.2226%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-list-600" class="g-artboard" style="width:600px; height:455px;" data-aspect-ratio="1.319" data-min-width="600">
+<div style=""></div>
+		<img id="g-list-600-img" class="g-list-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/list-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-ai2html-settings g-aiAbs" style="top:0%;left:0%;width:100%;">
+			<p class="g-pstyle0">In previous outbreaks of coronaviruses, scientists were able to demonstrate natural origin<span class="g-cstyle0"> by collecting multiple pieces of evidence linking infected humans to infected animals.</span></p>
+		</div>
+		<div id="g-ai1-2" class="g-ai2html-settings g-aiAbs" style="top:17.1429%;left:62.6138%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle1">SARS</p>
+			<p class="g-pstyle2">2002</p>
+		</div>
+		<div id="g-ai1-3" class="g-ai2html-settings g-aiAbs" style="top:17.1429%;left:77.4975%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle1">MERS</p>
+			<p class="g-pstyle2">2012</p>
+		</div>
+		<div id="g-ai1-4" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:32.7042%;margin-top:-9.8px;left:0%;width:177px;">
+			<p class="g-pstyle3">Infected animals found</p>
+		</div>
+		<div id="g-ai1-5" class="g-ai2html-settings g-aiAbs" style="top:30.989%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai1-6" class="g-ai2html-settings g-aiAbs" style="top:30.989%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai1-7" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:47.2096%;margin-top:-9.8px;left:0%;width:326px;">
+			<p class="g-pstyle3">Earliest known cases exposed to live animals</p>
+		</div>
+		<div id="g-ai1-8" class="g-ai2html-settings g-aiAbs" style="top:45.4945%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai1-9" class="g-ai2html-settings g-aiAbs" style="top:45.4945%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai1-10" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:62.5063%;margin-top:-19.4px;left:0%;width:303px;">
+			<p class="g-pstyle3">Antibody evidence of animals and animal </p>
+			<p class="g-pstyle3">traders having been infected</p>
+		</div>
+		<div id="g-ai1-11" class="g-ai2html-settings g-aiAbs" style="top:60.6593%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai1-12" class="g-ai2html-settings g-aiAbs" style="top:60.6593%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai1-13" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:77.0997%;margin-top:-9.8px;left:0.0107%;width:337px;">
+			<p class="g-pstyle3">Ancestral variants of the virus found in animals</p>
+		</div>
+		<div id="g-ai1-14" class="g-ai2html-settings g-aiAbs" style="top:75.3846%;left:62.8184%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai1-15" class="g-ai2html-settings g-aiAbs" style="top:75.3846%;left:77.5592%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai1-16" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:92.9679%;margin-top:-29px;left:0.0107%;width:308px;">
+			<p class="g-pstyle3">Documented trade of host animals</p>
+			<p class="g-pstyle3">between the area where bats carry closely</p>
+			<p class="g-pstyle3">related viruses and the outbreak site</p>
+		</div>
+		<div id="g-ai1-17" class="g-ai2html-settings g-aiAbs" style="top:90.1099%;left:62.8184%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+		<div id="g-ai1-18" class="g-ai2html-settings g-aiAbs" style="top:90.1099%;left:77.5592%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Yes</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-list-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-06-02 21:20 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div><div class="g-slide g-slide-1 g-slide-g-slideshow_10-item-1 g-slide-type-graphic svelte-7fde2a" aria-hidden="true"><figure class="g-wrapper  svelte-13ig1yh" style="" role="group">  <div class="g-block g-block-margin svelte-1jrfrvl" style=""><div class="g-block-width g-max-width-default svelte-1jrfrvl"> <div class="g-media" role="img" aria-label="For SARS-CoV-2, all of these pieces of evidence are missing."> <div> <!-- HTML_TAG_START -->
+<!-- Generated by ai2html v0.119.7 - 2024-06-02 21:20 -->
+<!-- ai file: list_2.ai -->
+<style media="screen,print">
+	#g-list_2-box ,
+	#g-list_2-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-list_2-box p {
+		margin:0;
+	}
+	#g-list_2-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-list_2-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-list_2-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-list_2-box .g-aiPointText p { white-space: nowrap; }
+	#g-list_2-335 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-list_2-335 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:17px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		top:1.1px;
+		position:static;
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+	}
+	#g-list_2-335 .g-pstyle0 {
+		line-height:19px;
+		font-size:16px;
+	}
+	#g-list_2-335 .g-pstyle1 {
+		font-weight:700;
+		line-height:14px;
+		letter-spacing:0.025em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list_2-335 .g-pstyle2 {
+		line-height:14px;
+		letter-spacing:0.025em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list_2-335 .g-pstyle3 {
+		font-weight:700;
+		line-height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list_2-335 .g-pstyle4 {
+		line-height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list_2-335 .g-pstyle5 {
+		height:17px;
+		position:relative;
+	}
+	#g-list_2-335 .g-pstyle6 {
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+		text-align:center;
+		color:rgb(255,125,0);
+		top:1.3px;
+		position:relative;
+	}
+	#g-list_2-335 .g-pstyle7 {
+		font-weight:700;
+		height:17px;
+		text-align:center;
+		position:relative;
+	}
+	#g-list_2-335 .g-cstyle0 {
+		font-weight:700;
+	}
+	#g-list_2-335 .g-cstyle1 {
+		font-weight:700;
+		color:rgb(255,125,0);
+	}
+	#g-list_2-600 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-list_2-600 p {
+		font-family:nyt-franklin,arial,helvetica,sans-serif;
+		font-weight:300;
+		line-height:19px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0.005em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(0,0,0);
+		top:1.3px;
+		position:static;
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+	}
+	#g-list_2-600 .g-pstyle0 {
+		font-weight:700;
+		line-height:22px;
+		font-size:18px;
+	}
+	#g-list_2-600 .g-pstyle1 {
+		line-height:22px;
+		font-size:18px;
+	}
+	#g-list_2-600 .g-pstyle2 {
+		font-weight:700;
+		line-height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list_2-600 .g-pstyle3 {
+		line-height:17px;
+		letter-spacing:0.05em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list_2-600 .g-pstyle4 {
+		font-weight:700;
+		line-height:17px;
+		letter-spacing:0.025em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list_2-600 .g-pstyle5 {
+		line-height:17px;
+		letter-spacing:0.025em;
+		font-size:14px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+	#g-list_2-600 .g-pstyle6 {
+		height:19px;
+		position:relative;
+	}
+	#g-list_2-600 .g-pstyle7 {
+		text-align:center;
+	}
+	#g-list_2-600 .g-pstyle8 {
+		font-weight:700;
+		text-align:center;
+		color:rgb(255,125,0);
+	}
+	#g-list_2-600 .g-cstyle0 {
+		font-weight:300;
+	}
+	#g-list_2-600 .g-cstyle1 {
+		color:rgb(255,125,0);
+	}
+
+</style>
+
+<div id="g-list_2-box" class="ai2html ai2html-responsive">
+
+	<!-- Artboard: 335 -->
+	<div id="g-list_2-335" class="g-artboard" style="max-width: 335px;max-height: 550px" data-aspect-ratio="0.609" data-min-width="0" data-max-width="599">
+<div style="padding: 0 0 164.1791% 0;"></div>
+		<img id="g-list_2-335-img" class="g-list_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/list_2-335.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai0-1" class="g-ai2html-settings g-aiAbs" style="top:3.4545%;left:0.2655%;width:100%;">
+			<p class="g-pstyle0">For SARS-CoV-2, <span class="g-cstyle0">these same key pieces of evidence are </span><span class="g-cstyle1">still missing</span>, more than four years after the virus emerged.</p>
+		</div>
+		<div id="g-ai0-2" class="g-ai2html-settings g-aiAbs" style="top:16.1818%;left:90.8839%;margin-left:-9.403%;width:18.806%;">
+			<p class="g-pstyle1">Covid-19</p>
+			<p class="g-pstyle2">2019</p>
+		</div>
+		<div id="g-ai0-3" class="g-ai2html-settings g-aiAbs" style="top:16.1818%;left:53.5226%;margin-left:-9.403%;width:18.806%;">
+			<p class="g-pstyle3">SARS</p>
+			<p class="g-pstyle4">2002</p>
+		</div>
+		<div id="g-ai0-4" class="g-ai2html-settings g-aiAbs" style="top:16.1818%;left:72.4009%;margin-left:-9.403%;width:18.806%;">
+			<p class="g-pstyle3">MERS</p>
+			<p class="g-pstyle4">2012</p>
+		</div>
+		<div id="g-ai0-5" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:29.3029%;margin-top:-17.2px;left:0%;width:120px;">
+			<p class="g-pstyle5">Infected animals</p>
+			<p class="g-pstyle5">found</p>
+		</div>
+		<div id="g-ai0-6" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:28.8661%;margin-top:-9.8px;left:90.6803%;margin-left:-21px;width:42px;">
+			<p class="g-pstyle6">No</p>
+		</div>
+		<div id="g-ai0-7" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:29.042%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai0-8" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:29.042%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai0-9" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:43.5574%;margin-top:-25.6px;left:0.2654%;width:125px;">
+			<p class="g-pstyle5">Earliest known</p>
+			<p class="g-pstyle5">cases exposed to</p>
+			<p class="g-pstyle5">live animals</p>
+		</div>
+		<div id="g-ai0-10" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:43.2298%;margin-top:-9.8px;left:90.6803%;margin-left:-21px;width:42px;">
+			<p class="g-pstyle6">No</p>
+		</div>
+		<div id="g-ai0-11" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:43.4056%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai0-12" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:43.4056%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai0-13" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:57.6301%;margin-top:-34px;left:0.2654%;width:150px;">
+			<p class="g-pstyle5">Antibody evidence</p>
+			<p class="g-pstyle5">of animals and</p>
+			<p class="g-pstyle5">animal traders having</p>
+			<p class="g-pstyle5">been infected</p>
+		</div>
+		<div id="g-ai0-14" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:57.5934%;margin-top:-9.8px;left:90.6803%;margin-left:-21px;width:42px;">
+			<p class="g-pstyle6">No</p>
+		</div>
+		<div id="g-ai0-15" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:57.7693%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai0-16" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:57.7693%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai0-17" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:71.9211%;margin-top:-25.6px;left:0.2845%;width:143px;">
+			<p class="g-pstyle5">Ancestral variants</p>
+			<p class="g-pstyle5">of the virus found in </p>
+			<p class="g-pstyle5">animals</p>
+		</div>
+		<div id="g-ai0-18" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:71.957%;margin-top:-9.8px;left:90.7285%;margin-left:-21px;width:42px;">
+			<p class="g-pstyle6">No</p>
+		</div>
+		<div id="g-ai0-19" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:72.1329%;margin-top:-8.7px;left:53.5257%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai0-20" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:72.1329%;margin-top:-8.7px;left:72.2226%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai0-21" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:89.5938%;margin-top:-50.8px;left:0.2845%;width:153px;">
+			<p class="g-pstyle5">Documented trade</p>
+			<p class="g-pstyle5">of host animals</p>
+			<p class="g-pstyle5">between the area</p>
+			<p class="g-pstyle5">where bats carry</p>
+			<p class="g-pstyle5">closely related viruses</p>
+			<p class="g-pstyle5">and the outbreak site</p>
+		</div>
+		<div id="g-ai0-22" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:88.8661%;margin-top:-9.8px;left:90.7285%;margin-left:-21px;width:42px;">
+			<p class="g-pstyle6">No</p>
+		</div>
+		<div id="g-ai0-23" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:89.042%;margin-top:-8.7px;left:53.5257%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai0-24" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:89.042%;margin-top:-8.7px;left:72.2226%;margin-left:-22px;width:44px;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+	</div>
+
+	<!-- Artboard: 600 -->
+	<div id="g-list_2-600" class="g-artboard" style="width:600px; height:455.000000000001px;" data-aspect-ratio="1.319" data-min-width="600">
+<div style=""></div>
+		<img id="g-list_2-600-img" class="g-list_2-img g-aiImg" alt="" data-src="https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/list_2-600.png" src="data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw=="/>
+		<div id="g-ai1-1" class="g-ai2html-settings g-aiAbs" style="top:4.8352%;left:0%;width:100%;">
+			<p class="g-pstyle0"><span class="g-cstyle0">For SARS-CoV-2, </span>these same key pieces of evidence are <span class="g-cstyle1">still missing</span><span class="g-cstyle0">,</span></p>
+			<p class="g-pstyle1">more than four years after the virus emerged.</p>
+		</div>
+		<div id="g-ai1-2" class="g-ai2html-settings g-aiAbs" style="top:17.1429%;left:62.6138%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle2">SARS</p>
+			<p class="g-pstyle3">2002</p>
+		</div>
+		<div id="g-ai1-3" class="g-ai2html-settings g-aiAbs" style="top:17.1429%;left:77.4975%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle2">MERS</p>
+			<p class="g-pstyle3">2012</p>
+		</div>
+		<div id="g-ai1-4" class="g-ai2html-settings g-aiAbs" style="top:17.1429%;left:92.2226%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle4">Covid-19</p>
+			<p class="g-pstyle5">2019</p>
+		</div>
+		<div id="g-ai1-5" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:32.7042%;margin-top:-9.8px;left:0%;width:177px;">
+			<p class="g-pstyle6">Infected animals found</p>
+		</div>
+		<div id="g-ai1-6" class="g-ai2html-settings g-aiAbs" style="top:30.989%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-7" class="g-ai2html-settings g-aiAbs" style="top:30.989%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-8" class="g-ai2html-settings g-aiAbs" style="top:30.989%;left:92.2462%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle8">No</p>
+		</div>
+		<div id="g-ai1-9" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:47.2096%;margin-top:-9.8px;left:0%;width:326px;">
+			<p class="g-pstyle6">Earliest known cases exposed to live animals</p>
+		</div>
+		<div id="g-ai1-10" class="g-ai2html-settings g-aiAbs" style="top:45.4945%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-11" class="g-ai2html-settings g-aiAbs" style="top:45.4945%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-12" class="g-ai2html-settings g-aiAbs" style="top:45.4945%;left:92.2462%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle8">No</p>
+		</div>
+		<div id="g-ai1-13" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:62.5063%;margin-top:-19.4px;left:0%;width:303px;">
+			<p class="g-pstyle6">Antibody evidence of animals and animal </p>
+			<p class="g-pstyle6">traders having been infected</p>
+		</div>
+		<div id="g-ai1-14" class="g-ai2html-settings g-aiAbs" style="top:60.6593%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-15" class="g-ai2html-settings g-aiAbs" style="top:60.6593%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-16" class="g-ai2html-settings g-aiAbs" style="top:60.6593%;left:92.2462%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle8">No</p>
+		</div>
+		<div id="g-ai1-17" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:77.0997%;margin-top:-9.8px;left:0.0107%;width:337px;">
+			<p class="g-pstyle6">Ancestral variants of the virus found in animals</p>
+		</div>
+		<div id="g-ai1-18" class="g-ai2html-settings g-aiAbs" style="top:75.3846%;left:62.8184%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-19" class="g-ai2html-settings g-aiAbs" style="top:75.3846%;left:77.5592%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-20" class="g-ai2html-settings g-aiAbs" style="top:75.3846%;left:92.2842%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle8">No</p>
+		</div>
+		<div id="g-ai1-21" class="g-ai2html-settings g-aiAbs g-aiPointText" style="top:92.9679%;margin-top:-29px;left:0.0107%;width:308px;">
+			<p class="g-pstyle6">Documented trade of host animals</p>
+			<p class="g-pstyle6">between the area where bats carry closely</p>
+			<p class="g-pstyle6">related viruses and the outbreak site</p>
+		</div>
+		<div id="g-ai1-22" class="g-ai2html-settings g-aiAbs" style="top:90.1099%;left:62.8184%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-23" class="g-ai2html-settings g-aiAbs" style="top:90.1099%;left:77.5592%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle7">Yes</p>
+		</div>
+		<div id="g-ai1-24" class="g-ai2html-settings g-aiAbs" style="top:90.1099%;left:92.2842%;margin-left:-7.3333%;width:14.6667%;">
+			<p class="g-pstyle8">No</p>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function (containerId, opts) {
+		var nameSpace = opts.namespace || '';
+		var containers = findContainers(containerId);
+		containers.forEach(resize);
+
+		function resize(container) {
+			var onResize = throttle(update, 200);
+			var waiting = !!window.IntersectionObserver;
+			var observer;
+			update();
+
+			document.addEventListener('DOMContentLoaded', update);
+			window.addEventListener('resize', onResize);
+
+			// NYT Scoop-specific code
+			if (opts.setup) {
+				opts.setup(container).on('cleanup', cleanup);
+			}
+
+			function cleanup() {
+				document.removeEventListener('DOMContentLoaded', update);
+				window.removeEventListener('resize', onResize);
+				if (observer) observer.disconnect();
+			}
+
+			function update() {
+				var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+						width = Math.round(container.getBoundingClientRect().width);
+
+				// Set artboard visibility based on container width
+				artboards.forEach(function(el) {
+					var minwidth = el.getAttribute('data-min-width'),
+							maxwidth = el.getAttribute('data-max-width');
+					if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+						if (!waiting) {
+							selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+							selectChildren('video', el).forEach(updateVideoSrc);
+						}
+						el.style.display = 'block';
+					} else {
+						el.style.display = 'none';
+					}
+				});
+
+				// Initialize lazy loading on first call
+				if (waiting && !observer) {
+					if (elementInView(container)) {
+						waiting = false;
+						update();
+					} else {
+						observer = new IntersectionObserver(onIntersectionChange, {});
+						observer.observe(container);
+					}
+				}
+			}
+
+			function onIntersectionChange(entries) {
+				// There may be multiple entries relating to the same container
+				// (captured at different times)
+				var isIntersecting = entries.reduce(function(memo, entry) {
+					return memo || entry.isIntersecting;
+				}, false);
+				if (isIntersecting) {
+					waiting = false;
+					// update: don't remove -- we need the observer to trigger an update
+					// when a hidden map becomes visible after user interaction
+					// (e.g. when an accordion menu or tab opens)
+					// observer.disconnect();
+					// observer = null;
+					update();
+				}
+			}
+		}
+
+		function findContainers(id) {
+			// support duplicate ids on the page
+			return selectChildren('.ai2html-responsive', document).filter(function(el) {
+				if (el.getAttribute('id') != id) return false;
+				if (el.classList.contains('ai2html-resizer')) return false;
+				el.classList.add('ai2html-resizer');
+				return true;
+			});
+		}
+
+		// Replace blank placeholder image with actual image
+		function updateImgSrc(img) {
+			var src = img.getAttribute('data-src');
+			if (src && img.getAttribute('src') != src) {
+				img.setAttribute('src', src);
+			}
+		}
+
+		function updateVideoSrc(el) {
+			var src = el.getAttribute('data-src');
+			if (src && !el.hasAttribute('src')) {
+				el.setAttribute('src', src);
+			}
+		}
+
+		function elementInView(el) {
+			var bounds = el.getBoundingClientRect();
+			return bounds.top < window.innerHeight && bounds.bottom > 0;
+		}
+
+		function selectChildren(selector, parent) {
+			return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+		}
+
+		// based on underscore.js
+		function throttle(func, wait) {
+			var timeout = null, previous = 0;
+			function run() {
+					previous = Date.now();
+					timeout = null;
+					func();
+			}
+			return function() {
+				var remaining = wait - (Date.now() - previous);
+				if (remaining <= 0 || remaining > wait) {
+					clearTimeout(timeout);
+					run();
+				} else if (!timeout) {
+					timeout = setTimeout(run, remaining);
+				}
+			};
+		}
+	})("g-list_2-box", {namespace: "g-", setup: window.setupInteractive || window.getComponent});
+</script>
+<!-- End ai2html - 2024-06-02 21:20 -->
+<!-- HTML_TAG_END --> </div></div> </div> </div>  </figure> </div></div>  </div></div> <div class="g-stepper g-position-right g-theme-standard svelte-p3vdj4" style="--g-stepper-inactive-background-color: #c7c7c7;--g-stepper-inactive-border: 1px solid rgba(0, 0, 0, 0.1);--g-stepper-active-background-color: #121212;--g-stepper-active-border: 1px solid rgba(0, 0, 0, 0.1)"><div class="g-stepper_step svelte-p3vdj4 active"></div><div class="g-stepper_step svelte-p3vdj4"></div> </div></svelte-scrollstory-background></svelte-scroller-background></svelte-scroller-background-container> <svelte-scroller-foreground class="svelte-xdbafy"><svelte-scrollstory-foreground slot="foreground" class="svelte-1507w7m"><div class="scrollstory-items svelte-1507w7m">  <div id="g-scrollstory_9-item-0" style="" class="scrollstory-item scrollstory-item-0 svelte-1507w7m active">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">In the SARS and MERS epidemics, scientists were able to find key pieces of evidence that demonstrated a natural origin of the virus. They found infected animals, the earliest human cases were exposed to animals, there was antibody evidence in animal traders, ancestral variants were found in animals, and there was documented trade of host animals.</span> </div> </div><div id="g-scrollstory_9-item-1" style="" class="scrollstory-item scrollstory-item-1 svelte-1507w7m">   <div class="g-screenreader-only svelte-cfmrc5"><span class="g-screenreader">For SARS-CoV-2, all of these pieces of evidence are missing.</span> </div> </div> </div></svelte-scrollstory-foreground></svelte-scroller-foreground> </svelte-scroller-outer></svelte-scrollstory> </div> </div>  </section><div class="points svelte-1xf2fpd"><ul class="svelte-1xf2fpd"><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(2deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Despite the intense search trained on the animal trade and people linked to the market, <strong>investigators have not reported </strong><strong>finding </strong><strong><a href="https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part">any animals infected with SARS‑CoV‑2</a></strong> that had not been infected by humans. Yet, infected animal sources and other connective pieces of evidence were found for the earlier <a href="https://thebulletin.org/2022/03/the-origins-of-sars-cov-2-still-to-be-determined/">SARS</a> <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa1401505">and</a> <a href="https://www.cidrap.umn.edu/mers-cov/jordanian-saudi-camels-have-mers-cov-antibodies">MERS</a> <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102853/">outbreaks</a> as <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/16485471/">quickly</a> as within a few days, despite the less advanced viral forensic technologies of two decades ago.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->Even though Wuhan is the home base of virus hunters with world-leading expertise in tracking novel SARS-like viruses, <strong>investigators have either failed to collect or report key evidence that would be expected if Covid-19 emerged from the wildlife trade</strong>. For example, investigators have not determined that the earliest known cases had exposure to intermediate host animals before falling ill. No antibody evidence shows that animal traders in Wuhan are regularly exposed to SARS-like viruses, <a href="https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5241a2.htm">as would be expected</a> in such situations.<!-- HTML_TAG_END --></div> </li><li class="svelte-1xf2fpd"><div class="point-inner svelte-1xf2fpd" style="transform: translateY(50px) rotate(-4deg);"><span class="bullet svelte-1xf2fpd"></span> <!-- HTML_TAG_START -->With today’s technology, scientists can detect how respiratory viruses — including SARS, MERS and the flu — circulate in animals while making repeated attempts to <a href="https://www.cdc.gov/flu/avianflu/mammals.htm">jump across species</a>. Thankfully, these variants usually fail to transmit well after crossing over to a new species and tend to die off after a small number of infections. In contrast, virologists and other scientists agree that SARS‑CoV‑2 required little to no adaptation to spread rapidly in humans and <a href="https://pubmed.ncbi.nlm.nih.gov/33711012/">other animals</a>. <strong>The virus appears to have succeeded in causing a pandemic upon its only detected jump into humans.</strong><!-- HTML_TAG_END --></div> </li></ul> </div><div class="minirulewrap svelte-hzf7lj" data-svelte-h="svelte-1gtpse0"><div class="minirule svelte-hzf7lj"></div> </div><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->The pandemic could have been caused by any of hundreds of virus species, at any of tens of thousands of wildlife markets, in any of thousands of cities, and in any year. But it was a SARS-like coronavirus with a unique furin cleavage site that emerged in Wuhan, less than two years after scientists, sometimes working under inadequate biosafety conditions, proposed collecting and creating viruses of that same design.<!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->While several natural spillover scenarios remain plausible, and we still don’t know enough about the full extent of virus research conducted at the Wuhan institute by Dr. Shi’s team and other researchers, a laboratory accident is the most parsimonious explanation of how the pandemic began.<!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->Given what we now know, investigators should follow their strongest leads and subpoena all exchanges between the Wuhan scientists and their international partners, including unpublished research proposals, manuscripts, data and commercial orders. In particular, exchanges from 2018 and 2019 — the critical two years before the emergence of Covid-19 — are very likely to be illuminating (and require no cooperation from the Chinese government to acquire), yet they remain beyond the public’s view more than four years after the pandemic began.<!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->Whether the pandemic started on a lab bench or in a market stall, it is undeniable that U.S. federal funding helped to build an unprecedented collection of SARS-like viruses at the Wuhan institute, as well as contributing to research that <a href="https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/">enhanced them</a>. Advocates and funders of the institute’s research, including Dr. Fauci, should cooperate with the investigation to help identify and close the loopholes that allowed such dangerous work to occur. The world must not continue to bear the intolerable risks of <a href="https://www.washingtonpost.com/opinions/a-flu-virus-risk-worth-taking/2011/12/30/gIQAM9sNRP_story.html">research with the potential to cause pandemics</a>.<!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->A successful investigation of the pandemic’s root cause would have the power to break a decades-long scientific impasse on pathogen research safety, determining how governments will spend billions of dollars to prevent future pandemics. A credible investigation would also deter future acts of negligence and deceit by demonstrating that it is indeed possible to be held accountable for causing a viral pandemic. Last but not least, people of all nations need to see their leaders — and especially, their scientists — heading the charge to find out what caused this world-shaking event. Restoring public trust in science and government leadership requires it.<!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->A thorough investigation by the U.S. government could unearth more evidence while spurring whistleblowers to find their courage and seek their moment of opportunity. It would also show the world that U.S. leaders and scientists are not afraid of what the truth behind the pandemic may be.<!-- HTML_TAG_END --></p><div class="g-block g-block-margin svelte-1jrfrvl g-margin-inline" style=""><div class="g-block-width g-max-width-body svelte-1jrfrvl"><div class="g-related-links display-standard svelte-7bmhyp"><div class="g-related-links_header svelte-7bmhyp"><div class="g-wrapper_hed g-text-align-left svelte-1so50ue"><h3 class="g-heading svelte-1so50ue"><!-- HTML_TAG_START -->More on how the pandemic may have started<!-- HTML_TAG_END --></h3>  </div></div> <div class="g-related-links_body"><div class="g-related-links_item svelte-7bmhyp"><a href="https://www.nytimes.com/2021/06/25/opinion/coronavirus-lab.html" class="svelte-7bmhyp"> <div class="g-related-links_thumb svelte-7bmhyp"><img alt="" loading="lazy" decoding="async" width="150" height="150" src="https://static01.nyt.com/images/2021/06/25/opinion/25tufeckiSub/25tufeckiSub-thumbLarge.jpg" class="g-image svelte-z1ymna  nojs"> </div> <div class="g-related-links_info svelte-7bmhyp"><h4 class="g-related-links_item-headline svelte-7bmhyp">Where Did the Coronavirus Come From? What We Already Know Is Troubling.</h4><p class="g-related-links_item-summary svelte-7bmhyp">Even if the coronavirus did not emerge from a lab, the groundwork for a potential disaster had been laid for years, and learning its lessons is essential to preventing others.</p><p class="g-related-links_item-byline svelte-7bmhyp">By Zeynep Tufekci</p><time class="g-related-links_item-date svelte-7bmhyp">June 25, 2021</time> </div></a> </div><div class="g-related-links_item svelte-7bmhyp"><a href="https://www.nytimes.com/2023/05/03/opinion/covid-origin-science.html" class="svelte-7bmhyp"> <div class="g-related-links_thumb svelte-7bmhyp"><img alt="" loading="lazy" decoding="async" width="150" height="150" src="https://static01.nyt.com/images/2023/05/03/opinion/03wallace-wells-image/03wallace-wells-image-thumbLarge.jpg" class="g-image svelte-z1ymna  nojs"> </div> <div class="g-related-links_info svelte-7bmhyp"><h4 class="g-related-links_item-headline svelte-7bmhyp">Why Does Bad Science on Covid’s Origin Get Hyped?</h4><p class="g-related-links_item-summary svelte-7bmhyp">If the raccoon dog was a smoking gun, it fired blanks.</p><p class="g-related-links_item-byline svelte-7bmhyp">By David Wallace-Wells</p><time class="g-related-links_item-date svelte-7bmhyp">May 3, 2023</time> </div></a> </div><div class="g-related-links_item svelte-7bmhyp"><a href="https://www.nytimes.com/2022/10/30/opinion/virology-safety.html" class="svelte-7bmhyp"> <div class="g-related-links_thumb svelte-7bmhyp"><img alt="" loading="lazy" decoding="async" width="150" height="150" src="https://static01.nyt.com/images/2022/11/04/opinion/sunday/30Bloom/30Bloom-thumbLarge.jpg" class="g-image svelte-z1ymna  nojs"> </div> <div class="g-related-links_info svelte-7bmhyp"><h4 class="g-related-links_item-headline svelte-7bmhyp">A Plea for Making Virus Research Safer</h4><p class="g-related-links_item-summary svelte-7bmhyp">A way forward for lab safety.</p><p class="g-related-links_item-byline svelte-7bmhyp">By Jesse Bloom</p><time class="g-related-links_item-date svelte-7bmhyp">Oct. 30, 2022</time> </div></a> </div></div></div></div> </div><div class="op-boilerplate"><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START --><em>The Times is committed to publishing </em><em><a href="https://www.nytimes.com/2019/01/31/opinion/letters/letters-to-editor-new-york-times-women.html">a diversity of letters</a></em><em> to the editor. We’d like to hear what you think about this or any of our articles. Here are some </em><em><a href="https://help.nytimes.com/hc/en-us/articles/115014925288-How-to-submit-a-letter-to-the-editor">tips</a></em><em>. And here’s our email: </em><em><a href="null">letters@nytimes.com</a></em><em>.</em><!-- HTML_TAG_END --></p><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START --><em>Follow the New York Times Opinion section on </em><em><a href="https://www.facebook.com/nytopinion">Facebook</a></em><em>, </em><em><a href="https://www.instagram.com/nytopinion/">Instagram</a></em><em>, </em><em><a href="https://www.tiktok.com/@nytopinion">TikTok</a></em><em>, </em><em><a href="https://www.whatsapp.com/channel/0029VaN8tdZ5vKAGNwXaED0M">WhatsApp</a></em><em>, </em><em><a href="http://twitter.com/NYTOpinion">X</a></em><em> and </em><em><a href="https://www.threads.net/@nytopinion">Threads</a></em><em>.</em><!-- HTML_TAG_END --></p> </div> <div class="bottom-bio"><p class="g-text svelte-urmhfi"><!-- HTML_TAG_START -->Alina Chan (<a href="https://x.com/ayjchan">@ayjchan</a>) is a molecular biologist at the Broad Institute of M.I.T. and Harvard, and a co-author of “<a href="https://www.harpercollins.com/products/viral-matt-ridleyalina-chan?variant=40127936987170">Viral</a>: The Search for the Origin of Covid-19.” She was a member of the <a href="https://thebulletin.org/pathogens-project/taskforce/">Pathogens Project</a>, which the <a href="https://thebulletin.org/">Bulletin of the Atomic Scientists</a> organized to generate new thinking on responsible, high-risk pathogen research.<!-- HTML_TAG_END --></p> </div>  
+			
+			<script>
+				{
+					__sveltekit_1uxqf9u = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: null
+					};
+
+					const element = document.currentScript.parentElement.dataset.birdkitHydrate ? document.currentScript.parentElement : document.querySelector('[data-birdkit-hydrate="d2e835a8504bc63d"]');
+
+					const data = [null,{"type":"data","data":{body:[{type:"svelte",value:{component:"Intro",wrapper:false,hed:"Why the Pandemic Probably Started in a Lab, in 5 Key Points",credit:"Illustration by Mike McQuade. Source photographs by Getty Images.",image:{media:{assetType:"localResponsiveImage",assetSlug:"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images/illo-final.jpg",breakpointName:void 0,assetErrors:[],outputPath:"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/_images",fileName:"illo-final.jpg",slug:"illo-final",ratio:1,extensions:["webp","jpg"],widths:[300,600,900,1200],hasRetina:true,mediaComponent:"ImageLoader"}}}},{type:"extendedbyline",value:{customByline:"By Alina Chan",bio:"Dr. Chan is a molecular biologist at the Broad Institute of M.I.T. and Harvard, and a co-author of “Viral: The Search for the Origin of Covid-19.”",sharetools:{show:true,position:"belowByline"},headline:"Why the Pandemic Probably Started in a Lab, in 5 Key Points",leadin:"",bylines:[{prefix:"By",creatorSnapshots:[{displayName:"Alina Chan",bioUrl:"https://www.nytimes.com/by/alina-chan",slug:"alina-chan"}]}],slugs:["by/alina-chan"],firstPublished:"June 3, 2024",firstPublishedTimestamp:"2024-06-03T05:04:18-04:00",lastModified:"June 5, 2024",lastModifiedTimestamp:"2024-06-05T14:49:13-04:00",updatedText:"",language:"en",translations:[{url:"https://cn.nytimes.com/opinion/20240605/covid-lab-leak/",language:{code:"zh-hans"},linkText:"Read in Simplified Chinese",translatedLinkText:"阅读简体中文版"},{url:"https://cn.nytimes.com/opinion/20240605/covid-lab-leak/zh-hant/",language:{code:"zh-hant"},linkText:"Read in Traditional Chinese",translatedLinkText:"閱讀繁體中文版"}],hideBylineAndTimestamp:true,transparentMasthead:true,headshots:[[{displayName:"Alina Chan",bioUrl:"https://www.nytimes.com/by/alina-chan",promotionalMedia:null}]]}},{type:"text",value:"\u003Cem>This article has been updated to reflect news developments.\u003C/em>"},{type:"text",value:"On Monday, Dr. Anthony Fauci returned to the halls of Congress and \u003Ca href=\"https://www.youtube.com/live/nvQTXAgtA6s?feature=shared&t=3086\">testified before the House subcommittee\u003C/a> investigating the Covid-19 pandemic. He was questioned about several topics related to the government’s handling of Covid-19, including how the National Institute of Allergy and Infectious Diseases, which he directed until retiring in 2022, supported risky virus work at a Chinese institute whose research may have caused the pandemic."},{type:"text",value:"For more than four years, reflexive partisan politics have derailed the search for the truth about a catastrophe that has touched us all. It has been estimated that \u003Ca href=\"https://ourworldindata.org/excess-mortality-covid\">at least 25 million people\u003C/a> around the world have died because of Covid-19, with over a million of those deaths in the United States."},{type:"text",value:"Although how the pandemic started has been hotly debated, a growing volume of evidence — gleaned from public records released under the Freedom of Information Act, digital sleuthing through online databases, scientific papers analyzing the virus and its spread, and leaks from within the U.S. government — suggests that the pandemic most likely occurred because a virus escaped from a research lab in Wuhan, China. If so, it would be the most costly accident in the history of science."},{type:"text",value:"Here’s what we now know:"},{type:"svelte",value:{component:"KeyPoint",wrapper:false,number:"1",text:"The SARS-like virus that caused the pandemic emerged in Wuhan, the city where the world’s foremost research lab for SARS-like viruses is located."}},{type:"svelte",value:{component:"Points",wrapper:false,points:["At the Wuhan Institute of Virology, \u003Cstrong>a team of scientists had been hunting for SARS-like viruses\u003C/strong> for over a decade, led by Shi Zhengli.","Their research showed that \u003Cstrong>the \u003C/strong>\u003Cstrong>viruses most similar to SARS‑CoV‑2, the virus that caused the pandemic, \u003C/strong>\u003Cstrong>circulate in bats that live\u003C/strong>\u003Cstrong> r\u003C/strong>\u003Cstrong>oughly 1,000 miles \u003C/strong>\u003Cstrong>away from Wuhan.\u003C/strong> Scientists from Dr. Shi’s team traveled repeatedly to Yunnan province to \u003Ca href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7106260/\">collect these viruses\u003C/a> and had expanded their search to Southeast Asia. Bats in other parts of China have not been found to carry viruses that are as closely related to SARS-CoV-2."]}},{type:"scrollingslides",value:{textAlign:"left",maxWidth:"800",marginInline:true,marginBlock:true,stepper:true,transitionType:"fade",items:[{media:{assetType:"graphic",assetSlug:"geography.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.120.0 - 2024-05-31 12:05 -->\n\u003C!-- ai file: geography.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-geography-box ,\n\t#g-geography-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-geography-box p {\n\t\tmargin:0;\n\t}\n\t#g-geography-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-geography-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-geography-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-geography-box .g-aiPointText p { white-space: nowrap; }\n\t#g-geography-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-geography-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:19px;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-geography-335 .g-pstyle0 {\n\t\tline-height:14px;\n\t\theight:14px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\tcolor:rgb(153,153,153);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography-335 .g-pstyle1 {\n\t\tfont-style:italic;\n\t\tline-height:12px;\n\t\theight:12px;\n\t\tletter-spacing:0em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\tcolor:rgb(173,173,173);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography-335 .g-pstyle2 {\n\t\tfont-weight:700;\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tfont-size:14px;\n\t\tcolor:rgb(255,125,0);\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-geography-335 .g-pstyle3 {\n\t\tfont-style:italic;\n\t\tline-height:12px;\n\t\theight:12px;\n\t\tletter-spacing:0em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\tcolor:rgb(155,176,188);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography-335 .g-cstyle0 {\n\t\tfont-weight:700;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-geography-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-geography-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:17px;\n\t\theight:auto;\n\t\topacity:1;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\ttext-transform:none;\n\t\tcolor:rgb(153,153,153);\n\t\ttop:1.1px;\n\t\tposition:static;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t}\n\t#g-geography-600 .g-pstyle0 {\n\t\tfont-weight:700;\n\t\tline-height:22px;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:18px;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-geography-600 .g-pstyle1 {\n\t\tline-height:22px;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:18px;\n\t\tcolor:rgb(0,0,0);\n\t}\n\t#g-geography-600 .g-pstyle2 {\n\t\theight:17px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\tposition:relative;\n\t}\n\t#g-geography-600 .g-pstyle3 {\n\t\tfont-style:italic;\n\t\tline-height:14px;\n\t\theight:14px;\n\t\tletter-spacing:0em;\n\t\tfont-size:13px;\n\t\ttext-align:center;\n\t\tcolor:rgb(155,176,188);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography-600 .g-pstyle4 {\n\t\tfont-style:italic;\n\t\tline-height:16px;\n\t\theight:16px;\n\t\tletter-spacing:0em;\n\t\tfont-size:15px;\n\t\ttext-align:center;\n\t\tcolor:rgb(173,173,173);\n\t\ttop:1.2px;\n\t\tposition:relative;\n\t}\n\t#g-geography-600 .g-pstyle5 {\n\t\tfont-weight:700;\n\t\tline-height:19px;\n\t\theight:19px;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:16px;\n\t\tcolor:rgb(255,125,0);\n\t\ttop:1.3px;\n\t\tposition:relative;\n\t}\n\t#g-geography-600 .g-cstyle0 {\n\t\tfont-weight:300;\n\t\tcolor:rgb(0,0,0);\n\t}\n\t#g-geography-800 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-geography-800 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:700;\n\t\tline-height:24px;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:20px;\n\t\ttext-align:left;\n\t\tcolor:rgb(255,125,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-geography-800 .g-pstyle0 {\n\t\tfont-weight:300;\n\t\tcolor:rgb(0,0,0);\n\t}\n\t#g-geography-800 .g-pstyle1 {\n\t\tfont-weight:300;\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\tcolor:rgb(153,153,153);\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-geography-800 .g-pstyle2 {\n\t\tfont-weight:300;\n\t\tfont-style:italic;\n\t\tline-height:15px;\n\t\theight:15px;\n\t\tletter-spacing:0em;\n\t\tfont-size:13px;\n\t\ttext-align:center;\n\t\tcolor:rgb(155,176,188);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography-800 .g-pstyle3 {\n\t\tline-height:19px;\n\t\theight:19px;\n\t\tfont-size:16px;\n\t\ttop:1.3px;\n\t\tposition:relative;\n\t}\n\t#g-geography-800 .g-cstyle0 {\n\t\tfont-weight:300;\n\t\tcolor:rgb(0,0,0);\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-geography-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-geography-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 297px\" data-aspect-ratio=\"1.128\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 88.6567% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-geography-335-img\" class=\"g-geography-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-bg g-aiAbs\" style=\"top:4.0404%;left:3.8806%;width:68.9552%;\">\n\t\t\t\u003Cp>The \u003Cspan class=\"g-cstyle0\">closest known relatives to SARS-CoV-2\u003C/span> were found in southwestern China and in Laos.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:36.353%;margin-top:-7px;left:16.5033%;margin-left:-28px;width:56px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">China\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:54.2753%;margin-top:-6.2px;left:60.6275%;margin-left:-39.5px;width:79px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Large cities\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:61.1887%;margin-top:-8.7px;left:21.0153%;width:174px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Mine in Yunnan province\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-5\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:62.9523%;margin-top:-7px;left:83.9628%;margin-left:-31.5px;width:63px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Taiwan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-6\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:74.7368%;margin-top:-7px;left:17.5455%;margin-left:-25px;width:50px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-7\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:83.4109%;margin-top:-8.7px;left:20.4498%;width:100px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Cave in Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-8\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:85.9253%;margin-top:-6.2px;left:63.5226%;margin-left:-52.5px;width:105px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">South China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-9\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:92.5819%;margin-top:-7px;left:15.2729%;margin-left:-38px;width:76px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Thailand\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-geography-600\" class=\"g-artboard\" style=\"width:600px; height:380px;\" data-aspect-ratio=\"1.579\" data-min-width=\"600\" data-max-width=\"799\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-geography-600-img\" class=\"g-geography-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-bg g-aiAbs\" style=\"top:4.4737%;left:3.3123%;width:67%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">\u003Cspan class=\"g-cstyle0\">The \u003C/span>closest known relatives to SARS-CoV-2\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle1\">were found in southwestern China and in Laos.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:26.2542%;margin-top:-8.8px;left:31.7007%;margin-left:-31.5px;width:63px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">China\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:39.2621%;margin-top:-14.2px;left:90.6798%;margin-left:-38.5px;width:77px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">East\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:42.57%;margin-top:-8.8px;left:12.6154%;margin-left:-29px;width:58px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">india\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-5\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:50.8497%;margin-top:-16.2px;left:59.9104%;margin-left:-28.5px;width:57px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Large\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle4\">cities\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-6\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:57.3062%;margin-top:-9.8px;left:35.6552%;width:195px;\">\n\t\t\t\u003Cp class=\"g-pstyle5\">Mine in Yunnan province\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-7\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:59.4121%;margin-top:-8.8px;left:82.3217%;margin-left:-36px;width:72px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Taiwan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-8\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:63.3594%;margin-top:-8.8px;left:19.5983%;margin-left:-45.5px;width:91px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Myanmar\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-9\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:71.5173%;margin-top:-8.8px;left:33.6362%;margin-left:-28px;width:56px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-10\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:79.7884%;margin-top:-14.2px;left:67.8135%;margin-left:-38.5px;width:77px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">South\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-11\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:80.201%;margin-top:-9.8px;left:35.1743%;width:111px;\">\n\t\t\t\u003Cp class=\"g-pstyle5\">Cave in Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-12\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:88.0963%;margin-top:-8.8px;left:83.987%;margin-left:-53px;width:106px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">philippines\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-13\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:89.6752%;margin-top:-8.8px;left:32.0025%;margin-left:-44px;width:88px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Thailand\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 800 -->\n\t\u003Cdiv id=\"g-geography-800\" class=\"g-artboard\" style=\"width:800px; height:507px;\" data-aspect-ratio=\"1.578\" data-min-width=\"800\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-geography-800-img\" class=\"g-geography-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography-800.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai2-1\" class=\"g-annotations g-aiAbs\" style=\"top:3.5503%;left:2.5%;width:71.5%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">The \u003C/span>closest known relatives to SARS-CoV-2\u003Cspan class=\"g-cstyle0\"> were found\u003C/span>\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle0\">in southwestern China and Laos.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-2\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:20.4666%;margin-top:-8.8px;left:30.4731%;margin-left:-31.5px;width:63px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">China\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-3\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:39.2546%;margin-top:-15px;left:90.681%;margin-left:-38.5px;width:77px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">East\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle2\">China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-4\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:43.1491%;margin-top:-8.8px;left:12.6385%;margin-left:-29px;width:58px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">india\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-5\" class=\"g-bg g-aiAbs g-aiPointText\" style=\"top:57.1526%;margin-top:-9.8px;left:35.6101%;width:195px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Mine in Yunnan province\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-6\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:59.9144%;margin-top:-8.8px;left:82.3263%;margin-left:-36px;width:72px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Taiwan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-7\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:63.8591%;margin-top:-8.8px;left:19.6061%;margin-left:-45.5px;width:91px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Myanmar\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-8\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:71.9459%;margin-top:-8.8px;left:33.6532%;margin-left:-28px;width:56px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-9\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:78.4446%;margin-top:-7.7px;left:67.8378%;margin-left:-56px;width:112px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">South China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-10\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:80.4268%;margin-top:-9.8px;left:35.3795%;width:111px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Cave in Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-11\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:88.514%;margin-top:-8.8px;left:83.9905%;margin-left:-53px;width:106px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">philippines\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-12\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:90.0919%;margin-top:-8.8px;left:32.0223%;margin-left:-44px;width:88px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Thailand\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-geography-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-05-31 12:05 -->\n",mediaComponent:"Graphic"},text:"",altText:"A map showing the closest known relatives of SARS-CoV-2 in a mine in the Yunnan province of China and in a cave in northern Laos.",note:"Note: Cities shown have a population of at least 200,000.",source:"Sources: Sarah Temmam et al., Nature; SimpleMaps",footerMaxWidth:"335px","footerMaxWidth-640px":"body","footerMaxWidth-840px":"800"},{media:{assetType:"graphic",assetSlug:"geography_2.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.120.0 - 2024-05-31 12:02 -->\n\u003C!-- ai file: geography_2.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-geography_2-box ,\n\t#g-geography_2-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-geography_2-box p {\n\t\tmargin:0;\n\t}\n\t#g-geography_2-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-geography_2-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-geography_2-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-geography_2-box .g-aiPointText p { white-space: nowrap; }\n\t#g-geography_2-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-geography_2-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:19px;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-geography_2-335 .g-pstyle0 {\n\t\tline-height:14px;\n\t\theight:14px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\tcolor:rgb(153,153,153);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_2-335 .g-pstyle1 {\n\t\tfont-weight:700;\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\tcolor:rgb(255,125,0);\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_2-335 .g-pstyle2 {\n\t\tfont-style:italic;\n\t\tline-height:12px;\n\t\theight:12px;\n\t\tletter-spacing:0em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\tcolor:rgb(155,176,188);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_2-335 .g-cstyle0 {\n\t\tfont-weight:700;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-geography_2-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-geography_2-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:17px;\n\t\theight:auto;\n\t\topacity:1;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\ttext-transform:none;\n\t\tcolor:rgb(153,153,153);\n\t\ttop:1.1px;\n\t\tposition:static;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t}\n\t#g-geography_2-600 .g-pstyle0 {\n\t\tfont-weight:700;\n\t\tline-height:22px;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:18px;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-geography_2-600 .g-pstyle1 {\n\t\tline-height:22px;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:18px;\n\t\tcolor:rgb(0,0,0);\n\t}\n\t#g-geography_2-600 .g-pstyle2 {\n\t\theight:17px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\tposition:relative;\n\t}\n\t#g-geography_2-600 .g-pstyle3 {\n\t\tfont-style:italic;\n\t\tline-height:14px;\n\t\theight:14px;\n\t\tletter-spacing:0em;\n\t\tfont-size:13px;\n\t\ttext-align:center;\n\t\tcolor:rgb(155,176,188);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_2-600 .g-pstyle4 {\n\t\tfont-weight:700;\n\t\tline-height:19px;\n\t\theight:19px;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:16px;\n\t\ttext-align:center;\n\t\tcolor:rgb(255,125,0);\n\t\ttop:1.3px;\n\t\tposition:relative;\n\t}\n\t#g-geography_2-600 .g-cstyle0 {\n\t\tfont-weight:300;\n\t\tcolor:rgb(0,0,0);\n\t}\n\t#g-geography_2-800 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-geography_2-800 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:24px;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:20px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-geography_2-800 .g-pstyle0 {\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\tcolor:rgb(153,153,153);\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_2-800 .g-pstyle1 {\n\t\tfont-weight:700;\n\t\tline-height:19px;\n\t\theight:19px;\n\t\tfont-size:16px;\n\t\ttext-align:center;\n\t\tcolor:rgb(255,125,0);\n\t\ttop:1.3px;\n\t\tposition:relative;\n\t}\n\t#g-geography_2-800 .g-pstyle2 {\n\t\tfont-style:italic;\n\t\tline-height:15px;\n\t\theight:15px;\n\t\tletter-spacing:0em;\n\t\tfont-size:13px;\n\t\ttext-align:center;\n\t\tcolor:rgb(155,176,188);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_2-800 .g-cstyle0 {\n\t\tfont-weight:700;\n\t\tcolor:rgb(255,125,0);\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-geography_2-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-geography_2-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 297px\" data-aspect-ratio=\"1.128\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 88.6567% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-geography_2-335-img\" class=\"g-geography_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_2-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-bg g-aiAbs\" style=\"top:4.0404%;left:3.8806%;width:71.6418%;\">\n\t\t\t\u003Cp>There are \u003Cspan class=\"g-cstyle0\">hundreds of large cities\u003C/span> in China and Southeast Asia.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:36.353%;margin-top:-7px;left:16.5033%;margin-left:-28px;width:56px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">China\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-bg g-aiAbs g-aiPointText\" style=\"top:42.6702%;margin-top:-8.7px;left:53.8392%;margin-left:-47.5px;width:95px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Large cities\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:62.9523%;margin-top:-7px;left:83.9627%;margin-left:-31.5px;width:63px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Taiwan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-5\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:74.7368%;margin-top:-7px;left:17.5455%;margin-left:-25px;width:50px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-6\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:86.262%;margin-top:-6.2px;left:63.5226%;margin-left:-52.5px;width:105px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">South China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-7\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:92.5819%;margin-top:-7px;left:15.2727%;margin-left:-38px;width:76px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Thailand\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-geography_2-600\" class=\"g-artboard\" style=\"width:600px; height:380px;\" data-aspect-ratio=\"1.579\" data-min-width=\"600\" data-max-width=\"799\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-geography_2-600-img\" class=\"g-geography_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_2-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-bg g-aiAbs\" style=\"top:4.4737%;left:3.3333%;width:67%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">\u003Cspan class=\"g-cstyle0\">There are \u003C/span>hundreds of large cities\u003Cspan class=\"g-cstyle0\"> in China\u003C/span>\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle1\">and Southeast Asia.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:25.991%;margin-top:-8.8px;left:31.7218%;margin-left:-31.5px;width:63px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">China\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:39.2621%;margin-top:-14.2px;left:90.7009%;margin-left:-38.5px;width:77px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">East\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-bg g-aiAbs g-aiPointText\" style=\"top:40.7273%;margin-top:-9.8px;left:58.5321%;margin-left:-52.5px;width:105px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Large cities\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-5\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:42.57%;margin-top:-8.8px;left:12.6365%;margin-left:-29px;width:58px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">india\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-6\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:59.4121%;margin-top:-8.8px;left:82.3428%;margin-left:-36px;width:72px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Taiwan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-7\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:63.3594%;margin-top:-8.8px;left:19.6193%;margin-left:-45.5px;width:91px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Myanmar\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-8\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:71.5173%;margin-top:-8.8px;left:33.6573%;margin-left:-28px;width:56px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-9\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:80.0515%;margin-top:-14.2px;left:67.8346%;margin-left:-38.5px;width:77px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">South\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-10\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:88.0963%;margin-top:-8.8px;left:84.0081%;margin-left:-53px;width:106px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">philippines\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-11\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:89.6752%;margin-top:-8.8px;left:32.0236%;margin-left:-44px;width:88px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Thailand\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 800 -->\n\t\u003Cdiv id=\"g-geography_2-800\" class=\"g-artboard\" style=\"width:800px; height:507px;\" data-aspect-ratio=\"1.578\" data-min-width=\"800\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-geography_2-800-img\" class=\"g-geography_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_2-800.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai2-1\" class=\"g-bg g-aiAbs\" style=\"top:3.5503%;left:2.5%;width:71.5%;\">\n\t\t\t\u003Cp>There are \u003Cspan class=\"g-cstyle0\">hundreds of large cities\u003C/span> in China and Southeast Asia.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-2\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:20.4666%;margin-top:-8.8px;left:30.4731%;margin-left:-31.5px;width:63px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">China\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-3\" class=\"g-bg g-aiAbs g-aiPointText\" style=\"top:37.0343%;margin-top:-9.8px;left:52.7981%;margin-left:-52.5px;width:105px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Large cities\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-4\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:39.2546%;margin-top:-15px;left:90.681%;margin-left:-38.5px;width:77px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">East\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle2\">China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-5\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:43.1491%;margin-top:-8.8px;left:12.6385%;margin-left:-29px;width:58px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">india\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-6\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:59.9144%;margin-top:-8.8px;left:82.3263%;margin-left:-36px;width:72px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Taiwan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-7\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:63.8591%;margin-top:-8.8px;left:19.6061%;margin-left:-45.5px;width:91px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Myanmar\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-8\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:71.9459%;margin-top:-8.8px;left:33.6532%;margin-left:-28px;width:56px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-9\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:78.4446%;margin-top:-7.7px;left:67.8378%;margin-left:-56px;width:112px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">South China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-10\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:88.514%;margin-top:-8.8px;left:83.9905%;margin-left:-53px;width:106px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">philippines\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-11\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:90.0919%;margin-top:-8.8px;left:32.0223%;margin-left:-44px;width:88px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Thailand\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-geography_2-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-05-31 12:02 -->\n",mediaComponent:"Graphic"},text:"",altText:"A map showing the hundreds of large cities in China and the surrounding region.",footerMaxWidth:"335px","footerMaxWidth-640px":"body","footerMaxWidth-840px":"800"},{media:{assetType:"graphic",assetSlug:"geography_3.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.120.0 - 2024-05-31 12:03 -->\n\u003C!-- ai file: geography_3.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-geography_3-box ,\n\t#g-geography_3-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-geography_3-box p {\n\t\tmargin:0;\n\t}\n\t#g-geography_3-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-geography_3-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-geography_3-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-geography_3-box .g-aiPointText p { white-space: nowrap; }\n\t#g-geography_3-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-geography_3-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:19px;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-geography_3-335 .g-pstyle0 {\n\t\tfont-weight:700;\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\tcolor:rgb(255,125,0);\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_3-335 .g-pstyle1 {\n\t\tline-height:14px;\n\t\theight:14px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\tcolor:rgb(153,153,153);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_3-335 .g-pstyle2 {\n\t\tfont-style:italic;\n\t\tline-height:12px;\n\t\theight:12px;\n\t\tletter-spacing:0em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\tcolor:rgb(155,176,188);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_3-335 .g-cstyle0 {\n\t\tfont-weight:700;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-geography_3-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-geography_3-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:700;\n\t\tline-height:22px;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:18px;\n\t\ttext-align:left;\n\t\tcolor:rgb(255,125,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-geography_3-600 .g-pstyle0 {\n\t\tfont-weight:300;\n\t\tcolor:rgb(0,0,0);\n\t}\n\t#g-geography_3-600 .g-pstyle1 {\n\t\tline-height:19px;\n\t\theight:19px;\n\t\tfont-size:16px;\n\t\ttext-align:center;\n\t\ttop:1.3px;\n\t\tposition:relative;\n\t}\n\t#g-geography_3-600 .g-pstyle2 {\n\t\tfont-weight:300;\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\tcolor:rgb(153,153,153);\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_3-600 .g-pstyle3 {\n\t\tfont-weight:300;\n\t\tfont-style:italic;\n\t\tline-height:14px;\n\t\theight:14px;\n\t\tletter-spacing:0em;\n\t\tfont-size:13px;\n\t\ttext-align:center;\n\t\tcolor:rgb(155,176,188);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_3-600 .g-cstyle0 {\n\t\tfont-weight:300;\n\t\tcolor:rgb(0,0,0);\n\t}\n\t#g-geography_3-800 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-geography_3-800 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:700;\n\t\tline-height:24px;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:20px;\n\t\ttext-align:left;\n\t\tcolor:rgb(255,125,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-geography_3-800 .g-pstyle0 {\n\t\tfont-weight:300;\n\t\tcolor:rgb(0,0,0);\n\t}\n\t#g-geography_3-800 .g-pstyle1 {\n\t\tfont-weight:300;\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\tcolor:rgb(153,153,153);\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_3-800 .g-pstyle2 {\n\t\tline-height:19px;\n\t\theight:19px;\n\t\tfont-size:16px;\n\t\ttext-align:center;\n\t\ttop:1.3px;\n\t\tposition:relative;\n\t}\n\t#g-geography_3-800 .g-pstyle3 {\n\t\tfont-weight:300;\n\t\tfont-style:italic;\n\t\tline-height:15px;\n\t\theight:15px;\n\t\tletter-spacing:0em;\n\t\tfont-size:13px;\n\t\ttext-align:center;\n\t\tcolor:rgb(155,176,188);\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-geography_3-800 .g-cstyle0 {\n\t\tfont-weight:300;\n\t\tcolor:rgb(0,0,0);\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-geography_3-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-geography_3-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 297px\" data-aspect-ratio=\"1.128\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 88.6567% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-geography_3-335-img\" class=\"g-geography_3-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_3-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-bg g-aiAbs\" style=\"top:4.0404%;left:3.8806%;width:71.6418%;\">\n\t\t\t\u003Cp>The pandemic started roughly 1,000 miles away, in Wuhan, home to \u003Cspan class=\"g-cstyle0\">the world&rsquo;s foremost SARS-like virus research lab.\u003C/span>\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-bg g-aiAbs g-aiPointText\" style=\"top:29.8756%;margin-top:-8.7px;left:61.0184%;margin-left:-32.5px;width:65px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">Wuhan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:36.353%;margin-top:-7px;left:16.5033%;margin-left:-28px;width:56px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">China\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:62.9523%;margin-top:-7px;left:83.9627%;margin-left:-31.5px;width:63px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Taiwan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-5\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:74.7368%;margin-top:-7px;left:17.5455%;margin-left:-25px;width:50px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-6\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:86.262%;margin-top:-6.2px;left:63.5226%;margin-left:-52.5px;width:105px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">South China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-7\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:92.5819%;margin-top:-7px;left:15.2727%;margin-left:-38px;width:76px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Thailand\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-geography_3-600\" class=\"g-artboard\" style=\"width:600px; height:380px;\" data-aspect-ratio=\"1.579\" data-min-width=\"600\" data-max-width=\"799\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-geography_3-600-img\" class=\"g-geography_3-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_3-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-bg g-aiAbs\" style=\"top:4.4737%;left:3.3333%;width:71.5%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The pandemic started roughly 1,000 miles away,\u003C/p>\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">in Wuhan, home to \u003C/span>the world&rsquo;s foremost SARS-like virus research lab.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-bg g-aiAbs g-aiPointText\" style=\"top:25.9904%;margin-top:-9.8px;left:65.5628%;margin-left:-35.5px;width:71px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Wuhan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:25.991%;margin-top:-8.8px;left:31.7218%;margin-left:-31.5px;width:63px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">China\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:39.2621%;margin-top:-14.2px;left:90.7009%;margin-left:-38.5px;width:77px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">East\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-5\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:42.57%;margin-top:-8.8px;left:12.6365%;margin-left:-29px;width:58px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">india\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-6\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:59.4121%;margin-top:-8.8px;left:82.3428%;margin-left:-36px;width:72px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Taiwan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-7\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:63.3594%;margin-top:-8.8px;left:19.6193%;margin-left:-45.5px;width:91px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Myanmar\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-8\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:71.5173%;margin-top:-8.8px;left:33.6573%;margin-left:-28px;width:56px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-9\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:80.0515%;margin-top:-14.2px;left:67.8346%;margin-left:-38.5px;width:77px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">South\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-10\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:88.0963%;margin-top:-8.8px;left:84.0081%;margin-left:-53px;width:106px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">philippines\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-11\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:89.6752%;margin-top:-8.8px;left:32.0236%;margin-left:-44px;width:88px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Thailand\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 800 -->\n\t\u003Cdiv id=\"g-geography_3-800\" class=\"g-artboard\" style=\"width:800px; height:507px;\" data-aspect-ratio=\"1.578\" data-min-width=\"800\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-geography_3-800-img\" class=\"g-geography_3-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/geography_3-800.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai2-1\" class=\"g-bg g-aiAbs\" style=\"top:3.5503%;left:2.5%;width:71.5%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The pandemic started roughly 1,000 miles away, in Wuhan,\u003C/p>\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">home to \u003C/span>the world&rsquo;s foremost SARS-like virus research lab.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-2\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:20.4666%;margin-top:-8.8px;left:30.4731%;margin-left:-31.5px;width:63px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">China\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-3\" class=\"g-bg g-aiAbs g-aiPointText\" style=\"top:26.7778%;margin-top:-9.8px;left:65.5548%;margin-left:-35.5px;width:71px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Wuhan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-4\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:39.2546%;margin-top:-15px;left:90.681%;margin-left:-38.5px;width:77px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">East\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-5\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:43.1491%;margin-top:-8.8px;left:12.6385%;margin-left:-29px;width:58px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">india\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-6\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:59.9144%;margin-top:-8.8px;left:82.3263%;margin-left:-36px;width:72px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Taiwan\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-7\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:63.8591%;margin-top:-8.8px;left:19.6061%;margin-left:-45.5px;width:91px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Myanmar\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-8\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:71.9459%;margin-top:-8.8px;left:33.6532%;margin-left:-28px;width:56px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Laos\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-9\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:78.4446%;margin-top:-7.7px;left:67.8378%;margin-left:-56px;width:112px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">South China Sea\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-10\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:88.514%;margin-top:-8.8px;left:83.9905%;margin-left:-53px;width:106px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">philippines\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-11\" class=\"g-annotations g-aiAbs g-aiPointText\" style=\"top:90.0919%;margin-top:-8.8px;left:32.0223%;margin-left:-44px;width:88px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Thailand\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-geography_3-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-05-31 12:03 -->\n",mediaComponent:"Graphic"},text:"",altText:"A map showing the 950 miles between Yunnan and Wuhan, and the 1,190 miles between Laos and Wuhan. There are many cities in between.",footerMaxWidth:"335px","footerMaxWidth-640px":"body","footerMaxWidth-840px":"800"}]}},{type:"svelte",value:{component:"Points",wrapper:false,points:["Even at hot spots where these viruses exist naturally near the cave bats of southwestern China and Southeast Asia, the scientists argued, \u003Ca href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7148670/\">as recently as 2019\u003C/a>, that \u003Cstrong>bat coronavirus spillover into humans is rare\u003C/strong>.","When the Covid-19 outbreak was detected, \u003Cstrong>Dr. Shi initially wondered if the novel coronavirus had come from her laboratory\u003C/strong>, \u003Ca href=\"https://www.scientificamerican.com/article/how-chinas-bat-woman-hunted-down-viruses-from-sars-to-the-new-coronavirus1/\">saying\u003C/a> she had never expected such an outbreak to occur in Wuhan.","The SARS‑CoV‑2 virus is exceptionally contagious and can \u003Ca href=\"https://vis.csh.ac.at/sars-ani/\">jump from species to species like wildfire\u003C/a>. Yet \u003Cstrong>it \u003C/strong>\u003Cstrong>left no known trace of infection at its source or anywhere along\u003C/strong>\u003Cstrong> what would have been a thousand-mile journey\u003C/strong> before emerging in Wuhan."]}},{type:"svelte",value:{component:"MiniRule",wrapper:false}},{type:"svelte",value:{component:"KeyPoint",wrapper:false,number:"2",text:"The year before the outbreak, the Wuhan institute, working with U.S. partners, had proposed creating viruses with SARS‑CoV‑2’s defining feature."}},{type:"svelte",value:{component:"Points",wrapper:false,points:["Dr. Shi’s group was fascinated by how coronaviruses jump from species to species. To find viruses, \u003Cstrong>they \u003C/strong>\u003Cstrong>\u003Ca href=\"https://www.youtube.com/watch?v=MNkyeUZHUoU\">took samples from bats and other animals\u003C/a>\u003C/strong>\u003Cstrong>, as well as from \u003C/strong>\u003Cstrong>sick people\u003C/strong> living near animals carrying these viruses or associated with the wildlife trade. Much of this work was conducted in partnership with the EcoHealth Alliance, a U.S.-based scientific organization that, since 2002, has been awarded over $80 million in federal funding to research the risks of emerging infectious diseases.","\u003Cstrong>The laboratory pursued risky research that resulted in viruses becoming more infectious\u003C/strong>: Coronaviruses were grown from samples from infected animals and genetically \u003Ca href=\"https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006698\">reconstructed and recombined\u003C/a> to \u003Ca href=\"https://www.nature.com/articles/nm.3985\">create new viruses\u003C/a> unknown in nature. These new viruses were \u003Ca href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4810638/\">passed through cells\u003C/a> from bats, pigs, primates and humans and were used to \u003Ca href=\"https://www.science.org/pb-assets/PDF/News%20PDFs/Shi%20Zhengli%20Q&A-1630433861.pdf\">infect civets and humanized mice\u003C/a> (mice modified with human genes). In essence, this process forced these viruses to adapt to new host species, and the viruses with mutations that allowed them to thrive emerged as victors.","By 2019, Dr. Shi’s group had \u003Ca href=\"https://archive.fo/jPPkB#selection-939.0-939.315\">published a database\u003C/a> describing more than 22,000 collected wildlife samples. But external access was shut off in the fall of 2019, and \u003Cstrong>the database was \u003C/strong>\u003Cstrong>not shared\u003C/strong>\u003Cstrong> with American \u003C/strong>\u003Cstrong>collaborators \u003C/strong>\u003Cstrong>even after the pandemic started\u003C/strong>, when such a rich virus collection would have been most useful in tracking the origin of SARS‑CoV‑2. It remains unclear whether the Wuhan institute possessed a precursor of the pandemic virus.","In 2021, The Intercept published a leaked 2018 \u003Ca href=\"https://theintercept.com/2021/09/23/coronavirus-research-grant-darpa/\">grant proposal for a research project named Defuse\u003C/a>, which had been written as a collaboration between EcoHealth, the Wuhan institute and Ralph Baric at the University of North Carolina, who had been on the cutting edge of coronavirus research for years. \u003Cstrong>The proposal described plans to create viruses strikingly \u003C/strong>\u003Cstrong>similar\u003C/strong>\u003Cstrong> to SARS‑CoV‑2.\u003C/strong>","Coronaviruses bear their name because their surface is studded with protein spikes, like a spiky crown, which they use to enter animal cells. \u003Cstrong>T\u003C/strong>\u003Cstrong>he Defuse project proposed to search for and create SARS-like viruses carrying spikes with a unique feature: a furin cleavage site\u003C/strong> — the same feature that enhances SARS‑CoV‑2’s infectiousness in humans, making it capable of causing a pandemic. Defuse was \u003Ca href=\"https://drasticresearch.org/wp-content/uploads/2021/09/hr00118s017-preempt-fp-019-pm-summary-selectable-not-recommended.pdf\">never funded by the United States\u003C/a>. However, in his testimony on Monday, Dr. Fauci explained that the Wuhan institute would not need to rely on U.S. funding to pursue research independently."]}},{type:"scrollingslides",value:{textAlign:"left",maxWidth:"740",marginInline:true,marginBlock:true,stepper:true,transitionType:"fade",items:[{media:{assetType:"graphic",assetSlug:"defuse.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-05-31 16:38 -->\n\u003C!-- ai file: defuse.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-defuse-box ,\n\t#g-defuse-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-defuse-box p {\n\t\tmargin:0;\n\t}\n\t#g-defuse-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-defuse-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-defuse-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-defuse-box .g-aiPointText p { white-space: nowrap; }\n\t#g-defuse-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:16px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse-335 .g-pstyle0 {\n\t\tline-height:18px;\n\t\tfont-size:16px;\n\t}\n\t#g-defuse-335 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-defuse-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse-600 .g-pstyle0 {\n\t\tline-height:21px;\n\t\tfont-size:18px;\n\t}\n\t#g-defuse-600 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-defuse-720 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse-720 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse-720 .g-pstyle0 {\n\t\tline-height:21px;\n\t\tfont-size:18px;\n\t}\n\t#g-defuse-720 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-defuse-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-defuse-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 589px\" data-aspect-ratio=\"0.569\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 175.8006% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse-335-img\" class=\"g-defuse-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-main g-aiAbs\" style=\"top:-0.1698%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-main g-aiAbs\" style=\"top:18.6779%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-defuse-600\" class=\"g-artboard\" style=\"width:600px; height:600.492210938718px;\" data-aspect-ratio=\"0.999\" data-min-width=\"600\" data-max-width=\"719\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse-600-img\" class=\"g-defuse-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-main g-aiAbs\" style=\"top:-0.3331%;left:-0.0001%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-main g-aiAbs\" style=\"top:36.4701%;left:0.5912%;width:45.8333%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 720 -->\n\t\u003Cdiv id=\"g-defuse-720\" class=\"g-artboard\" style=\"width:720px; height:576.492210938718px;\" data-aspect-ratio=\"1.249\" data-min-width=\"720\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse-720-img\" class=\"g-defuse-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse-720.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai2-1\" class=\"g-main g-aiAbs\" style=\"top:-0.3469%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-2\" class=\"g-main g-aiAbs\" style=\"top:34.6926%;left:2.7149%;width:44.5833%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-defuse-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-05-31 16:38 -->\n",mediaComponent:"Graphic"},text:"",source:"",altText:"The Wuhan lab ran risky experiments to learn how SARS-like viruses might infect humans. Their research started by collecting SARS-like viruses from bats and other wild animals, as well as from people exposed to them.",footerMaxWidth:"335px","footerMaxWidth-640px":"body"},{media:{assetType:"graphic",assetSlug:"defuse_2.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-06-01 09:19 -->\n\u003C!-- ai file: defuse_2.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-defuse_2-box ,\n\t#g-defuse_2-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-defuse_2-box p {\n\t\tmargin:0;\n\t}\n\t#g-defuse_2-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-defuse_2-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-defuse_2-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-defuse_2-box .g-aiPointText p { white-space: nowrap; }\n\t#g-defuse_2-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse_2-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:16px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse_2-335 .g-pstyle0 {\n\t\tline-height:18px;\n\t\tfont-size:16px;\n\t}\n\t#g-defuse_2-335 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-defuse_2-335 .g-cstyle1 {\n\t\tfont-weight:600;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-defuse_2-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse_2-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse_2-600 .g-pstyle0 {\n\t\tline-height:21px;\n\t\tfont-size:18px;\n\t}\n\t#g-defuse_2-600 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-defuse_2-720 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse_2-720 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse_2-720 .g-pstyle0 {\n\t\tline-height:21px;\n\t\tfont-size:18px;\n\t}\n\t#g-defuse_2-720 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-defuse_2-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-defuse_2-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 589px\" data-aspect-ratio=\"0.569\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 175.8006% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse_2-335-img\" class=\"g-defuse_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_2-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-main g-aiAbs\" style=\"top:-0.1698%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-main g-aiAbs\" style=\"top:18.6779%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-main g-aiAbs\" style=\"top:37.186%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">2. Identify high-risk viruses\u003C/span> by screening for \u003Cspan class=\"g-cstyle1\">spike proteins\u003C/span> that facilitate infection of human cells.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-defuse_2-600\" class=\"g-artboard\" style=\"width:600px; height:600.492210938718px;\" data-aspect-ratio=\"0.999\" data-min-width=\"600\" data-max-width=\"719\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse_2-600-img\" class=\"g-defuse_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_2-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-main g-aiAbs\" style=\"top:-0.3331%;left:-0.0001%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-main g-aiAbs\" style=\"top:36.4701%;left:0.5912%;width:45.8333%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-main g-aiAbs\" style=\"top:36.4701%;left:53.6677%;width:46.1667%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">2. Identify high-risk viruses\u003C/span> by screening for spike proteins that facilitate infection of human cells.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 720 -->\n\t\u003Cdiv id=\"g-defuse_2-720\" class=\"g-artboard\" style=\"width:720px; height:576.492210938718px;\" data-aspect-ratio=\"1.249\" data-min-width=\"720\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse_2-720-img\" class=\"g-defuse_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_2-720.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai2-1\" class=\"g-main g-aiAbs\" style=\"top:-0.3469%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-2\" class=\"g-main g-aiAbs\" style=\"top:34.6926%;left:2.7149%;width:44.5833%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-3\" class=\"g-main g-aiAbs\" style=\"top:34.6926%;left:53.5436%;width:44.4444%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">2. Identify high-risk viruses\u003C/span> by screening for spike proteins that facilitate infection of \u003C/p>\n\t\t\t\u003Cp>human cells.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-defuse_2-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-06-01 09:19 -->\n",mediaComponent:"Graphic"},text:"",altText:"Next, they would identify high-risk viruses by screening for spike proteins that facilitate infection of human cells.",footerMaxWidth:"335px","footerMaxWidth-640px":"body"},{media:{assetType:"graphic",assetSlug:"defuse_3.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-06-01 09:18 -->\n\u003C!-- ai file: defuse_3.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-defuse_3-box ,\n\t#g-defuse_3-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-defuse_3-box p {\n\t\tmargin:0;\n\t}\n\t#g-defuse_3-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-defuse_3-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-defuse_3-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-defuse_3-box .g-aiPointText p { white-space: nowrap; }\n\t#g-defuse_3-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse_3-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:16px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse_3-335 .g-pstyle0 {\n\t\tline-height:18px;\n\t\tfont-size:16px;\n\t}\n\t#g-defuse_3-335 .g-pstyle1 {\n\t\ttext-align:center;\n\t}\n\t#g-defuse_3-335 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-defuse_3-335 .g-cstyle1 {\n\t\tfont-weight:600;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-defuse_3-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse_3-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse_3-600 .g-pstyle0 {\n\t\tline-height:21px;\n\t\tfont-size:18px;\n\t}\n\t#g-defuse_3-600 .g-pstyle1 {\n\t\tline-height:16px;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t}\n\t#g-defuse_3-600 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-defuse_3-720 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse_3-720 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse_3-720 .g-pstyle0 {\n\t\tline-height:21px;\n\t\tfont-size:18px;\n\t}\n\t#g-defuse_3-720 .g-pstyle1 {\n\t\tline-height:16px;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t}\n\t#g-defuse_3-720 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-defuse_3-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-defuse_3-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 589px\" data-aspect-ratio=\"0.569\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 175.8006% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse_3-335-img\" class=\"g-defuse_3-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_3-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-main g-aiAbs\" style=\"top:-0.1698%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-main g-aiAbs\" style=\"top:18.6779%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-main g-aiAbs\" style=\"top:37.186%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">2. Identify high-risk viruses\u003C/span> by screening for \u003Cspan class=\"g-cstyle1\">spike proteins\u003C/span> that facilitate infection of human cells.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-main g-aiAbs\" style=\"top:46.1853%;left:50.032%;margin-left:-38.5075%;width:77.0149%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-5\" class=\"g-main g-aiAbs\" style=\"top:63.8444%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">3. Create new coronaviruses\u003C/span> by inserting spike proteins or other features that could make the viruses more infectious in humans.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-defuse_3-600\" class=\"g-artboard\" style=\"width:600px; height:600.492210938718px;\" data-aspect-ratio=\"0.999\" data-min-width=\"600\" data-max-width=\"719\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse_3-600-img\" class=\"g-defuse_3-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_3-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-main g-aiAbs\" style=\"top:-0.3331%;left:-0.0001%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-main g-aiAbs\" style=\"top:36.4701%;left:0.5912%;width:45.8333%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-main g-aiAbs\" style=\"top:36.4701%;left:53.6677%;width:46.1667%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">2. Identify high-risk viruses\u003C/span> by screening for spike proteins that facilitate infection of human cells.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-main g-aiAbs\" style=\"top:51.6243%;left:25.4881%;margin-left:-21.9167%;width:43.8333%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-5\" class=\"g-main g-aiAbs\" style=\"top:87.7613%;left:0.5045%;width:46.3333%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">3. Create new coronaviruses\u003C/span> by inserting spike proteins or other features that could make the viruses more infectious in humans.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 720 -->\n\t\u003Cdiv id=\"g-defuse_3-720\" class=\"g-artboard\" style=\"width:720px; height:576.492210938718px;\" data-aspect-ratio=\"1.249\" data-min-width=\"720\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse_3-720-img\" class=\"g-defuse_3-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_3-720.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai2-1\" class=\"g-main g-aiAbs\" style=\"top:-0.3469%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-2\" class=\"g-main g-aiAbs\" style=\"top:34.6926%;left:2.7149%;width:44.5833%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-3\" class=\"g-main g-aiAbs\" style=\"top:34.6926%;left:53.5436%;width:44.4444%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">2. Identify high-risk viruses\u003C/span> by screening for spike proteins that facilitate infection of \u003C/p>\n\t\t\t\u003Cp>human cells.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-4\" class=\"g-main g-aiAbs\" style=\"top:51.1716%;left:24.8512%;margin-left:-18.2639%;width:36.5278%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-5\" class=\"g-main g-aiAbs\" style=\"top:88.813%;left:2.6427%;width:44.7222%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">3. Create new coronaviruses\u003C/span> by inserting spike proteins or other features that could make the viruses more infectious in humans.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-defuse_3-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-06-01 09:18 -->\n",mediaComponent:"Graphic"},text:"",altText:"Then they would create new coronaviruses by inserting spike proteins or other features that could make the viruses more infectious in humans.",footerMaxWidth:"335px","footerMaxWidth-640px":"body"},{media:{assetType:"graphic",assetSlug:"defuse_4.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-06-01 09:18 -->\n\u003C!-- ai file: defuse_4.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-defuse_4-box ,\n\t#g-defuse_4-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-defuse_4-box p {\n\t\tmargin:0;\n\t}\n\t#g-defuse_4-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-defuse_4-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-defuse_4-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-defuse_4-box .g-aiPointText p { white-space: nowrap; }\n\t#g-defuse_4-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse_4-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:16px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse_4-335 .g-pstyle0 {\n\t\tline-height:18px;\n\t\tfont-size:16px;\n\t}\n\t#g-defuse_4-335 .g-pstyle1 {\n\t\ttext-align:center;\n\t}\n\t#g-defuse_4-335 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-defuse_4-335 .g-cstyle1 {\n\t\tfont-weight:600;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-defuse_4-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse_4-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse_4-600 .g-pstyle0 {\n\t\tline-height:21px;\n\t\tfont-size:18px;\n\t}\n\t#g-defuse_4-600 .g-pstyle1 {\n\t\tline-height:16px;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t}\n\t#g-defuse_4-600 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-defuse_4-720 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-defuse_4-720 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-defuse_4-720 .g-pstyle0 {\n\t\tline-height:21px;\n\t\tfont-size:18px;\n\t}\n\t#g-defuse_4-720 .g-pstyle1 {\n\t\tline-height:16px;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t}\n\t#g-defuse_4-720 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-defuse_4-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-defuse_4-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 589px\" data-aspect-ratio=\"0.569\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 175.8006% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse_4-335-img\" class=\"g-defuse_4-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_4-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-main g-aiAbs\" style=\"top:-0.1698%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-main g-aiAbs\" style=\"top:18.6779%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-main g-aiAbs\" style=\"top:37.186%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">2. Identify high-risk viruses\u003C/span> by screening for \u003Cspan class=\"g-cstyle1\">spike proteins\u003C/span> that facilitate infection of human cells.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-main g-aiAbs\" style=\"top:46.1853%;left:50.032%;margin-left:-38.5075%;width:77.0149%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-5\" class=\"g-main g-aiAbs\" style=\"top:63.8444%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">3. Create new coronaviruses\u003C/span> by inserting spike proteins or other features that could make the viruses more infectious in humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-6\" class=\"g-main g-aiAbs\" style=\"top:91.3518%;left:0%;width:100%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">4. Infect human cells, civets and humanized mice\u003C/span> with the new coronaviruses, to determine how dangerous they might be.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-defuse_4-600\" class=\"g-artboard\" style=\"width:600px; height:600.492210938718px;\" data-aspect-ratio=\"0.999\" data-min-width=\"600\" data-max-width=\"719\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse_4-600-img\" class=\"g-defuse_4-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_4-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-main g-aiAbs\" style=\"top:-0.3331%;left:-0.0001%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-main g-aiAbs\" style=\"top:36.4701%;left:0.5912%;width:45.8333%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-main g-aiAbs\" style=\"top:36.4701%;left:53.6677%;width:46.1667%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">2. Identify high-risk viruses\u003C/span> by screening for spike proteins that facilitate infection of human cells.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-main g-aiAbs\" style=\"top:51.6243%;left:25.4881%;margin-left:-21.9167%;width:43.8333%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-5\" class=\"g-main g-aiAbs\" style=\"top:87.7613%;left:0.5045%;width:46.3333%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">3. Create new coronaviruses\u003C/span> by inserting spike proteins or other features that could make the viruses more infectious in humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-6\" class=\"g-main g-aiAbs\" style=\"top:87.7613%;left:53.6677%;width:46.1667%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">4. Infect human cells, civets and humanized mice\u003C/span> with the new coronaviruses, to determine how dangerous they might be.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 720 -->\n\t\u003Cdiv id=\"g-defuse_4-720\" class=\"g-artboard\" style=\"width:720px; height:576.492210938718px;\" data-aspect-ratio=\"1.249\" data-min-width=\"720\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-defuse_4-720-img\" class=\"g-defuse_4-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/defuse_4-720.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai2-1\" class=\"g-main g-aiAbs\" style=\"top:-0.3469%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">The Wuhan lab ran risky experiments to learn about how SARS-like viruses might infect humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-2\" class=\"g-main g-aiAbs\" style=\"top:34.6926%;left:2.7149%;width:44.5833%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">1. Collect SARS-like viruses\u003C/span> from bats and other wild animals, as well as from people exposed to them.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-3\" class=\"g-main g-aiAbs\" style=\"top:34.6926%;left:53.5436%;width:44.4444%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">2. Identify high-risk viruses\u003C/span> by screening for spike proteins that facilitate infection of \u003C/p>\n\t\t\t\u003Cp>human cells.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-4\" class=\"g-main g-aiAbs\" style=\"top:51.1716%;left:24.8512%;margin-left:-18.2639%;width:36.5278%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">In Defuse, the scientists proposed to add a furin cleavage site to the spike protein.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-5\" class=\"g-main g-aiAbs\" style=\"top:88.813%;left:2.6427%;width:44.7222%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">3. Create new coronaviruses\u003C/span> by inserting spike proteins or other features that could make the viruses more infectious in humans.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai2-6\" class=\"g-main g-aiAbs\" style=\"top:88.813%;left:53.5436%;width:44.4444%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle0\">4. Infect human cells, civets and humanized mice\u003C/span> with the new coronaviruses, to determine how dangerous they might be.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-defuse_4-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-06-01 09:18 -->\n",mediaComponent:"Graphic"},text:"",altText:"Finally, they would infect human cells, civets and humanized mice with the new coronaviruses, to determine how dangerous they might be.",footerMaxWidth:"335px","footerMaxWidth-640px":"body"}]}},{type:"svelte",value:{component:"Points",wrapper:false,points:["While it’s possible that the furin cleavage site could have evolved naturally (as seen in some distantly related coronaviruses), \u003Cstrong>out of the hundreds\u003C/strong>\u003Cstrong> of\u003C/strong>\u003Cstrong> SARS-like viruses\u003C/strong>\u003Cstrong> cataloged\u003C/strong> \u003Cstrong>by scientists, SARS‑CoV‑2 is \u003C/strong>\u003Cstrong>the only \u003C/strong>\u003Cstrong>one known to possess \u003C/strong>\u003Cstrong>a furin cleavage site\u003C/strong> in its spike. And the genetic data suggest that the virus had only \u003Ca href=\"https://observatoriocovid19.sv/doc/biblioteca/internac/Adaptation_sars_covid.pdf\">recently gained\u003C/a> the furin cleavage site before it started the pandemic.","Ultimately, a never-before-seen SARS-like virus with a newly introduced furin cleavage site, matching the description in the Wuhan institute’s Defuse proposal, \u003Cstrong>caused an outbreak in Wuhan less than two years after the proposal\u003C/strong> was drafted.","When the Wuhan scientists published their \u003Ca href=\"https://pubmed.ncbi.nlm.nih.gov/32015507/\">seminal paper\u003C/a> about Covid-19 as the pandemic roared to life in 2020, \u003Cstrong>they did not mention the virus’s furin cleavage site\u003C/strong> — a feature they should have been on the lookout for, according to their own grant proposal, and a feature quickly recognized by other scientists.","Worse still, as the pandemic raged, their American collaborators failed to publicly reveal the existence of the Defuse proposal. The president of EcoHealth, Peter Daszak, recently admitted to Congress that he \u003Ca href=\"https://www.youtube.com/live/Gj9M5CJGykk?feature=shared&t=8821\">doesn’t know about virus samples\u003C/a> collected by the Wuhan institute after 2015 and \u003Ca href=\"https://www.youtube.com/live/Gj9M5CJGykk?feature=shared&t=9696\">never asked\u003C/a> the lab’s scientists if they had started the work described in Defuse. In May, citing failures in EcoHealth’s monitoring of risky experiments conducted at the Wuhan lab, \u003Cstrong>the Biden administration \u003C/strong>\u003Cstrong>\u003Ca href=\"https://oversight.house.gov/wp-content/uploads/2024/05/Tab-1-EHA-SUSP4D-Notice_5.15.2024_signed.pdf\">suspended all federal funding\u003C/a>\u003C/strong>\u003Cstrong> for the organization and Dr. Daszak,\u003C/strong> and initiated proceedings to bar them from receiving future grants. In his testimony on Monday, Dr. Fauci said that he supported the decision to suspend and bar EcoHealth.","Separately, Dr. Baric described the competitive dynamic between his research group and the institute when he \u003Ca href=\"https://oversight.house.gov/wp-content/uploads/2024/04/Baric-TI-Transcript.pdf\">told Congress\u003C/a> that \u003Cstrong>the Wuhan scientists would probably not have shared their \u003C/strong>\u003Cstrong>most interesting\u003C/strong>\u003Cstrong> newly discovered viruses with him\u003C/strong>. Documents and email correspondence between the institute and Dr. Baric are still being withheld from the public while their release is \u003Ca href=\"https://twitter.com/garyruskin/status/1752460681432244247\">fiercely contested\u003C/a> in litigation.","In the end, American partners very likely knew of only a fraction of the research done in Wuhan. According to U.S. intelligence sources, \u003Cstrong>some of\u003C/strong>\u003Cstrong> the institute’s virus research was \u003C/strong>\u003Cstrong>\u003Ca href=\"https://www.washingtonpost.com/world/asia_pacific/wuhan-lab-leak-secret-coronavirus/2021/06/22/b9c45940-cf08-11eb-a224-bd59bd22197c_story.html\">classified\u003C/a>\u003C/strong>\u003Cstrong> or conducted with or on behalf of the Chinese military\u003C/strong>. In the congressional hearing on Monday, Dr. Fauci repeatedly acknowledged the lack of visibility into experiments conducted at the Wuhan institute, saying, “None of us can know everything that’s going on in China, or in Wuhan, or what have you. And that’s the reason why — I say today, and I’ve said at the T.I.,” referring to his transcribed interview with the subcommittee, “I keep an open mind as to what the origin is.”"]}},{type:"svelte",value:{component:"MiniRule",wrapper:false}},{type:"svelte",value:{component:"KeyPoint",wrapper:false,number:"3",text:"The Wuhan lab pursued this type of work under low biosafety conditions that could not have contained an airborne virus as infectious as SARS‑CoV‑2."}},{type:"svelte",value:{component:"Points",wrapper:false,points:["Labs working with live viruses generally operate at one of four biosafety levels (known in ascending order of stringency as BSL-1, 2, 3 and 4) that describe the work practices that are considered sufficiently safe depending on the characteristics of each pathogen. The Wuhan institute’s scientists \u003Cstrong>worked with SARS-like viruses under \u003C/strong>\u003Cstrong>\u003Ca href=\"https://www.technologyreview.com/2021/06/29/1027290/gain-of-function-risky-bat-virus-engineering-links-america-to-wuhan/\">inappropriately low biosafety conditions\u003C/a>\u003C/strong>."]}},{type:"scrollingslides",value:{textAlign:"left",maxWidth:"body",marginInline:true,marginBlock:true,stepper:true,transitionType:"fade",items:[{media:{assetType:"graphic",assetSlug:"lab_safety.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-06-02 21:15 -->\n\u003C!-- ai file: lab_safety.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-lab_safety-box ,\n\t#g-lab_safety-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-lab_safety-box p {\n\t\tmargin:0;\n\t}\n\t#g-lab_safety-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-lab_safety-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-lab_safety-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-lab_safety-box .g-aiPointText p { white-space: nowrap; }\n\t#g-lab_safety-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-lab_safety-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:17px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-lab_safety-335 .g-pstyle0 {\n\t\tline-height:19px;\n\t\tfont-size:16px;\n\t}\n\t#g-lab_safety-335 .g-pstyle1 {\n\t\tline-height:14px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-lab_safety-335 .g-pstyle2 {\n\t\theight:17px;\n\t\ttext-align:center;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety-335 .g-pstyle3 {\n\t\theight:17px;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety-335 .g-cstyle0 {\n\t\tfont-weight:700;\n\t}\n\t#g-lab_safety-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-lab_safety-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-lab_safety-600 .g-pstyle0 {\n\t\tline-height:22px;\n\t\tfont-size:18px;\n\t}\n\t#g-lab_safety-600 .g-pstyle1 {\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety-600 .g-pstyle2 {\n\t\tline-height:16px;\n\t\theight:16px;\n\t\tfont-size:15px;\n\t\ttext-align:center;\n\t\ttop:1.2px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety-600 .g-pstyle3 {\n\t\theight:18px;\n\t\ttop:1.3px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety-600 .g-cstyle0 {\n\t\tfont-weight:700;\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-lab_safety-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-lab_safety-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 420px\" data-aspect-ratio=\"0.798\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 125.3731% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-lab_safety-335-img\" class=\"g-lab_safety-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/lab_safety-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-main g-aiAbs\" style=\"top:4.7619%;left:-0.0001%;width:100.2985%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">In the United States, virologists generally use stricter \u003Cspan class=\"g-cstyle0\">Biosafety Level 3\u003C/span> protocols when working with SARS-like viruses.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-bg-white g-aiAbs\" style=\"top:23.5714%;left:50.1477%;margin-left:-50%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">INHALATION\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-bg-white g-aiAbs\" style=\"top:30.9524%;left:46.0406%;width:54.0299%;\">\n\t\t\t\u003Cp>Biosafety cabinets prevent \u003C/p>\n\t\t\t\u003Cp>viral particles from escaping.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-bg-white g-aiAbs g-aiPointText\" style=\"top:43.2776%;margin-top:-8.8px;left:13.8163%;margin-left:-50.5px;width:101px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Viral particles\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-5\" class=\"g-bg-white g-aiAbs\" style=\"top:45.9524%;left:46.0406%;width:54.0299%;\">\n\t\t\t\u003Cp>Personal respirators provide\u003C/p>\n\t\t\t\u003Cp>a second layer of defense against breathing in the virus.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-6\" class=\"g-bg-white g-aiAbs\" style=\"top:64.5238%;left:50.1477%;margin-left:-50%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">DIRECT CONTACT\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-7\" class=\"g-bg-white g-aiAbs g-aiPointText\" style=\"top:76.1347%;margin-top:-8.8px;left:46.0404%;width:186px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Gloves prevent skin contact.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-8\" class=\"g-bg-white g-aiAbs\" style=\"top:86.6667%;left:46.0325%;width:54.0299%;\">\n\t\t\t\u003Cp>Disposable wraparound\u003C/p>\n\t\t\t\u003Cp>gowns cover much of the rest of the body.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-lab_safety-600\" class=\"g-artboard\" style=\"width:600px; height:411.5px;\" data-aspect-ratio=\"1.458\" data-min-width=\"600\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-lab_safety-600-img\" class=\"g-lab_safety-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/lab_safety-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-main g-aiAbs\" style=\"top:4.6173%;left:-0.0001%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">In the United States, virologists generally use stricter \u003Cspan class=\"g-cstyle0\">Biosafety Level 3\u003C/span> protocols when working with SARS-like viruses.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:23.0294%;margin-top:-8.8px;left:50.099%;margin-left:-51.5px;width:103px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">INHALATION\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-main g-aiAbs\" style=\"top:28.4326%;left:51.2274%;width:48.8333%;\">\n\t\t\t\u003Cp>Biosafety cabinets prevent \u003C/p>\n\t\t\t\u003Cp>viral particles from escaping.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-bg-white g-aiAbs g-aiPointText\" style=\"top:41.1385%;margin-top:-8.3px;left:11.3148%;margin-left:-53.5px;width:107px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Viral particles\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-5\" class=\"g-main g-aiAbs\" style=\"top:45.4435%;left:51.2274%;width:48.6667%;\">\n\t\t\t\u003Cp>Personal respirators provide a second layer of defense against breathing in the virus.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-6\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:64.3416%;margin-top:-8.8px;left:50.0425%;margin-left:-68.5px;width:137px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">DIRECT CONTACT\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-7\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:73.9499%;margin-top:-9.3px;left:51.2274%;width:212px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Gloves prevent skin contact.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-8\" class=\"g-main g-aiAbs\" style=\"top:86.7558%;left:51.2274%;width:48.8333%;\">\n\t\t\t\u003Cp>Disposable wraparound gowns\u003C/p>\n\t\t\t\u003Cp>cover much of the rest of the body.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-lab_safety-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-06-02 21:15 -->\n",mediaComponent:"Graphic"},text:"",altText:"In the U.S., virologists generally use stricter Biosafety Level 3 protocols, which involves using personal respirators and biosafety cabinets in combination to avoid inhaling an airborne virus, as well as wearing gloves and wraparound gowns to prevent direct contact.",note:"Note: ​​Biosafety levels are not internationally standardized, and some countries use more permissive protocols than others.",footerMaxWidth:"335px","footerMaxWidth-640px":"body"},{media:{assetType:"graphic",assetSlug:"lab_safety_2_new.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-06-02 21:15 -->\n\u003C!-- ai file: lab_safety_2_new.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-lab_safety_2_new-box ,\n\t#g-lab_safety_2_new-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-lab_safety_2_new-box p {\n\t\tmargin:0;\n\t}\n\t#g-lab_safety_2_new-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-lab_safety_2_new-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-lab_safety_2_new-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-lab_safety_2_new-box .g-aiPointText p { white-space: nowrap; }\n\t#g-lab_safety_2_new-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-lab_safety_2_new-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:19px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-lab_safety_2_new-335 .g-pstyle0 {\n\t\tline-height:14px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-lab_safety_2_new-335 .g-pstyle1 {\n\t\tline-height:17px;\n\t\tfont-size:14px;\n\t}\n\t#g-lab_safety_2_new-335 .g-pstyle2 {\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety_2_new-335 .g-pstyle3 {\n\t\tfont-weight:600;\n\t\tline-height:17px;\n\t\tletter-spacing:-0.005em;\n\t\tfont-size:14px;\n\t}\n\t#g-lab_safety_2_new-335 .g-pstyle4 {\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tfont-size:14px;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety_2_new-335 .g-cstyle0 {\n\t\tfont-weight:700;\n\t}\n\t#g-lab_safety_2_new-335 .g-cstyle1 {\n\t\tfont-weight:600;\n\t}\n\t#g-lab_safety_2_new-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-lab_safety_2_new-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:22px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:18px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-lab_safety_2_new-600 .g-pstyle0 {\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety_2_new-600 .g-pstyle1 {\n\t\tline-height:18px;\n\t\tfont-size:16px;\n\t}\n\t#g-lab_safety_2_new-600 .g-pstyle2 {\n\t\tline-height:16px;\n\t\theight:16px;\n\t\tfont-size:15px;\n\t\ttext-align:center;\n\t\ttop:1.2px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety_2_new-600 .g-pstyle3 {\n\t\tfont-weight:600;\n\t\tline-height:19px;\n\t\tletter-spacing:-0.005em;\n\t\tfont-size:16px;\n\t}\n\t#g-lab_safety_2_new-600 .g-pstyle4 {\n\t\tline-height:18px;\n\t\theight:18px;\n\t\tfont-size:16px;\n\t\ttop:1.3px;\n\t\tposition:relative;\n\t}\n\t#g-lab_safety_2_new-600 .g-cstyle0 {\n\t\tfont-weight:700;\n\t}\n\t#g-lab_safety_2_new-600 .g-cstyle1 {\n\t\tfont-weight:600;\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-lab_safety_2_new-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-lab_safety_2_new-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 420px\" data-aspect-ratio=\"0.798\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 125.3731% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-lab_safety_2_new-335-img\" class=\"g-lab_safety_2_new-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/lab_safety_2_new-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-main g-aiAbs\" style=\"top:0%;left:-0.0001%;width:100.2985%;\">\n\t\t\t\u003Cp>The Wuhan lab had been regularly working with SARS-like viruses under \u003Cspan class=\"g-cstyle0\">Biosafety Level 2\u003C/span>\u003Cspan class=\"g-cstyle1\"> \u003C/span>conditions, which could not prevent a highly infectious virus like SARS-CoV-2 from escaping.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-bg-white g-aiAbs\" style=\"top:23.5714%;left:50.1493%;margin-left:-50%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">INHALATION\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-bg-white g-aiAbs\" style=\"top:30.9524%;left:46.0421%;width:54.0299%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Biosafety cabinets prevent \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle1\">viral particles from escaping.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-bg-white g-aiAbs g-aiPointText\" style=\"top:43.2776%;margin-top:-8.8px;left:13.8163%;margin-left:-50.5px;width:101px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Viral particles\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-5\" class=\"g-bg-white g-aiAbs\" style=\"top:45.9524%;left:49.6011%;width:50.4478%;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Some work is done in the open air, and masks are not required.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-6\" class=\"g-bg-white g-aiAbs\" style=\"top:64.5238%;left:50.1493%;margin-left:-50%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">DIRECT CONTACT\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-7\" class=\"g-bg-white g-aiAbs g-aiPointText\" style=\"top:76.1347%;margin-top:-8.8px;left:46.042%;width:186px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Gloves prevent skin contact.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-8\" class=\"g-bg-white g-aiAbs\" style=\"top:86.6667%;left:49.5935%;width:50.4478%;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Less protective equipment provides more opportunities \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">for contamination.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-lab_safety_2_new-600\" class=\"g-artboard\" style=\"width:600px; height:411.5px;\" data-aspect-ratio=\"1.458\" data-min-width=\"600\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-lab_safety_2_new-600-img\" class=\"g-lab_safety_2_new-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/lab_safety_2_new-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-main g-aiAbs\" style=\"top:-0.486%;left:-0.0001%;width:100%;\">\n\t\t\t\u003Cp>The Wuhan lab had been regularly working with SARS-like viruses under \u003Cspan class=\"g-cstyle0\">Biosafety Level 2\u003C/span>\u003Cspan class=\"g-cstyle1\"> \u003C/span>conditions, which could not prevent a highly infectious virus like SARS-CoV-2 from escaping.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:23.0294%;margin-top:-8.8px;left:50.099%;margin-left:-51.5px;width:103px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">INHALATION\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-main g-aiAbs\" style=\"top:28.4326%;left:51.2274%;width:48.8333%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Biosafety cabinets prevent \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle1\">viral particles from escaping.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-bg-white g-aiAbs g-aiPointText\" style=\"top:41.1385%;margin-top:-8.3px;left:11.3148%;margin-left:-53.5px;width:107px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">Viral particles\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-5\" class=\"g-main g-aiAbs\" style=\"top:45.4435%;left:56.6175%;width:43.3333%;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Some work is done in the open air,\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">and masks are not required.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-6\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:64.3416%;margin-top:-8.8px;left:50.0425%;margin-left:-68.5px;width:137px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">DIRECT CONTACT\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-7\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:73.9499%;margin-top:-9.3px;left:51.2274%;width:212px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Gloves prevent skin contact.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-8\" class=\"g-main g-aiAbs\" style=\"top:86.7558%;left:56.6175%;width:43.5%;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Less protective equipment provides more opportunities for contamination.\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-lab_safety_2_new-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-06-02 21:15 -->\n",mediaComponent:"Graphic"},text:"",altText:"The Wuhan lab was regularly working with SARS-like viruses at Biosafety Level 2, which involves work done in the open air and doesn’t require masks, allowing for inhalation of viral particles, and much less protective equipment worn on the body that allows for direct skin contact.",footerMaxWidth:"335px","footerMaxWidth-640px":"body"}]}},{type:"svelte",value:{component:"Points",wrapper:false,points:["In one experiment, Dr. Shi’s group genetically engineered \u003Ca href=\"https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/\">an unexpectedly \u003C/a>\u003Ca href=\"https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/\">deadly\u003C/a>\u003Ca href=\"https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/\"> \u003C/a>\u003Ca href=\"https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/\">SARS-like virus\u003C/a> (not closely related to SARS‑CoV‑2) that exhibited \u003Cstrong>a 10,000-fold increase in the quantity of virus in the lungs and brains of humanized mice\u003C/strong>. Wuhan institute scientists \u003Ca href=\"https://www.minerva.no/china-drastic-sars-cov-2/chinese-researchers-created-new-corona-viruses-under-unsafe-conditions/381476\">handled these live viruses at low biosafet\u003C/a>\u003Ca href=\"https://www.minerva.no/china-drastic-sars-cov-2/chinese-researchers-created-new-corona-viruses-under-unsafe-conditions/381476\">y levels\u003C/a>, including BSL-2.","Even the much more stringent containment at \u003Cstrong>BSL-3 \u003C/strong>\u003Cstrong>cannot \u003C/strong>\u003Cstrong>fully prevent SARS‑CoV‑2 from escaping\u003C/strong>. Two years into the pandemic, the virus \u003Ca href=\"https://www.science.org/content/article/taiwan-s-science-academy-fined-biosafety-lapses-after-lab-worker-contracts-covid-19\">infected\u003C/a> a scientist in a BSL-3 laboratory in Taiwan, which was, at the time, a zero-Covid country. The scientist had been vaccinated and was tested only after losing the sense of smell. By then, more than 100 close contacts had been exposed. Human error is a \u003Ca href=\"https://thebulletin.org/2019/02/human-error-in-high-biocontainment-labs-a-likely-pandemic-threat/\">source of exposure\u003C/a> even at \u003Ca href=\"https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(04)00911-9/fulltext\">the highest biosafety levels\u003C/a>, and the risks are much greater for scientists working with infectious pathogens at low biosafety.","An \u003Ca href=\"https://usrtk.org/wp-content/uploads/2024/01/USGS-DEFUSE-2021-006245-Combined-Records_Redacted.pdf\">early draft\u003C/a> of the Defuse proposal stated that the Wuhan lab would do their virus work at BSL-2 to make it “highly cost-effective.” Dr. Baric added a note to the draft highlighting the importance of using BSL-3 to contain SARS-like viruses that could infect human cells, writing that “U.S. researchers will likely freak out.” Years later, after SARS‑CoV‑2 had killed millions, \u003Ca href=\"https://www.vanityfair.com/news/story/ralph-baric-wuhan-lab-leak\">Dr. Baric wrote to Dr. Daszak\u003C/a>: “I have no doubt that they followed state determined rules and did the work under BSL-2. Yes China has the right to set their own policy. \u003Cstrong>You believe this was appropriate containment if you want but don’t expect me to believe it.\u003C/strong> Moreover, don’t insult my intelligence by trying to feed me this load of BS.”","SARS‑CoV‑2 is a stealthy virus that transmits effectively through the air, causes a range of symptoms similar to those of other common respiratory diseases and can be spread by infected people before symptoms even appear. \u003Cstrong>If the virus had escaped from a BSL-2 laboratory in 2019, the leak most likely would have gone undetected\u003C/strong> until too late.","One alarming detail — leaked to The Wall Street Journal and confirmed by current and former U.S. government officials — is that \u003Cstrong>scientists on Dr. Shi’s team \u003C/strong>\u003Cstrong>\u003Ca href=\"https://www.wsj.com/articles/u-s-funded-scientist-among-three-chinese-researchers-who-fell-ill-amid-early-covid-19-outbreak-3f919567\">fell ill with Covid-like symptoms\u003C/a>\u003C/strong>\u003Cstrong> in the fall of 2019\u003C/strong>. One of the scientists had been named in the Defuse proposal as the person in charge of virus discovery work. The scientists \u003Ca href=\"https://www.science.org/content/article/ridiculous-says-chinese-scientist-accused-being-pandemic-s-patient-zero\">denied having been sick\u003C/a>."]}},{type:"svelte",value:{component:"MiniRule",wrapper:false}},{type:"svelte",value:{component:"KeyPoint",wrapper:false,number:"4",text:"The hypothesis that Covid-19 came from an animal at the Huanan Seafood Market in Wuhan is not supported by strong evidence."}},{type:"svelte",value:{component:"Points",wrapper:false,points:["In December 2019, \u003Ca href=\"https://journals.asm.org/doi/10.1128/mbio.00313-23\">Chinese investigators assumed\u003C/a> the outbreak had started at a centrally located market frequented by thousands of visitors daily. \u003Cstrong>This \u003C/strong>\u003Cstrong>\u003Ca href=\"https://journals.asm.org/doi/10.1128/mbio.00313-23\">bias in\u003C/a>\u003C/strong> \u003Cstrong>\u003Ca href=\"https://academic.oup.com/jrsssa/advance-article-abstract/doi/10.1093/jrsssa/qnae021/7632556?redirectedFrom=fulltext&login=false\">their search\u003C/a>\u003C/strong>\u003Cstrong> for early cases\u003C/strong>\u003Cstrong> meant that cases unlinked to or located far away from the market would very likely have been missed.\u003C/strong> To make things worse, the Chinese authorities blocked the reporting of early cases not linked to the market and, claiming biosafety precautions, ordered \u003Ca href=\"https://www.newsweek.com/china-acknowledges-destroying-early-coronavirus-samples-confirming-us-accusation-1504484\">the destruction of patient samples\u003C/a> on January 3, 2020, making it nearly impossible to see the complete picture of the earliest Covid-19 cases. Information about \u003Ca href=\"https://www.washingtonpost.com/opinions/2022/11/17/covid-early-cases-wuhan-china-mystery/\">dozens of early cases\u003C/a> from November and December 2019 remains inaccessible.","A \u003Ca href=\"https://www.science.org/doi/10.1126/science.abp8715\">pair\u003C/a> of \u003Ca href=\"https://www.science.org/doi/10.1126/science.abp8337\">papers\u003C/a> published in Science in 2022 made the best case for SARS‑CoV‑2 having emerged naturally from human-animal contact at the Wuhan market by focusing on a map of the early cases and asserting that the virus had jumped from animals into humans twice at the market in 2019. More recently, the two papers have been \u003Ca href=\"https://academic.oup.com/jrsssa/advance-article-abstract/doi/10.1093/jrsssa/qnad139/7557954\">countered\u003C/a> by \u003Ca href=\"https://academic.oup.com/ve/article/10/1/vead089/7504441?login=false\">other virologists\u003C/a> \u003Ca href=\"https://www.mdpi.com/2036-7481/14/1/33\">and scientists\u003C/a> who \u003Ca href=\"https://www.nature.com/articles/s41586-023-06043-2\">convincingly demonstrate\u003C/a> that \u003Cstrong>the \u003C/strong>\u003Cstrong>\u003Ca href=\"https://www.sciencedirect.com/science/article/pii/S0013935122010295?via%3Dihub\">available market evidence\u003C/a>\u003C/strong> \u003Cstrong>\u003Ca href=\"https://academic.oup.com/ve/article/9/2/vead050/7249794\">does not distinguish\u003C/a>\u003C/strong>\u003Cstrong> between a human superspreader event and a natural spillover\u003C/strong> at the market.","Furthermore, the \u003Ca href=\"https://academic.oup.com/mbe/article/38/12/5211/6353034\">existing genetic\u003C/a> and \u003Ca href=\"https://www.thelancet.com/article/S0140-6736(20)30183-5/fulltext\">early case data\u003C/a> show that all known Covid-19 cases probably stem from \u003Ca href=\"https://academic.oup.com/ve/article/10/1/veae020/7619252\">a single introduction\u003C/a> of SARS‑CoV‑2 into people, and \u003Cstrong>the outbreak at the Wuhan market probably happened after the virus had already been circulating\u003C/strong> in humans."]}},{type:"scrollingslides",value:{textAlign:"left",maxWidth:"body",marginInline:true,marginBlock:true,stepper:true,transitionType:"fade",enablePointerEvents:true,items:[{media:{assetType:"graphic",assetSlug:"evolution.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-05-31 21:04 -->\n\u003C!-- ai file: evolution.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-evolution-box ,\n\t#g-evolution-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-evolution-box p {\n\t\tmargin:0;\n\t}\n\t#g-evolution-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-evolution-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-evolution-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-evolution-box .g-aiPointText p { white-space: nowrap; }\n\t#g-evolution-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-evolution-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:18px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-evolution-335 .g-pstyle0 {\n\t\tline-height:13px;\n\t\theight:13px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-transform:uppercase;\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-evolution-335 .g-pstyle1 {\n\t\tline-height:13px;\n\t\theight:13px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:right;\n\t\ttext-transform:uppercase;\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-evolution-335 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-evolution-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-evolution-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:21px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:18px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-evolution-600 .g-pstyle0 {\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-transform:uppercase;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-evolution-600 .g-pstyle1 {\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:right;\n\t\ttext-transform:uppercase;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-evolution-600 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-evolution-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-evolution-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 616px\" data-aspect-ratio=\"0.544\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 183.8806% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-evolution-335-img\" class=\"g-evolution-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/evolution-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-main g-aiAbs\" style=\"top:0%;left:0.2985%;width:99.403%;\">\n\t\t\t\u003Cp>An analysis of \u003Cspan class=\"g-cstyle0\">SARS-CoV-2&rsquo;s evolutionary tree \u003C/span>shows how the virus evolved as it started to spread through humans.\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:13.024%;margin-top:-13.2px;left:0.6075%;width:205px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">SARS-COV-2 Viruses closest \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle0\">to bat coronaviruses\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:14.0792%;margin-top:-6.7px;right:3.5989%;width:127px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">more mutations\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-evolution-600\" class=\"g-artboard\" style=\"width:600px; height:733.000000000001px;\" data-aspect-ratio=\"0.819\" data-min-width=\"600\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-evolution-600-img\" class=\"g-evolution-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/evolution-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-main g-aiAbs\" style=\"top:0%;left:0%;width:100%;\">\n\t\t\t\u003Cp>An analysis of \u003Cspan class=\"g-cstyle0\">SARS-CoV-2&rsquo;s evolutionary tree \u003C/span>shows how the virus evolved as it started to spread through humans.\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:10.5274%;margin-top:-17.2px;left:0.3104%;width:235px;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">SARS-COV-2 Viruses closest \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle0\">to bat coronaviruses\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:11.7007%;margin-top:-8.8px;right:2.9886%;width:145px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">more mutations\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-evolution-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-05-31 21:04 -->\n",mediaComponent:"Graphic"},text:"",altText:"An analysis of SARS-CoV-2’s evolutionary tree shows how the virus evolved as it started to spread through humans.",source:"Source: \u003Ca href=\"https://academic.oup.com/ve/article/10/1/veae020/7619252\">Lv et al., Virus Evolution (2024)\u003C/a>, as \u003Ca href=\"https://nextstrain.org/community/jbloom/rebuild_Lv_SARS2_tree\">reproduced by Jesse Bloom\u003C/a>",footerMaxWidth:"335px","footerMaxWidth-640px":"body"},{media:{assetType:"graphic",assetSlug:"evolution_2.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-06-03 09:49 -->\n\u003C!-- ai file: evolution_2.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-evolution_2-box ,\n\t#g-evolution_2-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-evolution_2-box p {\n\t\tmargin:0;\n\t}\n\t#g-evolution_2-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-evolution_2-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-evolution_2-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-evolution_2-box .g-aiPointText p { white-space: nowrap; }\n\t#g-evolution_2-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-evolution_2-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:16px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-evolution_2-335 .g-pstyle0 {\n\t\tline-height:18px;\n\t\tfont-size:16px;\n\t}\n\t#g-evolution_2-335 .g-pstyle1 {\n\t\tline-height:13px;\n\t\theight:13px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-transform:uppercase;\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-evolution_2-335 .g-pstyle2 {\n\t\tline-height:13px;\n\t\theight:13px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:right;\n\t\ttext-transform:uppercase;\n\t\ttop:1px;\n\t\tposition:relative;\n\t}\n\t#g-evolution_2-335 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-evolution_2-335 .g-cstyle1 {\n\t\tfont-weight:600;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-evolution_2-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-evolution_2-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:19px;\n\t\topacity:1;\n\t\tletter-spacing:0em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t\theight:auto;\n\t\tposition:static;\n\t}\n\t#g-evolution_2-600 .g-pstyle0 {\n\t\tline-height:21px;\n\t\tfont-size:18px;\n\t}\n\t#g-evolution_2-600 .g-pstyle1 {\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-transform:uppercase;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-evolution_2-600 .g-pstyle2 {\n\t\tline-height:17px;\n\t\theight:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:right;\n\t\ttext-transform:uppercase;\n\t\ttop:1.1px;\n\t\tposition:relative;\n\t}\n\t#g-evolution_2-600 .g-cstyle0 {\n\t\tfont-weight:600;\n\t}\n\t#g-evolution_2-600 .g-cstyle1 {\n\t\tfont-weight:600;\n\t\tcolor:rgb(255,125,0);\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-evolution_2-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-evolution_2-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 616px\" data-aspect-ratio=\"0.544\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 183.8806% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-evolution_2-335-img\" class=\"g-evolution_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/evolution_2-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-main g-aiAbs\" style=\"top:0%;left:0.2985%;width:99.403%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">An analysis of \u003Cspan class=\"g-cstyle0\">SARS-CoV-2&rsquo;s evolutionary tree \u003C/span>shows how the virus evolved as it started to spread through humans.\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:13.024%;margin-top:-13.2px;left:0.6075%;width:205px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">SARS-COV-2 Viruses closest \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle1\">to bat coronaviruses\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:14.0792%;margin-top:-6.7px;right:3.5989%;width:127px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">more mutations\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-main g-aiAbs\" style=\"top:33.6039%;left:60.3366%;width:39.7015%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle1\">The viruses that infected people linked to the market\u003C/span> were most likely not the earliest form of the virus that started the pandemic.\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-evolution_2-600\" class=\"g-artboard\" style=\"width:600px; height:733.000000000001px;\" data-aspect-ratio=\"0.819\" data-min-width=\"600\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-evolution_2-600-img\" class=\"g-evolution_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/evolution_2-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-main g-aiAbs\" style=\"top:0%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">An analysis of \u003Cspan class=\"g-cstyle0\">SARS-CoV-2&rsquo;s evolutionary tree \u003C/span>shows how the virus evolved as it started to spread through humans.\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:10.5274%;margin-top:-17.2px;left:0.3104%;width:235px;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">SARS-COV-2 Viruses closest \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle1\">to bat coronaviruses\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-main g-aiAbs g-aiPointText\" style=\"top:11.7007%;margin-top:-8.8px;right:2.9886%;width:145px;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">more mutations\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-main g-aiAbs\" style=\"top:30.1501%;left:54.8742%;width:45%;\">\n\t\t\t\u003Cp>\u003Cspan class=\"g-cstyle1\">The viruses that infected people linked to the market\u003C/span> were most likely not the earliest form of the virus that started the pandemic.\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\t\u003Cp>&nbsp;\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-evolution_2-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-06-03 09:49 -->\n",mediaComponent:"Graphic"},text:"",altText:"The viruses that infected people linked to the market fall partway down this tree, suggesting that they were most likely not the earliest form of the virus that seeded the pandemic.",footerMaxWidth:"335px","footerMaxWidth-640px":"body"}]}},{type:"svelte",value:{component:"Points",wrapper:false,points:["\u003Cstrong>Not a single infected animal has ever been confirmed at the market or in its supply chain. \u003C/strong>Without good evidence that the pandemic started at the Huanan Seafood Market, the fact that the virus emerged in Wuhan points squarely at its unique SARS-like virus laboratory."]}},{type:"svelte",value:{component:"MiniRule",wrapper:false}},{type:"svelte",value:{component:"KeyPoint",wrapper:false,number:"5",text:"Key evidence that would be expected if the virus had emerged from the wildlife trade is still missing."}},{type:"scrollingslides",value:{textAlign:"left",maxWidth:"body",marginInline:true,marginBlock:true,stepper:true,transitionType:"fade",items:[{media:{assetType:"graphic",assetSlug:"list.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-06-02 21:20 -->\n\u003C!-- ai file: list.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-list-box ,\n\t#g-list-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-list-box p {\n\t\tmargin:0;\n\t}\n\t#g-list-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-list-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-list-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-list-box .g-aiPointText p { white-space: nowrap; }\n\t#g-list-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-list-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:17px;\n\t\theight:auto;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttop:1.1px;\n\t\tposition:static;\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t}\n\t#g-list-335 .g-pstyle0 {\n\t\tfont-weight:700;\n\t\tline-height:19px;\n\t\tfont-size:16px;\n\t}\n\t#g-list-335 .g-pstyle1 {\n\t\tfont-weight:700;\n\t\tline-height:14px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list-335 .g-pstyle2 {\n\t\tline-height:14px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list-335 .g-pstyle3 {\n\t\theight:17px;\n\t\tposition:relative;\n\t}\n\t#g-list-335 .g-pstyle4 {\n\t\tfont-weight:700;\n\t\theight:17px;\n\t\ttext-align:center;\n\t\tposition:relative;\n\t}\n\t#g-list-335 .g-cstyle0 {\n\t\tfont-weight:300;\n\t}\n\t#g-list-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-list-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:19px;\n\t\theight:auto;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttop:1.3px;\n\t\tposition:static;\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t}\n\t#g-list-600 .g-pstyle0 {\n\t\tfont-weight:700;\n\t\tline-height:22px;\n\t\tfont-size:18px;\n\t}\n\t#g-list-600 .g-pstyle1 {\n\t\tfont-weight:700;\n\t\tline-height:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list-600 .g-pstyle2 {\n\t\tline-height:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list-600 .g-pstyle3 {\n\t\theight:19px;\n\t\tposition:relative;\n\t}\n\t#g-list-600 .g-pstyle4 {\n\t\tfont-weight:700;\n\t\ttext-align:center;\n\t}\n\t#g-list-600 .g-cstyle0 {\n\t\tfont-weight:300;\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-list-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-list-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 550px\" data-aspect-ratio=\"0.609\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 164.1791% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-list-335-img\" class=\"g-list-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/list-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:0%;left:0.2655%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">In previous outbreaks of coronaviruses, scientists were able to demonstrate natural origin\u003Cspan class=\"g-cstyle0\"> by collecting multiple pieces of evidence linking infected humans to infected animals.\u003C/span>\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:16.1818%;left:53.5226%;margin-left:-9.403%;width:18.806%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">SARS\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle2\">2002\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:16.1818%;left:72.4009%;margin-left:-9.403%;width:18.806%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">MERS\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle2\">2012\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:29.3029%;margin-top:-17.2px;left:0%;width:120px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Infected animals\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">found\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-5\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:29.042%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-6\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:29.042%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-7\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:43.5574%;margin-top:-25.6px;left:0.2654%;width:125px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Earliest known\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">cases exposed to\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">live animals\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-8\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:43.4056%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-9\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:43.4056%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-10\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:57.6301%;margin-top:-34px;left:0.2654%;width:150px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Antibody evidence\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">of animals and\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">animal traders having\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">been infected\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-11\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:57.7693%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-12\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:57.7693%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-13\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:71.9211%;margin-top:-25.6px;left:0.2845%;width:143px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Ancestral variants\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">of the virus found in \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">animals\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-14\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:72.1329%;margin-top:-8.7px;left:53.5257%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-15\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:72.1329%;margin-top:-8.7px;left:72.2226%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-16\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:89.5938%;margin-top:-50.8px;left:0.2845%;width:153px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Documented trade\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">of host animals\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">between the area\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">where bats carry\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">closely related viruses\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">and the outbreak site\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-17\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:89.042%;margin-top:-8.7px;left:53.5257%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-18\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:89.042%;margin-top:-8.7px;left:72.2226%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-list-600\" class=\"g-artboard\" style=\"width:600px; height:455px;\" data-aspect-ratio=\"1.319\" data-min-width=\"600\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-list-600-img\" class=\"g-list-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/list-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:0%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">In previous outbreaks of coronaviruses, scientists were able to demonstrate natural origin\u003Cspan class=\"g-cstyle0\"> by collecting multiple pieces of evidence linking infected humans to infected animals.\u003C/span>\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:17.1429%;left:62.6138%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">SARS\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle2\">2002\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:17.1429%;left:77.4975%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">MERS\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle2\">2012\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:32.7042%;margin-top:-9.8px;left:0%;width:177px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Infected animals found\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-5\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:30.989%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-6\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:30.989%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-7\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:47.2096%;margin-top:-9.8px;left:0%;width:326px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Earliest known cases exposed to live animals\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-8\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:45.4945%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-9\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:45.4945%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-10\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:62.5063%;margin-top:-19.4px;left:0%;width:303px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Antibody evidence of animals and animal \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">traders having been infected\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-11\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:60.6593%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-12\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:60.6593%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-13\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:77.0997%;margin-top:-9.8px;left:0.0107%;width:337px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Ancestral variants of the virus found in animals\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-14\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:75.3846%;left:62.8184%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-15\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:75.3846%;left:77.5592%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-16\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:92.9679%;margin-top:-29px;left:0.0107%;width:308px;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">Documented trade of host animals\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">between the area where bats carry closely\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">related viruses and the outbreak site\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-17\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:90.1099%;left:62.8184%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-18\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:90.1099%;left:77.5592%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-list-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-06-02 21:20 -->\n",mediaComponent:"Graphic"},text:"",altText:"In the SARS and MERS epidemics, scientists were able to find key pieces of evidence that demonstrated a natural origin of the virus. They found infected animals, the earliest human cases were exposed to animals, there was antibody evidence in animal traders, ancestral variants were found in animals, and there was documented trade of host animals.",footerMaxWidth:"335px","footerMaxWidth-640px":"body"},{media:{assetType:"graphic",assetSlug:"list_2.html",breakpointName:void 0,assetErrors:[],html:"\n\u003C!-- Generated by ai2html v0.119.7 - 2024-06-02 21:20 -->\n\u003C!-- ai file: list_2.ai -->\n\u003Cstyle media=\"screen,print\">\n\t#g-list_2-box ,\n\t#g-list_2-box .g-artboard {\n\t\tmargin:0 auto;\n\t}\n\t#g-list_2-box p {\n\t\tmargin:0;\n\t}\n\t#g-list_2-box .g-aiAbs {\n\t\tposition:absolute;\n\t}\n\t#g-list_2-box .g-aiImg {\n\t\tposition:absolute;\n\t\ttop:0;\n\t\tdisplay:block;\n\t\twidth:100% !important;\n\t}\n\t#g-list_2-box .g-aiSymbol {\n\t\tposition: absolute;\n\t\tbox-sizing: border-box;\n\t}\n\t#g-list_2-box .g-aiPointText p { white-space: nowrap; }\n\t#g-list_2-335 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-list_2-335 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:17px;\n\t\theight:auto;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:14px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttop:1.1px;\n\t\tposition:static;\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t}\n\t#g-list_2-335 .g-pstyle0 {\n\t\tline-height:19px;\n\t\tfont-size:16px;\n\t}\n\t#g-list_2-335 .g-pstyle1 {\n\t\tfont-weight:700;\n\t\tline-height:14px;\n\t\tletter-spacing:0.025em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list_2-335 .g-pstyle2 {\n\t\tline-height:14px;\n\t\tletter-spacing:0.025em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list_2-335 .g-pstyle3 {\n\t\tfont-weight:700;\n\t\tline-height:14px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list_2-335 .g-pstyle4 {\n\t\tline-height:14px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:12px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list_2-335 .g-pstyle5 {\n\t\theight:17px;\n\t\tposition:relative;\n\t}\n\t#g-list_2-335 .g-pstyle6 {\n\t\tfont-weight:700;\n\t\tline-height:19px;\n\t\theight:19px;\n\t\tfont-size:16px;\n\t\ttext-align:center;\n\t\tcolor:rgb(255,125,0);\n\t\ttop:1.3px;\n\t\tposition:relative;\n\t}\n\t#g-list_2-335 .g-pstyle7 {\n\t\tfont-weight:700;\n\t\theight:17px;\n\t\ttext-align:center;\n\t\tposition:relative;\n\t}\n\t#g-list_2-335 .g-cstyle0 {\n\t\tfont-weight:700;\n\t}\n\t#g-list_2-335 .g-cstyle1 {\n\t\tfont-weight:700;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-list_2-600 {\n\t\tposition:relative;\n\t\toverflow:hidden;\n\t}\n\t#g-list_2-600 p {\n\t\tfont-family:nyt-franklin,arial,helvetica,sans-serif;\n\t\tfont-weight:300;\n\t\tline-height:19px;\n\t\theight:auto;\n\t\topacity:1;\n\t\tletter-spacing:0.005em;\n\t\tfont-size:16px;\n\t\ttext-align:left;\n\t\tcolor:rgb(0,0,0);\n\t\ttop:1.3px;\n\t\tposition:static;\n\t\ttext-transform:none;\n\t\tpadding-bottom:0;\n\t\tpadding-top:0;\n\t\tmix-blend-mode:normal;\n\t\tfont-style:normal;\n\t}\n\t#g-list_2-600 .g-pstyle0 {\n\t\tfont-weight:700;\n\t\tline-height:22px;\n\t\tfont-size:18px;\n\t}\n\t#g-list_2-600 .g-pstyle1 {\n\t\tline-height:22px;\n\t\tfont-size:18px;\n\t}\n\t#g-list_2-600 .g-pstyle2 {\n\t\tfont-weight:700;\n\t\tline-height:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list_2-600 .g-pstyle3 {\n\t\tline-height:17px;\n\t\tletter-spacing:0.05em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list_2-600 .g-pstyle4 {\n\t\tfont-weight:700;\n\t\tline-height:17px;\n\t\tletter-spacing:0.025em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list_2-600 .g-pstyle5 {\n\t\tline-height:17px;\n\t\tletter-spacing:0.025em;\n\t\tfont-size:14px;\n\t\ttext-align:center;\n\t\ttext-transform:uppercase;\n\t}\n\t#g-list_2-600 .g-pstyle6 {\n\t\theight:19px;\n\t\tposition:relative;\n\t}\n\t#g-list_2-600 .g-pstyle7 {\n\t\ttext-align:center;\n\t}\n\t#g-list_2-600 .g-pstyle8 {\n\t\tfont-weight:700;\n\t\ttext-align:center;\n\t\tcolor:rgb(255,125,0);\n\t}\n\t#g-list_2-600 .g-cstyle0 {\n\t\tfont-weight:300;\n\t}\n\t#g-list_2-600 .g-cstyle1 {\n\t\tcolor:rgb(255,125,0);\n\t}\n\n\u003C/style>\n\n\u003Cdiv id=\"g-list_2-box\" class=\"ai2html ai2html-responsive\">\n\n\t\u003C!-- Artboard: 335 -->\n\t\u003Cdiv id=\"g-list_2-335\" class=\"g-artboard\" style=\"max-width: 335px;max-height: 550px\" data-aspect-ratio=\"0.609\" data-min-width=\"0\" data-max-width=\"599\">\n\u003Cdiv style=\"padding: 0 0 164.1791% 0;\">\u003C/div>\n\t\t\u003Cimg id=\"g-list_2-335-img\" class=\"g-list_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/list_2-335.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai0-1\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:3.4545%;left:0.2655%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">For SARS-CoV-2, \u003Cspan class=\"g-cstyle0\">these same key pieces of evidence are \u003C/span>\u003Cspan class=\"g-cstyle1\">still missing\u003C/span>, more than four years after the virus emerged.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-2\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:16.1818%;left:90.8839%;margin-left:-9.403%;width:18.806%;\">\n\t\t\t\u003Cp class=\"g-pstyle1\">Covid-19\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle2\">2019\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-3\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:16.1818%;left:53.5226%;margin-left:-9.403%;width:18.806%;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">SARS\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle4\">2002\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-4\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:16.1818%;left:72.4009%;margin-left:-9.403%;width:18.806%;\">\n\t\t\t\u003Cp class=\"g-pstyle3\">MERS\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle4\">2012\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-5\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:29.3029%;margin-top:-17.2px;left:0%;width:120px;\">\n\t\t\t\u003Cp class=\"g-pstyle5\">Infected animals\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">found\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-6\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:28.8661%;margin-top:-9.8px;left:90.6803%;margin-left:-21px;width:42px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">No\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-7\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:29.042%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-8\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:29.042%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-9\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:43.5574%;margin-top:-25.6px;left:0.2654%;width:125px;\">\n\t\t\t\u003Cp class=\"g-pstyle5\">Earliest known\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">cases exposed to\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">live animals\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-10\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:43.2298%;margin-top:-9.8px;left:90.6803%;margin-left:-21px;width:42px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">No\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-11\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:43.4056%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-12\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:43.4056%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-13\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:57.6301%;margin-top:-34px;left:0.2654%;width:150px;\">\n\t\t\t\u003Cp class=\"g-pstyle5\">Antibody evidence\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">of animals and\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">animal traders having\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">been infected\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-14\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:57.5934%;margin-top:-9.8px;left:90.6803%;margin-left:-21px;width:42px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">No\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-15\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:57.7693%;margin-top:-8.7px;left:53.4775%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-16\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:57.7693%;margin-top:-8.7px;left:72.1744%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-17\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:71.9211%;margin-top:-25.6px;left:0.2845%;width:143px;\">\n\t\t\t\u003Cp class=\"g-pstyle5\">Ancestral variants\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">of the virus found in \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">animals\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-18\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:71.957%;margin-top:-9.8px;left:90.7285%;margin-left:-21px;width:42px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">No\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-19\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:72.1329%;margin-top:-8.7px;left:53.5257%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-20\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:72.1329%;margin-top:-8.7px;left:72.2226%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-21\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:89.5938%;margin-top:-50.8px;left:0.2845%;width:153px;\">\n\t\t\t\u003Cp class=\"g-pstyle5\">Documented trade\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">of host animals\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">between the area\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">where bats carry\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">closely related viruses\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">and the outbreak site\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-22\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:88.8661%;margin-top:-9.8px;left:90.7285%;margin-left:-21px;width:42px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">No\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-23\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:89.042%;margin-top:-8.7px;left:53.5257%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai0-24\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:89.042%;margin-top:-8.7px;left:72.2226%;margin-left:-22px;width:44px;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\t\u003C!-- Artboard: 600 -->\n\t\u003Cdiv id=\"g-list_2-600\" class=\"g-artboard\" style=\"width:600px; height:455.000000000001px;\" data-aspect-ratio=\"1.319\" data-min-width=\"600\">\n\u003Cdiv style=\"\">\u003C/div>\n\t\t\u003Cimg id=\"g-list_2-600-img\" class=\"g-list_2-img g-aiImg\" alt=\"\" data-src=\"https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/list_2-600.png\" src=\"data:image/gif;base64,R0lGODlhCgAKAIAAAB8fHwAAACH5BAEAAAAALAAAAAAKAAoAAAIIhI+py+0PYysAOw==\"/>\n\t\t\u003Cdiv id=\"g-ai1-1\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:4.8352%;left:0%;width:100%;\">\n\t\t\t\u003Cp class=\"g-pstyle0\">\u003Cspan class=\"g-cstyle0\">For SARS-CoV-2, \u003C/span>these same key pieces of evidence are \u003Cspan class=\"g-cstyle1\">still missing\u003C/span>\u003Cspan class=\"g-cstyle0\">,\u003C/span>\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle1\">more than four years after the virus emerged.\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-2\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:17.1429%;left:62.6138%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">SARS\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">2002\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-3\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:17.1429%;left:77.4975%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle2\">MERS\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle3\">2012\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-4\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:17.1429%;left:92.2226%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle4\">Covid-19\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle5\">2019\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-5\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:32.7042%;margin-top:-9.8px;left:0%;width:177px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">Infected animals found\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-6\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:30.989%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-7\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:30.989%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-8\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:30.989%;left:92.2462%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle8\">No\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-9\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:47.2096%;margin-top:-9.8px;left:0%;width:326px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">Earliest known cases exposed to live animals\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-10\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:45.4945%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-11\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:45.4945%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-12\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:45.4945%;left:92.2462%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle8\">No\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-13\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:62.5063%;margin-top:-19.4px;left:0%;width:303px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">Antibody evidence of animals and animal \u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle6\">traders having been infected\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-14\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:60.6593%;left:62.7804%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-15\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:60.6593%;left:77.5211%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-16\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:60.6593%;left:92.2462%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle8\">No\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-17\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:77.0997%;margin-top:-9.8px;left:0.0107%;width:337px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">Ancestral variants of the virus found in animals\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-18\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:75.3846%;left:62.8184%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-19\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:75.3846%;left:77.5592%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-20\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:75.3846%;left:92.2842%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle8\">No\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-21\" class=\"g-ai2html-settings g-aiAbs g-aiPointText\" style=\"top:92.9679%;margin-top:-29px;left:0.0107%;width:308px;\">\n\t\t\t\u003Cp class=\"g-pstyle6\">Documented trade of host animals\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle6\">between the area where bats carry closely\u003C/p>\n\t\t\t\u003Cp class=\"g-pstyle6\">related viruses and the outbreak site\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-22\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:90.1099%;left:62.8184%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-23\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:90.1099%;left:77.5592%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle7\">Yes\u003C/p>\n\t\t\u003C/div>\n\t\t\u003Cdiv id=\"g-ai1-24\" class=\"g-ai2html-settings g-aiAbs\" style=\"top:90.1099%;left:92.2842%;margin-left:-7.3333%;width:14.6667%;\">\n\t\t\t\u003Cp class=\"g-pstyle8\">No\u003C/p>\n\t\t\u003C/div>\n\t\u003C/div>\n\n\u003C/div>\n\n\u003Cscript type=\"text/javascript\">\n\t(function (containerId, opts) {\n\t\tvar nameSpace = opts.namespace || '';\n\t\tvar containers = findContainers(containerId);\n\t\tcontainers.forEach(resize);\n\n\t\tfunction resize(container) {\n\t\t\tvar onResize = throttle(update, 200);\n\t\t\tvar waiting = !!window.IntersectionObserver;\n\t\t\tvar observer;\n\t\t\tupdate();\n\n\t\t\tdocument.addEventListener('DOMContentLoaded', update);\n\t\t\twindow.addEventListener('resize', onResize);\n\n\t\t\t// NYT Scoop-specific code\n\t\t\tif (opts.setup) {\n\t\t\t\topts.setup(container).on('cleanup', cleanup);\n\t\t\t}\n\n\t\t\tfunction cleanup() {\n\t\t\t\tdocument.removeEventListener('DOMContentLoaded', update);\n\t\t\t\twindow.removeEventListener('resize', onResize);\n\t\t\t\tif (observer) observer.disconnect();\n\t\t\t}\n\n\t\t\tfunction update() {\n\t\t\t\tvar artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),\n\t\t\t\t\t\twidth = Math.round(container.getBoundingClientRect().width);\n\n\t\t\t\t// Set artboard visibility based on container width\n\t\t\t\tartboards.forEach(function(el) {\n\t\t\t\t\tvar minwidth = el.getAttribute('data-min-width'),\n\t\t\t\t\t\t\tmaxwidth = el.getAttribute('data-max-width');\n\t\t\t\t\tif (+minwidth \u003C= width && (+maxwidth >= width || maxwidth === null)) {\n\t\t\t\t\t\tif (!waiting) {\n\t\t\t\t\t\t\tselectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);\n\t\t\t\t\t\t\tselectChildren('video', el).forEach(updateVideoSrc);\n\t\t\t\t\t\t}\n\t\t\t\t\t\tel.style.display = 'block';\n\t\t\t\t\t} else {\n\t\t\t\t\t\tel.style.display = 'none';\n\t\t\t\t\t}\n\t\t\t\t});\n\n\t\t\t\t// Initialize lazy loading on first call\n\t\t\t\tif (waiting && !observer) {\n\t\t\t\t\tif (elementInView(container)) {\n\t\t\t\t\t\twaiting = false;\n\t\t\t\t\t\tupdate();\n\t\t\t\t\t} else {\n\t\t\t\t\t\tobserver = new IntersectionObserver(onIntersectionChange, {});\n\t\t\t\t\t\tobserver.observe(container);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\n\t\t\tfunction onIntersectionChange(entries) {\n\t\t\t\t// There may be multiple entries relating to the same container\n\t\t\t\t// (captured at different times)\n\t\t\t\tvar isIntersecting = entries.reduce(function(memo, entry) {\n\t\t\t\t\treturn memo || entry.isIntersecting;\n\t\t\t\t}, false);\n\t\t\t\tif (isIntersecting) {\n\t\t\t\t\twaiting = false;\n\t\t\t\t\t// update: don't remove -- we need the observer to trigger an update\n\t\t\t\t\t// when a hidden map becomes visible after user interaction\n\t\t\t\t\t// (e.g. when an accordion menu or tab opens)\n\t\t\t\t\t// observer.disconnect();\n\t\t\t\t\t// observer = null;\n\t\t\t\t\tupdate();\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\tfunction findContainers(id) {\n\t\t\t// support duplicate ids on the page\n\t\t\treturn selectChildren('.ai2html-responsive', document).filter(function(el) {\n\t\t\t\tif (el.getAttribute('id') != id) return false;\n\t\t\t\tif (el.classList.contains('ai2html-resizer')) return false;\n\t\t\t\tel.classList.add('ai2html-resizer');\n\t\t\t\treturn true;\n\t\t\t});\n\t\t}\n\n\t\t// Replace blank placeholder image with actual image\n\t\tfunction updateImgSrc(img) {\n\t\t\tvar src = img.getAttribute('data-src');\n\t\t\tif (src && img.getAttribute('src') != src) {\n\t\t\t\timg.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction updateVideoSrc(el) {\n\t\t\tvar src = el.getAttribute('data-src');\n\t\t\tif (src && !el.hasAttribute('src')) {\n\t\t\t\tel.setAttribute('src', src);\n\t\t\t}\n\t\t}\n\n\t\tfunction elementInView(el) {\n\t\t\tvar bounds = el.getBoundingClientRect();\n\t\t\treturn bounds.top \u003C window.innerHeight && bounds.bottom > 0;\n\t\t}\n\n\t\tfunction selectChildren(selector, parent) {\n\t\t\treturn parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];\n\t\t}\n\n\t\t// based on underscore.js\n\t\tfunction throttle(func, wait) {\n\t\t\tvar timeout = null, previous = 0;\n\t\t\tfunction run() {\n\t\t\t\t\tprevious = Date.now();\n\t\t\t\t\ttimeout = null;\n\t\t\t\t\tfunc();\n\t\t\t}\n\t\t\treturn function() {\n\t\t\t\tvar remaining = wait - (Date.now() - previous);\n\t\t\t\tif (remaining \u003C= 0 || remaining > wait) {\n\t\t\t\t\tclearTimeout(timeout);\n\t\t\t\t\trun();\n\t\t\t\t} else if (!timeout) {\n\t\t\t\t\ttimeout = setTimeout(run, remaining);\n\t\t\t\t}\n\t\t\t};\n\t\t}\n\t})(\"g-list_2-box\", {namespace: \"g-\", setup: window.setupInteractive || window.getComponent});\n\u003C/script>\n\u003C!-- End ai2html - 2024-06-02 21:20 -->\n",mediaComponent:"Graphic"},text:"",altText:"For SARS-CoV-2, all of these pieces of evidence are missing.",footerMaxWidth:"335px","footerMaxWidth-640px":"body"}]}},{type:"svelte",value:{component:"Points",wrapper:false,points:["Despite the intense search trained on the animal trade and people linked to the market, \u003Cstrong>investigators have not reported \u003C/strong>\u003Cstrong>finding \u003C/strong>\u003Cstrong>\u003Ca href=\"https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part\">any animals infected with SARS‑CoV‑2\u003C/a>\u003C/strong> that had not been infected by humans. Yet, infected animal sources and other connective pieces of evidence were found for the earlier \u003Ca href=\"https://thebulletin.org/2022/03/the-origins-of-sars-cov-2-still-to-be-determined/\">SARS\u003C/a> \u003Ca href=\"https://www.nejm.org/doi/full/10.1056/NEJMoa1401505\">and\u003C/a> \u003Ca href=\"https://www.cidrap.umn.edu/mers-cov/jordanian-saudi-camels-have-mers-cov-antibodies\">MERS\u003C/a> \u003Ca href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7102853/\">outbreaks\u003C/a> as \u003Ca href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/16485471/\">quickly\u003C/a> as within a few days, despite the less advanced viral forensic technologies of two decades ago.","Even though Wuhan is the home base of virus hunters with world-leading expertise in tracking novel SARS-like viruses, \u003Cstrong>investigators have either failed to collect or report key evidence that would be expected if Covid-19 emerged from the wildlife trade\u003C/strong>. For example, investigators have not determined that the earliest known cases had exposure to intermediate host animals before falling ill. No antibody evidence shows that animal traders in Wuhan are regularly exposed to SARS-like viruses, \u003Ca href=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5241a2.htm\">as would be expected\u003C/a> in such situations.","With today’s technology, scientists can detect how respiratory viruses — including SARS, MERS and the flu — circulate in animals while making repeated attempts to \u003Ca href=\"https://www.cdc.gov/flu/avianflu/mammals.htm\">jump across species\u003C/a>. Thankfully, these variants usually fail to transmit well after crossing over to a new species and tend to die off after a small number of infections. In contrast, virologists and other scientists agree that SARS‑CoV‑2 required little to no adaptation to spread rapidly in humans and \u003Ca href=\"https://pubmed.ncbi.nlm.nih.gov/33711012/\">other animals\u003C/a>. \u003Cstrong>The virus appears to have succeeded in causing a pandemic upon its only detected jump into humans.\u003C/strong>"]}},{type:"svelte",value:{component:"MiniRule",wrapper:false}},{type:"text",value:"The pandemic could have been caused by any of hundreds of virus species, at any of tens of thousands of wildlife markets, in any of thousands of cities, and in any year. But it was a SARS-like coronavirus with a unique furin cleavage site that emerged in Wuhan, less than two years after scientists, sometimes working under inadequate biosafety conditions, proposed collecting and creating viruses of that same design."},{type:"text",value:"While several natural spillover scenarios remain plausible, and we still don’t know enough about the full extent of virus research conducted at the Wuhan institute by Dr. Shi’s team and other researchers, a laboratory accident is the most parsimonious explanation of how the pandemic began."},{type:"text",value:"Given what we now know, investigators should follow their strongest leads and subpoena all exchanges between the Wuhan scientists and their international partners, including unpublished research proposals, manuscripts, data and commercial orders. In particular, exchanges from 2018 and 2019 — the critical two years before the emergence of Covid-19 — are very likely to be illuminating (and require no cooperation from the Chinese government to acquire), yet they remain beyond the public’s view more than four years after the pandemic began."},{type:"text",value:"Whether the pandemic started on a lab bench or in a market stall, it is undeniable that U.S. federal funding helped to build an unprecedented collection of SARS-like viruses at the Wuhan institute, as well as contributing to research that \u003Ca href=\"https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/\">enhanced them\u003C/a>. Advocates and funders of the institute’s research, including Dr. Fauci, should cooperate with the investigation to help identify and close the loopholes that allowed such dangerous work to occur. The world must not continue to bear the intolerable risks of \u003Ca href=\"https://www.washingtonpost.com/opinions/a-flu-virus-risk-worth-taking/2011/12/30/gIQAM9sNRP_story.html\">research with the potential to cause pandemics\u003C/a>."},{type:"text",value:"A successful investigation of the pandemic’s root cause would have the power to break a decades-long scientific impasse on pathogen research safety, determining how governments will spend billions of dollars to prevent future pandemics. A credible investigation would also deter future acts of negligence and deceit by demonstrating that it is indeed possible to be held accountable for causing a viral pandemic. Last but not least, people of all nations need to see their leaders — and especially, their scientists — heading the charge to find out what caused this world-shaking event. Restoring public trust in science and government leadership requires it."},{type:"text",value:"A thorough investigation by the U.S. government could unearth more evidence while spurring whistleblowers to find their courage and seek their moment of opportunity. It would also show the world that U.S. leaders and scientists are not afraid of what the truth behind the pandemic may be."},{type:"relatedlinks",value:{hed:"More on how the pandemic may have started",leadin:"",display:"standard",hideFields:"",links:[{headline:"Where Did the Coronavirus Come From? What We Already Know Is Troubling.",byline:"By Zeynep Tufekci",summary:"Even if the coronavirus did not emerge from a lab, the groundwork for a potential disaster had been laid for years, and learning its lessons is essential to preventing others.",url:"https://www.nytimes.com/2021/06/25/opinion/coronavirus-lab.html",date:"June 25, 2021",thumbnail:{width:150,height:150,url:"https://static01.nyt.com/images/2021/06/25/opinion/25tufeckiSub/25tufeckiSub-thumbLarge.jpg"},thumbnailDesktop:{width:600,height:802,url:"https://static01.nyt.com/images/2021/06/25/opinion/25tufeckiSub/25tufeckiSub-articleLarge.jpg"}},{headline:"Why Does Bad Science on Covid’s Origin Get Hyped?",byline:"By David Wallace-Wells",summary:"If the raccoon dog was a smoking gun, it fired blanks.",url:"https://www.nytimes.com/2023/05/03/opinion/covid-origin-science.html",date:"May 3, 2023",thumbnail:{width:150,height:150,url:"https://static01.nyt.com/images/2023/05/03/opinion/03wallace-wells-image/03wallace-wells-image-thumbLarge.jpg"},thumbnailDesktop:{width:600,height:600,url:"https://static01.nyt.com/images/2023/05/03/opinion/03wallace-wells-image/03wallace-wells-image-articleLarge.jpg"}},{headline:"A Plea for Making Virus Research Safer",byline:"By Jesse Bloom",summary:"A way forward for lab safety.",url:"https://www.nytimes.com/2022/10/30/opinion/virology-safety.html",date:"Oct. 30, 2022",thumbnail:{width:150,height:150,url:"https://static01.nyt.com/images/2022/11/04/opinion/sunday/30Bloom/30Bloom-thumbLarge.jpg"},thumbnailDesktop:{width:600,height:600,url:"https://static01.nyt.com/images/2022/11/04/opinion/sunday/30Bloom/30Bloom-articleLarge.jpg"}}]}},{type:"section",value:{className:"op-boilerplate",body:[{type:"text",value:"\u003Cem>The Times is committed to publishing \u003C/em>\u003Cem>\u003Ca href=\"https://www.nytimes.com/2019/01/31/opinion/letters/letters-to-editor-new-york-times-women.html\">a diversity of letters\u003C/a>\u003C/em>\u003Cem> to the editor. We’d like to hear what you think about this or any of our articles. Here are some \u003C/em>\u003Cem>\u003Ca href=\"https://help.nytimes.com/hc/en-us/articles/115014925288-How-to-submit-a-letter-to-the-editor\">tips\u003C/a>\u003C/em>\u003Cem>. And here’s our email: \u003C/em>\u003Cem>\u003Ca href=\"null\">letters@nytimes.com\u003C/a>\u003C/em>\u003Cem>.\u003C/em>"},{type:"text",value:"\u003Cem>Follow the New York Times Opinion section on \u003C/em>\u003Cem>\u003Ca href=\"https://www.facebook.com/nytopinion\">Facebook\u003C/a>\u003C/em>\u003Cem>, \u003C/em>\u003Cem>\u003Ca href=\"https://www.instagram.com/nytopinion/\">Instagram\u003C/a>\u003C/em>\u003Cem>, \u003C/em>\u003Cem>\u003Ca href=\"https://www.tiktok.com/@nytopinion\">TikTok\u003C/a>\u003C/em>\u003Cem>, \u003C/em>\u003Cem>\u003Ca href=\"https://www.whatsapp.com/channel/0029VaN8tdZ5vKAGNwXaED0M\">WhatsApp\u003C/a>\u003C/em>\u003Cem>, \u003C/em>\u003Cem>\u003Ca href=\"http://twitter.com/NYTOpinion\">X\u003C/a>\u003C/em>\u003Cem> and \u003C/em>\u003Cem>\u003Ca href=\"https://www.threads.net/@nytopinion\">Threads\u003C/a>\u003C/em>\u003Cem>.\u003C/em>"}]}},{type:"section",value:{className:"bottom-bio",body:[{type:"text",value:"Alina Chan (\u003Ca href=\"https://x.com/ayjchan\">@ayjchan\u003C/a>) is a molecular biologist at the Broad Institute of M.I.T. and Harvard, and a co-author of “\u003Ca href=\"https://www.harpercollins.com/products/viral-matt-ridleyalina-chan?variant=40127936987170\">Viral\u003C/a>: The Search for the Origin of Covid-19.” She was a member of the \u003Ca href=\"https://thebulletin.org/pathogens-project/taskforce/\">Pathogens Project\u003C/a>, which the \u003Ca href=\"https://thebulletin.org/\">Bulletin of the Atomic Scientists\u003C/a> organized to generate new thinking on responsible, high-risk pathogen research."}]}}],theme:"opinion",sheets:{}},"uses":{"url":1}}];
+
+					Promise.all([
+						import("https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/entry/start.DV9MQVGh.js"),
+						import("https://static01.nytimes.com/newsgraphics/2024-05-09-lableak/db31c427-0901-4e51-affb-c13b88696f03/_assets/_app/immutable/entry/app.DxO9WwGW.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null,
+							params: {},
+							route: {"id":"/index"}
+						});
+					});
+				}
+			</script>
+		
+
+		</div>
+		
+</div></section><div id="interactive-footer-container" class="css-tbjo8i interactive-footer-container"><footer id="interactive-footer" class="interactive-footer"><p data-testid="credit" id="interactive-credit" class="css-1fq2n5g interactive-credit">Graphics by Sara Chodosh and Gus Wezerek. Additional production by Jeremy Ashkenas.</p></footer><div id="interactive-addendum-list" class="css-1yiqkdd interactive-addendum-list"></div></div></article></main><div id="standalone-footer"><div><div class="vi-gateway-container" data-testid="vi-gateway-container"><div id="interactive-footer-wrapper" data-bookmoduletest="false"><div class="css-1sm67ns"><div role="toolbar" data-testid="share-tools" aria-label="Social Media Share buttons, Save button, and Comments Panel with current comment count" class="css-yomkvi"><div></div><div class="css-10i3hc"><button type="button" class="css-1h72t4j" aria-label="Read 1.6k Comments" data-testid="comment-button-bigBottom" id="comment-button-bigBottom">Read 1.6k Comments</button></div><div data-testid="share-tools-menu" class="interactive-sharetools css-1rgojku"><ul data-testid="share-tools-list" class="css-16g9egj"><li class="css-1obgmli"><div class="css-vxcmzt"><div class="css-79elbk"><button type="button" aria-label="" aria-expanded="false" class="css-1eeh360 actionbar-button" data-testid="gift-article-button"><span class="css-10d8k1f"><svg aria-hidden="true" width="19" height="19" viewBox="0 0 19 19"><path d="M18.04 5.293h-2.725c.286-.34.493-.74.606-1.17a2.875 2.875 0 0 0-.333-2.322A2.906 2.906 0 0 0 13.64.48a3.31 3.31 0 0 0-2.372.464 3.775 3.775 0 0 0-1.534 2.483l-.141.797-.142-.847A3.745 3.745 0 0 0 7.927.923 3.31 3.31 0 0 0 5.555.459 2.907 2.907 0 0 0 3.607 1.78a2.877 2.877 0 0 0-.333 2.321c.117.429.324.828.606 1.171H1.155a.767.767 0 0 0-.757.757v3.674a.767.767 0 0 0 .757.757h.424v7.53A1.01 1.01 0 0 0 2.588 19h14.13a1.01 1.01 0 0 0 1.01-.959v-7.56h.424a.758.758 0 0 0 .757-.757V6.05a.759.759 0 0 0-.868-.757Zm-7.196-1.625a2.665 2.665 0 0 1 1.01-1.736 2.24 2.24 0 0 1 1.574-.313 1.817 1.817 0 0 1 1.211.818 1.857 1.857 0 0 1 .202 1.453 2.2 2.2 0 0 1-.838 1.191h-3.431l.272-1.413ZM4.576 2.386a1.837 1.837 0 0 1 1.221-.817 2.23 2.23 0 0 1 1.565.313 2.624 2.624 0 0 1 1.01 1.736l.242 1.453H5.182a2.2 2.2 0 0 1-.838-1.19 1.857 1.857 0 0 1 .202-1.495h.03ZM1.548 6.424h7.54V9.39h-7.58l.04-2.967Zm1.181 4.128h6.359v7.287H2.729v-7.287Zm13.777 7.287h-6.348v-7.307h6.348v7.307Zm1.181-8.468h-7.53V6.404h7.53V9.37Z" fill="#121212" fill-rule="nonzero"></path></svg>Share full article</span></button></div></div></li><li class="css-19yhb3c"><div class="css-vxcmzt"><div class="css-79elbk"><button type="button" aria-label="More sharing options ..." aria-expanded="false" class="css-1nurhyi actionbar-button"><svg aria-hidden="true" width="23" height="18" viewBox="0 0 23 18" class="css-zd9juy"><path d="M1.357 17.192a.663.663 0 0 1-.642-.81c1.82-7.955 6.197-12.068 12.331-11.68V1.127a.779.779 0 0 1 .42-.653.726.726 0 0 1 .78.106l8.195 6.986a.81.81 0 0 1 .253.557.82.82 0 0 1-.263.547l-8.196 6.955a.83.83 0 0 1-.779.105.747.747 0 0 1-.42-.663V11.29c-8.418-.905-10.974 5.177-11.08 5.45a.662.662 0 0 1-.6.453Zm10.048-7.26a16.37 16.37 0 0 1 2.314.158.81.81 0 0 1 .642.726v3.02l6.702-5.682-6.702-5.692v2.883a.767.767 0 0 1-.242.536.747.747 0 0 1-.547.18c-4.808-.537-8.364 1.85-10.448 6.922a11.679 11.679 0 0 1 8.28-3.093v.042Z" fill="#000" fill-rule="nonzero"></path></svg></button></div></div></li><li class="css-19yhb3c save-button"><button type="button" role="switch" class="css-1yhvmgx actionbar-button" data-testid="save-article-button" aria-label="Save article for reading later..." aria-checked="false" disabled="" aria-busy="false" aria-live="polite"><svg width="12" height="18" viewBox="0 0 12 18" class="css-eap6fy"><g fill-rule="nonzero"><path class="saved-fill" d="M1.157 1.268v14.288l4.96-3.813 4.753 3.843V1.268z"></path><path class="saved-stroke" d="m12 18-5.9-4.756L0 17.98V1.014C0 .745.095.487.265.297.435.107.664 0 .904 0h10.192c.24 0 .47.107.64.297.169.19.264.448.264.717V18ZM1.157 1.268v14.288l4.96-3.813 4.753 3.843V1.268H1.158Z"></path></g></svg></button></li><li class="css-19yhb3c commentAdjustClass"><button type="button" class="css-8inn91 actionbar-button" aria-label="Read 1597 comments" aria-haspopup="dialog" aria-expanded="false" aria-controls="comments-panel" data-testid="comment-button-footer" id="comment-button-footer"><div class="css-1mlnk6q"><svg aria-hidden="true" width="21" height="18" viewBox="0 0 21 18" class="css-2urdiw"><path d="m14.52 17.831-5.715-4.545H2.4a1.468 1.468 0 0 1-1.468-1.469V1.894A1.471 1.471 0 0 1 2.4.405h16.583a1.469 1.469 0 0 1 1.469 1.469v9.923a1.469 1.469 0 0 1-1.47 1.47H14.58l-.06 4.564ZM2.4 1.645a.228.228 0 0 0-.228.229v9.923a.228.228 0 0 0 .228.229h6.811l4.06 3.235v-3.235h5.652a.228.228 0 0 0 .229-.229V1.874a.228.228 0 0 0-.229-.229H2.4Z" fill="#121212" fill-rule="nonzero"></path></svg><span class="css-1re6eyk">1.6k</span></div></button></li></ul></div></div></div><div><div data-testid="lazy-loader"></div><section aria-labelledby="recirculation-title-placeholder" data-testid="recirculation-placeholder" class="css-s2htvn"><h2 id="recirculation-title-placeholder" class="css-1dv1kvn">Related Content</h2><div class="css-16p55jy"><section data-testid="recirc-firstPackage-placeholder"><div class="css-16ss0j3"><div class="css-5hj96p"><div class="css-343ohv"></div></div></div><ul class="css-1ta3q0y" role="list"><li class="css-tjy6w6"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-tjy6w6"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-tjy6w6"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-tjy6w6"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-tjy6w6"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-tjy6w6"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li></ul></section><section data-testid="recirc-defaultPackage-placeholder"><div class="css-16ss0j3"><div class="css-5hj96p"><div class="css-343ohv"></div></div></div><ul class="css-1ta3q0y" role="list"><li class="css-dsng1s"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-dsng1s"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-dsng1s"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li></ul></section></div><div class="css-1l5zhgp"><section data-testid="recirc-rightRail-placeholder"><div class="css-16ss0j3"><div class="css-5hj96p"><div class="css-343ohv"></div></div></div><ul class="css-1ta3q0y" role="list"><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li><li class="css-9t76xi"><div class="css-1b90zgj" data-testid="recirc-item-placeholder"><div class="css-d6eweq"><div class="css-9t8fgp"><div class="css-6uztyy"></div></div></div><div class="css-wfzhmp"><figure><div class="css-1kdjl9i"></div></figure></div></div></li></ul></section></div></section></div><div id="bottom-wrapper" class="css-11iyrz3"><div id="bottom-slug" class="css-1ev7j75"><p>Advertisement</p></div><a href="#after-bottom" class="css-777zgl">SKIP ADVERTISEMENT</a><div class="ad bottom-wrapper css-rfqw0c" id="bottom" style="min-height:90px"></div><div id="after-bottom"></div></div><nav class="css-1jmk4jh" id="site-index" aria-labelledby="site-index-label" data-testid="site-index"><h2 class="css-1dv1kvn" id="site-index-label">Site Index</h2><div class="css-uc4bdz"></div></nav><footer class="css-1e1s8k7" role="contentinfo"><nav data-testid="footer" class="css-1qa4qp6"><h2 class="css-1dv1kvn">Site Information Navigation</h2><ul class="css-1ho5u4o edvi3so0"><li data-testid="copyright"><a class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-Notice">© <span>2025</span> <span>The New York Times Company</span></a></li></ul><ul class="css-t8x4fj edvi3so1"><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://www.nytco.com/">NYTCo</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115015385887-Contact-The-New-York-Times">Contact Us</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115015727108-Accessibility">Accessibility</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://www.nytco.com/careers/">Work with us</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://advertising.nytimes.com/">Advertise</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://advertising.nytimes.com/custom-content/">T Brand Studio</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://www.nytimes.com/privacy/cookie-policy#how-do-i-manage-trackers">Your Ad Choices</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/10940941449492-The-New-York-Times-Company-Privacy-Policy">Privacy Policy</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115014893428-Terms-of-Service">Terms of Service</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us/articles/115014893968-Terms-of-Sale">Terms of Sale</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="/sitemap/">Site Map</a></li><li class="mobileOnly css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://www.nytimes.com/ca/">Canada</a></li><li class="mobileOnly css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://www.nytimes.com/international/">International</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" class="css-jq1cx6" href="https://help.nytimes.com/hc/en-us">Help</a></li><li class="css-a7htku edvi3so2"><a data-testid="footer-link" rel="nofollow" class="css-jq1cx6" href="https://www.nytimes.com/subscription?campaignId=37WXW">Subscriptions</a></li></ul><ul class="css-t8x4fj edvi3so1"><li class="css-a7htku edvi3so2"><a data-testid="privacy-preferences-link" rel="noreferrer noopener" target="_blank" class="css-jq1cx6" href="/privacy/manage-settings">Manage Privacy Preferences</a></li></ul></nav></footer></div></div></div></div></div>
+    <script>window.__preloadedData = {"config":{"gqlUrlClient":"https:\u002F\u002Fsamizdat-graphql.nytimes.com\u002Fgraphql\u002Fv2","gqlRequestHeaders":{"nyt-app-type":"project-vi","nyt-app-version":"0.0.5","nyt-token":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+\u002FoUCTBmD\u002FcLdmcecrnBMHiU\u002FpxQCn2DDyaPKUOXxi4p0uUSZQzsuq1pJ1m5z1i0YGPd1U1OeGHAChWtqoxC7bFMCXcwnE1oyui9G1uobgpm1GdhtwkR7ta7akVTcsF8zxiXx7DNXIPd2nIJFH83rmkZueKrC4JVaNzjvD+Z03piLn5bHWU6+w+rA+kyJtGgZNTXKyPh6EC6o5N+rknNMG5+CdTq35p8f99WjFawSvYgP9V64kgckbTbtdJ6YhVP58TnuYgr12urtwnIqWP9KSJ1e5vmgf3tunMqWNm6+AnsqNj8mCLdCuc5cEB74CwUeQcP2HQQmbCddBy2y0mEwIDAQAB","x-nyt-internal-meter-override":undefined},"gqlFetchTimeout":1500,"disablePersistedQueries":false,"initialDeviceType":"desktop","fastlyAbraConfig":{".ver":"27525.000","AMS_FrictionCircumventionDesktop_cwv":"2_low-mid-truncation","AMS_FrictionCircumventionMobile_cwv":"2_low-mid-truncation","DEVP_ComputeMonoservice":"1_Compute","DFP_MediaNet_0123":"1_MediaNet","HOME_cwv_chartbeat":"1_Headlines","STORY_feature_betamax_cwv":"1_Betamax"},"statsig":{"checkGate":function(e,n){var t,i;const o=e.toLowerCase(),l=null!==(i=null===(t=a.gates)||void 0===t?void 0:t[o])&&void 0!==i&&i;return r("gates",o,n),l},"getConfig":function(e,n){var t;const i=e.toLowerCase(),o=null===(t=a.configs)||void 0===t?void 0:t[i];return r("configs",i,n),{groupName:null==o?void 0:o.group_name,value:null==o?void 0:o.values,get:l(o)}},"getExperiment":function(e,n){var t;const i=e.toLowerCase(),o=null===(t=a.configs)||void 0===t?void 0:t[i];return r("configs",i,n),{groupName:null==o?void 0:o.group_name,value:null==o?void 0:o.values,get:l(o)}},"getLayer":function(e,n){var t;const i=e.toLowerCase(),o=null===(t=a.layers)||void 0===t?void 0:t[i];return r("layers",i,n),{groupName:null==o?void 0:o.group_name,value:null==o?void 0:o.values,allocatedExperiment:null==o?void 0:o.allocated_experiment,get:l(o)}}},"fastlyEntitlements":[],"platform":undefined,"internalPreviewConfig":{"meter":undefined,"swg":undefined},"webviewEnvironment":{"isInWebview":false,"isPreloaded":false,"isServiceWorkerEnabled":false},"isOptimisticallyTruncated":false,"optimisticTruncationDropzone":6,"requestPath":"\u002Finteractive\u002F2024\u002F06\u002F03\u002Fopinion\u002Fcovid-lab-leak.html","isProvisionallyLoggedIn":false,"routeName":"vi-interactive","pageVariant":undefined,"serviceWorkerFile":"service-worker-test-1757969310111.js"},"interactiveConfig":{"interactive":{"__typename":"Interactive","displayProperties":{"__typename":"CreativeWorkDisplayProperties","displayForPromotionOnly":false,"displayOverrides":["HIDE_HEADER","HIDE_TOP_AD","HIDE_TOP_BANNER_REGION","INCLUDE_TRANSPARENT_MASTHEAD_WITH_WHITE_ICONS","REMOVE_PLATFORM_MARGIN"],"displayStyle":"minimal","fullBleedDisplayStyle":"","maxWidth":600,"minWidth":350,"template":"Standard","theme":"standard"},"section":{"__typename":"Section","displayName":"Opinion","id":"U2VjdGlvbjpueXQ6Ly9zZWN0aW9uL2Q3YTcxMTg1LWFhNjAtNTYzNS1iY2UwLTVmYWI3NmM3YzI5Nw==","name":"opinion","taxonomyID":"","type":"section","uri":"nyt:\u002F\u002Fsection\u002Fd7a71185-aa60-5635-bce0-5fab76c7c297","url":"\u002Fsection\u002Fopinion"},"subsection":null,"tone":"OPINION","language":{"__typename":"Language","code":"en","name":"English"},"collections":[{"__typename":"LegacyCollection","collectionType":"SECTION","id":"TGVnYWN5Q29sbGVjdGlvbjpueXQ6Ly9sZWdhY3ljb2xsZWN0aW9uL2RhZGQ0MTc3LWM5MzgtNTMxMS1iNmM3LTVhMGZhMzE4YWI0OQ==","name":"Opinion","slug":"opinion","tagline":"","uri":"nyt:\u002F\u002Flegacycollection\u002Fdadd4177-c938-5311-b6c7-5a0fa318ab49","url":"https:\u002F\u002Fwww.nytimes.com\u002Fsection\u002Fopinion"},{"__typename":"LegacyCollection","collectionType":"SECTION","id":"TGVnYWN5Q29sbGVjdGlvbjpueXQ6Ly9sZWdhY3ljb2xsZWN0aW9uLzZlMzI4M2Q2LTcwMDMtNWRhOC05YzI2LTUzZWUyYWVlNjQyMg==","name":"Sunday Opinion","slug":"sunday","tagline":"","uri":"nyt:\u002F\u002Flegacycollection\u002F6e3283d6-7003-5da8-9c26-53ee2aee6422","url":"https:\u002F\u002Fwww.nytimes.com\u002Fsection\u002Fopinion\u002Fsunday"},{"__typename":"LegacyCollection","collectionType":"SPOTLIGHT","id":"TGVnYWN5Q29sbGVjdGlvbjpueXQ6Ly9sZWdhY3ljb2xsZWN0aW9uL2ZhZDNiODkyLWVjZGMtNTcwOC04YjFhLTQ5YWFmYWExYmFjYg==","name":"inEducation: Health Sciences","slug":"nytimesineducation-healthscience","tagline":"New York Times inEducation has been designed as a resource to connect Times journalism with key areas of study for students and faculty through our Education Subscription Program. If you are affiliated with a U.S. college, visit accessnyt.com to learn if your institution provides New York Times access. Others should inquire with their school or local library. If you are a faculty or staff member interested in bringing The New York Times to your school, visit the Group Subscriptions Page.","uri":"nyt:\u002F\u002Flegacycollection\u002Ffad3b892-ecdc-5708-8b1a-49aafaa1bacb","url":"https:\u002F\u002Fwww.nytimes.com\u002Fspotlight\u002Fnytimesineducation-healthscience"}],"url":"https:\u002F\u002Fwww.nytimes.com\u002Finteractive\u002F2024\u002F06\u002F03\u002Fopinion\u002Fcovid-lab-leak.html","sourceId":"100000009498677","dfpTaxonomyException":null,"advertisingProperties":{"__typename":"CreativeWorkAdvertisingProperties","sensitivity":"SHOW_ADS"},"adTargetingParams":[{"__typename":"AdTargetingParam","key":"edn","value":"us"},{"__typename":"AdTargetingParam","key":"brandsensitive","value":"true"},{"__typename":"AdTargetingParam","key":"typ_materials","value":"#interactive feature#"},{"__typename":"AdTargetingParam","key":"bsc","value":"84031001,84122001,84192001,84191001,87012038,84132004,84121001,84032001,84131001"},{"__typename":"AdTargetingParam","key":"spon","value":""},{"__typename":"AdTargetingParam","key":"ledemedsz","value":"none"},{"__typename":"AdTargetingParam","key":"pt","value":"nt10,nt11,nt14,nt20,nt4,nt7,nt8,nt9,pt1,pt12,pt13,pt17,pt2,pt3,pt6"},{"__typename":"AdTargetingParam","key":"is_viral","value":""},{"__typename":"AdTargetingParam","key":"is_viral_on_social","value":"false"},{"__typename":"AdTargetingParam","key":"abs","value":"51000181,51006965,51007257,51005641,51006821,51006813,51004094,51006834,51007625,51005445,51002721,51007151,51007286,51000094,51006636,51007049,51004276,51004240,51007071,51001538,51004619,51002435,51004843"},{"__typename":"AdTargetingParam","key":"org","value":"wuhaninstituteofvirologychina,ecohealthalliance,wuhanhuananseafoodwholesalemar,nationalinstituteofallergyandi"},{"__typename":"AdTargetingParam","key":"col","value":""},{"__typename":"AdTargetingParam","key":"artlen","value":"short"},{"__typename":"AdTargetingParam","key":"template","value":"interactive"},{"__typename":"AdTargetingParam","key":"tt","value":""},{"__typename":"AdTargetingParam","key":"des","value":"coronavirusoriginsinvestigatio,coronavirus2019ncov,laboratoriesandscientificequip"},{"__typename":"AdTargetingParam","key":"typ","value":"int"},{"__typename":"AdTargetingParam","key":"section","value":"opinion"},{"__typename":"AdTargetingParam","key":"mt","value":"MT10,MT5"},{"__typename":"AdTargetingParam","key":"plat","value":"web"},{"__typename":"AdTargetingParam","key":"coll","value":"opinion,sundayopinion,ineducationhealthsciences"},{"__typename":"AdTargetingParam","key":"id","value":"100000009498677"},{"__typename":"AdTargetingParam","key":"gscat","value":"gv_safe,neg_gg1,neg_citi_aa,neg_capitalone,neg_owde,neg_chanel,neg_chan2,neg_ms_safe,neg_google,neg_debeer,neg_hms,neg_gg2,neg_rms,neg_mtb,neg_cme,neg_mc,neg_rchmt,neg_virus,neg_ibmtest,neg_ibm,gb_safe,gb_safe_from_high,gb_safe_from_high_med,gs_covid19,neg_bofa,gs_health,neg_njts,neg_mastercard,neg_chan3,neg_ihw,gs_science,neg_kaypemg,neg_racism,neg_fcli,gs_health_misc,gs_predicts_coldfluseason,gs_science_geography,neg_amz_sfe,neg_rolex,cc_tech_society,neg_bp,gs_science_misc,neg_aramco,gs_predicts_mlb,gs_predicts_retail_industry,gs_predicts_womenshealth,gs_predicts_collegebound,gs_predicts_pharma_compassion,gs_predicts_moms_dads_grads,neg_orep,gs_predicts_compassion,gs_predicts_buyingahome,gs_predicts_oralcare,gs_predicts_businessandfinance,gs_predicts_graduatedegree,gs_predicts_petlovers,neg_sabic,neg_ts,gs_predicts_healthyskinhair,gs_predicts_charity,gs_predicts_quitsmoking,gs_predicts_legal_industry,gs_predicts_cuttingedgetechenthusiasts,gs_predicts_needinglegalcouncil,gs_predicts_insurance,gs_predicts_autumnoutdoors,gs_predicts_womensfitness,gs_predicts_realestateind,gs_science_environ,gs_predicts_songkran,gs_predicts_parentsofyoungkids,gs_predicts_small_med_bus,gs_busfin,gs_predicts_marketers,neg_mttl,gs_predicts_chinesenewyear,gs_predicts_filmfestivalsawards,gs_predicts_parentsteachers,gs_predicts_healthylifestyle,gs_predicts_movers,gs_predicts_mensfitness,gs_predicts_menshealth,gs_predicts_midautumnfestival,gs_predicts_dietfitness,gs_predicts_veteransservice,gs_t"},{"__typename":"AdTargetingParam","key":"per","value":"faucianthonys,daszakpeter,shizhengli,baricralphsteven"},{"__typename":"AdTargetingParam","key":"gui","value":""},{"__typename":"AdTargetingParam","key":"trend","value":""},{"__typename":"AdTargetingParam","key":"geo","value":"wuhanchina"},{"__typename":"AdTargetingParam","key":"auth","value":"alinachan"},{"__typename":"AdTargetingParam","key":"slug","value":"leak"},{"__typename":"AdTargetingParam","key":"si_section","value":"opinion"},{"__typename":"AdTargetingParam","key":"at","value":"146,61,242,32,220,288,224"},{"__typename":"AdTargetingParam","key":"als_test","value":"1757971318850"},{"__typename":"AdTargetingParam","key":"prop","value":"nyt"}],"headline":{"__typename":"CreativeWorkHeadline","default":"Why the Pandemic Probably Started in a Lab, in 5 Key Points","seo":"The Pandemic Probably Started in a Lab. These 5 Key Points Explain Why."},"summary":"The world must not continue to bear the intolerable risks of research with the potential to cause pandemics.","shortUrl":"","lastMajorModification":"2024-06-08T17:49:33.237Z","firstPublished":"2024-06-03T09:04:18.000Z","timesTags":[{"__typename":"Subject","associatedLegacyCollections":[],"displayName":"Coronavirus Origins Investigation","isAdvertisingBrandSensitive":false,"vernacular":"Coronavirus Origins Investigation"},{"__typename":"Subject","associatedLegacyCollections":[],"displayName":"Coronavirus (2019-nCoV)","isAdvertisingBrandSensitive":true,"vernacular":"Coronavirus;COVID-19;Pandemic"},{"__typename":"Organization","associatedLegacyCollections":[],"displayName":"Wuhan Institute of Virology (China)","isAdvertisingBrandSensitive":false,"vernacular":"Wuhan Institute of Virology"},{"__typename":"Organization","associatedLegacyCollections":[],"displayName":"EcoHealth Alliance","isAdvertisingBrandSensitive":false,"vernacular":"EcoHealth Alliance"},{"__typename":"Person","associatedLegacyCollections":[],"displayName":"Fauci, Anthony S","isAdvertisingBrandSensitive":false,"vernacular":"Anthony Fauci"},{"__typename":"Person","associatedLegacyCollections":[],"displayName":"Daszak, Peter","isAdvertisingBrandSensitive":false,"vernacular":"Peter Daszak"},{"__typename":"Person","associatedLegacyCollections":[],"displayName":"Shi Zhengli","isAdvertisingBrandSensitive":false,"vernacular":"Shi Zhengli;Batwoman"},{"__typename":"Location","associatedLegacyCollections":[],"displayName":"Wuhan (China)","isAdvertisingBrandSensitive":false,"vernacular":"Wuhan"},{"__typename":"Person","associatedLegacyCollections":[],"displayName":"Baric, Ralph Steven","isAdvertisingBrandSensitive":false,"vernacular":"Ralph Baric"},{"__typename":"Subject","associatedLegacyCollections":[],"displayName":"Laboratories and Scientific Equipment","isAdvertisingBrandSensitive":false,"vernacular":"Labs"},{"__typename":"Organization","associatedLegacyCollections":[],"displayName":"Wuhan Huanan Seafood Wholesale Market (Wuhan, China)","isAdvertisingBrandSensitive":false,"vernacular":"Huanan Seafood Wholesale Market"},{"__typename":"Organization","associatedLegacyCollections":[],"displayName":"National Institute of Allergy and Infectious Diseases","isAdvertisingBrandSensitive":false,"vernacular":"National Institute of Allergy and Infectious Diseases"}],"communityCommentsSummary":{"__typename":"CommunityCommentsSummary","commentsEnabled":true,"id":"908760","totalCount":1597,"uri":"nyt:\u002F\u002Finteractive\u002F91d165d6-83c8-523e-b48a-f3cea04659a3"},"curatedAssetComments":null,"uri":"nyt:\u002F\u002Finteractive\u002F91d165d6-83c8-523e-b48a-f3cea04659a3","associatedAssets":[],"storylines":[]}},"statusCode":200,"externalAssets":undefined};</script>
+    <script src="/vi-assets/static-assets/start-mark-8040d5b093282be791c41a2c38676ddb.js"></script>
+    
+    <script>
+      setTimeout(function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '/vi-assets/static-assets/end-mark-6f0172a017e635e07fbcdf5f16886104.js';
+        document.head.appendChild(script);
+      }, 0);
+    </script>
+  
+    <script>!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},n=(new Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="3b83f6bc-ceb4-4c38-87fb-ae2394674d7a",e._sentryDebugIdIdentifier="sentry-dbid-3b83f6bc-ceb4-4c38-87fb-ae2394674d7a")}catch(e){}}();var _global="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{};_global.SENTRY_RELEASE={id:"06e3dee7b6fe39921cbf2ba09c8992cc64403047"},function(e){function n(n){for(var r,u,l=n[0],a=n[1],i=n[2],d=0,s=[];d<l.length;d++)u=l[d],Object.prototype.hasOwnProperty.call(o,u)&&o[u]&&s.push(o[u][0]),o[u]=0;for(r in a)Object.prototype.hasOwnProperty.call(a,r)&&(e[r]=a[r]);for(c&&c(n);s.length;)s.shift()();return f.push.apply(f,i||[]),t()}function t(){for(var e,n=0;n<f.length;n++){for(var t=f[n],r=!0,l=1;l<t.length;l++){var a=t[l];0!==o[a]&&(r=!1)}r&&(f.splice(n--,1),e=u(u.s=t[0]))}return e}var r={},o={162:0},f=[];function u(n){if(r[n])return r[n].exports;var t=r[n]={i:n,l:!1,exports:{}};return e[n].call(t.exports,t,t.exports,u),t.l=!0,t.exports}u.m=e,u.c=r,u.d=function(e,n,t){u.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:t})},u.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},u.t=function(e,n){if(1&n&&(e=u(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(u.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var r in e)u.d(t,r,function(n){return e[n]}.bind(null,r));return t},u.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return u.d(n,"a",n),n},u.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},u.p="/vi-assets/static-assets/";var l=window.webpackJsonp=window.webpackJsonp||[],a=l.push.bind(l);l.push=n,l=l.slice();for(var i=0;i<l.length;i++)n(l[i]);var c=a;t()}([]);
+//# sourceMappingURL=runtime~adslot-873b3bafa050e21265f4.js.map</script>
+<script src="/vi-assets/static-assets/adslot-2e8f25900cbaa9cde1f1.js"></script>
+    
+    <script id="adslot-config">
+      (function () { var _f=function(){const n="1_block";function o(n){return window&&window.NYTD&&window.NYTD.Abra?window.NYTD.Abra(n):""}window.adClientUtils={hasActiveToggle:function(r){return o(r)!==n},getAbraVar:o,reportExposure:function(n){window&&window.NYTD&&window.NYTD.Abra&&window.NYTD.Abra.reportExposure&&window.NYTD.Abra.reportExposure(n)},getAdsPurrDirective:function(){let n;if(window&&window.config&&window.config.PurrDirectives)n=window.config.PurrDirectives.PURR_AdConfiguration_v3;else{const o={f:"full",r:"rdp",n:"npa",l:"ltd",s:"adluce-socrates",a:"no-ads"},r=function(n){if("string"!=typeof n)return"";const o=document.cookie.match(new RegExp(n.concat("=([^;]+)")));return o?o[1]:""}("nyt-purr");n=o[r&&r.substring(14,15)]}return n}}};;_f.apply(null, []); })();
+      var AdSlot4=function(){"use strict";var e=function(){return window.AdSlot4=window.AdSlot4||{},window.AdSlot4.cmd=window.AdSlot4.cmd||[],window.AdSlot4};var n=function(){return n=Object.assign||function(e){for(var n,t=1,i=arguments.length;t<i;t++)for(var o in n=arguments[t])Object.prototype.hasOwnProperty.call(n,o)&&(e[o]=n[o]);return e},n.apply(this,arguments)};"function"==typeof SuppressedError&&SuppressedError;var t=[{name:"PURR_AcceptableTrackers",valueMapping:{controllers:"c",processors:"p"}},{name:"PURR_AdConfiguration",valueMapping:{full:"f",npa:"n","adluce-socrates":"s"}},{name:"PURR_DataSaleOptOutUI",valueMapping:{hide:"h",show:"s"}},{name:"PURR_DataProcessingConsentUI",valueMapping:{hide:"h",show:"s"}},{name:"PURR_AcceptableTrackers_v2",valueMapping:{controllers:"c",processors:"p",essentials:"e"}},{name:"PURR_AdConfiguration_v2",valueMapping:{full:"f",rdp:"r",npa:"n",adluce:"a","adluce-socrates":"s"}},{name:"PURR_DataProcessingPreferenceUI",valueMapping:{hide:"h","allow-opt-out":"o","allow-opt-in":"i","allow-opt-in-or-out":"a"}},{name:"PURR_DataSaleOptOutUI_v2",valueMapping:{hide:"h",show:"s","show-opted-out":"o"}},{name:"PURR_CaliforniaNoticesUI",valueMapping:{hide:"h",show:"s"}},{name:"PURR_EmailMarketingOptInUI",valueMapping:{checked:"c",unchecked:"u"}},{name:"PURR_DeleteIPAddress",valueMapping:{delete:"d",keep:"k"}},{name:"PURR_AdConfiguration_v3",valueMapping:{full:"f",rdp:"r",npa:"n",ltd:"l","adluce-socrates":"s"}},{name:"PURR_LimitSensitivePI",valueMapping:{hide:"h",show:"s"}},{name:"PURR_EmailMarketingOptInUI_v2",valueMapping:{checked:"c",unchecked:"u","do-not-display":"d"}},{name:"PURR_AdConfiguration_v4",valueMapping:{full:"f",rdp:"r",npa:"n",ltd:"l","adluce-socrates":"s","no-ads":"a"}}],i=function(e){return-1!==document.cookie.indexOf(e)},o=function(e){var n,i,o={PURR_AcceptableTrackers:0,PURR_AdConfiguration:5,PURR_DataSaleOptOutUI:2,PURR_DataProcessingConsentUI:3,PURR_AcceptableTrackers_v2:4,PURR_AdConfiguration_v2:5,PURR_DataProcessingPreferenceUI:6,PURR_DataSaleOptOutUI_v2:7,PURR_CaliforniaNoticesUI:8,PURR_EmailMarketingOptInUI:9,PURR_DeleteIPAddress:10,PURR_AdConfiguration_v3:11,PURR_LimitSensitivePI:12,PURR_EmailMarketingOptInUI_v2:13,PURR_AdConfiguration_v4:14},r=(n=e,2===(i="; ".concat(document.cookie).split("; ".concat(n,"="))).length?i.pop().split(";").shift():null),a={};return Object.keys(o).forEach((function(e){var n,t,i;a[e]=(n=r,t=new RegExp("^.{".concat(o[e],"}(.)")),(null==(i=n.match(t))?void 0:i[1])||"")})),t.forEach((function(e){Object.keys(e.valueMapping).forEach((function(n){e.valueMapping[n]===a[e.name]&&(a[e.name]=n)}))})),a},r={PURR_DataSaleOptOutUI:"hide",PURR_DataSaleOptOutUI_v2:"hide",PURR_CaliforniaNoticesUI:"hide",PURR_DataProcessingConsentUI:"hide",PURR_DataProcessingPreferenceUI:"hide",PURR_AcceptableTrackers_v2:"controllers",PURR_AcceptableTrackers:"controllers",PURR_AdConfiguration_v2:"full",PURR_AdConfiguration:"full",PURR_EmailMarketingOptInUI:"unchecked",PURR_DeleteIPAddress:"delete",PURR_AdConfiguration_v3:"full",PURR_LimitSensitivePI:"hide",PURR_EmailMarketingOptInUI_v2:"unchecked",PURR_AdConfiguration_v4:"full"},a=function(){var e;try{return function(){if("undefined"!=typeof window){var e=window.navigator.userAgent||window.navigator.vendor,n=-1!==e.indexOf("nyt_android"),t=-1!==e.indexOf("nytios"),i=-1!==e.indexOf("nyt_xwords_ios"),o=-1!==e.indexOf("Crosswords");return n||t||i||o}return!1}()?(null===(e=null===window||void 0===window?void 0:window.config)||void 0===e?void 0:e.PurrDirectives)?window.config.PurrDirectives:i("override-purr")?o("override-purr"):n({},r):i("nyt-purr")?o("nyt-purr"):n({},r)}catch(e){return console.warn("can’t get directives from cookie or config",e),n({},r)}},d=function(){var e={};return"undefined"!=typeof window&&window.document&&window.document.createElement&&(e=a().PURR_AdConfiguration_v3||a().PURR_AdConfiguration_v2),e};var c=function(){return"full"===d()};function s(e,n,t){var i=document.getElementsByTagName("head")[0],o=document.createElement("script");n&&(o.onload=n),t&&(o.onerror=t),o.src=e,o.async=!0,i.appendChild(o)}var u={32074718:!0,4792640386:!0,21966278:!0,4558311760:!0,4552626466:!0,4400775978:!0,39318518:!0,4874174581:!0,33597638:!0,5770304337:!0,38636678:!0,5777759978:!0,38637278:!0,5772285012:!0,5770265195:!0,33597998:!0,33613118:!0,5770293493:!0,30252878:!0,5770255893:!0,33597758:!0,5770318230:!0,5154427359:!0,5771940693:!0},l="script_loader_error",p=function(){e().cmd.push((function(){var n="".concat("GeoEdge"," failed to load");e().events.publish({name:l,value:{message:n}})}))},m=function(){return!window.grumi&&(s("//rumcdn.geoedge.be/b3960cc6-bfd2-4adc-910c-6e917e8a6a0e/grumi-ip.js",null,p),window.grumi={key:"b3960cc6-bfd2-4adc-910c-6e917e8a6a0e",cfg:{advs:u}},!0)},f="A9",v=[[300,50],[320,50],[300,250],[728,90],[970,90],[970,250]],w=function(){if(!window.apstag){var e="".concat(f," not loading properly");console.warn(e)}},g="BidderError",b=function(){e().cmd.push((function(){var n="".concat(f," failed to load");e().events.publish({name:g,value:{type:f,message:n}})}))},h=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:window;return e.googletag=e.googletag||{},e.googletag.cmd=e.googletag.cmd||[],e.googletag},_=function(e){return!(!window.apstag||!window.apstag.fetchBids)&&(window.apstag.fetchBids({slots:e},void(window.apstag&&window.apstag.setDisplayBids&&h().cmd.push(window.apstag.setDisplayBids()))),!0)},y="AdEmpty",P="AdBlockOn",R="AdDefined",U="AdRefreshed";var I=function(e,n){var t=[].concat(function(e,n){return[].concat(e).slice().sort((function(e,n){return n[0]-e[0]})).find((function(e){return!Number.isNaN(e[0])&&e[0]<n}))}(e,n)).pop();return t&&t.length?t:null},A=function(e,n,t){return function(){var i=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},o=i.sizes,r=void 0===o?[]:o,a=i.truePosition,d=i.id;if(n&&t.fastFetchSlots.map((function(e){return e.id})).includes(d))return!1;var c,s=I(r,window.innerWidth),u=(c=s,Array.isArray(c)?v.filter((function(e){return c.some((function(n){return n[0]===e[0]&&n[1]===e[1]}))})):(console.warn("filterSizes() did not receive an array"),[]));if(u.length>0){var l=(null==t?void 0:t.pageName)||e,p=[{slotID:a||d,slotName:"".concat(a||d,"_").concat(l,"_web"),sizes:u}];return _(p),!0}return!1}},O=function(n,t,i){e().cmd.push((function(){n&&_(function(e,n,t){var i=(null==t?void 0:t.pageName)||n;return t.fastFetchSlots.map((function(e){var n=e.id,t=e.sizes;return{slotID:n,slotName:"".concat(n,"_").concat(i,"_web"),sizes:t}}))}(window.innerWidth,t,i)),e().events.subscribe({name:R,scope:"all",callback:A(t,n,i)})}))},j=function(e,n,t,i){var o=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"apstag",n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:window;if(!n[e]){var t=function(t,i){return n[e]._Q.push([t,i])};n[e]={_Q:[],init:function(){t("i",arguments)},fetchBids:function(){t("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]}}}return n[e]}("apstag",window);o.init({pubID:"3030",deals:!0,adServer:"googletag",params:{si_section:n}}),O(e,t,i)};function x(e,n,t){return(n=function(e){var n=function(e,n){if("object"!=typeof e||!e)return e;var t=e[Symbol.toPrimitive];if(void 0!==t){var i=t.call(e,n||"default");if("object"!=typeof i)return i;throw new TypeError("@@toPrimitive must return a primitive value.")}return("string"===n?String:Number)(e)}(e,"string");return"symbol"==typeof n?n:n+""}(n))in e?Object.defineProperty(e,n,{value:t,enumerable:!0,configurable:!0,writable:!0}):e[n]=t,e}function k(e,n){var t=Object.keys(e);if(Object.getOwnPropertySymbols){var i=Object.getOwnPropertySymbols(e);n&&(i=i.filter((function(n){return Object.getOwnPropertyDescriptor(e,n).enumerable}))),t.push.apply(t,i)}return t}function C(e){for(var n=1;n<arguments.length;n++){var t=null!=arguments[n]?arguments[n]:{};n%2?k(Object(t),!0).forEach((function(n){x(e,n,t[n])})):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(t)):k(Object(t)).forEach((function(n){Object.defineProperty(e,n,Object.getOwnPropertyDescriptor(t,n))}))}return e}var S={art:{id:["top","story-ad-1","story-ad-2","story-ad-3","story-ad-4","story-ad-5","story-ad-6","bottom"],pos:["top","mid1","mid2","mid3","mid4","mid5","mid6","bottom"]},int:{id:["top","mid1","mid2","bottom"],pos:["top","mid1","mid2","bottom"]},hp:{id:["dfp-ad-top","dfp-ad-mid1","dfp-ad-mid2","dfp-ad-mid3","dfp-ad-bottom"],pos:["top","mid1","mid2","mid3","bottom"]},ss:{id:["right-0","right-1","right-2","right-3"],pos:["mid1","mid1","mid1","mid1"],size:{small:[[300,250]],medium:[[300,250]],large:[[300,250]]}},sf:{id:["top","mid1","mid2"],pos:["top","mid1","mid2"],size:{small:[[300,250]],medium:[[300,250]],large:[[300,250]]}},games:{id:["ad-top","ad-mid1","ad-bottom","intsl"],pos:["top","mid1","bottom","intsl"]},default:{id:["top","mid1","mid2"],pos:["top","mid1","mid2"],size:{small:[[300,250]],medium:[[728,90]],large:[[728,90],[970,90],[970,250]]}}},D={top:2088370,mid:2088372,bottom:2088374,default:2088376},M={top:3691944,mid:3691946,bottom:3691948,intsl:3614988,default:3691950},E={top:544112060,mid:544112063,bottom:544112062,intsl:561454180,default:544112065},z={top:684296214,mid:190706820,bottom:932254072,intsl:868466422,default:153468583},T={top:"NYTimes_728x90_970_top_PB",mid:"NYTimes_728x90_970_mid_PB",bottom:"NYTimes_728x90_970_bot_PB",intsl:"NYT_mobile_Interstitial_Prebid",default:"NYTimes_728x90_970_mid_PB"},N={top:"nytimes_top",mid:"nytimes_mid",bottom:"nytimes_bottom",intsl:"6401830",default:"nytimes_catchall"},B={top:"995821",mid:"995822",bottom:"995823",intsl:"11499610",default:"995824"},q={TOP:"top",MID:"mid",BOTTOM:"bottom",INTSL:"intsl"},Y={buckets:[{max:3,increment:.05},{max:10,increment:.01},{max:20,increment:.1},{max:50,increment:.5},{max:101,increment:1}]},L=function(e,n){return e[Object.values(q).reduce((function(e,t){return n.includes(t)?t:e}),n)]||e.default},F=function(e,n){var t=arguments.length>2&&void 0!==arguments[2]?arguments[2]:[],i=[{bidder:"appnexus",params:{member:3661,invCode:"nyt_".concat(e,"_").concat(n)}},{bidder:"criteo",params:{pubid:"B7HPLK",networkId:10470}},{bidder:"medianet",params:{cid:"8CU4WQK98",crid:L(z,n)}},{bidder:"rubicon",params:{accountId:12330,siteId:"crosswords"==e?571306:378266,inventory:{invCode:["nyt_".concat(e,"_").concat(n)]},zoneId:L("crosswords"==e?M:D,n),position:"top"===n?"atf":"btf"}},{bidder:"openx",params:{unit:L(E,n),delDomain:"nytimes-d.openx.net",customParams:{invCode:"nyt_".concat(e,"_").concat(n)}}},{bidder:"triplelift",params:{inventoryCode:L(T,n)}},{bidder:"pubmatic",params:{publisherId:"163427",adSlot:L(N,n)}},{bidder:"ix",params:{siteId:L(B,n)}}],o=i.filter((function(e){return!["pubmatic","ix"].includes(e.bidder)}));return t.length?i.filter((function(e){return t.includes(e.bidder)})):o},Q=function(e){var n;switch(e){case"livebl":n="hp";break;case"coll":n="sf";break;default:n=e}return n in S||(n="default"),n},V=function(e,n){if(!n||""===n)return{};var t="".concat(n,"/").concat(e);return{ortb2Imp:C(C({},"intsl"===e&&{instl:1}),{},{ext:{gpid:t,data:{pbadslot:t}}})}};var G="PreBid",H={userSync:{userIds:[{name:"identityLink",params:{pid:"14158",notUse3P:!0},storage:{type:"html5",name:"idl_env",expires:15,refreshInSeconds:1800}},{name:"pairId",params:{liveramp:{storageKey:"_lr_pairId"}}},{name:"uid2",params:{serverPublicKey:"UID2-X-P-MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEb2nFEsnJ0npRQbsCE7O7IINIMdgu4J29kiA1Hm7GYqfTQAsmqgAQD1YfVkuBR319JpxJYrJzO6Vp73++LTlIwA==",subscriptionId:"jCQUsadB4p"}}],syncDelay:3e3}};var K=function(n){window.pbjs=window.pbjs||{},window.pbjs.initAdserverSet||(window.pbjs.initAdserverSet=!0,e().cmd.push((function(){e().events.subscribe({name:R,scope:"all",callback:function(e){h().cmd.push((function(){var t=function(e){var n=Q(e);return S[n].id}(n);t.includes(e.id)&&window.pbjs.setTargetingForGPTAsync([e.id])}))}})})))},J=function(n,t,i,o,r){var a=function(e,t){window.pbjs.initAdserverSet=!1,n.requestBids({bidsBackHandler:function(){K(e)},timeout:t})};e().cmd.push((function(){n.que.push((function(){n.addAdUnits(function(e,n,t){var i=arguments.length>3&&void 0!==arguments[3]?arguments[3]:{},o=i.sizeConfig,r=i.activeBidders,a=i.positionsToFilter,d=void 0===a?[]:a,c=Q(n),s=S[c].size?c:"default";return S[c].pos.reduce((function(n,i,a){var u;if(d.includes(i))return n;var l=S[c].id[a],p=C(C({},S[s].size),null==o||null===(u=o[l])||void 0===u?void 0:u.size),m=C(C({code:l},V(l,t)),{},{mediaTypes:{banner:{sizeConfig:[{minViewPort:[970,0],sizes:p.large},{minViewPort:[728,0],sizes:p.medium},{minViewPort:[0,0],sizes:p.small}]}},bids:F(e,i,r)});return n.push(m),n}),[])}(t,i,o,r)),a(i,1e4),e().events.subscribe({name:U,scope:"all",callback:function(){a(i,800)}})}))}))},Z=function(e,n,t){var i=arguments.length>3&&void 0!==arguments[3]?arguments[3]:{},o=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:window;return e.pbjs=e.pbjs||{},e.pbjs.que=e.pbjs.que||[],e.pbjs}(),r=i.priceGranularity;o.que.push((function(){o.setConfig(C({priceGranularity:r||Y},H))})),J(o,e,n,t,i)},W=function(){e().cmd.push((function(){var n="".concat(G," failed to load");e().events.publish({name:g,value:{type:G,message:n}})}))},X=function(e,n,t,i){if(!window.pbjs){return s("https://www.nytimes.com/ads/prebid9.26.0.js",function(e,n,t,i){return function(){window.pbjs||console.log("prebid did not load"),Z(e,n,t,i)}}(e,n,t,i),W),!0}return!1},$=function(){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=(arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}).mnjs,t=new URL("https://warp.media.net/js/tags/clientag.js");return t.search=new URLSearchParams(C(C(C(C({},ee(n)),ne(n)),te(e)),ie(n))),t.toString()},ee=function(){var e=(arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}).customerId;return e?{cid:e}:{}},ne=function(){var e=(arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}).domain;return e?{dn:e}:{}},te=function(){var e=(arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}).section;return e?{ysection:encodeURIComponent(e)}:{}},ie=function(){var e=(arguments.length>0&&void 0!==arguments[0]?arguments[0]:{}).version;return e?{version:e}:{}};var oe=function(e,n){return"nyt_".concat(e,"_").concat(n)};function re(e,n,t){var i=arguments.length>3&&void 0!==arguments[3]?arguments[3]:{},o=i.sizeConfig,r=i.positionsToFilter,a=void 0===r?[]:r,d=Q(n),c=S[d].size?d:"default";return S[d].pos.reduce((function(n,i,r){var s;if(a.includes(i))return n;var u=window.matchMedia("(min-width: 970px)").matches?"large":window.matchMedia("(min-width: 728px)").matches?"medium":"small",l=S[d].id[r],p=C(C({},S[c].size),null==o||null===(s=o[l])||void 0===s?void 0:s.size)[u],m=V(l,t),f=C(C(C({divId:l},t&&{adUnitPath:t}),{},{sizes:p},m),e&&{invCode:oe(e,i)});return n.push(f),n}),[])}var ae=function(n){var t=e();return!!t&&(t.events.subscribe({name:R,scope:"all",callback:function(e){var i=e.id;n.forEach((function(e){var n=e.divId,o=e.targeting;n===i&&t.updateAdReq(o,n)}))}}),!0)},de=["invCode"],ce=function(e,n,t,i,o){var r=re(n,t,i,o);e.pub=e.pub||{section:n},e.pub.getInventoryCode=function(e){var n=e.divId,t=e.adUnitPath,i=r.find((function(e){return e.divId===n&&e.adUnitPath===t}));return i&&i.invCode?i.invCode:""};var a=r.map((function(e){return e.invCode,function(e,n){if(null==e)return{};var t,i,o=function(e,n){if(null==e)return{};var t={};for(var i in e)if({}.hasOwnProperty.call(e,i)){if(n.includes(i))continue;t[i]=e[i]}return t}(e,n);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);for(i=0;i<r.length;i++)t=r[i],n.includes(t)||{}.propertyIsEnumerable.call(e,t)&&(o[t]=e[t])}return o}(e,de)}));return e.requestBids?(e.requestBids(C(C({placements:a},function(e){if("string"!=typeof e||""===e.trim()||!e.includes("/"))return{};var n=e.trim(),t="/"===n[0]?3:2,i=n.split("/").slice(t);return 0===i.length?{}:{ortb2:{site:{ext:{data:{section:i}}}}}}(i)),{},{callback:ae})),!0):(console.warn("Media.net requestBids function does not exist."),!1)},se=function(e,n,t,i){return function(){var o=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:window;return e.mnjs=e.mnjs||{},e.mnjs.que=e.mnjs.que||[],e.mnjs}();if(!o)return console.log("Unable to load MediaNet"),!1;o.que.push((function(){ce(o,e,n,t,i)}))}},ue=function(){e().cmd.push((function(){var n="".concat("MP"," failed to load");e().events.publish({name:g,value:{type:"MP",message:n}})}))},le=function(e,n,t,i){return!!window&&(window.mnjs=window.mnjs||((o=i)&&!o.limitedAds&&console.warn("limitedAds is not set, defaulting to false"),C({customerId:"8CU26C87G",domain:window&&window.location&&window.location.hostname,version:"1",isAdServerLoaded:!0,limitedAds:!1},o)),!window.mnjs.loaded&&(s($(window,{section:e}),se(e,n,t,i),ue),!0));var o},pe="//cd.connatix.com/connatix.player.js?cid=".concat("7d3406f2-9be1-4f9b-bbda-cf978f91d496","&pid=").concat("792baef2-4e7b-42f7-a5d6-6fdc96a3727f"),me=function(){try{var e=((i=document.createElement("div")).innerHTML="&nbsp;",i.className="ad adsbox pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad ad-server",i.style="width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -1000px !important;",document.body.prepend(i),document.getElementsByClassName("ad adsbox")[0]),n=!(!(t=e)||0!==t.offsetHeight&&0!==t.clientHeight)||function(e){if(void 0!==window.getComputedStyle){var n=window.getComputedStyle(e,null);if(n&&("none"===n.getPropertyValue("display")||"hidden"===n.getPropertyValue("visibility")))return!0}return!1}(e);return function(e){document.body.removeChild(e)}(e),n}catch(e){console.error("ad class check failed",e)}var t,i;return!1},fe=function(){return!(window&&window.AdSlot&&window.AdSlot.AdSlotReady)||(!(window&&window.googletag&&window.googletag.apiReady)||me())},ve=function(){var e=window&&window.nyt_et&&window.nyt_et.get_host&&window.nyt_et.get_host();return e?fetch("".concat(e,"/.status"),{credentials:"include",headers:{accept:"*/*","content-type":"text/plain;charset=UTF-8"},mode:"no-cors"}).then((function(){return{success:!0}})).catch((function(e){return console.error("et track blocked",e),{success:!1}})):Promise.resolve({success:!1})};var we,ge,be=function(e,n,t){var i=function(e){if(!document||!document.cookie||!document.cookie.match)return"";var n=document.cookie.match(new RegExp("".concat(e,"=([^;]+)")));return n?n[1]:""}("nyt-a")||null,o=!!(window&&window.matchMedia&&window.matchMedia("(max-width: 739px)").matches);return"".concat("https://a-reporting.nytimes.com/report.jpg","?mobile=").concat(o,"&block=").concat(t,"&aid=").concat(i,"&pvid=").concat(e,"&et=").concat(n)},he=function(e,n,t){return!!(window&&window.NYTD&&window.NYTD.Abra&&"1_network_detection"===window.NYTD.Abra("DFP_blockDetect_0221"))&&((new Image).src=be(e,n,t),!0)},_e=function(n,t){t&&e().cmd.push((function(){var n=e();n.events&&n.events.publish({name:y,value:{type:P}})}));var i=!1;return ve().then((function(){i=(arguments.length>0&&void 0!==arguments[0]?arguments[0]:{success:!1}).success})).catch((function(){})).finally((function(){he(n,i,t)}))},ye=function(e){window.addEventListener("load",function(e){return function(){_e(e,fe())}}(e))},Pe=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(we)return!1;var n,t,i=e.loadAmazon,o=void 0===i||i,r=e.loadPrebid,a=void 0===r||r,d=e.loadMediaNet,u=void 0!==d&&d,l=e.loadConnatix,p=void 0!==l&&l,f=e.setFastFetch,v=void 0!==f&&f,g=e.loadGeoEdge,h=void 0===g||g,_=e.section,y=void 0===_?"none":_,P=e.adUnitPath,R=void 0===P?"":P,U=e.pageViewId,I=void 0===U?"":U,A=e.pageType,O=void 0===A?"":A,x=e.prebidOverrides,k=void 0===x?{}:x,C=e.amazonOverrides,S=void 0===C?{}:C;if(n=document.referrer||"",(t=/([a-zA-Z0-9_\-.]+)(@|%40)([a-zA-Z0-9_\-.]+).([a-zA-Z]{2,5})/).test(n)||t.test(window.location.href))return!1;if(c()){var D=new RegExp(/art/).test(O)?"art":O;h&&m(),u&&le(y,D,R,k),o&&function(e,n,t,i){!window.apstag&&(s("//c.amazon-adsystem.com/aax2/apstag.js",w,b),j(e,n,t,i))}(v,y,D,S),a&&X(y,D,R,k),p&&function(e){if(window.cnx)return!1;window.cnx={},window.cnx.cmd=[];var n=e.createElement("iframe");n.src="javascript:false",n.style.display="none",n.onload=function(){var e=n.contentWindow.document,t=e.createElement("script");t.src=pe,t.setAttribute("async","1"),t.setAttribute("type","text/javascript"),e.body.appendChild(t)},e.head.appendChild(n)}(document)}return ye(I),we=!0,!0};return(ge=e()).loadScripts=ge.loadScripts||Pe,window.AdSlot4=ge,ge}();
+      (function () { var _f=function(e={}){!function(){const i=window&&window.AdSlot4,t=!!window.adClientUtils.getAbraVar("DFP_Amzn_Web_Toggle_0924"),n=!!window.adClientUtils.getAbraVar("DFP_MediaNet_Web_Toggle_0125");function o(){const e=window.matchMedia("(max-width: 739px)");return e&&e.matches}try{const{adToggleMap:a,pageType:d,mediaNetOverrides:r,adSizesMapping:w,section:s,adUnitPath:c,isSectionThirdPartyEligible:l,setFastFetch:p,headerBidding:g={}}=e,m=function(e,i){const t=window.matchMedia("(min-width: 741px)").matches?"large":window.matchMedia("(min-width: 601px)").matches?"medium":"small";return{pageName:e,fastFetchSlots:function(e,i){return"art"!==i&&"hp"!==i?["top"]:"art"===i?"small"===e?["mobile_top"]:["top"]:"small"===e?[]:["dfp-ad-top"]}(t,e).map(e=>({id:e,sizes:i[e][t]}))}}(d,w),{isInPreloadedWebview:u,useMediaNet:h,requestPath:f}=g,b=Object.keys(a).reduce((e,i)=>{const t=a[i]||"";return e[i]=function(e){return!!(window&&window.adClientUtils&&window.adClientUtils.hasActiveToggle)&&window.adClientUtils.hasActiveToggle(e)}(t),e},{}),{amazon:A,geoedge:T}=b,y=r&&r.positionsToFilter||[],P=o()?y.concat(["top"]):y,S=()=>!!u&&(!!["www.nytimes.com"].includes(window.location.host)&&(window&&window.config&&window.config.AbraConfig&&"1_Variant"===window.config.AbraConfig.DFP_AndroidTAM_0525)),_=e=>e?!u||"/2024/06/21/travel/travel-europe-south-america-acts-of-kindness.html"===f||S():e,v=()=>f&&f.startsWith("/card/panel/lifestyle");if("function"==typeof i.loadScripts){const e=_(A&&!t&&l&&!v());i.loadScripts({loadAmazon:e,loadPrebid:!1,loadMediaNet:h&&l&&!n&&!v(),setFastFetch:"art"===d?p:!o()&&p,section:s,adUnitPath:c,prebidOverrides:{...r,positionsToFilter:P},amazonOverrides:m,pageType:d,pageViewId:window&&window.NYTD&&window.NYTD.PageViewId&&window.NYTD.PageViewId.current?window.NYTD.PageViewId.current:"",loadGeoEdge:T})}if(t&&window.Sentry&&window.Sentry.captureException){const e=new Error("Ads are disabled via Abra toggle - Amazon");window.Sentry.captureException(e)}if(n&&window.Sentry&&window.Sentry.captureException){const e=new Error("Ads are disabled via Abra toggle - MediaNet");window.Sentry.captureException(e)}}catch(e){console.error(e)}}()};;_f.apply(null, [{"adToggleMap":{"amazon":"amazon_interactive_toggle","medianet":"medianet_interactive_toggle","dfp":"dfp_interactive_toggle","geoedge":"geoedge_toggle"},"pageType":"int","section":"opinion","adUnitPath":"/29390238/nyt/opinion","isSectionThirdPartyEligible":true,"headerBidding":{"useAmazon":true,"useMediaNet":true},"adSizesMapping":{"mobile_top":{"medium":[[300,50],[320,50]],"small":[[300,50],[320,50]]},"top":{"large":[[728,90],[970,90],[970,250]],"medium":[[728,90],[300,250]],"small":[[300,250]]},"dfp-ad-top":{"large":[[728,90],[970,90],[970,250]],"medium":[[728,90],[300,250]],"small":[[300,250]]}}}]); })();
+      (function () { var _f=function(t={},e={},n=""){window.AdSlot4=window.AdSlot4||{},window.AdSlot4.cmd=window.AdSlot4.cmd||[],window.AdSlot4.clientRequirements={mergeObjects:function(t,...e){return e.reduce(function(t,e){return Object.entries(e).reduce(function(t,[e,n]){return t[e]&&null==n?t:Object.assign({},t,{[e]:n})},t)},t)},isFunction:function(t){return"[object Function]"===Object.prototype.toString.call(t)},getWebviewEnv:function(){return window.vi&&window.vi.webviewEnvironment||{}},getAbraVariant:function(t){if(!(window.NYTD&&window.NYTD.Abra&&window.NYTD.Abra.getAbraSync&&this.isFunction(window.NYTD.Abra.getAbraSync)))return void console.warn("Abra does not exist or is not a function");const e=window.config&&window.config.AbraConfig[t],n=window.NYTD.Abra.getAbraSync(t);return e||n&&n.variant},shouldHaltDFP:function(t){return"1_block"===this.getAbraVariant(t)},isAdsDisabled:function(t={}){const{adTargeting:{section:e}={},adsDisabled:n,adUnitPath:i=""}=t,o=i&&i.toLowerCase&&i.toLowerCase().includes("tragedy"),r=!!this.getAbraVariant("DFP_GPT_Web_Toggle_0924");if(r&&window.Sentry&&window.Sentry.captureException){const t=new Error("Ads are disabled via Abra toggle");window.Sentry.captureException(t)}return n||"learning"===e||o||r},getSov:function(t={}){return t.sov=t.sov||(Math.floor(4*Math.random())+1).toString(),{sov:t.sov}},getPageViewId:function(t){return{page_view_id:t&&t.current}},getUserData:function(t="{}"){try{const e=JSON.parse(t).data;return e&&e.user}catch(t){console.warn("userinfo data unavailable")}},getEm:function(t){return t&&t.length?{em:t.toString().toLowerCase()}:{}},getWat:function(t){return t?{wat:t.toLowerCase()}:{}},getDemographics:function(t){return this.mergeObjects(this.getEm(t&&t.emailSubscriptions),this.getWat(t&&t.wat))},isValidDfpTest:function(t){return t.toLowerCase().indexOf("dfp")>-1},joinArgumentsForVariant:function(){if(arguments.length)return[].slice.call(arguments).join("_").toLowerCase()},reduceAbraConfigKeysToDfpVariants:function(t=[],e=""){const n=this.getAbraVariant(e),i=this.joinArgumentsForVariant(e,n);return n&&i?t.concat(i):t},reduceFastlyAbraToDfpVariants:function(t=[],[e,n]=[]){const i=this.isValidDfpTest(e)&&n&&this.joinArgumentsForVariant(e,n);return i?t.concat(i):t},getDFPTestNames:function(t={}){if(!t)return[];const e=this.isValidDfpTest;return Object.keys(t).filter(function(t){return e(t)})},getAbraDfpVariants:function(t={},e={}){let n=[],i=[];if(Object.keys(e).length&&(i=Object.entries(e).reduce(this.reduceFastlyAbraToDfpVariants,[])),t.config&&t.getAbraSync){n=this.getDFPTestNames(t.config).reduce(this.reduceAbraConfigKeysToDfpVariants,[])}return{abra_dfp:[...n,...i]}},isMobile:function(t){const e=t.matchMedia("(max-width: 739px)");return e&&e.matches},isManualRefresh:function(t={}){return!(!t.navigation||1!==t.navigation.type)},getAltLangFromPathname:function(t=""){return 0===t.indexOf("/es/")?"es":""},getAdTargetingProperty:function(t=!1,e=""){let n=t?"m":"";return{prop:(n+=e)+"nyt"}},getAdTargetingPlatform:function(t=!1){return{plat:(t?"m":"")+"web"}},getAdTargetingEdition:function(t=""){return t.length?{edn:t}:{}},getAdTargetingVersion:function(t=!1){return{ver:(t?"m":"")+"vi"}},getNYTA:function(){var t=window.document.cookie.split(";").find(t=>t.includes("nyt-a"))||null;return t&&t.split("=").pop()||null},getHash53:function(t,e){let n=3735928559^e,i=1103547991^e;for(let e,o=0;o<t.length;o++)e=t.charCodeAt(o),n=Math.imul(n^e,2654435761),i=Math.imul(i^e,1597334677);return n=Math.imul(n^n>>>16,2246822507),n^=Math.imul(i^i>>>13,3266489909),i=Math.imul(i^i>>>16,2246822507),4294967296*(2097151&(i^=Math.imul(n^n>>>13,3266489909)))+(n>>>0)},getHashNYTA:function(){var t=this.getNYTA();if(!t)return;let e=this.getHash53(t,64).toString();return e.length<22&&(e=parseInt(e).toString(36)+this.getHash53(t,32).toString(36)+this.getHash53(t,16).toString(36)),e},getPublisherProvidedID:function(){return window.config&&window.config.userInfo&&window.config.userInfo.publisherProvidedID?window.config.userInfo.publisherProvidedID:window.localStorage&&window.localStorage.getItem("advertisingId")?window.localStorage.getItem("advertisingId"):this.getHashNYTA()},getLazyLoadOffset:function(t){let e=400;if(this.getWebviewEnv().isPreloaded){const t=window.screen&&window.screen.height,n=window.innerHeight,i=1;(t||n)&&(e=(t||n)*i)}return e},getAdTargetingHome:function(t,e,n){let i={},o={};return"hp"===t&&(i=e?{topRef:e}:{},o=n?{refresh:"manual"}:{}),this.mergeObjects(i,o)},getHybridConfigAdTargeting:function(t){let e={};return t&&t.config&&t.config.AdRequirements&&this.getWebviewEnv().isPreloaded&&(e=t.config.AdRequirements,"hp"===t.config.AdRequirements.typ&&(delete e.artlen,delete e.ledemedsz)),e},updateAdTargeting:function(t){if(!t)return;let e=t;if("string"==typeof e)try{e=JSON.parse(e)}catch(t){return void console.error("[updateAdTargeting - error parsing ad targeting]",t)}window.AdSlot4&&window.AdSlot4.updateAdReq&&window.AdSlot4.updateAdReq(e)},getAdTargeting:function(t={},n={}){const i=window&&window.NYTD&&window.NYTD.Abra?window.NYTD.Abra:{},o=this.isMobile(window),r=this.getAltLangFromPathname(window.location.pathname),a=this.isManualRefresh(performance);return this.mergeObjects(t,this.getDemographics(n),this.getAdTargetingProperty(o,r),this.getAdTargetingPlatform(o),this.getAdTargetingEdition(r),this.getAdTargetingVersion(o),this.getAdTargetingHome(t.typ,document.referrer,a),this.getAbraDfpVariants(i,e),this.getSov(window),this.getHybridConfigAdTargeting(window),this.getPageViewId(window.NYTD.PageViewId))},testReadyForAds:function(){const t="complete"===document.readyState,e="visible"===document.visibilityState,n=window.NYTD&&window.NYTD.PageViewId&&window.NYTD.PageViewId.current;return!!(t&&n&&e)},setupVisibilityListener:function(){document.addEventListener("visibilitychange",this.signalIfReadyForAds)},whenReadyForAds:function(t){this.isFunction(t)?this.testReadyForAds()?t():window.addEventListener("readyForAds",t):console.warn("whenReadyForAds expects function")},signalIfReadyForAds:function(){this.testReadyForAds()&&window.dispatchEvent(new CustomEvent("readyForAds",{}))},init:function(t){window.AdSlot4.init&&this.isFunction(window.AdSlot4.init)?window.AdSlot4.init&&window.AdSlot4.init(t):console.warn("AdSlot4.init does not exist or is not a function")},generateConfig:function(t={},e={},n={}){const i=n&&n.userInfo&&n.userInfo.demographics;return this.mergeObjects(t,e,{offset:this.getLazyLoadOffset(e.adTargeting&&e.adTargeting.typ),adTargeting:this.getAdTargeting(e.adTargeting,i),haltDFP:this.shouldHaltDFP(e.dfpToggleName||t.dfpToggleName),adsDisabled:this.isAdsDisabled(e),enablePPID:AdSlot4.clientRequirements.getPublisherProvidedID()})}};for(let t in window.AdSlot4.clientRequirements)window.AdSlot4.clientRequirements[t]=window.AdSlot4.clientRequirements[t].bind(window.AdSlot4.clientRequirements);const i={adUnitPath:"/29390238/nyt/thisIsNotAPath",hideTopAd:AdSlot4.clientRequirements.isMobile(window),lockdownAds:!1,sizeMapping:{top:[[970,["fluid",[728,90],[970,90],[970,250],[1605,300]]],[728,["fluid",[728,90],[1605,300]]],[0,[]]],fp1:[[0,[[195,250],[215,270]]]],fp2:[[0,[[195,250],[215,270]]]],fp3:[[0,[[195,250],[215,270]]]],feat1:[[0,["fluid"]]],feat2:[[0,["fluid"]]],feat3:[[0,["fluid"]]],feat4:[[0,["fluid"]]],mktg:[[1020,[300,250]],[0,[]]],pencil:[[728,[[336,46]],[0,[]]]],pp_edpick:[[0,["fluid"]]],pp_morein:[[0,["fluid"],[210,218]]],ribbon:[[0,["fluid"]]],sponsor:[[765,[150,50]],[0,[320,25]]],supplemental:[[1020,[[300,250],[300,600]]],[0,[]]],chat:[[0,[[300,250],[300,420]]]],column:[[0,[[300,250],[300,420]]]],ressint:[[600,["fluid"]],[0,[[300,250]]]],mobile_top:[[0,[[300,50],[320,50]]]],lifestyle:[[0,["fluid",[300,250]]]],default:[[970,["fluid",[728,90],[970,90],[970,250],[1605,300]]],[728,["fluid",[728,90],[300,250],[1605,300]]],[0,["fluid",[300,250],[300,420]]]]},adTargeting:{},haltDFP:!1,dfpToggleName:t.dfpToggleName,lazyApi:t.lazyApi||{},adsDisabled:!1};window.AdSlot4.cmd.push(function(){const e=window.AdSlot4.clientRequirements,o=e.getUserData(window&&window.userXhrObject&&window.userXhrObject.responseText);if(e.getWebviewEnv().isPreloaded){if(window.updateAdTargeting=e.updateAdTargeting,window.addEventListener("load",e.signalIfReadyForAds),e.setupVisibilityListener(),n){window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[];const t="https://www.nytimes.com"+n;window.googletag.cmd.push(function(){window.googletag.pubads().set("page_url",t)})}e.whenReadyForAds(function(){const n=e.generateConfig(i,t,o);e.init(n)})}else{const n=e.generateConfig(i,t,o);e.init(n)}})};;_f.apply(null, [{"adTargeting":{"vp":"small","edn":"us","brandsensitive":"true","typ_materials":"#interactive feature#","bsc":"84031001,84122001,84192001,84191001,87012038,84132004,84121001,84032001,84131001","ledemedsz":"none","pt":"nt10,nt11,nt14,nt20,nt4,nt7,nt8,nt9,pt1,pt12,pt13,pt17,pt2,pt3,pt6","is_viral_on_social":"false","abs":"51000181,51006965,51007257,51005641,51006821,51006813,51004094,51006834,51007625,51005445,51002721,51007151,51007286,51000094,51006636,51007049,51004276,51004240,51007071,51001538,51004619,51002435,51004843","org":"wuhaninstituteofvirologychina,ecohealthalliance,wuhanhuananseafoodwholesalemar,nationalinstituteofallergyandi","artlen":"short","template":"interactive","des":"coronavirusoriginsinvestigatio,coronavirus2019ncov,laboratoriesandscientificequip","typ":"int","section":"opinion","mt":"MT10,MT5","plat":"mweb","coll":"opinion,sundayopinion,ineducationhealthsciences","id":"100000009498677","gscat":"gv_safe,neg_gg1,neg_citi_aa,neg_capitalone,neg_owde,neg_chanel,neg_chan2,neg_ms_safe,neg_google,neg_debeer,neg_hms,neg_gg2,neg_rms,neg_mtb,neg_cme,neg_mc,neg_rchmt,neg_virus,neg_ibmtest,neg_ibm,gb_safe,gb_safe_from_high,gb_safe_from_high_med,gs_covid19,neg_bofa,gs_health,neg_njts,neg_mastercard,neg_chan3,neg_ihw,gs_science,neg_kaypemg,neg_racism,neg_fcli,gs_health_misc,gs_predicts_coldfluseason,gs_science_geography,neg_amz_sfe,neg_rolex,cc_tech_society,neg_bp,gs_science_misc,neg_aramco,gs_predicts_mlb,gs_predicts_retail_industry,gs_predicts_womenshealth,gs_predicts_collegebound,gs_predicts_pharma_compassion,gs_predicts_moms_dads_grads,neg_orep,gs_predicts_compassion,gs_predicts_buyingahome,gs_predicts_oralcare,gs_predicts_businessandfinance,gs_predicts_graduatedegree,gs_predicts_petlovers,neg_sabic,neg_ts,gs_predicts_healthyskinhair,gs_predicts_charity,gs_predicts_quitsmoking,gs_predicts_legal_industry,gs_predicts_cuttingedgetechenthusiasts,gs_predicts_needinglegalcouncil,gs_predicts_insurance,gs_predicts_autumnoutdoors,gs_predicts_womensfitness,gs_predicts_realestateind,gs_science_environ,gs_predicts_songkran,gs_predicts_parentsofyoungkids,gs_predicts_small_med_bus,gs_busfin,gs_predicts_marketers,neg_mttl,gs_predicts_chinesenewyear,gs_predicts_filmfestivalsawards,gs_predicts_parentsteachers,gs_predicts_healthylifestyle,gs_predicts_movers,gs_predicts_mensfitness,gs_predicts_menshealth,gs_predicts_midautumnfestival,gs_predicts_dietfitness,gs_predicts_veteransservice,gs_t","per":"faucianthonys,daszakpeter,shizhengli,baricralphsteven","geo":"wuhanchina","auth":"alinachan","slug":"leak","si_section":"opinion","at":"146,61,242,32,220,288,224","als_test":"1757971318850","prop":"mnyt","ver":"mvi","sov":"4","test":"projectvi","ref":"","refdom":"","abra_dfp":"","gpt-beta":"vqwdtftx"},"adUnitPath":"/29390238/nyt/opinion","dfpToggleName":"dfp_interactive_toggle"}]); })();
+    </script>
+  
+  <script id="als-svc">
+    (function () {
+      if (!window.NYTD || !window.NYTD.Abra) {
+        return;
+      }
+      var alsVariant = window.NYTD.Abra('als_toggle');
+      if (alsVariant != null && alsVariant.match(/(1_block)/)) {
+        window.NYTD.Abra.reportExposure('als_toggle');
+      }
+      if (window.NYTD.Abra('als_toggle') !== '1_block') {
+    (function () { var _f=function(e,t,n,i){function l(e,t="impression"){window.UnifiedTracking&&window.UnifiedTracking.sendAnalytic&&window.UnifiedTracking.sendAnalytic(t,e)}var o;if(!(o=n,!!(window&&window.adClientUtils&&window.adClientUtils.hasActiveToggle)&&window.adClientUtils.hasActiveToggle(o)))return;!function(e){window&&window.NYTD&&window.NYTD.Abra&&window.NYTD.Abra.reportExposure(e)}(n);let a=()=>{var e=new Date,t=e.getFullYear();return e.getMonth()<9&&(t+="0"),t+=e.getMonth()+1,e.getDate()<10&&(t+="0"),t+=e.getDate(),e.getHours()<10&&(t+="0"),t+=e.getHours(),e.getMinutes()<10&&(t+="0"),t+=e.getMinutes(),e.getSeconds()<10&&(t+="0"),t+e.getSeconds()};window.googletag=window.googletag||{},googletag.cmd=googletag.cmd||[];let s=new URLSearchParams(location.search).get("alice_rules_test");var r,d=new XMLHttpRequest,g=window.vi.env.ALS_URL,c=document.querySelector('[name="nyt_uri"]');if(t)r="uri="+(u=t);else if("/"===location.pathname){var u=encodeURIComponent("https://www.nytimes.com/pages/index.html");r="uri="+u}else if(void 0===c||""===c||null===c){var m=e||location.protocol+"//"+location.hostname+location.pathname;r="url="+encodeURIComponent(m)}else{u=encodeURIComponent(c.content);r="uri="+u}var w=i;if(!w){var _=document.querySelector('[name="template"]');w=null==_||null==_.content?"":_.content}var p=document.querySelector('[name="prop"]'),b=document.querySelector('[name="plat"]'),f=null==p||null==p.content?"nyt":p.content,v=null==b||null==b.content?"web":b.content;window.innerWidth<740&&(f="mnyt",v="mweb");var U=window.localStorage.getItem("als_test_clientside"),h=null;window.googletag.cmd.push(function(){var e=U&&0!==U.length?U:"empty_empty_empty_"+a(),t=h||e;googletag.pubads().setTargeting("als_test_clientside",t)});var T=window.localStorage.getItem("mktg"),S=null;window.googletag.cmd.push(function(){var e=S||T;e&&googletag.pubads().setTargeting("mktg",e)});var C,y=window.localStorage.getItem("bt");window.googletag.cmd.push(function(){var e=null!=C?C:y;null!=e&&googletag.pubads().setTargeting("bt",e)});var x=window.localStorage.getItem("sub"),k=null;window.googletag.cmd.push(function(){var e=k||x;e&&googletag.pubads().setTargeting("sub",e)}),r=null==s?r:r+"&alice_rules_test="+s,d.open("GET",g+"/als?"+r+"&typ="+w+"&prop="+f+"&plat="+v,!0),d.withCredentials=!0,d.send(),d.onerror=function(){var e="reqfailed_reqfailed_reqfailed_"+a();h=e,window.googletag.cmd.push(function(){googletag.pubads().setTargeting("als_test_clientside",e)}),l({module:{name:"alice-timing",context:"script-load",label:"alice-error-reqfail-"+r}})},d.onreadystatechange=function(){if(4===d.readyState)if(200===d.status){var e=JSON.parse(d.responseText);h=e.als_test_clientside&&0!==e.als_test_clientside.length?e.als_test_clientside:"bou_bou_bou_"+a(),void 0!==e.User&&(void 0!==e.User.mktg&&(S=e.User.mktg,window.localStorage.setItem("mktg",e.User.mktg)),void 0!==e.User.bt&&(C=e.User.bt,window.localStorage.setItem("bt",e.User.bt)),void 0!==e.User.sub&&(k=e.User.sub,window.localStorage.setItem("sub",e.User.sub)),void 0!==e.User.aid&&(server_aid=e.User.aid,window.localStorage.setItem("aid",e.User.aid))),window.googletag.cmd.push(function(){if(e.als_test_clientside&&0!==e.als_test_clientside.length)googletag.pubads().setTargeting("als_test_clientside",e.als_test_clientside),window.localStorage.setItem("als_test_clientside","ls-"+e.als_test_clientside);else{var t=void 0===e.als_test_clientside?"undefined_undefined_undefined_"+a():"blank_blank_blank_"+a();googletag.pubads().setTargeting("als_test_clientside",t),l({module:{name:"alice-timing",context:"script-load",label:"alice-error-test-client-undefined"}})}if(void 0!==e.User){if(S)googletag.pubads().setTargeting("mktg",S);else l({module:{name:"alice-timing",context:"script-load",label:"alice-error-mktg-undefined"}});if(void 0!==C)googletag.pubads().setTargeting("bt",C);else l({module:{name:"alice-timing",context:"script-load",label:"alice-error-bt-undefined"}});if(k)googletag.pubads().setTargeting("sub",k);else l({module:{name:"alice-timing",context:"script-load",label:"alice-error-sub-undefined"}});(e.User.lucidC1||e.User.lucidC2||e.User.lucidC3||e.User.lucidC4||e.User.lucidC5)&&l({c1_val:e.User.lucidC1,c2_val:e.User.lucidC2,c3_val:e.User.lucidC3,c4_val:e.User.lucidC4,c5_val:e.User.lucidC5},"lucidtest")}else{l({module:{name:"alice-timing",context:"script-load",label:"alice-error-user-undefined"}})}if(void 0!==e.Asset)for(var n in e.Asset){var i=e.Asset[n];if(i)googletag.pubads().setTargeting(n,i);else l({module:{name:"alice-timing",context:"script-load",label:"alice-error-"+n+"-undefined"}})}else l({module:{name:"alice-timing",context:"script-load",label:"alice-error-asset-undefined"}})})}else{d.responseText.substring(0,40);var t="error_"+d.status+"_error_"+a();window.googletag.cmd.push(function(){googletag.pubads().setTargeting("als_test_clientside",t)}),l({module:{name:"alice-timing",context:"script-load",label:"alice-error-ajaxreq-"+d.status+"-"+r}})}}};;_f.apply(null, ["nyt://interactive/91d165d6-83c8-523e-b48a-f3cea04659a3","","","int"]); })();
+  }
+    }());
+  </script>
+  
+    <script>!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{},a=(new Error).stack;a&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[a]="98f8e931-ad83-44a1-ad5d-c1c40e6f94ec",e._sentryDebugIdIdentifier="sentry-dbid-98f8e931-ad83-44a1-ad5d-c1c40e6f94ec")}catch(e){}}();var _global="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:{};_global.SENTRY_RELEASE={id:"06e3dee7b6fe39921cbf2ba09c8992cc64403047"},function(e){function a(a){for(var r,o,c=a[0],i=a[1],f=a[2],b=0,s=[];b<c.length;b++)o=c[b],Object.prototype.hasOwnProperty.call(d,o)&&d[o]&&s.push(d[o][0]),d[o]=0;for(r in i)Object.prototype.hasOwnProperty.call(i,r)&&(e[r]=i[r]);for(l&&l(a);s.length;)s.shift()();return n.push.apply(n,f||[]),t()}function t(){for(var e,a=0;a<n.length;a++){for(var t=n[a],r=!0,c=1;c<t.length;c++){var i=t[c];0!==d[i]&&(r=!1)}r&&(n.splice(a--,1),e=o(o.s=t[0]))}return e}var r={},d={163:0},n=[];function o(a){if(r[a])return r[a].exports;var t=r[a]={i:a,l:!1,exports:{}};return e[a].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.e=function(e){var a=[],t=d[e];if(0!==t)if(t)a.push(t[2]);else{var r=new Promise((function(a,r){t=d[e]=[a,r]}));a.push(t[2]=r);var n,c=document.createElement("script");c.charset="utf-8",c.timeout=120,o.nc&&c.setAttribute("nonce",o.nc),c.src=function(e){return o.p+""+({0:"vendor",6:"vendors~account~byline~capsule~clientSideCapsule~collections~getstarted~livePanel~newsletter~newslet~30d6467f",7:"vendors~audio~byline~capsule~card~cardpanel~clientSideCapsule~livePanel~paidpost~slideshow~video~wellContent",12:"vendors~emailsignup~getstarted~newsletter~newsletters~newsletterssubscriberonly~recirculation~welcom~46c97be1",24:"caHamburgerNestedNavData~nestedNav",25:"internationalHamburgerNestedNavData",26:"nestedNav~usHamburgerNestedNavData",29:"vendors~CardDeck~carddeck",36:"vendors~recirculation~stats",41:"CardDeck",63:"addPromoLottieDarkJSON",64:"addPromoLottieLightJSON",68:"ask",69:"assetReviewBlock",78:"audioblock",85:"caHamburgerNestedNavData",86:"canadaSiteIndexData",92:"clientSideCapsule",95:"commentsForm",102:"dealbook",103:"defaultSiteIndexData",104:"desktopLogoNav",105:"emailsignup",107:"esHamburgerNestedNavData",110:"fabActual",122:"hamburgerDrawer",123:"headerfullbleedhorizontal",124:"headerfullbleedvertical",125:"headerlivebriefingvi",133:"internationalSiteIndexData",135:"lens",142:"nestedNav",153:"opinion",156:"producernotes",158:"recirculation",160:"reviewheader",166:"siteIndexContent",169:"slideshowinline",174:"submittedComment",178:"the-athletic",181:"upshot",182:"usHamburgerNestedNavData",187:"vendors~audioblock",194:"vendors~headerfullbleedhorizontal",195:"vendors~headerfullbleedvertical",196:"vendors~headerlivebriefingvi",201:"vendors~reviewheader",203:"vendors~slideshowinline",205:"vendors~viToolbar",206:"vendors~videoblock",210:"viToolbar",212:"videoblock",217:"world-cup-2019"}[e]||e)+"-"+{0:"35c2f2db2ab5e7b6cca2",6:"a50eac317bc4670c5ee1",7:"6d4e6458a46425ad6207",12:"0ecda746e163aa5480e4",24:"8c8a7bc377783f96e3bf",25:"598af22ec2eafbe96657",26:"2386ab2785ea7becdfd4",29:"4efaa91018577d142fa8",36:"1b04fefca2fb715aceac",41:"cb4967211b1d68e91932",63:"91f3e43a34e087b0f08a",64:"3ae36d1582e1f26f8bbf",68:"9a8bb4fcd3f1ab178e22",69:"4e39653181df36298546",78:"033b6384bce24f750fa5",85:"fabb378da3b916856cb9",86:"c75d906dc3e37149fcfb",92:"05a7e221fae2c37ee4f9",95:"e577b1338415d6100831",102:"d5bc52fb6c154424668c",103:"64bee1ba3ed88406923e",104:"44d9e3b102abac57b5cc",105:"8b487cd1a6b987c1e9d4",107:"b332a4b323654e574911",110:"6fc7690db2e154a40ab0",122:"d56ccb0cbd9fafd1d7c0",123:"6bc418381f2b1ae6407f",124:"63d89a45e6a4704fafe8",125:"e0067594b9450cc299ba",133:"9eaab35db082d3d25382",135:"cf13580f7089bbfd5945",142:"47044dfdde4a3fa0b092",153:"92e42def43d03d9c656f",156:"bd976e999e280532a675",158:"78d715740363f844b5b2",160:"c8ab2ca29e6868178019",166:"4d1c7861bfd46f3ee58c",169:"4d0e6016cef602c24b38",174:"055430357309ab23291b",178:"bb22415c2f5cf39601c9",181:"c0a7f970fdc55d335b57",182:"dd3ff322e757daddc3dd",187:"d6c2d6792b438e4305e7",194:"86942d6737ac5d04a2a5",195:"b43dec420ae45ce6ffa7",196:"ad79d922fdfa9e3d4e97",201:"946a24d1cbc90989d09a",203:"466ef015ebbd6745a786",205:"67c4878967d374b6631a",206:"205e401e76c9a377d49e",210:"181efb0f24134233e1bf",212:"7aa963e30a889a5d6193",217:"ee6115a5d8f0a6b7221e"}[e]+".js"}(e);var i=new Error;n=function(a){c.onerror=c.onload=null,clearTimeout(f);var t=d[e];if(0!==t){if(t){var r=a&&("load"===a.type?"missing":a.type),n=a&&a.target&&a.target.src;i.message="Loading chunk "+e+" failed.\n("+r+": "+n+")",i.name="ChunkLoadError",i.type=r,i.request=n,t[1](i)}d[e]=void 0}};var f=setTimeout((function(){n({type:"timeout",target:c})}),12e4);c.onerror=c.onload=n,document.head.appendChild(c)}return Promise.all(a)},o.m=e,o.c=r,o.d=function(e,a,t){o.o(e,a)||Object.defineProperty(e,a,{enumerable:!0,get:t})},o.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},o.t=function(e,a){if(1&a&&(e=o(e)),8&a)return e;if(4&a&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(o.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&a&&"string"!=typeof e)for(var r in e)o.d(t,r,function(a){return e[a]}.bind(null,r));return t},o.n=function(e){var a=e&&e.__esModule?function(){return e.default}:function(){return e};return o.d(a,"a",a),a},o.o=function(e,a){return Object.prototype.hasOwnProperty.call(e,a)},o.p="/vi-assets/static-assets/",o.oe=function(e){throw console.error(e),e};var c=window.webpackJsonp=window.webpackJsonp||[],i=c.push.bind(c);c.push=a,c=c.slice();for(var f=0;f<c.length;f++)a(c[f]);var l=i;t()}([]);
+//# sourceMappingURL=runtime~interactive-40098029dafa09b03d27.js.map</script>
+    <script defer src="/vi-assets/static-assets/vendor-interactive-02f7ed006193f2a2cc2f.js"></script>
+    
+    <script defer src="/vi-assets/static-assets/cssModulesStyles-3be4bf3e6cd0369ab3c1.js"></script>
+    <script defer src="/vi-assets/static-assets/interactive-bcac868d9248680ee976.js"></script>
+    <script>(function () { var _f=function(){try{var e=["first-paint","first-contentful-paint","userBtnRender","appRenderTime"];new window.PerformanceObserver(function(r){for(var n=r.getEntries(),a=0;a<n.length;a+=1){var t=n[a];if(e.indexOf(t.name)>-1){var i={};i[t.name]=Math.round(t.duration||t.startTime),(window.dataLayer=window.dataLayer||[]).push({event:"performance",pageview:{performance:i}})}}}).observe({entryTypes:["mark","measure","paint"]})}catch(e){}};;_f.apply(null, []); })();(function () { var _f=function(){!function(){if(1===Math.floor(20*Math.random())&&(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted)){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url="https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239";var e=(document.currentScript||document.getElementsByTagName("script")[0]).parentNode,n=!1,t=document.createElement("link");t.relList&&"function"==typeof t.relList.supports&&t.relList.supports("preload")&&"as"in t?(window.BOOMR.snippetMethod="p",t.href=window.BOOMR.url,t.rel="preload",t.as="script",t.addEventListener("load",function(){if(!n){var t=document.createElement("script");t.id="boomr-scr-as",t.src=window.BOOMR.url,t.async=!0,e.appendChild(t),n=!0}}),t.addEventListener("error",function(){o(!0)}),setTimeout(function(){n||o(!0)},3e3),BOOMR_lstart=(new Date).getTime(),e.appendChild(t)):o(!1),window.addEventListener?window.addEventListener("load",i,!1):window.attachEvent&&window.attachEvent("onload",i)}function o(t){n=!0;var o,i,d,a,r=document,s=window;if(window.BOOMR.snippetMethod=t?"if":"i",i=function(e,n){var t=r.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),(e=e||r.body).appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]./))return window.BOOMR.snippetMethod="s",void i(e,"boomr-async");(d=document.createElement("IFRAME")).src="about:blank",d.title="",d.role="presentation",d.loading="eager",(a=(d.frameElement||d).style).width=0,a.height=0,a.border=0,a.display="none",e.appendChild(d);try{s=d.contentWindow,r=s.document.open()}catch(e){o=document.domain,d.src="javascript:var d=document.open();d.domain='"+o+"';void 0;",s=d.contentWindow,r=s.document.open()}o?(r._boomrl=function(){this.domain=o,i()},r.write("<body onload='document._boomrl();'>")):(s._boomrl=function(){i()},s.addEventListener?s.addEventListener("load",s._boomrl,!1):s.attachEvent&&s.attachEvent("onload",s._boomrl)),r.close()}function i(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}}()};;_f.apply(null, []); })();</script>
+    
+    <script>
+(function(w, l) {
+  w[l] = w[l] || [];
+  w[l].push({
+    'gtm.start': new Date().getTime(),
+    event: 'gtm.js'
+  });
+})(window, 'dataLayer');
+</script>
+<script defer src="https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x"></script>
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+    <!-- RELEASE 06e3dee7b6fe39921cbf2ba09c8992cc64403047 -->
+    
+  </body>
+</html>

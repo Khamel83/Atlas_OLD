@@ -1,0 +1,1711 @@
+# Content from http://m.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor
+
+*Retrieved: 2025-09-15T06:35:27.415660*
+
+---
+
+<!DOCTYPE html>
+
+<html lang="en-US" class="no-js mj-www">
+<head>
+	
+<script>
+if (document.cookie.indexOf("scroll0=") > -1) {
+	document.documentElement.className += ' scrolluser';
+}
+</script>
+<meta charset="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src https://* wss://motherjones.coral.coralproject.net wss://motherjones.staging.coral.coralproject.net 'unsafe-inline' 'unsafe-eval' data: blob:; upgrade-insecure-requests;">
+    
+	<script>
+		// Google Tag Manager
+		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl+"&gtm_auth=1rT9WxKtoVrlrpfysHCQ-Q&gtm_preview=env-2&gtm_cookies_win=x";f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-55MKBQW');
+	</script>
+	<style>.async-hide { opacity: 0 !important} </style>
+	<script>
+	(function(a,s,y,n,c,h,i,d,e){
+		// we don't need this, we need to specifically mark optimize spots
+		s.className+=' '+y;
+		// okay yeah we need this tho
+		h.start=1*new Date;
+		h.end=i=function(){
+			// okay instead of screwing w/ the document classname we need to remove the class from all elements w/ the class
+			s.className=s.className.replace(RegExp(' ?'+y),'');
+			// you may have noticed this but it means that if this runs before those elements are ready they stay hidden	
+		};
+		(a[n]=a[n]||[]).hide=h;
+		setTimeout(function(){i(); h.end=null},c);
+		h.timeout=c;
+	})(
+		window, //a
+		document.documentElement, //s
+		'async-hide', //y
+		'dataLayer', //n
+		3000, //c
+		{'GTM-55MKBQW':true} //h
+	);</script>
+
+<!-- begin freestar -->
+<link rel="preconnect" href="https://a.pub.network/" crossorigin />
+<link rel="preconnect" href="https://b.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.pub.network/" crossorigin />
+<link rel="preconnect" href="https://d.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://s.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://secure.quantserve.com/" crossorigin />
+<link rel="preconnect" href="https://rules.quantcount.com/" crossorigin />
+<link rel="preconnect" href="https://pixel.quantserve.com/" crossorigin />
+<link rel="preconnect" href="https://cmp.quantcast.com/" crossorigin />
+<link rel="preconnect" href="https://btloader.com/" crossorigin />
+<link rel="preconnect" href="https://api.btloader.com/" crossorigin />
+<link rel="preconnect" href="https://confiant-integrations.global.ssl.fastly.net" crossorigin />
+<link rel="stylesheet" href="https://a.pub.network/motherjones-com/cls.css">
+<script data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.config.enabled_slots = [];
+  freestar.queue.push(function() {
+		googletag.pubads().setTargeting('is_testing', 'no'); // output 'yes' on stage, 'no' on prod
+		googletag.pubads().setTargeting('is_home', 'no'); // output 'yes' on homepage, 'no' on other pages
+		googletag.pubads().setTargeting('Page', 'post'); // page type
+		googletag.pubads().setTargeting('post_id', '161491');
+googletag.pubads().setTargeting('Category', ["politics"]);
+googletag.pubads().setTargeting('Tag', ["corporations","human-rights","labor","tech"]);
+		googletag.pubads().setTargeting('env', 'www'); // environment targeting
+});
+  freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }
+
+</script>
+<script src="https://a.pub.network/motherjones-com/pubfig.min.js" data-cfasync="false" async></script>
+<!-- end freestar -->
+
+<style>
+@font-face{font-family:'MallorySubset';src:url(data:application/font-woff;charset=utf-8;base64,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)format('woff');unicode-range:U+0021-U+007E}body,caption,input,textarea,select,option,legend,fieldset{font-family:Georgia,"Times New Roman","Bitstream Vera Serif",serif;font-size:16px;line-height:1.5}.fonts-stage-1 h1,.fonts-stage-1 h2,.fonts-stage-1 h3,.fonts-stage-1 h4,.fonts-stage-1 h5{font-family:MallorySubset,sans-serif;font-weight:bold;font-style:normal}
+</style>
+<script>
+!function(){if(sessionStorage.criticalFoftDataUriFontsLoaded)document.documentElement.className+=" fonts-stage-1 fonts-stage-2";else{!function(){function e(e,t){document.addEventListener?e.addEventListener("scroll",t,!1):e.attachEvent("scroll",t)}function t(e){document.body?e():document.addEventListener?document.addEventListener("DOMContentLoaded",function t(){document.removeEventListener("DOMContentLoaded",t),e()}):document.attachEvent("onreadystatechange",function t(){"interactive"!=document.readyState&&"complete"!=document.readyState||(document.detachEvent("onreadystatechange",t),e())})}function n(e){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(e)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function o(e,t){e.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+t+";"}function i(e){var t=e.a.offsetWidth,n=t+100;return e.f.style.width=n+"px",e.c.scrollLeft=n,e.b.scrollLeft=e.b.scrollWidth+100,e.g!==t&&(e.g=t,!0)}function a(t,n){function o(){var e=a;i(e)&&null!==e.a.parentNode&&n(e.g)}var a=t;e(t.b,o),e(t.c,o),i(t)}function s(e,t){var n=t||{};this.family=e,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function d(){if(null===r){var e=document.createElement("div");try{e.style.font="condensed 100px sans-serif"}catch(e){}r=""!==e.style.font}return r}function l(e,t){return[e.style,e.weight,d()?e.stretch:"","100px",t].join(" ")}var c=null,r=null,h=null;s.prototype.load=function(e,i){var s=this,d=e||"BESbswy",r=i||3e3,f=(new Date).getTime();return new Promise(function(e,i){if(null===h&&(h=!!window.FontFace),h){var u=new Promise(function(e,t){function n(){(new Date).getTime()-f>=r?t():document.fonts.load(l(s,s.family),d).then(function(t){1<=t.length?e():setTimeout(n,25)},function(){t()})}n()}),m=new Promise(function(e,t){setTimeout(t,r)});Promise.race([m,u]).then(function(){e(s)},function(){i(s)})}else t(function(){function t(){var t;(t=-1!=w&&-1!=v||-1!=w&&-1!=y||-1!=v&&-1!=y)&&((t=w!=v&&w!=y&&v!=y)||(null===c&&(t=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),c=!!t&&(536>parseInt(t[1],10)||536===parseInt(t[1],10)&&11>=parseInt(t[2],10))),t=c&&(w==g&&v==g&&y==g||w==b&&v==b&&y==b||w==x&&v==x&&y==x)),t=!t),t&&(null!==E.parentNode&&E.parentNode.removeChild(E),clearTimeout(F),e(s))}function h(){if((new Date).getTime()-f>=r)null!==E.parentNode&&E.parentNode.removeChild(E),i(s);else{var e=document.hidden;!0!==e&&void 0!==e||(w=u.a.offsetWidth,v=m.a.offsetWidth,y=p.a.offsetWidth,t()),F=setTimeout(h,50)}}var u=new n(d),m=new n(d),p=new n(d),w=-1,v=-1,y=-1,g=-1,b=-1,x=-1,E=document.createElement("div"),F=0;E.dir="ltr",o(u,l(s,"sans-serif")),o(m,l(s,"serif")),o(p,l(s,"monospace")),E.appendChild(u.a),E.appendChild(m.a),E.appendChild(p.a),document.body.appendChild(E),g=u.a.offsetWidth,b=m.a.offsetWidth,x=p.a.offsetWidth,h(),a(u,function(e){w=e,t()}),o(u,l(s,'"'+s.family+'",sans-serif')),a(m,function(e){v=e,t()}),o(m,l(s,'"'+s.family+'",serif')),a(p,function(e){y=e,t()}),o(p,l(s,'"'+s.family+'",monospace'))})})},"undefined"!=typeof module?module.exports=s:(window.FontFaceObserver=s,window.FontFaceObserver.prototype.load=s.prototype.load)}();var e=new FontFaceObserver("MallorySubset");Promise.all([e.load()]).then(function(){document.documentElement.className+=" fonts-stage-1";var e=new FontFaceObserver("Mallory"),t=new FontFaceObserver("Calluna");Promise.all([e.load(),t.load()]).then(function(){document.documentElement.className+=" fonts-stage-2",sessionStorage.criticalFoftDataUriFontsLoaded=!0})})}}();
+</script>
+<title>I Was a Warehouse Wage Slave &#8211; Mother Jones</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<!-- Jetpack Site Verification Tags -->
+<link rel='dns-prefetch' href='//ak.sail-horizon.com' />
+<link rel='dns-prefetch' href='//static.scroll.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Mother Jones &raquo; Feed" href="https://www.motherjones.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Mother Jones &raquo; Comments Feed" href="https://www.motherjones.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.motherjones.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='all-css-0' href='https://www.motherjones.com/wp-content/plugins/mj-prepublish/style.css?m=1755618852g' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='all-css-2' href='https://www.motherjones.com/wp-includes/css/dist/block-library/style.min.css?m=1754500264g' type='text/css' media='all' />
+<style id='elasticpress-facet-style-inline-css'>
+.widget_ep-facet input[type=search],.wp-block-elasticpress-facet input[type=search]{margin-bottom:1rem}.widget_ep-facet .searchable .inner,.wp-block-elasticpress-facet .searchable .inner{max-height:20em;overflow:scroll}.widget_ep-facet .term.hide,.wp-block-elasticpress-facet .term.hide{display:none}.widget_ep-facet .empty-term,.wp-block-elasticpress-facet .empty-term{opacity:.5;position:relative}.widget_ep-facet .empty-term:after,.wp-block-elasticpress-facet .empty-term:after{bottom:0;content:" ";display:block;left:0;position:absolute;right:0;top:0;width:100%;z-index:2}.widget_ep-facet .level-1,.wp-block-elasticpress-facet .level-1{padding-left:20px}.widget_ep-facet .level-2,.wp-block-elasticpress-facet .level-2{padding-left:40px}.widget_ep-facet .level-3,.wp-block-elasticpress-facet .level-3{padding-left:60px}.widget_ep-facet .level-4,.wp-block-elasticpress-facet .level-4{padding-left:5pc}.widget_ep-facet .level-5,.wp-block-elasticpress-facet .level-5{padding-left:75pt}.widget_ep-facet input[disabled],.wp-block-elasticpress-facet input[disabled]{cursor:pointer;opacity:1}.widget_ep-facet .term a,.wp-block-elasticpress-facet .term a{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative}.widget_ep-facet .term a:hover .ep-checkbox,.wp-block-elasticpress-facet .term a:hover .ep-checkbox{background-color:#ccc}.ep-checkbox{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-negative:0;-webkit-box-pack:center;-ms-flex-pack:center;align-items:center;background-color:#eee;display:-webkit-box;display:-ms-flexbox;display:flex;flex-shrink:0;height:1em;justify-content:center;margin-right:.25em;width:1em}.ep-checkbox:after{border:solid #fff;border-width:0 .125em .125em 0;content:"";display:none;height:.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:.25em}.ep-checkbox.checked{background-color:#5e5e5e}.ep-checkbox.checked:after{display:block}
+
+</style>
+<link rel='stylesheet' id='all-css-8' href='https://www.motherjones.com/wp-content/mu-plugins/search/elasticpress/dist/css/related-posts-block-styles.min.css?m=1757443701g' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--orange: #FF6900;--wp--preset--color--yellow-orange: #FF9808;--wp--preset--color--yellow: #FFC107;--wp--preset--color--red: #DB3700;--wp--preset--color--dark-grey: #6C757D;--wp--preset--color--light-grey: #b6babe;--wp--preset--color--eggshell: #f2f3ef;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--big: 32px;--wp--preset--font-family--serif: "Calluna", serif;--wp--preset--font-family--sans-serif: "Mallory", sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);--wp--custom--line-height--body: 1.5;--wp--custom--line-height--heading: 1.3;}p{--wp--preset--font-family--serif: "Calluna", serif;--wp--preset--font-family--sans-serif: "Mallory", sans-serif;}.wp-block-list > li{--wp--preset--font-family--serif: "Calluna", serif;--wp--preset--font-family--sans-serif: "Mallory", sans-serif;}:root { --wp--style--global--content-size: 650px;--wp--style--global--wide-size: 1268px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-orange-color{color: var(--wp--preset--color--orange) !important;}.has-yellow-orange-color{color: var(--wp--preset--color--yellow-orange) !important;}.has-yellow-color{color: var(--wp--preset--color--yellow) !important;}.has-red-color{color: var(--wp--preset--color--red) !important;}.has-dark-grey-color{color: var(--wp--preset--color--dark-grey) !important;}.has-light-grey-color{color: var(--wp--preset--color--light-grey) !important;}.has-eggshell-color{color: var(--wp--preset--color--eggshell) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-orange-background-color{background-color: var(--wp--preset--color--orange) !important;}.has-yellow-orange-background-color{background-color: var(--wp--preset--color--yellow-orange) !important;}.has-yellow-background-color{background-color: var(--wp--preset--color--yellow) !important;}.has-red-background-color{background-color: var(--wp--preset--color--red) !important;}.has-dark-grey-background-color{background-color: var(--wp--preset--color--dark-grey) !important;}.has-light-grey-background-color{background-color: var(--wp--preset--color--light-grey) !important;}.has-eggshell-background-color{background-color: var(--wp--preset--color--eggshell) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-orange-border-color{border-color: var(--wp--preset--color--orange) !important;}.has-yellow-orange-border-color{border-color: var(--wp--preset--color--yellow-orange) !important;}.has-yellow-border-color{border-color: var(--wp--preset--color--yellow) !important;}.has-red-border-color{border-color: var(--wp--preset--color--red) !important;}.has-dark-grey-border-color{border-color: var(--wp--preset--color--dark-grey) !important;}.has-light-grey-border-color{border-color: var(--wp--preset--color--light-grey) !important;}.has-eggshell-border-color{border-color: var(--wp--preset--color--eggshell) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-big-font-size{font-size: var(--wp--preset--font-size--big) !important;}.has-serif-font-family{font-family: var(--wp--preset--font-family--serif) !important;}.has-sans-serif-font-family{font-family: var(--wp--preset--font-family--sans-serif) !important;}p.has-serif-font-family{font-family: var(--wp--preset--font-family--serif) !important;}p.has-sans-serif-font-family{font-family: var(--wp--preset--font-family--sans-serif) !important;}.wp-block-list > li.has-serif-font-family{font-family: var(--wp--preset--font-family--serif) !important;}.wp-block-list > li.has-sans-serif-font-family{font-family: var(--wp--preset--font-family--sans-serif) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='all-css-10' href='https://www.motherjones.com/_static/??-eJydz8EKwjAMgOEXsi1jTvEgPkvXhTXSpqVJnXt767wKMm9/IB8kZsnKJRIgMeIhApuYWpR7otaO2bCsAXRE0m06mN/ATh4YE+0xOcA0g/qHpgeUYNc9BJ4oCreVryyHOiO11y0G8aWqBdt1stlPaq4ju4IjvPEtXrvzcLr0/XHoXhT4f98=' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.motherjones.com/_static/??/wp-includes/js/jquery/jquery.min.js,/wp-content/themes/motherjones/js/top-terms-gutenberg.js?m=1755618853j" ></script><script src='//ak.sail-horizon.com/spm/spm.v1.min.js?ver=6.8.2' type='text/javascript' async></script><script type="text/javascript" id="tag-js-extra">
+/* <![CDATA[ */
+var tag = {"options":{"customerId":"90617d09ad824190762a833577743daa"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??-eJx9zTEOgzAMheELESyEQlmqniWAGxwlDoodcX0i0aHq0O0f3qcH52HWzIqscMTqiQXEUdS9VHPS5lEhCKjzfZAOvta6Y0KBlFuUkLl1G96kL8guoXkTxk1+5Z+fD5e6yFpowUZf6Tk8rJ2GebZjuAAnYUFT" ></script><link rel="https://api.w.org/" href="https://www.motherjones.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.motherjones.com/wp-json/wp/v2/posts/161491" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.motherjones.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<link rel="canonical" href="https://www.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor/" />
+<link rel='shortlink' href='https://www.motherjones.com/?p=161491' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.motherjones.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.motherjones.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F&#038;format=xml" />
+
+<!-- BEGIN Sailthru Horizon Meta Information -->
+<meta name="sailthru.date" content="2012-02-27 11:00:00" />
+<meta name="sailthru.title" content="I Was a Warehouse Wage Slave" />
+<meta name="sailthru.tags" content=",Corporations,Human Rights,Labor,Tech,Politics," />
+<meta name="sailthru.description" content="My brief, backbreaking, rage-inducing, low-paying, dildo-packing time inside the online-shipping machine." />
+<meta name="sailthru.image.full" content="https://www.motherjones.com/wp-content/uploads/cover_372_720-630.jpg" />
+<meta name="sailthru.image.thumb" content="https://www.motherjones.com/wp-content/uploads/cover_372_720-630.jpg?w=50" />
+<!-- END Sailthru Horizon Meta Information -->
+
+<style>img#wpstats{display:none}</style>
+		<meta property="og:url" content="https://www.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="I was a warehouse wage slave" />
+<meta property="og:description" content="My brief, backbreaking, rage-inducing, low-paying, dildo-packing time inside the online-shipping machine." />
+<meta property="og:image" content="https://www.motherjones.com/wp-content/uploads/cover_372_720-630.jpg?w=1200&amp;h=630&amp;crop=1" />
+<meta property="article:published" content="2012-02-27T11:00:00-05:00" />
+<meta property="article:modified" content="2021-06-22T14:31:40-04:00" />
+<meta property="article:section" content="Politics" />
+<meta property="article:tag" content="Corporations" />
+<meta property="article:tag" content="Human Rights" />
+<meta property="article:tag" content="Labor" />
+<meta property="article:tag" content="Tech" />
+<meta property="article:author" content="Gabriel Mac" />
+<meta property="og:site_name" content="Mother Jones" />
+<meta property="fb:pages" content="7642602143" />
+<meta property="fb:pages" content="1072916546168933" />
+<meta property="fb:pages" content="416261761736915" />
+<meta property="fb:pages" content="149244498452823" />
+<meta property="fb:pages" content="111917028836008" />
+<meta property="twitter:url" content="https://www.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor/" />
+<meta property="twitter:site" content="@Motherjones" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta name="twitter:dnt" content="on" /><meta property="wordcount" content="8419" />
+<script type="text/javascript">var sailthru_vars = {"ajaxurl":"https:\/\/www.motherjones.com\/wp-admin\/admin-ajax.php"}</script><script type="text/javascript">var sailthru_vars = {"ajaxurl":"https:\/\/www.motherjones.com\/wp-admin\/admin-ajax.php"}</script><link rel="icon" href="https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=32" sizes="32x32" />
+<link rel="icon" href="https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=180" />
+<meta name="msapplication-TileImage" content="https://www.motherjones.com/wp-content/uploads/2017/09/cropped-favicon-512x512.png?w=270" />
+<meta name="description" content="My brief, backbreaking, rage-inducing, low-paying, dildo-packing time inside the online-shipping machine."/></head>
+
+<body class="wp-singular post-template-default single single-post postid-161491 single-format-standard wp-theme-motherjones mj_content_type-article">
+<!-- Google Tag Manager (noscript) -->
+			<noscript>
+				<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55MKBQW=0&amp;gtm_auth=1&amp;gtm_preview=1&amp;gtm_cookies_win=1" height="0" width="0" style="display:none;visibility:hidden">
+				</iframe>
+			</noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<a href="#main" class="visuallyhidden">Skip to main content</a>
+<nav id="navbar" role="navigation">
+	<ul>
+		<li class="logo">
+			<a href="/" aria-label="Home" data-ga-label="Home" data-ga-category="NavbarFloating">
+				
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"/><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"/></svg>
+			</a>
+		</li>
+		<ul class="social-container navbar"><li class="facebook"><a class="social" href="http://facebook.com/sharer.php?u=https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F" target="_blank" data-ga-label="FacebookShare" data-ga-category="NavbarFloating" aria-label="Share on Facebook"><i class="icon-facebook"></i><span class="share-text">Share on Facebook</span></a></li>
+		 <li class="twitter"><a class="social" target="_blank" aria-label="Share on Twitter" href="https://x.com/intent/tweet?text=I%20was%20a%20warehouse%20wage%20slave&url=https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F&amp;via=MotherJones" data-ga-label="TwitterShare" data-ga-category="NavbarFloating"><i class="icon-twitter"></i><span class="share-text">Share on Twitter</span></a></li><li class="bluesky"><a class="social" target="_blank" aria-label="Share on Bluesky" href="https://bsky.app/intent/compose?text=I%20was%20a%20warehouse%20wage%20slave https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F"  data-ga-label="BlueskyShare" data-ga-category="NavbarFloating"><i class="icon-bluesky"><?xml version="1.0" encoding="UTF-8"?>
+<svg style="position: absolute" width="600" height="530" version="1.1" viewBox="0 0 600 540" xmlns="http://www.w3.org/2000/svg">
+ <path d="m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z" fill="#000"/>
+</svg></i><span class="share-text">Share on Bluesky</span></a></li><li class="email"><a href="mailto:?subject=I%20Was%20a%20Warehouse%20Wage%20Slave&body=My%20brief%2C%20backbreaking%2C%20rage-inducing%2C%20low-paying%2C%20dildo-packing%20time%20inside%20the%20online-shipping%20machine.0https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F" aria-label="Share via Email" target="_blank" data-ga-label="Email" data-ga-category="NavbarFloating"><i class="icon-mail"></i><span class="share-text">Email</span></a></li><li class="comment"><a href="#comment-container" aria-label="Comment" data-ga-label="Comment" data-ga-category="NavbarFloating" onclick="mj_display_comments();"><i class="icon-comment"></i><span class="share-text">Comments</span></a></li></ul>		<li class="menu-button">
+ 			<a
+				data-ga-label="MenuExpand"
+				data-ga-category="NavbarFloating"
+				tabindex="0"
+				 onclick="expandMenu();"			>
+				<svg id="nav-menu-svg" width="36px" height="36px" enable-background="new 0 0 125 125" version="1.1" viewBox="0 0 125 125" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+					<path d="m0 100.87"/>
+					<rect y="0" width="125" height="20"/>
+					<rect y="40" width="125" height="20"/>
+					<rect y="80" width="125" height="20"/>
+				</svg>
+				<svg id="nav-close-svg" width="34px" height="34px" x="0px" y="0px" version="1.1" viewBox="0 0 19.8 19.8" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+					<polygon points="19.8,2.4 17.4,0 9.9,7.5 2.4,0 0,2.4 7.5,9.9 0,17.4 2.4,19.8 9.9,12.3 17.4,19.8 19.8,17.4 12.3,9.9 "/>
+				</svg>
+			</a>
+		</li>
+		<li class="donate-link article-page desktop">
+			<a href="https://secure.motherjones.com/flex/mj/key/7LIGHTB/src/7EGP002|PEGP002"
+				target="_blank"
+				data-ga-label="Donate"
+				data-ga-category="NavbarFloating"
+			>Donate</a>
+		</li>
+		<li class="donate-link article-page mobile" style="display:none;">
+			<a href="https://secure.motherjones.com/flex/mj/key/7LIGHTB/src/7EGP007|PEGP007"
+				target="_blank"
+				data-ga-label="Donate"
+				data-ga-category="NavbarFloating"
+			>Donate</a>
+		</li>
+		<li class="subscribe-link article-page hidden-xxs">
+			<a href="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGHIP&c=SEGHIC&d=SEGHID&f=SEGHIF"
+				target="_blank"
+				data-ga-label="Subscribe"
+				data-ga-category="NavbarFloating"
+			>Subscribe</a>
+		</li>
+	</ul>
+	<div id="combined-nav">
+		<div id="mj_floatingnav_select" class="menu-top-nav-container"><ul class="mj_topnav_options"><li>
+<form
+	role="search"
+	method="get"
+	class="search-form"
+	action="https://www.motherjones.com/"
+	data-ga-label="Search"
+	data-ga-category="Search"
+>
+	<label>
+		<input type="search" class="search-field" placeholder="Search&hellip;" value="" name="s" title="Search for:" />
+	</label>
+	<input type="submit" class="search-submit" value="Submit"></input>
+	<button type="submit" aria-label="Search"><i class="icon-search"></i></button>
+</form>
+</li></ul><div class="leak-cont">Got tips? <a class="leak-link" href="/contribute/how-to-leak-to-us/"><span>Get in touch</span></a> confidentially.</div></div>		<div id="mj_menu_select" class="menu-floating-navbar-container"><ul id="mj_menu_options"><li id="menu-item-970455" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-970455"><a href="https://www.motherjones.com/newsletters/?mj_oac=dropdown_nav" data-ga-category="NavbarFloating" data-ga-action="https://www.motherjones.com/newsletters/?mj_oac=dropdown_nav" data-ga-label="NavPosition_1|newsletters">Newsletters</a></li>
+<li id="menu-item-405555" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-405555"><a href="https://www.motherjones.com/./politics/" data-ga-category="NavbarFloating" data-ga-action="https://www.motherjones.com/./politics/" data-ga-label="NavPosition_2|politics">Politics</a></li>
+<li id="menu-item-405556" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405556"><a href="https://www.motherjones.com/./environment/" data-ga-category="NavbarFloating" data-ga-action="https://www.motherjones.com/./environment/" data-ga-label="NavPosition_3|environment">Environment</a></li>
+<li id="menu-item-405558" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405558"><a href="https://www.motherjones.com/./criminal-justice/" data-ga-category="NavbarFloating" data-ga-action="https://www.motherjones.com/./criminal-justice/" data-ga-label="NavPosition_4|criminal-justice">Criminal Justice</a></li>
+<li id="menu-item-1029823" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029823"><a href="/topics/guns" data-ga-category="NavbarFloating" data-ga-action="/topics/guns" data-ga-label="NavPosition_5|guns">Guns</a></li>
+<li id="menu-item-1029824" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029824"><a href="/topics/race" data-ga-category="NavbarFloating" data-ga-action="/topics/race" data-ga-label="NavPosition_6|race">Race</a></li>
+<li id="menu-item-1051396" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1051396"><a href="/topics/sex-and-gender/" data-ga-category="NavbarFloating" data-ga-action="/topics/sex-and-gender/" data-ga-label="NavPosition_7|gender-sexuality">Gender + Sexuality</a></li>
+<li id="menu-item-405559" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405559"><a href="https://www.motherjones.com/./food/" data-ga-category="NavbarFloating" data-ga-action="https://www.motherjones.com/./food/" data-ga-label="NavPosition_8|food">Food</a></li>
+<li id="menu-item-1051398" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1051398"><a href="/topics/reveal-podcast" data-ga-category="NavbarFloating" data-ga-action="/topics/reveal-podcast" data-ga-label="NavPosition_9|podcast">Podcast</a></li>
+<li id="menu-item-1029827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029827"><a href="/topics/video" data-ga-category="NavbarFloating" data-ga-action="/topics/video" data-ga-label="NavPosition_10|video">Video</a></li>
+<li id="menu-item-615549" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-615549"><a href="/magazine" data-ga-category="NavbarFloating" data-ga-action="/magazine" data-ga-label="NavPosition_11|magazine">Magazine</a></li>
+</ul></div>	</div>
+</nav>
+<!-- end following navbar -->
+<div id="TopROS970x250" class="ad-unit ad desktop_ad col-12"><!-- Tag ID: motherjones_leaderboard_atf -->
+            <div id="ROS_ATF_970x250">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "motherjones_leaderboard_atf",
+                        slotId: "ROS_ATF_970x250"
+                    });
+                </script>
+            </div></div>
+<nav id="topnav" role="navigation">
+	<div class="grid">
+		<div id="topic-menu" class="grid col-8">
+			<div id="mj_topnav_select" class="menu-top-nav-container">Got tips? <a class="leak-link" href="/contribute/how-to-leak-to-us/"><span>Get in touch</span></a> confidentially.</div>		</div>
+		<div class="subscribe-link col-4">
+			<a 
+				href="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGHOP&c=SEGHOC&d=SEGHOD&f=SEGHOF"
+				data-ga-label="Subscribe|Text"
+				data-ga-category="Masthead">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewbox="0 0 120 93" style="enable-background:new 0 0 120 93; max-width:1.5rem;" xml:space="preserve">
+					<path d="M113.97,12.88V0.37h-4.01c-1.58,0-35.61,0.3-50.15,23.55C45.26,0.67,11.23,0.37,9.65,0.37H5.64v12.52
+						c-3.72-0.32-6.02-0.37-6.02-0.37v80.24H59.8h60.18V12.51C119.98,12.51,117.68,12.56,113.97,12.88z M105.94,8.63v5.18
+						c-11.46,1.65-27.54,5.35-38.83,13.68C76.98,12.86,97.3,9.42,105.94,8.63z M13.66,8.62C22.3,9.4,42.63,12.8,52.5,27.5
+						c-11.29-8.34-27.37-12.04-38.84-13.69V8.62z"/>
+				</svg>
+				<span>Subscribe to our magazine</span>
+			</a>
+		</div>
+	</div>
+</nav>
+<!-- end following navbar -->
+<div id="page" class="grid">
+	<header id="masthead" class="site-header col-12">
+		<section class="banner grid" role="banner">
+			<div class="logo col-4">
+				<a href="/" title="Return to Mother Jones Homepage"
+					data-ga-label="Home"
+					data-ga-category="Masthead"
+				>
+					
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"/><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"/></svg>
+				</a>
+			</div>
+			<div class="subscribe-donate col-8">
+				<a
+					href="https://secure.motherjones.com/flex/mj/key/7LIGHTS/src/7EGP009|PEGP009/"
+					data-ga-label="DonateMonthly"
+					data-ga-category="Masthead"
+				>
+					<button class="donate donate-monthly">
+						Donate Monthly
+					</button>
+				</a>
+				<a
+					href="https://secure.motherjones.com/flex/mj/key/7LIGHTB/src/7EGP014|PEGP014/"
+					data-ga-label="Donate"
+					data-ga-category="Masthead"
+				>
+					<button class="donate">
+						Donate
+					</button>
+				</a>
+				<div id="mj-nonprofit-tagline">Smart, Fearless Journalism</div>
+			</div>
+		</section>
+		<nav id="static-navbar" role="navigation">
+	<a name="navigation" id="navigation"></a>
+	<ul class="menu">
+		<li id="menu-item-405545" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-405545"><a href="https://www.motherjones.com/./politics/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/./politics/" data-ga-label="NavPosition_1">Politics</a></li>
+<li id="menu-item-405546" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405546"><a href="https://www.motherjones.com/./environment/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/./environment/" data-ga-label="NavPosition_2">Environment</a></li>
+<li id="menu-item-405549" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405549"><a href="https://www.motherjones.com/./criminal-justice/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/./criminal-justice/" data-ga-label="NavPosition_3">Criminal Justice</a></li>
+<li id="menu-item-1029818" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029818"><a href="/topics/guns" data-ga-category="Masthead" data-ga-action="/topics/guns" data-ga-label="NavPosition_4">Guns</a></li>
+<li id="menu-item-1029819" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029819"><a href="/topics/race" data-ga-category="Masthead" data-ga-action="/topics/race" data-ga-label="NavPosition_5">Race</a></li>
+<li id="menu-item-1051399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1051399"><a href="/topics/sex-and-gender/" data-ga-category="Masthead" data-ga-action="/topics/sex-and-gender/" data-ga-label="NavPosition_6">Gender</a></li>
+<li id="menu-item-405547" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-405547"><a href="https://www.motherjones.com/./food/" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/./food/" data-ga-label="NavPosition_7">Food</a></li>
+<li id="menu-item-1051400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1051400"><a href="/topics/reveal-podcast" data-ga-category="Masthead" data-ga-action="/topics/reveal-podcast" data-ga-label="NavPosition_8">Podcast</a></li>
+<li id="menu-item-1029822" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029822"><a href="/topics/video" data-ga-category="Masthead" data-ga-action="/topics/video" data-ga-label="NavPosition_9">Video</a></li>
+<li id="menu-item-405552" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405552"><a href="/magazine" data-ga-category="Masthead" data-ga-action="/magazine" data-ga-label="NavPosition_10">Magazine</a></li>
+<li id="menu-item-970454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-970454"><a href="https://www.motherjones.com/newsletters/?mj_oac=desktop_header_nav" data-ga-category="Masthead" data-ga-action="https://www.motherjones.com/newsletters/?mj_oac=desktop_header_nav" data-ga-label="NavPosition_11">Newsletters</a></li>
+		<li role="search" id="search-li" tabindex="0">
+			<i class="icon-search"></i>
+			
+<form
+	role="search"
+	method="get"
+	class="search-form"
+	action="https://www.motherjones.com/"
+	data-ga-label="Search"
+	data-ga-category="Search"
+>
+	<label>
+		<input type="search" class="search-field" placeholder="Search&hellip;" value="" name="s" title="Search for:" />
+	</label>
+	<input type="submit" class="search-submit" value="Submit"></input>
+	<button type="submit" aria-label="Search"><i class="icon-search"></i></button>
+</form>
+		</li>
+	</ul>
+</nav>
+<div id="ticker" class="col-12"><section id="custom_html-28" class="widget_text widget widget_custom_html"><h2 class="widget-title">Membership Ticker</h2><div class="textwidget custom-html-widget"><div class="ticker-content format-letter">
+	<style>
+		.ticker-content.format-letter {
+			background:#fff;
+			border:1px solid #b6babe;
+			padding:1 rem;
+		}
+		.ticker-content.format-letter p {
+			text-align:left;
+			font-size:1.1875rem;
+			line-height:1.5;
+		}
+		.ticker-content.format-letter p a.ticker-read-more {
+			color:inherit;
+			background-image: url('https://motherjones.com/wp-content/themes/motherjones/img/orange-border.png');
+			background-repeat: repeat-x;
+			text-decoration: none;
+			text-shadow: -1px 0 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff,
+				-1px -1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+		}
+		.ticker-content.format-letter p a.ticker-read-more:hover {
+			background-image: none;
+			color: #ff6900;
+			text-shadow: none;
+			opacity:1;
+		}
+		.ticker-content.format-letter span.highlight {
+			background-color:#ffff64;
+			background-image:none;
+			text-shadow:none;
+			padding-left:2px;
+			padding-right:2px;
+			border-bottom:none;
+		}
+		.ticker-content.format-letter .right-column {
+			float: right;
+			margin: 0;
+			padding: 0 10px;
+			text-align: right;
+			width:19%;
+		}
+		.ticker-content.format-letter .left-column {
+			float: left;
+			margin: 0;
+			padding: 0 10px;
+			text-align: left;
+			width: 19%;
+		}
+		.ticker-content.format-letter .center-column {
+			margin: 0 10px;
+			padding: 0 0 0 30px;
+			width: 62%;
+			overflow: hidden;
+		}
+		.ticker-content.format-letter p.salutation {
+			font-size:1.5rem;
+			margin-bottom: 1rem;
+			margin-top:0;
+			line-height: 1.125;
+		}
+		.ticker-content.format-letter .right-column .btn-primary {
+			border-radius:.5rem;
+			margin-top: 5px;
+			text-align: center;
+			width: 80%;
+			zoom: 80%;
+			background-image: none !important;
+		}
+		.ticker-content.format-letter p.letter-body {
+			font-family: Calluna, serif;
+			font-weight:normal;
+			position:relative;
+			margin: 0;
+		}
+		.ticker-content.format-letter p.letter-body .btn-primary {
+			margin-left:0;
+			display:inline-block;
+			margin-top: .5rem;
+            margin-bottom: .5rem;
+			vertical-align: text-bottom;
+		}
+		.ticker-content.format-letter .ticker-mobile {
+			display:none;
+		}
+		.ticker-content.format-letter p.letter-body span.ticker-intro {
+			font-weight: bold;
+			font-family: Calluna, serif;
+		}
+        .ticker-content.format-letter p.don-button {
+            text-align:center;
+            margin: 5px auto;
+        }
+		@media only screen and (max-width: 992px) {
+			#ticker .widget {
+				padding:0;
+			}
+			.ticker-content.format-letter p.letter-body {
+				padding-right: 20px;
+			}
+			.ticker-content.format-letter .right-column .btn-primary {
+				padding: 10% !important;
+			}
+		}
+		@media only screen and (max-width: 768px) {
+			.ticker-content.format-letter .ticker-mobile {
+				display:block;
+				padding: 0 .75rem;
+                text-align:left;
+			}
+			.ticker-content.format-letter .ticker-desktop {
+				display:none;
+			}
+			.ticker-content.format-letter .right-column {
+				width: 90px;
+				position:absolute;
+				bottom:3rem;
+				right:1rem;
+				margin:1rem;
+			}
+			.ticker-content.format-letter .letter-signature {
+				max-width:160px;
+			}
+			.ticker-content.format-letter p.letter-body .btn-primary {
+				position:relative;
+				display:block;
+				/*margin-left:0;*/
+				margin-top:1rem;
+				/*margin: 1rem auto;*/
+				zoom:80%;
+			}
+            .ticker-content.format-letter p.letter-body {
+                text-align:left;
+				margin: 1rem 0 0 0;
+				width: 100%;
+				padding-right:0;
+            }
+		}
+		@media only screen and (max-width: 400px) {
+			.ticker-content.format-letter .letter-title {
+				display:block;
+			}
+			.ticker-content.format-letter .right-column {
+				width: 80px;
+				margin:1.5rem 1rem;
+			}
+		}
+	</style>
+	<div class="ticker-desktop">
+		<div class="right-column"><a data-ga-category="MembershipBar" data-ga-label="Donate" href="https://secure.motherjones.com/flex/mj/key/7LIGHTA/src/7AHPR72%7CPAHPR72/" style="background-image: none !important;" target="_blank"><button class="btn-primary">Donate Now</button></a></div>
+		<div class="left-column"><p class="salutation">Double your impact. <br />Defend the truth.</p></div>
+		<div class="center-column"><p class="letter-body"><span class="highlight">Trump sues and silences the press to try and avoid accountability</span>. But <em>Mother Jones</em> won’t be intimidated. <strong>Now through September 30, your donation will be matched dollar-for-dollar thanks to a $50,000 online challenge grant</strong>. That means twice the impact to power our fearless reporting. The truth is under attack. Please stand with us. </p></div>
+	</div>
+	<div class="ticker-mobile">
+		<p class="letter-body"><span class="highlight">Trump sues and silences the press to try and avoid accountability</span>. But <em>Mother Jones</em> won’t be intimidated. <strong>Now through September 30, your donation will be matched dollar-for-dollar thanks to a $50,000 online challenge grant</strong>. That means twice the impact to power our fearless reporting. The truth is under attack. Please stand with us.</p>
+		<p class="letter-body don-button"><a data-ga-category="MembershipBar" data-ga-label="Donate" href="https://secure.motherjones.com/flex/mj/key/7LIGHTA/src/7AHPMSH%7CPAHPMSH/" style="background-image: none !important;" target="_blank" ><button class="btn-primary">Donate Now</button></a></p>
+	</div>
+</div>	</div></section></div>	</header><!-- .site-header -->
+
+<main id="main" role="main" class="hnews hentry grid post-161491 post type-post status-publish format-standard has-post-thumbnail category-politics tag-corporations tag-human-rights tag-labor tag-tech mj_content_type-article featured-media featured-media-image" itemscope itemtype="http://schema.org/Article">
+<div id="main-inner" class="grid">
+	<header class="entry-header grid">
+	<div class="mj-header-left col-lg-1"></div>
+	<div class="mj-header-middle col-lg-7 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+		<div class="mj-top-flag"><ul class="post-categories">
+	<li><a href="https://www.motherjones.com/./politics/" rel="category tag">Politics</a></li></ul><span class="dateline"><a href="http://motherjones.com/toc/2012/03">March/April 2012 Issue</a></span></div><h1 class="entry-title">I Was a Warehouse Wage Slave</h1><h2 class="dek">My brief, backbreaking, rage-inducing, low-paying, dildo-packing time inside the online-shipping machine.</h2>		<div class="widget mj-author-links"><ul class="author-bios article end group">						<li class="author-bio group vcard">
+							<div class="author-image"><a href="https://www.motherjones.com/author/gabriel-mac/" rel="author" data-ga-category="TopOfArticle" data-ga-label="authorPhoto" data-ga-action="https://www.motherjones.com/author/gabriel-mac/"><img width="60" height="60" src="https://www.motherjones.com/wp-content/uploads/2021/04/GabrielMac-900px.jpg?w=60&amp;h=60&amp;crop=1" class="attachment-author_image size-author_image wp-post-image" alt="Gabriel Mac" decoding="async" srcset="https://www.motherjones.com/wp-content/uploads/2021/04/GabrielMac-900px.jpg 900w, https://www.motherjones.com/wp-content/uploads/2021/04/GabrielMac-900px.jpg?resize=321,321 321w, https://www.motherjones.com/wp-content/uploads/2021/04/GabrielMac-900px.jpg?resize=354,354 354w, https://www.motherjones.com/wp-content/uploads/2021/04/GabrielMac-900px.jpg?resize=50,50 50w, https://www.motherjones.com/wp-content/uploads/2021/04/GabrielMac-900px.jpg?resize=642,642 642w, https://www.motherjones.com/wp-content/uploads/2021/04/GabrielMac-900px.jpg?resize=768,768 768w, https://www.motherjones.com/wp-content/uploads/2021/04/GabrielMac-900px.jpg?resize=60,60 60w" sizes="(max-width: 60px) 85vw, 60px" /></a></div><div class="author-data"><h3 class="byline"><span class="fn n"><a class="url" href="https://www.motherjones.com/author/gabriel-mac/" rel="author" title="See all posts by Gabriel Mac" data-ga-category="TopOfArticle" data-ga-label="authorName" data-ga-action="https://www.motherjones.com/author/gabriel-mac/">Gabriel Mac</a></span></h3><a class="byline-bio" href="https://www.motherjones.com/author/gabriel-mac/" rel="author" title="See all posts by this author" data-ga-category="TopOfArticle" data-ga-label="authorBio" data-ga-action="https://www.motherjones.com/author/gabriel-mac/">Bio</a></div>
+						</li>
+				</ul></div>	</div>
+	<div class="mj-header-right col-lg-4"></div>
+</header><!-- .entry-header -->
+
+<div class="mj-article-left offset-1 col-lg-1 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+		<div class="social-container top hidden-md hidden-sm hidden-xs hidden-xxs"><ul><li class="facebook"><a class="social" href="http://facebook.com/sharer.php?u=https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F" target="_blank" data-ga-label="FacebookShare" data-ga-category="TopOfArticle" aria-label="Share on Facebook"><i class="icon-facebook"></i><span class="share-text">Share on Facebook</span></a></li>
+		 <li class="twitter"><a class="social" target="_blank" aria-label="Share on Twitter" href="https://x.com/intent/tweet?text=I%20was%20a%20warehouse%20wage%20slave&url=https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F&amp;via=MotherJones" data-ga-label="TwitterShare" data-ga-category="TopOfArticle"><i class="icon-twitter"></i><span class="share-text">Share on Twitter</span></a></li><li class="bluesky"><a class="social" target="_blank" aria-label="Share on Bluesky" href="https://bsky.app/intent/compose?text=I%20was%20a%20warehouse%20wage%20slave https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F"  data-ga-label="BlueskyShare" data-ga-category="TopOfArticle"><i class="icon-bluesky"><?xml version="1.0" encoding="UTF-8"?>
+<svg style="position: absolute" width="600" height="530" version="1.1" viewBox="0 0 600 540" xmlns="http://www.w3.org/2000/svg">
+ <path d="m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z" fill="#000"/>
+</svg></i><span class="share-text">Share on Bluesky</span></a></li><li class="email"><a href="mailto:?subject=I%20Was%20a%20Warehouse%20Wage%20Slave&body=My%20brief%2C%20backbreaking%2C%20rage-inducing%2C%20low-paying%2C%20dildo-packing%20time%20inside%20the%20online-shipping%20machine.0https%3A%2F%2Fwww.motherjones.com%2Fpolitics%2F2012%2F02%2Fmac-mcclelland-free-online-shipping-warehouses-labor%2F" aria-label="Share via Email" target="_blank" data-ga-label="Email" data-ga-category="TopOfArticle"><i class="icon-mail"></i><span class="share-text">Email</span></a></li><li class="comment"><a href="#comment-container" aria-label="Comment" data-ga-label="Comment" data-ga-category="TopOfArticle" onclick="mj_display_comments();"><i class="icon-comment"></i><span class="share-text">Comments</span></a></li></ul></div>	</div>
+
+<div class="mj-article-middle col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+		<section id="post-161491" class="main-col">
+
+<article class="entry-content" itemprop="articleBody">
+				
+				<div class="mj-floating-ad-wrapper">
+					<div id="rhc-atf" class="ad"><!-- Tag ID: motherjones_right_rail_1 -->
+            <div id="ROS_ATF_300x600">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "motherjones_right_rail_1",
+                        slotId: "ROS_ATF_300x600"
+                    });
+                </script>
+            </div></div>				</div>
+
+<div class="hero is-image ">
+	<img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/cover_372_720-630.jpg?w=990" class="skip-lazy wp-post-image" alt="" decoding="async" fetchpriority="high" /><p class="wp-caption-text"><span class="media-credit">Illustration by Mark Matcho</p></div>
+
+<div class="mj-text-cta">Get your news from a source that’s not owned and controlled by oligarchs. <a href="https://www.motherjones.com/newsletters/?mj_oac=Article_Top_No_Oligarchs" data-ga-category="TopOfArticle" data-ga-label="NewsletterPromoCovid" data-ga-action="click|https://www.motherjones.com/newsletters/?mj_oac=Article_Top_Support">Sign up for the free <em>Mother Jones Daily</em>.</a></div><p><span class="section-lead">&#8220;Don&#8217;t take anything</span> that happens to you there personally,&#8221; the woman at the local chamber of commerce says when I tell her that tomorrow I start working at &#8220;Amalgamated Product Giant Shipping Worldwide Inc.&#8221; She winks at me. I stare at her for a second.</p>
+<p>&#8220;<em>What?</em>&#8221; I ask. &#8220;Why, is <a href="http://motherjones.com/politics/2011/12/slave-elves-online-shipping" target="_blank" rel="noopener">somebody going to be mean to me</a> or something?&#8221;</p>
+<p>She smiles. &#8220;Oh, yeah.&#8221; This town somewhere west of the Mississippi is not big; everyone knows someone or<em> is</em> someone who&#8217;s worked for Amalgamated. &#8220;But look at it from their perspective. They need you to work as fast as possible to push out as much as they can as fast as they can. So they&#8217;re gonna give you goals, and then you know what? If you make those goals, they&#8217;re gonna increase the goals. But they&#8217;ll be yelling at you all the time. It&#8217;s like the military. They have to break you down so they can turn you into what they want you to be. So they&#8217;re going to tell you, &#8216;You&#8217;re not good enough, you&#8217;re not good enough, you&#8217;re not good enough,&#8217; to make you work harder. Don&#8217;t say, &#8216;This is the best I can do.&#8217; Say, &#8216;I&#8217;ll try,&#8217; even if you know you can&#8217;t do it. Because if you say, &#8216;This is the best I can do,&#8217; they&#8217;ll let you go. They hire and fire constantly, every day. You&#8217;ll see people dropping all around you. But don&#8217;t take it personally and break down or start crying when they yell at you.&#8221;</p>
+<p>Several months prior, I&#8217;d <a href="http://motherjones.com/rights-stuff/2011/07/ohio-warehouse-temps-unemployment" target="_blank" rel="noopener">reported on an Ohio warehouse</a> where workers shipped products for online retailers under conditions that were surprisingly demoralizing and dehumanizing, even to someone who&#8217;s spent a lot of time working in warehouses, which I have. And then my editors sat me down. &#8220;We want you to go work for Amalgamated Product Giant Shipping Worldwide Inc.,&#8221; they said. I&#8217;d have to give my real name and job history when I applied, and I couldn&#8217;t lie if asked for any specifics. (I wasn&#8217;t.) But I&#8217;d smudge identifying details of people and the company itself. Anyway, to do otherwise might give people the impression that these conditions apply only to one warehouse or one company. <a href="http://motherjones.com/rights-stuff/2011/09/amazon-warehouse-heat-shipping" target="_blank" rel="noopener">Which they don&#8217;t.</a></p>
+<p>So I fretted about whether I&#8217;d have to abort the application process, like if someone asked me why I wanted the job. But no one did. And though I was kind of excited to trot out my warehouse experience, mainly all I needed to get hired was to confirm 20 or 30 times that I had not been to prison.</p>
+<p>The application process took place at a staffing office in a run-down city, the kind where there are boarded-up businesses and broken windows downtown and billboards advertising things like &#8220;Foreclosure Fridays!&#8221; at a local law firm. Six or seven other people apply for jobs along with me. We answer questions at computers grouped in several stations. Have I ever been to prison? the system asks. No? Well, but have I ever been to prison for assault? Burglary? A felony? A misdemeanor? Raping someone? Murdering anybody? Am I sure? There&#8217;s no point in lying, the computer warns me, because criminal-background checks are run on employees. Additionally, I have to confirm at the next computer station that I can read, by taking a multiple-choice test in which I&#8217;m given pictures of several album covers, including Michael Jackson&#8217;s <em>Thriller</em>, and asked what the name of the Michael Jackson album is. At yet another set of computers I&#8217;m asked about my work history and character. How do I feel about dangerous activities? Would I say I&#8217;m not really into them? Or <em>really</em> into them?</p>
+<figure  class="inline-image alignnone" style="max-width: 400px;"><img loading="lazy" decoding="async" class="size-fullwidth_portrait jetpack-lazy-image jetpack-lazy-image--handled" src="/wp-content/uploads/images/shipping_f_400px.jpg" alt="" width="400" height="312" data-lazy-loaded="1"><figcaption class="wp-caption-text"><span class="media-credit">Macduff Everton/Corbis</span></p>
+</figcaption></figure>
+<p>In the center of the room, a video plays loudly and continuously on a big screen. Even more than you are hurting the company, a voice-over intones as animated people do things like accidentally oversleep, you are hurting yourself when you are late because you will be penalized on a point system, and when you get too many points, you&#8217;re fired—unless you&#8217;re late at any point during your first week, in which case you are instantly fired. Also because when you&#8217;re late or sick you miss the opportunity to maximize your overtime pay. And working more than eight hours is mandatory. Stretching is also mandatory, since you will either be standing still at a conveyor line for most of your minimum 10-hour shift or walking on concrete or metal stairs. And be careful, because you could seriously hurt yourself. And watch out, because some of your coworkers will be the kind of monsters who will file false workers&#8217; comp claims. If you know of someone doing this and you tell on him and he gets convicted, you will be rewarded with $500.</p>
+<p>The computers screening us for suitability to pack boxes or paste labels belong to a temporary-staffing agency. The stuff we order from big online retailers lives in large warehouses, owned and operated either by the retailers themselves or by third-party logistics contractors, a.k.a. 3PLs. These companies often fulfill orders for more than one retailer out of a single warehouse. America&#8217;s largest 3PL, Exel, has 86 million square feet of warehouse in North America; it&#8217;s a subsidiary of Deutsche Post DHL, which is cute because Deutsche Post is the German post office, which was privatized in the 1990s and bought DHL in 2002, becoming one of the world&#8217;s biggest corporate employers. The $31 billion &#8220;value-added warehousing and distribution&#8221; sector of 3PLs is just a fraction of what large 3PLs&#8217; parent companies pull in. UPS&#8217;s logistics division, for example, pulls in more than a half a billion, but it feeds billions of dollars of business to UPS Inc.</p>
+<div class="pullquote-left">&#8220;Leave your pride and your personal life at the door,&#8221; the lady at the chamber of commerce says, if I want to last as an online warehouse worker.</div>
+<p>Anyhow, regardless of whether the retailer itself or a 3PL contractor houses and processes the stuff you buy, the actual stuff is often handled by people working for yet another company—a temporary-staffing agency. The agency to which I apply is hiring 4,000 drones for this single Amalgamated warehouse between October and December. Four thousand. Before leaving the staffing office, I&#8217;m one of them.</p>
+<p>I&#8217;m assigned a schedule of Sunday through Thursday, 7 a.m. to 5:30 p.m. When additional overtime is necessary, which it will be soon (Christmas!), I should expect to leave at 7 or 7:30 p.m. instead. Eight days after applying, i.e., after my drug test has cleared, I walk through a small, desolate town nearly an hour outside the city where I was hired. This is where the warehouse is, way out here, a long commute for many of my coworkers. I wander off the main road and into the chamber of commerce to kill some afternoon time—though not too much since my first day starts at 5 a.m.—but I end up getting useful job advice.</p>
+<p>&#8220;Well, what if I do start crying?&#8221; I ask the woman who warns me to keep it together no matter how awfully I&#8217;m treated. &#8220;Are they really going to fire me for that?&#8221;</p>
+<p>&#8220;Yes,&#8221; she says. &#8220;There&#8217;s 16 other people who want your job. Why would they keep a person who gets emotional, especially in this economy?&#8221;</p>
+<p>Still, she advises, regardless of how much they push me, don&#8217;t work so hard that I injure myself. I&#8217;m young. I have a long life ahead of me. It&#8217;s not worth it to do permanent physical damage, she says, which, considering that I got hired at elevensomething dollars an hour, is a bit of an understatement.</p>
+<p>As the sun gets lower in the curt November sky, I thank the woman for her help. When I start toward the door, she repeats her &#8220;No. 1 rule of survival&#8221; one more time.</p>
+<p>&#8220;Leave your pride and your personal life at the door.&#8221; If there&#8217;s any way I&#8217;m going to last, she says, tomorrow I have to start pretending like I don&#8217;t have either.</p>
+<p><span class="section-lead">Though it&#8217;s</span> inconvenient for most employees, the rural location of the Amalgamated Product Giant Shipping Worldwide Inc. warehouse isn&#8217;t an accident. The town is bisected by a primary interstate, close to a busy airport, serviced by several major highways. There&#8217;s a lot of rail out here. The town became a station stop on the way to more important places a hundred years ago, and it now feeds part of the massive transit networks used to get consumers anywhere goods from everywhere. Every now and then, a long line of railcars rolls past my hotel and gives my room a good shake. I don&#8217;t ever get a good look at them, because it&#8217;s dark outside when I go to work, and dark again when I get back.</p>
+<div class="pullquote-right">We are surrounded by signs that state our productivity goals. Other signs proclaim that a good customer experience, to which our goal-meeting is essential, is the key to growth, and growth is the key to lower prices, which leads to a better customer experience. There is no room for inefficiencies.</div>
+<p>Inside Amalgamated, an employee&#8217;s first day is training day. Though we&#8217;re not paid to be here until 6, we have been informed that we need to arrive at 5. If we don&#8217;t show up in time to stand around while they sort out who we are and where they&#8217;ve put our ID badges, we could miss the beginning of training, which would mean termination. &#8220;I was up half the night because I was so afraid I was going to be late,&#8221; a woman in her 60s tells me. I was, too. A minute&#8217;s tardiness after the first week earns us 0.5 penalty points, an hour&#8217;s tardiness is worth 1 point, and an absence 1.5; 6 is the number that equals &#8220;release.&#8221; But during the first week even a minute&#8217;s tardiness gets us fired. When we get lined up so we can be counted a third or fourth time, the woman conducting the roll call recognizes the last name of a young trainee. &#8220;Does your dad work here? Or uncle?&#8221; she asks. &#8220;Grandpa,&#8221; he says, as another supervisor snaps at the same time, sounding not mean but very stressed out, &#8220;We gotta get goin&#8217; here.&#8221;</p>
+<p>The culture is intense, an Amalgamated higher-up acknowledges at the beginning of our training. He&#8217;s speaking to us from a video, one of several videos—about company policies, sexual harassment, etc.—that we watch while we try to keep our eyes open. We don&#8217;t <em>want </em>to be so intense, the higher-up says. But our customers demand it. We are surrounded by signs that state our productivity goals. Other signs proclaim that a good customer experience, to which our goal-meeting is essential, is the key to growth, and growth is the key to lower prices, which leads to a better customer experience. There is no room for inefficiencies. The gal conducting our training reminds us again that we cannot miss any days our first week. There are <em>NO</em> exceptions to this policy. She says to take Brian, for example, who&#8217;s here with us in training today. Brian already went through this training, but then during his first week his lady had a baby, so he missed a day and he had to be fired. Having to start the application process over could cost a brand-new dad like Brian a couple of weeks&#8217; worth of work and pay. Okay? Everybody turn around and look at Brian. Welcome back, Brian. Don&#8217;t end up like Brian.</p>
+<p>Soon, we move on to practical training. Like all workplaces with automated and heavy machinery, this one contains plenty of ways to get hurt, and they are enumerated. There are transition points in the warehouse floor where the footing is uneven, and people trip and sprain ankles. Give forklifts that are raised up several stories to access products a wide berth: &#8220;If a pallet falls on you, you won&#8217;t be working with us anymore.&#8221; Watch your fingers around the conveyor belts that run waist-high throughout the entire facility. People lose fingers. Or parts of fingers. And about once a year, they tell us, someone in an Amalgamated warehouse gets caught by the hair, and when a conveyor belt catches you by the hair, it doesn&#8217;t just take your hair with it. It rips out a piece of scalp as well.</p>
+<p>If the primary message of one-half of our practical training is Be Careful, the takeaway of the other half is Move As Fast As Humanly Possible. Or superhumanly possible. I have been hired as a picker, which means my job is to find, scan, place in a plastic tote, and send away via conveyor whatever item within the multiple stories of this several-hundred-thousand-square-foot warehouse my scanner tells me to. We are broken into groups and taught how to read the scanner to find the object among some practice shelves. Then we immediately move on to practicing doing it faster, racing each other to fill the orders our scanners dictate, then racing each other to put all the items back.</p>
+<figure  class="inline-image alignnone" style="max-width: 400px;"><img loading="lazy" decoding="async" class="image image-preview " title="Home Depot: Chris Mueller/Redux" src="/wp-content/uploads/images/shipping_b.jpg" alt="Home Depot: Chris Mueller/Redux" width="400" height="318"><figcaption class="wp-caption-text"><span class="media-credit"><strong>Home Depot</strong> Chris Mueller/Redux</span></p>
+</figcaption></figure>
+<p>&#8220;Hurry up,&#8221; a trainer encourages me when he sees me pulling ahead of the others, &#8220;and you can put the other items back!&#8221; I roll my eyes that my reward for doing a good job is that I get to do more work, but he&#8217;s got my number: I am exactly the kind of freak this sort of motivation appeals to. I win, and set myself on my prize of the bonus errand.</p>
+<p>That afternoon, we are turned loose in the warehouse, scanners in hand. And that&#8217;s when I realize that for whatever relative youth and regular exercise and overachievement complexes I have brought to this job, I will never be able to keep up with the goals I&#8217;ve been given.</p>
+<p>The place is immense. Cold, cavernous. Silent, despite thousands of people quietly doing their picking, or standing along the conveyors quietly packing or box-taping, nothing noisy but the occasional whir of a passing forklift. My scanner tells me in what exact section—there are nine merchandise sections, so sprawling that there&#8217;s a map attached to my ID badge—of vast shelving systems the item I&#8217;m supposed to find resides. It also tells me how many seconds it thinks I should take to get there. Dallas sector, section yellow, row H34, bin 22, level D: wearable blanket. Battery-operated flour sifter. Twenty seconds. I count how many steps it takes me to speed-walk to my destination: 20. At 5-foot-9, I&#8217;ve got a decently long stride, and I only cover the 20 steps <em>and</em> locate the exact shelving unit in the allotted time if I don&#8217;t hesitate for one second or get lost or take a drink of water before heading in the right direction as fast as I can walk or even occasionally jog. Olive-oil mister. Male libido enhancement pills. Rifle strap. Who the fuck buys their paper towels off the internet? Fairy calendar. Neoprene lunch bag. Often as not, I miss my time target.</p>
+<h2 style="border-bottom: 1px solid #333333; text-align: center; padding-bottom: 0.5em; margin: 0pt;"><span style="font-size: 1.4em;">TOP 60</span><br />
+<span style="font-size: 0.8em;">US&nbsp;Online Retailers</span></h2>
+<ol>
+<li>Amazon</li>
+<li>Staples</li>
+<li>Apple</li>
+<li>Dell</li>
+<li>Office Depot</li>
+<li>Walmart</li>
+<li>Sears</li>
+<li>Liberty Media Corp. (QVC)</li>
+<li>Office Max</li>
+<li>CDW Corp.</li>
+<li>Best Buy</li>
+<li>Newegg</li>
+<li>Netflix</li>
+<li>Sony USA</li>
+<li>W.W. Grainger</li>
+<li>Costco</li>
+<li>Macy&#8217;s</li>
+<li>Victoria Secret and Bath &amp; Body Works</li>
+<li>HP Home &amp; Home Office Store</li>
+<li>J.C. Penney</li>
+<li>L.L. Bean</li>
+<li>Target</li>
+<li>Systemax</li>
+<li>Gap</li>
+<li>Williams-Sonoma</li>
+<li>HSN</li>
+<li>Overstock.com</li>
+<li>Amway Global</li>
+<li>Toys R Us</li>
+<li>Avon</li>
+<li>Kohl&#8217;s</li>
+<li>Buy.com</li>
+<li>Redcats USA</li>
+<li>Nordstrom</li>
+<li>Symantec</li>
+<li>Vistaprint</li>
+<li>PC Connection</li>
+<li>Saks</li>
+<li>Neiman Marcus</li>
+<li>Cabela&#8217;s</li>
+<li>Barnes &amp; Noble</li>
+<li>Blockbuster</li>
+<li>Home Depot</li>
+<li>Musician&#8217;s Friend</li>
+<li>1-800-Flowers.com</li>
+<li>Drugstore.com</li>
+<li>Peapod</li>
+<li>Urban Outfitters</li>
+<li>Gilt Groupe</li>
+<li>J. Crew Group</li>
+<li>CSN Stores</li>
+<li>PC Mall</li>
+<li>Foot Locker</li>
+<li>Scholastic</li>
+<li>Crate and Barrel</li>
+<li>Abercrombie &amp; Fitch</li>
+<li>American Eagle Outfitters</li>
+<li>Follett Higher Education group</li>
+<li>US Auto Parts Network</li>
+<li>Blue Nile</li>
+</ol>
+<p><em>Source: <a href="http://www.top500guide.com/" target="_blank" rel="noopener">Internet Retailer Top 500 Guide</a></em></p>
+<p>Plenty of things can hurt my goals. The programs for our scanners are designed with the assumption that we disposable employees don&#8217;t know what we&#8217;re doing. Find a Rob Zombie Voodoo Doll in the blue section of the Rockies sector in the third bin of the A-level in row Z42, my scanner tells me. But if I punch into my scanner that it&#8217;s not there, I have to prove it by scanning every single other item in the bin, though I swear on my life there&#8217;s no Rob Zombie Voodoo Doll in this pile of 30 individually wrapped and bar-coded batteries that take me quite a while to beep one by one. It could be five minutes before I can move on to, and make it to, and find, my next item. That lapse is supposed to be mere seconds.</p>
+<p>This week, we newbies need to make 75 percent of our total picking-volume targets. If we don&#8217;t, we get &#8220;counseled.&#8221; If the people in here who&#8217;ve been around longer than a few weeks don&#8217;t make their <em>100</em> percent, they get counseled. <em>Why</em> aren&#8217;t you making your targets? the supervisors will ask. You <em>really</em> need to make your targets.</p>
+<div class="pullquote-left">More than 15 percent of pickers, packers, movers, and unloaders are temps. They make $3 less an hour on average than permanent workers. And they can be &#8220;temporary&#8221; for years.</div>
+<p>From the temp agency, Amalgamated has ordered the exact number of humans it should take to fill this week&#8217;s orders if we work at top capacity. Lots of retailers use temporary help in peak season, and online ones are no exception. But lots of warehousing and distribution centers like this also use temps year-round. The <a href="http://www.bls.gov/oes/current/oes537064.htm" target="_blank" rel="noopener">Bureau of Labor Statistics</a> found that more than 15 percent of pickers, packers, movers, and unloaders are temps. They make $3 less an hour on average than permanent workers. And they can be &#8220;temporary&#8221; for years. There are so many temps in this warehouse that the staffing agency has its own office here. Industry consultants describe the temp-staffing business as &#8220;very, very busy.&#8221; &#8220;On fire.&#8221; Maximizing profits means making sure no employee has a slow day, means having only as many employees as are necessary to get the job done, the number of which can be determined and ordered from a huge pool of on-demand labor literally by the day. Often, temp workers have to call in before shifts to see if they&#8217;ll get work. Sometimes, <a href="http://www.huffingtonpost.com/2011/12/20/new-blue-collar-temp-warehouses_n_1158490.html" target="_blank" rel="noopener">they&#8217;re paid piece rate</a>, according to the number of units they fill or unload or move. Always, they can be let go in an instant, and replaced just as quickly.</p>
+<p>Everyone in here is hustling. At the announcement to take one of our two 15-minute breaks, we hustle even harder. We pickers close out the totes we&#8217;re currently filling and send them away on the conveyor belt, then make our way as fast as we can with the rest of the masses across the long haul of concrete between wherever we are and the break room, but not before passing through metal detectors, for which there is a line—we&#8217;re required to be screened on our way out, though not on our way in; apparently the concern is that we&#8217;re sneaking Xbox 360s up under our shirts, not bringing in weapons. If we <em>don&#8217;t</em> set off the metal detector and have to be taken aside and searched, we can run into the break room and try to find a seat among the rows and rows and long-ass rows of tables. We lose more time if we want to pee—and I do want to pee, and when amid the panic about the time constraints it occurs to me that I don&#8217;t have my period I toss a fist victoriously into the air—between the actual peeing and the waiting in line to pee in the nearest one of the two bathrooms, which has eight stalls in the ladies&#8217; and I&#8217;m not sure how many in the men&#8217;s and serves thousands of people a day. Once I pare this process down as much as possible, by stringing a necktie through my belt loops because I can&#8217;t find a metal-less replacement for my belt at the local Walmart—and if my underwear or butt-crack slips out, I&#8217;ve been warned, I can get penalized—and by leaving my car keys in the break room after a manager helps me find an admittedly &#8220;still risky&#8221; hiding place for them because we have no lockers and &#8220;things get stolen out of here all the time,&#8221; I get myself up to seven minutes&#8217; worth of break time to inhale as many high-fat and -protein snacks as I can. People who work at Amalgamated are always working this fast. Right now, because it&#8217;s almost Black Friday, there are just more of us doing it.</p>
+<p>Then as quickly as we&#8217;ve come, we all run back. At the end of the 15 minutes, we&#8217;re supposed to be back at whichever far-flung corner of the warehouse we came from, scanners in hand, working. We run to grab the wheeled carts we put the totes on. We run past each other and if we do say something, we say it as we keep moving. &#8220;How&#8217;s the job market?&#8221; a supervisor says, laughing, as several of us newbies run by. &#8220;Just kidding!&#8221; Ha ha! &#8220;I know why you guys are here. That&#8217;s why I&#8217;m here, too!&#8221; At another near collision between employees, one wants to know how complaining about not being able to get time off went and the other spits that he was told he was lucky to <em>have</em> a job. This is no way to have a conversation, but at least conversations are not forbidden, as they were in the Ohio warehouse I reported on—where I saw a guy get fired for talking, specifically for asking another employee, &#8220;Where are you from?&#8221; So I&#8217;m allowed the extravagance of smiling at a guy who is always so unhappy and saying, &#8220;How&#8217;s it goin&#8217;?&#8221; And he can respond, &#8220;Terrible,&#8221; as I&#8217;m running to the big industrial cage-lift that takes our carts up to the second or third floors, which involves walking under a big metal bar gating the front of it, and which I should really take my time around. Within the last month, three different people have needed stitches in the head after being clocked by these big metal bars, so it&#8217;s dangerous. Especially the lift in the Dallas sector, whose bar has been installed wrong, so it is extra prone to falling, they tell us. Be careful. Seriously, though. We really need to meet our goals here.</p>
+<div class="pullquote-left">It&#8217;s a welcome distraction from the pain to imagine all these sex toys being taken out from under a tree and unwrapped. Merry Christmas. I got you this giant black cock you wanted.</div>
+<p>Amalgamated has estimated that we pickers speed-walk an average of 12 miles a day on cold concrete, and the twinge in my legs blurs into the heavy soreness in my feet that complements the pinch in my hips when I crouch to the floor—the pickers&#8217; shelving runs from the floor to seven feet high or so—to retrieve an iPad protective case. iPad anti-glare protector. iPad one-hand grip-holder device. Thing that looks like a landline phone handset that plugs into your iPad so you can pretend that rather than talking via iPad you are talking on a phone. And dildos. Really, a staggering number of dildos. At breaks, some of my coworkers complain that they have to handle so many dildos. But it&#8217;s one of the few joys of my day. I&#8217;ve started cringing every time my scanner shows a code that means the item I need to pick is on the ground, which, in the course of a 10.5-hour shift—much less the mandatory 12-hour shifts everyone is slated to start working next week—is literally hundreds of times a day. &#8220;How has OSHA signed off on this?&#8221; I&#8217;ve taken to muttering to myself. &#8220;<em>Has </em>OSHA signed off on this?&#8221; (&#8220;The thing about ergonomics,&#8221; OSHA says when I call them later to ask, &#8220;is that OSHA doesn&#8217;t have a standard. Best practices. But no laws.&#8221;) So it&#8217;s a welcome distraction, really, to imagine all these sex toys being taken out from under a tree and unwrapped. Merry Christmas. I got you this giant black cock you wanted.</p>
+<p>At lunch, the most common question, aside from &#8220;Which offensive dick-shaped product did you handle the most of today?&#8221; is &#8220;Why are you here?&#8221; like in prison. A guy in his mid-20s says he&#8217;s from Chicago, came to this state for a full-time job in the city an hour away from here because &#8220;Chicago&#8217;s going down.&#8221; His other job doesn&#8217;t pay especially well, so he&#8217;s here—pulling 10.5-hour shifts and commuting two hours a day—anytime he&#8217;s not there. One guy says he&#8217;s a writer; he applies for grants in his time off from the warehouse. A middle-aged lady near me used to be a bookkeeper. She&#8217;s a peak-season hire, worked here last year during Christmas, too. &#8220;What do you do the rest of the year?&#8221; I ask. &#8220;Collect unemployment!&#8221; she says, and laughs the sad laugh you laugh when you&#8217;re saying something really unfunny. All around us in the break room, mothers frantically call home. &#8220;Hi, baby!&#8221; you can hear them say; coos to children echo around the walls the moment lunch begins. It&#8217;s brave of these women to keep their phones in the break room, where theft is so high—they can&#8217;t keep them in their cars if they want to use them during the day, because we aren&#8217;t supposed to leave the premises without permission, and they can&#8217;t take them onto the warehouse floor, because &#8220;nothing but the clothes on your backs&#8221; is allowed on the warehouse floor (<em>anything</em> on your person that Amalgamated sells can be confiscated—&#8221;And what does Amalgamated sell?&#8221; they asked us in training. &#8220;Everything!&#8221;). I suppose that if I were responsible for a child, I would have no choice but to risk leaving my phone in here, too. But the mothers make it quick. &#8220;How are you doing?&#8221; &#8220;Is everything okay?&#8221; &#8220;Did you eat something?&#8221; &#8220;I love you!&#8221; and then they&#8217;re off the phone and eating as fast as the rest of us. Lunch is 29 minutes and 59 seconds—we&#8217;ve been reminded of this: &#8220;Lunch is <em>not</em> 30 minutes and 1 second&#8221;—that&#8217;s a penalty-point-earning offense—and that includes the time to get through the metal detectors and use the disgustingly overcrowded bathroom—the suggestion board hosts several pleas that someone do something about that smell—and time to stand in line to clock out and back in. So we chew quickly, and are often still chewing as we run back to our stations.</p>
+<figure  class="inline-image alignnone" style="max-width: 400px;"><img loading="lazy" decoding="async" class="size-fullwidth_portrait jetpack-lazy-image jetpack-lazy-image--handled" src="/wp-content/uploads/images/shipping_e.jpg" alt="" width="400" height="267" data-lazy-loaded="1"><figcaption class="wp-caption-text"><span class="media-credit"><strong>Amazon</strong> Macduff Everton/Corbis</span></p>
+</figcaption></figure>
+<p>The days blend into each other. But it&#8217;s near the end of my third day that I get written up. I sent two of some product down the conveyor line when my scanner was only asking for one; the product was boxed in twos, so I should&#8217;ve opened the box and separated them, but I didn&#8217;t notice because I was in a hurry. With an hour left in the day, I&#8217;ve already picked 800 items. Despite moving fast enough to get sloppy, my scanner tells me that means I&#8217;m fulfilling only 52 percent of my goal. A supervisor who is a genuinely nice person comes by with a clipboard listing my numbers. Like the rest of the supervisors, she tries to create a friendly work environment and doesn&#8217;t want to enforce the policies that make this job so unpleasant. But her hands are tied. She needs this job, too, so she has no choice but to tell me something I have never been told in 19 years of school or at any of some dozen workplaces.&#8221;You&#8217;re doing really bad,&#8221; she says.</p>
+<p>I&#8217;ll admit that I did start crying a little. Not at work, thankfully, since that&#8217;s evidently frowned upon, but later, when I explained to someone over Skype that it hurts, oh, how my body hurts after failing to make my goals despite speed-walking or flat-out jogging and pausing every 20 or 30 seconds to reach on my tiptoes or bend or drop to the floor for 10.5 hours, and isn&#8217;t it awful that they fired Brian because he had a baby, and, in fact, when I was hired I signed off on something acknowledging that anyone who leaves without at least a week&#8217;s notice—whether because they&#8217;re a journalist who will just walk off or because they miss a day for having a baby and are terminated—has their hours paid out not at their hired rate but at the legal minimum. Which in this state, like in lots of states, is about $7 an hour. Thank God that I (unlike Brian, probably) didn&#8217;t need to pay for opting into Amalgamated&#8217;s &#8220;limited&#8221; health insurance program. Because in my 10.5-hour day I&#8217;ll make about $60 after taxes.</p>
+<p>&#8220;This is America?&#8221; my Skype pal asks, because often I&#8217;m abroad.</p>
+<div class="pullquote-right">With an hour left in the day, I&#8217;ve already picked 800 items. Despite moving fast enough to get sloppy, my scanner tells me that means I&#8217;m fulfilling only 52 percent of my goal.</div>
+<p>Indeed, and I&#8217;m working for a gigantic, immensely profitable company. Or for the staffing company that works for that company, anyway. Which is a nice arrangement, because temporary-staffing agencies keep the stink of unacceptable labor conditions off the companies whose names you know. When temps working at a Walmart warehouse sued for not getting paid for all their hours, and for then getting sent home without pay for complaining, Walmart—not technically their employer—<a href="https://www.documentcloud.org/documents/292192-carrillo-vs-schneider-walmart.html" target="_blank" rel="noopener">wasn&#8217;t named as a defendant</a>. (Though Amazon <a href="https://www.documentcloud.org/documents/292190-austin-vs-amazon.html" target="_blank" rel="noopener">has been named</a> in a similar suit.) Temporary staffers aren&#8217;t legally entitled to decent health care because they are just short-term &#8220;contractors&#8221; no matter how long they keep the same job. They aren&#8217;t entitled to raises, either, and they don&#8217;t get vacation and they&#8217;d have a hell of a time unionizing and they don&#8217;t have the privilege of knowing if they&#8217;ll have work on a particular day or for how long they&#8217;ll have a job. And that is how you slash prices and deliver products superfast and offer free shipping and still post profits in the millions or billions.</p>
+<p>&#8220;This really doesn&#8217;t have to be this awful,&#8221; I shake my head over Skype. But it is. And this job is just about the only game in town, like it is in lots of towns, and eventually will be in more towns, with US internet retail sales projected to grow <a href="http://www.forrester.com/ER/Press/Release/0,1769,1367,00.html" target="_blank" rel="noopener">10 percent every year</a> to $279 billion in 2015 and with Amazon, the largest of the online retailers, seeing revenues rise 30 to 40 percent year after year and already having 69 giant warehouses, 17 of which came online in 2011 alone. So butch up, Sally.</p>
+<p><span class="section-lead">&#8220;You look way</span> too happy,&#8221; an Amalgamated supervisor says to me. He has appeared next to me as I work, and in the silence of the vast warehouse, his presence catches me by surprise. His comment, even more so.</p>
+<p>&#8220;Really?&#8221; I ask.</p>
+<p>I don&#8217;t really<em> feel</em> happy. By the fourth morning that I drag myself out of bed long before dawn, my self-pity has turned into actual concern. There&#8217;s a screaming pain running across the back of my shoulders. &#8220;You need to take 800 milligrams of Advil a day,&#8221; a woman in her late 50s or early 60s advised me when we all congregated in the break room before work. When I arrived, I stashed my lunch on a bottom ledge of the cheap metal shelving lining the break room walls, then hesitated before walking away. I cursed myself. I forgot something in the bag, but there was no way to get at it without crouching or bending over, and any extra times of doing that today were times I couldn&#8217;t really afford. The unhappy-looking guy I always make a point of smiling at told me, as we were hustling to our stations, that this is actually the second time he&#8217;s worked here: A few weeks back he missed some time for doctors&#8217; appointments when his arthritis flared up, and though he had notes for the absences, he was fired; he had to start the application process over again, which cost him an extra week and a half of work. &#8220;Zoom zoom! Pick it up! Pickers&#8217; pace, guys!&#8221; we were prodded this morning. Since we already felt like we were moving pretty fast, I&#8217;m quite dispirited, in fact.</p>
+<p>&#8220;<em>Really?</em>&#8221; I ask.</p>
+<p>&#8220;Well,&#8221; the supervisor qualifies. &#8220;Just everybody else is usually really sad or mad by the time they&#8217;ve been working here this long.&#8221;</p>
+<p>It&#8217;s my 28th hour as an employee.</p>
+<p>I probably look happier than I should because I have the extreme luxury of not giving a shit about keeping this job. Nevertheless, I&#8217;m tearing around my assigned sector hard enough to keep myself consistently light-headed and a little out of breath. I&#8217;m working in books today. &#8220;Oh,&#8221; I smiled to myself when I reached the paper-packed shelves. I love being around books.</p>
+<div class="pullquote-left">A hot spark shoots between my hand and the metal shelving, striking enough to make my body learn to fear it.</div>
+<p>Picking books for Amalgamated has a disadvantage over picking dildos or baby food or Barbies, however, in that the shelving numbers don&#8217;t always line up. When my scanner tells me the book I need is on the lowest level in section 28 of a row, section 28 of the eye-level shelf of that row may or may not line up with section 28 of the lowest level. So when I spot eye-level section 28 and squat or kneel on the floor, the section 28 I&#8217;m looking for might be five feet to my right or left. Which means I have to stand up and crouch back down again to get there, greatly increasing the number of times I need to stand and crouch/kneel in a day. Or I can crawl. Usually, I crawl. A coworker is choosing the crouch/kneel option. &#8220;This gets so tiring after a while,&#8221; he says when we pass each other. He&#8217;s 20. It&#8217;s 9:07 a.m.</p>
+<p>There are other disadvantages to working in books. In the summer, it&#8217;s the heat. Lots of the volumes are stored on the second and third floors of this immense cement box; the job descriptions we had to sign off on acknowledged that temperatures can be as low as 60 and higher than 95 degrees, and higher floors tend to be hotter. &#8220;They had to get fans because in the summer people were dying in here,&#8221; one of the supervisors tells us. The fans still blow now even though I&#8217;m wearing five shirts. &#8220;If you think it&#8217;s cold in <em>here</em>,&#8221; one of my coworkers told me when she saw me rubbing my arms for warmth one morning, &#8220;just hope we don&#8217;t have a fire drill.&#8221; They evacuated everyone for one recently, and lots of the fast-moving employees had stripped down to T-shirts. They stood outside, masses of them, shivering for an hour as snow fell on their bare arms.</p>
+<figure  class="inline-image alignnone" style="max-width: 400px;"><img loading="lazy" decoding="async" class="size-fullwidth_portrait jetpack-lazy-image jetpack-lazy-image--handled" src="/wp-content/uploads/images/shipping_c.jpg" alt="" width="400" height="280" data-lazy-loaded="1"><figcaption class="wp-caption-text"><span class="media-credit"><strong>Netflix</strong> Matthew J. Lee/Boston Globe/Getty Images</span></p>
+</figcaption></figure>
+<p>In the books sector, in the cold, in the winter dryness, made worse by the fans and all the paper, I jet across the floor in my rubber-soled Adidas, pant legs whooshing against each other, 30 seconds according to my scanner to take 35 steps to get to the right section and row and bin and level and reach for <em>Diary of a Wimpy Kid</em> and &#8220;FUCK!&#8221; A hot spark shoots between my hand and the metal shelving. It&#8217;s not the light static-electric prick I would terrorize my sister with when we got bored in carpeted department stores, but a solid shock, striking enough to make my body learn to fear it. I start inadvertently hesitating every time I approach my target. One of my coworkers races up to a shelving unit and leans in with the top of his body first; his head touches the metal, and the shock knocks him back. &#8220;Be careful of your head,&#8221; he says to me. In the first two hours of my day, I pick 300 items. The majority of them zap me painfully.</p>
+<p>&#8220;Please tell me you have suggestions for dealing with the static electricity,&#8221; I say to a person in charge when the morning break comes. This conversation is going to cost me a couple of my precious few minutes to eat/drink/pee, but I&#8217;ve started to get paranoid that maybe it&#8217;s not good for my body to exchange an electric charge with metal several hundred times in one day.</p>
+<div class="pullquote-left">&#8220;You&#8217;ll feel carpal tunnel start to set in,&#8221; one of the supervisors told me, &#8220;so you&#8217;ll want to change hands.&#8221;</div>
+<p>&#8220;Oh, are you workin&#8217; in books?&#8221;</p>
+<p>&#8220;Yeah.&#8221;</p>
+<p>&#8220;No. Sorry.&#8221; She means this. I feel bad for the supervisors who are trying their damnedest to help us succeed and not be miserable. &#8220;They&#8217;ve done everything they can&#8221;—&#8221;they&#8221; are not aware, it would appear, that anti-static coating and matting exist—&#8221;to ground things up there but there&#8217;s nothing you can do.&#8221;</p>
+<p>I produce a deep frown. But even if she did have suggestions, I probably wouldn&#8217;t have time to implement them. One suggestion for minimizing work-related pain and strain is to get a stepladder to retrieve any items on shelves above your head rather than getting up on your toes and overreaching. But grabbing one of the stepladders stashed few and far between among the rows of merchandise takes time. Another is to alternate the hand you use to hold and wield your cumbersome scanner. &#8220;You&#8217;ll feel carpal tunnel start to set in,&#8221; one of the supervisors told me, &#8220;so you&#8217;ll want to change hands.&#8221; But that, too, he admitted, costs time, since you have to hit the bar code at just the right angle for it to scan, and your dominant hand is way more likely to nail it the first time. Time is not a thing I have to spare. I&#8217;m still only at 57 percent of my goal. It&#8217;s been 10 years since I was a mover and packer for a moving company, and only slightly less since I worked ridiculously long hours as a waitress and housecleaner. My back and knees were younger then, but I&#8217;m only 31 and feel pretty confident that if I were doing those jobs again I&#8217;d still wake up with soreness like a person who&#8217;d worked out too much, not the soreness of a person whose body was staging a revolt. I can break into goal-meeting suicide pace for short bouts, sure, but I can&#8217;t keep it up for 10.5 hours.</p>
+<p>&#8220;Do not say that,&#8221; one of the workampers tells me at break. Workampers are people who drive RVs around the country, from temporary job to temporary job, docking in trailer camps. &#8220;We&#8217;re retired but we can&#8217;t…&#8221; another explains to me about himself and his wife, shrugging, &#8220;<em>make</em> it. And there&#8217;s no jobs, so we go where the jobs are.&#8221;</p>
+<p>Amalgamated advertises positions on websites workampers frequent. In this warehouse alone, there are hundreds of them.</p>
+<p>&#8220;Never say that you can&#8217;t do it,&#8221; the first workamper emphasizes. &#8220;When they ask you why you aren&#8217;t reaching your goals—&#8221;</p>
+<p>&#8220;Say, &#8216;It&#8217;s because they&#8217;re totally unreasonable&#8217;?&#8221; I suggest.</p>
+<div class="pullquote-left">&#8220;These decisions are made at a business level and are based on cost,&#8221; an industry analyst says. &#8220;I never, ever thought about what they&#8217;re like and how they treat people. Fulfillment centers want to keep clients blissfully ignorant of their conditions.&#8221;</div>
+<p>&#8220;Say you&#8217;ll do better, even if you know you can&#8217;t,&#8221; she continues, ignoring me. &#8220;Say you&#8217;ll try harder, even if the truth is that you&#8217;re trying your absolute hardest right now, no matter how many times they tell you you&#8217;re not doing good enough.&#8221;</p>
+<p>There <em>are</em> people who make the goals. One of the trainers does. She works here all year, not just during Christmas. &#8220;I hated picking for the first month,&#8221; she told me sympathetically the other day. &#8220;Then you just get used to it.&#8221; She&#8217;s one of many hardcore workers here, a labor pool studded with dedicated and solid employees. One of the permanent employees has tried to encourage me by explaining that he <em>always</em> makes his goals, and sometimes makes 120 percent of them. When I ask him if that isn&#8217;t totally exhausting, he says, &#8220;Oh yeah. You&#8217;re gonna be crying for your mommy when today&#8217;s over.&#8221; When I ask him if there&#8217;s any sort of incentive for his overperformance, if he&#8217;s rewarded in any way, he says occasionally Amalgamated enters him in drawings for company gift cards. For $15 or $20. He shrugs when he admits the size of the bonus. &#8220;These days you need it.&#8221; Anyway, he says, he thinks it&#8217;s important to have a good attitude and try to do a good job. Even some of the employees who are total failures are still trying really hard. &#8220;I heard you&#8217;re doing good,&#8221; one of the ladies in my training group says to me. Her eyebrows are heavy with stress. I am still hitting less than 60 percent of my target. Still, that&#8217;s better than she&#8217;s doing. &#8220;Congratulations,&#8221; she says, and smiles sadly.</p>
+<figure  class="inline-image alignnone" style="max-width: 400px;"><img loading="lazy" decoding="async" class="size-fullwidth_portrait jetpack-lazy-image jetpack-lazy-image--handled" src="/wp-content/uploads/images/shipping_d.jpg" alt="Zappos: Brent Humphreys/Redux" width="400" height="319" data-lazy-loaded="1"><figcaption class="wp-caption-text"><span class="media-credit"><strong>Zappos</strong> Brent Humphreys/Redux</span></p>
+</figcaption></figure>
+<p>We will be fired if we say we just can&#8217;t or won&#8217;t get better, the workamper tells me. But so long as I resign myself to hearing how inadequate I am on a regular basis, I can keep this job. &#8220;Do you think this job has to be this terrible?&#8221; I ask the workamper.</p>
+<p>&#8220;Oh, no,&#8221; she says, and makes a face at me like I&#8217;ve asked a stupid question, which I have. As if Amalgamated couldn&#8217;t bear to lose a fraction of a percent of profits by employing a few more than the absolute minimum of bodies they have to, or by storing the merchandise at halfway ergonomic heights and angles. But that would cost space, and space costs money, and money is not a thing customers could possibly be expected to hand over for this service without huffily taking their business elsewhere. Charging for shipping does cause high abandonment rates of online orders, though it&#8217;s not clear whether people wouldn&#8217;t pay a few bucks for shipping, or a bit more for the products, if they were guaranteed that no low-income workers would be tortured or exploited in the handling of their purchases.</p>
+<p>&#8220;The first step is awareness,&#8221; an e-commerce specialist will tell me later. There have been trickles of information leaking out of the Internet Order Fulfillment Industrial Complex: <a href="http://www.mcall.com/news/local/mc-allentown-amazon-complaints-20110917,0,7937001,full.story" target="_blank" rel="noopener">an investigation by the Allentown, Pennsylvania, <em>Morning Call</em></a> in which Amazon workers complained of fainting in stifling heat, being disciplined for getting heat exhaustion, and otherwise being &#8220;treated like a piece of crap&#8221;; <a href="http://gizmodo.com/5433487/the-secret-lives-of-amazons-elves" target="_blank" rel="noopener">a workampers&#8217; blog picked up by <em>Gizmodo</em></a>; <a href="http://www.huffingtonpost.com/2011/12/20/new-blue-collar-temp-warehouses_n_1158490.html" target="_blank" rel="noopener">a <em>Huffington Post</em> exposé</a> about the lasting physical damage and wild economic instability temporary warehouse staffers suffer. And workers have filed lawsuits against online retailers, their logistics companies, and their temp agencies over off-the-clock work and other compensation issues, as well as at least one that details working conditions that are all too similar. (That case has been dismissed but is on appeal.) Still, most people really don&#8217;t know how most internet goods get to them. The e-commerce specialist didn&#8217;t even know, and she was in charge of choosing the 3PL for her midsize online-retail company. &#8220;These decisions are made at a business level and are based on cost,&#8221; she says. &#8220;I never, ever thought about what they&#8217;re like and how they treat people. Fulfillment centers want to keep clients blissfully ignorant of their conditions.&#8221; If you called major clothing retailers, she ventured, and asked them &#8220;what it was like at the warehouse that ships their sweaters, no one at company headquarters would have any fucking clue.&#8221;</p>
+<p>Further, she said, now that I mentioned it, she has no idea how to go about getting any information on the conditions at the 3PL she herself hired. Nor how to find a responsible one. &#8220;A standard has to be created. Like fair trade or organic certification, where social good is built into the cost. There is a segment of the population&#8221;—like the consumers of her company&#8217;s higher-end product, she felt—&#8221;that cares and will pay for it.&#8221;</p>
+<div class="pullquote-left">There&#8217;s no time off on Election Day. &#8220;What if I want to vote?&#8221; I ask a supervisor. &#8220;I think you should!&#8221; he says. &#8220;But if I leave I&#8217;ll get fired,&#8221; I say. To which he makes a sad face before saying, &#8220;Yeah.&#8221;</div>
+<p>If they are aware how inhumane the reality is. But awareness has a long way to go, and logistics doesn&#8217;t just mean online retail; food packagers and processors, medical suppliers, and factories use mega-3PLs as well. And a whole lot of other industries—<a href="http://www.huffingtonpost.com/2011/08/24/-hotel-labor-living-wage-outsourcing-indianapolis_n_934667.html" target="_blank" rel="noopener">hotels</a>, call centers—take advantage of the price controls and plausible deniability that temporary staffing offers.</p>
+<p>&#8220;Maybe awareness will lead to better working conditions,&#8221; says Vinod Singhal, a professor of operations management at Georgia Tech. &#8220;But…&#8221; Given the state of the economy, he isn&#8217;t optimistic.</p>
+<p>This is the kind of resignation many of my coworkers have been forced to accept. At the end of break, the workamper and I are starting to fast-walk back to our stations. A guy who&#8217;s been listening to our conversation butts in. &#8220;They can take you for everything you&#8217;ve got,&#8221; he says. &#8220;They know it&#8217;s your last resort.&#8221;</p>
+<p>At today&#8217;s pickers&#8217; meeting, we are reminded that customers are waiting. We <em>cannot</em> move at a &#8220;comfortable pace,&#8221; because if we are comfortable, we will never make our numbers, and customers are not willing to wait. And it&#8217;s Christmastime. We got 2.7 million orders this week. People need—<em>need</em>—these items and they need them right now. So even if you&#8217;ve worked here long enough to be granted time off, you are not allowed to use it until the holidays are over. (And also forget about Election Day, which is today. &#8220;What if I want to vote?&#8221; I ask a supervisor. &#8220;I think you should!&#8221; he says. &#8220;But if I leave I&#8217;ll get fired,&#8221; I say. To which he makes a sad face before saying, &#8220;Yeah.&#8221;) No time off includes those of you who are scheduled to work Thanksgiving. There are two Amalgamated-catered Thanksgiving dinners offered to employees next week, but you can only go to one of them. If you attend one, your employee badge will be branded with a nonremovable sticker so that you cannot also attempt to eat at the other. Anyway, good luck, everybody. Everybody back to work. Quickly!</p>
+<div class="pullquote-right">I feel genuinely sorry for any child who ever asks me for anything for Christmas, only to be informed that every time a &#8220;Place Order&#8221; button rings, a poor person takes four Advil and gets told they suck at their job.</div>
+<p>Speed-walking back to the electro-trauma of the books sector, I wince when I unintentionally imagine the types of Christmas lore that will prevail around my future household. I feel genuinely sorry for any child I might have who ever asks me for anything for Christmas, only to be informed that every time a &#8220;Place Order&#8221; button rings, a poor person takes four Advil and gets told they suck at their job.</p>
+<p>I suppose this is what they were talking about in the radio ad I heard on the way to work, the one that was paid for by a coalition of local businesses, gently begging citizens to buy from them instead of off the internet and warning about the importance of supporting local shops. But if my coworker Brian wants to feed his new baby any of these 24-packs of Plum Organics Apple &amp; Carrot baby food I&#8217;ve been picking, he should probably buy them from Amazon, where they cost only $31.16. In my locally owned grocery store, that&#8217;s $47.76 worth of sustenance. Even if he finds the time to get in the car to go buy it at a brick-and-mortar Target, where it&#8217;d be less convenient but cost about the same as on Amazon, that&#8217;d be before sales tax, which physical stores, unlike Amazon, are legally required to charge to help pay for the roads on which Brian&#8217;s truck, and more to the point Amazon&#8217;s trucks, drive.</p>
+<p>Back in books, I take a sharp shock to my right hand when I grab the book the scanner cramping my left hand demands me to and make some self-righteous promises to myself about continuing to buy food at my more-expensive grocery store, because I can. Because I&#8217;m not actually a person who makes $7.25 an hour, not anymore, not one of the 1 in 3 Americans who is now <a href="http://www.nytimes.com/2011/11/19/us/census-measures-those-not-quite-in-poverty-but-struggling.html?pagewanted=all" target="_blank" rel="noopener">poor or &#8220;near poor.&#8221;</a> For the moment, I&#8217;m just playing one.</p>
+<p>&#8220;Lucky girl,&#8221; I whisper to myself at the tail of a deep breath, as soon as fresh winter air hits my lungs. It&#8217;s only lunchtime, but I&#8217;ve breached the warehouse doors without permission. I&#8217;ve picked 500 items this morning, and don&#8217;t want to get shocked anymore, or hear from the guy with the clipboard what a total disappointment I am. &#8220;Lucky girl, lucky girl, lucky girl,&#8221; I repeat on my way to my car. I told the lady from my training group who&#8217;s so stressed about her poor performance to tell our supervisor not to look for me—and she grabbed my arm as I turned to leave, looking even more worried than usual, asking if I was sure I knew what I was doing. I don&#8217;t want our supervisor to waste any time; he&#8217;s got goals to make, too. He won&#8217;t miss me, and nobody else will, either. The temp agency is certainly as full of applicants as it was when I went to ask for a job.</p>
+<p>&#8220;Just look around in here if you wanna see how bad it is out there,&#8221; one of the associates at the temp office said to me, unprompted, when I got hired. It&#8217;s the first time anyone has ever tried to comfort me <em>because</em> I got a job, because he knew, and everyone in this industry that&#8217;s growing wildfire fast knows, and accepts, that its model by design is mean. He offered me the same kind of solidarity the workers inside the warehouse try to provide each other at every break: <em>Why are you here? What happened that you have to let people treat you like this?</em> &#8220;We&#8217;re all in the same boat,&#8221; he said, after shaking my hand to welcome me aboard. &#8220;It&#8217;s a <em>really</em> big boat.&#8221;</p>
+<p>&nbsp;</p>
+<p><em>This story ran in the March/April 2012 issue of </em>Mother Jones<em>, under the headline &#8220;Shelf Lives.&#8221;</em></p>
+			</article>
+
+<footer class="entry-footer">
+				
+		<div class="newsletter-signup grid" id="article-footer-newsletter-signup">
+			<div class="col-12">
+				<h3>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 164 110" style="enable-background:new 0 0 164 110; max-width:1.8rem;" xml:space="preserve">
+						<path d="M0,0.48v109.22h163.84V0.48H0z M81.92,64.62l-68.27-41.6l5.69-9.33l62.59,38.14l62.59-38.14l5.69,9.33L81.92,64.62z"></path>
+					</svg>
+					Looking for news you can trust?
+				</h3>
+				<p><em>Subscribe to the</em> Mother Jones Daily <em>to have our top stories delivered directly to your inbox.</em></p>
+			</div>
+			<div class="col-12">
+				        <section class="newsletter-signup grid">
+            <div class="sailthru-signup-widget ns-inner col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+                <div>
+					<span class="sailthru-signup-widget-close"><a href="#sailthru-signup-widget">Close</a></span>
+                    <div class="sailthru_form">
+						<div class="success" hidden="hidden">Thank you for subscribing!</div>
+			<form 
+				method="post" action="#" class="sailthru-add-subscriber-form" 
+				data-ga-label="ArticleFooterNewsletterClick"
+				data-ga-category="MidpagePromo"
+				id="mj-sailthru-subscribe-id--1"
+			>
+
+<div class="sailthru-add-subscriber-errors"></div>
+
+<div class="sailthru_form_input form-group">
+					<label class="visuallyhidden sailthru-widget-label F48CB">F48CB</label> <input type="text" placeholder="F48CB" name="F48CB" value="" class="sailthru_F48CB" />
+				</div>
+				
+				<input type="hidden" name="sailthru_nonce" value="88b830cff1" />
+				<input type="hidden" name="sailthru_email_list" value="Newsletters,Fundraising_Emails,Sponsored_Emails" />
+				<input type="hidden" name="action" value="add_subscriber" />
+				<input type="hidden" name="source" value="EndOfArticle" />
+				<input type="hidden" name="lo_event_name" value="" />
+				<input type="hidden" name="reset_optout_status" value="" />
+				<input type="hidden" name="hide_title_status" value="" />
+				<input type="hidden" name="site_key" value="6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD" id="siteKey" />
+				<input type="hidden" name="captcha_token" value="" id="sailthruToken" />
+				<input type="hidden" name="email" value="" autocomplete="off" /> 
+				<input type="submit" name="commit" value="Sign Up" />
+		</form></div></div> <script src="https://www.google.com/recaptcha/api.js?render=6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD"></script></div>
+</section>
+			</div>
+			<div>
+				<p class="col-sm-10 col-xs-12 signup-small">By signing up, you agree to our <a href="https://www.motherjones.com/about/privacy-policy/">privacy policy</a> and <a href="https://www.motherjones.com/about/terms/">terms of use</a>, and to receive messages from <em>Mother Jones</em> and our partners.</p>
+			</div>
+		</div>
+
+<section id="mj-article-bottom-membership-widget-3" class="widget mj-article-bottom-membership-widget"><h3>BEFORE YOU CLICK AWAY!</h3><p>“Lying.” “Disgusting.” “Scum.” “Slime.” “Corrupt.” “Enemy of the people.” Donald Trump has always made clear what he thinks of journalists. <strong>And it’s plain now that his administration intends to do everything it can to stop journalists from reporting things they don’t like</strong>&#8212;which is most things that are true.</p>
+
+<p>No one gets to tell <em>Mother Jones</em> what to publish or not publish, because <strong>no one owns our fiercely independent newsroom</strong>. But that also means we need to directly raise the resources it takes to keep our journalism alive. There’s only one way for that to happen, and it’s readers like you stepping up. <span class="highlight">Please help with a donation today if you can&#8212;even a few bucks will make a real difference</span>. A monthly gift would be incredible.</p>			<a
+				target="_blank"
+				href="https://secure.motherjones.com/flex/mj/key/7LIGHTS/src/7AHPB59%7CPAHPB59/"
+				data-ga-label="ArticleFooterDonationClick"
+				data-ga-category="MidpagePromo"
+				class="mj-button"
+			>
+				<button class="btn-primary">Donate Now</button>
+			</a>
+			<img class="payment-methods" src="https://www.motherjones.com/wp-content/themes/motherjones/img/payment-methods.png" alt="payment methods" />
+		</section><section id="mj-article-bottom-membership-widget-mobile-2" class="widget mj-article-bottom-membership-widget-mobile"><h3>BEFORE YOU CLICK AWAY!</h3><p>“Lying.” “Disgusting.” “Scum.” “Slime.” “Corrupt.” “Enemy of the people.” Donald Trump has always made clear what he thinks of journalists. <strong>And it’s plain now that his administration intends to do everything it can to stop journalists from reporting things they don’t like</strong>&#8212;which is most things that are true.</p>
+
+<p>No one gets to tell <em>Mother Jones</em> what to publish or not publish, because <strong>no one owns our fiercely independent newsroom</strong>. But that also means we need to directly raise the resources it takes to keep our journalism alive. There’s only one way for that to happen, and it’s readers like you stepping up. <span class="highlight">Please help with a donation today if you can&#8212;even a few bucks will make a real difference</span>. A monthly gift would be incredible.</p>			<a
+				target="_blank"
+				href="https://secure.motherjones.com/flex/mj/key/7LIGHTS/src/7AHPMBU%7CPAHPMBU/"
+				data-ga-label="ArticleFooterDonationClick"
+				data-ga-category="MidpagePromo"
+				class="mj-button"
+			>
+				<button class="btn-primary">Donate Now</button>
+			</a>
+			<img class="payment-methods" src="https://www.motherjones.com/wp-content/themes/motherjones/img/payment-methods.png" alt="payment methods" />
+		</section>				<ul id="mj-tag-list"><span>More about:</span><li><a href="https://www.motherjones.com/topics/corporations/" rel="tag">Corporations</a></li><li><a href="https://www.motherjones.com/topics/human-rights/" rel="tag">Human Rights</a></li><li><a href="https://www.motherjones.com/topics/labor/" rel="tag">Labor</a></li><li><a href="https://www.motherjones.com/topics/tech/" rel="tag">Tech</a></li></ul>			</footer>
+
+</section>
+
+</div>
+</div>
+
+<section class="section col-xs-12 eoa-recirc" id="eoa-related">
+		<h2 class="section-heading">Related</h2>
+	<ul class="post-list grid">
+		
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2011/12/slave-elves-online-shipping/"
+			title="Pity the Elf Slaves of Online Shipping"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RelatedArticle-1|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2011/12/slave-elves-online-shipping/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/elf_working_crying.jpg?w=990" class="article-image wp-post-image" alt="" decoding="async" loading="lazy" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2011/12/slave-elves-online-shipping/"
+		title="Pity the Elf Slaves of Online Shipping"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RelatedArticle-1|headline"
+		data-ga-action="https://www.motherjones.com/politics/2011/12/slave-elves-online-shipping/"
+	><h3 class="hed">Pity the Elf Slaves of Online Shipping</h3><p class="byline"><a href="https://www.motherjones.com/author/gabriel-mac/" title="Posts by Gabriel Mac" rel="author">Gabriel Mac</a></p></a></div></li>
+
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2011/10/occupy-wall-street-labor-unions/"
+			title="Occupy Wall Street, Powered by Big Labor"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RelatedArticle-2|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2011/10/occupy-wall-street-labor-unions/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/occupyla425.jpg?w=990" class="article-image wp-post-image" alt="" decoding="async" loading="lazy" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2011/10/occupy-wall-street-labor-unions/"
+		title="Occupy Wall Street, Powered by Big Labor"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RelatedArticle-2|headline"
+		data-ga-action="https://www.motherjones.com/politics/2011/10/occupy-wall-street-labor-unions/"
+	><h3 class="hed">Occupy Wall Street, Powered by Big Labor</h3><p class="byline"><a href="https://www.motherjones.com/author/andy-kroll/" title="Posts by Andy Kroll" rel="author">Andy Kroll</a></p></a></div></li>
+
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2011/09/amazon-warehouse-heat-shipping/"
+			title="The Real Price of Amazon&#8217;s Free Shipping"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RelatedArticle-3|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2011/09/amazon-warehouse-heat-shipping/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/amazon-box425_0.jpg?w=990" class="article-image wp-post-image" alt="" decoding="async" loading="lazy" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2011/09/amazon-warehouse-heat-shipping/"
+		title="The Real Price of Amazon&#8217;s Free Shipping"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RelatedArticle-3|headline"
+		data-ga-action="https://www.motherjones.com/politics/2011/09/amazon-warehouse-heat-shipping/"
+	><h3 class="hed">The Real Price of Amazon&#8217;s Free Shipping</h3><p class="byline"><a href="https://www.motherjones.com/author/gabriel-mac/" title="Posts by Gabriel Mac" rel="author">Gabriel Mac</a></p></a></div></li>
+
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2011/09/amazon-yes-you-are-taxable/"
+			title="Earth to Amazon: Yes, You Are Taxable"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RelatedArticle-4|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2011/09/amazon-yes-you-are-taxable/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/bezos.jpg?w=990" class="article-image wp-post-image" alt="" decoding="async" loading="lazy" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2011/09/amazon-yes-you-are-taxable/"
+		title="Earth to Amazon: Yes, You Are Taxable"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RelatedArticle-4|headline"
+		data-ga-action="https://www.motherjones.com/politics/2011/09/amazon-yes-you-are-taxable/"
+	><h3 class="hed">Earth to Amazon: Yes, You Are Taxable</h3><p class="byline"><a href="https://www.motherjones.com/author/siddhartha-mahanta/" title="Posts by Siddhartha Mahanta" rel="author">Siddhartha Mahanta</a></p></a></div></li>
+	</ul>
+</section>
+
+<section class="ad">
+<!-- Tag ID: motherjones_medrec_btf_1 -->
+            <div id="ROS_BTF_300x250_1">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "motherjones_medrec_btf_1",
+                        slotId: "ROS_BTF_300x250_1"
+                    });
+                </script>
+            </div><!-- Tag ID: motherjones_leaderboard_btf_1 -->
+            <div id="ROS_BTF_970x250_1">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "motherjones_leaderboard_btf_1",
+                        slotId: "ROS_BTF_970x250_1"
+                    });
+                </script>
+            </div></section>
+
+<section class="section col-xs-12 eoa-recirc" id="eoa-recommend">
+	<h2 class="section-heading">We Recommend</h2>
+	<ul class="post-list grid">
+		
+<li class="grid col-sm-6 col-xxs-12 recommended">
+	<div class="col-5 order-1"><a
+			href="https://www.motherjones.com/politics/2025/09/donald-trump-weaponizing-equal-employment-opportunity-commission-stephen-miller-dei/"
+			title="Right-Wing Fanatics Are Weaponizing America’s Anti-Discrimination Agency"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecommendedArticle-1|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2025/09/donald-trump-weaponizing-equal-employment-opportunity-commission-stephen-miller-dei/"
+			rel="bookmark"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?w=990" class="article-image wp-post-image" alt="Photo illustration of an archival photo from the Civil Rights Movement where African American men and women march with signs demanding equal rights; three of the women have been cut out and removed from the image, leaving behind a white space." decoding="async" loading="lazy" srcset="https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?resize=1536,863 1536w, https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?resize=50,28 50w, https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?resize=1300,731 1300w, https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?resize=642,361 642w, https://www.motherjones.com/wp-content/uploads/2025/07/505_EEOC_2000.jpg?resize=768,432 768w" sizes="auto, (max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a></div><div class="col-7 order-2"><a
+		href="https://www.motherjones.com/politics/2025/09/donald-trump-weaponizing-equal-employment-opportunity-commission-stephen-miller-dei/"
+		title="Right-Wing Fanatics Are Weaponizing America’s Anti-Discrimination Agency"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecommendedArticle-1|headline"
+		data-ga-action="https://www.motherjones.com/politics/2025/09/donald-trump-weaponizing-equal-employment-opportunity-commission-stephen-miller-dei/"
+			rel="bookmark"
+	><h3 class="hed">Right-Wing Fanatics Are Weaponizing America’s Anti-Discrimination Agency</h3><p class="byline"><a href="https://www.motherjones.com/author/abby-vesoulis/" title="Posts by Abby Vesoulis" rel="author">Abby Vesoulis</a></p></a></div></li>
+
+<li class="grid col-sm-6 col-xxs-12 recommended">
+	<div class="col-5 order-1"><a
+			href="https://www.motherjones.com/politics/2025/09/eating-earth-michael-grunwald-interview-food-agriculture-production-climate-biofuels/"
+			title="Can We Feed 10 Billion People Without Destroying the Planet in the Process?"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecommendedArticle-2|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2025/09/eating-earth-michael-grunwald-interview-food-agriculture-production-climate-biofuels/"
+			rel="bookmark"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?w=990" class="article-image wp-post-image" alt="A photo of a white man with close cropped grey hair and a photo of a book that says &quot;We Are Eating The Earth&quot;" decoding="async" loading="lazy" srcset="https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp 1600w, https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?resize=321,181 321w, https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?resize=990,557 990w, https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?resize=1536,864 1536w, https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?resize=50,28 50w, https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?resize=1300,731 1300w, https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?resize=642,361 642w, https://www.motherjones.com/wp-content/uploads/2025/09/eating-earth-michael-grunwald.webp?resize=768,432 768w" sizes="auto, (max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a></div><div class="col-7 order-2"><a
+		href="https://www.motherjones.com/politics/2025/09/eating-earth-michael-grunwald-interview-food-agriculture-production-climate-biofuels/"
+		title="Can We Feed 10 Billion People Without Destroying the Planet in the Process?"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecommendedArticle-2|headline"
+		data-ga-action="https://www.motherjones.com/politics/2025/09/eating-earth-michael-grunwald-interview-food-agriculture-production-climate-biofuels/"
+			rel="bookmark"
+	><h3 class="hed">Can We Feed 10 Billion People Without Destroying the Planet in the Process?</h3><p class="byline"><a href="https://www.motherjones.com/author/juanpablo-ramirez-franco/" title="Posts by Juanpablo Ramirez-Franco" rel="author">Juanpablo Ramirez-Franco</a></p></a></div></li>
+
+<li class="grid col-sm-6 col-xxs-12 recommended">
+	<div class="col-5 order-1"><a
+			href="https://www.motherjones.com/media/2025/09/adolescence-netflix-threat-assessment-violence-prevention/"
+			title="The Key Missing Piece to the Megahit “Adolescence”"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecommendedArticle-3|thumbnail"
+			data-ga-action="https://www.motherjones.com/media/2025/09/adolescence-netflix-threat-assessment-violence-prevention/"
+			rel="bookmark"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?w=990" class="article-image wp-post-image" alt="A close-up of a boy’s face, with most of the image in red and black tones except for a black-and-white section in the center" decoding="async" loading="lazy" srcset="https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?resize=1536,863 1536w, https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?resize=50,28 50w, https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?resize=1300,731 1300w, https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?resize=642,361 642w, https://www.motherjones.com/wp-content/uploads/2025/09/20250912-adolescence-missing-piece_2000.jpg?resize=768,432 768w" sizes="auto, (max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a></div><div class="col-7 order-2"><a
+		href="https://www.motherjones.com/media/2025/09/adolescence-netflix-threat-assessment-violence-prevention/"
+		title="The Key Missing Piece to the Megahit “Adolescence”"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecommendedArticle-3|headline"
+		data-ga-action="https://www.motherjones.com/media/2025/09/adolescence-netflix-threat-assessment-violence-prevention/"
+			rel="bookmark"
+	><h3 class="hed">The Key Missing Piece to the Megahit “Adolescence”</h3><p class="byline"><a href="https://www.motherjones.com/author/mark-follman/" title="Posts by Mark Follman" rel="author">Mark Follman</a></p></a></div></li>
+
+<li class="grid col-sm-6 col-xxs-12 recommended">
+	<div class="col-5 order-1"><a
+			href="https://www.motherjones.com/politics/2025/09/that-fox-news-anchor-kilmeade-homeless/"
+			title="That Fox Anchor’s Long History of Having to Apologize for Awful Remarks"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecommendedArticle-4|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2025/09/that-fox-news-anchor-kilmeade-homeless/"
+			rel="bookmark"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2025/09/2025_09_14_kilmeade-e1757873309360.jpg?w=990" class="article-image wp-post-image" alt="Fox News anchor Brian Kilmeade" decoding="async" loading="lazy" /></a></div><div class="col-7 order-2"><a
+		href="https://www.motherjones.com/politics/2025/09/that-fox-news-anchor-kilmeade-homeless/"
+		title="That Fox Anchor’s Long History of Having to Apologize for Awful Remarks"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecommendedArticle-4|headline"
+		data-ga-action="https://www.motherjones.com/politics/2025/09/that-fox-news-anchor-kilmeade-homeless/"
+			rel="bookmark"
+	><h3 class="hed">That Fox Anchor’s Long History of Having to Apologize for Awful Remarks</h3><p class="byline"><a href="https://www.motherjones.com/author/julianne-mcshane/" title="Posts by Julianne McShane" rel="author">Julianne McShane</a></p></a></div></li>
+	</ul>
+</section>
+
+<section class="ad">
+<!-- Tag ID: motherjones_medrec_btf_2 -->
+            <div id="ROS_BTF_300x250_2">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "motherjones_medrec_btf_2",
+                        slotId: "ROS_BTF_300x250_2"
+                    });
+                </script>
+            </div><!-- Tag ID: motherjones_leaderboard_btf_2 -->
+            <div id="ROS_BTF_970x250_2">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "motherjones_leaderboard_btf_2",
+                        slotId: "ROS_BTF_970x250_2"
+                    });
+                </script>
+            </div></section>
+
+<section class="section col-xs-12 eoa-recirc" id="eoa-recent">
+	<h2 class="section-heading">Latest</h2>
+	<ul class="post-list grid">
+		
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2025/09/covid-vaccine-state-tourism-acip-rfk/"
+			title="Welcome to the New Era of Covid Vaccine Tourism"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecentArticle-1|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2025/09/covid-vaccine-state-tourism-acip-rfk/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?w=990" class="article-image wp-post-image" alt="Photo illustration of a COVID-19 vaccine vial as a vehicle, with wheels and an exhaust pipe." decoding="async" loading="lazy" srcset="https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?resize=1536,863 1536w, https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?resize=50,28 50w, https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?resize=1300,731 1300w, https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?resize=642,361 642w, https://www.motherjones.com/wp-content/uploads/2025/09/0912_vaccine-tourism_2000.jpg?resize=768,432 768w" sizes="auto, (max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2025/09/covid-vaccine-state-tourism-acip-rfk/"
+		title="Welcome to the New Era of Covid Vaccine Tourism"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecentArticle-1|headline"
+		data-ga-action="https://www.motherjones.com/politics/2025/09/covid-vaccine-state-tourism-acip-rfk/"
+	><h3 class="hed">Welcome to the New Era of Covid Vaccine Tourism</h3><p class="byline"><a href="https://www.motherjones.com/author/julia-metraux/" title="Posts by Julia Métraux" rel="author">Julia Métraux</a></p></a></div></li>
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2025/09/elon-musk-urges-brits-to-fight-back-against-their-political-enemies/"
+			title="Elon Musk Urges Brits to “Fight Back” Against Their Political Enemies"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecentArticle-2|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2025/09/elon-musk-urges-brits-to-fight-back-against-their-political-enemies/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?w=990" class="article-image wp-post-image" alt="Elon Musk" decoding="async" loading="lazy" srcset="https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?resize=1536,863 1536w, https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?resize=50,28 50w, https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?resize=1300,731 1300w, https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?resize=642,361 642w, https://www.motherjones.com/wp-content/uploads/2025/09/091425elon.jpg?resize=768,432 768w" sizes="auto, (max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2025/09/elon-musk-urges-brits-to-fight-back-against-their-political-enemies/"
+		title="Elon Musk Urges Brits to “Fight Back” Against Their Political Enemies"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecentArticle-2|headline"
+		data-ga-action="https://www.motherjones.com/politics/2025/09/elon-musk-urges-brits-to-fight-back-against-their-political-enemies/"
+	><h3 class="hed">Elon Musk Urges Brits to “Fight Back” Against Their Political Enemies</h3><p class="byline"><a href="https://www.motherjones.com/author/julianne-mcshane/" title="Posts by Julianne McShane" rel="author">Julianne McShane</a></p></a></div></li>
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2025/09/data-center-construction-ai-water-local-resistance/"
+			title="The Data Center Building Boom Is Running Into Local Resistance"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecentArticle-3|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2025/09/data-center-construction-ai-water-local-resistance/"
+		><img width="921" height="557" src="https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp?w=921" class="article-image wp-post-image" alt="An aerial shot of a construction site in desert land." decoding="async" loading="lazy" srcset="https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp 2048w, https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp?resize=321,194 321w, https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp?resize=586,354 586w, https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp?resize=1536,929 1536w, https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp?resize=50,30 50w, https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp?resize=1300,786 1300w, https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp?resize=990,598 990w, https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp?resize=642,388 642w, https://www.motherjones.com/wp-content/uploads/2025/09/SUNLAND_DATA_CENTER-19.webp?resize=768,464 768w" sizes="auto, (max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2025/09/data-center-construction-ai-water-local-resistance/"
+		title="The Data Center Building Boom Is Running Into Local Resistance"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecentArticle-3|headline"
+		data-ga-action="https://www.motherjones.com/politics/2025/09/data-center-construction-ai-water-local-resistance/"
+	><h3 class="hed">The Data Center Building Boom Is Running Into Local Resistance</h3><p class="byline"><a href="https://www.motherjones.com/author/annie-rosenthal/" title="Posts by Annie Rosenthal" rel="author">Annie Rosenthal</a></p></a></div></li>
+<li class="grid col-sm-3 col-xxs-12">
+	<div class="col-5 col-sm-12 col-xs-5 col-xxs-5 order-1"><a
+			href="https://www.motherjones.com/politics/2025/09/trump-287g-local-police-deportation-detention-ice/"
+			title="Trump’s Immigration Police State Is Growing at Warp Speed"
+			data-ga-category="EndOfArticle"
+			data-ga-label="RecentArticle-4|thumbnail"
+			data-ga-action="https://www.motherjones.com/politics/2025/09/trump-287g-local-police-deportation-detention-ice/"
+		><img width="990" height="557" src="https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?w=990" class="article-image wp-post-image" alt="Masked federal agents stand in front of people in a hallway outside immigration court" decoding="async" loading="lazy" srcset="https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg 2000w, https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?resize=208,117 208w, https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?resize=321,180 321w, https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?resize=630,354 630w, https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?resize=990,556 990w, https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?resize=1536,863 1536w, https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?resize=50,28 50w, https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?resize=1300,731 1300w, https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?resize=642,361 642w, https://www.motherjones.com/wp-content/uploads/2025/09/20250913_287g.jpg?resize=768,432 768w" sizes="auto, (max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a></div><div class="col-7 col-sm-12 col-xs-7 col-xxs-7 order-2"><a
+		href="https://www.motherjones.com/politics/2025/09/trump-287g-local-police-deportation-detention-ice/"
+		title="Trump’s Immigration Police State Is Growing at Warp Speed"
+		data-ga-category="EndOfArticle"
+		data-ga-label="RecentArticle-4|headline"
+		data-ga-action="https://www.motherjones.com/politics/2025/09/trump-287g-local-police-deportation-detention-ice/"
+	><h3 class="hed">Trump’s Immigration Police State Is Growing at Warp Speed</h3><p class="byline"><a href="https://www.motherjones.com/author/ian-gordon/" title="Posts by Ian Gordon" rel="author">Ian Gordon</a></p></a></div></li>	</ul>
+</section>
+
+<div id="promos-container">
+	<section id="mj-connatix-player-widget-2" class="widget mj-connatix-player-widget">        <div class="connatix-player-container">
+            <div id="FreeStarVideoAdContainer">
+                <div id="freestar-video-parent">
+                    <div id="freestar-video-child"></div>
+                </div>
+            </div>
+        </div>
+</section><section id="mj-incontent-ad-widget-11" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container ad"></div></section><section id="mj-incontent-ad-widget-10" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container ad"></div></section><section id="mj-incontent-ad-widget-9" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container ad"></div></section><section id="mj-incontent-ad-widget-8" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container ad"></div></section><section id="mj-incontent-ad-widget-7" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container ad"></div></section><section id="mj-incontent-ad-widget-6" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container ad"></div></section><section id="mj-incontent-ad-widget-5" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container ad"></div></section><section id="mj-incontent-ad-widget-3" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container ad"></div></section><section id="mj-incontent-ad-widget-2" class="widget mj-incontent-ad-widget"><div class="incontent-ad-container ad"></div></section><section id="mj-house-newsletter-promo-widget-2" class="widget mj-house-promo-widget mj-house-newsletter-promo-widget">		<div class="grid">
+			<div class="col-2 col-lg-2 col-md-12 col-sm-10 col-xs-12 col-xxs-12"></div>
+			<div class="incontent-promo-sm col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+				<div class="promo-all">
+								<h3>
+				
+					
+				
+				Sign up for our free newsletter
+			</h3>
+				<p><em>Subscribe to the </em>Mother Jones Daily<em> to have our top stories delivered directly to your inbox.</em></p>
+					        <section class="newsletter-signup grid">
+            <div class="sailthru-signup-widget ns-inner col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+                <div>
+					<span class="sailthru-signup-widget-close"><a href="#sailthru-signup-widget">Close</a></span>
+                    <div class="sailthru_form">
+						<div class="success" hidden="hidden">Thank you for subscribing!</div>
+			<form 
+				method="post" action="#" class="sailthru-add-subscriber-form" 
+				data-ga-label="InContentNewsletterClick"
+				data-ga-category="MidpagePromo"
+				id="mj-sailthru-subscribe-id--1"
+			>
+
+<div class="sailthru-add-subscriber-errors"></div>
+
+<div class="sailthru_form_input form-group">
+					<label class="visuallyhidden sailthru-widget-label F48CB">F48CB</label> <input type="text" placeholder="F48CB" name="F48CB" value="" class="sailthru_F48CB" />
+				</div>
+				
+				<input type="hidden" name="sailthru_nonce" value="88b830cff1" />
+				<input type="hidden" name="sailthru_email_list" value="Newsletters,Fundraising_Emails,Sponsored_Emails" />
+				<input type="hidden" name="action" value="add_subscriber" />
+				<input type="hidden" name="source" value="InContent" />
+				<input type="hidden" name="lo_event_name" value="" />
+				<input type="hidden" name="reset_optout_status" value="" />
+				<input type="hidden" name="hide_title_status" value="" />
+				<input type="hidden" name="site_key" value="6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD" id="siteKey" />
+				<input type="hidden" name="captcha_token" value="" id="sailthruToken" />
+				<input type="hidden" name="email" value="" autocomplete="off" /> 
+				<input type="submit" name="commit" value="Sign Up" />
+		</form></div></div> <script src="https://www.google.com/recaptcha/api.js?render=6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD"></script></div>
+</section>
+					<div class="col-sm-10 col-xs-12">
+						<p class="signup-small">By signing up, you agree to our <a href="https://www.motherjones.com/about/privacy-policy/">privacy policy</a> and <a href="https://www.motherjones.com/about/terms/">terms of use</a>, and to receive messages from <em>Mother Jones</em> and our partners.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-4"></div>
+		</div>
+</section><section id="mj-house-subscription-promo-widget-2" class="widget mj-house-promo-widget mj-house-subscription-promo-widget"><div class="grid">
+	<div class="col-2 col-lg-2 col-md-12 col-sm-10 col-xs-12 col-xxs-12"></div>
+	<div class="incontent-promo-sm col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+		<div class="promo-all">
+			<h3>
+				
+					
+				
+				Get our award-winning magazine
+			</h3>
+			<p><em>Save big on a full year of investigations, ideas, and insights.</em></p>	
+			<a class="btn" href="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGHGP&amp;c=SEGHGC&amp;d=SEGHGD&amp;f=SEGHGF" title="Subscribe" data-ga-label="InContentSubscriptionClick" data-ga-category="MidpagePromo">Subscribe</a>	
+		</div>
+	</div>
+	<div class="col-4"></div>
+</div>
+</section><section id="mj-house-donation-promo-widget-2" class="widget mj-house-promo-widget mj-house-donation-promo-widget"><div class="grid">
+	<div class="col-2 col-lg-2 col-md-12 col-sm-10 col-xs-12 col-xxs-12"></div>
+	<div class="incontent-promo-sm col-lg-6 col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+		<div class="promo-all">
+			<h3>
+				
+					
+						
+					
+				
+				Support our journalism
+			</h3>
+			<p><em>Help </em>Mother Jones<em>' reporters dig deep with a tax-deductible donation.</em></p>
+			<a class="btn" href="https://secure.motherjones.com/flex/mj/key/7DONATE/src/7EGPBA1/" data-ga-label="InContentDonationClick" data-ga-category="MidpagePromo">Donate</a><!-- needs new list_source -->
+		</div>
+	</div>
+	<div class="col-4"></div>
+</div></section>	<aside id="sidebar-right" class="col-4 hidden-sm hidden-xs hidden-xxs">
+	<section id="mj-floating-ad-widget-2" class="widget mj-floating-ad"><div id="rhc-scroller" class="ad"><!-- Tag ID: motherjones_right_rail_2 -->
+            <div id="ROS_Scroller_Refresh">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "motherjones_right_rail_2",
+                        slotId: "ROS_Scroller_Refresh"
+                    });
+                </script>
+            </div></div></section><!-- Tag ID: Site_Skin_Left -->
+            <div id="Site_Skin_Left">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "Site_Skin_Left",
+                        slotId: "Site_Skin_Left"
+                    });
+                </script>
+            </div><!-- Tag ID: Site_Skin_Right -->
+            <div id="Site_Skin_Right">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "Site_Skin_Right",
+                        slotId: "Site_Skin_Right"
+                    });
+                </script>
+            </div><section id="text-5" class="widget widget_text"><h2 class="widget-title">RHC membership for blog posts</h2>			<div class="textwidget"><div id="interior-rhc-membership" class="blog">
+<a class="onetime donation" target="_blank" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&b_country=United+States&pub_code=DON&term_pub=DON&list_source=7HEGPA03&term=XX.1.50.00.DON.D.0.7288"></a>
+<a class="monthly donation" target="_blank" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&b_country=United+States&pub_code=SDN&term_pub=SDN&list_source=7HEGPAM3&term=XX.1.20.00.SDN.D.0.7310&term_pub_override=SDN"></a>
+<a class="subscribe" target="_blank" href="https://secure.motherjones.com/fnx/?action=SUBSCRIPTION&b_country=United+States&pub_code=MJM&term_pub=MJM&list_source=SEGYN1B"></a>
+</div></div>
+		</section></aside>
+ 
+</div>
+
+<section class="ad"><!-- Tag ID: motherjones_leaderboard_btf_3 -->
+            <div id="ROS_BTF_970x250_3">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "motherjones_leaderboard_btf_3",
+                        slotId: "ROS_BTF_970x250_3"
+                    });
+                </script>
+            </div><!-- Tag ID: motherjones_medrec_btf_3 -->
+            <div id="ROS_BTF_300x250_3">
+                <script data-cfasync="false" type="text/javascript">
+                    freestar.config.enabled_slots.push({ 
+                        placementName: "motherjones_medrec_btf_3",
+                        slotId: "ROS_BTF_300x250_3"
+                    });
+                </script>
+            </div></section><section id="mj-comments-container" class="section col-xs-12"><div id="comment-container">
+			<div id="disqus_thread" class="hide col-lg-8 col-md-10 col-sm-10 col-xs-12 col-xxs-12"></div>
+		<div id="comment-noscript"
+		 onclick="mj_display_comments(); jQuery(this).addClass(&quot;hidden&quot;); return false;"	>
+					<a href="http://motherjones.com.disqus.com/?url=https%3A%2F%2Fwww.motherjones.com%2Fnode%2F161491"
+				id="disqus-display-comments"
+				data-ga-label="CommentsExpand"
+				data-ga-category="EndOfArticle"
+			>
+				  <i class="icon-plus"></i>view comments
+	  </a>
+	</div>
+</div>
+</section>
+		</main>
+	</div><!-- #page -->
+
+<div id="site-footer-promos" class="grid">
+		<section id="custom_html-11" class="widget_text widget widget_custom_html"><h2 class="widget-title">Mag Promo</h2><div class="textwidget custom-html-widget"><div id="footer-promo-mag" class="grid">
+	<div class="col-sm-4 col-xs-12">
+		<h3>Independent. In print. In your mailbox.</h3>
+		<p>Inexpensive, too! Subscribe today and get a full year of <em>Mother Jones</em> for just $19.95.</p>
+		<a href="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGHGP&c=SEGHGC&d=SEGHGD&f=SEGHGF" title="Subscribe" data-ga-label="MagazineSubscribeClick" data-ga-category="BottomPromo"><button class="btn-primary">Subscribe</button></a>
+	</div>
+	<div class="col-sm-8 col-xs-12 grid">
+		<div class="mag-promo col-xs-4 col-xxs-12">
+			<a href="/mag/2025/09/toc/" data-ga-category="BottomPromo" data-ga-label="MagazineSubscribeMagCover_1|imageClick">
+				<img border="0" src="/wp-content/uploads/2025/07/mojo_cover_sepoct25.jpg?w=575" alt="Mother Jones Magazine Cover : September + October 2025">
+			</a>
+			<a href="/mag/2025/09/toc" data-ga-category="BottomPromo" data-ga-label="MagazineSubscribeMagCover_1|textClick">October 2025</a>
+		</div>
+		<div class="mag-promo col-xs-4 col-xxs-12">
+      		<a href="/mag/2025/07/toc/" data-ga-category="BottomPromo" data-ga-label="MagazineSubscribeMagCover_2|imageClick">
+				<img border="0" src="https://www.motherjones.com/wp-content/uploads/2025/05/mojo_cover_julaug25.jpg?w=575" alt="Mother Jones Magazine Cover : July + August 2025"></a>
+      		<a href="/mag/2025/07/toc" data-ga-category="BottomPromo" data-ga-label="MagazineSubscribeMagCover_2|textClick">August 2025</a>
+    	</div>
+		<div class="mag-promo col-xs-4 hidden-xxs-12">
+			<a href="/mag/2025/05/toc/" data-ga-category="BottomPromo" data-ga-label="MagazineSubscribeMagCover_3|imageClick">
+				<img border="0" src="/wp-content/uploads/2025/03/mojo_cover_mayjun25.jpg?w=575" alt="Mother Jones Magazine Cover : May + June 2025">
+			</a>
+			<a href="/mag/2025/05/toc" data-ga-category="BottomPromo" data-ga-label="MagazineSubscribeMagCover_3|textClick">June 2025</a>
+		</div>
+	</div>
+</div></div></section>
+<section class="widget instagram-promo grid">
+		<div id="footer-promo-instagram" class="grid col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+			<div class="col-4">
+					<a href="https://www.instagram.com/motherjonesmag/" data-ga-category="BottomPromo" data-ga-label="InstagramFollowClick">
+						<img class="instagram-img jetpack-lazy-image jetpack-lazy-image--handled" src="https://www.motherjones.com/wp-content/uploads/2023/08/ig-mj-logo-layers@2x.png" alt="podcast" scale="0" data-lazy-loaded="1" loading="eager"><noscript><img data-lazy-fallback="1" class="podcast-img" src="/wp-content/themes/motherjones/img/the-mother-jones-podcast-logo-615-615.png?w=200" alt="podcast" scale="0" /></noscript>
+					</a>
+				</div>
+				<div class="col-8">
+					<h3>Bold. Brave. Beautiful.</h3>
+					<p>Award-winning photojournalism. <br> Stunning video. Fearless conversations.</p>
+					<a href="https://www.instagram.com/motherjonesmag/" data-ga-category="BottomPromo" data-ga-label="InstagramFollowClick">Follow us on Instagram ></a>
+				</div>
+			</div>
+    </section>
+
+<section class="widget newsletter-signup grid">
+			<div class="ns-inner col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+				<div>
+					<div class="col-11" id="BottomPromoNewsletterSignup">
+						<h3>Looking for news you can trust?</h3>
+						<p><em>Subscribe to the</em> Mother Jones Daily <em>to have our top stories delivered directly to your inbox.</em></p>
+					</div>
+					        <section class="newsletter-signup grid">
+            <div class="sailthru-signup-widget ns-inner col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+                <div>
+					<span class="sailthru-signup-widget-close"><a href="#sailthru-signup-widget">Close</a></span>
+                    <div class="sailthru_form">
+						<div class="success" hidden="hidden">Thank you for subscribing!</div>
+			<form 
+				method="post" action="#" class="sailthru-add-subscriber-form" 
+				data-ga-label="NewsletterSubscribeView"
+				data-ga-category="BottomPromo"
+				id="mj-sailthru-subscribe-id--1"
+			>
+
+<div class="sailthru-add-subscriber-errors"></div>
+
+<div class="sailthru_form_input form-group">
+					<label class="visuallyhidden sailthru-widget-label F48CB">F48CB</label> <input type="text" placeholder="F48CB" name="F48CB" value="" class="sailthru_F48CB" />
+				</div>
+				
+				<input type="hidden" name="sailthru_nonce" value="88b830cff1" />
+				<input type="hidden" name="sailthru_email_list" value="Newsletters,Fundraising_Emails,Sponsored_Emails" />
+				<input type="hidden" name="action" value="add_subscriber" />
+				<input type="hidden" name="source" value="Bottom_Promo" />
+				<input type="hidden" name="lo_event_name" value="" />
+				<input type="hidden" name="reset_optout_status" value="" />
+				<input type="hidden" name="hide_title_status" value="" />
+				<input type="hidden" name="site_key" value="6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD" id="siteKey" />
+				<input type="hidden" name="captcha_token" value="" id="sailthruToken" />
+				<input type="hidden" name="email" value="" autocomplete="off" /> 
+				<input type="submit" name="commit" value="Sign Up" />
+		</form></div></div> <script src="https://www.google.com/recaptcha/api.js?render=6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD"></script></div>
+</section>
+					<div>
+						<p class="col-sm-11 col-xs-12 signup-small">By signing up, you agree to our <a href="https://www.motherjones.com/about/privacy-policy/">privacy policy</a> and <a href="https://www.motherjones.com/about/terms/">terms of use</a>, and to receive messages from <em>Mother Jones</em> and our partners.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+</div>
+
+<footer id="site-footer">
+	<div class="container grid">
+		<section class="logo col-md-3 col-sm-12">
+			<a href="/" aria-label="Home" class="footer-logo">
+				
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"/><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"/></svg>
+			</a>
+			<ul class="footer-social">
+				<li class="fb">
+					<a href="https://www.facebook.com/motherjones"
+						aria-label="Mother Jones on Facebook"
+						data-ga-category="SiteFooter"
+						data-ga-label="Facebook"
+					>
+						<i class="icon-facebook"></i>
+					</a>
+				</li>
+				<li class="tweet">
+					<a href="https://twitter.com/motherjones"
+						aria-label="Mother Jones on Twitter"
+						data-ga-category="SiteFooter"
+						data-ga-label="Twitter"
+					>
+						<i class="icon-twitter"></i>
+					</a>
+				</li>
+				<li class="instagram">
+					<a href="https://www.instagram.com/motherjonesmag/"
+						aria-label="Mother Jones on Instagram"
+						data-ga-category="SiteFooter"
+						data-ga-label="Instagram"
+					>
+						<i class="icon-instagram"></i>
+					</a>
+				</li>
+				<li class="rss">
+					<a href="http://feeds.feedburner.com/motherjones/feed"
+						aria-label="MotherJones.com RSS feed"
+						data-ga-category="SiteFooter"
+						data-ga-label="RSS"
+					>
+						<i class="icon-rss"></i>
+					</a>
+				</li>
+				<li class="newsletter">
+					<a href="/newsletters"
+						aria-label="Newsletters"
+						data-ga-category="SiteFooter"
+						data-ga-label="Newsletter"
+					>
+						<i class="icon-mail"></i>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section class="menu col-md-9 col-sm-12 col-xs-12 grid">
+			<ul class="col-sm-4 col-xs-12"><li id="menu-item-612461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612461"><a href="https://www.motherjones.com/about/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/" data-ga-label="Section_1_NavPosition_1">About</a></li>
+<li id="menu-item-612462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612462"><a href="https://www.motherjones.com/about/staff/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/staff/" data-ga-label="Section_1_NavPosition_2">Our Staff</a></li>
+<li id="menu-item-980706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-980706"><a href="https://www.motherjones.com/mother-jones-commitment-to-diversity-equity-and-inclusion/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/mother-jones-commitment-to-diversity-equity-and-inclusion/" data-ga-label="Section_1_NavPosition_3">DEI&#038;B</a></li>
+<li id="menu-item-612481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612481"><a href="https://www.motherjones.com/about/financials/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/financials/" data-ga-label="Section_1_NavPosition_4">Financials</a></li>
+<li id="menu-item-612465" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612465"><a href="https://www.motherjones.com/careers/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/careers/" data-ga-label="Section_1_NavPosition_5">Careers</a></li>
+<li id="menu-item-1005799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1005799"><a href="https://www.motherjones.com/contribute/writer-guidelines/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/contribute/writer-guidelines/" data-ga-label="Section_1_NavPosition_6">Freelance Guidelines</a></li>
+<li id="menu-item-612464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612464"><a href="https://www.motherjones.com/contact/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/contact/" data-ga-label="Section_1_NavPosition_7">Contact Us</a></li>
+</ul><ul class="col-sm-4 col-xs-12"><li id="menu-item-612467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612467"><a href="https://www.motherjones.com/support/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/support/" data-ga-label="Section_2_NavPosition_1">Support</a></li>
+<li id="menu-item-612468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612468"><a href="https://www.motherjones.com/support/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/support/" data-ga-label="Section_2_NavPosition_2">Ways to Give</a></li>
+<li id="menu-item-612470" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612470"><a href="https://www.motherjones.com/advertising/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/advertising/" data-ga-label="Section_2_NavPosition_3">Advertise With Us</a></li>
+<li id="menu-item-863514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-863514"><a href="https://www.motherjones.com/customer-service/permissions/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/customer-service/permissions/" data-ga-label="Section_2_NavPosition_4">Licensing / Reprints</a></li>
+<li id="menu-item-612471" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-612471"><a href="http://store.motherjones.com/?utm_source=motherjones&#038;utm_medium=footer&#038;utm_content=orangefooterlink&#038;utm_campaign=evergreen" data-ga-category="SiteFooter" data-ga-action="http://store.motherjones.com/?utm_source=motherjones&amp;utm_medium=footer&amp;utm_content=orangefooterlink&amp;utm_campaign=evergreen" data-ga-label="Section_2_NavPosition_5">Store</a></li>
+</ul><ul class="col-sm-4 col-xs-12"><li id="menu-item-612473" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-612473"><a href="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGNOP&#038;c=SEGNOC&#038;d=SEGNOD&#038;f=SEGNOF" data-ga-category="SiteFooter" data-ga-action="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGNOP&amp;c=SEGNOC&amp;d=SEGNOD&amp;f=SEGNOF" data-ga-label="Section_3_NavPosition_1">Subscribe</a></li>
+<li id="menu-item-612474" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-612474"><a href="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGNOP&#038;c=SEGNOC&#038;d=SEGNOD&#038;f=SEGNOF" data-ga-category="SiteFooter" data-ga-action="https://secure.motherjones.com/flex/MOJ/SUBS/?p=SEGNOP&amp;c=SEGNOC&amp;d=SEGNOD&amp;f=SEGNOF" data-ga-label="Section_3_NavPosition_2">Magazine Subscriptions</a></li>
+<li id="menu-item-785947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-785947"><a href="https://secure.motherjones.com/flex/mj/key/YGIFVP/" data-ga-category="SiteFooter" data-ga-action="https://secure.motherjones.com/flex/mj/key/YGIFVP/" data-ga-label="Section_3_NavPosition_3">Give a Gift Subscription</a></li>
+<li id="menu-item-612476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612476"><a href="https://www.motherjones.com/newsletters/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/newsletters/" data-ga-label="Section_3_NavPosition_4">Email Newsletters</a></li>
+<li id="menu-item-612478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612478"><a href="https://www.motherjones.com/customer-service/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/customer-service/" data-ga-label="Section_3_NavPosition_5">Customer Service</a></li>
+</ul>		</section>
+		<section class="bottom col-12">
+			<p class="captcha-disclaimer">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+				<a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                <button id="pmLink">Privacy Manager</button>
+			</p>
+			<p class="copyright" role="contentinfo">
+			Copyright &copy; 2025 Mother Jones and the Center for Investigative Reporting. All Rights Reserved.<ul id="menu-copyright" class="menu"><li id="menu-item-405542" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405542"><a href="https://www.motherjones.com/about/terms/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/terms/" data-ga-label="Section_Copyright_NavPosition_1">Terms of Service</a></li>
+<li id="menu-item-405543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405543"><a href="https://www.motherjones.com/about/privacy-policy/" data-ga-category="SiteFooter" data-ga-action="https://www.motherjones.com/about/privacy-policy/" data-ga-label="Section_Copyright_NavPosition_2">Privacy Policy</a></li>
+</ul>			</p>
+			<a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=www.motherjones.com" rel="generator nofollow" class="powered-by-wpcom"><img src="https://www.motherjones.com/wp-content/mu-plugins/vip-helpers/images/vip-powered-light-small.png?ver=20220317" width="187" height="26" alt="Powered by WordPress VIP" /></a>		</section>
+	</div>
+</footer>
+
+<section id="custom_html-22" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><style>
+#top-stories .main .article-image {display: block;}
+</style></div></section><section id="mj-adblock-widget-2" class="widget mj-adblock-widget hide">		<section id="adblock-message" class="hide">
+			<div class="text-and-buttons-container grid">
+				<h2>We Noticed You Have An Ad Blocker On.</h2>				<div class="text-container col-md-8 col-sm-12">
+					<p class="long-text">
+																										Can you pitch in a few bucks to help fund <em>Mother Jones'</em> investigative journalism? We're a nonprofit (so it's tax-deductible), and reader support makes up about two-thirds of our budget.																				</p>
+					<p class="short-text">
+																										<strong>We noticed you have an ad blocker on.</strong> Can you pitch in a few bucks to help fund <em>Mother Jones'</em> investigative journalism?																				</p>
+				</div>
+				<div class="buttons-container col-md-4 col-sm-12 col-xs-12">
+					<a href="https://secure.motherjones.com/flex/mj/key/7LIGHTB/src/7EGZS1A|PEGZS1A" target="_blank"
+						data-ga-label="AdblockDonateClick"
+						data-ga-category="AdblockDetected"
+					>
+						<button class="donate btn-primary">Donate</button>
+					</a>
+					<a data-ga-label="AdblockDonateClose"
+					   data-ga-category="AdblockDetected"
+					>
+						<button class="close">Not Now</button>
+					</a>
+				</div>
+			</div>
+		</section>
+
+</section><section id="mj-pledge-desktop-adhesion-widget-4" class="widget mj-pledge-desktop-adhesion-widget hide">        <script>
+            // Define the tier values for One-Time and Monthly
+        window.desktopOneTimeValues = {
+                tierOne: { amt: 35, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=101&#038;src=7ADH035' },
+                tierTwo: { amt: 50, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=102&#038;src=7ADH050' },
+                tierThree: { amt: 100, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=103&#038;src=7ADH100' },
+                otherAmt: {url:'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=106&#038;src=7ADHOTR'}
+            };
+
+window.desktopMonthlyValues = {
+            tierOne: { amt: 12, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=M01&#038;src=7ADHM12' },
+            tierTwo: { amt: 15, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=M02&#038;src=7ADHM15' },
+            tierThree: { amt: 20, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=M03&#038;src=7ADHM20' },
+            otherAmt: {url:'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=M06&#038;src=7ADHMTR'}
+        };
+
+</script>
+        <section id="desktop-adhesion-donate" class="donate hide" >
+        <svg id="desktop-close-x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.414 17.414"><defs><style>.a{fill:none;stroke:#fff;stroke-width:2px;}</style></defs><g transform="translate(-1667.793 -999.793)"><line class="a" x2="16" y2="16" transform="translate(1668.5 1000.5)"/><line class="a" x1="16" y2="16" transform="translate(1668.5 1000.5)"/></g></svg>
+            <div class="text-and-buttons-container grid">
+                <div class="text-container col-md-8 col-sm-6">
+
+<div class="long-text">
+                        <strong>Billionaires own the media, but they don’t own us.</strong>
+
+<p>At <em>Mother Jones</em> we know these aren’t conventional times, and they require unconventional coverage. That’s what we deliver every day: fierce, independent journalism you can’t find elsewhere. Perhaps never in the history of our country has that been more necessary than now. <span class="adh-bold">But we can’t do it without reader support—<em>your</em> support. Please chip in today</span>.</p>                    </div>
+                    <p class="short-text">
+                                            </p>
+                    <br>
+
+<svg class="adh-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"></path><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"></path></svg>
+                </div>
+
+<div class="grid buttons-container col-md-4 col-sm-5 col-xs-12">
+                <div class="row col-12">
+                </div>
+                    <div class="row col-12 grid">
+
+<button id="desktop-one-time" data-freq="oneTime" class="col-5 adh-btn" >One-Time</button>
+                
+                        <button id="desktop-monthly" data-freq="monthly" class="col-5 adh-btn" >Monthly</button>
+
+</div><!--.row-->
+
+<div class="row col-md-12 col-12 grid">
+
+<button id="desktop-tier-one" data-tier="tierOne" class="col-3 adh-btn" >$</button>
+
+<button id="desktop-tier-two" data-tier="tierTwo" class="col-3 selected adh-btn" >$</button>
+
+<button id="desktop-tier-three" data-tier="tierThree" class="col-3 adh-btn" >$</button>
+
+</div><!--.row-->       
+                    
+                    <div id="DesktopOtherAmtCont" class="row col-12 grid">
+                        <button id="desktop-other-amt" data-tier="otherAmt" class="col-12 adh-btn" >Other Amount</button>                                  
+                    </div><!--.row-->
+                    <div class="row col-12 grid">
+                        <button 
+                        data-ga-label="DesktopDonateAdhesionClick"
+						data-ga-category="BottomAdhesion"
+                        class="col-md-3 offset-1-md col-sm-4 col-xs-12 desktop-continue" >Continue</button>
+                        <img class=" ccards col-md-8 col-sm-6 col-xs-4" src= "https://www.motherjones.com/wp-content/themes/motherjones/img/payment-methods.png" />
+                    </div><!--.row-->
+                </div>
+            </div>
+             
+        </section>
+
+</section><section id="mj-pledge-mobile-adhesion-widget-4" class="widget mj-pledge-mobile-adhesion-widget hide">        <script>
+            // Define the tier values for One-Time and Monthly
+        window.mobileOneTimeValues = {
+                tierOne: { amt: 35, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=101&#038;src=7ADM035' },
+                tierTwo: { amt: 50, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=102&#038;src=7ADM050' },
+                tierThree: { amt: 100, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=103&#038;src=7ADM100' },
+                otherAmt: {url:'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=106&#038;src=7ADMOTR'}
+            };
+
+window.mobileMonthlyValues = {
+            tierOne: { amt: 12, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=M01&#038;src=7ADMM12' },
+            tierTwo: { amt: 15, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=M02&#038;src=7ADMM15' },
+            tierThree: { amt: 20, url: 'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=M03&#038;src=7ADMM20' },
+            otherAmt: {url:'https://secure.motherjones.com/flex/MOJ/7LIGHTB/?o=M06&#038;src=7ADMMTR'}
+        };
+
+</script>
+        <section id="mobile-adhesion-donate" class="donate hide" >
+        <svg id="mobile-close-x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.414 17.414"><defs><style>.a{fill:none;stroke:#fff;stroke-width:2px;}</style></defs><g transform="translate(-1667.793 -999.793)"><line class="a" x2="16" y2="16" transform="translate(1668.5 1000.5)"/><line class="a" x1="16" y2="16" transform="translate(1668.5 1000.5)"/></g></svg>
+            <div class="text-and-buttons-container grid">
+                <div class="text-container col-md-8 col-sm-6">
+
+<div class="long-text">
+                        <strong>Billionaires own the media, but they don’t own us.</strong>
+
+<p>At <em>Mother Jones</em> we know these aren’t conventional times, and they require unconventional coverage. That’s what we deliver every day: fierce, independent journalism you can’t find elsewhere. Perhaps never in the history of our country has that been more necessary than now. <span class="adh-bold">But we can’t do it without reader support—<em>your</em> support. Please chip in today</span>.</p>                    </div>
+                    <p class="short-text">
+                                            </p>
+                    <br>
+
+<svg class="adh-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813.67 165.61"><path d="M53.72 97.86h-.39l-8.05-86.64H0v152.49h28.78v-85.9l-1.67-36.19 2.05 14.73 14.39 107.36h19.18L77.12 56.35l2.05-14.73-1.66 36.19v-.04 85.94h28.77V11.22H62.54l-8.82 86.64M391.4 87.12c0-33.06-1.23-58.67-34-58.67S321 61.67 321 91.17c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.07s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.01-3.49.78-13.92.78-22.8zm-42.79-3.22c0-13.9 1.92-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94zM148.49 28.44c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c.01-35.87.01-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.02 27.23-.79 36.07-10 36.07zM442.34 28.44c-9.37 0-13.73 8.49-16 17.24l-2.56 19.49V30h-29v133.7h31.08V92.19c0-26 7.86-30.34 15.94-30.34 11.79 0 14.55 14.16 14.55 14.16V35.77s-5.48-7.33-14.01-7.33zm-145.72 0c-10.55 0-17.44 7.48-19.7 18.65l-2.17 12.5V11.22h-31.08v152.49h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.57 5.37 14.67v88.63h31.08V50.92c0-11.48-4.8-22.48-20.91-22.48zm261.29.34c-38.75 0-38.75 27.18-38.75 65.11 0 43.53 3.93 71.72 38.75 71.72s38.75-26 38.75-75c0-35.87 0-61.83-38.75-61.83zm0 104.47c-9.21 0-10-5-10-36.06 0-29.34.77-36.06 10-36.06s10 7.08 10 36.06c-.03 27.22-.8 36.06-10 36.06zm95.16-104.81c-10.55 0-17.44 7.48-19.7 18.65l-2.18 12.5V30h-31.07v133.7h31.08V74.29c0-5.13.44-13.88 6.33-13.88s5.37 7.59 5.37 14.67v88.63H674V50.92c0-11.48-4.82-22.48-20.93-22.48zm-196.65 91.04v35.95s5.38 9.57 24.19 9.57c28.22 0 35.09-23.13 35.09-48.79v-105h-28.78v92.09c0 26-7.86 30.34-15.94 30.34-11.8-.01-14.56-14.16-14.56-14.16zm294.37-2.96c2.8 10.71 8.62 21.34 21.82 21.34 8.73 0 12.83-3 13.24-11.5.89-18.69-34.34-27.06-34.34-59.75 0-28.46 13.87-38.16 33.77-38.16 11.63 0 23.26 7.85 26.62 15.53V76c-3.36-9.36-10.27-20.08-19.8-20.08-7.55 0-11.17 3.6-11.51 10.72-.92 19.3 33.09 26.18 33.09 56.64 0 25.71-9 42-34.34 42-20.13 0-28.54-17.68-28.54-17.68zm-2.95-29.4c0-33.06-1.23-58.67-34-58.67s-36.45 33.23-36.45 62.73c0 37.54 5.56 74.1 39.71 74.1 19.34 0 30.18-17.68 30.18-17.68v-31.08s-8.4 21.23-24.62 21.23c-11.32 0-17.65-10.58-17.65-27.83h42c.07-3.49.83-13.92.83-22.8zm-42.78-3.22c0-13.9 1.94-24.9 9.6-24.9 8.25 0 10.17 12.31 10.17 24.94z"></path><path class="cls-1" d="M221.79 0l-37 33.52s5.88 14.91 5.88 40.66v65.18c0 18.45 10.74 25.93 25.9 25.93 10.43 0 17.28-2.83 23.6-8.49v-27.63c-2.51 4.56-5.31 7-9.72 7-4.67 0-8.69-3.38-8.69-10.79V58.2h18.44V30h-18.41z"></path></svg>
+                </div>
+
+<div class="grid buttons-container col-md-4 col-sm-5 col-xs-12">
+                <div class="row col-12">
+                </div>
+                    <div class="row col-12 grid">
+
+<button id="mobile-one-time" data-freq="mobileOneTime" class="col-5 adh-btn" >One-Time</button>
+                
+                        <button id="mobile-monthly" data-freq="mobileMonthly" class="col-5 adh-btn" >Monthly</button>
+
+</div><!--.row-->
+
+<div class="row col-md-12 col-12 grid">
+
+<button id="mobile-tier-one" data-tier="tierOne" class="col-3 adh-btn" >$35</button>
+
+<button id="mobile-tier-two" data-tier="tierTwo" class="col-3 selected adh-btn" >$50</button>
+
+<button id="mobile-tier-three" data-tier="tierThree" class="col-3 adh-btn" >$100</button>
+
+</div><!--.row-->       
+                    
+                    <div id="MobileOtherAmtCont" class="row col-12 grid">
+                        <button id="mobile-other-amt" data-tier="otherAmt" class="col-12 adh-btn" >Other Amount</button>                                  
+                    </div><!--.row-->
+                    <div class="row col-12 grid">
+                        <button 
+                        data-ga-label="MobileDonateAdhesionClick"
+						data-ga-category="BottomAdhesion" 
+                        class="col-md-4 col-sm-4 col-xs-12 mobile-continue" >Continue</button>
+                        <img class=" ccards col-md-8 col-sm-6 col-xs-4" src= "https://www.motherjones.com/wp-content/themes/motherjones/img/payment-methods.png" />
+                    </div><!--.row-->
+                </div>
+            </div>
+             
+        </section>
+
+</section><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/motherjones\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div id="exit-intent-overlay" style="display:none;">
+
+<div id="exit-intent-background"></div>
+	<div id="exit-intent-display">
+		<span id="exit-intent-close-button" class="close exit-button"><a>close</a></span>
+
+<h2>
+            Don't let an algorithm decide what news you see.
+		</h2>
+		<p class="exit-intent-ask">
+		    Sign up for the free <em>Mother Jones Daily</em> newsletter and follow the news that matters.
+		</p>
+
+<section class="newsletter-signup grid">
+            <div class="sailthru-signup-widget ns-inner col-md-12 col-sm-10 col-xs-12 col-xxs-12">
+                <div>
+					<span class="sailthru-signup-widget-close"><a href="#sailthru-signup-widget">Close</a></span>
+                    <div class="sailthru_form">
+						<div class="success" hidden="hidden">Thank you for subscribing!</div>
+			<form 
+				method="post" action="#" class="sailthru-add-subscriber-form" 
+				data-ga-label="ExitIntentNewsletterClick"
+				data-ga-category="ExitIntent"
+				id="mj-sailthru-subscribe-id--1"
+			>
+
+<div class="sailthru-add-subscriber-errors"></div>
+
+<div class="sailthru_form_input form-group">
+					<label class="visuallyhidden sailthru-widget-label F48CB">F48CB</label> <input type="text" placeholder="F48CB" name="F48CB" value="" class="sailthru_F48CB" />
+				</div>
+				
+				<input type="hidden" name="sailthru_nonce" value="88b830cff1" />
+				<input type="hidden" name="sailthru_email_list" value="Newsletters,Fundraising_Emails,Sponsored_Emails" />
+				<input type="hidden" name="action" value="add_subscriber" />
+				<input type="hidden" name="source" value="ExitIntent_V4" />
+				<input type="hidden" name="lo_event_name" value="" />
+				<input type="hidden" name="reset_optout_status" value="" />
+				<input type="hidden" name="hide_title_status" value="" />
+				<input type="hidden" name="site_key" value="6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD" id="siteKey" />
+				<input type="hidden" name="captcha_token" value="" id="sailthruToken" />
+				<input type="hidden" name="email" value="" autocomplete="off" /> 
+				<input type="submit" name="commit" value="Sign Up" />
+		</form></div></div> <script src="https://www.google.com/recaptcha/api.js?render=6LcY49YZAAAAACUVFagnDa8fHQY-ZFtc7_W0SBLD"></script></div>
+</section>
+
+</div>
+</div>
+<script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1" id="react-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1" id="react-dom-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??-eJx9yzsOgCAMANALCUUjOhnPYmgTQQFDwc/tdXA07u/BsQkbzFqQGBwDWs6wU8CYINFksnB8ilRCtp6kt0E6ruArYfTiGXj9qjnGhV8x+qHudauVajrtbulWMXM=" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??-eJx9zEEOhCAQBdELDbZORFfGsxD4iZBuRBvj9V25M6zrpeguJmbPV4BSUgpRKwWUE95VhE5i7pL+6JPt0uxQ7wrMVoXbjiHItWmiGt0c834bHJd7h6ssw2xH2/f/yaYHXUtJ5g==" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/keycodes.min.js?ver=034ff647a54b018581d3" id="wp-keycodes-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??/wp-includes/js/dist/priority-queue.min.js,/wp-includes/js/dist/compose.min.js?m=1754500265j" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.30.1" id="moment-js"></script>
+<script type="text/javascript" id="moment-js-after">
+/* <![CDATA[ */
+moment.updateLocale( 'en_US', {"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"week":{"dow":1},"longDateFormat":{"LT":"g:i a","LTS":null,"L":null,"LL":"F j, Y","LLL":"F j, Y g:i a","LLLL":null}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/date.min.js?ver=85ff222add187a4e358f" id="wp-date-js"></script>
+<script type="text/javascript" id="wp-date-js-after">
+/* <![CDATA[ */
+wp.date.setSettings( {"l10n":{"locale":"en_US","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"weekdays":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"weekdaysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"meridiem":{"am":"am","pm":"pm","AM":"AM","PM":"PM"},"relative":{"future":"%s from now","past":"%s ago","s":"a second","ss":"%d seconds","m":"a minute","mm":"%d minutes","h":"an hour","hh":"%d hours","d":"a day","dd":"%d days","M":"a month","MM":"%d months","y":"a year","yy":"%d years"},"startOfWeek":1},"formats":{"time":"g:i a","date":"F j, Y","datetime":"F j, Y g:i a","datetimeAbbreviated":"M j, Y g:i a"},"timezone":{"offset":-4,"offsetFormatted":"-4","string":"America\/New_York","abbr":"EDT"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??-eJyFykEOQDAQAMAPqUWUk3hLo5vYRqvpbsvzOTgKcx44oqKwbNkig2OwxAKr+E1hEBJCrj2F2nEFbzMm8vcq/60YQWUifceENp8q7Vko4DNnP7Wj7nXTdIN2F/k3QHI=" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/data.min.js?ver=fe6c4835cd00e12493c3" id="wp-data-js"></script>
+<script type="text/javascript" id="wp-data-js-after">
+/* <![CDATA[ */
+( function() {
+	var userId = 0;
+	var storageKey = "WP_DATA_USER_" + userId;
+	wp.data
+		.use( wp.data.plugins.persistence, { storageKey: storageKey } );
+} )();
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/rich-text.min.js?ver=74178fc8c4d67d66f1a8" id="wp-rich-text-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/warning.min.js?m=1754500265g" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/components.min.js?ver=865f2ec3b5f5195705e0" id="wp-components-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??/wp-includes/js/dist/vendor/wp-polyfill.min.js,/wp-includes/js/dist/url.min.js?m=1754500265j" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/api-fetch.min.js?ver=3623a576c78df404ff20" id="wp-api-fetch-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-after">
+/* <![CDATA[ */
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://www.motherjones.com/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "d680cffaf6" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "https://www.motherjones.com/wp-admin/admin-ajax.php?action=rest-nonce";
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??-eJx9y0EOgyAQQNELiaOmtKvGs4yA6VBkCDPExNO3C7e6/u/DXgxll5oPAlHAkygsiZd+o9xH6eACuK+RUAkTHajE2fiwYktqCtZ/uN2xKZdbIR+u6tiHU83be3zZhx2G6WnjD+0NQcQ=" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/blocks.min.js?ver=84530c06a3c62815b497" id="wp-blocks-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/keyboard-shortcuts.min.js?m=1754500265g" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/commands.min.js?ver=14ee29ad1743be844b11" id="wp-commands-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??/wp-includes/js/dist/notices.min.js,/wp-includes/js/dist/preferences-persistence.min.js?m=1754500265j" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/preferences.min.js?ver=4aa23582b858c882a887" id="wp-preferences-js"></script>
+<script type="text/javascript" id="wp-preferences-js-after">
+/* <![CDATA[ */
+( function() {
+				var serverData = false;
+				var userId = "0";
+				var persistenceLayer = wp.preferencesPersistence.__unstableCreatePersistenceLayer( serverData, userId );
+				var preferencesStore = wp.preferences.store;
+				wp.data.dispatch( preferencesStore ).setPersistenceLayer( persistenceLayer );
+			} ) ();
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??/wp-includes/js/dist/style-engine.min.js,/wp-includes/js/dist/token-list.min.js?m=1754500265j" ></script><script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/block-editor.min.js?ver=b3b0b55b35e04df52f7c" id="wp-block-editor-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/wp-includes/js/dist/core-data.min.js?ver=64479bc080c558e99158" id="wp-core-data-js"></script>
+<script type="text/javascript" src="https://www.motherjones.com/wp-content/themes/motherjones/js/ads.min.js?ver=0.4.4" id="ad_block_check-js"></script>
+<script type="text/javascript" id="in-content-promo-code-js-extra">
+/* <![CDATA[ */
+var mj_ad_config = {"desktop":["<!-- Tag ID: motherjones_incontent_leaderboard_1 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_1\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_leaderboard_1\",\n                        slotId: \"Incontent_970x250_1\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_leaderboard_2 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_2\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_leaderboard_2\",\n                        slotId: \"Incontent_970x250_2\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_leaderboard_3 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_3\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_leaderboard_3\",\n                        slotId: \"Incontent_970x250_3\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_leaderboard_4 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_4\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_leaderboard_4\",\n                        slotId: \"Incontent_970x250_4\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_leaderboard_5 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_5\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_leaderboard_5\",\n                        slotId: \"Incontent_970x250_5\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_leaderboard_6 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_6\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_leaderboard_6\",\n                        slotId: \"Incontent_970x250_6\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_leaderboard_7 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_7\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_leaderboard_7\",\n                        slotId: \"Incontent_970x250_7\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_leaderboard_8 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_8\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_leaderboard_8\",\n                        slotId: \"Incontent_970x250_8\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_leaderboard_9 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_9\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_leaderboard_9\",\n                        slotId: \"Incontent_970x250_9\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: Incontent_970x250_10 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__970x250 __970x90 __728x90 __1060x520\"\n                id=\"Incontent_970x250_10\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"Incontent_970x250_10\",\n                        slotId: \"Incontent_970x250_10\"\n                    });\n                <\/script>\n            <\/div>"],"mobile":["<!-- Tag ID: motherjones_incontent_medrec_1 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_1\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_medrec_1\",\n                        slotId: \"Incontent_300x250_1\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_medrec_2 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_2\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_medrec_2\",\n                        slotId: \"Incontent_300x250_2\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_medrec_3 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_3\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_medrec_3\",\n                        slotId: \"Incontent_300x250_3\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_medrec_4 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_4\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_medrec_4\",\n                        slotId: \"Incontent_300x250_4\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_medrec_5 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_5\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_medrec_5\",\n                        slotId: \"Incontent_300x250_5\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_medrec_6 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_6\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_medrec_6\",\n                        slotId: \"Incontent_300x250_6\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_medrec_7 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_7\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_medrec_7\",\n                        slotId: \"Incontent_300x250_7\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_medrec_8 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_8\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_medrec_8\",\n                        slotId: \"Incontent_300x250_8\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: motherjones_incontent_medrec_9 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_9\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_incontent_medrec_9\",\n                        slotId: \"Incontent_300x250_9\"\n                    });\n                <\/script>\n            <\/div>","<!-- Tag ID: Incontent_300x250_10 -->\n            <div align=\"center\" \n                data-freestar-ad=\"__300x250 __300x100 __320x100 __300x50 __320x50\"\n                id=\"Incontent_300x250_10\">\n                <script data-cfasync=\"false\" type=\"text\/javascript\">\n                    freestar.config.enabled_slots.push({ \n                        placementName: \"Incontent_300x250_10\",\n                        slotId: \"Incontent_300x250_10\"\n                    });\n                <\/script>\n            <\/div>"],"is_fullwidth":""};
+/* ]]> */
+</script>
+<script type="text/javascript" id="membership_check-js-extra">
+/* <![CDATA[ */
+var campaign_start_time = {"value":"1732176000000"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="mj-adhesion-js-extra">
+/* <![CDATA[ */
+var mj_adhesion_config = {"is_single":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="mj-pledge-adhesion-js-extra">
+/* <![CDATA[ */
+var mj_pledge_adhesion_config = {"is_single":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="overlay-script-js-extra">
+/* <![CDATA[ */
+var overlay_codes = {"overlay_code":"<div id=\"overlay-ad-bg\" class=\"hidden\"><div class=\"overlay-ad-wrapper\"><p class=\"overlay-ad-aux\"><span class=\"ad-label\">Advertisement<\/span><span class=\"close\">Close X<\/span><\/p><!-- Tag ID: motherjones_overlay -->\n            <div id=\"Overlay\">\n                \n                    freestar.config.enabled_slots.push({ \n                        placementName: \"motherjones_overlay\",\n                        slotId: \"Overlay\"\n                    });\n                \n            <\/div><\/div><\/div>","mobile_overlay_on":"mobile_overlay_on"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="exit_intent-js-extra">
+/* <![CDATA[ */
+var mj_exit_intent_config = {"is_user_logged_in":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??-eJyd0cEKwjAMgOEXspahUzyIz9J1cW1tkpGGqW9vEXa285bA/5FD7HM2nkmB1GoAhGKR6yCJqc6p2Duzguwx0j6Vnf3ZYzLqZAKNNLWrSGtgZmHkuo2w6SgCDiAlxNoG8I9N2I0BSmTahOYM4wR/WF5Asnu3A3hFNfFbtCNyiyngxId2U7xwzjVCM7j16Te8duf+dOwO/aVPH24i0w4=" ></script><script type="text/javascript" src="https://static.scroll.com/js/scroll.js?ver=0.4.4" id="scroll-com-js"></script>
+<script type="text/javascript" id="single-js-extra">
+/* <![CDATA[ */
+var mj_comment_config = {"disqus_url":"http:\/\/www.motherjones.com\/node\/161491","disqus_identifier":"\/node\/161491"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.motherjones.com/_static/??-eJyVyzEOgCAMheELiQ0xKIvxLMRUhdBCKOr1ZXA3Li//8D64s1oTV+QK9UBCAUotSkjcOgiI5z1iT577IB18/gtKTiz+QuW34ugHPUtU2TXTVuR1C816MmbU1pohPDSeQTs=" ></script><script type="text/javascript" id="jetpack-stats-js-before">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"130213978\",\"post\":\"161491\",\"tz\":\"-4\",\"srv\":\"www.motherjones.com\",\"hp\":\"vip\",\"j\":\"1:14.9.1\"}") ]);
+_stq.push([ "clickTrackerInit", "130213978", "161491" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://stats.wp.com/e-202538.js" id="jetpack-stats-js" defer="defer" data-wp-strategy="defer"></script>
+
+</body>
+</html>

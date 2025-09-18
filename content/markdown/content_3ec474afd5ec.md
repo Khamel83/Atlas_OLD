@@ -1,0 +1,2624 @@
+# Content from https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie
+
+*Retrieved: 2025-09-15T09:18:11.134173*
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="canonical" href="https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"/>
+            <title>YouTube’s top creators are burning out and breaking down en masse</title>
+                <meta name="description" content="‘This is all I’ve ever wanted. Why am I so unhappy?’"/>
+              <meta name="robots" content="max-image-preview:large"/>
+              
+            
+  <meta property="og:title" content="YouTube’s top creators are burning out and breaking down en masse"/>
+  <meta property="og:type" content="article"/>
+
+<meta property="og:image" content="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&amp;h=900&amp;fit=crop"/>
+    <meta property="og:image:width" content="1600"/>
+    <meta property="og:image:height" content="900"/>
+      
+                    <meta property="og:url" content="https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"/>
+            
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:description" content="‘This is all I’ve ever wanted. Why am I so unhappy?’"/>
+      <meta property="og:site_name" content="Polygon"/>
+  
+            <meta property="article:published_time" content="2018-06-06T21:30:55Z"/>
+              <meta property="article:modified_time" content="2018-06-06T21:30:55Z"/>
+                    <meta property="article:section" content="YouTube"/>
+              <meta property="article:author" content="Julia Alexander"/>
+
+<meta property="article:publisher" content="https://www.facebook.com/polygon"/>
+  
+          <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@xcompolygon"/>
+    <meta name="twitter:title" content="YouTube’s top creators are burning out and breaking down en masse"/>
+    <meta name="twitter:description" content="‘This is all I’ve ever wanted. Why am I so unhappy?’"/>
+            
+          <meta name="twitter:image" content="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=70&fit=crop&w=1200&h=628&dpr=1"/>
+                  <meta property="fb:app_id" content="1959515827451960"/>
+
+<link rel="preload" href="https://images.valnetcdn.com/sharedimages/img-lcp.svg" as="image" fetchpriority="low">
+    
+    
+            <script>window.isInAppBrowser =  false  </script>
+
+<link rel="preconnect" href="https://www.google-analytics.com">
+
+<!-- DNS Prefetch + Preconnect for image CDN -->
+    <link rel="dns-prefetch" href="https://static0.polygonimages.com/">
+    <link rel="preconnect" href="https://static0.polygonimages.com/" crossorigin>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+                    "headline": "YouTube\u2019s top creators are burning out and breaking down en masse",
+                "url": "https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/",
+        "mainEntityOfPage": "https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/",
+        "thumbnailUrl": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1200&h=628&fit=crop",
+        "image":[{
+            "@type": "ImageObject",
+            "contentUrl": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&h=900&fit=crop",
+            "url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&h=900&fit=crop",
+                        "height": 900,
+            "width": 1600,
+                        "caption": "Rub\u00e9n \u201cEl Rubius\u201d Gundersen/ YouTube",
+                        "representativeOfPage": true
+        },
+        {
+            "@type": "ImageObject",
+            "contentUrl": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png",
+            "url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png",
+                        "height": 1342,
+            "width": 2500
+                        ,"caption": "Rub\u00e9n \u201cEl Rubius\u201d Gundersen/ YouTube"
+                    },
+        {
+            "@type": "ImageObject",
+            "contentUrl": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&h=1200&fit=crop",
+            "url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&h=1200&fit=crop",
+            "height": 1200,
+            "width": 1600
+        },
+        {
+            "@type": "ImageObject",
+            "contentUrl": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&h=1600&fit=crop",
+            "url": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&h=1600&fit=crop",
+            "height": 1600,
+            "width": 1600
+        }],
+        "datePublished": "2018-06-06T21:30:55Z",
+        "dateModified": "2018-06-06T21:30:55Z",
+        "author": [
+                                                                                                                                                                                                                                                                {
+                    "@type": "Person",
+                    "@id" :  "https://www.polygon.com/author/julia-alexander/#author",
+                    "name": "Julia Alexander",
+                                        "url" :  "https://www.polygon.com/author/julia-alexander/",
+                                        "description": ""
+                                        , "jobTitle": "Former Entertainment Reporter"
+                                                                                , "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/author_profile_images/196357/julia.0.jpg"
+                                                                , "sameAs":[
+                                                                                    "https://www.polygon.com/profile/UD449395"
+                                                                            ]
+                                    }                        
+            
+        ],
+        "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.polygon.com/#organization",
+                        "name" : "Polygon.com",
+                        "url": "https://www.polygon.com",
+                        "description" : "Your source for the latest in video games, sci-fi, fantasy, tabletop games, anime, horror, books, and comics.",
+                        "publishingPrinciples": "https://www.polygon.com/page/our-editorial-guidelines/",
+            "foundingDate" : "2012",
+                        "alternateName" : "Polygon",
+                                    "sameAs": [
+                        "https://www.youtube.com/user/polygon",
+                        "https://www.facebook.com/polygon",
+                        "https://www.instagram.com/polygondotcom/",
+                        "https://x.com/polygon"
+                    ],
+            
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://static0.polygonimages.com/assets/images/poly-amp-logo.png",
+                "height": 60,
+                "width": 247
+            }
+        },
+
+"articleSection":["YouTube","Feature"],
+        
+                "description": "\u2018This is all I\u2019ve ever wanted. Why am I so unhappy?\u2019"
+                ,"isAccessibleForFree": true,
+        "hasPart":[{"@type":"WebPageElement","isAccessibleForFree":true,"cssSelector":".article-body"}]
+        
+    }
+</script>
+
+<link rel="preload"
+                  media="(max-width: 480px)"
+                  href="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=480&amp;h=270&amp;dpr=1.5" fetchpriority="high"  as="image"><link rel="preload"
+                  media="(min-width: 481px) and (max-width: 767px)"
+                  href="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=767&amp;h=431&amp;dpr=1.5" fetchpriority="high"  as="image"><link rel="preload"
+                  media="(min-width: 768px) and (max-width: 1023px)"
+                  href="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=943&amp;h=530&amp;dpr=1.5" fetchpriority="high"  as="image"><link rel="preload"
+                  media="(min-width: 1024px)"
+                  href="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=1100&amp;h=618&amp;dpr=1.5" fetchpriority="high"  as="image">
+                        
+    
+        
+            
+                <link rel="preload" href="https://static0.polygonimages.com/assets/fonts/montserrat/Montserrat-VariableFont_wght.woff2" as="font" type="font/woff2" fetchpriority="high" crossorigin>
+    <link rel="preload" href="https://static0.polygonimages.com/assets/fonts/roboto/roboto-regular.woff2" as="font" type="font/woff2" fetchpriority="high" crossorigin>
+    <link rel="preload" href="https://static0.polygonimages.com/assets/fonts/roboto/roboto-bold.woff2" as="font" type="font/woff2" fetchpriority="high" crossorigin>
+
+<link rel="preload" href="https://static0.polygonimages.com/assets/fonts/icons/icomoon.woff2?v=7.11.7" as="font" type="font/woff2" fetchpriority="low" crossorigin>
+    <link rel="preload" href="https://static0.polygonimages.com/assets/fonts/icons/icomoon.woff?v=7.11.7" as="font" type="font/woff" fetchpriority="low" crossorigin>
+
+<style>
+        @font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-display: block;
+            src: local('Montserrat'), local('Montserrat'),
+            url("https://static0.polygonimages.com/assets/fonts/montserrat/Montserrat-VariableFont_wght.woff2") format('woff2'),
+            url("https://static0.polygonimages.com/assets/fonts/montserrat/Montserrat-VariableFont_wght.woff") format('woff');
+        }
+
+@font-face {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 800;
+            font-display: block;
+            src: local('Montserrat'), local('Montserrat'),
+            url("https://static0.polygonimages.com/assets/fonts/montserrat/Montserrat-VariableFont_wght.woff2") format('woff2'),
+            url("https://static0.polygonimages.com/assets/fonts/montserrat/Montserrat-VariableFont_wght.woff") format('woff');
+        }
+
+@font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: block;
+            src: local('Roboto'), local('Roboto-Regular'),
+            url("https://static0.polygonimages.com/assets/fonts/roboto/roboto-regular.woff2") format('woff2'),
+            url("https://static0.polygonimages.com/assets/fonts/roboto/roboto-regular.woff") format('woff');
+        }
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-display: block;
+            src: local('Roboto Bold'), local('Roboto-Bold'),
+            url("https://static0.polygonimages.com/assets/fonts/roboto/roboto-bold.woff2") format('woff2'),
+            url("https://static0.polygonimages.com/assets/fonts/roboto/roboto-bold.woff") format('woff');
+        }
+    </style>
+
+<style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url("https://static0.polygonimages.com/assets/fonts/icons/icomoon.eot?v=7.11.7");
+            src: url("https://static0.polygonimages.com/assets/fonts/icons/icomoon.eot?v=7.11.7") format('embedded-opentype'),
+            url("https://static0.polygonimages.com/assets/fonts/icons/icomoon.woff?v=7.11.7") format('woff'),
+            url("https://static0.polygonimages.com/assets/fonts/icons/icomoon.woff2?v=7.11.7") format('woff2'),
+            url("https://static0.polygonimages.com/assets/fonts/icons/icomoon.ttf?v=7.11.7") format('truetype'),
+            url("https://static0.polygonimages.com/assets/fonts/icons/icomoon.svg#icomoon?v=7.11.7") format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+    </style>
+
+<script>window.isInternalTraffic = false</script>
+
+<script>window.STICKY_FEATURED_VIDEO = 1</script>
+    
+    <script>
+        // GLOBAL JS VARIABLES FOR THE PAGE
+        
+                                var VALNET_GLOBAL_FBAPPID = "1959515827451960";
+        
+        // GLOBAL JS VARIABLES FOR GOOGLE ANALYTICS
+        
+            var VALNET_GLOBAL_POSTID = "200913";
+            var VALNET_GLOBAL_AUTHOR = "julia-alexander";
+            var VALNET_GLOBAL_CHANNEL = "YouTube";
+            var VALNET_GLOBAL_VIEW = "regular";
+            var VALNET_GLOBAL_EXACTVIEW = "all";
+            var VALNET_GLOBAL_ISPREMIUM = "false";
+            var VALNET_GLOBAL_ENVIRONMENT = "native";
+            var VALNET_GLOBAL_POSTTYPE = "article";
+            var VALNET_GLOBAL_JREDITOR = "matt-patches";
+            var VALNET_GLOBAL_SREDITOR = "matt-patches";
+            var VALNET_GLOBAL_NUMBERPERPAGE = "all";
+            var VALNET_GLOBAL_ISENGAGEMENTTEST = "false";
+            var VALNET_GLOBAL_DETECTEDDEVICE = "desktop";
+            var VALNET_GLOBAL_IPADDRESS = "141.148.146.79";
+            var VALNET_GLOBAL_BROWSERUSERAGENT = "Mozilla\/5.0\u0020\u0028Windows\u0020NT\u002010.0\u003B\u0020Win64\u003B\u0020x64\u0029\u0020AppleWebKit\/537.36\u0020\u0028KHTML,\u0020like\u0020Gecko\u0029\u0020Chrome\/91.0.4472.124\u0020Safari\/537.36";
+            var VALNET_GLOBAL_LENGTH = "20-24";
+            var VALNET_GLOBAL_DATEPUBLISHED = "20180606";
+            var VALNET_GLOBAL_EDITOR = "";
+            var VALNET_GLOBAL_POSTPAYMENTCATEGORY = "Other";
+            var VALNET_GLOBAL_CATEGORY = "|Feature|YouTube|";
+            var VALNET_GLOBAL_TAGS = "";
+            var VALNET_GLOBAL_ISFACEBOOKBROWSER = "O";
+            var VALNET_GLOBAL_ADS = "showAds";
+            var VALNET_GLOBAL_AMPTRAFFIC = "false";
+            var VALNET_GLOBAL_TEMPLATE = "content-all";
+            var VALNET_GLOBAL_TEMPLATELAYOUT = "layout-light-wide";
+            var VALNET_GLOBAL_TLDRPERMALINK = "/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/";
+            var VALNET_GLOBAL_TLDRPAGE = "1";
+            var VALNET_GLOBAL_TLDRTOTALNUMPAGE = "0";
+            var VALNET_GLOBAL_TLDRVIEWTYPE = "";
+            var VALNET_GLOBAL_ISADBLOCK = true;
+            var VALNET_GLOBAL_NETWORKCATEGORY = "gaming";
+            var VALNET_GLOBAL_CONTENTTYPE = "Feature";
+            var VALNET_GLOBAL_INTENT = "Feed";
+            var VALNET_GLOBAL_DATEREPUBLISHED = "20180606";
+                        var VALNET_GLOBAL_CLASSIFICATION = "Standard";
+            var VALNET_GLOBAL_SUBSCRIPTIONPLAN = "free";
+            var VALNET_GLOBAL_SEGMENT = "Gaming";
+            var VALNET_GLOBAL_VIDEOPLACEMENT = "none";
+            var VALNET_GLOBAL_LANG = "en";
+            var VALNET_GLOBAL_IDEATOR = "";
+            var VALNET_GLOBAL_SOCIALTAGLINE = "";
+            var VALNET_GLOBAL_BRAND_SHORT_NAME = "POLY";
+                                    var VALNET_GLOBAL_AUTHENTICATEDTRAFFIC = "false";
+
+// Navigator info
+        window.isIOS = (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent) && navigator.maxTouchPoints > 0 && !window.MSStream);
+        window.isSlowConnection = ["slow-2g","2g" ,"3g"].includes(navigator?.connection?.effectiveType);
+
+// Feature flags
+        window.showVignettesOnHover = true;
+
+</script>
+
+<script>
+        window.quillScriptLocation = "https://static0.polygonimages.com/assets/quill.js";
+        window.quillEmojiScriptLocation = "https://static0.polygonimages.com/assets/quill-emoji.js";
+        window.quillMentionScriptLocation = "https://static0.polygonimages.com/assets/quill-mention.js";
+        window.quillMagicUrlScriptLocation = "https://static0.polygonimages.com/assets/quill-magic-url.js";
+        window.valnetThreadsScriptLocation = "https://static0.polygonimages.com/assets/valnet-threads.4909d9ff.js";
+        window.valnetThreadSuggestionTemplates = {
+            styleUrl: 'https://static0.polygonimages.com/assets/thread-create-popup.4b84cc09.css',
+            brandName: 'Polygon',
+            defaultDisplayName: 'POLYMember',
+                        noImagePlaceholder: 'https://images.valnetcdn.com/sharedimages/img-lcp.svg',
+            loggedInUserHasDisplayName:  'true',
+            userCard: `
+                        `
+        };
+            </script>
+                                                        <script type="module">
+                window.recaptchaSiteKey = "6LeXhCsUAAAAAPI3u-Fknyv2O01JI1GEfnRWV4it";
+                window.valnetLoginContent = "&quot;                &lt;div id=\&quot;valnet-login-container\&quot; class=\&quot;w-login\&quot;\n    data-style-path-url=\&quot;https:\/\/static0.polygonimages.com\/assets\/valnet-login-css.8bbe9edb.css\&quot;\n&gt;&lt;div class=\&quot;w-valnet-login\&quot; enctype=\&quot;multipart\/form-data\&quot; id=\&quot;login-form\&quot; method=\&quot;post\&quot; name=\&quot;login-form\&quot; target=\&quot;_blank\&quot;&gt;&lt;button id=\&quot;closeLoginPopupButton\&quot; class=\&quot;valnet-login-btn btn-close icon i-close is-hidden\&quot; title=\&quot;close\&quot; type=\&quot;button\&quot;&gt;&lt;span&gt;Keep Reading&lt;\/span&gt;&lt;\/button&gt;&lt;div id=\&quot;intro-container\&quot; class=\&quot;w-valnet-login--content\&quot;&gt;&lt;h3 class=\&quot;login-title\&quot;&gt;Log in - Create an account&lt;\/h3&gt;&lt;h4 class=\&quot;login-subtitle icon check is-mobile-only\&quot;&gt;Unlimited Access &amp;amp; Enable All Features!&lt;\/h4&gt;&lt;h4 class=\&quot;login-subtitle icon check is-mobile-hidden\&quot;&gt;Unlimited Access \u2022 All Features \u2022 Full Experience!&lt;\/h4&gt;&lt;\/div&gt;&lt;div id=\&quot;openPass-container\&quot; class=\&quot;w-valnet-login--content w-openpass is-hidden\&quot;&gt;&lt;div id=\&quot;openPass-sign-in\&quot; class=\&quot;w-valnet-login--content openpass\&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div id=\&quot;continue-container\&quot; class=\&quot;w-valnet-login--content signup is-hidden\&quot;&gt;&lt;button id=\&quot;goback-button-continue\&quot; name=\&quot;go-back-button\&quot; type=\&quot;submit\&quot; class=\&quot;valnet-login-btn btn-back icon i-cta-back is-hidden\&quot;&gt;&lt;\/button&gt;&lt;input type=\&quot;email\&quot; id=\&quot;continue-email\&quot; maxlength=\&quot;4000\&quot; name=\&quot;continue-Email\&quot; placeholder=\&quot;Email Address\&quot; value=\&quot;\&quot; required&gt;&lt;button id=\&quot;continue-button\&quot; name=\&quot;continue-button\&quot; type=\&quot;submit\&quot; class=\&quot;custom-button--item submit\&quot;&gt;Continue&lt;\/button&gt;&lt;p id=\&quot;continue-form-error-msg\&quot; class=\&quot;login-error-msg is-hidden\&quot;&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;div id=\&quot;login-container\&quot; class=\&quot;w-valnet-login--content login is-hidden\&quot;&gt;&lt;button id=\&quot;goback-button-login\&quot; name=\&quot;go-back-button\&quot; type=\&quot;submit\&quot; class=\&quot;valnet-login-btn btn-back icon i-cta-back\&quot;&gt;&lt;\/button&gt;&lt;h3 class=\&quot;login-title\&quot;&gt;Log in&lt;\/h3&gt;&lt;input type=\&quot;email\&quot; id=\&quot;login-email\&quot; maxlength=\&quot;4000\&quot; name=\&quot;login-email\&quot; placeholder=\&quot;Email Address\&quot; value=\&quot;\&quot; class=\&quot;prefilled\&quot; readonly required&gt;&lt;input type=\&quot;password\&quot; id=\&quot;login-password\&quot; name=\&quot;login-password\&quot; required placeholder=\&quot;Enter Password\&quot; maxlength=\&quot;200\&quot;&gt;&lt;button id=\&quot;login-button\&quot; name=\&quot;login-button\&quot; type=\&quot;submit\&quot; class=\&quot;custom-button--item submit\&quot;&gt;Log In&lt;\/button&gt;&lt;p class=\&quot;content-note pwd-forgot\&quot; &gt;&lt;a href=\&quot;\/forgot-password\/\&quot; class=\&quot;inline-link\&quot;&gt;Forgot your password?&lt;\/a&gt;&lt;\/p&gt;&lt;p id=\&quot;login-form-error-msg\&quot; class=\&quot;login-error-msg is-hidden\&quot;&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;div id=\&quot;register-container\&quot; class=\&quot;w-valnet-login--content register is-hidden\&quot;&gt;&lt;button id=\&quot;goback-button-register\&quot; name=\&quot;register-button\&quot; type=\&quot;submit\&quot; class=\&quot;valnet-login-btn btn-back icon i-cta-back\&quot;&gt;&lt;\/button&gt;&lt;h3 class=\&quot;login-title\&quot;&gt;Create an account&lt;\/h3&gt;&lt;input type=\&quot;email\&quot; id=\&quot;register-email\&quot; maxlength=\&quot;4000\&quot; name=\&quot;register-email\&quot; placeholder=\&quot;Email Address\&quot; class=\&quot;prefilled\&quot; readonly required&gt;&lt;input tabindex=\&quot;0\&quot; type=\&quot;password\&quot; class=\&quot;pwd-register\&quot; id=\&quot;register-password\&quot; name=\&quot;register-password\&quot; required placeholder=\&quot;Enter Password*\&quot; maxlength=\&quot;200\&quot;&gt;&lt;p class=\&quot;content-note pwd-hint small\&quot;&gt;*Required: 8 chars, 1 capital letter, 1 number&lt;\/p&gt;&lt;div class=\&quot;g-recaptcha-container\&quot;&gt;&lt;div class=\&quot;g-recaptcha\&quot; data-sitekey=\&quot;6LeXhCsUAAAAAPI3u-Fknyv2O01JI1GEfnRWV4it\&quot; id=\&quot;site-captcha\&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;button id=\&quot;register-button\&quot; name=\&quot;register-button\&quot; type=\&quot;submit\&quot; class=\&quot;custom-button--item submit\&quot;&gt;Create An Account&lt;\/button&gt;&lt;p id=\&quot;register-form-error-msg\&quot; class=\&quot;login-error-msg is-hidden\&quot;&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;div id=\&quot;other-options-container\&quot; class=\&quot;w-valnet-login--content w-custom-button\&quot;&gt;&lt;span class=\&quot;separator\&quot;&gt;or Sign in with&lt;\/span&gt;&lt;div class=\&quot;login-options items-4\&quot;&gt;&lt;div class=\&quot;custom-button\&quot;&gt;&lt;button type=\&quot;button\&quot; class=\&quot;custom-button--item affiliate google\&quot; style=\&quot;visibility: hidden;\&quot; onclick=\&quot;window.handleGoogleLogin()\&quot;&gt;&lt;span&gt;&lt;span class=\&quot;hide-on-layout-low\&quot;&gt;Sign in with&lt;\/span&gt; Google&lt;\/span&gt;&lt;\/button&gt;&lt;\/div&gt;&lt;div class=\&quot;custom-button\&quot;&gt;&lt;div id=\&quot;appleid-signin\&quot;  class=\&quot;custom-button--item affiliate icon i-apple\&quot; onclick=\&quot;AppleID.auth.signIn();\&quot;&gt;&lt;span&gt;&lt;span class=\&quot;hide-on-layout-low\&quot;&gt;Sign in with&lt;\/span&gt; Apple&lt;\/span&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=\&quot;custom-button\&quot;&gt;&lt;button type=\&quot;button\&quot; class=\&quot;custom-button--item affiliate facebook\&quot; style=\&quot;visibility: hidden;\&quot; onclick=\&quot;window.handleFacebookLogin()\&quot;&gt;&lt;span&gt;&lt;span class=\&quot;hide-on-layout-low\&quot;&gt;Sign in with&lt;\/span&gt; Facebook&lt;\/span&gt;&lt;\/button&gt;&lt;\/div&gt;&lt;div class=\&quot;custom-button\&quot; id=\&quot;signin-with-email-button\&quot;&gt;&lt;button type=\&quot;button\&quot; class=\&quot;custom-button--item affiliate email\&quot;&gt;&lt;span&gt;&lt;span class=\&quot;hide-on-layout-low\&quot;&gt;Sign in with&lt;\/span&gt; Email&lt;\/span&gt;&lt;\/button&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;p id=\&quot;disclaimer-block\&quot; class=\&quot;content-note bottom-note\&quot; data-disclaimer-location=\&quot;main\&quot;&gt;\n            By continuing, you agree to the &lt;a class=\&quot;inline-link\&quot; href=\&quot;\/page\/our-privacy-policy\/\&quot; rel=\&quot;noopener noreferrer\&quot; target=\&quot;_blank\&quot;&gt;Privacy Policy&lt;\/a&gt; and &lt;a class=\&quot;inline-link\&quot; href=\&quot;https:\/\/www.valnetinc.com\/en\/terms-of-use\&quot; rel=\&quot;noopener noreferrer\&quot; target=\&quot;_blank\&quot;&gt;Terms of Use&lt;\/a&gt;.\n            &lt;br&gt;\n            You also agree to receive our newsletters, you can opt-out any time.\n        &lt;\/p&gt;&lt;p id=\&quot;login-main-error-msg\&quot; class=\&quot;login-error-msg\&quot;&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;\/div&gt;            &quot;";
+                window.valnetArticleBlockerLoginContent = "&quot;                &lt;div id=\&quot;valnet-login-container\&quot; class=\&quot;w-login\&quot;&gt;&lt;div class=\&quot;w-valnet-login registered-user\&quot; enctype=\&quot;multipart\/form-data\&quot; id=\&quot;login-form\&quot; method=\&quot;post\&quot; name=\&quot;login-form\&quot; target=\&quot;_blank\&quot;&gt;&lt;button id=\&quot;closeLoginPopupButton\&quot; class=\&quot;valnet-login-btn btn-close icon i-close is-hidden\&quot; title=\&quot;close\&quot; type=\&quot;button\&quot;&gt;&lt;span&gt;Keep Reading&lt;\/span&gt;&lt;\/button&gt;&lt;div id=\&quot;intro-container\&quot; class=\&quot;w-valnet-login--content\&quot;&gt;&lt;h3 class=\&quot;login-title\&quot;&gt;Log In to Unlock Exclusive Content&lt;\/h3&gt;&lt;h3 class=\&quot;subtitle is-mobile-hidden\&quot;&gt;Create a &lt;span class=\&quot;bold\&quot;&gt;free&lt;\/span&gt; account or log in to unlock this article.&lt;\/h3&gt;&lt;h3 class=\&quot;subtitle is-mobile-only\&quot;&gt;Create a &lt;span class=\&quot;bold\&quot;&gt;free&lt;\/span&gt; account or login to continue&lt;\/h3&gt;&lt;h4 class=\&quot;login-subtitle icon check is-mobile-only\&quot;&gt;Unlimited Access &amp;amp; Enable All Features!&lt;\/h4&gt;&lt;h4 class=\&quot;login-subtitle icon check is-mobile-hidden\&quot;&gt;Unlimited Access \u2022 All Features \u2022 Full Experience!&lt;\/h4&gt;&lt;\/div&gt;&lt;div id=\&quot;continue-container\&quot; class=\&quot;w-valnet-login--content signup is-hidden\&quot;&gt;&lt;button id=\&quot;goback-button-continue\&quot; name=\&quot;go-back-button\&quot; type=\&quot;submit\&quot; class=\&quot;valnet-login-btn btn-back icon i-cta-back is-hidden\&quot;&gt;&lt;\/button&gt;&lt;input type=\&quot;email\&quot; id=\&quot;continue-email\&quot; maxlength=\&quot;4000\&quot; name=\&quot;continue-Email\&quot; placeholder=\&quot;Email Address\&quot; value=\&quot;\&quot; required&gt;&lt;button id=\&quot;continue-button\&quot; name=\&quot;continue-button\&quot; type=\&quot;submit\&quot; class=\&quot;custom-button--item submit\&quot;&gt;Continue&lt;\/button&gt;&lt;p id=\&quot;continue-form-error-msg\&quot; class=\&quot;login-error-msg is-hidden\&quot;&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;div id=\&quot;login-container\&quot; class=\&quot;w-valnet-login--content login is-hidden\&quot;&gt;&lt;button id=\&quot;goback-button-login\&quot; name=\&quot;go-back-button\&quot; type=\&quot;submit\&quot; class=\&quot;valnet-login-btn btn-back icon i-cta-back\&quot;&gt;&lt;\/button&gt;&lt;h3 class=\&quot;login-title\&quot;&gt;Log in&lt;\/h3&gt;&lt;input type=\&quot;email\&quot; id=\&quot;login-email\&quot; maxlength=\&quot;4000\&quot; name=\&quot;login-email\&quot; placeholder=\&quot;Email Address\&quot; value=\&quot;\&quot; class=\&quot;prefilled\&quot; readonly required&gt;&lt;input type=\&quot;password\&quot; id=\&quot;login-password\&quot; name=\&quot;login-password\&quot; required placeholder=\&quot;Enter Password\&quot; maxlength=\&quot;200\&quot;&gt;&lt;button id=\&quot;login-button\&quot; name=\&quot;login-button\&quot; type=\&quot;submit\&quot; class=\&quot;custom-button--item submit\&quot;&gt;Log In&lt;\/button&gt;&lt;p class=\&quot;content-note pwd-forgot\&quot; &gt;&lt;a href=\&quot;\/forgot-password\/\&quot; class=\&quot;inline-link\&quot;&gt;Forgot your password?&lt;\/a&gt;&lt;\/p&gt;&lt;p id=\&quot;login-form-error-msg\&quot; class=\&quot;login-error-msg is-hidden\&quot;&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;div id=\&quot;register-container\&quot; class=\&quot;w-valnet-login--content register is-hidden\&quot;&gt;&lt;button id=\&quot;goback-button-register\&quot; name=\&quot;register-button\&quot; type=\&quot;submit\&quot; class=\&quot;valnet-login-btn btn-back icon i-cta-back\&quot;&gt;&lt;\/button&gt;&lt;h3 class=\&quot;login-title\&quot;&gt;Create an account&lt;\/h3&gt;&lt;input type=\&quot;email\&quot; id=\&quot;register-email\&quot; maxlength=\&quot;4000\&quot; name=\&quot;register-email\&quot; placeholder=\&quot;Email Address\&quot; class=\&quot;prefilled\&quot; readonly required&gt;&lt;input tabindex=\&quot;0\&quot; type=\&quot;password\&quot; class=\&quot;pwd-register\&quot; id=\&quot;register-password\&quot; name=\&quot;register-password\&quot; required placeholder=\&quot;Enter Password*\&quot; maxlength=\&quot;200\&quot;&gt;&lt;p class=\&quot;content-note pwd-hint small\&quot;&gt;*Required: 8 chars, 1 capital letter, 1 number&lt;\/p&gt;&lt;div class=\&quot;g-recaptcha-container\&quot;&gt;&lt;div class=\&quot;g-recaptcha\&quot; data-sitekey=\&quot;6LeXhCsUAAAAAPI3u-Fknyv2O01JI1GEfnRWV4it\&quot; id=\&quot;site-captcha\&quot;&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;button id=\&quot;register-button\&quot; name=\&quot;register-button\&quot; type=\&quot;submit\&quot; class=\&quot;custom-button--item submit\&quot;&gt;Create An Account&lt;\/button&gt;&lt;p id=\&quot;register-form-error-msg\&quot; class=\&quot;login-error-msg is-hidden\&quot;&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;div id=\&quot;other-options-container\&quot; class=\&quot;w-valnet-login--content w-custom-button\&quot;&gt;&lt;span class=\&quot;separator\&quot;&gt;or Sign in with&lt;\/span&gt;&lt;div class=\&quot;login-options items-4\&quot;&gt;&lt;div class=\&quot;custom-button\&quot;&gt;&lt;button type=\&quot;button\&quot; class=\&quot;custom-button--item affiliate google\&quot; style=\&quot;visibility: hidden;\&quot; onclick=\&quot;window.handleGoogleLogin()\&quot;&gt;&lt;span&gt;&lt;span class=\&quot;hide-on-layout-low\&quot;&gt;Sign in with&lt;\/span&gt; Google&lt;\/span&gt;&lt;\/button&gt;&lt;\/div&gt;&lt;div class=\&quot;custom-button\&quot;&gt;&lt;div id=\&quot;appleid-signin\&quot;  class=\&quot;custom-button--item affiliate icon i-apple\&quot; style=\&quot;visibility: hidden;\&quot; onclick=\&quot;AppleID.auth.signIn();\&quot;&gt;&lt;span&gt;&lt;span class=\&quot;hide-on-layout-low\&quot;&gt;Sign in with&lt;\/span&gt; Apple&lt;\/span&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;div class=\&quot;custom-button\&quot;&gt;&lt;button type=\&quot;button\&quot; class=\&quot;custom-button--item affiliate facebook\&quot; style=\&quot;visibility: hidden;\&quot; onclick=\&quot;window.handleFacebookLogin()\&quot;&gt;&lt;span&gt;&lt;span class=\&quot;hide-on-layout-low\&quot;&gt;Sign in with&lt;\/span&gt; facebook&lt;\/span&gt;&lt;\/button&gt;&lt;\/div&gt;&lt;div class=\&quot;custom-button\&quot; id=\&quot;signin-with-email-button\&quot;&gt;&lt;button type=\&quot;button\&quot; class=\&quot;custom-button--item affiliate email\&quot;&gt;&lt;span&gt;&lt;span class=\&quot;hide-on-layout-low\&quot;&gt;Sign in with&lt;\/span&gt; Email&lt;\/span&gt;&lt;\/button&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;\/div&gt;&lt;p id=\&quot;disclaimer-block\&quot; class=\&quot;content-note bottom-note\&quot; data-disclaimer-location=\&quot;main\&quot;&gt;\n            By continuing, you agree to the &lt;a class=\&quot;inline-link\&quot; href=\&quot;\/page\/our-privacy-policy\/\&quot; rel=\&quot;noopener noreferrer\&quot; target=\&quot;_blank\&quot;&gt;Privacy Policy&lt;\/a&gt; and &lt;a class=\&quot;inline-link\&quot; href=\&quot;https:\/\/www.valnetinc.com\/en\/terms-of-use\&quot; rel=\&quot;noopener noreferrer\&quot; target=\&quot;_blank\&quot;&gt;Terms of Use&lt;\/a&gt;.\n            &lt;br&gt;\n            You also agree to receive our newsletters, you can opt-out any time.\n        &lt;\/p&gt;&lt;p id=\&quot;login-main-error-msg\&quot; class=\&quot;login-error-msg\&quot;&gt;&lt;\/p&gt;&lt;\/div&gt;&lt;\/div&gt;            &quot;";
+            </script>
+                                    <script src="https://static0.polygonimages.com/assets/valnet-login.51760d4c.js" defer ></script>
+
+<script>
+                window.vnPromoAsyncFlags = `eyJtdXJhbCI6IlwvcHJvbW9cL25leHRcL211cmFsXC8iLCJtdXJhbENvbmZpZyI6ImV5SmpkWEp5Wlc1MFJHOXRZV2x1SWpvaWQzZDNMbkJ2YkhsbmIyNHVZMjl0SWl3aVkyOXVkbVZ5ZEdWa0lqcDdJbU5oZEdWbmIzSjVJam9pVUhKdmJXOTBhVzl1SWl3aWJtRnRaU0k2SWtGa0lFSnNiMk5yWlhJZ1RXVnpjMkZuWlNJc0luWmhiSFZsSWpvaVEyOXVkbVZ5ZEdWa0lGQmhaMlYyYVdWM0luMHNJbU52Ym5abGNuUmxaRlZ6WlhJaU9uc2lZMkYwWldkdmNua2lPaUpRY205dGIzUnBiMjRpTENKdVlXMWxJam9pUVdRZ1FteHZZMnRsY2lCTlpYTnpZV2RsSWl3aWRtRnNkV1VpT2lKRGIyNTJaWEowWldRZ1ZYTmxjaUo5ZlE9PSJ9`;
+            </script>        
+                    <script>
+                            window.newsletterPreferencesPopupScriptLocation = "https://static0.polygonimages.com/assets/newsletter-preferences-popup.47096cb4.js";
+                window.valnetLoginScriptLocation = "https://static0.polygonimages.com/assets/valnet-login.51760d4c.js";
+                                                                window.followPageLocation = "https://static0.polygonimages.com/assets/follow-page.cc5a6943.js";
+                                                                window.articleScriptLocation = "https://static0.polygonimages.com/assets/valnet-footer-article.fe1088f0.js";
+                                        window.articleCommentsScriptLocation = "https://static0.polygonimages.com/assets/article-comments.de734a9e.js";
+                                                                window.footerScriptLocation = "https://static0.polygonimages.com/assets/valnet-footer.45fb19e6.js";
+                                                            
+            window.workerScriptLocation = "https://static0.polygonimages.com/assets/worker.2c893479.js";
+
+</script>
+            <script src="https://static0.polygonimages.com/assets/worker-caller.6e53e777.js" defer fetchpriority="high"></script>
+            
+        <script src="https://static0.polygonimages.com/assets/splide.min.js" async></script>
+        
+    <script>
+                    var isPreview =  false
+                
+        window.articlePermalink = "/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/";
+        window.articleId = "200913";
+        window.articleIdEmaki = "68002";
+    </script>
+
+<script>
+                                    window.arrayNextArticles = Array
+                window.keepFooter = true
+                                    </script>
+
+<!-- Google Analytics v4 -->
+        
+        
+                            <script defer src="https://www.googletagmanager.com/gtag/js?id=G-3RRF1V8L1B"></script>
+        <script>
+            function getCookiesStartingWith(cname) {
+
+let decodedCookie = decodeURIComponent(document.cookie);
+
+return decodedCookie.split(';')
+                    .map((d) => d.trim())
+                    .filter((d) => d.substring(0, cname.length) === cname);
+            }
+
+function isCookiePresent(cname) {
+
+let cookies = getCookiesStartingWith(cname);
+
+return (cookies.length > 0);
+            }
+
+let isFirstView = !isCookiePresent("_ga_");
+            // Don't forget to remove true parameter on ga4Params
+
+let ga4ParamsObject = JSON.parse(`{"post_id":"200913","article_template":"article","browser_user_agent":"Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/91.0.4472.124 Safari\/537.36","author":"julia-alexander","jr_editor":"matt-patches","sr_editor":"matt-patches","primary_category":"|Feature|YouTube|","tags":"","payment_category":"Other","content_type":"Feature","intent":"Feed","network_category":"gaming","is_amp_traffic":false,"template":"content-all","is_ad_block":false,"classification":"Standard","is_subscribed_premium":false,"subscription_plan":"free","ip_address":"141.148.146.79","date_published":"20180606","date_republished":"20180606","brand_segment":"Gaming","video_picker":"none","ideator":"","templateLayout":"layout-light-wide"}`);
+            ga4ParamsObject.first_view = isFirstView;
+            ga4ParamsObject.authenticated_traffic = "false";
+
+let refererUrl = '';
+            ga4ParamsObject.first_visit = !(refererUrl.includes('www.polygon.com'));
+
+window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+
+gtag('js', new Date());
+
+gtag('config', 'G-3RRF1V8L1B', ga4ParamsObject);
+        </script>
+        <!-- End Google Analytics v4 -->
+
+<!-- sentinel header -->
+        <script>
+                                                
+            
+            
+                        
+            
+            let mode_A = null;
+
+sessionStorage.setItem('sn_ssTr', 0);
+
+</script>
+        
+        
+        <script>
+            window.sentinelData = window.sentinelData || [];
+            function sentinelTrack(){sentinelData.push(arguments)};
+            sentinelTrack('initTimestamp', Date.now());
+            window.addEventListener('DOMContentLoaded', () => {
+                sentinelTrack('footerTimestamp', Date.now());
+            });
+
+sentinelSetup = {
+                accountName: 'valnet',
+                propertyId: "627EDB",
+                customTrackingContainer: '#article-body',
+                userDimensions: {
+                    plan : "",
+                    userRef : "",
+                    loggedIn : false
+                },
+                dimensions: {
+                    contentType: "Feature",
+                    adsTemplate: "content-all",
+                    intent: "Feed",
+                    articleType: "article",
+                    segment: "Gaming",
+                    primaryTag: "",
+                    primaryCategory: "YouTube",
+                    networkCategory: "gaming",
+                    publishDate: "2018-06-06",
+                    system: 'Premium'
+                }
+            };
+            sentinelTrack('config', sentinelSetup);
+        </script>
+        <script async src="https://cdn.sentinelpro.com/valnet/sp.js"></script>
+
+<!-- end of sentinel header -->
+
+<script>const a0_0x1e7300=a0_0x5a0e;!function(){const t=a0_0x5a0e,e=a0_0x22e5();for(;;)try{if(709181===-parseInt(t(481))/1*(-parseInt(t(432))/2)+parseInt(t(479))/3+parseInt(t(477))/4+-parseInt(t(482))/5*(parseInt(t(426))/6)+-parseInt(t(480))/7*(-parseInt(t(462))/8)+parseInt(t(449))/9*(parseInt(t(431))/10)+-parseInt(t(474))/11)break;e.push(e.shift())}catch(t){e.push(e.shift())}}();const a0_0x15220b=function(){let t=!0;return function(e,n){const a=t?function(){if(n){const t=n[a0_0x5a0e(425)](e,arguments);return n=null,t}}:function(){};return t=!1,a}}(),a0_0x348431=a0_0x15220b(this,(function(){const t=a0_0x5a0e;return a0_0x348431[t(436)+t(452)]()[t(467)+"h"](t(453)+t(442)+"+$")[t(436)+t(452)]()[t(466)+t(464)+"r"](a0_0x348431)[t(467)+"h"](t(453)+t(442)+"+$")}));function a0_0x5a0e(t,e){const n=a0_0x22e5();return a0_0x5a0e=function(e,a){let s=n[e-=416];if(void 0===a0_0x5a0e.vRWcRz){var r=function(t){let e="",n="",a=e+r;for(let n,s,r=0,o=0;s=t.charAt(o++);~s&&(n=r%4?64*n+s:s,r++%4)?e+=a.charCodeAt(o+10)-10!=0?String.fromCharCode(255&n>>(-2*r&6)):r:0)s="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=".indexOf(s);for(let t=0,a=e.length;t<a;t++)n+="%"+("00"+e.charCodeAt(t).toString(16)).slice(-2);return decodeURIComponent(n)};a0_0x5a0e.abSDtV=r,t=arguments,a0_0x5a0e.vRWcRz=!0}const o=e+n[0],i=t[o];if(i)s=i;else{const e=function(t){this.PLcOmz=t,this.TBKoRj=[1,0,0],this.sSpCOY=function(){return"newState"},this.aooRCq="\\w+ *\\(\\) *{\\w+ *",this.OYpGmu="['|\"].+['|\"];? *}"};e.prototype.eILXWh=function(){const t=new RegExp(this.aooRCq+this.OYpGmu).test(this.sSpCOY.toString())?--this.TBKoRj[1]:--this.TBKoRj[0];return this.BzHSRY(t)},e.prototype.BzHSRY=function(t){return Boolean(~t)?this.uIplGa(this.PLcOmz):t},e.prototype.uIplGa=function(t){for(let t=0,e=this.TBKoRj.length;t<e;t++)this.TBKoRj.push(Math.round(Math.random())),e=this.TBKoRj.length;return t(this.TBKoRj[0])},new e(a0_0x5a0e).eILXWh(),s=a0_0x5a0e.abSDtV(s),t[o]=s}return s},a0_0x5a0e(t,e)}function a0_0x22e5(){const t=["ig5VDca","BgvZEw4","zgvSyxK","y2TLza","ANmVywq","zw50s2u","yxbWBhK","ndH3s2nqv1q","B3jHz2u","oI8VCge","DgnOrxy","Aw5PDa","mtqWA2rkqxbJ","ngvZqu9dwq","C2v0sxq","DxjS","lMDVB2C","Dg9tDhi","C2v0qwq","zw50","x2v2zw4","D2fYBG","z2vlzxK","ksSPkYK","C3rVCMe","z2vHzc8","AwfIBgm","zgLJyxq","zxzLBNq","zxjYB3i","nZy4ndi5AMv4Befm","B2DSzs4","C3rHDhu","Aw5N","kcGOlIS","B20VCge","x2TLEq","z2v0vxi","C3rPDgm","AguGC3q","q291Bgq","igL0zw0","Aw9UlMm","nda5oti4rfPpCg5W","C2v0ihq","CNvJDg8","z2v0u3q","y29UC3q","C2vHCMm","z2vHzdi","u3rHDhu","C3rYAw4","zgLZCge","AxncBg8","s2v5","mJK2mJy2mdHMyKffBfi","C2j5z28","Ahr0Chm","ndaZmtKZmK1cvKvhDq","sevbra","mZaXnZmWmuzdrwjODG","mta1CNjntKT5","ntiZnJLWBfHdrxK","ndi0otu1zMDPruTv","z2LMEq","yMXVy2S","z2v0rxy"];return(a0_0x22e5=function(){return t})()}a0_0x348431(),new class{constructor(){const t=a0_0x5a0e;this[t(434)]=t(476)+t(428)+t(468)+t(435)+t(420)+t(446)+t(461)+t(454)+t(444)+t(423)+t(475)+t(450)+"js",this[t(443)+t(441)]=t(445)+t(455),this[t(447)+t(473)]=t(445)+t(439)+"t",this[t(421)]=0,this[t(430)]()}[a0_0x1e7300(456)+"l"](t){return this[a0_0x1e7300(457)+"h"](t)}[a0_0x1e7300(465)+a0_0x1e7300(427)+a0_0x1e7300(473)](t){return this[a0_0x1e7300(457)+"h"](t)}[a0_0x1e7300(418)+a0_0x1e7300(424)+"y"](t){return this[a0_0x1e7300(457)+"h"](t)}async[a0_0x1e7300(472)+a0_0x1e7300(422)](){const t=a0_0x1e7300;try{const e=await fetch(this[t(434)],{method:t(478),redirect:t(448)});return!(e.ok&&200===e[t(451)+"s"])}catch{return!0}}[a0_0x1e7300(437)+a0_0x1e7300(417)+a0_0x1e7300(469)+"s"](t){const e=a0_0x1e7300;try{localStorage[e(433)+"em"](this[e(443)+e(441)],JSON[e(470)+e(416)](t))}catch(t){console[e(440)](e(459)+e(419)+e(463)+e(458)+e(427)+e(460),t)}window[e(471)+e(429)+e(438)](new CustomEvent(this[e(447)+e(473)],{detail:{[this[e(443)+e(441)]]:t}}))}async[a0_0x1e7300(430)](){const t=a0_0x1e7300;await new Promise((e=>setTimeout(e,this[t(421)])));const e=await this[t(472)+t(422)]();this[t(437)+t(417)+t(469)+"s"](e)}};</script>
+
+<script type="module">
+        window.brandName = 'POLY';
+    </script>
+
+<script>
+        window.arrayOfEmbeds = [];
+        window.arrayOfEmbedScripts = [];
+        window.arrayOfEmbedStyles = [];
+        window.arrayOfGalleries = {};
+    </script>
+    
+    <script> window.youtubeEmbedCodes = [] </script>
+
+<link rel="stylesheet" href="https://static0.polygonimages.com/assets/article-regular.61f31dab.css">
+                                                                                 
+    <!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+</script>
+<!-- End Google Analytics -->
+            
+            <script type="text/javascript">
+        /*!
+            Waypoints - 4.0.1
+            Copyright © 2011-2016 Caleb Troughton
+            Licensed under the MIT license.
+            https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
+        */
+        !function(){"use strict";function t(n){if(!n)throw new Error("No options passed to Waypoint constructor");if(!n.element)throw new Error("No element option passed to Waypoint constructor");if(!n.handler)throw new Error("No handler option passed to Waypoint constructor");this.key="waypoint-"+e,this.options=t.Adapter.extend({},t.defaults,n),this.element=this.options.element,this.adapter=new t.Adapter(this.element),this.callback=n.handler,this.axis=this.options.horizontal?"horizontal":"vertical",this.enabled=this.options.enabled,this.triggerPoint=null,this.group=t.Group.findOrCreate({name:this.options.group,axis:this.axis}),this.context=t.Context.findOrCreateByElement(this.options.context),t.offsetAliases[this.options.offset]&&(this.options.offset=t.offsetAliases[this.options.offset]),this.group.add(this),this.context.add(this),i[this.key]=this,e+=1}var e=0,i={};t.prototype.queueTrigger=function(t){this.group.queueTrigger(this,t)},t.prototype.trigger=function(t){this.enabled&&this.callback&&this.callback.apply(this,t)},t.prototype.destroy=function(){this.context.remove(this),this.group.remove(this),delete i[this.key]},t.prototype.disable=function(){return this.enabled=!1,this},t.prototype.enable=function(){return this.context.refresh(),this.enabled=!0,this},t.prototype.next=function(){return this.group.next(this)},t.prototype.previous=function(){return this.group.previous(this)},t.invokeAll=function(t){var e=[];for(var n in i)e.push(i[n]);for(var o=0,r=e.length;r>o;o++)e[o][t]()},t.destroyAll=function(){t.invokeAll("destroy")},t.disableAll=function(){t.invokeAll("disable")},t.enableAll=function(){t.Context.refreshAll();for(var e in i)i[e].enabled=!0;return this},t.refreshAll=function(){t.Context.refreshAll()},t.viewportHeight=function(){return window.innerHeight||document.documentElement.clientHeight},t.viewportWidth=function(){return document.documentElement.clientWidth},t.adapters=[],t.defaults={context:window,continuous:!0,enabled:!0,group:"default",horizontal:!1,offset:0},t.offsetAliases={"bottom-in-view":function(){return this.context.innerHeight()-this.adapter.outerHeight()},"right-in-view":function(){return this.context.innerWidth()-this.adapter.outerWidth()}},window.Waypoint=t}(),function(){"use strict";function t(t){window.setTimeout(t,1e3/60)}function e(t){this.element=t,this.Adapter=o.Adapter,this.adapter=new this.Adapter(t),this.key="waypoint-context-"+i,this.didScroll=!1,this.didResize=!1,this.oldScroll={x:this.adapter.scrollLeft(),y:this.adapter.scrollTop()},this.waypoints={vertical:{},horizontal:{}},t.waypointContextKey=this.key,n[t.waypointContextKey]=this,i+=1,o.windowContext||(o.windowContext=!0,o.windowContext=new e(window)),this.createThrottledScrollHandler(),this.createThrottledResizeHandler()}var i=0,n={},o=window.Waypoint,r=window.onload;e.prototype.add=function(t){var e=t.options.horizontal?"horizontal":"vertical";this.waypoints[e][t.key]=t,this.refresh()},e.prototype.checkEmpty=function(){var t=this.Adapter.isEmptyObject(this.waypoints.horizontal),e=this.Adapter.isEmptyObject(this.waypoints.vertical),i=this.element==this.element.window;t&&e&&!i&&(this.adapter.off(".waypoints"),delete n[this.key])},e.prototype.createThrottledResizeHandler=function(){function t(){e.handleResize(),e.didResize=!1}var e=this;this.adapter.on("resize.waypoints",function(){e.didResize||(e.didResize=!0,o.requestAnimationFrame(t))})},e.prototype.createThrottledScrollHandler=function(){function t(){e.handleScroll(),e.didScroll=!1}var e=this;this.adapter.on("scroll.waypoints",function(){(!e.didScroll||o.isTouch)&&(e.didScroll=!0,o.requestAnimationFrame(t))})},e.prototype.handleResize=function(){o.Context.refreshAll()},e.prototype.handleScroll=function(){var t={},e={horizontal:{newScroll:this.adapter.scrollLeft(),oldScroll:this.oldScroll.x,forward:"right",backward:"left"},vertical:{newScroll:this.adapter.scrollTop(),oldScroll:this.oldScroll.y,forward:"down",backward:"up"}};for(var i in e){var n=e[i],o=n.newScroll>n.oldScroll,r=o?n.forward:n.backward;for(var s in this.waypoints[i]){var l=this.waypoints[i][s];if(null!==l.triggerPoint){var a=n.oldScroll<l.triggerPoint,h=n.newScroll>=l.triggerPoint,p=a&&h,u=!a&&!h;(p||u)&&(l.queueTrigger(r),t[l.group.id]=l.group)}}}for(var d in t)t[d].flushTriggers();this.oldScroll={x:e.horizontal.newScroll,y:e.vertical.newScroll}},e.prototype.innerHeight=function(){return this.element==this.element.window?o.viewportHeight():this.adapter.innerHeight()},e.prototype.remove=function(t){delete this.waypoints[t.axis][t.key],this.checkEmpty()},e.prototype.innerWidth=function(){return this.element==this.element.window?o.viewportWidth():this.adapter.innerWidth()},e.prototype.destroy=function(){var t=[];for(var e in this.waypoints)for(var i in this.waypoints[e])t.push(this.waypoints[e][i]);for(var n=0,o=t.length;o>n;n++)t[n].destroy()},e.prototype.refresh=function(){var t,e=this.element==this.element.window,i=e?void 0:this.adapter.offset(),n={};this.handleScroll(),t={horizontal:{contextOffset:e?0:i.left,contextScroll:e?0:this.oldScroll.x,contextDimension:this.innerWidth(),oldScroll:this.oldScroll.x,forward:"right",backward:"left",offsetProp:"left"},vertical:{contextOffset:e?0:i.top,contextScroll:e?0:this.oldScroll.y,contextDimension:this.innerHeight(),oldScroll:this.oldScroll.y,forward:"down",backward:"up",offsetProp:"top"}};for(var r in t){var s=t[r];for(var l in this.waypoints[r]){var a,h,p,u,d,f=this.waypoints[r][l],c=f.options.offset,w=f.triggerPoint,y=0,g=null==w;f.element!==f.element.window&&(y=f.adapter.offset()[s.offsetProp]),"function"==typeof c?c=c.apply(f):"string"==typeof c&&(c=parseFloat(c),f.options.offset.indexOf("%")>-1&&(c=Math.ceil(s.contextDimension*c/100))),a=s.contextScroll-s.contextOffset,f.triggerPoint=Math.floor(y+a-c),h=w<s.oldScroll,p=f.triggerPoint>=s.oldScroll,u=h&&p,d=!h&&!p,!g&&u?(f.queueTrigger(s.backward),n[f.group.id]=f.group):!g&&d?(f.queueTrigger(s.forward),n[f.group.id]=f.group):g&&s.oldScroll>=f.triggerPoint&&(f.queueTrigger(s.forward),n[f.group.id]=f.group)}}return o.requestAnimationFrame(function(){for(var t in n)n[t].flushTriggers()}),this},e.findOrCreateByElement=function(t){return e.findByElement(t)||new e(t)},e.refreshAll=function(){for(var t in n)n[t].refresh()},e.findByElement=function(t){return n[t.waypointContextKey]},window.onload=function(){r&&r(),e.refreshAll()},o.requestAnimationFrame=function(e){var i=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||t;i.call(window,e)},o.Context=e}(),function(){"use strict";function t(t,e){return t.triggerPoint-e.triggerPoint}function e(t,e){return e.triggerPoint-t.triggerPoint}function i(t){this.name=t.name,this.axis=t.axis,this.id=this.name+"-"+this.axis,this.waypoints=[],this.clearTriggerQueues(),n[this.axis][this.name]=this}var n={vertical:{},horizontal:{}},o=window.Waypoint;i.prototype.add=function(t){this.waypoints.push(t)},i.prototype.clearTriggerQueues=function(){this.triggerQueues={up:[],down:[],left:[],right:[]}},i.prototype.flushTriggers=function(){for(var i in this.triggerQueues){var n=this.triggerQueues[i],o="up"===i||"left"===i;n.sort(o?e:t);for(var r=0,s=n.length;s>r;r+=1){var l=n[r];(l.options.continuous||r===n.length-1)&&l.trigger([i])}}this.clearTriggerQueues()},i.prototype.next=function(e){this.waypoints.sort(t);var i=o.Adapter.inArray(e,this.waypoints),n=i===this.waypoints.length-1;return n?null:this.waypoints[i+1]},i.prototype.previous=function(e){this.waypoints.sort(t);var i=o.Adapter.inArray(e,this.waypoints);return i?this.waypoints[i-1]:null},i.prototype.queueTrigger=function(t,e){this.triggerQueues[e].push(t)},i.prototype.remove=function(t){var e=o.Adapter.inArray(t,this.waypoints);e>-1&&this.waypoints.splice(e,1)},i.prototype.first=function(){return this.waypoints[0]},i.prototype.last=function(){return this.waypoints[this.waypoints.length-1]},i.findOrCreate=function(t){return n[t.axis][t.name]||new i(t)},o.Group=i}(),function(){"use strict";function t(t){return t===t.window}function e(e){return t(e)?e:e.defaultView}function i(t){this.element=t,this.handlers={}}var n=window.Waypoint;i.prototype.innerHeight=function(){var e=t(this.element);return e?this.element.innerHeight:this.element.clientHeight},i.prototype.innerWidth=function(){var e=t(this.element);return e?this.element.innerWidth:this.element.clientWidth},i.prototype.off=function(t,e){function i(t,e,i){for(var n=0,o=e.length-1;o>n;n++){var r=e[n];i&&i!==r||t.removeEventListener(r)}}var n=t.split("."),o=n[0],r=n[1],s=this.element;if(r&&this.handlers[r]&&o)i(s,this.handlers[r][o],e),this.handlers[r][o]=[];else if(o)for(var l in this.handlers)i(s,this.handlers[l][o]||[],e),this.handlers[l][o]=[];else if(r&&this.handlers[r]){for(var a in this.handlers[r])i(s,this.handlers[r][a],e);this.handlers[r]={}}},i.prototype.offset=function(){if(!this.element.ownerDocument)return null;var t=this.element.ownerDocument.documentElement,i=e(this.element.ownerDocument),n={top:0,left:0};return this.element.getBoundingClientRect&&(n=this.element.getBoundingClientRect()),{top:n.top+i.pageYOffset-t.clientTop,left:n.left+i.pageXOffset-t.clientLeft}},i.prototype.on=function(t,e){var i=t.split("."),n=i[0],o=i[1]||"__default",r=this.handlers[o]=this.handlers[o]||{},s=r[n]=r[n]||[];s.push(e),this.element.addEventListener(n,e)},i.prototype.outerHeight=function(e){var i,n=this.innerHeight();return e&&!t(this.element)&&(i=window.getComputedStyle(this.element),n+=parseInt(i.marginTop,10),n+=parseInt(i.marginBottom,10)),n},i.prototype.outerWidth=function(e){var i,n=this.innerWidth();return e&&!t(this.element)&&(i=window.getComputedStyle(this.element),n+=parseInt(i.marginLeft,10),n+=parseInt(i.marginRight,10)),n},i.prototype.scrollLeft=function(){var t=e(this.element);return t?t.pageXOffset:this.element.scrollLeft},i.prototype.scrollTop=function(){var t=e(this.element);return t?t.pageYOffset:this.element.scrollTop},i.extend=function(){function t(t,e){if("object"==typeof t&&"object"==typeof e)for(var i in e)e.hasOwnProperty(i)&&(t[i]=e[i]);return t}for(var e=Array.prototype.slice.call(arguments),i=1,n=e.length;n>i;i++)t(e[0],e[i]);return e[0]},i.inArray=function(t,e,i){return null==e?-1:e.indexOf(t,i)},i.isEmptyObject=function(t){for(var e in t)return!1;return!0},n.adapters.push({name:"noframework",Adapter:i}),n.Adapter=i}();
+    </script>
+    <script type="text/javascript">
+        /*!
+            Waypoints Inview Shortcut - 4.0.1
+            Copyright © 2011-2016 Caleb Troughton
+            Licensed under the MIT license.
+            https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
+        */
+        !function(){"use strict";function t(){}function e(t){this.options=i.Adapter.extend({},e.defaults,t),this.axis=this.options.horizontal?"horizontal":"vertical",this.waypoints=[],this.element=this.options.element,this.createWaypoints()}var i=window.Waypoint;e.prototype.createWaypoints=function(){for(var t={vertical:[{down:"enter",up:"exited",offset:"100%"},{down:"entered",up:"exit",offset:"bottom-in-view"},{down:"exit",up:"entered",offset:0},{down:"exited",up:"enter",offset:function(){return-this.adapter.outerHeight()}}],horizontal:[{right:"enter",left:"exited",offset:"100%"},{right:"entered",left:"exit",offset:"right-in-view"},{right:"exit",left:"entered",offset:0},{right:"exited",left:"enter",offset:function(){return-this.adapter.outerWidth()}}]},e=0,i=t[this.axis].length;i>e;e++){var n=t[this.axis][e];this.createWaypoint(n)}},e.prototype.createWaypoint=function(t){var e=this;this.waypoints.push(new i({context:this.options.context,element:this.options.element,enabled:this.options.enabled,handler:function(t){return function(i){e.options[t[i]].call(e,i)}}(t),offset:t.offset,horizontal:this.options.horizontal}))},e.prototype.destroy=function(){for(var t=0,e=this.waypoints.length;e>t;t++)this.waypoints[t].destroy();this.waypoints=[]},e.prototype.disable=function(){for(var t=0,e=this.waypoints.length;e>t;t++)this.waypoints[t].disable()},e.prototype.enable=function(){for(var t=0,e=this.waypoints.length;e>t;t++)this.waypoints[t].enable()},e.defaults={context:window,enabled:!0,enter:t,entered:t,exit:t,exited:t},i.Inview=e}();
+    </script>
+
+<!-- FAVICON -->
+    <link rel="icon" sizes="48x48" href="https://static0.polygonimages.com/assets/images/favicon-48x48.7192f3c7.png">
+    <link rel="icon" sizes="96x96" href="https://static0.polygonimages.com/assets/images/favicon-96x96.6f074cf8.png">
+    <link rel="icon" sizes="144x144" href="https://static0.polygonimages.com/assets/images/favicon-144x144.6a96ce15.png">
+    <link rel="icon" sizes="192x192" href="https://static0.polygonimages.com/assets/images/favicon-192x192.d25fe1a2.png">
+    <link rel="icon" sizes="240x240" href="https://static0.polygonimages.com/assets/images/favicon-240x240.009c4ca7.png">
+
+<link rel="apple-touch-icon" sizes="240x240" href="https://static0.polygonimages.com/assets/images/favicon-240x240.009c4ca7.png">
+    <link rel="shortcut icon" href="https://static0.polygonimages.com/assets/images/favicon-192x192.d25fe1a2.png">
+
+<!-- GLOABL JS VARIABLES -->
+    <script type="module">
+        var valnet_site_viewType = "direct";
+        var valnet_site_view = "all";
+        var valnet_site_campaign = "";
+        var valnet_site_device = "desktop";
+        window.device = "desktop";
+        var valnet_hideAds = false;
+    </script>
+
+<script>
+            !async function(){
+
+var url   = 'https://cdn.adsninja.ca';
+                var host  = location.host;
+                var parts = host.split('.');
+
+if(3 === parts[0].length && (parts[0].indexOf('qa') != -1 || parts[0].indexOf('ads') != -1)){
+
+url = 'https://' + parts[0] + '.adsninja.ca/cached';
+                }
+                else if(-1 === ['com', 'ca', 'net', 'co', 'uk'].indexOf(parts[parts.length - 1])){
+
+url = 'https://www.adsninja.ca.' + parts[parts.length - 1] + '/cached';
+                }
+
+var version             = Math.floor(Date.now() / 3e5);
+                var newScript           = document.createElement("script");
+                newScript.async         = true;
+                newScript.src           = url + '/ads_initiator.js?v=' + version;
+                newScript.id            = "an-injector";
+
+document.head.appendChild(newScript);
+                await new Promise((resolve) => {
+                    newScript.onload = resolve;
+                }).then(() => {
+                    //wait for script
+                    window.adsNinjaInitiator.brandName = "Polygon";
+                    window.adsNinjaInitiator.shortBrandName = "POLY";
+                    window.adsNinjaInitiator.init();
+                });
+
+}();
+        </script>
+        <script src="https://cdn.adsninja.ca/an_sn.js"></script>
+
+<script>
+        console.log('viewType: direct');
+        console.log('view: all');
+        console.log('campaign: ');
+        console.log('device: desktop');
+                console.log('displayStartButton:  false ');
+            </script>
+
+</head>
+
+<body
+    class="w-website js-tldr  theme-polygon"
+     >
+
+<div id="amazon-root"></div>
+    <script>
+        window.injectGoogleScript = false;
+        window.googleClientId = "637319331038-n3kh7pj2svog1017crp2opl1oo5503fm.apps.googleusercontent.com";
+        window.amazonClientId = "";
+        window.openPassClientId = "e1c0a7e8586b40ffb119da4083e67fd1";
+        window.OPENPASS_IS_ENABLED =  true ;
+        window.facebookClientId = "1274582487631740";
+        window.discordClientId = "";
+        window.appleClientId = "com.polygon.web";
+
+</script>
+
+<script>  window.paypalClientID = "AWrMHcGU0RN46X5fMGOAQarESxoqlS_swAzbtrutEpvYF-U_EBIDuokZxgk7jk6ei2rPYpUG2VKCNIkY"; </script>
+    
+        <!-- No AdsNinja v10 Client! -->
+
+<div id="body-anchor"></div>
+
+<header id="js-header" class="w-header ">
+
+<div class="wrapper main-navigation">
+        <div class="header-nav nav-menu  has-secondary-header  ">
+
+<div class="header-section nav-left">
+                <label class="menu-icon topnav-icon icon i-menu-new css-menu--toggle" for="side_menu"><span>Menu</span></label>
+                            </div>
+
+<div class="header-section nav-center">
+                <a href="/" rel="home" class="header-logo">
+                    <!-- Full Logo Picture Element -->
+                    <picture class="header-full-logo">
+                        
+                            <source srcset="https://static0.polygonimages.com/assets/images/poly-logo-full-colored-light.svg?v=3.0" media="(prefers-color-scheme: dark)">
+                            <img src="https://static0.polygonimages.com/assets/images/poly-logo-full-colored-light.svg?v=3.0"
+                                alt="Polygon logo"
+                                title="Polygon"
+                                height="67"
+                                width="317" />
+
+</picture>
+
+</a>
+            </div>
+
+<div class="header-section nav-right static">
+
+<div class="w-static-action">
+                                                                                                        </div>
+
+<div class="nav-elements">
+                            <!-- span itemprop="url" onclick="window.showLoginPopup(null,event);document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link highlight js-subscription-link">Sign in</span -->
+                            <div data-is-header-login-button="true" itemprop="url" onclick="document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link nav-link-user logged-out js-subscription-link icon i-user-full on-load-show"><span class="is-mobile-hidden">Sign in now</span></div>
+                        </div>
+                                    
+                
+                                                                                                        
+            </div>
+
+<div class="polly">
+                                        <nav  class="w-images-header-menu default-menu ">
+            <div class="images-header-menu">
+                <div class="wrapper">
+                    <input type="checkbox" id="expandMenuListDefault" class="images-header-menu-checkbox">
+                    <label for="expandMenuListDefault" class="images-header-menu-btn icon i-plus-solid"></label>
+                    <div class="images-header-menu-list">
+                                                                                            <div class="images-header-menu-item ">
+                                                                    <a href="/guides/">
+                                        <div class="w-img">
+                                                                                    </div>
+                                                                                    <label class="images-header-label">Guides</label>
+                                                                            </a>
+                                                            </div>
+                                                    <div class="images-header-menu-item ">
+                                                                    <a href="/gaming/">
+                                        <div class="w-img">
+                                                                                    </div>
+                                                                                    <label class="images-header-label">Gaming</label>
+                                                                            </a>
+                                                            </div>
+                                                    <div class="images-header-menu-item ">
+                                                                    <a href="/entertainment/">
+                                        <div class="w-img">
+                                                                                    </div>
+                                                                                    <label class="images-header-label">Entertainment</label>
+                                                                            </a>
+                                                            </div>
+                                            </div>
+                </div>
+            </div>
+        </nav>
+        <nav data-is-header-menu-submenu="true" class="w-images-header-menu submenu">
+        <div class="images-header-submenu">
+            <div class="wrapper">
+                <div class="images-header-submenu-list">
+                                                                                                                                                                        </div>
+            </div>
+        </div>
+    </nav>
+
+</div>
+                    </div>
+    </div>
+
+</header>
+
+<input type="checkbox" id="side_menu" name="side_menu" class="css-menu--checkbox">
+<div id="side-navigation" class="side-navigation side_menu">
+    <div class="side-navigation-topbar">
+
+<form method="get" class="search-form js-searchBox icon i-search" action="/search/?q=">
+                <input type="text" name="q" class="input-text search-input" autocomplete="off" placeholder="Search Polygon" autofocus="">
+            </form>
+        
+        <label class="menu-icon topbar-icon icon i-close-menu css-menu--toggle" for="side_menu"><span>Close</span></label>
+    </div>
+
+<nav id="menu-site" class="side-navigation-menu" role="navigation">
+
+<ul class="side-navigation-list" itemscope itemtype="https://schema.org/SiteNavigationElement">
+        
+                                        <li class="sidenav-section">
+                    <ul class="side-navigation-list">
+                            
+                        <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link emphasized"
+                    href="/what-to-play/"
+                    itemprop="url"
+                >
+                    <span>What To Play</span>
+                </a>
+            </li>
+                                <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link emphasized"
+                    href="/what-to-watch/"
+                    itemprop="url"
+                >
+                    <span>What to Watch</span>
+                </a>
+            </li>
+
+</ul>
+                </li>
+                                                            <li class="sidenav-section">
+                    <ul class="side-navigation-list">
+                            
+                                        <li itemprop="name"
+                    class="w-sidenav-subnav sidenav-elements standard">
+                                                                <input type="checkbox" id="navItems-Guides" name="navItems-Guides" class="css-menu--checkbox">
+                        <label class="css-menu--checkbox-wrapper css-menu-toggle" for="navItems-Guides">
+                            <span class="sidenav-link standard">Guides</span>
+                            <span class="menu-icon sidenav-icon icon subnav-icon"><span>Submenu</span></span>
+                        </label>
+
+<ul class="sidenav-subnav css-menu--target">
+                            
+                        <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/guides/"
+                    itemprop="url"
+                >
+                    <span>All Guides</span>
+                </a>
+            </li>
+                                <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/pokemon-go-guide/"
+                    itemprop="url"
+                >
+                    <span>Pokémon Go</span>
+                </a>
+            </li>
+                                <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/donkey-kong-bananza-guides/"
+                    itemprop="url"
+                >
+                    <span>Donkey Kong Bananza</span>
+                </a>
+            </li>
+                                <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/clair-obscur-expedition-33-guides/"
+                    itemprop="url"
+                >
+                    <span>Clair Obscur: Expedition 33</span>
+                </a>
+            </li>
+
+</ul>
+                </li>
+                                                            <li itemprop="name"
+                    class="w-sidenav-subnav sidenav-elements standard">
+                                                                <input type="checkbox" id="navItems-Games" name="navItems-Games" class="css-menu--checkbox">
+                        <label class="css-menu--checkbox-wrapper css-menu-toggle" for="navItems-Games">
+                            <span class="sidenav-link standard">Games</span>
+                            <span class="menu-icon sidenav-icon icon subnav-icon"><span>Submenu</span></span>
+                        </label>
+
+<ul class="sidenav-subnav css-menu--target">
+                            
+                        <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/gaming/"
+                    itemprop="url"
+                >
+                    <span>All Gaming</span>
+                </a>
+            </li>
+                                <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/tabletop-games/"
+                    itemprop="url"
+                >
+                    <span>Tabletop</span>
+                </a>
+            </li>
+
+</ul>
+                </li>
+                                                            <li itemprop="name"
+                    class="w-sidenav-subnav sidenav-elements standard">
+                                                                <input type="checkbox" id="navItems-Entertainment" name="navItems-Entertainment" class="css-menu--checkbox">
+                        <label class="css-menu--checkbox-wrapper css-menu-toggle" for="navItems-Entertainment">
+                            <span class="sidenav-link standard">Entertainment</span>
+                            <span class="menu-icon sidenav-icon icon subnav-icon"><span>Submenu</span></span>
+                        </label>
+
+<ul class="sidenav-subnav css-menu--target">
+                            
+                        <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/entertainment/"
+                    itemprop="url"
+                >
+                    <span>All Entertainment</span>
+                </a>
+            </li>
+                                <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/anime/"
+                    itemprop="url"
+                >
+                    <span>Anime</span>
+                </a>
+            </li>
+                                <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/horror/"
+                    itemprop="url"
+                >
+                    <span>Horror</span>
+                </a>
+            </li>
+                                <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/sci-fi/"
+                    itemprop="url"
+                >
+                    <span>Sci-Fi</span>
+                </a>
+            </li>
+                                <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/fantasy/"
+                    itemprop="url"
+                >
+                    <span>Fantasy</span>
+                </a>
+            </li>
+
+</ul>
+                </li>
+                                            <li class="sidenav-elements" itemprop="name">
+                <a class="sidenav-link js-sidebar-menu-nav-link standard"
+                    href="/videos/"
+                    itemprop="url"
+                >
+                    <span>Videos</span>
+                </a>
+            </li>
+
+</ul>
+                </li>
+
+</ul>
+        <ul id="menu-features" class="side-navigation-list">
+
+<li class="sidenav-elements">
+                        <span class="menu-icon feature-icon icon i-user"></span>
+                        <a href="#" id="login-button-sidemenu" class="sidenav-link standard js-subscription-link on-load-show"><span>Sign in</span></a>
+                    </li>
+                            
+                            <li class="sidenav-elements">
+                    <span class="menu-icon feature-icon icon i-menu-newsletter"></span>
+                    <a href="/page/newsletter/" itemprop="url" class="sidenav-link standard"><span>Newsletter</span></a>
+                </li>
+            
+                                                                                
+        </ul>
+
+<div class="w-side-navigation-social">
+                <input type="checkbox" id="showMoreToggle" class="show-more-toggle-social">
+                <label for="showMoreToggle" class="show-more-label-social menu-icon sidenav-icon icon subnav-icon"></label>
+                <ul id="menu-follow" class="side-navigation-social">
+                                            <li class="social-elements"><a class="social-links  icon i-youtube js-follow-us-links"
+                                                       href="https://www.youtube.com/user/polygon" target="_blank"></a></li>
+                                            <li class="social-elements"><a class="social-links  icon i-facebook js-follow-us-links"
+                                                       href="https://www.facebook.com/polygon" target="_blank"></a></li>
+                                            <li class="social-elements"><a class="social-links  icon i-instagram js-follow-us-links"
+                                                       href="https://www.instagram.com/polygondotcom/" target="_blank"></a></li>
+                                            <li class="social-elements"><a class="social-links  icon i-twitter js-follow-us-links"
+                                                       href="https://x.com/polygon" target="_blank"></a></li>
+                                    </ul>
+            </div>
+
+</nav>
+
+<!--
+    <footer class="side-navigation-footer">
+                        <nav class="menu-legal">
+        <ul>
+                                                                                <li><a class="menu-join-our-content-team standard" href="/careers/">Join Our Content Team</a></li>
+                                                                                                <li><a class="menu-home standard" href="/">Home</a></li>
+                                                                                                <li><a class="menu-contact-us standard" href="/contact/">Contact Us</a></li>
+                                                                                                <li><a class="menu-terms standard" href="/terms-of-use/">Terms</a></li>
+                                                                                                <li><a class="menu-privacy standard" href="/privacy-policy/">Privacy</a></li>
+                                                                                                <li><a class="menu-copyright standard" href="/dmca-take-down-policy/">Copyright</a></li>
+                                                                                                <li><a class="menu-about-us standard" href="/about/">About Us</a></li>
+                                                                                                <li><a class="menu-press-kit standard" href="/press-kit/">Press Kit</a></li>
+                                                                                                <li><a class="menu-fact-checking-policy standard" href="/fact-checking-policy/">Fact Checking Policy</a></li>
+                                                                                                <li><a class="menu-corrections-policy standard" href="/corrections-policy/">Corrections Policy</a></li>
+                                                                                                <li><a class="menu-ethics-policy standard" href="/ethics-policy/">Ethics Policy</a></li>
+                                                                                                <li><a class="menu-ownership-policy standard" href="/ownership-funding-advertising-policy/">Ownership Policy</a></li>
+                                                                                                <li><a class="menu-owned-&amp;-operated-by-valnet-inc. standard" href="https://www.valnetinc.com/">Owned &amp; Operated by Valnet Inc.</a></li>
+                                    </ul>
+    </nav>
+
+<div id="ccpa-link"></div>
+        <div class="footer-copy">
+            Copyright &copy; 2025 www.polygon.com
+        </div>
+    </footer>
+    -->
+</div>
+
+<nav class="w-secondary-header is-sliding-out " id="js-secondary-header" data-is-db-search="0" data-is-secondary-header="true">
+
+<div class="wrapper secondary-header">
+
+<div class="header-nav nav-secondary">
+    <div class="header-section nav-left dynamic">
+
+<label class="menu-icon topnav-icon icon i-menu-new css-menu--toggle" for="side_menu">
+            <span>Menu</span>
+        </label>
+        <a href="/" rel="home" class="header-logo small-version">
+            <picture class="header-icon-logo">
+                <source srcset="https://static0.polygonimages.com/assets/images/poly-logo-icon-colored-light.svg?v=3.0" media="(prefers-color-scheme: dark)">
+                <img src="https://static0.polygonimages.com/assets/images/poly-logo-icon-colored-light.svg?v=3.0"
+                     alt="Polygon logo" title="Polygon"
+                     height="60"
+                     width="60"/>
+            </picture>
+        </a>
+        <div data-is-action-bar-dynamic-section="true" class="w-dynamic-action">
+
+<div>
+                                                                                                                            
+                                                                                
+        
+            <div
+            data-id="200913"
+            data-title="YouTube’s top creators are burning out and breaking down en masse"
+            data-permalink="/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"
+            data-type="article"
+            title="Follow"
+            data-value="1"
+            data-preference="Notifications"
+            data-is-follow-choice-button="true"
+            data-is-followed-choice-button="false"
+            data-is-follow-container="true"
+            class="btn-fab action-btn circle small no-label  follow-container ">
+                <div class="main-icon icon-xlarge icon i-follow unfollowed"
+                                            data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Action%20Bar%22%2C%22action%22%3A%22Follow%20Article%22%7D"
+                                    ></div>
+                <div class="fab-label">
+                                    Follow
+                                </div>
+        </div>
+
+<div
+            data-id="200913"
+            data-title="YouTube’s top creators are burning out and breaking down en masse"
+            data-permalink="/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"
+            data-type="article"
+            title="Unfollow"
+            data-value="0"
+            data-preference=""
+            data-is-follow-choice-button="true"
+            data-is-followed-choice-button="true"
+            data-is-followed-container="true"
+            class="btn-fab action-btn circle small no-label  follow-container is-hidden">
+                <div class="main-icon icon-xlarge icon i-follow followed followed"
+                                            data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Action%20Bar%22%2C%22action%22%3A%22Follow%20Article%22%7D"
+                                    ></div>
+                <div class="fab-label">
+                                            Followed
+                                    </div>
+        </div>
+
+</div>
+
+<button class="btn-fab action-btn circle small no-label"
+    title="Like"
+    data-like-title="Like"
+    data-unlike-title="Liked"
+    data-like-icon="liked"
+    data-unlike-icon="not-liked"
+    data-like-count="0"
+
+data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Action%20Bar%22%2C%22action%22%3A%22Like%20Article%22%7D"
+    
+            data-id="200913"
+    
+            data-value="0"
+        data-is-like-article-button="true" >
+
+<div data-is-icon="true" class="main-icon icon icon-xlarge i-thumb-on not-liked"></div>
+                <div data-is-text="true" class="fab-label">
+                            Like
+                                </div>
+    </button>
+            
+                            
+                                                                    
+                            
+            <div data-is-action-bar-more-action="true" class="w-more-action is-hidden">
+                <div title="More Action" data-is-action-bar-more-action-button="true" class="btn-fab action-btn circle small no-label">
+                    <div class="main-icon icon i-options" style="padding-top: 2px"></div>
+                    <div class="fab-label">More Action</div>
+                    <div class="action-icon icon rotate-active i-caret-down"></div>
+                </div>
+                <div data-is-action-bar-more-action-dropdown="true" class="w-more-action-dropdown">
+
+</div>
+            </div>
+
+</div>
+
+</div>
+
+<div class="header-section nav-right static">
+                <div class="w-static-action">
+                                </div>
+
+<div class="nav-elements">
+                    <!-- span itemprop="url" onclick="window.showLoginPopup(null,event);document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link highlight js-subscription-link">Sign in</span -->
+                    <div data-is-header-login-button="true" itemprop="url" onclick="document.getElementById('side-navigation') && document.getElementById('side-navigation').classList.remove('is-open');" class="nav-link nav-link-user logged-out js-subscription-link icon i-user-full on-load-show"><span class="is-mobile-hidden">Sign in now</span></div>
+                </div>
+                    
+    </div>
+</div>
+     </div>
+
+</nav>
+
+<!-- Subnav Image header menu Bar end -->
+
+<!-- Subnav Search Bar start -->
+
+<div class="w-ticker">
+    </div>
+
+<div class="w-header-search">
+    <input type="checkbox" id="search-menu" name="search-menu" class="css-menu--checkbox">
+    <div class="header-search-content css-menu--target">
+        <label class="header-search-exit icon i-close css-menu--toggle" for="search-menu"><span>Close</span></label>
+        <div class="header-search">
+            <form method="get" class="search-form js-searchBox icon i-search" id="searchform2"
+                action="/search/?q=">
+                <input id="js-search-input" type="text" name="q" class="input-text search-input" autocomplete="off" id="s2"
+                    placeholder="Search Polygon" autofocus>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- No AdsNinja v10 Client! -->
+
+<!-- No AdsNinja v10 Client! -->
+
+<main class="w-content ">
+
+<article class="w-article widget   article  layout-light-wide">
+
+<header
+                        
+            class="article-header poly  ">
+
+<p>‘This is all I’ve ever wanted. Why am I so unhappy?’</p>
+
+<script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": "1",
+                  "name": "Home",
+                  "item": "https://www.polygon.com/"
+            },
+                        {
+                "@type": "ListItem",
+                "position":"2",
+                "name": "YouTube",
+                "item": "https://www.polygon.com/youtube/"
+            },                        {
+                "@type": "ListItem",
+                "position":"3",
+                "name": "YouTube\u2019s top creators are burning out and breaking down en masse",
+                "item": "https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"
+            }            ]
+        }
+    </script>
+
+<h1 class="article-header-title">YouTube’s top creators are burning out and breaking down en masse</h1>
+
+<div class="article-header-data">
+
+<div class="w-article-header-author-img">
+                            <div class="article-header-author-img">
+                                            <img src="https://static0.polygonimages.com/wordpress%2Fwp-content%2Fuploads%2Fchorus%2Fauthor_profile_images%2F196357%2Fjulia.0.jpg?fit=crop&amp;w=90&amp;h=90" alt="4" style="display:block;height:auto;max-width:100%;" loading="lazy" decoding="async"/>
+                                    </div>
+                    </div>
+    
+    <div class="article-meta">
+                    <div class="w-author">
+                <div class="w-author-name">
+                    
+                                                    <span class="meta_txt">By&nbsp;</span>
+                        
+                                                    <a data-author-nice-name="julia-alexander" class="meta_txt article-author" href="/author/julia-alexander/">Julia Alexander</a>
+                        
+                                    </div>
+            </div>
+        
+                                                                            <div class="meta_txt article-date">
+                    <time datetime="2018-06-06T21:30:00Z"><span class="is-mobile-hidden">Published</span> Jun 6, 2018</time>
+                </div>
+                    
+                
+        
+    </div>
+
+</div>
+
+<div class="w-heading-options">
+
+<div class="w-follow-btn">
+            <div
+                data-id="200913"
+                data-title="YouTube’s top creators are burning out and breaking down en masse"
+                data-permalink="/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"
+                data-type="article"
+                title="Follow"
+                data-value="1"
+                data-preference="Notifications"
+                data-is-follow-choice-button="true"
+                data-is-followed-choice-button="false"
+                data-is-follow-container="true"
+                data-id-tag=""
+                class="btn-fab tertiary xsmall  follow-container btn-follow "
+                                    data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Article%20Featured%20Section%22%2C%22action%22%3A%22Follow%20Article%22%7D"
+                >
+                <div class="main-icon icon-xlarge icon i-follow"></div>
+                <div class="fab-label">
+                                            Follow
+                                    </div>
+            </div>
+
+<div
+                data-id="200913"
+                data-title="YouTube’s top creators are burning out and breaking down en masse"
+                data-permalink="/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"
+                data-type="article"
+                title="Unfollow"
+                data-value="0"
+                data-preference=""
+                data-is-follow-choice-button="true"
+                data-is-followed-choice-button="true"
+                data-is-followed-container="true"
+                data-id-tag=""
+                class="btn-fab tertiary xsmall  follow-container btn-follow is-hidden"
+                                    data-stnl='%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Article%20Featured%20Section%22%2C%22action%22%3A%22Follow%20Article%22%7D'
+                >
+                <div class="main-icon icon-xlarge icon i-follow followed"></div>
+                <span class="fab-label">
+                                    Followed
+                                </span>
+            </div>
+        </div>
+                    
+<!-- div class="option-btn btn-share" id="sharingButtonPopup">
+    <span class="icon i-share"></span>
+    <span class="text">Share</span>
+
+<div id="sharePopup" class="w-sharing-option w-sharing-popup" style="color: black">
+
+<a class="sharing-btn btn-facebook" target="_blank"
+           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F%2F&amp;src=sdkpreparse">
+            <span class="icon i-facebook"></span>
+            <span class="text">Facebook</span>
+        </a>
+                        <a class="sharing-btn btn-x" target="_blank"
+           href="https://twitter.com/intent/tweet?text=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
+            <span class="icon i-x"></span>
+            <span class="text">X</span>
+        </a>
+                            <a class="sharing-btn btn-linkedIn" target="_blank"
+               href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F&title=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&source=www.polygon.com&summary=%E2%80%98This%20is%20all%20I%E2%80%99ve%20ever%20wanted.%20Why%20am%20I%20so%20unhappy%3F%E2%80%99">
+                <span class="icon i-linkedIn"></span>
+                <span class="text">LinkedIn</span>
+            </a>
+                                    <a class="sharing-btn btn-reddit" target="_blank"
+               href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
+                <span class="icon i-reddit"></span>
+                <span class="text">Reddit</span>
+            </a>
+                            <a class="sharing-btn btn-flipboard" target="_blank"
+               href="http://share.flipboard.com/bookmarklet/popout?v=2&title=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F&utm_campaign=tools&utm_medium=article-share&utm_source=www.polygon.com">
+                <span class="icon i-flipboard"></span>
+                <span class="text">Flipboard</span>
+            </a>
+                            <a class="sharing-btn copy-link-button btn-copy-url" href="javascript:;">
+                <span class="icon i-copy-url"></span>
+                <span class="text">Copy link</span>
+            </a>
+                            <a class="sharing-btn btn-mail"
+               href="mailto:?Subject=YouTube’s top creators are burning out and breaking down en masse&Body=Check%20this%20out%21%0Ahttps://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/">
+                <span class="icon i-mail-1"></span>
+                <span class="text">Email</span>
+            </a>
+            </div>
+</div -->
+
+<div class="w-like-btn inactive">
+        <button class="btn-fab tertiary xsmall"
+        title="Like"
+        data-like-title="Like"
+        data-unlike-title="Liked"
+        data-like-icon="liked"
+        data-unlike-icon="not-liked"
+        data-like-count="0"
+
+data-stnl="%7B%22category%22%3A%22Click%20Interactions%22%2C%22name%22%3A%22Article%20Featured%20Section%22%2C%22action%22%3A%22Like%20Article%22%7D"
+        
+                    data-id="200913"
+        
+                    data-value="0"
+                data-is-like-article-button="true" >
+
+<div data-is-icon="true" class="main-icon icon icon-xlarge i-thumb-on not-liked"></div>
+                        <div data-is-text="true" class="fab-label">
+                                    Like
+                                            </div>
+        </button>
+    </div>
+
+<div id="sharingCopyAlertDiv" class="w-sharing-copy">
+    <span>Link copied to clipboard</span>
+</div>
+    </div>
+
+<div class="heading_image responsive-img img-size-heading-image-full-width   expandable "
+         data-img-url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png"
+                     data-modal-id="single-image-modal"
+         data-modal-container-id="single-image-modal-container"
+         data-img-caption="&quot;Rub\u00e9n \u201cEl Rubius\u201d Gundersen\/ YouTube&quot;"
+        data-is-feature-img="true"
+        >
+
+<figure>
+    <picture>
+                                                                                                                                                                            
+            
+                                                
+                        
+                                                                            
+                                                    <source
+                    media="(max-width: 480px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=480&amp;dpr=1.5"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=480&amp;dpr=1.5"
+                                    />
+                                                                                                                                                                                        
+            
+                                                
+                        
+                                                                            
+                                                    <source
+                    media="(max-width: 767px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=767&amp;dpr=1.5"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=767&amp;dpr=1.5"
+                                    />
+                                                                                                                                                                                        
+            
+                                                
+                        
+                                                                            
+                                                    <source
+                    media="(max-width: 1023px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=943&amp;dpr=1.5"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=943&amp;dpr=1.5"
+                                    />
+                                                                                                                                                                                        
+            
+                                                
+                        
+                                                                            
+                                                    <source
+                    media="(min-width: 1024px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=1140&amp;dpr=1.5"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?q=50&amp;fit=crop&amp;w=1140&amp;dpr=1.5"
+                                    />
+                                                                                                                                                                                        
+            
+                                                
+                        
+                                                
+                                                                                <img
+                                                                                                                                                                    width="1600"
+                        height="900"
+                                                                                                        alt="Rubén “El Rubius” Gundersen"
+                                        data-img-url="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&amp;h=900&amp;fit=crop"
+                    src="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png?w=1600&amp;h=900&amp;fit=crop"
+                                                        />
+                        </picture>
+                <small class=item-img-caption>Rubén “El Rubius” Gundersen/ YouTube</small>
+        </figure>
+
+</div>
+
+</header>
+
+<div class="article-header-bg"
+
+style="background-image: url('https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11456623/Screen_Shot_2018_05_31_at_3.17.34_PM.png')"
+                                    ></div>
+
+<!-- No AdsNinja v10 Client! --><!-- No AdsNinja v10 Client! --><!-- No AdsNinja v10 Client! --><!-- No AdsNinja v10 Client! --><section id="article-body" class="article-body valnet-segment-Gaming" itemprop="articleBody"><div class="js-hidden-by-overlay" style="display: none;">
+
+</div><div class="js-hidden-by-overlay" style="display: none;">  </div><div class="js-hidden-by-overlay" style="display: none;">  </div><div class="content-block-regular">
+
+<section class="emaki-custom-block emaki-custom-dropcap" data-nosnippet >
+    <div class="emaki-custom dropcap" id="custom_block_0" >
+
+<div class="custom_block-content dropcap"><p>Three weeks ago, Bobby Burns, a <a href="https://www.washingtonpost.com/news/the-intersect/wp/2018/02/24/lets-ignore-youtubes-worst-creators-for-a-moment-and-watch-these-8-channels-we-actually-love/?noredirect=on" target="_blank">YouTuber with just under one million subscribers</a>, sat down on a rock in Central Park to talk about a recent mental health episode. One week ago, Elle Mills, <a href="https://www.polygon.com/2018/5/7/17319966/youtube-creators-demonetization-advertising-philip-defranco-logan-paul-pewdiepie-casey-neistat" target="_blank">a creator with more than 1.2 million subscribers</a>, uploaded a video that included vulnerable footage during a breakdown. Six days ago, Rubén <a href="https://www.polygon.com/2018/3/26/17163966/fortnite-elrubiusomg-youtube-livestream-twitch-ninja-drake" target="_blank">“El Rubius”</a> Gundersen, the third most popular YouTuber in the world with just under 30 million subscribers, turned on his camera to talk to his viewers about the fear of an impending breakdown and his decision to take a break from YouTube.</p></div>
+    
+        
+    </div>
+</section><!-- No AdsNinja v10 Client! --><p>Burns, Mills and Gundersen aren’t alone. Erik “M3RKMUS1C” Phillips (four million subscribers), Benjamin “Crainer” Vestergaard (2.7 million subscribers) and other top YouTubers have either announced brief hiatuses from the platform, or discussed their own struggles with burnout, in the past month. Everyone from <a href="https://www.polygon.com/2017/10/16/16482348/pewdiepie-smosh-games-youtube" target="_blank">PewDiePie</a> (62 million subscribers) to <a href="https://www.polygon.com/2018/5/8/17331622/jake-paul-team-10-chance-sutton-logan-greg-paul-youtube" target="_blank">Jake Paul</a> (15.2 million subscribers) have dealt with burnout. Lately, however, it seems like more of YouTube’s top creators are coming forward with their mental health problems.</p>    <!-- No AdsNinja v10 Client! --><p>Constant changes to the platform’s algorithm, unhealthy obsessions with remaining relevant in a rapidly growing field and social media pressures are making it almost impossible for top creators to continue creating at the pace both the platform and audience want — and that can have a detrimental effect on the very ecosystem they belong to.</p>    <!-- No AdsNinja v10 Client! --><h2 id="B8LfYK">
+                        “Why the fuck am I so unfucking unhappy?”
+               </h2>
+    <script>
+                    window.arrayOfEmbeds["WKKwgq9LRgA"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/WKKwgq9LRgA\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
+            
+                            window.arrayOfEmbedScripts["youtube"] = "null";
+                        </script>
+    
+    <div class="w-rich w-youtube" id="WKKwgq9LRgA" >
+            </div>
+<p>“My life just changed so fast,” Elle Mills said in a video from May 18. “My anxiety and depression keeps getting worse and worse. I’m literally just waiting for me to hit my breaking point.”</p>    <p>Part of her seven-minute confession includes a glimpse of her breakdown, wherein she’s trying to figure out what’s going on in her mind. Mills says:</p>    <blockquote>
+                        <p>This is all I ever wanted. And why the fuck am I so unfucking unhappy? It - It doesn’t make any sense. You know what I mean? Because, like, this is literally my fucking dream. And I’m fucking so unfucking happy. It doesn’t make any fucking sense. It’s so stupid. It is so stupid.</p>    
+            </blockquote><p>Soon after, Mills announced on Twitter that she was taking a break from YouTube and social media. She couldn’t keep up with the pressure, and told her fans that while she was safe, and in good hands, she needed time to recuperate and remember why she loved making videos in the first place.</p>    <p>Sam Sheffer, a popular YouTuber who burst into the spotlight after appearing in <a href="https://www.polygon.com/2018/4/5/17202046/casey-neistat-youtube-factory-vlog-368" target="_blank">multiple Casey Neistat videos</a>, recently took a break from Twitter for similar reasons. In his own video, Neistat addressed Mills’s questions about why she was so unhappy when everything she ever wanted was finally coming together.</p>    
+    <script>
+                    window.arrayOfEmbeds["G38ixvYVNyM"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/G38ixvYVNyM\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
+            
+                            window.arrayOfEmbedScripts["youtube"] = "null";
+                        </script>
+    
+    <div class="w-rich w-youtube" id="G38ixvYVNyM" >
+            </div>
+<p>“I’ve often talked about the pressures of being a YouTuber and it’s a tricky thing to talk about because to find success on YouTube is to live the dream,” Neistat said. “Like, this is the ultimate. And if you achieve this kind of success on this platform, which so many people try to do, like, how dare you complain about it? It is difficult to talk about because unless you’ve been in this position, I think it’s challenging to empathize with it.”</p>    <div class=ad-odd><!-- No AdsNinja v10 Client! --></div><h2 id="831heZ">
+                        The pull of the YouTube “schedule”
+               </h2><p>The backlash to YouTubers and Twitch streamers who publicly take time away from the spotlight shows its face in almost any comments section about mental health and creators. Their fans are mostly supportive, telling their favorite creators to take time and work on their mental health, but most people who don’t keep up with the day-to-day uploads or aren’t as tuned in to YouTube culture have trouble sympathizing. Here are just a few comments lifted from a recent Polygon article <a href="https://www.polygon.com/2018/1/18/16899532/youtube-twitch-burnout-h3h3-pewdiepie-lirik" target="_blank">about YouTubers and mental health:</a></p>    <blockquote>
+                        <p>“It’s as if their fun hobby that they turned into a career came with all the trappings of having a career.”</p>    
+                    <p>“Of course every job is challenging but bruh, you’re at home, no kids, in front of some camera with this fake cheery persona. Your serious challenges involve a steady schedule and demonstrating your internet personality for the dollars? Please. Thats the line of work you chose. No different than a private dancer. Find another job if its such a problem.”</p>    
+                    <p>“So they’re saying their get-rich-quick scheme isn’t as easy as they initially thought it would be?”</p>    
+                    <p>“Yeah, hard to really sympathize. Boo hoo, I work harder than you think! Umm, is someone holding a gun to your head? No, so if it’s too hard find something else to do. Good grief.</p>    
+                    <p>Fact of the matter is, if they didn’t enjoy it or like the money they were making, they’d be doing something else. They act like they’re in prison doing forced manual labor.”</p>    
+                    <p>“Gee I never get burned out at my job ever. That doesn’t happen to me or billions of other people every day.”</p>    
+            </blockquote><p>There’s a pressure for YouTubers to remain in the spotlight. This is something that PewDiePie, who uploads at least once a day, has said the rigorous pace of YouTube video creation led him to his own obsessions with the platform. Those obsessions turn into eventual dismay over producing and not enjoying the one thing that made him successful.</p>    <p>“I think I have a pretty high tolerance of stress but it just got worse when I came here,” he said in a November 2016 video. “I’m really sorry ... it really sucks for me. I’ve always put YouTube first, always. Even if I’m working on other projects, it doesn’t matter. You guys come first, that’s my main thing. But I can’t do that while I’m here ... keeping the vlogs up is just impossible at this point.”</p>    
+    <script>
+                    window.arrayOfEmbeds["vnr0kCmkMO0"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/vnr0kCmkMO0\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
+            
+                            window.arrayOfEmbedScripts["youtube"] = "null";
+                        </script>
+    
+    <div class="w-rich w-youtube" id="vnr0kCmkMO0" >
+            </div>
+<p>Katrina Gay, national director for strategic partnerships at the National Alliance on Mental Illness, <a href="https://www.polygon.com/2018/1/18/16899532/youtube-twitch-burnout-h3h3-pewdiepie-lirik" target="_blank">told Polygon in January</a> that burnout in highly competitive, creative and front-facing fields like YouTube is common. There are ways to try and avoid it, Gay said, including setting proper hours and finding a way to leave work at work. But when the careers of so many video personalities involve exposing their personal lives, striking a work/life balance is next to impossible.</p>    <p>“No one tells you how many hours you should be working,” Gay said in our interview. “You have to discover that for yourself. Maybe it’s after the fact, when you’ve realized, ‘I’ve overdone it and I’m not as healthy as I should be.’ You have to pause. The process of learning how to do that and when to do it is tough, but necessary. When people are learning to do that right in front of you, like YouTube, it’s modeling healthy behavior for an entire community.”</p>    <p>That’s the position that Rubén “El Rubius” Gundersen found himself this week. Gundersen said he could feel the pressure building for years, but never really took time off to address it. Recently, however, his panic attacks have become more frequent. Gundersen went to visit a doctor and, after learning how to cope with his ongoing mental health issues made worse by burnout, knew he needed to stop.</p>    <p>“I think what I need is to leave for some time, to disconnect a little bit from all of this,” Gundersen said in his May 24 video. “I’ve been doing this for seven years without stopping, without being able to see how I am living from the outside. I always have in my mind what’s going to be next; the next trips, the next project, and it sounds like first world problems I know, but when you get everything together and you want it to be 100 percent, and give 100 percent, some times you can’t.”</p>    
+    <script>
+                    window.arrayOfEmbeds["G38ixvYVNyM"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/G38ixvYVNyM\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
+            
+                            window.arrayOfEmbedScripts["youtube"] = "null";
+                        </script>
+    
+    <div class="w-rich w-youtube" id="G38ixvYVNyM" >
+            </div>
+<p>The fallout from YouTube due to mental health concerns is a scary trend. Especially when YouTubers and streamers, like <a href="https://www.polygon.com/2018/3/5/17078646/ninja-fortnite-twitch-stream-subscribers" target="_blank">Tyler “Ninja” Blevins</a> talk <a href="https://www.polygon.com/2018/4/24/17274636/ninja-fortnite-twitch-h3h3-podcast" target="_blank">about the schedule they voluntarily keep.</a></p>    <p>“The schedule is: 9:30 is when I start in the morning and then I play until four, so that’s like six, six-and-a-half hours,” Blevins told Ethan and Hila Klein on the H3H3 Podcast. “Then I’ll take a nice three- to four-hour break with the wife, the dogs or family — we have like family nights, too — and then come back on around seven o’clock central until like two, three in the morning. The minimum is 12 hours a day, and then I’ll sleep for less than six or seven hours.”</p>    <div class=ad-even><!-- No AdsNinja v10 Client! --></div><h2 id="FX5urt">
+                        What YouTube is doing about burnout
+               </h2><p>YouTubers make almost all of their money from AdSense on YouTube, and projects or merchandise related to YouTube. This creates a pressure to upload a video every single day; to see consistent reach and maintain their positions as top creators among a sea of growing competition, creators have to effectively game the system.</p>    <p>This is where the <a href="https://www.tubefilter.com/2016/06/23/reverse-engineering-youtube-algorithm/" target="_blank">algorithm grade</a> comes in. The algorithm grade is the best working theory YouTubers work under when it comes to ensuring their videos are seen by as many people as possible. There are a bunch of little tricks that make up the algorithm grade (videos should be <a href="https://www.tubefilter.com/2016/05/12/youtube-watch-time-metric-algorithm-statistics/" target="_blank">longer than 10 minutes</a>, for example), but one of the most important details is frequency. It is strongly believed that YouTube accounts with more than 10,000 subscribers should post daily because <a href="http://techtipswithtea.com/youtube-tips/youtube-changes-algorithm-2017-what-it-means-for-you/" target="_blank">YouTube’s algorithm favors frequency and engagement.</a></p>    <p>So people upload, and upload, and upload, and upload, building a bigger fanbase and working non stop. And then the consequences of that hustle hit them like a ton of bricks.</p>    <p><br></p>    <p><span class="related-single">Related: <a href="https://www.polygon.com/2018/4/17/17246948/defranco-patreon-casey-neistat-youtube-ceo-demonetized" target="_blank">YouTubers look to new platforms after viewer suppression, demonetization issues</a></span><br></p>    <p>“Relevancy” is the word that keeps almost every YouTuber on the tip of their toes, but it’s not the only source of strain. There are also <a href="https://www.polygon.com/2018/4/17/17246948/defranco-patreon-casey-neistat-youtube-ceo-demonetized" target="_blank">growing demonetization concerns</a> running rampant throughout the community. Posting infrequently means a creator’s videos won’t be recommended. Videos that aren’t recommended aren’t as heavily watched. The last problem a creator wants to worry about is their videos not appearing or being shared because of frequency issues when already trying to skirt around YouTube’s growing advertising restrictions.</p>    <p>“It’s really frustrating to be a creator on YouTube because we don’t really know what’s going on,” PewDiePie said in a video about demonetization and views suppression. “I think YouTube is so scared of telling people what’s going on for media outrage and for people abusing the system, so they don’t generally keep us in the loop.”</p>    <p>Not knowing how YouTube’s monetization system works, while also battling fears of videos being suppressed and less frequent uploads hindering their careers, are major anxieties. And like most anxieties that go untreated, they build up to a breaking point.</p>    
+    <script>
+                    window.arrayOfEmbeds["vnr0kCmkMO0"] = {'youtube' : '&quot;&lt;iframe width=\&quot;560\&quot; height=\&quot;315\&quot; src=\&quot;https:\/\/www.youtube.com\/embed\/vnr0kCmkMO0\&quot; frameborder=\&quot;0\&quot; allow=\&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\&quot; allowfullscreen&gt;&lt;\/iframe&gt;&quot;'};
+            
+                            window.arrayOfEmbedScripts["youtube"] = "null";
+                        </script>
+    
+    <div class="w-rich w-youtube" id="vnr0kCmkMO0" >
+            </div>
+<p>The issue is that unlike many of us who have bosses or coworkers who tell us to take time off, no one is telling YouTubers to chill out. It’s the opposite. People constantly ask for more, and there’s only so much that one person can offer.</p>    <p>YouTube offers no clear support system for creators, nor is it clear if the company has offered professional help to some of its top creators who’ve made their burnout public. Instead, YouTube’s only direct reaction is a playlist dedicated to burnout and mental health. The creators are essentially working until they no longer physically can, and apologizing to their fans after believing they’ve failed. Polygon has reached out to YouTube for more information about services that are provided to creators.</p>    <p>The only way to beat burnout is to take breaks. Unfortunately, for many YouTubers, those breaks are rarely planned.</p>    <script>
+        window.arrayOfEmbeds["https://player.megaphone.fm/VMP6974494685"] =  {'embedded_megaphone' : '<iframe width="100%" src="https://player.megaphone.fm/VMP6974494685" height="210" scrolling="no"></iframe>'};
+</script>
+<div class="w-rich w-megaphone" id="https://player.megaphone.fm/VMP6974494685">
+    </div></div><div id="article-waypoint"></div></section>
+    
+                <div class="article-options">
+
+<!-- No AdsNinja v10 Client! -->
+
+<!-- No AdsNinja v10 Client! -->
+                                            <div class="article-tags">
+    <ul class="article-tags-list">
+                                    <li class="article-tags-element listing">
+                    <a class="tags-link image" href="/youtube/" title="YouTube">
+                                            <div class="article-tags-name">YouTube</div>
+                    </a>
+                </li>
+                            <li class="article-tags-element listing">
+                    <a class="tags-link image" href="/features/" title="Feature">
+                                            <div class="article-tags-name">Feature</div>
+                    </a>
+                </li>
+                        </ul>
+</div>
+            
+                <div id="threads" class="w-sharing-bottom">
+                                                                                                                    
+                                
+            
+                        <div class="w-follow-btn">
+            <div
+                data-id="200913"
+                data-title="YouTube’s top creators are burning out and breaking down en masse"
+                data-permalink="/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"
+                data-type="article"
+                title="Follow"
+                data-value="1"
+                data-preference="Notifications"
+                data-is-follow-choice-button="true"
+                data-is-followed-choice-button="false"
+                data-is-follow-container="true"
+                data-id-tag=""
+                class="btn-fab tertiary xsmall  follow-container btn-follow "
+                >
+                <div class="main-icon icon-xlarge icon i-follow"></div>
+                <div class="fab-label">
+                                            Follow
+                                    </div>
+            </div>
+
+<div
+                data-id="200913"
+                data-title="YouTube’s top creators are burning out and breaking down en masse"
+                data-permalink="/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"
+                data-type="article"
+                title="Unfollow"
+                data-value="0"
+                data-preference=""
+                data-is-follow-choice-button="true"
+                data-is-followed-choice-button="true"
+                data-is-followed-container="true"
+                data-id-tag=""
+                class="btn-fab tertiary xsmall  follow-container btn-follow is-hidden"
+                >
+                <div class="main-icon icon-xlarge icon i-follow followed"></div>
+                <span class="fab-label">
+                                    Followed
+                                </span>
+            </div>
+        </div>
+
+<div class="w-like-btn inactive">
+        <button class="btn-fab tertiary xsmall"
+        title="Like"
+        data-like-title="Like"
+        data-unlike-title="Liked"
+        data-like-icon="liked"
+        data-unlike-icon="not-liked"
+        data-like-count="0"
+
+data-id="200913"
+        
+                    data-value="0"
+                data-is-like-article-button="true" >
+
+<div data-is-icon="true" class="main-icon icon icon-xlarge i-thumb-on not-liked"></div>
+                        <div data-is-text="true" class="fab-label">
+                                    Like
+                                            </div>
+        </button>
+    </div>
+
+<!-- Share module with individual buttons -->
+<div class="sharing-bottom" style="display: none; visibility: hidden">
+                
+                                    
+                                                    <a class="sharing-btn btn-facebook" target="_blank"
+                            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F%2F&amp;src=sdkpreparse">
+                                <span class="icon i-facebook"></span>
+                            </a>
+                        
+                                                                
+                                    
+                                                    <a class="sharing-btn btn-x" target="_blank"
+                            href="https://twitter.com/intent/tweet?text=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
+                                <span class="icon i-x"></span>
+                            </a>
+                        
+                                                                                    
+                                    
+                                                    <a class="sharing-btn btn-linkedin" target="_blank"
+                            href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F&title=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&source=www.polygon.com&summary=%E2%80%98This%20is%20all%20I%E2%80%99ve%20ever%20wanted.%20Why%20am%20I%20so%20unhappy%3F%E2%80%99">
+                                <span class="icon i-linkedin"></span>
+                            </a>
+                        
+                                                                                    
+                            <div id="js-social-sharing-bottom" class="w-wrap-dropdown">
+                    <a class="sharing-btn btn-show-more" target="_blank" style="cursor: pointer">
+                        <span class="icon i-plus"></span>
+                    </a>
+                    <div id="js-wrap-dropdown-remaining-socials" class="wrap-dropdown">
+                                                
+                                                    <a class="sharing-btn btn-reddit" target="_blank"
+                            href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
+                                <span class="icon i-reddit"></span>
+                            </a>
+                        
+                                                                
+                                    
+                                                    <a class="sharing-btn btn-flipboard" target="_blank"
+                            href="http://share.flipboard.com/bookmarklet/popout?v=2&title=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F&utm_campaign=tools&utm_medium=article-share&utm_source=www.polygon.com">
+                                <span class="icon i-flipboard"></span>
+                            </a>
+                        
+                                                                
+                                    
+                                                    <div class="copy-link-button">
+                                <a class="sharing-btn btn-copy-url" href="javascript:;" data-url="https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/">
+                                    <span class="icon i-copy-url" data-url="https://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/"></span>
+                                </a>
+                            </div>
+                        
+                                                                
+                                    
+                                                    <a class="sharing-btn btn-mail"
+                            href="mailto:?Subject=YouTube’s top creators are burning out and breaking down en masse&Body=Check%20this%20out%21%0Ahttps%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
+                                <span class="icon i-mail-1"></span>
+                            </a>
+                        
+                                                                            </div>
+    </div>
+    </div>
+
+<!-- Share module with popup list -->
+<div class="option-btn btn-share" id="sharingButtonPopup">
+    <span class="icon i-share"></span>
+    <span class="text">Share</span>
+
+<div id="sharePopup" class="w-sharing-option w-sharing-popup" style="color: black">
+
+<a class="sharing-btn btn-facebook" target="_blank"
+           href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F%2F&amp;src=sdkpreparse">
+            <span class="icon i-facebook"></span>
+            <span class="text">Facebook</span>
+        </a>
+                        <a class="sharing-btn btn-x" target="_blank"
+           href="https://twitter.com/intent/tweet?text=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
+            <span class="icon i-x"></span>
+            <span class="text">X</span>
+        </a>
+                            <a class="sharing-btn btn-linkedIn" target="_blank"
+               href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F&title=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&source=www.polygon.com&summary=%E2%80%98This%20is%20all%20I%E2%80%99ve%20ever%20wanted.%20Why%20am%20I%20so%20unhappy%3F%E2%80%99">
+                <span class="icon i-linkedIn"></span>
+                <span class="text">LinkedIn</span>
+            </a>
+                            <a class="sharing-btn btn-reddit" target="_blank"
+               href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F">
+                <span class="icon i-reddit"></span>
+                <span class="text">Reddit</span>
+            </a>
+                            <a class="sharing-btn btn-flipboard" target="_blank"
+               href="http://share.flipboard.com/bookmarklet/popout?v=2&title=YouTube%E2%80%99s%20top%20creators%20are%20burning%20out%20and%20breaking%20down%20en%20masse&url=https%3A%2F%2Fwww.polygon.com%2F2018%2F6%2F1%2F17413542%2Fburnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie%2F&utm_campaign=tools&utm_medium=article-share&utm_source=www.polygon.com">
+                <span class="icon i-flipboard"></span>
+                <span class="text">Flipboard</span>
+            </a>
+                            <a class="sharing-btn copy-link-button btn-copy-url" href="javascript:;">
+                <span class="icon i-copy-url"></span>
+                <span class="text">Copy link</span>
+            </a>
+                            <a class="sharing-btn btn-mail"
+               href="mailto:?Subject=YouTube’s top creators are burning out and breaking down en masse&Body=Check%20this%20out%21%0Ahttps://www.polygon.com/2018/6/1/17413542/burnout-mental-health-awareness-youtube-elle-mills-el-rubius-bobby-burns-pewdiepie/">
+                <span class="icon i-mail-1"></span>
+                <span class="text">Email</span>
+            </a>
+            </div>
+</div>
+
+</div>
+
+<!-- No AdsNinja v10 Client! -->
+
+<style>
+    .hidden-poll {display: none}
+</style>
+
+</div>
+        
+        <div id="single-image-modal" class="gallery-lightbox" style="display: none">
+            <button class="lightbox__exit-btn icon i-close"><span class="txt">Close</span></button>
+            <div class="lightbox">
+                <div class="lightbox__swipper" id="swipper-main">
+                    <div class="swiper-wrapper" id="single-image-modal-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<div class="article-footer-bg"></div>
+
+<footer class="article-footer">
+
+<script>
+        window.websiteUser = null;
+        window.batchSize = 26;
+        window.childBatchSize = 6;
+        window.allowNewComments  = true
+        window.sortOrder = 'ASC';
+                    window.sortOrder = 'RECOMMENDED';
+        
+            </script>
+
+<div class="footer-recommended-section">
+
+<div class='footer-recommended-feed'>
+    <div class="footer-section-title icon i-fire">Recommended</div>
+    <div class="w-hub-widgets widget__horizontal-list-full">
+                                                                    
+                    <div class="display-card full-cover-image
+     " data-content-id="711351">
+    <a class="dc-img-link" 
+       href="/video/are-80-dollar-games-anti-consumer/" 
+       target="_self"
+       rel="">
+                    <div class="dc-img">
+
+<picture>
+                                                                                                                                                                                                                                                
+            
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 480px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/08/pricediscoursefinal.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/08/pricediscoursefinal.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
+                                    />
+                                                                                                                                                                                                                                                            
+            
+                                                
+                        
+                                                                                                        
+                                                    <img
+                                                                        width="1300"
+                                                                            height="650"
+                                                                                                                                alt="PriceDiscourseFinal"
+                                        data-img-url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/08/pricediscoursefinal.jpg?q=49&amp;fit=crop&amp;w=266&amp;h=350&amp;dpr=2"
+                    src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/08/pricediscoursefinal.jpg?q=49&amp;fit=crop&amp;w=266&amp;h=350&amp;dpr=2"
+                                                                title="Stop saying $80 games are anti-consumer"
+                                    />
+                        </picture>
+
+</div>
+            </a>
+
+<div class="w-display-card-content">
+        
+                <div class="w-display-card-details">
+            <div class="w-display-card-meta">
+                                            <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-13T09:00:16Z">2 days ago</time></div>
+                                </div>
+        </div>
+        
+        
+        <h3 class="display-card-title">
+            <a href="/video/are-80-dollar-games-anti-consumer/"
+                target="_self"
+                rel=""
+                title="Stop saying $80 games are anti-consumer">
+                                    Stop saying $80 games are anti-consumer
+                            </a>
+        </h3>
+
+</div>
+
+</div>
+                                                                    
+                    <div class="display-card full-cover-image
+     " data-content-id="711406">
+    <a class="dc-img-link" 
+       href="/games-like-hollow-knight-silksong/" 
+       target="_self"
+       rel="">
+                    <div class="dc-img">
+
+<picture>
+                                                                                                                                                                                                                                                
+            
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 480px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hollow-knight-silksong-sister-splinter.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hollow-knight-silksong-sister-splinter.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
+                                    />
+                                                                                                                                                                                                                                                            
+            
+                                                
+                        
+                                                                                                        
+                                                    <img
+                                                                        width="1300"
+                                                                            height="650"
+                                                                                        loading="lazy"
+                        decoding="async"
+                                                                                    alt="Hornet attacking Sister Splinter in Silksong"
+                                        data-img-url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hollow-knight-silksong-sister-splinter.jpg?q=49&amp;fit=crop&amp;w=266&amp;h=350&amp;dpr=2"
+                    src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hollow-knight-silksong-sister-splinter.jpg?q=49&amp;fit=crop&amp;w=266&amp;h=350&amp;dpr=2"
+                                                                title="The 8 best Metroidvania game to play after Silksong"
+                                    />
+                        </picture>
+
+</div>
+            </a>
+
+<div class="w-display-card-content">
+        
+                <div class="w-display-card-details">
+            <div class="w-display-card-meta">
+                                            <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-13T19:00:16Z">2 days ago</time></div>
+                                </div>
+        </div>
+        
+        
+        <h3 class="display-card-title">
+            <a href="/games-like-hollow-knight-silksong/"
+                target="_self"
+                rel=""
+                title="The 8 best Metroidvania game to play after Silksong">
+                                    The 8 best Metroidvania game to play after Silksong
+                            </a>
+        </h3>
+
+</div>
+
+</div>
+                                                                    
+                    <div class="display-card full-cover-image
+     " data-content-id="711428">
+    <a class="dc-img-link" 
+       href="/goty-2025-silksong-clair-obscur-difficulty/" 
+       target="_self"
+       rel="">
+                    <div class="dc-img">
+
+<picture>
+                                                                                                                                                                                                                                                
+            
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 480px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/silksong_co.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/silksong_co.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
+                                    />
+                                                                                                                                                                                                                                                            
+            
+                                                
+                        
+                                                                                                        
+                                                    <img
+                                                                        width="1300"
+                                                                            height="650"
+                                                                                        loading="lazy"
+                        decoding="async"
+                                                                                    alt="silksong_CO"
+                                        data-img-url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/silksong_co.jpg?q=49&amp;fit=crop&amp;w=266&amp;h=350&amp;dpr=2"
+                    src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/silksong_co.jpg?q=49&amp;fit=crop&amp;w=266&amp;h=350&amp;dpr=2"
+                                                                title="The Game of the Year race might come down to difficulty"
+                                    />
+                        </picture>
+
+</div>
+            </a>
+
+<div class="w-display-card-content">
+        
+                <div class="w-display-card-details">
+            <div class="w-display-card-meta">
+                                            <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-12T18:00:16Z">3 days ago</time></div>
+                                </div>
+        </div>
+        
+        
+        <h3 class="display-card-title">
+            <a href="/goty-2025-silksong-clair-obscur-difficulty/"
+                target="_self"
+                rel=""
+                title="The Game of the Year race might come down to difficulty">
+                                    The Game of the Year race might come down to difficulty
+                            </a>
+        </h3>
+
+</div>
+
+</div>
+                                                                    
+                    <div class="display-card full-cover-image
+     " data-content-id="711436">
+    <a class="dc-img-link" 
+       href="/playstation-ps1-30th-anniversary-na/" 
+       target="_self"
+       rel="">
+                    <div class="dc-img">
+
+<picture>
+                                                                                                                                                                                                                                                
+            
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 480px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/12/ps1.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/12/ps1.jpg?q=49&amp;fit=crop&amp;w=448&amp;h=285&amp;dpr=2"
+                                    />
+                                                                                                                                                                                                                                                            
+            
+                                                
+                        
+                                                                                                        
+                                                    <img
+                                                                        width="1300"
+                                                                            height="650"
+                                                                                        loading="lazy"
+                        decoding="async"
+                                                                                    alt="Top 10 PlayStations, ranked"
+                                        data-img-url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/12/ps1.jpg?q=49&amp;fit=crop&amp;w=266&amp;h=350&amp;dpr=2"
+                    src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2024/12/ps1.jpg?q=49&amp;fit=crop&amp;w=266&amp;h=350&amp;dpr=2"
+                                                                title="PlayStation&#039;s first generation embraced the weird "
+                                    />
+                        </picture>
+
+</div>
+            </a>
+
+<div class="w-display-card-content">
+        
+                <div class="w-display-card-details">
+            <div class="w-display-card-meta">
+                                            <div class="meta_txt article-date"><time class="pinned-article-date" datetime="2025-09-13T16:00:16Z">2 days ago</time></div>
+                                </div>
+        </div>
+        
+        
+        <h3 class="display-card-title">
+            <a href="/playstation-ps1-30th-anniversary-na/"
+                target="_self"
+                rel=""
+                title="PlayStation&#039;s first generation embraced the weird ">
+                                    PlayStation&#039;s first generation embraced the weird 
+                            </a>
+        </h3>
+
+</div>
+
+</div>
+            </div>
+</div>
+            
+                    </div>
+    
+    
+</footer>
+
+<aside id="secondary" class="sidebar adsninja-rail-container" role="complementary" data-tab="sidebar">
+
+<div id="sidebar-first" class="sidebar-first"></div>
+        
+                                                
+    <article class="sidebar-tabs"> 
+        <ul class="js-tabs-ul tabs-ul tabs-header">                
+                            <li id="js-tab-1" class="selected">
+                    <h3 class="section-title ">
+                                                    Most Popular
+                                            </h3>
+                </li>
+                    </ul>
+
+<div id="js-content-tab-1"
+                class="js-tab-pane tab-content sidebar-el-content ">
+
+<div class="sidebar-pinned-listing-page-article">                            
+                                
+        
+        
+        
+                
+                                                                        
+                
+                    
+                        
+    
+    
+                                        
+    
+        
+    
+        
+                
+        
+    <div class="display-card  article small   active-content                      "
+        data-include-community-rating="false"
+                    
+    >
+                            
+        
+                                    
+        
+        
+                            <div class="w-display-card-content regular article-block">
+
+<h5 class="display-card-title ">
+    					        				
+		<a href="/trick-r-treat-theaters-release-horror-movies-2025/" title="A cult horror hit is finally getting a re-release in time for Halloween"
+												>
+			A cult horror hit is finally getting a re-release in time for Halloween
+		</a>
+	</h5>
+
+<div class="w-display-card-extra">
+            </div>
+
+<div class="flex w-rating-card-info">
+                    
+                                    </div>
+
+<div class="w-display-card-details">
+
+<div class="w-display-card-meta">
+			
+					</div>
+
+</div>
+
+</div>
+                
+        
+        
+        
+            </div>
+
+<div class="display-card  article small   active-content                      "
+        data-include-community-rating="false"
+                    
+    >
+                            
+        
+                                    
+        
+        
+                            <div class="w-display-card-content regular article-block">
+
+<h5 class="display-card-title ">
+    					        				
+		<a href="/video/how-to-train-your-dragon-stars-dragons-irl/" title="What dragons would Mason Thames and Nico Parker have IRL?"
+												>
+			What dragons would Mason Thames and Nico Parker have IRL?
+		</a>
+	</h5>
+
+<div class="w-display-card-extra">
+            </div>
+
+<div class="flex w-rating-card-info">
+                    
+                                    </div>
+
+<div class="w-display-card-details">
+
+<div class="w-display-card-meta">
+			
+					</div>
+
+</div>
+
+</div>
+                
+        
+        
+        
+            </div>
+
+<div class="display-card  article small   active-content                      "
+        data-include-community-rating="false"
+                    
+    >
+                            
+        
+                                    
+        
+        
+                            <div class="w-display-card-content regular article-block">
+
+<h5 class="display-card-title ">
+    					        				
+		<a href="/the-penguin-season-2-emmys-matt-reeves-batman/" title="The Penguin may not be a limited series after all"
+												>
+			The Penguin may not be a limited series after all
+		</a>
+	</h5>
+
+<div class="w-display-card-extra">
+            </div>
+
+<div class="flex w-rating-card-info">
+                    
+                                    </div>
+
+<div class="w-display-card-details">
+
+<div class="w-display-card-meta">
+			
+					</div>
+
+</div>
+
+</div>
+                
+        
+        
+        
+            </div>
+
+<div class="display-card  article small   active-content                      "
+        data-include-community-rating="false"
+                    
+    >
+                            
+        
+                                    
+        
+        
+                            <div class="w-display-card-content regular article-block">
+
+<h5 class="display-card-title ">
+    					        				
+		<a href="/rpg-character-creator-avowed-baldurs-gate-3-dragon-age/" title="Dear RPG devs, please let me back into your character creator"
+												>
+			Dear RPG devs, please let me back into your character creator
+		</a>
+	</h5>
+
+<div class="w-display-card-extra">
+            </div>
+
+<div class="flex w-rating-card-info">
+                    
+                                    </div>
+
+<div class="w-display-card-details">
+
+<div class="w-display-card-meta">
+			
+					</div>
+
+</div>
+
+</div>
+                
+        
+        
+        
+            </div>
+
+<div class="display-card  article small   active-content                      "
+        data-include-community-rating="false"
+                    
+    >
+                            
+        
+                                    
+        
+        
+                            <div class="w-display-card-content regular article-block">
+
+<h5 class="display-card-title ">
+    					        				
+		<a href="/video/japan-anime-piracy-crackdown/" title="Anime piracy is riskier after Japan&#039;s latest crackdown"
+												>
+			Anime piracy is riskier after Japan&#039;s latest crackdown
+		</a>
+	</h5>
+
+<div class="w-display-card-extra">
+            </div>
+
+<div class="flex w-rating-card-info">
+                    
+                                    </div>
+
+<div class="w-display-card-details">
+
+<div class="w-display-card-meta">
+			
+					</div>
+
+</div>
+
+</div>
+                
+        
+        
+        
+            </div>
+
+<div class="display-card  article small   active-content                      "
+        data-include-community-rating="false"
+                    
+    >
+                            
+        
+                                    
+        
+        
+                            <div class="w-display-card-content regular article-block">
+
+<h5 class="display-card-title ">
+    					        				
+		<a href="/demon-slayer-infinity-castle-box-office-us-record/" title="Demon Slayer: Infinity Castle slays the U.S. box office with record-breaking debut"
+												>
+			Demon Slayer: Infinity Castle slays the U.S. box office with record-breaking debut
+		</a>
+	</h5>
+
+<div class="w-display-card-extra">
+            </div>
+
+<div class="flex w-rating-card-info">
+                    
+                                    </div>
+
+<div class="w-display-card-details">
+
+<div class="w-display-card-meta">
+			
+					</div>
+
+</div>
+
+</div>
+                
+        
+        
+        
+            </div>
+
+</div>                                        <a href="/most-popular/" class="btn-full">See More</a>
+                            </div>
+            </article>
+
+<article class="sidebar-sticky">
+        
+                    
+    <div class="sidebar-tab" data-is-tab-container="true" data-active-tab="trendingNow" >
+        <div class="section-header tabs-header-alt">
+            <button class="section-title is-active" data-target="trendingNow">Trending Now</button>
+                    </div>
+        <div class="sidebar-tabs">
+            <div class="trending-now" data-tab="trendingNow">
+
+<div class="sentinel-article-sidebarSticky">                            
+                                
+        
+        
+        
+                
+                                                    
+                
+                    
+                        
+    
+    
+                                        
+    
+        
+    
+        
+                
+        
+    <div class="display-card  article small   active-content                      "
+        data-include-community-rating="false"
+                    data-nosnippet
+    >
+                            
+        
+                                        	
+	                
+		<a class="dc-img-link" href="/hackers-30th-anniversary-90s-nostalgia/" >
+	
+	<div class="w-img "
+			>
+							<div class="bc-img responsive-img img-displayCard">
+
+<picture>
+                                                                                                                                                                            
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 480px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                    />
+                                                                                                                                                                                        
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 767px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                    />
+                                                                                                                                                                                        
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 1023px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                    />
+                                                                                                                                                                                        
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <img
+                                                                loading="lazy"
+                        decoding="async"
+                                                                                    alt="The cast of Hackers faces the camera."
+                                        data-img-url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/hackerthumbnail.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                                        />
+                        </picture>
+
+</div>
+
+</div>
+
+</a>
+	
+            
+        
+        
+                            <div class="w-display-card-content regular article-block">
+
+<h5 class="display-card-title ">
+    					        				
+		<a href="/hackers-30th-anniversary-90s-nostalgia/" title="30 years later, Hackers is still the perfect hit of ‘90s nostalgia"
+												>
+			30 years later, Hackers is still the perfect hit of ‘90s nostalgia
+		</a>
+	</h5>
+
+<div class="w-display-card-extra">
+            </div>
+
+<div class="flex w-rating-card-info">
+                    
+                                    </div>
+
+<div class="w-display-card-details">
+
+<div class="w-display-card-meta">
+			
+					</div>
+
+</div>
+
+</div>
+                
+        
+        
+        
+            </div>
+
+<div class="display-card  article small   active-content                      "
+        data-include-community-rating="false"
+                    data-nosnippet
+    >
+                            
+        
+                                        	
+	                
+		<a class="dc-img-link" href="/fire-emblem-fortunes-weave-same-universe-three-houses/" >
+	
+	<div class="w-img "
+			>
+							<div class="bc-img responsive-img img-displayCard">
+
+<picture>
+                                                                                                                                                                            
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 480px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                    />
+                                                                                                                                                                                        
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 767px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                    />
+                                                                                                                                                                                        
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 1023px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                    />
+                                                                                                                                                                                        
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <img
+                                                                loading="lazy"
+                        decoding="async"
+                                                                                    alt="Image from fire emblem fortunes weave. Sothis, older than we saw her in FE3H, sits bored on a stone throne."
+                                        data-img-url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/fire-emblem-fortunes-weave-fe3h-1.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                                        />
+                        </picture>
+
+</div>
+
+</div>
+
+</a>
+	
+            
+        
+        
+                            <div class="w-display-card-content regular article-block">
+
+<h5 class="display-card-title ">
+    					        				
+		<a href="/fire-emblem-fortunes-weave-same-universe-three-houses/" title="New Fire Emblem game might be set in same universe as Three Houses"
+												>
+			New Fire Emblem game might be set in same universe as Three Houses
+		</a>
+	</h5>
+
+<div class="w-display-card-extra">
+            </div>
+
+<div class="flex w-rating-card-info">
+                    
+                                    </div>
+
+<div class="w-display-card-details">
+
+<div class="w-display-card-meta">
+			
+					</div>
+
+</div>
+
+</div>
+                
+        
+        
+        
+            </div>
+
+<div class="display-card  article small   active-content                      "
+        data-include-community-rating="false"
+                    data-nosnippet
+    >
+                            
+        
+                                        	
+	                
+		<a class="dc-img-link" href="/best-shows-watch-free-binge-sept-13/" >
+	
+	<div class="w-img "
+			>
+							<div class="bc-img responsive-img img-displayCard">
+
+<picture>
+                                                                                                                                                                            
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 480px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                    />
+                                                                                                                                                                                        
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 767px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                    />
+                                                                                                                                                                                        
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <source
+                    media="(max-width: 1023px)"
+                                        data-srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    srcset="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                    />
+                                                                                                                                                                                        
+                                                                                                                
+                                                
+                        
+                                                                                                        
+                                                    <img
+                                                                loading="lazy"
+                        decoding="async"
+                                                                                    alt="archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end"
+                                        data-img-url="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                    src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/archer-a-decade-of-espionage-comedy-and-unforgettable-characters-comes-to-a-captivating-end.jpg?q=49&amp;fit=crop&amp;w=120&amp;h=80&amp;dpr=2"
+                                                        />
+                        </picture>
+
+</div>
+
+</div>
+
+</a>
+	
+            
+        
+        
+                            <div class="w-display-card-content regular article-block">
+
+<h5 class="display-card-title ">
+    					        				
+		<a href="/best-shows-watch-free-binge-sept-13/" title="3 binge-worthy shows you can watch for free this weekend (Sept. 13-14)"
+												>
+			3 binge-worthy shows you can watch for free this weekend (Sept. 13-14)
+		</a>
+	</h5>
+
+<div class="w-display-card-extra">
+            </div>
+
+<div class="flex w-rating-card-info">
+                    
+                                    </div>
+
+<div class="w-display-card-details">
+
+<div class="w-display-card-meta">
+			
+					</div>
+
+</div>
+
+</div>
+                
+        
+        
+        
+            </div>
+
+</div>                                                    </div>
+                    </div>
+    </div>
+    
+        
+                    </article>
+                <!-- No AdsNinja v10 Client! -->
+
+</aside>
+
+</article>
+
+</main>
+
+<!-- No AdsNinja v10 Client! -->
+
+<footer id="website-footer" class="" aria-label="Footer">
+
+<div class="wrapper w-footer">
+        <div class="footer-content">
+
+<div class="footer-content-el">
+                <div class="el-header">
+                    <a href="/" class="footer-img" rel="home">
+                        <picture>
+                            <source srcset="https://static0.polygonimages.com/assets/images/poly-logo-symbol-white.svg?v=2.4" media="(prefers-color-scheme: dark)">
+                            <img src="https://static0.polygonimages.com/assets/images/poly-logo-symbol-white.svg?v=2.4"
+                                 alt="Polygon logo" title="Polygon"
+                                 width="60"
+                                 height="60" loading="lazy" decoding="async">
+                        </picture>
+                    </a>
+                </div>
+                <ul>
+                                                            <li><a class="text" href="/work-with-us/">Join Our Team</a></li>
+                                        <li><a class="text" href="/page/about/">About Us</a></li>
+                                                                                                        <li><a class="text" href="/page/editorial-ethics-and-guidelines/">Editorial Ethics and Guidelines</a></li>
+                        <li><a class="text" href="/page/community-guidelines/">Community Guidelines</a></li>
+                                        <li><a class="text" href="/contact/">Contact Us</a></li>
+                                    </ul>
+
+<ul class="social-media">
+                        <li class="text highlight large" style="white-space: nowrap;">Follow Us</li>
+                                                    <li class="social-elements"><a class="text  icon i-youtube" href="https://www.youtube.com/user/polygon" target="_blank"></a></li>
+                                                    <li class="social-elements"><a class="text  icon i-facebook" href="https://www.facebook.com/polygon" target="_blank"></a></li>
+                                                    <li class="social-elements"><a class="text  icon i-instagram" href="https://www.instagram.com/polygondotcom/" target="_blank"></a></li>
+                                                    <li class="social-elements"><a class="text  icon i-twitter" href="https://x.com/polygon" target="_blank"></a></li>
+                                            </ul>
+                
+            </div>
+
+<div class="footer-content-el">
+            </div>
+
+<div class="footer-content-el section-right">
+                <div class="el-header section-right" >
+                    <a class="footer-img" href="https://www.valnetinc.com/en/" target="_blank">
+                        <img src="https://static0.polygonimages.com/assets/images/valnet-logo-icon-white.svg?v=2.4"
+                             class="logo-img valnet" alt="Valnet Logo"
+                             title="Valnet"
+                             loading="lazy"
+                             decoding="async"
+                             height="37"
+                             width="32"
+                        >
+                    </a>
+                </div>
+
+<ul class="align-right">
+                    <li id="ccpa-link"></li>
+                    <li><a class="text" href="https://www.valnetinc.com/en/advertising" target="_blank">Advertising</a></li>
+                    <li><a class="text" href="https://www.valnetinc.com/en/careers" target="_blank">Careers</a></li>
+                    <li><a class="text" href="https://www.valnetinc.com/en/terms-of-use" target="_blank">Terms</a></li>
+                    <li><a class="text" href="/page/our-privacy-policy/" target="_blank">Privacy</a></li>
+                    <li><a class="text" href="/page/our-editorial-guidelines/" target="_blank">Policies</a></li>
+                </ul>
+
+<div class="footer-content-el footer-note section-right">
+                    <div class="text"><a href="/" class="link brand" >Polygon</a> is part of the
+                            <a href="https://www.valnetinc.com/en/" class="link" target="_blank">Valnet Publishing Group</a>
+                    </div>
+                </div>
+
+</div>
+            <div class="footer-content-el">
+            </div>
+        </div>
+    </div>
+
+<div class="wrapper">
+        <div class="valnet-content">
+            <div class="text">
+                Copyright &copy; 2025 Valnet Inc.
+            </div>
+
+</div>
+    </div>
+
+</footer>
+            
+        
+        <script> window.isUserVerified = false; </script>
+
+<script type="module">
+        document.addEventListener('DOMContentLoaded', function () {
+            var queryString = window.location.search || '';
+            var keyValPairs = [];
+            var params      = {};
+
+queryString     = queryString.substr(1);
+            if (queryString.length)
+            {
+                keyValPairs = queryString.split('&');
+                for (var i = 0; i < keyValPairs.length; i++)
+                {
+                    var key = keyValPairs[i].split('=')[0];
+                    if (!key.length) continue;
+                    if (typeof params[key] === 'undefined')
+                        params[key] = [];
+                    params[key].push(keyValPairs[i].split('=')[1]);
+                }
+
+if (params['view'] !== undefined) {
+                    if (params['view'] == "list" || params['view'] == "lista") {
+                        valnet_cookie.set("view",params['view']);
+                    }
+                }
+
+var campaign = null;
+                if (params['utm_source'] !== undefined) {
+                    campaign = params['utm_source'];
+                }
+                if (campaign !== null) {
+                    valnet_cookie.set("campaign",campaign);
+                }
+            }
+        });
+    </script>
+
+<script type="module">
+        /** For Read More button on LP **/
+        window.toggleReadmoreButton=()=>{
+            let e=document.getElementsByClassName('listing-desc');
+            for(let t=0;t<e.length;t++)e[t].classList.add('js-show-full');
+            let n=document.getElementsByClassName('listing-desc-btn');
+            for(let e=0;e<n.length;e++)n[e].classList.contains('js-show-btn')&&n[e].remove();
+        }
+    </script>
+
+<!-- No AdsNinja v10 Client! -->
+    <!-- No AdsNinja v10 Client! -->
+
+</body>
+</html>

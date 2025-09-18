@@ -1,0 +1,288 @@
+# Content from http://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it
+
+*Retrieved: 2025-09-15T09:08:24.192443*
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="If you can&#8217;t explain something in simple terms, you don&#8217;t understand it" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it" />
+<meta property="og:image" content="https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none//plus/misc/images/feynman-blackboard.jpg" />
+<meta property="og:site_name" content="kottke.org" />
+<meta property="og:description" content="In the early 1960s, Richard Feynman gave a series of undergraduate lectures that were collected into a book called the Feynman L" />
+<meta property="fb:admins" content="549560637" />
+<meta property="fb:app_id" content="279322152122365" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@kottke">
+<meta name="twitter:title" content="If you can&#8217;t explain something in simple terms, you don&#8217;t understand it">
+<meta name="twitter:description" content="In the early 1960s, Richard Feynman gave a series of undergraduate lectures that were collected into a book called the Feynman Lectures on Physics. Absent from the book was a lecture Feynman gave on planetary motion, but a later finding of the notes ena">
+<meta name="twitter:image:src" content="https://kottke.org/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none//plus/misc/images/feynman-blackboard.jpg">
+<title>If you can&#8217;t explain something in simple terms, you don&#8217;t understand it</title>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/images/2024/icons/57x57.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/2024/icons/180x180.png">
+<link rel="apple-touch-icon" sizes="256x256" href="/images/2024/icons/256x256.png">
+<link href="/images/2024/icons/256x256.png" rel="icon" type="image/png" sizes="256x256" />
+
+<script>
+// Immediately set theme on page load
+(function() {
+    var storedTheme = localStorage.getItem('theme') || 
+        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    if (storedTheme) {
+        document.documentElement.setAttribute('data-theme', storedTheme);
+    }
+})();
+</script>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1/lite-youtube.min.js"></script>
+<script src="/templates/2024/js/lite-vimeo.js"></script>
+<script src="/templates/2024/js/jquery-1.11.3.min.js"></script>
+<script src="/templates/2024/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="/templates/2024/js/jquery.widowFix-1.3.min.js"></script>
+<script src="/templates/2024/js/jquery.timeago.js"></script>
+<script src="/templates/2024/js/medium-zoom.min.js"></script>
+<script src="/templates/2024/js/threads.js?v=6"></script>
+<script src="/templates/2024/js/site.js?v=8"></script>
+
+<script type="text/javascript">
+  (function(c) {
+    var script = document.createElement("script");
+    script.src = "https://js.memberful.com/embed.js";
+    script.onload = function() { Memberful.setup(c) };
+    document.head.appendChild(script);
+  })({
+    site: ["https://kottke.memberful.com"]
+  });
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".post p a").attr("target","_blank");
+  $(".post p a").each(function() {
+    var href = $(this).attr("href");
+    if (!href.startsWith('http://') && !href.startsWith('https://') || href.includes('//kottke.org')) {
+      $(this).removeAttr("target");
+    }
+  });
+	$(".post p sup a").removeAttr("target");
+	$(".post .footnote a:last-of-type").removeAttr("target");
+
+$("time.timeago").timeago().css("visibility", "visible");
+	
+	$('h2').widowFix();
+	
+	$(".post p strong:contains('Update:')").each(function() {
+	    $( this ).addClass("post-update-title").html("Update" + ((typeof $( this ).attr('title') !== typeof undefined && $( this ).attr('title') !== false) ? "<span class='post-update-timestamp'> ·  " + $( this ).attr("title") + "</span>" : ""));
+	  });
+    });
+</script>
+
+<link rel="stylesheet" href="https://use.typekit.net/eyl4ubc.css">
+<link rel="stylesheet" href="https://kit.fontawesome.com/205dae25a8.css" crossorigin="anonymous">
+<link rel="stylesheet" href="/templates/2024/css/main.css?v=13" type="text/css" />
+<link rel="stylesheet" href="/templates/2024/css/littlefoot.css" type="text/css" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.kottke.org/main" />
+
+</head>
+<body>
+
+<div class="big-hug"><div class="grid-container">
+
+<div class="grid-item" id="logo-container">
+
+<div class="logo-grid">
+
+<div aria-hidden="true" class="logo-grid-item rotate315 hue90">
+<a href="/"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/color-11.jpg" alt="go to homepage"></a>
+
+<a href="/"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="overlay-svg-desktop">
+<path id="circlePath" fill="none" stroke-width="0" stroke="hsl(0 100% 50% / 0.5)" d="M 10, 50 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"></path>
+<text id="text"><textPath id="textPath-desktop" href="#circlePath">KOTTKE DOT ORG</textPath></text>
+</svg></a>
+
+</div>
+
+<div class="logo-grid-item circle-margin"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/circle-mask.png" alt="go to homepage">
+
+</div>
+
+<div aria-hidden="true" class="logo-grid-item rotate315 ">
+<a href="/"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/color-8.jpg" alt="go to homepage"></a>
+
+</div>
+
+<div class="logo-grid-item circle-margin"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/circle-mask.png" alt="go to homepage">
+
+</div>
+
+<div aria-hidden="true" class="logo-grid-item rotate315 hue90">
+<a href="/"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/color-15.jpg" alt="go to homepage"></a>
+
+</div>
+
+<div class="logo-grid-item circle-margin"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/circle-mask.png" alt="go to homepage">
+
+</div>
+
+<div aria-hidden="true" class="logo-grid-item rotate270 hue90">
+<a href="/"><img src="/cdn-cgi/image/format=auto,fit=scale-down,width=200,metadata=none/images/2024/logo-colors/color-21.jpg" alt="go to homepage"></a>
+
+<a href="/"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" class="overlay-svg-mobile">
+<path id="circlePath" fill="none" stroke-width="0" stroke="hsl(0 100% 50% / 0.5)" d="M 10, 50 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"></path>
+<text id="text"><textPath id="textPath-mobile" href="#circlePath">KOTTKE DOT ORG</textPath></text>
+</svg></a>
+</div>
+
+<div class="logo-grid-item logo-grid-open-circle"></div>
+</div>
+</div>
+
+<div class="grid-item" id="sp1" aria-hidden="true"></div>
+
+<div class="grid-item" id="menu-container">
+<input type="checkbox" id="menu-btn" /><label id="menu-label" for="menu-btn"><div id="burger">MENU<i class="fa-regular fa-bars-staggered"></i></div></label>
+
+<nav>
+<label id="menu-label2" for="menu-btn"><div id="close-btn"><i class="fa-regular fa-xmark"></i></div></label>
+
+<a href="https://kottke.memberful.com/auth/sign_in" style="text-decoration: none;"><div id="login">Member Login<i class="fa-light fa-right-to-bracket"></i></div></a>
+
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/members">Membership <i class="fa-light fa-sparkles" aria-hidden="true"></i></a></li>
+<li><a href="/newsletter">Newsletter</a></li>
+<li><a href="/goods">Goods</a></li>
+<li><a href="/everfresh">Archive + Tags</a></li>
+<li><a href="/about">About/Contact</a></li>
+</ul>
+
+<button id="theme-toggle" type="button">
+<span class="d-block-light d-none"><i class="fa-light fa-space-station-moon-construction"></i>dark mode</span>
+<span class="d-block-dark d-none"><i class="fa-light fa-sun-bright"></i>light mode</span>
+</button>
+
+</nav></div>
+
+<div class="grid-item" id="boring-container">
+
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7DTK7I&placement=kottkeorg" ; id="_carbonads_js"></script>
+<div class="boring-title">Advertise here with <a href="http://carbonads.net/?utm_source=kottkeorg&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon" target="_blank">Carbon Ads</a></div>
+</div>
+
+<div class="grid-item" id="extras-container">
+<div id="socials">
+
+<h3>Socials & More</h3>
+
+<ul class="fa-ul">
+<li><a href="/newsletter"><span class="fa-li"><i class="fa-solid fa-newspaper" aria-hidden="true" style="color:#E474A2;"></i></span>Newsletter</a></li>
+<li><a href="http://feeds.kottke.org/main"><span class="fa-li"><i class="fa-solid fa-square-rss" aria-hidden="true" style="color:#ff6600;"></i></span>RSS Feed</a></li>
+<li><a href="https://bsky.app/profile/kottke.org"><span class="fa-li"><i class="fa-kit fa-bluesky" aria-hidden="true" style="color:rgb(0, 133, 255);"></i></span>Bluesky</a></li>
+<li><a href="https://mastodon.social/@kottke" rel="me"><span class="fa-li"><i class="fa-brands fa-mastodon" aria-hidden="true" style="color:#4267B2;"></i></span>Mastodon</a></li>
+</ul>
+
+</div>
+
+<p class="smaller">This site is made possible by <a href="/members">member support</a>. 💞</p>
+
+<p class="smaller">Big thanks to <a href="https://www.arcustech.com/">Arcustech</a> for hosting the site and offering amazing tech support.</p>
+
+<p class="smaller">When you buy through links on kottke.org, I may earn an affiliate commission. Thanks for supporting the site!</p>
+
+<p class="smaller"><strong>kottke.org.</strong> home of fine hypertext products since 1998.</p>
+
+<p class="smaller">Beloved by 86.47% of the web.</p>
+
+<p class="smallerer no-underline"><a href="/tag/burgers" title="burgers">🍔</a>&nbsp; <a href="/tag/death" title="death">💀</a>&nbsp; <a href="/tag/photography" title="photography">📸</a>&nbsp; <a href="/tag/crying%20at%20work" title="crying at work">😭</a>&nbsp; <a href="/tag/black%20holes" title="black holes">🕳️</a>&nbsp; <a href="/tag/Old%20Custer" title="Old Custer">🤠</a>&nbsp; <a href="/tag/film%20school" title="film school">🎬</a>&nbsp; <a href="/tag/potatoes" title="potatoes">🥔</a></p></div>
+
+<div class="grid-item" id="content-container">
+
+<!-- Lightbox (hidden by default) -->
+<div id="video-lightbox" class="lightbox hidden">
+  <div id="close-lightbox">× close</div>
+  <div class="lightbox-content">
+    <!-- We'll dynamically swap the src with the chosen video -->
+    <iframe
+      id="lightbox-iframe"
+      src=""
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
+
+<div class="post">
+<div class="post-meta">
+
+posted <time class="timeago timeago_short" datetime="2017-06-15T13:56:20Z">Jun 15 @ 09:56 AM</time> by <a href="http://www.kottke.org">Jason Kottke</a><span class="gift-link"> &ensp;·&ensp; <span style="color: #cc0000;font-variant: small-caps;">gift link</span></span>
+
+</div>
+
+<h2>If you can&#8217;t explain something in simple terms, you don&#8217;t understand it</h2>
+
+<p><img  src="/cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none/plus/misc/images/feynman-blackboard.jpg" srcset="/cdn-cgi/image/format=auto,fit=scale-down,width=500,metadata=none/plus/misc/images/feynman-blackboard.jpg 500w, /cdn-cgi/image/format=auto,fit=scale-down,width=1200,metadata=none/plus/misc/images/feynman-blackboard.jpg 1200w" sizes="(max-width: 500px) 500px, 1200px" loading="lazy"  width="1000" height="750" border="0" alt="Feynman Blackboard" /></p>
+
+<p>In the early 1960s, Richard Feynman gave a series of undergraduate lectures that were collected into a book called <a href="https://www.amazon.com/exec/obidos/ASIN/0465023827/ref=nosim/0sil8">the Feynman Lectures on Physics</a>. Absent from the book was <a href="https://www.youtube.com/watch?v=mcD-5UfY1g0">a lecture</a> Feynman gave on planetary motion, but a later finding of the notes enabled David Goodstein, a colleague of Feynman&#8217;s, to write a book about it: <a href="https://www.amazon.com/exec/obidos/ASIN/0393319954/ref=nosim/0sil8">Feynman&#8217;s Lost Lecture</a>. From an excerpt of the book published in <a href="http://calteches.library.caltech.edu/563/2/Goodstein.pdf">a 1996 issue of Caltech&#8217;s Engineering & Science magazine</a>:</p>
+
+<blockquote><p>Feynman was a truly great teacher. He prided himself on being able to devise ways to explain even the most profound ideas to beginning students. Once, I said to him, &#8220;Dick, explain to me, so that I can understand it, why spin one-half particles obey Fermi-Dirac statistics.&#8221; Sizing up his audience perfectly, Feynman said, &#8220;I&#8217;ll prepare a freshman lecture on it.&#8221; But he came back a few days later to say, &#8220;I couldn&#8217;t do it. I couldn&#8217;t reduce it to the freshman level. That means we don&#8217;t really understand it.&#8221;</p></blockquote>
+
+<p><a href="https://daringfireball.net/linked/2017/06/14/feynman-freshman-lecture">John Gruber writes</a> the simple explanations are the goal at Apple as well:</p>
+
+<blockquote><p>Engineers are expected to be able to explain a complex technology or product in simple, easily-understood terms not because the executive needs it explained simply to understand it, but as proof that the engineer understands it completely.</p></blockquote>
+
+<p>Feynman was well known for simple explanations of scientific concepts that result a in deeper understanding of the subject matter: e.g. see Feynman explaining <a href="http://kottke.org/15/03/richard-feynman-fire-is-stored-sunshine">how fire is stored sunshine</a>, <a href="http://kottke.org/13/09/richard-feynman-explains-rubber-bands">rubber bands</a>, <a href="http://kottke.org/13/04/why-dont-trains-need-differential-gears">how trains go around curves</a>, and <a href="http://kottke.org/10/02/richard-feynman-explains-magnets-sort-of">magnets</a>. Critically, he&#8217;s also not shy about admitting when he doesn&#8217;t understand something&#8230;or, alternately, when scientists as a group don&#8217;t understand something. There&#8217;s the spin anecdote above and of <a href="http://kottke.org/10/02/richard-feynman-explains-magnets-sort-of">his explanation of magnets</a>, he says:</p>
+
+<blockquote><p>I really can&#8217;t do a good job, any job, of explaining magnetic force in terms of something else you&#8217;re more familiar with, because I don&#8217;t understand it in terms of anything else you&#8217;re more familiar with.</p></blockquote>
+
+<p>Feynman was also quoted as saying:</p>
+
+<blockquote><p>I think I can safely say that nobody understands quantum mechanics.</p></blockquote>
+
+<p>Pretty interesting thing to hear from a guy who won a Nobel Prize for explaining quantum mechanics better than anyone ever had before. Even when he died in 1988 at the end of a long and fruitful careeer, a note at the top of <a href="http://archives-dc.library.caltech.edu/islandora/object/ct1%3A483">his blackboard</a> read:</p>
+
+<blockquote><p>What I cannot create, I do not understand.</p></blockquote>
+
+<ul class="post-tags"><li><a href="/tag/Apple">Apple</a></li><li><a href="/tag/books">books</a></li><li><a href="/tag/David%20Goodstein">David Goodstein</a></li><li><a href="/tag/Feynman%27s%20Lost%20Lecture">Feynman&#8217;s Lost Lecture</a></li><li><a href="/tag/John%20Gruber">John Gruber</a></li><li><a href="/tag/physics">physics</a></li><li><a href="/tag/Richard%20Feynman">Richard Feynman</a></li><li><a href="/tag/science">science</a></li><li><a href="/tag/The%20Feynman%20Lectures%20on%20Physics">The Feynman Lectures on Physics</a></li></ul>
+</ul>
+
+<div class="post-actions">
+
+<a class="share" href="https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it"><i class="fa-light fa-share-from-square" aria-hidden="true"></i><span class="action-label">Share</span></a>
+</div>
+
+</div>
+
+</div>
+<div class="grid-item" id="sp2" aria-hidden="true"></div>
+
+</div></div>
+
+<div id="menu-underlay"></div>
+
+<script>
+mediumZoom(document.querySelectorAll(".post img:not(.url-card img)"), {
+    margin: 10,
+    background: "rgba(38, 37, 35, 1.0)",
+});
+</script>
+
+<script src="/templates/2024/js/littlefoot.js"></script>
+<script type="text/javascript">
+    littlefoot.littlefoot({
+        numberResetSelector: ".post"  // This is now the default
+    });
+</script>
+
+</body>
+</html>

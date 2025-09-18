@@ -1,0 +1,1372 @@
+# Content from https://www.opensecrets.org/industries/contrib.php?cycle=2020&ind=T2300
+
+*Retrieved: 2025-09-15T15:03:30.165623*
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://www.opensecrets.org/industries/contrib.php?cycle=2020","20230604212925","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1685914165");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="utf-8"/>
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<title>Agribusiness: Top Contributors to Federal Candidates, Parties, and Outside Groups | OpenSecrets</title>
+<meta name="description" content="Our user-friendly database of campaign contributions by industries and interest groups will help you learn how these interests gain political influence in American politics.">
+<meta name="keywords" content="Interest Groups, industries, money in politics, campaign finance, politics, election, money, candidate, crp, Agribusiness: Top Contributors to Federal Candidates, Parties, and Outside Groups">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@opensecretsdc"/>
+    <meta name="twitter:title" content="Agribusiness: Top Contributors to Federal Candidates, Parties, and Outside Groups"/>
+<meta name="twitter:image" content="http://web.archive.org/web/20230604212925im_/https://s3.amazonaws.com/assets2.opensecrets.org/img/twitter-card-os-logo-new.png"/>
+<meta name="twitter:image:alt" content="OpenSecrets.org"/>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'http://web.archive.org/web/20230604212925/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MKPRXNV');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="fb:pages" content="13220831937"/>
+<link rel="shortcut icon" href="http://web.archive.org/web/20230604212925im_/https://s3.amazonaws.com/assets2.opensecrets.org/img/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="Opensecrets RSS Feed" href="http://web.archive.org/web/20230604212925/http://www.opensecrets.org/news/atom.xml">
+<link rel="search" type="application/opensearchdescription+xml" title="OpenSecrets.org" href="http://web.archive.org/web/20230604212925/http://www.opensecrets.org/search.xml">
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20230604212925cs_/https://s3.amazonaws.com/assets2.opensecrets.org/css/normalize.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20230604212925cs_/https://s3.amazonaws.com/assets2.opensecrets.org/css/main.css?v=2" media="screen"/>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20230604212925cs_/https://s3.amazonaws.com/assets2.opensecrets.org/css/donate.css?v=.3" media="screen"/>
+<!--link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/assets2.opensecrets.org/css/main_new.css?v=2" media="screen" /-->
+<link href="http://web.archive.org/web/20230604212925cs_/https://s3.amazonaws.com/assets2.opensecrets.org/css/bootstrap.css" rel="stylesheet" media="screen" type="text/css">
+<link rel="stylesheet" href="http://web.archive.org/web/20230604212925cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!--link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/assets2.opensecrets.org/css/print.css" media="print" /-->
+<script type="text/javascript" src="//web.archive.org/web/20230604212925js_/https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20230604212925js_/https://s3.amazonaws.com/assets2.opensecrets.org/js/scripts.js"></script>
+
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20230604212925cs_/https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20230604212925cs_/https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300">
+<link rel="stylesheet" media="all" href="http://web.archive.org/web/20230604212925cs_/https://s3.amazonaws.com/assets2.opensecrets.org/css/php.css"/>
+
+<link rel="canonical" href="http://web.archive.org/web/20230604212925/https://www.opensecrets.org/industries/contrib.php?cycle=2020"/>
+
+<script src="http://web.archive.org/web/20230604212925js_/https://assets3.opensecrets.org.s3.amazonaws.com/rails-assets/production/packs/js/preload.js" defer="defer" language="javascript"></script>
+<script src="http://web.archive.org/web/20230604212925js_/https://assets3.opensecrets.org.s3.amazonaws.com/rails-assets/production/packs/js/rails_php_and_wordpress.js" defer="defer" language="javascript"></script>
+<script src="http://web.archive.org/web/20230604212925js_/https://assets3.opensecrets.org.s3.amazonaws.com/rails-assets/production/packs/js/php_and_wordpress.js" defer="defer" language="javascript"></script>
+<script src="http://web.archive.org/web/20230604212925js_/https://assets3.opensecrets.org.s3.amazonaws.com/rails-assets/production/packs/js/statistics.js" defer="defer" language="javascript"></script>
+<script src="http://web.archive.org/web/20230604212925js_/https://s3.amazonaws.com/assets2.opensecrets.org/js/fusioncharts.js" defer="defer" language="javascript"></script>
+<script src="http://web.archive.org/web/20230604212925js_/https://s3.amazonaws.com/assets2.opensecrets.org/js/sortable.js" defer="defer" language="javascript"></script>
+
+<script type="text/javascript">
+
+function createElementFromHTML(htmlString) {
+    var div = document.createElement('div')
+    div.innerHTML = htmlString.trim()
+    console.log(div.firstChild)
+    return div.firstChild
+  }
+
+var token = $('meta[name="csrf-token"]').attr('content')
+
+var path = window.location.pathname
+  console.log('path', path)
+
+const queryString = window.location.search.substr(1)
+  console.log("queryString", queryString)
+
+var xhr = new XMLHttpRequest()
+  var url = `/scrims?current_page=${path}&${queryString}`
+  console.log("url", url)
+  xhr.open('GET', url)
+  xhr.setRequestHeader('X-CSRF-Token', token)
+
+xhr.onload = () => {
+    if (xhr.status === 200) {
+      var response = xhr.response
+      console.log("response", response)
+
+if (response !== 'No Scrims') {
+        var scrim = createElementFromHTML(response)
+        console.log(scrim)
+        document.body.appendChild(scrim)
+        console.log(document.body)
+        $('[data-modal]').each(function () {
+          console.log('Modal found')
+          new Modal({ el: this })
+        })
+
+$('.js-validate').each(function () {
+          console.log('Form to validate found')
+          new ValidateForm({ el: this })
+        })
+
+handleNewsletter()
+      }
+    } else {
+      console.log('There was an error with the scrim-ask')
+    }
+  }
+
+setTimeout(() => {
+    xhr.send()
+  }, 250)
+
+</script>
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20230604212925cs_/https://s3.amazonaws.com/assets2.opensecrets.org/industries/css/indus.css" media="screen">
+
+<style type="text/css">
+#datatable th {font-size:12px;}
+.total {background-color:#CCCCCC;}
+.hl {background-color:#C5D9B4;}
+.libcon {display:none;}
+#showhide {text-align:right;}
+#showhide a:hover {cursor: pointer;}
+</style>
+
+<script type="text/javascript">
+$(function() {
+  $("#toggle").click(function()
+  {
+    $(".libcon").toggle();
+    $(".party").toggle();
+  });
+});
+</script>
+</head>
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="http://web.archive.org/web/20230604212925if_/https://www.googletagmanager.com/ns.html?id=GTM-MKPRXNV" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<link rel="preconnect" href="http://web.archive.org/web/20230604212925/https://fonts.googleapis.com/">
+<link rel="preconnect" href="http://web.archive.org/web/20230604212925/https://fonts.gstatic.com/" crossorigin>
+<link href="http://web.archive.org/web/20230604212925cs_/https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&amp;display=swap" rel="stylesheet">
+<script src="http://web.archive.org/web/20230604212925js_/https://cdn.tailwindcss.com/"></script>
+<script src="//web.archive.org/web/20230604212925js_/https://unpkg.com/alpinejs" defer></script>
+
+<style>
+  body {
+    font-family: 'Raleway', sans-serif !important;
+  }
+
+[x-cloak] {
+    display: none !important;
+  }
+
+@media (max-width: 1199px) {
+    .header {
+      display: none !important;
+    }
+
+.arrow {
+      display: inline;
+      width: 6px !important;
+      position: relative;
+      top: -1px;
+    }
+  }
+
+@media (min-width: 1200px) {
+    .mobile-header {
+      display: none !important;
+    }
+
+.arrow {
+      position: relative;
+      top: 5px;
+      left: 4px;
+    }
+  }
+
+.header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    height: 130px;
+    max-width: 1200px;
+    margin: auto;
+    color: black;
+  }
+
+.mobile-header {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    height: 100px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+.mobile-header svg {
+    width: 22px;
+    height: 22px;
+  }
+
+.header .logo img {
+    height: 110px;
+  }
+
+.mobile-header .logo img {
+    height: 50px;
+  }
+
+.mobile-header-menu {
+    border: 1px solid #c7c8ca;
+    padding: 12px;
+  }
+
+.nav-item {
+    margin-right: 30px;
+    font-size: 17px;
+  }
+
+.bottom-nav-item {
+    border-bottom: 8px solid white;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.mobile-nav-item {
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+  }
+
+.active {
+    border-bottom: 8px solid #921a25;
+  }
+
+.cta-button {
+    padding: 14px 20px;
+    font-weight: 800;
+    color: white;
+  }
+
+.cta-blue {
+    background-color: #24385a;
+  }
+
+.cta-blue:hover {
+    background-color: #152136;
+  }
+
+.cta-red {
+    background-color: #921a25;
+  }
+
+.cta-red:hover {
+    background-color: #bd2230;
+  }
+
+.search-box {
+    border-bottom: 1px solid #000 !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 4px 20px 4px 0 !important;
+    font-size: 17px;
+    margin: 0 !important;
+    height: auto !important;
+  }
+
+.submenu {
+    columns: 2;
+    background-color: #e3e3e3;
+    z-index: 9999;
+    padding: 20px;
+    font-size: 12px;
+    text-align: left;
+  }
+
+.submenu li {
+    max-width: 150px;
+    margin-bottom: 8px;
+  }
+
+.submenu li a span {
+    display: flex;
+  }
+
+#mainColumn {
+    max-width: 1200px !important;
+  }
+
+#profileHead {
+    max-width: 1200px !important;
+  }
+
+table a {
+    color: #3e72b5;
+    text-decoration: none;
+    font-weight: 700;
+  }
+</style>
+
+<div class="header flex flex-row" x-data="{active: '', search: ''}">
+  <div class="logo mx-10">
+    <a href="/web/20230604212925/https://www.opensecrets.org/"><img src="http://web.archive.org/web/20230604212925im_/https://s3.amazonaws.com/assets2.opensecrets.org/img/logo-horz.svg?v=3.0" alt="OpenSecrets Logo"></a>
+  </div>
+  <div class="navigation h-full flex flex-col justify-between w-full">
+    <div class="flex flex-row justify-between w-full">
+      <div class="flex flex-row">
+        <a href="/web/20230604212925/https://www.opensecrets.org/about/" class="nav-item ml-[30px]">About</a>
+        <a href="/web/20230604212925/https://www.opensecrets.org/news" class="nav-item">News and Reports</a>
+        <a href="/web/20230604212925/https://www.opensecrets.org/research-tools" class="nav-item">Research Tools</a>
+        <div class="flex flex-row w-[140px] relative">
+          <input x-model="search" type="text" class="search-box absolute w-full" placeholder="Search" @keyup.enter="if (search !== '') window.location = `/search?q=${encodeURIComponent(search)}`">
+          <button type="submit" class="absolute right-0" @click="if (search !== '') window.location = `/search?q=${encodeURIComponent(search)}`">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15 16" fill="none" focusable="false" height="12" width="12">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M11 6A5 5 0 1 1 1 6a5 5 0 0 1 10 0Zm-1.523 4.89a6 6 0 1 1 .766-.648L15 15l-.707.707-4.816-4.816Z" fill="#000"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <a href="/web/20230604212925/https://www.opensecrets.org/action-center">
+          <div class="cta-button cta-blue mr-[12px]">
+            ACT NOW
+          </div>
+        </a>
+        <a href="http://web.archive.org/web/20230604212925/https://action.opensecrets.org/a/donate?utm_medium=header&amp;utm_campaign=donate&amp;utm_source=%2Findustries%2Fcontrib.php%3Fcycle%3D2020&amp;oa_utm_medium=header&amp;oa_utm_campaign=donate&amp;oa_utm_source=%2Findustries%2Fcontrib.php%3Fcycle%3D2020">
+          <div class="cta-button cta-red">
+            DONATE
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="w-full flex flex-row justify-between" @click.away="active = ''">
+      <div>
+        <p :class="active === 'candidates' ? 'bottom-nav-item active' : 'bottom-nav-item'" @click="if (active === 'candidates') { active = '' } else { active = 'candidates' }">Candidates &amp; Officeholders</p>
+        <ul x-cloak x-show="active === 'candidates'" class="submenu absolute bg-gray-500" x-transition>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/candidates-officeholders">
+              Candidates &amp; Officeholders
+              <span>Overview
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/members-of-congress">
+              Members of
+              <span>Congress
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/cong-cmtes" class="PrimaryNav-menu-link" data-orphans="2">
+              Congressional
+              <span>Committees
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/presidential-administrations" class="PrimaryNav-menu-link" data-orphans="2">
+              Presidential
+              <span>Administrations
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/personal-finances">
+              Personal
+              <span>Finances
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p :class="active === 'elections' ? 'bottom-nav-item active' : 'bottom-nav-item'" @click="if (active === 'elections') { active = '' } else { active = 'elections' }">Elections &amp; Fundraising Data</p>
+        <ul x-cloak x-show="active === 'elections'" class="submenu absolute bg-gray-500" x-transition>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/elections-overview">
+              Elections
+              <span>Overview
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/presidential-elections" class="PrimaryNav-menu-link" data-orphans="2">
+              Presidential
+              <span>Elections
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/races">
+              Congressional
+              <span>Elections
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/jfc">
+              Joint Fundraising
+              <span>Committees
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/parties">
+              <span>Political Parties
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/gender-race-and-politics">
+              Fundraising by Gender and
+              <span>Race
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/campaign-expenditures" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              Expenditures
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/outsidespending">
+              Outside
+              <span>Spending
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/donor-lookup">
+              Donor
+              <span>Lookup
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+           <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/states">
+              Get
+              <span>Local!
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p :class="active === 'industries' ? 'bottom-nav-item active' : 'bottom-nav-item'" @click="if (active === 'industries') { active = '' } else { active = 'industries' }">Industries &amp; Interest Groups</p>
+        <ul x-cloak x-show="active === 'industries'" class="submenu absolute bg-gray-500" x-transition>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/political-ads">
+              Political
+              <span>Ads
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/dark-money">
+              Dark
+              <span>Money
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/industries" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              <span>
+                Industries
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/orgs/all-profiles" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              <span>
+                Organizations
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/527s" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              <span>
+                527s
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/political-action-committees-pacs" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              <span>
+                PACs
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/news/issues/">
+              Issue
+              <span>Profiles
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+<div>
+        <p :class="active === 'lobbying' ? 'bottom-nav-item active' : 'bottom-nav-item'" @click="if (active === 'lobbying') { active = '' } else { active = 'lobbying' }">Lobbying</p>
+        <ul x-cloak x-show="active === 'lobbying'" class="submenu absolute bg-gray-500" x-transition>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/federal-lobbying">
+              Lobbying
+              <span class="u-nowrap">Overview
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/fara">
+              Foreign Lobby
+              <span class="u-nowrap">Watch
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/revolving">
+              Revolving
+              <span class="u-nowrap">Door
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div x-cloak :class="expanded === false ? 'mobile-header flex flex-row justify-between bg-white' : 'mobile-header flex flex-row justify-between bg-white fixed top-0 w-full z-[999]'" x-data="{expanded: false, active: ''}">
+  <div class="logo mx-10 ml-4">
+    <a href="/web/20230604212925/https://www.opensecrets.org/"><img src="http://web.archive.org/web/20230604212925im_/https://s3.amazonaws.com/assets2.opensecrets.org/img/logo-horz.svg?v=3.0" alt="OpenSecrets Logo"></a>
+  </div>
+  <div class="mobile-header-menu mr-4" @click="expanded = !expanded">
+    <svg x-show="expanded === false" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 384 384">
+      <rect x="0" y="277.333" width="384" height="42.667"/>
+      <rect x="0" y="170.667" width="384" height="42.667"/>
+      <rect x="0" y="64" width="384" height="42.667"/>
+    </svg>
+    <svg x-cloak x-show="expanded === true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="357px" height="357px" viewbox="0 0 357 357">
+      <g>
+        <g id="close">
+          <polygon points="357,35.7 321.3,0 178.5,142.8 35.7,0 0,35.7 142.8,178.5 0,321.3 35.7,357 178.5,214.2 321.3,357 357,321.3 
+			214.2,178.5 		"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <div x-cloak x-show="expanded === true" x-transition.opacity.duration.300ms class="fixed top-[100px] w-full h-full z-[999] px-4 bg-white overflow-y-hidden">
+    <div class="flex flex-row justify-center pb-6">
+      <a href="/web/20230604212925/https://www.opensecrets.org/action-center">
+        <div class="cta-button cta-blue mr-[12px]">
+          ACT NOW
+        </div>
+      </a>
+      <a href="href=&quot;https://action.opensecrets.org/a/donate?utm_medium=header&amp;utm_campaign=donate&amp;utm_source=%2Findustries%2Fcontrib.php%3Fcycle%3D2020&amp;oa_utm_medium=header&amp;oa_utm_campaign=donate&amp;oa_utm_source=%2Findustries%2Fcontrib.php%3Fcycle%3D2020&quot;">
+        <div class="cta-button cta-red">
+          DONATE
+        </div>
+      </a>
+    </div>
+    <hr>
+    <div class="flex flex-col items-center py-4">
+      <div>
+        <p class="mobile-nav-item text-center" @click="if (active === 'candidates') { active = '' } else { active = 'candidates' }">Candidates &amp; Officeholders</p>
+        <ul x-cloak x-show="active === 'candidates'" class="text-sm" x-transition>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/candidates-officeholders">
+              Candidates &amp; Officeholders
+              <span>Overview
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/members-of-congress">
+              Members of
+              <span>Congress
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/cong-cmtes" class="PrimaryNav-menu-link" data-orphans="2">
+              Congressional
+              <span>Committees
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/presidential-administrations" class="PrimaryNav-menu-link" data-orphans="2">
+              Presidential
+              <span>Administrations
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/personal-finances">
+              Personal
+              <span>Finances
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/states">
+              Get
+              <span>Local!
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="mobile-nav-item text-center" @click="if (active === 'elections') { active = '' } else { active = 'elections' }">Elections &amp; Fundraising Data</p>
+        <ul x-cloak x-show="active === 'elections'" class="text-sm" x-transition>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/elections-overview">
+              Elections
+              <span>Overview
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/presidential-elections" class="PrimaryNav-menu-link" data-orphans="2">
+              Presidential
+              <span>Elections
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/races">
+              Congressional
+              <span>Elections
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/jfc">
+              Joint Fundraising
+              <span>Committees
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/parties">
+              Political
+              <span>Parties
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/gender-race-and-politics">
+              Fundraising by Gender and
+              <span>Race
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/campaign-expenditures" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              Expenditures
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/outsidespending">
+              Outside
+              <span>Spending
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/donor-lookup">
+              Donor
+              <span>Lookup
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="mobile-nav-item text-center" @click="if (active === 'industries') { active = '' } else { active = 'industries' }">Industries &amp; Interest Groups</p>
+        <ul x-cloak x-show="active === 'industries'" class="text-sm" x-transition>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/political-ads">
+              Political
+              <span>Ads
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/dark-money">
+              Dark
+              <span>Money
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/industries" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              <span>
+                Industries
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/orgs/all-profiles" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              <span>
+                Organizations
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/527s" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              <span>
+                527s
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/political-action-committees-pacs" class="PrimaryNav-menu-link u-nowrap" data-orphans="">
+              <span>
+                PACs
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/news/issues/">
+              Issue
+              <span>Profiles
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="mobile-nav-item text-center" @click="if (active === 'lobbying') { active = '' } else { active = 'lobbying' }">Lobbying</p>
+        <ul x-cloak x-show="active === 'lobbying'" class="text-sm" x-transition>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/federal-lobbying">
+              Lobbying
+              <span class="u-nowrap">Overview
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/fara">
+              Foreign Lobby
+              <span class="u-nowrap">Watch
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+          <li>
+            <a href="/web/20230604212925/https://www.opensecrets.org/revolving">
+              Revolving
+              <span class="u-nowrap">Door
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="8" width="6" class="arrow">
+                  <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#000" stroke-width="3"></path>
+                </svg>
+              </span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="flex flex-col py-4 text-lg">
+      <a href="/web/20230604212925/https://www.opensecrets.org/about/">About</a>
+      <a href="/web/20230604212925/https://www.opensecrets.org/news">News and Reports</a>
+      <a href="/web/20230604212925/https://www.opensecrets.org/research-tools">Research Tools</a>
+    </div>
+    <hr>
+    <div class="flex flex-row relative pt-10">
+      <input type="text" class="search-box absolute w-full" placeholder="Search">
+      <button type="submit" class="absolute right-0">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15 16" fill="none" focusable="false" height="12" width="12">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M11 6A5 5 0 1 1 1 6a5 5 0 0 1 10 0Zm-1.523 4.89a6 6 0 1 1 .766-.648L15 15l-.707.707-4.816-4.816Z" fill="#000"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+<div id="contentWrapper">
+<!--script type="text/javascript">
+$(function() {
+	$(".sparkline").sparkline("html", {type: "pie", tooltipFormat: "${{value}}", sliceColors: ["#009933","#99CC99","#CCCCCC"] });
+});
+</script-->
+
+<style>
+	.raleway {
+		font-family: 'Raleway', sans-serif;
+	}
+
+.grid {
+		background-size: 30px 30px;
+		background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+	}
+
+.breadcrumb-item::after {
+		content: '/';
+		padding: 0 6px;
+	}
+</style>
+<div class="raleway flex flex-row bg-[#24385a] grid relative">
+	<div class="content-[''] h-[42px] w-1/2 bg-white absolute top-0"></div>
+	<div class="text-left w-full max-w-[1200px] mx-auto z-[2]">
+
+<span class="bg-white py-4 h-[42px] !text-sm w-[66%] flex flex-row items-center">
+
+<a href="/web/20230604212925/https://www.opensecrets.org/" class="breadcrumb-item">Home</a>
+									<a href="/web/20230604212925/https://www.opensecrets.org/industries/" class="breadcrumb-item">Interest Groups</a>
+
+<a href="/web/20230604212925/https://www.opensecrets.org/industries/indus.php?ind=A" class="breadcrumb-item">Agribusiness</a>
+
+</span>
+					<p class="text-[3rem] font-extrabold text-white py-8">Top Contributors</p>
+					</div>
+</div>
+
+<style>
+  .active-tab::after {
+    background-image: url("http://web.archive.org/web/20230604212925im_/https://cdn1.opensecrets.org/rails-assets/production_v4/assets/tab-nav-active-f085fcbb52a879c019444d156ff081af69e3bb10963879ec7eba03e9cdc663bc.svg");
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    top: 75%;
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+#tab-container li {
+    position: relative;
+    padding: 0 6px;
+    margin: 6px 0;
+    font-size: 16px;
+  }
+</style>
+
+<ul class="flex flex-row max-w-[1200px] my-4 w-full mx-auto" id="tab-container">
+      <li>
+        <a href="indus.php?cycle=2020&amp;ind=A">Summary</a>
+      </li>
+      <li>
+        <a href="totals.php?cycle=2020&amp;ind=A">Totals</a>
+      </li>
+      <li>
+        <a href="background.php?cycle=2020&amp;ind=A">Background</a>
+      </li>
+      <li>
+        <a href="lobbying.php?cycle=2020&amp;ind=A">Lobbying</a>
+      </li>
+      <li>
+        <a href="summary.php?cycle=2020&amp;ind=A">Money to Congress</a>
+      </li>	 
+      <li>
+        <a class="active-tab" href="contrib.php?cycle=2020&amp;ind=A">Contributors</a>
+      </li>	 
+      <li>
+        <a href="recips.php?cycle=2020&amp;ind=A">Recipients</a>
+      </li>	 
+      <li>
+        <a href="news.php?cycle=2020&amp;ind=A">News</a>
+      </li>
+    </ul>
+
+<div id="mainColumn">
+
+<div id="profileLeftColumn">
+		<h1>Agribusiness: Top Contributors to Federal Candidates, Parties, and Outside Groups</h1>
+
+<form name="menu" onsubmit="gotosite(document.forms[0].url.options[document.forms[0].url.selectedIndex].value);return false">
+		Election cycle:
+		<select name="url" onchange="gotosite(this.options[this.selectedIndex].value)" size="1">
+      <option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2022">2022</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2020" selected>2020</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2018">2018</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2016">2016</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2014">2014</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2012">2012</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2010">2010</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2008">2008</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2006">2006</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2004">2004</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2002">2002</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2000">2000</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=1998">1998</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=1996">1996</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=1994">1994</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=1992">1992</option><option value="/industries/contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=1990">1990</option>		</select>
+		<noscript><input type="Submit" value="GO"></noscript>
+		</form>
+
+<form name="menu" onsubmit="gotosite(document.forms[0].url.options[document.forms[0].url.selectedIndex].value);return false">
+			Breakdown to display:
+			<select name="breakdown" onchange="gotosite(this.options[this.selectedIndex].value)">
+			 <option value="contrib.php?ind=A&amp;Bkdn=DemRep&amp;cycle=2020" selected>Dem vs. Repub</option>
+			 <option value="contrib.php?ind=A&amp;Bkdn=Source&amp;cycle=2020">Source of Funds</option>
+			</select>
+			<noscript><input type="Submit" value="GO"></noscript>
+		</form>
+
+<p class="intro">Total contributions: <b>$194,917,113</b></p><div style="float:left;"><!-- START Code Block for Chart split -->
+<div id="splitDiv">Loading Chart</div></br>
+<script type="text/javascript" defer="defer"><!--
+	// Instantiate the Chart
+
+function stopInterval(interval) {
+		// console.log(interval)
+		clearInterval(interval)
+
+}
+
+function initiateChart(){ 
+		if (typeof FusionCharts === "function" && FusionCharts("split") && FusionCharts("split").dispose) {
+			FusionCharts("split").dispose();
+		}
+      if (typeof FusionCharts === "function") {
+      	stopInterval(fusionInterval_split)
+	      console.log({  "swfUrl" : "/include/classes/FusionCharts/Charts/Pie2D.swf",  "width" : "250",  "height" : "275",  "renderAt" : "splitDiv",  "dataFormat" : "xmlurl",  "id" : "split",  "dataSource" : "include%2Fcontrib_getData.php%3Fcycle%3D2020%26dat1%3D112350221%26dat2%3D29268447%26dat3%3D53298445%26cycle%3D2020%26type%3D1" })
+		  var chart_split = new FusionCharts( {  "swfUrl" : "/include/classes/FusionCharts/Charts/Pie2D.swf",  "width" : "250",  "height" : "275",  "renderAt" : "splitDiv",  "dataFormat" : "xmlurl",  "id" : "split",  "dataSource" : "include%2Fcontrib_getData.php%3Fcycle%3D2020%26dat1%3D112350221%26dat2%3D29268447%26dat3%3D53298445%26cycle%3D2020%26type%3D1" } ).render();
+	  } else {
+	  		console.log("Fusion Charts has not loaded yet")
+	  }
+    }
+
+let fusionInterval_split = setInterval(initiateChart, 3000);
+
+// --></script>
+<!-- END Script Block for Chart split -->
+</div><!-- START Code Block for Chart parties -->
+<div id="partiesDiv">Loading Chart</div></br>
+<script type="text/javascript" defer="defer"><!--
+	// Instantiate the Chart
+
+function stopInterval(interval) {
+		// console.log(interval)
+		clearInterval(interval)
+
+}
+
+function initiateChart(){ 
+		if (typeof FusionCharts === "function" && FusionCharts("parties") && FusionCharts("parties").dispose) {
+			FusionCharts("parties").dispose();
+		}
+      if (typeof FusionCharts === "function") {
+      	stopInterval(fusionInterval_parties)
+	      console.log({  "swfUrl" : "/include/classes/FusionCharts/Charts/Pie2D.swf",  "width" : "250",  "height" : "275",  "renderAt" : "partiesDiv",  "dataFormat" : "xmlurl",  "id" : "parties",  "dataSource" : "include%2Fcontrib_getData.php%3Fcycle%3D2020%26dat1%3D45811062%26dat2%3D96317443%26dat3%3D515398%26cycle%3D2020%26type%3D2" })
+		  var chart_parties = new FusionCharts( {  "swfUrl" : "/include/classes/FusionCharts/Charts/Pie2D.swf",  "width" : "250",  "height" : "275",  "renderAt" : "partiesDiv",  "dataFormat" : "xmlurl",  "id" : "parties",  "dataSource" : "include%2Fcontrib_getData.php%3Fcycle%3D2020%26dat1%3D45811062%26dat2%3D96317443%26dat3%3D515398%26cycle%3D2020%26type%3D2" } ).render();
+	  } else {
+	  		console.log("Fusion Charts has not loaded yet")
+	  }
+    }
+
+let fusionInterval_parties = setInterval(initiateChart, 3000);
+
+// --></script>
+<!-- END Script Block for Chart parties -->
+<div id="showhide"><a id="toggle">Toggle Party/Viewpoint percentages</a></div><table class="datadisplay" style="border-collapse:collapse;border:0;font-size:.85em;" id="datatable"><thead><tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th style="border-left:1px solid #fff;" colspan="3" class="party">To Candidates and Parties</th><th style="border-left:1px solid #fff;" colspan="1" class="libcon">To Candidates and Parties</th><th style="border-left:1px solid #fff;" colspan="1" class="party">To Outside Spending Groups</th><th style="border-left:1px solid #fff;" colspan="3" class="libcon">To Outside Spending Groups</th></tr><tr><th nowrap>Rank</th><th>Contributor</th><th nowrap>Total Contribs</th><th style="border-left:1px solid #fff;" class="sorttable_numeric" nowrap>Total</th><th class="party">Dem%</th><th class="party">Repub%</th><th style="border-left:1px solid #fff;" class="sorttable_numeric" nowrap>Total</th><th class="libcon">Liberal %</th><th class="libcon">Conserv %</th></thead><tbody><tr><td class="center">1</td><td>Reyes Holdings</td><td class="number total">$20,073,305</td><td class="number">$1,566,595</td><td class="number party">1.3%</td><td class="number party">98.7%</td><td class="number">$18,506,600</td><td class="number libcon">0.0%</td><td class="number libcon">100.0%</td><tr><td class="center">2</td><td>Mountaire Corp</td><td class="number total">$14,689,686</td><td class="number">$1,864,673</td><td class="number party">0.1%</td><td class="number party">99.9%</td><td class="number">$12,825,000</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">3</td><td>British American Tobacco</td><td class="number total">$4,050,261</td><td class="number">$549,852</td><td class="number party">15.5%</td><td class="number party">84.5%</td><td class="number">$3,520,250</td><td class="number libcon">0.0%</td><td class="number libcon">100.0%</td><tr><td class="center">4</td><td>American Crystal Sugar</td><td class="number total" style="background-color:#9DB68C;">$3,465,748</td><td class="number">$2,960,483</td><td class="number party">54.4%</td><td class="number party">45.6%</td><td class="number">$505,000</td><td class="number libcon">100.0%</td><td class="number libcon">0%</td><tr><td class="center">5</td><td>Fanjul Corp</td><td class="number total">$3,045,274</td><td class="number">$2,162,774</td><td class="number party">22.4%</td><td class="number party">77.6%</td><td class="number">$882,500</td><td class="number libcon">11.7%</td><td class="number libcon">88.3%</td><tr><td class="center">6</td><td>Grimmway Enterprises</td><td class="number total">$2,644,539</td><td class="number">$2,579,339</td><td class="number party">0%</td><td class="number party">100.0%</td><td class="number">$90,200</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">7</td><td>Altria Group</td><td class="number total" style="background-color:#9DB68C;">$2,590,687</td><td class="number">$1,544,654</td><td class="number party">34.8%</td><td class="number party">65.2%</td><td class="number">$1,045,639</td><td class="number libcon">3.4%</td><td class="number libcon">96.6%</td><tr><td class="center">8</td><td>Publix Super Markets</td><td class="number total" style="background-color:#9DB68C;">$2,026,389</td><td class="number">$1,567,919</td><td class="number party">25.0%</td><td class="number party">74.8%</td><td class="number">$455,750</td><td class="number libcon">0.4%</td><td class="number libcon">99.6%</td><tr><td class="center">9</td><td>Lmbi LP</td><td class="number total">$1,816,200</td><td class="number">$616,200</td><td class="number party">0%</td><td class="number party">100.0%</td><td class="number">$1,200,000</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">10</td><td>Jack Link's Beef Jerky</td><td class="number total">$1,410,325</td><td class="number">$1,410,310</td><td class="number party">0.0%</td><td class="number party">100.0%</td><td class="number">$0</td><td class="number libcon">0%</td><td class="number libcon">0%</td><tr><td class="center">11</td><td>McKee Foods</td><td class="number total">$1,390,034</td><td class="number">$1,351,419</td><td class="number party">1.0%</td><td class="number party">99.0%</td><td class="number">$38,565</td><td class="number libcon">0.2%</td><td class="number libcon">99.8%</td><tr><td class="center">12</td><td>Morning Star Co</td><td class="number total">$1,293,371</td><td class="number">$273,079</td><td class="number party">0.9%</td><td class="number party">41.5%</td><td class="number">$1,020,000</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">13</td><td>Wonderful Co</td><td class="number total">$1,230,263</td><td class="number">$1,059,891</td><td class="number party">97.6%</td><td class="number party">1.6%</td><td class="number">$170,700</td><td class="number libcon">100.0%</td><td class="number libcon">0%</td><tr><td class="center">14</td><td>KapStone Paper &amp; Packaging</td><td class="number total">$1,045,276</td><td class="number">$45,156</td><td class="number party">4.5%</td><td class="number party">95.5%</td><td class="number">$1,000,000</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">15</td><td>Kroger Co</td><td class="number total" style="background-color:#9DB68C;">$1,034,110</td><td class="number">$1,021,954</td><td class="number party">57.7%</td><td class="number party">41.4%</td><td class="number">$7,349</td><td class="number libcon">88.4%</td><td class="number libcon">11.6%</td><tr><td class="center">16</td><td>Deere &amp; Co</td><td class="number total" style="background-color:#9DB68C;">$1,030,815</td><td class="number">$1,027,591</td><td class="number party">37.5%</td><td class="number party">62.4%</td><td class="number">$2,639</td><td class="number libcon">100.0%</td><td class="number libcon">0%</td><tr><td class="center">17</td><td>Fat Apple Farm</td><td class="number total">$1,025,367</td><td class="number">$1,014,010</td><td class="number party">100.0%</td><td class="number party">0%</td><td class="number">$1,011,357</td><td class="number libcon">100.0%</td><td class="number libcon">0%</td><tr><td class="center">18</td><td>International Paper</td><td class="number total" style="background-color:#9DB68C;">$1,011,405</td><td class="number">$1,006,008</td><td class="number party">41.5%</td><td class="number party">58.4%</td><td class="number">$4,319</td><td class="number libcon">69.9%</td><td class="number libcon">30.1%</td><tr><td class="center">19</td><td>Farm Credit Council</td><td class="number total">$961,485</td><td class="number">$960,985</td><td class="number party">34.8%</td><td class="number party">65.0%</td><td class="number">$500</td><td class="number libcon">0%</td><td class="number libcon">100.0%</td><tr><td class="center">20</td><td>Ocean Star International</td><td class="number total">$899,539</td><td class="number">$899,539</td><td class="number party">0.0%</td><td class="number party">100.0%</td><td class="number">$0</td><td class="number libcon">0%</td><td class="number libcon">0%</td></tbody></table>	</div>
+
+<div id="profileRightColumn">
+        
+<style>#indus_search {padding: 15px 15px 1px 15px;}</style>
+<div id="indus_search">
+
+<strong>Industries in this Sector:</strong>
+		<form action="/web/20230604212925/https://www.opensecrets.org/industries/contrib.php" method="get" name="indus_switch" id="indus_switch">
+			<select name="ind" class="textfield" id="indcode">
+
+<option value="A07  ">Agricultural Services/Products</option>
+                                    <option value="A01  ">Crop Production &amp; Basic Processing</option>
+                                    <option value="A04  ">Dairy</option>
+                                    <option value="A6500">Farm bureaus</option>
+                                    <option value="G2100">Food and kindred products manufacturing</option>
+                                    <option value="A09  ">Food Processing &amp; Sales</option>
+                                    <option value="G2400">Food stores</option>
+                                    <option value="A10  ">Forestry &amp; Forest Products</option>
+                                    <option value="A06  ">Livestock</option>
+                                    <option value="G2300">Meat processing &amp; products</option>
+                                    <option value="A05  ">Poultry &amp; Eggs</option>
+                                    <option value="A1200">Sugar cane &amp; sugar beets</option>
+                                    <option value="A02  ">Tobacco</option>
+                                    <option value="A1400">Vegetables, fruits and tree nut</option>
+                						</select>
+
+<button type="submit" id="section_search" class="btn btn-default" style="margin-top:-10px;margin-left: 0px;"><i class="fa fa-search"></i></button>
+
+</form>
+
+<form action="/web/20230604212925/https://www.opensecrets.org/industries/contrib.php" method="get" name="sector_switch" id="sector_switch">
+        
+        <strong>Pick another Sector:</strong>
+			<select name="ind" class="textfield" id="indcode" style="margin-left:0;">
+
+<option value="A" selected>Agribusiness</option>
+							<option value="B">Communications/Electronics</option>
+							<option value="C">Construction</option>
+							<option value="D">Defense</option>
+							<option value="E">Energy/Natural Resources</option>
+							<option value="F">Finance/Insurance/Real Estate</option>
+							<option value="H">Health</option>
+							<option value="K">Lawyers &amp; Lobbyists</option>
+							<option value="M">Transportation</option>
+							<option value="N">Misc Business</option>
+							<option value="P">Labor</option>
+							<option value="Q">Ideology/Single-Issue</option>
+							<option value="W">Other</option>
+				         </select>
+            <button type="submit" id="section_search" class="btn btn-default" style="margin-top:-10px;margin-left: 0px;"><i class="fa fa-search"></i></button>
+        </form>
+
+<strong>Search for an industry:</strong>
+    <form action="lookup.php" method="get" name="databasesearch">
+		<input name="key" type="text" class="textfield" id="searchdatafield2" style="width:205px;" placeholder="Enter at least 3 characters" onfocus="clearDefault(this)">
+		<button type="submit" id="section_search" class="btn btn-default" style="margin-top:-10px;margin-left: 0px;"><i class="fa fa-search"></i></button>
+    </form>
+	
+	
+</div>
+        <div id="findreps" class="pt-4">
+    <strong>Find Your Representatives</strong>
+    <form action="/web/20230604212925/https://www.opensecrets.org/members-of-congress/search" method="get">
+    <input class="textfield" id="q" name="q" type="text" size="30" placeholder="Street City, State Zip Code"/>
+    <input type="hidden" id="type" name="type" value="zip">
+    <button type="submit" id="section_search" class="btn btn-default"><i class="fa fa-search"></i></button>
+    </form>
+</div>        
+    </div>
+
+<div id="disclaimer">
+		<dl>
+			<dt>&nbsp;</dt>
+			<dd>Inconsistent distributions between support of Democrats/Republicans and Liberal/Conservative Outside Spending groups</dd>
+		</dl>
+
+<style>
+    dt, dd {
+     display: inline;
+    }
+	dt {
+	 width: 20px;
+	 background: #9DB68C;
+	 padding: 5px 5px;
+	}
+	dd {
+	 margin-left:0;
+	}
+</style>
+
+<p>METHODOLOGY: The numbers on this page are based on contributions from donors (individuals as well as corporations 
+		and unions that give directly from their treasuries) to outside groups and from PACs (including super PACs) and individuals 
+		giving more than $200 to candidates and party committees. <span style="color:red;font-weight:bold;font-style:italic;">In 
+		many cases, the organizations themselves did not donate; rather the money came from the organization's PAC, its individual 
+		members or employees or owners, and those individuals' immediate families. Organization totals include subsidiaries and affiliates.</span>
+		</p>
+	<p>All donations took place during the 2019-2020 election cycle and were released by the Federal Election Commission on Monday, March 22, 2021.</p><p class="smallText">Feel free to distribute or cite this material, but please credit OpenSecrets. For permission to reprint for commercial uses, such as textbooks, contact OpenSecrets: &#105;&#110;&#102;&#111;&#064;&#099;&#114;&#112;&#046;&#111;&#114;&#103;</p>	</div>
+</div>
+</div>
+
+<style>
+  .bg-grid {
+    background-size: 30px 30px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-color: #921a25;
+  }
+
+.footer {
+    font-family: 'Raleway', sans-serif;
+  }
+
+.last-footer::after {
+    background-size: 30px 30px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    content: "";
+    display: block;
+    height: 3.5294117647rem;
+    width: 100%;
+
+}
+
+.blue-underline::after {
+    background-image: url("http://web.archive.org/web/20230604212925im_/https://cdn1.opensecrets.org/rails-assets/production_v4/assets/hand-drawn-short-34e0606b9d5c75158f946210e68bca2f468c411c2050860a1b134f4c02f61457.svg");
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    top: 87%;
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+
+.connected {
+    background-color: #24385a;
+    background-image: url("http://web.archive.org/web/20230604212925im_/https://cdn1.opensecrets.org/rails-assets/production_v4/assets/icons/open-o-black-c784b650ce0fa60b6c77a3f980d88e3bede2f60bc6539b3ffcbf7c0caa0da4db.svg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+</style>
+
+<div class="py-[5rem] bg-grid footer w-full flex flex-row justify-center">
+  <div class="flex flex-col md:flex-row justify-center">
+    <div class="bg-white px-[2.5rem] max-w-[80%] md:max-w-[40%] flex flex-col justify-center items-start md:h-[30vh] py-[2.5rem]" x-data="footer">
+      <p class="text-[250%] font-extrabold">
+        We follow the money. <span class="relative whitespace-nowrap blue-underline">You</span> make it possible.
+      </p>
+      <div class="flex flex-row py-4">
+        <button :class="active === '35' ? 'mr-2 p-2 bg-[#24385a] text-white text-sm md:text-lg border border-[#c7c8ca]' : 'mr-2 p-2 hover:bg-[#921a25] hover:text-white text-sm md:text-lg border border-[#c7c8ca]'" @click="active = '35'">$35</button>
+        <button :class="active === '50' ? 'mr-2 p-2 bg-[#24385a] text-white md:text-lg border border-[#c7c8ca]' : 'mr-2 p-2 hover:bg-[#921a25] hover:text-white text-sm md:text-lg border border-[#c7c8ca]'" @click="active = '50'">$50</button>
+        <button :class="active === '100' ? 'mr-2 p-2 bg-[#24385a] text-white text-sm md:text-lg border border-[#c7c8ca]' : 'mr-2 p-2 hover:bg-[#921a25] hover:text-white text-sm md:text-lg border border-[#c7c8ca]'" @click="active = '100'">$100</button>
+        <button :class="active === 'other' ? 'mr-2 p-2 bg-[#24385a] text-white text-sm md:text-lg border border-[#c7c8ca]' : 'mr-2 p-2 hover:bg-[#921a25] hover:text-white text-sm md:text-lg border border-[#c7c8ca]'" @click="active = 'other'">Other</button>
+      </div>
+      <button class="uppercase font-extrabold bg-[#921a25] text-lg text-white py-[0.5rem] px-[1rem]" @click="send">
+        Donate Today
+      </button>
+    </div>
+    <div class="bg-[#24385a] text-white max-w-[80%] md:max-w-[40%] flex flex-col items-start connected md:h-[30vh] justify-center px-[2.5rem] py-[2.5rem]">
+      <p class="text-[200%] font-extrabold">
+        Count Cash &amp; Make Change
+      </p>
+      <p class="text-xl py-4">
+        Sign up for our newsletter to track money’s influence on U.S. elections and public policy.
+      </p>
+      <div>
+        <input type="text" class="!px-[1rem] !py-[0.6rem] !h-auto !m-0 !border-solid !border-[#d0d1df] !border !shadow-none !rounded-none !align-baseline" placeholder="Email Address">
+        <button class="uppercase text-lg font-extrabold bg-[#921a25] px-[1rem] py-[0.5rem] relative left-[-4px]">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w-full flex flex-col items-center footer last-footer text-[16px]">
+  <div class="flex flex-col md:flex-row p-[4.8rem] w-full justify-between items-start max-w-[1200px]">
+    <div>
+      <a href="/web/20230604212925/https://www.opensecrets.org/">
+        <svg class="w-full" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 320 54" fill="none" focusable="false" class="Footer-logo" height="54" width="320" preserveaspectratio="xMidYMid meet" role="presentation" aria-hidden="true">
+          <path d="M90.251 8.303A14.073 14.073 0 0 0 76.415 22.57c0 7.871 6.21 14.277 13.836 14.277 6.66 0 11.167-2.618 12.709-7.38a2.064 2.064 0 0 0-.586-2.272 2.073 2.073 0 0 0-1.54-.498 2.074 2.074 0 0 0-1.427.765 2.067 2.067 0 0 0-.378.734c-.966 3-3.923 4.516-8.778 4.516a10.167 10.167 0 1 1 9.413-12.624H85.261a2.068 2.068 0 0 0 0 4.126h16.233a3.149 3.149 0 0 0 2.542-2.813A14.08 14.08 0 0 0 90.251 8.303M123.726 7.379a14.29 14.29 0 0 0-8.133 2.49v-.177a2.06 2.06 0 0 0-.555-1.547 2.07 2.07 0 0 0-3.016 0 2.065 2.065 0 0 0-.555 1.547v25.087c.003.293.069.582.195.847a2.064 2.064 0 0 0 3.514.53c.304-.371.47-.837.468-1.317v-17.53c0-2.788 3.084-5.796 8.082-5.796a8.887 8.887 0 0 1 6.236 2.356c1.932 1.864 2.906 4.66 2.906 8.303v12.573a2.066 2.066 0 0 0 4.135 0V22.172c0-4.745-1.44-8.642-4.169-11.277a13.02 13.02 0 0 0-9.108-3.516M22.666 8.031h-.204a2.067 2.067 0 0 0 0 4.126h.153a10.328 10.328 0 1 1-10.735 10.32v-.212a2.065 2.065 0 0 0-2.02-2.114 2.068 2.068 0 0 0-2.114 2.021v.305a14.725 14.725 0 1 0 14.92-14.454" fill="#921A25"></path>
+          <path d="M15.515 4.65h.161a2.067 2.067 0 0 0 0-4.125h-.195A14.768 14.768 0 0 0 5.187 4.65 14.2 14.2 0 0 0 .764 14.682a2.067 2.067 0 0 0 2.06 2.093h.05a2.059 2.059 0 0 0 2.059-2.025A10.514 10.514 0 0 1 15.515 4.642M56.556 50.631h.932v-2.847h2.339v-.813h-2.339v-2.194h2.737v-.814h-3.669v6.668ZM65.393 49.886a2.541 2.541 0 0 1-2.466-2.635 2.457 2.457 0 0 1 4.914 0 2.54 2.54 0 0 1-2.448 2.635Zm0-6.033a3.389 3.389 0 0 0-3.39 3.39 3.423 3.423 0 1 0 6.847 0 3.389 3.389 0 0 0-3.39-3.39M72.052 43.963h-.94v6.668h3.923v-.805h-2.983v-5.863ZM77.992 43.963h-.932v6.668h3.914v-.805H77.99v-5.863ZM85.964 49.886a2.541 2.541 0 0 1-2.466-2.635 2.465 2.465 0 1 1 4.923 0 2.542 2.542 0 0 1-2.457 2.635Zm0-6.033a3.389 3.389 0 0 0-3.39 3.39 3.423 3.423 0 1 0 6.847 0 3.389 3.389 0 0 0-3.39-3.39M97.241 48.86a5.08 5.08 0 0 0-.127.712 6.342 6.342 0 0 0-.135-.712l-1.305-4.888h-.847L93.53 48.86a7.82 7.82 0 0 0-.144.711 7.174 7.174 0 0 0-.127-.712l-1.177-4.888h-.966l1.694 6.66h1.085l1.152-4.322c.119-.423.203-.94.203-.94s.085.517.195.94l1.153 4.321h1.084l1.78-6.66h-.958l-1.263 4.89ZM102.52 43.963h-.932v6.668h.932v-6.668ZM109.679 48.301c0 .373.068.966.068.966-.166-.332-.35-.654-.551-.966l-2.957-4.33h-.932v6.694h.932v-4.32c0-.382-.068-.975-.068-.975s.314.61.56.974l2.973 4.321h.915v-6.693h-.932l-.008 4.33ZM117.143 48.123h1.085v.958a2.72 2.72 0 0 1-1.881.847 2.45 2.45 0 0 1-2.483-2.652 2.436 2.436 0 0 1 .707-1.835 2.431 2.431 0 0 1 1.835-.707 3.092 3.092 0 0 1 1.881.644l.475-.694a3.629 3.629 0 0 0-2.432-.805 3.394 3.394 0 0 0-3.146 2.127 3.39 3.39 0 0 0-.243 1.313 3.288 3.288 0 0 0 .901 2.429 3.295 3.295 0 0 0 2.378 1.027 2.873 2.873 0 0 0 2.05-.847V50.665h.847v-3.389h-1.94l-.034.847ZM124.006 44.777h2.279v5.854h.94v-5.854h2.288v-.814h-5.507v.814ZM135.8 46.895h-3.457v-2.932h-.932v6.668h.932v-2.923h3.457v2.923h.932v-6.668h-.932v2.932ZM140.426 47.674h2.389v-.805h-2.389v-2.092h2.931v-.814h-3.863v6.668h4.024v-.813h-3.092v-2.144ZM154.261 43.972l-1.525 3.6c-.152.373-.33.899-.33.899s-.186-.526-.33-.898l-1.534-3.601h-.983l-.534 6.66h.932l.322-4.237v-1.008s.212.644.365 1.008l1.321 3h.848l1.33-3c.161-.373.356-.983.356-.983v.983l.33 4.236h.924l-.543-6.66h-.949ZM161.311 49.886a2.536 2.536 0 0 1-1.782-.804 2.554 2.554 0 0 1-.684-1.831 2.462 2.462 0 0 1 1.485-2.408 2.465 2.465 0 0 1 3.438 2.408 2.548 2.548 0 0 1-.681 1.828 2.548 2.548 0 0 1-1.776.807Zm0-6.033a3.388 3.388 0 0 0-3.432 3.39 3.424 3.424 0 0 0 6.846 0 3.39 3.39 0 0 0-3.389-3.39M171.478 48.301c0 .373.059.966.059.966-.17-.331-.356-.653-.559-.966l-2.965-4.33h-.924v6.694h.941v-4.32c0-.382-.068-.975-.068-.975s.314.61.559.974l2.957 4.321h.915v-6.693h-.915v4.33ZM176.062 47.674h2.389v-.805h-2.389v-2.092h2.94v-.814h-3.872v6.668h4.024v-.813h-3.092v-2.144ZM183.772 46.158c-.204.381-.407.847-.407.847a9.164 9.164 0 0 0-.407-.847l-1.237-2.186h-1.059l2.237 3.838v2.855h.94v-2.821l2.229-3.838h-1.034l-1.262 2.152ZM192.278 43.963h-.932v6.668h.932v-6.668ZM199.437 48.301c0 .373.068.966.068.966-.17-.331-.356-.653-.559-.966l-2.965-4.33h-.924v6.694h.932v-4.32c0-.382-.068-.975-.068-.975.167.334.351.659.551.974l2.965 4.321h.915v-6.693h-.915v4.33ZM208.757 47.36h-1.356v-2.54h1.364a1.18 1.18 0 0 1 1.28 1.278 1.2 1.2 0 0 1-.787 1.192c-.16.059-.331.083-.501.07Zm.144-3.388h-2.432v6.693h.932v-2.457h1.5a2.012 2.012 0 0 0 1.519-.594 2.01 2.01 0 0 0 .582-1.524 1.984 1.984 0 0 0-.586-1.51 2.003 2.003 0 0 0-1.515-.574M216.154 49.886a2.545 2.545 0 0 1-2.307-1.651 2.557 2.557 0 0 1-.159-.984 2.456 2.456 0 0 1 .668-1.836 2.455 2.455 0 0 1 1.793-.774 2.465 2.465 0 0 1 2.462 2.61 2.549 2.549 0 0 1-1.489 2.409 2.544 2.544 0 0 1-.968.226Zm0-6.033a3.388 3.388 0 0 0-3.432 3.39 3.423 3.423 0 0 0 6.846 0 3.388 3.388 0 0 0-3.389-3.39M222.813 43.963h-.932v6.668h3.914v-.805h-2.982v-5.863ZM228.752 43.963h-.932v6.668h.932v-6.668ZM230.65 44.777h2.288v5.854h.932v-5.854h2.288v-.814h-5.508v.814ZM238.987 43.963h-.932v6.668h.932v-6.668ZM244.723 49.886a2.547 2.547 0 0 1-2.312-1.644 2.556 2.556 0 0 1-.162-.983 2.431 2.431 0 0 1 .681-1.806 2.421 2.421 0 0 1 1.785-.736c.707.011 1.39.266 1.931.72l.458-.694a3.389 3.389 0 0 0-2.423-.847 3.45 3.45 0 1 0 0 6.896 3.569 3.569 0 0 0 2.584-1.059l-.5-.669a3.033 3.033 0 0 1-2.059.847M250.086 45.7a1.098 1.098 0 0 1 .784-.938c.139-.04.284-.052.428-.036.54.019 1.057.222 1.466.576l.423-.78a2.734 2.734 0 0 0-1.889-.669 1.974 1.974 0 0 0-2.152 1.864c0 2.05 3.228 1.737 3.228 3.178a1.026 1.026 0 0 1-1.152.982 2.653 2.653 0 0 1-1.695-.711l-.525.703a3.126 3.126 0 0 0 2.211.847 1.925 1.925 0 0 0 2.11-1.88c0-2.161-3.228-1.797-3.228-3.17M169.385 28.001c0-5.397-2.881-7.786-9.252-9.379-4.075-1.025-6.024-2.084-6.024-4.473 0-2.085 1.508-3.39 4.295-3.39 3.101 0 4.694 1.017 6.024 3.101l4.643-3.32c-2.169-3.39-5.837-5.008-10.709-5.008-7.261 0-10.447 3.762-10.447 8.591 0 5.041 3.008 7.922 9.032 9.515 4.957 1.288 6.236 2.482 6.236 4.6 0 1.864-1.195 3.39-4.736 3.39a7.622 7.622 0 0 1-6.634-3.06l-4.736 3.28c2.694 3.541 6.413 4.998 11.768 4.998 7.176 0 10.54-3.897 10.54-8.896M175.553 36.5h17.132v-5.423h-10.608V25.18h9.43v-5.423h-9.43v-4.956h10.608V9.379h-17.132v27.12ZM209.664 14.411a3.676 3.676 0 0 1 3.77 3.339h6.211c-.898-5.931-4.601-8.761-9.981-8.761-6.168 0-10.692 3.652-10.692 11.861v4.237c0 8.1 4.524 11.861 10.692 11.861 5.736 0 9.04-2.669 9.981-8.76h-6.211c-.389 2.16-1.448 3.338-3.77 3.338-2.754 0-4.168-2.16-4.168-6.405v-4.237c0-4.44 1.457-6.405 4.168-6.405M235.37 20.817h-2.89V14.8h2.915c2.635 0 4.516.517 4.516 3.11 0 2.592-1.881 2.905-4.516 2.905h-.025Zm11.039-2.907c0-5.66-4.007-8.531-10.26-8.531h-10.218V36.49h6.549V26.239h3.389l4.525 10.26h7.151l-5.423-11.395c2.754-1.263 4.321-3.66 4.321-7.194M254 36.5h17.132v-5.423h-10.608V25.18h9.43v-5.423h-9.43v-4.956h10.608V9.379H254v27.12ZM276.046 14.801h7.075v21.698h6.524V14.801h7.074V9.379h-20.673V14.8ZM311.647 20.266c-3.389-.983-4.829-1.89-4.829-3.5 0-1.372.941-2.355 3.101-2.355 2.44 0 3.779.67 4.838 2.474l4.838-3.457c-1.932-2.99-5.431-4.44-9.752-4.44-6.6 0-9.549 3.34-9.549 7.821 0 4.482 2.356 6.88 7.863 8.642 4.007 1.305 5.083 2.084 5.083 3.66 0 1.296-.983 2.356-3.499 2.356a6.273 6.273 0 0 1-5.422-2.432l-4.881 3.389c2.542 3.228 5.931 4.44 10.854 4.44 6.168 0 9.472-3.178 9.472-8.092 0-4.643-2.245-6.837-8.142-8.532" fill="#054F87"></path>
+          <path d="M57.251 12.166a10.32 10.32 0 1 1-10.32 10.32 10.337 10.337 0 0 1 10.32-10.32Zm0 24.774a14.454 14.454 0 1 0-10.32-24.57v-1.695a2.067 2.067 0 1 0-4.134 0v40.668a2.067 2.067 0 1 0 4.135 0v-18.75A14.403 14.403 0 0 0 57.25 36.94" fill="#921A25"></path>
+        </svg>
+      </a>
+    </div>
+    <div>
+      <p>
+        A 501(c)(3) tax-exempt, charitable organization<br>
+        1100 13th Street, NW, Suite 800, Washington, DC 20005<br>
+        (202) 857-0044
+      </p>
+      <p>
+        <a href="/web/20230604212925/https://www.opensecrets.org/cdn-cgi/l/email-protection#fe97909891be9d8c8ed0918c99" class="font-bold text-[#921a25]"><span class="__cf_email__" data-cfemail="1c75727a735c7f6e6c32736e7b">[email&#160;protected]</span></a>
+      </p>
+    </div>
+    <div>
+      <ul class="text-left font-bold text-[#921a25]">
+        <li>
+          <a href="/web/20230604212925/https://www.opensecrets.org/action-center/" class="flex">Take Action&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="12" width="8" preserveaspectratio="xMidYMid meet" role="presentation" aria-hidden="true">
+              <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#921a25" stroke-width="3"></path>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="http://web.archive.org/web/20230604212925/https://action.opensecrets.org/a/donate" class="flex">Donate&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="12" width="8" preserveaspectratio="xMidYMid meet" role="presentation" aria-hidden="true">
+              <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#921a25" stroke-width="3"></path>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="/web/20230604212925/https://www.opensecrets.org/contracts/" class="flex">Buy Custom Data&nbsp;
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 16" fill="none" focusable="false" height="12" width="8" preserveaspectratio="xMidYMid meet" role="presentation" aria-hidden="true">
+              <path d="m1.364 2 6.364 6.364-6.364 6.364" stroke="#921a25" stroke-width="3"></path>
+            </svg>
+          </a>
+        </li>
+        <li class="flex flex-row">
+          <a href="http://web.archive.org/web/20230604212925/https://twitter.com/opensecretsdc" class="mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 182 148" preserveaspectratio="xMidYMid meet" focusable="false" height="17" width="21" role="presentation" aria-hidden="true">
+              <path d="M181.9 17.6c-5.1 7.5-11.3 13.9-18.6 19.2.1 1.1.1 2.8.1 5 0 10-1.5 20-4.4 30-3 10-7.4 19.6-13.3 28.8s-13 17.3-21.2 24.2-18.2 12.6-29.8 16.9C83 146 70.5 148.1 57.3 148c-20.8-.1-39.9-5.7-57.3-16.8 2.7.3 5.7.4 9 .4 17.3 0 32.8-5.3 46.4-16-8.1-.1-15.4-2.6-21.8-7.4-6.4-4.8-10.8-10.9-13.2-18.5 2.6.4 4.9.6 7 .6 3.3 0 6.6-.4 9.8-1.3-8.6-1.8-15.7-6.1-21.4-13-5.7-6.9-8.5-14.8-8.5-23.7V52c5.2 3 10.8 4.5 16.9 4.7-5.1-3.4-9.1-7.9-12.1-13.3S7.6 32.1 7.7 25.7c0-6.8 1.7-13.1 5-18.9 9.4 11.5 20.7 20.7 34 27.6s27.6 10.7 42.9 11.5c-.5-2.9-.7-5.7-.7-8.5 0-10.3 3.6-19.1 10.9-26.4s16-10.9 26.3-11c10.8 0 20 3.9 27.4 11.8 8.4-1.7 16.3-4.7 23.7-9.1-3 8.9-8.5 15.7-16.5 20.6 7.1-.8 14.3-2.7 21.4-5.8l-.2.1z"></path>
+            </svg>
+          </a>
+          <a href="http://web.archive.org/web/20230604212925/https://facebook.com/opensecrets">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 27 52" preserveaspectratio="xMidYMid meet" focusable="false" height="19" width="10" role="presentation" aria-hidden="true">
+              <path d="M27 .4v8.3h-4.9c-1.8 0-3 .4-3.6 1.1s-.9 1.9-.9 3.4V19h9.2l-1.2 9.3h-7.9V52H8V28.3H0V19h8v-6.8c0-3.9 1.1-6.9 3.3-9s5-3.2 8.6-3.2c3 0 5.4.1 7.1.4z"></path>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="max-w-[1200px] text-sm pb-4">
+    <p>Except for the Revolving Door section, content on this site is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License by OpenSecrets.org. To request permission for commercial use, please contact us.</p>
+  </div>
+</div>
+
+<script data-cfasync="false" src="/web/20230604212925js_/https://www.opensecrets.org/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+  document.addEventListener('alpine:init', () => {
+    Alpine.data('footer', () => ({
+      active: '',
+      send() {
+        if (this.active !== '') {
+          window.location = `http://web.archive.org/web/20230604212925/https://action.opensecrets.org/a/donate?utm_campaign=donate&utm_medium=footer&utm_source=%2F&amount-footer=${this.active}`
+        }
+      }
+    }))
+  })
+
+var _sf_async_config = {
+    uid: 7736,
+    domain: 'opensecrets.org',
+    useCanonical: true
+  };
+  (function() {
+    function loadChartbeat() {
+      window._sf_endpt = (new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src', '//web.archive.org/web/20230604212925/https://static.chartbeat.com/js/chartbeat.js');
+      document.body.appendChild(e);
+    };
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() {
+        oldonload();
+        loadChartbeat();
+      };
+  })();
+</script>
+
+</body>
+
+</html><!--
+     FILE ARCHIVED ON 21:29:25 Jun 04, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:03:29 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.732
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.016
+  esindex: 0.009
+  cdx.remote: 84.343
+  LoadShardBlock: 930.101 (3)
+  PetaboxLoader3.datanode: 941.509 (4)
+  load_resource: 403.704
+  PetaboxLoader3.resolve: 256.569
+-->

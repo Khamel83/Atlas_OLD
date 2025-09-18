@@ -1,0 +1,1056 @@
+# Content from http://food52.com/blog/15446-dinner-tonight-bff-crispy-coated-chicken
+
+*Retrieved: 2025-09-15T06:52:42.727912*
+
+---
+
+<!doctype html>
+<html class="no-js" lang="en-us">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article# food_prod: http://ogp.me/ns/fb/food_prod#"><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://food52.com/blog/15446-dinner-tonight-bff-crispy-coated-chicken","20230607164027","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1686156027");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="utf-8">
+    <title>Dinner Tonight: BFF Crispy Coated Chicken</title>
+
+<script>
+        (function() {
+          if (typeof(f52) === 'undefined') {
+            f52 = {};
+          }
+          if (typeof(f52.inputs) === 'undefined') {
+            f52.inputs = {};
+          }
+          var base = {"airbrakeJS":{"enabled":false,"filters":{}},"controllerName":"BlogController","fbAppId":"174162069306426","railsEnv":"production","staticLoginUrl":"/users/sign_in","staticSignupUrl":"/users/sign_up","logoutUrl":"/users/ajax_logout","loginUrl":"/users/ajax_login","passCashDifficulty":5,"fbLoginUrl":"/users/ajax_fb_login","signupUrl":"/users/ajax_signup","resetPassUrl":"/users/ajax_reset_password","ajaxCreateEventPath":"/events/ajax_create","followUserPathTemplate":"/users/0/ajax_toggle_follow","searchBasePath":"/home/search","ajaxSearchSuggestionsPath":"/home/ajax_search_suggestions","searchSuggestionsActive":true,"loginRequiresNoPageRefresh":null,"collectionTitleMaxLen":60,"collectionDescMaxLen":255,"showShopNav":true,"standaloneCart":false,"isShopPage":null,"countryCode":"US","userSignedIn":false,"userId":null,"userBuyerStatus":null,"ads":{"noAds":null,"useFreestar":true},"shop":{"ajax_create_order_path":"/shop/checkout/ajax_create_order","ajax_create_shipping_info_path":"/shop/shipping_address/ajax_create_shipping_info","ajax_get_checkout_options_path":"/shop/checkout/ajax_get_checkout_options","ajax_delete_shipping_info_path":"/shop/shipping_address/ajax_delete_shipping_info","ajax_save_shipping_address_path":"/shop/checkout/ajax_save_shipping_address","ajax_simulate_order_path":"/shop/checkout/ajax_simulate_order","ajax_store_payment_method_path":"/shop/checkout/ajax_store_payment_method","ajax_update_shipping_info_path":"/shop/shipping_address/ajax_update_shipping_info","currentBasketPath":"/shop/current_basket","createBasketItemPath":"/shop/basket_items/ajax_create","updateBasketItemPath":"/shop/basket_items/ajax_update","deleteBasketItemPath":"/shop/basket_items/ajax_delete","confirmBasketItemPath":"/shop/basket_items/ajax_confirm","backInStockNotifyPath":"/shop/products/ajax_notify_back_in_stock","productChooserDetailsPath":"/shop/products/ajax_chooser_details","productGetDeliveryDateEstimatePath":"/shop/products/0/ajax_get_delivery_date_estimate","ajaxBtClientTokenPath":"/shop/checkout/ajax_bt_client_token","prefetchedBasketBundle":null,"giftCardProductIds":[549,705],"flatRateExemptProductIds":[2314,2410,2411,2412,9315,705,9882,9352,9345,9354,9316,9734],"emailFulfilledProductIds":[705],"getRegistryModalDataPathTemplate":"/shop/registry/0/ajax_get_modal_data","updateRegistryItemPathTemplate":"/shop/registry/0/ajax_update_item","removeRegistryItemPathTemplate":"/shop/registry/0/ajax_remove_item","shippingCountries":[{"code":"USA","name":"United States","postalCodeLabel":"ZIP","postalCodeFormat":"^\\d{5}(?:[-\\s]\\d{4})?$","hasProvinces":true,"provinceLabel":"State","provinceCodes":["AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"]}],"ccExpirationRange":[2023,2043],"advancedFraudServiceEnabled":false,"paypalEnabled":true,"googlePayEnabled":true,"applePayEnabled":true,"affirmEnabled":true,"shippingPolicy":{"rate":"$9.99","distant_rate":"$30","free_shipping_floor":"$199","free_shipping_message":"Free Standard Shipping on Orders $199+","free_shipping_delivery_options_message":"Free Standard Shipping on Orders $199+. $9.99 flat rate for Standard Shipping on orders under $199.","free_shipping_order_summary_message":"Free Shipping $199+","flat_rate_message":"$9.99 flat rate for Standard Shipping on orders under $199","tagline":"Standard Shipping: Free on Orders $199+","tagline_subtag":"($9.99 on Orders Below $199)","express_legend":"Express Shipping Available","holiday_shipping_target":"Dec. 22","faq_path":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc","free_shipping":true},"showCartRecs":true,"showCartFreeShipTracker":true,"partnerize":true,"yotpoReviews":true,"showProductModulesCta":true,"defaultToDetailsSectionOnPdp":null},"obfuscatedEmailTag":"CqFFNOsGmrzZEKHLLTwzjTDENYaDgjyL","hideFindFriends":false,"baseUrl":"http://web.archive.org/web/20230607164027/https://food52.com","nav":{"placeholder":"\u003cnav class=\"global-nav\" aria-label=\"Main\"\u003e\n  \u003cdiv class=\"global-nav__logo-container\"\u003e\n    \u003cdiv class=\"global-nav__menu-item--more\"\u003e\n      \u003cbutton type=\"button\" class=\"btn--link global-nav__menu-link\"\u003e\u003c/button\u003e\n    \u003c/div\u003e\n    \u003ca class=\"global-nav__logo global-nav__logo--logged-out\" href=\"https://food52.com\" title=\"Home\"\u003e\n      \u003cspan class=\"global-nav__logo-img\" aria-label=\"Food52 Food Community\"\u003e\u003c/span\u003e\n    \u003c/a\u003e\n  \u003c/div\u003e\n\n  \u003cdiv class=\"global-nav__menu\"\u003e\n    \u003cul class=\"global-nav__menu-list\"\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/shop\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  The Shop\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/recipes\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Recipes\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/blog\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Food\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/drinks\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Drinks52\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/tags/home52\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Home52\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/hotline\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Community\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n          \u003cli class=\"global-nav__menu-item\"\u003e\n            \u003ca href=\"https://watch.food52.com\" class=\"global-nav__menu-link\"\u003e\n              \u003cspan\u003e\n                Watch\n              \u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/p/the-food52-podcast-network\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Listen\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/div\u003e\n\n  \u003cul class=\"global-nav__actions global-nav__actions--placeholder global-nav__actions--logged-out\"\u003e\u003c/ul\u003e\n\u003c/nav\u003e\n","navRedesign":false},"subnav":{"type":"post","id":15446,"title":"Dinner Tonight: BFF Crispy Coated Chicken","shareTitle":"Dinner Tonight: BFF Crispy Coated Chicken","shareUrl":"http://web.archive.org/web/20230607164027/https://food52.com/blog/15446-dinner-tonight-bff-crispy-coated-chicken","shareImg":"http://web.archive.org/web/20230607164027/https://images.food52.com/n8zPrE7j4IErJ57UeOVrUNTGN8I=/fit-in/1200x1200/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg","hideCommentIcon":false},"shopNav":{"type":"shop","placeholder":"\u003cnav class=\"shop-nav shop-nav--placeholder\"\u003e\n  \u003cdiv class=\"shop-nav__container\"\u003e\n    \u003cdiv class=\"shop-nav__button\"\u003e\n      \u003cspan\u003eShop Categories \u003cspan class=\"icon icon__arrow\"\u003e\u003c/span\u003e\u003c/span\u003e\n    \u003c/div\u003e\n\n    \u003cdiv class=\"shop-nav__logo shop-nav__logo--logged-out\"\u003e\u003c/div\u003e\n\n    \u003cdiv class=\"shop-nav__menu\"\u003e\n      \u003cul class=\"shop-nav__menu-list\"\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--newarrivals\"\u003e\n            \u003ca href=\"/shop/new-arrivals\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"New Arrivals\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/new-arrivals\"\u003e\n              \u003cspan\u003eNew Arrivals\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--cookware\"\u003e\n            \u003ca href=\"/shop/cookware\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Cookware\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/cookware\"\u003e\n              \u003cspan\u003eCookware\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--appliances\"\u003e\n            \u003ca href=\"/shop/appliances\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Appliances\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/appliances\"\u003e\n              \u003cspan\u003eAppliances\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--kitchen\"\u003e\n            \u003ca href=\"/shop/kitchen\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Kitchen\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/kitchen\"\u003e\n              \u003cspan\u003eKitchen\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--table\"\u003e\n            \u003ca href=\"/shop/table\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Table\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/table\"\u003e\n              \u003cspan\u003eTable\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--home\"\u003e\n            \u003ca href=\"/shop/home\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Home\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/home\"\u003e\n              \u003cspan\u003eHome\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--outdoor\"\u003e\n            \u003ca href=\"/shop/outdoor\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Outdoor\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/outdoor\"\u003e\n              \u003cspan\u003eOutdoor\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--pantry\"\u003e\n            \u003ca href=\"/shop/pantry\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Pantry\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/pantry\"\u003e\n              \u003cspan\u003ePantry\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--gifts\"\u003e\n            \u003ca href=\"/shop/gifts\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Gifts\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/gifts\"\u003e\n              \u003cspan\u003eGifts\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--sale\"\u003e\n            \u003ca href=\"/shop/on-sale\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Sale\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/on-sale\"\u003e\n              \u003cspan\u003eSale\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--dansk\"\u003e\n            \u003ca href=\"/shop/dansk\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Dansk\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/dansk\"\u003e\n              \u003cspan\u003eDansk\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n          \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--fivetwo\"\u003e\n            \u003ca href=\"/shop/five-two\" class=\"shop-nav__menu-link\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Five Two\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/five-two\"\u003e\n              \u003cspan\u003eFive Two\u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n\n        \u003cli class=\"shop-nav__menu-item shop-nav__menu-item--sh\"\u003e\n          \u003ca class=\"shop-nav__menu-link\" href=\"/shop/merchants/schoolhouse\" data-ga-event=\"navigationHeader\" data-ga-event-action=\"Schoolhouse\" data-ga-event-label=\"none\" data-ga-destination-url=\"/shop/merchants/schoolhouse\"\u003e\n            \u003cspan\u003eSchoolhouse\u003c/span\u003e\n          \u003c/a\u003e\n        \u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/div\u003e\n\n    \u003cul class=\"global-nav__actions global-nav__actions--logged-out\"\u003e\u003c/ul\u003e\n  \u003c/div\u003e\n\u003c/nav\u003e\n"},"footerColumns":[{"name":"Company","links":[{"name":"About Us","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/about"},{"name":"DEI Vision","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/dei-vision-statement"},{"name":"The Test Kitchen","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/welcome-to-our-test-kitchen"},{"name":"Podcast Network","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/the-food52-podcast-network"},{"name":"Events","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/events"},{"name":"Press","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/press"},{"name":"Jobs","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/food52-jobs"},{"name":"Affiliate Program","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/affiliate-program"},{"name":"Sitemap","url":"http://web.archive.org/web/20230607164027/https://food52.com/sitemap"}]},{"name":"Get Help","links":[{"name":"Contact \u0026 FAQ","url":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc"},{"name":"Orders \u0026 Returns","url":"http://web.archive.org/web/20230607164027/https://food52.com/shop/lookup-order"},{"name":"Food52 Trade","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/food52-trade-program"},{"name":"Request a Catalog","url":"http://web.archive.org/web/20230607164027/https://docs.google.com/forms/d/e/1FAIpQLScFUQbtG8IW0rPiRHkQLimoiq0_EI3_5cjE_06WUT_qlB6CJQ/viewform"},{"name":"Gift Cards","url":"http://web.archive.org/web/20230607164027/https://food52.com/shop/gifts/gift-cards"},{"name":"Registry","url":"http://web.archive.org/web/20230607164027/https://food52.com/shop/registry"},{"name":"Advertising Inquiries","url":"mailto:advertising@food52.com","newWindow":true},{"name":"Do Not Sell","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/privacy#doNotSell"}]},{"name":"Explore","links":[{"name":"The Shop","url":"http://web.archive.org/web/20230607164027/https://food52.com/shop"},{"name":"Recipes","url":"http://web.archive.org/web/20230607164027/https://food52.com/recipes"},{"name":"Food","url":"http://web.archive.org/web/20230607164027/https://food52.com/blog"},{"name":"Home52","url":"http://web.archive.org/web/20230607164027/https://food52.com/tags/home52"},{"name":"Travel","url":"http://web.archive.org/web/20230607164027/https://food52.com/tags/travel"},{"name":"Hotline","url":"http://web.archive.org/web/20230607164027/https://food52.com/hotline"},{"name":"Five Two","url":"http://web.archive.org/web/20230607164027/https://food52.com/p/introducing-food52-five-two"},{"name":"Schoolhouse","url":"http://web.archive.org/web/20230607164027/https://www.schoolhouse.com","newWindow":true},{"name":"Dansk","url":"http://web.archive.org/web/20230607164027/https://www.dansk.com","newWindow":true}]}],"activeExperiments":"CSUYV-QgTym2n6qyb7HeYQ.1!5EGGDs8FSViRZHPEaKKrrw.0","flashNotification":{"message":null,"isSuccess":false,"isError":false},"features":{"selfServeReturns":true},"faqUrls":{"base":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc","return_policy":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/articles/360047866254-What-is-your-return-policy-","shipping_rates":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/articles/360052174094-How-much-is-shipping-in-the-U-S-","shop":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/categories/360003867893-Orders-Shipping","navigation":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/categories/360003821294-Food52-Account","contests":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/sections/360008503734-Contests","recipes":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/sections/360008605733-Recipes","books":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/categories/360003867913-Recipes-Contests-More","general":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/categories/360003867853-General-Questions","support_request":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/requests/new"},"faqShippingUrls":"http://web.archive.org/web/20230607164027/https://support.food52.com/hc/en-us/articles/360052174094-How-much-is-shipping-in-the-U-S-","useSearchPanel":null,"signUpModalCopy":true};
+          f52.inputs.base = base;
+        })();
+      </script>
+
+<script>gtmDataLayer = [];</script>
+    <link rel="dns-prefetch" href="http://web.archive.org/web/20230607164027/https://www.googletagmanager.com/">
+<link href="//web.archive.org/web/20230607164027/https://www.googletagmanager.com/gtm.js?id=GTM-MB6SZR&amp;l=gtmDataLayer" rel="preload" as="script">
+<script async src="//web.archive.org/web/20230607164027js_/https://www.googletagmanager.com/gtm.js?id=GTM-MB6SZR&amp;l=gtmDataLayer"></script>
+<script>window['gtmDataLayer']=window['gtmDataLayer']||[];window['gtmDataLayer'].push({'gtm.start':new Date().getTime(),event:'gtm.js'});</script>
+
+<script src="/web/20230607164027js_/https://food52.com/dist/gtm_core_data.302d8b88b351588c5e3d.js"></script>
+
+<script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="http://web.archive.org/web/20230607164027/https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+  
+    ttq.load('C8LMBRNI6F1M8B1VD1E0');
+    ttq.page();
+  }(window, document, 'ttq');
+</script>
+
+<script>
+      window.uetq = window.uetq || [];
+      // eprotect hack.
+      window.eProtect = function() {};
+    </script>
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="A go-to chicken recipe that's as comforting on a salad as it is with ketchup. ">
+    <meta name="keywords" content="">
+
+<meta name="viewport" content="width=device-width,initial-scale=1" maximum-scale="1">
+
+<meta name="verify-v1" content="lMOAF4P7f2sxMtpjVkGgQTON1Js3aD2uDielq9qdoYI=">
+    <meta name="google-site-verification" content="3hxp5oA8CYuqgtPrXrz0LmDSGYTIe2jQK9ToV1gwurI">
+    <meta name="msvalidate.01" content="F298E853CF03751CAD3FE09E0A2FD491">
+
+<meta property="fb:app_id" content="174162069306426">
+    <meta property="fb:pages" content="133148554015">
+
+<meta property="og:site_name" content="Food52">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://web.archive.org/web/20230607164027/https://food52.com/blog/15446-dinner-tonight-bff-crispy-coated-chicken">
+
+<meta name="twitter:site" content="@food52">
+    <meta name="twitter:site:id" content="21769127">
+
+<link rel="preload" href="/web/20230607164027/https://food52.com/fonts/woff2/ChronicleSSm-Book_Web.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/web/20230607164027/https://food52.com/fonts/woff2/GothamSSm-Book_Web.woff2" as="font" type="font/woff2" crossorigin>
+
+<style media="all">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}@font-face{font-family:'Chronicle SSm A';src:url(/web/20230607164027im_/https://food52.com/fonts/woff2/ChronicleSSm-Book_Web.woff2) format("woff2"),url(/web/20230607164027im_/https://food52.com/fonts/woff/ChronicleSSm-Book_Web.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Chronicle SSm A';src:url(/web/20230607164027im_/https://food52.com/fonts/woff2/ChronicleSSm-Medium_Web.woff2) format("woff2"),url(/web/20230607164027im_/https://food52.com/fonts/woff/ChronicleSSm-Medium_Web.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'Chronicle SSm A';src:url(/web/20230607164027im_/https://food52.com/fonts/woff2/ChronicleSSm-Bold_Web.woff2) format("woff2"),url(/web/20230607164027im_/https://food52.com/fonts/woff/ChronicleSSm-Bold_Web.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Gotham SSm A';src:url(/web/20230607164027im_/https://food52.com/fonts/woff2/GothamSSm-Light_Web.woff2) format("woff2"),url(/web/20230607164027im_/https://food52.com/fonts/woff/GothamSSm-Light_Web.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Gotham SSm A';src:url(/web/20230607164027im_/https://food52.com/fonts/woff2/GothamSSm-Book_Web.woff2) format("woff2"),url(/web/20230607164027im_/https://food52.com/fonts/woff/GothamSSm-Book_Web.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Gotham SSm A';src:url(/web/20230607164027im_/https://food52.com/fonts/woff2/GothamSSm-Medium_Web.woff2) format("woff2"),url(/web/20230607164027im_/https://food52.com/fonts/woff/GothamSSm-Medium_Web.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}.avatar{width:30px;height:30px;border-radius:50%;display:block;overflow:hidden}.avatar--large{width:80px;height:80px}.avatar--x-large{width:100px;height:100px}@media only screen and (min-width: 768px){.avatar--x-large{width:125px;height:125px}.avatar--responsive{width:40px;height:40px}.avatar--responsive-medium{width:60px;height:60px}}.icon{background-size:100% auto;background-repeat:no-repeat;width:1em;height:1em;display:inline-block}.icon__arrow{height:1em;border-color:inherit;display:inline-flex;font-size:10px;transform:rotate(180deg)}.icon__arrow:before,.icon__arrow:after{content:" ";width:1em;height:0;border-top:1px solid;border-radius:1px;border-color:inherit;transform:rotate(-45deg);transform-origin:right}.icon__arrow:after{transform:rotate(45deg);transform-origin:left}.icon__arrow--right{transform:rotate(90deg)}.icon__arrow--up{transform:rotate(0)}.icon__arrow--left{transform:rotate(270deg)}.icon__close{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='21'%3E%3Cpath fill='%23909090' fill-rule='evenodd' d='M10.884 10.181l8.933-9.095a.644.644 0 0 0 0-.9.617.617 0 0 0-.884 0L10 9.281 1.067.186a.617.617 0 0 0-.884 0 .644.644 0 0 0 0 .9l8.933 9.095-8.933 9.095a.644.644 0 0 0 0 .9.617.617 0 0 0 .884 0L10 11.081l8.933 9.095a.617.617 0 0 0 .884 0 .644.644 0 0 0 0-.9l-8.933-9.095z'/%3E%3C/svg%3E")}.icon__close--white{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='21'%3E%3Cpath fill='%23ffffff' fill-rule='evenodd' d='M10.884 10.181l8.933-9.095a.644.644 0 0 0 0-.9.617.617 0 0 0-.884 0L10 9.281 1.067.186a.617.617 0 0 0-.884 0 .644.644 0 0 0 0 .9l8.933 9.095-8.933 9.095a.644.644 0 0 0 0 .9.617.617 0 0 0 .884 0L10 11.081l8.933 9.095a.617.617 0 0 0 .884 0 .644.644 0 0 0 0-.9l-8.933-9.095z'/%3E%3C/svg%3E")}.icon__avatar{background-image:url("data:image/svg+xml,%3Csvg width='26' height='26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='M25.074 13.037c0 6.648-5.389 12.037-12.037 12.037C6.389 25.074 1 19.685 1 13.037 1 6.389 6.389 1 13.037 1c6.648 0 12.037 5.389 12.037 12.037z' stroke='%23444'/%3E%3Cpath clip-rule='evenodd' d='M17.85 8.893a4.813 4.813 0 1 1-9.626 0 4.814 4.814 0 1 1 9.626 0z' stroke='%23444'/%3E%3Cpath d='M4.068 21.066c1.674-2.799 5.062-4.713 8.969-4.713 3.906 0 7.294 1.914 8.969 4.713' stroke='%23444'/%3E%3C/svg%3E")}.icon__avatar--filled{background-image:url("data:image/svg+xml,%3Csvg width='26' height='26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23fff' d='M1 1h24v24H1z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M24.63 13c0 6.382-5.19 11.555-11.592 11.555-6.403 0-11.592-5.173-11.592-11.555S6.636 1.444 13.037 1.444C19.44 1.444 24.63 6.618 24.63 13z' fill='%23444' stroke='%23444' stroke-width='1.2'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17.673 9.021a4.627 4.627 0 0 1-4.635 4.62 4.627 4.627 0 0 1-4.635-4.62A4.628 4.628 0 0 1 13.038 4.4c2.56 0 4.635 2.07 4.635 4.621zM4.4 20.708c1.613-2.687 4.874-4.524 8.637-4.524 3.762 0 7.025 1.837 8.637 4.524 0 0-3.34 3.626-8.674 3.626s-8.6-3.626-8.6-3.626z' fill='%23fff' stroke='%23fff' stroke-width='1.2'/%3E%3Cpath clip-rule='evenodd' d='M24.63 13c0 6.382-5.19 11.555-11.592 11.555-6.403 0-11.592-5.173-11.592-11.555S6.636 1.444 13.037 1.444C19.44 1.444 24.63 6.618 24.63 13z' stroke='%23444' stroke-width='1.2'/%3E%3C/svg%3E")}.icon__search{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='22' viewBox='0 0 18 22'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23444' stroke-linecap='round' stroke-width='1.2'%3E%3Cpath d='M14.632 2.659a6.589 6.589 0 0 1 1.434 9.227c-2.159 2.943-6.303 3.584-9.256 1.43a6.589 6.589 0 0 1-1.434-9.227c2.16-2.943 6.304-3.583 9.256-1.43zM6.81 13.316l-5.424 7.392'/%3E%3C/g%3E%3C/svg%3E")}.icon__search--white{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='22'%3E%3Cpath d='M14.59 2.659a6.602 6.602 0 1 1-7.798 10.657A6.602 6.602 0 1 1 14.59 2.659zM6.792 13.316l-5.407 7.392' fill='none' fill-rule='evenodd' stroke='%23FFF' stroke-linecap='round' stroke-width='1.2'/%3E%3C/svg%3E")}.icon__cart{background-image:url("data:image/svg+xml,%3Csvg width='24' height='23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath clip-rule='evenodd' d='M19.616 13.874h-13.2L4.57 3.476h18.037l-2.99 10.398z' stroke='%23444' stroke-width='1.2' stroke-linecap='round'/%3E%3Cpath d='M1.386 1.411h2.668l3.058 16.16h11.876' stroke='%23444' stroke-width='1.2' stroke-linecap='round'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9.922 20.993c0 .767-.583 1.39-1.302 1.39-.72 0-1.303-.623-1.303-1.39 0-.766.584-1.388 1.303-1.388.72 0 1.302.622 1.302 1.388m8.778 0c0 .767-.584 1.39-1.303 1.39-.72 0-1.303-.623-1.303-1.39 0-.766.584-1.388 1.303-1.388s1.302.622 1.302 1.388' fill='%23444'/%3E%3C/svg%3E")}.icon__shipping--filled{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 26.6'%3E%3Cpath d='M47.4 14.5c.2.2.3.5.3.9s-.1.7-.4 1c-.3.3-.6.4-1.1.4h-6.9v5.8c0 .4-.1.8-.4 1.1-.3.3-.6.4-1 .4h-2.3c0-1.7-.6-3-1.9-3.9-.9-.7-1.7-1-2.5-1s-1.6.2-2.3.6c-1.7.9-2.6 2.4-2.6 4.3H14.5c0-.7-.1-1.2-.3-1.7-.2-.5-.4-.8-.6-.9-1-1.3-2.2-2-3.7-2-.6 0-1.1.1-1.6.3-.6 0-1 .2-1.3.4-.3.2-.7.5-1.2.9-.6.9-.9 1.8-.9 2.9-1.4-.1-2.6-.8-3.5-1.9C.5 21 0 19.7 0 18.2s.5-2.8 1.5-3.9 2.2-1.8 3.7-1.9l2-6.3c.3-.6.8-.9 1.5-.9h5.8V1.4c0-.4.1-.8.4-1 .3-.3.6-.4 1-.4h22.3c.4 0 .8.1 1 .4.3.3.4.6.4 1v3.5H27.5c-.3 0-.6.2-1 .5-.3.4-.5.6-.5.9 0 .4.1.7.3 1 .4-.4.8-.6 1.2-.6H42c.4 0 .8.2 1.1.6.2.2.3.5.3.9s-.1.7-.4 1c-.3.3-.6.4-1 .4h-2.3v2.6h-6.9c-.7 0-1.1.3-1.4.9-.1.2-.1.4-.1.7s.1.6.3.7c.4-.4.8-.6 1.2-.6h13.6c.2 0 .6.2 1 .6zM8 25.8c-.5-.5-.8-1.1-.8-1.8s.3-1.3.8-1.8 1.1-.8 1.8-.8 1.3.3 1.8.8.8 1.1.8 1.8-.3 1.3-.8 1.8-1.1.8-1.8.8-1.3-.3-1.8-.8zm6.5-13.4V8.1H9.8l-1.5 4.3h6.2zm14.1 2.1l.3-.9c0-.4-.1-.8-.4-1-.3-.3-.6-.4-1-.4h-1.7c-.4 0-.8.1-1.1.4-.3.3-.4.6-.4 1s.1.7.3.9c.4-.4.8-.6 1.2-.6h1.7c.3 0 .7.2 1.1.6zm.8 11.3c-.5-.5-.8-1.1-.8-1.8s.3-1.3.8-1.8 1.1-.8 1.8-.8 1.3.3 1.8.8.8 1.1.8 1.8-.3 1.3-.8 1.8-1.1.8-1.8.8-1.3-.3-1.8-.8zM48.6 6.6c.4 0 .8.1 1 .4.3.3.4.6.4 1s-.1.7-.2.9c-.2.5-.7.7-1.3.7h-1.7c-.4 0-.8-.1-1.1-.4-.3-.3-.4-.6-.4-1.1 0-.4.1-.8.4-1.1.3-.3.6-.4 1.1-.4h1.8z' fill='%23ffffff'/%3E%3C/svg%3E%0A");height:0.6em}.icon__pencil{background-image:url("data:image/svg+xml,%3csvg width='12' height='12' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cg clip-path='url(/%23t4pvo2bmga)'%3e %3cpath d='M11.404 1.136 10.86.594A2.018 2.018 0 0 0 9.433 0C8.917 0 8.4.202 8.008.594l-7.4 7.402a.88.88 0 0 0-.251.505L0 11.52a.432.432 0 0 0 .43.48h.05l3.017-.354a.842.842 0 0 0 .505-.252l7.4-7.403a2.005 2.005 0 0 0 0-2.855zM1.68 8.198 7.767 2.11 9.888 4.23 3.804 10.32 1.68 8.198zm-.468.833 1.758 1.757-1.994.228.24-1.984h-.004zm9.549-5.671-.228.228-2.12-2.124.227-.228a1.1 1.1 0 0 1 1.565 0l.544.544a1.1 1.1 0 0 1 .327.783 1.048 1.048 0 0 1-.315.796v.001z' fill='%23909090'/%3e %3c/g%3e %3cdefs%3e %3cclipPath id='t4pvo2bmga'%3e %3cpath fill='white' d='M0 0h12v12H0z'/%3e %3c/clipPath%3e %3c/defs%3e %3c/svg%3e")}.icon__pencil--white{background-image:url("data:image/svg+xml,%3csvg width='12' height='12' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3e %3cg clip-path='url(/%23t4pvo2bmga)'%3e %3cpath d='M11.404 1.136 10.86.594A2.018 2.018 0 0 0 9.433 0C8.917 0 8.4.202 8.008.594l-7.4 7.402a.88.88 0 0 0-.251.505L0 11.52a.432.432 0 0 0 .43.48h.05l3.017-.354a.842.842 0 0 0 .505-.252l7.4-7.403a2.005 2.005 0 0 0 0-2.855zM1.68 8.198 7.767 2.11 9.888 4.23 3.804 10.32 1.68 8.198zm-.468.833 1.758 1.757-1.994.228.24-1.984h-.004zm9.549-5.671-.228.228-2.12-2.124.227-.228a1.1 1.1 0 0 1 1.565 0l.544.544a1.1 1.1 0 0 1 .327.783 1.048 1.048 0 0 1-.315.796v.001z' fill='%23ffffff'/%3e %3c/g%3e %3cdefs%3e %3cclipPath id='t4pvo2bmga'%3e %3cpath fill='white' d='M0 0h12v12H0z'/%3e %3c/clipPath%3e %3c/defs%3e %3c/svg%3e")}.icon__remove{padding:10px;display:inline-block}.icon__remove:before{content:" ";background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath d='M4.9 4L8 7.1l-.9.9L4 4.9.9 8 0 7.1 3.1 4 0 .9.9 0 4 3.1 7.1 0l.9.9L4.9 4z' fill='%23fff'/%3E%3C/svg%3E") #c4c4c4 no-repeat center;background-size:8px;width:18px;height:18px;border-radius:50%;display:block}.icon__remove:hover:before,.icon__remove:focus:before{background-color:#909090}.icon__plus{height:1em;font-size:11px;position:relative;display:inline-flex;align-items:center}.icon__plus:before,.icon__plus:after{content:" ";width:1em;height:0;border-top:1px solid;border-radius:0.5px;border-color:inherit}.icon__plus:after{transform:rotate(90deg);transform-origin:center;position:absolute;top:calc(50% - 0.5px);left:0}.loader{margin:6em auto;font-size:10px;position:relative;text-indent:-9999em;border-top:7px solid rgba(87,105,109,0.4);border-right:7px solid rgba(87,105,109,0.4);border-bottom:7px solid rgba(87,105,109,0.4);border-left:7px solid rgba(87,105,109,0.8);-webkit-animation:spin 1.1s infinite linear;animation:spin 1.1s infinite linear}.loader--centered{width:50px;height:50px;margin-left:-25px;margin-top:-30px;position:absolute;top:50%;left:50%;z-index:1;text-indent:0;color:transparent}.loader,.loader:after{border-radius:50%;width:6em;height:6em}.spinner{-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite}@-webkit-keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}.social{display:flex;justify-content:center}.social--left{justify-content:flex-start}.social__link{background:#fff;width:36px;height:36px;margin:0 7.5px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer}.social__link svg{width:50%;height:auto;max-height:50%;pointer-events:none}.social__link--email{color:#57696d}.social__link--email:focus,.social__link--email:hover{color:#404e51}.social__link--facebook{color:#3a5a98}.social__link--facebook:focus,.social__link--facebook:hover{color:#2c4473}.social__link--twitter{color:#00a3ea}.social__link--twitter:focus,.social__link--twitter:hover{color:#007fb7}.social__link--pinterest{color:#c92228}.social__link--pinterest:focus,.social__link--pinterest:hover{color:#9d1b1f}.social--fig .social__link{color:#70799a}.social--fig .social__link:focus,.social--fig .social__link:hover{color:#59617e}.social--large .social__link{margin:0 12px}.social--large .social__link svg{width:62%;max-height:62%}.social--outline .social__link{border:1px solid #eaeaea}.social--outline .social__link svg{width:55%;max-height:55%}input,textarea{font-weight:400;font-family:"Gotham SSm A", sans-serif;border-radius:0}input[type="radio"]{border-radius:10px}::-webkit-input-placeholder{color:#909090}:-ms-input-placeholder{color:#909090}::-moz-selection{background:#57696d;color:#fff}::-webkit-selection{background:#57696d;color:#fff}::-moz-selection{background:#57696d;color:#fff}::selection{background:#57696d;color:#fff}.fieldset--checkbox{margin-bottom:15px;color:#909090;font-size:12px;font-weight:400;line-height:16px;display:flex;align-items:center}.fieldset--checkbox input[type="checkbox"]{width:0;margin:0;border:none;overflow:hidden;-webkit-appearance:none;-moz-appearance:none;appearance:none}.checkbox{cursor:pointer;position:relative;flex-shrink:0;display:flex}.checkbox:before{content:" ";width:16px;height:16px;margin-right:8px;border:1px solid #c4c4c4;box-sizing:border-box;flex-shrink:0}input[type="checkbox"]:focus+.checkbox:before{border-color:#ababab}.checkbox:after{content:" ";width:10px;height:5px;border-left:2px solid #a18f7a;border-bottom:2px solid #a18f7a;position:absolute;top:5px;left:3px;opacity:0;box-sizing:border-box;transition:opacity 0.1s;transform:rotate(-45deg)}.checkbox.checkbox--checked:after,input[type="checkbox"]:checked+.checkbox:after{opacity:1}.btn{background:#c4c4c4;border:none;border-radius:1px;padding:0 8px;outline:none;display:inline-block;color:#fff;font-weight:400;font-family:"Gotham SSm A", sans-serif;font-size:13px;line-height:25px;text-align:center;text-transform:uppercase;white-space:nowrap;-webkit-appearance:none;transition:background-color 0.2s}.btn:hover,.btn:focus-visible{background:#ababab;color:#fff;cursor:pointer}.btn.disabled,.btn[disabled]{background:#e6e6e6;color:#a9a9a9;opacity:0.65;cursor:default}.btn--default{background:#2d4558;width:100%;font-size:17px;line-height:50px}.btn--default:focus-visible,.btn--default:hover{background:#1c2b36;color:#fff}.btn--default:disabled{background:#b4b4b4;color:#fff}.btn--small{border-radius:1px;padding:5px 18px;line-height:25px}.btn--medium{padding:0 13px;font-size:18px;line-height:40px}.btn--secondary.btn--medium{font-size:18px;text-transform:uppercase}.btn--secondary{background:#a18f7a;font-size:14px;text-transform:none}.btn--secondary:focus-visible,.btn--secondary:hover{background:#887660}.btn--white{background:#fff;color:#444}.btn--white:hover,.btn--white:focus{background:#f1f1f1;color:#444}.btn--outline{background:none;border:1px solid #2d4558;font-size:14px;line-height:48px;color:#2d4558;text-transform:none}.btn--outline:focus-visible,.btn--outline:hover{background:none;border-color:#1c2b36;color:#1c2b36}.btn--outline:disabled{background:transparent;border-color:#b4b4b4;color:#b4b4b4}.btn--inline{width:auto;padding-left:35px;padding-right:35px}@media only screen and (min-width: 768px){.btn--inline-desktop{width:auto;padding-left:42px;padding-right:42px}}.btn--loading{font-size:0;display:flex;align-items:center;justify-content:center;pointer-events:none}.btn--loading:before{content:" ";background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25'%3E%3Cpath fill='%23EAEAEA' fill-rule='evenodd' d='M18.75 1.675a.781.781 0 00-1.067.286L16.12 4.667a.781.781 0 101.353.781l1.563-2.706a.781.781 0 00-.286-1.067zm1.583 7.205l2.706-1.563a.781.781 0 10-.78-1.353l-2.707 1.563a.781.781 0 10.781 1.353zm3.886 2.839h-3.125a.781.781 0 100 1.562h3.125a.781.781 0 000-1.562zm-1.18 5.963l-2.706-1.562a.781.781 0 00-.781 1.353l2.706 1.563a.781.781 0 00.781-1.354zm-5.566 1.87a.78.78 0 10-1.353.78l1.563 2.707a.781.781 0 001.353-.781l-1.563-2.706zm-4.973.76a.78.78 0 00-.781.782v3.125a.782.782 0 001.562 0v-3.125a.78.78 0 00-.781-.782zM3.906 11.72H.781a.781.781 0 100 1.562h3.125a.781.781 0 000-1.562zm1.542-4.192L2.742 5.964a.781.781 0 00-.781 1.353L4.667 8.88a.781.781 0 00.781-1.353zm1.87-5.566a.781.781 0 10-1.354.78l1.563 2.707a.781.781 0 101.353-.781L7.317 1.96zM13.28.78v3.125a.781.781 0 01-1.562 0V.781a.781.781 0 111.562 0z'/%3E%3C/svg%3E");background-size:100%;width:30px;height:30px;display:block;-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite}.btn--pill{background:none;border:solid 1px #57696d;border-radius:18px;padding:0 16px 0 18px;outline:none;font-weight:400;font-family:"Gotham SSm A", sans-serif;color:#57696d;font-size:14px;line-height:34px;letter-spacing:-0.1px;text-transform:uppercase;display:inline-flex;align-items:center;cursor:pointer;margin:0}.btn--pill .icon{margin-right:8px;font-size:17px}.btn--pill:focus-visible,.btn--pill:hover{color:#57696d}.btn--link{background:transparent;padding:0;border:none;outline:none;font-size:inherit;font-family:inherit;cursor:pointer;display:inline}img.lazyload,img.lazyloading{opacity:0}img.lazyloaded{opacity:1;transition:opacity 0.5s}img[width="1"][height="1"]{position:absolute;left:-999%}.img{position:relative}.img--spacer{position:relative;flex-shrink:0}.img--spacer:before{content:" ";width:100%;display:block}.img--spacer img{width:100%;position:absolute;top:0;display:block}.img--mobile-full{width:calc(100% + 32px);margin-left:-16px}.img-details{min-height:18px;margin-top:2px;font-weight:400;font-family:"Gotham SSm A", sans-serif;text-align:left;line-height:18px}.img-details__caption{font-size:14px;line-height:1.29}.img-details__caption+.img-details__credit{margin-left:4px;border-left:1px solid #c4c4c4;padding-left:8px}.img-details--small .img-details__caption{font-size:12px;line-height:1.42}.img-details__credit{color:#909090;font-size:10px;letter-spacing:0.8px;line-height:1.7;text-transform:uppercase}.img-details__credit .img-details__credit-link{color:#909090;text-decoration:none;border-bottom:none}.img-details__credit .img-details__credit-link:focus,.img-details__credit .img-details__credit-link:hover{color:#909090}a.img__pin{width:30px;height:30px;background:#c92228;color:#fff;position:absolute;bottom:12px;left:12px;z-index:1;cursor:pointer;display:flex;align-items:center;justify-content:center;visibility:hidden;opacity:0;transition:visibility 0.15s linear, opacity 0.15s linear}a.img__pin svg{width:13px;height:17px}.img a.img__pin:hover{background:#b31e24;color:#fff}.img:hover a.img__pin{opacity:1;visibility:visible}@media only screen and (min-width: 768px){.img--mobile-full{width:100%;margin-left:0}.img-details{margin-top:5px}.img-details--small .img-details__caption{font-size:14px;line-height:1.29}}.ad-slot{margin-bottom:30px;text-align:center;overflow:hidden}@media only screen and (min-width: 768px){.ad-slot--mobile{display:none}}.ad-slot--mobile-inline{min-height:306px;padding:15px 0;border-top:1px solid #eaeaea;border-bottom:1px solid #eaeaea}@media only screen and (min-width: 620px){.ad-slot--mobile-inline{display:block}}@media only screen and (min-width: 1024px){.ad-slot--mobile-inline{display:none}}.ad-slot--aside{display:none}@media only screen and (min-width: 768px){.ad-slot--aside{width:300px;min-height:250px;display:block}}.ad-slot--pixel{height:0;margin:0}.ad-slot--leaderboard{display:none}@media only screen and (min-width: 768px){.ad-slot--leaderboard{background:#fafafa;min-height:111px;margin:0;border-bottom:1px solid #f1f1f1;padding:10px 0;position:relative;z-index:10005;display:flex;align-items:center;justify-content:center}}@media print{.ad-slot--leaderboard{display:none}}@media only screen and (min-width: 768px){.ad-slot--leaderboard-tall{min-height:271px}}.ad-slot--fixed{background:#f7f7f7;width:100%;height:52px;margin:0;padding-top:2px;position:fixed;bottom:0;z-index:10001;text-align:center;box-shadow:0 -2px 2px 0 rgba(0,0,0,0.1),0 -1px 0 0 rgba(0,0,0,0.1)}@media only screen and (min-width: 768px){.ad-slot--fixed{display:none}}@media print{.ad-slot--fixed{display:none}}.ad-slot__label{padding-bottom:10px;font-weight:400;font-family:"Gotham SSm A", sans-serif;color:#c4c4c4;font-size:11px;line-height:normal;letter-spacing:0.6px;text-transform:uppercase}.global-nav{background:#fff;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:5px}.global-nav a:hover,.global-nav a:focus{color:#444}.global-nav__logo{margin:12.5px 0 12.5px 10px;flex-shrink:0}.global-nav__logo-img{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='116' height='24'%3E%3Cpath fill='%2357696D' fill-rule='evenodd' d='M103.294 20.259l3.882-3.416c4.235-3.63 7.056-6.83 7.056-10.643 0-4.283-3.907-6.2-7.778-6.2-4.716 0-6.473 2.334-6.473 3.804 0 1.045.761 1.833 1.772 1.833 1.034 0 1.734-.66 1.92-1.812l.035-.22c.2-1.282.405-2.608 2.716-2.608 2.514 0 3.686 1.634 3.686 5.143 0 3.46-1.285 6.198-4.743 10.103l-6.496 7.41h14.885c.717 0 .87-.246 1.122-.945l.914-2.449h-12.498zM91.123 8.315c-1.652.026-3.408.588-4.63 1.353l.748-6.058 9.186-.145c.636-.01.768-.25.982-.927l.724-2.204-11.36.012-1.399 10.505.32.231.026.02.284.206.19-.181c.851-.806 2.4-1.775 4.945-1.816 3.576-.056 4.172 3.822 4.209 6.139.057 3.585-1.217 7.437-4.963 7.497-2.663.042-2.845-1.253-3.056-2.752l-.05-.34c-.215-1.026-.901-1.607-1.883-1.591-.975.016-1.7.75-1.685 1.708.037 2.286 2.975 4.03 6.69 3.972 5.332-.085 9.024-3.591 8.977-8.528-.085-5.337-4.5-7.16-8.255-7.101zM78.822 11.7c0-8.962-5.291-10.422-10.2-10.422h-.823v21.53h.823c6.712 0 10.2-3.378 10.2-11.108zm4.176.03c0 7.501-5.717 11.804-14.376 11.804H62.34v-.245l.226-.065c1.213-.346 1.326-1.154 1.326-7.315V8.118c0-5.948-.106-6.89-1.224-7.282l-.016-.002h.008a2.621 2.621 0 0 0-.1-.033l-.22-.067V.522h6.282c8.787 0 14.376 3.98 14.376 11.208zm-32.37 11.6c3.955 0 7.034-3.375 7.034-11.226 0-7.85-3.274-11.134-7.034-11.134-3.761 0-7.036 3.284-7.036 11.135s3.08 11.225 7.036 11.225zm11.23-11.226c0 7.347-5.83 11.895-11.23 11.895-5.402 0-11.232-4.548-11.232-11.895C39.396 6.428 43.69.3 50.627.3S61.86 6.428 61.86 12.105zM26.37 23.33c3.955 0 7.035-3.374 7.035-11.225C33.405 4.254 30.13.97 26.37.97c-3.76 0-7.035 3.284-7.035 11.135s3.08 11.225 7.035 11.225zm11.231-11.225C37.601 19.452 31.771 24 26.37 24s-11.231-4.548-11.231-11.895C15.139 6.428 19.433.3 26.369.3c6.938 0 11.232 6.128 11.232 11.805zM5.46 1.452v8.765l3.15.025c2.946 0 2.94-1.352 3.219-3.036h.265v7.157h-.265c-.28-1.684-.273-3.036-3.218-3.036l-3.15.022v4.659c0 6.186.111 6.993 1.32 7.313l.231.062v.25H0v-.25l.232-.062c1.208-.32 1.32-1.127 1.32-7.313V8.216c0-6.187-.112-6.994-1.32-7.314L0 .84V.62h14.636c.576 0 .77.21.904.975l.5 3.29h-.342l-.027-.065c-.822-2.493-2.313-3.368-6.14-3.368H5.459z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-size:100%;width:87px;height:18px;display:block}.global-nav__menu{background:#fff;width:100%;height:48px;border-top:1px solid #eaeaea;display:flex;align-items:center;order:1;font-size:12px}@media only screen and (min-width: 1024px){.global-nav__menu{padding:0}}.global-nav__menu-list{width:100%;display:flex;justify-content:space-between;margin:0 16px}.global-nav__menu-item{display:flex;justify-content:space-between;align-items:center;flex:1 1 auto}.global-nav__menu-item:not(:nth-child(5)):after{content:"";border-left:1px solid #eaeaea;height:16px;margin:auto}.global-nav__menu-item:nth-child(5){flex:0}.global-nav__menu-item:nth-child(n + 6){display:none}.global-nav__logo-container{display:flex;align-items:center;margin-left:16px}@media only screen and (min-width: 1024px){.global-nav__logo-container{margin-left:0}}.global-nav__menu-item--more{pointer-events:none;position:relative}.global-nav__menu-item--more+.global-nav__menu-item{border:none}.global-nav__menu-item--more .global-nav__menu-link{width:100%;height:20px;font-weight:500;color:inherit;text-transform:uppercase;display:flex;align-items:center;justify-content:center}.global-nav__menu-item--more .global-nav__menu-link:before{content:" ";background:linear-gradient(#717171, #717171 1px, transparent 1px, transparent);background-size:100% 6px;width:17px;height:13px}.global-nav__menu-link{display:block;white-space:nowrap}.global-nav__menu-dropdown{max-height:0;overflow:hidden}.global-nav__actions{display:flex;visibility:hidden}@media only screen and (min-width: 768px){.global-nav__logo{margin-left:13px}.global-nav__menu-list{overflow:hidden}.global-nav__menu-link{text-transform:uppercase}}@media only screen and (min-width: 1024px){.global-nav{max-width:991px;height:50px;margin:0 auto;flex-wrap:nowrap}.global-nav a:hover,.global-nav a:focus{color:#111111}.global-nav__menu-list{margin:0;justify-content:space-evenly}.global-nav__logo{margin:0 28px 0 12px}.global-nav__logo-img{width:105px;height:22px}.global-nav__menu{border:none;order:0;font-size:12px}.global-nav__menu-item{display:block;padding:0}.global-nav__menu-item+.global-nav__menu-item{border-left:none}.global-nav__menu-item--more{display:none}.global-nav__menu-item:nth-child(5){flex:auto}.global-nav__menu-item:nth-child(6),.global-nav__menu-item:nth-child(7){display:block}.global-nav__menu-item:after{display:none}.global-nav__menu-link{padding:0;line-height:51px;letter-spacing:0.46px;display:block}.global-nav__menu-link>span{padding:5px 0;border-bottom:2px solid transparent}.global-nav__menu-link[aria-expanded="true"]>span,.global-nav__menu-link:hover>span,.global-nav__menu-link:focus>span{color:#57696d;border-color:#57696d;font-weight:700}.global-nav__menu-toggle{position:absolute;top:32px;transform:translateX(-50%);opacity:0}.global-nav__menu-toggle:focus{opacity:1}.global-nav__menu-dropdown{position:absolute}.global-nav__actions{min-width:300px;margin-right:1px}.global-nav__actions--logged-out{min-width:202px}}@media only screen and (min-width: 1400px){.global-nav{max-width:1400px}.global-nav__logo{margin-left:26px;margin-right:0}.global-nav__menu-link{padding:0 20px}.global-nav__actions{margin-right:15px}.global-nav__menu-list{margin:0 74px 0 82px}}.shop-nav{background:#57696d;width:100%;color:#fff;font-size:15px}.shop-nav a{color:#fff}.shop-nav a:hover,.shop-nav a:focus{color:#fff}.shop-nav .basket__count{border-color:#57696d}.shop-nav .icon__arrow{padding-top:1px;font-size:16px;height:8px;align-items:center}.shop-nav .global-nav__action>a:hover{opacity:0.9}.shop-nav .global-nav__action .btn{background:#fff;color:#57696d}.shop-nav .global-nav__action .btn:hover,.shop-nav .global-nav__action .btn:focus{background:rgba(255,255,255,0.9);color:#57696d}.shop-nav--placeholder{display:none}@media only screen and (min-width: 1024px){.shop-nav--placeholder{display:block}}.shop-nav__container{height:44px;display:flex}.shop-nav__button{width:100%;height:100%;padding-left:16px;color:#fff;font-weight:400;font-family:"Chronicle SSm A", serif;font-style:italic;display:flex;align-items:center;justify-content:center}.shop-nav__button .icon__arrow{margin-left:5px}.shop-nav__button--left{justify-content:flex-start}.shop-nav__menu{display:none}.shop-nav__button[aria-expanded="true"]+.shop-nav__menu{background:#57696d;width:100%;height:100%;padding:30px 16px;position:fixed;top:0;left:0;z-index:40000;display:block;overflow-y:auto;-webkit-overflow-scrolling:touch}.shop-nav__menu-close{padding:10px;font-size:20px;position:absolute;top:6px;right:6px;z-index:1}.shop-nav__menu-list a{line-height:34px;display:block}.shop-nav__menu-heading{padding-bottom:7px;font-weight:400;font-family:"Chronicle SSm A", serif;font-size:18px;font-style:italic;text-align:center}.shop-nav__menu-item{padding:11px 0;border-bottom:1px solid #fff}a.shop-nav__menu-link{display:flex;justify-content:space-between;overflow:hidden}.shop-nav__menu-caret{transition:transform 0.1s linear}a.shop-nav__menu-link[aria-expanded="true"] .shop-nav__menu-caret{transform:rotate(180deg)}.shop-nav__menu-dropdown{max-height:0;font-size:14px;overflow:hidden;transition:max-height 0.2s ease-out}.shop-nav__menu-dropdown ul{padding:0 14px}.shop-nav__menu-dropdown h4{margin:15px 14px 5px 14px;color:#a18f7a;font-size:11px;font-weight:500;line-height:normal;text-transform:uppercase}a.shop-nav__menu-link[aria-expanded="true"]+.shop-nav__menu-dropdown{max-height:884px}.shop-nav__menu-cats li{padding-left:0}.shop-nav__menu-brands a{font-weight:400;font-family:"Chronicle SSm A", serif;font-style:italic}.shop-nav__menu-item--dansk span{text-indent:9999px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0' y='0' viewBox='0 0 123 33.9' style='enable-background:new 0 0 123 33.9' xml:space='preserve'%3E%3Cpath fill='%23fff' d='M9.9 2.9H0V3c2.1.6 1.8 3.7 1.8 5.6v16.1c0 2.5.2 4.5-1.8 5.9v.1h9.7c9 0 16.2-5.8 16.2-14 0-8.3-6.9-13.8-16-13.8zm.6 25.4c-1 0-3.7-.1-4.7-.3V4.7c1.2-.3 4.1-.5 5.4-.5 6.7 0 10.1 5.7 10.1 13s-4.8 11.1-10.8 11.1zM47.4 24.9 37.8 0 26.9 25c-1.2 2.3-1.9 4.4-4.3 5.6v.1H30v-.1c-1.9-.7-1.7-1.9-.8-4.2l1.9-4h11.7l1.6 4c1.1 2.8 1.4 3.3-.6 4.2v.1H51v-.1c.1 0 .1-.1.2-.1-2.2-1.2-2.9-3.3-3.8-5.6zm-15.6-4.3 5.4-13.1 5.1 13.1H31.8zM115.2 31.4v.1h7.8c-.9-.1-2.3-1.2-2.3-1.2l-14.6-13.2L120.8 5s1.1-1.1 2-1.2h-6.7v.1c2.3.6-1.8 3.4-3.2 4.6l-8.5 7.5V9.8c0-1.8-.2-5.1 1.8-5.8v-.2h-7.7v.1c2.1.8 1.8 4 1.8 5.8V25c0 1.8.2 4.8-1.8 5.6v.1h7.7v-.1c-2.1-.8-1.8-3.7-1.8-5.6v-5.7l9.5 9c1.4 1.4 2.4 2.5 1.3 3.1zM84.5 10.1c0-2.8 2.6-3.7 4.7-3.7 2 0 4.3.9 5.7 2.6V4.4c-1.7-.6-3.6-.9-5.4-.9-4.4 0-9.1 1.9-9.1 7.1 0 8.6 12.5 7.5 12.5 13.8 0 2.8-3.1 4.2-5.2 4.2-2.8 0-5.8-1.3-8-3.4l1.1 5.1c2.1.8 4.3 1.2 6.5 1.2 5.7 0 9.7-4.1 9.7-8.4 0-7.6-12.5-7.5-12.5-13zM71.9 3.1C74.1 4.3 74 5.9 74 8.2v16.5L57.6 4.8 57 4c-.3-.3-.4-.5-.6-1h-5.3v.1c2.1 1.2 2.1 2.8 2.1 5.1v17.3c0 2.2 0 3.8-2 5 .1 0 .1.1.2.1v.1h6.8v-.1c-2.1-1.3-2.1-2.9-2.1-5.1V9.2l20.8 24.7V8.2c0-2.3 0-3.9 2.1-5.1V3h-7.1v.1z'/%3E%3C/svg%3E") left center no-repeat;width:53px;height:34px;display:block}.shop-nav__menu-item--fivetwo span{text-indent:9999px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0' y='0' viewBox='0 0 177.71 29.33' style='enable-background:new 0 0 177.71 29.33' xml:space='preserve'%3E%3Cpath fill='%23fff' d='M119.31 20.7c.1-.4.2-.7.3-1.1.3-1.2.7-2.4 1-3.6.4-1.5.8-3.1 1.3-4.6.3-1.1.6-2.3 1-3.4l1.5-5.4c.2-.7.4-1.4.6-2.2 0-.1.1-.2.2-.2h5.7c.1 0 .2.1.2.2.2.5.3 1 .4 1.6.4 1.3.7 2.6 1.1 3.9.3 1.1.6 2.3.9 3.4.4 1.6.9 3.1 1.3 4.7.4 1.3.7 2.7 1.1 4 .2.8.4 1.6.7 2.4 0 0 0 .1.1.2.1-.4.2-.7.3-1l1.5-5.7 1.2-4.8c.4-1.5.8-2.9 1.2-4.4.4-1.5.8-2.9 1.1-4.4 0-.2.1-.3.3-.2H147.91c-.1.5-.3 1-.4 1.5-.3.9-.5 1.8-.8 2.7-.3 1-.6 2.1-.9 3.1-.2.9-.5 1.7-.7 2.6-.4 1.5-.9 3.1-1.3 4.6-.4 1.4-.8 2.7-1.2 4.1-.5 1.9-1.1 3.8-1.6 5.7-.3 1-.6 2.1-.9 3.1 0 .1-.1.2-.1.4s-.1.3-.3.3h-5.9c-.2 0-.3-.1-.4-.3-.5-1.9-1.1-3.7-1.6-5.6-.5-1.6-.9-3.1-1.4-4.7-.4-1.3-.7-2.6-1.1-3.8-.4-1.5-.9-3-1.3-4.6 0-.1-.1-.2-.1-.4h-.1c-.1.3-.2.5-.3.8-.3 1.1-.7 2.3-1 3.4-.3 1-.6 2.1-.9 3.1-.4 1.5-.9 3-1.3 4.6-.4 1.3-.7 2.6-1.1 3.8-.3 1.1-.7 2.2-1 3.3-.1.2-.1.3-.4.3h-5.9c-.2 0-.2-.1-.3-.2l-.9-3-1.5-5.1c-.6-1.9-1.1-3.8-1.7-5.8-.4-1.3-.8-2.7-1.2-4-.6-2.2-1.3-4.3-1.9-6.5-.3-1.1-.6-2.2-1-3.3V0h5.9c.2 0 .3.1.3.3.5 1.7.9 3.5 1.4 5.2.4 1.6.9 3.3 1.3 4.9.4 1.7.9 3.4 1.3 5.1.7 1.8 1.2 3.5 1.7 5.2-.1 0-.1 0 0 0zM177.71 14.9c0 1.1-.1 2.4-.5 3.7-.4 1.6-1 3.1-1.9 4.5-.9 1.4-2 2.5-3.3 3.5-1.4 1-2.9 1.7-4.5 2.2-1.9.5-3.8.6-5.8.5-1.9-.1-3.7-.6-5.4-1.4-1.6-.7-2.9-1.7-4.1-3-1.4-1.5-2.4-3.3-3-5.3-.6-2.1-.8-4.2-.6-6.3.1-1.7.6-3.4 1.3-5 1-2.2 2.5-4 4.5-5.4 1.4-1 3-1.8 4.7-2.2 2-.5 4.1-.6 6.2-.3 1.2.2 2.5.4 3.6.9 1.2.5 2.4 1.1 3.5 1.9 1.4 1.1 2.5 2.4 3.4 4 .6 1.1 1.1 2.2 1.4 3.4.3 1.4.4 2.7.5 4.3zm-23.3-.5c0 1.4.1 2.5.5 3.6.4 1.3 1 2.5 2 3.4 1.3 1.4 3 2.2 4.9 2.5 1 .1 2.1.1 3.1-.1 1.1-.2 2.2-.6 3.1-1.3.8-.6 1.5-1.2 2.1-2.1.8-1.2 1.3-2.4 1.5-3.8.2-1.3.2-2.5 0-3.8-.1-1-.4-1.9-.8-2.8-.6-1.2-1.3-2.2-2.4-3-.9-.7-1.8-1.1-2.9-1.4-.8-.2-1.6-.3-2.4-.3-1.3 0-2.6.2-3.7.7-1.9.8-3.2 2.2-4.1 4.1-.6 1.6-.9 3.1-.9 4.3zM99.21 16.9v11.2c0 .2-.1.2-.2.2h-5.2c-.2 0-.3 0-.3-.3V6.1c0-.6 0-.6-.6-.6h-4.2c-.2 0-.3 0-.3-.3V.5c0-.2 0-.3.3-.3h15.4c.2 0 .2 0 .2.2v4.9c0 .2-.1.2-.3.2h-4.5c-.3 0-.3.1-.3.3v11.1zM41.51 21.1c.4-1.2.8-2.4 1.3-3.5.5-1.5 1.1-3 1.6-4.5.6-1.6 1.1-3.2 1.7-4.9.7-2.1 1.5-4.2 2.2-6.3.2-.5.4-1 .5-1.5.1-.1.2-.2.4-.2h5.8c-.1.3-.2.6-.3.8l-2.1 5.4c-.6 1.6-1.2 3.3-1.9 4.9-.7 2-1.5 4-2.2 5.9-.8 2.2-1.6 4.3-2.5 6.5-.5 1.4-1.1 2.8-1.6 4.3 0 .1-.1.2-.2.2h-5.7c-.1 0-.2 0-.3-.2-.8-2-1.5-4.1-2.3-6.1-.8-2.2-1.6-4.3-2.4-6.5-.7-2-1.5-3.9-2.2-5.9-.8-2.2-1.6-4.3-2.4-6.5-.3-.9-.7-1.8-1-2.7-.1-.1-.1-.1.1-.1h5.8c.2 0 .3.1.4.3.7 2 1.4 3.9 2.1 5.9.7 2.1 1.5 4.1 2.2 6.2.8 2.2 1.5 4.3 2.3 6.5.2.6.4 1.3.7 1.9-.1-.1 0 0 0 .1zM58.51 28.2V.7c0-.5 0-.5.5-.5h12.1c.2 0 .2 0 .2.2v4.9c0 .2-.1.2-.2.2h-6.6c-.3 0-.3 0-.3.3v5.3c0 .2.1.2.3.2h4.9c.2 0 .3.1.3.3v4.6c0 .2-.1.2-.2.2h-4.9c-.3 0-.3 0-.3.3v6c0 .2.1.2.2.2H71.31c.2 0 .3 0 .3.3V28c0 .2 0 .2-.2.2h-12.6c-.1.1-.2.1-.3 0zM10.31 16.5h-4.3c-.4 0-.4 0-.4.4v11.4H.31c-.4 0-.3 0-.3-.3V.5c0-.2.1-.3.3-.3h12.5c.1 0 .2.1.2.3v4.8c0 .2-.1.3-.3.3h-6.8c-.2 0-.3 0-.3.3v5.3c0 .2.1.2.3.2h4.8c.2 0 .3.1.3.3v4.7M24.01 28.3h-5.3c-.2 0-.3-.1-.3-.3V.5c0-.2 0-.2.2-.2H23.51c.5-.1.5-.1.5.4v27.6zM82.61 28.9c2 0 3.7-1.6 3.7-3.7 0-2-1.6-3.7-3.7-3.7-2 0-3.7 1.6-3.7 3.7.1 2.1 1.7 3.7 3.7 3.7z'/%3E%3C/svg%3E") left center no-repeat;width:66px;height:34px;display:block}.shop-nav__menu-item--sh span{text-indent:9999px;background:url("data:image/svg+xml,%3Csvg width='131' height='11' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.06 4.177H3.756c-1.133 0-1.687-.369-1.687-1.133 0-1.16 1.568-1.62 2.806-1.62 1.662 0 2.36.566 3.202 1.067l.804-1.146A6.672 6.672 0 0 0 4.836 0C3.018 0 .646.948.646 3.044c0 1.792 1.58 2.53 2.924 2.53h1.476c1.24 0 3.097 0 3.097 1.62 0 1.214-1.819 1.687-3.15 1.687C2.621 8.881 1.66 7.788 1 7.34l-1 .963c.606.594 1.924 2.004 4.903 2.004 2.463 0 4.664-1.028 4.664-3.097 0-2.451-2.187-3.032-4.506-3.032zm11.624 6.129c2.833 0 4.007-.962 4.942-1.977l-.948-1.028c-.435.514-1.543 1.582-3.652 1.582-2.701 0-4.124-1.885-4.124-3.65 0-2.465 1.925-3.81 3.769-3.81 2.029 0 3.282 1.134 3.73 1.503l1.067-.909C20.994 1.556 19.36 0 16.658 0c-2.926 0-5.18 2.32-5.18 5.233 0 3.03 2.532 5.073 5.206 5.073zm9.332-4.678h5.798v4.467h1.423V.21h-1.423v3.993h-5.798V.211h-1.423v9.884h1.423V5.628zM41.857 0c-2.834 0-5.298 2.056-5.298 5.153 0 3.11 2.465 5.153 5.298 5.153 2.834 0 5.298-2.057 5.298-5.153C47.155 2.043 44.69 0 41.857 0zm0 8.883c-2.24 0-3.874-1.687-3.874-3.73s1.634-3.73 3.874-3.73 3.874 1.687 3.874 3.73-1.634 3.73-3.874 3.73zm13.179 1.423c2.834 0 5.298-2.057 5.298-5.153C60.334 2.043 57.87 0 55.036 0c-2.833 0-5.298 2.056-5.298 5.153 0 3.11 2.464 5.153 5.298 5.153zm0-8.883c2.24 0 3.874 1.687 3.874 3.73s-1.634 3.73-3.874 3.73c-2.241 0-3.876-1.687-3.876-3.73s1.635-3.73 3.876-3.73zM71.1 8.671h-5.996V.211H63.68v9.884h7.42V8.67zm3.73-3.043h5.799v4.467h1.423V.21h-1.424v3.993H74.83V.211h-1.423v9.884h1.423V5.628zm15.842 4.678c2.834 0 5.297-2.057 5.297-5.153C95.97 2.043 93.504 0 90.672 0c-2.833 0-5.298 2.056-5.298 5.153 0 3.11 2.465 5.153 5.298 5.153zm0-8.883c2.24 0 3.874 1.687 3.874 3.73s-1.634 3.73-3.874 3.73-3.875-1.687-3.875-3.73 1.634-3.73 3.875-3.73zm17.264 4.942V.21h-1.423v6.154c0 1.45-.606 2.517-2.913 2.517-2.306 0-2.912-1.067-2.912-2.517V.21h-1.423v6.154c0 1.872.711 3.94 4.335 3.94 3.626 0 4.336-2.068 4.336-3.94zm7.684-2.188h-1.304c-1.134 0-1.686-.369-1.686-1.133 0-1.16 1.568-1.62 2.806-1.62 1.661 0 2.359.566 3.203 1.067l.803-1.146C119.047 1.054 117.624 0 115.396 0c-1.819 0-4.191.948-4.191 3.044 0 1.792 1.581 2.53 2.926 2.53h1.476c1.239 0 3.097 0 3.097 1.62 0 1.214-1.818 1.687-3.149 1.687-2.373 0-3.333-1.093-3.993-1.542l-1.002.962c.605.595 1.924 2.005 4.902 2.005 2.465 0 4.666-1.028 4.666-3.097 0-2.451-2.189-3.032-4.508-3.032zm8.46 4.494V5.653h3.362V4.23h-3.362V1.634h6.67V.211h-8.093v9.884H131V8.67h-6.92z' fill='%23fff'/%3E%3C/svg%3E") left center no-repeat;width:131px;height:34px;display:block}@media only screen and (min-width: 768px){.shop-nav__button--left{padding-left:22px}}@media only screen and (min-width: 1024px){.shop-nav{font-size:13px;position:relative}.shop-nav__logo,.shop-nav .global-nav__actions{display:none}.shop-nav__container{max-width:1024px;margin:0 auto;align-items:center;justify-content:center}.shop-nav__logo{width:94px;height:20px;margin:0 12px}.shop-nav__button{display:none}.shop-nav__menu{min-width:665px;display:block}.shop-nav__menu-list{display:flex;justify-content:center}.shop-nav__menu-list a{line-height:1.38em}.shop-nav__menu-item{padding:0;border:none}.shop-nav__menu-item--dansk{background:linear-gradient(#c4c4c4, #c4c4c4) no-repeat;background-size:1px 20px;background-position:left center;margin-left:10.5px;padding-left:9.5px}.shop-nav__menu-item--dansk span{width:48px}.shop-nav__menu-item--fivetwo{margin-left:5px}a.shop-nav__menu-link{padding:0 8px;line-height:45px;display:block}a.shop-nav__menu-link>span{height:25px;border-bottom:1.5px solid transparent;padding:4px 0;line-height:1.15;display:inline-block;vertical-align:middle;white-space:nowrap}a.shop-nav__menu-link[aria-expanded="true"]>span,a.shop-nav__menu-link:hover>span,a.shop-nav__menu-link:focus>span{border-color:#fff;font-weight:700}.shop-nav__menu-dropdown{background:#fff;width:100%;height:379px;padding:35px 0 30px 0;border-bottom:1px solid #eaeaea;box-shadow:0 2px 4px 0 rgba(0,0,0,0.05);font-size:13px;position:absolute;left:0;top:44px;z-index:10006;display:flex;justify-content:center;visibility:hidden;opacity:0;transition-delay:0.2s;transition:visibility 0s, opacity 0s}a.shop-nav__menu-link[aria-expanded="true"]+.shop-nav__menu-dropdown{max-height:none;opacity:1;visibility:visible}.shop-nav__menu-dropdown h4{margin:0 0 15px 0;border-bottom:1px solid #eaeaea;padding-bottom:6px}.shop-nav__menu-dropdown ul{padding:0}.shop-nav__menu-dropdown li{padding:0 4px 13px 0}.shop-nav__menu-dropdown a{color:#444}.shop-nav__menu-dropdown a:hover,.shop-nav__menu-dropdown a:focus{color:#111111}.shop-nav__menu-cats{width:208px}.shop-nav__menu-cats ul{height:280px;display:flex;flex-direction:column;flex-wrap:wrap}.shop-nav__menu-cats--wide{width:446px}.shop-nav__menu-cats--wide li{width:50%}.shop-nav__menu-cats--wide li:nth-child(-n + 9){padding-right:15px}.shop-nav__menu-brands{width:168px;margin-left:55px}.shop-nav__menu-featured{margin:20px 0 0 45px;display:flex}.shop-nav__menu-featured li{width:180px}.shop-nav__menu-featured li:nth-child(n + 2){display:none}.shop-nav__menu-featured h4{margin-bottom:5px;padding:0;border:none}.shop-nav__menu-featured h4+p{font-weight:400;font-family:"Chronicle SSm A", serif;font-style:italic}.shop-nav__menu-featured a:hover h4,.shop-nav__menu-featured a:focus h4{color:#887660}.shop-nav__menu-featured p{margin:0;line-height:1.54}.shop-nav__menu-featured-img{margin-bottom:11px}.shop-nav__menu-featured-img:before{padding-bottom:100%}}@media only screen and (min-width: 1400px){.shop-nav__container{max-width:1400px}.shop-nav__menu-item--dansk{margin-left:14px;padding-left:14px}.shop-nav__menu-item--fivetwo{margin-left:0}a.shop-nav__menu-link{padding:0 14px}.shop-nav__logo{margin-left:26px}.shop-nav__logo--logged-out{margin-right:106px}.shop-nav__menu-featured li+li{margin-left:48px}.shop-nav__menu-featured li:nth-child(n + 2){display:block}}.header{width:100%;pointer-events:none;position:-webkit-sticky;position:sticky;top:0;left:0;z-index:10004}.header__nav .search-header__input-group--placeholder{min-height:35px}@media only screen and (min-width: 1024px){.header__nav .search-header__input-group--placeholder{display:none}}@media only screen and (min-width: 768px){.header__nav .search-header__input-group{width:auto}}@media only screen and (min-width: 1024px){.header__nav .search-header__input-group{position:static}}.header__nav--spacer{background:transparent;margin-bottom:40px}.header--free-shipping .header__nav--spacer{margin-bottom:55px}.header__subnav--shop{display:none}@media only screen and (min-width: 1024px){.header__subnav--shop{display:block}}.header--shop:not(.header--promo-banner) .header__nav,.header--shop:not(.header--promo-banner) .header__subnav--shop{border-bottom:none;box-shadow:none}.header__subnav{width:100%;position:absolute;top:0;left:0}.header__nav,.header__subnav{background:#fff;border-bottom:1px solid #eaeaea;box-shadow:0 2px 4px 0 rgba(0,0,0,0.05);transition:transform 0.25s ease-out, box-shadow 0.25s linear;pointer-events:auto}.header__nav--expanded{position:-webkit-sticky;position:sticky}.header__nav--hidden,.header__subnav--hidden{box-shadow:0 2px 4px 0 rgba(0,0,0,0);transform:translate3d(0, -100%, 0);pointer-events:none}@media only screen and (min-width: 768px){.header--free-shipping .header__nav--spacer{margin-bottom:40px}}.header__nav>.search-header__input-group{margin:0 16px;padding-bottom:16px;position:relative}.rating{margin:0 0 10px -2px;font-size:14px;display:flex;flex-direction:row-reverse;align-items:center;justify-content:flex-end;flex-shrink:0;flex-wrap:wrap;position:relative}.rating span{margin-left:6px}form .rating span{padding-top:4px}@media only screen and (min-width: 768px){form .rating span{padding-top:2px}}.rating input{width:0;margin:0;border:none;overflow:hidden;-webkit-appearance:none;-moz-appearance:none;appearance:none}@media only screen and (min-width: 768px){.rating{margin-bottom:0}}span.rating__label{display:none}@media only screen and (min-width: 768px){span.rating__label{margin-left:10px;font-size:13px;font-weight:300;display:block}}.rating__star{padding:0 2px 2px 2px;color:#e0e0e0;position:relative}.rating__star--checked,.rating__star--checked~.rating__star{color:#a18f7a}.rating__star svg{width:13px;height:auto;display:block}.rating__star+span{margin:0 8px 0 0}.rating__half-star{width:50%;padding:0 2px;position:absolute;top:0;left:0;color:#a18f7a;overflow:hidden}.rating--small{margin-bottom:1px}.rating--small .rating__star{padding-right:3px}.rating--small .rating__star svg{width:11px}.rating--centered{justify-content:center}.rating--btns{margin:0}.rating--btns button{margin:0}.rating__star--btns{cursor:pointer;pointer-events:auto;transition:color 0.15s linear}.rating__star--btns:hover,.rating__star--btns:hover~.rating__star,input:focus+.rating__star--btns{color:#a18f7a}.rating__star--btns svg{pointer-events:none}.rating__star--checked-btns{color:#a18f7a}input:checked~.review-rating__star--btns{color:#a18f7a}.rating--btns-large .rating__star--btns{margin:6px 0;padding:8px}.rating--btns-large .rating__star--btns svg{width:28px}@media only screen and (min-width: 768px){.rating--btns-large .rating__star--btns svg{width:22px}}@media only screen and (min-width: 768px){.rating--btns-large .rating__star--btns{margin:11px 0}}span.rating__error{width:100%;margin:0;font-size:12px;font-weight:400;color:#be504e;position:absolute;bottom:-13px}@media only screen and (min-width: 768px){span.rating__error{width:auto;margin:0 0 0 8px;order:0}}.rating__guide{max-width:240px;margin:0 auto 22px auto;text-align:left}.rating__guide-header{margin:20px auto 15px auto;font-size:12px;font-weight:400;text-transform:uppercase;display:flex;align-items:center}.rating__guide-header:before,.rating__guide-header:after{content:" ";margin:0 9px 0 0;border-bottom:1px solid #eaeaea;flex-grow:1}.rating__guide-header:after{margin:0 0 0 9px}.rating__guide-row{padding:0 0 5px 10px;display:flex;align-items:center;font-size:12px}.rating__guide-row span{margin-left:7px}.view-more{color:#a18f7a;font-weight:400;font-family:"Gotham SSm A", sans-serif;font-size:12px;line-height:normal;text-transform:uppercase;display:inline-flex;align-items:center}.view-more .icon__arrow{margin-left:4px;font-size:7px}.view-more--medium{font-weight:500}@font-face{font-family:'Chamelia';src:url(/web/20230607164027im_/https://food52.com/fonts/woff2/Chamelia-Script_Web.woff2) format("woff2"),url(/web/20230607164027im_/https://food52.com/fonts/woff/Chamelia-Script_Web.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}.promo-ip--tree{background:#957038 url(/web/20230607164027im_/https://food52.com/assets/holiday/tree-mobile-31a53a400e251bf3610b7c05600a1082d3d01ed004215e4f0a1112980fab6993.svg) center bottom no-repeat;background-size:auto 350px;background-position:calc(100% + 120px) center}.promo-ip--glow{background:#293a2d no-repeat;background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/glow-star-left-a632d75b9279c805ed96529e426f487447d0b4015af8aa2c87cacb173dd1eae7.svg),url(/web/20230607164027im_/https://food52.com/assets/holiday/glow-star-right-d26c0f12a1561ed417271d80f944a8e67e3ed8a921049623fc8dbbedd8819e92.svg),url(/web/20230607164027im_/https://food52.com/assets/holiday/glow-center-73215a81ce5a6ebd68bd9a4bb4d730ffa706ea1fa93b0339ab4185862f7d0b9b.svg),url(/web/20230607164027im_/https://food52.com/assets/holiday/glow-left-70cab0ce4d200a1bb71bccf03d319de874d52355598f8106ddd2f6970ce90340.svg),url(/web/20230607164027im_/https://food52.com/assets/holiday/glow-right-c141f1cb2081ebde1dc76948ddb68a2d0eea1eab3d97bcfa0e24d882b093f412.svg);background-position:calc(50% - 330px / 2) 48px,calc(50% + 330px / 2) 48px,center calc(50% - 75px),-32.5px calc(100% + 27.5px);background-size:18px 18px, 18px 18px, 130% 220px, auto 95px, 0 0}.promo-ip--glow.promo-ip--review{background-position:calc(50% - 320px / 2 - 5px) 50px,calc(50% + 320px / 2 + 5px) 50px,center calc(50% - 97.5px),-32.5px calc(100% + 27.5px)}.promo-ip--ornaments{background:#592c40 url(/web/20230607164027im_/https://food52.com/assets/holiday/ornaments-mobile-f5af7de638b5582052bdca92d3dec49fc83da0d4ee459881d78e6aa965652bc3.svg) -17.5px center no-repeat;background-size:auto 100%}.promo-ip--garland{background:#3b2d59 no-repeat;background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/garland-mobile01-a7b85f3e6ec90cc3626af6f6c2f877782131ce92aea5f8ce7a62c736a0ae572d.svg),url(/web/20230607164027im_/https://food52.com/assets/holiday/garland-mobile02-3770c7e452f690956e97c04f8dd12898b7b7977107bdfff319e2917c22a3a079.svg);background-position:center -7vw, center 100%;background-size:contain, contain}.promo-ip--mustard{background:#a36a14}.promo-ip--olive{background:#555c41}.promo-ip--pasta{background:#2d4558 url(/web/20230607164027im_/https://food52.com/assets/holiday/pasta-mobile-4cd65db01b872565ddc7a6bf55cea79dc3e70d8e2bf951bb35f14d511045a22c.svg) -14.5vw center no-repeat;background-size:130%}.promo-ip--gnome{background:#293a2d no-repeat;background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/gnome-mobile-left-4fda764eb464da4c5282c1b5a595b97056520250b870d529ffad2c5ef4e71e07.svg),url(/web/20230607164027im_/https://food52.com/assets/holiday/gnome-mobile-right-3ed3f30f88cca0587898f84c6e654bbff63bdcdd11292b75e8655b7de1e419d9.svg);background-position:calc(50% - 166px) calc(50% + 30px),calc(50% + 182px) -15px;background-size:50px 60px, 130px 130px}.promo-ip--peanut{background:#9c6d31 no-repeat;background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/peanut-small-leaves-right-b6e8f86d9ecbc03a6d2bfc7f06b7ad7e91e2476a3d133ef2edfd080b56c1fda3.svg),url(/web/20230607164027im_/https://food52.com/assets/holiday/peanut-leaf-right-24040ca41224500dec21d65d165a6be31ecab67ee300821bea96c5ffaa882e56.svg);background-position:calc(50% - 175px) calc(50% + 35px),calc(50% + 165px) -15px;background-size:55px 65px, 125px 160px}.promo-ip--dusk{background:#1c2834 no-repeat;background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/dusk-mobile-left-b4461b13533dcb0aa20cc245ea19ef934b8b8d5e74100fafb98152e85281fc4f.svg),url(/web/20230607164027im_/https://food52.com/assets/holiday/dusk-mobile-right-02e0d1629095057025a7a2c826d942742dfa7229803536dbb3b92066155fcac8.svg);background-position:calc(50% - 162px) calc(50% + 35px),calc(50% + 205px) 15px;background-size:50px 70px, 110px 170px}.promo-ip__container{min-height:166px;padding:0 16px;color:#fafafa;font-size:11px;line-height:1.25;text-align:center;display:flex;align-items:center}.promo-ip__container a{color:#fafafa}.promo-ip__container a:hover,.promo-ip__container a:focus{color:#f1f1f1}.promo-ip__list{max-width:330px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between}.promo-ip__item{display:none;width:calc(50% - 15px);position:relative}.promo-ip__item:last-child:before{content:'\2022';font-size:18px;position:absolute;left:-18px;top:calc(50% - 9px)}.promo-ip--review .promo-ip__item{width:100%}.promo-ip--review .promo-ip__item:last-child{display:none}.promo-ip__item--main{display:initial;width:100%;padding:0 7.5px;order:-1}.promo-ip--tree.promo-ip--hed .promo-ip__item--main,.promo-ip--olive.promo-ip--hed .promo-ip__item--main,.promo-ip--pasta.promo-ip--hed .promo-ip__item--main{margin-bottom:23px;padding-bottom:20px}.promo-ip--glow .promo-ip__item--main{background:none}.promo-ip--glow .promo-ip__item--main a{color:#293a2d}.promo-ip--glow.promo-ip--hed .promo-ip__item--main{margin-bottom:33px}.promo-ip--glow.promo-ip--dek .promo-ip__item--main{margin-bottom:26px}.promo-ip--glow.promo-ip--review .promo-ip__item--main{margin:-6px 0 18px 0}.promo-ip--ornaments.promo-ip--hed .promo-ip__item--main{margin-bottom:20px;padding-bottom:24px}.promo-ip--ornaments.promo-ip--dek .promo-ip__item--main{margin-bottom:14px;padding-bottom:20px}.promo-ip--garland.promo-ip--hed .promo-ip__item--main,.promo-ip--mustard.promo-ip--hed .promo-ip__item--main{padding-bottom:35px}.promo-ip__item-link{display:block}.promo-ip__headline{line-height:normal}.promo-ip--hed .promo-ip__headline{margin:14px 0 8px 0;font-size:18px}.promo-ip--dek .promo-ip__headline{margin:8px 0 4px 0;font-size:18px}.promo-ip--tree .promo-ip__headline,.promo-ip--olive .promo-ip__headline,.promo-ip--pasta .promo-ip__headline{font-weight:500;font-family:"Chronicle SSm A", serif}.promo-ip--glow .promo-ip__headline{max-height:71px;margin:8px 0 4px 0;font-family:'Chamelia';font-size:54px}.promo-ip--glow.promo-ip--dek .promo-ip__headline{margin-top:-4px;font-size:48px;max-height:62px}.promo-ip--glow.promo-ip--review .promo-ip__headline{margin:16px 0 6px 0}.promo-ip--ornaments .promo-ip__headline{margin-bottom:12px;font-weight:700;text-transform:uppercase}.promo-ip--garland .promo-ip__headline,.promo-ip--mustard .promo-ip__headline{padding:0 13px}.promo-ip--garland.promo-ip--hed .promo-ip__headline,.promo-ip--mustard.promo-ip--hed .promo-ip__headline{font-weight:700;font-family:"Gotham SSm A", sans-serif;line-height:1.25;text-transform:uppercase}.promo-ip--garland.promo-ip--dek .promo-ip__headline,.promo-ip--mustard.promo-ip--dek .promo-ip__headline{font-weight:700;font-family:"Gotham SSm A", sans-serif;text-transform:uppercase}.promo-ip--garland.promo-ip--review .promo-ip__headline,.promo-ip--mustard.promo-ip--review .promo-ip__headline{font-size:18px;line-height:1.25}.promo-ip--review .promo-ip__headline{margin:4px 5px 10px;font-weight:500;font-family:"Gotham SSm A", sans-serif;font-size:18px;text-transform:none}.promo-ip--gnome .promo-ip__headline,.promo-ip--peanut .promo-ip__headline,.promo-ip--dusk .promo-ip__headline{font-weight:700;font-family:"Gotham SSm A", sans-serif}.promo-ip__sub-headline{font-size:13px;font-weight:700;letter-spacing:-0.1px}.promo-ip--review .promo-ip__sub-headline{max-width:240px;margin:10px auto 8px auto;font-weight:500;font-family:"Chronicle SSm A", serif;font-size:13px}.promo-ip--review .promo-ip__sub-headline:before{content:'\201C'}.promo-ip--review .promo-ip__sub-headline:after{content:'\201D'}div.promo-ip__rating{margin:0;justify-content:center}div.promo-ip__rating svg{width:15px;color:#fafafa}.promo-ip__dek{margin-bottom:4px}.promo-ip--ornaments .promo-ip__dek{margin-top:-6px}.promo-ip__sub-headline+.promo-ip__dek{margin:0;font-size:12px;font-weight:500;text-transform:uppercase}.promo-ip__sub-headline+.promo-ip__dek:before{content:'\2014\00a0'}.promo-ip__cta{margin-top:4px;font-size:11px;line-height:20px}.promo-ip__cta.view-more{color:#fff}.promo-ip__cta .icon__arrow{font-size:6px}div.promo-ip__btn{padding:0 8px;font-size:13px;line-height:23px}.promo-ip--tree div.promo-ip__btn{background:#592c40}.promo-ip--tree a:hover div.promo-ip__btn,.promo-ip--tree a:focus div.promo-ip__btn{background:#482434}.promo-ip--glow div.promo-ip__btn{border:1px solid #293a2d;color:#293a2d}.promo-ip--glow a:hover div.promo-ip__btn,.promo-ip--glow a:focus div.promo-ip__btn{background:#293a2d;border:1px solid #293a2d;color:#fafafa}.promo-ip--ornaments div.promo-ip__btn{background:#fff;color:#592c40}.promo-ip--ornaments a:hover div.promo-ip__btn,.promo-ip--ornaments a:focus div.promo-ip__btn{background:#e8bdc2}.promo-ip--garland div.promo-ip__btn{background:#fff;color:#3b2d59}.promo-ip--garland a:hover div.promo-ip__btn,.promo-ip--garland a:focus div.promo-ip__btn{background:#c8deeb}.promo-ip--mustard div.promo-ip__btn{background:#471a1a;color:#fff}.promo-ip--mustard a:hover div.promo-ip__btn,.promo-ip--mustard a:focus div.promo-ip__btn{background:#682727}.promo-ip--olive div.promo-ip__btn{background:#887300}.promo-ip--olive a:hover div.promo-ip__btn,.promo-ip--olive a:focus div.promo-ip__btn{background:#8d8245}.promo-ip--pasta div.promo-ip__btn{background:#a18f7a}.promo-ip--pasta a:hover div.promo-ip__btn,.promo-ip--pasta a:focus div.promo-ip__btn{background:#776a5b}.promo-ip--gnome div.promo-ip__btn,.promo-ip--peanut div.promo-ip__btn,.promo-ip--dusk div.promo-ip__btn{background:#fff;color:#1c2834}.promo-ip--gnome a:hover div.promo-ip__btn,.promo-ip--peanut a:hover div.promo-ip__btn,.promo-ip--dusk a:hover div.promo-ip__btn{color:#fff}.promo-ip--gnome a:hover div.promo-ip__btn{background:#131f15}.promo-ip--peanut a:hover div.promo-ip__btn{background:#6e4d22}.promo-ip--dusk a:hover div.promo-ip__btn{background:#060e14}@media only screen and (min-width: 768px){.promo-ip--glow{background-position:calc(50% - 472px / 2) 48px, calc(50% + 472px / 2) 48px, center calc(50% - 135px), -32.5px calc(100% + 27.5px);background-size:18px 18px, 18px 18px, 105% 340px, auto 150px, 0, 0}.promo-ip--glow.promo-ip--review{background-position:calc(50% - 472px / 2) 48px, calc(50% + 472px / 2) 48px, center calc(50% - 142.5px), -32.5px calc(100% + 27.5px)}.promo-ip--garland{background-position:center -6.7vw, center 100%}.promo-ip--pasta{background-position:-7vw center;background-size:80%}.promo-ip--gnome{background-position:calc(50% - 245px) calc(50% + 25px), calc(50% + 245px) -15px}.promo-ip--peanut{background-position:calc(50% - 210px) calc(50% + 35px), calc(50% + 220px) -15px;background-size:50px 65px, 125px 160px}.promo-ip--dusk{background-position:calc(50% - 225px) calc(50% + 35px), calc(50% + 260px) 15px}.promo-ip__container{min-height:175px;padding:0 22px;font-size:13px}.promo-ip__list{max-width:690px}.promo-ip__item--main{padding-left:165px;padding-right:165px}.promo-ip--hed .promo-ip__item--main{padding-bottom:12px}.promo-ip--tree.promo-ip--hed .promo-ip__item--main,.promo-ip--olive.promo-ip--hed .promo-ip__item--main,.promo-ip--pasta.promo-ip--hed .promo-ip__item--main{margin-bottom:16px}.promo-ip--glow.promo-ip--hed .promo-ip__item--main{margin-bottom:26px}.promo-ip--glow.promo-ip--dek .promo-ip__item--main{margin-bottom:20px}.promo-ip--glow.promo-ip--review .promo-ip__item--main{margin-bottom:28px}.promo-ip--ornaments.promo-ip--hed .promo-ip__item--main{margin-bottom:16px;padding-bottom:28px}.promo-ip--ornaments.promo-ip--dek .promo-ip__item--main{margin-bottom:12px;padding-bottom:15px}.promo-ip__item-link{margin:0 auto;max-width:200px}.promo-ip__item--main .promo-ip__item-link{max-width:360px}.promo-ip--hed .promo-ip__headline{margin-bottom:6px;font-size:22px}.promo-ip--dek .promo-ip__headline{margin:0 0 8px 0;font-size:22px}.promo-ip--glow .promo-ip__headline{max-height:93px;margin:-8px 0 -4px 0;font-size:72px}.promo-ip--glow.promo-ip--dek .promo-ip__headline{max-height:72px;margin:-16px 0 0 0;font-size:56px}.promo-ip--glow.promo-ip--review .promo-ip__headline{margin:10px 0 0 0}.promo-ip--ornaments .promo-ip__headline{margin:0 0 3px 0}.promo-ip--ornaments.promo-ip--dek .promo-ip__headline{margin-top:-6px}.promo-ip--review .promo-ip__headline{margin-bottom:0;font-size:22px}.promo-ip__sub-headline{font-size:15px}.promo-ip--review .promo-ip__sub-headline{font-size:14px}.promo-ip__dek{margin:0 auto -1px auto}.promo-ip--ornaments .promo-ip__dek{margin:8px 0 0 0}.promo-ip__cta{margin-top:8px;font-size:12px}div.promo-ip__btn{margin-top:10px;padding:0 12px;font-size:15px;line-height:28px}}@media only screen and (min-width: 1024px){.promo-ip--tree{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/tree-left-5ccf2ed1610238d59882aca98f35cc191ab0b9a1bda927aa8a53ff2493134374.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/tree-right-4a5457b452cb6bab5ff9496235b7c51b0926dc7f7aed2ef9fb0224496539d8f0.svg);background-position:-87.5px center, calc(100% + 57.5px);background-size:auto 100%, auto 100%}.promo-ip--glow,.promo-ip--glow.promo-ip--review{background-position:calc(50% - 450px / 2) center, calc(50% + 450px / 2) center, center center, -32.5px calc(100% + 27.5px), calc(100% + 20px) -18px;background-size:18px 18px, 18px 18px, 532px 320px, auto 150px, auto 120px}.promo-ip--ornaments{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/ornaments-left-8bb39b6d945b943c151d88b189d2239db68169a54efe567d17f6bddb13d890b8.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/ornaments-right-7feec775c858020e9d564f84f45d778b16200188e3422d2fca86239bcb8fe9a4.svg);background-position:-91px center, calc(100% + 112px) center;background-size:auto 100%, auto 100%}.promo-ip--garland{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/garland-desktop01-73f8a2d6cf2583c620571c0ae70b0b1c9750d85ca112115df2c2ec7fb62f7613.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/garland-desktop02-f0b40175dfacbcb6c0b2b09f847e0b555e2a3f6a934eaa4f4a232b8138dd2e76.svg);background-position:center -2.4vw, center 100%}.promo-ip--pasta{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/pasta-desktop01-77532b454ed0b299d770e8dca7b3a7f93dfc5288a262e60b3142a3ea5c3774dd.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/pasta-desktop02-08c2d7238432fab83bef53e86f3369f941fda7f95987921fc05c2b09cbb78ddb.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/pasta-desktop03-0b683f0ffb9b75be1c8048638ab34fdfe36296263b5d0c21b60c3b833e99655d.svg);background-position:54% center, -8% center, 105% 30%;background-size:auto 150%, auto 125%, auto 150%}.promo-ip--gnome{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/gnome-star-left-b0d8b1a80a6d55f1ebc64879acffc55acf2f536f786cac1e7728fe3912e152c9.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/gnome-ornament-right-f8038fcf95e10bdfcf9e3414cd826edbf44c97b390bd222231e2a02da5efd6c5.svg);background-position:-80px -45px, calc(100% + 44px) -3px;background-size:auto 120%, auto 120%}.promo-ip--gnome .promo-ip__container{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/gnome-ornament-left-4e39acddaf87ffef23495086eec15c3f551a099a18fe5d1d5152190cfd8e0cf9.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/gnome-star-right-78cf8029b406ba8d06ba9c9fc4ad00d6b6e66cd9bf1091bfae48e9cc08ea07ce.svg);background-repeat:no-repeat;background-position:29% calc(50% + 30px), 73% calc(50% - 30px);background-size:100px 75px, 100px 75px}.promo-ip--peanut{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/peanut-leaf-left-331d89a51ddfe1bcde34b2a04a3a681fef0e0d511933c6cec4226cf5ffddb554.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/peanut-leaf-right-24040ca41224500dec21d65d165a6be31ecab67ee300821bea96c5ffaa882e56.svg);background-position:-33px calc(50% + 14px), calc(100% + 35px) -20px;background-size:auto auto}.promo-ip--peanut .promo-ip__container{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/peanut-acorn-left-73e910c1851ed7d886f9fd659d1b93ab9557b76f87959489ba1d5b03ede295a1.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/peanut-small-leaves-right-b6e8f86d9ecbc03a6d2bfc7f06b7ad7e91e2476a3d133ef2edfd080b56c1fda3.svg);background-repeat:no-repeat;background-position:29% calc(50% + 20px), 73% calc(50% - 20px);background-size:60px 80px, 80px 90px}.promo-ip--dusk{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/dusk-ornament-left-f155fc8ac47724305838aca98d1f1e28ab061796d4493eb60d0430d20790c7c1.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/dusk-ornament-right-c2cdf72c4b99d13ad24ccfe8df72a60e89b9d055db54ccbc0512bf558f41ab23.svg);background-position:-35px calc(50% + 15px), calc(100% + 20px) 25px;background-size:auto 130%, auto 120%}.promo-ip--dusk .promo-ip__container{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/dusk-star-left-0b29846e62957b2db433d6c41a483d2b383f502dce501664ce2365861c24b0ad.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/dusk-star-right-a3f967d7c2f42a79c9dfce4e59be67277dd5c08d6ddf1a2fae6c613c7c0bc0ff.svg);background-repeat:no-repeat;background-position:28% calc(50% + 25px), 73% calc(50% - 25px);background-size:80px 100px, 70px 90px}.promo-ip__container{width:90%;max-width:1200px;margin:0 auto;padding:0 12px}.promo-ip--glow .promo-ip__container{width:100%;max-width:1150px}.promo-ip__list{max-width:none;width:100%;flex-wrap:nowrap;align-items:center}.promo-ip__item{display:initial;width:28.75%;padding:0 15px}.promo-ip__item:last-child:before{content:none}.promo-ip--review .promo-ip__item{width:28.75%}.promo-ip--review .promo-ip__item:last-child{display:block}.promo-ip__item--main{width:42.5%;margin:0 !important;padding:0 45px !important;order:0}.promo-ip--review .promo-ip__item--main{width:42.5%}.promo-ip--tree .promo-ip__item--main{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/tree-divider-ba6a71728f6269bfc75b366c16033a9d4770cd3bfc00172542215a8242ee0fee.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/tree-divider-ba6a71728f6269bfc75b366c16033a9d4770cd3bfc00172542215a8242ee0fee.svg);background-size:30px 60px, 30px 60px}.promo-ip--glow .promo-ip__item--main{width:600px}.promo-ip--ornaments .promo-ip__item--main{background-image:url(/web/20230607164027im_/https://food52.com/assets/holiday/ornaments-divider-left-3dfe63c883792ebdb97ed2b4d4b4f2df5f617fe53f0e81ad613577c732c84f80.svg), url(/web/20230607164027im_/https://food52.com/assets/holiday/ornaments-divider-right-93c2b3750031835165b639aa4fb89100ea0b8f45f508b8e721d87ea3073e64c3.svg);background-size:32px 78px, 32px 78px;width:48%}.promo-ip--garland .promo-ip__item--main,.promo-ip--mustard .promo-ip__item--main,.promo-ip--olive .promo-ip__item--main{align-items:center;border:1px solid #fafafa;border-width:0 1px;display:flex;height:79px}.promo-ip__item-link{max-width:200px;margin:0 auto}.promo-ip__item--main .promo-ip__item-link{max-width:360px}.promo-ip--review .promo-ip__item--main .promo-ip__item-link{max-width:320px}.promo-ip__headline{margin-top:0 !important;line-height:1.25}.promo-ip--dek .promo-ip__headline,.promo-ip--hed .promo-ip__headline{font-size:22px}.promo-ip--review .promo-ip__headline{font-size:22px}.promo-ip--glow .promo-ip__headline{font-size:72px}.promo-ip--glow.promo-ip--dek .promo-ip__headline{font-size:56px}.promo-ip--glow.promo-ip--review .promo-ip__headline{font-size:28px}.promo-ip--garland .promo-ip__headline,.promo-ip--mustard .promo-ip__headline{padding:0}.promo-ip--garland.promo-ip--hed .promo-ip__headline,.promo-ip--mustard.promo-ip--hed .promo-ip__headline{margin-bottom:0}.promo-ip--garland.promo-ip--review .promo-ip__headline,.promo-ip--mustard.promo-ip--review .promo-ip__headline{font-size:22px}.promo-ip__sub-headline{font-size:16px;letter-spacing:0}.promo-ip--review .promo-ip__sub-headline{font-size:14px;margin:12px 0 14px 0}div.promo-ip__rating svg{width:16px}.promo-ip__cta{font-size:14px}.promo-ip__cta .icon__arrow{font-size:7px}div.promo-ip__btn{font-size:14px}.promo-ip--garland div.promo-ip__btn,.promo-ip--mustard div.promo-ip__btn{margin-top:16px}}@media only screen and (min-width: 1400px){.promo-ip--tree{background-position:-35px center, calc(100% + 16px) center, calc(50% - 620px / 2) center, calc(50% + 620px / 2) center}.promo-ip--glow,.promo-ip--glow.promo-ip--review{background-position:calc(50% - 480px / 2) 75px, calc(50% + 480px / 2) 75px, center center, -38px calc(100% + 34px), calc(100% + 12px) -8px;background-size:18px 18px, 18px 18px, 732px 440px, auto 162px, auto 120px}.promo-ip--ornaments{background-position:-60px center, calc(100% + 25px) center}.promo-ip--pasta{background-position:56% center, -4% center, 103% 20%;background-size:auto 230%, auto 145%, 12% 152%}.promo-ip--gnome{background-position:-20px -45px, calc(100% + -20px) -3px;background-size:auto 115%, auto 120%}.promo-ip--gnome .promo-ip__container{background-position:28% calc(50% + 30px), 72% calc(50% - 30px);background-size:100px 75px, 100px 75px}.promo-ip--peanut{background-position:10px calc(50% + 15px), calc(100% + 20px) -15px}.promo-ip--peanut .promo-ip__container{background-position:28% calc(50% + 20px), 72% calc(50% - 20px)}.promo-ip--dusk{background-position:-20px calc(50% + 15px), calc(100% + -20px) 25px}.promo-ip--dusk .promo-ip__container{background-position:28% calc(50% + 15px), 72% calc(50% - 15px)}.promo-ip__container{max-width:1400px;padding:0 26px;font-size:15px}.promo-ip--glow .promo-ip__container{max-width:1400px}.promo-ip__item--main{width:50% !important}.promo-ip--glow .promo-ip__item--main{width:850px !important}.promo-ip__item-link{max-width:200px}.promo-ip__item--main .promo-ip__item-link{max-width:360px}div.promo-ip__rating svg{width:18px}}*{box-sizing:border-box}html{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;scroll-behavior:smooth}body{background-color:#57696d;font-weight:400;font-family:"Gotham SSm A", sans-serif;color:#444;font-size:14px;-webkit-font-smoothing:antialiased;text-rendering:auto;line-height:20px}h1,h2,h3,h4{font-weight:bold}p{margin:0 0 20px}a{text-decoration:none;color:#444}a:hover,a:focus{text-decoration:none;color:#959595}b,strong{font-weight:bold}i,em{font-style:italic}img,embed,object,video{max-width:100%;height:auto}a[data-ga-event] *,button[data-ga-event] *{pointer-events:none}.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;content:'';line-height:0}.clearfix:after{clear:both}.hide{display:none !important}.sr-only{width:1px;height:1px;position:absolute;overflow:hidden;clip:rect(1px, 1px, 1px, 1px)}.shop-page-body-block,.page-body-block{text-align:center}.page-body-block{background-color:#fff}.global-page-frame{background-color:#fff}.block-container{margin:0 auto;width:1100px;text-align:left}@media only screen and (min-width: 1101px){.block-container{width:1400px}}@media only screen and (max-width: 1440px){.block-container{width:auto;padding:0 3%}}
+</style>
+
+<link rel="preload" media="all" href="/web/20230607164027/https://food52.com/assets/global_deferred-7dccd1e057bf5b55bc9a66a440828b567e65bf066fce30e636e65f0db5c2a5dc.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" media="all" href="/web/20230607164027cs_/https://food52.com/assets/global_deferred-7dccd1e057bf5b55bc9a66a440828b567e65bf066fce30e636e65f0db5c2a5dc.css"/></noscript>
+
+<style media="all">.blog__header{padding:30px 0;text-align:center}.blog__title-tag{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 124 10'%3E%3Cdefs%3E%3Cpath id='a' d='M0 0h123.145v9.951H0z'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cpath fill='%23A18F7A' d='M88 5.253c-.106-.092-.22-.185-.332-.277.111-.093.225-.185.331-.277v.554zM76.686 8.084c-3.367.184-6.73-.864-10.046-3.107 3.316-2.243 6.68-3.288 10.046-3.109 3.365.184 6.257 1.576 8.469 3.108-2.213 1.531-5.106 2.924-8.469 3.108zM61.034 7.77a33.337 33.337 0 0 0-3.074-2.795 33.164 33.164 0 0 0 3.074-2.793 33.4 33.4 0 0 0 3.073 2.792 33.738 33.738 0 0 0-3.072 2.796zm-15.653.314c-3.363-.184-6.256-1.577-8.469-3.108 2.213-1.532 5.106-2.924 8.47-3.108 3.382-.179 6.739.866 10.05 3.107-3.316 2.243-6.68 3.291-10.05 3.109zm77.766-3.858H88.531c1.537-1.402 2.424-2.561 2.513-2.68l-1.2-.898c-.025.033-1.27 1.652-3.41 3.373-2.43-1.762-5.715-3.432-9.651-3.65-3.88-.224-7.704 1.019-11.439 3.672A32.286 32.286 0 0 1 61.581.584L61.032 0l-.547.584a32.403 32.403 0 0 1-3.764 3.461C52.98 1.388 49.145.144 45.285.371c-3.935.218-7.221 1.888-9.65 3.65C33.492 2.3 32.248.681 32.225.647l-1.203.899c.09.119.977 1.278 2.513 2.68H0v1.5h33.535c-1.536 1.401-2.423 2.56-2.512 2.679l1.201.9c.025-.034 1.27-1.654 3.41-3.373 2.43 1.761 5.715 3.431 9.651 3.649 3.867.211 7.698-1.026 11.437-3.676a32.489 32.489 0 0 1 3.764 3.462l.547.584.547-.584a32.13 32.13 0 0 1 3.766-3.459c3.46 2.454 6.998 3.698 10.575 3.697.286 0 .575-.008.861-.024 3.938-.218 7.222-1.888 9.651-3.649 2.141 1.719 3.385 3.339 3.41 3.373l1.201-.9c-.088-.119-.975-1.278-2.511-2.679h34.612v-1.5z' mask='url%28%23b%29'/%3E%3C/g%3E%3C/svg%3E");background-repeat:no-repeat;background-size:90px 8px;background-position:center bottom;margin-bottom:12px;padding-bottom:12px}.blog__title{margin-bottom:17px;font-size:25px;line-height:1.44}.third-party__label-container{display:flex;justify-content:center;margin:18px 0 18px 0}.third-party__label-container .third-party__label{width:190px;height:24px;padding:4px 20px;border:solid 1px #688f96;display:flex;align-items:center;justify-content:center}.third-party__label-container .third-party__label span{color:#688f96;font-family:"Chronicle SSm A", "Chronicle SSm B", serif}.blog__dek{margin-bottom:16px;font-size:16px;font-style:italic;line-height:1.81}.blog__sponsor-logo{display:flex;align-items:center;justify-content:center;background-color:#f7f7f7;margin:12px 0 18px 0;height:42px}.blog__sponsor-logo p{margin:0;font-size:12px}.blog__sponsor-logo .third-party-logo-img{max-width:72px;max-height:22px}.blog__sponsored-ad{margin:0}.blog__sponsored-ad>div:empty{display:none}.blog__sponsored-ad>div:not(:empty){margin-bottom:21px}.blog__hero--video{margin-bottom:10px}.blog__text{border-top:1px solid #eaeaea;padding:48px 0 5px 0}.blog__text>p:first-of-type::first-letter{background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 32 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M32 4.407H16.588l2.682-2.036-.415-.574-2.507 1.905V0h-.696v3.702l-2.507-1.905-.415.574 2.682 2.036H0v.715h13.37c-1.109.505-2.124 1.322-2.97 2.436l.547.44C12.297 6.224 14.09 5.247 16 5.247c1.909 0 3.703.977 5.053 2.75l.547-.439c-.847-1.114-1.862-1.93-2.97-2.436H32v-.715z' fill='%23AB967D' fill-rule='evenodd'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center top;background-size:48px 12px;margin:-18px 15px 0 0;padding-top:20px;font-size:96px;font-style:normal;line-height:80px;float:left}.blog__text>p:first-of-type:after{content:" ";display:table;clear:both}.content__text.blog__text--legacy a{color:#a18f7a;border:none}.content__text.blog__text--legacy a:focus,.content__text.blog__text--legacy a:hover{color:#57696d}@media only screen and (min-width: 768px){.blog__header{max-width:600px;margin:0 auto;padding:40px 0}.blog__title-tag{background-size:96px 9px;padding-bottom:14px}.blog__title{font-size:32px;line-height:1.34}.blog__sponsored-ad>div:not(:empty){margin-bottom:24px}.blog__text{padding-bottom:10px}}@media only screen and (min-width: 1024px){.blog__header{max-width:685px;padding:50px 0}.blog__title-tag{background-size:124px 10px;padding-bottom:16px}.blog__title{font-size:36px;line-height:1.31}.blog__hero--video{margin-bottom:20px}}.icon__comments{background:transparent;min-width:1em;height:auto;min-height:0.688em;border-color:inherit;border:1px solid;border-radius:0.125em;font-size:inherit;display:inline-block;position:relative;text-align:center}.icon__comments:before,.icon__comments:after{content:" ";border-color:inherit;border-top:0.313em solid;border-right:0.438em solid transparent;position:absolute;top:100%;left:0.25em}.icon__comments:after{border-top-color:#fff;left:calc(0.25em + 1px);transform:translateY(-2px);transition:inherit}.icon__comments--hover-fill{transition:background 0.1s linear, border-color 0.1s linear}button:hover .icon__comments--hover-fill,a:hover .icon__comments--hover-fill{background:#57696d}button:hover .icon__comments--hover-fill:after,a:hover .icon__comments--hover-fill:after{border-top-color:inherit}.video-player__spacer{position:relative}.video-player__spacer:before{content:" ";width:100%;padding-bottom:56.25%;display:block}.content__container{width:100%;margin-left:auto;margin-right:auto;padding:0 16px}.content__container a{font-weight:inherit}.content__row{display:flex;align-items:flex-start}.content__main{width:100%;min-width:0;flex-grow:1;position:relative}.content__title{font-weight:500;font-family:"Chronicle SSm A", serif}.content__dek{font-weight:400;font-family:"Chronicle SSm A", serif}.content__dek a{border-bottom:0.125em solid #a18f7a}.content__dek a:focus,.content__dek a:hover{border-color:#57696d;color:#444}.content__text{font-weight:400;font-family:"Chronicle SSm A", serif;font-size:16px;line-height:1.81;text-align:left}.content__text>*{margin-bottom:25px}.content__text>div,.content__text>figure,.content__text>hr,.content__text>aside{clear:both}.content__text h1,.content__text h2,.content__text h3,.content__text h4,.content__text h5{margin-bottom:15px;text-transform:capitalize}.content__text h1{font-size:25px;font-weight:500;line-height:1.44}.content__text h2{font-size:24px;font-weight:500;line-height:1.46}.content__text h3{font-weight:300;font-family:"Gotham SSm A", sans-serif;font-size:21px;line-height:1.52}.content__text h4{font-size:19px;font-weight:500;line-height:1.58}.content__text h5,.content__text h6{font-weight:400;font-family:"Gotham SSm A", sans-serif;margin-bottom:15px;font-size:15px;line-height:1.73;letter-spacing:1px;text-transform:uppercase}.content__text a{border-bottom:0.09em solid #a18f7a}.content__text a:focus,.content__text a:hover{border-color:#57696d;color:#444}.content__text ul>li{padding-left:26px;position:relative;text-align:left}.content__text ul>li:before{content:" ";background:#444;width:5px;height:5px;margin:0 18px 0 3px;border-radius:50%;position:absolute;top:10px;left:0}.content__text ul>li ul li:before{width:4px;height:2px;border-radius:0;top:12px}.content__text ol{margin-left:1em;padding-left:0.5em;list-style:decimal;text-align:left}.content__text ol li{padding-left:0.5em}.content__text hr{background:#c4c4c4;width:150px;height:1px;margin-left:auto;margin-right:auto;border:none}.content__text blockquote{margin-left:45px;border-left:1px solid rgba(87,105,109,0.32);padding-left:14px;color:#57696d;font-style:italic;font-weight:500}@media only screen and (min-width: 768px){.content__container{padding:0 22px}.content__text>*{margin-bottom:30px}.content__text h1{font-size:36px;line-height:1.31}.content__text h2{font-size:28px;line-height:1.46}.content__text h3{font-size:24px;line-height:1.58}.content__text h4{font-size:21px;line-height:1.67}.content__text hr{width:200px}}@media only screen and (min-width: 1024px){.content__container{max-width:1024px;padding:0 12px}}@media only screen and (min-width: 1400px){.content__container{max-width:1400px;padding:0 26px}.content__text-container{padding-left:114px;padding-right:114px}}.meta{margin-bottom:22px;font-size:13px;line-height:1.35;color:#909090;display:flex;flex-wrap:wrap;justify-content:center}.meta .btn--link,.meta a{color:#909090}.meta .btn--link:focus,.meta .btn--link:hover,.meta a:focus,.meta a:hover{color:#909090}.meta__author span{font-weight:400;font-family:"Chronicle SSm A", serif;font-size:11px;font-style:italic}.meta__sponsored{margin-left:10px;border-left:1px solid #c4c4c4;padding-left:10px}.meta__date{font-weight:400;font-family:"Chronicle SSm A", serif;font-style:italic}.meta__author+.meta__date{margin-left:10px;border-left:1px solid #c4c4c4;padding-left:10px}.meta__comments{margin-left:10px;border-left:1px solid #c4c4c4;padding-left:10px}.meta__comments a{border-color:#909090;display:inline-flex;align-items:center}.meta__comments .icon__comments{margin-right:8px;font-size:16px;transform:translateY(-1px)}.meta__break{width:100%;margin-top:8px;display:flex;justify-content:center}.meta__caps{font-size:12px;letter-spacing:0.6px;text-transform:uppercase}@media only screen and (min-width: 768px){.meta__date{margin-left:10px;border-left:1px solid #c4c4c4;padding-left:10px}.meta__break{width:auto;margin-top:0}.meta__caps{font-size:13px;letter-spacing:normal}}.sidebar{display:none}@media only screen and (min-width: 1024px){.sidebar{width:340px;visibility:hidden;display:block}}a.tag{color:#a18f7a;font-size:12px;font-weight:500;letter-spacing:0.6px;text-transform:uppercase;text-decoration:none}a.tag:focus,a.tag:hover{color:#a18f7a;text-decoration:none}a.tag--small{font-size:9.5px;letter-spacing:0.5px;line-height:normal}.tag-list{line-height:2;display:flex;flex-wrap:wrap}.tag-list a.tag:hover{text-decoration:underline}.tag-list li+li:before{content:" ";background:#a18f7a;width:3px;height:3px;margin-left:6px;border-radius:50%;display:inline-block;vertical-align:middle}.tag-list li+li a.tag{margin-left:6px}.user-actions__btns{width:100%;margin-bottom:21px;border-color:#57696d;display:flex;justify-content:center}.user-actions__btns>*+*{margin-left:10px}.user-actions__btns .icon__comments{transform:translateY(-1px)}.user-actions--hero{padding-top:15px;padding-bottom:25px;display:flex;justify-content:space-between}.user-actions--hero .user-actions__btns{margin-bottom:0}.user-actions--hero .social{display:none}.user-actions--no-comments{display:flex;justify-content:center}.user-actions--no-comments .user-actions__btns--no-comments{border-color:#57696d;display:flex;justify-content:center;margin:0 7.5px}@media only screen and (min-width: 768px){.user-actions--hero{padding-top:20px;padding-bottom:30px}.user-actions--hero .user-actions__btns{justify-content:flex-start}.user-actions--hero .social{display:flex}.user-actions--hero li:last-child .social__link{margin-right:0}}@media only screen and (min-width: 1024px){.user-actions__btns{margin-bottom:24px}}
+</style>
+  <link rel="preload" media="all" href="/web/20230607164027/https://food52.com/assets/blog/blog_show_deferred-d23ef9b5ecf189ac5261bb902250d1957e6c899df974e6cc228d7cad8b7d1197.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" media="all" href="/web/20230607164027cs_/https://food52.com/assets/blog/blog_show_deferred-d23ef9b5ecf189ac5261bb902250d1957e6c899df974e6cc228d7cad8b7d1197.css"/></noscript>
+
+<link rel="preload" media="print" href="/web/20230607164027/https://food52.com/assets/blog/blog_show_print-82ced1ed11e2b742b1ac203e12701b10bcb04d070fdfa72bee828603b5574127.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" media="print" href="/web/20230607164027cs_/https://food52.com/assets/blog/blog_show_print-82ced1ed11e2b742b1ac203e12701b10bcb04d070fdfa72bee828603b5574127.css"/></noscript>
+
+<script>
+/*
+ loadCSS. [c]2017 Filament Group, Inc. MIT License */
+(function(b){b.loadCSS||(b.loadCSS=function(){});var c=loadCSS.relpreload={};c.support=function(){try{var a=b.document.createElement("link").relList.supports("preload")}catch(e){a=!1}return function(){return a}}();c.bindMediaToggle=function(a){function b(){a.addEventListener?a.removeEventListener("load",b):a.attachEvent&&a.detachEvent("onload",b);a.setAttribute("onload",null);a.media=c}var c=a.media||"all";a.addEventListener?a.addEventListener("load",b):a.attachEvent&&a.attachEvent("onload",b);setTimeout(function(){a.rel=
+"stylesheet";a.media="only x"});setTimeout(b,3E3)};c.poly=function(){if(!c.support())for(var a=b.document.getElementsByTagName("link"),e=0;e<a.length;e++){var d=a[e];"preload"!==d.rel||"style"!==d.getAttribute("as")||d.getAttribute("data-loadcss")||(d.setAttribute("data-loadcss",!0),c.bindMediaToggle(d))}};if(!c.support()){c.poly();var f=b.setInterval(c.poly,500);b.addEventListener?b.addEventListener("load",function(){c.poly();b.clearInterval(f)}):b.attachEvent&&b.attachEvent("onload",function(){c.poly();
+b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.loadCSS=loadCSS})("undefined"!==typeof global?global:this);
+</script>
+
+<link rel="shortcut icon" href="/web/20230607164027im_/https://food52.com/assets/favicon-31dab756d4a5fccaa7d3d20322231dc2b3e1d079035e5e16b4b301ffdbbd2033.ico">
+    <link rel="apple-touch-icon" href="/web/20230607164027im_/https://food52.com/assets/apple-touch-icon/76x76-c121ca38f8b4107bdd7e39b70d2e680ee160a85eefb90965c2ea2a81c0caf4f9.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="/web/20230607164027im_/https://food52.com/assets/apple-touch-icon/120x120-caef7898bdd69d51d19b41caffabe7116118047aaae619a772e7ae0493fc140c.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/web/20230607164027im_/https://food52.com/assets/apple-touch-icon/152x152-37836ed4cf6d867f0408621ada603bae2c33e486cc0226018ed56509e07dc93e.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/web/20230607164027im_/https://food52.com/assets/apple-touch-icon/180x180-4f0fc96f9ea242e3851f664c372adcd208dcae1d81b182add1cc5695bf192f57.png" sizes="180x180">
+
+<link rel="mask-icon" href="/web/20230607164027im_/https://food52.com/assets/favicon-f0d2d26c96aa016b8778988c5b904a3463e7f7a97de86e62d5a6cfa4193fd94d.svg" color="#3D3D3D">
+
+<link rel="alternate" type="application/rss+xml" title="Food52" href="http://web.archive.org/web/20230607164027/https://food52.com/blog.rss"/>
+
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="/PYJCpppR3IE9a1WvEA6Uk3f75u5jhKOjl30MlQLhAIH13UynPLeFG/S+8pw5cx+GekX1wIwTW291a7usBrgxw=="/>
+
+<link rel="canonical" href="http://web.archive.org/web/20230607164027/https://food52.com/blog/15446-dinner-tonight-bff-crispy-coated-chicken"/>
+
+<meta property="article:publisher" content="https://www.facebook.com/food52">
+<meta property="article:published_time" content="2016-01-05 09:00:00 -0500">
+<meta property="article:modified_time" content="2018-09-26 03:49:19 -0400">
+<meta property="article:section" content="What to Cook">
+
+<meta property="article:tag" content="Dinner Tonight">
+    <meta property="article:tag" content="Leftovers">
+    <meta property="article:tag" content="Kids">
+    <meta property="article:tag" content="Dinner, Faster">
+    <meta property="article:tag" content="Chicken">
+    <meta property="article:tag" content="What to Cook">
+    <meta property="article:tag" content="Weeknight Cooking">
+
+<meta name="sailthru.title" content="Dinner Tonight: BFF Crispy Coated Chicken">
+<meta name="sailthru.date" content="2016-01-05 09:00:00 -0500">
+<meta name="sailthru.tags" content="dinner-tonight,leftovers,kids,dinner-faster,chicken,what-to-cook,weeknight-cooking,blog">
+<meta name="sailthru.image.full" content="https://images.food52.com/vKCm_v5BkwB2D5DnmYiSUxll9Y4=/300x300/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg">
+<meta name="sailthru.image.thumb" content="https://images.food52.com/vKCm_v5BkwB2D5DnmYiSUxll9Y4=/300x300/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg">
+<meta name="sailthru.description" content=" A go-to chicken recipe that's as comforting on a salad as it is with ketchup. ">
+  <meta name="sailthru.author" content="Taylor Rondestvedt">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+  {
+    "@context": "http://web.archive.org/web/20230607164027/http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http://web.archive.org/web/20230607164027/https://food52.com/blog/15446-dinner-tonight-bff-crispy-coated-chicken"
+    },
+    "headline": "Dinner Tonight: BFF Crispy Coated Chicken",
+    "image": [
+      "http://web.archive.org/web/20230607164027/https://images.food52.com/ZPZSslfiWxRV-KtjSfg7P8eRwBA=/1200x1200/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg",
+      "http://web.archive.org/web/20230607164027/https://images.food52.com/niX6k6KBhRtlzQjwWFH1Kg1DyJU=/1200x900/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg",
+      "http://web.archive.org/web/20230607164027/https://images.food52.com/ZxpVoGLn-SVFyST8p_akS3ykvdk=/1200x675/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg"
+    ],
+    "datePublished": "2016-01-05 09:00:00 -0500",
+    "dateModified": "2018-09-26 03:49:19 -0400",
+    "author": {
+      "@type": "Person",
+      "name": "Taylor Rondestvedt",
+      "description": "Is never without a loaf of rye bread and currently stocks 5 different butters in her kitchen.",
+      "url": "http://web.archive.org/web/20230607164027/https://food52.com/users/728885-taylor-rondestvedt"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Food52",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://web.archive.org/web/20230607164027/https://food52.com/assets/logo-food52-d15229cd9df0b9e4390efb59bc07477df8ae4dae8897d4f094c7682c4ac70468.svg",
+        "width": 276,
+        "height": 52
+      }
+    },
+    "description": "A go-to chicken recipe that&#39;s as comforting on a salad as it is with ketchup. "
+  }
+</script>
+
+<meta property="og:title" content="Dinner Tonight: BFF Crispy Coated Chicken">
+  <meta property="og:description" content="A go-to chicken recipe that's as comforting on a salad as it is with ketchup. ">
+  <meta property="og:image" content="http://web.archive.org/web/20230607164027im_/https://images.food52.com/n8zPrE7j4IErJ57UeOVrUNTGN8I=/fit-in/1200x1200/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg">
+
+<meta name="thumbnail" content="https://images.food52.com/n8zPrE7j4IErJ57UeOVrUNTGN8I=/fit-in/1200x1200/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg">
+
+<script>
+      if (typeof(f52) == 'undefined') { f52 = {}; }
+    </script>
+
+<script>
+      // Airbrake JS filters used to ignore noisy exceptions.
+      if (f52.inputs && f52.inputs.base && f52.inputs.base.airbrakeJS) {
+        f52.inputs.base.airbrakeJS.filters = function(notice) {
+          
+        }
+      }
+    </script>
+
+<!-- Audigent GAM Code -->
+<script>
+  !function(w, d, t, u, p){
+      w.addAuSeg = function(s) {
+          w.googletag = w.googletag || {};
+          w.googletag.cmd = w.googletag.cmd || [];
+          w.googletag.cmd.push(function(){w.googletag.pubads().setTargeting('AU_SEG', s);});
+      };
+      var a = d.createElement(t);
+      a.async = true;
+      a.src = u + '?partner_id=' + p + '&url=' + w.location.href;
+      var b = d.getElementsByTagName(t)[0];
+      b.parentNode.insertBefore(a, b);
+  }(window, document, 'script', 'http://web.archive.org/web/20230607164027/https://seg.ad.gt/api/v1/segments.js', '259');
+</script>
+
+<link rel="stylesheet" href="http://web.archive.org/web/20230607164027cs_/https://a.pub.network/core/pubfig/cls.css">
+  <script data-cfasync="false" type="text/javascript">
+    var freestar = freestar || {};
+    freestar.hitTime = Date.now();
+    freestar.queue = freestar.queue || [];
+    freestar.config = freestar.config || {};
+    freestar.config.enabled_slots = [];
+    freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;
+    freestar.config.enabled_slots = [];
+
+!function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="http://web.archive.org/web/20230607164027/https://a.pub.network/food52-com";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
+    freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }
+  </script>
+
+</head>
+
+<body class=" ">
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <noscript><iframe src="//web.archive.org/web/20230607164027if_/https://www.googletagmanager.com/ns.html?id=GTM-MB6SZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="global-page-frame clearfix" id="global-page-frame">
+        <div fsnoad="true" class="ad-slot ad-slot--leaderboard " id="leaderboard"></div>
+
+<header class="header header--shop header--free-shipping" id="headerRoot">
+      <div class="header__nav header__nav--spacer">
+        <nav class="global-nav" aria-label="Main">
+  <div class="global-nav__logo-container">
+    <div class="global-nav__menu-item--more">
+      <button type="button" class="btn--link global-nav__menu-link"></button>
+    </div>
+    <a class="global-nav__logo global-nav__logo--logged-out" href="http://web.archive.org/web/20230607164027/https://food52.com/" title="Home">
+      <span class="global-nav__logo-img" aria-label="Food52 Food Community"></span>
+    </a>
+  </div>
+
+<div class="global-nav__menu">
+    <ul class="global-nav__menu-list">
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20230607164027/https://food52.com/shop" class="global-nav__menu-link">
+                <span>
+                  The Shop
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20230607164027/https://food52.com/recipes" class="global-nav__menu-link">
+                <span>
+                  Recipes
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20230607164027/https://food52.com/blog" class="global-nav__menu-link">
+                <span>
+                  Food
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20230607164027/https://food52.com/drinks" class="global-nav__menu-link">
+                <span>
+                  Drinks52
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20230607164027/https://food52.com/tags/home52" class="global-nav__menu-link">
+                <span>
+                  Home52
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20230607164027/https://food52.com/hotline" class="global-nav__menu-link">
+                <span>
+                  Community
+                </span>
+              </a>
+            </li>
+          <li class="global-nav__menu-item">
+            <a href="http://web.archive.org/web/20230607164027/https://watch.food52.com/" class="global-nav__menu-link">
+              <span>
+                Watch
+              </span>
+            </a>
+          </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/the-food52-podcast-network" class="global-nav__menu-link">
+                <span>
+                  Listen
+                </span>
+              </a>
+            </li>
+    </ul>
+  </div>
+
+<ul class="global-nav__actions global-nav__actions--placeholder global-nav__actions--logged-out"></ul>
+</nav>
+
+<nav class="shop-nav shop-nav--placeholder">
+  <div class="shop-nav__container">
+    <div class="shop-nav__button">
+      <span>Shop Categories <span class="icon icon__arrow"></span></span>
+    </div>
+
+<div class="shop-nav__logo shop-nav__logo--logged-out"></div>
+
+<div class="shop-nav__menu">
+      <ul class="shop-nav__menu-list">
+          <li class="shop-nav__menu-item shop-nav__menu-item--newarrivals">
+            <a href="/web/20230607164027/https://food52.com/shop/new-arrivals" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="New Arrivals" data-ga-event-label="none" data-ga-destination-url="/shop/new-arrivals">
+              <span>New Arrivals</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--cookware">
+            <a href="/web/20230607164027/https://food52.com/shop/cookware" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Cookware" data-ga-event-label="none" data-ga-destination-url="/shop/cookware">
+              <span>Cookware</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--appliances">
+            <a href="/web/20230607164027/https://food52.com/shop/appliances" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Appliances" data-ga-event-label="none" data-ga-destination-url="/shop/appliances">
+              <span>Appliances</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--kitchen">
+            <a href="/web/20230607164027/https://food52.com/shop/kitchen" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Kitchen" data-ga-event-label="none" data-ga-destination-url="/shop/kitchen">
+              <span>Kitchen</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--table">
+            <a href="/web/20230607164027/https://food52.com/shop/table" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Table" data-ga-event-label="none" data-ga-destination-url="/shop/table">
+              <span>Table</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--home">
+            <a href="/web/20230607164027/https://food52.com/shop/home" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Home" data-ga-event-label="none" data-ga-destination-url="/shop/home">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--outdoor">
+            <a href="/web/20230607164027/https://food52.com/shop/outdoor" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Outdoor" data-ga-event-label="none" data-ga-destination-url="/shop/outdoor">
+              <span>Outdoor</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--pantry">
+            <a href="/web/20230607164027/https://food52.com/shop/pantry" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Pantry" data-ga-event-label="none" data-ga-destination-url="/shop/pantry">
+              <span>Pantry</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--gifts">
+            <a href="/web/20230607164027/https://food52.com/shop/gifts" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Gifts" data-ga-event-label="none" data-ga-destination-url="/shop/gifts">
+              <span>Gifts</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--sale">
+            <a href="/web/20230607164027/https://food52.com/shop/on-sale" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Sale" data-ga-event-label="none" data-ga-destination-url="/shop/on-sale">
+              <span>Sale</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--dansk">
+            <a href="/web/20230607164027/https://food52.com/shop/dansk" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Dansk" data-ga-event-label="none" data-ga-destination-url="/shop/dansk">
+              <span>Dansk</span>
+            </a>
+          </li>
+          <li class="shop-nav__menu-item shop-nav__menu-item--fivetwo">
+            <a href="/web/20230607164027/https://food52.com/shop/five-two" class="shop-nav__menu-link" data-ga-event="navigationHeader" data-ga-event-action="Five Two" data-ga-event-label="none" data-ga-destination-url="/shop/five-two">
+              <span>Five Two</span>
+            </a>
+          </li>
+
+<li class="shop-nav__menu-item shop-nav__menu-item--sh">
+          <a class="shop-nav__menu-link" href="/web/20230607164027/https://food52.com/shop/merchants/schoolhouse" data-ga-event="navigationHeader" data-ga-event-action="Schoolhouse" data-ga-event-label="none" data-ga-destination-url="/shop/merchants/schoolhouse">
+            <span>Schoolhouse</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+<ul class="global-nav__actions global-nav__actions--logged-out"></ul>
+  </div>
+</nav>
+
+<div class="search-header__input-group search-header__input-group--placeholder"></div>
+      </div>
+    </header>
+
+<div id="flashNotificationRoot"></div>
+        
+  <div id="mainContent" class="page-body-block" tabindex="0">
+
+<div class="blog">
+  <section class="content__container">
+    <div class="blog__header">
+        <h3 class="blog__title-tag">
+          <a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Lead Tag" data-ga-event-label="Dinner Tonight" data-ga-destination-url="/tags/dinner-tonight" href="/web/20230607164027/https://food52.com/tags/dinner-tonight">Dinner Tonight</a>
+        </h3>
+
+<h1 class="content__title blog__title">Dinner Tonight: BFF Crispy Coated&nbsp;Chicken</h1>
+
+<div class="meta">
+          <div class="meta__author">
+            <span>by:</span>
+            <a class="meta__caps" rel="author" data-ga-event="inPageInteraction" data-ga-event-action="Author Name Click" data-ga-event-label="Article Header" data-ga-destination-url="/users/728885-taylor-rondestvedt/articles" href="/web/20230607164027/https://food52.com/users/728885-taylor-rondestvedt/articles">Taylor Rondestvedt</a>
+          </div>
+
+<div class="meta__break">
+            <div class="meta__date">
+              <span>January&nbsp;&nbsp;5,&nbsp;2016</span>
+            </div>
+
+<div class="meta__comments">
+            <a href="javascript:void(0);" class="js-comments-scroll" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Article Header" data-ga-destination-url="none">
+              <span class="icon__comments"></span>
+              <span class="js-comments-count">5</span>&nbsp;Comments
+            </a>
+          </div>
+        </div>
+      </div>
+
+<div class=" user-actions">
+          <div class="user-actions__btns">
+            <span class="collectionWidgetRoot" data-id="15446" data-type="post" data-layout="pill"></span>
+              <a href="javascript:void(0);" class="btn--pill js-comments-scroll" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Article Header under Image" data-ga_destination_url="none">
+                <span class="icon icon__comments icon__comments--hover-fill"></span>
+                <span class="js-comments-count">5</span>&nbsp;Comments
+              </a>
+          </div>
+
+<div fsnoad="true" class="ad-slot blog__sponsored-ad" id="sponsoredArticleLogo"></div>
+
+<ul class="social social--outline">
+  <li>
+    <a aria-label="Share on Facebook" href="http://web.archive.org/web/20230607164027/https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffood52.com%2Fblog%2F15446-dinner-tonight-bff-crispy-coated-chicken" target="_blank" rel="noopener noreferrer" class="social__link social__link--facebook" data-network="Facebook" data-social-action="Share" data-ga-event-label="Article Header" data-ga-event="inPageInteraction" data-ga-event-action="Facebook Share" data-ga-destination-url="none">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10.4 19.3"><path d="M0 10.3h3v9h3.7v-9h3.7V6.6H6.7V4.8c0-.6.4-1.1.7-1.1h3V0h-3C5 0 3 2.2 3 4.8v1.8H0v3.7z" fill="currentColor"/></svg>
+    </a>
+  </li>
+
+<li>
+    <a aria-label="Share on Twitter" href="http://web.archive.org/web/20230607164027/https://twitter.com/intent/tweet?text=%22Dinner%20Tonight%3A%20BFF%20Crispy%20Coated%20Chicken%22%20on%20%40Food52&amp;url=https%3A%2F%2Ffood52.com%2Fblog%2F15446-dinner-tonight-bff-crispy-coated-chicken" target="_blank" rel="noopener noreferrer" class="social__link social__link--twitter" data-network="Twitter" data-social-action="Tweet" data-ga-event-label="Article Header" data-ga-event="inPageInteraction" data-ga-event-action="Twitter Share" data-ga-destination-url="none">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 19.8 15.8"><path d="M19.8 1.9c-.4.1-.8.3-1.1.4l-1.2.3c.4-.3.8-.6 1.1-.9.3-.4.6-.8.7-1.2-.4.2-.9.4-1.3.6-.4.2-.9.3-1.4.4-.3-.4-.8-.7-1.3-.9-.4-.5-1-.6-1.6-.6-1.1 0-2.1.4-2.9 1.2-.7.8-1.1 1.7-1.1 2.8 0 .2 0 .5.1.9-1.7-.1-3.3-.5-4.7-1.2C3.6 3 2.4 1.9 1.4.7 1 1.3.9 2 .9 2.7c0 1.5.6 2.6 1.8 3.3-.8 0-1.4-.1-1.9-.4v.1c0 1 .3 1.8.9 2.5.6.7 1.4 1.2 2.3 1.4-.2 0-.3.1-.5.1h-.6c-.2 0-.4 0-.7-.1.2.8.7 1.4 1.4 2 .7.4 1.5.7 2.4.7C4.6 13.5 2.9 14 1 14H0c.9.6 1.8 1 2.9 1.3 1.1.3 2.2.5 3.3.5 1.9 0 3.5-.3 5-1 1.4-.7 2.7-1.6 3.6-2.7 1-1.1 1.7-2.3 2.2-3.6.5-1.3.7-2.7.7-4V4c.4-.3.8-.6 1.1-1 .4-.3.8-.7 1-1.1" fill="currentColor"/></svg>
+
+</a>
+  </li>
+
+<li>
+    <a aria-label="Pin this!" href="http://web.archive.org/web/20230607164027/https://www.pinterest.com/pin/create/button/?url=https://food52.com/blog/15446-dinner-tonight-bff-crispy-coated-chicken&amp;media=https://images.food52.com/n8zPrE7j4IErJ57UeOVrUNTGN8I=/fit-in/1200x1200/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg&amp;description=Dinner%20Tonight%3A%20BFF%20Crispy%20Coated%20Chicken%20on%20Food52" target="_blank" rel="noopener noreferrer" class="social__link social__link--pinterest" data-network="Pinterest" data-social-action="Pin" data-pin-custom="true" data-pin-do="none" data-pin-media="https://images.food52.com/n8zPrE7j4IErJ57UeOVrUNTGN8I=/fit-in/1200x1200/c8475147-bd95-4b82-8270-3816dc757ce8--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg" data-pin-url="https://food52.com/blog/15446-dinner-tonight-bff-crispy-coated-chicken" data-pin-description="Dinner Tonight: BFF Crispy Coated Chicken on Food52" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Header" data-ga-destination-url="none">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+    </a>
+  </li>
+
+<li>
+    <a aria-label="Email to a friend" href="/web/20230607164027/https://food52.com/cdn-cgi/l/email-protection#c2fdb1b7a0a8a7a1b6ff86abacaca7b0e7f0f296adacaba5aab6e7f183e7f0f2808484e7f0f281b0abb1b2bbe7f0f281ada3b6a7a6e7f0f281aaaba1a9a7ace7f0f2adace7f0f284adada6f7f0e4a3afb2f9a0ada6bbff8be2b6aaabaca9e2bbadb7e4e1f1fbf9aeaee2aeaba9a7e2b6aaabb1f8e7f286e7f283e7f286e7f283aab6b6b2b1e7f183e7f084e7f084a4adada6f7f0eca1adafe7f084a0aeada5e7f084f3f7f6f6f4efa6abacaca7b0efb6adacaba5aab6efa0a4a4efa1b0abb1b2bbefa1ada3b6a7a6efa1aaaba1a9a7ac" target="_blank" rel="noopener noreferrer" class="social__link social__link--email" data-network="Email" data-social-action="Share" data-ga-event-label="Article Header" data-ga-event="inPageInteraction" data-ga-event-action="Email Share" data-ga-destination-url="none">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 17.1 12.5"><path d="M5.9 6.4L.6 12.5h16l-5.3-6.1-2.5 2.4c-.1.2-.3.2-.5 0L5.9 6.4zM17.1.6l-5.3 5.2 5.3 6.1V.6zM0 .6v11.3l5.3-6.1L0 .6zM.6 0l7.9 7.8 8-7.8H.6z" fill="currentColor"/></svg>
+    </a>
+  </li>
+</ul>
+
+</div>
+    </div>
+  </section>
+
+<section class="content__container">
+    <div class="content__row">
+      <div class="content__main">
+
+<div class="content__text-container">
+          <div class="content__text blog__text js-blog-text js-subnav-content clearfix ">
+              <p>Alas, the holiday season is at an end, and it's the height of back-to-work, back-to-school, back-to-life blues. It's been almost a month and a half of straight gluttony, with all the delicious holiday dishes we crave throughout the year, and we could all use a bit of a break from gravies, roasts, and Grandma's wintry casseroles.</p>
+
+<figure class="single-image single-image--full ">
+    <div class="img img--mobile-full">
+      <a class="img__pin" href="http://web.archive.org/web/20230607164027/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 964px;"><div style="height: 0; padding-bottom: 66.59751037344398%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/wAVf_7iBdoQ_qIiKnkBYQhEL1q4=/778x518/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/STOaX1udsj766Ia2S3U4IfzPrKU=/1556x1036/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/Fh0vtY2KmwL2MI9khuqJgqJqKZI=/778x518/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/GRD6ggOKO3_DBQjcMy4NkpdTcME=/1556x1036/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/ME5uZsBHv2pObEaBRxMhD5xC3TA=/660x440/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/MfLboptYQMZPojBZWiuYeRmXIqM=/1320x880/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/RGHCuXV121oPf_dPCLBUdlSJ4L4=/660x440/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/kLMB-RlND9qOyGFp4UAPKJLy5fE=/1320x880/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/Re9YJ_pInHDQ58FRhlCm0WIc2xs=/964x642/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/ZgCG2nqCEHa0ru1tXmftpB7-ogE=/1928x1284/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/-wJVz8YNAavNJCcXPAgT0lDYqzU=/964x642/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/FV-RsuXy95eM3f3DEKlYho_Q3L4=/1928x1284/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/insTSbUHxlfbyiXPy6l_20mwPVQ=/768x512/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/yfH2qN0OfZSP-RmAqxFN-PKx6O8=/1536x1024/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/9QdJdnO2nyIbJ1p9W3h4bV9dCCA=/768x512/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/UiV7uHbdCHE1vSfJHnUD7w0-VK0=/1536x1024/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/Jvn7s12PSe9WyadcrsBw5tAlpkI=/375x250/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/pvLnCjejJR5tIeYDCpewMoPxY-A=/750x500/filters:format(webp)/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="964" height="642" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/zOF72FhHVepZxRTDCK02iCK2bmY=/375x250/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg, http://web.archive.org/web/20230607164027im_/https://images.food52.com/OQ-fzZ_yTsc-F7FQ3KbWt_uh8nE=/750x500/30f5e706-135f-4576-a35a-2ea1d1d45979--bfe7399f-e762-4b83-b2ff-14bcbb5a2458-14142796229_be142db045_b.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details ">
+
+<span class="img-details__credit">Photo by Mark Weinberg</span>
+      </figcaption>
+  </figure>
+
+<p>Enter <a href="http://web.archive.org/web/20230607164027/https://food52.com/recipes/6945-bff-crispy-coated-chicken">BFF Crispy Coated Chicken</a>. It's definitely kid-approved, but it's also just plain delicious. Best of all, it comes with a lemony and creamy dressing to serve over the chicken—alone or on a big salad. It's a meal that comes together in the blink of an eye—and it's comforting, tasty, and makes great leftovers, to boot.</p><div fsnoad="true" class="ad-slot ad-slot--mobile-inline" id="inlineArticle"></div>
+              <h2>Grocery List</h2>
+              <p><em>(Organized by area of the market)</em></p>
+              <ul>
+<li>1 pound boneless chicken tenders or chicken breast</li>
+<li>1 1/2 cup panko bread crumbs</li>
+<li>1 1/4 cup grated Parmesan cheese</li>
+<li>1 tablespoon crème fraîche</li>
+<li>2 tablespoons lemon juice</li>
+<li>1 teaspoon anchovy paste (optional—only if you want it in your dressing)</li>
+</ul>
+              <p><em>We're assuming you already have 2 eggs, 1/4 cup flour, garlic salt, olive oil, vegetable oil (or some other high-heat oil), salt and pepper, a clove of garlic, and a teaspoon of honey, but if you don't, add those to your list as well.</em></p><div class="product-well"><div class="product-well__label">Shop the Story</div><div id="relatedProductsRoot" data-show-article-cta="true"><div class="product-well__carousel-spacer"></div></div></div>
+              <p><strong>With about 30 minutes to dinner,</strong> slice the chicken breasts or tenders into 1/2-inch-thick pieces. Place the chicken between two pieces of plastic wrap and pound them to 1/4-inch thickness. Season with salt and pepper, and set aside. <strong>Now it's time to set up your breading station.</strong> Mix 1/4 cup flour with 1/2 teaspoon (or a healthy shake) of garlic salt in one bowl. In the next bowl, preferably a shallow one, beat 2 eggs. In the final bowl (or plate), mix together 1 1/2 cups panko crumbs with 1 cup grated Parmesan cheese. Make sure to leave a fourth bowl or plate at the end to collect all your coated chicken pieces.</p><div fsnoad="true" class="ad-slot ad-slot--mobile-inline" id="inlineArticleTwo"></div>
+              <p><strong>To coat each piece of chicken,</strong> cover it in the flour mixture, then generously coat both sides with the beaten eggs. Finish it off with the panko/Parmesan mixture, being sure to cover each side evenly. Set the coated pieces on the fourth plate and continue until all the chicken is coated. Heat enough vegetable oil to cover the bottom of a frying pan on medium heat. Once the oil is hot, cook the chicken pieces, turning once, until both sides are golden brown. You may have to add a bit more oil to ensure that both sides are evenly browned, but once the chicken is done, place it aside on paper towels.</p>
+              <p><strong>Then whip up the lemony dressing.</strong> Mash up the clove of garlic, and mix well with 1/4 cup grated Parmesan, 1 tablespoon crème fraîche, 2 tablespoons lemon juice, and 1 teaspoon anchovy paste. Add about 6 tablespoons of olive oil and whisk until emulsified. Toss the dressing on your favorite salad greens from the fridge, or drizzle it over the chicken alone and gobble them down. Be sure to save some for lunch—the dressing will keep in a separate container, so you can pack a chicken sandwich, or cold chicken pieces, and serve up a decidedly #NSDL your first week back to reality.</p>
+          </div>
+
+<div class="promo promo--copy promo--book">
+      <a class="img--spacer promo__img" href="http://web.archive.org/web/20230607164027/https://pod.link/the-sandwich-universe">
+        <picture><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Listen Now" class=" lazyload" data-pin-nopin="nopin" data-srcset="/web/20230607164027im_/https://food52.com/assets/promos/sandwich-universe-3efcb0c0cfbe40f459ff8e3967202eb242a74ed634ecddbe5275b530530e0dde.png"/></picture>
+      </a>
+
+<div class="promo__copy">
+          <div class="promo__title promo__title-desktop"></div>
+          <p>Join The Sandwich Universe co-hosts (and longtime BFFs) Molly Baz and Declan Bond as they dive deep into beloved, iconic sandwiches.</p>
+          <a class="btn btn--small btn--secondary" href="http://web.archive.org/web/20230607164027/https://pod.link/the-sandwich-universe">Listen Now</a>
+        </div>
+    </div>
+
+<div class="blog__tags">
+              <span>Tags:</span>
+              <ul class="tag-list">
+                  <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Leftovers" data-ga-destination-url="/tags/leftovers" href="/web/20230607164027/https://food52.com/tags/leftovers">Leftovers</a></li>
+                  <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Kids" data-ga-destination-url="/tags/kids" href="/web/20230607164027/https://food52.com/tags/kids">Kids</a></li>
+                  <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Dinner, Faster" data-ga-destination-url="/tags/dinner-faster" href="/web/20230607164027/https://food52.com/tags/dinner-faster">Dinner, Faster</a></li>
+                  <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Chicken" data-ga-destination-url="/tags/chicken" href="/web/20230607164027/https://food52.com/tags/chicken">Chicken</a></li>
+                  <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="What to Cook" data-ga-destination-url="/tags/what-to-cook" href="/web/20230607164027/https://food52.com/tags/what-to-cook">What to Cook</a></li>
+                  <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Weeknight Cooking" data-ga-destination-url="/tags/weeknight-cooking" href="/web/20230607164027/https://food52.com/tags/weeknight-cooking">Weeknight Cooking</a></li>
+              </ul>
+            </div>
+            
+<div class="comments-teaser">
+  <div class="comments-teaser__icons">
+    <span class="icon__comments"></span>
+    <span class="icon__comments"></span>
+  </div>
+
+<h3><button type="button" class="btn--link js-comments-scroll" on="" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="none">Join the Conversation</button></h3>
+  <p>See what other Food52 readers are saying.</p>
+
+<ul class="comments-teaser__users">
+        <li>
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/1249568-ryan-wells" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/1249568-ryan-wells">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ryan Wells" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>Ryan Wells</span>
+            </div>
+        </li>
+        <li>
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/870021-joe-roccaforte" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/870021-joe-roccaforte">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Joe Roccaforte" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/F_7LnXkSFAS4gn9ENhP4fmHuMNs=/124x124/a9387034-6d10-4d1a-92b6-3ad8f40fda35--fb_avatar.jpg"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>Joe Roccaforte</span>
+            </div>
+        </li>
+        <li>
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/30479-wietje" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/30479-wietje">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="wietje" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>wietje</span>
+            </div>
+        </li>
+        <li>
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/33346-sianbum" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/33346-sianbum">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="sianbum" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>sianbum</span>
+            </div>
+        </li>
+        <li>
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/842455-tia" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/842455-tia">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="tia" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>tia</span>
+            </div>
+        </li>
+    </ul>
+
+<button type="button" class="btn--pill js-comments-scroll" on="" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="none">
+    <span class="icon icon__comments icon__comments--hover-fill"></span> Comment
+  </button>
+</div>
+
+<div class="author author--no-sharing">
+  <div class="author__header">
+    <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/728885-taylor-rondestvedt" class="author__avatar">
+        <div style="max-width: 100%; width: 80px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20230607164027im_/https://images.food52.com/t8XMMplQZ9rdG71y_vXczePaP-w=/124x124/filters:format(webp)/5ebd503c-55ef-4489-bbb0-11ca3b779da2--543763_10151616466188432_1206030239_n.jpg"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Taylor Rondestvedt" class="avatar avatar--large lazyload" width="80" height="80" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/v4r85uKa16kmI2vlgQWTT4LS7Qc=/124x124/5ebd503c-55ef-4489-bbb0-11ca3b779da2--543763_10151616466188432_1206030239_n.jpg"/></picture></div></div>
+    </a>
+
+<div>
+      <h3>
+        <span>Written by:</span>
+        <a class="author__name" data-ga-event="inPageInteraction" data-ga-event-action="Author Name Click" data-ga-event-label="Written by:" data-ga-destination-url="/users/728885/articles" href="/web/20230607164027/https://food52.com/users/728885/articles">Taylor Rondestvedt</a>
+      </h3>
+      <div class="author__social">
+
+</div>
+  </div>
+
+<div class="author__follow">
+      <div id="followRoot"></div>
+    </div>
+  </div>
+
+<div class="author__bio">
+      Is never without a loaf of rye bread and currently stocks 5 different butters in her kitchen.
+    </div>
+</div>
+
+</div>
+      </div>
+
+<aside class="sidebar js-sidebar-sticky">
+    <div fsnoad="true" class="ad-slot ad-slot--aside" id="sidebarTop"></div>
+
+<div class="sidebar__content" id="sidebarRoot">
+    <div class="sidebar__spacer--related"></div>
+
+<div class="sidebar__spacer--video"></div>
+  </div>
+
+</aside>
+    </div>
+  </section>
+
+<div id="mailingListBannerRoot" class="mailing-list-banner"></div>
+  <section class="popular">
+  <div class="content__container">
+    <div class="popular__recirc content__text-container">
+      <h3 class="popular__heading">Popular on Food52</h3>
+      <div id="popularRoot" class="popular__main"></div>
+    </div>
+
+<div class="js-comments-scroll-position">
+      <div fsnoad="true" class="ad-slot" id="instreamLeaderboardContent"></div>
+    </div>
+  </div>
+</section>
+
+<div class="content__container">
+    <div id="commentsRoot">
+      
+<section class="comments">
+
+<h3 class="comments__title">
+    <span class="icon__comments"></span>
+    5 Comments
+  </h3>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/1249568-ryan-wells" title="Ryan W.">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Ryan W." class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/1249568-ryan-wells" title="Ryan W.">
+            <span class="comments__username">Ryan W.</span>
+          </a>
+          May 12, 2017
+        </div>
+
+<div class="comments__body">Daredevil and Bullseye are going to have a face off for sure in Daredevil season 3 as the antagonist is expected to appear in the upcoming installment. http://daredevilseason3.com/</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/870021-joe-roccaforte" title="Joe R.">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Joe R." class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/F_7LnXkSFAS4gn9ENhP4fmHuMNs=/124x124/a9387034-6d10-4d1a-92b6-3ad8f40fda35--fb_avatar.jpg"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/870021-joe-roccaforte" title="Joe R.">
+            <span class="comments__username">Joe R.</span>
+          </a>
+          January 5, 2016
+        </div>
+
+<div class="comments__body">Thank You all for the answer to the creme fraiche,,,I rarely use it and agree it would be a waste. Sour cream I do use or in a pinch milk. I am going to make this tonight<br/></div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/30479-wietje" title="wietje">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="wietje" class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/30479-wietje" title="wietje">
+            <span class="comments__username">wietje</span>
+          </a>
+          January 5, 2016
+        </div>
+
+<div class="comments__body">You forgot to use the honey? :)</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/33346-sianbum" title="sianbum">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="sianbum" class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/33346-sianbum" title="sianbum">
+            <span class="comments__username">sianbum</span>
+          </a>
+          January 5, 2016
+        </div>
+
+<div class="comments__body">Is there a potential substitute for the creme fraiche? Mayo? Sour cream? I hate to buy an ingredient for one tbsp, and while I could find something else to use it for, this time of year I'm trying not to...</div>
+
+<div class="comments__action">&nbsp;</div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/842455-tia" title="tia">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="tia" class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20230607164027/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20230607164027/https://food52.com/users/842455-tia" title="tia">
+            <span class="comments__username">tia</span>
+          </a>
+          January 5, 2016
+        </div>
+
+<div class="comments__body">You can sub sour cream in, according to this: http://www.thekitchn.com/whats-a-good-substitute-for-crme-frache-good-questions-215912<br/><br/>I'd probably just use milk because I don't usually keep sour cream on hand; the lemon will take care of making it sour.</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  </div>
+
+</section>
+
+</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+  </div>
+
+<footer class="footer" id="jsFooter">
+  <div class="footer__container">
+    <nav class="footer__nav" aria-label="Footer">
+      <div class="footer__logo">
+        <a href="http://web.archive.org/web/20230607164027/https://food52.com/">
+          <div style="max-width: 100%; width: 125px;"><div style="height: 0; padding-bottom: 20.8%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Food52: Food, Community, Home" class=" lazyload" width="125" height="26" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="/assets/logo-food52-white-4d632dab9627ec41ef324e1e0786ee7f1eff8026fef6a6640634da820043b2df.svg"/></div></div>
+        </a>
+      </div>
+
+<div id="footerLinksRoot" class="footer__columns">
+          <div class="footer__column">
+            <h5 class="footer__sub-heading">Company</h5>
+
+<ul>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/about" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="About Us" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/about">About Us</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/dei-vision-statement" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="DEI Vision" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/dei-vision-statement">DEI Vision</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/welcome-to-our-test-kitchen" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="The Test Kitchen" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/welcome-to-our-test-kitchen">The Test Kitchen</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/the-food52-podcast-network" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Podcast Network" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/the-food52-podcast-network">Podcast Network</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/events" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Events" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/events">Events</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/press" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Press" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/press">Press</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/food52-jobs" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Jobs" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/food52-jobs">Jobs</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/affiliate-program" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Affiliate Program" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/affiliate-program">Affiliate Program</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/sitemap" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Sitemap" data-ga-event-label="none" data-ga-destination-url="https://food52.com/sitemap">Sitemap</a>
+                </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h5 class="footer__sub-heading">Get Help</h5>
+
+<ul>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://support.food52.com/hc" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Contact &amp; FAQ" data-ga-event-label="none" data-ga-destination-url="https://support.food52.com/hc">Contact &amp; FAQ</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/shop/lookup-order" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Orders &amp; Returns" data-ga-event-label="none" data-ga-destination-url="https://food52.com/shop/lookup-order">Orders &amp; Returns</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/food52-trade-program" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Food52 Trade" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/food52-trade-program">Food52 Trade</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://docs.google.com/forms/d/e/1FAIpQLScFUQbtG8IW0rPiRHkQLimoiq0_EI3_5cjE_06WUT_qlB6CJQ/viewform" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Request a Catalog" data-ga-event-label="none" data-ga-destination-url="https://docs.google.com/forms/d/e/1FAIpQLScFUQbtG8IW0rPiRHkQLimoiq0_EI3_5cjE_06WUT_qlB6CJQ/viewform">Request a Catalog</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/shop/gifts/gift-cards" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Gift Cards" data-ga-event-label="none" data-ga-destination-url="https://food52.com/shop/gifts/gift-cards">Gift Cards</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/shop/registry" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Registry" data-ga-event-label="none" data-ga-destination-url="https://food52.com/shop/registry">Registry</a>
+                </li>
+                <li>
+                  <a href="/web/20230607164027/https://food52.com/cdn-cgi/l/email-protection#533237253621273a203a3d3413353c3c3766617d303c3e" class="" target="_blank" rel="noopener noreferrer" data-ga-event="navigationFooter" data-ga-event-action="Advertising Inquiries" data-ga-event-label="none" data-ga-destination-url="mailto:advertising@food52.com">Advertising Inquiries</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/privacy#doNotSell" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Do Not Sell" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/privacy#doNotSell">Do Not Sell</a>
+                </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h5 class="footer__sub-heading">Explore</h5>
+
+<ul>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/shop" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="The Shop" data-ga-event-label="none" data-ga-destination-url="https://food52.com/shop">The Shop</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/recipes" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Recipes" data-ga-event-label="none" data-ga-destination-url="https://food52.com/recipes">Recipes</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/blog" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Food" data-ga-event-label="none" data-ga-destination-url="https://food52.com/blog">Food</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/tags/home52" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Home52" data-ga-event-label="none" data-ga-destination-url="https://food52.com/tags/home52">Home52</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/tags/travel" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Travel" data-ga-event-label="none" data-ga-destination-url="https://food52.com/tags/travel">Travel</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/hotline" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Hotline" data-ga-event-label="none" data-ga-destination-url="https://food52.com/hotline">Hotline</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://food52.com/p/introducing-food52-five-two" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Five Two" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/introducing-food52-five-two">Five Two</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://www.schoolhouse.com/" class="" target="_blank" rel="noopener noreferrer" data-ga-event="navigationFooter" data-ga-event-action="Schoolhouse" data-ga-event-label="none" data-ga-destination-url="https://www.schoolhouse.com">Schoolhouse</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20230607164027/https://www.dansk.com/" class="" target="_blank" rel="noopener noreferrer" data-ga-event="navigationFooter" data-ga-event-action="Dansk" data-ga-event-label="none" data-ga-destination-url="https://www.dansk.com">Dansk</a>
+                </li>
+            </ul>
+          </div>
+      </div>
+
+<div class="footer__fine-print">
+        <div class="footer__copyright">&copy;2023 Food52</div>
+        <a href="/web/20230607164027/https://food52.com/terms">Terms</a> | <a href="/web/20230607164027/https://food52.com/p/privacy">Privacy</a> |  <a href="/web/20230607164027/https://food52.com/code_conduct">Code of Conduct</a> | <a href="/web/20230607164027/https://food52.com/accessibility">Accessibility Policy</a>
+      </div>
+    </nav>
+
+<div class="footer__actions">
+      <div class="footer__social-links" id="footerSocialLinksRoot"></div>
+
+<div class="footer__mailing-list">
+        <div class="mailing-list__copy">
+          <h4 class="mailing-list__header">Sign up for our newsletter</h4>
+          <p class="mailing-list__blurb">Our best tips for eating thoughtfully and living joyfully, right in your inbox.</p>
+        </div>
+
+<div class="mailingListRoot" data-location="Global Footer" data-source="onsite-globalfooter" data-hide-header="true" data-cta="Sign Up" data-custom-id="footer-email"></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<div id="panelRoot"></div>
+    <div id="basketModalMount"></div>
+
+<!-- mobile_interstitial -->
+      <div fsnoad="true" class="ad-slot ad-slot--pixel" id="Food52_ROS_1x1"></div>
+
+<div id="sailthruRoot"></div>
+    <div id="zendeskRoot"></div>
+
+<div id="subnavRoot"></div>
+
+<script data-cfasync="false" src="/web/20230607164027js_/https://food52.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        (function() {
+          if (typeof(f52) === 'undefined') {
+            f52 = {};
+          }
+          if (typeof(f52.inputs) === 'undefined') {
+            f52.inputs = {};
+          }
+          var gtmCoreData = {"authorName":"Taylor Rondestvedt","blogFeatureTopic":"What to Cook","contentHeadline":"Dinner Tonight: BFF Crispy Coated Chicken","contentId":15446,"contentPublishDate":"2016-01-05T09:00:00.000-05:00","contentUpdateDate":"2018-09-26T03:49:19.226-04:00","tags":"Dinner Tonight, Leftovers, Kids, Dinner, Faster, Chicken, What to Cook, Weeknight Cooking","pageCategory":"What to Cook","pageType":"Article"};
+          f52.inputs.gtmCoreData = gtmCoreData;
+        })();
+      </script>
+
+<script>
+        (function() {
+          if (typeof(f52) === 'undefined') {
+            f52 = {};
+          }
+          if (typeof(f52.inputs) === 'undefined') {
+            f52.inputs = {};
+          }
+          var blogShow = {"postId":15446,"commentBundle":"{\"commentableType\":\"Post\",\"commentableId\":15446,\"comments\":[{\"id\":350632,\"parentId\":null,\"userId\":1249568,\"body\":\"Daredevil and Bullseye are going to have a face off for sure in Daredevil season 3 as the antagonist is expected to appear in the upcoming installment. http://daredevilseason3.com/\",\"imageSrcs\":null,\"createdAt\":\"2017-05-12T03:20:28.059-04:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]},{\"id\":287984,\"parentId\":null,\"userId\":870021,\"body\":\"Thank You all for the answer to the creme fraiche,,,I rarely use it and agree it would be a waste. Sour cream I do use or in a pinch milk. I am going to make this tonight\\u003cbr\\u003e\",\"imageSrcs\":null,\"createdAt\":\"2016-01-05T20:52:07.000-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]},{\"id\":287979,\"parentId\":null,\"userId\":30479,\"body\":\"You forgot to use the honey? :)\",\"imageSrcs\":null,\"createdAt\":\"2016-01-05T19:50:34.000-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]},{\"id\":287908,\"parentId\":null,\"userId\":33346,\"body\":\"Is there a potential substitute for the creme fraiche? Mayo? Sour cream? I hate to buy an ingredient for one tbsp, and while I could find something else to use it for, this time of year I'm trying not to...\",\"imageSrcs\":null,\"createdAt\":\"2016-01-05T10:55:34.000-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[{\"id\":287914,\"parentId\":287908,\"userId\":842455,\"body\":\"You can sub sour cream in, according to this: \\u003ca href=\\\"http://www.thekitchn.com/whats-a-good-substitute-for-crme-frache-good-questions-215912\\\" rel=\\\"nofollow\\\" target=\\\"_blank\\\"\\u003ehttp://www.thekitchn.com...\\u003c/a\\u003e\\u003cbr\\u003e\\u003cbr\\u003eI'd probably just use milk because I don't usually keep sour cream on hand; the lemon will take care of making it sour.\",\"imageSrcs\":null,\"createdAt\":\"2016-01-05T12:36:41.000-05:00\",\"childComments\":[],\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false}]}],\"commentingUsers\":[{\"id\":1249568,\"login\":\"Ryan Wells\",\"email\":\"ryanwells0088@gmail.com\",\"url\":\"/users/1249568-ryan-wells\",\"specialistTitle\":null,\"hasAvatar\":false,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"Ryan W.\"},{\"id\":870021,\"login\":\"Joe Roccaforte\",\"email\":\"joeroccaforte@yahoo.com\",\"url\":\"/users/870021-joe-roccaforte\",\"specialistTitle\":null,\"hasAvatar\":true,\"imageUrl\":\"https://images.food52.com/F_7LnXkSFAS4gn9ENhP4fmHuMNs=/124x124/a9387034-6d10-4d1a-92b6-3ad8f40fda35--fb_avatar.jpg\",\"redactedName\":\"Joe R.\"},{\"id\":30479,\"login\":\"wietje\",\"email\":\"wietje2005@yahoo.com\",\"url\":\"/users/30479-wietje\",\"specialistTitle\":null,\"hasAvatar\":false,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"wietje\"},{\"id\":33346,\"login\":\"sianbum\",\"email\":\"sbumsted@gmail.com\",\"url\":\"/users/33346-sianbum\",\"specialistTitle\":null,\"hasAvatar\":false,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"sianbum\"},{\"id\":842455,\"login\":\"tia\",\"email\":\"melissadunlap@gmail.com\",\"url\":\"/users/842455-tia\",\"specialistTitle\":null,\"hasAvatar\":false,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"tia\"},{\"id\":null,\"url\":null,\"hasAvatar\":true,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"A Whole Foods Market Customer\"}],\"commentCount\":5,\"loadedCommentsCount\":5}","hideSidebarVideo":false,"sponsoredProductDetails":null,"hideSave":false};
+          f52.inputs.blogShow = blogShow;
+        })();
+      </script>
+
+<script>
+        (function() {
+          if (typeof(f52) === 'undefined') {
+            f52 = {};
+          }
+          if (typeof(f52.inputs) === 'undefined') {
+            f52.inputs = {};
+          }
+          var belowFold = {"type":"post","id":15446,"authorId":728885,"carouselName":"Shop the Story","commentEndpoints":{"get":"/comments/moar_comments","add":"/comments/ajax_add_comment","helpful":"/comments/{ID}/ajax_create_comment_helpful_flag","flag":"/comments/{ID}/ajax_create_comment_flag"},"mailingListSource":"onsite-widget_article","mailingListBanner":{"mobile":"http://web.archive.org/web/20230607164027/https://food52.com/assets/blog/bg-mailing-list-mobile-c65891b8fe1a290f5e8f666648a7752b269d47c6bfe07192850aae1c5e7b9993.jpg","mobile2x":"http://web.archive.org/web/20230607164027/https://food52.com/assets/blog/bg-mailing-list-mobile2x-362a349cf9d003b2b9e939dc76bf93e714e9ac6db5bd4cd91b0ed289dd81c42a.jpg","desktop":"http://web.archive.org/web/20230607164027/https://food52.com/assets/blog/bg-mailing-list-desktop-1d7584299446fb56b2690e62605fd5c168c1388e9a8a4872bac21928eae51d58.jpg","desktop2x":"http://web.archive.org/web/20230607164027/https://food52.com/assets/blog/bg-mailing-list-desktop2x-993aa486dad04f5a8aa917c05f50ad0fc9070b9f7744755740ccfdf7141f8c70.jpg"},"scripts":["//web.archive.org/web/20230607164027/https://assets.pinterest.com/js/pinit.js"]};
+          f52.inputs.belowFold = belowFold;
+        })();
+      </script>
+
+<script>
+        (function() {
+          if (typeof(f52) === 'undefined') {
+            f52 = {};
+          }
+          if (typeof(f52.inputs) === 'undefined') {
+            f52.inputs = {};
+          }
+          var ads = {"scrollPromoBanner":true,"targeting":[{"name":"PageType","value":"article"},{"name":"Article","value":"15446"},{"name":"SponsoredArticle","value":"false"},{"name":"BlogTopic","value":false},{"name":"Tag","value":"dinner-tonight,leftovers,kids,dinner-faster,chicken,what-to-cook,weeknight-cooking"}]};
+          f52.inputs.ads = ads;
+        })();
+      </script>
+
+<script>
+        (function() {
+          if (typeof(f52) === 'undefined') {
+            f52 = {};
+          }
+          if (typeof(f52.inputs) === 'undefined') {
+            f52.inputs = {};
+          }
+          var userCustomizations = {"blog_show":{"id":15446},"collections":{"collectableIdsOnPage":[["post",15446,null]]},"user_following":{"userIds":[728885]},"comment_email_status":{"commentableType":"Post","commentableId":15446}};
+          f52.inputs.userCustomizations = userCustomizations;
+        })();
+      </script>
+
+<script src="/web/20230607164027js_/https://food52.com/dist/vendor.160d9d563f90e6f269a1.js"></script>
+  <script src="/web/20230607164027js_/https://food52.com/dist/runtime.31ebd0cf5345cdfc9e6f.js"></script>
+  <script src="/web/20230607164027js_/https://food52.com/dist/application.d11ae61b6224807b033d.js"></script>
+
+<script>
+        (function() {
+          if (typeof(f52) === 'undefined') {
+            f52 = {};
+          }
+          if (typeof(f52.inputs) === 'undefined') {
+            f52.inputs = {};
+          }
+          var sailthru = {"sailthruURL":"http://web.archive.org/web/20230607164027/https://food52.com/blog/15446-dinner-tonight-bff-crispy-coated-chicken"};
+          f52.inputs.sailthru = sailthru;
+        })();
+      </script>
+
+<script src="/web/20230607164027js_/https://food52.com/dist/blog_show.3011f2a6305090045f1d.js"></script>
+
+<script>
+      window._qevents = [];
+    </script>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 16:40:27 Jun 07, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:52:42 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.142
+  exclusion.robots: 0.115
+  exclusion.robots.policy: 0.09
+  esindex: 0.014
+  cdx.remote: 348.685
+  LoadShardBlock: 414.959 (3)
+  PetaboxLoader3.datanode: 271.489 (4)
+  load_resource: 354.753
+  PetaboxLoader3.resolve: 173.287
+-->

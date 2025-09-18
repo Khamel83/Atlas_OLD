@@ -1,0 +1,606 @@
+# Content from https://www.weskao.com/coaching
+
+*Retrieved: 2025-09-15T15:09:36.413944*
+
+---
+
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"  >
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1">
+
+<!-- This is Squarespace. --><!-- wes-kao-2las -->
+<base href="">
+<meta charset="utf-8" />
+<title>Wes Kao &mdash; Coaching</title>
+<meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" /><link rel="icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5a63ce8249fc2bd3d2b85ef8/1529004863359-KTCTGW4W3ESOEW8BV33Y/favicon.ico?format=100w"/>
+<link rel="canonical" href="https://www.weskao.com/coaching"/>
+<meta property="og:site_name" content="Wes Kao"/>
+<meta property="og:title" content="Wes Kao &mdash; Coaching"/>
+<meta property="og:url" content="https://www.weskao.com/coaching"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="http://static1.squarespace.com/static/5a63ce8249fc2bd3d2b85ef8/t/650c547ff36a69211f75aa0f/1695306879398/Screenshot+2023-09-21+at+10.33.27+AM.png?format=1500w"/>
+<meta property="og:image:width" content="700"/>
+<meta property="og:image:height" content="664"/>
+<meta itemprop="name" content="Wes Kao — Coaching"/>
+<meta itemprop="url" content="https://www.weskao.com/coaching"/>
+<meta itemprop="thumbnailUrl" content="http://static1.squarespace.com/static/5a63ce8249fc2bd3d2b85ef8/t/650c547ff36a69211f75aa0f/1695306879398/Screenshot+2023-09-21+at+10.33.27+AM.png?format=1500w"/>
+<link rel="image_src" href="http://static1.squarespace.com/static/5a63ce8249fc2bd3d2b85ef8/t/650c547ff36a69211f75aa0f/1695306879398/Screenshot+2023-09-21+at+10.33.27+AM.png?format=1500w" />
+<meta itemprop="image" content="http://static1.squarespace.com/static/5a63ce8249fc2bd3d2b85ef8/t/650c547ff36a69211f75aa0f/1695306879398/Screenshot+2023-09-21+at+10.33.27+AM.png?format=1500w"/>
+<meta name="twitter:title" content="Wes Kao — Coaching"/>
+<meta name="twitter:image" content="http://static1.squarespace.com/static/5a63ce8249fc2bd3d2b85ef8/t/650c547ff36a69211f75aa0f/1695306879398/Screenshot+2023-09-21+at+10.33.27+AM.png?format=1500w"/>
+<meta name="twitter:url" content="https://www.weskao.com/coaching"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="description" content="" />
+<link rel="preconnect" href="https://images.squarespace-cdn.com">
+<link rel="preconnect" href="https://use.typekit.net" crossorigin>
+<link rel="preconnect" href="https://p.typekit.net" crossorigin>
+<script type="text/javascript" src="//use.typekit.net/ik/U4RWX93NM1meEVY3JokamLSumRFdsDWz-YAJhZf_94SfeG6efFHN4UJLFRbh52jhWDmyFRFRZQ6kF28cjD4KZ2FqwcJtFAmc5gnhMKG0jAFu-WsoShFGZAsude80ZkoRdhXCHKoyjamTiY8Djhy8ZYmC-Ao1Oco8if37OcBDOcu8OfG0SaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdP37O1i8SkunjAvlwcUySkoDSWmyScmDSeBRZPoRdhXCjAFu-WsoShFGZAsude80ZkoRdhXCjAFu-WsoShFGZAsude80Zko0ZWbCjWw0dA9CdeNRjAUGdaFXOYFUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCihmDOAlydkXkdeBDO1FUiABkZWF3jAF8OcFzdPUaZWFnjAv0jhNlOYiaikoyjamTiY8Djhy8ZYmC-Ao1OcFzdPUaiaS0jAFu-WsoShFGZAsude80Zko0ZWbCiaiaOcBDOcu8OYiaikoDSWmyScmDSeBRZWFR-emqiAUTdcS0jhNlOYiaikoaZWwl-hBzOQ4CjWw0SaBujW48Sagyjh90jhNlOYiaikoaZWFnjAv0jhNlJ6U3ScNt-AuyOAozicIK2ABnie8hOAikdas8ShCKfA80iemkZcBRZPJed1m0-WszJ6uUiAmDieIlZa4ydcs8J6UydA4kdh8DZPuDiebKIAsTdKuRdhoqZAoDZAblihmKH6qJtKGbMg62JMJ7fbKzMsMMeMb6MKG4fHXgIMMjgKMfH6qJK3IbMg6YJMJ7f6KJ7MIbMs6fJMJ7fbRbdsMgeMb6MKG4fFZlIMIjgPMfH6qJq93bMy62JMJ7fbKOQgMfeMb6MKG4fJuwIMJjgkMfH6qJ8I3bMy6FJMJ7fbK5QgMfegI6MKG4fwm_IMwjMkMfH6qJUYCbMU6IJMJ7fbR2pUM2eMS6MKGHfHLeMyM2eMt6MKGHfH1eMyM2egI6MKGHfFfeMyMIeMw6MKGHfF-eMyMIeMS6MKG4fOq5IM9jgfMfH6qJ03tbgs6YJMJ7f6K4xMIbgy62JMJ7fbR_mgMeeMb6MTMgEFPK7Mj.js" async fetchpriority="high" onload="try{Typekit.load();}catch(e){} document.documentElement.classList.remove('wf-loading');"></script>
+<script>document.documentElement.classList.add('wf-loading')</script>
+<style>@keyframes fonts-loading { 0%, 99% { color: transparent; } } html.wf-loading * { animation: fonts-loading 3s; }</style>
+<link rel="preconnect" href="https://use.typekit.net" crossorigin>
+<link rel="preconnect" href="https://p.typekit.net" crossorigin>
+<script type="text/javascript" src="//use.typekit.net/ik/cUM2KzaedAJdjNc_Kq_N-K_KVZjZMSkBpE9xwic5443fez62f4e6pUJ6wRMU5QwXFmvujQjDjh9twRboZcwkjcbDZ24K52m8ZR6-N6J7OcBRiA8XpWFR-emqiAUTdcS0jhNlOfG0jAFu-WsoShFGZAsude80Zko0ZWbCHKoySkolZP37O1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCHKoaZWwl-hBzOQ4CjWw0SaBujW48Sagyjh90jhNlOeBRiA8XpWFR-emqiAUTdcS0jhNlOeBRiA8XpWFR-emqiAUTdcS0dcmXOeBDOcu8OeUzjhBC-eNDifUDSWmyScmDSeBRZWFR-emqiAUTdcS0jhNlOYi8SkunjAvlwcUySkoDSWmyScmDSeBRZPoRdhXCihmD-hBzOcFzdPUaiaS0jAFu-WsoShFGZAsude80ZkoRdhXCiaiaOcBRiA8XpWFR-emqiAUTdcS0dcmXOYiaikoySkolZPUaiaS0SaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPUaiaS0ihmDOAlydkXkdeBDO1FUiABkZWF3jAF8OcFzdPUaiaS0ihmD-hBzOcFzdPJ4Z1mXiW4yOWgXJ6oCiewljcNqdhoTOQIaFPG4fJsmIMMjgfMfH6qJxubbMg6BJMJ7fbKBmsMMeMt6MKG4fVvnIMIjgfMfH6qJxKCbMs65JMHbMj0-7-te.js" async fetchpriority="high" onload="try{Typekit.load();}catch(e){} document.documentElement.classList.remove('wf-loading');"></script>
+<script>document.documentElement.classList.add('wf-loading')</script>
+<style>@keyframes fonts-loading { 0%, 99% { color: transparent; } } html.wf-loading * { animation: fonts-loading 3s; }</style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500"><script type="text/javascript" crossorigin="anonymous" nomodule="nomodule" src="//assets.squarespace.com/@sqs/polyfiller/1.6/legacy.js"></script>
+<script type="text/javascript" crossorigin="anonymous" src="//assets.squarespace.com/@sqs/polyfiller/1.6/modern.js"></script>
+<script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-199f67a032f4c190-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-extract_css_runtime');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-199f67a032f4c190-min.en-US.js" ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-6f2a1f6ec9a41489-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-extract_css_moment_js_vendor');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-6f2a1f6ec9a41489-min.en-US.js" ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-c5175d8ac6fd7505-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-cldr_resource_pack');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-c5175d8ac6fd7505-min.en-US.js" ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fbd854d40b0804b7-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common_vendors_stable');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-fbd854d40b0804b7-min.en-US.js" ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-vendors-064f6d2792a6e103-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common_vendors');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-vendors-064f6d2792a6e103-min.en-US.js" ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-7f912cbcedc18d33-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-7f912cbcedc18d33-min.en-US.js" ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/performance-8ae183c38ee3dcc4-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-performance');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/performance-8ae183c38ee3dcc4-min.en-US.js" defer ></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"betaFeatureFlags":["section_sdk_product_pages_phase_two","campaigns_discount_section_in_automations","campaigns_thumbnail_layout","campaigns_import_discounts","marketing_landing_page","i18n_beta_website_locales","order_status_page_checkout_landing_enabled","section_sdk_product_pages_phase_two_end","section_sdk_product_pages_opt_in_modal","campaigns_merch_state","marketing_automations","campaigns_new_image_layout_picker","campaigns_discount_section_in_blasts","enable_form_submission_trigger","contacts_and_campaigns_redesign","product_pages_sdk_opt_in_enabled"],"facebookAppId":"314192535267336","facebookApiVersion":"v6.0","rollups":{"squarespace-announcement-bar":{"js":"//assets.squarespace.com/universal/scripts-compressed/announcement-bar-47f2b5ad20b5a1f8-min.en-US.js"},"squarespace-audio-player":{"css":"//assets.squarespace.com/universal/styles-compressed/audio-player-b05f5197a871c566-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/audio-player-8ff7d9e5bbaa61c6-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/blog-collection-list-b4046463b72f34e2-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-d311389abad5cb4e-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-b72d08ba4421f5a0-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-968cdc0f3cef83d5-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-96b256171ee039c1-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-9dceb144c7651c6b-min.en-US.js"},"squarespace-comments":{"css":"//assets.squarespace.com/universal/styles-compressed/comments-16405e18e484a72b-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/comments-aea52c0e9090db64-min.en-US.js"},"squarespace-custom-css-popup":{"css":"//assets.squarespace.com/universal/styles-compressed/custom-css-popup-0285f3c00fa30409-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-d323ee4a5c8d126d-min.en-US.js"},"squarespace-dialog":{"css":"//assets.squarespace.com/universal/styles-compressed/dialog-f9093f2d526b94df-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/dialog-438828f882bcf0fb-min.en-US.js"},"squarespace-events-collection":{"css":"//assets.squarespace.com/universal/styles-compressed/events-collection-b72d08ba4421f5a0-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/events-collection-2bc817af34c081b9-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-4d3be83c947fdc0c-min.en-US.js"},"squarespace-forms":{"css":"//assets.squarespace.com/universal/styles-compressed/forms-0afd3c6ac30bbab1-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/forms-e8dfd92d01326da5-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-b4046463b72f34e2-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-576f85f760af6e95-min.en-US.js"},"squarespace-image-zoom":{"css":"//assets.squarespace.com/universal/styles-compressed/image-zoom-b4046463b72f34e2-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/image-zoom-48fa25f53a8051bf-min.en-US.js"},"squarespace-pinterest":{"css":"//assets.squarespace.com/universal/styles-compressed/pinterest-b4046463b72f34e2-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/pinterest-6a1b72510147fc54-min.en-US.js"},"squarespace-popup-overlay":{"css":"//assets.squarespace.com/universal/styles-compressed/popup-overlay-b742b752f5880972-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/popup-overlay-9028421b4e1ff9e0-min.en-US.js"},"squarespace-product-quick-view":{"css":"//assets.squarespace.com/universal/styles-compressed/product-quick-view-9052fb446c5800ee-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/product-quick-view-8d29554b41fef09a-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-b4046463b72f34e2-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-18f8dd35f59f518d-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-b4046463b72f34e2-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-de04c98879eafaa3-min.en-US.js"},"squarespace-search-page":{"css":"//assets.squarespace.com/universal/styles-compressed/search-page-90a67fc09b9b32c6-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/search-page-e5f1372318aea976-min.en-US.js"},"squarespace-search-preview":{"js":"//assets.squarespace.com/universal/scripts-compressed/search-preview-151ffba8baf13bd7-min.en-US.js"},"squarespace-simple-liking":{"css":"//assets.squarespace.com/universal/styles-compressed/simple-liking-701bf8bbc05ec6aa-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/simple-liking-8213887e30899090-min.en-US.js"},"squarespace-social-buttons":{"css":"//assets.squarespace.com/universal/styles-compressed/social-buttons-95032e5fa98e47a5-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/social-buttons-ec53e1f9f187c498-min.en-US.js"},"squarespace-tourdates":{"css":"//assets.squarespace.com/universal/styles-compressed/tourdates-b4046463b72f34e2-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/tourdates-1e51660fbb6b71ba-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-07ea5a4e004e6710-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-5f4642c4f6c295de-min.en-US.js"}},"pageType":2,"website":{"id":"5a63ce8249fc2bd3d2b85ef8","identifier":"wes-kao-2las","websiteType":1,"contentModifiedOn":1755717732219,"cloneable":false,"hasBeenCloneable":false,"siteStatus":{},"language":"en-US","translationLocale":"en-US","timeZone":"America/Toronto","machineTimeZoneOffset":-14400000,"timeZoneOffset":-14400000,"timeZoneAbbr":"EDT","siteTitle":"Wes Kao","fullSiteTitle":"Wes Kao \u2014 Coaching","siteDescription":"<p>Hey, I\u2019m Wes. My mission is to use marketing to help people care more. I believe that bottlenecks to progress and innovation aren\u2019t purely technology problems\u2014they are people problems. The hard part is: How do we get people to care?\u2026 Continue Reading \u2192</p>","socialLogoImageId":"650c547ff36a69211f75aa0f","shareButtonOptions":{"1":true,"2":true,"4":true},"socialLogoImageUrl":"//images.squarespace-cdn.com/content/v1/5a63ce8249fc2bd3d2b85ef8/cf7c79c1-0a8d-4b8b-90ab-0a05bfd984a5/Screenshot+2023-09-21+at+10.33.27+AM.png","authenticUrl":"https://www.weskao.com","internalUrl":"https://wes-kao-2las.squarespace.com","baseUrl":"https://www.weskao.com","primaryDomain":"www.weskao.com","sslSetting":3,"isHstsEnabled":false,"socialAccounts":[{"serviceId":85,"screenname":"X","addedOn":1707763915172,"profileUrl":"https://x.com/Entrepreneur/status/1443637810582462469","iconEnabled":true,"serviceName":"x-formerly-twitter-unauth"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"screenshotId":"a64311148c26c36665e68207984132a58dd0f7e5316589244d757f12e25e85aa","captchaSettings":{"siteKey":"6LdDTdEUAAAAAB5YiDgkP7dKI0XuHNxsv4sSFBC5","enabledForDonations":false},"showOwnerLogin":false},"websiteSettings":{"id":"5a63ce8249fc2bd3d2b85efa","websiteId":"5a63ce8249fc2bd3d2b85ef8","type":"Personal","subjects":[],"country":"CA","state":"ON","simpleLikingEnabled":true,"mobileInfoBarSettings":{"style":1,"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"announcementBarSettings":{"style":1,"text":"<p class=\"\" style=\"white-space:pre-wrap;\">Get my weekly newsletter (Click the bullseye)  \uD83C\uDFAF</p>","clickthroughUrl":{"url":"/subscribe","newWindow":true}},"popupOverlaySettings":{"style":1,"showOnScroll":true,"scrollPercentage":50,"showOnTimer":false,"timerDelay":5000,"showUntilSignup":true,"displayFrequency":1,"enableMobile":true,"enabledPages":["5a63f662501a10f3f0c457cf","5d4efca17aff0500015f497a","5d6416d5b7541c0001328062","5b8417c9898583e9f6eca75a","5a63f664501a10f3f0c4581c","5b2664dc2b6a2886443309c5","5b8418ec352f53cbba41ef01","5f0879a1dc66191033d3b904","5f03b95e6572221cdd2e0e3c","5ef9f8c8068552405e88d9fa","5f03d4a5abdafe1f689275ae"],"showOnAllPages":false,"version":2},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["CHF","HKD","MXN","EUR","DKK","USD","CAD","MYR","NOK","THB","AUD","SGD","ILS","PLN","GBP","CZK","SEK","NZD","PHP","RUB"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"checkoutPageMarketingOptInEnabled":false,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"merchandisingSettings":{"scarcityEnabledOnProductItems":false,"scarcityEnabledOnProductBlocks":false,"scarcityMessageType":"DEFAULT_SCARCITY_MESSAGE","scarcityThreshold":10,"multipleQuantityAllowedForServices":true,"restockNotificationsEnabled":false,"restockNotificationsSuccessText":"","restockNotificationsMailingListSignUpEnabled":false,"relatedProductsEnabled":false,"relatedProductsOrdering":"random","soldOutVariantsDropdownDisabled":false,"productComposerOptedIn":false,"productComposerABTestOptedOut":false,"productReviewsEnabled":false,"displayImportedProductReviewsEnabled":false,"hasOptedToCollectNativeReviews":false},"minimumOrderSubtotalEnabled":false,"minimumOrderSubtotal":{"currency":"USD","value":"0.00"},"isLive":false,"multipleQuantityAllowedForServices":true},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"userAccountsSettings":{"loginAllowed":false,"signupAllowed":false}},"cookieSettings":{"isCookieBannerEnabled":true,"isRestrictiveCookiePolicyEnabled":false,"cookieBannerText":"By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively.","cookieBannerTheme":"DARK","cookieBannerThemeName":"black","cookieBannerVariant":"BAR","cookieBannerPosition":"BOTTOM","cookieBannerCtaVariant":"ICON","cookieBannerCtaText":"OK","cookieBannerAcceptType":"OPT_IN","cookieBannerHasOptOut":false,"cookieBannerHasManageCookies":false,"cookieBannerSavedPreferencesLayout":"PILL"},"websiteCloneable":false,"collection":{"title":"Coaching","id":"65dfa235777535444ce4ecef","fullUrl":"/coaching","type":10,"permissionType":1},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","gallery-arrow-style":"No Background","gallery-aspect-ratio":"3:2 Standard","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Slideshow","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Bullets","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(34,34,34,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0, 0, 0, .7)","galleryThumbnailSize":"100px","gridSize":"350px","gridSpacing":"20px","tweak-blog-list-columns":"2","tweak-blog-list-item-image-aspect-ratio-grid":"1:1 Square","tweak-blog-list-item-image-aspect-ratio-stacked":"2.40 Anamorphic Widescreen","tweak-blog-list-item-image-show":"false","tweak-blog-list-spacing":"40px","tweak-blog-list-style":"Stacked","tweak-footer-layout":"Stacked","tweak-header-bottom-overlay-on-index-gallery":"false","tweak-index-gallery-apply-bottom-spacing":"true","tweak-index-gallery-autoplay-duration":"2","tweak-index-gallery-autoplay-enable":"true","tweak-index-gallery-fixed-height":"true","tweak-index-gallery-height":"100vh","tweak-index-gallery-indicators":"Lines","tweak-index-gallery-layout":"Packed","tweak-index-gallery-transition":"Fade","tweak-index-gallery-transition-duration":"500","tweak-index-nav-position":"Right","tweak-index-page-apply-bottom-spacing":"true","tweak-index-page-fullscreen":"None","tweak-index-page-min-height":"75vh","tweak-mobile-breakpoint":"960px","tweak-overlay-parallax-enabled":"false","tweak-overlay-parallax-new-math":"false","tweak-product-item-image-zoom-factor":"1.5","tweak-product-list-item-hover-behavior":"Show Alternate Image","tweak-product-list-items-per-row":"2","tweak-related-products-items-per-row":"3","tweak-related-products-title-spacing":"50px","tweak-site-ajax-loading-enable":"false","tweak-site-border-show":"false","tweak-site-border-width":"100px"},"templateId":"55f0aac0e4b0f0a5b7e0b22e","templateVersion":"7","pageFeatures":[1,2,4],"gmRenderKey":"QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4","templateScriptsRootUrl":"https://static1.squarespace.com/static/ta/55f0a9b0e4b0f3eb70352f6d/354/scripts/","impersonatedSession":false,"tzData":{"zones":[[-300,"Canada","E%sT",null]],"rules":{"Canada":[[1974,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}},"showAnnouncementBar":false,"recaptchaEnterpriseContext":{"recaptchaEnterpriseSiteKey":"6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv"},"i18nContext":{"timeZoneData":{"id":"America/Toronto","name":"Eastern Time"}},"env":"PRODUCTION","visitorFormContext":{"formFieldFormats":{"countries":[{"name":"Afghanistan","code":"AF","phoneCode":"+93"},{"name":"\u00C5land Islands","code":"AX","phoneCode":"+358"},{"name":"Albania","code":"AL","phoneCode":"+355"},{"name":"Algeria","code":"DZ","phoneCode":"+213"},{"name":"American Samoa","code":"AS","phoneCode":"+1"},{"name":"Andorra","code":"AD","phoneCode":"+376"},{"name":"Angola","code":"AO","phoneCode":"+244"},{"name":"Anguilla","code":"AI","phoneCode":"+1"},{"name":"Antigua & Barbuda","code":"AG","phoneCode":"+1"},{"name":"Argentina","code":"AR","phoneCode":"+54"},{"name":"Armenia","code":"AM","phoneCode":"+374"},{"name":"Aruba","code":"AW","phoneCode":"+297"},{"name":"Ascension Island","code":"AC","phoneCode":"+247"},{"name":"Australia","code":"AU","phoneCode":"+61"},{"name":"Austria","code":"AT","phoneCode":"+43"},{"name":"Azerbaijan","code":"AZ","phoneCode":"+994"},{"name":"Bahamas","code":"BS","phoneCode":"+1"},{"name":"Bahrain","code":"BH","phoneCode":"+973"},{"name":"Bangladesh","code":"BD","phoneCode":"+880"},{"name":"Barbados","code":"BB","phoneCode":"+1"},{"name":"Belarus","code":"BY","phoneCode":"+375"},{"name":"Belgium","code":"BE","phoneCode":"+32"},{"name":"Belize","code":"BZ","phoneCode":"+501"},{"name":"Benin","code":"BJ","phoneCode":"+229"},{"name":"Bermuda","code":"BM","phoneCode":"+1"},{"name":"Bhutan","code":"BT","phoneCode":"+975"},{"name":"Bolivia","code":"BO","phoneCode":"+591"},{"name":"Bosnia & Herzegovina","code":"BA","phoneCode":"+387"},{"name":"Botswana","code":"BW","phoneCode":"+267"},{"name":"Brazil","code":"BR","phoneCode":"+55"},{"name":"British Indian Ocean Territory","code":"IO","phoneCode":"+246"},{"name":"British Virgin Islands","code":"VG","phoneCode":"+1"},{"name":"Brunei","code":"BN","phoneCode":"+673"},{"name":"Bulgaria","code":"BG","phoneCode":"+359"},{"name":"Burkina Faso","code":"BF","phoneCode":"+226"},{"name":"Burundi","code":"BI","phoneCode":"+257"},{"name":"Cambodia","code":"KH","phoneCode":"+855"},{"name":"Cameroon","code":"CM","phoneCode":"+237"},{"name":"Canada","code":"CA","phoneCode":"+1"},{"name":"Cape Verde","code":"CV","phoneCode":"+238"},{"name":"Caribbean Netherlands","code":"BQ","phoneCode":"+599"},{"name":"Cayman Islands","code":"KY","phoneCode":"+1"},{"name":"Central African Republic","code":"CF","phoneCode":"+236"},{"name":"Chad","code":"TD","phoneCode":"+235"},{"name":"Chile","code":"CL","phoneCode":"+56"},{"name":"China","code":"CN","phoneCode":"+86"},{"name":"Christmas Island","code":"CX","phoneCode":"+61"},{"name":"Cocos (Keeling) Islands","code":"CC","phoneCode":"+61"},{"name":"Colombia","code":"CO","phoneCode":"+57"},{"name":"Comoros","code":"KM","phoneCode":"+269"},{"name":"Congo - Brazzaville","code":"CG","phoneCode":"+242"},{"name":"Congo - Kinshasa","code":"CD","phoneCode":"+243"},{"name":"Cook Islands","code":"CK","phoneCode":"+682"},{"name":"Costa Rica","code":"CR","phoneCode":"+506"},{"name":"C\u00F4te d\u2019Ivoire","code":"CI","phoneCode":"+225"},{"name":"Croatia","code":"HR","phoneCode":"+385"},{"name":"Cuba","code":"CU","phoneCode":"+53"},{"name":"Cura\u00E7ao","code":"CW","phoneCode":"+599"},{"name":"Cyprus","code":"CY","phoneCode":"+357"},{"name":"Czechia","code":"CZ","phoneCode":"+420"},{"name":"Denmark","code":"DK","phoneCode":"+45"},{"name":"Djibouti","code":"DJ","phoneCode":"+253"},{"name":"Dominica","code":"DM","phoneCode":"+1"},{"name":"Dominican Republic","code":"DO","phoneCode":"+1"},{"name":"Ecuador","code":"EC","phoneCode":"+593"},{"name":"Egypt","code":"EG","phoneCode":"+20"},{"name":"El Salvador","code":"SV","phoneCode":"+503"},{"name":"Equatorial Guinea","code":"GQ","phoneCode":"+240"},{"name":"Eritrea","code":"ER","phoneCode":"+291"},{"name":"Estonia","code":"EE","phoneCode":"+372"},{"name":"Eswatini","code":"SZ","phoneCode":"+268"},{"name":"Ethiopia","code":"ET","phoneCode":"+251"},{"name":"Falkland Islands","code":"FK","phoneCode":"+500"},{"name":"Faroe Islands","code":"FO","phoneCode":"+298"},{"name":"Fiji","code":"FJ","phoneCode":"+679"},{"name":"Finland","code":"FI","phoneCode":"+358"},{"name":"France","code":"FR","phoneCode":"+33"},{"name":"French Guiana","code":"GF","phoneCode":"+594"},{"name":"French Polynesia","code":"PF","phoneCode":"+689"},{"name":"Gabon","code":"GA","phoneCode":"+241"},{"name":"Gambia","code":"GM","phoneCode":"+220"},{"name":"Georgia","code":"GE","phoneCode":"+995"},{"name":"Germany","code":"DE","phoneCode":"+49"},{"name":"Ghana","code":"GH","phoneCode":"+233"},{"name":"Gibraltar","code":"GI","phoneCode":"+350"},{"name":"Greece","code":"GR","phoneCode":"+30"},{"name":"Greenland","code":"GL","phoneCode":"+299"},{"name":"Grenada","code":"GD","phoneCode":"+1"},{"name":"Guadeloupe","code":"GP","phoneCode":"+590"},{"name":"Guam","code":"GU","phoneCode":"+1"},{"name":"Guatemala","code":"GT","phoneCode":"+502"},{"name":"Guernsey","code":"GG","phoneCode":"+44"},{"name":"Guinea","code":"GN","phoneCode":"+224"},{"name":"Guinea-Bissau","code":"GW","phoneCode":"+245"},{"name":"Guyana","code":"GY","phoneCode":"+592"},{"name":"Haiti","code":"HT","phoneCode":"+509"},{"name":"Honduras","code":"HN","phoneCode":"+504"},{"name":"Hong Kong SAR China","code":"HK","phoneCode":"+852"},{"name":"Hungary","code":"HU","phoneCode":"+36"},{"name":"Iceland","code":"IS","phoneCode":"+354"},{"name":"India","code":"IN","phoneCode":"+91"},{"name":"Indonesia","code":"ID","phoneCode":"+62"},{"name":"Iran","code":"IR","phoneCode":"+98"},{"name":"Iraq","code":"IQ","phoneCode":"+964"},{"name":"Ireland","code":"IE","phoneCode":"+353"},{"name":"Isle of Man","code":"IM","phoneCode":"+44"},{"name":"Israel","code":"IL","phoneCode":"+972"},{"name":"Italy","code":"IT","phoneCode":"+39"},{"name":"Jamaica","code":"JM","phoneCode":"+1"},{"name":"Japan","code":"JP","phoneCode":"+81"},{"name":"Jersey","code":"JE","phoneCode":"+44"},{"name":"Jordan","code":"JO","phoneCode":"+962"},{"name":"Kazakhstan","code":"KZ","phoneCode":"+7"},{"name":"Kenya","code":"KE","phoneCode":"+254"},{"name":"Kiribati","code":"KI","phoneCode":"+686"},{"name":"Kosovo","code":"XK","phoneCode":"+383"},{"name":"Kuwait","code":"KW","phoneCode":"+965"},{"name":"Kyrgyzstan","code":"KG","phoneCode":"+996"},{"name":"Laos","code":"LA","phoneCode":"+856"},{"name":"Latvia","code":"LV","phoneCode":"+371"},{"name":"Lebanon","code":"LB","phoneCode":"+961"},{"name":"Lesotho","code":"LS","phoneCode":"+266"},{"name":"Liberia","code":"LR","phoneCode":"+231"},{"name":"Libya","code":"LY","phoneCode":"+218"},{"name":"Liechtenstein","code":"LI","phoneCode":"+423"},{"name":"Lithuania","code":"LT","phoneCode":"+370"},{"name":"Luxembourg","code":"LU","phoneCode":"+352"},{"name":"Macao SAR China","code":"MO","phoneCode":"+853"},{"name":"Madagascar","code":"MG","phoneCode":"+261"},{"name":"Malawi","code":"MW","phoneCode":"+265"},{"name":"Malaysia","code":"MY","phoneCode":"+60"},{"name":"Maldives","code":"MV","phoneCode":"+960"},{"name":"Mali","code":"ML","phoneCode":"+223"},{"name":"Malta","code":"MT","phoneCode":"+356"},{"name":"Marshall Islands","code":"MH","phoneCode":"+692"},{"name":"Martinique","code":"MQ","phoneCode":"+596"},{"name":"Mauritania","code":"MR","phoneCode":"+222"},{"name":"Mauritius","code":"MU","phoneCode":"+230"},{"name":"Mayotte","code":"YT","phoneCode":"+262"},{"name":"Mexico","code":"MX","phoneCode":"+52"},{"name":"Micronesia","code":"FM","phoneCode":"+691"},{"name":"Moldova","code":"MD","phoneCode":"+373"},{"name":"Monaco","code":"MC","phoneCode":"+377"},{"name":"Mongolia","code":"MN","phoneCode":"+976"},{"name":"Montenegro","code":"ME","phoneCode":"+382"},{"name":"Montserrat","code":"MS","phoneCode":"+1"},{"name":"Morocco","code":"MA","phoneCode":"+212"},{"name":"Mozambique","code":"MZ","phoneCode":"+258"},{"name":"Myanmar (Burma)","code":"MM","phoneCode":"+95"},{"name":"Namibia","code":"NA","phoneCode":"+264"},{"name":"Nauru","code":"NR","phoneCode":"+674"},{"name":"Nepal","code":"NP","phoneCode":"+977"},{"name":"Netherlands","code":"NL","phoneCode":"+31"},{"name":"New Caledonia","code":"NC","phoneCode":"+687"},{"name":"New Zealand","code":"NZ","phoneCode":"+64"},{"name":"Nicaragua","code":"NI","phoneCode":"+505"},{"name":"Niger","code":"NE","phoneCode":"+227"},{"name":"Nigeria","code":"NG","phoneCode":"+234"},{"name":"Niue","code":"NU","phoneCode":"+683"},{"name":"Norfolk Island","code":"NF","phoneCode":"+672"},{"name":"Northern Mariana Islands","code":"MP","phoneCode":"+1"},{"name":"North Korea","code":"KP","phoneCode":"+850"},{"name":"North Macedonia","code":"MK","phoneCode":"+389"},{"name":"Norway","code":"NO","phoneCode":"+47"},{"name":"Oman","code":"OM","phoneCode":"+968"},{"name":"Pakistan","code":"PK","phoneCode":"+92"},{"name":"Palau","code":"PW","phoneCode":"+680"},{"name":"Palestinian Territories","code":"PS","phoneCode":"+970"},{"name":"Panama","code":"PA","phoneCode":"+507"},{"name":"Papua New Guinea","code":"PG","phoneCode":"+675"},{"name":"Paraguay","code":"PY","phoneCode":"+595"},{"name":"Peru","code":"PE","phoneCode":"+51"},{"name":"Philippines","code":"PH","phoneCode":"+63"},{"name":"Poland","code":"PL","phoneCode":"+48"},{"name":"Portugal","code":"PT","phoneCode":"+351"},{"name":"Puerto Rico","code":"PR","phoneCode":"+1"},{"name":"Qatar","code":"QA","phoneCode":"+974"},{"name":"R\u00E9union","code":"RE","phoneCode":"+262"},{"name":"Romania","code":"RO","phoneCode":"+40"},{"name":"Russia","code":"RU","phoneCode":"+7"},{"name":"Rwanda","code":"RW","phoneCode":"+250"},{"name":"Samoa","code":"WS","phoneCode":"+685"},{"name":"San Marino","code":"SM","phoneCode":"+378"},{"name":"S\u00E3o Tom\u00E9 & Pr\u00EDncipe","code":"ST","phoneCode":"+239"},{"name":"Saudi Arabia","code":"SA","phoneCode":"+966"},{"name":"Senegal","code":"SN","phoneCode":"+221"},{"name":"Serbia","code":"RS","phoneCode":"+381"},{"name":"Seychelles","code":"SC","phoneCode":"+248"},{"name":"Sierra Leone","code":"SL","phoneCode":"+232"},{"name":"Singapore","code":"SG","phoneCode":"+65"},{"name":"Sint Maarten","code":"SX","phoneCode":"+1"},{"name":"Slovakia","code":"SK","phoneCode":"+421"},{"name":"Slovenia","code":"SI","phoneCode":"+386"},{"name":"Solomon Islands","code":"SB","phoneCode":"+677"},{"name":"Somalia","code":"SO","phoneCode":"+252"},{"name":"South Africa","code":"ZA","phoneCode":"+27"},{"name":"South Korea","code":"KR","phoneCode":"+82"},{"name":"South Sudan","code":"SS","phoneCode":"+211"},{"name":"Spain","code":"ES","phoneCode":"+34"},{"name":"Sri Lanka","code":"LK","phoneCode":"+94"},{"name":"St. Barth\u00E9lemy","code":"BL","phoneCode":"+590"},{"name":"St. Helena","code":"SH","phoneCode":"+290"},{"name":"St. Kitts & Nevis","code":"KN","phoneCode":"+1"},{"name":"St. Lucia","code":"LC","phoneCode":"+1"},{"name":"St. Martin","code":"MF","phoneCode":"+590"},{"name":"St. Pierre & Miquelon","code":"PM","phoneCode":"+508"},{"name":"St. Vincent & Grenadines","code":"VC","phoneCode":"+1"},{"name":"Sudan","code":"SD","phoneCode":"+249"},{"name":"Suriname","code":"SR","phoneCode":"+597"},{"name":"Svalbard & Jan Mayen","code":"SJ","phoneCode":"+47"},{"name":"Sweden","code":"SE","phoneCode":"+46"},{"name":"Switzerland","code":"CH","phoneCode":"+41"},{"name":"Syria","code":"SY","phoneCode":"+963"},{"name":"Taiwan","code":"TW","phoneCode":"+886"},{"name":"Tajikistan","code":"TJ","phoneCode":"+992"},{"name":"Tanzania","code":"TZ","phoneCode":"+255"},{"name":"Thailand","code":"TH","phoneCode":"+66"},{"name":"Timor-Leste","code":"TL","phoneCode":"+670"},{"name":"Togo","code":"TG","phoneCode":"+228"},{"name":"Tokelau","code":"TK","phoneCode":"+690"},{"name":"Tonga","code":"TO","phoneCode":"+676"},{"name":"Trinidad & Tobago","code":"TT","phoneCode":"+1"},{"name":"Tristan da Cunha","code":"TA","phoneCode":"+290"},{"name":"Tunisia","code":"TN","phoneCode":"+216"},{"name":"T\u00FCrkiye","code":"TR","phoneCode":"+90"},{"name":"Turkmenistan","code":"TM","phoneCode":"+993"},{"name":"Turks & Caicos Islands","code":"TC","phoneCode":"+1"},{"name":"Tuvalu","code":"TV","phoneCode":"+688"},{"name":"U.S. Virgin Islands","code":"VI","phoneCode":"+1"},{"name":"Uganda","code":"UG","phoneCode":"+256"},{"name":"Ukraine","code":"UA","phoneCode":"+380"},{"name":"United Arab Emirates","code":"AE","phoneCode":"+971"},{"name":"United Kingdom","code":"GB","phoneCode":"+44"},{"name":"United States","code":"US","phoneCode":"+1"},{"name":"Uruguay","code":"UY","phoneCode":"+598"},{"name":"Uzbekistan","code":"UZ","phoneCode":"+998"},{"name":"Vanuatu","code":"VU","phoneCode":"+678"},{"name":"Vatican City","code":"VA","phoneCode":"+39"},{"name":"Venezuela","code":"VE","phoneCode":"+58"},{"name":"Vietnam","code":"VN","phoneCode":"+84"},{"name":"Wallis & Futuna","code":"WF","phoneCode":"+681"},{"name":"Western Sahara","code":"EH","phoneCode":"+212"},{"name":"Yemen","code":"YE","phoneCode":"+967"},{"name":"Zambia","code":"ZM","phoneCode":"+260"},{"name":"Zimbabwe","code":"ZW","phoneCode":"+263"}],"initialPhoneFormat":{"id":0,"type":"PHONE_NUMBER","country":"CA","labelLocale":"en-US","fields":[{"type":"SEPARATOR","label":"(","identifier":"LeftParen","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"1","identifier":"1","length":3,"required":false,"metadata":{}},{"type":"SEPARATOR","label":")","identifier":"RightParen","length":0,"required":false,"metadata":{}},{"type":"SEPARATOR","label":" ","identifier":"Space","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"2","identifier":"2","length":3,"required":false,"metadata":{}},{"type":"SEPARATOR","label":"-","identifier":"Dash","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"3","identifier":"3","length":14,"required":false,"metadata":{}}]},"initialNameOrder":"GIVEN_FIRST","initialAddressFormat":{"id":0,"type":"ADDRESS","country":"CA","labelLocale":"en","fields":[{"type":"FIELD","label":"Address Line 1","identifier":"Line1","length":0,"required":true,"metadata":{"autocomplete":"address-line1"}},{"type":"SEPARATOR","label":"\n","identifier":"Newline","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"Address Line 2","identifier":"Line2","length":0,"required":false,"metadata":{"autocomplete":"address-line2"}},{"type":"SEPARATOR","label":"\n","identifier":"Newline","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"City","identifier":"City","length":0,"required":true,"metadata":{"autocomplete":"address-level2"}},{"type":"SEPARATOR","label":" ","identifier":"Space","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"Province","identifier":"State","length":0,"required":true,"metadata":{"autocomplete":"address-level1"}},{"type":"SEPARATOR","label":" ","identifier":"Space","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"Postal Code","identifier":"Zip","length":0,"required":true,"metadata":{"autocomplete":"postal-code"}}]}},"localizedStrings":{"validation":{"noValidSelection":"A valid selection must be made.","invalidUrl":"Must be a valid URL.","stringTooLong":"Value should have a length no longer than {0}.","containsInvalidKey":"{0} contains an invalid key.","invalidTwitterUsername":"Must be a valid Twitter username.","valueOutsideRange":"Value must be in the range {0} to {1}.","invalidPassword":"Passwords should not contain whitespace.","missingRequiredSubfields":"{0} is missing required subfields: {1}","invalidCurrency":"Currency value should be formatted like 1234 or 123.99.","invalidMapSize":"Value should contain exactly {0} elements.","subfieldsRequired":"All fields in {0} are required.","formSubmissionFailed":"Form submission failed. Review the following information: {0}.","invalidCountryCode":"Country code should have an optional plus and up to 4 digits.","invalidDate":"This is not a real date.","required":"{0} is required.","invalidStringLength":"Value should be {0} characters long.","invalidEmail":"Email addresses should follow the format user@domain.com.","invalidListLength":"Value should be {0} elements long.","allEmpty":"Please fill out at least one form field.","missingRequiredQuestion":"Missing a required question.","invalidQuestion":"Contained an invalid question.","captchaFailure":"Captcha validation failed. Please try again.","stringTooShort":"Value should have a length of at least {0}.","invalid":"{0} is not valid.","formErrors":"Form Errors","containsInvalidValue":"{0} contains an invalid value.","invalidUnsignedNumber":"Numbers must contain only digits and no other characters.","invalidName":"Valid names contain only letters, numbers, spaces, ', or - characters."},"submit":"Submit","status":{"title":"{@} Block","learnMore":"Learn more"},"name":{"firstName":"First Name","lastName":"Last Name"},"lightbox":{"openForm":"Open Form"},"likert":{"agree":"Agree","stronglyDisagree":"Strongly Disagree","disagree":"Disagree","stronglyAgree":"Strongly Agree","neutral":"Neutral"},"time":{"am":"AM","second":"Second","pm":"PM","minute":"Minute","amPm":"AM/PM","hour":"Hour"},"notFound":"Form not found.","date":{"yyyy":"YYYY","year":"Year","mm":"MM","day":"Day","month":"Month","dd":"DD"},"phone":{"country":"Country","number":"Number","prefix":"Prefix","areaCode":"Area Code","line":"Line"},"submitError":"Unable to submit form. Please try again later.","address":{"stateProvince":"State/Province","country":"Country","zipPostalCode":"Zip/Postal Code","address2":"Address 2","address1":"Address 1","city":"City"},"email":{"signUp":"Sign up for news and updates"},"cannotSubmitDemoForm":"This is a demo form and cannot be submitted.","required":"(required)","invalidData":"Invalid form data."}}};</script><script>Squarespace.load(window);</script>
+<script type="application/ld+json">{"url":"https://www.weskao.com","name":"Wes Kao","description":"<p>Hey, I\u2019m Wes. My mission is to use marketing to help people care more. I believe that bottlenecks to progress and innovation aren\u2019t purely technology problems\u2014they are people problems. The hard part is: How do we get people to care?\u2026 Continue Reading \u2192</p>","@context":"http://schema.org","@type":"WebSite"}</script><link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/sitecss/5a63ce8249fc2bd3d2b85ef8/302/55f0aac0e4b0f0a5b7e0b22e/5a63ce8249fc2bd3d2b85f0c/354/site.css"/><script data-sqs-type="cookiepreferencesgetter">(function(){window.getSquarespaceCookies = function() {    const getCookiesAllowed = function(cookieName){ return ('; '+document.cookie).split('; ' + cookieName + '=').pop().split(';')[0] === 'true'};    return {      performance: getCookiesAllowed('ss_performanceCookiesAllowed') ? 'accepted' : 'declined',      marketing: getCookiesAllowed('ss_marketingCookiesAllowed') ? 'accepted' : 'declined'    }}})()</script><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WD3J2W8B');</script>
+<!-- End Google Tag Manager --><script>Static.COOKIE_BANNER_CAPABLE = true;</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175338083-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZjQwMz', true);gtag('config', 'UA-175338083-1');</script><!-- End of Squarespace Headers -->
+  </head>
+  <body id="collection-65dfa235777535444ce4ecef" class="tweak-social-icons-style-solid tweak-social-icons-shape-square tweak-site-width-option-full-background tweak-icon-weight-hairline   tweak-site-ajax-loading-bar-show ancillary-header-top-left-layout-horizontal ancillary-header-top-center-layout-stacked ancillary-header-top-right-layout-stacked ancillary-header-bottom-left-layout-horizontal ancillary-header-bottom-center-layout-horizontal ancillary-header-bottom-right-layout-horizontal ancillary-header-branding-position-top-left ancillary-header-tagline-position-top-left ancillary-header-primary-nav-position-top-right ancillary-header-secondary-nav-position-top-right ancillary-header-social-position-hide ancillary-header-search-position-top-right ancillary-header-cart-position-hide ancillary-header-account-position-hide tweak-header-primary-nav-hover-style-spotlight tweak-header-primary-nav-button-style-solid tweak-header-primary-nav-button-shape-rounded  tweak-header-secondary-nav-hover-style-spotlight tweak-header-secondary-nav-button-style-solid tweak-header-secondary-nav-button-shape-square tweak-header-search-style-underlined tweak-header-search-placeholder-show tweak-header-cart-style-text tweak-header-account-style-text   tweak-index-nav-style-expanding-horizontal-lines tweak-index-nav-position-right tweak-index-nav-text-show tweak-index-page-fullscreen-none tweak-index-page-apply-bottom-spacing tweak-index-page-scroll-indicator-none tweak-index-page-scroll-indicator-icon-arrow tweak-index-page-scroll-indicator-icon-weight-hairline  tweak-index-gallery-layout-packed tweak-index-gallery-spacing-sides-show tweak-index-gallery-spacing-top-bottom-show tweak-index-gallery-fixed-height tweak-index-gallery-apply-bottom-spacing tweak-index-gallery-hover-style-plain tweak-index-gallery-controls-small-arrows tweak-index-gallery-controls-icon-weight-hairline tweak-index-gallery-indicators-lines tweak-index-gallery-autoplay-enable tweak-index-gallery-transition-fade tweak-index-gallery-content-position-bottom-left tweak-index-gallery-content-text-alignment-left tweak-footer-show tweak-footer-layout-stacked tweak-footer-layout-columns-auto tweak-footer-stacked-alignment-center    ancillary-mobile-bar-branding-position-top-center ancillary-mobile-bar-menu-icon-position-top-left tweak-mobile-bar-menu-icon-hamburger ancillary-mobile-bar-search-icon-position-top-right ancillary-mobile-bar-cart-position-hide tweak-mobile-bar-cart-style-text ancillary-mobile-bar-account-position-hide tweak-mobile-bar-account-style-text tweak-mobile-overlay-slide-origin-left tweak-mobile-overlay-close-show  tweak-mobile-overlay-menu-primary-button-style-solid tweak-mobile-overlay-menu-primary-button-shape-square tweak-mobile-overlay-menu-secondary-inherit  tweak-mobile-overlay-menu-secondary-button-style-outline tweak-mobile-overlay-menu-secondary-button-shape-square tweak-quote-block-alignment-left  tweak-blog-meta-primary-date tweak-blog-meta-secondary-none tweak-blog-list-style-stacked tweak-blog-list-separator-show tweak-blog-list-alignment-center  tweak-blog-list-item-image-aspect-ratio-grid-11-square tweak-blog-list-item-image-aspect-ratio-stacked-240-anamorphic-widescreen tweak-blog-list-item-title-show tweak-blog-list-item-excerpt-show tweak-blog-list-item-body-show tweak-blog-list-item-readmore-below-excerpt tweak-blog-list-item-meta-position-below-title tweak-blog-list-pagination-link-label-show tweak-blog-list-pagination-link-icon-show tweak-blog-list-pagination-link-icon-weight-light tweak-blog-item-alignment-center tweak-blog-item-meta-position-below-title tweak-blog-item-share-position-below-content tweak-blog-item-pagination-link-icon-show tweak-blog-item-pagination-link-label-show tweak-blog-item-pagination-link-title-show tweak-blog-item-pagination-link-meta-date tweak-blog-item-pagination-link-icon-weight-light   event-thumbnails event-thumbnail-size-32-standard event-date-label  event-list-show-cats event-list-date event-list-time event-list-address     event-excerpts  event-item-back-link    gallery-design-slideshow aspect-ratio-auto lightbox-style-dark gallery-navigation-bullets gallery-info-overlay-show-on-hover gallery-aspect-ratio-32-standard gallery-arrow-style-no-background gallery-transitions-fade gallery-show-arrows gallery-auto-crop   tweak-product-list-image-aspect-ratio-11-square tweak-product-list-item-hover-behavior-show-alternate-image tweak-product-list-meta-position-under tweak-product-list-mobile-meta-position-under tweak-product-list-meta-alignment-under-center tweak-product-list-meta-alignment-overlay-center-center tweak-product-list-show-title tweak-product-list-show-price tweak-product-list-filter-display-hide tweak-product-list-filter-alignment-left tweak-product-item-nav-show-breadcrumb-and-pagination tweak-product-item-nav-pagination-style-previousnext tweak-product-item-nav-breadcrumb-alignment-left tweak-product-item-nav-pagination-alignment-split tweak-product-item-gallery-position-left tweak-product-item-gallery-design-slideshow tweak-product-item-gallery-aspect-ratio-11-square tweak-product-item-gallery-thumbnail-alignment-left tweak-product-item-details-alignment-left tweak-product-item-details-show-title tweak-product-item-details-show-price tweak-product-item-details-show-excerpt tweak-product-item-details-excerpt-position-below-price tweak-product-item-details-show-share-buttons tweak-product-item-details-show-variants tweak-product-item-details-show-quantity tweak-product-item-details-options-style-square tweak-product-item-details-show-add-to-cart-button tweak-product-item-details-add-to-cart-button-style-outline tweak-product-item-details-add-to-cart-button-shape-square tweak-product-item-details-add-to-cart-button-padding-small tweak-product-item-image-zoom-enabled tweak-product-item-image-zoom-behavior-click tweak-product-item-lightbox-enabled tweak-related-products-image-aspect-ratio-11-square tweak-related-products-meta-alignment-under-center tweak-product-badge-style-rectangle tweak-product-badge-position-top-right tweak-product-badge-inset-floating newsletter-style-dark hide-opentable-icons opentable-style-dark small-button-style-outline small-button-shape-square medium-button-style-solid medium-button-shape-rounded large-button-style-solid large-button-shape-square image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-center image-block-collage-text-alignment-left  image-block-stack-text-alignment-left button-style-solid button-corner-style-rounded tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light tweak-share-buttons-style-icon-only tweak-share-buttons-icons-show tweak-share-buttons-labels-show tweak-share-buttons-counts-show tweak-share-buttons-standard-icon-color tweak-share-buttons-standard-background-color native-currency-code-usd collection-65dfa235777535444ce4ecef collection-type-page collection-layout-default mobile-style-available sqs-has-custom-cart has-site-title has-social enable-load-effects has-primary-nav" data-controller="HashManager, SiteLoader, MobileClassname">
+
+<div class="Loader"></div>
+
+<div class="Mobile" data-nc-base="mobile-bar" data-controller="AncillaryLayout">
+  <div class="Mobile-bar Mobile-bar--top" data-nc-group="top" data-controller="MobileOffset">
+
+<div data-nc-container="top-left">
+      <a href="/" class="Mobile-bar-branding" data-nc-element="branding" data-content-field="site-title">
+        
+          
+            Wes Kao
+          
+        
+      </a>
+    </div>
+    <div data-nc-container="top-center"></div>
+    <div data-nc-container="top-right"></div>
+  </div>
+  <div class="Mobile-bar Mobile-bar--bottom" data-nc-group="bottom" data-controller="MobileOffset">
+    <div data-nc-container="bottom-left">
+      <button
+        class="Mobile-bar-menu"
+        data-nc-element="menu-icon"
+        data-controller-overlay="menu"
+        data-controller="MobileOverlayToggle"
+        aria-label="Open navigation menu"
+      >
+        <svg class="Icon Icon--hamburger" viewBox="0 0 24 18">
+          <use xlink:href="/assets/ui-icons.svg#hamburger-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#hamburger-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--hotdog" viewBox="0 0 24 14">
+          <use xlink:href="/assets/ui-icons.svg#hotdog-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#hotdog-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--plus" viewBox="0 0 20 20">
+          <use xlink:href="/assets/ui-icons.svg#plus-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#plus-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--dots-horizontal" viewBox="0 0 25 7">
+          <use xlink:href="/assets/ui-icons.svg#dots-horizontal-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#dots-horizontal-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--dots-vertical" viewBox="0 0 7 25">
+          <use xlink:href="/assets/ui-icons.svg#dots-vertical-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#dots-vertical-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--squares-horizontal" viewBox="0 0 25 7">
+          <use xlink:href="/assets/ui-icons.svg#squares-horizontal-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#squares-horizontal-icon--odd" class="use--odd"></use>
+        </svg>
+        <svg class="Icon Icon--squares-vertical" viewBox="0 0 7 25">
+          <use xlink:href="/assets/ui-icons.svg#squares-vertical-icon--even" class="use--even"></use>
+          <use xlink:href="/assets/ui-icons.svg#squares-vertical-icon--odd" class="use--odd"></use>
+        </svg>
+      </button>
+    </div>
+    <div data-nc-container="bottom-center">
+      
+    </div>
+    <div data-nc-container="bottom-right">
+      
+      <a href="/search" class="Mobile-bar-search" data-nc-element="search-icon" aria-label="Search">
+        <svg class="Icon Icon--search" viewBox="0 0 20 20">
+          <use xlink:href="/assets/ui-icons.svg#search-icon"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+<div class="Mobile-overlay">
+    <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders">
+      <div class="Mobile-overlay-menu-main">
+        <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
+          
+  
+    
+      
+        
+          <a href="/about" class="Mobile-overlay-nav-item">
+            About
+          </a>
+        
+      
+    
+    
+  
+    
+      
+        
+          <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder" data-controller-folder-toggle="articles">
+            <span class="Mobile-overlay-nav-item--folder-label">Resources</span>
+          </button>
+        
+      
+    
+    
+  
+    
+    
+      <a href="https://maven.com/wes-kao/executive-communication-influence" target="_blank" class="Mobile-overlay-nav-item">
+        Course
+      </a>
+    
+  
+    
+      
+        
+          <a href="/coaching" class="Mobile-overlay-nav-item">
+            Coaching
+          </a>
+        
+      
+    
+    
+  
+    
+      
+        
+          <a href="/contact" class="Mobile-overlay-nav-item">
+            Contact
+          </a>
+        
+      
+    
+    
+  
+    
+    
+      <a href="https://weskao.com/newsletter-homepage" class="Mobile-overlay-nav-item">
+        Newsletter
+      </a>
+
+</nav>
+        <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary" data-content-field="navigation">
+          
+        </nav>
+      </div>
+      <div class="Mobile-overlay-folders" data-content-field="navigation">
+
+<div class="Mobile-overlay-folder" data-controller-folder="articles">
+      <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle" data-controller-folder-toggle="articles">
+        <span class="Mobile-overlay-folder-item--toggle-label">Back</span>
+      </button>
+      
+        
+          <a href="/best-articles" class="Mobile-overlay-folder-item">
+            Popular posts
+          </a>
+        
+      
+        
+          <a href="/resources" class="Mobile-overlay-folder-item">
+            Articles
+          </a>
+        
+      
+        
+          <a href="/podcasts" class="Mobile-overlay-folder-item">
+            Podcasts
+          </a>
+        
+      
+    </div>
+
+</div>
+    </div>
+    <button class="Mobile-overlay-close" data-controller="MobileOverlayToggle" aria-label="Close navigation menu">
+      <svg class="Icon Icon--close" viewBox="0 0 16 16">
+        <use xlink:href="/assets/ui-icons.svg#close-icon"></use>
+      </svg>
+    </button>
+    <div class="Mobile-overlay-back" data-controller="MobileOverlayToggle"></div>
+  </div>
+</div>
+
+<div class="Parallax-host-outer">
+      <div class="Parallax-host" data-parallax-host>
+        
+          
+            
+              
+                
+                
+                  
+                
+              
+            
+          
+        
+      </div>
+    </div>
+
+<div class="Site" data-nc-base="header" data-controller="AncillaryLayout">
+      <div class="sqs-announcement-bar-dropzone"></div>
+
+<header class="Header Header--top">
+        <div class="Header-inner Header-inner--top" data-nc-group="top">
+          <div data-nc-container="top-left">
+
+<div class="Header-search" data-nc-element="search">
+              <form class="Header-search-form" action="/search" method="get">
+                <input class="Header-search-form-input" name="q" type="text" spellcheck="false" value="" autocomplete="off" placeholder="Search" />
+                <button class="Header-search-form-submit" type="submit" data-test="template-search">
+                  <svg class="Icon Icon--search--small" viewBox="0 0 15 15">
+                    <use xlink:href="/assets/ui-icons.svg#search-icon--small"></use>
+                  </svg>
+                  <svg class="Icon Icon--search" viewBox="0 0 20 20">
+                    <use xlink:href="/assets/ui-icons.svg#search-icon"></use>
+                  </svg>
+                </button>
+              </form>
+            </div>
+
+</div>
+          <div data-nc-container="top-center">
+            
+            
+              <div class="Header-social" data-nc-element="social">
+                
+  <nav class="SocialLinks" data-content-field="connected-accounts">
+    <div class="SocialLinks-inner">
+    <a href="https://x.com/Entrepreneur/status/1443637810582462469" target="_blank" class="SocialLinks-link x-formerly-twitter-unauth" style="">
+        <div>
+          <svg class="SocialLinks-link-svg" viewBox="0 0 64 64">
+            
+            <use class="SocialLinks-link-icon" xlink:href="#x-formerly-twitter-unauth-icon"></use>
+            <use class="SocialLinks-link-mask" xlink:href="#x-formerly-twitter-unauth-mask"></use>
+          </svg>
+        </div>
+      </a>
+    </div>
+  </nav>
+
+</div>
+            
+          </div>
+          <div data-nc-container="top-right">
+
+</div>
+        </div>
+      </header>
+
+<div class="Site-inner">
+
+<header class="Header Header--bottom">
+          <div class="Header-inner Header-inner--bottom" data-nc-group="bottom">
+            <div data-nc-container="bottom-left">
+              <nav class="Header-nav Header-nav--primary" data-nc-element="primary-nav" data-content-field="navigation">
+                
+  <div class="Header-nav-inner">
+    <a href="/about" class="Header-nav-item" data-test="template-nav">About</a><span class="Header-nav-item Header-nav-item--folder">
+
+<a href="/articles" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch">Resources</a>
+
+<span class="Header-nav-folder">
+        
+          
+            <a href="/best-articles" class="Header-nav-folder-item" data-test="template-nav">Popular posts</a>
+          
+        
+          
+            <a href="/resources" class="Header-nav-folder-item" data-test="template-nav">Articles</a>
+          
+        
+          
+            <a href="/podcasts" class="Header-nav-folder-item" data-test="template-nav">Podcasts</a>
+          
+        
+      </span>
+    </span><a href="https://maven.com/wes-kao/executive-communication-influence" target="_blank" class="Header-nav-item">Course</a><a href="/coaching" class="Header-nav-item Header-nav-item--active" data-test="template-nav">Coaching</a><a href="/contact" class="Header-nav-item" data-test="template-nav">Contact</a><a href="https://weskao.com/newsletter-homepage" class="Header-nav-item">Newsletter</a>
+  </div>
+
+</nav>
+            </div>
+            <div data-nc-container="bottom-center">
+
+<a href="/" class="Header-branding" data-nc-element="branding" data-content-field="site-title">
+                
+                  
+                    Wes Kao
+                  
+                
+              </a>
+
+</div>
+            <div data-nc-container="bottom-right">
+
+<nav class="Header-nav Header-nav--secondary" data-nc-element="secondary-nav" data-content-field="navigation">
+                
+              </nav>
+
+</div>
+          </div>
+        </header>
+
+<div class="Content-outer">
+
+<main class="Main Main--page" >
+            
+              <section class="Main-content" data-content-field="main-content">
+                <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1750178319297" id="page-65dfa235777535444ce4ecef"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-sqsp-block="text" id="block-65dfa235777535444ce4ecf0"><div class="sqs-block-content">
+
+<div class="sqs-html-content" data-sqsp-text-block-content>
+  <h2 style="text-align:center;white-space:pre-wrap;">1:1 Executive coaching </h2><p class="" style="white-space:pre-wrap;">Thanks for your interest in working together for 1:1 coaching. The areas I specialize in are: </p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">improving your executive communication / executive presence</p></li><li><p class="" style="white-space:pre-wrap;">increasing your ability to influence up, down, and laterally</p></li><li><p class="" style="white-space:pre-wrap;">raising your team’s bar of excellence</p></li><li><p class="" style="white-space:pre-wrap;">delegating to ICs while maintaining high standards</p></li></ul><p class="" style="white-space:pre-wrap;">My coaching partnerships typically start with a six-month foundation. The first three months include sessions 2x/month. This cadence allows you to put insights into practice in between sessions, and sets you up to make noticeable progress toward your goals. After this, we transition to ongoing monthly sessions to maintain momentum and you’ll have me in your corner as new opportunities/challenges come up in your work.</p><p class="" style="white-space:pre-wrap;">I typically work with director-level at large organizations, VP-level/executives at startups, and founder/CEOs. My clients are hands-on leaders at companies like Amazon/AWS, 1Password, Atlassian, Product Hunt, Vercel, Microsoft, First Republic Bank, AngelList, Chanel, Amplitude, Google, DoorDash, and at startups funded by Sequoia, Accel, Bessemer, Kleiner Perkins, etc.</p><p class="" style="white-space:pre-wrap;">If you’re interested in learning more, fill out the form below.</p>
+</div>
+
+</div></div><div class="sqs-block form-block sqs-block-form" data-block-type="9" data-sqsp-block="form" id="block-yui_3_17_2_1_1714525575794_21872"><div class="sqs-block-content">
+
+<script type="application/json" id="form-context-66319a466ee402133c1718f3" class="sqs-form-block-context">{"secureUrl":"https://wes-kao-2las.squarespace.com","formSubmitButtonText":"Submit","formSubmissionMessage":{"html":"Thank you!"},"submissionVerticalAlignment":"","buttonAlignment":"","submissionMessageTextStyle":"","formName":"Executive coaching","collectionId":"65dfa235777535444ce4ecef","submissionAnimation":"","captchaTheme":1,"formId":"66319a466ee402133c1718f3","useLightbox":false,"firstFieldHighlightType":"","successRedirect":"","useFormsJs":true,"submissionTextAlignment":"","formFieldFormats":{"countries":[{"name":"Afghanistan","code":"AF","phoneCode":"+93"},{"name":"Åland Islands","code":"AX","phoneCode":"+358"},{"name":"Albania","code":"AL","phoneCode":"+355"},{"name":"Algeria","code":"DZ","phoneCode":"+213"},{"name":"American Samoa","code":"AS","phoneCode":"+1"},{"name":"Andorra","code":"AD","phoneCode":"+376"},{"name":"Angola","code":"AO","phoneCode":"+244"},{"name":"Anguilla","code":"AI","phoneCode":"+1"},{"name":"Antigua & Barbuda","code":"AG","phoneCode":"+1"},{"name":"Argentina","code":"AR","phoneCode":"+54"},{"name":"Armenia","code":"AM","phoneCode":"+374"},{"name":"Aruba","code":"AW","phoneCode":"+297"},{"name":"Ascension Island","code":"AC","phoneCode":"+247"},{"name":"Australia","code":"AU","phoneCode":"+61"},{"name":"Austria","code":"AT","phoneCode":"+43"},{"name":"Azerbaijan","code":"AZ","phoneCode":"+994"},{"name":"Bahamas","code":"BS","phoneCode":"+1"},{"name":"Bahrain","code":"BH","phoneCode":"+973"},{"name":"Bangladesh","code":"BD","phoneCode":"+880"},{"name":"Barbados","code":"BB","phoneCode":"+1"},{"name":"Belarus","code":"BY","phoneCode":"+375"},{"name":"Belgium","code":"BE","phoneCode":"+32"},{"name":"Belize","code":"BZ","phoneCode":"+501"},{"name":"Benin","code":"BJ","phoneCode":"+229"},{"name":"Bermuda","code":"BM","phoneCode":"+1"},{"name":"Bhutan","code":"BT","phoneCode":"+975"},{"name":"Bolivia","code":"BO","phoneCode":"+591"},{"name":"Bosnia & Herzegovina","code":"BA","phoneCode":"+387"},{"name":"Botswana","code":"BW","phoneCode":"+267"},{"name":"Brazil","code":"BR","phoneCode":"+55"},{"name":"British Indian Ocean Territory","code":"IO","phoneCode":"+246"},{"name":"British Virgin Islands","code":"VG","phoneCode":"+1"},{"name":"Brunei","code":"BN","phoneCode":"+673"},{"name":"Bulgaria","code":"BG","phoneCode":"+359"},{"name":"Burkina Faso","code":"BF","phoneCode":"+226"},{"name":"Burundi","code":"BI","phoneCode":"+257"},{"name":"Cambodia","code":"KH","phoneCode":"+855"},{"name":"Cameroon","code":"CM","phoneCode":"+237"},{"name":"Canada","code":"CA","phoneCode":"+1"},{"name":"Cape Verde","code":"CV","phoneCode":"+238"},{"name":"Caribbean Netherlands","code":"BQ","phoneCode":"+599"},{"name":"Cayman Islands","code":"KY","phoneCode":"+1"},{"name":"Central African Republic","code":"CF","phoneCode":"+236"},{"name":"Chad","code":"TD","phoneCode":"+235"},{"name":"Chile","code":"CL","phoneCode":"+56"},{"name":"China","code":"CN","phoneCode":"+86"},{"name":"Christmas Island","code":"CX","phoneCode":"+61"},{"name":"Cocos (Keeling) Islands","code":"CC","phoneCode":"+61"},{"name":"Colombia","code":"CO","phoneCode":"+57"},{"name":"Comoros","code":"KM","phoneCode":"+269"},{"name":"Congo - Brazzaville","code":"CG","phoneCode":"+242"},{"name":"Congo - Kinshasa","code":"CD","phoneCode":"+243"},{"name":"Cook Islands","code":"CK","phoneCode":"+682"},{"name":"Costa Rica","code":"CR","phoneCode":"+506"},{"name":"Côte d’Ivoire","code":"CI","phoneCode":"+225"},{"name":"Croatia","code":"HR","phoneCode":"+385"},{"name":"Cuba","code":"CU","phoneCode":"+53"},{"name":"Curaçao","code":"CW","phoneCode":"+599"},{"name":"Cyprus","code":"CY","phoneCode":"+357"},{"name":"Czechia","code":"CZ","phoneCode":"+420"},{"name":"Denmark","code":"DK","phoneCode":"+45"},{"name":"Djibouti","code":"DJ","phoneCode":"+253"},{"name":"Dominica","code":"DM","phoneCode":"+1"},{"name":"Dominican Republic","code":"DO","phoneCode":"+1"},{"name":"Ecuador","code":"EC","phoneCode":"+593"},{"name":"Egypt","code":"EG","phoneCode":"+20"},{"name":"El Salvador","code":"SV","phoneCode":"+503"},{"name":"Equatorial Guinea","code":"GQ","phoneCode":"+240"},{"name":"Eritrea","code":"ER","phoneCode":"+291"},{"name":"Estonia","code":"EE","phoneCode":"+372"},{"name":"Eswatini","code":"SZ","phoneCode":"+268"},{"name":"Ethiopia","code":"ET","phoneCode":"+251"},{"name":"Falkland Islands","code":"FK","phoneCode":"+500"},{"name":"Faroe Islands","code":"FO","phoneCode":"+298"},{"name":"Fiji","code":"FJ","phoneCode":"+679"},{"name":"Finland","code":"FI","phoneCode":"+358"},{"name":"France","code":"FR","phoneCode":"+33"},{"name":"French Guiana","code":"GF","phoneCode":"+594"},{"name":"French Polynesia","code":"PF","phoneCode":"+689"},{"name":"Gabon","code":"GA","phoneCode":"+241"},{"name":"Gambia","code":"GM","phoneCode":"+220"},{"name":"Georgia","code":"GE","phoneCode":"+995"},{"name":"Germany","code":"DE","phoneCode":"+49"},{"name":"Ghana","code":"GH","phoneCode":"+233"},{"name":"Gibraltar","code":"GI","phoneCode":"+350"},{"name":"Greece","code":"GR","phoneCode":"+30"},{"name":"Greenland","code":"GL","phoneCode":"+299"},{"name":"Grenada","code":"GD","phoneCode":"+1"},{"name":"Guadeloupe","code":"GP","phoneCode":"+590"},{"name":"Guam","code":"GU","phoneCode":"+1"},{"name":"Guatemala","code":"GT","phoneCode":"+502"},{"name":"Guernsey","code":"GG","phoneCode":"+44"},{"name":"Guinea","code":"GN","phoneCode":"+224"},{"name":"Guinea-Bissau","code":"GW","phoneCode":"+245"},{"name":"Guyana","code":"GY","phoneCode":"+592"},{"name":"Haiti","code":"HT","phoneCode":"+509"},{"name":"Honduras","code":"HN","phoneCode":"+504"},{"name":"Hong Kong SAR China","code":"HK","phoneCode":"+852"},{"name":"Hungary","code":"HU","phoneCode":"+36"},{"name":"Iceland","code":"IS","phoneCode":"+354"},{"name":"India","code":"IN","phoneCode":"+91"},{"name":"Indonesia","code":"ID","phoneCode":"+62"},{"name":"Iran","code":"IR","phoneCode":"+98"},{"name":"Iraq","code":"IQ","phoneCode":"+964"},{"name":"Ireland","code":"IE","phoneCode":"+353"},{"name":"Isle of Man","code":"IM","phoneCode":"+44"},{"name":"Israel","code":"IL","phoneCode":"+972"},{"name":"Italy","code":"IT","phoneCode":"+39"},{"name":"Jamaica","code":"JM","phoneCode":"+1"},{"name":"Japan","code":"JP","phoneCode":"+81"},{"name":"Jersey","code":"JE","phoneCode":"+44"},{"name":"Jordan","code":"JO","phoneCode":"+962"},{"name":"Kazakhstan","code":"KZ","phoneCode":"+7"},{"name":"Kenya","code":"KE","phoneCode":"+254"},{"name":"Kiribati","code":"KI","phoneCode":"+686"},{"name":"Kosovo","code":"XK","phoneCode":"+383"},{"name":"Kuwait","code":"KW","phoneCode":"+965"},{"name":"Kyrgyzstan","code":"KG","phoneCode":"+996"},{"name":"Laos","code":"LA","phoneCode":"+856"},{"name":"Latvia","code":"LV","phoneCode":"+371"},{"name":"Lebanon","code":"LB","phoneCode":"+961"},{"name":"Lesotho","code":"LS","phoneCode":"+266"},{"name":"Liberia","code":"LR","phoneCode":"+231"},{"name":"Libya","code":"LY","phoneCode":"+218"},{"name":"Liechtenstein","code":"LI","phoneCode":"+423"},{"name":"Lithuania","code":"LT","phoneCode":"+370"},{"name":"Luxembourg","code":"LU","phoneCode":"+352"},{"name":"Macao SAR China","code":"MO","phoneCode":"+853"},{"name":"Madagascar","code":"MG","phoneCode":"+261"},{"name":"Malawi","code":"MW","phoneCode":"+265"},{"name":"Malaysia","code":"MY","phoneCode":"+60"},{"name":"Maldives","code":"MV","phoneCode":"+960"},{"name":"Mali","code":"ML","phoneCode":"+223"},{"name":"Malta","code":"MT","phoneCode":"+356"},{"name":"Marshall Islands","code":"MH","phoneCode":"+692"},{"name":"Martinique","code":"MQ","phoneCode":"+596"},{"name":"Mauritania","code":"MR","phoneCode":"+222"},{"name":"Mauritius","code":"MU","phoneCode":"+230"},{"name":"Mayotte","code":"YT","phoneCode":"+262"},{"name":"Mexico","code":"MX","phoneCode":"+52"},{"name":"Micronesia","code":"FM","phoneCode":"+691"},{"name":"Moldova","code":"MD","phoneCode":"+373"},{"name":"Monaco","code":"MC","phoneCode":"+377"},{"name":"Mongolia","code":"MN","phoneCode":"+976"},{"name":"Montenegro","code":"ME","phoneCode":"+382"},{"name":"Montserrat","code":"MS","phoneCode":"+1"},{"name":"Morocco","code":"MA","phoneCode":"+212"},{"name":"Mozambique","code":"MZ","phoneCode":"+258"},{"name":"Myanmar (Burma)","code":"MM","phoneCode":"+95"},{"name":"Namibia","code":"NA","phoneCode":"+264"},{"name":"Nauru","code":"NR","phoneCode":"+674"},{"name":"Nepal","code":"NP","phoneCode":"+977"},{"name":"Netherlands","code":"NL","phoneCode":"+31"},{"name":"New Caledonia","code":"NC","phoneCode":"+687"},{"name":"New Zealand","code":"NZ","phoneCode":"+64"},{"name":"Nicaragua","code":"NI","phoneCode":"+505"},{"name":"Niger","code":"NE","phoneCode":"+227"},{"name":"Nigeria","code":"NG","phoneCode":"+234"},{"name":"Niue","code":"NU","phoneCode":"+683"},{"name":"Norfolk Island","code":"NF","phoneCode":"+672"},{"name":"Northern Mariana Islands","code":"MP","phoneCode":"+1"},{"name":"North Korea","code":"KP","phoneCode":"+850"},{"name":"North Macedonia","code":"MK","phoneCode":"+389"},{"name":"Norway","code":"NO","phoneCode":"+47"},{"name":"Oman","code":"OM","phoneCode":"+968"},{"name":"Pakistan","code":"PK","phoneCode":"+92"},{"name":"Palau","code":"PW","phoneCode":"+680"},{"name":"Palestinian Territories","code":"PS","phoneCode":"+970"},{"name":"Panama","code":"PA","phoneCode":"+507"},{"name":"Papua New Guinea","code":"PG","phoneCode":"+675"},{"name":"Paraguay","code":"PY","phoneCode":"+595"},{"name":"Peru","code":"PE","phoneCode":"+51"},{"name":"Philippines","code":"PH","phoneCode":"+63"},{"name":"Poland","code":"PL","phoneCode":"+48"},{"name":"Portugal","code":"PT","phoneCode":"+351"},{"name":"Puerto Rico","code":"PR","phoneCode":"+1"},{"name":"Qatar","code":"QA","phoneCode":"+974"},{"name":"Réunion","code":"RE","phoneCode":"+262"},{"name":"Romania","code":"RO","phoneCode":"+40"},{"name":"Russia","code":"RU","phoneCode":"+7"},{"name":"Rwanda","code":"RW","phoneCode":"+250"},{"name":"Samoa","code":"WS","phoneCode":"+685"},{"name":"San Marino","code":"SM","phoneCode":"+378"},{"name":"São Tomé & Príncipe","code":"ST","phoneCode":"+239"},{"name":"Saudi Arabia","code":"SA","phoneCode":"+966"},{"name":"Senegal","code":"SN","phoneCode":"+221"},{"name":"Serbia","code":"RS","phoneCode":"+381"},{"name":"Seychelles","code":"SC","phoneCode":"+248"},{"name":"Sierra Leone","code":"SL","phoneCode":"+232"},{"name":"Singapore","code":"SG","phoneCode":"+65"},{"name":"Sint Maarten","code":"SX","phoneCode":"+1"},{"name":"Slovakia","code":"SK","phoneCode":"+421"},{"name":"Slovenia","code":"SI","phoneCode":"+386"},{"name":"Solomon Islands","code":"SB","phoneCode":"+677"},{"name":"Somalia","code":"SO","phoneCode":"+252"},{"name":"South Africa","code":"ZA","phoneCode":"+27"},{"name":"South Korea","code":"KR","phoneCode":"+82"},{"name":"South Sudan","code":"SS","phoneCode":"+211"},{"name":"Spain","code":"ES","phoneCode":"+34"},{"name":"Sri Lanka","code":"LK","phoneCode":"+94"},{"name":"St. Barthélemy","code":"BL","phoneCode":"+590"},{"name":"St. Helena","code":"SH","phoneCode":"+290"},{"name":"St. Kitts & Nevis","code":"KN","phoneCode":"+1"},{"name":"St. Lucia","code":"LC","phoneCode":"+1"},{"name":"St. Martin","code":"MF","phoneCode":"+590"},{"name":"St. Pierre & Miquelon","code":"PM","phoneCode":"+508"},{"name":"St. Vincent & Grenadines","code":"VC","phoneCode":"+1"},{"name":"Sudan","code":"SD","phoneCode":"+249"},{"name":"Suriname","code":"SR","phoneCode":"+597"},{"name":"Svalbard & Jan Mayen","code":"SJ","phoneCode":"+47"},{"name":"Sweden","code":"SE","phoneCode":"+46"},{"name":"Switzerland","code":"CH","phoneCode":"+41"},{"name":"Syria","code":"SY","phoneCode":"+963"},{"name":"Taiwan","code":"TW","phoneCode":"+886"},{"name":"Tajikistan","code":"TJ","phoneCode":"+992"},{"name":"Tanzania","code":"TZ","phoneCode":"+255"},{"name":"Thailand","code":"TH","phoneCode":"+66"},{"name":"Timor-Leste","code":"TL","phoneCode":"+670"},{"name":"Togo","code":"TG","phoneCode":"+228"},{"name":"Tokelau","code":"TK","phoneCode":"+690"},{"name":"Tonga","code":"TO","phoneCode":"+676"},{"name":"Trinidad & Tobago","code":"TT","phoneCode":"+1"},{"name":"Tristan da Cunha","code":"TA","phoneCode":"+290"},{"name":"Tunisia","code":"TN","phoneCode":"+216"},{"name":"Türkiye","code":"TR","phoneCode":"+90"},{"name":"Turkmenistan","code":"TM","phoneCode":"+993"},{"name":"Turks & Caicos Islands","code":"TC","phoneCode":"+1"},{"name":"Tuvalu","code":"TV","phoneCode":"+688"},{"name":"U.S. Virgin Islands","code":"VI","phoneCode":"+1"},{"name":"Uganda","code":"UG","phoneCode":"+256"},{"name":"Ukraine","code":"UA","phoneCode":"+380"},{"name":"United Arab Emirates","code":"AE","phoneCode":"+971"},{"name":"United Kingdom","code":"GB","phoneCode":"+44"},{"name":"United States","code":"US","phoneCode":"+1"},{"name":"Uruguay","code":"UY","phoneCode":"+598"},{"name":"Uzbekistan","code":"UZ","phoneCode":"+998"},{"name":"Vanuatu","code":"VU","phoneCode":"+678"},{"name":"Vatican City","code":"VA","phoneCode":"+39"},{"name":"Venezuela","code":"VE","phoneCode":"+58"},{"name":"Vietnam","code":"VN","phoneCode":"+84"},{"name":"Wallis & Futuna","code":"WF","phoneCode":"+681"},{"name":"Western Sahara","code":"EH","phoneCode":"+212"},{"name":"Yemen","code":"YE","phoneCode":"+967"},{"name":"Zambia","code":"ZM","phoneCode":"+260"},{"name":"Zimbabwe","code":"ZW","phoneCode":"+263"}],"initialPhoneFormat":{"id":0,"type":"PHONE_NUMBER","country":"CA","labelLocale":"en-US","fields":[{"type":"SEPARATOR","label":"(","identifier":"LeftParen","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"1","identifier":"1","length":3,"required":false,"metadata":{}},{"type":"SEPARATOR","label":")","identifier":"RightParen","length":0,"required":false,"metadata":{}},{"type":"SEPARATOR","label":" ","identifier":"Space","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"2","identifier":"2","length":3,"required":false,"metadata":{}},{"type":"SEPARATOR","label":"-","identifier":"Dash","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"3","identifier":"3","length":14,"required":false,"metadata":{}}]},"initialNameOrder":"GIVEN_FIRST","initialAddressFormat":{"id":0,"type":"ADDRESS","country":"CA","labelLocale":"en","fields":[{"type":"FIELD","label":"Address Line 1","identifier":"Line1","length":0,"required":true,"metadata":{"autocomplete":"address-line1"}},{"type":"SEPARATOR","label":"\n","identifier":"Newline","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"Address Line 2","identifier":"Line2","length":0,"required":false,"metadata":{"autocomplete":"address-line2"}},{"type":"SEPARATOR","label":"\n","identifier":"Newline","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"City","identifier":"City","length":0,"required":true,"metadata":{"autocomplete":"address-level2"}},{"type":"SEPARATOR","label":" ","identifier":"Space","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"Province","identifier":"State","length":0,"required":true,"metadata":{"autocomplete":"address-level1"}},{"type":"SEPARATOR","label":" ","identifier":"Space","length":0,"required":false,"metadata":{}},{"type":"FIELD","label":"Postal Code","identifier":"Zip","length":0,"required":true,"metadata":{"autocomplete":"postal-code"}}]}},"showTitle":false,"captchaEnabled":true,"buttonVariant":"","objectName":"page-65dfa235777535444ce4ecef","disclaimerMessage":{"html":""},"formFields":[{"required":true,"locked":false,"description":"","id":"text-f1098535-8643-4e40-b769-c8b1848753bf","text":true,"type":"text","placeholder":"","title":"Name"},{"type":"email","id":"email-yui_3_17_2_1_1714525575794_21878","locked":false,"title":"Email","description":"","placeholder":"","required":true,"email":true,"mailingList":false},{"required":true,"locked":false,"description":"","id":"text-b0c115bb-187a-4983-be70-03c4d8accfe3","text":true,"type":"text","placeholder":"","title":"LinkedIn URL"},{"required":false,"locked":false,"description":"","id":"text-c6a37c4d-afc1-448b-88ff-f2e725503472","text":true,"type":"text","placeholder":"","title":"Company"},{"required":false,"locked":false,"description":"","id":"checkbox-0868e860-230a-4765-99db-1c6997a4e4eb","checkbox":true,"type":"checkbox","options":["1:1 Executive coaching","Advisory consulting","Keynote (fireside chat, all-hands, ERG, etc)"],"title":"I'm interested in","followUpQuestions":[]},{"required":false,"locked":false,"description":"Please share a bit more about your situation, what gaps you want to fill, and the impact it would make for you. I look forward to learning more about you!","id":"textarea-72d3fd66-2e7b-476c-bd07-e9a0056c5c53","textarea":true,"type":"textarea","placeholder":"","title":"What would you like to work on together? "}],"captchaAlignment":1,"lightboxHandleText":"","localizedStrings":{"validation":{"noValidSelection":"A valid selection must be made.","invalidUrl":"Must be a valid URL.","stringTooLong":"Value should have a length no longer than {0}.","containsInvalidKey":"{0} contains an invalid key.","invalidTwitterUsername":"Must be a valid Twitter username.","valueOutsideRange":"Value must be in the range {0} to {1}.","invalidPassword":"Passwords should not contain whitespace.","missingRequiredSubfields":"{0} is missing required subfields: {1}","invalidCurrency":"Currency value should be formatted like 1234 or 123.99.","invalidMapSize":"Value should contain exactly {0} elements.","subfieldsRequired":"All fields in {0} are required.","formSubmissionFailed":"Form submission failed. Review the following information: {0}.","invalidCountryCode":"Country code should have an optional plus and up to 4 digits.","invalidDate":"This is not a real date.","required":"{0} is required.","invalidStringLength":"Value should be {0} characters long.","invalidEmail":"Email addresses should follow the format user@domain.com.","invalidListLength":"Value should be {0} elements long.","allEmpty":"Please fill out at least one form field.","missingRequiredQuestion":"Missing a required question.","invalidQuestion":"Contained an invalid question.","captchaFailure":"Captcha validation failed. Please try again.","stringTooShort":"Value should have a length of at least {0}.","invalid":"{0} is not valid.","formErrors":"Form Errors","containsInvalidValue":"{0} contains an invalid value.","invalidUnsignedNumber":"Numbers must contain only digits and no other characters.","invalidName":"Valid names contain only letters, numbers, spaces, ', or - characters."},"submit":"Submit","status":{"title":"{@} Block","learnMore":"Learn more"},"name":{"firstName":"First Name","lastName":"Last Name"},"lightbox":{"openForm":"Open Form"},"likert":{"agree":"Agree","stronglyDisagree":"Strongly Disagree","disagree":"Disagree","stronglyAgree":"Strongly Agree","neutral":"Neutral"},"time":{"am":"AM","second":"Second","pm":"PM","minute":"Minute","amPm":"AM/PM","hour":"Hour"},"notFound":"Form not found.","date":{"yyyy":"YYYY","year":"Year","mm":"MM","day":"Day","month":"Month","dd":"DD"},"phone":{"country":"Country","number":"Number","prefix":"Prefix","areaCode":"Area Code","line":"Line"},"submitError":"Unable to submit form. Please try again later.","address":{"stateProvince":"State/Province","country":"Country","zipPostalCode":"Zip/Postal Code","address2":"Address 2","address1":"Address 1","city":"City"},"email":{"signUp":"Sign up for news and updates"},"cannotSubmitDemoForm":"This is a demo form and cannot be submitted.","required":"(required)","invalidData":"Invalid form data."}}</script>
+  <div id="form-submission-html-66319a466ee402133c1718f3" class="sqs-form-block-submission-html" data-submission-html=""></div>
+
+<div class="sqs-site-style-form form-wrapper"
+  
+>
+  
+  <div class="form-inner-wrapper"  hidden>
+    <form
+       data-form-id="66319a466ee402133c1718f3"
+       data-success-redirect=""
+       data-dynamic-strings
+       autocomplete="on"
+       
+       method="POST"
+       action="https://wes-kao-2las.squarespace.com"
+       novalidate
+       onsubmit="return (function (form) {
+  Y.use('squarespace-form-submit', 'node', function usingFormSubmit(Y) {
+    (new Y.Squarespace.FormSubmit(form)).submit({
+      formId: '66319a466ee402133c1718f3',
+      collectionId: '65dfa235777535444ce4ecef',
+      objectName: 'page-65dfa235777535444ce4ecef'
+    });
+  });
+  return false;
+})(this);"
+       
+    >
+      
+        <div class="field-list clear">
+
+<div id="text-f1098535-8643-4e40-b769-c8b1848753bf" class="form-item field text required">
+                
+            <label class="title" for="text-f1098535-8643-4e40-b769-c8b1848753bf-field">
+              Name
+              
+                <span class="required" aria-hidden="true">*</span>
+              
+            </label>
+          
+                
+                <input
+                    class="field-element text"
+                    type="text"
+                    id="text-f1098535-8643-4e40-b769-c8b1848753bf-field"
+                    
+                    aria-required="true"
+                />
+              </div>
+
+<div id="email-yui_3_17_2_1_1714525575794_21878" class="form-item field email required">
+                
+            <label class="title" for="email-yui_3_17_2_1_1714525575794_21878-field">
+              Email
+              
+                <span class="required" aria-hidden="true">*</span>
+              
+            </label>
+          
+                
+                <input
+                    class="field-element"
+                    id="email-yui_3_17_2_1_1714525575794_21878-field"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    spellcheck="false"
+                    
+                    aria-required="true"
+                />
+              </div>
+
+<div id="text-b0c115bb-187a-4983-be70-03c4d8accfe3" class="form-item field text required">
+                
+            <label class="title" for="text-b0c115bb-187a-4983-be70-03c4d8accfe3-field">
+              LinkedIn URL
+              
+                <span class="required" aria-hidden="true">*</span>
+              
+            </label>
+          
+                
+                <input
+                    class="field-element text"
+                    type="text"
+                    id="text-b0c115bb-187a-4983-be70-03c4d8accfe3-field"
+                    
+                    aria-required="true"
+                />
+              </div>
+
+<div id="text-c6a37c4d-afc1-448b-88ff-f2e725503472" class="form-item field text">
+                
+            <label class="title" for="text-c6a37c4d-afc1-448b-88ff-f2e725503472-field">
+              Company
+              
+            </label>
+          
+                
+                <input
+                    class="field-element text"
+                    type="text"
+                    id="text-c6a37c4d-afc1-448b-88ff-f2e725503472-field"
+                    
+                    
+                />
+              </div>
+
+<fieldset
+                  id="checkbox-0868e860-230a-4765-99db-1c6997a4e4eb"
+                  class="form-item field checkbox"
+                  
+              >
+                
+            <legend class="title">
+              I'm interested in
+              
+            </legend>
+          
+                
+                
+                <div class="option"><label><input type="checkbox" name="checkbox-0868e860-230a-4765-99db-1c6997a4e4eb-field" value="1:1 Executive coaching"/> 1:1 Executive coaching</label></div>
+                
+                <div class="option"><label><input type="checkbox" name="checkbox-0868e860-230a-4765-99db-1c6997a4e4eb-field" value="Advisory consulting"/> Advisory consulting</label></div>
+                
+                <div class="option"><label><input type="checkbox" name="checkbox-0868e860-230a-4765-99db-1c6997a4e4eb-field" value="Keynote (fireside chat, all-hands, ERG, etc)"/> Keynote (fireside chat, all-hands, ERG, etc)</label></div>
+                
+              </fieldset>
+
+<div id="textarea-72d3fd66-2e7b-476c-bd07-e9a0056c5c53" class="form-item field textarea">
+                
+            <label class="title" for="textarea-72d3fd66-2e7b-476c-bd07-e9a0056c5c53-field">
+              What would you like to work on together? 
+              
+            </label>
+          
+                <div class="description">Please share a bit more about your situation, what gaps you want to fill, and the impact it would make for you. I look forward to learning more about you!</div>
+                <textarea
+                    class="field-element "
+                    id="textarea-72d3fd66-2e7b-476c-bd07-e9a0056c5c53-field"
+                    
+                    
+                ></textarea>
+              </div>
+
+</div>
+
+<div class="captcha-container
+        align-left
+        
+        
+        "
+        data-theme="light"
+      ></div>
+
+<div data-animation-role="button"
+        class="
+          form-button-wrapper
+          
+        "
+      >
+        <input
+          class="button sqs-system-button sqs-editable-button sqs-button-element--primary"
+          type="submit"
+          value="Submit"
+          data-sqsp-button
+        />
+      </div>
+
+<div class="hidden form-submission-text">Thank you!</div>
+      <div class="hidden form-submission-html" data-submission-html=""></div>
+    </form>
+  </div>
+</div>
+</div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-sqsp-block="text" id="block-yui_3_17_2_1_1714526888391_32914"><div class="sqs-block-content">
+
+<div class="sqs-html-content" data-sqsp-text-block-content>
+  <h3 style="white-space:pre-wrap;">What kind of operator gets the most from working together?</h3><p class="" style="white-space:pre-wrap;">If you’re curious if we might be a fit, I've noticed a few patterns among my clients:</p><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">They are usually folks who are too hard on themselves and take too much accountability, not too little.</p></li><li><p class="" style="white-space:pre-wrap;">They are self-aware and intellectually honest. I find intellectual honesty to be one of the most attractive traits in colleagues—I can't stand people who squirm out or delude themselves.</p></li><li><p class="" style="white-space:pre-wrap;">They tend to be “player-coaches” who both manage a team and execute as an individual contributor (IC) too. They lead others, but need to balance when to delegate, when to get into the weeds, how to create leverage, etc.</p></li><li><p class="" style="white-space:pre-wrap;">They are direct and want someone to be direct with them. They want a neutral, objective third-party POV and gut check on whether they're justified in reacting the way they're reacting, and if an expectation is normal (for them to have for others, or others to have for them). </p></li><li><p class="" style="white-space:pre-wrap;">They are often looking for a thought partner to figure out what to do and how to do it/say it. They want to maximize buy-in and minimize resistance from internal and external stakeholders.</p></li><li><p class="" style="white-space:pre-wrap;">They're willing to put in the work. I often give "homework" to implement between sessions. You'll get the most from coaching if you're willing to come prepared and put in the work.</p></li></ul><p class="" style="white-space:pre-wrap;">I'm a founder and operator at heart, so I'm aware of the dynamics, rhythm, expectations, etc of being on a team building something new with pressure to show growth each quarter. Here’s <a href="https://www.weskao.com/advisory" target="_blank">what clients have said</a> about what it’s like working together.</p><h3 style="white-space:pre-wrap;">What’s my approach to coaching?</h3><ul data-rte-list="default"><li><p class="" style="white-space:pre-wrap;">In my experience, “concrete” eats “abstract” for breakfast. One of the main benefits of coaching is getting personalized insights, so I like going deeper and getting specific to your situation. We can all be unreliable narrators sometimes, so I will often ask for examples and validate what you’re sharing. I might point out if I see a situation differently, speak up if I disagree with your interpretation, etc, so we can get closer to the truth—and can therefore make more thoughtful, intentional decisions.</p></li><li><p class="" style="white-space:pre-wrap;">There are some coaches who only ask questions. If you’re looking for that style of coaching, I’m probably not the best fit. My approach is a mix of advising and coaching. I offer my point of view because I believe I can add the most value to you this way, and if I think something is good for you, I want to try to convince you. Obviously, I balance this with asking questions to get a better understanding of your situation and leave ample room for you to reflect too.</p></li><li><p class="" style="white-space:pre-wrap;">I’m a big proponent of building muscle memory via mock presentations, role-playing, drilling, etc in the safe sandbox of our sessions. I believe most people think they know what to do or say—until they try to execute it. This is why it’s useful to practice the actual words you’re going to use. This way, you will feel confident about variables that might shift in unpredictable ways in real-time.</p></li><li><p class="" style="white-space:pre-wrap;">FWIW My approach is less about confidence and mindset (though I believe those are important too), and more about practical techniques for getting more of what you want. My style is quite scenario-based and goal-oriented, where we discuss your ideal outcome, stakeholders involved, specific levers at your disposal, and strategize how to get the result you want.</p></li></ul><p class="" style="white-space:pre-wrap;"><strong>It’s fun to be good at your job.</strong> I hope I have the opportunity to support you, and help you get even better at what you do. If you have questions, feel free to reach out at wes at wes kao dot com or fill out the form above.</p>
+</div>
+
+</div></div></div></div></div>
+              </section>
+            
+          </main>
+
+</div>
+      </div>
+
+<footer class="Footer" role="contentinfo" data-controller="FooterBreakpoints">
+
+<div class="Footer-inner clear">
+
+<div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--top sqs-alternate-block-style-container empty" data-layout-label="Footer Top Blocks" data-type="block-field" data-updated-on="1516497955382" id="footerBlocksTop"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+
+<div class="Footer-middle">
+      <div class="Footer-business">
+
+</div>
+
+<div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--middle sqs-alternate-block-style-container empty" data-layout-label="Footer Middle Blocks" data-type="block-field" data-updated-on="1516497937089" id="footerBlocksMiddle"><div class="row sqs-row"><div class="col sqs-col-12 span-12"></div></div></div>
+
+</div>
+
+<div class="sqs-layout sqs-grid-12 columns-12 Footer-blocks Footer-blocks--bottom sqs-alternate-block-style-container" data-layout-label="Footer Bottom Blocks" data-type="block-field" data-updated-on="1695067478276" id="footerBlocksBottom"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" data-sqsp-block="text" id="block-yui_3_17_2_12_1507571462800_20134"><div class="sqs-block-content">
+
+<div class="sqs-html-content" data-sqsp-text-block-content>
+  <p style="text-align:center;white-space:pre-wrap;" class="">© Wes Kao. All rights reserved.</p>
+</div>
+
+</div></div></div></div></div>
+
+</div>
+
+</footer>
+
+</div>
+
+<script src="https://static1.squarespace.com/static/ta/55f0a9b0e4b0f3eb70352f6d/354/scripts/site-bundle.js" type="text/javascript"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WD3J2W8B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/fd50a2b5012fe1672cdbfc74a/1c4dbda811c1c0e7f12e5b036.js");</script><script data-sqs-type="imageloader-bootstrapper">if(window.ImageLoader) window.ImageLoader.bootstrap({}, document);</script><script>Squarespace.afterBodyLoad(Y);</script><svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none" data-usage="social-icons-svg"><symbol id="x-formerly-twitter-unauth-icon" viewBox="0 0 64 64"><g class="svg-icon"><path d="M34.426 29.9327L43.9189 18.5H41.6694L33.4267 28.4268L26.8432 18.5H19.25L29.2055 33.5111L19.25 45.5H21.4997L30.2042 35.0169L37.1568 45.5H44.75L34.426 29.9327ZM22.3102 20.2546H25.7656L41.6704 43.8252H38.2151L22.3102 20.2546Z"/></g></symbol><symbol id="x-formerly-twitter-unauth-mask" viewBox="0 0 64 64"><g class="svg-mask"><path d="M38.2151 43.8252H41.6704L25.7656 20.2546H22.3102L38.2151 43.8252Z" /><path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H64V64H0V0ZM43.9189 18.5L34.426 29.9327L44.75 45.5H37.1568L30.2042 35.0169L21.4997 45.5H19.25L29.2055 33.5111L19.25 18.5H26.8432L33.4267 28.4268L41.6694 18.5H43.9189Z"/></g></symbol></svg>
+
+</body>
+</html>

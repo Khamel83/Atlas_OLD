@@ -1,0 +1,1687 @@
+# Content from https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/
+
+*Retrieved: 2025-09-15T07:57:42.310643*
+
+---
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/","20241010112739","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1728559659");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<script type="text/javascript" src="http://web.archive.org/web/20241010112739js_/https://cdn.cookielaw.org/consent/02abb198-81a8-49e5-a9b1-f69a5dd9c039/OtAutoBlock.js"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="02abb198-81a8-49e5-a9b1-f69a5dd9c039"></script>
+
+<script>
+function OptanonWrapper(){var t;window.infotrackInitialized||void 0===window.Infotrack?window.Infotrack.setSegmentIntegrations():(window.infotrackInitialized=!0,Infotrack.load("http://web.archive.org/web/20241010112739/https://g.foolcdn.com/mms/resources/js/infotrack-ot_min.js"),t=t||0,setTimeout(function(){window.Infotrack.initialize("affiliates")},t))}window.top!=window&&(window.analytics=window.top.analytics,window.inIframe=!0);var segmentKey="XLLMzvc5mH4V3kvd3IjydoSxjhi7Oio0",segmentSnippetVersion="4.15.2",getSegmentUrl=function(t){return t=t||window.segmentKey,("https:"===document.location.protocol?"https://":"http://")+"evs.pink-boat.fool.com/analytics.js/v1/"+t+"/analytics.min.js"},trackerMaker=function(t){function n(n){function t(){var t=Array.prototype.slice.call(arguments,0),t=[n].concat(t);e.push(t)}return t.stub=!0,t}for(var e=[],o=(e.invoked=!1,e.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"],t&&(e.methods=e.methods.concat(t)),0);o<e.methods.length;o++){var i=e.methods[o];e[i]=n(i)}return e.load=function(t){var n;e.invoked?window.console&&console.error&&console.error("Tracking snippet included twice."):((n=document.createElement("script")).type="text/javascript",n.async=!0,n.src=t,(t=document.getElementsByTagName("script")[0]).parentNode.insertBefore(n,t),e.invoked=!0)},e},analytics=window.analytics=window.analytics||trackerMaker(["addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"]),Infotrack=window.Infotrack=window.Infotrack||trackerMaker(["initialize","setSegmentIntegrations"]);
+    </script>
+<meta name="infotrackSnippetVersion" content="7.3.1" data-tracker-key="infotrackSnippetVersion">
+<title>
+    
+      
+        Are Extended Warranties Worth the Money? Here's What Dave Ramsey Thinks
+      
+    
+  </title>
+
+<script type="text/javascript" src="http://web.archive.org/web/20241010112739js_/https://cdn-4.convertexperiments.com/js/10045690-10046166.js"></script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=yes"/>
+<meta name="description" content="Extended warranties are often not worth the money you pay for them. Finance guru Dave Ramsey explains why you should just say no to extended warranties."/>
+<meta name="STORY_UID" content="ddf25aa3-53d0-42fa-b408-63bca57f39c4" data-tracker-key="article_uuid"/>
+<meta name="author" content="Christy Bieber" data-tracker-key="article_author"/>
+<meta name="bureau" content="personal-finance" data-tracker-key="article_bureau"/>
+<meta name="page_type" content="ascent_article" data-tracker-key="page_type"/>
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@TheAscentMoney"/>
+<meta property="fb:app_id" content="489204688582574"/>
+<meta property="og:description" content="Extended warranties are often not worth the money you pay for them. Finance guru Dave Ramsey explains why you should just say no to extended warranties."/>
+<meta property="og:image" content="http://web.archive.org/web/20241010112739im_/https://m.foolcdn.com/media/affiliates/original_images/Young_couple_shopping_for_fridge.jpg?width=1200"/>
+<meta property="og:site_name" content="The Motley Fool"/>
+<meta property="og:title" content="Are Extended Warranties Worth the Money? Here's What Dave Ramsey Thinks"/>
+<meta property="og:type" content="article">
+<meta property="article:modified_time" content="2022-05-05T6:32:49-0400"/>
+<meta property="article:published_time" content="2022-05-05T6:32:49-0400"/>
+<meta property="og:updated_time" content="2022-05-05T6:32:49-0400"/>
+<meta itemprop="datePublished" content="2022-05-05T6:32:49-0400"/>
+<meta itemprop="dateModified" content="2022-05-05T6:32:49-0400"/>
+<meta property="og:url" content="http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/"/>
+<meta name="gsa_date" content="2022 05 05" data-tracker-key="article_publish_date"/>
+<meta name="publish_time" content="06:32" data-tracker-key="article_publish_time"/>
+<meta name="theme-color" content="#3a87ad"/>
+<meta name="msvalidate.01" content="8D40D58712924715BAA79D135A6C8DDA"/>
+<meta name="google-site-verification" content="iu7TTdQTRYrKc10sEwNP1pXCd-B3MNh94TQ8ij6NT6o"/>
+<meta name="color-scheme" content="only">
+<meta name="robots" content="max-image-preview:large">
+<link rel="manifest" href="/web/20241010112739/https://www.fool.com/the-ascent/manifest.json">
+<link rel="preconnect" href="http://web.archive.org/web/20241010112739/https://amplifypixel.outbrain.com/">
+<link rel="preconnect" href="http://web.archive.org/web/20241010112739/https://s.yimg.com/">
+<link rel="preconnect" href="http://web.archive.org/web/20241010112739/https://www.google-analytics.com/">
+<link rel="preconnect" href="http://web.archive.org/web/20241010112739/https://www.google.com/">
+<script>
+      var dataLayer = dataLayer || [];
+    </script>
+<script>
+        var dataLayer = dataLayer || [];
+        dataLayer.push({ 'template_string': 'articles/articles_page.html' });
+      </script>
+<link href="http://web.archive.org/web/20241010112739/https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans:200,300,400,700&amp;display=swap" rel="preload" as="style" crossorigin="anonymous">
+<link href="http://web.archive.org/web/20241010112739cs_/https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans:200,300,400,700&amp;display=swap" rel="stylesheet" type="text/css" crossorigin="anonymous">
+<link href="http://web.archive.org/web/20241010112739/https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="preload" as="style" crossorigin="anonymous">
+<link href="http://web.archive.org/web/20241010112739cs_/https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet" type="text/css" crossorigin="anonymous">
+<link href="http://web.archive.org/web/20241010112739cs_/https://fonts.googleapis.com/css2?family=Lora:ital@1&amp;display=swap" rel="stylesheet" type="text/css" crossorigin="anonymous">
+<script type="application/ld+json">
+  {
+    "@type": "NewsArticle",
+    "@context": "http://web.archive.org/web/20241010112739/https://schema.org",
+    "inLanguage": "en-US",
+    "url": "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/",
+    "mainEntityOfPage": "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/",
+    "image": [
+      {
+        "@type": "ImageObject",
+        "url": "http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/Young_couple_shopping_for_fridge.jpg?width=1500&height=1500&fit=cover&background=%23385cc7",
+        "width": 1500,
+        "height": 1500
+      },
+      {
+        "@type": "ImageObject",
+        "url": "http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/Young_couple_shopping_for_fridge.jpg?width=2000&height=1500&fit=cover&background=%23385cc7",
+        "width": 2000,
+        "height": 1500
+      },
+      {
+        "@type": "ImageObject",
+        "url": "http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/Young_couple_shopping_for_fridge.jpg?width=2667&height=1500&fit=cover&background=%23385cc7",
+        "width": 2667,
+        "height": 1500
+      }
+    ],
+    "thumbnailUrl": "http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/Young_couple_shopping_for_fridge.jpg?width=1500&fit=cover&background=%23385cc7",
+    "name": "Are Extended Warranties Worth the Money? Here&#x27;s What Dave Ramsey Thinks",
+    "headline": "Are Extended Warranties Worth the Money? Here&#x27;s What Dave Ramsey Thinks",
+    "alternativeHeadline": "Are Extended Warranties Worth the Money? Here&#x27;s What Dave Ramsey Thinks",
+    "description": "Extended warranties are often not worth the money you pay for them. Finance guru Dave Ramsey explains why you should just say no to extended warranties.",
+    "datePublished": "2022-05-05T6:32:49-0400",
+    "dateModified": "2022-05-05T6:32:49-0400",
+    "author": {
+      "@type": "Person",
+      "name": "Christy Bieber",
+      
+        "description": "Christy Bieber is a full-time personal finance and legal writer with 15 years of experience. She has a JD from UCLA and is a former college instructor.",
+      
+      "jobTitle": null,
+      "sameAs": null,
+      "image": "http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/christy-bieber-crop_deoRUNY.jpg?width=128&height=128",
+          "url": "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/authors/profile/christy-bieber/"
+    },
+    "publisher": {
+  "@type": "Organization",
+  "name": "The Ascent by The Motley Fool",
+  "legalName": "The Motley Fool",
+  "url": "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/",
+  "logo": "http://web.archive.org/web/20241010112739/https://g.foolcdn.com/static/affiliates/project/images/the-ascent-logo.png",
+  "foundingDate": "1993",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2000 Duke Street",
+    "addressLocality": "Alexandria",
+    "addressRegion": "VA",
+    "postalCode": "22314",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/",
+    "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/about-us/",
+    "http://web.archive.org/web/20241010112739/https://www.facebook.com/TheAscentMoney/",
+    "http://web.archive.org/web/20241010112739/https://twitter.com/TheAscentMoney",
+    "http://web.archive.org/web/20241010112739/https://www.instagram.com/theascent_money/",
+    "http://web.archive.org/web/20241010112739/https://www.linkedin.com/company/the-ascent-co/",
+    "http://web.archive.org/web/20241010112739/https://www.youtube.com/channel/UCUYUDxyeyCAo8Txyf354HQQ"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Media Inquiries",
+    "email": "pr@fool.com"
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "@id": "http://web.archive.org/web/20241010112739/https://www.fool.com/",
+    "name": "The Motley Fool",
+    "url": "http://web.archive.org/web/20241010112739/https://www.fool.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://web.archive.org/web/20241010112739/https://g.foolcdn.com/misc-assets/logo-tmf-primary-7-magenta-royalpurple.svg",
+      "width": 157,
+      "height": 43
+    },
+    "sameAs": [
+      "http://web.archive.org/web/20241010112739/https://www.fool.com/about/",
+      "http://web.archive.org/web/20241010112739/https://en.wikipedia.org/wiki/The_Motley_Fool",
+      "http://web.archive.org/web/20241010112739/https://www.linkedin.com/company/the-motley-fool",
+      "http://web.archive.org/web/20241010112739/https://www.facebook.com/themotleyfool/",
+      "http://web.archive.org/web/20241010112739/https://twitter.com/themotleyfool",
+      "http://web.archive.org/web/20241010112739/https://www.instagram.com/themotleyfoolofficial/",
+      "http://web.archive.org/web/20241010112739/https://www.youtube.com/channel/UCpRQuynBX9Qy9tPrcswpPag",
+      "http://web.archive.org/web/20241010112739/https://www.pinterest.com/themotleyfool/"
+    ]
+  }
+}
+
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://web.archive.org/web/20241010112739/https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {"@type": "ListItem", "position": 1, "name": "Knowledge", "item": "http://web.archive.org/web/20241010112739/https://www.fool.com" }
+    
+          ,
+          {"@type": "ListItem", "position": 2, "name": "Personal-finance", "item": "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/" }
+      
+          ,
+          {"@type": "ListItem", "position": 3, "name": "Are Extended Warranties Worth the Money? Here&#x27;s What Dave Ramsey Thinks", "item": "http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/" }
+      
+    
+  ]
+}
+</script>
+
+<link rel="shortcut icon" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/favicon.ico">
+<link rel="apple-touch-icon" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon.png">
+<link rel="apple-touch-icon" sizes="57x57" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/favicon/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://g.foolcdn.com/static/affiliates/project/images/favicon/ms-icon-144x144.png">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://web.archive.org/web/20241010112739/https://www.fool.com/a/feeds/partner/googlechromefollow?apikey=5e092c1f-c5f9-4428-9219-908a47d2e2de">
+<link rel="canonical" href="http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/">
+<style id="compressed-css" type="text/css">﻿html{box-sizing:border-box;-ms-overflow-style:scrollbar}*,*::before,*::after{box-sizing:inherit}.container,.container-fluid,.container-xl,.container-lg,.container-md,.container-sm{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container-sm,.container{max-width:540px}}@media (min-width:768px){.container-md,.container-sm,.container{max-width:720px}}@media (min-width:992px){.container-lg,.container-md,.container-sm,.container{max-width:960px}}@media (min-width:1200px){.container-xl,.container-lg,.container-md,.container-sm,.container{max-width:1116px}}.row{display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.no-gutters{margin-right:0;margin-left:0}.no-gutters>.col,.no-gutters>[class*="col-"]{padding-right:0;padding-left:0}.col-xl,.col-xl-auto,.col-xl-12,.col-xl-11,.col-xl-10,.col-xl-9,.col-xl-8,.col-xl-7,.col-xl-6,.col-xl-5,.col-xl-4,.col-xl-3,.col-xl-2,.col-xl-1,.col-lg,.col-lg-auto,.col-lg-12,.col-lg-11,.col-lg-10,.col-lg-9,.col-lg-8,.col-lg-7,.col-lg-6,.col-lg-5,.col-lg-4,.col-lg-3,.col-lg-2,.col-lg-1,.col-md,.col-md-auto,.col-md-12,.col-md-11,.col-md-10,.col-md-9,.col-md-8,.col-md-7,.col-md-6,.col-md-5,.col-md-4,.col-md-3,.col-md-2,.col-md-1,.col-sm,.col-sm-auto,.col-sm-12,.col-sm-11,.col-sm-10,.col-sm-9,.col-sm-8,.col-sm-7,.col-sm-6,.col-sm-5,.col-sm-4,.col-sm-3,.col-sm-2,.col-sm-1,.col,.col-auto,.col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1{position:relative;width:100%;padding-right:15px;padding-left:15px}.col{flex-basis:0;flex-grow:1;max-width:100%}.row-cols-1>*{flex:0 0 100%;max-width:100%}.row-cols-2>*{flex:0 0 50%;max-width:50%}.row-cols-3>*{flex:0 0 33.33333%;max-width:33.33333%}.row-cols-4>*{flex:0 0 25%;max-width:25%}.row-cols-5>*{flex:0 0 20%;max-width:20%}.row-cols-6>*{flex:0 0 16.66667%;max-width:16.66667%}.col-auto{flex:0 0 auto;width:auto;max-width:100%}.col-1{flex:0 0 8.33333%;max-width:8.33333%}.col-2{flex:0 0 16.66667%;max-width:16.66667%}.col-3{flex:0 0 25%;max-width:25%}.col-4{flex:0 0 33.33333%;max-width:33.33333%}.col-5{flex:0 0 41.66667%;max-width:41.66667%}.col-6{flex:0 0 50%;max-width:50%}.col-7{flex:0 0 58.33333%;max-width:58.33333%}.col-8{flex:0 0 66.66667%;max-width:66.66667%}.col-9{flex:0 0 75%;max-width:75%}.col-10{flex:0 0 83.33333%;max-width:83.33333%}.col-11{flex:0 0 91.66667%;max-width:91.66667%}.col-12{flex:0 0 100%;max-width:100%}.order-first{order:-1}.order-last{order:13}.order-0{order:0}.order-1{order:1}.order-2{order:2}.order-3{order:3}.order-4{order:4}.order-5{order:5}.order-6{order:6}.order-7{order:7}.order-8{order:8}.order-9{order:9}.order-10{order:10}.order-11{order:11}.order-12{order:12}.offset-1{margin-left:8.33333%}.offset-2{margin-left:16.66667%}.offset-3{margin-left:25%}.offset-4{margin-left:33.33333%}.offset-5{margin-left:41.66667%}.offset-6{margin-left:50%}.offset-7{margin-left:58.33333%}.offset-8{margin-left:66.66667%}.offset-9{margin-left:75%}.offset-10{margin-left:83.33333%}.offset-11{margin-left:91.66667%}@media (min-width:576px){.col-sm{flex-basis:0;flex-grow:1;max-width:100%}.row-cols-sm-1>*{flex:0 0 100%;max-width:100%}.row-cols-sm-2>*{flex:0 0 50%;max-width:50%}.row-cols-sm-3>*{flex:0 0 33.33333%;max-width:33.33333%}.row-cols-sm-4>*{flex:0 0 25%;max-width:25%}.row-cols-sm-5>*{flex:0 0 20%;max-width:20%}.row-cols-sm-6>*{flex:0 0 16.66667%;max-width:16.66667%}.col-sm-auto{flex:0 0 auto;width:auto;max-width:100%}.col-sm-1{flex:0 0 8.33333%;max-width:8.33333%}.col-sm-2{flex:0 0 16.66667%;max-width:16.66667%}.col-sm-3{flex:0 0 25%;max-width:25%}.col-sm-4{flex:0 0 33.33333%;max-width:33.33333%}.col-sm-5{flex:0 0 41.66667%;max-width:41.66667%}.col-sm-6{flex:0 0 50%;max-width:50%}.col-sm-7{flex:0 0 58.33333%;max-width:58.33333%}.col-sm-8{flex:0 0 66.66667%;max-width:66.66667%}.col-sm-9{flex:0 0 75%;max-width:75%}.col-sm-10{flex:0 0 83.33333%;max-width:83.33333%}.col-sm-11{flex:0 0 91.66667%;max-width:91.66667%}.col-sm-12{flex:0 0 100%;max-width:100%}.order-sm-first{order:-1}.order-sm-last{order:13}.order-sm-0{order:0}.order-sm-1{order:1}.order-sm-2{order:2}.order-sm-3{order:3}.order-sm-4{order:4}.order-sm-5{order:5}.order-sm-6{order:6}.order-sm-7{order:7}.order-sm-8{order:8}.order-sm-9{order:9}.order-sm-10{order:10}.order-sm-11{order:11}.order-sm-12{order:12}.offset-sm-0{margin-left:0}.offset-sm-1{margin-left:8.33333%}.offset-sm-2{margin-left:16.66667%}.offset-sm-3{margin-left:25%}.offset-sm-4{margin-left:33.33333%}.offset-sm-5{margin-left:41.66667%}.offset-sm-6{margin-left:50%}.offset-sm-7{margin-left:58.33333%}.offset-sm-8{margin-left:66.66667%}.offset-sm-9{margin-left:75%}.offset-sm-10{margin-left:83.33333%}.offset-sm-11{margin-left:91.66667%}}@media (min-width:768px){.col-md{flex-basis:0;flex-grow:1;max-width:100%}.row-cols-md-1>*{flex:0 0 100%;max-width:100%}.row-cols-md-2>*{flex:0 0 50%;max-width:50%}.row-cols-md-3>*{flex:0 0 33.33333%;max-width:33.33333%}.row-cols-md-4>*{flex:0 0 25%;max-width:25%}.row-cols-md-5>*{flex:0 0 20%;max-width:20%}.row-cols-md-6>*{flex:0 0 16.66667%;max-width:16.66667%}.col-md-auto{flex:0 0 auto;width:auto;max-width:100%}.col-md-1{flex:0 0 8.33333%;max-width:8.33333%}.col-md-2{flex:0 0 16.66667%;max-width:16.66667%}.col-md-3{flex:0 0 25%;max-width:25%}.col-md-4{flex:0 0 33.33333%;max-width:33.33333%}.col-md-5{flex:0 0 41.66667%;max-width:41.66667%}.col-md-6{flex:0 0 50%;max-width:50%}.col-md-7{flex:0 0 58.33333%;max-width:58.33333%}.col-md-8{flex:0 0 66.66667%;max-width:66.66667%}.col-md-9{flex:0 0 75%;max-width:75%}.col-md-10{flex:0 0 83.33333%;max-width:83.33333%}.col-md-11{flex:0 0 91.66667%;max-width:91.66667%}.col-md-12{flex:0 0 100%;max-width:100%}.order-md-first{order:-1}.order-md-last{order:13}.order-md-0{order:0}.order-md-1{order:1}.order-md-2{order:2}.order-md-3{order:3}.order-md-4{order:4}.order-md-5{order:5}.order-md-6{order:6}.order-md-7{order:7}.order-md-8{order:8}.order-md-9{order:9}.order-md-10{order:10}.order-md-11{order:11}.order-md-12{order:12}.offset-md-0{margin-left:0}.offset-md-1{margin-left:8.33333%}.offset-md-2{margin-left:16.66667%}.offset-md-3{margin-left:25%}.offset-md-4{margin-left:33.33333%}.offset-md-5{margin-left:41.66667%}.offset-md-6{margin-left:50%}.offset-md-7{margin-left:58.33333%}.offset-md-8{margin-left:66.66667%}.offset-md-9{margin-left:75%}.offset-md-10{margin-left:83.33333%}.offset-md-11{margin-left:91.66667%}}@media (min-width:992px){.col-lg{flex-basis:0;flex-grow:1;max-width:100%}.row-cols-lg-1>*{flex:0 0 100%;max-width:100%}.row-cols-lg-2>*{flex:0 0 50%;max-width:50%}.row-cols-lg-3>*{flex:0 0 33.33333%;max-width:33.33333%}.row-cols-lg-4>*{flex:0 0 25%;max-width:25%}.row-cols-lg-5>*{flex:0 0 20%;max-width:20%}.row-cols-lg-6>*{flex:0 0 16.66667%;max-width:16.66667%}.col-lg-auto{flex:0 0 auto;width:auto;max-width:100%}.col-lg-1{flex:0 0 8.33333%;max-width:8.33333%}.col-lg-2{flex:0 0 16.66667%;max-width:16.66667%}.col-lg-3{flex:0 0 25%;max-width:25%}.col-lg-4{flex:0 0 33.33333%;max-width:33.33333%}.col-lg-5{flex:0 0 41.66667%;max-width:41.66667%}.col-lg-6{flex:0 0 50%;max-width:50%}.col-lg-7{flex:0 0 58.33333%;max-width:58.33333%}.col-lg-8{flex:0 0 66.66667%;max-width:66.66667%}.col-lg-9{flex:0 0 75%;max-width:75%}.col-lg-10{flex:0 0 83.33333%;max-width:83.33333%}.col-lg-11{flex:0 0 91.66667%;max-width:91.66667%}.col-lg-12{flex:0 0 100%;max-width:100%}.order-lg-first{order:-1}.order-lg-last{order:13}.order-lg-0{order:0}.order-lg-1{order:1}.order-lg-2{order:2}.order-lg-3{order:3}.order-lg-4{order:4}.order-lg-5{order:5}.order-lg-6{order:6}.order-lg-7{order:7}.order-lg-8{order:8}.order-lg-9{order:9}.order-lg-10{order:10}.order-lg-11{order:11}.order-lg-12{order:12}.offset-lg-0{margin-left:0}.offset-lg-1{margin-left:8.33333%}.offset-lg-2{margin-left:16.66667%}.offset-lg-3{margin-left:25%}.offset-lg-4{margin-left:33.33333%}.offset-lg-5{margin-left:41.66667%}.offset-lg-6{margin-left:50%}.offset-lg-7{margin-left:58.33333%}.offset-lg-8{margin-left:66.66667%}.offset-lg-9{margin-left:75%}.offset-lg-10{margin-left:83.33333%}.offset-lg-11{margin-left:91.66667%}}@media (min-width:1200px){.col-xl{flex-basis:0;flex-grow:1;max-width:100%}.row-cols-xl-1>*{flex:0 0 100%;max-width:100%}.row-cols-xl-2>*{flex:0 0 50%;max-width:50%}.row-cols-xl-3>*{flex:0 0 33.33333%;max-width:33.33333%}.row-cols-xl-4>*{flex:0 0 25%;max-width:25%}.row-cols-xl-5>*{flex:0 0 20%;max-width:20%}.row-cols-xl-6>*{flex:0 0 16.66667%;max-width:16.66667%}.col-xl-auto{flex:0 0 auto;width:auto;max-width:100%}.col-xl-1{flex:0 0 8.33333%;max-width:8.33333%}.col-xl-2{flex:0 0 16.66667%;max-width:16.66667%}.col-xl-3{flex:0 0 25%;max-width:25%}.col-xl-4{flex:0 0 33.33333%;max-width:33.33333%}.col-xl-5{flex:0 0 41.66667%;max-width:41.66667%}.col-xl-6{flex:0 0 50%;max-width:50%}.col-xl-7{flex:0 0 58.33333%;max-width:58.33333%}.col-xl-8{flex:0 0 66.66667%;max-width:66.66667%}.col-xl-9{flex:0 0 75%;max-width:75%}.col-xl-10{flex:0 0 83.33333%;max-width:83.33333%}.col-xl-11{flex:0 0 91.66667%;max-width:91.66667%}.col-xl-12{flex:0 0 100%;max-width:100%}.order-xl-first{order:-1}.order-xl-last{order:13}.order-xl-0{order:0}.order-xl-1{order:1}.order-xl-2{order:2}.order-xl-3{order:3}.order-xl-4{order:4}.order-xl-5{order:5}.order-xl-6{order:6}.order-xl-7{order:7}.order-xl-8{order:8}.order-xl-9{order:9}.order-xl-10{order:10}.order-xl-11{order:11}.order-xl-12{order:12}.offset-xl-0{margin-left:0}.offset-xl-1{margin-left:8.33333%}.offset-xl-2{margin-left:16.66667%}.offset-xl-3{margin-left:25%}.offset-xl-4{margin-left:33.33333%}.offset-xl-5{margin-left:41.66667%}.offset-xl-6{margin-left:50%}.offset-xl-7{margin-left:58.33333%}.offset-xl-8{margin-left:66.66667%}.offset-xl-9{margin-left:75%}.offset-xl-10{margin-left:83.33333%}.offset-xl-11{margin-left:91.66667%}}.media{display:flex;align-items:flex-start}.media-body{flex:1}.d-none{display:none!important}.d-inline{display:inline!important}.d-inline-block{display:inline-block!important}.d-block{display:block!important}.d-table{display:table!important}.d-table-row{display:table-row!important}.d-table-cell{display:table-cell!important}.d-flex{display:flex!important}.d-inline-flex{display:inline-flex!important}@media (min-width:576px){.d-sm-none{display:none!important}.d-sm-inline{display:inline!important}.d-sm-inline-block{display:inline-block!important}.d-sm-block{display:block!important}.d-sm-table{display:table!important}.d-sm-table-row{display:table-row!important}.d-sm-table-cell{display:table-cell!important}.d-sm-flex{display:flex!important}.d-sm-inline-flex{display:inline-flex!important}}@media (min-width:768px){.d-md-none{display:none!important}.d-md-inline{display:inline!important}.d-md-inline-block{display:inline-block!important}.d-md-block{display:block!important}.d-md-table{display:table!important}.d-md-table-row{display:table-row!important}.d-md-table-cell{display:table-cell!important}.d-md-flex{display:flex!important}.d-md-inline-flex{display:inline-flex!important}}@media (min-width:992px){.d-lg-none{display:none!important}.d-lg-inline{display:inline!important}.d-lg-inline-block{display:inline-block!important}.d-lg-block{display:block!important}.d-lg-table{display:table!important}.d-lg-table-row{display:table-row!important}.d-lg-table-cell{display:table-cell!important}.d-lg-flex{display:flex!important}.d-lg-inline-flex{display:inline-flex!important}}@media (min-width:1200px){.d-xl-none{display:none!important}.d-xl-inline{display:inline!important}.d-xl-inline-block{display:inline-block!important}.d-xl-block{display:block!important}.d-xl-table{display:table!important}.d-xl-table-row{display:table-row!important}.d-xl-table-cell{display:table-cell!important}.d-xl-flex{display:flex!important}.d-xl-inline-flex{display:inline-flex!important}}@media print{.d-print-none{display:none!important}.d-print-inline{display:inline!important}.d-print-inline-block{display:inline-block!important}.d-print-block{display:block!important}.d-print-table{display:table!important}.d-print-table-row{display:table-row!important}.d-print-table-cell{display:table-cell!important}.d-print-flex{display:flex!important}.d-print-inline-flex{display:inline-flex!important}}.flex-row{flex-direction:row!important}.flex-column{flex-direction:column!important}.flex-row-reverse{flex-direction:row-reverse!important}.flex-column-reverse{flex-direction:column-reverse!important}.flex-wrap{flex-wrap:wrap!important}.flex-nowrap{flex-wrap:nowrap!important}.flex-wrap-reverse{flex-wrap:wrap-reverse!important}.flex-fill{flex:1 1 auto!important}.flex-grow-0{flex-grow:0!important}.flex-grow-1{flex-grow:1!important}.flex-shrink-0{flex-shrink:0!important}.flex-shrink-1{flex-shrink:1!important}.justify-content-start{justify-content:flex-start!important}.justify-content-end{justify-content:flex-end!important}.justify-content-center{justify-content:center!important}.justify-content-between{justify-content:space-between!important}.justify-content-around{justify-content:space-around!important}.align-items-start{align-items:flex-start!important}.align-items-end{align-items:flex-end!important}.align-items-center{align-items:center!important}.align-items-baseline{align-items:baseline!important}.align-items-stretch{align-items:stretch!important}.align-content-start{align-content:flex-start!important}.align-content-end{align-content:flex-end!important}.align-content-center{align-content:center!important}.align-content-between{align-content:space-between!important}.align-content-around{align-content:space-around!important}.align-content-stretch{align-content:stretch!important}.align-self-auto{align-self:auto!important}.align-self-start{align-self:flex-start!important}.align-self-end{align-self:flex-end!important}.align-self-center{align-self:center!important}.align-self-baseline{align-self:baseline!important}.align-self-stretch{align-self:stretch!important}@media (min-width:576px){.flex-sm-row{flex-direction:row!important}.flex-sm-column{flex-direction:column!important}.flex-sm-row-reverse{flex-direction:row-reverse!important}.flex-sm-column-reverse{flex-direction:column-reverse!important}.flex-sm-wrap{flex-wrap:wrap!important}.flex-sm-nowrap{flex-wrap:nowrap!important}.flex-sm-wrap-reverse{flex-wrap:wrap-reverse!important}.flex-sm-fill{flex:1 1 auto!important}.flex-sm-grow-0{flex-grow:0!important}.flex-sm-grow-1{flex-grow:1!important}.flex-sm-shrink-0{flex-shrink:0!important}.flex-sm-shrink-1{flex-shrink:1!important}.justify-content-sm-start{justify-content:flex-start!important}.justify-content-sm-end{justify-content:flex-end!important}.justify-content-sm-center{justify-content:center!important}.justify-content-sm-between{justify-content:space-between!important}.justify-content-sm-around{justify-content:space-around!important}.align-items-sm-start{align-items:flex-start!important}.align-items-sm-end{align-items:flex-end!important}.align-items-sm-center{align-items:center!important}.align-items-sm-baseline{align-items:baseline!important}.align-items-sm-stretch{align-items:stretch!important}.align-content-sm-start{align-content:flex-start!important}.align-content-sm-end{align-content:flex-end!important}.align-content-sm-center{align-content:center!important}.align-content-sm-between{align-content:space-between!important}.align-content-sm-around{align-content:space-around!important}.align-content-sm-stretch{align-content:stretch!important}.align-self-sm-auto{align-self:auto!important}.align-self-sm-start{align-self:flex-start!important}.align-self-sm-end{align-self:flex-end!important}.align-self-sm-center{align-self:center!important}.align-self-sm-baseline{align-self:baseline!important}.align-self-sm-stretch{align-self:stretch!important}}@media (min-width:768px){.flex-md-row{flex-direction:row!important}.flex-md-column{flex-direction:column!important}.flex-md-row-reverse{flex-direction:row-reverse!important}.flex-md-column-reverse{flex-direction:column-reverse!important}.flex-md-wrap{flex-wrap:wrap!important}.flex-md-nowrap{flex-wrap:nowrap!important}.flex-md-wrap-reverse{flex-wrap:wrap-reverse!important}.flex-md-fill{flex:1 1 auto!important}.flex-md-grow-0{flex-grow:0!important}.flex-md-grow-1{flex-grow:1!important}.flex-md-shrink-0{flex-shrink:0!important}.flex-md-shrink-1{flex-shrink:1!important}.justify-content-md-start{justify-content:flex-start!important}.justify-content-md-end{justify-content:flex-end!important}.justify-content-md-center{justify-content:center!important}.justify-content-md-between{justify-content:space-between!important}.justify-content-md-around{justify-content:space-around!important}.align-items-md-start{align-items:flex-start!important}.align-items-md-end{align-items:flex-end!important}.align-items-md-center{align-items:center!important}.align-items-md-baseline{align-items:baseline!important}.align-items-md-stretch{align-items:stretch!important}.align-content-md-start{align-content:flex-start!important}.align-content-md-end{align-content:flex-end!important}.align-content-md-center{align-content:center!important}.align-content-md-between{align-content:space-between!important}.align-content-md-around{align-content:space-around!important}.align-content-md-stretch{align-content:stretch!important}.align-self-md-auto{align-self:auto!important}.align-self-md-start{align-self:flex-start!important}.align-self-md-end{align-self:flex-end!important}.align-self-md-center{align-self:center!important}.align-self-md-baseline{align-self:baseline!important}.align-self-md-stretch{align-self:stretch!important}}@media (min-width:992px){.flex-lg-row{flex-direction:row!important}.flex-lg-column{flex-direction:column!important}.flex-lg-row-reverse{flex-direction:row-reverse!important}.flex-lg-column-reverse{flex-direction:column-reverse!important}.flex-lg-wrap{flex-wrap:wrap!important}.flex-lg-nowrap{flex-wrap:nowrap!important}.flex-lg-wrap-reverse{flex-wrap:wrap-reverse!important}.flex-lg-fill{flex:1 1 auto!important}.flex-lg-grow-0{flex-grow:0!important}.flex-lg-grow-1{flex-grow:1!important}.flex-lg-shrink-0{flex-shrink:0!important}.flex-lg-shrink-1{flex-shrink:1!important}.justify-content-lg-start{justify-content:flex-start!important}.justify-content-lg-end{justify-content:flex-end!important}.justify-content-lg-center{justify-content:center!important}.justify-content-lg-between{justify-content:space-between!important}.justify-content-lg-around{justify-content:space-around!important}.align-items-lg-start{align-items:flex-start!important}.align-items-lg-end{align-items:flex-end!important}.align-items-lg-center{align-items:center!important}.align-items-lg-baseline{align-items:baseline!important}.align-items-lg-stretch{align-items:stretch!important}.align-content-lg-start{align-content:flex-start!important}.align-content-lg-end{align-content:flex-end!important}.align-content-lg-center{align-content:center!important}.align-content-lg-between{align-content:space-between!important}.align-content-lg-around{align-content:space-around!important}.align-content-lg-stretch{align-content:stretch!important}.align-self-lg-auto{align-self:auto!important}.align-self-lg-start{align-self:flex-start!important}.align-self-lg-end{align-self:flex-end!important}.align-self-lg-center{align-self:center!important}.align-self-lg-baseline{align-self:baseline!important}.align-self-lg-stretch{align-self:stretch!important}}@media (min-width:1200px){.flex-xl-row{flex-direction:row!important}.flex-xl-column{flex-direction:column!important}.flex-xl-row-reverse{flex-direction:row-reverse!important}.flex-xl-column-reverse{flex-direction:column-reverse!important}.flex-xl-wrap{flex-wrap:wrap!important}.flex-xl-nowrap{flex-wrap:nowrap!important}.flex-xl-wrap-reverse{flex-wrap:wrap-reverse!important}.flex-xl-fill{flex:1 1 auto!important}.flex-xl-grow-0{flex-grow:0!important}.flex-xl-grow-1{flex-grow:1!important}.flex-xl-shrink-0{flex-shrink:0!important}.flex-xl-shrink-1{flex-shrink:1!important}.justify-content-xl-start{justify-content:flex-start!important}.justify-content-xl-end{justify-content:flex-end!important}.justify-content-xl-center{justify-content:center!important}.justify-content-xl-between{justify-content:space-between!important}.justify-content-xl-around{justify-content:space-around!important}.align-items-xl-start{align-items:flex-start!important}.align-items-xl-end{align-items:flex-end!important}.align-items-xl-center{align-items:center!important}.align-items-xl-baseline{align-items:baseline!important}.align-items-xl-stretch{align-items:stretch!important}.align-content-xl-start{align-content:flex-start!important}.align-content-xl-end{align-content:flex-end!important}.align-content-xl-center{align-content:center!important}.align-content-xl-between{align-content:space-between!important}.align-content-xl-around{align-content:space-around!important}.align-content-xl-stretch{align-content:stretch!important}.align-self-xl-auto{align-self:auto!important}.align-self-xl-start{align-self:flex-start!important}.align-self-xl-end{align-self:flex-end!important}.align-self-xl-center{align-self:center!important}.align-self-xl-baseline{align-self:baseline!important}.align-self-xl-stretch{align-self:stretch!important}}body .buorg-pad{background:#FFB20C;color:#FFF}body #buorgig{background-color:#979797}*{font-family:"PT Sans","Tahoma",sans-serif;box-sizing:border-box;margin:0;padding:0}html{font-size:10px;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;line-height:18px;letter-spacing:0.3px;text-align:left;color:#1c1d20}@media (max-width:575px){html,body{width:100%}body{margin:0;padding:0}}body{font-family:"PT Sans","Tahoma",sans-serif;text-size-adjust:100%;margin:0;padding:0;background-color:#fff;background-clip:border-box;background-attachment:scroll;background-origin:padding-box;background-position-x:0;background-position-y:0;background-repeat:no-repeat}body.body--fixed{overflow:hidden}.clearfix::after{content:"";clear:both;display:table}.main-contain{position:relative;margin:0 2.4rem}@media (max-width:575px){.main-contain{margin:0 1.2rem}}.main-contain .main--top{display:flex;flex-wrap:nowrap;justify-content:space-between;padding:10px 0 15px}.main-contain .main--top .grid{max-width:1440px;margin:0 auto}.rich-text img{max-width:100%;height:auto}.resp-obj iframe,.resp-obj object,.resp-obj embed{position:absolute;top:0;left:0;width:100%;height:100%}.table-style{box-shadow:0 0 8px 0 rgba(28,29,32,0.12);margin-top:1rem;margin-bottom:1rem}.global-banner{background-color:#175381;color:#FFB20C;display:block;font-size:2.2rem;line-height:2.6rem;min-height:100px;padding:10px 30px;text-align:center}.global-banner:hover{color:#FFB20C;cursor:pointer}.global-banner__close{background-image:url("/web/20241010112739im_/https://www.fool.com/the-ascent/personal-finance/project/scss/base/~icons/close_white@2x.png");background-size:contain;background-repeat:no-repeat;background-position-x:center;background-position-y:center;bottom:10px;display:inline-block;height:20px;position:absolute;right:10px;width:20px}.global-banner__sub-header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;color:#fff;font-size:1.6rem;line-height:2.0rem}.global-banner__sub-header:hover{color:#fff}.global-banner__title{flex-basis:100%;font-weight:400;padding:16px 0 12px}h1,.head-h1,h2,.head-h2,h3,.head-h3,h4,.head-h4,h5,.head-h5,h6,.head-h6,.head-sm{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif}h1,.head-h1{font-size:2.8rem;line-height:3.4rem;letter-spacing:.2px;font-weight:700}h2,.head-h2{font-size:2.4rem;line-height:2.8rem;font-weight:700}h3,.head-h3{font-size:2.0rem;line-height:2.4rem;font-weight:700}h4,.head-h4{font-size:1.8rem;line-height:2.4rem;font-weight:700}h5,.head-h5{font-size:1.6rem;line-height:2.4rem;font-weight:600}h6,.head-h6{font-size:1.4rem;line-height:1.8rem;color:#53565A;font-weight:700}.head-sm{font-size:2.0rem;line-height:2.6rem;font-weight:700}.copy-body{font-size:1.6rem;line-height:2.8rem;letter-spacing:0.3px;font-weight:400}.copy-tight,.tooltip{font-size:1.8rem;line-height:2.4rem}.copy-tight .tooltip,.copy-tight .tooltip-parent{font-weight:normal}.copy-md{font-size:1.4rem;line-height:1.8rem}.copy-sm,.caption,.small-caption{font-size:1.2rem;line-height:1.8rem;color:#53565A}.copy-sm a,.copy-sm a:hover,.copy-sm a:active,.caption a,.caption a:hover,.caption a:active,.small-caption a,.small-caption a:hover,.small-caption a:active{font-size:1.2rem;line-height:1.8rem;color:#006BA6;text-decoration:underline}.copy-tiny,.tiny{font-size:1.2rem;line-height:1.4rem}.copy-breadcrumb{font-size:1.2rem;line-height:2.0rem;padding-bottom:1.2rem;color:#53565A!important}.copy-breadcrumb a,.copy-breadcrumb a:hover{color:#53565A!important;font-weight:400}.disc-copy{color:#53565A}.disc-copy a{text-decoration:underline}.copy-micro{font-size:1.0rem;line-height:1.2rem;color:#53565A}.copy-micro a,.copy-micro a:hover{color:#53565A;font-weight:400}.quote,blockquote{font-size:2.0rem;line-height:2.8rem;font-family:"PT Sans",sans-serif;font-style:italic;color:#53565A;font-weight:400;border-left:4px solid #FFB20C;padding-left:2.0rem;margin-top:3.4rem}@media (max-width:575px){.quote,blockquote{font-size:1.8rem}}.quote::before,blockquote::before{position:absolute;content:'“';font-size:6.4rem;padding-right:2.0rem;font-weight:700;color:#FFB20C;top:20px;left:-12px}.quote .attribution,blockquote .attribution{font-size:1.2rem;line-height:1.8rem;font-style:normal;color:#8A8C8E;padding-top:1.2rem}a,.link,a:hover,.link:hover,a:active,.link:active{color:#006BA6;text-decoration:none;outline:0}a:focus{outline:1px solid #006BA6}a:hover,.link:hover{color:#35B2D6!important}b,strong,.bold{font-weight:bold}p,a,span,b,strong{font-size:inherit;line-height:inherit}hr{border:0;border-bottom:1px solid #CACBCB}.crumb{text-align:left;display:inline-block;position:relative;margin:2.6rem 0 0.2rem;grid-row:1;z-index:10}.crumb .ttip--close{z-index:20}.crumb .ttip--active{top:40px}.crumb__list-item{list-style-type:none;font-size:1.2rem;display:inline-block}.crumb__list-item:not(:last-child):not(.active):not(.ttip__item)::after{position:relative;content:">";right:0.5rem}.crumb__list-item a{margin-right:1rem}::-webkit-scrollbar{appearance:none;display:inherit;width:12px;-webkit-overflow-scrolling:auto}::-webkit-scrollbar:vertical{width:12px}::-webkit-scrollbar:horizontal{height:12px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,0.5);border-radius:10px;border:2px solid #FFF}::-webkit-scrollbar-track{border-radius:10px;background-color:#FFF}@media (min-width:768px){.main-contain{max-width:720px;padding:0 2.4rem;margin:0 auto}h1,.head-h1{font-size:4.8rem;line-height:5.2rem;font-weight:700}h2,.head-h2{font-size:3.2rem;line-height:3.8rem;font-weight:700}h3,.head-h3{font-size:2.4rem;line-height:2.8rem;font-weight:700}h4,.head-h4{font-size:2.0rem;line-height:2.4rem;font-weight:700}h5,.head-h5{font-size:1.8rem;line-height:2.4rem;font-weight:600}.copy-body{font-size:1.8rem;line-height:2.8rem;font-weight:400}}@media (min-width:992px){.main-contain{max-width:960px}}@media (min-width:1200px){.main-contain{max-width:1116px}}.align-top{vertical-align:top}.bg-0{background:#fff;background-color:#fff}.bg-gray{background:#F6F6F6;background-color:#F6F6F6}.bg-dark-gray{background:#53565A;background-color:#53565A}.bg-yellow{background:#FDF5DA;background-color:#FDF5DA;border:1px solid #FFB20C}.bg-creditcards{background:#F6FBFF;color:#fff}.bg-creditcards a{color:#fff}.bg-primary{background:#F6FBFF}.bg-secondary{background:#FAFAFA}.bg-tertiary{background:#0095C8}.b{border:1px solid #DCDCDD}.b-0{border:0}.bb{border-bottom:1px solid #CACBCB}.bb-0{border-bottom:0}.bt{border-top:1px solid #CACBCB}.bt-0{border-top:0}.bl{border-left:1px solid #CACBCB}.b-r{border-right:1px solid #CACBCB}.br{border-radius:4px}.bs{box-shadow:0 0 8px 0 rgba(28,29,32,0.12)}.d-block{display:block}.h--25{height:2.5rem}.lh--18{line-height:1.8rem}.lh--20{line-height:2.0rem}.lh--22{line-height:2.2rem}.lh--24{line-height:2.4rem}.lh--26{line-height:2.6rem}.lh-30{line-height:3.0rem}.lh--36{line-height:3.6rem}.m{margin:.8rem}.m-0{margin:0}.m-1{margin:.2rem}.m-2{margin:.4rem}.m-3{margin:.8rem}.m-4{margin:1.6rem}.m-5{margin:2.4rem}.m-6{margin:3.2rem}.m-auto{margin:auto}.mb{margin-bottom:.8rem}.mb-0{margin-bottom:0}.mb-1{margin-bottom:.2rem}.mb-2{margin-bottom:.4rem}.mb-3{margin-bottom:.8rem}.mb-4{margin-bottom:1.6rem}.mb-5{margin-bottom:2.4rem}.mb-6{margin-bottom:3.2rem}.mt{margin-top:.8rem}.mt-0{margin-top:0}.mt-1{margin-top:.2rem}.mt-2{margin-top:.4rem}.mt-3{margin-top:.8rem}.mt-4{margin-top:1.6rem}.mt-5{margin-top:2.4rem}.mt-6{margin-top:3.2rem}.mr{margin-right:.8rem}.mr-0{margin-right:0}.mr-1{margin-right:.2rem}.mr-2{margin-right:.4rem}.mr-3{margin-right:.8rem}.mr-4{margin-right:1.6rem}.mr-5{margin-right:2.4rem}.mr-6{margin-right:3.2rem}.mr-auto{margin:auto}.mx{margin-left:.8rem;margin-right:.8rem}.mx-0{margin-left:0;margin-right:0}.mx-1{margin-left:.2rem;margin-right:.2rem}.mx-2{margin-left:.4rem;margin-right:.4rem}.mx-3{margin-left:.8rem;margin-right:.8rem}.mx-4{margin-left:1.6rem;margin-right:1.6rem}.mx-5{margin-left:2.4rem;margin-right:2.4rem}.mx-6{margin-left:3.2rem;margin-right:3.2rem}.mx-auto{margin-left:auto;margin-right:auto}.my{margin-bottom:.8rem;margin-top:.8rem}.my-0{margin-bottom:0;margin-top:0}.my-1{margin-bottom:.2rem;margin-top:.2rem}.my-2{margin-bottom:.4rem;margin-top:.4rem}.my-3{margin-bottom:.8rem;margin-top:.8rem}.my-4{margin-bottom:1.6rem;margin-top:1.6rem}.my-5{margin-bottom:2.4rem;margin-top:2.4rem}.my-6{margin-bottom:3.2rem;margin-top:3.2rem}.my-auto{margin-bottom:auto;margin-top:auto}.p{padding:.8rem}.p-0,.pg-title-container{padding:0}.p-1{padding:.2rem}.p-2{padding:.4rem}.p-3{padding:.8rem}.p-4{padding:1.6rem}.p-5{padding:2.4rem}.p-6{padding:3.2rem}.pb{padding-bottom:.8rem}.pb-0{padding-bottom:0}.pb-1{padding-bottom:.2rem}.pb-2{padding-bottom:.4rem}.pb-3{padding-bottom:.8rem}.pb-4{padding-bottom:1.6rem}.pb-5{padding-bottom:2.4rem}.pb-6{padding-bottom:3.2rem}.pt{padding-top:.8rem}.pt-0{padding-top:0}.pt-1{padding-top:.2rem}.pt-2{padding-top:.4rem}.pt-3{padding-top:.8rem}.pt-4{padding-top:1.6rem}.pt-5{padding-top:2.4rem}.pt-6{padding-top:3.2rem}.py{padding-top:.8rem;padding-bottom:.8rem}.py-0{padding-top:0;padding-bottom:0}.py-1{padding-top:.2rem;padding-bottom:.2rem}.py-2{padding-top:.4rem;padding-bottom:.4rem}.py-3{padding-top:.8rem;padding-bottom:.8rem}.py-4{padding-top:1.6rem;padding-bottom:1.6rem}.py-5{padding-top:2.4rem;padding-bottom:2.4rem}.py-6{padding-top:3.2rem;padding-bottom:3.2rem}.px{padding-left:.8rem;padding-right:.8rem}.px-0{padding-left:0;padding-right:0}.px-1{padding-left:.2rem;padding-right:.2rem}.px-2{padding-left:.4rem;padding-right:.4rem}.px-3{padding-left:.8rem;padding-right:.8rem}.px-4{padding-left:1.6rem;padding-right:1.6rem}.px-5{padding-left:2.4rem;padding-right:2.4rem}.px-6{padding-left:3.2rem;padding-right:3.2rem}.pl{padding-left:.8rem}.pl-0{padding-left:0}.pl-1{padding-left:.2rem}.pl-2{padding-left:.4rem}.pl-3{padding-left:.8rem}.pl-4{padding-left:1.6rem}.pl-5{padding-left:2.4rem}.pl-6{padding-left:3.2rem}.pr{padding-right:.8rem}.pr-0{padding-right:0}.pr-1{padding-right:.2rem}.pr-2{padding-right:.4rem}.pr-3{padding-right:.8rem}.pr-4{padding-right:1.6rem}.pr-5{padding-right:2.4rem}.pr-6{padding-right:3.2rem}.text-center{text-align:center}@media (max-width:767px){.text-center-md{text-align:center}}@media (min-width:768px){.text-center-md-plus{text-align:center}}.text-left{text-align:left}@media (min-width:768px){.text-left-md-up{text-align:left}}.text-dark-gray{color:#53565A}.text-blue{color:#006BA6}.text-darker{color:#1c1d20}.text-drk-blue{color:#175381}.text-gray{color:#53565A}.text-light-gray{color:#979797}.text-drk-gray{color:#53565A}.text-orange{color:#FFB20C}.text-primary{color:#0095C8}.text-tertiary{color:#FFB20C}.text-bright-green{color:#43B02A}.text-white{color:#fff}.text-right{text-align:right}.text-secondary{color:#8A8C8E}.uppercase{text-transform:uppercase}.lowercase{text-transform:lowercase}.italic{font-style:italic}.capitalize{text-transform:capitalize}.underline{text-decoration:underline}.bold{font-weight:700}.fs-10{font-size:1.0rem}.fs-12{font-size:1.2rem}.fs-14{font-size:1.4rem}.fs-16{font-size:1.6rem}.fs-18{font-size:1.8rem}.fs-20{font-size:2.0rem}.fs-22{font-size:2.2rem}.fs-24{font-size:2.4rem}.fs-26{font-size:2.6rem}.fs-28{font-size:2.8rem}.fw-400{font-weight:400}.fw-600{font-weight:600}.fw-700{font-weight:700}.w-100{width:100%}.w-auto{width:auto}.w-0{width:0}.w--25{width:2.5rem}@media (max-width:767px){.w-md-600{width:600px}}.flex--nowrap{display:flex;flex-wrap:nowrap}.flex--wrap{display:flex;flex-wrap:wrap}.flex--col{flex-direction:column}.f--gap{column-gap:2.4rem}.f--ctr{justify-content:center}.f--spc-btwn{justify-content:space-between}.f--basis-100{flex-basis:100%}.a--ctr{align-items:center}.pos--rel{position:relative}.pos--abs{position:absolute}.l--0{left:0}.t--0{top:0}.too-small{display:none}@media only screen and (max-width:319px){.too-small{display:block}}.wagtail-styled-highlight{padding:0 0.8rem!important;border-radius:4px;font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:1.4rem;display:inline-block;background:#35b2d629;line-height:3.2rem;margin:0.4rem 0}:root{--star-size:24px;--star-color:#e3e5e7;--star-background:#f8b20b}.stars-tooltip-stars{--percent:calc(var(--rating) / 5 * 100%);display:inline-block;font-size:var(--star-size);font-family:Times,serif;line-height:1;margin:0.6rem 0}.stars-tooltip-stars::before{content:'★★★★★';letter-spacing:-2px;background:linear-gradient(90deg,var(--star-background) var(--percent),var(--star-color) var(--percent));background-clip:text;-webkit-text-fill-color:transparent}.inline-stars-text{display:inline-block;font-size:14px}.stars-tooltip-text{display:inline-block;font-size:13px;padding:0.5rem!important;margin:0.5rem!important}img.stars-tooltip-img{height:15px!important;width:15px!important;margin:0.1rem!important;top:3px;position:relative}html{scroll-behavior:smooth}span.wag{position:fixed;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}span.wag.seen{display:inline;font-size:inherit}[class$="--land"] .crumb__list-item a:focus,[class$="--land"] .pg-title-item a:focus,[class$="--land"] .socLinks.top .soc-share a.soc__link:focus{outline:#FFFFA3 solid 3px}[class$="--land"] .act-tile:focus{background:#204060;outline:#FFFFA3 solid 3px}[class$="--land"] .act-tile:focus .tile__title{color:#FFF}[class$="--land"] .art__land a.tag:focus{background:#CCC;color:#000;font-weight:700}[class$="--land"] .socLinks{color:#fff}.btn--apply:hover:focus,.btn-wrap a:hover:focus{outline:#FFFFA3 solid 3px;background:#DDD;color:#000}.hbspt-form input[id^="email"]:focus{outline:#FFFFA3 solid 5px;background:#EDEDED;color:#000}.hbspt-form .hs-button:focus{outline:#FFFFA3 solid 3px}.pagin li.active a:focus{outline:#FFFFA3 solid 3px}a.skip-main{left:-999px;position:absolute;top:auto;width:1px;height:1px;overflow:hidden;z-index:-999}a.skip-main:focus,a.skip-main:active{color:#fff;background-color:#0095C8;left:auto;top:auto;width:30%;height:auto;overflow:auto;margin:1.5rem 35%;padding:1rem;border-radius:5px;border:4px solid #FF0;text-align:center;font-size:2.5em;font-weight:700;z-index:999}.empty--cell{display:block;font-size:1.6rem;font-weight:400}.iframe-wrap{padding-top:1rem;padding-bottom:1rem}.rich-text p:first-child:empty{display:none}.icon--plus,.icon--minus{padding:5px;height:25px;width:25px;border-radius:50%;transition:0.3s ease-out all}.icon--plus{background:#FFB20C}.icon--minus{background:#CACBCB}.fas.fa-lock{position:absolute;left:0;right:0;display:block;font-weight:900;font-style:normal;color:#000;font-size:42px}.block .icon--check{background:#28a745;border-radius:2rem;border:0;height:25px;margin:0 auto;padding:4px;width:25px}.foot .foot-socLink{padding-right:1.6rem;padding-left:1.6rem}.foot .foot-socLink svg circle{fill:#fff}.foot .foot-socLink:first-of-type{padding-left:0}.foot .foot-socLink.foot-fb:hover svg circle{fill:#3B5998}.foot .foot-socLink.foot-twitter:hover svg circle{fill:#1DA1F2}.foot .foot-socLink.foot-insta:hover svg circle{fill:#405DE6}.foot .foot-socLink:hover{transform:rotate(-10deg) scale(1.3)}.foot .foot-wrap{background:#37393B;color:#fff;overflow:hidden}.foot .foot-wrap.bg-black{background:#1c1d20;border-top:0;margin-bottom:-2.0rem}.foot .foot-wrap.bg-black .ft-col{border-top:0}.foot .foot-wrap.bg-black .ft-col:first-of-type{margin-top:0}.foot .foot-wrap a{color:#fff;text-decoration:none}.foot .foot-wrap a.lnk{color:#FFB20C;font-weight:700;display:block;font-size:1rem;line-height:1.2rem;letter-spacing:0.6px}.foot .foot-wrap .actions{top:1.1rem}.foot .foot-wrap .copy-micro{color:#fff}.foot .foot-wrap .foot__logo{margin:10px 0;width:100%;max-width:240px}@media (min-width:768px){.foot .foot-wrap .foot__logo{margin:8px 0 5px;grid-row:1;grid-column:1}}.foot .foot-wrap .ft-hd{text-transform:capitalize}.foot .foot-wrap .ft-col{text-align:left;border-top:1px solid #fff;margin:0 2.4rem}.foot .foot-wrap .ft-col:first-of-type{border:0;margin-top:2.4rem}.foot .foot-wrap .ft-col .ft-lnk-lst span{display:block;font-size:1.6rem;line-height:1.8rem;letter-spacing:0.4px;padding-top:1.2rem;padding-bottom:1.2rem}.foot .foot-wrap .ft-col .ft-lnk-lst span:first-of-type{padding-top:2.4rem}.foot .foot-wrap .foot-socLinks{display:flex;justify-content:left}.foot .foot-wrap .foot-socLinks .foot-socLink{padding-right:.8rem}.foot .foot-wrap .foot-socLinks a.foot-socLink img:hover{transform:rotate(-10deg) scale(1.3)}.foot .foot-wrap .hs-email{width:100%;display:block;padding:0;margin:1.2rem 0}.foot .foot-wrap input[type="email"]{height:44px;background:inherit;border:1px solid #fff;color:#fff;border-radius:4px;text-align:center}.foot .foot-wrap input[type="email"]::placeholder{color:#fff}.foot .foot-wrap ul.hs-error-msgs{list-style:none;margin-top:2.2rem;font-size:1.2rem;line-height:1.8rem;color:#fff}.foot .foot-wrap .hs-error-msgs label{display:block}.foot .foot-wrap .ft-disc{margin-top:1.2rem;font-size:1.2rem;line-height:1.8rem;color:#fff}.foot .foot-wrap .ft-disc a,.foot .foot-wrap .ft-disc a:hover,.foot .foot-wrap .ft-disc a:active{font-size:1.2rem;line-height:1.8rem;color:#fff;text-decoration:underline}@media (min-width:768px){.foot .foot-wrap .ft-disc{text-align:center}.foot .foot-wrap .hbspt-form{display:block;margin:1.2rem auto}.foot .foot-wrap .hbspt-form .hs-email{width:70%;padding-right:1.6rem;align-self:end;display:inline-block;text-align:left}.foot .foot-wrap .hbspt-form .hs-submit{position:relative;width:30%;align-self:end;display:inline-block}}@media (min-width:992px){.foot .foot-wrap .width-limiter{max-width:1116px;margin:0 auto;display:flex}.foot .foot-wrap .foot__logo{margin-top:0}.foot .foot-wrap:not(.bg-black){display:flex;flex-direction:row}.foot .foot-wrap:not(.bg-black) .ft-col{margin:2.4rem 0!important;border-top:0;border-left:1px solid #fff;padding:0 2.4rem!important}.foot .foot-wrap:not(.bg-black) .ft-col:first-of-type{border-left:0}.foot .foot-wrap.bg-black .width-limiter{display:block}}@media (max-width:768px){.foot .ft-col{width:calc(100% - 4.0rem)}.foot .ft-col:last-of-type{border:0}}.broks .foot .cta-wrap,.mortgages .foot .cta-wrap,.loans .foot .cta-wrap{display:inline-block;padding:0 0 1.4rem;width:100%}.broks .foot .text-center,.mortgages .foot .text-center,.loans .foot .text-center{text-align:center}.broks .foot form,.mortgages .foot form,.loans .foot form{display:inline}.broks .foot form .actions,.mortgages .foot form .actions,.loans .foot form .actions{width:100%}.broks .foot form .actions::after,.mortgages .foot form .actions::after,.loans .foot form .actions::after{display:none}.broks .foot form .hs-email,.mortgages .foot form .hs-email,.loans .foot form .hs-email{text-align:left;margin-bottom:0}@media (min-width:768px){.broks .foot form .hs-email,.mortgages .foot form .hs-email,.loans .foot form .hs-email{margin-top:-8px}}.broks .foot form .hs-form-required,.mortgages .foot form .hs-form-required,.loans .foot form .hs-form-required{left:auto}.broks .foot form label,.mortgages .foot form label,.loans .foot form label{bottom:0;left:0;font-size:1rem;position:relative;text-transform:none}.broks .disc__txt,.mortgages .disc__txt,.loans .disc__txt{position:relative;width:100%;padding-top:40px;padding-bottom:10px;margin:0 auto;font-style:italic;font-size:12px;line-height:18px;color:#53565A}.broks .disc__txt a,.mortgages .disc__txt a,.loans .disc__txt a{font-size:1.4rem}.broks .disc__txt--sec,.mortgages .disc__txt--sec,.loans .disc__txt--sec{padding-top:10px;padding-bottom:10px}.broks .disc__txt--sec .rich-text p,.mortgages .disc__txt--sec .rich-text p,.loans .disc__txt--sec .rich-text p{font-size:1.4rem;margin-bottom:20px}.broks .disc__txt--sec::before,.mortgages .disc__txt--sec::before,.loans .disc__txt--sec::before{display:none}.broks .disc__txt::before,.mortgages .disc__txt::before,.loans .disc__txt::before{position:absolute;content:"";margin:0 auto;top:0;left:0;right:0;height:1px;background:#CACBCB}@media (min-width:768px){.broks .foot form .hs-email,.loans .foot form .hs-email{margin-top:6px}}.tooltip{display:none;position:absolute;top:0;left:0;background:#222;color:#FFF;padding:16px;border-radius:4px;pointer-events:none;z-index:10;min-width:200px;max-width:450px;font-size:small}.tooltip-arrow{position:absolute;background:#222;width:8px;height:8px;transform:rotate(45deg)}.tooltip-parent .info-wrap svg circle{stroke:#007bff!important}.tooltip-parent .info-wrap svg path{fill:#007bff!important}@keyframes slideIn{0%{opacity:0;height:0}50%{opacity:0.5;height:auto}100%{opacity:1;height:auto}}@keyframes SlideOut{0%{opacity:1;height:auto}70%{opacity:0.5;height:auto}100%{opacity:0;height:0}}.ttip{top:12px;left:initial;right:0;width:auto;min-width:285px;max-width:320px;pointer-events:none;opacity:0;box-shadow:0 2px 4px 0 rgba(0,0,0,0.5);animation:0.7s ease slideOut forwards;position:absolute;background:#37393B;padding:1.8rem;border-radius:3px;text-align:left;font-size:1.2rem;color:#fff;z-index:-1}.ttip .ttip--caret{position:absolute;content:"";top:-10px;width:0;margin:0 auto;border-right:10px solid transparent;border-left:10px solid transparent;border-bottom:10px solid #000}.brok-tile .ttip::before,.card-tile .ttip::before,.save-tile__rating .ttip::before{display:none}.ttip--active{animation:0.3s ease slideIn forwards;animation-iteration-count:1;pointer-events:auto;z-index:16;top:30px}.ttip--active a,.ttip--active li{color:#fff}.ttip--top{position:absolute}.ttip--top::before{top:initial;bottom:-10px;border-bottom:0;border-top:10px solid #175381}.ttip--right::before{left:initial;right:30px}.ttip--right .ttip--caret{left:initial}.ttip--left::before{right:initial;left:30px}.ttip--left .ttip--caret{right:initial}.ttip-wrap{max-height:280px;overflow-y:scroll}.ttip__head{display:block;color:#FFB20C;font-size:1.8rem;font-weight:700}.ttip__copy{padding-bottom:5px;padding-right:5px;font-size:1.2rem;line-height:1.8rem;letter-spacing:.3px;white-space:pre-line}.ttip .star{display:inline-block;position:relative;top:3px}.ttip--crumb{left:20px;padding:10px;transition:0.3s ease all;pointer-events:none}.ttip--crumb.ttip--active{opacity:1;pointer-events:auto}.ttip--crumb li{font-size:1.4rem;line-height:1.8em}.ttip__parent{position:static;display:inline-block;width:auto}.ttip__parent--z-index{z-index:12!important}.ttip__parent:not(.nav-disc-wrap) .ttip--active::before{display:none}.ttip__parent:not(.nav-disc-wrap) .info-wrap{display:inline-block;width:20px;height:15px}.ttip__rel{position:relative}.ttip__copy::-webkit-scrollbar{width:12px;background:#175381}.ttip__copy::-webkit-scrollbar-button{background:#fff}.ttip__copy::-webkit-scrollbar-thumb{background-color:#979797;border-radius:8px}.ttip--close{position:absolute;height:35px;width:40px;top:-5px;right:-5px;text-align:right;cursor:pointer}.ttip--close::before,.ttip--close::after{position:absolute;content:"";top:18px;right:15px;width:15px;height:2px;background:#fff}.ttip--close::before{transform:rotate(45deg)}.ttip--close::after{transform:rotate(-45deg)}@media (min-width:992px){.ttip--close{display:none}}.nav-disc-wrap .ttip{left:0}.ttip__slider{display:inline-block}.ttip__slider .ttip__copy{text-transform:initial}.ttip__slider .rating__info{width:13px}.accordion__child{height:0;max-height:0;overflow:hidden;transition:max-height 500ms ease-in-out}@media (min-width:576px){.accordion__child__research{columns:2}}.accordion .accordion__icon--negative,.accordion .picks__expander--negative{display:none}@media (min-width:992px){.accordion--active .accordion__child{height:auto;margin-bottom:0.5rem;max-height:100%;transition:max-height 500ms ease-in-out}.accordion--active .accordion__icon--positive,.accordion--active .picks__expander--positive{display:none}.accordion--active .accordion__icon--negative,.accordion--active .picks__expander--negative{display:inherit}}@media (max-width:991px){.accordion--active--mobile .accordion__child{height:auto;margin-bottom:0.5rem;max-height:100%;transition:max-height 500ms ease-in-out}.accordion--active--mobile .accordion__icon--positive,.accordion--active--mobile .picks__expander--positive{display:none}.accordion--active--mobile .accordion__icon--negative,.accordion--active--mobile .picks__expander--negative{display:inherit}}.picks{width:100%;margin:10px auto 0;padding-bottom:10px;background:#fff;border:0}.picks__expander{font-size:1.8rem;line-height:2.8rem;font-weight:300;display:inline-block}.picks__expander--negative{display:none}.picks__head{padding-bottom:0}.picks__list.accordion--active .picks__expander--negative{display:inline-block}.picks__list.accordion--active .picks__expander--positive{display:none}#the-picks{position:relative;height:100%;padding-left:0;margin:0;opacity:1;transition:0.3s ease all;z-index:10}.picks__list-item{color:#1c1d20;font-size:1.8rem;font-weight:300;list-style:none;line-height:2.86rem;position:relative;transition:0.3s ease all}.picks__list-item:first-child{margin-top:8px}.picks__link{font-size:1.8rem;font-weight:300}.picks__list--add-list-style ul{margin:10px 0 10px 10px}.picks__list--add-list-style .picks__list-item{font-size:1.8rem;letter-spacing:0.3px;line-height:2.8rem;list-style:disc;margin-left:2.0rem}.picks__list--add-list-style .picks__link{font-size:1.8rem}.block-auto_table_of_contents .prominents{height:auto}.block-auto_table_of_contents .picks__list p{font-size:1.8rem}.block-auto_table_of_contents .picks__list ul{margin:0;padding-top:8px}.wt-norm{font-weight:500}.wt-norm a{font-weight:inherit}.ta_table{font-size:1.8rem;line-height:2.0rem;letter-spacing:0.3px;margin:0 0 1rem;table-layout:fixed;font-weight:400;border:0;border-collapse:collapse;border-spacing:2px;box-shadow:0 0 12px rgba(28,29,32,0.2)}.ta_table-wrap{position:relative;overflow-x:scroll;padding:12px}.ta_table tr{padding:0;margin:0;border:0}.ta_table th{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:1.4rem;background:#F6FBFF;color:#1C1D20;font-weight:600;padding:1.2rem 2.4rem;display:table-cell;border-left:1px solid #DCDCDD;text-align:left;vertical-align:top}.ta_table th:first-child{border-left:0}@media (max-width:767px){.ta_table th{padding:1.2rem}}.ta_table tbody th{border-bottom:1px solid #DCDCDD}.ta_table td{display:table-cell;padding:1.5rem 2.4rem;border-left:1px solid #DCDCDD;border-bottom:1px solid #DCDCDD;vertical-align:top}.ta_table td:first-child{border-left:0}@media (max-width:767px){.ta_table td{border-left:0}}.ta_table img.check{background:#28a745;background:#05ad4b;border-radius:2rem;border:0;box-shadow:1px 1px 1px 0 #a0a0a0;display:block;height:25px;margin:0 auto;padding:4px;width:25px}@media (max-width:991px){.ta_table--stacked th{display:none}.ta_table--stacked tr{display:grid;grid-template-columns:1fr;border-bottom:1px solid #CACBCB}.ta_table--stacked td{border-bottom:0;border-top:0;padding:4px 12px}.ta_table--stacked td:first-child{padding-top:12px}.ta_table--stacked td:last-child{padding-bottom:12px;padding-top:12px}.ta_table--stacked .stacked--centered{display:flex;flex-direction:column;align-items:center}}.btn,a.btn,.wysiwyg a.btn,.hs-button{padding:12px 14px;width:100%;color:#fff;font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:18px;font-weight:700;letter-spacing:0.4px;line-height:20px;text-align:center;border-radius:4px;display:inline-block;background:#0095C8;border:0;cursor:pointer}.btn.btn-inverted,a.btn.btn-inverted,.wysiwyg a.btn.btn-inverted,.hs-button.btn-inverted{color:#0095C8;background:#fff;border:1px solid #0095C8}.btn.btn-inverted:hover,.btn.btn-inverted:active,a.btn.btn-inverted:hover,a.btn.btn-inverted:active,.wysiwyg a.btn.btn-inverted:hover,.wysiwyg a.btn.btn-inverted:active,.hs-button.btn-inverted:hover,.hs-button.btn-inverted:active{color:#fff!important;background:#0095C8;border:1px solid #0095C8;font-weight:700}.btn:hover,.btn:active,a.btn:hover,a.btn:active,.wysiwyg a.btn:hover,.wysiwyg a.btn:active,.hs-button:hover,.hs-button:active{font-weight:700;color:#fff;letter-spacing:0.4px;background:#35B2D6}.btn-primary,a.btn-primary,.wysiwyg a.btn-primary,.hs-button-primary{background:#0095C8;color:#fff}.btn-primary:hover,.btn-primary:active,a.btn-primary:hover,a.btn-primary:active,.wysiwyg a.btn-primary:hover,.wysiwyg a.btn-primary:active,.hs-button-primary:hover,.hs-button-primary:active{background:#35B2D6}.btn-primary.btn-inverted,a.btn-primary.btn-inverted,.wysiwyg a.btn-primary.btn-inverted,.hs-button-primary.btn-inverted{color:#0095C8;background:#fff;border:1px solid #0095C8}.btn-primary.btn-inverted:active,.btn-primary.btn-inverted:hover,a.btn-primary.btn-inverted:active,a.btn-primary.btn-inverted:hover,.wysiwyg a.btn-primary.btn-inverted:active,.wysiwyg a.btn-primary.btn-inverted:hover,.hs-button-primary.btn-inverted:active,.hs-button-primary.btn-inverted:hover{color:#fff!important;background:#0095C8;border:1px solid #0095C8}.btn-secondary,.btn.hs-button,a.btn-secondary,a.btn.hs-button,.wysiwyg a.btn-secondary,.wysiwyg a.btn.hs-button,.hs-button-secondary,.hs-button.hs-button{background:#8A8C8E;color:#fff}.btn-secondary:hover,.btn-secondary:active,.btn.hs-button:hover,.btn.hs-button:active,a.btn-secondary:hover,a.btn-secondary:active,a.btn.hs-button:hover,a.btn.hs-button:active,.wysiwyg a.btn-secondary:hover,.wysiwyg a.btn-secondary:active,.wysiwyg a.btn.hs-button:hover,.wysiwyg a.btn.hs-button:active,.hs-button-secondary:hover,.hs-button-secondary:active,.hs-button.hs-button:hover,.hs-button.hs-button:active{background:#FAFAFA;color:#000!important}.btn-secondary.btn-inverted,.btn.hs-button.btn-inverted,a.btn-secondary.btn-inverted,a.btn.hs-button.btn-inverted,.wysiwyg a.btn-secondary.btn-inverted,.wysiwyg a.btn.hs-button.btn-inverted,.hs-button-secondary.btn-inverted,.hs-button.hs-button.btn-inverted{color:#8A8C8E;background:#fff;border:1px solid #8A8C8E}.btn-secondary.btn-inverted:active,.btn-secondary.btn-inverted:hover,.btn.hs-button.btn-inverted:active,.btn.hs-button.btn-inverted:hover,a.btn-secondary.btn-inverted:active,a.btn-secondary.btn-inverted:hover,a.btn.hs-button.btn-inverted:active,a.btn.hs-button.btn-inverted:hover,.wysiwyg a.btn-secondary.btn-inverted:active,.wysiwyg a.btn-secondary.btn-inverted:hover,.wysiwyg a.btn.hs-button.btn-inverted:active,.wysiwyg a.btn.hs-button.btn-inverted:hover,.hs-button-secondary.btn-inverted:active,.hs-button-secondary.btn-inverted:hover,.hs-button.hs-button.btn-inverted:active,.hs-button.hs-button.btn-inverted:hover{color:#fff!important;background:#8A8C8E;border:1px solid #8A8C8E}.btn-tertiary,a.btn-tertiary,.wysiwyg a.btn-tertiary,.hs-button-tertiary{background:#FFB20C}.btn-tertiary:hover,.btn-tertiary:active,a.btn-tertiary:hover,a.btn-tertiary:active,.wysiwyg a.btn-tertiary:hover,.wysiwyg a.btn-tertiary:active,.hs-button-tertiary:hover,.hs-button-tertiary:active{background:#FBCC55;color:#fff!important}.btn-tertiary.btn-inverted,a.btn-tertiary.btn-inverted,.wysiwyg a.btn-tertiary.btn-inverted,.hs-button-tertiary.btn-inverted{color:#FFB20C;background:#fff;border:1px solid #FFB20C}.btn-tertiary.btn-inverted:active,.btn-tertiary.btn-inverted:hover,a.btn-tertiary.btn-inverted:active,a.btn-tertiary.btn-inverted:hover,.wysiwyg a.btn-tertiary.btn-inverted:active,.wysiwyg a.btn-tertiary.btn-inverted:hover,.hs-button-tertiary.btn-inverted:active,.hs-button-tertiary.btn-inverted:hover{color:#fff!important;background:#FFB20C;border:1px solid #FFB20C}.btn.btn-auto,a.btn.btn-auto,.wysiwyg a.btn.btn-auto,.hs-button.btn-auto{width:auto}.btn--sm,a.btn--sm,.wysiwyg a.btn--sm,.hs-button--sm{font-size:14px;font-weight:bold;letter-spacing:0.3px;line-height:14px;width:auto}.btn--sm:hover,.btn--sm:active,a.btn--sm:hover,a.btn--sm:active,.wysiwyg a.btn--sm:hover,.wysiwyg a.btn--sm:active,.hs-button--sm:hover,.hs-button--sm:active{letter-spacing:0.3px}.btn-inactive,a.btn-inactive,.wysiwyg a.btn-inactive,.hs-button-inactive{background:#CACBCB;color:#fff;border:1px solid #CACBCB;cursor:not-allowed}.btn-inactive:hover,.btn-inactive:active,a.btn-inactive:hover,a.btn-inactive:active,.wysiwyg a.btn-inactive:hover,.wysiwyg a.btn-inactive:active,.hs-button-inactive:hover,.hs-button-inactive:active{background:#CACBCB;color:#fff!important;border:1px solid #CACBCB}.btn-inactive.btn-inverted,.btn-inactive.btn-inverted:active,.btn-inactive.btn-inverted:hover,a.btn-inactive.btn-inverted,a.btn-inactive.btn-inverted:active,a.btn-inactive.btn-inverted:hover,.wysiwyg a.btn-inactive.btn-inverted,.wysiwyg a.btn-inactive.btn-inverted:active,.wysiwyg a.btn-inactive.btn-inverted:hover,.hs-button-inactive.btn-inverted,.hs-button-inactive.btn-inverted:active,.hs-button-inactive.btn-inverted:hover{color:#CACBCB;background:#fff!important;border:1px solid #CACBCB}.btn--nav,a.btn--nav,.wysiwyg a.btn--nav,.hs-button--nav{font-size:1.4rem;margin:16px 0;padding:12px 16px}.btn.disabled,a.btn.disabled,.wysiwyg a.btn.disabled,.hs-button.disabled{border:#CACBCB;box-shadow:none;background:#CACBCB}.blk__button a:hover{color:#fff!important}.star-rate{display:flex;justify-content:flex-start;flex-wrap:wrap}.star-rate .star{height:25px}.star-rate>*{flex-basis:100%;text-align:left}.star-rate__copy{font-size:14px}.star-rate__info{margin-left:8px;padding:0;position:relative;top:1px}.star-rate__stars_wrapper{display:flex;flex-wrap:wrap}.star-rate__stars-wrapper{display:flex;flex-wrap:wrap}.star-rate__stars-wrapper .star-rate__stars{display:flex;position:relative;width:auto;text-align:center}.star-rate__stars-wrapper .star-rate__stars>.star img{width:20px}.star-rate__stars-wrapper .star-rate__stars .star-rate__stars-selected{position:absolute;display:flex;left:0;top:0;overflow:hidden}.star-rate__stars-wrapper .star-rate__stars .star-rate__stars-selected>.star img{width:20px}.star-rate__stars-wrapper .stars__txt{display:inline-block;width:auto}.star-rate--center .star-rate__copy{text-align:center}.star-rate--center .star-rate__stars-wrapper{justify-content:center}.star-rate--inline{flex-wrap:nowrap}.star-rate--inline .star-rate__copy{display:flex;align-items:center;margin-left:5px}.star-rate--inline .star-rate__info{top:-2px}.subscore-tooltip .rating-container{display:inline-flex;justify-content:space-between;align-items:baseline}.subscore-tooltip .star-label{width:110px}.subscore-tooltip .star-label::before{content:'- ';padding-left:5px}.subscore-tooltip .star-ratings{unicode-bidi:bidi-override;color:#ccc;font-size:20px;position:relative;margin:0;padding:0;letter-spacing:5.5px}.subscore-tooltip .star-ratings .fill-ratings{color:#FFB20C;padding:0;position:absolute;z-index:1;display:block;top:0;left:0;overflow:hidden}.subscore-tooltip .star-ratings .fill-ratings span{display:inline-block}.subscore-tooltip .star-ratings .empty-ratings{padding:0;display:block;z-index:0}.blk__paragraph{position:relative;margin-top:10px;background:#fff}.wysiwyg{font-size:1.6rem;line-height:2.8rem;font-weight:400;word-wrap:break-word}.wysiwyg h1,.wysiwyg h2,.wysiwyg h3,.wysiwyg h4,.wysiwyg h5,.wysiwyg h6,.wysiwyg p{padding:1.6rem 0 1.2rem;margin:0}.wysiwyg h1,.wysiwyg .head-h1{font-size:2.8rem;line-height:3.4rem;letter-spacing:.2px;font-weight:700}.wysiwyg h1.h1--hero,.wysiwyg .head-h1.h1--hero{font-size:4.4rem;font-weight:700;line-height:4.4rem;text-align:left}.wysiwyg h2,.wysiwyg .head-h2{font-size:2.4rem;line-height:2.8rem;font-weight:700}.wysiwyg h3,.wysiwyg .head-h3{font-size:2.0rem;line-height:2.4rem;font-weight:700}.wysiwyg h4,.wysiwyg .head-h4{font-size:1.8rem;line-height:2.4rem;font-weight:700}.wysiwyg hr{margin:2.0rem 0}.wysiwyg image{min-height:272px}.wysiwyg ol:not(.faq__list),.wysiwyg ul:not(.faq__list){list-style-position:outside;padding:0 0 0 2.4rem;margin:0}.wysiwyg li{margin:0;padding:0}.wysiwyg li br{line-height:2em}.wysiwyg img{width:auto;max-width:100%;height:auto;margin:2.0rem 0 0}.wysiwyg img.left,.wysiwyg img.right{max-width:calc(min(100%,390px));margin-top:0.8rem}.wysiwyg img.full-width{width:100%}.wysiwyg p,.wysiwyg span,.wysiwyg a{padding:0.6rem 0 0.8rem}.wysiwyg p.caption,.wysiwyg span.caption,.wysiwyg a.caption{padding:0 0 0.8rem}.wysiwyg a .faq__link,.wysiwyg a span .faq__link,.wysiwyg a:hover .faq__link,.wysiwyg a:hover span .faq__link,.wysiwyg a:active .faq__link,.wysiwyg a:active span .faq__link{font-weight:400}.wysiwyg__about{margin-bottom:20px;color:#1c1d20}@media (min-width:768px){.wysiwyg img.right{padding:20px 0 20px 20px;float:right}.wysiwyg img.left{padding:20px 20px 20px 0;float:left}}@media (min-width:768px){.wysiwyg{font-size:1.8rem;line-height:2.8rem}.wysiwyg h1,.wysiwyg .head-h1{font-size:4.8rem;line-height:5.2rem;font-weight:700;letter-spacing:-1px}.wysiwyg h2,.wysiwyg .head-h2{font-size:3.2rem;line-height:3.8rem;font-weight:700}.wysiwyg h3,.wysiwyg .head-h3{font-size:2.4rem;line-height:2.8rem;font-weight:700}.wysiwyg h4,.wysiwyg .head-h4{font-size:2.0rem;line-height:2.4rem;font-weight:700}}.responsive-object{position:relative;margin-top:2.4rem}.responsive-object iframe{position:absolute;top:0;left:0;width:100%;height:100%}@media (min-width:768px){#key-points{margin-top:1rem}}#key-points ul{list-style-position:outside;padding-left:1em}#key-points ul li{padding-left:1em;padding-bottom:0.8rem}#key-points ul li::marker{font-style:normal;font-weight:900;font-size:1.8rem;line-height:32px;display:flex;align-items:flex-start;color:#FFB20C;content:'\2713'}.author-bio{justify-content:flex-start}.author-bio-author{align-items:center;display:flex;margin-top:12px}.author-bio-author:first-of-type{margin-top:0}@media (min-width:768px){.author-bio-author{margin-top:0}}.author-bio-description{font-size:1.2rem;color:#474747;text-transform:capitalize}.author-bio-fact-check{align-items:center;border:1px solid #000;border-radius:4px;display:flex;font-size:1.0rem;font-weight:bold;padding:6px;margin-right:8px}.author-bio-fact-check img{margin-right:8px}.author-bio-image-container{display:flex;max-width:85px}.author-bio-image{display:flex;margin-right:1rem;border-radius:50%;justify-content:center;overflow:hidden;min-width:45px;width:45px;height:45px}.author-bio-image img{object-fit:cover;width:100%;height:100%;margin:0}.author-bio-image--second-author{left:-24px;position:relative}.author-bio-name{align-items:center;display:inline-flex;font-size:1.4rem}.author-bio-footer-description{font-size:1.4rem;line-height:1.8rem}.auth-items .soc__img{display:flex;margin-left:1.2rem;justify-content:center;overflow:hidden}.auth-items .soc__img img{object-fit:scale-down;height:18px;display:inline-block}.auth-items .foot-socLink{padding-right:1.6rem;padding-left:1.6rem}.auth-items .foot-socLink:first-of-type{padding-left:0}.auth-items .foot-socLink.foot-fb:hover svg circle{fill:#3B5998}.auth-items .foot-socLink.foot-twitter:hover svg circle{fill:#1DA1F2}.auth-items .foot-socLink.foot-insta:hover svg circle{fill:#405DE6}.auth-items .foot-socLink:hover{transform:rotate(-10deg) scale(1.3)}.auth__info--ctr{display:flex;align-items:center}.auth__info--ctr>*{display:inline-block}.auth__info--ctr .auth__img{display:flex;margin-right:1rem;border-radius:50%;justify-content:center;overflow:hidden}.auth__info--ctr .auth__img img{object-fit:cover;width:42px;height:42px;margin:0}.auth__info--ctr .soc__img{display:flex;margin-left:1.2rem;justify-content:center;overflow:hidden}.auth__info--ctr .soc__img img{object-fit:scale-down;height:18px;display:inline-block}.vertical-bg .auth__info--ctr a{text-decoration:underline}.byline-container{display:flex}.author-link{z-index:1}.author-wrap.author-hover{position:relative}.author-wrap.author-hover .author-hover-bio{position:absolute;cursor:auto;background:#fff;padding:1.2rem;max-width:100vw;min-width:300px;display:none}.author-wrap.author-hover .author-hover-bio .author-bio-content{padding:12px}.author-wrap.author-hover .author-hover-bio a{color:#35B2D6!important}.author-wrap.author-hover .author-hover-bio a:hover{color:#0095C8!important}.author-wrap.author-hover .author-hover-bio .author-bio-description{color:#53565A;letter-spacing:2.2px;font-size:1.4rem;line-height:1.8rem;font-weight:700}.author-wrap.author-hover .author-hover-bio .authors__social{margin:2.4rem 0 0;display:flex;justify-content:flex-start}.author-wrap.author-hover .author-hover-bio .authors__social .social-icon{height:1.6rem;width:1.6rem;margin-right:1.2rem}.author-wrap.author-hover .author-bio-name{display:flex;flex-direction:row;align-items:start}.author-wrap.author-hover .author-bio-name.author-wrapper-fact-checker{flex-direction:row}.author-wrap.author-hover .mobile-link-disable .text-normal{color:#1c1d20}.soc-share{display:inline-block}.soc-share svg circle{fill:#006BA6}.soc-share .soc-fb:hover svg circle{fill:#3B5998}.soc-share .soc-email:hover svg circle{fill:#AC145A}.soc-share .soc-li:hover svg circle{fill:#0077B5}.soc-share .soc-twit:hover svg circle{fill:#1DA1F2}.soc-share .soc-copy:hover svg circle{fill:#FFB81C}.soc-share .soc-icon{display:inline-block;position:relative;top:1rem;margin:0 .25rem}.soc-share .soc-icon:hover{transform:rotate(-10deg) scale(1.3)}p.soc-share__title{color:#8A8C8E;display:inline-block;font-size:1.2rem;font-weight:700;line-height:1.4rem;padding-right:1rem;text-transform:uppercase}.nav-disc.socLinks{padding:1.6rem 0 2.4rem}@media (min-width:768px){.nav-disc.socLinks{padding:3.6rem 0 3rem}}.faq__expand-icon{background:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/accordion_plus.svg?de210604b539") no-repeat center center;height:18px;position:absolute;right:2px;top:2.2rem;transition:all ease-in-out 100ms;width:18px}.block-qa_list_no_schema .faq__expand-icon{top:inherit;bottom:1.2rem}.faq__question-container{padding-bottom:0;position:relative;transition:padding-bottom 100ms ease-in-out 100ms;width:100%;background:none;border:0;text-align:left}.accordion--active .faq__link{margin-bottom:.8rem;font-weight:400}.accordion--active .faq__answer-container .wysiwyg{padding-top:0}.faq__list{position:relative;margin-top:0;padding-left:0}.faq__list-item{border-bottom:1px solid #CACBCB;list-style:none;padding:.4rem 0;transition:border 0.3s ease}.faq__list-item:first-child{border-top:1px solid #CACBCB}.faq__list-item:hover{cursor:pointer}@media (min-width:992px){.faq__list-item.accordion--active .faq__expand-icon,.faq__list-item[expanded] .faq__expand-icon{background:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/accordion_minus.svg?de030cb09446") no-repeat center center;transition:all 100ms ease-in-out}.faq__list-item.accordion--active .faq__question-container,.faq__list-item[expanded] .faq__question-container{padding-bottom:14px;transition:padding-bottom 100ms ease-in-out 100ms}}@media (max-width:991px){.faq__list-item.accordion--active--mobile .faq__expand-icon,.faq__list-item[expanded] .faq__expand-icon{background:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/accordion_minus.svg?de030cb09446") no-repeat center center;transition:all 100ms ease-in-out}.faq__list-item.accordion--active--mobile .faq__question-container,.faq__list-item[expanded] .faq__question-container{padding-bottom:14px;transition:padding-bottom 100ms ease-in-out 100ms}}.faq__list-item--accordion{border:0!important}.faq__list-item--accordion .faq__expand-icon{margin-top:24px}.faq__list-item--accordion .faq__question-container{padding-bottom:0!important}.faq__title,h2.faq__title{font-size:3.8rem;line-height:4.2rem;text-align:left;margin:0 0 2.4rem;padding:0}.faq__link,a.faq__link{color:#1c1d20;display:inline-block;line-height:2.8rem;position:relative;padding:0;margin:1.8rem 3rem 1.8rem 0;border:0;background-color:transparent}.faq__link:hover,a.faq__link:hover{color:#1c1d20}.faq__link p:first-of-type,a.faq__link p:first-of-type{padding:0!important}.block-qa_list_no_schema .faq__link{margin-bottom:0.4rem}@media all and (-ms-high-contrast:none){.blk__faq{padding-left:25px;padding-right:25px;margin-left:auto;margin-right:auto}}.general-tile-item{display:grid;padding:24px 24px 30px;background:#FFF;border:1px solid #CACBCB;box-shadow:0 2px 10px 0 rgba(0,0,0,0.2)}@media (min-width:768px){.general-tile-item{grid-template-columns:minmax(280px,1fr) 2fr;margin:16px 10%}}.general-tile-item .general-award_banner{height:105px;min-width:74px;width:74px;margin-left:12px;margin-bottom:12px}@media (max-width:575px){.general-tile-item .general-award_banner{margin-top:12px}}.general-tile__head{color:#53565A;font-size:1.4rem;letter-spacing:0.3px;line-height:16px;text-align:left}@media (max-width:767px){.general-tile__head{padding-top:10px}}@media (min-width:768px){.general-tile__head-wrap{padding:0 0 0 24px;grid-column:2;width:100%}}.general-tile__img-wrap{height:auto;margin:0 auto;max-height:177px;width:100%;border:1px solid #CACBCB;text-align:center;vertical-align:middle}@media (min-width:768px){.general-tile__img-wrap{max-width:280px}}.general-tile__title{color:#000;display:block;font-size:2.2rem;font-weight:700;padding-top:10px;line-height:2.6rem;text-transform:none}.general-tile__offer-image{max-width:270px;max-height:170px;padding:10% 0}.nav-searchbar-wrap{background:#EDEEEE;height:86px;position:relative;width:100%}@media (min-width:992px){.nav-searchbar-wrap{z-index:110}}.nav-searchbar-wrap label{height:100%;position:absolute;top:35px;left:12px;font-weight:700;font-size:1.6rem;text-transform:uppercase}@media (min-width:992px){.nav-searchbar-wrap{background:transparent;height:100%;position:static;width:32px;transition:0.4s ease all}.nav-searchbar-wrap label{display:none}}@keyframes grow{0%{width:1px;visibility:hidden}100%{width:75%;visibility:visible}}.nav-searchbar{background:#EDEEEE;height:100%}@media (min-width:992px){.nav-searchbar{transition:all 0.3s ease-in-out;display:inline-block;position:absolute;right:0;top:0;z-index:11;visibility:hidden;width:0}}.nav-search{position:absolute;right:10px;top:50%;transform:translateY(-50%)}@media (min-width:992px){.nav-search{z-index:101}}.mi-search-bar{height:100%;position:relative;width:100%}.mi-search-bar .input{background:transparent;border:0;height:100%;line-height:100%;padding:12px;font-size:16px;width:100%;touch-action:manipulation}@media (min-width:992px){.mi-search-bar .input{display:none}}.mi-search-bar .input--active~label{top:0;transition:0.1s ease top}.mi-search-bar .input:focus{touch-action:manipulation}.searchbar--active .nav-searchbar{overflow:hidden;visibility:visible;width:75%}.searchbar--active .nav-searchbar input{padding:3.2rem 2.4rem}@media (min-width:992px){.searchbar--active .nav-searchbar input{display:inline-block;padding:0 2.4rem}}.searchbar--active .nav-searchbar label{display:inline-block;font-size:1.4rem;text-transform:uppercase;position:absolute;left:0;font-weight:600;padding-left:2.4rem}.items-search{display:flex;flex-direction:row;justify-content:space-between;align-items:center}@media (min-width:1200px){.items-search{flex-grow:5!important}.items-search ul .nav-item{margin:0}.items-search ul .nav-item a{padding:8px 15px}}@media (max-width:1199px){.items-search{flex-direction:column;justify-content:center}.items-search ul .nav-item{margin:0}.items-search ul .nav-item a{padding:8px 10px}}@media (max-width:991px){.items-search{flex-direction:column-reverse;justify-content:center}}@media (max-width:1199px){.items-search .search-bar-main{width:100%}}@media (max-width:991px){.items-search .search-bar-main{padding:40px 30px;width:200px}}@media (max-width:986px){.items-search .search-bar-main{padding:40px 30px;width:auto}}.article .title,.article .navbar-item,.search-item .title,.search-item .navbar-item{font-weight:bold;font-size:18px;text-decoration:underline}.article .description,.search-item .description{font-weight:normal;font-size:16px;text-decoration:none;margin-bottom:20px}.mi-search-results{padding:0!important;background:transparent!important;width:75%}.mi-search-results .title{background-color:#0B3D56;color:#fff;width:100%;padding:15px;font-weight:bold;font-size:18px;position:relative}.mi-search-results .title .close-search{position:absolute;top:50%;right:5px;transform:translateY(-50%);font-size:2em;color:#fff;background-color:transparent;padding:5px 15px;border:0;cursor:pointer;opacity:0.5}.mi-search-results .title .close-search:hover{opacity:1}.mi-search-results .title .close-search:focus{outline:none}.mi-search-results .search-results-bg{background:#eee;max-height:500px;overflow:auto;position:absolute;z-index:999999;border:2px solid #000}@media (max-width:991px){.mi-search-results .search-results-bg{display:none}}.mi-search-results .search-results-bg .see-more{text-align:center;margin:15px auto}.mi-search-results .search-results-bg .see-more a{border:2px solid #0B3D56;border-radius:2px;padding:10px;text-align:center}.mi-search-results .search-results-bg .see-more a:hover{background:#0B3D56;color:#fff}.mi-search-results .ajax-search-results .search-item{border-left:5px solid transparent;padding:15px;width:100%;height:auto;display:block}.mi-search-results .ajax-search-results .search-item:hover{border-color:#008C5D;background-color:rgba(0,140,93,0.1)}.mi-search-results .ajax-search-results .search-item .navbar-item{color:#000}.mi-search-results .ajax-search-results .search-item .navbar-item:hover{text-decoration:none}.mi-search-results .ajax-search-results .search-item .description{margin-bottom:0}@media (min-width:992px){.mi-search-results{position:absolute;left:25%;bottom:0}}.search-results-for{background-color:#0B3D56;padding:20px 0}.search-results-for h1{color:#fff;overflow-wrap:anywhere}.search-results-page-body .subtitle{color:#000;border-bottom:4px solid #008C5D;display:inline-block;margin:1.2rem 0}.search-results-page-body .title{text-decoration:none;margin-bottom:10px}.search-results-page-body .title .fake-link{border-bottom:2px solid #0B3D56;color:#000;line-height:2.6rem}.search-results-page-body .description{margin-bottom:15px}.search-results-page-body .article{border-bottom:2px solid #d9d9d9;margin-bottom:20px}.search-results-page-body .article:hover{border-color:#999}.search-results-page-body .article:hover .fake-link{border-bottom:2px solid #008C5D;color:#0B3D56}.search-results-page-body .no-results{font-size:2rem;padding-top:2.4rem;display:inline-block}.navigation-logo svg{max-width:200px}@media (max-width:575px){.navigation-logo svg{max-width:Min(calc(100% - 30px),175px)}}.navigation-logo-footer svg{max-width:211px;margin-top:-24px}.navigation{background-color:#fff;position:relative;z-index:550}.navigation-chevron{background-size:contain;background-repeat:no-repeat;background-position-x:center;background-position-y:center;background-image:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/arrow-down--darkblue.svg?a94fdec966de");display:inline-block;height:8px;position:relative;margin:0 4px;min-width:8px;width:8px}.navigation-chevron--left{transform:rotate(90deg)}.navigation-chevron--right{transform:rotate(-90deg)}.navigation-chevron--up{transform:rotate(-180deg)}.navigation-disclosure{align-items:center;background-color:#1c1d20;color:#fff;display:flex;font-size:1.2rem;font-weight:bold;height:30px;justify-content:center;letter-spacing:0.4px;line-height:1.4rem;text-align:left;z-index:100}.navigation-disclosure-marketing{background-color:transparent;color:#53565A;display:block;font-weight:400;min-height:30px;border:1px solid #CACBCB;height:auto;z-index:99}.navigation-disclosure .tooltip{background:#1c1d20;padding:1.2rem;font-size:1.4rem;font-weight:400;line-height:1.8rem;white-space:pre-line;margin-top:4px}@media (min-width:992px) and (max-width:1199px){.navigation-logo{width:180px}.navigation-logo svg{max-width:180px}}.navigation-main{align-items:center;display:flex;height:6.5rem;justify-content:space-between}.navigation-main-wrap{box-shadow:rgba(0,0,0,0.1) 0 1px 1px 0}.navigation-menu-knowledge-section{padding-top:16px;margin-bottom:16px}.navigation-menu-knowledge-section:first-of-type{border-bottom:1px solid #CACBCB;padding-top:0}.navigation-menu-knowledge-section:last-of-type{margin-bottom:0}@media (min-width:992px){.navigation-menu-knowledge-section{padding-top:0}.navigation-menu-knowledge-section::after{background-color:#CACBCB;content:'';height:calc(100% - 1px);left:-16px;position:absolute;top:0;width:1px}.navigation-menu-knowledge-section:first-of-type{border-bottom:0}.navigation-menu-knowledge-section:first-of-type::after{content:none}.navigation-menu-knowledge-section:last-of-type{margin-bottom:16px}}@media (min-width:992px){.navigation-menu-list{align-items:center;display:flex;justify-content:flex-end}}.navigation-menu-list-item{border-bottom:1px solid #CACBCB;color:#1C1D20;display:flex;align-items:center;font-size:1.4rem;letter-spacing:0.6px;line-height:20px;min-height:60px}.navigation-menu-list-item:hover{cursor:pointer}@media (max-width:991px){.navigation-menu-list-item .navigation-menu-list-subgroup{display:none}.navigation-menu-list-item.focus .navigation-menu-list-subgroup{display:block;opacity:1;transform:rotateX(0) translateX(-100%);visibility:visible}}@media (max-width:991px) and (min-width:992px){.navigation-menu-list-item.focus .navigation-menu-list-subgroup{transform:rotateX(0) translateX(0) translateY(65px)}}@media (min-width:992px){.navigation-menu-list-item{border-bottom:0;min-height:65px}.navigation-menu-list-item.focus{cursor:pointer}.navigation-menu-list-item.focus .navigation-chevron{background-image:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/arrow-down--berry.svg?b04dd4454d61");transform:rotate(-180deg)}.navigation-menu-list-item.focus .navigation-menu-list-subgroup{opacity:1;transform:rotateX(0) translateX(-100%);visibility:visible}}@media (min-width:992px) and (min-width:992px){.navigation-menu-list-item.focus .navigation-menu-list-subgroup{transform:rotateX(0) translateX(0) translateY(65px)}}.navigation-menu-list-item--parent{padding:0 12px;z-index:1}@media (min-width:992px){.navigation-menu-list-item--parent{padding:0 4px;text-align:center}}@media (min-width:1200px){.navigation-menu-list-item--parent{padding:0 12px}}.navigation-menu-list-subgroup{background-color:#fff;border:1px solid #CACBCB;padding:0 12px;position:absolute;opacity:0;left:100%;text-align:left;top:0;visibility:hidden;width:100%;z-index:2}@media (min-width:992px){.navigation-menu-list-subgroup{display:flex;left:0;padding-top:24px;border:0;border-bottom:1px solid rgba(0,0,0,0.1);border-top:1px solid #0095C8}.navigation-menu-list-subgroup .navigation-menu-list-item{display:none}}.navigation-menu-list-subgroup-item{border-bottom:1px solid #CACBCB;margin-bottom:1.6rem}.navigation-menu-list-subgroup-item:last-of-type{border-bottom:0;margin-bottom:0}@media (min-width:992px){.navigation-menu-list-subgroup-item{border-bottom:0;flex:1;position:relative;padding-right:32px}.navigation-menu-list-subgroup-item::after{background-color:#CACBCB;content:'';height:calc(100% - 1px);left:-16px;position:absolute;top:0;width:1px}.navigation-menu-list-subgroup-item:first-of-type::after{content:none}.navigation-menu-list-subgroup-item:last-of-type{margin-bottom:1.6rem}}.navigation-menu-mobile{display:block;position:relative;top:0;width:30px;height:4px;background:#006BA6;border-radius:10px;border:1px solid #006BA6;transform:rotate(0deg);transition:0.3s ease transform,0.3s ease top 0.2s}.navigation-menu-mobile--mid{margin-top:5px;margin-bottom:5px;transition:0.1s ease all}.navigation-menu-sublist{list-style:none}.navigation-menu-sublist-header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;align-items:center;color:#1C1D20;display:flex;font-size:26px;font-weight:bold;letter-spacing:0.8px;line-height:26px}.navigation-menu-sublist-item{margin-bottom:12px}.navigation-menu-sublist-item-link{color:#006BA6;display:inline-block;font-size:16px;height:100%;letter-spacing:0.4px;width:100%}.navigation-menu-sublist-scroller{display:flex;overflow:scroll hidden;list-style:none}.navigation-menu-sublist-scroller-item{min-width:200px;padding-right:12px}.navigation-menu-sublist-scroller-item:last-of-type{padding-right:0}.navigation-menu-sublist-scroller-item-header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;color:#0095C8;font-size:1.4rem;font-weight:700}@media (min-width:992px){.navigation-menu-sublist-scroller-item-image-wrapper{height:140px}}.navigation-menu-sublist-scroller-item-image-wrapper img{object-fit:cover;height:100%;width:100%}.navigation-menu-sublist-scroller-item-link{color:#1C1D20;display:block;font-size:1.4rem;line-height:20px;margin-bottom:12px}@media (min-width:992px){.navigation-menu-sublist-scroller-item{flex:1;padding-right:24px;max-width:calc(max(239px,25%))}}.navigation-menu-toggle{position:relative;height:26px;top:35%}@media (min-width:992px){.navigation-menu-toggle{display:none}}.navigation-menu-container{height:100%}@media (max-width:991px){.navigation-menu-container.focus .navigation-link-container{opacity:1;transform:rotateX(0) translateY(0);visibility:visible}.navigation-menu-container.focus .navigation-menu-mobile:first-of-type{transform:rotate(45deg);top:9px;transition:0.3s ease top,0.2s ease transform 0.2s}.navigation-menu-container.focus .navigation-menu-mobile:last-of-type{transform:rotate(-45deg);top:-9px;transition:0.3s ease top,0.2s ease transform 0.2s}.navigation-menu-container.focus .navigation-menu-mobile--mid{background:transparent;border:0}}@media (min-width:992px){.navigation-menu-container{flex:1}}.navigation-link-container{background-color:#fff;border:1px solid rgba(0,0,0,0.1);height:auto;left:0;min-height:400px;opacity:0;position:absolute;top:65px;transform:rotateX(-90deg) translateY(-100%);transform-origin:top center;visibility:hidden;width:100%;z-index:10}@media (min-width:992px){.navigation-link-container{border:0;min-height:auto;opacity:1;position:inherit;transform:none;visibility:visible}}#sidenav{position:absolute;top:calc(var(--header-height) + 10px);left:8vw;width:184px;margin-top:4px;padding:unset}@media (min-width:2400px){#sidenav{left:25%;transform:translateX(-25%)}}@media (min-width:1900px) and (max-width:2400px){#sidenav{left:15%;transform:translateX(-15%)}}@media (max-width:1600px) and (min-width:1200px){#sidenav{height:auto;left:1.25%}}@media (max-width:1355px) and (min-width:1199px){#sidenav{position:relative;top:0;height:auto;left:inherit;width:80%;padding-top:28px}}@media (max-width:1199px) and (min-width:992px){#sidenav{position:relative;top:0;height:auto;left:inherit;width:63%;padding-top:28px}}@media (max-width:992px) and (min-width:768px){#sidenav{position:relative;top:0;height:auto;left:inherit;width:78%;padding-top:28px}}@media (max-width:768px){#sidenav{position:relative;top:0;height:auto;width:95%;left:inherit;padding-top:28px}}#sidenav.fixed{position:fixed;top:1vh}.border-top{border-top:1px solid #e5e5e5}.chevron_expander{height:18px;position:absolute;right:2px;top:2.2rem;transition:all ease-in-out 100ms;width:18px;background-image:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/chevron--white.svg?883928a19e0c") no-repeat center center;transform:scale(0.6)}.chevron_expander img{filter:invert(39%) sepia(68%) saturate(907%) hue-rotate(168deg) brightness(91%) contrast(80%)}.chevron_expander:hover img{filter:invert(35%) sepia(75%) saturate(791%) hue-rotate(168deg) brightness(91%) contrast(118%)}.faq__list-item{border-bottom:1px solid #CACBCB;list-style:none;padding:.4rem 0;transition:border 0.3s ease}.faq__list-item.accordion--active .chevron_expander,.faq__list-item[expanded] .chevron_expander{background:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/chevron--white.svg?883928a19e0c") no-repeat center center;transition:all 100ms ease-in-out;transform:scaleY(-1) scale(0.6)}.faq__list-item.accordion--active .faq__link,.faq__list-item[expanded] .faq__link{font-weight:bold}.foot .foot-socLink{padding-right:1.6rem;padding-left:1.6rem}.foot .foot-socLink svg circle{fill:#fff}.foot .foot-socLink:first-of-type{padding-left:0}.foot .foot-socLink.foot-fb:hover svg circle{fill:#3B5998}.foot .foot-socLink.foot-twitter:hover svg circle{fill:#1DA1F2}.foot .foot-socLink.foot-insta:hover svg circle{fill:#405DE6}.foot .foot-socLink:hover{transform:rotate(-10deg) scale(1.3)}.foot .foot-wrap{background:#37393B;color:#fff;overflow:hidden}.foot .foot-wrap.bg-black{background:#1c1d20;border-top:0;margin-bottom:-2.0rem}.foot .foot-wrap.bg-black .ft-col{border-top:0}.foot .foot-wrap.bg-black .ft-col:first-of-type{margin-top:0}.foot .foot-wrap a{color:#fff;text-decoration:none}.foot .foot-wrap a.lnk{color:#FFB20C;font-weight:700;display:block;font-size:1rem;line-height:1.2rem;letter-spacing:0.6px}.foot .foot-wrap .actions{top:1.1rem}.foot .foot-wrap .copy-micro{color:#fff}.foot .foot-wrap .foot__logo{margin:10px 0;width:100%;max-width:240px}@media (min-width:768px){.foot .foot-wrap .foot__logo{margin:8px 0 5px;grid-row:1;grid-column:1}}.foot .foot-wrap .ft-hd{text-transform:capitalize}.foot .foot-wrap .ft-col{text-align:left;border-top:1px solid #fff;margin:0 2.4rem}.foot .foot-wrap .ft-col:first-of-type{border:0;margin-top:2.4rem}.foot .foot-wrap .ft-col .ft-lnk-lst span{display:block;font-size:1.6rem;line-height:1.8rem;letter-spacing:0.4px;padding-top:1.2rem;padding-bottom:1.2rem}.foot .foot-wrap .ft-col .ft-lnk-lst span:first-of-type{padding-top:2.4rem}.foot .foot-wrap .foot-socLinks{display:flex;justify-content:left}.foot .foot-wrap .foot-socLinks .foot-socLink{padding-right:.8rem}.foot .foot-wrap .foot-socLinks a.foot-socLink img:hover{transform:rotate(-10deg) scale(1.3)}.foot .foot-wrap .hs-email{width:100%;display:block;padding:0;margin:1.2rem 0}.foot .foot-wrap input[type="email"]{height:44px;background:inherit;border:1px solid #fff;color:#fff;border-radius:4px;text-align:center}.foot .foot-wrap input[type="email"]::placeholder{color:#fff}.foot .foot-wrap ul.hs-error-msgs{list-style:none;margin-top:2.2rem;font-size:1.2rem;line-height:1.8rem;color:#fff}.foot .foot-wrap .hs-error-msgs label{display:block}.foot .foot-wrap .ft-disc{margin-top:1.2rem;font-size:1.2rem;line-height:1.8rem;color:#fff}.foot .foot-wrap .ft-disc a,.foot .foot-wrap .ft-disc a:hover,.foot .foot-wrap .ft-disc a:active{font-size:1.2rem;line-height:1.8rem;color:#fff;text-decoration:underline}@media (min-width:768px){.foot .foot-wrap .ft-disc{text-align:center}.foot .foot-wrap .hbspt-form{display:block;margin:1.2rem auto}.foot .foot-wrap .hbspt-form .hs-email{width:70%;padding-right:1.6rem;align-self:end;display:inline-block;text-align:left}.foot .foot-wrap .hbspt-form .hs-submit{position:relative;width:30%;align-self:end;display:inline-block}}@media (min-width:992px){.foot .foot-wrap .width-limiter{max-width:1116px;margin:0 auto;display:flex}.foot .foot-wrap .foot__logo{margin-top:0}.foot .foot-wrap:not(.bg-black){display:flex;flex-direction:row}.foot .foot-wrap:not(.bg-black) .ft-col{margin:2.4rem 0!important;border-top:0;border-left:1px solid #fff;padding:0 2.4rem!important}.foot .foot-wrap:not(.bg-black) .ft-col:first-of-type{border-left:0}.foot .foot-wrap.bg-black .width-limiter{display:block}}@media (max-width:768px){.foot .ft-col{width:calc(100% - 4.0rem)}.foot .ft-col:last-of-type{border:0}}.broks .foot .cta-wrap,.mortgages .foot .cta-wrap,.loans .foot .cta-wrap{display:inline-block;padding:0 0 1.4rem;width:100%}.broks .foot .text-center,.mortgages .foot .text-center,.loans .foot .text-center{text-align:center}.broks .foot form,.mortgages .foot form,.loans .foot form{display:inline}.broks .foot form .actions,.mortgages .foot form .actions,.loans .foot form .actions{width:100%}.broks .foot form .actions::after,.mortgages .foot form .actions::after,.loans .foot form .actions::after{display:none}.broks .foot form .hs-email,.mortgages .foot form .hs-email,.loans .foot form .hs-email{text-align:left;margin-bottom:0}@media (min-width:768px){.broks .foot form .hs-email,.mortgages .foot form .hs-email,.loans .foot form .hs-email{margin-top:-8px}}.broks .foot form .hs-form-required,.mortgages .foot form .hs-form-required,.loans .foot form .hs-form-required{left:auto}.broks .foot form label,.mortgages .foot form label,.loans .foot form label{bottom:0;left:0;font-size:1rem;position:relative;text-transform:none}.broks .disc__txt,.mortgages .disc__txt,.loans .disc__txt{position:relative;width:100%;padding-top:40px;padding-bottom:10px;margin:0 auto;font-style:italic;font-size:12px;line-height:18px;color:#53565A}.broks .disc__txt a,.mortgages .disc__txt a,.loans .disc__txt a{font-size:1.4rem}.broks .disc__txt--sec,.mortgages .disc__txt--sec,.loans .disc__txt--sec{padding-top:10px;padding-bottom:10px}.broks .disc__txt--sec .rich-text p,.mortgages .disc__txt--sec .rich-text p,.loans .disc__txt--sec .rich-text p{font-size:1.4rem;margin-bottom:20px}.broks .disc__txt--sec::before,.mortgages .disc__txt--sec::before,.loans .disc__txt--sec::before{display:none}.broks .disc__txt::before,.mortgages .disc__txt::before,.loans .disc__txt::before{position:absolute;content:"";margin:0 auto;top:0;left:0;right:0;height:1px;background:#CACBCB}@media (min-width:768px){.broks .foot form .hs-email,.loans .foot form .hs-email{margin-top:6px}}.tooltip{display:none;position:absolute;top:0;left:0;background:#222;color:#FFF;padding:16px;border-radius:4px;pointer-events:none;z-index:10;min-width:200px;max-width:450px;font-size:small}.tooltip-arrow{position:absolute;background:#222;width:8px;height:8px;transform:rotate(45deg)}.tooltip-parent .info-wrap svg circle{stroke:#007bff!important}.tooltip-parent .info-wrap svg path{fill:#007bff!important}@keyframes slideIn{0%{opacity:0;height:0}50%{opacity:0.5;height:auto}100%{opacity:1;height:auto}}@keyframes SlideOut{0%{opacity:1;height:auto}70%{opacity:0.5;height:auto}100%{opacity:0;height:0}}.ttip{top:12px;left:initial;right:0;width:auto;min-width:285px;max-width:320px;pointer-events:none;opacity:0;box-shadow:0 2px 4px 0 rgba(0,0,0,0.5);animation:0.7s ease slideOut forwards;position:absolute;background:#37393B;padding:1.8rem;border-radius:3px;text-align:left;font-size:1.2rem;color:#fff;z-index:-1}.ttip .ttip--caret{position:absolute;content:"";top:-10px;width:0;margin:0 auto;border-right:10px solid transparent;border-left:10px solid transparent;border-bottom:10px solid #000}.brok-tile .ttip::before,.card-tile .ttip::before,.save-tile__rating .ttip::before{display:none}.ttip--active{animation:0.3s ease slideIn forwards;animation-iteration-count:1;pointer-events:auto;z-index:16;top:30px}.ttip--active a,.ttip--active li{color:#fff}.ttip--top{position:absolute}.ttip--top::before{top:initial;bottom:-10px;border-bottom:0;border-top:10px solid #175381}.ttip--right::before{left:initial;right:30px}.ttip--right .ttip--caret{left:initial}.ttip--left::before{right:initial;left:30px}.ttip--left .ttip--caret{right:initial}.ttip-wrap{max-height:280px;overflow-y:scroll}.ttip__head{display:block;color:#FFB20C;font-size:1.8rem;font-weight:700}.ttip__copy{padding-bottom:5px;padding-right:5px;font-size:1.2rem;line-height:1.8rem;letter-spacing:.3px;white-space:pre-line}.ttip .star{display:inline-block;position:relative;top:3px}.ttip--crumb{left:20px;padding:10px;transition:0.3s ease all;pointer-events:none}.ttip--crumb.ttip--active{opacity:1;pointer-events:auto}.ttip--crumb li{font-size:1.4rem;line-height:1.8em}.ttip__parent{position:static;display:inline-block;width:auto}.ttip__parent--z-index{z-index:12!important}.ttip__parent:not(.nav-disc-wrap) .ttip--active::before{display:none}.ttip__parent:not(.nav-disc-wrap) .info-wrap{display:inline-block;width:20px;height:15px}.ttip__rel{position:relative}.ttip__copy::-webkit-scrollbar{width:12px;background:#175381}.ttip__copy::-webkit-scrollbar-button{background:#fff}.ttip__copy::-webkit-scrollbar-thumb{background-color:#979797;border-radius:8px}.ttip--close{position:absolute;height:35px;width:40px;top:-5px;right:-5px;text-align:right;cursor:pointer}.ttip--close::before,.ttip--close::after{position:absolute;content:"";top:18px;right:15px;width:15px;height:2px;background:#fff}.ttip--close::before{transform:rotate(45deg)}.ttip--close::after{transform:rotate(-45deg)}@media (min-width:992px){.ttip--close{display:none}}.nav-disc-wrap .ttip{left:0}.ttip__slider{display:inline-block}.ttip__slider .ttip__copy{text-transform:initial}.ttip__slider .rating__info{width:13px}.accordion__child{height:0;max-height:0;overflow:hidden;transition:max-height 500ms ease-in-out}@media (min-width:576px){.accordion__child__research{columns:2}}.accordion .accordion__icon--negative,.accordion .picks__expander--negative{display:none}@media (min-width:992px){.accordion--active .accordion__child{height:auto;margin-bottom:0.5rem;max-height:100%;transition:max-height 500ms ease-in-out}.accordion--active .accordion__icon--positive,.accordion--active .picks__expander--positive{display:none}.accordion--active .accordion__icon--negative,.accordion--active .picks__expander--negative{display:inherit}}@media (max-width:991px){.accordion--active--mobile .accordion__child{height:auto;margin-bottom:0.5rem;max-height:100%;transition:max-height 500ms ease-in-out}.accordion--active--mobile .accordion__icon--positive,.accordion--active--mobile .picks__expander--positive{display:none}.accordion--active--mobile .accordion__icon--negative,.accordion--active--mobile .picks__expander--negative{display:inherit}}.block-collapsible_paragraph .block-wrap{height:auto;transition-duration:0.35s;transition-timing-function:cubic-bezier(0,0,1,1)}.block-collapsible_paragraph .block-wrap .content-to-truncate{overflow:hidden}.block-collapsible_paragraph .block-wrap .content-truncation{border-bottom:1px #006BA6}.block-collapsible_paragraph .block-wrap .content-truncation[aria-expanded="true"] .content-to-truncate{max-height:100%}.block-collapsible_paragraph .block-wrap .content-truncation[aria-expanded="true"] .collapsed-text{display:none}.block-collapsible_paragraph .block-wrap .content-truncation[aria-expanded="true"] .expand-text{margin-top:1rem;display:block}.block-collapsible_paragraph .block-wrap .content-truncation[aria-expanded="false"] .content-to-truncate{max-height:8rem;mask-image:linear-gradient(#000,rgba(0,0,0,0))}.block-collapsible_paragraph .block-wrap .content-truncation[aria-expanded="false"] .collapsed-text{display:block;margin-top:1rem}.block-collapsible_paragraph .block-wrap .content-truncation[aria-expanded="false"] .expand-text{display:none}.block-collapsible_paragraph .block-wrap .paragraph-controller{font-size:1.6rem;color:#006BA6;text-transform:uppercase;cursor:pointer}.block-collapsible_paragraph .block-wrap .paragraph-controller:hover{text-decoration:underline}@media (max-width:767px){.verticalline{border-top:1px solid #CACBCB;padding-top:8px}}@media (min-width:768px){.verticalline{position:relative;border-left:1px solid #CACBCB}}.block-two_column_paragraph{margin-top:1.2em}.block-expert_qa,.block-expert_qa_block,.block-reviewers_block,#reviewers__container,#experts__container{width:100%}.expert__info--ctr{display:flex;align-items:center;box-shadow:0 0 8px #CACBCB}.expert__info--ctr .expert__copy{display:flex;flex-direction:column;border-left:1px solid #CACBCB;padding:16px;height:auto;align-items:start;justify-content:center}.expert__info--ctr .expert__copy .wysiwyg p{padding:0.6rem 0 0.8rem}.expert__info--ctr .expert__img{width:102px;height:102px;margin:16px;border-radius:50%;overflow:hidden;flex-shrink:0}.expert__info--ctr .expert__img img{width:102px;height:102px;object-fit:cover;margin:0}#experts__container .expert__details,#reviewers__container .expert__details{height:0;margin:0.5rem 0;max-height:0;overflow:hidden;transition:max-height 500ms ease-in-out}#experts__container .expert__details-open,#reviewers__container .expert__details-open{height:auto;max-height:100%;transition:max-height 500ms ease-in-out}#experts__container .review-details,#reviewers__container .review-details{position:relative;top:-1.6rem;box-shadow:0 0 8px #EDEEEE;padding:0 0.8rem}.expert__read-more-button{background:none;border:0;padding:0;color:#0095C8;cursor:pointer}#reviewers--view-all{cursor:pointer;font-size:1.8rem;line-height:2.8rem;font-weight:300;color:#0095C8}.how-to .image-wrapper{height:auto;max-width:100%}.cta-wrap{display:flex;flex-wrap:wrap;gap:1.2rem}@media (min-width:768px){.cta-wrap{display:grid;grid-template-columns:repeat(2,1fr)}}@media (min-width:992px){.cta-wrap.cta-3{grid-template-columns:repeat(3,1fr)}.cta-wrap.cta-4{grid-template-columns:repeat(4,1fr)}}.cta-wrap .box-cta{align-items:center;border:1px solid transparent;border-radius:6px;display:flex;flex:1 0 auto;gap:1rem;height:auto;max-width:100%;padding:1rem;text-decoration:none;text-align:center;z-index:5}@media (min-width:768px){.cta-wrap .box-cta{flex-direction:column;height:134px;justify-content:center;padding:1.2rem 1.6rem}}.cta-wrap .box-cta .box-cta__img{height:3rem;width:auto;filter:invert(38%) sepia(100%) saturate(416%) hue-rotate(158deg) brightness(94%) contrast(86%)}@media (min-width:768px){.cta-wrap .box-cta .box-cta__img{height:4rem}}.cta-wrap .box-cta .box-cta__title{color:#1c1d20;font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:1.4rem;font-weight:600;line-height:2rem;text-align:left}@media (min-width:768px){.cta-wrap .box-cta .box-cta__title{font-size:1.6rem;text-align:center}}.cta-wrap .box-cta:hover{border-color:#35B2D6}.cta-wrap .box-cta:hover .box-cta__title{color:#35B2D6}.cta-wrap .box-cta:hover .box-cta__img{filter:invert(60%) sepia(100%) saturate(300%) hue-rotate(160deg) brightness(96%) contrast(80%)}.cta-wrap.cta-wrap-desktop{display:none}@media (min-width:768px){.cta-wrap.cta-wrap-desktop{display:grid}}.block-why_trust_the_motley_fool #methodology-accordion-button,.block-why_trust_the_motley_fool_accordion #methodology-accordion-button{background-color:#fff;cursor:pointer;padding:1rem;width:100%;border:1px solid lightgray;text-align:left;font-size:inherit;transition:0.4s;display:inline-flex;align-items:center;font-weight:700;margin-top:1em;color:#1c1d20}.block-why_trust_the_motley_fool #methodology-accordion-button:hover,.block-why_trust_the_motley_fool_accordion #methodology-accordion-button:hover{background-color:#F6FBFF}.block-why_trust_the_motley_fool .methodology-list,.block-why_trust_the_motley_fool_accordion .methodology-list{padding-top:10px!important}.block-why_trust_the_motley_fool .methodology-img,.block-why_trust_the_motley_fool_accordion .methodology-img{object-fit:cover;border-radius:50%;height:35px;width:35px;margin-right:10px}.block-why_trust_the_motley_fool .methodology-bottom a,.block-why_trust_the_motley_fool_accordion .methodology-bottom a{color:inherit}.block-why_trust_the_motley_fool .methodology-bottom a:hover,.block-why_trust_the_motley_fool_accordion .methodology-bottom a:hover{text-decoration:underline}.block-why_trust_the_motley_fool .methodology-accordion-block .accordion--active .methodology-chevron,.block-why_trust_the_motley_fool_accordion .methodology-accordion-block .accordion--active .methodology-chevron{transition:all 100ms ease-in-out;transform:scaleY(-1) scale(1)}.block-why_trust_the_motley_fool .methodology-accordion-button.accordion--active.faq__link,.block-why_trust_the_motley_fool_accordion .methodology-accordion-button.accordion--active.faq__link{font-weight:bold!important;margin-bottom:unset}.block-why_trust_the_motley_fool .methodology-accordion-button .accordion--active .faq__link,.block-why_trust_the_motley_fool_accordion .methodology-accordion-button .accordion--active .faq__link{font-weight:bold!important}.block-why_trust_the_motley_fool .methodology-accordion-block .methodology-chevron,.block-why_trust_the_motley_fool_accordion .methodology-accordion-block .methodology-chevron{transition:all ease-in-out 100ms}.block-why_trust_the_motley_fool .methodology-accordion-block .faq__link,.block-why_trust_the_motley_fool_accordion .methodology-accordion-block .faq__link{padding-right:5px}.block-why_trust_the_motley_fool .methodology-chevron img,.block-why_trust_the_motley_fool_accordion .methodology-chevron img{width:18px;filter:invert(39%) sepia(68%) saturate(907%) hue-rotate(168deg) brightness(91%) contrast(80%)}.block-why_trust_the_motley_fool #methodology-accordion-content>div,.block-why_trust_the_motley_fool_accordion #methodology-accordion-content>div{border:1px solid lightgray;padding:1rem}.block-why_trust_the_motley_fool #methodology-accordion-button>span.methodology-chevron,.block-why_trust_the_motley_fool_accordion #methodology-accordion-button>span.methodology-chevron{margin-left:auto}.widget-partner-title-media{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:1rem;font-weight:600;color:#53565A;line-height:1.8rem;text-align:center}.widget-partner-title-marketing{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:3.2rem;font-weight:700;line-height:3.8rem}.widget-partners-grid-marketing{color:#53565A;display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,calc(100% / 5 - 1.2rem));justify-content:center;justify-items:center;margin:0 auto;padding:1.2rem}@media (max-width:991px){.widget-partners-grid-marketing{grid-template-columns:repeat(auto-fit,30%);gap:0.8rem;padding:0.8rem}}@media (max-width:575px){.widget-partners-grid-marketing{grid-template-columns:repeat(auto-fit,45%)}}.widget-partners-grid-media{display:flex;flex-wrap:nowrap!important;gap:1.2rem 4rem;justify-content:center;margin:1.2rem 0;padding:0}.widget-partner-img-wrap-marketing{height:auto;width:100%;align-self:center}.widget-partner-img-wrap-marketing img{object-fit:contain;max-width:100%;height:auto;width:auto;margin:auto;align-self:center}.widget-partner-img-wrap-media{height:30px;padding:0}.widget-partner-img-wrap-media img{object-fit:contain;max-height:20px;max-width:100%;height:100%;width:100%;margin:auto}.partner-title-media{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:1.6rem;font-weight:600;color:#53565A;line-height:1.8rem}.partner-title-marketing{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:3.2rem;font-weight:700;line-height:3.8rem}.partners-grid-marketing{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,calc(100% / 5 - 1.2rem));justify-content:center;justify-items:center;margin:0 auto;padding:1.2rem}@media (max-width:991px){.partners-grid-marketing{grid-template-columns:repeat(auto-fit,30%);gap:0.8rem;padding:0.8rem}}@media (max-width:575px){.partners-grid-marketing{grid-template-columns:repeat(auto-fit,45%)}}.partners-grid-media{display:flex;flex-wrap:wrap;gap:1.2rem 4rem;justify-content:center;margin:1.2rem 0;padding:0}.partner-img-wrap-marketing{height:auto;width:100%;align-self:center}.partner-img-wrap-marketing img{object-fit:contain;max-width:100%;height:auto;width:auto;margin:auto;align-self:center}.partner-img-wrap-media{height:30px;padding:0}.partner-img-wrap-media img{object-fit:contain;max-height:20px;max-width:100%;height:100%;width:100%;margin:auto}.otRelFont{font-size:1.5rem!important}ul.checkmark-list{padding:unset!important}ul.checkmark-list li{background:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/misc-assets/check.width-800.png") no-repeat left top;margin:0;padding:0 0 1px 28px;list-style:none}</style>
+<link id="inlineMedia-css" rel="stylesheet" type="text/css" href="http://web.archive.org/web/20241010112739cs_/https://static.myfinance.com/widget/inlineMedia.css" media="all">
+<style id="compressed-css" type="text/css">﻿.art-sb .img-wrap{height:180px;width:100%;max-height:180px;max-width:100%;margin:auto;padding:1.2rem;border:1px solid #CACBCB;display:block}.art-sb .offer-img{object-fit:contain;max-height:180px;max-width:100%;height:100%;width:100%;margin:auto}@media (min-width:576px) and (max-width:991px){.art-sb .img-wrap-outer{padding-right:2.4rem}}.art-sb img{margin-top:0;object-fit:cover;min-width:100%;min-height:100%}.art-sb a .rel-art p{color:#1c1d20;font-weight:bold;display:block}.art-sb a .rel-art p:hover{color:#0095C8}.blk__sb{margin:20px 0 0}@media (max-width:767px){.blk__sb{grid-column:2 / 12}}@media (min-width:768px){.blk__sb{display:flex;flex-wrap:wrap}}.sb__section{margin-bottom:50px}.sb__ecap .cta__head{font-size:1.6rem;color:#1C1D20;padding-right:0;margin-bottom:10px}.sb__ecap .blk__cta{padding-top:0;background:transparent}.sb__ecap img{display:none}.sb__ecap .cta-wrap{display:block;padding-left:0;padding-right:0;margin:initial}.sb__ecap form{display:block}.sb__ecap input[type="email"]{margin-bottom:12px;box-shadow:0 2px 8px 0 #CACBCB}.sb__ecap .hs-error-msgs label{bottom:0;color:#1c1d20;left:0}@media (max-width:991px){.sb__ecap .hs_email{width:70%}}@media (min-width:992px){.sb__ecap .hs_email{padding-right:2px;padding-left:2px;width:100%}.sb__ecap .hs_email .hs-input{min-width:150px;width:100%;padding-left:10px;padding-right:10px}.sb__ecap .hs_submit .actions{width:100%}}.sb__title{position:relative;padding-bottom:0;margin-bottom:32px;font-size:2rem;color:#1c1d20}.sb__title::after{content:"";position:absolute;left:0;right:0;bottom:-10px;height:3px;background:#1c1d20;width:100%}.sb-other-wrap{display:grid;margin-bottom:50px}.sb-other__title,.sb-other__desc{margin-bottom:10px;font-weight:700}@media (max-width:767px){.sb-other__title,.sb-other__desc{margin-top:10px}}.sb-offer__main{display:grid}@media (min-width:768px){.sb-offer__main{grid-template-columns:1.5fr 2fr}}.sb-offer__link{margin-top:10px;text-align:right}.sb-offer__link a:hover img{right:-8px}@media (min-width:768px){.sb-offer__copy{margin-left:10px}}.sb-other__img{width:100%;min-width:100%;max-width:400px}.sb-rel__byline:hover .sb-rel__title{color:#0095C8}#the_ascent_related_articles a:focus div.rel-art{outline:#8A8C8E solid 3px}.art-feat-wrap a:focus .hilited_copy{outline:#8A8C8E solid 3px}a.art__hilited:hover .hilited__bkg{transform:scale(1.1)}a.art__hilited:hover .hilited__title{color:#0095C8}.arts__hilited{margin-top:2.4rem;margin-bottom:2.4rem}.arts__hilited .art-feat{padding-left:0;padding-right:0;margin:1.2rem 0}.arts__hilited .art-feat-wrap{height:100%}.arts__hilited .rel__more{position:absolute;opacity:0;height:0;left:0;right:0}@media (min-width:768px){.arts__hilited .art-feat{padding-left:1.2rem;padding-right:1.2rem;display:flex;flex-direction:column}.arts__hilited .art-feat .art-feat-wrap{display:flex;flex-direction:column;flex:1 1 auto}.arts__hilited .art-feat .art-feat-wrap a{margin:0;padding:0}}.hilited_copy{margin-top:12px}.hilited_copy>*{color:#1C1D20;font-weight:400;margin:0}.hilited__date{position:absolute;bottom:0;background:#FFB20C;padding:3px 10px;font-size:1.4rem;color:#1c1d20;margin:0}.hilited__title{font-size:1.8rem;font-weight:700;transition:0.3s ease all;line-height:2.2rem}@media (max-width:991px){.hilites{margin-top:40px}}.hilited__img-wrap{display:block;position:relative;min-height:30px;width:100%;height:0;padding-top:70%;overflow:hidden}.hilited__bkg{position:absolute;display:block;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:center}.hilited__img-wrap,.hilited__bkg{transition:0.3s ease all}.hilited__auth{font-style:italic;font-size:1.4rem}.star-rate{display:flex;justify-content:flex-start;flex-wrap:wrap}.star-rate .star{height:25px}.star-rate>*{flex-basis:100%;text-align:left}.star-rate__copy{font-size:14px}.star-rate__info{margin-left:8px;padding:0;position:relative;top:1px}.star-rate__stars_wrapper{display:flex;flex-wrap:wrap}.star-rate__stars-wrapper{display:flex;flex-wrap:wrap}.star-rate__stars-wrapper .star-rate__stars{display:flex;position:relative;width:auto;text-align:center}.star-rate__stars-wrapper .star-rate__stars>.star img{width:20px}.star-rate__stars-wrapper .star-rate__stars .star-rate__stars-selected{position:absolute;display:flex;left:0;top:0;overflow:hidden}.star-rate__stars-wrapper .star-rate__stars .star-rate__stars-selected>.star img{width:20px}.star-rate__stars-wrapper .stars__txt{display:inline-block;width:auto}.star-rate--center .star-rate__copy{text-align:center}.star-rate--center .star-rate__stars-wrapper{justify-content:center}.star-rate--inline{flex-wrap:nowrap}.star-rate--inline .star-rate__copy{display:flex;align-items:center;margin-left:5px}.star-rate--inline .star-rate__info{top:-2px}.subscore-tooltip .rating-container{display:inline-flex;justify-content:space-between;align-items:baseline}.subscore-tooltip .star-label{width:110px}.subscore-tooltip .star-label::before{content:'- ';padding-left:5px}.subscore-tooltip .star-ratings{unicode-bidi:bidi-override;color:#ccc;font-size:20px;position:relative;margin:0;padding:0;letter-spacing:5.5px}.subscore-tooltip .star-ratings .fill-ratings{color:#FFB20C;padding:0;position:absolute;z-index:1;display:block;top:0;left:0;overflow:hidden}.subscore-tooltip .star-ratings .fill-ratings span{display:inline-block}.subscore-tooltip .star-ratings .empty-ratings{padding:0;display:block;z-index:0}.sbs__table{width:100%}.sbs__table tr:nth-child(n){background:#fff}.sbs__table tr:nth-child(n) td{border-top:0;border-bottom:0}.sbs__date{margin-bottom:3px;color:#474747;font-size:1.2rem}.sbs__date .stars__txt{display:block;line-height:1.6rem}.sbs__date .stars__txt a{font-weight:500;font-size:1.2rem}.sbs__row{display:flex;grid-template-columns:repeat(2,minmax(0,1fr))}.sbs__cell{position:relative;padding:12px;width:100%;text-align:center}.sbs__cell p{margin:10px 0}.sbs__cell p span{margin:10px 0}.sbs__cell>*{font-weight:400;font-size:1.4rem;text-align:center;color:#1c1d20}.sbs__cell a.sbs__name-link{color:#006BA6}.sbs__cell:first-child{border-right:1px solid #CACBCB}.sbs__cell.text-left{text-align:left}.btn__sbs-wrap{justify-content:center}.btn--sbs{max-width:140px}.sbs__cell--border::after{content:"";position:absolute;margin:0 auto;left:0;right:0;bottom:12px;width:55%;background:#CACBCB;height:1px}.sbs__offer-name{display:block;padding-top:10px;font-size:1.6rem;font-weight:400}.sbs__name-link{display:block;padding-left:20px;padding-right:20px}.sbs__name-link a{font-weight:normal}.sbs_table__img{display:flex;align-items:center;justify-content:center;height:70px;width:100%}img.sbs__logo{max-width:100%;max-height:100%}.sbs__goldman{font-size:1.6rem;color:#474747}.sbs__mem-bank{display:block;color:#666}.sbs__subhead{display:block;color:#1c1d20;text-transform:uppercase;font-weight:700;font-size:1.4rem}.sbs__ratings{padding-bottom:0}.sbs__ratings .save-tile__rating{text-align:center}.sbs__ratings .tile-wrap{padding-bottom:0}.sbs__rating-wrap{text-align:center}.sbs__cell__cta{padding-top:0}.sbs__rev{display:block;margin-top:20px;font-size:1.6rem;color:#0095C8}.callouts-offer-status{border:1px dashed #CACBCB}.callouts-offer-status h3{font-size:1.4rem;letter-spacing:0.3px;line-height:2.4rem;font-weight:700}.callouts-offer-status .copy-tight{height:auto;width:100%}.callouts-offer-status .copy-tight ul,.callouts-offer-status .copy-tight ol{padding:1.8rem}.callouts-offer-status .copy-tight ul li,.callouts-offer-status .copy-tight ol li{text-indent:.4rem;font-size:1.8rem}.callouts-offer-status .rich-text p{margin-bottom:1.8rem}.callouts-offer-status .rich-text p:last-of-type{margin-bottom:0}.callouts-offer-status__body{font-size:1.4rem;color:#1c1d20}.callout-wrap a.btn:hover{color:#fff!important}.callout-wrap .richtext-image{max-width:100%;height:auto}.callout-wrap .richtext-image.small{max-width:50%}.callout-wrap .callout-header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-weight:700;font-size:1.8rem;line-height:2.8rem;letter-spacing:0.3px;margin-bottom:1.0rem}@media (max-width:767px){.callout-wrap .callout-header{font-size:1.6rem;line-height:2.2rem}}.callout-wrap .copy-tight{height:auto;width:100%}.callout-wrap .copy-tight ul,.callout-wrap .copy-tight ol{padding:1.8rem}.callout-wrap .copy-tight ul li,.callout-wrap .copy-tight ol li{text-indent:.4rem;font-size:1.8rem}.callout-wrap .rich-text p{margin-bottom:1.8rem}.callout-wrap .rich-text p:last-of-type{margin-bottom:0}.tip-icon .callout-wrap{height:100%;width:100%;border:1px #EDEEEE;border-style:solid none solid solid;border-left:4px #FFB20C solid}.tip-icon .callout-wrap .callout-content{margin:auto;padding:2.4rem 2.4rem 2.4rem 0;position:relative;display:flex;flex-direction:row}.tip-icon .callout-wrap .callout-content .tip-icon{display:flex;flex-direction:column;justify-content:space-around;padding:0 2.4rem}.tip-icon .callout-wrap .callout-content .tip-icon .tip-text{color:#006BA6;font-size:1.2rem;font-weight:700;line-height:1.6rem;letter-spacing:0.3px;align-self:center}@media (max-width:991px){.tip-icon .callout-wrap .callout-content{flex-direction:column}.tip-icon .callout-wrap .callout-content .tip-icon{flex-direction:row;justify-content:flex-start}.tip-icon .callout-wrap .callout-content .tip-icon .tip-text{display:inline-flex;top:-14px;position:relative;left:10px;font-size:1.8rem}.tip-icon .callout-wrap .callout-content .tip-body{padding:1.6rem 2.4rem 0}}.tip-border .callout-wrap{height:100%;width:100%;border:1px #EDEEEE;border-style:solid none solid solid}@media (max-width:991px){.tip-border .callout-wrap{margin-left:20px;width:90%}}.tip-border .callout-wrap .callout-content{margin:auto;padding:25px 0 30px 50px;position:relative}.tip-border .callout-wrap .callout-content .oval{width:48px;height:48px;border-radius:48px / 48px;background-color:#006BA6;position:absolute;left:-24px;top:36%;display:flex;justify-content:center;align-items:center}.tip-border .callout-wrap .callout-content .oval p{color:#fff;font-size:1.8rem;font-weight:bold;letter-spacing:0.3px;line-height:2.4rem;padding:0}.colorful-border .callout-wrap{height:100%;width:100%;border:4px #FFB20C;border-left-style:solid}.colorful-border .callout-wrap .callout-content{margin:auto;padding:0 0 0 3.2rem;position:relative}.full-border .callout-wrap{height:100%;width:100%;border:1px solid #CACBCB;box-shadow:0 0 8px 0 rgba(0,0,0,0.12);padding:2.4rem}.full-border .callout-wrap .callout-content{margin:auto;padding:0;position:relative}.blk__ecap-wrapper{border:1px solid #fff;outline:8px solid #0095C8;background:#0095C8;text-align:left;color:#fff;width:calc(100% - 16px);margin:2.4rem 0 2.4rem 8px;padding:1.2rem}.blk__ecap-wrapper form input{display:inline-block;min-height:44px!important;height:auto;border:1px solid #CACBCB;color:#1c1d20;border-radius:4px;box-sizing:border-box;padding:0 15px;font-size:1.4rem;width:100%;box-shadow:none;letter-spacing:0.3px;line-height:1.8rem;cursor:pointer}.blk__ecap-wrapper form input:not(select){background:#fff}.blk__ecap-wrapper form input[type="submit"]{border:0;font-size:1.8rem;font-weight:700;border-radius:4px;appearance:none}.blk__ecap-wrapper form input::placeholder{color:#53565A}.blk__ecap-wrapper form input:focus,.blk__ecap-wrapper form input:active{border-color:#1c1d20}.blk__ecap-wrapper form input.error{border-color:#FB686E}.blk__ecap-wrapper label{display:none}.blk__ecap-wrapper label.error,.blk__ecap-wrapper label.hs-error-msg{display:block}.blk__ecap-wrapper ul.hs-error-msgs{display:none}.blk__ecap-wrapper ul.hs-error-msgs li{list-style:none;text-align:left;font-size:1.2rem}.blk__ecap-wrapper .copy-micro{color:#fff;max-width:740px;margin:0 auto;text-align:center}.blk__ecap-wrapper .copy-micro a,.blk__ecap-wrapper .copy-micro a:hover{font-size:1.0rem;color:#fff;text-decoration:underline;font-weight:400}.blk__ecap-wrapper .head-h4::before{content:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/ascentCap.svg?30c74838dccd");width:48px;height:23px;position:relative;top:3px;margin-right:5px}@media (max-width:767px){.blk__ecap-wrapper .hs-email{margin:1.2rem 0}.blk__ecap-wrapper .head-h4::before{content:none}}@media (min-width:768px){.blk__ecap-wrapper .cta-wrap .hbspt-form{display:block;margin:10px auto 20px;text-align:center}.blk__ecap-wrapper .cta-wrap .hbspt-form form{display:flex}.blk__ecap-wrapper .cta-wrap .hbspt-form form .hs-email{padding-right:16px;width:70%;margin-left:0;margin-right:1.2rem;align-self:end}.blk__ecap-wrapper .cta-wrap .hbspt-form form .hs-submit{align-self:end;width:calc(30% - 16px)}}.ribbon-new{border-left:3px solid transparent;border-top:28px solid #FFB20C;color:#fff;font-size:14px;font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-weight:600;height:28px;left:-5px;position:relative;text-transform:uppercase;top:-20px;width:170px;margin:0 0 -20px}.ribbon-new::before{border-bottom:14px solid #d7a631;border-left:7px solid #fff;border-top:14px solid #d7a631;bottom:-10px;content:'';left:-10px;position:absolute;width:10px;z-index:-1}.ribbon-new::after{border-bottom:14px solid transparent;border-left:7px solid #FFB20C;border-top:14px solid transparent;content:'';position:absolute;right:-7px;top:-28px}.ribbon-new>span{display:inline-block;height:28px;left:0;line-height:28px;text-align:center;position:absolute;top:-28px;width:100%}.ribbon-new.bump-up{margin-top:-2.4rem}.award-ribbon{border-left:3px solid transparent;border-top:28px solid #35B2D6;color:#fff;font-size:1.2rem;font-weight:800;line-height:18px;height:28px;left:-19px;position:relative;text-transform:uppercase;top:15px;width:170px;margin:0 0 -20px}.award-ribbon img{left:-10px;top:2px;position:relative;margin-right:-6px}.award-ribbon::before{border-bottom:14px solid #0095C8;border-left:7px solid #fff;border-top:14px solid #0095C8;bottom:-10px;content:'';left:-10px;position:absolute;width:10px;z-index:-1}.award-ribbon::after{border-bottom:14px solid transparent;border-left:7px solid #35B2D6;border-top:14px solid transparent;content:'';position:absolute;right:-7px;top:-28px}.award-ribbon>span{display:inline-block;height:28px;left:14px;line-height:28px;position:absolute;top:-28px;width:100%}.award-ribbon.bump-up{margin-top:-2.4rem}.card-tile-wrap .cc-tile-banner-text.award-ribbon{top:-5px;left:-19px}.card-tile-wrap .cc-tile-banner-text.ribbon-new{top:-5px;left:-19px;position:relative}.featured-text-banner{background-color:#175381;border:solid #175381;padding-top:5px;padding-bottom:5px;padding-left:10px;color:#fff;font-weight:600;text-transform:uppercase;font-size:1.2rem;line-height:1.8rem;position:relative;margin-top:1.2rem}.featured-text-banner .featured-text{padding-left:35px}.featured-text-banner .featured-banner{width:26.64px;height:50px;top:-3px;background-color:#FFB71B;position:absolute;clip-path:polygon(0% 0%,100% 0%,100% 85%,50% 75%,0% 85%);z-index:1}.featured-text-banner .featured-banner-content{width:100%;height:100%;background-image:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/jester_cap.svg?2a99b0ec4df6");background-repeat:no-repeat;background-position:65% 30%;background-size:80%}.featured-card{border:0.2rem solid #175381}.featured-card .bs:first-of-type{box-shadow:unset}.featured-card .award-ribbon{display:none;margin-top:-15px}.featured-card .brok-tile{margin:0 auto}.qs-widget-wrapper,#universalLifeWidget,.blk_insurify_widget,.blk__bankrate_auto_widget{padding:0.8rem;box-shadow:0 0 8px 0 #1c1d201f;border:8px double #979797!important;background:#f9f9f9!important}.qs-widget-wrapper.pet-widget,#universalLifeWidget.pet-widget,.blk_insurify_widget.pet-widget,.blk__bankrate_auto_widget.pet-widget{padding-bottom:3.5rem}.headline-on-image .hero-wrapper.image{background-image:linear-gradient(rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.5) 50%,#fff 100%),var(--img-src);background-size:cover;width:auto;max-width:100%;min-height:250px;height:auto;position:relative;display:flex;flex-direction:column;justify-content:space-between;margin:0.8rem 0}@media (min-width:768px){.headline-on-image .hero-wrapper.image{min-height:486px}}.headline-on-image .hero-wrapper.image .hero-text{color:#fff;margin:0;padding:1.8rem 1.8rem 0.4rem;font-size:2.0rem;line-height:2.4rem;text-shadow:2px 2px 5px #000}@media (min-width:576px){.headline-on-image .hero-wrapper.image .hero-text{font-size:calc(2.0rem + (4.6 - 2.0) * ((100vw - 576px) / (992 - 576)));line-height:calc(2.4rem + (4.6 - 2.0) * ((100vw - 576px) / (992 - 576)))}}@media (min-width:992px){.headline-on-image .hero-wrapper.image .hero-text{font-size:4.6rem;line-height:5.0rem}}.headline-on-image .hero-wrapper.image .hero-promo{color:#fff;padding:0 1.8rem;line-height:1.8rem;font-size:1.4rem;text-shadow:2px 2px 5px #000}@media (min-width:576px){.headline-on-image .hero-wrapper.image .hero-promo{font-size:calc(1.4rem + (1.8 - 1.4) * ((100vw - 576px) / (992 - 576)));line-height:calc(1.8rem + (1.8 - 1.4) * ((100vw - 576px) / (992 - 576)))}}@media (min-width:992px){.headline-on-image .hero-wrapper.image .hero-promo{line-height:2.8rem;font-size:1.8rem}}.headline-on-image .hero-wrapper.image .hero-caption{background:#EDEEEE;margin:0;padding:0 0.4rem;align-self:flex-end;font-style:italic;color:#1c1d20;opacity:0.85}.headline-on-image .hero-wrapper.image .hero-byline{align-self:flex-start;background:#FFF;width:100%;margin:0;padding-top:0.4rem}.headline-on-image .byline.pt-4{padding-top:0!important}#healine-title-image+.blk__wysiwyg{margin-top:2.4rem}.title-row{justify-content:space-between;width:100%;display:flex;flex-direction:row}@media (max-width:575px){.title-row{flex-direction:column}}.title-row a.left-arrow:hover{font-weight:700!important;color:#35B2D6!important}.the_ascent_related_articles{border-top:1px solid #CACBCB;margin-top:2.2rem;padding-top:2.8rem}.the_ascent_related_articles a.title{margin-top:1.2rem;color:#1c1d20!important;font-weight:600;font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:2.4rem;line-height:2.6rem}@media (max-width:575px){.the_ascent_related_articles a.title{font-size:1.8rem}}.the_ascent_related_articles a.title:hover{color:#35B2D6!important}.the_ascent_related_articles .byline{justify-content:start;align-items:center;color:#53565A}.the_ascent_related_articles .byline a:hover{color:#35B2D6!important}@media (max-width:575px){.the_ascent_related_articles .byline{font-size:1.2rem;line-height:1.8rem}.the_ascent_related_articles .byline .first_published{display:none}}.the_ascent_related_articles .byline .author-bio-image{height:38px;width:38px;min-width:38px}@media (max-width:575px){.the_ascent_related_articles .byline .author-bio-image{display:none}}.the_ascent_related_articles .truncated-body{margin-top:0.8rem;font-size:1.8rem;line-height:2.8rem;overflow:hidden;max-height:calc(2 * 2.8rem);color:#53565A}@media (max-width:575px){.the_ascent_related_articles .truncated-body{max-height:calc(4 * 2.4rem);font-size:1.6rem;line-height:2.4rem}}.the_ascent_related_articles:first-of-type{border-top:0;margin-top:0}.list-intro ul{padding:1.2rem 2.4rem 1rem}.banking-summary-table{border-spacing:0;width:100%;font-size:1.4rem}.banking-summary-table .banking-summary-table__header:first-child{display:none}@media (min-width:768px){.banking-summary-table .banking-summary-table__header:first-child{display:table-cell}}.banking-summary-table__item{display:flex;flex-direction:column;padding:0;position:relative;justify-content:start;margin-top:0.4rem}@media (min-width:768px){.banking-summary-table__item{border-right:1px solid #DCDCDD;min-height:74px;padding:12px;margin-top:0}.banking-summary-table__item:last-child{border-right:0}}.banking-summary-table__item--grid{align-items:center;font-size:1.4rem}.banking-summary-table__item--grid .save__bank-member{margin:4px 0;font-size:1.2rem}@media (min-width:768px){.banking-summary-table__item--grid{display:grid;gap:.8rem;grid-template-columns:100px auto}}.banking-summary-table__item .btn-wrap{margin-top:8px;width:100%}@media (min-width:768px){.banking-summary-table__item .btn-wrap{margin-top:0}}.banking-summary-table__item .save--left{margin-right:.8rem;width:100%}@media (min-width:768px) and (max-width:991px){.banking-summary-table__item .save--left{margin-right:0}}.banking-summary-table__item .save--right{margin-top:.8rem}@media (min-width:992px){.banking-summary-table__item .save--right{margin-top:0}}.banking-summary-table__item .save--full{margin-top:.8rem}@media (min-width:992px){.banking-summary-table__item .save--full{grid-column:span 2;margin-top:0}}.banking-summary-table__item .off-count{font-size:1.4rem;position:absolute;left:0}@media (min-width:768px){.banking-summary-table__item .off-count{left:-4px}}.banking-summary-table__row{display:block;padding:2rem 2.5rem 2.5rem;font-size:1.4rem}.banking-summary-table__row--featured .off-count{border-left:4px solid transparent;border-top:28px solid #C99700;color:#fff;height:28px;left:-50px;width:38px}@media (min-width:768px){.banking-summary-table__row--featured .off-count{left:-34px}}.banking-summary-table__row--featured .off-count::before{border-left:5px solid #fff;border-top:28px solid #9E750F;bottom:-14px;content:'';left:-2px;position:absolute;width:10px;z-index:-1}.banking-summary-table__row--featured .off-count::after{border-bottom:14px solid transparent;border-left:7px solid #C99700;border-top:14px solid transparent;content:'';position:absolute;right:-7px;top:-28px}.banking-summary-table__row--featured .off-count .count{left:20px;position:absolute;top:-23px}.banking-summary-table__row--header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;background-color:#F6FBFF;padding:0}@media (min-width:768px){.banking-summary-table__row{border-bottom:1px solid #DCDCDD;display:grid;grid-template-columns:1.5fr 0.75fr 0.75fr 1.5fr;padding:0}}@media (min-width:768px){.banking-summary-table__row--five-column{grid-template-columns:1.5fr 0.75fr 0.4fr 0.75fr 1.5fr}}.banking-summary-table__header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;display:none;font-size:1.4rem;font-weight:600;padding:12px;text-align:center}.banking-summary-table__header:first-child{display:block}@media (min-width:768px){.banking-summary-table__header{border-right:1px solid #DCDCDD;display:table-cell}.banking-summary-table__header:last-child{border-right:0}}.banking-summary-table__wrapper{margin-bottom:0}@media (min-width:768px){.banking-summary-table__wrapper{box-shadow:0 2px 10px 0 rgba(0,0,0,0.12)}}.banking-summary-table .col__header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif}.banking-summary-table .col__header--inline{color:#1c1d20;display:inline-block;font-size:1.4rem;font-weight:600}@media (min-width:768px){.banking-summary-table .col__header--inline{display:none}}.banking-summary-table .stars__txt{top:-6px;position:relative}.banking-summary-table .ttip__parent{padding-bottom:0}.banking-summary-table .ttip__parent.save-tile__rating{top:-6px}.hidden{display:none!important}.blk__save-tile-sum-list .save--right{margin:0 auto;width:100%;text-align:center}@media (min-width:768px){.blk__save-tile-sum-list .save--right{text-align:start}}.blk__save-tile-sum-list .logo-wrap{align-items:center;display:flex;justify-content:center;height:76px;width:65%}@media (min-width:768px){.blk__save-tile-sum-list .logo-wrap{height:auto;min-height:95px;width:100%}}.blk__save-tile-sum-list .logo{max-width:100%;vertical-align:middle;max-height:74px}.blk__save-tile-sum-list th{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;background:#F6FBFF;text-align:left}.blk__save-tile-sum-list .save-tile__header>th{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;border:0;border-right:1px solid #DCDCDD}.blk__save-tile-sum-list .save-tile__header>th:last-child{border-right:0}.blk__save-tile-sum-list .save-tile__copy>td{border:0;border-right:1px solid #DCDCDD}.blk__save-tile-sum-list .save-tile__copy>td:last-child{border-right:0}.blk__save-tile-sum-list .savings-summary-table,.blk__save-tile-sum-list .money-market-summary-table{overflow:auto hidden;font-size:1.4rem;display:table;width:100%;margin-bottom:2.4rem}.blk__save-tile-sum-list .savings-summary-table .banking-summary-table__item p,.blk__save-tile-sum-list .money-market-summary-table .banking-summary-table__item p{padding-top:0.4rem}.blk__save-tile-sum-list .spice-box{grid-column:1/-1}.blk__save-tile-sum-list .table-style{box-shadow:none}@media (min-width:768px){.blk__save-tile-sum-list .table-style{box-shadow:0 0 8px 0 rgba(28,29,32,0.12)}.blk__save-tile-sum-list .money-market-summary-table .banking-summary-table__row--five-column{grid-template-columns:minmax(170px,200px) 135px minmax(80px,100px) minmax(100px,150px) minmax(110px,165px);margin-bottom:0}}@media (max-width:991px){.blk__save-tile-sum-list .save-tile__apply{padding-top:20px}}@media (min-width:992px){.blk__save-tile-sum-list .save-tile__sum,.blk__save-tile-sum-list .save-tile__copy,.blk__save-tile-sum-list .save-tile__header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;grid-template-columns:2fr 0.75fr 1.5fr 1.5fr}.blk__save-tile-sum-list .save-tile__sum .save-tile__copy>*{display:grid;align-items:center}.blk__save-tile-sum-list .save-tile__sum .save-tile__copy .save__name{grid-template-columns:1fr 1.5fr;padding-right:20px}.blk__save-tile-sum-list .save-tile__header>th{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;padding-left:20px;padding-right:20px}.blk__save-tile-sum-list .save-tile__APR,.blk__save-tile-sum-list .save-tile__best-for{text-align:left}.blk__save-tile-sum-list .bank-member{margin-top:5px}}@media (min-width:768px){.blk__save-tile-sum-list .table-style{box-shadow:0 0 8px 0 rgba(28,29,32,0.12)}.blk__save-tile-sum-list .money-market-summary-table .banking-summary-table__row--five-column{grid-template-columns:minmax(170px,200px) 135px minmax(80px,100px) minmax(100px,150px) minmax(110px,165px);margin-bottom:0}}@media (min-width:992px){.blk__save-tile-sum-list .save-tile__sum,.blk__save-tile-sum-list .save-tile__copy,.blk__save-tile-sum-list .save-tile__header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;grid-template-columns:2fr 0.75fr 1.5fr 1.5fr}.blk__save-tile-sum-list .save-tile__sum .save-tile__copy>*{display:grid;align-items:center}.blk__save-tile-sum-list .save-tile__sum .save-tile__copy .save__name{grid-template-columns:1fr 1.5fr;padding-right:20px}.blk__save-tile-sum-list .save-tile__header>th{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;padding-left:20px;padding-right:20px}.blk__save-tile-sum-list .save-tile__APR,.blk__save-tile-sum-list .save-tile__best-for{text-align:left}.blk__save-tile-sum-list .bank-member{margin-top:5px}}.save__bank-member{display:block;color:#53565A}.save-tile__sum .sum-list__copy{background:#fff;display:block}@media (min-width:992px){.save-tile__sum .sum-list__copy{display:grid}}.save-tile__sum .offer-details{display:grid;grid-template-columns:1fr 1.5fr}.save-tile__sum .offer-details:not(:nth-last-of-type(2)){border-bottom:1px solid #DCDCDD;margin-bottom:1rem;padding-bottom:1rem}.save-tile__sum .offer-details span{font-size:1.6rem}.save-tile__sum .offer-details .info-wrap{width:auto!important;letter-spacing:0.01rem;font-style:italic;font-size:12px;display:block}.save-tile__sum .offer-details--tooltip{display:flex;flex-wrap:wrap}@media (min-width:768px){.save-tile__sum .offer-details{display:block}.save-tile__sum .offer-details:not(:nth-last-of-type(2)){border-bottom:0;margin-bottom:0;padding-bottom:0}.save-tile__sum .offer-details span{font-size:1.4rem}}.save-tile__apply{border-right:0}.save__cell,.save__cell a{font-size:1.6rem}.save__cell{position:relative}.save__name>span{display:block;margin:0;color:#666;font-size:1.4rem}.save__name a:not(.ttip__parent),.save__name p{display:block;margin-bottom:5px}.save__name a{color:#0095C8}@media (max-width:991px){.save-tile__APR,.save-tile__apply{margin-bottom:10px}}.save-sum-list__header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:2.6rem;font-weight:700;letter-spacing:0.3px;line-height:28px;margin:8px 0}.save-sum-list__header th{align-self:center}@media (min-width:992px){.save-sum-list__header{font-size:2.8rem;text-align:left;margin-top:0}}.blk__save-para-wrap{line-height:1.5em;font-size:1.6rem;display:block;margin:0 auto}.blk__save-para-item{margin:0}.blk__save-para-item__best-for{color:#53565A;text-transform:uppercase}.blk__save-para-item p{margin:0 auto 10px}.blk__save-para-item p:first-child{margin-top:0}.blk__save-para-item img{max-width:100px}.blk__save-para-item .img_wrapper{position:relative;width:100px;height:80px;margin:auto}@media (max-width:991px){.blk__save-para-item .img_wrapper{padding-top:0}}.blk__save-para-item .img_wrapper img{margin:auto;max-width:80%;height:auto;max-height:100%}.blk__save-body-para .save-sum-list__wrap{box-shadow:0 0 8px 0 rgba(28,29,32,0.12);padding:1.6rem;margin-bottom:24px}.blk__save-body-para .save-sum-list__wrap .img_wrapper{border:1px solid #EDEEEE;display:flex;align-items:center;justify-content:center;height:180px;margin-bottom:12px;padding:12px;width:100%}.blk__save-para .btn--apply-wrap{margin:13px 0 0}.blk__save-para img{display:block;margin:20px auto}@media (min-width:992px){.blk__save-para{display:grid;grid-template-columns:230px 1fr;justify-content:space-between;grid-gap:20px}.blk__save-para .btn--apply-wrap{margin:0}}@media (min-width:992px){.blk__save-para.cd--block{grid-template-columns:160px auto}}.blk__save-tile-sum-list .block-scrollable th{background:#afdafc1f}.block-scrollable{overflow-x:auto;background-image:linear-gradient(to right,#fff,#fff),linear-gradient(to right,#fff,#fff),linear-gradient(to right,#EDEEEE,rgba(255,255,255,0)),linear-gradient(to left,#EDEEEE,rgba(255,255,255,0));background-position:left center,right center,left center,right center;background-repeat:no-repeat;background-color:#FFF;background-size:2rem 100%,2rem 100%,2rem 100%,2rem 100%;background-attachment:local,local,scroll,scroll}.block-scrollable .savings-summary-table{margin-bottom:0}@media (min-width:992px){.block-scrollable .savings-summary-table table{width:initial}}.block-scrollable td{border-left:1px solid #EDEEEE}@media (min-width:992px) and (max-width:1199px){.block-scrollable td{min-width:220px}}.block-scrollable .account--wrapper{display:flex;flex-direction:column;align-items:center;min-width:165px;gap:1.2rem}@media (min-width:1200px){.block-scrollable .account--wrapper{flex-direction:row}}.block-scrollable .account--wrapper-copy{text-align:center}@media (min-width:1200px){.block-scrollable .account--wrapper-copy{text-align:left}}.block-scrollable .account--wrapper .comp__logo-wrap img{max-width:125px}@media (max-width:991px){.block-scrollable .account--wrapper .comp__logo-wrap img{max-height:60px}}@media (max-width:991px){.block-scrollable .star-rate--inline{flex-direction:column;align-items:center}}.block-scrollable .disclaimer-row{display:none}.block-scrollable .disclaimer-row.active{display:table-row}.block-scrollable .disclaimer-toggle .image-minus{display:none}.block-scrollable .disclaimer-toggle.active .image-minus{display:inline-block}.block-scrollable .disclaimer-toggle.active .image-plus{display:none}.block-scrollable td.active{border-bottom:0}@media (min-width:992px){.block-bank_account_summary_table .block-scrollable table th:last-of-type{width:215px}.block-bank_account_summary_table .block-scrollable table th:first-of-type{width:200px}}@media (max-width:991px){.block-bank_account_summary_table .block-scrollable table th{width:200px}}.block-bank_tile_list_summary .general-tile-item{grid-template-columns:minmax(280px,1fr) 2fr;margin:30px 0}@media (max-width:767px){.sm-center-wrapper{display:flex!important;align-items:center;justify-content:center}}.offer-stars{flex-wrap:wrap}.offer-stars .save-tile-item{display:flex;align-items:center;margin-right:10px}.offer-stars img.rating__info{margin-top:8px;margin-left:4px}.tile-wrap .faq__list-item{padding:0 1.6rem}.tile-wrap .faq__list-item ul{list-style-type:disc}.tile-wrap .faq__list-item .faq__link{margin:1rem 0}.tile-wrap .faq__list-item .faq__expand-icon{top:1.4rem}.tile-wrap .wysiwyg.copy-tight{font-size:1.6rem;line-height:2.2rem}.tile-wrap a.meth-link{display:block;margin-bottom:-3.2rem}.tile-wrap .apy-value .info-wrap{width:auto!important;letter-spacing:0.01rem;font-style:italic;font-size:12px}@media (min-width:768px){.tile-wrap .w--250px{width:250px;min-width:250px}.tile-wrap .w--225px{width:225px;min-width:225px}.tile-wrap .w--120px{width:120px;min-width:120px}}.tile-wrap .logo-wrap{align-items:center;display:flex;justify-content:center;min-height:95px;width:100%}.tile-wrap .logo{max-width:100%;vertical-align:middle;max-height:136px}.tile-wrap .t-none{text-transform:none}.tile-wrap .faq__list-item:first-child{border-top:0}.tile-wrap .accordion__child{margin:0}.tile-wrap .accordion--active .accordion__child{margin:-2.2rem 0 1.2rem}.tile-wrap .accordion--active .accordion__child .disclosure{margin-top:-2.2rem}.w--70{width:70%}.w--150px{width:150px}.w--175px{width:175px}@media (max-width:575px){.w--175px{width:80px}}.w-200px{width:200px}.bank-tile__spice-box{border-radius:4px;margin-top:1.2rem}@media (min-width:768px){.bank-tile__spice-box{margin-top:0}}.bank-tile__spice-box .truncate-overflow input{opacity:0;position:absolute;pointer-events:none;height:12px;width:12px}.bank-tile__spice-box .truncate-overflow .spice-desc{font-size:1.6rem}@media (max-width:575px){.bank-tile__spice-box .truncate-overflow .spice-desc>.rich-text{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-height:48px}}.bank-tile__spice-box .truncate-overflow .spice-desc.rich-text>p{margin:0}.bank-tile__spice-box .truncate-overflow input:focus~label{outline:-webkit-focus-ring-color auto 5px}.bank-tile__spice-box .truncate-overflow input:checked+div.spice-desc>.rich-text{-webkit-line-clamp:unset;max-height:100%}.bank-tile__spice-box .truncate-overflow input:checked~label,.bank-tile__spice-box .truncate-overflow div.spice-desc:not(.truncated)~label{display:none}.bank-tile__spice-box .truncate-overflow label{display:inline-block;color:#0095C8;width:100px;background:#FDF5DA;position:relative;top:-24px;margin-bottom:-16px;float:right;font-size:16px;line-height:24px;height:24px}@media not all and (min-resolution:0.001dpcm){@supports (-webkit-appearance:none){.bank-tile__spice-box .truncate-overflow label{top:-22px}}}.card-tile__pros li,.card-tile__cons li{font-size:1.6rem;line-height:2.2rem;display:block;position:relative}.card-tile__pros li::before,.card-tile__cons li::before{content:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/icon_greenCheck.svg?9da1dd64d984");font-size:14px;height:16px;width:16px;display:inline-block;margin-left:-21px;margin-right:10px;top:5px;position:relative}.card-tile__cons li::before{content:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/icon_redX.svg?69b0a7789455");font-size:14px}.card-tile__pros-cons-list{margin-top:1.4rem!important}.card-tile__pros-cons-list>.wysiwyg{position:relative}.card-tile__pros-cons-list>.wysiwyg:first-of-type{padding-bottom:15px;position:relative}.card-tile__pros-cons-list>.wysiwyg:first-of-type::before{content:'';position:absolute;background-color:#CACBCB;height:1px;width:100%;left:0;bottom:0}.card-tile__pros-cons-list>.wysiwyg:last-of-type{padding-top:15px}.card-tile__pros-cons-list>.wysiwyg ul{padding-top:0}@media (min-width:768px){.card-tile__pros-cons-list{display:flex}.card-tile__pros-cons-list>.wysiwyg{flex:1}.card-tile__pros-cons-list>.wysiwyg:first-of-type,.card-tile__pros-cons-list>.wysiwyg:last-of-type{padding-bottom:0;padding-top:0}.card-tile__pros-cons-list>.wysiwyg:first-of-type{padding-right:20px}.card-tile__pros-cons-list>.wysiwyg:first-of-type::before{height:100%;width:1px;right:0;left:inherit}.card-tile__pros-cons-list>.wysiwyg:last-of-type{margin-left:20px}}.card-tile__pros-cons-list .card-tile__pros ul,.card-tile__pros-cons-list .card-tile__cons ul{list-style:none}.card-tile__pros-cons-list .card-tile__pros li,.card-tile__pros-cons-list .card-tile__cons li{font-size:1.6rem;line-height:2.2rem;display:block;position:relative}.card-tile__pros-cons-list .card-tile__pros li::before,.card-tile__pros-cons-list .card-tile__cons li::before{content:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/icon_greenCheck.svg?9da1dd64d984");font-size:14px;height:16px;width:16px;display:inline-block;margin-left:-21px;margin-right:10px;top:5px;position:relative}.card-tile__pros-cons-list .card-tile__cons li::before{content:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/icon_redX.svg?69b0a7789455");font-size:14px}@supports (display:grid){.brok-tile{display:grid;grid-template-columns:1fr;grid-row-gap:10px;grid-column:1 / -1}}@supports not (display:grid){.brok-tile__stars{display:block;overflow:hidden}.brok-tile__stars .brok-tile__stars-selected{display:block;top:0}}.blk__brok-tile-list .brokerages-tile-wrap{width:100%}.blk__brok-tile-list .picks__expander{font-size:1.8rem}.brok-tile{background:#FFF;border:1px solid #CACBCB;box-shadow:0 2px 10px 0 rgba(0,0,0,0.2);display:flex;flex-wrap:wrap;height:auto;margin:15px auto;padding:20px;position:relative;width:100%}.brok-tile--sng{background:#EDEEEE}.brok-tile .btn--apply:not(.btn--sm){width:100%;margin-top:13px;padding-left:10px;padding-right:10px}.brok-tile .img__link:hover .img__hover{opacity:0.08;transform:scale(0.9)}.brok-tile .img__link:hover::after{background:rgba(23,83,129,0.75);z-index:10}.brok-tile .img__link:hover .brok__txt-wrap{right:0;left:0;transform:translateY(-50%);z-index:10;width:100%}.brok-tile .img__link:hover .brok__txt{opacity:1;transform:scale(1);z-index:20}.brok-tile .img__link:hover .brok--arrow{opacity:1;padding-left:5px}.brok-tile .general-award_banner{height:105px;min-width:74px;width:74px}@media (max-width:575px){.brok-tile .general-award_banner{margin-right:12px}}@supports (display:grid){@media (min-width:992px){.brok-tile{display:grid;grid-template-columns:135px calc(100% - 192px - 135px) 192px}}@media (min-width:992px){.brok-tile__head{display:grid;grid-template-columns:repeat(3,1fr)}}}.brok-tile-item{position:relative;display:block;width:100%;text-align:center;margin:0 auto}.brok-tile-item--stars{align-items:center;display:flex;justify-content:center;flex-wrap:wrap}.brok-tile-item--stars .brok-tile__star--rate{flex-basis:100%}.brok-tile-item .brok__txt-wrap{left:-100%;position:absolute;right:0;top:50%;transform:translateY(-50%);transition:0.3s ease all 0.1s;width:100%}.brok-tile-item .brok__txt{color:#1c1d20;display:inline-block;font-size:1.8rem;font-weight:700;height:auto;letter-spacing:1px;margin:0 auto;opacity:0;position:relative;text-align:center;text-transform:uppercase;transform:scale(0.85);transition:0.3s ease all;width:auto}.brok-tile-item .stars__txt{display:inline}.brok-tile-item .tooltip-parent{position:relative;text-align:left;top:2px;left:4px}.block-brokerage_tile_summary_list__stars .star img{width:22px}@media (min-width:768px){.block-brokerage_tile_summary_list__stars{align-items:center}}.brok-tile__details{display:flex;flex-wrap:nowrap;justify-content:space-between;margin-top:20px}.brok-tile__detail{background:#EDEEEE;border-radius:8px;font-size:1.4rem;margin-right:20px;padding:10px;width:100%}.brok-tile__head{display:grid;grid-column:1 / -1}.brok-tile__head h3{display:block;grid-column:1;padding-bottom:0;font-size:2.2rem;font-weight:700;text-align:center}.brok-tile__img-wrap{align-items:center;border-radius:9px;display:flex;flex-wrap:wrap;font-size:0;justify-content:center;min-width:100%;min-height:90px;overflow:hidden;position:relative}.brok-tile__img-wrap .img__link,.brok-tile__img-wrap a{display:block}.brok-tile__stars{display:flex;position:relative;text-align:center;margin:5px auto}.brok-tile__stars .brok-tile__stars-selected{position:absolute;display:flex;left:0;overflow:hidden}.brok-tile__info{flex-basis:100%;order:1}.brok-tile__info .brok-tile__img-wrap .brok--arrow{opacity:0;padding-left:20px;width:20px}.brok-tile__info .brok-tile__img-wrap img{height:auto;width:100%;min-width:auto;min-height:auto;max-width:160px}.brok-tile__info img{position:relative;transition:0.3s ease all}.brok-tile__info .brok-tile__rating{text-align:center;font-size:1.2rem}.brok-tile__info .rating__head{font-size:1.4rem}.brok-tile__info .rating__info{position:relative;display:inline-block;top:2px;width:12px}.brok-tile__info .brok-tile__star--rate{display:flex;flex-wrap:wrap}@media (min-width:768px){.brok-tile__info .brok-tile-item{width:auto}}.brok-tile__cta{text-align:center}.brok-tile__overview{order:3;text-align:center}@media (min-width:768px){.brok-tile__overview{margin-left:20px}}@media (min-width:992px){.brok-tile__overview{text-align:left;order:2}}@media (max-width:991px){.brok-tile__overview{width:100%}}.brok-tile__botline{margin-top:10px;padding-bottom:10px;line-height:1.8rem}.brok-tile__botline .link--rev{padding-top:10px;font-size:1.4rem;font-weight:normal}@media (min-width:768px){.brok-tile__botline{border-bottom:1px solid #CACBCB}}@media (min-width:992px){.brok-tile__botline{margin-top:0;padding-right:40px}}.brok-tile__bottom-line-text{display:inline;font-size:1.5rem}.brok-tile__sbs{display:flex;flex-wrap:wrap;flex-basis:100%;order:2}@media (min-width:992px){.brok-tile__sbs{order:3;padding-left:20px;border-left:1px solid #CACBCB}}@media (max-width:991px){.brok-tile__sum .ratings{text-align:center}}.sb__promo{font-size:1.5rem;width:100%;order:1;text-align:center}@media (max-width:991px){.sb__promo{order:2;margin-top:20px}}.sb-brok__other{align-self:flex-start;margin:0 auto;order:1;width:170px}@media (min-width:992px){.sb-brok__other{order:2}}@media (min-width:992px) and (max-width:1199px){.sb-brok__article{width:135px}}.divider--horiz{background:#CACBCB;bottom:0;height:1px;left:-16px;position:absolute;right:0}.block-brokerage_tile_summary_list{margin-top:16px}.block-brokerage_tile_summary_list table{font-size:1.4rem;line-height:1.8rem}@media (min-width:992px){.block-brokerage_tile_summary_list td{width:23%}.block-brokerage_tile_summary_list td:nth-child(5){width:31%}}.block-brokerage_tile_summary_list .image-wrapper{aspect-ratio:5/3;margin-bottom:0.8rem}.block-brokerage_tile_summary_list .image-wrapper img{max-width:100%;max-height:100%}.block-brokerage_tile_summary_list__item{align-items:center;font-size:1.4rem}.block-brokerage_tile_summary_list__item>span{font-weight:bold;text-transform:uppercase;margin-right:8px}@media (min-width:992px){.block-brokerage_tile_summary_list__item>span{display:none}}.block-brokerage_tile_summary_list__item .linked-stars .star-rate,.block-brokerage_tile_summary_list__item .linked-stars .star-rate:hover{color:#1c1d20}.block-brokerage_tile_summary_list__item .btn-wrap{width:100%}.block-brokerage_tile_summary_list__header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;font-size:1.8rem;padding-top:12px}@media (max-width:991px){.block-brokerage_tile_summary_list__header{padding:12px}}@media (max-width:767px){.blk__card-tile-list--sng .tile-wrap .card-tile-item--checkbox{margin:-6.8rem 0 2.0rem}}@media (min-width:576px){.tile-wrap .card-tile-item{max-width:100%;margin:.8rem auto;padding:0 1.2rem}.tile-wrap .card-tile-item--checkbox{margin-top:-3.8rem}.tile-wrap .card-tile-item a.card-tile__img-wrap,.tile-wrap .card-tile-item div.card-tile__img-wrap{margin:0;display:block}}.rating__info{max-height:20px;overflow:hidden}.card-tile{padding:15px 15px 0}.card-tile a,.card-tile a:hover,.card-tile a:active,.card-tile a:focus,.card-tile a.faq__link,.card-tile a.faq__link:hover,.card-tile a.faq__link:focus{font-weight:700}.card-tile a.fw-400,.card-tile a:hover.fw-400,.card-tile a:active.fw-400,.card-tile a:focus.fw-400,.card-tile a.faq__link.fw-400,.card-tile a.faq__link:hover.fw-400,.card-tile a.faq__link:focus.fw-400{font-weight:400}.card-tile .copy-tight{font-size:1.6rem}.card-tile .cred--rating{font-weight:normal;width:100%}.card-tile .detail-block{border-bottom:1px solid #EDEEEE;padding:10px 0}.card-tile .detail-block:last-child{border-bottom:0}@media (min-width:768px){.card-tile .detail-block{display:grid;grid-template-columns:.7fr 2fr}}@media (min-width:992px){.card-tile .detail-block{grid-template-columns:.6fr 2fr}}.card-tile .detail-block .info-wrap{position:relative;top:2px}.card-tile .wysiwyg li{margin-bottom:0.8rem}.card-tile .faq__list-item{padding:.4rem 1.2rem}.card-tile .faq__list-item .faq__link{font-size:1.4rem;margin:1.0rem 0}.card-tile .faq__list-item .faq__expand-icon{top:1.4rem}.card-tile .faq__list-item .card-tile__pros-cons-list .rich-text{margin-top:1.4rem}.card-tile .faq__list-item.accordion--active .faq__question-container{padding-bottom:0}.card-tile .faq__list-item.accordion--active .faq__answer-container .wysiwyg{margin-top:0}.card-tile .faq__list-item.accordion--active .faq__answer-container .wysiwyg li{list-style:disc;font-size:1.6rem;line-height:2.2rem}.card-tile .faq__list-item.accordion--active .faq__answer-container .rich-text{font-size:1.6rem;line-height:2.2rem}.card-tile .faq__list-item.accordion--active .card-tile__pros-cons-list{padding-bottom:1.2rem}.card-tile .ttip__parent{display:inline-flex;padding-bottom:0;margin-top:1px}.card-tile .ttip__parent .info-wrap{display:inline-flex;width:15px;height:15px;justify-content:center;align-items:center}.card-tile__checkbox-group .checkbox-item{display:flex;align-items:center;justify-content:flex-end;padding-right:1.2rem}@media (min-width:768px){.card-tile__checkbox-group .checkbox-item{padding-right:0}}.card-tile__card-img,.card-tile__img-wrap{max-width:100%;max-height:100%;height:auto;width:auto}.card-tile__credit-rating{text-align:center;margin:8px 0 16px;font-size:1.2rem;line-height:1.5rem;letter-spacing:0.3px}@media (min-width:768px){.card-tile__credit-rating{text-align:left}}.card-tile__credit-rating .info-wrap{position:relative;top:2px}.card-tile__desktop-apply-btn{align-items:center;justify-content:flex-end}.card-tile__desktop-apply-btn .btn-wrap{width:100%;min-width:153px}.card-tile .accordion__child{margin:0}.card-tile__expand-icon{background:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/accordion_plus.svg?de210604b539") no-repeat center center;height:18px;position:absolute;right:15px;top:2.0rem;transition:all ease-in-out 100ms;width:18px}.card-tile .accordion--active .accordion__child,.card-tile[expanded] .accordion__child{margin-bottom:1rem}.card-tile .accordion--active .card-tile__expand-icon,.card-tile[expanded] .card-tile__expand-icon{background:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/accordion_minus.svg?de030cb09446") no-repeat center center;transition:all 100ms ease-in-out}.card-tile__full-detail .rich-text{font-size:1.6rem;line-height:2.2rem}.card-tile__header{font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;padding-bottom:20px}.card-tile__img-wrap{display:block;height:130px}@media (min-width:768px){.card-tile__img-wrap{height:auto}}.card-tile__mobile-btn{max-width:300px;margin:0 auto}.card-tile__pros-cons-list>.wysiwyg{position:relative}.card-tile__pros-cons-list>.wysiwyg:first-of-type{padding-bottom:15px;position:relative}.card-tile__pros-cons-list>.wysiwyg:first-of-type::before{content:'';position:absolute;background-color:#CACBCB;height:1px;width:100%;left:0;bottom:0}.card-tile__pros-cons-list>.wysiwyg:last-of-type{padding-top:15px}.card-tile__pros-cons-list>.wysiwyg ul{padding-top:0}@media (min-width:768px){.card-tile__pros-cons-list{display:flex}.card-tile__pros-cons-list>.wysiwyg{flex:1}.card-tile__pros-cons-list>.wysiwyg:first-of-type,.card-tile__pros-cons-list>.wysiwyg:last-of-type{padding-bottom:0;padding-top:0}.card-tile__pros-cons-list>.wysiwyg:first-of-type{padding-right:20px}.card-tile__pros-cons-list>.wysiwyg:first-of-type::before{height:100%;width:1px;right:0;left:inherit}.card-tile__pros-cons-list>.wysiwyg:last-of-type{margin-left:20px}}.card-tile__pros-cons-list .card-tile__pros ul,.card-tile__pros-cons-list .card-tile__cons ul{list-style:none}.card-tile__pros-cons-list .card-tile__pros li,.card-tile__pros-cons-list .card-tile__cons li{font-size:1.6rem;line-height:2.2rem;display:block;position:relative}.card-tile__pros-cons-list .card-tile__pros li::before,.card-tile__pros-cons-list .card-tile__cons li::before{content:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/icon_greenCheck.svg?9da1dd64d984");font-size:14px;height:16px;width:16px;display:inline-block;margin-left:-21px;margin-right:10px;top:5px;position:relative}.card-tile__pros-cons-list .card-tile__cons li::before{content:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/icons/icon_redX.svg?69b0a7789455");font-size:14px}.card-tile__star-box{align-items:center;display:flex;flex-flow:row nowrap;justify-content:center;margin-bottom:12px;margin-top:4px}.card-tile__star-box>div{display:flex;order:1}.card-tile__star-box>span{order:2}.card-tile__star-box>.tooltip-parent{order:3}.card-tile__star-box .star_tip{margin-right:-5px}.card-tile__star-box .stars__txt{display:flex;align-items:center;margin-right:4px}@media (min-width:992px){.card-tile__star-box .stars__txt{font-size:1.2rem}}.card-tile__star-box .info-wrap{display:inline-block;margin-top:6px}@media (min-width:768px){.card-tile__star-box{display:flex;justify-content:space-between}.card-tile__star-box>span,.card-tile__star-box>.tooltip-parent{flex:1}}@media (min-width:1200px){.card-tile__star-box{justify-content:start;gap:1rem}}.card-tile__spice-box{border-radius:4px;margin-top:1.2rem}@media (min-width:768px){.card-tile__spice-box{margin-top:0}}.card-tile__spice-box .truncate-overflow input{opacity:0;position:absolute;pointer-events:none;height:12px;width:12px}@media (max-width:575px){.card-tile__spice-box .truncate-overflow div.spice_desc>.rich-text{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-height:48px}}.card-tile__spice-box .truncate-overflow div.spice_desc.rich-text>p{margin:0}.card-tile__spice-box .truncate-overflow input:focus~label{outline:-webkit-focus-ring-color auto 5px}.card-tile__spice-box .truncate-overflow input:checked+div.spice_desc>.rich-text{-webkit-line-clamp:unset;max-height:100%}.card-tile__spice-box .truncate-overflow input:checked~label,.card-tile__spice-box .truncate-overflow div.spice_desc:not(.truncated)~label{display:none}.card-tile__spice-box .truncate-overflow label{display:inline-block;color:#0095C8;width:100px;background:#FDF5DA;position:relative;top:-24px;margin-bottom:-16px;float:right;font-size:16px;line-height:24px;height:24px}@media not all and (min-resolution:0.001dpcm){@supports (-webkit-appearance:none){.card-tile__spice-box .truncate-overflow label{top:-22px}}}.card-tile .title-link a,.card-tile .title-link a:hover{color:#1c1d20}.card-tile-wrap .ribbon-new{position:absolute;top:8px;z-index:1}.block-card_tile_list_condensed h3 a,.block-card_tile_list_condensed h3 a:hover{color:#000;font-weight:bold}.card-tile--condensed .card-tile .award-ribbon,.card-tile--condensed .card-tile .ribbon-new{position:absolute;left:-4px;top:-30px}.card-tile--condensed .card-tile .award-ribbon span,.card-tile--condensed .card-tile .ribbon-new span{margin:unset;padding:unset}.card-tile--condensed .btn-wrap a,.card-tile--condensed .btn-wrap img,.card-tile--condensed .btn-wrap p,.card-tile--condensed .btn-wrap span{margin:unset;padding:unset}.card-tile--condensed .card-tile__img-wrap{height:110px}.card-tile--condensed .card-tile__img-wrap img{margin:unset}.card-tile--condensed .card-tile__mobile-btn{padding-bottom:8px;max-width:200px}@media (min-width:768px){.card-tile--condensed .card-tile__mobile-btn{max-width:100%}}@media (min-width:768px){.card-tile--condensed{float:left;max-width:30%;margin-right:5%}.card-tile--condensed .card-copy p:first-of-type{padding-top:0}}.card-tile--condensed .card-tile__star-box img{margin:unset;max-width:unset;height:unset}.card-tile--condensed .card-tile__star-box span{margin:unset;padding:unset}.card-tile--condensed .card-tile__star-box{line-height:1;margin:0 0 0 40px}.card-tile--condensed .card-tile__credit-rating{font-size:14px}@media (min-width:768px){.card-copy--condensed p:first-of-type{padding-top:0}}.featured-text-banner{background-color:#175381;border:solid #175381;padding-top:5px;padding-bottom:5px;padding-left:10px;color:#fff;font-weight:600;text-transform:uppercase;font-size:1.2rem;line-height:1.8rem;position:relative}.featured-text-banner .featured-text{padding-left:35px}.featured-text-banner .featured-banner{width:26.64px;height:50px;top:-3px;background-color:#FFB71B;position:absolute;clip-path:polygon(0% 0%,100% 0%,100% 85%,50% 75%,0% 85%);z-index:1}.featured-text-banner .featured-banner-content{width:100%;height:100%;background-image:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/jester_cap.svg?2a99b0ec4df6");background-repeat:no-repeat;background-position:65% 30%;background-size:80%}.featured-card{border:0.2rem solid #175381;box-shadow:unset}.block-shopping_product_block .border-left-golden,.wysiwyg.copy-body .border-left-golden{border:1px #EDEEEE solid;border-left:4px #FFB20C solid}.block-shopping_product_block .border-full-gray,.wysiwyg.copy-body .border-full-gray{border:1px solid #CACBCB;box-shadow:0 0 8px 0 rgba(0,0,0,0.12)}.block-shopping_product_block .border-full-blue,.wysiwyg.copy-body .border-full-blue{border:3px solid #0095C8}.block-shopping_product_block .callout-wrap,.wysiwyg.copy-body .callout-wrap{padding:2.4rem}.block-shopping_product_block .logo-wrap,.wysiwyg.copy-body .logo-wrap{align-items:center;display:flex;justify-content:center;width:100%}.block-shopping_product_block .logo,.wysiwyg.copy-body .logo{vertical-align:middle}.block-shopping_product_block span.btn--apply,.wysiwyg.copy-body span.btn--apply{padding:12px 14px;font-size:18px;font-weight:700;letter-spacing:0.4px;line-height:20px}.price-strike-out{text-decoration:line-through;font-weight:400;font-size:90%}.price-promo-code{color:#FB686E;font-weight:600}.shopping-logo-wrap{max-width:calc(100% - 2.4rem);height:auto;min-height:95px;width:100%}.shopping-logo-wrap img{width:100%;height:auto}.shopping-compare-wrap{display:flex;justify-content:space-between}.shopping-compare-wrap .shopping-compare-item{margin:1.2rem 0;width:30%;box-shadow:0 0 8px 0 rgba(28,29,32,0.12)}.shopping-compare-wrap .shopping-compare-item .item{padding:0.8rem 1.2rem;align-self:stretch}.shopping-compare-wrap .shopping-compare-item h3{padding:1.6rem 0 1.2rem}.shopping-compare-wrap .shopping-compare-item ol,.shopping-compare-wrap .shopping-compare-item ul{list-style-position:outside;padding:0 0 0 2.4rem;margin:0}.shopping-compare-wrap .shopping-compare-item p,.shopping-compare-wrap .shopping-compare-item span,.shopping-compare-wrap .shopping-compare-item a{padding:0.6rem 0 0.8rem}.shopping-compare-wrap .btn.btn--sm.btn--apply{font-size:1.6rem}.banner{width:100%;background:#FFB20C;color:#fff;text-align:center;font-size:1.8rem;font-weight:800;padding:0.8rem;margin-bottom:1.2rem;font-family:"Poppins","PT Sans","Tahoma","Arial","Helvetica",sans-serif;text-transform:uppercase;line-height:2.0rem}.banner span{padding:0}.logo-wrap{align-items:center;justify-content:center;width:auto;height:140px}.logo-wrap .logo{max-width:100%;max-height:100%;width:auto;height:auto}@supports (display:contents){.shopping-compare-wrap{display:grid;grid-template-rows:repeat(7,auto);grid-column-gap:1.2rem;margin-top:1.2rem;grid-template-columns:repeat(3,32%)}.shopping-compare-item{display:contents}.offer-image{grid-row:3;border-left:1px solid #CACBCB;border-right:1px solid #CACBCB;padding:1.2rem;margin:-1.2rem auto 1.2rem;text-align:center;width:100%}.best-for{grid-row:4;border-left:1px solid #CACBCB;border-right:1px solid #CACBCB;padding:0.8rem 1.2rem;margin:-1.2rem 0 0}.bottom-line{grid-row:5;border-left:1px solid #CACBCB;border-right:1px solid #CACBCB;padding:0.8rem 1.2rem;margin-top:-1.2rem}.offer-description{grid-row:6;border-left:1px solid #CACBCB;border-right:1px solid #CACBCB;padding:0.8rem 1.2rem;margin-top:-1.2rem}.affiliate-buttons{grid-row:7;border-left:1px solid #CACBCB;border-right:1px solid #CACBCB;border-bottom:1px solid #CACBCB;padding:0.8rem 1.2rem 2.4rem;margin-top:-1.2rem}}@media (max-width:767px){.shopping-compare-wrap{display:block;margin-top:1.2rem}.shopping-compare-wrap .shopping-compare-item{display:block;width:100%}.shopping-compare-wrap .shopping-compare-item:nth-of-type(even){background:#EDEEEE}}.credit-score-grid{display:grid;width:calc(100% - 2.4rem);grid-template-columns:repeat(4,minmax(1rem,110px));justify-content:center;text-align:center;font-size:1.2rem;max-width:445px}.credit-score-grid .bar{width:calc(100% - 3px);background:#CACBCB;height:6px}@media (max-width:991px){.credit-score-grid{width:calc(100%)}}.credit-score-grid[data-rating="bad"] .bar.poor,.credit-score-grid[data-rating="newtocredit"] .bar.poor,.credit-score-grid[data-rating="newrebuild"] .bar.poor{background:#FFB20C}.credit-score-grid[data-rating="bad"] .range.poor,.credit-score-grid[data-rating="newtocredit"] .range.poor,.credit-score-grid[data-rating="newrebuild"] .range.poor{font-weight:700;color:#53565A}.credit-score-grid[data-rating="newfair"] .bar.poor,.credit-score-grid[data-rating="newfair"] .bar.fair{background:#FFB20C}.credit-score-grid[data-rating="newfair"] .range.poor,.credit-score-grid[data-rating="newfair"] .range.fair{font-weight:700;color:#53565A}.credit-score-grid[data-rating="fair"] .bar.fair{background:#FFB20C}.credit-score-grid[data-rating="fair"] .range.fair{font-weight:700;color:#53565A}.credit-score-grid[data-rating="fairexcellent"] .bar.fair,.credit-score-grid[data-rating="fairexcellent"] .bar.good,.credit-score-grid[data-rating="fairexcellent"] .bar.excellent{background:#FFB20C}.credit-score-grid[data-rating="fairexcellent"] .range.fair,.credit-score-grid[data-rating="fairexcellent"] .range.good,.credit-score-grid[data-rating="fairexcellent"] .range.excellent{font-weight:700;color:#53565A}.credit-score-grid[data-rating="good"] .bar.good{background:#FFB20C}.credit-score-grid[data-rating="good"] .range.good{font-weight:700;color:#53565A}.credit-score-grid[data-rating="goodexcellent"] .bar.good,.credit-score-grid[data-rating="goodexcellent"] .bar.excellent{background:#FFB20C}.credit-score-grid[data-rating="goodexcellent"] .range.good,.credit-score-grid[data-rating="goodexcellent"] .range.excellent{font-weight:700;color:#53565A}.credit-score-grid[data-rating="excellent"] .bar.excellent{background:#FFB20C}.credit-score-grid[data-rating="excellent"] .range.excellent{font-weight:700;color:#53565A}.banking-offer-filter{transform:translateZ(0);appearance:none;display:block;width:100%;box-sizing:border-box;height:44px;color:#1c1d20;border-radius:4px;letter-spacing:0.2px;line-height:14px;font-size:1.4rem;padding:0 1.2rem;border:1px solid #CACBCB;word-break:normal;box-shadow:0 2px 8px 0 #CACBCB;background:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/arrow-down--darkblue.svg?a94fdec966de") no-repeat 95% 50%}.banking-offer-filter .first-option.hide,.banking-offer-filter option.hide{display:none}@media (min-width:992px){.banking-offer-filter{width:auto;padding-right:2.4rem;min-width:140px}}.blk__brok-tile-list .picks__expander{font-size:1.8rem}.blk__brok-tile-list .tile-wrap{width:100%}.brok-tile{display:flex;flex-wrap:wrap;height:auto;position:relative;width:100%;margin:15px auto;padding:20px}.brok-tile .img__link:hover .img__hover{opacity:0.08;transform:scale(0.9)}.brok-tile .img__link:hover::after{background:rgba(23,83,129,0.75);z-index:10}.brok-tile .img__link:hover .brok__txt-wrap{right:0;left:0;transform:translateY(-50%);z-index:10;width:100%}.brok-tile .img__link:hover .brok__txt{opacity:1;transform:scale(1);z-index:20}.brok-tile .img__link:hover .brok--arrow{opacity:1;padding-left:5px}.brok-tile .general-award_banner{height:105px;min-width:74px;width:74px}@media (max-width:575px){.brok-tile .general-award_banner{margin-right:12px}}@media (max-width:991px){.brok-tile .general-award_banner{margin-bottom:12px}}@supports (display:grid){@media (min-width:992px){.brok-tile{display:grid;-ms-grid-columns:165px 1.75fr .75fr;grid-template-columns:165px 1.75fr .75fr}}@media (min-width:576px){.brok-tile.infotron-tile{display:grid;-ms-grid-columns:145px 1.75fr .75fr;grid-template-columns:145px 1.75fr .75fr}.brok-tile.infotron-tile .brok-tile__info{margin-right:20px}.brok-tile.infotron-tile .brok-tile__detail{margin-right:14px}.brok-tile.infotron-tile .brok-tile__sbs{order:3;padding-left:14px;border-left:1px solid #CACBCB;margin-top:0}.brok-tile.infotron-tile .brok-tile__sbs .sb__promo{order:1;margin-top:0}}.brok-tile.infotron-tile .brok-tile__overview{order:2;text-align:left}@media (min-width:992px){.brok-tile__head{display:grid;-ms-grid-columns:1fr 1fr 1fr;grid-template-columns:repeat(3,1fr)}}}.brok-tile-item{position:relative;display:block;width:100%;text-align:center;margin:0 auto}.brok-tile-item .brok__txt-wrap{left:-100%;position:absolute;right:0;top:50%;transform:translateY(-50%);transition:0.3s ease all 0.1s;width:100%}.brok-tile-item .brok__txt{color:#1c1d20;display:inline-block;font-size:1.8rem;font-weight:700;height:auto;letter-spacing:1px;margin:0 auto;opacity:0;position:relative;text-align:center;text-transform:uppercase;transform:scale(0.85);transition:0.3s ease all;width:auto}.brok-tile-item .tooltip-parent{position:relative;text-align:left;top:2px}.brok-tile__details{display:flex;flex-wrap:nowrap;justify-content:space-between;margin-top:20px}.brok-tile__detail{background:#EDEEEE;border-radius:8px;font-size:1.4rem;margin-right:20px;padding:10px;width:100%}.brok-tile__head{display:grid;-ms-grid-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;grid-column:1 / -1}.brok-tile__head h3{display:block;grid-column:1;padding-bottom:0;font-size:2.2rem;font-weight:700;text-align:center}.brok-tile__img-wrap{align-items:center;border-radius:9px;display:flex;flex-wrap:wrap;font-size:0;justify-content:center;min-width:100%;min-height:90px;overflow:hidden;position:relative}.brok-tile__img-wrap .img__link,.brok-tile__img-wrap a{display:block}.brok-tile__info{flex-basis:100%;order:1}.brok-tile__info .brok-tile__img-wrap .brok--arrow{opacity:0;padding-left:20px;width:20px}.brok-tile__info .brok-tile__img-wrap img{height:auto;width:100%;min-width:auto;min-height:auto;max-width:160px}.brok-tile__info img{position:relative;transition:0.3s ease all}.brok-tile__info .brok-tile__rating{text-align:center;font-size:1.2rem}.brok-tile__info .rating__head{font-size:1.4rem}.brok-tile__info .rating__info{position:relative;display:inline-block;top:2px;width:12px}.brok-tile__info .brok-tile__star--rate{display:flex;flex-wrap:wrap}@media (min-width:768px){.brok-tile__info .brok-tile-item{width:auto}}.brok-tile__cta{text-align:center}.brok-tile__overview{order:3;text-align:center}@media (min-width:768px){.brok-tile__overview{margin-left:20px}}@media (min-width:992px){.brok-tile__overview{text-align:left;order:2}}.brok-tile__botline{margin-top:10px;padding-bottom:10px;line-height:1.6rem}.brok-tile__botline .link--rev{padding-top:10px;font-size:1.4rem;font-weight:normal}@media (min-width:768px){.brok-tile__botline{border-bottom:1px solid #CACBCB}}@media (min-width:992px){.brok-tile__botline{margin-top:0;padding-right:40px}}.brok-tile__bottom-line-text{display:inline;font-size:1.4rem}.brok-tile__sbs{display:flex;flex-wrap:wrap;flex-basis:100%;margin-top:1.8rem;order:2}@media (min-width:992px){.brok-tile__sbs{order:3;padding-left:20px;border-left:1px solid #CACBCB}}@media (max-width:991px){.brok-tile__sum .ratings{text-align:center}}.ribbon-new{top:-3.4rem;left:-2.4rem}.sb__promo{font-size:1.6rem;width:100%;order:1;text-align:center}@media (max-width:991px){.sb__promo{order:2}}.sb-brok__other{align-self:flex-start;margin:0 auto;order:1;width:170px}@media (min-width:992px){.sb-brok__other{order:2}}.divider--horiz{background:#CACBCB;bottom:0;height:1px;left:-16px;position:absolute;right:0}.blk__cta-injection__contents__cds .save__logo_wrapper img{max-height:100px}.blk__cta-injection__contents__cds .banking-summary-table__row{display:table-row}.blk__cta-injection__contents__cds .ta_table{margin:unset}.blk__cta-injection__contents__cds .cd-filter-table{min-width:100%}.blk__cta-injection__contents__cds .cd-filter-table .ta_table{width:100%}.blk__cta-injection__contents__cds .cd-filter-table img.comp__logo{max-height:50px}.blk__cta-injection__contents__cds .cd-filter-table td{border-left:0!important}@media (max-width:767px){.blk__cta-injection__contents__cds .cd-filter-table img.comp__logo{max-height:30px;margin:0.4rem 0}}@media (min-width:576px){.blk__cta-injection__contents__cds .cd-filter-table .account--wrapper{width:230px}.blk__cta-injection__contents__cds .cd-filter-table .min-deposit{width:125px}}@media (min-width:992px){.blk__cta-injection__contents__cds .cd-filter-table{width:100%!important}}.blk__cta-injection__contents_cc{width:100%}.blk__cta-injection__contents_cc .account--wrapper{flex-direction:column;text-align:center;min-width:137px}.blk__cta-injection__contents_cc img.comp__logo{max-height:50px;margin:0.4rem 0 0}.blk__cta-injection__contents_cc .stars-container{margin-top:-2.4rem;width:110px}.blk__cta-injection__contents_cc .apply__disclaim{margin-top:-5px;text-align:center}.blk__cta-injection__contents_cc .apply__disclaim a{display:block;margin-top:-30px;padding-bottom:0}.blk__cta-injection__contents_cc .ta_table{font-size:1.6rem}.blk__cta-injection__contents_cc .ta_table .col--apr{font-size:1.4rem;min-width:135px}.blk__cta-injection__contents_cc .ta_table .col--apr p.pt-0{padding-top:0}@media (max-width:767px){.blk__cta-injection__contents_cc .ta_table .col--bonus,.blk__cta-injection__contents_cc .ta_table .col--rewards,.blk__cta-injection__contents_cc .ta_table .col--apr{min-width:160px}}.blk__cta-injection__contents_cc .ta_table .star-rate__stars-wrapper{width:110px}.blk__cta-injection__contents_cc .ta_table .tooltip{width:max-content;padding:10px}.blk__cta-injection__contents_cc .ta_table .tooltip img{width:20px;height:20px;margin:unset}.blk__cta-injection__contents_cc .ta_table td{padding:0.5rem 2rem}.blk__cta-injection__contents_cc .star-rate__stars{display:inline-block;position:relative;white-space:nowrap}.blk__cta-injection__contents_cc .star-rate .star{height:unset}.blk__cta-injection__contents_cc .star-rate__stars-selected{display:inline-block!important;position:absolute!important}.blk__cta-injection__contents_cc .blk__card-tile-sum-list .creditcard-summary-table{overflow:auto hidden;font-size:1.4rem;display:table;width:100%}.blk__cta-injection__contents_cc .blk__card-tile-sum-list .creditcard-summary-table .ta_table{border-spacing:0;width:100%;margin-bottom:0}@media (min-width:992px){.blk__cta-injection__contents_cc .blk__card-tile-sum-list .creditcard-summary-table table th:last-of-type{width:215px}.blk__cta-injection__contents_cc .blk__card-tile-sum-list .creditcard-summary-table table th:first-of-type{width:200px}}@media (max-width:991px){.blk__cta-injection__contents_cc .blk__card-tile-sum-list .creditcard-summary-table table th{width:200px}}.detail-container{display:flex;justify-content:space-between}.detail-container .detail{grid-template-columns:90px 1fr;text-align:start;gap:1.2rem;border-bottom:1px solid #dcdcdd;padding:1.2rem}.detail-container .detail .tooltip-parent{font-size:12px}.detail-container .detail:last-of-type{border-bottom:0;margin-bottom:0.8rem}@media (max-width:575px){.title-wrapper{display:grid;grid-template-columns:auto 120px}}.min-to-earn{min-width:125px}img.comp__logo{max-height:50px}.blk__cta-injection__contents{margin-bottom:2.4rem}.blk__cta-injection__contents .state-drop-down{margin-top:-3rem}.blk__cta-injection__contents select.banking-offer-filter{transform:translateZ(0);appearance:none;display:block;width:100%;box-sizing:border-box;height:44px;color:#1c1d20;border-radius:4px;letter-spacing:0.2px;line-height:14px;font-size:1.4rem;padding:0 1.2rem;border:1px solid #CACBCB;word-break:normal;box-shadow:0 2px 8px 0 #CACBCB;background:url("http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/arrow-down--darkblue.svg?a94fdec966de") no-repeat #fff 95% 50%}.blk__cta-injection__contents select.banking-offer-filter .first-option.hide,.blk__cta-injection__contents select.banking-offer-filter option.hide{display:none}@media (min-width:992px){.blk__cta-injection__contents select.banking-offer-filter{width:auto;padding-right:2.4rem;min-width:140px}}.blk__cta-injection__contents .ta_table{table-layout:unset}.blk__cta-injection__contents .ta_table .tooltip{width:max-content;padding:10px}.blk__cta-injection__contents .ta_table .tooltip img{width:20px;height:20px;margin:unset}.blk__cta-injection__contents .block-scrollable .account--wrapper{gap:0;align-items:unset}@media (max-width:767px){.blk__cta-injection__contents .banking-summary-table__wrapper img.comp__logo{max-height:30px;margin:0.4rem 0}}.blk__cta-injection__contents .banking-summary-table__wrapper .save__bank-member{min-width:100%!important;max-width:100%!important}.blk__cta-injection__contents .banking-summary-table__wrapper td{border-left:0!important}@media (min-width:992px){.blk__cta-injection__contents table.ta_table.banking-summary-table{width:100%!important}}@media (min-width:1200px){.blk__cta-injection__contents .banking-summary-table__wrapper .account--wrapper{flex-direction:column!important}}.blk__cta-injection__contents .star-rate--inline{flex-wrap:wrap}@media (max-width:576px){.blk__cta-injection__contents .star-rate__stars-wrapper{margin-top:-30px}}.blk__cta-injection__contents .star-rate__stars{display:inline-block;position:relative;white-space:nowrap}.blk__cta-injection__contents .star-rate .star{height:unset}.blk__cta-injection__contents .star-rate__stars-selected{display:inline-block!important;position:absolute!important;top:0!important;left:0!important;overflow:hidden!important;white-space:nowrap!important}.blk__cta-injection__contents .save__bank-member{min-width:68px;max-width:68px;padding-left:1.0rem}.crypto-tile-list a,.crypto-tile-list img,.crypto-tile-list span{padding:unset}.crypto-tile-list p{line-height:18px;padding:unset}.crypto-tile-list .star-rate--inline{flex-wrap:wrap}.crypto-tile-list .brok-tile__cta .rating__head{padding:unset}.crypto-tile-list .brok-tile__img-wrap img{max-height:unset;margin:unset}.crypto-tile-list .star-rate__stars{display:inline-block;position:relative;white-space:nowrap}.crypto-tile-list .star-rate .star{height:unset}.crypto-tile-list .star-rate .star img{margin:unset}.crypto-tile-list .star-rate__stars-selected{display:inline-block!important;position:absolute!important;top:0!important;left:0!important;overflow:hidden!important;white-space:nowrap!important}.blk__infogram{margin-top:2.8rem}.card-tile .apply__disclaim,.card-tile__credit-rating .apply__disclaim{text-align:center}.quote,blockquote{font-size:2.0rem;line-height:2.8rem;font-family:"PT Sans",sans-serif;font-style:italic;color:#53565A;font-weight:400;border-left:4px solid #FFB20C;padding-left:2.0rem;margin-top:3.4rem}@media (max-width:575px){.quote,blockquote{font-size:18px}}.quote::before,blockquote::before{position:relative;content:'“';font-size:6.4rem;padding-right:2.0rem;font-weight:700;color:#FFB20C;top:-10px;left:-44px;margin-right:-38px;margin-top:-10px}.quote .attribution,blockquote .attribution{font-size:1.2rem;line-height:1.8rem;font-style:normal;color:#8A8C8E;padding-top:1.2rem}.article-byline{display:flex;flex-direction:column;color:#53565A;font-size:1.2rem;line-height:1.8rem}.article-byline .article-author-image-container{margin-top:1.0rem;display:flex;flex-direction:row;align-items:center}.article-byline .article-author-image-container .article-author-image{margin-right:1.0rem;height:48px;width:48px}@media (max-width:575px){.article-byline .article-author-image-container .article-author-image{height:28px;width:28px}}.article-byline .article-author-image-container .article-author-image img{object-fit:cover;border-radius:50%;height:48px;width:48px}@media (max-width:575px){.article-byline .article-author-image-container .article-author-image img{height:28px;width:28px}}.article-byline .article-author-image-container .byline{display:flex;flex-direction:column;justify-content:space-between;min-height:38px}@media (max-width:575px){.article-byline .article-author-image-container .byline{min-height:20px}}</style>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/infotron_pitch_helpers.js" charset="UTF-8"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/instrumentation.js" charset="UTF-8" rel="preload" as="script"></script>
+<script async>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "JPpJAc3inv");s.setAttribute("data-trigger", "accessibilityWidget");s.setAttribute("src", "http://web.archive.org/web/20241010112739/https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="http://web.archive.org/web/20241010112739/https://cdn.userway.org/">website accessibility</a></noscript>
+</head>
+<body class="arts page--int">
+<div class="container-fluid">
+<div class="row">
+<div class="too-small bg-dark-gray text-white p-3 text-center">
+<h3>This device is too small</h3>
+<p class="copy-md mt-3">If you're on a Galaxy Fold, consider unfolding your phone or viewing it in full screen to best optimize your experience.</p>
+</div>
+</div>
+</div>
+<a class="skip-main" href="#main-copy" tabindex="1">Skip to main content</a>
+<div class="container-fluid navigation">
+<div class="row">
+<div class="col-12 navigation-disclosure" aria-label="Navigation Disclosure">
+<div class="pb-0" tabindex="2">
+<span class="tooltip-parent" tabindex="0" aria-describedby="ttip-advertiserDisclosure-id---desc">
+<span class="info-wrap">
+Advertiser Disclosure
+</span>
+<span id="ttip-advertiserDisclosure-id---desc" class="tooltip" role="tooltip">
+Many of the offers that appear on this site are from companies from which The Motley Fool receives compensation. This compensation may impact how and where products appear on this site (including, for example, the order in which they appear), but our reviews and ratings are not influenced by compensation. We do not include all companies or all offers available in the marketplace.
+<span class="tooltip-arrow"></span>
+</span>
+</span>
+</div>
+<div class="pb-0" tabindex="3">
+<span id="accessibilityWidget" style="cursor: pointer">&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Accessibility Options</span>
+</div>
+</div>
+<div class="col-12">
+<div class="bb navigation-main-wrap row" role="navigation" aria-label="Main menu">
+<div class="navigation-main col-12">
+<div>
+<h2>
+<a aria-label="Link to home page" tabindex="3" class="navigation-logo" href="http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/">
+<svg width="500" height="88" viewbox="0 0 500 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M249.335 29.864V50.0559H240.855V31.0398C240.855 26.7889 238.612 24.0077 234.484 24.0077C229.055 24.0077 226.632 28.8239 226.632 33.0522V50.1011H218.085V4.38109L226.475 0.898956V22.7188H226.7C228.615 18.8509 232.624 16.4972 236.907 16.7268C245.005 16.7268 249.335 22.2666 249.335 29.864Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M284.935 44.3496L280.622 39.7212C278.471 42.3153 275.225 43.7467 271.859 43.5857C266.928 43.9424 262.595 40.3428 262.041 35.4299H284.868C285.108 34.3153 285.221 33.1772 285.205 32.0373C285.205 23.23 279.723 16.6694 270.107 16.6694C260.019 16.6694 253.481 23.6344 253.481 33.4752C253.481 43.316 260.086 50.1687 271.005 50.1687C276.298 50.4845 281.44 48.3366 284.935 44.3496ZM277.207 30.7332H262.041V30.6433C262.426 26.4805 265.927 23.3012 270.107 23.3189C272.06 23.2701 273.944 24.0465 275.295 25.4576C276.646 26.8688 277.34 28.784 277.207 30.7332Z" fill="black"/>
+<path d="M211.414 48.9609C209.192 49.7285 206.856 50.1139 204.506 50.1008C196.016 50.1008 191.871 45.6309 191.871 36.5348V23.6617H186.835V17.1804H192.094V10.9673L200.294 7.54788V17.1804H211.436V23.6617H200.294V36.2666C200.294 40.8705 202.032 42.9714 205.888 42.9714C207.879 43.0249 209.829 42.394 211.414 41.1834V48.9609Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M123.573 7.81296C143.794 7.81296 160.78 30.4379 165.565 61.0164C165.631 61.5405 165.3 62.0329 164.79 62.169C164.279 62.3051 163.747 62.0431 163.543 61.5556C158.757 49.8724 150.512 42.1435 141.075 42.1435C127.595 42.1435 115.889 58.4775 114.564 80.9227C112.834 84.6524 98.8362 87.5057 86.142 88V34.3248C94.0281 18.1705 109.778 7.81296 123.573 7.81296" fill="#006BA6"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M48.733 7.81296C28.4896 7.81296 11.5265 30.4379 6.7409 61.0164C6.66006 61.5857 7.04957 62.115 7.61714 62.2072C8.10763 62.303 8.59457 62.0261 8.76299 61.5556C13.5711 49.8724 21.7942 42.1435 31.2306 42.1435C44.7112 42.1435 56.4169 58.4775 57.7425 80.9227C59.4725 84.6524 73.4698 87.5057 86.1865 88V34.3248C78.1431 18.1705 62.3933 7.81296 48.733 7.81296" fill="#0095C8"/>
+<circle cx="165.205" cy="74.5184" r="6.96497" fill="#FFB71B"/>
+<circle cx="6.96499" cy="74.5184" r="6.96497" fill="#FFB71B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M323.961 50.1635H331.825V50.141V29.9201C331.825 21.9441 326.612 17.1136 317.221 17.1136C308.369 17.1136 303.021 21.2701 303.021 27.4262C303.017 28.451 303.153 29.4715 303.426 30.4593L310.952 29.2236C310.77 28.805 310.67 28.3547 310.66 27.898C310.66 25.2019 312.907 23.6067 316.929 23.6067C321.288 23.6067 323.534 26.0332 323.534 29.6954V31.2906H322.905C309.964 31.5153 301.943 33.7846 301.943 41.6033C301.943 46.9955 306.144 50.5904 313.177 50.5904C320.209 50.5904 322.995 47.1978 323.961 45.3329V50.1635ZM323.535 35.9184V38.6819C323.535 41.4454 320.547 44.1415 315.402 44.1415C312.144 44.1415 310.324 42.9283 310.324 40.6815C310.324 37.4237 314.009 36.0532 322.996 35.9184H323.535Z" fill="black"/>
+<path d="M357.439 27.5581C357.439 24.6952 355.179 22.8775 351.471 22.8775C347.763 22.8775 346.09 24.4907 346.09 26.7174C346.09 33.6474 365.556 28.3306 365.692 41.009C365.692 46.9393 360.243 50.7337 351.471 50.7337C346.015 51.0318 340.648 49.2554 336.436 45.7578L340.709 40.5092C343.73 42.9109 347.42 44.3085 351.267 44.5081C355.133 44.5081 357.01 43.2357 357.01 41.3499C357.01 35.6014 337.974 39.0777 337.974 27.0809C337.974 20.9008 343.422 16.8564 351.765 16.8564C359.678 16.8564 365.126 20.7644 365.126 26.1494C365.137 26.9155 365.046 27.6797 364.855 28.4215L357.281 28.9213C357.393 28.4758 357.446 28.0175 357.439 27.5581Z" fill="black"/>
+<path d="M399.442 28.4686C399.449 29.2311 399.382 29.9924 399.242 30.7415L391.718 31.2188C391.818 30.7179 391.863 30.2071 391.851 29.696C391.898 28.0616 391.253 26.4859 390.08 25.3718C388.908 24.2577 387.323 23.7131 385.73 23.8773C380.832 23.8773 377.582 27.7867 377.582 33.6736C377.582 39.5605 380.765 43.7654 386.754 43.7654C390.269 43.9383 393.67 42.4656 395.992 39.765L400.266 45.0837C397.929 48.1066 393.098 50.766 386.264 50.766C375.579 50.766 369.034 43.8336 369.034 33.9463C368.821 29.348 370.52 24.8718 373.712 21.621C376.905 18.3702 381.293 16.6472 385.796 16.8767C394.278 16.8767 399.442 22.0362 399.442 28.4686Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M434.84 44.7712L430.526 40.1428C428.39 42.7175 425.173 44.1469 421.831 44.0073C416.875 44.402 412.499 40.7925 411.945 35.8515H434.772C435.012 34.7369 435.125 33.5988 435.109 32.4589C435.109 23.6516 429.605 17.091 420.011 17.091C409.923 17.091 403.385 24.056 403.385 33.8968C403.385 43.7376 409.99 50.5903 420.91 50.5903C426.203 50.9061 431.344 48.7582 434.84 44.7712ZM427.11 31.1548H411.945V31.0649C412.329 26.9021 415.83 23.7228 420.011 23.7405C421.964 23.6917 423.847 24.4681 425.198 25.8792C426.55 27.2904 427.244 29.2056 427.11 31.1548Z" fill="black"/>
+<path d="M471.41 29.9472V50.056H462.905V31.1182C462.905 26.8848 460.655 24.115 456.493 24.115C451.049 24.115 448.619 28.979 448.619 33.1223V50.1011H440.16V17.3145L446.707 17.0443C447.308 19.38 447.663 21.7726 447.764 24.1826H447.966C449.661 19.6342 454.077 16.6846 458.923 16.8642C467.022 16.8642 471.41 22.3811 471.41 29.9472Z" fill="black"/>
+<path d="M499.977 49.608C497.695 50.3876 495.296 50.779 492.883 50.7656C484.163 50.7656 479.906 46.226 479.906 36.9877V23.9134H474.734V17.3309H480.135V11.0207L488.557 7.54788V17.3309H500V23.9134H488.557V36.7153C488.557 41.3912 490.342 43.5248 494.301 43.5248C496.347 43.5792 498.349 42.9385 499.977 41.709V49.608Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M208.394 84.4639L200.402 66.2208L192.409 84.4639H194.452L196.387 80.1272H204.344L206.244 84.4639H208.394ZM200.366 70.7744L203.556 78.3011L197.176 78.2652L200.366 70.7744Z" fill="black"/>
+<path d="M217.785 66.3289L226.315 78.4432L234.881 66.3289V84.4645H232.91V72.0993L226.315 81.5255L219.756 72.0993V84.4645H217.785V66.3289Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M257.39 75.6842C257.39 70.6168 253.282 66.5088 248.214 66.5088C245.766 66.4596 243.404 67.4104 241.672 69.1419C239.941 70.8734 238.99 73.2359 239.039 75.6842C239.039 80.7515 243.147 84.8595 248.214 84.8595C253.282 84.8595 257.39 80.7515 257.39 75.6842ZM255.382 75.8276C255.382 79.7865 252.173 82.9958 248.214 82.9958C244.255 82.9958 241.045 79.7865 241.045 75.8276C241.045 71.8687 244.255 68.6594 248.214 68.6594C252.173 68.6594 255.382 71.8687 255.382 75.8276Z" fill="black"/>
+<path d="M263.949 68.6593H259.147V66.8314H270.723V68.6593H265.921V84.4652H263.949V68.6593Z" fill="black"/>
+<path d="M274.415 66.8314H276.386V82.6732H283.555V84.4652H274.308L274.415 66.8314Z" fill="black"/>
+<path d="M287.641 66.8314H297.605V68.6593H289.612V74.358H297.139V76.1859H289.612V82.7807H297.784V84.5728H287.641V66.8314Z" fill="black"/>
+<path d="M306.134 77.2253L299.934 66.8314H301.977L306.994 75.2899L311.976 66.8314H314.127L307.962 77.2253V84.3935H305.991L306.134 77.2253Z" fill="black"/>
+<path d="M322.979 66.8314H332.191V68.6593H325.022V74.358H331.617V76.1859H325.022V84.4652H323.051L322.979 66.8314Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M353.229 75.6835C353.229 70.6161 349.122 66.5082 344.054 66.5082C341.609 66.469 339.252 67.4232 337.523 69.1524C335.794 70.8817 334.84 73.2383 334.879 75.6835C334.879 80.7509 338.987 84.8588 344.054 84.8588C349.122 84.8588 353.229 80.7509 353.229 75.6835ZM351.383 75.6624C351.383 79.7103 348.101 82.9919 344.053 82.9919C340.005 82.9919 336.724 79.7103 336.724 75.6624C336.724 71.6144 340.005 68.3329 344.053 68.3329C348.101 68.3329 351.383 71.6144 351.383 75.6624Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M374.59 75.6842C374.59 70.6168 370.482 66.5088 365.415 66.5088C362.967 66.4596 360.604 67.4104 358.873 69.1419C357.141 70.8734 356.19 73.2359 356.24 75.6842C356.24 80.7515 360.348 84.8595 365.415 84.8595C370.482 84.8595 374.59 80.7515 374.59 75.6842ZM372.582 75.8276C372.582 79.7865 369.373 82.9958 365.414 82.9958C361.455 82.9958 358.246 79.7865 358.246 75.8276C358.246 71.8687 361.455 68.6594 365.414 68.6594C369.373 68.6594 372.582 71.8687 372.582 75.8276Z" fill="black"/>
+<path d="M378.711 66.8314H380.826V82.6732H387.994V84.4652H378.747L378.711 66.8314Z" fill="black"/>
+<path d="M396.525 80.308C397.836 81.9484 399.802 82.9309 401.901 82.9961C404.553 82.9961 405.736 81.4549 405.736 80.2363C405.736 78.0858 404.446 77.3332 401.793 75.9712C399.141 74.6092 397.277 73.4623 397.277 70.8459C397.277 68.2295 399.249 66.5092 402.51 66.5092C403.93 66.5129 405.302 67.021 406.381 67.9428V70.1649C405.395 69.0716 404.016 68.4142 402.546 68.3371C400.467 68.3371 399.249 69.3406 399.249 70.8459C399.249 72.3513 400.575 73.1756 402.833 74.2508C405.736 75.7562 407.886 77.154 407.886 80.2363C407.76 81.6026 407.088 82.8602 406.022 83.724C404.956 84.5877 403.586 84.9843 402.223 84.8239C400.183 84.8787 398.202 84.1326 396.704 82.7452L396.525 80.308Z" fill="black"/>
+<path d="M411.936 66.8314H421.9V68.6593H413.907V74.358H421.434V76.1859H413.907V82.7807H422.079V84.5728H411.936V66.8314Z" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M432.438 66.8319H426.416V84.2865H428.388V77.3333H432.402L436.38 84.2865H438.638L434.373 77.1183C436.439 76.3202 437.785 74.315 437.742 72.1006C437.752 70.694 437.195 69.3428 436.197 68.3516C435.199 67.3603 433.844 66.8126 432.438 66.8319ZM435.842 72.1011C435.842 74.0805 434.237 75.6852 432.258 75.6852H428.279V68.517H432.258C433.23 68.4406 434.187 68.7936 434.876 69.483C435.565 70.1724 435.918 71.1291 435.842 72.1011Z" fill="black"/>
+<path d="M440.43 66.8314H442.581L448.029 80.0926L453.477 66.8314H455.627L448.029 85.1104L440.43 66.8314Z" fill="black"/>
+<path d="M459.678 66.8314H461.649V84.4652H459.678V66.8314Z" fill="black"/>
+<path d="M474.91 66.5091C476.928 66.465 478.897 67.138 480.466 68.4086V70.7741C479.004 69.2794 477.001 68.4392 474.91 68.4445C470.862 68.4445 467.581 71.726 467.581 75.774C467.581 79.8219 470.862 83.1035 474.91 83.1035C476.996 83.1223 479.001 82.2947 480.466 80.8096V83.0676C478.893 84.3281 476.924 84.9887 474.91 84.9314C471.502 85.1447 468.257 83.4475 466.488 80.5262C464.72 77.6049 464.72 73.943 466.488 71.0218C468.257 68.1005 471.502 66.4032 474.91 66.6166V66.5091Z" fill="black"/>
+<path d="M485.197 66.8314H495.161V68.6593H487.168V74.358H494.695V76.1859H487.168V82.7807H495.519V84.5728H485.376L485.197 66.8314Z" fill="black"/>
+</svg>
+</a>
+</h2>
+</div>
+<div class="navigation-menu-container" aria-expanded="false" role="navigation">
+<div class="navigation-menu-toggle" role="button" aria-controls="mainNavigationDropdown" aria-label="mobile navigation toggle button" aria-expanded="false">
+<span class="navigation-menu-mobile"></span>
+<span class="navigation-menu-mobile navigation-menu-mobile--mid"></span>
+<span class="navigation-menu-mobile"></span>
+</div>
+<nav class="navigation-link-container" aria-label="Main Navigation" id="mainNavigationDropdown">
+<ul class="navigation-menu-list navigation-menu-base">
+<li data-navitem="true" class="navigation-menu-list-item navigation-menu-list-item--parent" tabindex="100" aria-expanded="false">
+Credit Cards
+<span class="d-none d-lg-inline-block navigation-chevron"></span>
+<span class="d-lg-none navigation-chevron navigation-chevron--right"></span>
+<div class="navigation-menu-list-subgroup">
+<p class="navigation-menu-list-item mb-4">
+<span class="d-lg-none navigation-chevron navigation-chevron--left"></span>
+Credit Cards
+</p>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Best Of Lists</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/" tabindex data-track-link="/the-ascent/credit-cards/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Credit Cards of October 2024</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/best-travel-rewards-credit-cards/" tabindex data-track-link="/the-ascent/credit-cards/best-travel-rewards-credit-cards/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Best Travel Credit Cards</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/best-credit-cards-for-gas-and-groceries/" tabindex data-track-link="/the-ascent/credit-cards/best-credit-cards-for-gas-and-groceries/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Best Gas &amp; Groceries Credit Cards</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/best-balance-transfer-credit-cards/" tabindex data-track-link="/the-ascent/credit-cards/best-balance-transfer-credit-cards/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Best Balance Transfer Credit Cards</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">By Issuer</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/american-express/" tabindex data-track-link="/the-ascent/credit-cards/american-express/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best American Express Cards</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/chase/" tabindex data-track-link="/the-ascent/credit-cards/chase/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Best Chase Cards</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/citi/" tabindex data-track-link="/the-ascent/credit-cards/citi/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Best Citi Cards</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/reviews/" tabindex data-track-link="/the-ascent/credit-cards/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Credit Card Reviews</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Credit Card Tools</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/compare-cards/" tabindex data-track-link="/the-ascent/credit-cards/compare-cards/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Compare Credit Cards</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/guides-tools/interest-calculator/" tabindex data-track-link="/the-ascent/credit-cards/guides-tools/interest-calculator/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Credit Card Interest Calculator</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/guides-tools/balance-transfer-calculator/" tabindex data-track-link="/the-ascent/credit-cards/guides-tools/balance-transfer-calculator/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Balance Transfer Calculator</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Credit Card Guides</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/guides-tools/how-credit-cards-work-beginners-guide/" tabindex data-track-link="/the-ascent/credit-cards/guides-tools/how-credit-cards-work-beginners-guide/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Credit Cards 101: A Beginner's Guide</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/types/" tabindex data-track-link="/the-ascent/credit-cards/types/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Types of Credit Cards</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/choose-credit-card/" tabindex data-track-link="/the-ascent/credit-cards/choose-credit-card/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">How to Choose a Credit Card</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/articles/" tabindex data-track-link="/the-ascent/credit-cards/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Credit Card Articles</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li data-navitem="true" class="navigation-menu-list-item navigation-menu-list-item--parent" tabindex="200" aria-expanded="false">
+Banks
+<span class="d-none d-lg-inline-block navigation-chevron"></span>
+<span class="d-lg-none navigation-chevron navigation-chevron--right"></span>
+<div class="navigation-menu-list-subgroup">
+<p class="navigation-menu-list-item mb-4">
+<span class="d-lg-none navigation-chevron navigation-chevron--left"></span>
+Banks
+</p>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Best Of Lists</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/savings-accounts/best-savings-accounts/" tabindex data-track-link="/the-ascent/banks/savings-accounts/best-savings-accounts/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best High-Yield Savings Accounts</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/checking-accounts/" tabindex data-track-link="/the-ascent/banks/checking-accounts/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Best Checking Accounts</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/cds/best-cd-rates/" tabindex data-track-link="/the-ascent/banks/cds/best-cd-rates/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Best CD Rates</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/money-market-accounts/best-money-market-accounts/" tabindex data-track-link="/the-ascent/banks/money-market-accounts/best-money-market-accounts/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Best Money Market Accounts</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Bank Reviews</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/reviews/capital-one-bank-review/" tabindex data-track-link="/the-ascent/banks/reviews/capital-one-bank-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Capital One Bank Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/reviews/american-express-bank-review/" tabindex data-track-link="/the-ascent/banks/reviews/american-express-bank-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">American Express National Bank Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/savings-accounts/reviews/sofi-checking-and-savings-review/" tabindex data-track-link="/the-ascent/banks/savings-accounts/reviews/sofi-checking-and-savings-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">SoFi Bank Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/reviews/" tabindex data-track-link="/the-ascent/banks/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Bank Reviews</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Knowledge &amp; Tools</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/reviews/comparisons/" tabindex data-track-link="/the-ascent/banks/reviews/comparisons/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Bank Account Comparisons</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/guides-tools/emergency-fund-calculator/" tabindex data-track-link="/the-ascent/banks/guides-tools/emergency-fund-calculator/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Emergency Fund Calculator</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/federal-reserve-interest-rates/" tabindex data-track-link="/the-ascent/federal-reserve-interest-rates/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Federal Reserve Interest Rates</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/" tabindex data-track-link="/the-ascent/banks/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Banking Resources</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Banking Guides</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/guides-tools/what-is-bank/" tabindex data-track-link="/the-ascent/banks/guides-tools/what-is-bank/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Guide to Banking</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/guides-tools/open-account-online/" tabindex data-track-link="/the-ascent/banks/guides-tools/open-account-online/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">How to Open a Bank Account</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/guides-tools/types-accounts/" tabindex data-track-link="/the-ascent/banks/guides-tools/types-accounts/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Types of Bank Accounts</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/articles/" tabindex data-track-link="/the-ascent/banks/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Banking Articles</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li data-navitem="true" class="navigation-menu-list-item navigation-menu-list-item--parent" tabindex="300" aria-expanded="false">
+Brokers
+<span class="d-none d-lg-inline-block navigation-chevron"></span>
+<span class="d-lg-none navigation-chevron navigation-chevron--right"></span>
+<div class="navigation-menu-list-subgroup">
+<p class="navigation-menu-list-item mb-4">
+<span class="d-lg-none navigation-chevron navigation-chevron--left"></span>
+Brokers
+</p>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Best Of Lists</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/" tabindex data-track-link="/the-ascent/buying-stocks/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Stock Brokers of October 2024</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/best-free-stock-trading-app/" tabindex data-track-link="/the-ascent/buying-stocks/best-free-stock-trading-app/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Best Free Stock Trading Apps</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/best-brokers-options/" tabindex data-track-link="/the-ascent/buying-stocks/best-brokers-options/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Best Options Trading Platforms</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/best-brokers-iras/" tabindex data-track-link="/the-ascent/buying-stocks/best-brokers-iras/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Best IRA Accounts</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Best for Beginners</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/best-online-stock-brokers-beginners/" tabindex data-track-link="/the-ascent/buying-stocks/best-online-stock-brokers-beginners/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Stock Brokers for Beginners</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/best-investment-apps-beginners/" tabindex data-track-link="/the-ascent/buying-stocks/best-investment-apps-beginners/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Best Investment Apps for Beginners</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/best-robo-advisors-beginners/" tabindex data-track-link="/the-ascent/buying-stocks/best-robo-advisors-beginners/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Best Robo-Advisors for Beginners</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Top Reviews</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/robinhood-review/" tabindex data-track-link="/the-ascent/buying-stocks/robinhood-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Robinhood Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/sofi-active-investing-review/" tabindex data-track-link="/the-ascent/buying-stocks/sofi-active-investing-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">SoFi Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/etrade-review/" tabindex data-track-link="/the-ascent/buying-stocks/etrade-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">E*TRADE Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/reviews/" tabindex data-track-link="/the-ascent/buying-stocks/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Brokerage Reviews</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Guides</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/how-brokerage-account-works/" tabindex data-track-link="/the-ascent/buying-stocks/how-brokerage-account-works/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">What Is a Brokerage Account?</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/how-to-choose-an-online-brokerage/" tabindex data-track-link="/the-ascent/buying-stocks/how-to-choose-an-online-brokerage/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">How to Choose a Brokerage Account</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/how-to-open-brokerage-account/" tabindex data-track-link="/the-ascent/buying-stocks/how-to-open-brokerage-account/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">How to Open a Brokerage Account</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/articles/" tabindex data-track-link="/the-ascent/buying-stocks/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Brokerage Articles</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li data-navitem="true" class="navigation-menu-list-item navigation-menu-list-item--parent" tabindex="400" aria-expanded="false">
+Crypto
+<span class="d-none d-lg-inline-block navigation-chevron"></span>
+<span class="d-lg-none navigation-chevron navigation-chevron--right"></span>
+<div class="navigation-menu-list-subgroup">
+<p class="navigation-menu-list-item mb-4">
+<span class="d-lg-none navigation-chevron navigation-chevron--left"></span>
+Crypto
+</p>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Best Of Lists</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/best-cryptocurrency-apps/" tabindex data-track-link="/the-ascent/cryptocurrency/best-cryptocurrency-apps/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Crypto Exchanges</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/best-place-buy-bitcoin/" tabindex data-track-link="/the-ascent/cryptocurrency/best-place-buy-bitcoin/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Best Bitcoin Exchanges</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/best-place-buy-ethereum/" tabindex data-track-link="/the-ascent/cryptocurrency/best-place-buy-ethereum/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Best Ethereum Exchanges</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/nft-marketplaces/" tabindex data-track-link="/the-ascent/cryptocurrency/nft-marketplaces/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Best NFT Marketplaces</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Top Reviews</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/coinbase-review/" tabindex data-track-link="/the-ascent/cryptocurrency/coinbase-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Coinbase Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/gemini-exchange-review/" tabindex data-track-link="/the-ascent/cryptocurrency/gemini-exchange-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Gemini Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/cryptocom-review/" tabindex data-track-link="/the-ascent/cryptocurrency/cryptocom-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Crypto.com Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/reviews/" tabindex data-track-link="/the-ascent/cryptocurrency/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Crypto Reviews</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Exchange Comparisons</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/coinbase-vs-robinhood/" tabindex data-track-link="/the-ascent/cryptocurrency/coinbase-vs-robinhood/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Coinbase vs. Robinhood</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/gemini-vs-coinbase/" tabindex data-track-link="/the-ascent/cryptocurrency/gemini-vs-coinbase/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Gemini vs. Coinbase</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/cryptocom-vs-coinbase/" tabindex data-track-link="/the-ascent/cryptocurrency/cryptocom-vs-coinbase/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Crypto.com vs. Coinbase</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/cryptocom-vs-robinhood/" tabindex data-track-link="/the-ascent/cryptocurrency/cryptocom-vs-robinhood/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Robinhood vs. Crypto.com</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Knowledge</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="http://web.archive.org/web/20241010112739/https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/guide-to-cryptocurrencies/" tabindex data-track-link data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">A Complete Guide to Cryptocurrencies</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="http://web.archive.org/web/20241010112739/https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/types-of-cryptocurrencies/" tabindex data-track-link data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Types of Cryptocurrencies</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="http://web.archive.org/web/20241010112739/https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/how-to-invest-in-cryptocurrency/" tabindex data-track-link data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">How to Invest in Crypto</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/articles/" tabindex data-track-link="/the-ascent/cryptocurrency/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Cryptocurrency Articles</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li data-navitem="true" class="navigation-menu-list-item navigation-menu-list-item--parent" tabindex="500" aria-expanded="false">
+Mortgages
+<span class="d-none d-lg-inline-block navigation-chevron"></span>
+<span class="d-lg-none navigation-chevron navigation-chevron--right"></span>
+<div class="navigation-menu-list-subgroup">
+<p class="navigation-menu-list-item mb-4">
+<span class="d-lg-none navigation-chevron navigation-chevron--left"></span>
+Mortgages
+</p>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Best Of Lists</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/best-mortgage-lenders/" tabindex data-track-link="/the-ascent/mortgages/best-mortgage-lenders/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Mortgage Lenders of October 2024</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/best-refinance-lenders/" tabindex data-track-link="/the-ascent/mortgages/best-refinance-lenders/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Best Refinance Lenders</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/best-mortgage-lenders-first-time-homebuyers/" tabindex data-track-link="/the-ascent/mortgages/best-mortgage-lenders-first-time-homebuyers/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Best Mortgage Lenders for First-Time Homebuyers</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/best-home-equity-loan-lenders/" tabindex data-track-link="/the-ascent/mortgages/best-home-equity-loan-lenders/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Best Home Equity Loan Lenders</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Best Mortgage Rates</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/rates/" tabindex data-track-link="/the-ascent/mortgages/rates/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Today's Best Mortgage Rates</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/refinance-rates/" tabindex data-track-link="/the-ascent/mortgages/refinance-rates/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Today's Best Refinance Rates</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/15-year-mortgage-rates/" tabindex data-track-link="/the-ascent/mortgages/15-year-mortgage-rates/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">15-Year Mortgage Rates</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/30-year-mortgage-rates/" tabindex data-track-link="/the-ascent/mortgages/30-year-mortgage-rates/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">30-Year Mortgage Rates</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Mortgage Tools</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/mortgage-calculator/" tabindex data-track-link="/the-ascent/mortgages/mortgage-calculator/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Mortgage Calculator</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/mortgage-lenders-and-calculators-by-location/" tabindex data-track-link="/the-ascent/mortgages/mortgage-lenders-and-calculators-by-location/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">State-Specific Mortgage Calculators</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/pre-approval/" tabindex data-track-link="/the-ascent/mortgages/pre-approval/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Get Pre-Approved For a Mortgage</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/" tabindex data-track-link="/the-ascent/mortgages/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Guide to Mortgages</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Guides</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/reviews/" tabindex data-track-link="/the-ascent/mortgages/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Mortgage Lender Reviews</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/mortgage-types/" tabindex data-track-link="/the-ascent/mortgages/mortgage-types/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Types of Mortgages</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/how-to-choose-mortgage-lender/" tabindex data-track-link="/the-ascent/mortgages/how-to-choose-mortgage-lender/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">How to Choose a Mortgage Lender</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/articles/" tabindex data-track-link="/the-ascent/mortgages/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Mortgage Articles</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li data-navitem="true" class="navigation-menu-list-item navigation-menu-list-item--parent" tabindex="600" aria-expanded="false">
+Insurances
+<span class="d-none d-lg-inline-block navigation-chevron"></span>
+<span class="d-lg-none navigation-chevron navigation-chevron--right"></span>
+<div class="navigation-menu-list-subgroup">
+<p class="navigation-menu-list-item mb-4">
+<span class="d-lg-none navigation-chevron navigation-chevron--left"></span>
+Insurances
+</p>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Auto Insurance</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/auto/best-car-insurance-companies/" tabindex data-track-link="/the-ascent/insurance/auto/best-car-insurance-companies/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Auto Insurance</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/auto/reviews/" tabindex data-track-link="/the-ascent/insurance/auto/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Auto Insurance Reviews</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/auto/articles/" tabindex data-track-link="/the-ascent/insurance/auto/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Auto Insurance Articles</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/auto/" tabindex data-track-link="/the-ascent/insurance/auto/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Auto Insurance Resources</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Homeowners Insurance</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/homeowners/best-homeowners-insurance-companies/" tabindex data-track-link="/the-ascent/insurance/homeowners/best-homeowners-insurance-companies/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Homeowners Insurance</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/homeowners/reviews/" tabindex data-track-link="/the-ascent/insurance/homeowners/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Homeowners Insurance Reviews</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/homeowners/articles/" tabindex data-track-link="/the-ascent/insurance/homeowners/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Homeowners Insurance Articles</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/homeowners/" tabindex data-track-link="/the-ascent/insurance/homeowners/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Homeowners Insurance Resources</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Life Insurance</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/life/best-life-insurance-companies/" tabindex data-track-link="/the-ascent/insurance/life/best-life-insurance-companies/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Life Insurance Companies</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/life/reviews/" tabindex data-track-link="/the-ascent/insurance/life/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Life Insurance Reviews</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/life/articles/" tabindex data-track-link="/the-ascent/insurance/life/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Life Insurance Articles</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/life/" tabindex data-track-link="/the-ascent/insurance/life/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Life Insurance Resources</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Pet Insurance</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/pet/best-pet-insurance-companies/" tabindex data-track-link="/the-ascent/insurance/pet/best-pet-insurance-companies/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Pet Insurance Companies</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/pet/reviews/" tabindex data-track-link="/the-ascent/insurance/pet/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Pet Insurance Reviews</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/pet/articles/" tabindex data-track-link="/the-ascent/insurance/pet/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Pet Insurance Articles</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/pet/" tabindex data-track-link="/the-ascent/insurance/pet/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Pet Insurance Resources</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li data-navitem="true" class="navigation-menu-list-item navigation-menu-list-item--parent" tabindex="700" aria-expanded="false">
+Loans
+<span class="d-none d-lg-inline-block navigation-chevron"></span>
+<span class="d-lg-none navigation-chevron navigation-chevron--right"></span>
+<div class="navigation-menu-list-subgroup">
+<p class="navigation-menu-list-item mb-4">
+<span class="d-lg-none navigation-chevron navigation-chevron--left"></span>
+Loans
+</p>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Best Of Lists</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/" tabindex data-track-link="/the-ascent/personal-loans/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Best Personal Loans of October 2024</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/hardship-loans/" tabindex data-track-link="/the-ascent/personal-loans/hardship-loans/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Hardship Loans</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/best-personal-loans-debt-consolidation/" tabindex data-track-link="/the-ascent/personal-loans/best-personal-loans-debt-consolidation/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Best Debt Consolidation Loans</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/best-personal-loans-bad-credit/" tabindex data-track-link="/the-ascent/personal-loans/best-personal-loans-bad-credit/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Best Personal Loans for Bad Credit</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Lender Reviews</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/sofi-personal-loans-review/" tabindex data-track-link="/the-ascent/personal-loans/sofi-personal-loans-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">SoFi Personal Loans Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/upstart-personal-loans-review/" tabindex data-track-link="/the-ascent/personal-loans/upstart-personal-loans-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Upstart Personal Loans Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/citibank-personal-loans-review/" tabindex data-track-link="/the-ascent/personal-loans/citibank-personal-loans-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Citi Personal Loans Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/reviews/" tabindex data-track-link="/the-ascent/personal-loans/reviews/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Personal Loans Reviews</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Personal Loan Tools</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/calculator/" tabindex data-track-link="/the-ascent/personal-loans/calculator/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Loan Payoff Calculator</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/how-much-can-i-get/" tabindex data-track-link="/the-ascent/personal-loans/how-much-can-i-get/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">How Much Personal Loan Can You Get?</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/what-credit-score-for-personal-loan/" tabindex data-track-link="/the-ascent/personal-loans/what-credit-score-for-personal-loan/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">What Credit Score Do You Need?</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Personal Loan Guides</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/how-to-finance/" tabindex data-track-link="/the-ascent/personal-loans/how-to-finance/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">How to Finance a Purchase</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/pre-approval/" tabindex data-track-link="/the-ascent/personal-loans/pre-approval/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">How to Get Pre-approved for a Loan</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/how-to-apply-personal-loan/" tabindex data-track-link="/the-ascent/personal-loans/how-to-apply-personal-loan/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">How to Apply for a Personal Loan</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/articles/" tabindex data-track-link="/the-ascent/personal-loans/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Personal Loan Articles</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li data-navitem="true" class="navigation-menu-list-item navigation-menu-list-item--parent" tabindex="800" aria-expanded="false">
+Small Business
+<span class="d-none d-lg-inline-block navigation-chevron"></span>
+<span class="d-lg-none navigation-chevron navigation-chevron--right"></span>
+<div class="navigation-menu-list-subgroup">
+<p class="navigation-menu-list-item mb-4">
+<span class="d-lg-none navigation-chevron navigation-chevron--left"></span>
+Small Business
+</p>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Small Business Financials</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/best-business-credit-cards/" tabindex data-track-link="/the-ascent/credit-cards/best-business-credit-cards/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Business Credit Cards</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/best-small-business-banks/" tabindex data-track-link="/the-ascent/banks/best-small-business-banks/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Business Checking Accounts</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/business-loans/" tabindex data-track-link="/the-ascent/personal-loans/business-loans/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Small Business Loans</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/small-business/best-small-business-insurance/" tabindex data-track-link="/the-ascent/insurance/small-business/best-small-business-insurance/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Small Business Insurance</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Types of Business Software</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/payroll/" tabindex data-track-link="/the-ascent/small-business/payroll/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Payroll Software</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/accounting/" tabindex data-track-link="/the-ascent/small-business/accounting/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Accounting Software</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/crm/" tabindex data-track-link="/the-ascent/small-business/crm/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">CRM Software</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/project-management/" tabindex data-track-link="/the-ascent/small-business/project-management/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Project Management Software</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Business Software Reviews</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/project-management/mondaycom-review/" tabindex data-track-link="/the-ascent/small-business/project-management/mondaycom-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Monday.com Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/field-service-management/jobber-review/" tabindex data-track-link="/the-ascent/small-business/field-service-management/jobber-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Jobber Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/crm/pipedrive-review/" tabindex data-track-link="/the-ascent/small-business/crm/pipedrive-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Pipedrive Review</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/payroll/onpay-review/" tabindex data-track-link="/the-ascent/small-business/payroll/onpay-review/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">OnPay Review</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Business Resources</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/e-commerce/how-to-start-an-online-business/" tabindex data-track-link="/the-ascent/small-business/e-commerce/how-to-start-an-online-business/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">How to Start an Online Business</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/payroll/payroll-services/" tabindex data-track-link="/the-ascent/small-business/payroll/payroll-services/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Best Payroll Services for Small Business</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/" tabindex data-track-link="/the-ascent/small-business/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Small Business Software Reviews</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/articles/" tabindex data-track-link="/the-ascent/small-business/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Small Business Articles</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li data-navitem="true" class="navigation-menu-list-item navigation-menu-list-item--parent" tabindex="900" aria-expanded="false">
+About Us
+<span class="d-none d-lg-inline-block navigation-chevron"></span>
+<span class="d-lg-none navigation-chevron navigation-chevron--right"></span>
+<div class="navigation-menu-list-subgroup">
+<p class="navigation-menu-list-item mb-4">
+<span class="d-lg-none navigation-chevron navigation-chevron--left"></span>
+About Us
+</p>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">Knowledge</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/" tabindex data-track-link="/the-ascent/personal-finance/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">Personal Finance Guides</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/research/" tabindex data-track-link="/the-ascent/research/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Market Research &amp; Insights</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/awards/2024/" tabindex data-track-link="/the-ascent/awards/2024/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">2024 Award Winners</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/articles/" tabindex data-track-link="/the-ascent/articles/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">All Ascent Articles</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">The Ascent</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/about-us/" tabindex data-track-link="/the-ascent/about-us/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">About the Ascent</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/our-advertisers/" tabindex data-track-link="/the-ascent/our-advertisers/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">How We Make Money</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/editorial-integrity/" tabindex data-track-link="/the-ascent/editorial-integrity/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Editorial Integrity</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="/web/20241010112739/https://www.fool.com/the-ascent/rating-methodology/" tabindex data-track-link="/the-ascent/rating-methodology/" data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Our Rating Methodology</a>
+</li>
+</ul>
+</div>
+<div class="pb-2 navigation-menu-list-subgroup-item">
+<div class="pb-4 navigation-menu-sublist-header">The Motley Fool</div>
+<ul class="navigation-menu-sublist">
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="http://web.archive.org/web/20241010112739/https://www.fool.com/" tabindex data-track-link data-track-category="nav_click" data-track-action="main_nav" data-track-order="1">The Motley Fool</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="http://web.archive.org/web/20241010112739/https://www.fool.com/investing-news/" tabindex data-track-link data-track-category="nav_click" data-track-action="main_nav" data-track-order="2">Stock Market News</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="http://web.archive.org/web/20241010112739/https://www.fool.com/services/" tabindex data-track-link data-track-category="nav_click" data-track-action="main_nav" data-track-order="3">Motley Fool Premium Services</a>
+</li>
+<li class="navigation-menu-sublist-item">
+<a class="navigation-menu-sublist-item-link" href="http://web.archive.org/web/20241010112739/https://www.fool.com/about/investing-philosophy/" tabindex data-track-link data-track-category="nav_click" data-track-action="main_nav" data-track-order="4">Our Investing Philosophy</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+<li class="navigation-menu-list-item">
+<div class="nav-searchbar-wrap navbar-item has-dropdown is-hidden-mobile search-bar-main">
+<a href="#" tabindex="0" class="nav-search search-icon d-none d-lg-block">
+<svg width="16px" height="16px" viewbox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="subtle icon search-icon" aria-labelledby="searchIcon searchIconDesc">
+
+<title id="searchIcon">Search Icon</title>
+<desc id="searchIconDesc">Click here to search</desc>
+<g id="Individual-Investment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="search-icon">
+<g id="individual-investment-detail" transform="translate(-1208.000000, -770.000000)" fill="#003B5C" fill-rule="nonzero" class="search-icon">
+<path class="search-icon" d="M1223.78125,783.84375 C1223.92708,783.989584 1224,784.166666 1224,784.375 C1224,784.583334 1223.92708,784.760416 1223.78125,784.90625 L1222.90625,785.78125 C1222.76042,785.927084 1222.58333,786 1222.375,786 C1222.16667,786 1221.98958,785.927084 1221.84375,785.78125 L1218.71875,782.65625 C1218.57292,782.510416 1218.5,782.333334 1218.5,782.125 L1218.5,781.625 C1217.33333,782.541671 1216,783 1214.5,783 C1213.31249,783 1212.22396,782.708336 1211.23438,782.125 C1210.24479,781.541664 1209.45834,780.755213 1208.875,779.765625 C1208.29166,778.776037 1208,777.687506 1208,776.5 C1208,775.312494 1208.29166,774.223963 1208.875,773.234375 C1209.45834,772.244787 1210.24479,771.458336 1211.23438,770.875 C1212.22396,770.291664 1213.31249,770 1214.5,770 C1215.68751,770 1216.77604,770.291664 1217.76562,770.875 C1218.75521,771.458336 1219.54166,772.244787 1220.125,773.234375 C1220.70834,774.223963 1221,775.312494 1221,776.5 C1221,778 1220.54167,779.333327 1219.625,780.5 L1220.125,780.5 C1220.33333,780.5 1220.51042,780.572916 1220.65625,780.71875 L1223.78125,783.84375 Z M1214.5,780.5 C1215.22917,780.5 1215.90104,780.322918 1216.51562,779.96875 C1217.13021,779.614582 1217.61458,779.130211 1217.96875,778.515625 C1218.32292,777.901039 1218.5,777.22917 1218.5,776.5 C1218.5,775.77083 1218.32292,775.098961 1217.96875,774.484375 C1217.61458,773.869789 1217.13021,773.385418 1216.51562,773.03125 C1215.90104,772.677082 1215.22917,772.5 1214.5,772.5 C1213.77083,772.5 1213.09896,772.677082 1212.48438,773.03125 C1211.86979,773.385418 1211.38542,773.869789 1211.03125,774.484375 C1210.67708,775.098961 1210.5,775.77083 1210.5,776.5 C1210.5,777.22917 1210.67708,777.901039 1211.03125,778.515625 C1211.38542,779.130211 1211.86979,779.614582 1212.48438,779.96875 C1213.09896,780.322918 1213.77083,780.5 1214.5,780.5 Z" id=""></path>
+</g>
+</g>
+</svg>
+</a>
+<div class="nav-searchbar navbar-item" id="searchTrigger">
+<div class="d-flex d-lg-none nav-search">
+<svg width="16px" height="16px" viewbox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="subtle icon search-icon" aria-labelledby="searchIconMob searchIconMobDesc">
+
+<title id="searchIconMob">Search Icon</title>
+<desc id="searchIconMobDesc">Click here to search</desc>
+<g id="Individual-Investment-mob" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" class="search-icon">
+<g id="individual-investment-detail-mob" transform="translate(-1208.000000, -770.000000)" fill="#003B5C" fill-rule="nonzero" class="search-icon">
+<path class="search-icon" d="M1223.78125,783.84375 C1223.92708,783.989584 1224,784.166666 1224,784.375 C1224,784.583334 1223.92708,784.760416 1223.78125,784.90625 L1222.90625,785.78125 C1222.76042,785.927084 1222.58333,786 1222.375,786 C1222.16667,786 1221.98958,785.927084 1221.84375,785.78125 L1218.71875,782.65625 C1218.57292,782.510416 1218.5,782.333334 1218.5,782.125 L1218.5,781.625 C1217.33333,782.541671 1216,783 1214.5,783 C1213.31249,783 1212.22396,782.708336 1211.23438,782.125 C1210.24479,781.541664 1209.45834,780.755213 1208.875,779.765625 C1208.29166,778.776037 1208,777.687506 1208,776.5 C1208,775.312494 1208.29166,774.223963 1208.875,773.234375 C1209.45834,772.244787 1210.24479,771.458336 1211.23438,770.875 C1212.22396,770.291664 1213.31249,770 1214.5,770 C1215.68751,770 1216.77604,770.291664 1217.76562,770.875 C1218.75521,771.458336 1219.54166,772.244787 1220.125,773.234375 C1220.70834,774.223963 1221,775.312494 1221,776.5 C1221,778 1220.54167,779.333327 1219.625,780.5 L1220.125,780.5 C1220.33333,780.5 1220.51042,780.572916 1220.65625,780.71875 L1223.78125,783.84375 Z M1214.5,780.5 C1215.22917,780.5 1215.90104,780.322918 1216.51562,779.96875 C1217.13021,779.614582 1217.61458,779.130211 1217.96875,778.515625 C1218.32292,777.901039 1218.5,777.22917 1218.5,776.5 C1218.5,775.77083 1218.32292,775.098961 1217.96875,774.484375 C1217.61458,773.869789 1217.13021,773.385418 1216.51562,773.03125 C1215.90104,772.677082 1215.22917,772.5 1214.5,772.5 C1213.77083,772.5 1213.09896,772.677082 1212.48438,773.03125 C1211.86979,773.385418 1211.38542,773.869789 1211.03125,774.484375 C1210.67708,775.098961 1210.5,775.77083 1210.5,776.5 C1210.5,777.22917 1210.67708,777.901039 1211.03125,778.515625 C1211.38542,779.130211 1211.86979,779.614582 1212.48438,779.96875 C1213.09896,780.322918 1213.77083,780.5 1214.5,780.5 Z" id=""></path>
+</g>
+</g>
+</svg>
+</div>
+<div class="control is-search mi-search-bar">
+<input class="input" type="text" id="search" autocomplete="off" tabindex="0" data-track-link="search_input" data-track-category="nav_click" data-track-action="main_nav" data-track-order="1"/>
+<label for="search" class="l-sp--sm c--sec pl--24 trans">Search For</label>
+</div>
+</div>
+<div id="search-results" class="navbar-dropdown mi-search-results">
+</div>
+</div>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid  " role="main">
+<div class="row bg-primary pb-4">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-10 offset-xl-1">
+<div class="col-12">
+<div class="row">
+<ul class="crumb crumb__list copy-breadcrumb">
+<li class="crumb__list-item"><a class="copy-breadcrumb" href="http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/">The Ascent</a></li>
+<li class="crumb__list-item"><a class="copy-breadcrumb" href="http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/articles/">Knowledge</a></li>
+<li class="crumb__list-item">
+<a class="copy-breadcrumb" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/">
+Personal Finance
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="pb-3">
+<h1 id="are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks" class="blog__title">Are Extended Warranties Worth the Money? Here's What Dave Ramsey Thinks</h1>
+
+<div class="article-byline pt-4">
+<div class="byline">
+<p>
+Published on May 5, 2022
+</p>
+</div>
+<div class="article-author-image-container">
+<div class="article-author-image">
+<img class="lazy" data-src="http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/christy-bieber-crop_deoRUNY.jpg?width=128&amp;height=128" alt="Christy Bieber" height="48&quot;" width="48"/>
+</div>
+<div class="byline">
+<p>
+By: <a href="/web/20241010112739/https://www.fool.com/the-ascent/authors/profile/christy-bieber/">Christy Bieber</a>
+</p>
+<p class="d-none d-sm-inline-flex">Writer </p>
+</div>
+</div>
+</div>
+</div>
+<div class="blog__main blk__wysiwyg">
+<section class="mt-3 bg-gray b">
+<section class="p-3 copy-sm affiliate-disc-copy disc-copy bg-0 b">
+<span>
+Many or all of the products here are from our partners that compensate us. <a href="/web/20241010112739/https://www.fool.com/the-ascent/our-advertisers/">It’s how we make money.</a> But our <a href="/web/20241010112739/https://www.fool.com/the-ascent/editorial-integrity/">editorial integrity</a> ensures our experts’ opinions aren’t influenced by compensation. Terms may apply to offers listed on this page.
+</span>
+<span>
+</span>
+</section>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-10 offset-xl-1">
+<div class=" arts__wrapper">
+<div class="row">
+<div class="col-12">
+<div class="wysiwyg copy-body" id="key-points">
+<hr class="d-block ">
+<p class="fw-700 fs-18 ">KEY POINTS</p>
+<ul><li data-block-key="iejmm">When buying an item, you may be offered an extended warranty.</li><li data-block-key="2kh4p">Finance expert Dave Ramsey has spoken out about extended warranties.</li><li data-block-key="9g8qu">Ramsey doesn&#x27;t believe they are worth paying for. </li></ul>
+<div class="art__pitch wysiwyg copy-body" data-pitch-placement="ascent_key_points_pitch">
+</div>
+<hr class="d-block">
+</div>
+</div>
+</div>
+<div class="wysiwyg copy-body">
+<p data-block-key="k33oj"><i>Do these warranties really provide enough protection to be worth the price?</i></p>
+</div>
+<html><body><div class="wysiwyg copy-body">
+<p data-block-key="jpyx6">When you buy certain types of products such as appliances or electronics, you may be offered an extended warranty. This is a warranty that goes beyond the standard manufacturer guarantee on the product. And salespeople often push hard to get you to buy it.</p><p data-block-key="ckcv8">While a longer warranty may sound appealing -- especially on an expensive product -- these guarantees can come at an added cost that's sometimes pretty significant. Before you spend the money for one, it's worth considering advice from experts including Dave Ramsey, a trusted financial guru with millions of readers and listeners.<html><body><section class="blk__copy blk__copy--nar blk__">
+<div class="art__pitch" data-pitch-placement="ascent_article_inline_2"></div>
+</section>
+<script defer src="http://web.archive.org/web/20241010112739js_/https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="" data-cf-beacon="{&quot;rayId&quot;:&quot;8d064331bb230848&quot;,&quot;version&quot;:&quot;2024.8.0&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true}},&quot;token&quot;:&quot;e081e875f70442d4bdc4b24dde150ec9&quot;,&quot;b&quot;:1}" crossorigin="anonymous"></script>
+</body></html></p><h2 data-block-key="pfx56" id="ramsey-urges-you-to-say-no-to-extended-warranties">Ramsey urges you to say no to extended warranties</h2><p data-block-key="6kta2">Unfortunately, as the <i>Ramsey Solutions</i> blog explains, extended warranties are not all they’re cracked up to be and there are multiple reasons you should steer clear of them. <html><body><section class="blk__copy blk__copy--nar blk__">
+<div class="art__pitch" data-pitch-placement="ascent_article_inline"></div>
+</section>
+</body></html></p><p data-block-key="do4jt">One of the biggest reasons to avoid extended warranties, according to the blog, is that chances are good you aren't actually going to make use of yours. <b>That's because companies selling them have "done the math" and typically make sure the warranties end before most parts are likely to break.</b></p><p data-block-key="560cn">Ramsey's blog also explains that extended warranties typically are not worth paying for because they typically come with many coverage exclusions. Since the most common issues may not be covered under the warranty, you'd be wasting your money by buying one. There's also a risk the company offering the warranty could go bankrupt before you can use it, which would mean you paid money upfront to get no added benefit at all. </p><p data-block-key="1dm8t">Finally, Ramsey warns that extended warranties are generally overpriced and serve both as huge money-makers for the companies and for the sales people who get a commission for up-selling them to unsuspecting consumers. </p><h2 data-block-key="llwpa" id="is-ramsey-right">Is Ramsey right?</h2><p data-block-key="8kj47">When it comes to extended warranties, Ramsey's warnings are spot-on. In most cases, the manufacturer warranty that comes with the products you're purchasing is sufficient to protect you from unexpected issues, and the extended warranty isn't worth the high price you pay for it.</p><p data-block-key="dgar2"><b>Rather than buying an extended warranty that could simply come at an unnecessarily high cost, Ramsey urges putting money into an emergency fund instead.</b> If you put more money into emergency savings, you can replace essential products <i>if</i> they happen to break -- without worrying about whether a warranty provider will provide the expected coverage. And if the items <i>don't</i> break down, you'll have the money saved for other things.</p><p data-block-key="7kr9d"><b>You may also want to look into whether you have a credit card that offers an</b> <a href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/articles/simple-guide-credit-card-purchase-protection/"><b>extended warranty as a cardholder perk</b></a><b>.</b> There are some cards that provide an additional warranty once the manufacturer guarantee expires. If you have a card offering this kind of purchase protection, you can get the extended warranty at no added cost to you -- and it will be through a card issuer, rather than a third-party company you may not be able to trust.</p><p data-block-key="cgchk">It's especially important to use a <a href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/">credit card</a> with this kind of extended warranty if you're buying expensive items. By doing so, you can get the benefits of an extended warranty without paying any unnecessary added costs.</p>
+</div>
+</body></html>
+<div class="art__pitch wysiwyg copy-body" data-pitch-placement="ascent_pitch" data-nosnippet>
+</div>
+<div class="art__pitch wysiwyg copy-body" data-pitch-placement="ascent_promobox" data-nosnippet></div>
+</div>
+<div class="art__bottom-widget">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-10 offset-xl-1 mt-5">
+<div class="pt-3 bt">
+<section class="auth__bio bb pb">
+<h2 class="head-h6 uppercase pt-5 pb">Our Research Expert</h2>
+<div class="auth-items ">
+<div class="pg-title__child byline-wrap py">
+<span class="page pg-title__byline">
+<div class="auth__info--ctr overview copy-md">
+<div class="auth__img">
+<img class="lazy" data-src="http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/christy-bieber-crop_deoRUNY.jpg?width=128&amp;height=128" alt="Christy Bieber" height="32" width="32"/>
+</div>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/authors/profile/christy-bieber/">Christy Bieber</a>
+<a class="px-3 soc__img " href="http://web.archive.org/web/20241010112739/https://www.linkedin.com/in/christy-bieber/" target="_blank" rel="noopener">
+<svg width="25px" height="25px" viewbox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>icon-button-linkedin-2x</title>
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="Ascent-CTAs" transform="translate(-4037.000000, -82.000000)" fill="#2680B7" fill-rule="nonzero">
+<path d="M4059.74995,106.499942 C4060.71242,106.499942 4061.49994,105.706975 4061.49994,104.73355 L4061.49994,83.7663914 C4061.49994,82.7929669 4060.71242,82 4059.74995,82 L4038.74455,82 C4037.78202,82 4037,82.7929669 4037,83.7663914 L4037,104.73355 C4037,105.706975 4037.78202,106.499942 4038.74455,106.499942 L4059.74995,106.499942 Z M4042.58906,89.7109191 C4041.42423,89.7109191 4040.4836,88.7648383 4040.4836,87.6054554 C4040.4836,86.4460725 4041.42423,85.4999917 4042.58906,85.4999917 C4043.74844,85.4999917 4044.69452,86.4460725 4044.69452,87.6054554 C4044.69452,88.7702857 4043.75389,89.7109191 4042.58906,89.7109191 Z M4050.31637,102.99995 L4046.68511,102.99995 L4046.68511,91.307801 L4050.16871,91.307801 L4050.16871,92.9046829 L4050.21795,92.9046829 C4050.70463,91.9858923 4051.89136,91.0179686 4053.65775,91.0179686 C4057.33275,91.0179686 4058.01635,93.4406084 4058.01635,96.5905795 L4058.01635,102.99995 L4054.38514,102.99995 L4054.38514,97.3124635 C4054.38514,95.9562274 4054.35779,94.211679 4052.49842,94.211679 C4050.60621,94.211679 4050.31637,95.6882379 4050.31637,97.2140369 L4050.31637,102.99995 Z M4044.41014,102.99995 L4040.77343,102.99995 L4040.77343,91.307801 L4044.41014,91.307801 L4044.41014,102.99995 Z" id="icon-button-linkedin-2x"></path>
+</g>
+</g>
+</svg>
+</a>
+</div>
+</span>
+<div class="auth-bio-wrap ">
+<p class="auth-bio copy-md py">
+Christy Bieber is a full-time personal finance and legal writer with 15 years of experience. She has a JD from UCLA and is a former college instructor.
+</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<section class="socLinks bottom">
+<div class="nav-disc socLinks right">
+<p class="soc-share__title">Share this page</p>
+<div class="soc-share">
+<div class="soc-icon facebook-this">
+<a class="soc__link soc-fb" rel="noopener" aria-label="Share article on facebook." href="http://web.archive.org/web/20241010112739/https://www.facebook.com/sharer/sharer.php?u=https%3A//www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/?utm_term=social_share" data-track-link="are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks" data-track-category="share_click" data-track-action="facebook" data-offer_order=" 2 ">
+<svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="fbIcon fbIconDesc" role="img">
+<title id="fbIcon">Facebook Icon</title>
+<desc id="fbIconDesc">This icon shares the page you are on via Facebook</desc>
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g transform="translate(-233.000000, -6126.000000)">
+<g transform="translate(233.000000, 6126.000000)">
+<g>
+<circle fill="#006BA6" cx="16" cy="16" r="16"></circle>
+<path d="M17.3495511,22.4492153 C20.5914066,21.9400727 23.0712171,19.1346213 23.0712171,15.7500125 C23.0712171,12.0039277 20.0360681,8.96877868 16.2899833,8.96877868 C12.5438985,8.96877868 9.50874948,12.0039277 9.50874948,15.7500125 C9.50874948,19.1346213 11.98856,21.9400727 15.2304155,22.4492153 L15.2304155,17.710293 L13.5077634,17.710293 L13.5077634,15.7500125 L15.2304155,15.7500125 L15.2304155,14.2559632 C15.2304155,12.5565425 16.2421319,11.6178317 17.7916963,11.6178317 C18.5337943,11.6178317 19.3098316,11.7501708 19.3098316,11.7501708 L19.3098316,13.4181356 L18.4545137,13.4181356 C17.6123335,13.4181356 17.3495511,13.9409501 17.3495511,14.4771693 L17.3495511,15.7500125 L19.2302572,15.7500125 L18.9294767,17.710293 L17.3495511,17.710293 L17.3495511,22.4492153 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</a>
+</div>
+<div class="soc-icon tweet-this">
+<a class="soc__link meta-act-link meta-tweet soc-twit" aria-label="Share article on twitter." rel="noopener" href="http://web.archive.org/web/20241010112739/https://twitter.com/intent/tweet?text=Are%20Extended%20Warranties%20Worth%20the%20Money%3F%20Here%27s%20What%20Dave%20Ramsey%20Thinks%20via%20%40theascentmoney%20https%3A//www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/?utm_term=social_share" target="_blank" data-track-link="are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks" data-track-category="share_click" data-track-action="twitter" data-offer_order=" 2 ">
+<svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="twitterIcon twitterIconDesc" role="img">
+
+<title id="twitterIcon">Blue Twitter Icon</title>
+<desc id="twitterIconDesc">Share this website with Twitter</desc>
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g transform="translate(-273.000000, -6126.000000)">
+<g transform="translate(233.000000, 6126.000000)">
+<g id="icon_twt-blue" transform="translate(40.000000, 0.000000)">
+<circle fill="#006BA6" cx="16" cy="16" r="16"></circle>
+<path d="M13.6960716,21.4352826 C18.9727352,21.4352826 21.8597637,17.0647257 21.8597637,13.2716172 C21.8597637,13.1472622 21.8597637,13.0228538 21.8508717,12.8984988 C22.4105093,12.4898656 22.8991175,11.9835267 23.2899132,11.4150238 C22.7747091,11.6370844 22.2150714,11.7970076 21.6376497,11.8591717 C22.2328021,11.503864 22.6858421,10.9442264 22.8990641,10.2779644 C22.3482651,10.6066494 21.7264633,10.8464941 21.0780121,10.9708491 C20.5538625,10.4112115 19.8077056,10.0647691 18.9815472,10.0647691 C17.3914745,10.0647691 16.1122761,11.3528329 16.1122761,12.9340402 C16.1122761,13.1561276 16.1389255,13.3781882 16.1833323,13.5913835 C13.8026693,13.4670018 11.679555,12.3299691 10.2671362,10.5888653 C10.0183727,11.0152559 9.87628705,11.5038373 9.87628705,12.0368256 C9.87628705,13.0317458 10.3825992,13.9111764 11.1554321,14.4264073 C10.6846614,14.4086766 10.2404601,14.2754295 9.85850298,14.0622343 L9.85850298,14.097749 C9.85850298,15.4924104 10.8445579,16.6472005 12.1592711,16.9137213 C11.9194531,16.9758854 11.6618243,17.0114269 11.4042223,17.0114269 C11.2176497,17.0114269 11.0399958,16.9936695 10.8623153,16.9670201 C11.2265417,18.1040795 12.2836528,18.9302112 13.5450672,18.9568873 C12.5590123,19.7297203 11.3242206,20.1827603 9.9828847,20.1827603 C9.74304,20.1827603 9.52097937,20.1738682 9.29,20.1472455 C10.5603064,20.9644586 12.0704308,21.4352826 13.6960716,21.4352826 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</a>
+</div>
+<div class="soc-icon linkedin-this">
+<a class="soc__link soc-li" aria-label="Share article on Linked In." rel="noopener" href="http://web.archive.org/web/20241010112739/https://www.linkedin.com/shareArticle?mini=true&amp;title=https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/&amp;url=https://www.fool.com/the-ascent/personal-finance/articles/are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks/?utm_term=social_share" target="_blank" data-track-category="share_click" data-track-action="linkedin" data-offer_order=" 2 ">
+<svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="linkedinIcon linkedinIconDesc" role="img">
+<title id="linkedinIcon">LinkedIn Icon</title>
+<desc id="linkedinIconDesc">This image links to share the page over LinkedIn.</desc>
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g transform="translate(-313.000000, -6126.000000)">
+<g transform="translate(233.000000, 6126.000000)">
+<g transform="translate(80.000000, 0.000000)">
+<circle fill="#006BA6" cx="16" cy="16" r="16"></circle>
+<path d="M21.5399729,21.8749979 C22.0212111,21.8749979 22.4149708,21.4785145 22.4149708,20.9918022 L22.4149708,10.5082228 C22.4149708,10.0215105 22.0212111,9.62502712 21.5399729,9.62502712 L11.0372742,9.62502712 C10.5560094,9.62502712 10.165,10.0215105 10.165,10.5082228 L10.165,20.9918022 C10.165,21.4785145 10.5560094,21.8749979 11.0372742,21.8749979 L21.5399729,21.8749979 Z M12.9595299,13.4804867 C12.3771148,13.4804867 11.9067981,13.0074463 11.9067981,12.4277548 C11.9067981,11.8480634 12.3771148,11.3750229 12.9595299,11.3750229 C13.5392214,11.3750229 14.0122618,11.8480634 14.0122618,12.4277548 C14.0122618,13.01017 13.5419451,13.4804867 12.9595299,13.4804867 Z M16.8231873,20.1250021 L15.0075559,20.1250021 L15.0075559,14.2789276 L16.749354,14.2789276 L16.749354,15.0773686 L16.773974,15.0773686 C17.0173167,14.6179733 17.61068,14.1340114 18.4938757,14.1340114 C20.3313767,14.1340114 20.6731727,15.3453313 20.6731727,16.9203169 L20.6731727,20.1250021 L18.8575681,20.1250021 L18.8575681,17.2812589 C18.8575681,16.6031408 18.8438962,15.7308666 17.914211,15.7308666 C16.9681034,15.7308666 16.8231873,16.4691461 16.8231873,17.2320456 L16.8231873,20.1250021 Z M13.8700693,20.1250021 L12.0517143,20.1250021 L12.0517143,14.2789276 L13.8700693,14.2789276 L13.8700693,20.1250021 Z" id="" fill="#FFFFFF" fill-rule="nonzero"></path>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</a>
+</div>
+<div class="soc-icon mail-this">
+<a class="soc__link soc-email" aria-label="Share article via email." rel="noopener" href="/web/20241010112739/https://www.fool.com/cdn-cgi/l/email-protection#8fb0fcfaede5eaecfbb2cefdeaaabdbfcaf7fbeae1ebeaebaabdbfd8eefdfdeee1fbe6eafcaabdbfd8e0fdfbe7aabdbffbe7eaaabdbfc2e0e1eaf6aabcc9aabdbfc7eafdeaaabdb8fcaabdbfd8e7eefbaabdbfcbeef9eaaabdbfddeee2fceaf6aabdbfdbe7e6e1e4fca9ede0ebf6b2caf7fbeae1ebeaebaabdbff8eefdfdeee1fbe6eafcaabdbfeefdeaaabdbfe0e9fbeae1aabdbfe1e0fbaabdbff8e0fdfbe7aabdbffbe7eaaabdbfe2e0e1eaf6aabdbff6e0faaabdbfffeef6aabdbfe9e0fdaabdbffbe7eae2a1aabdbfc9e6e1eee1eceaaabdbfe8fafdfaaabdbfcbeef9eaaabdbfddeee2fceaf6aabdbfeaf7ffe3eee6e1fcaabdbff8e7f6aabdbff6e0faaabdbffce7e0fae3ebaabdbfe5fafcfbaabdbffceef6aabdbfe1e0aabdbffbe0aabdbfeaf7fbeae1ebeaebaabdbff8eefdfdeee1fbe6eafca1aabdbfddeaeeebaabdbfe2e0fdeaaabdbfe7eafdeaaabcceaabdbfe7fbfbfffcaabccea0a0f8f8f8a1e9e0e0e3a1ece0e2a0fbe7eaa2eefceceae1fba0ffeafdfce0e1eee3a2e9e6e1eee1eceaa0eefdfbe6ece3eafca0eefdeaa2eaf7fbeae1ebeaeba2f8eefdfdeee1fbe6eafca2f8e0fdfbe7a2fbe7eaa2e2e0e1eaf6a2e7eafdeafca2f8e7eefba2ebeef9eaa2fdeee2fceaf6a2fbe7e6e1e4fca0b0fafbe2d0fbeafde2b2fce0ece6eee3d0fce7eefdea" data-track-link="are-extended-warranties-worth-the-money-heres-what-dave-ramsey-thinks" data-track-category="share_click" data-track-action="email" data-offer_order=" 2 ">
+<svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-labelledby="mailIcon mailIconDesc" role="img">
+<title id="mailIcon">Email Icon</title>
+<desc id="mailIconDesc">Share this website with email</desc>
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g transform="translate(-353.000000, -6126.000000)">
+<g transform="translate(233.000000, 6126.000000)">
+<g transform="translate(120.000000, 0.000000)">
+<circle fill="#006BA6" cx="16" cy="16" r="16"></circle>
+<path d="M16.2899833,17.5000083 C16.9243621,17.5109565 17.8376252,16.7015674 18.2970205,16.3679691 C21.9255061,13.7347776 22.2016933,13.5051067 23.0383994,12.8488582 C23.1969874,12.7258117 23.2899666,12.5344059 23.2899666,12.3320519 L23.2899666,11.8125219 C23.2899666,11.0879143 22.7020774,10.500025 21.9774698,10.500025 L10.6024969,10.500025 C9.87788922,10.500025 9.29,11.0879143 9.29,11.8125219 L9.29,12.3320519 C9.29,12.5344059 9.38297921,12.7230613 9.54156724,12.8488582 C10.3782733,13.5023563 10.6544606,13.7347776 14.2829462,16.3679691 C14.7423414,16.7015674 15.6556045,17.5109565 16.2899833,17.5000083 Z M21.9774698,21 C22.7020774,21 23.2899666,20.4121108 23.2899666,19.6875031 L23.2899666,14.0957196 C23.2899666,13.9617248 23.1313786,13.8824442 23.0247275,13.9671989 C22.412245,14.4429897 21.6028559,15.0500249 18.8138001,17.0761812 C18.2587286,17.4808624 17.2661582,18.3859544 16.2899833,18.3777299 C15.3192825,18.383204 14.345858,17.4972847 13.7688902,17.0761812 C10.9798344,15.0500249 10.1677216,14.4457134 9.55523908,13.9699493 C9.44586434,13.8851679 9.29,13.9617248 9.29,14.0984433 L9.29,19.6875031 C9.29,20.4121108 9.87788922,21 10.6024969,21 L21.9774698,21 Z" id="" fill="#FFFFFF" fill-rule="nonzero"></path>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</section>
+<div class="row">
+<div class="container">
+<div class="row">
+<div class="col-12 mt-5 pb-5">
+<div class="disc disc__foot bt py-5" role="contentinfo">
+<p class="copy-sm">
+<span class="disc--edit">
+We're firm believers in the Golden Rule, which is why editorial opinions are ours alone and have not been previously reviewed, approved, or endorsed by included advertisers. The Ascent, a Motley Fool service, does not cover all offers on the market. The Ascent has a dedicated team of editors and analysts focused on personal finance, and they follow the same set of <a href="http://web.archive.org/web/20241010112739/https://www.fool.com/about/the-motley-fools-publishing-standards/">publishing standards</a> and editorial integrity while maintaining professional separation from the analysts and editors on other Motley Fool brands.</span>
+<span class="disc--edit">
+</span>
+</p>
+<div class="disc__txt--sec copy-sm pt-3">
+The Motley Fool has a <a href="http://web.archive.org/web/20241010112739/https://www.fool.com/Legal/fool-disclosure-policy.aspx">disclosure policy</a>.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col- px-0">
+<div class="wysiwyg" data-pitch-placement="ascent_article_page_bottom"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row bg-secondary">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-10 offset-xl-1 py-5 my-5">
+<div class="d-flex row">
+<div class="mt-3 col-12 title-row">
+<p class="head-h2">Related Articles</p>
+<a class="uppercase bold fs-14 lh--36 left-arrow d-none d-sm-inline-block" href="http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/articles">
+View All Articles
+<img class="link--arrow pl-3" width="28" height="11" src="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/arrow-right--link.svg" alt="Learn More Link Arrow">
+</a>
+</div>
+<div class="col-12 mt-3">
+<div class="the_ascent_related_articles">
+<a class="title" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/articles/how-much-money-should-you-keep-in-a-checking-account-heres-the-sweet-spot/" data-link_type="txt-title-rel-art">
+How Much Money Should You Keep in a Checking Account? Here's the Sweet Spot
+</a>
+<div class="copy-md pt-4">
+<div class="d-flex flex--row byline">
+<div class="author-bio-image-container">
+<div class="author-bio-image">
+<img class="lazy" data-src="http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/picofme_-_Cole_Tretheway_OFMtGpe.png?width=128&amp;height=128" alt="Cole Tretheway" height="38&quot;" width="38"/>
+</div>
+</div>
+<p>
+By: <a href="/web/20241010112739/https://www.fool.com/the-ascent/authors/profile/cole-tretheway/">Cole Tretheway</a> |
+Published on June 7, 2024
+</p>
+</div>
+</div>
+<div class="truncated-body">
+Americans had a median checking account balance of $2,800 in 2022. Find out whether that's enough money and how much you should have.
+</div>
+</div>
+<div class="the_ascent_related_articles">
+<a class="title" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/articles/learn-what-happens-when-you-leave-a-lot-of-money-in-your-savings-account/" data-link_type="txt-title-rel-art">
+Learn What Happens When You Leave a Lot of Money in Your Savings Account
+</a>
+<div class="copy-md pt-4">
+<div class="d-flex flex--row byline">
+<div class="author-bio-image-container">
+<div class="author-bio-image">
+<img class="lazy" data-src="http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/lyle-daly_y5dJ7I6.jpg?width=128&amp;height=128" alt="Lyle Daly" height="38&quot;" width="38"/>
+</div>
+</div>
+<p>
+By: <a href="/web/20241010112739/https://www.fool.com/the-ascent/authors/profile/lyle-daly/">Lyle Daly</a> |
+Published on June 5, 2024
+</p>
+</div>
+</div>
+<div class="truncated-body">
+It's possible to overfund your savings account. Discover the drawbacks of doing this and how to better manage your money.
+</div>
+</div>
+<div class="the_ascent_related_articles">
+<a class="title" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/costcos-executive-membership-is-free-if-you-do-this/" data-link_type="txt-title-rel-art">
+Costco's Executive Membership Is Free if You Do This
+</a>
+<div class="copy-md pt-4">
+<div class="d-flex flex--row byline">
+<div class="author-bio-image-container">
+<div class="author-bio-image">
+<img class="lazy" data-src="http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/christy-bieber-crop_deoRUNY.jpg?width=128&amp;height=128" alt="Christy Bieber" height="38&quot;" width="38"/>
+</div>
+</div>
+<p>
+By: <a href="/web/20241010112739/https://www.fool.com/the-ascent/authors/profile/christy-bieber/">Christy Bieber</a> |
+Published on June 5, 2024
+</p>
+</div>
+</div>
+<div class="truncated-body">
+Costco's Executive membership is $60 more than the basic membership, but if you spend at least $3,000 a year, you earn enough to cover the fee. Learn more here.
+</div>
+</div>
+<div class="the_ascent_related_articles">
+<a class="title" href="/web/20241010112739/https://www.fool.com/the-ascent/banks/articles/what-happens-when-you-withdraw-10000-from-your-bank-account/" data-link_type="txt-title-rel-art">
+Here's What Happens When You Withdraw $10,000 From Your Bank Account
+</a>
+<div class="copy-md pt-4">
+<div class="d-flex flex--row byline">
+<div class="author-bio-image-container">
+<div class="author-bio-image">
+<img class="lazy" data-src="http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/lyle-daly_y5dJ7I6.jpg?width=128&amp;height=128" alt="Lyle Daly" height="38&quot;" width="38"/>
+</div>
+</div>
+<p>
+By: <a href="/web/20241010112739/https://www.fool.com/the-ascent/authors/profile/lyle-daly/">Lyle Daly</a> |
+Published on June 4, 2024
+</p>
+</div>
+</div>
+<div class="truncated-body">
+Banks need to follow special rules for withdrawals of more than $10,000. Find out what to expect if you need to withdraw this much money.
+</div>
+</div>
+<div class="the_ascent_related_articles">
+<a class="title" href="/web/20241010112739/https://www.fool.com/the-ascent/personal-finance/articles/heres-the-average-credit-score-of-low-income-americans/" data-link_type="txt-title-rel-art">
+Here's the Average Credit Score of Low-Income Americans
+</a>
+<div class="copy-md pt-4">
+<div class="d-flex flex--row byline">
+<div class="author-bio-image-container">
+<div class="author-bio-image">
+<img class="lazy" data-src="http://web.archive.org/web/20241010112739/https://m.foolcdn.com/media/affiliates/original_images/lyle-daly_y5dJ7I6.jpg?width=128&amp;height=128" alt="Lyle Daly" height="38&quot;" width="38"/>
+</div>
+</div>
+<p>
+By: <a href="/web/20241010112739/https://www.fool.com/the-ascent/authors/profile/lyle-daly/">Lyle Daly</a> |
+Published on June 4, 2024
+</p>
+</div>
+</div>
+<div class="truncated-body">
+Research has found a correlation between credit scores and income. Check out the surprising data on the average credit score for low-income Americans.
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 mt-3 d-flex d-sm-none bt">
+<div class="row">
+<a class="uppercase bold fs-14 lh--36 left-arrow d-flex d-sm-none" href="http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/articles">
+View All Articles
+<img class="link--arrow pl-3" width="28" height="11" src="http://web.archive.org/web/20241010112739im_/https://g.foolcdn.com/static/affiliates/project/images/arrow-right--link.svg" alt="Learn More Link Arrow">
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="container-fluid">
+<div class="foot row" role="contentinfo">
+<div class="foot-wrap col-12">
+<div class="width-limiter">
+<div class="ft-col pb-5 col-lg-3">
+<a aria-label="Link to home page" class="navigation-logo-footer" href="http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/">
+<svg width="500" height="88" viewbox="0 0 500 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M249.335 28.965V49.1569H240.855V30.1408C240.855 25.8899 238.612 23.1087 234.484 23.1087C229.055 23.1087 226.632 27.9249 226.632 32.1532V49.2021H218.085V3.48214L226.475 0V21.8199H226.7C228.615 17.952 232.624 15.5982 236.907 15.8279C245.005 15.8279 249.335 21.3677 249.335 28.965Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M284.935 43.4506L280.622 38.8223C278.471 41.4163 275.225 42.8478 271.859 42.6867C266.928 43.0434 262.595 39.4438 262.041 34.5309H284.868C285.108 33.4164 285.221 32.2783 285.205 31.1383C285.205 22.331 279.723 15.7704 270.107 15.7704C260.019 15.7704 253.481 22.7354 253.481 32.5763C253.481 42.4171 260.086 49.2697 271.005 49.2697C276.298 49.5856 281.44 47.4376 284.935 43.4506ZM277.207 29.8343H262.041V29.7444C262.426 25.5816 265.927 22.4022 270.107 22.4199C272.06 22.3711 273.944 23.1475 275.295 24.5587C276.646 25.9698 277.34 27.885 277.207 29.8343Z" fill="white"/>
+<path d="M211.414 48.062C209.192 48.8296 206.856 49.2149 204.506 49.2018C196.016 49.2018 191.871 44.732 191.871 35.6358V22.7627H186.835V16.2814H192.094V10.0684L200.294 6.64893V16.2814H211.436V22.7627H200.294V35.3676C200.294 39.9716 202.032 42.0724 205.888 42.0724C207.879 42.1259 209.829 41.4951 211.414 40.2845V48.062Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M123.573 6.914C143.794 6.914 160.78 29.5389 165.565 60.1174C165.631 60.6415 165.3 61.1339 164.79 61.2701C164.279 61.4062 163.747 61.1441 163.543 60.6566C158.757 48.9735 150.512 41.2446 141.075 41.2446C127.595 41.2446 115.889 57.5786 114.564 80.0238C112.834 83.7534 98.8362 86.6068 86.142 87.1011V33.4258C94.0281 17.2716 109.778 6.914 123.573 6.914" fill="#006BA6"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M48.733 6.914C28.4896 6.914 11.5265 29.5389 6.7409 60.1174C6.66006 60.6867 7.04957 61.216 7.61714 61.3082C8.10763 61.4041 8.59457 61.1272 8.76299 60.6566C13.5711 48.9735 21.7942 41.2446 31.2306 41.2446C44.7112 41.2446 56.4169 57.5786 57.7425 80.0238C59.4725 83.7534 73.4698 86.6068 86.1865 87.1011V33.4258C78.1431 17.2716 62.3933 6.914 48.733 6.914" fill="#0095C8"/>
+<circle cx="165.205" cy="73.6195" r="6.96497" fill="#FFB71B"/>
+<circle cx="6.96499" cy="73.6195" r="6.96497" fill="#FFB71B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M323.961 49.2645H331.825V49.2421V29.0212C331.825 21.0451 326.612 16.2146 317.221 16.2146C308.369 16.2146 303.021 20.3711 303.021 26.5273C303.017 27.552 303.153 28.5725 303.426 29.5604L310.952 28.3247C310.77 27.9061 310.67 27.4558 310.66 26.9991C310.66 24.303 312.907 22.7078 316.929 22.7078C321.288 22.7078 323.534 25.1343 323.534 28.7965V30.3917H322.905C309.964 30.6164 301.943 32.8856 301.943 40.7043C301.943 46.0966 306.144 49.6914 313.177 49.6914C320.209 49.6914 322.995 46.2988 323.961 44.434V49.2645ZM323.535 35.0194V37.7829C323.535 40.5464 320.547 43.2426 315.402 43.2426C312.144 43.2426 310.324 42.0293 310.324 39.7825C310.324 36.5247 314.009 35.1542 322.996 35.0194H323.535Z" fill="white"/>
+<path d="M357.439 26.6591C357.439 23.7963 355.179 21.9786 351.471 21.9786C347.763 21.9786 346.09 23.5918 346.09 25.8185C346.09 32.7484 365.556 27.4317 365.692 40.1101C365.692 46.0403 360.243 49.8348 351.471 49.8348C346.015 50.1328 340.648 48.3564 336.436 44.8588L340.709 39.6102C343.73 42.012 347.42 43.4095 351.267 43.6092C355.133 43.6092 357.01 42.3368 357.01 40.4509C357.01 34.7025 337.974 38.1788 337.974 26.182C337.974 20.0018 343.422 15.9575 351.765 15.9575C359.678 15.9575 365.126 19.8655 365.126 25.2504C365.137 26.0166 365.046 26.7807 364.855 27.5226L357.281 28.0224C357.393 27.5769 357.446 27.1186 357.439 26.6591Z" fill="white"/>
+<path d="M399.442 27.5697C399.449 28.3322 399.382 29.0935 399.242 29.8426L391.718 30.3199C391.818 29.819 391.863 29.3082 391.851 28.7971C391.898 27.1626 391.253 25.587 390.08 24.4729C388.908 23.3587 387.323 22.8142 385.73 22.9784C380.832 22.9784 377.582 26.8878 377.582 32.7747C377.582 38.6615 380.765 42.8664 386.754 42.8664C390.269 43.0393 393.67 41.5667 395.992 38.8661L400.266 44.1847C397.929 47.2077 393.098 49.867 386.264 49.867C375.579 49.867 369.034 42.9346 369.034 33.0474C368.821 28.4491 370.52 23.9729 373.712 20.722C376.905 17.4712 381.293 15.7482 385.796 15.9778C394.278 15.9778 399.442 21.1373 399.442 27.5697Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M434.84 43.8722L430.526 39.2439C428.39 41.8186 425.173 43.2479 421.831 43.1083C416.875 43.5031 412.499 39.8936 411.945 34.9526H434.772C435.012 33.838 435.125 32.6999 435.109 31.56C435.109 22.7526 429.605 16.1921 420.011 16.1921C409.923 16.1921 403.385 23.1571 403.385 32.9979C403.385 42.8387 409.99 49.6914 420.91 49.6914C426.203 50.0072 431.344 47.8593 434.84 43.8722ZM427.11 30.2559H411.945V30.166C412.329 26.0032 415.83 22.8239 420.011 22.8416C421.964 22.7927 423.847 23.5692 425.198 24.9803C426.55 26.3915 427.244 28.3067 427.11 30.2559Z" fill="white"/>
+<path d="M471.41 29.0483V49.1571H462.905V30.2193C462.905 25.9858 460.655 23.2161 456.493 23.2161C451.049 23.2161 448.619 28.08 448.619 32.2234V49.2021H440.16V16.4156L446.707 16.1454C447.308 18.4811 447.663 20.8737 447.764 23.2837H447.966C449.661 18.7352 454.077 15.7856 458.923 15.9652C467.022 15.9652 471.41 21.4822 471.41 29.0483Z" fill="white"/>
+<path d="M499.977 48.7091C497.695 49.4886 495.296 49.88 492.883 49.8667C484.163 49.8667 479.906 45.327 479.906 36.0887V23.0145H474.734V16.4319H480.135V10.1218L488.557 6.64893V16.4319H500V23.0145H488.557V35.8164C488.557 40.4922 490.342 42.6259 494.301 42.6259C496.347 42.6802 498.349 42.0395 499.977 40.81V48.7091Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M208.394 83.5649L200.402 65.3218L192.409 83.5649H194.452L196.387 79.2282H204.344L206.244 83.5649H208.394ZM200.366 69.8754L203.556 77.4021L197.176 77.3662L200.366 69.8754Z" fill="white"/>
+<path d="M217.785 65.4299L226.315 77.5442L234.881 65.4299V83.5655H232.91V71.2003L226.315 80.6265L219.756 71.2003V83.5655H217.785V65.4299Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M257.39 74.7852C257.39 69.7178 253.282 65.6099 248.214 65.6099C245.766 65.5606 243.404 66.5114 241.672 68.2429C239.941 69.9744 238.99 72.337 239.039 74.7852C239.039 79.8526 243.147 83.9605 248.214 83.9605C253.282 83.9605 257.39 79.8526 257.39 74.7852ZM255.382 74.9286C255.382 78.8875 252.173 82.0968 248.214 82.0968C244.255 82.0968 241.045 78.8875 241.045 74.9286C241.045 70.9697 244.255 67.7604 248.214 67.7604C252.173 67.7604 255.382 70.9697 255.382 74.9286Z" fill="white"/>
+<path d="M263.949 67.7603H259.147V65.9324H270.723V67.7603H265.921V83.5662H263.949V67.7603Z" fill="white"/>
+<path d="M274.415 65.9324H276.386V81.7742H283.555V83.5662H274.308L274.415 65.9324Z" fill="white"/>
+<path d="M287.641 65.9324H297.605V67.7603H289.612V73.4591H297.139V75.287H289.612V81.8817H297.784V83.6738H287.641V65.9324Z" fill="white"/>
+<path d="M306.134 76.3263L299.934 65.9324H301.977L306.994 74.3909L311.976 65.9324H314.127L307.962 76.3263V83.4946H305.991L306.134 76.3263Z" fill="white"/>
+<path d="M322.979 65.9324H332.191V67.7603H325.022V73.4591H331.617V75.287H325.022V83.5662H323.051L322.979 65.9324Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M353.229 74.7845C353.229 69.7171 349.122 65.6092 344.054 65.6092C341.609 65.5701 339.252 66.5242 337.523 68.2534C335.794 69.9827 334.84 72.3393 334.879 74.7845C334.879 79.8519 338.987 83.9598 344.054 83.9598C349.122 83.9598 353.229 79.8519 353.229 74.7845ZM351.383 74.7634C351.383 78.8114 348.101 82.0929 344.053 82.0929C340.005 82.0929 336.724 78.8114 336.724 74.7634C336.724 70.7154 340.005 67.4339 344.053 67.4339C348.101 67.4339 351.383 70.7154 351.383 74.7634Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M374.59 74.7852C374.59 69.7178 370.482 65.6099 365.415 65.6099C362.967 65.5606 360.604 66.5114 358.873 68.2429C357.141 69.9744 356.19 72.337 356.24 74.7852C356.24 79.8526 360.348 83.9605 365.415 83.9605C370.482 83.9605 374.59 79.8526 374.59 74.7852ZM372.582 74.9286C372.582 78.8875 369.373 82.0968 365.414 82.0968C361.455 82.0968 358.246 78.8875 358.246 74.9286C358.246 70.9697 361.455 67.7604 365.414 67.7604C369.373 67.7604 372.582 70.9697 372.582 74.9286Z" fill="white"/>
+<path d="M378.711 65.9324H380.826V81.7742H387.994V83.5662H378.747L378.711 65.9324Z" fill="white"/>
+<path d="M396.525 79.409C397.836 81.0494 399.802 82.0319 401.901 82.0971C404.553 82.0971 405.736 80.5559 405.736 79.3373C405.736 77.1868 404.446 76.4342 401.793 75.0722C399.141 73.7103 397.277 72.5633 397.277 69.9469C397.277 67.3305 399.249 65.6102 402.51 65.6102C403.93 65.6139 405.302 66.1221 406.381 67.0438V69.266C405.395 68.1726 404.016 67.5152 402.546 67.4381C400.467 67.4381 399.249 68.4416 399.249 69.9469C399.249 71.4523 400.575 72.2766 402.833 73.3518C405.736 74.8572 407.886 76.255 407.886 79.3373C407.76 80.7036 407.088 81.9613 406.022 82.825C404.956 83.6887 403.586 84.0853 402.223 83.925C400.183 83.9797 398.202 83.2336 396.704 81.8462L396.525 79.409Z" fill="white"/>
+<path d="M411.936 65.9324H421.9V67.7603H413.907V73.4591H421.434V75.287H413.907V81.8817H422.079V83.6738H411.936V65.9324Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M432.438 65.9329H426.416V83.3875H428.388V76.4344H432.402L436.38 83.3875H438.638L434.373 76.2193C436.439 75.4212 437.785 73.416 437.742 71.2016C437.752 69.795 437.195 68.4438 436.197 67.4526C435.199 66.4613 433.844 65.9136 432.438 65.9329ZM435.842 71.2021C435.842 73.1816 434.237 74.7862 432.258 74.7862H428.279V67.618H432.258C433.23 67.5416 434.187 67.8946 434.876 68.584C435.565 69.2734 435.918 70.2301 435.842 71.2021Z" fill="white"/>
+<path d="M440.43 65.9324H442.581L448.029 79.1936L453.477 65.9324H455.627L448.029 84.2114L440.43 65.9324Z" fill="white"/>
+<path d="M459.678 65.9324H461.649V83.5662H459.678V65.9324Z" fill="white"/>
+<path d="M474.91 65.6101C476.928 65.566 478.897 66.2391 480.466 67.5096V69.8752C479.004 68.3804 477.001 67.5402 474.91 67.5455C470.862 67.5455 467.581 70.827 467.581 74.875C467.581 78.923 470.862 82.2045 474.91 82.2045C476.996 82.2233 479.001 81.3957 480.466 79.9107V82.1686C478.893 83.4292 476.924 84.0897 474.91 84.0324C471.502 84.2457 468.257 82.5485 466.488 79.6272C464.72 76.7059 464.72 73.044 466.488 70.1228C468.257 67.2015 471.502 65.5043 474.91 65.7176V65.6101Z" fill="white"/>
+<path d="M485.197 65.9324H495.161V67.7603H487.168V73.4591H494.695V75.287H487.168V81.8817H495.519V83.6738H485.376L485.197 65.9324Z" fill="white"/>
+</svg>
+</a>
+<p class="copy-micro">The Ascent is a Motley Fool service that rates and reviews essential products for your everyday money matters.</p>
+<div class="foot-socLinks pt-4 pb-3">
+<a class="foot-socLink foot-fb" aria-label="Visit us on facebook." rel="noopener" href="http://web.archive.org/web/20241010112739/https://www.facebook.com/TheAscentMoney/">
+<svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>btn_facebook-yellow</title>
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g id="btn_facebook-yellow">
+<circle fill="#FFB81C" cx="16" cy="16" r="16"></circle>
+<path d="M17.3495511,22.4492153 C20.5914066,21.9400727 23.0712171,19.1346213 23.0712171,15.7500125 C23.0712171,12.0039277 20.0360681,8.96877868 16.2899833,8.96877868 C12.5438985,8.96877868 9.50874948,12.0039277 9.50874948,15.7500125 C9.50874948,19.1346213 11.98856,21.9400727 15.2304155,22.4492153 L15.2304155,17.710293 L13.5077634,17.710293 L13.5077634,15.7500125 L15.2304155,15.7500125 L15.2304155,14.2559632 C15.2304155,12.5565425 16.2421319,11.6178317 17.7916963,11.6178317 C18.5337943,11.6178317 19.3098316,11.7501708 19.3098316,11.7501708 L19.3098316,13.4181356 L18.4545137,13.4181356 C17.6123335,13.4181356 17.3495511,13.9409501 17.3495511,14.4771693 L17.3495511,15.7500125 L19.2302572,15.7500125 L18.9294767,17.710293 L17.3495511,17.710293 L17.3495511,22.4492153 Z" fill="#37393B" fill-rule="nonzero"></path>
+</g>
+</g>
+</svg>
+</a>
+<a class="foot-socLink foot-twitter" aria-label="Visit us on twitter" rel="noopener" href="http://web.archive.org/web/20241010112739/https://twitter.com/TheAscentMoney">
+<svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>btn_twitter-yellow</title>
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g transform="translate(-40.000000, 0.000000)">
+<g id="btn_twitter-yellow" transform="translate(40.000000, 0.000000)">
+<circle fill="#FFB81C" cx="16" cy="16" r="16"></circle>
+<path d="M13.6960716,21.4352826 C18.9727352,21.4352826 21.8597637,17.0647257 21.8597637,13.2716172 C21.8597637,13.1472622 21.8597637,13.0228538 21.8508717,12.8984988 C22.4105093,12.4898656 22.8991175,11.9835267 23.2899132,11.4150238 C22.7747091,11.6370844 22.2150714,11.7970076 21.6376497,11.8591717 C22.2328021,11.503864 22.6858421,10.9442264 22.8990641,10.2779644 C22.3482651,10.6066494 21.7264633,10.8464941 21.0780121,10.9708491 C20.5538625,10.4112115 19.8077056,10.0647691 18.9815472,10.0647691 C17.3914745,10.0647691 16.1122761,11.3528329 16.1122761,12.9340402 C16.1122761,13.1561276 16.1389255,13.3781882 16.1833323,13.5913835 C13.8026693,13.4670018 11.679555,12.3299691 10.2671362,10.5888653 C10.0183727,11.0152559 9.87628705,11.5038373 9.87628705,12.0368256 C9.87628705,13.0317458 10.3825992,13.9111764 11.1554321,14.4264073 C10.6846614,14.4086766 10.2404601,14.2754295 9.85850298,14.0622343 L9.85850298,14.097749 C9.85850298,15.4924104 10.8445579,16.6472005 12.1592711,16.9137213 C11.9194531,16.9758854 11.6618243,17.0114269 11.4042223,17.0114269 C11.2176497,17.0114269 11.0399958,16.9936695 10.8623153,16.9670201 C11.2265417,18.1040795 12.2836528,18.9302112 13.5450672,18.9568873 C12.5590123,19.7297203 11.3242206,20.1827603 9.9828847,20.1827603 C9.74304,20.1827603 9.52097937,20.1738682 9.29,20.1472455 C10.5603064,20.9644586 12.0704308,21.4352826 13.6960716,21.4352826 Z" fill="#37393B" fill-rule="nonzero"></path>
+</g>
+</g>
+</g>
+</svg>
+</a>
+<a class="foot-socLink foot-insta" aria-label="Visit us on instagram." rel="noopener" href="http://web.archive.org/web/20241010112739/https://www.instagram.com/theascent_money/">
+<svg width="32px" height="32px" viewbox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>btn_instagram-yellow</title>
+<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g transform="translate(-120.000000, 0.000000)">
+<g id="btn_instagram-yellow" transform="translate(120.000000, 0.000000)">
+<circle fill="#FFB81C" cx="16" cy="16" r="16"></circle>
+<path d="M18.8192762,21.8312587 C19.8009252,21.7847691 20.670449,21.5605455 21.3868589,20.841412 C22.1032421,20.1250021 22.3274657,19.2554782 22.376679,18.2738293 C22.4341167,17.2621129 22.4341167,14.232438 22.376679,13.2207217 C22.3302161,12.2390727 22.1059925,11.3695489 21.3868589,10.653139 C20.670449,9.93675581 19.8009252,9.71253225 18.8192762,9.66331896 C17.8075599,9.6058812 14.7751346,9.6058812 13.7634182,9.66331896 C12.7845197,9.70978186 11.9149958,9.93400542 11.1958623,10.6504153 C10.4767287,11.3668252 10.2552288,12.236349 10.2060155,13.217998 C10.1486045,14.2297143 10.1486045,17.2621129 10.2060155,18.2738293 C10.2525051,19.2554782 10.4767287,20.1250021 11.1958623,20.841412 C11.9149958,21.5578219 12.781796,21.7820187 13.7634182,21.8312587 C14.7751346,21.8886698 17.8075599,21.8886698 18.8192762,21.8312587 Z M16.2927091,20.7703024 C15.4013156,20.7703024 13.484534,20.841412 12.680619,20.5242092 C12.1446935,20.3109338 11.7317878,19.8980548 11.5157887,19.3593789 C11.1958623,18.5527402 11.2696955,16.6386823 11.2696955,15.7472888 C11.2696955,14.8558687 11.1985859,12.9390871 11.5157887,12.135172 C11.7290641,11.5992465 12.1419431,11.1863408 12.680619,10.9703418 C13.4872577,10.6504153 15.4013156,10.7242486 16.2927091,10.7242486 C17.1841292,10.7242486 19.1009109,10.653139 19.9048259,10.9703418 C20.4407514,11.1836172 20.8536571,11.5964961 21.0696562,12.135172 C21.3895826,12.9418107 21.3157493,14.8558687 21.3157493,15.7472888 C21.3157493,16.6386823 21.3895826,18.5554639 21.0696562,19.3593789 C20.8563808,19.8953045 20.4435018,20.3082101 19.9048259,20.5242092 C19.0981872,20.8441357 17.1841292,20.7703024 16.2927091,20.7703024 Z M19.5630298,13.2097735 C19.967711,13.2097735 20.2958352,12.8843997 20.2958352,12.4769681 C20.2958352,12.0722869 19.967711,11.7441627 19.5630298,11.7441627 C19.1583486,11.7441627 18.8302244,12.0722869 18.8302244,12.4769681 C18.8302244,12.8816493 19.1555982,13.2097735 19.5630298,13.2097735 Z M16.2927091,18.8890622 C18.0317835,18.8890622 19.4345091,17.4863365 19.4345091,15.7472888 C19.4345091,14.0082145 18.0317835,12.6054888 16.2927091,12.6054888 C14.5536614,12.6054888 13.1509357,14.0082145 13.1509357,15.7472888 C13.1509357,17.4863365 14.5536614,18.8890622 16.2927091,18.8890622 Z M16.2927091,17.7898407 C15.1688943,17.7898407 14.2501572,16.8738273 14.2501572,15.7472888 C14.2501572,14.6207237 15.1661706,13.7047102 16.2927091,13.7047102 C17.4192742,13.7047102 18.3352877,14.6207237 18.3352877,15.7472888 C18.3352877,16.8738273 17.4165506,17.7898407 16.2927091,17.7898407 Z" id="" fill="#37393B" fill-rule="nonzero"></path>
+</g>
+</g>
+</g>
+</svg>
+</a>
+</div>
+<p class="copy-micro">Copyright © 2018 - 2024 The Ascent. All rights reserved.</p>
+</div>
+<div class="ft-col py-5 col-lg">
+<div class="ft-hd head-h3">About The Ascent</div>
+<div class="ft-lnk-lst">
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/about-us/" data-track-order="1">
+About Us
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/contact-us/" data-track-order="2">
+Contact Us
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/newsroom/" data-track-order="3">
+Newsroom
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/our-advertisers/" data-track-order="4">
+How We Make Money
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/editorial-integrity/" data-track-order="5">
+Editorial Integrity
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/rating-methodology/" data-track-order="6">
+Ratings Methodology
+</a>
+</span>
+<span>
+<a href="http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/feed" rel="noopener" target="_blank" data-track-order="7">
+RSS Feed
+</a>
+</span>
+<span>
+<a href="http://web.archive.org/web/20241010112739/https://www.fool.com/about/" rel="noopener" target="_blank" data-track-order="8">
+About The Motley Fool
+</a>
+</span>
+</div>
+</div>
+<div class="ft-col py-5 col-lg">
+<div class="ft-hd head-h3">Legal</div>
+<div class="ft-lnk-lst">
+<span>
+<a href="http://web.archive.org/web/20241010112739/https://www.fool.com/legal/terms-and-conditions/fool-rules/" rel="noopener" target="_blank" data-track-order="1">
+Terms of Use
+</a>
+</span>
+<span>
+<a href="http://web.archive.org/web/20241010112739/https://www.fool.com/legal/privacy-statement/" rel="noopener" target="_blank" data-track-order="2">
+Privacy Policy
+</a>
+</span>
+<span>
+<a href="http://web.archive.org/web/20241010112739/https://www.fool.com/legal/accessibility-policy/" rel="noopener" target="_blank" data-track-order="3">
+Accessibility Policy
+</a>
+</span>
+<span>
+<a href="http://web.archive.org/web/20241010112739/https://www.fool.com/legal/terms-and-conditions/" rel="noopener" target="_blank" data-track-order="4">
+Terms and Conditions
+</a>
+</span>
+<span>
+<a href="http://web.archive.org/web/20241010112739/https://www.fool.com/legal/stuff-we-own/" rel="noopener" target="_blank" data-track-order="5">
+Copyright, Trademark and Patent Information
+</a>
+</span>
+<span>
+<a href="http://web.archive.org/web/20241010112739/https://www.fool.com/data-protection/ccpa-update/" rel="noopener" target="_blank" data-track-order="6">
+Do Not Sell My Personal Information
+</a>
+</span>
+</div>
+</div>
+<div class="ft-col py-5 col-lg">
+<div class="ft-hd head-h3">Learn</div>
+<div class="ft-lnk-lst">
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/credit-cards/articles/" data-track-order="1">
+Credit Cards
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/banks/articles/" data-track-order="2">
+Banking
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/buying-stocks/articles/" data-track-order="3">
+Brokerage
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/cryptocurrency/articles/" data-track-order="4">
+Cryptocurrency
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/mortgages/articles/" data-track-order="5">
+Mortgages
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/insurance/articles/" data-track-order="6">
+Insurance
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/personal-loans/articles/" data-track-order="7">
+Loans
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/small-business/articles/" data-track-order="8">
+Small Business
+</a>
+</span>
+<span>
+<a href="/web/20241010112739/https://www.fool.com/the-ascent/articles/" data-track-order="9">
+Recent Articles
+</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="foot-wrap col-12 bt bg-black">
+<div class="width-limiter">
+<div class="ft-col p-5">
+<div class="lnk-wrap">
+<a class="lnk uppercase text-center" href="http://web.archive.org/web/20241010112739/https://www.fool.com/" rel="noopener">Back to The Motley Fool</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script data-cfasync="false" src="/web/20241010112739js_/https://www.fool.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/vendorImport.js" rel="preload"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/navigation.js" defer charset="UTF-8" rel="preload" as="script"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/internal_links_no_follow.js" charset="UTF-8"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/geo_loc_vars.js" charset="UTF-8" rel="preload" as="script"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/lazyload.js" async charset="UTF-8"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/tooltip.js" async defer charset="UTF-8"></script>
+
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/accordion.js" defer charset="UTF-8"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/search.js" async defer charset="UTF-8" rel="preload" as="script"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/sticky_button.js" async defer charset="UTF-8" rel="preload" as="script"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/expert_qa.js" async defer charset="UTF-8"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/ecap.js" async defer charset="UTF-8"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/fool.js" async defer charset="UTF-8"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/mms/resources/js/fool_mad_v1.js"></script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/browser_update.js" async defer charset="UTF-8"></script>
+<script>document.querySelectorAll('a[href *= "/offers/"]').forEach(element=>{element.setAttribute("target","_blank")});document.querySelectorAll("a[href^='http']:not([href^='http://web.archive.org/web/20241010112739/https://www.fool.com/the-ascent/'])").forEach(element=>{element.setAttribute("target","_blank")});;</script>
+<script>var loc=window.location.toString().replace(/[?&]from=([\w-]*)/,'');var campaign=loc.replace(/.*[?|&]utm_campaign=([\w-]*).*|^.*$/,"$1").trim().substring(0,63);var source=loc.replace(/.*[?|&]utm_source=([\w-]*).*|^.*$/,"$1").trim();var ftm_source=loc.replace(/.*[?|&]ftm_source=([\w-]*).*|^.*$/,"$1").trim().substring(0,63);if(ftm_source&&ftm_source!==""){source=ftm_source;}
+var ftm_campaign=loc.replace(/.*[?|&]ftm_campaign=([\w-]*).*|^.*$/,"$1").trim().substring(0,63);if(ftm_campaign&&ftm_campaign!==""){campaign=ftm_campaign;}
+if(campaign&&campaign!==""){document.cookie="ascent_campaign="+campaign+";path=/the-ascent;max-age=31536000";}
+if(source&&source!==""){document.cookie="ascent_source="+source+";path=/the-ascent;max-age=31536000";}
+if(document.URL.includes('yhoo')||(document.URL.includes('cpc')&&(document.URL.includes('bng')||document.URL.includes('msn')))){document.querySelectorAll('[aria-label="Navigation Disclosure"]').forEach(element=>{element.setAttribute("style","font-size: 1.6rem;");if(!document.URL.includes('yhoo')){element.innerHTML="Advertisement&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;"+element.innerHTML;}});};</script>
+<script>window.onerror=(msg)=>{document.body.setAttribute("JSError",msg)};</script>
+<script>
+    var isIE = /*@cc_on!@*/false || !!document.documentMode, // Internet Explorer 6-11
+      isEdge = !isIE && !!window.StyleMedia; // Edge 20+
+  </script>
+<script src="http://web.archive.org/web/20241010112739js_/https://g.foolcdn.com/static/affiliates/webpack_bundles/filtering_offers.js" async charset="UTF-8" defer rel="preload" as="script"></script>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 11:27:39 Oct 10, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:57:42 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.068
+  exclusion.robots: 0.052
+  exclusion.robots.policy: 0.03
+  esindex: 0.014
+  cdx.remote: 213.256
+  LoadShardBlock: 921.176 (3)
+  PetaboxLoader3.datanode: 418.514 (4)
+  PetaboxLoader3.resolve: 513.22 (2)
+  load_resource: 269.96
+-->
