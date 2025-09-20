@@ -48,9 +48,9 @@ jobs:
     
     - name: Install Python dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest pytest-asyncio pytest-timeout requests-mock
+        python -m pip install --upgrade pip --break-system-packages
+        pip install -r requirements.txt --break-system-packages
+        pip install pytest pytest-asyncio pytest-timeout requests-mock --break-system-packages
     
     - name: Create test environment
       run: |
@@ -128,9 +128,10 @@ jobs:
       if: failure()
       run: |
         mkdir -p test-artifacts
-        cp -r logs/test test-artifacts/ || true
-        cp data/test/atlas_test.db test-artifacts/ || true
-        ls -la test-artifacts/
+        cp -r logs/test test-artifacts/ 2>/dev/null || echo "No logs to copy"
+        cp data/test/atlas_test.db test-artifacts/ 2>/dev/null || echo "No test database to copy"
+        echo "Artifacts collected:"
+        ls -la test-artifacts/ 2>/dev/null || echo "No artifacts directory created"
     
     - name: Upload test artifacts
       if: failure()

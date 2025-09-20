@@ -34,9 +34,9 @@ jobs:
           
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pytest pytest-cov pytest-asyncio httpx
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        python -m pip install --upgrade pip --break-system-packages
+        pip install pytest pytest-cov pytest-asyncio httpx --break-system-packages
+        if [ -f requirements.txt ]; then pip install -r requirements.txt --break-system-packages; fi
         
     - name: Create test database
       run: |
@@ -86,9 +86,9 @@ jobs:
         
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest pytest-asyncio httpx
+        python -m pip install --upgrade pip --break-system-packages
+        pip install -r requirements.txt --break-system-packages
+        pip install pytest pytest-asyncio httpx --break-system-packages
         
     - name: Start Atlas services
       run: |
@@ -111,12 +111,12 @@ jobs:
     
     - name: Run security scan with bandit
       run: |
-        pip install bandit
+        pip install bandit --break-system-packages
         bandit -r . -f json -o bandit-report.json
-        
+
     - name: Check for security issues
       run: |
-        pip install safety
+        pip install safety --break-system-packages
         safety check --json --output safety-report.json
         
     - name: Upload security reports

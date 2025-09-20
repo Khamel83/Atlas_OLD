@@ -34,12 +34,12 @@ jobs:
 
     - name: Run Safety Security Scan
       run: |
-        pip install safety
+        pip install --break-system-packages safety
         safety check --json --output safety-report.json || true
 
     - name: Run Bandit Security Linter
       run: |
-        pip install bandit[toml]
+        pip install --break-system-packages bandit[toml]
         bandit -r . -f json -o bandit-report.json || true
 
     - name: Upload security reports
@@ -67,8 +67,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install pip-audit requirements-parser
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages pip-audit requirements-parser
 
     - name: Run dependency vulnerability scan
       run: |
@@ -135,10 +135,10 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install -r requirements-dev.txt
-        pip install pytest-xdist pytest-benchmark memory-profiler
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages -r requirements.txt
+        pip install --break-system-packages -r requirements-dev.txt
+        pip install --break-system-packages pytest-xdist pytest-benchmark memory-profiler
 
     - name: Create test environment
       run: |
@@ -217,9 +217,9 @@ jobs:
 
     - name: Install quality tools
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements-dev.txt
-        pip install ruff pre-commit
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages -r requirements-dev.txt
+        pip install --break-system-packages ruff pre-commit
 
     - name: Run ruff linter
       run: |
@@ -235,7 +235,7 @@ jobs:
 
     - name: Run complexity analysis
       run: |
-        pip install radon
+        pip install --break-system-packages radon
         radon cc . -a -nb --json | tee complexity-report.json || true
 
     - name: Upload quality reports
@@ -262,9 +262,9 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest-benchmark psutil memory-profiler
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages -r requirements.txt
+        pip install --break-system-packages pytest-benchmark psutil memory-profiler
 
     - name: Run performance benchmarks
       run: |
