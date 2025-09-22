@@ -6,22 +6,177 @@ including test environment setup, mock services, sample data, and utilities.
 """
 
 import json
+import sqlite3
 import sys
+import tempfile
+import os
 from pathlib import Path
 from typing import Generator
 from unittest.mock import MagicMock, patch
 
 import pytest
 
-# Import test utilities
-from tests import (PROJECT_ROOT, SAMPLE_METADATA, SAMPLE_URLS, TestEnvironment,
-                   create_mock_response, create_sample_article_html,
-                   create_sample_opml, create_sample_rss_feed)
-
 # Add project root to path
+PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+# Basic test utilities
+SAMPLE_URLS = [
+    "https://example.com/article1",
+    "https://example.com/article2",
+    "https://example.com/article3"
+]
+
+SAMPLE_METADATA = {
+    "title": "Test Article",
+    "author": "Test Author",
+    "published_date": "2024-01-01",
+    "url": "https://example.com/test",
+    "category": "Technology",
+    "tags": ["test", "article"]
+}
+
+def create_mock_response(content: str, status_code: int = 200):
+    """Create a mock HTTP response."""
+    mock_response = MagicMock()
+    mock_response.status_code = status_code
+    mock_response.text = content
+    mock_response.content = content.encode()
+    return mock_response
+
+def create_sample_article_html() -> str:
+    """Create sample article HTML."""
+    return '''<!DOCTYPE html>
+<html>
+<head><title>Test Article</title></head>
+<body>
+    <h1>Test Article</h1>
+    <p>This is test article content.</p>
+</body>
+</html>'''
+
+def create_sample_opml() -> str:
+    """Create sample OPML content."""
+    return '''<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+    <head>
+        <title>Test Podcasts</title>
+    </head>
+    <body>
+        <outline text="Test Podcast" xmlUrl="https://example.com/feed.xml"/>
+    </body>
+</opml>'''
+
+def create_sample_rss_feed() -> str:
+    """Create sample RSS feed."""
+    return '''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Test Podcast</title>
+        <description>Test podcast description</description>
+        <item>
+            <title>Test Episode</title>
+            <description>Test episode description</description>
+            <enclosure url="https://example.com/episode.mp3" type="audio/mpeg"/>
+        </item>
+    </channel>
+</rss>'''
+
+class TestEnvironment:
+    """Test environment manager."""
+
+    def __init__(self):
+        self.temp_dir = Path(tempfile.mkdtemp())
+        self.original_cwd = os.getcwd()
+        os.chdir(self.temp_dir)
+
+        # Set up test environment
+        os.environ.update({
+            'TESTING': 'true',
+            'DATABASE_URL': f'sqlite:///{self.temp_dir}/test.db',
+            'OPENROUTER_API_KEY': 'test_key_for_testing_only',
+            'LOG_LEVEL': 'ERROR'
+        })
+
+    def teardown(self):
+        """Clean up test environment."""
+        os.chdir(self.original_cwd)
+        import shutil
+        shutil.rmtree(self.temp_dir, ignore_errors=True)
+
 # Test Environment Fixtures
+
+
+@pytest.fixture(scope="function")
+def test_db():
+    """Create test database with proper schema."""
+    fd, path = tempfile.mkstemp(suffix='.db')
+    os.close(fd)
+
+    conn = sqlite3.connect(path)
+    cursor = conn.cursor()
+
+    # Create content table
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS content (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            url TEXT UNIQUE,
+            title TEXT,
+            content TEXT,
+            content_type TEXT,
+            source TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            tags TEXT,
+            archived INTEGER DEFAULT 0,
+            metadata TEXT
+        )
+    ''')
+
+    # Create metadata table
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS metadata (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            content_id INTEGER,
+            key TEXT,
+            value TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (content_id) REFERENCES content (id)
+        )
+    ''')
+
+    # Insert test data
+    test_content = [
+        {
+            'url': 'https://example.com/test1',
+            'title': 'Test Article 1',
+            'content': 'This is test content 1',
+            'content_type': 'article',
+            'source': 'test'
+        },
+        {
+            'url': 'https://example.com/test2',
+            'title': 'Test Article 2',
+            'content': 'This is test content 2',
+            'content_type': 'article',
+            'source': 'test'
+        }
+    ]
+
+    for item in test_content:
+        cursor.execute('''
+            INSERT OR IGNORE INTO content (url, title, content, content_type, source)
+            VALUES (?, ?, ?, ?, ?)
+        ''', (item['url'], item['title'], item['content'], item['content_type'], item['source']))
+
+    conn.commit()
+    conn.close()
+
+    yield path
+
+    # Cleanup
+    if os.path.exists(path):
+        os.unlink(path)
 
 
 @pytest.fixture(scope="function")

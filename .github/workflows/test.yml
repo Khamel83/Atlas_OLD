@@ -34,13 +34,18 @@ jobs:
           
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip --break-system-packages
-        pip install pytest pytest-cov pytest-asyncio httpx --break-system-packages
-        if [ -f requirements.txt ]; then pip install -r requirements.txt --break-system-packages; fi
+        python -m pip install --upgrade pip
+        pip install pytest pytest-cov pytest-asyncio httpx
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
+    - name: Set up environment
+      run: |
+        cp .env.test .env
+        echo "OPENROUTER_API_KEY=${{ secrets.OPENROUTER_API_KEY }}" >> .env
+        mkdir -p data
+
     - name: Create test database
       run: |
-        mkdir -p data
         sqlite3 atlas.db "CREATE TABLE IF NOT EXISTS content (id INTEGER PRIMARY KEY, title TEXT, content TEXT, content_type TEXT, created_at TEXT, updated_at TEXT, tags TEXT, archived INTEGER DEFAULT 0);"
         
     - name: Run unit tests
@@ -86,9 +91,9 @@ jobs:
         
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip --break-system-packages
-        pip install -r requirements.txt --break-system-packages
-        pip install pytest pytest-asyncio httpx --break-system-packages
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install pytest pytest-asyncio httpx
         
     - name: Start Atlas services
       run: |

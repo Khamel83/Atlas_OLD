@@ -6,9 +6,46 @@ import asyncio
 from fastapi.testclient import TestClient
 import sys
 import os
+import tempfile
+import sqlite3
 
 # Add Atlas to path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Create test database before importing web app
+test_db_path = 'test_web_atlas.db'
+conn = sqlite3.connect(test_db_path)
+cursor = conn.cursor()
+
+# Create content table
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS content (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        url TEXT UNIQUE,
+        title TEXT,
+        content TEXT,
+        content_type TEXT,
+        source TEXT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        tags TEXT,
+        archived INTEGER DEFAULT 0,
+        metadata TEXT
+    )
+''')
+
+# Insert test data
+cursor.execute('''
+    INSERT OR IGNORE INTO content (url, title, content, content_type, source)
+    VALUES (?, ?, ?, ?, ?)
+''', ('https://example.com/test', 'Test Article', 'Test content', 'article', 'test'))
+
+conn.commit()
+conn.close()
+
+# Set environment for test
+os.environ['ATLAS_DB_PATH'] = test_db_path
+os.environ['TESTING'] = 'true'
 
 from web.app import app
 

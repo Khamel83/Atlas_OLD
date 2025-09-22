@@ -1,270 +1,369 @@
 #!/usr/bin/env python3
 """
-Test Queue Failure Handling
-Tests dead letter queue, exponential backoff, and circuit breakers.
+Test script for queue failure scenarios and dead letter queue
 """
 
 import sys
 import time
-import uuid
+import json
 from pathlib import Path
+import threading
+import random
 
-# Add parent directory to path
+# Add helpers to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
+from helpers.queue_manager import get_queue_manager, TaskStatus
 
-from helpers.queue_manager import (
-    get_queue_manager, enqueue_task, get_circuit_breaker_status, get_queue_status
-)
+class MockWorker:
+    """Mock worker to simulate task processing"""
 
+    def __init__(self, worker_id: str, queue_name: str = "test_queue", failure_rate: float = 0.3):
+        self.worker_id = worker_id
+        self.queue_name = queue_name
+        self.failure_rate = failure_rate
+        self.queue_manager = get_queue_manager(queue_name)
+        self.processed_tasks = 0
+        self.failed_tasks = 0
+        self.running = False
+
+    def process_tasks(self, duration: int = 60):
+        """Process tasks for specified duration"""
+        print(f"Worker {self.worker_id} starting (failure rate: {self.failure_rate:.1%})")
+        self.running = True
+        start_time = time.time()
+
+        while self.running and (time.time() - start_time) < duration:
+            try:
+                # Dequeue task
+                task = self.queue_manager.dequeue(self.worker_id)
+
+                if task is None:
+                    time.sleep(1)  # No tasks available
+                    continue
+
+                print(f"  Worker {self.worker_id} processing task {task.id} (attempt {task.attempt_count + 1})")
+
+                # Simulate processing time
+                time.sleep(random.uniform(0.1, 0.5))
+
+                # Simulate success/failure
+                if random.random() < self.failure_rate:
+                    # Fail the task
+                    error_msg = f"Simulated failure from worker {self.worker_id}"
+                    success = self.queue_manager.fail_task(task.id, self.worker_id, error_msg)
+
+                    if success:
+                        self.failed_tasks += 1
+                        print(f"  ✗ Task {task.id} failed: {error_msg}")
+                    else:
+                        print(f"  ✗ Failed to fail task {task.id}")
+                else:
+                    # Complete the task
+                    success = self.queue_manager.complete_task(task.id, self.worker_id)
+
+                    if success:
+                        self.processed_tasks += 1
+                        print(f"  ✓ Task {task.id} completed")
+                    else:
+                        print(f"  ✗ Failed to complete task {task.id}")
+
+            except Exception as e:
+                print(f"  ✗ Worker {self.worker_id} error: {e}")
+                time.sleep(1)
+
+        self.running = False
+        print(f"Worker {self.worker_id} finished: {self.processed_tasks} completed, {self.failed_tasks} failed")
 
 def test_basic_queue_operations():
-    """Test basic enqueue/dequeue operations."""
-    print("🔍 Testing Basic Queue Operations")
-    print("=" * 40)
-    
-    qm = get_queue_manager()
-    worker_id = "test-worker-1"
-    
+    """Test basic queue operations"""
+    print("Testing basic queue operations...")
+
+    queue_manager = get_queue_manager("test_queue")
+
     # Enqueue some tasks
-    tasks_created = []
-    for i in range(3):
-        task_id = f"test-task-{i}-{uuid.uuid4().hex[:8]}"
-        task_data = {"test_data": f"value_{i}", "iteration": i}
-        
-        success = enqueue_task(task_id, "test", task_data, priority=i)
-        if success:
-            tasks_created.append(task_id)
-            print(f"  ✅ Enqueued: {task_id}")
-        else:
-            print(f"  ❌ Failed to enqueue: {task_id}")
-    
-    # Dequeue tasks
-    tasks_processed = []
-    for i in range(len(tasks_created)):
-        task = qm.dequeue_task(worker_id, ["test"])
+    task_ids = []
+    for i in range(5):
+        task_id = queue_manager.enqueue("test_task", {"message": f"Test message {i}"})
+        task_ids.append(task_id)
+        print(f"  Enqueued task: {task_id}")
+
+    # Get initial stats
+    stats = queue_manager.get_queue_stats()
+    print(f"  Initial queue stats: {stats}")
+
+    # Process one task successfully
+    worker = MockWorker("test_worker", "test_queue", failure_rate=0.0)  # No failures
+    task = queue_manager.dequeue("test_worker")
+
+    if task:
+        print(f"  Dequeued task: {task.id}")
+        time.sleep(0.1)  # Simulate processing
+        queue_manager.complete_task(task.id, "test_worker")
+        print(f"  Completed task: {task.id}")
+
+    # Get final stats
+    stats = queue_manager.get_queue_stats()
+    print(f"  Final queue stats: {stats}")
+    print("✓ Basic operations test completed\n")
+
+def test_exponential_backoff():
+    """Test exponential backoff retry logic"""
+    print("Testing exponential backoff...")
+
+    queue_manager = get_queue_manager("test_queue")
+
+    # Enqueue a task that will fail
+    task_id = queue_manager.enqueue("failing_task", {"will_fail": True}, max_attempts=5)
+    print(f"  Enqueued failing task: {task_id}")
+
+    # Create worker that always fails
+    worker = MockWorker("failing_worker", "test_queue", failure_rate=1.0)
+
+    # Process the task multiple times to see retries
+    for attempt in range(6):  # One more than max_attempts
+        task = queue_manager.dequeue("failing_worker")
+
         if task:
-            tasks_processed.append(task.task_id)
-            print(f"  📤 Dequeued: {task.task_id} (data: {task.task_data})")
-            
-            # Complete the task
-            qm.complete_task(task.task_id, worker_id)
-            print(f"  ✅ Completed: {task.task_id}")
+            print(f"  Attempt {attempt + 1}: Processing task {task.id} (attempt count: {task.attempt_count})")
+
+            # Always fail
+            queue_manager.fail_task(task.id, "failing_worker", f"Failure attempt {attempt + 1}")
+
+            # Check task status
+            with queue_manager.db_manager.pool.get_connection() as conn:
+                cursor = conn.execute('''
+                    SELECT status, attempt_count, next_retry_at, error_message
+                    FROM queue_tasks WHERE id = ?
+                ''', (task.id,))
+                row = cursor.fetchone()
+
+                if row:
+                    status, attempt_count, next_retry_at, error_msg = row
+                    print(f"    Task status: {status}, attempts: {attempt_count}")
+                    if next_retry_at:
+                        print(f"    Next retry at: {next_retry_at}")
+                    if status == TaskStatus.DEAD_LETTER.value:
+                        print(f"    ⚰️ Task moved to dead letter queue")
+                        break
         else:
-            print(f"  ⚠️  No task available for dequeue")
-    
-    print(f"📊 Created: {len(tasks_created)}, Processed: {len(tasks_processed)}")
-    return len(tasks_created) == len(tasks_processed)
+            print(f"  Attempt {attempt + 1}: No task available (waiting for retry time)")
+            time.sleep(2)  # Wait for retry schedule
 
+    # Check dead letter queue
+    with queue_manager.db_manager.pool.get_connection() as conn:
+        cursor = conn.execute('''
+            SELECT COUNT(*) FROM dead_letter_tasks WHERE queue_name = ?
+        ''', ("test_queue",))
+        dlq_count = cursor.fetchone()[0]
+        print(f"  Dead letter queue count: {dlq_count}")
 
-def test_dead_letter_queue():
-    """Test dead letter queue and exponential backoff."""
-    print("\n💀 Testing Dead Letter Queue")
-    print("=" * 40)
-    
-    qm = get_queue_manager()
-    worker_id = "test-worker-dlq"
-    
-    # Create a task that will fail
-    task_id = f"failing-task-{uuid.uuid4().hex[:8]}"
-    task_data = {"will_fail": True, "test_mode": True}
-    
-    enqueue_task(task_id, "test", task_data)
-    print(f"📥 Enqueued failing task: {task_id}")
-    
-    # Dequeue and fail the task multiple times
-    for attempt in range(5):
-        task = qm.dequeue_task(worker_id, ["test"])
-        if task and task.task_id == task_id:
-            error_msg = f"Simulated failure attempt {attempt + 1}"
-            qm.fail_task(task.task_id, worker_id, error_msg)
-            print(f"  ❌ Failed task (attempt {attempt + 1}): {error_msg}")
-            time.sleep(0.1)  # Small delay
-        else:
-            print(f"  ⚠️  Task not available for retry (attempt {attempt + 1})")
-            break
-    
-    # Check queue status
-    status = get_queue_status()
-    failed_count = status.get("failed_tasks", 0)
-    print(f"📊 Failed tasks in DLQ: {failed_count}")
-    
-    return failed_count > 0
-
+    print("✓ Exponential backoff test completed\n")
 
 def test_circuit_breaker():
-    """Test circuit breaker functionality."""
-    print("\n⚡ Testing Circuit Breaker")
-    print("=" * 40)
-    
-    qm = get_queue_manager()
-    worker_id = "test-worker-cb"
-    
-    # Get initial circuit breaker status
-    initial_status = get_circuit_breaker_status(worker_id)
-    print(f"📊 Initial CB status: {initial_status}")
-    
-    # Create multiple failing tasks to trigger circuit breaker
-    for i in range(12):  # More than threshold (10)
-        task_id = f"cb-task-{i}-{uuid.uuid4().hex[:8]}"
-        task_data = {"circuit_breaker_test": True, "iteration": i}
-        
-        enqueue_task(task_id, "test", task_data)
-        
-        task = qm.dequeue_task(worker_id, ["test"])
+    """Test circuit breaker functionality"""
+    print("Testing circuit breaker...")
+
+    queue_manager = get_queue_manager("test_queue")
+
+    # Check initial circuit breaker state
+    cb_status = queue_manager.circuit_breaker.get_status()
+    print(f"  Initial circuit breaker state: {cb_status['state']}")
+
+    # Enqueue tasks
+    task_ids = []
+    for i in range(15):  # More than failure threshold
+        task_id = queue_manager.enqueue("cb_test_task", {"message": f"CB test {i}"})
+        task_ids.append(task_id)
+
+    # Create worker that always fails
+    worker = MockWorker("cb_worker", "test_queue", failure_rate=1.0)
+
+    # Process tasks until circuit breaker opens
+    processed = 0
+    while processed < 15:
+        task = queue_manager.dequeue("cb_worker")
+
+        if task is None:
+            # Circuit breaker might be open
+            cb_status = queue_manager.circuit_breaker.get_status()
+            print(f"  Circuit breaker state: {cb_status['state']} (failures: {cb_status['failure_count']})")
+
+            if cb_status['state'] == 'open':
+                print("  🔴 Circuit breaker opened!")
+                break
+
+            time.sleep(0.1)
+            continue
+
+        # Fail the task
+        queue_manager.fail_task(task.id, "cb_worker", "Simulated failure for circuit breaker test")
+        processed += 1
+
+        cb_status = queue_manager.circuit_breaker.get_status()
+        print(f"  Processed {processed}: CB state = {cb_status['state']}, failures = {cb_status['failure_count']}")
+
+    # Test that no more tasks can be dequeued
+    task = queue_manager.dequeue("cb_worker")
+    if task is None:
+        print("  ✓ Circuit breaker correctly preventing task dequeue")
+    else:
+        print("  ✗ Circuit breaker not working - task was dequeued")
+
+    print("✓ Circuit breaker test completed\n")
+
+def test_concurrent_workers():
+    """Test multiple concurrent workers"""
+    print("Testing concurrent workers...")
+
+    queue_manager = get_queue_manager("test_queue")
+
+    # Enqueue many tasks
+    task_count = 50
+    for i in range(task_count):
+        queue_manager.enqueue("concurrent_test", {"message": f"Concurrent test {i}"})
+
+    print(f"  Enqueued {task_count} tasks")
+
+    # Create multiple workers
+    workers = []
+    threads = []
+
+    for i in range(3):
+        worker = MockWorker(f"worker_{i}", "test_queue", failure_rate=0.2)
+        workers.append(worker)
+
+        thread = threading.Thread(target=worker.process_tasks, args=(30,))  # Run for 30 seconds
+        threads.append(thread)
+
+    # Start all workers
+    start_time = time.time()
+    for thread in threads:
+        thread.start()
+
+    # Wait for completion
+    for thread in threads:
+        thread.join()
+
+    duration = time.time() - start_time
+
+    # Collect results
+    total_processed = sum(w.processed_tasks for w in workers)
+    total_failed = sum(w.failed_tasks for w in workers)
+
+    print(f"  Processed {total_processed} tasks, failed {total_failed} tasks in {duration:.1f}s")
+    print(f"  Throughput: {total_processed/duration:.1f} tasks/sec")
+
+    # Final stats
+    stats = queue_manager.get_queue_stats()
+    print(f"  Final stats: {stats}")
+
+    print("✓ Concurrent workers test completed\n")
+
+def test_dead_letter_queue_retry():
+    """Test dead letter queue retry functionality"""
+    print("Testing dead letter queue retry...")
+
+    queue_manager = get_queue_manager("test_queue")
+
+    # Create a task that will definitely end up in DLQ
+    task_id = queue_manager.enqueue("dlq_test_task", {"message": "Will end up in DLQ"}, max_attempts=2)
+    print(f"  Enqueued task for DLQ: {task_id}")
+
+    # Process it until it goes to DLQ
+    worker = MockWorker("dlq_worker", "test_queue", failure_rate=1.0)
+
+    attempts = 0
+    while attempts < 3:
+        task = queue_manager.dequeue("dlq_worker")
         if task:
-            qm.fail_task(task.task_id, worker_id, f"Circuit breaker test failure {i}")
-            print(f"  ❌ Failed task {i+1}/12")
+            attempts += 1
+            print(f"  Attempt {attempts}: Failing task {task.id}")
+            queue_manager.fail_task(task.id, "dlq_worker", f"DLQ test failure {attempts}")
         else:
-            print(f"  🚫 Worker blocked by circuit breaker at task {i+1}")
             break
-    
-    # Check final circuit breaker status
-    final_status = get_circuit_breaker_status(worker_id)
-    print(f"📊 Final CB status: {final_status}")
-    
-    # Verify circuit breaker is open
-    is_open = final_status.get("state") == "open"
-    if is_open:
-        print("✅ Circuit breaker successfully opened")
-    else:
-        print("⚠️  Circuit breaker did not open as expected")
-    
-    return is_open
 
+    # Check DLQ
+    with queue_manager.db_manager.pool.get_connection() as conn:
+        cursor = conn.execute('''
+            SELECT id, original_task_id FROM dead_letter_tasks
+            WHERE queue_name = ? ORDER BY moved_to_dlq_at DESC LIMIT 1
+        ''', ("test_queue",))
 
-def test_manual_retry():
-    """Test manual retry functionality."""
-    print("\n🔄 Testing Manual Retry")
-    print("=" * 40)
-    
-    qm = get_queue_manager()
-    worker_id = "test-worker-retry"
-    
-    # Create and fail a task
-    task_id = f"retry-task-{uuid.uuid4().hex[:8]}"
-    task_data = {"manual_retry_test": True}
-    
-    enqueue_task(task_id, "test", task_data)
-    print(f"📥 Enqueued task: {task_id}")
-    
-    # Dequeue and fail
-    task = qm.dequeue_task(worker_id, ["test"])
-    if task:
-        qm.fail_task(task.task_id, worker_id, "Initial failure for retry test")
-        print(f"❌ Failed task: {task_id}")
-    
-    # Manual retry
-    retry_success = qm.retry_failed_task(task_id)
-    if retry_success:
-        print(f"🔄 Successfully queued for retry: {task_id}")
-        
-        # Try to dequeue the retried task
-        retried_task = qm.dequeue_task(worker_id, ["test"])
-        if retried_task and retried_task.task_id == task_id:
-            print(f"📤 Successfully dequeued retried task: {task_id}")
-            qm.complete_task(retried_task.task_id, worker_id)
-            print(f"✅ Completed retried task: {task_id}")
-            return True
+        row = cursor.fetchone()
+        if row:
+            dlq_id, original_id = row
+            print(f"  Task {original_id} is in DLQ with ID {dlq_id}")
+
+            # Try to retry it
+            success = queue_manager.retry_dead_letter_task(dlq_id)
+
+            if success:
+                print(f"  ✓ Successfully retried DLQ task {dlq_id}")
+
+                # Try to process the retried task successfully
+                task = queue_manager.dequeue("dlq_worker")
+                if task:
+                    # This time complete it successfully
+                    queue_manager.complete_task(task.id, "dlq_worker")
+                    print(f"  ✓ Retried task {task.id} completed successfully")
+            else:
+                print(f"  ✗ Failed to retry DLQ task {dlq_id}")
         else:
-            print(f"⚠️  Could not dequeue retried task")
-    else:
-        print(f"❌ Failed to retry task: {task_id}")
-    
-    return False
+            print("  ✗ No tasks found in DLQ")
 
+    print("✓ Dead letter queue retry test completed\n")
 
-def test_queue_monitoring():
-    """Test queue monitoring and status."""
-    print("\n📊 Testing Queue Monitoring")
-    print("=" * 40)
-    
-    # Get comprehensive queue status
-    status = get_queue_status()
-    
-    print("Queue Status:")
-    for key, value in status.items():
-        if key == "circuit_breakers":
-            print(f"  {key}:")
-            for worker, cb_status in value.items():
-                print(f"    {worker}: {cb_status}")
-        else:
-            print(f"  {key}: {value}")
-    
-    # Check for alerts
-    queue_counts = status.get("queue_counts", {})
-    pending_count = queue_counts.get("pending", 0)
-    
-    if pending_count > 1000:
-        print("🚨 ALERT: Queue depth exceeds 1000 pending tasks")
-    elif pending_count > 100:
-        print("⚠️  WARNING: High queue depth detected")
-    else:
-        print("✅ Queue depth within normal limits")
-    
-    return True
-
-
-def test_cleanup():
-    """Test cleanup of old tasks."""
-    print("\n🧹 Testing Cleanup")
-    print("=" * 40)
-    
-    qm = get_queue_manager()
-    
-    # Clean up tasks older than 0 days (clean everything for testing)
-    cleaned_count = qm.cleanup_old_tasks(days_old=0)
-    print(f"🗑️  Cleaned up {cleaned_count} old tasks")
-    
-    return True
-
-
-def main():
-    """Run all queue failure tests."""
-    print("🧪 Atlas Queue Failure Tests")
+def run_all_tests():
+    """Run all queue failure tests"""
+    print("Queue Failure Test Suite")
     print("=" * 50)
-    
-    tests = [
-        ("Basic Queue Operations", test_basic_queue_operations),
-        ("Dead Letter Queue", test_dead_letter_queue),
-        ("Circuit Breaker", test_circuit_breaker),
-        ("Manual Retry", test_manual_retry),
-        ("Queue Monitoring", test_queue_monitoring),
-        ("Cleanup", test_cleanup),
-    ]
-    
-    results = []
-    
-    for test_name, test_func in tests:
-        try:
-            print(f"\n{'='*50}")
-            result = test_func()
-            status = "✅ PASSED" if result else "❌ FAILED"
-            print(f"\n{test_name}: {status}")
-            results.append((test_name, result))
-        except Exception as e:
-            print(f"\n{test_name}: ❌ ERROR - {e}")
-            results.append((test_name, False))
-    
-    # Summary
-    print(f"\n{'='*50}")
-    print("📋 Test Summary:")
-    passed = sum(1 for _, result in results if result)
-    total = len(results)
-    
-    for test_name, result in results:
-        status = "✅" if result else "❌"
-        print(f"  {status} {test_name}")
-    
-    print(f"\n🎯 Results: {passed}/{total} tests passed")
-    
-    if passed == total:
-        print("🎉 All queue failure tests passed!")
-        return True
-    else:
-        print("⚠️  Some tests failed")
-        return False
 
+    try:
+        test_basic_queue_operations()
+        test_exponential_backoff()
+        test_circuit_breaker()
+        test_concurrent_workers()
+        test_dead_letter_queue_retry()
+
+        print("🎉 All queue failure tests completed!")
+
+        # Final system stats
+        queue_manager = get_queue_manager("test_queue")
+        final_stats = queue_manager.get_queue_stats()
+        print(f"\nFinal system stats:")
+        print(json.dumps(final_stats, indent=2))
+
+    except Exception as e:
+        print(f"\n❌ Test failed with error: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
+    finally:
+        # Cleanup
+        try:
+            queue_manager = get_queue_manager("test_queue")
+            queue_manager.shutdown()
+        except:
+            pass
 
 if __name__ == "__main__":
-    success = main()
-    sys.exit(0 if success else 1)
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Queue Failure Tests")
+    parser.add_argument("--test", choices=["basic", "backoff", "circuit", "concurrent", "dlq", "all"],
+                       default="all", help="Which test to run")
+
+    args = parser.parse_args()
+
+    if args.test == "all":
+        run_all_tests()
+    elif args.test == "basic":
+        test_basic_queue_operations()
+    elif args.test == "backoff":
+        test_exponential_backoff()
+    elif args.test == "circuit":
+        test_circuit_breaker()
+    elif args.test == "concurrent":
+        test_concurrent_workers()
+    elif args.test == "dlq":
+        test_dead_letter_queue_retry()

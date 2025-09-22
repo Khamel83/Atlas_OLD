@@ -1,112 +1,224 @@
-# 🚀 Atlas Quick Start Guide
+# OOS Context Engineering - Quick Start Guide
 
-> **Get Atlas running in 10 minutes with this step-by-step guide**
+## 🚀 What You Get
 
-## 🌟 Try It First - Live Demo
+OOS transforms Claude Code into an intelligent middleware that:
+- **Saves you from yourself** with automated context optimization
+- **Meta-clarification** - get help from other AIs when Claude asks confusing questions
+- **Smart slash commands** - trigger powerful workflows with simple commands
+- **Automatic token optimization** - reduce context usage by 40-60%
+- **Rambling support** - dump messy thoughts and get organized results
 
-**Before installing locally**, see Atlas in action:
-👉 **[atlas.khamel.com](https://atlas.khamel.com)** - Live demo with real content
+## ⚡ 30-Second Setup
 
-## 📋 Prerequisites
+### Step 1: Install as MCP Server
+Add to your Claude Code MCP settings:
 
-- **Python 3.9+** installed
-- **Git** installed
-- **15GB free disk space** (recommended)
-
-## ⚡ Quick Installation
-
-### 1. Clone and Setup
-```bash
-# Clone the repository
-git clone https://github.com/Khamel83/Atlas.git
-cd Atlas
-
-# Run the quick install script
-./config/quick_install.sh
+```json
+{
+  "mcpServers": {
+    "oos-context": {
+      "command": "python3",
+      "args": ["/home/ubuntu/dev/oos/mcp_server.py"],
+      "cwd": "/home/ubuntu/dev/oos"
+    }
+  }
+}
 ```
 
-### 2. Start Atlas
-```bash
-# Start all services
-python atlas_service_manager.py start --daemon
+### Step 2: Restart Claude Code
+The slash commands are now available!
 
-# Check status
-python atlas_status.py
+## 🎯 How to Use (User Stories)
+
+### Story 1: "I have a messy idea and need help"
+```
+You: /brain-dump I want to add authentication but not sure OAuth vs JWT vs sessions, also need database migrations and maybe Redis for caching, also the frontend needs updating
+```
+**What happens**:
+- Auto-analyzes your rambling input
+- Optimizes context for token efficiency
+- Asks clarifying questions with multiple choice options
+- Generates a structured plan with priorities
+
+### Story 2: "Claude's questions are confusing"
+```
+Claude: "I need clarification on your authentication requirements..."
+You: /meta-ai
+```
+**What happens**:
+- Generates a structured prompt optimized for external AI
+- You copy/paste to ChatGPT or another Claude instance
+- Get better, more detailed answers
+- Paste back for optimized implementation
+
+### Story 3: "I want everything auto-optimized"
+```
+You: /help-me optimize the database performance
+```
+**What happens**:
+- Automatically optimizes context before processing
+- Analyzes your codebase for bottlenecks
+- Provides specific recommendations
+- All within optimized token budget
+
+### Story 4: "I need better documentation"
+```
+You: /smart-commit
+```
+**What happens**:
+- Analyzes your git changes
+- Generates intelligent commit message with context
+- Includes proper attribution and change summary
+
+## 📋 Available Slash Commands
+
+### Core Workflow Commands
+- `/help-me [request]` - Smart processing with auto-optimization
+- `/brain-dump [rambling]` - Process messy input into clear structure
+- `/clarify [vague request]` - Get clarification questions
+- `/workflow [complex task]` - Start structured workflow
+
+### AI Assistance Commands
+- `/meta-ai` - Generate prompt for external AI help
+- `/optimize` - Optimize context for token efficiency
+
+### Code Quality Commands
+- `/smart-commit` - Generate intelligent commit message
+- `/doc-check` - Check documentation completeness
+- `/auto-fix` - Fix code issues automatically
+
+### System Commands
+- `/context-stats` - Show token usage and optimization stats
+
+## 🎁 The Magic Behind the Scenes
+
+When you use any command, OOS automatically:
+
+1. **Analyzes your input** for clarity and intent
+2. **Optimizes token usage** through compression and filesystem offloading
+3. **Applies context engineering** using Write/Select/Compress/Isolate principles
+4. **Enhances responses** with structured workflows and AI assistance
+5. **Tracks everything** for consistency and learning
+
+## 💡 Pro Tips
+
+### Start Complex Projects
+```
+/workflow build a real-time chat app with WebSocket support
 ```
 
-### 3. Access Atlas
-Open your browser and visit:
-- **🏠 Main Dashboard**: http://localhost:7444
-- **📱 Mobile Interface**: http://localhost:7444/mobile
-- **📚 API Docs**: http://localhost:7444/docs
-- **🧠 AI Features**: http://localhost:7444/ask/
+### When Context Gets Large
+```
+/optimize
+```
+*Automatically reduces token usage while preserving important information*
 
-## 📱 Add Content
+### For Unclear Responses
+```
+/meta-ai
+```
+*Get a structured prompt to use with ChatGPT/Claude for better answers*
 
-### Web Interface
-1. Go to http://localhost:7444
-2. Click "Add Content"
-3. Paste any URL or upload files
-
-### iOS Shortcuts (Recommended)
-```bash
-# Install iOS shortcuts
-./config/install_shortcuts.sh
+### Before Committing Code
+```
+/doc-check
+/smart-commit
 ```
 
-Then say: **"Hey Siri, save to Atlas"** to capture content from any app!
-
-## 🔧 Configuration
-
-Edit `.env` file to customize:
-```env
-# Change port if needed
-API_PORT=7444
-
-# Add AI API keys (optional)
-OPENAI_API_KEY=your_key_here
-ANTHROPIC_API_KEY=your_key_here
+### When You're Rambling
+```
+/brain-dump I'm thinking about microservices but also monolith might be easier but then scaling becomes an issue and Docker is complex but Kubernetes might be overkill...
 ```
 
-## ❓ Troubleshooting
+## 🔥 Automatic Features
 
-### Service Won't Start
-```bash
-# Check detailed status
-python atlas_status.py --detailed
+### Always-On Optimization
+- Every interaction is automatically token-optimized
+- Context is compressed using multiple strategies
+- Less important information is offloaded to files
+- You get better responses with lower token costs
 
-# Check logs
-tail -f logs/atlas/atlas_service.json.log
+### Smart Clarification
+- Detects when your input is ambiguous (confidence scoring)
+- Asks targeted questions instead of generic ones
+- Supports meta-clarification for external AI assistance
+- Remembers context across clarification sessions
+
+### Self-Documentation
+- Automatically generates commit messages
+- Tracks code changes and suggests documentation updates
+- Maintains consistency across your codebase
+- Integrates with Git for seamless workflow
+
+## 🎯 Real Example Workflow
+
+```
+You: /brain-dump I need user auth but not sure what approach
+
+OOS: 🧠 Processing your request with context engineering...
+     📊 Analyzing input...
+        Intent detected: implementation
+        Confidence: 85%
+        Context tokens: 1,240
+
+     ✅ Your request is clear! Here's how I can help:
+     🏗️ I'll help you implement this with:
+        • Architecture planning
+        • Step-by-step implementation
+        • Testing and validation
+
+     🚀 Ready to proceed! What would you like me to focus on first?
+
+You: Actually the questions are complex, can you help me get better answers?
+
+OOS: /meta-ai
+
+     Here's a structured prompt for external AI assistance:
+
+     ===COPY THIS TO ANOTHER AI===
+     I'm implementing user authentication and need help choosing the right approach.
+
+     Context: Building a web application that needs secure user management
+
+     Questions:
+     1. Authentication method: OAuth2 (Google/GitHub), JWT tokens, or session-based?
+        Consider: security, user experience, implementation complexity
+
+     2. Storage: Database sessions, Redis cache, or stateless tokens?
+        Consider: scalability, performance, infrastructure requirements
+
+     Please provide specific recommendations with trade-offs for a mid-scale application.
+     ===========================
+
+[You get help from ChatGPT, return with better answers]
+
+You: [Pastes detailed AI response about OAuth2 + JWT recommendations]
+
+OOS: Perfect! Based on those clarifications, I'll optimize the context and create a detailed implementation plan...
+
+     [Automatically optimizes token usage and creates comprehensive plan]
+
+     📋 Implementation Plan:
+     1. Set up OAuth2 provider integration (Google)
+     2. Implement JWT token handling with refresh logic
+     3. Create user session management
+     4. Add security middleware and validation
+     5. Set up testing framework for auth flows
+
+     Let's start with OAuth2 provider setup. Should I begin implementation?
 ```
 
-### Port Already in Use
-```bash
-# Change port in .env file
-echo "API_PORT=8080" >> .env
+## 🎊 Bottom Line
 
-# Restart services
-python atlas_service_manager.py restart
-```
+**You don't think about token optimization, context management, or clarification workflows.**
 
-### Database Issues
-```bash
-# Check database health
-python -c "from helpers.database_config import test_database_integrity; print(test_database_integrity())"
-```
+Just use the slash commands and OOS handles everything automatically:
+- Smarter responses through context engineering
+- Lower token costs through automatic optimization
+- Better clarification through AI assistance
+- Improved code quality through automated checks
 
-## 🎯 What to Do Next
+**It's that simple!** 🎉
 
-1. **📚 Read the [Full Documentation](README.md)**
-2. **🔍 Try the [AI Features](http://localhost:7444/ask/)**
-3. **📱 Set up [iOS Integration](config/install_shortcuts.sh)**
-4. **🔧 Explore [Configuration Options](.env.template)**
-
-## 🆘 Need Help?
-
-- **📖 Documentation**: [docs/](docs/)
-- **🐛 Issues**: [GitHub Issues](https://github.com/Khamel83/Atlas/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/Khamel83/Atlas/discussions)
-
----
-
-**🎉 Welcome to Atlas!** Your personal AI knowledge system is ready to transform how you capture, organize, and discover information.
+Your Claude Code experience just got significantly more powerful and efficient.

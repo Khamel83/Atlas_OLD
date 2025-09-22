@@ -1,393 +1,687 @@
+#!/usr/bin/env python3
 """
-Centralized Database Configuration for Atlas
-
-This module provides a single source of truth for all database paths and connections
-throughout the Atlas system. Use this to prevent database path inconsistencies.
-
-Usage:
-    from helpers.database_config import get_database_path, get_database_connection
-    
-    # Get the canonical database path
-    db_path = get_database_path()
-    
-    # Get a database connection
-    conn = get_database_connection()
+SQLite database configuration with durability and corruption prevention
 """
 
-import os
 import sqlite3
-import threading
+import os
 import time
+import json
+import shutil
 import logging
+import threading
+from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Union, Optional
+from typing import Dict, List, Optional, Any, Tuple
+from contextlib import contextmanager
+import hashlib
 from queue import Queue, Empty
-from datetime import datetime
 
+class DatabasePool:
+    """Connection pool for SQLite with WAL mode and durability settings"""
 
-class DatabaseConfig:
-    """Centralized database configuration for Atlas with durability and pooling."""
-    
-    def __init__(self):
-        """Initialize database configuration."""
-        # Use environment variable or default to data/atlas.db
-        self._db_path = self._determine_database_path()
-        self._ensure_database_directory()
-        
-        # Connection pool settings
-        self._max_connections = 10
-        self._connection_pool = Queue(maxsize=self._max_connections)
-        self._pool_lock = threading.Lock()
-        self._pool_initialized = False
-        
-        # Durability settings
-        self._wal_enabled = False
-        self._last_integrity_check = None
-        self._backup_directory = self._db_path.parent / "backups"
-        self._backup_directory.mkdir(exist_ok=True)
-        
-        # Logging
-        self.logger = logging.getLogger(__name__)
-    
-    def _determine_database_path(self) -> Path:
-        """Determine the canonical database path."""
-        # Check ATLAS_DB_PATH environment variable first
-        env_path = os.getenv('ATLAS_DB_PATH')
-        if env_path:
-            project_root = Path(__file__).parent.parent
-            return project_root / env_path
-        
-        # Fallback to legacy ATLAS_DATABASE_PATH
-        legacy_env_path = os.getenv('ATLAS_DATABASE_PATH')
-        if legacy_env_path:
-            return Path(legacy_env_path).resolve()
-        
-        # Default to data/atlas.db relative to project root
-        project_root = Path(__file__).parent.parent
-        return project_root / "data" / "atlas.db"
-    
-    def _ensure_database_directory(self):
-        """Ensure the database directory exists."""
-        self._db_path.parent.mkdir(parents=True, exist_ok=True)
-    
-    @property
-    def path(self) -> Path:
-        """Get the canonical database path."""
-        return self._db_path
-    
-    @property
-    def path_str(self) -> str:
-        """Get the canonical database path as string."""
-        return str(self._db_path)
-    
-    def _configure_connection(self, conn: sqlite3.Connection) -> sqlite3.Connection:
-        """Configure a connection with durability settings."""
+    def __init__(self, db_path: str, max_connections: int = 10, timeout: int = 30):
+        self.db_path = db_path
+        self.max_connections = max_connections
+        self.timeout = timeout
+        self.pool = Queue(maxsize=max_connections)
+        self.active_connections = set()
+        self.lock = threading.Lock()
+        self.logger = logging.getLogger('database_pool')
+
+        # Initialize database and create connections
+        self._initialize_database()
+        self._create_connections()
+
+    def _initialize_database(self):
+        """Initialize database with optimal settings"""
+        # Ensure directory exists
+        os.makedirs(os.path.dirname(self.db_path), exist_ok=True)
+
+        # Create initial connection to set up database
+        conn = sqlite3.connect(self.db_path, timeout=self.timeout)
         try:
-            # Enable WAL mode for better concurrency and durability
-            conn.execute("PRAGMA journal_mode=WAL")
-            
+            self._apply_database_settings(conn)
+
+            # Create basic schema if needed
+            conn.execute('''
+                CREATE TABLE IF NOT EXISTS system_info (
+                    key TEXT PRIMARY KEY,
+                    value TEXT,
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            ''')
+
+            conn.execute('''
+                CREATE TABLE IF NOT EXISTS health_checks (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    check_type TEXT,
+                    status TEXT,
+                    details TEXT,
+                    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                )
+            ''')
+
+            conn.commit()
+
+        finally:
+            conn.close()
+
+    def _apply_database_settings(self, conn: sqlite3.Connection):
+        """Apply optimal SQLite settings for durability and performance"""
+        settings = [
+            # WAL mode for better concurrency
+            ("PRAGMA journal_mode=WAL", None),
+
             # Durability settings
-            conn.execute("PRAGMA synchronous=NORMAL")  # Balance between safety and performance
-            conn.execute("PRAGMA cache_size=-64000")   # 64MB cache
-            conn.execute("PRAGMA busy_timeout=30000")  # 30 second busy timeout
-            conn.execute("PRAGMA foreign_keys=ON")     # Enable foreign key constraints
-            conn.execute("PRAGMA temp_store=MEMORY")   # Store temp tables in memory
-            
-            # Check if WAL mode was enabled
-            cursor = conn.cursor()
-            cursor.execute("PRAGMA journal_mode")
-            mode = cursor.fetchone()[0]
-            if mode.upper() == 'WAL' and not self._wal_enabled:
-                self._wal_enabled = True
-                self.logger.info("SQLite WAL mode enabled for enhanced durability")
-            
-            return conn
-        except Exception as e:
-            self.logger.error(f"Failed to configure database connection: {e}")
-            raise
+            ("PRAGMA synchronous=NORMAL", None),  # Good balance of safety and performance
 
-    def get_connection(self) -> sqlite3.Connection:
-        """Get a configured database connection."""
-        conn = sqlite3.connect(str(self._db_path), check_same_thread=False)
-        return self._configure_connection(conn)
-    
-    def get_pooled_connection(self) -> sqlite3.Connection:
-        """Get a connection from the pool."""
-        if not self._pool_initialized:
-            self._initialize_pool()
-        
-        try:
-            # Try to get a connection from pool with timeout
-            conn = self._connection_pool.get(timeout=5.0)
-            # Test if connection is still valid
+            # Performance settings
+            ("PRAGMA cache_size=-64000", None),   # 64MB cache
+            ("PRAGMA temp_store=MEMORY", None),   # Use memory for temporary tables
+            ("PRAGMA mmap_size=134217728", None), # 128MB memory mapping
+
+            # Timeout for locks
+            ("PRAGMA busy_timeout=30000", None),  # 30 second timeout
+
+            # Foreign key support
+            ("PRAGMA foreign_keys=ON", None),
+
+            # WAL checkpoint settings
+            ("PRAGMA wal_autocheckpoint=1000", None),  # Checkpoint every 1000 pages
+        ]
+
+        for pragma, expected in settings:
             try:
-                conn.execute("SELECT 1")
-                return conn
-            except sqlite3.Error:
-                # Connection is stale, create new one
-                conn.close()
-                return self.get_connection()
-        except Empty:
-            # Pool is empty, create new connection
-            return self.get_connection()
-    
-    def return_connection(self, conn: sqlite3.Connection):
-        """Return a connection to the pool."""
-        if conn and not self._connection_pool.full():
-            try:
-                self._connection_pool.put_nowait(conn)
-            except:
-                conn.close()
-        else:
-            if conn:
-                conn.close()
-    
-    def _initialize_pool(self):
-        """Initialize the connection pool."""
-        with self._pool_lock:
-            if self._pool_initialized:
-                return
-            
-            # Pre-populate pool with connections
-            for _ in range(min(3, self._max_connections)):  # Start with 3 connections
-                try:
-                    conn = self.get_connection()
-                    self._connection_pool.put_nowait(conn)
-                except Exception as e:
-                    self.logger.error(f"Failed to initialize connection pool: {e}")
-                    break
-            
-            self._pool_initialized = True
-            self.logger.info(f"Database connection pool initialized with {self._connection_pool.qsize()} connections")
-    
-    def check_integrity(self) -> bool:
-        """Check database integrity."""
-        try:
-            conn = self.get_connection()
-            cursor = conn.cursor()
-            cursor.execute("PRAGMA integrity_check")
-            result = cursor.fetchone()[0]
-            conn.close()
-            
-            if result == "ok":
-                self._last_integrity_check = datetime.now()
-                self.logger.info("Database integrity check passed")
-                return True
-            else:
-                self.logger.error(f"Database integrity check failed: {result}")
-                return False
-        except Exception as e:
-            self.logger.error(f"Failed to check database integrity: {e}")
-            return False
-    
-    def should_check_integrity(self) -> bool:
-        """Check if integrity check is due (every 24 hours)."""
-        if not self._last_integrity_check:
-            return True
-        
-        hours_since_check = (datetime.now() - self._last_integrity_check).total_seconds() / 3600
-        return hours_since_check >= 24
-    
-    def vacuum_if_needed(self) -> bool:
-        """Vacuum database if fragmentation > 25%."""
-        try:
-            conn = self.get_connection()
-            cursor = conn.cursor()
-            
-            # Get page count and free pages
-            cursor.execute("PRAGMA page_count")
-            page_count = cursor.fetchone()[0]
-            cursor.execute("PRAGMA freelist_count") 
-            free_pages = cursor.fetchone()[0]
-            
-            if page_count > 0:
-                fragmentation = (free_pages / page_count) * 100
-                if fragmentation > 25:
-                    self.logger.info(f"Database fragmentation at {fragmentation:.1f}%, running VACUUM")
-                    cursor.execute("VACUUM")
-                    conn.close()
-                    self.logger.info("Database VACUUM completed")
-                    return True
+                result = conn.execute(pragma).fetchone()
+                if expected and result and result[0] != expected:
+                    self.logger.warning(f"Setting {pragma} returned {result}, expected {expected}")
                 else:
-                    self.logger.debug(f"Database fragmentation at {fragmentation:.1f}%, VACUUM not needed")
-            
-            conn.close()
-            return False
-        except Exception as e:
-            self.logger.error(f"Failed to vacuum database: {e}")
-            return False
-    
-    def create_backup(self) -> Optional[Path]:
-        """Create a database backup."""
+                    self.logger.debug(f"Applied setting: {pragma}")
+            except Exception as e:
+                self.logger.error(f"Failed to apply setting {pragma}: {e}")
+
+    def _create_connections(self):
+        """Create initial connection pool"""
+        for i in range(self.max_connections):
+            try:
+                conn = sqlite3.connect(
+                    self.db_path,
+                    timeout=self.timeout,
+                    check_same_thread=False,
+                    isolation_level=None  # Autocommit mode
+                )
+
+                # Apply settings
+                self._apply_database_settings(conn)
+
+                # Set row factory for better usability
+                conn.row_factory = sqlite3.Row
+
+                self.pool.put(conn)
+
+            except Exception as e:
+                self.logger.error(f"Failed to create connection {i}: {e}")
+
+    @contextmanager
+    def get_connection(self):
+        """Get a connection from the pool"""
+        conn = None
         try:
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            backup_path = self._backup_directory / f"atlas_backup_{timestamp}.db"
-            
-            # Use SQLite backup API for consistent backup
-            source_conn = self.get_connection()
-            backup_conn = sqlite3.connect(str(backup_path), check_same_thread=False)
-            
-            source_conn.backup(backup_conn)
-            
-            backup_conn.close()
-            source_conn.close()
-            
-            self.logger.info(f"Database backup created: {backup_path}")
-            return backup_path
-        except Exception as e:
-            self.logger.error(f"Failed to create database backup: {e}")
-            return None
-    
-    def restore_from_backup(self, backup_path: Optional[Path] = None) -> bool:
-        """Restore database from backup."""
+            # Get connection from pool
+            conn = self.pool.get(timeout=self.timeout)
+
+            # Track active connection
+            with self.lock:
+                self.active_connections.add(conn)
+
+            # Test connection
+            conn.execute("SELECT 1").fetchone()
+
+            yield conn
+
+        except Empty:
+            raise sqlite3.OperationalError("Connection pool timeout")
+        except sqlite3.Error as e:
+            if conn:
+                # Connection might be corrupted, create new one
+                try:
+                    conn.close()
+                except:
+                    pass
+
+                # Create replacement connection
+                try:
+                    conn = sqlite3.connect(
+                        self.db_path,
+                        timeout=self.timeout,
+                        check_same_thread=False,
+                        isolation_level=None
+                    )
+                    self._apply_database_settings(conn)
+                    conn.row_factory = sqlite3.Row
+                    yield conn
+                except Exception as e2:
+                    self.logger.error(f"Failed to create replacement connection: {e2}")
+                    raise e
+            else:
+                raise e
+        finally:
+            if conn:
+                try:
+                    # Remove from active connections
+                    with self.lock:
+                        self.active_connections.discard(conn)
+
+                    # Return to pool
+                    self.pool.put(conn, block=False)
+                except:
+                    # Pool might be full or connection invalid
+                    try:
+                        conn.close()
+                    except:
+                        pass
+
+    def close_all(self):
+        """Close all connections in pool"""
+        with self.lock:
+            # Close active connections
+            for conn in list(self.active_connections):
+                try:
+                    conn.close()
+                except:
+                    pass
+
+            # Close pooled connections
+            while not self.pool.empty():
+                try:
+                    conn = self.pool.get_nowait()
+                    conn.close()
+                except:
+                    pass
+
+    def get_stats(self) -> Dict:
+        """Get pool statistics"""
+        return {
+            'db_path': self.db_path,
+            'max_connections': self.max_connections,
+            'available_connections': self.pool.qsize(),
+            'active_connections': len(self.active_connections),
+            'timeout': self.timeout
+        }
+
+class DatabaseManager:
+    """High-level database management with backup and integrity checking"""
+
+    def __init__(self, db_path: str = "data/oos.db", backup_dir: str = "data/backups"):
+        self.db_path = db_path
+        self.backup_dir = backup_dir
+        self.pool = DatabasePool(db_path)
+        self.logger = self._setup_logging()
+
+        # Ensure backup directory exists
+        os.makedirs(backup_dir, exist_ok=True)
+
+        # Background tasks
+        self.backup_thread = None
+        self.integrity_thread = None
+        self.shutdown_flag = threading.Event()
+
+        self.logger.info(f"Database manager initialized for {db_path}")
+
+    def _setup_logging(self) -> logging.Logger:
+        """Setup logging for database manager"""
+        logger = logging.getLogger('database_manager')
+        logger.setLevel(logging.INFO)
+
+        if not logger.handlers:
+            handler = logging.FileHandler('data/database.log')
+            os.makedirs(os.path.dirname('data/database.log'), exist_ok=True)
+            formatter = logging.Formatter(
+                '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+            )
+            handler.setFormatter(formatter)
+            logger.addHandler(handler)
+
+        return logger
+
+    def check_integrity(self) -> Dict:
+        """Perform database integrity check"""
+        start_time = time.time()
+        result = {
+            'timestamp': datetime.now().isoformat(),
+            'status': 'unknown',
+            'errors': [],
+            'warnings': [],
+            'duration': 0
+        }
+
         try:
-            if not backup_path:
-                # Find most recent backup
-                backups = list(self._backup_directory.glob("atlas_backup_*.db"))
-                if not backups:
-                    self.logger.error("No backups found for restoration")
-                    return False
-                backup_path = max(backups, key=lambda p: p.stat().st_mtime)
-            
-            if not backup_path.exists():
-                self.logger.error(f"Backup file not found: {backup_path}")
-                return False
-            
-            # Create backup of current DB before restore
-            self.create_backup()
-            
+            with self.pool.get_connection() as conn:
+                # PRAGMA integrity_check
+                self.logger.info("Running integrity check...")
+
+                integrity_result = conn.execute("PRAGMA integrity_check").fetchall()
+
+                if len(integrity_result) == 1 and integrity_result[0][0] == 'ok':
+                    result['status'] = 'healthy'
+                    self.logger.info("Database integrity check passed")
+                else:
+                    result['status'] = 'corrupted'
+                    result['errors'] = [row[0] for row in integrity_result]
+                    self.logger.error(f"Database integrity check failed: {result['errors']}")
+
+                # Additional checks
+                try:
+                    # Check for WAL mode
+                    journal_mode = conn.execute("PRAGMA journal_mode").fetchone()[0]
+                    if journal_mode.upper() != 'WAL':
+                        result['warnings'].append(f"Journal mode is {journal_mode}, expected WAL")
+
+                    # Check synchronous setting
+                    sync_mode = conn.execute("PRAGMA synchronous").fetchone()[0]
+                    if sync_mode != 1:  # NORMAL = 1
+                        result['warnings'].append(f"Synchronous mode is {sync_mode}, expected 1 (NORMAL)")
+
+                    # Check database size and page count
+                    page_count = conn.execute("PRAGMA page_count").fetchone()[0]
+                    page_size = conn.execute("PRAGMA page_size").fetchone()[0]
+                    db_size = page_count * page_size
+
+                    result['database_info'] = {
+                        'page_count': page_count,
+                        'page_size': page_size,
+                        'size_bytes': db_size,
+                        'journal_mode': journal_mode,
+                        'synchronous': sync_mode
+                    }
+
+                except Exception as e:
+                    result['warnings'].append(f"Could not collect database info: {e}")
+
+        except Exception as e:
+            result['status'] = 'error'
+            result['errors'].append(str(e))
+            self.logger.error(f"Integrity check failed: {e}")
+
+        result['duration'] = time.time() - start_time
+
+        # Log result to health_checks table
+        self._log_health_check('integrity_check', result['status'], json.dumps(result))
+
+        return result
+
+    def _log_health_check(self, check_type: str, status: str, details: str):
+        """Log health check result to database"""
+        try:
+            with self.pool.get_connection() as conn:
+                conn.execute(
+                    "INSERT INTO health_checks (check_type, status, details) VALUES (?, ?, ?)",
+                    (check_type, status, details)
+                )
+
+                # Keep only last 100 health checks
+                conn.execute("""
+                    DELETE FROM health_checks
+                    WHERE id NOT IN (
+                        SELECT id FROM health_checks
+                        ORDER BY timestamp DESC
+                        LIMIT 100
+                    )
+                """)
+        except Exception as e:
+            self.logger.error(f"Failed to log health check: {e}")
+
+    def create_backup(self, backup_name: Optional[str] = None) -> Dict:
+        """Create database backup"""
+        if backup_name is None:
+            backup_name = f"oos_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.db"
+
+        backup_path = os.path.join(self.backup_dir, backup_name)
+        start_time = time.time()
+
+        result = {
+            'timestamp': datetime.now().isoformat(),
+            'backup_name': backup_name,
+            'backup_path': backup_path,
+            'success': False,
+            'size_bytes': 0,
+            'duration': 0,
+            'error': None
+        }
+
+        try:
+            self.logger.info(f"Creating backup: {backup_name}")
+
+            with self.pool.get_connection() as conn:
+                # Use SQLite's backup API
+                backup_conn = sqlite3.connect(backup_path)
+                try:
+                    conn.backup(backup_conn)
+
+                    # Verify backup
+                    backup_conn.execute("PRAGMA integrity_check").fetchone()
+
+                    result['success'] = True
+                    result['size_bytes'] = os.path.getsize(backup_path)
+
+                    self.logger.info(f"Backup created successfully: {backup_path} ({result['size_bytes']} bytes)")
+
+                finally:
+                    backup_conn.close()
+
+        except Exception as e:
+            result['error'] = str(e)
+            self.logger.error(f"Backup failed: {e}")
+
+            # Clean up failed backup
+            try:
+                if os.path.exists(backup_path):
+                    os.remove(backup_path)
+            except:
+                pass
+
+        result['duration'] = time.time() - start_time
+
+        # Clean up old backups (keep last 10)
+        self._cleanup_old_backups()
+
+        return result
+
+    def _cleanup_old_backups(self):
+        """Clean up old backup files"""
+        try:
+            backups = []
+            for file in os.listdir(self.backup_dir):
+                if file.startswith('oos_backup_') and file.endswith('.db'):
+                    file_path = os.path.join(self.backup_dir, file)
+                    mtime = os.path.getmtime(file_path)
+                    backups.append((mtime, file_path))
+
+            # Sort by modification time (oldest first)
+            backups.sort()
+
+            # Remove oldest backups, keep last 10
+            for mtime, file_path in backups[:-10]:
+                try:
+                    os.remove(file_path)
+                    self.logger.debug(f"Removed old backup: {file_path}")
+                except Exception as e:
+                    self.logger.warning(f"Failed to remove old backup {file_path}: {e}")
+
+        except Exception as e:
+            self.logger.error(f"Failed to cleanup old backups: {e}")
+
+    def restore_from_backup(self, backup_name: str) -> Dict:
+        """Restore database from backup"""
+        backup_path = os.path.join(self.backup_dir, backup_name)
+
+        result = {
+            'timestamp': datetime.now().isoformat(),
+            'backup_name': backup_name,
+            'success': False,
+            'error': None
+        }
+
+        if not os.path.exists(backup_path):
+            result['error'] = f"Backup file not found: {backup_path}"
+            return result
+
+        try:
+            self.logger.info(f"Restoring from backup: {backup_name}")
+
+            # Close all connections
+            self.pool.close_all()
+
+            # Create backup of current database
+            current_backup = f"pre_restore_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.db"
+            shutil.copy2(self.db_path, os.path.join(self.backup_dir, current_backup))
+
             # Restore from backup
-            backup_conn = sqlite3.connect(str(backup_path), check_same_thread=False)
-            current_conn = sqlite3.connect(str(self._db_path), check_same_thread=False)
-            
-            backup_conn.backup(current_conn)
-            
-            current_conn.close()
-            backup_conn.close()
-            
-            self.logger.info(f"Database restored from backup: {backup_path}")
-            return True
+            shutil.copy2(backup_path, self.db_path)
+
+            # Recreate connection pool
+            self.pool = DatabasePool(self.db_path)
+
+            # Verify restored database
+            integrity_result = self.check_integrity()
+
+            if integrity_result['status'] == 'healthy':
+                result['success'] = True
+                self.logger.info(f"Database restored successfully from {backup_name}")
+            else:
+                result['error'] = f"Restored database failed integrity check: {integrity_result['errors']}"
+                self.logger.error(result['error'])
+
         except Exception as e:
-            self.logger.error(f"Failed to restore from backup: {e}")
-            return False
+            result['error'] = str(e)
+            self.logger.error(f"Restore failed: {e}")
 
+        return result
 
-# Global instance
-_db_config = DatabaseConfig()
+    def vacuum_database(self, check_fragmentation: bool = True) -> Dict:
+        """Vacuum database if fragmentation exceeds threshold"""
+        result = {
+            'timestamp': datetime.now().isoformat(),
+            'vacuum_performed': False,
+            'fragmentation_before': 0,
+            'fragmentation_after': 0,
+            'success': False,
+            'error': None,
+            'duration': 0
+        }
 
+        start_time = time.time()
 
-def get_database_path() -> Path:
-    """Get the canonical Atlas database path.
-    
-    Returns:
-        Path to the Atlas database file
-    """
-    return _db_config.path
+        try:
+            with self.pool.get_connection() as conn:
+                if check_fragmentation:
+                    # Check fragmentation
+                    page_count = conn.execute("PRAGMA page_count").fetchone()[0]
+                    freelist_count = conn.execute("PRAGMA freelist_count").fetchone()[0]
 
+                    if page_count > 0:
+                        fragmentation = (freelist_count / page_count) * 100
+                        result['fragmentation_before'] = fragmentation
 
-def get_database_path_str() -> str:
-    """Get the canonical Atlas database path as string.
-    
-    Returns:
-        String path to the Atlas database file
-    """
-    return _db_config.path_str
+                        if fragmentation < 25.0:  # Less than 25% fragmentation
+                            self.logger.info(f"Database fragmentation {fragmentation:.1f}% is below threshold, skipping vacuum")
+                            result['success'] = True
+                            return result
 
+                # Perform vacuum
+                self.logger.info("Starting database vacuum...")
+                conn.execute("VACUUM")
+                result['vacuum_performed'] = True
 
-def get_database_connection() -> sqlite3.Connection:
-    """Get a connection to the Atlas database.
-    
-    Returns:
-        SQLite connection to the Atlas database
-    """
-    return _db_config.get_connection()
+                # Check fragmentation after vacuum
+                if check_fragmentation:
+                    page_count = conn.execute("PRAGMA page_count").fetchone()[0]
+                    freelist_count = conn.execute("PRAGMA freelist_count").fetchone()[0]
 
+                    if page_count > 0:
+                        fragmentation = (freelist_count / page_count) * 100
+                        result['fragmentation_after'] = fragmentation
 
-def get_pooled_connection() -> sqlite3.Connection:
-    """Get a pooled connection to the Atlas database.
-    
-    Returns:
-        SQLite connection from the connection pool
-    """
-    return _db_config.get_pooled_connection()
+                result['success'] = True
+                self.logger.info("Database vacuum completed successfully")
 
+        except Exception as e:
+            result['error'] = str(e)
+            self.logger.error(f"Vacuum failed: {e}")
 
-def return_pooled_connection(conn: sqlite3.Connection):
-    """Return a connection to the pool.
-    
-    Args:
-        conn: Connection to return to pool
-    """
-    _db_config.return_connection(conn)
+        result['duration'] = time.time() - start_time
+        return result
 
+    def start_background_tasks(self):
+        """Start background backup and integrity checking"""
+        if self.backup_thread is None or not self.backup_thread.is_alive():
+            self.backup_thread = threading.Thread(target=self._backup_worker, daemon=True)
+            self.backup_thread.start()
 
-def test_database_integrity() -> bool:
-    """Test database integrity.
-    
-    Returns:
-        True if integrity check passes
-    """
-    return _db_config.check_integrity()
+        if self.integrity_thread is None or not self.integrity_thread.is_alive():
+            self.integrity_thread = threading.Thread(target=self._integrity_worker, daemon=True)
+            self.integrity_thread.start()
 
+    def _backup_worker(self):
+        """Background worker for periodic backups"""
+        backup_interval = 6 * 3600  # 6 hours
 
-def vacuum_database() -> bool:
-    """Vacuum database if needed.
-    
-    Returns:
-        True if vacuum was performed
-    """
-    return _db_config.vacuum_if_needed()
+        while not self.shutdown_flag.is_set():
+            try:
+                self.create_backup()
 
+                # Wait for next backup
+                if self.shutdown_flag.wait(backup_interval):
+                    break
 
-def create_database_backup() -> Optional[Path]:
-    """Create a database backup.
-    
-    Returns:
-        Path to backup file if successful
-    """
-    return _db_config.create_backup()
+            except Exception as e:
+                self.logger.error(f"Background backup failed: {e}")
+                # Wait 30 minutes before retrying
+                if self.shutdown_flag.wait(1800):
+                    break
 
+    def _integrity_worker(self):
+        """Background worker for periodic integrity checks"""
+        check_interval = 24 * 3600  # 24 hours
 
-def restore_database(backup_path: Optional[Path] = None) -> bool:
-    """Restore database from backup.
-    
-    Args:
-        backup_path: Path to backup file (uses latest if None)
-        
-    Returns:
-        True if restore successful
-    """
-    return _db_config.restore_from_backup(backup_path)
+        while not self.shutdown_flag.is_set():
+            try:
+                integrity_result = self.check_integrity()
 
+                if integrity_result['status'] != 'healthy':
+                    self.logger.error("Database integrity check failed, attempting recovery...")
+                    # Attempt recovery from latest backup
+                    backups = self.list_backups()
+                    if backups:
+                        latest_backup = backups[0]['name']  # Assuming sorted by date
+                        restore_result = self.restore_from_backup(latest_backup)
+                        if restore_result['success']:
+                            self.logger.info(f"Database recovered from backup: {latest_backup}")
+                        else:
+                            self.logger.error(f"Recovery failed: {restore_result['error']}")
 
-def update_database_path(new_path: Union[str, Path]) -> None:
-    """Update the database path (for migration purposes).
-    
-    Args:
-        new_path: New database path
-    """
-    global _db_config
-    _db_config._db_path = Path(new_path).resolve()
-    _db_config._ensure_database_directory()
+                # Wait for next check
+                if self.shutdown_flag.wait(check_interval):
+                    break
 
+            except Exception as e:
+                self.logger.error(f"Background integrity check failed: {e}")
+                # Wait 1 hour before retrying
+                if self.shutdown_flag.wait(3600):
+                    break
 
-# Backward compatibility functions
-def get_atlas_db_path() -> str:
-    """Backward compatibility function."""
-    return get_database_path_str()
+    def list_backups(self) -> List[Dict]:
+        """List available backup files"""
+        backups = []
 
+        try:
+            for file in os.listdir(self.backup_dir):
+                if file.startswith('oos_backup_') and file.endswith('.db'):
+                    file_path = os.path.join(self.backup_dir, file)
+                    stat = os.stat(file_path)
+
+                    backups.append({
+                        'name': file,
+                        'path': file_path,
+                        'size': stat.st_size,
+                        'created': datetime.fromtimestamp(stat.st_ctime).isoformat(),
+                        'modified': datetime.fromtimestamp(stat.st_mtime).isoformat()
+                    })
+
+            # Sort by creation time (newest first)
+            backups.sort(key=lambda x: x['created'], reverse=True)
+
+        except Exception as e:
+            self.logger.error(f"Failed to list backups: {e}")
+
+        return backups
+
+    def get_status(self) -> Dict:
+        """Get database manager status"""
+        return {
+            'db_path': self.db_path,
+            'backup_dir': self.backup_dir,
+            'pool_stats': self.pool.get_stats(),
+            'backup_count': len(self.list_backups()),
+            'background_tasks': {
+                'backup_thread_alive': self.backup_thread.is_alive() if self.backup_thread else False,
+                'integrity_thread_alive': self.integrity_thread.is_alive() if self.integrity_thread else False
+            }
+        }
+
+    def shutdown(self):
+        """Shutdown database manager"""
+        self.logger.info("Shutting down database manager...")
+
+        # Signal background threads to stop
+        self.shutdown_flag.set()
+
+        # Wait for threads to finish
+        if self.backup_thread and self.backup_thread.is_alive():
+            self.backup_thread.join(timeout=30)
+
+        if self.integrity_thread and self.integrity_thread.is_alive():
+            self.integrity_thread.join(timeout=30)
+
+        # Close connection pool
+        self.pool.close_all()
+
+        self.logger.info("Database manager shutdown complete")
+
+# Global database manager instance
+_db_manager = None
+_db_manager_lock = threading.Lock()
+
+def get_database_manager(db_path: str = "data/oos.db") -> DatabaseManager:
+    """Get global database manager instance"""
+    global _db_manager
+
+    with _db_manager_lock:
+        if _db_manager is None:
+            _db_manager = DatabaseManager(db_path)
+        return _db_manager
+
+def test_database_integrity():
+    """Test database integrity (for validation)"""
+    db_manager = get_database_manager()
+    result = db_manager.check_integrity()
+    print(json.dumps(result, indent=2))
+    return result['status'] == 'healthy'
 
 if __name__ == "__main__":
-    print(f"Atlas Database Path: {get_database_path()}")
-    print(f"Database exists: {get_database_path().exists()}")
-    
-    # Test connection
+    # CLI interface for testing
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Database Configuration Manager")
+    parser.add_argument("--db", default="data/oos.db", help="Database path")
+    parser.add_argument("--backup", action="store_true", help="Create backup")
+    parser.add_argument("--integrity", action="store_true", help="Check integrity")
+    parser.add_argument("--vacuum", action="store_true", help="Vacuum database")
+    parser.add_argument("--status", action="store_true", help="Show status")
+    parser.add_argument("--list-backups", action="store_true", help="List backups")
+
+    args = parser.parse_args()
+
+    db_manager = DatabaseManager(args.db)
+
     try:
-        conn = get_database_connection()
-        cursor = conn.cursor()
-        cursor.execute("SELECT COUNT(*) FROM sqlite_master WHERE type='table'")
-        table_count = cursor.fetchone()[0]
-        conn.close()
-        print(f"Database tables: {table_count}")
-    except Exception as e:
-        print(f"Database connection error: {e}")
+        if args.backup:
+            result = db_manager.create_backup()
+            print(json.dumps(result, indent=2))
+        elif args.integrity:
+            result = db_manager.check_integrity()
+            print(json.dumps(result, indent=2))
+        elif args.vacuum:
+            result = db_manager.vacuum_database()
+            print(json.dumps(result, indent=2))
+        elif args.list_backups:
+            backups = db_manager.list_backups()
+            print(json.dumps(backups, indent=2))
+        elif args.status:
+            status = db_manager.get_status()
+            print(json.dumps(status, indent=2))
+        else:
+            print("Use --help for usage information")
+    finally:
+        db_manager.shutdown()
