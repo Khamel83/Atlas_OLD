@@ -1,0 +1,1517 @@
+# Content from https://www.egonzehnder.com/reversing-the-she-cession
+
+*Retrieved: 2025-09-15T01:33:09.067938*
+
+---
+
+<!DOCTYPE html>
+<html class="en" lang="en">
+    <head>
+        <title>&quot;Reversing the &ldquo;She-cession&rdquo; - Egon Zehnder</title><link href="https://www.egonzehnder.com/assets/build/css/app.css?revision=e096afdb81e9913baed95f96766d1b0b071904cf" rel="stylesheet" type="text/css" nonce="5a0648e06a5ae9ce7fd380ccd0f05fda"/><link rel="alternate" type="application/rss+xml" title="Insights En" href="https://www.egonzehnder.com/rss/app-insights-en"/>
+<link rel="preconnect" href="https://www.google.com"/>
+<link rel="preconnect" href="https://www.gstatic.com" crossorigin="anonymous"/>
+<link rel="preconnect" href="https://consent.cookiebot.com"/>
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e541c2eb-2b2f-42e4-8130-098b5047b200" data-blockingmode="auto" data-georegions="{'region':'US','cbid':'48e38815-be02-4514-9b0d-27668ac51b87'}" type="text/javascript" nonce="5a0648e06a5ae9ce7fd380ccd0f05fda"></script>
+<script src="https://www.egonzehnder.com/assets/build/js/deferred.js" defer="defer" nonce="5a0648e06a5ae9ce7fd380ccd0f05fda"></script>
+<link rel="preload" as="font" href="https://www.egonzehnder.com/assets/fonts/MessinaSansWeb-Light.woff2?revision=e096afdb81e9913baed95f96766d1b0b071904cf" crossorigin="anonymous"/>
+<link rel="preload" as="font" href="https://www.egonzehnder.com/assets/fonts/MessinaSansWeb-Regular.woff2?revision=e096afdb81e9913baed95f96766d1b0b071904cf" crossorigin="anonymous"/>
+<link rel="preload" as="font" href="https://www.egonzehnder.com/assets/fonts/MessinaSansWeb-SemiBold.woff2?revision=e096afdb81e9913baed95f96766d1b0b071904cf" crossorigin="anonymous"/>
+<link rel="preload" as="font" href="https://www.egonzehnder.com/assets/fonts/MessinaSansWeb-Bold.woff2?revision=e096afdb81e9913baed95f96766d1b0b071904cf" crossorigin="anonymous"/>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebPage","articleSection":"Micro-site","name":"Reversing the \u201cShe-cession\u201d: Retaining and Empowering Female Leaders","headline":"","url":"https:\/\/www.egonzehnder.com\/reversing-the-she-cession","image":{"@type":"ImageObject","url":"https:\/\/www.egonzehnder.com\/cache\/public\/article-images-1634585444-9be5a221044210c67ba5a16076dd9ba0-CROP-3000x900.jpg"},"datePublished":"2021-10-18T19:30:54+00:00","dateCreated":"2021-10-18T11:10:15+00:00","dateModified":"2025-01-08T17:25:58+00:00","author":[{"@type":"Person","name":"Cheryl Soltis Martel"}],"publisher":{"@type":"Organization","name":"Egon Zehnder","url":"https:\/\/www.egonzehnder.com\/","logo":{"@type":"ImageObject","url":"https:\/\/www.egonzehnder.com\/assets\/svg\/ez-logo.svg?revision=e096afdb81e9913baed95f96766d1b0b071904cf"}},"keywords":["Language: EN","Ad-hoc Consultant: Cheryl Soltis Martel","Topic: Inclusion","Insight Category: Studies & Reports"]}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="icon" href="https://www.egonzehnder.com/favicon.ico?v=2"/>
+<link rel="icon" type="image/png" href="https://www.egonzehnder.com/assets/img/favicons/xfavicon-16x16.png.pagespeed.ic.x1lyghovz2.png" sizes="16x16"/>
+<link rel="icon" type="image/png" href="https://www.egonzehnder.com/assets/img/favicons/xfavicon-32x32.png.pagespeed.ic.0Z7ya7UfJ7.png" sizes="32x32"/>
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.egonzehnder.com/assets/img/favicons/xapple-touch-icon.png.pagespeed.ic.eGdnCWLAG8.png"/>
+<link rel="mask-icon" type="image/svg+xml" href="https://www.egonzehnder.com/assets/img/favicons/safari-pinned-tab.svg"/>
+<meta name="theme-color" content="#ffffff"/>
+<meta property="fb:app_id" content="283884432100093"/>
+<link rel="alternate" hreflang="en" href="https://www.egonzehnder.com/reversing-the-she-cession"/>
+<link rel="alternate" hreflang="de" href="https://www.egonzehnder.com/de/reversing-the-she-cession"/>
+<link rel="alternate" hreflang="zh" href="https://www.egonzehnder.com/cn/reversing-the-she-cession"/>
+<link rel="alternate" hreflang="ja" href="https://www.egonzehnder.com/jp/reversing-the-she-cession"/>
+<link rel="preload" as="image" href="https://www.egonzehnder.com/assets/img/textures-new/700x420.jpg"/>
+<link rel="preload" as="image" href="https://www.egonzehnder.com/assets/img/textures-new/3000x1800.jpg"/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="index,follow,max-image-preview:large"/>
+<meta property="og:title" content="&quot;Reversing the &ldquo;She-cession&rdquo; - Egon Zehnder"/>
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="en"/>
+<meta property="og:site_name" content="Egon Zehnder"/>
+<meta property="og:url" content="https://www.egonzehnder.com/reversing-the-she-cession"/>
+<meta property="og:description" content="&quot;At the start of the COVID-19 pandemic, there was a &ldquo;she-cession.&rdquo; Globally,  women lost jobs due to the pandemic at a rate 1.8 times greater than men.&quot;"/>
+<meta name="twitter:title" content="&quot;Reversing the &ldquo;She-cession&rdquo; - Egon Zehnder"/>
+<meta name="twitter:description" content="&quot;At the start of the COVID-19 pandemic, there was a &ldquo;she-cession.&rdquo; Globally,  women lost jobs due to the pandemic at a rate 1.8 times greater than men.&quot;"/>
+<meta name="twitter:site" content=""/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta itemprop="name" content="&quot;Reversing the &ldquo;She-cession&rdquo; - Egon Zehnder"/>
+<meta itemprop="description" content="&quot;At the start of the COVID-19 pandemic, there was a &ldquo;she-cession.&rdquo; Globally,  women lost jobs due to the pandemic at a rate 1.8 times greater than men.&quot;"/>
+<meta property="og:image" content="https://www.egonzehnder.com/cache/public/article-images-1634585444-9be5a221044210c67ba5a16076dd9ba0-CROP-1200x630.jpg"/>
+<meta name="twitter:image" content="https://www.egonzehnder.com/cache/public/article-images-1634585444-9be5a221044210c67ba5a16076dd9ba0-CROP-1200x630.jpg"/>
+<meta itemprop="image" content="https://www.egonzehnder.com/cache/public/article-images-1634585444-9be5a221044210c67ba5a16076dd9ba0-CROP-1200x630.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta name="apple-mobile-web-app-title" content="&quot;Reversing the &ldquo;She-cession&rdquo; - Egon Zehnder"/>
+<meta name="application-name" content="Egon Zehnder"/>
+<meta name="description" content="&quot;At the start of the COVID-19 pandemic, there was a &ldquo;she-cession.&rdquo; Globally,  women lost jobs due to the pandemic at a rate 1.8 times greater than men.&quot;"/>
+<meta name="keywords" content=""/>
+<meta name="msapplication-TileColor" content="#ffffff"/>
+<link rel="canonical" href="https://www.egonzehnder.com/reversing-the-she-cession"/><script nonce="5a0648e06a5ae9ce7fd380ccd0f05fda">window.ENVIRONMENT="PRODUCTION";window.SITE_URL="https:\/\/www.egonzehnder.com\/";window.NAILS={"URL":"https:\/\/www.egonzehnder.com\/vendor\/nails\/module-asset\/assets\/","LANG":{},"USER":{"ID":null,"FNAME":null,"LNAME":null,"EMAIL":null}};</script>    </head>
+    <body class="">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5M9VJN8" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!--[if lte IE 9 ]>
+<div class="flash-msg flash-msg-warning is-visible" id="ieModal">
+<div class="content-wrapper">
+    <div class="container-fluid">
+        <p><strong>Improve your experience</strong>You are using a browser we no longer support, so content may look
+            misplaced, or you may not access certain features. Try upgrading your browser for a better site
+            experience.</p>
+    </div>
+</div>
+</div>
+<![endif]-->
+<div class="header-search js-search-container">
+    <div class="header-search__inner">
+        <div class="header-search__icon" role="img" title="Search">
+            <img width="25" height="25" src="https://www.egonzehnder.com/assets/svg/icon-search-red.svg" alt="Search icon">
+        </div>
+        <input class="header-search__input js-search-input" type="text" placeholder="Search">
+        <a class="header-search__close js-search-close" title="Close">
+            <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.7656 15.3125C15.4844 15.5938 14.9688 15.5938 14.6875 15.3125L8.5 9.07812L2.26562 15.3125C1.98438 15.5938 1.46875 15.5938 1.1875 15.3125C0.90625 15.0312 0.90625 14.5156 1.1875 14.2344L7.42188 8L1.1875 1.8125C0.90625 1.53125 0.90625 1.01562 1.1875 0.734375C1.46875 0.453125 1.98438 0.453125 2.26562 0.734375L8.5 6.96875L14.6875 0.734375C14.9688 0.453125 15.4844 0.453125 15.7656 0.734375C16.0469 1.01562 16.0469 1.53125 15.7656 1.8125L9.53125 8L15.7656 14.2344C16.0469 14.5156 16.0469 15.0312 15.7656 15.3125Z" fill="#242424"></path></svg>
+        </a>
+    </div>
+    <div class="header-search__drawer">
+        <div class="header-search__summary">
+            Search for &ldquo;<span class="js-search-term"></span>&rdquo;
+        </div>
+        <ul class="header-search__options list list--unstyled">
+            <li class="header-search__option">
+                <a class="text-link text-link--primary text-link--unstyled text-link--alt js-do-search" data-index="consultants" href="#">
+                    ... in Consultants                </a>
+            </li>
+            <li class="header-search__option">
+                <a class="text-link text-link--primary text-link--unstyled text-link--alt js-do-search" data-index="offices" href="#">
+                    ... in Offices                </a>
+            </li>
+            <li class="header-search__option">
+                <a class="text-link text-link--primary text-link--unstyled text-link--alt js-do-search" data-index="services" href="#">
+                    ... in Services                </a>
+            </li>
+            <li class="header-search__option">
+                <a class="text-link text-link--primary text-link--unstyled text-link--alt js-do-search" data-index="articles" href="#">
+                    ... in Insights                </a>
+            </li>
+            <li class="header-search__option">
+                <a class="text-link text-link--primary text-link--unstyled text-link--alt js-do-search" href="#">
+                    Search all results                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<header class="header js-header u-print-none ">
+    <div class="header__inner">
+        <div class="header__logotype">
+                        <a href="https://www.egonzehnder.com/">
+                <img src="https://www.egonzehnder.com/assets/svg/ez-logo-red.svg" alt="Egon Zehnder">
+            </a>
+        </div>
+        <ul class="primary-nav list list--unstyled list--inline">
+                                <!-- Portfolio Architecture-->
+                    <li>
+                        <a href="https://www.egonzehnder.com/what-we-do" class="primary-nav__link js-nav-link" data-submenu="sub-menu-portfolio">
+                            Our Services                        </a>
+                    </li>
+                                        <li>
+                        <a href="https://www.egonzehnder.com/functions" class="primary-nav__link js-nav-link" data-submenu="sub-menu-0">
+                            Functions                        </a>
+                    </li>
+                                        <li>
+                        <a href="https://www.egonzehnder.com/industries" class="primary-nav__link js-nav-link" data-submenu="sub-menu-1">
+                            Industries                        </a>
+                    </li>
+                                        <li>
+                        <a href="/consultants" class="primary-nav__link js-nav-link" data-submenu="sub-menu-2">
+                            Meet our Consultants                        </a>
+                    </li>
+                                        <li>
+                        <a href="/insights" class="primary-nav__link js-nav-link" data-submenu="sub-menu-3">
+                            Discover Insights                        </a>
+                    </li>
+                                        <li>
+                        <a href="/office" class="primary-nav__link js-nav-link" data-submenu="sub-menu-4">
+                            Find Offices                        </a>
+                    </li>
+                                        <li>
+                        <a href="/about-us" class="primary-nav__link js-nav-link" data-submenu="sub-menu-5">
+                            About Us                        </a>
+                    </li>
+                            </ul>
+                    <div class="u-flex u-flex-center-v">
+                <a class="header__search-block js-search-toggle" href="#">
+                    <img src="https://www.egonzehnder.com/assets/svg/icon-search.svg" class="header__search-icon" width="22" height="22" alt="Search">
+                </a>
+                <a href="#" class="header__region-block js-location-select">
+                    <div class="header__region-select">
+                        <div class="header__region-select__inner">
+                            <div class="header__region-select-globe-container">
+                                <img src="https://www.egonzehnder.com/assets/svg/icon-globe.svg" class="header__region-select-globe u-mr0" width="22" height="22" alt="Select region">
+                            </div>
+                            <i class="ez-icon-chevron-down ez-icon--base"></i>
+                        </div>
+                    </div>
+                </a>
+                                <div class="vue-app">
+                    <mobile-menu-drawer v-bind:portfolio-nav="{&quot;label&quot;:&quot;Our Services&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do&quot;,&quot;sub_menu_rollover_children&quot;:false,&quot;portfolio_architecture&quot;:true,&quot;sub_menu&quot;:{&quot;label&quot;:&quot;Our Services&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do&quot;,&quot;groups&quot;:[{&quot;item_id&quot;:1,&quot;slug&quot;:&quot;discovering-leaders&quot;,&quot;label&quot;:&quot;Discovering Leaders&quot;,&quot;icon_url&quot;:&quot;https:\/\/www.egonzehnder.com\/cache\/public\/portarch-images-1681210102-5237bcc5d28e6a9373719178fb788de4-CROP-80x80-T.png&quot;,&quot;services&quot;:[{&quot;label&quot;:&quot;CEO Search&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/ceo-search&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Executive Search&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/executive-search&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Board Search&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/board-search&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Advisor Search&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/advisor-search&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Executive Assessment&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/executive-assessment&quot;,&quot;indent&quot;:false}],&quot;excerpt&quot;:&quot;Our trusted, tailored, and inclusive selection process ensures we help you appoint the right leaders to deliver sustainable impact, high-performing teams, and through this, leadership for a better world.&quot;,&quot;image_url&quot;:&quot;https:\/\/www.egonzehnder.com\/cache\/public\/article-images-1656420994-24e757808f6b3686340899b811ab59d9-CROP-1000x1000.jpg&quot;},{&quot;item_id&quot;:4,&quot;slug&quot;:&quot;shaping-successions&quot;,&quot;label&quot;:&quot;Shaping Successions&quot;,&quot;icon_url&quot;:&quot;https:\/\/www.egonzehnder.com\/cache\/public\/portarch-images-1681210099-387ccf6ad03ca038ed29d6cfae5469be-CROP-80x80.png&quot;,&quot;services&quot;:[{&quot;label&quot;:&quot;CEO Successions&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/ceo-successions&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Executive Successions&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/executive-successions&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Board Successions&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/board-successions&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Chair Successions&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/board-successions\/chair-successions&quot;,&quot;indent&quot;:true},{&quot;label&quot;:&quot;Committee Chair Successions&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/board-successions\/committee-chair-successions&quot;,&quot;indent&quot;:true}],&quot;excerpt&quot;:&quot;In a rapidly changing world, being prepared is everything. We combine deep industry knowledge, unparalleled networks and rigorous assessment of your present and future needs to ensure you always have the right people ready to lead, come what may.&quot;,&quot;image_url&quot;:&quot;https:\/\/www.egonzehnder.com\/assets\/img\/bg-content-slider.png&quot;},{&quot;item_id&quot;:5,&quot;slug&quot;:&quot;advancing-governance&quot;,&quot;label&quot;:&quot;Advancing Governance&quot;,&quot;icon_url&quot;:&quot;https:\/\/www.egonzehnder.com\/cache\/public\/portarch-images-1684247648-9139f2b8dc4a67232e7118adbffa43b4-CROP-80x80.png&quot;,&quot;services&quot;:[{&quot;label&quot;:&quot;Board Review&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/board-review&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Board Development&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/board-development&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Board Advisory&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/board-advisory&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Building Advisory Boards&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/board-advisory\/building-advisory-boards&quot;,&quot;indent&quot;:true},{&quot;label&quot;:&quot;Sustainability Board Advisory&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/board-advisory\/sustainability-board-advisory&quot;,&quot;indent&quot;:true}],&quot;excerpt&quot;:&quot;We\u2019ve helped build and develop some of the world\u2019s highest performing boards, empowering them to enhance their effectiveness, harness the power of their diversity, and maximize their value to organizations, shareholders and society.&quot;,&quot;image_url&quot;:&quot;https:\/\/www.egonzehnder.com\/assets\/img\/bg-content-slider.png&quot;},{&quot;item_id&quot;:2,&quot;slug&quot;:&quot;developing-leadership&quot;,&quot;label&quot;:&quot;Developing Leadership&quot;,&quot;icon_url&quot;:&quot;https:\/\/www.egonzehnder.com\/cache\/public\/portarch-images-1681210101-d32499d40d8c9036e2ff5f562896ade6-CROP-80x80-T.png&quot;,&quot;services&quot;:[{&quot;label&quot;:&quot;Individual Development&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/individual-development&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Accelerated Onboarding&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/individual-development\/accelerated-onboarding&quot;,&quot;indent&quot;:true},{&quot;label&quot;:&quot;Development Planning&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/individual-development\/development-planning&quot;,&quot;indent&quot;:true},{&quot;label&quot;:&quot;Coaching&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/individual-development\/coaching&quot;,&quot;indent&quot;:true},{&quot;label&quot;:&quot;Team Journey&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/team-journey&quot;,&quot;indent&quot;:false}],&quot;excerpt&quot;:&quot;Channeling our deep business and human understanding, we guide and inspire individuals and teams on their journeys of personal and professional growth. We refine skills, nurture strengths and address gaps to help leaders fulfill their potential.&quot;,&quot;image_url&quot;:&quot;https:\/\/www.egonzehnder.com\/assets\/img\/bg-content-slider.png&quot;},{&quot;item_id&quot;:3,&quot;slug&quot;:&quot;unlocking-transformations&quot;,&quot;label&quot;:&quot;Unlocking Transformations&quot;,&quot;icon_url&quot;:&quot;https:\/\/www.egonzehnder.com\/cache\/public\/portarch-images-1681210101-2fdcf6f4d7349ed37a383c8d87c75cfd-CROP-80x80.png&quot;,&quot;services&quot;:[{&quot;label&quot;:&quot;Leadership Development Programs&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/breakthrough-leadership-programs&quot;,&quot;indent&quot;:false},{&quot;label&quot;:&quot;Executive Breakthrough&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/breakthrough-leadership-programs\/executive-breakthrough&quot;,&quot;indent&quot;:true},{&quot;label&quot;:&quot;Executive Discovery&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/breakthrough-leadership-programs\/executive-discovery&quot;,&quot;indent&quot;:true},{&quot;label&quot;:&quot;Voyager Leadership&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/breakthrough-leadership-programs\/voyager-leadership&quot;,&quot;indent&quot;:true},{&quot;label&quot;:&quot;Executive Retreat&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/breakthrough-leadership-programs\/executive-retreat&quot;,&quot;indent&quot;:true},{&quot;label&quot;:&quot;Cultural Transformation&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/what-we-do\/cultural-transformation&quot;,&quot;indent&quot;:false}],&quot;excerpt&quot;:&quot;When a paradigm shift is needed, we partner with transformational development experts to deliver pioneering programs that empower leaders and organizations to renew and reinvent themselves, stay ahead of the curve and drive impactful change.&quot;,&quot;image_url&quot;:&quot;https:\/\/www.egonzehnder.com\/assets\/img\/bg-content-slider.png&quot;}]}}" v-bind:navigation="[{&quot;label&quot;:&quot;Functions&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions&quot;,&quot;sub_menu_rollover_children&quot;:true,&quot;sub_menu&quot;:{&quot;label&quot;:&quot;Functions&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions&quot;,&quot;items&quot;:[{&quot;label&quot;:&quot;Board Directors &amp; Chairs&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/board-directors-chairs&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Chief Executive Officers&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/chief-executive-officers&quot;,&quot;children&quot;:[{&quot;label&quot;:&quot;Founders&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/chief-executive-officers\/founders&quot;}]},{&quot;label&quot;:&quot;Inclusive Leadership&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/inclusive-leadership&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;CFO &amp; Audit Chair&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/cfo-audit-chair&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Technology Officers&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/technology-officers&quot;,&quot;children&quot;:[{&quot;label&quot;:&quot;Chief AI, Data &amp; Analytics Officers&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/technology-officers\/chief-ai-officers&quot;},{&quot;label&quot;:&quot;Chief Information Officers&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/technology-officers\/chief-information-officers&quot;},{&quot;label&quot;:&quot;Chief Information Security Officers&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/technology-officers\/chief-information-security-officers&quot;},{&quot;label&quot;:&quot;Chief Product Officers&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/technology-officers\/chief-product-officers&quot;},{&quot;label&quot;:&quot;Chief Technology Officers&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/technology-officers\/chief-technology-officers&quot;}]},{&quot;label&quot;:&quot;Marketing and Sales&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/marketing-and-sales&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Human Resources&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/human-resources&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Legal, Regulatory &amp; Compliance Professionals&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/legal-regulatory-compliance-professionals&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Communications &amp; Public Affairs Officers&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/communications-public-affairs-officers&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Supply Chain &amp; Operations&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/supply-chain-operations&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Sustainability&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/functions\/sustainability&quot;,&quot;children&quot;:[]}]}},{&quot;label&quot;:&quot;Industries&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries&quot;,&quot;sub_menu_rollover_children&quot;:true,&quot;sub_menu&quot;:{&quot;label&quot;:&quot;Industries&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries&quot;,&quot;items&quot;:[{&quot;label&quot;:&quot;Consumer&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/consumer&quot;,&quot;children&quot;:[{&quot;label&quot;:&quot;Consumer Products&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/consumer\/consumer-products&quot;},{&quot;label&quot;:&quot;Media &amp; Entertainment&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/consumer\/media-entertainment&quot;},{&quot;label&quot;:&quot;Restaurants, Leisure and Hospitality&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/consumer\/restaurants-leisure-and-hospitality&quot;},{&quot;label&quot;:&quot;Retail, E-commerce, Apparel and Luxury&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/consumer\/retail-e-commerce-apparel-and-luxury-1&quot;},{&quot;label&quot;:&quot;Sports&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/consumer\/sports&quot;}]},{&quot;label&quot;:&quot;Financial Services&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services&quot;,&quot;children&quot;:[{&quot;label&quot;:&quot;Asset Management&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/asset-management&quot;},{&quot;label&quot;:&quot;Banking and Markets&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/banking-and-markets&quot;},{&quot;label&quot;:&quot;FinTech&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/fintech&quot;},{&quot;label&quot;:&quot;Infrastructure&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/infrastructure&quot;},{&quot;label&quot;:&quot;Insurance&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/insurance&quot;},{&quot;label&quot;:&quot;Private Equity&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/private-equity-1&quot;},{&quot;label&quot;:&quot;Retail Financial Services&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/retail-financial-services&quot;},{&quot;label&quot;:&quot;Risk Management&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/risk-management&quot;},{&quot;label&quot;:&quot;Sovereign Wealth Funds&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/sovereign-wealth-funds&quot;},{&quot;label&quot;:&quot;Wealth Management&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/financial-services\/wealth-management&quot;}]},{&quot;label&quot;:&quot;Health&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/health&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Private Capital&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/private-capital&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Family Business Advisory&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/family-business-advisory&quot;,&quot;children&quot;:[]},{&quot;label&quot;:&quot;Industrial&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/industrial&quot;,&quot;children&quot;:[{&quot;label&quot;:&quot;Building Components&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/industrial\/building-components&quot;},{&quot;label&quot;:&quot;Chemical &amp; Process Industries&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/industrial\/chemical-process-industries&quot;},{&quot;label&quot;:&quot;Energy&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/industrial\/energy&quot;},{&quot;label&quot;:&quot;Machinery &amp; Industrial Technology&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/industrial\/machinery-industrial-technology&quot;},{&quot;label&quot;:&quot;Mining &amp; Metals&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/industrial\/mining-metals&quot;},{&quot;label&quot;:&quot;Mobility &amp; Automotive&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/industrial\/mobility-automotive&quot;}]},{&quot;label&quot;:&quot;Public &amp; Social Sector&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector&quot;,&quot;children&quot;:[{&quot;label&quot;:&quot;Arts, Culture &amp; Sports&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector\/arts-culture-sports&quot;},{&quot;label&quot;:&quot;Economic, Social &amp; Human Development&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector\/economic-social-human-development&quot;},{&quot;label&quot;:&quot;Education &amp; Research&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector\/education-research&quot;},{&quot;label&quot;:&quot;Environment &amp; Sustainability&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector\/environment-sustainability&quot;},{&quot;label&quot;:&quot;Interest Representation &amp; Public Affairs&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector\/interest-representation-public-affairs&quot;},{&quot;label&quot;:&quot;Public Administration&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector\/public-administration&quot;},{&quot;label&quot;:&quot;Public Finance&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector\/public-finance&quot;},{&quot;label&quot;:&quot;Public Health&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector\/public-health&quot;},{&quot;label&quot;:&quot;Public Infrastructure&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/public-social-sector\/public-infrastructure&quot;}]},{&quot;label&quot;:&quot;Services&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/services&quot;,&quot;children&quot;:[{&quot;label&quot;:&quot;Air Transport&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/services\/air-transport&quot;},{&quot;label&quot;:&quot;Business Services&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/services\/business-services&quot;},{&quot;label&quot;:&quot;Hospitality, Travel &amp; Leisure&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/services\/hospitality-travel-leisure&quot;},{&quot;label&quot;:&quot;Professional Services&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/services\/professional-services&quot;},{&quot;label&quot;:&quot;Real Estate Services&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/services\/real-estate-services&quot;},{&quot;label&quot;:&quot;Transportation &amp; Logistics&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/services\/transportation-logistics&quot;}]},{&quot;label&quot;:&quot;Technology &amp; AI&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/technology-communications&quot;,&quot;children&quot;:[{&quot;label&quot;:&quot;Artificial Intelligence&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/technology-communications\/artificial-intelligence&quot;},{&quot;label&quot;:&quot;Blockchain&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/technology-communications\/blockchain&quot;},{&quot;label&quot;:&quot;Communications &amp; Connectivity&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/technology-communications\/communications-and-connectivity&quot;},{&quot;label&quot;:&quot;Cyber Security&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/technology-communications\/cybersecurity&quot;},{&quot;label&quot;:&quot;Digital&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/technology-communications\/digital&quot;},{&quot;label&quot;:&quot;Enterprise Tech&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/technology-communications\/enterprise-tech&quot;},{&quot;label&quot;:&quot;Internet of Things&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/technology-communications\/internet-of-things&quot;},{&quot;label&quot;:&quot;Semiconductors&quot;,&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/industries\/technology-communications\/semiconductors&quot;}]}]}},{&quot;label&quot;:&quot;Meet our Consultants&quot;,&quot;url&quot;:&quot;\/consultants&quot;},{&quot;label&quot;:&quot;Discover Insights&quot;,&quot;url&quot;:&quot;\/insights&quot;},{&quot;label&quot;:&quot;Find Offices&quot;,&quot;url&quot;:&quot;\/office&quot;},{&quot;label&quot;:&quot;About Us&quot;,&quot;url&quot;:&quot;\/about-us&quot;}]" v-bind:languages="[{&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/reversing-the-she-cession&quot;,&quot;label&quot;:&quot;English&quot;,&quot;is_active&quot;:true},{&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/de\/reversing-the-she-cession&quot;,&quot;label&quot;:&quot;Deutsch&quot;,&quot;is_active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/cn\/reversing-the-she-cession&quot;,&quot;label&quot;:&quot;\u4e2d\u6587&quot;,&quot;is_active&quot;:false},{&quot;url&quot;:&quot;https:\/\/www.egonzehnder.com\/jp\/reversing-the-she-cession&quot;,&quot;label&quot;:&quot;\u65e5\u672c\u8a9e&quot;,&quot;is_active&quot;:false}]" v-bind:footer-nav="[]" v-bind:search-bar="true" logo-url="https://www.egonzehnder.com/assets/svg/ez-logo-red.svg"></mobile-menu-drawer>
+                </div>
+            </div>
+            
+    </div>
+    <div class="location-select">
+        <ul class="location-select__list list list--unstyled">
+                            <li class="location-select__item">
+                    <a href="https://www.egonzehnder.com/reversing-the-she-cession" class="text-link text-link--unstyled selected" ">
+                    English                    </a>
+                </li>
+                                <li class="location-select__item">
+                    <a href="https://www.egonzehnder.com/de/reversing-the-she-cession" class="text-link text-link--unstyled " ">
+                    Deutsch                    </a>
+                </li>
+                                <li class="location-select__item">
+                    <a href="https://www.egonzehnder.com/cn/reversing-the-she-cession" class="text-link text-link--unstyled " ">
+                    中文                    </a>
+                </li>
+                                <li class="location-select__item">
+                    <a href="https://www.egonzehnder.com/jp/reversing-the-she-cession" class="text-link text-link--unstyled " ">
+                    日本語                    </a>
+                </li>
+                        </ul>
+    </div>
+</header>
+<div class="sub-header js-sub-header u-print-none ">
+    <div class="sub-header__inner sub-header__inner--portfolio">
+        <!-- Portfolio Nav -->
+        <div class="sub-header__nav-container sub-header__nav-container--portfolio" data-submenu-target="sub-menu-portfolio">
+            <div class="sub-header__left ">
+                <a href="https://www.egonzehnder.com/what-we-do">
+                    <span class="sub-header__title">
+                        Our Services                    </span>
+                </a>
+            </div>
+            <div class="sub-header__group-container">
+                                    <div class="sub-header__group">
+                        <div class="sub-header__group-head">
+                            <img class="sub-header__group-img" src="https://www.egonzehnder.com/cache/public/xportarch-images-1681210099-387ccf6ad03ca038ed29d6cfae5469be-CROP-80x80.png.pagespeed.ic.uR7btRkbjm.png" alt="Shaping Successions">
+                            <span class="sub-header__group-title">
+                                Shaping Successions                            </span>
+                        </div>
+                        <ul class="sub-header__group-service-list">
+                                                            <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/ceo-successions">
+                                        CEO Successions                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/executive-successions">
+                                        Executive Successions                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/board-successions">
+                                        Board Successions                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/board-successions/chair-successions">
+                                        Chair Successions                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/board-successions/committee-chair-successions">
+                                        Committee Chair Successions                                    </a>
+                                </li>
+                                                        </ul>
+                    </div>
+                                        <div class="sub-header__group">
+                        <div class="sub-header__group-head">
+                            <img class="sub-header__group-img" src="https://www.egonzehnder.com/cache/public/xportarch-images-1684247648-9139f2b8dc4a67232e7118adbffa43b4-CROP-80x80.png.pagespeed.ic.H_qN7B8lMJ.png" alt="Advancing Governance">
+                            <span class="sub-header__group-title">
+                                Advancing Governance                            </span>
+                        </div>
+                        <ul class="sub-header__group-service-list">
+                                                            <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/board-review">
+                                        Board Review                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/board-development">
+                                        Board Development                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/board-advisory">
+                                        Board Advisory                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/board-advisory/building-advisory-boards">
+                                        Building Advisory Boards                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/board-advisory/sustainability-board-advisory">
+                                        Sustainability Board Advisory                                    </a>
+                                </li>
+                                                        </ul>
+                    </div>
+                                        <div class="sub-header__group">
+                        <div class="sub-header__group-head">
+                            <img class="sub-header__group-img" src="https://www.egonzehnder.com/cache/public/xportarch-images-1681210102-5237bcc5d28e6a9373719178fb788de4-CROP-80x80-T.png.pagespeed.ic.s6qTAI9zu1.png" alt="Discovering Leaders">
+                            <span class="sub-header__group-title">
+                                Discovering Leaders                            </span>
+                        </div>
+                        <ul class="sub-header__group-service-list">
+                                                            <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/ceo-search">
+                                        CEO Search                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/executive-search">
+                                        Executive Search                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/board-search">
+                                        Board Search                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/advisor-search">
+                                        Advisor Search                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/executive-assessment">
+                                        Executive Assessment                                    </a>
+                                </li>
+                                                        </ul>
+                    </div>
+                                        <div class="sub-header__group">
+                        <div class="sub-header__group-head">
+                            <img class="sub-header__group-img" src="https://www.egonzehnder.com/cache/public/xportarch-images-1681210101-d32499d40d8c9036e2ff5f562896ade6-CROP-80x80-T.png.pagespeed.ic.zxJVtDW59U.png" alt="Developing Leadership">
+                            <span class="sub-header__group-title">
+                                Developing Leadership                            </span>
+                        </div>
+                        <ul class="sub-header__group-service-list">
+                                                            <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/individual-development">
+                                        Individual Development                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/individual-development/accelerated-onboarding">
+                                        Accelerated Onboarding                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/individual-development/development-planning">
+                                        Development Planning                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/individual-development/coaching">
+                                        Coaching                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/team-journey">
+                                        Team Journey                                    </a>
+                                </li>
+                                                        </ul>
+                    </div>
+                                        <div class="sub-header__group">
+                        <div class="sub-header__group-head">
+                            <img class="sub-header__group-img" src="https://www.egonzehnder.com/cache/public/xportarch-images-1681210101-2fdcf6f4d7349ed37a383c8d87c75cfd-CROP-80x80.png.pagespeed.ic.O-y-Eh4dak.png" alt="Unlocking Transformations">
+                            <span class="sub-header__group-title">
+                                Unlocking Transformations                            </span>
+                        </div>
+                        <ul class="sub-header__group-service-list">
+                                                            <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/breakthrough-leadership-programs">
+                                        Leadership Development Programs                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/breakthrough-leadership-programs/executive-breakthrough">
+                                        Executive Breakthrough                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/breakthrough-leadership-programs/executive-discovery">
+                                        Executive Discovery                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/breakthrough-leadership-programs/voyager-leadership">
+                                        Voyager Leadership                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item sub-header__group-service-list-item--indented">
+                                    <a href="https://www.egonzehnder.com/what-we-do/breakthrough-leadership-programs/executive-retreat">
+                                        Executive Retreat                                    </a>
+                                </li>
+                                                                <li class="sub-header__group-service-list-item ">
+                                    <a href="https://www.egonzehnder.com/what-we-do/cultural-transformation">
+                                        Cultural Transformation                                    </a>
+                                </li>
+                                                        </ul>
+                    </div>
+                                </div>
+        </div>
+
+<div class="sub-header__nav-container" data-submenu-target="sub-menu-0">
+
+<div class="sub-header__left sub-header__left--rollovers">
+                    <a href="https://www.egonzehnder.com/functions">
+                        <span class="sub-header__title">
+                            Functions                        </span>
+                    </a>
+                    <ul class="sub-header__column list--unstyled">
+                                                        <li>
+                                    <a href="https://www.egonzehnder.com/functions/board-directors-chairs" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-board directors & chairs">
+                                        Board Directors & Chairs                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/chief-executive-officers" class="sub-header__nav-link text-link text-link--unstyled has-child" data-submenu-child="sub-menu-child-chief executive officers">
+                                        Chief Executive Officers                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/inclusive-leadership" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-inclusive leadership">
+                                        Inclusive Leadership                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/cfo-audit-chair" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-cfo & audit chair">
+                                        CFO & Audit Chair                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/technology-officers" class="sub-header__nav-link text-link text-link--unstyled has-child" data-submenu-child="sub-menu-child-technology officers">
+                                        Technology Officers                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/marketing-and-sales" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-marketing and sales">
+                                        Marketing and Sales                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/human-resources" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-human resources">
+                                        Human Resources                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/legal-regulatory-compliance-professionals" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-legal, regulatory & compliance professionals">
+                                        Legal, Regulatory & Compliance Professionals                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/communications-public-affairs-officers" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-communications & public affairs officers">
+                                        Communications & Public Affairs Officers                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/supply-chain-operations" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-supply chain & operations">
+                                        Supply Chain & Operations                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/functions/sustainability" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-sustainability">
+                                        Sustainability                                    </a>
+                                </li>
+                                                    </ul>
+                </div>
+
+<div class="sub-header__right sub-header__right--no-line">
+                                                <div class="sub-header__columns sub-header__columns--child" data-submenu-child-target="sub-menu-child-chief executive officers">
+                                                                    <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/functions/chief-executive-officers/founders" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Founders                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                </div>
+                                                        <div class="sub-header__columns sub-header__columns--child" data-submenu-child-target="sub-menu-child-technology officers">
+                                                                    <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/functions/technology-officers/chief-ai-officers" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Chief AI, Data & Analytics Officers                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/functions/technology-officers/chief-information-officers" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Chief Information Officers                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/functions/technology-officers/chief-information-security-officers" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Chief Information Security Officers                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/functions/technology-officers/chief-product-officers" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Chief Product Officers                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/functions/technology-officers/chief-technology-officers" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Chief Technology Officers                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                </div>
+                                            </div>
+            </div>
+                        <div class="sub-header__nav-container" data-submenu-target="sub-menu-1">
+
+<div class="sub-header__left sub-header__left--rollovers">
+                    <a href="https://www.egonzehnder.com/industries">
+                        <span class="sub-header__title">
+                            Industries                        </span>
+                    </a>
+                    <ul class="sub-header__column list--unstyled">
+                                                        <li>
+                                    <a href="https://www.egonzehnder.com/industries/consumer" class="sub-header__nav-link text-link text-link--unstyled has-child" data-submenu-child="sub-menu-child-consumer">
+                                        Consumer                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/industries/financial-services" class="sub-header__nav-link text-link text-link--unstyled has-child" data-submenu-child="sub-menu-child-financial services">
+                                        Financial Services                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/industries/health" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-health">
+                                        Health                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/industries/private-capital" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-private capital">
+                                        Private Capital                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/industries/family-business-advisory" class="sub-header__nav-link text-link text-link--unstyled " data-submenu-child="sub-menu-child-family business advisory">
+                                        Family Business Advisory                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/industries/industrial" class="sub-header__nav-link text-link text-link--unstyled has-child" data-submenu-child="sub-menu-child-industrial">
+                                        Industrial                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/industries/public-social-sector" class="sub-header__nav-link text-link text-link--unstyled has-child" data-submenu-child="sub-menu-child-public & social sector">
+                                        Public & Social Sector                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/industries/services" class="sub-header__nav-link text-link text-link--unstyled has-child" data-submenu-child="sub-menu-child-services">
+                                        Services                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="https://www.egonzehnder.com/industries/technology-communications" class="sub-header__nav-link text-link text-link--unstyled has-child" data-submenu-child="sub-menu-child-technology & ai">
+                                        Technology & AI                                    </a>
+                                </li>
+                                                    </ul>
+                </div>
+
+<div class="sub-header__right sub-header__right--no-line">
+                                                <div class="sub-header__columns sub-header__columns--child" data-submenu-child-target="sub-menu-child-consumer">
+                                                                    <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/industries/consumer/consumer-products" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Consumer Products                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/consumer/media-entertainment" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Media & Entertainment                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/consumer/restaurants-leisure-and-hospitality" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Restaurants, Leisure and Hospitality                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/consumer/retail-e-commerce-apparel-and-luxury-1" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Retail, E-commerce, Apparel and Luxury                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/consumer/sports" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Sports                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                </div>
+                                                        <div class="sub-header__columns sub-header__columns--child" data-submenu-child-target="sub-menu-child-financial services">
+                                                                    <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/asset-management" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Asset Management                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/banking-and-markets" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Banking and Markets                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/fintech" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    FinTech                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/infrastructure" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Infrastructure                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/insurance" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Insurance                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/private-equity-1" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Private Equity                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                        <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/retail-financial-services" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Retail Financial Services                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/risk-management" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Risk Management                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/sovereign-wealth-funds" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Sovereign Wealth Funds                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/financial-services/wealth-management" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Wealth Management                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                </div>
+                                                        <div class="sub-header__columns sub-header__columns--child" data-submenu-child-target="sub-menu-child-industrial">
+                                                                    <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/industries/industrial/building-components" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Building Components                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/industrial/chemical-process-industries" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Chemical & Process Industries                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/industrial/energy" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Energy                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/industrial/machinery-industrial-technology" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Machinery & Industrial Technology                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/industrial/mining-metals" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Mining & Metals                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/industrial/mobility-automotive" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Mobility & Automotive                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                </div>
+                                                        <div class="sub-header__columns sub-header__columns--child" data-submenu-child-target="sub-menu-child-public & social sector">
+                                                                    <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/industries/public-social-sector/arts-culture-sports" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Arts, Culture & Sports                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/public-social-sector/economic-social-human-development" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Economic, Social & Human Development                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/public-social-sector/education-research" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Education & Research                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/public-social-sector/environment-sustainability" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Environment & Sustainability                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/public-social-sector/interest-representation-public-affairs" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Interest Representation & Public Affairs                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/public-social-sector/public-administration" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Public Administration                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                        <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/industries/public-social-sector/public-finance" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Public Finance                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/public-social-sector/public-health" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Public Health                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/public-social-sector/public-infrastructure" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Public Infrastructure                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                </div>
+                                                        <div class="sub-header__columns sub-header__columns--child" data-submenu-child-target="sub-menu-child-services">
+                                                                    <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/industries/services/air-transport" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Air Transport                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/services/business-services" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Business Services                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/services/hospitality-travel-leisure" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Hospitality, Travel & Leisure                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/services/professional-services" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Professional Services                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/services/real-estate-services" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Real Estate Services                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/services/transportation-logistics" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Transportation & Logistics                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                </div>
+                                                        <div class="sub-header__columns sub-header__columns--child" data-submenu-child-target="sub-menu-child-technology & ai">
+                                                                    <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/industries/technology-communications/artificial-intelligence" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Artificial Intelligence                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/technology-communications/blockchain" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Blockchain                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/technology-communications/communications-and-connectivity" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Communications & Connectivity                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/technology-communications/cybersecurity" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Cyber Security                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/technology-communications/digital" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Digital                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/technology-communications/enterprise-tech" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Enterprise Tech                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                        <ul class="sub-header__column list--unstyled">
+                                                                                    <li>
+                                                <a href="https://www.egonzehnder.com/industries/technology-communications/internet-of-things" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Internet of Things                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://www.egonzehnder.com/industries/technology-communications/semiconductors" class="sub-header__nav-link text-link text-link--unstyled">
+                                                    Semiconductors                                                </a>
+                                            </li>
+                                                                                </ul>
+                                                                </div>
+                                            </div>
+            </div>
+                </div>
+</div>
+<div class="header-drawer">
+    <div class="header-drawer__breadcrumb-container">
+        <img class="header-drawer__breadcrumb-logo" src="https://www.egonzehnder.com/assets/svg/ez-logo.svg" alt="Egon Zehnder">
+        <div class="header-drawer__breadcrumb-inner">
+            <a href="#" class="js-drawer-back">
+                <img src="https://www.egonzehnder.com/assets/svg/icon-arrow-left.svg" alt="Back icon">
+                <span class="header-drawer__breadcrumb-label"></span>
+            </a>
+        </div>
+        <img class="header-drawer__breadcrumb-close js-close-drawer" src="https://www.egonzehnder.com/assets/svg/icon-close-white.svg" alt="Close filter">
+    </div>
+    <div class="header-drawer__overflow">
+        <div class="header-drawer__inner">
+            <div class="header-drawer__frame">
+                <ul class="header-drawer__nav header-drawer__nav list list--unstyled">
+                                            <li>
+                            <a href="https://www.egonzehnder.com/functions" class="header-drawer__link header-drawer__link--arrow" data-drawer="sub-menu-0">
+                                Functions                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.egonzehnder.com/industries" class="header-drawer__link header-drawer__link--arrow" data-drawer="sub-menu-1">
+                                Industries                            </a>
+                        </li>
+                                                <li>
+                            <a href="/consultants" class="header-drawer__link " data-drawer="sub-menu-2">
+                                Meet our Consultants                            </a>
+                        </li>
+                                                <li>
+                            <a href="/insights" class="header-drawer__link " data-drawer="sub-menu-3">
+                                Discover Insights                            </a>
+                        </li>
+                                                <li>
+                            <a href="/office" class="header-drawer__link " data-drawer="sub-menu-4">
+                                Find Offices                            </a>
+                        </li>
+                                                <li>
+                            <a href="/about-us" class="header-drawer__link " data-drawer="sub-menu-5">
+                                About Us                            </a>
+                        </li>
+                                        </ul>
+                <div class="header-drawer__location">
+                    <img src="https://www.egonzehnder.com/assets/svg/icon-globe.svg" class="header__region-select-globe" width="22" height="22" alt="Select region">
+                    <!-- <svg class="header__region-select-globe" width="22" height="22" role="img" title="Egon Zehnder">
+                    <use xlink:href="https://www.egonzehnder.com/assets/svg/sprite.svg#icon-globe"/>
+                </svg> -->
+                    <span class="header-drawer__location-label">English</span>
+                    <a href="#" class="btn btn--keyline--white btn--small btn--alt-font btn--auto-width" data-drawer="sub-menu-language">
+                        Change                    </a>
+                </div>
+            </div>
+
+<div class="header-drawer__frame js-subnav">
+                                    <ul id="sub-menu-0" class="header-drawer__nav list list--unstyled header-drawer__nav--hidden">
+                        <li>
+                            <a class="header-drawer__link" href="https://www.egonzehnder.com/functions">
+                                Functions                            </a>
+                        </li>
+                                                    <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/board-directors-chairs">
+                                    Board Directors & Chairs                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/chief-executive-officers">
+                                    Chief Executive Officers                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/inclusive-leadership">
+                                    Inclusive Leadership                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/cfo-audit-chair">
+                                    CFO & Audit Chair                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/technology-officers">
+                                    Technology Officers                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/marketing-and-sales">
+                                    Marketing and Sales                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/human-resources">
+                                    Human Resources                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/legal-regulatory-compliance-professionals">
+                                    Legal, Regulatory & Compliance Professionals                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/communications-public-affairs-officers">
+                                    Communications & Public Affairs Officers                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/supply-chain-operations">
+                                    Supply Chain & Operations                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/functions/sustainability">
+                                    Sustainability                                </a>
+                            </li>
+                                                </ul>
+                                        <ul id="sub-menu-1" class="header-drawer__nav list list--unstyled header-drawer__nav--hidden">
+                        <li>
+                            <a class="header-drawer__link" href="https://www.egonzehnder.com/industries">
+                                Industries                            </a>
+                        </li>
+                                                    <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/industries/consumer">
+                                    Consumer                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/industries/financial-services">
+                                    Financial Services                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/industries/health">
+                                    Health                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/industries/private-capital">
+                                    Private Capital                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/industries/family-business-advisory">
+                                    Family Business Advisory                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/industries/industrial">
+                                    Industrial                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/industries/public-social-sector">
+                                    Public & Social Sector                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/industries/services">
+                                    Services                                </a>
+                            </li>
+                                                        <li>
+                                <a class="header-drawer__link" href="https://www.egonzehnder.com/industries/technology-communications">
+                                    Technology & AI                                </a>
+                            </li>
+                                                </ul>
+                                    <ul id="sub-menu-language" class="header-drawer__nav list list--unstyled header-drawer__nav--hidden">
+                                            <li>
+                            <a href="https://www.egonzehnder.com/reversing-the-she-cession" class="header-drawer__link selected" ">
+                            English                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.egonzehnder.com/de/reversing-the-she-cession" class="header-drawer__link " ">
+                            Deutsch                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.egonzehnder.com/cn/reversing-the-she-cession" class="header-drawer__link " ">
+                            中文                            </a>
+                        </li>
+                                                <li>
+                            <a href="https://www.egonzehnder.com/jp/reversing-the-she-cession" class="header-drawer__link " ">
+                            日本語                            </a>
+                        </li>
+                                        </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header-drawer__overlay js-close-drawer"></div>
+<div class="ceo-subnav " data-subnav-offset="75">
+    <a href="https://www.egonzehnder.com/reversing-the-she-cession" class="ceo-subnav__img-container">
+        <img src="https://www.egonzehnder.com/assets/img/xleadersdaughters_cranberry_rgb.png.pagespeed.ic.sls_6boAjB.png" alt="Leaders & Daughters 2021">
+    </a>
+    <div class="ceo-subnav__nav-container">
+        <ul class="ceo-subnav__nav">
+                            <li class="ceo-subnav__nav-item">
+                    <a href="https://www.egonzehnder.com/reversing-the-she-cession/explore-the-data" class="">
+                        Explore the data                    </a>
+                </li>
+                        </ul>
+    </div>
+</div>
+<div class="page-wrapper article-wide">
+        <div class="vue-app">
+        <related-content-publisher content-type="App\Resource\MicroSite" v-bind:language-id="1" v-bind:content-id="85"></related-content-publisher>
+    </div>
+    <div class="ld-header ">
+    <div class="container">
+        <div class="ld-header__inner">
+            <div class="ld-header__content">
+                <h1 class="ld-header__title">
+                                            <span class="js-path-animation">
+                            Reversing
+                            <svg viewBox="0 0 387 124" width="387" height="124" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M386 7.545c-113.698 2.259-348.945 19.221-380.347 69C-33.6 138.767 249 127.924 296 101c40.294-23.083 7.433-84.214-261.923-99" stroke="#B61A37" stroke-width="3"/></svg>
+                        </span> the &ldquo;She-cession&rdquo;:
+                                                            </h1>
+                                    <h2 class="ld-header__sub-title">Retaining and Empowering Female Leaders</h2>
+                                </div>
+            <div class="ld-header__image">
+                <div class="ld-header__image-line js-path-animation">
+                    <svg viewBox="0 0 399 552" width="399" height="552" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M205.314 2C129.405 48.81-16.223 176.517 8.539 312.858 39.493 483.284 189.25 435.43 260.588 402.843 338.489 367.259 428.748 294.3 386.74 182.5c-42.008-111.8-261.491 2.047-332 103.5-72.962 104.983-78.425 236.269 36 257.5 72.653 13.48 154.003 4.774 169.848-9.769" stroke="#C03C57" stroke-width="3"/></svg>
+                </div>
+                                    <img src="https://www.egonzehnder.com/assets/img/lnd-header/xwoman-1-1.png.pagespeed.ic.oFiNHs1Ey_.png" class="ld-header__image-object ld-header__image-object--1">
+                    <img src="https://www.egonzehnder.com/assets/img/lnd-header/xwoman-1-2.png.pagespeed.ic.EUhrVDRh6O.png" class="ld-header__image-object ld-header__image-object--2">
+                    <img src="https://www.egonzehnder.com/assets/img/lnd-header/xwoman-1-3.png.pagespeed.ic.pOrU-GNf9k.png" class="ld-header__image-object ld-header__image-object--3">
+                                </div>
+        </div>
+    </div>
+</div>
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+
+<div class="content-wrapper">
+        <div class="container-fluid">
+                            <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="article-new__meta-container article-new__meta-container--centered article-has-hero">
+                            <ul class="article-new__meta list--unstyled">
+    <li class="article-new__meta-date">
+        October 2021    </li>
+</ul>
+                                <ul class="article-new__meta list--unstyled">
+                                    <li class="article-new__readtime">
+                                        7 mins read                                    </li>
+                                </ul>
+                                <div class="article-new__meta article-new__social">
+        <div class="article-new__social-label">
+        Share    </div>
+    <a class="article-new__social-icon article-new__social-icon--linkedin js-li-share" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.egonzehnder.com%2Freversing-the-she-cession&summary=Reversing%20the%20%E2%80%9CShe-cession%E2%80%9D%3A%20Retaining%20and%20Empowering%20Female%20Leaders%20%E2%80%93%20Read%20more%20at%20https%3A%2F%2Fwww.egonzehnder.com%2Freversing-the-she-cession">
+        <span>Share on LinkedIn</span>
+    </a>
+    <a class="article-new__social-icon article-new__social-icon--email" href="mailto:?subject=Egonzehnder.com%3A%20Reversing%20the%20%E2%80%9CShe-cession%E2%80%9D%3A%20Retaining%20and%20Empowering%20Female%20Leaders&body=Reversing%20the%20%E2%80%9CShe-cession%E2%80%9D%3A%20Retaining%20and%20Empowering%20Female%20Leaders%20%E2%80%93%20Read%20more%20at%20https%3A%2F%2Fwww.egonzehnder.com%2Freversing-the-she-cession">
+        <span>Share via Email</span>
+    </a>
+    </div>
+                        </div>
+
+</div>
+                </div>
+                            <div class="article-new__authors-container-header article-new__authors-container-header--centered">
+                            </div>
+                            <div class="row js-article-body">
+                    <div class="col-md-10 col-md-offset-1">
+                        <article class="article-new article--insights">
+                            <div class="article-new__body">
+                                <h1 class=" ">
+    <div class="u-mt0 widget-heading heading h1 heading--regular"><p>Reversing the &quot;She-cession&quot;: Retaining and Empowering Female Leaders</p>
+</div>
+</h1>
+<div class=" ">
+    <div class="u-mt0 widget-heading heading h3 heading--regular"><p>At the start of the COVID-19 pandemic, there was a &ldquo;she-cession.&rdquo; Globally, women lost jobs due to the pandemic at a rate <a href="https://www.mckinsey.com/featured-insights/future-of-work/covid-19-and-gender-equality-countering-the-regressive-effects" target="_blank">1.8 times greater than men</a>. Meanwhile many women who had retained their jobs experienced extreme burnout. They were stretched thin by their responsibilities to their employers, families, and disproportionate share of the household responsibilities.</p>
+</div>
+</div>
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+    <div class="cms-widget cms-widget-richtext">
+        <p>As COVID-19&nbsp;appeared to recede, it ushered in &ldquo;The Great Resignation,&rdquo; when many employees voluntarily left their jobs. Some sought jobs they were more passionate about or had more flexibility. Others found they were happier not working at all. The resignation rates are <a href="https://www.visier.com/clarity/women-on-the-move-new-survey-uncovers-urgent-need-to-empower-female-leaders-in-todays-workforce/" target="_blank">higher among women than men</a>, with women more likely to leave the workforce and men more likely to move to new jobs.</p>
+
+<p>Now with the Delta variant on the rise and many workplaces continuing to cautiously re-open, we&rsquo;re in a new phase of the pandemic. It may not have an official name yet, but perhaps it&rsquo;s the &ldquo;Spaghetti Era,&rdquo; where organizations try different ways of working and see what sticks. Hybrid work models, increased remote job opportunities, and new platforms for remaining connected while physically distant, are all in experiment mode. To find out how leaders&mdash;specifically women&mdash;are adapting to this new phase, we surveyed 300 C-suite leaders from midsize and large companies worldwide between July-August 2021.</p>
+
+<p>What follows are our key findings.</p>
+    </div>
+    </div></div>
+<!-- CLOSE SECTION -->
+<div class="u-xs-mb-4 u-sm-mb-4 u-md-mb-4" style="display: inline-block;"></div>
+<div class="vue-app">
+    <cms-human-factors-header in-viewport-root-margin='-20% 0%' text="The [Pandemic] Made Advancement Opportunities for Women More Scant" line-style="circle">
+    </cms-human-factors-header>
+</div>
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+<div class=" ">
+    <div class="u-mt0 widget-heading heading h4 heading--regular"><p>Nearly 4 in 5 C-suite professionals say the pandemic has negatively impacted women&rsquo;s progress in the workplace.</p>
+</div>
+</div>
+<div class="vue-app">
+    <cms-pull-stat stat-type="ld" class-list="cms-pullstat cms-pullstat--left cms-pullstat--type-ld" alignment="left" v-bind:percent="76" heading="of leaders believe that women in their organizations are juggling more professional and personal responsibilities than men." description="Against this backdrop, we asked survey respondents about how they were ensuring women were able to advance at work." stat-description="" v-bind:has-background="false" colour="" v-bind:is-admin="false" description-style="body"></cms-pull-stat>
+</div>
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+</div></div>
+<!-- CLOSE SECTION -->
+
+<div class="vue-app">
+    <cms-percentage-panel class="u-xs-pt-2 u-sm-pt-2 u-xs-pb-2 u-sm-pb-2" title="What steps are you taking to support women’s advancement within the organization?" description="(Asked among those who think that the pandemic has negatively impacted women’s advancement)" v-bind:items="[{&quot;percent&quot;:&quot;37&quot;,&quot;bold_label&quot;:&quot;Supporting women and giving them confidence&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;25&quot;,&quot;bold_label&quot;:&quot;Promoting women&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;17&quot;,&quot;bold_label&quot;:&quot;More training&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;12&quot;,&quot;bold_label&quot;:&quot;Equal pay\/equally including women&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;12&quot;,&quot;bold_label&quot;:&quot;Flexibility&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;11&quot;,&quot;bold_label&quot;:&quot;Better environment&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;8&quot;,&quot;bold_label&quot;:&quot;&quot;,&quot;label&quot;:&quot;Other&quot;},{&quot;percent&quot;:&quot;3&quot;,&quot;bold_label&quot;:&quot;&quot;,&quot;label&quot;:&quot;Nothing\/I don&#039;t know&quot;}]" alignment="left"></cms-percentage-panel>
+</div>
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+    <div class="cms-widget cms-widget-richtext">
+        <p>One leader notes the importance of individual actions: &ldquo;Start by ensuring women have a voice at the table. If a woman has a great idea, champion her and make sure she gets the recognition instead of letting someone else take the credit.&rdquo; Another focused on the need for career paths and development: &ldquo;I work with our HR management team to identify rising female talent throughout the organization, track their career paths and provide necessary training to develop their skills further.&rdquo;</p>
+
+<p>However, for all the work that is being done, there remains a gap between male and female leaders. Compared to men at the same level, women managers are taking more action to support their teams, from helping employees manage their workloads to checking in regularly on their overall well-being, according to the <a href="https://www.mckinsey.com/~/media/mckinsey/featured%20insights/diversity%20and%20inclusion/women%20in%20the%20workplace%202021/women-in-the-workplace-2021.pdf?shouldIndex=false">Women in the Workplace</a> 2021 study.</p>
+    </div>
+    </div></div>
+<!-- CLOSE SECTION -->
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+
+<div class="article-callout-block  article-callout-block--full-bleed">
+    <div class="content-wrapper">
+        <div class="container-fluid">
+                            <div class="article-callout-block__title">
+                    Our Take                </div>
+                                <div class="article-callout-block__subtitle">
+                    Allies need to act.                </div>
+                                <p class="article-callout-block__body">
+                    <p>While many leaders may believe they are allies to women and people of color, they must go beyond expressing support and take personal responsibility for creating a more inclusive workplace and ensuring there are opportunities for career progression across the organization. Organizations have some work to do in this area: Our study showed that just 25 percent of respondents are promoting women and only 12 percent are pursuing equal pay to support women&rsquo;s advancement. While building confidence and giving encouragement are important (37 percent of leaders are taking this approach), there need to be more specific and tangible plans in place for ensuring women&rsquo;s future advancement.</p>
+                </p>
+                        </div>
+    </div>
+</div>
+<div class="u-xs-mb-4 u-sm-mb-4 u-md-mb-4" style="display: inline-block;"></div>
+<div class="vue-app">
+    <cms-human-factors-header in-viewport-root-margin='-20% 0%' text="Remote Work Policies Benefit Many, But May Come at the Cost of Career Advancement<br />
+" line-style="corner">
+    </cms-human-factors-header>
+</div>
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+<div class="vue-app">
+    <cms-pull-stat stat-type="ld" class-list="cms-pullstat cms-pullstat--left cms-pullstat--type-ld" alignment="left" v-bind:percent="97" heading="of C-suite professionals say women in their organizations benefited from working from home/remote work" description="" stat-description="" v-bind:has-background="false" colour="" v-bind:is-admin="false" description-style="body"></cms-pull-stat>
+</div>
+</div></div>
+<!-- CLOSE SECTION -->
+
+<div class="vue-app">
+    <cms-percentage-panel class="u-xs-pt-2 u-sm-pt-2 u-xs-pb-2 u-sm-pb-2" title="How have female employees benefited?" description="(Asked among those who think female employees have benefited)" v-bind:items="[{&quot;percent&quot;:&quot;61&quot;,&quot;bold_label&quot;:&quot;Greater flexiblity&quot;,&quot;label&quot;:&quot;in work schedule&quot;},{&quot;percent&quot;:&quot;60&quot;,&quot;bold_label&quot;:&quot;Better work-life balance&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;51&quot;,&quot;bold_label&quot;:&quot;Greater personal or family time&quot;,&quot;label&quot;:&quot;without a commute&quot;},{&quot;percent&quot;:&quot;45&quot;,&quot;bold_label&quot;:&quot;Easier\/more accessibility&quot;,&quot;label&quot;:&quot;to management, leaders or executives&quot;},{&quot;percent&quot;:&quot;42&quot;,&quot;bold_label&quot;:&quot;Less stressful&quot;,&quot;label&quot;:&quot;working environment&quot;},{&quot;percent&quot;:&quot;1&quot;,&quot;bold_label&quot;:&quot;&quot;,&quot;label&quot;:&quot;Other&quot;}]" alignment="left"></cms-percentage-panel>
+</div>
+<div class="u-xs-mb-4 u-sm-mb-4 u-md-mb-4" style="display: inline-block;"></div>
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+    <div class="cms-widget cms-widget-richtext">
+        <p>While bridging the work/life balance gap has been a major relief to many women, it can come at the cost of career advancement.&nbsp;</p>
+    </div>
+    </div></div>
+<!-- CLOSE SECTION -->
+<div class="padded-section u-center">
+    <div class="u-mt0 widget-heading heading h2 heading--regular"><p>More than <strong>7 in 10 C-suite leaders</strong> say remote/flexible employees may be <strong>passed over for leadership roles</strong> because they have <strong>less physical visibility than those working on site.</strong></p>
+</div>
+</div>
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+    <div class="cms-widget cms-widget-richtext">
+        <p>To mitigate potential missed opportunities and increase visibility for employees working remotely, leaders in our survey suggest increasing communication across departments (47%), volunteering for or owning projects (46%) and creating more opportunities for collaboration (45%).&nbsp;</p>
+
+<p>Additionally, many companies view remote work as temporary, <strong>with 84 percent of C-suite professionals expecting female leaders to return to the workplace at the same rates as men</strong>, despite any benefits realized from remote work. Business leaders justify this viewpoint by saying the same rules should apply to everyone (46%) and that having female leaders back in the office is good for both business and staff (37%). But is it even possible to return to &ldquo;normal&rdquo; at work? Flexible work and hybrid working models have changed the definition of work, and what has worked in the past may not lead us to a better future.<br/>
+&nbsp;</p>
+    </div>
+    </div></div>
+<!-- CLOSE SECTION -->
+<div class="padded-section ">
+    <div class="u-mt0 widget-heading heading h2 heading--regular"><p>Leaders in our survey offered advice to rising female leaders who are struggling to maintain a work/life balance:</p>
+</div>
+</div>
+
+<div class="ld-quote-carousel">
+    <div class="ld-quote-carousel__container">
+        <div class="ld-quote-carousel__inner js-ld-quote-carousel">
+                            <div class="ld-quote-carousel__item h4">
+                    “Your health should always be your first priority. If you are not in good shape physically, mentally, and emotionally, both your work life and your personal life will suffer.”
+                </div>
+                                <div class="ld-quote-carousel__item h4">
+                    “I would let female leaders know that we are in full support of them as we all adapt to this unprecedented upheaval in our work/home life, and that we encourage those still trying to re-capture that trajectory they were on (prior to the pandemic).”
+                </div>
+                                <div class="ld-quote-carousel__item h4">
+                    “Finding a balance between career and family has always been difficult, especially now in this modern world. Prioritize, keep track of time, don’t do two things at the same time, and respect private time.”
+                </div>
+                                <div class="ld-quote-carousel__item h4">
+                    “Always have a good support system: Connect with mentors, life coaches, reach out to higher management and invest in a mental health coach.”
+                </div>
+                                <div class="ld-quote-carousel__item h4">
+                    “Achieving work-personal balance in the short term is not always possible, and that’s OK. Balancing work and personal life should be a model for other women. They need to see that it is possible to combine career and family. This means you need to find ways to openly share your experiences and support your colleagues.”
+                </div>
+                        </div>
+        <button type="button" class="ld-quote-carousel__button ld-quote-carousel__button--prev js-ld-quote-carousel-prev">
+            <i class="ez-icon ez-icon-chevron-left ez-icon--md color--brand-1"></i>
+        </button>
+        <button type="button" class="ld-quote-carousel__button ld-quote-carousel__button--next js-ld-quote-carousel-next">
+            <i class="ez-icon ez-icon-chevron-right ez-icon--md color--brand-1"></i>
+        </button>
+    </div>
+</div>
+<div class="u-xs-mb-4 u-sm-mb-4 u-md-mb-4" style="display: inline-block;"></div>
+
+<div class="article-callout-block  article-callout-block--full-bleed">
+    <div class="content-wrapper">
+        <div class="container-fluid">
+                            <div class="article-callout-block__title">
+                    Our Take                </div>
+                                <div class="article-callout-block__subtitle">
+                    Redefine what work looks like, where it happens, and how we collaborate.                 </div>
+                                <p class="article-callout-block__body">
+                    <p>While the tools and technologies for such changes have been available for some time, the mindsets of management often lagged, with many still viewing facetime and lengthy hours as the benchmarks of success. Leaders have the opportunity to explore new success indicators and adopt different models of working, with more emphasis on quality and speed of work than on time spent in the office.&nbsp;</p>
+                </p>
+                        </div>
+    </div>
+</div>
+<div class="u-xs-mb-4 u-sm-mb-4 u-md-mb-4" style="display: inline-block;"></div>
+<div class="vue-app">
+    <cms-human-factors-header in-viewport-root-margin='-20% 0%' text="[Doing It All], But Doing None of It Well Leads to Burnout" line-style="circle">
+    </cms-human-factors-header>
+</div>
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+    <div class="cms-widget cms-widget-richtext">
+        <p>Burnout and mental health issues are plaguing all leaders as the pandemic wears on, and women are particularly struggling to manage personal and professional responsibilities. Our study found that 60 percent of C-suite leaders suffered from burnout during the pandemic, and of that number, 69 percent say pandemic-related stress was a direct contributor.</p>
+    </div>
+    <div class="vue-app">
+    <cms-pull-stat stat-type="ld" class-list="cms-pullstat cms-pullstat--left cms-pullstat--type-ld" alignment="left" v-bind:percent="69" heading="" description="of pandemic-related stress was a direct contributor" stat-description="" v-bind:has-background="false" colour="" v-bind:is-admin="false" description-style="heading"></cms-pull-stat>
+</div>
+</div></div>
+<!-- CLOSE SECTION -->
+
+<div class="vue-app">
+    <cms-percentage-panel class="u-xs-pt-2 u-sm-pt-2 u-xs-pb-2 u-sm-pb-2" title="What has caused your burnout?" description="(Among those who have experienced burnout)" v-bind:items="[{&quot;percent&quot;:&quot;46&quot;,&quot;bold_label&quot;:&quot;Coping with pandemic-related personal stress&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;46&quot;,&quot;bold_label&quot;:&quot;Coping with pandemic-related work stress&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;42&quot;,&quot;bold_label&quot;:&quot;More time spent closely managing employee\/people relations&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;36&quot;,&quot;bold_label&quot;:&quot;Greater traditional work&quot;,&quot;label&quot;:&quot;(strategy, planning, customer-related work)&quot;},{&quot;percent&quot;:&quot;34&quot;,&quot;bold_label&quot;:&quot;Time spent volunteering&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;32&quot;,&quot;bold_label&quot;:&quot;More time spent with family&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;27&quot;,&quot;bold_label&quot;:&quot;Time spent homeschooling my children&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;1&quot;,&quot;bold_label&quot;:&quot;&quot;,&quot;label&quot;:&quot;Other&quot;}]" alignment="left"></cms-percentage-panel>
+</div>
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+    <div class="cms-widget cms-widget-richtext">
+        <p>Another 86 percent say they had a change in their personal responsibilities during the pandemic, ranging from caregiving to increased household responsibilities&nbsp;&ndash; and not just women. Men were more likely to say their personal responsibilities increased (72%) compared to women (63%). However, the <a href="https://www.mckinsey.com/~/media/mckinsey/featured%20insights/diversity%20and%20inclusion/women%20in%20the%20workplace%202021/women-in-the-workplace-2021.pdf?shouldIndex=false" target="_blank">Women in the Workplace report</a> showed that mothers were more likely than fathers to worry that their performance is being judged negatively due to taking advantage of options that make it easier to balance work and life.</p>
+
+<p>High levels of burnout may drive women to scale back at work or to leave the workforce entirely for a period of time&mdash;1 in 3 women are considering these options, according to that same study. While women should do what is best for their unique situations, if large numbers of female leaders exit the workforce and do not return, there is the potential for the gender pay gap to widen further. According to the Center for American Progress, if 3.2 percent of mothers with a child under the age of 6 and 3.5 percent of mothers with a child age 6 to 17 leave the labor force, the result would be an estimated $29.4 billion in foregone wages. In further keeping with their findings, if mothers with a child under the age of 6 reduce full-time hours by 4.5 percent and part-time hours by 7.2 percent, the result would be a $16.4 billion pay cut to families.</p>
+    </div>
+    </div></div>
+<!-- CLOSE SECTION -->
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+
+<div class="article-callout-block  article-callout-block--full-bleed">
+    <div class="content-wrapper">
+        <div class="container-fluid">
+                            <div class="article-callout-block__title">
+                    Our Take                </div>
+                                <div class="article-callout-block__subtitle">
+                    Create a more empathetic workplace culture.                </div>
+                                <p class="article-callout-block__body">
+                    <p>Both women and men need more support from their companies. Employee Assistance Programs are a great start, but organizations must go deeper in developing policies and practices that increase flexibility while also ensuring employees are not inadvertently penalized if they take advantage of such policies.&nbsp;</p>
+                </p>
+                        </div>
+    </div>
+</div>
+<div class="u-xs-mb-4 u-sm-mb-4 u-md-mb-4" style="display: inline-block;"></div>
+<div class="vue-app">
+    <cms-human-factors-header in-viewport-root-margin='-20% 0%' text="[Leaders]’ Own Challenges Are Limiting Their Abilities to Help Others" line-style="circle">
+    </cms-human-factors-header>
+</div>
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+<!-- OPEN SECTION-->
+<div class="container">
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xs-offset-0 col-sm-offset-0 col-md-offset-2 col-lg-offset-2">
+    <div class="cms-widget cms-widget-richtext">
+        <p>Challenges exacerbated by the pandemic have made it difficult for business leaders to meet their own goals&mdash;95 percent say COVID-19 impacted their abilities to be successful in meeting business, team culture and personal leadership goals.</p>
+    </div>
+    </div></div>
+<!-- CLOSE SECTION -->
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+<div class="vue-app">
+    <cms-pull-stat stat-type="ld" class-list="cms-pullstat cms-pullstat--left cms-pullstat--type-ld" alignment="left" v-bind:percent="95" heading="of leaders say COVID-19 impacted their abilities to be successful" description="" stat-description="" v-bind:has-background="false" colour="" v-bind:is-admin="false" description-style="heading"></cms-pull-stat>
+</div>
+</div></div>
+<!-- CLOSE SECTION -->
+
+<div class="vue-app">
+    <cms-percentage-panel class="u-xs-pt-2 u-sm-pt-2 u-xs-pb-2 u-sm-pb-2" title="How has the pandemic impacted your own success?" description="(Asked among those whose ability to be successful as a leader has been impacted)" v-bind:items="[{&quot;percent&quot;:&quot;57&quot;,&quot;bold_label&quot;:&quot;Shifting needs and expectations from employees amid the remote\/hybrid shift created new people management challenges&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;47&quot;,&quot;bold_label&quot;:&quot;The shift to remote\/hybrid work made digital transformation efforts more challenging&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;46&quot;,&quot;bold_label&quot;:&quot;Pandemic-related disruption in my industry made achieving goals and objectives challenging&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;41&quot;,&quot;bold_label&quot;:&quot;The social unrest of 2020 created new expectation from employees and strain on leadship&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;37&quot;,&quot;bold_label&quot;:&quot;Inability to find common ground or collaborate with other teams\/leaders made progressing initiatives difficult&quot;,&quot;label&quot;:&quot;&quot;},{&quot;percent&quot;:&quot;1&quot;,&quot;bold_label&quot;:&quot;&quot;,&quot;label&quot;:&quot;Other&quot;}]" alignment="left"></cms-percentage-panel>
+</div>
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+<!-- OPEN SECTION-->
+<div class="container-fluid">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+    <div class="cms-widget cms-widget-richtext">
+        <p>With leaders stretched thin, many female employees may find themselves with little support beyond verbal encouragement and a prod to return to the office as soon as they are able.</p>
+    </div>
+    </div></div>
+<!-- CLOSE SECTION -->
+<div class="u-xs-mb-3 u-sm-mb-3 u-md-mb-3" style="display: inline-block;"></div>
+
+<div class="article-callout-block  article-callout-block--full-bleed">
+    <div class="content-wrapper">
+        <div class="container-fluid">
+                            <div class="article-callout-block__title">
+                    Our Take                </div>
+                                <div class="article-callout-block__subtitle">
+                    Be mindful about mentorship.                </div>
+                                <p class="article-callout-block__body">
+                    <p>When faced with endless to-do lists and new challenges, our first instincts are to eliminate or pause work on anything that isn&rsquo;t a burning issue. Unfortunately, this often means that mentoring and development sessions drop to the bottom of leaders&rsquo; priorities. In this ongoing pandemic, leaders must maintain a long-term mindset and know that the support they are providing employees with today will pay off by developing new talent that can lead into the future.</p>
+                </p>
+                        </div>
+    </div>
+</div>
+<div class="u-xs-mb-2 u-sm-mb-2 u-md-mb-2" style="display: inline-block;"></div>
+
+<div class="article-callout-block article-callout-block--alt article-callout-block--full-bleed">
+    <div class="content-wrapper">
+        <div class="container-fluid">
+                            <div class="article-callout-block__title">
+                    What Now?                </div>
+                                <p class="article-callout-block__body">
+                    <p>We have the opportunity to redefine long-held constructs of what work means and what it should look like. Instead of wishing for better work/life balance, for more inclusive workplaces, for additional advancement opportunities, and for more mental health support, we can truly adapt to new ways of thinking and acting. Practices we implement today can have a tremendous impact on current and emerging leaders&mdash;the question is are we courageous enough to make real, lasting change?</p>
+                </p>
+                        </div>
+    </div>
+</div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                                <div class="u-mt-2 u-mb-2">
+                    <div class="article-new__meta article-new__social">
+        <div class="article-new__social-label">
+        Share    </div>
+    <a class="article-new__social-icon article-new__social-icon--linkedin js-li-share" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.egonzehnder.com%2Freversing-the-she-cession&summary=Reversing%20the%20%E2%80%9CShe-cession%E2%80%9D%3A%20Retaining%20and%20Empowering%20Female%20Leaders%20%E2%80%93%20Read%20more%20at%20https%3A%2F%2Fwww.egonzehnder.com%2Freversing-the-she-cession">
+        <span>Share on LinkedIn</span>
+    </a>
+    <a class="article-new__social-icon article-new__social-icon--email" href="mailto:?subject=Egonzehnder.com%3A%20Reversing%20the%20%E2%80%9CShe-cession%E2%80%9D%3A%20Retaining%20and%20Empowering%20Female%20Leaders&body=Reversing%20the%20%E2%80%9CShe-cession%E2%80%9D%3A%20Retaining%20and%20Empowering%20Female%20Leaders%20%E2%80%93%20Read%20more%20at%20https%3A%2F%2Fwww.egonzehnder.com%2Freversing-the-she-cession">
+        <span>Share via Email</span>
+    </a>
+    </div>
+                </div>
+                        </div>
+    </div>
+    <div class="footer-cta-block__container">
+        <div class="content-wrapper">
+        <div class="container-fluid">
+        
+            <div class="footer-cta-block footer-cta-block--brand-1">
+                <p class="footer-cta-block__heading">See more on Egon Zehnder’s commitment to Diversity, Equity and Inclusion</p>
+                <div class="footer-cta-block__button-group">
+                                            <div class="footer-cta-block__btn">
+                            <a href="https://www.egonzehnder.com/what-we-do/diversity-equity-inclusion" class="btn btn--keyline btn--keyline--white">Diversity, Equity & Inclusion Commitment</a>
+                        </div>
+                                        </div>
+            </div>
+                </div>
+        </div>
+        </div>
+<div class="get-in-touch-new get-in-touch-new--light">
+            <div class="container">
+        
+        <div class="get-in-touch-new__inner u-xs-pb-1 u-sm-pb-2">
+                            <div class="get-in-touch-new__title">
+                    For press requests, please contact:                </div>
+                            <div class="get-in-touch-new__container ">
+                
+                    <div class="vue-app">
+                        <article-author full name="Jill Cockerham" url="" excerpt="Head of US Marketing & Communications" image="" office-label="">
+                        </article-author>
+                    </div>
+
+<div class="vue-app">
+                        <article-author full name="Martin Klusmann" url="" excerpt="Global Marketing Co-Leader" image="" office-label="">
+                        </article-author>
+                    </div>
+
+</div>
+        </div>
+                    <div class="row get-in-touch-new__extra u-xs-pb-1 u-sm-pb-2">
+                <div class="col-sm-4 col-sm-offset-2">
+                                    </div>
+                <div class="col-sm-4">
+                                    </div>
+            </div>
+                                </div>
+        </div>
+    <div class="u-print-none article-new__related-content">
+        <div class="vue-app">
+    <related-content layout="footer" v-bind:localised-tags="{&quot;tag_localised&quot;:&quot;Related Articles&quot;,&quot;readmore_localised&quot;:&quot;Read more&quot;}"></related-content>
+</div>
+    </div>
+    </div>
+<footer class="footer u-print-none">
+    <div class="footer__upper">
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-lg-3">
+                        <div class="footer__logo">
+                            <img src="https://www.egonzehnder.com/assets/svg/ez-logo.svg" alt="Egon Zehnder" width="141" height="26">
+                        </div>
+                        <div class="footer__copyright">
+                            Copyright <sup>©</sup> 2025 Egon Zehnder. <br>All rights reserved.                        </div>
+                        <div class="footer__social">
+                            <div class="footer__social-label">
+                                Follow us on social                            </div>
+                            <ul class="footer__links list list--unstyled list--social">
+    <li>
+        <a class="text-link text-link--light text-link--unstyled social-link social-link--linkedin" href="https://www.linkedin.com/company/egon-zehnder/" target="_blank">
+            LinkedIn
+        </a>
+    </li>
+    <li>
+        <a class="text-link text-link--light text-link--unstyled social-link social-link--youtube" href="https://www.youtube.com/user/EgonZehnder" target="_blank">
+            YouTube
+        </a>
+    </li>
+    <li>
+        <a class="text-link text-link--light text-link--unstyled social-link social-link--instagram" href="https://www.instagram.com/egonzehnder/" target="_blank">
+            Instagram
+        </a>
+    </li>
+</ul>                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-lg-6">
+                        <div class="footer__group">
+                            <nav>
+                                    <div class="footer__links footer__links--columns list list--unstyled">
+        <ul class="footer__links-list list list--unstyled">
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="https://www.egonzehnder.com/consultants">
+                    Meet our Consultants
+                </a>
+            </li>
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="https://www.egonzehnder.com/office">
+                    Find Offices
+                </a>
+            </li>
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="https://career.egonzehnder.com/">
+                    Careers
+                </a>
+            </li>
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="/join-us">
+                    Join Us
+                </a>
+            </li>
+        </ul>
+        <ul class="footer__links-list list list--unstyled">
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="https://www.egonzehnder.com/about-us">
+                    About Us
+                </a>
+            </li>
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="https://www.egonzehnder.com/what-we-do">
+                    Our Services
+                </a>
+            </li>
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="https://www.egonzehnder.com/functions">
+                    Functions
+                </a>
+            </li>
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="https://www.egonzehnder.com/industries">
+                    Industries
+                </a>
+            </li>
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="https://www.egonzehnder.com/insights">
+                    Discover Insights
+                </a>
+            </li>
+            <li>
+                <a class="text-link text-link--light text-link--unstyled" href="https://www.egonzehnder.com/newsroom">
+                    Newsroom
+                </a>
+            </li>
+        </ul>
+    </div>
+                            </nav>
+                            <div class="footer__bottom">
+                                    <ul class="footer__links footer__links--grey list list--unstyled">
+        <li>
+            <a class="text-link text-link--light text-link--unstyled" href="/imprint">
+                Imprint
+            </a>
+        </li>
+        <li>
+            <a class="text-link text-link--light text-link--unstyled" href="/legal-disclaimer">
+                Legal Disclaimer
+            </a>
+        </li>
+        <li>
+            <a class="text-link text-link--light text-link--unstyled" href="/privacy-policy">
+                Privacy Policy
+            </a>
+        </li>
+        <li>
+            <a class="text-link text-link--light text-link--unstyled" href="/our-policies">
+                Our Policies
+            </a>
+        </li>
+        <li>
+            <a class="text-link text-link--light text-link--unstyled" href="/cookie-policy">
+                Cookie Policy
+            </a>
+        </li>
+        <li>
+            <a class="text-link text-link--light text-link--unstyled" href="/ccpa">
+                Do Not Sell or Share My Personal Information
+            </a>
+        </li>
+    </ul>                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-lg-3">
+                        <div class="footer__social-container">
+                            <a href="https://www.egonzehnder.com/contact" class="btn btn--primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Language alert modal -->
+<div id="lang-alert-modal" class="lang-alert-modal">
+    <div class="lang-alert-modal__bg"></div>
+    <div class="lang-alert-modal__container">
+        <div class="lang-alert-modal__header">
+            <div class="heading h2">Changing language</div>
+            <a class="lang-alert-modal__close" title="Close">
+                <img src="https://www.egonzehnder.com/assets/svg/icon-close.svg" alt="Close icon">
+            </a>
+        </div>
+        <div class="lang-alert-modal__body">
+            <p>You are switching to an alternate language version of the Egon Zehnder website. The page you are currently on does not have a translated version. If you continue, you will be taken to the alternate language home page.</p>
+            <a class="btn btn--primary lang-alert-modal__action">Continue to the                <span class="lang-alert-label"></span> website</a>
+        </div>
+    </div>
+</div>
+
+<!-- Video player -->
+<div class="vue-app">
+    <video-player-modal></video-player-modal>
+</div>
+
+<!-- Flash messages -->
+    <div class="flash-msg flash-msg--success " id="success-modal">
+        <div class="flash-msg__progress">
+            <div class="flash-msg__progress-bar"></div>
+        </div>
+        <div class="flash-msg__content">
+            <p></p>
+        </div>
+    </div>
+        <div class="flash-msg flash-msg--error " id="error-modal">
+        <div class="flash-msg__progress">
+            <div class="flash-msg__progress-bar"></div>
+        </div>
+        <div class="flash-msg__content">
+            <p></p>
+        </div>
+    </div>
+        <div class="flash-msg flash-msg--warning " id="warning-modal">
+        <div class="flash-msg__progress">
+            <div class="flash-msg__progress-bar"></div>
+        </div>
+        <div class="flash-msg__content">
+            <p></p>
+        </div>
+    </div>
+        <div class="flash-msg flash-msg--info " id="info-modal">
+        <div class="flash-msg__progress">
+            <div class="flash-msg__progress-bar"></div>
+        </div>
+        <div class="flash-msg__content">
+            <p></p>
+        </div>
+    </div>
+        <div class="flash-msg flash-msg--positive " id="positive-modal">
+        <div class="flash-msg__progress">
+            <div class="flash-msg__progress-bar"></div>
+        </div>
+        <div class="flash-msg__content">
+            <p></p>
+        </div>
+    </div>
+        <div class="flash-msg flash-msg--negative " id="negative-modal">
+        <div class="flash-msg__progress">
+            <div class="flash-msg__progress-bar"></div>
+        </div>
+        <div class="flash-msg__content">
+            <p></p>
+        </div>
+    </div>
+        <div class="flash-msg flash-msg--info " id="message-modal">
+        <div class="flash-msg__progress">
+            <div class="flash-msg__progress-bar"></div>
+        </div>
+        <div class="flash-msg__content">
+            <p></p>
+        </div>
+    </div>
+        <div class="flash-msg flash-msg--notice " id="notice-modal">
+        <div class="flash-msg__progress">
+            <div class="flash-msg__progress-bar"></div>
+        </div>
+        <div class="flash-msg__content">
+            <p></p>
+        </div>
+    </div>
+    
+<div id="fab-back-parent" class="fab-back u-print-none">
+    <a id="fab-back" href="#" class="fab-back__icon">Back to top</a>
+</div>
+
+<script src="https://use.typekit.net/tjc6ddm.js" nonce="5a0648e06a5ae9ce7fd380ccd0f05fda"></script>
+<script src="https://www.egonzehnder.com/assets/build/js/vendor.js,qrevision=e096afdb81e9913baed95f96766d1b0b071904cf.pagespeed.ce.jdFQYDIrQp.js" nonce="5a0648e06a5ae9ce7fd380ccd0f05fda"></script>
+<script src="https://www.egonzehnder.com/assets/build/js/app.js?revision=e096afdb81e9913baed95f96766d1b0b071904cf" nonce="5a0648e06a5ae9ce7fd380ccd0f05fda"></script><script nonce="5a0648e06a5ae9ce7fd380ccd0f05fda">window.LANG_URL_PREFIX="";try{Typekit.load({async:true});}catch(e){}</script></body></html>

@@ -1,0 +1,629 @@
+# Content from http://fivethirtyeight.com/features/universal-basic-income/
+
+*Retrieved: 2025-09-15T11:40:17.950583*
+
+---
+
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel='dns-prefetch' href='//dcf.espn.com' />
+
+<script type="text/javascript">
+			function setCountryCookie(value,days) {
+				var expires = "";
+				if (days) {
+					var date = new Date();
+					date.setTime(date.getTime() + (days*24*60*60*1000));
+					expires = "; expires=" + date.toUTCString();
+				}
+				document.cookie = "country=" + (value || "") + expires + "; path=/";
+			}
+
+function getCountryCookie() {
+				let value = decodeURIComponent(document.cookie);
+				let parts = value.split(`; country=`);
+  				if (parts.length === 2) {
+					return parts.pop().split(';').shift();
+				}
+				return "";
+			}
+
+var countryCookie = getCountryCookie();
+			if ( ! countryCookie || 'us' !== countryCookie ) {
+				setCountryCookie('us',1);
+			}
+		</script>
+				<script type="text/javascript">
+			var dtciDataLayer = {"page":{"content_publish_date":"04\/25\/2016","content_publish_time":"06:00","content_last_update_date":"05\/13\/2016","content_last_update_time":"08:45","contentcategory":"Economic Policy","section_1":"economics","section_2":"economics:economic policy","story_title":"What Would Happen If We Just Gave People Money?","story_id":113014,"author":"Andrew Flowers","page_name":"fivethirtyeight:economics:features","content_type":"features","app_version":"1.1.2","device_type":"Desktop","prev_page":false,"template":"long_form_layout","editorial_other_subjects":["Economic Policy"],"word_count":5282},"site":{"edition":"en-us","language":"en","site":"fivethirtyeight"},"detailsEndpoint":"https:\/\/fivethirtyeight.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/","device":{"device_type":"Desktop"}};
+		</script>
+		
+		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
+<title>What Would Happen If We Just Gave People Money? | FiveThirtyEight</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="-j2BzwWZ0QSsFphrQ_5sJtlT_ZF5B5qkZhCQHF2MRz8" />
+<link rel='dns-prefetch' href='//cdn.registerdisney.go.com' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//datawrapper.dwcdn.net' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://fivethirtyeight.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='co-authors-plus-coauthors-style-inline-css'>
+.wp-block-co-authors-plus-coauthors.is-layout-flow [class*=wp-block-co-authors-plus]{display:inline}
+
+</style>
+<style id='co-authors-plus-avatar-style-inline-css'>
+.wp-block-co-authors-plus-avatar :where(img){height:auto;max-width:100%;vertical-align:bottom}.wp-block-co-authors-plus-coauthors.is-layout-flow .wp-block-co-authors-plus-avatar :where(img){vertical-align:middle}.wp-block-co-authors-plus-avatar:is(.alignleft,.alignright){display:table}.wp-block-co-authors-plus-avatar.aligncenter{display:table;margin-inline:auto}
+
+</style>
+<style id='co-authors-plus-image-style-inline-css'>
+.wp-block-co-authors-plus-image{margin-bottom:0}.wp-block-co-authors-plus-image :where(img){height:auto;max-width:100%;vertical-align:bottom}.wp-block-co-authors-plus-coauthors.is-layout-flow .wp-block-co-authors-plus-image :where(img){vertical-align:middle}.wp-block-co-authors-plus-image:is(.alignfull,.alignwide) :where(img){width:100%}.wp-block-co-authors-plus-image:is(.alignleft,.alignright){display:table}.wp-block-co-authors-plus-image.aligncenter{display:table;margin-inline:auto}
+
+</style>
+<link rel='stylesheet' id='mediaelement-css' href='https://fivethirtyeight.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.17' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css' href='https://fivethirtyeight.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=6.8.2' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='elasticpress-facet-style-inline-css'>
+.widget_ep-facet input[type=search],.wp-block-elasticpress-facet input[type=search]{margin-bottom:1rem}.widget_ep-facet .searchable .inner,.wp-block-elasticpress-facet .searchable .inner{max-height:20em;overflow:scroll}.widget_ep-facet .term.hide,.wp-block-elasticpress-facet .term.hide{display:none}.widget_ep-facet .empty-term,.wp-block-elasticpress-facet .empty-term{opacity:.5;position:relative}.widget_ep-facet .empty-term:after,.wp-block-elasticpress-facet .empty-term:after{bottom:0;content:" ";display:block;left:0;position:absolute;right:0;top:0;width:100%;z-index:2}.widget_ep-facet .level-1,.wp-block-elasticpress-facet .level-1{padding-left:20px}.widget_ep-facet .level-2,.wp-block-elasticpress-facet .level-2{padding-left:40px}.widget_ep-facet .level-3,.wp-block-elasticpress-facet .level-3{padding-left:60px}.widget_ep-facet .level-4,.wp-block-elasticpress-facet .level-4{padding-left:5pc}.widget_ep-facet .level-5,.wp-block-elasticpress-facet .level-5{padding-left:75pt}.widget_ep-facet input[disabled],.wp-block-elasticpress-facet input[disabled]{cursor:pointer;opacity:1}.widget_ep-facet .term a,.wp-block-elasticpress-facet .term a{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative}.widget_ep-facet .term a:hover .ep-checkbox,.wp-block-elasticpress-facet .term a:hover .ep-checkbox{background-color:#ccc}.ep-checkbox{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-negative:0;-webkit-box-pack:center;-ms-flex-pack:center;align-items:center;background-color:#eee;display:-webkit-box;display:-ms-flexbox;display:flex;flex-shrink:0;height:1em;justify-content:center;margin-right:.25em;width:1em}.ep-checkbox:after{border:solid #fff;border-width:0 .125em .125em 0;content:"";display:none;height:.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:.25em}.ep-checkbox.checked{background-color:#5e5e5e}.ep-checkbox.checked:after{display:block}
+
+</style>
+<link rel='stylesheet' id='elasticpress-related-posts-block-css' href='https://fivethirtyeight.com/wp-content/mu-plugins/search/elasticpress/dist/css/related-posts-block-styles.min.css?ver=4.2.2' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='gif-play-button-styles-css' href='https://fivethirtyeight.com/wp-content/plugins/gif-play-button/assets/css/gif-play-button.min.css?ver=1.1.2' media='all' />
+<link rel='stylesheet' id='fte-css' href='https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/dist/css/fiveThirtyEight.css?ver=1.1.2' media='' />
+<link rel='stylesheet' id='fte-CCfonts-css' href='https://use.typekit.net/ktz4wdi.css?ver=1.1.2' media='' />
+<style id='admin-announcements-inline-css'>
+.st0, .st1 { fill: #fcdfc5; }
+</style>
+<script type="text/javascript" id="disney-oneid-js-extra">
+/* <![CDATA[ */
+var DisneyOneID = {"config":{"clientId":"DATG-FIVETHIRTYEIGHT.WEB","langPref":"en-US","debug":false,"responderPage":"https:\/\/fivethirtyeight.com\/oneid-responder","campaignName":"FiveThirtyEight"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://cdn.registerdisney.go.com/v4/OneID.js" id="disney-oneid-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/disney-messaging/assets/js/oneid.min.js?ver=1.1.2" id="disney-oneid-config-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/dtci-data-privacy/assets/js/adobe-datalayer.min.js?ver=1.1" id="dtci-datalayer-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/espn-social/assets/js/facebook.min.js?ver=1.1.2" id="facebook-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/espn-social/assets/js/twitter-prompt.min.js?ver=1.1.2" id="twitter-prompt-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/disney-messaging/assets/js/vendor/purify.min.js?ver=1.1.2" id="purify-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/dist/js/fivethirtyeightHeader.js?ver=1.1.2" id="fte-js"></script>
+<script type="text/javascript" async="async" src="https://fivethirtyeight.com/wp-content/plugins/dtci-data-privacy/assets/js/twitter-platform.min.js" id="platform-twitter-js" defer></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/js/vendor/picturefill.min.js?ver=1.1.2" id="picturefill-js"></script>
+<script type="text/javascript" id="abc-analytics-js-extra">
+/* <![CDATA[ */
+var ABCAnalytics = {"nielsen":{"asset_id":113014,"section":"economicseconomic-policy","seg_a":"","seg_b":"","seg_c":"","debug":""},"chartbeat":{"uid":"12240","domain":"fivethirtyeight.com","path":"\/features\/universal-basic-income\/","sections":"economics,features","authors":"Andrew Flowers","title":"What Would Happen If We Just Gave People Money?","loadPubJS":false,"loadVidJS":true},"gtm":{"id":"GTM-KLHT6T2"},"omniture":{"pageName":"economics:features:universal-basic-income","prop1":"fivethirtyeight","prop2":"","prop5":"features","prop6":"Andrew Flowers","prop7":"economics","prop8":"economics:economic-policy","prop12":"What Would Happen If We Just Gave People Money?","prop13":"113014:What Would Happen If We Just Gave People Money?","prop14":"","prop15":"https:\/\/fivethirtyeight.com\/features\/universal-basic-income\/","prop16":"https:\/\/fivethirtyeight.com\/features\/universal-basic-income\/","prop20":"Desktop","prop23":"Economic Policy","eVar5":"features","eVar6":"Andrew Flowers","eVar7":"economics","eVar8":"economics:economic-policy","eVar9":"2016-04-25","eVar10":"06:00","eVar12":"What Would Happen If We Just Gave People Money?","eVar13":"113014:What Would Happen If We Just Gave People Money?","eVar14":"","eVar15":"https:\/\/fivethirtyeight.com\/features\/universal-basic-income\/","eVar16":"https:\/\/fivethirtyeight.com\/features\/universal-basic-income\/","eVar20":"Desktop","eVar21":null,"eVar22":null,"prop35":"2016-04-25"},"account":"wdgnewfivethirtyeight"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/abc-analytics/assets/js/analytics.min.js?ver=1.1.2" id="abc-analytics-js"></script>
+<link rel="https://api.w.org/" href="https://fivethirtyeight.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://fivethirtyeight.com/wp-json/wp/v2/fte_features/113014" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fivethirtyeight.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<link rel='shortlink' href='http://53eig.ht/22TWlS4' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://fivethirtyeight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffivethirtyeight.com%2Ffeatures%2Funiversal-basic-income%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://fivethirtyeight.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffivethirtyeight.com%2Ffeatures%2Funiversal-basic-income%2F&#038;format=xml" />
+<meta name="color-scheme" content="only light" />
+        <style>
+        .getty.aligncenter {
+            text-align: center;
+        }
+        .getty.alignleft {
+            float: none;
+            margin-right: 0;
+        }
+        .getty.alignleft > div {
+            float: left;
+            margin-right: 5px;
+        }
+        .getty.alignright {
+            float: none;
+            margin-left: 0;
+        }
+        .getty.alignright > div {
+            float: right;
+            margin-left: 5px;
+        }
+        </style>
+        
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="What Would Happen If We Just Gave People Money?" />
+<meta property="og:url" content="https://fivethirtyeight.com/features/universal-basic-income/" />
+<meta property="og:description" content="Daniel Straub remembers the night he got hooked on basic income. He had invited Götz Werner, a billionaire owner of a German drugstore chain, to give an indepen&#8230;" />
+<meta property="article:published_time" content="2016-04-25T10:00:39+00:00" />
+<meta property="article:modified_time" content="2016-04-25T10:00:39+00:00" />
+<meta property="og:site_name" content="FiveThirtyEight" />
+<meta property="og:image" content="https://fivethirtyeight.com/wp-content/uploads/2016/04/promo_4x32.gif?w=712" />
+<meta property="og:image:width" content="712" />
+<meta property="og:image:height" content="534" />
+<meta property="og:image:alt" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:author" content="https://facebook.com/andrew.flowers.journalist" />
+<meta name="twitter:text:title" content="What Would Happen If We Just Gave People Money?" />
+<meta name="twitter:image" content="https://fivethirtyeight.com/wp-content/uploads/2016/04/promo_4x32.gif?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="article:publisher" content="https://www.facebook.com/fivethirtyeight" />
+<meta property="fb:app_id" content="797620670264818" />
+<meta property="fb:pages" content="687958677914631" />
+<meta name="twitter:site" content="FiveThirtyEight" />
+<meta name="twitter:site:id" content="2303751216" />
+<meta name="twitter:widgets:csp" content="on" />
+<meta name="twitter:maxage" content="300" />
+<meta name="twitter:creator" content="andrewflowers" />
+<meta name="twitter:creator:id" content="57779415" />
+<meta name="twitter:image:src" content="https://fivethirtyeight.com/wp-content/uploads/2016/04/promo_4x32.gif?w=712" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Andrew Flowers" />
+<meta name="twitter:label2" content="Filed under" />
+<meta name="twitter:data2" content="Economic Policy" />
+
+<!-- End Jetpack Open Graph Tags -->
+<meta name="DC.date.issued" content="2016-04-25T10:00:39+00:00" />
+<meta name="description" content="Daniel Straub remembers the night he got hooked on basic income. He had invited Götz Werner, a billionaire owner of a German drugstore chain, to give an indepen&#8230;" />
+<link rel='author' href='https://fivethirtyeight.com/contributors/andrew-flowers/' />
+<link rel="alternate" type="application/rss+xml" title="Posts feed for Andrew Flowers" href="https://fivethirtyeight.com/contributors/andrew-flowers/feed/">
+<link type="text/plain" rel="author" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/humans.txt" /><link rel='canonical' href='https://fivethirtyeight.com/features/universal-basic-income/' />
+<script type='application/ld+json'>
+{"@context":"http://schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https://fivethirtyeight.com/features/universal-basic-income/"},"headline":"What Would Happen If We Just Gave People Money?","datePublished":"2016-04-25T06:00:39-04:00","dateModified":"2016-05-13T08:45:18-04:00","publisher":{"@type":"Organization","name":"FiveThirtyEight","logo":{"url":"https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/dist/images/fivethirtyeight-logo-rich-snippets.png","height":60,"width":546,"@type":"ImageObject"}},"author":{"@type":"Person","name":"Andrew Flowers"},"articleSection":"Economics","image":{"@type":"ImageObject","url":"https://fivethirtyeight.com/wp-content/uploads/2016/04/promo_4x32.gif","width":1024,"height":768}}
+</script>
+<script type='application/ld+json'>
+{"@context":"http://schema.org","@type":"Organization","url":"https://fivethirtyeight.com/","name":"FiveThirtyEight","logo":"https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/dist/images/fivethirtyeight-logo.png","sameAs":["https://twitter.com/FiveThirtyEight","https://www.facebook.com/fivethirtyeight","https://www.instagram.com/fivethirtyeight"]}
+</script>
+		<style type="text/css" id="wp-custom-css">
+			section.viz {
+background-color: #fff;
+}
+div.liveblog-entry-content>header.single-post-header{
+display: none;
+}		</style>
+			<link rel="mask-icon" color="#ed713a" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-black.svg?v=1.1.2">
+	<link rel="shortcut icon" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/favicon.ico?v=1.1.2">
+	<link rel="apple-touch-icon" href="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/fivethirtyeight-logo-touch.png?v=1.1.2">
+</head>
+<body class="wp-singular fte_features-template-default single single-fte_features postid-113014 wp-theme-espn-fivethirtyeight vertical-economics slug-universal-basic-income long-form topic-slug-economic-policy no-ads">
+
+<a href="#content" class="skip-to-content-link visually-hidden">Skip to main content</a>
+<i class="header-global-bground"></i>
+<header class="header-global" id="header-global">
+	<div class="site-wrapper header-global-top">
+							<h2 class="header-global-logo">
+							<a href="/" name="&amp;lpos=fivethirtyeight&amp;lid=Header Home" class="header-global-logo-link">
+					<span class="visually-hidden">FiveThirtyEight</span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="163.451" viewBox="0 318.275 1280 163.451" class="site-logo" role="presentation"><path d="M0 318.275h76.009v24.323H27.363v30.403h45.606v24.323H27.363v51.687H0zm94.252 109.453h15.202v-54.727H94.252v-24.323h39.525v79.05h12.162v21.283H94.252v-21.283zm15.202-109.453h24.323v24.323h-24.323v-24.323zm434.774 109.453h15.202v-54.727h-15.202v-24.323h39.525v79.05h12.162v21.283h-51.686v-21.283zm15.202-109.453h24.323v24.323H559.43v-24.323zm401.33 109.453h15.202v-54.727H960.76v-24.323h39.525v79.05h12.161v21.283H960.76v-21.283zm15.202-109.453h24.323v24.323h-24.323v-24.323zm-811.781 82.09v-51.687h24.323v45.606l12.161 30.343h3.04l12.162-30.343v-45.606h24.323v51.687l-21.283 48.646h-33.444zm173.301 48.646h-41.288c-24.901 0-37.762-11.584-37.762-35.968v-27.88c0-23.016 13.074-39.525 39.525-39.525 28.367 0 39.525 15.415 39.525 42.565v21.283h-51.686v5.29c0 7.966 3.04 12.952 10.398 12.952h41.288v21.283zm-51.686-60.808h24.323v-4.713c0-7.966-3.223-16.57-12.557-16.57-8.483 0-11.766 6.689-11.766 16.57v4.713zm94.251-45.605h-30.403v-24.323h88.171v24.323h-30.404v106.413h-27.364zm234.11 106.413V348.678h24.323v12.161c3.466-7.449 11.401-12.161 21.952-12.161h8.452v24.323h-18.242c-8.635 0-12.161 2.858-12.161 11.857v64.152h-24.324zm130.736 0h-14.715c-21.617 0-30.89-11.219-30.89-33.9v-42.109h-18.242v-24.323h18.242v-21.283h24.323v21.283h21.283v24.323H723.61l-.213 42.353c0 6.75 2.828 12.374 11.128 12.374h10.368v21.282zm535.107 0h-14.715c-21.617 0-30.89-11.219-30.89-33.9v-42.109h-18.242v-24.323h18.242v-21.283h24.323v21.283H1280v24.323h-21.283l-.213 42.353c0 6.75 2.828 12.374 11.128 12.374H1280v21.282zm-506.953 32.714l14.016-28.883-23.928-52.477v-51.687h24.323v45.606l12.162 30.404h3.04l12.162-30.404v-45.606h24.323v51.687l-37.397 81.36zm90.421-163.45h76.009v24.323h-48.646v27.363h45.606v24.323h-45.606v30.404h48.646v24.323h-76.009zm161.14 145.938v-6.081h48.95c6.081 0 8.817-.547 8.817-3.861v-1.034c0-3.284-2.767-4.226-8.817-4.226h-39.829v-15.202l15.202-15.202c-16.084-4.5-24.323-16.509-24.323-33.444v-3.04c0-22.985 13.499-36.485 42.565-36.485a66.672 66.672 0 0 1 18.09 3.04l12.313-18.242 15.202 9.121-12.161 18.242c4.165 5.868 9.121 14.989 9.121 24.323v3.04c0 21.283-10.033 32.41-36.484 33.444l-9.121 12.161h18.242c17.999 0 27.363 7.966 27.363 23.35v.334c0 15.384-8.239 24.962-26.208 24.962h-39.525c-13.043.002-19.397-5.593-19.397-15.2zm57.767-76.01v-9.121c0-10.033-4.044-12.161-15.202-12.161-11.158 0-15.202 2.128-15.202 12.161v9.121c0 10.033 4.226 12.162 15.202 12.162s15.202-2.128 15.202-12.162zm72.969 60.808h-24.323V318.275h24.323v42.565c3.466-8.118 10.337-12.161 21.283-12.161 19.033 0 27.363 9.364 27.363 32.714v67.618h-24.323v-63.848c0-9.516-3.253-15.202-12.162-15.202-8.908 0-12.161 5.686-12.161 15.202v63.848zm-678.004 0h-24.323V318.275h24.323v42.565c3.466-8.118 11.888-12.161 22.772-12.161 19.033 0 25.874 9.516 25.874 32.867v67.466h-24.323v-66.888c0-9.516-3.253-13.499-12.161-13.499s-12.162 6.871-12.162 16.388v63.998z"/></svg>
+					<img src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/assets/images/logo-fox-head-color.svg" alt="FiveThirtyEight" width="57" height="55" class="site-logo-small" id="site-logo-small" />
+				</a>
+							</h2>
+			
+			<form action="https://fivethirtyeight.com/" method="get" id="searchform" class="search-form">
+				<label for="search-field" class="search-form-label">Search</label>
+				<div class="search-form-input-wrapper"><input type="search" name="s" id="search-field" class="search-form-input" placeholder="Search" tabindex="-1"></div>
+				<input type="submit" value="Search" class="search-form-submit" tabindex="-1">
+				<button aria-label="Search" class="search-button" id="search-button" aria-expanded="false">
+					<span class="visually-hidden">Search</span>
+				</button>
+			</form>
+
+<a href="https://abcnews.go.com/" rel="noopener" title="ABC News" target="_blank" class="header-espn-link" name="&amp;lpos=fivethirtyeightHeader&amp;lid=Header ABC News">
+				<svg width="65" height="23" xmlns="http://www.w3.org/2000/svg" role="presentation"><path d="M25.089 6.709c-.47-.496-.974-.798-1.322-.798h-.313v-.275h.261c.121 0 1.548.058 1.687.058.227 0 .886-.058 1.026-.058h.278l6.618 7.345V7.187c0-.921-.4-1.276-1.407-1.276h-.296v-.275h.313c.035 0 1.529.058 1.65.058.173 0 1.164-.058 1.355-.058h.192l.017.275c-.922.071-1.165.32-1.165 1.135v9.16h-.312l-7.904-8.77v6.6c0 1.384.314 1.756 1.46 1.756h.295v.296h-.331c-.243 0-1.441-.06-1.72-.06-.156 0-1.269.06-1.512.06h-.279v-.296c1.166-.107 1.41-.302 1.41-1.153v-7.93h-.001zm11.98.106c0-.691-.261-.904-1.079-.904h-.26v-.275h.678c.47 0 3.008.058 3.026.058.364 0 2.777-.058 3.296-.058h.695l.035 2.277h-.27c-.053-1.188-.58-1.667-1.795-1.667h-2.43v4.026h2.1c.816 0 1.268-.39 1.389-1.225l.31.018v3.178h-.293c-.138-.993-.642-1.383-1.857-1.383h-1.666v3.672c0 .603.296.905.885.905h1.736c1.126 0 1.944-.515 2.43-1.58h.314l-.731 2.23c-.505 0-2.898-.058-3.696-.058-.539 0-3.13.04-3.722.058h-.452v-.295h.278c.818-.017 1.08-.23 1.08-.923V6.815zm16.701 9.41h-.487l-1.984-5.511-2.035 5.512h-.47L45.4 6.975c-.26-.71-.505-.993-.957-1.08v-.26h.296c.191 0 1.149.059 1.375.059.191 0 1.182-.058 1.391-.058h.314v.275c-.505.019-.714.16-.714.443 0 .16.052.39.14.639l2.383 6.557 1.357-3.74-.887-2.516c-.383-1.081-.714-1.364-1.55-1.383v-.275h.28c.243 0 1.496.058 1.793.058.242 0 1.495-.058 1.773-.058h.417v.275h-.417c-.574 0-.852.142-.852.443 0 .16.07.444.174.727l2.314 6.522 1.827-5.53c.226-.709.33-1.17.33-1.453 0-.496-.243-.71-.782-.71h-.313v-.274h.087c.243 0 .851.058 1.217.058.173 0 .851-.058 1.18-.058h.123v.275c-.436.125-.66.443-1.007 1.525l-2.923 8.79zm4.01-2.563c.278.688.52 1.008.988 1.361.59.46 1.37.69 2.237.69 1.491 0 2.497-.796 2.497-1.946 0-.85-.486-1.31-2.282-2.175-1.74-.85-2.174-1.274-2.538-1.628-.537-.584-.762-1.114-.762-1.822 0-1.627 1.3-2.704 3.265-2.704.592 0 1.236.088 1.933.264.278.07.557.106.714.106.138 0 .209-.035.26-.153h.3l.034 2.229h-.247c-.156-.531-.26-.76-.487-1.05-.488-.585-1.254-.903-2.237-.903-1.248 0-2.064.601-2.064 1.504 0 .778.47 1.22 2.134 1.998 2.134 1.008 3.426 1.911 3.426 3.573 0 1.91-1.537 3.2-3.807 3.2a8.04 8.04 0 0 1-1.838-.229 3.676 3.676 0 0 0-.624-.089c-.209 0-.277.036-.415.2h-.295l-.035-.248c-.118-.7-.258-1.398-.418-2.09l.261-.089zM3.97 9.732c-.262 0-.51.06-.73.168-.587.291-.957.89-.955 1.546 0 .946.755 1.714 1.684 1.714.931 0 1.684-.768 1.684-1.714 0-.947-.753-1.715-1.684-1.715zm7.259 0c-.93 0-1.685.767-1.685 1.714 0 .946.754 1.714 1.685 1.714.93 0 1.684-.768 1.684-1.714 0-.947-.755-1.715-1.684-1.715z"/><path d="M18.47 14.875c-1.862 0-3.37-1.535-3.37-3.43 0-1.893 1.508-3.428 3.37-3.428 1.596 0 2.932 1.132 3.28 2.65h-1.78a1.68 1.68 0 0 0-1.5-.936c-.932 0-1.686.768-1.686 1.715 0 .946.754 1.714 1.685 1.714a1.68 1.68 0 0 0 1.502-.94l1.783-.017c-.339 1.53-1.68 2.672-3.285 2.672zm-7.241 0c-1.853 0-3.356-1.522-3.369-3.405l-.04-6.016h1.704l.01 3.228c.499-.396 1.077-.665 1.695-.665 1.86 0 3.368 1.535 3.368 3.429s-1.509 3.429-3.368 3.429zm-5.546 0l-.007-.859c-.382.389-1.043.859-1.824.859-1.86 0-3.251-1.535-3.251-3.43 0-1.893 1.508-3.428 3.368-3.428.29 0 .573.037.843.108 1.453.38 2.526 1.723 2.526 3.32v.01l.02 3.42H5.682zM11.229.017C5.027.017 0 5.134 0 11.446s5.027 11.43 11.229 11.43c6.2 0 11.228-5.118 11.228-11.43 0-6.312-5.028-11.429-11.228-11.429z"/></svg>
+				<span class="visually-hidden">ABC News</span>
+			</a>
+
+<button class="nav-global-toggle" id="nav-global-toggle" aria-expanded="false">Menu</button>
+
+</div>
+			<div class="single-sticky">
+		
+							<div class="single-sticky-vertical"></div>
+				<div class="single-sticky-title">
+											What Would Happen If We Just Gave People Money?									</div>
+				<a href="https://fivethirtyeight.com/features/universal-basic-income/?share=facebook" class="button share-sticky sticky-facebook">Share on Facebook</a>
+				<a href="https://fivethirtyeight.com/features/universal-basic-income/?share=twitter"  class="button share-sticky sticky-twitter">Share on Twitter</a>
+			
+			</div>
+			<div class="site-wrapper header-global-bottom" role="dialog" aria-label="Main menu">
+		<nav class="nav-global" id="nav-global">
+			<ul class="nav-global-menu">
+				<li class="nav-global-menu-item menu-politics">
+					<a
+						href="https://fivethirtyeight.com/politics/"
+						name="&amp;lpos=fivethirtyeight&amp;lid=Header Politics"
+											>
+						Politics					</a>
+				</li>
+				<li class="nav-global-menu-item menu-sports">
+					<a
+						href="https://fivethirtyeight.com/sports/"
+						name="&amp;lpos=fivethirtyeight&amp;lid=Header Sports"
+											>
+						Sports					</a>
+				</li>
+				<li class="nav-global-menu-item menu-science">
+					<a
+						href="https://fivethirtyeight.com/science/"
+						name="&amp;lpos=fivethirtyeight&amp;lid=Header Science"
+											>
+						Science					</a>
+				</li>
+				<li class="nav-global-menu-item menu-podcast">
+					<a
+						href="https://fivethirtyeight.com/podcasts/"
+						name="&amp;lpos=fivethirtyeight&amp;lid=Header Podcasts"
+											>
+						Podcasts					</a>
+				</li>
+				<li class="nav-global-menu-item menu-video">
+					<a
+						href="https://fivethirtyeight.com/videos/"
+						name="&amp;lpos=fivethirtyeight&amp;lid=Header Video"
+											>
+						Video					</a>
+				</li>
+				<li class="nav-global-menu-item menu-interactive">
+					<a
+						href="https://projects.fivethirtyeight.com/"
+						name="&amp;lpos=fivethirtyeight&amp;lid=Header Interactives"
+					>
+						Interactives					</a>
+				</li>
+				<li class="nav-global-menu-item menu-abcn -mobile-only">
+					<a href="https://abcnews.go.com/" rel="noopener" name="&amp;lpos=fivethirtyeightHeader&amp;lid=Header ABC News">
+						ABC News					</a>
+				</li>
+			</ul>
+
+</nav><!-- #nav-global -->
+		</div><!-- .site-wrapper -->
+</header><!-- #header-global -->
+
+<div class="site-main">
+	<div id="wrapper" class="site-wrapper">
+<div class="espn-announcement-banner"
+			style="background-color: #dd9933;"
+		>
+
+<a href="http://abcnews.com/538" class="banner-content">
+	
+		<div class="banner-icon lightning">
+			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 100 100"><path class="st0" d="M78.8 26.6c-.5-.5-1.3-.9-2-.9-.2 0-.5.1-.7.1l-23.7 5.9L62.6 3.9c.2-.4.3-.7.3-1.1 0-1.4-1.2-2.5-2.7-2.5H40.6c-1.3 0-2.3.8-2.6 1.9L26 51.6c-.2.8.1 1.7.8 2.3.5.4 1.2.7 1.9.7.2 0 .5 0 .7-.1l24.3-6.1-11.9 48.5c-.3 1.3.5 2.5 1.8 2.9.3.1.6.1.8.1 1.1 0 2-.6 2.5-1.5l32.3-69.3c.5-.8.3-1.8-.4-2.5"/></svg>		</div>
+
+<div class="banner-content-text">This is an archived site and is no longer being updated. New 538 articles can be found at www.abcnews.com/538.</div>
+
+<div class="banner-icon chevron">
+			<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 100 100"><path class="st1" d="M83.5 50c0-.8-.4-1.7-1-2.3L36.1 1.3c-.6-.6-1.5-1-2.3-1-.8 0-1.7.4-2.3 1l-5 5c-.6.6-1 1.5-1 2.3 0 .8.4 1.7 1 2.3L65.6 50 26.5 89.1c-.6.6-1 1.5-1 2.3 0 .9.4 1.7 1 2.3l5 5c.6.6 1.5 1 2.3 1 .8 0 1.7-.4 2.3-1l46.4-46.4c.6-.6 1-1.5 1-2.3"/></svg>		</div>
+		</a>
+	
+</div>
+
+<div id="content" class="single single-feature" data-col="2">
+
+<div class="single-feature__row">
+			<div id="primary" class="single-feature__col">
+				<div id="article-main">
+					<article id="post-113014" class="post-113014 fte_features type-fte_features status-publish has-post-thumbnail hentry tag-economic-policy espn_verticals-economics vertical-economics topic-slug-economic-policy">
+
+<header class="post-info single-post-header">
+							
+							<div class="single-header">
+								<h1 class="article-title article-title-single entry-title">
+									What Would Happen If We Just Gave People Money?								</h1>
+
+</div>
+
+<div class="single-header-metadata-and-share-wrap">
+								<div class="single-header-metadata-wrap">
+																			<p class="single-metadata single-byline vcard">By <a href="https://fivethirtyeight.com/contributors/andrew-flowers/" title="" class="author url fn" rel="author">Andrew Flowers</a></p>
+										
+																		<p class="single-metadata single-topic">Filed under <a href="https://fivethirtyeight.com/tag/economic-policy/" class="term " name="">Economic Policy</a></p>
+										
+																			<p class="single-metadata single-topic single-date">
+										Published <time class="datetime updated" title="2016-04-25T10:00:39+00:00">Apr. 25, 2016</time>
+									</p>
+									
+																	</div>
+								<div class="share">
+																	</div> <!-- .share -->
+							</div>
+
+</header><!-- .post-info -->
+
+<figure id="single-featured-image" class="single-featured-image banner">
+	<span class="has-bugs post-thumbnail">
+					<div class="bug-container">
+				<picture class="featured-picture">
+											<source media="(min-width: 768px)" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/promo16x9.gif">
+					
+											<source srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/promo_4x32.gif?w=575 1x, https://fivethirtyeight.com/wp-content/uploads/2016/04/promo_4x32.gif?w=1150 2x">
+						<img width="575" height="432" src="https://fivethirtyeight.com/wp-content/uploads/2016/04/promo_4x32.gif?w=575" class="attachment-lede size-lede" alt="" />									</picture>
+
+</div>
+
+</span><!-- .has-bugs -->
+
+<figcaption class="caption banner-caption">
+										<p class="credits">Illustrations by Heads of State.</p>
+					</figcaption>
+	
+				<figcaption class="caption featured-image-caption">
+													<p class="credits">Illustrations by Heads of State.</p>
+							</figcaption>
+			
+</figure><!-- .single-featured-image -->
+						
+						<div class="entry-content single-post-content">
+							<p><b></b><span class="drop-cap">D</span>aniel Straub remembers the night he got hooked on basic income. He had invited Götz Werner, a billionaire owner of a German drugstore chain, to give an independent talk in Zurich, where Straub was working as a project manager for a think tank. He had read an article about the radical proposal to unconditionally guarantee citizens an income and spent a few years casually researching the idea. Straub had heard Werner was a good speaker on the topic, and that night in 2009 he was indeed excellent at connecting with the audience, a sold-out house of 200. “It was a very intense evening; people were paying attention,” Straub recalled.</p>
+<p>Werner posed a pair of simple questions to the crowd: What do you really want to do with your life? Are you doing what you really want to do? Whatever the answers, he suggested basic income was the means to achieve those goals. The idea is as simple as it is radical: Rather than concern itself with managing myriad social welfare and unemployment insurance programs, the government would instead regularly cut a no-strings-attached check to each citizen. No conditions. No questions. Everyone, rich or poor, employed or out of work would get the same amount of money. This arrangement would provide a path toward a new way of living: If people no longer had to worry about making ends meet, they could pursue the lives they want to live.</p>
+<p>Straub had studied business, international policy and psychology at school and spent years working for IBM, the International Red Cross and a Montessori school. Basic income “struck a nerve,” he said. “People are burned out more than ever. You come to Switzerland and talk to people, they aren’t happy. They fear for their jobs. There is a gap between the economic possibility in this country and the quality of life.”</p>
+<p>After Werner’s talk, Straub quit his job at the think tank and began to campaign for a basic income full time. He and a few hundred volunteers gathered 126,000 signatures over two years to force a referendum, now slated for June 5, to amend the Swiss Constitution to guarantee a basic income to all citizens. (The suggested amount is 2,500 Swiss francs per month, or about $1,700 after adjusting for the cost of living.)</p>
+<p>Switzerland is one of the world’s richest countries, and compared to the United States, it offers far more generous health care and education to its citizens. But supporters of the referendum think the government can provide even more security. “We limit ourselves too much,” Straub said. “I’m interested in consciousness, expanding consciousness. And basic income is a wonderful tool for that — it challenges a lot of assumptions we have.”</p>
+<p>The entirety of the Swiss government <a href="https://www.admin.ch/gov/en/start/documentation/votes/20160605/unconditional-basic-income.html">opposes the referendum</a>, citing potential effects on people’s willingness to work and the huge fiscal costs as reasons to vote “no.” Even Straub and his fellow supporters don’t expect it to pass. But he’s excited by the enthusiasm, and media attention, he’s seen for the idea in the past few years. Just getting on the ballot “was a moment of hope, for me and for a lot of other people,” he said. “It was a moment of departure.”</p>
+<p>He’s right that interest in basic income is spreading across the world. Finland and the Netherlands are developing plans to study the idea. Canada will likely see an experiment in Ontario, if not on a national level. In France, several members of Parliament have supported running an experiment, and the finance minister is open to it. And in January, Sam Altman, the president of Y Combinator, <a href="https://blog.ycombinator.com/basic-income">announced</a> that the San Francisco-based startup fund was organizing a basic income study in the U.S.</p>
+<p>“In the last five years we’ve taken on a new respectability. But in the last two years it has become an avalanche,” said Guy Standing, a British economist who co-founded the <a href="http://www.basicincome.org/">Basic Income Earth Network</a> in 1986 to promote debate and research on the topic. Initially a small cabal of young economists, philosophers and activists, BIEN has grown into the largest hub for basic income supporters — a global network with national organizations in <a href="http://www.basicincome.org/about-bien/affiliates/">23 countries</a>.</p>
+<p>Basic income, Standing says, is more than good policy. He calls it “essential,” given that more and more people in developed economies are living “a life of chronic economic insecurity.” He sees this <a href="http://www.amazon.com/The-Precariat-New-Dangerous-Class/dp/1472536169">insecurity fueling populist politicians</a>, boosting far-right parties across Europe and the rise of Donald Trump in the U.S. Economic stagnation increases the appeal of extreme politicians, and unless those insecurities are addressed, Standing said, that appeal is only going to get stronger.</p>
+<figure id="attachment_113040" class="wp-caption alignright illo illo-right" style="">
+					<img decoding="async" class="wp-image-113040" src="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg" alt="538_progressive_finalflat" width="575" height="800" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg 1725w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=54,75 54w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=216,300 216w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=768,1069 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=736,1024 736w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=1104,1536 1104w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=1472,2048 1472w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=368,512 368w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=311,432 311w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=253,352 253w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=162,225 162w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=323,450 323w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=187,260 187w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=115,160 115w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=414,576 414w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=111,155 111w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=72,100 72w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=43,60 43w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=494,687 494w" sizes="(max-width: 575px) 100vw, 575px" data-sizes="(max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg 1725w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=54,75 54w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=216,300 216w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=768,1069 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=736,1024 736w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=1104,1536 1104w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=1472,2048 1472w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=368,512 368w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=311,432 311w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=253,352 253w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=162,225 162w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=323,450 323w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=187,260 187w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=115,160 115w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=414,576 414w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=111,155 111w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=72,100 72w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=43,60 43w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_progressive_finalflat.jpg?resize=494,687 494w"></figure>
+		
+<p>The economic uncertainty surrounding basic income is huge, and the politics of bringing such a program about on a large scale are daunting. But something makes this radical proposal so exciting that people and governments are increasingly willing to try it. Basic income challenges our notions of the social safety net, the relationship between work and income, and how to adapt to technological change. That makes it one of the most audacious social policy experiments in modern history. It could fail disastrously, or it could change everything for the better.</p>
+<p>Basic income has attracted a motley crew of supporters, spanning the ideological spectrum. Efficiency-minded libertarians like the idea of streamlining the bureaucracy of the welfare state. Silicon Valley techies hope a guaranteed income would cushion the blow as automation replaces human jobs. Those with a more utopian bent, such as the organizers of the Swiss referendum, want to open up more options, to let people create art and free the world of what Straub calls “<a href="http://strikemag.org/bullshit-jobs/">bullshit jobs</a>.”</p>
+<p>Critics of the idea say it’s <a href="http://www.economist.com/news/finance-and-economics/21651897-replacing-welfare-payments-basic-income-all-alluring">too expensive</a>, would encourage people to stop working and possibly tank a country’s economy. It’s thought to be a political non-starter, too, especially in countries less wealthy and with less generous welfare states than Switzerland. And because basic income proposes a radical reform to the existing welfare system — one that many progressives, at least in the United States, have been defending tooth and nail over the last 30 years — it makes anti-poverty advocates nervous. Max Sawicky, a former economist at the Economic Policy Institute, a liberal think tank in the U.S., <a href="http://rooseveltinstitute.org/guest-post-max-sawicky-liberal-case-against-universal-basic-income/">outlined</a> a progressive case against basic income in 2013, calling it a “distraction” from raising the minimum wage, guaranteeing full employment, rolling back Clinton-era welfare reforms and supporting unions — all policies, he argues, “more in keeping with our current system and our political culture.”</p>
+<p>Both lovers and haters of basic income often miss an important point: We don’t have great data on how it would work or what would happen if it did. Similar policies were tested in both Canada and the U.S. in the 1960s and ’70s, but studies of their effects were either flawed or abandoned. “To be honest, a full long-term universal basic income has never been tried, let alone rigorously evaluated,” said Michael Faye, the co-founder and executive chairman of Give Directly, a nonprofit that has pioneered direct cash transfers to the extreme poor, primarily in Kenya and Uganda.<span class="espn-footnote-link" data-footnote-id="1" data-footnote-url="#fn-1" data-footnote-content="&lt;p&gt;Full disclosure: My wife and I are regular donors to Give Directly.&lt;/p&gt;
+"><sup id="ss-1">1</sup></span> Earlier this month, Faye <a href="http://www.slate.com/blogs/moneybox/2016/04/14/universal_basic_income_this_nonprofit_is_about_to_test_it_in_a_big_way.html">announced</a> Give Directly’s plan to launch a large basic income pilot in Kenya, giving at least 6,000 people a guaranteed income for 10 to 15 years. They hope to find out what happens when everyone in a randomly selected place receives a guaranteed basic income for a long period — something that has never been done before.</p>
+<p>Experiments like this are important for our understanding of how basic income would work. But the idea has always been about politics as much as economics. Until we have more evidence, the best thing basic income has going for it is its broad appeal — after all, who doesn’t like free money?</p>
+<div class="ornamental-rule"><hr><span></span></div>
+
+<p><span class="drop-cap">B</span>asic income is not a single idea but a family of closely related ideas, which go by an assortment of names: universal basic income, unconditional basic income, social dividend, guaranteed annual income, citizen’s income, negative income tax, etc. But the core motivation — to address social ills by just giving people money — has a <a href="http://www.basicincome.org/basic-income/history/">long history</a>.</p>
+<p>Thomas Paine, the intellectual founding father and pamphleteer, outlined a plan in his 1797 essay “<a href="https://www.ssa.gov/history/paine4.html">Agrarian Justice</a>” to create a national fund making payments of 15 pounds sterling to each adult over 21 years old. In the early 20th century, socialists and labor activists took up the cause, arguing basic income could empower workers and transform economies: British philosopher Bertrand Russell backed it, along with those in the <a href="https://en.wikipedia.org/wiki/Social_credit">social credit</a> movement in Britain; left-wing Louisiana Gov. Huey Long supported it while pushing to “<a href="http://www.hueylong.com/programs/share-our-wealth.php">Share the Wealth</a>.” But basic income never really caught on. In the U.S., the New Deal — which focused on boosting employment through public works projects, expanded workers’ rights and new forms of social assistance like Social Security — was the approach that won out instead.</p>
+<p>In the 1960s, basic income became intertwined with the civil rights movement and the War on Poverty. Martin Luther King, Jr. was a fan. In his 1967 book “Where Do We Go From Here: Chaos or Community?” King wrote: “I am now convinced that the simplest approach will prove to be the most effective — the solution to poverty is to abolish it directly by a now widely discussed measure: the guaranteed income.”</p>
+<p>Around the same time, its appeal expanded rightward. Libertarian economist Milton Friedman began to advocate for a negative income tax, whereby those earning below a certain threshold would get money from the government instead of paying taxes. At the end of the ’60s, President Richard Nixon’s plan for a partial basic income passed the House of Representatives before stalling in the Senate. No longer a proposal of bleeding-heart lefties, basic income was endorsed by a slew of <a href="http://basicincome-europe.org/ubie/brief-history-basic-income-ideas/">notable economists</a> (including several who went on to nab Nobel Prizes).</p>
+<p>But by the early 1980s, enthusiasm had petered out again. Ronald Reagan and Margaret Thatcher took power in the U.S. and Britain, riding a wave of conservative backlash to expansive government programs. The tenor of debate shifted from improving the welfare state to cutting it. Those receiving government assistance were called lazy, if not corrupt. “Welfare queen” entered the lexicon and President Bill Clinton promised to <a href="http://www.washingtonpost.com/wp-srv/politics/special/welfare/stories/wf082396.htm">end welfare as we know it</a>. Progressives and anti-poverty advocates went on the defensive. Basic income was tabled, if not forgotten.</p>
+<p>In the U.S., we’re left with a patchwork benefits system, an indecipherable alphabet soup of programs: SNAP, TANF, CHIP, Section 8, EITC, WIC, SSDI. The U.S. government spends <a href="https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/51129-2016Outlook_OneCol-2.pdf#page=182">nearly $1 trillion</a> across dozens of separate programs at the state and federal level,<span class="espn-footnote-link" data-footnote-id="2" data-footnote-url="#fn-2" data-footnote-content='&lt;p&gt;In 2015, total spending by the federal government on income security programs was $302 billion. While there is a &lt;a href="https://www.washingtonpost.com/news/wonk/wp/2014/01/12/no-we-dont-spend-1-trillion-on-welfare-each-year/"&gt;debate&lt;/a&gt; on which other programs to lump in with welfare, it’s reasonable to include Medicaid and CHIP ($359 billion), disability insurance ($144 billion), and income security for veterans ($76 billion). That totals $881 billion.&lt;/p&gt;
+'><sup id="ss-2">2</sup></span> as this byzantine <a href="http://waysandmeans.house.gov/wp-content/uploads/2015/11/WM-Welfare-Chart-AR-amendment-110215-jpeg.jpg">diagram</a> from the House Ways and Means Committee shows. This all requires enormous administrative oversight on the part of the government, and it requires the ability to navigate multiple agencies on the part of recipients.</p>
+<p>The problems with this system go beyond its complicated structure. Because eligibility for most social assistance is based on income (or is “<a href="https://en.wikipedia.org/wiki/Means_test">means-tested</a>”), recipients lose their benefits as they earn more income — this is often labeled the “welfare trap” or “poverty trap.” For example: A family of four <a href="http://www.fns.usda.gov/snap/eligibility#Income">can’t qualify for food stamps</a> if it earns more than $31,536. These benefit phase-outs, or “cliffs,” essentially create steep marginal tax rates on the poor.</p>
+<figure id="attachment_113026" class="wp-caption aligncenter" style="">
+					<img decoding="async" class="size-full wp-image-113026" src="https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png" alt="flowers-ubi-1" width="575" height="745" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=58,75 58w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=232,300 232w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=768,995 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=790,1024 790w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=395,512 395w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=333,432 333w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=272,352 272w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=174,225 174w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=347,450 347w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=201,260 201w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=123,160 123w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=445,576 445w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=120,155 120w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=77,100 77w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=46,60 46w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=530,687 530w" sizes="(max-width: 575px) 100vw, 575px" data-sizes="(max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=58,75 58w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=232,300 232w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=768,995 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=790,1024 790w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=395,512 395w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=333,432 333w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=272,352 272w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=174,225 174w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=347,450 347w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=201,260 201w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=123,160 123w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=445,576 445w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=120,155 120w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=77,100 77w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=46,60 46w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-12.png?resize=530,687 530w"></figure>
+		
+<p>Even welfare advocates are critical of the incentives embedded in this system. “If you’re a dollar over, you can’t get assistance,” said Wessita McKinley, founder and director of Sistas United, a nonprofit working with individuals in poverty around the Washington, D.C., area. “Sometimes it feels like a governmental control; you’re on a leash, and you can only go so far.”</p>
+<p>Basic income promises an escape from the welfare trap — all the benefits would be the same, regardless of circumstance. And by cutting a single check for the same amount of money, it could dramatically reduce administrative costs.</p>
+<figure id="attachment_113053" class="wp-caption alignleft illo illo-left" style="">
+					<img loading="lazy" decoding="async" class="size-full wp-image-113053" src="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg" alt="538_libertarian_finalflat_edit" width="575" height="800" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg 1725w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=54,75 54w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=216,300 216w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=768,1069 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=736,1024 736w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=1104,1536 1104w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=1472,2048 1472w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=368,512 368w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=311,432 311w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=253,352 253w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=162,225 162w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=323,450 323w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=187,260 187w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=115,160 115w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=414,576 414w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=111,155 111w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=72,100 72w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=43,60 43w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=494,687 494w" sizes="auto, (max-width: 575px) 100vw, 575px" data-sizes="auto, (max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg 1725w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=54,75 54w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=216,300 216w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=768,1069 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=736,1024 736w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=1104,1536 1104w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=1472,2048 1472w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=368,512 368w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=311,432 311w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=253,352 253w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=162,225 162w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=323,450 323w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=187,260 187w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=115,160 115w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=414,576 414w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=111,155 111w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=72,100 72w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=43,60 43w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_libertarian_finalflat_edit.jpg?resize=494,687 494w"></figure>
+		
+<p>“The money we spend on welfare will be better spent — more productive for the kind of ends we want — if we spend it through a basic income,” said Matt Zwolinski, a philosophy professor at the University of San Diego and one of the <a href="http://www.cato-unbound.org/2014/08/04/matt-zwolinski/pragmatic-libertarian-case-basic-income-guarantee">most prominent libertarian advocates</a> for basic income. Despite squeamishness at the idea of government “handouts,” some libertarians see basic income as a more efficient replacement for current social programs, one that would streamline the welfare bureaucracy and reduce costs overall.</p>
+<p>He also argues that basic income is superior on moral grounds. People could spend their money however they want. No longer would food stamp recipients, for example, be constrained to using their benefits to buy food, or even <a href="http://dailysignal.com/2016/02/22/hold-the-lobster-this-new-york-legislator-wants-to-prevent-luxury-purchases-with-food-stamps/">certain types of food</a>. “There is something objectionable about paternalism: treating adults as children who need to have their decisions made for them,” Zwolinski said.</p>
+<p> </p>
+<p><span class="drop-cap">A</span> basic income could be any amount, but estimates typically begin with how much is currently spent on social assistance programs (that’s more or less how the Swiss basic income advocates arrived at 2,500 Swiss francs). This method is practical for both quantitative and political reasons: It’s fairly simple to evaluate existing social spending and to advocate basic income as a replacement. It’s harder, amid government austerity, to argue for more generous benefits, though many supporters of basic income would like to see spending increase.</p>
+<p>Welfare spending varies widely from country to country. In 2011, per capita public social spending in the U.S. totaled about $700 per month, according to the Organization for Economic Cooperation and Development, a group composed mostly of rich countries. This includes some programs commonly thought of as welfare, like food stamps and housing vouchers and bigger expenses like pensions (Social Security) and health care (Medicaid and Medicare). Among 35 OECD countries, the U.S. ranks 11th in this kind of social spending.</p>
+<figure id="attachment_113027" class="wp-caption aligncenter" style="">
+					<img loading="lazy" decoding="async" class="size-full wp-image-113027" src="https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png" alt="flowers-ubi-2" width="575" height="862" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=50,75 50w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=200,300 200w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=768,1151 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=683,1024 683w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=1025,1536 1025w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=342,512 342w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=288,432 288w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=235,352 235w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=150,225 150w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=300,450 300w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=173,260 173w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=107,160 107w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=384,576 384w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=103,155 103w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=67,100 67w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=40,60 40w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=458,687 458w" sizes="auto, (max-width: 575px) 100vw, 575px" data-sizes="auto, (max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png 1150w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=50,75 50w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=200,300 200w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=768,1151 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=683,1024 683w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=1025,1536 1025w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=342,512 342w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=288,432 288w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=235,352 235w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=150,225 150w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=300,450 300w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=173,260 173w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=107,160 107w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=384,576 384w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=103,155 103w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=67,100 67w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=40,60 40w, https://fivethirtyeight.com/wp-content/uploads/2016/04/flowers-ubi-21.png?resize=458,687 458w"></figure>
+		
+<p>These figures are just a floor for a basic income; other economists researching the idea envision something “high enough to ensure a material existence and participation in society,” said Valerija Korosec in an email. Korosec is a sociologist at the Institute of Macroeconomic Analysis and Development in Slovenia, and the author of the first proposal for a basic income in her country. She suggests a target between the current poverty level and as high as 60 percent of the median income. Yes, that would require a huge increase in government revenues and thus, most likely, a big hike in tax rates to fund the redistribution as basic income.</p>
+<p>Replacing existing benefits with a single, universal check also raises eyebrows among advocates for the poor who might otherwise be friendly to the basic income idea. “There are some benefits that could be made universal … but there are some benefits that are targeted to people in need,” said Deborah Weinstein, the executive director of the Coalition on Human Needs, a Washington, D.C.-based anti-poverty alliance. People with disabilities, for example, “have requirements that not everyone has.”</p>
+<p>Even if you could agree on an amount, there are other economic costs. The biggest concern among critics is that with a guaranteed basic income, too many people would stop working, or would be deterred from working more than they already do.</p>
+<p>It’s not clear exactly what work effects would materialize under a basic income scheme. However, over the last 50 years there have been numerous attempts to study this question. Between 1968 and 1980, the U.S. ran four major negative income tax experiments in which families were assigned into treatment and control groups, given cash and tracked over several years. The experiments were located all over: in New Jersey and Pennsylvania; Iowa and North Carolina; Gary, Indiana; and, the largest, in Seattle and Denver.</p>
+<p>“We learned an enormous amount from those experiments,” said Karl Widerquist, a Georgetown University-Qatar professor who has <a href="http://works.bepress.com/widerquist/4/">studied the NIT experiments extensively</a>. But the results “were a political failure.” The core question unanswered by either side: What is an acceptable decline in work? Unsurprisingly, work effort did decline. Some NIT recipients cut back their hours, but the declines were modest: no more than 5 to 7 percent among primary earners, and a bit more for secondary earners.</p>
+<figure id="attachment_113062" class="wp-caption alignright illo illo-right" style="">
+					<img loading="lazy" decoding="async" class="size-full wp-image-113062" src="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg" alt="538_experimentalist_finalflat" width="575" height="800" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg 1725w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=54,75 54w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=216,300 216w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=768,1069 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=736,1024 736w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=1104,1536 1104w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=1472,2048 1472w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=368,512 368w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=311,432 311w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=253,352 253w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=162,225 162w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=323,450 323w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=187,260 187w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=115,160 115w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=414,576 414w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=111,155 111w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=72,100 72w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=43,60 43w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=494,687 494w" sizes="auto, (max-width: 575px) 100vw, 575px" data-sizes="auto, (max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg 1725w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=54,75 54w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=216,300 216w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=768,1069 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=736,1024 736w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=1104,1536 1104w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=1472,2048 1472w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=368,512 368w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=311,432 311w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=253,352 253w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=162,225 162w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=323,450 323w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=187,260 187w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=115,160 115w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=414,576 414w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=111,155 111w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=72,100 72w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=43,60 43w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_experimentalist_finalflat1.jpg?resize=494,687 494w"></figure>
+		
+<p>But participants quitting altogether didn’t happen, and people who did cut back their hours used their newly available time to pursue other goals, including going to school. “Some of the experimenters said that they were unable to find even a single instance of labor-market withdrawal,” wrote Widerquist in <a href="https://works.bepress.com/widerquist/4/">his 2005 paper</a> summarizing the studies.</p>
+<p>While the purpose of the NIT pilots was to observe changes in work effort, an unrelated phenomenon caught the eye of critics: divorce. Controversy erupted when data from the Seattle and Denver studies seemed to show an increase in the divorce rate among participants (those findings were later discovered to be the result of a statistical error). The press spun wild stories, and the political credibility of NIT — and of basic income, for that matter — began to unravel. Sen. Harrison Williams of New Jersey threatened to prosecute families in the experiments with welfare fraud. The experiments were allowed to run their course but the divorce controversy and concerns about work disincentives effectively killed the momentum behind the program.</p>
+<p>As time has passed, the interpretation of these experiments has become more positive. While work declined, it fell by a modest amount. That gives hope to advocates, who cite these studies as evidence that basic income can be implemented with few economic side effects. “I don’t worry as much about work disincentives as some other people,” said Zwolinski, the libertarian advocate.</p>
+<p>The original seed planted by Friedman’s negative income tax idea eventually blossomed into <a href="http://www.taxpolicycenter.org/briefing-book/what-earned-income-tax-credit-eitc">the Earned Income Tax Credit</a>, thought by both <a href="http://www.nytimes.com/2014/01/05/business/help-the-working-poor-but-share-the-burden.html?src=recg">conservative</a> and <a href="http://democracyjournal.org/magazine/32/poverty-and-the-tax-code/">liberal economists</a> to be one of the more effective anti-poverty programs in the U.S. because it manages to encourage work while avoiding the benefits cliff. The argument for a basic income as an anti-poverty program over something like the EITC is that it would be easier to administer.</p>
+<p>What do we know about giving a guaranteed income to <i>everyone</i>? Not much. Negative income tax policies such as the EITC target specific groups, usually the poor. They have been tested. But basic income is often pitched as universal — everyone would get the same amount, regardless of their circumstances. And that has never been examined in a rigorous way.</p>
+<p>The closest research we have to how a universal basic income could work comes from a small town in Canada. From 1974 to 1979, the Canadian government partnered with the province of Manitoba to run an experiment on the idea of providing a minimum income to residents. The result was MINCOME, a guaranteed annual income offered to every eligible family in Dauphin, a prairie town of about 10,000, and smaller numbers of residents in Winnipeg and some rural communities throughout the province.<span class="espn-footnote-link" data-footnote-id="3" data-footnote-url="#fn-3" data-footnote-content="&lt;p&gt;Dauphin was a MINCOME “saturation site,” meaning that all families were invited to participate if they met the income eligibility requirements. Only 30 percent of families had a low enough income to qualify. The other sites throughout Manitoba were not saturation sites and had a far lower percentage of families receiving MINCOME.&lt;/p&gt;
+"><sup id="ss-3">3</sup></span> MINCOME remains one of the most influential studies of basic income in a rich-world country.</p>
+<p>Evelyn Forget, now an economist at the University of Manitoba, was a student in Toronto at the time. “I knew this was happening in Manitoba. I just stopped hearing about it,” she said. When Canada’s governing party changed midway through the MINCOME experiment, funding dried up and the researchers were told to archive their data for later analysis. No database was created, and the results of MINCOME were not examined.</p>
+<p>Decades later, Forget started digging for the data. She unearthed 1,800 dusty cardboard boxes — with information on each family receiving MINCOME — at Canada’s National Archives. Forget digitized the materials and matched MINCOME records with those in the database of Canada’s universal health insurance program, which was introduced around the same time. That allowed her to compare the health of those receiving MINCOME to the health of similar people who didn’t. It resulted in a blockbuster research paper, decades in the making: “<a href="http://public.econ.duke.edu/~erw/197/forget-cea%20(2).pdf">The Town With No Poverty</a>,” published in 2011.</p>
+<p>Families receiving MINCOME had fewer hospitalizations, accidents and injuries, Forget found. Mental health hospitalizations fell dramatically. And the high school completion rate ticked up during the years of the experiment, with 16-to-18-year-old boys, in particular, more likely to finish school. Younger adolescent girls were less likely to give birth before age 25, and when they did, they had fewer kids.</p>
+<p>The program brought most recipients above Canada’s poverty line. And the employment effects in Dauphin were modest. “For primary earners — those with full-time jobs — there was virtually no decline” in work, Forget said. “Nobody was quitting their jobs.” Cash from the government eased families’ economic anxiety, allowing them to invest in their health and plan over a longer horizon.</p>
+<p>MINCOME is now serving as inspiration for basic income’s comeback in Canada. The Liberal Party, which recently swept to power behind Prime Minister Justin Trudeau, is seriously flirting with the idea. There are <a href="https://www.liberal.ca/policy-resolutions/100-priority-resolution-creating-basic-annual-income-designed-implemented-fair-economy/">several</a> <a href="https://www.liberal.ca/policy-resolutions/97-basic-income-supplement-testing-dignified-approach-income-security-workingage-canadians/">popular</a> petitions to add it to the party’s platform, and a Liberal-dominated committee in Parliament is <a href="http://www.cbc.ca/news/politics/guaranteed-minimum-income-merits-further-study-pre-budget-report-says-1.3490157">recommending</a> the federal government study the idea. In its <a href="http://www.fin.gov.on.ca/en/budget/ontariobudgets/2016/ch1e.html#s1">2016 budget</a>, the provincial government of Ontario announced plans to conduct a basic income pilot this year.</p>
+<p> </p>
+<p><span class="drop-cap">T</span>he U.S. negative income tax experiments and the Canadian MINCOME pilot, while useful, can only tell us so much about what happens when you give people free money. One reason is that they don’t meet rigorous modern standards for randomized control trials, the gold-standard of experiments. A number of basic income experiments popping up around the world are designed to get better data.</p>
+<p>Give Directly, which is launching the basic income pilot in Kenya, has previously run RCTs to examine the effects of giving cash unconditionally; those experiments have shown that <a href="https://www.givedirectly.org/research-on-cash-transfers">cash works wonders</a>, and the <a href="http://www.princeton.edu/~joha/publications/Haushofer_Shapiro_UCT_2013.pdf">peer-reviewed results</a> have won over economists. The children of recipients are healthier and get more education; adults earn more income by using the cash to plan investments over a longer horizon; spending on alcohol and other vices — a worry some critics of cash grants raise — stays flat or even declines.</p>
+<p>Give Directly’s work has gained <a href="http://www.thisamericanlife.org/radio-archives/episode/503/i-was-just-trying-to-help">broad acclaim</a> as a more efficient and effective form of charity. “We have learned a lot about the positive impacts of cash transfer programs,” Faye, the group’s executive chairman, said. But taking the next step requires addressing many more questions that haven’t even begun to be answered: “Should the transfer be one-time or recurrent? How long should the transfer last? What is the right amount?”</p>
+<p>Give Directly’s analysis of previous basic income experiments finds them coming up short. A bullet-proof experiment on basic income should be universal, randomized, long term and basic (that is, the income should be sufficient to live on). No experiment has met all four: Some are basic, but not randomized; some are randomized, but not universal; and so on. The MINCOME pilot, for instance, was randomized and basic but lasted less than five years. The U.S. negative income tax experiments were similarly limited. Some highly touted experiments, including in Namibia and India, either weren’t randomized or didn’t provide enough income to be called basic. (<a href="https://givedirectly.org/basic-income">Give Directly</a> has a detailed breakdown of why every basic income experiment attempted so far has failed to be rigorous.)</p>
+<p>With basic income’s credibility on the line, Faye worries a flimsy study could be worse than none at all. He points to the excitement over microfinance as an instance where evidence later <a href="https://fivethirtyeight.com/features/microloans-dont-solve-poverty/">disappointed expectations</a>. Basic income should avoid letting anecdote get ahead of the data.</p>
+<p>“There is no empirical evidence on whether basic income works or not,” said Markus Kanerva, the founder of Tänk, a think tank working with the Finnish government’s social security agency to design and prepare the implementation of a basic income pilot. The study has been promised 20 million euros over two years and could provide a partial basic income up to 750 euros per month to more than 1,000 Finnish citizens.</p>
+<p>Researchers in the Netherlands have a similar aspiration to run a rigorous randomized controlled trial of basic income in municipalities around the country. Just don’t call it basic income. “For political strategy reasons, they’re staying away from the term ‘basic income,’ ” said Jurgen De Wispelaere, a research fellow at the University of Tampere in Finland, who is in contact with those running the Dutch experiments. Instead, the pilots are billed as “trust experiments” and the basic income is often called a “citizen’s wage.” The cities of Utrecht, with a population over 300,000, and Tilburg, at over 200,000, are the largest Dutch municipalities planning to conduct an experiment. Two other major municipalities are on board but are waiting to get a green light from the minister of social affairs; and 15 smaller municipalities are hoping to get clearance, too.</p>
+<p>It’s not just governments and charities attracted to the idea of basic income. The private sector is curious, too. Silicon Valley in particular. These enthusiasts are motivated less by an interest in improving the welfare state and more by a desire to guard against much bigger economic changes coming down the pike. In a <a href="https://fivethirtyeight.com/features/your-new-fast-food-worker-a-robot/">much-written-about</a> 2013 <a href="http://www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf">paper</a>, two Oxford economists estimated that 47 percent of all U.S. jobs were at risk of computerization. Increasingly, technologists envision basic income as a “hack,” or fix, to the system — it offers a way of coping with an economic future dominated by automation, a fallback plan for when most human labor isn’t valued or needed.</p>
+<figure id="attachment_113025" class="wp-caption alignleft illo illo-left" style="">
+					<img loading="lazy" decoding="async" class="size-full wp-image-113025" src="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg" alt="538_technologists_finalflat" width="575" height="800" srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg 1725w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=54,75 54w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=216,300 216w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=768,1069 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=736,1024 736w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=1104,1536 1104w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=1472,2048 1472w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=368,512 368w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=311,432 311w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=253,352 253w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=162,225 162w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=323,450 323w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=187,260 187w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=115,160 115w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=414,576 414w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=111,155 111w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=72,100 72w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=43,60 43w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=494,687 494w" sizes="auto, (max-width: 575px) 100vw, 575px" data-sizes="auto, (max-width: 575px) 100vw, 575px" data-src="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg" data-srcset="https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg 1725w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=54,75 54w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=216,300 216w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=768,1069 768w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=736,1024 736w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=1104,1536 1104w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=1472,2048 1472w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=368,512 368w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=311,432 311w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=253,352 253w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=162,225 162w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=323,450 323w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=187,260 187w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=115,160 115w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=414,576 414w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=111,155 111w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=72,100 72w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=43,60 43w, https://fivethirtyeight.com/wp-content/uploads/2016/04/538_technologists_finalflat.jpg?resize=494,687 494w"></figure>
+		
+<p>“We think there could be a possibility where 95 percent — or a vast majority — of people won’t be able to contribute to the workforce,” said Matt Krisiloff, the manager of Y Combinator’s basic income project. “We need to start preparing for that transformation.”</p>
+<p>Sam Altman, Y Combinator’s president, committed $10 million personally toward YC Research, out of which this experiment will be run. Plans are still in early development but the study will “most likely be a randomized control trial,” said Krisiloff. That means giving cash to randomly selected Americans, hopefully over a long period. “To really do this well, you’d have to do it on a large swath of the nation,” Krisiloff acknowledged. The ultimate goal, he hinted, will be to inspire some local or state government to launch a basic income pilot of its own.</p>
+<p>“Basic income is about wanting to embrace automation,” said Albert Wenger, a partner at the venture capital firm Union Square Ventures. In his forthcoming book “World After Capital,” Wenger argues scarcity has driven epoch shifts: The invention of agriculture changed the scarcity from food to land; the Enlightenment and subsequent industrial developments shifted scarcity from land to capital; but as computers and the internet have transformed us into an information society, capital is no longer scarce. “We have enough physical capital in the world. but it’s unequally distributed,” Wenger said. The last big scarcity is attention. “What are we actually spending our time on, both collectively and individually?”</p>
+<p>Wenger wants less time spent on tasks that could be automated and more time spent on issues he thinks are insufficiently addressed: fighting climate change, exploring space, preventing the next global pandemic. Like the backers of basic income in Switzerland, he thinks providing for basic needs will allow innovation to flourish. With a basic income, he said, “you’re put in charge of your time. You’ll have 100 percent of your time available to you.”</p>
+<p> </p>
+<p><span class="drop-cap">C</span>ameron Ottens wasn’t going to wait on some government or company to run an experiment. “There is some steam behind basic income,” he said, so he wanted to “start the ball rolling.” For some hard-core advocates, basic income is less about pure science than living a lifestyle. Ottens is a co-founder of <a href="http://mybasicincome.org/">My Basic Income</a>, a San Francisco-based, one-year basic income raffle. Yes, that’s right — anyone can enter, for free, to win a basic income of $1,250 per month for a year. My Basic Income successfully raised $15,000 and plans to raffle it off at the end of April or in early May. The group plans to track the winner as a case study in what a basic income can free us up to do. The idea has already attracted interest from sweepstakes and raffle enthusiasts who may not know much about basic income but like a free shot at $15,000.</p>
+<p>Others have crowdfunded their own basic income. About two years ago, Scott Santens, a New Orleans-based <a href="https://medium.com/@2noame">writer</a>, discovered <a href="https://www.patreon.com/">Patreon</a>, a Kickstarter-like crowdfunding site with a focus on creative types. It enables musicians, artists and niche bloggers to raise money directly from their fans. He took as his starting goal to raise enough to live on $1,000 per month; it took about a year to reach that goal, but at the end of last November he hit $12,000 and hasn’t looked back. Since then, he’s been living entirely off his personally crowdfunded basic income.</p>
+<p>Popular interest in basic income has exploded, affording him the opportunity to fund a basic income for himself, mostly from fans of his writing — about basic income. Santens sees the rapid change happening in the world as driving this curiosity. “We have all this technology, and it scares some people. You’re thinking, when is my job going to be eliminated?”</p>
+<p>In this context, Santens believes basic income will be “extremely impactful.” “We’re going away from a traditional, 40-hour per week economy … there is going to be a lot more flexibility and variety in what we’re doing,” he said.</p>
+<p>From Switzerland to the Netherlands to Kenya to Silicon Valley, a mixture of insecurity and curiosity are driving interest in basic income, but its dominant ideology — and appeal — is utopian. The core existential struggle lurking in the debates over basic income centers on what meaning work holds in our lives. Straub, the Swiss referendum organizer, remembers his great-grandfather working 10 hours per day, six days per week. That kind of toil is no longer necessary, nor desirable. The dream of a world where we produce more than we need has come true.</p>
+<p>Back when he was gathering signatures in 2012, he would joke about the supposedly impending Mayan apocalypse as a way to engage listeners on the core questions of basic income, questions he thinks still resonate: “Well, if the world really was going to end, how would you live this year? Why don’t you live your life like that?</p>
+<p>“The market economy is great, but we want to substitute it with another system — take it to the next level,” he said. The big picture is about changing how we live. “This is a paradigm shift, and we want a referendum on that paradigm shift.”</p>
+<p><em>In this video chat, Andrew Flowers and Ben Casselman discuss basic income and respond to questions and comments raised by readers.</em></p>
+<div class="ornamental-rule">
+<hr>
+<p><span></span></p></div>
+<h3 class="video-title">FiveThirtyEight: What is Universal Basic Income?</h3>
+<div class="video-placeholder videoplayer abc"><iframe title="FiveThirtyEight: What is Universal Basic Income?" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" loading="lazy" class="abc-player" src="https://assets.espn.go.com/players/web-player-bundle/5.5.4/embed/index.html?id=56067420&amp;brand=fivethirtyeight&amp;section=economics" width="100%" height="100%" scrolling="no" data-omniture="video-on-storypage|113014|What Would Happen If We Just Gave People Money?|56067420"></iframe></div>
+<div class="video-footer">
+<div class="video-footer-links"><a href="/videos/">All Videos</a><a target="_blank" href="https://www.youtube.com/FiveThirtyEight">YouTube</a></div>
+<hr>
+</div>
+						</div><!-- .entry-content -->
+					</article>
+				</div>
+				<div id="article-additional">
+											<div class="entry-footnotes print-only">
+	<h2>Footnotes</h2>
+	<div class="entry-footnotes-content">
+		<ol class="footnotes"><li data-wrap="false" data-footnote-id="1" id="fn-1"><span><p>Full disclosure: My wife and I are regular donors to Give Directly.</p>
+</span></li><li data-wrap="false" data-footnote-id="2" id="fn-2"><span><p>In 2015, total spending by the federal government on income security programs was $302 billion. While there is a <a href="https://www.washingtonpost.com/news/wonk/wp/2014/01/12/no-we-dont-spend-1-trillion-on-welfare-each-year/">debate</a> on which other programs to lump in with welfare, it’s reasonable to include Medicaid and CHIP ($359 billion), disability insurance ($144 billion), and income security for veterans ($76 billion). That totals $881 billion.</p>
+</span></li><li data-wrap="false" data-footnote-id="3" id="fn-3"><span><p>Dauphin was a MINCOME “saturation site,” meaning that all families were invited to participate if they met the income eligibility requirements. Only 30 percent of families had a low enough income to qualify. The other sites throughout Manitoba were not saturation sites and had a far lower percentage of families receiving MINCOME.</p>
+</span></li></ol>	</div><!-- .entry-footnotes-content -->
+</div><!-- .entry-footnotes -->
+<div class="mini-bio">
+		<p>Andrew Flowers wrote about economics and sports for FiveThirtyEight. <span class="mail"><a aria-label="Email Andrew Flowers" href="mailto:andrew.flowers@fivethirtyeight.com"><i class="icon icon-mail"></i></a></span> <span class="twitter"><a href="https://twitter.com/andrewflowers" target="_blank"><i class="icon icon-twitter"></i> <span class="twitter-username">@andrewflowers</span></a></span></p>
+</div>
+<!-- .post-author -->
+<div id="entry-comments" class="fte-expandable">
+	<h3 class="fte-expandable-title">Comments</h3>
+
+<div class="entry-comments-content fte-expandable-content">
+		<div class="fb-comments" data-href="http://fivethirtyeight.com/?post_type=fte_features&#038;p=113014" data-numposts="5" data-colorscheme="light"
+														></div>
+	</div>
+	<!-- .entry-comments-content -->
+</div>
+<!-- .entry-comments -->
+<div class="tags">
+	<p class="filed-under">Filed under</p>
+	<p class="tag-links"><a class="tag" href="https://fivethirtyeight.com/tag/economic-policy/">Economic Policy <span class="count">(8 posts)</span></a>
+</p>
+</div>
+									</div>
+			</div>
+						<div class="single-feature__col">
+							</div>
+					</div>
+
+</div><!-- .single -->
+
+</div><!-- #wrapper .site-wrapper -->
+	</div><!-- .site-main -->
+
+<footer id="colophon" class="site-footer">
+
+<div class="site-wrapper footer-main-content">
+
+<div class="footer-section-get-more">
+			Get more FiveThirtyEight		</div>
+
+<div class="footer-section-primary-links">
+			<ul class="footer-menu">
+				<li class="footer-menu-item">
+					<a href="https://cottonbureau.com/stores/fivethirtyeight#/shop" name="&amp;lpos=fivethirtyeightFooter&amp;lid=store">Store</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://twitter.com/fivethirtyeight" name="&amp;lpos=fivethirtyeightFooter&amp;lid=twitter">Twitter</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://www.facebook.com/fivethirtyeight" name="&amp;lpos=fivethirtyeightFooter&amp;lid=facebook">Facebook</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://data.fivethirtyeight.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=data">Data</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/features/fear-not-readers-we-have-rss-feeds/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=rss">RSS</a>
+				</li>
+			</ul>
+		</div><!-- .footer-primary-links -->
+
+<div class="footer-section-social-follow">
+			<ul class="footer-menu">
+				<li class="footer-menu-item social-share-item">
+					<div class="fb-like" data-href="https://www.facebook.com/fivethirtyeight" data-layout="button_count"></div>
+				</li>
+				<li class="footer-menu-item social-share-item">
+					<a href="https://twitter.com/FiveThirtyEight" class="twitter-follow-button" data-show-count="true">Follow @FiveThirtyEight</a>
+				</li>
+			</ul>
+		</div>
+
+<div class="footer-section-secondary-links">
+			<ul class="footer-menu">
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/about-us/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=about-us">About Us</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/jobs/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=jobs">Jobs</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/masthead/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=masthead">Masthead</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://fivethirtyeight.com/how-to-pitch-fivethirtyeight/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=pitch">Pitch FiveThirtyEight</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="https://disneyadsales.com/our-brands/abc-news/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=advertise">Advertise With Us</a>
+				</li>
+				<li class="footer-menu-item">
+					<a href="http://priv-policy.imrworldwide.com/priv/browser/us/en/optout.html" name="&amp;lpos=fivethirtyeightFooter&amp;lid=nielsen">About Nielsen Measurement</a>
+				</li>
+			</ul>
+		</div><!-- .footer-secondary-links -->
+
+<div class="footer-section-powered-by">
+			Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=fivethirtyeight.com" rel="generator nofollow" class="powered-by-wpcom">WordPress VIP</a>		</div><!-- .powered-by -->
+
+<div class="footer-section-tertiary-links">
+			<ul class="footer-menu">
+				<li class="menu-item">
+					<a href="https://disneytermsofuse.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyTOS" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+				</li>
+				<li class="menu-item">
+					<a href="https://disneyprivacycenter.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyPrivacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+				</li>
+
+<li class="menu-item"><a href="https://privacy.thewaltdisneycompany.com/en/dnssmpi/" class="ot-cmp-link">Do Not Sell or Share My Personal Information</a></li>
+				<li class="menu-item">
+					<a href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=californiaPrivacyRights" target="_blank" rel="noopener noreferrer">Your US State Privacy Rights</a>
+				</li>
+				<li class="menu-item">
+					<a href="https://disneyprivacycenter.com/kids-privacy-policy/english/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=childrensPrivacy" target="_blank" rel="noopener noreferrer">Children's Online Privacy Policy</a>
+				</li>
+				<li class="menu-item">
+					<a href="https://privacy.thewaltdisneycompany.com/en/privacy-controls/online-tracking-and-advertising/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=adPreferences" target="_blank" rel="noopener noreferrer">Interest-Based Ads</a>
+				</li>
+			</ul>
+			<p>
+				&copy; 2025 ABC News Internet Ventures. All rights reserved.
+			</p>
+		</div>
+		<!-- / .footer-section-tertiary-links -->
+	</div><!-- .site-wrapper -->
+
+<div class="footer-section-additional-info" id="footer-additional-info">
+		<div class="site-wrapper">
+			<button class="close-additional-info" id="close-additional-info" aria-label="Close"><span class="visually-hidden">Close Additional Information</span></button>
+			<a href="https://disneytermsofuse.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyTOS">Terms of Use</a> and <a href="https://disneyprivacycenter.com/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=disneyPrivacy">Privacy Policy</a> and Safety Information/<a href="https://disneyprivacycenter.com/notice-to-california-residents/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=californiaPrivacyRights">Your California Privacy Rights</a>/<a href="https://disneyprivacycenter.com/kids-privacy-policy/english/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=childrensPrivacy">Children's Online Privacy Policy</a> are applicable to you. © 2025 ABC News Internet Ventures. All rights reserved. <a href="https://privacy.thewaltdisneycompany.com/en/privacy-controls/online-tracking-and-advertising/" name="&amp;lpos=fivethirtyeightFooter&amp;lid=adPreferences">Interest-Based Ads</a>. <a href="https://disneyprivacycenter.com/cookies-policy-translations/cookies-policy/">Cookie Policy</a>.
+		</div><!-- .site-wrapper -->
+	</div><!-- .footer-section-additional-info -->
+</footer><!-- .site-footer -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/espn-fivethirtyeight\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/abc-blocks/assets/js/pym.min.js" id="abc-ai2html-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/abc-audio-features/assets/js/blocks.min.js?ver=1.2.2" id="abc-audio-features-blocks-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/abc-blocks/assets/js/blocks.min.js?ver=1.1.2" id="abc-blocks-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/gif-play-button/assets/js/gif-play-button.min.js?ver=1.1.2" id="gif-play-button-scripts-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/utilities/assets/js/video.min.js?ver=1.1.2" id="video-js"></script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/plugins/disney-messaging/assets/js/newsletter.min.js?ver=1.1.2" id="newsletter-oneid-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-includes/js/wp-util.min.js?ver=6.8.2" id="wp-util-js"></script>
+<script type="text/javascript" id="fte-main-js-extra">
+/* <![CDATA[ */
+var ESPNSocial = {"fbVersion":"6.0","fbAppId":"797620670264818"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://fivethirtyeight.com/wp-content/themes/espn-fivethirtyeight/dist/js/frontend.js?ver=1.1.2" id="fte-main-js"></script>
+<script type="text/javascript" src="//datawrapper.dwcdn.net/lib/embed.js?ver=1.1.2" id="datawrapper-js"></script>
+</body>
+</html>

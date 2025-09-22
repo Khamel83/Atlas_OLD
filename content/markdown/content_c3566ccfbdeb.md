@@ -1,0 +1,1337 @@
+# Content from http://food52.com/blog/15663-you-can-do-better-than-subway-tile
+
+*Retrieved: 2025-09-15T08:04:07.273207*
+
+---
+
+<!doctype html>
+<html class="no-js" lang="en-us">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article# food_prod: http://ogp.me/ns/fb/food_prod#"><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://food52.com/blog/15663-you-can-do-better-than-subway-tile","20220518043307","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1652848387");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<script>
+      (function() {
+        if (typeof(f52) === 'undefined') {
+          f52 = {};
+        }
+        if (typeof(f52.inputs) === 'undefined') {
+          f52.inputs = {};
+        }
+        var base = {"airbrakeJS":{"enabled":false,"filters":{}},"controllerName":"BlogController","fbAppId":"174162069306426","railsEnv":"production","staticLoginUrl":"/users/sign_in","staticSignupUrl":"/users/sign_up","logoutUrl":"/users/ajax_logout","loginUrl":"/users/ajax_login","passCashDifficulty":4,"fbLoginUrl":"/users/ajax_fb_login","signupUrl":"/users/ajax_signup","resetPassUrl":"/users/ajax_reset_password","ajaxCreateEventPath":"/events/ajax_create","followUserPathTemplate":"/users/0/ajax_toggle_follow","searchBasePath":"/home/search","ajaxSearchSuggestionsPath":"/home/ajax_search_suggestions","searchSuggestionsActive":true,"loginRequiresNoPageRefresh":null,"collectionTitleMaxLen":60,"collectionDescMaxLen":255,"inHomepageShopNavExperiment":null,"isShopPage":null,"countryCode":"US","userSignedIn":false,"userId":null,"userBuyerStatus":null,"ads":{"noAds":null,"useFreestar":true},"shop":{"ajax_create_order_path":"/shop/checkout/ajax_create_order","ajax_create_shipping_info_path":"/shop/shipping_address/ajax_create_shipping_info","ajax_get_checkout_options_path":"/shop/checkout/ajax_get_checkout_options","ajax_delete_shipping_info_path":"/shop/shipping_address/ajax_delete_shipping_info","ajax_save_shipping_address_path":"/shop/checkout/ajax_save_shipping_address","ajax_simulate_order_path":"/shop/checkout/ajax_simulate_order","ajax_store_payment_method_path":"/shop/checkout/ajax_store_payment_method","ajax_update_shipping_info_path":"/shop/shipping_address/ajax_update_shipping_info","currentBasketPath":"/shop/current_basket","createBasketItemPath":"/shop/basket_items/ajax_create","updateBasketItemPath":"/shop/basket_items/ajax_update","deleteBasketItemPath":"/shop/basket_items/ajax_delete","confirmBasketItemPath":"/shop/basket_items/ajax_confirm","backInStockNotifyPath":"/shop/products/ajax_notify_back_in_stock","productChooserDetailsPath":"/shop/products/ajax_chooser_details","productGetDeliveryDateEstimatePath":"/shop/products/0/ajax_get_delivery_date_estimate","ajaxBtClientTokenPath":"/shop/checkout/ajax_bt_client_token","prefetchedBasketBundle":null,"giftCardProductIds":[549,705],"flatRateExemptProductIds":[2314,2410,2411,2412,9315,705,9882,9352,9734,9345,9354,9316],"emailFulfilledProductIds":[705],"getRegistryModalDataPathTemplate":"/shop/registry/0/ajax_get_modal_data","updateRegistryItemPathTemplate":"/shop/registry/0/ajax_update_item","removeRegistryItemPathTemplate":"/shop/registry/0/ajax_remove_item","shippingCountries":[{"code":"USA","name":"United States","postalCodeLabel":"ZIP","postalCodeFormat":"^\\d{5}(?:[-\\s]\\d{4})?$","hasProvinces":true,"provinceLabel":"State","provinceCodes":["AK","AL","AR","AZ","CA","CO","CT","DC","DE","FL","GA","HI","IA","ID","IL","IN","KS","KY","LA","MA","MD","ME","MI","MN","MO","MS","MT","NC","ND","NE","NH","NJ","NM","NV","NY","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VA","VT","WA","WI","WV","WY"]}],"ccExpirationRange":[2022,2042],"advancedFraudServiceEnabled":false,"paypalEnabled":true,"googlePayEnabled":true,"applePayEnabled":true,"affirmEnabled":true,"shippingPolicy":{"rate":"$9","distant_rate":"$30","free_shipping_floor":"$149","free_shipping_message":"Free Standard Shipping on Orders $149+","free_shipping_delivery_options_message":"Free Standard Shipping on Orders $149+. $9 flat rate for Standard Shipping on orders under $149.","free_shipping_order_summary_message":"Free Shipping $149+","flat_rate_message":"$9 flat rate for Standard Shipping on orders under $149","tagline":"Standard Shipping: Free on Orders $149+","tagline_subtag":"($9 on Orders Below $149)","express_legend":"Express Shipping Available","holiday_shipping_target":"Dec. 24","faq_path":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc","free_shipping":true},"showCartRecs":true,"showCartFreeShipTracker":true,"partnerize":true,"showProductModulesCta":true},"obfuscatedEmailTag":"CqFFNOsGmrzZEKHLLTwzjTDENYaDgjyL","hideFindFriends":false,"baseUrl":"http://web.archive.org/web/20220518043307/https://food52.com","nav":{"placeholder":"\u003cnav class=\"global-nav\" aria-label=\"Main\"\u003e\n  \u003ca class=\"global-nav__logo global-nav__logo--logged-out\" href=\"https://food52.com\" title=\"Home\"\u003e\n    \u003cspan class=\"global-nav__logo-img\" aria-label=\"Food52 Food Community\"\u003e\u003c/span\u003e\n  \u003c/a\u003e\n\n  \u003cdiv class=\"global-nav__menu\"\u003e\n    \u003cul class=\"global-nav__menu-list\"\u003e\n      \u003cli class=\"global-nav__menu-item global-nav__menu-item--more\"\u003e\n        \u003cspan class=\"global-nav__menu-link\"\u003e\n          \u003cspan\u003eMenu\u003c/span\u003e\n        \u003c/span\u003e\n      \u003c/li\u003e\n\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/shop\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  The Shop\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/recipes\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Recipes\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/blog\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Food\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/drinks\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Drinks52\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/tags/home52\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Home52\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/hotline\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Community\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n          \u003cli class=\"global-nav__menu-item\"\u003e\n            \u003ca href=\"https://watch.food52.com\" class=\"global-nav__menu-link\"\u003e\n              \u003cspan\u003e\n                Watch\n              \u003c/span\u003e\n            \u003c/a\u003e\n          \u003c/li\u003e\n            \u003cli class=\"global-nav__menu-item\"\u003e\n              \u003ca href=\"https://food52.com/p/the-food52-podcast-network\" class=\"global-nav__menu-link\"\u003e\n                \u003cspan\u003e\n                  Listen\n                \u003c/span\u003e\n              \u003c/a\u003e\n            \u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/div\u003e\n\n  \u003cul class=\"global-nav__actions global-nav__actions--logged-out\"\u003e\u003c/ul\u003e\n\u003c/nav\u003e\n"},"subnav":{"type":"post","id":15663,"title":"You Can Do Better Than Subway Tile","shareTitle":"You Can Do Better Than Subway Tile","shareUrl":"http://web.archive.org/web/20220518043307/https://food52.com/blog/15663-you-can-do-better-than-subway-tile","shareImg":"http://web.archive.org/web/20220518043307/https://images.food52.com/e3ef7eSLBLnbRKOn-c8Cvz0P_4E=/fit-in/1200x1200/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg","hideCommentIcon":false},"footerColumns":[{"name":"Company","links":[{"name":"About Us","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/about"},{"name":"Our Team","url":"http://web.archive.org/web/20220518043307/https://food52.com/team"},{"name":"DEI Vision","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/dei-vision-statement"},{"name":"The Test Kitchen","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/welcome-to-our-test-kitchen"},{"name":"Podcast Network","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/the-food52-podcast-network"},{"name":"Events","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/events"},{"name":"Press","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/press"},{"name":"Jobs","url":"http://web.archive.org/web/20220518043307/https://food52.com/jobs"},{"name":"Affiliate Program","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/affiliate-program"},{"name":"Sitemap","url":"http://web.archive.org/web/20220518043307/https://food52.com/sitemap"}]},{"name":"Get Help","links":[{"name":"Contact \u0026 FAQ","url":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc"},{"name":"Orders \u0026 Returns","url":"http://web.archive.org/web/20220518043307/https://food52.com/shop/lookup-order"},{"name":"Food52 Trade","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/food52-trade-program"},{"name":"Request a Catalog","url":"http://web.archive.org/web/20220518043307/https://docs.google.com/forms/d/e/1FAIpQLScFUQbtG8IW0rPiRHkQLimoiq0_EI3_5cjE_06WUT_qlB6CJQ/viewform"},{"name":"Gift Cards","url":"http://web.archive.org/web/20220518043307/https://food52.com/shop/gifts/gift-cards"},{"name":"Registry","url":"http://web.archive.org/web/20220518043307/https://food52.com/shop/registry"},{"name":"Advertising Inquiries","url":"mailto:advertising@food52.com","newWindow":true},{"name":"Do Not Sell","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/privacy#doNotSell"}]},{"name":"Explore","links":[{"name":"The Shop","url":"http://web.archive.org/web/20220518043307/https://food52.com/shop"},{"name":"Recipes","url":"http://web.archive.org/web/20220518043307/https://food52.com/recipes"},{"name":"Food","url":"http://web.archive.org/web/20220518043307/https://food52.com/blog"},{"name":"Home52","url":"http://web.archive.org/web/20220518043307/https://food52.com/tags/home52"},{"name":"Travel","url":"http://web.archive.org/web/20220518043307/https://food52.com/tags/travel"},{"name":"Hotline","url":"http://web.archive.org/web/20220518043307/https://food52.com/hotline"},{"name":"Five Two","url":"http://web.archive.org/web/20220518043307/https://food52.com/p/introducing-food52-five-two"},{"name":"Schoolhouse","url":"http://web.archive.org/web/20220518043307/https://www.schoolhouse.com","newWindow":true},{"name":"Dansk","url":"http://web.archive.org/web/20220518043307/https://www.dansk.com","newWindow":true}]}],"activeExperiments":"ZZqzAubNRIGvR40042aUpw.1!yjwRZev3SCOev6NC5F6z_A.0!G3rfw0pdSw61iqfpKFgxsA.1!diAMCogZR_-3GR48kiW7sA.1","flashNotification":{"message":null,"isSuccess":false,"isError":false},"features":{"selfServeReturns":true},"faqUrls":{"base":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc","return_policy":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc/en-us/articles/360047866254-What-is-your-return-policy-","shipping_rates":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc/en-us/articles/360052174094-How-much-is-shipping-in-the-U-S-","shop":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc/en-us/categories/360003867893-Orders-Shipping","navigation":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc/en-us/categories/360003821294-Food52-Account","contests":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc/en-us/sections/360008503734-Contests","recipes":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc/en-us/sections/360008605733-Recipes","books":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc/en-us/categories/360003867913-Recipes-Contests-More","general":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc/en-us/categories/360003867853-General-Questions","support_request":"http://web.archive.org/web/20220518043307/https://support.food52.com/hc/en-us/requests/new"},"signUpModalCopy":true};
+        f52.inputs.base = base;
+      })();
+    </script>
+
+<script>gtmDataLayer = [];</script>
+
+<script src="/web/20220518043307js_/https://food52.com/dist/gtm_core_data.302d8b88b351588c5e3d.js"></script>
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='DataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//web.archive.org/web/20220518043307/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','gtmDataLayer', "GTM-MB6SZR");
+</script>
+
+<script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i="http://web.archive.org/web/20220518043307/https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+  
+    ttq.load('C8LMBRNI6F1M8B1VD1E0');
+    ttq.page();
+  }(window, document, 'ttq');
+</script>
+
+<script>
+      window.uetq = window.uetq || [];
+      // eprotect hack.
+      window.eProtect = function() {};
+    </script>
+
+<title>Best Reasonable Alternatives to Subway Tiles - Is Subway Tile Expensive</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Is Subway tile expensive? The glossy white tiles rose to popularity after they were used in subway station designs in NYC. They are well-known as Subway tiles.">
+    <meta name="keywords" content="">
+
+<meta name="viewport" content="width=device-width,initial-scale=1" maximum-scale="1">
+
+<meta name="verify-v1" content="lMOAF4P7f2sxMtpjVkGgQTON1Js3aD2uDielq9qdoYI=">
+    <meta name="google-site-verification" content="3hxp5oA8CYuqgtPrXrz0LmDSGYTIe2jQK9ToV1gwurI">
+    <meta name="msvalidate.01" content="F298E853CF03751CAD3FE09E0A2FD491">
+
+<meta property="fb:app_id" content="174162069306426">
+    <meta property="fb:pages" content="133148554015">
+
+<meta property="og:site_name" content="Food52">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="http://web.archive.org/web/20220518043307/https://food52.com/blog/15663-you-can-do-better-than-subway-tile">
+
+<meta name="twitter:site" content="@food52">
+    <meta name="twitter:site:id" content="21769127">
+
+<link rel="preload" href="/web/20220518043307/https://food52.com/fonts/woff2/ChronicleSSm-Book_Web.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/web/20220518043307/https://food52.com/fonts/woff2/GothamSSm-Book_Web.woff2" as="font" type="font/woff2" crossorigin>
+
+<style media="all">html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}@font-face{font-family:'Chronicle SSm A';src:url(/web/20220518043307im_/https://food52.com/fonts/woff2/ChronicleSSm-Book_Web.woff2) format("woff2"),url(/web/20220518043307im_/https://food52.com/fonts/woff/ChronicleSSm-Book_Web.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Chronicle SSm A';src:url(/web/20220518043307im_/https://food52.com/fonts/woff2/ChronicleSSm-Medium_Web.woff2) format("woff2"),url(/web/20220518043307im_/https://food52.com/fonts/woff/ChronicleSSm-Medium_Web.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'Chronicle SSm A';src:url(/web/20220518043307im_/https://food52.com/fonts/woff2/ChronicleSSm-Bold_Web.woff2) format("woff2"),url(/web/20220518043307im_/https://food52.com/fonts/woff/ChronicleSSm-Bold_Web.woff) format("woff");font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Gotham SSm A';src:url(/web/20220518043307im_/https://food52.com/fonts/woff2/GothamSSm-Light_Web.woff2) format("woff2"),url(/web/20220518043307im_/https://food52.com/fonts/woff/GothamSSm-Light_Web.woff) format("woff");font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Gotham SSm A';src:url(/web/20220518043307im_/https://food52.com/fonts/woff2/GothamSSm-Book_Web.woff2) format("woff2"),url(/web/20220518043307im_/https://food52.com/fonts/woff/GothamSSm-Book_Web.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Gotham SSm A';src:url(/web/20220518043307im_/https://food52.com/fonts/woff2/GothamSSm-Medium_Web.woff2) format("woff2"),url(/web/20220518043307im_/https://food52.com/fonts/woff/GothamSSm-Medium_Web.woff) format("woff");font-weight:500;font-style:normal;font-display:swap}.avatar{width:30px;height:30px;border-radius:50%;display:block;overflow:hidden}.avatar--large{width:80px;height:80px}.avatar--x-large{width:100px;height:100px}@media only screen and (min-width: 768px){.avatar--x-large{width:125px;height:125px}.avatar--responsive{width:40px;height:40px}.avatar--responsive-medium{width:60px;height:60px}}.icon{background-size:100% auto;background-repeat:no-repeat;width:1em;height:1em;display:inline-block}.icon__arrow{height:1em;border-color:inherit;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;font-size:10px;-webkit-transform:rotate(180deg);transform:rotate(180deg)}.icon__arrow:before,.icon__arrow:after{content:" ";width:1em;height:0;border-top:1px solid;border-radius:1px;border-color:inherit;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:right;transform-origin:right}.icon__arrow:after{-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-transform-origin:left;transform-origin:left}.icon__arrow--right{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.icon__arrow--up{-webkit-transform:rotate(0);transform:rotate(0)}.icon__arrow--left{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.icon__close{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='21'%3E%3Cpath fill='%23909090' fill-rule='evenodd' d='M10.884 10.181l8.933-9.095a.644.644 0 0 0 0-.9.617.617 0 0 0-.884 0L10 9.281 1.067.186a.617.617 0 0 0-.884 0 .644.644 0 0 0 0 .9l8.933 9.095-8.933 9.095a.644.644 0 0 0 0 .9.617.617 0 0 0 .884 0L10 11.081l8.933 9.095a.617.617 0 0 0 .884 0 .644.644 0 0 0 0-.9l-8.933-9.095z'/%3E%3C/svg%3E")}.icon__avatar{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIyIDIyIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjNDQ0IiBzdHJva2Utd2lkdGg9IjEuMiI+CiAgICAgICAgPHBhdGggZD0iTTIwLjY5MSAxMWMwIDUuMzE4LTQuMzI1IDkuNjMtOS42NiA5LjYzcy05LjY2LTQuMzEyLTkuNjYtOS42M2MwLTUuMzE5IDQuMzI1LTkuNjMgOS42Ni05LjYzczkuNjYgNC4zMTEgOS42NiA5LjYzeiIvPgogICAgICAgIDxwYXRoIGQ9Ik0xNC44OTQgNy42ODRjMCAyLjEyNy0xLjczIDMuODUtMy44NjMgMy44NWEzLjg1NiAzLjg1NiAwIDAgMS0zLjg2Mi0zLjg1IDMuODU3IDMuODU3IDAgMCAxIDMuODYyLTMuODUgMy44NTcgMy44NTcgMCAwIDEgMy44NjMgMy44NXpNMy44MzQgMTcuNDIzYzEuMzQzLTIuMjQgNC4wNjItMy43NyA3LjE5Ny0zLjc3czUuODU0IDEuNTMgNy4xOTcgMy43NyIvPgogICAgPC9nPgo8L3N2Zz4K")}.icon__avatar--filled{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18.6 18.6'%3E%3Cpath d='M9.3 0C4.2 0 0 4.2 0 9.3s4.2 9.3 9.3 9.3 9.3-4.2 9.3-9.3S14.4 0 9.3 0zm0 2.2c2.3 0 4.1 1.8 4.1 4.1s-1.8 4.1-4.1 4.1-4.1-1.9-4.1-4.1S7 2.2 9.3 2.2zm6.5 11.9c-1.4 1.9-3.9 3.3-6.5 3.3S4.2 16 2.8 14.1c1.4-1.9 3.9-3 6.5-3s5.1 1.1 6.5 3z' fill='%23444444'/%3E%3C/svg%3E")}.icon__search{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='22' viewBox='0 0 18 22'%3E%3Cg fill='none' fill-rule='evenodd' stroke='%23444' stroke-linecap='round' stroke-width='1.2'%3E%3Cpath d='M14.632 2.659a6.589 6.589 0 0 1 1.434 9.227c-2.159 2.943-6.303 3.584-9.256 1.43a6.589 6.589 0 0 1-1.434-9.227c2.16-2.943 6.304-3.583 9.256-1.43zM6.81 13.316l-5.424 7.392'/%3E%3C/g%3E%3C/svg%3E")}.icon__search--white{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDE4IDIyIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjRkZGIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMS4yIj4KICAgICAgICA8cGF0aCBkPSJNMTQuNTkgMi42NTlhNi42MDIgNi42MDIgMCAxIDEtNy43OTggMTAuNjU3QTYuNjAyIDYuNjAyIDAgMSAxIDE0LjU5IDIuNjU5ek02Ljc5MiAxMy4zMTZsLTUuNDA3IDcuMzkyIi8+CiAgICA8L2c+Cjwvc3ZnPgo=")}.icon__cart{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='21' viewBox='0 0 24 21'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath stroke='%23444' stroke-linecap='round' stroke-width='1.2' d='M19.616 13.038h-13.2L4.57 3.315h18.037z'/%3E%3Cpath stroke='%23444' stroke-linecap='round' stroke-width='1.2' d='M1.386 1.385h2.668l3.058 15.11h11.876'/%3E%3Cpath fill='%23444' d='M9.922 19.695a1.3 1.3 0 0 1-1.302 1.299 1.3 1.3 0 0 1-1.303-1.299 1.3 1.3 0 0 1 1.303-1.298 1.3 1.3 0 0 1 1.302 1.298M18.7 19.695a1.3 1.3 0 0 1-1.303 1.299 1.3 1.3 0 0 1-1.303-1.299 1.3 1.3 0 0 1 1.303-1.298 1.3 1.3 0 0 1 1.302 1.298'/%3E%3C/g%3E%3C/svg%3E")}.icon__shipping--filled{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 26.6'%3E%3Cpath d='M47.4 14.5c.2.2.3.5.3.9s-.1.7-.4 1c-.3.3-.6.4-1.1.4h-6.9v5.8c0 .4-.1.8-.4 1.1-.3.3-.6.4-1 .4h-2.3c0-1.7-.6-3-1.9-3.9-.9-.7-1.7-1-2.5-1s-1.6.2-2.3.6c-1.7.9-2.6 2.4-2.6 4.3H14.5c0-.7-.1-1.2-.3-1.7-.2-.5-.4-.8-.6-.9-1-1.3-2.2-2-3.7-2-.6 0-1.1.1-1.6.3-.6 0-1 .2-1.3.4-.3.2-.7.5-1.2.9-.6.9-.9 1.8-.9 2.9-1.4-.1-2.6-.8-3.5-1.9C.5 21 0 19.7 0 18.2s.5-2.8 1.5-3.9 2.2-1.8 3.7-1.9l2-6.3c.3-.6.8-.9 1.5-.9h5.8V1.4c0-.4.1-.8.4-1 .3-.3.6-.4 1-.4h22.3c.4 0 .8.1 1 .4.3.3.4.6.4 1v3.5H27.5c-.3 0-.6.2-1 .5-.3.4-.5.6-.5.9 0 .4.1.7.3 1 .4-.4.8-.6 1.2-.6H42c.4 0 .8.2 1.1.6.2.2.3.5.3.9s-.1.7-.4 1c-.3.3-.6.4-1 .4h-2.3v2.6h-6.9c-.7 0-1.1.3-1.4.9-.1.2-.1.4-.1.7s.1.6.3.7c.4-.4.8-.6 1.2-.6h13.6c.2 0 .6.2 1 .6zM8 25.8c-.5-.5-.8-1.1-.8-1.8s.3-1.3.8-1.8 1.1-.8 1.8-.8 1.3.3 1.8.8.8 1.1.8 1.8-.3 1.3-.8 1.8-1.1.8-1.8.8-1.3-.3-1.8-.8zm6.5-13.4V8.1H9.8l-1.5 4.3h6.2zm14.1 2.1l.3-.9c0-.4-.1-.8-.4-1-.3-.3-.6-.4-1-.4h-1.7c-.4 0-.8.1-1.1.4-.3.3-.4.6-.4 1s.1.7.3.9c.4-.4.8-.6 1.2-.6h1.7c.3 0 .7.2 1.1.6zm.8 11.3c-.5-.5-.8-1.1-.8-1.8s.3-1.3.8-1.8 1.1-.8 1.8-.8 1.3.3 1.8.8.8 1.1.8 1.8-.3 1.3-.8 1.8-1.1.8-1.8.8-1.3-.3-1.8-.8zM48.6 6.6c.4 0 .8.1 1 .4.3.3.4.6.4 1s-.1.7-.2.9c-.2.5-.7.7-1.3.7h-1.7c-.4 0-.8-.1-1.1-.4-.3-.3-.4-.6-.4-1.1 0-.4.1-.8.4-1.1.3-.3.6-.4 1.1-.4h1.8z' fill='%23ffffff'/%3E%3C/svg%3E%0A");height:0.6em}.icon__remove{padding:10px;display:inline-block}.icon__remove:before{content:" ";background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath d='M4.9 4L8 7.1l-.9.9L4 4.9.9 8 0 7.1 3.1 4 0 .9.9 0 4 3.1 7.1 0l.9.9L4.9 4z' fill='%23fff'/%3E%3C/svg%3E") #c4c4c4 no-repeat center;background-size:8px;width:18px;height:18px;border-radius:50%;display:block}.icon__remove:hover:before,.icon__remove:focus:before{background-color:#909090}.icon__plus{height:1em;font-size:11px;position:relative;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.icon__plus:before,.icon__plus:after{content:" ";width:1em;height:0;border-top:1px solid;border-radius:0.5px;border-color:inherit}.icon__plus:after{-webkit-transform:rotate(90deg);transform:rotate(90deg);-webkit-transform-origin:center;transform-origin:center;position:absolute;top:calc(50% - 0.5px);left:0}.loader{margin:6em auto;font-size:10px;position:relative;text-indent:-9999em;border-top:7px solid rgba(87,105,109,0.4);border-right:7px solid rgba(87,105,109,0.4);border-bottom:7px solid rgba(87,105,109,0.4);border-left:7px solid rgba(87,105,109,0.8);-webkit-animation:spin 1.1s infinite linear;animation:spin 1.1s infinite linear}.loader--centered{width:50px;height:50px;margin-left:-25px;margin-top:-30px;position:absolute;top:50%;left:50%;z-index:1;text-indent:0;color:transparent}.loader,.loader:after{border-radius:50%;width:6em;height:6em}.spinner{-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.social{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.social--left{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.social__link{background:#fff;width:36px;height:36px;margin:0 7.5px;border-radius:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;cursor:pointer}.social__link svg{width:50%;height:auto;max-height:50%;pointer-events:none}.social__link--email{color:#57696d}.social__link--email:focus,.social__link--email:hover{color:#404e51}.social__link--facebook{color:#3a5a98}.social__link--facebook:focus,.social__link--facebook:hover{color:#2c4473}.social__link--twitter{color:#00a3ea}.social__link--twitter:focus,.social__link--twitter:hover{color:#007fb7}.social__link--pinterest{color:#c92228}.social__link--pinterest:focus,.social__link--pinterest:hover{color:#9d1b1f}.social--fig .social__link{color:#70799a}.social--fig .social__link:focus,.social--fig .social__link:hover{color:#59617e}.social--large .social__link{margin:0 12px}.social--large .social__link svg{width:62%;max-height:62%}.social--outline .social__link{border:1px solid #eaeaea}.social--outline .social__link svg{width:55%;max-height:55%}input,textarea{font-weight:400;font-family:"Gotham SSm A", sans-serif;border-radius:0}input[type="radio"]{border-radius:10px}::-webkit-input-placeholder{color:#909090}:-ms-input-placeholder{color:#909090}::-moz-selection{background:#57696d;color:#fff}::-webkit-selection{background:#57696d;color:#fff}::-moz-selection{background:#57696d;color:#fff}::selection{background:#57696d;color:#fff}.fieldset--checkbox{margin-bottom:15px;color:#909090;font-size:12px;font-weight:400;line-height:16px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.fieldset--checkbox input[type="checkbox"]{width:0;margin:0;border:none;overflow:hidden;-webkit-appearance:none;-moz-appearance:none;appearance:none}.checkbox{cursor:pointer;position:relative;-ms-flex-negative:0;flex-shrink:0;display:-webkit-box;display:-ms-flexbox;display:flex}.checkbox:before{content:" ";width:16px;height:16px;margin-right:8px;border:1px solid #c4c4c4;-webkit-box-sizing:border-box;box-sizing:border-box;-ms-flex-negative:0;flex-shrink:0}input[type="checkbox"]:focus+.checkbox:before{border-color:#ababab}.checkbox:after{content:" ";width:10px;height:5px;border-left:2px solid #a18f7a;border-bottom:2px solid #a18f7a;position:absolute;top:5px;left:3px;opacity:0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transition:opacity 0.1s;transition:opacity 0.1s;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.checkbox.checkbox--checked:after,input[type="checkbox"]:checked+.checkbox:after{opacity:1}.btn{background:#c4c4c4;border:none;border-radius:1px;padding:0 8px;outline:none;display:inline-block;color:#fff;font-weight:400;font-family:"Gotham SSm A", sans-serif;font-size:13px;line-height:25px;text-align:center;text-transform:uppercase;white-space:nowrap;-webkit-appearance:none;-webkit-transition:background-color 0.2s;transition:background-color 0.2s}.btn:hover,.btn:focus{background:#ababab;color:#fff;cursor:pointer}.btn.disabled,.btn[disabled]{background:#e6e6e6;color:#a9a9a9;opacity:0.65;cursor:default}.btn--default{background:#2d4558;width:100%;font-size:17px;line-height:50px}.btn--default:focus,.btn--default:hover{background:#1c2b36;color:#fff}.btn--default:disabled{background:#b4b4b4;color:#fff}.btn--small{border-radius:1px;padding:5px 18px;line-height:25px}.btn--medium{padding:0 13px;font-size:18px;line-height:40px}.btn--secondary.btn--medium{font-size:18px;text-transform:uppercase}.btn--secondary{background:#a18f7a;font-size:14px;text-transform:none}.btn--secondary:focus,.btn--secondary:hover{background:#887660}.btn--white{background:#fff;color:#444}.btn--white:hover,.btn--white:focus{background:#f1f1f1;color:#444}.btn--outline{background:none;border:1px solid #2d4558;font-size:14px;line-height:48px;color:#2d4558;text-transform:none}.btn--outline:focus,.btn--outline:hover{background:none;border-color:#1c2b36;color:#1c2b36}.btn--outline:disabled{background:transparent;border-color:#b4b4b4;color:#b4b4b4}.btn--inline{width:auto;padding-left:35px;padding-right:35px}@media only screen and (min-width: 768px){.btn--inline-desktop{width:auto;padding-left:42px;padding-right:42px}}.btn--loading{font-size:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;pointer-events:none}.btn--loading:before{content:" ";background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25'%3E%3Cpath fill='%23EAEAEA' fill-rule='evenodd' d='M18.75 1.675a.781.781 0 00-1.067.286L16.12 4.667a.781.781 0 101.353.781l1.563-2.706a.781.781 0 00-.286-1.067zm1.583 7.205l2.706-1.563a.781.781 0 10-.78-1.353l-2.707 1.563a.781.781 0 10.781 1.353zm3.886 2.839h-3.125a.781.781 0 100 1.562h3.125a.781.781 0 000-1.562zm-1.18 5.963l-2.706-1.562a.781.781 0 00-.781 1.353l2.706 1.563a.781.781 0 00.781-1.354zm-5.566 1.87a.78.78 0 10-1.353.78l1.563 2.707a.781.781 0 001.353-.781l-1.563-2.706zm-4.973.76a.78.78 0 00-.781.782v3.125a.782.782 0 001.562 0v-3.125a.78.78 0 00-.781-.782zM3.906 11.72H.781a.781.781 0 100 1.562h3.125a.781.781 0 000-1.562zm1.542-4.192L2.742 5.964a.781.781 0 00-.781 1.353L4.667 8.88a.781.781 0 00.781-1.353zm1.87-5.566a.781.781 0 10-1.354.78l1.563 2.707a.781.781 0 101.353-.781L7.317 1.96zM13.28.78v3.125a.781.781 0 01-1.562 0V.781a.781.781 0 111.562 0z'/%3E%3C/svg%3E");background-size:100%;width:30px;height:30px;display:block;-webkit-animation:spin 1s linear infinite;animation:spin 1s linear infinite}.btn--pill{background:none;border:solid 1px #57696d;border-radius:18px;padding:0 16px 0 18px;outline:none;font-weight:400;font-family:"Gotham SSm A", sans-serif;color:#57696d;font-size:14px;line-height:34px;letter-spacing:-0.1px;text-transform:uppercase;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer;margin:0}.btn--pill .icon{margin-right:8px;font-size:17px}.btn--pill:focus,.btn--pill:hover{color:#57696d}.btn--link{background:transparent;padding:0;border:none;outline:none;font-size:inherit;font-family:inherit;cursor:pointer;display:inline}img.lazyload,img.lazyloading{opacity:0}img.lazyloaded{opacity:1;-webkit-transition:opacity 0.5s;transition:opacity 0.5s}img[width="1"][height="1"]{position:absolute;left:-999%}.img{position:relative}.img--spacer{position:relative;-ms-flex-negative:0;flex-shrink:0}.img--spacer:before{content:" ";width:100%;display:block}.img--spacer img{width:100%;position:absolute;top:0;display:block}.img--mobile-full{width:calc(100% + 32px);margin-left:-16px}.img-details{min-height:18px;margin-top:2px;font-weight:400;font-family:"Gotham SSm A", sans-serif;text-align:left;line-height:18px}.img-details__caption{font-size:14px;line-height:1.29}.img-details__caption+.img-details__credit{margin-left:4px;border-left:1px solid #c4c4c4;padding-left:8px}.img-details--small .img-details__caption{font-size:12px;line-height:1.42}.img-details__credit{color:#909090;font-size:10px;letter-spacing:0.8px;line-height:1.7;text-transform:uppercase}.img-details__credit .img-details__credit-link{color:#909090;text-decoration:none;border-bottom:none}.img-details__credit .img-details__credit-link:focus,.img-details__credit .img-details__credit-link:hover{color:#909090}a.img__pin{width:30px;height:30px;background:#c92228;color:#fff;position:absolute;bottom:12px;left:12px;z-index:1;cursor:pointer;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;visibility:hidden;opacity:0;-webkit-transition:visibility 0.15s linear, opacity 0.15s linear;transition:visibility 0.15s linear, opacity 0.15s linear}a.img__pin svg{width:13px;height:17px}.img a.img__pin:hover{background:#b31e24;color:#fff}.img:hover a.img__pin{opacity:1;visibility:visible}@media only screen and (min-width: 768px){.img--mobile-full{width:100%;margin-left:0}.img-details{margin-top:5px}.img-details--small .img-details__caption{font-size:14px;line-height:1.29}}.ad-slot{margin-bottom:30px;text-align:center;overflow:hidden}@media only screen and (min-width: 768px){.ad-slot--mobile{display:none}}.ad-slot--mobile-inline{min-height:306px;padding:15px 0;border-top:1px solid #eaeaea;border-bottom:1px solid #eaeaea}@media only screen and (min-width: 620px){.ad-slot--mobile-inline{display:block}}@media only screen and (min-width: 1024px){.ad-slot--mobile-inline{display:none}}.ad-slot--aside{display:none}@media only screen and (min-width: 768px){.ad-slot--aside{width:300px;min-height:250px;display:block}}.ad-slot--pixel{height:0;margin:0}.ad-slot--leaderboard{display:none}@media only screen and (min-width: 768px){.ad-slot--leaderboard{background:#fafafa;min-height:111px;margin:0;border-bottom:1px solid #f1f1f1;padding:10px 0;position:relative;z-index:10005;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}}@media print{.ad-slot--leaderboard{display:none}}@media only screen and (min-width: 768px){.ad-slot--leaderboard-tall{min-height:271px}}.ad-slot--fixed{background:#f7f7f7;width:100%;height:52px;margin:0;padding-top:2px;position:fixed;bottom:0;z-index:10001;text-align:center;-webkit-box-shadow:0 -2px 2px 0 rgba(0,0,0,0.1),0 -1px 0 0 rgba(0,0,0,0.1);box-shadow:0 -2px 2px 0 rgba(0,0,0,0.1),0 -1px 0 0 rgba(0,0,0,0.1)}@media only screen and (min-width: 768px){.ad-slot--fixed{display:none}}@media print{.ad-slot--fixed{display:none}}.ad-slot__label{padding-bottom:10px;font-weight:400;font-family:"Gotham SSm A", sans-serif;color:#c4c4c4;font-size:11px;line-height:normal;letter-spacing:0.6px;text-transform:uppercase}.global-nav{background:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-wrap:wrap;flex-wrap:wrap}.global-nav a:hover,.global-nav a:focus{color:#444}.global-nav__logo{margin:12.5px 0 12.5px 16px;-ms-flex-negative:0;flex-shrink:0}.global-nav__logo-img{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='116' height='24'%3E%3Cpath fill='%2357696D' fill-rule='evenodd' d='M103.294 20.259l3.882-3.416c4.235-3.63 7.056-6.83 7.056-10.643 0-4.283-3.907-6.2-7.778-6.2-4.716 0-6.473 2.334-6.473 3.804 0 1.045.761 1.833 1.772 1.833 1.034 0 1.734-.66 1.92-1.812l.035-.22c.2-1.282.405-2.608 2.716-2.608 2.514 0 3.686 1.634 3.686 5.143 0 3.46-1.285 6.198-4.743 10.103l-6.496 7.41h14.885c.717 0 .87-.246 1.122-.945l.914-2.449h-12.498zM91.123 8.315c-1.652.026-3.408.588-4.63 1.353l.748-6.058 9.186-.145c.636-.01.768-.25.982-.927l.724-2.204-11.36.012-1.399 10.505.32.231.026.02.284.206.19-.181c.851-.806 2.4-1.775 4.945-1.816 3.576-.056 4.172 3.822 4.209 6.139.057 3.585-1.217 7.437-4.963 7.497-2.663.042-2.845-1.253-3.056-2.752l-.05-.34c-.215-1.026-.901-1.607-1.883-1.591-.975.016-1.7.75-1.685 1.708.037 2.286 2.975 4.03 6.69 3.972 5.332-.085 9.024-3.591 8.977-8.528-.085-5.337-4.5-7.16-8.255-7.101zM78.822 11.7c0-8.962-5.291-10.422-10.2-10.422h-.823v21.53h.823c6.712 0 10.2-3.378 10.2-11.108zm4.176.03c0 7.501-5.717 11.804-14.376 11.804H62.34v-.245l.226-.065c1.213-.346 1.326-1.154 1.326-7.315V8.118c0-5.948-.106-6.89-1.224-7.282l-.016-.002h.008a2.621 2.621 0 0 0-.1-.033l-.22-.067V.522h6.282c8.787 0 14.376 3.98 14.376 11.208zm-32.37 11.6c3.955 0 7.034-3.375 7.034-11.226 0-7.85-3.274-11.134-7.034-11.134-3.761 0-7.036 3.284-7.036 11.135s3.08 11.225 7.036 11.225zm11.23-11.226c0 7.347-5.83 11.895-11.23 11.895-5.402 0-11.232-4.548-11.232-11.895C39.396 6.428 43.69.3 50.627.3S61.86 6.428 61.86 12.105zM26.37 23.33c3.955 0 7.035-3.374 7.035-11.225C33.405 4.254 30.13.97 26.37.97c-3.76 0-7.035 3.284-7.035 11.135s3.08 11.225 7.035 11.225zm11.231-11.225C37.601 19.452 31.771 24 26.37 24s-11.231-4.548-11.231-11.895C15.139 6.428 19.433.3 26.369.3c6.938 0 11.232 6.128 11.232 11.805zM5.46 1.452v8.765l3.15.025c2.946 0 2.94-1.352 3.219-3.036h.265v7.157h-.265c-.28-1.684-.273-3.036-3.218-3.036l-3.15.022v4.659c0 6.186.111 6.993 1.32 7.313l.231.062v.25H0v-.25l.232-.062c1.208-.32 1.32-1.127 1.32-7.313V8.216c0-6.187-.112-6.994-1.32-7.314L0 .84V.62h14.636c.576 0 .77.21.904.975l.5 3.29h-.342l-.027-.065c-.822-2.493-2.313-3.368-6.14-3.368H5.459z'/%3E%3C/svg%3E");background-size:100%;width:87px;height:18px;display:block}.global-nav__menu{background:#fff;width:100%;height:48px;border-top:1px solid #eaeaea;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;font-size:12px}.global-nav__menu-list{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:stretch;-ms-flex-pack:stretch;justify-content:stretch}.global-nav__menu-item{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;text-align:center}.global-nav__menu-item+.global-nav__menu-item{border-left:1px solid #eaeaea}.global-nav__menu-item:nth-child(5),.global-nav__menu-item:nth-child(n + 7){display:none}.global-nav__menu-item--more{pointer-events:none;position:relative}.global-nav__menu-item--more+.global-nav__menu-item{border:none}.global-nav__menu-item--more:before{content:" ";background:#eaeaea;width:1px;height:48px;position:absolute;right:-1px;top:-15px}.global-nav__menu-item--more .global-nav__menu-link{width:100%;height:20px;font-weight:500;color:inherit;text-transform:uppercase;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.global-nav__menu-item--more .global-nav__menu-link:before{content:" ";background:linear-gradient(#717171, #717171 1px, transparent 1px, transparent);background-size:100% 6px;width:17px;height:13px;margin-right:6px}.global-nav__menu-link{display:block;white-space:nowrap}.global-nav__menu-dropdown{max-height:0;overflow:hidden}.global-nav__actions{display:-webkit-box;display:-ms-flexbox;display:flex;visibility:hidden}@media only screen and (min-width: 768px){.global-nav__logo{margin-left:22px}.global-nav__menu-list{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;overflow:hidden}.global-nav__menu-item{padding:0 51px;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0}.global-nav__menu-item--more .global-nav__menu-link:before{margin-right:10px}}@media only screen and (min-width: 1024px){.global-nav{max-width:1024px;height:50px;margin:0 auto;-ms-flex-wrap:nowrap;flex-wrap:nowrap}.global-nav a:hover,.global-nav a:focus{color:#111111}.global-nav__logo{margin:0 11px 0 12px}.global-nav__logo-img{width:105px;height:22px}.global-nav__menu{border:none;-webkit-box-ordinal-group:1;-ms-flex-order:0;order:0;font-size:12px}.global-nav__menu-item{padding:0}.global-nav__menu-item+.global-nav__menu-item{border-left:none}.global-nav__menu-item:nth-child(5),.global-nav__menu-item:nth-child(7),.global-nav__menu-item:nth-child(8){display:block}.global-nav__menu-item--more.global-nav__menu-item{display:none}.global-nav__menu-link{padding:0 15px;line-height:51px;letter-spacing:0.46px;display:block}.global-nav__menu-link>span{padding:5px 0;border-bottom:2px solid transparent}.global-nav__menu-link[aria-expanded="true"]>span,.global-nav__menu-link:hover>span,.global-nav__menu-link:focus>span{color:#57696d;border-color:#57696d;font-weight:700}.global-nav__menu-toggle{position:absolute;top:32px;-webkit-transform:translateX(-50%);transform:translateX(-50%);opacity:0}.global-nav__menu-toggle:focus{opacity:1}.global-nav__menu-dropdown{position:absolute}.global-nav__actions{min-width:126px;margin-right:1px}.global-nav__actions--logged-out{min-width:202px}.global-nav__menu-link{text-transform:uppercase}}@media only screen and (min-width: 1400px){.global-nav{max-width:1400px}.global-nav__logo{margin-left:26px}.global-nav__logo--logged-out{margin-right:95px}.global-nav__menu-link{padding:0 20px}.global-nav__actions{margin-right:15px}}.header{width:100%;pointer-events:none;position:-webkit-sticky;position:sticky;top:0;left:0;z-index:10004}.header__nav--spacer{background:transparent;margin-bottom:40px}.header--free-shipping .header__nav--spacer{margin-bottom:55px}.header--shop:not(.header--promo-banner) .header__nav,.header--shop:not(.header--promo-banner) .header__subnav{border-bottom:none;-webkit-box-shadow:none;box-shadow:none}.header__subnav{width:100%;position:absolute;top:0;left:0}.header__nav,.header__subnav{background:#fff;border-bottom:1px solid #eaeaea;-webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,0.05);box-shadow:0 2px 4px 0 rgba(0,0,0,0.05);-webkit-transition:-webkit-transform 0.25s ease-out, -webkit-box-shadow 0.25s linear;transition:-webkit-transform 0.25s ease-out, -webkit-box-shadow 0.25s linear;transition:transform 0.25s ease-out, box-shadow 0.25s linear;transition:transform 0.25s ease-out, box-shadow 0.25s linear, -webkit-transform 0.25s ease-out, -webkit-box-shadow 0.25s linear;pointer-events:auto}.header__nav--hidden,.header__subnav--hidden{-webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,0);box-shadow:0 2px 4px 0 rgba(0,0,0,0);-webkit-transform:translate3d(0, -100%, 0);transform:translate3d(0, -100%, 0);pointer-events:none}@media only screen and (min-width: 768px){.header--free-shipping .header__nav--spacer{margin-bottom:40px}}.rating{margin:0 0 10px -2px;font-size:14px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-ms-flex-negative:0;flex-shrink:0;-ms-flex-wrap:wrap;flex-wrap:wrap;position:relative}.rating span{margin-left:6px}form .rating span{padding-top:4px}@media only screen and (min-width: 768px){form .rating span{padding-top:2px}}.rating input{width:0;margin:0;border:none;overflow:hidden;-webkit-appearance:none;-moz-appearance:none;appearance:none}@media only screen and (min-width: 768px){.rating{margin-bottom:0}}span.rating__label{display:none}@media only screen and (min-width: 768px){span.rating__label{margin-left:10px;font-size:13px;font-weight:300;display:block}}.rating__star{padding:0 2px 2px 2px;color:#e0e0e0;position:relative}.rating__star--checked,.rating__star--checked~.rating__star{color:#a18f7a}.rating__star svg{width:13px;height:auto;display:block}.rating__star+span{margin:0 8px 0 0}.rating__half-star{width:50%;padding:0 2px;position:absolute;top:0;left:0;color:#a18f7a;overflow:hidden}.rating--small{margin-bottom:1px}.rating--small .rating__star{padding-right:3px}.rating--small .rating__star svg{width:11px}.rating--centered{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.rating--btns{margin:0}.rating--btns button{margin:0}.rating__star--btns{cursor:pointer;pointer-events:auto;-webkit-transition:color 0.15s linear;transition:color 0.15s linear}.rating__star--btns:hover,.rating__star--btns:hover~.rating__star,input:focus+.rating__star--btns{color:#a18f7a}.rating__star--btns svg{pointer-events:none}.rating__star--checked-btns{color:#a18f7a}input:checked~.review-rating__star--btns{color:#a18f7a}.rating--btns-large .rating__star--btns{margin:6px 0;padding:8px}.rating--btns-large .rating__star--btns svg{width:28px}@media only screen and (min-width: 768px){.rating--btns-large .rating__star--btns svg{width:22px}}@media only screen and (min-width: 768px){.rating--btns-large .rating__star--btns{margin:11px 0}}span.rating__error{width:100%;margin:0;font-size:12px;font-weight:400;color:#be504e;position:absolute;bottom:-13px}@media only screen and (min-width: 768px){span.rating__error{width:auto;margin:0 0 0 8px;-webkit-box-ordinal-group:1;-ms-flex-order:0;order:0}}.rating__guide{max-width:240px;margin:0 auto 22px auto;text-align:left}.rating__guide-header{margin:20px auto 15px auto;font-size:12px;font-weight:400;text-transform:uppercase;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.rating__guide-header:before,.rating__guide-header:after{content:" ";margin:0 9px 0 0;border-bottom:1px solid #eaeaea;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.rating__guide-header:after{margin:0 0 0 9px}.rating__guide-row{padding:0 0 5px 10px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:12px}.rating__guide-row span{margin-left:7px}.view-more{color:#a18f7a;font-weight:400;font-family:"Gotham SSm A", sans-serif;font-size:12px;line-height:normal;text-transform:uppercase;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.view-more .icon__arrow{margin-left:4px;font-size:7px}.view-more--medium{font-weight:500}@font-face{font-family:'Chamelia';src:url(/web/20220518043307im_/https://food52.com/fonts/woff2/Chamelia-Script_Web.woff2) format("woff2"),url(/web/20220518043307im_/https://food52.com/fonts/woff/Chamelia-Script_Web.woff) format("woff");font-weight:400;font-style:normal;font-display:swap}.promo-ip--tree{background:#957038 url(/web/20220518043307im_/https://food52.com/assets/holiday/tree-mobile-31a53a400e251bf3610b7c05600a1082d3d01ed004215e4f0a1112980fab6993.svg) center bottom no-repeat;background-size:auto 350px;background-position:calc(100% + 120px) center}.promo-ip--glow{background:#293a2d no-repeat;background-image:url(/web/20220518043307im_/https://food52.com/assets/holiday/glow-star-left-a632d75b9279c805ed96529e426f487447d0b4015af8aa2c87cacb173dd1eae7.svg),url(/web/20220518043307im_/https://food52.com/assets/holiday/glow-star-right-d26c0f12a1561ed417271d80f944a8e67e3ed8a921049623fc8dbbedd8819e92.svg),url(/web/20220518043307im_/https://food52.com/assets/holiday/glow-center-73215a81ce5a6ebd68bd9a4bb4d730ffa706ea1fa93b0339ab4185862f7d0b9b.svg),url(/web/20220518043307im_/https://food52.com/assets/holiday/glow-left-70cab0ce4d200a1bb71bccf03d319de874d52355598f8106ddd2f6970ce90340.svg),url(/web/20220518043307im_/https://food52.com/assets/holiday/glow-right-c141f1cb2081ebde1dc76948ddb68a2d0eea1eab3d97bcfa0e24d882b093f412.svg);background-position:calc(50% - 330px / 2) 48px,calc(50% + 330px / 2) 48px,center calc(50% - 75px),-32.5px calc(100% + 27.5px);background-size:18px 18px, 18px 18px, 130% 220px, auto 95px, 0 0}.promo-ip--glow.promo-ip--review{background-position:calc(50% - 320px / 2 - 5px) 50px,calc(50% + 320px / 2 + 5px) 50px,center calc(50% - 97.5px),-32.5px calc(100% + 27.5px)}.promo-ip--ornaments{background:#592c40 url(/web/20220518043307im_/https://food52.com/assets/holiday/ornaments-mobile-f5af7de638b5582052bdca92d3dec49fc83da0d4ee459881d78e6aa965652bc3.svg) -17.5px center no-repeat;background-size:auto 100%}.promo-ip--garland{background:#3b2d59 no-repeat;background-image:url(/web/20220518043307im_/https://food52.com/assets/holiday/garland-mobile01-a7b85f3e6ec90cc3626af6f6c2f877782131ce92aea5f8ce7a62c736a0ae572d.svg),url(/web/20220518043307im_/https://food52.com/assets/holiday/garland-mobile02-3770c7e452f690956e97c04f8dd12898b7b7977107bdfff319e2917c22a3a079.svg);background-position:center -7vw, center 100%;background-size:contain, contain}.promo-ip--mustard{background:#a36a14}.promo-ip--olive{background:#555c41}.promo-ip--pasta{background:#2d4558 url(/web/20220518043307im_/https://food52.com/assets/holiday/pasta-mobile-4cd65db01b872565ddc7a6bf55cea79dc3e70d8e2bf951bb35f14d511045a22c.svg) -14.5vw center no-repeat;background-size:130%}.promo-ip__container{min-height:250px;padding:0 16px;color:#fafafa;font-size:11px;line-height:1.25;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.promo-ip__container a{color:#fafafa}.promo-ip__container a:hover,.promo-ip__container a:focus{color:#f1f1f1}.promo-ip__list{max-width:330px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.promo-ip__item{width:calc(50% - 15px);position:relative}.promo-ip__item:last-child:before{content:'\2022';font-size:18px;position:absolute;left:-18px;top:calc(50% - 9px)}.promo-ip--review .promo-ip__item{width:100%}.promo-ip--review .promo-ip__item:last-child{display:none}.promo-ip__item--main{background:-webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#fafafa)) bottom center no-repeat;background:linear-gradient(#fafafa, #fafafa) bottom center no-repeat;background-size:calc(100% - 10px) 1px;width:100%;margin-bottom:12px;padding:0 7.5px 16px 7.5px;-webkit-box-ordinal-group:0;-ms-flex-order:-1;order:-1}.promo-ip--tree.promo-ip--hed .promo-ip__item--main,.promo-ip--olive.promo-ip--hed .promo-ip__item--main,.promo-ip--pasta.promo-ip--hed .promo-ip__item--main{margin-bottom:23px;padding-bottom:20px}.promo-ip--glow .promo-ip__item--main{background:none}.promo-ip--glow .promo-ip__item--main a{color:#293a2d}.promo-ip--glow.promo-ip--hed .promo-ip__item--main{margin-bottom:33px}.promo-ip--glow.promo-ip--dek .promo-ip__item--main{margin-bottom:26px}.promo-ip--glow.promo-ip--review .promo-ip__item--main{margin:-6px 0 18px 0}.promo-ip--ornaments.promo-ip--hed .promo-ip__item--main{margin-bottom:20px;padding-bottom:24px}.promo-ip--ornaments.promo-ip--dek .promo-ip__item--main{margin-bottom:14px;padding-bottom:20px}.promo-ip--garland.promo-ip--hed .promo-ip__item--main,.promo-ip--mustard.promo-ip--hed .promo-ip__item--main{padding-bottom:35px}.promo-ip__item-link{display:block}.promo-ip__headline{line-height:normal}.promo-ip--hed .promo-ip__headline{margin:14px 0 8px 0;font-size:18px}.promo-ip--dek .promo-ip__headline{margin:8px 0 4px 0;font-size:18px}.promo-ip--tree .promo-ip__headline,.promo-ip--olive .promo-ip__headline,.promo-ip--pasta .promo-ip__headline{font-weight:500;font-family:"Chronicle SSm A", serif}.promo-ip--glow .promo-ip__headline{max-height:71px;margin:8px 0 4px 0;font-family:'Chamelia';font-size:54px}.promo-ip--glow.promo-ip--dek .promo-ip__headline{margin-top:-4px;font-size:48px;max-height:62px}.promo-ip--glow.promo-ip--review .promo-ip__headline{margin:16px 0 6px 0}.promo-ip--ornaments .promo-ip__headline{margin-bottom:12px;font-weight:700;text-transform:uppercase}.promo-ip--garland .promo-ip__headline,.promo-ip--mustard .promo-ip__headline{padding:0 13px}.promo-ip--garland.promo-ip--hed .promo-ip__headline,.promo-ip--mustard.promo-ip--hed .promo-ip__headline{font-weight:700;font-family:"Gotham SSm A", sans-serif;line-height:1.25;text-transform:uppercase}.promo-ip--garland.promo-ip--dek .promo-ip__headline,.promo-ip--mustard.promo-ip--dek .promo-ip__headline{font-weight:700;font-family:"Gotham SSm A", sans-serif;text-transform:uppercase}.promo-ip--garland.promo-ip--review .promo-ip__headline,.promo-ip--mustard.promo-ip--review .promo-ip__headline{font-size:18px;line-height:1.25}.promo-ip--review .promo-ip__headline{margin:4px 5px 10px;font-weight:500;font-family:"Gotham SSm A", sans-serif;font-size:18px;text-transform:none}.promo-ip__sub-headline{font-size:13px;font-weight:700;letter-spacing:-0.1px}.promo-ip--review .promo-ip__sub-headline{max-width:240px;margin:10px auto 8px auto;font-weight:500;font-family:"Chronicle SSm A", serif;font-size:13px}.promo-ip--review .promo-ip__sub-headline:before{content:'\201C'}.promo-ip--review .promo-ip__sub-headline:after{content:'\201D'}div.promo-ip__rating{margin:0;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}div.promo-ip__rating svg{width:15px;color:#fafafa}.promo-ip__dek{margin-bottom:4px}.promo-ip--ornaments .promo-ip__dek{margin-top:-6px}.promo-ip__sub-headline+.promo-ip__dek{margin:0;font-size:12px;font-weight:500;text-transform:uppercase}.promo-ip__sub-headline+.promo-ip__dek:before{content:'\2014\00a0'}.promo-ip__cta{margin-top:4px;font-size:11px;line-height:20px}.promo-ip__cta.view-more{color:#fff}.promo-ip__cta .icon__arrow{font-size:6px}div.promo-ip__btn{padding:0 8px;font-size:13px;line-height:23px}.promo-ip--tree div.promo-ip__btn{background:#592c40}.promo-ip--tree a:hover div.promo-ip__btn,.promo-ip--tree a:focus div.promo-ip__btn{background:#482434}.promo-ip--glow div.promo-ip__btn{border:1px solid #293a2d;color:#293a2d}.promo-ip--glow a:hover div.promo-ip__btn,.promo-ip--glow a:focus div.promo-ip__btn{background:#293a2d;border:1px solid #293a2d;color:#fafafa}.promo-ip--ornaments div.promo-ip__btn{background:#fff;color:#592c40}.promo-ip--ornaments a:hover div.promo-ip__btn,.promo-ip--ornaments a:focus div.promo-ip__btn{background:#e8bdc2}.promo-ip--garland div.promo-ip__btn{background:#fff;color:#3b2d59}.promo-ip--garland a:hover div.promo-ip__btn,.promo-ip--garland a:focus div.promo-ip__btn{background:#c8deeb}.promo-ip--mustard div.promo-ip__btn{background:#471a1a;color:#fff}.promo-ip--mustard a:hover div.promo-ip__btn,.promo-ip--mustard a:focus div.promo-ip__btn{background:#682727}.promo-ip--olive div.promo-ip__btn{background:#887300}.promo-ip--olive a:hover div.promo-ip__btn,.promo-ip--olive a:focus div.promo-ip__btn{background:#8d8245}.promo-ip--pasta div.promo-ip__btn{background:#a18f7a}.promo-ip--pasta a:hover div.promo-ip__btn,.promo-ip--pasta a:focus div.promo-ip__btn{background:#776a5b}@media only screen and (min-width: 768px){.promo-ip--glow{background-position:calc(50% - 472px / 2) 48px, calc(50% + 472px / 2) 48px, center calc(50% - 135px), -32.5px calc(100% + 27.5px);background-size:18px 18px, 18px 18px, 105% 340px, auto 150px, 0, 0}.promo-ip--glow.promo-ip--review{background-position:calc(50% - 472px / 2) 48px, calc(50% + 472px / 2) 48px, center calc(50% - 142.5px), -32.5px calc(100% + 27.5px)}.promo-ip--garland{background-position:center -6.7vw, center 100%}.promo-ip--pasta{background-position:-7vw center;background-size:80%}.promo-ip__container{min-height:271px;padding:0 22px;font-size:13px}.promo-ip__list{max-width:690px}.promo-ip__item--main{padding-left:165px;padding-right:165px}.promo-ip--hed .promo-ip__item--main{padding-bottom:12px}.promo-ip--tree.promo-ip--hed .promo-ip__item--main,.promo-ip--olive.promo-ip--hed .promo-ip__item--main,.promo-ip--pasta.promo-ip--hed .promo-ip__item--main{margin-bottom:16px}.promo-ip--glow.promo-ip--hed .promo-ip__item--main{margin-bottom:26px}.promo-ip--glow.promo-ip--dek .promo-ip__item--main{margin-bottom:20px}.promo-ip--glow.promo-ip--review .promo-ip__item--main{margin-bottom:28px}.promo-ip--ornaments.promo-ip--hed .promo-ip__item--main{margin-bottom:16px;padding-bottom:28px}.promo-ip--ornaments.promo-ip--dek .promo-ip__item--main{margin-bottom:12px;padding-bottom:15px}.promo-ip__item-link{margin:0 auto;max-width:200px}.promo-ip__item--main .promo-ip__item-link{max-width:360px}.promo-ip--hed .promo-ip__headline{margin-bottom:6px;font-size:22px}.promo-ip--dek .promo-ip__headline{margin:0 0 8px 0;font-size:22px}.promo-ip--glow .promo-ip__headline{max-height:93px;margin:-8px 0 -4px 0;font-size:72px}.promo-ip--glow.promo-ip--dek .promo-ip__headline{max-height:72px;margin:-16px 0 0 0;font-size:56px}.promo-ip--glow.promo-ip--review .promo-ip__headline{margin:10px 0 0 0}.promo-ip--ornaments .promo-ip__headline{margin:0 0 3px 0}.promo-ip--ornaments.promo-ip--dek .promo-ip__headline{margin-top:-6px}.promo-ip--review .promo-ip__headline{margin-bottom:0;font-size:22px}.promo-ip__sub-headline{font-size:15px}.promo-ip--review .promo-ip__sub-headline{font-size:14px}.promo-ip__dek{margin:0 auto -1px auto}.promo-ip--ornaments .promo-ip__dek{margin:8px 0 0 0}.promo-ip__cta{margin-top:8px;font-size:12px}div.promo-ip__btn{margin-top:10px;padding:0 12px;font-size:15px;line-height:28px}}@media only screen and (min-width: 1024px){.promo-ip--tree{background-image:url(/web/20220518043307im_/https://food52.com/assets/holiday/tree-left-5ccf2ed1610238d59882aca98f35cc191ab0b9a1bda927aa8a53ff2493134374.svg), url(/web/20220518043307im_/https://food52.com/assets/holiday/tree-right-4a5457b452cb6bab5ff9496235b7c51b0926dc7f7aed2ef9fb0224496539d8f0.svg);background-position:-87.5px center, calc(100% + 57.5px);background-size:auto 100%, auto 100%}.promo-ip--glow,.promo-ip--glow.promo-ip--review{background-position:calc(50% - 450px / 2) center, calc(50% + 450px / 2) center, center center, -32.5px calc(100% + 27.5px), calc(100% + 20px) -18px;background-size:18px 18px, 18px 18px, 532px 320px, auto 150px, auto 120px}.promo-ip--ornaments{background-image:url(/web/20220518043307im_/https://food52.com/assets/holiday/ornaments-left-8bb39b6d945b943c151d88b189d2239db68169a54efe567d17f6bddb13d890b8.svg), url(/web/20220518043307im_/https://food52.com/assets/holiday/ornaments-right-7feec775c858020e9d564f84f45d778b16200188e3422d2fca86239bcb8fe9a4.svg);background-position:-91px center, calc(100% + 112px) center;background-size:auto 100%, auto 100%}.promo-ip--garland{background-image:url(/web/20220518043307im_/https://food52.com/assets/holiday/garland-desktop01-73f8a2d6cf2583c620571c0ae70b0b1c9750d85ca112115df2c2ec7fb62f7613.svg), url(/web/20220518043307im_/https://food52.com/assets/holiday/garland-desktop02-f0b40175dfacbcb6c0b2b09f847e0b555e2a3f6a934eaa4f4a232b8138dd2e76.svg);background-position:center -2.4vw, center 100%}.promo-ip--pasta{background-image:url(/web/20220518043307im_/https://food52.com/assets/holiday/pasta-desktop01-77532b454ed0b299d770e8dca7b3a7f93dfc5288a262e60b3142a3ea5c3774dd.svg), url(/web/20220518043307im_/https://food52.com/assets/holiday/pasta-desktop02-08c2d7238432fab83bef53e86f3369f941fda7f95987921fc05c2b09cbb78ddb.svg), url(/web/20220518043307im_/https://food52.com/assets/holiday/pasta-desktop03-0b683f0ffb9b75be1c8048638ab34fdfe36296263b5d0c21b60c3b833e99655d.svg);background-position:54% center, -8% center, 105% 30%;background-size:auto 150%, auto 125%, auto 150%}.promo-ip__container{width:90%;max-width:1200px;min-height:200px;margin:0 auto;padding:0 12px}.promo-ip--glow .promo-ip__container{width:100%;max-width:1150px}.promo-ip__list{max-width:none;width:100%;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.promo-ip__item{width:28.75%;padding:0 15px}.promo-ip__item:last-child:before{content:none}.promo-ip--review .promo-ip__item{width:28.75%}.promo-ip--review .promo-ip__item:last-child{display:block}.promo-ip__item--main{background:none;background-position:left center, right center;background-repeat:no-repeat;width:42.5%;margin:0 !important;padding:0 45px !important;-webkit-box-ordinal-group:1;-ms-flex-order:0;order:0}.promo-ip--review .promo-ip__item--main{width:42.5%}.promo-ip--tree .promo-ip__item--main{background-image:url(/web/20220518043307im_/https://food52.com/assets/holiday/tree-divider-ba6a71728f6269bfc75b366c16033a9d4770cd3bfc00172542215a8242ee0fee.svg), url(/web/20220518043307im_/https://food52.com/assets/holiday/tree-divider-ba6a71728f6269bfc75b366c16033a9d4770cd3bfc00172542215a8242ee0fee.svg);background-size:30px 60px, 30px 60px}.promo-ip--glow .promo-ip__item--main{width:600px}.promo-ip--ornaments .promo-ip__item--main{background-image:url(/web/20220518043307im_/https://food52.com/assets/holiday/ornaments-divider-left-3dfe63c883792ebdb97ed2b4d4b4f2df5f617fe53f0e81ad613577c732c84f80.svg), url(/web/20220518043307im_/https://food52.com/assets/holiday/ornaments-divider-right-93c2b3750031835165b639aa4fb89100ea0b8f45f508b8e721d87ea3073e64c3.svg);background-size:32px 78px, 32px 78px;width:48%}.promo-ip--garland .promo-ip__item--main,.promo-ip--mustard .promo-ip__item--main,.promo-ip--olive .promo-ip__item--main{-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:1px solid #fafafa;border-width:0 1px;display:-webkit-box;display:-ms-flexbox;display:flex;height:79px}.promo-ip__item-link{max-width:200px;margin:0 auto}.promo-ip__item--main .promo-ip__item-link{max-width:360px}.promo-ip--review .promo-ip__item--main .promo-ip__item-link{max-width:320px}.promo-ip__headline{margin-top:0 !important;line-height:1.25}.promo-ip--dek .promo-ip__headline,.promo-ip--hed .promo-ip__headline{font-size:22px}.promo-ip--review .promo-ip__headline{font-size:22px}.promo-ip--glow .promo-ip__headline{font-size:72px}.promo-ip--glow.promo-ip--dek .promo-ip__headline{font-size:56px}.promo-ip--glow.promo-ip--review .promo-ip__headline{font-size:28px}.promo-ip--garland .promo-ip__headline,.promo-ip--mustard .promo-ip__headline{padding:0}.promo-ip--garland.promo-ip--hed .promo-ip__headline,.promo-ip--mustard.promo-ip--hed .promo-ip__headline{margin-bottom:0}.promo-ip--garland.promo-ip--review .promo-ip__headline,.promo-ip--mustard.promo-ip--review .promo-ip__headline{font-size:22px}.promo-ip__sub-headline{font-size:16px;letter-spacing:0}.promo-ip--review .promo-ip__sub-headline{font-size:14px;margin:12px 0 14px 0}div.promo-ip__rating svg{width:16px}.promo-ip__cta{font-size:14px}.promo-ip__cta .icon__arrow{font-size:7px}div.promo-ip__btn{font-size:14px}.promo-ip--garland div.promo-ip__btn,.promo-ip--mustard div.promo-ip__btn{margin-top:16px}}@media only screen and (min-width: 1400px){.promo-ip--tree{background-position:-35px center, calc(100% + 16px) center, calc(50% - 620px / 2) center, calc(50% + 620px / 2) center}.promo-ip--glow,.promo-ip--glow.promo-ip--review{background-position:calc(50% - 480px / 2) 75px, calc(50% + 480px / 2) 75px, center center, -38px calc(100% + 34px), calc(100% + 12px) -8px;background-size:18px 18px, 18px 18px, 732px 440px, auto 162px, auto 120px}.promo-ip--ornaments{background-position:-60px center, calc(100% + 25px) center}.promo-ip--pasta{background-position:56% center, -4% center, 103% 20%;background-size:auto 230%, auto 145%, 12% 152%}.promo-ip__container{max-width:1400px;padding:0 26px;font-size:15px}.promo-ip--glow .promo-ip__container{max-width:1400px}.promo-ip__item--main{width:50% !important}.promo-ip--glow .promo-ip__item--main{width:850px !important}.promo-ip__item-link{max-width:200px}.promo-ip__item--main .promo-ip__item-link{max-width:360px}div.promo-ip__rating svg{width:18px}}*{-webkit-box-sizing:border-box;box-sizing:border-box}html{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}body{font-weight:400;font-family:"Gotham SSm A", sans-serif;color:#444;font-size:14px;-webkit-font-smoothing:antialiased;text-rendering:auto;line-height:20px}h1,h2,h3,h4{font-weight:bold}p{margin:0 0 20px}a{text-decoration:none;color:#444}a:hover,a:focus{text-decoration:none;color:#959595}b,strong{font-weight:bold}i,em{font-style:italic}img,embed,object,video{max-width:100%;height:auto}a[data-ga-event] *,button[data-ga-event] *{pointer-events:none}.clearfix{*zoom:1}.clearfix:before,.clearfix:after{display:table;content:'';line-height:0}.clearfix:after{clear:both}.hide{display:none !important}.sr-only{width:1px;height:1px;position:absolute;overflow:hidden;clip:rect(1px, 1px, 1px, 1px)}.shop-page-body-block,.page-body-block{text-align:center}.page-body-block{background-color:#fff}.block-container{margin:0 auto;width:1100px;text-align:left}@media only screen and (min-width: 1101px){.block-container{width:1400px}}@media only screen and (max-width: 1440px){.block-container{width:auto;padding:0 3%}}
+</style>
+
+<link rel="preload" media="all" href="/web/20220518043307/https://food52.com/assets/global_deferred-a9832bd8923b71defb1de6176a95d4ecf8fc80c67c018981d5a50730a64c1e5f.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" media="all" href="/web/20220518043307cs_/https://food52.com/assets/global_deferred-a9832bd8923b71defb1de6176a95d4ecf8fc80c67c018981d5a50730a64c1e5f.css"/></noscript>
+
+<style media="all">.blog__header{padding:30px 0;text-align:center}.blog__title-tag{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 124 10'%3E%3Cdefs%3E%3Cpath id='a' d='M0 0h123.145v9.951H0z'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cpath fill='%23A18F7A' d='M88 5.253c-.106-.092-.22-.185-.332-.277.111-.093.225-.185.331-.277v.554zM76.686 8.084c-3.367.184-6.73-.864-10.046-3.107 3.316-2.243 6.68-3.288 10.046-3.109 3.365.184 6.257 1.576 8.469 3.108-2.213 1.531-5.106 2.924-8.469 3.108zM61.034 7.77a33.337 33.337 0 0 0-3.074-2.795 33.164 33.164 0 0 0 3.074-2.793 33.4 33.4 0 0 0 3.073 2.792 33.738 33.738 0 0 0-3.072 2.796zm-15.653.314c-3.363-.184-6.256-1.577-8.469-3.108 2.213-1.532 5.106-2.924 8.47-3.108 3.382-.179 6.739.866 10.05 3.107-3.316 2.243-6.68 3.291-10.05 3.109zm77.766-3.858H88.531c1.537-1.402 2.424-2.561 2.513-2.68l-1.2-.898c-.025.033-1.27 1.652-3.41 3.373-2.43-1.762-5.715-3.432-9.651-3.65-3.88-.224-7.704 1.019-11.439 3.672A32.286 32.286 0 0 1 61.581.584L61.032 0l-.547.584a32.403 32.403 0 0 1-3.764 3.461C52.98 1.388 49.145.144 45.285.371c-3.935.218-7.221 1.888-9.65 3.65C33.492 2.3 32.248.681 32.225.647l-1.203.899c.09.119.977 1.278 2.513 2.68H0v1.5h33.535c-1.536 1.401-2.423 2.56-2.512 2.679l1.201.9c.025-.034 1.27-1.654 3.41-3.373 2.43 1.761 5.715 3.431 9.651 3.649 3.867.211 7.698-1.026 11.437-3.676a32.489 32.489 0 0 1 3.764 3.462l.547.584.547-.584a32.13 32.13 0 0 1 3.766-3.459c3.46 2.454 6.998 3.698 10.575 3.697.286 0 .575-.008.861-.024 3.938-.218 7.222-1.888 9.651-3.649 2.141 1.719 3.385 3.339 3.41 3.373l1.201-.9c-.088-.119-.975-1.278-2.511-2.679h34.612v-1.5z' mask='url%28%23b%29'/%3E%3C/g%3E%3C/svg%3E");background-repeat:no-repeat;background-size:90px 8px;background-position:center bottom;margin-bottom:12px;padding-bottom:12px}.blog__title{margin-bottom:17px;font-size:25px;line-height:1.44}.third-party__label-container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:18px 0 18px 0}.third-party__label-container .third-party__label{width:190px;height:24px;padding:4px 20px;border:solid 1px #688f96;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.third-party__label-container .third-party__label span{color:#688f96;font-family:"Chronicle SSm A", "Chronicle SSm B", serif}.blog__dek{margin-bottom:16px;font-size:16px;font-style:italic;line-height:1.81}.blog__sponsor-logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background-color:#f7f7f7;margin:12px 0 18px 0;height:42px}.blog__sponsor-logo p{margin:0;font-size:12px}.blog__sponsor-logo .third-party-logo-img{max-width:72px;max-height:22px}.blog__sponsored-ad{margin:0}.blog__sponsored-ad>div:empty{display:none}.blog__sponsored-ad>div:not(:empty){margin-bottom:21px}.blog__hero--video{margin-bottom:10px}.blog__text{border-top:1px solid #eaeaea;padding:48px 0 5px 0}.blog__text>p:first-of-type::first-letter{background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 32 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M32 4.407H16.588l2.682-2.036-.415-.574-2.507 1.905V0h-.696v3.702l-2.507-1.905-.415.574 2.682 2.036H0v.715h13.37c-1.109.505-2.124 1.322-2.97 2.436l.547.44C12.297 6.224 14.09 5.247 16 5.247c1.909 0 3.703.977 5.053 2.75l.547-.439c-.847-1.114-1.862-1.93-2.97-2.436H32v-.715z' fill='%23AB967D' fill-rule='evenodd'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center top;background-size:48px 12px;margin:-18px 15px 0 0;padding-top:20px;font-size:96px;font-style:normal;line-height:80px;float:left}.blog__text>p:first-of-type:after{content:" ";display:table;clear:both}.content__text.blog__text--legacy a{color:#a18f7a;border:none}.content__text.blog__text--legacy a:focus,.content__text.blog__text--legacy a:hover{color:#57696d}@media only screen and (min-width: 768px){.blog__header{max-width:600px;margin:0 auto;padding:40px 0}.blog__title-tag{background-size:96px 9px;padding-bottom:14px}.blog__title{font-size:32px;line-height:1.34}.blog__sponsored-ad>div:not(:empty){margin-bottom:24px}.blog__text{padding-bottom:10px}}@media only screen and (min-width: 1024px){.blog__header{max-width:685px;padding:50px 0}.blog__title-tag{background-size:124px 10px;padding-bottom:16px}.blog__title{font-size:36px;line-height:1.31}.blog__hero--video{margin-bottom:20px}}.icon__comments{background:transparent;min-width:1em;height:auto;min-height:0.688em;border-color:inherit;border:1px solid;border-radius:0.125em;font-size:inherit;display:inline-block;position:relative;text-align:center}.icon__comments:before,.icon__comments:after{content:" ";border-color:inherit;border-top:0.313em solid;border-right:0.438em solid transparent;position:absolute;top:100%;left:0.25em}.icon__comments:after{border-top-color:#fff;left:calc(0.25em + 1px);-webkit-transform:translateY(-2px);transform:translateY(-2px);-webkit-transition:inherit;transition:inherit}.icon__comments--hover-fill{-webkit-transition:background 0.1s linear, border-color 0.1s linear;transition:background 0.1s linear, border-color 0.1s linear}button:hover .icon__comments--hover-fill,a:hover .icon__comments--hover-fill{background:#57696d}button:hover .icon__comments--hover-fill:after,a:hover .icon__comments--hover-fill:after{border-top-color:inherit}.video-player__spacer{position:relative}.video-player__spacer:before{content:" ";width:100%;padding-bottom:56.25%;display:block}.content__container{width:100%;margin-left:auto;margin-right:auto;padding:0 16px}.content__container a{font-weight:inherit}.content__row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.content__main{width:100%;min-width:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;position:relative}.content__title{font-weight:500;font-family:"Chronicle SSm A", serif}.content__dek{font-weight:400;font-family:"Chronicle SSm A", serif}.content__dek a{border-bottom:0.125em solid #a18f7a}.content__dek a:focus,.content__dek a:hover{border-color:#57696d;color:#444}.content__text{font-weight:400;font-family:"Chronicle SSm A", serif;font-size:16px;line-height:1.81;text-align:left}.content__text>*{margin-bottom:25px}.content__text>div,.content__text>figure,.content__text>hr,.content__text>aside{clear:both}.content__text h1,.content__text h2,.content__text h3,.content__text h4,.content__text h5{margin-bottom:15px;text-transform:capitalize}.content__text h1{font-size:25px;font-weight:500;line-height:1.44}.content__text h2{font-size:24px;font-weight:500;line-height:1.46}.content__text h3{font-weight:300;font-family:"Gotham SSm A", sans-serif;font-size:21px;line-height:1.52}.content__text h4{font-size:19px;font-weight:500;line-height:1.58}.content__text h5,.content__text h6{font-weight:400;font-family:"Gotham SSm A", sans-serif;margin-bottom:15px;font-size:15px;line-height:1.73;letter-spacing:1px;text-transform:uppercase}.content__text a{border-bottom:0.09em solid #a18f7a}.content__text a:focus,.content__text a:hover{border-color:#57696d;color:#444}.content__text ul>li{padding-left:26px;position:relative;text-align:left}.content__text ul>li:before{content:" ";background:#444;width:5px;height:5px;margin:0 18px 0 3px;border-radius:50%;position:absolute;top:10px;left:0}.content__text ul>li ul li:before{width:4px;height:2px;border-radius:0;top:12px}.content__text ol{margin-left:1em;padding-left:0.5em;list-style:decimal;text-align:left}.content__text ol li{padding-left:0.5em}.content__text hr{background:#c4c4c4;width:150px;height:1px;margin-left:auto;margin-right:auto;border:none}.content__text blockquote{margin-left:45px;border-left:1px solid rgba(87,105,109,0.32);padding-left:14px;color:#57696d;font-style:italic;font-weight:500}@media only screen and (min-width: 768px){.content__container{padding:0 22px}.content__text>*{margin-bottom:30px}.content__text h1{font-size:36px;line-height:1.31}.content__text h2{font-size:28px;line-height:1.46}.content__text h3{font-size:24px;line-height:1.58}.content__text h4{font-size:21px;line-height:1.67}.content__text hr{width:200px}}@media only screen and (min-width: 1024px){.content__container{max-width:1024px;padding:0 12px}}@media only screen and (min-width: 1400px){.content__container{max-width:1400px;padding:0 26px}.content__text-container{padding-left:114px;padding-right:114px}}.meta{margin-bottom:22px;font-size:13px;line-height:1.35;color:#909090;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.meta .btn--link,.meta a{color:#909090}.meta .btn--link:focus,.meta .btn--link:hover,.meta a:focus,.meta a:hover{color:#909090}.meta__author span{font-weight:400;font-family:"Chronicle SSm A", serif;font-size:11px;font-style:italic}.meta__sponsored{margin-left:10px;border-left:1px solid #c4c4c4;padding-left:10px}.meta__date{font-weight:400;font-family:"Chronicle SSm A", serif;font-style:italic}.meta__author+.meta__date{margin-left:10px;border-left:1px solid #c4c4c4;padding-left:10px}.meta__comments{margin-left:10px;border-left:1px solid #c4c4c4;padding-left:10px}.meta__comments a{border-color:#909090;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.meta__comments .icon__comments{margin-right:8px;font-size:16px;-webkit-transform:translateY(-1px);transform:translateY(-1px)}.meta__break{width:100%;margin-top:8px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.meta__caps{font-size:12px;letter-spacing:0.6px;text-transform:uppercase}@media only screen and (min-width: 768px){.meta__date{margin-left:10px;border-left:1px solid #c4c4c4;padding-left:10px}.meta__break{width:auto;margin-top:0}.meta__caps{font-size:13px;letter-spacing:normal}}.sidebar{display:none}@media only screen and (min-width: 1024px){.sidebar{width:340px;visibility:hidden;display:block}}a.tag{color:#a18f7a;font-size:12px;font-weight:500;letter-spacing:0.6px;text-transform:uppercase;text-decoration:none}a.tag:focus,a.tag:hover{color:#a18f7a;text-decoration:none}a.tag--small{font-size:9.5px;letter-spacing:0.5px;line-height:normal}.tag-list{line-height:2;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}.tag-list a.tag:hover{text-decoration:underline}.tag-list li+li:before{content:" ";background:#a18f7a;width:3px;height:3px;margin-left:6px;border-radius:50%;display:inline-block;vertical-align:middle}.tag-list li+li a.tag{margin-left:6px}.user-actions__btns{width:100%;margin-bottom:21px;border-color:#57696d;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.user-actions__btns>*+*{margin-left:10px}.user-actions__btns .icon__comments{-webkit-transform:translateY(-1px);transform:translateY(-1px)}.user-actions--hero{padding-top:15px;padding-bottom:25px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.user-actions--hero .user-actions__btns{margin-bottom:0}.user-actions--hero .social{display:none}.user-actions--no-comments{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.user-actions--no-comments .user-actions__btns--no-comments{border-color:#57696d;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:0 7.5px}@media only screen and (min-width: 768px){.user-actions--hero{padding-top:20px;padding-bottom:30px}.user-actions--hero .user-actions__btns{-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.user-actions--hero .social{display:-webkit-box;display:-ms-flexbox;display:flex}.user-actions--hero li:last-child .social__link{margin-right:0}}@media only screen and (min-width: 1024px){.user-actions__btns{margin-bottom:24px}}
+</style>
+  <link rel="preload" media="all" href="/web/20220518043307/https://food52.com/assets/blog/blog_show_deferred-871690ce563ff24dce2c11a934bc9648595ca67eac121a49be0172ac420a03f9.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" media="all" href="/web/20220518043307cs_/https://food52.com/assets/blog/blog_show_deferred-871690ce563ff24dce2c11a934bc9648595ca67eac121a49be0172ac420a03f9.css"/></noscript>
+
+<link rel="preload" media="print" href="/web/20220518043307/https://food52.com/assets/blog/blog_show_print-27d739103ab0ad5eeb7b95f89cbfc9f6e0d4b8e4b2b7d737a7115c3e6e90f78b.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" media="print" href="/web/20220518043307cs_/https://food52.com/assets/blog/blog_show_print-27d739103ab0ad5eeb7b95f89cbfc9f6e0d4b8e4b2b7d737a7115c3e6e90f78b.css"/></noscript>
+
+<script>
+/*
+ loadCSS. [c]2017 Filament Group, Inc. MIT License */
+(function(b){b.loadCSS||(b.loadCSS=function(){});var c=loadCSS.relpreload={};c.support=function(){try{var a=b.document.createElement("link").relList.supports("preload")}catch(e){a=!1}return function(){return a}}();c.bindMediaToggle=function(a){function b(){a.addEventListener?a.removeEventListener("load",b):a.attachEvent&&a.detachEvent("onload",b);a.setAttribute("onload",null);a.media=c}var c=a.media||"all";a.addEventListener?a.addEventListener("load",b):a.attachEvent&&a.attachEvent("onload",b);setTimeout(function(){a.rel=
+"stylesheet";a.media="only x"});setTimeout(b,3E3)};c.poly=function(){if(!c.support())for(var a=b.document.getElementsByTagName("link"),e=0;e<a.length;e++){var d=a[e];"preload"!==d.rel||"style"!==d.getAttribute("as")||d.getAttribute("data-loadcss")||(d.setAttribute("data-loadcss",!0),c.bindMediaToggle(d))}};if(!c.support()){c.poly();var f=b.setInterval(c.poly,500);b.addEventListener?b.addEventListener("load",function(){c.poly();b.clearInterval(f)}):b.attachEvent&&b.attachEvent("onload",function(){c.poly();
+b.clearInterval(f)})}"undefined"!==typeof exports?exports.loadCSS=loadCSS:b.loadCSS=loadCSS})("undefined"!==typeof global?global:this);
+</script>
+
+<link rel="shortcut icon" href="/web/20220518043307im_/https://food52.com/assets/favicon-31dab756d4a5fccaa7d3d20322231dc2b3e1d079035e5e16b4b301ffdbbd2033.ico">
+    <link rel="apple-touch-icon" href="/web/20220518043307im_/https://food52.com/assets/apple-touch-icon/76x76-c121ca38f8b4107bdd7e39b70d2e680ee160a85eefb90965c2ea2a81c0caf4f9.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="/web/20220518043307im_/https://food52.com/assets/apple-touch-icon/120x120-caef7898bdd69d51d19b41caffabe7116118047aaae619a772e7ae0493fc140c.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/web/20220518043307im_/https://food52.com/assets/apple-touch-icon/152x152-37836ed4cf6d867f0408621ada603bae2c33e486cc0226018ed56509e07dc93e.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/web/20220518043307im_/https://food52.com/assets/apple-touch-icon/180x180-4f0fc96f9ea242e3851f664c372adcd208dcae1d81b182add1cc5695bf192f57.png" sizes="180x180">
+
+<link rel="mask-icon" href="/web/20220518043307im_/https://food52.com/assets/favicon-f0d2d26c96aa016b8778988c5b904a3463e7f7a97de86e62d5a6cfa4193fd94d.svg" color="#3D3D3D">
+
+<link rel="alternate" type="application/rss+xml" title="Food52" href="http://web.archive.org/web/20220518043307/https://food52.com/blog.rss"/>
+
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="B6QVTjmj/PyhcsCc9rvDHDpajoroL+T90jgEpB1SH1q3+G8ZD1hp35hXoJGAhgJZnO7lWjtliMHmcfQxNRFSpw=="/>
+
+<link rel="canonical" href="http://web.archive.org/web/20220518043307/https://food52.com/blog/15663-you-can-do-better-than-subway-tile"/>
+
+<meta property="article:publisher" content="https://www.facebook.com/food52">
+<meta property="article:published_time" content="2016-01-26 13:00:00 -0500">
+<meta property="article:modified_time" content="2022-01-03 01:25:26 -0500">
+<meta property="article:section" content="Home52">
+
+<meta property="article:tag" content="Home52">
+    <meta property="article:tag" content="Home Decor">
+    <meta property="article:tag" content="Kitchen Design">
+    <meta property="article:tag" content="Interior Design">
+
+<meta name="sailthru.title" content="You Can Do Better Than Subway Tile">
+<meta name="sailthru.date" content="2016-01-26 13:00:00 -0500">
+<meta name="sailthru.tags" content="home52,home-decor,kitchen-design,interior-design,blog">
+<meta name="sailthru.image.full" content="https://images.food52.com/x6mR9cryujx8RvPWXxyFCQ20Zfw=/300x300/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg">
+<meta name="sailthru.image.thumb" content="https://images.food52.com/x6mR9cryujx8RvPWXxyFCQ20Zfw=/300x300/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg">
+<meta name="sailthru.description" content=" Is Subway tile expensive? The glossy white tiles rose to popularity after they were used in subway station designs in NYC. They are well-known as Subway tiles.">
+  <meta name="sailthru.author" content="Amanda Sims">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:creator" content="@mandasims">
+
+<script type="application/ld+json">
+  {
+    "@context": "http://web.archive.org/web/20220518043307/http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http://web.archive.org/web/20220518043307/https://food52.com/blog/15663-you-can-do-better-than-subway-tile"
+    },
+    "headline": "You Can Do Better Than Subway Tile",
+    "image": [
+      "http://web.archive.org/web/20220518043307/https://images.food52.com/H8BA8TQvcQKWyVVXn235z63-Nv4=/1200x1200/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg",
+      "http://web.archive.org/web/20220518043307/https://images.food52.com/NdJEQ9KOMB40ELi0gB5dMm60fEU=/1200x900/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg",
+      "http://web.archive.org/web/20220518043307/https://images.food52.com/PYsMnJ8bwfsXA8xH49QTVZv3spA=/1200x675/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg"
+    ],
+    "datePublished": "2016-01-26 13:00:00 -0500",
+    "dateModified": "2022-01-03 01:25:26 -0500",
+    "author": {
+      "@type": "Person",
+      "name": "Amanda Sims",
+      "description": "Professional trespasser. ",
+      "url": "http://web.archive.org/web/20220518043307/https://food52.com/users/206106-amanda-sims"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Food52",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://web.archive.org/web/20220518043307/https://food52.com/assets/logo-food52-d15229cd9df0b9e4390efb59bc07477df8ae4dae8897d4f094c7682c4ac70468.svg",
+        "width": 276,
+        "height": 52
+      }
+    },
+    "description": "Is Subway tile expensive? The glossy white tiles rose to popularity after they were used in subway station designs in NYC. They are well-known as Subway tiles."
+  }
+</script>
+
+<meta property="og:title" content="You Can Do Better Than Subway Tile">
+  <meta property="og:description" content="5 alternatives to subway tile that are way more fun (and no less classy).">
+  <meta property="og:image" content="http://web.archive.org/web/20220518043307im_/https://images.food52.com/e3ef7eSLBLnbRKOn-c8Cvz0P_4E=/fit-in/1200x1200/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg">
+
+<meta name="thumbnail" content="https://images.food52.com/e3ef7eSLBLnbRKOn-c8Cvz0P_4E=/fit-in/1200x1200/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg">
+
+<script>
+      if (typeof(f52) == 'undefined') { f52 = {}; }
+    </script>
+
+<script>
+      // Airbrake JS filters used to ignore noisy exceptions.
+      if (f52.inputs && f52.inputs.base && f52.inputs.base.airbrakeJS) {
+        f52.inputs.base.airbrakeJS.filters = function(notice) {
+          
+        }
+      }
+    </script>
+
+<!-- Audigent GAM Code -->
+<script>
+  !function(w, d, t, u, p){
+      w.addAuSeg = function(s) {
+          w.googletag = w.googletag || {};
+          w.googletag.cmd = w.googletag.cmd || [];
+          w.googletag.cmd.push(function(){w.googletag.pubads().setTargeting('AU_SEG', s);});
+      };
+      var a = d.createElement(t);
+      a.async = true;
+      a.src = u + '?partner_id=' + p + '&url=' + w.location.href;
+      var b = d.getElementsByTagName(t)[0];
+      b.parentNode.insertBefore(a, b);
+  }(window, document, 'script', 'http://web.archive.org/web/20220518043307/https://seg.ad.gt/api/v1/segments.js', '259');
+</script>
+
+<script data-cfasync="false" type="text/javascript">
+    var freestar = freestar || {};
+    freestar.hitTime = Date.now();
+    freestar.queue = freestar.queue || [];
+    freestar.config = freestar.config || {};
+    freestar.config.enabled_slots = [];
+    freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;
+    freestar.config.enabled_slots = [];
+
+!function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="http://web.archive.org/web/20220518043307/https://a.pub.network/food52-com";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
+    freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }
+  </script>
+
+</head>
+
+<body class=" ">
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <noscript><iframe src="//web.archive.org/web/20220518043307if_/https://www.googletagmanager.com/ns.html?id=GTM-MB6SZR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="global-page-frame clearfix" id="global-page-frame">
+        <div class="ad-slot ad-slot--leaderboard " id="leaderboard"></div>
+
+<header class="header  header--free-shipping" id="headerRoot">
+    <div class="header__nav header__nav--spacer">
+      <nav class="global-nav" aria-label="Main">
+  <a class="global-nav__logo global-nav__logo--logged-out" href="http://web.archive.org/web/20220518043307/https://food52.com/" title="Home">
+    <span class="global-nav__logo-img" aria-label="Food52 Food Community"></span>
+  </a>
+
+<div class="global-nav__menu">
+    <ul class="global-nav__menu-list">
+      <li class="global-nav__menu-item global-nav__menu-item--more">
+        <span class="global-nav__menu-link">
+          <span>Menu</span>
+        </span>
+      </li>
+
+<li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20220518043307/https://food52.com/shop" class="global-nav__menu-link">
+                <span>
+                  The Shop
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20220518043307/https://food52.com/recipes" class="global-nav__menu-link">
+                <span>
+                  Recipes
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20220518043307/https://food52.com/blog" class="global-nav__menu-link">
+                <span>
+                  Food
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20220518043307/https://food52.com/drinks" class="global-nav__menu-link">
+                <span>
+                  Drinks52
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20220518043307/https://food52.com/tags/home52" class="global-nav__menu-link">
+                <span>
+                  Home52
+                </span>
+              </a>
+            </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20220518043307/https://food52.com/hotline" class="global-nav__menu-link">
+                <span>
+                  Community
+                </span>
+              </a>
+            </li>
+          <li class="global-nav__menu-item">
+            <a href="http://web.archive.org/web/20220518043307/https://watch.food52.com/" class="global-nav__menu-link">
+              <span>
+                Watch
+              </span>
+            </a>
+          </li>
+            <li class="global-nav__menu-item">
+              <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/the-food52-podcast-network" class="global-nav__menu-link">
+                <span>
+                  Listen
+                </span>
+              </a>
+            </li>
+    </ul>
+  </div>
+
+<ul class="global-nav__actions global-nav__actions--logged-out"></ul>
+</nav>
+
+</div>
+  </header>
+
+<div id="flashNotificationRoot"></div>
+        
+  <div id="mainContent" class="page-body-block" tabindex="0">
+
+<div class="blog">
+  <section class="content__container">
+    <div class="blog__header">
+        <h3 class="blog__title-tag">
+          <a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Lead Tag" data-ga-event-label="Home Decor" data-ga-destination-url="/tags/home-decor" href="/web/20220518043307/https://food52.com/tags/home-decor">Home Decor</a>
+        </h3>
+
+<h1 class="content__title blog__title">You Can Do Better Than Subway&nbsp;Tile</h1>
+
+<div class="content__dek blog__dek">
+</div>
+
+<div class="meta">
+          <div class="meta__author">
+            <span>by:</span> 
+            <a class="meta__caps" rel="author" data-ga-event="inPageInteraction" data-ga-event-action="Author Name Click" data-ga-event-label="Article Header" data-ga-destination-url="/users/206106-amanda-sims/articles" href="/web/20220518043307/https://food52.com/users/206106-amanda-sims/articles">Amanda Sims</a>
+          </div>
+
+<div class="meta__break">
+            <div class="meta__date">
+              <span>January&nbsp;26,&nbsp;2016</span>
+            </div>
+          
+          <div class="meta__comments">
+            <a href="javascript:void(0);" class="js-comments-scroll" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Article Header" data-ga-destination-url="none">
+              <span class="icon__comments"></span>
+              <span class="js-comments-count">11</span>&nbsp;Comments
+            </a>
+          </div>
+        </div>
+      </div>
+
+<div class=" user-actions">
+          <div class="user-actions__btns">
+            <span class="collectionWidgetRoot" data-id="15663" data-type="post" data-layout="pill"></span>
+              <a href="javascript:void(0);" class="btn--pill js-comments-scroll" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Article Header under Image" data-ga_destination_url="none">
+                <span class="icon icon__comments icon__comments--hover-fill"></span>
+                <span class="js-comments-count">11</span>&nbsp;Comments
+              </a>
+          </div>
+
+<div class="ad-slot blog__sponsored-ad" id="sponsoredArticleLogo"></div>
+
+<ul class="social social--outline">
+  <li>
+    <a aria-label="Share on Facebook" href="http://web.archive.org/web/20220518043307/https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffood52.com%2Fblog%2F15663-you-can-do-better-than-subway-tile" target="_blank" rel="noopener noreferrer" class="social__link social__link--facebook" data-network="Facebook" data-social-action="Share" data-ga-event-label="Article Header" data-ga-event="inPageInteraction" data-ga-event-action="Facebook Share" data-ga-destination-url="none">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10.4 19.3"><path d="M0 10.3h3v9h3.7v-9h3.7V6.6H6.7V4.8c0-.6.4-1.1.7-1.1h3V0h-3C5 0 3 2.2 3 4.8v1.8H0v3.7z" fill="currentColor"/></svg>
+    </a>
+  </li>
+
+<li>
+    <a aria-label="Share on Twitter" href="http://web.archive.org/web/20220518043307/https://twitter.com/intent/tweet?text=%22You%20Can%20Do%20Better%20Than%20Subway%20Tile%22%20on%20%40Food52&amp;url=https%3A%2F%2Ffood52.com%2Fblog%2F15663-you-can-do-better-than-subway-tile" target="_blank" rel="noopener noreferrer" class="social__link social__link--twitter" data-network="Twitter" data-social-action="Tweet" data-ga-event-label="Article Header" data-ga-event="inPageInteraction" data-ga-event-action="Twitter Share" data-ga-destination-url="none">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 19.8 15.8"><path d="M19.8 1.9c-.4.1-.8.3-1.1.4l-1.2.3c.4-.3.8-.6 1.1-.9.3-.4.6-.8.7-1.2-.4.2-.9.4-1.3.6-.4.2-.9.3-1.4.4-.3-.4-.8-.7-1.3-.9-.4-.5-1-.6-1.6-.6-1.1 0-2.1.4-2.9 1.2-.7.8-1.1 1.7-1.1 2.8 0 .2 0 .5.1.9-1.7-.1-3.3-.5-4.7-1.2C3.6 3 2.4 1.9 1.4.7 1 1.3.9 2 .9 2.7c0 1.5.6 2.6 1.8 3.3-.8 0-1.4-.1-1.9-.4v.1c0 1 .3 1.8.9 2.5.6.7 1.4 1.2 2.3 1.4-.2 0-.3.1-.5.1h-.6c-.2 0-.4 0-.7-.1.2.8.7 1.4 1.4 2 .7.4 1.5.7 2.4.7C4.6 13.5 2.9 14 1 14H0c.9.6 1.8 1 2.9 1.3 1.1.3 2.2.5 3.3.5 1.9 0 3.5-.3 5-1 1.4-.7 2.7-1.6 3.6-2.7 1-1.1 1.7-2.3 2.2-3.6.5-1.3.7-2.7.7-4V4c.4-.3.8-.6 1.1-1 .4-.3.8-.7 1-1.1" fill="currentColor"/></svg>
+
+</a>
+  </li>
+
+<li>
+    <a aria-label="Pin this!" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button/?url=https://food52.com/blog/15663-you-can-do-better-than-subway-tile&amp;media=https://images.food52.com/e3ef7eSLBLnbRKOn-c8Cvz0P_4E=/fit-in/1200x1200/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg&amp;description=You%20Can%20Do%20Better%20Than%20Subway%20Tile%20on%20Food52" target="_blank" rel="noopener noreferrer" class="social__link social__link--pinterest" data-network="Pinterest" data-social-action="Pin" data-pin-custom="true" data-pin-do="none" data-pin-media="https://images.food52.com/e3ef7eSLBLnbRKOn-c8Cvz0P_4E=/fit-in/1200x1200/f2885a21-e39f-432d-bbcf-64cf33c16429--6c60be77-e71f-474c-87eb-4e1c88ac0d4d-19425043566_6d3de3de76_b.jpg" data-pin-url="https://food52.com/blog/15663-you-can-do-better-than-subway-tile" data-pin-description="You Can Do Better Than Subway Tile on Food52" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Header" data-ga-destination-url="none">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+    </a>
+  </li>
+
+<li>
+    <a aria-label="Email to a friend" href="/web/20220518043307/https://food52.com/cdn-cgi/l/email-protection#95aae6e0f7fff0f6e1a8ccfae0b0a7a5d6f4fbb0a7a5d1fab0a7a5d7f0e1e1f0e7b0a7a5c1fdf4fbb0a7a5c6e0f7e2f4ecb0a7a5c1fcf9f0b0a7a5fafbb0a7a5d3fafaf1a0a7b3f4f8e5aef7faf1eca8dcb5e1fdfcfbfeb5ecfae0b3b6a6acaef9f9b5f9fcfef0b5e1fdfce6afb0a5d1b0a5d4b0a5d1b0a5d4fde1e1e5e6b0a6d4b0a7d3b0a7d3f3fafaf1a0a7bbf6faf8b0a7d3f7f9faf2b0a7d3a4a0a3a3a6b8ecfae0b8f6f4fbb8f1fab8f7f0e1e1f0e7b8e1fdf4fbb8e6e0f7e2f4ecb8e1fcf9f0" target="_blank" rel="noopener noreferrer" class="social__link social__link--email" data-network="Email" data-social-action="Share" data-ga-event-label="Article Header" data-ga-event="inPageInteraction" data-ga-event-action="Email Share" data-ga-destination-url="none">
+      <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 17.1 12.5"><path d="M5.9 6.4L.6 12.5h16l-5.3-6.1-2.5 2.4c-.1.2-.3.2-.5 0L5.9 6.4zM17.1.6l-5.3 5.2 5.3 6.1V.6zM0 .6v11.3l5.3-6.1L0 .6zM.6 0l7.9 7.8 8-7.8H.6z" fill="currentColor"/></svg>
+    </a>
+  </li>
+</ul>
+
+</div>
+    </div>
+  </section>
+
+<section class="content__container">
+    <div class="content__row">
+      <div class="content__main">
+
+<div class="content__text-container">
+          <div class="content__text blog__text js-blog-text js-subnav-content clearfix ">
+              <p>Too much of a good thing can ruin it for you, as anyone who lived off flavor packet ramen in their 20s can testify.</p>
+              <p>So it is for me with subway tile. The 3-inch by 6-inch glossy white ceramic tiles rose to popularity after they were used in turn-of-the-century subway station designs in New York City—and have become seemingly de facto in so many kitchen and bath wall coverings of current vogue.</p><div class="ad-slot ad-slot--mobile-inline" id="inlineArticle"></div>
+
+<figure class="single-image single-image--full ">
+    <div class="img img--mobile-full">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-description="All the kitchen trends (including subway tile) on the set of The Intern." data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 964px;"><div style="height: 0; padding-bottom: 66.59751037344398%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/lYhXkZpWZNn-YYRIQbaGkmpzLQ0=/778x518/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/X5J0sDPoMXYejSdZO7dC00gn0t0=/1556x1036/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/fysVquz1rRKOwCDMlr2dhip150Q=/778x518/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/OupjOvL_yOGF0B1-ycIp6XGD2zg=/1556x1036/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/AgwAXLGkHMe5Ixig5SphwsXyKas=/660x440/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/H8sLKzRbTEm0estPz6gyGR85yYY=/1320x880/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/m-Lx1mSsKmLpAED72P3Da84cOfg=/660x440/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/MuRGHYe9C4woVld-aS1a7M0lS-0=/1320x880/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/8h7fga87J6CHWEvGACcuvcRGvBQ=/964x642/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/Z6Ku5am2PY8kle8VYhR6x4p43bI=/1928x1284/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/CYmSv9jYtIvGivpxYwAEzKd0ePY=/964x642/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/uogZGKETB0ijE224je-Lvh_GxHw=/1928x1284/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/E3B6OJDgcDv4PK5LFL-AwydR_g8=/768x512/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/yF4aX_39TKS2ALNxsxa_ygqiGWw=/1536x1024/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/hAE7F4M1-lBgbwA4rRQbxxIfJE8=/768x512/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/Mq79j9RAXg80P60faUEfPmXDxR4=/1536x1024/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/jROM24kzg5FAEQ9n4s0sJorgVBE=/375x250/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/1AVlWiCRa5IUrS-asTl1DS__Wvw=/750x500/filters:format(webp)/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="All the kitchen trends (including subway tile) on the set of The Intern." class=" lazyload" width="964" height="642" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/VcJy7rmHF_h6vqWTh5a7KY_kRZc=/375x250/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/rppuQO9clwsn0x_2fw00atdphwM=/750x500/83cae163-9940-40b9-9fca-851730b7df2f--the-intern-house.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details ">
+          <span class="img-details__caption">All the kitchen trends (including subway tile) on the set of The Intern.</span>
+
+<span class="img-details__credit">Photo by The Intern</span>
+      </figcaption>
+  </figure>
+
+<p>I'm not saying subway tile is awful—it's classic, and it's appealing for good reasons: It's easy to clean and shines like a smile. It's humble, yet rooted in history. Trendy but subtle, inexpensive, and with a report card that reads, "Plays well with others."</p><div class="product-well"><div class="product-well__label">Shop the Story</div><div id="relatedProductsRoot"><div class="product-well__carousel-spacer"></div></div></div>
+              <p>But, from where I stand (sifting through every other Pinterest photo just to find one that's <em>not</em> subway tile porn), we've lost control. Just because something is classic and clean doesn't mean it's the only option! Also, they're white tiles laid like bricks... Let's collectively yawn.</p><div class="comments-top">
+  <h3 class="comments-top__title">Join The Conversation</h3>
+  <div class="comments-top__subtitle">Top Comment:</div>
+  <div class="comments-top__body">&ldquo;I think you should steer clear of the word &quot;better&quot; which is by definition insulting to the people who have chosen the classic. Different is a good word, plays well with others, too. While other ideas can be interesting to read about (and it is all of course subjective) some of your choices are def not &quot;better&quot;. &quot;You can do better&quot; makes people feel bad about something they may have chosen and that&#39;s pretty hard and expensive to change.&rdquo;</div>
+  <div class="comments-top__user">&mdash; lfm</div>
+
+<a href="javascript:void(0);" class="btn--pill js-comments-scroll" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Article Quote Block" data-ga-destination-url="none">
+    <span class="icon icon__comments icon__comments--hover-fill"></span>
+    Comment
+  </a>
+</div>
+              <p>There are so many incredible tiles and patterns to choose from in the world. As a call for change from the subway tile status quo, for an acceptance that tile can be expressive and exciting, for confidence in creative design, <strong>here are 5 clean, uncluttered alternatives to subway tile that can do everything it can do—and better.</strong></p><div class="ad-slot ad-slot--mobile-inline" id="inlineArticleTwo"></div>
+              <h2>Beveled</h2>
+              
+  <div class="image-group image-group--inline">
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 133.46354166666669%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/oiGBZu2jPn05mVV09Nwt-MuSmow=/389x519/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/hrmhWDu40YrEg4as1fd4jBCMAgo=/778x1038/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/goWM6JaIUshe7eekWHiGYBuS9P4=/389x519/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/mIHDorc2BDkbuKLSb7K0vcXvOiU=/778x1038/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/bN-wVN-6JBixY0SLF9uSJYJIDxY=/330x440/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/F5FCicmwDeq0w-AtcmbbiDRRaDo=/660x880/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/yYQ3ThHY9UiWRo2EmB9ltGDXYas=/330x440/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/c3aUOwCwhNjdy8kd8mv2OXfKxPo=/660x880/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/H4K6A_3NhEzOADVmWtrefJ_naYo=/482x643/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/d1A48vTMHXFw4qapkH5Z7-waulM=/964x1286/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/PwTluOCmRryerj4-KQoovY4vTBA=/482x643/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/8WXa5L_rU0fgBIGs3tbqMrbaunQ=/964x1286/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/-JWl5WSW3fxY10zoPsSHpprIaIg=/768x1025/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/gSGhgej7AZTCJ4WC4NR1qwmssdY=/1536x2050/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/ip2FyOhA3f9jA0yJiH_FzMmj1Iw=/768x1025/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/P6O_idmR6dWQffGwVlIv81etVvM=/1536x2050/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/xR-Q0hRjgYQ5ErVTJpWYThqvJHI=/375x500/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/fPQNa6bPr1O5Qz2q7xNHdYWuIts=/750x1000/filters:format(webp)/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1025" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/VXdSHxdAlRausPdNggO_7GE3k04=/375x500/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/OZMY3CH0u6bwTjwe8umJpY17DGU=/750x1000/26d40cbc-2cbe-416b-8231-9ab6b1052998--Screen_Shot_2016-01-24_at_4.20.01_PM.png 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/http://www.nemotile.com/ceramic/formae/diamond-cotton">Nemo</a></span>
+      </figcaption>
+  </figure>
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 133.46354166666669%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/iUnMsRb4bEI2zx578MnhcJND2yo=/389x519/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/zlvFAlpzjDLN-Jn19PfOMR6S6nM=/778x1038/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/AI-Urjbfd6dkQF7zL4C_DxJyI6s=/389x519/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/KMqpx8QqhtbOVegm0BPC7LGkbr0=/778x1038/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/bgeUjrPnOTqxc4mpbsnkmyAeakQ=/330x440/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/ugv7bv1avHsFaclgRe4Xmvb-pq0=/660x880/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/BzGozbCxQaY6AZkXDPn5owiO6GQ=/330x440/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/4YIt0STQ9ZgzgtVf9tQGIvyYz_0=/660x880/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/ia5nfASE3hAX8jNPz0gpgArG_7A=/482x643/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/hWaiQ3776enoQvGtwyjvK-_a14s=/964x1286/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/XRK4J_zUAD2fgvdG2LJ074lzX6w=/482x643/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/IwZ7r9XfKsuOLOdZax-fo6EJf64=/964x1286/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/an7Vwo2kWB2YZLXqch7J1SdsDCk=/768x1025/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/U9OfTe1VS9C5gUoKcw65Somf7CY=/1536x2050/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/TsBFNC9oBglp6IkOEWw3pKDpU-k=/768x1025/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/eV_6lgV0Dmc2d8SnHKl7vTokhAk=/1536x2050/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/qF1WBXYvJuFRY4BJXEZchwwvcOs=/375x500/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/7y0UI3RlOcVZiKdUa4UL_OgT65g=/750x1000/filters:format(webp)/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1025" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/MAPo-WXfxpqm1-V76r3QcNlda3U=/375x500/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/O5_pIrkE1Ne8YFXblQbUo2WmHUY=/750x1000/25cbe715-4877-4789-bdce-70197793792b--a87318fb222e5b90d431c77293978bff.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/http://www.yellowtrace.com.au/uda-architetti-metaphisical-remix-turin/">Yellow Trace</a></span>
+      </figcaption>
+  </figure>
+
+</div>
+
+<p>With six beveled sides, this <a href="http://web.archive.org/web/20220518043307/http://www.nemotile.com/ceramic/formae/diamond-cotton" target="_blank">Formae Diamond Cotton tile by Nemo</a> (above, left) adds dimension and interest while still being regular, white, and glossy. A slightly less dramatic bevel, just around the edges of each tile, paired with an unexpected vertical pattern (above, right) is similarly shaken up while still relying on glossy rectangular unit.</p>
+              <h2>Color</h2>
+              
+  <div class="image-group image-group--inline">
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 149.73958333333331%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/EhIZsZ7R8dIzXcbldn2iRXsCyi4=/389x582/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/8T4wGOpPr9wjaFgtLv1B9ejKIlo=/778x1164/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/jqdQ6IIFNSzJzxiaDEwmRQ3ECFE=/389x582/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/9Au1mqcBsXjbRDtUC2NvU3bREBY=/778x1164/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/2fZCfAlgCaw8agYCtrWdop_sHCY=/330x494/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/FrpQ-JrDrtyJB3JVlXEOZt3oblo=/660x988/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/YfvzMuvkumVsd4jHiCPHh8ajcd4=/330x494/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/DzzBprqBFjfNk1r11vn4BOtUoYc=/660x988/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/U3ymhCvHW8GpZBoiF1trD0CU1IM=/482x721/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/Qw9KeXuq_5zsFNBQxZG6Uac6Q-s=/964x1442/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/jrGhDYhJ3Qz8vs5f7_h7VZDmyj8=/482x721/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/IuaIUzORdhKRa8spjQdPRScSW64=/964x1442/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/yO62Z6lCTCGkBXUrxR6BsZPVyN0=/768x1150/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/vYdWOFPOWjOgkReh8ghr7FPRLeI=/1536x2300/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/u37dhi0g9RFzfeI7wO0rb0tyahg=/768x1150/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/yFqO-ZtxScvD7XKLSAnWf_kdxdg=/1536x2300/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/hB8wIODB-thixyutsS5ASJhfpEs=/375x561/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/DvTBcUh34eZlgPhg73yp2sAncgs=/750x1122/filters:format(webp)/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1150" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/DGFg3qaIC2bPLWIg9mF7LBNm5a0=/375x561/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/BMjzsMSbdGUaKrREU7wsbHEGKZE=/750x1122/2b4cea86-8549-47f3-9698-9c8b7ca1f3b0--elizabethrobertsPROSPECT-PARK-WEST-TOWNHOUSE15_4096.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/http://www.desiretoinspire.net/blog/2015/10/26/prospect-park-west-townhouse.html">Elizabeth Robert (via Design to Inspire)</a></span>
+      </figcaption>
+  </figure>
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 149.73958333333331%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/2qlauPdVa-df916U2Nc1s3Q6-gU=/389x582/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/uNXGFTnBQoJW1kwT-jNNyCx9JM4=/778x1164/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/xcA4rkNKGG2qMRlT9Bxv45R0k1Y=/389x582/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/wyn2tsDhAu-roUXR_B0tKuuSNJU=/778x1164/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/-jbeXfGV2zF_ULQNLK7-XXSycEs=/330x494/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/kVFgU3P_0mcVjmMSpZY1gaWHHOE=/660x988/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/P0zKmm2BWBP8nOY1-R7lQHFVkS0=/330x494/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/IQEzK0s19LyigP3rjqgU6ev4R1Y=/660x988/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/I8PYQlD4G6IUGlCrqcG5TJfpAX8=/482x721/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/BXhEPJUxm0d7-MzqfsB3QCUneJM=/964x1442/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/KdF03uEBbc6VOv5rqllWk4Zk3dQ=/482x721/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/-nk9cQa3YuFJfI2RxL2l8jMlUOQ=/964x1442/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/2NGvaYz0fSxH6p6JfcyGAPanVko=/768x1150/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/f9eawYGMSDcgBevC-Ia0TgMnv7s=/1536x2300/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/PvWCAQb7xJ37KJRyMhGdkghIviI=/768x1150/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/OAxm6Eicf48XueXpN5PmxpTkm_Y=/1536x2300/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/w_sq_LiGT79Rb0j4FUwp52im2so=/375x561/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/LUSnnucG0bV6T_HPFnlolvrKS6A=/750x1122/filters:format(webp)/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1150" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/HFer7IcckE9t9WOa2upHK5hQlvY=/375x561/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/7ybhXU7Vl1_Ka_uDIki2zF125lM=/750x1122/edff0621-47d2-44a2-b983-ee935e1c8264--Justina-Blakeney_Jungalow-kitchen-lr-5.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/http://www.thejungalow.com/2015/08/boho-kitchen-reveal-the-whole-enchilada.html">Justina Blakeney (via The Jungalow)</a></span>
+      </figcaption>
+  </figure>
+
+</div>
+
+<p>Whether you go casual or splashy—as in these juicy green <a href="http://web.archive.org/web/20220518043307/http://www.badiadesign.com/moroccan-mosaic-tiles/?sort=priceasc" target="_blank">Moroccan Mosaic Tiles from Badia Design</a> (above, right)—choosing tiles that are colorful doesn't mean you will miss having one more sliver of white wall space. <strong>In fact, especially on a backsplash or in a bathroom, a rich hue will help disguise grime in between cleanings.</strong> Either work with a range of related tones (above, left), or spring for a saturated color and lay the tiles horizontally (as in, don't go too crazy if your color is).</p>
+              <p><strong>More: <a href="http://web.archive.org/web/20220518043307/https://food52.com/blog/14050-5-unexpected-ways-to-use-tile-in-your-home">How to use tile even more unexpectedly in your home</a>.</strong></p>
+              <h2>Pattern</h2>
+              
+  <div class="image-group image-group--inline">
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 138.671875%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/IJUdljGBNt4Wc5Uw0FV9HNCNWJo=/389x539/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/yTF6n8ag2u_SUFnxtxvi9MrG_k4=/778x1078/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/-kFlXE80lhDk5EMzndML0cipXJc=/389x539/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/6ErwdcOTyf9G8DOnfhWVDTKsdaA=/778x1078/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/roqKI7djzsOmJReAJ3TA1utOptc=/330x457/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/1TXh40xZc_NcGcYUJ29zRsqiSx8=/660x914/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/0ZUeGXkiBB8v_95GNssWeCnSHl0=/330x457/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/vkWr1ZNTLnTvCL65ArMiEtgGggs=/660x914/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/xm-gcVFMLraxOrebzMT6R8b4AzA=/482x668/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/RZt4t_pdLEnSy5WT58wSe1u0YMM=/964x1336/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/XJuTN83qQmbg8zi9hAaBg6Kq5gY=/482x668/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/nw6Ub0Ogxy6AAyoqS01HK3Tc938=/964x1336/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/tu0BaUpO5L2EiRb6Ry6dJ7GOaJA=/768x1065/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/iVbMOJxHx02BSs76mPc05GclwSw=/1536x2130/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/J7cV75qCD2hk0FGHM4NjHHa2I7U=/768x1065/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/_de2SNim_VZt3-dEEDZlo5w6DIo=/1536x2130/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/UX2oca7GKMuOLLOdC0QkDW7OKaw=/375x520/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/ZS6Qpfd9_Huia9-0_SuPuJPziRc=/750x1040/filters:format(webp)/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1065" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/2z58LNbDQvYeBmphjTjCwztlZ0w=/375x520/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/ZSKO1e5gCJIxyJOdZxRKwOVV0yE=/750x1040/c51d5499-934a-4c3c-a384-9bfdd2f4f0e7--0ebb9607cf4db13eafc3ec54db5b712b.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/http://www.remodelista.com/posts/vote-for-the-best-bath-in-the-remodelista-considered-design-awards-2015-amateur-category">Taliah Lowry (via Remodelista)</a></span>
+      </figcaption>
+  </figure>
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 138.671875%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/JdOjIAKJJa3MkK3y2ikfj0ZmwLQ=/389x539/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/wulE4sdnarFuar4TS6BgjfdFU6s=/778x1078/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/301pOCuVUgRsa5-l3x3di6us2qM=/389x539/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/12NCEtuDUIBsyDgZJI1r4T5kttU=/778x1078/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/wlQkFx0zqWkW55-729TfsKlPRPo=/330x457/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/CfIiBcDohkioyfv_3tfN7HOmfj0=/660x914/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/IkhGkGhl2BbS1Ynuvd9TIHZnpII=/330x457/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/v3TH6yZvUWCTjY9m82sM538P9sA=/660x914/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/RNQGpJOwGRLczHlnrPjcKEfGBks=/482x668/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/OCaH30FtPI_ZiQomb3Zvcat085o=/964x1336/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/XXdIqpGSgt3zd6z-df0Ar2LMlQ8=/482x668/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/ulN-_q3LV0e3Amjrk6l0rNbi-kA=/964x1336/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/vwPR-LbYGcJJMbOZND8_5h5KpJk=/768x1065/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/kfF8bAscWdfbbi8Li4KVvUelJLE=/1536x2130/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/KPvgB0Zk3mj7rcWqiBnqPzV0JEY=/768x1065/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/kOjmnkbRCZ4GyG0NokHKg9c_QFU=/1536x2130/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/IXvsxfeKNQoNBk05isreRjbAepQ=/375x520/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/wlMqjnspUaSoYUxkSIN_b6M7AbM=/750x1040/filters:format(webp)/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1065" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/p0VWyyXitLe2-zSh9gTSTRQkE00=/375x520/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/rC45soA3hLkNJSOQPvU7hlEN9ag=/750x1040/e05df1b3-0056-4f70-9bfd-f2f03007358a--5e67a4f33c3abc0a2712228d381b51b4.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/http://www.mandarinstone.com/kitchen-gallery/">Mandarin Stone</a></span>
+      </figcaption>
+  </figure>
+
+</div>
+
+<p><strong>A playful pattern</strong>—either in the way you lay the tile (above, right) or on the tile itself (above, left)—can change everything. The otherwise simple white marble tiles above (from <a href="http://web.archive.org/web/20220518043307/http://www.mandarinstone.com/kitchen-gallery/" target="_blank">Mandarin Stone</a>) are statement-making when laid in a sideways herringbone pattern with a jagged uncut edge left exposed; and the patterned black and white bathroom section on the left is almost cozy, like a textile. Replace either with subway tile, and Pinterest would have cried.</p>
+              <h2>Shape &amp; Scale</h2>
+              
+  <div class="image-group image-group--inline">
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 150.0%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/IbBchetKHTqT-mO20mTNIg1E12E=/389x583/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/Vy5z2xECJ_NiyD9a2ko_Y8pC-UA=/778x1166/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/pWVQUJRbAtPeEyjBlFQk0JwWn2o=/389x583/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/wQ13QnUO7DzvqzmDsQk9FsQ-V8w=/778x1166/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/1Fwt8nYL8IxZMb8GeEnmxm1iDuc=/330x495/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/rt0c52UiCCot2OdYVtadEBKjuLk=/660x990/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/rcuVBwi6M2h7F7V2jWo2kATLVls=/330x495/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/j1o_lqGsaxEcdX6LtgyiJPT_Eg4=/660x990/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/d10T1SKzafPBl82KSmab_0gwG5A=/482x723/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/sJvaAHTqG_TcgJlOxPEhnj0VNog=/964x1446/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/VfRkfSuc01PC0MkwS_Xo-FcIZfc=/482x723/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/jLJbxaPy7X9V5TsAivXM-iiUcdE=/964x1446/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/5633xvYuUzefVXWhDqFoxaSxWTs=/768x1152/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/l16D9dSjxWsnz8x8JVhArSimHc0=/1536x2304/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/0mIAHBX1hcBEZ5sKUfKA47N3EcA=/768x1152/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/alTPECezNTbtZMlG50pRPrPYIq4=/1536x2304/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/h91-CQDzHncJqFyR4Dbzc6k44Xw=/375x562/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/rU8-jVVaRq9Lt14PNdv9anpbMnc=/750x1124/filters:format(webp)/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1152" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/3CtTCgVApRXFK1csrYdTuxjPBjI=/375x562/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/dzWXPqZCAACg4to_RcWtnKcytrY=/750x1124/48843f17-e3f6-4a90-829d-71d27b2dac58--d2c7679660b176ef3f3471cc84c149ef.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/191684527866396448/">Pinterest</a></span>
+      </figcaption>
+  </figure>
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 150.0%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/DpZZHz0fmzM5pFLVU8egqW-8eR4=/389x583/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/2dZoOdh3TTPKy0qJU8BjuPPSMIQ=/778x1166/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/MeLvdMzIzMrBjb18Pp5-yIOLSsI=/389x583/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/bnC-ofdWJeW9N9-MLlimfEh9Low=/778x1166/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/Vt_BDktP1Cl1bSwl2Wxcf6mPzzc=/330x495/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/-tuQ-HXLp53AzgLbiLF7U51tuPU=/660x990/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/qNSNYMH2XHlAH5O1MX-nqXJICU0=/330x495/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/Fw4CAT7iZx_qFvB9i2PC8W0S5M8=/660x990/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/E-EPDc6sY7DP130LeEwxEmiEWAQ=/482x723/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/-24fBBJZmm18IrpRK4KBuTLyvpg=/964x1446/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/YB-1fDGv3ZO9vWPlV14EbnkfquI=/482x723/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/SIqisxF2RmZvQadEU1anZ3EYjLA=/964x1446/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/_DMzw55CMRqbOtp_CyOkDTR9oOk=/768x1152/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/UdBWkWt2YcxhdGGUvTZPuGBZK8Q=/1536x2304/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/OadQ7QFXnDWYRhaf1BWy9ye7QfA=/768x1152/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/rKsvBeHQ4c6pKRl_zw5IUbRrS8E=/1536x2304/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/mTE36j8ublbp-_lrW_v8qKrzBt0=/375x562/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/fSxTlztwA1Vki1hrr-ExTyBzR8g=/750x1124/filters:format(webp)/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1152" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/iL_lZOQ3UBC7NvSPJGZuJn05pNg=/375x562/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/6glkCHY8i-XMP_ZaTO8R0Y-2A9c=/750x1124/068017fa-0c71-4b8c-b94a-6933ecb221b3--smarttile_kitchen.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/http://www.thesmarttiles.com/en_us/tiles/hexago/">Smart Tiles</a></span>
+      </figcaption>
+  </figure>
+
+</div>
+
+<p><strong>Tiny hexagonal ceramic tiles</strong>(above, right) are a great way to go if you want to stay white (or gray, or marbled) and glossy but change up the shape. And you can even opt for stick-on sheets of them, like <a href="http://web.archive.org/web/20220518043307/http://www.thesmarttiles.com/en_us/tiles/hexago/" target="_blank">these genius little guys from Smart Tiles</a>, which make it possible for renters to tile, too. On the flip side (above, left), oversized rectangles of tile can do even quicker work of covering large walls—and with less grout the clean over time.</p>
+              <h2>Handmade</h2>
+              
+  <div class="image-group image-group--inline">
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 150.0%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/-L4kIHxI6Ueo9EcqWyFzoPCT8zI=/389x583/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/4m9sZPJS55vr2MlBlYe8maaPE6M=/778x1166/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/ceerx6TxEKy3xa_bgEEM8TuNLeg=/389x583/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/egArPwweNone5gMmVhsAEt4irOs=/778x1166/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/J5Lynk2qDn9ldFeJ9thFonaSxto=/330x495/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/QYTZlq08KdnMbOU-hLEuhiccba8=/660x990/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/9Tvs9HVfy-Ok5qUd3CnJ57a1eVk=/330x495/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/K_Vw7SOrZpO9I9M2ftBSkGU8_KY=/660x990/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/Out3ZgctYA1m0ybpieQIYdcmJzM=/482x723/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/8KL-B9Ukx0EHWfGosKuAKFO94Hc=/964x1446/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/xWK57H3zg_BoXckk_6wsienGZ-o=/482x723/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/_r-z1GVwHAOT6Rj6Ums639LAd28=/964x1446/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/gCg5Kp5aNsNpbKa0oz6iRFQCW9Y=/768x1152/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/Mg-_XdNcPCIsi_MjijbkFyFwYqg=/1536x2304/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/fBS-_TJAH_dYhHBrVMLJfNxNeu0=/768x1152/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/QN_TotqWHbc30YoLS8px6HyD_pQ=/1536x2304/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/xVOoz9Ajt-YZNZ0qPY5gGFqsqWU=/375x562/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/ZknQHWQ5Xxph3C3nEm5Z3bA6E58=/750x1124/filters:format(webp)/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1152" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/zXUlZYc0SHdPh0fFzv62l3xl-DE=/375x562/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png, http://web.archive.org/web/20220518043307im_/https://images.food52.com/h4mDWbczIz1QsuA3ZcfQ1wuWSyY=/750x1124/81bd7372-e017-4c08-981a-9b4f764c41ff--unnamed.png 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/http://www.remodelista.com/posts/required-reading-tile-makes-the-room-good-design-from-heath-ceramics">Retrouvious (via Remodelista)</a></span>
+      </figcaption>
+  </figure>
+
+<figure class="single-image single-image--half ">
+    <div class="img ">
+      <a class="img__pin" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/create/button" data-pin-do="buttonPin" data-pin-media="" data-pin-custom="true" data-ga-event="inPageInteraction" data-ga-event-action="Pinterest Share" data-ga-event-label="Article Body Image" data-ga-destination-url="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16.9 20.8"><path d="M16.8 6.3C16.5 3.2 13.6.4 10.1.1 4.8-.5.1 2.7 0 7.9c0 2.4.8 4 2.9 4.8 1.5-1.5-.3-2.4-.5-4C2 4.3 7.1.1 11.7 2.9c3.2 1.9 2.6 9.9-1.2 10.7-.8.1-1.8-.1-2.1-.5-1.9-1.8 1.5-4.8.4-7.3-.9-2.1-3.6-.4-3.9 1.5-.2 1 .3 2 .3 2.9 0 2.1-1.3 5-1.7 7.1-.2.9-.3 2.6-.1 3.4h1.5c1-1.6 1.6-4.1 2.1-6.3.3-.2.5.4.7.6 1.8 1.4 5 .6 6.4-.7 2.1-1.7 3-5.2 2.7-8" fill="currentColor"/></svg>
+      </a>
+
+<div style="max-width: 100%; width: 768px;"><div style="height: 0; padding-bottom: 150.0%; position: relative;"><picture><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/ve2WIexkA6u79FT_DAeKHhq8cQ4=/389x583/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/NQJi-PEqmoBKa2d_pJa0BtYs7j4=/778x1166/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1400px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/mJX1M88RFXfnk3UN5hsicVdAabc=/389x583/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/8UEO4hOW-pO_sDgBaVDLR6W-pB0=/778x1166/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/klPzNJdvNHMsJMRhUmeNtbC0nXw=/330x495/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/BuBm3RbFjGiwyR9gzEsPOuvBCuU=/660x990/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 1024px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/iKEV0nCUIMJ2IMedzjF_6RpoOxA=/330x495/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/XmDityo5nWwOfPQW3AEVvGSaKZs=/660x990/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/jRLucjGWnfMxPgeywZrA0wUMe7I=/482x723/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/WiZ4iYb-HqlemmaIZsUerlF-MKg=/964x1446/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 768px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/kzPYYlSPiLOr0TXooQfztC7IWlo=/482x723/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/L7zWgDnvg3dxP0bvK1-r2YRcqsI=/964x1446/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/4c5IYJIhvm98WJvlj2HJqecdF5w=/768x1152/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/SXTaHPlvdolUvBF-1e43_PPNXZc=/1536x2304/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" media="(min-width: 500px)" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/OhsJ2qsJp_7S9YoZmAhWndsNkpU=/768x1152/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/A5jT2qyadXNmsq9SxZR3BrX919c=/1536x2304/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" type="image/webp" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/Ryra-FBVdr-dfcvikYQKeNlb9Nk=/375x562/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/WGdW7aXQym62XsMwojvq7HCuwhI=/750x1124/filters:format(webp)/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class=" lazyload" width="768" height="1152" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-expand="750" data-srcset="http://web.archive.org/web/20220518043307im_/https://images.food52.com/DblNVi-FB8c5R7d0UB7orTbaQMw=/375x562/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg, http://web.archive.org/web/20220518043307im_/https://images.food52.com/XcTuGPWOPU399rsktAAwBHOUyKM=/750x1124/6b6da943-d709-4e29-9ba6-cc3eb40dea0b--d2c43a22ab51c815d2ec8dca1571bac2.jpg 2x"/></picture></div></div>
+    </div>
+
+<figcaption class="img-details img-details--small">
+
+<span class="img-details__credit">Photo by <a target="_blank" rel="nofollow" class="img-details__credit-link" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/pin/15199717466224392/">Pinterest</a></span>
+      </figcaption>
+  </figure>
+
+</div>
+
+<p>Using <strong>handmade tile</strong>, especially if it's textural, can give a room a certain rugged warmth. Even square handmade tiles laid in the most basic pattern across a large wall (above, left) feel nuanced without being distracting from the overall design. And if you really can't part with everyday white subway tiles, choosing some with a clay-like surface and uneven edges (above, right) is at least one step out of the box.</p>
+              <p>It's true: We've got subway tile all over <a href="http://web.archive.org/web/20220518043307/https://food52.com/blog/12844-first-look-at-the-new-food52-office-brought-to-you-by-move52">the Food52 office</a>, it's found in droves of gorgeous homes, and I'm sure the next apartment I rent will be ~blessed~ with a whole mess of it across the backsplash. Subway tile is hard to <em>hate</em>, being so tidy and classy and all, but <strong>isn't that reason enough to wonder if it's time, this or in your next home, to do better?</strong></p>
+              <p><em>Tell us: What design trends will you never ever get sick of?</em></p>
+          </div>
+
+<div class="blog__tags">
+              <span>Tags:</span>
+              <ul class="tag-list">
+                  <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Home52" data-ga-destination-url="/tags/home52" href="/web/20220518043307/https://food52.com/tags/home52">Home52</a></li>
+                  <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Kitchen Design" data-ga-destination-url="/tags/kitchen-design" href="/web/20220518043307/https://food52.com/tags/kitchen-design">Kitchen Design</a></li>
+                  <li><a class="tag" data-ga-event="inPageInteraction" data-ga-event-action="Tag" data-ga-event-label="Interior Design" data-ga-destination-url="/tags/interior-design" href="/web/20220518043307/https://food52.com/tags/interior-design">Interior Design</a></li>
+              </ul>
+            </div>
+            
+<div class="comments-teaser">
+  <div class="comments-teaser__icons">
+    <span class="icon__comments"></span>
+    <span class="icon__comments"></span>
+  </div>
+
+<h3><button type="button" class="btn--link js-comments-scroll" on="" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="none">Join the Conversation</button></h3>
+  <p>See what other Food52 readers are saying.</p>
+
+<ul class="comments-teaser__users">
+        <li>
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/1698276-nicole-tharpe-frysz" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/1698276-nicole-tharpe-frysz">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nicole Tharpe Frysz" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/-TPwGfmVFOhjaJB6yxk0fR8wJGo=/124x124/a297f648-53f3-4d11-85d2-17430ea87d7e--fb_avatar.jpg"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>Nicole Tharpe Frysz</span>
+            </div>
+        </li>
+        <li>
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/1543122-clever-mosaics" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/1543122-clever-mosaics">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Clever Mosaics" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>Clever Mosaics</span>
+            </div>
+        </li>
+        <li>
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/185402-dinner-at-ten" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/185402-dinner-at-ten">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="dinner at ten" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/7ap-L9iotIL5PZkPgNsGb6ZXNvg=/124x124/a43dee65-01b1-40a6-994d-068c78eb3eee--9F7DD561-A480-4E1B-8C8F-D5DA7AB5167C.png"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>dinner at ten</span>
+            </div>
+        </li>
+        <li>
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/5418-amysarah" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/5418-amysarah">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="amysarah" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/jqMiZ_xTp7uYaFUmty-Gs-_M8SI=/124x124/1097a5b5-1775-4eec-a8ea-7421137b65dc--image-2_Apples_Claire_Sullivan_2-.jpg"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>amysarah</span>
+            </div>
+        </li>
+        <li>
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/234401-moshee" data-ga-event="inPageInteraction" data-ga-event-action="Commenter Name Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="https://food52.com/users/234401-moshee">
+              <div style="max-width: 100%; width: 30px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Moshee" class="avatar lazyload" width="30" height="30" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/ADnr8oyKOFQLxDHwRlESNKmjV-Q=/124x124/015f2791-1f85-459b-9d7d-e89efa02723c--stringio.txt"/></div></div>
+          </a>
+
+<div class="comments-teaser__tooltip">
+              <div class="comments-teaser__tooltip-arrow"></div>
+              <span>Moshee</span>
+            </div>
+        </li>
+    </ul>
+
+<button type="button" class="btn--pill js-comments-scroll" on="" data-ga-event="inPageInteraction" data-ga-event-action="Comment Click" data-ga-event-label="Join the Conversation" data-ga-destination-url="none">
+    <span class="icon icon__comments icon__comments--hover-fill"></span> Comment
+  </button>
+</div>
+
+<div class="author ">
+  <div class="author__header">
+    <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/206106-amanda-sims" class="author__avatar">
+        <div style="max-width: 100%; width: 80px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Amanda Sims" class="avatar avatar--large lazyload" width="80" height="80" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/jHAn68xUf30eGMnIC-BsD6C5k_U=/124x124/f482de2d-3823-4a91-8922-30d427ece2d7--photo-2.JPG"/></div></div>
+    </a>
+
+<div>
+      <h3>
+        <span>Written by:</span>
+        <a class="author__name" data-ga-event="inPageInteraction" data-ga-event-action="Author Name Click" data-ga-event-label="Written by:" data-ga-destination-url="/users/206106/articles" href="/web/20220518043307/https://food52.com/users/206106/articles">Amanda Sims</a>
+      </h3>
+      <div class="author__social">
+          <a aria-label="@mandasims on Instagram" href="http://web.archive.org/web/20220518043307/http://instagram.com/mandasims" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 25 24"><path d="M21.973 17.758c0 1.88-1.552 3.409-3.456 3.409H6.579c-1.907 0-3.456-1.53-3.456-3.41V5.993c0-1.878 1.55-3.406 3.456-3.406h11.938c1.904 0 3.456 1.528 3.456 3.406v11.766zM18.517 0H6.579C3.227 0 .5 2.69.5 5.992v11.766c0 3.306 2.727 5.992 6.079 5.992h11.938c3.351 0 6.077-2.686 6.077-5.992V5.992C24.594 2.69 21.868 0 18.517 0zm-5.97 15.408c-1.974 0-3.582-1.585-3.582-3.533s1.608-3.53 3.582-3.53c1.976 0 3.584 1.584 3.584 3.53 0 1.948-1.608 3.533-3.584 3.533m0-9.65c3.424 0 6.206 2.745 6.206 6.117s-2.785 6.117-6.206 6.117c-3.42 0-6.206-2.745-6.206-6.117S9.126 5.76 12.547 5.76zm6.406-1.63c.808 0 1.468.65 1.468 1.448a1.46 1.46 0 0 1-1.468 1.447 1.46 1.46 0 0 1-1.469-1.447 1.46 1.46 0 0 1 1.47-1.448z" fill="currentColor" fill-rule="evenodd"/></svg>
+          </a>
+
+<a aria-label="@mandasims on Twitter" class="author__twitter" href="http://web.archive.org/web/20220518043307/http://twitter.com/mandasims" title="@mandasims on Twitter" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 31 24"><path d="M30.365 2.81c-1.091.477-2.262.8-3.493.944A6.034 6.034 0 0 0 29.546.44a12.387 12.387 0 0 1-3.866 1.456A6.106 6.106 0 0 0 21.24 0c-3.362 0-6.086 2.686-6.086 5.996 0 .47.053.929.157 1.367a17.36 17.36 0 0 1-12.54-6.267 5.88 5.88 0 0 0-.824 3.015 5.97 5.97 0 0 0 2.706 4.99 6.153 6.153 0 0 1-2.756-.751v.075c0 2.905 2.098 5.329 4.88 5.881-.51.135-1.047.21-1.603.21-.393 0-.773-.039-1.145-.11.775 2.383 3.021 4.117 5.682 4.164a12.318 12.318 0 0 1-7.556 2.564c-.492 0-.976-.03-1.452-.083a17.386 17.386 0 0 0 9.328 2.699c11.193 0 17.311-9.139 17.311-17.064l-.02-.777a12.071 12.071 0 0 0 3.043-3.099" fill="currentColor" fill-rule="evenodd"/></svg>
+          </a>
+
+</div>
+  </div>
+
+<div class="author__follow">
+      <div id="followRoot"></div>
+    </div>
+  </div>
+
+<div class="author__bio">
+      Professional trespasser. 
+    </div>
+</div>
+
+</div>
+      </div>
+
+<aside class="sidebar js-sidebar-sticky">
+    <div class="ad-slot ad-slot--aside" id="sidebarTop"></div>
+
+<div class="sidebar__content" id="sidebarRoot">
+    <div class="sidebar__spacer--related"></div>
+
+<div class="sidebar__spacer--video"></div>
+  </div>
+
+</aside>
+    </div>
+  </section>
+
+<div id="mailingListBannerRoot" class="mailing-list-banner"></div>
+  <section class="popular">
+  <div class="content__container">
+    <div class="popular__recirc content__text-container">
+      <h3 class="popular__heading">Popular on Food52</h3>
+      <div id="popularRoot" class="popular__main"></div>
+    </div>
+
+<div class="js-comments-scroll-position">
+      <div class="ad-slot" id="instreamLeaderboardContent"></div>
+    </div>
+  </div>
+</section>
+
+<div class="content__container">
+    <div id="commentsRoot">
+      
+<section class="comments">
+
+<h3 class="comments__title">
+    <span class="icon__comments"></span>
+    11 Comments
+  </h3>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/1698276-nicole-tharpe-frysz" title="Nicole T.">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nicole T." class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/-TPwGfmVFOhjaJB6yxk0fR8wJGo=/124x124/a297f648-53f3-4d11-85d2-17430ea87d7e--fb_avatar.jpg"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/1698276-nicole-tharpe-frysz" title="Nicole T.">
+            <span class="comments__username">Nicole T.</span>
+          </a>
+          February 20, 2019
+        </div>
+
+<div class="comments__body">I think if I look at one more design of subway tile or peel and stick...whatever they are...I'm going to P-KE!  Does not anyone have any creation out there.  I'm sorry but Subway tile reminds me of my kindergarten bathroom that stunk and had that shit there...I WILL NEVER...and I MEAN NEVER put that shit in to my kitchen.  Given me the Italy countertops...which we have....and you can take your subway tile and shove it!!!!!!</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/1543122-clever-mosaics" title="Clever M.">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Clever M." class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/1543122-clever-mosaics" title="Clever M.">
+            <span class="comments__username">Clever M.</span>
+          </a>
+          August 5, 2018
+        </div>
+
+<div class="comments__body">peel and stick tiles can be stick over existing wall tiles, it is a really good choice for a renter to update their kitchen backsplash, just peel and stick, so easy to install, everyone can do it, besides, there are so many design peel and stick tiles for us to choose from, see more product clevermosaics.com</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/185402-dinner-at-ten" title="dinner A.">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="dinner A." class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/7ap-L9iotIL5PZkPgNsGb6ZXNvg=/124x124/a43dee65-01b1-40a6-994d-068c78eb3eee--9F7DD561-A480-4E1B-8C8F-D5DA7AB5167C.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/185402-dinner-at-ten" title="dinner A.">
+            <span class="comments__username">dinner A.</span>
+          </a>
+          January 27, 2016
+        </div>
+
+<div class="comments__body">Being sick of seeing subway tile on Pinterest seems like mostly a hazard of being a home design editor. Maybe it's tiresome to have design professionals stuck on any particular style for showrooms and photo shoots, but as far as making personal decisions about design for your own home, this article seems irrelevant. Most people don't renovate their houses very frequently (and shouldn't, due to environmental costs even if money is not an issue). Any design decision you make for your home about something durable like tile will be with you every day for decades -- so it had better be somewhat neutral and/or something for which your love is undying. <br/>The author also seems to overestimate the average level of style found in most people's homes anyways -- I'm pretty sure that subway tile would represent a significant step up for many (including all the apartments I've rented). </div>
+
+<div class="comments__action">&nbsp;</div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/1698276-nicole-tharpe-frysz" title="Nicole T.">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Nicole T." class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/-TPwGfmVFOhjaJB6yxk0fR8wJGo=/124x124/a297f648-53f3-4d11-85d2-17430ea87d7e--fb_avatar.jpg"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/1698276-nicole-tharpe-frysz" title="Nicole T.">
+            <span class="comments__username">Nicole T.</span>
+          </a>
+          February 20, 2019
+        </div>
+
+<div class="comments__body">I absolutely HATE subway tile...it reminds me of just that...although even worse reminds me of my public school 1st grade bathroom. I think when you are considering the style of what you want in your kitchen you must also consider the "stylist".  That's why I choose to things myself...timeless, : "dont get on the grey stupid wagon", do things the way you like it...not what some 20 something in NY says it shoud be...LOL.  We live in it...not NY.  Born Southern..had my taste of Northern...moved  back Southern:)  My husband grew up in upstate Ny , Buffalo NY --BTW..lol, he was somehow born Southern:))))  He'll never move back....and the hell woud I....that was a long time ago marriage condition...lol...</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/5418-amysarah" title="amysarah">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="amysarah" class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/jqMiZ_xTp7uYaFUmty-Gs-_M8SI=/124x124/1097a5b5-1775-4eec-a8ea-7421137b65dc--image-2_Apples_Claire_Sullivan_2-.jpg"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/5418-amysarah" title="amysarah">
+            <span class="comments__username">amysarah</span>
+          </a>
+          January 26, 2016
+        </div>
+
+<div class="comments__body">As mentioned, it’s not always a lack of imagination. In my experience, most projects simply have a budget - and good looking, simple white subway tiles can be literally a fraction of the cost of the many gorgeous tiles available – both material and sometimes labor cost (depending on pattern/mosaic/etc.) When a tile package includes other pricey floor tile or whatnot, it can be a good solution - as you said, it coordinates well with most tiles. (And I’m a tile obsessive – there are piles of samples around me as I type!) <br/><br/>A small discrete area, e.g., shower enclosure or kitchen backsplash, is a good way to splurge on pricier tile – lots of visual impact, but a relatively small quantity is needed, unless your kitchen is very large w/extensive cabinetry.  (Btw, I think you mean simple white subway tile - any rectangular tile - often 3x6 - set in a "running bond" or "railroad" pattern is actually called subway tile – even the lovely glazed ones in your pix, or glass, stone, etc.) <br/></div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/234401-moshee" title="Moshee">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Moshee" class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/ADnr8oyKOFQLxDHwRlESNKmjV-Q=/124x124/015f2791-1f85-459b-9d7d-e89efa02723c--stringio.txt"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/234401-moshee" title="Moshee">
+            <span class="comments__username">Moshee</span>
+          </a>
+          January 26, 2016
+        </div>
+
+<div class="comments__body">Amen! All these options are beautiful. But I agree that subway tile is mainly a budgetary choice and a decent one. I'm just bored by it. That said, I don't even have a backsplash (gasp!) in my rental, so who am I to judge?</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/525449-joseph-roumeliotis" title="joseph R.">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="joseph R." class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/525449-joseph-roumeliotis" title="joseph R.">
+            <span class="comments__username">joseph R.</span>
+          </a>
+          January 26, 2016
+        </div>
+
+<div class="comments__body">Home Studios did something interesting with subway tile at Sisters in Brooklyn.  Subway tile (ceramic in some places, marble in others) will follow a traditional running bond pattern punctuated by the occasional trapezoidal tile, which seems to shift the pattern up a row.  Not sure if it is a custom tile situation.  For me it adds visual interest and a bit of the unexpected.  <br/>http://homestudios.nyc/<br/>http://static1.squarespace.com/static/51256af8e4b0d69820153bac/5526cb88e4b0f295d6bc4f84/563ba69ee4b03a8b2f1ae874/1446749860641/26.jpg?format=1500w</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/349803-margaret" title="Margaret">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Margaret" class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/349803-margaret" title="Margaret">
+            <span class="comments__username">Margaret</span>
+          </a>
+          January 26, 2016
+        </div>
+
+<div class="comments__body">We redid our bathroom and kitchen when we moved four years ago and here's the thing with most of the decorative tiles you featured. While I would have died and gone to heaven for a gorgeous Moroccan patterned tile, my husband died when we flipped the tile over and got a look at the price. Subway tile (we opted for an inexpensive marble option) is not only clean, classic, and comes in a range of colors, it won't break the bank. That said, of COURSE I would have loved to have a gorgeous Ann Sacks... anything. But that was not in the budget. </div>
+
+<div class="comments__action">&nbsp;</div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/314492-allyn" title="Allyn">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Allyn" class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/oAmwQAqPTInT3SeJ4Ad16OlYVzs=/124x124/1c38d61c-da32-4e97-a5fe-0f81e836b5fd--IMG_0113.JPG"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/314492-allyn" title="Allyn">
+            <span class="comments__username">Allyn</span>
+          </a>
+          January 26, 2016
+        </div>
+
+<div class="comments__body">Yes, budget doesn't seem to be worth mentioning in this article, but I'm pretty sure it's the reason why a lot of people choose subway tile. Classic, elegant, easy to adapt to different color palettes/styles, and AFFORDABLE. As much as I'd love to do a kitchen with Heath ceramics one day, I highly doubt I'll be able to responsibly afford that, and will certainly consider subway tile. </div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/23488-stephanie-g" title="Stephanie G.">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Stephanie G." class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/23488-stephanie-g" title="Stephanie G.">
+            <span class="comments__username">Stephanie G.</span>
+          </a>
+          January 26, 2016
+        </div>
+
+<div class="comments__body">I think subway tiles are still beautiful!  I've had mine for over 10 years and still love them.   Plan to have them for a long time...</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+<div class="comments__comment">
+
+<div class="comments__main">
+      <div class="comments__avatar avatar avatar--responsive-medium">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/46076-lfm" title="lfm">
+            <div style="max-width: 100%; width: 60px;"><div style="height: 0; padding-bottom: 100.0%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="lfm" class="avatar avatar--responsive-medium lazyload" width="60" height="60" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="http://web.archive.org/web/20220518043307/https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png"/></div></div>
+        </a>
+      </div>
+      <div class="comments__content">
+        <div class="comments__header">
+          <a href="http://web.archive.org/web/20220518043307/https://food52.com/users/46076-lfm" title="lfm">
+            <span class="comments__username">lfm</span>
+          </a>
+          January 26, 2016
+        </div>
+
+<div class="comments__body">I think you should steer clear of the word "better" which is by definition insulting to the people who have chosen the classic. Different is a good word, plays well with others, too. While other ideas can be interesting to read about (and it is all of course subjective) some of your choices are def not "better". "You can do better" makes people feel bad about something they may have chosen and that's pretty hard and expensive to change.</div>
+
+<div class="comments__action">&nbsp;</div>
+
+</div>
+    </div>
+  </div>
+
+</section>
+    </div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+  </div>
+
+<footer class="footer" id="jsFooter">
+  <div class="footer__container">
+    <nav class="footer__nav" aria-label="Footer">
+      <div class="footer__logo">
+        <a href="http://web.archive.org/web/20220518043307/https://food52.com/">
+          <div style="max-width: 100%; width: 125px;"><div style="height: 0; padding-bottom: 20.8%; position: relative;"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Food52: Food, Community, Home" class=" lazyload" width="125" height="26" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block;" data-src="/assets/logo-food52-white-4d632dab9627ec41ef324e1e0786ee7f1eff8026fef6a6640634da820043b2df.svg"/></div></div>
+        </a>
+      </div>
+
+<div id="footerLinksRoot" class="footer__columns">
+          <div class="footer__column">
+            <h5 class="footer__sub-heading">Company</h5>
+
+<ul>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/about" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="About Us" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/about">About Us</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/team" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Our Team" data-ga-event-label="none" data-ga-destination-url="https://food52.com/team">Our Team</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/dei-vision-statement" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="DEI Vision" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/dei-vision-statement">DEI Vision</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/welcome-to-our-test-kitchen" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="The Test Kitchen" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/welcome-to-our-test-kitchen">The Test Kitchen</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/the-food52-podcast-network" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Podcast Network" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/the-food52-podcast-network">Podcast Network</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/events" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Events" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/events">Events</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/press" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Press" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/press">Press</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/jobs" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Jobs" data-ga-event-label="none" data-ga-destination-url="https://food52.com/jobs">Jobs</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/affiliate-program" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Affiliate Program" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/affiliate-program">Affiliate Program</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/sitemap" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Sitemap" data-ga-event-label="none" data-ga-destination-url="https://food52.com/sitemap">Sitemap</a>
+                </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h5 class="footer__sub-heading">Get Help</h5>
+
+<ul>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://support.food52.com/hc" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Contact &amp; FAQ" data-ga-event-label="none" data-ga-destination-url="https://support.food52.com/hc">Contact &amp; FAQ</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/shop/lookup-order" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Orders &amp; Returns" data-ga-event-label="none" data-ga-destination-url="https://food52.com/shop/lookup-order">Orders &amp; Returns</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/food52-trade-program" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Food52 Trade" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/food52-trade-program">Food52 Trade</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://docs.google.com/forms/d/e/1FAIpQLScFUQbtG8IW0rPiRHkQLimoiq0_EI3_5cjE_06WUT_qlB6CJQ/viewform" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Request a Catalog" data-ga-event-label="none" data-ga-destination-url="https://docs.google.com/forms/d/e/1FAIpQLScFUQbtG8IW0rPiRHkQLimoiq0_EI3_5cjE_06WUT_qlB6CJQ/viewform">Request a Catalog</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/shop/gifts/gift-cards" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Gift Cards" data-ga-event-label="none" data-ga-destination-url="https://food52.com/shop/gifts/gift-cards">Gift Cards</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/shop/registry" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Registry" data-ga-event-label="none" data-ga-destination-url="https://food52.com/shop/registry">Registry</a>
+                </li>
+                <li>
+                  <a href="/web/20220518043307/https://food52.com/cdn-cgi/l/email-protection#97f6f3e1f2e5e3fee4fef9f0d7f1f8f8f3a2a5b9f4f8fa" class="" target="_blank" rel="noopener noreferrer" data-ga-event="navigationFooter" data-ga-event-action="Advertising Inquiries" data-ga-event-label="none" data-ga-destination-url="mailto:advertising@food52.com">Advertising Inquiries</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/privacy#doNotSell" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Do Not Sell" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/privacy#doNotSell">Do Not Sell</a>
+                </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h5 class="footer__sub-heading">Explore</h5>
+
+<ul>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/shop" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="The Shop" data-ga-event-label="none" data-ga-destination-url="https://food52.com/shop">The Shop</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/recipes" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Recipes" data-ga-event-label="none" data-ga-destination-url="https://food52.com/recipes">Recipes</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/blog" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Food" data-ga-event-label="none" data-ga-destination-url="https://food52.com/blog">Food</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/tags/home52" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Home52" data-ga-event-label="none" data-ga-destination-url="https://food52.com/tags/home52">Home52</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/tags/travel" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Travel" data-ga-event-label="none" data-ga-destination-url="https://food52.com/tags/travel">Travel</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/hotline" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Hotline" data-ga-event-label="none" data-ga-destination-url="https://food52.com/hotline">Hotline</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://food52.com/p/introducing-food52-five-two" class="" target="" rel="" data-ga-event="navigationFooter" data-ga-event-action="Five Two" data-ga-event-label="none" data-ga-destination-url="https://food52.com/p/introducing-food52-five-two">Five Two</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://www.schoolhouse.com/" class="" target="_blank" rel="noopener noreferrer" data-ga-event="navigationFooter" data-ga-event-action="Schoolhouse" data-ga-event-label="none" data-ga-destination-url="https://www.schoolhouse.com">Schoolhouse</a>
+                </li>
+                <li>
+                  <a href="http://web.archive.org/web/20220518043307/https://www.dansk.com/" class="" target="_blank" rel="noopener noreferrer" data-ga-event="navigationFooter" data-ga-event-action="Dansk" data-ga-event-label="none" data-ga-destination-url="https://www.dansk.com">Dansk</a>
+                </li>
+            </ul>
+          </div>
+      </div>
+
+<div class="footer__fine-print">
+        <div class="footer__copyright">&copy;2022 Food52</div>
+        <a href="/web/20220518043307/https://food52.com/terms">Terms</a> | <a href="/web/20220518043307/https://food52.com/p/privacy">Privacy</a> |  <a href="/web/20220518043307/https://food52.com/code_conduct">Code of Conduct</a> | <a href="/web/20220518043307/https://food52.com/accessibility">Accessibility Policy</a>
+      </div>
+    </nav>
+
+<div class="footer__actions">
+      
+<div class="social-charms ">
+  <ul class="social-charms__icons" aria-label="Food52 social media links">
+    <li>
+      <a aria-label="Food52 on Facebook" href="http://web.archive.org/web/20220518043307/https://www.facebook.com/food52" class="social-charms__icon social-charms__icon--facebook" target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" class="__icon-svg" width="14" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 14 24"><path d="M12.536.005L9.411 0c-3.51 0-5.778 2.295-5.778 5.845V8.54H.492A.487.487 0 0 0 0 9.024v3.906c0 .265.22.483.492.483h3.141v9.853c0 .267.22.484.491.484h4.1c.27 0 .49-.217.49-.484v-9.853h3.673a.49.49 0 0 0 .492-.483l.002-3.906a.483.483 0 0 0-.493-.483H8.714V6.255c0-1.098.265-1.656 1.717-1.656l2.104-.001a.488.488 0 0 0 .492-.484V.49a.488.488 0 0 0-.49-.484" fill="currentColor" fill-rule="evenodd"/></svg>
+      </a>
+    </li>
+
+<li>
+      <a aria-label="Food52 on Instagram" href="http://web.archive.org/web/20220518043307/https://www.instagram.com/Food52/" class="social-charms__icon social-charms__icon--instagram" target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" class="__icon-svg" width="25" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 25 24"><path d="M21.973 17.758c0 1.88-1.552 3.409-3.456 3.409H6.579c-1.907 0-3.456-1.53-3.456-3.41V5.993c0-1.878 1.55-3.406 3.456-3.406h11.938c1.904 0 3.456 1.528 3.456 3.406v11.766zM18.517 0H6.579C3.227 0 .5 2.69.5 5.992v11.766c0 3.306 2.727 5.992 6.079 5.992h11.938c3.351 0 6.077-2.686 6.077-5.992V5.992C24.594 2.69 21.868 0 18.517 0zm-5.97 15.408c-1.974 0-3.582-1.585-3.582-3.533s1.608-3.53 3.582-3.53c1.976 0 3.584 1.584 3.584 3.53 0 1.948-1.608 3.533-3.584 3.533m0-9.65c3.424 0 6.206 2.745 6.206 6.117s-2.785 6.117-6.206 6.117c-3.42 0-6.206-2.745-6.206-6.117S9.126 5.76 12.547 5.76zm6.406-1.63c.808 0 1.468.65 1.468 1.448a1.46 1.46 0 0 1-1.468 1.447c-.81 0-1.469-.648-1.469-1.447a1.46 1.46 0 0 1 1.47-1.448z" fill="currentColor" fill-rule="evenodd"/></svg>
+      </a>
+    </li>
+
+<li>
+      <a aria-label="Food52 on Twitter" href="http://web.archive.org/web/20220518043307/https://twitter.com/Food52" class="social-charms__icon social-charms__icon--twitter" target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" class="__icon-svg" width="31" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 31 24"><path d="M30.365 2.81c-1.091.477-2.262.8-3.493.944A6.034 6.034 0 0 0 29.546.44a12.387 12.387 0 0 1-3.866 1.456A6.106 6.106 0 0 0 21.24 0c-3.362 0-6.086 2.686-6.086 5.996 0 .47.053.929.157 1.367a17.36 17.36 0 0 1-12.54-6.267 5.88 5.88 0 0 0-.824 3.015 5.97 5.97 0 0 0 2.706 4.99 6.153 6.153 0 0 1-2.756-.751v.075c0 2.905 2.098 5.329 4.88 5.881-.51.135-1.047.21-1.603.21-.393 0-.773-.039-1.145-.11.775 2.383 3.021 4.117 5.682 4.164a12.318 12.318 0 0 1-7.556 2.564c-.492 0-.976-.03-1.452-.083a17.386 17.386 0 0 0 9.328 2.699c11.193 0 17.311-9.139 17.311-17.064l-.02-.777a12.071 12.071 0 0 0 3.043-3.099" fill="currentColor" fill-rule="evenodd"/></svg>
+      </a>
+    </li>
+
+<li>
+      <a aria-label="Food52 on Pinterest" href="http://web.archive.org/web/20220518043307/https://www.pinterest.com/food52/" class="social-charms__icon social-charms__icon--pinterest" target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" class="__icon-svg" width="20" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 24"><path d="M17.206 2.434C15.548.864 13.253 0 10.743 0c-3.832 0-6.19 1.548-7.492 2.847C1.646 4.448.725 6.574.725 8.68c0 2.643 1.122 4.672 3.001 5.428a.99.99 0 0 0 .377.076c.396 0 .71-.255.819-.665.063-.236.21-.816.275-1.068.136-.498.025-.737-.273-1.083-.543-.635-.796-1.383-.796-2.358 0-2.898 2.188-5.976 6.244-5.976 3.218 0 5.217 1.802 5.217 4.705 0 1.831-.4 3.527-1.127 4.776-.505.867-1.393 1.902-2.757 1.902-.59 0-1.119-.239-1.453-.655-.316-.394-.42-.902-.293-1.432.143-.598.338-1.223.529-1.827.344-1.102.671-2.144.671-2.973 0-1.421-.887-2.376-2.205-2.376-1.676 0-2.989 1.677-2.989 3.82 0 1.05.283 1.835.411 2.137-.21.882-1.466 6.125-1.703 7.113-.138.578-.968 5.136.405 5.5 1.54.408 2.92-4.031 3.06-4.533.114-.409.512-1.95.755-2.9.745.707 1.943 1.185 3.11 1.185 2.198 0 4.175-.974 5.566-2.745 1.35-1.718 2.094-4.11 2.094-6.74 0-2.054-.897-4.081-2.457-5.557" fill="currentColor" fill-rule="evenodd"/></svg>
+      </a>
+    </li>
+
+<li>
+      <a aria-label="Food52 on YouTube" href="http://web.archive.org/web/20220518043307/https://www.youtube.com/channel/UCfFI8jIjvIApUACJ3qjax2w" class="social-charms__icon social-charms__icon--youtube" target="_blank" rel="noopener noreferrer">
+        <svg aria-hidden="true" class="__icon-svg" width="33" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 33 24"><path d="M32.2 4.2c-.4-1.4-1.5-2.5-2.9-2.8C26.7.7 16.4.7 16.4.7S6.2.6 3.6 1.3C2.2 1.7 1.2 2.8.8 4.2.1 6.7.1 12 .1 12s0 5.3.7 7.8c.4 1.4 1.5 2.5 2.9 2.8 2.6.7 12.9.7 12.9.7s10.3 0 12.9-.7c1.4-.4 2.5-1.5 2.9-2.8.7-2.5.7-7.8.7-7.8s-.2-5.3-.9-7.8zm-19 12.6V7.2l8.6 4.8-8.6 4.8z" fill="currentColor"/></svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div class="footer__mailing-list">
+        <div class="mailing-list__copy">
+          <h4 class="mailing-list__header">Sign up for our newsletter</h4>
+          <p class="mailing-list__blurb">Our best tips for eating thoughtfully and living joyfully, right in your inbox.</p>
+        </div>
+
+<div class="mailingListRoot" data-location="Global Footer" data-source="onsite-globalfooter" data-hide-header="true" data-cta="Sign Up" data-custom-id="footer-email"></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+<div id="panelRoot"></div>
+    <div id="basketModalMount"></div>
+
+<!-- mobile_interstitial -->
+      <div class="ad-slot ad-slot--pixel" id="Food52_ROS_1x1"></div>
+
+<div id="sailthruRoot"></div>
+    <div id="zendeskRoot"></div>
+
+<div id="subnavRoot"></div>
+
+<script data-cfasync="false" src="/web/20220518043307js_/https://food52.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+      (function() {
+        if (typeof(f52) === 'undefined') {
+          f52 = {};
+        }
+        if (typeof(f52.inputs) === 'undefined') {
+          f52.inputs = {};
+        }
+        var gtmCoreData = {"authorName":"Amanda Sims","blogFeatureTopic":"Home52","contentHeadline":"You Can Do Better Than Subway Tile","contentId":15663,"contentPublishDate":"2016-01-26T13:00:00.000-05:00","contentUpdateDate":"2022-01-03T01:25:26.931-05:00","tags":"Home52, Home Decor, Kitchen Design, Interior Design","pageCategory":"Home52","pageType":"Article"};
+        f52.inputs.gtmCoreData = gtmCoreData;
+      })();
+    </script>
+    
+    
+  
+    <script>
+      (function() {
+        if (typeof(f52) === 'undefined') {
+          f52 = {};
+        }
+        if (typeof(f52.inputs) === 'undefined') {
+          f52.inputs = {};
+        }
+        var blogShow = {"postId":15663,"commentBundle":"{\"commentableType\":\"Post\",\"commentableId\":15663,\"comments\":[{\"id\":412409,\"parentId\":null,\"userId\":1698276,\"body\":\"I think if I look at one more design of subway tile or peel and stick...whatever they are...I'm going to P-KE!  Does not anyone have any creation out there.  I'm sorry but Subway tile reminds me of my kindergarten bathroom that stunk and had that shit there...I WILL NEVER...and I MEAN NEVER put that shit in to my kitchen.  Given me the Italy countertops...which we have....and you can take your subway tile and shove it!!!!!!\",\"imageSrcs\":null,\"createdAt\":\"2019-02-20T02:41:45.878-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]},{\"id\":392227,\"parentId\":null,\"userId\":1543122,\"body\":\"peel and stick tiles can be stick over existing wall tiles, it is a really good choice for a renter to update their kitchen backsplash, just peel and stick, so easy to install, everyone can do it, besides, there are so many design peel and stick tiles for us to choose from, see more product clevermosaics.com\",\"imageSrcs\":null,\"createdAt\":\"2018-08-05T11:38:10.208-04:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]},{\"id\":290721,\"parentId\":null,\"userId\":185402,\"body\":\"Being sick of seeing subway tile on Pinterest seems like mostly a hazard of being a home design editor. Maybe it's tiresome to have design professionals stuck on any particular style for showrooms and photo shoots, but as far as making personal decisions about design for your own home, this article seems irrelevant. Most people don't renovate their houses very frequently (and shouldn't, due to environmental costs even if money is not an issue). Any design decision you make for your home about something durable like tile will be with you every day for decades -- so it had better be somewhat neutral and/or something for which your love is undying. \\u003cbr\\u003eThe author also seems to overestimate the average level of style found in most people's homes anyways -- I'm pretty sure that subway tile would represent a significant step up for many (including all the apartments I've rented). \",\"imageSrcs\":null,\"createdAt\":\"2016-01-27T12:26:34.000-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[{\"id\":412411,\"parentId\":null,\"userId\":1698276,\"body\":\"I absolutely HATE subway tile...it reminds me of just that...although even worse reminds me of my public school 1st grade bathroom. I think when you are considering the style of what you want in your kitchen you must also consider the \\\"stylist\\\".  That's why I choose to things myself...timeless, : \\\"dont get on the grey stupid wagon\\\", do things the way you like it...not what some 20 something in NY says it shoud be...LOL.  We live in it...not NY.  Born Southern..had my taste of Northern...moved  back Southern:)  My husband grew up in upstate Ny , Buffalo NY --BTW..lol, he was somehow born Southern:))))  He'll never move back....and the hell woud I....that was a long time ago marriage condition...lol...\",\"imageSrcs\":null,\"createdAt\":\"2019-02-20T02:50:14.462-05:00\",\"childComments\":[],\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false}]},{\"id\":290636,\"parentId\":null,\"userId\":5418,\"body\":\"As mentioned, it’s not always a lack of imagination. In my experience, most projects simply have a budget - and good looking, simple white subway tiles can be literally a fraction of the cost of the many gorgeous tiles available – both material and sometimes labor cost (depending on pattern/mosaic/etc.) When a tile package includes other pricey floor tile or whatnot, it can be a good solution - as you said, it coordinates well with most tiles. (And I’m a tile obsessive – there are piles of samples around me as I type!) \\u003cbr\\u003e\\u003cbr\\u003eA small discrete area, e.g., shower enclosure or kitchen backsplash, is a good way to splurge on pricier tile – lots of visual impact, but a relatively small quantity is needed, unless your kitchen is very large w/extensive cabinetry.  (Btw, I think you mean simple white subway tile - any rectangular tile - often 3x6 - set in a \\\"running bond\\\" or \\\"railroad\\\" pattern is actually called subway tile – even the lovely glazed ones in your pix, or glass, stone, etc.) \\u003cbr\\u003e\",\"imageSrcs\":null,\"createdAt\":\"2016-01-26T15:14:51.000-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]},{\"id\":290632,\"parentId\":null,\"userId\":234401,\"body\":\"Amen! All these options are beautiful. But I agree that subway tile is mainly a budgetary choice and a decent one. I'm just bored by it. That said, I don't even have a backsplash (gasp!) in my rental, so who am I to judge?\",\"imageSrcs\":null,\"createdAt\":\"2016-01-26T14:40:52.000-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]},{\"id\":290630,\"parentId\":null,\"userId\":525449,\"body\":\"Home Studios did something interesting with subway tile at Sisters in Brooklyn.  Subway tile (ceramic in some places, marble in others) will follow a traditional running bond pattern punctuated by the occasional trapezoidal tile, which seems to shift the pattern up a row.  Not sure if it is a custom tile situation.  For me it adds visual interest and a bit of the unexpected.  \\u003cbr\\u003ehttp://homestudios.nyc/\\u003cbr\\u003ehttp://static1.squarespace.com/static/51256af8e4b0d69820153bac/5526cb88e4b0f295d6bc4f84/563ba69ee4b03a8b2f1ae874/1446749860641/26.jpg?format=1500w\",\"imageSrcs\":null,\"createdAt\":\"2016-01-26T14:16:51.000-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]},{\"id\":290628,\"parentId\":null,\"userId\":349803,\"body\":\"We redid our bathroom and kitchen when we moved four years ago and here's the thing with most of the decorative tiles you featured. While I would have died and gone to heaven for a gorgeous Moroccan patterned tile, my husband died when we flipped the tile over and got a look at the price. Subway tile (we opted for an inexpensive marble option) is not only clean, classic, and comes in a range of colors, it won't break the bank. That said, of COURSE I would have loved to have a gorgeous Ann Sacks... anything. But that was not in the budget. \",\"imageSrcs\":null,\"createdAt\":\"2016-01-26T13:51:13.000-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[{\"id\":290629,\"parentId\":null,\"userId\":314492,\"body\":\"Yes, budget doesn't seem to be worth mentioning in this article, but I'm pretty sure it's the reason why a lot of people choose subway tile. Classic, elegant, easy to adapt to different color palettes/styles, and AFFORDABLE. As much as I'd love to do a kitchen with Heath ceramics one day, I highly doubt I'll be able to responsibly afford that, and will certainly consider subway tile. \",\"imageSrcs\":null,\"createdAt\":\"2016-01-26T13:58:48.000-05:00\",\"childComments\":[],\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false}]},{\"id\":290625,\"parentId\":null,\"userId\":23488,\"body\":\"I think subway tiles are still beautiful!  I've had mine for over 10 years and still love them.   Plan to have them for a long time...\",\"imageSrcs\":null,\"createdAt\":\"2016-01-26T13:43:09.000-05:00\",\"helpfulCount\":0,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]},{\"id\":290623,\"parentId\":null,\"userId\":46076,\"body\":\"I think you should steer clear of the word \\\"better\\\" which is by definition insulting to the people who have chosen the classic. Different is a good word, plays well with others, too. While other ideas can be interesting to read about (and it is all of course subjective) some of your choices are def not \\\"better\\\". \\\"You can do better\\\" makes people feel bad about something they may have chosen and that's pretty hard and expensive to change.\",\"imageSrcs\":null,\"createdAt\":\"2016-01-26T13:32:20.000-05:00\",\"helpfulCount\":1,\"authorComment\":false,\"isHighlighted\":false,\"childComments\":[]}],\"commentingUsers\":[{\"id\":1698276,\"login\":\"Nicole Tharpe Frysz\",\"email\":\"nicole.tharpe@yahoo.com\",\"url\":\"/users/1698276-nicole-tharpe-frysz\",\"specialistTitle\":null,\"hasAvatar\":true,\"imageUrl\":\"https://images.food52.com/-TPwGfmVFOhjaJB6yxk0fR8wJGo=/124x124/a297f648-53f3-4d11-85d2-17430ea87d7e--fb_avatar.jpg\",\"redactedName\":\"Nicole T.\"},{\"id\":1543122,\"login\":\"Clever Mosaics\",\"email\":\"hotgoodsonsale@gmail.com\",\"url\":\"/users/1543122-clever-mosaics\",\"specialistTitle\":null,\"hasAvatar\":false,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"Clever M.\"},{\"id\":185402,\"login\":\"dinner at ten\",\"email\":\"julia.r.kardon@gmail.com\",\"url\":\"/users/185402-dinner-at-ten\",\"specialistTitle\":\"dinner at ten is a trusted home cook.\",\"hasAvatar\":true,\"imageUrl\":\"https://images.food52.com/7ap-L9iotIL5PZkPgNsGb6ZXNvg=/124x124/a43dee65-01b1-40a6-994d-068c78eb3eee--9F7DD561-A480-4E1B-8C8F-D5DA7AB5167C.png\",\"redactedName\":\"dinner A.\"},{\"id\":5418,\"login\":\"amysarah\",\"email\":\"amy.philips@verizon.net\",\"url\":\"/users/5418-amysarah\",\"specialistTitle\":\"amysarah is a trusted home cook.\",\"hasAvatar\":true,\"imageUrl\":\"https://images.food52.com/jqMiZ_xTp7uYaFUmty-Gs-_M8SI=/124x124/1097a5b5-1775-4eec-a8ea-7421137b65dc--image-2_Apples_Claire_Sullivan_2-.jpg\",\"redactedName\":\"amysarah\"},{\"id\":234401,\"login\":\"Moshee\",\"email\":\"melindamoshuk@hotmail.com\",\"url\":\"/users/234401-moshee\",\"specialistTitle\":null,\"hasAvatar\":true,\"imageUrl\":\"https://images.food52.com/ADnr8oyKOFQLxDHwRlESNKmjV-Q=/124x124/015f2791-1f85-459b-9d7d-e89efa02723c--stringio.txt\",\"redactedName\":\"Moshee\"},{\"id\":525449,\"login\":\"joseph roumeliotis\",\"email\":\"jrr251@nyu.edu\",\"url\":\"/users/525449-joseph-roumeliotis\",\"specialistTitle\":null,\"hasAvatar\":false,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"joseph R.\"},{\"id\":349803,\"login\":\"Margaret\",\"email\":\"margaret.blades@gmail.com\",\"url\":\"/users/349803-margaret\",\"specialistTitle\":null,\"hasAvatar\":false,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"Margaret\"},{\"id\":23488,\"login\":\"Stephanie G\",\"email\":\"stephaniefoerster@att.net\",\"url\":\"/users/23488-stephanie-g\",\"specialistTitle\":null,\"hasAvatar\":false,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"Stephanie G.\"},{\"id\":46076,\"login\":\"lfm\",\"email\":\"localfoodmaven@gmail.com\",\"url\":\"/users/46076-lfm\",\"specialistTitle\":null,\"hasAvatar\":false,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"lfm\"},{\"id\":314492,\"login\":\"Allyn\",\"email\":\"lovelytammy@gmail.com\",\"url\":\"/users/314492-allyn\",\"specialistTitle\":null,\"hasAvatar\":true,\"imageUrl\":\"https://images.food52.com/oAmwQAqPTInT3SeJ4Ad16OlYVzs=/124x124/1c38d61c-da32-4e97-a5fe-0f81e836b5fd--IMG_0113.JPG\",\"redactedName\":\"Allyn\"},{\"id\":null,\"url\":null,\"hasAvatar\":true,\"imageUrl\":\"https://images.food52.com/iV1Og0UUhsHlzQIooC9NNvbiGyQ=/124x124/b3cf7c6a-322f-471b-a0b2-fa7f12f43498--default-avatar.png\",\"redactedName\":\"A Whole Foods Market Customer\"}],\"commentCount\":11,\"loadedCommentsCount\":11}","hideSidebarVideo":false,"sponsoredProductDetails":null,"hideSave":false};
+        f52.inputs.blogShow = blogShow;
+      })();
+    </script>
+
+<script>
+      (function() {
+        if (typeof(f52) === 'undefined') {
+          f52 = {};
+        }
+        if (typeof(f52.inputs) === 'undefined') {
+          f52.inputs = {};
+        }
+        var belowFold = {"type":"post","id":15663,"authorId":206106,"carouselName":"Shop the Story","commentEndpoints":{"get":"/comments/moar_comments","add":"/comments/ajax_add_comment","helpful":"/comments/{ID}/ajax_create_comment_helpful_flag","flag":"/comments/{ID}/ajax_create_comment_flag"},"mailingListBanner":{"mobile":"http://web.archive.org/web/20220518043307/https://food52.com/assets/blog/bg-mailing-list-mobile-c65891b8fe1a290f5e8f666648a7752b269d47c6bfe07192850aae1c5e7b9993.jpg","mobile2x":"http://web.archive.org/web/20220518043307/https://food52.com/assets/blog/bg-mailing-list-mobile2x-362a349cf9d003b2b9e939dc76bf93e714e9ac6db5bd4cd91b0ed289dd81c42a.jpg","desktop":"http://web.archive.org/web/20220518043307/https://food52.com/assets/blog/bg-mailing-list-desktop-1d7584299446fb56b2690e62605fd5c168c1388e9a8a4872bac21928eae51d58.jpg","desktop2x":"http://web.archive.org/web/20220518043307/https://food52.com/assets/blog/bg-mailing-list-desktop2x-993aa486dad04f5a8aa917c05f50ad0fc9070b9f7744755740ccfdf7141f8c70.jpg"},"scripts":["//web.archive.org/web/20220518043307/https://assets.pinterest.com/js/pinit.js"]};
+        f52.inputs.belowFold = belowFold;
+      })();
+    </script>
+
+<script>
+      (function() {
+        if (typeof(f52) === 'undefined') {
+          f52 = {};
+        }
+        if (typeof(f52.inputs) === 'undefined') {
+          f52.inputs = {};
+        }
+        var ads = {"scrollPromoBanner":true,"targeting":[{"name":"PageType","value":"article"},{"name":"Article","value":"15663"},{"name":"SponsoredArticle","value":"false"},{"name":"BlogTopic","value":false},{"name":"Tag","value":"home52,home-decor,kitchen-design,interior-design"}]};
+        f52.inputs.ads = ads;
+      })();
+    </script>
+
+<script>
+      (function() {
+        if (typeof(f52) === 'undefined') {
+          f52 = {};
+        }
+        if (typeof(f52.inputs) === 'undefined') {
+          f52.inputs = {};
+        }
+        var userCustomizations = {"blog_show":{"id":15663},"collections":{"collectableIdsOnPage":[["post",15663,null]]},"user_following":{"userIds":[206106]},"comment_email_status":{"commentableType":"Post","commentableId":15663}};
+        f52.inputs.userCustomizations = userCustomizations;
+      })();
+    </script>
+
+<script src="/web/20220518043307js_/https://food52.com/dist/vendor.a57496cde3a2eef6a156.js"></script>
+  <script src="/web/20220518043307js_/https://food52.com/dist/runtime.bd44db6d085ec6fb7cc6.js"></script>
+  <script src="/web/20220518043307js_/https://food52.com/dist/application.3c31dcc98485cd955e0d.js"></script>
+
+<script>
+      (function() {
+        if (typeof(f52) === 'undefined') {
+          f52 = {};
+        }
+        if (typeof(f52.inputs) === 'undefined') {
+          f52.inputs = {};
+        }
+        var sailthru = {"sailthruURL":"http://web.archive.org/web/20220518043307/https://food52.com/blog/15663-you-can-do-better-than-subway-tile"};
+        f52.inputs.sailthru = sailthru;
+      })();
+    </script>
+
+<script src="/web/20220518043307js_/https://food52.com/dist/blog_show.3eb76261fa13f9e0e8ea.js"></script>
+
+<script>
+      window._qevents = [];
+    </script>
+
+</body>
+</html>
+
+<!--
+     FILE ARCHIVED ON 04:33:07 May 18, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:04:07 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.103
+  exclusion.robots: 0.068
+  exclusion.robots.policy: 0.052
+  esindex: 0.018
+  cdx.remote: 175.425
+  LoadShardBlock: 552.481 (3)
+  PetaboxLoader3.datanode: 475.237 (4)
+  load_resource: 462.578
+  PetaboxLoader3.resolve: 261.976
+-->

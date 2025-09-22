@@ -1,61 +1,360 @@
-name: CI
+name: Atlas Enhanced CI Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop ]
   pull_request:
     branches: [ main ]
+  schedule:
+    # Daily health checks at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
-  test:
+  # Code Quality and Security Scanning
+  security-scan:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.11", "3.12"]
+    timeout-minutes: 30
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v4
+    - uses: actions/checkout@v4
       with:
-        python-version: ${{ matrix.python-version }}
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install -r requirements-dev.txt
-    - name: Run tests
-      run: |
-        python -m pytest tests/test_web_endpoints.py tests/test_cognitive_features.py -v
-    # Temporarily disabled until code quality is improved
-    # - name: Run linting  
-    #   run: |
-    #     python -m flake8 .
-    # - name: Run type checking
-    #   run: |
-    #     python -m mypy .
+        fetch-depth: 0
 
-  build:
+    - name: Run CodeQL Analysis
+      uses: github/codeql-action/init@v3
+      with:
+        languages: python
+
+    - name: Autobuild
+      uses: github/codeql-action/autobuild@v3
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v3
+
+    - name: Run Safety Security Scan
+      run: |
+        pip install --break-system-packages safety
+        safety check --json --output safety-report.json || true
+
+    - name: Run Bandit Security Linter
+      run: |
+        pip install --break-system-packages bandit[toml]
+        bandit -r . -f json -o bandit-report.json || true
+
+    - name: Upload security reports
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: security-reports-${{ github.run_number }}
+        path: |
+          safety-report.json
+          bandit-report.json
+        retention-days: 30
+
+  # Dependency Vulnerability Scanning
+  dependency-scan:
     runs-on: ubuntu-latest
-    needs: test
-    if: github.ref == 'refs/heads/main'
-    
+    timeout-minutes: 15
+
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
+
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install -r requirements-dev.txt
-    - name: Build package
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages pip-audit requirements-parser
+
+    - name: Run dependency vulnerability scan
       run: |
-        python setup.py sdist bdist_wheel
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+        pip-audit --format json --output dependency-report.json || true
+
+    - name: Check for known vulnerable dependencies
+      run: |
+        python -c "
+        import json
+        try:
+            with open('dependency-report.json') as f:
+                report = json.load(f)
+            vulns = [v for v in report.get('vulnerabilities', []) if v.get('fix_versions')]
+            if vulns:
+                print(f'::warning::Found {len(vulns)} fixable vulnerabilities')
+                for vuln in vulns[:5]:  # Show first 5
+                    print(f'::warning::{vuln[\"name\"]}@{vuln[\"installed_version\"]}: {vuln[\"description\"][:100]}...')
+        except Exception as e:
+            print(f'Could not parse dependency report: {e}')
+        "
+
+    - name: Upload dependency report
+      uses: actions/upload-artifact@v4
+      if: always()
       with:
-        name: atlas-package
-        path: dist/
+        name: dependency-report-${{ github.run_number }}
+        path: dependency-report.json
+        retention-days: 30
+
+  # Core Testing with Matrix Strategy
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, ubuntu-20.04]
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+        test-category: [unit, integration, observability, reliability]
+      fail-fast: false
+      max-parallel: 4
+
+    timeout-minutes: 45
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ matrix.python-version }}-${{ hashFiles('**/requirements*.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-${{ matrix.python-version }}-
+          ${{ runner.os }}-pip-
+
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y sqlite3 ffmpeg curl git
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages -r requirements.txt
+        pip install --break-system-packages -r requirements-dev.txt
+        pip install --break-system-packages pytest-xdist pytest-benchmark memory-profiler
+
+    - name: Create test environment
+      run: |
+        mkdir -p data/test logs/test temp/test
+        cp .env.template .env
+        echo "ATLAS_DATABASE_PATH=data/test/atlas_test.db" >> .env
+        echo "API_PORT=17444" >> .env
+        echo "LOG_LEVEL=INFO" >> .env
+        echo "TESTING=true" >> .env
+
+    - name: Run Unit Tests
+      if: matrix.test-category == 'unit'
+      timeout-minutes: 15
+      run: |
+        python -m pytest tests/test_*.py \
+          -k "not integration and not observability and not reliability" \
+          -v --tb=short --timeout=300 \
+          --cov=. --cov-report=xml --cov-report=term-missing \
+          --dist=loadscope -n auto
+
+    - name: Run Integration Tests
+      if: matrix.test-category == 'integration'
+      timeout-minutes: 30
+      run: |
+        python -m pytest tests/test_*integration*.py tests/test_e2e.py \
+          -v --tb=long --timeout=600 \
+          --dist=no -n 1
+
+    - name: Run Observability Tests
+      if: matrix.test-category == 'observability'
+      timeout-minutes: 20
+      run: |
+        python -m pytest tests/test_observability.py \
+          -v --tb=short --timeout=300
+
+    - name: Run Reliability Tests
+      if: matrix.test-category == 'reliability'
+      timeout-minutes: 25
+      run: |
+        python -m pytest tests/test_ingestion_reliability.py tests/test_memory_leaks.py \
+          -v --tb=long --timeout=600
+
+    - name: Upload coverage reports
+      if: matrix.test-category == 'unit' && success()
+      uses: codecov/codecov-action@v4
+      with:
+        file: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+        fail_ci_if_error: false
+
+    - name: Upload test artifacts
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: test-artifacts-${{ matrix.os }}-py${{ matrix.python-version }}-${{ matrix.test-category }}
+        path: |
+          data/test/
+          logs/test/
+          temp/test/
+          test-results/
+        retention-days: 7
+
+  # Code Quality Enforcement
+  code-quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install quality tools
+      run: |
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages -r requirements-dev.txt
+        pip install --break-system-packages ruff pre-commit
+
+    - name: Run ruff linter
+      run: |
+        ruff check . --output-format=github
+
+    - name: Run ruff formatter
+      run: |
+        ruff format --check .
+
+    - name: Run mypy type checking
+      run: |
+        mypy --ignore-missing-imports --no-error-summary . || true
+
+    - name: Run complexity analysis
+      run: |
+        pip install --break-system-packages radon
+        radon cc . -a -nb --json | tee complexity-report.json || true
+
+    - name: Upload quality reports
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: quality-reports-${{ github.run_number }}
+        path: complexity-report.json
+        retention-days: 30
+
+  # Performance Benchmarking
+  performance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages -r requirements.txt
+        pip install --break-system-packages pytest-benchmark psutil memory-profiler
+
+    - name: Run performance benchmarks
+      run: |
+        mkdir -p benchmark-results
+        python -m pytest tests/test_*performance*.py \
+          --benchmark-only \
+          --benchmark-json=benchmark-results/results.json \
+          -v
+
+    - name: Compare with baseline
+      run: |
+        python -c "
+        import json
+        import os
+        try:
+            with open('benchmark-results/results.json') as f:
+                results = json.load(f)
+
+            benchmarks = results.get('benchmarks', [])
+            print(f'\\n=== Performance Benchmark Results ===')
+            for bench in benchmarks[:5]:  # Show first 5
+                name = bench.get('name', 'Unknown')
+                stats = bench.get('stats', {})
+                mean = stats.get('mean', 0) * 1000  # Convert to ms
+                print(f'{name}: {mean:.2f}ms ± {stats.get(\"stddev\", 0)*1000:.2f}ms')
+
+            # Check for regressions
+            if benchmarks:
+                total_mean = sum(b.get('stats', {}).get('mean', 0) for b in benchmarks) / len(benchmarks)
+                if total_mean > 1.0:  # More than 1 second average
+                    print(f'\\n::warning::Performance regression detected: average {total_mean:.2f}s')
+        except Exception as e:
+            print(f'Could not analyze benchmarks: {e}')
+        "
+
+    - name: Upload benchmark results
+      uses: actions/upload-artifact@v4
+      with:
+        name: benchmark-results-${{ github.run_number }}
+        path: benchmark-results/
+        retention-days: 30
+
+  # Production Readiness Check
+  production-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: [security-scan, dependency-scan, test, code-quality, performance]
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Generate health report
+      run: |
+        cat > health-report.md << EOF
+        # Atlas Production Readiness Report
+
+        ## Build Information
+        - **Commit**: ${{ github.sha }}
+        - **Branch**: ${{ github.ref_name }}
+        - **Run ID**: ${{ github.run_number }}
+        - **Timestamp**: ${{ github.event.created_at }}
+
+        ## Security Status
+        - **CodeQL**: ${{ needs.security-scan.result }}
+        - **Dependency Scan**: ${{ needs.dependency-scan.result }}
+        - **Vulnerabilities**: Check artifacts for details
+
+        ## Test Results
+        - **Matrix Testing**: ${{ needs.test.result }}
+        - **Code Quality**: ${{ needs.code-quality.result }}
+        - **Performance**: ${{ needs.performance.result }}
+
+        ## Deployment Readiness
+        EOF
+
+        # Check if all critical jobs passed
+        if [[ "${{ needs.security-scan.result }}" == "success" && \
+              "${{ needs.test.result }}" == "success" && \
+              "${{ needs.code-quality.result }}" == "success" ]]; then
+          echo "✅ **Ready for production deployment**" >> health-report.md
+          exit 0
+        else
+          echo "❌ **Not ready for production** - Check failed jobs" >> health-report.md
+          exit 1
+        fi
+
+    - name: Upload health report
+      uses: actions/upload-artifact@v4
+      with:
+        name: production-health-report-${{ github.run_number }}
+        path: health-report.md
+        retention-days: 90

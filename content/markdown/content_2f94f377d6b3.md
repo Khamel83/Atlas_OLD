@@ -1,0 +1,390 @@
+# Content from https://www.army.mil/article/198095/dwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system
+
+*Retrieved: 2025-09-15T02:35:14.792483*
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    <meta name="apple-itunes-app" content="app-id=342689843">
+    <meta property="og:title" content="Dwight D. Eisenhower and the birth of the Interstate Highway System" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="The millions of travelers who use the U.S. Interstate Highway System each year may take for granted the system's history, which sheds light on its importance to U.S. society." />
+<meta property="og:site_name" content="www.army.mil" />
+<meta property="og:image" content="https://api.army.mil/e2/c/images/2017/12/13/501414/max1200.jpg" />
+<meta property="og:headline" content="Dwight D. Eisenhower and the birth of the Interstate Highway System" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@USArmy" />
+<meta property="twitter:title" content="Dwight D. Eisenhower and the birth of the Interstate Highway System" />
+<meta property="twitter:description" content="The millions of travelers who use the U.S. Interstate Highway System each year may take for granted the system's history, which sheds light on its importance to U.S. society." />
+<meta property="twitter:image" content="https://api.army.mil/e2/c/images/2017/12/13/501414/max1200.jpg" />
+<meta property="og:url" content="https://www.army.mil/article/198095/dwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system" />
+
+<title>Dwight D. Eisenhower and the birth of the Interstate Highway System &#124; Article &#124; The United States Army</title>
+    <meta name="description" content="The millions of travelers who use the U.S. Interstate Highway System each year may take for granted the system's history, which sheds light on its importance to U.S. society.">
+    <meta property="article:published_time" content="2018-02-20T09:32:48-05:00" />
+    <meta property="article:modified_time" content="2018-02-20T13:32:50-05:00" />
+    <link rel="canonical" href="https://www.army.mil/article/198095/dwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system">
+    <link rel="amphtml" href="https://www.army.mil/article-amp/198095/dwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system"/>
+    <link rel="stylesheet" href="/e2/global/rv7/topnav/navbar.css">
+    <link rel="stylesheet" href="/e2/global/rv7/footer/footer.css">
+    <link rel="stylesheet" href="/css/article.css?id=05631edaec0f9b6cde4e0b0469a45dbb">
+    <link rel="apple-touch-icon" href="/e2/images/rv7/army_star_icon_60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/e2/images/rv7/army_star_icon_76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/e2/images/rv7/army_star_icon_120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/e2/images/rv7/army_star_icon_152.png">
+</head>
+<body class="army-font">
+    <!--[if lt IE 9]>
+<div class="oldie-warning">
+    <p class="warning">!</p>
+      <p>Your version of Internet Explorer is out of date. It has known security flaws and can cause issues displaying content on this page, and other websites.</p>
+      <p><a href="/upgrade" title="Learn how to update your browser">Learn how to update your browser</a></p>
+</div>
+<![endif]-->    <div class='article-container wrapper'>
+        <div class="container">
+            <div class="inner-container" role="main">
+                <div id="article-top" class="row">
+                    <div class="span12">
+                        <h1>Dwight D. Eisenhower and the birth of the Interstate Highway System</h1>
+                        <p class="small">By Lee Lacy<span>February 20, 2018</span></p>
+                        <section class="alt-social-bar">
+  <ul>
+        <li class="social-button-sm twitter-button">
+            <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/share?url=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system&amp;text=Dwight%20D.%20Eisenhower%20and%20the%20birth%20of%20the%20Interstate%20Highway%20System"><span role="img">Share on Twitter</span></a>
+        </li>
+        <li class="social-button-sm facebook-button">
+            <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system"><span role="img">Share on Facebook</span></a>
+        </li>
+        <li class="social-button-sm reddit-button">
+            <a rel="noopener noreferrer" target="_blank" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system"><span role="img">Share on Reddit</span></a>
+        </li>
+        <li class="social-button-sm linkedin-button">
+            <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system"><span role="img">Share on LinkedIn</span></a>
+        </li>
+        <li class="social-button-sm email-button">
+            <a rel="noopener noreferrer" target="_blank" href="mailto:?Subject=Dwight%20D.%20Eisenhower%20and%20the%20birth%20of%20the%20Interstate%20Highway%20System&amp;body=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system"><span role="img">Share via Email</span></a>
+        </li>
+        </ul>
+    </section>                    </div>
+                </div>
+                <div class="two-column-body">
+                    <div class="left-column">
+                        
+                        <div class="article-body rich-text-element bodytext">
+                            <div class="ql-editor">
+                                <div class="editor-image photo-slideshow">
+                      <figure class="photo cur-photo">
+          <span class="centered-image">
+            <span class="img-container">
+              <a class="rich-text-img-link" href="https://api.army.mil/e2/c/images/2017/12/13/501414/original.jpg" target="_blank" rel="noopener">
+                <img alt="Dwight D. Eisenhower and the Birth of the Interstate Highway System"
+                data-full-desc="" src="https://api.army.mil/e2/c/images/2017/12/13/501414/size0-full.jpg" />
+              </a>
+                              <span class="ss-move ss-prev">
+                  <span class="ss-move-button"></span>
+                </span>
+                <span class="ss-move ss-next">
+                  <span class="ss-move-button"></span>
+                </span>
+                          </span>
+          </span>
+          <figcaption>
+                          <span class="image-count">1 / 2</span>
+              <span class="image-caption-button">
+                <span class="caption-button-text caption-button-hide">Show Caption +</span>
+                <span class="caption-button-text caption-button-show">Hide Caption –</span>
+              </span>
+                        <span class="image-caption">
+              <span class="caption-text">
+                
+                <span class="caption-author"> (Photo Credit: U.S. Army)</span>
+              </span>
+              <a href="https://api.army.mil/e2/c/images/2017/12/13/501414/original.jpg" title="View original" target="_blank" rel="noopener">VIEW ORIGINAL</a>
+            </span>
+          </figcaption>
+        </figure>
+                      <figure class="photo">
+          <span class="centered-image">
+            <span class="img-container">
+              <a class="rich-text-img-link" href="https://api.army.mil/e2/c/images/2017/12/13/501415/original.jpg" target="_blank" rel="noopener">
+                <img alt="Dwight D. Eisenhower and the Birth of the Interstate Highway System"
+                data-full-desc="A map of the First Transcontinental Motor Convoy. The 1919 operation was a road test for military vehicles and was used to identify the challenges in moving troops from coast to coast on the existing infrastructure. The excursion covered 3,200 miles ..." src="https://api.army.mil/e2/c/images/2017/12/13/501415/size0-full.jpg" />
+              </a>
+                              <span class="ss-move ss-prev">
+                  <span class="ss-move-button"></span>
+                </span>
+                <span class="ss-move ss-next">
+                  <span class="ss-move-button"></span>
+                </span>
+                          </span>
+          </span>
+          <figcaption>
+                          <span class="image-count">2 / 2</span>
+              <span class="image-caption-button">
+                <span class="caption-button-text caption-button-hide">Show Caption +</span>
+                <span class="caption-button-text caption-button-show">Hide Caption –</span>
+              </span>
+                        <span class="image-caption">
+              <span class="caption-text">
+                A map of the First Transcontinental Motor Convoy. The 1919 operation was a road test for military vehicles and was used to identify the challenges in moving troops from coast to coast on the existing infrastructure. The excursion covered 3,200 miles ...
+                <span class="caption-author"> (Photo Credit: U.S. Army)</span>
+              </span>
+              <a href="https://api.army.mil/e2/c/images/2017/12/13/501415/original.jpg" title="View original" target="_blank" rel="noopener">VIEW ORIGINAL</a>
+            </span>
+          </figcaption>
+        </figure>
+          </div>
+
+<p>On June 29, 1956, President Dwight D. Eisenhower signed legislation funding the construction of the U.S. Interstate Highway System (IHS)--something Americans had dreamed of since Detroit starting building cars. </p>
+
+<p>The Missouri Highway Commission awarded the first contract to begin building the interstate along the famous Route 66 in rural Laclede County, 160 miles southwest of St. Louis. However, construction on the first section of interstate actually began in St. Charles County, Missouri, on Aug. 13. Kansas and Pennsylvania have also made competing claims that their states were first to possess sections of interstate. </p>
+
+<p>No matter who was first, the enthusiasm for a uniform system of roads, bridges, and tunnels was very high in 1956, nearly fifty years after the introduction of Henry Ford's Model T automobile. The building of the IHS, formally known as the Dwight D. Eisenhower National System of Interstate and Defense Highways, proceeded rapidly throughout the country, and by the early 1990s, nearly 45,000 miles of interstate highway were complete. </p>
+
+<p>In order to understand the IHS's importance in U.S. society, let's examine its history. President Eisenhower is widely regarded as the catalyst for the IHS. His motivations for a highway network stemmed from three events: his assignment as a military observer to the First Transcontinental Motor Convoy, his experience in World War II where he observed the efficiencies of the German autobahn, and the Soviet Union's 1953 detonation of the hydrogen bomb, which instigated a fear that insufficient roads would keep Americans from being able to escape a nuclear disaster. </p>
+
+<p>THE FIRST TRANSCONTINENTAL MOTOR CONVOY</p>
+
+<p>In the summer of 1919, Lt. Col. Eisenhower was a dejected midcareer Army officer. He narrowly missed out on overseas service during World War I and anticipated a reduction in rank as the Army shrank and prepared for peacetime operations. Adding to his discontent, he was physically separated from his wife and infant child because of a shortage of military housing.</p>
+
+<p>Eisenhower was assigned as an observer to an unprecedented military experiment--the First Transcontinental Motor Convoy. The operation was a road test for military vehicles and was used to identify the challenges in moving troops from coast to coast on the existing infrastructure. The excursion covered 3,200 miles from Washington D.C. to San Francisco. It included 79 vehicles of all sizes and 297 personnel. </p>
+
+<p>During the expedition, Eisenhower gained some insight for the creation of a network of connected roads and bridges. Eisenhower's report to Army leaders focused mostly on mechanical difficulties and the condition of the patchwork of existing roads. He reported a mix of paved and unpaved roads, old bridges, and narrow passages. </p>
+
+<p>Narrow roads caused oncoming traffic to run off the road and encounter added difficulty when reentering the roadway. Some bridges were too low for trucks to pass under. Eisenhower pointed out that the roads in the Midwest region of the United States were impracticable, but the roads in the east were sufficient for truck use. </p>
+
+<p>Eisenhower singled out a western section of the Lincoln Highway, a transcontinental road with routes through Utah and Nevada, as being so poor that it warranted a thorough investigation before government money should be expended. He praised California for having excellent paved roads. Lastly, he observed that the different grades of road determined much of the convoy's success. </p>
+
+<p>WORLD WAR II </p>
+
+<p>During World War II, as the supreme Allied commander, Gen. Eisenhower was the architect of the defeat of Nazi Germany. As Allied armies raced across France and into Germany, he marveled at the vast highway system built by the Germans prior to the war. Eisenhower wrote in his presidential memoirs, "During World War II, I had seen the superlative system of German autobahn--[the] national highways crossing that country." </p>
+
+<p>This advanced European highway system helped the Allies. The autobahn aided the Allied victory by enabling the Allies to efficiently resupply forces that pursued the German Wehrmacht across France and into Germany. The famous Red Ball Express was a magnificent achievement that kept swift-moving Allied field armies resupplied. </p>
+
+<p>In August and September of 1944, an around-the-clock operation of 6,000 trucks delivered materiel to forces on the move. It involved a 300-mile divided road that eventually converted to a super highway. The road extended from the Normandy beachhead to terminals near Paris. Later, a second super highway extended from Paris into Germany.</p>
+
+<p>THE CLAY COMMITTEE</p>
+
+<p>Instrumental in the logistics success following the D-Day landings was Lt. Gen. Lucius Clay. He was a key aid to Eisenhower during the war and later when Eisenhower ascended to the presidency. Eisenhower knew Clay, a West Point-trained engineer, was a respected troubleshooter, an effective administrator, and politically adept. </p>
+
+<p>In 1954, Eisenhower appointed Clay to head the President's Advisory Committee on the National Highway System. The so-called "Clay Committee" began work to develop a national highway plan, and its outcome was a report to Congress on the National Highway Program. </p>
+
+<p>The resulting "Grand Plan" obligated $50 billion of federal funds over 10 years to build a "vast system of interconnected highways." The committee based its proposal on four points. The first point appealed to safety. It cited 36,000 traffic fatalities each year and the multibillion dollar effect on the economy. </p>
+
+<p>Next, the report cited the physical conditions of existing roads and their effect on the cost of vehicle ownership. It was thought poorly maintained roads adversely affected the economy by increasing transportation costs, which were ultimately borne by the consumer. </p>
+
+<p>The third point involved national security. The pervasive threat of nuclear attack in the United States called for the ability to execute the emergency evacuation of large cities and the quick movement of troops essential to national defense. </p>
+
+<p>The last point appealed to the health of the U.S. economy. Improvements in transportation must keep up with the expected increase in U.S. population. Moreover, road improvement is essential to the economy and an efficient use of taxpayer money. </p>
+
+<p>The Clay Committee concluded its report by stating that the positive economic attributes of the highway system were the potential for economic growth and the well-being of the economy through "speedy, safe, transcontinental travel" that could improve "farm-to-market movement."</p>
+
+<p>THE COLD WAR</p>
+
+<p>The IHS was the largest public works project undertaken in the Unites States and came at a time when the Cold War consumed not only a large part of the federal budget but also the attention of the U.S. public.</p>
+
+<p>The Cold War played a pivotal role in the creation of the IHS. Shortly after Eisenhower took office in 1953, Soviet leader Josef Stalin died, setting off a power struggle in the Kremlin. It was not until September that Nikita Khrushchev emerged as the general secretary of the Communist Party of the Soviet Union. </p>
+
+<p>On Aug. 12, 1953, the Soviets exploded their first hydrogen bomb, thus moving closer to the United States in nuclear parity. It was unsettling to have a superpower with an unstable government armed with the latest nuclear weapons technology. This event further jolted an already rattled U.S. public, which routinely engaged in civil defense drills. Citizens built bomb shelters, stockpiled food, and prepared for imminent nuclear war. </p>
+
+<p>In a July 1954 speech to the Governors' Conference, Vice President Richard Nixon expressed concern over the "appalling inadequacies" of the existing U.S. road infrastructure and its inability to meet the needs for responding to a national emergency on the scale of atomic war. Nixon mentioned atomic or atomic war no less than 10 times in the speech. </p>
+
+<p>This topic was on the minds of most Americans. Seventy-nine percent of the public thought a nuclear conflict between the United States and the Soviet Union was imminent. In the event of war, 70 million urban residents required evacuation by road. </p>
+
+<p>The Clay Committee also warned of the need for large-scale evacuation of cities in the event of nuclear war. Furthermore, it cited federal civil defense authorities who were worried that a withdrawal from urban areas would be the largest ever attempted. The Committee soberly stated, "The rapid improvement of the complete 40,000-mile interstate system, including the necessary urban connections thereto, is therefore vital as a civil-defense measure."</p>
+
+<p>NATIONAL DEFENSE AND THE TESTING PHASE</p>
+
+<p>A large scale urban evacuation drill conducted in June 1955 drove home the importance of an evacuation plan. The ensuing confusion coupled with crowded evacuation routes seemed to make President Eisenhower's case for the IHS. Moreover, the administration was serious about the role of a uniform system of roads for national defense and directed Department of Defense (DOD) involvement. </p>
+
+<p>When the IHS began in earnest, a testing facility was created in central Illinois to evaluate pavement, road standards, and construction techniques, among other things. The DOD contributed equipment and personnel for the tests. Military leaders knew from their experiences in the two previous world wars that roads were vital to national defense. During World War I, military truck traffic destroyed roads. In World War II, defense plants were often supplied by truck, but the lack of road standards sometimes impeded timely delivery. </p>
+
+<p>Over a two-year period, Army trucks drove 17 million miles on the test roads. Some vehicles carried blocks of concrete in an effort to see how long a 24-ton truck would take to destroy roads and bridges. Highway building and maintenance standards were developed from the tests.</p>
+
+<p>THE INTERSTATE WE KNOW</p>
+
+<p>Congress passed the Federal-Aid Highway Act of 1956 creating federal funds for interstate highway construction. As the IHS developed so did its ability to support national defense. For example, throughout the system, mile-long stretches of concrete pavement double as emergency landing strips for military aircraft. Many Army posts, especially where division-level units are garrisoned, are near interstate highways. </p>
+
+<p>For example, the 1st Infantry Division at Fort Riley, Kansas, is adjacent to I-70, and the 1st Armored Division at Fort Bliss, Texas, is close to I-10. </p>
+
+<p>During Operations Desert Shield and Desert Storm, the IHS contributed to the success of mobilizing the military for war in the Middle East. Military planners were emboldened by the ability to move personnel and materiel with ease during national emergencies. </p>
+
+<p>AN AGING SYSTEM </p>
+
+<p>Despite the convenience and ease of movement, the IHS is showing its age. When funding was appropriated in 1956, planners knew that, at some point, roads, bridges, and various infrastructure would deteriorate. The IHS was expected to last only into the 1970s when improvements would be needed. The 1956 appropriation ran out in 1972 and current funding is sustained by the motor fuel tax, which is funneled into a trust fund. </p>
+
+<p>The IHS's disrepair was highlighted in July 2007 with an unfortunate tragedy in Minnesota. On a summer day near Minneapolis, a section of a steel arch bridge on Interstate 35 collapsed into the Mississippi River. The accident killed 13 people and injured another 145. </p>
+
+<p>The accident remains one of the worst bridge failures in the U.S. history, and it highlights the poor condition of the nation's infrastructure. At the time of the incident, approximately 150,000 of the nation's nearly 600,000 bridges "were considered either structurally deficient or functionally obsolete," according to a 2012 ABC News report. Since the I-35 incident, political leaders have called for a major investment in the nation's infrastructure. </p>
+
+<p>Most Americans see the IHS for what it is: a quick, efficient, and convenient means of travel. The automobile culture, which hit its stride in the 1960s, thrived on networks of paved roads and inexpensive gasoline. Along the way, an entire segment of the economy was born. Businesses catered to travelers. Hotels, motels, restaurants, and service stations appeared at interstate exits to serve weary motorists.</p>
+
+<p>The IHS is an icon and marvel of man's ingenuity. Great leaders such as Dwight Eisenhower and Lucius Clay had the foresight to conceive and build a network of interconnecting highways that helped to shape and define postwar America. Who from the current generation of leaders will repair, rebuild, and expand the IHS?</p>
+
+<p>--------------------</p>
+
+<p>Lee Lacy is a retired Army Reserve lieutenant colonel and an assistant professor at the Army Command and General Staff College at Fort Leavenworth, Kansas. He is a graduate of the University of Arkansas and holds a master's degree from Webster University. </p>
+
+<p>--------------------</p>
+
+<p>This article was published in the March-April 2018 issue of Army Sustainment magazine.</p>
+
+<h2>Related Links:</h2>
+
+<p><a href="http://www.alu.army.mil/alog/backissues.html" rel="noopener noreferrer" target="_blank">Army Sustainment Magazine Archives</a></p>
+
+<p><a href="http://www.alu.army.mil/alog/CurrentIssue.html" rel="noopener noreferrer" target="_blank">Browse Army Sustainment Magazine</a></p>
+
+<p><a href="http://www.army.mil/ArmySustainment" rel="noopener noreferrer" target="_blank">Sustainer News</a></p>
+
+<p><a href="https://go.usa.gov/xnRuw" rel="noopener noreferrer" target="_blank">Discuss This Article in milSuite</a></p>
+
+</div>
+                        </div> <!-- end article-body -->
+
+</div>
+                                        <div class="right-column">
+                        <div class="top-stories">
+                            <h4>RELATED STORIES</h4>
+                            <ul>
+                                                            <li>
+                                    <a href="https://www.army.mil/article/277291/army_names_the_m_shorad_after_vietnam_war_medal_of_honor_recipient" title="Army names the M-SHORAD after Vietnam War Medal of Honor recipient"><span>June 15, 2024</span><span>Army names the M-SHORAD after Vietnam War Medal of Honor recipient</span></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.army.mil/standto/archive/2022/04/12" title="U.S. Army STAND-TO! | Army Organic Industrial Base Modernization Implementation Plan"><span>April 12, 2022</span><span>U.S. Army STAND-TO! | Army Organic Industrial Base Modernization Implementation Plan</span></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.army.mil/article/255108/local_vietnam_veterans_showcase_personal_objects_from_their_service" title="Local Vietnam veterans showcase personal objects from their service "><span>March 28, 2022</span><span>Local Vietnam veterans showcase personal objects from their service </span></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.army.mil/article/252024/the_u_s_army_releases_a_two_volume_book_about_operation_enduring_freedom" title="The U.S. Army releases a two volume book about Operation Enduring Freedom"><span>November 17, 2021</span><span>The U.S. Army releases a two volume book about Operation Enduring Freedom</span></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.army.mil/article/233667/us_army_celebrates_womens_contributions_and_service" title="U.S. Army celebrates women&amp;#39;s contributions and service"><span>March 11, 2020</span><span>U.S. Army celebrates women&#39;s contributions and service</span></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.army.mil/article/229043/us_army_proposes_innovative_solution_for_historic_housing" title="U.S. Army proposes innovative solution for historic housing"><span>October 28, 2019</span><span>U.S. Army proposes innovative solution for historic housing</span></a>
+                                </li>
+                                                            <li>
+                                    <a href="https://www.army.mil/article/164757/signal_regiment_honors_hollywood_director" title="Signal regiment honors Hollywood director"><span>March 23, 2016</span><span>Signal regiment honors Hollywood director</span></a>
+                                </li>
+                                                        </ul>
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div> <!-- end .article-container -->
+        <div id="ga-analytic-codes" data-codes="UA-151128497-1"></div>
+        
+    <div id="lightbox" class="hidden">
+  <div class="container click-close">
+    <a class="thumbnail hidden" id="thumbnail"><span class="thumbnail-button"></span></a>
+    <a class="single-view hidden" id="single-view"><span class="single-view-button"></span></a>
+    <span class="image-index hidden" id="image-index"></span>
+    <a class="download hidden" id="download" target="_blank"><span class="download-button"></span></a>
+    <a class="share hidden" id="share"><span class="share-button"></span></a>
+    <div class="share-box opacity-zero" id="share-box">
+      <ul>
+        <li class="social-button facebook-button">
+          <a id="fb-social" href="" target="_blank" rel="noopener">
+            <span></span>
+          </a>
+        </li>
+        <li class="social-button twitter-button">
+          <a id="twitter-social" href="" target="_blank" rel="noopener">
+            <span></span>
+          </a>
+        </li>
+        <li class="social-button pinterest-button">
+          <a id="pint-social" href="" target="_blank" rel="noopener">
+            <span></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <a class="close click-close" href="javascript:void(0);"><span class="click-close"></span></a>
+    <div class="inner-container">
+      <div class="navigation">
+        <a class="lb-button" id="next-button" href="javascript:void(0);" title="Next image"><span></span></a>
+        <a class="lb-button" id="prev-button" href="javascript:void(0);" title="Previous image"><span></span></a>
+      </div>
+      <div id="video-elem" class="video-elem click-close hidden"></div>
+      <div class="lb-img click-close" id="lb-img">
+        <div id="img-wrap" class="img-wrap">
+          <img id="prev-elem" class="prev-elem" src="" alt="Previous image in slideshow" />
+          <img id="current-elem" class="current-elem" src="" alt="Active image in slideshow" />
+          <img id="next-elem" class="next-elem" src="" alt="Next image in slideshow" />
+        </div>
+        <div id="lightbox-caption" class="caption"></div>
+      </div>
+      <div class="thumbnail-view hidden" id="thumbnail-view">
+        <ul>
+                                    <li>
+                <a href="javascript:void(0);">
+                  <span class="image">
+                    <img alt="" src="" data-src="https://api.army.mil/e2/c/images/2017/12/13/501414/original.jpg" data-title="Dwight D. Eisenhower and the Birth of the Interstate Highway System" data-author=""
+                    data-full-desc="">
+                    <p class="img-title">Dwight D. Eisenhower and the Birth of the Interstate Highway System</p>
+                  </span>
+                </a>
+              </li>
+                          <li>
+                <a href="javascript:void(0);">
+                  <span class="image">
+                    <img alt="" src="" data-src="https://api.army.mil/e2/c/images/2017/12/13/501415/original.jpg" data-title="Dwight D. Eisenhower and the Birth of the Interstate Highway System" data-author=""
+                    data-full-desc="A map of the First Transcontinental Motor Convoy. The 1919 operation was a road test for military vehicles and was used to identify the challenges in moving troops from coast to coast on the existing infrastructure. The excursion covered 3,200 miles ...">
+                    <p class="img-title">Dwight D. Eisenhower and the Birth of the Interstate Highway System</p>
+                  </span>
+                </a>
+              </li>
+                              </ul>
+      </div>
+      <div class="image-loading"></div>
+    </div>
+  </div>
+</div>    <div id="loading" class="loading">
+  <div id="loading-bar" class="loading-bar"></div>
+</div>    <script
+    type="text/javascript"
+    src="https://www.army.mil/e2/js/rv7/main/army_mil_searchgov_sayt_loader.js"
+    integrity="sha384-d0OhafLmLE7BWLyFtyJDjz21pszH7X++shSDoUY7YEcdE9IKvdTGrImLzJJQv27l"
+    crossorigin="anonymous"
+></script>
+<!-- to include extra GA codes, use format: -->
+<!-- <div id="ga-analytic-codes" data-codes="G-xxx, G-xxx"></div> -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQMQPQYJ4J"></script>
+<script
+    type="text/javascript"
+    src="https://www.army.mil/e2/js/rv7/main/google_analytics4.js"
+    integrity="sha384-edaw17livoqdnSsOB+0OpunEQR1CkU1VOJNP9Z8sm3sYEVmfUfafIB3/fUZ7hift"
+    crossorigin="anonymous"
+></script>
+    <section id="social-bar-id" class="social-bar">
+    <h2 class="hidden">Social Sharing</h2>
+    <ul>
+        <li class="social-button no-hover twitter-button">
+            <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/share?url=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system&amp;text=Dwight%20D.%20Eisenhower%20and%20the%20birth%20of%20the%20Interstate%20Highway%20System"><span>Share on Twitter</span></a>
+        </li>
+        <li class="social-button no-hover facebook-button">
+            <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system"><span>Share on Facebook</span></a>
+        </li>
+        <li class="social-button no-hover reddit-button">
+            <a rel="noopener noreferrer" target="_blank" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system"><span>Share on Reddit</span></a>
+        </li>
+        <li class="social-button no-hover linkedin-button">
+            <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/cws/share?url=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system"><span>Share on LinkedIn</span></a>
+        </li>
+        <li class="social-button no-hover email-button">
+            <a rel="noopener noreferrer" target="_blank" href="mailto:?Subject=Dwight%20D.%20Eisenhower%20and%20the%20birth%20of%20the%20Interstate%20Highway%20System&amp;body=https%3A%2F%2Fwww.army.mil%2Farticle%2F198095%2Fdwight_d_eisenhower_and_the_birth_of_the_interstate_highway_system"><span>Share via Email</span></a>
+        </li>
+    </ul>
+</section>    <script src="/e2/global/rv7/topnav/navbar.js" async></script>
+    <script src="/e2/global/rv7/footer/footer.js" async></script>
+    <script src="/js/article.js?id=6292c25ed28f08086b3501466b73e53f" async></script>
+</body>
+</html>

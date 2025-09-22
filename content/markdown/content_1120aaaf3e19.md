@@ -1,0 +1,668 @@
+# Content from http://www.kpcb.com/blog/2016-internet-trends-report
+
+*Retrieved: 2025-09-15T08:40:25.464053*
+
+---
+
+<!DOCTYPE html>
+<html>
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.kpcb.com/blog/2016-internet-trends-report","20180625120505","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1529928305");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<!-- Designed and built by http://squaremill.com -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- <preference name="KeyboardShrinksView" value="false"> -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="purple"/>
+<title>
+    2016 Internet Trends Report &mdash; Kleiner Perkins Caufield Byers
+</title>
+<meta content="authenticity_token" name="csrf-param"/>
+<meta content="8v1QfdDwh5MUdeJGCOGzjRzMLKAkddc1QuGRCCP9CFc=" name="csrf-token"/>
+<meta name="description" content="2016 Internet Trends Report">
+
+<meta name="author" content="Kleiner Perkins Caufield Byers www.kpcb.com">
+  <meta name="robots" content="index,follow">
+<meta name="generator" content="Kleiner Perkins Caufield Byers">
+
+<meta property="og:url" content="http://web.archive.org/web/20180625120505/http://www.kpcb.com/blog/2016-internet-trends-report">
+  <meta property="og:title" content="2016 Internet Trends Report"/>
+  <meta property="og:description" content="KPCBâs Mary Meeker presents the 2016 Internet Trends report, covering today's Internet growth."/>
+<meta property="og:image" content="/web/20180625120505im_/http://www.kpcb.com/assets/public/logo-header@2x-9c6d8c1b4ff5bc3ff6d24717b3b15f1e.png"/>
+
+<link href="/assets/favicons/ios-4df55bfd2755128f74d528236502e3ee.png" rel="apple-touch-precomposed" sizes="144x144" type="image/vnd.microsoft.icon"/>
+<link href="/web/20180625120505im_/http://www.kpcb.com/assets/favicons/favicon-2106b3aed5e7073aa2eb6d385cc1eeaf.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+
+<link href="/web/20180625120505cs_/http://www.kpcb.com/assets/mn_application-f4084390e9fd5d42dd49248f77016c68.css" media="all" rel="stylesheet"/>
+  <link rel="stylesheet" href="http://web.archive.org/web/20180625120505cs_/https://use.typekit.net/ybt6udi.css">
+
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25438511-1']);
+  _gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'http://web.archive.org/web/20180625120505/https://ssl' : 'http://web.archive.org/web/20180625120505/http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<link rel="canonical" href="http://web.archive.org/web/20180625120505/http://www.kpcb.com/blog/2016-internet-trends-report"/>
+
+</head>
+<body id="blog" class="no-footer-margin ">
+  <!--[if lt IE 9]>
+<div class="deprecated-browser-notice">
+<p>You have a very old web browser. Your experience on this site may not be great because of it. Click the link below to upgrade your web browser.</p>
+<p><a class="button" href="http://browsehappy.com/?locale=en" target="_blank">Browse Happy!</a></p>
+</div>
+<![endif]-->
+
+<header id="header" class="global-header">
+  <nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+      <li class="toggle-topbar menu-icon">
+        <a href="#">
+          <span></span>
+        </a>
+      </li>
+      <li class="name">
+        <h1>
+          <a class="logo dropdown-trigger" href="http://web.archive.org/web/20180625120505/http://www.kpcb.com/">
+            <img alt="Logo header@2x" class="white-logo" height="32" src="/web/20180625120505im_/http://www.kpcb.com/assets/global/logo-header@2x-9c6d8c1b4ff5bc3ff6d24717b3b15f1e.png" width="64"/>
+            <i class="kpcb kpcb-caret-down"></i>
+</a>        </h1>
+      </li>
+      <li class="dropdown menu top-bar-section">
+        <ul class="menu">
+          <li><a href="http://web.archive.org/web/20180625120505/http://www.kpcb.com/">KPCB</a></li>
+          <li><a href="http://web.archive.org/web/20180625120505/http://kpcbfellows.com/" target="_blank" title="Visit KPCB Fellows">KPCB Fellows</a></li>
+        </ul>
+      </li>
+
+</ul>
+    <section class="top-bar-section">
+
+<div class="right cta-container">
+          <a href="#" class="button" data-reveal-id="newsletter-signup-modal">Stay In Touch</a>
+        </div>
+
+<ul class="left initial" role="navigation">
+        <li><a href="/web/20180625120505/http://www.kpcb.com/teams">Team</a></li>
+        <li><a href="/web/20180625120505/http://www.kpcb.com/careers">Careers</a></li>
+        <li><a href="/web/20180625120505/http://www.kpcb.com/companies">Companies</a></li>
+        <li><a href="/web/20180625120505/http://www.kpcb.com/internet-trends">Internet Trends <i class="kpcb kpcb-angle-right"></i></a></li>
+        <li class="hr show-for-small-only"></li>
+        <li class="show-for-small-only">
+          <a href="http://web.archive.org/web/20180625120505/http://kpcbfellows.com/" target="_blank" title="Visit KPCB Fellows">KPCB Fellows</a>
+        </li>
+      </ul>
+    </section>
+  </nav>
+</header>
+
+<main class="global-main-content" role="main">
+    <div id="alert-box-info" class="alert-box info radius" style="display: none;" data-alert="">
+  <span class="alert-text"></span>
+  <a href="#" class="close">&times;</a>
+</div>
+
+<div id="alert-box-error" class="alert-box alert radius" style="display: none;" data-alert="">
+  <span class="alert-text"></span>
+  <a href="#" class="close">&times;</a>
+</div>
+
+<div class="bottom-bar-react original" data-flyoutad="content-meta">
+
+<div class="left">
+    <a class="bar-block" href="/web/20180625120505/http://www.kpcb.com/blog" title="View all blog articles from KPCB"> <i class="kpcb kpcb-angle-up"></i> All articles</a>
+    <div class="newsletter-form inline-form none">
+  <form accept-charset="UTF-8" action="/web/20180625120505/http://www.kpcb.com/blog/subscribe" class="subscribe-form" data-area="blog-fly-out" data-color="none" data-remote="true" method="post"><div style="display:none"><input name="utf8" type="hidden" value="â"/></div>
+    <div class="input text">
+      <input type="text" name="email" placeholder="Sign up for our newsletter" class="dark" autocapitalize="off" autocorrect="off">
+    </div>
+    <div class="input submit">
+      <input type="submit" name="submit" value="Sign Up" class="button small expand radius">
+    </div>
+</form></div>
+
+</div>
+
+<div class="right">
+      <a class="bar-block" href="/web/20180625120505/http://www.kpcb.com/blog/taking-the-dysfunction-out-of-cross-functional-teams" title="Read next article">Read next <i class="kpcb kpcb-angle-right"></i></a>
+
+<div class="social-links">
+      <span class="promo-title">Share</span>
+      <ul class="social-module social-buttons social-square no-label">
+        <li class="facebook">
+    <!-- Replace with your URL. For best results, make sure you page has the proper FB Open Graph tags in header:
+    https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/ -->
+  <a href="http://web.archive.org/web/20180625120505/https://www.facebook.com/sharer/sharer.php?u=http://kpcb.cc/19389e9" class="popup" onclick="socialShare('facebook','bottom-bar')">
+    <span class="icon"><i class="kpcb kpcb-facebook"></i></span>
+    <span class="text">
+      <span class="share-text">Share on </span>
+
+Facebook
+    </span>
+  </a>
+</li>
+
+<li class="twitter">
+  <!-- Replace href with your Meta and URL information  -->
+  <a href="http://web.archive.org/web/20180625120505/http://twitter.com/intent/tweet?text=2016 Internet Trends Report&amp;url=http://kpcb.cc/19389e9&amp;via=kpcb" class="popup" onclick="socialShare('twitter','bottom-bar')">
+    <span class="icon"><i class="kpcb kpcb-twitter"></i></span>
+    <span class="text">
+      <span class="share-text">Share on </span>
+
+Twitter
+    </span>
+  </a>
+</li>
+
+<li class="linkedin">
+    <a href="http://web.archive.org/web/20180625120505/http://www.linkedin.com/shareArticle?mini=true&amp;url=http://kpcb.cc/19389e9&amp;title=2016 Internet Trends Report&amp;summary=2016 Internet Trends Report&amp;source=Kleiner%20Perkins%20Caufield%20%26%20Byers" class="popup" onclick="socialShare('linkedin','bottom-bar')" <span class="icon"><i class="kpcb kpcb-linkedin"></i></span>
+      <span class="text">
+        <span class="share-text">Share on </span>
+
+LinkedIn
+      </span>
+    </a>
+</li>
+
+</ul>
+    </div>
+    <a class="tooltip bar-block" data-reveal-id="email-article-modal" href="#" title="Share Article"><i class="kpcb kpcb-envelope-o kpcb-2x"></i></a>
+  </div>
+</div>
+
+<article id="article-889" class="post long-format">
+    <header class="hero-embed">
+      <div class="embed-container">
+        <div class="row">
+  <div class="small-12 medium-10 medium-centered columns">
+    <div class="header-media media">
+      <div class="wide-video flex-video flex-slideshare">
+          <iframe src="http://web.archive.org/web/20180625120505if_/https://www.slideshare.net/slideshow/embed_code/key/D0N5V1PjTsIasR" width="100%" height="100%" style="position: absolute;" frameborder="0" marginwidth="100%" marginheight="100%" style="position: absolute;" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+          <div class="small-12 medium-10 medium-centered columns">
+
+<header class="post-header">
+  <a class="article-type article-label article-type-report tooltip" href="/web/20180625120505/http://www.kpcb.com/blog/type/report" title="View recent reports">
+  <i class="kpcb kpcb kpcb-file-text-o"></i>
+  REPORT
+</a>
+  <h1 class="title">2016 Internet Trends Report</h1>
+
+</header>
+
+</div>
+        </div>
+      </div>
+    </header>
+
+<div class="row">
+    <div class="medium-10 medium-centered end columns">
+
+<div class="byline">
+        <p class="datetime">
+  <span class="show-for-medium-up">Wednesday, June  1, 2016</span>
+  <span class="show-for-small-only">Jun 01, 2016</span>
+</p>
+
+<span class="dot-separator">â¢</span>
+  <p class="authors">
+    
+<span class="author"><a href="/web/20180625120505/http://www.kpcb.com/blog/partner/mary-meeker" title="View Mary Meeker's Blog Posts">Mary Meeker</a></span>  </p>
+
+</div>
+      
+<ul class="social-module social-buttons thirds">
+  <li class="facebook">
+    <!-- Replace with your URL. For best results, make sure you page has the proper FB Open Graph tags in header:
+    https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/ -->
+  <a href="http://web.archive.org/web/20180625120505/https://www.facebook.com/sharer/sharer.php?u=http://kpcb.cc/7eb4d68" class="popup" onclick="socialShare('facebook','below-hero')">
+    <span class="icon"><i class="kpcb kpcb-facebook"></i></span>
+    <span class="text">
+      <span class="share-text">Share on </span>
+
+Facebook
+    </span>
+  </a>
+</li>
+
+<li class="twitter">
+  <!-- Replace href with your Meta and URL information  -->
+  <a href="http://web.archive.org/web/20180625120505/http://twitter.com/intent/tweet?text=2016+Internet+Trends+Report&amp;url=http://kpcb.cc/7eb4d68&amp;via=kpcb" class="popup" onclick="socialShare('twitter','below-hero')">
+    <span class="icon"><i class="kpcb kpcb-twitter"></i></span>
+    <span class="text">
+      <span class="share-text">Share on </span>
+
+Twitter
+    </span>
+  </a>
+</li>
+
+<li class="linkedin">
+    <a href="http://web.archive.org/web/20180625120505/http://www.linkedin.com/shareArticle?mini=true&amp;url=http://kpcb.cc/7eb4d68&amp;title=2016+Internet+Trends+Report&amp;summary=2016+Internet+Trends+Report&amp;source=Kleiner%20Perkins%20Caufield%20%26%20Byers" class="popup" onclick="socialShare('linkedin','below-hero')" <span class="icon"><i class="kpcb kpcb-linkedin"></i></span>
+      <span class="text">
+        <span class="share-text">Share on </span>
+
+LinkedIn
+      </span>
+    </a>
+</li>
+
+</ul>
+
+<div class="post-body managed long-form-large">
+        <p><a href="http://web.archive.org/web/20180625120505/http://www.kpcb.com/file/2016-internet-trends-report" target="_blank" class="button small radius" style="color: #fff!important; box-shadow: none!important"><i class="kpcb kpcb-arrow-circle-down"></i> View a <span class="caps">PDF</span> of the Report</a></p>
+<p>The 2016 edition of Mary Meeker&#8217;s annual Internet Trends report covers today&#8217;s Internet growth and an in-depth look at the following:</p>
+<ul>
+	<li>Global Internet users have surpassed 3B; India has supplanted the US as the worldâs second-largest Internet market.</li>
+	<li>Internet user growth remains consistent (led by acceleration in India), while smartphone user and shipment growth have slowed.</li>
+	<li>In the face of a slowing global economy, key macro growth drivers from the past 2 decades are less certain.</li>
+	<li>Internet advertising (particularly via mobile) continues to grow, but so does ad-blocking, pushing the envelope on development of more innovative ad formats.</li>
+	<li>New online-first brands have rapidly grown in popularity for the millennial generation with their focus on omni-channel and personalized distribution strategies.</li>
+	<li>In communication, video and images shared are growing as a means of storytelling; creators, consumers, and advertisers are taking part.</li>
+	<li>Messaging has evolved from simple, expressive conversation to business-focused use cases, with Asian platforms often leading the way.</li>
+	<li>More efficient and often more convenient than typing, voice-based interfaces are ramping quickly and creating a new paradigm for human-computer interaction.</li>
+	<li>Transportation is being re-imagined, as the rise of car computerization, autonomous driving, and sharing transform our understanding of mobility.</li>
+	<li>Looking to China, Internet leadership continues, as the country boasts global innovation powerhouses in e-commerce, messaging, travel, financial services, and on-demand transportation.</li>
+	<li>The proliferation of data generated by a multitude of devices has fostered tremendous business opportunity, but privacy concerns abound.</li>
+</ul>
+<p><iframe width="560" height="315" src="http://web.archive.org/web/20180625120505if_/https://www.youtube.com/embed/334Gfug5OL0" frameborder="0" allowfullscreen></iframe></p>
+      </div>
+
+<div class="content-meta">
+          <div class="content-tags">
+    <i class="kpcb kpcb-tags"></i>
+
+<a href="/web/20180625120505/http://www.kpcb.com/blog/tag/Internet%20Trends">Internet Trends</a>, <a href="/web/20180625120505/http://www.kpcb.com/blog/partner/mary-meeker">Mary Meeker</a>  </div>
+
+</div>
+
+<!-- <h4>Share a link to this article</h4> -->
+        <div class="permalink-box">
+    <div id="copy-button" data-clipboard-text="http://kpcb.cc/19389e9" title="Copy link to clipboard" class="tooltip">
+      <i class="kpcb kpcb-paperclip"></i>
+      <span id="permalink-success">URL Copied to clipboard</span>
+    </div>
+    <input type="text" id="permalink-input" class="boxy-input" value="http://kpcb.cc/19389e9">
+  </div>
+
+</div>
+  </div>
+</article>
+
+<div class="full-width-row almost-white padding nocontent">
+  <div class="row">
+    <div class="medium-12 columns">
+      <h2 class="h4 normal">Recommended Reading</h2>
+      <ul class="block-grid small-block-grid-2 medium-block-grid-3 large-block-grid-4 recommended">
+    <li class="item">
+      <a class="big-link" href="/web/20180625120505/http://www.kpcb.com/blog/top-10-mobile-internet-trends" title="View Top 10 Mobile Internet Trends">
+        <div class="media">
+              <div class="preserve-aspect" style="background-image: url('http://web.archive.org/web/20180625120505im_/http://kpcbweb2.s3.amazonaws.com/content/5/square_thumb_Screen_Shot_2015-05-05_at_1.01.30_PM.png')"></div>
+        </div>
+
+<div class="text">
+          <h3 class="h5">
+            Top 10 Mobile Internet Trends
+          </h3>
+        </div>
+</a>    </li>
+    <li class="item">
+      <a class="big-link" href="/web/20180625120505/http://www.kpcb.com/blog/2014-internet-trends" title="View 2014 Internet Trends">
+        <div class="media">
+              <div class="preserve-aspect" style="background-image: url('http://web.archive.org/web/20180625120505im_/http://kpcbweb2.s3.amazonaws.com/content/636/square_thumb_Screen_Shot_2015-05-05_at_12.45.13_PM.png')"></div>
+        </div>
+
+<div class="text">
+          <h3 class="h5">
+            2014 Internet Trends
+          </h3>
+        </div>
+</a>    </li>
+    <li class="item">
+      <a class="big-link" href="/web/20180625120505/http://www.kpcb.com/blog/2015-internet-trends" title="View 2015 Internet Trends">
+        <div class="media">
+              <div class="preserve-aspect" style="background-image: url('http://web.archive.org/web/20180625120505im_/http://kpcbweb2.s3.amazonaws.com/content/813/square_thumb_Screen_Shot_2015-05-27_at_8.01.37_AM.png')"></div>
+        </div>
+
+<div class="text">
+          <h3 class="h5">
+            2015 Internet Trends
+          </h3>
+        </div>
+</a>    </li>
+    <li class="item">
+      <a class="big-link" href="/web/20180625120505/http://www.kpcb.com/blog/prisma-raises-4-5m-seed-round-led-by-kleiner-perkins" title="View  Prisma raises $4.5M seed round led by Kleiner Perkins">
+        <div class="media">
+              <div class="preserve-aspect" style="background-image: url('http://web.archive.org/web/20180625120505im_/http://kpcbweb2.s3.amazonaws.com/content/942/square_thumb_GraphQL-Founders.jpg')"></div>
+        </div>
+
+<div class="text">
+          <h3 class="h5">
+             Prisma raises $4.5M seed round led by Kleiner Perkins
+          </h3>
+        </div>
+</a>    </li>
+    <li class="item">
+      <a class="big-link" href="/web/20180625120505/http://www.kpcb.com/blog/this-scrappy-startup-wants-to-save-family-farms-but-big-ag-is-fighting-back" title="View This Scrappy Startup Wants To Save Family Farms. But Big Ag Is Fighting Back">
+        <div class="media">
+              <div class="preserve-aspect" style="background-image: url('http://web.archive.org/web/20180625120505im_/http://kpcbweb2.s3.amazonaws.com/content/948/square_thumb_https---blogs-images.forbes.com-amyfeldman-files-2018-06-farm-network-Desphande-and-Baron_2000x1125-1200x675.jpg')"></div>
+        </div>
+
+<div class="text">
+          <h3 class="h5">
+            This Scrappy Startup Wants To Save Family Farms. But Big Ag Is Fighting Back
+          </h3>
+        </div>
+</a>    </li>
+    <li class="item">
+      <a class="big-link" href="/web/20180625120505/http://www.kpcb.com/blog/gates-notes-management-tips-from-a-brilliant-business-leader" title="View Gates Notes: Management tips from a brilliant business leader">
+        <div class="media">
+              <div class="preserve-aspect" style="background-image: url('http://web.archive.org/web/20180625120505im_/http://kpcbweb2.s3.amazonaws.com/content/944/square_thumb_Screen_Shot_2018-05-16_at_11.45.08_AM.png')"></div>
+        </div>
+
+<div class="text">
+          <h3 class="h5">
+            Gates Notes: Management tips from a brilliant business leader
+          </h3>
+        </div>
+</a>    </li>
+    <li class="item">
+      <a class="big-link" href="/web/20180625120505/http://www.kpcb.com/blog/our-investment-in-prisma" title="View Our Investment in Prisma">
+        <div class="media">
+              <div class="preserve-aspect" style="background-image: url('http://web.archive.org/web/20180625120505im_/http://kpcbweb2.s3.amazonaws.com/content/941/square_thumb_prisma.jpg')"></div>
+        </div>
+
+<div class="text">
+          <h3 class="h5">
+            Our Investment in Prisma
+          </h3>
+        </div>
+</a>    </li>
+    <li class="item">
+      <a class="big-link" href="/web/20180625120505/http://www.kpcb.com/blog/this-start-up-made-connected-toothbrushes-now-it-aims-to-overthrow-the-primitive-" title="View This start-up made connected toothbrushes -- now it aims to overthrow the 'primitive' dental insurance industry ">
+        <div class="media">
+              <div class="preserve-aspect" style="background-image: url('http://web.archive.org/web/20180625120505im_/http://kpcbweb2.s3.amazonaws.com/content/943/square_thumb_Screen_Shot_2018-05-15_at_4.53.48_PM.png')"></div>
+        </div>
+
+<div class="text">
+          <h3 class="h5">
+            This start-up made connected toothbrushes -- now it aims to overthrow the &#39;primitive&#39; dental insurance industry 
+          </h3>
+        </div>
+</a>    </li>
+</ul>
+
+</div>
+  </div>
+</div>
+
+</main>
+  <footer id="footer" class="global-footer">
+  <div class="horizontal-band social-band light-text">
+    <h2 class="h4">Follow Us</h2>
+<ul class="social-module social-buttons no-label social-square clearfix">
+  <li class="facebook">
+  <a href="http://web.archive.org/web/20180625120505/https://www.facebook.com/kpcbprofile" class="popup" target="_blank" onclick="socialFollow('facebook','footer')" <span class="icon"><i class="kpcb kpcb-facebook"></i></span>
+    <span class="text">facebook</span>
+  </a>
+</li>
+
+<li class="twitter">
+  <a href="http://web.archive.org/web/20180625120505/https://twitter.com/#!/kpcb" class="popup" target="_blank" onclick="socialFollow('twitter','footer')" <span class="icon"><i class="kpcb kpcb-twitter"></i></span>
+    <span class="text">twitter</span>
+  </a>
+</li>
+
+<li class="linkedin">
+  <!-- Replace href with your meta and URL information -->
+  <a href="http://web.archive.org/web/20180625120505/http://www.linkedin.com/company/kleiner-perkins-caufield-&amp;-byers" class="popup" target="_blank" onclick="socialFollow('linkedin','footer')" <span class="icon"><i class="kpcb kpcb-linkedin"></i></span>
+    <span class="text">linkedin</span>
+  </a>
+</li>
+
+<li class="youtube">
+  <a href="http://web.archive.org/web/20180625120505/https://www.youtube.com/user/KPCBchannel" class="popup" target="_blank" onclick="socialFollow('youtube','footer')" <span class="icon"><i class="kpcb kpcb-youtube"></i></span>
+    <span class="text">youtube</span>
+  </a>
+</li>
+
+<li class="soundcloud">
+  <a href="http://web.archive.org/web/20180625120505/https://soundcloud.com/venturedpodcast" class="popup" target="_blank" onclick="socialFollow('soundcloud','footer')" <span class="icon"><i class="kpcb kpcb-soundcloud"></i></span>
+    <span class="text">Soundcloud</span>
+  </a>
+</li>
+
+</ul>
+
+</div>
+
+<div class="newsletter row">
+      <div class="medium-6 medium-centered columns">
+        <div class="newsletter-form inline-form ">
+  <form accept-charset="UTF-8" action="/web/20180625120505/http://www.kpcb.com/blog/subscribe" class="subscribe-form" data-area="footer" data-color="none" data-remote="true" method="post"><div style="display:none"><input name="utf8" type="hidden" value="â"/></div>
+    <div class="input text">
+      <input type="text" name="email" placeholder="Sign up for our newsletter" class="dark" autocapitalize="off" autocorrect="off">
+    </div>
+    <div class="input submit">
+      <input type="submit" name="submit" value="Sign Up" class="button small expand radius">
+    </div>
+</form></div>
+
+</div>
+    </div>
+
+<div class="medium-10 medium-centered large-8 columns hide-for-small">
+    <!-- <p class="footer-text"><p>For over 45 years, <span class="caps">KPCB</span> has backed hundreds of entrepreneurs in their quest to bring world changing ideas to market.<br> Dream Bigger.</p></p> -->
+    <p class="footer-text">KPCB is committed to respecting and protecting your <a href="/web/20180625120505/http://www.kpcb.com/privacy-policy">privacy</a>; please contact <a href="http://web.archive.org/web/20180625120505/mailto:sbiglieri@kpcb.com">sbiglieri@kpcb.com</a>.</p>
+  </div>
+
+<div class="row">
+    <nav class="medium-12 columns">
+
+<p class="nav" role="navigation">
+        Affiliated Funds:
+        <a href="/web/20180625120505/http://www.kpcb.com/china">China I &amp; II</a>,
+        <a href="/web/20180625120505/http://www.kpcb.com/ggf">Green Growth Fund</a>
+      </p>
+
+<ul class="nav" style="margin: 40px 0 0" role="navigation">
+        <li><a class="button" href="http://web.archive.org/web/20180625120505/https://www.amazon.com/Measure-What-Matters-Google-Foundation/dp/0525536221">Order &quot;Measure What Matters&quot;</a></li>
+      </ul>
+
+<ul class="nav hide-for-small" style="margin: 40px 0 0" role="navigation">
+        <li><a href="/web/20180625120505/http://www.kpcb.com/teams">Team</a></li>
+        <li><a href="/web/20180625120505/http://www.kpcb.com/companies">Companies</a></li>
+        <li><a href="/web/20180625120505/http://www.kpcb.com/careers">Careers</a></li>
+        <li><a href="/web/20180625120505/http://www.kpcb.com/china">KPCB China</a></li>
+      </ul>
+      <ul class="nav" role="navigation">
+        <li><a href="http://web.archive.org/web/20180625120505/https://services.sungarddx.com/" target="_blank">Investor Sign In</a></li>
+        <li><a href="/web/20180625120505/http://www.kpcb.com/assets">Brand Assets</a></li>
+        <li><a href="/web/20180625120505/http://www.kpcb.com/privacy-policy">Privacy Policy</a></li>
+        <li><a href="/web/20180625120505/http://www.kpcb.com/terms-of-use">Terms of Use</a></li>
+      </ul>
+    </nav>
+  </div>
+
+<div class="full-width-row with-spacing">
+    <div class="small-12 medium-6 columns">
+      <ul class="vcard">
+  <li class="url fn org">
+    <a href="http://web.archive.org/web/20180625120505/http://www.kpcb.com/">KPCB Menlo Park</a>
+  </li>
+  <li class="adr">
+    <div class="street-address">2750 Sand Hill Road</div>
+    <span class="locality">Menlo Park</span>,
+    <abbr class="region" title="California">CA</abbr>
+    <span class="postal-code">94025</span>
+    <span class="country-name">USA</span>
+  </li>
+  <li class="tel">
+    <span class="type">Office</span>
+    <span class="value">+1-650.233.2750</span>
+  </li>
+  <li class="tel">
+    <span class="type">Fax</span>
+    <span class="value">+1-650.233.0300</span>
+  </li>
+  <li class="email">
+    <span class="type">Email</span>
+    <span class="value"><a href="http://web.archive.org/web/20180625120505/mailto:plans@kpcb.com">plans@kpcb.com</a></span>
+  </li>
+</ul>
+
+</div>
+    <div class="small-12 medium-6 columns">
+      <ul class="vcard">
+  <li class="url fn org">
+    <a href="http://web.archive.org/web/20180625120505/http://www.kpcb.com/">KPCB San Francisco</a>
+  </li>
+  <li class="adr">
+    <div class="street-address">101 South Park Street</div>
+    <span class="locality">San Francisco</span>,
+    <abbr class="region" title="California">CA</abbr>
+    <span class="postal-code">94107</span>
+    <span class="country-name">USA</span>
+  </li>
+  <li class="tel">
+    <span class="type">Office</span>
+    <span class="value">+1-650.233.2750</span>
+  </li>
+  <li class="tel">
+    <span class="type">Fax</span>
+    <span class="value">+1-650.233.0300</span>
+  </li>
+  <li class="email">
+    <span class="type">Email</span>
+    <span class="value"><a href="http://web.archive.org/web/20180625120505/mailto:plans@kpcb.com">plans@kpcb.com</a></span>
+  </li>
+</ul>
+
+</div>
+  </div>
+</footer>
+
+<script src="/web/20180625120505js_/http://www.kpcb.com/assets/mn_application-f18ea2ec82ec9e91bb40191803439d00.js"></script>
+      <script>
+      var client = new ZeroClipboard( $('#copy-button') );
+
+client.on( "ready", function( readyEvent ) {
+        client.on( "aftercopy", function( event ) {
+          var currentVal = $('#permalink-input').val();
+          $('#permalink-input').val("Copied to clipboard");
+
+setTimeout(function () {
+            $('#permalink-input').val(currentVal);
+          }, 1000);
+        });
+      });
+    </script>
+
+<section id="email-article-modal" class="reveal-modal" data-reveal>
+  <header class="reveal-header">
+    <h2><i class="kpcb kpcb-envelope-o"></i>Email this article</h2>
+  </header>
+  <form accept-charset="UTF-8" action="/web/20180625120505/http://www.kpcb.com/blog/2016-internet-trends-report/email" class="simple_form" data-remote="true" method="post"><div style="display:none"><input name="utf8" type="hidden" value="â"/></div>
+    <div class="reveal-body">
+      <ul class="no-style">
+        <li class="input text">
+          <p>
+            Subject:
+            <br> <strong>2016 Internet Trends Report</strong>
+          </p>
+        </li>
+
+<li class="row input text">
+          <div class="medium-12 columns">
+            <input type="text" name="emails" value="" placeholder="Recipient email addresses">
+            <div class="hint">
+              Separate multiple email addresses with a comma
+            </div>
+          </div>
+        </li>
+        <li class="row input text">
+          <div class="medium-12 columns">
+            <label>Message</label>
+            <textarea name="notes" rows="8" cols="40" class="sm" placeholder="Enter a message here"></textarea>
+          </div>
+        </li>
+      </ul>
+      <hr>
+    </div>
+    <div class="reveal-footer">
+      <a href="#" onclick="$(this).closest('form').submit(); return false;" class="button small radius"><i class="kpcb kpcb-paper-plane"></i> Send</a>
+    </div>
+</form>  <a class="close-reveal-modal">&#215;</a>
+</section>
+
+<div id="newsletter-signup-modal" class="reveal-modal" data-reveal="" data-animation="fade" aria-hidden="false" tabindex="0">
+  <section class="modal-inner">
+    <header class="reveal-header">
+      <h2>Sign up for Ventured</h2>
+      <a class="close-reveal-modal">Ã</a>
+    </header>
+
+<div class="reveal-body">
+      <form accept-charset="UTF-8" action="/web/20180625120505/http://www.kpcb.com/blog/subscribe" class="subscribe-form row" data-area="" data-color="gray" data-remote="true" method="post"><div style="display:none"><input name="utf8" type="hidden" value="â"/></div>
+        <div class="small-12 columns">
+          <p>Sign up to receive our updates about trends in tech, venture capital, and startups.</p>
+        </div>
+        <div class="small-9 columns">
+          <input type="text" name="email" placeholder="Sign up for our newsletter" autocapitalize="off" autocorrect="off">
+        </div>
+        <div class="small-3 columns">
+          <input type="submit" name="submit" value="Sign Up" class="button small expand radius">
+        </div>
+</form>    </div>
+  </section>
+</div>
+
+<script src="http://web.archive.org/web/20180625120505js_/https://w.soundcloud.com/player/api.js" type="text/javascript"></script>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 12:05:05 Jun 25, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:40:25 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 2.62
+  exclusion.robots: 0.048
+  exclusion.robots.policy: 0.03
+  esindex: 0.015
+  cdx.remote: 141.342
+  LoadShardBlock: 620.024 (3)
+  PetaboxLoader3.datanode: 894.811 (4)
+  PetaboxLoader3.resolve: 3462.472 (2)
+  load_resource: 3870.68
+-->

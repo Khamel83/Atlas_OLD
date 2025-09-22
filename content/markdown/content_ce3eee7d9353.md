@@ -1,0 +1,730 @@
+# Content from http://www.grantland.com/story/_/id/6739353/bill-james-crime
+
+*Retrieved: 2025-09-15T09:03:41.522434*
+
+---
+
+<!DOCTYPE HTML>
+<!--[if IEMobile 7 ]><html class="no-js iem7" manifest="default.appcache?v=1"><![endif]-->
+<!--[if lt IE 7 ]><html class="no-js ie6" lang="en-US"><![endif]-->
+<!--[if IE 7 ]><html class="no-js ie7" lang="en-US"><![endif]-->
+<!--[if IE 8 ]><html class="no-js ie8" lang="en-US"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en-US"><!--<![endif]-->
+	<head>
+		<title> &raquo; Q&amp;A: Bill James on Crime</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="lf4qvbBa8f7w9TxSVvOI6PouWfTfABYwVCWHjn2qr7Y" />
+		<meta name="msvalidate.01" content="980DAC91C6458F6FA90F7089E61D12B0" />
+		<meta name="googlebot" content="noodp" />
+		<meta name="robots" content="index, follow" />
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="pingback" href="https://grantland.com/xmlrpc.php" />
+		<link rel="mask-icon" color="black" href="https://grantland.com/wp-content/themes/espn-grantland/img/grantland-g.svg">
+		<link rel="shortcut icon" href="https://grantland.com/wp-content/themes/espn-grantland/img/favicon.ico"/>
+		<link rel="apple-touch-icon" href="https://grantland.com/wp-content/themes/espn-grantland/img/apple-touch-icon.png"/>
+		<!--[if lte IE 8 ]>
+		<link rel="stylesheet" href="https://grantland.com/wp-content/themes/espn-grantland/css/lte-ie8.css"/>
+		<![endif]-->
+
+<style>
+			.has-comment {
+				cursor: help;
+			}
+		</style>
+		<script>
+			document.documentElement.classList.toggle('no-js');
+			document.documentElement.classList.toggle('js');
+		</script>
+				<link rel='dns-prefetch' href='//dcf.espn.com' />
+
+<script type="text/javascript">
+			function setCountryCookie(value,days) {
+				var expires = "";
+				if (days) {
+					var date = new Date();
+					date.setTime(date.getTime() + (days*24*60*60*1000));
+					expires = "; expires=" + date.toUTCString();
+				}
+				document.cookie = "country=" + (value || "") + expires + "; path=/";
+			}
+
+function getCountryCookie() {
+				let value = decodeURIComponent(document.cookie);
+				let parts = value.split(`; country=`);
+  				if (parts.length === 2) {
+					return parts.pop().split(';').shift();
+				}
+				return "";
+			}
+
+var countryCookie = getCountryCookie();
+			if ( ! countryCookie || 'us' !== countryCookie ) {
+				setCountryCookie('us',1);
+			}
+		</script>
+				<script type="text/javascript">
+			var __dataLayer = {"page":{"content_publish_date":"07\/12\/2011","content_publish_time":"08:18","content_last_update_date":"03\/31\/2015","content_last_update_time":"17:55","contentcategory":"","section_1":"","section_2":"","story_title":"Q&A: Bill James on Crime","story_id":86312,"author":"","page_name":"features","content_type":"features","app_version":"1.0.4","device_type":"Desktop","prev_page":false},"site":{"baseDomain":"grantland.com","otguid":"0191cec3-baf4-761d-81fa-034310bf96b3","nsl":2},"detailsEndpoint":"https:\/\/grantland.com\/wp-json\/dtci_datalayer\/v1\/get_page_details\/"};
+		</script>
+		
+		<script src="https://dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js"></script>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//secure.espn.com' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
+<link rel='dns-prefetch' href='//tpc.googlesyndication.com' />
+<link rel='dns-prefetch' href='//securepubads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//www.googleadservices.com' />
+<link rel='dns-prefetch' href='//adservice.google.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='stylesheet' id='all-css-0' href='https://grantland.com/_static/??/wp-content/themes/espn-grantland/css/vendor/jquery.modal.css,/wp-includes/css/dist/block-library/style.min.css?m=1756387434' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='all-css-2' href='https://grantland.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpqbmpgaGBiZmQIARKsu3g==' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='elasticpress-facet-style-inline-css'>
+.widget_ep-facet input[type=search],.wp-block-elasticpress-facet input[type=search]{margin-bottom:1rem}.widget_ep-facet .searchable .inner,.wp-block-elasticpress-facet .searchable .inner{max-height:20em;overflow:scroll}.widget_ep-facet .term.hide,.wp-block-elasticpress-facet .term.hide{display:none}.widget_ep-facet .empty-term,.wp-block-elasticpress-facet .empty-term{opacity:.5;position:relative}.widget_ep-facet .empty-term:after,.wp-block-elasticpress-facet .empty-term:after{bottom:0;content:" ";display:block;left:0;position:absolute;right:0;top:0;width:100%;z-index:2}.widget_ep-facet .level-1,.wp-block-elasticpress-facet .level-1{padding-left:20px}.widget_ep-facet .level-2,.wp-block-elasticpress-facet .level-2{padding-left:40px}.widget_ep-facet .level-3,.wp-block-elasticpress-facet .level-3{padding-left:60px}.widget_ep-facet .level-4,.wp-block-elasticpress-facet .level-4{padding-left:5pc}.widget_ep-facet .level-5,.wp-block-elasticpress-facet .level-5{padding-left:75pt}.widget_ep-facet input[disabled],.wp-block-elasticpress-facet input[disabled]{cursor:pointer;opacity:1}.widget_ep-facet .term a,.wp-block-elasticpress-facet .term a{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;position:relative}.widget_ep-facet .term a:hover .ep-checkbox,.wp-block-elasticpress-facet .term a:hover .ep-checkbox{background-color:#ccc}.ep-checkbox{-webkit-box-align:center;-ms-flex-align:center;-ms-flex-negative:0;-webkit-box-pack:center;-ms-flex-pack:center;align-items:center;background-color:#eee;display:-webkit-box;display:-ms-flexbox;display:flex;flex-shrink:0;height:1em;justify-content:center;margin-right:.25em;width:1em}.ep-checkbox:after{border:solid #fff;border-width:0 .125em .125em 0;content:"";display:none;height:.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);width:.25em}.ep-checkbox.checked{background-color:#5e5e5e}.ep-checkbox.checked:after{display:block}
+
+</style>
+<link rel='stylesheet' id='all-css-6' href='https://grantland.com/wp-content/mu-plugins/search/elasticpress/dist/css/related-posts-block-styles.min.css?m=1757443701g' type='text/css' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='all-css-8' href='https://grantland.com/_static/??-eJxtjEsOgzAMBS9EsKrw6abqWUII4BKcSHYE3J5USGxg9/RmNLBGZQOJI4Ho04jEMOKgoje76pJIIDDMThgs31C5IJX5LyBnkKxPvTvF3vCEOczPyo9BMp+7sF3jb32Xz6utG/1uK60PDIA5Hg==' type='text/css' media='all' />
+<link rel='stylesheet' id='screen-css-8' href='https://grantland.com/wp-content/themes/espn-grantland/style.min.css?m=1756387435g' type='text/css' media='screen' />
+<script type="text/javascript" src="https://grantland.com/_static/??-eJzTLy/QzcxLzilNSS3WzwKiwtLUokoopZebmaeXVayjj0+Rbm5melFiSSpUsX2uraG5qYmpgYGRmWkWAK9eIhs=" ></script><script type="text/javascript" src="https://secure.espn.com/combiner/c?js=plugins%2Fjquery.pubsub.r5.js%2Canalytics%2FvisitorAPI_156.js%2Canalytics%2FsOmni_161.js%2Canalytics%2Ftarget.r2.js&amp;ver=20160803-01" id="espn-omniture-js"></script>
+<script type="text/javascript" src="https://grantland.com/_static/??/wp-includes/js/underscore.min.js,/wp-content/themes/espn-grantland/js/grantland-header.min.js,/wp-includes/js/swfobject.js?m=1756387434j" ></script><script type="text/javascript" src="https://grantland.com/wp-content/plugins/dtci-data-privacy/assets/js/twitter-platform.min.js" id="twitter-js"></script>
+<script type="text/javascript" src="https://grantland.com/_static/??-eJyVzDEOwjAMQNELkViohbIgzhKCKQ6JHWJXVW9fEB1YGf/wPszVRWFDNrAHFlRArezGFthy4BskhSjyJIT0mrAt/ls+6Q5+cM3TSLxplUghQ1BF08/hHiJe384X4v+kzWSGzdUmpdrmL+W8Hw7H7jT0XZ9Wm5NIuw==" ></script><link rel="https://api.w.org/" href="https://grantland.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://grantland.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.2" />
+<link rel="canonical" href="https://grantland.com/features/bill-james-crime/" />
+<link rel='shortlink' href='http://gran.tl/1OWpdoD' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://grantland.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrantland.com%2Ffeatures%2Fbill-james-crime%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://grantland.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrantland.com%2Ffeatures%2Fbill-james-crime%2F&#038;format=xml" />
+<meta name="color-scheme" content="only light" />
+	<style>img#wpstats{display:none}</style>
+				<meta property="fb:app_id" content="135272579883594">
+		<meta name="author" content="Chuck Klosterman" ><meta name="DC.date.issued" content="86312" />
+<meta name="description" content="" />
+	</head>
+		<body class="wp-singular grantland_feature-template-default single single-grantland_feature postid-86312 wp-theme-espn-grantland ad-pre-head slug-bill-james-crime"> <!-- id="home" -->
+			<div class="ad-unit pre-head">
+		<div id="ad-Banner" class="ad-banner" data-defer="none"></div>	</div>
+	
+<div id="overlayad" class="ad-unit ad-slot-overlay">
+	<div id="ad-Overlay" class="ad-overlay" data-defer="none"></div></div>
+<div id="wallpaperad" class="ad-unit ad-slot-wallpaper">
+	<div id="ad-Wallpaper" class="ad-wallpaper" data-defer="none"></div></div>
+	<div id="page" class="layout-container page-feature">
+
+<!-- Begin .header -->
+<header class="header clearfix header-interior" role="banner">
+	<div class="logo">
+		<a name="&lpos=grantlandTopNav&lid=home" href="https://grantland.com">
+			<img src="https://grantland.com/wp-content/themes/espn-grantland/img/grantland-logo@2x.png " alt="" />
+		</a>
+	</div>
+	<div class="header-meta">
+
+<form action="https://grantland.com/" method="get" class="inline-form search-form">
+			<fieldset>
+				<legend class="is-vishidden">Search</legend>
+				<label for="search-field" class="is-vishidden">Search</label>
+				<input type="search" placeholder="Search" id="search-field" class="search-field" name="s" />
+				<button class="search-submit">
+					<span class="icon-search" aria-hidden="true"></span>
+					<span class="is-vishidden">Search</span>
+				</button>
+			</fieldset>
+		</form>
+	</div>
+	<a href="#nav" class="nav-toggle nav-toggle-menu icon-menu" id="nav-toggle"><span class="is-vishidden">Menu</span></a>
+	<a href="#search" class="nav-toggle nav-toggle-search icon-search"><span class="is-vishidden">Search</span></a>
+
+</header>
+<!-- End .header -->
+	<nav id="nav" class="nav" role="navigation">
+	<div class="nav-inner">
+
+<ul id="menu-main-navigation" class="menu"><li id="menu-item-94291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94291 post-name-features"><a href="/features/" name="&amp;lpos=grantlandSiteNav&amp;lid=Features">Features</a></li>
+<li id="menu-item-94292" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94292 post-name-the-triangle"><a href="/the-triangle/" name="&amp;lpos=grantlandSiteNav&amp;lid=The Triangle">The Triangle</a></li>
+<li id="menu-item-94293" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94293 post-name-the-hollywood-prospectus"><a href="/hollywood-prospectus/" name="&amp;lpos=grantlandSiteNav&amp;lid=Hollywood Prospectus">The Hollywood Prospectus</a></li>
+<li id="menu-item-94294" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94294 post-name-contributors"><a href="/contributors/" name="&amp;lpos=grantlandSiteNav&amp;lid=Contributors">Contributors</a></li>
+<li id="menu-item-94295" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94295 post-name-podcast"><a href="/podcasts/" name="&amp;lpos=grantlandSiteNav&amp;lid=Podcasts">Podcasts</a></li>
+<li id="menu-item-94296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94296 post-name-video"><a href="https://grantland.com/tags/grantland-channel/" name="&amp;lpos=grantlandSiteNav&amp;lid=Video">Video</a></li>
+<li id="menu-item-126491" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126491 post-name-quarterley"><a href="/quarterly/" name="&amp;lpos=grantlandSiteNav&amp;lid=Quarterly">Quarterly</a></li>
+<li id="menu-item-94297" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94297 post-name-quarterly"><a href="http://www.espn.com" name="&amp;lpos=grantlandSiteNav&amp;lid=ESPN.com">ESPN.com</a></li>
+</ul>
+	</div><!-- /.nav-inner -->
+	
+</nav><!--end .nav -->
+
+<div id="single-navigation" class="single-navigation">
+					<div class="prev">
+				<a href="https://grantland.com/features/the-king-court/">
+					<svg version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34">
+						<defs>
+							<rect id="a" width="34.036" height="33.683"/>
+						</defs>
+						<clipPath id="b">
+							<use xlink:href="#a" overflow="visible"/>
+						</clipPath>
+						<circle clip-path="url(#b)" stroke="#D0D2D3" stroke-width="2" cx="17.195" cy="16.841"
+								r="15.841" fill="none"/>
+						<text transform="matrix(-1 0 0 1 22.76 22.012)" fill="#D0D2D3" font-family="'ZapfDingbatsITC'" font-size="14">➤
+						</text>
+					</svg>
+				</a>
+
+</div>
+			<div class="nav-article">
+				<a href="https://grantland.com/features/the-king-court/">
+					<img src="https://grantland.com/wp-content/uploads/2011/07/mlb_g_felix11_57611.jpg" alt="">					<span class="byline category">Previous</span>
+					<h4>The King&#8217;s Court</h4>
+				</a>
+			</div>
+						<div class="next">
+				<a href="https://grantland.com/features/on-whiskey-grease/">
+					<svg version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34">
+						<defs>
+							<rect id="a" width="34.036" height="33.683"/>
+						</defs>
+						<circle class="circle-border" stroke="#D0D2D3" stroke-width="2" cx="17.195" cy="16.841"
+								r="15.841" fill="none"/>
+						<text class="arrow-img" transform="translate(11.276 22.012)" fill="#D0D2D3" font-family="'ZapfDingbatsITC'" font-size="14">➤
+						</text>
+					</svg>
+				</a>
+
+</div>
+			<div class="nav-article">
+				<a href="https://grantland.com/features/on-whiskey-grease/">
+										<span class="byline category">Next</span>
+					<h4>On Whiskey and Grease</h4>
+				</a>
+			</div>
+			</div>
+
+<div role="main">
+						<span class="feature">
+					<span class="feature-credits">AP Photo/Charles Krupa</span>
+					<img src="https://grantland.com/wp-content/uploads/2011/07/grant_a_james_57611.jpg?w=1003" srcset="https://grantland.com/wp-content/uploads/2011/07/grant_a_james_57611.jpg?w=1003 2048w, https://grantland.com/wp-content/uploads/2011/07/grant_a_james_57611.jpg?w=1003 1024w, https://grantland.com/wp-content/uploads/2011/07/grant_a_james_57611.jpg?w=750 750w, https://grantland.com/wp-content/uploads/2011/07/grant_a_james_57611.jpg?w=450 450w" sizes="(min-width: 54em) 1024px,100vw" alt="James" class="featured-image" />
+				</span><!-- .feature -->
+
+<article class="hentry layout-container">
+			<div class="social-share">
+				<ul class="social-share-list" data-stick-it>
+					<li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgrantland.com%2Ffeatures%2Fbill-james-crime%2F" target="_blank">Facebook</a></li>
+					<li><a class="twitter" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fgran.tl%2F1OWpdoD&#038;text=Q%26amp%3BA%3A+Bill+James+on+Crime&#038;related%5BGrantland33%5D=" target="_blank">Twitter</a></li>
+					<li><a href="https://grantland.com/features/bill-james-crime/?print=1" target="_blank" class="print-link">Print</a>
+					</li>
+				</ul>
+			</div>
+			<header class="title-card">
+				<div class="card">
+					<p class="byline category"><a href="https://grantland.com/tags/chuck-klosterman/">Chuck Klosterman</a></p>
+
+<h1 class="title">Q&amp;A: Bill James on Crime</h1>
+
+<p class="summary">
+					The father of sabermetrics on his new book and what makes a murderer						</p>
+					<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/chuck-klosterman/">Chuck Klosterman</a> on July 12, 2011</div>
+				</div>
+			</header>
+
+<div class="layout-two-col layout-two-col-locked feature-up">
+
+<div class="layout-main" id="layout-main">
+
+<div class="article-body automatic-styles ">
+						<p>If you&#8217;re interested in baseball, you&#8217;re interested in Bill James — he&#8217;s the inventor of sabermetrics, the ideological engine behind Michael Lewis&#8217; best-selling <i>Moneyball</i>, and the sport&#8217;s most influential writer and historian of the past 25 years. But you know what Bill James is interested in? Murderers. He&#8217;s interested in crime, the people who commit them, and — perhaps most tellingly — the people who write about them.</p>
+<p><aside class="espn-boxout" id="boxout-244872"><h4>More Grantland Q&amp;As</h4><span><a href="https://grantland.com/tags/grantland-q&amp;a/" target="_blank">Click here</a> for all of our interviews with fascinating people from the worlds of sports and pop culture. </span></aside>Over the span of his 62 years, James has read (by his own estimate) more than 1,000 books on the subject of crime and spent countless hours trying to figure out what they really mean; he&#8217;s tried to understand both the nature of the criminal mind and the meaning of society&#8217;s relationship with acts of the unspeakable. Now, after decades of unconscious research, James has written <i>Popular Crime: Reflections on the Celebration of Violence.</i> It&#8217;s a fascinating, comprehensive, deeply strange book (it dissects crime literature as much as it dissects crime, sometimes seeming like the most intense 10th grade book report the world has ever seen). I spoke with James about <i>Popular Crime</i> on the third-floor landing of Manhattan&#8217;s Le Parker Meridien Hotel; our conversation was slow at the onset, but evolved into an unexpected meditation on the future of society. Bearded and soft-spoken, James is among the most stoic people I&#8217;ve ever met — at no point did he seem interested, bored, happy, or annoyed. I think he might have laughed once, but I wouldn&#8217;t testify to that in court. We had only about 60 minutes before he took the train to Boston, where he continues to serve as the Red Sox&#8217;s senior advisor on baseball operations. What follows is pretty much our entire conversation …</p>
+<p><b>You mention in the book that you originally wanted to title this project <i>Something Terrible Has Happened</i>, only to discover there was already a 1966 true crime book by the same name. Why did you ultimately go with <i>Popular Crime</i>, and what exactly do you mean by the term &#8220;popular crime?&#8221; </b></p>
+<p>Crime is a bad thing. Being popular is a good thing. We take horrible events and we make entertainment out of them. We make them into popular culture. The title is a contrast. It&#8217;s almost an oxymoron. It&#8217;s a little like [the title of James&#8217; 1994 baseball Hall of Fame critique] <i>The Politics of Glory</i>.</p>
+<p><b>As a society, do we overestimate or underestimate the importance of crime in day-to-day life? </b></p>
+<p>We underestimate it, because it&#8217;s our intent to underestimate it. We only deal with it indirectly. We all do so many things to avoid being the victims of crime that we no longer see those things, so we don&#8217;t see the cost of it. Just finding a safe place for us to have this conversation, for example — we needed a quiet place, but before that, we needed to find a safe place. A hotel lobby is what it is because of the level of security. I&#8217;ve checked out of this hotel, but I&#8217;m still sitting here in the third-floor lobby, because it&#8217;s safe. When you buy something, it&#8217;s wrapped in seven layers of packaging in order to make it harder to steal.</p>
+<p><b>It&#8217;s also part of coded language, I suppose. When people are looking for a new home, they often say they want to live near a good school, but what they&#8217;re really saying is that they want live in a place where crime isn&#8217;t, because those things are deeply connected.</b></p>
+<p>That&#8217;s right. That&#8217;s what it is.</p>
+<p><b>How can understanding the nature of a specific crime help us to understand what it means to live in a certain place at a certain time?</b></p>
+<p>Details become very important, because crimes are described by people through those details. My favorite example of this is from the case of Sacco and Vanzetti.<span class="footnote-link" data-footnote-id="1" data-footnote-url="#fn-1" data-footnote-content="&amp;lt;p&amp;gt;Ferdinando Sacco and Bartolomeo Vanzetti were Massachusetts anarchists executed for the controversial murder of two men in 1920. The &amp;#8220;initial crime&amp;#8221; James is referring to was an armed robbery in Bridgewater, Mass.&amp;lt;/p&amp;gt;
+"><sup id="ss-1">1</sup></span> On the day the initial crime was committed, one of the accused was a fish merchant. At the time, the accused was alleged to be delivering eels. The Italian-American community used to eat pickled eels as part of their Christmas dinner, and this guy had been consigned to deliver a barrel of eels and claimed he was delivering those eels at the time of the robbery. He had something like 12 witnesses who swore that he was doing exactly that. But other witnesses stated that this was impossible because — since the eels were always served pickled — there was no way they could be ready for Christmas dinner if they were only being delivered on the day before. Therefore, they must have been delivered a few days earlier, which proves he was wrong about the date. This is a window into how that guy lived, and what it was like to live at that time. It&#8217;s not even the veracity of the fact, but the fact that this incident shows how these people lived.</p>
+<p><b>Early in the book, you write about the perceived &#8220;shame&#8221; that comes from being obsessed with crime, and that this has made the genre of crime writing ghettoized within literary circles. What do you think is the public perception of people who are obsessed with crime?</b></p>
+<p>I think among the population at large, people are openly fascinated with crime and don&#8217;t feel any shame over it. It&#8217;s only the opinion-makers and the &#8220;opinion elites&#8221; who turn up their noses. They&#8217;re the ones who don&#8217;t think crime should be discussed.</p>
+<p><b>Is this because the people you classify as the &#8220;opinion elites&#8221; tend to exist in a social class where crime does not affect them?</b></p>
+<p>Yes, that&#8217;s right.</p>
+<p><b>So what do <i>you</i> think it means to be obsessed with crime?</b></p>
+<p>Crimes stories are universally interesting. They reveal a side of people that we&#8217;d not otherwise talk about. Crime stories show us the part of people&#8217;s lives they try to keep hidden.</p>
+<p><b>Obviously, there are millions of crimes and millions of criminals. But is there some unifying element among the type of people who become murderers? What is the fundamental difference between the kind of person who kills someone and the kind of person who never could?</b></p>
+<p>That&#8217;s an interesting question. In a lot of true crime stories, you will see that someone testifies for the defendant and talks about what a good person they are, and that this person could never commit the crime in question. I would like to think of myself as someone who would never commit a crime. I&#8217;m sure a lot of people would. But I don&#8217;t think that&#8217;s a good argument for anything. If I was on a jury, the claim that the accused was &#8220;too good a person&#8221; to commit the crime would not be an argument I would buy. Rabbis commit crimes. Ministers. Priests commit terrible crimes. Now, are they committing these crimes because they&#8217;re not really good people and they&#8217;re just <i>pretending</i> to be good, or are they truly good people who simply fail to deal with certain situations? I think the latter is more often the case.</p>
+<p><b>Do you believe in the concept of &#8220;evil&#8221;? Does evil exist?</b></p>
+<p>Well … sure. Very evil things happens. I don&#8217;t have any problem saying that a certain act was evil or that someone acted evil in a given situation. Some people give themselves over to their most evil desires, and those people becomes evil. But in general, it&#8217;s reductive to think of evil as something foreign and separate from the rest of us. Evil is part of everyone. We all have the capacity to commit evil acts. Popular crime stories are mostly about apparently good people who commit heinous acts. Most of crime is committed by people who are living a criminal life and not making much effort to live good lives. But crime <i>stories</i> are more like O.J. Simpson:<span class="footnote-link" data-footnote-id="2" data-footnote-url="#fn-2" data-footnote-content="&amp;lt;p&amp;gt;Former NFL running back O.J. Simpson was famously acquitted for the grisly 1994 murder of two people in Los Angeles despite an overwhelming amount of evidence suggesting he was the &amp;#8220;real killer.&amp;#8221; Also: I assume if you needed to read this footnote, you are not the intended audience for this book.&amp;lt;/p&amp;gt;
+"><sup id="ss-2">2</sup></span> People who seem to be doing OK but then give in to evil urges.</p>
+<p><b>OK, so tell me this: In 1984, O.J. Simpson had not (allegedly) killed anyone. But was he already a murderer? Did that capacity to kill already exist within him, a decade before Nicole Brown Simpson was dead?</b></p>
+<p>I think the capacity to commit terrible acts exists in all of us, myself included. I think we could all do things we&#8217;d be very ashamed of. I&#8217;m sure that capacity was within O.J. in 1984, as it was in myself in 1984.</p>
+<p><b>You&#8217;re speaking hypothetically, but I&#8217;m curious: What would have to happen in order to make you commit a murder? Can you picture a scenario where you kill someone?</b></p>
+<p>For most of us who are living successful lives, we systematically steer away from those situations. We steer away from those stresses. But, you know … if the kids have to eat and there&#8217;s no money in the bank, who knows what you might do? So you try to keep money in the bank. You try to avoid that circumstance. If a woman drives you crazy, you&#8217;ll do things that you wouldn&#8217;t normally do — so you try to stay away from women who make you crazy. Or drugs: Any one of us can become a drug addict. And once you do, you will kill somebody to get drugs. So maybe that&#8217;s the way to think about this: Any real drug addict will kill you in order to get drugs.</p>
+<p><b>Wait — are you suggesting the addiction to cocaine or heroin is greater than whatever internally stops us from committing murder?</b></p>
+<p>Sure. But what I&#8217;m really trying to say is that this is probably how we need to think about these types of things: It is not as if we walk through one doorway and decide that murder is acceptable. You have to walk through many doorways. The first doorway leads to a party, where people are doing drugs and having fun. The second doorway leads to more partying. It&#8217;s a long, long series of doorways, until you end up in a room where a terrible thing happens. So the question is, &#8220;How many doorways away are you?&#8221; It&#8217;s not a question about a person&#8217;s capacity to commit a murder. It&#8217;s a question of how many doorways we keep between ourselves and that situation.</p>
+<p><b>How should we differentiate between the man who kills for passion, the man who kills for greed, and the man who kills without justification? If you&#8217;re forced to rank these crimes or to decide how they should be penalized by society — how much should motive matter? </b></p>
+<p>The story of the person who kills for love is almost always more compelling than the person who kills for money. I didn&#8217;t write about the Mafioso in this book because that&#8217;s a different phenomenon. Those are people who entered a lifestyle where killing people is just a necessary part of what they do.</p>
+<p><b>Is there any benefit of trying to understand the mind of a serial killer like Ted Bundy, or is that a waste of time? Is it essentially trying to rationally understand the irrational?</b></p>
+<p>Actually, we spend a lot of time trying not to figure it out. Men want to have power over beautiful college girls. It&#8217;s a fact of life. It&#8217;s not specific to Ted Bundy.<span class="footnote-link" data-footnote-id="3" data-footnote-url="#fn-3" data-footnote-content="&amp;lt;p&amp;gt;Ted Bundy killed and sexually assaulted at least 30 women (in at least seven different states) during the 1970s, typically utilizing his charm (and a willingness to feign injury) in order to lure them into his clutches. He died in a Florida electric chair in 1989; prior to this execution, he claimed an addiction to pornography caused his dysfunction.&amp;lt;/p&amp;gt;
+"><sup id="ss-3">3</sup></span> What we&#8217;re really trying to do when we try to figure out Bundy&#8217;s incentive is that we&#8217;re trying to avoid admitting that he&#8217;s not all that different than you, me or anyone else. Police who investigate serial killers will often say, &#8220;I don&#8217;t care why he committed this crime. My job is to catch him.&#8221; And I think — in general — that&#8217;s the right attitude. If you think about it otherwise, you&#8217;re somehow making the perpetrator superior to the victim. The reason the rest of us don&#8217;t act on our worst impulses is because we care about the people who would be our victims. Ted Bundy did not care. Trying to see things his way is to depersonalize his victims and not care about them.</p>
+<p><b>I don&#8217;t know if I totally agree with you. You say it&#8217;s natural for men to want to feel power over attractive college-aged women, but what that usually means is the man wants the woman to be attracted to him. That&#8217;s the normal manifestation of that desire for power. To me, the situation with Bundy is radically different, and not just because it ends with murder. </b></p>
+<p>It&#8217;s possible. Bundy was very successful with women, so his actions can&#8217;t just be an extension of the natural order. He wasn&#8217;t some sex-starved person … most serial killers are repulsive people. Bundy was not. He was a reasonably attractive young man.</p>
+<p><b>Or take someone like Jeffrey Dahmer: Dahmer<span class="footnote-link" data-footnote-id="4" data-footnote-url="#fn-4" data-footnote-content="&amp;lt;p&amp;gt;Ultra-spooky Dahmer gruesomely killed at least 17 people between 1978 and 1991. He would sometimes try to turn his still-living victims into &amp;#8220;zombies&amp;#8221; by drilling holes into their skulls and injecting hydrochloric acid into the frontal lobes of their brains. Convicted in 1992, he was murdered in prison by a fellow inmate two years later.&amp;lt;/p&amp;gt;
+"><sup id="ss-4">4</sup></span> not only killed and ate people, but he liked to keep the corpses around so he wouldn&#8217;t feel lonely. These clearly seem like the actions of a totally insane person. So if he&#8217;s insane, shouldn&#8217;t we think about this crime much differently than a person who embezzles a lot of money from a bank but does so consciously? Does a person like Dahmer even have agency over his actions?</b></p>
+<p>One can&#8217;t really relate to the insanity of Dahmer. You know, there was a British serial killer, Dennis Nilsen, who committed crimes not that different than Dahmer&#8217;s, yet is perceived far differently. Nilsen<span class="footnote-link" data-footnote-id="5" data-footnote-url="#fn-5" data-footnote-content="&amp;lt;p&amp;gt;Nilsen (born in Scotland in 1945, but known for his crimes in London) is actually sometimes remembered as, &amp;#8220;The Kindly Killer.&amp;#8221; He was eventually captured after the blood and entrails from his victims clogged the household drains.&amp;lt;/p&amp;gt;
+"><sup id="ss-5">5</sup></span> was sophisticated. He wrote poetry — some of his poetry is not bad. He lived a reserved, dignified lifestyle. Yet he was doing the same things as Dahmer — he&#8217;d pick up homosexual prostitutes and keep them in his apartment for several days. He just wanted someone around. It would be better if there was a more practical punishment for this kind of behavior, but what can you do? You can&#8217;t return those people to society, ever.</p>
+<p><b>Do you favor capital punishment?</b></p>
+<p>No.</p>
+<p><b>Well, what did you think about the military execution of Osama bin Laden? He certainly could have been arrested by the Navy SEALs, but they shot him instead. I realize terrorism is totally different than traditional crime, but I&#8217;m curious about your opinion.</b></p>
+<p>One argument for capital punishment is that some people don&#8217;t deserve to live. And sometimes that&#8217;s right. Certain people do not deserve to live. But I choose not to be involved with the killing. My stance on this is not about them; it&#8217;s about me, and about us. But there are certainly people who don&#8217;t deserve to live, and you can&#8217;t ache for them. You can&#8217;t ache for bin Laden or his descendants. But that&#8217;s not my point. The point is that I choose not to be part of that process. If I had to choose between killing Dahmer or putting him where he can&#8217;t hurt anyone, I&#8217;d choose the latter. But of course, it&#8217;s impossible to put bin Laden anywhere where he can&#8217;t hurt anyone. By being alive, he is a threat. Even in death he&#8217;s a threat. So that&#8217;s a different case.</p>
+<p><b>When you say that some people don&#8217;t deserve to live — what is the cut-off? When does someone lose the right to be alive?</b></p>
+<p>It&#8217;s when you choose rationally to do great harm to others.</p>
+<p><b>There&#8217;s a section in <i>Popular Crime</i> where you create a mathematical system that could be used by juries in order to deduce an accused person&#8217;s guilt, built around a list of criteria. It&#8217;s basically a weighted point system. The example you use is Lizzie Borden,<span class="footnote-link" data-footnote-id="6" data-footnote-url="#fn-6" data-footnote-content="&amp;lt;p&amp;gt;Lizzie Borden of Fall River, Mass., was accused of killing her father and stepmother with a hatchet in 1892, thus creating a familiar child&amp;#8217;s rhyme: &amp;lt;i&amp;gt;&amp;#8220;Lizzie Borden took an axe/And gave her mother 40 whacks/And when she saw want she had done/She gave her father 41.&amp;#8221;&amp;lt;/i&amp;gt; She was never convicted. Roughly 90 years later, she became the namesake for a L.A. metal band that covered &amp;#8220;Born to Be Wild.&amp;#8221;&amp;lt;/p&amp;gt;
+"><sup id="ss-6">6</sup></span> who you feel was not guilty (as least according to this point system). However, two murders <i>were</i> committed that day, and there does not appear to be any potential suspect <i>except</i> Lizzie Borden. She seems to be the only real option. So what do you make of Sherlock Holmes&#8217; fictional axiom that states, &#8220;When you have eliminated the impossible, whatever remains, however improbable, must be the truth&#8221;? If there is no other explanation for the Borden murders, what else are we supposed to conclude?</b></p>
+<p>That Sherlock Holmes line is very, very interesting. It&#8217;s false, and extremely arrogant, and very dangerous. That&#8217;s not a real way to think about the world. This concept of eliminating the impossible — we could never do that. The whole idea of Sherlock Holmes is dangerous because it encourages people to think that — if they&#8217;re intelligent enough — they could put all the pieces together in absolute terms. But the human mind is not sophisticated enough to do that. People are not that smart. It&#8217;s not that Sherlock Holmes would need to be twice as smart as the average person; he&#8217;d have to be a billion times as smart as the average person.</p>
+<p><b>I once watched a speech by a Canadian philosopher named Steven Pinker, and he argued that the world is <a href="http://www.ted.com/talks/steven_pinker_on_the_myth_of_violence.html" target="new">continually becoming less violent</a>. He wasn&#8217;t talking about urban crime as much as war and disasters, but I&#8217;m wondering if you agree with that thesis: Is the world less violent than it used to be?</b></p>
+<p>If you go back in human history, people witnessed bloodshed on a wide-scale basis all the time. The Romans didn&#8217;t have gladiatorial shows where people were killed every once in a while — they happened all the goddamn time. If you were a sports fan in ancient Rome and you wanted to watch people torn apart by wild animals, you could do so many times a year. So it&#8217;s true that the world is profoundly less violent than it used to be. … I knew a person when I was very young — a person who graduated from high school around the same time I did. … He had been with a woman when he was 18, and they had a son. The boy fell down some steps and died. Most everybody in town thought the child was a victim of abuse and that the man should be prosecuted for murder, but he never was. Now, if that had happened just three years later, he would have been prosecuted — because during those three years, there was a media uproar over child abuse. When I was young, I once had a realization while reading the newspaper about just how many things we now consider murder that were not seen as murder 100 years before. In 1950, if there was a fight in a bar and someone was killed, the police would ask, &#8220;Was it a fair fight?&#8221; If it was a fair fight, it might be manslaughter, but also might be nothing. When I played football in high school, our coach would work us as hard as he could on hot days and not let us have water. And you&#8217;d see stories in the newspaper, maybe 10 times a year, where some kid would die from this. Yet coaches still did it. But that would never happen now, because the coach would be charged with murder. We continually become less tolerant of actions that lead to death. The human race has been in a long struggle to eliminate murder. And we will succeed.</p>
+<p><b>Really? You believe that?</b></p>
+<p>Yes. There will always be occasional exceptions, but we&#8217;re involved in a long struggle against murder, war, famine, disease — and we move forward more than we move back. And you can only understand this if you look over the sweep of centuries. There were so many terrible things done by kings and emperors and everyday normal people that are just incomprehensible today. The historian Suetonius<span class="footnote-link" data-footnote-id="7" data-footnote-url="#fn-7" data-footnote-content="&amp;lt;p&amp;gt;This was a Roman historian who lived around 100 A.D.&amp;lt;/p&amp;gt;
+"><sup id="ss-7">7</sup></span> writes about how Nero<span class="footnote-link" data-footnote-id="8" data-footnote-url="#fn-8" data-footnote-content="&amp;lt;p&amp;gt;This was the Roman emperor from 54 A.D. to 68 A.D. A real jerk, probably.&amp;lt;/p&amp;gt;
+"><sup id="ss-8">8</sup></span> — beyond the many thousands of people he killed in his official duties— liked to sneak out of the palace at night and murder people in the streets, purely for entertainment. Now, whatever you may think of our recent presidents, it&#8217;s pretty safe to say they didn&#8217;t do that. It&#8217;s now impossible to imagine the official leader of an organized country as a serial murderer. But it&#8217;s not impossible — throughout history, it was extremely common. But now it&#8217;s inconceivable. Perhaps one day it will be inconceivable for the U.S. to commit air strikes against other countries. And I&#8217;m not saying that as a criticism of George W. Bush or as some kind of judgment. I&#8217;m just saying that we&#8217;ve been at war with these evils forever, and if you read history, you can see that we are making constant progress.</p>
+<p><em>Chuck Klosterman is the author of <a href="http://www.amazon.com/gp/search/ref=sr_tc_2_0?rh=i%3Astripbooks%2Ck%3AChuck+Klosterman&amp;keywords=Chuck+Klosterman&amp;ie=UTF8&amp;qid=1307219673&amp;sr=8-2-ent&amp;field-contributor_id=B001IGNJ8K">six books</a>. His novel </em>The Visible Man<em> will be released in October.</em></p>
+					</div>
+
+<div class="article-share">
+								<div class="fb-like" data-href="https://grantland.com/features/bill-james-crime/" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="false"></div>
+								<ul class="article-share-list">
+							<li><a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgrantland.com%2Ffeatures%2Fbill-james-crime%2F" target="_blank">Facebook</a></li>
+							<li><a class="twitter" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fgran.tl%2F1OWpdoD&#038;text=Q%26amp%3BA%3A+Bill+James+on+Crime&#038;related%5BGrantland33%5D=" target="_blank">Twitter</a></li>
+							<li><a href="https://grantland.com/features/bill-james-crime/?print=1" target="_blank" class="print">Print</a>
+							</li>
+								<!-- AddThis Button BEGIN -->
+	<li class="addthis_toolbox addthis_default_style addthis_16x16_style">
+		<a class="addthis_button_compact">Share</a>
+	</li>
+	<!-- AddThis Button END -->
+							</ul>
+					</div>
+
+<p class="filed">Filed Under: <a href="https://grantland.com/tags/chuck-klosterman/">Chuck Klosterman</a>, <a href="https://grantland.com/tags/celebrities/">Celebrities</a>, <a href="https://grantland.com/tags/general-topics/">General topics</a>, <a href="https://grantland.com/tags/interviews/">Interviews</a>, <a href="https://grantland.com/tags/people/">People</a>, <a href="https://grantland.com/tags/grantland-qa/">Grantland Q&amp;A</a></p>
+					
+	<div class="media author-bio">
+		<a href="https://grantland.com/contributors/chuck-klosterman/" class="pull"><img width="104" height="104" src="https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?w=104&amp;h=104&amp;crop=1" class="attachment-bio size-bio" alt="" decoding="async" srcset="https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png 484w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?resize=450,452 450w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?resize=300,301 300w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?resize=190,191 190w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?resize=104,104 104w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?resize=209,209 209w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?resize=160,161 160w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?resize=150,150 150w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?resize=326,327 326w, https://grantland.com/wp-content/uploads/2013/11/screen-shot-2014-01-02-at-4-31-58-pm1.png?resize=236,237 236w" sizes="(max-width: 104px) 100vw, 104px" /></a>
+		<div class="bio-data">
+			<p class="bio"><strong>Chuck Klosterman</strong> is a contributing editor at Grantland and the author of eight books. The latest is <a href="http://books.simonandschuster.com/I-Wear-the-Black-Hat/Chuck-Klosterman/9781439184493" target="_blank"><span style="font-style:normal">I Wear the Black Hat</span></a>.</p>
+			<p class="buttons">
+				<a href="https://grantland.com/contributors/chuck-klosterman/" class="text-btn">Archive</a>
+									<a href="https://twitter.com/CKlosterman" class="text-btn icon-twitter-black">@ CKlosterman</a>
+											</p>
+				   <!--<p class="recently"><em>Most recently:</em> <a href="#">Bill Simmons on which NFL teams will claim the up-for grabs playoff spots</a></p>-->
+		</div>
+	</div>
+
+<section class="section more-tabs">
+	<div class="tab-content tab-container">
+		<ul class="tabs tab-list">
+							<li><a href="#more-contrib">More From Chuck Klosterman</a></li>
+								<li><a class="active" href="#more-tag">More Chuck Klosterman</a></li>
+							<li><a href="#more-post-type">More Features</a></li>
+		</ul>
+
+<div class="tabs-body">
+			<section id="more-contrib">
+				<h2>More from Chuck Klosterman</h2>
+				<ul class="slats headline-list">
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/moses-malone-1955-2015/" name="&lpos=mod_more&lid=contrib1">Moses Malone: 1955–2015 </a> <span class="byline"><time>September 13, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/hollywood-prospectus/human-resources-work-friendship-and-the-hidden-legacy-of-mad-men/" name="&lpos=mod_more&lid=contrib2">Human Resources: Work Friendship and the Hidden Legacy of ‘Mad Men’ </a> <span class="byline"><time>May 19, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/bad-boy-detroit-pistons-30-for-30-documentary/" name="&lpos=mod_more&lid=contrib3">Bad Boys and Good Times </a> <span class="byline"><time>April 17, 2014</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/hollywood-prospectus/my-eroding-generation-gap-on-eminems-bizarre-college-football-cameo/" name="&lpos=mod_more&lid=contrib4">My Eroding Generation Gap: On Eminem&#8217;s Bizarre College Football Cameo </a> <span class="byline"><time>December 2, 2013</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/remembering-lou-reed/" name="&lpos=mod_more&lid=contrib5">Remembering Lou Reed </a> <span class="byline"><time>October 28, 2013</time></span></h3>
+						</li>
+									</ul>
+				<p class="more"><a href="https://grantland.com/contributors/chuck-klosterman">See all from Chuck Klosterman</a></p>
+			</section>
+			<section id="more-tag">
+				<h2>More Chuck Klosterman</h2>
+				<ul class="slats headline-list">
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/our-favorite-college-basketball-players-of-all-time/" name="&lpos=mod_more&lid=tag1" >Our Favorite College Basketball Players of All Time </a> <span class="byline"><time>March 19, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/b-s-report-chuck-klosterman-on-kobe-bryant-rajon-rondo-and-the-sixers/" name="&lpos=mod_more&lid=tag2" >‘B.S. Report’: Chuck Klosterman on Kobe Bryant, Rajon Rondo, and the Sixers </a> <span class="byline"><time>February 26, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/hollywood-prospectus/serial-filler-podcast-predictions-for-the-serial-season-finale/" name="&lpos=mod_more&lid=tag3" >‘Serial Filler’ Podcast: Predictions for the ‘Serial’ Season Finale </a> <span class="byline"><time>December 17, 2014</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/hollywood-prospectus/random-top-fives-in-honor-of-top-five/" name="&lpos=mod_more&lid=tag4" >Random Top Fives, in Honor of ‘Top Five’ </a> <span class="byline"><time>December 12, 2014</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/the-triangle/b-s-report-chuck-klosterman-7/" name="&lpos=mod_more&lid=tag5" >‘B.S. Report’: Chuck Klosterman </a> <span class="byline"><time>December 4, 2014</time></span></h3>
+						</li>
+									</ul>
+				<p class="more"><a href="https://grantland.com/tags/chuck-klosterman/">See all Chuck Klosterman</a></p>
+			</section>
+			<section id="more-post-type">
+				<h2>More Features</h2>
+				<ul class="slats headline-list">
+											<li>
+							<h3><a href="https://grantland.com/features/blades-of-glory/" name="&lpos=mod_more&lid=Features1" >Blades of Glory </a> <span class="byline"><time>October 28, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/russell-the-creator-westbrook-nba-oklahoma-city-thunder-western-conference-kevin-durant-serge-ibaka-kevin-love/" name="&lpos=mod_more&lid=Features2" >Russell, the Creator </a> <span class="byline"><time>October 28, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/30-for-30-shorts-every-day/" name="&lpos=mod_more&lid=Features3" >30 for 30 Shorts: Every Day </a> <span class="byline"><time>October 28, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/mlb-win-percentage-added-world-series-championship-kirk-gibson-bobby-thomson-david-freese-mariano-rivera-yogi-berra/" name="&lpos=mod_more&lid=Features4" >The 15 Biggest Plays in Baseball History </a> <span class="byline"><time>October 27, 2015</time></span></h3>
+						</li>
+											<li>
+							<h3><a href="https://grantland.com/features/jan-hooks-saturday-night-live-phil-hartman-kevin-nealon-lorne-michaels-pee-wees-big-adventure/" name="&lpos=mod_more&lid=Features5" >The Laughs, Pathos, and Overwhelming Talent of Jan Hooks </a> <span class="byline"><time>October 20, 2015</time></span></h3>
+						</li>
+					
+				</ul>
+				<p class="more"><a href="https://grantland.com/features/">See all Features</a></p>
+			</section>
+		</div>
+	</div>
+</section>
+
+</div>
+				<!--end layout-main-->
+				
+				<aside class="layout-sidebar" id="layout-sidebar">
+					
+		<section class="">
+			<h3 class="section-title clear-section"><span><em>Top</em> Stories</span></h3>
+			<ul class="slats" data-vr-zone="topstoriesrail">
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/the-triangle/nfl-week-8-picks-the-weight-of-the-interim-label/" name="&lpos=grantlandRightRail&lid=Feature1" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg 2113w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=1536,864 1536w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=2048,1152 2048w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/the-triangle/nfl-week-8-picks-the-weight-of-the-interim-label/" name="&lpos=grantlandRightRail&lid=Feature1" >The Weight of the Interim Label</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/bill-barnwell/">Bill Barnwell</a></div>							</div>
+						</div>
+					</li>
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/the-triangle/2015-mlb-playoffs-world-series-weekend-mets-royals-five-questions/" name="&lpos=grantlandRightRail&lid=Feature2" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg 2592w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=1536,864 1536w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=2048,1152 2048w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/the-triangle/2015-mlb-playoffs-world-series-weekend-mets-royals-five-questions/" name="&lpos=grantlandRightRail&lid=Feature2" >World Series Preview: Five Questions for Games Three and Four</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/ben-lindbergh/">Ben Lindbergh</a></div>							</div>
+						</div>
+					</li>
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/hollywood-prospectus/fifty-scenes-x-files-revival-fox-david-duchovny-gillian-anderson-fox-mulder-dana-scully/" name="&lpos=grantlandRightRail&lid=Feature3" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg 1200w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/hollywood-prospectus/fifty-scenes-x-files-revival-fox-david-duchovny-gillian-anderson-fox-mulder-dana-scully/" name="&lpos=grantlandRightRail&lid=Feature3" >50 Scenes That Do Not Appear in the &#8216;X-Files&#8217; Revival</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/brian-phillips/">Brian Phillips</a></div>							</div>
+						</div>
+					</li>
+
+</ul>
+
+<div class="house-ad"><a href="https://grantland.com/tags/grantland-channel/"><img width="300" height="158" src="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?w=300" class="attachment-landscape-med size-landscape-med" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png 600w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=450,237 450w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=300,158 300w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=190,100 190w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=160,84 160w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=326,172 326w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=236,124 236w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a><a href="https://grantland.com/tags/grantland-channel/">Click here to watch &#8216;Jalen &#038; Jacoby,&#8217; Grantland Features, and video podcasts!</a></div>
+
+</section>
+					<div class="ad-unit boombox">
+				<div id="ad-InContent" class="ad-incontent" data-defer="none"></div>			</div>
+					<div class="ad-unit boombox">
+				<div id="ad-InContent" class="ad-incontent" data-defer="none"></div>			</div>
+		
+		<section class="">
+			<h3 class="section-title clear-section"><span><em>Top</em> Stories</span></h3>
+			<ul class="slats" data-vr-zone="topstoriesrail">
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/the-triangle/nfl-week-8-picks-the-weight-of-the-interim-label/" name="&lpos=grantlandRightRail&lid=Feature1" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg 2113w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=1536,864 1536w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=2048,1152 2048w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/dan-campbell-tri-e1446205953653.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/the-triangle/nfl-week-8-picks-the-weight-of-the-interim-label/" name="&lpos=grantlandRightRail&lid=Feature1" >The Weight of the Interim Label</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/bill-barnwell/">Bill Barnwell</a></div>							</div>
+						</div>
+					</li>
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/the-triangle/2015-mlb-playoffs-world-series-weekend-mets-royals-five-questions/" name="&lpos=grantlandRightRail&lid=Feature2" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg 2592w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=1536,864 1536w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=2048,1152 2048w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/granderson-escobar-world-series.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/the-triangle/2015-mlb-playoffs-world-series-weekend-mets-royals-five-questions/" name="&lpos=grantlandRightRail&lid=Feature2" >World Series Preview: Five Questions for Games Three and Four</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/ben-lindbergh/">Ben Lindbergh</a></div>							</div>
+						</div>
+					</li>
+
+<li>
+						<div class="media" data-vr-contentbox="">
+							<a href="https://grantland.com/hollywood-prospectus/fifty-scenes-x-files-revival-fox-david-duchovny-gillian-anderson-fox-mulder-dana-scully/" name="&lpos=grantlandRightRail&lid=Feature3" class="pull"><img width="160" height="90" src="https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?w=160" class="attachment-widget-top-story size-widget-top-story wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg 1200w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=768,432 768w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=1024,576 1024w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=750,422 750w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=450,253 450w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=640,360 640w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=300,169 300w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=190,107 190w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=160,90 160w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=326,183 326w, https://grantland.com/wp-content/uploads/2015/10/oldmulder.jpg?resize=236,133 236w" sizes="auto, (max-width: 160px) 100vw, 160px" /></a>
+							<div class="bio-data">
+								<h3 class="headline">
+									<a href="https://grantland.com/hollywood-prospectus/fifty-scenes-x-files-revival-fox-david-duchovny-gillian-anderson-fox-mulder-dana-scully/" name="&lpos=grantlandRightRail&lid=Feature3" >50 Scenes That Do Not Appear in the &#8216;X-Files&#8217; Revival</a>
+								</h3>
+								<div class="byline"><em>by</em> <a class="fn" rel="author" href="https://grantland.com/contributors/brian-phillips/">Brian Phillips</a></div>							</div>
+						</div>
+					</li>
+
+</ul>
+
+<div class="house-ad"><a href="https://grantland.com/tags/grantland-channel/"><img width="300" height="158" src="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?w=300" class="attachment-landscape-med size-landscape-med" alt="" decoding="async" loading="lazy" srcset="https://grantland.com/wp-content/uploads/2015/10/house-ad31.png 600w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=450,237 450w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=300,158 300w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=190,100 190w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=160,84 160w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=326,172 326w, https://grantland.com/wp-content/uploads/2015/10/house-ad31.png?resize=236,124 236w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a><a href="https://grantland.com/tags/grantland-channel/">Click here to watch &#8216;Jalen &#038; Jacoby,&#8217; Grantland Features, and video podcasts!</a></div>
+
+</section>
+		
+		<div class="articles-seek">
+			<div class="contain">
+
+<div class="prev-story">
+									</div>
+
+<div class="next-story">
+									</div>
+			</div>
+		</div>
+
+<!-- Cached Widget -->		<section class="section most-popular">
+			<h3 class="section-title clear-section">
+				<span><em>Most</em> Popular</span>
+				<div class="tab-content tab-container">
+					<ul class="tabs tab-list tab-icons">
+													<li class="tabs-selected">
+								<a href="#most-popular-grantland_feature"><span class="most-popular-icon"></span></a>
+							</li>
+														<li >
+								<a href="#most-popular-grantland_sports"><span class="most-popular-icon"></span></a>
+							</li>
+														<li >
+								<a href="#most-popular-grantland_pop"><span class="most-popular-icon"></span></a>
+							</li>
+												</ul>
+
+<div class="tabs-body">
+								<section class="tabs-content" id="most-popular-grantland_feature">
+			<h4>Features</h4>
+
+<ul class="slats headline-list">
+							</ul>
+		</section>
+										<section class="tabs-content" id="most-popular-grantland_sports">
+			<h4>The Triangle</h4>
+
+<ul class="slats headline-list">
+							</ul>
+		</section>
+										<section class="tabs-content" id="most-popular-grantland_pop">
+			<h4>Hollywood Prospectus</h4>
+
+<ul class="slats headline-list">
+							</ul>
+		</section>
+							</div>
+
+<div class="most-popular-sponsor"></div>
+				</div>
+			</h3>
+		</section>
+						</aside>
+			</div>
+			<!--end layout-two-col-->
+		</article>
+		<!-- end l-c -->
+
+</div>
+	<!--End role=main-->
+	</div>
+	<!-- End #page -->
+
+<!-- Begin Footer -->
+<footer class="footer" role="contentinfo">
+	<div class="layout-container">
+
+<ul id="menu-footer-social-media" class="footer-social"><li id="menu-item-94289" class="twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-94289"><a href="https://twitter.com/Grantland33" name="&amp;lpos=grantlandSocialNav&amp;lid=Twitter">Twitter</a></li>
+<li id="menu-item-94290" class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-94290"><a href="https://www.facebook.com/Grantland33" name="&amp;lpos=grantlandSocialNav&amp;lid=Facebook">Facebook</a></li>
+</ul>		<div class="btm-foot-links">
+			<ul id="menu-footer-site-navigation" class="nav-footer"><li id="menu-item-94329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94329"><a href="/features/" name="&amp;lpos=grantlandBottomNav&amp;lid=Features">Features</a></li>
+<li id="menu-item-94330" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94330"><a href="/the-triangle/" name="&amp;lpos=grantlandBottomNav&amp;lid=The Triangle">The Triangle</a></li>
+<li id="menu-item-94331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94331"><a href="/hollywood-prospectus/" name="&amp;lpos=grantlandBottomNav&amp;lid=The Hollywood Prospectus">The Hollywood Prospectus</a></li>
+<li id="menu-item-94332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94332"><a href="/contributors/" name="&amp;lpos=grantlandBottomNav&amp;lid=Contributors">Contributors</a></li>
+<li id="menu-item-94333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94333"><a href="/podcasts/all/" name="&amp;lpos=grantlandBottomNav&amp;lid=Podcasts">Podcasts</a></li>
+<li id="menu-item-94334" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94334"><a target="_blank" href="https://grantland.com/tags/grantland-channel/" name="&amp;lpos=grantlandBottomNav&amp;lid=Video">Video</a></li>
+<li id="menu-item-126509" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-126509"><a href="/quarterly/" name="&amp;lpos=grantlandBottomNav&amp;lid=Quarterly">Quarterly</a></li>
+<li id="menu-item-94335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-94335"><a target="_blank" href="http://www.espn.com/" name="&amp;lpos=grantlandBottomNav&amp;lid=ESPN.com">ESPN.com</a></li>
+</ul>		</div>
+
+<p>
+			<a class="" href="https://disneytermsofuse.com/english/">Terms of Use</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/">Privacy Policy</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-us-state-privacy-rights/">Your US State Privacy Rights</a> | <a class="" href="https://disneyprivacycenter.com/kids-privacy-policy/english/">Children&#039;s Online Privacy Policy</a> | <a class="" href="https://privacy.thewaltdisneycompany.com/en/privacy-controls/online-tracking-and-advertising/">Interest-Based Ads</a> | <a class="" href="http://www.nielsen.com/digitalprivacy">About Nielsen Measurement</a> | <a class="ot-cmp-link" href="https://privacy.thewaltdisneycompany.com/en/dnssmpi/">Do Not Sell My Personal Information</a> | <a class="" href="https://www.espn.com/espn/news/story?page=contact-index">Contact Us</a> | <a class="" href="https://disneyadsales.com/">Disney Ad Sales Site</a>		</p>
+		<p>
+			&copy; 2025 ESPN Enterprises, Inc. All rights reserved.		</p>
+		
+		<p>Powered by <a href="https://wpvip.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=grantland.com" rel="generator nofollow" class="powered-by-wpcom">WordPress VIP</a></p>
+	</div>
+</footer>
+
+<!-- End Footer -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/espn-grantland\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id))
+					return;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "https://connect.facebook.net/en_US/sdk.js#version=v2.6&xfbml=1&appId=135272579883594";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		<script type="text/javascript" id="espn-grantland-js-extra">
+/* <![CDATA[ */
+var grantlandData = {"postsPerPage":"10"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="thickbox-js-extra">
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/grantland.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grantland.com/_static/??-eJy1UlFSAjEMvZChoOwwfDhewEtk27BkbdO1adG9vYVBXBxxxBk+Om2avNe89Jm3AWyUTJJN3lIgNaSDQJdQskdxplezI3Exmf61UBpnITr0s8Ay6/XOTPCDLx2LGpctg8OMMCTeoR0NqlLWPRW62NIh6XGk9BtNxxsYahW0JecoE5JvmZ9ILmo5sl+FOQVTFIv1xdGhobxl+9LG99PhkqaS2XPmivpSs2NH8e/96ECW0atZrNdzhZj2txECdmxrhB62rDmm6dQJlaW7Hf/RGbmSKOfbvRNFbSK6dlL380UD0uLBNHGzOZv+mbeV6i6W/vEdUQi2RVwiByNhUsAUoN0farVlgp5LXVkLhICTFrhqJn2O6OjTYU/hcbFqVs398qFZ9h95vF1M" ></script><script type="text/javascript" id="jetpack-stats-js-before">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"147860030\",\"post\":\"86312\",\"tz\":\"-4\",\"srv\":\"grantland.com\",\"hp\":\"vip\",\"j\":\"1:14.9.1\"}") ]);
+_stq.push([ "clickTrackerInit", "147860030", "86312" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://stats.wp.com/e-202538.js" id="jetpack-stats-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="dtci-ads-js-extra">
+/* <![CDATA[ */
+var DTCIAdConfig = {"adSlotsToRefresh":["Banner","InContent","incontentTeads","incontentTeads2","incontentTeads3","NativeCard","Wallpaper"],"adUnitPath":"\/21783347309\/espn.grantland.us.com\/","placements":{"Banner":{"out-of-page":false,"sizes":[[1280,100],[970,250],[970,66],[728,90],[320,50],[300,50]],"defer":"none"},"InContent":{"out-of-page":false,"sizes":[[300,250]],"defer":"none"},"incontentTeads":{"out-of-page":false,"sizes":[1,3],"defer":"none"},"incontentTeads2":{"out-of-page":false,"sizes":[1,3],"defer":"none"},"incontentTeads3":{"out-of-page":false,"sizes":[1,3],"defer":"none"},"NativeCard":{"out-of-page":false,"sizes":"fluid","defer":"none"},"Wallpaper":{"out-of-page":false,"sizes":[[1680,1050],[1280,455]],"defer":"none"},"Overlay":{"out-of-page":true,"sizes":[],"defer":"none"}},"slots":{"Banner":[],"InContent":[],"incontentTeads":[],"incontentTeads2":[],"incontentTeads3":[],"NativeCard":[],"Wallpaper":[],"Overlay":[]},"mappings":{"Wallpaper":[[[1280,100],[[1680,1050]]],[[1024,100],[[1280,455]]],[[0,0],[]]],"Banner":[[[1280,100],[[1280,100],[970,250],[970,66],[728,90]]],[[1024,100],[[970,250],[970,66],[728,90]]],[[768,100],[[728,90]]],[[0,0],[320,50]]]},"targeting":{"sp":"grantland","objid":"86312","lang":"en","devType":"desktop"},"devType":"desktop","referringSite":null,"referralMap":{"facebook.com":"facebook","twitter.com":"twitter","t.co":"twitter","google.com":"google","bing.com":"bing","yahoo.com":"yahoo","www.espn.com":"espn","espn.com":"espn","instagram.com":"instagram","reddit.com":"reddit","bleacherreport.com":"bleacherreport","tumblr.com":"tumblr","t.umblr.com":"tumblr","pinterest.com":"pinterest","fivethirtyeight.com":"fivethirtyeight","grantland.com":"grantland","theundefeated.com":"theundefeated","andscape.com":"theundefeated"},"useOverlay":"1","refreshSimulatenously":"1","disableInitialLoad":"0","usePrebid":"1","country":null,"deviceType":"desktop","prebidScript":"https:\/\/grantland.com\/wp-content\/plugins\/dtci-ads\/assets\/js\/vendor\/prebid.min.js","prebidDebug":"","enableSendAllBids":"1","prebidTimeout":"1000","prebidPlacementIds":{"rubicon":{"desktop":{"zoneId":435334,"siteId":92444},"mobile":{"zoneId":435336,"siteId":92446},"accountId":13042},"aol":{"incontent":4938388,"banner":{"desktop":4938374,"mobile":4938403},"accountId":"11526.1"},"appnexus":{"incontent":{"US":13838929,"APAC":13838959,"BR":13838961,"CA":13838962,"EMEA":13838963,"IS":13838964,"LATAM":13838965,"ANZ":13838960},"banner":{"US":13401993,"APAC":13838952,"BR":13838954,"CA":13838955,"EMEA":13838956,"IS":13838957,"LATAM":13838958,"ANZ":13838953}},"trustx":{"incontent":9698,"banner":{"desktop":9700,"mobile":9699}},"pubmatic":{"incontent":"espn@300x250","banner":"espn@728x90","accountId":"33496","excludedCountries":["US"]}},"prebidSlots":[],"prebidExcludedCountries":["AL","AD","AM","AT","AZ","BY","BE","BA","BG","HR","CY","CZ","DK","EE","FO","FI","FR","GE","DE","GI","GR","GL","HU","IS","IE","IT","XK","LV","LI","LT","LU","MK","MT","MD","MC","ME","NL","NO","PL","PT","RO","RU","SM","RS","SK","SI","ES","SJ","SE","CH","TR","UA","GB","VA"],"regionMap":{"AI":"LATAM","AG":"LATAM","AR":"LATAM","AW":"LATAM","BB":"LATAM","BZ":"LATAM","BM":"LATAM","BO":"LATAM","VG":"LATAM","BQ":"LATAM","KY":"LATAM","CL":"LATAM","CO":"LATAM","CR":"LATAM","CW":"LATAM","DM":"LATAM","DO":"LATAM","EC":"LATAM","SV":"LATAM","FK":"LATAM","GF":"LATAM","GD":"LATAM","GP":"LATAM","GT":"LATAM","GY":"LATAM","HT":"LATAM","HN":"LATAM","JM":"LATAM","MQ":"LATAM","MX":"LATAM","MS":"LATAM","NL":"LATAM","NI":"LATAM","PA":"LATAM","PY":"LATAM","PE":"LATAM","PR":"LATAM","KN":"LATAM","LC":"LATAM","VC":"LATAM","SX":"LATAM","SR":"LATAM","BS":"LATAM","TT":"LATAM","TC":"LATAM","VI":"LATAM","UY":"LATAM","VE":"LATAM","AS":"ANZ","AQ":"ANZ","AU":"ANZ","BV":"ANZ","CK":"ANZ","FM":"ANZ","FJ":"ANZ","PF":"ANZ","GU":"ANZ","KI":"ANZ","MH":"ANZ","NR":"ANZ","NC":"ANZ","NZ":"ANZ","NU":"ANZ","NF":"ANZ","MP":"ANZ","PW":"ANZ","PG":"ANZ","PN":"ANZ","WS":"ANZ","SB":"ANZ","TK":"ANZ","TO":"ANZ","TV":"ANZ","UM":"ANZ","VU":"ANZ","WF":"ANZ","AL":"EMEA","DZ":"EMEA","AD":"EMEA","AO":"EMEA","AM":"EMEA","AT":"EMEA","AZ":"EMEA","BH":"EMEA","BY":"EMEA","BE":"EMEA","BJ":"EMEA","BA":"EMEA","BW":"EMEA","BG":"EMEA","BF":"EMEA","BI":"EMEA","CM":"EMEA","CV":"EMEA","CF":"EMEA","TD":"EMEA","CX":"EMEA","CC":"EMEA","CI":"EMEA","HR":"EMEA","CY":"EMEA","CZ":"EMEA","CD":"EMEA","DK":"EMEA","DJ":"EMEA","EG":"EMEA","GQ":"EMEA","ER":"EMEA","EE":"EMEA","ET":"EMEA","FO":"EMEA","FI":"EMEA","FR":"EMEA","TF":"EMEA","GA":"EMEA","GE":"EMEA","DE":"EMEA","GH":"EMEA","GI":"EMEA","GR":"EMEA","GL":"EMEA","GG":"EMEA","GN":"EMEA","GW":"EMEA","HM":"EMEA","IL":"EMEA","IT":"EMEA","JE":"EMEA","JO":"EMEA","KE":"EMEA","XK":"EMEA","KW":"EMEA","LV":"EMEA","LB":"EMEA","LS":"EMEA","LR":"EMEA","LY":"EMEA","LI":"EMEA","LT":"EMEA","LU":"EMEA","MK":"EMEA","MG":"EMEA","MW":"EMEA","ML":"EMEA","MT":"EMEA","MR":"EMEA","MU":"EMEA","YT":"EMEA","MD":"EMEA","MC":"EMEA","ME":"EMEA","MA":"EMEA","MZ":"EMEA","NA":"EMEA","NE":"EMEA","NG":"EMEA","NO":"EMEA","OM":"EMEA","PS":"EMEA","PL":"EMEA","PT":"EMEA","QA":"EMEA","RE":"EMEA","RO":"EMEA","RU":"EMEA","RW":"EMEA","SH":"EMEA","PM":"EMEA","SM":"EMEA","ST":"EMEA","SA":"EMEA","SN":"EMEA","RS":"EMEA","SC":"EMEA","SL":"EMEA","SK":"EMEA","SI":"EMEA","SO":"EMEA","ZA":"EMEA","GS":"EMEA","ES":"EMEA","SJ":"EMEA","SZ":"EMEA","SE":"EMEA","CH":"EMEA","TZ":"EMEA","GM":"EMEA","TG":"EMEA","TN":"EMEA","TR":"EMEA","UG":"EMEA","UA":"EMEA","AE":"EMEA","GB":"EMEA","VA":"EMEA","EH":"EMEA","YE":"EMEA","ZM":"EMEA","ZW":"EMEA","AF":"IS","BD":"IS","BT":"IS","IO":"IS","IN":"IS","KZ":"IS","KG":"IS","MV":"IS","MM":"IS","NP":"IS","PK":"IS","LK":"IS","TJ":"IS","TM":"IS","UZ":"IS","KM":"IS","HU":"IS","IS":"IS","IQ":"IS","IE":"IS","BR":"BR","BN":"APAC","KH":"APAC","CN":"APAC","HK":"APAC","ID":"APAC","JP":"APAC","LA":"APAC","MO":"APAC","MY":"APAC","MN":"APAC","PH":"APAC","SG":"APAC","KR":"APAC","TW":"APAC","TH":"APAC","TL":"APAC","VN":"APAC","CA":"CA","US":"US","USA":"US"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grantland.com/wp-content/plugins/dtci-ads/assets/js/ads.min.js?m=1756387433g" ></script><script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js?ver=6.8.2#pubid=xa-529a42377760b420" id="addthis-js"></script>
+		<script type="text/javascript">
+		var orientation = (window.innerWidth >= window.innerHeight) ? 'landscape' : 'portrait';
+		orientation = window.orientation ? orientation : 'desktop';
+		var page = 'general';
+		var prefix = "&lpos=grantland:";
+		var site = "grantland";
+		var loadCount = 1;
+		var isTab = false;
+		var currentTab = null;
+
+(function($) {
+			if ( espn && espn.track ) {
+				espn.track.init = function () {
+
+var data = {
+    "omniture": {
+        "premium": "n",
+        "lang": "en_us",
+        "countryRegion": "en-us",
+        "userKey": "unknown:unknown:anonymous:insider-no:premium-no",
+        "insiderStatus": "anonymous:premium-no",
+        "eVar1": "DoNotSet",
+        "birthAge": "unknown",
+        "gender": "unknown",
+        "regType": "unknown",
+        "fantasyPersonalize": "has favorites:no-fantasy:no-notifications:no-docking:no-autostart:no",
+        "site": "grantland",
+        "pageName": "story:storyid=86312-Q&amp;A: Bill James on Crime:pg1",
+        "sections": "story",
+        "section": "story",
+        "account": "wdgespgrant",
+        "contentType": "story",
+        "events": "event3",
+        "srchKwd": "",
+        "srchTerm": "",
+        "srchNumResults": "",
+        "storyId": "86312-Q&amp;A: Bill James on Crime",
+        "columnist": "klosterman_chuck",
+        "espn3ContentType": "story",
+        "prop35": "2011-07-12"
+    },
+    "chartbeat": {
+        "domain": "grantland.com",
+        "path": "/features/bill-james-crime/",
+        "sections": "grantland, features, features-singular, grantland-singular",
+        "authors": "stories, story",
+        "title": "Q&amp;A: Bill James on Crime",
+        "loadPubJS": false,
+        "loadVidJS": true
+    }
+};
+					data.omniture.loginStatus = jQuery( 'body' ).hasClass( 'logged-in' ) ? 'wp-logged-in' : 'wp-logged-out';
+					data.omniture.orientation = orientation;
+					data.omniture.deviceInfo = orientation;
+
+// Init Chartbeat
+					espn.track.initCB( data.chartbeat );
+
+// Global analytics properties used by video players
+					var anData = data.omniture;
+					if ( anData.account ) {
+						window.s_account = anData.account;
+					}
+
+if ( anData.site ) {
+						window.omniSite = anData.site;
+						if ( anData.pageName ) {
+							window.omniPageName = [anData.site, anData.pageName].join( ':' );
+						}
+					}
+
+// the expected value is ->  <section>:<show code>
+					var section = 'homepage';
+					var loc = location.pathname;
+					if ( loc !== '' ) {
+						if ( location.hash !== '' ) {
+							loc += location.hash.replace( /\#/, '' );
+						}
+						loc = loc.replace( / |^\/|\/$/g, '' ).replace( /\//g, ':' );
+						section = loc;
+					}
+					window.omniTrackingName = section;
+					espn.track.data = data;
+					anData.enableCB = false;
+					espn.track.trackPage( anData );
+				}
+
+espn.track.init();
+			}
+		})( jQuery );
+		</script>
+		</body>
+</html>

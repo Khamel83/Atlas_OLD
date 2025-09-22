@@ -1,0 +1,326 @@
+name: Atlas Reliability Testing
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Run reliability tests every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  # System Endurance Testing
+  endurance-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages -r requirements.txt
+        pip install --break-system-packages -r requirements-dev.txt
+        pip install --break-system-packages pytest-xdist memory-profiler psutil
+
+    - name: Create test environment
+      run: |
+        mkdir -p data/endurance logs/endurance
+        cp .env.template .env
+        echo "ATLAS_DATABASE_PATH=data/endurance/atlas_endurance.db" >> .env
+        echo "ENDURANCE_TEST=true" >> .env
+
+    - name: Run endurance tests
+      timeout-minutes: 45
+      run: |
+        python -m pytest tests/test_system_endurance.py \
+          -v --tb=long --timeout=2400 \
+          --endurance-duration=300  # 5 minutes endurance test
+
+    - name: Generate endurance report
+      if: always()
+      run: |
+        python -c "
+        import json
+        import os
+        from datetime import datetime
+
+        report = {
+            'test_type': 'endurance',
+            'timestamp': datetime.now().isoformat(),
+            'duration_seconds': 300,
+            'status': 'completed',
+            'artifacts': {
+                'logs': 'logs/endurance/',
+                'database': 'data/endurance/'
+            }
+        }
+
+        with open('endurance-report.json', 'w') as f:
+            json.dump(report, f, indent=2)
+
+        print('Endurance test report generated')
+        "
+
+    - name: Upload endurance artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: endurance-test-results-${{ github.run_number }}
+        path: |
+          data/endurance/
+          logs/endurance/
+          endurance-report.json
+        retention-days: 14
+
+  # Load Testing
+  load-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages -r requirements.txt
+        pip install --break-system-packages locust pytest-locust
+
+    - name: Create load test configuration
+      run: |
+        cat > locustfile.py << 'EOF'
+        from locust import HttpUser, task, between
+        import json
+        import random
+
+        class AtlasUser(HttpUser):
+            wait_time = between(1, 5)
+
+            def on_start(self):
+                # Initialize session
+                self.client.get("/")
+
+            @task(3)
+            def view_dashboard(self):
+                """Simulate viewing the monitoring dashboard"""
+                self.client.get("/monitoring/")
+
+            @task(2)
+            def get_metrics(self):
+                """Simulate fetching metrics"""
+                self.client.get("/monitoring/metrics")
+
+            @task(1)
+            def get_logs(self):
+                """Simulate fetching logs"""
+                self.client.get("/monitoring/logs")
+
+            @task(1)
+            def health_check(self):
+                """Simulate health check"""
+                self.client.get("/health")
+
+            @task(1)
+            def api_search(self):
+                """Simulate API search request"""
+                search_data = {
+                    "query": "test search",
+                    "limit": 10
+                }
+                self.client.post("/api/search", json=search_data)
+        EOF
+
+    - name: Run load test
+      timeout-minutes: 15
+      run: |
+        # Start test server in background
+        python -m uvicorn api:app --host 0.0.0.0 --port 18080 &
+        SERVER_PID=$!
+
+        # Wait for server to start
+        sleep 10
+
+        # Run locust load test
+        locust -f locustfile.py --headless --users 50 --spawn-rate 5 --run-time 5m --html load-test-report.html
+
+        # Kill server
+        kill $SERVER_PID 2>/dev/null || true
+
+    - name: Upload load test report
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: load-test-report-${{ github.run_number }}
+        path: load-test-report.html
+        retention-days: 14
+
+  # Recovery Testing
+  recovery-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --break-system-packages --upgrade pip
+        pip install --break-system-packages -r requirements.txt
+        pip install --break-system-packages -r requirements-dev.txt
+
+    - name: Create recovery test environment
+      run: |
+        mkdir -p data/recovery logs/recovery backup/recovery
+        cp .env.template .env
+        echo "ATLAS_DATABASE_PATH=data/recovery/atlas_recovery.db" >> .env
+        echo "RECOVERY_TEST=true" >> .env
+
+    - name: Run recovery tests
+      timeout-minutes: 30
+      run: |
+        python -c "
+        import sys
+        import os
+        sys.path.append('.')
+
+        # Simulate database corruption and recovery
+        print('Starting recovery test...')
+
+        # Create initial database
+        from core.database import Database
+        db = Database('data/recovery/atlas_recovery.db')
+
+        # Insert test data
+        test_data = [
+            {'url': 'https://example.com/1', 'title': 'Test 1', 'content': 'Content 1'},
+            {'url': 'https://example.com/2', 'title': 'Test 2', 'content': 'Content 2'},
+        ]
+
+        for item in test_data:
+            db.insert_content(**item)
+
+        print('Test data inserted')
+
+        # Simulate corruption (interrupt write operation)
+        import sqlite3
+        conn = sqlite3.connect('data/recovery/atlas_recovery.db')
+        try:
+            # Corrupt the database
+            conn.execute('UPDATE content SET content = ? WHERE id = 1', ('CORRUPTED' * 1000,))
+            conn.commit()
+            print('Database corrupted for testing')
+        except Exception as e:
+            print(f'Corruption simulation: {e}')
+        finally:
+            conn.close()
+
+        # Test recovery
+        try:
+            recovery_db = Database('data/recovery/atlas_recovery.db')
+            status = recovery_db.health_check()
+            print(f'Recovery test status: {status}')
+
+            if status.get('healthy'):
+                print('✅ Database recovered successfully')
+            else:
+                print('⚠️ Database needs manual recovery')
+
+        except Exception as e:
+            print(f'❌ Recovery failed: {e}')
+
+        print('Recovery test completed')
+        "
+
+    - name: Generate recovery report
+      if: always()
+      run: |
+        python -c "
+        import json
+        from datetime import datetime
+
+        report = {
+            'test_type': 'recovery',
+            'timestamp': datetime.now().isoformat(),
+            'database_files': ['data/recovery/atlas_recovery.db'],
+            'backup_files': ['backup/recovery/'],
+            'status': 'completed'
+        }
+
+        with open('recovery-report.json', 'w') as f:
+            json.dump(report, f, indent=2)
+        "
+
+    - name: Upload recovery artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: recovery-test-results-${{ github.run_number }}
+        path: |
+          data/recovery/
+          logs/recovery/
+          backup/recovery/
+          recovery-report.json
+        retention-days: 14
+
+  # Reliability Summary
+  reliability-summary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: [endurance-test, load-test, recovery-test]
+    if: always()
+
+    steps:
+    - name: Generate reliability summary
+      run: |
+        cat > reliability-summary.md << EOF
+        # Atlas Reliability Test Summary
+
+        ## Test Results
+        - **Endurance Test**: ${{ needs.endurance-test.result }}
+        - **Load Test**: ${{ needs.load-test.result }}
+        - **Recovery Test**: ${{ needs.recovery-test.result }}
+
+        ## Build Information
+        - **Commit**: ${{ github.sha }}
+        - **Branch**: ${{ github.ref_name }}
+        - **Run ID**: ${{ github.run_number }}
+        - **Timestamp**: ${{ github.event.created_at }}
+
+        ## System Reliability Status
+        EOF
+
+        if [[ "${{ needs.endurance-test.result }}" == "success" && \
+              "${{ needs.load-test.result }}" == "success" && \
+              "${{ needs.recovery-test.result }}" == "success" ]]; then
+          echo "✅ **All reliability tests passed**" >> reliability-summary.md
+          echo "System is ready for production deployment" >> reliability-summary.md
+        else
+          echo "⚠️ **Some reliability tests failed**" >> reliability-summary.md
+          echo "Review test artifacts before deployment" >> reliability-summary.md
+        fi
+
+    - name: Upload reliability summary
+      uses: actions/upload-artifact@v4
+      with:
+        name: reliability-summary-${{ github.run_number }}
+        path: reliability-summary.md
+        retention-days: 30

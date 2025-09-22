@@ -1,0 +1,249 @@
+# Content from http://daringfireball.net/2016/10/mossberg_siri
+
+*Retrieved: 2025-09-15T05:45:37.497061*
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	
+	<!-- Open Graph bullshit -->
+<!-- 
+	<meta property="og:site_name"   content="Daring Fireball" />
+	<meta property="og:title"       content="Walt Mossberg: ‘Why Does Siri Seem So Dumb?’" />
+	<meta property="og:url"         content="https://daringfireball.net/2016/10/mossberg_siri" />
+	<meta property="og:description" content="In addition to the engineering hurdles to actually make Siri much better, Apple also has to overcome a “boy who cried wolf” credibility problem." />
+	<meta property="og:image"       content="https://daringfireball.net/graphics/df-square-1024" />
+	<meta property="og:type"        content="article" />
+-->
+	
+	<!-- Twitter Card bullshit -->
+	<meta name="twitter:card"         content="summary" />
+	<meta name="twitter:site"         content="@daringfireball" />
+	<meta name="twitter:creator"      content="@gruber" />
+	<meta name="twitter:title"        content="Walt Mossberg: ‘Why Does Siri Seem So Dumb?’" />
+	<meta name="twitter:description"  content="In addition to the engineering hurdles to actually make Siri much better, Apple also has to overcome a “boy who cried wolf” credibility problem." />
+	<meta name="twitter:image"        content="https://daringfireball.net/graphics/df-square-1024" />
+
+<title>Daring Fireball: Walt Mossberg: ‘Why Does Siri Seem So Dumb?’</title>
+
+<link rel="apple-touch-icon-precomposed" href="/graphics/apple-touch-icon.png" />
+	<link rel="shortcut icon" href="/graphics/favicon.ico?v=005" />
+	<link rel="mask-icon" href="/graphics/dfstar.svg" color="#4a525a">
+	<link rel="stylesheet" type="text/css" media="screen"  href="/css/fireball_screen.css?v1.2025-03-12" />
+	<link rel="stylesheet" type="text/css" media="screen"  href="/css/ie_sucks.php" />
+	<link rel="stylesheet" type="text/css" media="print"   href="/css/fireball_print.css?v01" />
+	<link rel="alternate"  type="application/atom+xml"     href="/feeds/main" />
+	<link rel="alternate"  type="application/json"         href="/feeds/json" />
+	<link rel="me"                                         href="https://mastodon.social/@gruber" />
+	<link rel="me"                                         href="https://mastodon.social/@daringfireball" />
+	<script src="/js/js-global/FancyZoom.js"></script>
+	<script src="/js/js-global/FancyZoomHTML.js"></script>
+	<link rel="home" href="/" title="Home" />
+	<link rel="shorturl" href="http://df4.us/pfz" />
+	<link rel="prev" href="https://daringfireball.net/2016/10/apple_dash_controversy" title="Apple Responds to Dash Controversy" />
+	<link rel="next" href="https://daringfireball.net/2016/10/iphone_edition" title="Don&#8217;t Hold Your Breath for an iPhone Edition" />
+</head>
+
+<body onload="setupZoom()">
+<div id="Box">
+<div id="Banner"><a href="/" title="Daring Fireball: Home"><img src="/graphics/logos/" alt="Daring Fireball" height="56" /></a></div><div id="Sidebar">
+<p>By <strong>John&nbsp;Gruber</strong></p>
+
+<ul><!--&#9733;-->
+<li><a href="/archive/" title="Previous articles.">Archive</a></li><li><script>
+// <![CDATA[
+function ReadCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0; i < ca.length; i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1, c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+	}
+	return null;
+}
+var display_linked_list = ReadCookie('displayLinkedList');
+var li_linked = '<a href="/linked/" title="The Linked List.">Linked List<\/a>';
+if (display_linked_list == "hide") {
+	// Linked List is off on home page, so show it in menu:
+	document.write(li_linked + "<\/li>\n<li>");
+}
+else {
+	// Default to not putting separate LL item in sidebar:
+}
+// ]]>
+</script></li>
+<li><a href="/thetalkshow/" title="America’s favorite 3-star podcast.">The Talk Show</a></li>
+<li><a href="https://dithering.fm/" title="Two episodes per week, 15 minutes per episode. Not a minute less, not a minute more.">Dithering</a></li>
+<li><a href="/projects/" title="Software projects, including SmartyPants and Markdown.">Projects</a></li>
+<li><a href="/contact/" title="How to send email or feedback regarding Daring Fireball.">Contact</a></li>
+<li><a href="/colophon/" title="About this site and the tools used to produce it.">Colophon</a></li>
+<li><a href="/feeds/">Feeds / Social</a></li>
+<!-- 
+<li><a href="https://twitter.com/daringfireball">Twitter</a></li>
+ -->
+<li><a href="/feeds/sponsors/">Sponsorship</a></li>
+</ul>
+
+<div id="SidebarMartini">
+<a href="https://workos.com/blog/mcp-authorization-in-5-easy-oauth-specs?utm_source=daringfireball&utm_medium=display&utm_campaign=q32025">
+	<img alt="WorkOS" src="/martini/images/workos.png" height="90">
+</a>
+<p><a href="https://workos.com/blog/mcp-authorization-in-5-easy-oauth-specs?utm_source=daringfireball&utm_medium=display&utm_campaign=q32025">WorkOS</a> simplifies MCP authorization with a single API built on five OAuth standards.</p>
+</div>
+
+</div> <!-- Sidebar -->
+
+<div id="Main">
+
+<div class="article">
+<h1>Walt Mossberg: &#8216;Why Does Siri Seem So&#160;Dumb?&#8217;</h1>
+<h6 class="dateline">Wednesday, 12 October 2016</h6>
+
+<p><a href="http://www.recode.net/2016/10/12/13251618/mossberg-apple-siri-digital-assistant-dumb">Walt Mossberg</a>:</p>
+
+<blockquote>
+  <p>So why does Siri seem so dumb? Why are its talents so limited? Why
+does it stumble so often? When was the last time Siri delighted
+you with a satisfying and surprising answer or action?</p>
+</blockquote>
+
+<p>I have an answer for this: when I discovered during the NBA playoffs that Siri can tell you the Vegas betting odds for sporting events.</p>
+
+<blockquote>
+  <p>In recent weeks, on multiple Apple devices, Siri has been unable
+to tell me the names of the major-party candidates for president
+and vice president of the United States. Or when they were
+debating. Or when the Emmy awards show was due to be on. Or the
+date of the World Series. [&#8230;]</p>
+
+<p>Google Now, on the same Apple devices, using the same voice input,
+answered every one of these questions clearly and correctly. And
+that isn’t even Google’s latest digital helper, the new Google
+Assistant.</p>
+
+<p>If you try most of these broken examples right now, they’ll work
+properly, because Apple fixed them after I tweeted screenshots of
+most of them in exasperation, and asked the company about them.</p>
+</blockquote>
+
+<p>Indeed, Siri now knows the date and time of the next U.S. presidential debate, but where Siri fundamentally falls apart is its inability to maintain context and chain together multiple commands. Here was my interaction trying this just now, transcribed exactly as Siri heard me:</p>
+
+<p><strong>Me</strong>: <em>When is the next presidential debate?</em><sup id="fnr1-2016-10-12"><a href="#fn1-2016-10-12">1</a></sup></p>
+
+<p><strong>Siri</strong>: <em>The third 2016 presidential debate will take place from 9:00pm to 10:30pm ET on Wednesday, October 19 at the University of Nevada in Las Vegas, Nevada.</em></p>
+
+<p><strong>Me</strong>: <em>OK add it to my calendar.</em></p>
+
+<p><strong>Siri</strong>: <em>OK, tell me the date and time of your event.</em></p>
+
+<p><strong>Me</strong>: <em>Add the next presidential debate to my calendar.</em></p>
+
+<p><strong>Siri</strong>: <em>I didn&#8217;t find any appointments about &#8216;presidential debate&#8217; in the next three months.</em></p>
+
+<p>Another attempt:</p>
+
+<p><strong>Me</strong>: <em>When is the next presidential debate?</em></p>
+
+<p><strong>Siri</strong>: <em>The third 2016 presidential debate will take place from 9:00pm to 10:30pm ET on Wednesday, October 19 at the University of Nevada in Las Vegas, Nevada.</em></p>
+
+<p><strong>Me</strong>: <em>Remind me about it one hour before it starts.</em></p>
+
+<p><strong>Siri</strong>: <em>OK, I&#8217;ll remind you to &#8216;It starts&#8217;. When would you like to be reminded?</em></p>
+
+<p>Five years in, this seems like a reasonable (and useful) thing to expect Siri to be able to do.<sup id="fnr2-2016-10-12"><a href="#fn2-2016-10-12">2</a></sup></p>
+
+<p>Mossberg:</p>
+
+<blockquote>
+  <p>For instance, when I asked Siri on my Mac how long it would take
+me to get to work, it said it didn’t have my work address &#8212;
+even though the “me” contact card contains a work address and
+the same synced contact card on my iPhone allowed Siri to give
+me an answer.</p>
+
+<p>Similarly, on my iPad, when I asked what my next appointment was,
+it said “Sorry, Walt, something’s wrong” &#8212; repeatedly, with
+slightly different wording, in multiple places on multiple days.
+But, using the same Apple calendar and data, Siri answered
+correctly on the iPhone.</p>
+</blockquote>
+
+<p>These sort of glaring inconsistencies are almost as bad as universal failures. The big problem Apple faces with Siri is that when people encounter these problems, <em>they stop trying</em>. It feels like you&#8217;re wasting your time, and makes you feel silly or even foolish for having tried. I worry that even if Apple improves Siri significantly, people will never know it because they won&#8217;t bother trying because they were burned so many times before. In addition to the engineering hurdles to actually make Siri much better, Apple also has to overcome a &#8220;boy who cried wolf&#8221; credibility problem.</p>
+
+<p>I think &#8220;assistant&#8221; is the exact right term for this class of software. But I can&#8217;t imagine how stupid an actual human assistant would have to be not to understand a request like &#8220;Find out when the next debate is and put it on my calendar.&#8221;</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1-2016-10-12">
+<p>Even worse: If I ask &#8220;When is the next US presidential debate?&#8221; (note the &#8220;US&#8221;), Siri parses it correctly but instead of answering, falls back to <a href="https://daringfireball.net/misc/2016/10/siri-us-presidential-debate.jpg">an offer to display search results from the web</a>. It seems wrong that a more specific query would fail.&nbsp;<a href="#fnr1-2016-10-12"  class="footnoteBackLink"  title="Jump back to footnote 1 in the text.">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn2-2016-10-12">
+<p>To be fair, I tried the same two-step sequence (when&#8217;s the next debate?; add it to my calendar) with Google Assistant running in the Allo app on Android, and <a href="https://daringfireball.net/misc/2016/10/google-assistant.jpg">it failed in the same way</a>. I remain unconvinced that Siri is behind the competition, and even if it is, I don&#8217;t think it&#8217;s by much.&nbsp;<a href="#fnr2-2016-10-12"  class="footnoteBackLink"  title="Jump back to footnote 2 in the text.">&#x21A9;&#xFE0E;︎</a></p>
+</li>
+
+</ol>
+</div>
+
+<div id="PreviousNext">
+<table>
+<tr valign="top"><td align="right"><strong>Previous:</strong></td><td><a href="https://daringfireball.net/2016/10/apple_dash_controversy">Apple Responds to Dash Controversy</a></td></tr>
+<tr valign="top"><td align="right"><strong>Next:</strong></td><td><a href="https://daringfireball.net/2016/10/iphone_edition">Don&#8217;t Hold Your Breath for an iPhone Edition</a></td></tr>
+</table>
+</div> <!-- PreviousNext -->
+</div> <!-- article -->
+
+<div id="Footer">
+<form id="SiteSearch" action="https://daringfireball.net/search" method="get" style="margin-bottom: 2.5em;">
+<div>
+<input name="q" type="text" value="" style="margin-right: 8px; width: 66%;" />
+<input type="submit" value="Search" />
+</div>
+</form>
+
+<p class="smallprint">
+<a href="/preferences/" title="Customize the font size and presentation options for this web site.">Display Preferences</a>
+<br /><br />
+Copyright &copy; 2002–2025 The Daring Fireball Company LLC.
+</p>
+</div>
+
+<!-- Google Analytics -->
+
+<!-- 
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-593949-1']);
+  _gaq.push (['_gat._anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+ -->
+
+<!-- Asynchronously load Mint -->
+<!-- No, screw mint
+<script type="text/javascript">
+(function () {
+	var ma = document.createElement('script');
+	ma.type = 'text/javascript';
+	ma.src = '/mint/?js';
+	ma.async = true;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ma, s);
+})();
+</script>
+-->
+</div> <!-- Main -->
+
+</div> <!-- box -->
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97f838e44ea6cbac',t:'MTc1Nzk0MDMzNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+<!-- 0.0011 seconds -->

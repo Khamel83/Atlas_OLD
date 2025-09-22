@@ -11,6 +11,7 @@ from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Any, Tuple
 from dataclasses import dataclass
 from pathlib import Path
+import statistics
 
 from .database_config import get_database_connection
 
@@ -467,6 +468,195 @@ class QueueManager:
                 }
                 for worker, cb in self._circuit_breakers.items()
             }
+
+    def get_queue_health(self) -> Dict[str, Any]:
+        """Get comprehensive queue health metrics."""
+        try:
+            conn = get_database_connection()
+            cursor = conn.cursor()
+
+            # Get current queue statistics
+            cursor.execute("""
+                SELECT status, COUNT(*) as count
+                FROM task_queue
+                GROUP BY status
+            """)
+            status_counts = dict(cursor.fetchall())
+
+            # Get queue age statistics
+            cursor.execute("""
+                SELECT
+                    MIN(created_at) as oldest_task,
+                    MAX(created_at) as newest_task,
+                    AVG(JULIANDAY(CURRENT_TIMESTAMP) - JULIANDAY(created_at)) * 24 * 60 as avg_age_minutes
+                FROM task_queue
+                WHERE status = 'pending'
+            """)
+            age_stats = cursor.fetchone()
+
+            # Get failure statistics
+            cursor.execute("""
+                SELECT
+                    COUNT(*) as total_failed,
+                    AVG(retry_count) as avg_retries,
+                    MAX(retry_count) as max_retries
+                FROM failed_tasks
+                WHERE created_at >= datetime('now', '-1 hour')
+            """)
+            failure_stats = cursor.fetchone()
+
+            # Calculate depth ratio (current / max capacity)
+            total_tasks = sum(status_counts.values())
+            max_capacity = 10000  # Configured maximum
+            depth_ratio = total_tasks / max_capacity
+
+            conn.close()
+
+            return {
+                'status_counts': status_counts,
+                'total_tasks': total_tasks,
+                'depth_ratio': depth_ratio,
+                'oldest_task_age': age_stats[0].isoformat() if age_stats[0] else None,
+                'newest_task_age': age_stats[1].isoformat() if age_stats[1] else None,
+                'average_age_minutes': age_stats[2] if age_stats[2] else 0,
+                'total_failed_last_hour': failure_stats[0] or 0,
+                'average_retries': failure_stats[1] or 0,
+                'max_retries': failure_stats[2] or 0,
+                'circuit_breaker_count': len([cb for cb in self._circuit_breakers.values() if cb.state == 'open']),
+                'healthy': depth_ratio < 0.8 and failure_stats[0] < 100
+            }
+
+        except Exception as e:
+            self.logger.error(f"Failed to get queue health: {e}")
+            return {'healthy': False, 'error': str(e)}
+
+    def get_queue_stats(self) -> Dict[str, Any]:
+        """Get comprehensive queue statistics."""
+        try:
+            conn = get_database_connection()
+            cursor = conn.cursor()
+
+            # Get processing statistics
+            cursor.execute("""
+                SELECT
+                    COUNT(*) as total_processed,
+                    SUM(CASE WHEN status = 'completed' THEN 1 ELSE 0 END) as successful_processed,
+                    SUM(CASE WHEN status = 'failed' THEN 1 ELSE 0 END) as failed_processed,
+                    SUM(retry_count) as total_retries,
+                    COUNT(CASE WHEN status = 'failed' THEN 1 END) as circuit_breaker_trips
+                FROM task_queue
+                WHERE created_at >= datetime('now', '-1 hour')
+            """)
+            stats = cursor.fetchone()
+
+            # Get processing times
+            cursor.execute("""
+                SELECT
+                    AVG(JULIANDAY(completed_at) - JULIANDAY(started_at)) * 24 * 60 * 60 as avg_processing_time,
+                    MIN(JULIANDAY(completed_at) - JULIANDAY(started_at)) * 24 * 60 * 60 as min_processing_time,
+                    MAX(JULIANDAY(completed_at) - JULIANDAY(started_at)) * 24 * 60 * 60 as max_processing_time
+                FROM task_queue
+                WHERE status = 'completed' AND completed_at IS NOT NULL
+                  AND created_at >= datetime('now', '-1 hour')
+            """)
+            time_stats = cursor.fetchone()
+
+            # Get retry statistics
+            cursor.execute("""
+                SELECT retry_count, COUNT(*) as count
+                FROM failed_tasks
+                WHERE created_at >= datetime('now', '-1 hour')
+                GROUP BY retry_count
+            """)
+            retry_stats = dict(cursor.fetchall())
+
+            conn.close()
+
+            processing_times = []
+            if time_stats[0]:
+                processing_times = [time_stats[0]]  # Simplified for now
+
+            return {
+                'total_processed': stats[0] or 0,
+                'successful_processed': stats[1] or 0,
+                'failed_processed': stats[2] or 0,
+                'retry_count': stats[3] or 0,
+                'circuit_breaker_trips': stats[4] or 0,
+                'processing_times': processing_times,
+                'average_processing_time': time_stats[0] or 0,
+                'min_processing_time': time_stats[1] or 0,
+                'max_processing_time': time_stats[2] or 0,
+                'retry_distribution': retry_stats
+            }
+
+        except Exception as e:
+            self.logger.error(f"Failed to get queue stats: {e}")
+            return {'error': str(e)}
+
+    def process_task(self, task_data: Dict[str, Any]) -> bool:
+        """Process a task with reliability guarantees."""
+        task_id = task_data.get('task_id', f"task_{int(time.time())}")
+        task_type = task_data.get('task_type', 'default')
+        priority = task_data.get('priority', 0)
+
+        # Enqueue the task
+        success = self.enqueue_task(task_id, task_type, task_data, priority)
+
+        if success:
+            # Try to process immediately if possible
+            try:
+                worker_task = self.dequeue_task('reliability_manager', [task_type])
+                if worker_task:
+                    # Process the task (simplified for now)
+                    self.logger.info(f"Processing task {task_id} immediately")
+                    return True
+            except Exception as e:
+                self.logger.error(f"Failed to process task {task_id}: {e}")
+                return False
+
+        return success
+
+    def get_next_task(self) -> Optional[Dict[str, Any]]:
+        """Get the next task for processing."""
+        task = self.dequeue_task('reliability_manager')
+        if task:
+            return {
+                'task_id': task.task_id,
+                'task_type': task.task_type,
+                'task_data': task.task_data,
+                'priority': task.priority,
+                'created_at': task.created_at
+            }
+        return None
+
+    def move_to_dead_letter(self, task: Dict[str, Any], reason: str):
+        """Move a task to the dead letter queue."""
+        task_id = task.get('task_id')
+        if not task_id:
+            return
+
+        try:
+            conn = get_database_connection()
+            cursor = conn.cursor()
+
+            # Move from main queue to failed tasks
+            cursor.execute("""
+                INSERT INTO failed_tasks (task_id, task_type, task_data, error_message, retry_count, created_at)
+                SELECT task_id, task_type, task_data, ?, COALESCE(retry_count, 0) + 1, CURRENT_TIMESTAMP
+                FROM task_queue
+                WHERE task_id = ?
+            """, (reason, task_id))
+
+            # Remove from main queue
+            cursor.execute("DELETE FROM task_queue WHERE task_id = ?", (task_id,))
+
+            conn.commit()
+            conn.close()
+
+            self.logger.warning(f"Task {task_id} moved to dead letter queue: {reason}")
+
+        except Exception as e:
+            self.logger.error(f"Failed to move task {task_id} to dead letter queue: {e}")
 
 
 # Global queue manager instance

@@ -1,0 +1,738 @@
+# Content from https://coingeek.com/airbit-club-us-extradites-one-of-block-reward-mining-scam-founders/
+
+*Retrieved: 2025-09-15T09:16:23.111453*
+
+---
+
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+<head>
+
+<!-- Meta Tags -->
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Icon Fonts -->
+	<!-- Google Fonts -->
+	<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" /> -->
+    <!-- <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var link = document.createElement("link");
+        link.href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css";
+        link.rel = "stylesheet";
+        document.head.appendChild(link);
+    });
+	</script> -->
+	<!--<script src="https://cdn.tailwindcss.com"></script>-->
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<meta property="og:title" content="AirBit Club: US extradites one of block reward mining scam founders"/>
+<meta property="og:description" content="Gutenberg Dos Santos will now stand trial in a New York court together with four others who were arrested in the United States."/>
+<meta property="og:image:alt" content="Close-up photo of a gavel"/>
+<meta property="og:image" content="https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders.jpg"/>
+<meta property="og:image:width" content="730" />
+<meta property="og:image:height" content="360" />
+<meta property="og:type" content="article"/>
+<meta property="og:article:published_time" content="2020-12-02 12:00:21"/>
+<meta property="og:article:modified_time" content="2020-12-02 10:03:13"/>
+<meta property="og:article:tag" content="AirBit Club"/>
+<meta property="og:article:tag" content="Panama"/>
+<meta property="og:article:tag" content="Ponzi Scheme"/>
+<meta property="og:article:tag" content="Scam"/>
+<meta property="og:article:tag" content="United States"/>
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AirBit Club: US extradites one of block reward mining scam founders"/>
+<meta name="twitter:description" content="Gutenberg Dos Santos will now stand trial in a New York court together with four others who were arrested in the United States."/>
+<meta name="twitter:image" content="https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders.jpg"/>
+<meta name="twitter:image:alt" content="Close-up photo of a gavel"/>
+<meta name="author" content="Steve Kaaru"/>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v25.7.1 (Yoast SEO v25.7) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>AirBit Club: US extradites one of block reward mining scam founders - CoinGeek</title>
+	<meta name="description" content="Gutenberg Dos Santos will now stand trial in a New York court together with four others who were arrested in the United States." />
+	<link rel="canonical" href="https://coingeek.com/airbit-club-us-extradites-one-of-block-reward-mining-scam-founders/" />
+	<meta property="og:url" content="https://coingeek.com/airbit-club-us-extradites-one-of-block-reward-mining-scam-founders/" />
+	<meta property="og:site_name" content="CoinGeek" />
+	<meta property="article:publisher" content="https://www.facebook.com/realcoingeek/" />
+	<meta property="article:published_time" content="2020-12-02T12:00:21+00:00" />
+	<meta property="og:image" content="https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders.jpg" />
+	<meta property="og:image:width" content="730" />
+	<meta property="og:image:height" content="360" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Steve Kaaru" />
+	<meta name="twitter:creator" content="@realcoingeek" />
+	<meta name="twitter:site" content="@realcoingeek" />
+	<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//a.omappapi.com' />
+    <!-- SEO script -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://coingeek.com/#webpage",
+      "url": "https://coingeek.com/",
+      "name": "CoinGeek: Tech Talk You Can Trust",
+      "isPartOf": {
+        "@id": "https://coingeek.com/#website"
+      },
+      "about": {
+        "@id": "https://coingeek.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://coingeek.com/#primaryimage"
+      },
+      "image": {
+        "@id": "https://coingeek.com/#primaryimage"
+      },
+      "thumbnailUrl": "https://coingeek.com/path/to/thumbnail.jpg",
+      "datePublished": "2025-09-10T00:00:00+00:00",
+      "dateModified": "2025-09-10T00:00:00+00:00",
+      "description": "CoinGeek delivers trusted blockchain news with a focus on BSV, AI, Web3, enterprise innovations, and blockchain insights.",
+      "breadcrumb": {
+        "@id": "https://coingeek.com/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction",
+        "target": "https://coingeek.com/"
+      }]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://coingeek.com/#website",
+      "url": "https://coingeek.com/",
+      "name": "CoinGeek",
+      "publisher": {
+        "@id": "https://coingeek.com/#organization"
+      },
+      "potentialAction": [{
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://coingeek.com/?s={search_term_string}"
+        },
+        "query-input": {
+          "@type": "PropertyValueSpecification",
+          "valueRequired": true,
+          "valueName": "search_term_string"
+        }
+      }],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://coingeek.com/#primaryimage",
+      "url": "https://coingeek.com/wp-content/uploads/2025/06/CoinGeek_Logo_Black_RGB_72dpi_V2-1.webp",
+      "contentUrl": "https://coingeek.com/wp-content/uploads/2025/06/CoinGeek_Logo_Black_RGB_72dpi_V2-1.webp",
+      "width": 800,
+      "height": 600,
+      "caption": "CoinGeek logo",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://coingeek.com/#organization",
+      "name": "CoinGeek",
+      "url": "https://coingeek.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://coingeek.com/wp-content/uploads/2025/06/CoinGeek_Logo_Black_RGB_72dpi_V2-1.webp",
+        "width": 250,
+        "height": 60
+      },
+      "sameAs": [
+        "https://www.facebook.com/CoinGeek/",
+        "https://twitter.com/RealCoinGeek",
+        "https://www.linkedin.com/company/coingeek/",
+        "https://www.youtube.com/coingeek"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://coingeek.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://coingeek.com/"
+        }
+      ]
+    },
+    {
+      "@type": "NewsArticle",
+      "@id": "https://coingeek.com/#latestNews",
+      "headline": "Latest Blockchain News, BSV Insights, and AI Web3 Trends from CoinGeek",
+      "url": "https://coingeek.com/",
+      "datePublished": "2025-09-10T00:00:00+00:00",
+      "description": "Stay updated on the latest in blockchain, BSV, AI, enterprise use cases and news analysis.",
+      "image": {
+        "@id": "https://coingeek.com/#primaryimage"
+      },
+      "author": {
+        "@type": "Organization",
+        "@id": "https://coingeek.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://coingeek.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://coingeek.com/#webpage"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is CoinGeek?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CoinGeek is a leading blockchain news outlet offering insights into enterprise blockchain, BSV, AI, Web3, and technology trends."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does CoinGeek cover?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CoinGeek covers in-depth news, analysis and editorials on blockchain technology, BSV, business applications, AI, Web3, and related events."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+    <style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wpo_min-header-0-css' href='https://coingeek.com/wp-content/uploads/cache/wpo-minify/1757004997/assets/wpo-minify-header-12c53c4e.min.css' media='all' />
+<link rel="https://api.w.org/" href="https://coingeek.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://coingeek.com/wp-json/wp/v2/posts/432809" /><link rel='shortlink' href='https://coingeek.com/?p=432809' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://coingeek.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoingeek.com%2Fairbit-club-us-extradites-one-of-block-reward-mining-scam-founders%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://coingeek.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoingeek.com%2Fairbit-club-us-extradites-one-of-block-reward-mining-scam-founders%2F&#038;format=xml" />
+<!-- Google Tag Manager --> 
+<script data-type="lazy" data-src="data:text/javascript;base64,DQoJKGZ1bmN0aW9uKHcsZCxzLGwsaSl7d1tsXT13W2xdfHxbXTt3W2xdLnB1c2goeydndG0uc3RhcnQnOg0KCW5ldyBEYXRlKCkuZ2V0VGltZSgpLGV2ZW50OidndG0uanMnfSk7dmFyIGY9ZC5nZXRFbGVtZW50c0J5VGFnTmFtZShzKVswXSxqPWQuY3JlYXRlRWxlbWVudChzKSxkbD1sIT0nZGF0YUxheWVyJz8nJmw9JytsOicnO2ouYXN5bmM9dHJ1ZTtqLnNyYz0naHR0cHM6Ly93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RtLmpzP2lkPScraStkbDtmLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGosZik7fSkod2luZG93LGRvY3VtZW50LCdzY3JpcHQnLCdkYXRhTGF5ZXInLCdHVE0tTTU5VkNDVycpOw=="></script> 
+<!-- End Google Tag Manager --> 
+
+<!-- Meta Pixel Code --> 
+<script data-type="lazy" data-src="data:text/javascript;base64,DQoJIWZ1bmN0aW9uKGYsYixlLHYsbix0LHMpe2lmKGYuZmJxKXJldHVybjtuPWYuZmJxPWZ1bmN0aW9uKCl7bi5jYWxsTWV0aG9kP24uY2FsbE1ldGhvZC5hcHBseShuLGFyZ3VtZW50cyk6bi5xdWV1ZS5wdXNoKGFyZ3VtZW50cyl9OyANCglpZighZi5fZmJxKWYuX2ZicT1uO24ucHVzaD1uO24ubG9hZGVkPSEwO24udmVyc2lvbj0nMi4wJzsgDQoJbi5xdWV1ZT1bXTt0PWIuY3JlYXRlRWxlbWVudChlKTt0LmFzeW5jPSEwOyANCgl0LnNyYz12O3M9Yi5nZXRFbGVtZW50c0J5VGFnTmFtZShlKVswXTsNCglzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKHQscyl9KHdpbmRvdywgZG9jdW1lbnQsJ3NjcmlwdCcsICdodHRwczovL2Nvbm5lY3QuZmFjZWJvb2submV0L2VuX1VTL2ZiZXZlbnRzLmpzJyk7DQoJZmJxKCdpbml0JywgJzk5MjYyNDA2MTg4MjUyMicpOw0KCWZicSgndHJhY2snLCAnUGFnZVZpZXcnKTsgDQo="></script>
+<noscript>
+	<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=992624061882522&ev=PageView&noscript=1" />
+</noscript> 
+<!-- End Meta Pixel Code --> 
+
+<!-- Twitter conversion tracking base code --> 
+<script data-type="lazy" data-src="data:text/javascript;base64,DQoJIWZ1bmN0aW9uKGUsdCxuLHMsdSxhKXtlLnR3cXx8KHM9ZS50d3E9ZnVuY3Rpb24oKXtzLmV4ZT9zLmV4ZS5hcHBseShzLGFyZ3VtZW50cyk6cy5xdWV1ZS5wdXNoKGFyZ3VtZW50cyk7fSxzLnZlcnNpb249JzEuMScscy5xdWV1ZT1bXSx1PXQuY3JlYXRlRWxlbWVudChuKSx1LmFzeW5jPSEwLHUuc3JjPSdodHRwczovL3N0YXRpYy5hZHMtdHdpdHRlci5jb20vdXd0LmpzJyxhPXQuZ2V0RWxlbWVudHNCeVRhZ05hbWUobilbMF0sYS5wYXJlbnROb2RlLmluc2VydEJlZm9yZSh1LGEpKX0od2luZG93LGRvY3VtZW50LCdzY3JpcHQnKTsgDQoJdHdxKCdjb25maWcnLCdvMGRkdCcpOyANCg=="></script> 
+<!-- End Twitter conversion tracking base code --> 
+<!-- Google Site Verfication --> 
+<meta name="google-site-verification" content="rA8hFmu2WS1r24yySswNLxxAVA6kcqVa6WGzeXzWpIo" />
+<!-- MS Clarity --> 
+<script type="text/javascript" data-type="lazy" data-src="data:text/javascript;base64,DQogICAgKGZ1bmN0aW9uKGMsbCxhLHIsaSx0LHkpew0KICAgICAgICBjW2FdPWNbYV18fGZ1bmN0aW9uKCl7KGNbYV0ucT1jW2FdLnF8fFtdKS5wdXNoKGFyZ3VtZW50cyl9Ow0KICAgICAgICB0PWwuY3JlYXRlRWxlbWVudChyKTt0LmFzeW5jPTE7dC5zcmM9Imh0dHBzOi8vd3d3LmNsYXJpdHkubXMvdGFnLyIraTsNCiAgICAgICAgeT1sLmdldEVsZW1lbnRzQnlUYWdOYW1lKHIpWzBdO3kucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUodCx5KTsNCiAgICB9KSh3aW5kb3csIGRvY3VtZW50LCAiY2xhcml0eSIsICJzY3JpcHQiLCAib2pndnFsMDNndCIpOw0K"></script>
+<!-- End MS Clarity -->
+<link rel="icon" href="https://coingeek.com/wp-content/uploads/2024/09/cropped-android-chrome-512x512-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://coingeek.com/wp-content/uploads/2024/09/cropped-android-chrome-512x512-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://coingeek.com/wp-content/uploads/2024/09/cropped-android-chrome-512x512-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://coingeek.com/wp-content/uploads/2024/09/cropped-android-chrome-512x512-1-270x270.png" />
+		<style id="wp-custom-css">
+			/* Ad top banner CLS start */
+#image-banner {
+  min-height: 135px;
+}
+
+@media (min-width: 768px) {
+  #image-banner {
+    min-height: 182px;
+  }
+}
+/* Ad top banner CLS end */
+
+a[title="All"] {
+  background-color: #B64035;
+}
+
+.image-banner__container img {
+	margin-bottom:16px;
+	width:100%!important;
+	height:100%!important;
+}
+
+/* hiding whether widget placeholder text */
+.temperature.font-medium{
+	display: none;
+}
+
+/* Addind size for ad image */
+.logo a img {
+  width: 354px!important;
+  height: 68px!important;
+	object-fit: contain!important;
+}
+@media (min-width: 1024px) {
+  .top-left img {
+    width: 24px;
+    height: 16px;
+  }
+  .search-block img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.st-btn{display:flex !important}
+.page-id-240 .ad-space-section{display:none !important}
+
+.footer-logo img {
+  width: 280px;
+  height: 54px;
+}
+
+.ad-space-section {
+  justify-content: center;
+/*   display: block;
+  width: 80%; */
+}
+.ad-space-section img {
+  width: 100%;
+  height: 100%;
+}
+
+/* hiding whether widget placeholder text */
+.temperature.font-medium{
+	display: none;
+}
+
+.flex.flex-row.gap-x-2\.5.flex-wrap {
+    flex-wrap: wrap;
+    gap: 5px 2px;
+}
+
+.advertising__item-image {
+	border-radius: 4px;
+	overflow: hidden;
+}
+/* Footer form custom CSS */
+._form_77 [for="field[162]"] + ._field-wrapper::after {
+    content: "Topic of Interest";
+    position: relative;
+    bottom: 40px !important;
+    left: 10px;
+    color: white;
+    pointer-events: none;
+}
+
+body form._form_77 div._form-content div._form_element div._field-wrapper select#field\[162\][data-name="topic_of_interest"]:valid {
+	position: relative;
+	z-index: 1;
+	background-color: #171717 !important;
+}		</style>
+		</head>
+
+<body class="wp-singular post-template-default single single-post postid-432809 single-format-standard wp-theme-coingeek cookies-not-set" data-welcome-popup="3000" data-expired-30-days="0" data-expired-3-days="0">
+<header class="site-header">
+	<div class="topBar bg-black">
+		<div class="container">
+						<div class="flex items-center justify-between">
+				<div class="top-left text-xxs text-black-500 flex space-x-5 items-center">
+											<div class="news-tempature font-bold flex items-center space-x-2">
+							<div>
+								<img src="https://coingeek.com/wp-content/themes/coingeek/assets/images/temp.svg" alt="">
+							</div>
+															<div class="temperature font-medium">Reserved IP Address<sup>°C</sup></div>
+															<div class="location"></div>
+						</div>
+											<div class="news-temp-date font-bold flex items-center">
+						<img class="pr-2" src="https://coingeek.com/wp-content/themes/coingeek/assets/images/time.svg" alt="">
+						09-15-2025					</div>
+				</div>
+					<div class="flex items-center justify-end xl:space-x-5 breaking-news md:w-full ml-0 lg:ml-6">
+						<div class="top-news flex items-center mr-0 space-x-3">
+							<div class="bg-primary text-white py-[0.80rem] px-2 mr-0">
+								Breaking News
+							</div>
+							<div>
+								<a href="https://coingeek.com/philippine-lawmakers-push-blockchain-budget-bills-in-house/">
+									Philippine lawmakers push blockchain budget bills in House								</a>
+							</div>
+						</div>
+						<div class="social-icons py-2 ml-[20px] xl:ml-40">
+							<ul class="flex"><li><a href="https://www.facebook.com/realcoingeek/" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/fb.svg" alt="Facebook" /></a></li><li><a href="https://x.com/realcoingeek" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/twitter-1.svg" alt="Twitter" /></a></li><li><a href="https://www.instagram.com/coingeek_official/" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/insta-1.svg" alt="Instagram" /></a></li><li><a href="https://www.youtube.com/coingeek" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/youtube-1.svg" alt="YouTube" /></a></li></ul>						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+
+<div class="header-block pt-8 pb-7">
+		<div class="container">
+			<div class="flex justify-center items-center space-x-5 xl:flex-wrap xl:space-y-5 xl:space-x-0 xl:justify-between">
+				<div class="logo">
+					<a href="https://coingeek.com" class="flex items-center space-x-3 rtl:space-x-reverse"><img src="https://coingeek.com/wp-content/uploads/2025/06/CoinGeek_Logo_Black_RGB_72dpi_V2-1.webp" width="354px" alt="Home page"></a>				</div>
+				<div class="market-value relative">
+                <div id="crypto-data" class="relative flex space-x-4">
+                    <div class="item crypto-data__item"><a href="https://coingeek.com/prices-by-market-cap/" class="crypto-data__item-link" aria-label="crypto-data"></a><div class="card rounded-md shadow-custom py-2 px-3"><div class="flex justify-between space-x-5 items-center pb-2"><div class="font-bold text-sm sm:text-xs md:text-lg text-gray-500 flex space-x-1 items-center"><span class="flex bg-orange w-3 h-3 rounded-full"></span><div>BSV</div></div><div class="price text-gray-500 sm:text-xs lg:text-base">$25.73</div></div><div class="flex justify-between space-x-5 text-xxs"><div class="text-gray-500">Vol 15.22m</div><div class="text-red font-semibold">-2.96%</div></div></div></div><div class="item crypto-data__item"><a href="https://coingeek.com/prices-by-market-cap/" class="crypto-data__item-link" aria-label="crypto-data"></a><div class="card rounded-md shadow-custom py-2 px-3"><div class="flex justify-between space-x-5 items-center pb-2"><div class="font-bold text-sm sm:text-xs md:text-lg text-gray-500 flex space-x-1 items-center"><span class="flex bg-blue w-3 h-3 rounded-full"></span><div>BTC</div></div><div class="price text-gray-500 sm:text-xs lg:text-base">$114838</div></div><div class="flex justify-between space-x-5 text-xxs"><div class="text-gray-500">Vol 43579.26m</div><div class="text-red font-semibold">-0.46%</div></div></div></div><div class="item crypto-data__item"><a href="https://coingeek.com/prices-by-market-cap/" class="crypto-data__item-link" aria-label="crypto-data"></a><div class="card rounded-md shadow-custom py-2 px-3"><div class="flex justify-between space-x-5 items-center pb-2"><div class="font-bold text-sm sm:text-xs md:text-lg text-gray-500 flex space-x-1 items-center"><span class="flex bg-primary w-3 h-3 rounded-full"></span><div>BCH</div></div><div class="price text-gray-500 sm:text-xs lg:text-base">$589.21</div></div><div class="flex justify-between space-x-5 text-xxs"><div class="text-gray-500">Vol 658.57m</div><div class="text-red font-semibold">-0.97%</div></div></div></div><div class="item crypto-data__item"><a href="https://coingeek.com/prices-by-market-cap/" class="crypto-data__item-link" aria-label="crypto-data"></a><div class="card rounded-md shadow-custom py-2 px-3"><div class="flex justify-between space-x-5 items-center pb-2"><div class="font-bold text-sm sm:text-xs md:text-lg text-gray-500 flex space-x-1 items-center"><span class="flex bg-black-950 w-3 h-3 rounded-full"></span><div>MNEE</div></div><div class="price text-gray-500 sm:text-xs lg:text-base">$1</div></div><div class="flex justify-between space-x-5 text-xxs"><div class="text-gray-500">Vol 0.06m</div><div class="text-red font-semibold">-0.05%</div></div></div></div><div class="item crypto-data__item"><a href="https://coingeek.com/prices-by-market-cap/" class="crypto-data__item-link" aria-label="crypto-data"></a><div class="card rounded-md shadow-custom py-2 px-3"><div class="flex justify-between space-x-5 items-center pb-2"><div class="font-bold text-sm sm:text-xs md:text-lg text-gray-500 flex space-x-1 items-center"><span class="flex bg-black-950 w-3 h-3 rounded-full"></span><div>DOGE</div></div><div class="price text-gray-500 sm:text-xs lg:text-base">$0.26</div></div><div class="flex justify-between space-x-5 text-xxs"><div class="text-gray-500">Vol 5612.02m</div><div class="text-red font-semibold">-4.39%</div></div></div></div>
+                </div>
+            </div>			</div>
+		</div>
+	</div>
+
+</header>
+
+<div class="nav-bar js-header-nav-bar">
+		<div class="container">
+			<nav class="bg-white relative z-30">
+					<div class="flex items-center justify-between mx-auto main-navigation">
+							<div class="w-[76%] md:w-full lg:w-[76%]"><div class="menu-header-menu-container"><ul id="primary-menu" class="nav-menu"><li id="menu-item-575502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-575502"><a href="https://coingeek.com/">Home</a></li>
+<li id="menu-item-575503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-575503"><a href="https://coingeek.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-594026" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-594026"><a href="/news">News</a></li>
+	<li id="menu-item-594028" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-594028"><a href="https://coingeek.com/news/category/business/">Business</a></li>
+	<li id="menu-item-594033" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-594033"><a href="https://coingeek.com/news/category/tech/">Tech</a></li>
+	<li id="menu-item-594031" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-594031"><a href="https://coingeek.com/news/category/finance/">Finance</a></li>
+	<li id="menu-item-594029" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-594029"><a href="https://coingeek.com/news/category/editorial/">Editorial</a></li>
+	<li id="menu-item-594032" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-594032"><a href="https://coingeek.com/news/category/interviews/">Interviews</a></li>
+	<li id="menu-item-594030" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-594030"><a href="https://coingeek.com/news/category/events/">Events</a></li>
+	<li id="menu-item-594034" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-594034"><a href="/videos">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-594035" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-594035"><a href="#">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-594036" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-594036"><a href="#">Resources</a></li>
+	<li id="menu-item-575501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-575501"><a href="https://coingeek.com/blockchain101/">Blockchain 101</a></li>
+	<li id="menu-item-594037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-594037"><a href="https://coingeek.com/bitcoin101/">Bitcoin 101</a></li>
+</ul>
+</li>
+<li id="menu-item-585282" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-585282"><a href="#">Bitcade</a>
+<ul class="sub-menu">
+	<li id="menu-item-585287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-585287"><a href="#">Bitcade</a></li>
+	<li id="menu-item-585283" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585283"><a href="https://coingeek.com/wallets/">Wallets</a></li>
+	<li id="menu-item-594027" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-594027"><a href="https://coingeek.com/exchanges/">Exchanges</a></li>
+	<li id="menu-item-585284" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585284"><a href="https://coingeek.com/games/">Games</a></li>
+	<li id="menu-item-585285" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585285"><a href="https://coingeek.com/apps/">Apps</a></li>
+</ul>
+</li>
+<li id="menu-item-575505" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-575505"><a href="#">More</a>
+<ul class="sub-menu">
+	<li id="menu-item-586750" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-586750"><a href="#">More</a></li>
+	<li id="menu-item-586751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-586751"><a href="https://coingeek.com/prices-by-market-cap/">Market Cap</a></li>
+	<li id="menu-item-575499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-575499"><a href="https://coingeek.com/about-us/">About Us</a></li>
+	<li id="menu-item-579333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-579333"><a href="/about-us/#team-section">Meet the Team</a></li>
+	<li id="menu-item-579492" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579492"><a href="https://coingeek.com/contact-us/">Contact Us</a></li>
+	<li id="menu-item-575508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-575508"><a href="https://coingeek.com/terms-of-use/">Terms of Use</a></li>
+	<li id="menu-item-575506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-575506"><a rel="privacy-policy" href="https://coingeek.com/privacy-policy/">Privacy Policy</a></li>
+	<li id="menu-item-575507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-575507"><a href="https://coingeek.com/cookie-notice/">Cookie Notice</a></li>
+	<li id="menu-item-575500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-575500"><a href="https://coingeek.com/advertising/">Advertising</a></li>
+</ul>
+</li>
+</ul></div></div><div class="search-block w-[24%]">
+                <form role="search" method="get" class="search-form block w-full" action="https://coingeek.com/">
+                    <div class="relative">
+                        <!-- Search icon -->
+                        <div class="absolute inset-y-0 start-0 flex items-center pr-5 pointer-events-none">
+                            <img src="https://coingeek.com/wp-content/themes/coingeek/assets/images/search.svg" alt="Search Icon" />
+                        </div>
+
+<!-- Search input field -->
+                        <input type="search" id="default-search-head" value="" name="s"
+                               class="block w-full ps-12 text-black/60" placeholder="Search keyword" required />
+
+<!-- Submit button (hidden) -->
+                        <button type="submit" class="hidden sr-only bg-primary w-8 h-8 search-bt">
+                            <i class="fa-solid fa-chevron-right text-white text-xs"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>					</div>
+			</nav>
+		</div>
+	</div>
+
+<div class="main-wrapper js-main-wrapper">
+
+<!-- title-->
+<section class="relative bg-white py-3">
+      <div class="container relative z-10">
+            
+<div class="relative banner-inner">
+    <div class="article overlay-left h-full">
+        <img width="730" height="360" src="https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders.webp" class="attachment-full size-full wp-post-image" alt="Close-up photo of a gavel" decoding="async" fetchpriority="high" srcset="https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders.webp 730w, https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders-300x148.webp 300w, https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders-380x188.webp 380w, https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders-280x139.webp 280w, https://coingeek.com/wp-content/uploads/2020/12/AirBit-Club-US-extradites-one-of-block-reward-mining-scam-founders-100x49.webp 100w" sizes="(max-width: 730px) 100vw, 730px" />    </div>
+    <div class="card-body text-white articleCaption w-full h-full max-w-xl">
+        <div class="container-inner relative h-full justify-between flex flex-col md:p-0">
+            <div class="flex"><a class="category-name"
+                           title="Business"
+                           style="background-color: #eb0000;"
+                           href="https://coingeek.com/news/category/business/">
+                                Business
+                       </a></div>            <div class="post-des">
+                                <h1 class="mb-4 xl:mb-5">AirBit Club: US extradites one of block reward mining scam founders</h1>
+                <div class="max-w-xl w-full">
+                    <div class="mb-2 flex space-x-2 items-center text-xxs">
+    <div class="time text-xxs pr-3">
+        2 December 2020    </div>
+    <div class="text-xxs author">By <a href="https://coingeek.com/author/steve-kaaru/">Steve Kaaru</a></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            
+      </div>
+</section>
+
+<section class="relative bg-white py-12">
+      <div class="container-inner relative z-10">
+            <div class="page-content flex md:flex-wrap lg:flex-nowrap space-x-5 space-between md:space-x-0 md:space-y-5">
+                  
+                  <div class="md:w-full lg:w-9/12 mb-0">
+                        <div class="w-full post-article">
+                        <div class="breadcrumb-section flex text-xxs text-gray-400 pb-7 test"><ol class="inline-flex items-center space-x-1"><li class="inline-flex items-center"><a href="https://coingeek.com" class="inline-flex items-center">Homepage</a></li><li class="inline-flex items-center"> &gt; </li><li class="inline-flex items-center"><a href="https://coingeek.com/news/" class="inline-flex items-center">News</a></li><li class="inline-flex items-center"> &gt; </li><li class="inline-flex items-center"><a class="inline-flex items-center"
+                           href="https://coingeek.com/news/category/business/">
+                                Business
+                       </a></li><li class="inline-flex items-center"> &gt; </li><li class="inline-flex items-center">AirBit Club: US extradites one of block reward mining scam founders</li></ol></div>
+                                                                  
+        <table id="trinity-audio-table" style="width: 100%; display: table; border: none; margin: 0">
+            <tr>
+                <td id="trinity-audio-tab" style="border: none;">
+                    <div id="trinity-audio-player-label"></div>
+                    <script nitro-exclude data-wpfc-render='false' data-cfasync='false' data-no-optimize='1' data-no-defer='1' data-no-minify='1' data-trinity-mount-date='2025-09-15 16:16:22' id='trinity_tts_wp_config'>var TRINITY_TTS_WP_CONFIG = {"cleanText":"AirBit Club: US extradites one of block reward mining scam founders.\u23f8\u2587The U.S. Department of Justice has extradited one of the founders of a global digital currency block reward mining Ponzi scheme from Panama. Gutenberg Dos Santos will now stand trial in a New York court together with four others who were arrested in the United States.\u23f8\u2587In a statement, Acting U.S. Attorney for the Southern District of New York Audrey Strauss said the DoJ had extradited the alleged scammer from Panama on November 25. He is set to stand before U.S. Magistrate Judge Katharine Parker. He was arrested in Panama City on August 18.\u23f8\u2587Dos Santos is alleged to be one of the operators of AirBit Club, a block reward mining Ponzi scheme that reportedly defrauded investors in Latin America, Asia and Eastern Europe. The scam relied on the promise of guaranteed returns to lure investors. According to the DoJ, the scam managed to defraud over $20 million from thousands of investors.\u23f8\u2587Dos Santos ran the scam with four other co-conspirators, U.S. authorities said. As CoinGeek reported, U.S. prosecutors in August unsealed an indictment against Dos Santos and the other four\u2014Cecilia Milan, Scott Hughes, Pablo Rodriguez and Jackie Aguilar.\u23f8\u2587U.S. prosecutors allege that AirBit Club started in 2015, with the five perpetrators marketing it as a multilevel marketing club in the digital currency industry. They falsely claimed the company was earning returns on digital currency block reward mining and trading, promising investors they would earn passive and guaranteed daily returns on any membership purchased.\u23f8\u2587To market AirBit Club, the five traveled across Latin America, the U.S., Eastern Europe and Asia, hosting lavish expos to lure investors. They only accepted membership payments in cash, the DoJ said.\u23f8\u2587For the inquisitive investors, the suspects provided access to an online portal on which the investor could view the purported returns on investments. The portal showed \u2018in real time\u2019 the profits accumulating for the investors. However, as the prosecutors reveal, the portal was fake and the representations were false.\u23f8\u2587Dos Santos and the other four suspects used the investors\u2019 money to purchase cars, luxury homes, jewelry and organize even more extravagant expos to lure more unsuspecting investors. The 45-year-old, who is a dual citizen of the U.S. and Brazil, is charged with conspiracy to commit bank fraud, conspiracy to commit wire fraud and conspiracy to commit money laundering. If convicted, Dos Santos faces a maximum of 70 years in prison.\u23f8\u2587Earlier this month, the DoJ seized $24 million from another alleged Brazilian digital currency scammer. The DoJ was acting on a request from Brazilian authorities.\u23f8\u2587Follow\u00a0CoinGeek\u2019s Crypto Crime Cartel\u00a0series, which delves into the stream of groups\u2014from\u00a0BitMEX\u00a0to\u00a0Binance,\u00a0Bitcoin.com,\u00a0Blockstream,\u00a0ShapeShift\u00a0and Ethereum\u2014who have co-opted the digital asset revolution and turned the industry into a minefield for na\u00efve (and even experienced) players in the market.","headlineText":"AirBit Club: US extradites one of block reward mining scam founders","articleText":"The U.S. Department of Justice has extradited one of the founders of a global digital currency block reward mining Ponzi scheme from Panama. Gutenberg Dos Santos will now stand trial in a New York court together with four others who were arrested in the United States.\u23f8\u2587In a statement, Acting U.S. Attorney for the Southern District of New York Audrey Strauss said the DoJ had extradited the alleged scammer from Panama on November 25. He is set to stand before U.S. Magistrate Judge Katharine Parker. He was arrested in Panama City on August 18.\u23f8\u2587Dos Santos is alleged to be one of the operators of AirBit Club, a block reward mining Ponzi scheme that reportedly defrauded investors in Latin America, Asia and Eastern Europe. The scam relied on the promise of guaranteed returns to lure investors. According to the DoJ, the scam managed to defraud over $20 million from thousands of investors.\u23f8\u2587Dos Santos ran the scam with four other co-conspirators, U.S. authorities said. As CoinGeek reported, U.S. prosecutors in August unsealed an indictment against Dos Santos and the other four\u2014Cecilia Milan, Scott Hughes, Pablo Rodriguez and Jackie Aguilar.\u23f8\u2587U.S. prosecutors allege that AirBit Club started in 2015, with the five perpetrators marketing it as a multilevel marketing club in the digital currency industry. They falsely claimed the company was earning returns on digital currency block reward mining and trading, promising investors they would earn passive and guaranteed daily returns on any membership purchased.\u23f8\u2587To market AirBit Club, the five traveled across Latin America, the U.S., Eastern Europe and Asia, hosting lavish expos to lure investors. They only accepted membership payments in cash, the DoJ said.\u23f8\u2587For the inquisitive investors, the suspects provided access to an online portal on which the investor could view the purported returns on investments. The portal showed \u2018in real time\u2019 the profits accumulating for the investors. However, as the prosecutors reveal, the portal was fake and the representations were false.\u23f8\u2587Dos Santos and the other four suspects used the investors\u2019 money to purchase cars, luxury homes, jewelry and organize even more extravagant expos to lure more unsuspecting investors. The 45-year-old, who is a dual citizen of the U.S. and Brazil, is charged with conspiracy to commit bank fraud, conspiracy to commit wire fraud and conspiracy to commit money laundering. If convicted, Dos Santos faces a maximum of 70 years in prison.\u23f8\u2587Earlier this month, the DoJ seized $24 million from another alleged Brazilian digital currency scammer. The DoJ was acting on a request from Brazilian authorities.\u23f8\u2587Follow\u00a0CoinGeek\u2019s Crypto Crime Cartel\u00a0series, which delves into the stream of groups\u2014from\u00a0BitMEX\u00a0to\u00a0Binance,\u00a0Bitcoin.com,\u00a0Blockstream,\u00a0ShapeShift\u00a0and Ethereum\u2014who have co-opted the digital asset revolution and turned the industry into a minefield for na\u00efve (and even experienced) players in the market.","metadata":{"author":"Steve Kaaru"},"pluginVersion":"5.20.1"};</script><div class='trinityAudioPlaceholder' data-trinity-mount-date='2025-09-15 16:16:22'>
+                      <div class='trinity-tts-pb' dir='ltr' style='font: 12px / 18px Verdana, Arial; height: 80px; line-height: 80px; text-align: left; margin: 0 0 0 82px;'>
+                          <strong style='font-weight: 400'>Getting your <a href='//trinityaudio.ai' style='color: #4b4a4a; text-decoration: none; font-weight: 700;'>Trinity Audio</a> player ready...</strong>
+                      </div>
+                    </div>
+                </td>
+            </tr>
+        </table><p>The <a href="https://coingeek.com/department-of-justice-seizes-over-1-billion-in-btc-bsv-and-bch/" target="_blank" rel="noopener noreferrer">U.S. Department of Justice</a> has extradited one of the founders of a global digital currency block reward mining Ponzi scheme from Panama. Gutenberg Dos Santos will now stand trial in a New York court together with four others who were arrested in the United States.</p>
+<p>In a statement, Acting U.S. Attorney for the Southern District of New York Audrey Strauss said the DoJ had extradited the alleged scammer from Panama on November 25. He is set to stand before U.S. Magistrate Judge Katharine Parker. He was arrested in Panama City on August 18.</p>
+<p>Dos Santos is alleged to be one of the operators of AirBit Club, a <a href="https://coingeek.com/bitcoin101/bitcoin-mining-explained" target="_blank" rel="noopener noreferrer">block reward mining</a> Ponzi scheme that reportedly defrauded investors in Latin America, Asia and Eastern Europe. The scam relied on the promise of guaranteed returns to lure investors. According to the DoJ, the scam managed to defraud over $20 million from thousands of investors.</p>
+<p>Dos Santos ran the scam with four other co-conspirators, U.S. authorities said. As <a href="https://coingeek.com/doj-seizes-24m-in-digital-currency-from-alleged-brazilian-scammer/" target="_blank" rel="noopener noreferrer">CoinGeek reported</a>, U.S. prosecutors in August unsealed an indictment against Dos Santos and the other four—Cecilia Milan, Scott Hughes, Pablo Rodriguez and Jackie Aguilar.</p>
+<p>U.S. prosecutors allege that AirBit Club started in 2015, with the five perpetrators marketing it as a multilevel marketing club in the <a href="https://coingeek.com/bitcoin101/digital-currency-exchanges/" target="_blank" rel="noopener noreferrer">digital currency</a> industry. They falsely claimed the company was earning returns on digital currency block reward mining and trading, promising investors they would earn passive and guaranteed daily returns on any membership purchased.</p>
+<p>To market AirBit Club, the five traveled across Latin America, the U.S., Eastern Europe and Asia, hosting lavish expos to lure investors. They only accepted membership payments in cash, the DoJ said.</p>
+<p>For the inquisitive investors, the suspects provided access to an online portal on which the investor could view the purported returns on investments. The portal showed ‘in real time’ the profits accumulating for the investors. However, as the prosecutors reveal, the portal was fake and the representations were false.</p>
+<p>Dos Santos and the other four suspects used the investors’ money to purchase cars, luxury homes, jewelry and organize even more extravagant expos to lure more unsuspecting investors. The 45-year-old, who is a dual citizen of the U.S. and Brazil, is charged with conspiracy to commit bank fraud, conspiracy to commit wire fraud and conspiracy to commit money laundering. If convicted, Dos Santos faces a maximum of 70 years in prison.</p>
+<p>Earlier this month, <a href="https://coingeek.com/doj-seizes-24m-in-digital-currency-from-alleged-brazilian-scammer/" target="_blank" rel="noopener noreferrer">the DoJ seized $24 million</a> from another alleged Brazilian digital currency scammer. The DoJ was acting on a request from Brazilian authorities.</p>
+<p><em>Follow <a href="https://coingeek.com/news/tag/crypto-crime-cartel/" target="_blank" rel="noopener noreferrer">CoinGeek’s Crypto Crime Cartel</a> series, which delves into the stream of groups—from <a href="https://coingeek.com/crypto-crime-cartel-bitmex-kraken-binance-bitcoin-com-blockstream-ethereum/" target="_blank" rel="noopener noreferrer">BitMEX</a> to <a href="https://coingeek.com/crypto-crime-cartel-bye-bye-binance/" target="_blank" rel="noopener noreferrer">Binance</a>, <a href="https://coingeek.com/crypto-crime-cartel-how-roger-ver-led-bch-tried-to-corrupt-bitcoin/" target="_blank" rel="noopener noreferrer">Bitcoin.com</a>, <a href="https://coingeek.com/crypto-crime-cartel-blockstream-needs-bitcoin-to-fail/" target="_blank" rel="noopener noreferrer">Blockstream</a></em>, <em><a href="https://coingeek.com/crypto-crime-cartel-erik-voorhees-shapeshift-and-the-anarchists/" target="_blank" rel="noopener noreferrer">ShapeShift</a> and Ethereum—who have co-opted the digital asset revolution and turned the industry into a minefield for naïve (and even experienced) players in the market.</em></p>
+<div class="wp-block-post-tags">
+                        <div class="flex flex-row">
+                            <h3 class="uppercase float-none">Tagged:</h3>
+                        </div><div class="flex flex-row gap-y-2.5 flex-wrap"><span class="tag"><a href="https://coingeek.com/news/tag/airbit-club/" rel="tag">AirBit Club</a></span><span class="tag"><a href="https://coingeek.com/news/tag/panama/" rel="tag">Panama</a></span><span class="tag"><a href="https://coingeek.com/news/tag/ponzi-scheme/" rel="tag">Ponzi Scheme</a></span><span class="tag"><a href="https://coingeek.com/news/tag/scam/" rel="tag">Scam</a></span><span class="tag"><a href="https://coingeek.com/news/tag/united-states/" rel="tag">United States</a></span></div></div>
+
+<!-- 
+<section class="relative bg-white py-5 newsletter-section">
+    <div class="container relative z-10">
+        <div class="relative card rounded-sm newseltter-block shadow-custom px-8 py-6 sm:py-8 max-w-[732px] ml-auto mb-10 md:mx-auto md:max-w-full">
+           <form action="#" class="newsletter">
+                <div class="text-sm font-semibold mb-1">Sign up to The Coingeek Newsletter</div>
+                <div class="author mb-2">By Caroline Casey</div>
+                <p> </p>
+                <button type="submit" class="mt-2 btn btn-primary uppercase tracking-wider"><i class="fa-regular fa-envelope pr-2"></i>Subscribe</button>
+            </form>
+        </div>
+    </div>
+</section> -->
+                                </div>
+                  </div>
+                  <div class="md:w-full md:mx-auto lg:w-3/12">
+                        <div class="max-w-[242px] ml-auto mr-auto lg:ml-auto lg:mr-0">  <div class='article-listing relative md:hidden lg:block mb-4'><h4 class='font-medium'>Recommended for you</h4>                  
+				 
+
+  <div class="article">
+     <a href="https://coingeek.com/us-ftc-launches-inquiry-into-ai-chatbots-acting-as-companion/"><img alt="US FTC launches inquiry into AI chatbots acting as ‘companion’" class="h-[183px] z-0 w-full object-cover" src="https://coingeek.com/wp-content/uploads/2025/09/Federal-Trade-Commission.webp" /></a>  </div>
+
+  <div class="p-4">
+    
+    <div class="text-black font-base mb-4">
+      <a href="https://coingeek.com/us-ftc-launches-inquiry-into-ai-chatbots-acting-as-companion/" title="US FTC launches inquiry into AI chatbots acting as ‘companion’">US FTC launches inquiry into AI chatbots acting as ‘companion’</a>
+    </div>
+    <div class="text-gray-400 text-xxxs mb-4">
+      FTC investigates AI chatbots' effects on children while facing changes under Trump's influence, signaling a shift in regulatory priorities.    </div>
+    <div class="mb-3 flex space-x-1 items-center text-xxxs justify-between">
+      <div class="author text-gray-400">By <a href="https://coingeek.com/author/james-field/">James Field</a></div>
+      <div class="date text-gray-400">September 15, 2025</div>
+    </div>
+  </div>
+
+
+
+                  
+				 
+
+  <div class="article">
+     <a href="https://coingeek.com/the-scaling-question-can-blockchain-handle-wall-st-volume/"><img alt="The scaling question: Can blockchain handle Wall St volume?" class="h-[183px] z-0 w-full object-cover" src="https://coingeek.com/wp-content/uploads/2025/09/Wall-Street-sign.webp" /></a>  </div>
+
+  <div class="p-4">
+    
+    <div class="text-black font-base mb-4">
+      <a href="https://coingeek.com/the-scaling-question-can-blockchain-handle-wall-st-volume/" title="The scaling question: Can blockchain handle Wall St volume?">The scaling question: Can blockchain handle Wall St volume?</a>
+    </div>
+    <div class="text-gray-400 text-xxxs mb-4">
+      While blockchains like Ethereum and Solana showed what’s possible, only BSV has the scale and simplicity to make a real...    </div>
+    <div class="mb-3 flex space-x-1 items-center text-xxxs justify-between">
+      <div class="author text-gray-400">By <a href="https://coingeek.com/author/gavin-lucas/">Gavin Lucas</a></div>
+      <div class="date text-gray-400">September 15, 2025</div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<div class="relative ad-space-section flex justify-end pt-5 lg:pt-10 md:justify-center"><a href="https://rockwalletllc.pxf.io/PObPYj" target="_blank"><img width="300" src="https://coingeek.com/wp-content/uploads/2025/09/3-RW-CGAd_300x200.webp" alt="Advertisement" loading="lazy"></a></div><div class="relative ad-space-section flex justify-end pt-5 lg:pt-10 md:justify-center"><a href="https://rad.live/content/channel/7b0db5d0-ed8c-46af-b385-1fc6f3466f0b/" target="_blank"><img width="300" src="https://coingeek.com/wp-content/uploads/2025/09/CG_Marketing_CG-on-Web3-Launch_300x200_v01_080525.webp" alt="Advertisement" loading="lazy"></a></div><div class="relative ad-space-section flex justify-end pt-5 lg:pt-10 md:justify-center"><a href="https://coingeek.com/blockchain101/?utm_source=Website&#038;utm_medium=Banner&#038;utm_id=CoinGeek" target="_blank"><img width="300" src="https://coingeek.com/wp-content/uploads/2025/09/6fc9827bd87ad34b3b0615d2922b12f0.webp" alt="Advertisement" loading="lazy"></a></div></div>
+                  </div>
+            </div>
+      </div>
+</section>
+
+<!--TOP-RATED COMPANY-->
+
+</div>
+<footer class="site-footer">
+    <div class="container mx-auto">
+        <div class="flex space-x-4 lg:flex-row md:flex-col md:space-x-0 justify-between md:mb-0">
+            <div class="w-3/12 xl:w-3/12 md:w-full">
+                <div class="h-full flex flex-col justify-between">
+                    <div class="footer-logo md:mb-5 md:mt-5 lg:mb-7 lg:mt-0">
+                        <a href="https://coingeek.com" class="flex items-center space-x-3 rtl:space-x-reverse"><img src="https://coingeek.com/wp-content/uploads/2025/06/CoinGeek_Logo_White_RGB_72dpi_V1.webp" width="280px" alt="Home page" loading="lazy"></a>                    </div>
+                    <div class="social-icons lg:block md:hidden">
+                        <div class="text-sm font-bold mb-[24px] md:mb-[24px]">Stay Connected</div>
+                        <ul class="flex"><li><a href="https://www.facebook.com/realcoingeek/" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/fb.svg" alt="Facebook" /></a></li><li><a href="https://x.com/realcoingeek" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/twitter-1.svg" alt="Twitter" /></a></li><li><a href="https://www.instagram.com/coingeek_official/" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/insta-1.svg" alt="Instagram" /></a></li><li><a href="https://www.youtube.com/coingeek" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/youtube-1.svg" alt="YouTube" /></a></li></ul>                    </div>
+                </div>
+            </div>
+            <div class="w-4/12 lg:w-4/12 md:w-full mt-3 lg:mt-0">
+                <div class="h-full flex flex-col-reverse footer-mid lg:flex-col">
+                    <div class="footer-text text-white text-sm lg:max-w-full md:max-w-[17rem] md:mx-auto">
+                        <div class="mb-10 lg:mb-0">
+                            <p><b></b></p>
+                            <p  class="m-0">As the first media outlet to report on blockchain-powered applications, we provide early adopters, developers, and visionary leaders with access to emerging technological landscapes, including wallets and games. CoinGeek presents a unique perspective on blockchain, AI, and Web3, emphasizing the BSV blockchain's robust enterprise utility and unbounded scalability, as described by Satoshi Nakamoto in his 2008 Bitcoin white paper. </p>
+                        </div>
+                    </div>
+                    <div class="footer-menu mt-7 lg:m-0 lg:mt-auto">
+                        <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="footer-nav-menu"><li id="menu-item-575494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-575494"><a href="https://coingeek.com/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-579546" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579546"><a href="https://coingeek.com/terms-of-use/">Terms of Use</a></li>
+</ul>
+</li>
+<li id="menu-item-579494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-579494"><a href="https://coingeek.com/contact-us/">Contact Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-579543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-579543"><a rel="privacy-policy" href="https://coingeek.com/privacy-policy/">Privacy Policy</a></li>
+</ul>
+</li>
+<li id="menu-item-575491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-575491"><a href="https://coingeek.com/about-us/">About Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-579545" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579545"><a href="https://coingeek.com/cookie-notice/">Cookie Notice</a></li>
+</ul>
+</li>
+<li id="menu-item-585281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-585281"><a href="https://coingeek.com/games/">Games</a>
+<ul class="sub-menu">
+	<li id="menu-item-579544" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579544"><a href="https://coingeek.com/advertising/">Advertising</a></li>
+</ul>
+</li>
+</ul></div>                    </div>
+                </div>
+            </div>
+            <div class="w-4/12 lg:w-4/12 md:w-3/12 md:w-full lg:mt-0 mt-3 stay-touch">
+                <div id="script-form" class="footer-menu script-form new-view-form">
+                    <div class="text-xs font-bold mb-6 script-form__title">Stay Updated,
+Be Informed</div>
+                    <p class="script-form__desc"></p>
+                                        <div class="_form_77"></div><script charset="utf-8" data-type="lazy" data-src="https://comms.coingeek.com/f/embed.php?id=77"></script>
+                </div>
+                <div class="social-icons lg:hidden md:block mt-10">
+                    <ul class="flex"><li><a href="https://www.facebook.com/realcoingeek/" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/fb.svg" alt="Facebook" /></a></li><li><a href="https://x.com/realcoingeek" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/twitter-1.svg" alt="Twitter" /></a></li><li><a href="https://www.instagram.com/coingeek_official/" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/insta-1.svg" alt="Instagram" /></a></li><li><a href="https://www.youtube.com/coingeek" target="_blank" rel="noopener noreferrer"><img src="https://coingeek.com/wp-content/uploads/2024/09/youtube-1.svg" alt="YouTube" /></a></li></ul>                </div>
+            </div>
+        </div>
+        <div class="copyright pt-[32px] md:hidden lg:block">
+            <div class="container">
+                <div class="text-center text-gray-100 text-xs">2025 © All Rights Reserved.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script id="site_tracking-js-extra">
+var php_data = {"ac_settings":{"tracking_actid":799178151,"site_tracking_default":1},"user_email":""};
+</script>
+<script id="site_tracking-js" data-type="lazy" data-src="https://coingeek.com/wp-content/plugins/activecampaign-subscription-forms/site_tracking.js"></script>
+<script id="cookie-notice-front-js-before">
+var cnArgs = {"ajaxUrl":"https:\/\/coingeek.com\/wp-admin\/admin-ajax.php","nonce":"58a0f35ff2","hideEffect":"fade","position":"bottom","onScroll":false,"onScrollOffset":100,"onClick":false,"cookieName":"cookie_notice_accepted","cookieTime":2592000,"cookieTimeRejected":2592000,"globalCookie":false,"redirection":false,"cache":false,"revokeCookies":false,"revokeCookiesOpt":"automatic"};
+</script>
+<script src="https://coingeek.com/wp-content/plugins/cookie-notice/js/front.min.js" id="cookie-notice-front-js"></script>
+<script data-type="lazy" data-src="data:text/javascript;base64,KGZ1bmN0aW9uKGQpe3ZhciBzPWQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7cy50eXBlPSJ0ZXh0L2phdmFzY3JpcHQiO3Muc3JjPSJodHRwczovL2Eub21hcHBhcGkuY29tL2FwcC9qcy9hcGkubWluLmpzIjtzLmFzeW5jPXRydWU7cy5pZD0ib21hcGktc2NyaXB0IjtkLmdldEVsZW1lbnRzQnlUYWdOYW1lKCJoZWFkIilbMF0uYXBwZW5kQ2hpbGQocyk7fSkoZG9jdW1lbnQpOw=="></script><script src="https://coingeek.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script id="frontend_js-js-extra">
+var var_from_php = {"ajax_url":"https:\/\/coingeek.com\/wp-admin\/admin-ajax.php","theme_path":"https:\/\/coingeek.com\/wp-content\/themes\/coingeek","site_url":"https:\/\/coingeek.com","nonce":"c68b68b2f4"};
+</script>
+<script src="https://coingeek.com/wp-content/themes/coingeek/assets/public/js/frontend.js" id="frontend_js-js"></script>
+<script id="ajax-script-js-extra">
+var ajax_object = {"ajaxurl":"https:\/\/coingeek.com\/wp-admin\/admin-ajax.php","siteURL":"https:\/\/coingeek.com","nonce":"c68b68b2f4","header_sticky":""};
+</script>
+<script src="https://coingeek.com/wp-content/themes/coingeek/assets/js/ajax-script.js" id="ajax-script-js"></script>
+<script src="https://coingeek.com/wp-content/themes/coingeek/assets/js/owl.carousel.min.js" id="carousel-owl-script-js"></script>
+<script id="the_content-hook-script-js" data-type="lazy" data-src="https://coingeek.com/wp-content/plugins/trinity-audio/js/the_content-hook-script.js"></script>
+<script nitro-exclude data-wpfc-render='false' data-cfasync='false' data-no-optimize='1' data-no-defer='1' data-no-minify='1' data-trinity-mount-date='2025-09-15 16:16:22' src="https://trinitymedia.ai/player/trinity/3aa7c47a41fd608d9fe6f1c243abadbd/?integrationType=wordpress&amp;postHashV2=ae0df03d459e728942ce92b23182723cb0642625&amp;language&amp;pageURL=https%3A%2F%2Fcoingeek.com%2Fairbit-club-us-extradites-one-of-block-reward-mining-scam-founders%2F&amp;ver=6.8.2" id="trinity-player-js"></script>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/coingeek\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Nav iOS fix -->
+<script async>
+document.addEventListener('DOMContentLoaded', () => {
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+  if (isIOS) {
+    document.querySelectorAll('.js-header-nav-bar .menu-item-has-children > a')
+      .forEach(a => {
+        a.addEventListener('touchstart', e => {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+          a.click(); // triggers your normal click logic immediately
+        });
+      });
+  }
+});
+</script>
+<!-- PSI legacy JS fix -->
+<script async>
+(function() {
+  const originalAddEventListener = EventTarget.prototype.addEventListener;
+  EventTarget.prototype.addEventListener = function(type, listener, options) {
+    const passiveEvents = ['touchstart', 'touchmove', 'wheel'];
+
+    if (
+      passiveEvents.includes(type) &&
+      (options === false || typeof options === 'undefined')
+    ) {
+      options = { passive: true };
+    }
+
+    originalAddEventListener.call(this, type, listener, options);
+  };
+})();
+</script><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: 2025 DSK-CG Pop-Up Newsletter Form -->
+<script data-type="lazy" data-src="data:text/javascript;base64,KGZ1bmN0aW9uKGQsdSxhYyl7dmFyIHM9ZC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTtzLnR5cGU9J3RleHQvamF2YXNjcmlwdCc7cy5zcmM9J2h0dHBzOi8vYS5vbWFwcGFwaS5jb20vYXBwL2pzL2FwaS5taW4uanMnO3MuYXN5bmM9dHJ1ZTtzLmRhdGFzZXQudXNlcj11O3MuZGF0YXNldC5jYW1wYWlnbj1hYztkLmdldEVsZW1lbnRzQnlUYWdOYW1lKCdoZWFkJylbMF0uYXBwZW5kQ2hpbGQocyk7fSkoZG9jdW1lbnQsNTY4MTQsJ2IxemNqbWN2eGRpbDBpd2trczhyJyk7"></script>
+<!-- / OptinMonster -->		<script type="text/javascript">
+		var b1zcjmcvxdil0iwkks8r_shortcode = true;		</script>
+		<script id="optinmonster-wp-helper-js" data-type="lazy" data-src="https://coingeek.com/wp-content/plugins/optinmonster/assets/dist/js/helper.min.js"></script>
+<script type="text/javascript" id="flying-scripts">const loadScriptsTimer=setTimeout(loadScripts,6*1000);const userInteractionEvents=['click', 'mousemove', 'keydown', 'touchstart', 'touchmove', 'wheel'];userInteractionEvents.forEach(function(event){window.addEventListener(event,triggerScriptLoader,{passive:!0})});function triggerScriptLoader(){loadScripts();clearTimeout(loadScriptsTimer);userInteractionEvents.forEach(function(event){window.removeEventListener(event,triggerScriptLoader,{passive:!0})})}
+function loadScripts(){document.querySelectorAll("script[data-type='lazy']").forEach(function(elem){elem.setAttribute("src",elem.getAttribute("data-src"))})}</script>
+    
+		<!-- Cookie Notice plugin v2.5.7 by Hu-manity.co https://hu-manity.co/ -->
+		<div id="cookie-notice" role="dialog" class="cookie-notice-hidden cookie-revoke-hidden cn-position-bottom" aria-label="Cookie Notice" style="background-color: rgba(50,50,58,1);"><div class="cookie-notice-container" style="color: #fff"><span id="cn-notice-text" class="cn-text-container">We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.</span><span id="cn-notice-buttons" class="cn-buttons-container"><button id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button" aria-label="Ok" style="background-color: #00807d">Ok</button></span><span id="cn-close-notice" data-cookie-set="accept" class="cn-close-icon" title="No"></span></div>
+			
+		</div>
+		<!-- / Cookie Notice plugin -->		<script type="text/javascript">var omapi_localized = {
+			ajax: 'https://coingeek.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1',
+			nonce: '8c1b01333e',
+			slugs:
+			{"b1zcjmcvxdil0iwkks8r":{"slug":"b1zcjmcvxdil0iwkks8r","mailpoet":false}}		};</script>
+				<script type="text/javascript">var omapi_data = {"object_id":432809,"object_key":"post","object_type":"post","term_ids":[5,80450,3047,273,735,55],"wp_json":"https:\/\/coingeek.com\/wp-json","wc_active":false,"edd_active":false,"nonce":"0cf56f829e"};</script>
+		<script data-type="lazy" data-src="data:text/javascript;base64,KGZ1bmN0aW9uKGQsdSxhYyl7dmFyIHM9ZC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTtzLnR5cGU9J3RleHQvamF2YXNjcmlwdCc7cy5zcmM9J2h0dHBzOi8vYS5vbWFwcGFwaS5jb20vYXBwL2pzL2FwaS5taW4uanMnO3MuYXN5bmM9dHJ1ZTtzLmRhdGFzZXQudXNlcj11O3MuZGF0YXNldC5hY2NvdW50PWFjO2QuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ2hlYWQnKVswXS5hcHBlbmRDaGlsZChzKTt9KShkb2N1bWVudCw1NjgxNCw2NDA2OCk7"></script>
+</body>
+
+</html>

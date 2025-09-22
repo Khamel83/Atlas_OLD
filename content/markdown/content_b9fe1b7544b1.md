@@ -1,0 +1,213 @@
+# Content from https://archive.nytimes.com/www.nytimes.com/books/97/06/15/reviews/spielberg-filmserials.html
+
+*Retrieved: 2025-09-15T10:12:17.433079*
+
+---
+
+<!DOCTYPE html PUBLIC "html2.0">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="NYT_HEADLINE" content="How Old Movie Serials Inspired Lucas and Spielberg">
+    <meta name="BY_LINE" content="">
+    <meta name="FIRSTPAR" content="">
+    <meta name="DISPLAYDATE" content="">
+    <meta name="NYT_SORTDATE" content="">
+    <meta name="pdate" content="">
+    <meta name="DATE" content="97/06/15">
+    <meta name="UNIXSLUG" content="/daily/backfield/savekeep/MARQUE~4.TXT">
+    <meta name="SQN" content="x">
+    <meta name="WARNING" content="x">
+    <meta name="DESK" content="reviews">
+    <meta name="SLUG" content="/daily/backfield/books/97/06/15/reviews/marque~4.txt.html">
+    <meta name="EDITION" content="x">
+    <meta name="SECTION" content="x">
+    <meta name="PAGE" content="x">
+    <meta name="COLUMN" content="Fetch Text file">
+    <meta name="COL" content="x">
+    <meta name="SUBJECT" content="Fetch Text file">
+    <meta name="TOM" content="x">
+    <meta name="PD" content="x">
+    <meta name="LENGTH" content="x">
+    <meta name="HEADLINE" content="Fetch Text file">
+    <title>How Old Movie Serials Inspired Lucas and Spielberg</title>
+    <script id="nyt-capsule-data" type="text/json">
+        {
+            "lastTransform": "2018-04-08T05:49:34.637Z"
+        }
+    </script>
+    <script src="https://archive.nytimes.com/_capsule/nyt-capsule.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="https://archive.nytimes.com/_capsule/nyt-capsule.css">
+</head>
+
+<body bgcolor="ffffff" vlink="#444464" link="#000064">
+    <nobr><img src="https://static01.nyt.com/books/images_br/ban3bookreview.gif" alt="">
+        <img src="https://static01.nyt.com/books/images_br/1banbookreview.gif" border="0" width="468" height="40" alt="alt=banner"><br clear="all">
+        <a href="https://www.nytimes.com/images/maintoolbar2.map"><img src="https://static01.nyt.com/images/maintoolbar2.gif" border="0" alt="toolbar" ismap usemap="#maintoolbar2" width="468" height="16"></a>
+        <br>
+    </nobr>
+    <br><a href="https://www.nytimes.com/books/images_br/toolbar_br.map"> 
+</a>
+    <blockquote>
+        <blockquote>
+            <h5>June 7, 1981</h5><br>
+            <h2>How Old Movie Serials Inspired Lucas and Spielberg</h2>
+            <h5>By JANET MASLIN </h5>
+            <img src="https://static01.nyt.com/images/a.gif" alt="A" border="0" align="left" height="34"> n Egyptian crypt filled with thousands of live snakes? Nothing to it. An enormous rolling sphere that crushes everything in its path? No problem.
+            A tomb full of mummies, a horde of tarantulas, a chase through the desert at a breakneck pace? Couldn&apos;t be simpler - or that&apos;s how &apos;&apos;Raiders of the Lost Ark,&apos;&apos; which opens this Friday, makes it appear. &apos;&apos;Raiders&apos;&apos;
+            is a new version of the old-fashioned action serial, following the adventures of a bold, dashing archeology professor who risks death every 15 minutes or so. If the mood is that of the 1930&apos;s, the technical finesse is modern and then
+            some: two of Hollywood&apos;s most formidable boy wonders, George (&apos;&apos;Star Wars&apos;&apos;) Lucas and <strong>Steven</strong> (&apos;&apos;Jaws&apos;&apos;) <strong>Spielberg</strong>, have joined forces to update the old genre.
+            As Lawrence Kasdan, who wrote the &apos;&apos;Raiders&apos;&apos; screenplay, says of their technical capabilities, &apos;&apos;There&apos;s not much that can&apos;t be done in the Lucasfilm world.&apos;&apos;
+            <pre><b>TEXT:</b></pre>
+            <p>
+                Lucasfilm is the company run by George Lucas, who directed &apos;&apos;American Graffiti&apos;&apos; as well as &apos;&apos;Star Wars.&apos;&apos; And &apos;&apos;Raiders,&apos;&apos; which stars Harrison Ford and Karen Allen, had its beginnings when
+                Mr. Lucas took a 1977 vacation in Hawaii, just as his space adventure made its debut. <strong>Steven</strong> <strong>Spielberg</strong>, who directed and &apos;&apos;Close Encounters of the Third Kind&apos;&apos; in addition
+                to &apos;&apos;Jaws,&apos;&apos; happened to be nearby, and the two Wunderkinder had a chat. Mr. Lucas revealed that he was planning to produce &apos;&apos;a series of films which he hoped would reinstate high adventure,&apos;&apos; according
+                to Mr. <strong>Spielberg</strong>. For his part, Mr. <strong>Spielberg</strong> remarked that he&apos;d always wanted to make &apos;&apos;a James Bond film without the hardware.&apos;&apos;
+            </p>
+            <p>
+                At this point, the two commiserated about technology - about optical printers and matte shots and miniatures, and the times when R2D2 wouldn&apos;t move and C3PO walked into walls. Mr. <strong>Spielberg</strong> had had trouble enough
+                with his own shark and his UFOs. &apos;&apos;So George told me the story of &apos;Raiders&apos; and said there wouldn&apos;t be a single piece of metalware in the entire movie,&apos;&apos; recalled Mr. <strong>Spielberg</strong>. Sold.
+            </p>
+            <p>
+                Mr. Lucas then began to explain the film&apos;s dramatic climax, describing it as &apos;&apos;a rather explosive couple of moments - a preview of the end of the world,&apos;&apos; when the phone rang. Twentieth Century-Fox was calling to discuss the first
+                grosses of &apos;&apos;Star Wars,&apos;&apos; and Mr. Lucas was understandably distracted. It was six or eight months before &apos;&apos;Raiders&apos;&apos; was again discussed by Mr. Lucas and Mr. <strong>Spielberg</strong>,
+                who by then had incorporated some of director Philip (&apos;&apos;Invasion of the Body Snatchers&apos;&apos;) Kaufman&apos;s ideas into the story line and found Mr. Kasdan to serve as screenwriter. Over the course of four days, they outlined
+                the adventures of a college professor and soldier of fortune named Indiana Jones.
+            </p>
+            <p>
+                Indiana, nicknamed Indie, would race around the world in search of the Ark of the Covenant, a lost Biblical relic that he, as an ace archaeologist, would be in an excellent position to find. The story would be set in the 1930&apos;s. The Ark would have
+                such magical powers that Hitler would be after it too. Indie would be accompanied by Marion, the feisty girl who loved him. And they would have one spinetingling adventure after another, in the manner of the Saturday afternoon serials
+                Mr. Lucas so loved in his boyhood.
+            </p>
+            <p>
+                &apos;&apos;With both &apos;Star Wars&apos; and &apos;Raiders,&apos; I started out by asking myself &apos;Gee, when I was a kid what did I really like?&apos; &apos;&apos; Mr. Lucas recently explained. He liked the derring-do of the serials, and the unbeatable
+                courage of their characters, not to mention the 30&apos;s settings. &apos;&apos;Practically every movie star of the 30&apos;s has one movie like this, be it Alan Ladd or Clark Gable or whoever - playing a soldier of fortune in a leather
+                jacket and that kind of hat,&apos;&apos; Mr. Lucas said, referring to Mr. Ford&apos;s snap-brim. &apos;&apos;That&apos;s a favorite period of mine, but it was more the character we were after than the period, although they&apos;re obviously
+                both rooted in the same ground. I took that character and put him in outer space and it worked just fine - not the same character exactly, but the same concept in terms of story and entertainment value.&apos;&apos;
+            </p>
+            <p>
+                With &apos;&apos;Raiders,&apos;&apos; Mr. Kasdan added, the filmmakers hoped to draw upon &apos;&apos;all of our greatest, most productive myths about ourselves. Being strong, resourceful and quick. It&apos;s your best dream of heroism - a time of no
+                fears and absolute resourcefulness. And a certain kind of competence in the face of almost any adversity.&apos;&apos;
+            </p>
+            <p>
+                Adversity? It was imperative that the &apos;&apos;Raiders&apos;&apos; story be fraught with danger, and neither Mr. <strong>Spielberg</strong>, Mr. Lucas nor Mr. Kasdan had any trouble conjuring up the countless fixes Indie and Marion
+                would get into. But they determined not to stretch credibility any more than they had to and to speed along at the fastest rate they could manage. &apos;&apos;It&apos;s designed to be like a funhouse ride,&apos;&apos; said Mr. Lucas.
+            </p>
+            <p>
+                By the time the screenplay was ready, Mr. <strong>Spielberg</strong> was in no mood for fun. &apos;&apos;I read it and wept,&apos;&apos; he said, &apos;&apos;because it just looked like too much work. It was so expansive, it was so -what&apos;s
+                the word for when you bite off more than you can chew?&apos;&apos; He had just completed the critically unsuccessful &apos;&apos;1941,&apos;&apos; and the idea of another ambitious, expensive and cumbersome movie filled him with dread.
+                So he decided, from the very first, to make what he calls &apos;&apos;a real good Bplus film. I decided not to shoot for a masterpiece but to make a good movie that told George&apos;s story very well. Sure, I could have gone out and made
+                this movie for $30 million instead of $20 million, in 100 days instead of 73. But it would have boiled down to the same ideas, the same characters, the same continuity of scenes. I could have tried to give it a remarkable veneer that only
+                I and this year&apos;s graduating class at USC film school and Stanley Kubrick would have noticed. Or I could have just made the picture and substituted humor and invention for time-consuming technique and additional angles.&apos;&apos;
+            </p>
+            <p>
+                &apos;&apos;Steve wasn&apos;t always going for 100 percent, sometimes he was going for 50 percent,&apos;&apos; Mr. Lucas said. &apos;&apos;But my theory is that a director as talented as Steve going at 50 percent is better than most people giving their
+                all. when he goes at 100 percent it can get out of hand - which I think is true of a lot of directors. It&apos;s not how good a film you can make. It&apos;s how good a film you can make under the circumstances.&apos;&apos;
+            </p>
+            <p>
+                The circumstances of &apos;&apos;Raiders,&apos;&apos; as filming progressed in four countries on three continents, were arduous all the way. Much of the shooting took place in Tunisia, where the cast and crew came down with amoebic dysentery while temperatures
+                hovered in the 130-degree range. Even in the relative safety of British sound stages there was some rough going, since the action called for some unusual extras: 6,000 live snakes and a horde of tarantulas.
+            </p>
+            <p>
+                The tarantulas were supposed to swarm over the backs of Harrison Ford and Alfred Molina, and there were dozens of them. (&apos;&apos;Forty,&apos;&apos; said Mr. Ford. Forty-eight, according to Mr. <strong>Spielberg</strong>. &apos;&apos;Well
+                I stopped counting at 40,&apos;&apos; said Mr. Ford, understandably.) The tarantula scene marked the first scene Mr. Molina had ever played in a movie, and Mr. <strong>Spielberg</strong> reassured him that there was nothing out of the
+                ordinary about it. &apos;&apos;We indicated to Alfred that we wouldn&apos;t be doing this if it were dangerous, and that seemed to make sense to him,&apos;&apos; Mr. <strong>Spielberg</strong> recalled.
+            </p>
+            <p>
+                There were similar reassurances from the director, who grew up in Arizona and was used to large spiders, to the British crew members, who were used to nothing of the kind. &apos;&apos;I promised the crew we would fence in the area by the actors&apos;
+                feet, so that when the tarantulas fell off, they would fall in a small area,&apos;&apos; said Mr. <strong>Spielberg</strong>. He also decided the spiders were &apos;&apos;too lethargic&apos;&apos; and trained fans on them
+                to wake them up, whereupon the tarantulas were off and running. &apos;&apos;Nobody realized they could hop and climb Plexiglas until then,&apos;&apos; the director remembered. &apos;&apos;A lot of them took off after the crew. I&apos;m
+                talking about people running for their lives.&apos;&apos;
+            </p>
+            <p>
+                The snake scene evidently found Mr. <strong>Spielberg</strong> somewhat less unflappable, since he spent his time &apos;&apos;on an apple box, with a torch in my hand. I&apos;m okay around tarantulas and scorpions, but when it comes to
+                snakes I&apos;m not red hot.&apos;&apos; Six thousand cobras, pythons, boa constrictors, grass and garter snakes were assembled for a two-week stint in the Well of Souls, a crypt in which Indie and Marion are supposed to be trapped. The
+                10 live cobras created insurance problems, Mr. <strong>Spielberg</strong> recalled, &apos;&apos;especially when the antivenin we had on hand turned out to be two years outdated. We had to fly in special serum from India.&apos;&apos; An
+                ambulance stood by for four days, with its lights flashing, &apos;&apos;in case there was a tragedy.&apos;&apos;
+            </p>
+            <p>
+                Mr. Ford&apos;s Indiana Jones is supposedly the tough guy in this sequence. But he was covered in heavy clothing from head to toe, and it was Karen Allen, as Marion, who had the adventure of playing the snake scene &apos;&apos;barefoot, with nothing on
+                my back, in a little party frock,&apos;&apos; as she recalled it very cheerfully. &apos;&apos;We have a lot of funny takes of them just getting out of line,&apos;&apos; she said of her scaly costars. &apos;&apos;We also have lots of pieces
+                of film where I&apos;m just screaming.&apos;&apos;
+            </p>
+            <p>
+                Screaming was a problem, according to Mr. <strong>Spielberg</strong>, because Miss Allen was sometimes at a loss for words. &apos;&apos;Karen was so terrified of the snakes she couldn&apos;t scream, and of course she had to,&apos;&apos;
+                he recalled. &apos;&apos;But all that came out was air. Rather than bring in a Fay Wray sound-alike, at one point I dropped a snake from a scaffolding. It landed on her like a pearl necklace, and she screamed on cue for a week. Whenever
+                she didn&apos;t see me she&apos;d look up.&apos;&apos;
+            </p>
+            <p>
+                Mr. Lucas, who visited the set several times, was on hand for scenes featuring the one really uncooperative animal actor, a monkey. The monkey bit everyone and refused to do his tricks, even in scenes - like one in which he offers a &apos;&apos;Heil Hitler&apos;&apos;
+                salute - that involved elaborate coaching. &apos;&apos;I can&apos;t believe it, he&apos;s smarter than you are,&apos;&apos; Mr. Lucas told Mr. <strong>Spielberg</strong>, when the monkey began pretending he didn&apos;t
+                want the grapes and bananas he was being bribed with. Mr. Lucas, who remembers the monkey as &apos;&apos;nothing but trouble,&apos;&apos; had initially tried to talk Mr. <strong>Spielberg</strong> out of using the creature. He did successfully
+                convince the director to eliminate the camels from a chase scene. &apos;&apos;Camels are really terrible animals, and they were replaceable,&apos;&apos; Mr. Lucas said. &apos;&apos;The snakes weren&apos;t replaceable. We had to use them
+                because nothing else has that effect.&apos;&apos;
+            </p>
+            <p>
+                Other, less animate props were just as difficult to work with. There was a large sphere, weighing about 500 pounds, that had to thunder down upon Mr. Ford as he made his escape through the jungle; the large sphere, not suprisingly, wouldn&apos;t always
+                stop as easily as it was supposed to. And the airplane that looks as if it&apos;s about to run over Mr. Ford did injure him. &apos;&apos;What saved him was the fact that it was so hot, and the rubber of the airplane&apos;s tires was soft,&apos;&apos;
+                said Mr. <strong>Spielberg</strong>, remembering the actor&apos;s shouting as the airplane wheel struck him. &apos;&apos;Let out a terrible scream?&apos;&apos; Mr. Ford asked evenly. &apos;&apos;<strong>Steven</strong>&apos;s
+                so...observant. There was an airplane on my leg.&apos;&apos;
+            </p>
+            <p>
+                Despite all this hardship, the movie developed its share of gags, some of them even growing out of the strenuous working conditions. After a long, hot day devoted to filming a sword vs. whip fight in a crowded bazaar, Mr. <strong>Spielberg</strong>                suddenly asked himself whether whipwielding Indie would really engage in such an elaborate duel if he were in a great hurry to find the kidnapped Marion. The routine that resulted is described by Mr. <strong>Spielberg</strong> as &apos;&apos;a
+                Mad Magazine &apos;Scenes We&apos;d Like To See.&apos; &apos;&apos; There were also jokes Mr. <strong>Spielberg</strong> had always wanted to find a place for, among them one involving a coat hanger that he had previously filmed for &apos;&apos;1941.&apos;&apos;
+                &apos;&apos;I told myself, I&apos;m going to put that in a movie till it gets a laugh,&apos;&apos; he said.
+            </p>
+            <p>
+                The atmosphere among the crew that had already worked on &apos;&apos;Star Wars&apos;&apos; and &apos;&apos;The Empire Strikes Back&apos;&apos; was relaxed and friendly. &apos;&apos;I came aboard what was already the Good Ship Lollipop,&apos;&apos; said
+                Mr. <strong>Spielberg</strong>. &apos;&apos;George treats his people fairly and gives them bonuses and has surrounded himself with real nice guys. It&apos;s a whole other feeling from working for a big studio -it&apos;s
+                what I call a redwood tub mentality. Everyone is energized and creative, but also rather laid back and serene. I understand the old Disney studio used to be that way, when Walt was alive and running the place.&apos;&apos;
+            </p>
+            <p>
+                Mr. Lucas runs his company as a producer, not a director. He decided to stop directing major features because that task began to seem too complicated to be enjoyable. &apos;&apos;What I found myself doing was being a director, and all a director does
+                is tell a lot of other people what to do,&apos;&apos; he said. &apos;&apos;I don&apos;t enjoy that, and I&apos;ve reached the point where I don&apos;t have to do it if I don&apos;t want to. I spend my time now working on very esoteric
+                kinds of films that I can do all by myself.&apos;&apos;
+            </p>
+            <p>
+                However, Mr. Lucas says, &apos;&apos;there are certain movies in my head that I want to see.&apos;&apos; Among them are two other installments in an Indiana Jones trilogy - &apos;&apos;Raiders&apos;&apos; is actually Part III - and they may be in the
+                offing. In subsequent films, Indie may be a slightly different character, since Mr. Lucas always envisioned a side to him that Mr. <strong>Spielberg</strong>, Mr. Ford and Mr. Kasdan all objected to. Indie was supposed
+                to be a wealthy society playboy, turning up in Art Deco nightclubs wearing top hat and tails, and Mr. Lucas may make him one yet. Mr. Ford still says &apos;&apos;that kind of character generates a certain response, and we were afraid of
+                that.&apos;&apos; Mr. <strong>Spielberg</strong> adds that &apos;&apos;a tuxedo is a uniform, and it&apos;s hard to reach through a uniform to a personality.&apos;&apos;
+            </p>
+            <p>
+                Mr. Lucas, Mr. <strong>Spielberg</strong> et al. are currently as cautious about predicting their movie&apos;s prospects are they were adventuresome in dreaming up Indie&apos;s exploits. &apos;&apos;I think it should make its money back,&apos;&apos;
+                said Mr. Lucas. And Mr. <strong>Spielberg</strong> spoke of being too nervous to sit through a recent preview. Mr. Ford says, &apos;&apos;There is an air of anticipated success here, but I don&apos;t want to identify it or become aware
+                of it - I don&apos;t want to fall off anything too high.&apos;&apos;
+            </p>
+            <p>
+                And Mr. Kasdan sums it up most succinctly. &apos;&apos;George is a real American boy. A lot of things he&apos;s interested in have touched a lot of us American boys. One of the things George understands in a very liberating way is what his audience is
+                about. It&apos;s not the only audience in the world. But it just happens to be an enormous one.&apos;&apos;</p>
+            <p>
+            </p>
+            <p>
+                <a href="https://www.nytimes.com/books/bn/image?sourceid=4773&amp;categoryid=nytsearch">
+<img src="https://www.nytimes.com/books/images_br/buy11.gif" width="118" height="47" border="0"></a>
+                <img src="http://barnesandnoble.bfast.com/booklink/serve?sourceid=4773&amp;categoryid=nytsearch" border="0" width="1" height="1">
+            </p>
+            <p>
+                <font size="1"><a href="https://www.nytimes.com/books">Return to the Books Home Page</a></font>
+            </p>
+        </blockquote>
+    </blockquote>
+    <br>
+    <center>
+        <h5>
+            <a href="https://www.nytimes.com/books/home">Home</a> |
+            <a href="https://www.nytimes.com/books/home/contents.html">The New York Times Book Review</a> |
+            <a href="https://www.nytimes.com/books/search">Search</a> |
+            <a href="https://www.nytimes.com/books/forums">Forums</a> |
+            <a href="https://www.nytimes.com/books/help">Help</a>
+            <br>
+            <a href="https://www.nytimes.com/">The New York Times on the Web</a>
+            <p>
+                Copyright The New York Times Company
+            </p>
+        </h5>
+        <hr size="1" width="460"><br>
+        <p></p>
+    </center>
+</body>
+
+</html>

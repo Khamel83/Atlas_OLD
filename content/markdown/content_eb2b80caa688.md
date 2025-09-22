@@ -1,0 +1,1632 @@
+# Content from https://investor.altria.com/press-releases/news-details/2018/Altria-Makes-128-Billion-Minority-Investment-in-JUUL-to-Accelerate-Harm-Reduction-and-Drive-Growth/default.aspx?ref=wheresyoured.at
+
+*Retrieved: 2025-09-15T05:21:49.497764*
+
+---
+
+<!DOCTYPE HTML>
+<html id="33765bc1aa6d39a990c3cdc54857bba1efefa652" class="StudioLegacy Legacy" xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("https://investor.altria.com/press-releases/news-details/2018/Altria-Makes-128-Billion-Minority-Investment-in-JUUL-to-Accelerate-Harm-Reduction-and-Drive-Growth/default.aspx?ref=wheresyoured.at","20241211124153","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1733920913");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+<title>
+	Altria Makes $12.8 Billion Minority Investment in JUUL to Accelerate Harm Reduction and Drive Growth - Altria Group, Inc.
+</title><meta content="text/html; charset=UTF-8" http-equiv="Content-type"/><meta content="RevealTrans(Duration=0,Transition=0)" http-equiv="Page-Enter"/><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/><meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport"/><meta content="telephone=no" name="format-detection"/><meta content="4Vefd_tvJbaSLmP0oUuYHAXF2jfu0OHtaMVyFW_PcCM" name="google-site-verification"/><meta content="Altria Makes $12.8 Billion Minority Investment in JUUL to Accelerate Harm Reduction and Drive Growth" property="og:title"/><meta name="description" content="Altria Group, Inc. (Altria) (NYSE:MO) today announces it signed and closed a $12.8 billion investment in JUUL Labs, Inc. (JUUL), the U.S. leader in e-vapor. The service agreements will accelerate JUULs mission to switch adult smokers to e-vapor products. Altrias investment represents a 35% economic interest in JUUL, valuing the company at $38 billion. JUUL will remain fully independent. We are taking significant action to prepare for a future where adult smokers overwhelmingly choose non-combustible products over cigarettes by investing $12.8 billion in JUUL, a world leader in switching adult smokers, said Howard Willard, Altrias Chairman and Chief Executive Officer. We have long said that providing adult smokers with superior, satisfying products with the potential to reduce harm is the best way to achieve tobacco harm reduction. Through JUUL, we are making the biggest investment in our history toward that goal. We strongly believe that" property="og:description"/><meta content="website" property="og:type"/><meta content="http://web.archive.org/web/20241211124153/https://investor.altria.com/press-releases/news-details/2018/Altria-Makes-128-Billion-Minority-Investment-in-JUUL-to-Accelerate-Harm-Reduction-and-Drive-Growth/default.aspx" property="og:url"/><meta name="twitter:title" content="Altria Makes $12.8 Billion Minority Investment in JUUL to Accelerate Harm Reduction and Drive Growth"/><meta name="twitter:description" content="Altria Group, Inc. (Altria) (NYSE:MO) today announces it signed and closed a $12.8 billion investment in JUUL Labs, Inc. (JUUL), the U.S. leader in e-vapor. The service agreements will accelerate JUULs mission to switch adult smokers to e-vapor products. Altrias investment represents a 35% economic interest in JUUL, valuing the company at $38 billion. JUUL will remain fully independent. We are taking significant action to prepare for a future where adult smokers overwhelmingly choose non-combustible products over cigarettes by investing $12.8 billion in JUUL, a world leader in switching adult smokers, said Howard Willard, Altrias Chairman and Chief Executive Officer. We have long said that providing adult smokers with superior, satisfying products with the potential to reduce harm is the best way to achieve tobacco harm reduction. Through JUUL, we are making the biggest investment in our history toward that goal. We strongly believe that"/><link type="image/x-icon" rel="icon" media="" href="//web.archive.org/web/20241211124153im_/https://s25.q4cdn.com/409251670/files/favicon.ico"/>
+<link type="image/x-icon" rel="shortcut icon" media="" href="//web.archive.org/web/20241211124153im_/https://s25.q4cdn.com/409251670/files/favicon.ico"/>
+<link type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css_irw/jquery.mCustomScrollbar.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://printjs-4de6.kxcdn.com/print.min.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css_irw/footable.standalone.min.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css_irw/required.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css_irw/optional.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="http://web.archive.org/web/20241211124153cs_/https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&amp;amp;display=swap"/>
+<link type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css_irw/controls.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css_irw/Menu.css"/>
+<link id="CssRegistration1" type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css_irw/page-layouts-21.css"/>
+<link id="CssRegistration3" type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css_irw/rca.css"/>
+<link type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css_irw/search.css"/>
+<link id="htmlGlobalLinkCss" type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css/global.css?v=46816"/><link id="htmlClientLinkCss" type="text/css" rel="stylesheet" media="all" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css/client.css?v=47138"/><link id="htmlLinkPrintCss" type="text/css" rel="stylesheet" media="print" href="//web.archive.org/web/20241211124153cs_/https://s25.q4cdn.com/409251670/files/css/print.css"/><link id="htmlLinkEvergreenCss" type="text/css" rel="stylesheet" media="all" href="/web/20241211124153cs_/https://investor.altria.com/css/evergreen/dist/default/evergreen.1.0.0.min.css"/><link type="text/css" rel="stylesheet" href="/web/20241211124153cs_/https://investor.altria.com/GlobalBranding.ashx"/><script type="text/javascript" src="/web/20241211124153js_/https://investor.altria.com/js/module/widgets/dist/dependencies/evergreen.core.1.0.0.min.js"></script>
+<script type="text/javascript" src="/web/20241211124153js_/https://investor.altria.com/js/module/widgets/dist/dependencies/evergreen.app.1.0.0.min.js"></script>
+<script type="text/javascript" src="/web/20241211124153js_/https://investor.altria.com/js/module/widgets/dist/latest/evergreen.q4Api.min.js"></script>
+<script type="text/javascript" src="/web/20241211124153js_/https://investor.altria.com/js/module/widgets/dist/latest/evergreen.q4Pager.min.js"></script>
+<script type="text/javascript" src="/web/20241211124153js_/https://investor.altria.com/js/module/widgets/dist/latest/evergreen.q4Slideshow.min.js"></script>
+<script type="text/javascript" src="/web/20241211124153js_/https://investor.altria.com/js/typescript/dist/index.js"></script>
+<script type="text/javascript" src="/web/20241211124153js_/https://investor.altria.com/js/typescript/dist/q4CookieConsent/index.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://s25.q4cdn.com/409251670/files/js/q4.core.1.0.9.min.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://s25.q4cdn.com/409251670/files/js/q4.app.1.0.8.min.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://widgets.q4app.com/widgets/q4.api.1.13.4.min.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://s25.q4cdn.com/409251670/files/js/q4.index-api.1.0.1.min.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://s25.q4cdn.com/409251670/files/js/irw/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://s25.q4cdn.com/409251670/files/js/irw/html2canvas.min.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://s25.q4cdn.com/409251670/files/js/irw/jspdf.min.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://s25.q4cdn.com/409251670/files/js/irw/footable.min.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://s25.q4cdn.com/409251670/files/js/irw/Altria-navigation-new-v3.js"></script>
+<script type="text/javascript" src="//web.archive.org/web/20241211124153js_/https://s25.q4cdn.com/409251670/files/js/irw/AltriaStyles.js"></script>
+<!--[if lte IE 8]>
+<script type="text/javascript" src="https://investor.altria.com/js/respond.proxy.js"></script>
+<![endif]-->
+
+<meta name="twitter:title" content="Press Releases – Altria"/><meta name="twitter:description" content="See latest press releases from the Altria family of companies."/><meta name="twitter:card" content="summary_large_image"/><meta content="See latest press releases from the Altria family of companies." property="og:description"/><meta content="Press Releases – Altria" property="og:title"/><meta name="twitter:image" content="http://web.archive.org/web/20241211124153im_/https://investor.altria.com/files/images/og/Press-Releases-and-Email-Alerts-RSS-Newsfeeds-pages-OpenGraph2.png"/><meta content="http://web.archive.org/web/20241211124153im_/https://investor.altria.com/files/images/og/Press-Releases-and-Email-Alerts-RSS-Newsfeeds-pages-OpenGraph2.png?4234" property="og:image"/><link type="text/css" rel="stylesheet" href="/web/20241211124153cs_/https://investor.altria.com/files/css/news-details.css"/><script type="text/javascript">function GetGlobalBrandingOptions(){ return '{"dateFormat":{"moment":{"date":"MMMM D, YYYY","time":"h:mm A"},"datePicker":{"date":"MM d, yy"}}}'; }
+</script><script type="text/javascript">var trackingCodes = [{qualifier: 'V4Client', trackingCode: 'G-C2S9D1BW3S'}];
+var ipSessStorageKey = 'ipApiInfo';
+// The Q4 Snowplow lib which Q4Blizzard utilises also makes a call to the ip-api and sets the info in LS.
+// So it's beneficial to check there too, to prevent redundant calls to ip-api.
+var q4SnowplowLib_ipLocStorageKey = 'q4spisp';
+var ipJsonStringified = sessionStorage.getItem(ipSessStorageKey) || localStorage.getItem(q4SnowplowLib_ipLocStorageKey);
+
+// Only load google analytics if we have tracking codes configured
+if (trackingCodes.length) {
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//web.archive.org/web/20241211124153/https://www.google-analytics.com/analytics.js', 'ga');
+}
+
+(function ($) {
+  const initialisedV4Codes = [];
+
+function initGaTracking(isp, org) {
+    // Only load google analytics if we have tracking codes configured
+    if (!trackingCodes.length) return;
+
+isp = isp || '(not set)';
+    org = org || '(not set)';
+    $.each(trackingCodes, function (i, data) {
+      if (data.qualifier === "Q4") {
+        ga('create', data.trackingCode, 'auto'); // Q4 tracker
+        ga('set', { 'dimension1': isp });
+        ga('set', { 'dimension2': org });
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash }); // send pageview to Q4 tracker
+      } else if (data.qualifier === 'V4Client') {
+        // This is to prevent a script tag from being added more than once
+        if (initialisedV4Codes.indexOf(data.trackingCode) === -1) {
+          // Add gtag script to DOM
+          const gtagScriptTag = document.createElement("script");
+          gtagScriptTag.async = true;
+          gtagScriptTag.src = "http://web.archive.org/web/20241211124153/https://www.googletagmanager.com/gtag/js?id=" + data.trackingCode;
+          document.head.appendChild(gtagScriptTag);
+
+// Instance this gtag
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          const secureCookieTag = 'SameSite=None;Secure';
+          gtag("js", new Date());
+          gtag('set', {cookie_flags: secureCookieTag});
+          gtag("config", data.trackingCode, { anonymize_ip: true });
+          initialisedV4Codes.push(data.trackingCode);
+        }
+      } else {
+        ga('create', data.trackingCode, 'auto', { 'name': data.qualifier }); // Client tracker
+        ga(data.qualifier + '.set', 'anonymizeIp', true);
+        ga(data.qualifier + '.send', 'pageview', { 'page': location.pathname + location.search + location.hash }); // send pageview to Client tracker
+      }
+    });
+  }
+
+if (ipJsonStringified) {
+    try {
+      var ipJsonParsed = JSON.parse(ipJsonStringified);
+      initGaTracking(ipJsonParsed.isp, ipJsonParsed.org);
+    } catch (e) {
+      console.error('Failed to JSON parse IP API session storage data\n', e);
+      initGaTracking();
+    }
+  } else {
+    $.getJSON('http://web.archive.org/web/20241211124153/https://pro.ip-api.com/json/?key=6KddQSe576qrfNb&fields=isp,org')
+      .done(function (ipJson) {
+        sessionStorage.setItem(ipSessStorageKey, JSON.stringify(ipJson));
+        initGaTracking(ipJson.isp, ipJson.org);
+      })
+      .fail(function () {
+        initGaTracking();
+      });
+  }
+})(jQuery || $tudio);
+
+(function () {
+  Q4Blizzard.initProps({
+    appId: "Q4WebAltria2020index",
+    collectorUrl: "https://" + window.location.hostname + "/x0k461",
+    cookieName: "__uxq412__",
+    organizationId: "7206e3f8-d0b0-4d2f-a206-0c81ecd9639d",
+    postPath: "/e6c1b/xc9",
+    productVersion: "5.142.0.2",
+    enableDOMListener: "False"
+  });
+
+window.addEventListener("load", () => {
+    Q4Tracker.init("True");
+  });
+})();
+</script></head>
+<body style="margin: 0px" class="BodyBackground">
+    <input name="hdnRedirectToLoginUrl" type="hidden" id="hdnRedirectToLoginUrl" value="https://login.q4inc.com/authorize?client_id=gKrDY1E9BUSWfU7DGuW2CO4rjdskiNg7&amp;pendoQ4PId=_q4pidval_&amp;projectId=studio&amp;step=login&amp;companyName=Altria+Group%2c+Inc.&amp;projectIdentifier=Altria+Group%2c+Inc.&amp;mainColor=%230F5CA3&amp;scope=openid+profile+email&amp;helpUrl=https%3a%2f%2fhelp.events.q4inc.com%2fen%2fir-website.html&amp;response_type=code&amp;response_mode=query&amp;nonce=B5PJRwMiIX80jWOv7yqQTNUz8&amp;skipUrl=https%3a%2f%2finvestor.altria.com%2fpress-releases%2fnews-details%2f2018%2fAltria-Makes-128-Billion-Minority-Investment-in-JUUL-to-Accelerate-Harm-Reduction-and-Drive-Growth%2fdefault.aspx&amp;userEmail=_q4lemail_&amp;redirect_uri=https%3a%2f%2fauth.platform.q4inc.com%2fauth%2fpublicAuthRedirect%3fstate%3deyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9yLmFsdHJpYS5jb20vcHJlc3MtcmVsZWFzZXMvbmV3cy1kZXRhaWxzLzIwMTgvQWx0cmlhLU1ha2VzLTEyOC1CaWxsaW9uLU1pbm9yaXR5LUludmVzdG1lbnQtaW4tSlVVTC10by1BY2NlbGVyYXRlLUhhcm0tUmVkdWN0aW9uLWFuZC1Ecml2ZS1Hcm93dGgvZGVmYXVsdC5hc3B4IiwiZXhwIjoxNzM5MTU1MzQyLjAsImlhdCI6MTczMzg5NTc0Mi4wLCJpc3MiOiJRNC5XZWIuUHVibGljLlNpdGUiLCJhdWQiOiJ1cHN0cmVhbS5jZG4ud2ViLnByZC5xNGluYy5jb20ifQ.ID0-0WAAV34N5Ns_8FkTuLAkDtq44DX2uvsX585kanU"/>
+
+<input type="hidden" id="__RequestVerificationToken"/>
+    
+    
+    <div id="pageClass" class="Sectionpress-releases PageDefault PagePressReleasesPressReleaseDetails LayoutThreeColumnLayout Languageen-US module_prDetails module_q4default">
+        <div class="PageDefaultInner">
+            <div id="litPageDiv" class="PagePressReleasesPressReleaseDetails SectionPressReleasesPressReleaseDetails ParentSection_press-releases">
+                <a name="top" aria-hidden="true"></a>
+                <form action="default.aspx" method="post" id="fmForm1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value=""/>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+function GetViewType(){ return '2'; }
+function GetRevisionNumber(){ return '1'; }
+function GetLanguageId(){ return '1'; }
+function GetVersionNumber(){ return '5.142.0.2'; }
+function GetPoweredBy(){return 'q4inc';}
+function GetViewDate(){{ return ''; }}
+function GetSignature(){{ return ''; }}
+//]]>
+</script>
+
+<a id="lnkPostback" aria-hidden="true" aria-label="lnkPostback" href="javascript:__doPostBack('lnkPostback','')" style="display: none"></a>
+                    
+<div id="mo-irw-wrapper" class="investors-MO bodyclass">
+    <div id="wrapper">
+        <header>
+            <div id="header" class="container"></div>
+        </header>
+        <main>
+            <div id="content" class="container">
+                <div id="fullBodyWrapper">
+                    <div class="pane pane--header">
+                        <span class="HeaderPaneDiv"><span class="HeaderPaneDiv1"><div id="_ctrl0_ctl06_divModuleContainer" class="module module-embed">
+    
+    <script>
+var q4Helpers = {
+    createMatrix: function(array, numOfCells) {
+        var rows = [];
+        $(array).each(function(i, item) {
+            if (i % numOfCells === 0) {
+                rows.push(array.slice(i, i + numOfCells));
+            }
+        });
+        return rows;
+    },
+    insertEmptyObjects: function(array, expectedLength, obj) {
+            obj = obj || { empty: true };
+        
+        var diff = expectedLength - array.length,
+            isFull = array.length === expectedLength;
+
+if (!isFull) {
+            for (var x = 0; x < diff; x++) {
+                array.push(obj);
+            }
+        }
+        return array;
+    },
+    alphaSort: function(array, key) {
+        if (!!key) {
+            return array.sort(function(a, b) {
+                a = a[key].toLowerCase();
+                b = b[key].toLowerCase();
+                if (a < b) return -1;
+                if (a > b) return 1;
+                return 0;
+            });
+        }
+        return array.sort();
+    }
+};
+</script>
+
+<script>
+//Array findIndex Polyfill 
+Array.prototype.findIndex||Object.defineProperty(Array.prototype,"findIndex",{value:function(r){if(null==this)throw new TypeError('"this" is null or not defined');var e=Object(this),t=e.length>>>0;if("function"!=typeof r)throw new TypeError("predicate must be a function");for(var n=arguments[1],i=0;i<t;){var o=e[i];if(r.call(n,o,i,e))return i;i++}return-1},configurable:!0,writable:!0});
+// Array filter Polyfill
+Array.prototype.filter||(Array.prototype.filter=function(t,r){"use strict";if("Function"!=typeof t&&"function"!=typeof t||!this)throw new TypeError;var i,e=this.length>>>0,o=new Array(e),n=this,f=0,h=-1;if(void 0===r)for(;++h!==e;)h in this&&(i=n[h],t(n[h],h,n)&&(o[f++]=i));else for(;++h!==e;)h in this&&(i=n[h],t.call(r,n[h],h,n)&&(o[f++]=i));return o.length=f,o});
+// Math.sign Polyfill IE11 Fix
+Math.sign||(Math.sign=function(n){return(n>0)-(n<0)||+n});
+</script>
+</div></span><span class="HeaderPaneDiv2"><div id="_ctrl0_ctl09_divModuleContainer" class="module module-embed hidden">
+    
+    <script type="text/javascript">
+    var Q4Settings = {
+        apiKey: 'BF185719B0464B3CB809D23926182246',
+        studioApi: ' altria2020index.studio.q4api.com',
+        cik: '0000764180', // sec-filings
+        indices: [ // array of stock exchange and ticker
+            {
+                xvalue: 'XNYS:MO', // primary data vendor
+                tvalue: 'NYSE:MO', // secondary data vendor
+                // labels are for what it should be shown on the page
+                tickerLabel: 'NYSE:MO',
+                exchangeLabel: 'NYSE',
+                symbolLabel: 'MO',
+            },
+        ],
+        // commonly used in Stock Charts and Dividend Charts
+        chartColors: {
+            baseColor: '23, 70, 142', //only in rgb format rgb(23, 70, 142)
+            secondaryColor:'102,204,255',//only in rgb format
+            specialColor: '243,250,51' //only in rgb format
+        },
+        isHeaderSticky: false,
+        isSecondaryNavSticky: false,
+    }
+</script>
+</div></span><span class="HeaderPaneDiv3"><nav aria-label="Web Menu" class="irw-nav-source hidden"><ul class="level1">
+	<li class="has-children home expanded"><a href="http://web.archive.org/web/20241211124153/https://www.altria.com/investors/at-a-glance">Investors At-A-Glance</a><ul class="level2">
+		<li class="has-children"><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/financial-info/default.aspx">Financial Information</a><ul class="level3">
+			<li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/financial-info/return-of-capital/default.aspx">Return of Capital</a></li><li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/financial-info/fixed-income-information/default.aspx">Fixed Income Information</a></li>
+		</ul></li><li class="selected has-children"><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/press-releases/default.aspx">Press Releases</a><ul class="level3">
+			<li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/press-releases/email-alerts-and-rss-newsfeeds/default.aspx">Email Alerts &amp; RSS Newsfeeds</a></li>
+		</ul></li><li class="has-children"><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/stock-performance/default.aspx">Stock Performance</a><ul class="level3">
+			<li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/stock-performance/dividend-information/default.aspx">Dividend Information</a></li><li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/stock-performance/tools-calculators/default.aspx">Tools &amp; Calculators</a></li><li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/stock-performance/industry-analysts/default.aspx">Industry Analysts</a></li>
+		</ul></li><li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/stock-ownership/default.aspx">Stock Ownership</a></li><li class="has-children"><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/sec-filings/default.aspx">SEC Filings</a><ul class="level3">
+			<li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/sec-filings/insider-filings/default.aspx">Insider Filings</a></li>
+		</ul></li><li><a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/frequently-asked-questions/default.aspx">Frequently Asked Questions</a></li>
+	</ul></li>
+</ul></nav></span><span class="HeaderPaneDiv2"><div id="_ctrl0_ctl36_divModuleContainer" class="module module-embed">
+    
+    <style>
+    #bwbodyimg {
+        min-width: 320px;
+        float: left;
+        padding-left: 0px;
+        padding-right: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        max-width: 50%;
+    }
+
+#bwbodyimg img {
+        max-width: 100%;
+        float: none;
+    }
+
+img[style="width:0;height:0"] {
+        display: none;
+    }
+
+#newsForm>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>ul>li.active {
+        padding-left: 18px !important;
+    }
+</style>
+</div></span></span>
+                    </div>
+                    <div class="row">
+                        <div class="component page-header component-page-header page-header-overlay col-12">
+                            <div class="component-content">
+                                <div class="header-container col-sm-11">
+                                    <div class="row">
+                                        <div class="pane pane--banner col-12">
+                                            <span class="HeaderPane2Div4"><div id="_ctrl0_ctl15_divModuleContainer" class="module module-embed in-page-banner row">
+    
+    <div class="page-header-image field-header-image check">
+    <div class="overlaycheck"></div>
+</div>
+</div></span><span class="HeaderPane2Div6"><div id="_ctrl0_ctl21_divModuleContainer" class="module module-embed">
+    
+    <div class="header-inpage-share">
+    <div id="header-share">
+        <!-- print -->
+        <a class="header-print" href="javascript:void(0)" aria-label="print"><i class="fa fa-print" aria-hidden="true"></i></a>
+        <input id="copy-url-link" type="hidden">
+        <input id="popup-window" type="hidden">
+        <div class="share-menu">
+            <!-- print -->
+            <a class="header-inpage-menu share-arrow-btn" href="javascript:void(0)" aria-label="share menu"><i class="fa fa-share"></i></a>
+            <ul class="header-inpage-menu-list">
+                <!-- Copy Button -->
+                <li class="header-inpage-menu-list-item">
+                    <a class="header-copy" href="javascript:void(0)" data-title="Copy Link">
+                        <i class="fa fa-copy"></i>
+                        <!-- <span>Copy Link</span> -->
+                    </a>
+                </li>
+                <!-- facebook -->
+                <li class="header-inpage-menu-list-item">
+                    <a class="header-facebook" data-title="Facebook">
+                        <i class="fa fa-facebook-square"></i>
+                        <!-- <span>Facebook</span> -->
+                    </a>
+                </li>
+                <!-- twitter -->
+                <li class="header-inpage-menu-list-item">
+                    <a class="header-twitter" data-title="X">
+                        <i class=""></i>
+                        <!-- <span>Twitter</span> -->
+                    </a>
+                </li>
+                <!-- linkedin -->
+                <li class="header-inpage-menu-list-item">
+                    <a class="header-linkedin" data-title="LinkedIn">
+                        <i class="fa fa-linkedin-square"></i>
+                        <!-- <span>LinkedIn</span> -->
+                    </a>
+                </li>
+                <!-- mail -->
+                <li class="header-inpage-menu-list-item">
+                    <a class="header-mail addthis_button_email" href="http://web.archive.org/web/20241211124153/mailto:/" target="blank" data-title="E-Mail">
+                        <i class="fa fa-envelope"></i>
+                        <!-- <span>E-Mail</span> -->
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div></span>
+                                        </div>
+                                        <div class="pane pane--breadcrumb page-header-title col-sm-9 offset-1 col-md-11 field-page-title">
+                                            <span class="BreadcrumbPaneDiv5"><div id="_ctrl0_ctl18_divModuleContainer" class="module module-page-title">
+    <div class="module_container module_container--outer">
+        <div class="module_container module_container--inner">
+            <h1 class="module_title">Press Release</h1>
+        </div>
+    </div>
+</div></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="component content-container col-12 pull-up-page-heading test1">
+                            <div class="component-content">
+                                <div class="row">
+                                    <div class="col-10 offset-1">
+                                        <div class="row">
+                                            <div class="inner-grid col-12">
+                                                <div class="row">
+                                                <div class="component content col-12 test">
+                                                    <div class="pane pane--left">
+                                                        <span class="LeftPaneDiv"><span class="LeftPaneDiv9"><div id="_ctrl0_ctl30_divModuleContainer" class="module module-breadcrumb">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+<a href="http://web.archive.org/web/20241211124153/https://www.altria.com/?src=breadcrumb" class="module-breadcrumb_corp-link">Home</a>
+<span class="module-breadcrumb_separator">&nbsp;&gt;&nbsp;</span>
+<span class="module-breadcrumb_ir-link">Investors</span>
+            <a href="http://web.archive.org/web/20241211124153/https://investor.altria.com/at-a-glance/default.aspx" id="_ctrl0_ctl30_hrefHome" class="module-breadcrumb_home-link js--hidden">Investors At-A-Glance</a>
+            
+                    <span id="_ctrl0_ctl30_repeaterLinks_ctl00_lblSeparator" class="module-breadcrumb_separator">&nbsp;&gt;&nbsp;</span>
+                    <a id="_ctrl0_ctl30_repeaterLinks_ctl00_link" href="http://web.archive.org/web/20241211124153/https://investor.altria.com/press-releases/default.aspx">Press Releases</a>
+                    
+                
+                    <span id="_ctrl0_ctl30_repeaterLinks_ctl01_lblSeparator" class="module-breadcrumb_separator">&nbsp;&gt;&nbsp;</span>
+                    
+                    Press Release Details
+                
+        </div>
+    </div>
+</div></span></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="component content-container col-12 main">
+                            <div class="component-content">
+                                <div class="row">
+                                    <div class="component content-container col-12">
+                                        <div class="component-content">
+                                            <div class="row">
+                                                <div class="col-10 offset-1">
+                                                    <div class="row">
+                                                        <div class="inner-grid col-12">
+                                                            <div id="irwWrapper" class="pane pane--content">
+                                                                <span class="ContentPaneDiv"><span class="ContentPaneDiv8"><div id="_ctrl0_ctl27_divModuleContainer" class="module module-embed">
+    
+    <div class="privacy-warning permisive show initialized">
+    <div class="info">
+        <div class="content-section">
+            <p>
+                <span>
+                    We and certain third parties use cookies, web beacons, pixels and similar technologies that may
+                    collect, record and share information about your use of our site. By using our site, you agree to
+                    these practices. For more details, please read our <a href="http://web.archive.org/web/20241211124153/https://www.altria.com/privacy">Privacy</a> Statement.
+                </span>
+            </p>
+        </div>
+        <div class="button-section">
+            <button class="banner-close-button" type="button">Close</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    PrivacyWarning.initInstance();
+</script>
+</div></span><span class="ContentPaneDiv3"><div id="_ctrl0_ctl39_divModuleContainer" class="module module-details module-news-details container">
+    <div class="module_container module_container--outer">
+        
+       
+        <div class="module_container module_container--inner">
+            <h2 class="module-details_title">
+                <span id="_ctrl0_ctl39_lblModuleDetailHeadline">Altria Makes $12.8 Billion Minority Investment in JUUL to Accelerate Harm Reduction and Drive Growth</span>
+            </h2>
+            <div class="module_container module_container--content">
+                <div class="module_date-time">
+                    <span id="_ctrl0_ctl39_lblDate" class="module_date-text">12/20/2018</span>
+                </div>
+                <div class="module_links module_q4-icon-links">
+                    <div class="module_related-document">
+                        <a id="_ctrl0_ctl39_hrefDownload" class="module_link module_news-details_download" target="_blank" style="DISPLAY:none;">
+                            <span id="_ctrl0_ctl39_lblDownload" class="module_link-text">Download this Press Release</span>
+                            <span class="sr-only">PDF Format (opens in new window)</span>
+                            <span id="_ctrl0_ctl39_lblDocument" class="module_file-size"></span>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="module_body">
+                    <style type="text/css" xmlns:xn="http://www.xmlnews.org/namespaces/meta#">.bwalignc { text-align: center; list-style-position:inside; }
+ .bwalignl { text-align: left; }
+ .bwalignr { text-align: right; list-style-position:inside; }
+ .bwblockalignc { margin-left: auto; margin-right: auto; }
+ .bwcellpmargin { margin-bottom: 0px; margin-top: 0px}
+ .bwdoublebottom { border-bottom: double black 2.25pt}
+ .bwleftsingle { border-left: solid black 1.0pt}
+ .bwlistdisc { list-style-type: disc; }
+ .bwnowrap { white-space: nowrap; }
+ .bwpadl0 { padding-left: 0.0px; }
+ .bwpadr0 { padding-right: 0.0px; }
+ .bwrightsingle { border-right: solid black 1.0pt}
+ .bwrowaltcolor0 {background-color: #CCEEFF}
+ .bwsinglebottom { border-bottom: solid black 1.0pt}
+ .bwtablemarginb { margin-bottom: 10.0px; }
+ .bwtopsingle { border-top: solid black 1.0pt}
+ .bwuline { text-decoration: underline; }
+ .bwvertalignb { vertical-align: bottom; }
+ .bwvertalignt { vertical-align: top; }
+ .bwwidth2 { width: 2%; }
+ .bwwidth3 { width: 3%; }
+ .bwwidth42 { width: 42%; }
+ .bwwidth5 { width: 5%; }
+ .bwwidth6 { width: 6%; }
+ .bwwidth8 { width: 8%; }
+</style><p class="bwalignc" xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b><i>Altria and JUUL sign service agreements to accelerate JUUL&#x2019;s success switching adult smokers; JUUL has the unique opportunity to reach adult smokers through prime retail shelf space, inserts in cigarette packs and adult smoker database</i></b></p><p class="bwalignc" xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b><i>JUUL will remain fully independent</i></b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">RICHMOND, Va.--(BUSINESS WIRE)--
+Altria Group, Inc. (Altria) (NYSE:MO) today announces it signed and closed a $12.8 billion investment in JUUL Labs, Inc. (JUUL), the U.S. leader in e-vapor. The service agreements will accelerate JUUL&#x2019;s mission to switch adult smokers to e-vapor products. Altria&#x2019;s investment represents a 35% economic interest in JUUL, valuing the company at $38 billion. JUUL will remain fully independent.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+&#x201C;We are taking significant action to prepare for a future where adult smokers overwhelmingly choose non-combustible products over cigarettes by investing $12.8 billion in JUUL, a world leader in switching adult smokers,&#x201D; said Howard Willard, Altria&#x2019;s Chairman and Chief Executive Officer. &#x201C;We have long said that providing adult smokers with superior, satisfying products with the potential to reduce harm is the best way to achieve tobacco harm reduction. Through JUUL, we are making the biggest investment in our history toward that goal. We strongly believe that working with JUUL to accelerate its mission will have long-term benefits for adult smokers and our shareholders.&#x201D;
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+&#x201C;Altria&#x2019;s investment sends a very clear message that JUUL&#x2019;s technology has given us a truly historic opportunity to improve the lives of the world&#x2019;s one billion adult cigarette smokers,&#x201D; said Kevin Burns, Chief Executive Officer of JUUL. &#x201C;This investment and the service agreements will accelerate our mission to increase the number of adult smokers who switch from combustible cigarettes to JUUL devices.&#x201D;
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+JUUL will remain fully independent and will have access to Altria&#x2019;s best-in-class infrastructure and services. As part of the service agreements:
+
+</p><ul class="bwlistdisc" xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><li>Altria will provide JUUL access to its premier innovative tobacco products retail shelf space, allowing JUUL&#x2019;s tobacco and menthol-based products to appear alongside combustible cigarettes. JUUL&#x2019;s flavored products will continue to only be available on <a href="http://web.archive.org/web/20241211124153/http://juul.com/">JUUL.com</a>.
+
+</li><li>Altria will enable JUUL to reach adult smokers with direct communications through cigarette pack inserts and mailings to adult smokers via Altria companies&#x2019; databases.
+
+</li><li>Altria will apply its logistics and distribution experience to help JUUL expand its reach and efficiency and JUUL will have the option to be supported by Altria&#x2019;s sales organization, which covers approximately 230,000 retail locations.
+
+</li></ul><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><span class="bwuline">An Extraordinary E-vapor Company with a Strong Product Pipeline </span></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+Fueled by its unique and innovative Silicon Valley approach to product development and founded by former smokers, JUUL has rapidly built an industry-leading position by satisfying adult tobacco consumers with its differentiated e-vapor products.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+JUUL has quickly grown both revenue and share, and today represents approximately 30% of the total U.S. e-vapor category.<sup>1</sup> JUUL has a deep innovation pipeline and currently operates in eight countries, with rapid international expansion plans.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+&#x201C;This is a unique and compelling opportunity to invest in an extraordinary company, the fastest growing in the U.S. e-vapor category. We are excited to support JUUL&#x2019;s highly-talented team and offer our best-in- class services to build on their tremendous success,&#x201D; added Willard.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><span class="bwuline">Advances Altria&#x2019;s Long-Term Tobacco Harm Reduction Goal</span></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+In 2000, Altria became the first and only company in the industry to support FDA regulation of tobacco products, an important step to providing accurate and scientifically-grounded communications about reduced-risk products to smokers.&#x200B;
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+Today, the FDA has regulatory authority over all tobacco products, and the FDA distinguishes between the harm associated with combustible versus non-combustible products.&#x200B;
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria will participate in the e-vapor category only through JUUL. The investment complements Altria&#x2019;s non-combustible offerings in smokeless and heat-not-burn, upon FDA authorization of <i>IQOS</i>.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><span class="bwuline">Commitment to Underage Tobacco Prevention </span></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria and JUUL are committed to preventing youth from using any tobacco products. As recent studies have made clear, youth vaping is a serious problem, which both Altria and JUUL are committed to solve. As JUUL previously said, &#x201C;Our intent was never to have youth use JUUL products. But intent is not enough, the numbers are what matter, and the numbers tell us underage use of e-cigarette products is a problem.&#x201D;
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+As a result, JUUL recently began implementing a number of actions to prevent underage vaping, including stopping the sales of flavored products to retail stores, enhancing age-verification for its online sales, eliminating social media accounts and developing further technology solutions.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+JUUL believes that it cannot fulfill its mission to provide the world&#x2019;s one billion adult smokers with a true alternative to combustible cigarettes if youth use continues unabated. Together, JUUL and Altria will work to prevent youth usage through their announced initiatives, further technological developments and increased advocacy for raising the minimum age of purchase for all tobacco products to 21.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><span class="bwuline">Positioning Altria for Long-Term Growth</span></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+Building on Altria&#x2019;s previously announced growth investment in Cronos Group Inc. (Cronos Group), Altria believes its investment in JUUL strengthens its financial profile and enhances future growth prospects.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria continues to position its business to return value for shareholders over the long-term through earnings growth and dividends. Altria expects its growth to be driven by maximizing income from its wholly-owned operating companies and increasing contributions from its equity and strategic investments. Altria&#x2019;s service companies will contribute their strong capabilities to enhance value creation in both its wholly-owned subsidiaries and, when appropriate, its investments.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b>Strategic Rationale</b></p><ul class="bwlistdisc" xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><li>
+Provides significant stake in the largest and fastest growing e-vapor company with a highly-talented management team, successful in-market products and strong innovation pipeline.
+
+</li><li>
+JUUL will remain independent and retain complete operational autonomy to capitalize on its entrepreneurial success.
+
+</li><li>
+Provides exposure to strong revenue and volume growth opportunity with attractive unit economics.
+
+</li><li>
+Investment in the leading U.S. e-vapor company complements Altria&#x2019;s non-combustible product portfolio.
+
+</li><li>
+Exposure to significant international growth plans and global e-vapor profit pool.
+
+</li><li>
+Better positions Altria with adult smokers interested in alternatives while continuing to compete vigorously in all other tobacco product markets.
+
+</li></ul><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b>Key Transaction Terms</b></p><ul class="bwlistdisc" xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><li>Altria signed and closed an agreement with JUUL, the U.S. leader in e-vapor, to invest $12.8 billion in cash for non-voting convertible common shares of JUUL, representing 35% of JUUL&#x2019;s outstanding capital stock as of the closing date.
+
+</li><li>
+As part of this investment, JUUL signed service agreements with Altria to accelerate its mission to switch adult smokers. Proceeds will be used to return capital to employees and shareholders and create a fortified $1 billion balance sheet to expedite product development and market access.
+
+</li><li>
+Upon antitrust clearance, Altria&#x2019;s 35% non-voting shares will automatically convert to 35% voting shares, and Altria will be able to appoint directors representing one-third of JUUL&#x2019;s Board of Directors.
+
+</li><li>Altria receives a broad pre-emptive right to purchase shares to maintain its ownership percentage.
+
+</li><li>Altria will be subject to a standstill agreement under which it may not acquire additional JUUL shares above its 35% interest. Altria agrees not to sell or transfer any JUUL common shares for six years from closing.
+
+</li><li>Altria will participate in the e-vapor business only through JUUL as long as Altria is supplying JUUL services, which Altria is committed to doing for at least six years.
+
+</li></ul><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><i>A copy of the Purchase Agreement will be filed with the Securities and Exchange Commission (SEC) on Form 8-K.</i></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b>Financing</b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria financed the JUUL stock purchase through a $14.6 billion term loan facility arranged by JPMorgan Chase Bank, N.A. $1.8 billion of the facility remains undrawn and may be used by Altria to finance its recently announced investment in Cronos Group. Altria may consider seeking permanent financing in the future.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b>Financial Implications</b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b><i>Accounting Treatment</i></b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria will initially account for its JUUL investment as an investment in an equity security. Upon antitrust clearance, Altria expects to account for its investment in JUUL under the equity method of accounting.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b><i>Cost Reduction Program</i></b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria also announces today a cost reduction program designed to deliver approximately $500 million to $600 million in annualized cost savings by the end of 2019. This program will include, among other things, reducing third-party spending across the business and workforce reductions. Altria expects this program to offset most of the interest expense associated with the debt incurred to finance the JUUL and Cronos Group investments.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria estimates total pre-tax restructuring charges in connection with the cost reduction program to be in a range of approximately $230 million to $280 million, or $0.09 per share to $0.11 per share, the majority of which is expected to be recorded in the fourth quarter of 2018. The estimated charges, substantially all of which will result in cash expenditures, relate primarily to employee separation costs of approximately $190 million to $220 million and other costs of approximately $40 million to $60 million.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+The estimated charges do not reflect the non-cash impact that may result from pension settlement and curtailment accounting.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b><i>2018 Full-Year Guidance</i></b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria reaffirms its guidance for 2018 full-year adjusted diluted earnings per share (EPS) to be in a range of $3.95 to $4.03, representing a growth rate of 16.5% to 19% from an adjusted diluted EPS base of $3.39 in 2017 as shown in Schedule 1. This guidance range excludes the special items for the first nine months of 2018 shown in Schedule 1, as well as fourth-quarter 2018 estimated charges of approximately $0.23 per share to $0.25 per share. Substantially all of the fourth quarter 2018 estimated charges relate to asset impairment and exit costs for the previously announced discontinuation of Nu Mark&#x2019;s e-vapor products and market removal of its pod-based products, restructuring charges for the cost reduction program, and acquisition-related costs associated with the investment in JUUL.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><i>Altria&#x2019;s full-year adjusted diluted EPS guidance excludes the impact of certain income and expense items that management believes are not part of underlying operations. These items may include, for example, loss on early extinguishment of debt, restructuring charges, gain/loss on AB InBev/SABMiller plc (SABMiller) business combination, AB InBev special items, certain tax items, charges associated with tobacco and health litigation items, and resolutions of certain non-participating manufacturer (NPM) adjustment disputes under the Master Settlement Agreement (such dispute resolutions are referred to as NPM Adjustment Items).</i></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><i>Altria&#x2019;s management cannot estimate on a forward-looking basis the impact of certain income and expense items, including those items noted in the preceding paragraph, on its reported diluted EPS because these items, which could be significant, may be infrequent, are difficult to predict and may be highly variable. As a result, Altria does not provide a corresponding U.S. generally accepted accounting principles (GAAP) measure for, or reconciliation to, its adjusted diluted EPS guidance.</i></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+The factors described in the &#x201C;Forward-Looking and Cautionary Statements&#x201D; section of this release represent continuing risks to Altria&#x2019;s forecast.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b><i>Long-term Financial Goals </i></b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria expects to provide its 2019 full-year earnings guidance in January with its 2018 fourth-quarter earnings release, though Altria currently expects 2019 adjusted diluted EPS guidance to be slightly below the low end of its long-term 7% to 9% adjusted diluted EPS growth aspiration as a result of the debt incurred in connection with its investments in JUUL and Cronos Group.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria maintains its long-term financial goals to grow adjusted diluted EPS at an average annual rate of 7% to 9% and to maintain a dividend payout ratio target of approximately 80% of adjusted diluted EPS.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b>Advisors</b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Perella Weinberg Partners LP and J.P. Morgan Securities LLC are the financial advisors to Altria. Wachtell, Lipton, Rosen &amp; Katz is providing legal counsel to Altria for the deal. Hunton Andrews Kurth LLP is providing legal counsel to Altria regarding the financing.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+Goldman Sachs is the financial advisor to JUUL. Pillsbury, Winthrop, Shaw, Pittman and Cleary, Gottlieb, Steen &amp; Hamilton are providing legal counsel to JUUL.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b>Conference Call</b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+A conference call with the investment community and news media hosted by Howard Willard and other members of Altria&#x2019;s senior leadership team will be webcast at 9:00 a.m. Eastern Time on Thursday, December 20, 2018.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+Access to the webcast is available at <a href="http://web.archive.org/web/20241211124153/https://cts.businesswire.com/ct/CT?id=smartlink&amp;url=http%3A%2F%2Fwww.altria.com%2Fwebcasts&amp;esheet=51917167&amp;newsitemid=20181220005318&amp;lan=en-US&amp;anchor=www.altria.com%2Fwebcasts&amp;index=1&amp;md5=8caf5b9f759b1145f3c9c1890aac66d5" shape="rect">www.altria.com/webcasts</a> and via the Altria Investor app.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b>Altria&apos;s Profile</b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+Altria&#x2019;s wholly-owned subsidiaries include Philip Morris USA Inc. (PM USA), U.S. Smokeless Tobacco Company LLC (USSTC), John Middleton Co. (Middleton), Sherman Group Holdings, LLC and its subsidiaries (Nat Sherman), Nu Mark LLC (Nu Mark), Ste. Michelle Wine Estates Ltd. (Ste. Michelle) and Philip Morris Capital Corporation (PMCC). Altria holds an equity investment in Anheuser-Busch InBev SA/NV (AB InBev).
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+The brand portfolios of Altria&#x2019;s tobacco operating companies include <i>Marlboro</i><b><sup>&#xAE;</sup></b>, <i>Black &amp; Mild</i><b><sup>&#xAE;</sup></b>, <i>Copenhagen</i><b><sup>&#xAE;</sup></b> and <i>Skoal</i><b><sup>&#xAE;</sup></b>. Ste. Michelle produces and markets premium wines sold under various labels, including <i>Chateau Ste. Michelle</i><b><sup>&#xAE;</sup></b>, <i>Columbia Crest</i><b><sup>&#xAE;</sup></b>, <i>14 Hands</i><b><sup>&#xAE;</sup></b>and <i>Stag&#x2019;s Leap Wine Cellars</i><sup>&#x2122;</sup>, and it imports and markets <i>Antinori</i><b><sup>&#xAE;</sup></b>, <i>Champagne Nicolas Feuillatte</i><sup>&#x2122;</sup>, <i>Torres</i><b><sup>&#xAE;</sup></b>and <i>Villa Maria Estate</i><sup>&#x2122;</sup><b></b>products in the United States. Trademarks and service marks related to Altria referenced in this release are the property of Altria or its subsidiaries or are used with permission. More information about Altria is available at <a href="http://web.archive.org/web/20241211124153/http://altria.com/">altria.com</a> and on the Altria Investor app.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><b>Forward-Looking and Cautionary Statements</b></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+This release contains projections of future results and other forward-looking statements that involve a number of risks and uncertainties and are made pursuant to the Safe Harbor Provisions of the Private Securities Litigation Reform Act of 1995.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+Important factors that may cause actual results and outcomes to differ materially from those contained in such forward-looking statements include, without limitation, the possibility that regulatory approvals required for the conversion of the shares into voting shares may not be obtained in a timely manner, if at all; and that such approvals may be subject to unanticipated conditions. Other important factors include the possibility that the expected benefits of the transaction may not materialize in the expected manner or timeframe, if at all; the potential inaccuracy of the financial projections (including, without limitation, projections relating to JUUL&#x2019;s domestic growth and international expansion); prevailing economic, market, regulatory or business conditions, or changes in such conditions, negatively affecting the parties; the risk that Altria is not able to secure permanent financing for the transaction on favorable terms, if at all, and the risk of a downgrade in Altria&#x2019;s credit ratings; risks that the transaction disrupts JUUL&#x2019;s current plans and operations; the fact that Altria&#x2019;s reported earnings and financial position and any future dividends paid by JUUL on shares owned by Altria may be adversely affected by tax and other factors, including the risks encountered (including, without limitation, regulatory and litigation risks) and decisions made by JUUL in its business; risks related to the investment disrupting Altria, JUUL or their respective management; and risks relating to the effect of announcement of the transaction on JUUL&#x2019;s ability to retain and hire key personnel or on its relationships with customers, suppliers and other third parties.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+Other important factors that may cause actual results and outcomes to differ materially from those contained in the projections and forward-looking statements included in this press release are described in Altria&#x2019;s publicly filed reports, including its Annual Report on Form 10-K for the year ended December 31, 2017 and its Quarterly Report on Form 10-Q for the period ended September 30, 2018. These factors include the following: significant competition; changes in adult consumer preferences and demand for Altria&#x2019;s operating companies&#x2019; products; fluctuations in raw material availability, quality and price; reliance on key facilities and suppliers; reliance on critical information systems, many of which are managed by third-party service providers; fluctuations in levels of customer inventories; the effects of global, national and local economic and market conditions; changes to income tax laws; federal, state and local legislative activity, including actual and potential federal and state excise tax increases; increasing marketing and regulatory restrictions; the effects of price increases related to excise tax increases and concluded tobacco litigation settlements, consumption rates and consumer preferences within price segments; health concerns relating to the use of tobacco products and exposure to environmental tobacco smoke; privately imposed smoking restrictions; and, from time to time, governmental investigations.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+Furthermore, the results of Altria&#x2019;s tobacco businesses are dependent upon their continued ability to promote brand equity successfully; to anticipate and respond to evolving adult consumer preferences; to develop, manufacture, market and distribute products that appeal to adult tobacco consumers (including, where appropriate, through arrangements with, and investments in, third parties); to improve productivity; and to protect or enhance margins through cost savings and price increases.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria and its tobacco businesses are also subject to federal, state and local government regulation, including by the FDA. Altria and its subsidiaries continue to be subject to litigation, including risks associated with adverse jury and judicial determinations, courts reaching conclusions at variance with the companies&#x2019; understanding of applicable law, bonding requirements in the limited number of jurisdictions that do not limit the dollar amount of appeal bonds and certain challenges to bond cap statutes.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+In addition, the factors related to Altria&#x2019;s investment in AB InBev include the following: the risk that Altria&#x2019;s equity securities in AB InBev are subject to restrictions on transfer until October 10, 2021; the risk that Altria&#x2019;s reported earnings from and carrying value of its equity investment in AB InBev and the dividends paid by AB InBev on shares owned by Altria may be adversely affected by unfavorable foreign currency exchange rates and other factors, including the risks encountered by AB InBev in its business; the risk that the tax treatment of Altria&#x2019;s transaction consideration from the AB InBev/SABMiller business combination and the accounting treatment of its equity investment are not guaranteed; and the risk that the tax treatment of Altria&#x2019;s investment in AB InBev may not be as favorable as Altria anticipates.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria cautions that the foregoing list of important factors is not complete and does not undertake to update any forward-looking statements that it may make except as required by applicable law. All subsequent written and oral forward-looking statements attributable to Altria or any person acting on its behalf are expressly qualified in their entirety by the cautionary statements referenced above.
+
+</p><table cellspacing="0" class="bwtablemarginb bwblockalignc" xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><tbody><tr><td colspan="16" rowspan="1"><p class="bwcellpmargin bwalignr">
+Schedule 1
+
+</p></td></tr><tr><td colspan="16" class="bwalignc" rowspan="1"><p class="bwcellpmargin bwalignc">ALTRIA GROUP, INC.</p></td></tr><tr><td colspan="16" class="bwalignc" rowspan="1"><p class="bwcellpmargin bwalignc">
+and Subsidiaries
+
+</p></td></tr><tr><td colspan="16" class="bwalignc" rowspan="1"><p class="bwcellpmargin bwalignc">
+Reconciliation of GAAP and non-GAAP Measures
+
+</p></td></tr><tr><td colspan="16" class="bwalignc" rowspan="1"><p class="bwcellpmargin bwalignc">
+(dollars in millions, except per share data)
+
+</p></td></tr><tr><td colspan="16" class="bwalignc bwpadt0" rowspan="1"><p class="bwcellpmargin bwalignc">
+(Unaudited)
+
+</p></td></tr><tr><td colspan="16" rowspan="1"></td></tr><tr><td colspan="16" class="bwvertalignb bwsinglebottom bwleftsingle bwrightsingle bwtopsingle bwpadt0" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Reconciliation of Altria&#x2019;s First Nine Months of 2018 Adjusted Results</b></p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Earnings
+<br>before
+<br>Income
+<br>Taxes</b></p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Provision
+<br>for Income
+<br>Taxes</b></p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Net
+<br>Earnings</b></p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Net
+<br>Earnings
+<br>Attributable
+<br>to Altria</b></p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Diluted EPS</b></p></td></tr><tr><td class="bwvertalignb bwnowrap bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>For the nine months ended September 30, 2018</b></p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwrowaltcolor0 bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>2018 Reported</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>7,631</b></p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>1,915</b></p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>5,716</b></p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth8" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>5,713</b></p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth5" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>3.02</b></p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+NPM Adjustment Items
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(145
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth2" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(36
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(109
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth2" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(109
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(0.06
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td></tr><tr><td class="bwvertalignb bwrowaltcolor0 bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+Tobacco and health litigation items
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+119
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+30
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+89
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+89
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+0.05
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">AB InBev special items
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(154
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth2" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(32
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(122
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth2" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(122
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(0.06
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td></tr><tr><td class="bwvertalignb bwrowaltcolor0 bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+Asset impairment, exit and
+
+</p><p class="bwcellpmargin">
+implementation costs
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+6
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+1
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+5
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+5
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0" rowspan="1"><p class="bwalignr bwcellpmargin">
+&#x2014;
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+Loss on AB InBev/SABMiller
+
+</p><p class="bwcellpmargin">
+business combination
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+33
+
+</p></td><td class="bwvertalignt bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+7
+
+</p></td><td class="bwvertalignt bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+26
+
+</p></td><td class="bwvertalignt bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+26
+
+</p></td><td class="bwvertalignt bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+0.01
+
+</p></td><td class="bwvertalignt bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwrowaltcolor0 bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+Tax items
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom bwrowaltcolor0" rowspan="1"><p class="bwalignr bwcellpmargin">
+&#x2014;
+
+</p></td><td class="bwvertalignt bwsinglebottom bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(152
+
+</p></td><td class="bwvertalignb bwsinglebottom bwrowaltcolor0 bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+152
+
+</p></td><td class="bwvertalignt bwsinglebottom bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+152
+
+</p></td><td class="bwvertalignt bwsinglebottom bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+0.08
+
+</p></td><td class="bwvertalignt bwsinglebottom bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>2018 Adjusted for Special Items</b></p></td><td class="bwvertalignb bwdoublebottom bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>7,490</b></p></td><td class="bwvertalignt bwdoublebottom bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwdoublebottom bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>1,733</b></p></td><td class="bwvertalignt bwdoublebottom bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwdoublebottom bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>5,757</b></p></td><td class="bwvertalignt bwdoublebottom bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwdoublebottom bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwpadr0 bwwidth8" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>5,754</b></p></td><td class="bwvertalignt bwdoublebottom bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwdoublebottom bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwpadr0 bwwidth5" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>3.04</b></p></td><td class="bwvertalignt bwdoublebottom bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwsinglebottom bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb bwsinglebottom" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb bwsinglebottom" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb bwsinglebottom" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb bwsinglebottom" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb bwsinglebottom" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td colspan="16" class="bwvertalignb bwsinglebottom bwleftsingle bwrightsingle" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Reconciliation of Altria&#x2019;s Full-Year 2017 Adjusted Results</b></p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Earnings
+<br>before
+<br>Income
+<br>Taxes</b></p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>(Benefit)
+<br>Provision
+<br>for Income
+<br>Taxes</b></p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Net
+<br>Earnings</b></p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Net
+<br>Earnings
+<br>Attributable
+<br>to Altria</b></p></td><td colspan="3" class="bwvertalignb bwsinglebottom bwnowrap" rowspan="1"><p class="bwalignc bwcellpmargin"><b>Diluted EPS</b></p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>For the year ended December 31, 2017</b></p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwrowaltcolor0 bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>2017 Reported</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>9,828</b></p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>(399</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin"><b>)</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>10,227</b></p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth8" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>10,222</b></p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwrowaltcolor0 bwpadr0 bwwidth5" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>5.31</b></p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+NPM Adjustment Items
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+4
+
+</p></td><td class="bwvertalignt bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+2
+
+</p></td><td class="bwvertalignt bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+2
+
+</p></td><td class="bwvertalignt bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+2
+
+</p></td><td class="bwvertalignt bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb" rowspan="1"><p class="bwalignr bwcellpmargin">
+&#x2014;
+
+</p></td><td class="bwvertalignt bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwrowaltcolor0 bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+Tobacco and health litigation items
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+80
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+30
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+50
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+50
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+0.03
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">AB InBev special items
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+160
+
+</p></td><td class="bwvertalignt bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+55
+
+</p></td><td class="bwvertalignt bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+105
+
+</p></td><td class="bwvertalignt bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+105
+
+</p></td><td class="bwvertalignt bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+0.05
+
+</p></td><td class="bwvertalignt bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwrowaltcolor0 bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+Asset impairment, exit, implementation and
+
+</p><p class="bwcellpmargin">
+acquisition-related costs
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+89
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+34
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+55
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+55
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+0.03
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+Gain on AB InBev/SABMiller business
+
+</p><p class="bwcellpmargin">
+combination
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(445
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth2" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(156
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(289
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth2" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(289
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(0.15
+
+</p></td><td class="bwvertalignb bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td></tr><tr><td class="bwvertalignb bwrowaltcolor0 bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+Settlement charge for lump sum pension
+
+</p><p class="bwcellpmargin">
+payments
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+81
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+32
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+49
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+49
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwrowaltcolor0 bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+0.03
+
+</p></td><td class="bwvertalignt bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+Tax items
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom" rowspan="1"><p class="bwalignr bwcellpmargin">
+&#x2014;
+
+</p></td><td class="bwvertalignt bwsinglebottom bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+3,674
+
+</p></td><td class="bwvertalignt bwsinglebottom bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(3,674
+
+</p></td><td class="bwvertalignb bwsinglebottom bwpadl0 bwwidth2" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(3,674
+
+</p></td><td class="bwvertalignb bwsinglebottom bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td><td colspan="2" class="bwvertalignb bwsinglebottom bwpadr0" rowspan="1"><p class="bwalignr bwcellpmargin">
+(1.91
+
+</p></td><td class="bwvertalignb bwsinglebottom bwpadl0 bwwidth3" rowspan="1" colspan="1"><p class="bwalignl bwcellpmargin">
+)
+
+</p></td></tr><tr><td class="bwvertalignb bwrowaltcolor0 bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>2017 Adjusted for Special Items</b></p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>9,797</b></p></td><td class="bwvertalignt bwdoublebottom bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>3,272</b></p></td><td class="bwvertalignt bwdoublebottom bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwpadr0 bwwidth6" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>6,525</b></p></td><td class="bwvertalignt bwdoublebottom bwrowaltcolor0 bwwidth2" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwpadr0 bwwidth8" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>6,520</b></p></td><td class="bwvertalignt bwdoublebottom bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin"><b>$</b></p></td><td class="bwvertalignb bwdoublebottom bwrowaltcolor0 bwpadr0 bwwidth5" rowspan="1" colspan="1"><p class="bwalignr bwcellpmargin"><b>3.39</b></p></td><td class="bwvertalignt bwdoublebottom bwrowaltcolor0 bwwidth3" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr><tr><td class="bwvertalignb bwwidth42" rowspan="1" colspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td><td colspan="3" class="bwvertalignb" rowspan="1"><p class="bwcellpmargin">
+&#xA0;
+
+</p></td></tr></tbody></table><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria reports its financial results in accordance with GAAP. Altria&#x2019;s management reviews certain financial results, including diluted EPS, on an adjusted basis, which excludes certain income and expense items, including those items noted under &#x201C;2018 Full-Year Guidance.&#x201D; Altria&#x2019;s management does not view any of these special items to be part of Altria&#x2019;s underlying results as they may be highly variable, may be infrequent, are difficult to predict and can distort underlying business trends and results. Altria&#x2019;s management believes that adjusted financial measures provide useful additional insight into underlying business trends and results and provide a more meaningful comparison of year-over-year results. Altria&#x2019;s management uses adjusted financial measures for planning, forecasting and evaluating business and financial performance, including allocating resources and evaluating results relative to employee compensation targets. These adjusted financial measures are not consistent with GAAP and may not be calculated the same as similarly titled measures used by other companies. These adjusted financial measures should thus be considered as supplemental in nature and not considered in isolation or as a substitute for the related financial information prepared in accordance with GAAP.
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">
+_________________________
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><sup>1</sup> Includes open- and closed-systems across all trade channels; Source: Altria Client Services estimate
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><img alt src="http://web.archive.org/web/20241211124153im_/http://cts.businesswire.com/ct/CT?id=bwnews&amp;sty=20181220005318r1&amp;sid=acqr7&amp;distro=nx&amp;lang=en" style="width:0;height:0"><span class="bwct31415"></span></p><p id="mmgallerylink" xmlns:xn="http://www.xmlnews.org/namespaces/meta#"><span id="mmgallerylink-phrase">View source version on <a href="http://web.archive.org/web/20241211124153/http://businesswire.com/">businesswire.com</a>: </span><span id="mmgallerylink-link"><a href="http://web.archive.org/web/20241211124153/https://www.businesswire.com/news/home/20181220005318/en/" rel="nofollow">https://www.businesswire.com/news/home/20181220005318/en/</a></span></p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria Client Services
+<br>Investor Relations
+<br>804-484-8222
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Altria Client Services
+<br>Media Relations
+<br>804-484-8897
+
+</p><p xmlns:xn="http://www.xmlnews.org/namespaces/meta#">Source: Altria Group, Inc.</p>
+                </div>
+                
+                <div class="module-news-details_category">
+                    
+                    
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+</span></span>
+                                                            </div>
+                                                            <div class="pane pane--right">
+                                                                <span class="RightPaneDiv"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="clear"></div>
+        <footer class="pane pane--footer">
+            <div id="footer" class="container"></div>
+            <span class="FooterPaneDiv"></span>
+            
+            <span class="Q4FooterDiv7"><div id="_ctrl0_ctl24_divModuleContainer" class="module module-embed hidden">
+    
+    <script>
+    // $('.module-breadcrumb a.module-breadcrumb_home-link').text("Investors");
+    //ADDING NOINDEX TAG FOR THEIR OWN COVEO SEARCH SCRIPT
+    $("header").prepend("<!-- BEGIN NOINDEX -->").append("<!-- END NOINDEX -->");
+    $("nav").prepend("<!-- BEGIN NOINDEX -->").append("<!-- END NOINDEX -->");
+</script>
+
+<script>
+    var q4App = $.extend(true, q4Defaults, {
+        options: {
+            mailingListConfig: {
+                submitText: 'Sign Up'
+            },
+            headerOffset: 60,
+        },
+        stickyNavBar: function () {
+            var inst = this,
+                $window = $(window),
+                $layout = $('#fullBodyWrapper'),
+                $header = $('.pane--header'),
+                $secondaryNav = $('.ir-horizontal-nav'),
+                $navContainer = $('.nav--horizontal'),
+                navContainerPos = function () {
+                    return $navContainer.position().top;
+                };
+
+$window.on('scroll', function () {
+                if ($window.scrollTop() > 0) {
+                    $layout.addClass('js--header-fixed');
+                } else {
+                    $layout.removeClass('js--header-fixed');
+                }
+
+if (!!Q4Settings.isSecondaryNavSticky) {
+                    if ($window.width() > 1024) {
+                        $navContainer.css('min-height', $secondaryNav.outerHeight());
+
+if ($window.scrollTop() + $header.outerHeight() >= navContainerPos()) {
+                            $layout.addClass('js--secondary-sticky');
+                            $secondaryNav.css('top', $header.height());
+                        } else {
+                            $layout.removeClass('js--secondary-sticky');
+                            $secondaryNav.removeAttr('style');
+                        }
+                    } else {
+                        $layout.removeClass('js--secondary-sticky');
+                        $secondaryNav.removeAttr('style');
+                        $navContainer.removeAttr('style');
+                    }
+                }
+
+});
+
+if (!!Q4Settings.isSecondaryNavSticky) {
+                $window.on('resize', function () {
+                    if ($window.width() > 1024) {
+                        $layout.removeClass('js--secondary-sticky');
+                        $navContainer.removeAttr('style').css('min-height', $secondaryNav
+                            .outerHeight());
+                        $nav.removeAttr('style');
+                    } else {
+                        $layout.removeClass('js--secondary-sticky');
+                        $secondaryNav.removeAttr('style');
+                        $navContainer.removeAttr('style');
+                    }
+                    $window.trigger('scroll');
+                }).resize();
+            }
+        },
+        scrollingTable: function (selector) {
+            $(selector).not(selector + ' table').wrap('<div class="table-wrapper" />');
+        },
+        addToAny: function () {
+            var a2a_config = a2a_config || {};
+            a2a_config.num_services = 12;
+            a2a_config.prioritize = ["facebook", "twitter", "google_buzz", "linkedin", "wordpress",
+                "google_reader", "delicious", "posterous", "tumblr", "blogger_post", "google_gmail",
+                "digg", "yahoo_bookmarks", "stumbleupon", "yahoo_buzz", "reddit", "myspace",
+                "livejournal", "windows_live_favorites", "hotmail"
+            ];
+        },
+        meetingFancy: function ($selector, trigger) {
+            var bCookie = document.cookie.replace(/(?:(?:^|.*;\s*)bCookie\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+            if (!bCookie.length) {
+                $selector.removeClass('js--hidden');
+            }
+            $selector.on('click', '.button--cookie', function () {
+                $selector.addClass('js--hidden');
+                document.cookie = 'bCookie=true; path=/';
+            });
+
+$selector.on('click', trigger, function (e) {
+                e.preventDefault();
+                $.fancybox.open({
+                    type: 'iframe',
+                    src: '/request-meeting-iframe/default.aspx',
+                    opts: {
+                        smallBtn: false,
+                        margin: [10, 0],
+                        slideClass: 'fancybox-slide--form',
+                        parentEl: 'form'
+                    }
+                });
+            });
+            window.addEventListener('message', function (event) {
+                if (event.data == 'close-fancybox') {
+                    $.fancybox.close();
+                }
+            }, false);
+        },
+        fancyboxInit: function (selector) {
+            $(selector).attr('data-fancybox', '');
+        },
+        exportView: function (exportType) {
+            switch (exportType) {
+                case 'pdf':
+                    var filename = document.title;
+                    html2canvas(document.querySelector('#irwWrapper'), {
+                        scale: 1
+                    }).then(function (canvas) {
+                        var $canvas = $(canvas);
+
+var height = $canvas.height(),
+                            width = $canvas.width(),
+                            margin = 40;
+
+var pdf = new jsPDF({
+                            orientation: 'portrait',
+                            unit: 'px',
+                            format: [(width + margin) * 1.75, (height + margin) * 1.75],
+                            compress: false,
+                        });
+
+pdf.addImage(canvas.toDataURL('image/jpeg'), 'JPEG', margin, margin, width,
+                            height, null, 'NONE');
+                        pdf.save(filename);
+                    });
+                    break;
+                case 'print':
+                default:
+                    window.print();
+                    break;
+            }
+        },
+        equalHeight: function (container) {
+            var currentTallest = 0,
+                currentRowStart = 0,
+                rowDivs = [],
+                $el,
+                topPosition = 0,
+                currentDiv;
+
+$(container).each(function () {
+                $el = $(this);
+                $el.height('auto');
+                topPosition = $el.position().top;
+
+if (currentRowStart != topPosition) {
+                    for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+                        rowDivs[currentDiv].height(currentTallest);
+                    }
+                    rowDivs.length = 0; // empty the array
+                    currentRowStart = topPosition;
+                    currentTallest = $el.height();
+                    rowDivs.push($el);
+                } else {
+                    rowDivs.push($el);
+                    currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (
+                        currentTallest);
+                }
+                for (currentDiv = 0; currentDiv < rowDivs.length; currentDiv++) {
+                    rowDivs[currentDiv].height(currentTallest);
+                }
+            });
+        },
+        mCustomScrollbar: function (selector) {
+            $(selector).mCustomScrollbar();
+        },
+        /**
+         * If our navigation structure is clone enough to be matched with simple JS,
+         * placing logic in here is a better solution than widgetizing the navigation
+         */
+        // transformNav: function() {
+        //     var $nav = $('.irw-nav-source');
+        // },
+        init: function () {
+            var app = this;
+
+app.cleanUp();
+            app.copyright($('.copyright_year'));
+            app.docTracking();
+            app.resetDate(['.nav a[href*="s4.q4web.com"]:not([href$=".pdf"])']);
+            app.meetingFancy($('.module-cta'), '.button--meeting');
+            app.previewToolbar();
+
+// irw specific functions
+            // app.transformNav();
+            if (!!Q4Settings.isHeaderSticky) {
+                app.stickyNavBar();
+            }
+            // app.addToAny();
+            app.mCustomScrollbar('.irwScrollbar');
+            $(window).on('load', function () {
+                app.fancyboxInit('.fancybox');
+            });
+            $(window).on('load resize', function () {
+                app.equalHeight('.box');
+            });
+        }
+    });
+
+q4App.init();
+// breadcrumb fix
+$('.module-breadcrumb a:not([href*="src=breadcrumb"])').each(function(){
+    var href = $(this).attr("href");
+    $(this).attr("href",href+"?src=breadcrumb");
+});
+// check until menu exists
+var checkExist = setInterval(function() {
+    if ($('#header .tab.active').length) {
+       clearInterval(checkExist);
+       var pgTitle = document.title.split(" - ")[0];
+           pgTitle = pgTitle.replace("Information", "").split(" ") ;
+           pgTitle = pgTitle.reduce(
+               function (a, b) {return a.length > b.length ? a : b; }
+           );
+       $('#header .tab.active a:contains("'+pgTitle+'")').closest("li").addClass("active");
+        if (GetViewType() == 0) {
+            $('#header .tab.active a[href*="investor.altria.com"]').each(function(){
+                var relUrl = $(this).attr("href").split("altria.com").pop();
+                $(this).attr("href", relUrl);
+            });
+        }
+    }
+}, 500);
+</script>
+</div></span><span class="Q4FooterDiv1"><div id="_ctrl0_ctl33_divModuleContainer" class="module module-embed">
+    
+    <script type="text/javascript">
+    q4App.scrollingTable('.module-details .module_body table');
+    
+//     00385863
+    $('.module-news-details:contains("Altria Reports 2022 Second-Quarter and First-Half Results; Reaffirms 2022 Full-Year Earnings Guidance")').find('.module_news-details_download').attr('href', 'http://web.archive.org/web/20241211124153/https://www.altria.com/-/media/Project/Altria/Altria/Investors/events-and-presentations/2022/2022-Q2/Press-Release.pdf');
+</script>
+</div></span>
+        </footer>
+    </div>
+</div>
+                    <input type="hidden" name="__antiCSRF" id="__antiCSRF" value=""/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript" src="/web/20241211124153js_/https://investor.altria.com/js/anti-csrf.js">
+    </script>
+
+<iframe id="q4l-iframe" tabindex="-1" title="Q4 Iframe" aria-hidden="true" style="position: absolute; width: 0px; height: 0px; border: 0; left: -999px; top: -999px;">
+    </iframe>
+
+<script>
+        Q4Login.IframeRedirectURI = "http://web.archive.org/web/20241211124153/https://login.q4inc.com/authorize?client_id=gKrDY1E9BUSWfU7DGuW2CO4rjdskiNg7&scope=openid+profile+email&response_type=code&response_mode=query&nonce=ymmm9pM6SNDxpDRSiNUHcCyqQw&state=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9yLmFsdHJpYS5jb20vcTRsb2dpbmNhbGxiYWNrLmFzcHgiLCJleHAiOjE3MzkxNTUzNDIuMCwiaWF0IjoxNzMzODk1NzQyLjAsImlzcyI6IlE0LldlYi5QdWJsaWMuU2l0ZSIsImF1ZCI6InVwc3RyZWFtLmNkbi53ZWIucHJkLnE0aW5jLmNvbSJ9.OC4r3b2XkAk6Q_QYOKOPWQ1IjIBE9HV-oM5wQZc_Wt0&redirect_uri=https%3a%2f%2fauth.platform.q4inc.com%2fauth%2fpublicAuthRedirect&prompt=none";
+        (function () {
+            if (window.location.hash.includes("login=true")) {
+                // q4pid is set in the modal so it should already be there
+                const pendoId = window.localStorage.getItem("q4pid");
+
+// email is also from modal
+                const email = window.localStorage.getItem("q4l_email");
+
+let redirectUrl = $('#hdnRedirectToLoginUrl').val();
+                redirectUrl = redirectUrl.replace("_q4pidval_", pendoId);
+                redirectUrl = redirectUrl.replace("_q4lemail_", email);
+
+window.location.replace(redirectUrl);
+            }
+        })();
+    </script>
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 12:41:53 Dec 11, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:21:49 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.898
+  exclusion.robots: 0.049
+  exclusion.robots.policy: 0.029
+  esindex: 0.018
+  cdx.remote: 159.492
+  LoadShardBlock: 439.327 (3)
+  PetaboxLoader3.datanode: 376.576 (4)
+  PetaboxLoader3.resolve: 241.016 (2)
+  load_resource: 205.167
+-->

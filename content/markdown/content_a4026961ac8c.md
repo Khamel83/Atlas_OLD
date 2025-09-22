@@ -1,0 +1,824 @@
+# Content from http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/
+
+*Retrieved: 2025-09-15T04:28:10.888071*
+
+---
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11"><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/","20170708033631","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1499484991");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Jim Thome Knows That Everything Dies by Pete Beatty | pitchers &amp; poets</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="generator" content="WordPress 4.7.5"/>
+	<meta name="template" content="K2 1.0-RC7.2"/>
+ 	<meta name="description" content="both have their moments"/>
+  
+	<link rel="stylesheet" type="text/css" media="screen" href="http://web.archive.org/web/20170708033631cs_/http://pitchersandpoets.com/wp-content/themes/k2/k2/style.css"/>
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/feed/"/>
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/feed/rss/"/>
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/feed/atom/"/>
+
+<link rel="pingback" href="http://pitchersandpoets.com/xmlrpc.php"/>
+	
+	
+<!-- All in One SEO Pack 2.3.11.1 by Michael Torbert of Semper Fi Web Design[210,280] -->
+<meta name="description" content="The city of Cleveland and its travails, with Jim Thome as a central image."/>
+
+<meta name="keywords" content="jim thome,cleveland indians,cleveland,pete beatty,1990s first baseman week"/>
+
+<link rel="canonical" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/"/>
+<!-- /all in one seo pack -->
+<link rel="dns-prefetch" href="//web.archive.org/web/20170708033631/http://s0.wp.com/"/>
+<link rel="dns-prefetch" href="//web.archive.org/web/20170708033631/http://s.w.org/"/>
+<link rel="alternate" type="application/rss+xml" title="pitchers &amp; poets » Jim Thome Takes His Rips by Pete Beatty Comments Feed" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/feed/"/>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/web.archive.org\/web\/20170708033631\/https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"http:\/\/web.archive.org\/web\/20170708033631\/https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/web.archive.org\/web\/20170708033631\/http:\/\/pitchersandpoets.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="st-widget-css" href="http://web.archive.org/web/20170708033631cs_/http://pitchersandpoets.com/wp-content/plugins/share-this/css/style.css?ver=4.7.5" type="text/css" media="all"/>
+<link rel="stylesheet" id="wpt-twitter-feed-css" href="http://web.archive.org/web/20170708033631cs_/http://pitchersandpoets.com/wp-content/plugins/wp-to-twitter/css/twitter-feed.css?ver=4.7.5" type="text/css" media="all"/>
+<link rel="stylesheet" id="jetpack_css-css" href="http://web.archive.org/web/20170708033631cs_/http://pitchersandpoets.com/wp-content/plugins/jetpack/css/jetpack.css?ver=4.4.2" type="text/css" media="all"/>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-content/themes/k2/k2/js/k2.functions.js?ver=1.0-RC7.2"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-content/themes/k2/k2/js/k2.slider.js?ver=1.0-RC7.2"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-content/themes/k2/k2/js/k2.trimmer.js?ver=1.0-RC7.2"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-content/themes/k2/k2/js/k2.rollingarchives.js?ver=1.0-RC7.2"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-content/themes/k2/k2/js/k2.livesearch.js?ver=1.0-RC7.2"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-content/plugins/fd-footnotes/fdfootnotes.js?ver=1.34"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-includes/js/swfobject.js?ver=2.2-20120417"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-content/plugins/podcasting/player/audio-player-noswfobject.js?ver=2.0"></script>
+<link rel="https://api.w.org/" href="http://pitchersandpoets.com/wp-json/"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://pitchersandpoets.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://pitchersandpoets.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Eddie Murray and My First Baseball Debate by Dan Mennella" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/eddie-murray-and-my-first-baseball-debate-by-dan-mennella/"/>
+<link rel="next" title="Don Mattingly by Emma Span" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/don-mattingly-by-emma-span/"/>
+<meta name="generator" content="WordPress 4.7.5"/>
+<link rel="shortlink" href="http://web.archive.org/web/20170708033631/http://wp.me/ptdeA-RS"/>
+<link rel="alternate" type="application/json+oembed" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpitchersandpoets.com%2F2011%2F05%2F18%2Fjim-thome-takes-his-rips-by-pete-beatty%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fpitchersandpoets.com%2F2011%2F05%2F18%2Fjim-thome-takes-his-rips-by-pete-beatty%2F&amp;format=xml"/>
+
+<!-- Bad Behavior 2.2.19 run time: 4.936 ms -->
+<script type="text/javascript">
+<!--
+function bb2_addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+bb2_addLoadEvent(function() {
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1499484991 207.241.231.142';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+// --></script>
+				<!-- Podcasting 2.4: http://podcastingplugin.com/ -->
+		<script type="text/javascript">
+			AudioPlayer.setup("http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/wp-content/plugins/podcasting/player/player.swf", {  
+				width: 290			});
+		</script>
+		<script charset="utf-8" type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'d4e90739-41f0-47b8-aaa3-fd46a3ff8770'});var st_type='wordpress3.0.1';</script>
+<!-- Subscribe Sidebar widget -->
+<link rel="stylesheet" href="http://web.archive.org/web/20170708033631cs_/http://pitchersandpoets.com/wp-content/plugins/subscribe-sidebar/subscribe_sidebar.css" type="text/css" media="screen"/>
+
+<link rel="dns-prefetch" href="//web.archive.org/web/20170708033631/http://v0.wordpress.com/">
+	<link rel="alternate" type="application/rss+xml" title="Podcast: pitchers &amp; poets" href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/feed/podcast/"/>
+		<style type="text/css">
+				#header {
+			background-image: url("http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2009/10/cropped-banner1.jpg");
+		}
+		
+				#header .blog-title a,
+		#header .description {
+			color: #f3f2f2;
+		}
+				</style>
+		
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Jim Thome Takes His Rips by Pete Beatty"/>
+<meta property="og:url" content="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/"/>
+<meta property="og:description" content="Pete Beatty is an editor at the Bloomsbury Press. He tweets @nocoastoffense. Some correspondents in this quiltwork book of saints have made a case for why their particular hero was particularly rep…"/>
+<meta property="article:published_time" content="2011-05-18T15:00:10+00:00"/>
+<meta property="article:modified_time" content="2011-05-19T16:34:15+00:00"/>
+<meta property="og:site_name" content="pitchers &amp; poets"/>
+<meta property="og:image" content="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/kapowski.jpg"/>
+<meta property="og:image:width" content="600"/>
+<meta property="og:image:height" content="453"/>
+<meta property="og:locale" content="en_US"/>
+<meta name="twitter:card" content="summary"/>
+
+<script type="text/javascript">
+	//<![CDATA[
+	
+		K2.AjaxURL = "http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/";
+		K2.Animations = 0;
+
+jQuery(document).ready(function(){
+						K2.LiveSearch = new LiveSearch(
+				"Type and Wait to Search"
+			);
+			
+						K2.RollingArchives = new RollingArchives(
+				"Page %1$d of %2$d"
+			);
+					});
+	//]]>
+	</script>
+
+<link rel="archives" title="May 2012" href="http://pitchersandpoets.com/2012/05/"/>
+	<link rel="archives" title="April 2012" href="http://pitchersandpoets.com/2012/04/"/>
+	<link rel="archives" title="March 2012" href="http://pitchersandpoets.com/2012/03/"/>
+	<link rel="archives" title="February 2012" href="http://pitchersandpoets.com/2012/02/"/>
+	<link rel="archives" title="January 2012" href="http://pitchersandpoets.com/2012/01/"/>
+	<link rel="archives" title="December 2011" href="http://pitchersandpoets.com/2011/12/"/>
+	<link rel="archives" title="November 2011" href="http://pitchersandpoets.com/2011/11/"/>
+	<link rel="archives" title="October 2011" href="http://pitchersandpoets.com/2011/10/"/>
+	<link rel="archives" title="September 2011" href="http://pitchersandpoets.com/2011/09/"/>
+	<link rel="archives" title="August 2011" href="http://pitchersandpoets.com/2011/08/"/>
+	<link rel="archives" title="July 2011" href="http://pitchersandpoets.com/2011/07/"/>
+	<link rel="archives" title="June 2011" href="http://pitchersandpoets.com/2011/06/"/>
+	<link rel="archives" title="May 2011" href="http://pitchersandpoets.com/2011/05/"/>
+	<link rel="archives" title="April 2011" href="http://pitchersandpoets.com/2011/04/"/>
+	<link rel="archives" title="March 2011" href="http://pitchersandpoets.com/2011/03/"/>
+	<link rel="archives" title="February 2011" href="http://pitchersandpoets.com/2011/02/"/>
+	<link rel="archives" title="January 2011" href="http://pitchersandpoets.com/2011/01/"/>
+	<link rel="archives" title="December 2010" href="http://pitchersandpoets.com/2010/12/"/>
+	<link rel="archives" title="November 2010" href="http://pitchersandpoets.com/2010/11/"/>
+	<link rel="archives" title="October 2010" href="http://pitchersandpoets.com/2010/10/"/>
+	<link rel="archives" title="September 2010" href="http://pitchersandpoets.com/2010/09/"/>
+	<link rel="archives" title="August 2010" href="http://pitchersandpoets.com/2010/08/"/>
+	<link rel="archives" title="July 2010" href="http://pitchersandpoets.com/2010/07/"/>
+	<link rel="archives" title="June 2010" href="http://pitchersandpoets.com/2010/06/"/>
+	<link rel="archives" title="May 2010" href="http://pitchersandpoets.com/2010/05/"/>
+	<link rel="archives" title="April 2010" href="http://pitchersandpoets.com/2010/04/"/>
+	<link rel="archives" title="March 2010" href="http://pitchersandpoets.com/2010/03/"/>
+	<link rel="archives" title="February 2010" href="http://pitchersandpoets.com/2010/02/"/>
+	<link rel="archives" title="January 2010" href="http://pitchersandpoets.com/2010/01/"/>
+	<link rel="archives" title="December 2009" href="http://pitchersandpoets.com/2009/12/"/>
+	<link rel="archives" title="November 2009" href="http://pitchersandpoets.com/2009/11/"/>
+	<link rel="archives" title="October 2009" href="http://pitchersandpoets.com/2009/10/"/>
+	<link rel="archives" title="September 2009" href="http://pitchersandpoets.com/2009/09/"/>
+	<link rel="archives" title="August 2009" href="http://pitchersandpoets.com/2009/08/"/>
+	<link rel="archives" title="July 2009" href="http://pitchersandpoets.com/2009/07/"/>
+	<link rel="archives" title="June 2009" href="http://pitchersandpoets.com/2009/06/"/>
+	<link rel="archives" title="May 2009" href="http://pitchersandpoets.com/2009/05/"/>
+	<link rel="archives" title="April 2009" href="http://pitchersandpoets.com/2009/04/"/>
+	<link rel="archives" title="March 2009" href="http://pitchersandpoets.com/2009/03/"/>
+
+<link href="/web/20170708033631im_/http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/favicon.ico" rel="icon"/>
+
+</head>
+
+<body class="wordpress k2 y2017 m07 d07 h20 single postid-3340 s-slug-jim-thome-takes-his-rips-by-pete-beatty s-y2011 s-m05 s-d18 s-h01 s-category-1990s-first-baseman-week s-tag-cleveland s-tag-cleveland-indians s-tag-jim-thome s-tag-pete-beatty s-author-eric columns-two lang-en">
+
+<div id="skip">
+	<a href="#startcontent" accesskey="2">Skip to content</a>
+</div>
+
+<div id="page">
+
+<div id="header">
+
+<div class="blog-title"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/" accesskey="1">pitchers &amp; poets</a></div>
+		<p class="description">both have their moments</p>
+
+<ul class="menu">
+		<li class="page_item">
+			<a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/" title="Blog">
+				Blog			</a>
+		</li>
+
+<li class="page_item page-item-2"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/about/">About</a></li>
+<li class="page_item page-item-5210"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/rbi/">Rogue&#8217;s Baseball Index</a></li>
+
+</ul><!-- .menu -->
+
+</div> <!-- #header -->
+
+<hr/>
+
+<div class="content">
+
+<div id="primary-wrapper">
+	<div id="primary">
+		<div id="notices"></div>
+		<a name="startcontent" id="startcontent"></a>
+
+<div id="current-content" class="hfeed">
+
+<div id="nav-above" class="navigation">
+
+<div class="nav-previous"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/eddie-murray-and-my-first-baseball-debate-by-dan-mennella/" rel="prev"><span class="meta-nav">&laquo;</span> Eddie Murray and My First Baseball Debate by Dan Mennella</a></div>
+		<div class="nav-next"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/don-mattingly-by-emma-span/" rel="next">Don Mattingly by Emma Span <span class="meta-nav">&raquo;</span></a></div>
+	
+		<div class="clear"></div>
+	</div>
+
+<div id="post-3340" class="post-3340 post type-post status-publish format-standard hentry category-1990s-first-baseman-week tag-cleveland tag-cleveland-indians tag-jim-thome tag-pete-beatty p1 y2011 m05 d18 h01">
+				<div class="entry-head">
+					<h1 class="entry-title">
+						<a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/" rel="bookmark" title="Permanent Link to Jim Thome Takes His Rips by Pete Beatty">Jim Thome Takes His Rips by Pete Beatty</a>
+					</h1>
+
+<div class="entry-meta">
+						<span class="vcard author entry-author"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/author/eric/" class="url fn" title="View all posts by Eric">Eric</a></span>, <abbr class="published entry-date" title="2011-05-18T08:00:10-0700">May 18, 2011</abbr>, <span class="entry-comments"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/#comments" class="commentslink">10 <span>Comments</span></a></span>					</div> <!-- .entry-meta -->
+
+</div><!-- .entry-head -->
+
+<div class="entry-content">
+					<p><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/category/1990s-first-baseman-week/"><img class="aligncenter" src="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/90s1b1.png" alt="" width="600" height="107"/></a></p>
+<p><em>Pete Beatty is an editor at the <a title="bloomsbury press" href="http://web.archive.org/web/20170708033631/http://www.bloomsburypress.com/">Bloomsbury Press</a>. He tweets <a title="pete beatty no coast offense twitter" href="http://web.archive.org/web/20170708033631/http://twitter.com/#!/nocoastoffense">@nocoastoffense</a>.</em></p>
+<p><img class="alignleft size-full wp-image-3391" title="jim thome 1991 upper deck" src="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/jim-thome-1991-upper-deck.png" alt="" width="248" height="344" srcset="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/jim-thome-1991-upper-deck.png 248w, http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/jim-thome-1991-upper-deck-216x300.png 216w" sizes="(max-width: 248px) 100vw, 248px"/>Some correspondents in this quiltwork book of saints have made a case for why their particular hero was particularly representative of the genus of 90s first baseman. I can’t do that with anything like an intellectual straight face for my chosen dude. Jim Thome is my chosen dude, and Jim Thome isn’t really a first baseman. He’s a designated hitter, and always has been, even back when he played third base and masqueraded as a non-stationary object. But if you’ll waive your right to object, I will explain why Jim Thome and his metaphysics tell us a great deal about the non-linear nature of emotional time.</p>
+<p>But first, I have to introduce a concept: ruin porn.</p>
+<p>Ruin porn is a multivalent genre unto itself, according to me. The literal term “ruin porn” <a title="guernica magazine" href="http://web.archive.org/web/20170708033631/http://www.guernicamag.com/features/2281/leary_1_15_11">as it is used</a> refers to the trend of slideshows and coffee table books inspired by photographers like Camilo Jose Vergara (<a title="detroit ruin porn" href="www.viceland.com/int/v16n8/htdocs/something-something-something-detroit-994.php">and his many imitators</a>). I propose that ruin porn is actually much more than a medium-length trend in lazy online photojournalism, but in fact a new genre of Americana. Ruin porn will probably never develop a grammar and a history like noir or Westerns or country music, but not for a lack of complexity and practitioners (knowing ones or naïfs).</p>
+<p>Just a few of ruin porn’s constituent parts: the inevitable human tendency toward nostalgia, the birth and death of punk, the early, hardscrabble days of hip-hop, downtown/heroin chic, Bukowski, <em>Taxi Driver</em>, Tom Waits, Bruce Springsteen, <em>The Outsiders</em>, steeping in a stock of history: white flight, urban blight and renewal, crime, deferred maintenance of both the physical and notional infrastucture. All of this has been fermented by grunge ironicism, neoliberal economics and attitudes, and the post-everything present mindsets of journalists and artists. At its worst, ruin porn traffics in curdled sarcasm—the Pabst tall boys and trucker hats of Gen-Y hipsters (I use that word under duress; the correct classification is “gutter yuppie”). I can make a case for <em>Napoleon Dynamite</em> as failed ruin porn. Cormac McCarthy’s dodgier novels dabble with the genre—I classify <em>The Road</em> as young-adult ruin porn. But at its best, ruin porn can be breathtaking:<em> The Wire</em>’s second season is quintessential RP, and the entire series is at least partially about how our systems are failing us.</p>
+<p>I would like to spend the rest of the day developing a unified field theory of ruin porn, but I need to talk about Cleveland. As befits a city that never wins at anything, Cleveland isn’t even the Seattle of ruin porn. That would be Detroit, the briar patch that brought us Devil’s Night, Iggy Pop and the MC5, and Eminem and his 8 Mile, which is basically <em>The Grapes of Wrath</em> denuded of the communitarian socialism of the Depression era and reformatted to a post-union economy where you only get one chance (if you get a chance at all). But enough about Detroit—we’re not Detroit. It’s difficult to question Cleveland’s credentials as an expression of this particular brand of American weltschmerz—if only because Harvey Pekar spent his entire life there, and turned the civic bathos into a character in its own right.</p>
+<p><img class="aligncenter size-full wp-image-3356" title="notdetroit" src="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/notdetroit.jpg" alt="" width="600" height="352" srcset="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/notdetroit.jpg 600w, http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/notdetroit-300x176.jpg 300w" sizes="(max-width: 600px) 100vw, 600px"/>The city that Moses Cleaveland (sic) founded in 1797 had a census population of 914,808 in 1950, two years after the Indians last won the World Series. Cleveland in 2010 clocked in at 396,815 souls—roughly the same size that it was in the year 1900. The city’s trademark is a reputation as a town full of losers—both economically and competitively. I don’t mean this as a knock—there is so much to love about Cleveland. Though the city has likely seen its best days in terms of industry and population, Cleveland and its inner-ring suburbs comprise a real place, filled with art, culture, great food, and true beauty. The economic zeitgeist that made Cleveland competitive seems to have disappeared over the horizon. That’s not any fault of Cleveland’s but a slow-moving natural disaster—a fifty-year Katrina, as one resident ably put it in <a href="http://web.archive.org/web/20170708033631/http://sports.espn.go.com/espn/eticket/story?page=101201/Cleveland">an elegiac ESPN feature</a> last year. Cleveland will always be with us.</p>
+<p>But back to that reputation—the subtle terrain of actual reality isn’t good soil for this story. Cleveland’s reputation for losing, for lack of a better word, comes from a lot of places. Our river caught on fire (many times—it’s just the one from the 1960s that help get the Clean Water Act passed). The Browns were very good for the first twenty years of their existence (they joined the NFL in 1946), and have largely sucked since. When not sucking, they have a fondness for dramatic post-season defeats. The team moved to Baltimore in 1995, and was replaced with an expansion team that isn’t quite the same (the dissociation has to do with the new stadium’s lack of intimacy and personality more than the team itself, but one playoff game in twelve seasons isn’t helping). The NBA Cavs also historically suck, although their greatest contribution to Cleveland’s ruin-porn resume didn’t come until 2010.</p>
+<p>There were far more serious problems afoot apart from sports: the city’s economic base has been bleeding jobs for decades. The economic crises of the 70s pounded Cleveland; the lowest point came in 1978 when the city defaulted on $14 million in loans from local banks (not really anyone’s fault—young mayor Dennis Kucinich had tried to take a stand against local big business and lost out; the default was the business leaders punishing Kucinich for his insolence). Suburbs undercut the city on taxes, middle-class residents fled to the fringe or a different region altogether, and the formerly bustling neighborhoods of Cleveland proper were hit hard by blight.</p>
+<p><ins datetime="2011-05-16T06:02:51+00:00">The real geniuses of failure in Cleveland were the Indians</ins>But the real geniuses of failure in Cleveland were the Indians. In the twenty-four seasons (1969 to 1983) of original American League East play, the Indians finished above fifth place (out of seven teams) just four times. All four of those finishes were fourth place. The team played in the cavernous Municipal Stadium, a rotting prison hulk of a ballpark that had a capacity in the mid-70,000s, but usually hosted crowds in the mid-7,000s. The Tribe’s big stars in the late 1980s were non-legends like Brett Butler, Cory Snyder, Joe Carter (before the World Series walk-off), Brook Jacoby, Tom Candiotti and Gregg Swindell. When even those B+ talents proved too rich for Cleveland, things got ugly. In 1991, the Indians posted a guttural 57-105 mark, the worst in team history. Jim Thome made his major-league debut on September 4 of that season.</p>
+<p>So where am I going? What does ruin porn have to do with Jim Thome?</p>
+<p>Jim Thome is ruin porn.</p>
+<p>None of what I’ve told you about Cleveland is news. Cleveland’s status as a national punchline existed long before Jose Mesa in November of 1997, or LeBron’s hegira to South Beach. Major League was made way back in 1989—a profane, ultra-genial comedy about an MLB team full of misfits. Screenwriter David S. Ward chose the Indians—why settle for the New York Knights when you can use an actual shitty team? (Incidentally, the MLB of 2011 most certainly would not have given approval to use team logos and uniforms after seeing the fuck-spattered script for Major League—making the movie itself a meta-artifact of ruin porn).</p>
+<p>One joke at Cleveland’s expense really nettled me as a kid. It’s from the thirteenth episode of Saved by the Bell. Zack decides to run for class president against Jessie, mostly for venal reasons (something about a free trip to Washington DC). Jessie, who actually wants to be class president, loses her shit a little, and has to be counseled by Slater and Kelly. Kelly, on whom I had a rather ardent second-hand crush, tries to make Jessie realize what’s at stake in the election. The big joke—judging from where the canned laughter crescendos—comes when Kelly announces that Jessie is going down in history with George McGovern, Walter Mondale, and the Cleveland Indians as one of the all-time great losers.</p>
+<p>All the mostly good-natured shit that got flung Cleveland’s way didn’t hurt much, except when it was true. And what Kelly Kapowski said was very true—the Indians lost, a lot.</p>
+<p><img class="aligncenter size-full wp-image-3351" title="kapowski" src="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/kapowski.jpg" alt="" width="600" height="453" srcset="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/kapowski.jpg 600w, http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/kapowski-300x226.jpg 300w" sizes="(max-width: 600px) 100vw, 600px"/></p>
+<p>It’s been documented how the Indians were, even in the dark days of 1991, building a plan to compete as a small-market club. GM John Hart was assembling a core of high-ceiling prospects through trades and scouting, and inking the most promising guys to long-term deals, avoiding arbitration fights and sewing up the early free-agent eligibility of talented players in exchange for immediate financial security. Carlos Baerga, Kenny Lofton, a punky OF then named Joey Belle, Charles Nagy, a super-prospect named Manny Ramirez, Sandy Alomar Jr. and more. First base was manned by a castoff from the Twins, a big, beefy Boston Italian guy named Paul Sorrento.</p>
+<p style="text-align: center;">***</p>
+<p><span id="more-3340"></span></p>
+<p><img class="alignright size-full wp-image-3345" title="thomereel" src="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/thomereel.jpg" alt="" width="250" height="875"/></p>
+<p>Jim Thome didn’t look like a star in 1991. He looked like the mutant offspring of Steve Buechele, a gangly third baseman with a skeleton two sizes two big for his muscles. Thome wasn’t particularly hyped, although it’s hard to know that in hindsight—I’ve been reading tweets about Drew Pomeranz since a month before the Indians drafted him, but in back in the paleographic age, if there was any buzz about Thome’s arrival, I missed it. I was also very busy rotely replaying F-Zero races and stealing a Penthouse magazine from the B. Dalton at Great Northern Mall. I traded the Penthouse for a bundle of bottle rockets. We shot them out of a shoe from the roof of 193 Emerald Drive, aiming for a transformer box. We never hit it.</p>
+<p>When Jim Thome materialized in 1991 (and successively large cups of coffee in ’92 and ’93), he was not yet a first baseman. His glove was up to the task of manning third, but his right arm was a problem. The same right arm that help him hit for a bit of power also launched comically inaccurate throws across the diamond, covering Paul Sorrento with welts and defrauding my personal hero Charles Nagy of hard-earned groundball outs. Thome quickly developed as a slugger, posting a .288/.404/.530 mark through 1996, not far off his career mark of .277/.404./.558, but he also committed 73 errors in 492 games at third in his first five seasons.</p>
+<p>Beginning in 1997, Jim Thome was recommissioned as a first baseman, after the Indians acquired the majestically bald Matt Williams. Even moved over to the large-animal enclosure of first base, Thome wasn’t exactly Baryshnikov in stirrups. But at least we were spared watching his throws to first. His bat was all the way grown up now. In six seasons at first in Cleveland, Thome launched 241 home runs, and raked .286/.420/.588. One of those 241 homers was a 511-foot shot off Kansas City’s immortal Don Wengert in 1999. No one has ever, ever struck a ball as hard as Thome hit that ball.</p>
+<p style="text-align: center;">***</p>
+<p>Jim Thome’s swing has an eerie quality of wind to it. It’s a standard-issue slugger’s swing, apart from the slightly ominous pointing with his bat toward right-center as a timing device. Early in his career, Thome’s cut had a touch of Reggie Jackson’s lower-body contortions in it. But as Thome matured, he learned to control his hips, and that’s where his unearthly power begins. When Thome really connects, it’s almost like he’s swinging an oar—the balls seem to lift up on a gust of warm air, skipping out of the frame of the centerfield camera in an instant. The prevailing winds in Cleveland are southwesterly—which just so happens to point toward right-center at Progressive nee Jacobs Field. Maybe Thome communes with the god of wind. But even in stadiums that aren’t blessed by weather patterns, his booming drives (and frequent strikeouts) very nearly alter the barometric pressure.</p>
+<p>Thome is by all accounts a great guy in the clubhouse and off the field. His salient idiosyncrasy is his hosiery: he wears his socks above the knee. He holds the high honor of having finished in a tie for second place (with Mike Sweeney) in a poll asking current players to name the friendliest MLBer. He brawled with Chipper Jones during a bench-clearing incident in the minors. The fight wound up being the beginning of a long friendship. He once charged the mound in Boston after a beanball exchange, only to realize the man who had beaned him was his hunting pal Rheal Cormier. You can see on the tape where Thome realized who he was charging; he goes into WWF mode, wrapping Cormier in a benign grapple before the tidal wave from the dugout arrives.</p>
+<p style="text-align: center;">***</p>
+<p><img class="alignleft size-medium wp-image-3401" title="jim thome baseball card" src="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/jim-thome-baseball-card-213x300.png" alt="" width="213" height="300" srcset="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/jim-thome-baseball-card-213x300.png 213w, http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/jim-thome-baseball-card.png 366w" sizes="(max-width: 213px) 100vw, 213px"/></p>
+<p>From 1991 to 1994, the Indians weren’t very good, but there was reason to believe. Even the 105-loss disaster of ’91 showed some promise, including a promising young reliever named Steve Olin. The fans weren’t sold yet, but the finalization of plans for a new ballpark (heavily underwritten with public money) amplified the buzz—something was brewing in Cleveland. The revitalization wasn’t limited to sports, although there’s a consistent conflation in the public imagination of sports success with a general civic perspicacity. A few large construction projects seemed to hint at a revitalization of the somber downtown—two shopping malls, a brand-new train station in the beautiful beaux-arts Terminal Tower skyscraper.</p>
+<p><del>I ran aground on the realization that Jim Thome, for all his home runs and his gentle, generous personality, is fairly bland.</del></p>
+<p>Sure enough, the Indians roared back into relevance. Five playoff appearances, a 100-win season, a roster full of All-Stars. Cleveland was Cleveland again, not just a joke, for a while anyway. There was even a network sitcom set in Cleveland, featuring, appropriately, an unambitious, sarcastic fat guy who drank a lot.</p>
+<p>But the revival sputtered when the Browns left town. The civic renewal seemed to stall a bit—there were a few new nightclubs and restaurants, a new courthouse was being built. But jobs kept going away, and people were happily jumping into toxic mortgages to get the keys to a bland condo somewhere in the suburbs, or to hold onto a decrepit house in one of Cleveland’s graying neighborhoods. The Indians never got over the hump—they lost in both World Series, and the best team of their 90s run, the 1999 squad that posted 1,005 runs, choked away a 2-0 lead against Boston in the ALDS.</p>
+<p>By 2002, the Indians sucked again. The stars of the 90s team had slowly escaped—Albert Belle was the first, bailing for a big free-agent deal with the rival White Sox after the 1996 season. Carlos Baerga mysteriously evaporated into mediocrity not long after. Manny Ramirez defected to Boston in 2000, and Kenny Lofton walked in 2001. Roberto Alomar was dealt before the 2002 season. Jim Thome was the only star left in Cleveland, and he lived up to it, posting a career-high 52 homers before taking a massive $85 million free-agent contract to play for Philadelphia.</p>
+<p style="text-align: center;">***</p>
+<p>When I started thinking about writing this, I ran aground on the realization that Jim Thome, for all his home runs and his gentle, generous personality, is fairly bland. I reconciled myself to squirting out some ironic appreciation of Jim Thome’s status as a player out of time, a man who moves at the flickering frame rate of pre-war newsreels of Hank Greenberg or Hack Wilson, a lumbering dinosaur of a player. In thinking about his throwback nature, from his socks to his golly-gee personality, I remembered some lines from a lay sermon of Bruce Springsteen&#8217;s:</p>
+<blockquote><p>Now our luck may have died and our love may be cold<br/>
+but with you forever I&#8217;ll stay<br/>
+We&#8217;re goin&#8217; out where the sand&#8217;s turnin&#8217; to gold<br/>
+so put on your stockings baby, &#8217;cause the night&#8217;s getting cold<br/>
+And everything dies baby that&#8217;s a fact<br/>
+But maybe everything that dies someday comes back</p></blockquote>
+<p>People tend to fixate on the part about everything dying, or the love going cold, but I think the nut line is “put on your stockings, baby.” I don’t know if Springsteen thinks that luck will return, or love will grow warm, that we have to go out everyday and wait for love/luck from the widow’s walk of life. I tend to think that he means not that this too shall pass, but that we are all living the past, the present, and the future all at once, every day. Jim Thome knows that everything dies, but it doesn’t stop him from hiking his socks up and taking his rips.</p>
+<p style="text-align: center;">***</p>
+<p>The Indians were competitive again in 2004—an instant rebuilding. I checked Yahoo! Sports from a public computer in Morningside Heights to find out they’d beaten the Twins 7-1 to move eight games over .500 in mid-August. The 2004 team didn’t amount to much, but they were young and dumb and smiled a lot—which gets you pretty far in my heart.</p>
+<p>Cleveland’s renaissance trailed off. The bars and clubs down by the river closed up, a few drifting up the hill to the Warehouse District. Businesses kept leaving. Ohio went for George W. Bush in the 2004 election, and the curtain went down on long lines of low-income, mostly black voters on Cleveland’s east side who were shut out from polls. Cleveland was saddled with a new, unwieldy sobriquet: The poorest big city in America.</p>
+<p style="text-align: left;"><img class="size-full wp-image-3394 aligncenter" title="cleveland indians 2007 alcs" src="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/cleveland-indians-2007-alcs.png" alt="" width="377" height="274" srcset="http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/cleveland-indians-2007-alcs.png 377w, http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/cleveland-indians-2007-alcs-300x218.png 300w" sizes="(max-width: 377px) 100vw, 377px"/>The 2005 Indians won 93 games, but missed out on the playoffs after dropping six of their last seven. 2006 was a lost year. 2007 almost killed me—the Indians crashed one win short of a date with the Rockies in the World Series, a matchup that seemed like kismet—it only made sense that the Tribe would end their 59-year drought, shrug off the burden of history, against a team that didn’t exist before 1993. But the starting pitching imploded, and the Red Sox came back from the dead.</p>
+<p>In successive years, the Indians dealt away the reigning AL Cy Young, and in both cases they appear to have gotten a hill of replacement-level beans. 90-loss seasons followed in 2009 and 2010. The housing bubble popped, and the aftershocks soured the economic blood of heavily mortgaged towns like Cleveland. Foreclosures and brownfields blossomed, and the civic mood worsened—like mold growing on top of mold. I’d call LeBron James leaving a bottom, but Cleveland is still sick.</p>
+<p>In the words of <a title="rust wire cleveland" href="http://web.archive.org/web/20170708033631/http://rustwire.com/">Rust Wire</a>, a blog that has become my best connection to my home region, “every decade or so in Cleveland the headlines reappear like locusts—a Renaissance, a Rebirth.” In the 1990s it was new skyscrapers and the Rock and Roll Hall of Fame, new stadiums and shopping centers. Now it’s casinos, or something. In 1969, it was just putting out the fire on the river. In 1901 it was getting all the dead horses out of the gutter, probably. In 1796, it was not dying of diphtheria. It says here the economy’s on the upturn.</p>
+<p style="text-align: center;">***</p>
+<p>Jim Thome turns 41 this year, and he’s slowing down, turning into a caricature of himself in his prime. I’ll tell my kids someday about the home run off Don Wengert, and will probably be able to queue up MLB archival video footage in the holodeck as a teaching aid. Thome will grow old and gray and thicker, making occasional appearances on telecasts and talk shows, talking about what he did when he was younger. Cleveland turns 215 in July.</p>
+				</div><!-- .entry-content -->
+
+<div class="entry-foot">
+					
+					<div class="entry-meta">
+						<span class="entry-categories"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/category/1990s-first-baseman-week/" title="View all posts in 1990s First Baseman Week">1990s First Baseman Week</a></span>, <span class="entry-comments"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/#comments" class="commentslink">10 <span>Comments</span></a></span>					</div><!-- .entry-meta -->
+
+</div><!-- .entry-foot -->
+			</div><!-- #post-ID -->
+
+<div class="comments">
+				
+		<h4><span id="comments">10</span> Responses to &#8220;Jim Thome Takes His Rips by Pete Beatty&#8221;</h4>
+
+<div class="metalinks">
+			<span class="commentsrsslink"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/jim-thome-takes-his-rips-by-pete-beatty/feed/">Feed for this Entry</a></span>
+					</div>
+
+<hr/>
+
+<ul id="commentlist">
+		
+	<li id="comment-4878">
+		<div class="comment even thread-even depth-1 c-y2011 c-m05 c-d18 c-h02">
+
+<div class="comment-head">
+				
+				<span class="comment-author"><a href="http://web.archive.org/web/20170708033631/http://www.rustwire.com/" rel="external nofollow" class="url">Richey Piiparinen</a></span>
+
+<div class="comment-meta">
+					<a href="#comment-4878" title="Permanent Link to this Comment">
+						May 18, 2011 at 9:34 am					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>terrific.</p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-4878" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+
+<li id="comment-4879">
+		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m05 c-d18 c-h02">
+
+<div class="comment-head">
+				
+				<span class="comment-author">Katie</span>
+
+<div class="comment-meta">
+					<a href="#comment-4879" title="Permanent Link to this Comment">
+						May 18, 2011 at 9:48 am					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>Season two of THE WIRE as ruin porn: yes yes, completely, yes. Agree.</p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-4879" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+
+<li id="comment-4891">
+		<div class="comment even thread-even depth-1 c-y2011 c-m05 c-d18 c-h12">
+
+<div class="comment-head">
+				
+				<span class="comment-author">Susan</span>
+
+<div class="comment-meta">
+					<a href="#comment-4891" title="Permanent Link to this Comment">
+						May 18, 2011 at 7:33 pm					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>reading this makes me realize why i am distraught about my beloved hometown. born in &#8217;51, drenched in cleveland sports by an adoring father, grandmother and brothers, summers in lake erie and terminal tower when trains actually delivered loved ones from new england. then enduring decades of derision from those who have never been here. it is heavy and constant and all i can do is hope. because i&#8217;ll breathe my last here in this town and be proud of the place til then&#8230; irrational maybe but love is strange.</p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-4891" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+
+<li id="comment-4892">
+		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m05 c-d19 c-h01">
+
+<div class="comment-head">
+				
+				<span class="comment-author">Craig</span>
+
+<div class="comment-meta">
+					<a href="#comment-4892" title="Permanent Link to this Comment">
+						May 19, 2011 at 8:08 am					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>Excellent stuff, Pete.</p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-4892" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+
+<li id="comment-4893">
+		<div class="comment even thread-even depth-1 c-y2011 c-m05 c-d19 c-h02">
+
+<div class="comment-head">
+				
+				<span class="comment-author">J. Reader</span>
+
+<div class="comment-meta">
+					<a href="#comment-4893" title="Permanent Link to this Comment">
+						May 19, 2011 at 9:31 am					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>Great piece. You need to fix your &#8220;and his many imitators&#8221; link.</p>
+<p><em>ed: fixed, thanks</em></p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-4893" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+
+<li id="comment-4903">
+		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m05 c-d19 c-h23">
+
+<div class="comment-head">
+				
+				<span class="comment-author">Pete Beatty</span>
+
+<div class="comment-meta">
+					<a href="#comment-4903" title="Permanent Link to this Comment">
+						May 20, 2011 at 6:25 am					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>thanks for the kind words all! </p>
+<p>@Richey &#8212; you write for Rust Wire, yeah? Keep up the good work! I love the blog and check it pretty much every day. </p>
+<p>@Susan &#8212; no need to be distraught! Cleveland is still wonderful, even if it&#8217;s smaller and a bit threadbare. I always look forward to visiting.</p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-4903" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+
+<li id="comment-4910">
+		<div class="comment even thread-even depth-1 c-y2011 c-m05 c-d20 c-h05">
+
+<div class="comment-head">
+				
+				<span class="comment-author">Bryan</span>
+
+<div class="comment-meta">
+					<a href="#comment-4910" title="Permanent Link to this Comment">
+						May 20, 2011 at 12:21 pm					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>Cow-a-bunga</p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-4910" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+
+<li id="comment-5240">
+		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m08 c-d16 c-h04">
+
+<div class="comment-head">
+				
+				<span class="comment-author">Hamsterdam</span>
+
+<div class="comment-meta">
+					<a href="#comment-5240" title="Permanent Link to this Comment">
+						August 16, 2011 at 11:51 am					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>&#8220;&#8230; curtain went down on long lines of low-income, mostly black voters on Cleveland’s east side who were shut out from polls.&#8221;</p>
+<p>The Cleveland Indians failures of the mid-1990s, also Dubya&#8217;s fault. Got it. Let me add it to the list. Page 34,146.</p>
+<p>Seriously? Christ man, you libs just never give up, do you?</p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-5240" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+
+<li id="comment-5245">
+		<div class="comment even thread-even depth-1 c-y2011 c-m08 c-d17 c-h02">
+
+<div class="comment-head">
+				
+				<span class="comment-author">TheClevelandHockey</span>
+
+<div class="comment-meta">
+					<a href="#comment-5245" title="Permanent Link to this Comment">
+						August 17, 2011 at 9:57 am					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>I have never loved and hated anyone at the same time so much until I met Jim Thome.</p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-5245" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+
+<li id="comment-5275">
+		<div class="comment odd alt thread-odd thread-alt depth-1 c-y2011 c-m08 c-d27 c-h03">
+
+<div class="comment-head">
+				
+				<span class="comment-author">Jonny Scrum-half</span>
+
+<div class="comment-meta">
+					<a href="#comment-5275" title="Permanent Link to this Comment">
+						August 27, 2011 at 10:04 am					</a>
+
+</div><!-- .comment-meta -->
+			</div><!-- .comment-head -->
+
+<div class="comment-content">
+				<p>1969 to 1983 is 14 years, not 24 years.</p>
+
+</div><!-- .comment-content -->
+
+<div id="comment-reply-5275" class="comment-reply">
+							</div>
+			
+		</div><!-- comment -->
+</li><!-- #comment-## -->
+		</ul>
+
+<div class="navigation">
+			<div class="nav-previous"></div>
+			<div class="nav-next"></div>
+
+<div class="clear"></div>
+		</div>
+			
+			
+			<div id="comments-closed-msg">Comments are currently closed.</div>
+	
+				</div><!-- .comments -->
+
+<div id="nav-below" class="navigation">
+
+<div class="nav-previous"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/eddie-murray-and-my-first-baseball-debate-by-dan-mennella/" rel="prev"><span class="meta-nav">&laquo;</span> Eddie Murray and My First Baseball Debate by Dan Mennella</a></div>
+		<div class="nav-next"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/18/don-mattingly-by-emma-span/" rel="next">Don Mattingly by Emma Span <span class="meta-nav">&raquo;</span></a></div>
+	
+		<div class="clear"></div>
+	</div>
+
+</div><!-- #current-content -->
+
+<div id="dynamic-content"></div>
+	</div><!-- #primary -->
+</div><!-- #primary-wrapper -->
+
+<hr/>
+<div id="sidebar-1" class="secondary">
+
+<div id="text-453553080" class="widget widget_text">			<div class="textwidget"><ul class="sidebar-links">
+			<li class="about"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/about/" title="Pitchers &amp; Poets About">About</a></li>
+			<li class="rss"><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/rss/" title="Pitchers &amp; Poets RSS">RSS</a></li>
+			<li class="facebook"><a href="http://web.archive.org/web/20170708033631/http://www.facebook.com/pages/Pitchers-And-Poets/99910676218" title="Pitchers &amp; Poets Facebook">Facebook</a></li>
+			<li class="twitter"><a href="http://web.archive.org/web/20170708033631/http://twitter.com/pitchersnpoets" title="Pitchers &amp; Poets Twitter">Twitter</a></li>
+			<li class="search"><a href="http://web.archive.org/web/20170708033631/mailto:tips@pitchersandpoets.com">&nbsp;</a></li>
+		</ul></div>
+		</div><div id="text-453553081" class="widget widget_text">			<div class="textwidget"><div id="sidebar-divider">&nbsp;</div></div>
+		</div><div id="search-4" class="widget widget_search"><form method="get" id="searchform" action="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/">
+	<div id="search-form-wrap">
+		<label for="s" id="search-label">Search for:</label>
+		<input type="text" id="s" name="s" value="" accesskey="4"/>
+		<input type="submit" id="searchsubmit" value="Search »"/>
+
+<span id="searchreset" title="Reset Search" class="hidden"></span>
+			<span id="searchload" class="hidden"></span>
+			</div>
+</form>
+
+</div><div id="samsarin-php-1" class="widget spw_widget"> <br>
+
+<ul class="recent-posts">
+			<li><h4>Featured</h4></li>
+			<li>
+
+<li>
+<a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.tumblr.com/">
+					<span style="background-image:url(http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2011/05/paulsorrento.jpg);"><b>&nbsp;</b></span>
+					<h5>Pitchrs &amp; Poets Tumblr</h5>
+				</a>
+			</li>
+				<li>
+				<a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/rbi">
+					<span style="background-image:url(http://web.archive.org/web/20170708033631im_/http://pitchersandpoets.com/wp-content/uploads/2013/10/RBI_WEB-300x292.jpg);"><b>&nbsp;</b></span>
+					<h5>Rogue's Baseball Index</h5>
+				</a>
+			</li>
+			
+			<li>
+				<a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/foamernight">
+					<span style="background-image:url(http://web.archive.org/web/20170708033631im_/http://www.pitchersandpoets.com/foamernight/wp-content/uploads/2011/07/foamer-night-header-590x125.jpg);"><b>&nbsp;</b></span>
+					<h5>Foamer Night</h5>
+				</a>
+			</li>
+			
+		</ul>
+		
+<div id="sidebar-divider">&nbsp;</div> </div><div id="linkcat-3" class="widget widget_links"><h4>Pitches</h4>
+	<ul class="xoxo blogroll">
+<li><a href="http://web.archive.org/web/20170708033631/http://bronxbanterblog.com/">Alex Belth&#039;s Bronx Banter</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://cardboardgods.net/">Cardboard Gods</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://eephusleague.com/">Eephus League</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://flipflopflyball.com/">Flip Flop Flyball</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/foamernight">Foamer Night</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://freedarko.com/">Free Darko</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://ghostrunneronfirst.com/">Ghostrunnner on First</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://yagoc.blogspot.com/">Go Yago</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://jonahkeri.com/">Jonah Keri</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://noiinblog.com/">No I in Blog</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://normaneinsteins.com/">Norman Einstein&#039;s</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://oldtimefamilybaseball.com/">Old Time Family Baseball</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://roguesbaseballindex.com/">Rogue&#039;s Baseball Index</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://sonsofstevegarvey.com/">Sons of Steve Garvey</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://thebaseballchronicle.com/">The Baseball Chronicle</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://sportsshow.comedycentral.com/">The Sports Show Blog</a></li>
+<li><a href="http://web.archive.org/web/20170708033631/http://www.baseballprospectus.com/blog/wezenball/">Wezen-Ball</a></li>
+
+</ul>
+</div>
+<div id="text-453553078" class="widget widget_text">			<div class="textwidget"><div id="sidebar-divider">&nbsp;</div></div>
+		</div><div id="archives-3" class="widget widget_archive"><h4>Archives</h4>		<ul>
+			<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2012/05/">May 2012</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2012/04/">April 2012</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2012/03/">March 2012</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2012/02/">February 2012</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2012/01/">January 2012</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/12/">December 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/11/">November 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/10/">October 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/09/">September 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/08/">August 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/07/">July 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/06/">June 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/05/">May 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/04/">April 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/03/">March 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/02/">February 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2011/01/">January 2011</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/12/">December 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/11/">November 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/10/">October 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/09/">September 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/08/">August 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/07/">July 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/06/">June 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/05/">May 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/04/">April 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/03/">March 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/02/">February 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2010/01/">January 2010</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/12/">December 2009</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/11/">November 2009</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/10/">October 2009</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/09/">September 2009</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/08/">August 2009</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/07/">July 2009</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/06/">June 2009</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/05/">May 2009</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/04/">April 2009</a></li>
+	<li><a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/2009/03/">March 2009</a></li>
+		</ul>
+		</div><div id="text-453553073" class="widget widget_text">			<div class="textwidget"><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "http://web.archive.org/web/20170708033631/https://ssl." : "http://web.archive.org/web/20170708033631/http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+var pageTracker = _gat._getTracker("UA-5870568-4");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</div>
+		</div><div id="text-453553085" class="widget widget_text">			<div class="textwidget"><div id="sidebar-divider">&nbsp;</div></div>
+		</div><div id="text-453553084" class="widget widget_text">			<div class="textwidget"><script type="text/javascript"><!--
+google_ad_client = "pub-9248467154454506";
+/* 160x600, created 3/23/11 */
+google_ad_slot = "3368639945";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+		</div></div> <!-- #sidebar-1 -->
+
+<hr/>
+<div id="sidebar-2" class="secondary">
+</div> <!-- #sidebar-2 -->
+
+<div class="clear"></div>
+
+</div><!-- .content -->
+
+<div class="clear"></div>
+</div> <!-- Close Page -->
+
+<hr/>
+
+<div id="footer">
+	
+	<p class="footerpoweredby">
+		Powered by <a href="http://web.archive.org/web/20170708033631/http://wordpress.org/">WordPress<span class="wp-version">4.7.5</span></a> and <a href="http://web.archive.org/web/20170708033631/http://getk2.com/" title="Loves you like a kitten.">K2<span class="k2-version">1.0-RC7.2</span></a>	</p>
+
+<p class="footerfeedlinks">
+		<a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/feed/">Entries Feed</a> and <a href="http://web.archive.org/web/20170708033631/http://pitchersandpoets.com/comments/feed/">Comments Feed</a>	</p>
+
+<p class="footerstats">
+		45 queries. 0.5880 seconds.	</p>
+</div>
+
+<div style="display:none">
+	</div>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-includes/js/comment-reply.min.js?ver=4.7.5"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201727"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://pitchersandpoets.com/wp-includes/js/wp-embed.min.js?ver=4.7.5"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20170708033631js_/http://stats.wp.com/e-201727.js" async defer></script>
+<script type="text/javascript">
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.4.2',blog:'6962388',post:'3340',tz:'-7',srv:'pitchersandpoets.com'} ]);
+	_stq.push([ 'clickTrackerInit', '6962388', '3340' ]);
+</script>
+
+</body>
+</html> 
+<!--
+     FILE ARCHIVED ON 03:36:31 Jul 08, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:28:10 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.966
+  exclusion.robots: 0.065
+  exclusion.robots.policy: 0.05
+  esindex: 0.014
+  cdx.remote: 230.062
+  LoadShardBlock: 391.655 (3)
+  PetaboxLoader3.datanode: 252.775 (4)
+  PetaboxLoader3.resolve: 350.913 (3)
+  load_resource: 336.221
+-->

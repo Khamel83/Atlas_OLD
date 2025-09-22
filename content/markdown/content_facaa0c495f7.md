@@ -1,0 +1,904 @@
+# Content from http://www.nytimes.com/2011/04/26/science/26planetarium.html?src=dayp&pagewanted=print
+
+*Retrieved: 2025-09-15T11:10:57.298383*
+
+---
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.nytimes.com:80/2011/04/26/science/26planetarium.html?src=dayp","20110429044456","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1304052296");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Supercomputers Help Scientists Dig Deeper, See Farther, Share More - NYTimes.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Computer power is transforming the sciences, giving scientists tools as important to current research as the microscope and telescope were to earlier scientists.">
+<meta name="keywords" content="Supercomputers,Computers and the Internet,Science and Technology,Biotechnology,California Academy of Sciences">
+<meta name="ROBOTS" content="NOARCHIVE">
+<meta name="DISPLAYDATE" content="April 25, 2011">
+<meta name="hdl" content="Supercomputers Help Scientists Dig Deeper, See Farther, Share More">
+<meta name="hdl_p" content="Digging Deeper, Seeing Farther: Supercomputers Alter Science">
+<meta name="byl" content="By JOHN MARKOFF">
+<meta name="lp" content="Computer power is transforming the sciences, giving scientists tools as important to current research as the microscope and telescope were to earlier scientists.">
+<meta name="cre" content="The New York Times">
+<meta name="edt" content="NewYork">
+<meta name="pdate" content="20110425">
+<meta name="ttl" content="">
+<meta name="virtloc" content="">
+<meta name="des" content="Supercomputers;Computers and the Internet;Science and Technology;Biotechnology">
+<meta name="per" content="">
+<meta name="org" content="California Academy of Sciences">
+<meta name="geo" content="">
+<meta name="ticker" content="Apple Incorporated|AAPL|NASDAQ">
+<meta name="misspelling" content="">
+<meta name="dat" content="April 25, 2011">
+<meta name="tom" content="News">
+<meta name="cat" content="">
+<meta name="col" content="">
+<meta name="dsk" content="Science">
+<meta name="articleid" content="1248069721180">
+<meta name="ARTICLE_TEMPLATE_VERSION" content="700">
+<meta name="hdr_img" content="/images/article/header/sect_science.gif">
+<meta name="thumbnail" content="images/2011/04/26/science/26planetarium/26planetarium-thumbStandard.jpg">
+<meta name="thumbnail_height" content="75">
+<meta name="thumbnail_width" content="75">
+<meta name="xlarge" content="">
+<meta name="xlarge_height" content="">
+<meta name="xlarge_width" content="">
+<meta name="sectionfront_jsonp" content="http://json8.nytimes.com/pages/science/index.jsonp">
+<meta name="CG" content="science">
+<meta name="SCG" content="">
+<meta name="PT" content="Article">
+<meta name="PST" content="News">
+<meta name="msapplication-starturl" content="http://www.nytimes.com/">
+<link rel="canonical" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/26/science/26planetarium.html">
+<meta property="og:url" content="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/26/science/26planetarium.html"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="Supercomputers Help Scientists Dig Deeper, See Farther, Share More"/>
+<meta property="og:image" content="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/images/2011/04/26/science/26planetarium/26planetarium-thumbStandard.jpg"/>
+
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20110429044456cs_/http://graphics8.nytimes.com/css/0.1/screen/build/article/2.0/styles.css"><!--[if IE]>
+    <style type="text/css">
+        @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie.css);
+    </style>
+<![endif]-->
+<!--[if IE 6]>
+    <style type="text/css">
+        @import url(http://graphics8.nytimes.com/css/0.1/screen/common/ie6.css);
+    </style>
+<![endif]-->
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/common.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/common/screen/DropDown.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/util/tooltip.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/common/screen/altClickToSearch.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/app/article/upNext.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/article/articleShare.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/article/comments/crnrXHR.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/app/article/articleCommentCount.js"></script>
+</head>
+
+<body>
+
+<a name="top"></a>
+<div id="shell">
+<ul id="memberTools">
+
+<li><a id="memberToolsLogin" href="http://web.archive.org/web/20110429044456/https://myaccount.nytimes.com/auth/login">Log In</a></li>
+            <li><a href="http://web.archive.org/web/20110429044456/https://myaccount.nytimes.com/gst/regi.html">Register Now</a></li>
+
+<li><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+</ul>
+<div class="tabsContainer">
+<ul id="mainTabs" class="tabs">
+<li class="first mainTabHome"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/">Home Page</a></li>
+<li class="mainTabTodaysPaper"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a></li>
+<li class="mainTabVideo"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/video">Video</a></li>
+<li class="mainTabMostPopular"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/mostpopular">Most Popular</a></li>
+<li class="mainTabTimesTopics"><a href="http://web.archive.org/web/20110429044456/http://topics.nytimes.com/top/reference/timestopics">Times Topics</a></li>
+</ul>
+</div>
+<script type="text/javascript">
+window.setTimeout(function() {
+  var login = document.getElementById('memberToolsLogin');
+  if (login) {
+    login.href += "?URI=" + window.location.href;
+  }
+}, 0)
+</script>        <div id="page" class="tabContent active">
+<div class="clearfix" id="masthead">
+
+<div id="searchWidget">
+<div class="inlineSearchControl">
+<form enctype="application/x-www-form-urlencoded" action="http://web.archive.org/web/20110429044456/http://query.nytimes.com/search/sitesearch" method="get" name="searchForm" id="searchForm">
+<input type="hidden" value="full" name="date_select"/>
+<label for="searchQuery">Search All NYTimes.com</label>
+<input type="text" class="text" value="" size="" name="query" id="searchQuery"/>
+<input type="hidden" id="searchAll" name="type" value="nyt"/>
+<input id="searchSubmit" title="Search" width="22" height="19" alt="Search" type="image" src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/images/global/buttons/go.gif">
+</form>
+</div>
+</div>
+<div id="branding">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/"><span id="nytIhtMastheadLogo">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/images/misc/nytlogo152x23.gif" alt="New York Times" id="NYTLogo"/></a>
+</span></a>
+</div>
+
+<h2>
+
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/science/index.html">Science</a>
+</h2>
+
+</div>
+<div class="navigation tabsContainer">
+<ul class="tabs">
+<li id="navWorld" class="first ">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/world/index.html">World</a>
+</li>	<li id="navUs">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>	<li id="navNyregion">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>	<li id="navBusiness">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>	<li id="navTechnology">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>	<li id="navScience" class="selected">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/science/index.html">Science</a>
+<ul class="subNavigation"><li id="subNav_earth"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/science/earth/index.html">Environment</a></li><li id="subNav_space"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/science/space/index.html">Space &amp; Cosmos</a></li></ul></li>	<li id="navHealth">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/health/index.html">Health</a>
+</li>	<li id="navSports">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>	<li id="navOpinion">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>	<li id="navArts">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</li>	<li id="navStyle">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>	<li id="navTravel">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/travel/index.html">Travel</a>
+</li>	<li id="navJobs">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>	<li id="navRealestate">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>	<li id="navAutomobiles">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li></ul>
+</div>
+
+<div class="singleAd" id="TopAd">
+<!-- ADXINFO classification="Leaderboard" campaign="NYT2011-Mktg-Mobile-728x90-ROS"--><script type="text/javascript">
+   var movieWidth = 728;
+   var movieHeight = 90;
+   var altSrc = "http://web.archive.org/web/20110429044456/http://graphics8.nytimes.com/adx/images/ADS/26/23/ad.262353/iPhone_728x90.jpg";
+   var swfFile = "http://web.archive.org/web/20110429044456/http://graphics8.nytimes.com/adx/images/ADS/26/23/ad.262353/iPhone_728x90.swf";
+   var altClickThru = "http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/science&pos=TopAd&sn2=16e693d7/cca000d6&sn1=22a7c278/8d8beaa5&camp=NYT2011-Mktg-Mobile-728x90-ROS&ad=mktg_iPhone_728x90_apr_2011.jpg&goto=http%3A%2F%2Fitunes%2Eapple%2Ecom%2Fapp%2Fnytimes%2Fid284862083%3Fmt%3D8";
+   var swfSrc = swfFile + "?clicktag=" + escape(altClickThru);
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://www.nytimes.com/ads/common/embed3.js">
+</script>
+
+</div>
+
+<div id="main">
+<div class="spanAB wrap closing">
+<div id="abColumn" class="abColumn"><!--open abColumn -->
+<div id="article">
+<!--cur: prev:-->
+<div class="columnGroup first">				
+<h1 class="articleHeadline"><nyt_headline version="1.0" type=" ">Digging Deeper, Seeing Farther: Supercomputers Alter Science</nyt_headline></h1>
+<nyt_byline>    <h6 class="byline">By <a href="http://web.archive.org/web/20110429044456/http://topics.nytimes.com/top/reference/timestopics/people/m/john_markoff/index.html?inline=nyt-per" title="More Articles by John Markoff" class="meta-per">JOHN MARKOFF</a></h6>
+</nyt_byline>
+<h6 class="dateline">Published: April 25, 2011    </h6>
+<script type="text/javascript">
+var articleToolsShareData = {"url":"http:\/\/web.archive.org\/web\/20110429044456\/http:\/\/www.nytimes.com\/2011\/04\/26\/science\/26planetarium.html","headline":"Digging Deeper, Seeing Farther: Supercomputers Alter Science","description":"Computer power is transforming the sciences, giving scientists tools as important to current research as the microscope and telescope were to earlier scientists.","keywords":"Supercomputers,Computers and the Internet,Science and Technology,Biotechnology,California Academy of Sciences","section":"science","sub_section":null,"section_display":"Science","sub_section_display":null,"byline":"By <a href=\"http:\/\/topics.nytimes.com\/top\/reference\/timestopics\/people\/m\/john_markoff\/index.html?inline=nyt-per\" title=\"More Articles by John Markoff\" class=\"meta-per\">JOHN MARKOFF<\/a>","pubdate":"April 25, 2011","passkey":null};
+function getShareURL() {
+    return encodeURIComponent(articleToolsShareData.url);
+}
+function getShareHeadline() {
+    return encodeURIComponent(articleToolsShareData.headline);
+}
+function getShareDescription() {
+    return encodeURIComponent(articleToolsShareData.description);
+}
+function getShareKeywords() {
+    return encodeURIComponent(articleToolsShareData.keywords);
+}
+function getShareSection() {
+    return encodeURIComponent(articleToolsShareData.section);
+}
+function getShareSubSection() {
+	return encodeURIComponent(articleToolsShareData.sub_section);
+}
+function getShareSectionDisplay() {
+    return encodeURIComponent(articleToolsShareData.section_display);
+}
+function getShareSubSectionDisplay() {
+    return encodeURIComponent(articleToolsShareData.sub_section_display);
+}
+function getShareByline() {
+    return encodeURIComponent(articleToolsShareData.byline);
+}
+function getSharePubdate() {
+    return encodeURIComponent(articleToolsShareData.pubdate);
+}
+function getSharePasskey() {
+    return encodeURIComponent(articleToolsShareData.passkey);
+}
+</script>
+<div id="articleToolsTop" class="articleTools">
+<div class="box">
+<div class="inset">
+<ul id="toolsList" class="toolsList wrap">
+<li class="comments"><a onclick="javascript:dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/article comments/view-tools.html','WT.ti','Article Comments View Tools','WT.z_aca','Tools-View','WT.gcom','Com');" href="http://web.archive.org/web/20110429044456/http://community.nytimes.com/comments/www.nytimes.com/2011/04/26/science/26planetarium.html">comments <span id="commentCount"></span></a></li>
+<li class="email">
+
+<a id="emailThis" onclick="s_code_linktrack('Article-Tool-EmailSignIn');" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/auth/login?URI=http://www.nytimes.com/2011/04/26/science/26planetarium.html">Sign In to E-Mail</a>
+</li>
+<li class="print">
+<a href="/web/20110429044456/http://www.nytimes.com/2011/04/26/science/26planetarium.html?src=dayp&amp;pagewanted=print">Print</a>
+</li>
+ <li class="singlePage">
+<a href="/web/20110429044456/http://www.nytimes.com/2011/04/26/science/26planetarium.html?src=dayp&amp;pagewanted=all"> Single Page</a>
+ </li>
+<nyt_reprints_form>
+
+<script name="javascript">
+	function submitCCCForm(){
+		PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');
+		this.document.cccform.submit();
+	}
+	</script>
+<li class="reprints">			<form name="cccform" action="http://web.archive.org/web/20110429044456/https://s100.copyright.com/CommonApp/LoadingApplication.jsp" target="_Icon">
+<input type="hidden" name="Title" value="Digging Deeper, Seeing Farther: Supercomputers Alter Science">
+<input type="hidden" name="Author" value="By JOHN MARKOFF ">
+<input type="hidden" name="ContentID" value="http://www.nytimes.com/2011/04/26/science/26planetarium.html">
+<input type="hidden" name="FormatType" value="default">
+<input type="hidden" name="PublicationDate" value="April 26, 2011">
+<input type="hidden" name="PublisherName" value="The New York Times">
+<input type="hidden" name="Publication" value="nytimes.com">
+<input type="hidden" name="wordCount" value="12">
+</form>
+<a href="#" onclick="submitCCCForm()">Reprints</a>
+</li>	        
+</nyt_reprints_form>
+</ul>
+        </div>
+</div>
+</div>
+<div class="articleBody">
+
+<nyt_text>
+
+<nyt_correction_top>
+</nyt_correction_top>
+    <p>
+SAN FRANCISCO &mdash; Inside a darkened theater a viewer floats in a redwood forest displayed with Imax-like clarity on a cavernous overhead screen.        </p> 
+</div>
+<div class="articleInline runaroundLeft">
+  
+<!--forceinline-->   
+<div class="inlineImage module">
+<div class="image">
+<div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20110429044456/http://www.nytimes.com/imagepages/2011/04/26/science/26planetarium.html','26planetarium_html','width=720,height=563,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
+<a href="javascript:pop_me_up2('http://web.archive.org/web/20110429044456/http://www.nytimes.com/imagepages/2011/04/26/science/26planetarium.html','26planetarium_html','width=720,height=563,scrollbars=yes,toolbars=no,resizable=yes')">
+<img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/images/2011/04/26/science/26planetarium/26planetarium-articleInline.jpg" width="190" height="127" alt="">
+</a>
+</div>
+<h6 class="credit">Jim Wilson/The New York Times</h6>
+<p class="caption"><strong>DUET </strong>"Life: A Cosmic Journey" relies not just on computer animation techniques, but on a wealth of digitized scientific data as well.                            </p>
+</div>
+  
+<div class="columnGroup doubleRule"><div class="story">
+<h3><a href="http://web.archive.org/web/20110429044456/http://video.calacademy.org/details/278">
+Life: A Cosmic Story</a></h3>
+<h6 class="byline">
+</h6>
+<p class="summary">
+A video trailer for the new planetarium show at the California Academy of Sciences.</p>
+</div>
+</div>
+<div class="doubleRule"><h3 class="sectionHeader">RSS Feed</h3>
+<div class="story">
+<div class="refer">
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/services/xml/rss/nyt/Science.xml"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/images/global/icons/rss.gif" width="44" height="16" alt="RSS"/> Get Science News From The New York Times &raquo;</a>
+</div>
+</div>
+
+<!--div class="columnGroup doubleRule">
+ <h3 class="sectionHeader">Facebook</h3>
+  <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fnytimesscience%3Fsk%3Dwall&width=190&colorscheme=light&show_faces=false&stream=false&header=true&height=62"  scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:190px; height:62px;" allowTransparency="true"></iframe></div-->
+</div>  
+<div class="inlineImage module">
+<div class="image">
+<div class="icon enlargeThis"><a href="javascript:pop_me_up2('http://web.archive.org/web/20110429044456/http://www.nytimes.com/imagepages/2011/04/26/science/26planetarium2.html','26planetarium2_html','width=720,height=563,scrollbars=yes,toolbars=no,resizable=yes')">Enlarge This Image</a></div>
+<a href="javascript:pop_me_up2('http://web.archive.org/web/20110429044456/http://www.nytimes.com/imagepages/2011/04/26/science/26planetarium2.html','26planetarium2_html','width=720,height=563,scrollbars=yes,toolbars=no,resizable=yes')">
+<img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/images/2011/04/26/science/26planetarium2/26planetarium2-articleInline.jpg" width="190" height="127" alt="">
+</a>
+</div>
+<h6 class="credit">Jim Wilson/The New York Times</h6>
+<p class="caption">Â The visualization studio in the basement beneath the planetarium.                            </p>
+</div>
+  
+</div>
+<div id="readerscomment" class="inlineLeft"></div>
+<div class="articleBody">
+ <p>
+The hovering sensation gives way to vertigo as the camera dives deeper into the forest, approaches a branch of a giant redwood tree, and then plunges first into a single leaf and then into an individual cell. Inside the cell the scene is evocative of the 1966 science fiction movie &ldquo;<a href="http://web.archive.org/web/20110429044456/http://www.imdb.com/title/tt0060397/">Fantastic Voyage</a>,&rdquo; in which Lilliputian humans in a minuscule capsule take a medical journey through a human body.        </p><p>
+There is an important difference &mdash; &ldquo;<a href="http://web.archive.org/web/20110429044456/http://www.calacademy.org/academy/exhibits/planetarium/life/">Life: A Cosmic Journey</a>,&rdquo; a multimedia presentation now showing at the new Morrison Planetarium here at the California Academy of Sciences, relies not just on computer animation techniques, but on a wealth of digitized scientific data as well.        </p><p>
+The planetarium show is a visually spectacular demonstration of the way computer power is transforming the sciences, giving scientists tools as important to current research as the microscope and telescope were to earlier scientists. Their use accompanies a fundamental change in the material that scientists study. Individual specimens, whether fossils, living organisms or cells, were once the substrate of discovery. Now, to an ever greater extent, researchers work with immense collections of digital data, and the mastery of such mountains of information depends on computing power.        </p><p>
+The physical technology of scientific research is still here &mdash; the new electron microscopes, the telescopes, the particle colliders &mdash; but they are now inseparable from computing power, and it is the computers that let scientists find order and patterns in the raw information that the physical tools gather.        </p><p>
+Computer power not only aids research, it defines the nature of that research: what can be studied, what new questions can be asked, and answered.        </p><p>
+&ldquo;The profound thing is that today all scientific instruments have computing intelligence inside, and that&rsquo;s a huge change,&rdquo; said Larry Smarr, an astrophysicist who is director of the <a href="http://web.archive.org/web/20110429044456/http://www.calit2.net/">California Institute for Telecommunications and Information Technology</a>, or Calit2, a research consortium at the University California, San Diego.        </p><p>
+In the planetarium&rsquo;s first production, &ldquo;Fragile Planet,&rdquo; the viewer was transported through the roof of the Morrison, first appearing to fly in a graceful arc around the <a href="http://web.archive.org/web/20110429044456/http://topics.nytimes.com/top/reference/timestopics/people/p/renzo_piano/index.html?inline=nyt-per" title="More articles about Renzo Piano." class="meta-per">Renzo Piano</a>-designed museum and then quickly out into the solar system to explore the cosmos. Where visual imagery was once projected on the dome of the original Morrison Planetarium using an elaborate home-brew star projector, the new system is powered by three separate parallel computing systems which store so much data that the system is both telescope and microscope. From incomprehensibly small to unimaginably large, the computerized planetarium moves seamlessly over 12 orders of magnitude in the objects it presents. It can shift &ldquo;from subatomic to the large-scale structure of the universe,&rdquo; said Ryan Wyatt, an astronomer who is director of the planetarium.        </p><p>
+It is, said Katy B&ouml;rner, an <a href="http://web.archive.org/web/20110429044456/http://topics.nytimes.com/top/reference/timestopics/organizations/i/indiana_university/index.html?inline=nyt-org" title="More articles about Indiana University" class="meta-org">Indiana University</a> computer scientist who is a specialist in scientific visualization, a &ldquo;macroscope.&rdquo; She uses the word to describe a new class of computer-based scientific instruments to which the new planetarium&rsquo;s virtual and physical machine belongs. These are composite tools, with different kinds of physical presences that have such powerful and flexible software programs that they become a complete scientific workbench that can be reconfigured by mixing and matching aspects of the software to tackle specific research problems.        </p><p>
+The planetarium&rsquo;s macroscope is designed for education, but it could be used for research. Like any macroscope, its essence is its capacity for approaching huge databases in a variety of ways. &ldquo;Macroscopes provide a &lsquo;vision of the whole,&rsquo;&nbsp;&rdquo; Dr. B&ouml;rner wrote in the <a href="http://web.archive.org/web/20110429044456/http://cacm.acm.org/magazines/2011/3/105316-plug-and-play-macroscopes/fulltext">March issue of The Communications of the Association for Computing Machinery</a>, &ldquo;helping us &lsquo;synthesize&rsquo; the related elements and detect patterns, trends and outliers while granting access to myriad details.&rsquo;&nbsp;&rdquo; She said software-based scientific instruments are making it possible to uncover phenomena and processes that in the past have been, &ldquo;too great, slow or complex for the human eye and mind to notice and comprehend.&rdquo;        </p><p>
+Computing is reshaping scientific research in a number of ways, Dr. B&ouml;rner notes. For example, independent scientists have increasingly given way to research teams as cited by scientific papers in the field of high-energy physics that routinely have hundreds or even thousands of authors. It is unsurprising, in a way, since the Web was invented as a collaboration tool for the high-energy physics community at <a href="http://web.archive.org/web/20110429044456/http://topics.nytimes.com/top/reference/timestopics/organizations/c/cern/index.html?inline=nyt-org" title="More articles about CERN." class="meta-org">CERN</a>, the European nuclear research laboratory, in the early 1990s. As a result research teams in all scientific disciplines are increasingly both interdisciplinary and widely distributed geographically.        </p><p>
+So-called Web 2.0 software, with its seamless linking of applications, has made it easier to share research findings, and that in turn has led to an explosion of collaborative efforts. It has also accelerated the range of cross-disciplinary projects as it has become easier to repurpose and combine software-based techniques ranging from analytical tools to utilities for exporting and importing data.        </p><p>
+A macroscope need not be in a single physical location. To take one example, a midday visitor to the lab of Tom DeFanti, a computer graphics specialist, in the Calit2 building in San Diego is greeted by a wall-size array of screens that appears to offer a high-resolution window into a vacant laboratory somewhere else in the world. The distant room is a parallel laboratory at King Abdullah University of Science and Technology, in Thuwal, Saudi Arabia. Four years ago representatives of that university visited Calit2 and initiated a collaboration in which the American scientists helped create a parallel scientific visualization center in Thuwal connected to the Internet by up to 10 gigabits of bandwidth &mdash; enough to share high-resolution imagery and research.        </p><div id="pageLinks"><ul id="pageNumbers"><li> 1 </li><li> <a onclick="s_code_linktrack('Article-MultiPagePageNum2');" title="Page 2" href="/web/20110429044456/http://www.nytimes.com/2011/04/26/science/26planetarium.html?pagewanted=2&amp;src=dayp">2</a> </li></ul><a class="next" onclick="s_code_linktrack('Article-MultiPage-Next');" title="Next Page" href="/web/20110429044456/http://www.nytimes.com/2011/04/26/science/26planetarium.html?pagewanted=2&amp;src=dayp">Next Page &#x00bb;</a></div><nyt_correction_bottom>	<div class="articleCorrection">
+</div>
+</nyt_correction_bottom><nyt_update_bottom>
+</nyt_update_bottom>
+</nyt_text>
+</div>	</div>
+<!--cur: prev:-->
+<div class="columnGroup ">				
+<div class="articleFooter">
+<div class="articleMeta">
+<div class="opposingFloatControl wrap">
+<div class="element1">
+<h6 class="metaFootnote">A version of this article appeared in print on April 26, 2011, on page D1 of the New York edition with the headline: Digging Deeper, Seeing Farther: Supercomputers Alter Science.</h6>
+</div>
+</div>
+</div>
+</div>	</div>
+<!--cur: prev:-->
+<div class="columnGroup last">				
+<div id="articleExtras">
+<div class="expandedToolsRight">
+<div class="articleTools">
+<div class="box">
+<div class="inset">
+<ul id="toolsList" class="toolsList wrap">
+<li class="comments"><a onclick="javascript:dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/article comments/view-tools.html','WT.ti','Article Comments View Tools','WT.z_aca','Tools-View','WT.gcom','Com');" href="http://web.archive.org/web/20110429044456/http://community.nytimes.com/comments/www.nytimes.com/2011/04/26/science/26planetarium.html">comments <span id="commentCount"></span></a></li>
+<li class="email">
+<a id="emailThis" onclick="s_code_linktrack('Article-Tool-EmailSignIn');" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/auth/login?URI=http://www.nytimes.com/2011/04/26/science/26planetarium.html">Sign In to E-Mail</a>
+</li>
+<li class="print">
+<a href="/web/20110429044456/http://www.nytimes.com/2011/04/26/science/26planetarium.html?src=dayp&amp;pagewanted=print">Print</a>
+</li>
+ <li class="singlePage">
+<a href="/web/20110429044456/http://www.nytimes.com/2011/04/26/science/26planetarium.html?src=dayp&amp;pagewanted=all"> Single Page</a>
+ </li>
+<nyt_reprints_form>
+
+<script name="javascript">
+	function submitCCCForm(){
+		PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');
+		this.document.cccform.submit();
+	}
+	</script>
+<li class="reprints">			<a href="#" onclick="submitCCCForm()">Reprints</a>
+</li>	        
+</nyt_reprints_form>
+</ul>
+        </div>
+</div>
+</div>
+<script type="text/javascript">
+writePost();
+</script>
+</div>
+</div>
+
+<div class="singleAd" id="Bottom1">
+<table width="100%" border="0">
+<tr>
+<td><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Bottom1&amp;sn2=dab03287/b521307e&amp;sn1=ca8e388/cbca2908&amp;camp=nyt2011-circ-footer_clickhere-36H9U&amp;ad=051110-footer_clickhere-36H9U&amp;goto=https%3A%2F%2Fwww%2Enytimesathome%2Ecom%2Fhd%2F101%3FSPTR%5FID%3DhdNYT%26MediaCode%3DW16AK%26CMP%3D36H9U"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/ads/circulation/icon-newspaper.jpg" height="27" width="40" alt="Get Home
+Delivery" align="middle" border="0"/><font size="-1" class="nav" color="#000066" align="left">&nbsp;Get 50% Off The New York Times &amp; Free All Digital Access.</font></a>
+
+</td>
+</tr>
+</table>
+</div>
+
+<div class="columnGroup" id="adxSponLink"></div>
+<script language="JavaScript">
+        google_hints="Digging Deeper, Seeing Farther: Supercomputers Alter Science";google_ad_channel="archive, archive_science, archive_Science";
+</script>
+<script language="JavaScript" type="text/javascript">
+    
+    // Sponlink_short
+
+NYTD.GoogleAds.getGoogleAds("AFC", { 
+        google_ad_client:'nytimes_article_var',
+        ad_target_list:'sponLink'
+    });
+</script>
+
+<div class="emailAlertModule module">
+<h5 class="sectionHeaderSm">Get Free E-mail Alerts on These Topics</h5>
+<form action="http://web.archive.org/web/20110429044456/https://myaccount.nytimes.com/mem/tnt.html" method="GET" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="retA" value="http://www.nytimes.com//2011/04/26/science/26planetarium.html">
+<input type="hidden" name="retT" value="Digging Deeper, Seeing Farther: Supercomputers Alter Science">
+<input type="hidden" name="module" value="call">
+<input type="hidden" name="alert_context" value="1">
+<ul class="flush">
+<li>
+<input type="hidden" name="topic1" value="California+Academy+of+Sciences">
+<input type="hidden" name="topic_field1" value="org">
+<a class="inTextReferEmail" href="http://web.archive.org/web/20110429044456/https://myaccount.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=California+Academy+of+Sciences&amp;topic_field1=org&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');" onmousedown="NYTD.relatedSearches.clickHandler(event);">California Academy of Sciences</a>
+</li>
+<li>
+<input type="hidden" name="topic1" value="Supercomputers">
+<input type="hidden" name="topic_field1" value="des">
+<a class="inTextReferEmail" href="http://web.archive.org/web/20110429044456/https://myaccount.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=Supercomputers&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');" onmousedown="NYTD.relatedSearches.clickHandler(event);">Supercomputers</a>
+</li>
+<li>
+<input type="hidden" name="topic1" value="Computers+and+the+Internet">
+<input type="hidden" name="topic_field1" value="des">
+<a class="inTextReferEmail" href="http://web.archive.org/web/20110429044456/https://myaccount.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=Computers+and+the+Internet&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');" onmousedown="NYTD.relatedSearches.clickHandler(event);">Computers and the Internet</a>
+</li>
+<li>
+<input type="hidden" name="topic1" value="Science+and+Technology">
+<input type="hidden" name="topic_field1" value="des">
+<a class="inTextReferEmail" href="http://web.archive.org/web/20110429044456/https://myaccount.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=Science+and+Technology&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');" onmousedown="NYTD.relatedSearches.clickHandler(event);">Science and Technology</a>
+</li>
+</ul>
+</form>
+</div>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/app/article/outbrain.js"></script>	</div>
+</div>
+</div><!--close abColumn -->
+<div class="cColumn">
+
+<div class="columnGroup">
+
+</div>
+<!---->                    <div class="columnGroup first">
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+<div class="singleAd" id="MiddleRight">
+<!-- ADXINFO classification="bigad" campaign="IHT2009-Mktg-336x280-US_ROS-Intl-EE"--><script type="text/javascript">
+   var movieWidth = 336;
+   var movieHeight = 280;
+   var altSrc = "http://web.archive.org/web/20110429044456/http://graphics8.nytimes.com/adx/images/ADS/21/38/ad.213899/IHT2932_336x280.gif";
+   var swfFile = "http://web.archive.org/web/20110429044456/http://graphics8.nytimes.com/adx/images/ADS/21/38/ad.213899/IHT2932_336x280.swf";
+   var altClickThru = "http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/science&pos=MiddleRight&sn2=9c7984dd/28b4708b&sn1=382f23d5/3d4eb9f1&camp=IHT2009-Mktg-336x280-US_ROS-Intl-EE&ad=336x280-GE_ROS-US-EE&goto=http%3A%2F%2Feedition%2Eiht%2Ecom";
+   var swfSrc = swfFile + "?clicktag=" + escape(altClickThru);
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://www.nytimes.com/ads/common/embed3.js">
+</script>
+
+</div>
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+<div class="singleAd" id="Box3">
+<!-- ADXINFO classification="feature_squares" campaign="regilite-P1-TimesLimited-ros"--><iframe title="regilite" src="http://web.archive.org/web/20110429044456if_/http://www.nytimes.com/gst/litesub_insert.html?product=LT&amp;size=336X90" width="336" height="90" marginheight="0" marginwidth="0" frameborder="0" vspace="0" hspace="0" scrolling="no"></iframe> 
+</div>
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+</div>
+<!---->                    <div class="columnGroup ">
+<div id="mostPopWidget" class="doubleRule"></div>
+<script src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/app/recommendations/recommendationsModule.js" type="text/javascript" charset="utf-8"></script>
+</div>
+<!---->                    <div class="columnGroup ">
+
+</div>
+<!---->                    <div class="columnGroup ">
+
+<div class="bigAd" id="Box1">
+<!-- ADXINFO classification="Module" campaign="NYT2011_marketingmodule_Movies"--><!-- MARKETING MODULE -->
+<div style="border:solid #999;border-width:1px;font-family:Arial,sans-serif;text-align:left; width:334px;background:#fff;" class="clearfix wrap">
+  <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=3f837367/a26e1826&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://movies.nytimes.com/2011/04/22/movies/reese-witherspoon-in-water-for-elephants-review.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-PH%26WT.mc_ev=click" target="_blank"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/ads/marketing/mm11/movies_042911.jpg" width="334" height="154" border="0" alt=""></a> 
+  <div style="padding:7px 9px 0;background:#fff">
+      <h2 style="font-size:22px;line-height:24px; margin:0;padding:0 0 4px;"><a style="color:#654352;" target="_blank" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=3f837367/a26e1826&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://movies.nytimes.com/2011/04/22/movies/reese-witherspoon-in-water-for-elephants-review.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-HDR%26WT.mc_ev=click">Reese Witherspoon and a traveling circus</a></h2>
+      <p style="margin:0 0 3px; padding:0;font-size: 11px;"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=3f837367/a26e1826&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://movies.nytimes.com/pages/movies/index.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-URL%26WT.mc_ev=click" target="_blank" style="font-size:11px;margin:3px 0;padding:0;font-family:Arial,sans-serif;  color:#000; text-transform:uppercase;">Also in Movies &raquo;</a></p>
+      <ul style="font-size:12px;margin:0; padding-bottom: 10px; border-bottom:1px solid #ccc;" class="refer">
+        <li style="font-size:12px"><a target="_blank" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=a515450a/19551c6d&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://www.nytimes.com/2011/05/01/movies/women-as-violent-characters-in-movies.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-L1%26WT.mc_ev=click" style="color: #004276">Gosh, sweetie, that's a big gun</a></li>
+        <li style="font-size:12px"><a target="_blank" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=a515450a/19551c6d&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://www.nytimes.com/interactive/2011/04/24/movies/tribeca-film-festival-2011-videos.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-L2%26WT.mc_ev=click" style="color: #004276">The stars of the Tribeca Film Festival</a></li>
+      </ul>
+    </div>
+ 
+ <div style="padding:5px 9px; float:left; width:316px; background:#fff"> <a style="float:left" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=d9b8e3b/d62650e6&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://nytimes.com/%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-LOGO%26WT.mc_ev=click" target="_blank"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/nytimes.gif" alt="nytimes.com" width="116" height="18" border="0"></a><a style="float:right" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Box1&amp;sn2=2130505e/59985100&amp;sn1=3f837367/a26e1826&amp;camp=NYT2011_marketingmodule_Movies&amp;ad=MO-D-I-NYT-MOD-MOD-M199-ROS-0411&amp;goto=http://movies.nytimes.com/pages/movies/index.html%3FWT.mc_id=MO-D-I-NYT-MOD-MOD-M199-ROS-0411-VRT%26WT.mc_ev=click" target="_blank"><img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/ads/marketing/mm09/verticalst/verticals_movies.gif" alt="Movies" width="120" height="18" border="0"></a></div><br clear="all">
+</div>
+  <!-- /MARKETING MODULE -->
+</div>
+
+</div>
+<!---->                    <div class="columnGroup ">
+<!--[TwoColumnAdLeft - Begin] -->
+	<div class="adHeader">
+<h4>
+Advertisements	    </h4>
+</div>
+<div class="cColumn-TextAdsBox">
+	<div class="cColumn-TextAdsLeft">
+<div class="cColumn-TextAd">
+<!-- ADXINFO classification="SiteForADay" campaign="NYT2011-Mktg-TimesLimited-S4D-ROS"--><div style="width:320px; height:60px;">
+
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Right5A&amp;sn2=c6bd8acd/d301d78a&amp;sn1=d6176eb9/3ff0a8c&amp;camp=NYT2011-Mktg-TimesLimited-S4D-ROS&amp;ad=TL-D-I-NYT-AD-S4D-TLP-ROS-0211-NA&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fmarketing%2Ftimeslimited%2F%3FWT%2Emc%5Fid%3DTL%2DD%2DI%2DNYT%2DAD%2DS4D%2DTLP%2DROS%2D0211%2DNA%26WT%2Emc%5Fev%3Dclick" target="_blank"> 
+<img style="float:left; margin-right:10px;" src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/adx/images/ADS/25/86/ad.258614/Times_Limited_86x60.gif" width="86" height="60" border="0" style="vertical-align:text-top;"></a>
+
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Right5A&amp;sn2=c6bd8acd/d301d78a&amp;sn1=d6176eb9/3ff0a8c&amp;camp=NYT2011-Mktg-TimesLimited-S4D-ROS&amp;ad=TL-D-I-NYT-AD-S4D-TLP-ROS-0211-NA&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fmarketing%2Ftimeslimited%2F%3FWT%2Emc%5Fid%3DTL%2DD%2DI%2DNYT%2DAD%2DS4D%2DTLP%2DROS%2D0211%2DNA%26WT%2Emc%5Fev%3Dclick" target="_blank">  <br/> Exclusive offers delivered to your inbox</a>
+</div>
+			</div>
+<div class="cColumn-TextAd">
+			</div>
+<div class="cColumn-TextAd">
+			</div>
+<div class="cColumn-TextAd">
+			</div>
+</div>
+	</div>
+<!--[TwoColumnAdLeft - End] -->
+</div>
+<!---->                    <div class="columnGroup ">
+
+<div class="singleAd" id="Middle5">
+<!-- ADXINFO classification="FeaturedProduct" campaign="NYT2011-Mktg-Mobile-336x79-ROS"--><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/science&amp;pos=Middle5&amp;sn2=18cf2779/180ef2b4&amp;sn1=1512292a/c6cff713&amp;camp=NYT2011-Mktg-Mobile-336x79-ROS&amp;ad=mktg_iPhone_336x79_apr_2011.jpg&amp;goto=http%3A%2F%2Fitunes%2Eapple%2Ecom%2Fapp%2Fnytimes%2Fid284862083%3Fmt%3D8" target="_blank">
+<img src="http://web.archive.org/web/20110429044456im_/http://graphics8.nytimes.com/adx/images/ADS/26/23/ad.262358/iPhone_336x79.jpg" width="336" height="79" border="0"></a>
+
+</div>
+
+</div>
+<!---->                    <div class="columnGroup last">
+
+<div class="singleAd" id="BigAd2">
+<!-- ADXINFO classification="bigad" campaign="Google_2011_ROS_BA"--><div class="clearfix">
+<script language="JavaScript">
+<!--
+if (!window.nyt_google_count) { var nyt_google_count = 0; }
+if ((!window.nyt_google_ad_channel) && (window.google_ad_channel)) { var nyt_google_ad_channel = google_ad_channel; }
+if ((!window.nyt_google_hints) && (window.google_hints)) { var nyt_google_hints = google_hints; }
+if ((!window.nyt_google_contents) && (window.google_contents)) { var nyt_google_contents = google_contents; }
+function ss(w,id) {window.status = w;return true;}function cs(){window.status='';}function ha(a){  pha=document.getElementById(a); nhi=pha.href.indexOf("&nh=");if(nhi < 1) {phb=pha.href+"&nh=1";} pha.href=phb;}function ca(a) {  pha=document.getElementById(a); nci=pha.href.indexOf("&nc=");if(nci < 1) {phb=pha.href+"&nc=1";} pha.href=phb;window.open(document.getElementById(a).href);}function ga(o,e) {if (document.getElementById) {a=o.id.substring(1);p = "";r = "";g = e.target;if (g) {t = g.id;f = g.parentNode;if (f) {p = f.id;h = f.parentNode;if (h)r = h.id;}} else {h = e.srcElement;f = h.parentNode;if (f)p = f.id;t = h.id;}if (t==a || p==a || r==a)return true;pha=document.getElementById(a); nbi=pha.href.indexOf("&nb=");if(nbi < 1) {phb=pha.href+"&nb=1";} pha.href=phb;window.open(document.getElementById(a).href);}}
+ 
+function google_ad_request_done(ads) {
+    var s = '';
+    var i;
+ 
+    if (ads.length == 0) {
+        return;
+    }
+ 
+    if (ads[0].type == "image") {
+        s += '<a href="' + ads[0].url +
+        '" target="_blank" title="go to ' + ads[0].visible_url +
+        '"><img border="0" src="' + ads[0].image_url +
+        '"width="' + ads[0].image_width +
+        '"height="' + ads[0].image_height + '"></a>';
+    } else if (ads[0].type == "flash") {
+        s += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"' +
+        ' codebase="http://web.archive.org/web/20110429044456/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"' +
+        ' WIDTH="' + google_ad.image_width +
+        '" HEIGHT="' + google_ad.image_height + '">' +
+        '<PARAM NAME="movie" VALUE="' + google_ad.image_url + '">' +
+        '<PARAM NAME="quality" VALUE="high">' +
+        '<PARAM NAME="AllowScriptAccess" VALUE="never">' +
+        '<EMBED src="' + google_ad.image_url +
+        '" WIDTH="' + google_ad.image_width +
+        '" HEIGHT="' + google_ad.image_height +
+        '" TYPE="application/x-shockwave-flash"' +
+        ' AllowScriptAccess="never" ' +
+        ' PLUGINSPAGE="http://web.archive.org/web/20110429044456/http://www.macromedia.com/go/getflashplayer"></EMBED></OBJECT>';
+    } else if (ads[0].type == "text") {
+        nyt_google_count += ads.length;
+        google_ad_section_line_height = "14px";
+        google_ad_section_padding_left = "7px";
+        google_title_link_font_size = "12px";
+        google_ad_text_font_size = "11px";
+        google_visible_url_font_size = "10px";
+ 
+        s += '<table width="100%" height="" border="0" cellspacing="0" cellpadding="0" style="text-align:left; width:100%; border-style: solid; border-width: 1px; border-color: #9da3ad" >\n<tr>\n<td style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top"><table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" style="width:100%; height:100%;">\n<tr>\n <td style="background-color:#9da3ad; width:70%; height:20px; padding-top:2px; padding-left:11px; padding-bottom:2px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="70%" height="20" bgcolor="#9da3ad" ><span style="font-size: 12px; font-weight: normal; color:#ffffff;" >Ads by Google</span></td>\n<td style="padding-top:2px; padding-bottom:2px; width:30%; height:20px; align:right; background-color:#9da3ad; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" width="30%" height="20" align="right" bgcolor="#9da3ad" ><span><a style="font-family:Arial,Helvetica,sans-serif; color: white; font-size:12px; padding-right:7px;" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" onclick="window.open(\'\',\'popupad\',\'left=100,top=100,width=390,height=390,resizable,scrollbars=no\')" target="popupad">what\'s this?</a></span></td>\n</tr>\n</table>\n</td>\n</tr>\n<tr>\n<td style="height:110px; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333;" valign="top" height="110"><table height="100%" width="100%" cellpadding="4" cellspacing="0" border="0" bgcolor="#f8f8f9" style="height:100%; width:100%; padding:4px; background-color:#f8f8f9;">\n';
+        for (i = 0; i < ads.length; ++i) {
+            s += '<tr>\n<td style="cursor:pointer; cursor:hand; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#333333; background-color:#f8f8f9;" id="taw' + i + '" valign="middle" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onMouseOver="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()" onClick="ga(this,event)"><div style="line-height:' + google_ad_section_line_height + '; padding-left:' + google_ad_section_padding_left + '; padding-bottom:5px;" ><a id="aw' + i + '" href="' + ads[i].url + '" target="_blank" style="font-size:' + google_title_link_font_size + '; color:#000066; font-weight:bold; text-decoration:underline;" onFocus="ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')" onClick="ha(\'aw' + i + '\')" onMouseOver="return ss(\'go to ' + ads[i].visible_url + '\',\'aw' + i + '\')"  onMouseOut="cs()">' + ads[i].line1 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-family:Arial,Helvetica,sans-serif; font-size:' + google_ad_text_font_size + ';color:#333333;text-decoration:none;">' + ads[i].line2 + ' ' + ads[i].line3 + '</a><br>\n<a href="' + ads[i].url + '" target="_blank" style="font-size:' + google_visible_url_font_size + '; color:#000066; font-weight:normal; text-decoration:none;">' + ads[i].visible_url + '</a></div>\n</td>\n</tr>\n';
+        }
+        s += '</table>\n</td>\n</tr>\n</table>';
+    }
+    document.write(s);
+    return;
+}
+google_ad_client = 'ca-nytimes_display_html';
+google_ad_channel = 'ROS_big_ad';
+google_ad_output = 'js';
+google_max_num_ads = '6';
+google_ad_type = 'text, image, flash';
+google_image_size = '336x280';
+google_safe = 'high';
+google_targeting = 'site_content';
+if (window.nyt_google_contents) { google_contents = nyt_google_contents; }
+else if (window.nyt_google_hints) { google_hints = nyt_google_hints; }
+// -->
+</script>
+<script language="JavaScript" src="http://web.archive.org/web/20110429044456js_/http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+
+<div style="font-family: Arial; font-size: 10px; color:#004276; float: right; margin-right: 9px;"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.whsites.net/mediakit/">Advertise on NYTimes.com</a></div></div>
+
+</div>
+
+</div>
+<div class="columnGroup">
+
+<div id="adxSponLinkA"></div>
+<script language="JavaScript" type="text/javascript">
+    // Sponlink_A_Short
+
+if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
+     NYTD.GoogleAds.getGoogleAds("AFC", { 
+        google_ad_client:'nytimes_article_var',
+        ad_target_list:'sponLinkA'
+     });
+
+</script>
+
+</div>
+
+</div>
+</div><!--close spanAB -->
+
+<!-- start MOTH -->
+  	<div id="insideNYTimes" class="doubleRule">
+            <script type="text/javascript" src="http://web.archive.org/web/20110429044456js_/http://js.nyt.com/js/app/moth/moth.js"></script>
+        <div id="insideNYTimesHeader">
+                    <div class="navigation"><span id="leftArrow"><img id="mothReverse" src="http://web.archive.org/web/20110429044456im_/http://i1.nyt.com/images/global/buttons/moth_reverse.gif"/></span>&nbsp;<span id="rightArrow"><img id="mothForward" src="http://web.archive.org/web/20110429044456im_/http://i1.nyt.com/images/global/buttons/moth_forward.gif"/></span></div>
+                <h4>
+            Inside NYTimes.com        </h4>
+    </div>
+    
+        
+    <div id="insideNYTimesScrollWrapper">
+        <table id="insideNYTimesBrowser" cellspacing="0">
+            <tbody>
+                <tr>
+                                                <td class="first">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/national/index.html">U.S. &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/us/28cursive.html"><img src="http://web.archive.org/web/20110429044456im_/http://i1.nyt.com/images/2011/04/28/us/28moth_cursive/28moth_cursive-moth.jpg" alt="The Case for Cursive" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/us/28cursive.html">The Case for Cursive</a></h6>
+        </div>
+    </td>
+                                                <td>
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/style/index.html">Style &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/fashion/28ROW.html"><img src="http://web.archive.org/web/20110429044456im_/http://i1.nyt.com/images/2011/04/28/style/28moth-row/28moth-row-moth.jpg" alt="Now Appearing, Real Daphne" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/fashion/28ROW.html">Now Appearing, Real Daphne</a></h6>
+        </div>
+    </td>
+                                                    <td>
+            <div class="story">
+                <h6 class="kicker"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/opinion/index.html">Opinion &raquo;</a></h6>
+                <h3><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/opinion/28esty.html">Op-Ed: Pain at the Pump? We Need More</a></h3>
+                <p class="summary">An emission charge would help tackle the deficit and climate change, while enhancing national security.</p>
+            </div>
+        </td>
+                                                <td>
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/travel/index.html">Travel &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20110429044456/http://travel.nytimes.com/2011/05/01/travel/01pracbudget.html"><img src="http://web.archive.org/web/20110429044456im_/http://i1.nyt.com/images/2011/04/28/travel/28prac-moth/28prac-moth-moth.jpg" alt="Budget Airlines Zoom Between Small Cities" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20110429044456/http://travel.nytimes.com/2011/05/01/travel/01pracbudget.html">Budget Airlines Zoom Between Small Cities</a></h6>
+        </div>
+    </td>
+                                                    <td>
+            <div class="story">
+                <h6 class="kicker"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/opinion/index.html">Opinion &raquo;</a></h6>
+                <h3><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/roomfordebate/2011/04/27/jobs-inflation-and-what-bernanke-said">Did Bernanke Come Clean?</a></h3>
+                <p class="summary">A Room for Debate forum on whether the Fed chairman offers clear answers about jobs and inflation.</p>
+            </div>
+        </td>
+                                                <td>
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/garden/index.html">Home &amp; Garden &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/garden/28moby.html"><img src="http://web.archive.org/web/20110429044456im_/http://i1.nyt.com/images/2011/04/28/garden/28moby_moth/28moby_moth-moth.jpg" alt="A Castle for Moby, the King of Techno" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/garden/28moby.html">A Castle for Moby, the King of Techno</a></h6>
+        </div>
+    </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/garden/index.html">Home &amp; Garden &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/garden/28kips.html"><span class="img" src="http://i1.nyt.com/images/2011/04/28/garden/28kips_moth/28kips_moth-moth.jpg" alt="Kips Bay Decorated, and Curated" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/garden/28kips.html">Kips Bay Decorated, and Curated</a></h6>
+        </div>
+    </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/fashion/index.html">Fashion &amp; Style &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/fashion/28baddogs.html"><span class="img" src="http://i1.nyt.com/images/2011/04/28/fashion/28moth-baddogs/28moth-baddogs-moth.jpg" alt="Civility on the Way Out? Add Dogs to That List" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/fashion/28baddogs.html">Civility on the Way Out? Add Dogs to That List</a></h6>
+        </div>
+    </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/books/index.html">Books &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/books/arthur-phillipss-tragedy-of-arthur-book-review.html"><span class="img" src="http://i1.nyt.com/images/2011/04/28/books/28moth_book/28moth_book-moth.jpg" alt="Fake Memoir With Bogus Shakespeare" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/04/28/books/arthur-phillipss-tragedy-of-arthur-book-review.html">Fake Memoir With Bogus Shakespeare</a></h6>
+        </div>
+    </td>
+                                                    <td class="hidden">
+            <div class="story">
+                <h6 class="kicker"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/opinion/index.html">Opinion &raquo;</a></h6>
+                <h3><a href="http://web.archive.org/web/20110429044456/http://opinionator.blogs.nytimes.com/2011/04/27/royal-wedding-what-royal-wedding/">Brooks/Collins: What Royal Wedding?</a></h3>
+                <p class="summary">The Op-Ed columnists on the excitement surrounding the union of Prince William and Kate Middleton.</p>
+            </div>
+        </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/magazine/index.html">Magazine &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/05/01/magazine/mag-01Torrisi-t.html"><span class="img" src="http://i1.nyt.com/images/2011/05/02/magazine/28moth-torrisi/28moth-torrisi-moth.jpg" alt="Cooking Up a Big Idea in Little Italy" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/2011/05/01/magazine/mag-01Torrisi-t.html">Cooking Up a Big Idea in Little Italy</a></h6>
+        </div>
+    </td>
+                                                <td class="hidden">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/opinion/index.html">Opinion &raquo;</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://web.archive.org/web/20110429044456/http://opinionator.blogs.nytimes.com/2011/04/27/just-dont-connect/"><span class="img" src="http://i1.nyt.com/images/2011/04/28/opinion/28moth_townies/28moth_townies-moth.jpg" alt="Townies: Just Don?t Connect" width="151" height="151"/></a>
+            </div>
+            <h6 class="headline"><a href="http://web.archive.org/web/20110429044456/http://opinionator.blogs.nytimes.com/2011/04/27/just-dont-connect/">Townies: Just Don&rsquo;t Connect</a></h6>
+        </div>
+    </td>
+                                    </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    </div><!-- end #insideNYTimes -->
+
+</div><!--close main -->
+<div id="footer">
+<ul class="first">
+<li class="first"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/">Home</a></li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/world/index.html">World</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/science/index.html">Science</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/health/index.html">Health</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/travel/index.html">Travel</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>
+<li>
+<a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li>
+<li><a href="http://web.archive.org/web/20110429044456/http://spiderbites.nytimes.com/">Site Map</a></li>
+</ul>    <ul>
+<li class="first"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/ref/membercenter/help/copyright.html">&copy; 2011</a> <a href="http://web.archive.org/web/20110429044456/http://www.nytco.com/">The New York Times Company</a></li>
+<li><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/privacy">Privacy</a></li>
+<li><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/ref/membercenter/help/privacy.html#pp">Your Ad Choices</a></li>
+<li><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/ref/membercenter/help/agree.html">Terms of Service</a></li>
+<li class="termsOfSale"><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html">Terms of Sale</a></li>
+<li><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/corrections.html">Corrections</a></li>
+<li><a class="rssButton" href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/rss">RSS</a></li>
+<li><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+<li><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+<li><a href="http://web.archive.org/web/20110429044456/http://www.nytco.com/careers">Work for Us</a></li>
+<li><a href="http://web.archive.org/web/20110429044456/http://www.nytimes.whsites.net/mediakit/">Advertise</a></li>
+</ul>
+</div>
+</div><!--close page -->
+</div><!--close shell -->
+<img src="/web/20110429044456im_/http://www.nytimes.com/adx/bin/clientside/59a47199Q2FQ24PQ3BD(Q2AQ2BD-Q3B6BQ60(Q25yyYQ3BzzQ2BQ27y" height="1" width="3">
+
+</body>
+
+<!-- Start UPT call -->
+		<img height="1" width="3" border="0" src="http://web.archive.org/web/20110429044456im_/http://up.nytimes.com/?d=0/21/&amp;t=2&amp;s=0&amp;ui=0&amp;r=&amp;u=www%2enytimes%2ecom%2f2011%2f04%2f26%2fscience%2f26planetarium%2ehtml%3fsrc%3ddayp">
+		<!-- End UPT call -->
+	
+		
+        <script language="JavaScript"><!--
+          var dcsvid="0";
+          var regstatus="non-registered";
+        //--></script>
+        <script src="http://web.archive.org/web/20110429044456js_/http://graphics8.nytimes.com/js/app/analytics/trackingTags_v1.1.js" type="text/javascript"></script>
+        <noscript>
+          <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://web.archive.org/web/20110429044456im_/http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div>
+        </noscript>
+
+</html>
+
+<!--
+     FILE ARCHIVED ON 04:44:56 Apr 29, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:10:57 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 2.689
+  exclusion.robots: 0.038
+  exclusion.robots.policy: 0.023
+  esindex: 0.013
+  cdx.remote: 233.119
+  LoadShardBlock: 863.345 (3)
+  PetaboxLoader3.datanode: 845.823 (4)
+  PetaboxLoader3.resolve: 576.98 (2)
+  load_resource: 726.739
+-->

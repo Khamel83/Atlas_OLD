@@ -1,0 +1,621 @@
+# Content from https://sociology.berkeley.edu/faculty/claude-s-fischer
+
+*Retrieved: 2025-09-15T06:47:30.940408*
+
+---
+
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta about="/faculty/claude-s-fischer" property="schema:name" content="Claude S. Fischer" lang="" />
+<link rel="icon" href="/sites/all/themes/soc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://sociology.berkeley.edu/faculty/claude-s-fischer" />
+<link rel="shortlink" href="https://sociology.berkeley.edu/user/492" />
+
+<title>Claude S. Fischer | UC Berkeley Sociology Department</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?t2hf2x" />
+<link rel="stylesheet" media="all" href="/sites/all/themes/soc/css/style.css?t2hf2x" />
+
+</head>
+  <body class="path-user has-glyphicons">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <div id="mobile-nav-container"></div>
+    <div id="page-container">
+      
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+
+<header class="navbar navbar-default" id="navbar" role="banner">
+      <div class="top-user-navigation-wrapper">
+        <div class="container">
+          
+        </div>
+      </div>
+      <!--
+      <div class="mid-header-wrapper">
+        <div class="container">
+          
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                  </div>
+      </div> -->
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <a id="logo-link" href="/"><img alt="UC Berkeley Sociology Logo" title="Sociology" id="logo" src="/sites/all/themes/soc/logo.svg"/></a>
+          
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                    <div class="menu-wrapper">
+                          <div id="navbar-collapse" class="navbar-collapse collapse">
+                  <div class="region region-navigation-collapsible">
+    <nav role="navigation" aria-labelledby="block-menu-block-main-menu" id="block-menu-block-main">
+            
+  <h2 class="visually-hidden" id="block-menu-block-main-menu">Main menu</h2>
+
+<ul class="menu menu--main nav">
+                      <li class="expanded dropdown first">
+                                                                    <a href="/resources" data-drupal-link-system-path="node/15828">About</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/diversity-equity-and-inclusion" title="DIVERSITY, EQUITY AND INCLUSION" data-drupal-link-system-path="node/16571">Values</a>
+              </li>
+                      <li>
+                                        <a href="/resources/contact-us" data-drupal-link-system-path="resources/contact-us">Contact Us</a>
+              </li>
+                      <li>
+                                        <a href="/resources/department-sociology-payment-reimbursement-forms" title="Page that provides various departmental business forms for staff faculty and gsi use." data-drupal-link-system-path="node/6124">Business Office</a>
+              </li>
+                      <li>
+                                        <a href="/resources/syllabi-main-page" title="main page to choose what semester syllabi to view.It is recommended this list be kept to 2 previous years.Remove syllabus pages from system after they are 2 years old. People who need a copy of an older syllabus can contact the main office for a cop" data-drupal-link-system-path="node/15742">Syllabi</a>
+              </li>
+                      <li>
+                                        <a href="/resources/sociology-meeting-rooms" data-drupal-link-system-path="node/15829">Room Reservations</a>
+              </li>
+                      <li class="last">
+                                        <a href="https://docs.google.com/a/berkeley.edu/forms/d/17DHLi5v2lw3h4ETvdKTd3TTjm6bVCQ8jWQW4QCqKYas/viewform?c=0&amp;w=1" title="">Key Requests</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="expanded dropdown active active-trail">
+                                                                    <a href="/people/faculty" title="People" class="active-trail" data-drupal-link-system-path="people/faculty">People</a>
+                        <ul class="dropdown-menu">
+                      <li class="expanded dropdown first">
+                                        <a href="/people/faculty" data-drupal-link-system-path="people/faculty">Faculty</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/people/faculty" data-drupal-link-system-path="people/faculty">Faculty</a>
+              </li>
+                      <li>
+                                        <a href="/people/affiliated-faculty" data-drupal-link-system-path="people/affiliated-faculty">Affiliated Faculty</a>
+              </li>
+                      <li>
+                                        <a href="/people/emeritus-faculty" data-drupal-link-system-path="people/emeritus-faculty">Emeritus Faculty</a>
+              </li>
+                      <li>
+                                        <a href="/people/visiting-faculty" data-drupal-link-system-path="people/visiting-faculty">Lecturers</a>
+              </li>
+                      <li class="last">
+                                        <a href="/people/research-faculty" data-drupal-link-system-path="people/research-faculty">Research Faculty</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li>
+                                        <a href="/people/staff" data-drupal-link-system-path="people/staff">Staff</a>
+              </li>
+                      <li>
+                                        <a href="/people/graduate-students" data-drupal-link-system-path="people/graduate-students">Graduate Students</a>
+              </li>
+                      <li>
+                                        <a href="/people/graduate-students-on-the-market" data-drupal-link-system-path="people/graduate-students-on-the-market">Graduate Students on the Job Market</a>
+              </li>
+                      <li class="expanded dropdown last">
+                                        <a href="/people/alumni" data-drupal-link-system-path="node/15006">Alumni</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/people/alumni/a-to-z" data-drupal-link-system-path="people/alumni/a-to-z">Alumni A-Z</a>
+              </li>
+                      <li class="last">
+                                        <a href="/people/alumni/book" data-drupal-link-system-path="people/alumni/book">Alumni Book</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="expanded dropdown">
+                                                                    <a href="/graduate-program-sociology" data-drupal-link-system-path="node/108">Graduate Program</a>
+                        <ul class="dropdown-menu">
+                      <li class="expanded dropdown first">
+                                        <a href="/graduate-program-sociology">Additional Information</a>
+                        <ul class="dropdown-menu">
+                      <li class="first last">
+                                        <a href="/books-dissertations" data-drupal-link-system-path="node/6123">Books from Dissertations</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="expanded dropdown">
+                                        <a href="/current-students" data-drupal-link-system-path="node/16037">Current Students</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/academic-handbook-and-forms" data-drupal-link-system-path="node/6093">Academic Handbook and Forms</a>
+              </li>
+                      <li>
+                                        <a href="/berkeley-sociology-faculty-organized-research-units-oru-affiliations" data-drupal-link-system-path="node/16134">Berkeley Sociology Faculty Organized Research Units (ORU) Affiliations</a>
+              </li>
+                      <li>
+                                        <a href="/graduate-advising" data-drupal-link-system-path="node/6094">Graduate Advising</a>
+              </li>
+                      <li>
+                                        <a href="/graduate-student-workshops" data-drupal-link-system-path="node/16079">Graduate Student Workshops</a>
+              </li>
+                      <li>
+                                        <a href="/instructors-guide-writing-sociology" data-drupal-link-system-path="node/16033">Instructor&#039;s Guide to Writing for Sociology</a>
+              </li>
+                      <li>
+                                        <a href="/job-market-workshop" data-drupal-link-system-path="node/15807">Job Market Workshop</a>
+              </li>
+                      <li>
+                                        <a href="/student-initiatives-soca-and-bjs" data-drupal-link-system-path="node/16039">Student Initiatives: SoCA and BJS</a>
+              </li>
+                      <li>
+                                        <a href="/people/graduate-students" data-drupal-link-system-path="people/graduate-students">Graduate Student List</a>
+              </li>
+                      <li class="last">
+                                        <a href="https://drive.google.com/drive/folders/1kI6HcaeXqbYrqgde-SynanWLpdCsM5N3">Graduate Student Wiki</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li>
+                                        <a href="/resources/faculty-office-hours" data-drupal-link-system-path="resources/faculty-office-hours">Faculty Office Hours</a>
+              </li>
+                      <li class="expanded dropdown">
+                                        <a href="/prospective-students" data-drupal-link-system-path="node/16038">Prospective Students</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/admissions-information-graduate-program" data-drupal-link-system-path="node/6113">Admissions Information for Graduate Program</a>
+              </li>
+                      <li>
+                                        <a href="/faq-admissions" data-drupal-link-system-path="node/6111">FAQ for Admissions</a>
+              </li>
+                      <li>
+                                        <a href="/financial-aid-prospectives" data-drupal-link-system-path="node/6114">Financial Aid for Prospectives</a>
+              </li>
+                      <li>
+                                        <a href="/graduate-application-process" data-drupal-link-system-path="node/139">Graduate Application Process</a>
+              </li>
+                      <li class="last">
+                                        <a href="https://grad.berkeley.edu/admissions/requirements/#evidence-of-english-language-proficiency">Prospective International Students</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li>
+                                        <a href="/graduate-course-descriptions" data-drupal-link-system-path="node/6121">Graduate Courses</a>
+              </li>
+                      <li class="last">
+                                        <a href="https://sociology.berkeley.edu/student-technical-support" title="IT help for students">Tech Support Links</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="expanded dropdown">
+                                                                    <a href="/undergraduate-program" data-drupal-link-system-path="node/6095">Undergraduate Program</a>
+                        <ul class="dropdown-menu">
+                      <li class="expanded dropdown first">
+                                        <a href="/new-admits-info" data-drupal-link-system-path="node/16306">New Junior Transfer Admits</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/new-admits-info" data-drupal-link-system-path="node/16306">1. Welcome</a>
+              </li>
+                      <li>
+                                        <a href="/2-advisers" data-drupal-link-system-path="node/16307">2. Advisers</a>
+              </li>
+                      <li>
+                                        <a href="/3-requirements-how-declare-sociology" data-drupal-link-system-path="node/16308">3. Requirements &amp; How to declare Sociology</a>
+              </li>
+                      <li>
+                                        <a href="/4-schedule-planning" data-drupal-link-system-path="node/16311">4. Schedule Planning</a>
+              </li>
+                      <li class="last">
+                                        <a href="/5-resources" data-drupal-link-system-path="node/16312">5. Resources</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="expanded dropdown">
+                                        <a href="/major" data-drupal-link-system-path="node/16034">The Major</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/faq" data-drupal-link-system-path="node/6128">FAQ</a>
+              </li>
+                      <li>
+                                        <a href="/declaring-major" data-drupal-link-system-path="node/6099">Declaring the Major</a>
+              </li>
+                      <li>
+                                        <a href="/major-requirements" data-drupal-link-system-path="node/6097">Major Requirements</a>
+              </li>
+                      <li>
+                                        <a href="/department-policies" data-drupal-link-system-path="node/6106">Department Policies</a>
+              </li>
+                      <li>
+                                        <a href="/important-forms" data-drupal-link-system-path="node/6107">Soc Newsletter Archives</a>
+              </li>
+                      <li>
+                                        <a href="/plan-study" data-drupal-link-system-path="node/16129">Plan of Study</a>
+              </li>
+                      <li>
+                                        <a href="/undergraduate-student-learning-goals" data-drupal-link-system-path="node/6105">Undergraduate Student Learning Goals</a>
+              </li>
+                      <li class="last">
+                                        <a href="/research-methods-concentration" data-drupal-link-system-path="node/16626">Research Methods Concentration</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li>
+                                        <a href="/resources/faculty-office-hours" data-drupal-link-system-path="resources/faculty-office-hours">Faculty Office Hours</a>
+              </li>
+                      <li>
+                                        <a href="/resources/gsi-office-hours" data-drupal-link-system-path="resources/gsi-office-hours">GSI Office Hours</a>
+              </li>
+                      <li class="expanded dropdown">
+                                        <a href="/course-descriptions" title="undergrad CD link" data-drupal-link-system-path="node/6109">Undergraduate Courses</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/enrollment-tips-cal-central" data-drupal-link-system-path="node/6100">Enrollment Tips for Cal Central</a>
+              </li>
+                      <li class="last">
+                                        <a href="/special-enrollment-procedures-seminars-other-sociology-courses" data-drupal-link-system-path="node/6110">Special Enrollment Procedures for Seminars &amp; Other Sociology Courses</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="expanded dropdown">
+                                        <a href="/undergraduate-resources" data-drupal-link-system-path="node/16036">Resources</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/advising" data-drupal-link-system-path="node/6125">Advising</a>
+              </li>
+                      <li>
+                                        <a href="/honors-opportunities" data-drupal-link-system-path="node/6108">Honors Opportunities</a>
+              </li>
+                      <li>
+                                        <a href="/research-opportunities-potential-funding" data-drupal-link-system-path="node/15694">Research Opportunities &amp; Potential Funding</a>
+              </li>
+                      <li>
+                                        <a href="/student-organizations" data-drupal-link-system-path="node/15691">Student Organizations</a>
+              </li>
+                      <li>
+                                        <a href="/study-abroad-opportunities-through-dept-sociology" data-drupal-link-system-path="node/15996">Study Abroad Opportunities through the Dept. of Sociology</a>
+              </li>
+                      <li>
+                                        <a href="/undergraduate-writing-resources" data-drupal-link-system-path="node/6129">Undergraduate Writing Resources</a>
+              </li>
+                      <li>
+                                        <a href="/what-can-i-do-sociology-major" data-drupal-link-system-path="node/6096">What Can I Do With a Sociology Major?</a>
+              </li>
+                      <li class="last">
+                                        <a href="/research-opportunities-potential-funding" data-drupal-link-system-path="node/15694">Research Opportunities</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li>
+                                        <a href="https://berkeleyconnect.berkeley.edu/finding-connection/participating-departments/sociology">Berkeley Connect</a>
+              </li>
+                      <li class="last">
+                                        <a href="https://sociology.berkeley.edu/student-technical-support" title="IT help for students">Tech Support Links</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li class="expanded dropdown">
+                                                                    <a href="/news-and-events" title="News &amp; Events" data-drupal-link-system-path="news-and-events">News, Events, and Initiatives</a>
+                        <ul class="dropdown-menu">
+                      <li class="first">
+                                        <a href="/news-and-events" data-drupal-link-system-path="news-and-events">News</a>
+              </li>
+                      <li>
+                                        <a href="/colloquia" data-drupal-link-system-path="colloquia">Sociology Department Colloquia</a>
+              </li>
+                      <li>
+                                        <a href="/publications" data-drupal-link-system-path="publications">Publications</a>
+              </li>
+                      <li>
+                                        <a href="https://berkeleypublicsociology.com/">Public Sociology</a>
+              </li>
+                      <li class="last">
+                                        <a href="https://sociology.berkeley.edu/campus-wide-commencement-information">2025 Commencement</a>
+              </li>
+        </ul>
+  
+              </li>
+                      <li>
+                                        <a href="https://classes.berkeley.edu/" title="Courses">Courses</a>
+              </li>
+                      <li class="last">
+                                        <a href="https://sociology.berkeley.edu/make-gift-sociology">Donate</a>
+              </li>
+        </ul>
+
+</nav>
+
+</div>
+
+</div>
+                      </div>
+        </div>
+      </div>
+    </header>
+  
+<div class="banner-header">
+        
+          <div class="region region-banner-header">
+
+<section id="block-block-content-e6fa077c-a663-46b2-bcad-762fab748eb7" class="block block-banner-header block-block-content block-block-contente6fa077c-a663-46b2-bcad-762fab748eb7 clearfix" style="background-image:url(/sites/default/files/2019-04/PEOPLE.jpg)" role="region" aria-label="Site Section Name">
+    <h2 class="banner-title" role="presentation">
+    <p>People</p>
+
+</h2>
+</section>
+
+</div>
+
+</div>
+
+<div role="main" class="main-container container js-quickedit-main-content">
+      <div class="row">
+
+<section class="col-sm-12">
+
+<div class="highlighted">  <div class="region region-highlighted">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+</div>
+</div>
+                      
+                    
+                                              <div class="header-main" role="heading" aria-level="1">
+                  <div class="region region-header">
+        <h1 class="page-header">Claude S. Fischer</h1>
+
+</div>
+
+</div>
+                                <div class="clearfix"></div>
+                                <a id="main-content"></a>
+              <div class="region region-content">
+      <article typeof="schema:Person" about="/faculty/claude-s-fischer">
+  
+<div  class="node_top">
+    
+<div  class="node_top_image">
+    
+            <div class="field field--name-user-picture field--type-image field--label-hidden field--item">  <img loading="lazy" src="/sites/default/files/user/Claude%20S.%20Fischer-492/Claude%20S.%20Fischer-picture.jpg" width="823" height="1024" alt="Claude S. Fischer" typeof="foaf:Image" class="img-responsive" />
+
+</div>
+      
+  </div>
+<div  class="node_top_copy">
+    
+<div  class="node_top_copy_top">
+    <h1 class="page--title">Claude S. Fischer</h1>
+            <div class="field field--name-field-academic-title field--type-string field--label-hidden field--item">Distinguished Professor of the Graduate School</div>
+      
+  </div>
+<div  class="node_top_copy_top_2 user_top_details">
+    
+  <div class="field field--name-field-mywebsite field--type-link field--label-visually_hidden">
+    <div class="field--label sr-only">Web Site</div>
+              <div class="field--item"><a href="https://madeinamericathebook.wordpress.com/">https://madeinamericathebook.wordpress.com/</a></div>
+          </div>
+
+<div class="field field--name-field-location field--type-string field--label-visually_hidden">
+    <div class="field--label sr-only">Office</div>
+              <div class="field--item">444 Social Sciences Building</div>
+          </div>
+
+<div class="field field--name-field-cv field--type-file field--label-visually_hidden">
+    <div class="field--label sr-only">Curriculum Vitae</div>
+              <div class="field--item"><span class="file file--mime-application-pdf file--application-pdf icon-before"><span class="file-icon"><span class="icon glyphicon glyphicon-file text-primary" aria-hidden="true"></span></span><span class="file-link"><a href="https://sociology.berkeley.edu/sites/default/files/user/claude-s-fischer-492/claude-s-fischer-cv_2.pdf" type="application/pdf; length=371671" title="Open file in new window" target="_blank" data-toggle="tooltip" data-placement="bottom">Curriculum Vitae</a></span><span class="file-size">362.96 KB</span></span></div>
+          </div>
+
+</div>
+  <div class="field field--name-field-special field--type-string field--label-above">
+    <div class="field--label">Research Interests</div>
+              <div class="field--item">Personal networks, American social history, technology, social psychology, urban</div>
+          </div>
+
+</div>
+  </div>
+            <div class="field field--name-field-profile field--type-text-long field--label-hidden field--item"><p>1972 Ph.D., Sociology, Harvard University<br>1970 M.A., Sociology, Harvard University<br>1968 B.A., Sociology, University of California, Los Angeles</p>
+<p><strong>Claude S. Fischer </strong>is Distinguished Professor of the Graduate School. He arrived at Berkeley in 1972 with an undergraduate degree from UCLA and a Ph.D. from Harvard. Most of his early research focused on the social psychology of urban life—how and why rural and urban experiences differ (<em>The Urban Experience</em>, 1976;1984)—and on social networks, both coming together in <em>To Dwell Among Friends: Personal Networks in Town and City</em> (1982). He has worked on the history of technology with a study of the early telephone's place in social life, <em>America Calling: A Social History of the Telephone to 1940 </em>(1992); inequality, writing with five Berkeley colleagues <em>Inequality by Design: Cracking the Bell Curve Myth</em> (1996); a demographic-historical book with Michael Hout, <em>Century of Difference: How America Changed in the Last One Hundred Years</em> (2006), which describes the shrinking of old divisions and the widening of new ones over the 20th century; an overview of American history, <em>Made in America: A Social History of American Culture and Character</em> (2010); and personal ties, <em>Still Connected: Family and Friends in America Since 1970</em> (2011)--whether and how Americans' networks changed over four decades. A volume of Fischer's columns in the <em>Boston Review</em> appeared as <em>Lurching Toward Happiness in America </em>(2014)<em>. </em>Fischer's most recent research project, funded by the National Institute of Aging, was a six-year panel study of how personal ties and networks change as individuals experience life events. Several papers from that project have appeared and more are in progress.</p>
+<p>Fischer taught undergraduate and graduate courses in urban sociology, research methods, personality and social structure, social psychology, and American society, and seminars on topics ranging from professional writing to the sociology of consumption.</p>
+<p>Fischer was the founding editor of <em>Contexts</em>, the American Sociological Association's magazine of sociology for the general reader, 2001 through 2004. In 1996, he won the Robert and Helen Lynd Award for lifetime contributions to urban studies. In 2011, he was elected to the American Academy of Arts and Sciences, in 2015 as David Riesman Fellow of the American Academy of Political and Social Science, and in 2017 to the American Philosophical Society.</p>
+<p>Fischer blogs at <em>Made in America</em>&nbsp;(<a href="http://madeinamericathebook.wordpress.com/">http://madeinamericathebook.wordpress.com/</a>).</p>
+<ul class="menu clearfix">
+<li class="leaf"><a href="http://sociology.berkeley.edu/user" title>Login</a></li>
+</ul>
+</div>
+      
+  <div class="field field--name-field-facultypublications field--type-text-long field--label-above">
+    <div class="field--label">Representative Publications</div>
+              <div class="field--item"><p align="center">&nbsp;</p>
+<p align="center"><strong><u>Books</u></strong></p>
+<p align="center"><em>In Press.</em> &nbsp;Bidart, Favre, Fischer, et al., <em>Personal Networks over the Life Course: Dynamic Perspectives</em>. Oxford University Press.</p>
+<p><img src="/sites/default/files/inline-images/Cover%20of%20Lurching.jpg" data-entity-uuid="dbaee025-152a-4c69-a45d-61d817d64397" data-entity-type="file" alt="Lurching Toward Happiness in America book cover" width="56" height="92" class="align-left" loading="lazy"></p>
+<p align="center">&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<em>2014&nbsp; </em><a href="http://mitpress.mit.edu/books/lurching-toward-happiness-america"><em>Lurching Toward Happiness in America</em></a><em>.&nbsp; </em>Boston Review / MIT Press. (<a href="http://www.amazon.com/Lurching-Toward-Happiness-America-Boston/dp/0262028247/">Amazon</a>)</p>
+<p>&nbsp;</p>
+<ul>
+<li><em><img style="border-style:solid;border-width:1px;margin-left:5px;margin-right:5px;" src="/sites/default/files/faculty/fischer/fischer_book1.jpg" alt="Still Connected: Family and Friends in America Since 1970 book cover" width="60" height="90" loading="lazy">2011 </em><a href="https://www.russellsage.org/publications/still-connected"><em>Still Connected: Family and Friends in America Since 1970</em></a>. Russell Sage Foundation. (<a href="http://www.amazon.com/Still-Connected-Family-Friends-America/dp/087154332X/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1293493884&amp;sr=8-1">Amazon</a>)</li>
+<li><img style="border-style:solid;border-width:1px;margin-left:5px;margin-right:5px;" src="/sites/default/files/faculty/fischer/fischer_book2.jpeg" alt="Made in America: A Social History of American Culture and Character book cover" width="60" height="88" loading="lazy">2010 <em>Made in America: A Social History of American Culture and Character</em>. University of Chicago Press. (<a href="http://www.amazon.com/Made-America-History-American-Character/dp/0226251438/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1263440965&amp;sr=1-1">Amazon</a>)</li>
+<li><img style="border-style:solid;border-width:1px;margin-left:5px;margin-right:5px;" src="/sites/default/files/faculty/fischer/fischer_book3.jpg" alt="Century of Difference: How America Changed in the Last One Hundred Years book cover" width="60" height="90" loading="lazy">2006<a href="http://www.amazon.com/Century-Difference-America-Changed-Hundred/dp/0871543524/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1213247359&amp;sr=8-1"> <em>Century of Difference: How America Changed in the Last One Hundred Years</em></a> (with Hout). Russell Sage Foundation.
+<ul>
+<li>Working papers and supplementary materials for the "Century of Difference" link was broken so removed.</li>
+<li>Supplementary appendices to <em>Century of Difference</em> can be found <a href="https://sociology.berkeley.edu/sites/default/files/faculty/fischer/append/Fischer-Hout_Ch%205_Supplement%20Figure.pdf">https://sociology.berkeley.edu/sites/default/files/faculty/fischer/append/Fischer-Hout_Ch%205_Supplement%20Figure.pdf</a> and <a href="https://sociology.berkeley.edu/sites/default/files/faculty/fischer/append/Fischer-Hout_Ch7_On-Line%20Appendices.pdf">https://sociology.berkeley.edu/sites/default/files/faculty/fischer/append/Fischer-Hout_Ch7_On-Line%20Appendices.pdf.</a></li>
+</ul>
+</li>
+<li><img style="border-style:solid;border-width:1px;margin-left:5px;margin-right:5px;" src="/sites/default/files/faculty/fischer/fischer_book4.jpg" alt="Inequality by Design: Cracking the Bell Curve Myth book cover" width="60" height="90" loading="lazy">1996 <a href="http://press.princeton.edu/titles/5877.html"><em>Inequality by Design: Cracking the Bell Curve Myth</em></a> (with Hout, Lucas, Sanchez-Jankowski, Swidler and Voss). Princeton University Press</li>
+<li><img style="border-style:solid;border-width:1px;margin-left:5px;margin-right:5px;" src="/sites/default/files/faculty/fischer/fischer_book5.jpg" alt="America Calling: A Social History of the Telephone to 1940 book cover" width="60" height="90" loading="lazy">1992 <em>America Calling: A Social History of the Telephone to 1940</em>. University of California Press.</li>
+<li><img style="border-style:solid;border-width:1px;margin-left:5px;margin-right:5px;" src="/sites/default/files/faculty/fischer/fischer_book6.jpg" alt="The Urban Experience book cover" width="60" height="90" loading="lazy">1984 <a href="http://www.amazon.com/gp/offer-listing/0155934988/ref=dp_olp_2?ie=UTF8&amp;qid=1213247558&amp;sr=8-1"><em>The Urban Experience</em></a>. Second edition. Harcourt Brace Jovanovich (Cengage).</li>
+<li><img style="border-style:solid;border-width:1px;margin-left:5px;margin-right:5px;" src="/sites/default/files/faculty/fischer/fischer_book7.jpg" alt="To Dwell Among Friends: Personal Networks in Town and City book cover" width="60" height="101" loading="lazy">1982 <em>To Dwell Among Friends: Personal Networks in Town and City</em>. University of Chicago Press.</li>
+<li>1977 <a href="http://www.amazon.com/gp/offer-listing/0029102405/ref=dp_olp_0?ie=UTF8&amp;qid=1213247851&amp;sr=1-1&amp;condition=all"><em>Networks and Places: Social Relations in the Urban Setting</em></a> (with Jackson, Stueve, Gerson, Jones, and Baldassare). Free Press.</li>
+<li>1975 <a href="http://www.amazon.com/gp/offer-listing/0134446208/ref=dp_olp_0?ie=UTF8&amp;qid=1213247958&amp;sr=1-2&amp;condition=all"><em>Human Aggression and Conflict</em></a> (with Scherer and Abeles). Englewood Cliffs, N.J.: Prentice Hall.</li>
+</ul>
+<p align="center"><strong>Selected 21st-Century Academic Papers</strong></p>
+<ul>
+<li>In Press, Offer, Fischer, and Lee, “The Gears in Network Dynamics: The Alter-Trajectory Approach,” <em>Social Networks</em>.</li>
+<li>2022 &nbsp; Ruppell, Child, Fischer, and Botchway, “Distinct Aspects of Human Connection Associated with Subjective Well-Being.” <em>Social Science &amp; Medicine – Mental Health</em> 2, 10043. https://www.sciencedirect.com/science/article/pii/S2666560322000834.</li>
+<li>2022&nbsp;&nbsp; Offer and Fischer, “How New is ‘New’? Who Gets Added in a Panel Study of Personal Networks?”<em> Social Networks</em> 70:284-94. https://doi.org/10.1016/j.socnet.2022.02.011 .</li>
+<li>2022 &nbsp; Fischer and Durham, "Forms of Group Involvement: Alternatives to the Standard Question." <em>Sociological Perspectives</em>&nbsp;65:4: 661-683. https://doi.org/10.1177/07311214211046561 . (<a href="/sites/default/files/faculty/fischer/Fischer%20%26%20Durham_Forms_Soc%20Persp_2021_SUPPL.docx">Online Supplement here</a>.)</li>
+<li>2021&nbsp;&nbsp; "From the Northern California Community Study, 1977-78, to UCNets, 2015-20." In M. Small, et al (eds.) <em>Personal Networks: Classic Readings and New Directions in Ego-Centric Analysis</em>. New York: Cambridge University Press.</li>
+<li>2020&nbsp; &nbsp;“Of Modernity and Public Sociology: Reflections on a Career So Far.” <em>Annual Review of Sociology</em> 46:19-35.&nbsp;https://doi.org/10.1146/annurev-soc-110419-023001.</li>
+<li>2020&nbsp; &nbsp;Fischer and Offer, “Who is Dropped and Why? Methodological and Substantive Accounts for Network Loss.” <em>Social Networks</em> (May) 61:70-86. https://doi.org/10.1016/j.socnet.2019.08.008.</li>
+<li>2019 &nbsp; Fischer and Bayham, "Mode and Interviewer Effects in Egocentric Network Research," <em>Field Methods</em>.&nbsp;31(3): 195-213. https://doi.org/10.1177/1525822X19861321.</li>
+<li>2018 &nbsp; Offer and Fischer, “Difficult People: Who is Perceived to be Demanding in Personal Networks and Why Are They There?,”<em> American Sociological Review</em>&nbsp;83 (1): 111-142. http://journals.sagepub.com/doi/abs/10.1177/0003122417737951</li>
+<li>2014&nbsp;&nbsp;&nbsp; Hout and Fischer, “<a href="http://www.sociologicalscience.com/articles-vol1-24-423/">Explaining Why More Americans Have No Religious Preference: Political Backlash and Generational Succession, 1987-2012</a>.” <em>Sociological Science</em> 1 (October). DOI: 10.15195/v1.a24.</li>
+<li>2009&nbsp;&nbsp;&nbsp;&nbsp; Fischer and Mattison, "Is America Fragmenting?" <em>Annual Review of Sociology</em> 35: 435-55 (with Mattson).--- can be accessed <a href="https://www.annualreviews.org/doi/full/10.1146/annurev-soc-070308-115909">https://www.annualreviews.org/doi/full/10.1146/annurev-soc-070308-115909</a>.</li>
+<li>2008 &nbsp; &nbsp;&nbsp; <a href="/sites/default/files/faculty/fischer/Fischer_Paradoxes%20of%20Individualism_2008.pdf" target="_blank">"Paradoxes of American Individualism."</a> <em>Sociological Forum</em> 23 (June): 363-72.</li>
+<li>2005 &nbsp; &nbsp;&nbsp; <a href="/sites/default/files/faculty/fischer/Bowling%20Alone%20-%20What%27s%20the%20Score_Soc%20Net_2005.pdf" target="_blank">"Bowling Alone: What's the Score?"</a> <em>Social Networks</em> 27 (May):155-67</li>
+<li>2002&nbsp;&nbsp;&nbsp;&nbsp; Hout and Fischer, <a href="/sites/default/files/faculty/fischer/HoutFischer_No%20Religious%20Pref.pdf" target="_blank">"Explaining the Rise of Americans with No Religious Preference: Politics and Generation"</a>&nbsp; <em>American Sociological Review</em> 67 (April):165-90.</li>
+<li>2002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/sites/default/files/faculty/fischer/Fischer-Ever%20More%20Rooted.pdf" target="_blank">"Ever More Rooted Americans."</a> <em>City &amp; Community</em> 1(June): 175-94.</li>
+</ul>
+</div>
+          </div>
+</article>
+
+</div>
+
+</section>
+
+</div>
+    </div>
+
+<footer class="footer" role="contentinfo">
+      <div class="container">
+          <div class="region region-footer">
+    <section id="block-block-content-715ed171-b1b0-4652-876e-816ccafcfe57" class="block block-block-content block-block-content715ed171-b1b0-4652-876e-816ccafcfe57 clearfix">
+
+<div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="left">
+<h3>UC Berkeley Sociology Department</h3>
+
+<div class="col">410 Social Sciences Building<br>
+Berkeley<br>
+CA 94720-1980</div>
+
+<div class="col">Tel: (510) 642-4766<br>
+</div>
+
+<div class="right">
+<div class="text">© Copyright 2019 UC Regents.</div>
+
+<div class="footer-logo"><a class="ucb-logo" href="https://www.berkeley.edu/" target="_BLANK"><img alt="Home" data-entity-type data-entity-uuid src="/sites/all/themes/soc/images/footerLogo.svg" style="width: 167px;"></a></div>
+</div>
+</div></div>
+      
+  </section>
+
+<nav role="navigation" aria-labelledby="block-menu-block-menu-footer-menus-menu" id="block-menu-block-menu-footer-menus">
+            
+  <h2 class="visually-hidden" id="block-menu-block-menu-footer-menus-menu">Footer Menus</h2>
+
+<ul class="menu menu--menu-footer-menus nav">
+                      <li class="first">
+                                        <a href="/graduate-program-sociology" title="" data-drupal-link-system-path="node/108">Graduate Program</a>
+              </li>
+                      <li>
+                                        <a href="/undergraduate-program" title="" data-drupal-link-system-path="node/6095">Undergraduate Program</a>
+              </li>
+                      <li>
+                                        <a href="/user/login" data-drupal-link-system-path="user/login">Login</a>
+              </li>
+                      <li>
+                                        <a href="http://berkeley.edu" title="">UC Berkeley Homepage</a>
+              </li>
+                      <li>
+                                        <a href="https://dap.berkeley.edu/get-help/report-web-accessibility-issue" title="UC accessibility policy">Accessibility</a>
+              </li>
+                      <li>
+                                        <a href="https://ophd.berkeley.edu/policies-and-procedures/nondiscrimination-policy-statement" title="UC Nondiscrimination policy">Nondiscrimination</a>
+              </li>
+                      <li class="last">
+                                        <a href="https://sociology.berkeley.edu/website-privacy-information" title="WebSite data privacy policy">Privacy</a>
+              </li>
+        </ul>
+
+</nav>
+
+</div>
+
+</div>
+    </footer>
+  
+  </div>
+
+</div>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"user\/492","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"node_top_image","id":"","element":"div","show_label":false,"label_element":"h3","label_element_classes":"","attributes":"","effect":"none","speed":"fast"}}},"user":{"uid":0,"permissionsHash":"c79ffcf76230bc0236d3c0c8f38d34ccb29e4bd770bd8b3fcec89e8f7220f8b3"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.7"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.5.3"></script>
+<script src="/core/misc/drupal.js?v=10.5.3"></script>
+<script src="/core/misc/drupal.init.js?v=10.5.3"></script>
+<script src="/sites/all/themes/soc/js/scripts.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/js/mobile-menu.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/affix.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/alert.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/button.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/carousel.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/collapse.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/dropdown.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/modal.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/tooltip.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/popover.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/scrollspy.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/tab.js?t2hf2x"></script>
+<script src="/sites/all/themes/soc/bootstrap/js/transition.js?t2hf2x"></script>
+<script src="/sites/all/themes/bootstrap/js/drupal.bootstrap.js?t2hf2x"></script>
+<script src="/sites/all/themes/bootstrap/js/attributes.js?t2hf2x"></script>
+<script src="/sites/all/themes/bootstrap/js/theme.js?t2hf2x"></script>
+<script src="/sites/all/themes/bootstrap/js/popover.js?t2hf2x"></script>
+<script src="/sites/all/themes/bootstrap/js/tooltip.js?t2hf2x"></script>
+<script src="/core/misc/debounce.js?v=10.5.3"></script>
+
+<script async src="https://siteimproveanalytics.com/js/siteanalyze_6294756.js"></script>
+  </body>
+</html>

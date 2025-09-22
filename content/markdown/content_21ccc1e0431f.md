@@ -1,0 +1,1073 @@
+# Content from http://www.frugaltravelguy.com/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html
+
+*Retrieved: 2025-09-15T06:14:35.900921*
+
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=FC38Hc5A" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.frugaltravelguy.com:80/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html","20160901075711","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1472716631");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>An Overview of What You Need to Know When Going on Your First Safari Adventure  |  Frugal Travel Guy</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no">
+        <link rel="shortcut icon" href="/web/20160901075711im_/http://www.frugaltravelguy.com/favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="/web/20160901075711im_/http://www.frugaltravelguy.com/favicon.ico" type="image/x-icon"/>
+
+<link href="//web.archive.org/web/20160901075711cs_/http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900,500" rel="stylesheet" type="text/css">        
+        
+                <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-ui-1.11.4/themes/flick/jquery-ui.min.css"/>
+                
+        <link rel="stylesheet" href="//web.archive.org/web/20160901075711cs_/http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">        
+        <link href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/css/all.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/style.css"/>
+
+<link rel="alternate" type="application/rss+xml" title="Frugal Travel Guy » An Overview of What You Need to Know When Going on Your First Safari Adventure Comments Feed" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html/feed"/>
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/web.archive.org\/web\/20160901075711\/https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/web.archive.org\/web\/20160901075711\/http:\/\/www.frugaltravelguy.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="advpsStyleSheet-css" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/plugins/ftg-advanced-post-slider/advps-style.css?ver=4.5.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-polls-css" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.63" type="text/css" media="all"/>
+<link rel="stylesheet" id="single-style-css" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/css/single.css?ver=4.5.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="easy_table_style-css" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/plugins/easy-table/easy-table-style.css?ver=0.4" type="text/css" media="all"/>
+<link rel="stylesheet" id="wppb_stylesheet-css" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/plugins/profile-builder-hobbyist/assets/css/front.end.css?ver=4.5.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-pagenavi-css" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70" type="text/css" media="all"/>
+<script type="text/javascript">
+/* <![CDATA[ */
+var append_link = {"read_more":"Read more at:","prepend_break":"2","use_title":"true","add_site_name":"true","site_name":"Frugal Travel Guy","site_url":"http:\/\/web.archive.org\/web\/20160901075711\/http:\/\/www.frugaltravelguy.com","always_link_site":"false","page_title":"An Overview of What You Need to Know When Going on Your First Safari Adventure"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/plugins/append-link-on-copy/js/append_link.js?ver=4.5.3"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var gglcptch_vars = {"nonce":"58a49d402d"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/plugins/google-captcha/js/script.js?ver=4.5.3"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var exctAjax = {"ajaxurl":"http:\/\/web.archive.org\/web\/20160901075711\/https:\/\/www.frugaltravelguy.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/exct_subscription.js?ver=4.5.3"></script>
+<link rel="https://api.w.org/" href="http://www.frugaltravelguy.com/wp-json/"/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.frugaltravelguy.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.frugaltravelguy.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="prev" title="Spending a Full Day In South Africa’s Wine Country" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/south-africa-wine-country-bettys-bay-stellenbosch-franschhoek.html"/>
+<link rel="next" title="Alaska Airlines Drastically Changes Their Mileage Plans, Increases First Class Award Travel Prices" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/alaska-airlines-drastically-changes-their-mileage-plans-increases-first-class-award-travel-prices.html"/>
+<link rel="canonical" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html"/>
+<link rel="shortlink" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/?p=55695"/>
+<link rel="alternate" type="application/json+oembed" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.frugaltravelguy.com%2F2016%2F04%2Fan-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html"/>
+<link rel="alternate" type="text/xml+oembed" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.frugaltravelguy.com%2F2016%2F04%2Fan-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html&amp;format=xml"/>
+	<script type="text/javascript">
+		var dateFormatVar = "mm/dd/yy";
+	</script>
+
+<!--Plugin WP Missed Schedule 2011.0920.2011 Active--><style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+                
+        <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-1.11.1.min.js"></script>
+        
+                <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" media="all" href="http://web.archive.org/web/20160901075711cs_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/css/ftg-responsive.css"/>
+
+<script type="text/javascript">
+        var my_theme_url="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew";
+        </script>
+
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/startscript/livevalidation.js"></script>
+        <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquerymx-3.2.custom.min.js?t=2016-09-01"></script>
+        <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/mobile-main.js?t=2016-09-01"></script>
+        <script type="text/javascript" src="//web.archive.org/web/20160901075711js_/http://s7.addthis.com/js/250/addthis_widget.js#username=manders@internetbrands.com"></script>
+        <script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/jquery.main.js?t=2016-09-01"></script>        
+        
+                
+                
+		<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//web.archive.org/web/20160901075711/http://www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-7661666-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+        <script>
+            if (matchMedia && window.matchMedia('(min-device-width: 320px) and (max-device-width: 480px)').matches) {
+            	document.cookie = 'smartPhone=1; path=/';
+            }
+        </script>
+    </head>
+          
+<!--[if lt IE 7 ]>   <body class="ie6">          <![endif]-->
+<!--[if IE 7 ]>      <body class="ie7">          <![endif]-->
+<!--[if IE 8 ]>      <body class="ie8">          <![endif]-->
+<!--[if IE 9 ]>      <body class="ie9">          <![endif]-->
+<!--[if (gt IE 9) ]> <body class="modern">       <![endif]-->
+<!--[!(IE)]><!-->    <body class="notIE modern an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure  "> <!--<![endif]-->
+<script type="text/javascript">
+  var _kiq = _kiq || [];
+  (function(){
+    setTimeout(function(){
+    var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+    s.async = true; s.src = '//web.archive.org/web/20160901075711/http://s3.amazonaws.com/ki.js/38969/cQO.js'; f.parentNode.insertBefore(s, f);
+    }, 1);
+  })();
+</script>
+
+<div id="wrapper" class="1">          
+            <div id="header-wrapper">
+                <div id="header">
+                    <div class="header-inner">
+                        <div class="flt-rt mobile_only2">
+                                                                <div class="mobile-ad-disclosure" id="link-advertiser-disclosure" href="#disclosure">Advertiser Disclosure</div>
+                                                    </div>
+                        <a href="#" class="show_hide flt-lt"> 
+                            <i id="ftg-toggle-left" class="fa fa-bars fa-2x pull-left"></i>
+                            <i id="ftg-toggle-left-compressed" class="fa fa-bars fa-2x pull-left"></i>
+                        </a>                      
+                        <div class="clear"></div>
+                    </div>
+                    <div id="logo-holder">
+                        <a id="site-logo" class="desktop_only" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/">
+                            <img alt="Frugal Travel Guy" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/logo.png"/>
+                        </a>
+                        <a id="site-logo" class="mobile_only2" data-ajax="false" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/">
+                            <img alt="Frugal Travel Guy" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/>
+                        </a>                        
+                        <a id="site-logo-compress" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/"><img alt="Frugal Travel Guy" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/compressed-logo.png"/></a>                     
+                    </div>
+                    <div class="flt-rt mobile-profile"><!-- mobile_only2 -->
+                        <i id="ftg-toggle-right" class="fa fa-2x pull-right"></i>
+                    </div>
+
+<div id="nav-holder">
+                        <div>
+                                                        <div class="user-credentials">			<div id="btn-advertiser-disclosure" href="#disclosure"></div>		</div>                                                                                    			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                                    </div>
+
+<div id="main-unli" class="desktop_only">
+                                <ul id="nav" class="main-menu"><li id="menu-item-34940" class="colorOrange menu-item menu-item-type-custom menu-item-object-custom menu-item-34940"><a href="/web/20160901075711/http://www.frugaltravelguy.com/wallet"><span>Wallet</span></a></li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-42"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/frugal-travel-guy-top-travel-deals"><span>Top Travel Deals</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-44681" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44681"><a href="/web/20160901075711/http://www.frugaltravelguy.com/ricks-top-travel-deals"><span>Top Travel Deals</span></a></li>
+	<li id="menu-item-47146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47146"><a href="/web/20160901075711/http://www.frugaltravelguy.com/the-best-credit-cards"><span>This Month&#8217;s Best Credit Cards</span></a></li>
+	<li id="menu-item-44682" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44682"><a href="/web/20160901075711/http://www.frugaltravelguy.com/the-best-travel-credit-card"><span>Best Travel Credit Card</span></a></li>
+	<li id="menu-item-44683" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44683"><a href="/web/20160901075711/http://www.frugaltravelguy.com/the-best-airline-credit-card"><span>Best Airline Credit Card</span></a></li>
+	<li id="menu-item-44684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44684"><a href="/web/20160901075711/http://www.frugaltravelguy.com/the-best-hotel-credit-card"><span>Best Hotel Credit Card</span></a></li>
+	<li id="menu-item-3100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3100"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/how-to-travel-frugally/fare-wars"><span>Fare Wars</span></a></li>
+	<li id="menu-item-3099" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3099"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/how-to-travel-frugally/mistake-fares"><span>Mistake Fares</span></a></li>
+	<li id="menu-item-3097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3097"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/how-to-travel-frugally/best-rate-guarantee"><span>Best Rate Guarantee</span></a></li>
+</ul>
+</li>
+<li id="menu-item-39610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39610"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards"><span>Rewards Cards</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-39600" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39600"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/airline-cards"><span>Airline Cards</span></a></li>
+	<li id="menu-item-39602" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39602"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/hotel-cards"><span>Hotel Cards</span></a></li>
+	<li id="menu-item-39603" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39603"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/bank-cards"><span>Bank Rewards Cards</span></a></li>
+	<li id="menu-item-39604" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39604"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/business-cards"><span>Business Cards</span></a></li>
+	<li id="menu-item-3216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3216"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/credit-cards/low-minimum-spend-credit-cards"><span>Low Spend Cards</span></a></li>
+	<li id="menu-item-39599" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39599"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/cash-back-cards"><span>Cash Back Cards</span></a></li>
+</ul>
+</li>
+<li id="menu-item-34939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-34939"><a href="/web/20160901075711/http://www.frugaltravelguy.com/rookie-tips-and-faq"><span>Rookie Guide</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-3036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3036"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rookie-tips-and-faq"><span>Rookie FAQ</span></a></li>
+	<li id="menu-item-44685" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44685"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/01/frugal-travel-guy-rookie-guide-set-your-goals.html"><span>Set Your Goals</span></a></li>
+	<li id="menu-item-44686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44686"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/01/frugal-travel-guy-rookie-guide-points-miles-and-credits.html"><span>Points, Miles and Credit</span></a></li>
+	<li id="menu-item-44687" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44687"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/01/frugal-travel-guy-rookie-guide-how-your-good-credit-can-help-you-travel-for-free.html"><span>How Your Good Credit Can Help You Travel for Free</span></a></li>
+	<li id="menu-item-44688" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44688"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-airlines-and-airline-alliances.html"><span>Airlines and Alliances</span></a></li>
+	<li id="menu-item-44689" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44689"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-hotel-brands-programs.html"><span>Hotels and Programs</span></a></li>
+	<li id="menu-item-44690" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44690"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-program-partnerships.html"><span>Program Partnerships</span></a></li>
+	<li id="menu-item-44691" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44691"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-saving-with-travel-consolidators.html"><span>Saving With Consolidators</span></a></li>
+	<li id="menu-item-44692" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44692"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-double-triple-bonuses-with-online-shopping-portals.html"><span>Double/Triple Bonuses</span></a></li>
+	<li id="menu-item-44693" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44693"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-tracking-your-points-and-miles.html"><span>Keeping Track of Rewards</span></a></li>
+	<li id="menu-item-44694" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44694"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/03/frugal-travel-guy-rookie-guide-review-your-travel-goals.html"><span>Review Your Goals</span></a></li>
+</ul>
+</li>
+<li id="menu-item-21372" class="arrow-down menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21372"><a href="/web/20160901075711/http://www.frugaltravelguy.com/category/features/travel-challenge-features"><span>More</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-21374" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21374"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/category/features/travel-challenge-features"><span>Travel Challenge</span></a></li>
+	<li id="menu-item-44695" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44695"><a href="/web/20160901075711/http://www.frugaltravelguy.com/category/features/success-stories-features"><span>Success Stories</span></a></li>
+</ul>
+</li>
+<li id="menu-item-54172" class="search-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-54172"><a href="#search-box"><span> </span></a></li>
+<li id="menu-item-54171" class="profile-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-54171"><a href="#profile-box"><span> </span></a>
+<ul class="sub-menu">
+	<li id="menu-item-35567" class="unli menu-item menu-item-type-post_type menu-item-object-page menu-item-35567"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/register"><span>Create an Account</span></a></li>
+	<li id="menu-item-35563" class="unli menu-item menu-item-type-post_type menu-item-object-page menu-item-35563"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/login"><span>Login</span></a></li>
+</ul>
+</li>
+</ul>                            </div>
+                            <div id="main-unli" class="slidingDiv">
+                                <ul id="nav" class="main-menu"><li class="colorOrange menu-item menu-item-type-custom menu-item-object-custom menu-item-34940"><a href="/web/20160901075711/http://www.frugaltravelguy.com/wallet"><span>Wallet</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-42"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/frugal-travel-guy-top-travel-deals"><span>Top Travel Deals</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44681"><a href="/web/20160901075711/http://www.frugaltravelguy.com/ricks-top-travel-deals"><span>Top Travel Deals</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-47146"><a href="/web/20160901075711/http://www.frugaltravelguy.com/the-best-credit-cards"><span>This Month&#8217;s Best Credit Cards</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44682"><a href="/web/20160901075711/http://www.frugaltravelguy.com/the-best-travel-credit-card"><span>Best Travel Credit Card</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44683"><a href="/web/20160901075711/http://www.frugaltravelguy.com/the-best-airline-credit-card"><span>Best Airline Credit Card</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44684"><a href="/web/20160901075711/http://www.frugaltravelguy.com/the-best-hotel-credit-card"><span>Best Hotel Credit Card</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3100"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/how-to-travel-frugally/fare-wars"><span>Fare Wars</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3099"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/how-to-travel-frugally/mistake-fares"><span>Mistake Fares</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3097"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/how-to-travel-frugally/best-rate-guarantee"><span>Best Rate Guarantee</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39610"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards"><span>Rewards Cards</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39600"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/airline-cards"><span>Airline Cards</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39602"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/hotel-cards"><span>Hotel Cards</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39603"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/bank-cards"><span>Bank Rewards Cards</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39604"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/business-cards"><span>Business Cards</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3216"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/credit-cards/low-minimum-spend-credit-cards"><span>Low Spend Cards</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39599"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rewards-cards/cash-back-cards"><span>Cash Back Cards</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-34939"><a href="/web/20160901075711/http://www.frugaltravelguy.com/rookie-tips-and-faq"><span>Rookie Guide</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3036"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rookie-tips-and-faq"><span>Rookie FAQ</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44685"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/01/frugal-travel-guy-rookie-guide-set-your-goals.html"><span>Set Your Goals</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44686"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/01/frugal-travel-guy-rookie-guide-points-miles-and-credits.html"><span>Points, Miles and Credit</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44687"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/01/frugal-travel-guy-rookie-guide-how-your-good-credit-can-help-you-travel-for-free.html"><span>How Your Good Credit Can Help You Travel for Free</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44688"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-airlines-and-airline-alliances.html"><span>Airlines and Alliances</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44689"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-hotel-brands-programs.html"><span>Hotels and Programs</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44690"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-program-partnerships.html"><span>Program Partnerships</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44691"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-saving-with-travel-consolidators.html"><span>Saving With Consolidators</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44692"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-double-triple-bonuses-with-online-shopping-portals.html"><span>Double/Triple Bonuses</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44693"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/02/frugal-travel-guy-rookie-guide-tracking-your-points-and-miles.html"><span>Keeping Track of Rewards</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44694"><a href="/web/20160901075711/http://www.frugaltravelguy.com/2014/03/frugal-travel-guy-rookie-guide-review-your-travel-goals.html"><span>Review Your Goals</span></a></li>
+</ul>
+</li>
+<li class="arrow-down menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-21372"><a href="/web/20160901075711/http://www.frugaltravelguy.com/category/features/travel-challenge-features"><span>More</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21374"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/category/features/travel-challenge-features"><span>Travel Challenge</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-44695"><a href="/web/20160901075711/http://www.frugaltravelguy.com/category/features/success-stories-features"><span>Success Stories</span></a></li>
+</ul>
+</li>
+<li class="search-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-54172"><a href="#search-box"><span> </span></a></li>
+<li class="profile-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-54171"><a href="#profile-box"><span> </span></a>
+<ul class="sub-menu">
+	<li class="unli menu-item menu-item-type-post_type menu-item-object-page menu-item-35567"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/register"><span>Create an Account</span></a></li>
+	<li class="unli menu-item menu-item-type-post_type menu-item-object-page menu-item-35563"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/login"><span>Login</span></a></li>
+</ul>
+</li>
+</ul>                            </div>  
+                                                                     
+                    </div><!--/#nav-holder -->
+                    <div class="clear"></div>
+                </div>
+            </div><!--/#header -->
+            <div id="header-replacer"></div>
+            <div class="wrapper-holder">
+                <div class="mobile_only2 ad-disclosure">
+                    <div class="mobile-top">
+                                                			<span style="color: #e46d33;">If you're a newbie, here's a featured <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/bestnewbiecard042315" target="_blank">credit card</a> to get you started.</span>		                                            </div> 
+                </div>   
+    <div id="ad-holder">
+        <div class="banner728 widget_text " id="text-3">			<a target="_blank" href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22926864&amp;fot=9999&amp;foc=2&amp;foc2=599858" rel="nofollow" alt="Chase Sapphire Preferred® Card - Banner" title="Chase Sapphire Preferred® Card - Banner"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/220022/599858.gif"/></a>		</div>    </div>
+<div id="main" class="single">
+    <div id="twocolumns">
+        <div id="content" class="single">
+                                    <div class="the-content">
+                <div id="featured-posts">
+                    <div class="title">
+                        <div class="breadcrumb breadcrumbs"><div class="breadcrumb-trail"><span class="trail"><span class="breadcrumb-title"></span></span> <span itemscope="itemscope" itemtype="http://data-vocabulary.org/BreadCrumb">
+			<a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/" title="Frugal Travel Guy" rel="home" itemprop="url" class="trail"><span itemprop="title">Home</span></a>
+			</span> <span class="sep">|</span> <span itemtype="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/category/destinations" class="trail" itemprop="url" title="Destinations"><span itemprop="title">Destinations</span></a></span> <span class="sep">|</span> <span itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" class="trail-end"><i><span itemprop="title">An Overview of What You Need to Know When Going on Your First Safari Adventure</span></i></span></div></div>                        <h2>
+                            An Overview of What You Need to Know When Going on Your First Safari Adventure                        </h2>
+                                                <div class="post-meta header-3">
+                                                            		<div class="auth_img">
+    									<img src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2014/12/HowieRappaport.jpeg" alt="Howie Rappaport" class="avatar avatar- wp-user-avatar wp-user-avatar- alignnone photo"/>                              		</div>
+                                          
+                
+                                <div class="date">
+                                    April 1, 2016                                </div>
+                                <div class="auth_name">
+                                    <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/howie" title="Posts by Howie Rappaport" rel="author">Howie Rappaport</a>                                                                            | <a class="colorBlue" ref="nofollow" href="http://web.archive.org/web/20160901075711/http://howie/?rel=author" rel="me" target="_blank">Google+</a>
+                                                                    </div>
+                                <div class="clear"></div>
+                        </div><!-- end of .post-meta -->
+                    </div>
+                    <div class="post">
+                        <div class="content">
+                                                            <div class="img-holder img-cover" style="background-image:url('http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/safari1.jpg')">
+                                                                                                                                            </div>
+                                                    <p>The main focus of our trip to South Africa was to partake in a safari. This was also the part of the trip where we spent the most amount of time planning. Looking back, I realize the vast majority of our planning was done poorly, but the success of our trip was that we were lucky by an unmeasurable amount.</p>
+<p>Rather than review the process we went through, I’ll go over some things to consider if you were looking to plan a safari.</p>
+<p>Sure, you can research (which we did), but the first thing I’d recommend doing is talking to your friends and family. Find out who has been on a safari and let them share their experiences with you — if they really know you they’ll know what questions to ask of you to help steer you in the right direction.</p>
+<p>Some questions to ask of them:</p>
+<ul>
+<li>What were their goals?</li>
+<li>How did they go about planning?</li>
+<li>Where did they go?</li>
+<li>What would they have done differently?</li>
+</ul>
+<p>Talk to at least two or three people if you can — ideally all with different points of view, and hopefully, at least one that likely has a similar travel style as you.</p>
+<p>In talking with your friends and family you will also want to get answers to some important questions. My answers to these questions are in parenthesis:</p>
+<ul>
+<li><strong>How many game drives were there per day?</strong> (We had two)</li>
+<li><strong>How many people were in each vehicle?</strong> (Our vehicle seated up to 10 people—three rows of three and one next to our ranger. Our tracker sat up front on an elevated hood/bumper mounted seat.)</li>
+<li><strong>Did you stay with the same people throughout your visit or were people be added/removed?</strong> (We stayed with the same people for the entire time, which ensured we didn’t have to look for a giraffe that everyone but one person had seen.)</li>
+<li><strong>Was there a tracker and a guide or just a guide?</strong> (We had a tracker &amp; guide because four eyes are better than two.)</li>
+<li><strong>How long was each game drive?</strong> (Three hours each drive.)</li>
+<li><strong>When did the game drives take place?</strong> (5:30 &#8211; 8:30 a.m. and 4 &#8211; 7 p.m. for us.)</li>
+</ul>
+<p>Regardless of what the answers are, keep in mind there are a few variables that I think will determine your enjoyment depending on which safari experience you choose:</p>
+<p><strong>Location &#8211; </strong>What country and what land will you have access to on your safari? Remember, animals can cross borders without passports or permission from land owners but safari jeeps and humans cannot.</p>
+<p><strong>Knowledge &amp; Expertise of Guides &#8211;</strong>  It is tough to know ahead of time, however reviews on TripAdvisor and FlyerTalk are a great place to go.</p>
+<p><strong>Accommodation Style</strong> &#8211; How expensive do are you expecting the trip to be? Will tents and a sleeping bag work or do you need marble tiles and butler service?</p>
+<p>My suggestion would be to check out reviews and focus on location, and guide expertise. You’re going on a safari to see animals so be sure that you select a lodge that’ll help you achieve that goal.</p>
+<p>For our trip, we stayed at the <a href="http://web.archive.org/web/20160901075711/http://arathusa.co.za/" target="_blank">Arathusa Safari Lodge</a>. I won’t be doing a full review of the lodge, but I will say that we had an excellent time and our expectations were met. If I were to rate everything I would provide the following on a scale of 1 to 5 with 5 being the best:</p>
+<p><strong>Lodging</strong>: 4/5 &#8211; Rooms were in very good condition.</p>
+<p><strong>Dining</strong>: 4/5 &#8211; Meals were good to very good, however, there were limited choices for dinner each night, and food allergies are taken into consideration.</p>
+<p><strong>Bar/Lodge</strong>: 5/5 &#8211; We spent very little downtime in our room, but we hung out at the bar which had great views of the watering hole and fantastic service.</p>
+<p><strong>Internet</strong>: 2/5 &#8211; Satellite internet is rough, so if you need speedy internet access you’ll be disappointed. Wi-Fi is not currently available in individual rooms currently but it will be available in 2017.</p>
+<p><strong>Game drives/Ranger/Tracker</strong>: 5/5 &#8211; Our <a href="http://web.archive.org/web/20160901075711/http://arathusa.co.za/the-rangers-and-trackers/" target="_blank">ranger and tracker</a>, Sean and Rifos, were fantastic. Our drive group of eight instantly clicked and the knowledge and passion of our ranger and tracker made our entire trip a huge success.</p>
+<p><strong>Value: 4.5/5 &#8211;</strong> You can easily go down the road a few kilometers and pay three times the price where you may or may not have a ranger and tracker as good as we had.</p>
+<p><strong>Overall: 4.5/5</strong> &#8211; The people at Arathusa made our trip more enjoyable. Everyone was friendly and passionate about what they did—from the driver that picked us up at the airport to the front desk staff. I would happily return here and recommend it without a doubt to friends and family.</p>
+<p><strong>Bonus Points: </strong>Arathusa doesn&#8217;t allow young children under 14-years-old because they do not have walls or fences separating their property from the reserve. Animals freely walk wherever they want and if an elephant or lion shows up at your door you’ll need to stay inside and then call for an escort to confirm that the area is clear.</p>
+<p><em>Note: I did inform Arathusa that I intended to blog about my experience and was granted a 20% discount on the cost of our package. The discount was offered after we had already made our decision to stay with Arathusa and in no way influenced ratings or experience. We had committed to a budget and without the discount our stay was within that budget.</em></p>
+<p>Stay tuned for pictures of the animals we saw. I hope the story of our drives inspires and sets a reasonable expectation of what you should look to get from a Safari experience.</p>
+<p><em>[Image via Getty]</em></p>
+              
+                                                                            <div id="auth_box_bottom">
+                                                                  		<div class="auth_img">
+        									<img src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2014/12/HowieRappaport.jpeg" alt="Howie Rappaport" class="avatar avatar- wp-user-avatar wp-user-avatar- alignnone photo"/>                                  		</div>
+                                                                       
+                           
+                                <div class="auth_box">                 
+                                    <span class="fullname"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/howie" title="Posts by Howie Rappaport" rel="author">Howie Rappaport</a></span>
+                                         As a kid travel meant hopping in the family station wagon and spending a day at the park or the beach. Everyone got older and longer trips were possible; yes that meant driving from New York to Orlando...<br/>                                    <a class="colorBlue" href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/howie">All Articles</a> | <a class="colorBlue" ref="nofollow" href="http://web.archive.org/web/20160901075711/http://howie/?rel=author" rel="me" target="_blank">Follow on Google+</a>
+                                                                    </div>              
+        			         </div><!-- end of #auth_box_bottom -->
+                                          
+                                    <div class="associated-card tcc-desktop" id="vlado">
+                <div class="card-header">
+                    <span>View:</span>
+                    <ul>
+                        <li><a href="#ftg-review">FTG Review</a></li>
+                        <li class="tab-separator">|</li>
+                        <li class="active"><a href="#reward-breakdown">Reward Breakdown</a></li>
+                        <li class="tab-separator">|</li>
+                        <li><a href="#points-breakdown">Points Breakdown</a></li>
+                    </ul>
+                </div>
+                <div class="card-content">
+                    <div class="card-content-left">
+                        <img alt="" src="//web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png"/>
+                        <h3 class="card-title">Chase Sapphire Preferred® Card</h3>
+                        <ul class="card-details">
+                            <li>Annual Fee:
+                                                                    $95 fee waived for the first year                                                            </li>
+                            <li>Foreign Fees:
+                                                                    No                                                            </li>
+                            <li>Card Type: Bank</li>
+                        </ul>
+                        <a href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22927319&amp;fot=9999&amp;foc=1" onclick="ga('send', 'event', 'Article', 'Clicked Apply', 'Global Widget');" target="blank" class="applly-now-button apply-now not-logged-in">Apply Now</a><br>
+                                               <a class="favorite" href="/web/20160901075711/http://www.frugaltravelguy.com/login?redirect_to=/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html?fav_c_id=16">Add to Favorites</a>
+                                            </div>
+                    <div class="card-content-right">
+                        <div id="ftg-review"></div>
+                        <div id="reward-breakdown" class="active">
+                            <ul>
+                                                <li>Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®</li>
+                                                <li>Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine</li>
+                                                <li>2X points on travel and dining at restaurants &amp; 1 point per dollar spent on all other purchases</li>
+                                                <li>Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening.</li>
+                                                <li>No foreign transaction fees</li>
+                                                <li>1:1 point transfer to leading airline and hotel loyalty programs
+</li>
+                                                <li>Get 25% more value when you redeem for airfare, hotels, car rentals and cruises through Chase Ultimate Rewards. For example, 50,000 points are worth $625 toward travel</li>
+                                                <li>No blackout dates or travel restrictions - as long as there's a seat on the flight, you can book it through Chase Ultimate Rewards</li>
+                                        </ul>
+                        </div>
+                        <div id="points-breakdown">
+                            <div class="t-head">
+                                <div class="tc-1">Breakdown</div>
+                                <div class="tc-2">Earn (pt.)</div>
+                                <div class="tc-3">Spend</div>
+                                <br class="clear"/>
+                            </div>
+                                            <div class="t-row">
+                                    <div class="tc-1">First 3 months</div>
+                                    <div class="tc-2">50,000</div>
+                                    <div class="tc-3">$4,000</div>
+                                    <br class="clear"/>
+                                </div>
+                                                        <div class="t-row">
+                                    <div class="tc-1">Travel Purchases</div>
+                                    <div class="tc-2">2.00</div>
+                                    <div class="tc-3">$1</div>
+                                    <br class="clear"/>
+                                </div>
+                                            <div class="t-row">
+                                    <div class="tc-1">Restaurants Purchases</div>
+                                    <div class="tc-2">2.00</div>
+                                    <div class="tc-3">$1</div>
+                                    <br class="clear"/>
+                                </div>
+                                            <div class="t-row">
+                                    <div class="tc-1">Coffee Shops Purchases</div>
+                                    <div class="tc-2">2.00</div>
+                                    <div class="tc-3">$1</div>
+                                    <br class="clear"/>
+                                </div>
+                                            <div class="t-row">
+                                    <div class="tc-1">Fast Food Purchases</div>
+                                    <div class="tc-2">2.00</div>
+                                    <div class="tc-3">$1</div>
+                                    <br class="clear"/>
+                                </div>
+                                            <div class="t-row">
+                                    <div class="tc-1">Alcohol &amp; Bars Purchases</div>
+                                    <div class="tc-2">2.00</div>
+                                    <div class="tc-3">$1</div>
+                                    <br class="clear"/>
+                                </div>
+                                            <div class="t-row">
+                                    <div class="tc-1">All Purchases</div>
+                                    <div class="tc-2">1.00</div>
+                                    <div class="tc-3">$1</div>
+                                    <br class="clear"/>
+                                </div>
+                                    </div>
+                        <div class="track track-to-maximize">
+                            <input type="hidden" class="track-id" value="16"/>
+                            <strong>Already have this card?</strong> <a href="#" class="track-link not-logged-in">Track it and maximize your rewards.</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery(document).ready(function () {
+                    jQuery('.associated-card.tcc-desktop .card-header a').click(function () {
+                        var s = jQuery(this).attr('href');
+                        jQuery('.associated-card.tcc-desktop .card-header li.active').removeClass('active');
+                        jQuery(this).parent().addClass('active');
+                        jQuery('.associated-card.tcc-desktop .card-content-right>div.active').removeClass('active');
+                        jQuery(s).addClass('active');
+                        return false;
+                    });
+                });
+            </script>
+            <div class="associated-card-mobile tcc-mobile card-content" id="vlado">
+                <div class="card-info-container">
+                    <div>
+                        <img alt="" src="//web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png"/>
+                        <h3 class="card-title">Chase Sapphire Preferred® Card</h3>
+                        <div class="clear"></div>
+                    </div>
+                    <ul class="card-details">
+                        <li><strong>Annual Fee:</strong>
+                                                            $95 fee waived for the first year                                                    </li>
+                        <li><strong>Foreign Fees:</strong>
+                                                            No                                                    </li>
+                        <li><strong>Card Type:</strong> Bank</li>
+                    </ul>
+                    <center>
+                    <a href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22927319&amp;fot=9999&amp;foc=1" onclick="ga('send', 'event', 'Article', 'Clicked Apply', 'Global Widget');" target="blank" class="btn-applynow-big apply-now not-logged-in">Apply Now</a>
+                                       <a class="favorite" href="/web/20160901075711/http://www.frugaltravelguy.com/login?redirect_to=/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html?fav_c_id=16">Add to Favorites</a>
+                                        </center>
+                </div>
+                <table class="card-info">
+                    <tr>
+                        <th><a href="#ftg-review">FTG Review</a></th>
+                        <th class="active"><a href="#reward-breakdown">Reward Breakdown</a></th>
+                        <th><a href="#points-breakdown">Points Breakdown</a></th>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="card-detail">
+                            <div id="ftg-review"></div>
+                            <div id="reward-breakdown" class="active">
+                                <ul>
+                                                    <li>Earn 50,000 bonus points when you spend $4,000 on purchases in the first 3 months from account opening. That's $625 in travel when you redeem through Chase Ultimate Rewards®</li>
+                                                    <li>Named a 'Best Credit Card' for Travel Rewards by MONEY Magazine</li>
+                                                    <li>2X points on travel and dining at restaurants &amp; 1 point per dollar spent on all other purchases</li>
+                                                    <li>Earn 5,000 bonus points after you add the first authorized user and make a purchase in the first 3 months from account opening.</li>
+                                                    <li>No foreign transaction fees</li>
+                                                    <li>1:1 point transfer to leading airline and hotel loyalty programs
+</li>
+                                                    <li>Get 25% more value when you redeem for airfare, hotels, car rentals and cruises through Chase Ultimate Rewards. For example, 50,000 points are worth $625 toward travel</li>
+                                                    <li>No blackout dates or travel restrictions - as long as there's a seat on the flight, you can book it through Chase Ultimate Rewards</li>
+                                                </ul>
+                            </div>
+                            <div id="points-breakdown">
+                                <div class="t-head">
+                                    <div class="tc-1">Breakdown</div>
+                                    <div class="tc-2">Earn (pt.)</div>
+                                    <div class="tc-3">Spend</div>
+                                    <br class="clear"/>
+                                </div>
+                                                    <div class="t-row">
+                                        <div class="tc-1">First 3 months</div>
+                                        <div class="tc-2">50,000</div>
+                                        <div class="tc-3">$4,000</div>
+                                        <br class="clear"/>
+                                    </div>
+                                                                    <div class="t-row">
+                                        <div class="tc-1">Travel Purchases</div>
+                                        <div class="tc-2">2.00</div>
+                                        <div class="tc-3">$1</div>
+                                        <br class="clear"/>
+                                    </div>
+                                                    <div class="t-row">
+                                        <div class="tc-1">Restaurants Purchases</div>
+                                        <div class="tc-2">2.00</div>
+                                        <div class="tc-3">$1</div>
+                                        <br class="clear"/>
+                                    </div>
+                                                    <div class="t-row">
+                                        <div class="tc-1">Coffee Shops Purchases</div>
+                                        <div class="tc-2">2.00</div>
+                                        <div class="tc-3">$1</div>
+                                        <br class="clear"/>
+                                    </div>
+                                                    <div class="t-row">
+                                        <div class="tc-1">Fast Food Purchases</div>
+                                        <div class="tc-2">2.00</div>
+                                        <div class="tc-3">$1</div>
+                                        <br class="clear"/>
+                                    </div>
+                                                    <div class="t-row">
+                                        <div class="tc-1">Alcohol &amp; Bars Purchases</div>
+                                        <div class="tc-2">2.00</div>
+                                        <div class="tc-3">$1</div>
+                                        <br class="clear"/>
+                                    </div>
+                                                    <div class="t-row">
+                                        <div class="tc-1">All Purchases</div>
+                                        <div class="tc-2">1.00</div>
+                                        <div class="tc-3">$1</div>
+                                        <br class="clear"/>
+                                    </div>
+                                            </div>
+                            <a href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22927319&amp;fot=9999&amp;foc=1" onclick="ga('send', 'event', 'Article', 'Clicked Apply', 'Global Widget');" target="blank" class="btn-applynow-big apply-now not-logged-in">Apply Now</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="tracker">
+                            <div class="track track-to-maximize">
+                                <input type="hidden" class="track-id" value="16"/>
+                                <strong>Already have this card?</strong> <a href="#" class="track-link not-logged-in">Maximize your rewards.</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+            <script type="text/javascript">
+                jQuery(document).ready(function () {
+                    jQuery('.card-info th a').click(function () {
+                        var s = jQuery(this).attr('href');
+                        jQuery('.card-info th.active').removeClass('active');
+                        jQuery(this).parents('th').addClass('active');
+                        jQuery('.card-detail div.active').removeClass('active');
+                        jQuery('.card-detail ' + s).addClass('active');
+                        return false;
+                    });
+                });
+            </script>
+                                    </div> <!--/.content-->
+                        <div class="content-prevnext">
+                            <div class="post-prev"><h3>Previous Story</h3><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/south-africa-wine-country-bettys-bay-stellenbosch-franschhoek.html" title="Spending a Full Day In South Africa's Wine Country" rel="prev">Spending a Full Day In South Africa&#8217;s Wine Country</a></div>                            <div class="post-next"><h3>Next Story</h3><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/alaska-airlines-drastically-changes-their-mileage-plans-increases-first-class-award-travel-prices.html" title="Alaska Airlines Drastically Changes Their Mileage Plans, Increases First Class Award Travel Prices" rel="next">Alaska Airlines Drastically Changes Their Mileage Plans, Increases First Class Award Travel Prices</a></div>                        </div>
+                        <div class="clr"></div>
+                    </div>
+          <div name="anchor_comment_top" id="anchor_comment_top"></div>
+          
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+<ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-108434">
+        <div id="dsq-comment-header-108434" class="dsq-comment-header">
+            <cite id="dsq-cite-108434">
+                <span id="dsq-author-user-108434">Ron</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-108434" class="dsq-comment-body">
+            <div id="dsq-comment-message-108434" class="dsq-comment-message"><p>Well &#8230; you claim to not have a bias given the trip discount that you received, and I believe that you believe that. It may be true.</p>
+<p>Your notifying the establishment that you are a blogger may have influenced the services that you and your group received, possibly not reflective of the experience non-bloggers receive.</p>
+</div>
+        </div>
+    </li>
+
+<ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-108435">
+        <div id="dsq-comment-header-108435" class="dsq-comment-header">
+            <cite id="dsq-cite-108435">
+http://www.frugaltravelguy.com                <span id="dsq-author-user-108435">Howie Rappaport</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-108435" class="dsq-comment-body">
+            <div id="dsq-comment-message-108435" class="dsq-comment-message"><p>@disqus_x4btRxAiCd:disqus I could understand the concern, but I genuinely cannot think of anything &#8220;special&#8221; or anything we received that we didn&#8217;t already pay for. We paid for the room we received, we paid for our spa treatments, there was no special welcome basket or anything and our safari group wasn&#8217;t private. They could have added amenities/freebies, special dinner &#8212; none of it. We got what we paid for and I feel as though nothing else. Based on discussions with other guests I felt as though every experience received was similar across all guests.</p>
+</div>
+        </div>
+    </li>
+
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-108436">
+        <div id="dsq-comment-header-108436" class="dsq-comment-header">
+            <cite id="dsq-cite-108436">
+                <span id="dsq-author-user-108436">Rich</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-108436" class="dsq-comment-body">
+            <div id="dsq-comment-message-108436" class="dsq-comment-message"><p>Very helpful!  Did they actually travel into Kruger for game drives or stay outside the park in similar terrain?  Sounds like a price advantage staying out of the park &#8211; did they also have more flexibility for game drives?  Any disadvantages to where you stayed?</p>
+</div>
+        </div>
+    </li>
+
+<ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-108439">
+        <div id="dsq-comment-header-108439" class="dsq-comment-header">
+            <cite id="dsq-cite-108439">
+http://www.frugaltravelguy.com                <span id="dsq-author-user-108439">Howie Rappaport</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-108439" class="dsq-comment-body">
+            <div id="dsq-comment-message-108439" class="dsq-comment-message"><p>@disqus_rhHpMSn5hT:disqus they did not have rights to cross into Kruger directly from Sabi. They would have had to leave Sabi, drive to the Kruger entry and then enter. Crossing the fenceless border is a no no except for the creatures.</p>
+<p>Definitely not a price advantage &#8212; there are lodges within 2-3 km in Sabi that are 2-3x the price.</p>
+<p>As for flexibility, 2x a day for 3 hours seems to be standard &#8212; we could have paid for a private / our group only, but drive times would have been the same. I mean you dont want to go out at 12pm when its peak sun time and animals are all hiding under shade. Any disadvantages? None that I could see. Big advantage were no fences/walls around the lodge/property.</p>
+</div>
+        </div>
+    </li>
+
+</li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-108498">
+        <div id="dsq-comment-header-108498" class="dsq-comment-header">
+            <cite id="dsq-cite-108498">
+http://moneyleftfortravel.com/                <span id="dsq-author-user-108498">Lynn A Girard</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-108498" class="dsq-comment-body">
+            <div id="dsq-comment-message-108498" class="dsq-comment-message"><p>My husband &amp; I did a 7 day safari in Kenya with my parents &#8211; it was easily one of the coolest vacations that we have ever taken.  Our safari seems different from yours as we had a private jeep for the 4 of us during our time on safari &amp; we moved to several different parks.</p>
+<p>If you&#8217;re interested in reading about our safari experience check out our blog post &#8211; <a href="http://web.archive.org/web/20160901075711/http://moneyleftfortravel.com/7-days-on-safari-in-kenya/" rel="nofollow">http://moneyleftfortravel.com/7-days-on-safari-in-kenya/</a></p>
+</div>
+        </div>
+    </li>
+
+</li><!-- #comment-## -->
+            </ul>
+
+</div>
+
+</div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html';
+    var disqus_identifier = '55695 http://www.frugaltravelguy.com/?p=55695';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'ftgdev';
+    var disqus_title = "An Overview of What You Need to Know When Going on Your First Safari Adventure";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+
+/*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            DISQUS.request.get('?cf_action=sync_comments&post_id=55695');
+        });
+                    };
+    var facebookXdReceiverPath = 'http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/web.archive.org\/web\/20160901075711\/http:\/\/www.frugaltravelguy.com\/2016\/04\/an-overview-of-what-you-need-to-know-when-going-on-your-first-safari-adventure.html\/trackback"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+        dsq.src = 'http' + '://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.72';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+          <div class="comment-disclaimer">These responses are not provided or commissioned by the bank advertiser. Responses have not been reviewed, approved or otherwise endorsed by the bank advertiser. It is not the bank advertiser's responsibility to ensure all posts and/or questions are answered.</div>
+        </div>
+                                    <div class="aside">
+                    <div class="prevnext">
+                        <!--  previous post -->
+                        	            
+                            <div class="post-prev-wrap"><strong>Prev.</strong><br/>
+                              <div class="post-prev"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/south-africa-wine-country-bettys-bay-stellenbosch-franschhoek.html" title="Spending a Full Day In South Africa's Wine Country" rel="prev"></a></div>                            </div>
+            			                
+                        <!--  next post -->
+                        						
+                            <div class="post-next-wrap"><strong>Next</strong><br/>
+                              <div class="post-next"><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/alaska-airlines-drastically-changes-their-mileage-plans-increases-first-class-award-travel-prices.html" title="Alaska Airlines Drastically Changes Their Mileage Plans, Increases First Class Award Travel Prices" rel="next"></a></div>                            </div>											
+            			                        
+                        <div class="clr"></div>
+                        <p>Use keys to browse more stories</p>
+                    </div><!-- end of .prevnext -->
+                  
+                    <div class="aside desktop_only">
+                         <div class="widget-lft widget_text " id="text-45">			<a href="http://web.archive.org/web/20160901075711/http://www.dpbolvw.net/33106nmvsmu9HHBJCHH9BCFJIBHB9BEGEHDFHGCAAA" target="_blank">
+<img src="http://web.archive.org/web/20160901075711im_/http://www.lduhtrp.net/90103p59y31NVVPXQVVNPQTXWPVPNPSUSVRTVUQOOO" alt="" border="0"/></a>		</div><div class="widget-lft widget_text featured-credit-card" id="text-46"><div class="title"><h2>Featured Credit Cards</h2></div>			<strong>Citi® / AAdvantage® Executive World Elite™ MasterCard®</strong>
+<br/>
+<a target="_blank" href="http://web.archive.org/web/20160901075711/http://www.kqzyfj.com/click-7719277-12599628-1464786007000" rel="nofollow" alt="Citi® / AAdvantage® Executive World Elite™ MasterCard®" title="Citi® / AAdvantage® Executive World Elite™ MasterCard®"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/CitiAAdvantageExecutiveWorldEliteMasterCard-1.jpg" width="110"/></a>
+
+<br/>
+<br/>
+
+<strong>Chase Sapphire Preferred&#174; Card</strong>
+<br/>
+<a target="_blank" href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22926864&amp;fot=9999&amp;foc=1" rel="nofollow" alt="Chase Sapphire Preferred® Card"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png" width="110"/></a>
+
+<br/>
+<br/>
+
+<strong>Alaska Airlines Visa Signature® Credit Card</strong>
+<br/>
+<a target="_blank" href="http://web.archive.org/web/20160901075711/http://www.dpbolvw.net/click-7719277-12592382-1464366360000" rel="nofollow" alt="Alaska Airlines Visa Signature® Credit Card"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/MockUp.png" width="110"/></a>
+
+<br/>
+<br/>
+
+<strong>Citi® / AAdvantage® Platinum Select® MasterCard®</strong>
+<br/>
+<a target="_blank" href="http://web.archive.org/web/20160901075711/http://www.tkqlhce.com/5f108gv30v2IQQKSLQQIKLOKSSMMIKNPKSQNMRRJJJ" rel="nofollow" alt="Citi® / AAdvantage® Platinum Select® MasterCard®"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2015/01/Citi-AA_110x70.jpg" width="110"/></a>		</div>                    </div>
+                </div>
+                            <div class="clear"></div>
+            </div>
+        </div>
+        <div class="share-post">
+            <!-- AddThis Button BEGIN -->
+            <!--
+            <<div class="addthis_toolbox addthis_default_style"> <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_google_plusone" g:plusone:size="medium"></a> </div>
+            -->
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <script type="text/javascript" src="//web.archive.org/web/20160901075711js_/http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-516d0b832bd5d6ab"></script>
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_sharing_toolbox"></div>
+
+<!-- AddThis Button END -->
+
+</div>
+        <div class="rside">
+                                <div class="aside mobile_only">
+                        <div class="widget-lft widget_text " id="text-45">			<a href="http://web.archive.org/web/20160901075711/http://www.dpbolvw.net/33106nmvsmu9HHBJCHH9BCFJIBHB9BEGEHDFHGCAAA" target="_blank">
+<img src="http://web.archive.org/web/20160901075711im_/http://www.lduhtrp.net/90103p59y31NVVPXQVVNPQTXWPVPNPSUSVRTVUQOOO" alt="" border="0"/></a>		</div><div class="widget-lft widget_text featured-credit-card" id="text-46"><div class="title"><h2>Featured Credit Cards</h2></div>			<strong>Citi® / AAdvantage® Executive World Elite™ MasterCard®</strong>
+<br/>
+<a target="_blank" href="http://web.archive.org/web/20160901075711/http://www.kqzyfj.com/click-7719277-12599628-1464786007000" rel="nofollow" alt="Citi® / AAdvantage® Executive World Elite™ MasterCard®" title="Citi® / AAdvantage® Executive World Elite™ MasterCard®"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/CitiAAdvantageExecutiveWorldEliteMasterCard-1.jpg" width="110"/></a>
+
+<br/>
+<br/>
+
+<strong>Chase Sapphire Preferred&#174; Card</strong>
+<br/>
+<a target="_blank" href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22926864&amp;fot=9999&amp;foc=1" rel="nofollow" alt="Chase Sapphire Preferred® Card"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/204650/599888.png" width="110"/></a>
+
+<br/>
+<br/>
+
+<strong>Alaska Airlines Visa Signature® Credit Card</strong>
+<br/>
+<a target="_blank" href="http://web.archive.org/web/20160901075711/http://www.dpbolvw.net/click-7719277-12592382-1464366360000" rel="nofollow" alt="Alaska Airlines Visa Signature® Credit Card"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/MockUp.png" width="110"/></a>
+
+<br/>
+<br/>
+
+<strong>Citi® / AAdvantage® Platinum Select® MasterCard®</strong>
+<br/>
+<a target="_blank" href="http://web.archive.org/web/20160901075711/http://www.tkqlhce.com/5f108gv30v2IQQKSLQQIKLOKSSMMIKNPKSQNMRRJJJ" rel="nofollow" alt="Citi® / AAdvantage® Platinum Select® MasterCard®"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2015/01/Citi-AA_110x70.jpg" width="110"/></a>		</div>                    </div>
+
+<div class="banner255 widget_text sidebar-300w-ad-unit" id="text-5">			<a target="_blank" href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=31139&amp;fot=9999&amp;foc=2&amp;foc2=605712" rel="nofollow" alt="Starwood Preferred Guest® Credit Card from American Express" title="Starwood Preferred Guest® Credit Card from American Express"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/70/605712.gif"/></a>		</div>            
+            <div class="widget_text">
+                <div id="twitter-container">
+                    <a class="twitter-timeline" href="http://web.archive.org/web/20160901075711/https://twitter.com/FrugalTravelGuy" data-widget-id="698278273084559361" height="300">Tweets by @FrugalTravelGuy</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+            </div>
+
+<div class="widet_text videoWrapper"><iframe width="290" height="163" src="http://web.archive.org/web/20160901075711if_/https://www.youtube.com/embed/mfgsKc0GzLk?rel=0" frameborder="0" allowfullscreen></iframe></div>
+                            <div class="sidebar-300w-ad-unit widget_text " id="text-52">			<a target="_blank" href="http://web.archive.org/web/20160901075711/http://track.linkoffers.net/a.aspx?foid=22926864&amp;fot=9999&amp;foc=2&amp;foc2=599864" rel="nofollow" alt="Chase Sapphire Preferred® Card - Banner" title="Chase Sapphire Preferred® Card - Banner"><img border="0" src="http://web.archive.org/web/20160901075711im_/http://content.linkoffers.net/SharedImages/Products/220022/599864.gif"/></a>		</div>
+
+<div class="widget-rght related-posts">
+                                                <h2 class="related_post_title">Related Posts</h2>                <ul class="related_posts_content">
+                                    <li>
+                                                    <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/08/there-are-21-new-unesco-world-heritage-sites-find-out-where.html">
+                                <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-50x50.png" class="attachment-50x50 size-50x50 wp-post-image" alt="UNESCO" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-50x50.png 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-150x150.png 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-125x125.png 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/08/UNESCO-45x45.png 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
+                        
+                        <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/08/there-are-21-new-unesco-world-heritage-sites-find-out-where.html" class="post_title">There Are 21 New UNESCO World Heritage Sites—Find out Where!</a>
+
+<div class="related-post-meta">       
+                            <div class="auth_name">
+                                <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/caroline-lupini" title="Posts by Caroline Lupini" rel="author">Caroline Lupini</a>                            </div>
+                            <div class="date">
+                                August 8, 2016                            </div>
+
+<div class="clear"></div>
+                        </div><!-- end of .post-meta -->
+                    </li>
+
+<li>
+                                                    <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/07/here-are-5-destinations-where-the-us-dollar-is-strongest-for-travel.html">
+                                <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="Origami plane made from dollars on the map" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-50x50.jpg 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-150x150.jpg 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-125x125.jpg 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/07/travelusd-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
+                        
+                        <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/07/here-are-5-destinations-where-the-us-dollar-is-strongest-for-travel.html" class="post_title">Here Are 5 Destinations Where the US Dollar Is Strongest for Travel</a>
+
+<div class="related-post-meta">       
+                            <div class="auth_name">
+                                <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/caroline-lupini" title="Posts by Caroline Lupini" rel="author">Caroline Lupini</a>                            </div>
+                            <div class="date">
+                                July 19, 2016                            </div>
+
+<div class="clear"></div>
+                        </div><!-- end of .post-meta -->
+                    </li>
+
+<li>
+                                                    <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/06/before-you-travel-abroad-check-this-list-of-3-locations-that-may-be-foribidden-for-travelers.html">
+                                <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="machupicchu" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-50x50.jpg 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-150x150.jpg 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-125x125.jpg 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/06/machupicchu-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
+                        
+                        <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/06/before-you-travel-abroad-check-this-list-of-3-locations-that-may-be-foribidden-for-travelers.html" class="post_title">Before You Travel Abroad, Check This List of 3 Locations That May Be Restricted For Travelers</a>
+
+<div class="related-post-meta">       
+                            <div class="auth_name">
+                                <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/christinekrzyszton" title="Posts by Christine Krzyszton" rel="author">Christine Krzyszton</a>                            </div>
+                            <div class="date">
+                                June 8, 2016                            </div>
+
+<div class="clear"></div>
+                        </div><!-- end of .post-meta -->
+                    </li>
+
+<li>
+                                                    <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/05/4-must-see-bucket-list-destinations-to-visit-if-youre-tired-of-seeing-other-tourists.html">
+                                <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="No tourists Dead Sea beach" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-50x50.jpg 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-150x150.jpg 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-125x125.jpg 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/05/No-tourists-Dead-Sea-beach-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
+                        
+                        <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/05/4-must-see-bucket-list-destinations-to-visit-if-youre-tired-of-seeing-other-tourists.html" class="post_title">4 Must-See Bucket-List Destinations to Visit If You&#8217;re Tired of Seeing Other Tourists</a>
+
+<div class="related-post-meta">       
+                            <div class="auth_name">
+                                <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/christinekrzyszton" title="Posts by Christine Krzyszton" rel="author">Christine Krzyszton</a>                            </div>
+                            <div class="date">
+                                May 23, 2016                            </div>
+
+<div class="clear"></div>
+                        </div><!-- end of .post-meta -->
+                    </li>
+
+<li>
+                                                    <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/wrapping-up-my-south-africa-experience.html">
+                                <img width="50" height="50" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-50x50.jpg" class="attachment-50x50 size-50x50 wp-post-image" alt="south africa" srcset="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-50x50.jpg 50w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-150x150.jpg 150w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-125x125.jpg 125w, http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/uploads/2016/04/south-africa-45x45.jpg 45w" sizes="(max-width: 50px) 100vw, 50px"/>                            </a>
+                        
+                        <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/2016/04/wrapping-up-my-south-africa-experience.html" class="post_title">Wrapping up My South Africa Experience</a>
+
+<div class="related-post-meta">       
+                            <div class="auth_name">
+                                <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/author/howie" title="Posts by Howie Rappaport" rel="author">Howie Rappaport</a>                            </div>
+                            <div class="date">
+                                April 8, 2016                            </div>
+
+<div class="clear"></div>
+                        </div><!-- end of .post-meta -->
+                    </li>
+
+</ul>            </div>
+
+</div>
+        <div class="clear"></div>
+    </div>
+</div>
+<a id="scrollUp" class="scrollUp scrollup-image scrollup-right" href="#top"></a>
+<div id="wallet-dialog" style="display: none;">
+    <h3><span>The Wallet</span></h3>
+    <img style="float: right;" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/wallet-laptop.png" alt="laptop-img" width="300"/>
+    <h4>Maximize your miles and points with the Wallet</h4>
+    <p><strong>Never miss a rewards bonus again.</strong> Add credit cards, track rewards, and earn more from your spending - for FREE!</p>
+    <ul>
+        <li>Simple and Free</li>
+        <li>Track Your Spending, Rewards and Bills</li>
+        <li>Save cards to your Favorites</li>
+        <li>Safe and Secure</li>
+    </ul>
+    <div class="link">
+        <a href="/web/20160901075711/http://www.frugaltravelguy.com/register" style="display: block;" class="orange-button">Create <span class="underline">FREE</span> Account</a>
+    </div>
+    <div class="link">
+        <a href="#" onclick="$('#wallet-dialog').dialog('close'); return false;" class="close-wallet-dialog underline">No Thanks</a>
+    </div>
+    <div class="secured">
+        <div class="divider"><span>Secured &amp; Powered By</span></div>
+        <div class="logo"><a href="http://web.archive.org/web/20160901075711/https://ssl.comodo.com/privacy-policy.php" target="_blank"><img src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/logo-comodo.png"/></a></div>
+        <div class="logo"><a href="http://web.archive.org/web/20160901075711/https://security.intuit.com/index.php" target="_blank"><img src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/logo-intuit.png"/></a></div>
+    </div>    
+</div><div id="footer">
+            <div class="top-section">
+            <div class="widget widget_text " id="text-35">			<ul id="footer-nav">
+        <li><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/about-frugal-travel-guy">About</a></li>
+        <li>|</li>
+        <li><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/in-the-news">In the News</a></li>
+        <li>|</li>
+        <li><a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/rookie-tips-and-faq">Rookie Tips &amp; FAQ</a></li>
+</ul><br/><br/>		</div><div class="widget widget_text " id="text-36">			<ul id="footer-nav">
+        <li><a href="http://web.archive.org/web/20160901075711/http://www.facebook.com/FrugalTravelGuy"><img alt="Follow FrugalTravelGuy on Facebook" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/facebook-follow.png"/></a></li>
+        <li><a href="http://web.archive.org/web/20160901075711/http://twitter.com/#!/frugaltravelguy"><img alt="Follow FrugalTravelGuy on Twitter" src="http://web.archive.org/web/20160901075711im_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/images/twitter-follow.png"/></a></li>
+</ul><br/><br/>		</div><div class="widget widget_text " id="text-37">			        <div class="copyright">
+            Copyright © 2016 <strong>Internet Brands, Inc.</strong> All Rights Reserved. 
+<br><a href="http://web.archive.org/web/20160901075711/http://www.internetbrands.com/privacy/cookie-policy.html">Cookie Policy</a> | <a href="http://web.archive.org/web/20160901075711/http://www.frugaltravelguy.com/terms-of-use">Terms of Use</a> | 
+<a href="http://web.archive.org/web/20160901075711/http://www.internetbrands.com/privacy/privacy-main.html" rel="nofollow">Privacy Policy</a>
+        </div>
+<script type="text/javascript" src="//web.archive.org/web/20160901075711js_/http://eucookie.internetbrands.com/eucookie/scripts/v1.0.0/eucookie.min.js"></script>
+<script type="text/javascript">
+(function(){
+ if(typeof IbEuCookie != 'undefined'){
+  //default parameters
+  IbEuCookie.handleIbCookieNotice();
+ }
+})();
+</script>		</div>        </div>
+                    <div class="widget widget_text " id="text-49">			<p id="disclosure"><a name="disclosure"></a><strong class="disclaimer">∗ Advertiser Disclosure:</strong> Many of the credit card offers that appear on this site are from credit card companies from which FrugalTravelGuy.com receives compensation. This compensation may impact how and where products appear on this site (including, for example, the order in which they appear). This site does not include all credit card offers available in the marketplace. Please view our <a href="/web/20160901075711/http://www.frugaltravelguy.com/frugaltravelguys-advertising-policy">advertising policy page</a> for more information.</p>
+<p>Editorial Disclaimer: The editorial content on this page is not provided by any bank, credit card issuer, airlines or hotel chain, and has not been reviewed, approved or otherwise endorsed by any of these entities. Opinions expressed here are author's alone, not those of the bank, credit card issuer, airlines or hotel chain, and have not been reviewed, approved or otherwise endorsed by any of these entities.</p>
+		</div>    </div>
+<div>
+    <!-- Begin comScore Tag -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({c1: "2", c2: "8138560"});
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+            s.async = true;
+            s.src = (document.location.protocol == "https:" ? "http://web.archive.org/web/20160901075711/https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    
+    <noscript>
+        <img src="//web.archive.org/web/20160901075711im_/http://b.scorecardresearch.com/p?c1=2&amp;c2=8138560&amp;cv=2.0&amp;cj=1"/>
+    </noscript>
+    <!-- End comScore Tag -->
+
+<div class="iblogounify_div" id="iblogounify_div" align="center">
+        <img src="//web.archive.org/web/20160901075711im_/http://ibpxl.com/images/ibnetwk-travel.gif" class="iblogounify_img" id="iblogounify_img">
+    </div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'ftgdev';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) url = url[0];
+                    else url = url[1]
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//web.archive.org/web/20160901075711/http://disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+
+<!--Plugin WP Missed Schedule 2011.0920.2011 Active--><script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/plugins/ftg-advanced-post-slider/bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/plugins/ftg-advanced-post-slider/js/advps.frnt.script.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/web.archive.org\/web\/20160901075711\/http:\/\/www.frugaltravelguy.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.63"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/sidebar-sticky.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/ftg-scrollup.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/single.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-includes/js/wp-embed.min.js?ver=4.5.3"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20160901075711js_/http://www.frugaltravelguy.com/wp-content/themes/frugalredesignnew/js/comment-reply.js?ver=4.5.3"></script>
+
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 07:57:11 Sep 01, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:14:35 Sep 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.764
+  exclusion.robots: 0.041
+  exclusion.robots.policy: 0.025
+  esindex: 0.015
+  cdx.remote: 261.832
+  LoadShardBlock: 337.37 (3)
+  PetaboxLoader3.datanode: 536.991 (4)
+  load_resource: 1150.963
+  PetaboxLoader3.resolve: 873.806
+-->

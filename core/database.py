@@ -294,15 +294,15 @@ class UniversalDatabase:
                 return self._row_to_content(row)
             return None
 
-    def search_content(self, query: str, limit: int = 50) -> List[Content]:
+    def search_content(self, query: str, limit: int = 50, offset: int = 0) -> List[Content]:
         """Simple full-text search across content"""
         with self.pool.get_connection() as conn:
             rows = conn.execute("""
                 SELECT * FROM content
                 WHERE title LIKE ? OR content LIKE ? OR ai_summary LIKE ?
                 ORDER BY created_at DESC
-                LIMIT ?
-            """, (f"%{query}%", f"%{query}%", f"%{query}%", limit)).fetchall()
+                LIMIT ? OFFSET ?
+            """, (f"%{query}%", f"%{query}%", f"%{query}%", limit, offset)).fetchall()
 
             return [self._row_to_content(row) for row in rows]
 
@@ -527,9 +527,14 @@ class UniversalDatabase:
 # Singleton instance for easy import
 db_instance = None
 
+def reset_database():
+    """Reset database instance - useful for testing or reconfiguration"""
+    global db_instance
+    db_instance = None
+
 def get_database() -> UniversalDatabase:
     """Get singleton database instance"""
     global db_instance
     if db_instance is None:
-        db_instance = UniversalDatabase()
+        db_instance = UniversalDatabase(config_path="/home/ubuntu/dev/atlas/config/database.yaml")
     return db_instance
