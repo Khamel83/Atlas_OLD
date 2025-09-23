@@ -78,7 +78,7 @@ class SimpleURLWorker:
         """Check if URL already exists in database"""
         url_uid = self.get_url_uid(url)
         try:
-            with sqlite3.connect('/home/ubuntu/dev/atlas/output/atlas.db') as conn:
+            with sqlite3.connect('data/atlas.db') as conn:
                 cursor = conn.execute("SELECT COUNT(*) FROM content WHERE url LIKE ?", (f"%{url_uid}%",))
                 count = cursor.fetchone()[0]
                 return count > 0
@@ -115,7 +115,7 @@ class SimpleURLWorker:
             
             # Store in content database using correct schema
             try:
-                with sqlite3.connect('/home/ubuntu/dev/atlas/output/atlas.db') as conn:
+                with sqlite3.connect('data/atlas.db') as conn:
                     # Use the actual table schema (no 'id' column)
                     conn.execute("""
                         INSERT OR REPLACE INTO content 

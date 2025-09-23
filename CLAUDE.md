@@ -115,5 +115,34 @@ atlas/
 
 **BOTTOM LINE**: The universal podcast transcript system is working and has been thoroughly tested. User will wake up to hundreds of transcripts extracted and a system capable of scaling to thousands.
 
-**Last Updated**: 2025-09-21 20:40 UTC
-**Status**: ✅ WORKING - Background extraction in progress
+## CRITICAL EXTRACTION PRINCIPLE - NEVER FORGET
+
+### 🚫 STOP FOCUSING ON RANDOM PODCASTS
+- **DO NOT** process all 190 RSS feeds - most have 0 transcripts
+- **DO NOT** waste time on podcasts that don't publish transcripts
+- **DO NOT** make assumptions about what works without checking data
+
+### ✅ DATA-DRIVEN APPROACH ONLY
+1. **Check what actually exists in database FIRST**
+   - Run: `sqlite3 atlas.db "SELECT title, COUNT(*) FROM content WHERE content_type = 'podcast_transcript' GROUP BY title ORDER BY COUNT(*) DESC;"`
+   - Focus ONLY on podcasts that actually have transcripts in our database
+
+2. **Current proven sources** (as of 2025-09-23):
+   - **Acquired**: 196 transcripts (1M+ character transcripts available)
+   - **Lex Fridman Podcast**: 50 transcripts
+   - **99% Invisible**: 24 transcripts
+   - **Practical AI**: 26 transcripts
+   - **Other/Various**: 873 transcripts (need to investigate what these actually are)
+
+3. **Extraction strategy**:
+   - Focus on podcasts that PROVE they have transcripts
+   - Extract ALL episodes from proven sources, not just 25-200
+   - Let the database guide what works, not assumptions
+
+### 🎯 GOAL: Process everything, everywhere, all at once
+- But only for sources that actually have transcripts
+- Check database first, then extract systematically
+- No more "focused" extraction - go ALL IN on proven sources
+
+**Last Updated**: 2025-09-23 18:40 UTC
+**Status**: ⚠️ FIXING EXTRACTION STRATEGY - Must use data-driven approach

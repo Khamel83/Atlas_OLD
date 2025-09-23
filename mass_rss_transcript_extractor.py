@@ -34,17 +34,41 @@ class MassTranscriptExtractor:
             self.sources_cache = {}
 
     def load_rss_feeds(self):
-        """Load RSS feeds from config"""
+        """Load RSS feeds from USER'S podcast config - only ones they care about"""
 
-        with open('config/podcast_rss_feeds.csv', 'r') as f:
-            reader = csv.reader(f)
-            for row in reader:
-                if len(row) >= 2:
-                    podcast_name = row[0].strip('"')
-                    rss_url = row[1].strip('"')
-                    self.rss_feeds[podcast_name] = rss_url
+        # Load RSS feed mappings
+        rss_mappings = {}
+        try:
+            with open('config/podcast_rss_feeds.csv', 'r') as f:
+                reader = csv.reader(f)
+                for row in reader:
+                    if len(row) >= 2:
+                        podcast_name = row[0].strip('"')
+                        rss_url = row[1].strip('"')
+                        rss_mappings[podcast_name] = rss_url
+        except:
+            rss_mappings = {}
 
-        print(f"Loaded {len(self.rss_feeds)} RSS feeds")
+        # Get user's actual podcasts from their config
+        user_podcasts = []
+        try:
+            with open('config/podcast_config.csv', 'r') as f:
+                reader = csv.reader(f)
+                next(reader)  # Skip header
+                for row in reader:
+                    if len(row) >= 6 and row[5] == '0':  # Not excluded
+                        podcast_name = row[1].strip('"')
+                        user_podcasts.append(podcast_name)
+        except:
+            user_podcasts = []
+
+        # Map user's podcasts to RSS feeds
+        self.rss_feeds = {}
+        for podcast in user_podcasts:
+            if podcast in rss_mappings:
+                self.rss_feeds[podcast] = rss_mappings[podcast]
+
+        print(f"Loaded {len(self.rss_feeds)} RSS feeds from USER'S podcast list")
 
     def extract_episodes_from_rss(self, podcast_name, rss_url, max_episodes=100):
         """Extract episodes from RSS feed"""
@@ -303,7 +327,7 @@ class MassTranscriptExtractor:
 
 def main():
     extractor = MassTranscriptExtractor()
-    extractor.process_all_rss_feeds(target_episodes_per_podcast=25)
+    extractor.process_all_rss_feeds(target_episodes_per_podcast=9999)  # ALL episodes
 
 if __name__ == "__main__":
     main()

@@ -1,34 +1,40 @@
 #!/bin/bash
-# Atlas Simple Startup Script
 
-echo "🚀 Starting Atlas - Your Digital Filing Cabinet"
-echo "=============================================="
+# Atlas Management System Startup Script
+# Runs continuously without manual intervention
 
-# Check if we're in the right directory
-if [ ! -f "web_interface.py" ]; then
-    echo "❌ Error: Please run this script from the Atlas directory"
-    exit 1
+echo "🚀 STARTING ATLAS MANAGEMENT SYSTEM"
+echo "=================================="
+echo "This will run continuously in the background"
+echo "Log files will be written to logs/atlas_manager.log"
+echo "=================================="
+
+# Create logs directory
+mkdir -p logs
+
+# Kill any existing atlas manager processes
+pkill -f "python3 atlas_manager.py" 2>/dev/null || true
+
+# Start the Atlas Manager in background
+nohup python3 atlas_manager.py > logs/atlas_manager.log 2>&1 &
+
+# Get the process ID
+ATLAS_PID=$!
+
+echo "Atlas Manager started with PID: $ATLAS_PID"
+echo "To check status: tail -f logs/atlas_manager.log"
+echo "To stop: pkill -f 'python3 atlas_manager.py'"
+echo "=================================="
+
+# Wait a moment and check if it's running
+sleep 3
+
+if ps -p $ATLAS_PID > /dev/null; then
+    echo "✅ Atlas Manager is running successfully"
+    echo "Last few log entries:"
+    echo "----------------------------------"
+    tail -n 5 logs/atlas_manager.log
+else
+    echo "❌ Atlas Manager failed to start"
+    echo "Check logs/atlas_manager.log for errors"
 fi
-
-# Activate virtual environment if it exists
-if [ -d "venv" ]; then
-    echo "📦 Activating virtual environment..."
-    source venv/bin/activate
-fi
-
-# Check if required packages are installed
-echo "🔍 Checking dependencies..."
-python3 -c "import fastapi, uvicorn, sqlite3" 2>/dev/null || {
-    echo "❌ Missing dependencies. Installing..."
-    pip install -r requirements.txt
-}
-
-# Start Atlas web interface
-echo "🌐 Starting Atlas web interface on port 7444..."
-echo "📱 Atlas will be available at: https://atlas.khamel.com"
-echo "🏠 Or locally at: http://localhost:7444"
-echo ""
-echo "Press Ctrl+C to stop Atlas"
-echo ""
-
-python3 web_interface.py
