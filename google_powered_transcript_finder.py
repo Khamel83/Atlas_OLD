@@ -96,7 +96,7 @@ class GooglePoweredTranscriptFinder:
             '{podcast} {term} text file'
         ]
 
-    def exhaustive_google_search(self, podcast_name: str) -> List[Dict]:
+    def exhaustive_google_search(self, podcast_name: str, max_results: int = 10) -> List[Dict]:
         """
         EXHAUSTIVE GOOGLE SEARCH using every possible combination
         """
@@ -106,11 +106,13 @@ class GooglePoweredTranscriptFinder:
         all_results = []
         query_count = 0
 
-        # PHASE 1: Site-specific searches for each transcript site
-        print("1️⃣ PHASE 1: Site-specific searches...")
-        for site in self.transcript_sites:
-            for term in self.search_terms:
-                for pattern in self.query_patterns[:6]:  # Use first 6 patterns
+        # PHASE 1: Site-specific searches for Tier 1 sites only
+        print("1️⃣ PHASE 1: Tier 1 site searches...")
+        tier_1_sites = ['fireflies.ai', 'otter.ai', 'rev.com', 'sonix.ai', 'trint.com']
+
+        for site in tier_1_sites:
+            for term in ['transcript', 'full transcript']:  # Only most effective terms
+                for pattern in self.query_patterns[:3]:  # Use first 3 patterns only
                     query = pattern.format(podcast=podcast_name, term=term) + f" site:{site}"
 
                     print(f"   Query {query_count+1}: {query[:60]}...")
@@ -125,7 +127,7 @@ class GooglePoweredTranscriptFinder:
                                 'title': result['title'],
                                 'domain': site,
                                 'content': transcript_data,
-                                'source': 'google_site_specific',
+                                'source': site,  # Use actual domain as source
                                 'query': query,
                                 'content_length': len(transcript_data)
                             })
@@ -133,28 +135,28 @@ class GooglePoweredTranscriptFinder:
 
                     time.sleep(0.2)  # Rate limiting
 
-                    # Break if we hit limits
-                    if query_count >= 500:  # Google allows ~100 queries/day free
-                        print(f"   ⚠️  Reached query limit: {query_count}")
+                    # Stop if we found enough results
+                    if len(all_results) >= max_results:
+                        print(f"   ✅ Found {len(all_results)} results, stopping search")
                         break
 
-                if query_count >= 500:
+                if len(all_results) >= max_results:
                     break
-            if query_count >= 500:
+            if len(all_results) >= max_results:
                 break
 
-        # PHASE 2: General searches (no site restriction)
-        if query_count < 500:
+        # PHASE 2: General searches (no site restriction) - only if needed
+        if len(all_results) < max_results and query_count < 50:
             print("2️⃣ PHASE 2: General searches...")
-            for term in self.search_terms:
-                for pattern in self.query_patterns:
+            for term in ['transcript', 'full transcript']:  # Most effective terms only
+                for pattern in self.query_patterns[:3]:  # First 3 patterns only
                     query = pattern.format(podcast=podcast_name, term=term)
 
                     print(f"   Query {query_count+1}: {query[:60]}...")
                     query_count += 1
 
                     results = self._execute_google_search(query)
-                    for result in results[:5]:  # Top 5 per query
+                    for result in results[:3]:  # Top 3 per query
                         transcript_data = self._test_url_for_transcript(result['link'])
                         if transcript_data:
                             all_results.append({
@@ -170,56 +172,15 @@ class GooglePoweredTranscriptFinder:
 
                     time.sleep(0.2)
 
-                    if query_count >= 500:
-                        print(f"   ⚠️  Reached query limit: {query_count}")
+                    if len(all_results) >= max_results:
+                        print(f"   ✅ Found {len(all_results)} results, stopping search")
                         break
 
-                if query_count >= 500:
+                if len(all_results) >= max_results:
                     break
 
-        # PHASE 3: Advanced search operators
-        if query_count < 500:
-            print("3️⃣ PHASE 3: Advanced search operators...")
-            advanced_queries = [
-                f'"{podcast_name}" filetype:pdf transcript',
-                f'"{podcast_name}" filetype:txt transcript',
-                f'"{podcast_name}" filetype:doc transcript',
-                f'"{podcast_name}" intitle:transcript',
-                f'"{podcast_name}" inurl:transcript',
-                f'"{podcast_name}" "full episode" text',
-                f'"{podcast_name}" transcript OR transcription OR "full text"',
-                f'allintitle: {podcast_name} transcript',
-                f'allinurl: {podcast_name} transcript',
-                f'cache:{podcast_name} transcript',
-                f'related:youtube.com {podcast_name} transcript'
-            ]
-
-            for query in advanced_queries:
-                print(f"   Query {query_count+1}: {query[:60]}...")
-                query_count += 1
-
-                results = self._execute_google_search(query)
-                for result in results:
-                    transcript_data = self._test_url_for_transcript(result['link'])
-                    if transcript_data:
-                        all_results.append({
-                            'url': result['link'],
-                            'title': result['title'],
-                            'domain': urlparse(result['link']).netloc,
-                            'content': transcript_data,
-                            'source': 'google_advanced',
-                            'query': query,
-                            'content_length': len(transcript_data)
-                        })
-                        print(f"     ✅ FOUND: {len(transcript_data)} chars")
-
-                time.sleep(0.2)
-
-                if query_count >= 500:
-                    print(f"   ⚠️  Reached query limit: {query_count}")
-                    break
-
-        print(f"\n📊 GOOGLE SEARCH SUMMARY:")
+        # Skip advanced search for efficiency
+        print(f"📊 GOOGLE SEARCH SUMMARY:")
         print(f"   Total queries executed: {query_count}")
         print(f"   Raw results found: {len(all_results)}")
 
@@ -230,7 +191,7 @@ class GooglePoweredTranscriptFinder:
         print(f"   Unique results: {len(unique_results)}")
         print(f"   Quality transcripts: {len(quality_results)}")
 
-        return quality_results
+        return quality_results[:max_results]
 
     def _execute_google_search(self, query: str, num_results: int = 10) -> List[Dict]:
         """Execute Google Custom Search API query"""

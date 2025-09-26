@@ -218,6 +218,35 @@ class AtlasManager:
         logging.info(f"Processed {processed} episodes, found {found} transcripts")
         return processed
 
+    def retry_failed_episodes(self, batch_size=30):
+        """Retry previously failed episodes with improved extraction patterns"""
+        logging.info(f"Retrying {batch_size} failed episodes")
+
+        # Import here to avoid circular imports
+        from retry_failed_episodes import retry_failed_episodes
+
+        try:
+            success_count = retry_failed_episodes(batch_size)
+            logging.info(f"Retry completed: {success_count} new transcripts extracted")
+            return success_count
+        except Exception as e:
+            logging.error(f"Error in retry process: {e}")
+            return 0
+
+    def process_url_ingestion(self, batch_size=5):
+        """Process URLs from the universal ingestion system"""
+        logging.info(f"Processing {batch_size} URLs from ingestion system")
+
+        try:
+            from url_ingestion_service import AtlasIngestionService
+            service = AtlasIngestionService()
+            result = service.process_pending_batch(batch_size)
+            logging.info(f"URL ingestion result: {result}")
+            return result.get('success', 0)
+        except Exception as e:
+            logging.error(f"Error processing URL ingestion: {e}")
+            return 0
+
     def maintenance_tasks(self):
         """Perform routine maintenance"""
         logging.info("Running maintenance tasks")
@@ -246,6 +275,12 @@ class AtlasManager:
 
         # Process a batch of queue items
         self.process_queue_batch(batch_size=50)
+
+        # Retry failed episodes with improved patterns
+        self.retry_failed_episodes(batch_size=30)
+
+        # Process URLs from universal ingestion system
+        self.process_url_ingestion(batch_size=5)
 
         # Check if we need to add more episodes
         pending_count = self.cursor.execute(

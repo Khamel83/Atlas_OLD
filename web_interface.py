@@ -1053,6 +1053,47 @@ async def add_content_page(request: Request):
     })
 
 
+@app.get("/atlas-add", response_class=HTMLResponse)
+async def atlas_add_redirect(request: Request):
+    """Handle custom URL scheme redirects for iOS Share Sheet"""
+    url = request.query_params.get('url', '')
+    title = request.query_params.get('title', '')
+    source = request.query_params.get('source', 'iOS Share Sheet')
+
+    # Extract title from URL if not provided
+    if not title and url:
+        try:
+            import urllib.parse
+            # Simple title extraction from URL
+            parsed = urllib.parse.urlparse(url)
+            path_parts = [p for p in parsed.path.split('/') if p]
+            if path_parts:
+                title = path_parts[-1].replace('-', ' ').replace('_', ' ').title()
+            else:
+                title = parsed.netloc
+        except:
+            title = "Shared Link"
+
+    # Redirect to add page with pre-filled data
+    return RedirectResponse(f"/add?content={url}&title={title}&source={source}")
+
+
+@app.get("/mobile-add", response_class=HTMLResponse)
+async def mobile_add_page(request: Request):
+    """Mobile-optimized add page for quick capture"""
+    # Extract URL parameters for pre-filling form
+    content_url = request.query_params.get('content', '')
+    title = request.query_params.get('title', '')
+    source = request.query_params.get('source', 'Mobile')
+
+    return templates.TemplateResponse("mobile_add.html", {
+        "request": request,
+        "prefilled_url": content_url,
+        "prefilled_title": title,
+        "prefilled_source": source
+    })
+
+
 @app.get("/search", response_class=HTMLResponse)
 async def search_page(request: Request):
     """Search page"""
