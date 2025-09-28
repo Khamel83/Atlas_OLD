@@ -211,6 +211,19 @@ Please investigate and resolve any issues.
 
 def main():
     """Main function to run email alerts"""
+    # Check if Telegram is configured
+    telegram_token = os.getenv('TELEGRAM_BOT_TOKEN')
+    telegram_chat = os.getenv('TELEGRAM_CHAT_ID')
+
+    if telegram_token and telegram_chat:
+        print("📱 Using Telegram alerts instead of email")
+        # Import and use Telegram alerts
+        from telegram_alerts import SimpleTelegramAlerts
+        telegram_alerts = SimpleTelegramAlerts()
+        telegram_alerts.run_alerts_check()
+        return
+
+    # Original email logic
     alerts = EmailAlerts()
     alerts.check_and_alert()
     print("✅ Email alerts check completed")

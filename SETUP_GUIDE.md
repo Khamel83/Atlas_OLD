@@ -212,7 +212,23 @@ The system includes a full-featured CLI:
 /auto-fix        # Fix code issues
 ```
 
-### Email Alerts
+### Telegram Alerts (Recommended)
+
+Configure Telegram notifications by adding to your `.env` file:
+
+```bash
+# Telegram Alerts
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+TELEGRAM_CHAT_ID=your_chat_id_here
+```
+
+**To get Telegram credentials:**
+1. Create a bot with @BotFather on Telegram
+2. Get your bot token
+3. Find your chat ID using @userinfobot or by sending a message to your bot
+4. Add both values to your .env file
+
+### Email Alerts (Alternative)
 
 Configure daily summaries and error notifications:
 
