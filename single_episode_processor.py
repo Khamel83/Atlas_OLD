@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 load_dotenv('/home/ubuntu/dev/atlas/.env')
 
 sys.path.append('/home/ubuntu/dev/atlas')
-from google_powered_transcript_finder import GooglePoweredTranscriptFinder
+from free_transcript_finder import FreeTranscriptFinder
 from helpers.universal_transcript_discoverer import UniversalTranscriptDiscoverer
 from youtube_caption_scraper import YouTubeCaptionScraper
 from archive_org_scraper import ArchiveOrgScraper
@@ -148,24 +148,24 @@ def process_episode(episode_id, episode_url, podcast_name):
                             transcript_source = "direct_scraping"
                             break
 
-        # STRATEGY 2: Google-powered transcript search
+        # STRATEGY 2: Free search alternatives (was: expensive Google-powered search)
         if not transcript:
-            print("🔍 Strategy 2: Google-powered search...")
+            print("🔍 Strategy 2: Free search alternatives...")
             try:
-                google_finder = GooglePoweredTranscriptFinder()
+                free_finder = FreeTranscriptFinder()
                 # Try to get episode title from URL or use generic
                 episode_title = f"Episode {episode_id}"
-                search_results = google_finder.exhaustive_google_search(podcast_name, max_results=10)
+                search_results = free_finder.exhaustive_search(podcast_name, max_results=10)
                 if search_results and len(search_results) > 0:
                     # Sort by source tier and quality
                     sorted_results = sorted(search_results, key=lambda x: (
-                        _get_source_tier(x.get('source', 'unknown')),
-                        x.get('length', 0)
+                        _get_source_tier(x.get('site', 'unknown')),
+                        x.get('content_length', 0)
                     ))
 
                     for result in sorted_results[:5]:  # Only try top 5 results
-                        source = result.get('source', 'unknown')
-                        length = result.get('length', 0)
+                        source = result.get('site', 'unknown')
+                        length = result.get('content_length', 0)
                         tier = _get_source_tier(source)
 
                         print(f"🎯 Trying {source} (Tier {tier}, {length} chars)...")
@@ -186,7 +186,7 @@ def process_episode(episode_id, episode_url, podcast_name):
                                     # Update best transcript if this is better
                                     if best_evaluation is None or evaluation['quality_score'] > best_evaluation['quality_score']:
                                         transcript = content
-                                        transcript_source = f"google_search:{source}"
+                                        transcript_source = f"free_search:{source}"
                                         best_evaluation = evaluation
 
                                     # STOP SEARCHING if we found a high-quality Tier 1 source
@@ -205,7 +205,7 @@ def process_episode(episode_id, episode_url, podcast_name):
                         if transcript or len([r for r in sorted_results[:5] if sorted_results.index(r) <= sorted_results.index(result)]) >= 3:
                             break
             except Exception as e:
-                print(f"⚠️  Google search failed: {e}")
+                print(f"⚠️  Free search failed: {e}")
 
         # STRATEGY 3: YouTube caption search
         if not transcript:
