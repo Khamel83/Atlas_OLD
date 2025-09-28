@@ -219,18 +219,27 @@ class AtlasManager:
         return processed
 
     def retry_failed_episodes(self, batch_size=30):
-        """Retry previously failed episodes with improved extraction patterns"""
-        logging.info(f"Retrying {batch_size} failed episodes")
-
-        # Import here to avoid circular imports
-        from retry_failed_episodes import retry_failed_episodes
+        """Retry previously failed episodes with intelligent retry logic"""
+        logging.info(f"Retrying {batch_size} failed episodes with enhanced logic")
 
         try:
+            # Use simple retry handler
+            from simple_retry_handler import SimpleRetryHandler
+            handler = SimpleRetryHandler()
+            results = handler.process_failed_batch(batch_size)
+
+            # Log results
+            logging.info(f"Simple retry completed: {results}")
+
+            # Also run the original retry processor for any newly queued episodes
+            from retry_failed_episodes import retry_failed_episodes
             success_count = retry_failed_episodes(batch_size)
-            logging.info(f"Retry completed: {success_count} new transcripts extracted")
+
+            logging.info(f"Original retry completed: {success_count} new transcripts extracted")
             return success_count
+
         except Exception as e:
-            logging.error(f"Error in retry process: {e}")
+            logging.error(f"Error in simple retry process: {e}")
             return 0
 
     def process_url_ingestion(self, batch_size=5):
@@ -258,8 +267,15 @@ class AtlasManager:
             (week_ago.isoformat(),)
         ).rowcount
 
-        # Compact database if needed
-        self.conn.execute("VACUUM")
+        # Commit transaction before VACUUM
+        self.conn.commit()
+
+        # Compact database if needed (VACUUM requires no active transaction)
+        try:
+            self.conn.execute("VACUUM")
+        except Exception as e:
+            logging.warning(f"VACUUM failed: {e}")
+            # Continue even if VACUUM fails
 
         logging.info(f"Cleaned up {deleted} old error entries")
 
