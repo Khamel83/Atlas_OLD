@@ -1,153 +1,166 @@
-# Atlas Development Status - September 23, 2025
+# Atlas Development Status - September 28, 2025
 
-## 🚀 COMPLETE AUTOMATED ATLAS MANAGEMENT SYSTEM DEPLOYED
+## 📚 **CRITICAL SYSTEM DOCUMENTATION**
+**Reference**: `ATLAS_SYSTEM_DOCUMENTATION.md` - Complete architecture, intent, and lessons learned
+**Purpose**: Comprehensive documentation for understanding system design, data model, and reconstruction guidance
+**Key Asset**: Database with 9,566 extracted transcripts - preserve at all costs
+
+## 🚀 COMPLETE AUTOMATED ATLAS MANAGEMENT SYSTEM + UNIVERSAL URL PROCESSING
 
 ### ✅ FULLY AUTOMATED - ZERO MANUAL INTERVENTION REQUIRED
-- **5,188 episodes** queued since September 1, 2025
-- **1,244 transcripts** extracted and stored
-- **Continuous processing** running 24/7 (PID: 4063841)
-- **Automated episode discovery** for 49 Future=1 podcasts
+- **9,566 transcripts** extracted and stored
+- **5,167 episodes** queued for continuous processing
+- **312,462 URLs** in universal processing queue
+- **Continuous processing** running 24/7 with auto-restart
+- **374 RSS feeds** monitored (96% expansion from 191)
 
 ### 🤖 CORE AUTOMATION SYSTEM
 - **`atlas_manager.py`** - Main automation engine with continuous processing
-- **`podcast_manager.py`** - Ongoing management with scheduled tasks
-- **`episode_processor.py`** - Granular episode-level processing
-- **`start_atlas.sh`** - Automated startup script for background operation
-- **`single_episode_processor.py`** - Individual episode processing for scalability
+- **`enhanced_monitor_atlas_fixed.sh`** - Auto-restart and health monitoring
+- **`monitoring_service.py`** - Real-time dashboard on port 7445
+- **`atlas_health.sh`** - Single KPI metric for real-time status
 
-### 📊 AUTOMATED PROCESSING CAPABILITIES
-- **Hourly batches**: 50 episodes processed automatically
-- **Daily discovery**: Checks all Future=1 podcasts at 9:00 AM
-- **Weekly maintenance**: Database optimization on Mondays at 2:00 PM
-- **Error handling**: Automatic cleanup and retry logic
-- **Real-time logging**: Comprehensive monitoring in `logs/atlas_manager.log`
+### 📊 REAL-TIME HEALTH MONITORING
+- **Single KPI Command**: `./atlas_health.sh`
+- **Health Score**: 0-100% real-time activity (not historical)
+- **Status Categories**: ACTIVE (80+), RUNNING (60+), IDLE (40+), DEGRADED (20+), STOPPED (<20)
+- **What it measures**: Current system activity + service health + processing activity
 
 ### 🎯 CURRENT OPERATIONAL STATUS
-- **Queue**: 5,068 pending episodes for processing
-- **Database**: 1,244 transcripts successfully extracted
-- **Podcasts**: 72 user podcasts, 190 RSS feeds mapped
-- **Automation**: Running continuously since September 23, 2025
-- **Activity**: Processing new episodes as they're published
+- **Database**: 9,566 transcripts successfully extracted
+- **Queue**: 5,167 episodes pending processing
+- **RSS Feeds**: 374 active feeds (expanded from 191)
+- **Services**: Atlas Manager + Monitoring + Enhanced Monitor
+- **Activity**: Real-time processing with auto-restart capabilities
 
 ## SYSTEM ARCHITECTURE - FULLY AUTOMATED
 
-### Automation Components
+### Core Components
 ```
 atlas/
-├── atlas_manager.py                    # MAIN AUTOMATION ENGINE
-├── podcast_manager.py                  # Ongoing podcast management
-├── episode_processor.py                 # Granular processing engine
-├── single_episode_processor.py          # Individual episode handler
-├── start_atlas.sh                       # Automated startup script
-├── daily_processor.py                   # Daily processing tasks
+├── atlas_manager.py                    # MAIN PROCESSING ENGINE
+├── enhanced_monitor_atlas_fixed.sh     # AUTO-RESTART & HEALTH MONITORING
+├── monitoring_service.py               # REAL-TIME DASHBOARD (port 7445)
+├── atlas_health.sh                     # SINGLE KPI METRIC
 ├── config/
-│   ├── podcast_config.csv              # User podcast preferences
+│   ├── podcast_config.csv              # 374 podcast configurations
 │   ├── podcast_rss_feeds.csv           # RSS feed mappings
-│   └── podcast_sources_cache.json      # Network-specific patterns
+│   ├── podcast_sources.json            # 5-source registry
+│   └── article_sources.json            # 9-source registry
 └── logs/
-    └── atlas_manager.log                # Real-time operation logs
+    ├── atlas_output.log                # Main processing logs
+    ├── enhanced_monitor.log             # Auto-restart logs
+    └── monitoring_output.log            # Dashboard logs
+```
+
+### Real-Time Health Check
+```bash
+# Ask Claude: "What's the Atlas health score?"
+# Claude runs: ./atlas_health.sh
+# Returns: Single number 0-100% + status explanation
 ```
 
 ### Automation Workflow
-1. **Continuous Operation**: 24/7 background processing
-2. **Episode Discovery**: Automatic RSS feed parsing since September 1, 2025
+1. **Continuous Operation**: 24/7 background processing with auto-restart
+2. **Episode Discovery**: Automatic RSS feed parsing from 374 sources
 3. **Queue Management**: Episode-level tracking with status monitoring
-4. **Transcript Extraction**: Network-specific patterns with quality validation
+4. **Transcript Extraction**: 5-source registry with quality validation
 5. **Database Storage**: Automatic transcript storage and deduplication
-6. **Scheduled Tasks**: Daily/weekly processing and maintenance
-7. **Error Recovery**: Automatic cleanup and restart capabilities
+6. **Health Monitoring**: Real-time activity tracking and service monitoring
+7. **Auto-Recovery**: Immediate restart on service failure
 
 ## OPERATIONAL FEATURES
 
-### 🔄 Automated Processing
-- **Batch Processing**: 50 episodes per hour automatically
+### 🔄 Continuous Processing
+- **Auto-Restart**: Services restart automatically within 2 minutes of failure
+- **Queue Processing**: 5,167 episodes continuously processed
 - **Duplicate Prevention**: No reprocessing of existing content
 - **Quality Filtering**: Network-specific transcript validation
 - **Rate Limiting**: Respectful source access timing
-- **Error Handling**: Graceful failure recovery and logging
 
-### 📅 Scheduled Operations
-- **Daily (9:00 AM)**: Check all Future=1 podcasts for new episodes
-- **Hourly**: Process queued episodes in batches
-- **Weekly (Monday 2:00 PM)**: Database maintenance and cleanup
-- **Continuous**: Background monitoring and logging
+### 📊 Real-Time Monitoring
+- **Health Score**: Single KPI metric (0-100%) for instant status
+- **Activity Tracking**: Recent log activity + service health + queue pressure
+- **Dashboard**: WebSocket monitoring at http://localhost:7445/monitoring/
+- **Alert System**: Critical resource monitoring and automatic recovery
 
-### 📈 Real-time Monitoring
-- **Live Logging**: All operations logged to `logs/atlas_manager.log`
-- **Status Tracking**: Queue status, transcript counts, processing rates
-- **Error Reporting**: Detailed error logging and recovery
-- **Performance Metrics**: Processing speed, success rates, source availability
+### 🎯 Performance Metrics
+- **Processing Rate**: ~32% transcript extraction success rate
+- **Service Uptime**: Auto-restart ensures continuous operation
+- **Queue Health**: 5,167 episodes pending processing
+- **Source Coverage**: 5 major podcast networks + 9 article sources
 
 ## USAGE & OPERATION
 
-### Starting the System
+### Quick Health Check
 ```bash
-# One-time startup - runs continuously
-./start_atlas.sh
+# Single command for Atlas status
+./atlas_health.sh
+# Returns: Health score 0-100% + detailed breakdown
 ```
 
-### Monitoring
+### Service Management
 ```bash
-# Real-time status monitoring
-tail -f logs/atlas_manager.log
+# Start continuous operation
+./enhanced_monitor_atlas_fixed.sh
 
-# Check if running
-ps aux | grep atlas_manager
+# Monitor in real-time
+tail -f logs/enhanced_monitor.log
+curl http://localhost:7445/health
 ```
 
-### Stopping
-```bash
-# Graceful shutdown
-pkill -f 'python3 atlas_manager.py'
-```
+### Status Interpretation
+- **80-100%**: 🟢 ACTIVE - Atlas actively processing
+- **60-79%**: 🟡 RUNNING - Atlas working but could be more active
+- **40-59%**: 🟠 IDLE - Atlas running but not very active
+- **20-39%**: 🔴 DEGRADED - Services missing or not responding
+- **0-19%**: ⚫ STOPPED - Not working, needs immediate attention
 
 ## TECHNICAL SPECIFICATIONS
 
+### Real-Time KPI Calculation
+```bash
+# Components (0-100 scale):
+# - Recent Activity (0-50): Log entries in current hour
+# - System Health (0-50): Running services (Atlas=30, Monitor=10, Enhanced=10)
+# - Queue Pressure (0-10): Bonus for having work to do
+# = Real-time activity score (ignores historical success)
+```
+
 ### Database Schema
-- **content table**: Stores transcripts with metadata
-- **episode_queue table**: Episode-level processing tracking
+- **content table**: 9,566 transcripts with metadata
+- **episode_queue table**: 5,167 episodes with processing status
 - **Status tracking**: pending, found, not_found, error states
 - **Timestamps**: Created/updated times for all operations
 
-### Processing Pipeline
-1. **RSS Feed Parsing**: 190 feeds monitored continuously
-2. **Episode Extraction**: Individual episode URLs and metadata
-3. **Transcript Discovery**: Multi-strategy extraction with network patterns
-4. **Quality Validation**: Length and content verification
-5. **Database Storage**: Atomic storage with duplicate prevention
-6. **Status Updates**: Real-time queue and processing status
-
-### Error Recovery
-- **Automatic Retry**: Failed episodes marked for retry
-- **Rate Limiting**: Exponential backoff for source protection
-- **Cleanup Routines**: Old error entries removed weekly
-- **Graceful Degradation**: System continues with partial failures
+### Auto-Restart System
+- **Health Checks**: Every 2 minutes
+- **Service Monitoring**: Process + responsiveness validation
+- **Resource Alerts**: CPU, memory, disk usage thresholds
+- **Automatic Recovery**: Immediate restart on service failure
 
 ## DEPLOYMENT STATUS
 
 ### ✅ PRODUCTION READY
-- **Fully Automated**: No manual intervention required
+- **Continuous Operation**: Auto-restart ensures 24/7 operation
+- **Real-Time Monitoring**: Single KPI metric for instant status
 - **Scalable Architecture**: Handles thousands of episodes
-- **Robust Error Handling**: Continuous operation despite failures
 - **Comprehensive Logging**: Full visibility into operations
-- **Production Tested**: Running successfully with real data
+- **Zero Manual Intervention**: Fully automated operation
 
 ### 🎯 CURRENT METRICS
-- **Uptime**: 100% since deployment
-- **Processing Rate**: ~50 episodes/hour
-- **Success Rate**: ~15-20% transcript extraction
-- **Database Growth**: 1,244 transcripts and growing
-- **Queue Health**: 5,068 episodes pending processing
+- **Health Score**: Real-time 0-100% activity metric
+- **Processing Queue**: 5,167 episodes pending
+- **Success Rate**: ~32% transcript extraction
+- **RSS Feeds**: 374 sources monitored
+- **Services**: Auto-restart every 2 minutes
 
-### 🚀 FUTURE CAPABILITIES
-- **Multi-source Expansion**: GitHub, Medium, Archive.org integration
-- **Enhanced Patterns**: Additional network-specific optimizations
-- **Performance Analytics**: Processing efficiency and source quality metrics
-- **User Dashboard**: Web-based monitoring and management interface
+### 🚀 CORE PRINCIPLE
+**Atlas is always running. Every episode is either done or in progress. Real-time health monitoring ensures immediate detection of any issues.**
 
 ---
 
-**BOTTOM LINE**: Atlas is now a fully automated podcast transcript management system that operates continuously without manual intervention. It processes episodes, extracts transcripts, and manages the entire pipeline automatically.
+**BOTTOM LINE**: Atlas operates continuously with real-time health monitoring. Ask "What's the Atlas health score?" for instant, accurate status without searching or guessing.
 
-**Last Updated**: 2025-09-23 15:56 UTC
-**Status**: 🚀 FULLY AUTOMATED - Running continuously in production
+**Last Updated**: 2025-09-28 12:47 UTC
+**Status**: 🚀 CONTINUOUS OPERATION - Real-time monitoring active
